@@ -3,7 +3,7 @@
 # Licensed under the MIT License. See https://go.microsoft.com/fwlink/?linkid=2090316 for license information.
 #-------------------------------------------------------------------------------------------------------------
 
-FROM haxe:4.0.5-buster
+FROM ubuntu:18.04
 
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
@@ -17,9 +17,11 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends apt-utils dialog 2>&1 \
     #
     # Verify git and needed tools are installed
-    && apt-get install -y git iproute2 procps sudo bash-completion build-essential python3 python3-pip \
+    && apt-get install -y git iproute2 procps sudo bash-completion build-essential curl python3 python3-pip python3-setuptools software-properties-common \
     && curl -sL https://deb.nodesource.com/setup_12.x | bash - \
     && apt-get install -y nodejs=12.* \
+    && add-apt-repository ppa:haxe/haxe4.0 \
+    && apt-get install -y haxe=1:4.0* \
     #
     # Clean up
     && apt-get autoremove -y \
