@@ -1,0 +1,8 @@
+--main Test
+--class-path src
+--class-path test
+--library utest
+--library compiletime
+--macro include('withyoulike.entities')
+-D UTEST_PRINT_TESTS
+--interp

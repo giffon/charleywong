@@ -1,0 +1,11 @@
+{
+	"name": "WithYouLike",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "workspace",
+	"workspaceFolder": "/workspace",
+	"postCreateCommand": "pip3 install -r requirements.txt && npm install && haxelib newrepo && haxelib install all --always",
+	"extensions": [
+		"nadako.vshaxe"
+	],
+	"appPort": [ 3000 ]
+}
