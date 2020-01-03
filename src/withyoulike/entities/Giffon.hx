@@ -7,7 +7,7 @@ class Giffon implements Entity {
 
     public final webpages = [
         {
-            url: "https://www.facebook.com/giffon.io",
+            url: "https://www.facebook.com/giffon.io/",
         },
     ];
 

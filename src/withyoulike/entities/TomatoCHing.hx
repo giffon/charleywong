@@ -8,7 +8,7 @@ class TomatoCHing implements Entity {
 
     public final webpages = [
         {
-            url: "https://www.facebook.com/tomato.c.hing.shamshuipo",
+            url: "https://www.facebook.com/tomato.c.hing.shamshuipo/",
         },
     ];
 
