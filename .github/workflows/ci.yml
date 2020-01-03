@@ -1,0 +1,25 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install dependencies
+        run: |
+          set -ex
+          sudo add-apt-repository ppa:haxe/haxe4.0
+          sudo apt-get update -qqy
+          sudo apt-get install -qqy git iproute2 procps sudo bash-completion build-essential python3 python3-pip haxe
+          curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+          sudo apt-get install -y nodejs=12.*
+          pip3 install -r requirements.txt
+          npm install
+          haxelib newrepo
+          haxelib install all --always
+      - name: Compile index.js
+        run: haxe build.hxml
+      - name: Run test
+        run: haxe test.hxml
