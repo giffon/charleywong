@@ -5,7 +5,7 @@ import withyoulike.*;
 
 typedef Post = {
     url:String,
-    summary:MultiLangString,
+    ?summary:Null<MultiLangString>,
 }
 
 typedef WebPage = {
