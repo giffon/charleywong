@@ -1,0 +1,4 @@
+--class-path src
+--class-path lib/pyextern/out
+--python import.py
+--main withyoulike.importer.Importer

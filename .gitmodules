@@ -1,3 +1,6 @@
 [submodule "lib/hxnodelibs"]
 	path = lib/hxnodelibs
 	url = https://github.com/HaxeFoundation/hxnodelibs.git
+[submodule "lib/pyextern"]
+	path = lib/pyextern
+	url = https://github.com/andyli/pyextern.git
