@@ -5,6 +5,11 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-18.04
+    services:
+      selenium:
+        image: selenium/standalone-chrome-debug:3.141.59-yttrium
+        ports:
+          - 4444:4444
     steps:
       - uses: actions/checkout@v1
         with:
@@ -30,3 +35,7 @@ jobs:
         run: haxe import.hxml
       - name: Run test
         run: haxe test.hxml
+      - name: Test importer
+        run: python3 import.py https://www.facebook.com/thebookcure.hk/posts/2729989220398638
+        env:
+          HUB_HOST: ${{ job.services.selenium.ports[4444] }}

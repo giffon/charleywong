@@ -1,5 +1,6 @@
 package withyoulike.importer;
 
+import haxe.Json;
 import sys.io.File;
 import haxe.ds.ReadOnlyArray;
 import selenium.webdriver.*;
@@ -51,8 +52,7 @@ class Importer {
     }
 
     function fbPageName():String {
-        var titleNode:WebElement = driver.find_element_by_tag_name("title");
-        var titleValue:String = titleNode.get_attribute("text");
+        var titleValue:String = driver.title;
         var regex = ~/^(.+?) - About \| Facebook$/;
         if (regex.match(titleValue)) {
             return regex.matched(1);
@@ -210,6 +210,21 @@ class Importer {
         };
     }
 
+    static function importFbPage(fbPage:String, postUrl:String) {
+        var info = new Importer().fbPageInfo(fbPage);
+        Sys.println(Json.stringify(info, null, "  "));
+        var cls = createEntity(info.name, fbPage, postUrl);
+        cls.pack = ["withyoulike", "entities"];
+        var fileContent = new haxe.macro.Printer("    ").printTypeDefinition(cls);
+        Sys.println("");
+        Sys.println(fileContent);
+        if (Sys.getEnv("CI") != null || Sys.getEnv("GITHUB_ACTIONS") != null) {
+            Sys.println("In CI, skip writing file.");
+        } else {
+            File.saveContent("src/withyoulike/entities/" + cls.name + ".hx", fileContent);
+        }
+    }
+
     static function main() {
         var args = Sys.args();
         var url = args[0];
@@ -221,12 +236,13 @@ class Importer {
         var photosRegexp = ~/^https:\/\/www\.facebook\.com\/(.+?)\/photos\/.+$/;
         if (photosRegexp.match(url)) {
             var fbPage = photosRegexp.matched(1);
-            var info = new Importer().fbPageInfo(fbPage);
-            var cls = createEntity(info.name, fbPage, url);
-            cls.pack = ["withyoulike", "entities"];
-            var fileContent = new haxe.macro.Printer("    ").printTypeDefinition(cls);
-            trace(fileContent);
-            File.saveContent("src/withyoulike/entities/" + cls.name + ".hx", fileContent);
+            importFbPage(fbPage, url);
+            return;
+        }
+
+        var postRegexp = ~/^https:\/\/www\.facebook\.com\/(.+?)\/posts\/.+$/;
+        if (postRegexp.match(url)) {
+            importFbPage(postRegexp.matched(1), url);
             return;
         }
 
@@ -250,11 +266,11 @@ class Importer {
             return toTitleCase(name);
         }
 
-        if (~/^[A-Za-z ]+$/.match(fbPage)) {
+        if (~/^[A-Za-z \.]+$/.match(fbPage)) {
             return toTitleCase(fbPage);
         }
 
-        throw 'Cannot get a class name.';
+        throw 'Cannot get a class name from $name ($fbPage).';
     }
 
     static function createEntity(name:String, fbPage:String, post:String) {
