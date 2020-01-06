@@ -38,4 +38,4 @@ jobs:
       - name: Test importer
         run: python3 import.py https://www.facebook.com/thebookcure.hk/posts/2729989220398638
         env:
-          HUB_HOST: ${{ job.services.selenium.ports[4444] }}
+          HUB_HOST: localhost
