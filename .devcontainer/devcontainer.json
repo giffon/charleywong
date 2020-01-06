@@ -3,7 +3,7 @@
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "workspace",
 	"workspaceFolder": "/workspace",
-	"postCreateCommand": "pip3 install -r requirements.txt && npm install && haxelib newrepo && haxelib install all --always",
+	"postCreateCommand": "python3 -m virtualenv -p /usr/bin/python3.7 ~/venv && echo \"source ~/venv/bin/activate\" >> ~/.bashrc && bash -ic \"pip3 install -r requirements.txt\" && npm install && haxelib newrepo && haxelib install all --always",
 	"extensions": [
 		"nadako.vshaxe"
 	],
