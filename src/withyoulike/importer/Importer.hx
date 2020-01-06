@@ -141,7 +141,7 @@ class Importer {
     function hoursOfDay(day:String) {
         var node:WebElement = driver.find_element_by_xpath('//div[contains(text(),"${day}:")]/following-sibling::div');
         var hoursStr:String = node.text;
-        var regexp = ~/([0-9]+:[0-9]+) - ([0-9]+:[0-9]+)/;
+        var regexp = ~/([0-9]+:[0-9]+(?: AM| PM)?) - ([0-9]+:[0-9]+(?: AM| PM)?)/;
         if (regexp.match(hoursStr)) {
             return HRanges([{ open: regexp.matched(1), close: regexp.matched(2) }]);
         }
