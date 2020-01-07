@@ -30,11 +30,11 @@ jobs:
         run: |
           set -ex
           python3 -m virtualenv -p /usr/bin/python3.7 ~/venv
-          echo \"source ~/venv/bin/activate\" >> ~/.bashrc
+          source ~/venv/bin/activate
+          pip3 install -r requirements.txt
       - name: Install libraries
         run: |
           set -ex
-          pip3 install -r requirements.txt
           npm install
           haxelib newrepo
           haxelib install all --always
@@ -45,6 +45,9 @@ jobs:
       - name: Run test
         run: haxe test.hxml
       - name: Test importer
-        run: python3 import.py https://www.facebook.com/thebookcure.hk/posts/2729989220398638
+        run: |
+          set -ex
+          source ~/venv/bin/activate
+          python3 import.py https://www.facebook.com/thebookcure.hk/posts/2729989220398638
         env:
           HUB_HOST: selenium
