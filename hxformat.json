@@ -1,0 +1,13 @@
+{
+    "indentation": {
+        "character": "    "
+    },
+    "wrapping": {
+        "objectLiteral": {
+            "defaultWrap": "onePerLine"
+        },
+        "arrayWrap": {
+            "defaultWrap": "onePerLine"
+        }
+    }
+}

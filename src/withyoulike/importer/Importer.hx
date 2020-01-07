@@ -221,8 +221,13 @@ class Importer {
                 updateEntity(entity, postUrl);
         }
         var fileContent = new haxe.macro.Printer("    ").printTypeDefinition(cls);
+        var formatterProcess = new sys.io.Process("haxelib", ["run", "formatter", "--stdin", "-s", "src"]);
+        formatterProcess.stdin.writeString(fileContent);
+        formatterProcess.stdin.close();
+        fileContent = formatterProcess.stdout.readAll().toString();
+        formatterProcess.close();
         Sys.println("");
-        Sys.println(fileContent);
+        Sys.print(fileContent);
         if (Sys.getEnv("CI") != null || Sys.getEnv("GITHUB_ACTIONS") != null) {
             Sys.println("In CI, skip writing file.");
         } else {
