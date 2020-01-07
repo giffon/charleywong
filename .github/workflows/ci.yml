@@ -27,6 +27,7 @@ jobs:
           add-apt-repository ppa:deadsnakes/ppa
           apt-get install -y python3.7
       - name: Setup Python virtualenv
+        shell: bash
         run: |
           set -ex
           python3 -m virtualenv -p /usr/bin/python3.7 ~/venv
@@ -45,6 +46,7 @@ jobs:
       - name: Run test
         run: haxe test.hxml
       - name: Test importer
+        shell: bash
         run: |
           set -ex
           source ~/venv/bin/activate
