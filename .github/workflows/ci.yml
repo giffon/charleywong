@@ -4,7 +4,8 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
+    container: ubuntu:18.04
     services:
       selenium:
         image: selenium/standalone-chrome-debug:3.141.59-yttrium
@@ -20,11 +21,15 @@ jobs:
       - name: Install dependencies
         run: |
           set -ex
-          sudo add-apt-repository ppa:haxe/haxe4.0
-          sudo apt-get update -qqy
-          sudo apt-get install -qqy git iproute2 procps sudo bash-completion build-essential haxe
-          curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-          sudo apt-get install -y nodejs=12.*
+          apt-get update -qqy
+          apt-get install -y git iproute2 procps sudo bash-completion build-essential curl software-properties-common
+          curl -sL https://deb.nodesource.com/setup_12.x | bash -
+          apt-get install -y nodejs=12.*
+          add-apt-repository ppa:haxe/haxe4.0
+          apt-get install -y haxe=1:4.0*
+      - name: Install libraries
+        run: |
+          set -ex
           pip3 install -r requirements.txt
           npm install
           haxelib newrepo
@@ -38,4 +43,4 @@ jobs:
       - name: Test importer
         run: python3 import.py https://www.facebook.com/thebookcure.hk/posts/2729989220398638
         env:
-          HUB_HOST: localhost
+          HUB_HOST: selenium
