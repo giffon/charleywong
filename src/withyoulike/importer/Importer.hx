@@ -54,7 +54,7 @@ class Importer {
 
     function fbPageName():String {
         var titleValue:String = driver.title;
-        var regex = ~/^(.+?) - About \| Facebook$/;
+        var regex = ~/^(.+?) - .+ \| Facebook$/;
         if (regex.match(titleValue)) {
             return regex.matched(1);
         } else {
@@ -226,7 +226,9 @@ class Importer {
         if (Sys.getEnv("CI") != null || Sys.getEnv("GITHUB_ACTIONS") != null) {
             Sys.println("In CI, skip writing file.");
         } else {
-            File.saveContent("src/withyoulike/entities/" + cls.name + ".hx", fileContent);
+            var file = "src/withyoulike/entities/" + cls.name + ".hx";
+            File.saveContent(file, fileContent);
+            Sys.println("Wrote file to " + file);
         }
     }
 
@@ -271,9 +273,11 @@ class Importer {
             return toTitleCase(name);
         }
 
-        if (~/^[A-Za-z \.]+$/.match(fbPage)) {
+        if (~/^[A-Za-z \.\(\)]+$/.match(fbPage)) {
             return toTitleCase(fbPage);
         }
+
+        return toTitleCase(name);
 
         throw 'Cannot get a class name from $name ($fbPage).';
     }
