@@ -5,12 +5,14 @@ using Lambda;
 using StringTools;
 
 class TestAllEntities extends utest.Test {
-    static final entityClasses:ReadOnlyArray<Class<Dynamic>> = CompileTime.getAllClasses("withyoulike.entities", true, Entity).array();
+    function testEntityIndex() {
+        Assert.isFalse(EntityIndex.entities.empty());
+        Assert.isFalse(EntityIndex.entitiesOfUrl.empty());
+        Assert.isFalse(EntityIndex.entitiesOfFbPage.empty());
+    }
 
     function testUrlAccessibility():Void {
-        Assert.isTrue(entityClasses.length > 0);
-        for (entityClass in entityClasses) {
-            var entity:Entity = Type.createInstance(entityClass, []);
+        for (entity in EntityIndex.entities) {
             for (page in entity.webpages) {
                 validateUrl(page.url);
             }
@@ -22,13 +24,11 @@ class TestAllEntities extends utest.Test {
     }
 
     function testUrlUniqueness():Void {
-        Assert.isTrue(entityClasses.length > 0);
         var url = new Map<String, Class<Dynamic>>();
-        for (entityClass in entityClasses) {
-            var entity:Entity = Type.createInstance(entityClass, []);
+        for (entityClassName => entity in EntityIndex.entities) {
             for (page in entity.webpages) {
                 if (url.exists(page.url)) {
-                    throw '$url exists in both ${Type.getClassName(entityClass)} and ${Type.getClassName(url[page.url])}.';
+                    throw '$url exists in both ${entityClassName} and ${Type.getClassName(url[page.url])}.';
                 }
             }
         }
@@ -36,10 +36,8 @@ class TestAllEntities extends utest.Test {
     }
 
     function testFbUrlFormat() {
-        Assert.isTrue(entityClasses.length > 0);
         var regexp = ~/^https?:\/\/(?:www.)?facebook.com\/(.+?)\/?$/;
-        for (entityClass in entityClasses) {
-            var entity:Entity = Type.createInstance(entityClass, []);
+        for (entity in EntityIndex.entities) {
             for (page in entity.webpages)
             if (regexp.match(page.url))
             Assert.equals('https://www.facebook.com/${regexp.matched(1)}/', page.url);

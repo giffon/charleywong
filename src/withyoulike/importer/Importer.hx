@@ -13,6 +13,7 @@ import selenium.webdriver.remote.switch_to.SwitchTo;
 import selenium.webdriver.remote.webelement.*;
 import haxe.macro.Expr;
 using StringTools;
+using Lambda;
 
 enum OpeningHours {
     HOpen;
@@ -211,10 +212,14 @@ class Importer {
     }
 
     static function importFbPage(fbPage:String, postUrl:String) {
-        var info = new Importer().fbPageInfo(fbPage);
-        Sys.println(Json.stringify(info, null, "  "));
-        var cls = createEntity(info.name, fbPage, postUrl);
-        cls.pack = ["withyoulike", "entities"];
+        var cls = switch (EntityIndex.entitiesOfFbPage[fbPage]) {
+            case null:
+                var info = new Importer().fbPageInfo(fbPage);
+                Sys.println(Json.stringify(info, null, "  "));
+                createEntity(info.name, fbPage, postUrl);
+            case entity:
+                updateEntity(entity, postUrl);
+        }
         var fileContent = new haxe.macro.Printer("    ").printTypeDefinition(cls);
         Sys.println("");
         Sys.println(fileContent);
@@ -273,6 +278,48 @@ class Importer {
         throw 'Cannot get a class name from $name ($fbPage).';
     }
 
+    static function updateEntity(entity:Entity, post:String) {
+        var fullName = Type.getClassName(Type.getClass(entity)).split(".");
+        var className = fullName[fullName.length - 1];
+        var nameExprs = [
+            for (lang => name in entity.name)
+            {
+                var nameExpr = {
+                    expr: EConst(CString(name)),
+                    pos: null,
+                };
+                macro $i{lang.getName()} => ${nameExpr};
+            }
+        ];
+        var webpagesExprs = [
+            for (p in entity.webpages)
+            {
+                var urlExpr = {
+                    expr: EConst(CString(p.url)),
+                    pos: null,
+                };
+                macro { url: $urlExpr };
+            }
+        ];
+        var postsExprs = [
+            for (p in entity.posts.concat([{ url: post }]))
+            {
+                var urlExpr = {
+                    expr: EConst(CString(p.url)),
+                    pos: null,
+                };
+                macro { url: $urlExpr };
+            }
+        ];
+        var cls = macro class $className implements Entity {
+            public final name = $a{nameExprs};
+            public final webpages = $a{webpagesExprs};
+            public final posts = $a{postsExprs};
+        };
+        cls.pack = fullName.slice(0, fullName.length - 1);
+        return cls;
+    }
+
     static function createEntity(name:String, fbPage:String, post:String) {
         var className = getClassName(name, fbPage);
         var nameExpr = {
@@ -288,7 +335,7 @@ class Importer {
             pos: null,
         };
         var isEn = ~/^[A-Za-z _-]+$/.match(name);
-        return macro class $className {
+        var cls = macro class $className implements Entity {
             public final name = [
                 $i{isEn ? "en" : "zh"} => ${nameExpr}
             ];
@@ -299,5 +346,7 @@ class Importer {
                 url: ${postExpr}
             }];
         };
+        cls.pack = ["withyoulike", "entities"];
+        return cls;
     }
 }

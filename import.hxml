@@ -1,4 +1,6 @@
 --class-path src
 --class-path lib/pyextern/out
+--library compiletime
 --python import.py
 --main withyoulike.importer.Importer
+--macro include('withyoulike.entities')
