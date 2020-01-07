@@ -5,7 +5,15 @@ class Starology implements Entity {
         en => "Starology",
     ];
 
-    public final webpages = [{"url":"https://www.facebook.com/starologystudio/"}];
+    public final webpages = [
+        {
+            url: "https://www.facebook.com/starologystudio/"
+        }
+    ];
 
-    public final posts = [{"url":"https://www.facebook.com/starologystudio/photos/a.626930674119777/1933674886778676"}];
+    public final posts = [
+        {
+            url: "https://www.facebook.com/starologystudio/photos/a.626930674119777/1933674886778676"
+        }
+    ];
 }

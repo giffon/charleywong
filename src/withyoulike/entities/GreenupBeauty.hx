@@ -6,9 +6,17 @@ class GreenupBeauty implements Entity {
     ];
 
     public final webpages = [
-        {"url": "https://www.greenupbeauty.com/"},
-        {"url": "https://www.facebook.com/greenupbeauty/"}
+        {
+            url: "https://www.greenupbeauty.com/"
+        },
+        {
+            url: "https://www.facebook.com/greenupbeauty/"
+        }
     ];
 
-    public final posts = [{"url":"https://www.facebook.com/greenupbeauty/posts/803008950119937"}];
+    public final posts = [
+        {
+            url: "https://www.facebook.com/greenupbeauty/posts/803008950119937"
+        }
+    ];
 }

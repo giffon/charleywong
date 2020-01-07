@@ -18,7 +18,9 @@ class TimeTraveller996 implements Entity {
     public final posts = [
         {
             url: "https://www.facebook.com/966TimeTraveller/photos/a.2020642271508727/2603763799863235",
-            summary: [ zh => "國際人權日休息一天, 維園見" ],
+            summary: [
+                zh => "國際人權日休息一天, 維園見"
+            ],
         }
     ];
 }

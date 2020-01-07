@@ -5,7 +5,15 @@ class Holhystore implements Entity {
         en => "Holhy store",
     ];
 
-    public final webpages = [{"url":"https://www.facebook.com/holhystore/"}];
+    public final webpages = [
+        {
+            url: "https://www.facebook.com/holhystore/"
+        }
+    ];
 
-    public final posts = [{"url":"https://www.facebook.com/holhystore/photos/a.872553352881381/1686352334834808"}];
+    public final posts = [
+        {
+            url: "https://www.facebook.com/holhystore/photos/a.872553352881381/1686352334834808"
+        }
+    ];
 }

@@ -6,7 +6,15 @@ class Honkazbookstore implements Entity {
         zh => "古本屋",
     ];
 
-    public final webpages = [{"url":"https://www.facebook.com/honkazbookstore/"}];
+    public final webpages = [
+        {
+            url: "https://www.facebook.com/honkazbookstore/"
+        }
+    ];
 
-    public final posts = [{"url":"https://www.facebook.com/honkazbookstore/posts/458061784960621"}];
+    public final posts = [
+        {
+            url: "https://www.facebook.com/honkazbookstore/posts/458061784960621"
+        }
+    ];
 }

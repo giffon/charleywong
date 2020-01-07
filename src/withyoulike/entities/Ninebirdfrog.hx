@@ -6,7 +6,15 @@ class Ninebirdfrog implements Entity {
         zh => "九鳥蛙古董館",
     ];
 
-    public final webpages = [{"url":"https://www.facebook.com/ninebirdfrog/"}];
+    public final webpages = [
+        {
+            url: "https://www.facebook.com/ninebirdfrog/"
+        }
+    ];
 
-    public final posts = [{"url":"https://www.facebook.com/ninebirdfrog/posts/981798738854228"}];
+    public final posts = [
+        {
+            url: "https://www.facebook.com/ninebirdfrog/posts/981798738854228"
+        }
+    ];
 }

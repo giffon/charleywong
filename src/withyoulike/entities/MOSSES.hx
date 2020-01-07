@@ -5,7 +5,15 @@ class MOSSES implements Entity {
         en => "MOSSES",
     ];
 
-    public final webpages = [{"url":"https://www.facebook.com/mossesbooks/"}];
+    public final webpages = [
+        {
+            url: "https://www.facebook.com/mossesbooks/"
+        }
+    ];
 
-    public final posts = [{"url":"https://www.facebook.com/mossesbooks/photos/a.136639403633160/392482371382194"}];
+    public final posts = [
+        {
+            url: "https://www.facebook.com/mossesbooks/photos/a.136639403633160/392482371382194"
+        }
+    ];
 }

@@ -5,7 +5,15 @@ class WeAreNOExpert implements Entity {
         en => "We Are NO Expert",
     ];
 
-    public final webpages = [{"url":"https://www.facebook.com/wearenoexpert/"}];
+    public final webpages = [
+        {
+            url: "https://www.facebook.com/wearenoexpert/"
+        }
+    ];
 
-    public final posts = [{"url":"https://www.facebook.com/wearenoexpert/posts/2654093951349765"}];
+    public final posts = [
+        {
+            url: "https://www.facebook.com/wearenoexpert/posts/2654093951349765"
+        }
+    ];
 }

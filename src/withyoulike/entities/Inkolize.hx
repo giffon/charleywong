@@ -7,10 +7,20 @@ class Inkolize implements Entity {
     ];
 
     public final webpages = [
-        {"url": "https://www.inkolize.com/"},
-        {"url": "https://www.facebook.com/inkolize/"},
-        {"url": "https://www.instagram.com/inkolize"}
+        {
+            url: "https://www.inkolize.com/"
+        },
+        {
+            url: "https://www.facebook.com/inkolize/"
+        },
+        {
+            url: "https://www.instagram.com/inkolize"
+        }
     ];
 
-    public final posts = [{"url":"https://www.instagram.com/p/B5Nqm8IBcc1/"}];
+    public final posts = [
+        {
+            url: "https://www.instagram.com/p/B5Nqm8IBcc1/"
+        }
+    ];
 }

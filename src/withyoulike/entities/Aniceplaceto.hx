@@ -6,9 +6,15 @@ class Aniceplaceto implements Entity {
         zh => "好地方工作室",
     ];
 
-    public final webpages = [{"url": "https://www.facebook.com/niceplaceto/"}];
+    public final webpages = [
+        {
+            url: "https://www.facebook.com/niceplaceto/"
+        }
+    ];
 
     public final posts = [
-        {"url": "https://www.facebook.com/niceplaceto/photos/a.719310798123623/2357079801013373"}
+        {
+            url: "https://www.facebook.com/niceplaceto/photos/a.719310798123623/2357079801013373"
+        }
     ];
 }

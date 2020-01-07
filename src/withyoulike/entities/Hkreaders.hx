@@ -6,7 +6,15 @@ class Hkreaders implements Entity {
         zh => "序言書室",
     ];
 
-    public final webpages = [{"url":"https://www.facebook.com/hkreaders/"}];
+    public final webpages = [
+        {
+            url: "https://www.facebook.com/hkreaders/"
+        }
+    ];
 
-    public final posts = [{"url":"https://www.facebook.com/hkreaders/posts/1255787531289887"}];
+    public final posts = [
+        {
+            url: "https://www.facebook.com/hkreaders/posts/1255787531289887"
+        }
+    ];
 }

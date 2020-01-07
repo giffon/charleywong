@@ -6,7 +6,15 @@ class Mimingmart implements Entity {
         zh => "彌明生活百貨",
     ];
 
-    public final webpages = [{"url":"https://www.facebook.com/mimingmart/"}];
+    public final webpages = [
+        {
+            url: "https://www.facebook.com/mimingmart/"
+        }
+    ];
 
-    public final posts = [{"url":"https://www.facebook.com/mimingmart/posts/2618763608181451"}];
+    public final posts = [
+        {
+            url: "https://www.facebook.com/mimingmart/posts/2618763608181451"
+        }
+    ];
 }

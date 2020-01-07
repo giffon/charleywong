@@ -5,7 +5,15 @@ class MuzePens implements Entity {
         en => "Muze Pens",
     ];
 
-    public final webpages = [{"url":"https://www.facebook.com/Muzepen/"}];
+    public final webpages = [
+        {
+            url: "https://www.facebook.com/Muzepen/"
+        }
+    ];
 
-    public final posts = [{"url":"https://www.facebook.com/Muzepen/photos/a.935005929856489/2508110985879301"}];
+    public final posts = [
+        {
+            url: "https://www.facebook.com/Muzepen/photos/a.935005929856489/2508110985879301"
+        }
+    ];
 }
