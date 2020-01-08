@@ -190,10 +190,7 @@ class Importer {
         return null;
     }
 
-    public function fbPageInfo(fbPage:String) {
-        var aboutUrl = 'https://www.facebook.com/pg/${fbPage}/about/';
-        driver.get(aboutUrl);
-
+    public function loginFbIfNeeded() {
         var requireLogin = try {
             new WebDriverWait(driver, 5).until(_ -> (driver.title:String).contains(" - About"));
             false;
@@ -218,7 +215,26 @@ class Importer {
             loginBtn.click();
             new WebDriverWait(driver, 20).until(_ -> driver.title != "Facebook");
         }
-        
+    }
+
+    // Get Facebook page name from a permalink.
+    public function fbPage(url:String):String {
+        driver.get(url);
+        var hiddenInput:WebElement = driver.find_element_by_xpath("//div[starts-with(text(),'See more of')]/following-sibling::*//input[starts-with(@value,'https://www.facebook.com/')]");
+        var value:String = hiddenInput.get_attribute("value");
+        var regexp = ~/^https:\/\/www\.facebook\.com\/(.+)\/$/;
+        if (regexp.match(value))
+            return regexp.matched(1);
+        else
+            throw value;
+    }
+
+    public function fbPageInfo(fbPage:String) {
+        var aboutUrl = 'https://www.facebook.com/pg/${fbPage}/about/';
+        driver.get(aboutUrl);
+
+        loginFbIfNeeded();
+
         return {
             name: fbPageName(),
             addr: fbPageAddr(),
@@ -228,18 +244,11 @@ class Importer {
         };
     }
 
-    public function extract(source:String) {
-        var fbUrlRegexp = ~/https:\/\/www.facebook.com\/(.+)\/?/;
-        if (!fbUrlRegexp.match(source)) {
-            throw '$source doesn\'t look like a Facebook URL.';
-        }
-        var pageName = fbUrlRegexp.matched(1);
-        var info = fbPageInfo(pageName);
-        var locations = info.addr.line;
-        return {
-            locations: locations,
-            telephone: info.tel,
-        };
+    static function importFbPermalink(url:String) {
+        var importer = new Importer();
+        var fbPage = importer.fbPage(url);
+        importer.destroy();
+        importFbPage(fbPage, url);
     }
 
     static function importFbPage(fbPage:String, postUrl:String) {
@@ -265,8 +274,9 @@ class Importer {
             Sys.println("In CI, skip writing file.");
         } else {
             var file = "src/withyoulike/entities/" + cls.name + ".hx";
+            var rewrite = sys.FileSystem.exists(file);
             File.saveContent(file, fileContent);
-            Sys.println("Wrote file to " + file);
+            Sys.println((rewrite ? "Rewritten " : "Created ") + file);
         }
     }
 
@@ -276,6 +286,19 @@ class Importer {
 
         if (!url.startsWith("https://www.facebook.com/")) {
             throw '$url doesn\'t look like a Facebook URL.';
+        }
+
+        // https://www.facebook.com/permalink.php?story_fbid=1384711015018289&id=897763637046365&__xts__%5B0%5D=68.ARDoat1gIoDWNhWOYOl4y2ph9GCqrYoWLE4bfOiLDxX9nOIYWW4IpujBgs52jBUlU_uzyAXHdsYldWW0tJvlRn-2_LXjLeAhbBIPxQLD1OXEoFFu1cmGbGm2XcVKvSI5yxeyLT-36li2qYQEPITHxhEMvwQAXYtySy_ErDCAPRi32K6H8iRp7pfc_pxc2S9AOb9IhlWwizb3o7_IunO6z-q22DorIPRXBBt2-R3Cpg4cz_yfM3-4uaGu2lPozkQXzcEwkCr84sUkl8gEVFaOYS8P51Xqo0jsH4gOHxwJP5c7hkyqxNvUmQhCjzFoticWkZ_p5laKOD5p0kh1bH3JgyMS7A&__tn__=-R
+        var permalinkRegexp = ~/^https:\/\/www\.facebook\.com\/permalink\.php.+$/;
+        if (permalinkRegexp.match(url)) {
+            var url = switch (url.indexOf("&__xts__")) {
+                case -1:
+                    url;
+                case qIndex:
+                    url.substring(0, qIndex);
+            };
+            importFbPermalink(url);
+            return;
         }
 
         var postRegexp = ~/^https:\/\/www\.facebook\.com\/(.+?)\/(?:posts|photos|videos)\/.+$/;
