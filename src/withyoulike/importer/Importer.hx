@@ -59,7 +59,7 @@ class Importer {
 
     function fbPageName():String {
         var titleValue:String = driver.title;
-        var regex = ~/^(.+?) - .+?(:? \| Facebook)?$/;
+        var regex = ~/^(.+?)(?: - .+?)?(:? \| Facebook)?$/;
         if (regex.match(titleValue)) {
             return regex.matched(1);
         } else {
@@ -192,7 +192,10 @@ class Importer {
 
     public function loginFbIfNeeded() {
         var requireLogin = try {
-            new WebDriverWait(driver, 5).until(_ -> (driver.title:String).contains(" - About"));
+            new WebDriverWait(driver, 5).until(_ ->
+                (driver.title:String).contains(" - About") ||
+                (driver.title:String).contains(" | Facebook")
+            );
             false;
         } catch (e:Dynamic) {
             try {
