@@ -30,10 +30,15 @@ class Importer {
     final driver:Remote;
     final hubHost:String;
     final hubUrl:String;
+    final fbEmail:Null<String>;
+    final fbPass:Null<String>;
 
     public function new():Void {
         hubHost = arg("HUB_HOST", "localhost");
         hubUrl = 'http://${hubHost}:4444/wd/hub';
+        fbEmail = arg("FB_EMAIL", null);
+        fbPass = arg("FB_PASS", null);
+
 
         var opts = new ChromeOptions();
         opts.add_argument("--disable-dev-shm-usage");
@@ -54,11 +59,11 @@ class Importer {
 
     function fbPageName():String {
         var titleValue:String = driver.title;
-        var regex = ~/^(.+?) - .+ \| Facebook$/;
+        var regex = ~/^(.+?) - .+?(:? \| Facebook)?$/;
         if (regex.match(titleValue)) {
             return regex.matched(1);
         } else {
-            throw 'Cannot get page title from "$titleValue".';
+            throw 'Cannot get page title from "$titleValue" (${driver.current_url}).';
         }
     }
 
@@ -188,6 +193,32 @@ class Importer {
     public function fbPageInfo(fbPage:String) {
         var aboutUrl = 'https://www.facebook.com/pg/${fbPage}/about/';
         driver.get(aboutUrl);
+
+        var requireLogin = try {
+            new WebDriverWait(driver, 5).until(_ -> (driver.title:String).contains(" - About"));
+            false;
+        } catch (e:Dynamic) {
+            try {
+                driver.find_element_by_xpath("//*[contains(text(),'You must log in to continue.')]");
+                true;
+            } catch (e:Dynamic) {
+                throw driver.title;
+            }
+        }
+
+        if (requireLogin) {
+            Sys.println("Facebook login required.");
+            if (fbEmail == null) throw 'Missing FB_EMAIL.';
+            if (fbPass == null) throw 'Missing FB_PASS.';
+            var emailInput:WebElement = driver.find_element_by_id("email");
+            var passInput:WebElement = driver.find_element_by_id("pass");
+            var loginBtn:WebElement = driver.find_element_by_id("loginbutton");
+            emailInput.send_keys([fbEmail]);
+            passInput.send_keys([fbPass]);
+            loginBtn.click();
+            new WebDriverWait(driver, 20).until(_ -> driver.title != "Facebook");
+        }
+        
         return {
             name: fbPageName(),
             addr: fbPageAddr(),
@@ -214,7 +245,9 @@ class Importer {
     static function importFbPage(fbPage:String, postUrl:String) {
         var cls = switch (EntityIndex.entitiesOfFbPage[fbPage]) {
             case null:
-                var info = new Importer().fbPageInfo(fbPage);
+                var importer = new Importer();
+                var info = importer.fbPageInfo(fbPage);
+                importer.destroy();
                 Sys.println(Json.stringify(info, null, "  "));
                 createEntity(info.name, fbPage, postUrl);
             case entity:
@@ -248,13 +281,26 @@ class Importer {
         var photosRegexp = ~/^https:\/\/www\.facebook\.com\/(.+?)\/photos\/.+$/;
         if (photosRegexp.match(url)) {
             var fbPage = photosRegexp.matched(1);
+            var url = switch (url.indexOf("?")) {
+                case -1:
+                    url;
+                case qIndex:
+                    url.substring(0, qIndex);
+            };
             importFbPage(fbPage, url);
             return;
         }
 
         var postRegexp = ~/^https:\/\/www\.facebook\.com\/(.+?)\/posts\/.+$/;
         if (postRegexp.match(url)) {
-            importFbPage(postRegexp.matched(1), url);
+            var fbPage = postRegexp.matched(1);
+            var url = switch (url.indexOf("?")) {
+                case -1:
+                    url;
+                case qIndex:
+                    url.substring(0, qIndex);
+            };
+            importFbPage(fbPage, url);
             return;
         }
 
@@ -332,8 +378,53 @@ class Importer {
     static function createEntity(name:String, fbPage:String, post:String) {
         var className = getClassName(name, fbPage);
         var nameExpr = {
-            expr: EConst(CString(name)),
-            pos: null,
+            var noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
+            var allChi = ~/^[\u4e00-\u9fff]+$/; // all chinese characters
+            var chi_en = ~/^([\u4e00-\u9fff]+)[^A-Za-z0-9]+(.+)$/; // chinese then eng
+            var en_chi = ~/^(.+)(?:[ \-]+)?([\u4e00-\u9fff]+)$/; // chinese then eng
+            if (noChi.match(name))
+                macro [
+                    en => ${{
+                        expr: EConst(CString(name)),
+                        pos: null,
+                    }}
+                ]
+            else if (allChi.match(name))
+                macro [
+                    zh => ${{
+                        expr: EConst(CString(name)),
+                        pos: null,
+                    }}
+                ]
+            else if (chi_en.match(name))
+                macro [
+                    zh => ${{
+                        expr: EConst(CString(chi_en.matched(1))),
+                        pos: null,
+                    }},
+                    en => ${{
+                        expr: EConst(CString(chi_en.matched(2))),
+                        pos: null,
+                    }},
+                ]
+            else if (en_chi.match(name))
+                macro [
+                    en => ${{
+                        expr: EConst(CString(en_chi.matched(1))),
+                        pos: null,
+                    }},
+                    zh => ${{
+                        expr: EConst(CString(en_chi.matched(2))),
+                        pos: null,
+                    }},
+                ]
+            else
+                macro [
+                    zh => ${{
+                        expr: EConst(CString(name)),
+                        pos: null,
+                    }}
+                ];
         };
         var urlExpr = {
             expr: EConst(CString('https://www.facebook.com/$fbPage/')),
@@ -343,11 +434,8 @@ class Importer {
             expr: EConst(CString(post)),
             pos: null,
         };
-        var isEn = ~/^[A-Za-z _-]+$/.match(name);
         var cls = macro class $className implements Entity {
-            public final name = [
-                $i{isEn ? "en" : "zh"} => ${nameExpr}
-            ];
+            public final name = ${nameExpr};
             public final webpages = [{
                 url: ${urlExpr}
             }];
