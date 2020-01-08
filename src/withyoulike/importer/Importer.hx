@@ -278,20 +278,7 @@ class Importer {
             throw '$url doesn\'t look like a Facebook URL.';
         }
 
-        var photosRegexp = ~/^https:\/\/www\.facebook\.com\/(.+?)\/photos\/.+$/;
-        if (photosRegexp.match(url)) {
-            var fbPage = photosRegexp.matched(1);
-            var url = switch (url.indexOf("?")) {
-                case -1:
-                    url;
-                case qIndex:
-                    url.substring(0, qIndex);
-            };
-            importFbPage(fbPage, url);
-            return;
-        }
-
-        var postRegexp = ~/^https:\/\/www\.facebook\.com\/(.+?)\/posts\/.+$/;
+        var postRegexp = ~/^https:\/\/www\.facebook\.com\/(.+?)\/(?:posts|photos|videos)\/.+$/;
         if (postRegexp.match(url)) {
             var fbPage = postRegexp.matched(1);
             var url = switch (url.indexOf("?")) {
