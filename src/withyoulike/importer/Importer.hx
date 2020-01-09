@@ -194,7 +194,8 @@ class Importer {
         var requireLogin = try {
             new WebDriverWait(driver, 5).until(_ ->
                 (driver.title:String).contains(" - About") ||
-                (driver.title:String).contains(" | Facebook")
+                (driver.title:String).contains(" | Facebook") ||
+                ~/.+ - .+ photos - .+/.match(driver.title)
             );
             false;
         } catch (e:Dynamic) {
@@ -325,7 +326,7 @@ class Importer {
     }
 
     static function removeNonEngChar(str:String):String {
-        return ~/[^A-Za-z]/g.replace(str, "");
+        return ~/[^A-Za-z0-9]/g.replace(str, "");
     }
 
     static function toTitleCase(str) {
@@ -393,8 +394,8 @@ class Importer {
         var nameExpr = {
             var noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
             var allChi = ~/^[\u4e00-\u9fff]+$/; // all chinese characters
-            var chi_en = ~/^([\u4e00-\u9fff]+)[^A-Za-z0-9]+(.+)$/; // chinese then eng
-            var en_chi = ~/^(.+)(?:[ \-]+)?([\u4e00-\u9fff]+)$/; // chinese then eng
+            var chi_en = ~/^([\u4e00-\u9fff]+)[^A-Za-z0-9\u4e00-\u9fff]*(.+)$/; // chinese then eng
+            var en_chi = ~/^(.+?)(?:[ \-]+)?([\u4e00-\u9fff]+)$/; // chinese then eng
             if (noChi.match(name))
                 macro [
                     en => ${{
