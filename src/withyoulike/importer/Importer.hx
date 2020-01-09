@@ -334,11 +334,11 @@ class Importer {
     }
 
     static function getClassName(name:String, fbPage:String):String {
-        if (~/^[A-Za-z _-]+$/.match(name)) {
+        if (~/^[A-Za-z _\-]+$/.match(name)) {
             return toTitleCase(name);
         }
 
-        if (~/^[A-Za-z \.\(\)]+$/.match(fbPage)) {
+        if (~/^[A-Za-z0-9 \.\(\)]+$/.match(fbPage)) {
             return toTitleCase(fbPage);
         }
 
