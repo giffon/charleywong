@@ -334,11 +334,11 @@ class Importer {
     }
 
     static function getClassName(name:String, fbPage:String):String {
-        if (~/^[A-Za-z _\-]+$/.match(name)) {
+        if (~/^[^\u4e00-\u9fff]+$/.match(name)) {
             return toTitleCase(name);
         }
 
-        if (~/^[A-Za-z0-9 \.\(\)]+$/.match(fbPage)) {
+        if (~/^[^\u4e00-\u9fff]+$/.match(fbPage)) {
             return toTitleCase(fbPage);
         }
 
@@ -395,7 +395,7 @@ class Importer {
             var noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
             var allChi = ~/^[\u4e00-\u9fff \-_\.·]+$/; // all chinese characters
             var chi_en = ~/^([\u4e00-\u9fff ]*[\u4e00-\u9fff])[^A-Za-z0-9\u4e00-\u9fff]*(.+)$/; // chinese then eng
-            var en_chi = ~/^([^\u4e00-\u9fff]+?)(?:[ \-]+)?([\u4e00-\u9fff]+)$/; // chinese then eng
+            var en_chi = ~/^([^\u4e00-\u9fff]+?)[ \-]*([\u4e00-\u9fff]+)$/; // chinese then eng
             if (noChi.match(name))
                 macro [
                     en => ${{
