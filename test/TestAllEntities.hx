@@ -1,3 +1,4 @@
+import haxe.PosInfos;
 import utest.Assert;
 import withyoulike.*;
 import haxe.ds.*;
@@ -44,14 +45,11 @@ class TestAllEntities extends utest.Test {
         }
     }
 
-    static public function validateUrl(url:String) {
-        var p = new sys.io.Process("curl", ["-sSLf", url, "-o", "/dev/null"]);
+    function validateUrl(url:String, ?pos:PosInfos) {
+        var p = new sys.io.Process("curl", ["-sSLf", url, "-o", "/dev/null", "--retry", "3"]);
         var code = p.exitCode();
         var err = p.stderr.readAll().toString().rtrim();
         p.close();
-        switch (code) {
-            case 0: //pass
-            case _: throw '$url is not accessible.\n${err}';
-        }
+        Assert.equals(0, code, '$url is not accessible.\n${err}', pos);
     }
 }
