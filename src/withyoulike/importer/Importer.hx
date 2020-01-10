@@ -286,7 +286,7 @@ class Importer {
 
     static function main() {
         var args = Sys.args();
-        var url = args[0];
+        var url = args[0].trim();
 
         if (!url.startsWith("https://www.facebook.com/")) {
             throw '$url doesn\'t look like a Facebook URL.';
