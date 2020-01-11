@@ -2,10 +2,9 @@ package withyoulike.entities;
 
 class Inkolize implements Entity {
     public final name = [
-        en => "inkolize",
         zh => "墨指工作室",
+        en => "inkolize"
     ];
-
     public final webpages = [
         {
             url: "https://www.inkolize.com/"
@@ -17,10 +16,13 @@ class Inkolize implements Entity {
             url: "https://www.instagram.com/inkolize"
         }
     ];
-
     public final posts = [
         {
             url: "https://www.instagram.com/p/B5Nqm8IBcc1/"
+        },
+        {
+            url: "https://www.facebook.com/inkolize/posts/911373969201746"
         }
     ];
 }
+
