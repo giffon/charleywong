@@ -1,0 +1,18 @@
+package withyoulike.entities;
+
+class Fb737261133131865 implements Entity {
+    public final name = [
+        zh => "水門泰式雞飯專門店"
+    ];
+    public final webpages = [
+        {
+            url: "https://www.facebook.com/水門泰式雞飯專門店-737261133131865/"
+        }
+    ];
+    public final posts = [
+        {
+            url: "https://www.facebook.com/permalink.php?story_fbid=1163395973851710&id=737261133131865"
+        }
+    ];
+}
+
