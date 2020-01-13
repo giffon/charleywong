@@ -1,3 +1,9 @@
---main withyoulike.Main
+--main withyoulike.ServerMain
+--library hxnodejs
+--library react
 --class-path src
+--class-path lib/hxnodelibs
+-D react_ver=16.12
+-D react_fragments
+--debug
 --js index.js

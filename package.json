@@ -1,0 +1,33 @@
+{
+  "name": "withyoulike",
+  "version": "0.0.0",
+  "description": "和你like - discover Facebook pages that you may like",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "nodemon -L index.js",
+    "test": "haxe test.hxml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giffon/WithYouLike.git"
+  },
+  "author": "Andy Li <andy@onthewings.net>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/giffon/WithYouLike/issues"
+  },
+  "homepage": "https://github.com/giffon/WithYouLike#readme",
+  "private": true,
+  "dependencies": {
+    "express": "4.17.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.2"
+  }
+}
