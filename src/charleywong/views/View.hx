@@ -8,7 +8,7 @@ import haxe.io.*;
 using StringTools;
 
 class View extends ReactComponent {
-    function title():String return "和你Like";
+    function title():String return "Charley Wong 和你查";
 
     function description():Null<String> return null;
     function descriptionTag() return switch description() {

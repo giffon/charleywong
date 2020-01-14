@@ -53,3 +53,10 @@ jobs:
           python3 import.py https://www.facebook.com/thebookcure.hk/posts/2729989220398638
         env:
           HUB_HOST: selenium
+      - name: Deploy
+        if: success() && github.event_name == 'push' && github.ref == 'master'
+        run: npx serverless deploy
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.awsAccessKeyId }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.awsSecretAccessKey }}
+          SERVERLESS_ACCESS_KEY: ${{ secrets.serverlessAccessKey }}
