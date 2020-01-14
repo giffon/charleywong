@@ -3,6 +3,6 @@
 --class-path test
 --library utest
 --library compiletime
---macro include('withyoulike.entities')
+--macro include('charleywong.entities')
 -D UTEST_PRINT_TESTS
 --interp

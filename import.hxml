@@ -3,5 +3,5 @@
 --library compiletime
 --library formatter
 --python import.py
---main withyoulike.importer.Importer
---macro include('withyoulike.entities')
+--main charleywong.importer.Importer
+--macro include('charleywong.entities')

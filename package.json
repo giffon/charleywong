@@ -1,5 +1,5 @@
 {
-  "name": "withyoulike",
+  "name": "charleywong",
   "version": "0.0.0",
   "description": "和你like - discover Facebook pages that you may like",
   "main": "index.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/giffon/WithYouLike.git"
+    "url": "git+https://github.com/giffon/CharleyWong.git"
   },
   "author": "Andy Li <andy@onthewings.net>",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/giffon/WithYouLike/issues"
+    "url": "https://github.com/giffon/CharleyWong/issues"
   },
-  "homepage": "https://github.com/giffon/WithYouLike#readme",
+  "homepage": "https://github.com/giffon/CharleyWong#readme",
   "private": true,
   "dependencies": {
     "express": "4.17.1",
