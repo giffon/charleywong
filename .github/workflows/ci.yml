@@ -54,7 +54,7 @@ jobs:
         env:
           HUB_HOST: selenium
       - name: Deploy
-        if: success() && github.event_name == 'push' && github.ref == 'master'
+        if: success() && github.event_name == 'push' && github.ref == 'refs/heads/master'
         run: npx serverless deploy
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.awsAccessKeyId }}
