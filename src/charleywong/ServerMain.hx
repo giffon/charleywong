@@ -27,6 +27,7 @@ class ServerMain {
 
     static function main():Void {
         app = new Application();
+        app.set('json spaces', 2);
         app.get("/", index);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+).json", entityJson);
 
