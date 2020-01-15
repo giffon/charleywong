@@ -33,8 +33,12 @@ class TestAllEntities extends utest.Test {
 
     function testIdFormat():Void {
         var regexp = ~/^[A-Za-z0-9\.\-_]+$/;
+        var reserved = [
+            "entities", // https://charleywong.giffon.io/entities.json
+        ];
         for (id => e in EntityIndex.entitiesOfId) {
             Assert.isTrue(regexp.match(id), '$id is not valid.');
+            Assert.isFalse(reserved.has(id));
         }
     }
 

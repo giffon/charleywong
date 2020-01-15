@@ -15,6 +15,10 @@ class ServerMain {
         res.sendView(Index);
     }
 
+    static function entitiesJson(req:Request, res:Response) {
+        res.json([for (e in EntityIndex.entities) e.toJson()]);
+    }
+
     static function entityJson(req:Request, res:Response) {
         var entityId = req.params.entityId;
         var entity = EntityIndex.entitiesOfId[entityId];
@@ -29,6 +33,7 @@ class ServerMain {
         app = new Application();
         app.set('json spaces', 2);
         app.get("/", index);
+        app.get("/entities.json", entitiesJson);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+).json", entityJson);
 
         if (isMain) {
