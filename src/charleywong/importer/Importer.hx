@@ -351,7 +351,7 @@ class Importer {
         var fullName = Type.getClassName(Type.getClass(entity)).split(".");
         var className = fullName[fullName.length - 1];
         var idExpr = {
-            expr: EConst(CString(id)),
+            expr: EConst(CString(entity.id)),
             pos: null,
         };
         var nameExprs = [
