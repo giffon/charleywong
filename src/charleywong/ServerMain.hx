@@ -37,11 +37,17 @@ class ServerMain {
         res.json(result);
     }
 
+    static var elasticlunrIndex:Dynamic;
+    static function elasticlunrJson(req:Request, res:Response) {
+        res.json(elasticlunrIndex != null ? elasticlunrIndex : elasticlunrIndex = EntityIndex.elasticlunr.toJSON());
+    }
+
     static function main():Void {
         app = new Application();
         app.set('json spaces', 2);
         app.get("/", index);
         app.get("/entities.json", entitiesJson);
+        app.get("/elasticlunr.json", elasticlunrJson);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+).json", entityJson);
         app.get("/search/:query.json", searchJson);
 

@@ -39,6 +39,7 @@ class EntityIndex {
     static public var elasticlunr(get, null):js.npm.elasticlunr.Index;
     static function get_elasticlunr() return elasticlunr != null ? elasticlunr : elasticlunr = js.npm.elasticlunr.Elasticlunr.elasticlunr(function() {
         var t:js.npm.elasticlunr.Index = nativeThis;
+        js.npm.elasticlunr.Tokenizer.setSeperator(~/(?:[\s\-]+|(?=[\u4e00-\u9fff])|(?<=[\u4e00-\u9fff]))/);
         t.addField("id");
         t.addField("name_en");
         t.addField("name_zh");
