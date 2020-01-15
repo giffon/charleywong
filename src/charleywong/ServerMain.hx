@@ -31,7 +31,9 @@ class ServerMain {
 
     static function searchJson(req:Request, res:Response) {
         var query:String = req.params.query;
-        var result = EntityIndex.lunr.search(query);
+        var result = EntityIndex.elasticlunr.search(query, {
+            expand: true,
+        });
         res.json(result);
     }
 

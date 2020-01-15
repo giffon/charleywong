@@ -23,8 +23,8 @@
   "homepage": "https://github.com/giffon/CharleyWong#readme",
   "private": true,
   "dependencies": {
+    "elasticlunr": "0.9.5",
     "express": "4.17.1",
-    "lunr": "2.3.8",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "serverless-http": "2.3.0"
