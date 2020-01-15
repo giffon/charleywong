@@ -20,7 +20,7 @@ class ServerMain {
     }
 
     static function entityJson(req:Request, res:Response) {
-        var entityId = req.params.entityId;
+        var entityId:String = req.params.entityId;
         var entity = EntityIndex.entitiesOfId[entityId];
         if (entity == null) {
             res.status(404).send('Entity of id $entityId not found.');
@@ -29,12 +29,19 @@ class ServerMain {
         res.json(entity.toJson());
     }
 
+    static function searchJson(req:Request, res:Response) {
+        var query:String = req.params.query;
+        var result = EntityIndex.lunr.search(query);
+        res.json(result);
+    }
+
     static function main():Void {
         app = new Application();
         app.set('json spaces', 2);
         app.get("/", index);
         app.get("/entities.json", entitiesJson);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+).json", entityJson);
+        app.get("/search/:query.json", searchJson);
 
         if (isMain) {
             app.listen(port, function() {
