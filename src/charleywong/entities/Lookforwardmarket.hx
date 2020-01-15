@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Lookforwardmarket implements Entity {
+    public final id = "lookforward.market";
     public final name = [
         zh => "盼之雜貨攤"
     ];

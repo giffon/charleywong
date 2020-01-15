@@ -1,9 +1,10 @@
 package charleywong.entities;
 
 class Thehikipedia implements Entity {
+    public final id = "thehikipedia";
     public final name = [
-        en => "Hikipedia",
-        zh => "山上。山下"
+        zh => "山上。山下",
+        en => "Hikipedia"
     ];
     public final webpages = [
         {

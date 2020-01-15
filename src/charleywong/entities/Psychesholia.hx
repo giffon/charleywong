@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Psychesholia implements Entity {
+    public final id = "psychesholia";
     public final name = [
         en => "psychesholia"
     ];

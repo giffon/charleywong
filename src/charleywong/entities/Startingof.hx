@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Startingof implements Entity {
+    public final id = "starting.of";
     public final name = [
         en => "Starting of."
     ];

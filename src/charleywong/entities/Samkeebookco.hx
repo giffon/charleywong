@@ -1,19 +1,19 @@
 package charleywong.entities;
 
 class Samkeebookco implements Entity {
+    public final id = "samkeebookco";
     public final name = [
-        zh => "森記圖書公司",
+        zh => "森記圖書公司"
     ];
-
     public final webpages = [
         {
             url: "https://www.facebook.com/samkeebookco/"
         }
     ];
-
     public final posts = [
         {
             url: "https://www.facebook.com/samkeebookco/photos/a.414912825352144/1495816337261782"
         }
     ];
 }
+

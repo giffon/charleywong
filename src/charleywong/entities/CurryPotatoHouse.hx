@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class CurryPotatoHouse implements Entity {
+    public final id = "CurryPotatoHouse";
     public final name = [
         zh => "咖哩薯仔屋",
         en => "Curry Potato House"

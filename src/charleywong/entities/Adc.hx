@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Adc implements Entity {
+    public final id = "adcdream";
     public final name = [
         en => "adc"
     ];

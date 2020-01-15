@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Beibeicollectionhk implements Entity {
+    public final id = "beibeicollectionhk";
     public final name = [
         en => "Beibeicollectionhk"
     ];

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Sunofficehk implements Entity {
+    public final id = "sunofficehk";
     public final name = [
         zh => "太陽事務",
         en => "Sun Office"

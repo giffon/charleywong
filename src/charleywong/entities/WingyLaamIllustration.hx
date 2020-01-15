@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class WingyLaamIllustration implements Entity {
+    public final id = "wingylaam";
     public final name = [
         en => "Wingy-Laam Illustration"
     ];

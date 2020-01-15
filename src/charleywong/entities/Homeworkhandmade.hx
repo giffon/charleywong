@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Homeworkhandmade implements Entity {
+    public final id = "homework.handmade";
     public final name = [
         zh => "家庭作業",
         en => "Homework"

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class ATMAHK implements Entity {
+    public final id = "1210987819064185";
     public final name = [
         en => "ATMA HK"
     ];

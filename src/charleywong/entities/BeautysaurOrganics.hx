@@ -1,10 +1,10 @@
 package charleywong.entities;
 
 class BeautysaurOrganics implements Entity {
+    public final id = "Beautysaur.organics";
     public final name = [
-        en => "Beautysaur Organics",
+        en => "Beautysaur Organics"
     ];
-
     public final webpages = [
         {
             url: "https://beautysaur.com/"
@@ -13,7 +13,6 @@ class BeautysaurOrganics implements Entity {
             url: "https://www.facebook.com/Beautysaur.organics/"
         }
     ];
-
     public final posts = [
         {
             url: "https://www.facebook.com/Beautysaur.organics/posts/2633427996738372"
@@ -23,3 +22,4 @@ class BeautysaurOrganics implements Entity {
         }
     ];
 }
+

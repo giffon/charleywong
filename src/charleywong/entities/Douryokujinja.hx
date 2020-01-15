@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Douryokujinja implements Entity {
+    public final id = "douryokujinja";
     public final name = [
         zh => "動力神社"
     ];

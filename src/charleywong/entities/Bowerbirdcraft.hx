@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Bowerbirdcraft implements Entity {
+    public final id = "bowerbirdcraft";
     public final name = [
         zh => "園丁鳥",
         en => "Bowerbird"

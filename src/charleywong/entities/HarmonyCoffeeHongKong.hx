@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class HarmonyCoffeeHongKong implements Entity {
+    public final id = "harmonycoffee.hk";
     public final name = [
         en => "Harmony Coffee Hong Kong"
     ];

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Jellam116 implements Entity {
+    public final id = "116jellam";
     public final name = [
         zh => "山 · 影 · 紅"
     ];

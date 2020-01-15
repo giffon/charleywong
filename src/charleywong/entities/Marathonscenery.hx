@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Marathonscenery implements Entity {
+    public final id = "marathonscenery";
     public final name = [
         zh => "馬拉松 看世界",
         en => "Run the World"

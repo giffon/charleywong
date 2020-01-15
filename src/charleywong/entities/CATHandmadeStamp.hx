@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class CATHandmadeStamp implements Entity {
+    public final id = "cathandmadestamp";
     public final name = [
         en => "C.A.T Handmade Stamp"
     ];

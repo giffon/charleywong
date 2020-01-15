@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Restarthk implements Entity {
+    public final id = "restarthk";
     public final name = [
         zh => "綠活百貨",
         en => "Re start"

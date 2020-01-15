@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class DymonStudio implements Entity {
+    public final id = "582160771965556";
     public final name = [
         zh => "大萌工作室",
         en => "Dymon Studio"

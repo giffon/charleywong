@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Runthunderrun implements Entity {
+    public final id = "runthunderrun";
     public final name = [
         zh => "門小雷",
         en => "Little Thunder"

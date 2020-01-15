@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Yijuofficial implements Entity {
+    public final id = "yijuofficial";
     public final name = [
         zh => "一句制作",
         en => "YIJU"

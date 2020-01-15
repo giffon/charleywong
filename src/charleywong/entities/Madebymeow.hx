@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Madebymeow implements Entity {
+    public final id = "madeby.meow";
     public final name = [
         en => "Made by.MEOW"
     ];

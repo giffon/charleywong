@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Cwaccorg implements Entity {
+    public final id = "cwacc.org";
     public final name = [
         zh => "IVE(CW) 動漫文化社"
     ];

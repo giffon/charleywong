@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class CPIC implements Entity {
+    public final id = "c.pic.2015";
     public final name = [
         en => "C.PIC_"
     ];

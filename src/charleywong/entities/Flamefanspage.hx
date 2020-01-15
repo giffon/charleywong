@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Flamefanspage implements Entity {
+    public final id = "flamefanspage";
     public final name = [
         zh => "微光",
         en => "Flame"

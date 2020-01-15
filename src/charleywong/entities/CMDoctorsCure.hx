@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class CMDoctorsCure implements Entity {
+    public final id = "CMDoctorsCure";
     public final name = [
         zh => "本草匡時"
     ];

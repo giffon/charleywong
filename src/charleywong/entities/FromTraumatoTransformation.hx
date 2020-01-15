@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class FromTraumatoTransformation implements Entity {
+    public final id = "FromTrauma2Transformation";
     public final name = [
         zh => "創傷同學會",
         en => "From Trauma to Transformation"

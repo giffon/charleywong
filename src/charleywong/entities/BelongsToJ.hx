@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class BelongsToJ implements Entity {
+    public final id = "belongstoj.0301";
     public final name = [
         en => "Belongs To J."
     ];

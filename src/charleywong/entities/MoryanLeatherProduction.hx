@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class MoryanLeatherProduction implements Entity {
+    public final id = "MoryanHandmade";
     public final name = [
         en => "Moryan Leather Production"
     ];

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Eeedot implements Entity {
+    public final id = "eeedot";
     public final name = [
         en => "e eedot"
     ];

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class UglyFamily implements Entity {
+    public final id = "hahaX1000";
     public final name = [
         zh => "醜人多八怪",
         en => "Ugly Family"

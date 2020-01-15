@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class MeowMeowMag implements Entity {
+    public final id = "MeowMeowMag";
     public final name = [
         zh => "貓奴誌"
     ];

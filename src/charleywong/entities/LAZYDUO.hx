@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class LAZYDUO implements Entity {
+    public final id = "lazyduohk";
     public final name = [
         en => "LAZY DUO"
     ];

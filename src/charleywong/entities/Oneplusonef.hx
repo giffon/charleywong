@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Oneplusonef implements Entity {
+    public final id = "oneplusonef";
     public final name = [
         en => "1+ 1handmade"
     ];
@@ -15,3 +16,4 @@ class Oneplusonef implements Entity {
         }
     ];
 }
+

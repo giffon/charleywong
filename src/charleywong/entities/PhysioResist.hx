@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class PhysioResist implements Entity {
+    public final id = "100521374755288";
     public final name = [
         zh => "反抗有理",
         en => "PhysioResist"
@@ -16,3 +17,4 @@ class PhysioResist implements Entity {
         }
     ];
 }
+

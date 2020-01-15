@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class BlacksmithStore implements Entity {
+    public final id = "blacksmithcoffeeshop";
     public final name = [
         en => "Blacksmith Store"
     ];

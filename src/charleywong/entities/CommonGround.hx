@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class CommonGround implements Entity {
+    public final id = "Commongroundhk";
     public final name = [
         en => "Common Ground"
     ];

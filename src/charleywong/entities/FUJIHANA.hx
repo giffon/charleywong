@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class FUJIHANA implements Entity {
+    public final id = "hkfujihana";
     public final name = [
         en => "FUJIHANA"
     ];

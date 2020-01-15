@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Physiojam implements Entity {
+    public final id = "physiojam";
     public final name = [
         en => "Physiojam"
     ];

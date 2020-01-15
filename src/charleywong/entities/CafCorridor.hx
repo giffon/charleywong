@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class CafCorridor implements Entity {
+    public final id = "cafecorridor";
     public final name = [
         en => "Café Corridor"
     ];

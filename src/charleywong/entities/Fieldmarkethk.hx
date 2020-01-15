@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Fieldmarkethk implements Entity {
+    public final id = "fieldmarkethk";
     public final name = [
         zh => "山野市集"
     ];

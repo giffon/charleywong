@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Hkdoujinforum implements Entity {
+    public final id = "hkdoujinforum";
     public final name = [
         zh => "香港同人",
         en => "HKDoujin"

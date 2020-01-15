@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class SkyChanHK implements Entity {
+    public final id = "SkyChanHKcom";
     public final name = [
         en => "SkyChan-HK"
     ];

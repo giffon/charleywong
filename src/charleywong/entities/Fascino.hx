@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Fascino implements Entity {
+    public final id = "FascinoBespoke";
     public final name = [
         en => "Fascino"
     ];

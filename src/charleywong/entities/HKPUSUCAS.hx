@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class HKPUSUCAS implements Entity {
+    public final id = "HKPUSUCAS";
     public final name = [
         zh => "香港理工大學動畫及漫畫學會",
         en => "HKPUSU Cartoons Art Society"
@@ -16,7 +17,7 @@ class HKPUSUCAS implements Entity {
         },
         {
             url: "https://www.facebook.com/HKPUSUCAS/posts/1076852989187149"
-        },
+        }
     ];
 }
 

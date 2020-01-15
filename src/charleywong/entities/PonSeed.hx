@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class PonSeed implements Entity {
+    public final id = "PonSeed-513646749010346";
     public final name = [
         en => "Pon\'Seed"
     ];

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class NoMoreHeavy implements Entity {
+    public final id = "nomoreheavy";
     public final name = [
         en => "No More Heavy"
     ];

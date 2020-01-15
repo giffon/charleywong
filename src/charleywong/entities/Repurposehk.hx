@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Repurposehk implements Entity {
+    public final id = "repurpose.hk";
     public final name = [
         zh => "集棄場"
     ];

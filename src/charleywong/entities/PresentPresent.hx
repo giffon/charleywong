@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class PresentPresent implements Entity {
+    public final id = "ispresentpresent";
     public final name = [
         en => "Present Present"
     ];

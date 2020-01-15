@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class InCessory implements Entity {
+    public final id = "incessoryhk";
     public final name = [
         en => "InCessory"
     ];

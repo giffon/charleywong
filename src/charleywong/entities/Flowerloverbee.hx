@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Flowerloverbee implements Entity {
+    public final id = "553433344993155";
     public final name = [
         zh => "戀戀花意"
     ];

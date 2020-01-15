@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class SecondSipbyStudioCaffeine implements Entity {
+    public final id = "2econdsip";
     public final name = [
         en => "Second Sip by Studio Caffeine"
     ];

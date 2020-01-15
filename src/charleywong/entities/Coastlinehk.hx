@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Coastlinehk implements Entity {
+    public final id = "Coastline.hk";
     public final name = [
         zh => "海雲台"
     ];

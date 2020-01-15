@@ -1,16 +1,15 @@
 package charleywong.entities;
 
 class ClassicalCameraShopHK implements Entity {
+    public final id = "classicalcamerashop.hk";
     public final name = [
-        en => "Classical Camera Shop HK",
+        en => "Classical Camera Shop HK"
     ];
-
     public final webpages = [
         {
             url: "https://www.facebook.com/classicalcamerashop.hk/"
         }
     ];
-
     public final posts = [
         {
             url: "https://www.facebook.com/classicalcamerashop.hk/photos/a.783668715026340/2552199774839883/"
@@ -20,3 +19,4 @@ class ClassicalCameraShopHK implements Entity {
         }
     ];
 }
+

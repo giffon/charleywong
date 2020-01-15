@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class EARTHerEARTH implements Entity {
+    public final id = "EARTH.er.EARTH";
     public final name = [
         en => "EARTH.er"
     ];

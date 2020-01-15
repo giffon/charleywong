@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class CusonLoChiKong implements Entity {
+    public final id = "Cuson.LoChiKong";
     public final name = [
         zh => "怪叔叔の散步道"
     ];

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class CatSociety implements Entity {
+    public final id = "CatSociety";
     public final name = [
         zh => "香港群貓會"
     ];

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Minoecanvas implements Entity {
+    public final id = "minoe.canvas";
     public final name = [
         zh => "甘米撈撈",
         en => "Minoe Canvas"

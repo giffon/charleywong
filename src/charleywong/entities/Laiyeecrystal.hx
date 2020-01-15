@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Laiyeecrystal implements Entity {
+    public final id = "laiyeecrystal";
     public final name = [
         en => "Laiyee_crystal"
     ];

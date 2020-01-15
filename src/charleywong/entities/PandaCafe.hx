@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class PandaCafe implements Entity {
+    public final id = "Pan-da-Cafe-120736337973194";
     public final name = [
         en => "Pan da Cafe"
     ];

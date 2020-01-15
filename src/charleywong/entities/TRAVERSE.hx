@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class TRAVERSE implements Entity {
+    public final id = "traverse.hk";
     public final name = [
         en => "TRAVERSE"
     ];

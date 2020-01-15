@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Ipposoap implements Entity {
+    public final id = "ippo.soap";
     public final name = [
         zh => "一步",
         en => "ippo handcrafted cosme"

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Elmbookbookshop implements Entity {
+    public final id = "elmbook.bookshop";
     public final name = [
         zh => "榆林書店"
     ];
@@ -15,3 +16,4 @@ class Elmbookbookshop implements Entity {
         }
     ];
 }
+

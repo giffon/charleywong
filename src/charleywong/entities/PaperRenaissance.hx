@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class PaperRenaissance implements Entity {
+    public final id = "Paper.Renaissance";
     public final name = [
         zh => "紙· 藝復興",
         en => "Paper Renaissance Handmade Store"

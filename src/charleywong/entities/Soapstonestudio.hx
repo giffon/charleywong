@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Soapstonestudio implements Entity {
+    public final id = "soapstonestudio";
     public final name = [
         zh => "軟石工作室"
     ];

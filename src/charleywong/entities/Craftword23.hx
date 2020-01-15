@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Craftword23 implements Entity {
+    public final id = "craftword23";
     public final name = [
         zh => "字．作業"
     ];

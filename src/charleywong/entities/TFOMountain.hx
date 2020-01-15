@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class TFOMountain implements Entity {
+    public final id = "TFOMountain";
     public final name = [
         zh => "山脈旅孩"
     ];

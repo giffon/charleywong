@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class M2Cafe implements Entity {
+    public final id = "m2cafehk";
     public final name = [
         en => "M2 Cafe"
     ];

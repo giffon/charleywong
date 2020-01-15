@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class TuckshopbySocialClub implements Entity {
+    public final id = "tuckshopbysocialclub";
     public final name = [
         en => "Tuckshop by Social Club"
     ];

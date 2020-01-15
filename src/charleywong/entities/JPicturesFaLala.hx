@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class JPicturesFaLala implements Entity {
+    public final id = "Jada40416";
     public final name = [
         en => "J.Pictures.FaLala"
     ];

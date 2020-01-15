@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class VsWorkshop implements Entity {
+    public final id = "vsworkshop";
     public final name = [
         en => "V\'s Workshop"
     ];

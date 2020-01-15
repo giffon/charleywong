@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class DesignGardenia implements Entity {
+    public final id = "designgardenia";
     public final name = [
         en => "Design Gardenia"
     ];

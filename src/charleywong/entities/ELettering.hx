@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class ELettering implements Entity {
+    public final id = "e.letteringhk";
     public final name = [
         en => "E Lettering"
     ];

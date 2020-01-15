@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Theweirdthingshk implements Entity {
+    public final id = "the.weird.things.hk";
     public final name = [
         en => "The.Weird.Things"
     ];

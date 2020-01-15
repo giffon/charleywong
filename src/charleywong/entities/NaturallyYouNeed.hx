@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class NaturallyYouNeed implements Entity {
+    public final id = "naturallyyouneedHK";
     public final name = [
         en => "Naturally YouNeed"
     ];

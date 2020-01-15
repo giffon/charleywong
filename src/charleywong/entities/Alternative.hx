@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Alternative implements Entity {
+    public final id = "AlternativeCoffeeHK";
     public final name = [
         en => "Alternative"
     ];

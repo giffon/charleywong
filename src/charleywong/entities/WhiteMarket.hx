@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class WhiteMarket implements Entity {
+    public final id = "whitemarkethk";
     public final name = [
         en => "White Market"
     ];

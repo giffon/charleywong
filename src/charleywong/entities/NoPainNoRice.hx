@@ -1,9 +1,10 @@
 package charleywong.entities;
 
 class NoPainNoRice implements Entity {
+    public final id = "NoPainNoRice";
     public final name = [
-        en => "Offbeat Village",
-        zh => "生存之稻"
+        zh => "生存之稻",
+        en => "Offbeat Village"
     ];
     public final webpages = [
         {

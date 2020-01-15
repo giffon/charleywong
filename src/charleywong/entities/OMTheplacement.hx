@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class OMTheplacement implements Entity {
+    public final id = "OM.TPM";
     public final name = [
         en => "OM.Theplacement"
     ];

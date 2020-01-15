@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class KatmadeWorkshop implements Entity {
+    public final id = "katttmade";
     public final name = [
         en => "Katmade Workshop"
     ];

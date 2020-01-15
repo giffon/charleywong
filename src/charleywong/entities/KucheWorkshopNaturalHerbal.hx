@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class KucheWorkshopNaturalHerbal implements Entity {
+    public final id = "KucheWorkshopNatural.Herbal";
     public final name = [
         zh => "手作花廚",
         en => "Küche Workshop"

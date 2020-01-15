@@ -1,9 +1,10 @@
 package charleywong.entities;
 
 class IdeaPublicationcomhk implements Entity {
+    public final id = "IdeaPublication.com.hk";
     public final name = [
         zh => "點子出版",
-        en => "Idea Publication",
+        en => "Idea Publication"
     ];
     public final webpages = [
         {
@@ -16,3 +17,4 @@ class IdeaPublicationcomhk implements Entity {
         }
     ];
 }
+

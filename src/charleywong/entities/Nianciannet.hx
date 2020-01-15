@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Nianciannet implements Entity {
+    public final id = "niancian.net";
     public final name = [
         zh => "念慈庵",
         en => "NianCiAn"

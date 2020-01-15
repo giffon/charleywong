@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Grandmamastore implements Entity {
+    public final id = "grandmama.store";
     public final name = [
         zh => "婆婆雜貨店",
         en => "Grandmama Store"

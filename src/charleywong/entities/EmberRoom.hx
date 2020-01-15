@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class EmberRoom implements Entity {
+    public final id = "Emberoom";
     public final name = [
         en => "Ember Room"
     ];

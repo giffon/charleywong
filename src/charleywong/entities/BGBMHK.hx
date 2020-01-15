@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class BGBMHK implements Entity {
+    public final id = "BGBMHK";
     public final name = [
         zh => "表哥表妹市集",
         en => "Biugor Biumui"

@@ -350,6 +350,10 @@ class Importer {
     static function updateEntity(entity:Entity, post:String) {
         var fullName = Type.getClassName(Type.getClass(entity)).split(".");
         var className = fullName[fullName.length - 1];
+        var idExpr = {
+            expr: EConst(CString(id)),
+            pos: null,
+        };
         var nameExprs = [
             for (lang => name in entity.name)
             {
@@ -370,8 +374,9 @@ class Importer {
                 macro { url: $urlExpr };
             }
         ];
+        var posts = post == null || entity.posts.exists(p -> p.url == post) ? entity.posts : entity.posts.concat([{ url: post }]);
         var postsExprs = [
-            for (p in entity.posts.concat([{ url: post }]))
+            for (p in posts)
             {
                 var urlExpr = {
                     expr: EConst(CString(p.url)),
@@ -381,6 +386,7 @@ class Importer {
             }
         ];
         var cls = macro class $className implements Entity {
+            public final id = ${idExpr};
             public final name = $a{nameExprs};
             public final webpages = $a{webpagesExprs};
             public final posts = $a{postsExprs};
@@ -389,11 +395,13 @@ class Importer {
         return cls;
     }
 
+
+    static final noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
+    static final allChi = ~/^[\u4e00-\u9fff \-_\.·]+$/; // all chinese characters
+
     static function createEntity(name:String, fbPage:String, post:String) {
         var className = getClassName(name, fbPage);
         var nameExpr = {
-            var noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
-            var allChi = ~/^[\u4e00-\u9fff \-_\.·]+$/; // all chinese characters
             var chi_en = ~/^([\u4e00-\u9fff ]*[\u4e00-\u9fff])[^A-Za-z0-9\u4e00-\u9fff]*(.+)$/; // chinese then eng
             var en_chi = ~/^([^\u4e00-\u9fff]+?)[ \-]*([\u4e00-\u9fff]+)$/; // chinese then eng
             if (noChi.match(name))
@@ -440,6 +448,10 @@ class Importer {
                     }}
                 ];
         };
+        var idExpr = {
+            expr: EConst(CString(fbPage)),
+            pos: null,
+        };
         var urlExpr = {
             expr: EConst(CString('https://www.facebook.com/$fbPage/')),
             pos: null,
@@ -449,6 +461,7 @@ class Importer {
             pos: null,
         };
         var cls = macro class $className implements Entity {
+            public final id =${idExpr};
             public final name = ${nameExpr};
             public final webpages = [{
                 url: ${urlExpr}

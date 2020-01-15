@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Postcardposting implements Entity {
+    public final id = "PostcardPosting";
     public final name = [
         en => "Postcard posting"
     ];

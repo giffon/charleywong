@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class CCStyle implements Entity {
+    public final id = "ccstylehk";
     public final name = [
         en => "CC Style"
     ];

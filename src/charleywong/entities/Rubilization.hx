@@ -1,9 +1,10 @@
 package charleywong.entities;
 
 class Rubilization implements Entity {
+    public final id = "rubilization";
     public final name = [
-        en => "Rubilization",
-        zh => "一葉之丘"
+        zh => "一葉之丘",
+        en => "Rubilization"
     ];
     public final webpages = [
         {

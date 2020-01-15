@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Toolsshk implements Entity {
+    public final id = "toolsshk";
     public final name = [
         en => "Toolsshk"
     ];

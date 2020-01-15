@@ -1,9 +1,10 @@
 package charleywong.entities;
 
 class KeyboardHell implements Entity {
+    public final id = "124921990891105";
     public final name = [
         zh => "地獄道",
-        en => "Keyboard Hell",
+        en => "Keyboard Hell"
     ];
     public final webpages = [
         {
@@ -16,3 +17,4 @@ class KeyboardHell implements Entity {
         }
     ];
 }
+

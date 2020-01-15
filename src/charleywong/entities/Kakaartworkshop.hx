@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Kakaartworkshop implements Entity {
+    public final id = "kaka.artworkshop";
     public final name = [
         zh => "嘉嘉姐姐小教室"
     ];

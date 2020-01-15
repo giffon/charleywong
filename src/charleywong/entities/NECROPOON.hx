@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class NECROPOON implements Entity {
+    public final id = "necropoon";
     public final name = [
         en => "NECRO POON"
     ];

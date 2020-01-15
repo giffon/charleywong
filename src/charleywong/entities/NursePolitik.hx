@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class NursePolitik implements Entity {
+    public final id = "1638125039738820";
     public final name = [
         zh => "護政"
     ];
@@ -15,3 +16,4 @@ class NursePolitik implements Entity {
         }
     ];
 }
+

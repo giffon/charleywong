@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Jselfshop implements Entity {
+    public final id = "jselfshop";
     public final name = [
         zh => "JS 的精靈小店",
         en => "JS\'s Elf Shop"

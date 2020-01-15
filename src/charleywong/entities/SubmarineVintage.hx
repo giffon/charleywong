@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class SubmarineVintage implements Entity {
+    public final id = "submarine.vintage";
     public final name = [
         en => "Submarine Vintage"
     ];

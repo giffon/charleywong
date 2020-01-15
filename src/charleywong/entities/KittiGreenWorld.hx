@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class KittiGreenWorld implements Entity {
+    public final id = "KittiGreenWorld";
     public final name = [
         zh => "海洋拾荒者Kitti"
     ];

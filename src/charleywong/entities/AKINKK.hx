@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class AKINKK implements Entity {
+    public final id = "akinkk.sound";
     public final name = [
         en => "AK IN KK"
     ];

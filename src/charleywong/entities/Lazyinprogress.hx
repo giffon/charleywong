@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Lazyinprogress implements Entity {
+    public final id = "lazyinprogress";
     public final name = [
         en => "Lazy in progress"
     ];

@@ -25,4 +25,10 @@ class EntityIndex {
         if (fbPageRegexp.match(url))
         fbPageRegexp.matched(1) => e
     ];
+
+    static public var entitiesOfId(get, null):Map<String, Entity>;
+    static function get_entitiesOfId() return entitiesOfId != null ? entitiesOfId : entitiesOfId = [
+        for (e in entities)
+        e.id => e
+    ];
 }

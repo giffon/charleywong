@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Oceanstampsfwte implements Entity {
+    public final id = "oceanstampsfwte";
     public final name = [
         zh => "海印",
         en => "Ocean Stamps"

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Runwaysnpstudio implements Entity {
+    public final id = "runwaysnpstudio";
     public final name = [
         zh => "模‧良品攝影室",
         en => "Runwaysnp Studio"

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class MEANProduction implements Entity {
+    public final id = "MeanProductionMP";
     public final name = [
         en => "MEAN Production"
     ];

@@ -1,9 +1,10 @@
 package charleywong.entities;
 
 class Naomisinflorescence implements Entity {
+    public final id = "naomisinflorescence";
     public final name = [
-        en => "Naomi\'s Inflorescence。",
-        zh => "愉悅花序"
+        zh => "愉悅花序",
+        en => "Naomi\'s Inflorescence。"
     ];
     public final webpages = [
         {

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Wow1145696982243136 implements Entity {
+    public final id = "1145696982243136";
     public final name = [
         zh => "Wow 山界娛樂台"
     ];

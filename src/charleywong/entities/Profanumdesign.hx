@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Profanumdesign implements Entity {
+    public final id = "profanumdesign";
     public final name = [
         en => "profanumdesign"
     ];

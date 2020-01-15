@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class OpendoorCafeCourtyard implements Entity {
+    public final id = "opendoorcafehk";
     public final name = [
         en => "Opendoor Cafe + Courtyard"
     ];

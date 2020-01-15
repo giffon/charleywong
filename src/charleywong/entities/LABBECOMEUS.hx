@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class LABBECOMEUS implements Entity {
+    public final id = "labbecomeus";
     public final name = [
         en => "LAB BECOME US"
     ];

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Innoscent implements Entity {
+    public final id = "379509865879096";
     public final name = [
         zh => "皂然工房",
         en => "Innoscent"

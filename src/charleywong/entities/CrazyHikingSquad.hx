@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class CrazyHikingSquad implements Entity {
+    public final id = "CrazyHikingSquad";
     public final name = [
         zh => "痴hike線",
         en => "Crazy Hiking Squad－CHS.HK"

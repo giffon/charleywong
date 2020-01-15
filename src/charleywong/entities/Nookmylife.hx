@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Nookmylife implements Entity {
+    public final id = "nook.mylife";
     public final name = [
         zh => "屬於我們的小角落"
     ];

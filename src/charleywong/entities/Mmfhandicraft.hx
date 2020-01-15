@@ -1,9 +1,10 @@
 package charleywong.entities;
 
 class Mmfhandicraft implements Entity {
+    public final id = "mmfhandicraft";
     public final name = [
-        en => "MMF Handicraft",
-        zh => "喵喵花の手作仔"
+        zh => "喵喵花の手作仔",
+        en => "MMF Handicraft"
     ];
     public final webpages = [
         {

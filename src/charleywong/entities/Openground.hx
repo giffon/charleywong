@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Openground implements Entity {
+    public final id = "opengroundhk";
     public final name = [
         en => "openground"
     ];

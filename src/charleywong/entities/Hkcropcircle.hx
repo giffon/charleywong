@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Hkcropcircle implements Entity {
+    public final id = "hkcropcircle";
     public final name = [
         zh => "麥田圈",
         en => "Crop Circle.HK"

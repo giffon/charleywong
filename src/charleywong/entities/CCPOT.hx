@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class CCPOT implements Entity {
+    public final id = "CCPOT-836406806719296";
     public final name = [
         en => "C.C.POT"
     ];
@@ -18,3 +19,4 @@ class CCPOT implements Entity {
         }
     ];
 }
+

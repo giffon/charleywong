@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Blackcred implements Entity {
+    public final id = "blackcred";
     public final name = [
         en => "Blackcred"
     ];

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class GOOUT implements Entity {
+    public final id = "hkgoout";
     public final name = [
         en => "GO OUT"
     ];

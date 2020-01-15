@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class MayMade implements Entity {
+    public final id = "maymadecraft";
     public final name = [
         en => "MayMade"
     ];

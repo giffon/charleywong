@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Lantaublue implements Entity {
+    public final id = "lantaublue";
     public final name = [
         zh => "片藍造",
         en => "Indigo 11.50"

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Angaofachi implements Entity {
+    public final id = "an.gao.fa.chi";
     public final name = [
         zh => "硬膠花癡",
         en => "AGFC"

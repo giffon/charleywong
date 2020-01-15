@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Healthpolicyconcern implements Entity {
+    public final id = "healthpolicy.concern";
     public final name = [
         zh => "衞生服務界選委"
     ];

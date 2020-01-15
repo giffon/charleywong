@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Twitchtvrabbitrei implements Entity {
+    public final id = "twitchtvrabbitrei";
     public final name = [
         zh => "兔",
         en => "Rabbit"
@@ -22,3 +23,4 @@ class Twitchtvrabbitrei implements Entity {
         }
     ];
 }
+

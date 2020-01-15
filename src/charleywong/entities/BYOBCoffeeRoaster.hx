@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class BYOBCoffeeRoaster implements Entity {
+    public final id = "byobcoffeeroaster";
     public final name = [
         en => "BYOB Coffee Roaster"
     ];

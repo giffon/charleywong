@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class OrannieCoinart implements Entity {
+    public final id = "Orannie.Coinart";
     public final name = [
         zh => "橘川紅與猛與貓",
         en => "Orannie Cat n Coinart"

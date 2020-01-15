@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class WoodSoda implements Entity {
+    public final id = "woodsoda";
     public final name = [
         en => "Wood Soda"
     ];

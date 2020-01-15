@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class TravisLeatherStudio implements Entity {
+    public final id = "LeatherCraft.Travis";
     public final name = [
         en => "Travis Leather Studio"
     ];

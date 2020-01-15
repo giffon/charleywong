@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class DocaHandbook implements Entity {
+    public final id = "docahandbook";
     public final name = [
         en => "Doca Handbook"
     ];

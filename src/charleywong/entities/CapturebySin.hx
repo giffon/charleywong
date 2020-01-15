@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class CapturebySin implements Entity {
+    public final id = "capturebysin";
     public final name = [
         en => "Capture by Sin"
     ];

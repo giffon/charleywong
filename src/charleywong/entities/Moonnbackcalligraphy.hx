@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Moonnbackcalligraphy implements Entity {
+    public final id = "moonnbackcalligraphy";
     public final name = [
         en => "Moon & Back Calligraphy"
     ];

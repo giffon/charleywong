@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Accessomi implements Entity {
+    public final id = "accesso.mi";
     public final name = [
         en => "Mi.AY"
     ];

@@ -1,9 +1,10 @@
 package charleywong.entities;
 
 class Saramadehk implements Entity {
+    public final id = "saramade.hk";
     public final name = [
-        en => "Saramade",
-        zh => "莎拉手工皂"
+        zh => "莎拉手工皂",
+        en => "Saramade"
     ];
     public final webpages = [
         {

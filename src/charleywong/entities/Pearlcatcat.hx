@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Pearlcatcat implements Entity {
+    public final id = "pearlcatcat";
     public final name = [
         en => "Pearlcatcat"
     ];

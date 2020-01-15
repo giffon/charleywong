@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class LampworkArtStoreTreasuresOfQ implements Entity {
+    public final id = "TreasuresOfQ";
     public final name = [
         en => "Lampwork Art Store Treasures Of Q"
     ];

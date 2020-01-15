@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class XSpirit implements Entity {
+    public final id = "Xspirit1105";
     public final name = [
         en => "X Spirit"
     ];

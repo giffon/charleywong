@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Skywalkersfootprints implements Entity {
+    public final id = "skywalkersfootprints";
     public final name = [
         zh => "天行足跡"
     ];

@@ -14,6 +14,7 @@ typedef WebPage = {
 }
 
 interface Entity {
+    public final id:String;
     public final name:MultiLangString;
     public final webpages:Array<WebPage>;
     public final posts:Array<Post>;

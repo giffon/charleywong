@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class SyzygyOutdoorGear implements Entity {
+    public final id = "syzygyoutdoorgear";
     public final name = [
         en => "Syzygy Outdoor Gear"
     ];

@@ -1,16 +1,15 @@
 package charleywong.entities;
 
 class AmenFloristDecor implements Entity {
+    public final id = "AmenFloristDecor";
     public final name = [
-        en => "Amen Florist & Decor",
+        en => "Amen Florist & Decor"
     ];
-
     public final webpages = [
         {
             url: "https://www.facebook.com/AmenFloristDecor/"
         }
     ];
-
     public final posts = [
         {
             url: "https://www.facebook.com/AmenFloristDecor/posts/2584157948332380"
@@ -23,3 +22,4 @@ class AmenFloristDecor implements Entity {
         }
     ];
 }
+

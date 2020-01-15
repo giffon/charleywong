@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Emmbroidery implements Entity {
+    public final id = "emmbroidery";
     public final name = [
         en => "emmbroidery__"
     ];

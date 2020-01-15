@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Cansoap implements Entity {
+    public final id = "cansoap";
     public final name = [
         zh => "簡梘"
     ];

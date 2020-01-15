@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class HLLeather implements Entity {
+    public final id = "HLLeather";
     public final name = [
         zh => "指心革物",
         en => "HL_Leather"

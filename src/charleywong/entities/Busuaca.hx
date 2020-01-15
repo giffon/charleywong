@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Busuaca implements Entity {
+    public final id = "Busuaca";
     public final name = [
         zh => "浸會大學動漫學會"
     ];

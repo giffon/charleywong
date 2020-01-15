@@ -1,9 +1,10 @@
 package charleywong.entities;
 
 class LittleDreamEmbroidery implements Entity {
+    public final id = "LittleDreamEmbroidery";
     public final name = [
-        en => "Dream a little Dream Embroidery",
-        zh => "刺繡小時光"
+        zh => "刺繡小時光",
+        en => "Dream a little Dream Embroidery"
     ];
     public final webpages = [
         {

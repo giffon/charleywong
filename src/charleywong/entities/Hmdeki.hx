@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Hmdeki implements Entity {
+    public final id = "hm.deki";
     public final name = [
         zh => "隨 · 手作工坊"
     ];

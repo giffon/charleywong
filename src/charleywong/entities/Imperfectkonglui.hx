@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Imperfectkonglui implements Entity {
+    public final id = "imperfectkonglui";
     public final name = [
         zh => "不完美港女手作",
         en => "Imperfect Kong Lui Handmade"

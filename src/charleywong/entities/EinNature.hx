@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class EinNature implements Entity {
+    public final id = "E-in-Nature";
     public final name = [
         zh => "帶孩在野"
     ];

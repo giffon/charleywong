@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class TheCorner implements Entity {
+    public final id = "FreshInCorner";
     public final name = [
         en => "The Corner"
     ];

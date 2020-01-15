@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class NetdlaNaturalHandmade implements Entity {
+    public final id = "netdla";
     public final name = [
         en => "Netdla Natural Handmade"
     ];

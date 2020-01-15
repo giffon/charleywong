@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class JANPictures implements Entity {
+    public final id = "janpictureshk";
     public final name = [
         en => "JAN Pictures"
     ];

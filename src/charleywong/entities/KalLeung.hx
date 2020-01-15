@@ -1,13 +1,14 @@
 package charleywong.entities;
 
 class KalLeung implements Entity {
+    public final id = "hangmadephoto";
     public final name = [
         en => "Hangmade photography"
     ];
     public final webpages = [
         {
             url: "https://www.facebook.com/hangmadephoto/"
-        },
+        }
     ];
     public final posts = [
         {

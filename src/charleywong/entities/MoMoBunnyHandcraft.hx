@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class MoMoBunnyHandcraft implements Entity {
+    public final id = "MoMoBunnyHandcraft";
     public final name = [
         zh => "毛毛兔羊毛氈手作",
         en => "Mo Mo Bunny Handcraft"

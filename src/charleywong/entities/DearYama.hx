@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class DearYama implements Entity {
+    public final id = "dearyama2016";
     public final name = [
         en => "Dear Yama"
     ];

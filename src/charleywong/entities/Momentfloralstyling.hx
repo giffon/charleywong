@@ -1,9 +1,10 @@
 package charleywong.entities;
 
 class Momentfloralstyling implements Entity {
+    public final id = "momentfloralstyling";
     public final name = [
-        en => "Moment Floral & Styling",
-        zh => "花賞時刻"
+        zh => "花賞時刻",
+        en => "Moment Floral & Styling"
     ];
     public final webpages = [
         {

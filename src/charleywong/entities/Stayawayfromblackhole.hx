@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Stayawayfromblackhole implements Entity {
+    public final id = "2170531603162251";
     public final name = [
         en => "Stayawayfromblackhole"
     ];

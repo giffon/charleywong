@@ -1,10 +1,10 @@
 package charleywong.entities;
 
 class GreenupBeauty implements Entity {
+    public final id = "greenupbeauty";
     public final name = [
-        en => "Greenup Beauty",
+        en => "Greenup Beauty"
     ];
-
     public final webpages = [
         {
             url: "https://www.greenupbeauty.com/"
@@ -13,10 +13,10 @@ class GreenupBeauty implements Entity {
             url: "https://www.facebook.com/greenupbeauty/"
         }
     ];
-
     public final posts = [
         {
             url: "https://www.facebook.com/greenupbeauty/posts/803008950119937"
         }
     ];
 }
+

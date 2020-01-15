@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class CAVEBeerPoint implements Entity {
+    public final id = "cavebeerpoint";
     public final name = [
         en => "CAVE Beer Point"
     ];

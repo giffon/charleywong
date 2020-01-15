@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Muous implements Entity {
+    public final id = "muous";
     public final name = [
         zh => "木偶小姐",
         en => "MUOUS"

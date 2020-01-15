@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Neonlite implements Entity {
+    public final id = "neonlitehk";
     public final name = [
         en => "Neonlite"
     ];

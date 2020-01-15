@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Minimindminimind implements Entity {
+    public final id = "minimind.minimind";
     public final name = [
         zh => "叛逆中女"
     ];

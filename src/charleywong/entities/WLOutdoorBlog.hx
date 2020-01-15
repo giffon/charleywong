@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class WLOutdoorBlog implements Entity {
+    public final id = "WLOutdoorBlog";
     public final name = [
         en => "Wing Leung\'s Outdoor Blog"
     ];

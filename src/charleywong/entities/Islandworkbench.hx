@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Islandworkbench implements Entity {
+    public final id = "island.workbench";
     public final name = [
         zh => "島中坊研",
         en => "Island Workbench"

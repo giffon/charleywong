@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Hikingdb implements Entity {
+    public final id = "hikingdb";
     public final name = [
         zh => "山野‧新聞庫",
         en => "The hiking Database"

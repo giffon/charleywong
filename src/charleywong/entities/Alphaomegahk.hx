@@ -1,19 +1,19 @@
 package charleywong.entities;
 
 class Alphaomegahk implements Entity {
+    public final id = "alphaomegahk";
     public final name = [
-        en => "Alpha Omega",
+        en => "Alpha Omega"
     ];
-
     public final webpages = [
         {
-            url: "https://www.facebook.com/alphaomegahk/",
-        },
+            url: "https://www.facebook.com/alphaomegahk/"
+        }
     ];
-
     public final posts = [
         {
-            url: "https://www.facebook.com/alphaomegahk/posts/3153955344621667",
-        },
+            url: "https://www.facebook.com/alphaomegahk/posts/3153955344621667"
+        }
     ];
 }
+

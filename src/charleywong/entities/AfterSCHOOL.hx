@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class AfterSCHOOL implements Entity {
+    public final id = "afterSCHOOL311";
     public final name = [
         en => "AfterSCHOOL"
     ];

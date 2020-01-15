@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class PhysioActionHK implements Entity {
+    public final id = "PhysioActionHK";
     public final name = [
         zh => "物理治療起動",
         en => "Physio Action"

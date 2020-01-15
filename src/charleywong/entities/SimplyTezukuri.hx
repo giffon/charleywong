@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class SimplyTezukuri implements Entity {
+    public final id = "simplytezukuri";
     public final name = [
         en => "Simply Tezukuri"
     ];

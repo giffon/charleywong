@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Asabovestudio implements Entity {
+    public final id = "as.above.studio";
     public final name = [
         en => "As.above.studio"
     ];

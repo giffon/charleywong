@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class GladysDStyle implements Entity {
+    public final id = "Gladys.D.style";
     public final name = [
         en => "Gladys D. Style"
     ];

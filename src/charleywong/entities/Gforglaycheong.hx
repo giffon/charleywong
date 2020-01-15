@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Gforglaycheong implements Entity {
+    public final id = "gforglaycheong";
     public final name = [
         zh => "姬昌",
         en => "glaycheong photography"

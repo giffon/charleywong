@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Hk20s implements Entity {
+    public final id = "20shk";
     public final name = [
         zh => "20s貳拾年華"
     ];
@@ -15,3 +16,4 @@ class Hk20s implements Entity {
         }
     ];
 }
+

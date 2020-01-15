@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Softboileggstudio implements Entity {
+    public final id = "softboileggstudio";
     public final name = [
         zh => "半熟少女 天然石飾物",
         en => "Soft-boil Egg"

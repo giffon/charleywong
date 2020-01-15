@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class UrbanCamper implements Entity {
+    public final id = "urbancamperhk";
     public final name = [
         en => "Urban Camper"
     ];

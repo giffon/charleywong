@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Flipandrollpress implements Entity {
+    public final id = "flipandrollpress";
     public final name = [
         zh => "翻滾出版",
         en => "flip & roll press"

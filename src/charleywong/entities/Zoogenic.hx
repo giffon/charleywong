@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Zoogenic implements Entity {
+    public final id = "z.zoogenic";
     public final name = [
         en => "Zoogenic"
     ];

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Aphroditehkmap implements Entity {
+    public final id = "aphroditehk.map";
     public final name = [
         zh => "捕捉塵世美：香港小店地圖",
         en => "Aphrodite"

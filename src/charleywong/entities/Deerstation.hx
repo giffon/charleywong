@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Deerstation implements Entity {
+    public final id = "549599025231703";
     public final name = [
         en => "Deer_station"
     ];

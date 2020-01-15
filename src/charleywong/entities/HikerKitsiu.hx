@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class HikerKitsiu implements Entity {
+    public final id = "HikerKit.siu";
     public final name = [
         zh => "山系の • 傑少"
     ];

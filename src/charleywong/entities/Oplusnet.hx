@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Oplusnet implements Entity {
+    public final id = "oplusnet";
     public final name = [
         en => "Oplusnet"
     ];

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Hikingwave implements Entity {
+    public final id = "hikingwave";
     public final name = [
         zh => "浪行山野",
         en => "Hiking Wave"

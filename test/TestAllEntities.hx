@@ -10,6 +10,7 @@ class TestAllEntities extends utest.Test {
         Assert.isFalse(EntityIndex.entities.empty());
         Assert.isFalse(EntityIndex.entitiesOfUrl.empty());
         Assert.isFalse(EntityIndex.entitiesOfFbPage.empty());
+        Assert.isFalse(EntityIndex.entitiesOfId.empty());
     }
 
     function testUrlAccessibility():Void {
@@ -21,19 +22,29 @@ class TestAllEntities extends utest.Test {
                 validateUrl(post.url);
             }
         }
-        Assert.pass();
+    }
+
+    function testIdUniqueness():Void {
+        var id = new Map<String, Class<Dynamic>>();
+        for (entityClassName => entity in EntityIndex.entities) {
+            Assert.isFalse(id.exists(entity.id), '$id exists in both ${entityClassName} and ${Type.getClassName(id[entity.id])}.');
+        }
+    }
+
+    function testIdFormat():Void {
+        var regexp = ~/^[A-Za-z0-9\.\-_]+$/;
+        for (id => e in EntityIndex.entitiesOfId) {
+            Assert.isTrue(regexp.match(id), '$id is not valid.');
+        }
     }
 
     function testUrlUniqueness():Void {
         var url = new Map<String, Class<Dynamic>>();
         for (entityClassName => entity in EntityIndex.entities) {
             for (page in entity.webpages) {
-                if (url.exists(page.url)) {
-                    throw '$url exists in both ${entityClassName} and ${Type.getClassName(url[page.url])}.';
-                }
+                Assert.isFalse(url.exists(page.url), '$url exists in both ${entityClassName} and ${Type.getClassName(url[page.url])}.');
             }
         }
-        Assert.pass();
     }
 
     function testFbUrlFormat() {

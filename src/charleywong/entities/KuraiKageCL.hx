@@ -1,8 +1,10 @@
 package charleywong.entities;
 
 class KuraiKageCL implements Entity {
+    public final id = "DarkCrystalDiary";
     public final name = [
-        en => "Kurai Kage CL"
+        en => "Kurai Kage CL",
+        zh => "暗い影．黑色少年之日記"
     ];
     public final webpages = [
         {

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Tdfmyartworks implements Entity {
+    public final id = "tdf.myartworks";
     public final name = [
         zh => "TDF 展才基金 「自家創藝」"
     ];

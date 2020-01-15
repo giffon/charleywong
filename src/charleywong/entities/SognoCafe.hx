@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class SognoCafe implements Entity {
+    public final id = "sognocafeplus";
     public final name = [
         en => "Sogno Cafe+"
     ];

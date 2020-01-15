@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class HKupdownhill implements Entity {
+    public final id = "HKupdownhill";
     public final name = [
         zh => "上山落山"
     ];

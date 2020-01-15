@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Wheres implements Entity {
+    public final id = "whereshk";
     public final name = [
         en => "Wheres"
     ];

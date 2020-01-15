@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Inkolize implements Entity {
+    public final id = "inkolize";
     public final name = [
         zh => "墨指工作室",
         en => "inkolize"

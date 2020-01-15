@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class PerfectlyImperfectLeatherCraft implements Entity {
+    public final id = "PILeather";
     public final name = [
         en => "Perfectly Imperfect Leather Craft"
     ];

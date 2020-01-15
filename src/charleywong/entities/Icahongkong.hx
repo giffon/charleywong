@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Icahongkong implements Entity {
+    public final id = "icahongkong";
     public final name = [
         zh => "獨立評論人協會"
     ];
@@ -18,3 +19,4 @@ class Icahongkong implements Entity {
         }
     ];
 }
+

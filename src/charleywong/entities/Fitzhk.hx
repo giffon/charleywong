@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Fitzhk implements Entity {
+    public final id = "fitz.hk";
     public final name = [
         zh => "Fitz 運動平台"
     ];

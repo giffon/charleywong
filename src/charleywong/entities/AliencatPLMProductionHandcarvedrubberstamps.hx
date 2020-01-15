@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class AliencatPLMProductionHandcarvedrubberstamps implements Entity {
+    public final id = "Aliencateraserstamp";
     public final name = [
         en => "Aliencat@PLM Production, Hand-carved rubber stamps"
     ];

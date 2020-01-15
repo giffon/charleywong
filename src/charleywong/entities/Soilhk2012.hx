@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Soilhk2012 implements Entity {
+    public final id = "soilhk2012";
     public final name = [
         zh => "鄉土學社",
         en => "SoIL"

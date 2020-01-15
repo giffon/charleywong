@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class IntervalCoffeeBar implements Entity {
+    public final id = "intervalcoffeebar";
     public final name = [
         en => "Interval Coffee Bar"
     ];

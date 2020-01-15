@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class VMade implements Entity {
+    public final id = "bearvmade";
     public final name = [
         en => "V Made"
     ];

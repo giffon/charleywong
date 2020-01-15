@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Unicorndreamshk implements Entity {
+    public final id = "unicorn.dreams.hk";
     public final name = [
         zh => "夢遊獨角獸",
         en => "Unicorn Dreams"

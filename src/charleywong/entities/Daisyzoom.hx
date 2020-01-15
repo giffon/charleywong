@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Daisyzoom implements Entity {
+    public final id = "Daisyzoom";
     public final name = [
         en => "Daisyzoom"
     ];

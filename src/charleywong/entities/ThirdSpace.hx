@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class ThirdSpace implements Entity {
+    public final id = "3rdspacehk";
     public final name = [
         en => "3rd Space"
     ];

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class VIIDripBrew implements Entity {
+    public final id = "7Drip";
     public final name = [
         en => "VII Drip & Brew"
     ];

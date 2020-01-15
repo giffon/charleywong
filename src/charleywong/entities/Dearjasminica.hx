@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Dearjasminica implements Entity {
+    public final id = "Dearjasminica-1705257319524720";
     public final name = [
         en => "Dear.jasminica"
     ];
@@ -18,3 +19,4 @@ class Dearjasminica implements Entity {
         }
     ];
 }
+

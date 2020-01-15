@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Ubuntuearth implements Entity {
+    public final id = "ubuntuearth";
     public final name = [
         en => "Ubuntu"
     ];

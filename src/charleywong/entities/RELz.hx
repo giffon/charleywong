@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class RELz implements Entity {
+    public final id = "relzplay";
     public final name = [
         en => "RE:Lz"
     ];

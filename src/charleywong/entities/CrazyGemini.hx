@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class CrazyGemini implements Entity {
+    public final id = "crazygeminicraft";
     public final name = [
         en => "Crazy Gemini"
     ];

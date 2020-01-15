@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class JustMoveLimited implements Entity {
+    public final id = "justmove.hk";
     public final name = [
         en => "Just Move Limited"
     ];

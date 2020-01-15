@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class MiWHandmade implements Entity {
+    public final id = "2116792368365329";
     public final name = [
         zh => "米子小姐",
         en => "MiW Handmade"
@@ -22,3 +23,4 @@ class MiWHandmade implements Entity {
         }
     ];
 }
+

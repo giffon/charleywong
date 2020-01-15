@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class NothinglastsforeverCraft implements Entity {
+    public final id = "NOTHINGLASTSFOREVER.CRAFT";
     public final name = [
         en => "Nothinglastsforever Craft"
     ];

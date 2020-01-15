@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class OccuFocus implements Entity {
+    public final id = "OccuFocus";
     public final name = [
         zh => "職療同行",
         en => "OccuFocus"

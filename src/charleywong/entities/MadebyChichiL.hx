@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class MadebyChichiL implements Entity {
+    public final id = "Chi.Lhandmade";
     public final name = [
         en => "MadebyChichi.L"
     ];

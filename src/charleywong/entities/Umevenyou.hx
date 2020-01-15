@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Umevenyou implements Entity {
+    public final id = "um.even.you";
     public final name = [
         en => "Um.even.you"
     ];

@@ -1,6 +1,8 @@
 package charleywong.entities;
 
 class Simplecookgroup implements Entity {
+    public final id = "simplecookgroup";
+
     public final name = [
         zh => "煮回家",
     ];

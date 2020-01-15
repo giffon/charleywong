@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Cconvoyage implements Entity {
+    public final id = "cconvoyage";
     public final name = [
         zh => "旅孩手記",
         en => "CConvoyage"

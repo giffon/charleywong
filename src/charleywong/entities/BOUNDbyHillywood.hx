@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class BOUNDbyHillywood implements Entity {
+    public final id = "boundhillywood";
     public final name = [
         en => "BOUND by Hillywood"
     ];

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Bewordist implements Entity {
+    public final id = "bewordist";
     public final name = [
         zh => "彩繪文字師",
         en => "WORDist"

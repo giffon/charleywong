@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class ETplanthandmadeaccessoriesteachingtoolslivinggoodsdesignertoys implements Entity {
+    public final id = "etplant";
     public final name = [
         en => "ETplant handmade accessories, teaching tools, living goods & designer toys"
     ];

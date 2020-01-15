@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class UnaDesignStore implements Entity {
+    public final id = "unadesign.store";
     public final name = [
         en => "Una.Design Store"
     ];

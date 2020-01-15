@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class MulanAccessories implements Entity {
+    public final id = "mulanaccessories";
     public final name = [
         en => "Mulan Accessories"
     ];

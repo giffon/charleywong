@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Tigercats implements Entity {
+    public final id = "tigercats0";
     public final name = [
         en => "Tigercats"
     ];
@@ -24,3 +25,4 @@ class Tigercats implements Entity {
         }
     ];
 }
+

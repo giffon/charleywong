@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class DreamonLiebeGeheimnis implements Entity {
+    public final id = "DreamLiebeGeheimnis";
     public final name = [
         en => "Dream on Liebe Geheimnis"
     ];

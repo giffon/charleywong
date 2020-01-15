@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class LABHK implements Entity {
+    public final id = "LAB.HK";
     public final name = [
         en => "LAB Collector Hong Kong"
     ];

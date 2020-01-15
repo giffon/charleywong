@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Vwlinknet implements Entity {
+    public final id = "vwlink.net";
     public final name = [
         zh => "德慧文化圖書有限公司"
     ];
@@ -15,3 +16,4 @@ class Vwlinknet implements Entity {
         }
     ];
 }
+

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Malic implements Entity {
+    public final id = "malichandmade";
     public final name = [
         en => "Malic"
     ];

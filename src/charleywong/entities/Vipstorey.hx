@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Vipstorey implements Entity {
+    public final id = "vipstorey";
     public final name = [
         en => "Vipstorey"
     ];

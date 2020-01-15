@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class PCHandMade implements Entity {
+    public final id = "934399883337585";
     public final name = [
         en => "P&C HandMade"
     ];

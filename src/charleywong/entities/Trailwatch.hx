@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Trailwatch implements Entity {
+    public final id = "trailwatch";
     public final name = [
         zh => "Trailwatch徑‧香港"
     ];

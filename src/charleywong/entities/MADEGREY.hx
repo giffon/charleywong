@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class MADEGREY implements Entity {
+    public final id = "MADEGREY";
     public final name = [
         en => "MADEGREY"
     ];

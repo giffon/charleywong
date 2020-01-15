@@ -1,9 +1,10 @@
 package charleywong.entities;
 
 class Jisaambooks implements Entity {
+    public final id = "jisaam.books";
     public final name = [
         zh => "貳叄書房",
-        en => "jisaam.books",
+        en => "jisaam.books"
     ];
     public final webpages = [
         {
@@ -16,3 +17,4 @@ class Jisaambooks implements Entity {
         }
     ];
 }
+

@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class LilithHandmade implements Entity {
+    public final id = "lilith.skincare";
     public final name = [
         en => "Lilith Handmade"
     ];

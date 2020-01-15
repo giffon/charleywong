@@ -1,22 +1,19 @@
 package charleywong.entities;
 
 class Giffon implements Entity {
+    public final id = "giffon.io";
     public final name = [
-        en => "Giffon",
+        en => "Giffon"
     ];
-
     public final webpages = [
         {
-            url: "https://www.facebook.com/giffon.io/",
-        },
+            url: "https://www.facebook.com/giffon.io/"
+        }
     ];
-
     public final posts = [
         {
-            url: "https://www.facebook.com/pg/giffon.io/photos/?tab=album&album_id=459245671447359",
-            summary: [
-                zh => "宣傳精選黃色禮品商店"
-            ],
+            url: "https://www.facebook.com/pg/giffon.io/photos/?tab=album&album_id=459245671447359"
         }
     ];
 }
+

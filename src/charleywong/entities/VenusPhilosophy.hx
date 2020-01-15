@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class VenusPhilosophy implements Entity {
+    public final id = "venusphilosophy";
     public final name = [
         en => "Venus Philosophy"
     ];

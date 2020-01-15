@@ -1,6 +1,7 @@
 package charleywong.entities;
 
 class Aprilshennatattoo implements Entity {
+    public final id = "AprilHenna";
     public final name = [
         en => "April\'s henna tattoo"
     ];

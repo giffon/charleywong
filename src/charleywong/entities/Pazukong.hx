@@ -1,9 +1,10 @@
 package charleywong.entities;
 
 class Pazukong implements Entity {
+    public final id = "pazukong";
     public final name = [
-        en => "Pazu",
-        zh => "薯伯伯"
+        zh => "薯伯伯",
+        en => "Pazu"
     ];
     public final webpages = [
         {
