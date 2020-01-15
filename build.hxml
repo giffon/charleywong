@@ -1,9 +1,11 @@
+--js index.js
 --main charleywong.ServerMain
 --library hxnodejs
 --library react
+--library compiletime
 --class-path src
 --class-path lib/hxnodelibs
 -D react_ver=16.12
 -D react_fragments
 --debug
---js index.js
+--macro include('charleywong.entities')
