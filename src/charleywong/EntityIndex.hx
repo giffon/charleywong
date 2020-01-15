@@ -2,6 +2,7 @@ package charleywong;
 
 #if js
 import js.Lib.*;
+import js.npm.flexsearch.FlexSearch;
 #end
 using Lambda;
 using StringTools;
@@ -36,32 +37,31 @@ class EntityIndex {
     ];
 
     #if js
-    static public var elasticlunr(get, null):js.npm.elasticlunr.Index;
-    static function get_elasticlunr() return elasticlunr != null ? elasticlunr : elasticlunr = js.npm.elasticlunr.Elasticlunr.elasticlunr(function() {
-        var t:js.npm.elasticlunr.Index = nativeThis;
-        js.npm.elasticlunr.Tokenizer.setSeperator(~/(?:[\s\-]+|(?=[\u4e00-\u9fff])|(?<=[\u4e00-\u9fff]))/);
-        t.addField("id");
-        t.addField("name_en");
-        t.addField("name_zh");
-        t.addField("webpages");
-        t.addField("posts");
-        for (e in entities) {
-            t.addDoc({
-                id: e.id,
-                name_en: e.name[en],
-                name_zh: e.name[zh],
-                webpages: flatten(e.webpages.map(p -> breakupUrl(p.url))),
-                posts: flatten(e.posts.map(p -> breakupUrl(p.url))),
-            });
+    static final mixedChiEngSep = ~/(?:[\s\-]+|(?=[\u4e00-\u9fff])|(?<=[\u4e00-\u9fff]))/g;
+    static public var flexsearch(get, null):FlexSearch;
+    static function get_flexsearch() return flexsearch != null ? flexsearch : flexsearch = {
+        function tokenize(str:String) {
+            return mixedChiEngSep.split(str);
         }
-    });
-
-    static var nonAlphaNumeric = ~/[^A-Za-z0-9]/g;
-    static function breakupUrl(url:String):Array<String> {
-        return url.split("/").filter(p -> !["", "https:", "www", "facebook", "instagram"].has(p));
-    }
-    static function flatten<T>(array:Array<Array<T>>):Array<T> {
-        return array.fold((item, result:Array<T>) -> result.concat(item),[]);
-    }
+        var f = FlexSearch.create({
+            doc: {
+                id: "id",
+                field: {
+                    "id": {},
+                    "name:en": {},
+                    "name:zh": { tokenize: tokenize },
+                    "webpages": {},
+                    "posts": {},
+                },
+            }
+        });
+        f.add(entities.map(e -> {
+            id: e.id,
+            name: e.name.toJson(),
+            webpages: e.webpages.map(p -> p.url).join("\n"),
+            posts: e.posts.map(p -> p.url).join("\n"),
+        }));
+        f;
+    };
     #end
 }
