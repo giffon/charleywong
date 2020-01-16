@@ -18,7 +18,7 @@ class Index extends View {
     }
 
     function renderEntity(e:Entity) return jsx('
-        <p key=${e.id}><a href=${'${e.id}.json'}>${renderName(e.name)}</a></p>
+        <p key=${e.id}><a href=${'${e.id}'}>${renderName(e.name)}</a></p>
     ');
 
     override function bodyContent() {

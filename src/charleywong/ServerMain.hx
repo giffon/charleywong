@@ -1,7 +1,7 @@
 package charleywong;
 
 import haxe.Json;
-import charleywong.views.Index;
+import charleywong.views.*;
 import js.npm.express.*;
 import js.Node.*;
 using charleywong.ExpressTools;
@@ -29,6 +29,18 @@ class ServerMain {
         res.json(entity.toJson());
     }
 
+    static function entity(req:Request, res:Response) {
+        var entityId:String = req.params.entityId;
+        var entity = EntityIndex.entitiesOfId[entityId];
+        if (entity == null) {
+            res.status(404).send('Entity of id $entityId not found.');
+            return;
+        }
+        res.sendView(EntityView, {
+            entity: entity,
+        });
+    }
+
     static function searchJson(req:Request, res:Response) {
         var query:String = req.params.query;
         var result = EntityIndex.flexsearch.search({
@@ -52,6 +64,7 @@ class ServerMain {
         app.get("/entities.json", entitiesJson);
         app.get("/flexsearch.json", flexsearchJson);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+).json", entityJson);
+        app.get("/:entityId([A-Za-z0-9\\-_\\.]+)", entity);
         app.get("/search/:query.json", searchJson);
 
         if (isMain) {
