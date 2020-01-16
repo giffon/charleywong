@@ -27,6 +27,10 @@ class Index extends View {
         return jsx('
             <Fragment>
                 <h1>Charley Wong 和你查</h1>
+                <form>
+                    <input type="text" name="search" />
+                    <input type="submit" />
+                </form>
                 <div>${entities.map(renderEntity)}</div>
             </Fragment>
         ');

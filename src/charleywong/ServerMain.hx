@@ -5,6 +5,7 @@ import charleywong.views.*;
 import js.npm.express.*;
 import js.Node.*;
 using charleywong.ExpressTools;
+using StringTools;
 
 class ServerMain {
     static final port = 3000;
@@ -12,6 +13,12 @@ class ServerMain {
     static var app:Application;
 
     static function index(req:Request, res:Response) {
+        switch (req.query.search:String) {
+            case null: //pass
+            case search:
+                res.redirect("search/" + search.urlEncode() + ".json");
+                return;
+        }
         res.sendView(Index);
     }
 
@@ -43,11 +50,11 @@ class ServerMain {
 
     static function searchJson(req:Request, res:Response) {
         var query:String = req.params.query;
-        var result = EntityIndex.flexsearch.search({
+        var result:Array<{id:String}> = EntityIndex.flexsearch.search({
             query: query,
             limit: 10,
         });
-        res.json(result);
+        res.json(result.map(r -> EntityIndex.entitiesOfId[r.id].toJson()));
     }
 
     static function flexsearchJson(req:Request, res:Response) {
