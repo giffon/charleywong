@@ -12,7 +12,7 @@ abstract MultiLangString(Map<Lang,String>) from Map<Lang,String> {
     public function toJson() {
         var o:DynamicAccess<String> = {};
         for (lang => str in this) {
-            o[lang.getName()] = str;
+            o[lang] = str;
         }
         return o;
     }

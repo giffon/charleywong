@@ -1,12 +1,5 @@
 package charleywong.views;
 
-import react.*;
-import react.Fragment;
-import react.ReactMacro.jsx;
-import haxe.*;
-import haxe.io.*;
-using StringTools;
-
 class View extends ReactComponent {
     function title():String return "Charley Wong 和你查";
 

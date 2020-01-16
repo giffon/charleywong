@@ -1,6 +1,6 @@
 package charleywong;
 
-enum Lang {
-    zh;
-    en;
+enum abstract Lang(String) to String {
+    var zh;
+    var en;
 }
