@@ -28,7 +28,7 @@ class View extends ReactComponent {
 
     function css() return jsx('
         <Fragment>
-            <link rel="stylesheet" href="css/style.css" />
+            <link rel="stylesheet" href="/css/style.css" />
         </Fragment>
     ');
 

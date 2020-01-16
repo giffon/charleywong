@@ -34,7 +34,6 @@ class TestAllEntities extends utest.Test {
     function testIdFormat():Void {
         var regexp = ~/^[A-Za-z0-9\.\-_]+$/;
         var reserved = [
-            "entities",    // https://charleywong.giffon.io/entities.json
             "flexsearch",  // https://charleywong.giffon.io/flexsearch.json
         ];
         for (id => e in EntityIndex.entitiesOfId) {

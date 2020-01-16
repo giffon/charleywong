@@ -1,7 +1,8 @@
 package charleywong.views;
 
 class EntityView extends View {
-    override public function description() return "一個開放源碼同開放數據嘅商業/品牌目錄.";
+    override public function title() return '${renderName(entity.name)}';
+    override public function description() return 'Charley Wong 和你查 ${renderName(entity.name)}.';
     override public function render() {
         return super.render();
     }
@@ -50,17 +51,17 @@ class EntityView extends View {
         return jsx('
             <Fragment>
                 <header>
-                    <a href="..">Charley Wong 和你查</a>
+                    <a href="/">Charley Wong 和你查</a>
                 </header>
-                <h1>${renderName(entity.name)}</h1>
+                <div className="mb-3">
+                    <h1>${renderName(entity.name)}</h1>
+                    <a href=${jsonHref}>JSON 格式</a>
+                </div>
                 <div>
                     ${entity.webpages.map(renderWebpage)}
                 </div>
                 <div>
                     ${entity.posts.map(renderPost)}
-                </div>
-                <div>
-                    <a href=${jsonHref}>JSON 格式</a>
                 </div>
             </Fragment>
         ');

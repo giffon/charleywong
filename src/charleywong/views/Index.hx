@@ -8,22 +8,7 @@ class Index extends View {
         return super.render();
     }
 
-    function renderName(n:MultiLangString) {
-        return switch [n[zh], n[en]] {
-            case [ null, null ]: throw 'No name available';
-            case [ z, null ]: z;
-            case [ null, e ]: e;
-            case [ z, e ]: '${e} ${z}';
-        }
-    }
-
-    function renderEntity(e:Entity) return jsx('
-        <p key=${e.id}><a href=${'${e.id}'}>${renderName(e.name)}</a></p>
-    ');
-
     override function bodyContent() {
-        var entities = EntityIndex.entities.array();
-        entities.sort((e1, e2) -> Reflect.compare(renderName(e1.name), renderName(e2.name)));
         return jsx('
             <Fragment>
                 <h1>Charley Wong 和你查</h1>
@@ -31,7 +16,9 @@ class Index extends View {
                     <input type="text" name="search" placeholder="搜尋" required=${true} />
                     <input type="submit" value="🔎" />
                 </form>
-                <div>${entities.map(renderEntity)}</div>
+                <div>
+                    <a href="list/all">全部 Charley Wong 和你查 商業/品牌名單</a>
+                </div>
             </Fragment>
         ');
     }

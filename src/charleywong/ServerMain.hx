@@ -6,6 +6,7 @@ import js.npm.express.*;
 import js.Node.*;
 using charleywong.ExpressTools;
 using StringTools;
+using Lambda;
 
 class ServerMain {
     static final port = 3000;
@@ -16,13 +17,34 @@ class ServerMain {
         switch (req.query.search:String) {
             case null: //pass
             case search:
-                res.redirect("search/" + search.urlEncode() + ".json");
+                res.redirect("/search/" + search.urlEncode());
                 return;
         }
         res.sendView(Index);
     }
 
-    static function entitiesJson(req:Request, res:Response) {
+    static function renderName(n:MultiLangString) {
+        return switch [n[zh], n[en]] {
+            case [ null, null ]: throw 'No name available';
+            case [ z, null ]: z;
+            case [ null, e ]: e;
+            case [ z, e ]: '${e} ${z}';
+        }
+    }
+
+    static function all(req:Request, res:Response) {
+        res.sendView(EntityListView, {
+            slug: "all",
+            listName: "全部 Charley Wong 和你查 商業/品牌",
+            entities: {
+                var entities = EntityIndex.entities.array();
+                entities.sort((e1, e2) -> Reflect.compare(renderName(e1.name), renderName(e2.name)));
+                entities;
+            }
+        });
+    }
+
+    static function allJson(req:Request, res:Response) {
         res.json([for (e in EntityIndex.entities) e.toJson()]);
     }
 
@@ -57,6 +79,19 @@ class ServerMain {
         res.json(result.map(r -> EntityIndex.entitiesOfId[r.id].toJson()));
     }
 
+    static function search(req:Request, res:Response) {
+        var query:String = req.params.query;
+        var result:Array<{id:String}> = EntityIndex.flexsearch.search({
+            query: query,
+            limit: 10,
+        });
+        res.sendView(EntityListView, {
+            slug: query.urlEncode(),
+            listName: '${query} 搜尋結果',
+            entities: result.map(r -> EntityIndex.entitiesOfId[r.id]),
+        });
+    }
+
     static function flexsearchJson(req:Request, res:Response) {
         res.json(EntityIndex.flexsearch.export({
             serialize: false,
@@ -68,12 +103,22 @@ class ServerMain {
         app = new Application();
         app.set('json spaces', 2);
         app.use(Express.Static("static"));
+        app.use(function(req:Request, res:Response, next) {
+            if (req.path.endsWith('/') && req.path.length > 1) {
+                var query = req.url.substr(req.path.length);
+                res.redirect(301, req.path.substr(0, req.path.length-1) + query);
+            } else {
+                next();
+            }
+        });
         app.get("/", index);
-        app.get("/entities.json", entitiesJson);
+        app.get("/list/all.json", allJson);
+        app.get("/list/all", all);
         app.get("/flexsearch.json", flexsearchJson);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+).json", entityJson);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+)", entity);
         app.get("/search/:query.json", searchJson);
+        app.get("/search/:query", search);
 
         if (isMain) {
             app.listen(port, function() {
