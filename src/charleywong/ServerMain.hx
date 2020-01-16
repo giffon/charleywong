@@ -38,11 +38,19 @@ class ServerMain {
         res.json(result);
     }
 
+    static function flexsearchJson(req:Request, res:Response) {
+        res.json(EntityIndex.flexsearch.export({
+            serialize: false,
+            doc: false,
+        }));
+    }
+
     static function main():Void {
         app = new Application();
         app.set('json spaces', 2);
         app.get("/", index);
         app.get("/entities.json", entitiesJson);
+        app.get("/flexsearch.json", flexsearchJson);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+).json", entityJson);
         app.get("/search/:query.json", searchJson);
 
