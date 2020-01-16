@@ -46,6 +46,7 @@ class EntityView extends View {
     }
 
     override function bodyContent() {
+        var jsonHref = '${entity.id}.json';
         return jsx('
             <Fragment>
                 <header>
@@ -57,6 +58,9 @@ class EntityView extends View {
                 </div>
                 <div>
                     ${entity.posts.map(renderPost)}
+                </div>
+                <div>
+                    <a href=${jsonHref}>JSON 格式</a>
                 </div>
             </Fragment>
         ');
