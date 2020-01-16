@@ -361,7 +361,7 @@ class Importer {
                     expr: EConst(CString(name)),
                     pos: null,
                 };
-                macro $i{lang.getName()} => ${nameExpr};
+                macro $i{lang} => ${nameExpr};
             }
         ];
         var webpagesExprs = [
