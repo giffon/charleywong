@@ -28,8 +28,8 @@ class Index extends View {
             <Fragment>
                 <h1>Charley Wong 和你查</h1>
                 <form>
-                    <input type="text" name="search" />
-                    <input type="submit" />
+                    <input type="text" name="search" placeholder="搜尋" required=${true} />
+                    <input type="submit" value="🔎" />
                 </form>
                 <div>${entities.map(renderEntity)}</div>
             </Fragment>

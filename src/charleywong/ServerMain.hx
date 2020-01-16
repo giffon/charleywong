@@ -67,6 +67,7 @@ class ServerMain {
     static function main():Void {
         app = new Application();
         app.set('json spaces', 2);
+        app.use(Express.Static("static"));
         app.get("/", index);
         app.get("/entities.json", entitiesJson);
         app.get("/flexsearch.json", flexsearchJson);

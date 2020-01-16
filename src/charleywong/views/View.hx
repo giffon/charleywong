@@ -17,7 +17,7 @@ class View extends ReactComponent {
 
     function depCss() return jsx('
         <Fragment>
-            <div />
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossOrigin="anonymous" />
         </Fragment>
     ');
 
@@ -28,6 +28,7 @@ class View extends ReactComponent {
 
     function css() return jsx('
         <Fragment>
+            <link rel="stylesheet" href="css/style.css" />
         </Fragment>
     ');
 
