@@ -88,6 +88,7 @@ class ServerMain {
         res.sendView(EntityListView, {
             slug: query.urlEncode(),
             listName: '${query} 搜尋結果',
+            searchQuery: query,
             entities: result.map(r -> EntityIndex.entitiesOfId[r.id]),
         });
     }

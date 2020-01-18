@@ -8,14 +8,18 @@ class Index extends View {
         return super.render();
     }
 
+    static public function searchForm(query:String) return jsx('
+        <form>
+            <input type="text" name="search" placeholder="搜尋" required=${true} defaultValue=${query} />
+            <input type="submit" value="🔎" />
+        </form>
+    ');
+
     override function bodyContent() {
         return jsx('
             <Fragment>
                 <h1>Charley Wong 和你查</h1>
-                <form>
-                    <input type="text" name="search" placeholder="搜尋" required=${true} />
-                    <input type="submit" value="🔎" />
-                </form>
+                ${searchForm("")}
                 <div>
                     <a href="list/all">全部 Charley Wong 和你查 商業/品牌名單</a>
                 </div>

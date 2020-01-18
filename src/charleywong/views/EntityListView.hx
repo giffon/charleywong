@@ -16,6 +16,9 @@ class EntityListView extends View {
     public var entities(get, never):Array<Entity>;
     function get_entities() return props.entities;
 
+    public var searchQuery(get, never):Null<String>;
+    function get_searchQuery() return props.searchQuery;
+
     function renderName(n:MultiLangString) {
         return switch [n[zh], n[en]] {
             case [ null, null ]: throw 'No name available';
@@ -37,6 +40,7 @@ class EntityListView extends View {
                     <a href="/">Charley Wong 和你查</a>
                 </header>
                 <div className="mb-3">
+                    ${searchQuery != null ? Index.searchForm(searchQuery) : null}
                     <h1>${listName}</h1>
                     <a href=${jsonHref}>JSON 格式</a>
                 </div>
