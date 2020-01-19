@@ -11,6 +11,7 @@ typedef Post = {
 typedef WebPage = {
     ?name:Null<MultiLangString>,
     url:String,
+    ?meta:Map<String, Dynamic>,
 }
 
 interface Entity {

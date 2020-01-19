@@ -27,6 +27,8 @@ enum OpeningSchedule {
 }
 
 class Importer {
+    static final fbAppId = Sys.getEnv("FB_APP_ID");
+
     final driver:Remote;
     final hubHost:String;
     final hubUrl:String;
@@ -284,10 +286,7 @@ class Importer {
         }
     }
 
-    static function main() {
-        var args = Sys.args();
-        var url = args[0].trim();
-
+    static function importUrl(url:String):Void {
         if (!url.startsWith("https://www.facebook.com/")) {
             throw '$url doesn\'t look like a Facebook URL.';
         }
@@ -321,6 +320,26 @@ class Importer {
         throw 'Cannot handle $url';
     }
 
+    static function processSearchResults(jsonFile:String):Void {
+        var json:Array<{
+            title:String,
+            link:String,
+            snippet:String,
+        }> = Json.parse(File.getContent(jsonFile));
+        // trace(json);
+
+    }
+
+    static function main() {
+        var args = Sys.args();
+
+        var arg = args[0].trim();
+        if (arg.startsWith("https://")) {
+            importUrl(arg);
+            return;
+        }
+    }
+
     static function uppercaseFirstChar(str:String):String {
         return str.charAt(0).toUpperCase() + str.substr(1);
     }
@@ -347,6 +366,34 @@ class Importer {
         throw 'Cannot get a class name from $name ($fbPage).';
     }
 
+    static function valueToExpr(v:Dynamic):Expr {
+        return switch (Type.typeof(v)) {
+            case TNull: macro null;
+            case TInt: {
+                expr: EConst(CInt(Std.string(v))),
+                pos: null
+            }
+            case TFloat: {
+                expr: EConst(CFloat(Std.string(v))),
+                pos: null
+            }
+            case TBool: {
+                expr: EConst(CIdent(v ? "true" : "false")),
+                pos: null
+            }
+            case TClass(String): {
+                expr: EConst(CString(v)),
+                pos: null
+            }
+            case TClass(Array):
+                var a:Array<Dynamic> = v;
+                var items = a.map(valueToExpr);
+                macro [$a{items}];
+            case type:
+                throw 'Cannot handle $type.';
+        }
+    }
+
     static function updateEntity(entity:Entity, post:String) {
         var fullName = Type.getClassName(Type.getClass(entity)).split(".");
         var className = fullName[fullName.length - 1];
@@ -367,11 +414,27 @@ class Importer {
         var webpagesExprs = [
             for (p in entity.webpages)
             {
+                var fields = [];
                 var urlExpr = {
                     expr: EConst(CString(p.url)),
                     pos: null,
                 };
-                macro { url: $urlExpr };
+                switch (macro { url: $urlExpr }) {
+                    case { expr: EObjectDecl(fs) }: fields = fields.concat(fs);
+                    case e: throw '$e is not EObjectDecl.';
+                }
+                if (p.meta != null) {
+                    var metas = [for (k => v in p.meta) macro ${{expr:EConst(CString(k)), pos:null}} => ${valueToExpr(v)}];
+                    var metaExpr = macro [$a{metas}];
+                    switch (macro { meta: $metaExpr }) {
+                        case { expr: EObjectDecl(fs) }: fields = fields.concat(fs);
+                        case e: throw '$e is not EObjectDecl.';
+                    }
+                }
+                {
+                    expr: EObjectDecl(fields),
+                    pos: null,
+                };
             }
         ];
         var posts = post == null || entity.posts.exists(p -> p.url == post) ? entity.posts : entity.posts.concat([{ url: post }]);
@@ -388,8 +451,8 @@ class Importer {
         var cls = macro class $className implements Entity {
             public final id = ${idExpr};
             public final name = $a{nameExprs};
-            public final webpages = $a{webpagesExprs};
-            public final posts = $a{postsExprs};
+            public final webpages:Array<WebPage> = $a{webpagesExprs};
+            public final posts:Array<Post> = $a{postsExprs};
         };
         cls.pack = fullName.slice(0, fullName.length - 1);
         return cls;
@@ -463,10 +526,10 @@ class Importer {
         var cls = macro class $className implements Entity {
             public final id =${idExpr};
             public final name = ${nameExpr};
-            public final webpages = [{
+            public final webpages:Array<WebPage> = [{
                 url: ${urlExpr}
             }];
-            public final posts = [{
+            public final posts:Array<Post> = [{
                 url: ${postExpr}
             }];
         };
