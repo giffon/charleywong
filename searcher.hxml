@@ -1,0 +1,7 @@
+--class-path src
+--class-path lib/pyextern/out
+--library compiletime
+--library formatter
+--python searcher.py
+--main charleywong.searcher.Searcher
+--macro include('charleywong.entities')
