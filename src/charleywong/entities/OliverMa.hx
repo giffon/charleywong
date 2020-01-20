@@ -18,7 +18,7 @@ class OliverMa implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/https%3A%2F%2Fwww.instagram.com%2Foliverma21/"
+            url: "https://www.instagram.com/oliverma21/"
         }
     ];
     public final posts:Array<Post> = [

@@ -16,7 +16,7 @@ class Meatiebear implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/，近乎完整的作品集 https://www.instagram.com/johnhohoo//"
+            url: "https://www.instagram.com/johnhohoo/"
         }
     ];
     public final posts:Array<Post> = [

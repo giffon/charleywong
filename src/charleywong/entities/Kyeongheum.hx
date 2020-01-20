@@ -18,7 +18,7 @@ class Kyeongheum implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/http%3A%2F%2Finstagram.com%2Fkyeongheum/"
+            url: "https://www.instagram.com/kyeongheum/"
         }
     ];
     public final posts:Array<Post> = [

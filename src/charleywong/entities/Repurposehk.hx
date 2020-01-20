@@ -18,9 +18,6 @@ class Repurposehk implements Entity {
                 "email" => "repurpose@dne.com.hk",
                 "tel" => "61283314"
             ]
-        },
-        {
-            url: "https://www.instagram.com/campingcarhk/"
         }
     ];
     public final posts:Array<Post> = [

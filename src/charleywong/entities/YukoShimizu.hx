@@ -18,7 +18,7 @@ class YukoShimizu implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/http%3A%2F%2Finstagram.com%2Fyukoart/"
+            url: "https://www.instagram.com/yukoart/"
         }
     ];
     public final posts:Array<Post> = [

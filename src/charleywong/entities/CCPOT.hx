@@ -17,7 +17,7 @@ class CCPOT implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/ccpothk%3Figshid%3D1hwi4hh1ufen5/"
+            url: "https://www.instagram.com/ccpothk/"
         }
     ];
     public final posts:Array<Post> = [

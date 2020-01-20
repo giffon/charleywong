@@ -21,7 +21,7 @@ class Hkreaders implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/https%3A%2F%2Fwww.instagram.com%2Fhkreaders/"
+            url: "https://www.instagram.com/hkreaders/"
         }
     ];
     public final posts:Array<Post> = [

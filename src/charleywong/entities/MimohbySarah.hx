@@ -17,7 +17,7 @@ class MimohbySarah implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/@mimohbysarah/"
+            url: "https://www.instagram.com/mimohbysarah/"
         }
     ];
     public final posts:Array<Post> = [

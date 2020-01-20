@@ -21,7 +21,7 @@ class Unicorndreamshk implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/%40unicorn.dreams.hk/"
+            url: "https://www.instagram.com/unicorn.dreams.hk/"
         }
     ];
     public final posts:Array<Post> = [

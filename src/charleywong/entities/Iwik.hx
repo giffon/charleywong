@@ -15,9 +15,6 @@ class Iwik implements Entity {
                 ],
                 "email" => "iwikears@gmail.com"
             ]
-        },
-        {
-            url: "https://www.instagram.com/kareniwik/"
         }
     ];
     public final posts:Array<Post> = [

@@ -20,9 +20,6 @@ class Vwlinknet implements Entity {
                 "email" => "info@vwlink.net",
                 "tel" => "24074000"
             ]
-        },
-        {
-            url: "https://www.instagram.com/https%3A%2F%2Fwww.instagram.com%2Fdm_vwlink/"
         }
     ];
     public final posts:Array<Post> = [

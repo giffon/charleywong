@@ -20,7 +20,7 @@ class Daisyzoom implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/daisyzoom)/"
+            url: "https://www.instagram.com/daisyzoom/"
         }
     ];
     public final posts:Array<Post> = [

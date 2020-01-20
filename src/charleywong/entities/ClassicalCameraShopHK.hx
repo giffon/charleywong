@@ -22,7 +22,7 @@ class ClassicalCameraShopHK implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/classicalcamerashophk/"
+            url: "https://www.instagram.com/classicalcamerashop.hk/"
         }
     ];
     public final posts:Array<Post> = [

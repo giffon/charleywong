@@ -18,7 +18,7 @@ class CPIC implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/https%3A%2F%2Fwww.instagram.com%2Fc.pic_/"
+            url: "https://www.instagram.com/c.pic_/"
         }
     ];
     public final posts:Array<Post> = [

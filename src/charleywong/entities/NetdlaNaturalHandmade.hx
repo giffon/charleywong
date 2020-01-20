@@ -18,9 +18,6 @@ class NetdlaNaturalHandmade implements Entity {
                 "email" => "netdla.beauty@gmail.com",
                 "tel" => "60776193"
             ]
-        },
-        {
-            url: "https://www.instagram.com/netdla_beauty%23/"
         }
     ];
     public final posts:Array<Post> = [

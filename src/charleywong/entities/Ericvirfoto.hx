@@ -17,7 +17,10 @@ class Ericvirfoto implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/lezlebric / virginayip/"
+            url: "https://www.instagram.com/lezlebric/"
+        },
+        {
+            url: "https://www.instagram.com/virginayip/"
         }
     ];
     public final posts:Array<Post> = [

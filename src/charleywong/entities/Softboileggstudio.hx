@@ -19,7 +19,7 @@ class Softboileggstudio implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/nekozoooo/"
+            url: "https://www.instagram.com/nekozooooo/"
         }
     ];
     public final posts:Array<Post> = [

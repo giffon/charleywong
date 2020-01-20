@@ -19,7 +19,7 @@ class Momentfloralstyling implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/https%3A%2F%2Fwww.instagram.com%2Fmomentfloralstyling/"
+            url: "https://www.instagram.com/momentfloralstyling/"
         }
     ];
     public final posts:Array<Post> = [

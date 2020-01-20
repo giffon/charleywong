@@ -21,7 +21,7 @@ class NToysHK implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/naughtytoys1809%3Ffbclid%3DIwAR1onnAyVsMyOKT8u3uE5qKshC29CAPHmpfyRPpxEn2b4VGM7fUZ-TfX9d0/"
+            url: "https://www.instagram.com/naughtytoys1809/"
         }
     ];
     public final posts:Array<Post> = [

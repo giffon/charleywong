@@ -20,7 +20,7 @@ class Shizukohandmade implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/https%3A%2F%2Fwww.instagram.com%2Fshizukohandmade/"
+            url: "https://www.instagram.com/shizukohandmade/"
         }
     ];
     public final posts:Array<Post> = [

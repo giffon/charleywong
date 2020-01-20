@@ -3,7 +3,8 @@ package charleywong.entities;
 class ArtandCultureOutreach implements Entity {
     public final id = "ArtandCultureOutreach";
     public final name = [
-        zh => "Art and Culture Outreach｜艺鵠"
+        en => "Art and Culture Outreach",
+        zh => "艺鵠"
     ];
     public final webpages:Array<WebPage> = [
         {
@@ -22,7 +23,7 @@ class ArtandCultureOutreach implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/https%3A%2F%2Fwww.instagram.com%2Fartandcultureoutreach/"
+            url: "https://www.instagram.com/artandcultureoutreach/"
         }
     ];
     public final posts:Array<Post> = [

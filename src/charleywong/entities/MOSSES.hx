@@ -22,7 +22,7 @@ class MOSSES implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/mossesbook/"
+            url: "https://www.instagram.com/mossesbooks/"
         }
     ];
     public final posts:Array<Post> = [

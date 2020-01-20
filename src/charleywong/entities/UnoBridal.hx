@@ -20,7 +20,7 @@ class UnoBridal implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/unobridal/"
+            url: "https://www.instagram.com/unobridalhk/"
         }
     ];
     public final posts:Array<Post> = [

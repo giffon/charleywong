@@ -20,9 +20,6 @@ class Startingof implements Entity {
                 "email" => "snowapple_chan@yahoo.com.hk",
                 "tel" => "63552996"
             ]
-        },
-        {
-            url: "https://www.instagram.com/startingof/"
         }
     ];
     public final posts:Array<Post> = [

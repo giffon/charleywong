@@ -16,7 +16,7 @@ class Bydorisliu implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/https%3A%2F%2Finstagram.com%2Fby.dorisliu/"
+            url: "https://www.instagram.com/by.dorisliu/"
         }
     ];
     public final posts:Array<Post> = [

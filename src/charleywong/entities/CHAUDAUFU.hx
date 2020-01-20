@@ -19,7 +19,7 @@ class CHAUDAUFU implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/chaudaufu_hennatattoo%3Ffbclid%3DIwAR2pE85reiDbwHQEJYxAWwi34V7iDZ49_S0vQxHrL8y1jVAmKu92rEVI1iA/"
+            url: "https://www.instagram.com/chaudaufu_hennatattoo/"
         }
     ];
     public final posts:Array<Post> = [

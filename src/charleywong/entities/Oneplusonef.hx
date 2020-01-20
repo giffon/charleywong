@@ -16,7 +16,7 @@ class Oneplusonef implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/1plus_1handmade%3Fr%3Dnametag/"
+            url: "https://www.instagram.com/1plus_1handmade/"
         }
     ];
     public final posts:Array<Post> = [

@@ -21,9 +21,6 @@ class Inkolize implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/%40inkolize/"
-        },
-        {
             url: "https://www.instagram.com/inkolize/"
         }
     ];

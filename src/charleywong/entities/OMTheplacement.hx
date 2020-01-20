@@ -17,7 +17,7 @@ class OMTheplacement implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/omtheplacement%3Ffbclid%3DIwAR0BVlso_sH2v9BCraxCkkkn1rhAIRQIQ3eZB__JtJgbT3rf7cJ33jrpkY8/"
+            url: "https://www.instagram.com/om.theplacement/"
         }
     ];
     public final posts:Array<Post> = [

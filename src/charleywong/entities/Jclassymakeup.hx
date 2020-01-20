@@ -19,7 +19,7 @@ class Jclassymakeup implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/https%3A%2F%2Fwww.instagram.com%2Fjclassymakeup/"
+            url: "https://www.instagram.com/jclassymakeup/"
         }
     ];
     public final posts:Array<Post> = [
