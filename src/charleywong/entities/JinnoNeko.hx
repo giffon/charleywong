@@ -11,7 +11,7 @@ class JinnoNeko implements Entity {
             url: "https://www.facebook.com/Jinno-Neko-神野猫-279914545362892/"
         },
         {
-            url: "https://www.instagram.com/jinnoneko"
+            url: "https://www.instagram.com/jinnoneko/"
         }
     ];
     public final posts = [

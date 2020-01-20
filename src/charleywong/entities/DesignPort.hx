@@ -10,7 +10,7 @@ class DesignPort implements Entity {
             url: "https://www.facebook.com/design.port.hk/"
         },
         {
-            url: "https://www.instagram.com/design_port"
+            url: "https://www.instagram.com/design_port/"
         }
     ];
     public final posts = [

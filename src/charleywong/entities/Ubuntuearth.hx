@@ -10,7 +10,7 @@ class Ubuntuearth implements Entity {
             url: "https://www.facebook.com/ubuntuearth/"
         },
         {
-            url: "https://www.instagram.com/u.b.u.n.t.u"
+            url: "https://www.instagram.com/u.b.u.n.t.u/"
         }
     ];
     public final posts = [

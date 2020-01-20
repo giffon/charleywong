@@ -11,7 +11,7 @@ class Dogswork implements Entity {
             url: "https://www.facebook.com/dogswork/"
         },
         {
-            url: "https://www.instagram.com/dogswork"
+            url: "https://www.instagram.com/dogswork/"
         }
     ];
     public final posts = [

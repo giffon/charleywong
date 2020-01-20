@@ -10,7 +10,7 @@ class Tigercats implements Entity {
             url: "https://www.facebook.com/tigercats0/"
         },
         {
-            url: "https://www.instagram.com/tigercats_"
+            url: "https://www.instagram.com/tigercats_/"
         }
     ];
     public final posts = [

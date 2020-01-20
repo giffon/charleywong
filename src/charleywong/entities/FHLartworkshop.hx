@@ -10,7 +10,7 @@ class FHLartworkshop implements Entity {
             url: "https://www.facebook.com/fhlartworkshop/"
         },
         {
-            url: "https://www.instagram.com/fhlartworkshop"
+            url: "https://www.instagram.com/fhlartworkshop/"
         }
     ];
     public final posts = [

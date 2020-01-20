@@ -10,7 +10,7 @@ class GlamourLeathershop implements Entity {
             url: "https://www.facebook.com/GlamourLeather/"
         },
         {
-            url: "https://www.instagram.com/glamourleathershop"
+            url: "https://www.instagram.com/glamourleathershop/"
         }
     ];
     public final posts = [

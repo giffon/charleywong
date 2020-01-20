@@ -60,6 +60,15 @@ class TestAllEntities extends utest.Test {
         }
     }
 
+    function testIgUrlFormat() {
+        var regexp = ~/^https?:\/\/(?:www.)?instagram.com\/(.+?)\/?$/;
+        for (entity in EntityIndex.entities) {
+            for (page in entity.webpages)
+            if (regexp.match(page.url))
+            Assert.equals('https://www.instagram.com/${regexp.matched(1)}/', page.url);
+        }
+    }
+
     function validateUrl(url:String, ?pos:PosInfos) {
         var p = new sys.io.Process("curl", ["-sSLf", url, "-o", "/dev/null", "--retry", "3"]);
         var code = p.exitCode();

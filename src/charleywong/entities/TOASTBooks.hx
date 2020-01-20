@@ -7,7 +7,7 @@ class TOASTBooks implements Entity {
     ];
     public final webpages = [
         {
-            url: "https://www.instagram.com/toast.books"
+            url: "https://www.instagram.com/toast.books/"
         },
         {
             url: "https://www.facebook.com/toast.books/"

@@ -14,7 +14,7 @@ class Inkolize implements Entity {
             url: "https://www.facebook.com/inkolize/"
         },
         {
-            url: "https://www.instagram.com/inkolize"
+            url: "https://www.instagram.com/inkolize/"
         }
     ];
     public final posts = [

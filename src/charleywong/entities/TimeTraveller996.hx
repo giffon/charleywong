@@ -11,7 +11,7 @@ class TimeTraveller996 implements Entity {
             url: "https://www.facebook.com/966TimeTraveller/"
         },
         {
-            url: "https://www.instagram.com/966_time_traveller"
+            url: "https://www.instagram.com/966_time_traveller/"
         }
     ];
     public final posts = [

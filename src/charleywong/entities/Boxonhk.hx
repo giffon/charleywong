@@ -10,7 +10,7 @@ class Boxonhk implements Entity {
             url: "https://www.facebook.com/boxonhk/"
         },
         {
-            url: "https://www.instagram.com/boxonhk"
+            url: "https://www.instagram.com/boxonhk/"
         }
     ];
     public final posts = [

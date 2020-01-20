@@ -10,7 +10,7 @@ class Fieldmarkethk implements Entity {
             url: "https://www.facebook.com/fieldmarkethk/"
         },
         {
-            url: "https://www.instagram.com/fieldmarkethk"
+            url: "https://www.instagram.com/fieldmarkethk/"
         }
     ];
     public final posts = [
