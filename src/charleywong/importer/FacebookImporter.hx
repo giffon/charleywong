@@ -25,10 +25,12 @@ enum OpeningSchedule {
 typedef FacebookInfo = {
     page:String,
     name:String,
+    about:String,
     addr:{
         line:String,
         area:String,
     },
+    email:String,
     tel:String,
     ig:String,
     hours:OpeningSchedule,
@@ -205,6 +207,33 @@ class FacebookImporter {
         return categoryLinks.map(e -> e.text).concat(searchLinks.map(e -> e.text));
     }
 
+    function fbContactEmail() {
+        var emailLinks:Array<WebElement> = driver.find_elements_by_xpath("//*[@role='main']//a[starts-with(@href, 'mailto:')]");
+        return if (emailLinks.length == 0) {
+            null;
+        } else if (emailLinks.length == 1) {
+            var regexp = ~/^mailto:(.+)$/;
+            if (regexp.match(emailLinks[0].get_attribute("href")))
+                regexp.matched(1);
+            else
+                throw 'Cannot parse ${emailLinks[0].get_attribute("href")}';
+        } else {
+            throw 'More than 1 email?';
+        }
+    }
+
+    function fbAbout() {
+        var about:Array<WebElement> = driver.find_elements_by_xpath("//*[@role='main']//div[text()='MORE INFO']/parent::*/parent::*//div[text()='About']/following-sibling::*");
+        return switch (about) {
+            case []:
+                null;
+            case [about]:
+                about.text;
+            case _:
+                throw 'More than 1 about elements? $about';
+        }
+    }
+
     public function loginFbIfNeeded() {
         var requireLogin = try {
             new WebDriverWait(driver, 5).until(_ ->
@@ -257,7 +286,9 @@ class FacebookImporter {
         return {
             page: fbPage,
             name: fbPageName(),
+            about: fbAbout(),
             addr: fbPageAddr(),
+            email: fbContactEmail(),
             tel: fbPageTel(),
             ig: fbPageInstagram(),
             hours: fbPageHours(),

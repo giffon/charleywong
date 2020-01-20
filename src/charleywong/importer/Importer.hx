@@ -281,10 +281,16 @@ class Importer {
             pos: null,
         };
         var metaExprs = [];
+        if (fbPage.about != null) {
+            metaExprs.push(macro "about" => ${valueToExpr(fbPage.about)});
+        }
         metaExprs.push(macro "categories" => ${valueToExpr(fbPage.categories)});
         if (fbPage.addr != null) {
             metaExprs.push(macro "addr" => ${valueToExpr(fbPage.addr.line)});
             metaExprs.push(macro "area" => ${valueToExpr(fbPage.addr.area)});
+        }
+        if (fbPage.email != null) {
+            metaExprs.push(macro "email" => ${valueToExpr(fbPage.email)});
         }
         if (fbPage.tel != null) {
             metaExprs.push(macro "tel" => ${valueToExpr(fbPage.tel)});
