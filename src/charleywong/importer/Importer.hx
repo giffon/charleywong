@@ -296,6 +296,11 @@ class Importer {
             metaExprs.push(macro "tel" => ${valueToExpr(fbPage.tel)});
         }
         var webpagesExprs = [];
+        if (fbPage.website != null) {
+            webpagesExprs.push(macro {
+                url: ${valueToExpr(fbPage.website)},
+            });
+        }
         webpagesExprs.push(macro {
             url: ${valueToExpr('https://www.facebook.com/${fbPage.page}/')},
             meta: [$a{metaExprs}],

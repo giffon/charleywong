@@ -30,6 +30,7 @@ typedef FacebookInfo = {
         line:String,
         area:String,
     },
+    website:String,
     email:String,
     tel:String,
     ig:String,
@@ -223,14 +224,26 @@ class FacebookImporter {
     }
 
     function fbAbout() {
-        var about:Array<WebElement> = driver.find_elements_by_xpath("//*[@role='main']//div[text()='MORE INFO']/parent::*/parent::*//div[text()='About']/following-sibling::*");
-        return switch (about) {
+        var abouts:Array<WebElement> = driver.find_elements_by_xpath("//*[@role='main']//div[text()='MORE INFO']/parent::*/parent::*//div[text()='About']/following-sibling::*");
+        return switch (abouts) {
             case []:
                 null;
             case [about]:
                 about.text;
             case _:
-                throw 'More than 1 about elements? $about';
+                throw 'More than 1 about elements? $abouts';
+        }
+    }
+
+    function fbWebsite() {
+        var links:Array<WebElement> = driver.find_elements_by_xpath("//*[@role='main']//a[@rel='noopener nofollow']//*[starts-with(text(),'http')]//ancestor::a");
+        return switch (links) {
+            case []:
+                null;
+            case [link]:
+                link.get_attribute("textContent");
+            case _:
+                throw 'More than 1 website elements? $links';
         }
     }
 
@@ -289,6 +302,7 @@ class FacebookImporter {
             about: fbAbout(),
             addr: fbPageAddr(),
             email: fbContactEmail(),
+            website: fbWebsite(),
             tel: fbPageTel(),
             ig: fbPageInstagram(),
             hours: fbPageHours(),
