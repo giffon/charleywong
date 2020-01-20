@@ -5,12 +5,18 @@ class Hmdeki implements Entity {
     public final name = [
         zh => "隨 · 手作工坊"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/hm.deki/"
+            url: "https://www.facebook.com/hm.deki/",
+            meta: [
+                "categories" => [
+                    "Product/service"
+                ],
+                "email" => "hilaryhk000608@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/hm.deki/posts/828338894282434"
         },

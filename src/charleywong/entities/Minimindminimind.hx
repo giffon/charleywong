@@ -5,12 +5,22 @@ class Minimindminimind implements Entity {
     public final name = [
         zh => "叛逆中女"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/minimind.minimind/"
+            url: "https://www.facebook.com/minimind.minimind/",
+            meta: [
+                "about" => "【叛逆中女】\n100%香港mix香港。撐廣東話。寫繁體字\n願望是世人可以遠離keyboard重拾紙筆，所以先寫字俾身邊的你妳您。...\n\n\nSee more",
+                "categories" => [
+                    "Arts & humanities website"
+                ],
+                "email" => "minimind.minimind@gmail.com"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/minimind.minimind/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/minimind.minimind/posts/2595454384007689"
         },

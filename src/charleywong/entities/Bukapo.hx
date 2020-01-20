@@ -5,12 +5,19 @@ class Bukapo implements Entity {
     public final name = [
         zh => "宇宙角落"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/bukapo/"
+            url: "https://www.facebook.com/bukapo/",
+            meta: [
+                "about" => "你好，我是嘉寶，\n畢業於香港理工大學設計學院視覺及傳意系，\n過著斜槓生活，喜歡畫醜美畫，\n透過創作，可以發揮我很賤的本性。",
+                "categories" => [
+                    "Personal blog"
+                ],
+                "email" => "ngkapo@hotmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/bukapo/photos/a.460658543989363/2521229421265588/"
         },

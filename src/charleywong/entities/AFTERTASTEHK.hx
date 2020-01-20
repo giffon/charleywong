@@ -5,12 +5,20 @@ class AFTERTASTEHK implements Entity {
     public final name = [
         en => "AFTER_TASTE.HK"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/aftertastehongkong/"
+            url: "https://www.facebook.com/aftertastehongkong/",
+            meta: [
+                "categories" => [
+                    "Coffee shop"
+                ],
+                "addr" => "西營盤西邊街21號",
+                "area" => "Hong Kong",
+                "email" => "aftertaste168@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/aftertastehongkong/photos/a.2120650028003572/2539566709445233/"
         },

@@ -5,12 +5,22 @@ class NothinglastsforeverCraft implements Entity {
     public final name = [
         en => "Nothinglastsforever Craft"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/NOTHINGLASTSFOREVER.CRAFT/"
+            url: "https://www.facebook.com/NOTHINGLASTSFOREVER.CRAFT/",
+            meta: [
+                "about" => "paper cutting art\nstring art",
+                "categories" => [
+                    "Product/service"
+                ],
+                "email" => "nothinglastsforever.craft@gmail.com"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/nothinglastsforever_craft/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/NOTHINGLASTSFOREVER.CRAFT/posts/2205457522888192"
         },

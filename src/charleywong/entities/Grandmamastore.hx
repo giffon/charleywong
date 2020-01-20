@@ -6,12 +6,23 @@ class Grandmamastore implements Entity {
         zh => "婆婆雜貨店",
         en => "Grandmama Store"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/grandmama.store/"
+            url: "https://www.facebook.com/grandmama.store/",
+            meta: [
+                "about" => "婆婆雜貨店\nC o l o r U p Y o u r L i f e �\n...\n\n\n\n\n\nSee more",
+                "categories" => [
+                    "Shopping & retail",
+                    "Community"
+                ],
+                "addr" => "觀塘駿業里8號",
+                "area" => "Kowloon, Hong Kong",
+                "email" => "grandmama.store@gmail.com",
+                "tel" => "92616654"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/grandmama.store/photos/a.416788022023961/1029556897413734/"
         }

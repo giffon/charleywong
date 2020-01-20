@@ -5,12 +5,20 @@ class MakeYourDayCandle implements Entity {
     public final name = [
         en => "Make Your Day Candle"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/myd.candle/"
+            url: "https://www.facebook.com/myd.candle/",
+            meta: [
+                "about" => "一次自身經歷 造就了Make Your Day的成立。\n一點燭光，一個故事\n我們用蠟燭說故事。\n當燭光燃起時, 同時喚醒生活中的小確幸。",
+                "categories" => [
+                    "Arts and crafts shop"
+                ],
+                "email" => "makeyourday1210@gmail.com",
+                "tel" => "61022477"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/myd.candle/photos/a.355325641466678/1044417555890813/"
         },

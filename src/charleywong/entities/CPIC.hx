@@ -5,12 +5,23 @@ class CPIC implements Entity {
     public final name = [
         en => "C.PIC_"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/c.pic.2015/"
+            url: "https://www.facebook.com/c.pic.2015/",
+            meta: [
+                "about" => "Collage lover from Hong Kong\n#Artist #Graphic #Designer #CollageLover\nPost Imagine collage\ntype C.pic_ in instagram.",
+                "categories" => [
+                    "Artist"
+                ],
+                "email" => "ymh0608@gmail.com",
+                "tel" => "63833545"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/https%3A%2F%2Fwww.instagram.com%2Fc.pic_/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/c.pic.2015/posts/2313561182267743"
         },

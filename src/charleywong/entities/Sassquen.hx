@@ -5,12 +5,19 @@ class Sassquen implements Entity {
     public final name = [
         en => "Sassquen"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/sassofff/"
+            url: "https://www.facebook.com/sassofff/",
+            meta: [
+                "about" => "門市暫未開放只相約時間取貨\n.\n代購 @sass.off...\n\n\n\n\n\n\nSee more",
+                "categories" => [
+                    "Community"
+                ],
+                "email" => "sassquen@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/sassofff/photos/a.580010418867515/1324476987754184/"
         },

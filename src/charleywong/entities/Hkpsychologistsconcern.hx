@@ -6,12 +6,19 @@ class Hkpsychologistsconcern implements Entity {
         zh => "良心理政",
         en => "HK Psychologists Concern"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/hkpsychologistsconcern/"
+            url: "https://www.facebook.com/hkpsychologistsconcern/",
+            meta: [
+                "about" => "良知．決心．理性\n「良心理政」是由一群關心政事、熱心社會事務、渴望香港成為一個更快樂的社區的臨床心理學家, 教育心理學家及工業與組織心理學家組成。",
+                "categories" => [
+                    "Community"
+                ],
+                "email" => "hkpsychologistsconcern@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/hkpsychologistsconcern/photos/a.351376255059344/1184691808394447/"
         },

@@ -6,12 +6,23 @@ class Flipandrollpress implements Entity {
         zh => "翻滾出版",
         en => "flip & roll press"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/flipandrollpress/"
+            url: "https://www.facebook.com/flipandrollpress/",
+            meta: [
+                "about" => "*僅限預約 by appointment only*\n\nPrinting｜Graphic Design | Publishing",
+                "categories" => [
+                    "Arts and crafts shop",
+                    "Printing service",
+                    "Book shop"
+                ],
+                "addr" => "RM 5, 17/F, Metro Centre 2, 21 Lam Hing ST, Kowloon Bay, Kowloon",
+                "area" => "Hong Kong",
+                "email" => "info@flipandroll.press"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/flipandrollpress/posts/499341120689637"
         },

@@ -5,12 +5,18 @@ class Craftword23 implements Entity {
     public final name = [
         zh => "字．作業"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/craftword23/"
+            url: "https://www.facebook.com/craftword23/",
+            meta: [
+                "about" => "文字本來就是最美麗的藝術品",
+                "categories" => [
+                    "Artist"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/craftword23/photos/a.495242207331200/1161569984031749/"
         },

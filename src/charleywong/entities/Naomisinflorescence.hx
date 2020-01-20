@@ -6,12 +6,19 @@ class Naomisinflorescence implements Entity {
         zh => "愉悅花序",
         en => "Naomi\'s Inflorescence。"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/naomisinflorescence/"
+            url: "https://www.facebook.com/naomisinflorescence/",
+            meta: [
+                "about" => "DFA, Florist & Handcrafter",
+                "categories" => [
+                    "Florist"
+                ],
+                "email" => "naomisinflorescence@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/naomisinflorescence/posts/1807010889606339"
         }

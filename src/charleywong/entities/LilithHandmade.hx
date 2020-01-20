@@ -5,12 +5,19 @@ class LilithHandmade implements Entity {
     public final name = [
         en => "Lilith Handmade"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/lilith.skincare/"
+            url: "https://www.facebook.com/lilith.skincare/",
+            meta: [
+                "categories" => [
+                    "Beauty, cosmetic & personal care"
+                ],
+                "email" => "lilithandmade.com@gmail.com",
+                "tel" => "51226604"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/lilith.skincare/photos/a.2230618037203415/2437445493187334/"
         }

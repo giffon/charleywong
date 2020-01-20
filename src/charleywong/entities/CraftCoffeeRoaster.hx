@@ -5,12 +5,23 @@ class CraftCoffeeRoaster implements Entity {
     public final name = [
         en => "Craft Coffee Roaster"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/craftcoffeehk/"
+            url: "https://www.facebook.com/craftcoffeehk/",
+            meta: [
+                "about" => "The official Facebook page of Craft Coffee Roaster - Hong Kong",
+                "categories" => [
+                    "Coffee shop",
+                    "Restaurant"
+                ],
+                "addr" => "29 Tai Kok Tsui Road,",
+                "area" => "Hong Kong",
+                "email" => "craftcoffeehk@gmail.com",
+                "tel" => "51096770"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/craftcoffeehk/posts/2579125702316087"
         },

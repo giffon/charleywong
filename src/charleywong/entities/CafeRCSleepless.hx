@@ -5,12 +5,23 @@ class CafeRCSleepless implements Entity {
     public final name = [
         en => "Cafe R&C Sleepless"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/caferncsleepless/"
+            url: "https://www.facebook.com/caferncsleepless/",
+            meta: [
+                "about" => "#come as a guest , leave as a friend.\n#we don\'t make coffee , we create coffee.\n#catering #workshop #reservation #marketing",
+                "categories" => [
+                    "Coffee shop",
+                    "Breakfast & brunch restaurant"
+                ],
+                "addr" => "G/F, 22&24 Haven Street , Causeway Bay",
+                "area" => "Causeway Bay",
+                "email" => "cafernc@gmail.com",
+                "tel" => "28909838"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/caferncsleepless/photos/a.146098188765716/2843059475736227/"
         },

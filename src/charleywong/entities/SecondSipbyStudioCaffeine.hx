@@ -5,12 +5,24 @@ class SecondSipbyStudioCaffeine implements Entity {
     public final name = [
         en => "Second Sip by Studio Caffeine"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/2econdsip/"
+            url: "https://www.facebook.com/2econdsip/",
+            meta: [
+                "categories" => [
+                    "Coffee shop",
+                    "Tea room"
+                ],
+                "addr" => "G/F, 23 School Street",
+                "area" => "Causeway Bay",
+                "email" => "info@studiocaffeine.com.hk"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/2econdsip/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/2econdsip/photos/a.256129068465838/586399605438781/"
         },

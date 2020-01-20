@@ -6,12 +6,22 @@ class Coffeeeedaily implements Entity {
         zh => "咖啡日常",
         en => "Coffee Daily"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/coffeeeedaily/"
+            url: "https://www.facebook.com/coffeeeedaily/",
+            meta: [
+                "about" => "COFFEE IS THE BRIDGE THAT LINKS US TOGETHER AND TO THE WORLD.",
+                "categories" => [
+                    "Blogger",
+                    "Community"
+                ]
+            ]
+        },
+        {
+            url: "https://www.instagram.com/coffeedaily_/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/coffeeeedaily/posts/1242050565954233"
         },

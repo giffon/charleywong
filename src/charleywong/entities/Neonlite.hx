@@ -5,12 +5,19 @@ class Neonlite implements Entity {
     public final name = [
         en => "Neonlite"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/neonlitehk/"
+            url: "https://www.facebook.com/neonlitehk/",
+            meta: [
+                "categories" => [
+                    "Home decor",
+                    "Product/service"
+                ],
+                "tel" => "68557416"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/neonlitehk/photos/a.1848627158762791/2419648588327309/"
         },

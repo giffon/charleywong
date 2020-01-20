@@ -6,12 +6,22 @@ class Lazycreatureshk implements Entity {
         zh => "慵懶生物",
         en => "Lazy Creatures"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/lazycreatures.hk/"
+            url: "https://www.facebook.com/lazycreatures.hk/",
+            meta: [
+                "about" => "Eat. Drink. Do Nothing.",
+                "categories" => [
+                    "Coffee shop"
+                ],
+                "addr" => "Shop J, G/F, Katherine Building, 379 Prince Edward Road West",
+                "area" => "Hong Kong",
+                "email" => "lazycreatures.hk@gmail.com",
+                "tel" => "90999288"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/lazycreatures.hk/posts/2372558422864946"
         },

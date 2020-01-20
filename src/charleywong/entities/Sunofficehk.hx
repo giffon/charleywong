@@ -6,12 +6,23 @@ class Sunofficehk implements Entity {
         zh => "太陽事務",
         en => "Sun Office"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/sunofficehk/"
+            url: "https://www.facebook.com/sunofficehk/",
+            meta: [
+                "about" => "在太陽底下，做溫暖的事。\n\n/ 藝術計劃 / 設計 / 插畫 / 壁畫 / 環境設計 /",
+                "categories" => [
+                    "Graphic designer",
+                    "Visual arts"
+                ],
+                "email" => "sunofficehk@gmail.com"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/sunofficehk/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/sunofficehk/videos/2315485058570589/"
         },

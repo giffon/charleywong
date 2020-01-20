@@ -5,12 +5,21 @@ class OneTenthCoffee implements Entity {
     public final name = [
         en => "One Tenth Coffee"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/onetenthcoffee/"
+            url: "https://www.facebook.com/onetenthcoffee/",
+            meta: [
+                "about" => "Speciality Coffee | Homemade Pastries",
+                "categories" => [
+                    "Coffee shop"
+                ],
+                "addr" => "Flat 510 , 5/F ., Premier Centre , 20 Cheung Shun Street",
+                "area" => "Lai Chi Kok",
+                "email" => "info@onetenthcoffee.net"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/onetenthcoffee/photos/a.2289687631242937/2411261372418895/"
         },

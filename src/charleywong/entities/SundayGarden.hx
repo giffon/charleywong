@@ -5,12 +5,20 @@ class SundayGarden implements Entity {
     public final name = [
         en => "Sunday Garden"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/SundayGarden2016/"
+            url: "https://www.facebook.com/SundayGarden2016/",
+            meta: [
+                "about" => "手作布藝 • 頭帶\nSince 2016 • HONG KONG\n歡迎訂製...\n\n\n\nSee more",
+                "categories" => [
+                    "Retail company"
+                ],
+                "email" => "sundaygarden2016@gmail.com",
+                "tel" => "55440874"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/SundayGarden2016/photos/a.606190036228682/1357100347804310/"
         },

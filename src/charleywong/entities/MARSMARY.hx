@@ -5,12 +5,18 @@ class MARSMARY implements Entity {
     public final name = [
         en => "MARS MARY"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/MARSMARYYY/"
+            url: "https://www.facebook.com/MARSMARYYY/",
+            meta: [
+                "about" => "a girl from Mars\nan illustrator.",
+                "categories" => [
+                    "Artist"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/MARSMARYYY/photos/a.466840653447170/1728169580647598/"
         },

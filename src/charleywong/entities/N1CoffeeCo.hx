@@ -5,12 +5,24 @@ class N1CoffeeCo implements Entity {
     public final name = [
         en => "N1 Coffee & Co."
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/N1-Coffee-Co-473097382816950/"
+            url: "https://www.facebook.com/N1-Coffee-Co-473097382816950/",
+            meta: [
+                "about" => "Founder - Felix Wong & EL Au\nBy Barista Academy HK",
+                "categories" => [
+                    "Breakfast & brunch restaurant",
+                    "Fast food restaurant",
+                    "Coffee shop"
+                ],
+                "addr" => "Shop G, 34 Mody Road",
+                "area" => "Tsim Sha Tsui",
+                "email" => "info@baristaacademy.hk",
+                "tel" => "35684726"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/permalink.php?story_fbid=2267492470044090&id=473097382816950"
         },

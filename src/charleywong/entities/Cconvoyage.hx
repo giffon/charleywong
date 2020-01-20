@@ -6,12 +6,22 @@ class Cconvoyage implements Entity {
         zh => "旅孩手記",
         en => "CConvoyage"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/cconvoyage/"
+            url: "https://www.facebook.com/cconvoyage/",
+            meta: [
+                "about" => "旅行｜美食｜攝影｜日常\n\n貪心貪玩又貪吃的處女座女生。...\n\n\n\n\nSee more",
+                "categories" => [
+                    "Personal blog"
+                ],
+                "email" => "hello@cconvoyage.com"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/cconvoyage/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/cconvoyage/posts/880062042356002"
         },

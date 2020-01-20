@@ -6,12 +6,21 @@ class Muous implements Entity {
         zh => "木偶小姐",
         en => "MUOUS"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/muous/"
+            url: "https://www.facebook.com/muous/",
+            meta: [
+                "about" => "MUOUS是木偶小姐建立的品牌。不定期分享原創插畫、手作。",
+                "categories" => [
+                    "Video creator",
+                    "Author",
+                    "Art"
+                ],
+                "email" => "muou.mail@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/muous/photos/a.1403198369924623/2471436869767429/"
         },

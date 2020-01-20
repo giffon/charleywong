@@ -5,12 +5,22 @@ class MimohbySarah implements Entity {
     public final name = [
         en => "Mimoh by Sarah"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/mimohbysarah/"
+            url: "https://www.facebook.com/mimohbysarah/",
+            meta: [
+                "about" => "Handmade earrings and accessories shipping to everywhere in the world! ♥ Instagram: @mimohbysarah",
+                "categories" => [
+                    "Jewellery/watches"
+                ],
+                "email" => "mimohbysarah@gmail.com"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/@mimohbysarah/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/mimohbysarah/photos/a.177975689441399/578065216099109/"
         }

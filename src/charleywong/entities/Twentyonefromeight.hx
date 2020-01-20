@@ -5,12 +5,23 @@ class Twentyonefromeight implements Entity {
     public final name = [
         zh => "廿一由八"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/twentyonefromeight/"
+            url: "https://www.facebook.com/twentyonefromeight/",
+            meta: [
+                "about" => "We are not doing furniture only but lifestyle.",
+                "categories" => [
+                    "Furniture shop",
+                    "Coffee shop"
+                ],
+                "addr" => "11 Floor, Pang Kwong Building, 59 Hung To Road",
+                "area" => "Kwun Tong",
+                "email" => "info@twentyonefromeight.com",
+                "tel" => "23211738"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/twentyonefromeight/posts/1100499490145899"
         },

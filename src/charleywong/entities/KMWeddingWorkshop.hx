@@ -5,12 +5,19 @@ class KMWeddingWorkshop implements Entity {
     public final name = [
         en => "KM Wedding Workshop"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/KMWeddingWorkshop/"
+            url: "https://www.facebook.com/KMWeddingWorkshop/",
+            meta: [
+                "categories" => [
+                    "Personal blog",
+                    "Business service"
+                ],
+                "tel" => "61580790"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/KMWeddingWorkshop/posts/639539593455723"
         }

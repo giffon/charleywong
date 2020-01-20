@@ -5,12 +5,19 @@ class ALittleBean implements Entity {
     public final name = [
         en => "A Little Bean"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/alittlebean/"
+            url: "https://www.facebook.com/alittlebean/",
+            meta: [
+                "about" => "手工針織小物\n以設計兒童及親子產品為主，\n所有貼身產品均採用有機純棉製作，...\n\n\nSee more",
+                "categories" => [
+                    "Brand"
+                ],
+                "tel" => "61101281"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/alittlebean/photos/a.1178079275590431/2432279626837050/"
         },

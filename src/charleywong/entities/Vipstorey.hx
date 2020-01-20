@@ -5,12 +5,23 @@ class Vipstorey implements Entity {
     public final name = [
         en => "Vipstorey"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/vipstorey/"
+            url: "https://www.facebook.com/vipstorey/",
+            meta: [
+                "about" => "樹熊 Koala",
+                "categories" => [
+                    "Art",
+                    "Artist"
+                ],
+                "email" => "vipstorey@gmail.com"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/vipstorey/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/vipstorey/posts/1005365743161138"
         },

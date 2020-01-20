@@ -5,12 +5,19 @@ class HodyCCalligraphy implements Entity {
     public final name = [
         en => "HodyC Calligraphy"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/hodycalli/"
+            url: "https://www.facebook.com/hodycalli/",
+            meta: [
+                "about" => "Calligraphy, painting, illumination, western calligraphy.",
+                "categories" => [
+                    "Product/service"
+                ],
+                "email" => "hodycalli@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/hodycalli/videos/478847669516601/"
         }

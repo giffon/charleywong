@@ -5,12 +5,24 @@ class TFOMountain implements Entity {
     public final name = [
         zh => "山脈旅孩"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/TFOMountain/"
+            url: "https://www.facebook.com/TFOMountain/",
+            meta: [
+                "about" => "The Fellowship of Mountain\n一米二身高, 用細小足印, 連群結隊, 踏遍每個山頭",
+                "categories" => [
+                    "Local & travel website",
+                    "Photographer",
+                    "Artist"
+                ],
+                "email" => "tfomountain@yahoo.com.hk"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/tfomountain/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/TFOMountain/posts/2478112502418257"
         },

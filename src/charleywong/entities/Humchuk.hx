@@ -6,12 +6,19 @@ class Humchuk implements Entity {
         zh => "含蓄",
         en => "Humchuk"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/humchuk/"
+            url: "https://www.facebook.com/humchuk/",
+            meta: [
+                "about" => "「含蓄」\n\n歡迎任何合作，私訊或電郵...\n\n\n\n\n\n\n\nSee more",
+                "categories" => [
+                    "Artist"
+                ],
+                "email" => "rickykfluk@hotmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/humchuk/posts/1404390243052753"
         },

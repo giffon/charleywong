@@ -5,12 +5,18 @@ class VMade implements Entity {
     public final name = [
         en => "V Made"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/bearvmade/"
+            url: "https://www.facebook.com/bearvmade/",
+            meta: [
+                "about" => "回歸手作包的初心，因需求而製作。",
+                "categories" => [
+                    "Product/service"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/bearvmade/posts/518270478755145"
         },

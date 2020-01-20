@@ -5,12 +5,25 @@ class UnoBridal implements Entity {
     public final name = [
         en => "Uno Bridal"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/unobridalhk/"
+            url: "https://www.facebook.com/unobridalhk/",
+            meta: [
+                "about" => "Self service bridal salon that offers affordable rental service of designer brand wedding and evening gown",
+                "categories" => [
+                    "Bridal shop"
+                ],
+                "addr" => "紅磡蕪湖街70-74號潤達商業大廈2樓C室",
+                "area" => "Kowloon, Hong Kong",
+                "email" => "yes@unobridal.com",
+                "tel" => "35908605"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/unobridal/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/unobridalhk/photos/a.337371173501517/556677968237502/"
         },

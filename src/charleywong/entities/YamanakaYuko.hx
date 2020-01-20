@@ -5,12 +5,22 @@ class YamanakaYuko implements Entity {
     public final name = [
         zh => "山中遊子"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Yamanaka.Yuko/"
+            url: "https://www.facebook.com/Yamanaka.Yuko/",
+            meta: [
+                "about" => "山野中遊走, 尋一刻自由",
+                "categories" => [
+                    "Artist"
+                ],
+                "email" => "shanchungyauchi@gmail.com"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/yamanaka_yuko/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/Yamanaka.Yuko/posts/2310869868997465"
         },

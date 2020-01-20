@@ -5,12 +5,20 @@ class Mmushroommm implements Entity {
     public final name = [
         en => "Mmushroommm"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Mmushroom.hk/"
+            url: "https://www.facebook.com/Mmushroom.hk/",
+            meta: [
+                "categories" => [
+                    "Local business"
+                ],
+                "addr" => "旺角花園街2-16號好景商業中心8樓801B1室",
+                "area" => "Hong Kong",
+                "tel" => "60434150"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/Mmushroom.hk/posts/2580435362049478"
         }

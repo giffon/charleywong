@@ -5,12 +5,18 @@ class Reverie implements Entity {
     public final name = [
         en => "Reverie"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/ReverieJewellery/"
+            url: "https://www.facebook.com/ReverieJewellery/",
+            meta: [
+                "about" => "Reverie is a local handmade brand.\n\n\'REVERIE\' means dream. We hope everyone can persist in their dream like how we did.",
+                "categories" => [
+                    "Jewellery/watches"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/ReverieJewellery/photos/a.204518383066180/1526396084211730/"
         }

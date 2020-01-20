@@ -5,15 +5,22 @@ class Ubuntuearth implements Entity {
     public final name = [
         en => "Ubuntu"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/ubuntuearth/"
+            url: "https://www.facebook.com/ubuntuearth/",
+            meta: [
+                "about" => "Instagram : u.b.u.n.t.u",
+                "categories" => [
+                    "Website",
+                    "Art"
+                ]
+            ]
         },
         {
             url: "https://www.instagram.com/u.b.u.n.t.u/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.instagram.com/p/B5h4MDPAD2l/"
         }

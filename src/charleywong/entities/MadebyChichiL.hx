@@ -5,12 +5,18 @@ class MadebyChichiL implements Entity {
     public final name = [
         en => "MadebyChichi.L"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Chi.Lhandmade/"
+            url: "https://www.facebook.com/Chi.Lhandmade/",
+            meta: [
+                "about" => "Je maime (●°u°●) 」\nI\'m not perfect but I\'m LIMITED EDITION.ʕ •ᴥ•ʔ\nFrom HONG KONG....\n\n\nSee more",
+                "categories" => [
+                    "Bags/luggage"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/Chi.Lhandmade/posts/2329288210653957"
         },

@@ -5,12 +5,18 @@ class HikerKitsiu implements Entity {
     public final name = [
         zh => "山系の • 傑少"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/HikerKit.siu/"
+            url: "https://www.facebook.com/HikerKit.siu/",
+            meta: [
+                "about" => "要走遍香港每一個角落",
+                "categories" => [
+                    "Personal blog"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/HikerKit.siu/photos/a.258397871541602/373856743329047/"
         }

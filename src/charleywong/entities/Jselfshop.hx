@@ -6,12 +6,18 @@ class Jselfshop implements Entity {
         zh => "JS 的精靈小店",
         en => "JS\'s Elf Shop"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/jselfshop/"
+            url: "https://www.facebook.com/jselfshop/",
+            meta: [
+                "about" => "從前有一個童話故事，故事裡有一個精靈世界。精靈們都很喜歡從人間帶走閃閃亮亮的飾品回家裝飾自己…",
+                "categories" => [
+                    "Jewellery/watches"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/jselfshop/posts/1371198186388104"
         },

@@ -6,12 +6,23 @@ class Bowerbirdcraft implements Entity {
         zh => "園丁鳥",
         en => "Bowerbird"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/bowerbirdcraft/"
+            url: "https://www.facebook.com/bowerbirdcraft/",
+            meta: [
+                "about" => "喜歡藍與綠 鯨與鳥\n不愛說話的人\n默默創作自然中的小生物",
+                "categories" => [
+                    "Gardener",
+                    "Arts and crafts shop"
+                ],
+                "email" => "alephchan@gmail.com"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/bowerbirdcraft/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/bowerbirdcraft/posts/2537251622986946"
         },

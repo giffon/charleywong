@@ -5,12 +5,22 @@ class Ericvirfoto implements Entity {
     public final name = [
         zh => "山道行者"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/ericvirfoto/"
+            url: "https://www.facebook.com/ericvirfoto/",
+            meta: [
+                "about" => "90後香港情侶，熱愛行山及風景攝影。因為喜愛大自然景色，讓我們走得更近。\n曾接受不同媒體訪問，並有負責拍攝大型廣告相片的經驗。\n\n歡迎任何合作, 請Inbox!\ninstagram:lezlebric / virginayip",
+                "categories" => [
+                    "Photographer"
+                ],
+                "email" => "lezlebric_v@ymail.com"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/lezlebric / virginayip/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/ericvirfoto/posts/2327419790833553"
         }

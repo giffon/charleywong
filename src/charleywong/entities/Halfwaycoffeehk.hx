@@ -6,12 +6,22 @@ class Halfwaycoffeehk implements Entity {
         zh => "半路咖啡",
         en => "Halfway Coffee"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/halfwaycoffeehk/"
+            url: "https://www.facebook.com/halfwaycoffeehk/",
+            meta: [
+                "categories" => [
+                    "Coffee shop"
+                ],
+                "email" => "halfwaycoffee@gmail.com",
+                "tel" => "95117197"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/halfwaycoffee/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/halfwaycoffeehk/photos/a.1507429309568137/2228245624153165/"
         },

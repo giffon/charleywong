@@ -5,12 +5,18 @@ class Shanunithk implements Entity {
     public final name = [
         zh => "山UNIT"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/shanunithk/"
+            url: "https://www.facebook.com/shanunithk/",
+            meta: [
+                "about" => "山UNIT , 記錄我們遊玩過的。\n\n山, 在山上看見的, 遇到的, 遺忘的, 還記得的。\nUNIT , 是單位, 是組合, 是個人, 也可以是群體。",
+                "categories" => [
+                    "Personal blog"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/shanunithk/posts/425213911413245"
         },

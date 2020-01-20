@@ -6,12 +6,19 @@ class Bewordist implements Entity {
         zh => "彩繪文字師",
         en => "WORDist"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/bewordist/"
+            url: "https://www.facebook.com/bewordist/",
+            meta: [
+                "about" => "希望把平靜與溫柔帶給身邊人的「WORDist‧文字師」",
+                "categories" => [
+                    "Artist"
+                ],
+                "email" => "bewordist@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/bewordist/photos/a.1136922623031909/2961219493935537/"
         },

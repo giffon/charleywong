@@ -5,12 +5,17 @@ class Drawing9 implements Entity {
     public final name = [
         en => "9Drawing"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/976134569242583/"
+            url: "https://www.facebook.com/976134569242583/",
+            meta: [
+                "categories" => [
+                    "Art"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/976134569242583/photos/a.1019447254911314/1297101593812544/"
         },

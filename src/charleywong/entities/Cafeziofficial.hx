@@ -6,12 +6,22 @@ class Cafeziofficial implements Entity {
         zh => "梔子",
         en => "Zi"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/cafezi.official/"
+            url: "https://www.facebook.com/cafezi.official/",
+            meta: [
+                "categories" => [
+                    "Coffee shop",
+                    "Pub/Bar"
+                ],
+                "addr" => "山林道 8 號",
+                "area" => "Tsim Sha Tsui",
+                "email" => "cafezi.official@gmail.com",
+                "tel" => "27781628"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/cafezi.official/photos/a.808403265978012/1452725234879142/"
         }

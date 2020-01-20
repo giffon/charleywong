@@ -5,12 +5,20 @@ class VsWorkshop implements Entity {
     public final name = [
         en => "V\'s Workshop"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/vsworkshop/"
+            url: "https://www.facebook.com/vsworkshop/",
+            meta: [
+                "about" => "All about beading",
+                "categories" => [
+                    "Accessories"
+                ],
+                "email" => "vs_vickyan@yahoo.com",
+                "tel" => "93012419"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/vsworkshop/photos/a.194456507358384/1607541009383253/"
         },

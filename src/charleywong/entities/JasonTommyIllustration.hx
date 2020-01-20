@@ -6,12 +6,19 @@ class JasonTommyIllustration implements Entity {
         zh => "小塗蛙",
         en => "JasonTommy Illustration"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/jasontommy21/"
+            url: "https://www.facebook.com/jasontommy21/",
+            meta: [
+                "about" => "插畫 | 即場人像速繪 | 平面設計\n\nHong Kong-based Illustrator / Designer...\n\n\n\n\n\nSee more",
+                "categories" => [
+                    "Artist",
+                    "Design & fashion"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/jasontommy21/posts/2527591644176529"
         },

@@ -5,12 +5,21 @@ class Hackpiecehk implements Entity {
     public final name = [
         zh => "片刻"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/hackpiecehk/"
+            url: "https://www.facebook.com/hackpiecehk/",
+            meta: [
+                "about" => "Laser Cut Studio 鐳射切割工作室。",
+                "categories" => [
+                    "Arts and crafts shop",
+                    "Product/service"
+                ],
+                "email" => "hackpiecehk@gmail.com",
+                "tel" => "93273714"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/hackpiecehk/photos/a.2051192878525929/2390569714588242/"
         },

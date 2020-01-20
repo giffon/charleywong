@@ -6,12 +6,24 @@ class Oceanstampsfwte implements Entity {
         zh => "海印",
         en => "Ocean Stamps"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/oceanstampsfwte/"
+            url: "https://www.facebook.com/oceanstampsfwte/",
+            meta: [
+                "about" => "大海可以把每一塊陸地都連結在一起，可以透過海洋到達每一片的陸地，也把不同土地的人透過大海而重新接上。",
+                "categories" => [
+                    "Artist",
+                    "Just for fun"
+                ],
+                "email" => "fwteoceanstamps@gmail.com",
+                "tel" => "93171303"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/oceanstampsfwte/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/oceanstampsfwte/posts/2463852713876817"
         },

@@ -6,12 +6,19 @@ class Sleepingpen implements Entity {
         zh => "睡睡筆",
         en => "Sleeping Pen"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/sleepingpen/"
+            url: "https://www.facebook.com/sleepingpen/",
+            meta: [
+                "about" => "有一日：發現屋企啲筆攤喺度終日無所事事，決定要佢哋勞動",
+                "categories" => [
+                    "Artist"
+                ],
+                "email" => "sleepingpenart@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/sleepingpen/posts/2503266466575120"
         },

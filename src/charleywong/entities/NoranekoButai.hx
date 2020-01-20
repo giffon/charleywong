@@ -6,12 +6,19 @@ class NoranekoButai implements Entity {
         zh => "野良猫部隊",
         en => "Noraneko Butai"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/NoranekoButai/"
+            url: "https://www.facebook.com/NoranekoButai/",
+            meta: [
+                "about" => "為愛香港的你打氣，為有質素又愛香港的小店打氣，香港人加油！",
+                "categories" => [
+                    "Blogger"
+                ],
+                "email" => "noranonekobutai@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/NoranekoButai/photos/a.106496330746425/172628897466501/"
         },

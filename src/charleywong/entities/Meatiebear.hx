@@ -5,12 +5,21 @@ class Meatiebear implements Entity {
     public final name = [
         zh => "肉肉熊"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/meatiebear/"
+            url: "https://www.facebook.com/meatiebear/",
+            meta: [
+                "about" => "http://johnhocollection.weebly.com/\nwww.johnhoart.com\nhttp://www.etsy.com/shop/johnhoart",
+                "categories" => [
+                    "Artist"
+                ]
+            ]
+        },
+        {
+            url: "https://www.instagram.com/，近乎完整的作品集 https://www.instagram.com/johnhohoo//"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/meatiebear/photos/a.829158377137678/2605584792828352/"
         },

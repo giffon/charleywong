@@ -6,12 +6,18 @@ class Minoecanvas implements Entity {
         zh => "甘米撈撈",
         en => "Minoe Canvas"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/minoe.canvas/"
+            url: "https://www.facebook.com/minoe.canvas/",
+            meta: [
+                "about" => "I\'m 撈。Any problem？撈 proboem！Okay thanks。",
+                "categories" => [
+                    "Public figure"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/minoe.canvas/posts/2800722313325484"
         },

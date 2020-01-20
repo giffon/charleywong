@@ -5,12 +5,21 @@ class LizCoffee implements Entity {
     public final name = [
         en => "Liz Coffee"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/lizcoffeehk/"
+            url: "https://www.facebook.com/lizcoffeehk/",
+            meta: [
+                "about" => "• Specialty Coffee • Tea Coffee Spirit\n• Kombucha • Pourover\n• Espresso • Espressoda...\n\n\n\nSee more",
+                "categories" => [
+                    "Coffee shop",
+                    "Restaurant"
+                ],
+                "email" => "hklizcoffee@gmail.com",
+                "tel" => "55409715"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/lizcoffeehk/photos/a.306169206649593/433603163906196/"
         },

@@ -6,12 +6,25 @@ class Hkreaders implements Entity {
         zh => "序言書室",
         en => "Hong Kong Reader Bookstore"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/hkreaders/"
+            url: "https://www.facebook.com/hkreaders/",
+            meta: [
+                "about" => "序言書室是香港一間人文學科及社會科學之中英文書籍的樓上書店，亦會不定期舉辦各項文化活動，如讀書會、新書發佈會等，藉此推動閱讀風氣。\n序言書架：http://www.anobii.com/hkreader/books",
+                "categories" => [
+                    "Book shop"
+                ],
+                "addr" => "7/F, 68 Sai Yeung Choi Street South",
+                "area" => "Mong Kok",
+                "email" => "info@hkreaders.com",
+                "tel" => "23950031"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/https%3A%2F%2Fwww.instagram.com%2Fhkreaders/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/hkreaders/posts/1255787531289887"
         }

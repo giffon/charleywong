@@ -5,12 +5,22 @@ class KayWong implements Entity {
     public final name = [
         en => "Kay Wong"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/kaywong.art/"
+            url: "https://www.facebook.com/kaywong.art/",
+            meta: [
+                "about" => "Hongkonger.\nThe art is long, life is short.",
+                "categories" => [
+                    "Artist"
+                ],
+                "email" => "kaywong@mail.com"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/kaywong.art/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/kaywong.art/photos/a.309560363077785/462286181138535/"
         },

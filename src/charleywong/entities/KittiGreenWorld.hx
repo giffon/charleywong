@@ -5,12 +5,17 @@ class KittiGreenWorld implements Entity {
     public final name = [
         zh => "海洋拾荒者Kitti"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/KittiGreenWorld/"
+            url: "https://www.facebook.com/KittiGreenWorld/",
+            meta: [
+                "categories" => [
+                    "Society & culture website"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/KittiGreenWorld/posts/468015170656871"
         }

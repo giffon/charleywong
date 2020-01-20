@@ -5,12 +5,19 @@ class DearYama implements Entity {
     public final name = [
         en => "Dear Yama"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/dearyama2016/"
+            url: "https://www.facebook.com/dearyama2016/",
+            meta: [
+                "categories" => [
+                    "Sports",
+                    "Community"
+                ],
+                "email" => "dearyama2016@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/dearyama2016/posts/2402886403083066"
         },

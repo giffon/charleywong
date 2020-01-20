@@ -6,12 +6,23 @@ class Zapjokstudio implements Entity {
         zh => "習作工作室",
         en => "zapjok studio"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/zapjok.studio/"
+            url: "https://www.facebook.com/zapjok.studio/",
+            meta: [
+                "about" => "生 活 就 是 每 天 的 習 作 。",
+                "categories" => [
+                    "Art gallery",
+                    "Art"
+                ],
+                "addr" => "1/f, 85 Fuk Wa Street, Sham Shui Po,",
+                "area" => "Hong Kong",
+                "email" => "zapjok85@gmail.com",
+                "tel" => "93816260"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/zapjok.studio/posts/3266622946711363"
         },

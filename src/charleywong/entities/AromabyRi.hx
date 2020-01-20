@@ -5,12 +5,24 @@ class AromabyRi implements Entity {
     public final name = [
         en => "Aroma by Ri"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/aromabyri/"
+            url: "https://www.facebook.com/aromabyri/",
+            meta: [
+                "about" => "鑄鐵工藝｜香薰蠟燭 ｜ 礦香晶石\n\n-Heal the Soul-...\n\n\n\n\n\n\nSee more",
+                "categories" => [
+                    "Product/service",
+                    "Shopping & retail"
+                ],
+                "email" => "aromabyri@gmail.com",
+                "tel" => "60948218"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/aromabyri/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/aromabyri/posts/169337284464982"
         },

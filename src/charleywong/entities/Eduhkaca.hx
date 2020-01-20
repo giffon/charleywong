@@ -6,12 +6,18 @@ class Eduhkaca implements Entity {
         zh => "香港教育大學學生會屬會動漫學會",
         en => "Animation and Comics Association, Eduhksu"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/eduhkaca/"
+            url: "https://www.facebook.com/eduhkaca/",
+            meta: [
+                "about" => "The EdUHK 8th Animation and Comics Association (ACA) - AniToxic\n香港教育大學學生會屬會第八屆動漫學會 漫性中毒AniToxic",
+                "categories" => [
+                    "Community"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/eduhkaca/photos/a.287522008062465/1361527263995262/"
         }

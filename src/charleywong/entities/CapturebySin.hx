@@ -5,12 +5,19 @@ class CapturebySin implements Entity {
     public final name = [
         en => "Capture by Sin"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/capturebysin/"
+            url: "https://www.facebook.com/capturebysin/",
+            meta: [
+                "about" => "攝影&登山愛好者",
+                "categories" => [
+                    "Fictional character"
+                ],
+                "email" => "veev95819036@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/capturebysin/posts/2262610983848048"
         }

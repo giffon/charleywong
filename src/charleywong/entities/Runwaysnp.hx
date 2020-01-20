@@ -6,12 +6,20 @@ class Runwaysnp implements Entity {
         zh => "模‧良品",
         en => "Runwaysnp"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/runwaysnp/"
+            url: "https://www.facebook.com/runwaysnp/",
+            meta: [
+                "categories" => [
+                    "Product/service",
+                    "Shopping & retail"
+                ],
+                "email" => "support@runwaysnp.com",
+                "tel" => "37088147"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/runwaysnp/posts/2286549748066846"
         }

@@ -5,12 +5,20 @@ class BloomingBudsHandmade implements Entity {
     public final name = [
         en => "Blooming Buds Handmade"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/187627714911296/"
+            url: "https://www.facebook.com/187627714911296/",
+            meta: [
+                "about" =>
+                "HK � |Handmade Accessories| Custom made | Aesthetic | Simple but Elegant\nDiscover your unique, sparkling glass bubble !\nWhatsApp � 93268604",
+                "categories" => [
+                    "Product/service",
+                    "Jewellery/watches"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/187627714911296/photos/a.196968137310587/1188691321471592/"
         },

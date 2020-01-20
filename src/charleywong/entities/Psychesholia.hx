@@ -5,12 +5,23 @@ class Psychesholia implements Entity {
     public final name = [
         en => "psychesholia"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/psychesholia/"
+            url: "https://www.facebook.com/psychesholia/",
+            meta: [
+                "about" => "花束訂製| 花藝產品 | 場景樹脂工藝產品 | 工藝班服務\n\n▲\nemail: psychesholia@gmail.com",
+                "categories" => [
+                    "Product/service"
+                ],
+                "email" => "psychesholia@gmail.com",
+                "tel" => "96737329"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/psychesholia_/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/psychesholia/posts/2341918242603623"
         },

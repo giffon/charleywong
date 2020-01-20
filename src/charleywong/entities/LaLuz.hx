@@ -5,12 +5,21 @@ class LaLuz implements Entity {
     public final name = [
         en => "La Luz"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/laluz.hk/"
+            url: "https://www.facebook.com/laluz.hk/",
+            meta: [
+                "about" => "Australian Style Coffee Shop\nHomemade Bagels\nSignature Meuile-Feuille",
+                "categories" => [
+                    "Coffee shop"
+                ],
+                "addr" => "文苑街28號地下B舖",
+                "area" => "Hong Kong",
+                "tel" => "95407087"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/laluz.hk/posts/1219583921566944"
         },

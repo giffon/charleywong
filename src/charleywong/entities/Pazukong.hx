@@ -6,12 +6,21 @@ class Pazukong implements Entity {
         zh => "薯伯伯",
         en => "Pazu"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/pazukong/"
+            url: "https://www.facebook.com/pazukong/",
+            meta: [
+                "about" => "Pazu薯伯伯，旅遊寫作人。",
+                "categories" => [
+                    "Writer"
+                ]
+            ]
+        },
+        {
+            url: "https://www.instagram.com/pazu/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/pazukong/posts/2733835833515878"
         }

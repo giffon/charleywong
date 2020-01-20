@@ -5,12 +5,18 @@ class GardenbyAngie implements Entity {
     public final name = [
         en => "Garden by Angie"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/gardenbyangie/"
+            url: "https://www.facebook.com/gardenbyangie/",
+            meta: [
+                "about" => "教學連結：https://www.facebook.com/gardenbyangie/posts/340666333207551",
+                "categories" => [
+                    "Nursery & garden centre"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/gardenbyangie/photos/a.294284681179050/511127732828076/"
         }

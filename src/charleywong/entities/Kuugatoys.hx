@@ -6,12 +6,19 @@ class Kuugatoys implements Entity {
         zh => "古迦玩具",
         en => "Kuugatoys"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Kuugatoys/"
+            url: "https://www.facebook.com/Kuugatoys/",
+            meta: [
+                "about" => "油麻地現時點2樓230室\n主要銷售日本動漫產品及網上(日本)代購",
+                "categories" => [
+                    "Shopping & retail"
+                ],
+                "email" => "kuugatoys@yahoo.com.hk"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/Kuugatoys/posts/2206002679501831"
         },

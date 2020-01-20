@@ -5,12 +5,20 @@ class JustMoveLimited implements Entity {
     public final name = [
         en => "Just Move Limited"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/justmove.hk/"
+            url: "https://www.facebook.com/justmove.hk/",
+            meta: [
+                "about" => "We never stop, we Just Move!",
+                "categories" => [
+                    "Internet company"
+                ],
+                "email" => "info@justmove.com.hk",
+                "tel" => "31114122"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/justmove.hk/posts/855057561554245"
         }

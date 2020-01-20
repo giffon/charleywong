@@ -6,12 +6,23 @@ class Wusoul implements Entity {
         zh => "胡鬚",
         en => "Wusoul"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Wusoul/"
+            url: "https://www.facebook.com/Wusoul/",
+            meta: [
+                "about" => "香港本地插畫師 & 手作人\n胡亂走下去，讓自己蹣跚放縱，覓回屬於自己的靈魂。\n...\n\n\n\nSee more",
+                "categories" => [
+                    "Artist",
+                    "Graphic designer"
+                ],
+                "email" => "wuwusoul@gmail.com"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/wu_soul/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/Wusoul/photos/a.317966395045061/1472232899618399/"
         },

@@ -5,12 +5,21 @@ class TheGalWhoSoldTora implements Entity {
     public final name = [
         en => "The Gal Who Sold Tora"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/sold.tora/"
+            url: "https://www.facebook.com/sold.tora/",
+            meta: [
+                "about" => "From Twee to Luxe, Contemporary Jewelry crafted & Handmade in Hong Kong.",
+                "categories" => [
+                    "Jewellery/watches",
+                    "Jewellery & watches shop",
+                    "Fashion designer"
+                ],
+                "email" => "sold.tora@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/sold.tora/posts/10156784508378639"
         },

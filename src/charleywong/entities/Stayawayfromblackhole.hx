@@ -5,12 +5,17 @@ class Stayawayfromblackhole implements Entity {
     public final name = [
         en => "Stayawayfromblackhole"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/2170531603162251/"
+            url: "https://www.facebook.com/2170531603162251/",
+            meta: [
+                "categories" => [
+                    "Personal blog"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/2170531603162251/photos/a.2190289444519800/2567519753463432/"
         },

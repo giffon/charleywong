@@ -6,12 +6,20 @@ class NoPainNoRice implements Entity {
         zh => "生存之稻",
         en => "Offbeat Village"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/NoPainNoRice/"
+            url: "https://www.facebook.com/NoPainNoRice/",
+            meta: [
+                "categories" => [
+                    "Arts and crafts shop",
+                    "Visual arts",
+                    "Community"
+                ],
+                "email" => "teresa@offbeatvillage.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/NoPainNoRice/photos/a.959422204101266/2673426736034129/"
         }

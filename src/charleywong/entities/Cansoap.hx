@@ -5,12 +5,20 @@ class Cansoap implements Entity {
     public final name = [
         zh => "簡梘"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/cansoap/"
+            url: "https://www.facebook.com/cansoap/",
+            meta: [
+                "about" => "愛。生活。地球",
+                "categories" => [
+                    "Product/service"
+                ],
+                "email" => "cansoaphk@gmail.com",
+                "tel" => "35951757"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/cansoap/photos/a.408548439206339/2622591674468660/"
         },

@@ -6,12 +6,22 @@ class Waterbeargulu implements Entity {
         zh => "水熊阿蟲",
         en => "WaterBear"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/waterbeargulu/"
+            url: "https://www.facebook.com/waterbeargulu/",
+            meta: [
+                "about" => "在繁忙緊湊的香港，一隻住在南生圍的農村小子水熊呀蟲的日常。\n\nA story about a micro-animal living in rural area in Hong Kong.",
+                "categories" => [
+                    "Art"
+                ],
+                "email" => "waterbeargulu@gmail.com"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/waterbeargulu/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/waterbeargulu/photos/a.1102921186519455/1774685856009648/"
         },

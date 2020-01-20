@@ -5,12 +5,19 @@ class SinceYouWentAway implements Entity {
     public final name = [
         en => "Since You Went Away"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/ontungc/"
+            url: "https://www.facebook.com/ontungc/",
+            meta: [
+                "about" => "Illustration | Animation\nHong Kong",
+                "categories" => [
+                    "Art"
+                ],
+                "email" => "info@ontungc.art"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/ontungc/photos/a.2058585154397809/2491783434411310/"
         },

@@ -5,12 +5,20 @@ class WoodTansy implements Entity {
     public final name = [
         en => "Wood Tansy"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/woodtansy/"
+            url: "https://www.facebook.com/woodtansy/",
+            meta: [
+                "about" => "礦石埋藏於地底岩層中，經過無盡的積壓，風雨侵蝕，身上記載了億萬年的時間軌跡, 剛巧在這軌跡裡，能讓我們遇上。不規則，不完美，這就是礦石，每顆都是獨特而美麗，獨具個性。",
+                "categories" => [
+                    "Product/service"
+                ],
+                "email" => "woodtansy@yahoo.com.hk",
+                "tel" => "92532269"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/woodtansy/posts/2260758044028310"
         }

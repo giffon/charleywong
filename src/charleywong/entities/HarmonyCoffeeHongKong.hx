@@ -5,12 +5,24 @@ class HarmonyCoffeeHongKong implements Entity {
     public final name = [
         en => "Harmony Coffee Hong Kong"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/harmonycoffee.hk/"
+            url: "https://www.facebook.com/harmonycoffee.hk/",
+            meta: [
+                "about" => "Bespoke coffee service for parties, weddings, corporate events and workshops!",
+                "categories" => [
+                    "Event planner",
+                    "Coffee shop"
+                ],
+                "email" => "harmonycoffee.hk@gmail.com",
+                "tel" => "35003702"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/harmonycoffee.hk/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/harmonycoffee.hk/posts/1314906652048090"
         },

@@ -5,12 +5,18 @@ class Accessomi implements Entity {
     public final name = [
         en => "Mi.AY"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/accesso.mi/"
+            url: "https://www.facebook.com/accesso.mi/",
+            meta: [
+                "about" => "設計學院畢業，搜羅世界各地材料，自家設計及制作，與潮流掛勾，物料高質但是價廉物美。",
+                "categories" => [
+                    "Accessories"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/accesso.mi/posts/3411758998838112"
         },

@@ -6,12 +6,18 @@ class OrannieCoinart implements Entity {
         zh => "橘川紅與猛與貓",
         en => "Orannie Cat n Coinart"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Orannie.Coinart/"
+            url: "https://www.facebook.com/Orannie.Coinart/",
+            meta: [
+                "about" => "Coin art n metalwork since 2014",
+                "categories" => [
+                    "Arts and entertainment"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/Orannie.Coinart/posts/1515173818620794"
         },

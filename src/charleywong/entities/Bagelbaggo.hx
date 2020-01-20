@@ -6,12 +6,18 @@ class Bagelbaggo implements Entity {
         zh => "小圓包",
         en => "Bagel Baggo"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/bagel.baggo/"
+            url: "https://www.facebook.com/bagel.baggo/",
+            meta: [
+                "about" => "⚪️Made in Hong Kong | 100%本土手作\n⚪️Available in Pinkoi | 新進駐亞洲大型手作平台\n⚪️Ship Worldwide | 全球配送",
+                "categories" => [
+                    "Website"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/bagel.baggo/posts/1237133699827934"
         },

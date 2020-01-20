@@ -6,12 +6,20 @@ class Trailwatch implements Entity {
         zh => "徑‧香港",
         en => "Trailwatch"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/trailwatch/"
+            url: "https://www.facebook.com/trailwatch/",
+            meta: [
+                "about" => "建立資訊網絡平台, 讓公眾參與和監察郊野的保育 | Encouraging the public to monitor and conserve Hong Kong\'s country parks",
+                "categories" => [
+                    "App Page",
+                    "Nature reserve"
+                ],
+                "email" => "info@trailwatch.hk"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/trailwatch/posts/2655450511161180"
         }

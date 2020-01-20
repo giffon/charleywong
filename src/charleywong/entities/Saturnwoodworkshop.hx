@@ -6,12 +6,22 @@ class Saturnwoodworkshop implements Entity {
         zh => "石盾小木工",
         en => "Saturn Wood Workshop"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/saturnwoodworkshop/"
+            url: "https://www.facebook.com/saturnwoodworkshop/",
+            meta: [
+                "about" => "自家木箱鼓 ( DIY Cajon )\n各類木工班 ( Wood Workshop )\n訂製木製品 ( Tailor-made Wood Products )...\n\n\nSee more",
+                "categories" => [
+                    "Arts and crafts shop",
+                    "Product/service"
+                ],
+                "addr" => "葵興華達工業中心C 座19樓04室",
+                "area" => "Kwai Chung",
+                "email" => "saturnwoodworkshop@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/saturnwoodworkshop/photos/a.1438403856387332/2660886314139074/"
         },

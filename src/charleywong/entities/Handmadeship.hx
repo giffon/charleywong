@@ -5,12 +5,20 @@ class Handmadeship implements Entity {
     public final name = [
         en => "Handmadeship"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/handmadeshipship/"
+            url: "https://www.facebook.com/handmadeshipship/",
+            meta: [
+                "about" => "。銅鑼灣皇室堡微影\n。粉嶺逸峰廣場N Point\n澳門:\n。集貨collectore",
+                "categories" => [
+                    "Product/service",
+                    "Arts and crafts shop"
+                ],
+                "email" => "handmadeship@yahoo.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/handmadeshipship/posts/1358809324322602"
         },

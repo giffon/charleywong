@@ -5,12 +5,20 @@ class Ahteasoap implements Entity {
     public final name = [
         zh => "阿茶手皂 手工皂及香薰保養品"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/ahteasoap/"
+            url: "https://www.facebook.com/ahteasoap/",
+            meta: [
+                "about" => "手工皂、手作護膚品及香薰護膚品\n100% 全人手製作，香港製造，堅持選用優質材料，純天然香薰精油， 不含香精，減少多餘人工合成化學物，追求自然、簡單、健康，環保的生活",
+                "categories" => [
+                    "Health/beauty"
+                ],
+                "email" => "ahteasoap@gmail.com",
+                "tel" => "62206873"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/ahteasoap/photos/a.525163954274928/1462600843864563/"
         },

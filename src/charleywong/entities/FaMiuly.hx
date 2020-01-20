@@ -6,12 +6,23 @@ class FaMiuly implements Entity {
         zh => "花貓",
         en => "FaMiuly"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/FaMiuly/"
+            url: "https://www.facebook.com/FaMiuly/",
+            meta: [
+                "about" => "我是養了2隻貓的花，居於香港。\n花貓Famiuly 於2015年成立，售賣插畫、明信片、紙膠帶為主。\n工作聯繫：contact@famiuly.com",
+                "categories" => [
+                    "Artist",
+                    "Art"
+                ],
+                "email" => "contact@famiuly.com"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/famiuly_art/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/FaMiuly/posts/589774921816556"
         },

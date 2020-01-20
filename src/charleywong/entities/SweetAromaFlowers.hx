@@ -5,12 +5,23 @@ class SweetAromaFlowers implements Entity {
     public final name = [
         en => "Sweet Aroma Flowers"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/sweetaromaflowers/"
+            url: "https://www.facebook.com/sweetaromaflowers/",
+            meta: [
+                "about" => "May your life be filled with sweet aroma from flowers, leaves and treasures from the nature!",
+                "categories" => [
+                    "Florist"
+                ],
+                "email" => "sweetaromaflowers@gmail.com",
+                "tel" => "63327149"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/sweetaromaflowers/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/sweetaromaflowers/photos/a.10151940880912218/10156963367307218/"
         },

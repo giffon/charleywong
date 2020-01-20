@@ -5,12 +5,25 @@ class Noussavons implements Entity {
     public final name = [
         en => "nous_savons_"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/noUssavonslife/"
+            url: "https://www.facebook.com/noUssavonslife/",
+            meta: [
+                "about" => "Natural healthcare\nBetter us - Better world",
+                "categories" => [
+                    "Health/beauty",
+                    "Skincare service",
+                    "Health spa"
+                ],
+                "email" => "pollab17@outlook.com",
+                "tel" => "55421877"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/nous_savons_/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/noUssavonslife/photos/a.101816591257119/147930379979073/"
         },

@@ -5,12 +5,26 @@ class NToysHK implements Entity {
     public final name = [
         en => "Naughty toys"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/NToysHK/"
+            url: "https://www.facebook.com/NToysHK/",
+            meta: [
+                "about" => "努力為大家帶來歐美日精選用品，讓更多人生活增添情趣",
+                "categories" => [
+                    "Merchandising Service",
+                    "Product/Service"
+                ],
+                "addr" => "旺角百寶利商業中心1809",
+                "area" => "Hong Kong",
+                "email" => "toys.naughty@yahoo.com.hk",
+                "tel" => "63309535"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/naughtytoys1809%3Ffbclid%3DIwAR1onnAyVsMyOKT8u3uE5qKshC29CAPHmpfyRPpxEn2b4VGM7fUZ-TfX9d0/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/NToysHK/posts/786154245199322"
         },

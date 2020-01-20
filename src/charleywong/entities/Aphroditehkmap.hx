@@ -6,12 +6,22 @@ class Aphroditehkmap implements Entity {
         zh => "捕捉塵世美：香港小店地圖",
         en => "Aphrodite"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/aphroditehk.map/"
+            url: "https://www.facebook.com/aphroditehk.map/",
+            meta: [
+                "about" => "APHRODITE HONG KONG\n是一個香港本土文創平台\n為每個生活乏味的香港人...\n\n\n\n\n\n\nSee more",
+                "categories" => [
+                    "Society & culture website"
+                ],
+                "email" => "hello@aphroditehongkong.com"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/aphroditehk.map/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/aphroditehk.map/posts/2818417144877659"
         },

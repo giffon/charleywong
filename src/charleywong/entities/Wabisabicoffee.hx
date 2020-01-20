@@ -6,12 +6,26 @@ class Wabisabicoffee implements Entity {
         zh => "侘寂珈琲",
         en => "WabiSabi Coffee"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/wabisabicoffee/"
+            url: "https://www.facebook.com/wabisabicoffee/",
+            meta: [
+                "about" => "Instagram: wabisabi_coffee\n\n片刻寧靜，始於侘寂",
+                "categories" => [
+                    "Coffee shop",
+                    "Asian restaurant"
+                ],
+                "addr" => "Unit C 4/F., Everest Industrial Centre, 396 Kwun Tong Road",
+                "area" => "Kwun Tong",
+                "email" => "wabisabicoffee2015@gmail.com",
+                "tel" => "25111929"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/wabisabi_coffee/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/wabisabicoffee/photos/a.896861557049283/2592873200781435/"
         },

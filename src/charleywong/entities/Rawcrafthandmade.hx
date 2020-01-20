@@ -5,12 +5,19 @@ class Rawcrafthandmade implements Entity {
     public final name = [
         en => "Rawcraft handmade"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Rawcrafthandmade/"
+            url: "https://www.facebook.com/Rawcrafthandmade/",
+            meta: [
+                "about" => "香港生產,高品質產品\n香港人品牌,支持香港人\n香港人加油,萬事小心",
+                "categories" => [
+                    "Product/service",
+                    "Arts and crafts shop"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/Rawcrafthandmade/posts/1740585366071852"
         },

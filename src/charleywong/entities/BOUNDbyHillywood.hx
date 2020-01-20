@@ -5,12 +5,24 @@ class BOUNDbyHillywood implements Entity {
     public final name = [
         en => "BOUND by Hillywood"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/boundhillywood/"
+            url: "https://www.facebook.com/boundhillywood/",
+            meta: [
+                "about" => "CRAFT BEER + INDIE MUSIC + GOOD FOOD\n\nhttps://www.youtube.com/watch?v=k9od3_q0QMs",
+                "categories" => [
+                    "Coffee shop",
+                    "Bar",
+                    "Restaurant"
+                ],
+                "addr" => "32 Boundary Street, Prince Edward",
+                "area" => "Kowloon, Hong Kong",
+                "email" => "info@boundbeerandcoffee.com",
+                "tel" => "23966488"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/boundhillywood/posts/2305994452846623"
         },

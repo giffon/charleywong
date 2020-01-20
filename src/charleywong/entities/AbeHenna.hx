@@ -5,12 +5,20 @@ class AbeHenna implements Entity {
     public final name = [
         en => "Abe Henna"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/443305789021422/"
+            url: "https://www.facebook.com/443305789021422/",
+            meta: [
+                "about" => "Abe Henna.\nHenna in Hong Kong.\nHenna Cone. ...\n\n\n\n\nSee more",
+                "categories" => [
+                    "Artist"
+                ],
+                "email" => "henna.abe@gmail.com",
+                "tel" => "93569892"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/443305789021422/photos/a.664743766877622/2690875104264468/"
         },

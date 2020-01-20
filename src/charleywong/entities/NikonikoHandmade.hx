@@ -5,12 +5,21 @@ class NikonikoHandmade implements Entity {
     public final name = [
         en => "Nikoniko Handmade"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/nikoniko.handmade/"
+            url: "https://www.facebook.com/nikoniko.handmade/",
+            meta: [
+                "about" =>
+                "Handmade resin jewelry, based in Hong Kong.Inspired by nature & solar system, created by hand,with love.\n\n/ Enjoy the little things in life",
+                "categories" => [
+                    "Jewellery/watches"
+                ],
+                "addr" => "Shop239,2/F,Causeway Place,2-10 Great George Street,Causeway Bay,",
+                "area" => "Hong Kong"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/nikoniko.handmade/photos/a.662998973724278/2967459849944834/"
         },

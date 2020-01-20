@@ -5,12 +5,19 @@ class Goodafternoonwork implements Entity {
     public final name = [
         en => "Goodafternoonwork"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/goodafternoonwork/"
+            url: "https://www.facebook.com/goodafternoonwork/",
+            meta: [
+                "about" => "Small hand-craft work for a goodafternoon",
+                "categories" => [
+                    "Local business"
+                ],
+                "email" => "hello@goodafternoonwork.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/goodafternoonwork/posts/2107898125979615"
         },

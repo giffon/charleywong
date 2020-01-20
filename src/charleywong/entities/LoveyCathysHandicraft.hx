@@ -5,12 +5,19 @@ class LoveyCathysHandicraft implements Entity {
     public final name = [
         en => "LoveyCathy\'s Handicraft"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/LoveyCathysHandicraft/"
+            url: "https://www.facebook.com/LoveyCathysHandicraft/",
+            meta: [
+                "about" => "Unique & Delicate\n\n你的口金包專門店",
+                "categories" => [
+                    "Artist"
+                ],
+                "email" => "loveycathy@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/LoveyCathysHandicraft/posts/2543502959021259"
         },

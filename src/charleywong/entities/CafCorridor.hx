@@ -5,12 +5,22 @@ class CafCorridor implements Entity {
     public final name = [
         en => "Café Corridor"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/cafecorridor/"
+            url: "https://www.facebook.com/cafecorridor/",
+            meta: [
+                "about" => "A passage to the coffee world since 2001.",
+                "categories" => [
+                    "Coffee shop"
+                ],
+                "addr" => "G/F, 26A Russell Street, Causeway Bay",
+                "area" => "Causeway Bay",
+                "email" => "info@cafecorridor.hk",
+                "tel" => "28922927"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/cafecorridor/photos/a.806803999352359/2696719730360767/"
         },

@@ -5,12 +5,18 @@ class Mankitation implements Entity {
     public final name = [
         en => "Mankitation"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Mankitation/"
+            url: "https://www.facebook.com/Mankitation/",
+            meta: [
+                "about" => "一次偶然機會遇上第一個女皇頭\n從此愛上coin art\n更認識好多新朋友...\n\n\n\n\n\n\n\nSee more",
+                "categories" => [
+                    "Art"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/Mankitation/photos/a.1699325023645091/2547535845490667/"
         },

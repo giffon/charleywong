@@ -5,12 +5,20 @@ class WaTryCoffee implements Entity {
     public final name = [
         en => "Wa & Try Coffee"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/WATRYCOFFEE/"
+            url: "https://www.facebook.com/WATRYCOFFEE/",
+            meta: [
+                "about" => "自家烘焙咖啡豆,自制掛耳包\n即訂即做",
+                "categories" => [
+                    "Retail company"
+                ],
+                "email" => "watrycoffee@gmail.com",
+                "tel" => "68161440"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/WATRYCOFFEE/photos/a.486876408451811/821396714999777/"
         },

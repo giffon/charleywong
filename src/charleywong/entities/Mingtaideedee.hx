@@ -5,12 +5,17 @@ class Mingtaideedee implements Entity {
     public final name = [
         zh => "明泰"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/mingtaideedee/"
+            url: "https://www.facebook.com/mingtaideedee/",
+            meta: [
+                "categories" => [
+                    "Personal blog"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/mingtaideedee/posts/2463030567119917"
         },

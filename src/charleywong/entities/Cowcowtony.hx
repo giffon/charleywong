@@ -5,12 +5,19 @@ class Cowcowtony implements Entity {
     public final name = [
         zh => "柳廣成"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/cowcowtony/"
+            url: "https://www.facebook.com/cowcowtony/",
+            meta: [
+                "about" => "some drawings.\nBased in Hong Kong.",
+                "categories" => [
+                    "Author"
+                ],
+                "email" => "cowcowtony@hotmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/cowcowtony/posts/1071168099720305"
         },

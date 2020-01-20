@@ -5,12 +5,22 @@ class CAVEBeerPoint implements Entity {
     public final name = [
         en => "CAVE Beer Point"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/cavebeerpoint/"
+            url: "https://www.facebook.com/cavebeerpoint/",
+            meta: [
+                "about" => "\"your neighborhood shop for beer....premium beer!.... craft beer!\"\n\n精釀手工啤酒專門店",
+                "categories" => [
+                    "Beer Garden",
+                    "Shopping & Retail"
+                ],
+                "addr" => "G/F, 116 Broadway, Mei Foo, Kowloon 九龍美孚百老匯街116號地下",
+                "area" => "Kowloon, Hong Kong",
+                "email" => "main.cavebeer@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/cavebeerpoint/photos/a.709557815810772/2176328895800316/"
         },

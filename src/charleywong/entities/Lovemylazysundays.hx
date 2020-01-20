@@ -6,12 +6,18 @@ class Lovemylazysundays implements Entity {
         zh => "山女行",
         en => "Love My Lazy Sundays"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/lovemylazysundays/"
+            url: "https://www.facebook.com/lovemylazysundays/",
+            meta: [
+                "about" => "山中之樂要用心去感受，享受山裏的大小事情！感謝山！\nThe Mountain complete me",
+                "categories" => [
+                    "Personal blog"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/lovemylazysundays/posts/2394062120883550"
         },

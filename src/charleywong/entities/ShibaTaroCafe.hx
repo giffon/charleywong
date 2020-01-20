@@ -6,12 +6,21 @@ class ShibaTaroCafe implements Entity {
         zh => "柴太郎咖啡店",
         en => "Shiba Taro Cafe"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/ShibaTaroCafe/"
+            url: "https://www.facebook.com/ShibaTaroCafe/",
+            meta: [
+                "categories" => [
+                    "Coffee shop",
+                    "British restaurant"
+                ],
+                "addr" => "G/F, 11 See Cheung Street",
+                "area" => "Sai Kung",
+                "tel" => "94880623"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/ShibaTaroCafe/posts/2517360015210410"
         },

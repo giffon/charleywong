@@ -6,12 +6,23 @@ class Momentfloralstyling implements Entity {
         zh => "花賞時刻",
         en => "Moment Floral & Styling"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/momentfloralstyling/"
+            url: "https://www.facebook.com/momentfloralstyling/",
+            meta: [
+                "about" => "花之所以美麗，在於它短暫而珍貴。時刻保持「學花 ．賞花」的初心，用心．手．文字．相片，留住花每一個最美的時刻。",
+                "categories" => [
+                    "Florist",
+                    "Product/service"
+                ],
+                "email" => "momentfloralstyling@gmail.com"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/https%3A%2F%2Fwww.instagram.com%2Fmomentfloralstyling/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/momentfloralstyling/posts/3037079233184872"
         }

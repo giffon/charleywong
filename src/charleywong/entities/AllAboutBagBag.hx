@@ -5,12 +5,20 @@ class AllAboutBagBag implements Entity {
     public final name = [
         en => "All About Bag Bag"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/AllAboutBagBag/"
+            url: "https://www.facebook.com/AllAboutBagBag/",
+            meta: [
+                "about" => "We Tailor-make bags | 香港專業手作品牌\n.\nReady to buy?\nWebsite: www.pinkoi.com/store/allaboutbagbag",
+                "categories" => [
+                    "Bags/luggage",
+                    "Design & fashion",
+                    "Arts and crafts shop"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/AllAboutBagBag/posts/2778687862190725"
         },

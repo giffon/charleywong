@@ -5,12 +5,26 @@ class JOMOCoffeeCakes implements Entity {
     public final name = [
         en => "JOMO Coffee & Cakes"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/JOMOCNC/"
+            url: "https://www.facebook.com/JOMOCNC/",
+            meta: [
+                "categories" => [
+                    "Coffee shop",
+                    "Tea room",
+                    "Dessert shop"
+                ],
+                "addr" => "No 4,Water Street, Sai Ying Pun",
+                "area" => "Hong Kong",
+                "email" => "jomocnc@gmail.com",
+                "tel" => "27620258"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/jomocoffeencakes/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/JOMOCNC/photos/a.310753833086903/564968034332147/"
         },

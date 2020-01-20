@@ -6,12 +6,21 @@ class Greenearthhk implements Entity {
         zh => "綠惜地球",
         en => "The Green Earth"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/greenearthhk/"
+            url: "https://www.facebook.com/greenearthhk/",
+            meta: [
+                "about" => "「綠惜地球」深信，大家可以成為綠色公民，共同發揮零浪費的綠色正能量。",
+                "categories" => [
+                    "Environmental conservation organisation",
+                    "Non-profit organisation"
+                ],
+                "email" => "info@greenearth-hk.org",
+                "tel" => "37088380"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/greenearthhk/photos/a.251976585146266/1006263463050904/"
         }

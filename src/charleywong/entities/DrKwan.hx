@@ -5,12 +5,19 @@ class DrKwan implements Entity {
     public final name = [
         zh => "關家倫 中醫學博士"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Dr.Kwan/"
+            url: "https://www.facebook.com/Dr.Kwan/",
+            meta: [
+                "about" => "香港中文大學中醫藥學哲學博士。\n註冊中醫師。選舉委員會委員。",
+                "categories" => [
+                    "Scientist",
+                    "Doctor"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/Dr.Kwan/posts/1178255659036023"
         }

@@ -5,12 +5,19 @@ class Lovesomething implements Entity {
     public final name = [
         en => "love something"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/lovesomething/"
+            url: "https://www.facebook.com/lovesomething/",
+            meta: [
+                "about" => "since 2009\n\n隨愛而為\nlove something, do something.",
+                "categories" => [
+                    "Cause"
+                ],
+                "email" => "lovesomethingart@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/lovesomething/posts/2869529386393876"
         },

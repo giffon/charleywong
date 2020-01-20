@@ -5,12 +5,22 @@ class OMTheplacement implements Entity {
     public final name = [
         en => "OM.Theplacement"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/OM.TPM/"
+            url: "https://www.facebook.com/OM.TPM/",
+            meta: [
+                "categories" => [
+                    "Product/Service"
+                ],
+                "email" => "om.theplacement@gmail.com",
+                "tel" => "96069210"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/omtheplacement%3Ffbclid%3DIwAR0BVlso_sH2v9BCraxCkkkn1rhAIRQIQ3eZB__JtJgbT3rf7cJ33jrpkY8/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/OM.TPM/posts/447217822500010"
         },

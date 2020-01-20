@@ -5,12 +5,24 @@ class Diyjason implements Entity {
     public final name = [
         zh => "手作J"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/diyjason/"
+            url: "https://www.facebook.com/diyjason/",
+            meta: [
+                "about" => "人手製作寫實人像及寵物橡皮印章，歡迎Inbox查詢訂造詳情。",
+                "categories" => [
+                    "Artist",
+                    "Product/service"
+                ],
+                "email" => "hkdiyjason@gmail.com",
+                "tel" => "97729759"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/diyjason/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/diyjason/photos/a.352966944742185/2805634956142026/"
         },

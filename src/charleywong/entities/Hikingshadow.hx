@@ -5,12 +5,19 @@ class Hikingshadow implements Entity {
     public final name = [
         zh => "山野倩映"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/hikingshadow/"
+            url: "https://www.facebook.com/hikingshadow/",
+            meta: [
+                "about" => "<<山野倩映>> 成立於2010年7月1日始創！期望帶領更多人遊走香港各山野，留下最動人倩映之美好回憶。",
+                "categories" => [
+                    "Sport & recreation"
+                ],
+                "email" => "hiking.shadow@hotmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/hikingshadow/posts/2240773089382993"
         },

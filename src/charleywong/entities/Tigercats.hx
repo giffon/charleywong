@@ -5,15 +5,21 @@ class Tigercats implements Entity {
     public final name = [
         en => "Tigercats"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/tigercats0/"
+            url: "https://www.facebook.com/tigercats0/",
+            meta: [
+                "about" => "Tigercats_，是一個香港的手作品牌， 希望能夠把不同地方的題材/材料融入手作當中，把手作文化帶入大家的生活，分享創作的快樂，亦希望重現Made in Hong Kong的優良產品。",
+                "categories" => [
+                    "Bags/luggage"
+                ]
+            ]
         },
         {
             url: "https://www.instagram.com/tigercats_/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.instagram.com/p/B4rjNNmjvhr/"
         },

@@ -5,12 +5,26 @@ class Openground implements Entity {
     public final name = [
         en => "openground"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/opengroundhk/"
+            url: "https://www.facebook.com/opengroundhk/",
+            meta: [
+                "about" => "A Design Portal\nwith\nCoffee, ...\n\n\n\n\n\n\n\nSee more",
+                "categories" => [
+                    "Coffee shop",
+                    "Community"
+                ],
+                "addr" => "198 Tai Nan Street, Sham Shui Po",
+                "area" => "Kowloon, Hong Kong",
+                "email" => "info@openground.hk",
+                "tel" => "39745098"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/openground_hk/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/opengroundhk/posts/982729405421217"
         }

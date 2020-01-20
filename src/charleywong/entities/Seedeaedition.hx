@@ -6,12 +6,25 @@ class Seedeaedition implements Entity {
         zh => "思至別註",
         en => "Seedea Edition"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/seedeaedition/"
+            url: "https://www.facebook.com/seedeaedition/",
+            meta: [
+                "about" =>
+                "Handmade leather craft with hand dye colorful leather, slim in shape, playful design, refreshing ideas and keep it functional for using everyday.",
+                "categories" => [
+                    "Product/service",
+                    "Gift shop"
+                ],
+                "email" => "info@seedea-edition.com",
+                "tel" => "61673984"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/seedea_edition/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/seedeaedition/photos/a.1677940692427641/2634171460137888/"
         },

@@ -5,12 +5,19 @@ class Postcardposting implements Entity {
     public final name = [
         en => "Postcard posting"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/PostcardPosting/"
+            url: "https://www.facebook.com/PostcardPosting/",
+            meta: [
+                "about" => "Postcard means more than just a card.\n•Share wordings •Postcards• Floral•Happiness•\n...\n\n\n\n\nSee more",
+                "categories" => [
+                    "Product/service",
+                    "Artist"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/PostcardPosting/photos/a.227252234045224/2118752871561808/"
         },

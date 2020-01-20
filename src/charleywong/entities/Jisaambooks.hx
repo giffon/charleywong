@@ -6,12 +6,20 @@ class Jisaambooks implements Entity {
         zh => "貳叄書房",
         en => "jisaam.books"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/jisaam.books/"
+            url: "https://www.facebook.com/jisaam.books/",
+            meta: [
+                "categories" => [
+                    "Book shop"
+                ],
+                "addr" => "RM 1202, Grand Place, Nathan Road 558-560, Yau Ma Tei",
+                "area" => "Hong Kong",
+                "email" => "jisaam.books@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/jisaam.books/photos/a.123273912383074/158479195529212"
         }

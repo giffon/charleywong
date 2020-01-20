@@ -5,12 +5,17 @@ class Icahongkong implements Entity {
     public final name = [
         zh => "獨立評論人協會"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/icahongkong/"
+            url: "https://www.facebook.com/icahongkong/",
+            meta: [
+                "categories" => [
+                    "Non-profit organisation"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/icahongkong/posts/2483719851695432"
         },

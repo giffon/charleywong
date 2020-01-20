@@ -5,12 +5,19 @@ class CusonLoChiKong implements Entity {
     public final name = [
         zh => "怪叔叔の散步道"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Cuson.LoChiKong/"
+            url: "https://www.facebook.com/Cuson.LoChiKong/",
+            meta: [
+                "about" => "鍾意周街逛的漫畫家大叔。",
+                "categories" => [
+                    "Writer"
+                ],
+                "email" => "cusonlo@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/Cuson.LoChiKong/posts/2647327968692541"
         }

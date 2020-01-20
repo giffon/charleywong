@@ -5,12 +5,22 @@ class CommonGround implements Entity {
     public final name = [
         en => "Common Ground"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Commongroundhk/"
+            url: "https://www.facebook.com/Commongroundhk/",
+            meta: [
+                "about" => "Common Ground is a community project that started by Protest Design Company and Twins Kitchen.",
+                "categories" => [
+                    "Cafe"
+                ],
+                "addr" => "G/F, 19 Shing Wong St",
+                "area" => "Central, Hong Kong",
+                "email" => "info@twins-kitchen.com",
+                "tel" => "28188318"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/Commongroundhk/photos/a.175123919304338/1359858317497553/"
         },

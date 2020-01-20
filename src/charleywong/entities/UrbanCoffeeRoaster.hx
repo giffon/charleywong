@@ -5,12 +5,22 @@ class UrbanCoffeeRoaster implements Entity {
     public final name = [
         en => "Urban Coffee Roaster"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Urbancoffeeroaster/"
+            url: "https://www.facebook.com/Urbancoffeeroaster/",
+            meta: [
+                "about" => "Life is too short for bad coffee",
+                "categories" => [
+                    "Coffee shop",
+                    "Restaurant",
+                    "Sandwich shop"
+                ],
+                "email" => "info@ucr.hk",
+                "tel" => "23633661"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/Urbancoffeeroaster/photos/a.593637637413625/2444970068947030/"
         },

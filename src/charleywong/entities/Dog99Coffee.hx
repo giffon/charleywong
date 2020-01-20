@@ -5,12 +5,22 @@ class Dog99Coffee implements Entity {
     public final name = [
         en => "Dog99 Coffee"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Dog99-Coffee-901050250059918/"
+            url: "https://www.facebook.com/Dog99-Coffee-901050250059918/",
+            meta: [
+                "categories" => [
+                    "Coffee shop",
+                    "Restaurant"
+                ],
+                "addr" => "33, Wong Chuk Street",
+                "area" => "Sham Shui Po",
+                "email" => "dog99coffee@gmail.com",
+                "tel" => "68311311"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/901050250059918/photos/a.902020866629523/1412711075560497/"
         },

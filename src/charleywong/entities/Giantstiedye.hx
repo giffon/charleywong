@@ -6,12 +6,22 @@ class Giantstiedye implements Entity {
         zh => "巨人染",
         en => "Giants Tie Dye"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/giantstiedye/"
+            url: "https://www.facebook.com/giantstiedye/",
+            meta: [
+                "about" => "巨 人 染 Giants Tie Dye的手染基地，\n我們是來自台灣和香港的紮染技藝師。\n...\n\n\n\nSee more",
+                "categories" => [
+                    "Artist"
+                ],
+                "email" => "giantstiedye@gmail.com"
+            ]
+        },
+        {
+            url: "https://www.instagram.com/giants_tiedye/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/giantstiedye/photos/a.886592474710613/2642566329113210/"
         },

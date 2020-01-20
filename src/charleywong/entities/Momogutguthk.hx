@@ -6,12 +6,21 @@ class Momogutguthk implements Entity {
         zh => "毛毛吉吉",
         en => "momogutgut"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/momogutgut.hk/"
+            url: "https://www.facebook.com/momogutgut.hk/",
+            meta: [
+                "about" => "Prefer living in color �",
+                "categories" => [
+                    "Accessories",
+                    "Jewellery/watches"
+                ],
+                "email" => "hello@momogutgut.hk",
+                "tel" => "60388597"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/momogutgut.hk/photos/a.1319976408020153/3260845257266582/"
         },

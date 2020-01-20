@@ -5,12 +5,19 @@ class PaperGoodsbyDorie implements Entity {
     public final name = [
         en => "Paper Goods by Dorie"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/PaperGoodsbyDorie/"
+            url: "https://www.facebook.com/PaperGoodsbyDorie/",
+            meta: [
+                "about" => "設計│插畫│紙品\n藉創作承傳印刷品與書信文化。\n查詢/合作: papergoodshk@gmail.com",
+                "categories" => [
+                    "Art"
+                ],
+                "email" => "papergoodshk@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/PaperGoodsbyDorie/photos/a.400938416716427/1741365082673747/"
         },

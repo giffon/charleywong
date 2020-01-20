@@ -5,12 +5,22 @@ class Studio723 implements Entity {
     public final name = [
         en => "723 Studio Limited"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/723studio/"
+            url: "https://www.facebook.com/723studio/",
+            meta: [
+                "about" => "We’re a tiny design studio in HK 🇭🇰 striving to create functional, sustainable, and delightful objects...",
+                "categories" => [
+                    "Art",
+                    "Graphic designer",
+                    "Designer"
+                ],
+                "email" => "info@723studio.com",
+                "tel" => "24168688"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/723studio/photos/a.711707022518942/1020576544965320/"
         },

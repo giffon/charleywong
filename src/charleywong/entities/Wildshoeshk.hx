@@ -5,12 +5,19 @@ class Wildshoeshk implements Entity {
     public final name = [
         zh => "野鞋子"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/wildshoeshk/"
+            url: "https://www.facebook.com/wildshoeshk/",
+            meta: [
+                "about" =>
+                "Ig: wildshoeshk\n\nJust a life style in Hong Kong, other than the ordinary one. Sharing interesting things like hiking, watersport, travelling, music...",
+                "categories" => [
+                    "Local & travel website"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/wildshoeshk/posts/3491855394173837"
         },

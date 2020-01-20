@@ -5,12 +5,18 @@ class Fabricatorshk implements Entity {
     public final name = [
         zh => "重光造作"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/fabricatorshk/"
+            url: "https://www.facebook.com/fabricatorshk/",
+            meta: [
+                "about" => "工具控說故事",
+                "categories" => [
+                    "Carpenter"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/fabricatorshk/photos/a.112783306865987/112783270199324/"
         }

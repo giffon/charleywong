@@ -5,12 +5,20 @@ class AKAKoooo implements Entity {
     public final name = [
         en => "AKAKoooo"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/AKAKoooo/"
+            url: "https://www.facebook.com/AKAKoooo/",
+            meta: [
+                "categories" => [
+                    "Product/service"
+                ]
+            ]
+        },
+        {
+            url: "https://www.instagram.com/akakoooo/"
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/AKAKoooo/photos/a.1891524951117476/2540734709529827/"
         },

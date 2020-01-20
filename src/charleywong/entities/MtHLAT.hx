@@ -5,12 +5,18 @@ class MtHLAT implements Entity {
     public final name = [
         zh => "山活行旅"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Mt.HLAT/"
+            url: "https://www.facebook.com/Mt.HLAT/",
+            meta: [
+                "about" => "上山下海、畫畫創作、到處漂泊、窮著笑著過生活。",
+                "categories" => [
+                    "Vitamins/supplements"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/Mt.HLAT/photos/a.1616046092019560/2202361453388018/"
         },

@@ -5,12 +5,20 @@ class Hohhou implements Entity {
     public final name = [
         en => "Hohhou（ホッホウ）"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/hohhouhohhou/"
+            url: "https://www.facebook.com/hohhouhohhou/",
+            meta: [
+                "about" => "HOHHOU（ホッホウ）the voice to reignite over love to mother earth.",
+                "categories" => [
+                    "Alternative & holistic health service",
+                    "Aromatherapy service"
+                ],
+                "email" => "hohhouhohhou@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/hohhouhohhou/photos/a.783503415164668/1338995469615457/"
         },

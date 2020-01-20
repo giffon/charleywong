@@ -5,12 +5,23 @@ class AmenFloristDecor implements Entity {
     public final name = [
         en => "Amen Florist & Decor"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/AmenFloristDecor/"
+            url: "https://www.facebook.com/AmenFloristDecor/",
+            meta: [
+                "about" => "Amen Florist & Decor",
+                "categories" => [
+                    "Florist",
+                    "Shopping & retail",
+                    "Event planner"
+                ],
+                "addr" => "1/F, 3 YUEN NGAI STREET, MONG KOK, KOWLOON",
+                "area" => "Hong Kong",
+                "email" => "info@amenfloristdecor.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/AmenFloristDecor/posts/2584157948332380"
         },

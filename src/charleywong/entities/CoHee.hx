@@ -5,12 +5,24 @@ class CoHee implements Entity {
     public final name = [
         en => "CoHee"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/coheehk/"
+            url: "https://www.facebook.com/coheehk/",
+            meta: [
+                "about" =>
+                "CoHee is your one stop destination for everything you need for a good cup of specialty coffee. We source the best coffee equipment around the globe.",
+                "categories" => [
+                    "Coffee shop",
+                    "Shopping & retail"
+                ],
+                "addr" => "G/F, 152 Kam Tin Shi Street, Yuen Long",
+                "area" => "Hong Kong",
+                "email" => "cs@coheehk.com",
+                "tel" => "94497310"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/coheehk/photos/a.460210047504268/1231516027040329/"
         },

@@ -5,12 +5,19 @@ class HeACamper implements Entity {
     public final name = [
         en => "HeA Camper"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/heacamper/"
+            url: "https://www.facebook.com/heacamper/",
+            meta: [
+                "about" => "HeA Camper係香港本土One-man Band品牌，由設計畫圖、切割打磨、上色上油，至包裝測試，都係由主理人一腳踢係香港包辦，正宗made in HK!",
+                "categories" => [
+                    "Outdoor and sporting goods company"
+                ],
+                "email" => "heacamper@gmail.com"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/heacamper/photos/a.1885626581667109/2532928643603563/"
         },

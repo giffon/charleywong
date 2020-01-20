@@ -5,12 +5,17 @@ class Deerstation implements Entity {
     public final name = [
         en => "Deer_station"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/549599025231703/"
+            url: "https://www.facebook.com/549599025231703/",
+            meta: [
+                "categories" => [
+                    "Product/service"
+                ]
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/549599025231703/photos/a.720262144832056/1267635036761428/"
         }

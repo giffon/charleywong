@@ -6,12 +6,22 @@ class Pausebookshop implements Entity {
         zh => "小息書店",
         en => "PAUSE"
     ];
-    public final webpages = [
+    public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/pausebookshop/"
+            url: "https://www.facebook.com/pausebookshop/",
+            meta: [
+                "about" => "靜默有時，言語有時",
+                "categories" => [
+                    "Book shop"
+                ],
+                "addr" => "11/F.,Cheung Lee Commercial Building,No.137-143 Cheung Sha Wan Road,Kowloon",
+                "area" => "Hong Kong",
+                "email" => "pause@fes.org.hk",
+                "tel" => "23692750"
+            ]
         }
     ];
-    public final posts = [
+    public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/pausebookshop/photos/a.304447596415180/1160421424151122"
         }
