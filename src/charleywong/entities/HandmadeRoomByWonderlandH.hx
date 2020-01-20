@@ -21,7 +21,7 @@ class HandmadeRoomByWonderlandH implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/https%3A%2F%2Fwww.instagram.com%2Fhandmaderoombywonderlandh/"
+            url: "https://www.instagram.com/handmaderoombywonderlandh/"
         }
     ];
     public final posts:Array<Post> = [
