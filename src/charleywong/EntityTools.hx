@@ -10,6 +10,12 @@ class EntityTools {
             webpages: [for (p in e.webpages) {
                 var o:DynamicAccess<Dynamic> = {};
                 if (p.name != null) o["name"] = p.name.toJson();
+                if (p.meta != null) o["meta"] = {
+                    var o:DynamicAccess<Dynamic> = {};
+                    for (k => v in p.meta)
+                        o[k] = v;
+                    o;
+                }
                 o["url"] = p.url;
                 o;
             }],

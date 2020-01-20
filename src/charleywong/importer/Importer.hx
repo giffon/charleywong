@@ -3,255 +3,16 @@ package charleywong.importer;
 import haxe.Json;
 import sys.io.File;
 import haxe.ds.ReadOnlyArray;
-import selenium.webdriver.*;
-import selenium.webdriver.common.alert.Alert;
-import selenium.webdriver.common.action_chains.ActionChains;
-import selenium.webdriver.support.ui.Select;
-import selenium.webdriver.support.ui.WebDriverWait;
-import selenium.webdriver.support.expected_conditions.*;
-import selenium.webdriver.remote.switch_to.SwitchTo;
-import selenium.webdriver.remote.webelement.*;
 import haxe.macro.Expr;
+import charleywong.importer.FacebookImporter;
 using StringTools;
 using Lambda;
-
-enum OpeningHours {
-    HOpen;
-    HClose;
-    HRanges(ranges:Array<{open:String, close:String}>);
-}
-
-enum OpeningSchedule {
-    AlwaysOpen;
-    OpeningDays(mon:OpeningHours, tue:OpeningHours, wed:OpeningHours, thur:OpeningHours, fri:OpeningHours, sat:OpeningHours, sun:OpeningHours);
-}
 
 class Importer {
     static final fbAppId = Sys.getEnv("FB_APP_ID");
 
-    final driver:Remote;
-    final hubHost:String;
-    final hubUrl:String;
-    final fbEmail:Null<String>;
-    final fbPass:Null<String>;
-
-    public function new():Void {
-        hubHost = arg("HUB_HOST", "localhost");
-        hubUrl = 'http://${hubHost}:4444/wd/hub';
-        fbEmail = arg("FB_EMAIL", null);
-        fbPass = arg("FB_PASS", null);
-
-
-        var opts = new ChromeOptions();
-        opts.add_argument("--disable-dev-shm-usage");
-        opts.set_capability("acceptSslCerts", true);
-        driver = new Remote(hubUrl, opts.to_capabilities());
-    }
-
-    public function destroy():Void {
-        driver.quit();
-    }
-
-    function arg(name:String, defaultValue:String) {
-        return switch (Sys.getEnv(name)) {
-            case null: defaultValue;
-            case v: v;
-        }
-    }
-
-    function fbPageName():String {
-        var titleValue:String = driver.title;
-        var regex = ~/^(.+?)(?: - .+?)?(:? \| Facebook)?$/;
-        if (regex.match(titleValue)) {
-            return regex.matched(1);
-        } else {
-            throw 'Cannot get page title from "$titleValue" (${driver.current_url}).';
-        }
-    }
-
-    function fbPageTel():Null<String> {
-        var callNode:WebElement = try{
-            driver.find_element_by_xpath("//*[starts-with(text(),'Call ')]");
-        } catch (e:Dynamic) {
-            return null;
-        }
-        var callString:String = callNode.text;
-        var regex = ~/Call ([0-9 ]+)/;
-        return if (regex.match(callString)) {
-            ~/[^0-9]/g.replace(regex.matched(1), "");
-        } else {
-            null;
-        }
-    }
-
-    function fbPageAddr() {
-        var textNodes:Array<WebElement> = try {
-            driver.find_elements_by_xpath("//a[contains(@href,'share.here.com')]/parent::*/parent::*//*[text()]");
-        } catch (e:Dynamic) {
-            return null;
-        }
-
-        if (textNodes.length < 3) {
-            return null;
-        }
-
-        return {
-            line: (textNodes[0].text:String),
-            area: (textNodes[1].text:String),
-        };
-    }
-
-    function fbPageInstagram() {
-        var linkNode:WebElement = try {
-            driver.find_element_by_xpath("//a[starts-with(@href,'https://instagram.com/')]");
-        } catch (e:Dynamic) {
-            null;
-        }
-        if (linkNode != null) {
-            var href:String = linkNode.get_attribute("href");
-            var regex = ~/https:\/\/instagram.com\/(.+)/;
-            if (regex.match(href)) {
-                return regex.matched(1);
-            }
-        }
-
-        // Somehow FB uses a tracking link before the link is hovered by a cursor...
-        // https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fgiffonio&h=AT34SwZ-XRno-h7GrzFe7uHQSzEZLwgpfsxlPhSJGcaj9m-enkRXHDjj6WS89wJ9effhvJXF4dTSnkmzECinQDVdjkCW1chH4fLNcrruY0jnd1s1XpaoQpyJtSRnzCRPxSKvyyE3D2dQmew9hB5a8g
-        var linkNode:WebElement = try {
-            driver.find_element_by_xpath("//a[starts-with(@href,'https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2F')]");
-        } catch (e:Dynamic) {
-            null;
-        }
-        if (linkNode != null) {
-            var href:String = linkNode.get_attribute("href");
-            var regex = ~/https:\/\/l.facebook.com\/l.php\?u=https%3A%2F%2Finstagram.com%2F(.+?)(?:%2F)?&.*/;
-            if (regex.match(href)) {
-                return regex.matched(1);
-            }
-        }
-
-        var textNode:WebElement = try {
-            driver.find_element_by_xpath("//*[contains(text(),'Instagram')]");
-        } catch (e:Dynamic) {
-            null;
-        }
-        if (textNode != null) {
-            var text:String = textNode.text;
-            var regex = ~/Instagram ?:? ?(.+)/;
-            if (regex.match(text)) {
-                return regex.matched(1);
-            }
-        }
-
-        return null;
-    }
-
-    function hoursOfDay(day:String) {
-        var node:WebElement = driver.find_element_by_xpath('//div[contains(text(),"${day}:")]/following-sibling::div');
-        var hoursStr:String = node.text;
-        var regexp = ~/([0-9]+:[0-9]+(?: AM| PM)?) - ([0-9]+:[0-9]+(?: AM| PM)?)/;
-        if (regexp.match(hoursStr)) {
-            return HRanges([{ open: regexp.matched(1), close: regexp.matched(2) }]);
-        }
-        switch (hoursStr) {
-            case "CLOSED": return HClose;
-            case _: throw 'Unknown hours: $hoursStr';
-        }
-    }
-
-    function fbPageHours() {
-        var uiPopover:WebElement = try {
-            driver.find_element_by_xpath("//div[contains(text(),'HOURS')]/parent::*/following-sibling::div//div[contains(@class,'uiPopover')]/div");
-        } catch (e:Dynamic) {
-            null;
-        }
-        if (uiPopover != null) {
-            driver.execute_script("arguments[0].click();", [uiPopover]);
-            return OpeningDays(
-                hoursOfDay("Monday"),
-                hoursOfDay("Tuesday"),
-                hoursOfDay("Wednesday"),
-                hoursOfDay("Thursday"),
-                hoursOfDay("Friday"),
-                hoursOfDay("Saturday"),
-                hoursOfDay("Sunday")
-            );
-        }
-
-        var hoursNode = try {
-            driver.find_element_by_xpath("//div[contains(text(),'HOURS')]/parent::*/following-sibling::div//*[text()]");
-        } catch (e:Dynamic) {
-            null;
-        }
-        if (hoursNode != null) {
-            switch (hoursNode.text:String) {
-                case "Always open": return AlwaysOpen;
-                case _: //pass
-            }
-        }
-        return null;
-    }
-
-    public function loginFbIfNeeded() {
-        var requireLogin = try {
-            new WebDriverWait(driver, 5).until(_ ->
-                (driver.title:String).contains(" - About") ||
-                (driver.title:String).contains(" | Facebook") ||
-                ~/.+ - .+ photos - .+/.match(driver.title)
-            );
-            false;
-        } catch (e:Dynamic) {
-            try {
-                driver.find_element_by_xpath("//*[contains(text(),'You must log in to continue.')]");
-                true;
-            } catch (e:Dynamic) {
-                throw driver.title;
-            }
-        }
-
-        if (requireLogin) {
-            Sys.println("Facebook login required.");
-            if (fbEmail == null) throw 'Missing FB_EMAIL.';
-            if (fbPass == null) throw 'Missing FB_PASS.';
-            var emailInput:WebElement = driver.find_element_by_id("email");
-            var passInput:WebElement = driver.find_element_by_id("pass");
-            var loginBtn:WebElement = driver.find_element_by_id("loginbutton");
-            emailInput.send_keys([fbEmail]);
-            passInput.send_keys([fbPass]);
-            loginBtn.click();
-            new WebDriverWait(driver, 20).until(_ -> driver.title != "Facebook" && !(driver.title:String).contains("Log in to Facebook"));
-        }
-    }
-
-    // Get Facebook page name from a permalink.
-    public function fbPage(url:String):String {
-        driver.get(url);
-        var hiddenInput:WebElement = driver.find_element_by_xpath("//div[starts-with(text(),'See more of')]/following-sibling::*//input[starts-with(@value,'https://www.facebook.com/')]");
-        var value:String = hiddenInput.get_attribute("value");
-        var regexp = ~/^https:\/\/www\.facebook\.com\/(.+)\/$/;
-        if (regexp.match(value))
-            return regexp.matched(1);
-        else
-            throw value;
-    }
-
-    public function fbPageInfo(fbPage:String) {
-        var aboutUrl = 'https://www.facebook.com/pg/${fbPage}/about/';
-        driver.get(aboutUrl);
-
-        loginFbIfNeeded();
-
-        return {
-            name: fbPageName(),
-            addr: fbPageAddr(),
-            tel: fbPageTel(),
-            ig: fbPageInstagram(),
-            hours: fbPageHours(),
-        };
-    }
-
     static function importFbPermalink(url:String) {
-        var importer = new Importer();
+        var importer = new FacebookImporter();
         var fbPage = importer.fbPage(url);
         importer.destroy();
         importFbPage(fbPage, url);
@@ -260,11 +21,11 @@ class Importer {
     static function importFbPage(fbPage:String, postUrl:String) {
         var cls = switch (EntityIndex.entitiesOfFbPage[fbPage]) {
             case null:
-                var importer = new Importer();
+                var importer = new FacebookImporter();
                 var info = importer.fbPageInfo(fbPage);
                 importer.destroy();
                 Sys.println(Json.stringify(info, null, "  "));
-                createEntity(info.name, fbPage, postUrl);
+                createEntity(info.name, info, postUrl);
             case entity:
                 updateEntity(entity, postUrl);
         }
@@ -462,8 +223,8 @@ class Importer {
     static final noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
     static final allChi = ~/^[\u4e00-\u9fff \-_\.·]+$/; // all chinese characters
 
-    static function createEntity(name:String, fbPage:String, post:String) {
-        var className = getClassName(name, fbPage);
+    static function createEntity(name:String, fbPage:FacebookInfo, post:String) {
+        var className = getClassName(name, fbPage.page);
         var nameExpr = {
             var chi_en = ~/^([\u4e00-\u9fff ]*[\u4e00-\u9fff])[^A-Za-z0-9\u4e00-\u9fff]*(.+)$/; // chinese then eng
             var en_chi = ~/^([^\u4e00-\u9fff]+?)[ \-]*([\u4e00-\u9fff]+)$/; // chinese then eng
@@ -512,23 +273,36 @@ class Importer {
                 ];
         };
         var idExpr = {
-            expr: EConst(CString(fbPage)),
-            pos: null,
-        };
-        var urlExpr = {
-            expr: EConst(CString('https://www.facebook.com/$fbPage/')),
+            expr: EConst(CString(fbPage.page)),
             pos: null,
         };
         var postExpr = {
             expr: EConst(CString(post)),
             pos: null,
         };
+        var metaExprs = [];
+        metaExprs.push(macro "categories" => ${valueToExpr(fbPage.categories)});
+        if (fbPage.addr != null) {
+            metaExprs.push(macro "addr" => ${valueToExpr(fbPage.addr.line)});
+            metaExprs.push(macro "area" => ${valueToExpr(fbPage.addr.area)});
+        }
+        if (fbPage.tel != null) {
+            metaExprs.push(macro "tel" => ${valueToExpr(fbPage.tel)});
+        }
+        var webpagesExprs = [];
+        webpagesExprs.push(macro {
+            url: ${valueToExpr('https://www.facebook.com/${fbPage.page}/')},
+            meta: [$a{metaExprs}],
+        });
+        if (fbPage.ig != null) {
+            webpagesExprs.push(macro {
+                url: ${valueToExpr('https://www.instagram.com/${fbPage.ig}/')},
+            });
+        }
         var cls = macro class $className implements Entity {
             public final id =${idExpr};
             public final name = ${nameExpr};
-            public final webpages:Array<WebPage> = [{
-                url: ${urlExpr}
-            }];
+            public final webpages:Array<WebPage> = [$a{webpagesExprs}];
             public final posts:Array<Post> = [{
                 url: ${postExpr}
             }];
