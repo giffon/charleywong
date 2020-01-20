@@ -15,6 +15,23 @@ class View extends ReactComponent {
 
     function path():String throw "should be overridden";
 
+    function gtag() {
+        var content = {
+            __html: "
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-156524141-1');
+            "
+        };
+        return jsx('
+            <Fragment>
+                <script async=${true} src="https://www.googletagmanager.com/gtag/js?id=UA-156524141-1"></script>
+                <script dangerouslySetInnerHTML=${content}></script>
+            </Fragment>
+        ');
+    }
+
     function depCss() return jsx('
         <Fragment>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossOrigin="anonymous" />
@@ -39,6 +56,7 @@ class View extends ReactComponent {
 
     function head() return jsx('
         <head>
+            ${gtag()}
             <meta charSet="UTF-8" />
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
