@@ -30,7 +30,7 @@ typedef FacebookInfo = {
         line:String,
         area:String,
     },
-    website:String,
+    websites:Array<String>,
     email:String,
     tel:String,
     ig:String,
@@ -235,16 +235,12 @@ class FacebookImporter {
         }
     }
 
-    function fbWebsite() {
+    function fbWebsites() {
         var links:Array<WebElement> = driver.find_elements_by_xpath("//*[@role='main']//a[@rel='noopener nofollow']//*[starts-with(text(),'http')]//ancestor::a");
-        return switch (links) {
-            case []:
-                null;
-            case [link]:
-                link.get_attribute("textContent");
-            case _:
-                throw 'More than 1 website elements? $links';
-        }
+        return if (links.length == 0)
+            null;
+        else
+            links.map(link -> link.get_attribute("textContent"));
     }
 
     public function loginFbIfNeeded() {
@@ -302,7 +298,7 @@ class FacebookImporter {
             about: fbAbout(),
             addr: fbPageAddr(),
             email: fbContactEmail(),
-            website: fbWebsite(),
+            websites: fbWebsites(),
             tel: fbPageTel(),
             ig: fbPageInstagram(),
             hours: fbPageHours(),

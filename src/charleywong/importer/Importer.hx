@@ -194,20 +194,24 @@ class Importer {
         var webpagesExprs = [];
         for (p in entity.webpages)
         {
-            var fields = [];
+            final fields = [];
             var urlExpr = {
                 expr: EConst(CString(p.url)),
                 pos: null,
             };
+            webpagesExprs.push({
+                expr: EObjectDecl(fields),
+                pos: null,
+            });
             switch (macro { url: $urlExpr }) {
-                case { expr: EObjectDecl(fs) }: fields = fields.concat(fs);
+                case { expr: EObjectDecl(fs) }: fs.iter(f -> fields.push(f));
                 case e: throw '$e is not EObjectDecl.';
             }
             if (p.meta != null) {
                 var metas = [for (k => v in p.meta) macro ${{expr:EConst(CString(k)), pos:null}} => ${valueToExpr(v)}];
                 var metaExpr = macro [$a{metas}];
                 switch (macro { meta: $metaExpr }) {
-                    case { expr: EObjectDecl(fs) }: fields = fields.concat(fs);
+                    case { expr: EObjectDecl(fs) }: fs.iter(f -> fields.push(f));
                     case e: throw '$e is not EObjectDecl.';
                 }
             } else {
@@ -233,7 +237,7 @@ class Importer {
                     }
                     var metaExpr = macro [$a{metaExprs}];
                     switch (macro { meta: $metaExpr }) {
-                        case { expr: EObjectDecl(fs) }: fields = fields.concat(fs);
+                        case { expr: EObjectDecl(fs) }: fs.iter(f -> fields.push(f));
                         case e: throw '$e is not EObjectDecl.';
                     }
                     if (fbPage.ig != null && !entity.webpages.exists(p -> p.url == 'https://www.instagram.com/${fbPage.ig}/')) {
@@ -243,10 +247,6 @@ class Importer {
                     }
                 }
             }
-            webpagesExprs.push({
-                expr: EObjectDecl(fields),
-                pos: null,
-            });
         }
         var posts = post == null || entity.posts.exists(p -> p.url == post) ? entity.posts : entity.posts.concat([{ url: post }]);
         var postsExprs = [
@@ -345,10 +345,11 @@ class Importer {
             metaExprs.push(macro "tel" => ${valueToExpr(fbPage.tel)});
         }
         var webpagesExprs = [];
-        if (fbPage.website != null) {
-            webpagesExprs.push(macro {
-                url: ${valueToExpr(fbPage.website)},
-            });
+        if (fbPage.websites != null) {
+            for (url in fbPage.websites)
+                webpagesExprs.push(macro {
+                    url: ${valueToExpr(url)},
+                });
         }
         webpagesExprs.push(macro {
             url: ${valueToExpr('https://www.facebook.com/${fbPage.page}/')},
