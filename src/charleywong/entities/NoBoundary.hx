@@ -7,7 +7,7 @@ class NoBoundary implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "http://www.instagram.com/no.boundary.hk/"
+            url: "https://www.instagram.com/no.boundary.hk/"
         },
         {
             url: "https://www.facebook.com/no.boundary.hk/",

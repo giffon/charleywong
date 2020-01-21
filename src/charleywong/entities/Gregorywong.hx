@@ -1,7 +1,7 @@
 package charleywong.entities;
 
 class Gregorywong implements Entity {
-    public final id = "gregory-wong-王宗堯-260003335677";
+    public final id = "gregory-wong";
     public final name = [
         en => "gregory wong",
         zh => "王宗堯"

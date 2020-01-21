@@ -7,7 +7,7 @@ class Sunkeerestaurant implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "http://www.instagram.com/sunkeerestaurant/"
+            url: "https://www.instagram.com/sunkeerestaurant/"
         },
         {
             url: "https://www.facebook.com/sunkeerestaurant/",

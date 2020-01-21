@@ -1,7 +1,7 @@
 package charleywong.entities;
 
 class KwongWingCatering implements Entity {
-    public final id = "光榮飲食-Kwong-Wing-Catering-116149449769292";
+    public final id = "Kwong-Wing-Catering";
     public final name = [
         zh => "光榮飲食",
         en => "Kwong Wing Catering"
