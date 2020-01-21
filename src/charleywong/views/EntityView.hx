@@ -57,7 +57,10 @@ class EntityView extends View {
         else
             null;
 
-        var item = if (~/^https:\/\/www\.facebook\.com\/[^\/]+\/(?:posts|photos|videos)\/.+$/.match(p.url)) {
+        var item = if (
+            ~/^https:\/\/www\.facebook\.com\/[^\/]+\/(?:posts|photos|videos)\/.+$/.match(p.url) ||
+            ~/https:\/\/www\.facebook.com\/permalink\.php\?story_fbid=[0-9]+&id=[0-9]+/.match(p.url)
+        ) {
             jsx('
                 <div
                     className="fb-post"
