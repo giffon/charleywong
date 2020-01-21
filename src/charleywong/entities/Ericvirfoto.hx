@@ -3,7 +3,8 @@ package charleywong.entities;
 class Ericvirfoto implements Entity {
     public final id = "ericvirfoto";
     public final name = [
-        zh => "山道行者"
+        zh => "情旅攝",
+        en => "Country Rider"
     ];
     public final webpages:Array<WebPage> = [
         {
