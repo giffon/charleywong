@@ -73,7 +73,7 @@ class TestAllEntities extends utest.Test {
         var p = new sys.io.Process("curl", [
             "-sSLf", url,
             "-o", "/dev/null",
-            "--retry", "3",
+            "--retry", "5",
             "-A", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"
         ]);
         var code = p.exitCode();
