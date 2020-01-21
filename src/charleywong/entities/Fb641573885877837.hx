@@ -1,7 +1,7 @@
 package charleywong.entities;
 
 class Fb641573885877837 implements Entity {
-    public final id = "新海濱茶餐廳-641573885877837";
+    public final id = "641573885877837";
     public final name = [
         zh => "新海濱茶餐廳"
     ];

@@ -1,7 +1,7 @@
 package charleywong.entities;
 
 class Civicle implements Entity {
-    public final id = "思域高-Civicle-100165398179519";
+    public final id = "Civicle";
     public final name = [
         zh => "思域高",
         en => "Civicle"
