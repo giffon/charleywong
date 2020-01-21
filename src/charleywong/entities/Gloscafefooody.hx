@@ -23,7 +23,7 @@ class Gloscafefooody implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/gloscafeclub/"
+            url: "https://www.instagram.com/gloscafe_fooody/"
         }
     ];
     public final posts:Array<Post> = [
