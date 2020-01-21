@@ -57,7 +57,7 @@ class EntityView extends View {
         else
             null;
 
-        var item = if (~/^https:\/\/www\.facebook\.com\/.+\/posts\/.+$/.match(p.url)) {
+        var item = if (~/^https:\/\/www\.facebook\.com\/[^\/]+\/(?:posts|photos|videos)\/.+$/.match(p.url)) {
             jsx('
                 <div
                     className="fb-post"
@@ -80,7 +80,7 @@ class EntityView extends View {
         }
 
         return jsx('
-            <div key=${p.url}>
+            <div key=${p.url} className="my-1">
                 ${item}
             </div>
         ');
