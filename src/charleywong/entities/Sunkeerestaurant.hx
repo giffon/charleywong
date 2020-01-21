@@ -7,9 +7,6 @@ class Sunkeerestaurant implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.instagram.com/sunkeerestaurant/"
-        },
-        {
             url: "https://www.facebook.com/sunkeerestaurant/",
             meta: [
                 "about" => "尖沙咀店：九龍金巴利道16-20號香檳大廈商場13號舖\n時間：下午12時30分-晚上12時 電話：27224555\n荃灣店：荃灣海壩街89-93號荃好景大廈地下D舖\n時間：上午11時-晚上12時 電話：26680810",
