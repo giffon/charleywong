@@ -30,8 +30,10 @@ jobs:
         shell: bash
         run: |
           set -ex
-          python3 -m virtualenv -p /usr/bin/python3.7 ~/venv
+          python3 -m virtualenv -p /usr/bin/python3.7 --no-pip ~/venv
           source ~/venv/bin/activate
+          curl -sSLf https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+          python get-pip.py pip==19.3.1
           pip3 install -r requirements.txt
       - name: Install libraries
         run: |
