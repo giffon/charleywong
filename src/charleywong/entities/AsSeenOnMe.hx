@@ -7,7 +7,7 @@ class AsSeenOnMe implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "http://www.instagram.com/asom_closet"
+            url: "https://www.instagram.com/asom_closet/"
         },
         {
             url: "https://www.facebook.com/asomcloset/",
