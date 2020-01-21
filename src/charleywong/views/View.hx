@@ -41,6 +41,13 @@ class View extends ReactComponent {
     function depJs() return jsx('
         <Fragment>
             <script async=${true} defer=${true} crossOrigin="anonymous" src="https://connect.facebook.net/zh_HK/sdk.js#xfbml=1&version=v5.0&appId=628806881259482&autoLogAppEvents=1"></script>
+            <script async=${true} crossOrigin="anonymous" src="//www.instagram.com/embed.js"></script>
+        </Fragment>
+    ');
+
+    function footJs() return jsx('
+        <Fragment>
+            <script async=${true} src="//www.instagram.com/embed.js"></script>
         </Fragment>
     ');
 
@@ -90,6 +97,7 @@ class View extends ReactComponent {
                 <p>Charley Wong 和你查嘅<a href="https://github.com/giffon/charleywong" target="_blank">源碼</a>以 <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL-3.0-or-later</a> 發佈。</p>
                 <p>Charley Wong 和你查嘅數據以 <a href="http://opendatacommons.org/licenses/odbl/1.0/" target="_blank">ODbL-1.0</a> 發佈。</p>
             </footer>
+            ${footJs()}
         </body>
     ');
 

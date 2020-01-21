@@ -73,6 +73,18 @@ class EntityView extends View {
                     </blockquote>
                 </div>
             ');
+        } else if (
+            p.url.startsWith("https://www.instagram.com/p/")
+        ) {
+            jsx('
+                <blockquote className="instagram-media"
+                    data-instgrm-permalink=${p.url}
+                    data-instgrm-version="12"
+                >
+                    <a href=${p.url} target="_blank">${p.url}</a>
+                    ${summary}
+                </blockquote>
+            ');
         } else {
             jsx('
                 <div>
