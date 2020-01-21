@@ -20,7 +20,7 @@ class SugarBro implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/SUGARBRO+HK/"
+            url: "https://www.instagram.com/SUGARBROHK/"
         }
     ];
     public final posts:Array<Post> = [
