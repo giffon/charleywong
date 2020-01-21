@@ -1,6 +1,6 @@
 package charleywong;
 
-import haxe.Json;
+import haxe.*;
 import charleywong.views.*;
 import js.npm.express.*;
 import js.Node.*;
@@ -112,6 +112,10 @@ class ServerMain {
                 next();
             }
         });
+
+        var cache = require("apicache").middleware;
+        app.use(cache('1 hour'));
+
         app.get("/", index);
         app.get("/list/all.json", allJson);
         app.get("/list/all", all);
