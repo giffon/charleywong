@@ -74,6 +74,7 @@ class TestAllEntities extends utest.Test {
             "-sSLf", url,
             "-o", "/dev/null",
             "--retry", "5",
+            "--http1.0",
             "-A", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"
         ]);
         var code = p.exitCode();
