@@ -9,7 +9,7 @@ class Index extends View {
     }
 
     static public function searchForm(query:String) return jsx('
-        <form>
+        <form action="/">
             <input type="text" name="search" placeholder="搜尋" required=${true} defaultValue=${query} />
             <input type="submit" value="🔎" />
         </form>
