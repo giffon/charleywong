@@ -25,9 +25,28 @@ class EntityView extends View {
         else
             p.url;
 
+        var item = if (p.url.startsWith("https://www.facebook.com/")) {
+            jsx('
+                <Fragment>
+                    <a href=${p.url} target="_blank">${linktext}</a>
+                    <div
+                        className="fb-like ml-1"
+                        data-href=${p.url}
+                        data-width=""
+                        data-layout="button_count"
+                        data-action="like"
+                        data-size="small"
+                        data-share="false">
+                    </div>
+                </Fragment>
+            ');
+        } else {
+            jsx('<a href=${p.url} target="_blank">${linktext}</a>');
+        }
+
         return jsx('
-            <div key=${p.url}>
-                <a href=${p.url} target="_blank">${linktext}</a>
+            <div key=${p.url} className="webpage my-1">
+                ${item}
             </div>
         ');
     }
@@ -38,10 +57,31 @@ class EntityView extends View {
         else
             null;
 
+        var item = if (~/^https:\/\/www\.facebook\.com\/.+\/posts\/.+$/.match(p.url)) {
+            jsx('
+                <div
+                    className="fb-post"
+                    data-href=${p.url}
+                    data-show-text="true"
+                >
+                    <blockquote cite=${p.url} className="fb-xfbml-parse-ignore">
+                        <a href=${p.url} target="_blank">${p.url}</a>
+                        ${summary}
+                    </blockquote>
+                </div>
+            ');
+        } else {
+            jsx('
+                <div>
+                    <a href=${p.url} target="_blank">${p.url}</a>
+                    ${summary}
+                </div>
+            ');
+        }
+
         return jsx('
             <div key=${p.url}>
-                <a href=${p.url} target="_blank">${p.url}</a>
-                ${summary}
+                ${item}
             </div>
         ');
     }
