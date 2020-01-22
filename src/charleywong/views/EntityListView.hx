@@ -44,6 +44,7 @@ class EntityListView extends View {
                     <h1>${listName}</h1>
                     <a href=${jsonHref}>JSON 格式</a>
                 </div>
+                <p>共有 ${entities.length} 項資料</p>
                 <div>${entities.map(renderEntity)}</div>
             </Fragment>
         ');
