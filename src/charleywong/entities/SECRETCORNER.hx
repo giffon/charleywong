@@ -15,7 +15,8 @@ class SECRETCORNER implements Entity {
                 ],
                 "addr" => "禮頓道77號禮頓中心G07地舖",
                 "area" => "Hong Kong",
-                "tel" => "28811381"
+                "tel" => "28811381",
+                "id" => "221318276853"
             ]
         }
     ];

@@ -12,7 +12,8 @@ class MountainsarecallingKATA implements Entity {
                 "about" => "討厭路跑，愛上山。\n討厭體能訓練，需要力量。",
                 "categories" => [
                     "Personal blog"
-                ]
+                ],
+                "id" => "1726838877372450"
             ]
         }
     ];

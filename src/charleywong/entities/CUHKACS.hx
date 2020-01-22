@@ -14,7 +14,8 @@ class CUHKACS implements Entity {
                 "categories" => [
                     "Community"
                 ],
-                "email" => "cuacs24@gmail.com"
+                "email" => "cuacs24@gmail.com",
+                "id" => "484590294901499"
             ]
         }
     ];

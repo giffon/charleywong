@@ -19,7 +19,8 @@ class Catseyeworkshop implements Entity {
                 "addr" => "北角和富道74-82號仁寶閣閣樓 B室",
                 "area" => "Hong Kong",
                 "email" => "catseyeworkshop@gmail.com",
-                "tel" => "95809580"
+                "tel" => "95809580",
+                "id" => "1600768490198279"
             ]
         },
         {

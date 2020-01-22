@@ -16,7 +16,8 @@ class BYOBCoffeeRoaster implements Entity {
                 ],
                 "addr" => "虹橋青桃徑5號文翔大厦2A地下",
                 "area" => "Tuen Mun",
-                "tel" => "23001163"
+                "tel" => "23001163",
+                "id" => "1435724499817417"
             ]
         }
     ];

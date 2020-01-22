@@ -14,7 +14,8 @@ class Giantstiedye implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "giantstiedye@gmail.com"
+                "email" => "giantstiedye@gmail.com",
+                "id" => "884321768271017"
             ]
         },
         {

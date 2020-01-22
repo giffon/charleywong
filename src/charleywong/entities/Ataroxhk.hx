@@ -13,7 +13,8 @@ class Ataroxhk implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "email" => "atarox.info@gmail.com"
+                "email" => "atarox.info@gmail.com",
+                "id" => "346751999168181"
             ]
         },
         {

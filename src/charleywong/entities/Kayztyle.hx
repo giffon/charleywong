@@ -14,7 +14,8 @@ class Kayztyle implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "email" => "kayztyle@gmail.com"
+                "email" => "kayztyle@gmail.com",
+                "id" => "352604204774634"
             ]
         },
         {

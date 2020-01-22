@@ -15,7 +15,8 @@ class OneTenthCoffee implements Entity {
                 ],
                 "addr" => "Flat 510 , 5/F ., Premier Centre , 20 Cheung Shun Street",
                 "area" => "Lai Chi Kok",
-                "email" => "info@onetenthcoffee.net"
+                "email" => "info@onetenthcoffee.net",
+                "id" => "2197345413810493"
             ]
         }
     ];

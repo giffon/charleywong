@@ -12,7 +12,8 @@ class Oneplusonef implements Entity {
                 "about" => "no matter how small you think it is. believe in good.",
                 "categories" => [
                     "Product/service"
-                ]
+                ],
+                "id" => "933310303521695"
             ]
         },
         {

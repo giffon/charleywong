@@ -16,7 +16,8 @@ class Seonsewinghandmade implements Entity {
                     "Sewing and alterations"
                 ],
                 "email" => "seonsewinghandmade@gmail.com",
-                "tel" => "61143255"
+                "tel" => "61143255",
+                "id" => "1499355830388724"
             ]
         }
     ];

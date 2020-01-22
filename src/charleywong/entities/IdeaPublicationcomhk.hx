@@ -15,7 +15,8 @@ class IdeaPublicationcomhk implements Entity {
                     "Media/news company"
                 ],
                 "email" => "info@idea-publication.com",
-                "tel" => "23898311"
+                "tel" => "23898311",
+                "id" => "342117395918437"
             ]
         }
     ];

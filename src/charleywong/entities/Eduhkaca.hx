@@ -13,7 +13,8 @@ class Eduhkaca implements Entity {
                 "about" => "The EdUHK 8th Animation and Comics Association (ACA) - AniToxic\n香港教育大學學生會屬會第八屆動漫學會 漫性中毒AniToxic",
                 "categories" => [
                     "Community"
-                ]
+                ],
+                "id" => "280897418724924"
             ]
         }
     ];

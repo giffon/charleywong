@@ -13,7 +13,8 @@ class Lovesomething implements Entity {
                 "categories" => [
                     "Cause"
                 ],
-                "email" => "lovesomethingart@gmail.com"
+                "email" => "lovesomethingart@gmail.com",
+                "id" => "126561184024057"
             ]
         }
     ];

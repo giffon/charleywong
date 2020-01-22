@@ -13,7 +13,8 @@ class Tomoondiycomputer implements Entity {
                 "about" => "提供專業砌機服務。",
                 "categories" => [
                     "Computer company"
-                ]
+                ],
+                "id" => "1887836088110905"
             ]
         }
     ];

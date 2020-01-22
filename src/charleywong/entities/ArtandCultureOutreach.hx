@@ -19,7 +19,8 @@ class ArtandCultureOutreach implements Entity {
                 "addr" => "灣仔軒尼詩道365-367號富德樓14樓",
                 "area" => "Hong Kong",
                 "email" => "hello@aco.hk",
-                "tel" => "28934808"
+                "tel" => "28934808",
+                "id" => "200884106605825"
             ]
         },
         {

@@ -15,7 +15,8 @@ class CeliaCeleste implements Entity {
                 ],
                 "addr" => "香港葵涌廣場三樓時尚坊38號",
                 "area" => "Hong Kong",
-                "email" => "celia9452@hotmail.com"
+                "email" => "celia9452@hotmail.com",
+                "id" => "291700884303768"
             ]
         }
     ];

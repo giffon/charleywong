@@ -12,7 +12,8 @@ class Shanunithk implements Entity {
                 "about" => "山UNIT , 記錄我們遊玩過的。\n\n山, 在山上看見的, 遇到的, 遺忘的, 還記得的。\nUNIT , 是單位, 是組合, 是個人, 也可以是群體。",
                 "categories" => [
                     "Personal blog"
-                ]
+                ],
+                "id" => "392739574660679"
             ]
         }
     ];

@@ -17,7 +17,8 @@ class Amateurcraftsman implements Entity {
                 ],
                 "addr" => "香港灣仔軒尼詩道321號益華大廈閣樓掏陶工作室",
                 "area" => "Hong Kong",
-                "tel" => "98061179"
+                "tel" => "98061179",
+                "id" => "169872726481011"
             ]
         }
     ];

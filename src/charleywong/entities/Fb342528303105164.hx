@@ -15,7 +15,8 @@ class Fb342528303105164 implements Entity {
                 "addr" => "櫸樹街52號",
                 "area" => "Hong Kong",
                 "email" => "banhmichung@gmail.com",
-                "tel" => "35905561"
+                "tel" => "35905561",
+                "id" => "342528303105164"
             ]
         }
     ];
@@ -31,3 +32,4 @@ class Fb342528303105164 implements Entity {
         }
     ];
 }
+

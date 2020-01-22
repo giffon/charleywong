@@ -12,7 +12,8 @@ class FoamBeerBrewery implements Entity {
                 "categories" => [
                     "Brewery"
                 ],
-                "email" => "foambeerbrewery@gmail.com"
+                "email" => "foambeerbrewery@gmail.com",
+                "id" => "943412225682824"
             ]
         }
     ];

@@ -18,7 +18,8 @@ class PaperRenaissance implements Entity {
                 "addr" => "官塘成業街16號怡生工業中心A座5樓517室",
                 "area" => "Kwun Tong",
                 "email" => "paper.renaissance@gmail.com",
-                "tel" => "98302337"
+                "tel" => "98302337",
+                "id" => "419001164863979"
             ]
         }
     ];

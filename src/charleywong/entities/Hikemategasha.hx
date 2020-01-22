@@ -15,7 +15,8 @@ class Hikemategasha implements Entity {
                     "Personal blog",
                     "Sport & recreation"
                 ],
-                "email" => "hikemate.gasha@gmail.com"
+                "email" => "hikemate.gasha@gmail.com",
+                "id" => "246225075738569"
             ]
         },
         {

@@ -11,7 +11,8 @@ class Tommyekids implements Entity {
             meta: [
                 "categories" => [
                     "Public figure"
-                ]
+                ],
+                "id" => "802472909813345"
             ]
         }
     ];

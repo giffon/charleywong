@@ -13,7 +13,8 @@ class Fieldmarkethk implements Entity {
                 "categories" => [
                     "Community"
                 ],
-                "tel" => "63109069"
+                "tel" => "63109069",
+                "id" => "312052972481971"
             ]
         },
         {

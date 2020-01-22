@@ -8,13 +8,14 @@ class OccuFocus implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/職療同行-OccuFocus-1942788249282602/",
+            url: "https://www.facebook.com/1942788249282602/",
             meta: [
                 "about" => "我們是一班關心香港社會的職業治療師，我們希望藉此平台推動更好的社會環境，包括\n- 公平及公義的民主社會\n- 可持續的社會發展\n- 醫療政策的改革\n- 市民的身心靈發展",
                 "categories" => [
                     "Community organisation"
                 ],
-                "email" => "occufocus@gmail.com"
+                "email" => "occufocus@gmail.com",
+                "id" => "1942788249282602"
             ]
         }
     ];

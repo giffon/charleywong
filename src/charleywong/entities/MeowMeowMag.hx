@@ -13,7 +13,8 @@ class MeowMeowMag implements Entity {
                 "categories" => [
                     "Arts & humanities website"
                 ],
-                "email" => "meow@meowmeowmag.com"
+                "email" => "meow@meowmeowmag.com",
+                "id" => "507386412649429"
             ]
         },
         {

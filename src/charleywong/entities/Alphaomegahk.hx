@@ -16,7 +16,8 @@ class Alphaomegahk implements Entity {
                 "addr" => "九龍大角咀合桃街1號福昌工廠大廈1樓B08室",
                 "area" => "Hong Kong",
                 "email" => "alphaomegahkshop@gmail.com",
-                "tel" => "92283858"
+                "tel" => "92283858",
+                "id" => "982839688399921"
             ]
         }
     ];

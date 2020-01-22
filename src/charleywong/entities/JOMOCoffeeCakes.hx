@@ -17,7 +17,8 @@ class JOMOCoffeeCakes implements Entity {
                 "addr" => "No 4,Water Street, Sai Ying Pun",
                 "area" => "Hong Kong",
                 "email" => "jomocnc@gmail.com",
-                "tel" => "27620258"
+                "tel" => "27620258",
+                "id" => "310702119758741"
             ]
         },
         {

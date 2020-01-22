@@ -18,7 +18,8 @@ class Haven17 implements Entity {
                 "addr" => "灣仔麥加力歌街17號地下",
                 "area" => "Hong Kong",
                 "email" => "17haven@gmail.com",
-                "tel" => "28913710"
+                "tel" => "28913710",
+                "id" => "1374525949462584"
             ]
         }
     ];

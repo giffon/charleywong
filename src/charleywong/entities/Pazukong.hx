@@ -13,7 +13,8 @@ class Pazukong implements Entity {
                 "about" => "Pazu薯伯伯，旅遊寫作人。",
                 "categories" => [
                     "Writer"
-                ]
+                ],
+                "id" => "2007814566118012"
             ]
         },
         {

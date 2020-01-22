@@ -17,7 +17,8 @@ class KaCaMaDesignLab implements Entity {
                 ],
                 "addr" => "土瓜灣落山道108號志昌工業大廈8樓F2室 F-2, 8/F , Gee Chang Industrial Building, No. 108 Lok Shan Road, To Kwa Wan, Kowloon",
                 "area" => "Hong Kong",
-                "email" => "info@kacama.hk"
+                "email" => "info@kacama.hk",
+                "id" => "207267635979922"
             ]
         },
         {

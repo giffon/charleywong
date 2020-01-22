@@ -13,7 +13,8 @@ class UnaDesignStore implements Entity {
                 "categories" => [
                     "Arts and crafts shop"
                 ],
-                "email" => "unadesign.store@gmail.com"
+                "email" => "unadesign.store@gmail.com",
+                "id" => "1734758320172799"
             ]
         },
         {

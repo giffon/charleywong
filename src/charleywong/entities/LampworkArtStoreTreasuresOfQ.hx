@@ -18,7 +18,8 @@ class LampworkArtStoreTreasuresOfQ implements Entity {
                 "addr" => "葵定路42號金豐工業大廈2座17樓T室",
                 "area" => "Hong Kong",
                 "email" => "treasuresofq@gmail.com",
-                "tel" => "61896095"
+                "tel" => "61896095",
+                "id" => "1375679075856985"
             ]
         }
     ];

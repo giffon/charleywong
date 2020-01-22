@@ -16,7 +16,8 @@ class LittleDreamEmbroidery implements Entity {
                     "Art",
                     "Arts and crafts shop"
                 ],
-                "email" => "dreamalittledream.hk@gmail.com"
+                "email" => "dreamalittledream.hk@gmail.com",
+                "id" => "1784331245225016"
             ]
         }
     ];

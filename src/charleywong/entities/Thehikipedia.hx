@@ -16,7 +16,8 @@ class Thehikipedia implements Entity {
                     "Local & travel website",
                     "Sport team"
                 ],
-                "email" => "hikipedia.hk@gmail.com"
+                "email" => "hikipedia.hk@gmail.com",
+                "id" => "736461703177665"
             ]
         }
     ];

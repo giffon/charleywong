@@ -16,7 +16,8 @@ class SugarBro implements Entity {
                 "categories" => [
                     "Musician/band"
                 ],
-                "email" => "sugarbromusic@gmail.com"
+                "email" => "sugarbromusic@gmail.com",
+                "id" => "120790328082047"
             ]
         },
         {

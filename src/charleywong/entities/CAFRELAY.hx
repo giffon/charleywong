@@ -16,7 +16,8 @@ class CAFRELAY implements Entity {
                 "addr" => "G/F., No. 3 Ming Yan Lane, Tai Wong Street East, Wan Chai",
                 "area" => "Hong Kong",
                 "email" => "caferelay@gmail.com",
-                "tel" => "28276366"
+                "tel" => "28276366",
+                "id" => "994300107337460"
             ]
         }
     ];

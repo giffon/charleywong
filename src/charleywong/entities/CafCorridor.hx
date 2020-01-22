@@ -16,7 +16,8 @@ class CafCorridor implements Entity {
                 "addr" => "G/F, 26A Russell Street, Causeway Bay",
                 "area" => "Causeway Bay",
                 "email" => "info@cafecorridor.hk",
-                "tel" => "28922927"
+                "tel" => "28922927",
+                "id" => "185341221498643"
             ]
         }
     ];

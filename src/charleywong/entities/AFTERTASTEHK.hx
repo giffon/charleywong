@@ -14,7 +14,8 @@ class AFTERTASTEHK implements Entity {
                 ],
                 "addr" => "西營盤西邊街21號",
                 "area" => "Hong Kong",
-                "email" => "aftertaste168@gmail.com"
+                "email" => "aftertaste168@gmail.com",
+                "id" => "2108290669239508"
             ]
         }
     ];

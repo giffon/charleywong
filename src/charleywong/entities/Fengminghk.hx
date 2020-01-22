@@ -15,7 +15,8 @@ class Fengminghk implements Entity {
                     "Breakfast & brunch restaurant",
                     "Deli"
                 ],
-                "tel" => "24886928"
+                "tel" => "24886928",
+                "id" => "741014472934263"
             ]
         }
     ];

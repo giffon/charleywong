@@ -7,13 +7,14 @@ class CCPOT implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/CCPOT-836406806719296/",
+            url: "https://www.facebook.com/836406806719296/",
             meta: [
                 "about" => "Handmade pot bag\nOriginal 100% design by C.C.POT",
                 "categories" => [
                     "Shopping & retail"
                 ],
-                "email" => "ccpothk@gmail.com"
+                "email" => "ccpothk@gmail.com",
+                "id" => "836406806719296"
             ]
         },
         {

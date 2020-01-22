@@ -16,7 +16,8 @@ class Yummycornerhk implements Entity {
                 ],
                 "addr" => "葵芳葵富路7號葵涌廣場3樓Top世界T23-T25號舖",
                 "area" => "Hong Kong",
-                "email" => "yummycorner926@gmail.com"
+                "email" => "yummycorner926@gmail.com",
+                "id" => "2134206826596542"
             ]
         }
     ];

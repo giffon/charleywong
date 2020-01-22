@@ -16,7 +16,8 @@ class Hkdoujinforum implements Entity {
                     "Art",
                     "Community"
                 ],
-                "email" => "news@hkdoujin.com"
+                "email" => "news@hkdoujin.com",
+                "id" => "378946402236930"
             ]
         }
     ];

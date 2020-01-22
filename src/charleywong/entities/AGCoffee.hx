@@ -16,7 +16,8 @@ class AGCoffee implements Entity {
                     "Theme restaurant"
                 ],
                 "addr" => "G/F Cheerful Court , 55 Choi Ha Road",
-                "area" => "Ngau Tau Kok"
+                "area" => "Ngau Tau Kok",
+                "id" => "1708713475851284"
             ]
         }
     ];

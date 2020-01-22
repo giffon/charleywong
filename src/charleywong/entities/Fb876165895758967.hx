@@ -7,12 +7,13 @@ class Fb876165895758967 implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/放射良心-876165895758967/",
+            url: "https://www.facebook.com/876165895758967/",
             meta: [
                 "about" => "堅持憑良心說真話，守護香港醫療系統及市民的健康。",
                 "categories" => [
                     "Community"
-                ]
+                ],
+                "id" => "876165895758967"
             ]
         }
     ];

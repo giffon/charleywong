@@ -19,7 +19,8 @@ class Gloscafefooody implements Entity {
                 "addr" => "Flat 3, G/F, Leader Industrial Centre, 57-59, Au Pui Wan Street, Fo Tan, Shatin",
                 "area" => "Hong Kong",
                 "email" => "fooodyhk@gmail.com",
-                "tel" => "35860863"
+                "tel" => "35860863",
+                "id" => "1434589716758125"
             ]
         },
         {

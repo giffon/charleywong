@@ -18,7 +18,8 @@ class BlacksmithStore implements Entity {
                 "addr" => "No.17, See Cheung Street , Sai Kung , NT",
                 "area" => "Sai Kung",
                 "email" => "blacksmithcoffeeshop@gmail.com",
-                "tel" => "23530039"
+                "tel" => "23530039",
+                "id" => "724310931050290"
             ]
         }
     ];

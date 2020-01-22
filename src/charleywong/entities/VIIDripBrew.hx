@@ -16,7 +16,8 @@ class VIIDripBrew implements Entity {
                 "addr" => "G/f TLP132 , No.132-134 ,Tai Lin Pai Rd.Kwai Chung. N.T",
                 "area" => "Hong Kong",
                 "email" => "viidripbrew@gmail.com",
-                "tel" => "57037134"
+                "tel" => "57037134",
+                "id" => "208484542969451"
             ]
         }
     ];

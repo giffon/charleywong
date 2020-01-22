@@ -19,7 +19,8 @@ class GreenupBeauty implements Entity {
                 ],
                 "addr" => "尖沙咀加拿芬道41-43號Solo Building 8樓801-802",
                 "area" => "Kowloon, Hong Kong",
-                "email" => "greenupbeauty@outlook.com"
+                "email" => "greenupbeauty@outlook.com",
+                "id" => "138183733269132"
             ]
         }
     ];

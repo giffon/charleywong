@@ -17,7 +17,8 @@ class Backpacker implements Entity {
                 "addr" => "香港旺角山東街47-51號中僑商業大廈16樓4號舖 (瓊華中心旁)",
                 "area" => "Mong Kok",
                 "email" => "info@backpacker-outdoor.com.hk",
-                "tel" => "66757254"
+                "tel" => "66757254",
+                "id" => "1388737378012936"
             ]
         }
     ];

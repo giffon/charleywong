@@ -17,7 +17,8 @@ class Coffee implements Entity {
                 ],
                 "addr" => "Shop F, 1 Queen Street, Sheung Wan",
                 "area" => "Hong Kong",
-                "email" => "coffeeand.hk@gmail.com"
+                "email" => "coffeeand.hk@gmail.com",
+                "id" => "149782958993672"
             ]
         }
     ];

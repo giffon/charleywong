@@ -16,7 +16,8 @@ class CAVEBeerPoint implements Entity {
                 ],
                 "addr" => "G/F, 116 Broadway, Mei Foo, Kowloon 九龍美孚百老匯街116號地下",
                 "area" => "Kowloon, Hong Kong",
-                "email" => "main.cavebeer@gmail.com"
+                "email" => "main.cavebeer@gmail.com",
+                "id" => "678799468886607"
             ]
         }
     ];

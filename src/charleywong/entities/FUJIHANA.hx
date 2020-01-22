@@ -12,7 +12,8 @@ class FUJIHANA implements Entity {
                 "about" => "Doing What You Love\nHandmade|Design\n�寄賣...\n\n\n\nSee more",
                 "categories" => [
                     "Product/service"
-                ]
+                ],
+                "id" => "423296297875249"
             ]
         }
     ];

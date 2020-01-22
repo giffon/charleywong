@@ -17,7 +17,8 @@ class NToysHK implements Entity {
                 "addr" => "旺角百寶利商業中心1809",
                 "area" => "Hong Kong",
                 "email" => "toys.naughty@yahoo.com.hk",
-                "tel" => "63309535"
+                "tel" => "63309535",
+                "id" => "371204816694269"
             ]
         },
         {

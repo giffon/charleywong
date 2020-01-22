@@ -17,7 +17,8 @@ class CanakBridalStudio implements Entity {
                 "addr" => "Unit A6, F/8, Manning Industrial Building, 116-118 How Ming St",
                 "area" => "Kwun Tong",
                 "email" => "canakbridal@gmail.com",
-                "tel" => "68730244"
+                "tel" => "68730244",
+                "id" => "866417433751852"
             ]
         }
     ];

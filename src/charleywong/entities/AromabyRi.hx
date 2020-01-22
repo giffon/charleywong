@@ -15,7 +15,8 @@ class AromabyRi implements Entity {
                     "Shopping & retail"
                 ],
                 "email" => "aromabyri@gmail.com",
-                "tel" => "60948218"
+                "tel" => "60948218",
+                "id" => "101309591267752"
             ]
         },
         {

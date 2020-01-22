@@ -12,7 +12,8 @@ class MARSMARY implements Entity {
                 "about" => "a girl from Mars\nan illustrator.",
                 "categories" => [
                     "Artist"
-                ]
+                ],
+                "id" => "228306900633881"
             ]
         }
     ];

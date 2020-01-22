@@ -14,7 +14,8 @@ class PaperhoodHK implements Entity {
                     "Retail company",
                     "Product/service"
                 ],
-                "email" => "paperhoodhk@gmail.com"
+                "email" => "paperhoodhk@gmail.com",
+                "id" => "1657120921205123"
             ]
         }
     ];

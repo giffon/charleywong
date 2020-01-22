@@ -12,7 +12,8 @@ class Mizuland implements Entity {
                 "about" => "某天對刺繡的印象被癲覆了，鴛鴦牡丹以外的世界大得很。\n經過各種掙扎後嘗試拿起針線，不知不覺就陷進去。\n手鞠與刺繡。\n\n有興趣可以去Instagram： mizuland 看看！",
                 "categories" => [
                     "Company"
-                ]
+                ],
+                "id" => "149219908559281"
             ]
         }
     ];

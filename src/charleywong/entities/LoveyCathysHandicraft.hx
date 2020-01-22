@@ -13,7 +13,8 @@ class LoveyCathysHandicraft implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "loveycathy@gmail.com"
+                "email" => "loveycathy@gmail.com",
+                "id" => "127149733989939"
             ]
         }
     ];

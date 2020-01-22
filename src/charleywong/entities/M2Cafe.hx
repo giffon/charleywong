@@ -16,7 +16,8 @@ class M2Cafe implements Entity {
                 ],
                 "addr" => "香港銅鑼灣景隆街3號2樓",
                 "area" => "Causeway Bay",
-                "tel" => "28387662"
+                "tel" => "28387662",
+                "id" => "591462627565333"
             ]
         }
     ];

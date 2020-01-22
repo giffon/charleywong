@@ -13,7 +13,8 @@ class Luckwinbooks implements Entity {
                 "categories" => [
                     "Book shop"
                 ],
-                "email" => "luckwinbooks@gmail.com"
+                "email" => "luckwinbooks@gmail.com",
+                "id" => "1548511912060938"
             ]
         },
         {
@@ -26,7 +27,8 @@ class Luckwinbooks implements Entity {
                 ],
                 "addr" => "旺角西洋菜街62號三樓",
                 "area" => "Hong Kong",
-                "email" => "luckwinbooks@gmail.com"
+                "email" => "luckwinbooks@gmail.com",
+                "id" => "118481291500326"
             ]
         }
     ];

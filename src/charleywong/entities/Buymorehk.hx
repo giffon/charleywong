@@ -21,7 +21,8 @@ class Buymorehk implements Entity {
                 "addr" => "香港灣仔軒尼詩道298 號 298電腦特區UG 158號鋪",
                 "area" => "Hong Kong",
                 "email" => "ask@buymore.hk",
-                "tel" => "21173773"
+                "tel" => "21173773",
+                "id" => "141876935852662"
             ]
         }
     ];

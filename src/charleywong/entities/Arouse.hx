@@ -15,7 +15,8 @@ class Arouse implements Entity {
                     "Arts and crafts shop",
                     "Home decor"
                 ],
-                "email" => "arousehk@gmail.com"
+                "email" => "arousehk@gmail.com",
+                "id" => "102448174533070"
             ]
         }
     ];

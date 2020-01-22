@@ -15,7 +15,8 @@ class Grandpamelon implements Entity {
                 ],
                 "addr" => "太子界限街12號A地鋪",
                 "area" => "Hong Kong",
-                "tel" => "92007163"
+                "tel" => "92007163",
+                "id" => "100590934723061"
             ]
         }
     ];

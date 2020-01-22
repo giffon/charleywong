@@ -13,7 +13,8 @@ class KayWong implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "kaywong@mail.com"
+                "email" => "kaywong@mail.com",
+                "id" => "309427366424418"
             ]
         },
         {

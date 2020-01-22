@@ -13,7 +13,8 @@ class Hopehandmade implements Entity {
                 "categories" => [
                     "Arts and crafts shop"
                 ],
-                "tel" => "63545389"
+                "tel" => "63545389",
+                "id" => "530969480414902"
             ]
         }
     ];

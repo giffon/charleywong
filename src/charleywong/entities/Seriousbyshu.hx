@@ -16,7 +16,8 @@ class Seriousbyshu implements Entity {
                 "addr" => "葵涌青山公路303號iplace 16樓17室",
                 "area" => "Hong Kong",
                 "email" => "shu224@hotmail.com",
-                "tel" => "95372796"
+                "tel" => "95372796",
+                "id" => "305375612969750"
             ]
         }
     ];

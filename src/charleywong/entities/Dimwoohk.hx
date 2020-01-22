@@ -15,7 +15,8 @@ class Dimwoohk implements Entity {
                     "Buffet restaurant",
                     "Hot pot restaurant"
                 ],
-                "tel" => "62010077"
+                "tel" => "62010077",
+                "id" => "847668202258287"
             ]
         }
     ];

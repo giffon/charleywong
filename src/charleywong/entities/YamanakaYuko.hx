@@ -13,7 +13,8 @@ class YamanakaYuko implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "shanchungyauchi@gmail.com"
+                "email" => "shanchungyauchi@gmail.com",
+                "id" => "215119718572501"
             ]
         },
         {

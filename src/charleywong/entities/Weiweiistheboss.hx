@@ -12,7 +12,8 @@ class Weiweiistheboss implements Entity {
                 "about" => "威威：「奴才，你快啲開間店畀我做店長。」\n奴才：「...」\n威威：「個店名同Logo我要高調得嚟帶點低調呀唔該！」\n奴才：「...」",
                 "categories" => [
                     "Community"
-                ]
+                ],
+                "id" => "882587401936524"
             ]
         },
         {

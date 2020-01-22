@@ -16,7 +16,8 @@ class TheCorner implements Entity {
                 "addr" => "G/F, Hong Kong Arts Centre, 2 Harbour Road, Wan Chai",
                 "area" => "Hong Kong",
                 "email" => "shek@punchycoffee.com",
-                "tel" => "65643143"
+                "tel" => "65643143",
+                "id" => "315972698838119"
             ]
         }
     ];

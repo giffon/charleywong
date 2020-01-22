@@ -13,7 +13,8 @@ class Bagelbaggo implements Entity {
                 "about" => "⚪️Made in Hong Kong | 100%本土手作\n⚪️Available in Pinkoi | 新進駐亞洲大型手作平台\n⚪️Ship Worldwide | 全球配送",
                 "categories" => [
                     "Website"
-                ]
+                ],
+                "id" => "508618516012793"
             ]
         }
     ];

@@ -17,7 +17,8 @@ class WFlowerShop implements Entity {
                 "addr" => "Koon Wah Mirror Factory 3rd Bldg 5-9 Ka Hing Road",
                 "area" => "Kwai Chung",
                 "email" => "w.flowershop@gmail.com",
-                "tel" => "91927303"
+                "tel" => "91927303",
+                "id" => "445433225597822"
             ]
         },
         {

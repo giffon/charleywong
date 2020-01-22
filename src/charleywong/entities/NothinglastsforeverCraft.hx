@@ -13,7 +13,8 @@ class NothinglastsforeverCraft implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "email" => "nothinglastsforever.craft@gmail.com"
+                "email" => "nothinglastsforever.craft@gmail.com",
+                "id" => "132119116888720"
             ]
         },
         {

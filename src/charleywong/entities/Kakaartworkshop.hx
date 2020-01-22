@@ -16,7 +16,8 @@ class Kakaartworkshop implements Entity {
                 ],
                 "addr" => "九龍觀塘興業街12號永泰中心7樓A18室",
                 "area" => "Kowloon Bay, Hong Kong",
-                "email" => "info@kaka-arttherapy.org"
+                "email" => "info@kaka-arttherapy.org",
+                "id" => "326515034102474"
             ]
         }
     ];

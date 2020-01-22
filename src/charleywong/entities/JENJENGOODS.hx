@@ -14,7 +14,8 @@ class JENJENGOODS implements Entity {
                     "Product/service"
                 ],
                 "email" => "cs@jenjengoods.com",
-                "tel" => "60362484"
+                "tel" => "60362484",
+                "id" => "318380865662216"
             ]
         }
     ];

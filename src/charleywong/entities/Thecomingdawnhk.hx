@@ -18,7 +18,8 @@ class Thecomingdawnhk implements Entity {
                     "Product/service",
                     "Housing assistance service"
                 ],
-                "email" => "thecomingdawnhk@gmail.com"
+                "email" => "thecomingdawnhk@gmail.com",
+                "id" => "100826918098945"
             ]
         }
     ];

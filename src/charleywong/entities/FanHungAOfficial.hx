@@ -15,7 +15,8 @@ class FanHungAOfficial implements Entity {
                     "Band",
                     "Musician"
                 ],
-                "email" => "fanhunga@gmail.com"
+                "email" => "fanhunga@gmail.com",
+                "id" => "436185656744098"
             ]
         },
         {

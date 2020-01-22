@@ -16,7 +16,8 @@ class Zoogenic implements Entity {
                     "Designer"
                 ],
                 "email" => "z.zoogenic@gmail.com",
-                "tel" => "61946808"
+                "tel" => "61946808",
+                "id" => "1041188412706693"
             ]
         },
         {

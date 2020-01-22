@@ -15,7 +15,8 @@ class LizCoffee implements Entity {
                     "Restaurant"
                 ],
                 "email" => "hklizcoffee@gmail.com",
-                "tel" => "55409715"
+                "tel" => "55409715",
+                "id" => "274832076449973"
             ]
         }
     ];

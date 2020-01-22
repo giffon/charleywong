@@ -17,7 +17,8 @@ class CoffeebyZion implements Entity {
                 "addr" => "Shop 1, Chun King Court, 83 First Street",
                 "area" => "Sai Ying Pun",
                 "email" => "coffeebyzion@gmail.com",
-                "tel" => "28571838"
+                "tel" => "28571838",
+                "id" => "1024516687674493"
             ]
         }
     ];

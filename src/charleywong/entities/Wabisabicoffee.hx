@@ -18,7 +18,8 @@ class Wabisabicoffee implements Entity {
                 "addr" => "Unit C 4/F., Everest Industrial Centre, 396 Kwun Tong Road",
                 "area" => "Kwun Tong",
                 "email" => "wabisabicoffee2015@gmail.com",
-                "tel" => "25111929"
+                "tel" => "25111929",
+                "id" => "896367740431998"
             ]
         },
         {

@@ -15,7 +15,8 @@ class DirtyWings implements Entity {
                     "Arts and crafts shop",
                     "Pet supplies"
                 ],
-                "email" => "dirtywingscrafts@gmail.com"
+                "email" => "dirtywingscrafts@gmail.com",
+                "id" => "198901310478709"
             ]
         },
         {

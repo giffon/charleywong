@@ -16,7 +16,8 @@ class ShibaTaroCafe implements Entity {
                 ],
                 "addr" => "G/F, 11 See Cheung Street",
                 "area" => "Sai Kung",
-                "tel" => "94880623"
+                "tel" => "94880623",
+                "id" => "1933633330249751"
             ]
         }
     ];

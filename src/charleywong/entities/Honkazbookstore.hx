@@ -15,7 +15,8 @@ class Honkazbookstore implements Entity {
                     "Book shop"
                 ],
                 "addr" => "北角英皇道294號五洲大廈地下E舖 Shop E, G/F, Continental Mansion, 294 King\'s Road, North Point.",
-                "area" => "Hong Kong"
+                "area" => "Hong Kong",
+                "id" => "272860376814097"
             ]
         }
     ];

@@ -18,7 +18,8 @@ class KnockboxCoffeeCompany implements Entity {
                 "addr" => "旺角黑布街",
                 "area" => "Mong Kok",
                 "email" => "info@kbcoffee.com",
-                "tel" => "27810363"
+                "tel" => "27810363",
+                "id" => "106209396147484"
             ]
         }
     ];

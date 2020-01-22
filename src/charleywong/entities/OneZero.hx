@@ -16,7 +16,8 @@ class OneZero implements Entity {
                 ],
                 "addr" => "Hong Kong",
                 "area" => "Hong Kong",
-                "tel" => "61544683"
+                "tel" => "61544683",
+                "id" => "240782003026621"
             ]
         }
     ];

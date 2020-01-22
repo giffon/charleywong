@@ -16,7 +16,8 @@ class Greenearthhk implements Entity {
                     "Non-profit organisation"
                 ],
                 "email" => "info@greenearth-hk.org",
-                "tel" => "37088380"
+                "tel" => "37088380",
+                "id" => "250991628578095"
             ]
         }
     ];

@@ -16,7 +16,8 @@ class PaulWongFineArtPhotography implements Entity {
                 "addr" => "Rm 310, Kowloon Plaza, 485 castle peak road, Laichikok",
                 "area" => "Lai Chi Kok",
                 "email" => "paulwong@everlastingphoto.hk",
-                "tel" => "92949380"
+                "tel" => "92949380",
+                "id" => "1852243791700462"
             ]
         }
     ];

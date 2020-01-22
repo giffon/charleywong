@@ -14,7 +14,8 @@ class Yeungdraw implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "yeungdraw@gmail.com"
+                "email" => "yeungdraw@gmail.com",
+                "id" => "498288366931764"
             ]
         },
         {

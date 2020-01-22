@@ -7,11 +7,12 @@ class Smalleyeskuma implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/smalleyeskuma-451318835725304/",
+            url: "https://www.facebook.com/451318835725304/",
             meta: [
                 "categories" => [
                     "Art"
-                ]
+                ],
+                "id" => "451318835725304"
             ]
         },
         {

@@ -16,7 +16,8 @@ class IalwaysHK implements Entity {
                 "addr" => "旺角 彌敦道 700號 T.O.P 2樓 202號鋪",
                 "area" => "Hong Kong",
                 "email" => "sales@ialwayshk.com",
-                "tel" => "92695872"
+                "tel" => "92695872",
+                "id" => "121427458252926"
             ]
         }
     ];

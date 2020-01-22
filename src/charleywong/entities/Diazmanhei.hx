@@ -13,7 +13,8 @@ class Diazmanhei implements Entity {
                 "categories" => [
                     "Athlete"
                 ],
-                "email" => "sodiazman@gmail.com"
+                "email" => "sodiazman@gmail.com",
+                "id" => "151085852047686"
             ]
         }
     ];

@@ -14,7 +14,8 @@ class MoMoBunnyHandcraft implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "tel" => "95575685"
+                "tel" => "95575685",
+                "id" => "384001404991476"
             ]
         }
     ];

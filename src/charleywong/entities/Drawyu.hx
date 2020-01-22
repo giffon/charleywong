@@ -13,7 +13,8 @@ class Drawyu implements Entity {
                 "about" => "豚豚是一隻粉紅色軟綿綿的小豬，以紅紅胖胖的臉作為特徵，最擅長吃東西；希望這些圖文作品能提供正能量治癒大家～\n�instagram：draw4yu",
                 "categories" => [
                     "Fictional character"
-                ]
+                ],
+                "id" => "1745847955443998"
             ]
         }
     ];

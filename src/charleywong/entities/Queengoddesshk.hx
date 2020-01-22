@@ -17,7 +17,8 @@ class Queengoddesshk implements Entity {
                     "Health/beauty"
                 ],
                 "email" => "queengoddesshk@gmail.com",
-                "tel" => "55083390"
+                "tel" => "55083390",
+                "id" => "1295622157116661"
             ]
         }
     ];

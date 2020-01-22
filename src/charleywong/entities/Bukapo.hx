@@ -13,7 +13,8 @@ class Bukapo implements Entity {
                 "categories" => [
                     "Personal blog"
                 ],
-                "email" => "ngkapo@hotmail.com"
+                "email" => "ngkapo@hotmail.com",
+                "id" => "316181601770392"
             ]
         }
     ];

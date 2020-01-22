@@ -17,7 +17,8 @@ class Saturnwoodworkshop implements Entity {
                 ],
                 "addr" => "葵興華達工業中心C 座19樓04室",
                 "area" => "Kwai Chung",
-                "email" => "saturnwoodworkshop@gmail.com"
+                "email" => "saturnwoodworkshop@gmail.com",
+                "id" => "1432542930306758"
             ]
         }
     ];

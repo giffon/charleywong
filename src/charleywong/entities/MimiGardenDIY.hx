@@ -13,7 +13,8 @@ class MimiGardenDIY implements Entity {
                 "\"Be gorgeous in a low profile\"\nHigh Quality Handmade Jewelries\nSince 2013, based in Hong Kong\nMimi is our princess .\nInstagram: mimigardendiy",
                 "categories" => [
                     "Community"
-                ]
+                ],
+                "id" => "578499368869015"
             ]
         },
         {

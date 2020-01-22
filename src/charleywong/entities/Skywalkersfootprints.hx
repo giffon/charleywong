@@ -12,7 +12,8 @@ class Skywalkersfootprints implements Entity {
                 "about" => "分享香港山野之美、探路心得，提倡環境保育。\n\n關於作者：http://www.skywalker.autozine.org/intro.html",
                 "categories" => [
                     "Blogger"
-                ]
+                ],
+                "id" => "1190895447687661"
             ]
         }
     ];

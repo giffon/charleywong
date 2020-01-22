@@ -15,7 +15,8 @@ class Beeswaxcloth implements Entity {
                     "Product/service"
                 ],
                 "email" => "beeswaxcloth@gmail.com",
-                "tel" => "96518567"
+                "tel" => "96518567",
+                "id" => "2095608474003826"
             ]
         }
     ];

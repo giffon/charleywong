@@ -14,7 +14,8 @@ class Adc implements Entity {
                     "Jewellery/watches"
                 ],
                 "email" => "adc_dream@yahoo.com.hk",
-                "tel" => "96542526"
+                "tel" => "96542526",
+                "id" => "189152345967"
             ]
         },
         {

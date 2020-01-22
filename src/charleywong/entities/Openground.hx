@@ -17,7 +17,8 @@ class Openground implements Entity {
                 "addr" => "198 Tai Nan Street, Sham Shui Po",
                 "area" => "Kowloon, Hong Kong",
                 "email" => "info@openground.hk",
-                "tel" => "39745098"
+                "tel" => "39745098",
+                "id" => "659145181112976"
             ]
         },
         {

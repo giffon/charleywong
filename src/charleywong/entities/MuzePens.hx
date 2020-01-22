@@ -15,7 +15,8 @@ class MuzePens implements Entity {
                     "Collectibles shop"
                 ],
                 "email" => "info@muzepens.com",
-                "tel" => "36195136"
+                "tel" => "36195136",
+                "id" => "904960262861056"
             ]
         }
     ];

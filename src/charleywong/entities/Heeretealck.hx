@@ -14,7 +14,8 @@ class Heeretealck implements Entity {
                     "Diner"
                 ],
                 "addr" => "青山道489-491號荔枝角香港工業中心A座地下5B鋪",
-                "area" => "Hong Kong"
+                "area" => "Hong Kong",
+                "id" => "772297683149276"
             ]
         }
     ];

@@ -16,7 +16,8 @@ class LABBECOMEUS implements Entity {
                     "Art"
                 ],
                 "email" => "labbecomeus@yahoo.com.hk",
-                "tel" => "53761802"
+                "tel" => "53761802",
+                "id" => "579372738844496"
             ]
         }
     ];

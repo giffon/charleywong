@@ -14,7 +14,8 @@ class Mountaingirlhk implements Entity {
                 "categories" => [
                     "Recreation & sport website"
                 ],
-                "email" => "hikerhk@mail.com"
+                "email" => "hikerhk@mail.com",
+                "id" => "1278446655523457"
             ]
         },
         {

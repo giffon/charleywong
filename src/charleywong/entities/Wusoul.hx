@@ -15,7 +15,8 @@ class Wusoul implements Entity {
                     "Artist",
                     "Graphic designer"
                 ],
-                "email" => "wuwusoul@gmail.com"
+                "email" => "wuwusoul@gmail.com",
+                "id" => "163956920446010"
             ]
         },
         {

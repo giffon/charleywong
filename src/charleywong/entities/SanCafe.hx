@@ -14,7 +14,8 @@ class SanCafe implements Entity {
                     "Asian fusion restaurant",
                     "American restaurant",
                     "Deli"
-                ]
+                ],
+                "id" => "443256846128544"
             ]
         }
     ];

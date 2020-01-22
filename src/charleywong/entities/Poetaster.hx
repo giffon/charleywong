@@ -12,7 +12,8 @@ class Poetaster implements Entity {
                 "categories" => [
                     "Product/service",
                     "Patio/garden"
-                ]
+                ],
+                "id" => "158583984789698"
             ]
         }
     ];

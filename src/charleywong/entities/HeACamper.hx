@@ -13,7 +13,8 @@ class HeACamper implements Entity {
                 "categories" => [
                     "Outdoor and sporting goods company"
                 ],
-                "email" => "heacamper@gmail.com"
+                "email" => "heacamper@gmail.com",
+                "id" => "1669826743247095"
             ]
         }
     ];

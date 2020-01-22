@@ -14,7 +14,8 @@ class Runthunderrun implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "info@portamentopeople.com"
+                "email" => "info@portamentopeople.com",
+                "id" => "128668512210"
             ]
         }
     ];

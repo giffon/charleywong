@@ -11,7 +11,8 @@ class Lookforwardmarket implements Entity {
             meta: [
                 "categories" => [
                     "Product/service"
-                ]
+                ],
+                "id" => "1350804508307285"
             ]
         }
     ];

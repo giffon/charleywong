@@ -17,7 +17,8 @@ class ShiokShop implements Entity {
                 "addr" => "荔枝角青山道688號嘉名工業大廈E座6樓6E02室",
                 "area" => "Hong Kong",
                 "email" => "shiokshop@hotmail.com",
-                "tel" => "97260731"
+                "tel" => "97260731",
+                "id" => "822746161093183"
             ]
         }
     ];

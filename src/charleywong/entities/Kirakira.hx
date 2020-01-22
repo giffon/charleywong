@@ -7,11 +7,12 @@ class Kirakira implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Kirakira-897763637046365/",
+            url: "https://www.facebook.com/897763637046365/",
             meta: [
                 "categories" => [
                     "Product/service"
-                ]
+                ],
+                "id" => "897763637046365"
             ]
         }
     ];

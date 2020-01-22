@@ -17,7 +17,8 @@ class Matyuen implements Entity {
                 ],
                 "addr" => "No61 1 floor wuhu street hung hom kowloon",
                 "area" => "Hong Kong",
-                "email" => "mat_yuen@hotmail.com"
+                "email" => "mat_yuen@hotmail.com",
+                "id" => "1296694543795846"
             ]
         }
     ];

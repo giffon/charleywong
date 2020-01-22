@@ -14,7 +14,8 @@ class VsWorkshop implements Entity {
                     "Accessories"
                 ],
                 "email" => "vs_vickyan@yahoo.com",
-                "tel" => "93012419"
+                "tel" => "93012419",
+                "id" => "188918064578895"
             ]
         }
     ];

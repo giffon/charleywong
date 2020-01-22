@@ -14,7 +14,8 @@ class Sleepingpen implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "sleepingpenart@gmail.com"
+                "email" => "sleepingpenart@gmail.com",
+                "id" => "1842017982699975"
             ]
         }
     ];

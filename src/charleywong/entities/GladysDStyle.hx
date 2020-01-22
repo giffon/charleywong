@@ -15,7 +15,8 @@ class GladysDStyle implements Entity {
                     "Clothing (brand)"
                 ],
                 "email" => "dingdinggladys@gmail.com",
-                "tel" => "65523102"
+                "tel" => "65523102",
+                "id" => "346353725952242"
             ]
         }
     ];

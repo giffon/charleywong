@@ -13,7 +13,8 @@ class SomethingSomething implements Entity {
                 "categories" => [
                     "Personal blog"
                 ],
-                "email" => "bigycomic@gmail.com"
+                "email" => "bigycomic@gmail.com",
+                "id" => "296724020468878"
             ]
         }
     ];

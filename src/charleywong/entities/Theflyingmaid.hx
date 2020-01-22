@@ -14,7 +14,8 @@ class Theflyingmaid implements Entity {
                 "categories" => [
                     "Blogger"
                 ],
-                "email" => "theflyingmaid@gmail.com"
+                "email" => "theflyingmaid@gmail.com",
+                "id" => "1449053002063039"
             ]
         }
     ];

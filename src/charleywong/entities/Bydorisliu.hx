@@ -12,7 +12,8 @@ class Bydorisliu implements Entity {
                 "about" => "We are not alone in the Universe.\n.\n.\nwww.pinkoi.com/store/bydorisliu",
                 "categories" => [
                     "Artist"
-                ]
+                ],
+                "id" => "182666918538486"
             ]
         },
         {

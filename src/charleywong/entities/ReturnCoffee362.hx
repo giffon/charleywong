@@ -17,7 +17,8 @@ class ReturnCoffee362 implements Entity {
                 "addr" => "荃灣沙咀道362號全發商業大廈G1地鋪",
                 "area" => "Tsuen Wan, Hong Kong",
                 "email" => "info@return-coffee.com",
-                "tel" => "63096362"
+                "tel" => "63096362",
+                "id" => "2036031229792903"
             ]
         }
     ];

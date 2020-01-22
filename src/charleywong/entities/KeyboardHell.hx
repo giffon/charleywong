@@ -16,7 +16,8 @@ class KeyboardHell implements Entity {
                 ],
                 "addr" => "香港 九龍 旺角 西洋菜南街2A-2H 銀城廣場 2樓 11號舖",
                 "area" => "Mong Kok",
-                "tel" => "97943545"
+                "tel" => "97943545",
+                "id" => "124921990891105"
             ]
         }
     ];

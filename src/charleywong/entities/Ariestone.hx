@@ -18,7 +18,8 @@ class Ariestone implements Entity {
                 ],
                 "addr" => "Shop 223, 2/F",
                 "area" => "Hong Kong",
-                "email" => "accessariestone@gmail.com"
+                "email" => "accessariestone@gmail.com",
+                "id" => "127890041003894"
             ]
         }
     ];

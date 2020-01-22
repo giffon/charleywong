@@ -13,7 +13,8 @@ class HandmadeTense implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "email" => "handmadetense@gmail.com"
+                "email" => "handmadetense@gmail.com",
+                "id" => "410081635852856"
             ]
         },
         {

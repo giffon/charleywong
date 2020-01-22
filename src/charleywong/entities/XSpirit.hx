@@ -12,7 +12,8 @@ class XSpirit implements Entity {
                 "about" => "Mystery. Limitless. Immortal.\n\nInstagram: x__spirit\n門市：荔枝角D2 Place一期 2樓220-221號舖\nWhatsapp: 97044130",
                 "categories" => [
                     "Product/service"
-                ]
+                ],
+                "id" => "966655430067625"
             ]
         }
     ];

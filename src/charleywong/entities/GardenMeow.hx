@@ -16,7 +16,8 @@ class GardenMeow implements Entity {
                 ],
                 "addr" => "上環鴨巴甸街35號",
                 "area" => "Hong Kong",
-                "tel" => "28185438"
+                "tel" => "28185438",
+                "id" => "821851117979841"
             ]
         },
         {

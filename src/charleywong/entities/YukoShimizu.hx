@@ -14,7 +14,8 @@ class YukoShimizu implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "yuko@yukoart.com"
+                "email" => "yuko@yukoart.com",
+                "id" => "113407815290"
             ]
         },
         {

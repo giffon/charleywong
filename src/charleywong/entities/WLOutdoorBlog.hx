@@ -12,7 +12,8 @@ class WLOutdoorBlog implements Entity {
                 "about" => "一天，有位韓國朋友問我為什麼自己不建一個專頁，於是我就去開了。自己喜歡行山，也喜歡拍攝，也喜歡香港，那就動動手。\ninstagram: http://www.instagram.com/chtwlaa/",
                 "categories" => [
                     "Blogger"
-                ]
+                ],
+                "id" => "1326663517350466"
             ]
         },
         {

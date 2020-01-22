@@ -14,7 +14,8 @@ class JoewinHatu implements Entity {
                 "categories" => [
                     "Adoption service",
                     "Animal"
-                ]
+                ],
+                "id" => "574171015998746"
             ]
         },
         {

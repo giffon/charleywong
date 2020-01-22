@@ -15,7 +15,8 @@ class CHAUDAUFU implements Entity {
                     "Product/Service",
                     "Tattoo & Piercing Shop"
                 ],
-                "email" => "chaudaufu@yahoo.com.hk"
+                "email" => "chaudaufu@yahoo.com.hk",
+                "id" => "127216350654337"
             ]
         },
         {

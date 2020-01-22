@@ -12,7 +12,8 @@ class KOLOR implements Entity {
                 "about" => "www.facebook.com/kolorhk",
                 "categories" => [
                     "Musician/band"
-                ]
+                ],
+                "id" => "91306178236"
             ]
         }
     ];

@@ -15,7 +15,8 @@ class SweetPetiteK implements Entity {
                 ],
                 "addr" => "Shop 103, 1/F, The Mills, 45 Pak Tin Par Street",
                 "area" => "Tsuen Wan, Hong Kong",
-                "email" => "info@sweetpetitek.com"
+                "email" => "info@sweetpetitek.com",
+                "id" => "963521127011942"
             ]
         }
     ];

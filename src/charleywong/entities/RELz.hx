@@ -16,7 +16,8 @@ class RELz implements Entity {
                 ],
                 "addr" => "葵昌路1號",
                 "area" => "Hong Kong",
-                "email" => "relzplayhk@gmail.com"
+                "email" => "relzplayhk@gmail.com",
+                "id" => "1400235740239536"
             ]
         }
     ];

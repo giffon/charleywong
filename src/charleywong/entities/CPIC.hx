@@ -14,7 +14,8 @@ class CPIC implements Entity {
                     "Artist"
                 ],
                 "email" => "ymh0608@gmail.com",
-                "tel" => "63833545"
+                "tel" => "63833545",
+                "id" => "1494326517524551"
             ]
         },
         {

@@ -12,7 +12,8 @@ class CCStyle implements Entity {
                 "categories" => [
                     "Art",
                     "Product/service"
-                ]
+                ],
+                "id" => "620443538455563"
             ]
         },
         {

@@ -15,7 +15,8 @@ class FaMiuly implements Entity {
                     "Artist",
                     "Art"
                 ],
-                "email" => "contact@famiuly.com"
+                "email" => "contact@famiuly.com",
+                "id" => "231436817650370"
             ]
         },
         {

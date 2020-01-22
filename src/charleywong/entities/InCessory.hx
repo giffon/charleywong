@@ -14,7 +14,8 @@ class InCessory implements Entity {
                     "Shopping & retail"
                 ],
                 "addr" => "尖沙咀嘉蘭圍利時商場4樓438舖",
-                "area" => "Hong Kong"
+                "area" => "Hong Kong",
+                "id" => "1923524297926039"
             ]
         }
     ];

@@ -16,7 +16,8 @@ class Rubilization implements Entity {
                 ],
                 "addr" => "前鎮區二聖二路279號2樓",
                 "area" => "Kaohsiung, Taiwan",
-                "email" => "rubyyisss@hotmail.com"
+                "email" => "rubyyisss@hotmail.com",
+                "id" => "882009985202166"
             ]
         }
     ];

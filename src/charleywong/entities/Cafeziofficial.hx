@@ -17,7 +17,8 @@ class Cafeziofficial implements Entity {
                 "addr" => "山林道 8 號",
                 "area" => "Tsim Sha Tsui",
                 "email" => "cafezi.official@gmail.com",
-                "tel" => "27781628"
+                "tel" => "27781628",
+                "id" => "792592420892430"
             ]
         }
     ];

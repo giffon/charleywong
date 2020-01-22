@@ -14,7 +14,8 @@ class Coastlinehk implements Entity {
                 ],
                 "addr" => "G/F, 45 San Hing Street, Cheung Chau",
                 "area" => "Cheung Chau, Hong Kong",
-                "tel" => "29818330"
+                "tel" => "29818330",
+                "id" => "907203776279040"
             ]
         }
     ];

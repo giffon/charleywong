@@ -16,7 +16,8 @@ class Alternative implements Entity {
                 "addr" => "G/F, Breakthrough Centre, 191 Woosung Street, Jordan",
                 "area" => "Hong Kong",
                 "email" => "alternativehkcafe@gmail.com",
-                "tel" => "65137994"
+                "tel" => "65137994",
+                "id" => "274798092946706"
             ]
         }
     ];

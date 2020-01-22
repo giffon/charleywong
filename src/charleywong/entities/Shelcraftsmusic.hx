@@ -14,7 +14,8 @@ class Shelcraftsmusic implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "email" => "shel.crafts.music@gmail.com"
+                "email" => "shel.crafts.music@gmail.com",
+                "id" => "305873972955302"
             ]
         },
         {

@@ -17,7 +17,8 @@ class Ipposoap implements Entity {
                     "Arts and crafts shop"
                 ],
                 "email" => "ippo.soap@gmail.com",
-                "tel" => "95065812"
+                "tel" => "95065812",
+                "id" => "190025698240541"
             ]
         }
     ];

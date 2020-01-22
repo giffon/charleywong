@@ -15,7 +15,8 @@ class Makpeileather implements Entity {
                     "Bags/luggage",
                     "Clothing (brand)"
                 ],
-                "email" => "colouredleather@gmail.com"
+                "email" => "colouredleather@gmail.com",
+                "id" => "935033866565681"
             ]
         }
     ];

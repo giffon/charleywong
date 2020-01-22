@@ -16,7 +16,8 @@ class Nomadnomad implements Entity {
                     "Flea market"
                 ],
                 "email" => "nomadnomadhk@gmail.com",
-                "tel" => "97892704"
+                "tel" => "97892704",
+                "id" => "144479875722582"
             ]
         }
     ];

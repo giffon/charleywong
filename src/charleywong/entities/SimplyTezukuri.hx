@@ -14,7 +14,8 @@ class SimplyTezukuri implements Entity {
                     "Product/service",
                     "Arts and crafts shop"
                 ],
-                "email" => "wireart@simplytezukuri.com"
+                "email" => "wireart@simplytezukuri.com",
+                "id" => "222851664584794"
             ]
         }
     ];

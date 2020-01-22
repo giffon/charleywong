@@ -12,7 +12,8 @@ class Cuttieandpastie implements Entity {
                 "about" => "Cut & Paste.\nSketches & handicrafts. Original creations. Follow the heart.\nInstagram: @cut_andpaste #cutandpastedoodle",
                 "categories" => [
                     "Arts & humanities website"
-                ]
+                ],
+                "id" => "381148045351742"
             ]
         }
     ];

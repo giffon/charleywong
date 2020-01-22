@@ -16,7 +16,8 @@ class FolloMe implements Entity {
                     "Hiking trail",
                     "Photography & videography"
                 ],
-                "email" => "follow2015atw@gmail.com"
+                "email" => "follow2015atw@gmail.com",
+                "id" => "150584485300586"
             ]
         }
     ];

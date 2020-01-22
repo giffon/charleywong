@@ -18,7 +18,8 @@ class YolaHungMakeupStudio implements Entity {
                 "addr" => "銅鑼灣蘭芳道9號4樓",
                 "area" => "Hong Kong",
                 "email" => "yolahung@gmail.com",
-                "tel" => "93404630"
+                "tel" => "93404630",
+                "id" => "173654121611"
             ]
         }
     ];

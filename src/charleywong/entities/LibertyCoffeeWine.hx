@@ -15,7 +15,8 @@ class LibertyCoffeeWine implements Entity {
                 "addr" => "G/F, Tsui Yuen Mansion, 33 Waterlood Road, Phase 1, Yau Ma Tei",
                 "area" => "Hong Kong",
                 "email" => "libertycoffeewine@gmail.com",
-                "tel" => "93463698"
+                "tel" => "93463698",
+                "id" => "111943633476991"
             ]
         }
     ];

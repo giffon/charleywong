@@ -17,7 +17,8 @@ class LaurenLeeMakeupStudio implements Entity {
                 "addr" => "Room 806, The Icon , 320-322 Kwun Tong Rd, Ngau Tau Kok",
                 "area" => "Hong Kong",
                 "email" => "laurenleemakeupstudio@gmail.com",
-                "tel" => "56626977"
+                "tel" => "56626977",
+                "id" => "156080831173841"
             ]
         }
     ];

@@ -7,12 +7,13 @@ class Fb1587690488206162 implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/夏滋味專頁-1587690488206162/",
+            url: "https://www.facebook.com/1587690488206162/",
             meta: [
                 "about" => "回家~回憶~回味~夏滋味....有(家)滋味! 尋回家的味道，帶給你愛回家的滋味.....",
                 "categories" => [
                     "Brand"
-                ]
+                ],
+                "id" => "1587690488206162"
             ]
         }
     ];

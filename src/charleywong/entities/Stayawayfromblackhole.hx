@@ -11,7 +11,8 @@ class Stayawayfromblackhole implements Entity {
             meta: [
                 "categories" => [
                     "Personal blog"
-                ]
+                ],
+                "id" => "2170531603162251"
             ]
         }
     ];

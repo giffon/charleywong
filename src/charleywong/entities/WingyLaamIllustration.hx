@@ -12,7 +12,8 @@ class WingyLaamIllustration implements Entity {
                 "categories" => [
                     "Artist",
                     "Author"
-                ]
+                ],
+                "id" => "536265050074838"
             ]
         }
     ];

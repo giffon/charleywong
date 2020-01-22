@@ -17,7 +17,8 @@ class AmenFloristDecor implements Entity {
                 ],
                 "addr" => "1/F, 3 YUEN NGAI STREET, MONG KOK, KOWLOON",
                 "area" => "Hong Kong",
-                "email" => "info@amenfloristdecor.com"
+                "email" => "info@amenfloristdecor.com",
+                "id" => "370492093032321"
             ]
         }
     ];

@@ -15,7 +15,8 @@ class Elmbookbookshop implements Entity {
                 ],
                 "addr" => "旺角西洋菜南街59號三樓",
                 "area" => "Hong Kong",
-                "email" => "elmbook@gmail.com"
+                "email" => "elmbook@gmail.com",
+                "id" => "717725661678807"
             ]
         }
     ];

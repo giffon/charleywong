@@ -17,7 +17,8 @@ class TOASTBooks implements Entity {
                     "Independent book shop"
                 ],
                 "addr" => "九龍石硤尾偉智街38號福田大廈地下11號舖 (馬會對面) Shop 11, G/F., 38 Wai Chi Street, Shek Kip Mei, Kowloon.",
-                "area" => "Hong Kong"
+                "area" => "Hong Kong",
+                "id" => "179573982745561"
             ]
         }
     ];

@@ -17,7 +17,8 @@ class TomatoCHing implements Entity {
                 ],
                 "addr" => "九龍深水埗基隆街255號地下",
                 "area" => "Sham Shui Po",
-                "tel" => "94621567"
+                "tel" => "94621567",
+                "id" => "2014583758802663"
             ]
         }
     ];

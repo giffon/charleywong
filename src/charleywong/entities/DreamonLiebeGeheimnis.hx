@@ -16,7 +16,8 @@ class DreamonLiebeGeheimnis implements Entity {
                     "Florist"
                 ],
                 "email" => "liebegeheimnis.hk@gmail.com",
-                "tel" => "92998734"
+                "tel" => "92998734",
+                "id" => "248119212546983"
             ]
         },
         {

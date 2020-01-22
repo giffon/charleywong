@@ -17,7 +17,8 @@ class Mimingmart implements Entity {
                 ],
                 "addr" => "銅鑼灣Fashion Walk 記利佐治街11-19 地下35鋪",
                 "area" => "Hong Kong",
-                "email" => "cs@mimingmart.com"
+                "email" => "cs@mimingmart.com",
+                "id" => "167138230010680"
             ]
         }
     ];

@@ -12,7 +12,8 @@ class Meatiebear implements Entity {
                 "about" => "http://johnhocollection.weebly.com/\nwww.johnhoart.com\nhttp://www.etsy.com/shop/johnhoart",
                 "categories" => [
                     "Artist"
-                ]
+                ],
+                "id" => "189973007722888"
             ]
         },
         {

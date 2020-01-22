@@ -16,7 +16,8 @@ class SmilingCone implements Entity {
                     "Arts and crafts shop"
                 ],
                 "email" => "smilingcone@gmail.com",
-                "tel" => "60973326"
+                "tel" => "60973326",
+                "id" => "155205077991461"
             ]
         }
     ];

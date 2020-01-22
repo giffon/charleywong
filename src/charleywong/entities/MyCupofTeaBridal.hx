@@ -16,7 +16,8 @@ class MyCupofTeaBridal implements Entity {
                     "Product/service"
                 ],
                 "addr" => "501,5/F,United Building,17-19 Jubilee Street",
-                "area" => "Central, Hong Kong"
+                "area" => "Central, Hong Kong",
+                "id" => "533489866752189"
             ]
         }
     ];

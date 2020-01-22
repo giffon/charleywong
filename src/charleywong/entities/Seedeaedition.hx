@@ -17,7 +17,8 @@ class Seedeaedition implements Entity {
                     "Gift shop"
                 ],
                 "email" => "info@seedea-edition.com",
-                "tel" => "61673984"
+                "tel" => "61673984",
+                "id" => "1664527560435621"
             ]
         },
         {

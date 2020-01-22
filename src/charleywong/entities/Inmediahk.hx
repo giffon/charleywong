@@ -17,7 +17,8 @@ class Inmediahk implements Entity {
                     "Media/news company"
                 ],
                 "email" => "info@inmediahk.net",
-                "tel" => "21470788"
+                "tel" => "21470788",
+                "id" => "200954406608272"
             ]
         }
     ];

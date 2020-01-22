@@ -17,7 +17,8 @@ class Livingbookspacehk implements Entity {
                 "addr" => "元朗鳳攸北街5-7號順豐大廈39號地鋪",
                 "area" => "Yuen Long",
                 "email" => "livingbookspace@gmail.com",
-                "tel" => "66906081"
+                "tel" => "66906081",
+                "id" => "1712924702253200"
             ]
         }
     ];

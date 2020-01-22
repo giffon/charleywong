@@ -13,7 +13,8 @@ class AfterSCHOOL implements Entity {
                 "categories" => [
                     "Clothing (brand)"
                 ],
-                "email" => "afterschool@live.hk"
+                "email" => "afterschool@live.hk",
+                "id" => "186405831491451"
             ]
         }
     ];

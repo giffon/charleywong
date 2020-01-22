@@ -13,7 +13,8 @@ class Lazyinprogress implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "email" => "lazyinprogress@yahoo.com.hk"
+                "email" => "lazyinprogress@yahoo.com.hk",
+                "id" => "641552809200248"
             ]
         }
     ];

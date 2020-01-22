@@ -14,7 +14,8 @@ class Eeedot implements Entity {
                     "Arts and crafts shop",
                     "Product/service"
                 ],
-                "tel" => "52822805"
+                "tel" => "52822805",
+                "id" => "1634674776816597"
             ]
         }
     ];

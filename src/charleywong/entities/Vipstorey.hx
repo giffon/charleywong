@@ -14,7 +14,8 @@ class Vipstorey implements Entity {
                     "Art",
                     "Artist"
                 ],
-                "email" => "vipstorey@gmail.com"
+                "email" => "vipstorey@gmail.com",
+                "id" => "310764475954605"
             ]
         },
         {

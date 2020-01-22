@@ -14,7 +14,8 @@ class KiAmi implements Entity {
                     "Product/service"
                 ],
                 "email" => "kiamikiki@ymail.com",
-                "tel" => "66229422"
+                "tel" => "66229422",
+                "id" => "174682039227126"
             ]
         }
     ];

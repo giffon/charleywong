@@ -17,7 +17,8 @@ class Namast implements Entity {
                 "addr" => "葵涌廣場3樓時尚坊32號舖",
                 "area" => "Hong Kong",
                 "email" => "namastehanakana@gmail.com",
-                "tel" => "60304044"
+                "tel" => "60304044",
+                "id" => "1085260571509354"
             ]
         },
         {

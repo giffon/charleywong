@@ -18,7 +18,8 @@ class MisstoMrsGreen implements Entity {
                 "addr" => "九龍尖沙咀漆咸道南45-51號尖東堡商場地庫B29",
                 "area" => "Hong Kong",
                 "email" => "misstomrsgreen@gmail.com",
-                "tel" => "67187697"
+                "tel" => "67187697",
+                "id" => "272421270329831"
             ]
         },
         {

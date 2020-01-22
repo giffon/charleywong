@@ -17,7 +17,8 @@ class Hkreaders implements Entity {
                 "addr" => "7/F, 68 Sai Yeung Choi Street South",
                 "area" => "Mong Kok",
                 "email" => "info@hkreaders.com",
-                "tel" => "23950031"
+                "tel" => "23950031",
+                "id" => "308792302656086"
             ]
         },
         {

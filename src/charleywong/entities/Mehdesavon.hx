@@ -14,7 +14,8 @@ class Mehdesavon implements Entity {
                 "categories" => [
                     "Health/beauty",
                     "Skincare service"
-                ]
+                ],
+                "id" => "126756731521627"
             ]
         }
     ];

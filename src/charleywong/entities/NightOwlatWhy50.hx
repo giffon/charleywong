@@ -7,14 +7,15 @@ class NightOwlatWhy50 implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/NightOwl-at-Why50-451834995354935/",
+            url: "https://www.facebook.com/451834995354935/",
             meta: [
                 "about" => "Same place, same style, different people, different coffee, different experience in NightOwl@Why50",
                 "categories" => [
                     "Diner",
                     "Coffee shop"
                 ],
-                "email" => "night.owl.teamhk@gmail.com"
+                "email" => "night.owl.teamhk@gmail.com",
+                "id" => "451834995354935"
             ]
         }
     ];

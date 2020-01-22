@@ -15,7 +15,8 @@ class DesignGardenia implements Entity {
                     "Arts and crafts shop",
                     "Graphic designer"
                 ],
-                "email" => "designgardenia.moonbe@gmail.com"
+                "email" => "designgardenia.moonbe@gmail.com",
+                "id" => "1834168226831644"
             ]
         }
     ];

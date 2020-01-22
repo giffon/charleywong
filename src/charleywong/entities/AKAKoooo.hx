@@ -11,7 +11,8 @@ class AKAKoooo implements Entity {
             meta: [
                 "categories" => [
                     "Product/service"
-                ]
+                ],
+                "id" => "1452494051687237"
             ]
         },
         {

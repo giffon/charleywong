@@ -13,7 +13,8 @@ class Imperfectkonglui implements Entity {
                 "about" => "我們每個人，也或多或少都是一枚雞蛋。我們都是獨一無二，裝在脆弱外殼中的靈魂。你我也或多或少，都必須面對一堵名為「體制」的高牆。體制照理應該保護我們，但有時它卻殘殺我們。",
                 "categories" => [
                     "Shopping & retail"
-                ]
+                ],
+                "id" => "102121421222105"
             ]
         }
     ];

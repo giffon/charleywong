@@ -14,7 +14,8 @@ class Hkcoinss implements Entity {
                     "Collectibles shop",
                     "Wholesale and supply shop"
                 ],
-                "email" => "chchsi90@hotmail.com"
+                "email" => "chchsi90@hotmail.com",
+                "id" => "245178952352406"
             ]
         }
     ];

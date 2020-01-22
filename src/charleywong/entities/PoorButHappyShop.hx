@@ -18,7 +18,8 @@ class PoorButHappyShop implements Entity {
                 "addr" => "長沙灣福榮街226號地下",
                 "area" => "Cheung Sha Wan, Hong Kong",
                 "email" => "poor.com.hk@gmail.com",
-                "tel" => "60290601"
+                "tel" => "60290601",
+                "id" => "183898424971666"
             ]
         },
         {

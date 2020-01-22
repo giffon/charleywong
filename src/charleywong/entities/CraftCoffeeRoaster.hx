@@ -17,7 +17,8 @@ class CraftCoffeeRoaster implements Entity {
                 "addr" => "29 Tai Kok Tsui Road,",
                 "area" => "Hong Kong",
                 "email" => "craftcoffeehk@gmail.com",
-                "tel" => "51096770"
+                "tel" => "51096770",
+                "id" => "1378859032342766"
             ]
         }
     ];

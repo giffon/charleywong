@@ -18,7 +18,8 @@ class KaiFongComputer implements Entity {
                 "addr" => "葵涌大連排道42-46號貴盛工業大廈二期3樓3G惠耀商業366室(敬請預約)",
                 "area" => "Kwai Chung",
                 "email" => "kaifongcomputer@gmail.com",
-                "tel" => "96447597"
+                "tel" => "96447597",
+                "id" => "507413689699929"
             ]
         },
         {

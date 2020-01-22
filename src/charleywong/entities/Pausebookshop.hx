@@ -17,7 +17,8 @@ class Pausebookshop implements Entity {
                 "addr" => "11/F.,Cheung Lee Commercial Building,No.137-143 Cheung Sha Wan Road,Kowloon",
                 "area" => "Hong Kong",
                 "email" => "pause@fes.org.hk",
-                "tel" => "23692750"
+                "tel" => "23692750",
+                "id" => "296762637183676"
             ]
         }
     ];

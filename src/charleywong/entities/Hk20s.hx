@@ -16,7 +16,8 @@ class Hk20s implements Entity {
                 "addr" => "Flat 402, 4/F, Kam On Building, 176A Queen\'s Road, Central, Hong Kong",
                 "area" => "Hong Kong",
                 "email" => "hello20shk@gmail.com",
-                "tel" => "25300181"
+                "tel" => "25300181",
+                "id" => "1650743438310625"
             ]
         }
     ];

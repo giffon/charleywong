@@ -14,7 +14,8 @@ class Hikingwave implements Entity {
                 "categories" => [
                     "Recreation & sport website"
                 ],
-                "email" => "hikingwave@hotmail.com"
+                "email" => "hikingwave@hotmail.com",
+                "id" => "268583626923060"
             ]
         }
     ];

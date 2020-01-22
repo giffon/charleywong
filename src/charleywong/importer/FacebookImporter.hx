@@ -25,6 +25,7 @@ enum OpeningSchedule {
 typedef FacebookInfo = {
     page:String,
     name:String,
+    id:String,
     about:String,
     addr:{
         line:String,
@@ -66,6 +67,20 @@ class FacebookImporter {
         return switch (Sys.getEnv(name)) {
             case null: defaultValue;
             case v: v;
+        }
+    }
+
+    function fbId():String {
+        var pagesProfileAboutInfoPagelet:Array<WebElement> = driver.find_elements_by_xpath("//div[starts-with(@id, 'PagesProfileAboutInfoPagelet_')]");
+        switch (pagesProfileAboutInfoPagelet) {
+            case [div]:
+                var regexp = ~/^PagesProfileAboutInfoPagelet_([0-9]+)$/;
+                if (regexp.match(div.get_attribute("id")))
+                    return regexp.matched(1);
+                else
+                    throw 'Unknown PagesProfileAboutInfoPagelet_ ID format ${div.get_attribute("id")}';
+            case _:
+                throw 'Cannot find #PagesProfileAboutInfoPagelet_*';
         }
     }
 
@@ -270,7 +285,7 @@ class FacebookImporter {
             emailInput.send_keys([fbEmail]);
             passInput.send_keys([fbPass]);
             loginBtn.click();
-            new WebDriverWait(driver, 20).until(_ -> driver.title != "Facebook" && !(driver.title:String).contains("Log in to Facebook"));
+            new WebDriverWait(driver, 60).until(_ -> driver.title != "Facebook" && !(driver.title:String).contains("Log in to Facebook"));
         }
     }
 
@@ -292,8 +307,11 @@ class FacebookImporter {
 
         loginFbIfNeeded();
 
+        var id = fbId();
+
         return {
-            page: fbPage,
+            page: fbPage.endsWith('-${id}') ? id : fbPage,
+            id: id,
             name: fbPageName(),
             about: fbAbout(),
             addr: fbPageAddr(),

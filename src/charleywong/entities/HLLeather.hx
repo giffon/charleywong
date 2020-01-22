@@ -8,12 +8,13 @@ class HLLeather implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/指心革物-HL_Leather-1913199288760398/",
+            url: "https://www.facebook.com/1913199288760398/",
             meta: [
                 "categories" => [
                     "Design & fashion"
                 ],
-                "tel" => "68451572"
+                "tel" => "68451572",
+                "id" => "1913199288760398"
             ]
         }
     ];

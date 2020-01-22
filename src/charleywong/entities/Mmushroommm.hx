@@ -14,7 +14,8 @@ class Mmushroommm implements Entity {
                 ],
                 "addr" => "旺角花園街2-16號好景商業中心8樓801B1室",
                 "area" => "Hong Kong",
-                "tel" => "60434150"
+                "tel" => "60434150",
+                "id" => "1365290516897308"
             ]
         }
     ];

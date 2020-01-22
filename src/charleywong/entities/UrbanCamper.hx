@@ -14,7 +14,8 @@ class UrbanCamper implements Entity {
                     "Sport & recreation",
                     "Local & travel website"
                 ],
-                "email" => "urbancamperhk@gmail.com"
+                "email" => "urbancamperhk@gmail.com",
+                "id" => "750548808411466"
             ]
         }
     ];

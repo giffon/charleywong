@@ -17,7 +17,8 @@ class Mmdmamaday implements Entity {
                 ],
                 "addr" => "松山區南京東路四段75巷14弄1號",
                 "area" => "Taipei, Taiwan",
-                "email" => "mmd.mamaday@gmail.com"
+                "email" => "mmd.mamaday@gmail.com",
+                "id" => "1917484021860362"
             ]
         }
     ];

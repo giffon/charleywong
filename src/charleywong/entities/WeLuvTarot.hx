@@ -16,7 +16,8 @@ class WeLuvTarot implements Entity {
                     "Shopping & retail"
                 ],
                 "email" => "weluvtarot@gmail.com",
-                "tel" => "54088058"
+                "tel" => "54088058",
+                "id" => "1460464807570054"
             ]
         }
     ];

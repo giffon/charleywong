@@ -12,7 +12,8 @@ class Leathermelmel implements Entity {
                 "about" => "歡迎訂造及課程查詢\nWhatsapp 96617002\n地址： 新界葵興葵涌工業街10-14號華發工廠大廈後座23樓10-11室B16",
                 "categories" => [
                     "Product/service"
-                ]
+                ],
+                "id" => "362114390651960"
             ]
         }
     ];

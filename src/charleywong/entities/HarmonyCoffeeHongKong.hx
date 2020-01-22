@@ -15,7 +15,8 @@ class HarmonyCoffeeHongKong implements Entity {
                     "Coffee shop"
                 ],
                 "email" => "harmonycoffee.hk@gmail.com",
-                "tel" => "35003702"
+                "tel" => "35003702",
+                "id" => "1048930775312347"
             ]
         },
         {

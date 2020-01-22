@@ -14,7 +14,8 @@ class PaperRabbitArtsCrafts implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "email" => "paperrabbit2013@yahoo.com.hk"
+                "email" => "paperrabbit2013@yahoo.com.hk",
+                "id" => "355481857888674"
             ]
         }
     ];

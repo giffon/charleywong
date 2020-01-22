@@ -18,7 +18,8 @@ class Weaveyard implements Entity {
                 "addr" => "香港牛頭角偉業街128 號香港企業大廈1樓B3室",
                 "area" => "Ngau Tau Kok",
                 "email" => "cloudyjg@yahoo.com",
-                "tel" => "97517537"
+                "tel" => "97517537",
+                "id" => "1558321304436101"
             ]
         }
     ];

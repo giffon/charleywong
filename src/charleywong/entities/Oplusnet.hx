@@ -12,7 +12,8 @@ class Oplusnet implements Entity {
                 "about" => "O+Net,\nO for Original, Orgonite.\nOrgonite (乙太能量石)在外國是一樣十分流行的靈修水晶, Orgonite能夠吸收 人體的負能量及負磁場再轉化為正能量及正磁場, 再配合唔同的水晶 可以把Orgonite的能量提升.",
                 "categories" => [
                     "Jewellery/watches"
-                ]
+                ],
+                "id" => "1665304457051803"
             ]
         }
     ];

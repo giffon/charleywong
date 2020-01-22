@@ -16,7 +16,8 @@ class Storiestohome implements Entity {
                 ],
                 "addr" => "土瓜灣鴻福街16號地下",
                 "area" => "Hong Kong",
-                "email" => "tohorizonhome@gmail.com"
+                "email" => "tohorizonhome@gmail.com",
+                "id" => "696741113700152"
             ]
         }
     ];

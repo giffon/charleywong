@@ -13,7 +13,8 @@ class KMWeddingWorkshop implements Entity {
                     "Personal blog",
                     "Business service"
                 ],
-                "tel" => "61580790"
+                "tel" => "61580790",
+                "id" => "382279642515054"
             ]
         }
     ];

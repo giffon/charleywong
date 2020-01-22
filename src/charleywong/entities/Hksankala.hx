@@ -13,7 +13,8 @@ class Hksankala implements Entity {
                 "about" => "網誌「香港山旮旯」之facebook專頁，記有香港山野種種及境外登山遊記；另設有附屬網誌「香港野地生態摘記」。",
                 "categories" => [
                     "Blogger"
-                ]
+                ],
+                "id" => "374893759310475"
             ]
         },
         {

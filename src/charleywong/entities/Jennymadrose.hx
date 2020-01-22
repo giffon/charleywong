@@ -15,7 +15,8 @@ class Jennymadrose implements Entity {
                     "Organic food shop",
                     "Skincare service"
                 ],
-                "email" => "jennymadrose@gmail.com"
+                "email" => "jennymadrose@gmail.com",
+                "id" => "322020744666226"
             ]
         },
         {

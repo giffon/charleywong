@@ -13,7 +13,8 @@ class Cwaccorg implements Entity {
                 "categories" => [
                     "Non-profit organisation"
                 ],
-                "email" => "info@cwacc.org"
+                "email" => "info@cwacc.org",
+                "id" => "180939441970496"
             ]
         },
         {

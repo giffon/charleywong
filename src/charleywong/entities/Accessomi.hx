@@ -12,7 +12,8 @@ class Accessomi implements Entity {
                 "about" => "設計學院畢業，搜羅世界各地材料，自家設計及制作，與潮流掛勾，物料高質但是價廉物美。",
                 "categories" => [
                     "Accessories"
-                ]
+                ],
+                "id" => "1498509796829718"
             ]
         }
     ];

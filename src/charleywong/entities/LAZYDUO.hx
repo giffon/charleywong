@@ -16,7 +16,8 @@ class LAZYDUO implements Entity {
                     "Product/service"
                 ],
                 "email" => "hello@lazyduo.com",
-                "tel" => "53931269"
+                "tel" => "53931269",
+                "id" => "1608369929452579"
             ]
         },
         {

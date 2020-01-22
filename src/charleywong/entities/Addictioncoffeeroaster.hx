@@ -18,7 +18,8 @@ class Addictioncoffeeroaster implements Entity {
                 "addr" => "A1, 7/F, Yee Wah Industrial building, 18 San on street",
                 "area" => "Tuen Mun",
                 "email" => "addictioncoffeeroaster@gmail.com",
-                "tel" => "96186170"
+                "tel" => "96186170",
+                "id" => "848324325273383"
             ]
         }
     ];

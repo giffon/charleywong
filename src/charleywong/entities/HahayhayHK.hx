@@ -13,7 +13,8 @@ class HahayhayHK implements Entity {
                 "categories" => [
                     "Apparel & clothing",
                     "Clothing (brand)"
-                ]
+                ],
+                "id" => "234387600569683"
             ]
         }
     ];

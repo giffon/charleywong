@@ -12,7 +12,8 @@ class JiangBaoZi implements Entity {
                 "about" => "對薑情有獨鍾，專賣天然冷製手工薑皂，薑護膚品，天然薑牙膏，天然驅蟲產品等。全天然植物成分，拒絕化學防腐劑，起泡劑，香精，色素等，只用最簡單包裝，回歸天然，保護地球。",
                 "categories" => [
                     "Product/service"
-                ]
+                ],
+                "id" => "186874258139330"
             ]
         }
     ];

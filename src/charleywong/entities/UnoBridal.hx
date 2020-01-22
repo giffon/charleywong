@@ -16,7 +16,8 @@ class UnoBridal implements Entity {
                 "addr" => "紅磡蕪湖街70-74號潤達商業大廈2樓C室",
                 "area" => "Kowloon, Hong Kong",
                 "email" => "yes@unobridal.com",
-                "tel" => "35908605"
+                "tel" => "35908605",
+                "id" => "311862189385749"
             ]
         },
         {

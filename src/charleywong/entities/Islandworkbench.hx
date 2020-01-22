@@ -19,7 +19,8 @@ class Islandworkbench implements Entity {
                 "addr" => "新興後街2號後座地下",
                 "area" => "Cheung Chau, Hong Kong",
                 "email" => "info@island-workbench.com",
-                "tel" => "54806627"
+                "tel" => "54806627",
+                "id" => "136459776538956"
             ]
         },
         {

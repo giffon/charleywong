@@ -14,7 +14,8 @@ class Hohhou implements Entity {
                     "Alternative & holistic health service",
                     "Aromatherapy service"
                 ],
-                "email" => "hohhouhohhou@gmail.com"
+                "email" => "hohhouhohhou@gmail.com",
+                "id" => "597169057131439"
             ]
         }
     ];

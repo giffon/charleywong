@@ -12,7 +12,8 @@ class HikerKitsiu implements Entity {
                 "about" => "要走遍香港每一個角落",
                 "categories" => [
                     "Personal blog"
-                ]
+                ],
+                "id" => "258109244903798"
             ]
         }
     ];

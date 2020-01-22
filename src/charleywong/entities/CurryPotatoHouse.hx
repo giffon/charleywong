@@ -15,7 +15,8 @@ class CurryPotatoHouse implements Entity {
                     "Product/service",
                     "Pet supplies",
                     "Art"
-                ]
+                ],
+                "id" => "1081345721958969"
             ]
         }
     ];

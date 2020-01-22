@@ -16,7 +16,8 @@ class Muous implements Entity {
                     "Author",
                     "Art"
                 ],
-                "email" => "muou.mail@gmail.com"
+                "email" => "muou.mail@gmail.com",
+                "id" => "1402385826672544"
             ]
         }
     ];

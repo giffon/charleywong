@@ -7,7 +7,7 @@ class Cafe66 implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Cafe-66-958912300933866/",
+            url: "https://www.facebook.com/958912300933866/",
             meta: [
                 "about" => "咖啡·甜品·休閒\nopen in 0800~2200\n� 27640368\n� G/F, 66 Wharf Road, North Point, HK\n北角和富道66號地下 (和富中心正門斜對面)",
                 "categories" => [
@@ -17,7 +17,8 @@ class Cafe66 implements Entity {
                 "addr" => "G/F, 66 Wharf Road, North Point",
                 "area" => "Hong Kong",
                 "email" => "cafe66@yahoo.com",
-                "tel" => "27640368"
+                "tel" => "27640368",
+                "id" => "958912300933866"
             ]
         },
         {

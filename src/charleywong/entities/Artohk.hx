@@ -13,7 +13,8 @@ class Artohk implements Entity {
                 "categories" => [
                     "Author"
                 ],
-                "email" => "gapbetweeth@gmail.com"
+                "email" => "gapbetweeth@gmail.com",
+                "id" => "333246600089821"
             ]
         }
     ];

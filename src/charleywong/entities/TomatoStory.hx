@@ -16,7 +16,8 @@ class TomatoStory implements Entity {
                 ],
                 "addr" => "G/F, 8-12 Hennessy Road, China Hong Kong Tower",
                 "area" => "Wan Chai",
-                "tel" => "69386618"
+                "tel" => "69386618",
+                "id" => "290540861625949"
             ]
         }
     ];

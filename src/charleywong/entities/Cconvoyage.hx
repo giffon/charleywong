@@ -14,7 +14,8 @@ class Cconvoyage implements Entity {
                 "categories" => [
                     "Personal blog"
                 ],
-                "email" => "hello@cconvoyage.com"
+                "email" => "hello@cconvoyage.com",
+                "id" => "188278258201054"
             ]
         },
         {

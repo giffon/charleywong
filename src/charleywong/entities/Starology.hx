@@ -15,7 +15,8 @@ class Starology implements Entity {
                     "Arts and entertainment"
                 ],
                 "email" => "starologystudio@gmail.com",
-                "tel" => "95887569"
+                "tel" => "95887569",
+                "id" => "586891734790338"
             ]
         }
     ];

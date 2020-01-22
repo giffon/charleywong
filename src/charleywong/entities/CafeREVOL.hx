@@ -17,7 +17,8 @@ class CafeREVOL implements Entity {
                 ],
                 "addr" => "Shop No.5, G/F, Fortune Terrace, 4-16 Tak Shing Street, Jordan, Kowloon",
                 "area" => "Hong Kong",
-                "tel" => "37020170"
+                "tel" => "37020170",
+                "id" => "1630196367310399"
             ]
         }
     ];

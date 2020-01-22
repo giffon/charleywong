@@ -8,14 +8,15 @@ class JinnoNeko implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Jinno-Neko-神野猫-279914545362892/",
+            url: "https://www.facebook.com/279914545362892/",
             meta: [
                 "about" => "Bamboo framework artist and Illustrator",
                 "categories" => [
                     "Artist",
                     "News and media website"
                 ],
-                "email" => "jinnoneko@gmail.com"
+                "email" => "jinnoneko@gmail.com",
+                "id" => "279914545362892"
             ]
         },
         {

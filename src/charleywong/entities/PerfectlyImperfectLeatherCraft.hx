@@ -16,7 +16,8 @@ class PerfectlyImperfectLeatherCraft implements Entity {
                     "Art"
                 ],
                 "email" => "pi.leather.craft@gmail.com",
-                "tel" => "95576876"
+                "tel" => "95576876",
+                "id" => "451117551602467"
             ]
         },
         {

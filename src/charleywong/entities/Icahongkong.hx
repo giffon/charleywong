@@ -11,7 +11,8 @@ class Icahongkong implements Entity {
             meta: [
                 "categories" => [
                     "Non-profit organisation"
-                ]
+                ],
+                "id" => "646730532061049"
             ]
         }
     ];

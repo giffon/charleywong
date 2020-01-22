@@ -13,7 +13,8 @@ class ShAnhojewelry implements Entity {
                 "categories" => [
                     "Art",
                     "Product/service"
-                ]
+                ],
+                "id" => "143757898976113"
             ]
         }
     ];

@@ -13,7 +13,8 @@ class VenusPhilosophy implements Entity {
                 "categories" => [
                     "Just for fun"
                 ],
-                "email" => "lowingszevenus0505@gmail.com"
+                "email" => "lowingszevenus0505@gmail.com",
+                "id" => "691774270940913"
             ]
         }
     ];

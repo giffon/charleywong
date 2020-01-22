@@ -17,7 +17,8 @@ class NECROPOON implements Entity {
                 ],
                 "addr" => "Hong Kong",
                 "area" => "Hong Kong",
-                "email" => "necro@necropoon.com"
+                "email" => "necro@necropoon.com",
+                "id" => "1532126390392155"
             ]
         }
     ];

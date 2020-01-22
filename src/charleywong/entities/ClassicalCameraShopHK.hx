@@ -18,7 +18,8 @@ class ClassicalCameraShopHK implements Entity {
                 "addr" => "太子彌敦道760號東海大廈13樓17室, Flat 17, 13/F., Cosmopolitan Centre, 760 Nathan Road, Prince Edward",
                 "area" => "Hong Kong",
                 "email" => "info@classicalcamerashop.hk",
-                "tel" => "23913130"
+                "tel" => "23913130",
+                "id" => "417774858282396"
             ]
         },
         {

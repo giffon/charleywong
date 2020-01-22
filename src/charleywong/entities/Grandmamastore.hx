@@ -18,7 +18,8 @@ class Grandmamastore implements Entity {
                 "addr" => "觀塘駿業里8號",
                 "area" => "Kowloon, Hong Kong",
                 "email" => "grandmama.store@gmail.com",
-                "tel" => "92616654"
+                "tel" => "92616654",
+                "id" => "397631327272964"
             ]
         }
     ];

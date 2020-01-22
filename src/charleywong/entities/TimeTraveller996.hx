@@ -14,7 +14,8 @@ class TimeTraveller996 implements Entity {
                 "categories" => [
                     "Vintage shop",
                     "Brand"
-                ]
+                ],
+                "id" => "2014749705431317"
             ]
         },
         {

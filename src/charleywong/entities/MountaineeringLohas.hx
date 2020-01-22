@@ -13,7 +13,8 @@ class MountaineeringLohas implements Entity {
                 "categories" => [
                     "Interest"
                 ],
-                "email" => "info@mountaineering-lohas.org"
+                "email" => "info@mountaineering-lohas.org",
+                "id" => "315774615212535"
             ]
         }
     ];

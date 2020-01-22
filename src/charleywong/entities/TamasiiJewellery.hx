@@ -14,7 +14,8 @@ class TamasiiJewellery implements Entity {
                 "categories" => [
                     "Jewellery/watches"
                 ],
-                "email" => "tamasiijewellery@gmail.com"
+                "email" => "tamasiijewellery@gmail.com",
+                "id" => "428064120666631"
             ]
         }
     ];

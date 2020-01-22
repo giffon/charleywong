@@ -17,7 +17,8 @@ class LeisureinYuenLong implements Entity {
                 "addr" => "元朗鳯攸北街9A昌威大廈28號地鋪",
                 "area" => "Hong Kong",
                 "email" => "leisureinyuenlong@yahoo.com.hk",
-                "tel" => "35687741"
+                "tel" => "35687741",
+                "id" => "459320824196423"
             ]
         },
         {

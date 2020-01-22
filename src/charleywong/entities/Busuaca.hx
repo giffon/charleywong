@@ -15,7 +15,8 @@ class Busuaca implements Entity {
                 ],
                 "addr" => "YSS701, Yeung Shui Sang Building, Ho Sin Hang Campus, Hong Kong Baptist University, 224 Waterloo Road",
                 "area" => "Kowloon, Hong Kong",
-                "email" => "manrakucho.hkbuacas@gmail.com"
+                "email" => "manrakucho.hkbuacas@gmail.com",
+                "id" => "154827901361655"
             ]
         },
         {

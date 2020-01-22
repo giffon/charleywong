@@ -14,7 +14,8 @@ class GlamourLeathershop implements Entity {
                     "Local business"
                 ],
                 "email" => "holun_lam@yahoo.com.hk",
-                "tel" => "95862044"
+                "tel" => "95862044",
+                "id" => "303037506429054"
             ]
         },
         {

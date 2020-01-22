@@ -18,7 +18,8 @@ class Fascino implements Entity {
                 "addr" => "Unit 1202, Grandmark, 10 Granville Road",
                 "area" => "Tsim Sha Tsui",
                 "email" => "fascino.bespoke@gmail.com",
-                "tel" => "96004987"
+                "tel" => "96004987",
+                "id" => "1585999881672488"
             ]
         }
     ];

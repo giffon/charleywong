@@ -11,7 +11,8 @@ class Dearproject implements Entity {
             meta: [
                 "categories" => [
                     "Visual arts"
-                ]
+                ],
+                "id" => "172581123429202"
             ]
         }
     ];

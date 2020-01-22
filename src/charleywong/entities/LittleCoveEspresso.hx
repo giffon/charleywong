@@ -17,7 +17,8 @@ class LittleCoveEspresso implements Entity {
                 "addr" => "Sai Kung Town Villa Block A, Siu Yat Building Block A, Shop 1+2, G/F, Sai Kung Hoi Pong Square, Sai Kung",
                 "area" => "Hong Kong",
                 "email" => "info@littlecoveespresso.com",
-                "tel" => "95728560"
+                "tel" => "95728560",
+                "id" => "424053707795001"
             ]
         },
         {

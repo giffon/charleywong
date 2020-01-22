@@ -14,7 +14,8 @@ class BloomingBudsHandmade implements Entity {
                 "categories" => [
                     "Product/service",
                     "Jewellery/watches"
-                ]
+                ],
+                "id" => "187627714911296"
             ]
         }
     ];

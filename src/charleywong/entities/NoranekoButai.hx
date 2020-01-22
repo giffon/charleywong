@@ -14,7 +14,8 @@ class NoranekoButai implements Entity {
                 "categories" => [
                     "Blogger"
                 ],
-                "email" => "noranonekobutai@gmail.com"
+                "email" => "noranonekobutai@gmail.com",
+                "id" => "106309970765061"
             ]
         }
     ];

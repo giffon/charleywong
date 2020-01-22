@@ -12,7 +12,8 @@ class Walkslowlyinhk implements Entity {
                 "about" => "透過攝影，讓我重新認識香港。\n透過文字、相片及分享各種活動，希望大家和我一樣，認識更美好的香港。",
                 "categories" => [
                     "Community"
-                ]
+                ],
+                "id" => "433602923509275"
             ]
         }
     ];

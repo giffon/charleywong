@@ -7,14 +7,15 @@ class PonSeed implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/PonSeed-513646749010346/",
+            url: "https://www.facebook.com/513646749010346/",
             meta: [
                 "about" => "HK /draw / write / photograph\n.\n把種子從我的手掌心傳到你的手掌心，...\n\n\n\nSee more",
                 "categories" => [
                     "Personal blog",
                     "Grocers"
                 ],
-                "email" => "pon.seed.hk@gmail.com"
+                "email" => "pon.seed.hk@gmail.com",
+                "id" => "513646749010346"
             ]
         }
     ];

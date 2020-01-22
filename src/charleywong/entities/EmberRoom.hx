@@ -15,7 +15,8 @@ class EmberRoom implements Entity {
                     "Home decor"
                 ],
                 "email" => "contact.ember.room@gmail.com",
-                "tel" => "93253870"
+                "tel" => "93253870",
+                "id" => "444054109283813"
             ]
         }
     ];

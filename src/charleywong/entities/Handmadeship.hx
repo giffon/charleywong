@@ -14,7 +14,8 @@ class Handmadeship implements Entity {
                     "Product/service",
                     "Arts and crafts shop"
                 ],
-                "email" => "handmadeship@yahoo.com"
+                "email" => "handmadeship@yahoo.com",
+                "id" => "290374914499387"
             ]
         }
     ];

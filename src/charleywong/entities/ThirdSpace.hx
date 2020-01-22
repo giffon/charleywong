@@ -18,7 +18,8 @@ class ThirdSpace implements Entity {
                 "addr" => "16 Upper Station Street",
                 "area" => "Sheung Wan",
                 "email" => "3rdspacehk@gmail.com",
-                "tel" => "92209785"
+                "tel" => "92209785",
+                "id" => "552755761514146"
             ]
         }
     ];

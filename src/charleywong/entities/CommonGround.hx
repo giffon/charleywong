@@ -16,7 +16,8 @@ class CommonGround implements Entity {
                 "addr" => "G/F, 19 Shing Wong St",
                 "area" => "Central, Hong Kong",
                 "email" => "info@twins-kitchen.com",
-                "tel" => "28188318"
+                "tel" => "28188318",
+                "id" => "148162905333773"
             ]
         }
     ];

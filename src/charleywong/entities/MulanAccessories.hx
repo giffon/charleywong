@@ -13,7 +13,8 @@ class MulanAccessories implements Entity {
                 "categories" => [
                     "Accessories"
                 ],
-                "tel" => "65076000"
+                "tel" => "65076000",
+                "id" => "1617518081869449"
             ]
         }
     ];

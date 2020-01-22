@@ -7,13 +7,14 @@ class BlissMoment implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Bliss-Moment-124533194788266/",
+            url: "https://www.facebook.com/124533194788266/",
             meta: [
                 "about" => "本店已領有食物製造廠牌照\n2997807680 (牌照號碼)\n...\n\n\nSee more",
                 "categories" => [
                     "Product/service"
                 ],
-                "tel" => "62122744"
+                "tel" => "62122744",
+                "id" => "124533194788266"
             ]
         }
     ];

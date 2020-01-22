@@ -13,7 +13,8 @@ class CusonLoChiKong implements Entity {
                 "categories" => [
                     "Writer"
                 ],
-                "email" => "cusonlo@gmail.com"
+                "email" => "cusonlo@gmail.com",
+                "id" => "1598771346881547"
             ]
         }
     ];

@@ -15,7 +15,8 @@ class Banananaxx implements Entity {
                     "Women\'s clothes shop"
                 ],
                 "email" => "banananaxxhk@gmail.com",
-                "tel" => "53384345"
+                "tel" => "53384345",
+                "id" => "124127991324309"
             ]
         },
         {

@@ -16,7 +16,8 @@ class JANPictures implements Entity {
                 "addr" => "Suite 06-07, 19/F, Clifford Centre, 778-784 Cheung Sha Wan Road, Kowloon",
                 "area" => "Hong Kong",
                 "email" => "info@jan.hk",
-                "tel" => "94498907"
+                "tel" => "94498907",
+                "id" => "134748554021058"
             ]
         },
         {

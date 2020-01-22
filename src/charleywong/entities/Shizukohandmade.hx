@@ -16,7 +16,8 @@ class Shizukohandmade implements Entity {
                     "Jewellery wholesaler"
                 ],
                 "email" => "shizukohandmade@gmail.com",
-                "tel" => "54934751"
+                "tel" => "54934751",
+                "id" => "476764966006823"
             ]
         },
         {

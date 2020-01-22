@@ -7,12 +7,13 @@ class Dearjasminica implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Dearjasminica-1705257319524720/",
+            url: "https://www.facebook.com/1705257319524720/",
             meta: [
                 "about" => "主要售賣自家設計手作產品�SINCE © 2 0 1 7",
                 "categories" => [
                     "Product/service"
-                ]
+                ],
+                "id" => "1705257319524720"
             ]
         }
     ];

@@ -11,12 +11,13 @@ class Gforglaycheong implements Entity {
             url: "https://www.facebook.com/gforglaycheong/"
         },
         {
-            url: "https://www.facebook.com/Glaycheong-photography-%E5%A7%AC%E6%98%8C%E6%94%9D%E5%BD%B1-106014527610433/",
+            url: "https://www.facebook.com/106014527610433/",
             meta: [
                 "about" => "wish my original page can be recovered very soon",
                 "categories" => [
                     "Photographer"
-                ]
+                ],
+                "id" => "106014527610433"
             ]
         }
     ];

@@ -8,13 +8,14 @@ class KwongWingCatering implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/光榮飲食-Kwong-Wing-Catering-116149449769292/",
+            url: "https://www.facebook.com/116149449769292/",
             meta: [
                 "about" => "光榮冰室:\n深井深井村54-55號地下\n荃灣兆和街18號地下...\n\n\n\n\n\n\nSee more",
                 "categories" => [
                     "Restaurant"
                 ],
-                "email" => "gloryfandb@gmail.com"
+                "email" => "gloryfandb@gmail.com",
+                "id" => "116149449769292"
             ]
         }
     ];

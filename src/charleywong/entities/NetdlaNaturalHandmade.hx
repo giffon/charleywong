@@ -16,7 +16,8 @@ class NetdlaNaturalHandmade implements Entity {
                     "Cosmetics shop"
                 ],
                 "email" => "netdla.beauty@gmail.com",
-                "tel" => "60776193"
+                "tel" => "60776193",
+                "id" => "152213711645235"
             ]
         }
     ];

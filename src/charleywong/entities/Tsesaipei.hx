@@ -14,7 +14,8 @@ class Tsesaipei implements Entity {
                 "categories" => [
                     "Author"
                 ],
-                "email" => "jas.tse322@gmail.com"
+                "email" => "jas.tse322@gmail.com",
+                "id" => "134709906676100"
             ]
         }
     ];

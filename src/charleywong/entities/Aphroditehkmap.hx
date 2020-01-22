@@ -14,7 +14,8 @@ class Aphroditehkmap implements Entity {
                 "categories" => [
                     "Society & culture website"
                 ],
-                "email" => "hello@aphroditehongkong.com"
+                "email" => "hello@aphroditehongkong.com",
+                "id" => "2086089608110420"
             ]
         },
         {

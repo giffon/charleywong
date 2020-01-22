@@ -14,7 +14,8 @@ class WaTryCoffee implements Entity {
                     "Retail company"
                 ],
                 "email" => "watrycoffee@gmail.com",
-                "tel" => "68161440"
+                "tel" => "68161440",
+                "id" => "446017635871022"
             ]
         }
     ];

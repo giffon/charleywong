@@ -14,7 +14,8 @@ class MishtarLifeStyle implements Entity {
                     "Arts and crafts shop",
                     "Product/service"
                 ],
-                "email" => "mishtarbo@yahoo.com.hk"
+                "email" => "mishtarbo@yahoo.com.hk",
+                "id" => "505351046191178"
             ]
         }
     ];

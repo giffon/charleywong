@@ -16,7 +16,8 @@ class Littlescoool implements Entity {
                 ],
                 "addr" => "尖沙咀彌敦道132號2樓",
                 "area" => "Kowloon, Hong Kong",
-                "tel" => "27717828"
+                "tel" => "27717828",
+                "id" => "136992696983334"
             ]
         },
         {
@@ -32,3 +33,4 @@ class Littlescoool implements Entity {
         }
     ];
 }
+

@@ -15,7 +15,8 @@ class TheGalWhoSoldTora implements Entity {
                     "Jewellery & watches shop",
                     "Fashion designer"
                 ],
-                "email" => "sold.tora@gmail.com"
+                "email" => "sold.tora@gmail.com",
+                "id" => "61668818638"
             ]
         }
     ];

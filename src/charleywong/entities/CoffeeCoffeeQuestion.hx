@@ -17,7 +17,8 @@ class CoffeeCoffeeQuestion implements Entity {
                 "addr" => "G/F 588B Fuk Wa Street",
                 "area" => "Kowloon, Hong Kong",
                 "email" => "coffeecoffeequestion@gmail.com",
-                "tel" => "61119384"
+                "tel" => "61119384",
+                "id" => "1663632577257491"
             ]
         }
     ];

@@ -14,7 +14,8 @@ class ArtisticRoomAr implements Entity {
                 "categories" => [
                     "Jewellery/watches"
                 ],
-                "tel" => "53744782"
+                "tel" => "53744782",
+                "id" => "671958669486273"
             ]
         }
     ];

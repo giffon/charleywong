@@ -14,7 +14,8 @@ class JoyeeWalker implements Entity {
                 "categories" => [
                     "Travel company"
                 ],
-                "email" => "joyeeproduction@gmail.com"
+                "email" => "joyeeproduction@gmail.com",
+                "id" => "1668115463499101"
             ]
         }
     ];

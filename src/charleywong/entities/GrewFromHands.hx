@@ -16,7 +16,8 @@ class GrewFromHands implements Entity {
                 "addr" => "1/F, Breakthrough Centre, 191 Woo Sung Street, Kowloon",
                 "area" => "Hong Kong",
                 "email" => "grewfromhands@gmail.com",
-                "tel" => "60722581"
+                "tel" => "60722581",
+                "id" => "888240164690683"
             ]
         }
     ];

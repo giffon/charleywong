@@ -16,7 +16,8 @@ class Coffee29Co implements Entity {
                 "addr" => "Shop D, 29 Tai Yip St.",
                 "area" => "Ngau Tau Kok",
                 "email" => "info@29coffeeco.com",
-                "tel" => "62789799"
+                "tel" => "62789799",
+                "id" => "149922175664368"
             ]
         }
     ];

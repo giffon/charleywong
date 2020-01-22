@@ -15,7 +15,8 @@ class KKBOX implements Entity {
                 "about" => "★KKBOX 一起聽音樂吧！ www.kkbox.com★",
                 "categories" => [
                     "Product/service"
-                ]
+                ],
+                "id" => "191473504869"
             ]
         }
     ];

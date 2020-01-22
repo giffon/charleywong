@@ -13,7 +13,8 @@ class Beibeicollectionhk implements Entity {
                     "Product/service"
                 ],
                 "email" => "beibeicollectionhk@gmail.com",
-                "tel" => "60119030"
+                "tel" => "60119030",
+                "id" => "834817613351304"
             ]
         }
     ];

@@ -13,7 +13,8 @@ class Earthtonehandmadeproductshk implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "tel" => "67190171"
+                "tel" => "67190171",
+                "id" => "169573799840891"
             ]
         }
     ];

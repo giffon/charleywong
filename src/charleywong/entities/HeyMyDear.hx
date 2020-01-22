@@ -13,7 +13,8 @@ class HeyMyDear implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "email" => "heymydear.present@gmail.com"
+                "email" => "heymydear.present@gmail.com",
+                "id" => "585352061844282"
             ]
         }
     ];

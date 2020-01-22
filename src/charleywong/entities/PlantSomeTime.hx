@@ -17,7 +17,8 @@ class PlantSomeTime implements Entity {
                 "addr" => "Room 709, Block B, Po Lung Centre, 11 Wang Chiu Road, Kowloon Bay",
                 "area" => "Hong Kong",
                 "email" => "info@plantsometime.com",
-                "tel" => "56865868"
+                "tel" => "56865868",
+                "id" => "561318513962713"
             ]
         }
     ];

@@ -22,7 +22,8 @@ class PandaTechnology implements Entity {
                 "addr" => "深水埗福華街146-152號高登電腦商場1樓1號鋪",
                 "area" => "Hong Kong",
                 "email" => "pandatech108@gmail.com",
-                "tel" => "97301820"
+                "tel" => "97301820",
+                "id" => "1556662797962750"
             ]
         }
     ];

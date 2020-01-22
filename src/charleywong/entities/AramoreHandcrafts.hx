@@ -14,7 +14,8 @@ class AramoreHandcrafts implements Entity {
                     "Personal blog"
                 ],
                 "email" => "myaramore@gmail.com",
-                "tel" => "64481713"
+                "tel" => "64481713",
+                "id" => "1439346026374999"
             ]
         }
     ];

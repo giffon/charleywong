@@ -13,7 +13,8 @@ class AJYdesigns implements Entity {
                 "Leather and fabric bags designed and handmade in Hong Kong. Each piece is made once and never repeated.\nCustom orders are welcome!",
                 "categories" => [
                     "Bags/luggage"
-                ]
+                ],
+                "id" => "119003761592710"
             ]
         }
     ];

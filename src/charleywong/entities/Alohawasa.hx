@@ -13,7 +13,8 @@ class Alohawasa implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "wasayik@gmail.com"
+                "email" => "wasayik@gmail.com",
+                "id" => "195232227322820"
             ]
         }
     ];

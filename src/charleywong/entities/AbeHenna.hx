@@ -14,7 +14,8 @@ class AbeHenna implements Entity {
                     "Artist"
                 ],
                 "email" => "henna.abe@gmail.com",
-                "tel" => "93569892"
+                "tel" => "93569892",
+                "id" => "443305789021422"
             ]
         }
     ];

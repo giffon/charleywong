@@ -16,7 +16,8 @@ class Daisyzoom implements Entity {
                 ],
                 "addr" => "618 Shanghai Street, Mongkok",
                 "area" => "Hong Kong",
-                "email" => "info@daisyzoom.com"
+                "email" => "info@daisyzoom.com",
+                "id" => "492145607633111"
             ]
         },
         {

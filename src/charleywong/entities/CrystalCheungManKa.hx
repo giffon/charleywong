@@ -17,7 +17,8 @@ class CrystalCheungManKa implements Entity {
                 "categories" => [
                     "Public figure"
                 ],
-                "email" => "qui.crystalcheung@gmail.com"
+                "email" => "qui.crystalcheung@gmail.com",
+                "id" => "447921795634"
             ]
         },
         {

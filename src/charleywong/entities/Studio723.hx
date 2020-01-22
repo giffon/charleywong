@@ -16,7 +16,8 @@ class Studio723 implements Entity {
                     "Designer"
                 ],
                 "email" => "info@723studio.com",
-                "tel" => "24168688"
+                "tel" => "24168688",
+                "id" => "279274449095537"
             ]
         }
     ];

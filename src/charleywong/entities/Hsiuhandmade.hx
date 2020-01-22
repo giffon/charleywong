@@ -15,7 +15,8 @@ class Hsiuhandmade implements Entity {
                     "Pet supplies",
                     "Art"
                 ],
-                "email" => "i_am_hsiu@yahoo.com.hk"
+                "email" => "i_am_hsiu@yahoo.com.hk",
+                "id" => "938915199473242"
             ]
         }
     ];

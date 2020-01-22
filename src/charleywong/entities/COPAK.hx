@@ -17,7 +17,8 @@ class COPAK implements Entity {
                     "Musician/band"
                 ],
                 "email" => "hkcopakofficial@gmail.com",
-                "tel" => "67463066"
+                "tel" => "67463066",
+                "id" => "173930496689338"
             ]
         }
     ];

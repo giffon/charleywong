@@ -13,7 +13,8 @@ class Mzcca implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "mzcca0.16@gmail.com"
+                "email" => "mzcca0.16@gmail.com",
+                "id" => "1057015431098827"
             ]
         }
     ];

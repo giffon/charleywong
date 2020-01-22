@@ -12,7 +12,8 @@ class Jellam116 implements Entity {
                 "about" => "本專頁純為個人分享\n不設求帶",
                 "categories" => [
                     "Blogger"
-                ]
+                ],
+                "id" => "271769186533691"
             ]
         }
     ];

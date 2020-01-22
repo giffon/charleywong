@@ -18,7 +18,8 @@ class WeAreNOExpert implements Entity {
                 "addr" => "Kiosk 05 of Shop No.201 on Level 2 of K11, No.18 Hanoi Road, Tsim Sha Tsui, Kowloon",
                 "area" => "Hong Kong",
                 "email" => "wearenoexpert@gmail.com",
-                "tel" => "54092576"
+                "tel" => "54092576",
+                "id" => "340411489384701"
             ]
         }
     ];

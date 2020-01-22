@@ -22,7 +22,8 @@ class Esportsomg implements Entity {
                 "addr" => "九龍長沙灣道742-748號 鴻昌工廠大廈 3/F A室 (🚇荔枝角地鐵站B1出口 | 光昌街入口)",
                 "area" => "Hong Kong",
                 "email" => "info@esportsomg.com",
-                "tel" => "69364158"
+                "tel" => "69364158",
+                "id" => "668688220002594"
             ]
         }
     ];

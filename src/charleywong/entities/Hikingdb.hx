@@ -14,7 +14,8 @@ class Hikingdb implements Entity {
                 "categories" => [
                     "Interest"
                 ],
-                "email" => "hikingdb@gmail.com"
+                "email" => "hikingdb@gmail.com",
+                "id" => "1977409279201291"
             ]
         }
     ];

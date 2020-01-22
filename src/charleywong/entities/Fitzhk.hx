@@ -14,7 +14,8 @@ class Fitzhk implements Entity {
                     "News and media website",
                     "Sport & recreation"
                 ],
-                "email" => "info@fitz.hk"
+                "email" => "info@fitz.hk",
+                "id" => "731163800294100"
             ]
         }
     ];

@@ -18,7 +18,8 @@ class ThePolskaTraveller implements Entity {
                 ],
                 "addr" => "Shop 5, G/F, 19-23 Tung Lo Wan Rd, Causeway Bay",
                 "area" => "Hong Kong",
-                "email" => "thepolskatraveller@gmail.com"
+                "email" => "thepolskatraveller@gmail.com",
+                "id" => "291416887590235"
             ]
         },
         {

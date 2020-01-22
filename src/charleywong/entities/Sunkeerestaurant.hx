@@ -16,7 +16,8 @@ class Sunkeerestaurant implements Entity {
                 ],
                 "addr" => "尖沙咀金巴利道香檳大廈商埸13鋪",
                 "area" => "Tsim Sha Tsui",
-                "tel" => "27224555"
+                "tel" => "27224555",
+                "id" => "129580700404863"
             ]
         }
     ];

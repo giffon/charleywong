@@ -15,7 +15,8 @@ class AsSeenOnMe implements Entity {
                 "about" => "Please follow our IG @asom_closet �",
                 "categories" => [
                     "Clothing (brand)"
-                ]
+                ],
+                "id" => "664121017344138"
             ]
         }
     ];

@@ -13,7 +13,8 @@ class LunaIsABep implements Entity {
                 "categories" => [
                     "Musician"
                 ],
-                "email" => "lunaisabep@gmail.com"
+                "email" => "lunaisabep@gmail.com",
+                "id" => "137021420302454"
             ]
         },
         {

@@ -14,7 +14,8 @@ class Kuugatoys implements Entity {
                 "categories" => [
                     "Shopping & retail"
                 ],
-                "email" => "kuugatoys@yahoo.com.hk"
+                "email" => "kuugatoys@yahoo.com.hk",
+                "id" => "127295004039286"
             ]
         }
     ];

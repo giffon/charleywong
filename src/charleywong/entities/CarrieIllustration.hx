@@ -13,7 +13,8 @@ class CarrieIllustration implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "kaheicarrie@gmail.com"
+                "email" => "kaheicarrie@gmail.com",
+                "id" => "138872126137331"
             ]
         },
         {

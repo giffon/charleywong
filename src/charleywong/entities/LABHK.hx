@@ -15,7 +15,8 @@ class LABHK implements Entity {
                     "Collectibles Store"
                 ],
                 "email" => "info@lab-collector-hk.com",
-                "tel" => "27568111"
+                "tel" => "27568111",
+                "id" => "125118404190102"
             ]
         }
     ];

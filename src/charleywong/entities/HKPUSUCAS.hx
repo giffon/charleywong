@@ -13,7 +13,8 @@ class HKPUSUCAS implements Entity {
                 "categories" => [
                     "Non-profit organisation"
                 ],
-                "email" => "comic@su.polyu.edu.hk"
+                "email" => "comic@su.polyu.edu.hk",
+                "id" => "267361573469632"
             ]
         }
     ];

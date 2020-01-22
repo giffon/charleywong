@@ -17,7 +17,8 @@ class After10 implements Entity {
                     "Musician/band"
                 ],
                 "email" => "after10hk@gmail.com",
-                "tel" => "93089649"
+                "tel" => "93089649",
+                "id" => "599265466857325"
             ]
         },
         {

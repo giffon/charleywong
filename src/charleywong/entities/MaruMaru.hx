@@ -12,7 +12,8 @@ class MaruMaru implements Entity {
                 "about" => "文具雜貨店\n\n紙膠帶，印章，手帳...\n\n\nSee more",
                 "categories" => [
                     "Gift shop"
-                ]
+                ],
+                "id" => "486752131395357"
             ]
         }
     ];

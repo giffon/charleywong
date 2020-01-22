@@ -14,7 +14,8 @@ class Innoscent implements Entity {
                 "categories" => [
                     "Beauty, cosmetic & personal care",
                     "Product/service"
-                ]
+                ],
+                "id" => "379509865879096"
             ]
         }
     ];

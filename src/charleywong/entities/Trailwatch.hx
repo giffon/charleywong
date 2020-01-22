@@ -15,7 +15,8 @@ class Trailwatch implements Entity {
                     "App Page",
                     "Nature reserve"
                 ],
-                "email" => "info@trailwatch.hk"
+                "email" => "info@trailwatch.hk",
+                "id" => "645959668776951"
             ]
         }
     ];

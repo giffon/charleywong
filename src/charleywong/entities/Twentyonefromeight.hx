@@ -17,7 +17,8 @@ class Twentyonefromeight implements Entity {
                 "addr" => "11 Floor, Pang Kwong Building, 59 Hung To Road",
                 "area" => "Kwun Tong",
                 "email" => "info@twentyonefromeight.com",
-                "tel" => "23211738"
+                "tel" => "23211738",
+                "id" => "258617804334076"
             ]
         }
     ];

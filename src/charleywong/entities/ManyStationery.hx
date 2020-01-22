@@ -11,14 +11,15 @@ class ManyStationery implements Entity {
             url: "https://www.many.hk/"
         },
         {
-            url: "https://www.facebook.com/%E6%96%87%E6%9E%97%E6%96%87%E5%85%B7Many-Stationery-284019865315406/",
+            url: "https://www.facebook.com/284019865315406/",
             meta: [
                 "categories" => [
                     "Shopping & retail"
                 ],
                 "addr" => "65 G/F., Un Chau Street, Shamshuipo",
                 "area" => "Kowloon, Hong Kong",
-                "tel" => "23600789"
+                "tel" => "23600789",
+                "id" => "284019865315406"
             ]
         }
     ];

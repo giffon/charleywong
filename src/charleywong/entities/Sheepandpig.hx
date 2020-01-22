@@ -15,7 +15,8 @@ class Sheepandpig implements Entity {
                     "Diner"
                 ],
                 "addr" => "天后歌頓道1A號DIVA地下1號舖",
-                "area" => "North Point"
+                "area" => "North Point",
+                "id" => "2270942479860435"
             ]
         }
     ];

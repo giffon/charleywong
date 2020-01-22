@@ -18,7 +18,8 @@ class MOSSES implements Entity {
                 "addr" => "14 St. Francis Street, Wanchai",
                 "area" => "Hong Kong",
                 "email" => "info@mosses.hk",
-                "tel" => "23512098"
+                "tel" => "23512098",
+                "id" => "136633633633737"
             ]
         },
         {

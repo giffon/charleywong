@@ -13,7 +13,8 @@ class MayMade implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "maymadecraft@gmail.com"
+                "email" => "maymadecraft@gmail.com",
+                "id" => "206421096151511"
             ]
         }
     ];

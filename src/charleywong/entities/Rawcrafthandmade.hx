@@ -13,7 +13,8 @@ class Rawcrafthandmade implements Entity {
                 "categories" => [
                     "Product/service",
                     "Arts and crafts shop"
-                ]
+                ],
+                "id" => "831425730321158"
             ]
         }
     ];

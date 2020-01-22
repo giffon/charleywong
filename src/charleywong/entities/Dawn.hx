@@ -17,7 +17,8 @@ class Dawn implements Entity {
                 "addr" => "233 Fa Yuen Street, Edmund\'s Mansion, G/F, Shop A",
                 "area" => "Hong Kong",
                 "email" => "dawnbrunchncoffee@gmail.com",
-                "tel" => "25699918"
+                "tel" => "25699918",
+                "id" => "887735904892298"
             ]
         }
     ];

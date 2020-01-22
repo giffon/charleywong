@@ -13,7 +13,8 @@ class BadAssCoffee implements Entity {
                 "Japanese Specialties coffee dealer.\n\nOur beans are roasted in Japan and ship to Hong Kong once it been made.\n\nUnique . Unbalance . Unbearable",
                 "categories" => [
                     "Pub"
-                ]
+                ],
+                "id" => "333013757116292"
             ]
         }
     ];

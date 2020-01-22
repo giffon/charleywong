@@ -19,7 +19,8 @@ class Mudlabhk implements Entity {
                 "addr" => "Room 5, 12/F, Hung Shing Industrial Bldg, 27 Tai Yip Street, Kwun Tong,Kowloon",
                 "area" => "Hong Kong",
                 "email" => "mudlabhk@gmail.com",
-                "tel" => "94903069"
+                "tel" => "94903069",
+                "id" => "1354979847949402"
             ]
         },
         {

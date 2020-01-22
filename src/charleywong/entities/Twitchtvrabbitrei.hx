@@ -14,7 +14,8 @@ class Twitchtvrabbitrei implements Entity {
                 "categories" => [
                     "Just for fun"
                 ],
-                "email" => "ttvrabbitrei@gmail.com"
+                "email" => "ttvrabbitrei@gmail.com",
+                "id" => "1118783441547058"
             ]
         },
         {

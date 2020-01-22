@@ -13,7 +13,8 @@ class PaperGoodsbyDorie implements Entity {
                 "categories" => [
                     "Art"
                 ],
-                "email" => "papergoodshk@gmail.com"
+                "email" => "papergoodshk@gmail.com",
+                "id" => "384474821696120"
             ]
         }
     ];

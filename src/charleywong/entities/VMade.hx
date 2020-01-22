@@ -12,7 +12,8 @@ class VMade implements Entity {
                 "about" => "回歸手作包的初心，因需求而製作。",
                 "categories" => [
                     "Product/service"
-                ]
+                ],
+                "id" => "390459458202915"
             ]
         }
     ];

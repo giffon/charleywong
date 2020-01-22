@@ -22,7 +22,8 @@ class CanapsRoom implements Entity {
                 "addr" => "23-26,3/F, Block B, Wah Lok Industrial Centre, 31-41 San Mei Street, Fo Tan",
                 "area" => "Sha Tin, Hong Kong",
                 "email" => "info@canapesroom.com",
-                "tel" => "37493873"
+                "tel" => "37493873",
+                "id" => "492284157630543"
             ]
         }
     ];

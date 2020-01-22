@@ -14,7 +14,8 @@ class JustMoveLimited implements Entity {
                     "Internet company"
                 ],
                 "email" => "info@justmove.com.hk",
-                "tel" => "31114122"
+                "tel" => "31114122",
+                "id" => "281218782271462"
             ]
         }
     ];

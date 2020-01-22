@@ -11,7 +11,8 @@ class ArtsyOligraphy implements Entity {
             meta: [
                 "categories" => [
                     "Artist"
-                ]
+                ],
+                "id" => "332336587363380"
             ]
         }
     ];

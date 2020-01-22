@@ -16,7 +16,8 @@ class DesignPort implements Entity {
                 "addr" => "Room L103 - L104, 1/F, Jockey Club Creative Arts Centre (JCCAC), 30 Pak Tin Street,",
                 "area" => "Shek Kip Mei",
                 "email" => "info@d-port.co",
-                "tel" => "25769993"
+                "tel" => "25769993",
+                "id" => "178839878991407"
             ]
         },
         {

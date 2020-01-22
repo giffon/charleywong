@@ -13,7 +13,8 @@ class OrannieCoinart implements Entity {
                 "about" => "Coin art n metalwork since 2014",
                 "categories" => [
                     "Arts and entertainment"
-                ]
+                ],
+                "id" => "383921468412707"
             ]
         }
     ];

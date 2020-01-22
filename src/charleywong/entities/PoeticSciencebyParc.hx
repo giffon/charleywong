@@ -17,7 +17,8 @@ class PoeticSciencebyParc implements Entity {
                 "addr" => "Unit B2, 10/FL, 60 Hung To Road, Kwun Tong",
                 "area" => "Hong Kong",
                 "email" => "hello@par-c.com",
-                "tel" => "55440534"
+                "tel" => "55440534",
+                "id" => "1834921736725140"
             ]
         }
     ];

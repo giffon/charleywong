@@ -19,7 +19,8 @@ class Mingpaoinews implements Entity {
                 "addr" => "15/F, Block A, Ming Pao Industrial Centre, 18 Ka Yip Street, Chai Wan",
                 "area" => "Hong Kong",
                 "email" => "inews@mingpao.com",
-                "tel" => "91814676"
+                "tel" => "91814676",
+                "id" => "498203090239831"
             ]
         }
     ];

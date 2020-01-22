@@ -12,7 +12,8 @@ class Tigercats implements Entity {
                 "about" => "Tigercats_，是一個香港的手作品牌， 希望能夠把不同地方的題材/材料融入手作當中，把手作文化帶入大家的生活，分享創作的快樂，亦希望重現Made in Hong Kong的優良產品。",
                 "categories" => [
                     "Bags/luggage"
-                ]
+                ],
+                "id" => "452221058298779"
             ]
         },
         {

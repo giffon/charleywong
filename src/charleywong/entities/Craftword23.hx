@@ -12,7 +12,8 @@ class Craftword23 implements Entity {
                 "about" => "文字本來就是最美麗的藝術品",
                 "categories" => [
                     "Artist"
-                ]
+                ],
+                "id" => "410709619117793"
             ]
         }
     ];

@@ -13,7 +13,8 @@ class Officialchapmanto implements Entity {
                 "about" => "廣告代理：Good Morning Creative Limited\n查詢：+852 22190061 (鄧先生)\n或電郵： Dan@goodmorningcreative.com...\n\n\nSee more",
                 "categories" => [
                     "Artist"
-                ]
+                ],
+                "id" => "635086113297079"
             ]
         }
     ];

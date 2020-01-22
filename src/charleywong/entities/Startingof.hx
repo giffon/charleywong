@@ -18,7 +18,8 @@ class Startingof implements Entity {
                 "addr" => "元朗錦上路160",
                 "area" => "Hong Kong",
                 "email" => "snowapple_chan@yahoo.com.hk",
-                "tel" => "63552996"
+                "tel" => "63552996",
+                "id" => "1410415365645248"
             ]
         }
     ];

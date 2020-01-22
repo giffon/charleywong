@@ -16,7 +16,8 @@ class Yanshangkee implements Entity {
                 ],
                 "addr" => "Flat C , 1/F, 16A Elgin Street,Central,Hong Kong",
                 "area" => "Hong Kong",
-                "email" => "yanshangkee@gmail.com"
+                "email" => "yanshangkee@gmail.com",
+                "id" => "1740042699648238"
             ]
         }
     ];

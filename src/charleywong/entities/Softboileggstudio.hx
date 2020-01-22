@@ -15,7 +15,8 @@ class Softboileggstudio implements Entity {
                     "Jewellery/watches",
                     "Accessories"
                 ],
-                "email" => "nekozoocat@gmail.com"
+                "email" => "nekozoocat@gmail.com",
+                "id" => "1061022977320498"
             ]
         },
         {

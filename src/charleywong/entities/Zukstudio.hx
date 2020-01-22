@@ -18,7 +18,8 @@ class Zukstudio implements Entity {
                     "Music production studio",
                     "Music school"
                 ],
-                "email" => "zuk.studio@gmail.com"
+                "email" => "zuk.studio@gmail.com",
+                "id" => "170469933076106"
             ]
         }
     ];

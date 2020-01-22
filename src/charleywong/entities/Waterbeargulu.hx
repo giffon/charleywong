@@ -14,7 +14,8 @@ class Waterbeargulu implements Entity {
                 "categories" => [
                     "Art"
                 ],
-                "email" => "waterbeargulu@gmail.com"
+                "email" => "waterbeargulu@gmail.com",
+                "id" => "1102762323202008"
             ]
         },
         {

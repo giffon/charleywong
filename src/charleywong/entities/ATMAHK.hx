@@ -18,7 +18,8 @@ class ATMAHK implements Entity {
                 "addr" => "NO. 46, MAN KOK TSUEN",
                 "area" => "Sheung Shui",
                 "email" => "atmahub@gmail.com",
-                "tel" => "66982085"
+                "tel" => "66982085",
+                "id" => "1210987819064185"
             ]
         },
         {

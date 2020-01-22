@@ -15,7 +15,8 @@ class AKINKK implements Entity {
                     "Hiking trail",
                     "Nature reserve"
                 ],
-                "email" => "akinkk.sound@gmail.com"
+                "email" => "akinkk.sound@gmail.com",
+                "id" => "1752097465021314"
             ]
         },
         {

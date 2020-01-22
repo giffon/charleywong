@@ -14,7 +14,8 @@ class NOTCHfrontstation implements Entity {
                     "Coffee shop"
                 ],
                 "addr" => "台北市中正區信陽街6號",
-                "area" => "Taipei, Taiwan"
+                "area" => "Taipei, Taiwan",
+                "id" => "515742935176112"
             ]
         }
     ];

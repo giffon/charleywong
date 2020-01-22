@@ -14,7 +14,8 @@ class Tilifestyleworkshop implements Entity {
                     "Product/service",
                     "Picnic ground",
                     "Camp site"
-                ]
+                ],
+                "id" => "1010341322444497"
             ]
         }
     ];

@@ -15,7 +15,8 @@ class LaLuz implements Entity {
                 ],
                 "addr" => "文苑街28號地下B舖",
                 "area" => "Hong Kong",
-                "tel" => "95407087"
+                "tel" => "95407087",
+                "id" => "631818960343446"
             ]
         }
     ];

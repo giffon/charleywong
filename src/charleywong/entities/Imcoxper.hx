@@ -17,7 +17,8 @@ class Imcoxper implements Entity {
                 "addr" => "Ming Sang Industrial Building, 19 Hing Yip St,",
                 "area" => "Kwun Tong",
                 "email" => "info@imcoxper.com",
-                "tel" => "97350102"
+                "tel" => "97350102",
+                "id" => "190166271582795"
             ]
         },
         {

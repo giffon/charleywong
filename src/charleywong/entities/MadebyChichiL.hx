@@ -12,7 +12,8 @@ class MadebyChichiL implements Entity {
                 "about" => "Je maime (●°u°●) 」\nI\'m not perfect but I\'m LIMITED EDITION.ʕ •ᴥ•ʔ\nFrom HONG KONG....\n\n\nSee more",
                 "categories" => [
                     "Bags/luggage"
-                ]
+                ],
+                "id" => "1878230759093040"
             ]
         }
     ];

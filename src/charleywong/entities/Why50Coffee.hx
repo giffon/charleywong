@@ -16,7 +16,8 @@ class Why50Coffee implements Entity {
                 ],
                 "addr" => "Shop E, G/F, Fu Fai Commercial Centre, 27 Hillier Street, Sheung Wan",
                 "area" => "Hong Kong",
-                "email" => "why50hk@gmail.com"
+                "email" => "why50hk@gmail.com",
+                "id" => "1498312237146476"
             ]
         },
         {

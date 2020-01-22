@@ -15,7 +15,8 @@ class Hk1963 implements Entity {
                 ],
                 "addr" => "灣仔道110號2樓",
                 "area" => "Hong Kong",
-                "tel" => "31050160"
+                "tel" => "31050160",
+                "id" => "502045006639589"
             ]
         },
         {
@@ -28,3 +29,4 @@ class Hk1963 implements Entity {
         }
     ];
 }
+

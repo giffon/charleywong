@@ -18,7 +18,8 @@ class Soilhk2012 implements Entity {
                 ],
                 "addr" => "上水華山村DD51 LOT503&4 （近梧桐河及舊華山村公立學校）",
                 "area" => "Hong Kong",
-                "email" => "soil.education@gmail.com"
+                "email" => "soil.education@gmail.com",
+                "id" => "470387932992982"
             ]
         }
     ];

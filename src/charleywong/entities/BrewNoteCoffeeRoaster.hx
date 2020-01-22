@@ -16,7 +16,8 @@ class BrewNoteCoffeeRoaster implements Entity {
                     "Restaurant"
                 ],
                 "email" => "brewnotecoffeeroaster@gmail.com",
-                "tel" => "25629990"
+                "tel" => "25629990",
+                "id" => "662180230527735"
             ]
         }
     ];

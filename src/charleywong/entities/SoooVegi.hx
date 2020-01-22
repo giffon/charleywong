@@ -16,7 +16,8 @@ class SoooVegi implements Entity {
                     "Health food restaurant"
                 ],
                 "addr" => "Shop A6, Wah Hoi Mansion, 254-280 Electric Rd",
-                "area" => "North Point"
+                "area" => "North Point",
+                "id" => "190133197862307"
             ]
         }
     ];

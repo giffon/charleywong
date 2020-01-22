@@ -16,7 +16,8 @@ class StudioCaffeine implements Entity {
                 ],
                 "addr" => "284 Temple Street (Near Austin Road)",
                 "area" => "Tsim Sha Tsui",
-                "email" => "info@studiocaffeine.com.hk"
+                "email" => "info@studiocaffeine.com.hk",
+                "id" => "1507811522796204"
             ]
         }
     ];

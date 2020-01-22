@@ -16,7 +16,8 @@ class MyLittleCoffee implements Entity {
                 "addr" => "旺角花園街2-16號好景商業中心1樓22室",
                 "area" => "Mong Kok",
                 "email" => "mylittlecoffee.hk@gmail.com",
-                "tel" => "34888387"
+                "tel" => "34888387",
+                "id" => "458731097531829"
             ]
         }
     ];

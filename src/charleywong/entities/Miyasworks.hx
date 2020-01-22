@@ -14,7 +14,8 @@ class Miyasworks implements Entity {
                     "Health/beauty",
                     "Skincare service"
                 ],
-                "email" => "info@miyasworks.com"
+                "email" => "info@miyasworks.com",
+                "id" => "430784957121540"
             ]
         }
     ];

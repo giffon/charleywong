@@ -14,7 +14,8 @@ class AliencatPLMProductionHandcarvedrubberstamps implements Entity {
                     "Product/service",
                     "Art"
                 ],
-                "email" => "aliencat@plmproduction.com"
+                "email" => "aliencat@plmproduction.com",
+                "id" => "108188475905745"
             ]
         }
     ];

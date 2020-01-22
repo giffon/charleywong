@@ -13,7 +13,8 @@ class Aprilshennatattoo implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "tel" => "65435092"
+                "tel" => "65435092",
+                "id" => "2236298206693557"
             ]
         },
         {

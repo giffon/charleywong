@@ -16,7 +16,8 @@ class SharonYuen implements Entity {
                 "addr" => "Shop 205, Houston Centre, 63 Mody Road, Tsim Sha Tsui East",
                 "area" => "Hong Kong",
                 "email" => "sharon.yuen@sharonyuenjewelrydesign.com",
-                "tel" => "91064741"
+                "tel" => "91064741",
+                "id" => "722633851086009"
             ]
         },
         {

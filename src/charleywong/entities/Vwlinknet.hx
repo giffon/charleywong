@@ -18,7 +18,8 @@ class Vwlinknet implements Entity {
                 "addr" => "香港新界荃灣橫窩仔街2-8號",
                 "area" => "Hong Kong",
                 "email" => "info@vwlink.net",
-                "tel" => "24074000"
+                "tel" => "24074000",
+                "id" => "194580454090"
             ]
         }
     ];

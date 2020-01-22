@@ -15,7 +15,8 @@ class Issyoukenmen implements Entity {
                 ],
                 "addr" => "九龍灣店：牛頭角道3號得寶商場地下121號鋪\n\n旺角店：通菜街73號地鋪",
                 "area" => "Hong Kong",
-                "tel" => "37058766"
+                "tel" => "37058766",
+                "id" => "653054634885127"
             ]
         }
     ];

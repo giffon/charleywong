@@ -15,7 +15,8 @@ class ELettering implements Entity {
                     "Product/service"
                 ],
                 "email" => "e.letteringhk@gmail.com",
-                "tel" => "92709627"
+                "tel" => "92709627",
+                "id" => "424367364600203"
             ]
         },
         {

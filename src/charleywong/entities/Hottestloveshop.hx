@@ -12,7 +12,8 @@ class Hottestloveshop implements Entity {
                 "categories" => [
                     "Product/service",
                     "Clothing (brand)"
-                ]
+                ],
+                "id" => "217525461624424"
             ]
         }
     ];

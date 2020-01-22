@@ -18,7 +18,8 @@ class Hkongsofficial implements Entity {
                     "Grocers",
                     "Website"
                 ],
-                "email" => "info@hkongs.com"
+                "email" => "info@hkongs.com",
+                "id" => "107180774006127"
             ]
         }
     ];

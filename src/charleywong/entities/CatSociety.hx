@@ -16,7 +16,8 @@ class CatSociety implements Entity {
                 ],
                 "addr" => "香港土瓜灣浙江街26號地下",
                 "area" => "Kowloon, Hong Kong",
-                "email" => "info@catsocietyhk.org"
+                "email" => "info@catsocietyhk.org",
+                "id" => "27387977553"
             ]
         }
     ];

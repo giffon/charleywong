@@ -15,7 +15,8 @@ class Giffon implements Entity {
                     "App Page",
                     "Website"
                 ],
-                "email" => "admin@giffon.io"
+                "email" => "admin@giffon.io",
+                "id" => "255097848528810"
             ]
         },
         {

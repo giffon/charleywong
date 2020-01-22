@@ -15,7 +15,8 @@ class DymonStudio implements Entity {
                     "Clothing (brand)"
                 ],
                 "email" => "dymonstudio@gmail.com",
-                "tel" => "65450910"
+                "tel" => "65450910",
+                "id" => "582160771965556"
             ]
         }
     ];

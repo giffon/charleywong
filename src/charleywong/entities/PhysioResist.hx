@@ -14,7 +14,8 @@ class PhysioResist implements Entity {
                 "categories" => [
                     "Medical and health"
                 ],
-                "email" => "physio.resist@gmail.com"
+                "email" => "physio.resist@gmail.com",
+                "id" => "100521374755288"
             ]
         }
     ];

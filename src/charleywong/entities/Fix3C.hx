@@ -21,7 +21,8 @@ class Fix3C implements Entity {
                 "addr" => "荔枝角 香港工業中心 B座2樓712",
                 "area" => "Hong Kong",
                 "email" => "fixxx3c@gmail.com",
-                "tel" => "68555896"
+                "tel" => "68555896",
+                "id" => "545772952127123"
             ]
         },
         {

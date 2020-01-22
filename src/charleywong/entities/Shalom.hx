@@ -11,14 +11,15 @@ class Shalom implements Entity {
             url: "http://www.openrice.com/restaurant/sr2.htm?shopid=49389&tc=sr1"
         },
         {
-            url: "https://www.facebook.com/Shalom-嚐樂-193814243963164/",
+            url: "https://www.facebook.com/193814243963164/",
             meta: [
                 "about" => "Shalom - taste the happiness",
                 "categories" => [
                     "Dessert shop"
                 ],
                 "email" => "shalom2010@hotmail.com",
-                "tel" => "23821989"
+                "tel" => "23821989",
+                "id" => "193814243963164"
             ]
         }
     ];
@@ -34,3 +35,4 @@ class Shalom implements Entity {
         }
     ];
 }
+

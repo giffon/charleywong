@@ -13,7 +13,8 @@ class Postcardposting implements Entity {
                 "categories" => [
                     "Product/service",
                     "Artist"
-                ]
+                ],
+                "id" => "200242700079511"
             ]
         }
     ];

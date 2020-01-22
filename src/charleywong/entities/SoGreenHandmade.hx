@@ -15,7 +15,8 @@ class SoGreenHandmade implements Entity {
                     "Aromatherapy service"
                 ],
                 "email" => "sogreenhandmade@gmail.com",
-                "tel" => "91087377"
+                "tel" => "91087377",
+                "id" => "1860841230905815"
             ]
         }
     ];

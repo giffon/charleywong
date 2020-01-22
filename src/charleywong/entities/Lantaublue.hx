@@ -19,7 +19,8 @@ class Lantaublue implements Entity {
                 "addr" => "26 , Tai Long Wan , Shek pik , Lantau",
                 "area" => "Hong Kong",
                 "email" => "maxmaxs0@yahoo.com.hk",
-                "tel" => "68391024"
+                "tel" => "68391024",
+                "id" => "631803833564987"
             ]
         }
     ];

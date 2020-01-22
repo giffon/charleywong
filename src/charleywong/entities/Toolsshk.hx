@@ -16,7 +16,8 @@ class Toolsshk implements Entity {
                     "Restaurant"
                 ],
                 "email" => "toolsshk@gmail.com",
-                "tel" => "39545135"
+                "tel" => "39545135",
+                "id" => "396120903878535"
             ]
         }
     ];

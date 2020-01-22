@@ -17,7 +17,8 @@ class Milmillrecycle implements Entity {
                 "addr" => "元朗工業邨福喜街 82 號",
                 "area" => "Hong Kong",
                 "email" => "milmill@ssid.hk",
-                "tel" => "24982378"
+                "tel" => "24982378",
+                "id" => "2432756433415558"
             ]
         },
         {

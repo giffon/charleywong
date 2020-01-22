@@ -13,7 +13,8 @@ class Anitoxiceduhk implements Entity {
                 "about" => "香港教育大學學生會屬會第八屆動漫學會 漫性中毒 (AniToxic)",
                 "categories" => [
                     "Community"
-                ]
+                ],
+                "id" => "242797989946931"
             ]
         }
     ];

@@ -14,7 +14,8 @@ class Trainillustration implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "mayaolulu@gmail.com"
+                "email" => "mayaolulu@gmail.com",
+                "id" => "383305311788073"
             ]
         }
     ];

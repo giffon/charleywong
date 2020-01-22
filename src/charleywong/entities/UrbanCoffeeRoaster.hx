@@ -16,7 +16,8 @@ class UrbanCoffeeRoaster implements Entity {
                     "Sandwich shop"
                 ],
                 "email" => "info@ucr.hk",
-                "tel" => "23633661"
+                "tel" => "23633661",
+                "id" => "580321868745202"
             ]
         }
     ];

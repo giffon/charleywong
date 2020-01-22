@@ -20,7 +20,8 @@ class Kellyiflower implements Entity {
                 "addr" => "Lai Cheong Ind. Bldg.,",
                 "area" => "Cheung Sha Wan, Hong Kong",
                 "email" => "kelly.i.flower@gmail.com",
-                "tel" => "62005654"
+                "tel" => "62005654",
+                "id" => "350137718494633"
             ]
         }
     ];

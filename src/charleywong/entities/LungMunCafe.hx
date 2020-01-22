@@ -16,7 +16,8 @@ class LungMunCafe implements Entity {
                 ],
                 "addr" => "龍門冰室",
                 "area" => "Hong Kong",
-                "email" => "lungm.cafe@gmail.com"
+                "email" => "lungm.cafe@gmail.com",
+                "id" => "434885916576231"
             ]
         }
     ];

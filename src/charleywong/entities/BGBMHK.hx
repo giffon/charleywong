@@ -16,7 +16,8 @@ class BGBMHK implements Entity {
                     "Festival"
                 ],
                 "email" => "biugorbiumui@gmail.com",
-                "tel" => "66864711"
+                "tel" => "66864711",
+                "id" => "1194540597381481"
             ]
         }
     ];

@@ -15,7 +15,8 @@ class MissBranches implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "msbranches@gmail.com"
+                "email" => "msbranches@gmail.com",
+                "id" => "1622684944634314"
             ]
         }
     ];

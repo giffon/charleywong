@@ -15,7 +15,8 @@ class GoodNeighbournd implements Entity {
                     "Christian church"
                 ],
                 "email" => "goodneighbournd@gmail.com",
-                "tel" => "28062766"
+                "tel" => "28062766",
+                "id" => "1561265357501167"
             ]
         },
         {

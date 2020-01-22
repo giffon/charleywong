@@ -12,7 +12,8 @@ class CMDoctorsCure implements Entity {
                 "about" => "由有志關懷香港社會及業界發展的香港註冊中醫師組成，中醫專業組織。",
                 "categories" => [
                     "Non-governmental organisation (NGO)"
-                ]
+                ],
+                "id" => "463569550520732"
             ]
         }
     ];

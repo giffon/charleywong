@@ -14,7 +14,8 @@ class Bewordist implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "bewordist@gmail.com"
+                "email" => "bewordist@gmail.com",
+                "id" => "246503055407208"
             ]
         }
     ];

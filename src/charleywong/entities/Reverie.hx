@@ -12,7 +12,8 @@ class Reverie implements Entity {
                 "about" => "Reverie is a local handmade brand.\n\n\'REVERIE\' means dream. We hope everyone can persist in their dream like how we did.",
                 "categories" => [
                     "Jewellery/watches"
-                ]
+                ],
+                "id" => "197131570471528"
             ]
         }
     ];

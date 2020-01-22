@@ -16,7 +16,8 @@ class Nggyjamjam implements Entity {
                 ],
                 "addr" => "荃灣柴灣角街道榮興工業中心20樓11室",
                 "area" => "Hong Kong",
-                "email" => "nggyjamjam@gmail.com"
+                "email" => "nggyjamjam@gmail.com",
+                "id" => "1470080173294896"
             ]
         }
     ];

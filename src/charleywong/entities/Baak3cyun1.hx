@@ -15,7 +15,8 @@ class Baak3cyun1 implements Entity {
                 ],
                 "addr" => "觀塘 偉業街 149號",
                 "area" => "Hong Kong",
-                "tel" => "60893074"
+                "tel" => "60893074",
+                "id" => "1731283413816331"
             ]
         },
         {

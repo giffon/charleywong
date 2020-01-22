@@ -16,7 +16,8 @@ class FingersWork implements Entity {
                 ],
                 "addr" => "牛頭角大業街27號鴻盛工業大廈12/F 03室",
                 "area" => "Hong Kong",
-                "email" => "852fingerswork@gmail.com"
+                "email" => "852fingerswork@gmail.com",
+                "id" => "1732597250294445"
             ]
         },
         {

@@ -19,7 +19,8 @@ class NoBoundary implements Entity {
                 "addr" => "9 Haven Street, Causeway Bay",
                 "area" => "Causeway Bay",
                 "email" => "no.boundary.hongkong@gmail.com",
-                "tel" => "22199488"
+                "tel" => "22199488",
+                "id" => "300858437397512"
             ]
         }
     ];

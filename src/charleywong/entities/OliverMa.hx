@@ -14,7 +14,8 @@ class OliverMa implements Entity {
                 "categories" => [
                     "Musician/band"
                 ],
-                "email" => "mafuchioliver1234567890@gmail.com"
+                "email" => "mafuchioliver1234567890@gmail.com",
+                "id" => "302843289876447"
             ]
         },
         {

@@ -18,7 +18,8 @@ class Kindergarteninsane implements Entity {
                 "addr" => "土瓜灣旭日街1A號福成工業大廈12樓1205室",
                 "area" => "Hong Kong",
                 "email" => "kindinsane@gmail.com",
-                "tel" => "60824067"
+                "tel" => "60824067",
+                "id" => "992635560828487"
             ]
         }
     ];

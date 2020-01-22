@@ -18,7 +18,8 @@ class FlowerDiary implements Entity {
                 "addr" => "Hong Kong",
                 "area" => "Hong Kong",
                 "email" => "flowerdirayhk@gmail.com",
-                "tel" => "57023770"
+                "tel" => "57023770",
+                "id" => "368183327054281"
             ]
         }
     ];

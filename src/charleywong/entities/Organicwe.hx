@@ -22,7 +22,8 @@ class Organicwe implements Entity {
                 "addr" => "旺角西洋菜南街5號好望角大廈16樓1601室",
                 "area" => "Hong Kong",
                 "email" => "info@organicwe.com",
-                "tel" => "37912666"
+                "tel" => "37912666",
+                "id" => "1487513151478064"
             ]
         },
         {

@@ -17,7 +17,8 @@ class Coffever implements Entity {
                 "addr" => "Room C, 3/F, Po Ming Building, Foo Ming Street 2-6, Causeway Bay, Hong Kong",
                 "area" => "Causeway Bay",
                 "email" => "coffeverhk@gmail.com",
-                "tel" => "69189374"
+                "tel" => "69189374",
+                "id" => "180657409272018"
             ]
         }
     ];

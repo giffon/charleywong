@@ -17,7 +17,8 @@ class Scooolhk implements Entity {
                 ],
                 "addr" => "觀塘興業街18號美興工業大廈A座1樓C室",
                 "area" => "Hong Kong",
-                "tel" => "31882380"
+                "tel" => "31882380",
+                "id" => "657344191057793"
             ]
         },
         {

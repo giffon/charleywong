@@ -17,7 +17,8 @@ class HandmadeRoomByWonderlandH implements Entity {
                 "addr" => "Shop 223, D2 Place ONE, 9 Cheung Yee Street, Lai Chi Kok",
                 "area" => "Lai Chi Kok",
                 "email" => "customer@handmaderoombywh.com",
-                "tel" => "56331386"
+                "tel" => "56331386",
+                "id" => "341942499520469"
             ]
         },
         {

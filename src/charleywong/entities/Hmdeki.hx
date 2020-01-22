@@ -12,7 +12,8 @@ class Hmdeki implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "email" => "hilaryhk000608@gmail.com"
+                "email" => "hilaryhk000608@gmail.com",
+                "id" => "451145208668473"
             ]
         }
     ];

@@ -7,7 +7,7 @@ class Dog99Coffee implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Dog99-Coffee-901050250059918/",
+            url: "https://www.facebook.com/901050250059918/",
             meta: [
                 "categories" => [
                     "Coffee shop",
@@ -16,7 +16,8 @@ class Dog99Coffee implements Entity {
                 "addr" => "33, Wong Chuk Street",
                 "area" => "Sham Shui Po",
                 "email" => "dog99coffee@gmail.com",
-                "tel" => "68311311"
+                "tel" => "68311311",
+                "id" => "901050250059918"
             ]
         }
     ];

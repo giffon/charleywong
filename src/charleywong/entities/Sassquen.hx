@@ -13,7 +13,8 @@ class Sassquen implements Entity {
                 "categories" => [
                     "Community"
                 ],
-                "email" => "sassquen@gmail.com"
+                "email" => "sassquen@gmail.com",
+                "id" => "580008738867683"
             ]
         }
     ];

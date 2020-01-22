@@ -17,7 +17,8 @@ class LockeroomDining implements Entity {
                 ],
                 "addr" => "旺角砵蘭街215號朗晴坊8樓",
                 "area" => "Hong Kong",
-                "email" => "lockeroom.dining@gmail.com"
+                "email" => "lockeroom.dining@gmail.com",
+                "id" => "2283579918591559"
             ]
         }
     ];

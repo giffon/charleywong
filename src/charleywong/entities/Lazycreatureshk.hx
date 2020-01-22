@@ -17,7 +17,8 @@ class Lazycreatureshk implements Entity {
                 "addr" => "Shop J, G/F, Katherine Building, 379 Prince Edward Road West",
                 "area" => "Hong Kong",
                 "email" => "lazycreatures.hk@gmail.com",
-                "tel" => "90999288"
+                "tel" => "90999288",
+                "id" => "1918549828265810"
             ]
         }
     ];

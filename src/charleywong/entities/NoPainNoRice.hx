@@ -15,7 +15,8 @@ class NoPainNoRice implements Entity {
                     "Visual arts",
                     "Community"
                 ],
-                "email" => "teresa@offbeatvillage.com"
+                "email" => "teresa@offbeatvillage.com",
+                "id" => "957706304272856"
             ]
         }
     ];

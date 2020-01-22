@@ -13,7 +13,8 @@ class Minimindminimind implements Entity {
                 "categories" => [
                     "Arts & humanities website"
                 ],
-                "email" => "minimind.minimind@gmail.com"
+                "email" => "minimind.minimind@gmail.com",
+                "id" => "1936474369905697"
             ]
         },
         {

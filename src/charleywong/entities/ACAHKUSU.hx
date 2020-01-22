@@ -19,7 +19,8 @@ class ACAHKUSU implements Entity {
                 "addr" => "薄扶林道",
                 "area" => "Hong Kong",
                 "email" => "acabox@hku.hk",
-                "tel" => "66910632"
+                "tel" => "66910632",
+                "id" => "217103381724423"
             ]
         },
         {

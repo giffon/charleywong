@@ -15,7 +15,8 @@ class TuckshopbySocialClub implements Entity {
                 "addr" => "Shop 4-7, No.158A Connaught Road West",
                 "area" => "Sai Ying Pun",
                 "email" => "info@socialclub.hk",
-                "tel" => "97454966"
+                "tel" => "97454966",
+                "id" => "1822259778067501"
             ]
         }
     ];

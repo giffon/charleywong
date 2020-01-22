@@ -13,7 +13,8 @@ class Cowcowtony implements Entity {
                 "categories" => [
                     "Author"
                 ],
-                "email" => "cowcowtony@hotmail.com"
+                "email" => "cowcowtony@hotmail.com",
+                "id" => "306150939555362"
             ]
         }
     ];

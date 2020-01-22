@@ -22,7 +22,8 @@ class EatonHK implements Entity {
                 "addr" => "380 Nathan Road, Kowloon",
                 "area" => "Kowloon, Hong Kong",
                 "email" => "eatonhk@eatonworkshop.com",
-                "tel" => "27101889"
+                "tel" => "27101889",
+                "id" => "1053956298002337"
             ]
         }
     ];

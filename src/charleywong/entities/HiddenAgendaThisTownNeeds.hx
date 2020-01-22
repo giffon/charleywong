@@ -16,7 +16,8 @@ class HiddenAgendaThisTownNeeds implements Entity {
                 ],
                 "addr" => "1F, Commercial Accommodation, Ocean One, 6 Shung Shun Street",
                 "area" => "Kwun Tong",
-                "email" => "thistownneeds@gmail.com"
+                "email" => "thistownneeds@gmail.com",
+                "id" => "119610724765294"
             ]
         },
         {

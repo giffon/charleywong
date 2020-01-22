@@ -14,7 +14,8 @@ class NoMoreHeavy implements Entity {
                     "Outdoor equipment shop",
                     "Clothing (brand)"
                 ],
-                "email" => "nomoreheavy@gmail.com"
+                "email" => "nomoreheavy@gmail.com",
+                "id" => "440590576478331"
             ]
         }
     ];

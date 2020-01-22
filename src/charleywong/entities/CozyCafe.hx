@@ -16,7 +16,8 @@ class CozyCafe implements Entity {
                 "addr" => "No.5 , G/F, Po Sing Ctr. Ta Chuen Ping St,Kwai Chung",
                 "area" => "Hong Kong",
                 "email" => "cozychk@gmail.com",
-                "tel" => "23522933"
+                "tel" => "23522933",
+                "id" => "1475306752774774"
             ]
         }
     ];

@@ -19,7 +19,8 @@ class MornCreations implements Entity {
                 "addr" => "G/F, No 7, Mee Lun Street, Central",
                 "area" => "Hong Kong",
                 "email" => "info@morn.com.hk",
-                "tel" => "28697021"
+                "tel" => "28697021",
+                "id" => "107025929327782"
             ]
         },
         {

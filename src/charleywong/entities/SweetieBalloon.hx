@@ -19,7 +19,8 @@ class SweetieBalloon implements Entity {
                 "addr" => "Shop 207-208, SOLO Building, 41-43 Carnarvon Road, Tsim Sha Tsui,KLN, HK",
                 "area" => "Hong Kong",
                 "email" => "info@sweetieballoon.com",
-                "tel" => "51058011"
+                "tel" => "51058011",
+                "id" => "147710765266632"
             ]
         }
     ];

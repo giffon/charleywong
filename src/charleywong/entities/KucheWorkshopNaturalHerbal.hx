@@ -18,7 +18,8 @@ class KucheWorkshopNaturalHerbal implements Entity {
                 ],
                 "addr" => "九龍荔枝角青山道479號麗昌工廠大廈6樓604K室(荔枝角地鐵站B1出口)",
                 "area" => "Kowloon, Hong Kong",
-                "tel" => "90882283"
+                "tel" => "90882283",
+                "id" => "674512199307009"
             ]
         }
     ];

@@ -16,7 +16,8 @@ class Station implements Entity {
                 ],
                 "addr" => "土瓜灣譚公道65號d",
                 "area" => "Hong Kong",
-                "tel" => "92843154"
+                "tel" => "92843154",
+                "id" => "865108003692763"
             ]
         }
     ];
@@ -29,3 +30,4 @@ class Station implements Entity {
         }
     ];
 }
+

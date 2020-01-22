@@ -18,7 +18,8 @@ class FHLartworkshop implements Entity {
                 "addr" => "將軍澳/觀塘",
                 "area" => "Hong Kong",
                 "email" => "fhlartworkshop@hotmail.com",
-                "tel" => "64929297"
+                "tel" => "64929297",
+                "id" => "587249714772652"
             ]
         },
         {

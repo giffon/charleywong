@@ -13,7 +13,8 @@ class Simplecookgroup implements Entity {
                 "categories" => [
                     "Food and drinks company"
                 ],
-                "email" => "simplecookgroup@gmail.com"
+                "email" => "simplecookgroup@gmail.com",
+                "id" => "346196512090926"
             ]
         },
         {
@@ -25,7 +26,8 @@ class Simplecookgroup implements Entity {
                 ],
                 "addr" => "Shop 4, LG/F, Smithfield Walk, 45-51 Smithfield Road, Kennedy Town, Hong Kong",
                 "area" => "Hong Kong",
-                "tel" => "59925767"
+                "tel" => "59925767",
+                "id" => "118758825508841"
             ]
         }
     ];

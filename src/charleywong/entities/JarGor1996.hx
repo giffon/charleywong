@@ -17,7 +17,8 @@ class JarGor1996 implements Entity {
                     "Fast food restaurant",
                     "Food stall",
                     "Breakfast & brunch restaurant"
-                ]
+                ],
+                "id" => "611333408944704"
             ]
         }
     ];

@@ -13,7 +13,8 @@ class Laiyeecrystal implements Entity {
                 "categories" => [
                     "Brand"
                 ],
-                "tel" => "55473301"
+                "tel" => "55473301",
+                "id" => "962862340524205"
             ]
         }
     ];

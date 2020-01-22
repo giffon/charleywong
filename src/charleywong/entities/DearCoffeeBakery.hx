@@ -18,7 +18,8 @@ class DearCoffeeBakery implements Entity {
                 "addr" => "Shop 22 G/F, Holford Garden, 2-8 Chik Wan Street, Tai Wai, New Territories",
                 "area" => "Hong Kong",
                 "email" => "dear.coffee.bakery@gmail.com",
-                "tel" => "26820093"
+                "tel" => "26820093",
+                "id" => "1014212055310056"
             ]
         }
     ];

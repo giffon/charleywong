@@ -14,7 +14,8 @@ class MissSummer implements Entity {
                     "Jewellery/watches",
                     "Accessories"
                 ],
-                "email" => "miss.summer.shop@gmail.com"
+                "email" => "miss.summer.shop@gmail.com",
+                "id" => "108831813422"
             ]
         },
         {

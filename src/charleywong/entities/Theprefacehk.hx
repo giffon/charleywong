@@ -19,7 +19,8 @@ class Theprefacehk implements Entity {
                 "addr" => "觀塘開源道62號駱駝大廈一座7樓A9室",
                 "area" => "Kwun Tong",
                 "email" => "info@thepreface.hk",
-                "tel" => "39563447"
+                "tel" => "39563447",
+                "id" => "343221842543433"
             ]
         }
     ];

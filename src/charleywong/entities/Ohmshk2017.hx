@@ -17,7 +17,8 @@ class Ohmshk2017 implements Entity {
                 "addr" => "Shop A, 192 Hollywood Road （SheungWan MTR Station exit A)",
                 "area" => "Hong Kong",
                 "email" => "info@ohmscafebar.com",
-                "tel" => "54004236"
+                "tel" => "54004236",
+                "id" => "995947647125325"
             ]
         },
         {

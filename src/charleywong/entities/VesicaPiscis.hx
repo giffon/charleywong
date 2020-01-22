@@ -17,7 +17,8 @@ class VesicaPiscis implements Entity {
                 ],
                 "addr" => "新蒲崗景福街106號太子工業大廈7樓太子坊730室",
                 "area" => "Hong Kong",
-                "tel" => "54920740"
+                "tel" => "54920740",
+                "id" => "265242277341208"
             ]
         }
     ];

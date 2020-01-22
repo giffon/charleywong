@@ -15,7 +15,8 @@ class TopBladeSteakLab implements Entity {
                 "about" => "HMT:\n4A Soares Ave, Ho Man Tin / Mong Kok East\n+852 3956 2011...\n\n\n\n\n\nSee more",
                 "categories" => [
                     "Steakhouse"
-                ]
+                ],
+                "id" => "194958111014370"
             ]
         },
         {

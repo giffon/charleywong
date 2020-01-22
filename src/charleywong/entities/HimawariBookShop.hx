@@ -18,7 +18,8 @@ class HimawariBookShop implements Entity {
                 "addr" => "九龍觀塘駿業里6號 富利工業大廈8樓B室",
                 "area" => "Hong Kong",
                 "email" => "info@himawari.com.hk",
-                "tel" => "25292259"
+                "tel" => "25292259",
+                "id" => "116856521730204"
             ]
         }
     ];

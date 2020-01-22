@@ -16,7 +16,8 @@ class Ninebirdfrog implements Entity {
                     "Antiques shop",
                     "Clothing (brand)"
                 ],
-                "email" => "ninebirdfrog@gmail.com"
+                "email" => "ninebirdfrog@gmail.com",
+                "id" => "274459806254795"
             ]
         }
     ];

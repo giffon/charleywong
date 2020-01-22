@@ -13,7 +13,8 @@ class Jselfshop implements Entity {
                 "about" => "從前有一個童話故事，故事裡有一個精靈世界。精靈們都很喜歡從人間帶走閃閃亮亮的飾品回家裝飾自己…",
                 "categories" => [
                     "Jewellery/watches"
-                ]
+                ],
+                "id" => "271849669656300"
             ]
         }
     ];

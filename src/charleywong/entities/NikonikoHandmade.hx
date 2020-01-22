@@ -15,7 +15,8 @@ class NikonikoHandmade implements Entity {
                     "Jewellery/watches"
                 ],
                 "addr" => "Shop239,2/F,Causeway Place,2-10 Great George Street,Causeway Bay,",
-                "area" => "Hong Kong"
+                "area" => "Hong Kong",
+                "id" => "647789308578578"
             ]
         }
     ];

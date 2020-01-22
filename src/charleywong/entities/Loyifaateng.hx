@@ -18,7 +18,8 @@ class Loyifaateng implements Entity {
                 "addr" => "旺角山東街80-82號2樓",
                 "area" => "Mong Kok",
                 "email" => "loyifaateng@gmail.com",
-                "tel" => "56673653"
+                "tel" => "56673653",
+                "id" => "227070044323865"
             ]
         }
     ];

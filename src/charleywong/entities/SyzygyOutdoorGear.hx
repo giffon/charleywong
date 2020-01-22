@@ -14,7 +14,8 @@ class SyzygyOutdoorGear implements Entity {
                     "Outdoor equipment shop",
                     "Product/service"
                 ],
-                "email" => "syzygyoutdoorgear@gmail.com"
+                "email" => "syzygyoutdoorgear@gmail.com",
+                "id" => "516697568514666"
             ]
         }
     ];

@@ -13,7 +13,8 @@ class Eightfifteenam implements Entity {
                 "categories" => [
                     "Bags/luggage"
                 ],
-                "tel" => "92172212"
+                "tel" => "92172212",
+                "id" => "258652764258715"
             ]
         }
     ];

@@ -14,7 +14,8 @@ class AllAboutBagBag implements Entity {
                     "Bags/luggage",
                     "Design & fashion",
                     "Arts and crafts shop"
-                ]
+                ],
+                "id" => "390136617712540"
             ]
         }
     ];

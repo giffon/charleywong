@@ -13,7 +13,8 @@ class GOOUT implements Entity {
                 "categories" => [
                     "Recreation & sport website"
                 ],
-                "email" => "info@goout.hk"
+                "email" => "info@goout.hk",
+                "id" => "105056088086"
             ]
         }
     ];

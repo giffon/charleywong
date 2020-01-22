@@ -13,7 +13,8 @@ class DocaHandbook implements Entity {
                     "Bags/luggage"
                 ],
                 "email" => "handbooklab@hotmail.com",
-                "tel" => "55085966"
+                "tel" => "55085966",
+                "id" => "1062149023885697"
             ]
         },
         {

@@ -15,7 +15,8 @@ class Baofanji implements Entity {
                 ],
                 "addr" => "太子通菜街254號地下",
                 "area" => "Hong Kong",
-                "tel" => "26565605"
+                "tel" => "26565605",
+                "id" => "190321418129361"
             ]
         }
     ];

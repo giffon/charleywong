@@ -14,7 +14,8 @@ class Humchuk implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "rickykfluk@hotmail.com"
+                "email" => "rickykfluk@hotmail.com",
+                "id" => "297450853746703"
             ]
         }
     ];

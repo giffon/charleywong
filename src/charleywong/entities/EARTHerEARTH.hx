@@ -13,7 +13,8 @@ class EARTHerEARTH implements Entity {
                 "categories" => [
                     "Clothing (brand)"
                 ],
-                "email" => "info.earther@gmail.com"
+                "email" => "info.earther@gmail.com",
+                "id" => "232961320075228"
             ]
         }
     ];

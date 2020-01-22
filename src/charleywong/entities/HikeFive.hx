@@ -14,7 +14,8 @@ class HikeFive implements Entity {
                     "Personal blog",
                     "Outdoor equipment shop"
                 ],
-                "email" => "info@hikefive.hk"
+                "email" => "info@hikefive.hk",
+                "id" => "1772538472977276"
             ]
         }
     ];

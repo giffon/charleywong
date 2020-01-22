@@ -13,7 +13,8 @@ class Casparhouse implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "email" => "casparhouse.hk@gmail.com"
+                "email" => "casparhouse.hk@gmail.com",
+                "id" => "200872676595627"
             ]
         },
         {

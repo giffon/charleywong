@@ -14,7 +14,8 @@ class SkyChanHK implements Entity {
                     "Photographer"
                 ],
                 "email" => "sky@skychanhk.com",
-                "tel" => "54253300"
+                "tel" => "54253300",
+                "id" => "273598486099819"
             ]
         }
     ];

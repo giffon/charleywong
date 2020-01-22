@@ -12,7 +12,8 @@ class Vawongsir implements Entity {
                 "about" => "| 90s’ 視藝通識教獄工作者\n| 我沒有説話 因為我不是猶太人\n| ig: vawongsir",
                 "categories" => [
                     "Art"
-                ]
+                ],
+                "id" => "395802194341491"
             ]
         }
     ];

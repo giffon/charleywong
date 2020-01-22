@@ -15,7 +15,8 @@ class MADEGREY implements Entity {
                     "Shopping & retail"
                 ],
                 "email" => "info@madegrey.com",
-                "tel" => "60996755"
+                "tel" => "60996755",
+                "id" => "536663596388605"
             ]
         }
     ];

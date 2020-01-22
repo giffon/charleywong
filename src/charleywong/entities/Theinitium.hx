@@ -17,7 +17,8 @@ class Theinitium implements Entity {
                 "categories" => [
                     "Media/news company"
                 ],
-                "email" => "editor@theinitium.com"
+                "email" => "editor@theinitium.com",
+                "id" => "466505160192708"
             ]
         },
         {

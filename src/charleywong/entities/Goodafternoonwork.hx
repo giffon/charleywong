@@ -13,7 +13,8 @@ class Goodafternoonwork implements Entity {
                 "categories" => [
                     "Local business"
                 ],
-                "email" => "hello@goodafternoonwork.com"
+                "email" => "hello@goodafternoonwork.com",
+                "id" => "156234564479324"
             ]
         }
     ];

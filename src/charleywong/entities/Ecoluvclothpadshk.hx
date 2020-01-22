@@ -13,7 +13,8 @@ class Ecoluvclothpadshk implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "tel" => "66899340"
+                "tel" => "66899340",
+                "id" => "758220727593272"
             ]
         }
     ];

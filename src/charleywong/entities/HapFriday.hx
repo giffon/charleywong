@@ -15,7 +15,8 @@ class HapFriday implements Entity {
                     "Clothing (brand)"
                 ],
                 "email" => "hapi.fridayyy@gmail.com",
-                "tel" => "90648240"
+                "tel" => "90648240",
+                "id" => "460689574048058"
             ]
         }
     ];

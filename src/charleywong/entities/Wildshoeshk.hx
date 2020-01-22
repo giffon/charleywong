@@ -13,7 +13,8 @@ class Wildshoeshk implements Entity {
                 "Ig: wildshoeshk\n\nJust a life style in Hong Kong, other than the ordinary one. Sharing interesting things like hiking, watersport, travelling, music...",
                 "categories" => [
                     "Local & travel website"
-                ]
+                ],
+                "id" => "2127554253937298"
             ]
         }
     ];

@@ -15,7 +15,8 @@ class Boxonhk implements Entity {
                     "Rental shop"
                 ],
                 "email" => "boxonhk@gmail.com",
-                "tel" => "66412990"
+                "tel" => "66412990",
+                "id" => "227154517908078"
             ]
         },
         {

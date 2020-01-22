@@ -22,7 +22,8 @@ class Hkterminal implements Entity {
                 "addr" => "3A Hung Cheong Factory Building, 742-748 Cheung Sha Wan Road",
                 "area" => "Lai Chi Kok",
                 "email" => "contact@terminalhk.com",
-                "tel" => "37047358"
+                "tel" => "37047358",
+                "id" => "1491957431077967"
             ]
         },
         {

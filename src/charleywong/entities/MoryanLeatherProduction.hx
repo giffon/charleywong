@@ -16,7 +16,8 @@ class MoryanLeatherProduction implements Entity {
                     "Arts and entertainment"
                 ],
                 "email" => "moryanleather@gmail.com",
-                "tel" => "62774343"
+                "tel" => "62774343",
+                "id" => "386591211390143"
             ]
         }
     ];

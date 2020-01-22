@@ -18,7 +18,8 @@ class TravisLeatherStudio implements Entity {
                 "addr" => "San Tam Rd",
                 "area" => "Yuen Long",
                 "email" => "travisleather@gmail.com",
-                "tel" => "90162800"
+                "tel" => "90162800",
+                "id" => "1702390463348256"
             ]
         }
     ];

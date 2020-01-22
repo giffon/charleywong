@@ -18,7 +18,8 @@ class Thebookcurehk implements Entity {
                 "addr" => "新界大埔寶湖道街市F021",
                 "area" => "Hong Kong",
                 "email" => "thebookcure.hk@gmail.com",
-                "tel" => "53923220"
+                "tel" => "53923220",
+                "id" => "1107868172610759"
             ]
         }
     ];

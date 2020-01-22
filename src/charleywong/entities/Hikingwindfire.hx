@@ -13,7 +13,8 @@ class Hikingwindfire implements Entity {
                 "categories" => [
                     "Magazine"
                 ],
-                "email" => "hikingwindfire@gmail.com"
+                "email" => "hikingwindfire@gmail.com",
+                "id" => "530984423712208"
             ]
         }
     ];

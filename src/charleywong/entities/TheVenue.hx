@@ -20,7 +20,8 @@ class TheVenue implements Entity {
                 ],
                 "addr" => "基隆街5號",
                 "area" => "Hong Kong",
-                "email" => "reservation@thevenue.hk"
+                "email" => "reservation@thevenue.hk",
+                "id" => "189770137881622"
             ]
         }
     ];

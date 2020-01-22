@@ -18,7 +18,8 @@ class CoHee implements Entity {
                 "addr" => "G/F, 152 Kam Tin Shi Street, Yuen Long",
                 "area" => "Hong Kong",
                 "email" => "cs@coheehk.com",
-                "tel" => "94497310"
+                "tel" => "94497310",
+                "id" => "451662288359044"
             ]
         }
     ];

@@ -18,7 +18,8 @@ class Aniceplaceto implements Entity {
                 ],
                 "addr" => "2 Chung Ching Street",
                 "area" => "Sai Ying Pun",
-                "email" => "aniceplaceto@gmail.com"
+                "email" => "aniceplaceto@gmail.com",
+                "id" => "713766125344757"
             ]
         }
     ];

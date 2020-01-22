@@ -14,7 +14,8 @@ class CrazyHikingSquad implements Entity {
                 "categories" => [
                     "Recreation & sport website",
                     "Just for fun"
-                ]
+                ],
+                "id" => "971206633047583"
             ]
         }
     ];

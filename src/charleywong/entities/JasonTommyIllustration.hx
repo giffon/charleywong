@@ -14,7 +14,8 @@ class JasonTommyIllustration implements Entity {
                 "categories" => [
                     "Artist",
                     "Design & fashion"
-                ]
+                ],
+                "id" => "1431738923761812"
             ]
         }
     ];

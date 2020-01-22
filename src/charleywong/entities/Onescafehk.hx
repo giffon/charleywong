@@ -18,7 +18,8 @@ class Onescafehk implements Entity {
                 "addr" => "香港九龍紅磡必嘉街92-112號 紅磡灣中心地下9C鋪",
                 "area" => "Kowloon, Hong Kong",
                 "email" => "onescafe.cgl@gmail.com",
-                "tel" => "31188111"
+                "tel" => "31188111",
+                "id" => "356781328220869"
             ]
         }
     ];

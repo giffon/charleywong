@@ -12,7 +12,8 @@ class LUMDUMS implements Entity {
                 "about" => "LUMDUMS 主要以舊黑膠唱片作素材，創作各種不同類型手工作品。\n\nLOGO的 M 字代表著我們家的貓咪們，也代表我們用年月和青春去建立的小宇宙。",
                 "categories" => [
                     "Product/service"
-                ]
+                ],
+                "id" => "610629692321230"
             ]
         }
     ];

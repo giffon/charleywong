@@ -15,7 +15,8 @@ class Jisaambooks implements Entity {
                 ],
                 "addr" => "RM 1202, Grand Place, Nathan Road 558-560, Yau Ma Tei",
                 "area" => "Hong Kong",
-                "email" => "jisaam.books@gmail.com"
+                "email" => "jisaam.books@gmail.com",
+                "id" => "114741956569603"
             ]
         }
     ];

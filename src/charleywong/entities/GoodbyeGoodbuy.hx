@@ -15,7 +15,8 @@ class GoodbyeGoodbuy implements Entity {
                     "Boutique shop",
                     "Accessories"
                 ],
-                "email" => "isbinfshop@gmail.com"
+                "email" => "isbinfshop@gmail.com",
+                "id" => "170927579620691"
             ]
         }
     ];

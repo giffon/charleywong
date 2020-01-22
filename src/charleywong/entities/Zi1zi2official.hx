@@ -14,7 +14,8 @@ class Zi1zi2official implements Entity {
                     "Product/service"
                 ],
                 "email" => "zi1zi2.official@gmail.com",
-                "tel" => "52828979"
+                "tel" => "52828979",
+                "id" => "2653067461371622"
             ]
         }
     ];

@@ -13,7 +13,8 @@ class Douryokujinja implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "lpyshadow@gmail.com"
+                "email" => "lpyshadow@gmail.com",
+                "id" => "253044355075836"
             ]
         }
     ];

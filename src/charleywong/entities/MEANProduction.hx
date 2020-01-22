@@ -13,7 +13,8 @@ class MEANProduction implements Entity {
                 "categories" => [
                     "Literary arts"
                 ],
-                "email" => "meanmeanproduction@gmail.com"
+                "email" => "meanmeanproduction@gmail.com",
+                "id" => "615118048681769"
             ]
         }
     ];

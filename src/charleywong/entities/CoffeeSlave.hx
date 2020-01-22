@@ -16,7 +16,8 @@ class CoffeeSlave implements Entity {
                 "addr" => "Workshop 2A Ground Floor, Hung Tat Industrial Building, 43 Hung To Road, Kwun Tong, Kowloon.",
                 "area" => "Hong Kong",
                 "email" => "info@coffeeslaves.com",
-                "tel" => "36195788"
+                "tel" => "36195788",
+                "id" => "647801469001643"
             ]
         }
     ];

@@ -16,7 +16,8 @@ class Hknextmedia implements Entity {
                 "categories" => [
                     "Media/news company",
                     "Newspaper"
-                ]
+                ],
+                "id" => "105259197447"
             ]
         },
         {

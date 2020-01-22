@@ -18,7 +18,8 @@ class Btgallery implements Entity {
                 "addr" => "九龍佐敦吳松街191號突破中心地下",
                 "area" => "Tsim Sha Tsui",
                 "email" => "btg@breakthrough.org.hk",
-                "tel" => "23778592"
+                "tel" => "23778592",
+                "id" => "107259426001453"
             ]
         }
     ];

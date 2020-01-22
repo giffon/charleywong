@@ -11,7 +11,8 @@ class Lanlanhanhk implements Entity {
             meta: [
                 "categories" => [
                     "Artist"
-                ]
+                ],
+                "id" => "896695670487307"
             ]
         }
     ];

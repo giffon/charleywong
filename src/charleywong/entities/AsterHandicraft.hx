@@ -15,7 +15,8 @@ class AsterHandicraft implements Entity {
                     "Shopping & retail"
                 ],
                 "email" => "asterhandicraft@gmail.com",
-                "tel" => "51804369"
+                "tel" => "51804369",
+                "id" => "670585856711462"
             ]
         },
         {

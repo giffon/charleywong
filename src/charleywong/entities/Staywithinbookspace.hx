@@ -18,7 +18,8 @@ class Staywithinbookspace implements Entity {
                 "addr" => "柴灣泰民街11-15號樂翠臺商場D3舖",
                 "area" => "Hong Kong",
                 "email" => "staywithinbookspace@gmail.com",
-                "tel" => "91800122"
+                "tel" => "91800122",
+                "id" => "867292663475689"
             ]
         },
         {

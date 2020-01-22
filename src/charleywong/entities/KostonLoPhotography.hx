@@ -15,7 +15,8 @@ class KostonLoPhotography implements Entity {
                 ],
                 "addr" => "柴灣永泰道70號柴灣工業城第二期",
                 "area" => "Hong Kong",
-                "email" => "hong191084@icloud.com"
+                "email" => "hong191084@icloud.com",
+                "id" => "399023356790370"
             ]
         }
     ];

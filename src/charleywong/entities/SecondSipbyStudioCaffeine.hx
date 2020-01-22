@@ -15,7 +15,8 @@ class SecondSipbyStudioCaffeine implements Entity {
                 ],
                 "addr" => "G/F, 23 School Street",
                 "area" => "Causeway Bay",
-                "email" => "info@studiocaffeine.com.hk"
+                "email" => "info@studiocaffeine.com.hk",
+                "id" => "242106439868101"
             ]
         },
         {

@@ -15,7 +15,8 @@ class Feidoucoffee implements Entity {
                     "Broadcasting & media production company"
                 ],
                 "email" => "info@fei-dou.coffee",
-                "tel" => "94490214"
+                "tel" => "94490214",
+                "id" => "383500811807445"
             ]
         }
     ];

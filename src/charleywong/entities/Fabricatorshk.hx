@@ -12,7 +12,8 @@ class Fabricatorshk implements Entity {
                 "about" => "工具控說故事",
                 "categories" => [
                     "Carpenter"
-                ]
+                ],
+                "id" => "109714863839498"
             ]
         }
     ];

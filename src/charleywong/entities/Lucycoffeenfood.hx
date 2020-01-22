@@ -17,7 +17,8 @@ class Lucycoffeenfood implements Entity {
                 "addr" => "Shop C1, Merlin Centre 55 Po On road",
                 "area" => "Cheung Sha Wan, Hong Kong",
                 "email" => "lucycoffeenfood@gmail.com",
-                "tel" => "55088318"
+                "tel" => "55088318",
+                "id" => "1593755217528733"
             ]
         },
         {

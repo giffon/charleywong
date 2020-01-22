@@ -14,7 +14,8 @@ class ChubbyPinkie implements Entity {
                     "Shopping & retail",
                     "Arts and entertainment"
                 ],
-                "email" => "chubbypinkie@gmail.com"
+                "email" => "chubbypinkie@gmail.com",
+                "id" => "615256065248202"
             ]
         }
     ];

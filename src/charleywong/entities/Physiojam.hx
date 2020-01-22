@@ -12,7 +12,8 @@ class Physiojam implements Entity {
                 "about" => "個人簡介\n2013成立自家品牌Physiojam\n曾經被邀請參與活動紮染分享及訪問...\n\n\n\n\n\n\nSee more",
                 "categories" => [
                     "Clothing (brand)"
-                ]
+                ],
+                "id" => "1385300911728461"
             ]
         }
     ];

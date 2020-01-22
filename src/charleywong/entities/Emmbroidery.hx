@@ -13,7 +13,8 @@ class Emmbroidery implements Entity {
                 "categories" => [
                     "Design & fashion"
                 ],
-                "email" => "emmbroiderybyem@gmail.com"
+                "email" => "emmbroiderybyem@gmail.com",
+                "id" => "115190529882411"
             ]
         },
         {

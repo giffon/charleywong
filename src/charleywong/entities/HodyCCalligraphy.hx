@@ -13,7 +13,8 @@ class HodyCCalligraphy implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "email" => "hodycalli@gmail.com"
+                "email" => "hodycalli@gmail.com",
+                "id" => "2347521308793052"
             ]
         }
     ];

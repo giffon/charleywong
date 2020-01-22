@@ -17,7 +17,8 @@ class ABeautifulStore implements Entity {
                 ],
                 "addr" => "3/f, 194 prince edward road west, kowloon,",
                 "area" => "Hong Kong",
-                "email" => "abeautifulstore@gmail.com"
+                "email" => "abeautifulstore@gmail.com",
+                "id" => "374008576114945"
             ]
         },
         {

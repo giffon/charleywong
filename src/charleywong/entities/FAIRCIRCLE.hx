@@ -18,7 +18,8 @@ class FAIRCIRCLE implements Entity {
                 "addr" => "荃灣德士古道120號安泰國際中心 2803 室",
                 "area" => "Tsuen Wan, Hong Kong",
                 "email" => "info@hkfairtradepower.com",
-                "tel" => "31888064"
+                "tel" => "31888064",
+                "id" => "92132596181"
             ]
         }
     ];

@@ -14,7 +14,8 @@ class SundayGarden implements Entity {
                     "Retail company"
                 ],
                 "email" => "sundaygarden2016@gmail.com",
-                "tel" => "55440874"
+                "tel" => "55440874",
+                "id" => "595535060627513"
             ]
         }
     ];

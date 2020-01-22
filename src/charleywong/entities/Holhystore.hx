@@ -13,7 +13,8 @@ class Holhystore implements Entity {
                 "categories" => [
                     "Clothing (brand)"
                 ],
-                "tel" => "56117060"
+                "tel" => "56117060",
+                "id" => "786961828107201"
             ]
         }
     ];

@@ -16,7 +16,8 @@ class Muchakuchahk implements Entity {
                 ],
                 "addr" => "Room 1306, 13/F, Pang Kwong Building, 59 Hung To Road, Kwun Tong",
                 "area" => "Kowloon, Hong Kong",
-                "email" => "muchakucha.hk@gmail.com"
+                "email" => "muchakucha.hk@gmail.com",
+                "id" => "652238318275103"
             ]
         },
         {

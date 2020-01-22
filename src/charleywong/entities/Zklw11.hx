@@ -13,7 +13,8 @@ class Zklw11 implements Entity {
                 "categories" => [
                     "Arts and crafts shop"
                 ],
-                "email" => "loooos1111@gmail.com"
+                "email" => "loooos1111@gmail.com",
+                "id" => "372256726308783"
             ]
         }
     ];

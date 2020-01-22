@@ -14,7 +14,8 @@ class Tdfmyartworks implements Entity {
                     "Shopping & retail"
                 ],
                 "email" => "talent.tdf@gmail.com",
-                "tel" => "27708779"
+                "tel" => "27708779",
+                "id" => "345381482151416"
             ]
         }
     ];

@@ -16,7 +16,8 @@ class Yijuofficial implements Entity {
                 ],
                 "addr" => "RM R,5/F, 2 KWEI TEI STREET, INTERNATIONAL INDUSTRIAL CENTRE",
                 "area" => "Hong Kong",
-                "tel" => "63460922"
+                "tel" => "63460922",
+                "id" => "826559320796085"
             ]
         }
     ];

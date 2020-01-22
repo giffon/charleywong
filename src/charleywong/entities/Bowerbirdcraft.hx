@@ -15,7 +15,8 @@ class Bowerbirdcraft implements Entity {
                     "Gardener",
                     "Arts and crafts shop"
                 ],
-                "email" => "alephchan@gmail.com"
+                "email" => "alephchan@gmail.com",
+                "id" => "1182568668455255"
             ]
         },
         {

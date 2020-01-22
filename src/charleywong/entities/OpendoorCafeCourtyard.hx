@@ -19,7 +19,8 @@ class OpendoorCafeCourtyard implements Entity {
                 "addr" => "G/F 120 Connaught Road West, Sai Ying Pun",
                 "area" => "Hong Kong",
                 "email" => "hello@opendoorcafe.hk",
-                "tel" => "34603880"
+                "tel" => "34603880",
+                "id" => "132061946986975"
             ]
         }
     ];

@@ -12,7 +12,8 @@ class Hutinmountain implements Entity {
                 "about" => "一針一線,滿載心意;\n細味萬物,感謝自然;\n山中小屋,體會四時。",
                 "categories" => [
                     "Personal blog"
-                ]
+                ],
+                "id" => "1431472480456206"
             ]
         }
     ];

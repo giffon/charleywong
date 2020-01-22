@@ -13,7 +13,8 @@ class AnewToys implements Entity {
                 "categories" => [
                     "Games/toys"
                 ],
-                "email" => "anewtoys@gmail.com"
+                "email" => "anewtoys@gmail.com",
+                "id" => "1897103353909322"
             ]
         }
     ];

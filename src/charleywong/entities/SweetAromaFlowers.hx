@@ -14,7 +14,8 @@ class SweetAromaFlowers implements Entity {
                     "Florist"
                 ],
                 "email" => "sweetaromaflowers@gmail.com",
-                "tel" => "63327149"
+                "tel" => "63327149",
+                "id" => "269069962217"
             ]
         },
         {

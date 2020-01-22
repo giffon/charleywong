@@ -12,7 +12,8 @@ class MtHLAT implements Entity {
                 "about" => "上山下海、畫畫創作、到處漂泊、窮著笑著過生活。",
                 "categories" => [
                     "Vitamins/supplements"
-                ]
+                ],
+                "id" => "1606119459678890"
             ]
         }
     ];

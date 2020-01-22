@@ -12,7 +12,8 @@ class Toballkidrawing implements Entity {
                 "about" => "一個閒時忙時都會繪畫的人，\n在她的眼中世界萬物都是可愛的，圓的，脂的。\n希望大家看到她的畫時，\n會笑一下",
                 "categories" => [
                     "Just for fun"
-                ]
+                ],
+                "id" => "177939653085729"
             ]
         }
     ];

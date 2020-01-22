@@ -13,7 +13,8 @@ class LilithHandmade implements Entity {
                     "Beauty, cosmetic & personal care"
                 ],
                 "email" => "lilithandmade.com@gmail.com",
-                "tel" => "51226604"
+                "tel" => "51226604",
+                "id" => "2222820081316544"
             ]
         }
     ];

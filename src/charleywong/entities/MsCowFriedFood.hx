@@ -16,7 +16,8 @@ class MsCowFriedFood implements Entity {
                     "Fast food restaurant"
                 ],
                 "addr" => "長沙灣道1號",
-                "area" => "Hong Kong"
+                "area" => "Hong Kong",
+                "id" => "753772002120859"
             ]
         }
     ];

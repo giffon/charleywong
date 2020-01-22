@@ -11,7 +11,8 @@ class KittiGreenWorld implements Entity {
             meta: [
                 "categories" => [
                     "Society & culture website"
-                ]
+                ],
+                "id" => "288127801978943"
             ]
         }
     ];

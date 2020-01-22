@@ -16,7 +16,8 @@ class KatmadeWorkshop implements Entity {
                     "Jewellery/watches"
                 ],
                 "email" => "katttmade@gmail.com",
-                "tel" => "65962044"
+                "tel" => "65962044",
+                "id" => "105814767512060"
             ]
         }
     ];

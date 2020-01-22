@@ -14,7 +14,8 @@ class ArtistaPerfettoHK implements Entity {
                     "Product/service"
                 ],
                 "addr" => "Shop 2, No. 3A Sharp Street West, Causeway Bay",
-                "area" => "Hong Kong"
+                "area" => "Hong Kong",
+                "id" => "305599263600747"
             ]
         }
     ];

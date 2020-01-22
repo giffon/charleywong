@@ -15,7 +15,8 @@ class Wereshopaholics implements Entity {
                 ],
                 "addr" => "九龍觀塘開源道56號大眾工業大廈5樓15室",
                 "area" => "Hong Kong",
-                "tel" => "91072276"
+                "tel" => "91072276",
+                "id" => "421002051587907"
             ]
         }
     ];

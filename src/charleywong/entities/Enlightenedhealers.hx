@@ -13,7 +13,8 @@ class Enlightenedhealers implements Entity {
                 "about" => "醫學界政改及普選關注組 – 杏林覺醒\n\n有興趣投稿的醫生，請把稿件寄往 unisuffragehk@gmail.com",
                 "categories" => [
                     "Community"
-                ]
+                ],
+                "id" => "660395087411698"
             ]
         }
     ];

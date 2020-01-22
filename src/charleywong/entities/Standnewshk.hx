@@ -17,7 +17,8 @@ class Standnewshk implements Entity {
                 "categories" => [
                     "Media/news company"
                 ],
-                "email" => "editorial@thestandnews.com"
+                "email" => "editorial@thestandnews.com",
+                "id" => "710476795704610"
             ]
         }
     ];

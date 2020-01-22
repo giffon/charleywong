@@ -7,7 +7,7 @@ class PandaCafe implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Pan-da-Cafe-120736337973194/",
+            url: "https://www.facebook.com/120736337973194/",
             meta: [
                 "about" => "一個富田園風味的環境，\n讓你享受多款特式咖啡；\n一個富親切感的地方，\n給你品嘗各款美食。",
                 "categories" => [
@@ -16,7 +16,8 @@ class PandaCafe implements Entity {
                 ],
                 "addr" => "G/F., 23 See Cheung St., Sai Kung. 西貢市場街23號地下",
                 "area" => "Sai Kung",
-                "tel" => "90952998"
+                "tel" => "90952998",
+                "id" => "120736337973194"
             ]
         }
     ];

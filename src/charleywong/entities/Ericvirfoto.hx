@@ -14,7 +14,8 @@ class Ericvirfoto implements Entity {
                 "categories" => [
                     "Photographer"
                 ],
-                "email" => "lezlebric_v@ymail.com"
+                "email" => "lezlebric_v@ymail.com",
+                "id" => "1607548872820652"
             ]
         },
         {

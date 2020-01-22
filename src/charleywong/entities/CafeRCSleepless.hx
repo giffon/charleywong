@@ -17,7 +17,8 @@ class CafeRCSleepless implements Entity {
                 "addr" => "G/F, 22&24 Haven Street , Causeway Bay",
                 "area" => "Causeway Bay",
                 "email" => "cafernc@gmail.com",
-                "tel" => "28909838"
+                "tel" => "28909838",
+                "id" => "132225386819663"
             ]
         }
     ];

@@ -22,7 +22,8 @@ class FarollLTD implements Entity {
                 "addr" => "荔枝角通洲西街1066號安泰工業大廈3樓A座316室",
                 "area" => "Lai Chi Kok",
                 "email" => "info@faroll.com",
-                "tel" => "34264501"
+                "tel" => "34264501",
+                "id" => "437761629928398"
             ]
         },
         {

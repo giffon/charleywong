@@ -14,7 +14,8 @@ class Flamefanspage implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "email" => "flameproduction.hk@gmail.com"
+                "email" => "flameproduction.hk@gmail.com",
+                "id" => "415586471847362"
             ]
         }
     ];

@@ -13,7 +13,8 @@ class IamCarolHung implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "i.am.carol.hung@gmail.com"
+                "email" => "i.am.carol.hung@gmail.com",
+                "id" => "828867077138707"
             ]
         },
         {

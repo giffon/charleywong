@@ -13,7 +13,8 @@ class UglyFamily implements Entity {
                 "about" => "醜人，為世界帶來美好。\nIG: ugly_family",
                 "categories" => [
                     "Artist"
-                ]
+                ],
+                "id" => "1467558473481733"
             ]
         },
         {

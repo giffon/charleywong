@@ -13,7 +13,8 @@ class Hikingshadow implements Entity {
                 "categories" => [
                     "Sport & recreation"
                 ],
-                "email" => "hiking.shadow@hotmail.com"
+                "email" => "hiking.shadow@hotmail.com",
+                "id" => "418391184954535"
             ]
         }
     ];

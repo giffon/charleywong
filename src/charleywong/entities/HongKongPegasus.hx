@@ -21,7 +21,8 @@ class HongKongPegasus implements Entity {
                 "addr" => "荔枝角青山道505號通源工業大廈9樓A室",
                 "area" => "Lai Chi Kok",
                 "email" => "info@pegasus.hk",
-                "tel" => "67924078"
+                "tel" => "67924078",
+                "id" => "314622325626313"
             ]
         },
         {

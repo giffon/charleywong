@@ -14,7 +14,8 @@ class Halfwaycoffeehk implements Entity {
                     "Coffee shop"
                 ],
                 "email" => "halfwaycoffee@gmail.com",
-                "tel" => "95117197"
+                "tel" => "95117197",
+                "id" => "1501022636875471"
             ]
         },
         {

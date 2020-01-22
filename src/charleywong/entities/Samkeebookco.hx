@@ -16,7 +16,8 @@ class Samkeebookco implements Entity {
                 "addr" => "北角英皇道193號英皇中心地庫19號〈近國都廣場〉",
                 "area" => "Hong Kong",
                 "email" => "samkeebook@yahoo.com.hk",
-                "tel" => "25785956"
+                "tel" => "25785956",
+                "id" => "334906163352811"
             ]
         }
     ];

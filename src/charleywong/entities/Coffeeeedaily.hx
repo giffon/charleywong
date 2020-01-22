@@ -14,7 +14,8 @@ class Coffeeeedaily implements Entity {
                 "categories" => [
                     "Blogger",
                     "Community"
-                ]
+                ],
+                "id" => "391441874348444"
             ]
         },
         {

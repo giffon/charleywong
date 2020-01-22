@@ -15,7 +15,8 @@ class TRAVERSE implements Entity {
                     "Mountain",
                     "Outdoor equipment shop"
                 ],
-                "email" => "traversehk@gmail.com"
+                "email" => "traversehk@gmail.com",
+                "id" => "415568095274023"
             ]
         }
     ];

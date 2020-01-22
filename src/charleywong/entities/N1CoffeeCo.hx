@@ -7,7 +7,7 @@ class N1CoffeeCo implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/N1-Coffee-Co-473097382816950/",
+            url: "https://www.facebook.com/473097382816950/",
             meta: [
                 "about" => "Founder - Felix Wong & EL Au\nBy Barista Academy HK",
                 "categories" => [
@@ -18,7 +18,8 @@ class N1CoffeeCo implements Entity {
                 "addr" => "Shop G, 34 Mody Road",
                 "area" => "Tsim Sha Tsui",
                 "email" => "info@baristaacademy.hk",
-                "tel" => "35684726"
+                "tel" => "35684726",
+                "id" => "473097382816950"
             ]
         }
     ];

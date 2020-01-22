@@ -13,7 +13,8 @@ class Angaofachi implements Entity {
                 "about" => "寄賣點：\n又一城及海港城Logon",
                 "categories" => [
                     "Jewellery/watches"
-                ]
+                ],
+                "id" => "1486359691577853"
             ]
         }
     ];

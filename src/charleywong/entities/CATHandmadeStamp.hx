@@ -13,7 +13,8 @@ class CATHandmadeStamp implements Entity {
                 "categories" => [
                     "Grocers",
                     "Product/service"
-                ]
+                ],
+                "id" => "598140120303983"
             ]
         }
     ];

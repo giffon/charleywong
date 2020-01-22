@@ -16,7 +16,8 @@ class REACTIONCoffeeRoasters implements Entity {
                 ],
                 "addr" => "Shop 67 B & C, G/F, 67 Sing Woo Road, Happy Valley",
                 "area" => "Hong Kong",
-                "tel" => "26747388"
+                "tel" => "26747388",
+                "id" => "1499108513654527"
             ]
         }
     ];

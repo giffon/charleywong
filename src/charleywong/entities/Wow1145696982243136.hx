@@ -11,7 +11,8 @@ class Wow1145696982243136 implements Entity {
             meta: [
                 "categories" => [
                     "Recreation & sport website"
-                ]
+                ],
+                "id" => "1145696982243136"
             ]
         }
     ];

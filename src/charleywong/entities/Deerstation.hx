@@ -11,7 +11,8 @@ class Deerstation implements Entity {
             meta: [
                 "categories" => [
                     "Product/service"
-                ]
+                ],
+                "id" => "549599025231703"
             ]
         }
     ];

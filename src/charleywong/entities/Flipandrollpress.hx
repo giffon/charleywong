@@ -18,7 +18,8 @@ class Flipandrollpress implements Entity {
                 ],
                 "addr" => "RM 5, 17/F, Metro Centre 2, 21 Lam Hing ST, Kowloon Bay, Kowloon",
                 "area" => "Hong Kong",
-                "email" => "info@flipandroll.press"
+                "email" => "info@flipandroll.press",
+                "id" => "173671323256620"
             ]
         }
     ];

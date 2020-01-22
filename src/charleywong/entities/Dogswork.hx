@@ -17,7 +17,8 @@ class Dogswork implements Entity {
                     "Hobby shop"
                 ],
                 "email" => "dogsworkhk@gmail.com",
-                "tel" => "62335231"
+                "tel" => "62335231",
+                "id" => "152426158816207"
             ]
         },
         {

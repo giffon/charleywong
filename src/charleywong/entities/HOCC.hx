@@ -16,7 +16,8 @@ class HOCC implements Entity {
                 "categories" => [
                     "Public figure"
                 ],
-                "email" => "info@goomusic.com.hk"
+                "email" => "info@goomusic.com.hk",
+                "id" => "100375550229"
             ]
         },
         {

@@ -14,7 +14,8 @@ class Soapstonestudio implements Entity {
                     "Artist",
                     "Art"
                 ],
-                "email" => "soapstonestudio@gmail.com"
+                "email" => "soapstonestudio@gmail.com",
+                "id" => "338800586319546"
             ]
         },
         {

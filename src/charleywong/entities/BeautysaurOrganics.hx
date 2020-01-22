@@ -21,7 +21,8 @@ class BeautysaurOrganics implements Entity {
                 "addr" => "Shop210B, 2/F, K11 Musea, 18 Salisbury Road, Tsim Sha Tsui",
                 "area" => "Hong Kong",
                 "email" => "info@beautysaur.com",
-                "tel" => "94329430"
+                "tel" => "94329430",
+                "id" => "1248162731931579"
             ]
         }
     ];

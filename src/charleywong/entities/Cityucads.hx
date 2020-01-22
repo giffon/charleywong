@@ -13,7 +13,8 @@ class Cityucads implements Entity {
                 "categories" => [
                     "Community organisation"
                 ],
-                "email" => "mangetsu201925@gmail.com"
+                "email" => "mangetsu201925@gmail.com",
+                "id" => "692188684166382"
             ]
         },
         {

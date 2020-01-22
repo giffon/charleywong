@@ -13,7 +13,8 @@ class CrazyGemini implements Entity {
                 "categories" => [
                     "Blogger",
                     "Arts and crafts shop"
-                ]
+                ],
+                "id" => "237895236420324"
             ]
         }
     ];

@@ -17,7 +17,8 @@ class Addoilteam implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "info@addoilteam.hk"
+                "email" => "info@addoilteam.hk",
+                "id" => "285568601649747"
             ]
         }
     ];

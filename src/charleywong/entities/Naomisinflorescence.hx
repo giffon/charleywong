@@ -14,7 +14,8 @@ class Naomisinflorescence implements Entity {
                 "categories" => [
                     "Florist"
                 ],
-                "email" => "naomisinflorescence@gmail.com"
+                "email" => "naomisinflorescence@gmail.com",
+                "id" => "1485401985100566"
             ]
         }
     ];

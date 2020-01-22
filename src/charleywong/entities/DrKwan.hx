@@ -13,7 +13,8 @@ class DrKwan implements Entity {
                 "categories" => [
                     "Scientist",
                     "Doctor"
-                ]
+                ],
+                "id" => "268572053337726"
             ]
         }
     ];

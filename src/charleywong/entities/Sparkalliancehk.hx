@@ -15,7 +15,8 @@ class Sparkalliancehk implements Entity {
                 ],
                 "addr" => "香港九龍尖沙咀郵政信箱 98697 號",
                 "area" => "Hong Kong",
-                "tel" => "64616642"
+                "tel" => "64616642",
+                "id" => "1965117443775378"
             ]
         }
     ];

@@ -16,7 +16,8 @@ class Catrabbitsky implements Entity {
                     "Art school"
                 ],
                 "email" => "admin@catrabbitsky.com",
-                "tel" => "65605935"
+                "tel" => "65605935",
+                "id" => "278113473625"
             ]
         },
         {

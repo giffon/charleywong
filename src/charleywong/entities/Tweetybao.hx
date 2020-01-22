@@ -14,7 +14,8 @@ class Tweetybao implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "tweeco@hotmail.com"
+                "email" => "tweeco@hotmail.com",
+                "id" => "134727746601660"
             ]
         }
     ];

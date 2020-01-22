@@ -14,7 +14,8 @@ class Psychesholia implements Entity {
                     "Product/service"
                 ],
                 "email" => "psychesholia@gmail.com",
-                "tel" => "96737329"
+                "tel" => "96737329",
+                "id" => "212312718897530"
             ]
         },
         {

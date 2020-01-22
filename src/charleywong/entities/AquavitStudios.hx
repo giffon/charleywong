@@ -17,7 +17,8 @@ class AquavitStudios implements Entity {
                 ],
                 "addr" => "沙田火炭黃竹洋街15-21號華聯工業中心A座7樓23室",
                 "area" => "Hong Kong",
-                "email" => "info@aquavitstudios.com"
+                "email" => "info@aquavitstudios.com",
+                "id" => "1821473234826129"
             ]
         }
     ];

@@ -13,7 +13,8 @@ class FlashMediaHongKong implements Entity {
                 "categories" => [
                     "Media/news company"
                 ],
-                "email" => "theflashmediahk@gmail.com"
+                "email" => "theflashmediahk@gmail.com",
+                "id" => "112467260231947"
             ]
         },
         {

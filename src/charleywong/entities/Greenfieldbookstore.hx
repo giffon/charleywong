@@ -17,7 +17,8 @@ class Greenfieldbookstore implements Entity {
                 "addr" => "九龍旺角西洋菜街56號2樓",
                 "area" => "Mong Kok",
                 "email" => "gfbook@netvigator.com",
-                "tel" => "23858031"
+                "tel" => "23858031",
+                "id" => "1557848527849992"
             ]
         }
     ];

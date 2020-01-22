@@ -15,7 +15,8 @@ class Jclassymakeup implements Entity {
                 ],
                 "addr" => "Koon Fook Centre, 9 Knutsford Terrace,",
                 "area" => "Tsim Sha Tsui",
-                "email" => "jclassymakeup@gmail.com"
+                "email" => "jclassymakeup@gmail.com",
+                "id" => "180888471959619"
             ]
         },
         {

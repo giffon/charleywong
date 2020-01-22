@@ -18,7 +18,8 @@ class Zapjokstudio implements Entity {
                 "addr" => "1/f, 85 Fuk Wa Street, Sham Shui Po,",
                 "area" => "Hong Kong",
                 "email" => "zapjok85@gmail.com",
-                "tel" => "93816260"
+                "tel" => "93816260",
+                "id" => "828967090476973"
             ]
         }
     ];

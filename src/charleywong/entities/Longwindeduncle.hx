@@ -12,7 +12,8 @@ class Longwindeduncle implements Entity {
                 "about" => "這是一遍融合人、大自然、生活態度與公義的樂土。",
                 "categories" => [
                     "Personal blog"
-                ]
+                ],
+                "id" => "1542347002756194"
             ]
         }
     ];

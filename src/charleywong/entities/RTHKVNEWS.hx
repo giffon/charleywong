@@ -17,7 +17,8 @@ class RTHKVNEWS implements Entity {
                 "categories" => [
                     "Media/news company"
                 ],
-                "tel" => "23396300"
+                "tel" => "23396300",
+                "id" => "715486135226112"
             ]
         },
         {

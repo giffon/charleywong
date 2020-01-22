@@ -13,7 +13,8 @@ class Jacnat implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "email" => "jacnat.bc@gmail.com"
+                "email" => "jacnat.bc@gmail.com",
+                "id" => "1000641189986062"
             ]
         }
     ];

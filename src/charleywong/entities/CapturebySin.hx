@@ -13,7 +13,8 @@ class CapturebySin implements Entity {
                 "categories" => [
                     "Fictional character"
                 ],
-                "email" => "veev95819036@gmail.com"
+                "email" => "veev95819036@gmail.com",
+                "id" => "719202094855619"
             ]
         }
     ];

@@ -11,7 +11,8 @@ class DearJillAccessories implements Entity {
             meta: [
                 "categories" => [
                     "Brand"
-                ]
+                ],
+                "id" => "2016122335334291"
             ]
         }
     ];

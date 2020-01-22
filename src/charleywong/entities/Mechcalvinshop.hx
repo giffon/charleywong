@@ -19,7 +19,8 @@ class Mechcalvinshop implements Entity {
                     "Computer company"
                 ],
                 "email" => "computer@mechcalvin.com",
-                "tel" => "60510020"
+                "tel" => "60510020",
+                "id" => "113753091995930"
             ]
         },
         {

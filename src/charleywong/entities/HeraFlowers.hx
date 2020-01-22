@@ -15,7 +15,8 @@ class HeraFlowers implements Entity {
                     "Florist"
                 ],
                 "email" => "heraflowershk@gmail.com",
-                "tel" => "54008711"
+                "tel" => "54008711",
+                "id" => "296110154329516"
             ]
         }
     ];

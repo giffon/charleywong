@@ -12,7 +12,8 @@ class Hennabyrita implements Entity {
                 "about" => "henna, mehndi,\nlefty,\nHong Kong",
                 "categories" => [
                     "Artist"
-                ]
+                ],
+                "id" => "438821806164777"
             ]
         },
         {

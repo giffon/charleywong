@@ -15,7 +15,8 @@ class RainInTimeHK implements Entity {
                 "about" => "- 音樂在於我們是瞬雷不及之雨 -\nNEW ALBUM AVAILABLE NOW!\nhttps://rainintime.bandcamp.com/",
                 "categories" => [
                     "Musician/band"
-                ]
+                ],
+                "id" => "188911834455855"
             ]
         }
     ];

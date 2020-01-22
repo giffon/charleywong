@@ -13,7 +13,8 @@ class Lifemarthk implements Entity {
                 "categories" => [
                     "Community organisation"
                 ],
-                "email" => "lifemarthk@gmail.com"
+                "email" => "lifemarthk@gmail.com",
+                "id" => "124573034846968"
             ]
         }
     ];

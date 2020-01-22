@@ -13,7 +13,8 @@ class HelloWong implements Entity {
                 "categories" => [
                     "Artist"
                 ],
-                "email" => "skihalo@gmail.com"
+                "email" => "skihalo@gmail.com",
+                "id" => "506169139491160"
             ]
         }
     ];

@@ -18,7 +18,8 @@ class RabbitlandCafe implements Entity {
                 ],
                 "addr" => "銅鑼灣謝斐道530號3樓",
                 "area" => "Causeway Bay",
-                "email" => "info@rabbitland.com.hk"
+                "email" => "info@rabbitland.com.hk",
+                "id" => "465573823652482"
             ]
         }
     ];

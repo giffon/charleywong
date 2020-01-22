@@ -18,7 +18,8 @@ class Retoldcoffeeteaspirits implements Entity {
                 "addr" => "Shop 102,1/F, The Mills, 45 Pak Tin Par St, Tsuen Wan",
                 "area" => "Hong Kong",
                 "email" => "enjoy@retold.coffee",
-                "tel" => "57416102"
+                "tel" => "57416102",
+                "id" => "295695847936272"
             ]
         }
     ];

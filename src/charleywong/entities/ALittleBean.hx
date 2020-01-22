@@ -13,7 +13,8 @@ class ALittleBean implements Entity {
                 "categories" => [
                     "Brand"
                 ],
-                "tel" => "61101281"
+                "tel" => "61101281",
+                "id" => "1169069126491446"
             ]
         }
     ];

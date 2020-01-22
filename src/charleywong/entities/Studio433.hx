@@ -16,7 +16,8 @@ class Studio433 implements Entity {
                     "Jewellery wholesaler"
                 ],
                 "email" => "info433studio@gmail.com",
-                "tel" => "92036659"
+                "tel" => "92036659",
+                "id" => "264821953624130"
             ]
         }
     ];

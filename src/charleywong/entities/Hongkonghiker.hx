@@ -15,7 +15,8 @@ class Hongkonghiker implements Entity {
                     "Society & culture website",
                     "Recreation & sport website"
                 ],
-                "email" => "hkhiker.info@gmail.com"
+                "email" => "hkhiker.info@gmail.com",
+                "id" => "923559464400143"
             ]
         }
     ];

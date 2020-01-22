@@ -12,7 +12,8 @@ class GardenbyAngie implements Entity {
                 "about" => "教學連結：https://www.facebook.com/gardenbyangie/posts/340666333207551",
                 "categories" => [
                     "Nursery & garden centre"
-                ]
+                ],
+                "id" => "293940147880170"
             ]
         }
     ];

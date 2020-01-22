@@ -17,7 +17,8 @@ class IntervalCoffeeBar implements Entity {
                 "addr" => "UG/F, 33 Wellington Street",
                 "area" => "Central, Hong Kong",
                 "email" => "info@presetspaces.com",
-                "tel" => "25707568"
+                "tel" => "25707568",
+                "id" => "122214585098105"
             ]
         }
     ];

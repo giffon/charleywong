@@ -13,7 +13,8 @@ class Minoecanvas implements Entity {
                 "about" => "I\'m 撈。Any problem？撈 proboem！Okay thanks。",
                 "categories" => [
                     "Public figure"
-                ]
+                ],
+                "id" => "485760294821709"
             ]
         }
     ];

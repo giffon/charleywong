@@ -14,7 +14,8 @@ class KalLeung implements Entity {
                     "Professional service"
                 ],
                 "email" => "hang@hangmade.hk",
-                "tel" => "93344185"
+                "tel" => "93344185",
+                "id" => "872088682853899"
             ]
         }
     ];

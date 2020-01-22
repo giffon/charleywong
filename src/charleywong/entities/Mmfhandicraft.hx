@@ -14,7 +14,8 @@ class Mmfhandicraft implements Entity {
                 "categories" => [
                     "Arts and crafts shop"
                 ],
-                "email" => "mmfhandicraft@hotmail.com"
+                "email" => "mmfhandicraft@hotmail.com",
+                "id" => "508057586021690"
             ]
         }
     ];

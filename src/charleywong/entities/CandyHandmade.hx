@@ -13,7 +13,8 @@ class CandyHandmade implements Entity {
                 "categories" => [
                     "Product/service",
                     "Apparel & clothing"
-                ]
+                ],
+                "id" => "218858248705257"
             ]
         }
     ];

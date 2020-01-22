@@ -12,7 +12,8 @@ class HKupdownhill implements Entity {
                 "about" => "上山落山上山落山上山上山樂山...",
                 "categories" => [
                     "Hiking trail"
-                ]
+                ],
+                "id" => "708061305929591"
             ]
         }
     ];

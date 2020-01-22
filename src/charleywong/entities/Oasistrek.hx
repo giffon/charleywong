@@ -16,7 +16,8 @@ class Oasistrek implements Entity {
                     "Brand",
                     "Hiking trail"
                 ],
-                "email" => "teddy@oasistrek.com"
+                "email" => "teddy@oasistrek.com",
+                "id" => "111267698912536"
             ]
         },
         {

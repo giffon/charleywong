@@ -17,7 +17,8 @@ class Shishastudiohk implements Entity {
                 ],
                 "addr" => "九龍灣美羅中心2期1825室",
                 "area" => "Hong Kong",
-                "email" => "shishastudiohk@gmail.com"
+                "email" => "shishastudiohk@gmail.com",
+                "id" => "101379731295282"
             ]
         }
     ];

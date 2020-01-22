@@ -14,7 +14,8 @@ class Coffeeder implements Entity {
                     "Magazine"
                 ],
                 "email" => "coffeederhk@gmail.com",
-                "tel" => "55717267"
+                "tel" => "55717267",
+                "id" => "288339544656362"
             ]
         }
     ];

@@ -14,7 +14,8 @@ class GuruPangWorkshop implements Entity {
                 "categories" => [
                     "Jewellery/watches"
                 ],
-                "email" => "seine128@gmail.com"
+                "email" => "seine128@gmail.com",
+                "id" => "1606657302950643"
             ]
         }
     ];

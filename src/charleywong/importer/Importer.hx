@@ -125,6 +125,10 @@ class Importer {
             return toTitleCase(name);
         }
 
+        if (~/^[0-9]+$/.match(fbPage)) {
+            return 'Fb${fbPage}';
+        }
+
         if (~/^[^\u4e00-\u9fff]+$/.match(fbPage)) {
             return toTitleCase(fbPage);
         }
@@ -207,15 +211,26 @@ class Importer {
                 case { expr: EObjectDecl(fs) }: fs.iter(f -> fields.push(f));
                 case e: throw '$e is not EObjectDecl.';
             }
+            var fbRegexp = ~/^https:\/\/www\.facebook\.com\/(.+)\/$/;
             if (p.meta != null) {
                 var metas = [for (k => v in p.meta) macro ${{expr:EConst(CString(k)), pos:null}} => ${valueToExpr(v)}];
+                if (fbRegexp.match(p.url) && p.meta["id"] == null) {
+                    var importer = new FacebookImporter();
+                    var fbPage = importer.fbPageInfo(fbRegexp.matched(1));
+                    importer.destroy();
+
+                    metas.push(macro "id" => ${valueToExpr(fbPage.id)});
+
+                    if (p.url.endsWith('-${fbPage.id}/')) {
+                        fields[0].expr = valueToExpr('https://www.facebook.com/${fbPage.id}/');
+                    }
+                }
                 var metaExpr = macro [$a{metas}];
                 switch (macro { meta: $metaExpr }) {
                     case { expr: EObjectDecl(fs) }: fs.iter(f -> fields.push(f));
                     case e: throw '$e is not EObjectDecl.';
                 }
             } else {
-                var fbRegexp = ~/^https:\/\/www\.facebook\.com\/(.+)\/$/;
                 if (fbRegexp.match(p.url)) {
                     var importer = new FacebookImporter();
                     var fbPage = importer.fbPageInfo(fbRegexp.matched(1));
@@ -330,6 +345,9 @@ class Importer {
             url: post,
         }]);
         var metaExprs = [];
+        if (fbPage.id != null) {
+            metaExprs.push(macro "id" => ${valueToExpr(fbPage.id)});
+        }
         if (fbPage.about != null) {
             metaExprs.push(macro "about" => ${valueToExpr(fbPage.about)});
         }

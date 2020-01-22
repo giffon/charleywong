@@ -11,7 +11,8 @@ class Hkcitizenmisssticker implements Entity {
             meta: [
                 "categories" => [
                     "Personal blog"
-                ]
+                ],
+                "id" => "111821543516370"
             ]
         }
     ];

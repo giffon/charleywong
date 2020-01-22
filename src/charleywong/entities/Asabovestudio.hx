@@ -12,7 +12,8 @@ class Asabovestudio implements Entity {
                 "about" => "本店由兩位能量治癒師主理，主要設計美觀而帶穩定能量的水晶飾品、靈擺、氣場清理工具等。",
                 "categories" => [
                     "Alternative & holistic health service"
-                ]
+                ],
+                "id" => "1984627071612633"
             ]
         }
     ];

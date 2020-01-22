@@ -17,7 +17,8 @@ class SognoCafe implements Entity {
                 "addr" => "威靈頓街97號威利大廈2樓D",
                 "area" => "Hong Kong",
                 "email" => "sognocafeplus@yahoo.com.hk",
-                "tel" => "27579878"
+                "tel" => "27579878",
+                "id" => "502136729864950"
             ]
         }
     ];

@@ -13,7 +13,8 @@ class Neonlite implements Entity {
                     "Home decor",
                     "Product/service"
                 ],
-                "tel" => "68557416"
+                "tel" => "68557416",
+                "id" => "1843374929288014"
             ]
         }
     ];

@@ -18,7 +18,8 @@ class CafeTalay implements Entity {
                 "addr" => "Shop 1i, G/F, 118 Connaught Road West, Sai Ying Pun, H.K.",
                 "area" => "Hong Kong",
                 "email" => "info@cafetalay.com",
-                "tel" => "69964614"
+                "tel" => "69964614",
+                "id" => "126405584683876"
             ]
         }
     ];

@@ -13,7 +13,8 @@ class Kakahandmade implements Entity {
                 "categories" => [
                     "Product/service"
                 ],
-                "email" => "neko919104@yahoo.com.hk"
+                "email" => "neko919104@yahoo.com.hk",
+                "id" => "159470354076247"
             ]
         }
     ];

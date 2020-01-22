@@ -7,7 +7,7 @@ class BurgerHome implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.facebook.com/Burger-Home-139217689617319/",
+            url: "https://www.facebook.com/139217689617319/",
             meta: [
                 "about" => "每一個漢堡包都係用心制作",
                 "categories" => [
@@ -16,7 +16,8 @@ class BurgerHome implements Entity {
                 ],
                 "addr" => "灣仔軒尼詩道233號地下B舖",
                 "area" => "Hong Kong",
-                "tel" => "25751575"
+                "tel" => "25751575",
+                "id" => "139217689617319"
             ]
         }
     ];

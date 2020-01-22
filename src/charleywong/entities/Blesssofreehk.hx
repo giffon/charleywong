@@ -14,7 +14,8 @@ class Blesssofreehk implements Entity {
                 "categories" => [
                     "Shopping & retail"
                 ],
-                "email" => "blesssofree@gmail.com"
+                "email" => "blesssofree@gmail.com",
+                "id" => "274481799945061"
             ]
         }
     ];

@@ -13,7 +13,8 @@ class Enjoyhiking implements Entity {
                 "categories" => [
                     "Recreation & sport website"
                 ],
-                "email" => "enjoyhikinginhk@gmail.com"
+                "email" => "enjoyhikinginhk@gmail.com",
+                "id" => "324432127675078"
             ]
         },
         {

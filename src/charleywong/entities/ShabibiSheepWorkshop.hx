@@ -18,7 +18,8 @@ class ShabibiSheepWorkshop implements Entity {
                 "addr" => "Shop 106, The Mills, 45 Pak Tin Par Street",
                 "area" => "Tsuen Wan, Hong Kong",
                 "email" => "hi.there@shabibisheepworkshop.com",
-                "tel" => "95433689"
+                "tel" => "95433689",
+                "id" => "1655648777997760"
             ]
         },
         {

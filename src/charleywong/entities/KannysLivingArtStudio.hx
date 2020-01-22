@@ -17,7 +17,8 @@ class KannysLivingArtStudio implements Entity {
                 "addr" => "上環皇后大道中328號中源中心商場229室",
                 "area" => "Hong Kong",
                 "email" => "ghs193@hotmail.com",
-                "tel" => "98858396"
+                "tel" => "98858396",
+                "id" => "219993188017633"
             ]
         }
     ];

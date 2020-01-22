@@ -15,7 +15,8 @@ class KuraiKageCL implements Entity {
                     "Art",
                     "Personal blog"
                 ],
-                "email" => "chiwailam181@yahoo.com.hk"
+                "email" => "chiwailam181@yahoo.com.hk",
+                "id" => "2004824633088145"
             ]
         },
         {

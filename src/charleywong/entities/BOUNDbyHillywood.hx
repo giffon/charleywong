@@ -18,7 +18,8 @@ class BOUNDbyHillywood implements Entity {
                 "addr" => "32 Boundary Street, Prince Edward",
                 "area" => "Kowloon, Hong Kong",
                 "email" => "info@boundbeerandcoffee.com",
-                "tel" => "23966488"
+                "tel" => "23966488",
+                "id" => "621516837961068"
             ]
         }
     ];

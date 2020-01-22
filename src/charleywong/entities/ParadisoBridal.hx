@@ -17,7 +17,8 @@ class ParadisoBridal implements Entity {
                 "addr" => "Suite B, 2/F, Yun Tat Commercial Bldg, 70-74 Wuhu St.",
                 "area" => "Kowloon, Hong Kong",
                 "email" => "info@paradisobridal.com",
-                "tel" => "39023535"
+                "tel" => "39023535",
+                "id" => "179025512191810"
             ]
         }
     ];

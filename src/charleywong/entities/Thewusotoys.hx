@@ -16,7 +16,8 @@ class Thewusotoys implements Entity {
                 ],
                 "addr" => "旺角洗衣街129號地下閣樓",
                 "area" => "Hong Kong",
-                "tel" => "62261985"
+                "tel" => "62261985",
+                "id" => "716454205107018"
             ]
         }
     ];

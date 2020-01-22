@@ -16,7 +16,8 @@ class Repurposehk implements Entity {
                 "addr" => "FT U 1/F Kai Tak FTY BLDG STAGE 1, 101 King Kuk Street",
                 "area" => "San Po Kong",
                 "email" => "repurpose@dne.com.hk",
-                "tel" => "61283314"
+                "tel" => "61283314",
+                "id" => "1330111367074936"
             ]
         }
     ];

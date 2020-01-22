@@ -13,7 +13,8 @@ class SubmarineVintage implements Entity {
                 "categories" => [
                     "Clothing (brand)"
                 ],
-                "email" => "oh.submarine.vintage@gmail.com"
+                "email" => "oh.submarine.vintage@gmail.com",
+                "id" => "312320602243504"
             ]
         },
         {

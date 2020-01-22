@@ -14,7 +14,8 @@ class PhysioActionHK implements Entity {
                 "categories" => [
                     "Community"
                 ],
-                "email" => "physio.action.hk@gmail.com"
+                "email" => "physio.action.hk@gmail.com",
+                "id" => "463447537192136"
             ]
         }
     ];

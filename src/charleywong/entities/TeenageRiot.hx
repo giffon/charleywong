@@ -17,7 +17,8 @@ class TeenageRiot implements Entity {
                 "categories" => [
                     "Musician/band"
                 ],
-                "email" => "teenageriothongkong@gmail.com"
+                "email" => "teenageriothongkong@gmail.com",
+                "id" => "556344564442536"
             ]
         }
     ];

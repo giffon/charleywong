@@ -17,7 +17,8 @@ class HelloHippieIamaVintageweirdo implements Entity {
                 "addr" => "香港尖沙咀梳士巴利道3號海港城星光行2樓",
                 "area" => "Hong Kong",
                 "email" => "hellohippievintage@gmail.com",
-                "tel" => "67237773"
+                "tel" => "67237773",
+                "id" => "196474460432012"
             ]
         },
         {

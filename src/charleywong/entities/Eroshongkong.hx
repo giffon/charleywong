@@ -18,7 +18,8 @@ class Eroshongkong implements Entity {
                 "addr" => "旺角彌敦道610號荷里活商業中心7樓703",
                 "area" => "Mong Kok",
                 "email" => "eroshongkong@gmail.com",
-                "tel" => "55031990"
+                "tel" => "55031990",
+                "id" => "473472582810120"
             ]
         }
     ];

@@ -15,7 +15,8 @@ class FreezeLifestyle implements Entity {
                     "Interior design studio",
                     "Cultural gift shop"
                 ],
-                "email" => "freeze.lifestyle@gmail.com"
+                "email" => "freeze.lifestyle@gmail.com",
+                "id" => "1739860996294097"
             ]
         }
     ];

@@ -17,7 +17,8 @@ class Runwaysnpstudio implements Entity {
                 "addr" => "觀塘成業街成業工業大廈2樓09室",
                 "area" => "Hong Kong",
                 "email" => "support@runwaysnp.com",
-                "tel" => "37088147"
+                "tel" => "37088147",
+                "id" => "282384852134642"
             ]
         }
     ];

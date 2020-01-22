@@ -12,7 +12,8 @@ class ColourFever implements Entity {
                 "about" => "Design your Own Listen your Colour\n由繩子木頭上尋找屬於你的顏色\n沒有東西是不起眼的，由零開始，一起為平凡帶上色彩\n讓我愛的顏色帶進你的生活𥚃",
                 "categories" => [
                     "Brand"
-                ]
+                ],
+                "id" => "1637340219679836"
             ]
         }
     ];

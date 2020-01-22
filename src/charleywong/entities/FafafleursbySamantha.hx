@@ -15,7 +15,8 @@ class FafafleursbySamantha implements Entity {
                     "Art",
                     "Product/service"
                 ],
-                "tel" => "53193219"
+                "tel" => "53193219",
+                "id" => "180405805642003"
             ]
         },
         {

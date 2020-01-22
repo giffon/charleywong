@@ -17,7 +17,8 @@ class Hktramstore implements Entity {
                 ],
                 "addr" => "Shop no.229, 2/F, Siu Sai Wan Plaza, 10 Siu Sai Wan Road",
                 "area" => "Hong Kong",
-                "email" => "enquiry@hktramstore.com"
+                "email" => "enquiry@hktramstore.com",
+                "id" => "327352754671373"
             ]
         }
     ];

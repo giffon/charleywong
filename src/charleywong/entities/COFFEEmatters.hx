@@ -15,7 +15,8 @@ class COFFEEmatters implements Entity {
                 "addr" => "No. 170 Ki Lung Street, Sham Shui Po, KLN",
                 "area" => "Hong Kong",
                 "email" => "oblivionbeing@gmail.com",
-                "tel" => "64962609"
+                "tel" => "64962609",
+                "id" => "187295985440579"
             ]
         }
     ];

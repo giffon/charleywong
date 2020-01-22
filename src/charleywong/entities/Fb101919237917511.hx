@@ -13,7 +13,8 @@ class Fb101919237917511 implements Entity {
                 "categories" => [
                     "Restaurant"
                 ],
-                "tel" => "23601359"
+                "tel" => "23601359",
+                "id" => "101919237917511"
             ]
         }
     ];
@@ -26,3 +27,4 @@ class Fb101919237917511 implements Entity {
         }
     ];
 }
+

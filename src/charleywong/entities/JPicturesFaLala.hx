@@ -13,7 +13,8 @@ class JPicturesFaLala implements Entity {
                 "categories" => [
                     "Arts and entertainment"
                 ],
-                "email" => "jadaip40416@gmail.com"
+                "email" => "jadaip40416@gmail.com",
+                "id" => "198497007404653"
             ]
         }
     ];

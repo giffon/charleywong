@@ -13,7 +13,8 @@ class Hellomisterhk implements Entity {
                 "categories" => [
                     "Artist",
                     "Art"
-                ]
+                ],
+                "id" => "100617124740747"
             ]
         },
         {

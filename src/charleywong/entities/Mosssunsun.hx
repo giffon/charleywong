@@ -15,7 +15,8 @@ class Mosssunsun implements Entity {
                     "Arts and crafts shop",
                     "Jewellery/watches"
                 ],
-                "tel" => "60159976"
+                "tel" => "60159976",
+                "id" => "225965494587933"
             ]
         }
     ];

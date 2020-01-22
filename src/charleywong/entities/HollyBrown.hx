@@ -18,7 +18,8 @@ class HollyBrown implements Entity {
                     "Restaurant"
                 ],
                 "email" => "infohollybrown@gmail.com",
-                "tel" => "28699008"
+                "tel" => "28699008",
+                "id" => "110646632314057"
             ]
         }
     ];

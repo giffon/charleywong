@@ -15,7 +15,8 @@ class FavillaCafe implements Entity {
                     "Restaurant"
                 ],
                 "email" => "cafe@favilla.com.hk",
-                "tel" => "90143749"
+                "tel" => "90143749",
+                "id" => "1755609544738973"
             ]
         }
     ];

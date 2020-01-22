@@ -17,7 +17,8 @@ class TonsPastry implements Entity {
                 "addr" => "Unit 306, 3/F, Sunwise Industrial Building, 16-26 Wang Wo Tsai Street",
                 "area" => "Tsuen Wan, Hong Kong",
                 "email" => "tonspastry@gmail.com",
-                "tel" => "92452442"
+                "tel" => "92452442",
+                "id" => "148085158722014"
             ]
         },
         {

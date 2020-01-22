@@ -15,7 +15,8 @@ class Monsteriz implements Entity {
                     "Brand",
                     "Art"
                 ],
-                "email" => "monsterizdesign@gmail.com"
+                "email" => "monsterizdesign@gmail.com",
+                "id" => "711515088992822"
             ]
         }
     ];
