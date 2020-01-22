@@ -51,11 +51,6 @@ jobs:
           npm install
           haxelib newrepo
           haxelib install all --always
-      - uses: actions/upload-artifact@v1
-        if: success() && matrix.utestPattern == 'TestAllEntities'
-        with:
-          name: node_modules
-          path: node_modules
       - name: Compile index.js
         run: haxe build.hxml
       - uses: actions/upload-artifact@v1
@@ -81,9 +76,6 @@ jobs:
           submodules: true
       - uses: actions/download-artifact@v1
         with:
-          name: node_modules
-      - uses: actions/download-artifact@v1
-        with:
           name: index.js
       - name: Install dependencies
         run: |
@@ -92,6 +84,7 @@ jobs:
           apt-get install -y git iproute2 procps sudo bash-completion build-essential curl software-properties-common
           curl -sL https://deb.nodesource.com/setup_12.x | bash -
           apt-get install -y nodejs=12.*
+      - run: npm install
       - name: Deploy
         run: npx serverless deploy
         env:
