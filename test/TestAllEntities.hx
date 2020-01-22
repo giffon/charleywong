@@ -14,9 +14,10 @@ class TestAllEntities extends utest.Test {
     }
 
     function testIdUniqueness():Void {
-        var id = new Map<String, Class<Dynamic>>();
+        var ids = new Map<String, String>();
         for (entityClassName => entity in EntityIndex.entities) {
-            Assert.isFalse(id.exists(entity.id), '$id exists in both ${entityClassName} and ${Type.getClassName(id[entity.id])}.');
+            Assert.isFalse(ids.exists(entity.id), '${entity.id} exists in both ${entityClassName} and ${ids[entity.id]}.');
+            ids[entity.id] = entityClassName;
         }
     }
 
@@ -31,11 +32,24 @@ class TestAllEntities extends utest.Test {
         }
     }
 
-    function testUrlUniqueness():Void {
-        var url = new Map<String, Class<Dynamic>>();
+    function testWebpagesUrlUniqueness():Void {
+        var urls = new Map<String, Entity>();
         for (entityClassName => entity in EntityIndex.entities) {
             for (page in entity.webpages) {
-                Assert.isFalse(url.exists(page.url), '$url exists in both ${entityClassName} and ${Type.getClassName(url[page.url])}.');
+                var e = urls[page.url];
+                Assert.isTrue(e == null, '${page.url} exists in both ${entity.id} and ${e == null ? null : e.id}}.');
+                urls[page.url] = entity;
+            }
+        }
+    }
+
+    function testPostsUrlUniqueness():Void {
+        for (entityClassName => entity in EntityIndex.entities) {
+            var urls = new Map<String, Entity>();
+            for (post in entity.posts) {
+                var e = urls[post.url];
+                Assert.isTrue(e == null, 'Duplicated ${post.url} in ${entity.id}.');
+                urls[post.url] = entity;
             }
         }
     }
