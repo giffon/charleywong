@@ -25,6 +25,12 @@ class FanHungAOfficial implements Entity {
     public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/FanHungAOfficial/photos/a.447811495581514/843870569308936/"
+        },
+        {
+            url: "https://www.facebook.com/FanHungAOfficial/posts/909847302711262"
+        },
+        {
+            url: "https://www.facebook.com/FanHungAOfficial/photos/a.447811495581514/894616097567716/"
         }
     ];
 }
