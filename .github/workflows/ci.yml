@@ -66,6 +66,7 @@ jobs:
       - name: Compile import.py
         run: haxe import.hxml
       - name: Run test
+        shell: bash
         run: |
           source ~/venv/bin/activate
           haxe test.hxml
