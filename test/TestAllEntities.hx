@@ -13,17 +13,6 @@ class TestAllEntities extends utest.Test {
         Assert.isFalse(EntityIndex.entitiesOfId.empty());
     }
 
-    function testUrlAccessibility():Void {
-        for (entity in EntityIndex.entities) {
-            for (page in entity.webpages) {
-                validateUrl(page.url);
-            }
-            for (post in entity.posts) {
-                validateUrl(post.url);
-            }
-        }
-    }
-
     function testIdUniqueness():Void {
         var id = new Map<String, Class<Dynamic>>();
         for (entityClassName => entity in EntityIndex.entities) {
@@ -67,19 +56,5 @@ class TestAllEntities extends utest.Test {
             if (regexp.match(page.url))
             Assert.equals('https://www.instagram.com/${regexp.matched(1)}/', page.url);
         }
-    }
-
-    function validateUrl(url:String, ?pos:PosInfos) {
-        var p = new sys.io.Process("curl", [
-            "-sSLf", url,
-            "-o", "/dev/null",
-            "--retry", "5",
-            "--http1.0",
-            "-A", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"
-        ]);
-        var code = p.exitCode();
-        var err = p.stderr.readAll().toString().rtrim();
-        p.close();
-        Assert.equals(0, code, '$url is not accessible.\n${err}', pos);
     }
 }
