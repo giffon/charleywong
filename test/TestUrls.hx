@@ -24,7 +24,7 @@ class TestUrls extends utest.Test {
 
     function validateUrl(url:String, ?pos:PosInfos) {
         var p = new sys.io.Process("curl", [
-            "-sSLf", url,
+            "-sSLkf", url,
             "-o", "/dev/null",
             "--retry", "5",
             "--connect-timeout", "10",
