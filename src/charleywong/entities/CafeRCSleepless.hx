@@ -28,6 +28,9 @@ class CafeRCSleepless implements Entity {
         },
         {
             url: "https://www.facebook.com/caferncsleepless/photos/a.146098188765716/3320624271313076/"
+        },
+        {
+            url: "https://www.facebook.com/caferncsleepless/photos/a.146098188765716/3277788748929962/"
         }
     ];
 }
