@@ -29,6 +29,9 @@ class CoHee implements Entity {
         },
         {
             url: "https://www.facebook.com/coheehk/photos/a.460210047504268/1115869105271689/"
+        },
+        {
+            url: "https://www.facebook.com/coheehk/photos/a.460210047504268/1234432683415330/"
         }
     ];
 }

@@ -20,6 +20,12 @@ class Fb737261133131865 implements Entity {
     public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/permalink.php?story_fbid=1163395973851710&id=737261133131865"
+        },
+        {
+            url: "https://www.facebook.com/737261133131865/photos/a.891114161079894/1200287770162530/"
+        },
+        {
+            url: "https://www.facebook.com/737261133131865/photos/a.891114161079894/1082924085232233/"
         }
     ];
 }

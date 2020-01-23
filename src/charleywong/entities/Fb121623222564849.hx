@@ -21,6 +21,12 @@ class Fb121623222564849 implements Entity {
     public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/121623222564849/photos/a.126641695396335/155106365883201/"
+        },
+        {
+            url: "https://www.facebook.com/121623222564849/photos/a.126641695396335/171675780892926/"
+        },
+        {
+            url: "https://www.facebook.com/121623222564849/photos/a.126641695396335/153120672748437/"
         }
     ];
 }
