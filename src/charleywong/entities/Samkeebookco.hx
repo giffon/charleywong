@@ -24,6 +24,12 @@ class Samkeebookco implements Entity {
     public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/samkeebookco/photos/a.414912825352144/1495816337261782"
+        },
+        {
+            url: "https://www.facebook.com/samkeebookco/photos/a.414912825352144/1536684703174945/"
+        },
+        {
+            url: "https://www.facebook.com/samkeebookco/posts/1535498453293570"
         }
     ];
 }

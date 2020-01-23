@@ -26,6 +26,9 @@ class DearCoffeeBakery implements Entity {
     public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/dear.coffee.bakery/photos/a.1018637958200799/2531569960240917/"
+        },
+        {
+            url: "https://www.facebook.com/dear.coffee.bakery/photos/a.1018637958200799/2734463226618255/"
         }
     ];
 }
