@@ -296,7 +296,7 @@ class FacebookImporter {
         var value:String = hiddenInput.get_attribute("value");
         var regexp = ~/^https:\/\/www\.facebook\.com\/(.+)\/$/;
         if (regexp.match(value))
-            return regexp.matched(1);
+            return fbPageInfo(regexp.matched(1)).page;
         else
             throw value;
     }
