@@ -258,7 +258,7 @@ class FacebookImporter {
             links.map(link -> link.get_attribute("textContent"));
     }
 
-    public function loginFbIfNeeded() {
+    public function loginFbIfNeeded():Bool {
         var requireLogin = try {
             new WebDriverWait(driver, 5).until(_ ->
                 (driver.title:String).contains(" - About") ||
@@ -287,11 +287,25 @@ class FacebookImporter {
             loginBtn.click();
             new WebDriverWait(driver, 60).until(_ -> driver.title != "Facebook" && !(driver.title:String).contains("Log in to Facebook"));
         }
+
+        return requireLogin;
     }
 
     // Get Facebook page name from a permalink.
     public function fbPage(url:String):String {
+        if (url.startsWith("https://www.facebook.com/permalink.php?")) {
+            var regexp = ~/(?<![A-Za-z])id=([0-9]+)/;
+            if (regexp.match(url)) {
+                return fbPageInfo(regexp.matched(1)).page;
+            } else {
+                throw 'Cannot parse id from $url';
+            }
+        }
+
         driver.get(url);
+
+        loginFbIfNeeded();
+
         var hiddenInput:WebElement = driver.find_element_by_xpath("//div[starts-with(text(),'See more of')]/following-sibling::*//input[starts-with(@value,'https://www.facebook.com/')]");
         var value:String = hiddenInput.get_attribute("value");
         var regexp = ~/^https:\/\/www\.facebook\.com\/(.+)\/$/;
