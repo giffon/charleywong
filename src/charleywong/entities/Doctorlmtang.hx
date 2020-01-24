@@ -7,9 +7,6 @@ class Doctorlmtang implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "http://www.chinesedoctor.com.hk/dr_detail-1.asp?dr_doctor=7810"
-        },
-        {
             url: "https://www.facebook.com/doctorlmtang/",
             meta: [
                 "id" => "228829827272326",
