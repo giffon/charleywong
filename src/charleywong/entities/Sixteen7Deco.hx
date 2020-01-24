@@ -7,7 +7,7 @@ class Sixteen7Deco implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://sites.google.com/view/6ixteen7deco/首頁"
+            url: "https://sites.google.com/view/6ixteen7deco/"
         },
         {
             url: "https://www.facebook.com/6ixteen7Deco/",

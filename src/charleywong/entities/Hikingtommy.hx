@@ -22,9 +22,6 @@ class Hikingtommy implements Entity {
                 "email" => "chungkaisun2012@gmail.com",
                 "tel" => "67329930"
             ]
-        },
-        {
-            url: "https://www.instagram.com/chungkaisun/"
         }
     ];
     public final posts:Array<Post> = [

@@ -21,9 +21,6 @@ class KitDaSketch implements Entity {
                 ],
                 "email" => "kickasstype@kitdastudio.com"
             ]
-        },
-        {
-            url: "https://www.instagram.com/kitdastudioisback/"
         }
     ];
     public final posts:Array<Post> = [
