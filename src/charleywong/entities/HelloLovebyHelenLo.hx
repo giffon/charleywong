@@ -18,7 +18,7 @@ class HelloLovebyHelenLo implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/hinokimakeup/"
+            url: "https://www.instagram.com/hellolovehelen/"
         }
     ];
     public final posts:Array<Post> = [
