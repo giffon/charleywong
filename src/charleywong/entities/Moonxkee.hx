@@ -19,9 +19,6 @@ class Moonxkee implements Entity {
                 ],
                 "email" => "moonxkee@gmail.com"
             ]
-        },
-        {
-            url: "https://www.instagram.com/yankeebbg/"
         }
     ];
     public final posts:Array<Post> = [
