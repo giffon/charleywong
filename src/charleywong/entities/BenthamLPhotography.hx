@@ -19,9 +19,6 @@ class BenthamLPhotography implements Entity {
                 ],
                 "email" => "info@benthaml.com"
             ]
-        },
-        {
-            url: "https://www.instagram.com/Rnb_foto/"
         }
     ];
     public final posts:Array<Post> = [
