@@ -100,6 +100,12 @@ class ServerMain {
         }));
     }
 
+    static function allowCors(req:Request, res:Response, next):Void {
+        res.header("Access-Control-Allow-Origin", "*");
+        res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+        next();
+    }
+
     static function main():Void {
         app = new Application();
         app.set('json spaces', 2);
@@ -115,6 +121,8 @@ class ServerMain {
 
         var cache = require("apicache").middleware;
         app.use(cache('1 hour'));
+
+        app.use(allowCors);
 
         app.get("/", index);
         app.get("/list/all.json", allJson);
