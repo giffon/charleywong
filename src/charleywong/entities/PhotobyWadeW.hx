@@ -24,7 +24,7 @@ class PhotobyWadeW implements Entity {
     ];
     public final posts:Array<Post> = [
         {
-            url: "https://www.facebook.com/photobywadew/photos/a.501502253239972/2629831367073706/"
+            url: "https://www.facebook.com/photobywadew/posts/2629831417073701"
         }
     ];
 }
