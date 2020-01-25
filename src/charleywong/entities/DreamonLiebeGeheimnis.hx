@@ -27,6 +27,9 @@ class DreamonLiebeGeheimnis implements Entity {
     public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/DreamLiebeGeheimnis/posts/404858996873003"
+        },
+        {
+            url: "https://www.facebook.com/DreamLiebeGeheimnis/posts/419022155456687"
         }
     ];
 }
