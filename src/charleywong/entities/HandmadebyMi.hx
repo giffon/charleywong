@@ -30,6 +30,9 @@ class HandmadebyMi implements Entity {
         },
         {
             url: "https://www.facebook.com/handmadebymi/photos/a.397117723710975/2587456588010400/"
+        },
+        {
+            url: "https://www.facebook.com/handmadebymi/photos/a.175711175851632/2424165004339560/"
         }
     ];
 }
