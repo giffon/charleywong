@@ -21,6 +21,9 @@ class Alohawasa implements Entity {
     public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/alohawasa/posts/1340265069486191"
+        },
+        {
+            url: "https://www.facebook.com/alohawasa/photos/a.195234037322639/1190878764424823/"
         }
     ];
 }
