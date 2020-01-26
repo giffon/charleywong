@@ -3,6 +3,7 @@
 --class-path test
 --library utest
 --library compiletime
+--library tink_core
 --macro include('charleywong.entities')
 -D UTEST_PRINT_TESTS
 --interp

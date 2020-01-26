@@ -1,6 +1,7 @@
 --class-path src
 --class-path lib/pyextern/out
 --library compiletime
+--library tink_core
 --library formatter
 --python import.py
 --main charleywong.importer.Importer

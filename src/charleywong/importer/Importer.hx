@@ -4,6 +4,7 @@ import haxe.*;
 import sys.io.File;
 import haxe.ds.ReadOnlyArray;
 import haxe.macro.Expr;
+import charleywong.*;
 import charleywong.importer.FacebookImporter;
 using StringTools;
 using Lambda;
@@ -24,7 +25,6 @@ class Importer {
                 var importer = new FacebookImporter();
                 var info = importer.fbPageInfo(fbPage);
                 importer.destroy();
-                Sys.println(Json.stringify(info, null, "  "));
                 createEntity(info.name, info, postUrl);
             case entity:
                 updateEntity(entity, postUrl);
@@ -35,15 +35,14 @@ class Importer {
         formatterProcess.stdin.close();
         fileContent = formatterProcess.stdout.readAll().toString();
         formatterProcess.close();
-        Sys.println("");
-        Sys.print(fileContent);
         if (Sys.getEnv("CI") != null || Sys.getEnv("GITHUB_ACTIONS") != null) {
             Sys.println("In CI, skip writing file.");
         } else {
             var file = "src/charleywong/entities/" + cls.name + ".hx";
             var rewrite = sys.FileSystem.exists(file);
             File.saveContent(file, fileContent);
-            Sys.println((rewrite ? "Rewritten " : "Created ") + file);
+            Sys.println((rewrite ? "✍️  Rewritten " : "🌟  Created ") + file);
+            Sys.command("code", [file]);
         }
     }
 
@@ -385,6 +384,19 @@ class Importer {
             public final posts:Array<Post> = $postsExpr;
         };
         cls.pack = ["charleywong", "entities"];
+
+        var urls = [];
+        if (fbPage.websites != null) fbPage.websites.iter(url -> urls.push(url));
+        if (fbPage.ig != null) urls.push('https://www.instagram.com/${fbPage.ig}/');
+        for (url in urls) {
+            switch (Utils.isUrlAccessible(url)) {
+                case Success(_):
+                    //pass
+                case Failure(err):
+                    Sys.println('⚠️  $url is not accessible. $err');
+            }
+        }
+
         return cls;
     }
 }
