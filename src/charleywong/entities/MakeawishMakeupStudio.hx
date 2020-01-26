@@ -25,9 +25,6 @@ class MakeawishMakeupStudio implements Entity {
     public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/makeawishmakeupstudio/posts/1400377450122374"
-        },
-        {
-            url: "https://www.facebook.com/makeawishmakeupstudio/photos/a.324392097720920/1400376980122421/"
         }
     ];
 }

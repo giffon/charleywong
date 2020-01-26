@@ -7,9 +7,6 @@ class MikePhotography implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "http://www.mmikelaw.com"
-        },
-        {
             url: "https://www.facebook.com/mikelawphotography/",
             meta: [
                 "id" => "258554440940893",
