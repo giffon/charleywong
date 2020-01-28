@@ -24,11 +24,20 @@ class EntityIndex {
     static final fbPageRegexp = ~/^https:\/\/www\.facebook\.com\/(.+?)\/$/;
 
     static public var entitiesOfFbPage(get, null):Map<String, Entity>;
-    static function get_entitiesOfFbPage() return entitiesOfFbPage != null ? entitiesOfFbPage : entitiesOfFbPage = [
-        for (url => e in entitiesOfUrl)
-        if (fbPageRegexp.match(url))
-        fbPageRegexp.matched(1) => e
-    ];
+    static function get_entitiesOfFbPage() return entitiesOfFbPage != null ? entitiesOfFbPage : entitiesOfFbPage = {
+        var m = new Map();
+        for (e in entities)
+        for (p in e.webpages)
+        if (fbPageRegexp.match(p.url))
+        {
+            m[fbPageRegexp.matched(1)] = e;
+            if (p.meta != null) switch (p.meta["id"]) {
+                case null: //pass
+                case id: m[id] = e;
+            }
+        }
+        m;
+    }
 
     static public var entitiesOfId(get, null):Map<String, Entity>;
     static function get_entitiesOfId() return entitiesOfId != null ? entitiesOfId : entitiesOfId = [

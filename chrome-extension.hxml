@@ -1,0 +1,19 @@
+--library hxnodejs
+--library react
+--library compiletime
+--library tink_core
+--library chrome-extension
+--class-path src
+--class-path lib/hxnodelibs
+--macro include('charleywong.entities')
+
+--each
+
+# --js chrome/Background.js
+# --main charleywong.chrome.Background
+
+# --next
+
+--js chrome.Content.js
+--main charleywong.chrome.Content
+--cmd npx browserify chrome.Content.js > chrome/Content.js

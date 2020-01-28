@@ -1,8 +1,6 @@
 .haxelib
-index.js
-test.js
-import.py
-searcher.py
+*.js
+*.py
 *.js.map
 
 .DS_Store

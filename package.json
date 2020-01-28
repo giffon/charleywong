@@ -31,6 +31,8 @@
     "serverless-http": "2.3.0"
   },
   "devDependencies": {
+    "browserify": "16.5.0",
+    "mutation-summary": "0.1.1",
     "nodemon": "2.0.2",
     "serverless": "1.61.1"
   }
