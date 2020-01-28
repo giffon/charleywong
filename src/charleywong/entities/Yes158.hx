@@ -28,9 +28,6 @@ class Yes158 implements Entity {
             url: "https://www.facebook.com/yes158/posts/1219337964943294"
         },
         {
-            url: "https://www.facebook.com/yes158/posts/1248216678722089"
-        },
-        {
             url: "https://www.instagram.com/p/B00e7YMAsMe/"
         }
     ];
