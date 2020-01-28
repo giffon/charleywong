@@ -27,7 +27,11 @@ class TestUrls extends utest.Test {
             case Success(_):
                 Assert.pass();
             case Failure(err):
-                Assert.fail('$url is not accessible.\n${err}', pos);
+                if (err.contains("503 Service Temporarily Unavailable")) {
+                    Assert.warn('$url is 503 Service Temporarily Unavailable');
+                } else {
+                    Assert.fail('$url is not accessible.\n${err}', pos);
+                }
         }
     }
 }
