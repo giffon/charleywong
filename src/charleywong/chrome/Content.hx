@@ -14,10 +14,25 @@ class Content {
 
         link.dataset.charleywong = "done";
 
-        if (link.children.length == 0 || link.querySelector("h3") != null) {
+        if (
+            link.getAttribute("role") != "button"
+            &&
+            !link.matches("*[role='navigation'] a")
+            &&
+            !(switch (link.getAttribute("href")) {
+                case null: false;
+                case href: href.startsWith("#");
+            })
+            &&
+            (
+                link.children.length == 0 || link.querySelector("h3") != null || link.querySelector("img") == null
+            )
+        ) {
 
             var fbRegexp = ~/^https?:\/\/(?:www.)?facebook.com\/([^\/]+)/;
-            if (fbRegexp.match(link.href)) {
+            var homePathRegexp = ~/^\/([^\/]+)\/?$/;
+            var postPathRegexp = ~/^\/([^\/]+)\/(?:posts|photos|videos)\/?/;
+            if (fbRegexp.match(link.href) && (homePathRegexp.match(link.pathname) || postPathRegexp.match(link.pathname))) {
                 var fb = fbRegexp.matched(1);
                 var fbIdRegexp = ~/^.+-([0-9]+)$/;
                 if (fbIdRegexp.match(fb))
@@ -25,7 +40,11 @@ class Content {
                 switch (EntityIndex.entitiesOfFbPage[fb]) {
                     case null: //pass
                     case entity:
-                        link.outerHTML = "<span>" + link.outerHTML + ' <a href="https://charleywong.giffon.io/${entity.id}" target="_blank" style="position:absolute;margin-left: 0.2em;">[查]</a></span>';
+                        switch (window.getComputedStyle(link).display) {
+                            case "block": link.style.display = "inline-block";
+                            case _: //pass
+                        }
+                        link.outerHTML = "<span>" + link.outerHTML + ' <a href="https://charleywong.giffon.io/${entity.id}" target="_blank">[🔎]</a></span>';
                 }
             }
 
