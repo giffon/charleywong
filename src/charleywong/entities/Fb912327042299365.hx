@@ -8,7 +8,7 @@ class Fb912327042299365 implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "http://www.instagram.com/_fruitmaster"
+            url: "https://www.instagram.com/_fruitmaster/"
         },
         {
             url: "https://www.facebook.com/912327042299365/",

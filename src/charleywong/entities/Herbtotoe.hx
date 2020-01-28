@@ -8,7 +8,7 @@ class Herbtotoe implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.instagram.com/herb.to.toe"
+            url: "https://www.instagram.com/herb.to.toe/"
         },
         {
             url: "https://www.facebook.com/herb.to.toe/",
