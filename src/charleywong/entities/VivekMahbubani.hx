@@ -7,9 +7,6 @@ class VivekMahbubani implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "http://www.funnyvivek.com"
-        },
-        {
             url: "https://www.facebook.com/funnyVivekM/",
             meta: [
                 "id" => "8522964677",
