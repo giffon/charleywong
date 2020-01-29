@@ -7,9 +7,6 @@ class Somethingthineweddingshoes implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "http://www.somethingthine.com"
-        },
-        {
             url: "https://www.facebook.com/somethingthine/",
             meta: [
                 "id" => "137069493023028",
