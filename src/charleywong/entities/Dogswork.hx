@@ -33,6 +33,8 @@ class Dogswork implements Entity {
             url: "https://www.instagram.com/p/BykPtgHgCVL/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

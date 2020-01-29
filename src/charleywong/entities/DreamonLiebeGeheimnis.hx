@@ -32,6 +32,8 @@ class DreamonLiebeGeheimnis implements Entity {
             url: "https://www.facebook.com/DreamLiebeGeheimnis/posts/419022155456687"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

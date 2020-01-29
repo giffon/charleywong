@@ -27,6 +27,9 @@ class ELWorkshop implements Entity {
             url: "https://www.facebook.com/ELWS2013/posts/3268597193213841"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

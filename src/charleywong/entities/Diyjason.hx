@@ -34,6 +34,9 @@ class Diyjason implements Entity {
             url: "https://www.facebook.com/diyjason/posts/2530872230284968"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

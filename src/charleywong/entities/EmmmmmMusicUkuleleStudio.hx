@@ -33,6 +33,9 @@ class EmmmmmMusicUkuleleStudio implements Entity {
             url: "https://www.facebook.com/EmmmmmMusic/photos/a.1431262263774163/2497041783862867/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        music,
+        shop
+    ];
 }
 

@@ -32,6 +32,8 @@ class Darkcalligrapher implements Entity {
             url: "https://www.facebook.com/dark.calligrapher/posts/2262780484012694"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

@@ -26,6 +26,10 @@ class DTmakeup implements Entity {
             url: "https://www.facebook.com/dtstyle.makeup/posts/1119975498197509"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

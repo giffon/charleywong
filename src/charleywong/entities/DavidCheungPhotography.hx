@@ -29,6 +29,8 @@ class DavidCheungPhotography implements Entity {
             url: "https://www.facebook.com/AkiraFlyCheung/photos/a.453334791388882/2536168173105523/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer
+    ];
 }
 

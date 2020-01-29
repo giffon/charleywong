@@ -31,6 +31,8 @@ class Fengminghk implements Entity {
             url: "https://www.facebook.com/fengminghk/photos/a.757185524650491/967967093572332/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

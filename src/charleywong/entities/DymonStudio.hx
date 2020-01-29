@@ -25,6 +25,8 @@ class DymonStudio implements Entity {
             url: "https://www.facebook.com/582160771965556/photos/a.586843701497263/1241192949395665/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

@@ -26,6 +26,9 @@ class Deerfrd implements Entity {
             url: "https://www.facebook.com/deerfrd/posts/2659119124150897"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

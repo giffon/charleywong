@@ -27,6 +27,8 @@ class Fb109120213876971 implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=135926181196374&id=109120213876971"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

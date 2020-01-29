@@ -27,6 +27,9 @@ class EPMusicStation implements Entity {
             url: "https://www.facebook.com/epmusicstation/posts/1550156225135132"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        music,
+        wedding
+    ];
 }
 

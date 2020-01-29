@@ -25,6 +25,8 @@ class Eighttreasures implements Entity {
             url: "https://www.facebook.com/eighttreasures/posts/1929879430489936"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

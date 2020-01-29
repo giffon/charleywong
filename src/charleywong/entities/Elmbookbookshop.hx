@@ -25,6 +25,9 @@ class Elmbookbookshop implements Entity {
             url: "https://www.facebook.com/elmbook.bookshop/photos/a.717725725012134/2546092265508795"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        book,
+        shop
+    ];
 }
 

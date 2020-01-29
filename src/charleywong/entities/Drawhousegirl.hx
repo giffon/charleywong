@@ -31,6 +31,9 @@ class Drawhousegirl implements Entity {
             url: "https://www.facebook.com/drawhousegirl/photos/a.273488916772483/545714929549879/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

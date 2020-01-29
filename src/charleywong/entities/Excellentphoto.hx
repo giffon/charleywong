@@ -25,6 +25,9 @@ class Excellentphoto implements Entity {
             url: "https://www.facebook.com/lunexcellentphoto/posts/2974779649207562"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

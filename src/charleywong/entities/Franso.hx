@@ -30,6 +30,8 @@ class Franso implements Entity {
             url: "https://www.facebook.com/franso/posts/2502803726423558"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer
+    ];
 }
 

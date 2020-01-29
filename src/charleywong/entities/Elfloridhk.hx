@@ -21,6 +21,8 @@ class Elfloridhk implements Entity {
             url: "https://www.facebook.com/elfloridhk/posts/689816694843190"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

@@ -26,6 +26,8 @@ class Danielhoi23s implements Entity {
             url: "https://www.facebook.com/daniel.hoi23s/photos/a.1464504593811065/2427381257523389/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

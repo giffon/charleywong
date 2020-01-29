@@ -29,6 +29,8 @@ class Dorpoyuenlong implements Entity {
             url: "https://www.facebook.com/dorpo.yuenlong/photos/a.312314262686379/513518302565973/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

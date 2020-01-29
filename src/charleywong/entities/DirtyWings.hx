@@ -34,6 +34,9 @@ class DirtyWings implements Entity {
             url: "https://www.facebook.com/dirtywingscrafts/posts/944814885887344"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

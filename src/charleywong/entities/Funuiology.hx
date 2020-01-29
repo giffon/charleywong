@@ -21,8 +21,14 @@ class Funuiology implements Entity {
     public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/funuiology/posts/1638409632957229"
+        },
+        {
+            url: "https://www.facebook.com/funuiology/posts/1633363240128535"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

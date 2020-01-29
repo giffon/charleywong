@@ -30,6 +30,8 @@ class Daikatsumk implements Entity {
             url: "https://www.facebook.com/daikatsumk/posts/677502702737189"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

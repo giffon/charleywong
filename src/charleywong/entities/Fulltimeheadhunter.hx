@@ -32,6 +32,8 @@ class Fulltimeheadhunter implements Entity {
             url: "https://www.facebook.com/fulltimeheadhunter/photos/a.487939604903948/939196199778284/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

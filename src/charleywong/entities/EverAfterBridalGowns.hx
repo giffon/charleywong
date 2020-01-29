@@ -25,6 +25,10 @@ class EverAfterBridalGowns implements Entity {
             url: "https://www.facebook.com/EverAfterbridalGowns/photos/a.273501342664783/2979958922018998/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        bridal,
+        makeup,
+        photographer
+    ];
 }
 

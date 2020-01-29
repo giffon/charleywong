@@ -26,6 +26,8 @@ class Foodiesmashingpumpkins implements Entity {
             url: "https://www.facebook.com/foodiesmashingpumpkins/photos/a.256781661003847/3310128462335803/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

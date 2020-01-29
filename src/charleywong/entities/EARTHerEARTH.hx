@@ -23,6 +23,9 @@ class EARTHerEARTH implements Entity {
             url: "https://www.facebook.com/EARTH.er.EARTH/posts/2745981022106566"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        clothing,
+        accessories
+    ];
 }
 

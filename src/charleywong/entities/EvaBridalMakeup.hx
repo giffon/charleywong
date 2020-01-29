@@ -25,6 +25,10 @@ class EvaBridalMakeup implements Entity {
             url: "https://www.facebook.com/evayipmua/photos/a.226743874193827/1208809462653925/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

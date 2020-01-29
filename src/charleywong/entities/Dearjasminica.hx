@@ -25,6 +25,8 @@ class Dearjasminica implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=2462697920447319&id=1705257319524720"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

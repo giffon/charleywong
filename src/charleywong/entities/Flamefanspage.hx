@@ -27,6 +27,8 @@ class Flamefanspage implements Entity {
             url: "https://www.facebook.com/flamefanspage/photos/a.921348131271191/3428482333891079/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

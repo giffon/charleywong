@@ -22,6 +22,8 @@ class EinNature implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=1587672298030276&id=607502866047229"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

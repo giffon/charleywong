@@ -31,6 +31,8 @@ class Daylilieshandmade implements Entity {
             url: "https://www.facebook.com/daylilieshandmade/posts/2001018713418963"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

@@ -24,6 +24,8 @@ class Deluxeking2018 implements Entity {
             url: "https://www.facebook.com/Deluxeking2018/posts/2343425809100895"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

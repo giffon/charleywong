@@ -31,6 +31,8 @@ class FlowerDiary implements Entity {
             url: "https://www.facebook.com/flowerdiaryhk/photos/a.386498918556055/628514731021138/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

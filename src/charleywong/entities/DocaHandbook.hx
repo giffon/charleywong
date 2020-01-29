@@ -29,6 +29,8 @@ class DocaHandbook implements Entity {
             url: "https://www.facebook.com/docahandbook/posts/1899946783439246"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

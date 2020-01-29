@@ -31,6 +31,8 @@ class EasyJoe implements Entity {
             url: "https://www.facebook.com/easyjoehk/photos/a.417404569108228/516663512515666/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

@@ -28,6 +28,8 @@ class FafafleursbySamantha implements Entity {
             url: "https://www.facebook.com/fafafleursbysamantha/photos/a.482999582049289/980039349011974/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

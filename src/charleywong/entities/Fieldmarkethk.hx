@@ -26,6 +26,8 @@ class Fieldmarkethk implements Entity {
             url: "https://www.instagram.com/p/BymIRFPgWWk/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

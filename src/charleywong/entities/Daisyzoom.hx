@@ -32,6 +32,8 @@ class Daisyzoom implements Entity {
             url: "https://www.facebook.com/Daisyzoom/photos/a.611527055694965/1239004489613882/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

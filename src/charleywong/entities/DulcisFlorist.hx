@@ -25,6 +25,8 @@ class DulcisFlorist implements Entity {
             url: "https://www.facebook.com/dulcisflorist/photos/a.194051094557713/397439137552240/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

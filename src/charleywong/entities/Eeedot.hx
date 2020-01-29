@@ -27,6 +27,8 @@ class Eeedot implements Entity {
             url: "https://www.facebook.com/eeedot/photos/a.1634833706800704/2401504173466983/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

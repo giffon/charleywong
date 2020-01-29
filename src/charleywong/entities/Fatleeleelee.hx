@@ -22,6 +22,8 @@ class Fatleeleelee implements Entity {
             url: "https://www.facebook.com/fatleeleelee/posts/2775210832523526"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure
+    ];
 }
 

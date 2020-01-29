@@ -23,6 +23,8 @@ class Earthtonehandmadeproductshk implements Entity {
             url: "https://www.facebook.com/earthtonehandmadeproducts.hk/videos/1048313995379335/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

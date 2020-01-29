@@ -21,6 +21,8 @@ class Deerstation implements Entity {
             url: "https://www.facebook.com/549599025231703/photos/a.720262144832056/1267635036761428/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

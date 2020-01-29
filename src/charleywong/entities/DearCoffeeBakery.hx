@@ -31,6 +31,8 @@ class DearCoffeeBakery implements Entity {
             url: "https://www.facebook.com/dear.coffee.bakery/photos/a.1018637958200799/2734463226618255/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

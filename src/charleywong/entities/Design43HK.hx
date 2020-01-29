@@ -26,6 +26,8 @@ class Design43HK implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=108097567372074&id=101902241324940"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

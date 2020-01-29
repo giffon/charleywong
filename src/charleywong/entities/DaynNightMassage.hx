@@ -29,6 +29,8 @@ class DaynNightMassage implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=594355561139559&id=149131645661955"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

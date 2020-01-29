@@ -33,6 +33,8 @@ class ElamaMarket implements Entity {
             url: "https://www.facebook.com/ElamaMarket/photos/a.962630290596656/1205622886297394/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

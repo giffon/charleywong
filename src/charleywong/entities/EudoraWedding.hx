@@ -28,6 +28,10 @@ class EudoraWedding implements Entity {
             url: "https://www.facebook.com/EudoraWedding/photos/a.130134233801125/1475398762607992/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        wedding,
+        photographer,
+        makeup
+    ];
 }
 

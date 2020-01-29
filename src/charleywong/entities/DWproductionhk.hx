@@ -24,6 +24,9 @@ class DWproductionhk implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=1364957470346292&id=518898481618866"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

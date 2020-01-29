@@ -29,6 +29,9 @@ class DecowingsWeddingProduction implements Entity {
             url: "https://www.facebook.com/Decowings/posts/2606847609350687"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        wedding,
+        food,
+    ];
 }
 

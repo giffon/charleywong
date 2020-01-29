@@ -26,6 +26,9 @@ class Drawyu implements Entity {
             url: "https://www.facebook.com/draw4yu/photos/a.2022157477813043/3082035798491867/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

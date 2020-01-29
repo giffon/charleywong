@@ -26,6 +26,8 @@ class Ecoluvclothpadshk implements Entity {
             url: "https://www.facebook.com/ecoluvclothpads.hk/photos/a.759599157455429/2556986761049984/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

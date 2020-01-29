@@ -31,6 +31,9 @@ class DesignGardenia implements Entity {
             url: "https://www.facebook.com/designgardenia/photos/a.1845056285742838/2321972904717838/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

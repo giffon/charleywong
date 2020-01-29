@@ -31,6 +31,8 @@ class FaMukExtraordinaryFlorist implements Entity {
             url: "https://www.facebook.com/FaMukExtraordinaryFlorist/posts/844892359213766"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

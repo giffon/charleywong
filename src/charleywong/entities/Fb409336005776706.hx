@@ -3,8 +3,7 @@ package charleywong.entities;
 class Fb409336005776706 implements Entity {
     public final id = "409336005776706";
     public final name = [
-        en => "Tony",
-        zh => "生活札記"
+        zh => "Tony生活札記"
     ];
     public final webpages:Array<WebPage> = [
         {
@@ -30,6 +29,8 @@ class Fb409336005776706 implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=2694498853927065&id=409336005776706"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

@@ -31,6 +31,8 @@ class FavillaCafe implements Entity {
             url: "https://www.facebook.com/favillacafehk/photos/a.1761883390778255/2281287595504496/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

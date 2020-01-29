@@ -27,6 +27,8 @@ class Florist26 implements Entity {
             url: "https://www.facebook.com/26floristhk/photos/a.1411900415621749/1945793422232443/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

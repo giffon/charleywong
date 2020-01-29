@@ -31,6 +31,9 @@ class ELettering implements Entity {
             url: "https://www.facebook.com/e.letteringhk/photos/a.424441407926132/996182807418653/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

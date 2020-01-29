@@ -25,6 +25,8 @@ class Feari implements Entity {
             url: "https://www.facebook.com/FeariHK/posts/2392805410977395"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

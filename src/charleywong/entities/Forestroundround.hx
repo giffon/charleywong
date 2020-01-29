@@ -33,6 +33,8 @@ class Forestroundround implements Entity {
             url: "https://www.facebook.com/forestroundround/photos/a.1032824233399478/2974688662546349/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

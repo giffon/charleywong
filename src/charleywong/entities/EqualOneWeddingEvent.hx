@@ -25,6 +25,9 @@ class EqualOneWeddingEvent implements Entity {
             url: "https://www.facebook.com/equalonehk/photos/a.279396992184408/1337902119667218/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        wedding,
+        photographer
+    ];
 }
 

@@ -32,6 +32,8 @@ class Expske implements Entity {
             url: "https://www.facebook.com/expske/posts/605932733279620"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

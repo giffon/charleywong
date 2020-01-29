@@ -23,6 +23,8 @@ class Damnkidyk implements Entity {
             url: "https://www.facebook.com/damnkidyk/posts/2741699315895077"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

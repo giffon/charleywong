@@ -36,6 +36,8 @@ class FlowerActually implements Entity {
             url: "https://www.facebook.com/theFlowerActually/photos/a.824493447915425/852456211785815/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

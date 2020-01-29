@@ -27,6 +27,8 @@ class ExplorerFusionRestaurant implements Entity {
             url: "https://www.facebook.com/ExplorerFusion/posts/2513217908756587"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

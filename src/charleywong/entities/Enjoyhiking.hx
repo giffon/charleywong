@@ -26,6 +26,8 @@ class Enjoyhiking implements Entity {
             url: "https://www.facebook.com/enjoyhiking/posts/2235592193225719"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 
