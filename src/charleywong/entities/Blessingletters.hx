@@ -28,6 +28,9 @@ class Blessingletters implements Entity {
             url: "https://www.facebook.com/blessingletters/photos/a.1645501345523662/3374617732612006/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop,
+        wedding,
+    ];
 }
 

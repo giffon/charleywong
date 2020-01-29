@@ -30,6 +30,8 @@ class Cheapbonbon implements Entity {
             url: "https://www.facebook.com/cheapbonbon/posts/541757039718358"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

@@ -31,6 +31,8 @@ class BlacksmithStore implements Entity {
             url: "https://www.facebook.com/blacksmithcoffeeshop/photos/a.764068910407825/1336733546474689/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

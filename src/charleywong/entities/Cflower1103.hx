@@ -30,6 +30,9 @@ class Cflower1103 implements Entity {
             url: "https://www.facebook.com/Cflower1103/photos/a.848541338621067/1771123056362886/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist,
+        wedding,
+    ];
 }
 

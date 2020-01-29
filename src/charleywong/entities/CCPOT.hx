@@ -29,6 +29,8 @@ class CCPOT implements Entity {
             url: "https://www.facebook.com/836406806719296/photos/a.836411596718817/1008197692873539/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

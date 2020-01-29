@@ -27,6 +27,9 @@ class AquavitStudios implements Entity {
             url: "https://www.facebook.com/aquavitstudios/posts/2161588534147929"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding,
+    ];
 }
 

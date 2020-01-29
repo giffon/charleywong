@@ -23,6 +23,8 @@ class Artohk implements Entity {
             url: "https://www.facebook.com/Artohk/posts/2637769949637463"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

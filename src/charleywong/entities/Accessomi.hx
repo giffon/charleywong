@@ -25,6 +25,7 @@ class Accessomi implements Entity {
             url: "https://www.facebook.com/accesso.mi/photos/a.1701977709816258/3376477609032918/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
-

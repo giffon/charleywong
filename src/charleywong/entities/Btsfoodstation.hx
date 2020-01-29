@@ -23,6 +23,8 @@ class Btsfoodstation implements Entity {
             url: "https://www.facebook.com/bts.foodstation/posts/1024618151238105"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

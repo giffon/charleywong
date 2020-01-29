@@ -23,6 +23,9 @@ class Angaofachi implements Entity {
             url: "https://www.facebook.com/an.gao.fa.chi/photos/a.1491035364443619/2370965243117289/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories,
+        florist
+    ];
 }
 

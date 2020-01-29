@@ -20,6 +20,34 @@ class Tag {
         m;
     }
 
+    static public final shop:Tag = {
+        name: [
+            en => "shop",
+            zh => "店鋪"
+        ]
+    }
+
+    static public final organization:Tag = {
+        name: [
+            en => "organization",
+            zh => "組織"
+        ]
+    }
+
+    static public final publicfigure:Tag = {
+        name: [
+            en => "public figure",
+            zh => "知名人士"
+        ]
+    }
+
+    static public final media:Tag = {
+        name: [
+            en => "media",
+            zh => "媒體"
+        ]
+    }
+
     static public final wedding:Tag = {
         name: [
             en => "wedding",
@@ -33,7 +61,9 @@ class Tag {
             zh => "婚紗/禮服"
         ],
         inherits: [
-            wedding
+            wedding,
+            shop,
+            clothing,
         ]
     }
 
@@ -48,6 +78,21 @@ class Tag {
         name: [
             en => "artist",
             zh => "藝術家"
+        ],
+        inherits: [publicfigure]
+    };
+
+    static public final book:Tag = {
+        name: [
+            en => "book",
+            zh => "書籍"
+        ],
+    };
+
+    static public final music:Tag = {
+        name: [
+            en => "music",
+            zh => "音樂"
         ]
     };
 
@@ -76,6 +121,43 @@ class Tag {
         name: [
             en => "food & beverage",
             zh => "食物/飲品"
+        ]
+    }
+
+    static public final clothing:Tag = {
+        name: [
+            en => "clothing",
+            zh => "衣物"
+        ],
+        inherits: [shop]
+    }
+
+    static public final accessories:Tag = {
+        name: [
+            en => "accessories",
+            zh => "飾物"
+        ],
+        inherits: [shop]
+    }
+
+    static public final transport:Tag = {
+        name: [
+            en => "transport",
+            zh => "運輸"
+        ]
+    }
+
+    static public final technology:Tag = {
+        name: [
+            en => "technology",
+            zh => "科技"
+        ]
+    }
+
+    static public final medical:Tag = {
+        name: [
+            en => "medical",
+            zh => "醫療"
         ]
     }
 }

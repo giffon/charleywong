@@ -26,6 +26,8 @@ class Agapegardenhk implements Entity {
             url: "https://www.facebook.com/Agapegardenhk/photos/a.1981677598758755/2444386565821187/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

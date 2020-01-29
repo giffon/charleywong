@@ -26,6 +26,9 @@ class AmeeCheungPhotography implements Entity {
             url: "https://www.facebook.com/ameephotos/photos/a.396341590464385/2545231382242051/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding,
+    ];
 }
 

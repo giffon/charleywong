@@ -33,6 +33,8 @@ class AmenFloristDecor implements Entity {
             url: "https://www.facebook.com/AmenFloristDecor/videos/464294894216746/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

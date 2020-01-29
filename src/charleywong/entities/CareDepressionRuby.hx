@@ -26,6 +26,8 @@ class CareDepressionRuby implements Entity {
             url: "https://www.facebook.com/CareDepressionRuby/posts/1674931485973136"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure
+    ];
 }
 

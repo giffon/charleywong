@@ -27,6 +27,8 @@ class ChashouTaiHoRoad implements Entity {
             url: "https://www.facebook.com/chashouTaiHoRoad/photos/a.379883185945233/542015119732038/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

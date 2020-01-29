@@ -26,6 +26,8 @@ class Baabaasheepworkshop implements Entity {
             url: "https://www.facebook.com/baabaasheepworkshop/photos/a.982484951958233/1190193574520702/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

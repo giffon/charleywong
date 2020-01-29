@@ -23,6 +23,8 @@ class AJYdesigns implements Entity {
             url: "https://www.facebook.com/AJYdesigns/photos/a.137204929772593/1382944841865256/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

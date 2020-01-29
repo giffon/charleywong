@@ -31,6 +31,9 @@ class ChiChi implements Entity {
             url: "https://www.facebook.com/chichiseafood/photos/a.681136148634854/2542436655838118/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist
+    ];
 }
 

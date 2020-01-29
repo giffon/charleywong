@@ -28,6 +28,9 @@ class CUZProduction implements Entity {
             url: "https://www.facebook.com/cuzproduction/photos/a.10151678105441045/10156825938176045/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

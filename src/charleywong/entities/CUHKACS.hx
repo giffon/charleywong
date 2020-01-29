@@ -27,6 +27,8 @@ class CUHKACS implements Entity {
             url: "https://www.facebook.com/CUHKACS/posts/2770063599687479"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        organization
+    ];
 }
 

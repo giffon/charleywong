@@ -25,6 +25,8 @@ class Comingoutofdark implements Entity {
             url: "https://www.facebook.com/comingoutofdark/posts/121561932561533"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

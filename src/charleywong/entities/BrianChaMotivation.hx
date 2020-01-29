@@ -30,6 +30,8 @@ class BrianChaMotivation implements Entity {
             url: "https://www.facebook.com/BrianChaOfficial/posts/2631062593654188"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure
+    ];
 }
 

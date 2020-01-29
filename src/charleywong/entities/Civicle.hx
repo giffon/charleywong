@@ -32,6 +32,9 @@ class Civicle implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=101993234663402&id=100165398179519"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        technology,
+        shop
+    ];
 }
 

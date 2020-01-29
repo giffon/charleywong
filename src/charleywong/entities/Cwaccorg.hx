@@ -26,6 +26,8 @@ class Cwaccorg implements Entity {
             url: "https://www.facebook.com/cwacc.org/posts/2399280696803015"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        organization
+    ];
 }
 

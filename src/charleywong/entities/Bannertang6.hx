@@ -28,6 +28,8 @@ class Bannertang6 implements Entity {
             url: "https://www.facebook.com/bannertang6/posts/2257521994359645"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

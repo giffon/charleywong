@@ -33,6 +33,9 @@ class Backpacker implements Entity {
             url: "https://www.facebook.com/backpacker.outdoor.hk/photos/a.1403003173253023/2464338837119446/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop,
+        accessories
+    ];
 }
 

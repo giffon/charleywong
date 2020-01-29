@@ -24,6 +24,8 @@ class CrazyHikingSquad implements Entity {
             url: "https://www.facebook.com/CrazyHikingSquad/posts/1290531754448401"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

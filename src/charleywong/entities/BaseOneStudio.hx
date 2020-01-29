@@ -30,6 +30,9 @@ class BaseOneStudio implements Entity {
             url: "https://www.facebook.com/BASEONESTUDIO/photos/a.632662863566290/1436784659820769/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

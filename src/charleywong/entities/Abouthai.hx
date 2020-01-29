@@ -28,6 +28,6 @@ class Abouthai implements Entity {
             url: "https://www.facebook.com/abouthai/posts/2413681028903125"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [shop];
 }
 

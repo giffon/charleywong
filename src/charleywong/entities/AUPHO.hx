@@ -31,6 +31,9 @@ class AUPHO implements Entity {
             url: "https://www.facebook.com/AUPHO/photos/a.1446574772250372/2415647668676406/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        wedding,
+        photographer
+    ];
 }
 

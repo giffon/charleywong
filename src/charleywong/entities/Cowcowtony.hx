@@ -26,6 +26,8 @@ class Cowcowtony implements Entity {
             url: "https://www.facebook.com/cowcowtony/photos/a.306153636221759/1077842775719504/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

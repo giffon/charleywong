@@ -32,6 +32,8 @@ class Casphalttm implements Entity {
             url: "https://www.facebook.com/casphalt.tm/posts/2013972268704789"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

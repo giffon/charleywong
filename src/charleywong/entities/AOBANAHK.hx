@@ -37,6 +37,8 @@ class AOBANAHK implements Entity {
             url: "https://www.facebook.com/AOBANA.HK/photos/a.670919286667209/788301321595671/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

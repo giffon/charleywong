@@ -26,6 +26,8 @@ class Cou2cou2 implements Entity {
             url: "https://www.facebook.com/cou2cou2/posts/123467909153195"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

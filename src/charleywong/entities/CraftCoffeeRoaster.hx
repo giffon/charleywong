@@ -30,6 +30,8 @@ class CraftCoffeeRoaster implements Entity {
             url: "https://www.facebook.com/craftcoffeehk/photos/a.1470107473217921/2576511602577497/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

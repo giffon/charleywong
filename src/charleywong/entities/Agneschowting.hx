@@ -33,6 +33,8 @@ class Agneschowting implements Entity {
             url: "https://www.facebook.com/agneschowting/posts/1452464708227489"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure
+    ];
 }
 

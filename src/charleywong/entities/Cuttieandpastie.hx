@@ -25,6 +25,8 @@ class Cuttieandpastie implements Entity {
             url: "https://www.facebook.com/cuttieandpastie/photos/a.381157418684138/1723723757760824/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

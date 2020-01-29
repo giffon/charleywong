@@ -23,6 +23,10 @@ class ATingMakeup implements Entity {
             url: "https://www.facebook.com/ATingmakeup/photos/a.533339256703083/2800954199941566/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding,
+    ];
 }
 

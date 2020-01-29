@@ -27,6 +27,8 @@ class Catphotohk implements Entity {
             url: "https://www.facebook.com/catphoto.hk/videos/978621229188884/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer
+    ];
 }
 

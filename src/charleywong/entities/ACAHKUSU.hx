@@ -32,6 +32,7 @@ class ACAHKUSU implements Entity {
             url: "https://www.facebook.com/ACAHKUSU/photos/a.218919221542839/1878294668938611/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        organization
+    ];
 }
-

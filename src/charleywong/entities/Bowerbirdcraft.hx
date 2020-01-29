@@ -31,6 +31,9 @@ class Bowerbirdcraft implements Entity {
             url: "https://www.facebook.com/bowerbirdcraft/posts/2843963672315738"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

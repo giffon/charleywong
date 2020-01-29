@@ -37,6 +37,8 @@ class ChickenPotHutYL implements Entity {
             url: "https://www.facebook.com/ChickenPotHutYL/posts/2505057769774209"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

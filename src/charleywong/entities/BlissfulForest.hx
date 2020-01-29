@@ -26,6 +26,8 @@ class BlissfulForest implements Entity {
             url: "https://www.facebook.com/blissfulnagomipastel/posts/2291403761123617"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

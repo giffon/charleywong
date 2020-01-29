@@ -22,6 +22,7 @@ class AdamPunComicAirtist implements Entity {
             url: "https://www.facebook.com/AdamPun.ComicAirtist/photos/a.613681192496677/629149514283178/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
-

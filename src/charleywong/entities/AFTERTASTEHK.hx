@@ -30,6 +30,8 @@ class AFTERTASTEHK implements Entity {
             url: "https://www.facebook.com/aftertastehongkong/photos/a.2120650028003572/2346422798759626/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

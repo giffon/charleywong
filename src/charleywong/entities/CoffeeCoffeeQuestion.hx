@@ -30,6 +30,8 @@ class CoffeeCoffeeQuestion implements Entity {
             url: "https://www.facebook.com/coffeequestion/photos/a.1688834758070606/2411481642472577/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

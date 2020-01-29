@@ -33,6 +33,8 @@ class CafeRCSleepless implements Entity {
             url: "https://www.facebook.com/caferncsleepless/photos/a.146098188765716/3277788748929962/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

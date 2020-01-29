@@ -26,6 +26,8 @@ class CandyHandmade implements Entity {
             url: "https://www.facebook.com/218858248705257/photos/a.315295982394816/442065359717877/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

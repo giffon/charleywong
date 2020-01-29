@@ -30,6 +30,9 @@ class CatchChaStudio implements Entity {
             url: "https://www.facebook.com/CatchCha/photos/a.1439535293018646/2158954324410069/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

@@ -29,6 +29,8 @@ class Cityucads implements Entity {
             url: "https://www.facebook.com/cityucads/posts/2613303438721554"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        organization
+    ];
 }
 

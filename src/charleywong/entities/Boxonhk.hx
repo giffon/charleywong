@@ -31,6 +31,8 @@ class Boxonhk implements Entity {
             url: "https://www.instagram.com/p/B4thP0hjX0n/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

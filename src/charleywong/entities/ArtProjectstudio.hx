@@ -29,6 +29,9 @@ class ArtProjectstudio implements Entity {
             url: "https://www.facebook.com/artprojectstudio2012/photos/a.1710916475645076/2726116144125099/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding,
+    ];
 }
 

@@ -27,6 +27,9 @@ class AliencatPLMProductionHandcarvedrubberstamps implements Entity {
             url: "https://www.facebook.com/Aliencateraserstamp/photos/a.108213485903244/2761611783896721/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop,
+    ];
 }
 

@@ -29,6 +29,8 @@ class Casparhouse implements Entity {
             url: "https://www.facebook.com/CasparHouse/photos/a.773133102702912/3103603519655847/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

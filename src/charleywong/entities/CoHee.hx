@@ -34,6 +34,8 @@ class CoHee implements Entity {
             url: "https://www.facebook.com/coheehk/photos/a.460210047504268/1234432683415330/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

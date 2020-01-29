@@ -30,6 +30,8 @@ class Amaiworkshop implements Entity {
             url: "https://www.facebook.com/amaiworkshop/photos/a.785107111584873/2685019524926946/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

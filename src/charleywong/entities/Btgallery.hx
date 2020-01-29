@@ -28,6 +28,9 @@ class Btgallery implements Entity {
             url: "https://www.facebook.com/breakthrough.hk/photos/a.155973147787233/2829354450449076"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        book,
+        shop
+    ];
 }
 

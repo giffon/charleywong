@@ -27,6 +27,8 @@ class BallinHK implements Entity {
             url: "https://www.facebook.com/ballinhk/photos/a.1036665176357166/2821535044536828/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

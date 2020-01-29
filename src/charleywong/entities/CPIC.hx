@@ -30,6 +30,8 @@ class CPIC implements Entity {
             url: "https://www.facebook.com/c.pic.2015/posts/2305613619729166"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

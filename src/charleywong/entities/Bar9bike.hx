@@ -31,6 +31,8 @@ class Bar9bike implements Entity {
             url: "https://www.facebook.com/bar9bike/photos/a.230726547494574/536298840270675/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

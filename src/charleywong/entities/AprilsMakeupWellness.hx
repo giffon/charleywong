@@ -24,6 +24,10 @@ class AprilsMakeupWellness implements Entity {
             url: "https://www.facebook.com/aprilfan.makeup/photos/a.590853510976418/2560774063984343/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding,
+    ];
 }
 

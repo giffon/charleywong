@@ -30,6 +30,8 @@ class AllAboutBagBag implements Entity {
             url: "https://www.facebook.com/AllAboutBagBag/posts/2598197223573124"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

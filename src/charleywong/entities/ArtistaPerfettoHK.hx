@@ -27,6 +27,8 @@ class ArtistaPerfettoHK implements Entity {
             url: "https://www.facebook.com/artistaperfettohk/photos/a.320462355447771/566872550806749/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

@@ -27,6 +27,8 @@ class CraneandDeer implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=660786024390093&id=152622608539773"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

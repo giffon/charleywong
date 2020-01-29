@@ -29,6 +29,9 @@ class Blessshoes implements Entity {
             url: "https://www.facebook.com/blessshoeshk/posts/1336286066534869"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        clothing,
+        wedding,
+    ];
 }
 

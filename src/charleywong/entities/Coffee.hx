@@ -30,6 +30,8 @@ class Coffee implements Entity {
             url: "https://www.facebook.com/coffeeand.hk/photos/a.225644884740812/450040665634565/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

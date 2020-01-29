@@ -24,6 +24,9 @@ class Alanwonghokming888 implements Entity {
             url: "https://www.facebook.com/alanwonghokming888/posts/2403753786556205"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure,
+        wedding,
+    ];
 }
 

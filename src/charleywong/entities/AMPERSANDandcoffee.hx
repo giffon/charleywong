@@ -35,6 +35,8 @@ class AMPERSANDandcoffee implements Entity {
             url: "https://www.facebook.com/ampersand.and.coffee/photos/a.557867891361561/768909046924110/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

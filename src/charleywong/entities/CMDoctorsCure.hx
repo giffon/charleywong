@@ -22,6 +22,8 @@ class CMDoctorsCure implements Entity {
             url: "https://www.facebook.com/CMDoctorsCure/posts/1111836985693982"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        organization
+    ];
 }
 

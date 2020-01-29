@@ -23,6 +23,8 @@ class Bautofilm implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=785588375199585&id=359866617771765"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

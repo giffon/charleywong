@@ -25,6 +25,8 @@ class Craftword23 implements Entity {
             url: "https://www.facebook.com/craftword23/photos/a.495242207331200/1157340414454706/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

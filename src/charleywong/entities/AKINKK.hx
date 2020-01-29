@@ -28,6 +28,9 @@ class AKINKK implements Entity {
             url: "https://www.facebook.com/akinkk.sound/posts/2455173461380374"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        music,
+    ];
 }
 

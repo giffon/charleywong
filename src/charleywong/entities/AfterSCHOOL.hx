@@ -26,6 +26,10 @@ class AfterSCHOOL implements Entity {
             url: "https://www.facebook.com/afterSCHOOL311/posts/1680353522096667"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories,
+        wedding,
+        florist,
+    ];
 }
 

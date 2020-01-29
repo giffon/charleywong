@@ -22,6 +22,8 @@ class ColourFever implements Entity {
             url: "https://www.facebook.com/imcolourfever/photos/a.1640222006058324/2609986985748483/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

@@ -28,6 +28,9 @@ class Bydorisliu implements Entity {
             url: "https://www.facebook.com/by.dorisliu/posts/1564840246987806"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

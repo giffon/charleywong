@@ -32,6 +32,8 @@ class CanapsRoom implements Entity {
             url: "https://www.facebook.com/canapesroom/photos/a.492948680897424/1066044103587876/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

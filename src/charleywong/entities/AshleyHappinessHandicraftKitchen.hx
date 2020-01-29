@@ -27,6 +27,9 @@ class AshleyHappinessHandicraftKitchen implements Entity {
             url: "https://www.facebook.com/AshleyHappinessHandicraft/posts/2149410115160477"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food,
+        wedding,
+    ];
 }
 

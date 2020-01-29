@@ -33,6 +33,8 @@ class Courbeginning implements Entity {
             url: "https://www.facebook.com/CourBeginning/posts/2427759330804922"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

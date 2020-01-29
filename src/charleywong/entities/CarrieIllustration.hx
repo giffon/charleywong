@@ -26,6 +26,9 @@ class CarrieIllustration implements Entity {
             url: "https://www.facebook.com/carriedraw/photos/a.146112665413277/2774644472560070/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

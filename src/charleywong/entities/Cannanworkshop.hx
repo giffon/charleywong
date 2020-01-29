@@ -27,6 +27,9 @@ class Cannanworkshop implements Entity {
             url: "https://www.facebook.com/cannanworkshop/photos/a.451087508292497/2609377925796767/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        shop,
+    ];
 }
 

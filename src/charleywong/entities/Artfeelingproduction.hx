@@ -28,6 +28,9 @@ class Artfeelingproduction implements Entity {
             url: "https://www.facebook.com/Artfeeling/photos/a.591856360853154/2622069897831780/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding,
+    ];
 }
 

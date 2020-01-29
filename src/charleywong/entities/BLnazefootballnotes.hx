@@ -22,6 +22,8 @@ class BLnazefootballnotes implements Entity {
             url: "https://www.facebook.com/BLnazefootballnotes/posts/756063834866416"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

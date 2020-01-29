@@ -31,6 +31,8 @@ class Alai810304 implements Entity {
             url: "https://www.facebook.com/alai810304/posts/1593059994169580"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

@@ -35,6 +35,8 @@ class CAVEBeerPoint implements Entity {
             url: "https://www.facebook.com/cavebeerpoint/photos/a.709557815810772/2180177585415447/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

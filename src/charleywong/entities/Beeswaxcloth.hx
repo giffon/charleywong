@@ -28,6 +28,8 @@ class Beeswaxcloth implements Entity {
             url: "https://www.facebook.com/beeswaxcloth/posts/2437020549862615"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

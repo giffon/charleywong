@@ -30,6 +30,8 @@ class ChangchangGoodstore implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=1128396097367008&id=337576013115691"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

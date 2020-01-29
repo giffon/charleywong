@@ -30,6 +30,8 @@ class ColourFreakStudio implements Entity {
             url: "https://www.facebook.com/colourfreakstudio/photos/a.681615871948860/2105024352941331/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

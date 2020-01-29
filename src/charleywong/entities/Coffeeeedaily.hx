@@ -30,6 +30,8 @@ class Coffeeeedaily implements Entity {
             url: "https://www.facebook.com/coffeeeedaily/photos/a.391886564303975/1252050321620924/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

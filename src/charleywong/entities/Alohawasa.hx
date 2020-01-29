@@ -26,6 +26,8 @@ class Alohawasa implements Entity {
             url: "https://www.facebook.com/alohawasa/photos/a.195234037322639/1190878764424823/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

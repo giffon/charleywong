@@ -34,6 +34,8 @@ class BrosFruit implements Entity {
             url: "https://www.facebook.com/BrosFruit/posts/507296120119735"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

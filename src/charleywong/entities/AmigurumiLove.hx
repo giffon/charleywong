@@ -29,6 +29,9 @@ class AmigurumiLove implements Entity {
             url: "https://www.facebook.com/amigurumilovehk/posts/2798391850179604"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

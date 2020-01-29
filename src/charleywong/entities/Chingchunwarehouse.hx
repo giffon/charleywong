@@ -23,6 +23,8 @@ class Chingchunwarehouse implements Entity {
             url: "https://www.facebook.com/chingchunwarehouse/posts/2507511179525759"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

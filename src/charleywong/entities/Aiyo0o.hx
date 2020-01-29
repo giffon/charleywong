@@ -35,6 +35,8 @@ class Aiyo0o implements Entity {
             url: "https://www.facebook.com/aiyo0o/posts/2607826915991273"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

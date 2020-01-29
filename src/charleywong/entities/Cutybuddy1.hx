@@ -31,6 +31,8 @@ class Cutybuddy1 implements Entity {
             url: "https://www.facebook.com/cutybuddy1/photos/a.2222760024626393/2422709321298128/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

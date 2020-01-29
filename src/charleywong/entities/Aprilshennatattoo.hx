@@ -29,6 +29,9 @@ class Aprilshennatattoo implements Entity {
             url: "https://www.facebook.com/AprilHenna/photos/a.2256811801308864/2375030359487007/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+    ];
 }
 

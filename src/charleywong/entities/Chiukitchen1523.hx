@@ -31,6 +31,8 @@ class Chiukitchen1523 implements Entity {
             url: "https://www.facebook.com/1523chiukitchen/photos/a.1789100428068840/2380218348957042/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

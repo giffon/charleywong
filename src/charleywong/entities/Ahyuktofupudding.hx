@@ -26,6 +26,8 @@ class Ahyuktofupudding implements Entity {
             url: "https://www.facebook.com/ahyuktofupudding/posts/3365754383466989"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

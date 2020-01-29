@@ -22,6 +22,8 @@ class Bellfleurs implements Entity {
             url: "https://www.facebook.com/bellfleurs/photos/a.661702840959582/784969698632895/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

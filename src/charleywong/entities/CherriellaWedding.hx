@@ -34,6 +34,9 @@ class CherriellaWedding implements Entity {
             url: "https://www.facebook.com/CherriellaWedding/photos/a.423883114362521/2547892991961512/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

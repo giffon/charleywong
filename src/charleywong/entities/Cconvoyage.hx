@@ -30,6 +30,8 @@ class Cconvoyage implements Entity {
             url: "https://www.facebook.com/cconvoyage/photos/a.190332264662320/955576011471271/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media,
+    ];
 }
 

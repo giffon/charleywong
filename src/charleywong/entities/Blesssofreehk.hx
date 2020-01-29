@@ -30,6 +30,8 @@ class Blesssofreehk implements Entity {
             url: "https://www.facebook.com/blesssofreehk/photos/a.400671073992799/505197670206805/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

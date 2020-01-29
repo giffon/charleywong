@@ -33,6 +33,8 @@ class Aphroditehkmap implements Entity {
             url: "https://www.facebook.com/aphroditehk.map/photos/a.2148682481851132/2605100689542640/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

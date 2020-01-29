@@ -34,6 +34,8 @@ class AromabyRi implements Entity {
             url: "https://www.facebook.com/aromabyri/posts/159324395466271"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

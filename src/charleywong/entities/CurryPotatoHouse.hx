@@ -28,6 +28,8 @@ class CurryPotatoHouse implements Entity {
             url: "https://www.facebook.com/CurryPotatoHouse/photos/a.1123785231048351/2561865903906936/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

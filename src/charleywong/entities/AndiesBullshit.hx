@@ -23,6 +23,8 @@ class AndiesBullshit implements Entity {
             url: "https://www.facebook.com/AndiesBullshit/photos/a.822923291163813/2369974296458697/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure
+    ];
 }
 

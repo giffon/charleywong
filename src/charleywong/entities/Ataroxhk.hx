@@ -32,6 +32,8 @@ class Ataroxhk implements Entity {
             url: "https://www.facebook.com/ataroxhk/photos/a.540894329753946/620880715088640/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

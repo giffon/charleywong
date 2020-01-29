@@ -24,6 +24,8 @@ class ArtsyOligraphy implements Entity {
             url: "https://www.facebook.com/artsyoligraphy/posts/526724091257961"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

@@ -29,6 +29,8 @@ class AnewToys implements Entity {
             url: "https://www.facebook.com/AnewToys/photos/a.1904055653214092/2642107512742232/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

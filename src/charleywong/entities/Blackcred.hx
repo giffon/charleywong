@@ -22,6 +22,8 @@ class Blackcred implements Entity {
             url: "https://www.facebook.com/blackcred/photos/a.10150217283432255/10156073428272255/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

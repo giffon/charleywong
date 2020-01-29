@@ -33,6 +33,7 @@ class Actioncampinghk implements Entity {
             url: "https://www.facebook.com/actioncampinghk/photos/a.1665228590388380/2544992112412019/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
-

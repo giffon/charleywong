@@ -33,6 +33,9 @@ class CrystalCheungManKa implements Entity {
             url: "https://www.instagram.com/p/B7VY4nshynn/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure,
+        music,
+    ];
 }
 

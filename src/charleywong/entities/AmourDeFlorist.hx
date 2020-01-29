@@ -28,6 +28,8 @@ class AmourDeFlorist implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=2728433527206756&id=915061228544004"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

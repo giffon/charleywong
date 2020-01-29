@@ -27,6 +27,9 @@ class BrianYipPhotography implements Entity {
             url: "https://www.facebook.com/BrianYipPhotography/photos/a.10150430176973858/10159084562358858/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

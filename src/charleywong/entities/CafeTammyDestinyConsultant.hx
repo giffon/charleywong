@@ -35,6 +35,8 @@ class CafeTammyDestinyConsultant implements Entity {
             url: "https://www.facebook.com/CafeTammyDestinyConsultant/photos/a.1246230725490762/2511950222252133/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

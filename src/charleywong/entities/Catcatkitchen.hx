@@ -23,6 +23,8 @@ class Catcatkitchen implements Entity {
             url: "https://www.facebook.com/catcatkitchen/posts/1664879876976322"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

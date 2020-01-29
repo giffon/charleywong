@@ -27,6 +27,8 @@ class ArtisticRoomAr implements Entity {
             url: "https://www.facebook.com/ArtisticRoomAr/posts/3128042300544552"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

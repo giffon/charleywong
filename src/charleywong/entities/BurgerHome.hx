@@ -29,6 +29,8 @@ class BurgerHome implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=1223371061201971&id=139217689617319"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

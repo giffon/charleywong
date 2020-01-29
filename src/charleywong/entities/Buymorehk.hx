@@ -34,6 +34,9 @@ class Buymorehk implements Entity {
             url: "https://www.facebook.com/buymore.hk/photos/a.141889545851401/3524315097608812/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        technology,
+        shop
+    ];
 }
 

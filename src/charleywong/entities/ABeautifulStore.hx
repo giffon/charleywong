@@ -30,6 +30,7 @@ class ABeautifulStore implements Entity {
             url: "https://www.facebook.com/abeautifulstore/posts/1338589359656857"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        clothing
+    ];
 }
-

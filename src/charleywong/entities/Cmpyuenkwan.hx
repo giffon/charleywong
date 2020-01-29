@@ -29,6 +29,8 @@ class Cmpyuenkwan implements Entity {
             url: "https://www.facebook.com/cmp.yuenkwan/posts/2803344526347171"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        medical
+    ];
 }
 

@@ -30,6 +30,8 @@ class Cafe66 implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=1441782452646846&id=958912300933866"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

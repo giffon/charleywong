@@ -24,6 +24,9 @@ class CarlosTsangPhotography implements Entity {
             url: "https://www.facebook.com/CarlosTsangPhotography/photos/a.453152531396122/2767923879918964/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding,
+    ];
 }
 

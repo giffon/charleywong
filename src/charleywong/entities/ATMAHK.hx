@@ -37,6 +37,8 @@ class ATMAHK implements Entity {
             url: "https://www.facebook.com/1210987819064185/photos/a.1224201844409449/1296953193800980/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

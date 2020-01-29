@@ -30,6 +30,8 @@ class Cansoap implements Entity {
             url: "https://www.facebook.com/cansoap/posts/2398190580242105"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

@@ -29,6 +29,9 @@ class Akorcp implements Entity {
             url: "https://www.facebook.com/akorcp/photos/a.1659147874338954/2374977769422624/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        book,
+        media,
+    ];
 }
 

@@ -29,6 +29,8 @@ class BrewNoteCoffeeRoaster implements Entity {
             url: "https://www.facebook.com/brewnotecoffee/posts/2556542921091447"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

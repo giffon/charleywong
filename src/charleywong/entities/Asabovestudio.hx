@@ -22,6 +22,8 @@ class Asabovestudio implements Entity {
             url: "https://www.facebook.com/as.above.studio/posts/2738440929564573"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

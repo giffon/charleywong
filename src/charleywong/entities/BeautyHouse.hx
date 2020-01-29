@@ -27,6 +27,8 @@ class BeautyHouse implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=541848906651879&id=417774265726011"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

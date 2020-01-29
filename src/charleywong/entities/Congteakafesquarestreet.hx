@@ -34,6 +34,8 @@ class Congteakafesquarestreet implements Entity {
             url: "https://www.facebook.com/congteakafesquarestreet/posts/2405533316359366"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

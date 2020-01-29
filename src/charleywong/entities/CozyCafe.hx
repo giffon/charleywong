@@ -32,6 +32,8 @@ class CozyCafe implements Entity {
             url: "https://www.facebook.com/1475306752774774/photos/a.1485474038424712/2153942124911230/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 
