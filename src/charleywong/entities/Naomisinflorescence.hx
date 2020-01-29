@@ -24,5 +24,6 @@ class Naomisinflorescence implements Entity {
             url: "https://www.facebook.com/naomisinflorescence/posts/1807010889606339"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

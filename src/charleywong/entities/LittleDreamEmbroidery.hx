@@ -26,5 +26,6 @@ class LittleDreamEmbroidery implements Entity {
             url: "https://www.facebook.com/LittleDreamEmbroidery/posts/2413404882317646"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

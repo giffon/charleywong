@@ -35,5 +35,6 @@ class SingyauHairStylist implements Entity {
             url: "https://www.facebook.com/singyauhair/posts/2409530172502292"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -26,5 +26,6 @@ class RELz implements Entity {
             url: "https://www.facebook.com/relzplay/photos/a.1410103365919440/2411227555807011/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

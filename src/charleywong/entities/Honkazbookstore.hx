@@ -25,5 +25,6 @@ class Honkazbookstore implements Entity {
             url: "https://www.facebook.com/honkazbookstore/posts/458061784960621"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

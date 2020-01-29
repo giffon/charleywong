@@ -33,5 +33,6 @@ class OliverMa implements Entity {
             url: "https://www.facebook.com/oliverma21/photos/a.1431531463674285/1431531437007621/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

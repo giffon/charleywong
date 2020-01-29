@@ -25,5 +25,6 @@ class KKwong implements Entity {
             url: "https://www.facebook.com/DrKKwongChem/posts/10157731488032158"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

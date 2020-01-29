@@ -35,5 +35,6 @@ class Islandworkbench implements Entity {
             url: "https://www.facebook.com/island.workbench/posts/1181235635394693"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

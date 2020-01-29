@@ -29,5 +29,6 @@ class IamCarolHung implements Entity {
             url: "https://www.facebook.com/I.am.Carol.Hung/photos/a.829140770444671/3580757015283019/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

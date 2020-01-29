@@ -23,5 +23,6 @@ class Yipyatchee implements Entity {
             url: "https://www.facebook.com/yipyatchee/posts/2514611958786145"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

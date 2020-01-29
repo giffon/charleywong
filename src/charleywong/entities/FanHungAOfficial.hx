@@ -34,5 +34,6 @@ class FanHungAOfficial implements Entity {
             url: "https://www.facebook.com/FanHungAOfficial/photos/a.447811495581514/894616097567716/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

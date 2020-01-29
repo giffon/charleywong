@@ -32,5 +32,6 @@ class Hellomisterhk implements Entity {
             url: "https://www.facebook.com/hellomisterhk/photos/a.101231921345934/110624067073386/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

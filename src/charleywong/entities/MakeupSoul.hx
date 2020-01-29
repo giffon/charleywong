@@ -30,5 +30,6 @@ class MakeupSoul implements Entity {
             url: "https://www.facebook.com/makeupsoulhk/photos/a.812004008961757/1360392614122891/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

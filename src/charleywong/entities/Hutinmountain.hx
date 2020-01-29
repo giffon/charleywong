@@ -22,5 +22,6 @@ class Hutinmountain implements Entity {
             url: "https://www.facebook.com/hutinmountain/posts/2401426630127448"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

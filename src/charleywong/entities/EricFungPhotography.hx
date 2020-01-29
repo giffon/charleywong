@@ -24,5 +24,6 @@ class EricFungPhotography implements Entity {
             url: "https://www.facebook.com/ericfungphotography/posts/2529576757119617"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -30,5 +30,6 @@ class FromTraumatoTransformation implements Entity {
             url: "https://www.facebook.com/FromTrauma2Transformation/videos/752330631903428/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

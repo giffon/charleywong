@@ -35,5 +35,6 @@ class Sddessert implements Entity {
             url: "https://www.facebook.com/sddessert/posts/1046439772396225"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

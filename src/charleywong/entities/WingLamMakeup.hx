@@ -29,5 +29,6 @@ class WingLamMakeup implements Entity {
             url: "https://www.facebook.com/WingLamMakeup/posts/2542086819172797"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

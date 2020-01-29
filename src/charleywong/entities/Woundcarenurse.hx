@@ -22,5 +22,6 @@ class Woundcarenurse implements Entity {
             url: "https://www.facebook.com/woundcarenurse/posts/1381615965335557"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

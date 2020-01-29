@@ -32,5 +32,6 @@ class MiuPhotographicProduction implements Entity {
             url: "https://www.facebook.com/miuphotographic/photos/a.2373030089435033/3154763927928308/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

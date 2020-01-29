@@ -31,5 +31,6 @@ class BlueBirdWeddingGallery implements Entity {
             url: "https://www.facebook.com/bluebirdwedding/posts/2537105526373165"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

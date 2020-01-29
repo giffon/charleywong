@@ -26,5 +26,6 @@ class Footballtellstory implements Entity {
             url: "https://www.facebook.com/Footballtellstory/photos/a.588513984565311/2579029802180376/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

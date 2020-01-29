@@ -22,5 +22,6 @@ class JoeyMakeupAtelier implements Entity {
             url: "https://www.facebook.com/joeymakeupatelier/posts/993972807619743"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

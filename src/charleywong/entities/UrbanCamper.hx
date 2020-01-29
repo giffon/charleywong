@@ -30,5 +30,6 @@ class UrbanCamper implements Entity {
             url: "https://www.facebook.com/urbancamperhk/photos/a.786210694845277/1747032162096454/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

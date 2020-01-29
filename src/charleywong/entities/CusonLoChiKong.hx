@@ -23,5 +23,6 @@ class CusonLoChiKong implements Entity {
             url: "https://www.facebook.com/Cuson.LoChiKong/posts/2647327968692541"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

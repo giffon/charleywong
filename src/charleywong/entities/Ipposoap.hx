@@ -33,5 +33,6 @@ class Ipposoap implements Entity {
             url: "https://www.facebook.com/ippo.soap/photos/a.206322729944171/490763928166715/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

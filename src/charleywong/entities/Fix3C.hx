@@ -37,5 +37,6 @@ class Fix3C implements Entity {
             url: "https://www.facebook.com/Fix3C/posts/2194873660550369"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

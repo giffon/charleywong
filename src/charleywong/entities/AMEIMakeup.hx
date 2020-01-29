@@ -23,5 +23,6 @@ class AMEIMakeup implements Entity {
             url: "https://www.facebook.com/ameimakeup/photos/a.730030107082650/2539863269432649/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

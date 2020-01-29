@@ -27,5 +27,6 @@ class YukoShimizu implements Entity {
             url: "https://www.facebook.com/YukoShimizuArt/photos/a.184539820290/10161862054000291/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

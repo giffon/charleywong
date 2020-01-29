@@ -30,5 +30,6 @@ class KannysLivingArtStudio implements Entity {
             url: "https://www.facebook.com/KannysLivingArtStudio/posts/3198212026862386"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

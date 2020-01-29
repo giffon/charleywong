@@ -29,5 +29,6 @@ class Postcardposting implements Entity {
             url: "https://www.facebook.com/PostcardPosting/posts/2067106903393072"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

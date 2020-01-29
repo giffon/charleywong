@@ -26,5 +26,6 @@ class Officialchapmanto implements Entity {
             url: "https://www.facebook.com/officialchapmanto/photos/a.636202799852077/1473724599433222/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

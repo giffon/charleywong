@@ -24,5 +24,6 @@ class BKBakery implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=119465686220130&id=101671684666197"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

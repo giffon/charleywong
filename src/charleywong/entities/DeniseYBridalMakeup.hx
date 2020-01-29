@@ -30,5 +30,6 @@ class DeniseYBridalMakeup implements Entity {
             url: "https://www.facebook.com/deniseybridal/posts/2394459057458249"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

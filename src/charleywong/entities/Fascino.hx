@@ -31,5 +31,6 @@ class Fascino implements Entity {
             url: "https://www.facebook.com/FascinoBespoke/posts/2604322659840200"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

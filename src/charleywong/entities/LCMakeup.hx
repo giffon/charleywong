@@ -27,5 +27,6 @@ class LCMakeup implements Entity {
             url: "https://www.facebook.com/LCmakeupHK/photos/a.890532247777675/1443204225843805/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

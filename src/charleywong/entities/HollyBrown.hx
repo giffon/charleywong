@@ -28,5 +28,6 @@ class HollyBrown implements Entity {
             url: "https://www.facebook.com/hollybrowncoffee/posts/2828181430560550"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

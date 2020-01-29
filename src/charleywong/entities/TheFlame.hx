@@ -28,5 +28,6 @@ class TheFlame implements Entity {
             url: "https://www.facebook.com/TheFlameMusic/posts/2717941318269477"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

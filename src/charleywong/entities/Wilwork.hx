@@ -22,5 +22,6 @@ class Wilwork implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=152761782786380&id=100208801375012"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

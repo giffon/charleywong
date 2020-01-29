@@ -34,5 +34,6 @@ class SolosSoapGroceries implements Entity {
             url: "https://www.facebook.com/SolosSoap/posts/1669100306553259"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

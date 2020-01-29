@@ -27,5 +27,6 @@ class Standnewshk implements Entity {
             url: "https://www.facebook.com/standnewshk/posts/2586130681472536"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

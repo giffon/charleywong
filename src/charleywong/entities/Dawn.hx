@@ -36,5 +36,6 @@ class Dawn implements Entity {
             url: "https://www.facebook.com/dawncoffeenbrunch/photos/a.911806235818598/911806215818600/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

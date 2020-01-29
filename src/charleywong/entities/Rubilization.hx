@@ -26,5 +26,6 @@ class Rubilization implements Entity {
             url: "https://www.facebook.com/rubilization/posts/2391740304229119"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -23,5 +23,6 @@ class MulanAccessories implements Entity {
             url: "https://www.facebook.com/mulanaccessories/posts/2514367812184467"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

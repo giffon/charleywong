@@ -38,5 +38,6 @@ class ACSVAW implements Entity {
             url: "https://www.facebook.com/ACSVAW/posts/2484473394963067"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -25,5 +25,6 @@ class CeliaCeleste implements Entity {
             url: "https://www.facebook.com/celianceleste/photos/a.948055415334975/1445648745575637/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

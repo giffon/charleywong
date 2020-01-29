@@ -31,5 +31,6 @@ class Banananaxx implements Entity {
             url: "https://www.facebook.com/banananaxx/posts/677714955965607"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -29,5 +29,6 @@ class Catrabbitsky implements Entity {
             url: "https://www.facebook.com/CatrabbitSky/photos/a.283845103625/10158891542363626/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

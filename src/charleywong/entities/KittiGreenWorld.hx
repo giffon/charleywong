@@ -21,5 +21,6 @@ class KittiGreenWorld implements Entity {
             url: "https://www.facebook.com/KittiGreenWorld/posts/468015170656871"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -37,5 +37,6 @@ class Wusoul implements Entity {
             url: "https://www.facebook.com/Wusoul/photos/a.317966395045061/1359995327508824/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -31,5 +31,6 @@ class Flipandrollpress implements Entity {
             url: "https://www.facebook.com/flipandrollpress/photos/a.179817892641963/426098351347248/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

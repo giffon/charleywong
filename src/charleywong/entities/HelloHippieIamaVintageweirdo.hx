@@ -33,5 +33,6 @@ class HelloHippieIamaVintageweirdo implements Entity {
             url: "https://www.facebook.com/hellohippie/photos/a.665791163500337/2594073390672095/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

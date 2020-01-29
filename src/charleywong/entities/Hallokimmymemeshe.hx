@@ -22,5 +22,6 @@ class Hallokimmymemeshe implements Entity {
             url: "https://www.facebook.com/hallokimmymemeshe/photos/a.171419062875266/2986598031357341/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

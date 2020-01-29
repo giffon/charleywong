@@ -36,5 +36,6 @@ class Ramenbetsu implements Entity {
             url: "https://www.facebook.com/ramenbetsu/photos/a.2543679679105721/2580819875391701/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

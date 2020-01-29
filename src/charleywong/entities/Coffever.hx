@@ -33,5 +33,6 @@ class Coffever implements Entity {
             url: "https://www.facebook.com/180657409272018/photos/a.185490085455417/412533266084430/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

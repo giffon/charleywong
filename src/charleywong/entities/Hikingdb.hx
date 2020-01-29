@@ -27,5 +27,6 @@ class Hikingdb implements Entity {
             url: "https://www.facebook.com/hikingdb/posts/2516796321929248"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

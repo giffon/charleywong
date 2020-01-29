@@ -30,5 +30,6 @@ class RockEmpire implements Entity {
             url: "https://www.facebook.com/rockempire.hk/photos/a.10151080394902132/10155940037297132/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

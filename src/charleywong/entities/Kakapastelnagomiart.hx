@@ -34,5 +34,6 @@ class Kakapastelnagomiart implements Entity {
             url: "https://www.facebook.com/kakapastelnagomiart/posts/2344655115847236"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -28,5 +28,6 @@ class HapFriday implements Entity {
             url: "https://www.facebook.com/hapi.fridayyy/photos/a.461142987336050/2621074098009584/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

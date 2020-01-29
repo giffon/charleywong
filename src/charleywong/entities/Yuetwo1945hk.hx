@@ -32,5 +32,6 @@ class Yuetwo1945hk implements Entity {
             url: "https://www.facebook.com/yuetwo1945hk/posts/2394297897500803"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

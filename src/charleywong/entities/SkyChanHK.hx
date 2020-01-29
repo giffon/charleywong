@@ -24,5 +24,6 @@ class SkyChanHK implements Entity {
             url: "https://www.facebook.com/SkyChanHKcom/photos/a.411268488999484/2373353559457624/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

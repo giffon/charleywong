@@ -29,5 +29,6 @@ class BYOBCoffeeRoaster implements Entity {
             url: "https://www.facebook.com/byobcoffeeroaster/posts/2596318183758037"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

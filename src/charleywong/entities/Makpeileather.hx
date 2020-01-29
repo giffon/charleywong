@@ -28,5 +28,6 @@ class Makpeileather implements Entity {
             url: "https://www.facebook.com/makpeileather/photos/a.965914400144294/2554938597908525/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -31,5 +31,6 @@ class ThePolskaTraveller implements Entity {
             url: "https://www.facebook.com/thepolskatraveller/photos/a.636944253037495/2629842803747620"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -29,5 +29,6 @@ class PlayfulDesign implements Entity {
             url: "https://www.facebook.com/playfuldesignhk/posts/2839663169383079"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

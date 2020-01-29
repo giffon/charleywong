@@ -35,5 +35,6 @@ class KizunaSaxophoneQuartet implements Entity {
             url: "https://www.facebook.com/kizunasax/photos/a.866692206708318/2417840724926784/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

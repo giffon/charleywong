@@ -26,5 +26,6 @@ class StudioCaffeine implements Entity {
             url: "https://www.facebook.com/StudioCaffeine/posts/2440904946153519"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

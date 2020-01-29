@@ -30,5 +30,6 @@ class NECROPOON implements Entity {
             url: "https://www.facebook.com/necropoon/photos/a.1532140167057444/2415558655382253/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -30,5 +30,6 @@ class MissSummer implements Entity {
             url: "https://www.facebook.com/lolitasummer/photos/a.117781443422/10156931851838423/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

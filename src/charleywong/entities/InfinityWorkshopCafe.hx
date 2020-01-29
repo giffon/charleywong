@@ -32,5 +32,6 @@ class InfinityWorkshopCafe implements Entity {
             url: "https://www.facebook.com/InfinityWorkshopCafe/photos/a.1205255846151964/2784688534875346/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

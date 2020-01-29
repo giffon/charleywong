@@ -37,5 +37,6 @@ class Luckwinbooks implements Entity {
             url: "https://www.facebook.com/luckwinbooks/posts/2459517437627043"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

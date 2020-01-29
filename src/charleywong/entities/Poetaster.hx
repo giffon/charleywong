@@ -22,5 +22,6 @@ class Poetaster implements Entity {
             url: "https://www.facebook.com/poetaster.florist/photos/a.158588844789212/431647170816710/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

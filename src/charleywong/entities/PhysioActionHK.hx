@@ -24,5 +24,6 @@ class PhysioActionHK implements Entity {
             url: "https://www.facebook.com/PhysioActionHK/posts/1109338269269723"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

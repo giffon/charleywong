@@ -31,5 +31,6 @@ class HIATUSFASHION implements Entity {
             url: "https://www.facebook.com/HIATUSFASHION/photos/a.784301381609678/2773191939387269/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

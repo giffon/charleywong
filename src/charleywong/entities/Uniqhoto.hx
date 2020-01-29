@@ -27,5 +27,6 @@ class Uniqhoto implements Entity {
             url: "https://www.facebook.com/uniqhoto/photos/a.449925305028928/2786572888030813/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

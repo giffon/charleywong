@@ -30,5 +30,6 @@ class VivekMahbubani implements Entity {
             url: "https://www.facebook.com/funnyVivekM/posts/10157084976129678"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

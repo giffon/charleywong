@@ -33,5 +33,6 @@ class Lucycoffeenfood implements Entity {
             url: "https://www.facebook.com/lucycoffeenfoodhk/photos/a.1667526263484961/2461561117414801/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

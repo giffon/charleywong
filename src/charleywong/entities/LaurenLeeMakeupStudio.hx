@@ -27,5 +27,6 @@ class LaurenLeeMakeupStudio implements Entity {
             url: "https://www.facebook.com/laurenleemakeupstudio/posts/2617998444982055"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

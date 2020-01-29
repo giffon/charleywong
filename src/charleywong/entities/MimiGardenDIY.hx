@@ -26,5 +26,6 @@ class MimiGardenDIY implements Entity {
             url: "https://www.facebook.com/mimigardendiy/photos/a.578535795532039/2724191204299810/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -27,5 +27,6 @@ class Hkejetso implements Entity {
             url: "https://www.facebook.com/hkejetso/posts/1021238741552861"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

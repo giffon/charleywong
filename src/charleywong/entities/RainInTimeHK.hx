@@ -28,5 +28,6 @@ class RainInTimeHK implements Entity {
             url: "https://www.facebook.com/RainInTimeHK/posts/3070531036293906"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

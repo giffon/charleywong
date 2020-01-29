@@ -29,5 +29,6 @@ class CAFRELAY implements Entity {
             url: "https://www.facebook.com/caferelay/photos/a.994319680668836/1935079429926185/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

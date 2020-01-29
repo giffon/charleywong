@@ -31,5 +31,6 @@ class ThirdSpace implements Entity {
             url: "https://www.facebook.com/3rdspacehk/photos/a.552850911504631/2265582736898098/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

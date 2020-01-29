@@ -30,5 +30,6 @@ class Coffeeder implements Entity {
             url: "https://www.facebook.com/coffeeder/photos/a.443230465833935/1269325546557752/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

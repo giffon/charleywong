@@ -22,5 +22,6 @@ class Reverie implements Entity {
             url: "https://www.facebook.com/ReverieJewellery/photos/a.204518383066180/1526396084211730/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

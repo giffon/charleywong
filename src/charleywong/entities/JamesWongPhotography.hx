@@ -28,5 +28,6 @@ class JamesWongPhotography implements Entity {
             url: "https://www.facebook.com/jameswongphotography/photos/a.141988409193277/2669968509728575/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -34,5 +34,6 @@ class JonathanLAI implements Entity {
             url: "https://www.facebook.com/jonathanlaibass/posts/901389926860815"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

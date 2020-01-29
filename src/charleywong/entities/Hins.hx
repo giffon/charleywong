@@ -26,5 +26,6 @@ class Hins implements Entity {
             url: "https://www.facebook.com/ahhins819/posts/1495156693972176"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

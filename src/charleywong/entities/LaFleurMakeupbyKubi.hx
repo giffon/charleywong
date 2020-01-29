@@ -27,5 +27,6 @@ class LaFleurMakeupbyKubi implements Entity {
             url: "https://www.facebook.com/lafleurmakeupbykubi/posts/1161974644013278"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

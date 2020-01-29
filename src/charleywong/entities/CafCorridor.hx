@@ -29,5 +29,6 @@ class CafCorridor implements Entity {
             url: "https://www.facebook.com/cafecorridor/photos/a.806803999352359/2595871233778951/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

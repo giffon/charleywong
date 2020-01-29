@@ -27,5 +27,6 @@ class Sizliangthreecanteen implements Entity {
             url: "https://www.facebook.com/6liang3canteen/photos/a.137489447621886/164770911560406/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

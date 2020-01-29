@@ -32,5 +32,6 @@ class Moment implements Entity {
             url: "https://www.facebook.com/moment20190416/photos/a.714835008951998/734878316947667/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

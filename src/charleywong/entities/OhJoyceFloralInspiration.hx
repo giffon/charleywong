@@ -28,5 +28,6 @@ class OhJoyceFloralInspiration implements Entity {
             url: "https://www.facebook.com/ohjoycedesign/photos/a.704347942940197/3281811341860498/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -31,5 +31,6 @@ class Loyifaateng implements Entity {
             url: "https://www.facebook.com/loyifaateng/photos/a.231078303923039/975599902804205/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

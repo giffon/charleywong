@@ -22,5 +22,6 @@ class Rrroundmidnight implements Entity {
             url: "https://www.facebook.com/rrroundmidnight/posts/497212227545692"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

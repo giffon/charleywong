@@ -29,5 +29,6 @@ class Wansheunghk implements Entity {
             url: "https://www.facebook.com/wansheunghk/posts/2308650962504916"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -32,5 +32,6 @@ class FlowerMusic10 implements Entity {
             url: "https://www.facebook.com/flowermusic10/posts/2953320198058695"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

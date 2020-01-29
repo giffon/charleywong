@@ -28,5 +28,6 @@ class YolaHungMakeupStudio implements Entity {
             url: "https://www.facebook.com/yolahungmakeupstudio/photos/a.10151538631216612/10156268225816612/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

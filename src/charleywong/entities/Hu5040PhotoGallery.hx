@@ -26,5 +26,6 @@ class Hu5040PhotoGallery implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=2266289173475957&id=1792395134198699"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

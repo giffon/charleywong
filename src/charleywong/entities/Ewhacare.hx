@@ -35,5 +35,6 @@ class Ewhacare implements Entity {
             url: "https://www.facebook.com/Ewhacare/photos/a.305491376221168/2067521546684800/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

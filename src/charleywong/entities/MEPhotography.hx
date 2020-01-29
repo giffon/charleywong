@@ -29,5 +29,6 @@ class MEPhotography implements Entity {
             url: "https://www.facebook.com/mephotohk/photos/a.10150463664453217/10157992469088217/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

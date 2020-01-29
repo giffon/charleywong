@@ -26,5 +26,6 @@ class InTakeStudio implements Entity {
             url: "https://www.facebook.com/intakestudio/photos/a.921374501291475/2420602338035343/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

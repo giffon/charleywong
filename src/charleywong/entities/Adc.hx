@@ -30,5 +30,6 @@ class Adc implements Entity {
             url: "https://www.facebook.com/adcdream/photos/a.10159019977365968/10159019977430968/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

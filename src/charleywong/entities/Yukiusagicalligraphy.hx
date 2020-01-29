@@ -22,5 +22,6 @@ class Yukiusagicalligraphy implements Entity {
             url: "https://www.facebook.com/yukiusagicalligraphy/posts/1204052846471540"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

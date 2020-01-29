@@ -18,7 +18,7 @@ class Fb601591280352548 implements Entity {
             ]
         },
         {
-            url: "https://www.instagram.com/superfood.tw/",
+            url: "https://www.instagram.com/superfood.tw/"
         }
     ];
     public final posts:Array<Post> = [
@@ -26,5 +26,6 @@ class Fb601591280352548 implements Entity {
             url: "https://www.facebook.com/601591280352548/photos/a.601596383685371/615123182332691/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

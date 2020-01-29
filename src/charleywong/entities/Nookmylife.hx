@@ -31,5 +31,6 @@ class Nookmylife implements Entity {
             url: "https://www.facebook.com/nook.mylife/photos/a.561062024319534/765908240501577/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

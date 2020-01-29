@@ -25,5 +25,6 @@ class Wereshopaholics implements Entity {
             url: "https://www.facebook.com/wereshopaholics/photos/a.421444868210292/1006265826394857"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

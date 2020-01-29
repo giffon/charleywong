@@ -25,5 +25,6 @@ class MtHLAT implements Entity {
             url: "https://www.facebook.com/Mt.HLAT/photos/a.1652724738351695/2248544962103000/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

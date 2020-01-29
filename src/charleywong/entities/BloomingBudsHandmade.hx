@@ -27,5 +27,6 @@ class BloomingBudsHandmade implements Entity {
             url: "https://www.facebook.com/187627714911296/photos/a.187689398238461/1131458860528172/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

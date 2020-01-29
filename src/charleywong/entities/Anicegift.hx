@@ -30,5 +30,6 @@ class Anicegift implements Entity {
             url: "https://www.facebook.com/anicegift/photos/a.890146221018341/2658466537519625/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

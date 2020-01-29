@@ -22,5 +22,6 @@ class FouBebe implements Entity {
             url: "https://www.facebook.com/Foubebe/photos/a.540059392828571/1385260554975113/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

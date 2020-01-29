@@ -34,5 +34,6 @@ class PauseRewindnFastForward implements Entity {
             url: "https://www.facebook.com/Pause.Rewind.Fastforward/photos/a.117810828259843/3016664105041153/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

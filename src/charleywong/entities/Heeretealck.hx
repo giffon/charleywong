@@ -27,5 +27,6 @@ class Heeretealck implements Entity {
             url: "https://www.facebook.com/heeretea.lck/photos/a.798966383815739/1018902148488827/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

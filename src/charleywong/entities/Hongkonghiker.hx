@@ -25,5 +25,6 @@ class Hongkonghiker implements Entity {
             url: "https://www.facebook.com/hongkonghiker/photos/a.970947036328052/2540375542718519/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

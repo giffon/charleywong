@@ -33,5 +33,6 @@ class SewingLabHK implements Entity {
             url: "https://www.facebook.com/SewingLabHK/photos/a.872344672864566/2120678364697851/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

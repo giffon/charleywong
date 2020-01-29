@@ -35,5 +35,6 @@ class Hkterminal implements Entity {
             url: "https://www.facebook.com/hkterminal/posts/2467762143497486"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

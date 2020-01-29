@@ -22,5 +22,6 @@ class Fabricatorshk implements Entity {
             url: "https://www.facebook.com/fabricatorshk/photos/a.112783306865987/112783270199324/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

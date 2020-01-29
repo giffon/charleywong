@@ -26,5 +26,6 @@ class Laiyeecrystal implements Entity {
             url: "https://www.facebook.com/laiyeecrystal/posts/1785586638251767"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

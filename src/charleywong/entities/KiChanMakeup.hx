@@ -23,5 +23,6 @@ class KiChanMakeup implements Entity {
             url: "https://www.facebook.com/kichanmakeup/photos/a.380760118760472/1260777447425397/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -24,5 +24,6 @@ class MarjorieMakeupHouse implements Entity {
             url: "https://www.facebook.com/marjoriemakeuphouse/posts/2512157905488656"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -28,5 +28,6 @@ class MiLaStory implements Entity {
             url: "https://www.facebook.com/milastory/posts/1455798097908183"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -25,5 +25,6 @@ class Fungshuidesigncompany implements Entity {
             url: "https://www.facebook.com/fungshuidesigncompany/posts/3183092571707861"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

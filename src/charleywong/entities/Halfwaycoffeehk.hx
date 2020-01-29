@@ -30,5 +30,6 @@ class Halfwaycoffeehk implements Entity {
             url: "https://www.facebook.com/halfwaycoffeehk/photos/a.1507429309568137/2227862490858145/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

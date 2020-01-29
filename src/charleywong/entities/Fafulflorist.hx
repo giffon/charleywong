@@ -28,5 +28,6 @@ class Fafulflorist implements Entity {
             url: "https://www.facebook.com/fafulflorist/posts/424810491785852"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

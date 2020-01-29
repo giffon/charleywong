@@ -30,5 +30,6 @@ class ShiokShop implements Entity {
             url: "https://www.facebook.com/shiokshop/photos/a.826521127382353/3028952603805850/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

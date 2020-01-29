@@ -37,5 +37,6 @@ class Soilhk2012 implements Entity {
             url: "https://www.facebook.com/soilhk2012/videos/2566023503429404/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

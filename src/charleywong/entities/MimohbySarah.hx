@@ -26,5 +26,6 @@ class MimohbySarah implements Entity {
             url: "https://www.facebook.com/mimohbysarah/photos/a.177975689441399/578065216099109/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -27,5 +27,6 @@ class Pinkychumakeup implements Entity {
             url: "https://www.facebook.com/pinkychumakeup/posts/2778505885495194"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

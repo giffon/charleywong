@@ -28,5 +28,6 @@ class SmileEverydayPhoto implements Entity {
             url: "https://www.facebook.com/smileeverydayphoto/posts/2524868204298777"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

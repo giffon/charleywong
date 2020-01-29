@@ -23,5 +23,6 @@ class HodyCCalligraphy implements Entity {
             url: "https://www.facebook.com/hodycalli/videos/478847669516601/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

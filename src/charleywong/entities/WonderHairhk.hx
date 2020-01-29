@@ -30,5 +30,6 @@ class WonderHairhk implements Entity {
             url: "https://www.facebook.com/wonderhairhk/photos/a.1696014723756282/3350514494972955/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

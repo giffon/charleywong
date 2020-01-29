@@ -29,5 +29,6 @@ class VitalismFloral implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=403454917128630&id=118456985628426"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

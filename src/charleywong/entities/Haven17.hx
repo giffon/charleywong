@@ -31,5 +31,6 @@ class Haven17 implements Entity {
             url: "https://www.facebook.com/HavenHaven/photos/a.1374562099458969/2374011552847347/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

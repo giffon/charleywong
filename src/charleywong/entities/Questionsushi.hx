@@ -28,5 +28,6 @@ class Questionsushi implements Entity {
             url: "https://www.facebook.com/question.sushi/posts/3220380228033794"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

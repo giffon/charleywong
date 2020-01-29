@@ -3,7 +3,7 @@ package charleywong.entities;
 class Tokitchannel implements Entity {
     public final id = "tokit.channel";
     public final name = [
-        zh => "陶傑",
+        zh => "陶傑"
     ];
     public final webpages:Array<WebPage> = [
         {
@@ -27,5 +27,6 @@ class Tokitchannel implements Entity {
             url: "https://www.facebook.com/tokit.channel/posts/2732071190198720"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

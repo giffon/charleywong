@@ -29,5 +29,6 @@ class Six2HairBarSalon implements Entity {
             url: "https://www.facebook.com/Six2hairbarsalon/posts/2601280233297036"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

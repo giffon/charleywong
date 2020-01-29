@@ -25,5 +25,6 @@ class HonHahaTravel implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=1098128143725830&id=226438750894778"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

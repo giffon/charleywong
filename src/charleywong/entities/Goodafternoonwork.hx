@@ -26,5 +26,6 @@ class Goodafternoonwork implements Entity {
             url: "https://www.facebook.com/goodafternoonwork/photos/a.160941840675263/2054680931301335/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

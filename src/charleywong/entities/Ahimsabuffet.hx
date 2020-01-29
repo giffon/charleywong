@@ -30,5 +30,6 @@ class Ahimsabuffet implements Entity {
             url: "https://www.facebook.com/ahimsabuffet/photos/a.121559518184501/1040064996333944/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

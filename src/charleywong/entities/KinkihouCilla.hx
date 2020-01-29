@@ -24,5 +24,6 @@ class KinkihouCilla implements Entity {
             url: "https://www.facebook.com/kinkihoumakeup/photos/a.559668990778882/2636039463141814/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -28,4 +28,6 @@ class CoutureBridal1618 implements Entity {
             url: "https://www.facebook.com/1618Bridal/photos/a.734962159860829/2794667443890280/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
+

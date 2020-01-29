@@ -34,5 +34,6 @@ class Hackpiecehk implements Entity {
             url: "https://www.facebook.com/hackpiecehk/photos/a.1705581423087078/2219936014984947/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

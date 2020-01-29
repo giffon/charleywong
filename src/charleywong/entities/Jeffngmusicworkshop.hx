@@ -32,5 +32,6 @@ class Jeffngmusicworkshop implements Entity {
             url: "https://www.facebook.com/Jeffngmusicworkshop/photos/a.363179144529425/543965279784143/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

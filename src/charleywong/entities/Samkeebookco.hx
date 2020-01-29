@@ -32,5 +32,6 @@ class Samkeebookco implements Entity {
             url: "https://www.facebook.com/samkeebookco/posts/1535498453293570"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

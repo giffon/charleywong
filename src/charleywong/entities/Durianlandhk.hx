@@ -29,5 +29,6 @@ class Durianlandhk implements Entity {
             url: "https://www.facebook.com/durianland.hk/posts/1974033282742704"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

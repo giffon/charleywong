@@ -29,5 +29,6 @@ class Thaihomelivingmart implements Entity {
             url: "https://www.facebook.com/thaihomelivingmart/posts/925132081163632"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -31,5 +31,6 @@ class Kindergarteninsane implements Entity {
             url: "https://www.facebook.com/kindergarteninsane/posts/2623543634404330"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

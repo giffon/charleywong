@@ -26,5 +26,6 @@ class BlissMoment implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=597958497445731&id=124533194788266"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

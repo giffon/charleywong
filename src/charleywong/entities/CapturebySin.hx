@@ -23,5 +23,6 @@ class CapturebySin implements Entity {
             url: "https://www.facebook.com/capturebysin/posts/2262610983848048"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

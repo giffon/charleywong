@@ -27,5 +27,6 @@ class Bcbikehk implements Entity {
             url: "https://www.facebook.com/bcbikehk/posts/130135275088799"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

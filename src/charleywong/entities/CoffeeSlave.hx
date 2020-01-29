@@ -29,5 +29,6 @@ class CoffeeSlave implements Entity {
             url: "https://www.facebook.com/CoffeeSlavehk/posts/807486269699828"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

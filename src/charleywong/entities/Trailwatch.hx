@@ -25,5 +25,6 @@ class Trailwatch implements Entity {
             url: "https://www.facebook.com/trailwatch/posts/2655450511161180"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

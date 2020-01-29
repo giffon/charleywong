@@ -33,5 +33,6 @@ class SyzygyOutdoorGear implements Entity {
             url: "https://www.facebook.com/syzygyoutdoorgear/posts/1151735231677560"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -32,5 +32,6 @@ class EatonHK implements Entity {
             url: "https://www.facebook.com/eatonhkhotel/photos/a.2225789044152384/2451425701588716/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

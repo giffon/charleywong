@@ -24,5 +24,6 @@ class Theflyingmaid implements Entity {
             url: "https://www.facebook.com/theflyingmaid/photos/a.1449060175395655/2162011887433810/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -28,5 +28,6 @@ class Thebookcurehk implements Entity {
             url: "https://www.facebook.com/thebookcure.hk/posts/2729989220398638"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

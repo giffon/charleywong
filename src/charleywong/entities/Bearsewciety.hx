@@ -32,5 +32,6 @@ class Bearsewciety implements Entity {
             url: "https://www.facebook.com/bearsewciety/photos/a.1483802901907662/2541624006125541/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

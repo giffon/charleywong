@@ -25,5 +25,6 @@ class Arouse implements Entity {
             url: "https://www.facebook.com/arousehk/posts/135350751242812"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

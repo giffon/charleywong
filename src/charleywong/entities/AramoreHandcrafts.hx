@@ -27,5 +27,6 @@ class AramoreHandcrafts implements Entity {
             url: "https://www.facebook.com/aramorehandcrafts/photos/a.1439580183018250/2128920077417587/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -26,5 +26,6 @@ class Wildshoeshk implements Entity {
             url: "https://www.facebook.com/wildshoeshk/photos/a.2160655913960465/3548146335211409/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -36,5 +36,6 @@ class Floralrendez implements Entity {
             url: "https://www.facebook.com/floral.rendez/posts/1391680504321385"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

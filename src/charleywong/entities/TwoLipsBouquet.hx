@@ -23,5 +23,6 @@ class TwoLipsBouquet implements Entity {
             url: "https://www.facebook.com/twolipsbouquet/posts/973424589692847"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

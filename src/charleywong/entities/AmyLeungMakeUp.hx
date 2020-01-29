@@ -24,5 +24,6 @@ class AmyLeungMakeUp implements Entity {
             url: "https://www.facebook.com/AmyMUA/photos/a.581072945287439/2685730064821706/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

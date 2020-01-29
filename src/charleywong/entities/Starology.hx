@@ -25,5 +25,6 @@ class Starology implements Entity {
             url: "https://www.facebook.com/starologystudio/photos/a.626930674119777/1933674886778676"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

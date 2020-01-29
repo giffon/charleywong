@@ -25,5 +25,6 @@ class WLOutdoorBlog implements Entity {
             url: "https://www.facebook.com/WLOutdoorBlog/posts/2966402860043182"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

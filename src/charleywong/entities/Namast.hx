@@ -36,5 +36,6 @@ class Namast implements Entity {
             url: "https://www.facebook.com/namaste.hk/photos/a.1085372058164872/2520790484623015/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

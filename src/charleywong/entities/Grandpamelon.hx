@@ -28,5 +28,6 @@ class Grandpamelon implements Entity {
             url: "https://www.facebook.com/Grandpamelon/photos/a.100607204721434/125560745559413/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -26,5 +26,6 @@ class HeACamper implements Entity {
             url: "https://www.facebook.com/heacamper/photos/a.1669848199911616/2489855101244251/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

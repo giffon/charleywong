@@ -26,5 +26,6 @@ class ElectricAve implements Entity {
             url: "https://www.facebook.com/electricavehk/photos/a.865961870204028/1849310661869139/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

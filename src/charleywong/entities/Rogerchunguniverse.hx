@@ -32,5 +32,6 @@ class Rogerchunguniverse implements Entity {
             url: "https://www.facebook.com/rogerchunguniverse/photos/a.571138570005822/787754375010906/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

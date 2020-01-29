@@ -23,5 +23,6 @@ class HkTaroVan implements Entity {
             url: "https://www.facebook.com/hkTaroVan/photos/a.1783156601973576/2544974852458410/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

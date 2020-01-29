@@ -29,5 +29,6 @@ class GAIAProjectHK implements Entity {
             url: "https://www.facebook.com/gaiaprojectstudio/posts/1922786824534218"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

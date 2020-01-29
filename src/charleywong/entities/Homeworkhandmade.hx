@@ -29,5 +29,6 @@ class Homeworkhandmade implements Entity {
             url: "https://www.facebook.com/homework.handmade/photos/a.374559179283839/2860277527378646/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

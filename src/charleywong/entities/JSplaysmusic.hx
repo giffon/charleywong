@@ -38,5 +38,6 @@ class JSplaysmusic implements Entity {
             url: "https://www.facebook.com/JSplaysmusic/videos/2325767804342320/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

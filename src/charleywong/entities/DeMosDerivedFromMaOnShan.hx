@@ -29,5 +29,6 @@ class DeMosDerivedFromMaOnShan implements Entity {
             url: "https://www.facebook.com/DeMosDerivedFromMaOnShan/photos/a.971327493005491/1494757277329174/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

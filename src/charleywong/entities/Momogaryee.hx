@@ -30,5 +30,6 @@ class Momogaryee implements Entity {
             url: "https://www.facebook.com/momogaryee/photos/a.1055475104465474/2782860175060283/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -31,5 +31,6 @@ class FaMiuly implements Entity {
             url: "https://www.facebook.com/FaMiuly/photos/a.379188019541915/560745338052848/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -31,5 +31,6 @@ class FHLartworkshop implements Entity {
             url: "https://www.facebook.com/fhlartworkshop/posts/1370600763104206"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

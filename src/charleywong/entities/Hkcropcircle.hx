@@ -31,5 +31,6 @@ class Hkcropcircle implements Entity {
             url: "https://www.facebook.com/hkcropcircle/posts/501254804080805"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

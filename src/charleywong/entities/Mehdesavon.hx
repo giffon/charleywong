@@ -27,5 +27,6 @@ class Mehdesavon implements Entity {
             url: "https://www.facebook.com/mehdesavon/photos/a.134026920794608/474257056771591/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

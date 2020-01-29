@@ -31,5 +31,6 @@ class SomethingBorrowedBridal implements Entity {
             url: "https://www.facebook.com/somethingborrowedbridalhk/photos/a.814681208578344/2551867041526410/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

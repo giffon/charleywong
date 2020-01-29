@@ -29,5 +29,6 @@ class DesignPort implements Entity {
             url: "https://www.facebook.com/design.port.hk/posts/1039847652890621"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

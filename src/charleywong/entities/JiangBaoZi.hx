@@ -25,5 +25,6 @@ class JiangBaoZi implements Entity {
             url: "https://www.facebook.com/JiangBaoZi/photos/a.206728272820595/1338672289626182/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -23,5 +23,6 @@ class Jacnat implements Entity {
             url: "https://www.facebook.com/jacnat4u/posts/2610093065707525"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -24,5 +24,6 @@ class Cuhkrecords implements Entity {
             url: "https://www.facebook.com/cuhk.records/videos/1368198130050114/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -26,5 +26,6 @@ class LokingArt implements Entity {
             url: "https://www.facebook.com/LokingArt/photos/a.1522732124439641/2555398611172982/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

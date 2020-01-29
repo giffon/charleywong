@@ -26,5 +26,6 @@ class MountaineeringLohas implements Entity {
             url: "https://www.facebook.com/MountaineeringLohas/posts/2245544342235543"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

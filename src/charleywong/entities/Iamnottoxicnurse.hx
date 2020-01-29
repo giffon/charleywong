@@ -29,5 +29,6 @@ class Iamnottoxicnurse implements Entity {
             url: "https://www.facebook.com/iamnottoxicnurse/posts/2368824796701636"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

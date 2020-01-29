@@ -32,5 +32,6 @@ class Wkendhk implements Entity {
             url: "https://www.facebook.com/wkend.official/posts/2503849869850453"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -26,5 +26,6 @@ class JumpersFever implements Entity {
             url: "https://www.facebook.com/JumpersFever/posts/726209251220636"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -24,5 +24,6 @@ class AliceCMakeup implements Entity {
             url: "https://www.facebook.com/alicecmakeuphk/photos/a.1822190411404607/2263044240652553/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

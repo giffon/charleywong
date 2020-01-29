@@ -22,5 +22,6 @@ class Healthpolicyconcern implements Entity {
             url: "https://www.facebook.com/healthpolicy.concern/posts/2403797736528705"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

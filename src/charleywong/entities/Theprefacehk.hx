@@ -32,5 +32,6 @@ class Theprefacehk implements Entity {
             url: "https://www.facebook.com/theprefacehk/photos/a.372010562997894/1130433797155563"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

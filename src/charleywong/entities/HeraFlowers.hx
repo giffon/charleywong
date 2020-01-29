@@ -28,5 +28,6 @@ class HeraFlowers implements Entity {
             url: "https://www.facebook.com/heraflowers.hk/photos/a.296249594315572/456061291667734/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

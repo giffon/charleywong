@@ -27,5 +27,6 @@ class Stayawayfromblackhole implements Entity {
             url: "https://www.facebook.com/2170531603162251/photos/a.2190289444519800/2528602790688462/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

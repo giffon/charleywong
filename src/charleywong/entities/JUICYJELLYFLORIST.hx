@@ -26,5 +26,6 @@ class JUICYJELLYFLORIST implements Entity {
             url: "https://www.facebook.com/juicyjellyflorist/posts/2236340743330099"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -33,5 +33,6 @@ class Oneintwo implements Entity {
             url: "https://www.facebook.com/1in2oneintwo/photos/a.1926082611005781/2587971111483591/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

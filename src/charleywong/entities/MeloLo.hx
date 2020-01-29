@@ -35,5 +35,6 @@ class MeloLo implements Entity {
             url: "https://www.facebook.com/imlmelo/posts/2558890864342007"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

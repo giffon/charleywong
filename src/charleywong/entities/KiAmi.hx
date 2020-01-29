@@ -24,5 +24,6 @@ class KiAmi implements Entity {
             url: "https://www.facebook.com/kiamikiki/posts/2895820540446582"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

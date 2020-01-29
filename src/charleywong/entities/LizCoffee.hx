@@ -31,5 +31,6 @@ class LizCoffee implements Entity {
             url: "https://www.facebook.com/lizcoffeehk/photos/a.306169206649593/494210911178754/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

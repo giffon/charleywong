@@ -27,5 +27,6 @@ class ParadisoBridal implements Entity {
             url: "https://www.facebook.com/paradisobridal/photos/a.246946032066424/2614982395262764/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

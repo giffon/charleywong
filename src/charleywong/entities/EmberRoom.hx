@@ -28,5 +28,6 @@ class EmberRoom implements Entity {
             url: "https://www.facebook.com/Emberoom/photos/a.539529383069618/925358067820079/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

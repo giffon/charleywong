@@ -26,5 +26,6 @@ class HLLeather implements Entity {
             url: "https://www.facebook.com/1913199288760398/photos/a.2006728309407495/2558349907578663/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

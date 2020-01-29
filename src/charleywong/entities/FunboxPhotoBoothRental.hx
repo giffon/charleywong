@@ -30,5 +30,6 @@ class FunboxPhotoBoothRental implements Entity {
             url: "https://www.facebook.com/funboxplus/photos/a.408565649332293/1249724558549727/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

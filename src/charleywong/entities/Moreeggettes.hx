@@ -38,5 +38,6 @@ class Moreeggettes implements Entity {
             url: "https://www.facebook.com/more.eggettes/photos/a.358399587696370/1333036006899385/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

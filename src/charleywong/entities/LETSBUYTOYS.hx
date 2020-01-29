@@ -28,5 +28,6 @@ class LETSBUYTOYS implements Entity {
             url: "https://www.facebook.com/letsbuytoys/posts/2622471204533733"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -38,5 +38,6 @@ class Magichomeshop implements Entity {
             url: "https://www.facebook.com/magichomeshop/posts/2684682511560329"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

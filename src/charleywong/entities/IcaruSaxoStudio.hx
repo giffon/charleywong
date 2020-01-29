@@ -32,5 +32,6 @@ class IcaruSaxoStudio implements Entity {
             url: "https://www.facebook.com/Icarusaxo/videos/247223982851558/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

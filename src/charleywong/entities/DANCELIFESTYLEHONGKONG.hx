@@ -35,5 +35,6 @@ class DANCELIFESTYLEHONGKONG implements Entity {
             url: "https://www.instagram.com/p/B2rAvCkApm6/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

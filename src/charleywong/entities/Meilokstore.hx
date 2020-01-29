@@ -30,5 +30,6 @@ class Meilokstore implements Entity {
             url: "https://www.facebook.com/meilokstore/posts/2521797098145211"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

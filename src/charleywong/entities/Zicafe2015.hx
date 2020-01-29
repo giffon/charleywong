@@ -34,5 +34,6 @@ class Zicafe2015 implements Entity {
             url: "https://www.facebook.com/zicafe2015/photos/a.1009361462447547/2721046384612371/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -30,5 +30,6 @@ class Milmillrecycle implements Entity {
             url: "https://www.facebook.com/milmill.recycle/photos/a.2434508726573662/2837726986251832/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

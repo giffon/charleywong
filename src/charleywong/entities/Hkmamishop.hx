@@ -31,5 +31,6 @@ class Hkmamishop implements Entity {
             url: "https://www.facebook.com/hkmamishop/posts/2611943085701219"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

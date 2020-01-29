@@ -34,5 +34,6 @@ class DrKoala implements Entity {
             url: "https://www.facebook.com/Dr.KoalaHK/posts/972153993123676"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

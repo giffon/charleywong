@@ -25,5 +25,6 @@ class PetvPlayEveryGames implements Entity {
             url: "https://www.facebook.com/PetvPlayEveryGames/posts/976608979362135"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

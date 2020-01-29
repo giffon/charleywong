@@ -28,5 +28,6 @@ class JulyJulyDream implements Entity {
             url: "https://www.facebook.com/JulyJulyDream/photos/a.209441379179860/1447606568696662/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

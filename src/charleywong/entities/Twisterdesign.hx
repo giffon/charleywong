@@ -26,5 +26,6 @@ class Twisterdesign implements Entity {
             url: "https://www.facebook.com/twisterdesign/posts/2416028765334526"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

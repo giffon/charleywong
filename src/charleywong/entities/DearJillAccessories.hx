@@ -21,5 +21,6 @@ class DearJillAccessories implements Entity {
             url: "https://www.facebook.com/dearjill852/posts/2462387330707787"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

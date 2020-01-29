@@ -28,5 +28,6 @@ class Pheromone implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=2360363490902819&id=2163480263924477"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

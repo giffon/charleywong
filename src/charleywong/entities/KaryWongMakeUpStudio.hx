@@ -31,5 +31,6 @@ class KaryWongMakeUpStudio implements Entity {
             url: "https://www.facebook.com/Karyywongmakeup/posts/2628795350521031"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

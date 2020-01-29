@@ -33,5 +33,6 @@ class Psychesholia implements Entity {
             url: "https://www.facebook.com/psychesholia/photos/a.228191160643019/2442584039203709/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

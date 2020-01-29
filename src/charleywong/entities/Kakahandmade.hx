@@ -29,5 +29,6 @@ class Kakahandmade implements Entity {
             url: "https://www.facebook.com/kakahandmade/posts/2607514819271776"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

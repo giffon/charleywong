@@ -28,5 +28,6 @@ class TomorrowPictures implements Entity {
             url: "https://www.facebook.com/TomorrowPictures/photos/a.1857880407829548/2495549357395980/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

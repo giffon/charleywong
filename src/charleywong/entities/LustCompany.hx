@@ -32,5 +32,6 @@ class LustCompany implements Entity {
             url: "https://www.facebook.com/HKLUST148/photos/a.1528039890837244/2060999124207982/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -23,5 +23,6 @@ class Funuiology implements Entity {
             url: "https://www.facebook.com/funuiology/posts/1638409632957229"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

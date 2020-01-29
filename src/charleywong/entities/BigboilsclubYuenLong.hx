@@ -28,5 +28,6 @@ class BigboilsclubYuenLong implements Entity {
             url: "https://www.facebook.com/bigboilsclubYuenLong/posts/767966990291409"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

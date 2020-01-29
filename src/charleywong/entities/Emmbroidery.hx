@@ -29,5 +29,6 @@ class Emmbroidery implements Entity {
             url: "https://www.facebook.com/emmbroidery/posts/151904352877695"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

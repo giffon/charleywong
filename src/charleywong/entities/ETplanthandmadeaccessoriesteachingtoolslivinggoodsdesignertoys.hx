@@ -27,5 +27,6 @@ class ETplanthandmadeaccessoriesteachingtoolslivinggoodsdesignertoys implements 
             url: "https://www.facebook.com/etplant/posts/531653404257122"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

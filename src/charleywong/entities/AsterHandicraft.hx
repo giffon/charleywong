@@ -28,5 +28,6 @@ class AsterHandicraft implements Entity {
             url: "https://www.facebook.com/aster.handicraft.hk/photos/a.691733427930038/859495821153797/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

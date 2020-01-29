@@ -31,5 +31,6 @@ class MinnieLi implements Entity {
             url: "https://www.facebook.com/limingminnie/posts/423528411699370"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

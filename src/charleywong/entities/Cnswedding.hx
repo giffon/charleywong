@@ -31,5 +31,6 @@ class Cnswedding implements Entity {
             url: "https://www.facebook.com/cnswedding/photos/a.925925404093439/2542134209139209/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

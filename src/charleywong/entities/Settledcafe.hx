@@ -32,5 +32,6 @@ class Settledcafe implements Entity {
             url: "https://www.facebook.com/settledcafe/photos/a.1624551260955348/2665007783576352/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

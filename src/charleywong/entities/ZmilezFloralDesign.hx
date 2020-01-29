@@ -26,5 +26,6 @@ class ZmilezFloralDesign implements Entity {
             url: "https://www.facebook.com/floral.zmilez/posts/1437483233072707"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

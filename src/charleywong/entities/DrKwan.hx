@@ -23,5 +23,6 @@ class DrKwan implements Entity {
             url: "https://www.facebook.com/Dr.Kwan/posts/1178255659036023"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

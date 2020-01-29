@@ -26,5 +26,6 @@ class WoodSoda implements Entity {
             url: "https://www.facebook.com/woodsoda/photos/a.147314198745343/1873146389495440/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

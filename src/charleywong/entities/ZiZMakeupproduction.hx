@@ -23,5 +23,6 @@ class ZiZMakeupproduction implements Entity {
             url: "https://www.facebook.com/ZiZMakeupProduction/posts/974692969583124"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

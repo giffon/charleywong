@@ -25,5 +25,6 @@ class MercyWeddingCollection implements Entity {
             url: "https://www.facebook.com/MercyWeddingCollection/photos/a.10151613003894191/10157073472409191/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

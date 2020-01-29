@@ -32,5 +32,6 @@ class Esportsomg implements Entity {
             url: "https://www.facebook.com/esportsomg/posts/1165906976947380"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

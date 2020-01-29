@@ -33,5 +33,6 @@ class OlandaInternational implements Entity {
             url: "https://www.facebook.com/olandainternational/posts/2599045456808887"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

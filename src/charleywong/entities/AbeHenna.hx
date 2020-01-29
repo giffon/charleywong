@@ -30,5 +30,6 @@ class AbeHenna implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=2495834150435232&id=443305789021422"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

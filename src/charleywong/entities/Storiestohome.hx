@@ -26,5 +26,6 @@ class Storiestohome implements Entity {
             url: "https://www.facebook.com/storiestohome/photos/a.729689463738650/3425800854127484"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

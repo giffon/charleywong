@@ -26,5 +26,6 @@ class Rosaluna implements Entity {
             url: "https://www.facebook.com/lunarosee.lab/posts/2613869958940129"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

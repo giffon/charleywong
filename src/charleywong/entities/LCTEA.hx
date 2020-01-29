@@ -29,5 +29,6 @@ class LCTEA implements Entity {
             url: "https://www.instagram.com/p/B5SaTm7l0Cs/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

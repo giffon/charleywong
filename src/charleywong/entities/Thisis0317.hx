@@ -22,5 +22,6 @@ class Thisis0317 implements Entity {
             url: "https://www.facebook.com/thisis0317/photos/a.708589059155059/3631769100170359/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

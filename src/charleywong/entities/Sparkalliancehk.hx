@@ -28,5 +28,6 @@ class Sparkalliancehk implements Entity {
             url: "https://www.facebook.com/sparkalliancehk/photos/a.1989972677956521/2569336213353495/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

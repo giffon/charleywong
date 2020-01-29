@@ -33,5 +33,6 @@ class Dhlaromahk implements Entity {
             url: "https://www.facebook.com/dhlaromahk/posts/2572821786126945"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

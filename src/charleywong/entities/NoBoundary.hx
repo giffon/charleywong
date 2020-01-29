@@ -35,5 +35,6 @@ class NoBoundary implements Entity {
             url: "https://www.facebook.com/no.boundary.hk/posts/580367462779940"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

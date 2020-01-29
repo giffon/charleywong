@@ -24,5 +24,6 @@ class AlexLeungphotography implements Entity {
             url: "https://www.facebook.com/alexleungphotography/posts/2555848457843359"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

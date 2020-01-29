@@ -30,5 +30,6 @@ class Doctorlmtang implements Entity {
             url: "https://www.facebook.com/doctorlmtang/posts/1300280350127263"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -22,5 +22,6 @@ class Physiojam implements Entity {
             url: "https://www.facebook.com/physiojam/videos/2489952934621717/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

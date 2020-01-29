@@ -26,5 +26,6 @@ class Icarehksomuch implements Entity {
             url: "https://www.facebook.com/icarehksomuch/posts/106222844241334"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

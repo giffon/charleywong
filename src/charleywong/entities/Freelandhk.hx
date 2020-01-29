@@ -32,5 +32,6 @@ class Freelandhk implements Entity {
             url: "https://www.facebook.com/freelandhk/photos/a.273267830229631/409465646609848/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

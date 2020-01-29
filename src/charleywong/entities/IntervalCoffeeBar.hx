@@ -30,5 +30,6 @@ class IntervalCoffeeBar implements Entity {
             url: "https://www.facebook.com/intervalcoffeebar/photos/a.140907076562189/361542341165327/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

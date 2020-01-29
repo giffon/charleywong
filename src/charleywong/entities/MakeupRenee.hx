@@ -21,5 +21,6 @@ class MakeupRenee implements Entity {
             url: "https://www.facebook.com/168246427114200/photos/a.184110558861120/492048384734001/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

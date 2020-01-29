@@ -30,5 +30,6 @@ class GuruPangWorkshop implements Entity {
             url: "https://www.facebook.com/gurupangworkshop/photos/a.1871060969843607/2493606464255718/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

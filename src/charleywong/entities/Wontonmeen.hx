@@ -33,5 +33,6 @@ class Wontonmeen implements Entity {
             url: "https://www.facebook.com/wontonmeen/photos/a.117148428340676/2322503877805109/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -31,5 +31,6 @@ class Alivecollegetsw implements Entity {
             url: "https://www.facebook.com/Alivecollegetsw/photos/a.854072924711064/2548136451971361/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

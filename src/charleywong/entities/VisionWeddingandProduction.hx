@@ -31,5 +31,6 @@ class VisionWeddingandProduction implements Entity {
             url: "https://www.facebook.com/VisionWeddingProduction/photos/a.192762413864/10156878050568865/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

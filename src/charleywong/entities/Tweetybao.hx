@@ -30,5 +30,6 @@ class Tweetybao implements Entity {
             url: "https://www.facebook.com/Tweetybao/photos/a.556072264467204/3097447923662946/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

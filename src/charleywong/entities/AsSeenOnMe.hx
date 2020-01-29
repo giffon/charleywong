@@ -28,5 +28,6 @@ class AsSeenOnMe implements Entity {
             url: "https://www.facebook.com/asomcloset/photos/a.664126394010267/709194696170103/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -31,5 +31,6 @@ class TuckshopbySocialClub implements Entity {
             url: "https://www.facebook.com/tuckshopbysocialclub/photos/a.1827492177544261/2129786810648128/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

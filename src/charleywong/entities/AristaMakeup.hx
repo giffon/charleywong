@@ -23,5 +23,6 @@ class AristaMakeup implements Entity {
             url: "https://www.facebook.com/AristaMakeUp/photos/a.476971385750959/2519778771470200/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

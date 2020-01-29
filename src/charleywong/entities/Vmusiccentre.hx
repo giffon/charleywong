@@ -31,5 +31,6 @@ class Vmusiccentre implements Entity {
             url: "https://www.facebook.com/Vmusiccentre/videos/368535260755832/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -23,5 +23,6 @@ class KoeiMakeUp implements Entity {
             url: "https://www.facebook.com/koeimakeup/photos/a.1452466084965764/2455005998045096/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

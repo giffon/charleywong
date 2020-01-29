@@ -26,5 +26,6 @@ class ALittleBean implements Entity {
             url: "https://www.facebook.com/alittlebean/posts/2676215712443439"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

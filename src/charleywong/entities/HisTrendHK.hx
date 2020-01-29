@@ -34,5 +34,6 @@ class HisTrendHK implements Entity {
             url: "https://www.facebook.com/histrend.hk/posts/1160402974162140"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

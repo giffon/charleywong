@@ -29,5 +29,6 @@ class BGBMHK implements Entity {
             url: "https://www.facebook.com/BGBMHK/photos/a.1211943195641221/1398215120347360/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

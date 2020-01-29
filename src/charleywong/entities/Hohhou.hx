@@ -27,5 +27,6 @@ class Hohhou implements Entity {
             url: "https://www.facebook.com/hohhouhohhou/photos/a.614057408775937/1218823124966026/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

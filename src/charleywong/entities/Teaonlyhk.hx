@@ -31,5 +31,6 @@ class Teaonlyhk implements Entity {
             url: "https://www.facebook.com/Teaonlyhk/photos/a.442622656200427/772817509847605/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

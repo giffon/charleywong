@@ -28,5 +28,6 @@ class CWedding implements Entity {
             url: "https://www.facebook.com/CWeddinghk/posts/1391550981004863"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

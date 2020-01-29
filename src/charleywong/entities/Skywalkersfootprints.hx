@@ -25,5 +25,6 @@ class Skywalkersfootprints implements Entity {
             url: "https://www.facebook.com/skywalkersfootprints/posts/2362602003850327"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

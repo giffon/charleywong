@@ -25,5 +25,6 @@ class KatnissHildaAccessories implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=571900086967210&id=161557018001521"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

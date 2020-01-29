@@ -26,5 +26,6 @@ class Fb381812535594914 implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=779626955813468&id=381812535594914"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

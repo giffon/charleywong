@@ -36,5 +36,6 @@ class TheOnenessMusicLtd implements Entity {
             url: "https://www.facebook.com/TheOnenessMusicLtd/photos/a.787746744903603/1011280282550247/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

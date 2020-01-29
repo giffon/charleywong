@@ -28,5 +28,6 @@ class LibertyCoffeeWine implements Entity {
             url: "https://www.facebook.com/libertycoffeewine/photos/a.116907079647313/152041932800494/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

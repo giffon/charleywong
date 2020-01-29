@@ -26,5 +26,6 @@ class Dfwedding implements Entity {
             url: "https://www.facebook.com/dfwedding/posts/2971284039552541"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

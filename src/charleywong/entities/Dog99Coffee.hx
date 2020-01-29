@@ -29,5 +29,6 @@ class Dog99Coffee implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=1266857770145829&id=901050250059918"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

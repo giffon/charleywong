@@ -25,5 +25,6 @@ class Beaqueencake implements Entity {
             url: "https://www.facebook.com/beaqueencake/posts/136022731143782"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

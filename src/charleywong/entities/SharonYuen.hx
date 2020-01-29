@@ -29,5 +29,6 @@ class SharonYuen implements Entity {
             url: "https://www.facebook.com/sharonyuenjewelrydesign/posts/2967929729889732"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

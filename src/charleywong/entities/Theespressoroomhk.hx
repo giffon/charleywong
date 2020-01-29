@@ -29,5 +29,6 @@ class Theespressoroomhk implements Entity {
             url: "https://www.facebook.com/espressoroomhk/photos/a.170703366956456/444816909545099/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -29,5 +29,6 @@ class BennyCPhotos implements Entity {
             url: "https://www.facebook.com/BennyCphoto/photos/a.361210120563503/3213565325327954/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

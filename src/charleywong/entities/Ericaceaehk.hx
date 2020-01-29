@@ -33,5 +33,6 @@ class Ericaceaehk implements Entity {
             url: "https://www.facebook.com/ericaceae.hk/videos/1105658796432763/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

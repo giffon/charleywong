@@ -28,5 +28,6 @@ class Sparkchamber80 implements Entity {
             url: "https://www.facebook.com/sparkchamber80/posts/1751799498288561"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -31,5 +31,6 @@ class NaturallyYouNeed implements Entity {
             url: "https://www.facebook.com/naturallyyouneedHK/posts/2384775781739471"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

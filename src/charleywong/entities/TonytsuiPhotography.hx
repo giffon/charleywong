@@ -26,5 +26,6 @@ class TonytsuiPhotography implements Entity {
             url: "https://www.facebook.com/Tonytsuiphoto/posts/10157824229732905"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

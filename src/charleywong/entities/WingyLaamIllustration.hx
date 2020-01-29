@@ -22,5 +22,6 @@ class WingyLaamIllustration implements Entity {
             url: "https://www.facebook.com/wingylaam/photos/a.586918918342784/898280880539918/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

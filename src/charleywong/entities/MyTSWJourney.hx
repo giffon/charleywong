@@ -22,5 +22,6 @@ class MyTSWJourney implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=155441949182607&id=118669439526525"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

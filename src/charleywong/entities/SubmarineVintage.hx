@@ -32,5 +32,6 @@ class SubmarineVintage implements Entity {
             url: "https://www.facebook.com/submarine.vintage/photos/a.339886976153533/1494600270682192/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

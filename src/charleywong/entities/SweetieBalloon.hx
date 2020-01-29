@@ -29,5 +29,6 @@ class SweetieBalloon implements Entity {
             url: "https://www.facebook.com/SweetieBalloon/photos/a.521644037873301/2498344716869880"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

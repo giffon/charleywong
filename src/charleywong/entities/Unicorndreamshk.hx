@@ -33,5 +33,6 @@ class Unicorndreamshk implements Entity {
             url: "https://www.facebook.com/unicorn.dreams.hk/posts/470100093627873"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

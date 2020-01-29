@@ -28,5 +28,6 @@ class Baofanji implements Entity {
             url: "https://www.facebook.com/baofanji/photos/a.258819224612913/654806581680840/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

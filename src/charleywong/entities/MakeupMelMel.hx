@@ -27,5 +27,6 @@ class MakeupMelMel implements Entity {
             url: "https://www.facebook.com/melchanmua/photos/a.1815477598714262/2371062483155768/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

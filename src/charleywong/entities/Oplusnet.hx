@@ -25,5 +25,6 @@ class Oplusnet implements Entity {
             url: "https://www.facebook.com/oplusnet/posts/2513788698870037"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

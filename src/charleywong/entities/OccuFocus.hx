@@ -27,5 +27,6 @@ class OccuFocus implements Entity {
             url: "https://www.facebook.com/1942788249282602/photos/a.2002149373346489/2467222416839180/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

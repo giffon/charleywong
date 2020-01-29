@@ -31,5 +31,6 @@ class EternityEngagement implements Entity {
             url: "https://www.facebook.com/eternityengagement/posts/3004078942954755"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

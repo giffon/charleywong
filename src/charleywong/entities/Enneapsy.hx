@@ -36,5 +36,6 @@ class Enneapsy implements Entity {
             url: "https://www.facebook.com/enneapsy/posts/2281606145249540"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

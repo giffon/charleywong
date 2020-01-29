@@ -29,5 +29,6 @@ class GimmickEasy implements Entity {
             url: "https://www.facebook.com/GimmickEasy/videos/2469249849977064/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

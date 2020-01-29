@@ -30,5 +30,6 @@ class KaCaMaDesignLab implements Entity {
             url: "https://www.facebook.com/KaCaMaDesignLab/posts/3381904071849580"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

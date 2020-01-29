@@ -27,5 +27,6 @@ class BridalMakeupbyJadeTsan implements Entity {
             url: "https://www.facebook.com/byjadetsan/posts/1405485239603574"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

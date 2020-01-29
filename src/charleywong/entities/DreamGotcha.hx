@@ -30,5 +30,6 @@ class DreamGotcha implements Entity {
             url: "https://www.facebook.com/DreamGotcha/posts/761543934271232"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

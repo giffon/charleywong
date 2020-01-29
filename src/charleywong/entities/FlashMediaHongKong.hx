@@ -26,5 +26,6 @@ class FlashMediaHongKong implements Entity {
             url: "https://www.facebook.com/flashmediahk/photos/a.115338826611457/115348026610537/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

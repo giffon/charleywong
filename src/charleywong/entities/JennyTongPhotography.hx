@@ -27,5 +27,6 @@ class JennyTongPhotography implements Entity {
             url: "https://www.facebook.com/jennytongphotography/posts/1168689439986489"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

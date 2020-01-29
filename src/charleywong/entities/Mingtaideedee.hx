@@ -24,5 +24,6 @@ class Mingtaideedee implements Entity {
             url: "https://www.facebook.com/mingtaideedee/posts/2706711379418500"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

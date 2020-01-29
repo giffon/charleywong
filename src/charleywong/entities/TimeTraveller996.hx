@@ -27,5 +27,6 @@ class TimeTraveller996 implements Entity {
             url: "https://www.facebook.com/966TimeTraveller/photos/a.2020642271508727/2603763799863235"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

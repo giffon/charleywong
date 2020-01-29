@@ -35,5 +35,6 @@ class LesPlayHK implements Entity {
             url: "https://www.facebook.com/lesplayhk/photos/a.1095291283941183/1603963223073984/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

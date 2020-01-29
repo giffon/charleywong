@@ -27,5 +27,6 @@ class CalilyFloralDesign implements Entity {
             url: "https://www.facebook.com/calilyfloral/photos/a.1303384809822720/2297455083749016/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

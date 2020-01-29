@@ -28,5 +28,6 @@ class Wahyeetangcakeshop implements Entity {
             url: "https://www.facebook.com/wahyeetangcakeshop/posts/2444646078986650"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

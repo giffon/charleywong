@@ -21,5 +21,6 @@ class NISIN implements Entity {
             url: "https://www.facebook.com/NisinNsheep/posts/2915753038453727"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

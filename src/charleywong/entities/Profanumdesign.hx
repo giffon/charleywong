@@ -28,5 +28,6 @@ class Profanumdesign implements Entity {
             url: "https://www.facebook.com/profanumdesign/posts/133362488115781"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

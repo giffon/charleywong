@@ -28,5 +28,6 @@ class Aniceplaceto implements Entity {
             url: "https://www.facebook.com/niceplaceto/photos/a.719310798123623/2357079801013373"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

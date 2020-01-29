@@ -34,5 +34,6 @@ class InvoltiniItaliancuisine implements Entity {
             url: "https://www.facebook.com/involtinihk/posts/2753047431391618"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

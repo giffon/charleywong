@@ -29,5 +29,6 @@ class JnWorkshop implements Entity {
             url: "https://www.facebook.com/JnWorkshop/posts/2593613540756094"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

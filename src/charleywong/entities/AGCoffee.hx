@@ -32,5 +32,6 @@ class AGCoffee implements Entity {
             url: "https://www.facebook.com/agcoffee55/photos/a.1708745069181458/2527335480655742/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

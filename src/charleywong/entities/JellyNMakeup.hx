@@ -28,5 +28,6 @@ class JellyNMakeup implements Entity {
             url: "https://www.facebook.com/JellyN.makeup/posts/1344135375779264"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

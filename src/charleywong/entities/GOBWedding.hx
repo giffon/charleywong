@@ -25,5 +25,6 @@ class GOBWedding implements Entity {
             url: "https://www.facebook.com/GobMakeup/posts/2681487038576073"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

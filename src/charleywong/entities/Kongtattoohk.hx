@@ -29,5 +29,6 @@ class Kongtattoohk implements Entity {
             url: "https://www.facebook.com/kongtattoohk/videos/406660643292413/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

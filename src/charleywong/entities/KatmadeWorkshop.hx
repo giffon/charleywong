@@ -26,5 +26,6 @@ class KatmadeWorkshop implements Entity {
             url: "https://www.facebook.com/katttmade/photos/a.135809481179255/135809461179257/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

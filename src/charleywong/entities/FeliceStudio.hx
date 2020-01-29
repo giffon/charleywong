@@ -32,5 +32,6 @@ class FeliceStudio implements Entity {
             url: "https://www.facebook.com/FeliceStudio/videos/2685681311510519/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -28,5 +28,6 @@ class Mankitation implements Entity {
             url: "https://www.facebook.com/Mankitation/photos/a.1699325023645091/2498202657090653/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

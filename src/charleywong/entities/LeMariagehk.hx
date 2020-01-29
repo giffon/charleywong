@@ -25,5 +25,6 @@ class LeMariagehk implements Entity {
             url: "https://www.facebook.com/lemariagehk/photos/a.215092688860770/939464883090210/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

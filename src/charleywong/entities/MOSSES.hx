@@ -31,5 +31,6 @@ class MOSSES implements Entity {
             url: "https://www.facebook.com/mossesbooks/photos/a.136639403633160/392482371382194"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

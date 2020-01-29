@@ -22,5 +22,6 @@ class MountainsarecallingKATA implements Entity {
             url: "https://www.facebook.com/mountainsarecallingKATA/posts/2453246958064968"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

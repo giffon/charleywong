@@ -31,5 +31,6 @@ class LittleVegas implements Entity {
             url: "https://www.facebook.com/littlevegashk/photos/a.747830231921545/2524659037571980/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

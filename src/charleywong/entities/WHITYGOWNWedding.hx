@@ -24,5 +24,6 @@ class WHITYGOWNWedding implements Entity {
             url: "https://www.facebook.com/336767229755181/photos/a.381614238603813/2458870167544866/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -32,5 +32,6 @@ class SisHoneyFloralDesign implements Entity {
             url: "https://www.facebook.com/SisHoney.flower/posts/2643757925668197"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

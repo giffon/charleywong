@@ -26,5 +26,6 @@ class Investmenhk implements Entity {
             url: "https://www.facebook.com/investmenhk/posts/1419606441549433"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

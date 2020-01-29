@@ -28,5 +28,6 @@ class Jclassymakeup implements Entity {
             url: "https://www.facebook.com/jclassymakeup/posts/2555280094520433"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

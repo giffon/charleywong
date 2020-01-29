@@ -27,5 +27,6 @@ class Fattylaihk implements Entity {
             url: "https://www.facebook.com/fattylai.hk/photos/a.113001263413249/147139929999382/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

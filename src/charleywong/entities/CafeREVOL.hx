@@ -27,5 +27,6 @@ class CafeREVOL implements Entity {
             url: "https://www.facebook.com/caferevol/posts/2346933075636721"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

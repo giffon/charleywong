@@ -29,5 +29,6 @@ class TheCorner implements Entity {
             url: "https://www.facebook.com/FreshInCorner/photos/a.316767888758600/802367766865274/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

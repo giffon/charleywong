@@ -21,5 +21,6 @@ class Letsjamfruit implements Entity {
             url: "https://www.facebook.com/letsjamfruit/posts/118536229644632"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -23,5 +23,6 @@ class Anitoxiceduhk implements Entity {
             url: "https://www.facebook.com/anitoxic.eduhk/posts/320448738848522"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

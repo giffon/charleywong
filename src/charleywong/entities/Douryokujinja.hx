@@ -32,5 +32,6 @@ class Douryokujinja implements Entity {
             url: "https://www.facebook.com/douryokujinja/posts/916310172082581"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

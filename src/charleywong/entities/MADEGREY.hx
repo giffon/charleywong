@@ -25,5 +25,6 @@ class MADEGREY implements Entity {
             url: "https://www.facebook.com/MADEGREY/photos/a.911061805615447/2315997055121908/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

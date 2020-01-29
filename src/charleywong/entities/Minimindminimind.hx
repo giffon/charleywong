@@ -32,5 +32,6 @@ class Minimindminimind implements Entity {
             url: "https://www.facebook.com/minimind.minimind/photos/a.1936552203231247/2483685445184584/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -38,5 +38,6 @@ class MyBalloon implements Entity {
             url: "https://www.facebook.com/myballoonhk/posts/2660057227380279"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

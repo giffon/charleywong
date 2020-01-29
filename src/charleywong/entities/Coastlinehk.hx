@@ -24,5 +24,6 @@ class Coastlinehk implements Entity {
             url: "https://www.facebook.com/Coastline.hk/photos/a.908332726166145/1016692598663490/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

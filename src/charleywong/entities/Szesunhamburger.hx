@@ -3,7 +3,7 @@ package charleywong.entities;
 class Szesunhamburger implements Entity {
     public final id = "szesunhamburger";
     public final name = [
-        zh => "時新漢堡飽",
+        zh => "時新漢堡飽"
     ];
     public final webpages:Array<WebPage> = [
         {
@@ -28,5 +28,6 @@ class Szesunhamburger implements Entity {
             url: "https://www.facebook.com/szesunhamburger/posts/976295476096835"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

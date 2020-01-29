@@ -28,5 +28,6 @@ class CHAUDAUFU implements Entity {
             url: "https://www.facebook.com/CHAUDAUFU/photos/a.986392118070085/2962759647099979/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

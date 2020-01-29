@@ -26,5 +26,6 @@ class Gfwestface implements Entity {
             url: "https://www.facebook.com/gfwestface/posts/984096535324229"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

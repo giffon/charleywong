@@ -37,5 +37,6 @@ class Startingof implements Entity {
             url: "https://www.facebook.com/starting.of/photos/a.1412349045451880/2366284820058293/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -27,5 +27,6 @@ class Hkpsychologistsconcern implements Entity {
             url: "https://www.facebook.com/hkpsychologistsconcern/posts/1073516526178643"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

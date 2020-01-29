@@ -23,5 +23,6 @@ class Diazmanhei implements Entity {
             url: "https://www.facebook.com/Diazmanhei/photos/a.151111188711819/633678880455045/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

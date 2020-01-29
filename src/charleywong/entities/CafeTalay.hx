@@ -31,5 +31,6 @@ class CafeTalay implements Entity {
             url: "https://www.facebook.com/cafetalayhk/photos/a.131181204206314/354705431853889/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

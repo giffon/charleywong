@@ -28,5 +28,6 @@ class Grandmamastore implements Entity {
             url: "https://www.facebook.com/grandmama.store/photos/a.416788022023961/1029556897413734/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

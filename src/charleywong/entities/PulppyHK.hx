@@ -30,5 +30,6 @@ class PulppyHK implements Entity {
             url: "https://www.facebook.com/pulppyhk/photos/a.2229029574046910/2389958941287305/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

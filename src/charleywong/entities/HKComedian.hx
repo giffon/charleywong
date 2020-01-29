@@ -22,5 +22,6 @@ class HKComedian implements Entity {
             url: "https://www.facebook.com/HKComedian/posts/2471061492930017"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

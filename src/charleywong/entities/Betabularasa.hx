@@ -34,5 +34,6 @@ class Betabularasa implements Entity {
             url: "https://www.facebook.com/betabularasa/photos/a.796140087063798/2851488131528973/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

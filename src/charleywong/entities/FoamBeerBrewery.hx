@@ -22,5 +22,6 @@ class FoamBeerBrewery implements Entity {
             url: "https://www.facebook.com/foambeerbrewery/posts/3060666870624005"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

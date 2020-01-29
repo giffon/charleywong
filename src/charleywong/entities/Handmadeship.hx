@@ -27,5 +27,6 @@ class Handmadeship implements Entity {
             url: "https://www.facebook.com/handmadeshipship/posts/1307009986169203"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -26,5 +26,6 @@ class TomatoStory implements Entity {
             url: "https://www.facebook.com/tomatostoryhk/photos/a.293312011348834/341974243149277/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

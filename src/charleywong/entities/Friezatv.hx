@@ -25,5 +25,6 @@ class Friezatv implements Entity {
             url: "https://www.facebook.com/friezatv/posts/739596289785254"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -27,5 +27,6 @@ class SEKBAANSIU implements Entity {
             url: "https://www.facebook.com/SEK.BAAN.SIU/photos/a.464585987468549/481953482398466/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

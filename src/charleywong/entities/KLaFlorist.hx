@@ -22,5 +22,6 @@ class KLaFlorist implements Entity {
             url: "https://www.facebook.com/KLaFlorist/photos/a.551185368425279/1218136111730198/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

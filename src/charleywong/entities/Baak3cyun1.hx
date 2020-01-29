@@ -28,5 +28,6 @@ class Baak3cyun1 implements Entity {
             url: "https://www.facebook.com/baak3cyun1/photos/a.1751318308479508/2488686538076011/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

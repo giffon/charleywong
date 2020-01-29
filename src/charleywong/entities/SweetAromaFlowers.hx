@@ -33,5 +33,6 @@ class SweetAromaFlowers implements Entity {
             url: "https://www.facebook.com/sweetaromaflowers/photos/a.10151097049597218/10156848512457218/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

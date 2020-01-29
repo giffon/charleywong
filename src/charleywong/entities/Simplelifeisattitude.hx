@@ -23,5 +23,6 @@ class Simplelifeisattitude implements Entity {
             url: "https://www.facebook.com/simplelifeisattitude/posts/2114284532006196"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

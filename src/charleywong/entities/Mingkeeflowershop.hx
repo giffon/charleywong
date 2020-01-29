@@ -30,5 +30,6 @@ class Mingkeeflowershop implements Entity {
             url: "https://www.facebook.com/mingkeeflowershop/posts/10157675018693398"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

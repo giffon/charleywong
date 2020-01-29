@@ -31,5 +31,6 @@ class LifetimeWeddingEventDecoration implements Entity {
             url: "https://www.facebook.com/LifetimeDeco/posts/1265075433679272"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

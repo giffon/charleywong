@@ -24,5 +24,6 @@ class PhysioResist implements Entity {
             url: "https://www.facebook.com/100521374755288/photos/a.100572888083470/101023091371783/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

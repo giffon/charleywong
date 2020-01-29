@@ -25,5 +25,6 @@ class LUMDUMS implements Entity {
             url: "https://www.facebook.com/lumdums/photos/a.676844842366381/2461594273891420/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

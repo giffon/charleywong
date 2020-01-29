@@ -22,5 +22,6 @@ class KOLOR implements Entity {
             url: "https://www.facebook.com/KOLORHK/photos/a.10151035087498237/10156771811143237/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -30,5 +30,6 @@ class Theegghse implements Entity {
             url: "https://www.facebook.com/theegghse/posts/114991840009851"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

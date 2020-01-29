@@ -36,5 +36,6 @@ class Enjoytimehk implements Entity {
             url: "https://www.facebook.com/Enjoytimehk/photos/a.1921829827911209/2560279604066225/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

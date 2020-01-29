@@ -28,5 +28,6 @@ class KKBOX implements Entity {
             url: "https://www.facebook.com/KKBOXHK/posts/10157367957979870"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

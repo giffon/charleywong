@@ -29,5 +29,6 @@ class Knightlaihk implements Entity {
             url: "https://www.facebook.com/knight.lai.hk/photos/a.516006911790927/2588492221209042/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

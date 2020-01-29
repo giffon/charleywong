@@ -30,5 +30,6 @@ class CSPhotographyHongKong implements Entity {
             url: "https://www.facebook.com/CSPSHK/posts/2775284709188318"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

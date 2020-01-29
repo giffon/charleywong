@@ -30,5 +30,6 @@ class PoeticSciencebyParc implements Entity {
             url: "https://www.facebook.com/poeticsciencebyparc/photos/a.1834924653391515/2307541642796478/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -29,5 +29,6 @@ class Station implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=1187265344810359&id=865108003692763"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

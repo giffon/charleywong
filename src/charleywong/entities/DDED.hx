@@ -35,5 +35,6 @@ class DDED implements Entity {
             url: "https://www.facebook.com/ddedhk/photos/a.295325840617327/1341354179347816/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

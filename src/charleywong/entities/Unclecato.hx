@@ -29,5 +29,6 @@ class Unclecato implements Entity {
             url: "https://www.facebook.com/unclecato/photos/a.729551820475048/2318470831583131/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

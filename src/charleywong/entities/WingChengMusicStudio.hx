@@ -27,5 +27,6 @@ class WingChengMusicStudio implements Entity {
             url: "https://www.facebook.com/wcmusicstudio/posts/760965944353470"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

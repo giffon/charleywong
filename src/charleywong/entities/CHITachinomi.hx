@@ -28,5 +28,6 @@ class CHITachinomi implements Entity {
             url: "https://www.facebook.com/CHITachinomi/photos/a.105411264238880/105411190905554/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

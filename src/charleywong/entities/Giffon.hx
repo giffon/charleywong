@@ -28,5 +28,6 @@ class Giffon implements Entity {
             url: "https://www.facebook.com/pg/giffon.io/photos/?tab=album&album_id=459245671447359"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

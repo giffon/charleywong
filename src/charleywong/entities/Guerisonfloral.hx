@@ -35,5 +35,6 @@ class Guerisonfloral implements Entity {
             url: "https://www.facebook.com/guerisonfloral/posts/151037319601276"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

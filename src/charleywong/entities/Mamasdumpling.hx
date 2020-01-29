@@ -33,5 +33,6 @@ class Mamasdumpling implements Entity {
             url: "https://www.facebook.com/mamasdumpling/posts/1400684630090921"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

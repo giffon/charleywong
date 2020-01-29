@@ -25,5 +25,6 @@ class Sheepandpig implements Entity {
             url: "https://www.facebook.com/sheepandpig/photos/a.2275081882779828/2420195858268429/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

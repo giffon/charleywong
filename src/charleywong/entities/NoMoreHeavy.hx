@@ -30,5 +30,6 @@ class NoMoreHeavy implements Entity {
             url: "https://www.facebook.com/nomoreheavy/photos/a.512486259288762/554839965053391/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -38,5 +38,6 @@ class Ffdhk implements Entity {
             url: "https://www.facebook.com/ffdhk/posts/1535109129971616"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

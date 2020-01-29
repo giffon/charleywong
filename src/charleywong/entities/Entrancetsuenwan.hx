@@ -32,5 +32,6 @@ class Entrancetsuenwan implements Entity {
             url: "https://www.facebook.com/entrance.tsuenwan/photos/a.1568943113326300/2476152399272029/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

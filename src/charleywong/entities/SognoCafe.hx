@@ -27,5 +27,6 @@ class SognoCafe implements Entity {
             url: "https://www.facebook.com/sognocafeplus/photos/a.505354799543143/2568788683199734/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

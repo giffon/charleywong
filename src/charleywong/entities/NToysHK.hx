@@ -42,5 +42,6 @@ class NToysHK implements Entity {
             url: "https://www.facebook.com/NToysHK/posts/746728712475209"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

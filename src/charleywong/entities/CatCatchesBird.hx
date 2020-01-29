@@ -22,5 +22,6 @@ class CatCatchesBird implements Entity {
             url: "https://www.facebook.com/catcatchesbird/photos/a.454660201740303/587133068493015/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

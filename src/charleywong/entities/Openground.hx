@@ -30,5 +30,6 @@ class Openground implements Entity {
             url: "https://www.facebook.com/opengroundhk/posts/982729405421217"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

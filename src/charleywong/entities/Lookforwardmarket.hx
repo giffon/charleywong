@@ -21,5 +21,6 @@ class Lookforwardmarket implements Entity {
             url: "https://www.facebook.com/lookforward.market/posts/2579969945390729"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -26,5 +26,6 @@ class Firstfixhk implements Entity {
             url: "https://www.facebook.com/firstfixhk/posts/2373535129626574"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

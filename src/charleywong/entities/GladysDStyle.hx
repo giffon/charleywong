@@ -28,5 +28,6 @@ class GladysDStyle implements Entity {
             url: "https://www.facebook.com/Gladys.D.style/photos/a.346354189285529/520368621884084/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

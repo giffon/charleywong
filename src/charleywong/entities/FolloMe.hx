@@ -26,5 +26,6 @@ class FolloMe implements Entity {
             url: "https://www.facebook.com/Follo3me/photos/a.228722290820138/873884146303946/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

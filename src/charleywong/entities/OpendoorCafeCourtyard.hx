@@ -29,5 +29,6 @@ class OpendoorCafeCourtyard implements Entity {
             url: "https://www.facebook.com/opendoorcafehk/photos/a.158479264345243/1100599486799878/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -24,5 +24,6 @@ class TotalDessertSaiwan implements Entity {
             url: "https://www.facebook.com/TotalDessertSaiwan/posts/2535314706535287"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

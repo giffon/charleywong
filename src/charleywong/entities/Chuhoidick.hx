@@ -28,5 +28,6 @@ class Chuhoidick implements Entity {
             url: "https://www.facebook.com/chuhoidick/posts/2385849888147588"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

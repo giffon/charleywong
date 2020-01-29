@@ -28,5 +28,6 @@ class Mcadamlo implements Entity {
             url: "https://www.facebook.com/mcadamlo/photos/a.269981260187831/438407350011887/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

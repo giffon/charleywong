@@ -23,5 +23,6 @@ class Gatomakeup implements Entity {
             url: "https://www.facebook.com/gatomakeupb2b/photos/a.589865144382118/2525584410810172/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

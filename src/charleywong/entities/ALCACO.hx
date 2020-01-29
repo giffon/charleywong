@@ -26,5 +26,6 @@ class ALCACO implements Entity {
             url: "https://www.facebook.com/ALCAdress/photos/a.436903629832294/1233480706841245/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

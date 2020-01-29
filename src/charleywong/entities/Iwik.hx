@@ -26,5 +26,6 @@ class Iwik implements Entity {
             url: "https://www.facebook.com/iwikart/photos/a.1747731328812569/2386106254975070/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

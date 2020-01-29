@@ -26,5 +26,6 @@ class MCSamsonLau implements Entity {
             url: "https://www.facebook.com/MCSamsonLau/photos/a.671546846209556/2782885515075668/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -29,5 +29,6 @@ class CommonGround implements Entity {
             url: "https://www.facebook.com/Commongroundhk/photos/a.175123919304338/1318447798305272/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

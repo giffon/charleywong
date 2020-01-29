@@ -26,5 +26,6 @@ class Alphaomegahk implements Entity {
             url: "https://www.facebook.com/alphaomegahk/posts/3153955344621667"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

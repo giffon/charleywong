@@ -25,5 +25,6 @@ class RubyDesignTribeStudioltd implements Entity {
             url: "https://www.facebook.com/RUBYDESIGNTRIBE/posts/3377384752286484"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

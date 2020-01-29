@@ -33,5 +33,6 @@ class Bagguys implements Entity {
             url: "https://www.facebook.com/bagguys/photos/a.835367909909579/2503193706460316/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

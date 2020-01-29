@@ -29,5 +29,6 @@ class Bagelbaggo implements Entity {
             url: "https://www.facebook.com/bagel.baggo/posts/1155278368013468"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

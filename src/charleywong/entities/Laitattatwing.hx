@@ -22,5 +22,6 @@ class Laitattatwing implements Entity {
             url: "https://www.facebook.com/Laitattatwing/posts/10156185547836922"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

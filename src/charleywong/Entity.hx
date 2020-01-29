@@ -19,4 +19,5 @@ interface Entity {
     public final name:MultiLangString;
     public final webpages:Array<WebPage>;
     public final posts:Array<Post>;
+    public final tags:Array<Tag>;
 }

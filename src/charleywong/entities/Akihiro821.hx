@@ -34,5 +34,6 @@ class Akihiro821 implements Entity {
             url: "https://www.facebook.com/akihiro821/photos/a.1468691900053756/2369581776631426/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

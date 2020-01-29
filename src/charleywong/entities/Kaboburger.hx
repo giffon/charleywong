@@ -36,5 +36,6 @@ class Kaboburger implements Entity {
             url: "https://www.facebook.com/kabo.burger/videos/453443188841254/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

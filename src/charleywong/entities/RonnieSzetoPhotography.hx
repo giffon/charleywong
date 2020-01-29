@@ -27,5 +27,6 @@ class RonnieSzetoPhotography implements Entity {
             url: "https://www.facebook.com/ronnieszetophotography/posts/2526007440840297"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

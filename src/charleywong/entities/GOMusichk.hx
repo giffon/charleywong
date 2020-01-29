@@ -29,5 +29,6 @@ class GOMusichk implements Entity {
             url: "https://www.facebook.com/GOMusichk/photos/a.1806181359618937/2529026587334407/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

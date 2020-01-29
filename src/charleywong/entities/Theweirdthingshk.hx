@@ -24,5 +24,6 @@ class Theweirdthingshk implements Entity {
             url: "https://www.facebook.com/the.weird.things.hk/posts/701473327044110"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

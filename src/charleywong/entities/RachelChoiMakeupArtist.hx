@@ -33,5 +33,6 @@ class RachelChoiMakeupArtist implements Entity {
             url: "https://www.facebook.com/rachelchoimakeup/photos/a.719611811404880/2928703020495737/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

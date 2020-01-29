@@ -27,5 +27,6 @@ class COPAK implements Entity {
             url: "https://www.facebook.com/hkcopak/photos/a.189637381785316/510439579705093/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -26,5 +26,6 @@ class Sparksine implements Entity {
             url: "https://www.facebook.com/sparksine/photos/a.178861036151503/361868894517382/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

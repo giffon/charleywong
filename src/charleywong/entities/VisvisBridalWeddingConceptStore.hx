@@ -34,5 +34,6 @@ class VisvisBridalWeddingConceptStore implements Entity {
             url: "https://www.facebook.com/visavisbridal/photos/a.414620071896651/3253940624631234/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

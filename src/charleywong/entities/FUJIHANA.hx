@@ -22,5 +22,6 @@ class FUJIHANA implements Entity {
             url: "https://www.facebook.com/hkfujihana/posts/1038558916348981"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

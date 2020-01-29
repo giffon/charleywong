@@ -32,5 +32,6 @@ class Studio723 implements Entity {
             url: "https://www.facebook.com/723studio/photos/a.711707022518942/983434345346207/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

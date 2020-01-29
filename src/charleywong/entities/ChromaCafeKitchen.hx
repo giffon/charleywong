@@ -27,5 +27,6 @@ class ChromaCafeKitchen implements Entity {
             url: "https://www.facebook.com/chromacafekitchen/posts/850751055300914"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -34,5 +34,6 @@ class Wabisabicoffee implements Entity {
             url: "https://www.facebook.com/wabisabicoffee/photos/a.898992803502825/2397482256987198/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

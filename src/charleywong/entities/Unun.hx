@@ -36,5 +36,6 @@ class Unun implements Entity {
             url: "https://www.facebook.com/ununliving/posts/1373156299489057"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

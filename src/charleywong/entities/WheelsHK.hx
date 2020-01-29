@@ -30,5 +30,6 @@ class WheelsHK implements Entity {
             url: "https://www.facebook.com/wheelsHK/posts/566771103850046"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -28,5 +28,6 @@ class Momentfloralstyling implements Entity {
             url: "https://www.facebook.com/momentfloralstyling/posts/3037079233184872"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

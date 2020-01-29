@@ -27,5 +27,6 @@ class WaTryCoffee implements Entity {
             url: "https://www.facebook.com/WATRYCOFFEE/photos/a.486876408451811/817093192096796/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

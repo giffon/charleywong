@@ -33,5 +33,6 @@ class Amateurcraftsman implements Entity {
             url: "https://www.facebook.com/amateurcraftsman/posts/1666681903466745"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

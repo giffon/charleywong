@@ -32,5 +32,6 @@ class CadenzaStudio implements Entity {
             url: "https://www.facebook.com/CadenzaStudio/posts/3532802360124778"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

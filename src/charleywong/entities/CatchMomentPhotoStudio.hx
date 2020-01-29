@@ -31,5 +31,6 @@ class CatchMomentPhotoStudio implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=1146754162197744&id=853038068236023"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

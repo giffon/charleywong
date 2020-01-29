@@ -32,5 +32,6 @@ class FingersWork implements Entity {
             url: "https://www.facebook.com/fingers.work/posts/2560273647526797"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

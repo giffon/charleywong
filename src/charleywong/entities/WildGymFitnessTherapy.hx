@@ -37,5 +37,6 @@ class WildGymFitnessTherapy implements Entity {
             url: "https://www.facebook.com/wildgymhk/photos/a.1776230719160681/2171530186297397/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

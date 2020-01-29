@@ -25,5 +25,6 @@ class Archuoic implements Entity {
             url: "https://www.facebook.com/archuoic/posts/346318189287663"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

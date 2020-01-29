@@ -30,5 +30,6 @@ class LugarciaMakeupAcademy implements Entity {
             url: "https://www.facebook.com/lugarciamua/posts/2366354726962886"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

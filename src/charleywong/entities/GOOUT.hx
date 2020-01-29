@@ -23,5 +23,6 @@ class GOOUT implements Entity {
             url: "https://www.facebook.com/hkgoout/photos/a.391209893086/10156587745303087/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

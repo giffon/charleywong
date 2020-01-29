@@ -33,5 +33,6 @@ class Hungrydinohk implements Entity {
             url: "https://www.facebook.com/hungrydino.hk/photos/a.303184580611707/418333545763476/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

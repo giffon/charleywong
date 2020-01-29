@@ -38,5 +38,6 @@ class TerryLoWeddingPhotography implements Entity {
             url: "https://www.facebook.com/terrylowedding/posts/2429442007117178"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -31,5 +31,6 @@ class LostEscape implements Entity {
             url: "https://www.facebook.com/LostEscape/posts/2504902766274034"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -27,5 +27,6 @@ class OceanWeddingService implements Entity {
             url: "https://www.facebook.com/oceanweddingservice/posts/2591738760915019"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

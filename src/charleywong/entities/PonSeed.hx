@@ -27,5 +27,6 @@ class PonSeed implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=956351934739823&id=513646749010346"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -23,5 +23,6 @@ class Topaccessories implements Entity {
             url: "https://www.facebook.com/Top.accessories.perfume/posts/2421327894772884"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

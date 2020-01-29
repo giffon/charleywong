@@ -29,5 +29,6 @@ class Studio2by2 implements Entity {
             url: "https://www.facebook.com/studio2by2/photos/a.1170009269715240/2441999552516199/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

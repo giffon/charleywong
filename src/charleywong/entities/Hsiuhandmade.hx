@@ -25,5 +25,6 @@ class Hsiuhandmade implements Entity {
             url: "https://www.facebook.com/hsiuhandmade/posts/2722784267752984"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

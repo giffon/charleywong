@@ -28,5 +28,6 @@ class LnSlabour implements Entity {
             url: "https://www.facebook.com/LnSlabour/posts/134136321377188"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

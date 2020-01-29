@@ -27,5 +27,6 @@ class Tomatoexpress implements Entity {
             url: "https://www.facebook.com/tomatoexpress/posts/2392995831029752"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

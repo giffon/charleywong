@@ -30,5 +30,6 @@ class Ericvirfoto implements Entity {
             url: "https://www.facebook.com/ericvirfoto/posts/2327419790833553"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

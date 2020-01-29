@@ -33,5 +33,6 @@ class MrMrsCatCafeRestaurant implements Entity {
             url: "https://www.facebook.com/mnmcatcafe/photos/a.814320512011279/2398919066884741/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

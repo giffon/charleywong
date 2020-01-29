@@ -23,5 +23,6 @@ class MayMade implements Entity {
             url: "https://www.facebook.com/maymadecraft/posts/2309089095884690"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -27,5 +27,6 @@ class Addoilteam implements Entity {
             url: "https://www.facebook.com/addoilteam/photos/a.286939448179329/1054783444728255/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

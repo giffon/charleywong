@@ -30,5 +30,6 @@ class HikeFive implements Entity {
             url: "https://www.facebook.com/hikefive.hk/photos/a.1788122741418849/2410438199187297/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

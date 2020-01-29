@@ -23,5 +23,6 @@ class Kumamonjourney implements Entity {
             url: "https://www.facebook.com/kumamonjourney/posts/2993845400645325"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

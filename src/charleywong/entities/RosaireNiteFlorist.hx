@@ -38,5 +38,6 @@ class RosaireNiteFlorist implements Entity {
             url: "https://www.facebook.com/RosaireNite/photos/a.696518853843058/1256652347829703/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

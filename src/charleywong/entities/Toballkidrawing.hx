@@ -28,5 +28,6 @@ class Toballkidrawing implements Entity {
             url: "https://www.facebook.com/toballkidrawing/photos/a.218793345667026/392498034963222/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

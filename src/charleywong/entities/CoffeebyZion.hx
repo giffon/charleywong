@@ -27,5 +27,6 @@ class CoffeebyZion implements Entity {
             url: "https://www.facebook.com/coffeebyzion/photos/a.1036184569841038/2060002750792543/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -21,5 +21,6 @@ class Logicwesthk implements Entity {
             url: "https://www.facebook.com/logicwesthk/posts/140782200664122"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -36,5 +36,6 @@ class JOMOCoffeeCakes implements Entity {
             url: "https://www.facebook.com/JOMOCNC/photos/a.310753833086903/524231418405809/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -28,5 +28,6 @@ class WildlifeNotesHK implements Entity {
             url: "https://www.facebook.com/WildlifeNotesHK/posts/1196769933857667"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

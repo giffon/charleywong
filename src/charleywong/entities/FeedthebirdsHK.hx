@@ -39,5 +39,6 @@ class FeedthebirdsHK implements Entity {
             url: "https://www.facebook.com/feedthebirdsHK/photos/a.429008637682303/505426966707136/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

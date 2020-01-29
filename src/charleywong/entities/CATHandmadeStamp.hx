@@ -26,5 +26,6 @@ class CATHandmadeStamp implements Entity {
             url: "https://www.facebook.com/cathandmadestamp/photos/a.610472449070750/2537650149686294/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

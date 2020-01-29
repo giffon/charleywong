@@ -29,5 +29,6 @@ class Dreamcatcherhk implements Entity {
             url: "https://www.facebook.com/102658761184446/photos/a.118428652940790/138980080885647/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

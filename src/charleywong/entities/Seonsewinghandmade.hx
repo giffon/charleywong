@@ -35,5 +35,6 @@ class Seonsewinghandmade implements Entity {
             url: "https://www.facebook.com/Seonsewinghandmade/posts/2502384703419160"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

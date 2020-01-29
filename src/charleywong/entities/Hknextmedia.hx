@@ -32,5 +32,6 @@ class Hknextmedia implements Entity {
             url: "https://www.facebook.com/hk.nextmedia/videos/464462177786723/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -31,5 +31,6 @@ class MisstoMrsGreen implements Entity {
             url: "https://www.facebook.com/misstomrsgreen/posts/407219886849968"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

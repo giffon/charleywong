@@ -29,5 +29,6 @@ class Misshedgehog1618 implements Entity {
             url: "https://www.facebook.com/miss.hedgehog1.618/posts/702581726865492"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

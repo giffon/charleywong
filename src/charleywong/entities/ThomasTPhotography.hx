@@ -28,5 +28,6 @@ class ThomasTPhotography implements Entity {
             url: "https://www.facebook.com/thomastsePhotography/posts/2222450184522544"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

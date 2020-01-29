@@ -36,5 +36,6 @@ class Locobikehk implements Entity {
             url: "https://www.facebook.com/locobikehk/posts/812626112486084"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

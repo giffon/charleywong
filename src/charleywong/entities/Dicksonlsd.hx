@@ -28,5 +28,6 @@ class Dicksonlsd implements Entity {
             url: "https://www.facebook.com/dickson.lsd/posts/1166531850215202"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

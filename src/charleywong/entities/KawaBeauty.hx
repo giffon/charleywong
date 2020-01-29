@@ -24,5 +24,6 @@ class KawaBeauty implements Entity {
             url: "https://www.facebook.com/kawabeauty/posts/2536005473311378"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

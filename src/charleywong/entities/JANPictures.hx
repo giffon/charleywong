@@ -32,5 +32,6 @@ class JANPictures implements Entity {
             url: "https://www.facebook.com/janpictureshk/photos/a.150550402440873/548306382665271/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

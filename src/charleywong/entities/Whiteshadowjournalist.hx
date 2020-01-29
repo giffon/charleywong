@@ -31,5 +31,6 @@ class Whiteshadowjournalist implements Entity {
             url: "https://www.facebook.com/whiteshadow.journalist/posts/2487890387932941"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

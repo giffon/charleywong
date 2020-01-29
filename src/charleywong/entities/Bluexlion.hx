@@ -26,5 +26,6 @@ class Bluexlion implements Entity {
             url: "https://www.facebook.com/bluexlion/posts/827445114339417"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

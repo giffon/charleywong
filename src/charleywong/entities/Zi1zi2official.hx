@@ -27,5 +27,6 @@ class Zi1zi2official implements Entity {
             url: "https://www.facebook.com/zi1zi2.official/photos/a.2653070144704687/2873021316042901/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

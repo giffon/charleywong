@@ -24,5 +24,6 @@ class Mcrosalieshiupl implements Entity {
             url: "https://www.facebook.com/mcrosalieshiupl/photos/a.960303957453809/1375356305948570/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

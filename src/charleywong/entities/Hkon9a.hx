@@ -26,5 +26,6 @@ class Hkon9a implements Entity {
             url: "https://www.facebook.com/hkon9a/posts/2509159655992103"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -25,5 +25,6 @@ class Nomeatnoballofficial implements Entity {
             url: "https://www.facebook.com/nomeatnoballofficial/posts/159761558742522"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

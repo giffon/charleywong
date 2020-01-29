@@ -31,5 +31,6 @@ class DeChanceBridal implements Entity {
             url: "https://www.facebook.com/dechancebridal/photos/a.680306365386256/2530371083713099/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

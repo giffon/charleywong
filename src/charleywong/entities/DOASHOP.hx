@@ -25,5 +25,6 @@ class DOASHOP implements Entity {
             url: "https://www.facebook.com/doa1119/posts/945322789156702"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -32,5 +32,6 @@ class MusicSunny implements Entity {
             url: "https://www.facebook.com/Music.Sunny/posts/10157589350529855"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

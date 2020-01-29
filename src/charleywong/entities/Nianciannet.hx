@@ -24,5 +24,6 @@ class Nianciannet implements Entity {
             url: "https://www.facebook.com/niancian.net/photos/a.1400912990023655/2313982732050005/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -33,5 +33,6 @@ class Queengoddesshk implements Entity {
             url: "https://www.facebook.com/queengoddesshk/photos/a.1365787223433487/2590757887603075/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

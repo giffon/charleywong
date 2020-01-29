@@ -22,5 +22,6 @@ class ConnieGarden implements Entity {
             url: "https://www.facebook.com/conniewahahagarden/photos/a.1731992766864620/2705142066216347/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

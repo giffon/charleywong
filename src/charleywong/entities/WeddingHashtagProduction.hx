@@ -31,5 +31,6 @@ class WeddingHashtagProduction implements Entity {
             url: "https://www.facebook.com/wedding.hashtag/photos/a.357507221382129/709300739536107/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -26,5 +26,6 @@ class Annlaimakeup implements Entity {
             url: "https://www.facebook.com/annlaimakeup/posts/2645878038807249"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

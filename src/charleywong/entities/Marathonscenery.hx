@@ -32,5 +32,6 @@ class Marathonscenery implements Entity {
             url: "https://www.facebook.com/marathonscenery/posts/1050042911864817"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

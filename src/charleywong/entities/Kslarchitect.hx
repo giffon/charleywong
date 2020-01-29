@@ -27,5 +27,6 @@ class Kslarchitect implements Entity {
             url: "https://www.facebook.com/kslarchitect/photos/a.113064253387254/175345113825834/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

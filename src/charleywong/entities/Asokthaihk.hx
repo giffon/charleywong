@@ -33,5 +33,6 @@ class Asokthaihk implements Entity {
             url: "https://www.facebook.com/asokthaihk/photos/a.893202064390548/1018675125176574/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

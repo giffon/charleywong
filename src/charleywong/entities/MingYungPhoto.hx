@@ -28,5 +28,6 @@ class MingYungPhoto implements Entity {
             url: "https://www.facebook.com/MingYungPhoto.hk/photos/a.575691919154872/2648444625212914/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

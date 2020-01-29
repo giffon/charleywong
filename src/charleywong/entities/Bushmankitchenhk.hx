@@ -29,5 +29,6 @@ class Bushmankitchenhk implements Entity {
             url: "https://www.facebook.com/BushmanKitchenHK/videos/628857814516368/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

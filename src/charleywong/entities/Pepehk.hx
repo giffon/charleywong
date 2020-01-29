@@ -30,5 +30,6 @@ class Pepehk implements Entity {
             url: "https://www.facebook.com/pepelovehk/posts/183367789722574"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -26,5 +26,6 @@ class Minoecanvas implements Entity {
             url: "https://www.facebook.com/minoe.canvas/photos/a.705548906176179/2514943161903402/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

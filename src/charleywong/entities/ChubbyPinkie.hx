@@ -24,5 +24,6 @@ class ChubbyPinkie implements Entity {
             url: "https://www.facebook.com/ChubbyPinkie/posts/2559923047448151"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

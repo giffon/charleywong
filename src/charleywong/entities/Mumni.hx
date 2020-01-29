@@ -25,5 +25,6 @@ class Mumni implements Entity {
             url: "https://www.facebook.com/mumni/photos/a.552903458155596/2163948663717726/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

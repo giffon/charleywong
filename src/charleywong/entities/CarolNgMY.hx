@@ -27,5 +27,6 @@ class CarolNgMY implements Entity {
             url: "https://www.facebook.com/CarolNgMY/photos/a.111774972912651/494375717985906/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

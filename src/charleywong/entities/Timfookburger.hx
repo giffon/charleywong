@@ -32,5 +32,6 @@ class Timfookburger implements Entity {
             url: "https://www.facebook.com/timfookburger/posts/2687765504603431"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

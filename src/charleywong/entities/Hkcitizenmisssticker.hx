@@ -24,5 +24,6 @@ class Hkcitizenmisssticker implements Entity {
             url: "https://www.facebook.com/hkcitizenmisssticker/posts/162211568477367"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

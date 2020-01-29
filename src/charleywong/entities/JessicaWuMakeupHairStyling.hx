@@ -28,5 +28,6 @@ class JessicaWuMakeupHairStyling implements Entity {
             url: "https://www.facebook.com/jessicawu.makeup/photos/a.451724648345920/1353403178178058/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

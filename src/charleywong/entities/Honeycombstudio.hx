@@ -28,5 +28,6 @@ class Honeycombstudio implements Entity {
             url: "https://www.facebook.com/Honeycombstudiohk/photos/a.629621193727281/2651388061550574/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

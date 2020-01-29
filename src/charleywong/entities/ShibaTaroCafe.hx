@@ -29,5 +29,6 @@ class ShibaTaroCafe implements Entity {
             url: "https://www.facebook.com/ShibaTaroCafe/photos/a.1964983090448108/2471670733112672/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -29,5 +29,6 @@ class Sassquen implements Entity {
             url: "https://www.facebook.com/sassofff/photos/a.580010418867515/1309542872580929/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

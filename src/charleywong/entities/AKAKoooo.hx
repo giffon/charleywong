@@ -27,5 +27,6 @@ class AKAKoooo implements Entity {
             url: "https://www.facebook.com/AKAKoooo/posts/2412876162315683"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

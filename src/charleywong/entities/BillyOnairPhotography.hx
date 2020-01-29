@@ -26,5 +26,6 @@ class BillyOnairPhotography implements Entity {
             url: "https://www.facebook.com/BillyOnairPhotography/photos/a.194717777225690/2850286251668816/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

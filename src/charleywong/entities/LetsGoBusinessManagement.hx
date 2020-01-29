@@ -27,5 +27,6 @@ class LetsGoBusinessManagement implements Entity {
             url: "https://www.facebook.com/LetsGoBusinessManagement/posts/2220841034638166"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -32,5 +32,6 @@ class MeowMeowMag implements Entity {
             url: "https://www.facebook.com/MeowMeowMag/photos/a.677432865644782/2489364334451617/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

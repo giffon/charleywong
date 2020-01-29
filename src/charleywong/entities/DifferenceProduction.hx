@@ -29,5 +29,6 @@ class DifferenceProduction implements Entity {
             url: "https://www.facebook.com/differenceHK/photos/a.526730207408841/2567819479966560/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

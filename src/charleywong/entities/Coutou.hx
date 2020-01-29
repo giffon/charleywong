@@ -29,5 +29,6 @@ class Coutou implements Entity {
             url: "https://www.facebook.com/coutou/photos/a.1541364332549411/2786398458045986/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

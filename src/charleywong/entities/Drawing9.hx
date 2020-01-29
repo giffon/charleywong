@@ -24,5 +24,6 @@ class Drawing9 implements Entity {
             url: "https://www.facebook.com/976134569242583/photos/a.1019447254911314/1309852369204133/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

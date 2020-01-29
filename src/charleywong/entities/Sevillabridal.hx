@@ -34,5 +34,6 @@ class Sevillabridal implements Entity {
             url: "https://www.facebook.com/sevillabridal/posts/2497856210263682"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

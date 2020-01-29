@@ -27,5 +27,6 @@ class FMWedding implements Entity {
             url: "https://www.facebook.com/fmweddinghk/photos/a.230054233848757/1277251222462381/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

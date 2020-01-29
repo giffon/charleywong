@@ -27,5 +27,6 @@ class Makeupjengalee implements Entity {
             url: "https://www.facebook.com/jengaleemakeup/posts/3111259495555899"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

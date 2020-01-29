@@ -25,5 +25,6 @@ class MadebyChichiL implements Entity {
             url: "https://www.facebook.com/Chi.Lhandmade/posts/2358714747711303"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

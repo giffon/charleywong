@@ -22,5 +22,6 @@ class AsKitchen implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=2602456776505401&id=1294826843935074"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

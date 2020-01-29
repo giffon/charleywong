@@ -23,5 +23,6 @@ class Lazyinprogress implements Entity {
             url: "https://www.facebook.com/lazyinprogress/photos/a.1094439390578252/2458931690795675/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

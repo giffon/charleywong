@@ -41,5 +41,6 @@ class FarollLTD implements Entity {
             url: "https://www.facebook.com/FarollLTD/posts/898917030479520"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

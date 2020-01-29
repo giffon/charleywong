@@ -29,5 +29,6 @@ class IHAVEAPENSTUDIO implements Entity {
             url: "https://www.facebook.com/IHAVEAPENSTUDIO/posts/1373701776135662"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

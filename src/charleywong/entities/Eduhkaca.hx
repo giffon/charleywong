@@ -23,5 +23,6 @@ class Eduhkaca implements Entity {
             url: "https://www.facebook.com/eduhkaca/photos/a.287522008062465/1361527263995262/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

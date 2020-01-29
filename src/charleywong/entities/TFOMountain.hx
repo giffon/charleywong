@@ -37,5 +37,6 @@ class TFOMountain implements Entity {
             url: "https://www.facebook.com/TFOMountain/posts/2492479517648222"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

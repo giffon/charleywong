@@ -38,5 +38,6 @@ class Catseyeworkshop implements Entity {
             url: "https://www.facebook.com/catseyeworkshop/photos/a.1600880886853706/2242920809316374/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

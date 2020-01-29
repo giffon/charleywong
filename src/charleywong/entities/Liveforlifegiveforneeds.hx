@@ -23,5 +23,6 @@ class Liveforlifegiveforneeds implements Entity {
             url: "https://www.facebook.com/liveforlife.giveforneeds/posts/1223367511194665"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

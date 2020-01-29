@@ -24,5 +24,6 @@ class SimplyTezukuri implements Entity {
             url: "https://www.facebook.com/simplytezukuri/photos/a.223120054557955/1119686198234665/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

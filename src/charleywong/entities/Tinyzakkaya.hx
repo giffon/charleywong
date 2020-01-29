@@ -34,5 +34,6 @@ class Tinyzakkaya implements Entity {
             url: "https://www.facebook.com/tinyzakkaya1/posts/560953131358334"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

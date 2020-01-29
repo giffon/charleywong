@@ -28,5 +28,6 @@ class Issyoukenmen implements Entity {
             url: "https://www.facebook.com/issyoukenmen/posts/1268311310026120"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

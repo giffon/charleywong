@@ -21,5 +21,6 @@ class Tommyekids implements Entity {
             url: "https://www.facebook.com/Tommyekids/posts/2705085489552068"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -28,5 +28,6 @@ class Meatusomuchk implements Entity {
             url: "https://www.facebook.com/meatusomuchk/photos/a.258970241627277/558018308389134/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -29,5 +29,6 @@ class Fongwaaparlour implements Entity {
             url: "https://www.facebook.com/fongwaaparlour/photos/a.227047624743049/473064246808051/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -25,5 +25,6 @@ class Chingtunglily implements Entity {
             url: "https://www.facebook.com/chingtunglily/photos/a.1078711092223303/2702408476520215/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

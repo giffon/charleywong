@@ -29,5 +29,6 @@ class Sunkeerestaurant implements Entity {
             url: "https://www.facebook.com/sunkeerestaurant/photos/a.724147820948145/3155678877795015/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

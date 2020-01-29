@@ -27,5 +27,6 @@ class Flowerloverbee implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=1004002976602854&id=553433344993155"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

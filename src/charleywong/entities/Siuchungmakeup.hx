@@ -25,5 +25,6 @@ class Siuchungmakeup implements Entity {
             url: "https://www.facebook.com/siuchungmakeup/photos/a.489963251028749/3390210054337373/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

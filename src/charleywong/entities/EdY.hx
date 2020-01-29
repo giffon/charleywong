@@ -22,5 +22,6 @@ class EdY implements Entity {
             url: "https://www.facebook.com/edyipth/posts/2405453826373199"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -33,5 +33,6 @@ class Inkolize implements Entity {
             url: "https://www.facebook.com/inkolize/posts/911373969201746"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

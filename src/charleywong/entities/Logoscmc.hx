@@ -32,5 +32,6 @@ class Logoscmc implements Entity {
             url: "https://www.facebook.com/logos.cmc/photos/a.886759858179534/1260756984113151/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

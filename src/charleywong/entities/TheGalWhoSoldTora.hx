@@ -28,5 +28,6 @@ class TheGalWhoSoldTora implements Entity {
             url: "https://www.facebook.com/sold.tora/posts/10156402209243639"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

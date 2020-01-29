@@ -27,5 +27,6 @@ class MansunPhotography implements Entity {
             url: "https://www.facebook.com/MansunPhotography/posts/2455431497898735"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

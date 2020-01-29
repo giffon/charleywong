@@ -34,5 +34,6 @@ class Playhardcompany implements Entity {
             url: "https://www.facebook.com/playhardcompany/photos/a.1514936595403768/2485467785017306/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

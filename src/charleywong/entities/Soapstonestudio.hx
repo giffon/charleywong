@@ -30,5 +30,6 @@ class Soapstonestudio implements Entity {
             url: "https://www.facebook.com/soapstonestudio/photos/a.343964715803133/1173691169497146/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

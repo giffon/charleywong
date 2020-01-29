@@ -229,37 +229,6 @@ class Importer {
                     case { expr: EObjectDecl(fs) }: fs.iter(f -> fields.push(f));
                     case e: throw '$e is not EObjectDecl.';
                 }
-            } else {
-                if (fbRegexp.match(p.url)) {
-                    var importer = new FacebookImporter();
-                    var fbPage = importer.fbPageInfo(fbRegexp.matched(1));
-                    importer.destroy();
-                    var metaExprs = [];
-                    if (fbPage.about != null) {
-                        metaExprs.push(macro "about" => ${valueToExpr(fbPage.about)});
-                    }
-                    metaExprs.push(macro "categories" => ${valueToExpr(fbPage.categories)});
-                    if (fbPage.addr != null) {
-                        metaExprs.push(macro "addr" => ${valueToExpr(fbPage.addr.line)});
-                        metaExprs.push(macro "area" => ${valueToExpr(fbPage.addr.area)});
-                    }
-                    if (fbPage.email != null) {
-                        metaExprs.push(macro "email" => ${valueToExpr(fbPage.email)});
-                    }
-                    if (fbPage.tel != null) {
-                        metaExprs.push(macro "tel" => ${valueToExpr(fbPage.tel)});
-                    }
-                    var metaExpr = macro [$a{metaExprs}];
-                    switch (macro { meta: $metaExpr }) {
-                        case { expr: EObjectDecl(fs) }: fs.iter(f -> fields.push(f));
-                        case e: throw '$e is not EObjectDecl.';
-                    }
-                    if (fbPage.ig != null && !entity.webpages.exists(p -> p.url == 'https://www.instagram.com/${fbPage.ig}/')) {
-                        webpagesExprs.push(macro {
-                            url: ${valueToExpr('https://www.instagram.com/${fbPage.ig}/')},
-                        });
-                    }
-                }
             }
         }
         var posts = post == null || entity.posts.exists(p -> p.url == post) ? entity.posts : entity.posts.concat([{ url: post }]);
@@ -273,11 +242,19 @@ class Importer {
                 macro { url: $urlExpr };
             }
         ];
+        var tagsExprs = [
+            for (t in entity.tags)
+            {
+                var tName = [for (k => v in tags) if (v == t) k][0];
+                macro $i{tName};
+            }
+        ];
         var cls = macro class $className implements Entity {
             public final id = ${idExpr};
             public final name = $a{nameExprs};
             public final webpages:Array<WebPage> = $a{webpagesExprs};
             public final posts:Array<Post> = $a{postsExprs};
+            public final tags:Array<Tag> = $a{tagsExprs};
         };
         cls.pack = fullName.slice(0, fullName.length - 1);
         return cls;
@@ -382,6 +359,7 @@ class Importer {
             public final name = ${nameExpr};
             public final webpages:Array<WebPage> = [$a{webpagesExprs}];
             public final posts:Array<Post> = $postsExpr;
+            public final tags:Array<Tag> = [];
         };
         cls.pack = ["charleywong", "entities"];
 

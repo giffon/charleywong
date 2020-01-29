@@ -27,5 +27,6 @@ class MOZImages implements Entity {
             url: "https://www.facebook.com/MOZimages/photos/a.130726233762285/1433321040169458/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

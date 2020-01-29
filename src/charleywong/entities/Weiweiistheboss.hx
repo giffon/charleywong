@@ -25,5 +25,6 @@ class Weiweiistheboss implements Entity {
             url: "https://www.facebook.com/weiweiistheboss/photos/a.882655201929744/1178439339017994/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

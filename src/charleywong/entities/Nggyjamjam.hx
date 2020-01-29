@@ -29,5 +29,6 @@ class Nggyjamjam implements Entity {
             url: "https://www.facebook.com/nggyjamjam/photos/a.1486286075007639/2157748877861352/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

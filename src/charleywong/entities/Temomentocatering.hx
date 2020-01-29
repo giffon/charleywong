@@ -31,5 +31,6 @@ class Temomentocatering implements Entity {
             url: "https://www.facebook.com/temomentocatering/photos/a.632635923575535/1298064703699317/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

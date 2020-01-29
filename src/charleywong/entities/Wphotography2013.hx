@@ -30,5 +30,6 @@ class Wphotography2013 implements Entity {
             url: "https://www.facebook.com/wphotography2013/photos/a.781926925151109/3387295537947555/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

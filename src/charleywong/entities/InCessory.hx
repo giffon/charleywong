@@ -24,5 +24,6 @@ class InCessory implements Entity {
             url: "https://www.facebook.com/incessoryhk/posts/2408878812723916"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

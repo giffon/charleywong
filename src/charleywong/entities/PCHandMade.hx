@@ -25,5 +25,6 @@ class PCHandMade implements Entity {
             url: "https://www.facebook.com/934399883337585/photos/a.935742496536657/2253435944767299/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

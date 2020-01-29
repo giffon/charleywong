@@ -29,5 +29,6 @@ class MEANProduction implements Entity {
             url: "https://www.facebook.com/MeanProductionMP/photos/a.615124768681097/1192964900897078/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

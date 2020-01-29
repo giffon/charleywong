@@ -34,5 +34,6 @@ class Littleideacakeshop implements Entity {
             url: "https://www.facebook.com/littleideacakeshop/photos/a.960554510745574/1662729017194783/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

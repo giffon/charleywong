@@ -26,5 +26,6 @@ class HahayhayHK implements Entity {
             url: "https://www.facebook.com/hahayhayHK/photos/a.251868548821588/421003995241375/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

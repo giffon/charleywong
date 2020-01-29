@@ -29,5 +29,6 @@ class SmilingCone implements Entity {
             url: "https://www.facebook.com/smilingcone/photos/a.170289739816328/1351360711709219/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -30,5 +30,6 @@ class Suburban implements Entity {
             url: "https://www.facebook.com/suburbanhk/photos/a.533113023497750/1662506057225102/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

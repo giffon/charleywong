@@ -30,5 +30,6 @@ class Photobyfaidias implements Entity {
             url: "https://www.facebook.com/photobyfaidias/posts/4020991471259851"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

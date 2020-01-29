@@ -22,5 +22,6 @@ class MaruMaru implements Entity {
             url: "https://www.facebook.com/MaruMaru.hk/photos/a.507683215968915/3221031111300765"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -29,5 +29,6 @@ class VVmakeupflorist implements Entity {
             url: "https://www.facebook.com/cestlavmakeup/posts/2566185213469550"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

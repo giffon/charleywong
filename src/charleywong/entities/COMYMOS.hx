@@ -33,5 +33,6 @@ class COMYMOS implements Entity {
             url: "https://www.facebook.com/COMYMOS/posts/1569512933184021"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

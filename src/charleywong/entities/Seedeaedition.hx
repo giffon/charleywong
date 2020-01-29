@@ -33,5 +33,6 @@ class Seedeaedition implements Entity {
             url: "https://www.facebook.com/seedeaedition/posts/2472836999604669"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

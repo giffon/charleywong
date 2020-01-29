@@ -27,5 +27,6 @@ class PurpleDragonSnack implements Entity {
             url: "https://www.facebook.com/PurpleDragonSnack/photos/a.466708583814765/716320318853589/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

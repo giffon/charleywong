@@ -29,5 +29,6 @@ class Nomadnomad implements Entity {
             url: "https://www.facebook.com/nomadnomadnomadnomad/posts/1090999001070660"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

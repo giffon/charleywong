@@ -29,5 +29,6 @@ class Shizukohandmade implements Entity {
             url: "https://www.facebook.com/shizukohandmade/photos/a.496699804013339/1055806648102649/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

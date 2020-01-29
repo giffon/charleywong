@@ -26,5 +26,6 @@ class CatSociety implements Entity {
             url: "https://www.facebook.com/CatSociety/photos/a.79706852553/10156287683657554/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -26,5 +26,6 @@ class LemongrassWeddingFloralAccessories implements Entity {
             url: "https://www.facebook.com/LemongrassWedding/posts/3247588225282195"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

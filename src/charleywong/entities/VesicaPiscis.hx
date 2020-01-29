@@ -27,5 +27,6 @@ class VesicaPiscis implements Entity {
             url: "https://www.facebook.com/Vesicapiscis.lab/photos/a.331678774030891/681453145720117"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

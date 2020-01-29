@@ -27,5 +27,6 @@ class VERCPhotography implements Entity {
             url: "https://www.facebook.com/vercphotography/photos/a.986406054881567/1295591997296303/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

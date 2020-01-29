@@ -35,5 +35,6 @@ class HOCC implements Entity {
             url: "https://www.facebook.com/HOCCHOCC/posts/10162152918460230"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

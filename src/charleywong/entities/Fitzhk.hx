@@ -24,5 +24,6 @@ class Fitzhk implements Entity {
             url: "https://www.facebook.com/fitz.hk/posts/2318698411540623"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

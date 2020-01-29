@@ -30,5 +30,6 @@ class Mmdmamaday implements Entity {
             url: "https://www.facebook.com/mmd.mamaday/photos/a.1927933927482038/2498104850464940/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

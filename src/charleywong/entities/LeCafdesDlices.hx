@@ -34,5 +34,6 @@ class LeCafdesDlices implements Entity {
             url: "https://www.facebook.com/yuenlong.Le.Cafe.des.Delices/photos/a.593608254083364/2396377317139773/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

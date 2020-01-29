@@ -25,5 +25,6 @@ class Hottestloveshop implements Entity {
             url: "https://www.facebook.com/hottestloveshop/photos/a.2724438334266445/2724437457599866/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

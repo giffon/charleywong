@@ -33,5 +33,6 @@ class ChillChewofficial implements Entity {
             url: "https://www.facebook.com/ChillChewofficial/photos/a.185976368727567/445181912807010/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

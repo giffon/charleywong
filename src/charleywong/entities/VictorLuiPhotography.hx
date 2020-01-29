@@ -27,5 +27,6 @@ class VictorLuiPhotography implements Entity {
             url: "https://www.facebook.com/VictorLuiPhotography/photos/a.510857822299484/2853574991361077/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

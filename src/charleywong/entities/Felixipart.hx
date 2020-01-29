@@ -35,5 +35,6 @@ class Felixipart implements Entity {
             url: "https://www.facebook.com/felixipart/photos/a.544526409018833/1426579320813533/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -28,5 +28,6 @@ class FAIRCIRCLE implements Entity {
             url: "https://www.facebook.com/FAIRCIRCLE/posts/10157811337616182"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

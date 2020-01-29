@@ -37,5 +37,6 @@ class Milktealogy implements Entity {
             url: "https://www.facebook.com/milktealogy/photos/a.286601201497469/1331545517003027/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

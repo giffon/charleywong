@@ -35,5 +35,6 @@ class Gloscafefooody implements Entity {
             url: "https://www.facebook.com/gloscafe.fooody/posts/2501353983415021"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

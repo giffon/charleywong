@@ -28,5 +28,6 @@ class Softboileggstudio implements Entity {
             url: "https://www.facebook.com/softboileggstudio/photos/a.1061039280652201/2413401595415956/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

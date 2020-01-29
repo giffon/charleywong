@@ -26,5 +26,6 @@ class TArt implements Entity {
             url: "https://www.facebook.com/tartwedding/photos/a.187117654690395/2568159046586232/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

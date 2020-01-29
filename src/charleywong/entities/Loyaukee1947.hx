@@ -28,5 +28,6 @@ class Loyaukee1947 implements Entity {
             url: "https://www.facebook.com/loyaukee1947/photos/a.1059540900893529/1348386552008961/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

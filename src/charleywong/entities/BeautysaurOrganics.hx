@@ -34,5 +34,6 @@ class BeautysaurOrganics implements Entity {
             url: "https://www.facebook.com/Beautysaur.organics/photos/a.1265010603580125/2600828986664940"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -25,5 +25,6 @@ class CabinCrewAfterwork implements Entity {
             url: "https://www.facebook.com/cabincrewafterwork/posts/2130857453876087"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

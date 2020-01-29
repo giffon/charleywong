@@ -28,5 +28,6 @@ class FreezeLifestyle implements Entity {
             url: "https://www.facebook.com/freezelifestyle/posts/2493812427565613"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

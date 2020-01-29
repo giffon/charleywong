@@ -27,5 +27,6 @@ class Discoverrealhongkong implements Entity {
             url: "https://www.facebook.com/discoverrealhongkong/posts/150881772953823"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

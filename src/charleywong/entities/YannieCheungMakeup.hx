@@ -30,5 +30,6 @@ class YannieCheungMakeup implements Entity {
             url: "https://www.facebook.com/yanniemakeup/posts/2507595976192633"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

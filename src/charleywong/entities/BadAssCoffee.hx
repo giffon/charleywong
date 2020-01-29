@@ -26,5 +26,6 @@ class BadAssCoffee implements Entity {
             url: "https://www.facebook.com/BadAssCoffeeHK/posts/848483828902613"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -28,5 +28,6 @@ class NUTTEAHKSANPOKONG implements Entity {
             url: "https://www.facebook.com/NUTTEAHKSANPOKONG/photos/a.831247270600095/944267115964776/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

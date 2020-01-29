@@ -27,5 +27,6 @@ class HAEmployAlliance implements Entity {
             url: "https://www.facebook.com/HA.EmployAlliance/photos/a.115718553232619/134698184667989/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -26,5 +26,6 @@ class PresentPresent implements Entity {
             url: "https://www.facebook.com/ispresentpresent/photos/a.328214337242266/2335560996507580/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

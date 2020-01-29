@@ -29,5 +29,6 @@ class Hkbigdaycom implements Entity {
             url: "https://www.facebook.com/hkbigday/photos/a.10150183110819109/10156747266029109/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

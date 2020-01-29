@@ -27,5 +27,6 @@ class DaffieLoMakeup implements Entity {
             url: "https://www.facebook.com/DaffieLoMakeup/photos/a.153257881510080/1396482113854311/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

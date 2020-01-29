@@ -33,5 +33,6 @@ class InfiniteHairStudio implements Entity {
             url: "https://www.facebook.com/infinite.hk/photos/a.122451752499207/136621127748936/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -30,5 +30,6 @@ class Matyuen implements Entity {
             url: "https://www.facebook.com/mat.hairstylist/posts/1960296487435645"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

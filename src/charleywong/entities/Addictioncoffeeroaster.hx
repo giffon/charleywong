@@ -28,5 +28,6 @@ class Addictioncoffeeroaster implements Entity {
             url: "https://www.facebook.com/addictioncoffeeroaster/posts/2314228502016284"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

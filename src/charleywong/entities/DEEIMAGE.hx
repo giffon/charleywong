@@ -28,5 +28,6 @@ class DEEIMAGE implements Entity {
             url: "https://www.facebook.com/DeeImagePhotography/photos/a.629967183680305/2922273514449649/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

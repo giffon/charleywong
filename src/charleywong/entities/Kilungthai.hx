@@ -34,5 +34,6 @@ class Kilungthai implements Entity {
             url: "https://www.facebook.com/kilungthai/posts/2755725771132854"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

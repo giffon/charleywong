@@ -33,5 +33,6 @@ class Mustachechefhk implements Entity {
             url: "https://www.facebook.com/Mustachechefhk/photos/a.2268151360094062/2414587235450473/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

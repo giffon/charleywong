@@ -33,5 +33,6 @@ class CaelusGallery implements Entity {
             url: "https://www.facebook.com/CaelusGallery/posts/705617003292477"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

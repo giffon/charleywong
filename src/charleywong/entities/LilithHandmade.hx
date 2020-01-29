@@ -23,5 +23,6 @@ class LilithHandmade implements Entity {
             url: "https://www.facebook.com/lilith.skincare/photos/a.2230618037203415/2437445493187334/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -33,5 +33,6 @@ class HandmadeRoomByWonderlandH implements Entity {
             url: "https://www.facebook.com/handmaderoombywh/photos/a.343657372682315/951403901907656/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

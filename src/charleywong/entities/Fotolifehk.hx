@@ -28,5 +28,6 @@ class Fotolifehk implements Entity {
             url: "https://www.facebook.com/fotolifehk/posts/1260999050750928"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

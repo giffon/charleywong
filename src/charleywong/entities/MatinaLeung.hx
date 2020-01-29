@@ -26,5 +26,6 @@ class MatinaLeung implements Entity {
             url: "https://www.facebook.com/matinaleung.comedian/posts/2468476716761244"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -28,5 +28,6 @@ class SpinnerofYarns implements Entity {
             url: "https://www.facebook.com/spinnerofyarns.choicegame/posts/144642093608497"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

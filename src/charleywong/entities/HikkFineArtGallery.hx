@@ -28,5 +28,6 @@ class HikkFineArtGallery implements Entity {
             url: "https://www.facebook.com/HikkFineArtGallery/posts/2558219954291062"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

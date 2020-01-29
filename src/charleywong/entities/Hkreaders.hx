@@ -30,5 +30,6 @@ class Hkreaders implements Entity {
             url: "https://www.facebook.com/hkreaders/posts/1255787531289887"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

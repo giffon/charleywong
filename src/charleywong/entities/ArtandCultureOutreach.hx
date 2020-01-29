@@ -32,5 +32,6 @@ class ArtandCultureOutreach implements Entity {
             url: "https://www.facebook.com/ArtandCultureOutreach/photos/a.503280483032851/3071030152924525"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

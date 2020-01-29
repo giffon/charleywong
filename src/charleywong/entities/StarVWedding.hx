@@ -33,5 +33,6 @@ class StarVWedding implements Entity {
             url: "https://www.facebook.com/starvwedding/photos/a.1158006157625978/2605522716207641/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

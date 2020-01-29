@@ -32,5 +32,6 @@ class CrazyGemini implements Entity {
             url: "https://www.facebook.com/crazygeminicraft/photos/a.237897503086764/1152061401670365/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

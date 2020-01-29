@@ -34,5 +34,6 @@ class Jennymadrose implements Entity {
             url: "https://www.facebook.com/jennymadrose/posts/1270315139836777"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -31,5 +31,6 @@ class DailySoapHouse implements Entity {
             url: "https://www.facebook.com/DailySoapHouse/posts/688200758670697"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

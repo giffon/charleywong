@@ -23,5 +23,6 @@ class HelloWong implements Entity {
             url: "https://www.facebook.com/HelloWong/posts/2616092528498800"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

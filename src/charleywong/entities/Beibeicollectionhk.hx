@@ -23,5 +23,6 @@ class Beibeicollectionhk implements Entity {
             url: "https://www.facebook.com/beibeicollectionhk/photos/a.861196737380058/1424383074394752/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

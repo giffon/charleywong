@@ -22,5 +22,6 @@ class GardenbyAngie implements Entity {
             url: "https://www.facebook.com/gardenbyangie/photos/a.294284681179050/511127732828076/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -26,5 +26,6 @@ class IalwaysHK implements Entity {
             url: "https://www.facebook.com/ialwaysHK/photos/a.121459898249682/927750617620602/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

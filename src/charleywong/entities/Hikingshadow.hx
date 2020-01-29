@@ -26,5 +26,6 @@ class Hikingshadow implements Entity {
             url: "https://www.facebook.com/hikingshadow/photos/a.452982054828781/2276914169102218/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

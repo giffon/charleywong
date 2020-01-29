@@ -30,5 +30,6 @@ class Bewordist implements Entity {
             url: "https://www.facebook.com/bewordist/posts/2532891516768339"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

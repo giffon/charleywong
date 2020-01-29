@@ -30,5 +30,6 @@ class LyndeJunePhotography implements Entity {
             url: "https://www.facebook.com/LynDeJune/photos/a.1684943184926716/2351129448308083/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

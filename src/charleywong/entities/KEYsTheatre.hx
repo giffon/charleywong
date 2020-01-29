@@ -31,5 +31,6 @@ class KEYsTheatre implements Entity {
             url: "https://www.facebook.com/KEYsTheatre/posts/2451865631702840"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

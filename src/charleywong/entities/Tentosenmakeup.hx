@@ -25,5 +25,6 @@ class Tentosenmakeup implements Entity {
             url: "https://www.facebook.com/tentosenmakeup/posts/2768370999864073"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -29,5 +29,6 @@ class NothinglastsforeverCraft implements Entity {
             url: "https://www.facebook.com/NOTHINGLASTSFOREVER.CRAFT/videos/1694135967385386/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

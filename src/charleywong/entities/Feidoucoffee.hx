@@ -31,5 +31,6 @@ class Feidoucoffee implements Entity {
             url: "https://www.facebook.com/feidoucoffee/posts/1420541938103322"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -25,5 +25,6 @@ class GFStudio implements Entity {
             url: "https://www.facebook.com/GFwedding/photos/a.10151285387098779/10156635900053779/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -30,5 +30,6 @@ class AMAccessories implements Entity {
             url: "https://www.facebook.com/amaccessorieshk/photos/a.226791521413750/558003754959190/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

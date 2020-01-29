@@ -25,5 +25,6 @@ class Wearesalarymen implements Entity {
             url: "https://www.facebook.com/wearesalarymen/posts/1788314221475278"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

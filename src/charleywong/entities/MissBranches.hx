@@ -28,5 +28,6 @@ class MissBranches implements Entity {
             url: "https://www.facebook.com/MissBranches/photos/a.1686156931620448/2572246203011512/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

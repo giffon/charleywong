@@ -26,5 +26,6 @@ class OneZero implements Entity {
             url: "https://www.facebook.com/onezzero/photos/a.240788556359299/840211379750344/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

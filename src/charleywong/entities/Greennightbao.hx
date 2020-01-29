@@ -24,5 +24,6 @@ class Greennightbao implements Entity {
             url: "https://www.facebook.com/greennightbao/posts/480061712716961"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

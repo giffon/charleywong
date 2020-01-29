@@ -29,5 +29,6 @@ class Muchakuchahk implements Entity {
             url: "https://www.facebook.com/muchakucha.hk/posts/1409824809183113"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

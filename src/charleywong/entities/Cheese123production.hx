@@ -34,5 +34,6 @@ class Cheese123production implements Entity {
             url: "https://www.facebook.com/123cheeseproduction/photos/a.551547771534351/2604402106248897/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

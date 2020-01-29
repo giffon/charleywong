@@ -24,5 +24,6 @@ class Tsesaipei implements Entity {
             url: "https://www.facebook.com/tsesaipei/photos/a.135262153287542/1396164237197321/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

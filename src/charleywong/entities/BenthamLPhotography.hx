@@ -35,5 +35,6 @@ class BenthamLPhotography implements Entity {
             url: "https://www.facebook.com/Benthamlphoto/posts/2584625481656718"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

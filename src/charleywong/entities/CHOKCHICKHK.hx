@@ -31,5 +31,6 @@ class CHOKCHICKHK implements Entity {
             url: "https://www.facebook.com/CHOKCHICKHK/posts/2544860695567769"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

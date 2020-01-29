@@ -29,5 +29,6 @@ class JieJieUncleCat implements Entity {
             url: "https://www.facebook.com/JIEJIEHK/posts/1927552150689735"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

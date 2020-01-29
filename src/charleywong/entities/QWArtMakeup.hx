@@ -26,5 +26,6 @@ class QWArtMakeup implements Entity {
             url: "https://www.facebook.com/queeniewartnmakeup/photos/a.338127006355730/1390498381118582/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -31,5 +31,6 @@ class Loui5Ng implements Entity {
             url: "https://www.facebook.com/Loui5Ng/photos/a.409599812399442/3609058602453531/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -34,5 +34,6 @@ class TheHourGallery implements Entity {
             url: "https://www.facebook.com/TheHourGallery/photos/a.1706370799582047/2494995214052931/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

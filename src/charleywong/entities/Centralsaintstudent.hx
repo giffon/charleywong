@@ -35,5 +35,6 @@ class Centralsaintstudent implements Entity {
             url: "https://www.facebook.com/centralsaintstudent/posts/10162391105055570"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

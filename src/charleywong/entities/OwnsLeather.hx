@@ -27,5 +27,6 @@ class OwnsLeather implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=2536005133161603&id=497748753653928"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -22,5 +22,6 @@ class CKKimmymakeup implements Entity {
             url: "https://www.facebook.com/ckkimmymakeup/photos/a.374567436343098/724568728009632/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

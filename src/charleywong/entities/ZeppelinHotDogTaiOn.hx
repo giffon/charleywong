@@ -30,5 +30,6 @@ class ZeppelinHotDogTaiOn implements Entity {
             url: "https://www.facebook.com/zeppelinhotdogtaion/posts/2853431071550381"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

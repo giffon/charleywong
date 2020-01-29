@@ -26,5 +26,6 @@ class Greenearthhk implements Entity {
             url: "https://www.facebook.com/greenearthhk/photos/a.251976585146266/1006263463050904/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

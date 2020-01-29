@@ -26,5 +26,6 @@ class Summeraugusthouse implements Entity {
             url: "https://www.facebook.com/summeraugusthouse/photos/a.1755455564721143/2397659657167394/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

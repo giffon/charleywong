@@ -31,5 +31,6 @@ class Busuaca implements Entity {
             url: "https://www.facebook.com/Busuaca/posts/1283048305206270"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -23,5 +23,6 @@ class Hopehandmade implements Entity {
             url: "https://www.facebook.com/hopehandmadee/posts/1267822553396254"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

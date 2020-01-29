@@ -22,5 +22,6 @@ class HikerKitsiu implements Entity {
             url: "https://www.facebook.com/HikerKit.siu/photos/a.258397871541602/373856743329047/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

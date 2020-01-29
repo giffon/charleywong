@@ -30,5 +30,6 @@ class MakeYourDayCandle implements Entity {
             url: "https://www.facebook.com/myd.candle/photos/a.355325641466678/1029154327417136/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

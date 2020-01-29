@@ -28,5 +28,6 @@ class Martinaesthetics implements Entity {
             url: "https://www.facebook.com/martinaesthetics/posts/2527818267305715"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

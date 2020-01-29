@@ -32,5 +32,6 @@ class TrialandErrorLabHK implements Entity {
             url: "https://www.facebook.com/trialanderrorHK/photos/a.286017608428490/952331611797083/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

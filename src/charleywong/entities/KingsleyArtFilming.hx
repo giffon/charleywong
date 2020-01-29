@@ -26,5 +26,6 @@ class KingsleyArtFilming implements Entity {
             url: "https://www.facebook.com/kingsleyartfilming/posts/1707979609335478"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

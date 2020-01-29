@@ -24,5 +24,6 @@ class Forchaunung implements Entity {
             url: "https://www.facebook.com/forchaunung/posts/2438621076352888"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

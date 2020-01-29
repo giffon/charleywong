@@ -29,5 +29,6 @@ class OMTheplacement implements Entity {
             url: "https://www.facebook.com/OM.TPM/posts/378290342726092"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

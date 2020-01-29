@@ -31,5 +31,6 @@ class Dimwoohk implements Entity {
             url: "https://www.facebook.com/dimwoohk/posts/955620884796351"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

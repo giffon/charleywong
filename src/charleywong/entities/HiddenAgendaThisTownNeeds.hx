@@ -29,5 +29,6 @@ class HiddenAgendaThisTownNeeds implements Entity {
             url: "https://www.facebook.com/Thistownneeds/posts/2524985404227802"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

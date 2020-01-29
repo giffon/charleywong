@@ -26,5 +26,6 @@ class ShAnhojewelry implements Entity {
             url: "https://www.facebook.com/shanhoojewellery/photos/a.217343561617546/2612124492139429/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

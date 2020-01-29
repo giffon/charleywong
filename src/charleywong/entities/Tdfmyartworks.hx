@@ -27,5 +27,6 @@ class Tdfmyartworks implements Entity {
             url: "https://www.facebook.com/tdf.myartworks/posts/2726878647335009"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

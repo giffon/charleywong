@@ -29,5 +29,6 @@ class Bukapo implements Entity {
             url: "https://www.facebook.com/bukapo/photos/a.460658543989363/2412429035478961/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

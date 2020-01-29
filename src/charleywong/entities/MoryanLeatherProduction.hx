@@ -32,5 +32,6 @@ class MoryanLeatherProduction implements Entity {
             url: "https://www.facebook.com/MoryanHandmade/photos/a.396878947028036/2414360055279905/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

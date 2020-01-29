@@ -30,5 +30,6 @@ class After10 implements Entity {
             url: "https://www.facebook.com/after10hk/posts/2294123847371470"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

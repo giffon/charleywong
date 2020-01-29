@@ -30,5 +30,6 @@ class Honeycombgleam implements Entity {
             url: "https://www.facebook.com/honeycombgleam/posts/2414044358844487"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

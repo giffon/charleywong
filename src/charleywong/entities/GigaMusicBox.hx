@@ -34,5 +34,6 @@ class GigaMusicBox implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=2721554024551017&id=228993507140427"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

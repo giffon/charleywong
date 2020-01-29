@@ -29,5 +29,6 @@ class Alternative implements Entity {
             url: "https://www.facebook.com/AlternativeCoffeeHK/photos/a.359044704522044/724644901295354/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

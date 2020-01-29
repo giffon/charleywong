@@ -25,5 +25,6 @@ class Charmainefongfanpage implements Entity {
             url: "https://www.facebook.com/charmainefongfanpage/posts/10162489573475263"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

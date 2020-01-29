@@ -31,5 +31,6 @@ class Retoldcoffeeteaspirits implements Entity {
             url: "https://www.facebook.com/retold102/photos/a.296659664506557/572006766971844/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

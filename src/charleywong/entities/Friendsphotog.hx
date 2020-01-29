@@ -25,5 +25,6 @@ class Friendsphotog implements Entity {
             url: "https://www.facebook.com/Friendsphotog/photos/a.471795636202576/2556187131096739/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

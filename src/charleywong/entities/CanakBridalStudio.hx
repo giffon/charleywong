@@ -27,5 +27,6 @@ class CanakBridalStudio implements Entity {
             url: "https://www.facebook.com/canakbridal/posts/961302130930048"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -25,5 +25,6 @@ class Utopiaootd implements Entity {
             url: "https://www.facebook.com/utopiaootd/photos/a.364635510601957/971912303207605/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

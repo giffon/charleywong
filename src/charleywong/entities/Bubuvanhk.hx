@@ -31,5 +31,6 @@ class Bubuvanhk implements Entity {
             url: "https://www.facebook.com/bubuvanhk/posts/2499662243646335"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

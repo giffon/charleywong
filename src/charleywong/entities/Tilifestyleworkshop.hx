@@ -24,5 +24,6 @@ class Tilifestyleworkshop implements Entity {
             url: "https://www.facebook.com/tilifestyleworkshop/photos/a.1010381112440518/1867500800061874/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

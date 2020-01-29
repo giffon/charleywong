@@ -34,5 +34,6 @@ class PoorButHappyShop implements Entity {
             url: "https://www.facebook.com/poor.but.happy.shop/photos/a.414588128569360/3071723419522471"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

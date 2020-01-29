@@ -32,5 +32,6 @@ class Hkgoldbrownsugar implements Entity {
             url: "https://www.facebook.com/hk.goldbrownsugar/posts/765270160650212"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

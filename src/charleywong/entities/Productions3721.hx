@@ -29,5 +29,6 @@ class Productions3721 implements Entity {
             url: "https://www.facebook.com/3721productions/photos/a.287104745045004/724532521302222/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

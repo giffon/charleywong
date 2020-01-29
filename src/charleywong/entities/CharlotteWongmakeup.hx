@@ -25,5 +25,6 @@ class CharlotteWongmakeup implements Entity {
             url: "https://www.facebook.com/charlottewongmakeup/posts/2726572104060690"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

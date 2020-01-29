@@ -22,5 +22,6 @@ class Underbidding implements Entity {
             url: "https://www.facebook.com/underbidding/posts/577981113034386"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -25,5 +25,6 @@ class LiverpudlianTy implements Entity {
             url: "https://www.facebook.com/LiverpudlianTyNews/posts/736170876862561"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

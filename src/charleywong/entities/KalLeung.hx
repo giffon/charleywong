@@ -27,5 +27,6 @@ class KalLeung implements Entity {
             url: "https://www.facebook.com/hangmadephoto/posts/2643943225668427"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

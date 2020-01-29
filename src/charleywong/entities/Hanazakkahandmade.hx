@@ -26,5 +26,6 @@ class Hanazakkahandmade implements Entity {
             url: "https://www.facebook.com/hana.zakka.handmade/posts/3900279366664304"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

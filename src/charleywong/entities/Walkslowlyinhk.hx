@@ -31,5 +31,6 @@ class Walkslowlyinhk implements Entity {
             url: "https://www.facebook.com/walkslowlyinhk/photos/a.725707804298784/1436273969908827/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

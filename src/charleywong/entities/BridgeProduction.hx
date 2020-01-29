@@ -24,5 +24,6 @@ class BridgeProduction implements Entity {
             url: "https://www.facebook.com/Bridge7Production/posts/2683290778398992"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

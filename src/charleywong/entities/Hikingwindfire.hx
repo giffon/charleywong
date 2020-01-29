@@ -23,5 +23,6 @@ class Hikingwindfire implements Entity {
             url: "https://www.facebook.com/hikingwindfire/photos/a.530990083711642/1793808107429827/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

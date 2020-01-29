@@ -27,5 +27,6 @@ class Asuni implements Entity {
             url: "https://www.facebook.com/asuni.style/posts/2109736929323098"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

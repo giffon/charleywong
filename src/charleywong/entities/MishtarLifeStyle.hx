@@ -27,5 +27,6 @@ class MishtarLifeStyle implements Entity {
             url: "https://www.facebook.com/MishtarLifeStyle/photos/a.505357042857245/2719107608148833/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

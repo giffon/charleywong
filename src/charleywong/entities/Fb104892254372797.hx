@@ -25,5 +25,6 @@ class Fb104892254372797 implements Entity {
             url: "https://www.facebook.com/104892254372797/photos/a.105632400965449/105632410965448/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -25,5 +25,6 @@ class BuggyStudio implements Entity {
             url: "https://www.facebook.com/1902473526649079/photos/a.1996736107222820/2445127849050308/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

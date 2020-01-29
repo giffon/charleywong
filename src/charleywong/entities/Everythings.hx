@@ -33,5 +33,6 @@ class Everythings implements Entity {
             url: "https://www.facebook.com/everythings.hk/photos/a.235232000509649/377110962988418/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

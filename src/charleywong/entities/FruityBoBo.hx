@@ -29,5 +29,6 @@ class FruityBoBo implements Entity {
             url: "https://www.facebook.com/fruitybobo/posts/1170719939784100"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

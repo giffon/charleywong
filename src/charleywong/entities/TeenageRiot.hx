@@ -33,5 +33,6 @@ class TeenageRiot implements Entity {
             url: "https://www.facebook.com/teenageriothk/photos/a.564609593616033/2275852465825062/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

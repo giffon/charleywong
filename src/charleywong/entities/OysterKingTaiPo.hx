@@ -28,5 +28,6 @@ class OysterKingTaiPo implements Entity {
             url: "https://www.facebook.com/OysterKingTaiPo/posts/568923716993958"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

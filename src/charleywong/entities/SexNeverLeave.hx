@@ -30,5 +30,6 @@ class SexNeverLeave implements Entity {
             url: "https://www.instagram.com/p/B5Smgy-Dt-n/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

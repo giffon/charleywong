@@ -28,5 +28,6 @@ class RabbitlandCafe implements Entity {
             url: "https://www.facebook.com/rabbitlandcafe/posts/1150838688459322"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

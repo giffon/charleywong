@@ -37,5 +37,6 @@ class PotentialSecretarialLimited implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=1972391092866225&id=416745971764086"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -29,5 +29,6 @@ class Kakaartworkshop implements Entity {
             url: "https://www.facebook.com/kaka.artworkshop/posts/2655709057849715"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -28,5 +28,6 @@ class HKWholesaleFishMarket implements Entity {
             url: "https://www.facebook.com/HKWholesaleFishMarket/posts/2672463372815740"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

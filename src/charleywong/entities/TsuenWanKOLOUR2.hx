@@ -34,5 +34,6 @@ class TsuenWanKOLOUR2 implements Entity {
             url: "https://www.facebook.com/TsuenWan.KOLOUR.2/photos/a.1762818497314165/2278502865745723/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -23,5 +23,6 @@ class Fucmanu implements Entity {
             url: "https://www.facebook.com/fucmanu/posts/2159815944118648/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

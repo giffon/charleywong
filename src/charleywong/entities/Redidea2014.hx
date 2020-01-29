@@ -31,5 +31,6 @@ class Redidea2014 implements Entity {
             url: "https://www.facebook.com/redidea2014/photos/a.636801096406263/2362644003821955/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

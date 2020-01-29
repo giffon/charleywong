@@ -27,5 +27,6 @@ class Altiahk implements Entity {
             url: "https://www.facebook.com/altiahk/posts/3336744343034825"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

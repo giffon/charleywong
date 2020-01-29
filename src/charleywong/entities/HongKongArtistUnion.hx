@@ -27,5 +27,6 @@ class HongKongArtistUnion implements Entity {
             url: "https://www.facebook.com/HongKongArtistUnion/photos/a.591105931083040/1323980171128942/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

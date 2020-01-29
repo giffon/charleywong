@@ -24,5 +24,6 @@ class TamasiiJewellery implements Entity {
             url: "https://www.facebook.com/tamasiijewel/photos/a.438265276313182/1626887817450916/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

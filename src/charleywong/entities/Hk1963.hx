@@ -28,5 +28,6 @@ class Hk1963 implements Entity {
             url: "https://www.facebook.com/1963.hk/posts/1413702825473798"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

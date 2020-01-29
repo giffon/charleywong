@@ -29,5 +29,6 @@ class Lantaublue implements Entity {
             url: "https://www.facebook.com/lantaublue/posts/2419839294761423"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

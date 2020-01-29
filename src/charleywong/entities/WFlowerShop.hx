@@ -33,5 +33,6 @@ class WFlowerShop implements Entity {
             url: "https://www.facebook.com/w.flowershop.hk/photos/a.476889985785479/1482112531929881/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -32,5 +32,6 @@ class UrbanCoffeeRoaster implements Entity {
             url: "https://www.facebook.com/Urbancoffeeroaster/photos/a.593637637413625/2169088959868477/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -27,5 +27,6 @@ class MidwestVintage implements Entity {
             url: "https://www.facebook.com/103573376382609/photos/a.111659502240663/3181717688568147"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

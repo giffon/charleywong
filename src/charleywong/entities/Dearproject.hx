@@ -24,5 +24,6 @@ class Dearproject implements Entity {
             url: "https://www.facebook.com/wearedearproject/photos/a.343245646362748/346162769404369/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

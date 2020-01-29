@@ -25,5 +25,6 @@ class PureLoungeMakeUp implements Entity {
             url: "https://www.facebook.com/pureloungehk/photos/a.562384050479710/2841581679226591/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

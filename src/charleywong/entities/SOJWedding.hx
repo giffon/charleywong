@@ -29,5 +29,6 @@ class SOJWedding implements Entity {
             url: "https://www.facebook.com/sojwedding/posts/2682103775141493"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

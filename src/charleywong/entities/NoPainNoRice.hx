@@ -25,5 +25,6 @@ class NoPainNoRice implements Entity {
             url: "https://www.facebook.com/NoPainNoRice/photos/a.959422204101266/2673426736034129/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

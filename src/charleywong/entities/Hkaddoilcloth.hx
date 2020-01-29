@@ -25,5 +25,6 @@ class Hkaddoilcloth implements Entity {
             url: "https://www.facebook.com/hkaddoilcloth/photos/a.100912644714050/127064758765505/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -29,5 +29,6 @@ class Pepasweet implements Entity {
             url: "https://www.facebook.com/pepasweet/posts/1525165600969403"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -31,5 +31,6 @@ class CreepyMouse implements Entity {
             url: "https://www.facebook.com/CreepyMousePaintDesign/photos/a.534576843341732/1653467201452685/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

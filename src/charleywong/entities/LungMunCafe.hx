@@ -32,5 +32,6 @@ class LungMunCafe implements Entity {
             url: "https://www.facebook.com/LungMunCafe/photos/a.880096878721797/2906039119460886/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

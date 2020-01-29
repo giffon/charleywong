@@ -29,5 +29,6 @@ class AlanYiuPhotography implements Entity {
             url: "https://www.facebook.com/alanyiuphotography/posts/1251020301756474"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

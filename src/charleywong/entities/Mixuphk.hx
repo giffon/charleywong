@@ -30,5 +30,6 @@ class Mixuphk implements Entity {
             url: "https://www.facebook.com/mixup.hk/posts/2194947010817883"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

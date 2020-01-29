@@ -30,5 +30,6 @@ class Chachafactory implements Entity {
             url: "https://www.facebook.com/hmchachaa/posts/1027833100891675"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

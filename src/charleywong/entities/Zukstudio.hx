@@ -31,5 +31,6 @@ class Zukstudio implements Entity {
             url: "https://www.facebook.com/zuk.studio/posts/2226081757514903"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

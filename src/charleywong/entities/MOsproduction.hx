@@ -27,5 +27,6 @@ class MOsproduction implements Entity {
             url: "https://www.facebook.com/139245916132421/photos/a.324329617624049/2671933496196971/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

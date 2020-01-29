@@ -22,5 +22,6 @@ class NicoleKwokMakeUp implements Entity {
             url: "https://www.facebook.com/nicolekwokmakeup1/posts/2212805795683906"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

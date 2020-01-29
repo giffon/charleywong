@@ -30,5 +30,6 @@ class ColourEXP implements Entity {
             url: "https://www.facebook.com/ColourEXP/photos/a.1599379647000932/2559823004289920/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

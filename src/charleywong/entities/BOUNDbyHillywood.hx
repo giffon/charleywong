@@ -31,5 +31,6 @@ class BOUNDbyHillywood implements Entity {
             url: "https://www.facebook.com/boundhillywood/photos/a.644658212313597/2303807259732009/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

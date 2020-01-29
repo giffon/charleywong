@@ -24,5 +24,6 @@ class Trainillustration implements Entity {
             url: "https://www.facebook.com/trainillustration/photos/a.389683487816922/2498478113604105/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -28,5 +28,6 @@ class HimawariBookShop implements Entity {
             url: "https://www.facebook.com/HimawariBookShop/posts/2385958851486615"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

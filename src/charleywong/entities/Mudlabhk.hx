@@ -32,5 +32,6 @@ class Mudlabhk implements Entity {
             url: "https://www.facebook.com/mudlabhk/posts/2448895868557789"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

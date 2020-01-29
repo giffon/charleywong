@@ -32,5 +32,6 @@ class Sheepandwolfcase implements Entity {
             url: "https://www.facebook.com/sheepandwolfcase/posts/1676919699112358"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -27,5 +27,6 @@ class Jkbrotherhk implements Entity {
             url: "https://www.facebook.com/jkbrotherhk/photos/a.304434693322319/817738455325271/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

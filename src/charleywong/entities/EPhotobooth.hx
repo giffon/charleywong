@@ -25,5 +25,6 @@ class EPhotobooth implements Entity {
             url: "https://www.facebook.com/hkephotobooth/posts/2492474761028496"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

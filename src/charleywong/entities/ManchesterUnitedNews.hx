@@ -26,5 +26,6 @@ class ManchesterUnitedNews implements Entity {
             url: "https://www.facebook.com/munews/posts/1407217279433206"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

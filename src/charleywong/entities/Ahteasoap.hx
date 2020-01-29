@@ -30,5 +30,6 @@ class Ahteasoap implements Entity {
             url: "https://www.facebook.com/ahteasoap/posts/1656285351162777"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

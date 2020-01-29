@@ -28,5 +28,6 @@ class ManyStationery implements Entity {
             url: "https://www.facebook.com/116926599686707/photos/a.119324169446950/125687488810618/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

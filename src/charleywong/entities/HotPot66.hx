@@ -24,4 +24,6 @@ class HotPot66 implements Entity {
             url: "https://www.facebook.com/66HotPot/posts/1721008178031221"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
+

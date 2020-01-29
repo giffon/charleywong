@@ -23,5 +23,6 @@ class Lifemarthk implements Entity {
             url: "https://www.facebook.com/lifemarthk/photos/a.505091500128451/505095220128079/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

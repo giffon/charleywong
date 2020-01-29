@@ -28,5 +28,6 @@ class Hennabyrita implements Entity {
             url: "https://www.facebook.com/438821806164777/photos/a.751762801537341/2339796582733947/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

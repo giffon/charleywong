@@ -31,5 +31,6 @@ class Kumayummy implements Entity {
             url: "https://www.facebook.com/kumayummy/photos/a.507205826128483/1405045013011222/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

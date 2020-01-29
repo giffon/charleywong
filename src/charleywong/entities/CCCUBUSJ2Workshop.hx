@@ -22,5 +22,6 @@ class CCCUBUSJ2Workshop implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=1398209943685089&id=186574884848607"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

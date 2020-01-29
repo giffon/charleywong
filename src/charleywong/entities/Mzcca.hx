@@ -23,5 +23,6 @@ class Mzcca implements Entity {
             url: "https://www.facebook.com/Mzcca/photos/a.1057179691082401/1648027781997586/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

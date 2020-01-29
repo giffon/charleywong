@@ -28,5 +28,6 @@ class Eroshongkong implements Entity {
             url: "https://www.facebook.com/eroshongkong/posts/1456226904534678"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

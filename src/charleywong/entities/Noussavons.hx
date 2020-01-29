@@ -35,5 +35,6 @@ class Noussavons implements Entity {
             url: "https://www.facebook.com/noUssavonslife/posts/119836619455116"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

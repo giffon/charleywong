@@ -31,5 +31,6 @@ class Freshvinegartea implements Entity {
             url: "https://www.facebook.com/freshvinegartea/photos/a.620235875002809/1049611722065220/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

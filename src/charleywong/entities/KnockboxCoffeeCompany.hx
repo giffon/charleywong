@@ -31,5 +31,6 @@ class KnockboxCoffeeCompany implements Entity {
             url: "https://www.facebook.com/Knockboxcoffee/photos/a.466649313436822/2051011148333956/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

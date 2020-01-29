@@ -30,5 +30,6 @@ class HANASoftCream implements Entity {
             url: "https://www.facebook.com/hanasoftcream/photos/a.1294250863987537/2550830728329538/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -27,5 +27,6 @@ class PlantSomeTime implements Entity {
             url: "https://www.facebook.com/PlantSomeTime/posts/2618381628256381"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

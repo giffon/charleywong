@@ -36,5 +36,6 @@ class Rebornflorist implements Entity {
             url: "https://www.facebook.com/rebornflorist/photos/a.139667736508754/778226655986189/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

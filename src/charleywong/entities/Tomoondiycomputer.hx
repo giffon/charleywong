@@ -23,5 +23,6 @@ class Tomoondiycomputer implements Entity {
             url: "https://www.facebook.com/To.moondiycomputer/posts/2574574779437029"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

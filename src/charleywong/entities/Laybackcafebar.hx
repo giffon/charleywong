@@ -33,5 +33,6 @@ class Laybackcafebar implements Entity {
             url: "https://www.facebook.com/1671118136480338/photos/a.1671297409795744/2451360815122729/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

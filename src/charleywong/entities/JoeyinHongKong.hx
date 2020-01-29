@@ -22,5 +22,6 @@ class JoeyinHongKong implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=2631347480426026&id=1461556797405106"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

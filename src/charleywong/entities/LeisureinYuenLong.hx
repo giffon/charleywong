@@ -36,5 +36,6 @@ class LeisureinYuenLong implements Entity {
             url: "https://www.facebook.com/leisureinyuenlong/photos/a.459354584193047/2342097185918768/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -29,5 +29,6 @@ class BelongsToJ implements Entity {
             url: "https://www.facebook.com/belongstoj.0301/photos/a.516807768399630/2658078097605909/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

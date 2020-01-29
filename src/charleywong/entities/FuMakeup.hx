@@ -22,5 +22,6 @@ class FuMakeup implements Entity {
             url: "https://www.facebook.com/fumakeup/photos/a.619223474800082/2544511228937954/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

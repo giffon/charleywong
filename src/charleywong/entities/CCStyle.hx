@@ -25,5 +25,6 @@ class CCStyle implements Entity {
             url: "https://www.facebook.com/ccstylehk/photos/a.631582607341656/660284754471441/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

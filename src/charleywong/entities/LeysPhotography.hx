@@ -22,5 +22,6 @@ class LeysPhotography implements Entity {
             url: "https://www.facebook.com/leysphoto/posts/1201830596667826"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

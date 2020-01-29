@@ -28,5 +28,6 @@ class CandyTreeWorkshopWeddingFloral implements Entity {
             url: "https://www.facebook.com/candytreeworkshop/photos/a.1035059573182671/2700528949969050/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

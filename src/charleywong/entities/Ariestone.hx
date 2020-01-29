@@ -34,5 +34,6 @@ class Ariestone implements Entity {
             url: "https://www.facebook.com/accessariestone/photos/a.142962676163297/835985430194348/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

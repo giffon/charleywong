@@ -25,5 +25,6 @@ class Leathermelmel implements Entity {
             url: "https://www.facebook.com/leathermelmel/photos/a.407479166115482/1179585388904852/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

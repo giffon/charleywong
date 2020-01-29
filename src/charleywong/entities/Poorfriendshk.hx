@@ -29,5 +29,6 @@ class Poorfriendshk implements Entity {
             url: "https://www.facebook.com/poorfriendshk/photos/a.529510467093727/2900650976646319/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

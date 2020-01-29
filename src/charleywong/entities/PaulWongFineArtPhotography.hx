@@ -26,5 +26,6 @@ class PaulWongFineArtPhotography implements Entity {
             url: "https://www.facebook.com/paulwongfineart/posts/2393600274231475"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -25,5 +25,6 @@ class GoodbyeGoodbuy implements Entity {
             url: "https://www.facebook.com/goodbyegoodbuy/posts/2612653975448027"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

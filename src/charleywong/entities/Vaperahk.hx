@@ -35,5 +35,6 @@ class Vaperahk implements Entity {
             url: "https://www.facebook.com/vaperahk/photos/a.1429230357317422/2433761970197584/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

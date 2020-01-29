@@ -29,5 +29,6 @@ class Mingpaoinews implements Entity {
             url: "https://www.facebook.com/mingpaoinews/posts/2643215309071921"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

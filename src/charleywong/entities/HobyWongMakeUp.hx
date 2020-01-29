@@ -26,5 +26,6 @@ class HobyWongMakeUp implements Entity {
             url: "https://www.facebook.com/HobyWongMakeup/photos/a.498453370251752/2476107085819694/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -26,5 +26,6 @@ class Makiemori22 implements Entity {
             url: "https://www.facebook.com/makie.mori22/posts/2898412336876458"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

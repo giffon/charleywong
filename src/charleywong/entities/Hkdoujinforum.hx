@@ -26,5 +26,6 @@ class Hkdoujinforum implements Entity {
             url: "https://www.facebook.com/hkdoujinforum/photos/a.380842582047312/1763609080437315/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

@@ -30,5 +30,6 @@ class Dearsweets implements Entity {
             url: "https://www.facebook.com/dearsweetsb/posts/357141121628537"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

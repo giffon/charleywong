@@ -25,5 +25,6 @@ class Jackyguppy implements Entity {
             url: "https://www.facebook.com/Jackyguppy/posts/2409328405993853/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

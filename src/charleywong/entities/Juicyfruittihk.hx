@@ -32,5 +32,6 @@ class Juicyfruittihk implements Entity {
             url: "https://www.facebook.com/Juicyfruittihk/photos/a.366450220919536/478713626359861/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

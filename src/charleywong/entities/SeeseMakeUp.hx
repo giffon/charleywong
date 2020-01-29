@@ -27,5 +27,6 @@ class SeeseMakeUp implements Entity {
             url: "https://www.facebook.com/SeeseMakeUp/photos/a.423094971149789/2354009264725007/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

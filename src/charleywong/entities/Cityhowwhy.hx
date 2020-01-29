@@ -33,5 +33,6 @@ class Cityhowwhy implements Entity {
             url: "https://www.facebook.com/cityhowwhy/photos/a.10150651726854120/10157733038484120/"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 

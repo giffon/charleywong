@@ -23,5 +23,6 @@ class Enlightenedhealers implements Entity {
             url: "https://www.facebook.com/enlightenedhealers/posts/2568869373230917"
         }
     ];
+    public final tags:Array<Tag> = [];
 }
 
