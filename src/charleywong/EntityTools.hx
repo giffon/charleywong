@@ -25,6 +25,7 @@ class EntityTools {
                 o["url"] = p.url;
                 o;
             }],
+            tags: [for (t in e.tags) t.id]
         }
     }
 }

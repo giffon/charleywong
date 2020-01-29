@@ -2,9 +2,12 @@ package charleywong;
 
 @:structInit
 class Tag {
-    final name:MultiLangString;
-    @:optional final description:MultiLangString;
-    @:optional final inherits:Array<Tag>;
+    public final name:MultiLangString;
+    @:optional public final description:MultiLangString;
+    @:optional public final inherits:Array<Tag>;
+
+    @:optional public var id(get, null):String;
+    function get_id() return id != null ? id : id = [for (k => v in tags) if (v == this) k][0];
 
     static public var tags(get, null):Map<String, Tag>;
     static public function get_tags() return tags != null ? tags : tags = {
@@ -62,9 +65,9 @@ class Tag {
         ]
     }
 
-    static public final makeupArtist:Tag = {
+    static public final makeup:Tag = {
         name: [
-            en => "makeup artist",
+            en => "makeup",
             zh => "化妝"
         ]
     }

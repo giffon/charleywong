@@ -244,10 +244,7 @@ class Importer {
         ];
         var tagsExprs = [
             for (t in entity.tags)
-            {
-                var tName = [for (k => v in tags) if (v == t) k][0];
-                macro $i{tName};
-            }
+            macro $i{t.id}
         ];
         var cls = macro class $className implements Entity {
             public final id = ${idExpr};
