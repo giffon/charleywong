@@ -6,9 +6,9 @@ class PulppyHK implements Entity {
         en => "Pulppy HK"
     ];
     public final webpages:Array<WebPage> = [
-        {
-            url: "http://www.pulppy.com"
-        },
+        // {
+        //     url: "http://www.pulppy.com"
+        // },
         {
             url: "https://www.facebook.com/pulppyhk/",
             meta: [
