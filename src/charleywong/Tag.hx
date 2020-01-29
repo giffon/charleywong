@@ -55,6 +55,14 @@ class Tag {
         ]
     }
 
+    static public final clothing:Tag = {
+        name: [
+            en => "clothing",
+            zh => "衣物"
+        ],
+        inherits: [shop]
+    }
+
     static public final bridal:Tag = {
         name: [
             en => "bridal",
@@ -122,14 +130,6 @@ class Tag {
             en => "food & beverage",
             zh => "食物/飲品"
         ]
-    }
-
-    static public final clothing:Tag = {
-        name: [
-            en => "clothing",
-            zh => "衣物"
-        ],
-        inherits: [shop]
     }
 
     static public final accessories:Tag = {
