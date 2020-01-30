@@ -28,6 +28,8 @@ class JOEsBricks implements Entity {
             url: "https://www.facebook.com/Joe520frances/posts/1223247414535928"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

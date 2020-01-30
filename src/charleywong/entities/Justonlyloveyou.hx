@@ -27,6 +27,8 @@ class Justonlyloveyou implements Entity {
             url: "https://www.facebook.com/113744056808482/photos/a.113821736800714/113821693467385/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

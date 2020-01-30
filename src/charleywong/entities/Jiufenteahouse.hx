@@ -34,6 +34,8 @@ class Jiufenteahouse implements Entity {
             url: "https://www.facebook.com/jiufenteahouse/posts/2397962430513885"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

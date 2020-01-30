@@ -24,6 +24,9 @@ class JustMoveLimited implements Entity {
             url: "https://www.facebook.com/justmove.hk/posts/855057561554245"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        technology,
+        shop
+    ];
 }
 

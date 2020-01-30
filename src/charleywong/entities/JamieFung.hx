@@ -28,6 +28,8 @@ class JamieFung implements Entity {
             url: "https://www.facebook.com/jamie.fkyoga/posts/1513752118771739"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

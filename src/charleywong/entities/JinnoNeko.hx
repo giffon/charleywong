@@ -28,6 +28,8 @@ class JinnoNeko implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=2481695878518070&id=279914545362892"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

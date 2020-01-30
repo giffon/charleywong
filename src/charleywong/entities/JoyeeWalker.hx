@@ -27,6 +27,8 @@ class JoyeeWalker implements Entity {
             url: "https://www.facebook.com/1668115463499101/photos/a.1672686909708623/2294779814165993/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

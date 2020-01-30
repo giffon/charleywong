@@ -25,6 +25,9 @@ class Jisaambooks implements Entity {
             url: "https://www.facebook.com/jisaam.books/photos/a.123273912383074/158479195529212"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        book,
+        shop
+    ];
 }
 

@@ -30,6 +30,8 @@ class JarGor1996 implements Entity {
             url: "https://www.facebook.com/JarGor1996/posts/2589848901093135"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

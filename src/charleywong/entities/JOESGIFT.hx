@@ -23,6 +23,9 @@ class JOESGIFT implements Entity {
             url: "https://www.facebook.com/HAPPYJOESGIFT/photos/a.191882577963384/708824489602521/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        wedding,
+        shop
+    ];
 }
 

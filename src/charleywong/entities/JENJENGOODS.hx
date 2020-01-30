@@ -24,6 +24,8 @@ class JENJENGOODS implements Entity {
             url: "https://www.facebook.com/JENJENGOODS/posts/423060641860904"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

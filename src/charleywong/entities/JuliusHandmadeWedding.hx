@@ -23,6 +23,9 @@ class JuliusHandmadeWedding implements Entity {
             url: "https://www.facebook.com/juliushandmadewedding/posts/2768728779845605"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        wedding,
+        shop
+    ];
 }
 

@@ -27,6 +27,8 @@ class JJMarketplace implements Entity {
             url: "https://www.facebook.com/jjmarketplaceonline/photos/a.2107067432641999/3117853874896678/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        clothing
+    ];
 }
 

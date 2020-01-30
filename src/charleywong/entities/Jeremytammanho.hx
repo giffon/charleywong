@@ -27,6 +27,8 @@ class Jeremytammanho implements Entity {
             url: "https://www.facebook.com/jeremytammanho/posts/2464869246908876"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure
+    ];
 }
 

@@ -26,6 +26,8 @@ class Jselfshop implements Entity {
             url: "https://www.facebook.com/jselfshop/posts/1363649377142985"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

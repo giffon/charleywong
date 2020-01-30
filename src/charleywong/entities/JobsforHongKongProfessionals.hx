@@ -35,6 +35,8 @@ class JobsforHongKongProfessionals implements Entity {
             url: "https://www.facebook.com/jobhunthk/posts/1749301218546779"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

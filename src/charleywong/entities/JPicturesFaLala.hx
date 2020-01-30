@@ -29,6 +29,8 @@ class JPicturesFaLala implements Entity {
             url: "https://www.facebook.com/Jada40416/posts/413654272555591"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

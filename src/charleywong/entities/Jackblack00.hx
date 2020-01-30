@@ -22,6 +22,8 @@ class Jackblack00 implements Entity {
             url: "https://www.facebook.com/jackblack00/posts/2489693571242844"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

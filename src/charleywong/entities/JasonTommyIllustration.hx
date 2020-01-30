@@ -33,6 +33,8 @@ class JasonTommyIllustration implements Entity {
             url: "https://www.facebook.com/jasontommy21/posts/2429167397352288"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

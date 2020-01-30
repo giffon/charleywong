@@ -25,6 +25,8 @@ class Jellam116 implements Entity {
             url: "https://www.facebook.com/116jellam/photos/a.301692676874675/858686417841962/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

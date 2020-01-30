@@ -28,6 +28,8 @@ class Joyfunhouse implements Entity {
             url: "https://www.facebook.com/joyfunhouse/posts/768819800230640"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 
