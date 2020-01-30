@@ -38,6 +38,8 @@ class Herbtotoe implements Entity {
             url: "https://www.facebook.com/herb.to.toe/photos/a.1733273326685525/2983541514992027/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

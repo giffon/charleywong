@@ -27,6 +27,10 @@ class GabbieMakeup implements Entity {
             url: "https://www.facebook.com/gabbiemakeup/posts/10158005013410087"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

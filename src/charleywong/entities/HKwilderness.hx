@@ -27,6 +27,9 @@ class HKwilderness implements Entity {
             url: "https://www.facebook.com/HKwilderness/posts/2501111976814272"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media,
+        photographer
+    ];
 }
 

@@ -25,6 +25,8 @@ class Hairdreamstudioacademy implements Entity {
             url: "https://www.facebook.com/Hairdreann/photos/a.321945514869598/950970111967132/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        salon
+    ];
 }
 

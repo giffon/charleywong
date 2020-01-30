@@ -33,6 +33,8 @@ class G6herbwork implements Entity {
             url: "https://www.facebook.com/g6herbwork/photos/a.319625628500066/806726956456595/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

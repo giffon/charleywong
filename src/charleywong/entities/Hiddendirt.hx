@@ -22,6 +22,8 @@ class Hiddendirt implements Entity {
             url: "https://www.facebook.com/hiddendirt/posts/126287038718479"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

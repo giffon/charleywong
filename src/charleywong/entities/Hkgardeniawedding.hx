@@ -26,6 +26,8 @@ class Hkgardeniawedding implements Entity {
             url: "https://www.facebook.com/hkgardeniawedding/photos/a.985013251653525/1414792838675562/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        bridal
+    ];
 }
 

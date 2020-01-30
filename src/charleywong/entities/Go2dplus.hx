@@ -29,6 +29,9 @@ class Go2dplus implements Entity {
             url: "https://www.facebook.com/go2dplus/posts/3456551884370102"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

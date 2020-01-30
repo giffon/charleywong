@@ -23,6 +23,8 @@ class Hongkongsaying implements Entity {
             url: "https://www.facebook.com/hongkongsaying/posts/2480047895603798"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

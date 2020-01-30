@@ -26,6 +26,9 @@ class HWWeddingPhotography implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=2516525008413470&id=841031149296206"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding,
+    ];
 }
 

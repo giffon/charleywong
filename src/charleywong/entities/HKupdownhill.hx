@@ -22,6 +22,8 @@ class HKupdownhill implements Entity {
             url: "https://www.facebook.com/HKupdownhill/photos/a.708065442595844/2396425787093126/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

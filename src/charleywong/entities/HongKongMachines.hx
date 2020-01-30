@@ -37,6 +37,9 @@ class HongKongMachines implements Entity {
             url: "https://www.facebook.com/HongKongMachines/posts/501401834039131"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

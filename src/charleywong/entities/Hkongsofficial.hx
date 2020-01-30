@@ -31,6 +31,8 @@ class Hkongsofficial implements Entity {
             url: "https://www.facebook.com/hkongsofficial/photos/a.134369551287249/176146923776178/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

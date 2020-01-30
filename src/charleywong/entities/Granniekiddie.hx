@@ -32,6 +32,9 @@ class Granniekiddie implements Entity {
             url: "https://www.facebook.com/granniekiddie/posts/923607314681926"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        clothing,
+        accessories
+    ];
 }
 

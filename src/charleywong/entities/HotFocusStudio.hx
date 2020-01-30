@@ -26,6 +26,9 @@ class HotFocusStudio implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=2757636624299440&id=150150528381409"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        music,
+        shop
+    ];
 }
 

@@ -27,6 +27,9 @@ class Greenfieldbookstore implements Entity {
             url: "https://www.facebook.com/greenfieldbookstore/photos/a.1557862131181965/2158298967804942"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        book,
+        shop
+    ];
 }
 

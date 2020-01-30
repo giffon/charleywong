@@ -30,6 +30,9 @@ class GooseSiuPhotography implements Entity {
             url: "https://www.facebook.com/GooseSiuPhotography/posts/2453845634670497"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

@@ -29,6 +29,8 @@ class Gunglok implements Entity {
             url: "https://www.facebook.com/gunglok/photos/a.269355803418744/920429524978032/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

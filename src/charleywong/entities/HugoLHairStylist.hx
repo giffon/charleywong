@@ -23,6 +23,8 @@ class HugoLHairStylist implements Entity {
             url: "https://www.facebook.com/hugolhair/photos/a.2511003072465549/3138250113074172/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        salon
+    ];
 }
 

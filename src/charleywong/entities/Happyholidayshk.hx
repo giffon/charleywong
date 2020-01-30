@@ -26,6 +26,8 @@ class Happyholidayshk implements Entity {
             url: "https://www.facebook.com/happyholidayshk/photos/a.608979529533430/800322423732472/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

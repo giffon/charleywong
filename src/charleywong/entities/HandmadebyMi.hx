@@ -35,6 +35,9 @@ class HandmadebyMi implements Entity {
             url: "https://www.facebook.com/handmadebymi/photos/a.175711175851632/2424165004339560/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop,
+        wedding
+    ];
 }
 

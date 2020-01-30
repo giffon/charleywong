@@ -26,6 +26,9 @@ class Gregorywong implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=10156861624130678&id=260003335677"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure,
+        artist
+    ];
 }
 

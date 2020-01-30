@@ -29,6 +29,9 @@ class GreenupBeauty implements Entity {
             url: "https://www.facebook.com/greenupbeauty/posts/803008950119937"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        shop
+    ];
 }
 

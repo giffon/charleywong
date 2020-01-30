@@ -26,6 +26,8 @@ class Hongkongcemetery implements Entity {
             url: "https://www.facebook.com/hongkongcemetery/posts/545868809309827"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

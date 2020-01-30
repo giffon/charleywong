@@ -32,6 +32,9 @@ class HalfAnHourStudio implements Entity {
             url: "https://www.facebook.com/HalfAnHourStudio/photos/a.506089229536017/1603982853079977/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        music,
+        shop
+    ];
 }
 

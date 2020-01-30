@@ -27,6 +27,8 @@ class GlamourLeathershop implements Entity {
             url: "https://www.facebook.com/GlamourLeather/photos/a.553127174753418/2693001137432667"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

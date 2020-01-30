@@ -28,6 +28,8 @@ class Hkteamforcleaning implements Entity {
             url: "https://www.facebook.com/hkteamforcleaning/posts/2199877486980255"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

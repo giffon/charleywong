@@ -23,6 +23,8 @@ class Holhystore implements Entity {
             url: "https://www.facebook.com/holhystore/photos/a.872553352881381/1686352334834808"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        clothing
+    ];
 }
 

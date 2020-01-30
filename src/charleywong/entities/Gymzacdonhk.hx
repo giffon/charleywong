@@ -33,6 +33,8 @@ class Gymzacdonhk implements Entity {
             url: "https://www.facebook.com/gymzacdon.hk/posts/2106173259678849"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

@@ -33,6 +33,8 @@ class Hokoguide implements Entity {
             url: "https://www.facebook.com/hokoguide/photos/a.128979631856146/149652746455501/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

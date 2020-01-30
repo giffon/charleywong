@@ -36,6 +36,8 @@ class Hkdistillery implements Entity {
             url: "https://www.facebook.com/hkdistillery/posts/498622347389318"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

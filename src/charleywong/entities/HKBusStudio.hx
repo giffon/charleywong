@@ -25,6 +25,8 @@ class HKBusStudio implements Entity {
             url: "https://www.facebook.com/hkbusstudio/posts/2361390913987048"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

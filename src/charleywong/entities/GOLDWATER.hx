@@ -27,6 +27,8 @@ class GOLDWATER implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=812942269120902&id=529323744149424"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

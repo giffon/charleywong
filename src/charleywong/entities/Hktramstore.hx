@@ -27,6 +27,8 @@ class Hktramstore implements Entity {
             url: "https://www.facebook.com/hktramstore/posts/630592287680750"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

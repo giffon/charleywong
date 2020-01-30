@@ -29,6 +29,8 @@ class HandmadeTense implements Entity {
             url: "https://www.facebook.com/HandmadeTense/posts/1087638244763855"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

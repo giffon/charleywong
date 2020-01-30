@@ -28,6 +28,8 @@ class HairworkNS implements Entity {
             url: "https://www.facebook.com/371810733292524/photos/a.411809065959357/695831174223810/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        salon
+    ];
 }
 

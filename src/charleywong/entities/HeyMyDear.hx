@@ -29,6 +29,8 @@ class HeyMyDear implements Entity {
             url: "https://www.facebook.com/heymydearhk/photos/a.589569238089231/839300826449403/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

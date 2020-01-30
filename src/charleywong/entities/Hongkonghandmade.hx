@@ -27,6 +27,8 @@ class Hongkonghandmade implements Entity {
             url: "https://www.facebook.com/hongkonghandmade/posts/1319662001523903"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

@@ -37,6 +37,9 @@ class HongKongPegasus implements Entity {
             url: "https://www.facebook.com/HongKongPegasus/posts/800512053704002"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        technology,
+        shop
+    ];
 }
 

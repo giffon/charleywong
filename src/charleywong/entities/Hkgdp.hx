@@ -26,6 +26,9 @@ class Hkgdp implements Entity {
             url: "https://www.facebook.com/hkgdp/posts/2571658982925145"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media,
+        organization
+    ];
 }
 

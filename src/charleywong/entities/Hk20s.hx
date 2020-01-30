@@ -26,6 +26,8 @@ class Hk20s implements Entity {
             url: "https://www.facebook.com/20shk/posts/2768283036556654"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer
+    ];
 }
 

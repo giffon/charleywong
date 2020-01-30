@@ -26,6 +26,10 @@ class HilaryBridalMakeup implements Entity {
             url: "https://www.facebook.com/496201310571777/photos/a.509013889290519/1189171624608072/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

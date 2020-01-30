@@ -27,6 +27,8 @@ class Hikingwave implements Entity {
             url: "https://www.facebook.com/hikingwave/photos/a.277967845984638/817896171991800/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

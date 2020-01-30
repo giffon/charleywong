@@ -25,6 +25,8 @@ class Hmdeki implements Entity {
             url: "https://www.facebook.com/hm.deki/photos/a.457919004657760/679455132504145/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

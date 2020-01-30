@@ -30,6 +30,9 @@ class Gigaukulele implements Entity {
             url: "https://www.facebook.com/gigaukulele/posts/2951240528272301"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        music,
+        shop
+    ];
 }
 

@@ -29,6 +29,8 @@ class Hikingtommy implements Entity {
             url: "https://www.facebook.com/hikingtommy/posts/2531618756953464"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

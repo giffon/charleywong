@@ -38,6 +38,8 @@ class GardenMeow implements Entity {
             url: "https://www.facebook.com/gardenmeow.hk/photos/a.877772009054418/1413976578767289/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

@@ -30,6 +30,8 @@ class HistoryinDRAMA implements Entity {
             url: "https://www.facebook.com/HistoryinDRAMA/posts/3117207491682495"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

@@ -29,6 +29,8 @@ class Hkhooptutor implements Entity {
             url: "https://www.facebook.com/hkhooptutor/photos/a.111628283645721/130092545132628/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

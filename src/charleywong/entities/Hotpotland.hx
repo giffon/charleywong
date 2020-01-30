@@ -34,6 +34,8 @@ class Hotpotland implements Entity {
             url: "https://www.facebook.com/hotpotland/photos/a.576812192506951/1209969302524567/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

@@ -28,6 +28,8 @@ class GoodNeighbournd implements Entity {
             url: "https://www.facebook.com/GoodNeighbournd/photos/a.1563622323932137/2174783506149346/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        organization
+    ];
 }
 

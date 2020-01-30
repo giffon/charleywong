@@ -26,6 +26,8 @@ class HKPUSUCAS implements Entity {
             url: "https://www.facebook.com/HKPUSUCAS/posts/1076852989187149"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        organization
+    ];
 }
 

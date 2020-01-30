@@ -28,6 +28,8 @@ class GrannyChicBridal implements Entity {
             url: "https://www.facebook.com/grannychicbridal/posts/3375372382502985"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        bridal
+    ];
 }
 

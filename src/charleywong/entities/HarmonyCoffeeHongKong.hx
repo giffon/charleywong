@@ -37,6 +37,8 @@ class HarmonyCoffeeHongKong implements Entity {
             url: "https://www.facebook.com/harmonycoffee.hk/photos/a.1107869549418469/1224177241121032/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

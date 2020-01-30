@@ -33,6 +33,8 @@ class Giantstiedye implements Entity {
             url: "https://www.facebook.com/giantstiedye/photos/a.886592474710613/2561853697184474/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        clothing
+    ];
 }
 

@@ -23,6 +23,8 @@ class Helphker implements Entity {
             url: "https://www.facebook.com/helphker/posts/130548855092299"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        organization
+    ];
 }
 

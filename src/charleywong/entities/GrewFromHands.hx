@@ -29,6 +29,8 @@ class GrewFromHands implements Entity {
             url: "https://www.facebook.com/grewfromhands/photos/a.888248061356560/1481652398682787/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

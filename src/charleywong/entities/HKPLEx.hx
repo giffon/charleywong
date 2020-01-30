@@ -31,6 +31,8 @@ class HKPLEx implements Entity {
             url: "https://www.facebook.com/HKPLEx/posts/129524285080021"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

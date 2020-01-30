@@ -33,6 +33,8 @@ class Hkptunion implements Entity {
             url: "https://www.facebook.com/hkptunion/photos/a.622869427788003/3341608225914096/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        organization
+    ];
 }
 

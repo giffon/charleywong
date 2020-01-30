@@ -97,6 +97,13 @@ class Tag {
         inherits: [publicfigure]
     };
 
+    static public final salon:Tag = {
+        name: [
+            en => "barber/salon",
+            zh => "理髮/沙龍"
+        ]
+    }
+
     static public final book:Tag = {
         name: [
             en => "book",

@@ -33,6 +33,9 @@ class Humchuk implements Entity {
             url: "https://www.facebook.com/humchuk/photos/a.299998833491905/1327969167361528/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

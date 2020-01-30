@@ -30,6 +30,8 @@ class Gamek41 implements Entity {
             url: "https://www.facebook.com/gamek41/posts/2331851080257993"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

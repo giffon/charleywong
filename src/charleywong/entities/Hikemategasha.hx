@@ -31,6 +31,8 @@ class Hikemategasha implements Entity {
             url: "https://www.facebook.com/hikemate.gasha/photos/a.408527079508367/890134544680949/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

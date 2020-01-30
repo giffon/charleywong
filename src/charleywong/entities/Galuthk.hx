@@ -30,6 +30,8 @@ class Galuthk implements Entity {
             url: "https://www.facebook.com/galut.hk/photos/a.663415004176500/803786836805982/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

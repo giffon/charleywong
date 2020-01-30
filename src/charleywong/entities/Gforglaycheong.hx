@@ -19,6 +19,9 @@ class Gforglaycheong implements Entity {
                 ],
                 "id" => "106014527610433"
             ]
+        },
+        {
+            url: "https://www.instagram.com/glaycheong_visual_memories/"
         }
     ];
     public final posts:Array<Post> = [
@@ -26,6 +29,8 @@ class Gforglaycheong implements Entity {
             url: "https://www.facebook.com/gforglaycheong/photos/a.1908782989169596/3691391964242014/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer
+    ];
 }
 

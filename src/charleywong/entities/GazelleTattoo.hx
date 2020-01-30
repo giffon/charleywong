@@ -36,6 +36,9 @@ class GazelleTattoo implements Entity {
             url: "https://www.facebook.com/gazelletattoo/photos/a.996240843800801/2620212708070265/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist
+    ];
 }
 

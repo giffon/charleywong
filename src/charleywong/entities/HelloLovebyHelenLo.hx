@@ -26,6 +26,10 @@ class HelloLovebyHelenLo implements Entity {
             url: "https://www.facebook.com/hellolovehelen/posts/2620320574700541"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

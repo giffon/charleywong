@@ -27,6 +27,8 @@ class Heilymama implements Entity {
             url: "https://www.facebook.com/heilymama/photos/a.10152928605499923/10157411950564923/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure
+    ];
 }
 

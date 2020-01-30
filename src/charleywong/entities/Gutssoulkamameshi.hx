@@ -31,6 +31,8 @@ class Gutssoulkamameshi implements Entity {
             url: "https://www.facebook.com/gutssoulkamameshi/photos/a.551881495245183/827787780987885/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

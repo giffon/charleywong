@@ -29,6 +29,8 @@ class Hkgmt implements Entity {
             url: "https://www.facebook.com/hkgmt/photos/a.1032865693472435/2264953703596955/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

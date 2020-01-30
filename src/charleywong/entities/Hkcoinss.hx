@@ -27,6 +27,8 @@ class Hkcoinss implements Entity {
             url: "https://www.facebook.com/hkcoinss/posts/1236007586602866"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

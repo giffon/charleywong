@@ -27,6 +27,8 @@ class HamiHarmony implements Entity {
             url: "https://www.facebook.com/hamiharmony/photos/a.476518709225418/1186539664889982/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 
