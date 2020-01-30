@@ -32,6 +32,9 @@ class Oceanstampsfwte implements Entity {
             url: "https://www.facebook.com/oceanstampsfwte/photos/a.1526180574310707/2339621006299989/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

@@ -26,6 +26,10 @@ class NicoleLauMakeup implements Entity {
             url: "https://www.facebook.com/NicoleLauMakeup/photos/a.493283824138758/1719222504878211/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

@@ -33,6 +33,8 @@ class ODYHandemadeJewelleryMetalWorkshop implements Entity {
             url: "https://www.facebook.com/OdyTheOfficial/posts/2803578873000264"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

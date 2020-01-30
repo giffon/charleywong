@@ -26,6 +26,8 @@ class NetdlaNaturalHandmade implements Entity {
             url: "https://www.facebook.com/netdla/photos/a.164772850389321/1214602668739662/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

@@ -22,6 +22,9 @@ class Ohmysweetday implements Entity {
             url: "https://www.facebook.com/ohmysweetday/posts/1558220200994778"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

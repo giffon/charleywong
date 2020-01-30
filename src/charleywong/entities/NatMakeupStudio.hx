@@ -24,6 +24,10 @@ class NatMakeupStudio implements Entity {
             url: "https://www.facebook.com/natmakeupstudio/photos/a.1804019139676078/2462352940509358/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

@@ -22,6 +22,9 @@ class NursePolitik implements Entity {
             url: "https://www.facebook.com/1638125039738820/photos/a.1651094721775185/2379658538918796/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        medical,
+        organization
+    ];
 }
 

@@ -32,6 +32,9 @@ class Nagee implements Entity {
             url: "https://www.facebook.com/nagee.tw/photos/a.10152207300457312/10156270015422312/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

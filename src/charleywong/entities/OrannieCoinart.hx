@@ -29,6 +29,9 @@ class OrannieCoinart implements Entity {
             url: "https://www.facebook.com/Orannie.Coinart/photos/a.384882314983289/1496970033774506/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

@@ -30,6 +30,8 @@ class Onelifeoneloveflower implements Entity {
             url: "https://www.facebook.com/35590112380/photos/a.10152267822587381/10157695076347381/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

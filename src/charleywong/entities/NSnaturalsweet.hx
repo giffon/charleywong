@@ -38,6 +38,8 @@ class NSnaturalsweet implements Entity {
             url: "https://www.facebook.com/NSnaturalsweet/posts/2950300334997323"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

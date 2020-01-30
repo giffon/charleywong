@@ -28,6 +28,8 @@ class OmCoffeeNHolisticLab implements Entity {
             url: "https://www.facebook.com/omcoffeenholisticlab/photos/a.1932683183700088/2140732752895129/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

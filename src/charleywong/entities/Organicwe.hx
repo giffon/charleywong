@@ -35,6 +35,9 @@ class Organicwe implements Entity {
             url: "https://www.facebook.com/organicwe/posts/2505169219712447"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop,
+        food
+    ];
 }
 

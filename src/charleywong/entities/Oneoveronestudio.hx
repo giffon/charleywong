@@ -31,6 +31,8 @@ class Oneoveronestudio implements Entity {
             url: "https://www.facebook.com/oneoveronestudio/posts/1660662657399437"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

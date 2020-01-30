@@ -24,6 +24,8 @@ class NOTCHfrontstation implements Entity {
             url: "https://www.facebook.com/NOTCHfrontstation/videos/425441158179350/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

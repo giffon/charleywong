@@ -30,6 +30,8 @@ class Novembregirl implements Entity {
             url: "https://www.facebook.com/novembregirl/photos/a.415975715233373/1390506134446988/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

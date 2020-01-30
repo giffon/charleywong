@@ -32,6 +32,9 @@ class NoviosDesignStudio implements Entity {
             url: "https://www.facebook.com/novioshk/posts/2458802751067800"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories,
+        wedding
+    ];
 }
 

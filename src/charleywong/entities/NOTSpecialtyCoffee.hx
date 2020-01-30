@@ -26,6 +26,8 @@ class NOTSpecialtyCoffee implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=3144711868889042&id=720312224662364"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

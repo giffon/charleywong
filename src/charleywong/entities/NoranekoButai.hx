@@ -27,6 +27,9 @@ class NoranekoButai implements Entity {
             url: "https://www.facebook.com/NoranekoButai/photos/a.110491943680197/153293529400038/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

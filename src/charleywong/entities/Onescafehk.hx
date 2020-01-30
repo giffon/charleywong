@@ -28,6 +28,8 @@ class Onescafehk implements Entity {
             url: "https://www.facebook.com/Onescafehk/photos/a.386662011899467/562429360989397/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

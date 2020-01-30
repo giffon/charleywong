@@ -31,6 +31,8 @@ class N1CoffeeCo implements Entity {
             url: "https://www.facebook.com/473097382816950/photos/a.489107161215972/2180335535426451/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

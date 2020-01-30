@@ -28,6 +28,8 @@ class NikonikoHandmade implements Entity {
             url: "https://www.facebook.com/nikoniko.handmade/photos/a.687177457973096/2878155715541915/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

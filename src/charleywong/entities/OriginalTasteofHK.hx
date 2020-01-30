@@ -31,6 +31,8 @@ class OriginalTasteofHK implements Entity {
             url: "https://www.facebook.com/OriginalTasteofHK/photos/a.117342499685335/119813349438250/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

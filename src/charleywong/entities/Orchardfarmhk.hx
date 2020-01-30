@@ -29,6 +29,8 @@ class Orchardfarmhk implements Entity {
             url: "https://www.facebook.com/orchardfarmhk/posts/3045423879016354"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

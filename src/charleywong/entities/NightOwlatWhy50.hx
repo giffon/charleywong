@@ -27,6 +27,8 @@ class NightOwlatWhy50 implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=641021229769643&id=451834995354935"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

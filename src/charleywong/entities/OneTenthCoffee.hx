@@ -31,6 +31,8 @@ class OneTenthCoffee implements Entity {
             url: "https://www.facebook.com/onetenthcoffee/photos/a.2289687631242937/2334016706810029/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

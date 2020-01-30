@@ -26,6 +26,9 @@ class Ninebirdfrog implements Entity {
             url: "https://www.facebook.com/ninebirdfrog/posts/981798738854228"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories,
+        clothing
+    ];
 }
 

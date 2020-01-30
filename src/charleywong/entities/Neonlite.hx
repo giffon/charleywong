@@ -26,6 +26,9 @@ class Neonlite implements Entity {
             url: "https://www.facebook.com/neonlitehk/photos/a.1913481432277363/2414491605509674/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

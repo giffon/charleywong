@@ -38,6 +38,9 @@ class Okpoumusic implements Entity {
             url: "https://www.facebook.com/okpoumusic/photos/a.621440251572946/959493487767619/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        music,
+        shop
+    ];
 }
 

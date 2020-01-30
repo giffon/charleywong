@@ -29,6 +29,8 @@ class Naplabworkshop implements Entity {
             url: "https://www.facebook.com/naplabworkshop/posts/2462707610660645"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

@@ -23,6 +23,8 @@ class NachuArticle implements Entity {
             url: "https://www.facebook.com/NachuArticle/posts/147865689888925"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

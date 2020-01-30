@@ -24,6 +24,8 @@ class Naildio implements Entity {
             url: "https://www.facebook.com/naildio/photos/a.372202726857534/597635700980901/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup
+    ];
 }
 

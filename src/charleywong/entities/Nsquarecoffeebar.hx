@@ -31,6 +31,8 @@ class Nsquarecoffeebar implements Entity {
             url: "https://www.facebook.com/nsquare.coffeebar/photos/a.255308811842352/431617294211502/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

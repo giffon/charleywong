@@ -32,6 +32,8 @@ class Oasistrek implements Entity {
             url: "https://www.facebook.com/oasistrek/posts/2577695938936354"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

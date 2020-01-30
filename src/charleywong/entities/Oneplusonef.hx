@@ -25,6 +25,8 @@ class Oneplusonef implements Entity {
             url: "https://www.facebook.com/oneplusonef/posts/1179353268917396"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

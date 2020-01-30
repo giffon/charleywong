@@ -38,6 +38,8 @@ class NothingSerious implements Entity {
             url: "https://www.facebook.com/nothingseriousfans/photos/a.661536297298322/2195753067209963/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

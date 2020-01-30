@@ -30,6 +30,8 @@ class Ohmshk2017 implements Entity {
             url: "https://www.facebook.com/ohmshk2017/posts/2560775427309198"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

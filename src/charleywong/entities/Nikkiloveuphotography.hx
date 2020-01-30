@@ -26,6 +26,9 @@ class Nikkiloveuphotography implements Entity {
             url: "https://www.facebook.com/nikkiloveuphoto/photos/a.322017384519984/2466988283356206/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 
