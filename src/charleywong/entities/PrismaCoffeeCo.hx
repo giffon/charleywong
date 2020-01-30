@@ -26,6 +26,8 @@ class PrismaCoffeeCo implements Entity {
             url: "https://www.facebook.com/prismacoffeehk.tinhau/posts/2594590143941120"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

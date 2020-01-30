@@ -36,6 +36,8 @@ class RubberBand implements Entity {
             url: "https://www.facebook.com/RubberBandHK/posts/10151475402676434"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        music
+    ];
 }
 

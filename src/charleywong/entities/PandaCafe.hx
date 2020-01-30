@@ -26,6 +26,8 @@ class PandaCafe implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=2330693156977490&id=120736337973194"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

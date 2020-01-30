@@ -35,6 +35,8 @@ class PerfectlyImperfectLeatherCraft implements Entity {
             url: "https://www.facebook.com/PILeather/posts/2499931696721032"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

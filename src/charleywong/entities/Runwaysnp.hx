@@ -25,6 +25,8 @@ class Runwaysnp implements Entity {
             url: "https://www.facebook.com/runwaysnp/posts/2286549748066846"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

@@ -23,6 +23,9 @@ class PatrickChoPhotography implements Entity {
             url: "https://www.facebook.com/PatrickChoPhotography/posts/2470025486619729"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

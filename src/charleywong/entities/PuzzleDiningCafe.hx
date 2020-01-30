@@ -31,6 +31,8 @@ class PuzzleDiningCafe implements Entity {
             url: "https://www.facebook.com/E18cafe/photos/a.343469722948895/379343086028225/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

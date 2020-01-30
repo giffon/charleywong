@@ -33,6 +33,8 @@ class Pokeguide implements Entity {
             url: "https://www.facebook.com/PokeguideHK/photos/a.1623490984582016/2325110964420011/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

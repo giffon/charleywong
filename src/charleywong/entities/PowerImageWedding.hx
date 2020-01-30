@@ -27,6 +27,10 @@ class PowerImageWedding implements Entity {
             url: "https://www.facebook.com/PowerImageWedding/photos/a.280209705446330/1714632595337360/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

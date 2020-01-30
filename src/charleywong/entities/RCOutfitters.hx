@@ -36,6 +36,8 @@ class RCOutfitters implements Entity {
             url: "https://www.facebook.com/RCOutfitters/posts/10157271224550053"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

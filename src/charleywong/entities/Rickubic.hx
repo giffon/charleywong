@@ -29,6 +29,9 @@ class Rickubic implements Entity {
             url: "https://www.facebook.com/rickloillustration/posts/2212154428911006"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

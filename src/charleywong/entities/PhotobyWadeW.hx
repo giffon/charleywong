@@ -27,6 +27,9 @@ class PhotobyWadeW implements Entity {
             url: "https://www.facebook.com/photobywadew/posts/2629831417073701"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

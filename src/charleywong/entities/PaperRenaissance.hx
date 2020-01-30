@@ -31,6 +31,9 @@ class PaperRenaissance implements Entity {
             url: "https://www.facebook.com/Paper.Renaissance/photos/a.479466052150823/662856447145115/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop,
+        wedding
+    ];
 }
 

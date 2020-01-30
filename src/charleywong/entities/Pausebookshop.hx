@@ -27,6 +27,9 @@ class Pausebookshop implements Entity {
             url: "https://www.facebook.com/pausebookshop/photos/a.304447596415180/1160421424151122"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        book,
+        shop
+    ];
 }
 

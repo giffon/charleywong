@@ -22,6 +22,8 @@ class RosesFloralAtelier implements Entity {
             url: "https://www.facebook.com/rosesfloralatelier/photos/a.768027633273464/2541189925957217/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

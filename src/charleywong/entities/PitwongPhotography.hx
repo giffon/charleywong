@@ -28,6 +28,9 @@ class PitwongPhotography implements Entity {
             url: "https://www.facebook.com/pitwongphoto/posts/10157820275558872"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

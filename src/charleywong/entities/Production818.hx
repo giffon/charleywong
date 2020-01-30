@@ -23,6 +23,9 @@ class Production818 implements Entity {
             url: "https://www.facebook.com/818production/photos/a.1460458030940706/2429750980678068/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

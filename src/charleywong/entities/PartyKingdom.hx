@@ -30,6 +30,8 @@ class PartyKingdom implements Entity {
             url: "https://www.facebook.com/213081302630250/photos/a.232777757327271/436167543654957/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

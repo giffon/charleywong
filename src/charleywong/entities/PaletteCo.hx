@@ -28,6 +28,10 @@ class PaletteCo implements Entity {
             url: "https://www.facebook.com/paletteco/photos/a.136356263059679/3024467830915160/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        wedding,
+        shop,
+        emcee,
+    ];
 }
 

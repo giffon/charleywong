@@ -32,6 +32,9 @@ class Pearlcatcat implements Entity {
             url: "https://www.facebook.com/pearlcatcat/photos/a.1532015777066698/2480227278912205/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        accessories
+    ];
 }
 

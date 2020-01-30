@@ -26,6 +26,9 @@ class Pazukong implements Entity {
             url: "https://www.facebook.com/pazukong/posts/2733835833515878"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure,
+        media
+    ];
 }
 

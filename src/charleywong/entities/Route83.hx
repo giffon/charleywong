@@ -27,6 +27,8 @@ class Route83 implements Entity {
             url: "https://www.facebook.com/2016route83/posts/2667554203297113"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

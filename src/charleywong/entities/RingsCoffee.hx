@@ -29,6 +29,8 @@ class RingsCoffee implements Entity {
             url: "https://www.facebook.com/ringscoffee/posts/504546103469773"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

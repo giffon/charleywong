@@ -26,6 +26,9 @@ class PaperGoodsbyDorie implements Entity {
             url: "https://www.facebook.com/PaperGoodsbyDorie/videos/2430158267267364/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

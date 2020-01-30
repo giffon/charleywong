@@ -27,6 +27,8 @@ class ReturnCoffee362 implements Entity {
             url: "https://www.facebook.com/returncoffee362/posts/2727925847270101"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

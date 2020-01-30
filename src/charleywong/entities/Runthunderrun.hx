@@ -27,6 +27,8 @@ class Runthunderrun implements Entity {
             url: "https://www.facebook.com/runthunderrun/posts/10157504001137211"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

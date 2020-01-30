@@ -33,6 +33,8 @@ class PaperhoodHK implements Entity {
             url: "https://www.facebook.com/paperhoodhk/photos/a.1659223200994895/2266156883634854/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

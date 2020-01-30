@@ -24,6 +24,8 @@ class Pigpigchudom implements Entity {
             url: "https://www.facebook.com/pigpigchudom/posts/1492478670904144"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

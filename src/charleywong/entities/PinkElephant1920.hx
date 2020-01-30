@@ -27,6 +27,8 @@ class PinkElephant1920 implements Entity {
             url: "https://www.facebook.com/pinkelephant1920/photos/a.1630128767238627/2335480573370106/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        clothing
+    ];
 }
 

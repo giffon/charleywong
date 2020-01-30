@@ -32,6 +32,8 @@ class Repurposehk implements Entity {
             url: "https://www.facebook.com/repurpose.hk/photos/a.1403997049686367/2204561329629931/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

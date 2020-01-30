@@ -6,9 +6,9 @@ class PulppyHK implements Entity {
         en => "Pulppy HK"
     ];
     public final webpages:Array<WebPage> = [
-        // {
-        //     url: "http://www.pulppy.com"
-        // },
+        {
+            url: "http://www.pulppy.com"
+        },
         {
             url: "https://www.facebook.com/pulppyhk/",
             meta: [
@@ -30,6 +30,8 @@ class PulppyHK implements Entity {
             url: "https://www.facebook.com/pulppyhk/photos/a.2229029574046910/2389958941287305/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

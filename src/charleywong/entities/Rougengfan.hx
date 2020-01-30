@@ -29,6 +29,8 @@ class Rougengfan implements Entity {
             url: "https://www.facebook.com/rougengfan/photos/a.335697416775237/1011254769219495/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

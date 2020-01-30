@@ -32,6 +32,9 @@ class PandaTechnology implements Entity {
             url: "https://www.facebook.com/PandaTechHK/posts/2176031232692567"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        technology,
+        shop
+    ];
 }
 

@@ -30,6 +30,9 @@ class Prayaac implements Entity {
             url: "https://www.facebook.com/prayaac/photos/a.757464887713224/2182789208514111/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        medical,
+        shop
+    ];
 }
 

@@ -30,6 +30,8 @@ class RTHKVNEWS implements Entity {
             url: "https://www.facebook.com/RTHKVNEWS/posts/2943036502471053"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

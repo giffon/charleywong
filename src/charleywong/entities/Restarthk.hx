@@ -29,6 +29,8 @@ class Restarthk implements Entity {
             url: "https://www.facebook.com/restarthk/posts/1299272893592780"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

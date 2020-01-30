@@ -26,6 +26,8 @@ class REACTIONCoffeeRoasters implements Entity {
             url: "https://www.facebook.com/reactioncoffeeroasters/photos/a.1593356100896434/2368236120075091/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

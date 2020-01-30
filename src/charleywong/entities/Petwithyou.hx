@@ -33,6 +33,8 @@ class Petwithyou implements Entity {
             url: "https://www.facebook.com/petwithyou/posts/119847399487711"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        organization
+    ];
 }
 

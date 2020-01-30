@@ -26,6 +26,8 @@ class Rawcrafthandmade implements Entity {
             url: "https://www.facebook.com/Rawcrafthandmade/photos/a.940719782725085/1693126614151061/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

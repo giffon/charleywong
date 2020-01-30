@@ -26,6 +26,9 @@ class PrettyFlowerHK implements Entity {
             url: "https://www.facebook.com/PrettyFlowerHK/posts/1096631243870474"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist,
+        wedding
+    ];
 }
 

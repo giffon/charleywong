@@ -32,6 +32,8 @@ class PHOON implements Entity {
             url: "https://www.instagram.com/p/B1lVSXbA0C_/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        music
+    ];
 }
 

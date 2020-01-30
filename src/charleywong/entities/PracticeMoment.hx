@@ -34,6 +34,9 @@ class PracticeMoment implements Entity {
             url: "https://www.facebook.com/practicemoment/posts/2320968104842231"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        music,
+        shop
+    ];
 }
 

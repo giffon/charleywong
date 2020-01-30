@@ -32,6 +32,9 @@ class ResearchWeddingMagazine implements Entity {
             url: "https://www.facebook.com/researchwedding/posts/1467498600070912"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        wedding,
+        media
+    ];
 }
 

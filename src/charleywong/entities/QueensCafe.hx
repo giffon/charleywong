@@ -27,6 +27,8 @@ class QueensCafe implements Entity {
             url: "https://www.facebook.com/QueensCafe/photos/a.846073282111713/2463007067084985/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

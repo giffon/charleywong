@@ -27,6 +27,8 @@ class PhoenixBasketballLeague implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=1397094307130496&id=151434158363190"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        organization
+    ];
 }
 

@@ -27,6 +27,9 @@ class PaperRabbitArtsCrafts implements Entity {
             url: "https://www.facebook.com/PaperRabbitArtsAndCrafts/posts/2234401966663311"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories,
+        wedding
+    ];
 }
 
