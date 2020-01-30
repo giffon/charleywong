@@ -33,6 +33,9 @@ class Meilokstudio implements Entity {
             url: "https://www.facebook.com/meilokstudio/posts/944800312541884"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

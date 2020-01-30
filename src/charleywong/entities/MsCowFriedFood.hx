@@ -29,6 +29,8 @@ class MsCowFriedFood implements Entity {
             url: "https://www.facebook.com/MsCowFriedFood/posts/833118124186246"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

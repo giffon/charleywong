@@ -32,6 +32,8 @@ class MyLittleCoffee implements Entity {
             url: "https://www.facebook.com/MYLITTLECOFFEE.HK/photos/a.464831840255088/3102330876505158/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

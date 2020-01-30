@@ -27,6 +27,8 @@ class Mmfhandicraft implements Entity {
             url: "https://www.facebook.com/mmfhandicraft/photos/a.511521959008586/1319162941577813/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

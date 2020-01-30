@@ -29,6 +29,8 @@ class Muous implements Entity {
             url: "https://www.facebook.com/muous/posts/2544625549115227"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

@@ -29,6 +29,9 @@ class Menclavehk implements Entity {
             url: "https://www.facebook.com/menclavehk/photos/a.704906142924596/2543320212416504/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        bridal,
+        clothing
+    ];
 }
 

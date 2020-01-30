@@ -22,6 +22,10 @@ class MUAMomoChow implements Entity {
             url: "https://www.facebook.com/MUAMomoChow/photos/a.10150743969754663/10157557785009663/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

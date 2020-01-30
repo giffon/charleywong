@@ -25,6 +25,8 @@ class Mosssunsun implements Entity {
             url: "https://www.facebook.com/mosssunsun/photos/a.225981994586283/680215155829629/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

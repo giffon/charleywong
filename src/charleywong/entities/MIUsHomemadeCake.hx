@@ -22,6 +22,8 @@ class MIUsHomemadeCake implements Entity {
             url: "https://www.facebook.com/miuhmc/photos/a.581593815203296/3138214766207842/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

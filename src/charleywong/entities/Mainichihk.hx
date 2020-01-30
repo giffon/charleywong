@@ -32,6 +32,8 @@ class Mainichihk implements Entity {
             url: "https://www.facebook.com/mainichi.hk/photos/a.106663314104088/134537101316709/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

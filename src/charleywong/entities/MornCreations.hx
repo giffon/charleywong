@@ -35,6 +35,8 @@ class MornCreations implements Entity {
             url: "https://www.facebook.com/morncreations/photos/a.141124349251273/2904540296242984/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

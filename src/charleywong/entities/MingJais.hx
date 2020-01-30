@@ -29,6 +29,8 @@ class MingJais implements Entity {
             url: "https://www.facebook.com/MingJais/photos/a.592395227438548/2941537279190986/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure
+    ];
 }
 

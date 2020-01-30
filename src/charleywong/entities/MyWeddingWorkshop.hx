@@ -29,6 +29,9 @@ class MyWeddingWorkshop implements Entity {
             url: "https://www.facebook.com/myweddingworkshop/photos/a.798776106875844/2523211391098965/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        bridal,
+        makeup
+    ];
 }
 

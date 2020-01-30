@@ -29,6 +29,10 @@ class Moonnbackcalligraphy implements Entity {
             url: "https://www.facebook.com/moonnbackcalligraphy/photos/a.2466421816949058/2365814140343160/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop,
+        wedding
+    ];
 }
 

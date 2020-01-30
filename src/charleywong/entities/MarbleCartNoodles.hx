@@ -28,6 +28,8 @@ class MarbleCartNoodles implements Entity {
             url: "https://www.facebook.com/Marble.Cart.Noodles/photos/a.966081780132528/3218137764926907/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

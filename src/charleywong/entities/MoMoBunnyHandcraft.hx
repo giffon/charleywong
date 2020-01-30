@@ -27,6 +27,9 @@ class MoMoBunnyHandcraft implements Entity {
             url: "https://www.facebook.com/MoMoBunnyHandcraft/posts/2386849208040009"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

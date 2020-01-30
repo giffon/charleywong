@@ -27,6 +27,9 @@ class Malic implements Entity {
             url: "https://www.facebook.com/malichandmade/photos/a.232897653416480/2531100120262877/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist
+    ];
 }
 

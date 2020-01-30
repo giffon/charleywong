@@ -24,6 +24,10 @@ class MiuccyBeauty implements Entity {
             url: "https://www.facebook.com/miuccybeauty/photos/a.456976824510027/1233210830219952/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        shop
+    ];
 }
 

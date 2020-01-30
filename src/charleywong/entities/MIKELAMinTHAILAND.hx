@@ -21,6 +21,8 @@ class MIKELAMinTHAILAND implements Entity {
             url: "https://www.facebook.com/103385657854752/photos/a.111984683661516/111984660328185/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure
+    ];
 }
 

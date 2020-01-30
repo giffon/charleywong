@@ -32,6 +32,8 @@ class MYCUPOFTEE implements Entity {
             url: "https://www.facebook.com/mcotee/posts/2690239154329142"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        clothing
+    ];
 }
 

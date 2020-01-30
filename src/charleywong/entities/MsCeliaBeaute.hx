@@ -31,6 +31,10 @@ class MsCeliaBeaute implements Entity {
             url: "https://www.facebook.com/msceliabeaute/posts/3175271402545768"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

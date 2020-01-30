@@ -25,6 +25,9 @@ class Monsteriz implements Entity {
             url: "https://www.facebook.com/monsterizdesign/photos/a.711580278986303/1826540144156972/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

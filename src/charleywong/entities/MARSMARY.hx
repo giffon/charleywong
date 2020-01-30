@@ -25,6 +25,9 @@ class MARSMARY implements Entity {
             url: "https://www.facebook.com/MARSMARYYY/photos/a.466840653447170/1616342185163672/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        accessories
+    ];
 }
 

@@ -25,6 +25,9 @@ class MikePhotography implements Entity {
             url: "https://www.facebook.com/mikelawphotography/photos/a.312088392254164/2279913908804926/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

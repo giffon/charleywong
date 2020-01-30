@@ -22,6 +22,9 @@ class Mizuland implements Entity {
             url: "https://www.facebook.com/mizulands/photos/a.149481705199768/1566481983499726/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        accessories
+    ];
 }
 

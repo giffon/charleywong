@@ -27,6 +27,8 @@ class Mimingmart implements Entity {
             url: "https://www.facebook.com/mimingmart/posts/2618763608181451"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

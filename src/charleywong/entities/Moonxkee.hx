@@ -26,6 +26,8 @@ class Moonxkee implements Entity {
             url: "https://www.facebook.com/moonxkee/posts/2554241808121812"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

@@ -27,6 +27,8 @@ class Mountaingirlhk implements Entity {
             url: "https://www.facebook.com/mountaingirlhk/photos/a.1278787888822667/2810343045667136/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

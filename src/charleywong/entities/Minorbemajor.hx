@@ -37,6 +37,8 @@ class Minorbemajor implements Entity {
             url: "https://www.facebook.com/minorbemajor/posts/2489848147965527"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

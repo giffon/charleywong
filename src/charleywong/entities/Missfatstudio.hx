@@ -27,6 +27,9 @@ class Missfatstudio implements Entity {
             url: "https://www.facebook.com/missfatstudio/posts/2618821964833304"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        accessories
+    ];
 }
 

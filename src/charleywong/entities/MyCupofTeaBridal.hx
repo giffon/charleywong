@@ -26,6 +26,8 @@ class MyCupofTeaBridal implements Entity {
             url: "https://www.facebook.com/mycupofteabridal/photos/a.535942109840298/1872410226193473/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        bridal
+    ];
 }
 

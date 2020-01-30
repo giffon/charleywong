@@ -33,6 +33,8 @@ class MerciFlorist implements Entity {
             url: "https://www.facebook.com/merciflorist/photos/a.1587092568248774/2240377996253558/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

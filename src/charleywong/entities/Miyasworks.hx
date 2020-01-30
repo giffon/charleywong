@@ -24,6 +24,8 @@ class Miyasworks implements Entity {
             url: "https://www.facebook.com/miyasworks/photos/a.468333486700020/1269475013252526"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

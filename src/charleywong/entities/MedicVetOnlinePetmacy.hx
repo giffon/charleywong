@@ -29,6 +29,9 @@ class MedicVetOnlinePetmacy implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=2415838052024299&id=2325772314364207"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        medical,
+        shop
+    ];
 }
 

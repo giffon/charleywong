@@ -29,6 +29,9 @@ class MiWHandmade implements Entity {
             url: "https://www.facebook.com/2116792368365329/photos/a.2116832005028032/2453803887997507/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        accessories
+    ];
 }
 

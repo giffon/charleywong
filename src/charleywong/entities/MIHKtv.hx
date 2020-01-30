@@ -34,6 +34,8 @@ class MIHKtv implements Entity {
             url: "https://www.facebook.com/MIHK.tv/posts/1028132047395887"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

@@ -27,6 +27,9 @@ class MakeawishMakeupStudio implements Entity {
             url: "https://www.facebook.com/makeawishmakeupstudio/posts/1400377450122374"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        wedding
+    ];
 }
 

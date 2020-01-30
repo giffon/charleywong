@@ -24,6 +24,8 @@ class Madebymeow implements Entity {
             url: "https://www.facebook.com/madeby.meow/photos/a.1564220016954880/2472587052784834/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

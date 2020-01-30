@@ -26,6 +26,9 @@ class MikoTeaShop implements Entity {
             url: "https://www.facebook.com/MikoTeaShop/posts/128783341922578"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food,
+        medical
+    ];
 }
 

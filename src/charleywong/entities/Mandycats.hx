@@ -34,6 +34,9 @@ class Mandycats implements Entity {
             url: "https://www.facebook.com/mandycats/posts/10157227240056023"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

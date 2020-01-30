@@ -32,6 +32,9 @@ class Mechcalvinshop implements Entity {
             url: "https://www.facebook.com/mechcalvinshop/posts/2277136075657610"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        technology,
+        shop
+    ];
 }
 

@@ -32,6 +32,10 @@ class MomodeFilm implements Entity {
             url: "https://www.facebook.com/momodefilm/posts/2457614200971019"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        makeup,
+        wedding
+    ];
 }
 

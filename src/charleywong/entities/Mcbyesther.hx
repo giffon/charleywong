@@ -30,6 +30,9 @@ class Mcbyesther implements Entity {
             url: "https://www.facebook.com/mcbyesther/photos/a.1028641703896495/2544884475605536/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        book,
+        media
+    ];
 }
 

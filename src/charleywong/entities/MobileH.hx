@@ -24,6 +24,9 @@ class MobileH implements Entity {
             url: "https://www.facebook.com/mobileh10012018/posts/493992491207573"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        technology,
+        shop
+    ];
 }
 

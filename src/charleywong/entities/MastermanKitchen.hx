@@ -25,6 +25,8 @@ class MastermanKitchen implements Entity {
             url: "https://www.facebook.com/mastermankitchen/posts/1099500283571833"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

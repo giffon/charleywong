@@ -29,6 +29,8 @@ class Momogutguthk implements Entity {
             url: "https://www.facebook.com/momogutgut.hk/photos/a.1319976408020153/3129954563688986/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

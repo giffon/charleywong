@@ -26,6 +26,9 @@ class Mancentmarcus implements Entity {
             url: "https://www.facebook.com/mancentmarcus/posts/2231074740332478"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media,
+        publicfigure
+    ];
 }
 

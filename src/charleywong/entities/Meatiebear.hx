@@ -31,6 +31,9 @@ class Meatiebear implements Entity {
             url: "https://www.facebook.com/meatiebear/posts/2590552344331597"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

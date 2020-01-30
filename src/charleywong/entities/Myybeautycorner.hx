@@ -29,6 +29,9 @@ class Myybeautycorner implements Entity {
             url: "https://www.facebook.com/myybeautycorner/photos/a.1797405403806115/2425639044316078/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        shop
+    ];
 }
 

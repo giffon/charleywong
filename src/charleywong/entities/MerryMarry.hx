@@ -28,6 +28,10 @@ class MerryMarry implements Entity {
             url: "https://www.facebook.com/MerryMarryMakeup/posts/2473015126108553"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

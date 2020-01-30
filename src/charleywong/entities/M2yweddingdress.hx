@@ -25,6 +25,8 @@ class M2yweddingdress implements Entity {
             url: "https://www.facebook.com/m2yweddingdress/posts/1515281265279769"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        bridal
+    ];
 }
 

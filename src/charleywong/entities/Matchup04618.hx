@@ -24,6 +24,9 @@ class Matchup04618 implements Entity {
             url: "https://www.facebook.com/matchup04618/posts/1437209753100246"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        technology,
+        shop
+    ];
 }
 

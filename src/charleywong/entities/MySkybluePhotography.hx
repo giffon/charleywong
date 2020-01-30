@@ -26,6 +26,9 @@ class MySkybluePhotography implements Entity {
             url: "https://www.facebook.com/myskyblue/photos/a.695150613847223/3015922438436684/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

@@ -29,6 +29,8 @@ class M2Cafe implements Entity {
             url: "https://www.facebook.com/m2cafehk/posts/2919565968088309"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

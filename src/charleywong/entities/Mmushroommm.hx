@@ -24,6 +24,9 @@ class Mmushroommm implements Entity {
             url: "https://www.facebook.com/Mmushroom.hk/posts/2580435362049478"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories,
+        clothing
+    ];
 }
 

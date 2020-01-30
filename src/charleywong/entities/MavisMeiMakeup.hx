@@ -26,6 +26,10 @@ class MavisMeiMakeup implements Entity {
             url: "https://www.facebook.com/mavismeimakeup/posts/2581772065236485"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

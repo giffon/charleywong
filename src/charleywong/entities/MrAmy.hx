@@ -26,6 +26,8 @@ class MrAmy implements Entity {
             url: "https://www.facebook.com/0123amy/posts/853579908390080"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

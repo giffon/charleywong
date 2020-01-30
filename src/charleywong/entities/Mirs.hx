@@ -28,6 +28,10 @@ class Mirs implements Entity {
             url: "https://www.facebook.com/mirsmakeup/photos/a.436750019860204/1115928325275700/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

@@ -27,6 +27,8 @@ class MiaSposa implements Entity {
             url: "https://www.facebook.com/MiaSposa/photos/a.671566846211437/2802488536452580/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        bridal
+    ];
 }
 
