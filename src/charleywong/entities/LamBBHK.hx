@@ -24,6 +24,8 @@ class LamBBHK implements Entity {
             url: "https://www.facebook.com/lambbhk/posts/2811100715587774"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

@@ -34,6 +34,9 @@ class KitDaSketch implements Entity {
             url: "https://www.facebook.com/KitDaSketch/posts/1688468587955194"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

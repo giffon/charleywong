@@ -25,6 +25,9 @@ class KostonLoPhotography implements Entity {
             url: "https://www.facebook.com/KostonLoPhotography/posts/3746906962001976"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

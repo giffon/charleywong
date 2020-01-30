@@ -21,6 +21,8 @@ class Kirakira implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=1384711015018289&id=897763637046365"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

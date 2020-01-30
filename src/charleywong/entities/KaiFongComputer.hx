@@ -34,6 +34,9 @@ class KaiFongComputer implements Entity {
             url: "https://www.facebook.com/KaiFongComputer/photos/a.536031200171511/797698087338153/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        technology,
+        shop
+    ];
 }
 

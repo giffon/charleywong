@@ -29,6 +29,9 @@ class LAZYDUO implements Entity {
             url: "https://www.facebook.com/lazyduohk/posts/2513259212296975"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop,
+        makeup
+    ];
 }
 

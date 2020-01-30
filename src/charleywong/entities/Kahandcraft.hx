@@ -26,6 +26,8 @@ class Kahandcraft implements Entity {
             url: "https://www.facebook.com/kahandcraft/posts/2506964549541809"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

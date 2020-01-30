@@ -30,6 +30,8 @@ class Lazycreatureshk implements Entity {
             url: "https://www.facebook.com/lazycreatures.hk/posts/2373384626115659"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

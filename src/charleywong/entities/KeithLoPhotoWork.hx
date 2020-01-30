@@ -24,6 +24,9 @@ class KeithLoPhotoWork implements Entity {
             url: "https://www.facebook.com/KeithLoPhoto/photos/a.499366696839879/2282933005149897/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

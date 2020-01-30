@@ -35,6 +35,8 @@ class KeoChow implements Entity {
             url: "https://www.facebook.com/KeoChow/photos/a.340667359366445/2258821027551059/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

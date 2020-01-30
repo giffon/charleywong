@@ -36,6 +36,8 @@ class LittleCoveEspresso implements Entity {
             url: "https://www.facebook.com/littlecoveespresso/posts/1132412886959076"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

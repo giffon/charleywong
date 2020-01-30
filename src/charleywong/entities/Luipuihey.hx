@@ -34,6 +34,9 @@ class Luipuihey implements Entity {
             url: "https://www.facebook.com/luipuihey/videos/1299789636849489/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        music,
+        publicfigure
+    ];
 }
 

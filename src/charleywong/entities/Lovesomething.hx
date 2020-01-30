@@ -29,6 +29,9 @@ class Lovesomething implements Entity {
             url: "https://www.facebook.com/lovesomething/photos/a.872775649402603/3038805096132970/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

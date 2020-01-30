@@ -32,6 +32,8 @@ class Lungo implements Entity {
             url: "https://www.facebook.com/Lungooo/posts/331315387755388"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

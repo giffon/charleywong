@@ -26,6 +26,9 @@ class KatieLittleWorkshop implements Entity {
             url: "https://www.facebook.com/Katielittleworkshop/photos/a.179302628773134/2518547118181995/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        wedding,
+        shop
+    ];
 }
 

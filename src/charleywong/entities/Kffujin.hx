@@ -28,6 +28,8 @@ class Kffujin implements Entity {
             url: "https://www.facebook.com/kffujin/photos/a.135091037872626/151280082920388/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

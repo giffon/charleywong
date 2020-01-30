@@ -27,6 +27,10 @@ class KurukuruMakeupProduction implements Entity {
             url: "https://www.facebook.com/KurukuruMakeupProduction/photos/a.358039361007887/1920242118120929/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

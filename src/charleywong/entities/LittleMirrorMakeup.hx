@@ -24,6 +24,10 @@ class LittleMirrorMakeup implements Entity {
             url: "https://www.facebook.com/littlemirrormakeup/photos/a.1836824706645387/2405557499772102/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

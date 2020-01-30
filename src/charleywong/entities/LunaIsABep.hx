@@ -26,6 +26,8 @@ class LunaIsABep implements Entity {
             url: "https://www.facebook.com/lunaisabep/posts/368893417115252"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        music
+    ];
 }
 

@@ -32,6 +32,8 @@ class Littlescoool implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=443853389630595&id=136992696983334"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

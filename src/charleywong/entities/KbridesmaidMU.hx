@@ -24,6 +24,10 @@ class KbridesmaidMU implements Entity {
             url: "https://www.facebook.com/KbridesmaidMU/photos/a.953058578182683/1476365415851994/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

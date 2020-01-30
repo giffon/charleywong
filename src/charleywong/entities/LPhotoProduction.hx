@@ -26,6 +26,9 @@ class LPhotoProduction implements Entity {
             url: "https://www.facebook.com/hkphotoproduction/photos/a.2682557485143872/2682557341810553/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

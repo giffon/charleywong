@@ -30,6 +30,9 @@ class KingLoPhotography implements Entity {
             url: "https://www.facebook.com/KingLoPhotography/photos/a.437919449561031/2794228603930092/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

@@ -24,6 +24,8 @@ class Lanlanhanhk implements Entity {
             url: "https://www.facebook.com/lanlanhanhk/photos/a.910927395730801/1396789173811285/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

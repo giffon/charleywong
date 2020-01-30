@@ -22,6 +22,8 @@ class KarinaKylie implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=2536601439763819&id=918995428191103"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

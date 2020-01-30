@@ -31,6 +31,9 @@ class LampworkArtStoreTreasuresOfQ implements Entity {
             url: "https://www.facebook.com/TreasuresOfQ/posts/2670850149673198"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        accessories
+    ];
 }
 

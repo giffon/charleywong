@@ -27,6 +27,9 @@ class KobiCheungPhotography implements Entity {
             url: "https://www.facebook.com/kobicheungphotography/posts/2761919277161698"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

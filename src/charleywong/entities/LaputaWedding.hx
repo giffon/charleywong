@@ -26,6 +26,10 @@ class LaputaWedding implements Entity {
             url: "https://www.facebook.com/hklaputawedding/photos/a.463178330503903/1351967168291677/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        bridal,
+        makeup,
+        photographer
+    ];
 }
 

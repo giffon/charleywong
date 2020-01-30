@@ -36,6 +36,8 @@ class Kellyiflower implements Entity {
             url: "https://www.facebook.com/kelly.i.flower/photos/a.371106449731093/1533543973487329/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

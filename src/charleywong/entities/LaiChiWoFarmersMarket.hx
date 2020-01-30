@@ -36,6 +36,8 @@ class LaiChiWoFarmersMarket implements Entity {
             url: "https://www.facebook.com/LaiChiWoFarmersMarket/posts/2848354478568943"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

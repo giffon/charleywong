@@ -27,6 +27,9 @@ class Livingbookspacehk implements Entity {
             url: "https://www.facebook.com/livingbookspacehk/posts/2407078936171103"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        book,
+        shop
+    ];
 }
 

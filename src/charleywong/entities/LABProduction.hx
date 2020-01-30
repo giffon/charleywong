@@ -33,6 +33,9 @@ class LABProduction implements Entity {
             url: "https://www.facebook.com/lab.production/photos/a.649523088403026/2378615128827138/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

@@ -26,6 +26,9 @@ class KoomoWedding implements Entity {
             url: "https://www.facebook.com/koomowedding/photos/a.640033512685150/2681359141885900/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

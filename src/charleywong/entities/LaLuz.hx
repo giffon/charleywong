@@ -31,6 +31,8 @@ class LaLuz implements Entity {
             url: "https://www.facebook.com/laluz.hk/photos/a.632015283657147/1127456517446352/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

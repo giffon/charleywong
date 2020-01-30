@@ -31,6 +31,8 @@ class KueenCakes implements Entity {
             url: "https://www.facebook.com/kueencakes.hk/photos/a.1616297758406741/2169277679775410/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

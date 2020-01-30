@@ -29,6 +29,9 @@ class KayWong implements Entity {
             url: "https://www.facebook.com/kaywong.art/posts/434312290602591"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

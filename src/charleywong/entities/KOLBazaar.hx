@@ -31,6 +31,8 @@ class KOLBazaar implements Entity {
             url: "https://www.facebook.com/753211198412476/photos/a.900336547033273/966277240439203/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

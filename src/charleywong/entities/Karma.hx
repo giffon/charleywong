@@ -28,6 +28,8 @@ class Karma implements Entity {
             url: "https://www.facebook.com/karma.avg/posts/145868196770254"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

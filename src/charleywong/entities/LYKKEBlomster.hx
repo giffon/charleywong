@@ -27,6 +27,8 @@ class LYKKEBlomster implements Entity {
             url: "https://www.facebook.com/LykkeBlomster.hk/photos/a.2089754821256309/2534179650147155/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

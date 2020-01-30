@@ -25,6 +25,8 @@ class Lungjai2point0 implements Entity {
             url: "https://www.facebook.com/lungjai2point0/posts/2394071960852658"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

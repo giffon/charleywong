@@ -29,6 +29,9 @@ class LABBECOMEUS implements Entity {
             url: "https://www.facebook.com/labbecomeus/posts/2686034878178261"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop,
+        wedding
+    ];
 }
 

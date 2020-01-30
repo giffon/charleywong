@@ -22,6 +22,8 @@ class Leungwaigo implements Entity {
             url: "https://www.facebook.com/leungwaigo/posts/2584285581619456"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

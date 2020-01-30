@@ -26,6 +26,8 @@ class LoveyCathysHandicraft implements Entity {
             url: "https://www.facebook.com/LoveyCathysHandicraft/posts/2445963262108563"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

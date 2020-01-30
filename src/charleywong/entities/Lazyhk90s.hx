@@ -29,6 +29,8 @@ class Lazyhk90s implements Entity {
             url: "https://www.facebook.com/90slazy/posts/2436809553031668"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

@@ -24,6 +24,11 @@ class KAKAMAKEUP implements Entity {
             url: "https://www.facebook.com/kakakamakeup/posts/1264360597079887"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        photographer,
+        wedding
+    ];
 }
 

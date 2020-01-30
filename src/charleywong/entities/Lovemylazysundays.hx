@@ -26,6 +26,8 @@ class Lovemylazysundays implements Entity {
             url: "https://www.facebook.com/lovemylazysundays/photos/a.1624986947791075/2355504474739315/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

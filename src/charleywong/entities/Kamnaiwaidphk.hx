@@ -28,6 +28,8 @@ class Kamnaiwaidphk implements Entity {
             url: "https://www.facebook.com/kamnaiwaidphk/posts/2455812868080533"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure
+    ];
 }
 

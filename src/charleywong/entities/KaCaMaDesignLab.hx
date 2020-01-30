@@ -3,8 +3,7 @@ package charleywong.entities;
 class KaCaMaDesignLab implements Entity {
     public final id = "KaCaMaDesignLab";
     public final name = [
-        zh => "窮記",
-        en => "Poor But Happy Shop"
+        en => "KaCaMa Design Lab"
     ];
     public final webpages:Array<WebPage> = [
         {
@@ -30,6 +29,8 @@ class KaCaMaDesignLab implements Entity {
             url: "https://www.facebook.com/KaCaMaDesignLab/posts/3381904071849580"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

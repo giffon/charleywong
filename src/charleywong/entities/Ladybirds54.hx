@@ -34,6 +34,8 @@ class Ladybirds54 implements Entity {
             url: "https://www.facebook.com/ladybirds54/photos/a.197522877687999/545441356229481/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

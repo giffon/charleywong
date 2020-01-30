@@ -28,6 +28,9 @@ class LoveToken implements Entity {
             url: "https://www.facebook.com/lovetokenlt/photos/a.356552014453614/2320224561419673/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

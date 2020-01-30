@@ -26,6 +26,9 @@ class Lilacconline implements Entity {
             url: "https://www.facebook.com/LILACCC.ONLINEE/photos/a.546476985533312/1345315528982783/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        clothing,
+        accessories
+    ];
 }
 

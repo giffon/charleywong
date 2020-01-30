@@ -30,6 +30,10 @@ class KatHongMakeupStyling implements Entity {
             url: "https://www.facebook.com/kathong.makeup/posts/2336092483180344"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

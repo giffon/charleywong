@@ -37,6 +37,8 @@ class KuraiKageCL implements Entity {
             url: "https://www.facebook.com/DarkCrystalDiary/photos/a.2004825133088095/2518694438367826/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

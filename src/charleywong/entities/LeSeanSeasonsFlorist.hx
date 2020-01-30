@@ -27,6 +27,9 @@ class LeSeanSeasonsFlorist implements Entity {
             url: "https://www.facebook.com/leseanseasons/photos/a.276101105851892/2370797146382267/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist,
+        shop
+    ];
 }
 

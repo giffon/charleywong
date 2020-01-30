@@ -31,6 +31,8 @@ class KatoyaHK implements Entity {
             url: "https://www.facebook.com/KatoyaHK/posts/2341202642788553"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

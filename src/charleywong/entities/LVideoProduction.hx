@@ -29,6 +29,9 @@ class LVideoProduction implements Entity {
             url: "https://www.facebook.com/hkeventvideo/photos/a.660593720640233/2811706648862252/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

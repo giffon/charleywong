@@ -25,6 +25,8 @@ class LeoLeoWorld implements Entity {
             url: "https://www.facebook.com/LeoLeoWorld/posts/1427977397364203"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

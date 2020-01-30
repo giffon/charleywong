@@ -26,6 +26,9 @@ class KeyboardHell implements Entity {
             url: "https://www.facebook.com/124921990891105/photos/a.474891472560820/2638462139537065"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        technology,
+        shop
+    ];
 }
 

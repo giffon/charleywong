@@ -34,6 +34,10 @@ class KIZZMakeup implements Entity {
             url: "https://www.facebook.com/kizzmakeup/photos/a.528656043934034/1735309469935346/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding,
+    ];
 }
 

@@ -27,6 +27,9 @@ class LovePaperFlowerStudio implements Entity {
             url: "https://www.facebook.com/lovepaperflowerstudio/photos/a.311205612917415/426942784677030/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

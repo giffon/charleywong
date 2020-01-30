@@ -37,6 +37,8 @@ class KucheWorkshopNaturalHerbal implements Entity {
             url: "https://www.facebook.com/KucheWorkshopNatural.Herbal/photos/a.677822328975996/2646675232090686/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

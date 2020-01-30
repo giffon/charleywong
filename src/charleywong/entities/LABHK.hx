@@ -25,6 +25,8 @@ class LABHK implements Entity {
             url: "https://www.facebook.com/LAB.HK/posts/425613440807262"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

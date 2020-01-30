@@ -24,6 +24,9 @@ class KatagogiHealing implements Entity {
             url: "https://www.facebook.com/KatagogiHealing/posts/1213543752171161"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        medical,
+        shop
+    ];
 }
 

@@ -27,6 +27,9 @@ class KinWailyPresents implements Entity {
             url: "https://www.facebook.com/KinWailyP/photos/a.615284705474969/1020465564956879/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

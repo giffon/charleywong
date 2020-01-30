@@ -27,6 +27,8 @@ class LockeroomDining implements Entity {
             url: "https://www.facebook.com/2283579918591559/photos/a.2289950434621174/2555467041402844/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

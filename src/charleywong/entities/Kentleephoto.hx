@@ -30,6 +30,9 @@ class Kentleephoto implements Entity {
             url: "https://www.facebook.com/kentleephoto/posts/3423417467698788"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

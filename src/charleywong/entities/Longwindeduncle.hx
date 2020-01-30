@@ -25,6 +25,8 @@ class Longwindeduncle implements Entity {
             url: "https://www.facebook.com/longwindeduncle/posts/2434479810209571"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

@@ -27,6 +27,8 @@ class Kuugatoys implements Entity {
             url: "https://www.facebook.com/Kuugatoys/photos/a.402494463186004/2179089072193192"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

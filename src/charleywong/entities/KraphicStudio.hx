@@ -52,6 +52,9 @@ class KraphicStudio implements Entity {
             url: "https://www.instagram.com/p/B7u0Birpj1b/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

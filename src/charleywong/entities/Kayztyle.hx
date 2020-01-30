@@ -30,6 +30,9 @@ class Kayztyle implements Entity {
             url: "https://www.facebook.com/kayztyle/posts/2413207898714244"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

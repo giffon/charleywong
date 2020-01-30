@@ -23,6 +23,8 @@ class Laikingutd implements Entity {
             url: "https://www.facebook.com/laikingutd/posts/1371496896338828"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        organization
+    ];
 }
 

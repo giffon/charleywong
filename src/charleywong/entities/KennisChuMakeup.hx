@@ -24,6 +24,10 @@ class KennisChuMakeup implements Entity {
             url: "https://www.facebook.com/kennischumakeup/photos/a.368116946563600/3149632141745386/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

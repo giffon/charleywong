@@ -23,6 +23,10 @@ class KMWeddingWorkshop implements Entity {
             url: "https://www.facebook.com/KMWeddingWorkshop/posts/639539593455723"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        makeup,
+        wedding
+    ];
 }
 

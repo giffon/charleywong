@@ -27,6 +27,9 @@ class KenjiWong implements Entity {
             url: "https://www.facebook.com/princekenjiwong/posts/780739309021520"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        emcee,
+        wedding
+    ];
 }
 

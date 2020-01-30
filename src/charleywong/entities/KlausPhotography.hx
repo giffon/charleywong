@@ -24,6 +24,9 @@ class KlausPhotography implements Entity {
             url: "https://www.facebook.com/klausphotog/posts/2862809597085978"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

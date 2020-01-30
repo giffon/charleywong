@@ -31,6 +31,8 @@ class LOKM128 implements Entity {
             url: "https://www.facebook.com/LOKM128/photos/a.591314327712888/1516773051833673/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

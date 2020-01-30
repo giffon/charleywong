@@ -28,6 +28,9 @@ class Leungpakkinlyricist implements Entity {
             url: "https://www.facebook.com/leungpakkin.lyricist/photos/a.1454156774843131/2484496238475841/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        publicfigure
+    ];
 }
 
