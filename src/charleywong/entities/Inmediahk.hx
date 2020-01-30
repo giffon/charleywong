@@ -27,6 +27,8 @@ class Inmediahk implements Entity {
             url: "https://www.facebook.com/inmediahk/photos/a.321611837875861/2528749153828774/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

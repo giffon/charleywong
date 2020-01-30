@@ -24,6 +24,8 @@ class Icahongkong implements Entity {
             url: "https://www.facebook.com/icahongkong/posts/2515613315172752"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        organization
+    ];
 }
 

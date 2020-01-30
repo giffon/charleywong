@@ -29,6 +29,8 @@ class InfiniLoveBridal implements Entity {
             url: "https://www.facebook.com/infinilovebridal/photos/a.1560285590958964/2487792671541580/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        bridal
+    ];
 }
 

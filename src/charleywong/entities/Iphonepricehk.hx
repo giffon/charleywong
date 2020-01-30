@@ -26,6 +26,8 @@ class Iphonepricehk implements Entity {
             url: "https://www.facebook.com/iphonepricehk/posts/3055134974497258"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

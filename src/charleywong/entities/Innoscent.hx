@@ -30,6 +30,8 @@ class Innoscent implements Entity {
             url: "https://www.facebook.com/379509865879096/photos/a.461138921049523/709764542853625/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

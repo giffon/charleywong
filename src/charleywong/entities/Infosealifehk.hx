@@ -23,6 +23,8 @@ class Infosealifehk implements Entity {
             url: "https://www.facebook.com/info.sealifehk/photos/a.627718531029552/664841020650636/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

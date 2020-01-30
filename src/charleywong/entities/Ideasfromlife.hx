@@ -27,6 +27,8 @@ class Ideasfromlife implements Entity {
             url: "https://www.facebook.com/ideasfromlife/photos/a.1678352619075989/2452493128328597/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

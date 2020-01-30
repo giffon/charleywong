@@ -28,6 +28,9 @@ class Impressionproduction implements Entity {
             url: "https://www.facebook.com/impressionproduction/posts/2694461340618241"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

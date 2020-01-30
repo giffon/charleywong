@@ -29,6 +29,8 @@ class Imperfectkonglui implements Entity {
             url: "https://www.facebook.com/imperfectkonglui/posts/124373115663602"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

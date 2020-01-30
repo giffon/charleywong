@@ -25,6 +25,9 @@ class IXGrapher implements Entity {
             url: "https://www.facebook.com/IXGrapher/posts/774975592949917"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

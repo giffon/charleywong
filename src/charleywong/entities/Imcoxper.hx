@@ -33,6 +33,8 @@ class Imcoxper implements Entity {
             url: "https://www.facebook.com/imcoxper/posts/490042891595130"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

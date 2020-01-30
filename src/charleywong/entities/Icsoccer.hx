@@ -32,6 +32,8 @@ class Icsoccer implements Entity {
             url: "https://www.facebook.com/icsoccer/posts/3735332366492454"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

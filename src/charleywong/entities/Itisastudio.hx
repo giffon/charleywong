@@ -29,6 +29,9 @@ class Itisastudio implements Entity {
             url: "https://www.facebook.com/itisastudio/posts/10156290173005989"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

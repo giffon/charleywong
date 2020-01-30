@@ -29,6 +29,9 @@ class Instantphotohk implements Entity {
             url: "https://www.facebook.com/instantphotohk/photos/a.480557058719642/2382695078505821/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

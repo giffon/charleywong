@@ -25,6 +25,8 @@ class IdeaPublicationcomhk implements Entity {
             url: "https://www.facebook.com/IdeaPublication.com.hk/photos/a.347278592068984/1819480784848750"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        book
+    ];
 }
 
