@@ -29,6 +29,8 @@ class Sushitahama implements Entity {
             url: "https://www.facebook.com/sushi.tahama/posts/1011772155827398"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

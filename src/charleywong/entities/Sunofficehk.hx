@@ -34,6 +34,8 @@ class Sunofficehk implements Entity {
             url: "https://www.facebook.com/sunofficehk/photos/a.721757231340550/1342520642597536/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

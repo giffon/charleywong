@@ -25,6 +25,8 @@ class SweetPetiteK implements Entity {
             url: "https://www.facebook.com/sweetpetitek/posts/3047176368646397"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

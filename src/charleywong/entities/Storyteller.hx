@@ -28,6 +28,9 @@ class Storyteller implements Entity {
             url: "https://www.facebook.com/yourstoryteller/posts/2612508062126263"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

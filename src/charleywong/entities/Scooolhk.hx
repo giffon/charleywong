@@ -33,6 +33,8 @@ class Scooolhk implements Entity {
             url: "https://www.facebook.com/scoool.hk/posts/2442733889185472"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

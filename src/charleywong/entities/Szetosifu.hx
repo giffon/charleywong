@@ -32,6 +32,8 @@ class Szetosifu implements Entity {
             url: "https://www.facebook.com/szetosifu/posts/2515377995175005"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure
+    ];
 }
 

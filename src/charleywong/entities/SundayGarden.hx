@@ -27,6 +27,8 @@ class SundayGarden implements Entity {
             url: "https://www.facebook.com/SundayGarden2016/posts/1237953023052377"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

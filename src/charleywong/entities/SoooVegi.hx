@@ -29,6 +29,8 @@ class SoooVegi implements Entity {
             url: "https://www.facebook.com/SoooVegi/posts/1064509110424707"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

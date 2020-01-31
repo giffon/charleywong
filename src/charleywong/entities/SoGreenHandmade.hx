@@ -28,6 +28,8 @@ class SoGreenHandmade implements Entity {
             url: "https://www.facebook.com/sogreenhandmade/posts/2490248584631740"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

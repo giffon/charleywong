@@ -24,6 +24,8 @@ class SanCafe implements Entity {
             url: "https://www.facebook.com/seancafehk/posts/803815860072639"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

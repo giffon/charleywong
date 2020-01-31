@@ -26,6 +26,8 @@ class SomethingSomething implements Entity {
             url: "https://www.facebook.com/BigYcomic/photos/a.297017700439510/434914236649855/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

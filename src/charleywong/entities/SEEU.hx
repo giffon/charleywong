@@ -31,6 +31,8 @@ class SEEU implements Entity {
             url: "https://www.facebook.com/seeudaily/photos/a.1030681197056464/1560212414103337/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        clothing
+    ];
 }
 

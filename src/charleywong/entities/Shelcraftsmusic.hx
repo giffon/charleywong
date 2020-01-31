@@ -30,6 +30,10 @@ class Shelcraftsmusic implements Entity {
             url: "https://www.facebook.com/shel.crafts.music/posts/1179855558890468"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        music,
+        artist,
+        shop
+    ];
 }
 

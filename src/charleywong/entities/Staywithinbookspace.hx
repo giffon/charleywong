@@ -37,6 +37,9 @@ class Staywithinbookspace implements Entity {
             url: "https://www.facebook.com/staywithinbookspace/posts/1168863946651891"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        book,
+        shop
+    ];
 }
 

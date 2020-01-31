@@ -30,6 +30,8 @@ class Sweetbonbonhk implements Entity {
             url: "https://www.facebook.com/sweetbonbonhk/posts/2389539214628372"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

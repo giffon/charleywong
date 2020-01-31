@@ -29,6 +29,8 @@ class SugarBro implements Entity {
             url: "https://www.facebook.com/SugarBroHK/photos/a.124504201043993/1286395878188147/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        music
+    ];
 }
 

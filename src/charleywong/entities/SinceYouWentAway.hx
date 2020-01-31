@@ -26,6 +26,9 @@ class SinceYouWentAway implements Entity {
             url: "https://www.facebook.com/ontungc/photos/a.2058585154397809/2468573093399011/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

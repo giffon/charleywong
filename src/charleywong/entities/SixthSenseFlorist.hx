@@ -24,6 +24,9 @@ class SixthSenseFlorist implements Entity {
             url: "https://www.facebook.com/sixthsenseflorist/posts/1316504965195930"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist,
+        wedding
+    ];
 }
 

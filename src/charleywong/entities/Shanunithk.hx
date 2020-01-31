@@ -25,6 +25,8 @@ class Shanunithk implements Entity {
             url: "https://www.facebook.com/shanunithk/photos/a.412326276035342/434005503867419/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

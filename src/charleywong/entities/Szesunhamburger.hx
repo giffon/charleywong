@@ -28,6 +28,8 @@ class Szesunhamburger implements Entity {
             url: "https://www.facebook.com/szesunhamburger/posts/976295476096835"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

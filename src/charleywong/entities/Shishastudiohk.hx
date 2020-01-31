@@ -27,6 +27,8 @@ class Shishastudiohk implements Entity {
             url: "https://www.facebook.com/shishastudiohk/posts/138810587552196"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

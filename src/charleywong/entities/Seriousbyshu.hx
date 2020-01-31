@@ -26,6 +26,8 @@ class Seriousbyshu implements Entity {
             url: "https://www.facebook.com/seriousbyshu/posts/1437454779761822"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

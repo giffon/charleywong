@@ -26,6 +26,8 @@ class Studio433 implements Entity {
             url: "https://www.facebook.com/433Studio/photos/a.744803625625958/2315685468537758/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

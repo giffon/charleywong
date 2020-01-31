@@ -23,6 +23,10 @@ class SumcoMakeup implements Entity {
             url: "https://www.facebook.com/sumcomakeup/photos/a.276053862576845/1281033808745507/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

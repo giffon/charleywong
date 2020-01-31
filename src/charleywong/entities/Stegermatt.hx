@@ -32,6 +32,8 @@ class Stegermatt implements Entity {
             url: "https://www.facebook.com/Stegermatt/photos/a.317047435322327/997083113985419/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure
+    ];
 }
 

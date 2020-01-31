@@ -32,6 +32,9 @@ class SunnyChanPhotography implements Entity {
             url: "https://www.facebook.com/sunnychanphotography/posts/3060421240651112"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

@@ -34,6 +34,8 @@ class Samhairplay implements Entity {
             url: "https://www.instagram.com/p/ByxX4JOhUVq/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        salon
+    ];
 }
 

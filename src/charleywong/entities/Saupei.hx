@@ -28,6 +28,8 @@ class Saupei implements Entity {
             url: "https://www.facebook.com/saupei/photos/a.661896430566717/2574666612623013/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

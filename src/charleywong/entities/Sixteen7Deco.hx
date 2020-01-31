@@ -32,6 +32,9 @@ class Sixteen7Deco implements Entity {
             url: "https://www.facebook.com/6ixteen7Deco/posts/2532334113674107"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        wedding,
+        shop
+    ];
 }
 

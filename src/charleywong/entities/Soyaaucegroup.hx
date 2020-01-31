@@ -22,6 +22,8 @@ class Soyaaucegroup implements Entity {
             url: "https://www.facebook.com/soyaaucegroup/posts/960641140961312"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

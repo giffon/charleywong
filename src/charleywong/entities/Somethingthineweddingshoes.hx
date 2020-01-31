@@ -24,6 +24,10 @@ class Somethingthineweddingshoes implements Entity {
             url: "https://www.facebook.com/somethingthine/photos/a.564940813569225/2891655134231103/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        wedding,
+        accessories,
+        clothing
+    ];
 }
 

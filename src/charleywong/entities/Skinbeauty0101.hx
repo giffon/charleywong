@@ -32,6 +32,9 @@ class Skinbeauty0101 implements Entity {
             url: "https://www.facebook.com/skinbeauty0101/photos/a.673660572796550/1432004486962151/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        shop
+    ];
 }
 

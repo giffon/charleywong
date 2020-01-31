@@ -33,6 +33,8 @@ class SognoGelato implements Entity {
             url: "https://www.facebook.com/Sogno.Gelato.HK/photos/a.301808533810952/364891610835977/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

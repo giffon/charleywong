@@ -25,6 +25,8 @@ class Saramadehk implements Entity {
             url: "https://www.facebook.com/saramade.hk/photos/a.1550558021923269/2359883004324096/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

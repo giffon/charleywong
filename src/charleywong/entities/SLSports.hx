@@ -26,6 +26,8 @@ class SLSports implements Entity {
             url: "https://www.facebook.com/sl.sports63535234/photos/a.1062023747150325/2568993343120017/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

@@ -24,6 +24,8 @@ class Smalleyeskuma implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=549482089242311&id=451318835725304"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

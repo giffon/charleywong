@@ -34,6 +34,9 @@ class Sparktake implements Entity {
             url: "https://www.facebook.com/sparktake/posts/1148877218788811"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        book,
+        shop
+    ];
 }
 

@@ -23,6 +23,9 @@ class Stockqueenbb implements Entity {
             url: "https://www.facebook.com/stockqueenbb/posts/2398443356947796"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media,
+        publicfigure
+    ];
 }
 

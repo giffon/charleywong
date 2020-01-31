@@ -34,6 +34,8 @@ class Shalom implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=2821990481145514&id=193814243963164"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

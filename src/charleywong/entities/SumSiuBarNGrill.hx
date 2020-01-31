@@ -35,6 +35,8 @@ class SumSiuBarNGrill implements Entity {
             url: "https://www.facebook.com/SumSiuBarNGrill/photos/a.392212874228731/2175003652616302/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

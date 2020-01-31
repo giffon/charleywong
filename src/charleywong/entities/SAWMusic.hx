@@ -34,6 +34,9 @@ class SAWMusic implements Entity {
             url: "https://www.facebook.com/sawmusichk/photos/a.10150441766607351/10157910444997351/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        music,
+        shop
+    ];
 }
 

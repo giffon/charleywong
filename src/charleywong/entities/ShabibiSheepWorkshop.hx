@@ -34,6 +34,8 @@ class ShabibiSheepWorkshop implements Entity {
             url: "https://www.facebook.com/shabibi.sheep.workshop/photos/a.1734342313461739/2501638496732113/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

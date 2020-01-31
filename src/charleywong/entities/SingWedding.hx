@@ -26,6 +26,9 @@ class SingWedding implements Entity {
             url: "https://www.facebook.com/singwedding/photos/a.2465726300351797/2465726183685142/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

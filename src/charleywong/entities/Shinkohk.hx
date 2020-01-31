@@ -30,6 +30,8 @@ class Shinkohk implements Entity {
             url: "https://www.facebook.com/shinkohk/posts/1016908481992040"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

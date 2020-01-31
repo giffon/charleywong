@@ -38,6 +38,8 @@ class Sakaraichisushi implements Entity {
             url: "https://www.facebook.com/sakaraichisushi/posts/2586965891358900"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

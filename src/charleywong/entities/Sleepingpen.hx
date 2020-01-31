@@ -27,6 +27,9 @@ class Sleepingpen implements Entity {
             url: "https://www.facebook.com/sleepingpen/posts/2484753415093092"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

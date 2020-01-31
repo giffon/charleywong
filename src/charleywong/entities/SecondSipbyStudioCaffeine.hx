@@ -31,6 +31,8 @@ class SecondSipbyStudioCaffeine implements Entity {
             url: "https://www.facebook.com/2econdsip/photos/a.256129068465838/486315738780502/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

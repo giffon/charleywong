@@ -37,6 +37,9 @@ class StevenTangTszChun implements Entity {
             url: "https://www.facebook.com/StevenTangTszChun/photos/a.124636138971868/142232590545556/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

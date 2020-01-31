@@ -30,6 +30,8 @@ class Seafoodgreat implements Entity {
             url: "https://www.facebook.com/seafoodgreat/posts/486815338549608"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

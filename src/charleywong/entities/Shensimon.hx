@@ -33,6 +33,8 @@ class Shensimon implements Entity {
             url: "https://www.facebook.com/shensimon/posts/2909857942381670"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure
+    ];
 }
 

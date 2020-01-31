@@ -42,6 +42,8 @@ class Simplecookgroup implements Entity {
             url: "https://www.facebook.com/simplecookgroup/photos/a.586205131423395/2521443737899515/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

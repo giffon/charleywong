@@ -28,6 +28,8 @@ class SlamSportsAssociation implements Entity {
             url: "https://www.facebook.com/SlamSportsAssociation/posts/3410952525612019"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        organization
+    ];
 }
 

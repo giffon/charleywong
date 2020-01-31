@@ -33,6 +33,9 @@ class Saturnwoodworkshop implements Entity {
             url: "https://www.facebook.com/saturnwoodworkshop/photos/a.1561649770729406/2526486297579077/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

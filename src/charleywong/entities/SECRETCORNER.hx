@@ -25,6 +25,8 @@ class SECRETCORNER implements Entity {
             url: "https://www.facebook.com/SECRETCORNER/photos/a.10151698301326854/10156332582936854"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

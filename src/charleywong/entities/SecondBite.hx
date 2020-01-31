@@ -27,6 +27,8 @@ class SecondBite implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=577156649698825&id=242209396526887"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 
