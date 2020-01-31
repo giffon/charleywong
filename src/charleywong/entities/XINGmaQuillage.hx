@@ -29,6 +29,10 @@ class XINGmaQuillage implements Entity {
             url: "https://www.facebook.com/xingmaquillage/posts/3039934586021743"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

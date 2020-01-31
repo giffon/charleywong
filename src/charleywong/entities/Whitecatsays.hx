@@ -25,6 +25,8 @@ class Whitecatsays implements Entity {
             url: "https://www.facebook.com/whitecatsays/photos/a.464569833922581/862019327510961/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

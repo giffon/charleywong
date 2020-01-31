@@ -29,6 +29,8 @@ class UglyFamily implements Entity {
             url: "https://www.facebook.com/hahaX1000/photos/a.1467563606814553/2435063210064583/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

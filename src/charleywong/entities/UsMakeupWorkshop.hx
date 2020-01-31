@@ -27,6 +27,10 @@ class UsMakeupWorkshop implements Entity {
             url: "https://www.facebook.com/UMakeupWorkshop/photos/a.393754064064913/2413502705423362/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

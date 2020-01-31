@@ -21,6 +21,8 @@ class Wow1145696982243136 implements Entity {
             url: "https://www.facebook.com/1145696982243136/photos/a.1145705982242236/1768550339957794/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

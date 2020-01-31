@@ -31,6 +31,8 @@ class Yauleifonghk implements Entity {
             url: "https://www.facebook.com/yauleifonghk/videos/479846386249841/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

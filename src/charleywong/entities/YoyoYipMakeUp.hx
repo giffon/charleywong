@@ -28,6 +28,10 @@ class YoyoYipMakeUp implements Entity {
             url: "https://www.facebook.com/yoyoyipmakeup/photos/a.413559352026101/2459199057462110/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

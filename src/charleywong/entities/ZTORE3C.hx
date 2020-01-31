@@ -35,6 +35,9 @@ class ZTORE3C implements Entity {
             url: "https://www.facebook.com/3CZTORE/photos/a.373587860065954/570566890368049/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories,
+        shop
+    ];
 }
 

@@ -26,6 +26,8 @@ class Ubuntuearth implements Entity {
             url: "https://www.instagram.com/p/B5h4MDPAD2l/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        clothing
+    ];
 }
 

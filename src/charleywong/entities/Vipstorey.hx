@@ -30,6 +30,8 @@ class Vipstorey implements Entity {
             url: "https://www.facebook.com/vipstorey/posts/985500571814322"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

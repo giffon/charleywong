@@ -29,6 +29,8 @@ class Yummycornerhk implements Entity {
             url: "https://www.facebook.com/yummycornerhk/photos/a.2143481909002367/3187485644601983/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

@@ -28,6 +28,8 @@ class Zouguidang implements Entity {
             url: "https://www.facebook.com/zouguidang/photos/a.102795317818020/134645131299705/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

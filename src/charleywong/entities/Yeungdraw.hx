@@ -30,6 +30,9 @@ class Yeungdraw implements Entity {
             url: "https://www.facebook.com/yeungdraw/photos/a.545584762202124/2624742087619704/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

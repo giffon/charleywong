@@ -32,6 +32,8 @@ class VIIDripBrew implements Entity {
             url: "https://www.facebook.com/7Drip/photos/a.209552009529371/669582883526279/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

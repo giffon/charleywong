@@ -38,6 +38,9 @@ class YamanakaYuko implements Entity {
             url: "https://www.facebook.com/Yamanaka.Yuko/videos/652121238629425/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media,
+        artist
+    ];
 }
 

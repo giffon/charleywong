@@ -28,6 +28,9 @@ class Wheres implements Entity {
             url: "https://www.facebook.com/whereshk/posts/2442797792608514"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop,
+        accessories
+    ];
 }
 

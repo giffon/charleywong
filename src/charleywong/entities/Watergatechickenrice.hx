@@ -33,6 +33,8 @@ class Watergatechickenrice implements Entity {
             url: "https://www.facebook.com/watergatechickenrice/posts/594404394719211"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

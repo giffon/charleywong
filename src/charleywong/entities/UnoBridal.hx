@@ -38,6 +38,8 @@ class UnoBridal implements Entity {
             url: "https://www.facebook.com/unobridalhk/posts/464779967427303"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        bridal
+    ];
 }
 

@@ -29,6 +29,8 @@ class WcubeBridalStudio implements Entity {
             url: "https://www.facebook.com/wcubebridalstudio/posts/1238935046313355"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        bridal
+    ];
 }
 

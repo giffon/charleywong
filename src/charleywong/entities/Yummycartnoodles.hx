@@ -34,6 +34,8 @@ class Yummycartnoodles implements Entity {
             url: "https://www.facebook.com/yummycartnoodles/posts/436343780376550"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

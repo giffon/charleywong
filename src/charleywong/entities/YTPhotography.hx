@@ -27,6 +27,9 @@ class YTPhotography implements Entity {
             url: "https://www.facebook.com/ytphotographyhk/posts/2322080654585042"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        wedding
+    ];
 }
 

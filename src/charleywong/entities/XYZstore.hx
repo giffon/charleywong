@@ -27,6 +27,8 @@ class XYZstore implements Entity {
             url: "https://www.facebook.com/XYZstorehk/posts/3122090717807642"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

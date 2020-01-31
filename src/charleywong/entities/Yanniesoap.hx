@@ -34,6 +34,8 @@ class Yanniesoap implements Entity {
             url: "https://www.facebook.com/yanniesoap/posts/2840793969273811"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

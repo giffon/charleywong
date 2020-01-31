@@ -31,6 +31,10 @@ class VSPM implements Entity {
             url: "https://www.facebook.com/vspmhk/photos/a.488289214553873/2513678488681592/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer,
+        makeup,
+        shop
+    ];
 }
 

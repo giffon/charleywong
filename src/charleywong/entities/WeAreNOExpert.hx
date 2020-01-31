@@ -28,6 +28,9 @@ class WeAreNOExpert implements Entity {
             url: "https://www.facebook.com/wearenoexpert/posts/2654093951349765"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop,
+        food
+    ];
 }
 

@@ -22,6 +22,8 @@ class WImages implements Entity {
             url: "https://www.facebook.com/doubleuimage/posts/553734355454052"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        photographer
+    ];
 }
 

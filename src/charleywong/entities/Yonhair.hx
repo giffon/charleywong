@@ -30,6 +30,8 @@ class Yonhair implements Entity {
             url: "https://www.facebook.com/Yonhair/photos/a.1999071426851615/2224597907632298/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        salon
+    ];
 }
 

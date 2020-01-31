@@ -30,6 +30,8 @@ class Yuppiehk implements Entity {
             url: "https://www.facebook.com/yuppie.hk/posts/2680600692006105"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

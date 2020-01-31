@@ -35,6 +35,8 @@ class Why50Coffee implements Entity {
             url: "https://www.facebook.com/Why50hk/photos/a.1499656653678701/2325969057714119/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

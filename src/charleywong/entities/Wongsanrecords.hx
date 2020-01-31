@@ -30,6 +30,8 @@ class Wongsanrecords implements Entity {
             url: "https://www.facebook.com/wongsanrecords/photos/a.1961986007373770/2273149089590792/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

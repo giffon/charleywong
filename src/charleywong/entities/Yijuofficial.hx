@@ -29,6 +29,9 @@ class Yijuofficial implements Entity {
             url: "https://www.facebook.com/yijuofficial/photos/a.827906733994677/2243070615811608/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop,
+        accessories
+    ];
 }
 

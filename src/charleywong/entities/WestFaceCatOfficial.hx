@@ -29,6 +29,9 @@ class WestFaceCatOfficial implements Entity {
             url: "https://www.facebook.com/WestFaceCatOfficial/posts/1454120898097391"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        book
+    ];
 }
 

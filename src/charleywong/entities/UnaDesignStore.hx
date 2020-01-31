@@ -26,6 +26,8 @@ class UnaDesignStore implements Entity {
             url: "https://www.facebook.com/unadesign.store/photos/a.1758124234502874/2403234009991890/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

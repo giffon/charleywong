@@ -26,6 +26,8 @@ class Zeppelinhotdogyuenlong implements Entity {
             url: "https://www.facebook.com/Zeppelinhotdogyuenlong/photos/a.105428964325985/115157043353177/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

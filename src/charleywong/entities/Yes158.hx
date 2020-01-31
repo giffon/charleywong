@@ -31,6 +31,8 @@ class Yes158 implements Entity {
             url: "https://www.instagram.com/p/B00e7YMAsMe/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

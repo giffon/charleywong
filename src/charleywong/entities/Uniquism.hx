@@ -25,6 +25,8 @@ class Uniquism implements Entity {
             url: "https://www.facebook.com/Uni.Uniquism/photos/a.129347060524566/2500535873405661/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

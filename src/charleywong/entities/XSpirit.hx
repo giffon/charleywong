@@ -28,6 +28,8 @@ class XSpirit implements Entity {
             url: "https://www.facebook.com/Xspirit1105/photos/a.967259650007203/2747880025278481/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

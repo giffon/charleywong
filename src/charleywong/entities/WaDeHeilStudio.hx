@@ -28,6 +28,8 @@ class WaDeHeilStudio implements Entity {
             url: "https://www.facebook.com/WaDeHeilStudio/posts/576940116211080"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

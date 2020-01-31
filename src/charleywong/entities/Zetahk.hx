@@ -38,6 +38,9 @@ class Zetahk implements Entity {
             url: "https://www.facebook.com/zetahk/photos/a.337406943083983/1413742628783737/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        technology,
+        shop
+    ];
 }
 

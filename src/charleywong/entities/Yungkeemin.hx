@@ -38,6 +38,8 @@ class Yungkeemin implements Entity {
             url: "https://www.facebook.com/yungkeemin/photos/a.787555541301861/2758868400837222/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

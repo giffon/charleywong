@@ -33,6 +33,8 @@ class WandererCider implements Entity {
             url: "https://www.facebook.com/WandererCider/photos/a.715681401942414/1260959127414636/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

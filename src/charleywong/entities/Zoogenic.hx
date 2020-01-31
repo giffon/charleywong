@@ -29,6 +29,8 @@ class Zoogenic implements Entity {
             url: "https://www.facebook.com/z.zoogenic/photos/a.1058860674272800/1458941360931394/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist
+    ];
 }
 

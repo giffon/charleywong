@@ -25,6 +25,8 @@ class Waidaicompany implements Entity {
             url: "https://www.facebook.com/waidaicompany/videos/2409043879411933/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

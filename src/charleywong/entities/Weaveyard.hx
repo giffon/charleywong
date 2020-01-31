@@ -31,6 +31,8 @@ class Weaveyard implements Entity {
             url: "https://www.facebook.com/weaveyard/posts/2461103944157828"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

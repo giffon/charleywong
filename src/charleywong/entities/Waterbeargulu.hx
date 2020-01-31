@@ -30,6 +30,9 @@ class Waterbeargulu implements Entity {
             url: "https://www.facebook.com/waterbeargulu/photos/a.1102921186519455/1710186785792889/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

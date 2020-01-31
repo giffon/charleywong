@@ -26,6 +26,8 @@ class ULURUHK implements Entity {
             url: "https://www.facebook.com/ULURU.HK/photos/a.238359903758621/429498101311466/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

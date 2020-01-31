@@ -27,6 +27,9 @@ class WooholicWeddingDecoration implements Entity {
             url: "https://www.facebook.com/WooholicWeddingDecoration/posts/3179018262139941"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        wedding,
+        shop
+    ];
 }
 

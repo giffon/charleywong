@@ -23,6 +23,10 @@ class Zklw11 implements Entity {
             url: "https://www.facebook.com/zklw11/photos/a.376976342503488/1141622412705540/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop,
+        music
+    ];
 }
 

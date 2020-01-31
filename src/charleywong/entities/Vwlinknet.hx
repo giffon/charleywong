@@ -28,6 +28,9 @@ class Vwlinknet implements Entity {
             url: "https://www.facebook.com/vwlink.net/photos/a.329975409090/10157172469964091"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        book,
+        shop
+    ];
 }
 

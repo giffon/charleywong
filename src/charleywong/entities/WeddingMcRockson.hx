@@ -23,6 +23,9 @@ class WeddingMcRockson implements Entity {
             url: "https://www.facebook.com/WeddingMcRockson/posts/581740775929955"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        emcee,
+        wedding
+    ];
 }
 

@@ -34,6 +34,10 @@ class Zapjokstudio implements Entity {
             url: "https://www.facebook.com/zapjok.studio/posts/3078945628812430"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop,
+        accessories,
+        food
+    ];
 }
 

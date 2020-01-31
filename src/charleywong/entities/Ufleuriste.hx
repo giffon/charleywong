@@ -26,6 +26,9 @@ class Ufleuriste implements Entity {
             url: "https://www.facebook.com/ufleuriste/posts/3064076423608427"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist,
+        wedding
+    ];
 }
 

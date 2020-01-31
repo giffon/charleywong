@@ -25,6 +25,8 @@ class VMade implements Entity {
             url: "https://www.facebook.com/bearvmade/posts/490375501544643"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

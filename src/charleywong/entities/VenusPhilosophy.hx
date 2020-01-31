@@ -26,6 +26,9 @@ class VenusPhilosophy implements Entity {
             url: "https://www.facebook.com/venusphilosophy/posts/2612478675537120"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

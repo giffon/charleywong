@@ -28,6 +28,9 @@ class WeddingMCEgo implements Entity {
             url: "https://www.facebook.com/WeddingMcEgo/posts/1668513656617875"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        emcee,
+        wedding
+    ];
 }
 

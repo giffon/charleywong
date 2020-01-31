@@ -24,6 +24,8 @@ class Umevenyou implements Entity {
             url: "https://www.facebook.com/um.even.you/photos/a.175480852855859/652721608465112/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        clothing
+    ];
 }
 

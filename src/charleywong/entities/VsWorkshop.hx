@@ -27,6 +27,8 @@ class VsWorkshop implements Entity {
             url: "https://www.facebook.com/vsworkshop/photos/a.194456507358384/1538324662971555/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

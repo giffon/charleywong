@@ -25,6 +25,8 @@ class Vawongsir implements Entity {
             url: "https://www.facebook.com/vawongsir/photos/a.438439436744433/499955713926138/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

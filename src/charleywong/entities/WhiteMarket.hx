@@ -24,6 +24,8 @@ class WhiteMarket implements Entity {
             url: "https://www.facebook.com/whitemarkethk/photos/a.152363365345249/554335391814709/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

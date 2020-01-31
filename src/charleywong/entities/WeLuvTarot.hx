@@ -26,6 +26,10 @@ class WeLuvTarot implements Entity {
             url: "https://www.facebook.com/weluvtarot/posts/2475292212753970"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop,
+        accessories,
+        book
+    ];
 }
 

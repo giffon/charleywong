@@ -25,6 +25,9 @@ class WeddingMCFungKwok implements Entity {
             url: "https://www.facebook.com/WeddingMCFungKwok/posts/1118760921604170"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        emcee,
+        wedding
+    ];
 }
 

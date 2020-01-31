@@ -24,6 +24,8 @@ class WoodTansy implements Entity {
             url: "https://www.facebook.com/woodtansy/posts/2260758044028310"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

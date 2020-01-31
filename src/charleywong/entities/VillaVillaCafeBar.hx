@@ -31,6 +31,8 @@ class VillaVillaCafeBar implements Entity {
             url: "https://www.facebook.com/villavillacafe/photos/a.1095909097095045/2891585354194068/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 
