@@ -15,7 +15,6 @@ jobs:
       matrix:
         utestPattern:
           - TestAllEntities
-          - TestUrls.testWebpageUrls
           - TestUrls.testPostUrls
           - TestImporter
     env:
