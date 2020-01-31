@@ -71,4 +71,10 @@ class TestAllEntities extends utest.Test {
             Assert.equals('https://www.instagram.com/${regexp.matched(1)}/', page.url);
         }
     }
+
+    function testTags() {
+        for (entity in EntityIndex.entities) {
+            Assert.isTrue(entity.tags.length > 0, '${entity} has no tags.');
+        }
+    }
 }
