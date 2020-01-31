@@ -35,6 +35,8 @@ class Teacirclegroup implements Entity {
             url: "https://www.facebook.com/Teacirclegroup/videos/2533328406953076/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

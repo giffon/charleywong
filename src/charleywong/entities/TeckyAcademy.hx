@@ -34,6 +34,9 @@ class TeckyAcademy implements Entity {
             url: "https://www.facebook.com/tecky.io/photos/a.1224811677657893/1538724422933282/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        technology,
+        shop
+    ];
 }
 

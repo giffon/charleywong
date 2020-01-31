@@ -25,6 +25,9 @@ class Tktradingcompany implements Entity {
             url: "https://www.facebook.com/tktradingcompany/photos/a.1211692918877923/2564355460278322/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

@@ -25,6 +25,9 @@ class TTFriends implements Entity {
             url: "https://www.facebook.com/607509932745860/photos/a.607515486078638/1358051614358351/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        accessories
+    ];
 }
 

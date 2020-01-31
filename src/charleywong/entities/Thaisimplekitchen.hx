@@ -27,6 +27,8 @@ class Thaisimplekitchen implements Entity {
             url: "https://www.facebook.com/thaisimplekitchen/posts/2140854906218944/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

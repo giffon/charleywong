@@ -30,6 +30,8 @@ class Theinitium implements Entity {
             url: "https://www.facebook.com/theinitium/posts/1437304643112750"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

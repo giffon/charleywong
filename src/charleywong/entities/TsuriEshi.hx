@@ -27,6 +27,9 @@ class TsuriEshi implements Entity {
             url: "https://www.facebook.com/TsuriEshi/posts/155927979132625"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

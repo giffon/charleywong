@@ -26,6 +26,8 @@ class Thehikipedia implements Entity {
             url: "https://www.facebook.com/thehikipedia/photos/a.853099928180508/1321882121302284/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

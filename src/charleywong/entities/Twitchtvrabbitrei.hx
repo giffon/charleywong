@@ -30,6 +30,8 @@ class Twitchtvrabbitrei implements Entity {
             url: "https://www.facebook.com/twitchtvrabbitrei/posts/2377126842379372"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

@@ -26,6 +26,8 @@ class TheBasic implements Entity {
             url: "https://www.facebook.com/TheBasicfood/posts/423165651707364"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

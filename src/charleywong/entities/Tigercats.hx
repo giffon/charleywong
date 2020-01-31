@@ -31,6 +31,8 @@ class Tigercats implements Entity {
             url: "https://www.facebook.com/tigercats0/photos/a.454550694732482/1193428914177986/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

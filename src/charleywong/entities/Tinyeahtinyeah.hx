@@ -25,6 +25,8 @@ class Tinyeahtinyeah implements Entity {
             url: "https://www.facebook.com/tinyeahtinyeah/photos/a.668005263399379/1200920043441229/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

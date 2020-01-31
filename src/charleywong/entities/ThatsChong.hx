@@ -22,6 +22,9 @@ class ThatsChong implements Entity {
             url: "https://www.facebook.com/thatschongaccessories/posts/723637918116182"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories,
+        wedding
+    ];
 }
 

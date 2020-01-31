@@ -27,6 +27,8 @@ class Terryaquarium implements Entity {
             url: "https://www.facebook.com/terryaquarium/posts/1844557582357432"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

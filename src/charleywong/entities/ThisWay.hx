@@ -32,6 +32,9 @@ class ThisWay implements Entity {
             url: "https://www.facebook.com/thiswayhk/photos/a.264707773653487/1414516558672597/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        shop
+    ];
 }
 

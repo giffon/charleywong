@@ -29,6 +29,8 @@ class Theglockhk implements Entity {
             url: "https://www.facebook.com/theglockhk/photos/a.480050972332924/985740905097259/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

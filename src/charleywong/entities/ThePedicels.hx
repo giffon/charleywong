@@ -24,6 +24,9 @@ class ThePedicels implements Entity {
             url: "https://www.facebook.com/ThePedicels/posts/564590630991962"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food,
+        wedding
+    ];
 }
 

@@ -28,6 +28,8 @@ class Tungwood implements Entity {
             url: "https://www.facebook.com/tungwood/photos/a.191521107654033/1552848501521280/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist
+    ];
 }
 

@@ -18,6 +18,8 @@ class TheDawnComes implements Entity {
             url: "https://www.instagram.com/p/B6evmprB5a2/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

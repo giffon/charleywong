@@ -29,6 +29,9 @@ class TakkBlomster implements Entity {
             url: "https://www.facebook.com/takkblomster/photos/a.280055375668035/1023172041356361/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        florist,
+        wedding
+    ];
 }
 

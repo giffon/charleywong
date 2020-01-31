@@ -31,6 +31,8 @@ class TopBladeSteakLab implements Entity {
             url: "https://www.facebook.com/topbladesteaklab/posts/761532861023556"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

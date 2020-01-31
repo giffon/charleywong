@@ -29,6 +29,9 @@ class Toolsshk implements Entity {
             url: "https://www.facebook.com/toolsshk/photos/a.411771782313447/1477025642454717/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food,
+        shop
+    ];
 }
 

@@ -33,6 +33,8 @@ class TheVenue implements Entity {
             url: "https://www.facebook.com/kilungstreet/posts/1117282191797074"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

@@ -30,6 +30,9 @@ class Twentyonefromeight implements Entity {
             url: "https://www.facebook.com/twentyonefromeight/photos/a.260169980845525/1224238391105341/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food,
+        shop
+    ];
 }
 

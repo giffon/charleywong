@@ -33,6 +33,8 @@ class TonsPastry implements Entity {
             url: "https://www.facebook.com/tonspastry/photos/a.447452428785284/1163003333896853/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

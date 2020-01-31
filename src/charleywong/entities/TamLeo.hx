@@ -25,6 +25,8 @@ class TamLeo implements Entity {
             url: "https://www.facebook.com/WelcomeToMyTamLeo/photos/a.1648728958711849/2361514920766579/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

@@ -39,6 +39,9 @@ class TikKafromEast implements Entity {
             url: "https://www.facebook.com/tikkafromeast/photos/a.144963425909406/612517015820709/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        artist,
+        shop
+    ];
 }
 

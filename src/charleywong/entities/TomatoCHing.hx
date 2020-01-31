@@ -27,6 +27,8 @@ class TomatoCHing implements Entity {
             url: "https://www.facebook.com/tomato.c.hing.shamshuipo/posts/2399849566942745"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

@@ -27,6 +27,8 @@ class Tokitchannel implements Entity {
             url: "https://www.facebook.com/tokit.channel/posts/2732071190198720"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure
+    ];
 }
 

@@ -29,6 +29,8 @@ class Tsaiingwen implements Entity {
             url: "https://www.facebook.com/tsaiingwen/photos/a.10151242056081065/10155882423611065/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        publicfigure
+    ];
 }
 

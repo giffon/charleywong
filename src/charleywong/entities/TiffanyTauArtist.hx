@@ -23,6 +23,10 @@ class TiffanyTauArtist implements Entity {
             url: "https://www.facebook.com/tiffanytauartist/posts/1314365668724323"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        makeup,
+        artist,
+        wedding
+    ];
 }
 

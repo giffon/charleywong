@@ -29,6 +29,8 @@ class TheCoolCousinsCafeNoodleBar implements Entity {
             url: "https://www.facebook.com/thecoolcousinshk/photos/a.359738864658148/486972645268102/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        food
+    ];
 }
 

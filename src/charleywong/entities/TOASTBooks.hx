@@ -27,6 +27,9 @@ class TOASTBooks implements Entity {
             url: "https://www.facebook.com/toast.books/photos/a.181747439194882/352016565501301"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        book,
+        shop
+    ];
 }
 

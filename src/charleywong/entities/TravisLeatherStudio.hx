@@ -34,6 +34,8 @@ class TravisLeatherStudio implements Entity {
             url: "https://www.facebook.com/LeatherCraft.Travis/posts/2316641025256527"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        accessories
+    ];
 }
 

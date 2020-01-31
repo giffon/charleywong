@@ -28,6 +28,9 @@ class Thecomingdawnhk implements Entity {
             url: "https://www.facebook.com/thecomingdawnhk/photos/a.105182644330039/105174480997522/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop,
+        organization
+    ];
 }
 

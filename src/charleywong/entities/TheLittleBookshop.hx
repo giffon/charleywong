@@ -25,6 +25,9 @@ class TheLittleBookshop implements Entity {
             url: "https://www.facebook.com/permalink.php?story_fbid=1661376817332030&id=1466100026859711"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        book,
+        shop
+    ];
 }
 

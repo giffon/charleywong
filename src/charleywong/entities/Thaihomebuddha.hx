@@ -33,6 +33,8 @@ class Thaihomebuddha implements Entity {
             url: "https://www.facebook.com/thaihome.buddha/posts/1398017443678806"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

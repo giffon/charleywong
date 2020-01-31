@@ -25,6 +25,8 @@ class TRAVERSE implements Entity {
             url: "https://www.facebook.com/traverse.hk/photos/a.695545833942913/1470485706448918/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        shop
+    ];
 }
 

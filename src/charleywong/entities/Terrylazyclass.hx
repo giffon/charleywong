@@ -24,6 +24,9 @@ class Terrylazyclass implements Entity {
             url: "https://www.facebook.com/terrylazyclass/photos/a.108137930599120/160594988686747/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media,
+        publicfigure
+    ];
 }
 

@@ -27,6 +27,8 @@ class ThingsAtHongKong implements Entity {
             url: "https://www.facebook.com/ThingsAtHongKong/posts/1273188606190904"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        media
+    ];
 }
 

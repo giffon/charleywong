@@ -27,6 +27,8 @@ class Teikohamateurfootballclub implements Entity {
             url: "https://www.facebook.com/teikoh.amateur.football.club/posts/2459747687614849"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        organization
+    ];
 }
 

@@ -29,6 +29,9 @@ class TYProductionsLimited implements Entity {
             url: "https://www.facebook.com/TYPRODUCTIONSLIMITED/photos/a.1132409876908816/1413400755476392/"
         }
     ];
-    public final tags:Array<Tag> = [];
+    public final tags:Array<Tag> = [
+        music,
+        shop
+    ];
 }
 
