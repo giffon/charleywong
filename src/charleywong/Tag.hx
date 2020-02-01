@@ -70,6 +70,13 @@ class Tag {
         ]
     }
 
+    static public final currency:Tag = {
+        name: [
+            en => "currency",
+            zh => "貨幣"
+        ]
+    }
+
     static public final bridal:Tag = {
         name: [
             en => "bridal",
