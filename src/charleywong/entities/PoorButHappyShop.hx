@@ -24,6 +24,9 @@ class PoorButHappyShop implements Entity {
         },
         {
             url: "https://www.poor.hk/"
+        },
+        {
+            url: "https://www.instagram.com/poor_but_happy_shop/"
         }
     ];
     public final posts:Array<Post> = [
@@ -36,6 +39,7 @@ class PoorButHappyShop implements Entity {
     ];
     public final tags:Array<Tag> = [
         technology,
+        photography,
         shop
     ];
 }

@@ -118,11 +118,19 @@ class Tag {
         ]
     };
 
+    static public final photography:Tag = {
+        name: [
+            en => "photography",
+            zh => "攝影"
+        ]
+    }
+
     static public final photographer:Tag = {
         name: [
             en => "photographer/videographer",
             zh => "攝影師"
-        ]
+        ],
+        inherits: [photography, artist]
     };
 
     static public final emcee:Tag = {
