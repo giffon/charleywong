@@ -96,7 +96,7 @@ class View extends ReactComponent {
                 <p>
                     Copyright (C) 2020  <a href="https://giffon.io" target="_blank">Giffon Limited</a>
                     <span
-                        className="fb-like ml-1 d-inline"
+                        className="fb-like ml-1 d-inline align-text-bottom"
                         data-href="https://www.facebook.com/giffon.io/"
                         data-width=""
                         data-layout="button_count"

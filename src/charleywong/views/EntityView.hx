@@ -30,7 +30,7 @@ class EntityView extends View {
                 <Fragment>
                     <a href=${p.url} target="_blank">${linktext}</a>
                     <div
-                        className="fb-like ml-1"
+                        className="fb-like ml-1 align-text-bottom"
                         data-href=${p.url}
                         data-width=""
                         data-layout="button_count"
