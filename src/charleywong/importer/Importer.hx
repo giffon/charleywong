@@ -356,7 +356,7 @@ class Importer {
             public final name = ${nameExpr};
             public final webpages:Array<WebPage> = [$a{webpagesExprs}];
             public final posts:Array<Post> = $postsExpr;
-            public final tags:Array<Tag> = [];
+            public final tags:Array<Tag> = [FIX_ME];
         };
         cls.pack = ["charleywong", "entities"];
 
