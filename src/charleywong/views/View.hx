@@ -93,7 +93,18 @@ class View extends ReactComponent {
                 ${bodyContent()}
             </div>
             <footer>
-                <p>Copyright (C) 2020  <a href="https://giffon.io" target="_blank">Giffon Limited</a></p>
+                <p>
+                    Copyright (C) 2020  <a href="https://giffon.io" target="_blank">Giffon Limited</a>
+                    <span
+                        className="fb-like ml-1 d-inline"
+                        data-href="https://www.facebook.com/giffon.io/"
+                        data-width=""
+                        data-layout="button_count"
+                        data-action="like"
+                        data-size="small"
+                        data-share="false">
+                    </span>
+                </p>
                 <p>Charley Wong 和你查嘅<a href="https://github.com/giffon/charleywong" target="_blank">源碼</a>以 <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL-3.0-or-later</a> 發佈。</p>
                 <p>Charley Wong 和你查嘅數據以 <a href="http://opendatacommons.org/licenses/odbl/1.0/" target="_blank">ODbL-1.0</a> 發佈。</p>
             </footer>
