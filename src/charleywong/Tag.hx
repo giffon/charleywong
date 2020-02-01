@@ -118,6 +118,21 @@ class Tag {
         ],
     };
 
+    static public final sport:Tag = {
+        name: [
+            en => "sport",
+            zh => "運動"
+        ],
+    };
+
+    static public final fitness:Tag = {
+        name: [
+            en => "fitness",
+            zh => "健身"
+        ],
+        inherits: [sport]
+    };
+
     static public final music:Tag = {
         name: [
             en => "music",
