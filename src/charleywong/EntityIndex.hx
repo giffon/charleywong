@@ -61,6 +61,7 @@ class EntityIndex {
                     "name:zh": { tokenize: tokenize },
                     "webpages": {},
                     "posts": {},
+                    "tags": {},
                 },
             }
         });
@@ -69,6 +70,7 @@ class EntityIndex {
             name: e.name.toJson(),
             webpages: e.webpages.map(p -> p.url).join("\n"),
             posts: e.posts.map(p -> p.url).join("\n"),
+            tags: e.tags.map(t -> [for (v in t.name) v].join("\n")).join("\n"),
         }));
         f;
     };

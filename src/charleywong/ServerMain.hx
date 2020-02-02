@@ -74,7 +74,7 @@ class ServerMain {
         var query:String = req.params.query;
         var result:Array<{id:String}> = EntityIndex.flexsearch.search({
             query: query,
-            limit: 10,
+            limit: Math.POSITIVE_INFINITY,
         });
         res.json(result.map(r -> EntityIndex.entitiesOfId[r.id].toJson()));
     }
@@ -83,7 +83,7 @@ class ServerMain {
         var query:String = req.params.query;
         var result:Array<{id:String}> = EntityIndex.flexsearch.search({
             query: query,
-            limit: 10,
+            limit: Math.POSITIVE_INFINITY,
         });
         res.sendView(EntityListView, {
             slug: query.urlEncode(),
