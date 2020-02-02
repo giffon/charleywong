@@ -9,3 +9,9 @@ form {
 footer {
     margin-top: 2em;
 }
+
+a {
+    display: inline-block;
+    max-width: 100%;
+    text-overflow: ellipsis;
+}
