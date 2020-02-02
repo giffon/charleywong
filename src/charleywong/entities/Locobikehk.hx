@@ -34,6 +34,9 @@ class Locobikehk implements Entity {
         },
         {
             url: "https://www.facebook.com/locobikehk/posts/812626112486084"
+        },
+        {
+            url: "https://www.facebook.com/locobikehk/posts/799666097115419"
         }
     ];
     public final tags:Array<Tag> = [

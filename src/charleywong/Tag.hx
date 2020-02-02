@@ -104,6 +104,21 @@ class Tag {
         inherits: [publicfigure]
     };
 
+    static public final tattoo:Tag = {
+        name: [
+            en => "tattoo",
+            zh => "紋身"
+        ]
+    }
+
+    static public final handyman:Tag = {
+        name: [
+            en => "handyman",
+            zh => "水電工"
+        ],
+        inherits: [shop]
+    }
+
     static public final salon:Tag = {
         name: [
             en => "barber/salon",
