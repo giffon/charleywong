@@ -26,6 +26,9 @@ class Hkteamforcleaning implements Entity {
     public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/hkteamforcleaning/posts/2199877486980255"
+        },
+        {
+            url: "https://www.facebook.com/hkteamforcleaning/posts/2259686407666029"
         }
     ];
     public final tags:Array<Tag> = [
