@@ -28,7 +28,7 @@ class EntityView extends View {
         var item = if (p.url.startsWith("https://www.facebook.com/")) {
             jsx('
                 <Fragment>
-                    <a href=${p.url} target="_blank">${linktext}</a>
+                    <a href=${p.url}>${linktext}</a>
                     <div
                         className="fb-like ml-1 align-text-bottom"
                         data-href=${p.url}
@@ -41,7 +41,7 @@ class EntityView extends View {
                 </Fragment>
             ');
         } else {
-            jsx('<a href=${p.url} target="_blank">${linktext}</a>');
+            jsx('<a href=${p.url}>${linktext}</a>');
         }
 
         return jsx('
@@ -68,7 +68,7 @@ class EntityView extends View {
                     data-show-text="true"
                 >
                     <blockquote cite=${p.url} className="fb-xfbml-parse-ignore">
-                        <a href=${p.url} target="_blank">${p.url}</a>
+                        <a href=${p.url}>${p.url}</a>
                         ${summary}
                     </blockquote>
                 </div>
@@ -81,14 +81,14 @@ class EntityView extends View {
                     data-instgrm-permalink=${p.url}
                     data-instgrm-version="12"
                 >
-                    <a href=${p.url} target="_blank">${p.url}</a>
+                    <a href=${p.url}>${p.url}</a>
                     ${summary}
                 </blockquote>
             ');
         } else {
             jsx('
                 <div>
-                    <a href=${p.url} target="_blank">${p.url}</a>
+                    <a href=${p.url}>${p.url}</a>
                     ${summary}
                 </div>
             ');
