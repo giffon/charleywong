@@ -63,6 +63,13 @@ class Tag {
         inherits: [shop]
     }
 
+    static public final animal:Tag = {
+        name: [
+            en => "animal",
+            zh => "動物"
+        ],
+    }
+
     static public final footwear:Tag = {
         name: [
             en => "footwear",
