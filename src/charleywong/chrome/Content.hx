@@ -4,6 +4,7 @@ import charleywong.EntityIndex;
 import js.html.AnchorElement;
 import js.npm.mutation_summary.MutationSummary;
 import js.Browser.*;
+using Lambda;
 using StringTools;
 
 class Content {
@@ -17,12 +18,20 @@ class Content {
         if (
             link.getAttribute("role") != "button"
             &&
-            !link.matches("*[role='navigation'] a")
+            !link.classList.contains("see_more_link")
+            &&
+            !link.matches("*[role='navigation'] *[data-key^='tab_'] a")
+            &&
+            link.querySelector(".timestampContent") == null
+            &&
+            link.querySelector(".livetimestamp") == null
             &&
             !(switch (link.getAttribute("href")) {
                 case null: false;
                 case href: href.startsWith("#");
             })
+            &&
+            !["See All"].has(link.text)
             &&
             (
                 link.children.length == 0 || link.querySelector("h3") != null || link.querySelector("img") == null
@@ -44,7 +53,7 @@ class Content {
                             case "block": link.style.display = "inline-block";
                             case _: //pass
                         }
-                        link.outerHTML = "<span>" + link.outerHTML + ' <a href="https://charleywong.giffon.io/${entity.id}" target="_blank">[🔎]</a></span>';
+                        link.outerHTML = "<span>" + link.outerHTML + ' <a href="https://charleywong.giffon.io/${entity.id}" target="_blank" class="charleywong">🔎</a></span>';
                 }
             }
 
