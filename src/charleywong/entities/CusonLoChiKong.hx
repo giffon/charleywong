@@ -21,6 +21,9 @@ class CusonLoChiKong implements Entity {
     public final posts:Array<Post> = [
         {
             url: "https://www.facebook.com/Cuson.LoChiKong/posts/2647327968692541"
+        },
+        {
+            url: "https://www.facebook.com/Cuson.LoChiKong/photos/a.1599762766782405/2353448974747110/"
         }
     ];
     public final tags:Array<Tag> = [

@@ -63,6 +63,14 @@ class Tag {
         inherits: [shop]
     }
 
+    static public final footwear:Tag = {
+        name: [
+            en => "footwear",
+            zh => "鞋類"
+        ],
+        inherits: [clothing]
+    }
+
     static public final printing:Tag = {
         name: [
             en => "printing",
