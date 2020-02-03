@@ -55,6 +55,14 @@ class Tag {
         ]
     }
 
+    static public final hardware:Tag = {
+        name: [
+            en => "hardware",
+            zh => "五金"
+        ],
+        inherits: [shop]
+    }
+
     static public final clothing:Tag = {
         name: [
             en => "clothing",

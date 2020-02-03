@@ -29,7 +29,7 @@ class Fb100634091287214 implements Entity {
         }
     ];
     public final tags:Array<Tag> = [
-        shop
+        hardware
     ];
 }
 

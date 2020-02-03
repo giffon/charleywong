@@ -264,7 +264,7 @@ class Importer {
     static function createEntity(name:String, fbPage:FacebookInfo, post:Null<String>) {
         var className = getClassName(name, fbPage.page);
         var nameExpr = {
-            var chi_en = ~/^([\u4e00-\u9fff ]*[\u4e00-\u9fff])[^A-Za-z0-9\u4e00-\u9fff]*(.+)$/; // chinese then eng
+            var chi_en = ~/^([\u4e00-\u9fff ]*[\u4e00-\u9fff])[^A-Za-z0-9\u4e00-\u9fff]*([^\u4e00-\u9fff]+)$/; // chinese then eng
             var en_chi = ~/^([^\u4e00-\u9fff]+?)[ \-]*([\u4e00-\u9fff]+)$/; // chinese then eng
             if (noChi.match(name))
                 macro [
