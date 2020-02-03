@@ -10,4 +10,10 @@ a.charleywong {
     display: inline-block;
     font-size: xx-small;
     vertical-align: 30%;
+    transition: box-shadow 0.1s ease-out;
+}
+
+a.charleywong:hover {
+    text-decoration: none !important;
+    box-shadow: 0 0 0 0.25em #FF0;
 }
