@@ -18,6 +18,8 @@ class Content {
         if (
             link.getAttribute("role") != "button"
             &&
+            link.getAttribute("rel") != "theater"
+            &&
             !link.classList.contains("see_more_link")
             &&
             !link.matches("*[role='navigation'] *[data-key^='tab_'] a")
@@ -38,7 +40,7 @@ class Content {
             )
         ) {
 
-            var fbRegexp = ~/^https?:\/\/(?:www.)?facebook.com\/([^\/]+)/;
+            var fbRegexp = ~/^https?:\/\/(?:www.|m.)?facebook.com\/([^\/]+)/;
             var homePathRegexp = ~/^\/([^\/]+)\/?$/;
             var postPathRegexp = ~/^\/([^\/]+)\/(?:posts|photos|videos)\/?/;
             if (fbRegexp.match(link.href) && (homePathRegexp.match(link.pathname) || postPathRegexp.match(link.pathname))) {
