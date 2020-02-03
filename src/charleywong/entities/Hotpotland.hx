@@ -8,9 +8,6 @@ class Hotpotland implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "http://onondining.com"
-        },
-        {
             url: "https://www.facebook.com/hotpotland/",
             meta: [
                 "id" => "538322209689283",
