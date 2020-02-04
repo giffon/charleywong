@@ -97,7 +97,7 @@ class Tag {
     static public final printing3d:Tag = {
         name: [
             en => "3D printing",
-            zh => "立體印刷"
+            zh => "3D列印"
         ],
         inherits: [shop]
     }
