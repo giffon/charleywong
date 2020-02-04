@@ -15,6 +15,17 @@ class Fb100634091287214 implements Entity {
                     "Tools/equipment"
                 ]
             ]
+        },
+        {
+            url: "https://www.facebook.com/104048264502050/",
+            meta: [
+                "id" => "104048264502050",
+                "categories" => [
+                    "Product/service",
+                    "Personal blog",
+                    "Tools/equipment"
+                ]
+            ]
         }
     ];
     public final posts:Array<Post> = [
@@ -26,6 +37,9 @@ class Fb100634091287214 implements Entity {
         },
         {
             url: "https://www.facebook.com/100634091287214/photos/a.116286286388661/166760318007924/"
+        },
+        {
+            url: "https://www.facebook.com/104048264502050/videos/187774202336422/"
         }
     ];
     public final tags:Array<Tag> = [
