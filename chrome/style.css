@@ -9,11 +9,15 @@ a.charleywong {
     line-height: 1.5em;
     display: inline-block;
     font-size: xx-small;
-    vertical-align: 30%;
+    vertical-align: text-bottom;
     transition: box-shadow 0.1s ease-out;
 }
 
 a.charleywong:hover {
     text-decoration: none !important;
     box-shadow: 0 0 0 0.25em #FF0;
+}
+
+*[role='navigation'] a.charleywong {
+    vertical-align: 30%;
 }
