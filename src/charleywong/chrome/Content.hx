@@ -33,7 +33,7 @@ class Content {
                 case href: href.startsWith("#");
             })
             &&
-            !["See All"].has(link.text)
+            !["See All", "See More", ""].has(link.text)
             &&
             (
                 link.children.length == 0 || link.querySelector("h3") != null || link.querySelector("img") == null
