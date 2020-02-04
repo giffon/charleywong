@@ -8,7 +8,7 @@ a.charleywong {
     height: 1.5em;
     line-height: 1.5em;
     display: inline-block;
-    font-size: xx-small;
+    font-size: xx-small !important;
     vertical-align: text-bottom;
     transition: box-shadow 0.1s ease-out;
 }
