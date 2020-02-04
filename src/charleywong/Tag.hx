@@ -90,7 +90,16 @@ class Tag {
         name: [
             en => "printing",
             zh => "印刷"
-        ]
+        ],
+        inherits: [shop]
+    }
+
+    static public final printing3d:Tag = {
+        name: [
+            en => "3D printing",
+            zh => "立體印刷"
+        ],
+        inherits: [shop]
     }
 
     static public final currency:Tag = {
