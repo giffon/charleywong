@@ -30,8 +30,7 @@ class IdeaMakerHK implements Entity {
         }
     ];
     public final tags:Array<Tag> = [
-        technology,
-        shop
+        printing3d
     ];
 }
 

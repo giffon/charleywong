@@ -27,7 +27,8 @@ class SLSports implements Entity {
         }
     ];
     public final tags:Array<Tag> = [
-        shop
+        fitness,
+        clothing
     ];
 }
 

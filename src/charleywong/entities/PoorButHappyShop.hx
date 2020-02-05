@@ -38,7 +38,6 @@ class PoorButHappyShop implements Entity {
         }
     ];
     public final tags:Array<Tag> = [
-        technology,
         photography,
         shop
     ];

@@ -24,8 +24,7 @@ class Tomoondiycomputer implements Entity {
         }
     ];
     public final tags:Array<Tag> = [
-        technology,
-        shop
+        computer
     ];
 }
 

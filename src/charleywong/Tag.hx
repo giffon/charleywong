@@ -245,6 +245,46 @@ class Tag {
         ]
     }
 
+    static public final computer:Tag = {
+        name: [
+            en => "computer",
+            zh => "電臘"
+        ],
+        inherits: [technology, shop]
+    }
+
+    static public final phone:Tag = {
+        name: [
+            en => "phone",
+            zh => "電話"
+        ],
+        inherits: [technology, shop]
+    }
+
+    static public final webdev:Tag = {
+        name: [
+            en => "web design/development",
+            zh => "網頁設計/開發"
+        ],
+        inherits: [technology, shop]
+    }
+
+    static public final mobiledev:Tag = {
+        name: [
+            en => "mobile app design/development",
+            zh => "手機應用程式設計/開發"
+        ],
+        inherits: [technology, shop]
+    }
+
+    static public final advertisingAgency:Tag = {
+        name: [
+            en => "advertising agency",
+            zh => "廣告代理"
+        ],
+        inherits: [shop]
+    }
+
     static public final medical:Tag = {
         name: [
             en => "medical",

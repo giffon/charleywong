@@ -33,8 +33,7 @@ class Civicle implements Entity {
         }
     ];
     public final tags:Array<Tag> = [
-        technology,
-        shop
+        webdev
     ];
 }
 

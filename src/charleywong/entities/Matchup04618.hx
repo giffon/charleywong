@@ -25,8 +25,7 @@ class Matchup04618 implements Entity {
         }
     ];
     public final tags:Array<Tag> = [
-        technology,
-        shop
+        phone
     ];
 }
 

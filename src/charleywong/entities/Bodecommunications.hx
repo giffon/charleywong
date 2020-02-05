@@ -31,9 +31,8 @@ class Bodecommunications implements Entity {
         }
     ];
     public final tags:Array<Tag> = [
-        shop,
-        technology,
-        artist
+        webdev,
+        advertisingAgency
     ];
 }
 

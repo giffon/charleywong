@@ -38,8 +38,7 @@ class Fix3C implements Entity {
         }
     ];
     public final tags:Array<Tag> = [
-        shop,
-        technology
+        phone
     ];
 }
 
