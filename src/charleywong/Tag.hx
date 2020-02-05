@@ -292,6 +292,17 @@ class Tag {
         ]
     }
 
+    static public final pharmacy:Tag = {
+        name: [
+            en => "pharmacy",
+            zh => "藥房"
+        ],
+        inherits: [
+            medical,
+            shop
+        ]
+    }
+
     static public final automobile:Tag = {
         name: [
             en => "automobile",
