@@ -31,7 +31,7 @@ class WheelsHK implements Entity {
         }
     ];
     public final tags:Array<Tag> = [
-        shop
+        automobile
     ];
 }
 

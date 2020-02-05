@@ -291,4 +291,23 @@ class Tag {
             zh => "醫療"
         ]
     }
+
+    static public final automobile:Tag = {
+        name: [
+            en => "automobile",
+            zh => "汽車"
+        ],
+        inherits: [
+            transport,
+            shop
+        ]
+    }
+
+    static public final interior:Tag = {
+        name: [
+            en => "interior design",
+            zh => "室內裝修設計"
+        ],
+        inherits: [shop]
+    }
 }

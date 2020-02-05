@@ -24,7 +24,8 @@ class HkTaroVan implements Entity {
         }
     ];
     public final tags:Array<Tag> = [
-        wedding
+        wedding,
+        automobile
     ];
 }
 

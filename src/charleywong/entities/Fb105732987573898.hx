@@ -26,7 +26,7 @@ class Fb105732987573898 implements Entity {
         }
     ];
     public final tags:Array<Tag> = [
-        shop
+        interior
     ];
 }
 

@@ -28,6 +28,7 @@ class Bcbikehk implements Entity {
         }
     ];
     public final tags:Array<Tag> = [
+        transport,
         shop
     ];
 }

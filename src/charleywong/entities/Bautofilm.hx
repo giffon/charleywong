@@ -24,7 +24,7 @@ class Bautofilm implements Entity {
         }
     ];
     public final tags:Array<Tag> = [
-        shop
+        automobile
     ];
 }
 

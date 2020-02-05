@@ -8,9 +8,6 @@ class Hkedmofficial implements Entity {
     ];
     public final webpages:Array<WebPage> = [
         {
-            url: "https://www.instagram.com/hongkong.edm.official"
-        },
-        {
             url: "https://www.facebook.com/hkedmofficial/",
             meta: [
                 "id" => "179264976069266",

@@ -39,7 +39,7 @@ class Ffdhk implements Entity {
         }
     ];
     public final tags:Array<Tag> = [
-        shop
+        interior
     ];
 }
 
