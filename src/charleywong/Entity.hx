@@ -29,7 +29,7 @@ class Entity {
             name: json.name,
             webpages: json.webpages,
             posts: json.posts,
-            tags: json.tags,
+            tags: (json.tags:Array<String>).map(t -> Tag.tags[t]),
         };
     }
 }
