@@ -14,15 +14,8 @@ jobs:
         image: selenium/standalone-chrome-debug:3.141.59-yttrium
         ports:
           - 4444:4444
-    strategy:
-      matrix:
-        utestPattern:
-          - TestAllEntities
-          - TestUrls.testPostUrls
     env:
       HUB_HOST: selenium
-      UTEST_PATTERN: ${{ matrix.utestPattern }}
-    if: (github.event_name == 'push' && matrix.utestPattern == 'TestAllEntities') || github.event_name == 'schedule'
     steps:
       - uses: actions/checkout@v1
         with:
@@ -56,17 +49,21 @@ jobs:
       - name: Compile index.js
         run: haxe build.hxml
       - uses: actions/upload-artifact@v1
-        if: success() && matrix.utestPattern == 'TestAllEntities'
         with:
           name: index.js
           path: index.js
       - name: Compile Chrome extension
         run: haxe chrome-extension.hxml
       - uses: actions/upload-artifact@v1
-        if: success() && matrix.utestPattern == 'TestAllEntities'
         with:
           name: chrome
           path: chrome
+      - name: Select test
+        shell: bash
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "push" ]; then
+            echo "::set-env name=UTEST_PATTERN::TestAllEntities";
+          fi
       - name: Run test
         shell: bash
         run: |

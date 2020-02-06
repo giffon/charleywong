@@ -12,6 +12,7 @@ class TestUrls extends utest.Test {
         this.index = index;
     }
 
+    @Ignored
     function testWebpageUrls():Void {
         for (entity in index.entities) {
             for (page in entity.webpages) {
