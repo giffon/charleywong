@@ -12,9 +12,12 @@ class Tag {
     function get_id() return id != null ? id : id = [for (k => v in tags) if (v == this) k][0];
 
     static function main():Void {
+        var ids = [for (t in tags) t.id];
+        ids.sort(Reflect.compare);
         var schema = {
+            "$id": "Tag.json",
             "type": "string",
-            "enum": [for (t in tags) t.id]
+            "enum": ids
         };
         File.saveContent("data/schema/Tag.json", haxe.Json.stringify(schema, null, "  "));
     }
