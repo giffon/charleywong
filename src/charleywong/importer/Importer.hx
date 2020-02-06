@@ -1,6 +1,7 @@
 package charleywong.importer;
 
 import haxe.*;
+import haxe.io.*;
 import sys.io.File;
 import charleywong.*;
 import charleywong.importer.FacebookImporter;
@@ -9,7 +10,8 @@ using Lambda;
 
 class Importer {
     static final fbAppId = Sys.getEnv("FB_APP_ID");
-    static final entityIndex = EntityIndex.loadFromDirectory("data/entity");
+    static final dataDirectory = "data/entity";
+    static final entityIndex = EntityIndex.loadFromDirectory(dataDirectory);
 
     static function importFbPermalink(url:String) {
         var importer = new FacebookImporter();
@@ -32,7 +34,7 @@ class Importer {
         if (Sys.getEnv("CI") != null || Sys.getEnv("GITHUB_ACTIONS") != null) {
             Sys.println("In CI, skip writing file.");
         } else {
-            var file = "data/" + entity.id + ".json";
+            var file = Path.join([dataDirectory, entity.id + ".json"]);
             var rewrite = sys.FileSystem.exists(file);
             File.saveContent(file, fileContent);
             Sys.println((rewrite ? "✍️  Rewritten " : "🌟  Created ") + file);
@@ -98,7 +100,7 @@ class Importer {
                 importFbPage(fb, null);
             case ["export"]:
                 for (e in entityIndex.entities) {
-                    var file = "data/" + e.id + ".json";
+                    var file = Path.join([dataDirectory, e.id + ".json"]);
                     File.saveContent(file, haxe.Json.stringify(e.toJson(), null, "  "));
                 }
             case _:
