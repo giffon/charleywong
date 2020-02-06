@@ -21,10 +21,10 @@ class TestAllEntities extends utest.Test {
 
     function testIdUniqueness():Void {
         var ids = new Map<String, String>();
-        for (entityClassName => entity in index.entities) {
+        for (file => entity in index.entities) {
             var id = entity.id.toLowerCase(); // id should be case insensitive since it is used as file name
-            Assert.isFalse(ids.exists(id), '${entity.id} exists in both ${entityClassName} and ${ids[id]}.');
-            ids[id] = entityClassName;
+            Assert.isFalse(ids.exists(id), '${entity.id} exists in both ${file} and ${ids[id]}.');
+            ids[id] = file;
         }
     }
 
@@ -41,7 +41,7 @@ class TestAllEntities extends utest.Test {
 
     function testWebpagesUrlUniqueness():Void {
         var urls = new Map<String, Entity>();
-        for (entityClassName => entity in index.entities) {
+        for (file => entity in index.entities) {
             for (page in entity.webpages) {
                 var e = urls[page.url];
                 Assert.isTrue(e == null, '${page.url} exists in both ${entity.id} and ${e == null ? null : e.id}}.');
@@ -51,7 +51,7 @@ class TestAllEntities extends utest.Test {
     }
 
     function testPostsUrlUniqueness():Void {
-        for (entityClassName => entity in index.entities) {
+        for (file => entity in index.entities) {
             var urls = new Map<String, Entity>();
             for (post in entity.posts) {
                 var e = urls[post.url];
@@ -80,8 +80,14 @@ class TestAllEntities extends utest.Test {
     }
 
     function testTags() {
-        for (entity in index.entities) {
-            Assert.isTrue(entity.tags.length > 0, '${entity} has no tags.');
+        for (file => entity in index.entities) {
+            Assert.isTrue(entity.tags.length > 0, '${file} has no tags.');
+
+            if ([for (t in entity.tags) if (t == null) t].count() > 0) {
+                Assert.fail('${file} has unknown tag.');
+            } else {
+                Assert.equals(entity.tags.length, [for (t in entity.tags) t.id => t].count(), '${file} has duplicated tags.');
+            }
         }
     }
 }
