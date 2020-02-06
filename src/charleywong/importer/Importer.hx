@@ -9,7 +9,7 @@ using Lambda;
 
 class Importer {
     static final fbAppId = Sys.getEnv("FB_APP_ID");
-    static final entityIndex = EntityIndex.loadFromDirectory("data");
+    static final entityIndex = EntityIndex.loadFromDirectory("data/entity");
 
     static function importFbPermalink(url:String) {
         var importer = new FacebookImporter();

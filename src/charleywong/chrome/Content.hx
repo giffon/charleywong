@@ -8,7 +8,7 @@ using Lambda;
 using StringTools;
 
 class Content {
-    static final entityIndex = EntityIndex.embedFromDirectory("data");
+    static final entityIndex = EntityIndex.embedFromDirectory("data/entity");
 
     static function processLink(link:AnchorElement):Void {
         if (link.dataset.charleywong != null) {
