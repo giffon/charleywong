@@ -4,27 +4,54 @@ package charleywong;
 import js.Lib.*;
 import js.npm.flexsearch.FlexSearch;
 #end
+import sys.*;
+import sys.io.*;
+import haxe.ds.*;
+import haxe.io.*;
 using Lambda;
 using StringTools;
 
 class EntityIndex {
-    static public var entities(get, null):Map<String, Entity>;
-    static function get_entities() return entities != null ? entities : entities = [
-        for (cls in CompileTime.getAllClasses("charleywong.entities", true, Entity))
-        Type.getClassName(cls) => Type.createInstance(cls, [])
-    ];
+    public final entities:Map<String, Entity>;
+    public function new(entities:Map<String, Entity>):Void {
+        this.entities = entities;
+    }
 
-    static public var entitiesOfUrl(get, null):Map<String, Entity>;
-    static function get_entitiesOfUrl() return entitiesOfUrl != null ? entitiesOfUrl : entitiesOfUrl = [
+    static public function loadFromDirectory(path:String):EntityIndex {
+        var entities = new Map();
+        for (item in FileSystem.readDirectory(path)) {
+            if (!item.endsWith(".json")) continue;
+
+            var file = Path.join([path, item]);
+            entities[file] = Entity.fromJson(haxe.Json.parse(File.getContent(file)));
+        }
+        return new EntityIndex(entities);
+    }
+
+    macro static public function embedFromDirectory(path:String):ExprOf<EntityIndex> {
+        var exprs = [
+            for (item in FileSystem.readDirectory(path))
+            if (item.endsWith(".json"))
+            {
+                var file = Path.join([path, item]);
+                var content = File.getContent(file);
+                macro $v{file} => Entity.fromJson(haxe.Json.parse($v{content}));
+            }
+        ];
+        return macro new EntityIndex([$a{exprs}]);
+    }
+
+    public var entitiesOfUrl(get, null):Map<String, Entity>;
+    function get_entitiesOfUrl() return entitiesOfUrl != null ? entitiesOfUrl : entitiesOfUrl = [
         for (e in entities)
         for (page in e.webpages)
         page.url => e
     ];
 
-    static final fbPageRegexp = ~/^https:\/\/www\.facebook\.com\/(.+?)\/$/;
+    final fbPageRegexp = ~/^https:\/\/www\.facebook\.com\/(.+?)\/$/;
 
-    static public var entitiesOfFbPage(get, null):Map<String, Entity>;
-    static function get_entitiesOfFbPage() return entitiesOfFbPage != null ? entitiesOfFbPage : entitiesOfFbPage = {
+    public var entitiesOfFbPage(get, null):Map<String, Entity>;
+    function get_entitiesOfFbPage() return entitiesOfFbPage != null ? entitiesOfFbPage : entitiesOfFbPage = {
         var m = new Map();
         for (e in entities)
         for (p in e.webpages)
@@ -39,16 +66,16 @@ class EntityIndex {
         m;
     }
 
-    static public var entitiesOfId(get, null):Map<String, Entity>;
-    static function get_entitiesOfId() return entitiesOfId != null ? entitiesOfId : entitiesOfId = [
+    public var entitiesOfId(get, null):Map<String, Entity>;
+    function get_entitiesOfId() return entitiesOfId != null ? entitiesOfId : entitiesOfId = [
         for (e in entities)
         e.id => e
     ];
 
     #if js
-    static final mixedChiEngSep = ~/(?:[\s\-]+|(?=[\u4e00-\u9fff])|(?<=[\u4e00-\u9fff]))/g;
-    static public var flexsearch(get, null):FlexSearch;
-    static function get_flexsearch() return flexsearch != null ? flexsearch : flexsearch = {
+    final mixedChiEngSep = ~/(?:[\s\-]+|(?=[\u4e00-\u9fff])|(?<=[\u4e00-\u9fff]))/g;
+    public var flexsearch(get, null):FlexSearch;
+    function get_flexsearch() return flexsearch != null ? flexsearch : flexsearch = {
         function tokenize(str:String) {
             return mixedChiEngSep.split(str);
         }

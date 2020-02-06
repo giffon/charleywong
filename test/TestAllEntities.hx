@@ -6,18 +6,25 @@ using Lambda;
 using StringTools;
 
 class TestAllEntities extends utest.Test {
+    final index:EntityIndex;
+    public function new(index:EntityIndex) {
+        super();
+        this.index = index;
+    }
+
     function testEntityIndex() {
-        Assert.isFalse(EntityIndex.entities.empty());
-        Assert.isFalse(EntityIndex.entitiesOfUrl.empty());
-        Assert.isFalse(EntityIndex.entitiesOfFbPage.empty());
-        Assert.isFalse(EntityIndex.entitiesOfId.empty());
+        Assert.isFalse(index.entities.empty());
+        Assert.isFalse(index.entitiesOfUrl.empty());
+        Assert.isFalse(index.entitiesOfFbPage.empty());
+        Assert.isFalse(index.entitiesOfId.empty());
     }
 
     function testIdUniqueness():Void {
         var ids = new Map<String, String>();
-        for (entityClassName => entity in EntityIndex.entities) {
-            Assert.isFalse(ids.exists(entity.id), '${entity.id} exists in both ${entityClassName} and ${ids[entity.id]}.');
-            ids[entity.id] = entityClassName;
+        for (entityClassName => entity in index.entities) {
+            var id = entity.id.toLowerCase(); // id should be case insensitive since it is used as file name
+            Assert.isFalse(ids.exists(id), '${entity.id} exists in both ${entityClassName} and ${ids[id]}.');
+            ids[id] = entityClassName;
         }
     }
 
@@ -26,7 +33,7 @@ class TestAllEntities extends utest.Test {
         var reserved = [
             "flexsearch",  // https://charleywong.giffon.io/flexsearch.json
         ];
-        for (id => e in EntityIndex.entitiesOfId) {
+        for (id => e in index.entitiesOfId) {
             Assert.isTrue(regexp.match(id), '$id is not valid.');
             Assert.isFalse(reserved.has(id));
         }
@@ -34,7 +41,7 @@ class TestAllEntities extends utest.Test {
 
     function testWebpagesUrlUniqueness():Void {
         var urls = new Map<String, Entity>();
-        for (entityClassName => entity in EntityIndex.entities) {
+        for (entityClassName => entity in index.entities) {
             for (page in entity.webpages) {
                 var e = urls[page.url];
                 Assert.isTrue(e == null, '${page.url} exists in both ${entity.id} and ${e == null ? null : e.id}}.');
@@ -44,7 +51,7 @@ class TestAllEntities extends utest.Test {
     }
 
     function testPostsUrlUniqueness():Void {
-        for (entityClassName => entity in EntityIndex.entities) {
+        for (entityClassName => entity in index.entities) {
             var urls = new Map<String, Entity>();
             for (post in entity.posts) {
                 var e = urls[post.url];
@@ -56,7 +63,7 @@ class TestAllEntities extends utest.Test {
 
     function testFbUrlFormat() {
         var regexp = ~/^https?:\/\/(?:www.)?facebook.com\/(.+?)\/?$/;
-        for (entity in EntityIndex.entities) {
+        for (entity in index.entities) {
             for (page in entity.webpages)
             if (regexp.match(page.url))
             Assert.equals('https://www.facebook.com/${regexp.matched(1)}/', page.url);
@@ -65,7 +72,7 @@ class TestAllEntities extends utest.Test {
 
     function testIgUrlFormat() {
         var regexp = ~/^https?:\/\/(?:www.)?instagram.com\/(.+?)\/?$/;
-        for (entity in EntityIndex.entities) {
+        for (entity in index.entities) {
             for (page in entity.webpages)
             if (regexp.match(page.url))
             Assert.equals('https://www.instagram.com/${regexp.matched(1)}/', page.url);
@@ -73,7 +80,7 @@ class TestAllEntities extends utest.Test {
     }
 
     function testTags() {
-        for (entity in EntityIndex.entities) {
+        for (entity in index.entities) {
             Assert.isTrue(entity.tags.length > 0, '${entity} has no tags.');
         }
     }

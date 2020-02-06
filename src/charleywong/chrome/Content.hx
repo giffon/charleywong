@@ -8,6 +8,8 @@ using Lambda;
 using StringTools;
 
 class Content {
+    static final entityIndex = EntityIndex.embedFromDirectory("data");
+
     static function processLink(link:AnchorElement):Void {
         if (link.dataset.charleywong != null) {
             return;
@@ -48,7 +50,7 @@ class Content {
                 var fbIdRegexp = ~/^.+-([0-9]+)$/;
                 if (fbIdRegexp.match(fb))
                     fb = fbIdRegexp.matched(1);
-                switch (EntityIndex.entitiesOfFbPage[fb]) {
+                switch (entityIndex.entitiesOfFbPage[fb]) {
                     case null: //pass
                     case entity:
                         switch (window.getComputedStyle(link).display) {

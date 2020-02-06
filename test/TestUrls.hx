@@ -6,8 +6,14 @@ using Lambda;
 using StringTools;
 
 class TestUrls extends utest.Test {
+    final index:EntityIndex;
+    public function new(index:EntityIndex) {
+        super();
+        this.index = index;
+    }
+
     function testWebpageUrls():Void {
-        for (entity in EntityIndex.entities) {
+        for (entity in index.entities) {
             for (page in entity.webpages) {
                 validateUrl(page.url);
             }
@@ -15,7 +21,7 @@ class TestUrls extends utest.Test {
     }
 
     function testPostUrls():Void {
-        for (entity in EntityIndex.entities) {
+        for (entity in index.entities) {
             for (post in entity.posts) {
                 validateUrl(post.url);
             }

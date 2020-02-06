@@ -11,6 +11,7 @@ using Lambda;
 
 class Importer {
     static final fbAppId = Sys.getEnv("FB_APP_ID");
+    static final entityIndex = EntityIndex.loadFromDirectory("data");
 
     static function importFbPermalink(url:String) {
         var importer = new FacebookImporter();
@@ -20,7 +21,7 @@ class Importer {
     }
 
     static function importFbPage(fbPage:String, postUrl:Null<String>) {
-        var cls = switch (EntityIndex.entitiesOfFbPage[fbPage]) {
+        var cls = switch (entityIndex.entitiesOfFbPage[fbPage]) {
             case null:
                 var importer = new FacebookImporter();
                 var info = importer.fbPageInfo(fbPage);
@@ -97,11 +98,16 @@ class Importer {
             case [a] if (a.startsWith("https://")):
                 importUrl(a.trim());
             case ["update"]:
-                for (fb => e in EntityIndex.entitiesOfFbPage) {
+                for (fb => e in entityIndex.entitiesOfFbPage) {
                     importFbPage(fb, null);
                 }
             case ["update", fb]:
                 importFbPage(fb, null);
+            case ["export"]:
+                for (e in entityIndex.entities) {
+                    var file = "data/" + e.id + ".json";
+                    File.saveContent(file, haxe.Json.stringify(e.toJson(), null, "  "));
+                }
             case _:
                 throw 'Unknow args $args';
         }

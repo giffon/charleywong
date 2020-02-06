@@ -3,7 +3,7 @@ package charleywong;
 import haxe.DynamicAccess;
 
 @:forward(exists, keys, iterator, keyValueIterator)
-abstract MultiLangString(Map<Lang,String>) from Map<Lang,String> {
+abstract MultiLangString(DynamicAccess<String>) from DynamicAccess<String> {
     @:arrayAccess
     public inline function get(key: Lang): Null<String> {
         return this.get(key);

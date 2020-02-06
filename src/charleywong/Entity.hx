@@ -1,5 +1,6 @@
 package charleywong;
 
+import haxe.*;
 import haxe.ds.*;
 import charleywong.*;
 
@@ -11,13 +12,24 @@ typedef Post = {
 typedef WebPage = {
     ?name:Null<MultiLangString>,
     url:String,
-    ?meta:Map<String, Dynamic>,
+    ?meta:DynamicAccess<Dynamic>,
 }
 
-interface Entity {
+@:structInit
+class Entity {
     public final id:String;
     public final name:MultiLangString;
     public final webpages:Array<WebPage>;
     public final posts:Array<Post>;
     public final tags:Array<Tag>;
+
+    static public function fromJson(json:Dynamic):Entity {
+        return {
+            id: json.id,
+            name: json.name,
+            webpages: json.webpages,
+            posts: json.posts,
+            tags: json.tags,
+        };
+    }
 }
