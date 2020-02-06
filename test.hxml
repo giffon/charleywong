@@ -1,4 +1,3 @@
---main Test
 --class-path src
 --class-path test
 --library utest
@@ -6,4 +5,4 @@
 --library tink_core
 --macro include('charleywong.entities')
 -D UTEST_PRINT_TESTS
---interp
+--run Test

@@ -58,17 +58,11 @@ jobs:
         with:
           name: chrome
           path: chrome
-      - name: Select test
-        shell: bash
-        run: |
-          if [ "$GITHUB_EVENT_NAME" = "push" ]; then
-            echo "::set-env name=UTEST_PATTERN::TestAllEntities";
-          fi
       - name: Run test
         shell: bash
         run: |
           source ~/venv/bin/activate
-          haxe test.hxml
+          haxe test.hxml "$GITHUB_EVENT_NAME"
   deploy:
     needs: build
     if: success() && github.event_name == 'push' && github.ref == 'refs/heads/master'
