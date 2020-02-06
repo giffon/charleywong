@@ -165,8 +165,8 @@ class Importer {
                 }
             else if (chi_en.match(name))
                 {
-                    en: chi_en.matched(1),
-                    zh: chi_en.matched(2)
+                    zh: chi_en.matched(1),
+                    en: chi_en.matched(2)
                 }
             else if (en_chi.match(name))
                 {
