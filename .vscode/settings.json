@@ -1,3 +1,11 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/data/entity/*.json"
+            ],
+            "url": "./data/schema/Entity.json"
+        }
+    ]
 }

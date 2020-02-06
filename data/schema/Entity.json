@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+        "id" : {
+            "type": "string"
+        },
+        "name" : {
+            "$ref": "MultiLangString.json"
+        },
+        "webpages" : {
+            "type": "array",
+            "items": {
+                "$ref": "WebPage.json"
+            }
+        },
+        "posts" : {
+            "type": "array",
+            "items": {
+                "$ref": "Post.json"
+            }
+        },
+        "tags" : {
+            "type": "array",
+            "items": {
+                "$ref": "Tag.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "webpages",
+        "posts",
+        "tags"
+    ],
+    "additionalProperties": false
+}

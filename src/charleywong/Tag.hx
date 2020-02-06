@@ -1,5 +1,7 @@
 package charleywong;
 
+import sys.io.File;
+
 @:structInit
 class Tag {
     public final name:MultiLangString;
@@ -8,6 +10,14 @@ class Tag {
 
     @:optional public var id(get, null):String;
     function get_id() return id != null ? id : id = [for (k => v in tags) if (v == this) k][0];
+
+    static function main():Void {
+        var schema = {
+            "type": "string",
+            "enum": [for (t in tags) t.id]
+        };
+        File.saveContent("data/schema/Tag.json", haxe.Json.stringify(schema, null, "  "));
+    }
 
     static public var tags(get, null):Map<String, Tag>;
     static public function get_tags() return tags != null ? tags : tags = {

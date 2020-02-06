@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "en": {
+            "type": "string"
+        },
+        "zh": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false
+}
