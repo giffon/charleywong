@@ -9,19 +9,27 @@ class Index extends View {
     }
 
     static public function searchForm(query:String) return jsx('
-        <form action="/">
-            <input type="text" name="search" placeholder="搜尋" required=${true} defaultValue=${query} />
-            <input type="submit" value="🔎" />
+        <form className="d-flex" action="/">
+            <input className="w-100 p-3 search-input" type="text" name="search" placeholder="商業/品牌名稱" required=${true} defaultValue=${query} />
+            <input className="btn m-0 p-3 search-btn" type="submit" value="🔎" />
         </form>
     ');
 
     override function bodyContent() {
         return jsx('
             <Fragment>
-                <h1>Charley Wong 和你查</h1>
-                ${searchForm("")}
-                <div>
-                    <a href="list/all">全部 Charley Wong 和你查 商業/品牌名單</a>
+                <div className="mt-5 container">
+                    <div className="row justify-content-center">
+                        <div className="col-12 col-md-6 col-lg-4 text-center">
+                            <img className="w-100" src="/images/logo4.png"/>
+                            ${searchForm("")}
+                            <img className="w-100" src="/images/logo-b-gif.gif"/>
+                            
+                            <div>
+                                <a href="list/all">全部 Charley Wong 和你查 商業/品牌名單</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </Fragment>
         ');

@@ -53,6 +53,7 @@ class View extends ReactComponent {
 
     function css() return jsx('
         <Fragment>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito|Noto+Sans+TC&display=swap"/>
             <link rel="stylesheet" href="/css/style.css" />
         </Fragment>
     ');

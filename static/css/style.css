@@ -1,11 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', 'Noto Sans TC',  sans-serif;
+}
+
 body {
-    padding: 1em;
+    background: #f4a948;
 }
 
 form {
-    margin: 1em 0;
+    margin: 0;
+}
+
+.search-input {
+    border: 3px solid #f4a948;
+    font-size: 1.2rem;
+    border-radius: 10px 0 0 10px;
+}
+
+.search-btn {
+    background-color: #172451;
+    border: 3px solid #f4a948;
+    border-radius: 0 10px 10px 0;
+    font-size: 1.2rem;
 }
 
 footer {
     margin-top: 2em;
+    text-align: center;
+    color: rgba(0,0,0,0.5);
 }
