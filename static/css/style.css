@@ -16,6 +16,7 @@ form {
     border: 3px solid #f4a948;
     font-size: 1.2rem;
     border-radius: 10px 0 0 10px;
+    outline: none;
 }
 
 .search-btn {

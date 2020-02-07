@@ -10,7 +10,7 @@ class Index extends View {
 
     static public function searchForm(query:String) return jsx('
         <form className="d-flex" action="/">
-            <input className="w-100 p-3 search-input" type="text" name="search" placeholder="商業/品牌名稱" required=${true} defaultValue=${query} />
+            <input className="w-100 p-3 search-input" type="text" name="search" placeholder="商業/品牌名稱" required=${true} defaultValue=${query} autoFocus=${true} />
             <input className="btn m-0 p-3 search-btn" type="submit" value="🔎" />
         </form>
     ');
