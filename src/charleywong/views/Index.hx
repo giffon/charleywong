@@ -21,9 +21,9 @@ class Index extends View {
                 <div className="mt-5 container">
                     <div className="row justify-content-center">
                         <div className="col-12 col-md-6 col-lg-4 text-center">
-                            <img className="w-100" src="/images/logo4.png"/>
+                            <img className="w-100" src="/images/logo4.png" alt="Charley Wong"/>
                             ${searchForm("")}
-                            <img className="w-100" src="/images/logo-b-gif.gif"/>
+                            <img className="w-100" src="/images/logo-b-gif.gif" alt="和你查"/>
                             
                             <div>
                                 <a href="list/all">全部 Charley Wong 和你查 商業/品牌名單</a>
