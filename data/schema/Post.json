@@ -1,0 +1,16 @@
+{
+    "$id": "Post.json",
+    "type": "object",
+    "properties": {
+        "url": {
+            "type": "string"
+        },
+        "summary": {
+            "$ref": "MultiLangString.json"
+        }
+    },
+    "required": [
+        "url"
+    ],
+    "additionalProperties": false
+}

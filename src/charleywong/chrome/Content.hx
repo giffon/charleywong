@@ -4,9 +4,12 @@ import charleywong.EntityIndex;
 import js.html.AnchorElement;
 import js.npm.mutation_summary.MutationSummary;
 import js.Browser.*;
+using Lambda;
 using StringTools;
 
 class Content {
+    static final entityIndex = EntityIndex.embedFromDirectory("data/entity");
+
     static function processLink(link:AnchorElement):Void {
         if (link.dataset.charleywong != null) {
             return;
@@ -17,19 +20,29 @@ class Content {
         if (
             link.getAttribute("role") != "button"
             &&
-            !link.matches("*[role='navigation'] a")
+            link.getAttribute("rel") != "theater"
+            &&
+            !link.classList.contains("see_more_link")
+            &&
+            !link.matches("*[role='navigation'] *[data-key^='tab_'] a")
+            &&
+            link.querySelector(".timestampContent") == null
+            &&
+            link.querySelector(".livetimestamp") == null
             &&
             !(switch (link.getAttribute("href")) {
                 case null: false;
                 case href: href.startsWith("#");
             })
             &&
+            !["See All", "See More", ""].has(link.text)
+            &&
             (
                 link.children.length == 0 || link.querySelector("h3") != null || link.querySelector("img") == null
             )
         ) {
 
-            var fbRegexp = ~/^https?:\/\/(?:www.)?facebook.com\/([^\/]+)/;
+            var fbRegexp = ~/^https?:\/\/(?:www.|m.)?facebook.com\/([^\/]+)/;
             var homePathRegexp = ~/^\/([^\/]+)\/?$/;
             var postPathRegexp = ~/^\/([^\/]+)\/(?:posts|photos|videos)\/?/;
             if (fbRegexp.match(link.href) && (homePathRegexp.match(link.pathname) || postPathRegexp.match(link.pathname))) {
@@ -37,14 +50,14 @@ class Content {
                 var fbIdRegexp = ~/^.+-([0-9]+)$/;
                 if (fbIdRegexp.match(fb))
                     fb = fbIdRegexp.matched(1);
-                switch (EntityIndex.entitiesOfFbPage[fb]) {
+                switch (entityIndex.entitiesOfFbPage[fb]) {
                     case null: //pass
                     case entity:
                         switch (window.getComputedStyle(link).display) {
                             case "block": link.style.display = "inline-block";
                             case _: //pass
                         }
-                        link.outerHTML = "<span>" + link.outerHTML + ' <a href="https://charleywong.giffon.io/${entity.id}" target="_blank">[🔎]</a></span>';
+                        link.outerHTML = "<span>" + link.outerHTML + ' <a href="https://charleywong.giffon.io/${entity.id}" target="_blank" class="charleywong">🔎</a></span>';
                 }
             }
 

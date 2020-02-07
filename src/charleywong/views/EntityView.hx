@@ -1,5 +1,7 @@
 package charleywong.views;
 
+import charleywong.Utils.prettyUrl;
+
 class EntityView extends View {
     override public function title() return '${renderName(entity.name)}';
     override public function description() return 'Charley Wong 和你查 ${renderName(entity.name)}.';
@@ -21,16 +23,16 @@ class EntityView extends View {
 
     function renderWebpage(p:charleywong.Entity.WebPage) {
         var linktext = if (p.name != null)
-            '${p.name} ${p.url}';
+            '${p.name} ${prettyUrl(p.url)}';
         else
-            p.url;
+            prettyUrl(p.url);
 
         var item = if (p.url.startsWith("https://www.facebook.com/")) {
             jsx('
                 <Fragment>
-                    <a href=${p.url} target="_blank">${linktext}</a>
+                    <a href=${p.url}>${linktext}</a>
                     <div
-                        className="fb-like ml-1"
+                        className="fb-like ml-1 align-text-bottom"
                         data-href=${p.url}
                         data-width=""
                         data-layout="button_count"
@@ -41,7 +43,7 @@ class EntityView extends View {
                 </Fragment>
             ');
         } else {
-            jsx('<a href=${p.url} target="_blank">${linktext}</a>');
+            jsx('<a href=${p.url}>${linktext}</a>');
         }
 
         return jsx('
@@ -68,7 +70,7 @@ class EntityView extends View {
                     data-show-text="true"
                 >
                     <blockquote cite=${p.url} className="fb-xfbml-parse-ignore">
-                        <a href=${p.url} target="_blank">${p.url}</a>
+                        <a href=${p.url}>${prettyUrl(p.url)}</a>
                         ${summary}
                     </blockquote>
                 </div>
@@ -81,14 +83,14 @@ class EntityView extends View {
                     data-instgrm-permalink=${p.url}
                     data-instgrm-version="12"
                 >
-                    <a href=${p.url} target="_blank">${p.url}</a>
+                    <a href=${p.url}>${prettyUrl(p.url)}</a>
                     ${summary}
                 </blockquote>
             ');
         } else {
             jsx('
                 <div>
-                    <a href=${p.url} target="_blank">${p.url}</a>
+                    <a href=${p.url}>${prettyUrl(p.url)}</a>
                     ${summary}
                 </div>
             ');

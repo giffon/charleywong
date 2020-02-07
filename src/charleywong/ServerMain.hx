@@ -11,6 +11,7 @@ using Lambda;
 class ServerMain {
     static final port = 3000;
     static final isMain = (untyped __js__("require")).main == module;
+    static final entityIndex = EntityIndex.embedFromDirectory("data/entity");
     static var app:Application;
 
     static function index(req:Request, res:Response) {
@@ -37,7 +38,7 @@ class ServerMain {
             slug: "all",
             listName: "全部 Charley Wong 和你查 商業/品牌",
             entities: {
-                var entities = EntityIndex.entities.array();
+                var entities = entityIndex.entities.array();
                 entities.sort((e1, e2) -> Reflect.compare(renderName(e1.name), renderName(e2.name)));
                 entities;
             }
@@ -45,12 +46,12 @@ class ServerMain {
     }
 
     static function allJson(req:Request, res:Response) {
-        res.json([for (e in EntityIndex.entities) e.toJson()]);
+        res.json([for (e in entityIndex.entities) e.toJson()]);
     }
 
     static function entityJson(req:Request, res:Response) {
         var entityId:String = req.params.entityId;
-        var entity = EntityIndex.entitiesOfId[entityId];
+        var entity = entityIndex.entitiesOfId[entityId];
         if (entity == null) {
             res.status(404).send('Entity of id $entityId not found.');
             return;
@@ -60,7 +61,7 @@ class ServerMain {
 
     static function entity(req:Request, res:Response) {
         var entityId:String = req.params.entityId;
-        var entity = EntityIndex.entitiesOfId[entityId];
+        var entity = entityIndex.entitiesOfId[entityId];
         if (entity == null) {
             res.status(404).send('Entity of id $entityId not found.');
             return;
@@ -72,29 +73,29 @@ class ServerMain {
 
     static function searchJson(req:Request, res:Response) {
         var query:String = req.params.query;
-        var result:Array<{id:String}> = EntityIndex.flexsearch.search({
+        var result:Array<{id:String}> = entityIndex.flexsearch.search({
             query: query,
-            limit: 10,
+            limit: Math.POSITIVE_INFINITY,
         });
-        res.json(result.map(r -> EntityIndex.entitiesOfId[r.id].toJson()));
+        res.json(result.map(r -> entityIndex.entitiesOfId[r.id].toJson()));
     }
 
     static function search(req:Request, res:Response) {
         var query:String = req.params.query;
-        var result:Array<{id:String}> = EntityIndex.flexsearch.search({
+        var result:Array<{id:String}> = entityIndex.flexsearch.search({
             query: query,
-            limit: 10,
+            limit: Math.POSITIVE_INFINITY,
         });
         res.sendView(EntityListView, {
             slug: query.urlEncode(),
             listName: '${query} 搜尋結果',
             searchQuery: query,
-            entities: result.map(r -> EntityIndex.entitiesOfId[r.id]),
+            entities: result.map(r -> entityIndex.entitiesOfId[r.id]),
         });
     }
 
     static function flexsearchJson(req:Request, res:Response) {
-        res.json(EntityIndex.flexsearch.export({
+        res.json(entityIndex.flexsearch.export({
             serialize: false,
             doc: false,
         }));

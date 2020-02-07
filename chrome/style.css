@@ -1,0 +1,23 @@
+a.charleywong {
+    background: #FF0;
+    border-color: #FF0;
+    border-style: solid;
+    border-radius: 1em;
+    border-width: 0.25em;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    display: inline-block;
+    font-size: xx-small !important;
+    vertical-align: text-bottom;
+    transition: box-shadow 0.1s ease-out;
+}
+
+a.charleywong:hover {
+    text-decoration: none !important;
+    box-shadow: 0 0 0 0.25em #FF0;
+}
+
+*[role='navigation'] a.charleywong {
+    vertical-align: 30%;
+}

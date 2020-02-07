@@ -1,9 +1,8 @@
 package charleywong.importer;
 
 import haxe.*;
+import haxe.io.*;
 import sys.io.File;
-import haxe.ds.ReadOnlyArray;
-import haxe.macro.Expr;
 import charleywong.*;
 import charleywong.importer.FacebookImporter;
 using StringTools;
@@ -11,6 +10,8 @@ using Lambda;
 
 class Importer {
     static final fbAppId = Sys.getEnv("FB_APP_ID");
+    static final dataDirectory = "data/entity";
+    static final entityIndex = EntityIndex.loadFromDirectory(dataDirectory);
 
     static function importFbPermalink(url:String) {
         var importer = new FacebookImporter();
@@ -20,7 +21,7 @@ class Importer {
     }
 
     static function importFbPage(fbPage:String, postUrl:Null<String>) {
-        var cls = switch (EntityIndex.entitiesOfFbPage[fbPage]) {
+        var entity = switch (entityIndex.entitiesOfFbPage[fbPage]) {
             case null:
                 var importer = new FacebookImporter();
                 var info = importer.fbPageInfo(fbPage);
@@ -29,16 +30,11 @@ class Importer {
             case entity:
                 updateEntity(entity, postUrl);
         }
-        var fileContent = new haxe.macro.Printer("    ").printTypeDefinition(cls);
-        var formatterProcess = new sys.io.Process("haxelib", ["run", "formatter", "--stdin", "-s", "src"]);
-        formatterProcess.stdin.writeString(fileContent);
-        formatterProcess.stdin.close();
-        fileContent = formatterProcess.stdout.readAll().toString();
-        formatterProcess.close();
+        var fileContent = haxe.Json.stringify(entity.toJson(), null, "  ");
         if (Sys.getEnv("CI") != null || Sys.getEnv("GITHUB_ACTIONS") != null) {
             Sys.println("In CI, skip writing file.");
         } else {
-            var file = "src/charleywong/entities/" + cls.name + ".hx";
+            var file = Path.join([dataDirectory, entity.id + ".json"]);
             var rewrite = sys.FileSystem.exists(file);
             File.saveContent(file, fileContent);
             Sys.println((rewrite ? "✍️  Rewritten " : "🌟  Created ") + file);
@@ -97,11 +93,16 @@ class Importer {
             case [a] if (a.startsWith("https://")):
                 importUrl(a.trim());
             case ["update"]:
-                for (fb => e in EntityIndex.entitiesOfFbPage) {
+                for (fb => e in entityIndex.entitiesOfFbPage) {
                     importFbPage(fb, null);
                 }
             case ["update", fb]:
                 importFbPage(fb, null);
+            case ["export"]:
+                for (e in entityIndex.entities) {
+                    var file = Path.join([dataDirectory, e.id + ".json"]);
+                    File.saveContent(file, haxe.Json.stringify(e.toJson(), null, "  "));
+                }
             case _:
                 throw 'Unknow args $args';
         }
@@ -137,228 +138,84 @@ class Importer {
         throw 'Cannot get a class name from $name ($fbPage).';
     }
 
-    static function valueToExpr(v:Dynamic):Expr {
-        return switch (Type.typeof(v)) {
-            case TNull: macro null;
-            case TInt: {
-                expr: EConst(CInt(Std.string(v))),
-                pos: null
-            }
-            case TFloat: {
-                expr: EConst(CFloat(Std.string(v))),
-                pos: null
-            }
-            case TBool: {
-                expr: EConst(CIdent(v ? "true" : "false")),
-                pos: null
-            }
-            case TClass(String): {
-                expr: EConst(CString(v)),
-                pos: null
-            }
-            case TClass(Array):
-                var a:Array<Dynamic> = v;
-                var items = a.map(valueToExpr);
-                macro [$a{items}];
-            case TObject:
-                var fields = [
-                    for (f in Reflect.fields(v))
-                    {
-                        field: f,
-                        expr: valueToExpr(Reflect.field(v, f)),
-                    }
-                ];
-                {
-                    expr: EObjectDecl(fields),
-                    pos: null,
-                }
-            case type:
-                throw 'Cannot handle $type.';
+    static function updateEntity(entity:Entity, post:Null<String>):Entity {
+        if (post == null || entity.posts.exists(p -> p.url == post)) {
+            return entity;
+        } else {
+            entity.posts.push({ url: post });
+            return entity;
         }
     }
-
-    static function updateEntity(entity:Entity, post:Null<String>) {
-        var fullName = Type.getClassName(Type.getClass(entity)).split(".");
-        var className = fullName[fullName.length - 1];
-        var idExpr = {
-            expr: EConst(CString(entity.id)),
-            pos: null,
-        };
-        var nameExprs = [
-            for (lang => name in entity.name)
-            {
-                var nameExpr = {
-                    expr: EConst(CString(name)),
-                    pos: null,
-                };
-                macro $i{lang} => ${nameExpr};
-            }
-        ];
-        var webpagesExprs = [];
-        for (p in entity.webpages)
-        {
-            final fields = [];
-            var urlExpr = {
-                expr: EConst(CString(p.url)),
-                pos: null,
-            };
-            webpagesExprs.push({
-                expr: EObjectDecl(fields),
-                pos: null,
-            });
-            switch (macro { url: $urlExpr }) {
-                case { expr: EObjectDecl(fs) }: fs.iter(f -> fields.push(f));
-                case e: throw '$e is not EObjectDecl.';
-            }
-            var fbRegexp = ~/^https:\/\/www\.facebook\.com\/(.+)\/$/;
-            if (p.meta != null) {
-                var metas = [for (k => v in p.meta) macro ${{expr:EConst(CString(k)), pos:null}} => ${valueToExpr(v)}];
-                if (fbRegexp.match(p.url) && p.meta["id"] == null) {
-                    var importer = new FacebookImporter();
-                    var fbPage = importer.fbPageInfo(fbRegexp.matched(1));
-                    importer.destroy();
-
-                    metas.push(macro "id" => ${valueToExpr(fbPage.id)});
-
-                    if (p.url.endsWith('-${fbPage.id}/')) {
-                        fields[0].expr = valueToExpr('https://www.facebook.com/${fbPage.id}/');
-                    }
-                }
-                var metaExpr = macro [$a{metas}];
-                switch (macro { meta: $metaExpr }) {
-                    case { expr: EObjectDecl(fs) }: fs.iter(f -> fields.push(f));
-                    case e: throw '$e is not EObjectDecl.';
-                }
-            }
-        }
-        var posts = post == null || entity.posts.exists(p -> p.url == post) ? entity.posts : entity.posts.concat([{ url: post }]);
-        var postsExprs = [
-            for (p in posts)
-            {
-                var urlExpr = {
-                    expr: EConst(CString(p.url)),
-                    pos: null,
-                };
-                macro { url: $urlExpr };
-            }
-        ];
-        var tagsExprs = [
-            for (t in entity.tags)
-            macro $i{t.id}
-        ];
-        var cls = macro class $className implements Entity {
-            public final id = ${idExpr};
-            public final name = $a{nameExprs};
-            public final webpages:Array<WebPage> = $a{webpagesExprs};
-            public final posts:Array<Post> = $a{postsExprs};
-            public final tags:Array<Tag> = $a{tagsExprs};
-        };
-        cls.pack = fullName.slice(0, fullName.length - 1);
-        return cls;
-    }
-
 
     static final noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
     static final allChi = ~/^[\u4e00-\u9fff \-_\.·]+$/; // all chinese characters
 
-    static function createEntity(name:String, fbPage:FacebookInfo, post:Null<String>) {
+    static function createEntity(name:String, fbPage:FacebookInfo, post:Null<String>):Entity {
         var className = getClassName(name, fbPage.page);
-        var nameExpr = {
-            var chi_en = ~/^([\u4e00-\u9fff ]*[\u4e00-\u9fff])[^A-Za-z0-9\u4e00-\u9fff]*(.+)$/; // chinese then eng
+        var name:MultiLangString = {
+            var chi_en = ~/^([\u4e00-\u9fff ]*[\u4e00-\u9fff])[^A-Za-z0-9\u4e00-\u9fff]*([^\u4e00-\u9fff]+)$/; // chinese then eng
             var en_chi = ~/^([^\u4e00-\u9fff]+?)[ \-]*([\u4e00-\u9fff]+)$/; // chinese then eng
             if (noChi.match(name))
-                macro [
-                    en => ${{
-                        expr: EConst(CString(name)),
-                        pos: null,
-                    }}
-                ]
+                {
+                    en: name
+                }
             else if (allChi.match(name))
-                macro [
-                    zh => ${{
-                        expr: EConst(CString(name)),
-                        pos: null,
-                    }}
-                ]
+                {
+                    zh: name
+                }
             else if (chi_en.match(name))
-                macro [
-                    zh => ${{
-                        expr: EConst(CString(chi_en.matched(1))),
-                        pos: null,
-                    }},
-                    en => ${{
-                        expr: EConst(CString(chi_en.matched(2))),
-                        pos: null,
-                    }},
-                ]
+                {
+                    zh: chi_en.matched(1),
+                    en: chi_en.matched(2)
+                }
             else if (en_chi.match(name))
-                macro [
-                    en => ${{
-                        expr: EConst(CString(en_chi.matched(1))),
-                        pos: null,
-                    }},
-                    zh => ${{
-                        expr: EConst(CString(en_chi.matched(2))),
-                        pos: null,
-                    }},
-                ]
+                {
+                    en: en_chi.matched(1),
+                    zh: en_chi.matched(2)
+                }
             else
-                macro [
-                    zh => ${{
-                        expr: EConst(CString(name)),
-                        pos: null,
-                    }}
-                ];
+                {
+                    zh: name
+                }
         };
-        var idExpr = {
-            expr: EConst(CString(fbPage.page)),
-            pos: null,
-        };
-        var postsExpr = post == null ? macro [] : valueToExpr([{
+        var id = fbPage.page;
+        var posts:Array<Post> = post == null ? [] : [{
             url: post,
-        }]);
-        var metaExprs = [];
+        }];
+        var meta:DynamicAccess<Dynamic> = {};
         if (fbPage.id != null) {
-            metaExprs.push(macro "id" => ${valueToExpr(fbPage.id)});
+            meta["id"] = fbPage.id;
         }
         if (fbPage.about != null) {
-            metaExprs.push(macro "about" => ${valueToExpr(fbPage.about)});
+            meta["about"] = fbPage.about;
         }
-        metaExprs.push(macro "categories" => ${valueToExpr(fbPage.categories)});
+        meta["categories"] = fbPage.categories;
         if (fbPage.addr != null) {
-            metaExprs.push(macro "addr" => ${valueToExpr(fbPage.addr.line)});
-            metaExprs.push(macro "area" => ${valueToExpr(fbPage.addr.area)});
+            meta["addr"] = fbPage.addr.line;
+            meta["area"] = fbPage.addr.area;
         }
         if (fbPage.email != null) {
-            metaExprs.push(macro "email" => ${valueToExpr(fbPage.email)});
+            meta["email"] = fbPage.email;
         }
         if (fbPage.tel != null) {
-            metaExprs.push(macro "tel" => ${valueToExpr(fbPage.tel)});
+            meta["tel"] = fbPage.tel;
         }
-        var webpagesExprs = [];
+        var webpages:Array<WebPage> = [];
         if (fbPage.websites != null) {
             for (url in fbPage.websites)
-                webpagesExprs.push(macro {
-                    url: ${valueToExpr(url)},
+                webpages.push({
+                    url: url,
                 });
         }
-        webpagesExprs.push(macro {
-            url: ${valueToExpr('https://www.facebook.com/${fbPage.page}/')},
-            meta: [$a{metaExprs}],
+        webpages.push({
+            url: 'https://www.facebook.com/${fbPage.page}/',
+            meta: meta,
         });
         if (fbPage.ig != null) {
-            webpagesExprs.push(macro {
-                url: ${valueToExpr('https://www.instagram.com/${fbPage.ig}/')},
+            webpages.push({
+                url: 'https://www.instagram.com/${fbPage.ig}/',
             });
         }
-        var cls = macro class $className implements Entity {
-            public final id =${idExpr};
-            public final name = ${nameExpr};
-            public final webpages:Array<WebPage> = [$a{webpagesExprs}];
-            public final posts:Array<Post> = $postsExpr;
-            public final tags:Array<Tag> = [];
-        };
-        cls.pack = ["charleywong", "entities"];
 
         var urls = [];
         if (fbPage.websites != null) fbPage.websites.iter(url -> urls.push(url));
@@ -372,6 +229,12 @@ class Importer {
             }
         }
 
-        return cls;
+        return {
+            id: id,
+            name: name,
+            webpages: webpages,
+            posts: posts,
+            tags: [],
+        };
     }
 }

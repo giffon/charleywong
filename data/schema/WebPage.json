@@ -1,0 +1,19 @@
+{
+    "$id": "WebPage.json",
+    "type": "object",
+    "properties": {
+        "url": {
+            "type": "string"
+        },
+        "name": {
+            "$ref": "MultiLangString.json"
+        },
+        "meta": {
+            "type": "object"
+        }
+    },
+    "required": [
+        "url"
+    ],
+    "additionalProperties": false
+}

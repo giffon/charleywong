@@ -1,0 +1,14 @@
+{
+    "$id": "MultiLangString.json",
+    "type": "object",
+    "properties": {
+        "en": {
+            "type": "string",
+            "pattern": "^[^\u4e00-\u9fff]+$"
+        },
+        "zh": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false
+}

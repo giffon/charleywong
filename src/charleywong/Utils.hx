@@ -4,6 +4,15 @@ import tink.core.*;
 using StringTools;
 
 class Utils {
+    static public function prettyUrl(url:String):String {
+        var r = ~/^https?:\/\/(?:www\.)?/;
+        return if (r.match(url)) {
+            url.substr(r.matchedPos().len);
+        } else {
+            url;
+        }
+    }
+
     static public function isUrlAccessible(url:String):Outcome<Int, String> {
         var code = -1;
         var err = null;
