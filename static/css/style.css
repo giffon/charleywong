@@ -8,15 +8,25 @@ body {
     background: #f4a948;
 }
 
+.logo-header {
+    min-width: 150px;
+}
+
 form {
     margin: 0;
 }
 
 .search-input {
     border: 3px solid #f4a948;
+    border-right: 0;
     font-size: 1.2rem;
     border-radius: 10px 0 0 10px;
     outline: none;
+    transition: border-color 0.15s linear;
+}
+
+.search-input:focus, .search-input:focus ~.search-btn {
+    border-color: #007bff;
 }
 
 .search-btn {
@@ -24,16 +34,42 @@ form {
     border: 3px solid #f4a948;
     border-radius: 0 10px 10px 0;
     font-size: 1.2rem;
+    transition: border-color 0.15s linear;
+}
+
+.entity-list li {
+    list-style: decimal;
+    padding: 5px;
+    border-bottom: 2px dotted #ccc;
+    list-style-position: inside;
+}
+
+.entity-list:after {
+    background: linear-gradient(-45deg, #f4a948 8px, transparent 0), linear-gradient(45deg, #f4a948 8px, transparent 0);
+    background-position: left-bottom;
+    background-repeat: repeat-x;
+    background-size: 16px 16px;
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 16px;
+}
+
+.entity-list li:last-child {
+    border-bottom: 0;
 }
 
 footer {
     margin-top: 2em;
-    text-align: center;
+    text-align: center; 
     color: rgba(0,0,0,0.5);
 }
 
-a {
-    display: inline-block;
-    max-width: 100%;
-    text-overflow: ellipsis;
+/* general styling class */
+.rounded-10 {
+    border-radius: 10px;
 }
+/* general styling class */

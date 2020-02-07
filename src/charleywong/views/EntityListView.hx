@@ -29,23 +29,32 @@ class EntityListView extends View {
     }
 
     function renderEntity(e:Entity) return jsx('
-        <p key=${e.id}><a href=${'/${e.id}'}>${renderName(e.name)}</a></p>
+        <li key=${e.id}><a href=${'/${e.id}'}>${renderName(e.name)}</a></li>
+    ');
+
+    function renderListName() return jsx('
+        <h3 className="text-center">${listName}</h3>
     ');
 
     override function bodyContent() {
         var jsonHref = '${slug}.json';
         return jsx('
             <Fragment>
-                <header>
-                    <a href="/">Charley Wong 和你查</a>
-                </header>
-                <div className="mb-3">
-                    ${searchQuery != null ? Index.searchForm(searchQuery) : null}
-                    <h1>${listName}</h1>
-                    <a href=${jsonHref}>JSON 格式</a>
+                <div className="container">
+                    <header className="p-3 p-md-4 text-center">
+                        <a href="/"><img className="w-25 logo-header" src="/images/logo-c-t.png" alt="Charley Wong 和你查"/></a>
+                    </header>
+                    <div className="col-12 col-md-8 mx-auto bg-white py-3 rounded-10">
+                        <div className="pb-3">
+                            ${searchQuery != null ? Index.searchForm(searchQuery) : renderListName()}
+                        </div>
+                        <div className="d-sm-flex text-center text-sm-left align-items-center pb-3">
+                            <div className="col p-0">共有 ${entities.length} 項資料</div>
+                            <a className="btn btn-light" href=${jsonHref}>查看 JSON 格式 📃</a>
+                        </div>
+                        <div><ul className="entity-list">${entities.map(renderEntity)}</ul></div>
+                    </div>
                 </div>
-                <p>共有 ${entities.length} 項資料</p>
-                <div>${entities.map(renderEntity)}</div>
             </Fragment>
         ');
     }
