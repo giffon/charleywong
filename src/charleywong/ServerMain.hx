@@ -140,7 +140,11 @@ class ServerMain {
             });
         } else {
             var serverless = require('serverless-http');
-            js.Node.exports.handler = serverless(app);
+            js.Node.exports.handler = serverless(app, {
+                binary: [
+                    'image/*'
+                ],
+            });
         }
     }
 }
