@@ -25,8 +25,8 @@ class Index extends View {
                             ${searchForm("")}
                             <img className="w-100" src="/images/logo-b-gif.gif" alt="和你查"/>
                             
-                            <div>
-                                <a href="list/all">全部 Charley Wong 和你查 商業/品牌名單</a>
+                            <div className="mt-3">
+                                <a href="list/all">查看完整名單</a>
                             </div>
                         </div>
                     </div>
