@@ -334,4 +334,11 @@ class Tag {
         },
         inherits: [shop]
     }
+
+    static public final adult:Tag = {
+        name: {
+            en: "adult only",
+            zh: "十八禁"
+        }
+    };
 }
