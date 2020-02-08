@@ -47,7 +47,7 @@ class EntityView extends View {
         }
 
         return jsx('
-            <div key=${p.url} className="webpage my-1">
+            <div key=${p.url} className="webpage">
                 ${item}
             </div>
         ');
@@ -107,18 +107,24 @@ class EntityView extends View {
         var jsonHref = '${entity.id}.json';
         return jsx('
             <Fragment>
-                <header>
-                    <a href="/">Charley Wong 和你查</a>
-                </header>
-                <div className="mb-3">
-                    <h1>${renderName(entity.name)}</h1>
-                    <a href=${jsonHref}>JSON 格式</a>
-                </div>
-                <div>
-                    ${entity.webpages.map(renderWebpage)}
-                </div>
-                <div>
-                    ${entity.posts.map(renderPost)}
+                <div className="container">
+                    <header className="p-3 p-md-4 text-center">
+                        <a href="/"><img className="w-25 logo-header" src="/images/logo-c-t.png" alt="Charley Wong 和你查"/></a>
+                    </header>
+                    <div className="">
+                        <div className="container-entity position-relative mx-auto px-3 py-4 rounded-10 bg-white container-btm">
+                            <div className="mb-3 text-center">
+                                <h3>${renderName(entity.name)}</h3>
+                                <a className="btn btn-light" href=${jsonHref}>查看JSON格式</a>
+                            </div>
+                            <div className="text-center mb-3">
+                                ${entity.webpages.map(renderWebpage)}
+                            </div>
+                            <div>
+                                ${entity.posts.map(renderPost)}
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </Fragment>
         ');

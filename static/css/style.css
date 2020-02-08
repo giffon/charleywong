@@ -48,7 +48,15 @@ form {
     list-style-position: inside;
 }
 
-.entity-list:after {
+.entity-list li:last-child {
+    border-bottom: 0;
+}
+
+.container-entity {
+    width: fit-content;
+}
+
+.container-btm:after {
     background: linear-gradient(-45deg, #f4a948 8px, transparent 0), linear-gradient(45deg, #f4a948 8px, transparent 0);
     background-position: left-bottom;
     background-repeat: repeat-x;
@@ -62,8 +70,15 @@ form {
     height: 16px;
 }
 
-.entity-list li:last-child {
-    border-bottom: 0;
+.webpage {
+    padding: 5px;
+    border-bottom: 2px dotted #ccc;
+}
+
+.fb_iframe_widget {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 footer {
