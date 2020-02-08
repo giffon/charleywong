@@ -17,6 +17,9 @@ class ServerMain {
     static function index(req:Request, res:Response) {
         switch (req.query.search:String) {
             case null: //pass
+            case "":
+                res.redirect("/list/all");
+                return;
             case search:
                 res.redirect("/search/" + search.urlEncode());
                 return;
