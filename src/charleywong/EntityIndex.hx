@@ -23,7 +23,11 @@ class EntityIndex {
             if (!item.endsWith(".json")) continue;
 
             var file = Path.join([path, item]);
-            entities[file] = Entity.fromJson(haxe.Json.parse(File.getContent(file)));
+            entities[file] = try {
+                Entity.fromJson(haxe.Json.parse(File.getContent(file)));
+            } catch(e:Dynamic) {
+                throw 'Error loading $file';
+            }
         }
         return new EntityIndex(entities);
     }
