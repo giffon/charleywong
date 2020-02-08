@@ -16,6 +16,10 @@ form {
     margin: 0;
 }
 
+.fb-post {
+    background-color: white;
+}
+
 .search-input {
     border: 3px solid #f4a948;
     border-right: 0;
