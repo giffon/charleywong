@@ -21,6 +21,18 @@ class EntityView extends View {
         }
     }
 
+    function isFbPostEmbeddable(post:Post):Bool {
+        if (post.meta == null)
+            return true;
+
+        return switch (post.meta["embeddable"]:Null<Bool>) {
+            case null | true:
+                true;
+            case false:
+                false;
+        };
+    }
+
     function renderWebpage(p:charleywong.Entity.WebPage) {
         var linktext = if (p.name != null)
             '${p.name} ${prettyUrl(p.url)}';
@@ -60,8 +72,11 @@ class EntityView extends View {
             null;
 
         var item = if (
-            ~/^https:\/\/www\.facebook\.com\/[^\/]+\/(?:posts|photos|videos)\/.+$/.match(p.url) ||
-            ~/https:\/\/www\.facebook.com\/permalink\.php\?story_fbid=[0-9]+&id=[0-9]+/.match(p.url)
+            (
+                ~/^https:\/\/www\.facebook\.com\/[^\/]+\/(?:posts|photos|videos)\/.+$/.match(p.url) ||
+                ~/https:\/\/www\.facebook.com\/permalink\.php\?story_fbid=[0-9]+&id=[0-9]+/.match(p.url)
+            )
+            && isFbPostEmbeddable(p)
         ) {
             jsx('
                 <div

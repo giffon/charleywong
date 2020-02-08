@@ -7,6 +7,9 @@
         },
         "summary": {
             "$ref": "MultiLangString.json"
+        },
+        "meta": {
+            "type": "object"
         }
     },
     "required": [

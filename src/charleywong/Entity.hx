@@ -7,6 +7,7 @@ import charleywong.*;
 typedef Post = {
     url:String,
     ?summary:Null<MultiLangString>,
+    ?meta:DynamicAccess<Dynamic>,
 }
 
 typedef WebPage = {
