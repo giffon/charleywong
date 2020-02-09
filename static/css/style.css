@@ -53,7 +53,7 @@ form {
 }
 
 .container-entity {
-    width: fit-content;
+    max-width: 100%;
 }
 
 .container-btm:after {
