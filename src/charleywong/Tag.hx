@@ -341,4 +341,12 @@ class Tag {
             zh: "十八禁"
         }
     };
+
+    static public final antique:Tag = {
+        name: {
+            en: "antique",
+            zh: "古董"
+        },
+        inherits: [shop]
+    };
 }
