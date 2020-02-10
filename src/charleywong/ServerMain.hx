@@ -42,7 +42,7 @@ class ServerMain {
             listName: "全部 Charley Wong 和你查 商業/品牌",
             entities: {
                 var entities = entityIndex.entities.array();
-                entities.sort((e1, e2) -> Reflect.compare(renderName(e1.name), renderName(e2.name)));
+                entities.sort((e1, e2) -> Reflect.compare(renderName(e1.name).toLowerCase(), renderName(e2.name).toLowerCase()));
                 entities;
             }
         });
