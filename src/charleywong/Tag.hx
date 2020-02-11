@@ -349,4 +349,11 @@ class Tag {
         },
         inherits: [shop]
     };
+
+    static public final job:Tag = {
+        name: {
+            en: "job hunting/career coaching",
+            zh: "搵工/職業指導"
+        }
+    }
 }
