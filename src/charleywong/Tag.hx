@@ -1,6 +1,7 @@
 package charleywong;
 
 import sys.io.File;
+using Lambda;
 
 @:structInit
 class Tag {
@@ -31,6 +32,16 @@ class Tag {
                 m[tName] = f;
         }
         m;
+    }
+
+    static public function expend(ts:Array<Tag>):Array<Tag> {
+        var r = new Map();
+        for (t in ts) {
+            r[t.id] = t;
+            if (t.inherits != null)
+                expend(t.inherits).iter(function(t) r[t.id] = t);
+        }
+        return r.array();
     }
 
     static public final shop:Tag = {
