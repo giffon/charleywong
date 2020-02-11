@@ -32,7 +32,7 @@ class Index extends View {
 
                         <div className="col-12 col-md-6 col-lg-4 order-first-lg">
                             <div>
-                                <img className="w-100 p-3" src="/images/circle.png"/ alt="yellow economic circle">
+                                <img className="w-100 p-3" src="/images/circle.png" alt="yellow economic circle"/>
                             </div>
                             <div className="text-center px-5 pb-5 py-md-0 color_black_o60">
                                 <div className="container-yc"><span className="yc">黃</span><span className="yc">色</span><span className="yc">經</span><span className="yc">濟</span><span className="yc">圈</span></div>
