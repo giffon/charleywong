@@ -356,4 +356,12 @@ class Tag {
             zh: "搵工/職業指導"
         }
     }
+
+    static public final woodworking:Tag = {
+        name: {
+            en: "woodworking/carpentry",
+            zh: "木工"
+        },
+        inherits: [shop]
+    }
 }
