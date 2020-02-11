@@ -130,7 +130,7 @@ class EntityView extends View {
                         <div className="container-entity position-relative mx-auto px-3 py-4 rounded-10 bg-white container-btm">
                             <div className="mb-3 text-center">
                                 <h3>${renderName(entity.name)}</h3>
-                                <a className="btn btn-light" href=${jsonHref}>查看JSON格式</a>
+                                <a className="btn btn-light" href=${jsonHref}>查看 JSON 格式 📃</a>
                             </div>
                             <div className="text-center mb-3">
                                 ${entity.webpages.map(renderWebpage)}
