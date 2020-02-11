@@ -20,6 +20,14 @@ form {
     background-color: white;
 }
 
+.post-link {
+    border: 1px #ddd solid;
+    padding: 1em;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .search-input {
     border: 3px solid #f4a948;
     border-right: 0;
