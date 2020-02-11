@@ -97,6 +97,7 @@ class EntityView extends View {
                 <blockquote className="instagram-media"
                     data-instgrm-permalink=${p.url}
                     data-instgrm-version="12"
+                    data-instgrm-captioned=${true}
                 >
                     <a href=${p.url}>${prettyUrl(p.url)}</a>
                     ${summary}
