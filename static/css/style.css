@@ -92,36 +92,49 @@ form {
 
 footer {
     margin-top: 2em;
-    text-align: center; 
-    color: rgba(0,0,0,0.5);
+    text-align: center;
 }
 
 @media (min-width: 992px) {
     .order-first-lg {
-      order: -1;
+        order: -1;
     }
-  }
+}
 
-  .container-yc {
+.container-yc {
     padding: 16px 0;
-  }
+}
 
-  .yc {
+.yc {
     background: #fedf2e;
     border-radius: 50%;
     background-size: 20px;
     padding: 2px 7px;
     display: inline-block;
     margin: 2px;
-  }
+}
 
-  .color_black_o60 {
+.color_black_o60 {
     color: rgba(0,0,0,0.6);
-  }
+}
 
-  ::selection {
+.color_black_o60 a {
+    color: rgba(0,0,0,0.6);
+    display: inline-block;
+    line-height: 1.2em;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.color_black_o60 a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+}
+
+::selection {
     background: #ff8318;
-  }
+}
 
 /* general styling class */
 .rounded-10 {

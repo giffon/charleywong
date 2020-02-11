@@ -116,7 +116,7 @@ class View extends ReactComponent {
             <div className="content">
                 ${bodyContent()}
             </div>
-            <footer>
+            <footer className="color_black_o60">
                 <p>
                     Copyright (C) 2020  <a href="https://giffon.io">Giffon Limited</a>
                     <span
