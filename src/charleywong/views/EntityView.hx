@@ -104,7 +104,7 @@ class EntityView extends View {
             ');
         } else {
             jsx('
-                <div class="post-link">
+                <div className="post-link">
                     <a href=${p.url}>${prettyUrl(p.url)}</a>
                     ${summary}
                 </div>
