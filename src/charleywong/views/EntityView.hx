@@ -124,7 +124,7 @@ class EntityView extends View {
             <Fragment>
                 <div className="container">
                     <header className="p-3 p-md-4 text-center">
-                        <a href="/"><img className="w-25 logo-header" src="/images/logo-c-t.png" alt="Charley Wong 和你查"/></a>
+                        <a href="/"><img className="w-25 logo-header" src=${R("/images/logo-c-t.png")} alt="Charley Wong 和你查"/></a>
                     </header>
                     <div className="">
                         <div className="container-entity position-relative mx-auto px-3 py-4 rounded-10 bg-white container-btm">
