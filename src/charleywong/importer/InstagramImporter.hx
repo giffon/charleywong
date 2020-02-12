@@ -65,8 +65,10 @@ class InstagramImporter {
 
     function igName() {
         var h1s:Array<WebElement> = driver.find_elements_by_xpath("//main//header//h1");
-        var nameElement = h1s[1];
-        return nameElement.text;
+        if (h1s[1] != null)
+            return h1s[1].text;
+        else
+            return h1s[0].text;
     }
 
     function igWebsite() {
@@ -88,8 +90,7 @@ class InstagramImporter {
     }
 
     function igAbout() {
-        var h1s:Array<WebElement> = driver.find_elements_by_xpath("//main//header//h1");
-        var aboutElement:WebElement = h1s[1].find_element_by_xpath("../span");
+        var aboutElement:WebElement = driver.find_elements_by_xpath("//main//header/section/div[2]/span")[0];
         return aboutElement.text;
     }
 

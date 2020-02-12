@@ -1,6 +1,7 @@
 package charleywong;
 
 import sys.io.File;
+using Lambda;
 
 @:structInit
 class Tag {
@@ -31,6 +32,16 @@ class Tag {
                 m[tName] = f;
         }
         m;
+    }
+
+    static public function expend(ts:Array<Tag>):Array<Tag> {
+        var r = new Map();
+        for (t in ts) {
+            r[t.id] = t;
+            if (t.inherits != null)
+                expend(t.inherits).iter(function(t) r[t.id] = t);
+        }
+        return r.array();
     }
 
     static public final shop:Tag = {
@@ -354,6 +365,35 @@ class Tag {
         name: {
             en: "job hunting/career coaching",
             zh: "搵工/職業指導"
+        }
+    }
+
+    static public final woodworking:Tag = {
+        name: {
+            en: "woodworking/carpentry",
+            zh: "木工"
+        },
+        inherits: [shop]
+    }
+
+    static public final videoGame:Tag = {
+        name: {
+            en: "video game",
+            zh: "電子遊戲"
+        }
+    }
+
+    static public final tabletopGame:Tag = {
+        name: {
+            en: "tabletop game",
+            zh: "桌上遊戲"
+        }
+    }
+
+    static public final toy:Tag = {
+        name: {
+            en: "toy",
+            zh: "玩具"
         }
     }
 }

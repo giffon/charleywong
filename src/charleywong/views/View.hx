@@ -54,7 +54,7 @@ class View extends ReactComponent {
     function css() return jsx('
         <Fragment>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito|Noto+Sans+TC&display=swap"/>
-            <link rel="stylesheet" href="/css/style.css" />
+            <link rel="stylesheet" href=${R("/css/style.css")} />
         </Fragment>
     ');
 
@@ -65,22 +65,22 @@ class View extends ReactComponent {
 
     function favicon() return jsx('
         <Fragment>
-            <link rel="apple-touch-icon" sizes="57x57" href="/images/fav/apple-icon-57x57.png"/>
-            <link rel="apple-touch-icon" sizes="60x60" href="/images/fav/apple-icon-60x60.png"/>
-            <link rel="apple-touch-icon" sizes="72x72" href="/images/fav/apple-icon-72x72.png"/>
-            <link rel="apple-touch-icon" sizes="76x76" href="/images/fav/apple-icon-76x76.png"/>
-            <link rel="apple-touch-icon" sizes="114x114" href="/images/fav/apple-icon-114x114.png"/>
-            <link rel="apple-touch-icon" sizes="120x120" href="/images/fav/apple-icon-120x120.png"/>
-            <link rel="apple-touch-icon" sizes="144x144" href="/images/fav/apple-icon-144x144.png"/>
-            <link rel="apple-touch-icon" sizes="152x152" href="/images/fav/apple-icon-152x152.png"/>
-            <link rel="apple-touch-icon" sizes="180x180" href="/images/fav/apple-icon-180x180.png"/>
-            <link rel="icon" type="image/png" sizes="192x192"  href="/images/fav/android-icon-192x192.png"/>
-            <link rel="icon" type="image/png" sizes="32x32" href="/images/fav/favicon-32x32.png"/>
-            <link rel="icon" type="image/png" sizes="96x96" href="/images/fav/favicon-96x96.png"/>
-            <link rel="icon" type="image/png" sizes="16x16" href="/images/fav/favicon-16x16.png"/>
-            <link rel="manifest" href="/images/fav/manifest.json"/>
+            <link rel="apple-touch-icon" sizes="57x57" href=${R("/images/fav/apple-icon-57x57.png")}/>
+            <link rel="apple-touch-icon" sizes="60x60" href=${R("/images/fav/apple-icon-60x60.png")}/>
+            <link rel="apple-touch-icon" sizes="72x72" href=${R("/images/fav/apple-icon-72x72.png")}/>
+            <link rel="apple-touch-icon" sizes="76x76" href=${R("/images/fav/apple-icon-76x76.png")}/>
+            <link rel="apple-touch-icon" sizes="114x114" href=${R("/images/fav/apple-icon-114x114.png")}/>
+            <link rel="apple-touch-icon" sizes="120x120" href=${R("/images/fav/apple-icon-120x120.png")}/>
+            <link rel="apple-touch-icon" sizes="144x144" href=${R("/images/fav/apple-icon-144x144.png")}/>
+            <link rel="apple-touch-icon" sizes="152x152" href=${R("/images/fav/apple-icon-152x152.png")}/>
+            <link rel="apple-touch-icon" sizes="180x180" href=${R("/images/fav/apple-icon-180x180.png")}/>
+            <link rel="icon" type="image/png" sizes="192x192"  href=${R("/images/fav/android-icon-192x192.png")}/>
+            <link rel="icon" type="image/png" sizes="32x32" href=${R("/images/fav/favicon-32x32.png")}/>
+            <link rel="icon" type="image/png" sizes="96x96" href=${R("/images/fav/favicon-96x96.png")}/>
+            <link rel="icon" type="image/png" sizes="16x16" href=${R("/images/fav/favicon-16x16.png")}/>
+            <link rel="manifest" href=${R("/images/fav/manifest.json")}/>
             <meta name="msapplication-TileColor" content="#ffffff" />
-            <meta name="msapplication-TileImage" content="/images/fav/ms-icon-144x144.png" />
+            <meta name="msapplication-TileImage" content=${R("/images/fav/ms-icon-144x144.png")} />
             <meta name="theme-color" content="#ffffff" />
         </Fragment>
     ');
@@ -116,7 +116,7 @@ class View extends ReactComponent {
             <div className="content">
                 ${bodyContent()}
             </div>
-            <footer>
+            <footer className="color_black_o60">
                 <p>
                     Copyright (C) 2020  <a href="https://giffon.io">Giffon Limited</a>
                     <span
@@ -129,8 +129,8 @@ class View extends ReactComponent {
                         data-share="false">
                     </span>
                 </p>
-                <p>Charley Wong 和你查嘅<a href="https://github.com/giffon/charleywong">源碼</a>以 <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL-3.0-or-later</a> 發佈。</p>
-                <p>Charley Wong 和你查嘅數據以 <a href="http://opendatacommons.org/licenses/odbl/1.0/">ODbL-1.0</a> 發佈。</p>
+                <p>Charley Wong 和你查 嘅<a href="https://github.com/giffon/charleywong">原碼</a>以 <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL-3.0-or-later</a> 發佈。</p>
+                <p>Charley Wong 和你查 嘅數據以 <a href="http://opendatacommons.org/licenses/odbl/1.0/">ODbL-1.0</a> 發佈。</p>
             </footer>
             ${footJs()}
         </body>

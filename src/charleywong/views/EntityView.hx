@@ -66,9 +66,14 @@ class EntityView extends View {
     }
 
     function renderPost(p:charleywong.Entity.Post) {
-        var summary = if (p.summary != null)
-            jsx('<p>${p.summary}</p>');
-        else
+        var summary = if (p.summary != null) {
+            var nodes = [];
+            if (p.summary[zh] != null)
+                nodes.push(jsx('<p key="zh">${p.summary[zh]}</p>'));
+            if (p.summary[en] != null)
+                nodes.push(jsx('<p key="en">${p.summary[en]}</p>'));
+            nodes;
+        } else
             null;
 
         var item = if (
@@ -97,6 +102,7 @@ class EntityView extends View {
                 <blockquote className="instagram-media"
                     data-instgrm-permalink=${p.url}
                     data-instgrm-version="12"
+                    data-instgrm-captioned=${true}
                 >
                     <a href=${p.url}>${prettyUrl(p.url)}</a>
                     ${summary}
@@ -124,7 +130,7 @@ class EntityView extends View {
             <Fragment>
                 <div className="container">
                     <header className="p-3 p-md-4 text-center">
-                        <a href="/"><img className="w-25 logo-header" src="/images/logo-c-t.png" alt="Charley Wong 和你查"/></a>
+                        <a href="/"><img className="w-25 logo-header" src=${R("/images/logo-c-t.png")} alt="Charley Wong 和你查"/></a>
                     </header>
                     <div className="">
                         <div className="container-entity position-relative mx-auto px-3 py-4 rounded-10 bg-white container-btm">

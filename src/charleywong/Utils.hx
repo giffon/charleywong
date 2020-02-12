@@ -6,11 +6,12 @@ using StringTools;
 class Utils {
     static public function prettyUrl(url:String):String {
         var r = ~/^https?:\/\/(?:www\.)?/;
-        return if (r.match(url)) {
+        var shortUrl = if (r.match(url)) {
             url.substr(r.matchedPos().len);
         } else {
             url;
-        }
+        };
+        return shortUrl.urlDecode();
     }
 
     static public function isUrlAccessible(url:String):Outcome<Int, String> {

@@ -42,7 +42,7 @@ class EntityListView extends View {
             <Fragment>
                 <div className="container">
                     <header className="p-3 p-md-4 text-center">
-                        <a href="/"><img className="w-25 logo-header" src="/images/logo-c-t.png" alt="Charley Wong 和你查"/></a>
+                        <a href="/"><img className="w-25 logo-header" src=${R("/images/logo-c-t.png")} alt="Charley Wong 和你查"/></a>
                     </header>
                     <div className="col-12 col-md-8 mx-auto bg-white py-3 rounded-10 container-btm">
                         <div className="pb-3">
