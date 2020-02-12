@@ -375,4 +375,25 @@ class Tag {
         },
         inherits: [shop]
     }
+
+    static public final videoGame:Tag = {
+        name: {
+            en: "video game",
+            zh: "電子遊戲"
+        }
+    }
+
+    static public final tabletopGame:Tag = {
+        name: {
+            en: "tabletop game",
+            zh: "桌上遊戲"
+        }
+    }
+
+    static public final toy:Tag = {
+        name: {
+            en: "toy",
+            zh: "玩具"
+        }
+    }
 }
