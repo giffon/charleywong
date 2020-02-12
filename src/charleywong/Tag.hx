@@ -396,4 +396,11 @@ class Tag {
             zh: "玩具"
         }
     }
+
+    static public final drivingInstructor:Tag = {
+        name: {
+            en: "driving instructor",
+            zh: "教車師傅"
+        }
+    }
 }
