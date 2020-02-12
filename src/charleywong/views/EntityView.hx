@@ -66,9 +66,14 @@ class EntityView extends View {
     }
 
     function renderPost(p:charleywong.Entity.Post) {
-        var summary = if (p.summary != null)
-            jsx('<p>${p.summary}</p>');
-        else
+        var summary = if (p.summary != null) {
+            var nodes = [];
+            if (p.summary[zh] != null)
+                nodes.push(jsx('<p key="zh">${p.summary[zh]}</p>'));
+            if (p.summary[en] != null)
+                nodes.push(jsx('<p key="en">${p.summary[en]}</p>'));
+            nodes;
+        } else
             null;
 
         var item = if (

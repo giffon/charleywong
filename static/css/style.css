@@ -32,6 +32,10 @@ form {
     text-overflow: ellipsis;
 }
 
+.post-link a {
+    white-space: nowrap;
+}
+
 .search-input {
     border: 3px solid #f4a948;
     border-right: 0;
