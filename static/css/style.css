@@ -69,7 +69,7 @@ form {
 }
 
 .container-entity {
-    max-width: 100%;
+    max-width: min(584px,100%); /* fb-post's max-width is 550px */
     width: fit-content;
 }
 
