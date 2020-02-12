@@ -48,15 +48,21 @@ class Importer {
                     case ig:
                         var igHandle = igRegexp.matched(1);
                         var importer = new InstagramImporter();
-                        var igInfo = importer.igInfo(igHandle);
-                        importer.destroy();
-                        ig.url = 'https://www.instagram.com/${igInfo.handle}/';
-                        var meta:DynamicAccess<Dynamic> = {};
-                        if (igInfo.about != null) {
-                            meta["about"] = igInfo.about;
+                        var igInfo = try {
+                            importer.igInfo(igHandle);
+                        } catch (e:Dynamic) {
+                            null;
                         }
-                        if (meta.keys().length > 0) {
-                            ig.meta = meta;
+                        importer.destroy();
+                        if (igInfo != null) {
+                            ig.url = 'https://www.instagram.com/${igInfo.handle}/';
+                            var meta:DynamicAccess<Dynamic> = {};
+                            if (igInfo.about != null) {
+                                meta["about"] = igInfo.about;
+                            }
+                            if (meta.keys().length > 0) {
+                                ig.meta = meta;
+                            }
                         }
                 }
                 e;
