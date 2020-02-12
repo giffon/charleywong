@@ -22,6 +22,12 @@ class EntityTools {
             posts: [for (p in e.posts) {
                 var o:DynamicAccess<Dynamic> = {};
                 if (p.summary != null) o["summary"] = p.summary.toJson();
+                if (p.meta != null) o["meta"] = {
+                    var o:DynamicAccess<Dynamic> = {};
+                    for (k => v in p.meta)
+                        o[k] = v;
+                    o;
+                }
                 o["url"] = p.url;
                 o;
             }],

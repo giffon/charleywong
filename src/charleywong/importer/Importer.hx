@@ -21,7 +21,7 @@ class Importer {
         importFbPage(fbPage, url);
     }
 
-    static function saveEntity(entity:Entity) {
+    static function saveEntity(entity:Entity, openAfterSave = true) {
         var fileContent = haxe.Json.stringify(entity.toJson(), null, "  ");
         if (Sys.getEnv("CI") != null || Sys.getEnv("GITHUB_ACTIONS") != null) {
             Sys.println("In CI, skip writing file.");
@@ -30,7 +30,8 @@ class Importer {
             var rewrite = sys.FileSystem.exists(file);
             File.saveContent(file, fileContent);
             Sys.println((rewrite ? "✍️  Rewritten " : "🌟  Created ") + file);
-            Sys.command("code", [file]);
+            if (openAfterSave)
+                Sys.command("code", [file]);
         }
     }
 
@@ -40,7 +41,25 @@ class Importer {
                 var importer = new FacebookImporter();
                 var info = importer.fbPageInfo(fbPage);
                 importer.destroy();
-                createEntityFromFb(info, postUrl);
+                var e = createEntityFromFb(info, postUrl);
+                var igRegexp = ~/^https?:\/\/(?:www.)?instagram.com\/(.+?)\/?$/;
+                switch (e.webpages.find(p -> igRegexp.match(p.url))) {
+                    case null: //pass
+                    case ig:
+                        var igHandle = igRegexp.matched(1);
+                        var importer = new InstagramImporter();
+                        var igInfo = importer.igInfo(igHandle);
+                        importer.destroy();
+                        ig.url = 'https://www.instagram.com/${igInfo.handle}/';
+                        var meta:DynamicAccess<Dynamic> = {};
+                        if (igInfo.about != null) {
+                            meta["about"] = igInfo.about;
+                        }
+                        if (meta.keys().length > 0) {
+                            ig.meta = meta;
+                        }
+                }
+                e;
             case entity:
                 updateEntity(entity, postUrl);
         }
@@ -121,12 +140,27 @@ class Importer {
         switch (args) {
             case [a] if (a.startsWith("https://")):
                 importUrl(a.trim());
-            case ["update"]:
-                for (fb => e in entityIndex.entitiesOfFbPage) {
-                    importFbPage(fb, null);
+            case ["update", "ig"]:
+                for (e in entityIndex.entities) {
+                    var igRegexp = ~/^https?:\/\/(?:www.)?instagram.com\/(.+?)\/?$/;
+                    for (p in e.webpages)
+                    if (igRegexp.match(p.url) && p.meta == null)
+                    {
+                        var igHandle = igRegexp.matched(1);
+                        Sys.println('Going to https://www.instagram.com/${igHandle}/');
+                        var importer = new InstagramImporter();
+                        var igInfo = importer.igInfo(igHandle);
+                        importer.destroy();
+                        var meta:DynamicAccess<Dynamic> = {};
+                        if (igInfo.about != null) {
+                            meta["about"] = igInfo.about;
+                        }
+                        if (meta.keys().length > 0) {
+                            p.meta = meta;
+                            saveEntity(e, false);
+                        }
+                    }
                 }
-            case ["update", fb]:
-                importFbPage(fb, null);
             case ["export"]:
                 for (e in entityIndex.entities) {
                     var file = Path.join([dataDirectory, e.id + ".json"]);
@@ -199,10 +233,13 @@ class Importer {
         if (igInfo.about != null) {
             meta["about"] = igInfo.about;
         }
-        webpages.push({
+        var igPage:WebPage = {
             url: 'https://www.instagram.com/${igInfo.handle}/',
-            meta: meta,
-        });
+        };
+        if (meta.keys().length > 0) {
+            igPage.meta = meta;
+        }
+        webpages.push(igPage);
         return {
             id: igInfo.handle,
             name: parseName(igInfo.name),

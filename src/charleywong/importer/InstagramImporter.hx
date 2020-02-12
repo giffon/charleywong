@@ -14,7 +14,7 @@ using Lambda;
 typedef InstagramInfo = {
     handle:String,
     name:String,
-    about:String,
+    about:Null<String>,
     website:String,
 };
 
@@ -67,8 +67,10 @@ class InstagramImporter {
         var h1s:Array<WebElement> = driver.find_elements_by_xpath("//main//header//h1");
         if (h1s[1] != null)
             return h1s[1].text;
-        else
+        else if (h1s[0] != null)
             return h1s[0].text;
+        else
+            throw (driver.find_element_by_xpath("//main//header"):WebElement).text;
     }
 
     function igWebsite() {
@@ -90,8 +92,8 @@ class InstagramImporter {
     }
 
     function igAbout() {
-        var aboutElement:WebElement = driver.find_elements_by_xpath("//main//header/section/div[2]/span")[0];
-        return aboutElement.text;
+        var aboutElement:Null<WebElement> = driver.find_elements_by_xpath("//main//header/section/div[2]/span")[0];
+        return aboutElement != null ? aboutElement.text : null;
     }
 
     public function igInfo(igHandle:String):InstagramInfo {
