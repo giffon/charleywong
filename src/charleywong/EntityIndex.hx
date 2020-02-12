@@ -77,7 +77,7 @@ class EntityIndex {
     ];
 
     #if js
-    final mixedChiEngSep = ~/(?:[\s\-]+|(?=[\u4e00-\u9fff])|(?<=[\u4e00-\u9fff]))/g;
+    final mixedChiEngSep = ~/(?:[\s\-\/]+|(?=[\u4e00-\u9fff])|(?<=[\u4e00-\u9fff]))/g;
     public var flexsearch(get, null):FlexSearch;
     function get_flexsearch() return flexsearch != null ? flexsearch : flexsearch = {
         function tokenize(str:String) {
@@ -91,8 +91,7 @@ class EntityIndex {
                     "name:en": {},
                     "name:zh": { tokenize: tokenize },
                     "webpages": {},
-                    "posts": {},
-                    "tags": {},
+                    "tags": { tokenize: tokenize },
                 },
             }
         });
@@ -100,7 +99,6 @@ class EntityIndex {
             id: e.id,
             name: e.name.toJson(),
             webpages: e.webpages.map(p -> p.url).join("\n"),
-            posts: e.posts.map(p -> p.url).join("\n"),
             tags: Tag.expend(e.tags).map(t -> [for (v in t.name) v].join("\n")).join("\n"),
         }));
         f;
