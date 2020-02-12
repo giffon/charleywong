@@ -54,6 +54,30 @@ class EntityListView extends View {
                         </div>
                         <div><ul className="entity-list">${entities.map(renderEntity)}</ul></div>
                     </div>
+
+                    <div className="row justify-content-center">
+
+                        <div className="col-12 col-md-6 col-lg-4">
+                            <div>
+                                <img className="w-100 px-3 px-md-5 py-3" src=${R("/images/circle.png")} alt="yellow economic circle"/>
+                            </div>
+                            <div className="text-center px-3 px-lg-5 pb-5 py-md-0 color_black_o60">
+                                <div className="container-yc"><span className="yc">黃</span><span className="yc">色</span><span className="yc">經</span><span className="yc">濟</span><span className="yc">圈</span></div>
+                                <p className="p-3">Charley Wong 和你查 搜集多個商店、創作人、專頁，以第一身表態支持 #香港人 #反送中，爭取 #自由 #民主 的良心發言。當中有高調行動，有低調暗示，我地不作篩選，各位自行以個人喜好辨別。</p>
+                            </div>
+                        </div>
+
+                        <div className="col-12 col-md-6 col-lg-4">
+                            <div>
+                                <img className="w-100 px-3 px-md-5 py-3" src=${R("/images/open.png")} alt="open source"/>
+                            </div>
+                            <div className="text-center px-3 px-lg-5 pb-5 py-md-0 color_black_o60">
+                                <div><span className="yc">開</span><span className="yc">放</span><span className="yc">數</span><span className="yc">據</span></div>
+                                <div><span className="yc">開</span><span className="yc">放</span><span className="yc">原</span><span className="yc">碼</span></div>
+                                <p className="p-3">Charley Wong 和你查 以高度透明同公開嘅方式運作，而且鼓勵同路人使用我地嘅成果：我地以 <a href="https://github.com/giffon/charleywong/blob/master/LICENSE">open license</a> 發佈所有<a href="https://github.com/giffon/charleywong">數據同原碼</a>。任何人只要註明出處，都可以隨意使用。</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </Fragment>
         ');
