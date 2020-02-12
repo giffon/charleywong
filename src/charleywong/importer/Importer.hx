@@ -92,6 +92,12 @@ class Importer {
         }
 
         if (url.startsWith("https://www.instagram.com/p/")) {
+            var url = switch (url.indexOf("?")) {
+                case -1:
+                    url;
+                case qIndex:
+                    url.substring(0, qIndex);
+            };
             importIg(url);
             return;
         }
