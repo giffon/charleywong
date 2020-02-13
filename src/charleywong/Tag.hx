@@ -397,6 +397,16 @@ class Tag {
         }
     }
 
+    static public final gun:Tag = {
+        name: {
+            en: "gun",
+            zh: "槍"
+        },
+        inherits: [
+            sport
+        ]
+    }
+
     static public final drivingInstructor:Tag = {
         name: {
             en: "driving instructor",
