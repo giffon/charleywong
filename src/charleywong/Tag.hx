@@ -269,6 +269,14 @@ class Tag {
         }
     }
 
+    static public final electricalAppliances:Tag = {
+        name: {
+            en: "electrical appliances",
+            zh: "電器"
+        },
+        inherits: [technology, shop]
+    }
+
     static public final computer:Tag = {
         name: {
             en: "computer",
