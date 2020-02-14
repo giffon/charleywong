@@ -1,9 +1,9 @@
 {
-  "name": "Charley Wong 和你查 link check",
+  "name": "Charley Wong 和你查 小幫手",
   "version": "0.1",
   "description": "Display a button next to links that Charley Wong knows about.",
   "manifest_version": 2,
-  "permissions": ["activeTab"],
+  "permissions": ["activeTab", "storage"],
   "content_scripts": [
     {
       "matches": ["https://*/*"],
@@ -11,5 +11,9 @@
       "js": ["Content.js"],
       "css": ["style.css"]
     }
-  ]
+  ],
+  "options_ui": {
+    "page": "settings.html",
+    "open_in_tab": false
+  }
 }

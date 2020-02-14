@@ -5,15 +5,19 @@
 --library chrome-extension
 --class-path src
 --class-path lib/hxnodelibs
+-D react_ver=16.12
+-D react_fragments
+-D react_ref_api
 --macro include('charleywong.entities')
 
 --each
 
-# --js chrome/Background.js
-# --main charleywong.chrome.Background
-
-# --next
-
 --js chrome.Content.js
 --main charleywong.chrome.Content
 --cmd npx browserify chrome.Content.js > chrome/Content.js
+
+--next
+
+--js chrome.Settings.js
+--main charleywong.chrome.Settings
+--cmd npx browserify chrome.Settings.js > chrome/Settings.js
