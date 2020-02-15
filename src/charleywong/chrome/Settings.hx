@@ -1,5 +1,6 @@
 package charleywong.chrome;
 
+import js.lib.Promise;
 import react.ReactComponent.ReactElement;
 import js.Browser.*;
 import js.Node.*;
@@ -14,6 +15,9 @@ class SettingsControl extends ReactComponent {
         width: "100%",
     });
     final SaveButton = Styles.styled(Button)({
+        margin: "0.5em",
+    });
+    final ResetButton = Styles.styled(Button)({
         margin: "0.5em",
     });
 
@@ -44,6 +48,10 @@ class SettingsControl extends ReactComponent {
         });
     }
 
+    function onClickReset(evt) {
+        serverEndpoint = Settings.defaultSettings.serverEndpoint;
+    }
+
     override function render() {
         return jsx('
             <Fragment>
@@ -52,6 +60,13 @@ class SettingsControl extends ReactComponent {
                     onChange=${function(evt) { serverEndpoint = evt.target.value; }}
                     value=${serverEndpoint}
                 />
+
+                <ResetButton
+                    onClick=${onClickReset}
+                >
+                    Reset
+                </ResetButton>
+
                 <SaveButton
                     color="primary"
                     onClick=${onClickSave}
@@ -64,12 +79,20 @@ class SettingsControl extends ReactComponent {
 }
 
 class Settings {
-    static final defaultSettings:SettingsData = {
+    static public final defaultSettings:SettingsData = {
         serverEndpoint: "https://charleywong.giffon.io"
     };
 
+    static public function getSettings():Promise<SettingsData> {
+        return new Promise(function(resolve, reject) {
+            Storage.local.get(defaultSettings, function(settings:SettingsData) {
+                resolve(settings);
+            });
+        });
+    }
+
     static function main():Void {
-        Storage.local.get(defaultSettings, function(settings:SettingsData) {
+        getSettings().then(function(settings) {
             ReactDOM.render(jsx('
                 <SettingsControl defaultSettings=${settings} />
             '), document.getElementById("settings"));
