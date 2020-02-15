@@ -16,10 +16,12 @@ package:
     - .github/**
     - .haxelib/**
     - .vscode/**
+    - chrome/**
     - lib/**
     - src/**
     - test/**
     - '*.py'
+    - '*.hxml'
 
 functions:
   web:
