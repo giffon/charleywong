@@ -2,15 +2,24 @@
 --library react
 --library compiletime
 --library tink_core
---library chrome-extension
 --class-path src
 --class-path lib/hxnodelibs
 -D react_ver=16.12
 -D react_fragments
 -D react_ref_api
---macro include('charleywong.entities')
+
+# --library chrome-extension
+--class-path lib/chrome.extension/src
+-D chrome
+--macro ChromeExt.setupCompiler()
 
 --each
+
+--js chrome.Background.js
+--main charleywong.chrome.Background
+--cmd npx browserify chrome.Background.js > chrome/Background.js
+
+--next
 
 --js chrome.Content.js
 --main charleywong.chrome.Content

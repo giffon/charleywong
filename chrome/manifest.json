@@ -3,7 +3,11 @@
   "version": "0.1",
   "description": "Display a button next to links that Charley Wong knows about.",
   "manifest_version": 2,
-  "permissions": ["activeTab", "storage"],
+  "permissions": ["storage"],
+  "background": {
+    "scripts": ["Background.js"],
+    "persistent": false
+  },
   "content_scripts": [
     {
       "matches": ["https://*/*"],

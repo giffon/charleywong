@@ -1,5 +1,7 @@
 package charleywong.chrome;
 
+import chrome.Runtime;
+import js.lib.Promise;
 import charleywong.EntityIndex;
 import js.html.AnchorElement;
 import js.npm.mutation_summary.MutationSummary;
@@ -9,6 +11,16 @@ using StringTools;
 
 class Content {
     static final entityIndex = EntityIndex.embedFromDirectory("data/entity");
+
+    static function getEntityFromFb(fbPage:String) return new Promise<Null<Entity>>(function(resolve, reject) {
+        Runtime.sendMessage({ call: "getEntityFromFb", args: [fbPage] }, function(response) {
+            if (response == null) {
+                reject(Runtime.lastError);
+            } else {
+                resolve(response != false ? Entity.fromJson(response) : null);
+            }
+        });
+    });
 
     static function processLink(link:AnchorElement):Void {
         if (link.dataset.charleywong != null) {
@@ -50,15 +62,16 @@ class Content {
                 var fbIdRegexp = ~/^.+-([0-9]+)$/;
                 if (fbIdRegexp.match(fb))
                     fb = fbIdRegexp.matched(1);
-                switch (entityIndex.entitiesOfFbPage[fb]) {
-                    case null: //pass
-                    case entity:
+
+                getEntityFromFb(fb).then(function(entity) {
+                    if (entity != null) {
                         switch (window.getComputedStyle(link).display) {
                             case "block": link.style.display = "inline-block";
                             case _: //pass
                         }
                         link.outerHTML = "<span>" + link.outerHTML + ' <a href="https://charleywong.giffon.io/${entity.id}" target="_blank" class="charleywong">🔎</a></span>';
-                }
+                    }
+                });
             }
 
         }
