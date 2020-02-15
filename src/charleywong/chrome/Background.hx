@@ -8,6 +8,12 @@ import chrome.*;
 using Lambda;
 
 class Background {
+    static var entityIndex:Promise<EntityIndex> = fetchEntityIndex();
+
+    static function updateEntityIndex():Void {
+        entityIndex = fetchEntityIndex();
+    }
+
     static function fetchEntityIndex():Promise<EntityIndex> return new Promise(function(resolve, reject) {
         Settings.getSettings().then(function(settings) {
             var jsonUrl = Path.join([settings.serverEndpoint, "list", "all.json"]);
@@ -24,24 +30,6 @@ class Background {
         });
     });
 
-    static var entityIndex:Promise<EntityIndex> = new Promise(function(resolve, reject) {
-        Storage.local.get(["entities"], function(results) {
-            if (results.entities != null) {
-                var index = new EntityIndex([
-                    for (e in (results.entities:Array<Dynamic>).map(Entity.fromJson))
-                    e.id => e
-                ]);
-                resolve(index);
-                return;
-            }
-
-            fetchEntityIndex().then(function(index) {
-                Storage.local.set({ entities: index.entities.map(e -> e.toJson()) });
-                resolve(index);
-            })
-            .catchError(reject);
-        });
-    });
 
     static function onMessage(?request:Dynamic, sender, sendResponse:Dynamic->Void) {
         switch (request:{ call:String, args:Array<Dynamic> }) {
@@ -64,11 +52,17 @@ class Background {
         for (key => change in changes) {
             switch (key) {
                 case "serverEndpoint":
-                    entityIndex = fetchEntityIndex();
+                    updateEntityIndex();
                 case _:
                     // pass
             }
         }
+    }
+
+    static final updateEntitiesTimer = {
+        var t = new haxe.Timer(6 * 60 * 60 * 1000); // 6 hours
+        t.run = updateEntityIndex;
+        t;
     }
 
     static function main():Void {
