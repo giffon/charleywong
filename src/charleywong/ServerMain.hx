@@ -123,9 +123,6 @@ class ServerMain {
             }
         });
 
-        var cache = require("apicache").middleware;
-        app.use(cache('1 hour'));
-
         app.use(allowCors);
 
         app.get("/", index);
