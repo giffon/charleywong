@@ -11,7 +11,7 @@ using Lambda;
 class ServerMain {
     static final port = 3000;
     static final isMain = (untyped __js__("require")).main == module;
-    static final entityIndex = EntityIndex.embedFromDirectory("data/entity");
+    static final entityIndex = EntityIndex.loadFromDirectory("data/entity");
     static var app:Application;
 
     static function index(req:Request, res:Response) {

@@ -19,7 +19,6 @@ package:
     - lib/**
     - src/**
     - test/**
-    - data/**
     - '*.py'
 
 functions:
