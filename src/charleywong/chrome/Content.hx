@@ -1,5 +1,7 @@
 package charleywong.chrome;
 
+import haxe.Unserializer;
+import haxe.Serializer;
 import haxe.io.Path;
 import js.html.Element;
 import chrome.Runtime;
@@ -12,7 +14,7 @@ using StringTools;
 
 class Content {
     static function getEntityFromFb(fbPage:String) return new Promise<Null<Entity>>(function(resolve, reject) {
-        Runtime.sendMessage({ call: "getEntityFromFb", args: [fbPage] }, function(response) {
+        Runtime.sendMessage(Serializer.run(Message.MsgGetEntityFromFb(fbPage)), function(response) {
             if (response == null) {
                 reject(Runtime.lastError);
             } else {
@@ -108,7 +110,17 @@ class Content {
 
     static var serverEndpoint:String;
 
+    static function onMessage(?request:Dynamic, sender, sendResponse:Dynamic->Void) {
+        switch (Unserializer.run(request):Message) {
+            case MsgImportToCharley(linkUrl):
+                alert("TODO: import " + linkUrl);
+            case _:
+                throw 'Unknown request: $request';
+        }
+    }
+
     static function main() {
+        Runtime.onMessage.addListener(onMessage);
         Settings.getSettings().then(function(settings) {
             serverEndpoint = settings.serverEndpoint;
             for (a in document.querySelectorAll("a[href]")) {

@@ -1,11 +1,16 @@
 package charleywong.chrome;
 
+import chrome.Tabs.Tab;
 import haxe.*;
 import haxe.io.Path;
 import js.lib.Promise;
 import js.Browser.*;
 import chrome.*;
 using Lambda;
+
+enum abstract MenuId(String) to String {
+    var MenuImport;
+}
 
 class Background {
     static var entityIndex:Promise<EntityIndex> = fetchEntityIndex();
@@ -32,8 +37,8 @@ class Background {
 
 
     static function onMessage(?request:Dynamic, sender, sendResponse:Dynamic->Void) {
-        switch (request:{ call:String, args:Array<Dynamic> }) {
-            case { call: "getEntityFromFb", args: [fb] }:
+        switch (Unserializer.run(request):Message) {
+            case MsgGetEntityFromFb(fb):
                 entityIndex.then(function(index) {
                     switch (index.entitiesOfFbPage[fb]) {
                         case null:
@@ -65,13 +70,38 @@ class Background {
         t;
     }
 
+    static function onContextMenusClicked(
+        info:{
+            menuItemId : Dynamic,
+            ?parentMenuItemId : Dynamic,
+            ?mediaType : String,
+            ?linkUrl : String,
+            ?srcUrl : String,
+            ?pageUrl : String,
+            ?frameUrl : String,
+            ?frameId : Int,
+            ?selectionText : String,
+            editable : Bool,
+            ?wasChecked : Bool,
+            ?checked : Bool
+        },
+        ?tab:Tab
+    ):Void {
+        switch (info.menuItemId) {
+            case MenuImport:
+                Tabs.sendMessage(tab.id, Serializer.run(Message.MsgImportToCharley(info.linkUrl)));
+            case _:
+        }
+    }
+
     static function main():Void {
         Runtime.onMessage.addListener(onMessage);
         Storage.onChanged.addListener(onStorageChanged);
+        ContextMenus.onClicked.addListener(onContextMenusClicked);
         Runtime.onInstalled.addListener(function(evt) {
             ContextMenus.create({
-                id: "open-in-charleywong",
-                title: "Charley Wong 和你查",
+                id: MenuImport,
+                title: "輸入到 Charley Wong 和你查",
                 contexts: ["link"]
             });
         });
