@@ -37,8 +37,10 @@ class Content {
             &&
             !link.classList.contains("see_more_link")
             &&
+            // A Facebook page's left-side menu ("Home", "About", "Posts" etc.)
             !link.matches("*[role='navigation'] *[data-key^='tab_'] a")
             &&
+            // A Facebook page's admin view's top bar ("Page", "Inbox", "Notifications", "Insights" etc.)
             !link.matches("*[role='tablist'] a")
             &&
             link.querySelector(".timestampContent") == null
@@ -50,14 +52,14 @@ class Content {
                 case href: href.startsWith("#");
             })
             &&
-            !["See All", "See More", ""].has(link.text)
+            !["See All", "See More", ""].has(link.text.trim())
             &&
             (
                 link.children.length == 0 || link.querySelector("h3") != null || link.querySelector("img") == null
             )
         ) {
 
-            var fbRegexp = ~/^https?:\/\/(?:www.|m.)?facebook.com\/([^\/]+)/;
+            var fbRegexp = ~/^https?:\/\/(?:www.|m.)?facebook.com\/([^\/\?#]+)/;
             var homePathRegexp = ~/^\/([^\/]+)\/?$/;
             var postPathRegexp = ~/^\/([^\/]+)\/(?:posts|photos|videos)\/?/;
             if (fbRegexp.match(link.href) && (homePathRegexp.match(link.pathname) || postPathRegexp.match(link.pathname))) {
