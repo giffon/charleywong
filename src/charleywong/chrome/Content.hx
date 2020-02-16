@@ -1,9 +1,9 @@
 package charleywong.chrome;
 
+import haxe.io.Path;
 import js.html.Element;
 import chrome.Runtime;
 import js.lib.Promise;
-import charleywong.EntityIndex;
 import js.html.AnchorElement;
 import js.npm.mutation_summary.MutationSummary;
 import js.Browser.*;
@@ -70,21 +70,26 @@ class Content {
                     if (entity != null) {
                         link.classList.add("charleywong-found");
                         link.dataset.charleywongEntityId = entity.id;
+                        var href = Path.join([serverEndpoint, entity.id]);
+                        var title = 'Charly Wong 和你查 "${entity.name.printAll()}"';
                         link.innerHTML = link.innerHTML + '
-                            <span href="https://charleywong.giffon.io/${entity.id}" target="_blank" class="charleywong-button"></span>
+                            <span href="${href}" target="_blank" class="charleywong-button" title="${title.htmlEscape(true)}"></span>
                         ';
 
-                        link.addEventListener("click", function(evt:js.html.MouseEvent) {
-                            var targetElement:Element = cast evt.target;
-                            if (targetElement.classList.contains("charleywong-button")) {
-                                evt.preventDefault();
-                                window.open('https://charleywong.giffon.io/${entity.id}', "_blank");
-                            }
-                        });
+                        link.addEventListener("click", onButtonClicked);
                     }
                 });
             }
 
+        }
+    }
+
+    static function onButtonClicked(evt:js.html.MouseEvent) {
+        var targetElement:Element = cast evt.target;
+        if (targetElement.classList.contains("charleywong-button")) {
+            evt.preventDefault();
+            var href = targetElement.getAttribute("href");
+            window.open(href, "_blank");
         }
     }
 
@@ -101,9 +106,14 @@ class Content {
         }
     });
 
+    static var serverEndpoint:String;
+
     static function main() {
-        for (a in document.querySelectorAll("a[href]")) {
-            processLink(cast a);
-        }
+        Settings.getSettings().then(function(settings) {
+            serverEndpoint = settings.serverEndpoint;
+            for (a in document.querySelectorAll("a[href]")) {
+                processLink(cast a);
+            }
+        });
     }
 }

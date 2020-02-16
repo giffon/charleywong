@@ -16,4 +16,13 @@ abstract MultiLangString(DynamicAccess<String>) from DynamicAccess<String> {
         }
         return o;
     }
+
+    public function printAll():String {
+        return [
+            for (lang in [en, zh])
+            this[lang]
+        ]
+            .filter(v -> v != null)
+            .join(" ");
+    }
 }
