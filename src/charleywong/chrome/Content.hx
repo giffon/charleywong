@@ -1,5 +1,6 @@
 package charleywong.chrome;
 
+import js.html.Element;
 import chrome.Runtime;
 import js.lib.Promise;
 import charleywong.EntityIndex;
@@ -38,6 +39,8 @@ class Content {
             &&
             !link.matches("*[role='navigation'] *[data-key^='tab_'] a")
             &&
+            !link.matches("*[role='tablist'] a")
+            &&
             link.querySelector(".timestampContent") == null
             &&
             link.querySelector(".livetimestamp") == null
@@ -65,11 +68,19 @@ class Content {
 
                 getEntityFromFb(fb).then(function(entity) {
                     if (entity != null) {
-                        switch (window.getComputedStyle(link).display) {
-                            case "block": link.style.display = "inline-block";
-                            case _: //pass
-                        }
-                        link.outerHTML = "<span>" + link.outerHTML + ' <a href="https://charleywong.giffon.io/${entity.id}" target="_blank" class="charleywong">🔎</a></span>';
+                        link.classList.add("charleywong-found");
+                        link.dataset.charleywongEntityId = entity.id;
+                        link.innerHTML = link.innerHTML + '
+                            <span href="https://charleywong.giffon.io/${entity.id}" target="_blank" class="charleywong-button"></span>
+                        ';
+
+                        link.addEventListener("click", function(evt:js.html.MouseEvent) {
+                            var targetElement:Element = cast evt.target;
+                            if (targetElement.classList.contains("charleywong-button")) {
+                                evt.preventDefault();
+                                window.open('https://charleywong.giffon.io/${entity.id}', "_blank");
+                            }
+                        });
                     }
                 });
             }

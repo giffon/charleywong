@@ -3,7 +3,7 @@
   "version": "0.1",
   "description": "Display a button next to links that Charley Wong knows about.",
   "manifest_version": 2,
-  "permissions": ["storage"],
+  "permissions": ["storage", "contextMenus"],
   "background": {
     "scripts": ["Background.js"],
     "persistent": false
@@ -19,5 +19,8 @@
   "options_ui": {
     "page": "settings.html",
     "open_in_tab": false
+  },
+  "icons": {
+    "16": "favicon-16x16.png"
   }
 }

@@ -68,5 +68,12 @@ class Background {
     static function main():Void {
         Runtime.onMessage.addListener(onMessage);
         Storage.onChanged.addListener(onStorageChanged);
+        Runtime.onInstalled.addListener(function(evt) {
+            ContextMenus.create({
+                id: "open-in-charleywong",
+                title: "Charley Wong 和你查",
+                contexts: ["link"]
+            });
+        });
     }
 }
