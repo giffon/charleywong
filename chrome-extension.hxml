@@ -27,6 +27,6 @@
 
 --next
 
---js chrome.Settings.js
---main charleywong.chrome.Settings
---cmd npx browserify chrome.Settings.js > chrome/Settings.js
+--js chrome.Options.js
+--main charleywong.chrome.Options
+--cmd npx browserify chrome.Options.js > chrome/Options.js

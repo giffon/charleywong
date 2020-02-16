@@ -11,8 +11,6 @@ using Lambda;
 using StringTools;
 
 class Content {
-    static final entityIndex = EntityIndex.embedFromDirectory("data/entity");
-
     static function getEntityFromFb(fbPage:String) return new Promise<Null<Entity>>(function(resolve, reject) {
         Runtime.sendMessage({ call: "getEntityFromFb", args: [fbPage] }, function(response) {
             if (response == null) {
