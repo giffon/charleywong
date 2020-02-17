@@ -48,6 +48,10 @@ class Background {
                     }
                 });
                 return true;
+            case MsgUpdateEntityIndex:
+                updateEntityIndex();
+                sendResponse(null);
+                return false;
             case _:
                 throw 'Unknown request: $request';
         }

@@ -1,9 +1,11 @@
 package charleywong;
 
+import js.html.URL;
 import haxe.*;
 import charleywong.views.*;
 import js.npm.express.*;
 import js.Node.*;
+import charleywong.UrlExtractors.*;
 using charleywong.ExpressTools;
 using StringTools;
 using Lambda;
@@ -11,8 +13,13 @@ using Lambda;
 class ServerMain {
     static final port = 3000;
     static final isMain = (untyped __js__("require")).main == module;
-    static final entityIndex = EntityIndex.loadFromDirectory("data/entity");
+    static final dataDirectory = "data/entity";
+    static var entityIndex:EntityIndex;
     static var app:Application;
+
+    static function updateEntityIndex():Void {
+        entityIndex = EntityIndex.loadFromDirectory(dataDirectory);
+    }
 
     static function index(req:Request, res:Response) {
         switch (req.query.search:String) {
@@ -110,8 +117,122 @@ class ServerMain {
         next();
     }
 
+    static function post(req:Request, res:Response) {
+        var url = new URL(req.body.url);
+        switch (extractFbHomePage(url)) {
+            case null:
+                //pass
+            case handle:
+                var e = createEntityFromFb(req.body);
+                saveEntity(e);
+                updateEntityIndex();
+                res.status(200).send("done");
+                return;
+        }
+        switch (extractFbPost(url)) {
+            case null:
+                //pass
+            case handle:
+                switch (entityIndex.entitiesOfFbPage[handle]) {
+                    case null:
+                        res.status(500).send('${handle} has not been imported yet.');
+                        return;
+                    case e:
+                        var postUrl:String = req.body.url;
+                        if (e.posts.exists(p -> p.url == postUrl)) {
+                            res.status(500).send('${postUrl} already exists.');
+                            return;
+                        }
+                        e.posts.push({
+                            url: postUrl
+                        });
+                        saveEntity(e);
+                        updateEntityIndex();
+                        res.status(200).send("done");
+                        return;
+                }
+        }
+        res.status(500).send('Cannot handle ${req.body}.');
+    }
+
+    static function saveEntity(entity:Entity, openAfterSave = true) {
+        var fileContent = haxe.Json.stringify(entity.toJson(), null, "  ");
+        if (Sys.getEnv("CI") != null || Sys.getEnv("GITHUB_ACTIONS") != null) {
+            Sys.println("In CI, skip writing file.");
+        } else {
+            var file = haxe.io.Path.join([dataDirectory, entity.id + ".json"]);
+            var rewrite = sys.FileSystem.exists(file);
+            sys.io.File.saveContent(file, fileContent);
+            Sys.println((rewrite ? "✍️  Rewritten " : "🌟  Created ") + file);
+            if (openAfterSave)
+                Sys.command("code", [file]);
+        }
+    }
+
+    static function createEntityFromFb(fbPage:charleywong.chrome.FacebookProfile):Entity {
+        var name = MultiLangString.parseName(fbPage.name);
+        var id = fbPage.handle;
+        var meta:DynamicAccess<Dynamic> = {};
+        if (fbPage.id != null) {
+            meta["id"] = fbPage.id;
+        }
+        if (fbPage.about != null) {
+            meta["about"] = fbPage.about;
+        }
+        meta["categories"] = fbPage.categories;
+        if (fbPage.addr != null) {
+            meta["addr"] = fbPage.addr.line;
+            meta["area"] = fbPage.addr.area;
+        }
+        if (fbPage.email != null) {
+            meta["email"] = fbPage.email;
+        }
+        if (fbPage.tel != null) {
+            meta["tel"] = fbPage.tel;
+        }
+        var webpages:Array<WebPage> = [];
+        if (fbPage.websites != null) {
+            for (url in fbPage.websites)
+                webpages.push({
+                    url: url,
+                });
+        }
+        webpages.push({
+            url: 'https://www.facebook.com/${fbPage.handle}/',
+            meta: meta,
+        });
+        if (fbPage.ig != null) {
+            webpages.push({
+                url: 'https://www.instagram.com/${fbPage.ig}/',
+            });
+        }
+
+        var urls = [];
+        if (fbPage.websites != null) fbPage.websites.iter(url -> urls.push(url));
+        if (fbPage.ig != null) urls.push('https://www.instagram.com/${fbPage.ig}/');
+        for (url in urls) {
+            Utils.isUrlAccessible(url).catchError(function(err) {
+                Sys.println('⚠️  $url is not accessible. $err');
+            });
+        }
+
+        return {
+            id: id,
+            name: name,
+            webpages: webpages,
+            posts: [],
+            tags: [],
+        };
+    }
+
     static function main():Void {
+        updateEntityIndex();
+
         app = new Application();
+
+        var bodyParser = require("body-parser");
+        app.use(bodyParser.json());
+
         app.set('json spaces', 2);
         app.use(Express.Static("static"));
         app.use(function(req:Request, res:Response, next) {
@@ -135,6 +256,7 @@ class ServerMain {
         app.get("/search/:query", search);
 
         if (isMain) {
+            app.post("/", post);
             app.listen(port, function() {
                 Sys.println('http://localhost:$port');
             });

@@ -1,5 +1,6 @@
 package charleywong;
 
+import js.npm.fetch.Fetch;
 import tink.core.*;
 using StringTools;
 
@@ -14,6 +15,12 @@ class Utils {
         return shortUrl.urlDecode();
     }
 
+    #if nodejs
+    static public function isUrlAccessible(url:String):js.lib.Promise<Int> {
+        return Fetch.fetch(url)
+            .then(r -> r.status);
+    }
+    #else
     static public function isUrlAccessible(url:String):Outcome<Int, String> {
         var code = -1;
         var err = null;
@@ -41,4 +48,5 @@ class Utils {
             Failure(err);
         }
     }
+    #end
 }

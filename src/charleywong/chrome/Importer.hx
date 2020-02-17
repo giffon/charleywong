@@ -1,16 +1,15 @@
 package charleywong.chrome;
 
+import haxe.Serializer;
+import chrome.Runtime;
+import haxe.io.Path;
 import haxe.Json;
 import js.html.*;
 import js.Browser.*;
+import charleywong.UrlExtractors.*;
 using Lambda;
 using StringTools;
 using charleywong.chrome.Importer.ElementUtils;
-
-typedef ParsedUrl = {
-    var origin(default,null):String;
-    var pathname:String;
-}
 
 class ElementUtils {
     static public function getElementsByXPath(context:Node, xpath:String):Array<Element> {
@@ -23,40 +22,6 @@ class ElementUtils {
 }
 
 class Importer {
-    static function extractFbAboutPage(url:ParsedUrl) {
-        return if (url.origin == "https://www.facebook.com")
-            switch(url.pathname.split("/")) {
-                case ["", "pg", handle, "about", ""]: handle;
-                case _: null;
-            }
-        else
-            null;
-    }
-
-    static function extractFbHomePage(url:ParsedUrl) {
-        var regex = ~/^https?:\/\/(?:www\.)?facebook\.com$/i;
-        return if (regex.match(url.origin))
-            switch(url.pathname.split("/")) {
-                case ["", handle]: handle;
-                case ["", handle, ""]: handle;
-                case _: null;
-            }
-        else
-            null;
-    }
-
-    static function extractIgProfilePage(url:ParsedUrl) {
-        var regex = ~/^https?:\/\/(?:www\.)?instagram\.com$/i;
-        return if (regex.match(url.origin))
-            switch(url.pathname.split("/")) {
-                case ["", handle]: handle;
-                case ["", handle, ""]: handle;
-                case _: null;
-            }
-        else
-            null;
-    }
-
     static public function importUrl(url:URL) {
         switch (url) {
             case {
@@ -76,10 +41,19 @@ class Importer {
                 importFbProfile(handle);
                 return;
         }
+        switch (url.pathname.split("/").slice(1, 3)) {
+            case [handle, "posts" | "photos" | "videos"]:
+                postToServer({
+                    url: Path.join([url.origin, url.pathname])
+                });
+                return;
+            case _:
+                //pass
+        }
         throw 'Cannot handle $url';
     }
 
-    static function getFbProfile(handle:String) {
+    static function getFbProfile(handle:String):FacebookProfile {
         if (extractFbAboutPage(document.location) != handle) {
             throw '只可以在 about page 輸入 Facebook 專頁';
         }
@@ -87,6 +61,7 @@ class Importer {
         var id = fbId();
 
         return {
+            url: 'https://www.facebook.com/$handle/',
             handle: handle.endsWith("-" + id) ? id : handle,
             id: id,
             name: fbName(),
@@ -100,9 +75,28 @@ class Importer {
         };
     }
 
+    static function postToServer(data:Dynamic) {
+        window.fetch(Path.join([Content.serverEndpoint]), {
+            method: "POST",
+            mode: CORS,
+            cache: NO_CACHE,
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: Json.stringify(data),
+        })
+            .then(function(r) {
+                if (r.status == 200) {
+                    Runtime.sendMessage(Serializer.run(Message.MsgUpdateEntityIndex), function(_) {});
+                } else {
+                    r.text().then(alert);
+                }
+            });
+    }
+
     static function importFbProfile(handle:String) {
-        var info = getFbProfile(handle);
-        alert(Json.stringify(info, null, "  "));
+        var profile = getFbProfile(handle);
+        postToServer(profile);
     }
 
     static function fbId():String {

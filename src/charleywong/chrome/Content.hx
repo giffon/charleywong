@@ -15,7 +15,7 @@ using Lambda;
 using StringTools;
 
 class Content {
-    static function getEntityFromFb(fbPage:String) return new Promise<Null<Entity>>(function(resolve, reject) {
+    static public function getEntityFromFb(fbPage:String) return new Promise<Null<Entity>>(function(resolve, reject) {
         Runtime.sendMessage(Serializer.run(Message.MsgGetEntityFromFb(fbPage)), function(response) {
             if (response == null) {
                 reject(Runtime.lastError);
@@ -110,7 +110,7 @@ class Content {
         }
     });
 
-    static var serverEndpoint:String;
+    static public var serverEndpoint:String;
 
     static function onMessage(?request:Dynamic, sender, sendResponse:Dynamic->Void) {
         switch (Unserializer.run(request):Message) {
