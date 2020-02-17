@@ -119,16 +119,6 @@ class ServerMain {
 
     static function post(req:Request, res:Response) {
         var url = new URL(req.body.url);
-        switch (extractFbHomePage(url)) {
-            case null:
-                //pass
-            case handle:
-                var e = createEntityFromFb(req.body);
-                saveEntity(e);
-                updateEntityIndex();
-                res.status(200).send("done");
-                return;
-        }
         switch (extractFbPost(url)) {
             case null:
                 //pass
@@ -152,6 +142,18 @@ class ServerMain {
                         return;
                 }
         }
+
+        switch (extractFbHomePage(url)) {
+            case null:
+                //pass
+            case handle:
+                var e = createEntityFromFb(req.body);
+                saveEntity(e);
+                updateEntityIndex();
+                res.status(200).send("done");
+                return;
+        }
+
         res.status(500).send('Cannot handle ${req.body}.');
     }
 

@@ -34,6 +34,21 @@ class Importer {
     }
 
     static function importFb(url:URL) {
+        switch (extractFbPost(url)) {
+            case null:
+                //pass
+            case handle:
+                postToServer({
+                    url: if (url.pathname == "/permalink.php") {
+                        var params = parseSearch(url.search);
+                        Path.join([url.origin, url.pathname]) + '?story_fbid=' + params["story_fbid"].urlEncode() + "&id=" + params["id"].urlEncode();
+                    } else {
+                        Path.join([url.origin, url.pathname]);
+                    }
+                });
+                return;
+        }
+
         switch (extractFbHomePage(url)) {
             case null:
                 //pass
@@ -41,15 +56,7 @@ class Importer {
                 importFbProfile(handle);
                 return;
         }
-        switch (url.pathname.split("/").slice(1, 3)) {
-            case [handle, "posts" | "photos" | "videos"]:
-                postToServer({
-                    url: Path.join([url.origin, url.pathname])
-                });
-                return;
-            case _:
-                //pass
-        }
+
         throw 'Cannot handle $url';
     }
 
@@ -165,7 +172,8 @@ class Importer {
     }
 
     static function fbTel():Null<String> {
-        var callNodes = document.getElementsByXPath("//*[starts-with(text(),'Call ')]");
+        var callNodes = document.getElementsByXPath("//*[starts-with(text(),'Call ')][text()!='Call Now']");
+
         switch (callNodes.length) {
             case 0:
                 return null;
