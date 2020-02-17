@@ -1,5 +1,6 @@
 package charleywong.chrome;
 
+import js.html.URL;
 import haxe.Unserializer;
 import haxe.Serializer;
 import haxe.io.Path;
@@ -113,7 +114,7 @@ class Content {
     static function onMessage(?request:Dynamic, sender, sendResponse:Dynamic->Void) {
         switch (Unserializer.run(request):Message) {
             case MsgImportToCharley(linkUrl):
-                alert("TODO: import " + linkUrl);
+                Importer.importUrl(new URL(linkUrl));
             case _:
                 throw 'Unknown request: $request';
         }
