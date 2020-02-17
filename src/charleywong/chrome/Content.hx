@@ -16,11 +16,11 @@ using StringTools;
 
 class Content {
     static public function getEntityFromFb(fbPage:String) return new Promise<Null<Entity>>(function(resolve, reject) {
-        Runtime.sendMessage(Serializer.run(Message.MsgGetEntityFromFb(fbPage)), function(response) {
+        Runtime.sendMessage(Serializer.run(Message.MsgGetEntityFromFb(fbPage)), function(response:Dynamic) {
             if (response == null) {
                 reject(Runtime.lastError);
             } else {
-                resolve(response != false ? Entity.fromJson(response) : null);
+                resolve(response != false ? response : null);
             }
         });
     });

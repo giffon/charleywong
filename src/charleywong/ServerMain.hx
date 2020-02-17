@@ -56,7 +56,7 @@ class ServerMain {
     }
 
     static function allJson(req:Request, res:Response) {
-        res.json([for (e in entityIndex.entities) e.toJson()]);
+        res.json([for (e in entityIndex.entities) e]);
     }
 
     static function entityJson(req:Request, res:Response) {
@@ -66,7 +66,7 @@ class ServerMain {
             res.status(404).send('Entity of id $entityId not found.');
             return;
         }
-        res.json(entity.toJson());
+        res.json(entity);
     }
 
     static function entity(req:Request, res:Response) {
@@ -87,7 +87,7 @@ class ServerMain {
             query: query,
             limit: Math.POSITIVE_INFINITY,
         });
-        res.json(result.map(r -> entityIndex.entitiesOfId[r.id].toJson()));
+        res.json(result.map(r -> entityIndex.entitiesOfId[r.id]));
     }
 
     static function search(req:Request, res:Response) {
@@ -158,7 +158,7 @@ class ServerMain {
     }
 
     static function saveEntity(entity:Entity, openAfterSave = true) {
-        var fileContent = haxe.Json.stringify(entity.toJson(), null, "  ");
+        var fileContent = haxe.Json.stringify(entity, null, "  ");
         if (Sys.getEnv("CI") != null || Sys.getEnv("GITHUB_ACTIONS") != null) {
             Sys.println("In CI, skip writing file.");
         } else {

@@ -24,7 +24,6 @@ class Background {
             var jsonUrl = Path.join([settings.serverEndpoint, "list", "all.json"]);
             window.fetch(jsonUrl)
                 .then(r -> r.json())
-                .then((a:Array<Dynamic>) -> a.map(Entity.fromJson))
                 .then(function(entities:Array<Entity>) {
                     resolve(new EntityIndex([for (e in entities) e.id => e]));
                 })
@@ -44,7 +43,7 @@ class Background {
                         case null:
                             sendResponse(false);
                         case e:
-                            sendResponse(e.toJson());
+                            sendResponse(e);
                     }
                 });
                 return true;

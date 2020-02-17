@@ -12,7 +12,7 @@ class TestTags extends utest.Test {
     function testSchema() {
         var schema:DynamicAccess<Dynamic> = Json.parse(File.getContent("data/schema/Tag.json"));
         var schemaEnum:Array<String> = schema["enum"];
-        for (t in Tag.tags) {
+        for (t in Tag.tags.keys()) {
             Assert.isTrue(schemaEnum.has(t.id));
         }
 
