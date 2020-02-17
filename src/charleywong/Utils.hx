@@ -1,6 +1,5 @@
 package charleywong;
 
-import js.npm.fetch.Fetch;
 import tink.core.*;
 using StringTools;
 
@@ -17,7 +16,7 @@ class Utils {
 
     #if nodejs
     static public function isUrlAccessible(url:String):js.lib.Promise<Int> {
-        return Fetch.fetch(url)
+        return js.npm.fetch.Fetch.fetch(url)
             .then(r -> r.status);
     }
     #else
