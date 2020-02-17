@@ -64,7 +64,7 @@ class Importer {
             }:
                 importFb(url);
             case _:
-                alert('Cannot handle $url');
+                throw 'Cannot handle $url';
         }
     }
 
@@ -76,18 +76,17 @@ class Importer {
                 importFbProfile(handle);
                 return;
         }
-        alert('Cannot handle $url');
+        throw 'Cannot handle $url';
     }
 
-    static function importFbProfile(handle:String) {
+    static function getFbProfile(handle:String) {
         if (extractFbAboutPage(document.location) != handle) {
-            alert('只可以在 about page 輸入 Facebook 專頁');
-            return;
+            throw '只可以在 about page 輸入 Facebook 專頁';
         }
 
         var id = fbId();
 
-        var info = {
+        return {
             handle: handle.endsWith("-" + id) ? id : handle,
             id: id,
             name: fbName(),
@@ -99,6 +98,10 @@ class Importer {
             tel: fbTel(),
             categories: fbCategories(),
         };
+    }
+
+    static function importFbProfile(handle:String) {
+        var info = getFbProfile(handle);
         alert(Json.stringify(info, null, "  "));
     }
 
@@ -125,7 +128,7 @@ class Importer {
             case []:
                 null;
             case [about]:
-                about.textContent;
+                about.textContent.trim();
             case _:
                 throw 'More than 1 about elements? $abouts';
         }

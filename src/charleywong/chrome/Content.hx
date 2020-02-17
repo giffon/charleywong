@@ -1,5 +1,6 @@
 package charleywong.chrome;
 
+import haxe.Timer;
 import js.html.URL;
 import haxe.Unserializer;
 import haxe.Serializer;
@@ -114,7 +115,25 @@ class Content {
     static function onMessage(?request:Dynamic, sender, sendResponse:Dynamic->Void) {
         switch (Unserializer.run(request):Message) {
             case MsgImportToCharley(linkUrl):
-                Importer.importUrl(new URL(linkUrl));
+                var seeMoreLinks = "*[role='main'] a.see_more_link";
+                for (link in document.querySelectorAll(seeMoreLinks)) {
+                    var link:AnchorElement = cast link;
+                    link.click();
+                    link.remove();
+                };
+
+                Timer.delay(function(){
+                    for (link in document.querySelectorAll(seeMoreLinks))
+                    {
+                        alert('There are still "See More" buttons.');
+                        return;
+                    }
+                    try {
+                        Importer.importUrl(new URL(linkUrl));
+                    } catch (e:Dynamic) {
+                        alert(e);
+                    }
+                }, 100);
             case _:
                 throw 'Unknown request: $request';
         }
