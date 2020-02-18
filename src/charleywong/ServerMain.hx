@@ -155,6 +155,31 @@ class ServerMain {
                 return;
         }
 
+        switch (extractIgPost(url)) {
+            case null:
+                //pass
+            case post:
+                var handle = req.body.igHandle;
+                switch (entityIndex.entitiesOfUrl['https://www.instagram.com/$handle/']) {
+                    case null:
+                        res.status(500).send('${handle} has not been imported yet.');
+                        return;
+                    case e:
+                        var postUrl:String = req.body.url;
+                        if (e.posts.exists(p -> p.url == postUrl)) {
+                            res.status(500).send('${postUrl} already exists.');
+                            return;
+                        }
+                        e.posts.push({
+                            url: postUrl
+                        });
+                        saveEntity(e);
+                        updateEntityIndex();
+                        res.status(200).send("done");
+                        return;
+                }
+        }
+
         switch (extractIgProfilePage(url)) {
             case null:
                 //pass

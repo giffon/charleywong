@@ -64,7 +64,31 @@ class Importer {
         throw 'Cannot handle $url';
     }
 
+    static function igHandle() {
+        var h2 = document.getElementsByXPath("//article//header//h2//a")[0];
+        var href = (cast h2:AnchorElement).href;
+        var regexp = ~/^https:\/\/www\.instagram\.com\/([^\/]+)\/$/;
+        if (regexp.match(href)) {
+            return regexp.matched(1);
+        } else {
+            throw '$href is not an Instagram profile?';
+        }
+    }
+
     static function importIg(url:URL) {
+        switch (extractIgPost(url)) {
+            case null:
+                //pass
+            case post:
+                if (extractIgPost(document.location) != post) {
+                    throw '只可以在 Instagram post 中輸入';
+                }
+                postToServer({
+                    url: 'https://www.instagram.com/p/$post/',
+                    igHandle: igHandle(),
+                });
+                return;
+        }
         switch (extractIgProfilePage(url)) {
             case null:
                 //pass

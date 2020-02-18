@@ -84,4 +84,16 @@ class UrlExtractors {
         else
             null;
     }
+
+    static public function extractIgPost(url:ParsedUrl) {
+        var regex = ~/^https?:\/\/(?:www\.)?instagram\.com$/i;
+        return if (regex.match(url.origin))
+            switch(url.pathname.split("/")) {
+                case ["", "p", post]: post;
+                case ["", "p", post, ""]: post;
+                case _: null;
+            }
+        else
+            null;
+    }
 }
