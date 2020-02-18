@@ -257,6 +257,14 @@ class Tag {
         }
     }
 
+    static public final nail:TagData = {
+        name: {
+            en: "nail",
+            zh: "美甲",
+        },
+        inherits: ["makeup"]
+    }
+
     static public final food:TagData = {
         name: {
             en: "food & beverage",
