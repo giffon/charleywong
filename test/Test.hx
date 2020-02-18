@@ -12,6 +12,8 @@ class Test {
         switch (Sys.args()) {
             case [] | ["push"]:
                 utest.UTest.run(tests);
+            case ["post-deployment"]:
+                utest.UTest.run([new TestPostDeployment()]);
             case ["schedule"]:
                 utest.UTest.run(tests.concat([
                     new TestUrls(index),

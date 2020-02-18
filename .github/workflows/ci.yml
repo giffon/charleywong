@@ -71,3 +71,5 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.awsAccessKeyId }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.awsSecretAccessKey }}
           SERVERLESS_ACCESS_KEY: ${{ secrets.serverlessAccessKey }}
+      - name: Post-deployment test
+        run: haxe test.hxml post-deployment
