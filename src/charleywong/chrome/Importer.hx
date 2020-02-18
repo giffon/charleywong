@@ -178,7 +178,7 @@ class Importer {
     }
 
     static function fbName():String {
-        return document.querySelector("#seo_h1_tag a").textContent.trim();
+        return document.querySelector("#seo_h1_tag a").innerText.trim();
     }
 
     static function fbAbout() {
@@ -187,7 +187,7 @@ class Importer {
             case []:
                 null;
             case [about]:
-                about.textContent.trim();
+                about.innerText.trim();
             case _:
                 throw 'More than 1 about elements? $abouts';
         }
@@ -201,8 +201,8 @@ class Importer {
         }
 
         return {
-            line: textNodes[0].textContent,
-            area: textNodes[1].textContent,
+            line: textNodes[0].innerText,
+            area: textNodes[1].innerText,
         };
     }
 
@@ -226,7 +226,7 @@ class Importer {
         return if (links.length == 0)
             null;
         else
-            links.map(link -> link.textContent);
+            links.map(link -> link.innerText);
     }
 
     static function fbTel():Null<String> {
@@ -240,7 +240,7 @@ class Importer {
             case n:
                 throw 'There are ${n} "Call *".';
         }
-        var callString:String = callNodes[0].textContent;
+        var callString:String = callNodes[0].innerText;
         var regex = ~/Call ([0-9 ]+)/;
         return if (regex.match(callString)) {
             ~/[^0-9]/g.replace(regex.matched(1), "");
@@ -252,7 +252,7 @@ class Importer {
     static function fbCategories() {
         var categoryLinks = document.getElementsByXPath("//*[@role='main']//a[contains(@href, '/pages/category/')]");
         var searchLinks = document.getElementsByXPath("//*[@role='main']//a[contains(@href, '/search/pages/')]");
-        return categoryLinks.map(e -> e.textContent).concat(searchLinks.map(e -> e.textContent));
+        return categoryLinks.map(e -> e.innerText).concat(searchLinks.map(e -> e.innerText));
     }
 
     static function fbInstagram() {
@@ -307,11 +307,11 @@ class Importer {
     static function igName() {
         var h1s = document.getElementsByXPath("//main//header//h1");
         if (h1s[1] != null)
-            return h1s[1].textContent;
+            return h1s[1].innerText;
         else if (h1s[0] != null)
-            return h1s[0].textContent;
+            return h1s[0].innerText;
         else
-            throw document.getElementsByXPath("//main//header")[0].textContent;
+            throw document.getElementsByXPath("//main//header")[0].innerText;
     }
 
     static function igWebsite() {
@@ -334,6 +334,6 @@ class Importer {
 
     static function igAbout() {
         var aboutElement = document.getElementsByXPath("//main//header/section/div[2]/span")[0];
-        return aboutElement != null ? aboutElement.textContent : null;
+        return aboutElement != null ? aboutElement.innerText : null;
     }
 }
