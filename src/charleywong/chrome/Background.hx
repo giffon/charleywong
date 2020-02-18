@@ -1,10 +1,12 @@
 package charleywong.chrome;
 
+import js.html.URL;
 import chrome.Tabs.Tab;
 import haxe.*;
 import haxe.io.Path;
 import js.lib.Promise;
 import js.Browser.*;
+import charleywong.UrlExtractors.*;
 import chrome.*;
 using Lambda;
 
@@ -92,9 +94,22 @@ class Background {
     ):Void {
         switch (info.menuItemId) {
             case MenuImport:
-                Tabs.sendMessage(tab.id, Serializer.run(Message.MsgImportToCharley(info.linkUrl)));
+                if (info.linkUrl != null) {
+                    Tabs.sendMessage(tab.id, Serializer.run(Message.MsgImportToCharley(info.linkUrl)));
+                    return;
+                }
+
+                var url = switch (extractFbAboutPage(new URL(tab.url))) {
+                    case null:
+                        tab.url;
+                    case handle:
+                        'https://www.facebook.com/$handle/';
+                }
+                Tabs.sendMessage(tab.id, Serializer.run(Message.MsgImportToCharley(url)));
+                return;
             case _:
         }
+        throw 'Cannot handle $info';
     }
 
     static function main():Void {
@@ -105,7 +120,7 @@ class Background {
             ContextMenus.create({
                 id: MenuImport,
                 title: "輸入到 Charley Wong 和你查",
-                contexts: ["link"]
+                contexts: ["link", "page_action"]
             });
         });
     }

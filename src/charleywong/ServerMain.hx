@@ -155,6 +155,17 @@ class ServerMain {
                 return;
         }
 
+        switch (extractIgProfilePage(url)) {
+            case null:
+                //pass
+            case handle:
+                var e = createEntityFromIg(req.body);
+                saveEntity(e);
+                updateEntityIndex();
+                res.status(200).send("done");
+                return;
+        }
+
         res.status(500).send('Cannot handle ${req.body}.');
     }
 
@@ -170,6 +181,33 @@ class ServerMain {
             if (openAfterSave)
                 Sys.command("code", [file]);
         }
+    }
+
+    static function createEntityFromIg(igInfo:charleywong.chrome.InstagramProfile):Entity {
+        var webpages:Array<WebPage> = [];
+        if (igInfo.website != null) {
+            webpages.push({
+                url: igInfo.website,
+            });
+        }
+        var meta:DynamicAccess<Dynamic> = {};
+        if (igInfo.about != null) {
+            meta["about"] = igInfo.about;
+        }
+        var igPage:WebPage = {
+            url: 'https://www.instagram.com/${igInfo.handle}/',
+        };
+        if (meta.keys().length > 0) {
+            igPage.meta = meta;
+        }
+        webpages.push(igPage);
+        return {
+            id: igInfo.handle,
+            name: MultiLangString.parseName(igInfo.name),
+            webpages: webpages,
+            posts: [],
+            tags: [],
+        };
     }
 
     static function createEntityFromFb(fbPage:charleywong.chrome.FacebookProfile):Entity {

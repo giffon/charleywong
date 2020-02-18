@@ -28,6 +28,10 @@ class Importer {
                 host: "www.facebook.com" | "facebook.com",
             }:
                 importFb(url);
+            case {
+                host: "www.instagram.com" | "instagram.com",
+            }:
+                importIg(url);
             case _:
                 throw 'Cannot handle $url';
         }
@@ -60,6 +64,17 @@ class Importer {
         throw 'Cannot handle $url';
     }
 
+    static function importIg(url:URL) {
+        switch (extractIgProfilePage(url)) {
+            case null:
+                //pass
+            case handle:
+                importIgProfile(handle);
+                return;
+        }
+        throw 'Cannot handle $url';
+    }
+
     static function getFbProfile(handle:String):FacebookProfile {
         if (extractFbAboutPage(document.location) != handle) {
             throw '只可以在 about page 輸入 Facebook 專頁';
@@ -79,6 +94,20 @@ class Importer {
             websites: fbWebsites(),
             tel: fbTel(),
             categories: fbCategories(),
+        };
+    }
+
+    static function getIgProfile(handle:String):InstagramProfile {
+        if (extractIgProfilePage(document.location) != handle) {
+            throw '只可以在 Instagram profile page 輸入';
+        }
+
+        return {
+            url: 'https://www.instagram.com/$handle/',
+            handle: handle,
+            name: igName(),
+            about: igAbout(),
+            website: igWebsite(),
         };
     }
 
@@ -103,6 +132,11 @@ class Importer {
 
     static function importFbProfile(handle:String) {
         var profile = getFbProfile(handle);
+        postToServer(profile);
+    }
+
+    static function importIgProfile(handle:String) {
+        var profile = getIgProfile(handle);
         postToServer(profile);
     }
 
@@ -244,5 +278,38 @@ class Importer {
         }
 
         return null;
+    }
+
+    static function igName() {
+        var h1s = document.getElementsByXPath("//main//header//h1");
+        if (h1s[1] != null)
+            return h1s[1].textContent;
+        else if (h1s[0] != null)
+            return h1s[0].textContent;
+        else
+            throw document.getElementsByXPath("//main//header")[0].textContent;
+    }
+
+    static function igWebsite() {
+        var as = document.getElementsByXPath("//main//header//a[contains(@rel,'me')]");
+        switch (as) {
+            case []:
+                return null;
+            case [a]:
+                var href:String = (cast a:AnchorElement).href;
+                var regexp = ~/^https:\/\/l\.instagram\.com\/\?u=([^&]+).*$/;
+                if (regexp.match(href)) {
+                    return regexp.matched(1).urlDecode();
+                } else {
+                    throw 'Cannot parse $href';
+                }
+            case _:
+                throw 'There are more then 1 matched links.';
+        }
+    }
+
+    static function igAbout() {
+        var aboutElement = document.getElementsByXPath("//main//header/section/div[2]/span")[0];
+        return aboutElement != null ? aboutElement.textContent : null;
     }
 }
