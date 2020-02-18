@@ -81,6 +81,7 @@ class Content {
                         ';
 
                         link.addEventListener("click", onButtonClicked);
+                        link.addEventListener("auxclick", onButtonClicked);
                     }
                 });
             }
@@ -90,7 +91,12 @@ class Content {
 
     static function onButtonClicked(evt:js.html.MouseEvent) {
         var targetElement:Element = cast evt.target;
-        if (targetElement.classList.contains("charleywong-button")) {
+        if (
+            targetElement.classList.contains("charleywong-button")
+            &&
+            // It should work for both left and middle mouse buttons.
+            [1, 2].has(evt.which)
+        ) {
             evt.preventDefault();
             var href = targetElement.getAttribute("href");
             window.open(href, "_blank");
