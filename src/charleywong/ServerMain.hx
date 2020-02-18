@@ -209,35 +209,59 @@ class ServerMain {
     }
 
     static function createEntityFromIg(igInfo:charleywong.chrome.InstagramProfile):Entity {
-        var webpages:Array<WebPage> = [];
+        var entity = switch (entityIndex.entitiesOfUrl[igInfo.url]) {
+            case null:
+                {
+                    id: igInfo.handle,
+                    name: MultiLangString.parseName(igInfo.name),
+                    webpages: [],
+                    posts: [],
+                    tags: [],
+                };
+            case e:
+                e;
+        }
+
+        var webpages = entity.webpages;
         if (igInfo.website != null) {
-            webpages.push({
-                url: igInfo.website,
-            });
+            if (!entity.webpages.exists(p -> p.url == igInfo.website))
+                webpages.push({
+                    url: igInfo.website,
+                });
         }
         var meta:DynamicAccess<Dynamic> = {};
         if (igInfo.about != null) {
             meta["about"] = igInfo.about;
         }
-        var igPage:WebPage = {
-            url: 'https://www.instagram.com/${igInfo.handle}/',
+        var igPage:WebPage = switch (entity.webpages.find(p -> p.url == igInfo.url)) {
+            case null:
+                var p = {
+                    url: 'https://www.instagram.com/${igInfo.handle}/',
+                };
+                webpages.push(p);
+                p;
+            case p:
+                p;
         };
         if (meta.keys().length > 0) {
             igPage.meta = meta;
         }
-        webpages.push(igPage);
-        return {
-            id: igInfo.handle,
-            name: MultiLangString.parseName(igInfo.name),
-            webpages: webpages,
-            posts: [],
-            tags: [],
-        };
+        return entity;
     }
 
     static function createEntityFromFb(fbPage:charleywong.chrome.FacebookProfile):Entity {
-        var name = MultiLangString.parseName(fbPage.name);
-        var id = fbPage.handle;
+        var entity = switch (entityIndex.entitiesOfFbPage[fbPage.handle]) {
+            case null:
+                {
+                    id: fbPage.handle,
+                    name: MultiLangString.parseName(fbPage.name),
+                    webpages: [],
+                    posts: [],
+                    tags: [],
+                };
+            case e:
+                e;
+        }
         var meta:DynamicAccess<Dynamic> = {};
         if (fbPage.id != null) {
             meta["id"] = fbPage.id;
@@ -256,39 +280,41 @@ class ServerMain {
         if (fbPage.tel != null) {
             meta["tel"] = fbPage.tel;
         }
-        var webpages:Array<WebPage> = [];
+        var webpages = entity.webpages;
         if (fbPage.websites != null) {
             for (url in fbPage.websites)
+            if (!webpages.exists(p -> p.url == url))
                 webpages.push({
                     url: url,
                 });
         }
-        webpages.push({
-            url: 'https://www.facebook.com/${fbPage.handle}/',
-            meta: meta,
-        });
-        if (fbPage.ig != null) {
-            webpages.push({
-                url: 'https://www.instagram.com/${fbPage.ig}/',
-            });
+
+        switch (webpages.find(p -> p.url == fbPage.url)) {
+            case null:
+                webpages.push({
+                    url: fbPage.url,
+                    meta: meta,
+                });
+            case webpage:
+                webpage.meta = meta;
         }
 
-        var urls = [];
-        if (fbPage.websites != null) fbPage.websites.iter(url -> urls.push(url));
-        if (fbPage.ig != null) urls.push('https://www.instagram.com/${fbPage.ig}/');
-        for (url in urls) {
+        if (fbPage.ig != null) {
+            var igUrl = 'https://www.instagram.com/${fbPage.ig}/';
+            if (!webpages.exists(p -> p.url == igUrl))
+                webpages.push({
+                    url: igUrl,
+                });
+        }
+
+        for (p in entity.webpages) {
+            var url = p.url;
             Utils.isUrlAccessible(url).catchError(function(err) {
                 Sys.println('⚠️  $url is not accessible. $err');
             });
         }
 
-        return {
-            id: id,
-            name: name,
-            webpages: webpages,
-            posts: [],
-            tags: [],
-        };
+        return entity;
     }
 
     static function main():Void {
