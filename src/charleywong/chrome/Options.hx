@@ -84,7 +84,7 @@ class Options {
         getSettings().then(function(settings) {
             ReactDOM.render(jsx('
                 <OptionsControl defaultSettings=${settings} />
-            '), document.getElementById("settings"));
+            '), document.getElementById("options"));
         });
     }
 }
