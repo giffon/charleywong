@@ -64,7 +64,12 @@ jobs:
       - uses: actions/download-artifact@v1
         with:
           name: index.js
-      - run: npm install
+      - name: Install libraries
+        run: |
+          set -ex
+          npm install
+          haxelib newrepo
+          haxelib install all --always
       - name: Deploy
         run: npx serverless deploy
         env:
