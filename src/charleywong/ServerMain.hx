@@ -18,6 +18,7 @@ class ServerMain {
     static var app:Application;
 
     static function updateEntityIndex():Void {
+        Sys.println("reload entities from " + dataDirectory);
         entityIndex = EntityIndex.loadFromDirectory(dataDirectory);
     }
 
@@ -258,6 +259,22 @@ class ServerMain {
         app.get("/search/:query", search);
 
         if (isMain) {
+            var watcher = js.npm.chokidar.Chokidar.watch(dataDirectory,{
+                persistent: true,
+                ignoreInitial: true,
+            });
+            watcher.on("add", function(path:String) {
+                Sys.println('detected add: $path');
+                updateEntityIndex();
+            });
+            watcher.on("change", function(path:String) {
+                Sys.println('detected change: $path');
+                updateEntityIndex();
+            });
+            watcher.on("unlink", function(path:String) {
+                Sys.println('detected unlink: $path');
+                updateEntityIndex();
+            });
             app.post("/", post);
             app.listen(port, function() {
                 Sys.println('http://localhost:$port');
