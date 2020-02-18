@@ -256,7 +256,7 @@ class Importer {
     }
 
     static function fbInstagram() {
-        switch (document.getElementsByXPath("//a[contains(@href,'instagram.com')]")) {
+        switch (document.getElementsByXPath("//*[@role='main']//a[contains(@href,'instagram.com')]")) {
             case []:
                 // pass
             case [linkNode]:
