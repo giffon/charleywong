@@ -32,13 +32,19 @@ class Importer {
             case null:
                 //pass
             case handle:
+                var postNode = document.querySelector('a[href*="${url.pathname + url.search}"]').closest(".userContentWrapper");
+                var postTime = postNode.querySelector("abbr[data-utime]").dataset.utime;
+                var sharedWithNode = postNode.querySelector("a.fbPrivacyAudienceIndicator");
+                var sharedWith = sharedWithNode.dataset.tooltipContent;
                 postToServer({
                     url: if (url.pathname == "/permalink.php") {
                         var params = parseSearch(url.search);
                         Path.join([url.origin, url.pathname]) + '?story_fbid=' + params["story_fbid"].urlEncode() + "&id=" + params["id"].urlEncode();
                     } else {
                         Path.join([url.origin, url.pathname]);
-                    }
+                    },
+                    utime: postTime,
+                    sharedWith: sharedWith,
                 });
                 return;
         }

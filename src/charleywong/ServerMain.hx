@@ -130,13 +130,21 @@ class ServerMain {
                         return;
                     case e:
                         var postUrl:String = req.body.url;
-                        if (e.posts.exists(p -> p.url == postUrl)) {
-                            res.status(500).send('${postUrl} already exists.');
-                            return;
+                        switch (e.posts.find(p -> p.url == postUrl)) {
+                            case null:
+                                e.posts.push({
+                                    url: postUrl,
+                                    meta: {
+                                        "utime": req.body.utime,
+                                        "sharedWith": req.body.sharedWith
+                                    }
+                                });
+                            case post:
+                                post.meta = {
+                                    "utime": req.body.utime,
+                                    "sharedWith": req.body.sharedWith
+                                };
                         }
-                        e.posts.push({
-                            url: postUrl
-                        });
                         saveEntity(e);
                         updateEntityIndex();
                         res.status(200).send("done");

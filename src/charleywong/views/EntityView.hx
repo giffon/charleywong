@@ -26,7 +26,16 @@ class EntityView extends View {
             return true;
 
         return switch (post.meta["embeddable"]:Null<Bool>) {
-            case null | true:
+            case null:
+                switch (post.meta["sharedWith"]:Null<String>) {
+                    case null:
+                        true;
+                    case "Public" | "public":
+                        true;
+                    case _:
+                        false;
+                }
+            case true:
                 true;
             case false:
                 false;
