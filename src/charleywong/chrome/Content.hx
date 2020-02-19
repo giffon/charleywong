@@ -1,14 +1,10 @@
 package charleywong.chrome;
 
-import haxe.Timer;
-import js.html.URL;
-import haxe.Unserializer;
-import haxe.Serializer;
+import js.html.*;
+import haxe.*;
 import haxe.io.Path;
-import js.html.Element;
 import chrome.Runtime;
 import js.lib.Promise;
-import js.html.AnchorElement;
 import js.npm.mutation_summary.MutationSummary;
 import js.Browser.*;
 using Lambda;
@@ -151,12 +147,14 @@ class Content {
     static function scrollToJune() {
         var june = Date.fromString("2019-06-01");
         var times = document.getElementsByXPath("//*[@id='pagelet_timeline_main_column']//abbr[@data-utime]");
-        var lastTimeNode = times[times.length - 1];
-        var lastTime = Date.fromTime(Std.parseFloat(lastTimeNode.dataset.utime) * 1000);
-        //trace('lastTime: $lastTime');
-        if (lastTime.getTime() <= june.getTime() || document.querySelector("#pagelet_timeline_main_column .uiMorePager") == null) {
-            lastTimeNode.scrollIntoView();
-            alert("到達2019年6月頭");
+        var beforeJuneNode = times.find(node -> Std.parseFloat(node.dataset.utime) * 1000 < june.getTime());
+        if (beforeJuneNode != null) {
+            beforeJuneNode.scrollIntoView({
+                block: ScrollLogicalPosition.END,
+            });
+            Timer.delay(function() alert("到達2019年6月頭"), 100);
+        } else if (document.querySelector("#pagelet_timeline_main_column .uiMorePager") == null) {
+            Timer.delay(function() alert("到達 timeline 底部"), 100);
         } else {
             window.scrollTo(window.scrollX, document.body.scrollHeight);
             Timer.delay(scrollToJune, 100);
