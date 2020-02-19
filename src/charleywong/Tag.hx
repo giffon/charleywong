@@ -272,6 +272,13 @@ class Tag {
         }
     }
 
+    static public final baby:TagData = {
+        name: {
+            en: "baby goods",
+            zh: "母嬰用品",
+        }
+    }
+
     static public final accessories:TagData = {
         name: {
             en: "accessories",
