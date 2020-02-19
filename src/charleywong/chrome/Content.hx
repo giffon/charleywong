@@ -159,6 +159,7 @@ class Content {
             });
             Timer.delay(function() alert("到達2019年6月頭"), 100);
         } else if (document.querySelector("#pagelet_timeline_main_column .uiMorePager") == null) {
+            window.scrollTo(window.scrollX, document.body.scrollHeight);
             Timer.delay(function() alert("到達 timeline 底部"), 100);
         } else {
             window.scrollTo(window.scrollX, document.body.scrollHeight);
