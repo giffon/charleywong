@@ -263,6 +263,7 @@ class ServerMain {
                 e;
         }
         var meta:DynamicAccess<Dynamic> = {};
+        meta["name"] = fbPage.name;
         if (fbPage.id != null) {
             meta["id"] = fbPage.id;
         }
@@ -289,10 +290,11 @@ class ServerMain {
                 });
         }
 
-        switch (webpages.find(p -> p.url == fbPage.url)) {
+        var fbUrl = 'https://www.facebook.com/${fbPage.handle}/';
+        switch (webpages.find(p -> p.url == fbUrl)) {
             case null:
                 webpages.push({
-                    url: fbPage.url,
+                    url: fbUrl,
                     meta: meta,
                 });
             case webpage:
