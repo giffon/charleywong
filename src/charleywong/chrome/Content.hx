@@ -13,6 +13,7 @@ import js.npm.mutation_summary.MutationSummary;
 import js.Browser.*;
 using Lambda;
 using StringTools;
+using charleywong.ElementUtils;
 
 class Content {
     static public function getEntityFromFb(fbPage:String) return new Promise<Null<Entity>>(function(resolve, reject) {
@@ -140,8 +141,25 @@ class Content {
                         alert(e);
                     }
                 }, 100);
+            case MsgScrollToJune:
+                scrollToJune();
             case _:
                 throw 'Unknown request: $request';
+        }
+    }
+
+    static function scrollToJune() {
+        var june = Date.fromString("2019-06-01");
+        var times = document.getElementsByXPath("//*[@id='pagelet_timeline_main_column']//abbr[@data-utime]");
+        var lastTimeNode = times[times.length - 1];
+        var lastTime = Date.fromTime(Std.parseFloat(lastTimeNode.dataset.utime) * 1000);
+        //trace('lastTime: $lastTime');
+        if (lastTime.getTime() <= june.getTime() || document.querySelector("#pagelet_timeline_main_column .uiMorePager") == null) {
+            lastTimeNode.scrollIntoView();
+            alert("到達2019年6月頭");
+        } else {
+            window.scrollTo(window.scrollX, document.body.scrollHeight);
+            Timer.delay(scrollToJune, 100);
         }
     }
 

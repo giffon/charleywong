@@ -12,6 +12,7 @@ using Lambda;
 
 enum abstract MenuId(String) to String {
     var MenuImport;
+    var MenuScrollToJune;
 }
 
 class Background {
@@ -107,6 +108,9 @@ class Background {
                 }
                 Tabs.sendMessage(tab.id, Serializer.run(Message.MsgImportToCharley(url)));
                 return;
+            case MenuScrollToJune:
+                Tabs.sendMessage(tab.id, Serializer.run(Message.MsgScrollToJune));
+                return;
             case _:
         }
         throw 'Cannot handle $info';
@@ -121,6 +125,12 @@ class Background {
                 id: MenuImport,
                 title: "輸入到 Charley Wong 和你查",
                 contexts: ["link", "page_action"]
+            });
+            ContextMenus.create({
+                id: MenuScrollToJune,
+                title: "回溯到2019年6月頭",
+                documentUrlPatterns: ["https://www.facebook.com/pg/*/posts/*"],
+                contexts: ["page"]
             });
         });
     }

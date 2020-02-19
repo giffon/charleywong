@@ -10,7 +10,10 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://*/*"],
+      "matches": [
+        "https://*/*",
+        "http://*/*"
+      ],
       "exclude_matches": ["https://charleywong.giffon.io/*"],
       "js": ["Content.js"],
       "css": ["style.css"]

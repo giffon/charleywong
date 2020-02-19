@@ -9,17 +9,7 @@ import js.Browser.*;
 import charleywong.UrlExtractors.*;
 using Lambda;
 using StringTools;
-using charleywong.chrome.Importer.ElementUtils;
-
-class ElementUtils {
-    static public function getElementsByXPath(context:Node, xpath:String):Array<Element> {
-        var r = document.evaluate(xpath, context, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE);
-        return [
-            for (i in 0...r.snapshotLength)
-            cast(r.snapshotItem(i), Element)
-        ];
-    }
-}
+using charleywong.ElementUtils;
 
 class Importer {
     static public function importUrl(url:URL) {
@@ -65,7 +55,7 @@ class Importer {
     }
 
     static function igHandle() {
-        var h2 = document.getElementsByXPath("//article//header//h2//a")[0];
+        var h2 = document.getElementsByXPath("//article//header//a[text()!='Follow']")[0];
         var href = (cast h2:AnchorElement).href;
         var regexp = ~/^https:\/\/www\.instagram\.com\/([^\/]+)\/$/;
         if (regexp.match(href)) {
