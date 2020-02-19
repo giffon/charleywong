@@ -238,6 +238,9 @@ class ServerMain {
                 });
         }
         var meta:DynamicAccess<Dynamic> = {};
+        if (igInfo.name != null) {
+            meta["name"] = igInfo.name;
+        }
         if (igInfo.about != null) {
             meta["about"] = igInfo.about;
         }
