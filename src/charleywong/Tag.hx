@@ -82,6 +82,13 @@ class Tag {
         }
     }
 
+    static public final lawer:TagData = {
+        name: {
+            en: "lawer",
+            zh: "律師",
+        }
+    }
+
     static public final media:TagData = {
         name: {
             en: "media",
