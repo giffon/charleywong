@@ -146,7 +146,12 @@ class Content {
 
     static function scrollToJune() {
         var june = Date.fromString("2019-06-01");
-        var times = document.getElementsByXPath("//*[@id='pagelet_timeline_main_column']//abbr[@data-utime]");
+        var posts = [
+            for (node in document.querySelectorAll("#pagelet_timeline_main_column .userContentWrapper"))
+            if ((cast node:Element).querySelector("*[data-tooltip-content='Pinned Post']") == null) // ignore pinned posts
+            node
+        ];
+        var times = posts.map(node -> (cast node:Element).querySelector("abbr[data-utime]"));
         var beforeJuneNode = times.find(node -> Std.parseFloat(node.dataset.utime) * 1000 < june.getTime());
         if (beforeJuneNode != null) {
             beforeJuneNode.scrollIntoView({
