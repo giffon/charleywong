@@ -242,6 +242,14 @@ class Tag {
         }
     }
 
+    static public final camera:TagData = {
+        name: {
+            en: "camera",
+            zh: "相機",
+        },
+        inherits: ["photography"]
+    }
+
     static public final photographer:TagData = {
         name: {
             en: "photographer/videographer",
