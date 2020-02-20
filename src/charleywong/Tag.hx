@@ -287,6 +287,14 @@ class Tag {
         }
     }
 
+    static public final alcoholic:TagData = {
+        name: {
+            en: "alcoholic drinks",
+            zh: "酒",
+        },
+        inherits: ["food"]
+    }
+
     static public final baby:TagData = {
         name: {
             en: "baby goods",
