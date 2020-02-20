@@ -252,17 +252,21 @@ class Importer {
     }
 
     static function fbInstagram() {
-        switch (document.getElementsByXPath("//*[@role='main']//a[contains(@href,'instagram.com')]")) {
+        var igHandles = document.getElementsByXPath("//*[@role='main']//a[contains(@href,'instagram.com')]")
+            .map(linkNode -> extractIgProfilePage(new URL((cast linkNode:AnchorElement).href)))
+            .filter(igHandle -> igHandle != null);
+
+        // ignore duplicated
+        igHandles = [
+            for (ig in igHandles)
+            ig => ig
+        ].array();
+
+        switch (igHandles) {
             case []:
                 // pass
-            case [linkNode]:
-                var href:String = (cast linkNode:AnchorElement).href;
-                switch (extractIgProfilePage(new URL(href))) {
-                    case null:
-                        // pass
-                    case handle:
-                        return handle;
-                }
+            case [handle]:
+                return handle;
             case nodes:
                 throw 'There are ${nodes.length} instagram links.';
         }
