@@ -7,6 +7,7 @@ import chrome.Runtime;
 import js.lib.Promise;
 import js.npm.mutation_summary.MutationSummary;
 import js.Browser.*;
+import charleywong.UrlExtractors.*;
 using Lambda;
 using StringTools;
 using charleywong.ElementUtils;
@@ -118,25 +119,34 @@ class Content {
     static function onMessage(?request:Dynamic, sender, sendResponse:Dynamic->Void) {
         switch (Unserializer.run(request):Message) {
             case MsgImportToCharley(linkUrl):
-                var seeMoreLinks = "*[role='main'] a.see_more_link";
-                for (link in document.querySelectorAll(seeMoreLinks)) {
-                    var link:AnchorElement = cast link;
-                    link.click();
-                    link.remove();
-                };
+                switch (extractFbHomePage(new URL(linkUrl))) { // should expend the "see more" when importing fb profile
+                    case null:
+                        try {
+                            Importer.importUrl(new URL(linkUrl));
+                        } catch (e:Dynamic) {
+                            alert(e);
+                        }
+                    case _:
+                        var seeMoreLinks = "*[role='main'] a.see_more_link";
+                        for (link in document.querySelectorAll(seeMoreLinks)) {
+                            var link:AnchorElement = cast link;
+                            link.click();
+                            link.remove();
+                        };
 
-                Timer.delay(function(){
-                    for (link in document.querySelectorAll(seeMoreLinks))
-                    {
-                        alert('There are still "See More" buttons.');
-                        return;
-                    }
-                    try {
-                        Importer.importUrl(new URL(linkUrl));
-                    } catch (e:Dynamic) {
-                        alert(e);
-                    }
-                }, 100);
+                        Timer.delay(function(){
+                            for (link in document.querySelectorAll(seeMoreLinks))
+                            {
+                                alert('There are still "See More" buttons.');
+                                return;
+                            }
+                            try {
+                                Importer.importUrl(new URL(linkUrl));
+                            } catch (e:Dynamic) {
+                                alert(e);
+                            }
+                        }, 100);
+                }
             case MsgScrollToJune:
                 scrollToJune();
             case _:
