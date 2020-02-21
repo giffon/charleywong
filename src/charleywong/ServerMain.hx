@@ -15,13 +15,8 @@ class ServerMain {
     static final port = 3000;
     static final isMain = (untyped __js__("require")).main == module;
     static final dataDirectory = "data/entity";
-    static var entityIndex:EntityIndex;
+    static final entityIndex:EntityIndex = EntityIndex.loadFromDirectory(dataDirectory);
     static var app:Application;
-
-    static function updateEntityIndex():Void {
-        Sys.println("reload entities from " + dataDirectory);
-        entityIndex = EntityIndex.loadFromDirectory(dataDirectory);
-    }
 
     static function index(req:Request, res:Response) {
         switch (req.query.search:String) {
@@ -147,7 +142,6 @@ class ServerMain {
                                 };
                         }
                         saveEntity(e);
-                        updateEntityIndex();
                         res.status(200).send("done");
                         return;
                 }
@@ -159,7 +153,6 @@ class ServerMain {
             case handle:
                 var e = createEntityFromFb(req.body);
                 saveEntity(e);
-                updateEntityIndex();
                 res.status(200).send("done");
                 return;
         }
@@ -183,7 +176,6 @@ class ServerMain {
                             url: postUrl
                         });
                         saveEntity(e);
-                        updateEntityIndex();
                         res.status(200).send("done");
                         return;
                 }
@@ -195,7 +187,6 @@ class ServerMain {
             case handle:
                 var e = createEntityFromIg(req.body);
                 saveEntity(e);
-                updateEntityIndex();
                 res.status(200).send("done");
                 return;
         }
@@ -212,6 +203,8 @@ class ServerMain {
             var rewrite = sys.FileSystem.exists(file);
             sys.io.File.saveContent(file, fileContent);
             Sys.println((rewrite ? "✍️  Rewritten " : "🌟  Created ") + file);
+            entityIndex.entities[file] = entity;
+            entityIndex.invalidate();
             if (openAfterSave)
                 Sys.command("code", [file]);
         }
@@ -332,8 +325,6 @@ class ServerMain {
     }
 
     static function main():Void {
-        updateEntityIndex();
-
         app = new Application();
 
         var bodyParser = require("body-parser");
@@ -375,8 +366,6 @@ class ServerMain {
                     return;
                 }
                 entityIndex.invalidate();
-                Sys.println('invalidated index');
-                updateEntityIndex();
             });
             watcher.on("change", function(path:String) {
                 Sys.println('detected change: $path');
@@ -388,13 +377,11 @@ class ServerMain {
                     return;
                 }
                 entityIndex.invalidate();
-                Sys.println('invalidated index');
             });
             watcher.on("unlink", function(path:String) {
                 Sys.println('detected unlink: $path');
                 entityIndex.entities.remove(path);
                 entityIndex.invalidate();
-                Sys.println('invalidated index');
             });
             app.post("/", post);
             app.listen(port, function() {
