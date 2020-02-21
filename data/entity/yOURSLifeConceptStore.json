@@ -1,19 +1,20 @@
 {
   "id": "yOURSLifeConceptStore",
   "name": {
-    "en": "yOURSFurniture"
+    "en": "yOURS Furniture"
   },
   "webpages": [
     {
-      "url": "http://www.yoursfurniture.com.hk"
+      "url": "https://www.yoursfurniture.com.hk"
     },
     {
       "meta": {
+        "name": "yOURSFurniture",
         "id": "310332752802465",
         "about": "It was founded with an ambition to source a collection of contemporary furniture created by talents all over the world. We hope to create a life concept. A life concept of YOURS.",
         "categories": [
           "Furniture",
-          "Furniture shop"
+          "Furniture Store"
         ],
         "email": "yoursfurniture@outlook.com",
         "tel": "57446905"
@@ -21,7 +22,26 @@
       "url": "https://www.facebook.com/yOURSLifeConceptStore/"
     },
     {
-      "url": "https://www.instagram.com/yOURSFurniture/"
+      "url": "https://www.facebook.com/311336092889868/",
+      "meta": {
+        "name": "yOURSFurniture (Shop 1009, Level, D-Park)",
+        "id": "311336092889868",
+        "about": "售賣現成傢俱及提供訂造傢俱服務, (包3D 效果圖),專業服務,信心保證",
+        "categories": [
+          "Furniture Store"
+        ],
+        "addr": "398 Castle Peak Raod., Tsuen Wan, N.T., 香港",
+        "area": "Hong Kong",
+        "email": "info@yoursfurniture.com.hk",
+        "tel": "57446905"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/yours_life_concept_store/",
+      "meta": {
+        "name": "yOURS Life Concept Store",
+        "about": "Facebook: yOURSFurniture\n📧 : info@yoursfurniture.com.hk\n📞 : 5744 6905"
+      }
     }
   ],
   "posts": [
@@ -36,6 +56,7 @@
     }
   ],
   "tags": [
-    "shop"
+    "interior",
+    "woodworking"
   ]
 }
