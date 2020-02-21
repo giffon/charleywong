@@ -1,5 +1,6 @@
 package charleywong;
 
+import sys.io.File;
 import js.html.URL;
 import haxe.*;
 import charleywong.views.*;
@@ -367,15 +368,33 @@ class ServerMain {
             });
             watcher.on("add", function(path:String) {
                 Sys.println('detected add: $path');
+                entityIndex.entities[path] = try {
+                    Json.parse(File.getContent(path));
+                } catch (e:Dynamic) {
+                    trace(e);
+                    return;
+                }
+                entityIndex.invalidate();
+                Sys.println('invalidated index');
                 updateEntityIndex();
             });
             watcher.on("change", function(path:String) {
                 Sys.println('detected change: $path');
-                updateEntityIndex();
+                var content = File.getContent(path);
+                entityIndex.entities[path] = try {
+                    Json.parse(File.getContent(path));
+                } catch (e:Dynamic) {
+                    trace(e);
+                    return;
+                }
+                entityIndex.invalidate();
+                Sys.println('invalidated index');
             });
             watcher.on("unlink", function(path:String) {
                 Sys.println('detected unlink: $path');
-                updateEntityIndex();
+                entityIndex.entities.remove(path);
+                entityIndex.invalidate();
+                Sys.println('invalidated index');
             });
             app.post("/", post);
             app.listen(port, function() {

@@ -17,6 +17,15 @@ class EntityIndex {
         this.entities = entities;
     }
 
+    public function invalidate():Void {
+        entitiesOfUrl = null;
+        entitiesOfFbPage = null;
+        entitiesOfId = null;
+        #if js
+        flexsearch = null;
+        #end
+    }
+
     static public function loadFromDirectory(path:String):EntityIndex {
         var entities = new Map();
         for (item in FileSystem.readDirectory(path)) {
