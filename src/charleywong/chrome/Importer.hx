@@ -292,6 +292,13 @@ class Importer {
                     }
             }
         ];
+
+        // ignore duplicated
+        igs = [
+            for (ig in igs)
+            ig => ig
+        ].array();
+
         switch (igs) {
             case []:
                 // pass
