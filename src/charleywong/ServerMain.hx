@@ -306,14 +306,6 @@ class ServerMain {
                 webpage.meta = meta;
         }
 
-        if (fbPage.ig != null) {
-            var igUrl = 'https://www.instagram.com/${fbPage.ig}/';
-            if (!webpages.exists(p -> p.url == igUrl))
-                webpages.push({
-                    url: igUrl,
-                });
-        }
-
         for (p in entity.webpages) {
             var url = p.url;
             Utils.isUrlAccessible(url).catchError(function(err) {

@@ -110,7 +110,6 @@ class Importer {
             about: fbAbout(),
             addr: fbAddr(),
             email: fbContactEmail(),
-            ig: fbInstagram(),
             websites: fbWebsites(),
             tel: fbTel(),
             categories: fbCategories(),
@@ -218,11 +217,21 @@ class Importer {
     }
 
     static function fbWebsites() {
-        var links = document.getElementsByXPath("//*[@role='main']//a[@rel='noopener nofollow']//*[starts-with(text(),'http')]//ancestor::a");
-        return if (links.length == 0)
-            null;
-        else
-            links.map(link -> link.innerText);
+        var igHandles = fbInstagram();
+        var linkNodes = document.getElementsByXPath("//*[@role='main']//a[@rel='noopener nofollow']//*[starts-with(text(),'http')]//ancestor::a");
+        var links = linkNodes
+            .map(link -> link.innerText)
+            .map(link -> switch(extractIgProfilePage(new URL(link))) {
+                case null: link;
+                case ig: 'https://www.instagram.com/$ig/';
+            })
+            .concat(igHandles.map(ig -> 'https://www.instagram.com/$ig/'));
+        
+        // remove duplicated
+        return [
+            for (link in links)
+            link => link
+        ].array();
     }
 
     static function fbTel():Null<String> {
@@ -262,13 +271,8 @@ class Importer {
             ig => ig
         ].array();
 
-        switch (igHandles) {
-            case []:
-                // pass
-            case [handle]:
-                return handle;
-            case nodes:
-                throw 'There are ${nodes.length} instagram links.';
+        if (igHandles.length > 0) {
+            return igHandles;
         }
 
         // Somehow FB uses a tracking link before the link is hovered by a cursor...
@@ -294,21 +298,10 @@ class Importer {
         ];
 
         // ignore duplicated
-        igs = [
+        return igs = [
             for (ig in igs)
             ig => ig
         ].array();
-
-        switch (igs) {
-            case []:
-                // pass
-            case [ig]:
-                return ig;
-            case _:
-                throw 'There are multiple Instagram handles: ${igs.join(",")}.';
-        }
-
-        return null;
     }
 
     static function igName() {

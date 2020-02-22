@@ -11,7 +11,6 @@ typedef FacebookProfile = {
         area:String,
     }>,
     email:Null<String>,
-    ig:Null<String>,
     websites:Array<String>,
     tel:Null<String>,
     categories:Array<String>,
