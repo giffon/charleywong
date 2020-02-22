@@ -119,6 +119,14 @@ class Tag {
         inherits: ["shop"]
     }
 
+    static public final eyewear:TagData = {
+        name: {
+            en: "eyewear",
+            zh: "眼鏡",
+        },
+        inherits: ["shop"]
+    }
+
     static public final animal:TagData = {
         name: {
             en: "animal",
