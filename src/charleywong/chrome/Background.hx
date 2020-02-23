@@ -162,12 +162,12 @@ class Background {
             });
             ContextMenus.create({
                 id: MenuImportPage,
-                title: "輸入本網頁到 Charley Wong 和你查",
+                title: "輸入此網頁到 Charley Wong 和你查",
                 contexts: ["page", "page_action"]
             });
             ContextMenus.create({
                 id: MenuImportLink,
-                title: "輸入連結到 Charley Wong 和你查",
+                title: "輸入此連結到 Charley Wong 和你查",
                 contexts: ["link"]
             });
             ContextMenus.create({
