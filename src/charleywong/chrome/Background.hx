@@ -11,6 +11,7 @@ import chrome.*;
 using Lambda;
 
 enum abstract MenuId(String) to String {
+    var MenuOpenWebsite;
     var MenuImport;
     var MenuScrollToJune;
 }
@@ -94,6 +95,13 @@ class Background {
         ?tab:Tab
     ):Void {
         switch (info.menuItemId) {
+            case MenuOpenWebsite:
+                Settings.getSettings().then(function(settings) {
+                    Tabs.create({
+                        url: settings.serverEndpoint,
+                    });
+                });
+                return;
             case MenuImport:
                 if (info.linkUrl != null) {
                     Tabs.sendMessage(tab.id, Serializer.run(Message.MsgImportToCharley(info.linkUrl)));
@@ -112,8 +120,8 @@ class Background {
                 Tabs.sendMessage(tab.id, Serializer.run(Message.MsgScrollToJune));
                 return;
             case _:
+                throw 'Cannot handle $info';
         }
-        throw 'Cannot handle $info';
     }
 
     static function main():Void {
@@ -121,6 +129,11 @@ class Background {
         Storage.onChanged.addListener(onStorageChanged);
         ContextMenus.onClicked.addListener(onContextMenusClicked);
         Runtime.onInstalled.addListener(function(evt) {
+            ContextMenus.create({
+                id: MenuOpenWebsite,
+                title: "打開 Charley Wong 和你查",
+                contexts: ["page_action"]
+            });
             ContextMenus.create({
                 id: MenuImport,
                 title: "輸入到 Charley Wong 和你查",
