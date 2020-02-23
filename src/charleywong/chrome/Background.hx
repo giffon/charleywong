@@ -12,6 +12,7 @@ using Lambda;
 
 enum abstract MenuId(String) to String {
     var MenuOpenWebsite;
+    var MenuUpdateEntityIndex;
     var MenuImport;
     var MenuScrollToJune;
 }
@@ -19,8 +20,28 @@ enum abstract MenuId(String) to String {
 class Background {
     static var entityIndex:Promise<EntityIndex> = fetchEntityIndex();
 
-    static function updateEntityIndex():Void {
+    static function updateEntityIndex(showNotification:Bool):Promise<EntityIndex> {
         entityIndex = fetchEntityIndex();
+        if (showNotification) {
+            entityIndex
+                .then(function(index:EntityIndex) {
+                    Notifications.create({
+                        type: "basic",
+                        iconUrl: "apple-icon.png",
+                        title: "Charley Wong 和你查 完成資料更新",
+                        message: '小幫手現有 ${index.entities.count()} 項資料',
+                    });
+                })
+                .catchError(function (err) {
+                    Notifications.create({
+                        type: "basic",
+                        iconUrl: "apple-icon.png",
+                        title: "Charley Wong 和你查 資料更新失敗",
+                        message: err,
+                    });
+                });
+        }
+        return entityIndex;
     }
 
     static function fetchEntityIndex():Promise<EntityIndex> return new Promise(function(resolve, reject) {
@@ -52,7 +73,7 @@ class Background {
                 });
                 return true;
             case MsgUpdateEntityIndex:
-                updateEntityIndex();
+                updateEntityIndex(true);
                 sendResponse(null);
                 return false;
             case _:
@@ -64,7 +85,7 @@ class Background {
         for (key => change in changes) {
             switch (key) {
                 case "serverEndpoint":
-                    updateEntityIndex();
+                    updateEntityIndex(true);
                 case _:
                     // pass
             }
@@ -73,7 +94,7 @@ class Background {
 
     static final updateEntitiesTimer = {
         var t = new haxe.Timer(6 * 60 * 60 * 1000); // 6 hours
-        t.run = updateEntityIndex;
+        t.run = function() updateEntityIndex(true);
         t;
     }
 
@@ -101,7 +122,8 @@ class Background {
                         url: settings.serverEndpoint,
                     });
                 });
-                return;
+            case MenuUpdateEntityIndex:
+                updateEntityIndex(true);
             case MenuImport:
                 if (info.linkUrl != null) {
                     Tabs.sendMessage(tab.id, Serializer.run(Message.MsgImportToCharley(info.linkUrl)));
@@ -115,10 +137,8 @@ class Background {
                         'https://www.facebook.com/$handle/';
                 }
                 Tabs.sendMessage(tab.id, Serializer.run(Message.MsgImportToCharley(url)));
-                return;
             case MenuScrollToJune:
                 Tabs.sendMessage(tab.id, Serializer.run(Message.MsgScrollToJune));
-                return;
             case _:
                 throw 'Cannot handle $info';
         }
@@ -132,6 +152,11 @@ class Background {
             ContextMenus.create({
                 id: MenuOpenWebsite,
                 title: "打開 Charley Wong 和你查",
+                contexts: ["page_action"]
+            });
+            ContextMenus.create({
+                id: MenuUpdateEntityIndex,
+                title: "更新資料",
                 contexts: ["page_action"]
             });
             ContextMenus.create({
