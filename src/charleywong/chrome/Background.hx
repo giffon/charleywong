@@ -13,7 +13,8 @@ using Lambda;
 enum abstract MenuId(String) to String {
     var MenuOpenWebsite;
     var MenuUpdateEntityIndex;
-    var MenuImport;
+    var MenuImportPage;
+    var MenuImportLink;
     var MenuScrollToJune;
 }
 
@@ -124,7 +125,7 @@ class Background {
                 });
             case MenuUpdateEntityIndex:
                 updateEntityIndex(true);
-            case MenuImport:
+            case MenuImportPage | MenuImportLink:
                 if (info.linkUrl != null) {
                     Tabs.sendMessage(tab.id, Serializer.run(Message.MsgImportToCharley(info.linkUrl)));
                     return;
@@ -160,9 +161,14 @@ class Background {
                 contexts: ["page_action"]
             });
             ContextMenus.create({
-                id: MenuImport,
-                title: "輸入到 Charley Wong 和你查",
-                contexts: ["link", "page_action"]
+                id: MenuImportPage,
+                title: "輸入本網頁到 Charley Wong 和你查",
+                contexts: ["page", "page_action"]
+            });
+            ContextMenus.create({
+                id: MenuImportLink,
+                title: "輸入連結到 Charley Wong 和你查",
+                contexts: ["link"]
             });
             ContextMenus.create({
                 id: MenuScrollToJune,
