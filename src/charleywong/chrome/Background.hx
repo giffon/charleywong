@@ -72,8 +72,8 @@ class Background {
                     }
                 });
                 return true;
-            case MsgUpdateEntityIndex:
-                updateEntityIndex(true);
+            case MsgUpdateEntityIndex(showNotification):
+                updateEntityIndex(showNotification);
                 sendResponse(null);
                 return false;
             case _:

@@ -142,7 +142,7 @@ class Importer {
         })
             .then(function(r) {
                 if (r.status == 200) {
-                    Runtime.sendMessage(Serializer.run(Message.MsgUpdateEntityIndex), function(_) {});
+                    Runtime.sendMessage(Serializer.run(Message.MsgUpdateEntityIndex(false)), function(_) {});
                 } else {
                     r.text().then(alert);
                 }

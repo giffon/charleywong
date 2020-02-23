@@ -4,5 +4,5 @@ enum Message {
     MsgGetEntityFromFb(fb:String);
     MsgImportToCharley(linkUrl:String);
     MsgScrollToJune;
-    MsgUpdateEntityIndex;
+    MsgUpdateEntityIndex(showNotification:Bool);
 }
