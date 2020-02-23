@@ -144,6 +144,42 @@ footer {
     background: #ff8318;
 }
 
+.tags li {
+    list-style: none;
+    display: inline-block;
+  }
+
+  .tags li a {
+    color: inherit;
+    background: #fee130;
+    border-radius: 12px;
+    padding: 2px 5px;
+    margin: 0 2px;
+    transition: background 0.15s linear;
+  }
+
+  .tags li a:hover {
+    text-decoration: none;
+    background: #ff5200;
+  }
+
+  .container-tags {
+    line-height: 2rem;
+    animation:taags 1s ease forwards;
+    -moz-animation:taags 1s ease forwards;
+    -webkit-animation:taags 1s ease forwards;
+  }
+  @keyframes taags {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translate(0, 10px);
+      transform: translate(0, 10px);
+    } 
+  }
+
 /* general styling class */
 .rounded-10 {
     border-radius: 10px;

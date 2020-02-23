@@ -18,6 +18,12 @@ class Index extends View {
     override function bodyContent() {
         return jsx('
             <Fragment>
+                <div className="p-3 text-center color_black_o60 container-tags">
+                    <span className="d-block d-md-inline">今期流行</span>
+                    <ul className="tags d-inline">
+                        <li><a href="search/Alcoholic%20drinks%20shop">2支thanks</a></li>
+                    </ul>
+                </div>
                 <div className="mt-5 container">
                     <div className="row justify-content-center">
                         <div className="col-12 col-md-10 col-lg-4 text-center">
