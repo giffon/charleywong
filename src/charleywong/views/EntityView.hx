@@ -1,6 +1,8 @@
 package charleywong.views;
 
+import js.html.URL;
 import charleywong.Utils.prettyUrl;
+import charleywong.UrlExtractors.*;
 
 class EntityView extends View {
     override public function title() return '${renderName(entity.name)}';
@@ -43,28 +45,40 @@ class EntityView extends View {
     }
 
     function renderWebpage(p:charleywong.Entity.WebPage) {
-        var linktext = if (p.name != null)
-            '${p.name} ${prettyUrl(p.url)}';
-        else
-            prettyUrl(p.url);
-
-        var item = if (p.url.startsWith("https://www.facebook.com/")) {
-            jsx('
-                <Fragment>
-                    <a href=${p.url}>${linktext}</a>
-                    <div
-                        className="fb-like ml-1 align-text-bottom"
-                        data-href=${p.url}
-                        data-width=""
-                        data-layout="button_count"
-                        data-action="like"
-                        data-size="small"
-                        data-share="false">
-                    </div>
-                </Fragment>
-            ');
-        } else {
-            jsx('<a href=${p.url}>${linktext}</a>');
+        var item = switch (new URL(p.url)) {
+            case extractFbHomePage(_) => fb if (fb != null):
+                var linktext = if (p.meta != null) switch (p.meta["name"]) {
+                    case null: fb;
+                    case name: name;
+                } else {
+                    fb;
+                }
+                jsx('
+                    <Fragment>
+                        <a href=${p.url}><i className="fab fa-facebook"></i> ${linktext}</a>
+                        <div
+                            className="fb-like ml-1 align-text-bottom"
+                            data-href=${p.url}
+                            data-width=""
+                            data-layout="button_count"
+                            data-action="like"
+                            data-size="small"
+                            data-share="false">
+                        </div>
+                    </Fragment>
+                ');
+            case extractIgProfilePage(_) => ig if (ig != null):
+                jsx('
+                    <Fragment>
+                        <a href=${p.url}><i className="fab fa-instagram"></i> ${ig}</a>
+                    </Fragment>
+                ');
+            case _:
+                var linktext = if (p.name != null)
+                    '${p.name} ${prettyUrl(p.url)}';
+                else
+                    prettyUrl(p.url);
+                jsx('<a href=${p.url}>${linktext}</a>');
         }
 
         return jsx('
