@@ -246,7 +246,7 @@ class Importer {
                 throw 'There are ${n} "Call *".';
         }
         var callString:String = callNodes[0].innerText;
-        var regex = ~/Call ([0-9 ]+)/;
+        var regex = ~/^Call ([0-9 \-]+)$/;
         return if (regex.match(callString)) {
             ~/[^0-9]/g.replace(regex.matched(1), "");
         } else {
