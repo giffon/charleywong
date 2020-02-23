@@ -5,7 +5,8 @@ import chrome.*;
 
 class Settings {
     static public final defaultSettings:SettingsData = {
-        serverEndpoint: "https://charleywong.giffon.io"
+        serverEndpoint: "https://charleywong.giffon.io",
+        dataEntryMode: false,
     };
 
     static public function getSettings():Promise<SettingsData> {

@@ -8,6 +8,9 @@ extern class Radio extends ReactComponent {}
 @:jsRequire("@material-ui/core/RadioGroup", "default")
 extern class RadioGroup extends ReactComponent {}
 
+@:jsRequire("@material-ui/core/FormGroup", "default")
+extern class FormGroup extends ReactComponent {}
+
 @:jsRequire("@material-ui/core/FormControlLabel", "default")
 extern class FormControlLabel extends ReactComponent {}
 
@@ -28,6 +31,9 @@ extern class TextField extends ReactComponent {}
 
 @:jsRequire("@material-ui/core/Button", "default")
 extern class Button extends ReactComponent {}
+
+@:jsRequire("@material-ui/core/Switch", "default")
+extern class Switch extends ReactComponent {}
 
 @:jsRequire("@material-ui/core/styles")
 extern class Styles {
