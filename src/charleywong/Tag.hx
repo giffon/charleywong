@@ -236,6 +236,14 @@ class Tag {
         inherits: ["sport"]
     };
 
+    static public final instantChickenBreast:TagData = {
+        name: {
+            en: "instant chicken breast",
+            zh: "即食雞胸"
+        },
+        inherits: ["food"]
+    }
+
     static public final music:TagData = {
         name: {
             en: "music",
