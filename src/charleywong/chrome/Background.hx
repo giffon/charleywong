@@ -87,6 +87,10 @@ class Background {
             switch (key) {
                 case "serverEndpoint":
                     updateEntityIndex(true);
+                case "dataEntryMode":
+                    ContextMenus.removeAll(function() {
+                        addMenus(change.newValue);
+                    });
                 case _:
                     // pass
             }
@@ -145,21 +149,19 @@ class Background {
         }
     }
 
-    static function main():Void {
-        Runtime.onMessage.addListener(onMessage);
-        Storage.onChanged.addListener(onStorageChanged);
-        ContextMenus.onClicked.addListener(onContextMenusClicked);
-        Runtime.onInstalled.addListener(function(evt) {
-            ContextMenus.create({
-                id: MenuOpenWebsite,
-                title: "打開 Charley Wong 和你查",
-                contexts: ["page_action"]
-            });
-            ContextMenus.create({
-                id: MenuUpdateEntityIndex,
-                title: "更新資料",
-                contexts: ["page_action"]
-            });
+    static function addMenus(dataEntryMode:Bool):Void {
+        ContextMenus.create({
+            id: MenuOpenWebsite,
+            title: "打開 Charley Wong 和你查",
+            contexts: ["page_action"]
+        });
+        ContextMenus.create({
+            id: MenuUpdateEntityIndex,
+            title: "更新資料",
+            contexts: ["page_action"]
+        });
+
+        if (dataEntryMode) {
             ContextMenus.create({
                 id: MenuImportPage,
                 title: "輸入此網頁到 Charley Wong 和你查",
@@ -170,11 +172,23 @@ class Background {
                 title: "輸入此連結到 Charley Wong 和你查",
                 contexts: ["link"]
             });
-            ContextMenus.create({
-                id: MenuScrollToJune,
-                title: "回溯到2019年6月頭",
-                documentUrlPatterns: ["https://www.facebook.com/pg/*/posts/*"],
-                contexts: ["page"]
+        }
+
+        ContextMenus.create({
+            id: MenuScrollToJune,
+            title: "回溯到2019年6月頭",
+            documentUrlPatterns: ["https://www.facebook.com/pg/*/posts/*"],
+            contexts: ["page"]
+        });
+    }
+
+    static function main():Void {
+        Runtime.onMessage.addListener(onMessage);
+        Storage.onChanged.addListener(onStorageChanged);
+        ContextMenus.onClicked.addListener(onContextMenusClicked);
+        Runtime.onInstalled.addListener(function(evt) {
+            Settings.getSettings().then(function(settings) {
+                addMenus(settings.dataEntryMode);
             });
         });
     }
