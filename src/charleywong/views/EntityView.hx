@@ -5,23 +5,14 @@ import charleywong.Utils.prettyUrl;
 import charleywong.UrlExtractors.*;
 
 class EntityView extends View {
-    override public function title() return '${renderName(entity.name)}';
-    override public function description() return 'Charley Wong 和你查 ${renderName(entity.name)}.';
+    override public function title() return '${entity.name.printAll()}';
+    override public function description() return 'Charley Wong 和你查 ${entity.name.printAll()}.';
     override public function render() {
         return super.render();
     }
 
     public var entity(get, never):Entity;
     function get_entity() return props.entity;
-
-    function renderName(n:MultiLangString) {
-        return switch [n[zh], n[en]] {
-            case [ null, null ]: throw 'No name available';
-            case [ z, null ]: z;
-            case [ null, e ]: e;
-            case [ z, e ]: '${e} ${z}';
-        }
-    }
 
     function isFbPostEmbeddable(post:Post):Bool {
         if (post.meta == null)
@@ -149,16 +140,21 @@ class EntityView extends View {
 
     override function bodyContent() {
         var jsonHref = '${entity.id}.json';
+        var picUrl = '/${entity.id}/profile.png';
+        var logoHeaderStyle = {
+            backgroundImage: 'url(${R("/images/logo-c-t.png")})',
+        };
         return jsx('
             <Fragment>
                 <div className="container">
-                    <header className="p-3 p-md-4 text-center">
-                        <a href="/"><img className="w-25 logo-header" src=${R("/images/logo-c-t.png")} alt="Charley Wong 和你查"/></a>
+                    <header className="p-3 p-md-4">
+                        <a href="/" className="logo-header" style=${logoHeaderStyle}></a>
                     </header>
                     <div className="">
                         <div className="container-entity position-relative mx-auto px-3 py-4 rounded-10 bg-white container-btm">
                             <div className="mb-3 text-center">
-                                <h3>${renderName(entity.name)}</h3>
+                                <img className="profile-pic mb-2" src=${picUrl} alt=${entity.name.printAll()} />
+                                <h3>${entity.name.printAll()}</h3>
                                 <a className="btn btn-light" href=${jsonHref}>查看 JSON 格式 📃</a>
                             </div>
                             <div className="text-center mb-3">

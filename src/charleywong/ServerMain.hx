@@ -1,5 +1,8 @@
 package charleywong;
 
+import js.lib.Promise;
+import js.npm.jimp.Jimp;
+import js.node.Buffer;
 import sys.io.File;
 import js.html.URL;
 import haxe.*;
@@ -76,6 +79,49 @@ class ServerMain {
         res.sendView(EntityView, {
             entity: entity,
         });
+    }
+
+    static function getEntityPic(e:Entity, width:Float):Promise<String> {
+        for (p in e.webpages) {
+            switch (new URL(p.url)) {
+                case extractFbHomePage(_) => fb if (fb != null):
+                    return Promise.resolve('https://graph.facebook.com/v6.0/${fb}/picture?type=square&width=${width}&height=${width}');
+                case _: //pass
+            }
+        }
+        return Promise.resolve("static/images/user-solid.png");
+    }
+
+    static function entityProfilePic(req:Request, res:Response) {
+        var entityId:String = req.params.entityId;
+        var entity = entityIndex.entitiesOfId[entityId];
+        if (entity == null) {
+            res.status(404).send('Entity of id $entityId not found.');
+            return;
+        }
+
+        var w = 720;
+        var border = 42;
+        getEntityPic(entity, w)
+            .then(function(picUrl) {
+                var frame = "static/images/charley-wong-profile-cover.png";
+                return Promise.all([Jimp.read(picUrl), Jimp.read(frame)])
+                    .then(function(args) {
+                        var pic:Jimp = args[0];
+                        var frame:Jimp = args[1];
+                        return frame.clone()
+                            .composite(pic.resize(w - border * 2, w - border * 2), border, border)
+                            .composite(frame, 0, 0)
+                            .getBufferAsync(Jimp.MIME_PNG);
+                    });
+            })
+            .then(function(buf) {
+                res.write(buf);
+                res.end();
+            })
+            .catchError(function (err) {
+                res.status(500).send(err);
+            });
     }
 
     static function searchJson(req:Request, res:Response) {
@@ -340,6 +386,7 @@ class ServerMain {
         app.get("/list/all", all);
         app.get("/flexsearch.json", flexsearchJson);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+).json", entityJson);
+        app.get("/:entityId([A-Za-z0-9\\-_\\.]+)/profile.png", entityProfilePic);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+)", entity);
         app.get("/search/:query.json", searchJson);
         app.get("/search/:query", search);

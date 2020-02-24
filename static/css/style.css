@@ -8,10 +8,6 @@ body {
     background: #f4a948;
 }
 
-.logo-header {
-    min-width: 150px;
-}
-
 form {
     margin: 0;
 }
@@ -22,6 +18,28 @@ form {
 
 .instagram-media {
     width: 100%;
+}
+
+.logo-header {
+    display: block;
+    width: 25%;
+    min-width: 150px;
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.logo-header:before{
+    content: "";
+    display: block;
+    padding-top: 75%;  /* initial ratio of 1:1*/
+}
+
+.profile-pic {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
 }
 
 .post-link {

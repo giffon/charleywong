@@ -19,17 +19,8 @@ class EntityListView extends View {
     public var searchQuery(get, never):Null<String>;
     function get_searchQuery() return props.searchQuery;
 
-    function renderName(n:MultiLangString) {
-        return switch [n[zh], n[en]] {
-            case [ null, null ]: throw 'No name available';
-            case [ z, null ]: z;
-            case [ null, e ]: e;
-            case [ z, e ]: '${e} ${z}';
-        }
-    }
-
     function renderEntity(e:Entity) return jsx('
-        <li key=${e.id}><a href=${'/${e.id}'}>${renderName(e.name)}</a></li>
+        <li key=${e.id}><a href=${'/${e.id}'}>${e.name.printAll()}</a></li>
     ');
 
     function renderListName() return jsx('
@@ -38,11 +29,14 @@ class EntityListView extends View {
 
     override function bodyContent() {
         var jsonHref = '${slug}.json';
+        var logoHeaderStyle = {
+            backgroundImage: 'url(${R("/images/logo-c-t.png")})',
+        };
         return jsx('
             <Fragment>
                 <div className="container">
-                    <header className="p-3 p-md-4 text-center">
-                        <a href="/"><img className="w-25 logo-header" src=${R("/images/logo-c-t.png")} alt="Charley Wong 和你查"/></a>
+                    <header className="p-3 p-md-4">
+                        <a href="/" className="logo-header" style=${logoHeaderStyle}></a>
                     </header>
                     <div className="col-12 col-md-8 mx-auto bg-white py-3 rounded-10 container-btm">
                         <div className="pb-3">
