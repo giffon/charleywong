@@ -116,6 +116,7 @@ class ServerMain {
                     });
             })
             .then(function(buf) {
+                res.setHeader("Content-Type", Jimp.MIME_PNG);
                 res.write(buf);
                 res.end();
             })
