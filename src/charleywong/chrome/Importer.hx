@@ -235,7 +235,7 @@ class Importer {
     }
 
     static function fbTel():Null<String> {
-        var callNodes = document.getElementsByXPath("//*[starts-with(text(),'Call ')][text()!='Call Now']");
+        var callNodes = document.getElementsByXPath("//*[@role='main']//*[starts-with(text(),'Call ')][text()!='Call Now']");
 
         switch (callNodes.length) {
             case 0:
