@@ -6,11 +6,12 @@
   "webpages": [
     {
       "meta": {
+        "name": "Plato Cafe & Bistro",
         "id": "1769645643316467",
         "about": "分店\nhttps://www.facebook.com/plato.yaumatei/",
         "categories": [
-          "Coffee shop",
-          "Restaurant"
+          "Restaurant",
+          "Coffee Shop"
         ],
         "addr": "油麻地彌敦道483-485A號2樓",
         "area": "Hong Kong",
@@ -21,26 +22,30 @@
     },
     {
       "meta": {
+        "name": "Plato Cafe Bistro Woosung Street",
         "id": "535061220224752",
         "about": "Plato Cafe Bistro乃追求用心製作好食品、咖啡及飲品給每一位客人，餐廳主要提供意式食品如Pasta、Pizza及Risotto，還有其他如優質美國安格斯肉眼牛排、羊排、法國春雞等美食。",
         "categories": [
+          "Coffee Shop",
           "Restaurant"
         ],
         "addr": "九龍佐敦吳松街186號至188號地下",
-        "area": "Hong Kong"
+        "area": "Hong Kong",
+        "tel": "97875930"
       },
       "url": "https://www.facebook.com/plato.woosung/"
     },
     {
       "meta": {
+        "name": "Plato",
         "id": "505136319562074",
         "about": "油麻地彌敦道448-452A號眾坊街文豪閣地下D舖 (中華書局旁)\nShop D, G/F Man Hoo Court, 448-452A Nathan Road, Yau Ma Tei, Yau Ma Tei, Hong Kong",
         "categories": [
-          "Continental restaurant",
-          "Coffee shop"
+          "Continental Restaurant",
+          "Coffee Shop"
         ],
-        "addr": "Yaumatei",
-        "area": "Hong Kong",
+        "addr": "Shop D, G/F Man Hoo Court, 448-452A Nathan Road, Yau Ma Tei",
+        "area": "Yau Ma Tei",
         "email": "plato_yaumatei@yahoo.com",
         "tel": "23888269"
       },
