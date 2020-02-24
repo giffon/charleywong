@@ -82,9 +82,9 @@ class Tag {
         }
     }
 
-    static public final lawer:TagData = {
+    static public final lawyer:TagData = {
         name: {
-            en: "lawer",
+            en: "lawyer",
             zh: "律師",
         }
     }
