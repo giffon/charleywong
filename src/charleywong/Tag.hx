@@ -333,6 +333,14 @@ class Tag {
         }
     }
 
+    static public final homeMover:TagData = {
+        name: {
+            en: "home mover",
+            zh: "搬屋",
+        },
+        inherits: ["transport"]
+    }
+
     static public final technology:TagData = {
         name: {
             en: "technology",

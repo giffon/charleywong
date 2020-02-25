@@ -6,15 +6,14 @@
   },
   "webpages": [
     {
-      "url": "https://api.whatsapp.com/send?phone=85293001402"
-    },
-    {
       "meta": {
+        "name": "也美搬屋 . Kizuna Moving",
         "id": "596531530689631",
         "categories": [
-          "Home removal company",
-          "Removals supply shop"
-        ]
+          "Home Mover",
+          "Moving Supply Store"
+        ],
+        "tel": "93001402"
       },
       "url": "https://www.facebook.com/596531530689631/"
     }
@@ -31,6 +30,7 @@
     }
   ],
   "tags": [
-    "transport"
+    "homeMover",
+    "shop"
   ]
 }
