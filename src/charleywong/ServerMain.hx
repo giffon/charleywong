@@ -1,5 +1,6 @@
 package charleywong;
 
+import js.npm.fetch.Fetch;
 import js.lib.Promise;
 import js.npm.jimp.Jimp;
 import js.node.Buffer;
@@ -81,15 +82,23 @@ class ServerMain {
         });
     }
 
-    static function getEntityPic(e:Entity, width:Float):Promise<String> {
+    static final noProfilePic = Promise.resolve(Buffer.from(File.getBytes("static/images/user-solid.png").getData()));
+
+    static function getEntityPic(e:Entity, width:Float):Promise<Buffer> {
         for (p in e.webpages) {
             switch (new URL(p.url)) {
                 case extractFbHomePage(_) => fb if (fb != null):
-                    return Promise.resolve('https://graph.facebook.com/v6.0/${fb}/picture?type=square&width=${width}&height=${width}');
+                    return Fetch.fetch('https://graph.facebook.com/v6.0/${fb}/picture?type=square&width=${width}&height=${width}')
+                        .then(r -> if (r.url.endsWith(".gif")) {
+                            noProfilePic;
+                        } else {
+                            r.buffer();
+                        })
+                        .catchError(err -> noProfilePic);
                 case _: //pass
             }
         }
-        return Promise.resolve("static/images/user-solid.png");
+        return noProfilePic;
     }
 
     static function entityProfilePic(req:Request, res:Response) {
