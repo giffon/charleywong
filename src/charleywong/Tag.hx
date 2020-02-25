@@ -425,6 +425,13 @@ class Tag {
         ]
     }
 
+    static public final furniture:TagData = {
+        name: {
+            en: "furniture",
+            zh: "傢俬",
+        }
+    }
+
     static public final interior:TagData = {
         name: {
             en: "interior design",
