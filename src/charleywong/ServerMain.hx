@@ -83,6 +83,25 @@ class ServerMain {
     }
 
     static final noProfilePic = Promise.resolve(Buffer.from(File.getBytes("static/images/user-solid.png").getData()));
+    static final font = Jimp.loadFont(Jimp.FONT_SANS_64_BLACK);
+
+    static function getPicOfText(text:String):Promise<Buffer> {
+        if (text == null || text.trim() == "") {
+            return Jimp.create(1, 1, "#FFFFFF").then(img -> img.getBufferAsync(Jimp.MIME_PNG));
+        }
+        return font.then(function(font) {
+            var tw = Jimp.measureText(font, text);
+            var th = Jimp.measureTextHeight(font, text);
+            var padding = 20;
+            var size = Std.int(Math.max(tw, th) + padding + padding);
+            return Jimp.create(size, size, "#FFFFFF")
+                .then(function(img) {
+                    return img
+                        .print(font, padding, size * 0.5 - th * 0.5, text)
+                        .getBufferAsync(Jimp.MIME_PNG);
+                });
+        });
+    }
 
     static function getEntityPic(e:Entity, width:Float):Promise<Buffer> {
         for (p in e.webpages) {
@@ -90,15 +109,18 @@ class ServerMain {
                 case extractFbHomePage(_) => fb if (fb != null):
                     return Fetch.fetch('https://graph.facebook.com/v6.0/${fb}/picture?type=square&width=${width}&height=${width}')
                         .then(r -> if (r.url.endsWith(".gif")) {
-                            noProfilePic;
+                            getPicOfText(e.name[en]);
                         } else {
                             r.buffer();
                         })
-                        .catchError(err -> noProfilePic);
+                        .catchError(err -> {
+                            trace(err);
+                            noProfilePic;
+                        });
                 case _: //pass
             }
         }
-        return noProfilePic;
+        return getPicOfText(e.name[en]);
     }
 
     static function entityProfilePic(req:Request, res:Response) {
@@ -112,9 +134,9 @@ class ServerMain {
         var w = 720;
         var border = 42;
         getEntityPic(entity, w)
-            .then(function(picUrl) {
+            .then(function(pic) {
                 var frame = "static/images/charley-wong-profile-cover.png";
-                return Promise.all([Jimp.read(picUrl), Jimp.read(frame)])
+                return Promise.all([Jimp.read(pic), Jimp.read(frame)])
                     .then(function(args) {
                         var pic:Jimp = args[0];
                         var frame:Jimp = args[1];
