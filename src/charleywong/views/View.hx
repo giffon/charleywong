@@ -41,7 +41,6 @@ class View extends ReactComponent {
     function depJs() return jsx('
         <Fragment>
             <script async=${true} defer=${true} crossOrigin="anonymous" src="https://connect.facebook.net/zh_HK/sdk.js#xfbml=1&version=v5.0&appId=628806881259482&autoLogAppEvents=1"></script>
-            <script async=${true} crossOrigin="anonymous" src="//www.instagram.com/embed.js"></script>
         </Fragment>
     ');
 
