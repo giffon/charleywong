@@ -304,9 +304,10 @@ class ServerMain {
 
         var webpages = entity.webpages;
         if (igInfo.website != null) {
-            if (!entity.webpages.exists(p -> p.url == igInfo.website))
+            var igWebsite = cleanUrl(igInfo.website);
+            if (!entity.webpages.exists(p -> p.url == igWebsite))
                 webpages.push({
-                    url: igInfo.website,
+                    url: igWebsite,
                 });
         }
         var meta:DynamicAccess<Dynamic> = {};
@@ -366,7 +367,7 @@ class ServerMain {
         }
         var webpages = entity.webpages;
         if (fbPage.websites != null) {
-            for (url in fbPage.websites)
+            for (url in fbPage.websites.map(cleanUrl))
             if (!webpages.exists(p -> p.url == url))
                 webpages.push({
                     url: url,
