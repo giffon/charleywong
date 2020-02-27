@@ -48,7 +48,7 @@ class UrlExtractors {
     }
 
     static public function extractFbHomePage(url:ParsedUrl) {
-        var regex = ~/^https?:\/\/(?:www\.)?facebook\.com$/i;
+        var regex = ~/^https?:\/\/(?:www\.|m\.)?facebook\.com$/i;
         if (regex.match(url.origin)) {
             var handle = switch(url.pathname.split("/")) {
                 case ["", handle]: handle;
@@ -56,10 +56,14 @@ class UrlExtractors {
                 case _: null;
             }
             return switch (handle) {
-                case "permalink.php" | null:
+                case null | "permalink.php":
                     null;
                 case _:
-                    handle;
+                    var fbIdRegexp = ~/^.+-([0-9]+)$/;
+                    if (fbIdRegexp.match(handle))
+                        fbIdRegexp.matched(1);
+                    else
+                        handle;
             }
         }
         return null;
@@ -83,7 +87,7 @@ class UrlExtractors {
     }
 
     static public function extractFbPost(url:ParsedUrl) {
-        var regex = ~/^https?:\/\/(?:www\.)?facebook\.com$/i;
+        var regex = ~/^https?:\/\/(?:www\.|m\.)?facebook\.com$/i;
         if (regex.match(url.origin)) {
             switch(url.pathname.split("/").slice(0, 3)) {
                 case ["", handle, "posts" | "photos" | "videos" | "notes"]:

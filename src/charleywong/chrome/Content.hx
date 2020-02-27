@@ -52,29 +52,25 @@ class Content {
                 case href: href.startsWith("#");
             })
             &&
-            !["See All", "See More", ""].has(link.text.trim())
-            &&
-            (
-                link.children.length == 0 || link.querySelector("h3") != null || link.querySelector("img") == null
-            )
+            !["See All", "See More", ""].has(link.innerText)
         ) {
-
-            var fbRegexp = ~/^https?:\/\/(?:www.|m.)?facebook.com\/([^\/\?#]+)/;
-            var homePathRegexp = ~/^\/([^\/]+)\/?$/;
-            var postPathRegexp = ~/^\/([^\/]+)\/(?:posts|photos|videos)\/?/;
-            if (fbRegexp.match(link.href) && (homePathRegexp.match(link.pathname) || postPathRegexp.match(link.pathname))) {
-                var fb = fbRegexp.matched(1);
-                var fbIdRegexp = ~/^.+-([0-9]+)$/;
-                if (fbIdRegexp.match(fb))
-                    fb = fbIdRegexp.matched(1);
-
+            var fb = switch (new URL(link.href)) {
+                case extractFbPost(_) => fb if (fb != null):
+                    fb;
+                case extractFbHomePage(_) => fb if (fb != null):
+                    fb;
+                case _:
+                    null;
+            }
+            if (fb != null) {
                 getEntityFromFb(fb).then(function(entity) {
                     if (entity != null) {
                         link.classList.add("charleywong-found");
                         link.dataset.charleywongEntityId = entity.id;
                         var href = Path.join([serverEndpoint, entity.id]);
                         var title = 'Charly Wong 和你查 "${entity.name.printAll()}"';
-                        link.innerHTML = link.innerHTML + '
+                        var textNode = getInnerSingleChild(link);
+                        textNode.innerHTML = textNode.innerHTML + '
                             <span href="${href}" target="_blank" class="charleywong-button" title="${title.htmlEscape(true)}"></span>
                         ';
 
@@ -84,6 +80,18 @@ class Content {
                 });
             }
 
+        }
+    }
+
+    static function getInnerSingleChild(e:Element):Element {
+        return switch ([
+            for (c in e.children)
+            if (c.innerText != "")
+            c
+        ]) {
+            case []: e;
+            case [c]: getInnerSingleChild(c);
+            case _: e;
         }
     }
 
