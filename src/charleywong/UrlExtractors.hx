@@ -83,7 +83,12 @@ class UrlExtractors {
     static public function extractFbAboutPage(url:ParsedUrl) {
         return if (url.origin == "https://www.facebook.com")
             switch(url.pathname.split("/")) {
-                case ["", "pg", handle, "about", ""]: handle;
+                case ["", "pg", handle, "about", ""]:
+                    var fbIdRegexp = ~/^.+-([0-9]+)$/;
+                    if (fbIdRegexp.match(handle))
+                        fbIdRegexp.matched(1);
+                    else
+                        handle;
                 case _: null;
             }
         else
