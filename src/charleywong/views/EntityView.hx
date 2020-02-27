@@ -64,6 +64,18 @@ class EntityView extends View {
                         <a href=${p.url}><i className="fab fa-instagram"></i> ${ig}</a>
                     </Fragment>
                 ');
+            case extractYouTubeProfile(_) => Id(yt) | Handle(yt):
+                jsx('
+                    <Fragment>
+                        <a href=${p.url}><i className="fab fa-youtube"></i> ${yt}</a>
+                    </Fragment>
+                ');
+            case extractTwitterProfile(_) => t if (t != null):
+                jsx('
+                    <Fragment>
+                        <a href=${p.url}><i className="fab fa-twitter"></i> ${t}</a>
+                    </Fragment>
+                ');
             case _:
                 var linktext = if (p.name != null)
                     '${p.name} ${prettyUrl(p.url)}';
