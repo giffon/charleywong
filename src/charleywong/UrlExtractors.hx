@@ -105,8 +105,8 @@ class UrlExtractors {
         var regex = ~/^https?:\/\/(?:www\.)?instagram\.com$/i;
         return if (regex.match(url.origin))
             switch(url.pathname.split("/")) {
-                case ["", handle]: handle;
-                case ["", handle, ""]: handle;
+                case ["", handle]: handle.toLowerCase();
+                case ["", handle, ""]: handle.toLowerCase();
                 case _: null;
             }
         else
