@@ -193,7 +193,7 @@ class ServerMain {
     }
 
     static function post(req:Request, res:Response) {
-        var url = new URL(req.body.url);
+        var url = new URL(cleanUrl(req.body.url));
         switch (extractFbPost(url)) {
             case null:
                 //pass
@@ -203,7 +203,7 @@ class ServerMain {
                         res.status(500).send('${handle} has not been imported yet.');
                         return;
                     case e:
-                        var postUrl:String = req.body.url;
+                        var postUrl = Std.string(url);
                         switch (e.posts.find(p -> p.url == postUrl)) {
                             case null:
                                 e.posts.push({
@@ -245,7 +245,7 @@ class ServerMain {
                         res.status(500).send('${handle} has not been imported yet.');
                         return;
                     case e:
-                        var postUrl:String = req.body.url;
+                        var postUrl = Std.string(url);
                         if (e.posts.exists(p -> p.url == postUrl)) {
                             res.status(500).send('${postUrl} already exists.');
                             return;

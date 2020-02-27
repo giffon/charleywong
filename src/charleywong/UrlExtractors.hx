@@ -1,5 +1,7 @@
 package charleywong;
 
+import haxe.io.Path;
+import js.html.URL;
 using StringTools;
 
 typedef ParsedUrl = {
@@ -9,6 +11,32 @@ typedef ParsedUrl = {
 }
 
 class UrlExtractors {
+    static public function cleanUrl(url:String) {
+        var pUrl = new URL(url);
+        return switch (pUrl) {
+            case extractFbPost(_) => fb if (fb != null):
+                if (pUrl.pathname == "/permalink.php") {
+                    var params = parseSearch(pUrl.search);
+                    'https://www.facebook.com/permalink.php?story_fbid=${params["story_fbid"]}&id=${params["id"]}';
+                } else {
+                    Path.removeTrailingSlashes('https://www.facebook.com' + pUrl.pathname);
+                }
+            case extractIgPost(_) => post if (post != null):
+                'https://www.instagram.com/p/$post/';
+            case extractFbHomePage(_) => fb if (fb != null):
+                'https://www.facebook.com/$fb/';
+            case extractIgProfilePage(_) => ig if (ig != null):
+                'https://www.instagram.com/$ig/';
+            case {
+                pathname: "" | "/",
+                search: ""
+            }:
+                pUrl.origin;
+            case _:
+                url;
+        }
+    }
+
     static public function extractFbAboutPage(url:ParsedUrl) {
         return if (url.origin == "https://www.facebook.com")
             switch(url.pathname.split("/")) {
