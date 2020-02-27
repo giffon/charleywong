@@ -10,6 +10,11 @@ typedef ParsedUrl = {
     var search:String;
 }
 
+enum Ident {
+    Id(v:String);
+    Handle(v:String);
+}
+
 class UrlExtractors {
     static public function cleanUrl(url:String) {
         var pUrl = new URL(url);
@@ -27,6 +32,12 @@ class UrlExtractors {
                 'https://www.facebook.com/$fb/';
             case extractIgProfilePage(_) => ig if (ig != null):
                 'https://www.instagram.com/$ig/';
+            case extractYouTubeProfile(_) => Id(id):
+                'https://www.youtube.com/channel/$id';
+            case extractYouTubeProfile(_) => Handle(handle):
+                'https://www.youtube.com/$handle';
+            case extractTwitterProfile(_) => t if (t != null):
+                'https://twitter.com/$t';
             case {
                 pathname: "" | "/",
                 search: ""
@@ -35,6 +46,38 @@ class UrlExtractors {
             case _:
                 url;
         }
+    }
+
+    static public function extractYouTubeProfile(url:ParsedUrl):Null<Ident> {
+        // https://support.google.com/youtube/answer/6180214
+        var regex = ~/^https?:\/\/(?:www\.)?youtube\.com$/i;
+        return if (regex.match(url.origin))
+            switch(url.pathname.split("/")) {
+                case ["", handle]: Handle(handle.toLowerCase());
+                case ["", handle, ""]: Handle(handle.toLowerCase());
+                case ["", "c" | "user", handle]: Handle(handle.toLowerCase());
+                case ["", "channel", id]: Id(id);
+                case _: null;
+            }
+        else
+            null;
+    }
+
+    static public function extractTwitterProfile(url:ParsedUrl):Null<String> {
+        var regex = ~/^https?:\/\/(?:www\.)?twitter\.com$/i;
+        var handle =  if (regex.match(url.origin))
+            switch(url.pathname.split("/")) {
+                case ["", handle]: handle;
+                case ["", handle, ""]: handle;
+                case _: return null;
+            }
+        else
+            return null;
+
+        if (handle.startsWith("@")) {
+            handle = handle.substr(1);
+        }
+        return handle.toLowerCase();
     }
 
     static public function extractFbAboutPage(url:ParsedUrl) {
