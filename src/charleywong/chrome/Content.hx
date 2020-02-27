@@ -158,6 +158,7 @@ class Content {
         var june = Date.fromString("2019-06-01");
         var posts = [
             for (node in document.querySelectorAll("#pagelet_timeline_main_column .userContentWrapper"))
+            if (!(cast node:Element).matches(".userContentWrapper .userContentWrapper")) // ignore nested posts, e.g. the shared "memory" post
             if ((cast node:Element).querySelector("*[data-tooltip-content='Pinned Post']") == null) // ignore pinned posts
             node
         ];
