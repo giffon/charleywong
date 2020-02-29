@@ -2,6 +2,8 @@
 
 A Yellow Economic Circle business/brand database released with [open source / open data licenses](LICENSE).
 
+[charleywong.giffon.io](https://charleywong.giffon.io/) is a simple read-only web interface of the database. It also serves as an API endpoint (CORS enabled, no authentication needed). Check the "JSON" links in the entity pages, search result pages, and the [list all](https://charleywong.giffon.io/list/all) page.
+
 ## Technical overview
 
 Data is stored as JSON files in the [data](data) directory.
