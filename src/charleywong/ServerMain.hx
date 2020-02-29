@@ -60,6 +60,22 @@ class ServerMain {
         res.json([for (e in entityIndex.entities) e]);
     }
 
+    static function listEntities(req:Request, res:Response) {
+        var name:String = req.params.name;
+        var ids:String = req.params.entityIds;
+        res.sendView(EntityListView, {
+            slug: ids,
+            listName: name,
+            entities: ids.split("+").map(id -> entityIndex.entitiesOfId[id]),
+        });
+    }
+
+    static function listEntitiesJson(req:Request, res:Response) {
+        var name:String = req.params.name;
+        var ids = (req.params.entityIds:String).split("+");
+        res.json(ids.map(id -> entityIndex.entitiesOfId[id]));
+    }
+
     static function entityJson(req:Request, res:Response) {
         var entityId:String = req.params.entityId;
         var entity = entityIndex.entitiesOfId[entityId];
@@ -417,6 +433,8 @@ class ServerMain {
         app.get("/", index);
         app.get("/list/all.json", allJson);
         app.get("/list/all", all);
+        app.get("/list/:name/:entityIds.json", listEntitiesJson);
+        app.get("/list/:name/:entityIds", listEntities);
         app.get("/flexsearch.json", flexsearchJson);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+).json", entityJson);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+)/profile.png", entityProfilePic);
