@@ -1,4 +1,6 @@
-# Charley Wong 和你查
+<p align="center">
+<img src="static/images/logo-c-t.png" width="250" alt="Charley Wong 和你查" />
+</p>
 
 A Yellow Economic Circle business/brand database released with [open source / open data licenses](LICENSE). Currently only pro-democracy entities are recorded.
 
