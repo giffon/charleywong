@@ -1,6 +1,6 @@
 # Charley Wong 和你查
 
-A Yellow Economic Circle business/brand database released with [open source / open data licenses](LICENSE).
+A Yellow Economic Circle business/brand database released with [open source / open data licenses](LICENSE). Currently only pro-democracy entities are recorded.
 
 [charleywong.giffon.io](https://charleywong.giffon.io/) is a simple read-only web interface of the database. It also serves as an API endpoint (CORS enabled, no authentication needed). Check the "JSON" links in the entity pages, search result pages, and the [list all](https://charleywong.giffon.io/list/all) page.
 
@@ -64,3 +64,9 @@ Data is stored as JSON files in the [data](data) directory.
   ]
 }
 ```
+
+The web interface is a [React](https://reactjs.org/) / [Express](https://expressjs.com/) app hosted by [AWS Lambda](https://aws.amazon.com/lambda/), backed by [Cloudflare](https://www.cloudflare.com/).
+
+All program source code are written in [Haxe](https://haxe.org/). Our dev environment is [Visual Studio Code](https://code.visualstudio.com/) with its [remote containers extension](https://code.visualstudio.com/docs/remote/containers).
+
+Open the checked out the source code (with git submodules) using Code, with dev container. Run `haxe build.hxml` to build the web interface. Use `npm start` to run locally.
