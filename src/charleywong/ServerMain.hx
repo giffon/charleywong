@@ -63,17 +63,31 @@ class ServerMain {
     static function listEntities(req:Request, res:Response) {
         var name:String = req.params.name;
         var ids:String = req.params.entityIds;
+        var entities = [
+            for (id in ids.split("+"))
+            switch (entityIndex.entitiesOfId[id]) {
+                case null: throw 'Entity of id "$id" not found';
+                case e: e;
+            }
+        ];
         res.sendView(EntityListView, {
             slug: ids,
             listName: name,
-            entities: ids.split("+").map(id -> entityIndex.entitiesOfId[id]),
+            entities: entities,
         });
     }
 
     static function listEntitiesJson(req:Request, res:Response) {
         var name:String = req.params.name;
-        var ids = (req.params.entityIds:String).split("+");
-        res.json(ids.map(id -> entityIndex.entitiesOfId[id]));
+        var ids:String = req.params.entityIds;
+        var entities = [
+            for (id in ids.split("+"))
+            switch (entityIndex.entitiesOfId[id]) {
+                case null: throw 'Entity of id "$id" not found';
+                case e: e;
+            }
+        ];
+        res.json(entities);
     }
 
     static function entityJson(req:Request, res:Response) {
