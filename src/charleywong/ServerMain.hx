@@ -186,26 +186,50 @@ class ServerMain {
             });
     }
 
-    static function searchJson(req:Request, res:Response) {
-        var query:String = req.params.query;
-        var result:Array<{id:String}> = entityIndex.flexsearch.search({
-            query: query,
-            limit: Math.POSITIVE_INFINITY,
-        });
-        res.json(result.map(r -> entityIndex.entitiesOfId[r.id]));
+    static function search(query:String):Array<Entity> {
+        var result:Array<{id:String}> = entityIndex.flexsearch.search([
+            {
+                field: "name:en",
+                boost: 5,
+                query: query,
+                limit: Math.POSITIVE_INFINITY,
+            },
+            {
+                field: "name:zh",
+                boost: 5,
+                query: query,
+                limit: Math.POSITIVE_INFINITY,
+            },
+            {
+                field: "tags",
+                boost: 4,
+                query: query,
+                limit: Math.POSITIVE_INFINITY,
+            },
+            {
+                field: "meta",
+                boost: 2,
+                threshold: 4,
+                query: query,
+                limit: Math.POSITIVE_INFINITY,
+            },
+        ]);
+        return result.map(r -> entityIndex.entitiesOfId[r.id]);
     }
 
-    static function search(req:Request, res:Response) {
+    static function searchJson(req:Request, res:Response) {
         var query:String = req.params.query;
-        var result:Array<{id:String}> = entityIndex.flexsearch.search({
-            query: query,
-            limit: Math.POSITIVE_INFINITY,
-        });
+        res.json(search(query));
+    }
+
+    static function searchHtml(req:Request, res:Response) {
+        var query:String = req.params.query;
+        var entities = search(query);
         res.sendView(EntityListView, {
             slug: query.urlEncode(),
             listName: '${query} 搜尋結果',
             searchQuery: query,
-            entities: result.map(r -> entityIndex.entitiesOfId[r.id]),
+            entities: entities,
         });
     }
 
@@ -454,7 +478,7 @@ class ServerMain {
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+)/profile.png", entityProfilePic);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+)", entity);
         app.get("/search/:query.json", searchJson);
-        app.get("/search/:query", search);
+        app.get("/search/:query", searchHtml);
 
         if (isMain) {
             var watcher = js.npm.chokidar.Chokidar.watch(dataDirectory,{

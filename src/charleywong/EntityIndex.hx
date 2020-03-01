@@ -86,29 +86,48 @@ class EntityIndex {
     ];
 
     #if js
+    final emojiRegexp = ~/(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/g;
     final mixedChiEngSep = ~/(?:[\s\-\/]+|(?=[\u4e00-\u9fff])|(?<=[\u4e00-\u9fff]))/g;
     public var flexsearch(get, null):FlexSearch;
     function get_flexsearch() return flexsearch != null ? flexsearch : flexsearch = {
         function tokenize(str:String) {
-            return mixedChiEngSep.split(str);
+            return mixedChiEngSep.split(emojiRegexp.replace(str, " "));
         }
         var f = FlexSearch.create({
+            profile: "score",
+            cache: 1000,
             doc: {
                 id: "id",
                 field: {
                     "id": {},
-                    "name:en": {},
-                    "name:zh": { tokenize: tokenize },
-                    "webpages": {},
-                    "tags": { tokenize: tokenize },
+                    "name:en": { 
+                        tokenize: "full",
+                        encode: "advanced",
+                    },
+                    "name:zh": { 
+                        tokenize: tokenize,
+                    },
+                    "tags": {
+                        tokenize: tokenize,
+                    },
+                    "meta": {
+                        tokenize: tokenize,
+                    },
                 },
             }
         });
         f.add(entities.map(e -> {
             id: e.id,
             name: e.name.toJson(),
-            webpages: e.webpages.map(p -> p.url).join("\n"),
             tags: Tag.expend(e.tags).map(t -> [for (v in t.name) v].join("\n")).join("\n"),
+            meta: e.webpages.map(p -> switch (p.meta) {
+                case null: "";
+                case m:
+                    switch (m["about"]) {
+                        case null: "";
+                        case about: about;
+                    }
+            }).join("\n"),
         }));
         f;
     };
