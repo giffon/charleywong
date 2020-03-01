@@ -94,7 +94,7 @@ class EntityIndex {
             return mixedChiEngSep.split(emojiRegexp.replace(str, " "));
         }
         var f = FlexSearch.create({
-            profile: "score",
+            profile: "match",
             cache: 1000,
             doc: {
                 id: "id",
@@ -107,19 +107,27 @@ class EntityIndex {
                     "name:zh": { 
                         tokenize: tokenize,
                     },
-                    "tags": {
+                    "tag:names": {
                         tokenize: tokenize,
                     },
+                    "tag:ids": {},
                     "meta": {
                         tokenize: tokenize,
                     },
                 },
-            }
+            },
+            store: "id",
         });
         f.add(entities.map(e -> {
             id: e.id,
             name: e.name.toJson(),
-            tags: Tag.expend(e.tags).map(t -> [for (v in t.name) v].join("\n")).join("\n"),
+            tag: {
+                var tags = Tag.expend(e.tags);
+                {
+                    names: tags.map(t -> [for (v in t.name) v].join("\n")).join("\n"),
+                    ids: tags.map(t -> t.id),
+                }
+            },
             meta: e.webpages.map(p -> switch (p.meta) {
                 case null: "";
                 case m:

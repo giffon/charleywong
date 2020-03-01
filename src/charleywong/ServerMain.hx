@@ -186,45 +186,60 @@ class ServerMain {
             });
     }
 
-    static function search(query:String):Array<Entity> {
-        var result:Array<{id:String}> = entityIndex.flexsearch.search([
+    static function search(query:String, tags:Array<String>):Array<Entity> {
+        var ids = (entityIndex.flexsearch.search([
             {
                 field: "name:en",
-                boost: 5,
+                boost: 2,
                 query: query,
                 limit: Math.POSITIVE_INFINITY,
             },
             {
                 field: "name:zh",
-                boost: 5,
+                boost: 2,
                 query: query,
                 limit: Math.POSITIVE_INFINITY,
             },
             {
-                field: "tags",
-                boost: 4,
+                field: "tag:names",
+                boost: 1,
                 query: query,
                 limit: Math.POSITIVE_INFINITY,
             },
+        ]):Array<{id:String}>).map(r -> r.id);
+
+        var metaResults:Array<{id:String}> = entityIndex.flexsearch.search([
             {
                 field: "meta",
-                boost: 2,
-                threshold: 4,
                 query: query,
                 limit: Math.POSITIVE_INFINITY,
             },
         ]);
-        return result.map(r -> entityIndex.entitiesOfId[r.id]);
+        for (id in metaResults.map(r -> r.id)) {
+            if (!ids.has(id))
+                ids.push(id);
+        }
+        return ids
+            .map(id -> entityIndex.entitiesOfId[id])
+            .filter(e -> tags.foreach(t -> e.tags.exists(tid -> tid.id.toLowerCase() == t)));
     }
 
     static function searchJson(req:Request, res:Response) {
         var query:String = req.params.query;
-        res.json(search(query));
+        var tags = switch (req.query.tags:String) {
+            case null: [];
+            case v: v.split(" ").map(t -> t.toLowerCase());
+        };
+        res.json(search(query, tags));
     }
 
     static function searchHtml(req:Request, res:Response) {
         var query:String = req.params.query;
-        var entities = search(query);
+        var tags = switch (req.query.tags:String) {
+            case null: [];
+            case v: v.split(" ").map(t -> t.toLowerCase());
+        };
+        var entities = search(query, tags);
         res.sendView(EntityListView, {
             slug: query.urlEncode(),
             listName: '${query} 搜尋結果',
