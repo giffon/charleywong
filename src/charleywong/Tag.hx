@@ -209,7 +209,7 @@ class Tag {
     static public final handyman:TagData = {
         name: {
             en: "handyman",
-            zh: "水電工",
+            zh: "水電工人",
         },
         inherits: ["shop"]
     }

@@ -96,7 +96,7 @@ class EntityIndex {
         function tokenize(str:String) {
             return ~/[\s\-\/]+/g
                 .split(emojiRegexp.replace(str, " "))
-                .map(str -> chiRegexp.match(str) ? mixedChiEngSep.split(str) : [str])
+                .map(str -> chiRegexp.match(str) ? Nodejieba.cutForSearch(str, false) : [str])
                 .fold((a1, a2) -> a1.concat(a2), [])
                 .map(Pluralize.singular);
         }
@@ -107,12 +107,13 @@ class EntityIndex {
                 id: "id",
                 field: {
                     "id": {},
-                    "name:en": { 
+                    "name:en": {
                         tokenize: "full",
                         encode: "advanced",
                     },
-                    "name:zh": { 
-                        tokenize: tokenize,
+                    "name:zh": {
+                        tokenize: "full",
+                        split: "",
                     },
                     "tag:names": {
                         tokenize: tokenize,
@@ -127,7 +128,11 @@ class EntityIndex {
         });
         f.add(entities.map(e -> {
             id: e.id,
-            name: e.name.toJson(),
+            name: {
+                en: e.name[en],
+                zh: e.name[zh],
+                zhchar: e.name[zh],
+            },
             tag: {
                 var tags = Tag.expend(e.tags);
                 {
