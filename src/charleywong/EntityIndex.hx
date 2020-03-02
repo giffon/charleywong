@@ -96,7 +96,7 @@ class EntityIndex {
         function tokenize(str:String) {
             return ~/[\s\-\/]+/g
                 .split(emojiRegexp.replace(str, " "))
-                .map(str -> chiRegexp.match(str) ? Nodejieba.cutForSearch(str) : [str])
+                .map(str -> chiRegexp.match(str) ? mixedChiEngSep.split(str) : [str])
                 .fold((a1, a2) -> a1.concat(a2), [])
                 .map(Pluralize.singular);
         }
