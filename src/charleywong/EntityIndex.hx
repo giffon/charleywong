@@ -90,13 +90,13 @@ class EntityIndex {
     #if js
     final emojiRegexp = ~/(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/g;
     final mixedChiEngSep = ~/(?:[\s\-\/]+|(?=[\u4e00-\u9fff])|(?<=[\u4e00-\u9fff]))/g;
-    final chiRegexp = ~/[\u4e00-\u9fff]/;
+    static public final chiRegexp = ~/[\u4e00-\u9fff]/;
     public var flexsearch(get, null):FlexSearch;
     function get_flexsearch() return flexsearch != null ? flexsearch : flexsearch = {
         function tokenize(str:String) {
             return ~/[\s\-\/]+/g
                 .split(emojiRegexp.replace(str, " "))
-                .map(str -> chiRegexp.match(str) ? Nodejieba.cutSmall(str, 2) : [str])
+                .map(str -> chiRegexp.match(str) ? Nodejieba.cutForSearch(str) : [str])
                 .fold((a1, a2) -> a1.concat(a2), [])
                 .map(Pluralize.singular);
         }

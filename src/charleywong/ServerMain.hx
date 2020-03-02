@@ -1,5 +1,6 @@
 package charleywong;
 
+import js.npm.nodejieba.Nodejieba;
 import js.npm.fetch.Fetch;
 import js.lib.Promise;
 import js.npm.jimp.Jimp;
@@ -187,6 +188,7 @@ class ServerMain {
     }
 
     static function search(query:String, tags:Array<String>):Array<Entity> {
+        var query:Dynamic = EntityIndex.chiRegexp.match(query) ? Nodejieba.cutHMM(query) : query;
         var ids = (entityIndex.flexsearch.search([
             {
                 field: "name:en",
