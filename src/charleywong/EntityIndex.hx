@@ -3,6 +3,8 @@ package charleywong;
 #if js
 import js.Lib.*;
 import js.npm.flexsearch.FlexSearch;
+import js.npm.nodejieba.Nodejieba;
+import js.npm.pluralize.Pluralize;
 #end
 import sys.*;
 import sys.io.*;
@@ -88,10 +90,15 @@ class EntityIndex {
     #if js
     final emojiRegexp = ~/(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/g;
     final mixedChiEngSep = ~/(?:[\s\-\/]+|(?=[\u4e00-\u9fff])|(?<=[\u4e00-\u9fff]))/g;
+    final chiRegexp = ~/[\u4e00-\u9fff]/;
     public var flexsearch(get, null):FlexSearch;
     function get_flexsearch() return flexsearch != null ? flexsearch : flexsearch = {
         function tokenize(str:String) {
-            return mixedChiEngSep.split(emojiRegexp.replace(str, " "));
+            return ~/[\s\-\/]+/g
+                .split(emojiRegexp.replace(str, " "))
+                .map(str -> chiRegexp.match(str) ? Nodejieba.cutSmall(str, 2) : [str])
+                .fold((a1, a2) -> a1.concat(a2), [])
+                .map(Pluralize.singular);
         }
         var f = FlexSearch.create({
             profile: "match",
