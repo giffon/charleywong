@@ -5,20 +5,28 @@
   },
   "webpages": [
     {
-      "url": "http://www.blendit.hk"
+      "url": "https://www.blendit.hk"
     },
     {
       "meta": {
+        "name": "Blendit Superfood Eats",
         "id": "157660071525206",
         "about": "門市地址：大角咀海景街36號地下6號舖",
         "categories": [
-          "Product/service",
-          "Health Food Shop",
-          "Smoothie and juice bar"
+          "Product/Service",
+          "Health Food Store",
+          "Smoothie & Juice Bar"
         ],
         "email": "info@blendit.hk"
       },
       "url": "https://www.facebook.com/blendithk/"
+    },
+    {
+      "url": "https://www.instagram.com/blendithk/",
+      "meta": {
+        "name": "Blendit | T.H.E Deli",
+        "about": "Superfood Eats Delivery Service\nHEALTHY | VEGAN | ORGANIC\nPre-portioned superfood smoothie ingredients and handmade bagels delivered to your door"
+      }
     }
   ],
   "posts": [
