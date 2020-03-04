@@ -106,6 +106,8 @@ class UrlExtractors {
             return switch (handle) {
                 case null | "permalink.php":
                     null;
+                case "profile.php":
+                    parseSearch(url.search)["id"];
                 case _:
                     var fbIdRegexp = ~/^.+-([0-9]+)$/;
                     if (fbIdRegexp.match(handle))
