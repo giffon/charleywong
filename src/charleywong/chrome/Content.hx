@@ -13,8 +13,8 @@ using StringTools;
 using charleywong.ElementUtils;
 
 class Content {
-    static public function getEntityFromFb(fbPage:String) return new Promise<Null<Entity>>(function(resolve, reject) {
-        Runtime.sendMessage(Serializer.run(Message.MsgGetEntityFromFb(fbPage)), function(response:Dynamic) {
+    static public function getEntityFromUrl(url:String) return new Promise<Null<Entity>>(function(resolve, reject) {
+        Runtime.sendMessage(Serializer.run(Message.MsgGetEntityFromUrl(url)), function(response:Dynamic) {
             if (response == null) {
                 reject(Runtime.lastError);
             } else {
@@ -54,20 +54,7 @@ class Content {
             &&
             !["See All", "See More", ""].has(link.innerText)
         ) {
-            var url = try {
-                new URL(link.href);
-            } catch (e:Dynamic) {
-                return;
-            }
-            var fb = switch (url) {
-                case extractFbPost(_) => fb if (fb != null):
-                    fb;
-                case extractFbHomePage(_) => fb if (fb != null):
-                    fb;
-                case _:
-                    return;
-            }
-            getEntityFromFb(fb).then(function(entity) {
+            getEntityFromUrl(link.href).then(function(entity) {
                 if (entity != null) {
                     link.classList.add("charleywong-found");
                     link.dataset.charleywongEntityId = entity.id;

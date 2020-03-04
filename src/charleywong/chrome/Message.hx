@@ -1,7 +1,7 @@
 package charleywong.chrome;
 
 enum Message {
-    MsgGetEntityFromFb(fb:String);
+    MsgGetEntityFromUrl(url:String);
     MsgImportToCharley(linkUrl:String);
     MsgScrollToJune;
     MsgUpdateEntityIndex(showNotification:Bool);

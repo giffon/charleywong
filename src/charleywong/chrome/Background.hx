@@ -63,13 +63,37 @@ class Background {
 
     static function onMessage(?request:Dynamic, sender, sendResponse:Dynamic->Void) {
         switch (Unserializer.run(request):Message) {
-            case MsgGetEntityFromFb(fb):
+            case MsgGetEntityFromUrl(url):
                 entityIndex.then(function(index) {
-                    switch (index.entitiesOfFbPage[fb]) {
-                        case null:
-                            sendResponse(false);
-                        case e:
-                            sendResponse(e);
+                    var url = try {
+                        new URL(url);
+                    } catch (err:Dynamic) {
+                        sendResponse(false);
+                        return;
+                    }
+                    switch (url) {
+                        case extractFbPost(_) => fb if (fb != null):
+                            switch (index.entitiesOfFbPage[fb]) {
+                                case null:
+                                    sendResponse(false);
+                                case e:
+                                    sendResponse(e);
+                            }
+                        case extractFbHomePage(_) => fb if (fb != null):
+                            switch (index.entitiesOfFbPage[fb]) {
+                                case null:
+                                    sendResponse(false);
+                                case e:
+                                    sendResponse(e);
+                            }
+                        case _:
+                            switch (index.entitiesOfUrl[cleanUrl(Std.string(url))]) {
+                                case null:
+                                    sendResponse(false);
+                                case e:
+                                    sendResponse(e);
+                            }
+                            null;
                     }
                 });
                 return true;
