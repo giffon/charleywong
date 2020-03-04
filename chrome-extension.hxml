@@ -17,6 +17,7 @@
 
 --js chrome.Background.js
 --main charleywong.chrome.Background
+--dce full
 --cmd npx browserify chrome.Background.js > chrome/Background.js
 
 --next
