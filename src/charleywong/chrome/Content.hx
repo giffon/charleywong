@@ -54,32 +54,34 @@ class Content {
             &&
             !["See All", "See More", ""].has(link.innerText)
         ) {
-            var fb = switch (new URL(link.href)) {
+            var url = try {
+                new URL(link.href);
+            } catch (e:Dynamic) {
+                return;
+            }
+            var fb = switch (url) {
                 case extractFbPost(_) => fb if (fb != null):
                     fb;
                 case extractFbHomePage(_) => fb if (fb != null):
                     fb;
                 case _:
-                    null;
+                    return;
             }
-            if (fb != null) {
-                getEntityFromFb(fb).then(function(entity) {
-                    if (entity != null) {
-                        link.classList.add("charleywong-found");
-                        link.dataset.charleywongEntityId = entity.id;
-                        var href = Path.join([serverEndpoint, entity.id]);
-                        var title = 'Charly Wong 和你查 "${entity.name.printAll()}"';
-                        var textNode = getInnerSingleChild(link);
-                        textNode.innerHTML = textNode.innerHTML + '
-                            <span href="${href}" target="_blank" class="charleywong-button" title="${title.htmlEscape(true)}"></span>
-                        ';
+            getEntityFromFb(fb).then(function(entity) {
+                if (entity != null) {
+                    link.classList.add("charleywong-found");
+                    link.dataset.charleywongEntityId = entity.id;
+                    var href = Path.join([serverEndpoint, entity.id]);
+                    var title = 'Charly Wong 和你查 "${entity.name.printAll()}"';
+                    var textNode = getInnerSingleChild(link);
+                    textNode.innerHTML = textNode.innerHTML + '
+                        <span href="${href}" target="_blank" class="charleywong-button" title="${title.htmlEscape(true)}"></span>
+                    ';
 
-                        link.addEventListener("click", onButtonClicked);
-                        link.addEventListener("auxclick", onButtonClicked);
-                    }
-                });
-            }
-
+                    link.addEventListener("click", onButtonClicked);
+                    link.addEventListener("auxclick", onButtonClicked);
+                }
+            });
         }
     }
 
