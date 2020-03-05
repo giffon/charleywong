@@ -32,10 +32,18 @@ class Importer {
             case null:
                 //pass
             case handle:
-                var postNode = document.querySelector('a[href*="${url.pathname + url.search}"]').closest(".userContentWrapper");
+                var href = if (url.pathname == "/permalink.php") {
+                    url.pathname + url.search;
+                } else {
+                    url.pathname;
+                }
+                var postNode = document.querySelector('.userContentWrapper a[href*="${href}"]').closest(".userContentWrapper");
                 var postTime = postNode.querySelector("abbr[data-utime]").dataset.utime;
-                var sharedWithNode = postNode.querySelector("a.fbPrivacyAudienceIndicator");
-                var sharedWith = sharedWithNode.dataset.tooltipContent;
+                var sharedWithNode = postNode.querySelector("*[data-tooltip-content^='Shared with: '], a.fbPrivacyAudienceIndicator");
+                var sharedWith = if (sharedWithNode.dataset.tooltipContent.startsWith("Shared with: "))
+                    sharedWithNode.dataset.tooltipContent.substr("Shared with: ".length);
+                else
+                    sharedWithNode.dataset.tooltipContent;
                 postToServer({
                     url: if (url.pathname == "/permalink.php") {
                         var params = parseSearch(url.search);
