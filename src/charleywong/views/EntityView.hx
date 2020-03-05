@@ -134,6 +134,16 @@ class EntityView extends View {
                     ${summary}
                 </blockquote>
             ');
+        } else if (
+            p.url.startsWith("https://www.youtube.com/watch?v=")
+        ) {
+            var url = new URL(p.url);
+            var vid = url.searchParams.get("id");
+            jsx('
+                <div className="youtube-container">
+                    <iframe src=${'https://www.youtube.com/embed/$vid'} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen=${true}></iframe>
+                </div>
+            ');
         } else {
             jsx('
                 <div className="post-link">
