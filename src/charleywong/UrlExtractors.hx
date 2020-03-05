@@ -53,7 +53,7 @@ class UrlExtractors {
         var regex = ~/^https?:\/\/(?:www\.)?youtube\.com$/i;
         return if (regex.match(url.origin))
             switch(url.pathname.split("/").slice(0, 3)) {
-                case ["", "watch"]: null;
+                case ["", "watch" | "playlist"]: null;
                 case ["", handle]: Handle(handle.toLowerCase());
                 case ["", "c" | "user", handle]: Handle(handle.toLowerCase());
                 case ["", "channel", id]: Id(id);
