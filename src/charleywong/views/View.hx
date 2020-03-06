@@ -131,6 +131,10 @@ class View extends ReactComponent {
                 </p>
                 <p>Charley Wong 和你查 嘅<a href="https://github.com/giffon/charleywong">原碼</a>以 <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL-3.0-or-later</a> 發佈。</p>
                 <p>Charley Wong 和你查 嘅數據以 <a href="http://opendatacommons.org/licenses/odbl/1.0/">ODbL-1.0</a> 發佈。</p>
+                <p>
+                    <a href="https://giffon.io/terms">Terms and Conditions</a> 
+                    <a href="https://giffon.io/privacy">Privacy Policy</a>
+                </p>
             </footer>
             ${footJs()}
         </body>
