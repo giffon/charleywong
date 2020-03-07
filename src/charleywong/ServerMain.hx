@@ -340,6 +340,16 @@ class ServerMain {
                 return;
         }
 
+        switch (extractYouTubeProfile(url)) {
+            case null:
+                //pass
+            case Id(_) | Handle(_):
+                var e = createEntityFromYt(req.body);
+                saveEntity(e);
+                res.status(200).send("done");
+                return;
+        }
+
         res.status(500).send('Cannot handle ${req.body}.');
     }
 
@@ -400,6 +410,70 @@ class ServerMain {
         };
         if (meta.keys().length > 0) {
             igPage.meta = meta;
+        }
+        return entity;
+    }
+
+    static function getEntityOfUrls(urls:Array<String>):Null<Entity> {
+        for (url in urls) {
+            var url = cleanUrl(url);
+            switch (entityIndex.entitiesOfUrl[url]) {
+                case null:
+                    continue;
+                case e:
+                    return e;
+            }
+        }
+        return null;
+    }
+
+    static function createEntityFromYt(info:charleywong.chrome.YouTubeProfile):Entity {
+        var entity = switch (getEntityOfUrls([info.url].concat(info.links))) {
+            case null:
+                {
+                    id: info.id,
+                    name: MultiLangString.parseName(info.name),
+                    webpages: [],
+                    posts: [],
+                    tags: [],
+                };
+            case e:
+                e;
+        }
+
+        var webpages = entity.webpages;
+        if (info.links != null) {
+            for (url in info.links) {
+                var url = cleanUrl(url);
+                if (!entity.webpages.exists(p -> p.url == url))
+                    webpages.push({
+                        url: url,
+                    });
+            }
+        }
+        var meta:DynamicAccess<Dynamic> = {};
+        meta["id"] = info.id;
+        if (info.location != null) {
+            meta["location"] = info.location;
+        }
+        if (info.name != null) {
+            meta["name"] = info.name;
+        }
+        if (info.description != null) {
+            meta["about"] = info.description;
+        }
+        var yt:WebPage = switch (entity.webpages.find(p -> p.url == info.url)) {
+            case null:
+                var p = {
+                    url: 'https://www.youtube.com/channel/${info.id}',
+                };
+                webpages.push(p);
+                p;
+            case p:
+                p;
+        };
+        if (meta.keys().length > 0) {
+            yt.meta = meta;
         }
         return entity;
     }
@@ -467,6 +541,15 @@ class ServerMain {
     }
 
     static function main():Void {
+        for (e in entityIndex.entities)
+        for (p in e.webpages)
+        switch(new URL(p.url)) {
+            case extractYouTubeProfile(_) => yt if (yt != null):
+                if (p.meta == null)
+                    Sys.println(haxe.io.Path.join([p.url, "about"]));
+            case _:
+                //pass
+        }
         app = new Application();
 
         var bodyParser = require("body-parser");

@@ -50,7 +50,7 @@ class UrlExtractors {
 
     static public function extractYouTubeProfile(url:ParsedUrl):Null<Ident> {
         // https://support.google.com/youtube/answer/6180214
-        var regex = ~/^https?:\/\/(?:www\.)?youtube\.com$/i;
+        var regex = ~/^https?:\/\/(?:www\.|m\.)?youtube\.com$/i;
         return if (regex.match(url.origin))
             switch(url.pathname.split("/").slice(0, 3)) {
                 case ["", "watch" | "playlist"]: null;
@@ -90,6 +90,22 @@ class UrlExtractors {
                         fbIdRegexp.matched(1);
                     else
                         handle;
+                case _: null;
+            }
+        else
+            null;
+    }
+
+    static public function extractYtAboutPage(url:ParsedUrl) {
+        return if (url.origin == "https://www.youtube.com")
+            switch(url.pathname.split("/")) {
+                case
+                    ["", "channel", _, "about"]
+                |   ["", "c", _, "about"]
+                |   ["", _, "about"]
+                |   ["", "user", _, "about"]
+                :
+                    return true;
                 case _: null;
             }
         else

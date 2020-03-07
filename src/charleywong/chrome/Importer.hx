@@ -22,9 +22,77 @@ class Importer {
                 host: "www.instagram.com" | "instagram.com",
             }:
                 importIg(url);
+            case {
+                host: "www.youtube.com" | "youtube.com"
+            }:
+                importYt(url);
             case _:
                 throw 'Cannot handle $url';
         }
+    }
+
+    static function importYt(url:URL) {
+        switch (extractYouTubeProfile(url)) {
+            case null:
+            case Handle(v) | Id(v):
+                importYtProfile();
+        }
+    }
+
+    static function importYtProfile() {
+        var profile = getYtProfile();
+        postToServer(profile);
+    }
+
+    static function getYtProfile():YouTubeProfile {
+        switch (extractYtAboutPage(document.location)) {
+            case null:
+                throw '只可以在 about page 輸入 YouTube Channel';
+            case id:
+                var canonical = ytCanonical();
+                return {
+                    url: canonical,
+                    id: canonical.split("/").pop(),
+                    name: ytName(),
+                    description: ytDescription(),
+                    location: ytLocation(),
+                    links: ytLinks(),
+                };
+        }
+    }
+
+    static function ytCanonical() {
+        return document.querySelector("link[rel='canonical']").getAttribute("href");
+    }
+
+    static function ytName() {
+        return document.querySelector("yt-formatted-string.ytd-channel-name").innerText;
+    }
+
+    static function ytDescription() {
+        return document.querySelector("yt-formatted-string#description").innerText;
+    }
+
+    static function ytLocation() {
+        return switch (document.getElementsByXPath("//*[contains(text(),'Location:')]/ancestor::tr//yt-formatted-string")[1]) {
+            case null: null;
+            case e: e.innerText;
+        }
+    }
+
+    static function ytLinks() {
+        return [
+            for (link in document.querySelectorAll("#links-container a.yt-simple-endpoint"))
+            switch (new URL((cast link:AnchorElement).href)) {
+                case url = {
+                    origin: "https://www.youtube.com",
+                    pathname: "/redirect",
+                }:
+                    url.searchParams.get("q");
+                case _:
+                    null;
+            }
+        ].filter(url -> url != null);
     }
 
     static function importFb(url:URL) {
