@@ -78,7 +78,7 @@ class Importer {
     }
 
     static function ytName() {
-        return document.querySelector("yt-formatted-string.ytd-channel-name").innerText;
+        return document.querySelector("#channel-container yt-formatted-string.ytd-channel-name").innerText;
     }
 
     static function ytDescription() {
