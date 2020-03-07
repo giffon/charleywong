@@ -444,7 +444,11 @@ class ServerMain {
         var webpages = entity.webpages;
         if (info.links != null) {
             for (url in info.links) {
-                var url = cleanUrl(url);
+                var url = try {
+                    cleanUrl(url);
+                } catch (e:Dynamic) {
+                    continue;
+                }
                 if (!entity.webpages.exists(p -> p.url == url))
                     webpages.push({
                         url: url,
