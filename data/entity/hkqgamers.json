@@ -5,7 +5,13 @@
   },
   "webpages": [
     {
-      "url": "https://www.youtube.com/channel/UCFoQK3QsHHiHRPWFEOtpK6Q"
+      "url": "https://www.youtube.com/channel/UCFoQK3QsHHiHRPWFEOtpK6Q",
+      "meta": {
+        "id": "UCFoQK3QsHHiHRPWFEOtpK6Q",
+        "location": "Hong Kong",
+        "name": "Q仔香港戶外直播 HK IRL",
+        "about": "香港戶外直播主，每晚開台，分享生活，記錄社會"
+      }
     },
     {
       "meta": {
@@ -18,6 +24,9 @@
         "tel": "92003924"
       },
       "url": "https://www.facebook.com/hkqgamers/"
+    },
+    {
+      "url": "https://www.twitch.tv/hkqgamers"
     }
   ],
   "posts": [

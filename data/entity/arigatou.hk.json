@@ -1,24 +1,36 @@
 {
   "id": "arigatou.hk",
   "name": {
-    "zh": "我は何しに香港へ？"
+    "zh": "我は何しに香港へ？",
+    "en": "Why did I come to HK ?"
   },
   "webpages": [
     {
-      "url": "https://www.youtube.com/arigatouhk"
+      "url": "https://www.youtube.com/channel/UCo7u2pqkMjcMyITNCWt9VZw",
+      "meta": {
+        "id": "UCo7u2pqkMjcMyITNCWt9VZw",
+        "location": "Japan",
+        "name": "我は何しに香港へ？ Why did I come to HK ?",
+        "about": "はじめまして、香港でタレント活動しているSOKOです。\nSOKO香港在住10周年！誰にも頼まれていないけどやるぜ！「ありがとう香港」長編企画シリーズ！\n少しでも香港の事を知って、興味をもって頂ける人が増えたら、うれしいです。\n目標100話！香港観光、美味しいもの、面白スポットを中心に紹介しています。時々日本。\n広東語と日本語で発信中。\n\nFB,Instagramもよろしくお願いします！\n---------------------------------------------------------------------------------------------------------------------------------------------------------------\nFacebook:https://www.facebook.com/arigatou.hk/     https://www.facebook.com/hongkongsoko/\nInstagram:https://www.instagram.com/sokoizumi/\n---------------------------------------------------------------------------------------------------------------------------------------------------------------"
+      }
     },
     {
       "meta": {
+        "name": "我は何しに香港へ？",
         "id": "1235594113135554",
         "about": "香港在住10年のSOKOが香港を紹介する番組。不定期で放送中。目標100話！",
         "categories": [
-          "TV programme"
+          "TV Show"
         ]
       },
       "url": "https://www.facebook.com/arigatou.hk/"
     },
     {
-      "url": "https://www.instagram.com/sokoizumi/"
+      "url": "https://www.instagram.com/sokoizumi/",
+      "meta": {
+        "name": "Soko Izumi",
+        "about": "居港日籍藝人(FB follower 60K)主に🇭🇰香港 でタレント、KOL活動をしてます♪(TV,俳優,司会,我は何しに香港へ？)"
+      }
     }
   ],
   "posts": [
