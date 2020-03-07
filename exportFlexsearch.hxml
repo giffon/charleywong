@@ -1,0 +1,11 @@
+--js exportFlexsearch.js
+--main charleywong.EntityIndex
+--library hxnodejs
+--library react
+--library compiletime
+--library tink_core
+--class-path src
+--class-path lib/hxnodelibs
+-D react_ver=16.12
+-D react_fragments
+--cmd node exportFlexsearch.js

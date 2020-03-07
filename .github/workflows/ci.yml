@@ -35,6 +35,12 @@ jobs:
           npm install
           haxelib newrepo
           haxelib install all --always
+      - name: Export flexsearch index
+        run: haxe exportFlexsearch.hxml
+      - uses: actions/upload-artifact@v1
+        with:
+          name: flexsearch.json
+          path: flexsearch.json
       - name: Compile index.js
         run: haxe build.hxml
       - uses: actions/upload-artifact@v1
@@ -64,6 +70,9 @@ jobs:
       - uses: actions/download-artifact@v1
         with:
           name: index.js
+      - uses: actions/download-artifact@v1
+        with:
+          name: flexsearch.json
       - name: Install libraries
         run: |
           set -ex

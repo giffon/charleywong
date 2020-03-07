@@ -1,5 +1,6 @@
 package charleywong;
 
+import sys.FileSystem;
 import js.npm.nodejieba.Nodejieba;
 import js.npm.fetch.Fetch;
 import js.lib.Promise;
@@ -17,11 +18,18 @@ using StringTools;
 using Lambda;
 
 class ServerMain {
-    static final port = 3000;
+    static public final port = 3000;
     static final isMain = (untyped __js__("require")).main == module;
-    static final dataDirectory = "data/entity";
-    static final entityIndex:EntityIndex = EntityIndex.loadFromDirectory(dataDirectory);
-    static var app:Application;
+    static public final dataDirectory = "data/entity";
+    static public final exportedFlexsearch = "flexsearch.json";
+    static public final entityIndex:EntityIndex = EntityIndex.loadFromDirectory(
+        dataDirectory,
+        if (FileSystem.exists(exportedFlexsearch))
+            exportedFlexsearch
+        else
+            null
+    );
+    static public var app:Application;
 
     static function index(req:Request, res:Response) {
         switch (req.query.search:String) {
@@ -247,13 +255,6 @@ class ServerMain {
             searchQuery: query,
             entities: entities,
         });
-    }
-
-    static function flexsearchJson(req:Request, res:Response) {
-        res.json(entityIndex.flexsearch.export({
-            serialize: false,
-            doc: false,
-        }));
     }
 
     static function allowCors(req:Request, res:Response, next):Void {
@@ -489,7 +490,6 @@ class ServerMain {
         app.get("/list/all", all);
         app.get("/list/:name/:entityIds.json", listEntitiesJson);
         app.get("/list/:name/:entityIds", listEntities);
-        app.get("/flexsearch.json", flexsearchJson);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+).json", entityJson);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+)/profile.png", entityProfilePic);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+)", entity);

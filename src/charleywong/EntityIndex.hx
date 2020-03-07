@@ -15,8 +15,10 @@ using StringTools;
 
 class EntityIndex {
     public final entities:Map<String, Entity>;
-    public function new(entities:Map<String, Entity>):Void {
+    public final serializedIndex:Null<String>;
+    public function new(entities:Map<String, Entity>, ?serializedIndex:String):Void {
         this.entities = entities;
+        this.serializedIndex = serializedIndex;
     }
 
     public function invalidate():Void {
@@ -28,7 +30,7 @@ class EntityIndex {
         #end
     }
 
-    static public function loadFromDirectory(path:String):EntityIndex {
+    static public function loadFromDirectory(path:String, ?serializedIndexPath:String):EntityIndex {
         var entities = new Map();
         for (item in FileSystem.readDirectory(path)) {
             if (!item.endsWith(".json")) continue;
@@ -40,7 +42,10 @@ class EntityIndex {
                 throw 'Error loading $file';
             }
         }
-        return new EntityIndex(entities);
+        return new EntityIndex(
+            entities,
+            if (serializedIndexPath != null) File.getContent(serializedIndexPath) else null
+        );
     }
 
     macro static public function embedFromDirectory(path:String):ExprOf<EntityIndex> {
@@ -126,30 +131,43 @@ class EntityIndex {
             },
             store: "id",
         });
-        f.add(entities.map(e -> {
-            id: e.id,
-            name: {
-                en: e.name[en],
-                zh: e.name[zh],
-                zhchar: e.name[zh],
-            },
-            tag: {
-                var tags = Tag.expend(e.tags);
-                {
-                    names: tags.map(t -> [for (v in t.name) v].join("\n")).join("\n"),
-                    ids: tags.map(t -> t.id),
-                }
-            },
-            meta: e.webpages.map(p -> switch (p.meta) {
-                case null: "";
-                case m:
-                    switch (m["about"]) {
-                        case null: "";
-                        case about: about;
+        if (serializedIndex != null) {
+            f._import(serializedIndex);
+        } else {
+            f.add(entities.map(e -> {
+                id: e.id,
+                name: {
+                    en: e.name[en],
+                    zh: e.name[zh],
+                    zhchar: e.name[zh],
+                },
+                tag: {
+                    var tags = Tag.expend(e.tags);
+                    {
+                        names: tags.map(t -> [for (v in t.name) v].join("\n")).join("\n"),
+                        ids: tags.map(t -> t.id),
                     }
-            }).join("\n"),
-        }));
+                },
+                meta: e.webpages.map(p -> switch (p.meta) {
+                    case null: "";
+                    case m:
+                        switch (m["about"]) {
+                            case null: "";
+                            case about: about;
+                        }
+                }).join("\n"),
+            }));
+        }
         f;
     };
+
+    static function main():Void {
+        if (FileSystem.exists(ServerMain.exportedFlexsearch)) {
+            Sys.println('${ServerMain.exportedFlexsearch} already exists, remove it first?');
+            return;
+        }
+        var exported = ServerMain.entityIndex.flexsearch.export();
+        File.saveContent(ServerMain.exportedFlexsearch, exported);
+    }
     #end
 }
