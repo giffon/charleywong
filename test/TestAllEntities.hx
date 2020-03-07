@@ -99,6 +99,16 @@ class TestAllEntities extends utest.Test {
         }
     }
 
+    function testTwitchUrlFormat() {
+        var regexp = ~/^https?:\/\/(?:www\.)?(?:twitch\.tv)/;
+        var valid = ~/^https:\/\/www\.twitch\.tv\/[A-z0-9_]+$/;
+        for (entity in index.entities) {
+            for (page in entity.webpages)
+            if (regexp.match(page.url))
+            Assert.isTrue(valid.match(page.url), '${page.url} is of invalid format');
+        }
+    }
+
     function testTags() {
         for (file => entity in index.entities) {
             Assert.isTrue(entity.tags.length > 0, '${file} has no tags.');
