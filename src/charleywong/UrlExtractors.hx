@@ -40,6 +40,8 @@ class UrlExtractors {
                 'https://twitter.com/$t';
             case extractTwitchProfile(_) => t if (t != null):
                 'https://www.twitch.tv/$t';
+            case extractTelegramProfile(_) => t if (t != null):
+                'https://t.me/$t';
             case {
                 pathname: "" | "/",
                 search: ""
@@ -67,8 +69,19 @@ class UrlExtractors {
     }
 
     static public function extractTwitchProfile(url:ParsedUrl):Null<String> {
-        // https://support.google.com/youtube/answer/6180214
         var regex = ~/^https?:\/\/(?:www\.)?twitch\.tv$/i;
+        return if (regex.match(url.origin))
+            switch(url.pathname.split("/")) {
+                case ["", handle]: handle;
+                case ["", handle, ""]: handle;
+                case _: return null;
+            }
+        else
+            return null;
+    }
+
+    static public function extractTelegramProfile(url:ParsedUrl):Null<String> {
+        var regex = ~/^https?:\/\/?t\.me$/i;
         return if (regex.match(url.origin))
             switch(url.pathname.split("/")) {
                 case ["", handle]: handle;
