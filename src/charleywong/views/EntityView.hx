@@ -65,9 +65,13 @@ class EntityView extends View {
                     </Fragment>
                 ');
             case extractYouTubeProfile(_) => Id(yt) | Handle(yt):
+                var linktext = if (p.meta != null && p.meta["name"] != null)
+                    p.meta["name"];
+                else
+                    yt;
                 jsx('
                     <Fragment>
-                        <a href=${p.url}><i className="fab fa-youtube"></i> ${yt}</a>
+                        <a href=${p.url}><i className="fab fa-youtube"></i> ${linktext}</a>
                     </Fragment>
                 ');
             case extractTwitterProfile(_) => t if (t != null):
