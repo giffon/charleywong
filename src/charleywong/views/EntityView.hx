@@ -80,6 +80,12 @@ class EntityView extends View {
                         <a href=${p.url}><i className="fab fa-twitter"></i> ${t}</a>
                     </Fragment>
                 ');
+            case extractTwitchProfile(_) => t if (t != null):
+                jsx('
+                    <Fragment>
+                        <a href=${p.url}><i className="fab fa-twitch"></i> ${t}</a>
+                    </Fragment>
+                ');
             case _:
                 var linktext = if (p.name != null)
                     '${p.name} ${prettyUrl(p.url)}';
