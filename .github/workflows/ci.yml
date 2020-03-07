@@ -79,6 +79,7 @@ jobs:
           npm install
           haxelib newrepo
           haxelib install all --always
+      - run: ls -lh
       - name: Deploy
         run: npx serverless deploy
         env:

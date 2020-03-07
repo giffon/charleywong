@@ -44,7 +44,14 @@ class EntityIndex {
         }
         return new EntityIndex(
             entities,
-            if (serializedIndexPath != null) File.getContent(serializedIndexPath) else null
+            if (serializedIndexPath != null) try {
+                File.getContent(serializedIndexPath);
+            } catch (e:Dynamic) {
+                trace(e);
+                null;
+            } else {
+                null;
+            }
         );
     }
 
