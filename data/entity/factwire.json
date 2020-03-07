@@ -10,20 +10,37 @@
     },
     {
       "meta": {
+        "name": "FactWire News Agency 傳真社",
         "id": "396495580557502",
         "about": "+852 9639 7479 WhatsApp | Telegram 報料",
         "categories": [
-          "Non-profit organisation",
-          "Media/news company"
+          "Nonprofit Organization",
+          "Media/News Company"
         ],
         "email": "newsroom@factwire.org"
       },
       "url": "https://www.facebook.com/factwire/"
+    },
+    {
+      "url": "https://twitter.com/factwirenews"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC5JpcU7ZNpkvYEw8VGF08_A",
+      "meta": {
+        "id": "UC5JpcU7ZNpkvYEw8VGF08_A",
+        "location": "Hong Kong",
+        "name": "FactWire",
+        "about": "The official channel for the FactWire news agency"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/factwire/photos/a.437287353144991/1177245315815854"
+      "url": "https://www.facebook.com/factwire/photos/a.437287353144991/1177245315815854",
+      "meta": {
+        "utime": "1564369454",
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
