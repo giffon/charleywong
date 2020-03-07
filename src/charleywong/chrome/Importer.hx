@@ -48,7 +48,7 @@ class Importer {
         switch (extractYtAboutPage(document.location)) {
             case null:
                 throw '只可以在 about page 輸入 YouTube Channel';
-            case id:
+            case Handle(handle):
                 var canonical = ytCanonical();
                 return {
                     url: canonical,
@@ -58,11 +58,23 @@ class Importer {
                     location: ytLocation(),
                     links: ytLinks(),
                 };
+            case Id(id):
+                return {
+                    url: 'https://www.youtube.com/channel/$id',
+                    id: id,
+                    name: ytName(),
+                    description: ytDescription(),
+                    location: ytLocation(),
+                    links: ytLinks(),
+                };
         }
     }
 
     static function ytCanonical() {
-        return document.querySelector("link[rel='canonical']").getAttribute("href");
+        return switch (document.querySelector("link[rel='canonical']")) {
+            case null: null;
+            case link: link.getAttribute("href");
+        }
     }
 
     static function ytName() {

@@ -99,13 +99,14 @@ class UrlExtractors {
     static public function extractYtAboutPage(url:ParsedUrl) {
         return if (url.origin == "https://www.youtube.com")
             switch(url.pathname.split("/")) {
+                case ["", "channel", id, "about"]:
+                    Id(id);
                 case
-                    ["", "channel", _, "about"]
-                |   ["", "c", _, "about"]
-                |   ["", _, "about"]
-                |   ["", "user", _, "about"]
+                    ["", "c", handle, "about"]
+                |   ["", handle, "about"]
+                |   ["", "user", handle, "about"]
                 :
-                    return true;
+                    Handle(handle);
                 case _: null;
             }
         else

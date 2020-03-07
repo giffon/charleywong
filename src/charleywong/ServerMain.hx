@@ -416,7 +416,11 @@ class ServerMain {
 
     static function getEntityOfUrls(urls:Array<String>):Null<Entity> {
         for (url in urls) {
-            var url = cleanUrl(url);
+            var url = try {
+                cleanUrl(url);
+            } catch (e:Dynamic) {
+                continue;
+            }
             switch (entityIndex.entitiesOfUrl[url]) {
                 case null:
                     continue;
