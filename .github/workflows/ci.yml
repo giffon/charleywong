@@ -39,13 +39,13 @@ jobs:
         run: haxe exportFlexsearch.hxml
       - uses: actions/upload-artifact@v1
         with:
-          name: flexsearch.json
+          name: flexsearch
           path: flexsearch.json
       - name: Compile index.js
         run: haxe build.hxml
       - uses: actions/upload-artifact@v1
         with:
-          name: index.js
+          name: index
           path: index.js
       - name: Compile Chrome extension
         run: haxe chrome-extension.hxml
@@ -69,10 +69,16 @@ jobs:
           submodules: true
       - uses: actions/download-artifact@v1
         with:
-          name: index.js
+          name: index
       - uses: actions/download-artifact@v1
         with:
-          name: flexsearch.json
+          name: flexsearch
+      - name: move artifacts
+        run: |
+          set -ex
+          mv index/* .
+          mv flexsearch/* .
+          rm -r index flexsearch
       - name: Install libraries
         run: |
           set -ex
