@@ -6,19 +6,43 @@
   "webpages": [
     {
       "meta": {
+        "name": "Studio Incendo",
         "id": "1474101479504603",
-        "about": "Photo for Freedom. Stand with Hong Kong.",
+        "about": "News and Images about Hong Kong.\nNot-for-profit and completely independent.\nLiberate Hong Kong. Revolution of Our Time.",
         "categories": [
-          "News and media website"
+          "News & Media Website"
         ],
         "email": "studioincendo@gmail.com"
       },
       "url": "https://www.facebook.com/studioincendo/"
+    },
+    {
+      "url": "https://www.instagram.com/studioincendohk/",
+      "meta": {
+        "name": "Studio Incendo",
+        "about": "Photo for Freedom. Stand with HK."
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCFfL0E0za_1pRTOHOBAXN8g",
+      "meta": {
+        "id": "UCFfL0E0za_1pRTOHOBAXN8g",
+        "location": "Hong Kong",
+        "name": "Studio Incendo",
+        "about": ""
+      }
+    },
+    {
+      "url": "https://twitter.com/studioincendo"
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/studioincendo/posts/2485352445046163"
+      "url": "https://www.facebook.com/studioincendo/posts/2485352445046163",
+      "meta": {
+        "utime": "1577695124",
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
