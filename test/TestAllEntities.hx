@@ -85,7 +85,17 @@ class TestAllEntities extends utest.Test {
         for (entity in index.entities) {
             for (page in entity.webpages)
             if (regexp.match(page.url))
-            Assert.isTrue(valid.match(page.url), page.url);
+            Assert.isTrue(valid.match(page.url), '${page.url} is of invalid format');
+        }
+    }
+
+    function testTwitterUrlFormat() {
+        var regexp = ~/^https?:\/\/(?:www\.|m\.|mobile\.)?(?:twitter\.com)/;
+        var valid = ~/^https:\/\/twitter\.com\/[A-z0-9_]+$/;
+        for (entity in index.entities) {
+            for (page in entity.webpages)
+            if (regexp.match(page.url))
+            Assert.isTrue(valid.match(page.url), '${page.url} is of invalid format');
         }
     }
 
