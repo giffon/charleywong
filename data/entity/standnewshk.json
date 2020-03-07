@@ -6,7 +6,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.thestandnews.com"
+      "url": "https://www.thestandnews.com"
     },
     {
       "meta": {
@@ -20,7 +20,26 @@
       "url": "https://www.facebook.com/standnewshk/"
     },
     {
-      "url": "https://www.youtube.com/standnewshk"
+      "url": "https://www.instagram.com/thestandnews/",
+      "meta": {
+        "name": "立場新聞",
+        "about": "非牟利新聞網站，立足香港。\n#獨立 #自主 #不牟利 #立場新聞 #Thestandnews"
+      }
+    },
+    {
+      "url": "https://twitter.com/standnewshk"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCGe96mv2FcdfQXmtSXYF_fA",
+      "meta": {
+        "id": "UCGe96mv2FcdfQXmtSXYF_fA",
+        "location": "Hong Kong",
+        "name": "Stand News 立場新聞",
+        "about": "《立場新聞》編採方針獨立自主，致力守護民主、人權、自由、法治與公義等香港核心價值。"
+      }
+    },
+    {
+      "url": "https://t.me/thestandnews"
     }
   ],
   "posts": [
