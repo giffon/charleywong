@@ -549,15 +549,6 @@ class ServerMain {
     }
 
     static function main():Void {
-        for (e in entityIndex.entities)
-        for (p in e.webpages)
-        switch(new URL(p.url)) {
-            case extractYouTubeProfile(_) => yt if (yt != null):
-                if (p.meta == null)
-                    Sys.println(haxe.io.Path.join([p.url, "about"]));
-            case _:
-                //pass
-        }
         app = new Application();
 
         var bodyParser = require("body-parser");
