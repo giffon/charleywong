@@ -62,7 +62,7 @@ class TestAllEntities extends utest.Test {
     }
 
     function testFbUrlFormat() {
-        var regexp = ~/^https?:\/\/(?:www.)?facebook.com\/(.+?)\/?$/;
+        var regexp = ~/^https?:\/\/(?:www\.)?facebook\.com\/(.+?)\/?$/;
         for (entity in index.entities) {
             for (page in entity.webpages)
             if (regexp.match(page.url))
@@ -71,11 +71,21 @@ class TestAllEntities extends utest.Test {
     }
 
     function testIgUrlFormat() {
-        var regexp = ~/^https?:\/\/(?:www.)?instagram.com\/(.+?)\/?$/;
+        var regexp = ~/^https?:\/\/(?:www\.)?instagram\.com\/(.+?)\/?$/;
         for (entity in index.entities) {
             for (page in entity.webpages)
             if (regexp.match(page.url))
             Assert.equals('https://www.instagram.com/${regexp.matched(1)}/', page.url);
+        }
+    }
+
+    function testYoutubeUrlFormat() {
+        var regexp = ~/^https?:\/\/(?:www\.|m\.)?(?:youtube\.com|youtu\.be)/;
+        var valid = ~/^https:\/\/www\.youtube\.com\/channel\/UC[A-z0-9\-_]+$/;
+        for (entity in index.entities) {
+            for (page in entity.webpages)
+            if (regexp.match(page.url))
+            Assert.isTrue(valid.match(page.url), page.url);
         }
     }
 
