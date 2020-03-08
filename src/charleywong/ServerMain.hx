@@ -419,7 +419,7 @@ class ServerMain {
             }
             switch (entityIndex.entitiesOfUrl[url]) {
                 case null:
-                    continue;
+                    //pass
                 case e:
                     return e;
             }
@@ -507,13 +507,18 @@ class ServerMain {
     static function createEntityFromFb(fbPage:charleywong.chrome.FacebookProfile):Entity {
         var entity = switch (getEntityOfUrls([fbPage.url].concat(fbPage.websites))) {
             case null:
-                {
-                    id: fbPage.handle,
-                    name: MultiLangString.parseName(fbPage.name),
-                    webpages: [],
-                    posts: [],
-                    tags: [],
-                };
+                switch (entityIndex.entitiesOfFbPage[fbPage.id]) {
+                    case null:
+                        {
+                            id: fbPage.handle,
+                            name: MultiLangString.parseName(fbPage.name),
+                            webpages: [],
+                            posts: [],
+                            tags: [],
+                        };
+                    case e:
+                        e;
+                }
             case e:
                 e;
         }
