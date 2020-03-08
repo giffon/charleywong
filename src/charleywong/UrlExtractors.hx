@@ -142,7 +142,7 @@ class UrlExtractors {
     }
 
     static public function extractFbHomePage(url:ParsedUrl) {
-        var regex = ~/^https?:\/\/(?:www\.|m\.)?(?:facebook\.com|fb\.me)$/i;
+        var regex = ~/^https?:\/\/(?:www\.|m\.)?(?:facebook\.com|fb\.me|fb\.com)$/i;
         if (regex.match(url.origin)) {
             var handle = switch(url.pathname.split("/")) {
                 case ["", handle]: handle;
