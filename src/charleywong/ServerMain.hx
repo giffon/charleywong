@@ -385,11 +385,7 @@ class ServerMain {
 
         var webpages = entity.webpages;
         if (igInfo.website != null) {
-            var igWebsite = cleanUrl(igInfo.website);
-            if (!entity.webpages.exists(p -> p.url == igWebsite))
-                webpages.push({
-                    url: igWebsite,
-                });
+            addWebpageToEntity(igInfo.website, entity);
         }
         var meta:DynamicAccess<Dynamic> = {};
         if (igInfo.name != null) {
@@ -431,6 +427,37 @@ class ServerMain {
         return null;
     }
 
+    static function addWebpageToEntity(url:String, entity:Entity):Void {
+        var webpages = entity.webpages;
+        var url = try {
+            cleanUrl(url);
+        } catch (e:Dynamic) {
+            return;
+        }
+
+        // check to see if there is an existing webpage that is only differ by protocol
+        var protocol = new URL(url).protocol;
+        for (p in webpages) {
+            var pUrl = new URL(p.url);
+            if (pUrl.protocol != protocol) {
+                pUrl.protocol = protocol;
+                if (cleanUrl(Std.string(pUrl)) == url) {
+                    if (protocol == "https:") {
+                        pUrl.protocol = "https:";
+                        p.url = cleanUrl(Std.string(pUrl));
+                    }
+                    return;
+                }
+            }
+        }
+
+        if (!webpages.exists(p -> p.url == url)) {
+            webpages.push({
+                url: url,
+            });
+        }
+    }
+
     static function createEntityFromYt(info:charleywong.chrome.YouTubeProfile):Entity {
         var entity = switch (getEntityOfUrls([info.url].concat(info.links))) {
             case null:
@@ -445,18 +472,9 @@ class ServerMain {
                 e;
         }
 
-        var webpages = entity.webpages;
         if (info.links != null) {
             for (url in info.links) {
-                var url = try {
-                    cleanUrl(url);
-                } catch (e:Dynamic) {
-                    continue;
-                }
-                if (!entity.webpages.exists(p -> p.url == url))
-                    webpages.push({
-                        url: url,
-                    });
+                addWebpageToEntity(url, entity);
             }
         }
         var meta:DynamicAccess<Dynamic> = {};
@@ -475,7 +493,7 @@ class ServerMain {
                 var p = {
                     url: 'https://www.youtube.com/channel/${info.id}',
                 };
-                webpages.push(p);
+                entity.webpages.push(p);
                 p;
             case p:
                 p;
@@ -520,11 +538,8 @@ class ServerMain {
         }
         var webpages = entity.webpages;
         if (fbPage.websites != null) {
-            for (url in fbPage.websites.map(cleanUrl))
-            if (!webpages.exists(p -> p.url == url))
-                webpages.push({
-                    url: url,
-                });
+            for (url in fbPage.websites)
+                addWebpageToEntity(url, entity);
         }
 
         var fbUrl = 'https://www.facebook.com/${fbPage.handle}/';
@@ -537,18 +552,16 @@ class ServerMain {
             case webpage:
                 webpage.meta = meta;
         }
-
-        for (p in entity.webpages) {
-            var url = p.url;
-            Utils.isUrlAccessible(url).catchError(function(err) {
-                Sys.println('⚠️  $url is not accessible. $err');
-            });
-        }
-
         return entity;
     }
 
     static function main():Void {
+        for (e in entityIndex.entities)
+        for (p in e.webpages)
+        if (p.url.startsWith("https://www.facebook.com/") && p.meta != null && p.meta["name"] == null)
+        {
+            Sys.println(haxe.io.Path.join([p.url, "about"]));
+        }
         app = new Application();
 
         var bodyParser = require("body-parser");
