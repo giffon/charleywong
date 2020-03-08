@@ -370,7 +370,7 @@ class ServerMain {
     }
 
     static function createEntityFromIg(igInfo:charleywong.chrome.InstagramProfile):Entity {
-        var entity = switch (entityIndex.entitiesOfUrl[igInfo.url]) {
+        var entity = switch (getEntityOfUrls([igInfo.url, igInfo.website])) {
             case null:
                 {
                     id: igInfo.handle,
@@ -487,7 +487,7 @@ class ServerMain {
     }
 
     static function createEntityFromFb(fbPage:charleywong.chrome.FacebookProfile):Entity {
-        var entity = switch (entityIndex.entitiesOfFbPage[fbPage.handle]) {
+        var entity = switch (getEntityOfUrls([fbPage.url].concat(fbPage.websites))) {
             case null:
                 {
                     id: fbPage.handle,
