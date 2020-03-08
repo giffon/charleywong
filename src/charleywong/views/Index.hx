@@ -21,7 +21,7 @@ class Index extends View {
                 <div className="p-3 text-center color_black_o60 container-tags">
                     <span className="d-block d-md-inline">今期流行</span>
                     <ul className="tags d-inline">
-                        <li><a href="search/Alcoholic%20drinks%20shop">2支thanks</a></li>
+                        <li><a href="https://www.facebook.com/charleywong2020/posts/136244911251869"><i className="fas fa-hiking"></i> 行山</a></li>
                     </ul>
                 </div>
                 <div className="mt-5 container">
