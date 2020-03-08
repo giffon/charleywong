@@ -5,14 +5,15 @@
   },
   "webpages": [
     {
-      "url": "http://www.hkcnews.com"
+      "url": "https://www.hkcnews.com"
     },
     {
       "meta": {
+        "name": "眾新聞",
         "id": "366243453719070",
         "about": "《眾新聞》無黨無派，熱愛香港，希望推動公共參與，一同維繫香港自由開放、多元包容等核心價值。我們不設既定政治立場或政策傾向。\n\n電郵報料：info@hkcnews.com\n報料熱線：21143331",
         "categories": [
-          "Media/news company"
+          "Media/News Company"
         ],
         "addr": "Cheung Sha Wan",
         "area": "Hong Kong",
@@ -20,6 +21,22 @@
         "tel": "21143331"
       },
       "url": "https://www.facebook.com/hkcnews/"
+    },
+    {
+      "url": "https://www.instagram.com/hkcnews/",
+      "meta": {
+        "name": "眾新聞",
+        "about": "我哋認真做新聞，冇水喉、冇老闆，靠你哋撐！\nFollow our facebook👇🏻"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC7K4DBOzdITZFOjGkea_CCA",
+      "meta": {
+        "id": "UC7K4DBOzdITZFOjGkea_CCA",
+        "location": "Hong Kong",
+        "name": "眾新聞",
+        "about": "https://www.hkcnews.com"
+      }
     }
   ],
   "posts": [
