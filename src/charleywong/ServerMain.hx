@@ -556,12 +556,6 @@ class ServerMain {
     }
 
     static function main():Void {
-        for (e in entityIndex.entities)
-        for (p in e.webpages)
-        if (p.url.startsWith("https://www.facebook.com/") && p.meta != null && p.meta["name"] == null)
-        {
-            Sys.println(haxe.io.Path.join([p.url, "about"]));
-        }
         app = new Application();
 
         var bodyParser = require("body-parser");
