@@ -1,8 +1,7 @@
 {
   "id": "caypartyroom",
   "name": {
-    "en": "CAY Partyroom",
-    "zh": "親子派對場地"
+    "en": "CAY Partyroom"
   },
   "webpages": [
     {
@@ -22,6 +21,13 @@
         "tel": "53335853"
       },
       "url": "https://www.facebook.com/caypartyroom/"
+    },
+    {
+      "url": "https://www.instagram.com/caypartyroom/",
+      "meta": {
+        "name": "CAY Partyroom",
+        "about": "5500呎親子場地，3米滑梯及近1000呎波波池☎️wtsapp查詢5333 5853 @caypartyroom"
+      }
     }
   ],
   "posts": [
@@ -30,6 +36,7 @@
     }
   ],
   "tags": [
+    "partyRoom",
     "shop"
   ]
 }

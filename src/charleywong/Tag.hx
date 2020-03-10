@@ -89,6 +89,13 @@ class Tag {
         }
     }
 
+    static public final partyRoom:TagData = {
+        name: {
+            en: "party room",
+            zh: "派對埸地",
+        }
+    }
+
     static public final lawyer:TagData = {
         name: {
             en: "lawyer",
