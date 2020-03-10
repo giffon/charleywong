@@ -8,9 +8,9 @@ class Index extends View {
         return super.render();
     }
 
-    static public function searchForm(query:String) return jsx('
+    static public function searchForm(query:String, autoFocus:Bool) return jsx('
         <form className="d-flex" action="/">
-            <input className="w-100 p-3 search-input" type="text" name="search" placeholder="商業/專頁名稱" defaultValue=${query} autoFocus=${true} />
+            <input className="w-100 p-3 search-input" type="text" name="search" placeholder="商業/專頁名稱" defaultValue=${query} autoFocus=${autoFocus} />
             <input className="btn m-0 p-3 search-btn" type="submit" value="🔎" />
         </form>
     ');
@@ -28,7 +28,7 @@ class Index extends View {
                     <div className="row justify-content-center">
                         <div className="col-12 col-md-10 col-lg-4 text-center">
                             <img className="w-100" src=${R("/images/logo4.png")} alt="Charley Wong"/>
-                            ${searchForm("")}
+                            ${searchForm("", true)}
                             <img className="w-100" src=${R("/images/logo-b-gif.gif")} alt="和你查"/>
                             
                             <div className="mt-3">
