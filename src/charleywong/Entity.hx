@@ -23,4 +23,5 @@ typedef Entity = {
     webpages:Array<WebPage>,
     posts:Array<Post>,
     tags:Array<TagId>,
+    ?alias:Array<String>,
 }

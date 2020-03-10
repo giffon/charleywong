@@ -94,10 +94,22 @@ class EntityIndex {
     }
 
     public var entitiesOfId(get, null):Map<String, Entity>;
-    function get_entitiesOfId() return entitiesOfId != null ? entitiesOfId : entitiesOfId = [
+    function get_entitiesOfId() return entitiesOfId != null ? entitiesOfId : entitiesOfId = {
+        var m = [
+            for (e in entities)
+            e.id => e
+        ];
+
+        //alias
         for (e in entities)
-        e.id => e
-    ];
+        if (e.alias != null)
+        for (id in e.alias)
+        {
+            m[id] = e;
+        }
+
+        m;
+    }
 
     #if js
     final emojiRegexp = ~/(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/g;

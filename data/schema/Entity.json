@@ -3,8 +3,7 @@
     "type": "object",
     "properties": {
         "id" : {
-            "type": "string",
-            "pattern": "^[A-Za-z0-9\\.\\-_]+$"
+            "$ref": "#/definitions/entityId"
         },
         "name" : {
             "$ref": "MultiLangString.json"
@@ -28,6 +27,13 @@
             },
             "minItems": 1,
             "uniqueItems": true
+        },
+        "alias" : {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/entityId"
+            },
+            "uniqueItems": true
         }
     },
     "required": [
@@ -37,5 +43,11 @@
         "posts",
         "tags"
     ],
-    "additionalProperties": false
+    "additionalProperties": false,
+    "definitions": {
+        "entityId": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9\\.\\-_]+$"
+        }
+    }
 }

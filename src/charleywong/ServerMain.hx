@@ -106,6 +106,12 @@ class ServerMain {
             res.status(404).send('Entity of id $entityId not found.');
             return;
         }
+
+        if (entityId != entity.id) {
+            res.redirect(entity.id);
+            return;
+        }
+
         res.json(entity);
     }
 
@@ -116,6 +122,12 @@ class ServerMain {
             res.status(404).send('Entity of id $entityId not found.');
             return;
         }
+
+        if (entityId != entity.id) {
+            res.redirect(entity.id);
+            return;
+        }
+
         res.sendView(EntityView, {
             entity: entity,
         });

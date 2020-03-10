@@ -26,6 +26,17 @@ class TestAllEntities extends utest.Test {
             Assert.isFalse(ids.exists(id), '${entity.id} exists in both ${file} and ${ids[id]}.');
             ids[id] = file;
         }
+
+        //alias should not overlap with id too
+        for (file => entity in index.entities)
+        if (entity.alias != null)
+        {
+            for (id in entity.alias) {
+                var id = id.toLowerCase(); // id should be case insensitive since it is used as file name
+                Assert.isFalse(ids.exists(id), '${entity.id} exists in both ${file} and ${ids[id]}.');
+                ids[id] = file;
+            }
+        }
     }
 
     function testIdFormat():Void {
