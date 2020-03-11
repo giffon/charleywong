@@ -199,6 +199,7 @@ class ServerMain {
             })
             .then(function(buf) {
                 res.setHeader("Content-Type", Jimp.MIME_PNG);
+                res.setHeader("Cache-Control", "public, max-age=604800"); // 7 days
                 res.write(buf);
                 res.end();
             })
