@@ -85,6 +85,9 @@ class View extends ReactComponent {
         </Fragment>
     ');
 
+    function prefetch():Array<String> return [];
+    function prefetchNode(link:String) return jsx('<link key=${link} rel="prefetch" href=${link} />');
+
     function head() return jsx('
         <head>
             ${gtag()}
@@ -98,6 +101,7 @@ class View extends ReactComponent {
             ${depJs()}
             ${css()}
             ${js()}
+            ${prefetch().map(prefetchNode)}
         </head>
     ');
 
