@@ -366,7 +366,7 @@ class ServerMain {
         res.status(500).send('Cannot handle ${req.body}.');
     }
 
-    static function saveEntity(entity:Entity, openAfterSave = true) {
+    static public function saveEntity(entity:Entity, openAfterSave = true) {
         var fileContent = haxe.Json.stringify(entity, null, "  ");
         if (Sys.getEnv("CI") != null || Sys.getEnv("GITHUB_ACTIONS") != null) {
             Sys.println("In CI, skip writing file.");

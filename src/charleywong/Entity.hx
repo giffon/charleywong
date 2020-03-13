@@ -3,6 +3,7 @@ package charleywong;
 import haxe.*;
 import haxe.ds.*;
 import charleywong.*;
+import charleywong.Location;
 import charleywong.Tag;
 
 typedef Post = {
@@ -24,4 +25,5 @@ typedef Entity = {
     posts:Array<Post>,
     tags:Array<TagId>,
     ?alias:Array<String>,
+    ?locations:Array<LocationId>,
 }
