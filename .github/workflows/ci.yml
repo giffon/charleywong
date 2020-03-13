@@ -33,7 +33,7 @@ jobs:
         run: |
           set -ex
           npm install
-          ./build-dclookup.sh
+          bash build-dclookup.sh
           haxelib newrepo
           haxelib install all --always
       - name: Export flexsearch index
