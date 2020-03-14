@@ -9,6 +9,7 @@ import js.Browser.*;
 import charleywong.UrlExtractors.*;
 import chrome.*;
 using Lambda;
+using StringTools;
 
 enum abstract MenuId(String) to String {
     var MenuOpenWebsite;
@@ -77,7 +78,12 @@ class Background {
                                 case null:
                                     sendResponse(false);
                                 case e:
-                                    sendResponse(e);
+                                    // check whether it's actually a post url or just a link to the photo/video page
+                                    if (["/photos/", "/videos/"].exists(surfix -> url.pathname.endsWith(surfix))) {
+                                        sendResponse(false);
+                                    } else {
+                                        sendResponse(e);
+                                    }
                             }
                         case extractFbHomePage(_) => fb if (fb != null):
                             switch (index.entitiesOfFbPage[fb]) {
