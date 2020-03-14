@@ -110,18 +110,25 @@ class UrlExtractors {
     }
 
     static public function extractFbAboutPage(url:ParsedUrl) {
-        return if (url.origin == "https://www.facebook.com")
+        var handle = if (url.origin == "https://www.facebook.com")
             switch(url.pathname.split("/")) {
                 case ["", "pg", handle, "about", ""]:
-                    var fbIdRegexp = ~/^.+-([0-9]+)$/;
-                    if (fbIdRegexp.match(handle))
-                        fbIdRegexp.matched(1);
-                    else
-                        handle;
+                    handle;
+                case ["", handle, "about"] | ["", handle, "about", ""]:
+                    handle;
                 case _: null;
             }
         else
             null;
+        if (handle == null) {
+            return null;
+        } else {
+            var fbIdRegexp = ~/^.+-([0-9]+)$/;
+            return if (fbIdRegexp.match(handle))
+                fbIdRegexp.matched(1);
+            else
+                handle;
+        }
     }
 
     static public function extractYtAboutPage(url:ParsedUrl) {
@@ -205,6 +212,8 @@ class UrlExtractors {
         var regex = ~/^https?:\/\/(?:www\.)?instagram\.com$/i;
         return if (regex.match(url.origin))
             switch(url.pathname.split("/")) {
+                case ["", "_u", handle]: handle.toLowerCase();
+                case ["", "_u", handle, ""]: handle.toLowerCase();
                 case ["", handle]: handle.toLowerCase();
                 case ["", handle, ""]: handle.toLowerCase();
                 case _: null;
