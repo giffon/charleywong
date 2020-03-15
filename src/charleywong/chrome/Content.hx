@@ -62,9 +62,9 @@ class Content {
                     var href = Path.join([serverEndpoint, entity.id]);
                     var title = 'Charly Wong 和你查 "${entity.name.printAll()}"';
                     var textNode = getInnerSingleChild(link);
-                    textNode.innerHTML = textNode.innerHTML + '
+                    textNode.innerHTML = textNode.innerHTML.trim() + '
                         <span href="${href}" target="_blank" class="charleywong-button" title="${title.htmlEscape(true)}"></span>
-                    ';
+                    '.trim();
 
                     link.addEventListener("click", onButtonClicked);
                     link.addEventListener("auxclick", onButtonClicked);
