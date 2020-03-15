@@ -274,14 +274,14 @@ class Importer {
 
         // new FB layout?
         if (elems.length == 0) {
-            var idRegexp = ~/{"id":"([0-9]+)"}/;
+            var idRegexp = ~/"page":{"id":"([0-9]+)"/;
             for (script in document.getElementsByTagName("script")) {
                 var content = script.innerText;
                 if (idRegexp.match(content)) {
                     return idRegexp.matched(1);
                 }
             }
-            throw 'Cannot find {"id":"([0-9]+)"} in scripts.';
+            throw 'Cannot find "page":{"id":"([0-9]+)" in scripts.';
         }
 
         if (elems.length != 1)
