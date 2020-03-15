@@ -193,7 +193,7 @@ class Content {
 
             // when there is no pinned post, there is no role='feed'
             if (feed == null)
-                feed = cast document.getElementsByXPath("//div[@role='main']//div[@role='main']")[0];
+                feed = cast document.getElementsByXPath("//div[@role='main']").pop();
 
             var posts = [
                 for (node in feed.querySelectorAll("div[role='article']"))
