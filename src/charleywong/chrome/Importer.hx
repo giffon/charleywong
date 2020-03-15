@@ -121,23 +121,34 @@ class Importer {
                 } else {
                     url.pathname;
                 }
-                var postNode = document.querySelector('.userContentWrapper a[href*="${href}"]').closest(".userContentWrapper");
-                var postTime = postNode.querySelector("abbr[data-utime]").dataset.utime;
-                var sharedWithNode = postNode.querySelector("*[data-tooltip-content^='Shared with: '], a.fbPrivacyAudienceIndicator");
-                var sharedWith = if (sharedWithNode.dataset.tooltipContent.startsWith("Shared with: "))
-                    sharedWithNode.dataset.tooltipContent.substr("Shared with: ".length);
-                else
-                    sharedWithNode.dataset.tooltipContent;
-                postToServer({
-                    url: if (url.pathname == "/permalink.php") {
-                        var params = parseSearch(url.search);
-                        Path.join([url.origin, url.pathname]) + '?story_fbid=' + params["story_fbid"].urlEncode() + "&id=" + params["id"].urlEncode();
-                    } else {
-                        Path.join([url.origin, url.pathname]);
-                    },
-                    utime: postTime,
-                    sharedWith: sharedWith,
-                });
+                var url = if (url.pathname == "/permalink.php") {
+                    var params = parseSearch(url.search);
+                    Path.join([url.origin, url.pathname]) + '?story_fbid=' + params["story_fbid"].urlEncode() + "&id=" + params["id"].urlEncode();
+                } else {
+                    Path.join([url.origin, url.pathname]);
+                }
+
+                if (document.querySelector('.userContentWrapper') != null) { //old layout
+                    var postNode = document.querySelector('.userContentWrapper a[href*="${href}"]').closest(".userContentWrapper");
+                    var postTime = postNode.querySelector("abbr[data-utime]").dataset.utime;
+                    var sharedWithNode = postNode.querySelector("*[data-tooltip-content^='Shared with: '], a.fbPrivacyAudienceIndicator");
+                    var sharedWith = if (sharedWithNode.dataset.tooltipContent.startsWith("Shared with: "))
+                        sharedWithNode.dataset.tooltipContent.substr("Shared with: ".length);
+                    else
+                        sharedWithNode.dataset.tooltipContent;
+                    postToServer({
+                        url: url,
+                        utime: postTime,
+                        sharedWith: sharedWith,
+                    });
+                } else {
+                    var postNode = document.querySelector('a[href*="${href}"]').closest("div[role='article']");
+                    var sharedWith = postNode.querySelector("img[width='12'][alt]").getAttribute("alt");
+                    postToServer({
+                        url: url,
+                        sharedWith: sharedWith,
+                    });
+                }
                 return;
         }
 

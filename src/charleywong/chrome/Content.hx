@@ -6,6 +6,7 @@ import haxe.io.Path;
 import chrome.Runtime;
 import js.lib.Promise;
 import js.npm.mutation_summary.MutationSummary;
+import js.npm.moment.Moment;
 import js.Browser.*;
 import charleywong.UrlExtractors.*;
 using Lambda;
@@ -151,6 +152,19 @@ class Content {
         }
     }
 
+    static public function timestampFromTimeSpan(timeSpan:SpanElement):Float {
+        var timeString = [
+            for (charSpan in timeSpan.querySelectorAll("span[data-content]:not([style='display: none;'])"))
+            (cast charSpan:SpanElement).dataset.content
+        ].join("");
+        return if (~/^[0-9]/.match(timeString))
+            Date.now().getTime();
+        else if (timeString.startsWith("Yesterday"))
+            Moment.moment().subtract(1, "day").toDate().getTime();
+        else
+            Moment.moment(timeString, timeString.indexOf("at") > 0 ? "MMMM D" : "LL").toDate().getTime();
+    }
+
     static function scrollToJune() {
         var june = Date.fromString("2019-06-01");
         var posts = [
@@ -159,19 +173,52 @@ class Content {
             if ((cast node:Element).querySelector("*[data-tooltip-content='Pinned Post']") == null) // ignore pinned posts
             node
         ];
-        var times = posts.map(node -> (cast node:Element).querySelector("abbr[data-utime]"));
-        var beforeJuneNode = times.find(node -> Std.parseFloat(node.dataset.utime) * 1000 < june.getTime());
-        if (beforeJuneNode != null) {
-            beforeJuneNode.scrollIntoView({
-                block: ScrollLogicalPosition.END,
-            });
-            Timer.delay(function() alert("到達2019年6月頭"), 100);
-        } else if (document.querySelector("#pagelet_timeline_main_column .uiMorePager") == null) {
-            window.scrollTo(window.scrollX, document.body.scrollHeight);
-            Timer.delay(function() alert("到達 timeline 底部"), 100);
+        if (posts.length != 0) { // old layout
+            var times = posts.map(node -> (cast node:Element).querySelector("abbr[data-utime]"));
+            var beforeJuneNode = times.find(node -> Std.parseFloat(node.dataset.utime) * 1000 < june.getTime());
+            if (beforeJuneNode != null) {
+                beforeJuneNode.scrollIntoView({
+                    block: ScrollLogicalPosition.END,
+                });
+                Timer.delay(function() alert("到達2019年6月頭"), 100);
+            } else if (document.querySelector("#pagelet_timeline_main_column .uiMorePager") == null) {
+                window.scrollTo(window.scrollX, document.body.scrollHeight);
+                Timer.delay(function() alert("到達 timeline 底部"), 100);
+            } else {
+                window.scrollTo(window.scrollX, document.body.scrollHeight);
+                Timer.delay(scrollToJune, 100);
+            }
         } else {
-            window.scrollTo(window.scrollX, document.body.scrollHeight);
-            Timer.delay(scrollToJune, 100);
+            var feed:DivElement = cast document.getElementsByXPath("//div[@role='feed'][not(descendant::h1//*[text()='PINNED POST'])]")[0];
+
+            // when there is no pinned post, there is no role='feed'
+            if (feed == null)
+                feed = cast document.getElementsByXPath("//div[@role='main']//div[@role='main']")[0];
+
+            var posts = [
+                for (node in feed.querySelectorAll("div[role='article']"))
+                (cast node:DivElement)
+            ];
+            var times = posts
+                .map(node -> node.querySelectorAll("div > span[dir='auto']")[1])
+                .filter(timeSpan -> timeSpan != null)
+                .map(timeSpan -> {
+                    node: (cast timeSpan:SpanElement),
+                    time: timestampFromTimeSpan(cast timeSpan),
+                });
+            var beforeJuneNode = times.find(t -> t.time < june.getTime());
+            if (beforeJuneNode != null) {
+                beforeJuneNode.node.scrollIntoView({
+                    block: ScrollLogicalPosition.END,
+                });
+                Timer.delay(function() alert("到達2019年6月頭"), 100);
+            } else if (document.querySelector("div[role='main'] div[role='article'] > div[role='progressbar']") == null) {
+                window.scrollTo(window.scrollX, document.body.scrollHeight);
+                Timer.delay(function() alert("到達 timeline 底部"), 100);
+            } else {
+                window.scrollTo(window.scrollX, document.body.scrollHeight);
+                Timer.delay(scrollToJune, 100);
+            }
         }
     }
 

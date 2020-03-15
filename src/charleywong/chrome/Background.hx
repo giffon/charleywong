@@ -207,7 +207,9 @@ class Background {
         ContextMenus.create({
             id: MenuScrollToJune,
             title: "回溯到2019年6月頭",
-            documentUrlPatterns: ["https://www.facebook.com/pg/*/posts/*"],
+            documentUrlPatterns: [
+                "https://www.facebook.com/*"
+            ],
             contexts: ["page"]
         });
     }
