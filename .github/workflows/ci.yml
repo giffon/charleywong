@@ -35,7 +35,7 @@ jobs:
           npm install
           bash build-dclookup.sh
           haxelib newrepo
-          haxelib install all --always
+          haxelib install all --always -notimeout
       - name: Export flexsearch index
         run: haxe exportFlexsearch.hxml
       - uses: actions/upload-artifact@v1
