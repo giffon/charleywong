@@ -32,14 +32,16 @@ class ServerMain {
     static public var app:Application;
 
     static function index(req:Request, res:Response) {
-        switch (req.query.search:String) {
-            case null: //pass
-            case "":
-                res.redirect("/list/all");
-                return;
-            case search:
-                res.redirect("/search/" + search.urlEncode());
-                return;
+        var search:Null<String> = req.query.search;
+        if (search != null) {
+            switch (search.trim()) {
+                case "":
+                    res.redirect("/list/all");
+                    return;
+                case search:
+                    res.redirect("/search/" + search.urlEncode());
+                    return;
+            }
         }
         res.sendView(Index);
     }
