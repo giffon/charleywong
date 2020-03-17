@@ -6,14 +6,15 @@
   },
   "webpages": [
     {
-      "url": "http://demosisto.hk"
+      "url": "https://demosisto.hk"
     },
     {
       "meta": {
+        "name": "香港眾志 Demosistō",
         "id": "495193710689456",
         "about": "香港眾志是立足民間的政治團體，以街頭抗爭、建設公民社會和國際連結為主軸，致力推動民主、進步價值及港人主體意識，從而建立平等公義的多元城市，實現民主治港的理想願景。",
         "categories": [
-          "Political organisation"
+          "Political Organization"
         ],
         "email": "info@demosisto.hk",
         "tel": "35946693"
@@ -22,9 +23,25 @@
     },
     {
       "meta": {
-        "about": "📦眾志口罩網（已售完）"
+        "name": "香港眾志 𝗗𝗘𝗠𝗢𝗦𝗜𝗦𝗧𝗢",
+        "about": "📺眾志YouTube Channel"
       },
       "url": "https://www.instagram.com/demosistohkofficial/"
+    },
+    {
+      "url": "https://t.me/DemosistoOfficial"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCQAYOQA5cZ3M954NnBzbrZQ",
+      "meta": {
+        "id": "UCQAYOQA5cZ3M954NnBzbrZQ",
+        "location": "Hong Kong",
+        "name": "香港眾志 Demosisto",
+        "about": ""
+      }
+    },
+    {
+      "url": "https://twitter.com/demosisto"
     }
   ],
   "posts": [
