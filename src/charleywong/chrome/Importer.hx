@@ -377,12 +377,20 @@ class Importer {
             if (links.length != 1)
                 throw 'There are ${links.length} Google Maps links.';
             var linkLines = (cast links[0]:AnchorElement).text.split("\n");
-            if (linkLines.length != 2)
-                throw 'There are ${linkLines.length} address lines.';
-            return {
-                line: linkLines[0],
-                area: linkLines[1],
-            };
+            switch (linkLines) {
+                case [line, area]:
+                    return {
+                        line: line,
+                        area: area,
+                    };
+                case [area]:
+                    return {
+                        line: null,
+                        area: area,
+                    };
+                case _:
+                    throw 'There are ${linkLines.length} address lines.';
+            }
         }
     }
 
