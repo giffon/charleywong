@@ -395,17 +395,18 @@ class Importer {
     }
 
     static function fbContactEmail() {
-        var emailLinks = document.getElementsByXPath("//*[@role='main']//a[starts-with(@href, 'mailto:')]");
-        return if (emailLinks.length == 0) {
+        var regexp = ~/^mailto:(.+@.+)\?.+$/;
+        var emails = [
+            for (e in document.getElementsByXPath("//*[@role='main']//a[starts-with(@href, 'mailto:')]"))
+            if (regexp.match(e.getAttribute("href")))
+                regexp.matched(1) => regexp.matched(1)
+        ].array();
+        return if (emails.length == 0) {
             null;
-        } else if (emailLinks.length == 1) {
-            var regexp = ~/^mailto:(.+)$/;
-            if (regexp.match(emailLinks[0].getAttribute("href")))
-                regexp.matched(1);
-            else
-                throw 'Cannot parse ${emailLinks[0].getAttribute("href")}';
+        } else if (emails.length == 1) {
+            emails[0];
         } else {
-            throw 'More than 1 email?';
+            throw 'More than 1 email? $emails';
         }
     }
 
