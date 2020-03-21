@@ -1,3 +1,14 @@
+.charleywong-overlay {
+    position: fixed;
+    display: none;
+    z-index: 10000;
+}
+
+.charleywong-overlay.hover {
+    display: block;
+    cursor: pointer;
+}
+
 .charleywong-button {
     display: inline-block;
     box-sizing: border-box;
@@ -21,6 +32,7 @@
     margin-left: 0.1em;
 }
 
-.charleywong-button:hover {
+.charleywong-button:hover,
+.charleywong-button.hover {
     box-shadow: inset 0 0 0 0.1em #5c3400;
 }

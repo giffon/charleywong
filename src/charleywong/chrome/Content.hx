@@ -65,9 +65,7 @@ class Content {
                     textNode.innerHTML = textNode.innerHTML.trim() + '
                         <span href="${href}" target="_blank" class="charleywong-button" title="${title.htmlEscape(true)}"></span>
                     '.trim();
-
-                    link.addEventListener("click", onButtonClicked);
-                    link.addEventListener("auxclick", onButtonClicked);
+                    link.addEventListener("pointerenter", onPointerEntered, true);
                 }
             });
         }
@@ -85,17 +83,20 @@ class Content {
         }
     }
 
-    static function onButtonClicked(evt:js.html.MouseEvent) {
+    static function onPointerEntered(evt:js.html.MouseEvent) {
         var targetElement:Element = cast evt.target;
         if (
             targetElement.classList.contains("charleywong-button")
-            &&
-            // It should work for both left and middle mouse buttons.
-            [1, 2].has(evt.which)
         ) {
-            evt.preventDefault();
-            var href = targetElement.getAttribute("href");
-            window.open(href, "_blank");
+            targetElement.classList.add("hover");
+            var rect = targetElement.getBoundingClientRect();
+            overlay.classList.add("hover");
+            overlay.href = targetElement.getAttribute("href");
+            overlay.title = targetElement.title;
+            overlay.style.left = rect.x + "px";
+            overlay.style.top = rect.y + "px";
+            overlay.style.width = rect.width + "px";
+            overlay.style.height = rect.height + "px";
         }
     }
 
@@ -222,6 +223,8 @@ class Content {
         }
     }
 
+    static var overlay:AnchorElement;
+
     static function main() {
         Runtime.onMessage.addListener(onMessage);
         Settings.getSettings().then(function(settings) {
@@ -230,5 +233,17 @@ class Content {
                 processLink(cast a);
             }
         });
+
+        overlay = document.createAnchorElement();
+        overlay.className = "charleywong-overlay";
+        overlay.target = "_blank";
+        overlay.addEventListener("pointerout", function(evt){
+            overlay.classList.remove("hover");
+            for (btn in document.querySelectorAll(".charleywong-button.hover")) {
+                var btn:Element = cast btn;
+                btn.classList.remove("hover");
+            }
+        });
+        document.body.appendChild(overlay);
     }
 }
