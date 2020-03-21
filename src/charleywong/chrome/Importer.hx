@@ -395,7 +395,7 @@ class Importer {
     }
 
     static function fbContactEmail() {
-        var regexp = ~/^mailto:(.+@.+)(?:\?.+)?$/;
+        var regexp = ~/^mailto:(.+@.+?)(?:\?.+)?$/;
         var emails = [
             for (e in document.getElementsByXPath("//*[@role='main']//a[starts-with(@href, 'mailto:')]"))
             if (regexp.match(e.getAttribute("href")))
