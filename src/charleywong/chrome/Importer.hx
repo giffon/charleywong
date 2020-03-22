@@ -403,10 +403,8 @@ class Importer {
         ].array();
         return if (emails.length == 0) {
             null;
-        } else if (emails.length == 1) {
-            emails[0];
         } else {
-            throw 'More than 1 email? $emails';
+            emails[0];
         }
     }
 
