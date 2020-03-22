@@ -170,7 +170,7 @@ class EntityView extends View {
         }
 
         return jsx('
-            <div key=${p.url} className="my-1">
+            <div key=${p.url} className="my-1 text-center">
                 ${item}
             </div>
         ');
