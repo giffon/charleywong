@@ -24,8 +24,10 @@
 
 --js chrome.Content.js
 --main charleywong.chrome.Content
---resource chrome/fb/about.png@about.png
---resource chrome/fb/tel.png@tel.png
+--resource chrome/fb/about-20.png@about-20.png
+--resource chrome/fb/about-40.png@about-40.png
+--resource chrome/fb/tel-20.png@tel-20.png
+--resource chrome/fb/tel-40.png@tel-40.png
 --cmd npx browserify chrome.Content.js -r fs.realpath > chrome/Content.js
 
 --next

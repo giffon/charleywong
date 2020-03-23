@@ -304,11 +304,6 @@ class Importer {
             for (e in document.querySelectorAll('*[role="main"] img[width="20"][height="20"]'))
             cast e
         ];
-        var target = PNG.sync.read(switch (info) {
-            case "about": new Buffer(Resource.getBytes("about.png").getData());
-            case "tel": new Buffer(Resource.getBytes("tel.png").getData());
-            case _: throw 'Unknown info $info';
-        });
         return Promise.all(images.map(function(img) {
             return new Promise(function(resolve, reject) {
                 window.fetch(img.src, {
@@ -317,7 +312,12 @@ class Importer {
                     .then(r -> r.arrayBuffer())
                     .then(function(imgArrayBuffer) {
                         var imgPng = PNG.sync.read(new Buffer(imgArrayBuffer));
-                        var mismatched = js.npm.pixelmatch.Pixelmatch.pixelmatch(target.data, imgPng.data, null, 20, 20, {
+                        var target = PNG.sync.read(switch (info) {
+                            case "about": new Buffer(Resource.getBytes('about-${imgPng.width}.png').getData());
+                            case "tel": new Buffer(Resource.getBytes('tel-${imgPng.width}.png').getData());
+                            case _: throw 'Unknown info $info';
+                        });
+                        var mismatched = js.npm.pixelmatch.Pixelmatch.pixelmatch(target.data, imgPng.data, null, imgPng.width, imgPng.height, {
                             threshold: 0.1,
                         });
                         resolve(mismatched == 0 ? img : null);
