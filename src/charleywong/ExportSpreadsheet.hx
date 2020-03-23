@@ -32,7 +32,7 @@ class ExportSpreadsheet {
             .then(function(_){
                 return sheet.setHeaderRow(["id", "name_en", "name_zh", "url_charleywong"]);
             })
-            .then(function(rows){
+            .then(function(_){
                 return sheet.addRows([
                     for (e in entityIndex.entities)
                     {
@@ -45,10 +45,25 @@ class ExportSpreadsheet {
             });
     }
 
+    static function populateWebpages() {
+        var sheet = doc.sheetsByIndex[2];
+        return sheet.clear()
+            .then(function(_){
+                return sheet.setHeaderRow(["id", "url"]);
+            })
+            .then(function(_){
+                return sheet.addRows([
+                    for (e in entityIndex.entities)
+                    [e.id].concat(e.webpages.map(p -> p.url))
+                ]);
+            });
+    }
+
     static function main():Void {
         doc.useServiceAccountAuth(Json.parse(File.getContent("Giffon-3bb380c38488.json")))
             .then(_ -> doc.loadInfo())
             .then(_ -> populateIndex())
+            .then(_ -> populateWebpages())
             .then(_ -> updateLastUpdateDate());
     }
 }
