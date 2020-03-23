@@ -40,7 +40,7 @@ class ExportSpreadsheet {
                         name_en: e.name[en],
                         name_zh: e.name[zh],
                         url_charleywong: 'https://charleywong.giffon.io/${e.id}',
-                        tags: e.tags.join(" "),
+                        tags: Tag.expend(e.tags).join(" "),
                     }
                 ]);
             });
