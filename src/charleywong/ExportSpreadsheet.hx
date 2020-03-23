@@ -30,7 +30,7 @@ class ExportSpreadsheet {
         var sheet = doc.sheetsByIndex[1];
         return sheet.clear()
             .then(function(_){
-                return sheet.setHeaderRow(["id", "name_en", "name_zh", "url_charleywong"]);
+                return sheet.setHeaderRow(["id", "name_en", "name_zh", "url_charleywong", "tags"]);
             })
             .then(function(_){
                 return sheet.addRows([
@@ -40,6 +40,7 @@ class ExportSpreadsheet {
                         name_en: e.name[en],
                         name_zh: e.name[zh],
                         url_charleywong: 'https://charleywong.giffon.io/${e.id}',
+                        tags: e.tags.join(" "),
                     }
                 ]);
             });
