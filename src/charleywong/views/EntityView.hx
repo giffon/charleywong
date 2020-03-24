@@ -191,7 +191,15 @@ class EntityView extends View {
                     <div className="">
                         <div className="container-entity position-relative mx-auto px-3 py-4 rounded-10 bg-white container-btm">
                             <div className="mb-3 text-center">
-                                <img className="profile-pic mb-2" src=${picUrl} loading="lazy" alt=${entity.name.printAll()} />
+                                <img
+                                    className="profile-pic mb-2"
+                                    src=${picUrl}
+                                    loading="lazy"
+                                    decoding="async"
+                                    width=${ServerMain.entityProfilePicSize}
+                                    height=${ServerMain.entityProfilePicSize}
+                                    alt=${entity.name.printAll()}
+                                />
                                 <h3>${entity.name.printAll()}</h3>
                                 <a className="btn btn-light" href=${jsonHref}>查看 JSON 格式 📃</a>
                             </div>
