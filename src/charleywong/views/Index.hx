@@ -27,9 +27,9 @@ class Index extends View {
                 <div className="mt-5 container">
                     <div className="row justify-content-center">
                         <div className="col-12 col-md-10 col-lg-4 text-center">
-                            <img className="w-100" src=${R("/images/logo4.png")} alt="Charley Wong"/>
+                            <img className="img-fluid" src=${R("/images/logo4.png")} alt="Charley Wong" width="709" height="468" />
                             ${searchForm("", true)}
-                            <img className="w-100" src=${R("/images/logo-b-gif.gif")} alt="和你查"/>
+                            <img className="img-fluid" src=${R("/images/logo-b-gif.gif")} alt="和你查" width="709" height="462" />
                             
                             <div className="mt-3">
                                 <a href="list/all">查看完整名單</a>
@@ -38,7 +38,7 @@ class Index extends View {
 
                         <div className="col-12 col-md-6 col-lg-4 order-first-lg">
                             <div>
-                                <img className="w-100 p-3" src=${R("/images/circle.png")} alt="yellow economic circle"/>
+                                <img className="img-fluid p-3" src=${R("/images/circle.png")} alt="yellow economic circle" width="700" height="500" />
                             </div>
                             <div className="text-center px-5 pb-5 py-md-0 color_black_o60">
                                 <div className="container-yc"><span className="yc">黃</span><span className="yc">色</span><span className="yc">經</span><span className="yc">濟</span><span className="yc">圈</span></div>
@@ -48,7 +48,7 @@ class Index extends View {
 
                         <div className="col-12 col-md-6 col-lg-4">
                             <div>
-                                <img className="w-100 p-3" src=${R("/images/open.png")} alt="open source"/>
+                                <img className="img-fluid p-3" src=${R("/images/open.png")} alt="open source" width="700" height="500"/>
                             </div>
                             <div className="text-center px-5 color_black_o60">
                                 <div><span className="yc">開</span><span className="yc">放</span><span className="yc">數</span><span className="yc">據</span></div>
