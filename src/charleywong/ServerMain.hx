@@ -176,6 +176,8 @@ class ServerMain {
         return getPicOfText(e.name[en]);
     }
 
+    static public final entityProfilePicSize = 720;
+
     static function entityProfilePic(req:Request, res:Response) {
         var entityId:String = req.params.entityId;
         var entity = entityIndex.entitiesOfId[entityId];
@@ -184,7 +186,7 @@ class ServerMain {
             return;
         }
 
-        var w = 720;
+        var w = entityProfilePicSize;
         var border = 42;
         getEntityPic(entity, w)
             .then(function(pic) {
