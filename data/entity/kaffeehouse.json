@@ -1,5 +1,5 @@
 {
-  "id": "1312828325451328",
+  "id": "kaffeehouse",
   "name": {
     "en": "Kaffee house",
     "zh": "家.啡"
@@ -17,6 +17,13 @@
         "tel": "23300233"
       },
       "url": "https://www.facebook.com/1312828325451328/"
+    },
+    {
+      "url": "https://www.instagram.com/kaffeehouse/",
+      "meta": {
+        "name": "Kaffee house 家.啡",
+        "about": "KaffeeHouse is more than a cup of gourmet coffee to our customers @ comfortable environment\nTel: 23300233\nMon,Thurs,Fri 1-6:30pm\nSat,Sun 12-6:30pm"
+      }
     }
   ],
   "posts": [
@@ -32,5 +39,8 @@
   ],
   "tags": [
     "food"
+  ],
+  "alias": [
+    "1312828325451328"
   ]
 }
