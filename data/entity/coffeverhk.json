@@ -1,5 +1,5 @@
 {
-  "id": "180657409272018",
+  "id": "coffeverhk",
   "name": {
     "en": "Coffever"
   },
@@ -9,8 +9,8 @@
         "name": "Coffever",
         "id": "180657409272018",
         "categories": [
-          "Coffee Shop",
           "Restaurant",
+          "Coffee Shop",
           "Tea Room"
         ],
         "addr": "Room C, 3/F, Po Ming Building, Foo Ming Street 2-6, Causeway Bay, Hong Kong",
@@ -19,6 +19,13 @@
         "tel": "69189374"
       },
       "url": "https://www.facebook.com/180657409272018/"
+    },
+    {
+      "url": "https://www.instagram.com/coffeverhk/",
+      "meta": {
+        "name": "Coffever",
+        "about": "#coffeverhk\n📍銅鑼灣富明街2-6號寶明大廈3樓c室\n☎ 6918 9374\n🕐 平日~11:30-21:30\n週末~11:30-22:00\n星期一例休\nFounded by Marco&Chloe\n.\n☕️Life begins after COFFEE"
+      }
     }
   ],
   "posts": [
@@ -34,5 +41,8 @@
   ],
   "tags": [
     "food"
+  ],
+  "alias": [
+    "180657409272018"
   ]
 }
