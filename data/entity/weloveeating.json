@@ -1,5 +1,5 @@
 {
-  "id": "191599775082540",
+  "id": "weloveeating",
   "name": {
     "zh": "吃貨之家"
   },
@@ -11,10 +11,15 @@
         "id": "191599775082540",
         "about": "吃貨之家\n只為愛吃的你提供優質食材及清酒\n歡迎查詢批發及零售",
         "categories": [
-          "Product/Service"
+          "Product/Service",
+          "Food Delivery Service",
+          "Foodservice Distributor"
         ],
         "tel": "65149388"
       }
+    },
+    {
+      "url": "https://weloveeating.boutir.com"
     }
   ],
   "posts": [
@@ -70,5 +75,8 @@
   ],
   "tags": [
     "food"
+  ],
+  "alias": [
+    "191599775082540"
   ]
 }
