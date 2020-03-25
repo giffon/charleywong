@@ -19,6 +19,12 @@ class TestAllEntities extends utest.Test {
         Assert.isFalse(index.entitiesOfId.empty());
     }
 
+    function testFileName() {
+        for (file => entity in index.entities) {
+            Assert.equals(file, 'data/entity/${entity.id}.json');
+        }
+    }
+
     function testIdUniqueness():Void {
         var ids = new Map<String, String>();
         for (file => entity in index.entities) {
