@@ -63,6 +63,10 @@ iframe.place:first-child:nth-last-child(2n+1) {
     max-width: 100%;
     width: 200px;
     height: auto;
+    background-image: url("/images/Rolling-1s-200px.gif");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 75% 75%;
 }
 
 .post-link {
