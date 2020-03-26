@@ -47,6 +47,47 @@ class ExportSpreadsheet {
             });
     }
 
+    static function populatePlaces() {
+        var sheet = doc.sheetsByIndex[3];
+        return sheet.clear()
+            .then(_ -> sheet.loadCells())
+            .then(_ -> sheet.setHeaderRow(["id", "name_en", "name_zh", "url_charleywong", "tags", "places"]))
+            .then(function(_){
+                var data = [
+                    for (e in entityIndex.entities)
+                    {
+                        id: e.id,
+                        name_en: e.name[en],
+                        name_zh: e.name[zh],
+                        url_charleywong: 'https://charleywong.giffon.io/${e.id}',
+                        tags: Tag.expend(e.tags).join(" ")
+                    }
+                ];
+                var rows = [];
+                for (d in data) {
+                    rows.push(d);
+                    rows.push({
+                        id: null,
+                        name_en: null,
+                        name_zh: null,
+                        url_charleywong: null,
+                        tags: null,
+                    });
+                }
+                return sheet.addRows(rows);
+            })
+            .then(function(rows){
+                for (row in rows) {
+                    var id = row.id;
+                    var e = entityIndex.entitiesOfId[id];
+                    if (e != null && e.places != null) {
+                        setCellRow(sheet, row.rowNumber - 1, 5, e.places.map(p -> p.googleMapsPlaceId));
+                    }
+                }
+                return sheet.saveUpdatedCells();
+            });
+    }
+
     static function populateWebpages() {
         var sheet = doc.sheetsByIndex[2];
         return sheet.clear()
@@ -73,6 +114,13 @@ class ExportSpreadsheet {
             }
         };
         return values;
+    }
+
+    static function setCellRow(sheet:GoogleSpreadsheetWorksheet, rowIndex:Int, columnIndex:Int, values:Array<String>) {
+        for (i in 0...values.length) {
+            var cell = sheet.getCell(rowIndex, columnIndex + i);
+            cell.value = values[i];
+        }
     }
 
     static function importGoogleMapsPlaceIds() {
@@ -112,6 +160,7 @@ class ExportSpreadsheet {
             // .then(_ -> importGoogleMapsPlaceIds());
             .then(_ -> populateIndex())
             .then(_ -> populateWebpages())
+            .then(_ -> populatePlaces())
             .then(_ -> updateLastUpdateDate());
     }
 }
