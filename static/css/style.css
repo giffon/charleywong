@@ -111,7 +111,7 @@ iframe.place:first-child:nth-last-child(2n+1) {
 
 .container-entity {
     max-width: min(584px,100%); /* fb-post's max-width is 550px */
-    width: fit-content;
+    width: max-content;
 }
 
 .container-btm:after {
@@ -135,7 +135,7 @@ iframe.place:first-child:nth-last-child(2n+1) {
 
 .fb_iframe_widget {
     display: block;
-    width: fit-content;
+    width: max-content;
     margin: 0 auto;
 }
 
