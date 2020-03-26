@@ -74,14 +74,34 @@ class ExportSpreadsheet {
                         tags: null,
                     });
                 }
-                return sheet.addRows(rows);
+                var sheetRows = sheet.addRows(rows);
+                return sheetRows
+                    .then(_ -> sheet.resize({
+                        rowCount: rows.length + 1,
+                        columnCount: sheet.columnCount,
+                    }))
+                    .then(_ -> sheet.loadCells())
+                    .then(_ -> sheetRows);
             })
             .then(function(rows){
                 for (row in rows) {
                     var id = row.id;
                     var e = entityIndex.entitiesOfId[id];
-                    if (e != null && e.places != null) {
-                        setCellRow(sheet, row.rowNumber - 1, 5, e.places.map(p -> p.googleMapsPlaceId));
+                    if (e != null) {
+                        if (e.places != null) {
+                            setCellRow(sheet, row.rowNumber - 1, 5, e.places.map(p -> p.googleMapsPlaceId));
+                            setCellRow(sheet, row.rowNumber, 5, e.places.map(p -> p.address == null ? null : p.address.printAll()));
+                        } else {
+                            var addresses:Array<String> = [
+                                for (p in e.webpages) if (p.meta != null) switch (p.meta["addr"]) {
+                                    case null:
+                                        null;
+                                    case addr:
+                                        addr;
+                                }
+                            ].filter(v -> v != null);
+                            setCellRow(sheet, row.rowNumber, 5, addresses);
+                        }
                     }
                 }
                 return sheet.saveUpdatedCells();
@@ -171,10 +191,10 @@ class ExportSpreadsheet {
     static function main():Void {
         doc.useServiceAccountAuth(Json.parse(File.getContent("Giffon-3bb380c38488.json")))
             .then(_ -> doc.loadInfo())
-            .then(_ -> importGoogleMapsPlaceIds());
-            // .then(_ -> populateIndex())
-            // .then(_ -> populateWebpages())
-            // .then(_ -> populatePlaces())
-            // .then(_ -> updateLastUpdateDate());
+            // .then(_ -> importGoogleMapsPlaceIds());
+            .then(_ -> populateIndex())
+            .then(_ -> populateWebpages())
+            .then(_ -> populatePlaces())
+            .then(_ -> updateLastUpdateDate());
     }
 }
