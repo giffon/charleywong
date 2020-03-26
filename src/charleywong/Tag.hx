@@ -61,6 +61,13 @@ class Tag {
         return r.array();
     }
 
+    static public final closed:TagData = {
+        name: {
+            en: "closed",
+            zh: "已結業"
+        }
+    }
+
     static public final shop:TagData = {
         name: {
             en: "shop",
