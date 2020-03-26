@@ -124,30 +124,44 @@ class ExportSpreadsheet {
     }
 
     static function importGoogleMapsPlaceIds() {
-        var sheet = doc.sheetsByIndex[1];
+        var sheet = doc.sheetsByIndex[3];
+        var noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
         return sheet.loadCells()
             .then(function(_){
                 for (y in 1...sheet.rowCount) {
-                    switch (sheet.getCell(y, 5).value) {
-                        case null | "":
+                    switch [sheet.getCell(y, 0).value, sheet.getCell(y, 5).value] {
+                        case [null | "", _] | [_, null | ""]:
                             // pass
-                        case _:
-                            var eid = sheet.getCell(y, 0).value;
+                        case [eid, _]:
                             switch (entityIndex.entitiesOfId[eid]) {
                                 case null:
                                     throw 'There is no entity of id $eid';
                                 case e:
+                                    var placeIds = getCellRow(sheet, y, 5);
+                                    var addresses = getCellRow(sheet, y+1, 5);
                                     e.places = [
-                                        for (v in getCellRow(sheet, y, 5))
-                                        {
-                                            googleMapsPlaceId: v,
+                                        for (i in 0...Std.int(Math.max(placeIds.length, addresses.length))) {
+                                            var place:Place = {};
+                                            switch(addresses[i]) {
+                                                case null:
+                                                    //pass
+                                                case address:
+                                                    place.address = if (noChi.match(address)) {
+                                                        en: address
+                                                    } else {
+                                                        zh: address
+                                                    }
+                                            }
+                                            switch(placeIds[i]){
+                                                case null:
+                                                    //pass
+                                                case placeId:
+                                                    place.googleMapsPlaceId = placeId;
+                                            }
+                                            place;
                                         }
                                     ];
-                                    try {
-                                        saveEntity(e, false);
-                                    } catch (e:Dynamic) {
-                                        trace(e);
-                                    }
+                                    saveEntity(e, false);
                             }
                     }
                 }
@@ -157,10 +171,10 @@ class ExportSpreadsheet {
     static function main():Void {
         doc.useServiceAccountAuth(Json.parse(File.getContent("Giffon-3bb380c38488.json")))
             .then(_ -> doc.loadInfo())
-            // .then(_ -> importGoogleMapsPlaceIds());
-            .then(_ -> populateIndex())
-            .then(_ -> populateWebpages())
-            .then(_ -> populatePlaces())
-            .then(_ -> updateLastUpdateDate());
+            .then(_ -> importGoogleMapsPlaceIds());
+            // .then(_ -> populateIndex())
+            // .then(_ -> populateWebpages())
+            // .then(_ -> populatePlaces())
+            // .then(_ -> updateLastUpdateDate());
     }
 }
