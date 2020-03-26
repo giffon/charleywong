@@ -18,6 +18,11 @@ typedef WebPage = {
     ?meta:DynamicAccess<Dynamic>,
 }
 
+typedef Place = {
+    ?address:MultiLangString,
+    ?googleMapsPlaceId:String,
+}
+
 typedef Entity = {
     id:String,
     name:MultiLangString,
@@ -25,5 +30,5 @@ typedef Entity = {
     posts:Array<Post>,
     tags:Array<TagId>,
     ?alias:Array<String>,
-    ?locations:Array<LocationId>,
+    ?places:Array<Place>,
 }

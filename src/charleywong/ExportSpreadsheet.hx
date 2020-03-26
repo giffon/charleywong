@@ -1,5 +1,6 @@
 package charleywong;
 
+import js.npm.google_spreadsheet.GoogleSpreadsheetWorksheet;
 import haxe.Json;
 import sys.io.File;
 import js.npm.google_spreadsheet.GoogleSpreadsheet;
@@ -60,9 +61,55 @@ class ExportSpreadsheet {
             });
     }
 
+    static function getCellRow(sheet:GoogleSpreadsheetWorksheet, rowIndex:Int, columnIndex:Int):Array<String> {
+        var values = [];
+        while (true) {
+            switch (sheet.getCell(rowIndex, columnIndex).value) {
+                case null | "":
+                    break;
+                case v:
+                    values.push(v);
+                    columnIndex++;
+            }
+        };
+        return values;
+    }
+
+    static function importGoogleMapsPlaceIds() {
+        var sheet = doc.sheetsByIndex[1];
+        return sheet.loadCells()
+            .then(function(_){
+                for (y in 1...sheet.rowCount) {
+                    switch (sheet.getCell(y, 5).value) {
+                        case null | "":
+                            // pass
+                        case _:
+                            var eid = sheet.getCell(y, 0).value;
+                            switch (entityIndex.entitiesOfId[eid]) {
+                                case null:
+                                    throw 'There is no entity of id $eid';
+                                case e:
+                                    e.places = [
+                                        for (v in getCellRow(sheet, y, 5))
+                                        {
+                                            googleMapsPlaceId: v,
+                                        }
+                                    ];
+                                    try {
+                                        saveEntity(e, false);
+                                    } catch (e:Dynamic) {
+                                        trace(e);
+                                    }
+                            }
+                    }
+                }
+            });
+    }
+
     static function main():Void {
         doc.useServiceAccountAuth(Json.parse(File.getContent("Giffon-3bb380c38488.json")))
             .then(_ -> doc.loadInfo())
+            // .then(_ -> importGoogleMapsPlaceIds());
             .then(_ -> populateIndex())
             .then(_ -> populateWebpages())
             .then(_ -> updateLastUpdateDate());

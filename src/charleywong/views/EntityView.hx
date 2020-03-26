@@ -35,6 +35,20 @@ class EntityView extends View {
         };
     }
 
+    function renderPlaces(p:Place) {
+        var key = "AIzaSyCq-mjjqgWRRLQAILJFm-gpkH3Cq26GwSk";
+        var src = 'https://www.google.com/maps/embed/v1/place?key=${key}&q=place_id:${p.googleMapsPlaceId}';
+        return jsx('
+            <iframe
+                key=${p.googleMapsPlaceId}
+                className="place"
+                frameBorder="0"
+                src=${src}
+                allowFullScreen=${true}>
+            </iframe>
+        ');
+    }
+
     function renderWebpage(p:charleywong.Entity.WebPage) {
         var item = switch (new URL(p.url)) {
             case extractFbHomePage(_) => fb if (fb != null):
@@ -205,6 +219,9 @@ class EntityView extends View {
                             </div>
                             <div className="text-center mb-3">
                                 ${entity.webpages.map(renderWebpage)}
+                            </div>
+                            <div className="text-center mb-3">
+                                ${entity.places != null ? entity.places.map(renderPlaces) : null}
                             </div>
                             <div>
                                 ${entity.posts.map(renderPost)}

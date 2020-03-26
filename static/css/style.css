@@ -12,6 +12,29 @@ form {
     margin: 0;
 }
 
+iframe.place {
+    width: 50%;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+iframe.place:only-child,
+iframe.place:first-child:nth-last-child(2n+1) {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+iframe.place:nth-child(2n):nth-last-child(2n),
+iframe.place:nth-child(2n+1):nth-last-child(2n) {
+    padding-right: 2px;
+}
+
+iframe.place:nth-child(2n+1):nth-last-child(2n+1),
+iframe.place:nth-child(2n):nth-last-child(2n+1) {
+    padding-left: 2px;
+}
+
 .fb-post {
     background-color: white;
 }

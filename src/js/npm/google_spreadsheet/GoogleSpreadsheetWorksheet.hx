@@ -4,7 +4,7 @@ import js.lib.Promise;
 
 extern class GoogleSpreadsheetWorksheet {
     public function loadCells(?opts:Dynamic):Promise<Void>;
-    public function getCell(x:Int, y:Int):GoogleSpreadsheetCell;
+    public function getCell(rowIndex:Int, columnIndex:Int):GoogleSpreadsheetCell;
     public function getCellByA1(address:String):GoogleSpreadsheetCell;
     public function loadHeaderRow(headerValues:Array<String>):Promise<Void>;
     public function setHeaderRow(headerValues:Array<String>):Promise<Void>;
