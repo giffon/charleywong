@@ -196,6 +196,13 @@ class EntityView extends View {
         var logoHeaderStyle = {
             backgroundImage: 'url(${R("/images/logo-c-t.png")})',
         };
+        var closed = if (entity.tags.has("closed")) {
+            jsx('
+                <span className="badge badge-pill badge-dark font-weight-normal">已結業</span>
+            ');
+        } else {
+            null;
+        }
         return jsx('
             <Fragment>
                 <div className="container">
@@ -215,6 +222,7 @@ class EntityView extends View {
                                     alt=${entity.name.printAll()}
                                 />
                                 <h3>${entity.name.printAll()}</h3>
+                                <div className="text-center mb-3">${closed}</div>
                                 <a className="btn btn-light" href=${jsonHref}>查看 JSON 格式 📃</a>
                             </div>
                             <div className="text-center mb-3">
