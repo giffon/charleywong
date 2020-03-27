@@ -1,20 +1,24 @@
 {
-  "id": "AllAboutBagBag",
+  "id": "pursful",
   "name": {
-    "en": "All About Bag Bag"
+    "en": "Pursful"
   },
   "webpages": [
     {
       "meta": {
-        "about": "We Tailor-make bags | 香港專業手作品牌\n.\nReady to buy?\nWebsite: www.pinkoi.com/store/allaboutbagbag",
+        "name": "Pursful",
+        "id": "390136617712540",
+        "about": "Pursful\nHong Kong handmade🇭🇰, worldwide shipping🌏.\n.\nOrder: \nwtsapp 64354460 / pinkoi ⇓\nhk.pinkoi.com/store/allaboutbagbag",
         "categories": [
-          "Bags/luggage",
-          "Design & fashion",
-          "Arts and crafts shop"
-        ],
-        "id": "390136617712540"
+          "Bags/Luggage",
+          "Design & Fashion",
+          "Arts & Crafts Store"
+        ]
       },
       "url": "https://www.facebook.com/AllAboutBagBag/"
+    },
+    {
+      "url": "https://hk.pinkoi.com/store/allaboutbagbag"
     }
   ],
   "posts": [
@@ -30,5 +34,8 @@
   ],
   "tags": [
     "accessories"
+  ],
+  "alias": [
+    "AllAboutBagBag"
   ]
 }
