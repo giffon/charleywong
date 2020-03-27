@@ -1,5 +1,5 @@
 {
-  "id": "788714657876486",
+  "id": "chiba_hk",
   "name": {
     "en": "Chiba",
     "zh": "吃吧"
@@ -12,15 +12,22 @@
         "about": "Chiba 吃吧。環境更優美，座位更舒適，餐牌還加入了全新的美味fusion菜單，及手工啤酒。價錢還是一貫的大衆化。歡迎包場查詢。",
         "categories": [
           "Tapas Bar & Restaurant",
-          "Diner",
-          "Coffee Shop"
+          "Coffee Shop",
+          "Diner"
         ],
         "addr": "油麻地彌敦道566僑建大廈2樓",
-        "area": "Mong Kok",
+        "area": "000000 Mong Kok",
         "email": "chiba_lcafe@yahoo.com",
         "tel": "61277112"
       },
       "url": "https://www.facebook.com/788714657876486/"
+    },
+    {
+      "url": "https://www.instagram.com/chiba_hk/",
+      "meta": {
+        "name": "Chiba 吃吧",
+        "about": "旺角彌敦道566号，僑建大廈2樓2室！訂座電話61277112 #德國咸豬手#手工啤酒"
+      }
     }
   ],
   "posts": [
@@ -33,5 +40,8 @@
   ],
   "tags": [
     "food"
+  ],
+  "alias": [
+    "788714657876486"
   ]
 }
