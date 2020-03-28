@@ -388,8 +388,13 @@ class Importer {
                         line: null,
                         area: area,
                     };
+                case []:
+                    return null;
                 case _:
-                    throw 'There are ${linkLines.length} address lines.';
+                    return {
+                        line: linkLines.slice(0, linkLines.length - 1).join("\n"),
+                        area: linkLines[linkLines.length - 1],
+                    };
             }
         }
     }
