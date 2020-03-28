@@ -170,10 +170,14 @@ class EntityIndex {
                 meta: e.webpages.map(p -> switch (p.meta) {
                     case null: "";
                     case m:
-                        switch (m["about"]) {
+                        (switch (m["name"]) {
+                            case null: "";
+                            case name: name;
+                        }) + "\n" +
+                        (switch (m["about"]) {
                             case null: "";
                             case about: about;
-                        }
+                        });
                 }).join("\n"),
             }));
         }
