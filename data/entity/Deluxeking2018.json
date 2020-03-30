@@ -6,15 +6,23 @@
   "webpages": [
     {
       "meta": {
+        "name": "極上帝王水產",
         "id": "1406632792780206",
         "categories": [
-          "Seafood restaurant"
+          "Restaurant"
         ],
         "addr": "9/F, CTMA Centre, 1 Sai Yeung Choi Street, Mong Kok, Kowloon",
-        "area": "Mong Kok",
+        "area": "852 Hong Kong",
         "tel": "21111821"
       },
       "url": "https://www.facebook.com/Deluxeking2018/"
+    },
+    {
+      "url": "https://www.instagram.com/deluxe_king9f/",
+      "meta": {
+        "name": "極上帝王水產",
+        "about": "旺角兆萬中心9樓全層"
+      }
     }
   ],
   "posts": [
@@ -23,6 +31,7 @@
     }
   ],
   "tags": [
+    "food",
     "shop"
   ]
 }
