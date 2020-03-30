@@ -10,6 +10,7 @@
     },
     {
       "meta": {
+        "name": "草途木研社 Coutou Woodworking Studio",
         "id": "1482532171765961",
         "about": "木匠與學生交流的地方，讓大家回到學習原點。",
         "categories": [
@@ -17,6 +18,21 @@
         ]
       },
       "url": "https://www.facebook.com/coutou/"
+    },
+    {
+      "url": "https://www.instagram.com/coutouwoodworking/",
+      "meta": {
+        "name": "Coutou",
+        "about": "木匠與學生交流的地方，讓大家回到學習原點。"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCjvTK-6iVbR-4-m4aJy4V7Q",
+      "meta": {
+        "id": "UCjvTK-6iVbR-4-m4aJy4V7Q",
+        "name": "Cou tou Woodworking草途木研社",
+        "about": ""
+      }
     }
   ],
   "posts": [
@@ -28,6 +44,8 @@
     }
   ],
   "tags": [
-    "woodworking"
+    "woodworking",
+    "furniture",
+    "shop"
   ]
 }
