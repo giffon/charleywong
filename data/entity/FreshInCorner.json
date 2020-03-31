@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
+        "name": "The Corner",
+        "id": "315972698838119",
         "about": "“The Corner w/ Punchy Coffee Roaster” is the new coffee stand established in 2017.",
         "categories": [
-          "Coffee shop"
+          "Coffee Shop"
         ],
-        "addr": "G/F, Hong Kong Arts Centre, 2 Harbour Road, Wan Chai",
-        "area": "Hong Kong",
+        "addr": "G/F,2 Harbour Road Wan Chai ,Hong Kong \n(HK Arts Centre)",
+        "area": "852 Hong Kong",
         "email": "shek@punchycoffee.com",
-        "tel": "65643143",
-        "id": "315972698838119"
+        "tel": "65643143"
       },
       "url": "https://www.facebook.com/FreshInCorner/"
+    },
+    {
+      "url": "https://www.instagram.com/thecornercoffee_hk/",
+      "meta": {
+        "name": "The Corner",
+        "about": "☕️Wan Chai - HK Art Center G/F\nMon-Fri 9-18\nSat-Sun 10-19\nStatutory holidays close\n☕️Sheung Wan - 378 Queens Rd Central\nMon-Fri 8:30-18\nSat-Sun 10-19"
+      }
     }
   ],
   "posts": [

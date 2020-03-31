@@ -6,22 +6,30 @@
   },
   "webpages": [
     {
-      "url": "http://www.flowplusliving.com"
+      "url": "https://www.flowplusliving.com"
     },
     {
       "meta": {
+        "name": "好器色 FLOW+ Living",
         "id": "204670243030765",
         "about": "好器色，用泥土的質感、釉彩的溫潤、器具的造型, 為你的一頓飯進行補白。",
         "categories": [
-          "Home goods shop",
-          "Home decor",
-          "Cultural gift shop"
+          "Home Goods Store",
+          "Home Decor",
+          "Cultural Gifts Store"
         ],
         "addr": "Unit H207, PMQ, 35 Aberdeen Street, Central, Hong Kong",
         "area": "Central, Hong Kong",
         "email": "connect@flowplusliving.com"
       },
       "url": "https://www.facebook.com/FlowPlusLiving/"
+    },
+    {
+      "url": "https://www.instagram.com/flowplusliving/",
+      "meta": {
+        "name": "FLOWplus - Handmade Tablewares",
+        "about": "Located at PMQ, a creativity site in HK, we custom made tableware projects for restaurant and hotels."
+      }
     }
   ],
   "posts": [
