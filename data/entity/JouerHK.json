@@ -5,15 +5,15 @@
   },
   "webpages": [
     {
-      "url": "http://www.jouer.hk"
+      "url": "https://www.jouer.hk"
     },
     {
       "meta": {
+        "name": "Jouer",
         "id": "391621617543652",
         "about": "Jouer, meant “to play” in French; represents the creativeness and playful modern macarons!\nJoie de Vivre!",
         "categories": [
-          "Coffee shop",
-          "Restaurant"
+          "Coffee Shop"
         ],
         "addr": "G/F, 1 Sau Wa Fong, Wanchai",
         "area": "Hong Kong",
@@ -21,6 +21,13 @@
         "tel": "25286577"
       },
       "url": "https://www.facebook.com/JouerHK/"
+    },
+    {
+      "url": "https://www.instagram.com/jouerhk/",
+      "meta": {
+        "name": "Jouer",
+        "about": "Jouer Atelier\nG/F, 1 Sau Wa Fong, Wanchai. +852 2528 6577 hello@jouer.hk"
+      }
     }
   ],
   "posts": [
