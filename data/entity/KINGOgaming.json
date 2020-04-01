@@ -5,21 +5,35 @@
   },
   "webpages": [
     {
-      "url": "http://www.kingo.com.hk"
+      "url": "https://www.kingo.com.hk"
     },
     {
-      "url": "https://www.instagram.com/kingogaming1/"
+      "url": "https://www.instagram.com/kingo_hk/",
+      "meta": {
+        "name": "KINGO",
+        "about": "KINGO 網上娛樂媒體\n提供大量娛樂資訊😎\n玩樂？科技？美食？等等包羅萬有👆\n記得支持我地呀🤗 @kingo_hk\n#nintendo #playstation #game #hongkong #switch #ps4 #香港 #gaming"
+      }
     },
     {
       "meta": {
+        "name": "KINGO",
         "id": "949780071736424",
         "about": "KINGO是香港網上娛樂媒體，主力提供 玩樂、科技、影音、美食、著數優惠 等內容，為各位介紹大量休閒活動，讓大家在空餘時間享受生活。\n\n合作及商務：news@kingo.com.hk",
         "categories": [
-          "Media/news company"
+          "Media/News Company"
         ],
         "email": "news@kingo.com.hk"
       },
       "url": "https://www.facebook.com/KINGOgaming/"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCYAFfEEI-5L30SIOa_49pDQ",
+      "meta": {
+        "id": "UCYAFfEEI-5L30SIOa_49pDQ",
+        "location": "Hong Kong",
+        "name": "KINGO GAMING",
+        "about": ""
+      }
     }
   ],
   "posts": [
@@ -28,6 +42,7 @@
     }
   ],
   "tags": [
+    "videoGame",
     "media"
   ]
 }
