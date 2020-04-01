@@ -5,14 +5,19 @@
   },
   "webpages": [
     {
-      "url": "https://www.instagram.com/la_fe_3/"
+      "url": "https://www.instagram.com/la_fe_3/",
+      "meta": {
+        "name": "LaFe",
+        "about": "門市地址：葵涌廣場2/F C143-2\n營業時間：🕰2:00-8:00\nWHATSAPP 57916989\n單次購物滿$888即可成為會員\n會員單件9折，2件起88折\n生日優惠🎂\n歡迎查詢\n🤗🤗🤗"
+      }
     },
     {
       "meta": {
+        "name": "LaFe",
         "id": "2428158660739472",
         "about": "https://wa.me/85257916989",
         "categories": [
-          "Shopping & retail"
+          "Shopping & Retail"
         ],
         "email": "kaman_886@hotmail.com",
         "tel": "57916989"
@@ -26,6 +31,7 @@
     }
   ],
   "tags": [
-    "clothing"
+    "clothing",
+    "closed"
   ]
 }

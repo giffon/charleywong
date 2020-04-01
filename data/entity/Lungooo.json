@@ -6,10 +6,11 @@
   "webpages": [
     {
       "meta": {
+        "name": "Lungo",
         "id": "287360395484221",
         "about": "Specialty Coffee and Bagels",
         "categories": [
-          "Coffee shop"
+          "Coffee Shop"
         ],
         "addr": "B3B Proficient Industrial Centre, 6 wang kwun road",
         "area": "Kowloon Bay, Hong Kong",
@@ -19,7 +20,11 @@
       "url": "https://www.facebook.com/Lungooo/"
     },
     {
-      "url": "https://www.instagram.com/lungo_hk/"
+      "url": "https://www.instagram.com/lungo_hk/",
+      "meta": {
+        "name": "Lungo",
+        "about": "Specialty Coffee and Bagel\nMonday to Saturday:0800-1800 /\nSunday:Closed"
+      }
     }
   ],
   "posts": [
