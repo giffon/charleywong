@@ -6,15 +6,16 @@
   },
   "webpages": [
     {
-      "url": "http://home.mihk.tv"
+      "url": "https://www.mihk.tv"
     },
     {
       "meta": {
+        "name": "MIHK.tv 香港製造網絡電視",
         "id": "209123542630079",
-        "about": "MIHK.tv香港製造網絡電視，一至六晚都有節目做!\n堅持:本土創新，唔chok高深! 做自己，爽到貼地!",
+        "about": "MIHK.tv香港製造網絡電視，一至六晚都有節目做! \n堅持:本土創新，唔chok高深! 做自己，爽到貼地!",
         "categories": [
-          "Radio station",
-          "Entertainment website"
+          "Radio Station",
+          "Entertainment Website"
         ],
         "addr": "觀塘，駿業街49號，佳貿中心15樓01室",
         "area": "Kwun Tong",
@@ -22,6 +23,32 @@
         "tel": "39558673"
       },
       "url": "https://www.facebook.com/MIHK.tv/"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC_N3AFeTwmJPaXzx1yebDGw",
+      "meta": {
+        "id": "UC_N3AFeTwmJPaXzx1yebDGw",
+        "location": "Hong Kong",
+        "name": "MIHK.tv_Youtube第一台",
+        "about": "MIHK.tv是一個冀打破主流電視霸權、衝破主流傳媒框架的網上電視台，更推出不同的收費模式以迎合大眾的喜好及需要，我們更不惜投放龐大的人力資源，務求節目遠勝主流電視電台。盼大家鼎力支持，一起闖進媒體新領域。\n------------------------------------------------------------------------------\nMIHK.tv 每日直播時間為: 星期一至星期五，晚上8時至12時\n詳情可到home.mihk.tv訂閱及了解更多詳情。"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCvmNzqBfqEH3akm_2C7srRA",
+      "meta": {
+        "id": "UCvmNzqBfqEH3akm_2C7srRA",
+        "location": "Hong Kong",
+        "name": "MIHK.tv_Youtube第二台",
+        "about": "MIHK.tv是一個冀打破主流電視霸權、衝破主流傳媒框架的網上電視台，更推出不同的收費模式以迎合大眾的喜好及需要，我們更不惜投放龐大的人力資源，務求節目遠勝主流電視電台。盼大家鼎力支持，一起闖進媒體新領域。\n------------------------------------------------------------------------------\nMIHK.tv 每日直播時間為: 星期一至星期六，晚上8時至12時\n詳情可到home.mihk.tv訂閱及了解更多詳情。"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UChp5J8tmk3WoyCNtdbVtWSg",
+      "meta": {
+        "id": "UChp5J8tmk3WoyCNtdbVtWSg",
+        "name": "MIHK.tv_Youtube第三台",
+        "about": ""
+      }
     }
   ],
   "posts": [
