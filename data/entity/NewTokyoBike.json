@@ -6,23 +6,30 @@
   },
   "webpages": [
     {
-      "url": "https://newtokyobike.boutir.com/?cat=all"
+      "url": "https://newtokyobike.boutir.com"
     },
     {
       "url": "https://www.facebook.com/NewTokyoBike/",
       "meta": {
         "name": "大埔新東京單車 New Tokyo Bike",
         "id": "467465019987266",
-        "about": "本店為新東京單車, 其使命為為顧客提供優質及專業的單車維修及顧問服務\n本店專營公路單車, 山地單車, 小童單車, 小輪經車以及摺合單車",
+        "about": "本店為新東京單車, 其使命為為顧客提供優質及專業的單車維修及顧問服務 \n本店專營公路單車, 山地單車, 小童單車, 小輪經車以及摺合單車",
         "categories": [
+          "Bicycle Shop",
           "Bicycle Repair Service",
-          "Cycling Studio",
-          "Bicycle Shop"
+          "Cycling Studio"
         ],
         "addr": "1, On Fu Road, Tai Po",
         "area": "Hong Kong",
         "email": "newtokyobike@gmail.com",
         "tel": "26586959"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/new_tokyo_bike/",
+      "meta": {
+        "name": "New Tokyo Bike x Giant 特賣場",
+        "about": "More about the New Tokyo Life, for more business related, checkout our Facebook 🙇\nBianchi, Colnago, Dahon, Giant... Tai Po Authorized Seller"
       }
     }
   ],
