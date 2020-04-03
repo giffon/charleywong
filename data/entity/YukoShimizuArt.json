@@ -5,18 +5,29 @@
   },
   "webpages": [
     {
+      "url": "http://www.yukoart.com"
+    },
+    {
       "meta": {
-        "about": "http://yukoart.com\nNew York based illustrator. She did NOT create Hello Kitty.\nyou can take class with her now: http://skl.sh/1hjtYIR",
+        "name": "Yuko Shimizu",
+        "id": "113407815290",
+        "about": "http://yukoart.com  \nNew York based illustrator. She did NOT create Hello Kitty. \nyou can take class with her now: http://skl.sh/1hjtYIR",
         "categories": [
           "Artist"
         ],
-        "email": "yuko@yukoart.com",
-        "id": "113407815290"
+        "email": "yuko@yukoart.com"
       },
       "url": "https://www.facebook.com/YukoShimizuArt/"
     },
     {
-      "url": "https://www.instagram.com/yukoart/"
+      "url": "https://www.instagram.com/yukoart/",
+      "meta": {
+        "name": "Yuko Shimizu",
+        "about": "🇺🇸 NY based Japanese illustrator yukoart.com 🇯🇵\nTeaching at @svanyc + @skillshare (sorry no DM)\nHome & bored? You can take Skillshare 2months FREE:"
+      }
+    },
+    {
+      "url": "https://twitter.com/yukoart"
     }
   ],
   "posts": [
