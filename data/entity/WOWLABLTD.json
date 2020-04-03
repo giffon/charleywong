@@ -1,15 +1,17 @@
 {
   "id": "WOWLABLTD",
   "name": {
-    "en": "WoW LAB"
+    "en": "WoW LAB",
+    "zh": "熾工房"
   },
   "webpages": [
     {
       "meta": {
+        "name": "WoW LAB",
         "id": "381551939155790",
         "about": "We will WoW you with our uniqueness & best quality of food.",
         "categories": [
-          "Chicken shop",
+          "Chicken Joint",
           "Caterer"
         ],
         "addr": "長洲建新里9 號地下 G/F 9, Kin San Lane",
@@ -20,7 +22,11 @@
       "url": "https://www.facebook.com/WOWLABLTD/"
     },
     {
-      "url": "https://www.instagram.com/wowlab.hk/"
+      "url": "https://www.instagram.com/wowlab.hk/",
+      "meta": {
+        "name": "WOW LAB Hong Kong",
+        "about": "熾工房\nWe will WoW you with our uniqueness and our quality of food."
+      }
     }
   ],
   "posts": [
