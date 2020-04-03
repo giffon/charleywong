@@ -5,19 +5,27 @@
   },
   "webpages": [
     {
-      "url": "http://www.thehourgallery.com"
+      "url": "https://www.thehourgallery.com"
     },
     {
       "meta": {
+        "name": "The Hour Gallery",
         "id": "1697020067183787",
         "about": "The Hour Gallery provides professional photography service\n- wedding photography\n- engagement portrait\n- professional portrait\n- family portrait",
         "categories": [
-          "Camera/photo"
+          "Camera/Photo"
         ],
         "email": "info@thehourgallery.com",
         "tel": "98103466"
       },
       "url": "https://www.facebook.com/TheHourGallery/"
+    },
+    {
+      "url": "https://www.instagram.com/thehourgallery/",
+      "meta": {
+        "name": "thehourgallery",
+        "about": "One of the best things about The Hour Gallery is that every person on our team has this inherent happiness and passion!"
+      }
     }
   ],
   "posts": [
