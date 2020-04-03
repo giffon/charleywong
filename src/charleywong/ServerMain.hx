@@ -161,7 +161,9 @@ class ServerMain {
             switch (new URL(p.url)) {
                 case extractFbHomePage(_) => fb if (fb != null):
                     return Fetch.fetch('https://graph.facebook.com/v6.0/${fb}/picture?type=square&width=${width}&height=${width}')
-                        .then(r -> if (r.url.endsWith(".gif")) {
+                        .then(r -> if (r.status == 404){
+                            getPicOfText(e.name[en]);
+                        } else if (r.url.endsWith(".gif")) {
                             getPicOfText(e.name[en]);
                         } else {
                             r.buffer();
