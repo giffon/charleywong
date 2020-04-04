@@ -1,0 +1,12 @@
+--js syncYellowBlueMap.js
+--main charleywong.YellowBlueMap
+--library hxnodejs
+--library react
+--library compiletime
+--library tink_core
+--class-path src
+--class-path lib/hxnodelibs
+-D react_ver=16.12
+-D react_fragments
+--debug
+--cmd node syncYellowBlueMap.js

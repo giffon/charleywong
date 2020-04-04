@@ -35,4 +35,5 @@ extern class GoogleSpreadsheetWorksheet {
         loaded:Int,
         nonEmpty:Int,
     };
+    public var headerValues:Array<String>;
 }
