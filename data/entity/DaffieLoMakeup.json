@@ -30,5 +30,13 @@
     "makeup",
     "artist",
     "wedding"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Rise Commercial Building,5-11Granville Circuit,TST"
+      },
+      "googleMapsPlaceId": "ChIJWZ7f9O4ABDQRKEsHhAmXgwg"
+    }
   ]
 }

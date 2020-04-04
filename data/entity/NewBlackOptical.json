@@ -45,5 +45,19 @@
   "tags": [
     "eyewear",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角彌敦道583號1樓全層"
+      },
+      "googleMapsPlaceId": "ChIJ6XdZO8cABDQR8qrT4oBV9vk"
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣駱克道496-498號合亞廣場2樓全層"
+      },
+      "googleMapsPlaceId": "ChIJO3rc5lYABDQRkTeAAiUGR14"
+    }
   ]
 }

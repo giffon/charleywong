@@ -46,5 +46,25 @@
   "tags": [
     "clothing",
     "accessories"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屈臣道15號維多利中心58號地舖"
+      },
+      "googleMapsPlaceId": "ChIJ3-x6PP4ABDQRQ1oIy9yshp0"
+    },
+    {
+      "address": {
+        "zh": "窩打老道45號A地舖"
+      },
+      "googleMapsPlaceId": "ChIJg2O-gcYABDQRZxR4GRodHLw"
+    },
+    {
+      "address": {
+        "zh": "旺角上海街618號1/F 101A鋪"
+      },
+      "googleMapsPlaceId": "ChIJxdvp8McABDQRepxNG9SVh20"
+    }
   ]
 }

@@ -32,5 +32,31 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗元州街34號地舖"
+      },
+      "googleMapsPlaceId": "ChIJg7UaU_ABBDQR5ItNTgCPuX4"
+    },
+    {
+      "address": {
+        "zh": "屯門屯門鄉事會路2A號 H.A.N.D.S N區2樓N-204-206號"
+      },
+      "googleMapsPlaceId": "ChIJEQ7mSD77AzQR1CbT0aK2hVU"
+    },
+    {
+      "address": {
+        "zh": "太和太和路12號太和廣場1樓101A號舗"
+      },
+      "googleMapsPlaceId": "ChIJ4-BQ3zsIBDQRKoHGJ3Sut_0"
+    },
+    {
+      "address": {
+        "zh": "慈雲山毓華街23號慈雲山中心地下1-3號舖"
+      },
+      "googleMapsPlaceId": "ChIJHTxyRvMHBDQRaHeMzzAaQOU"
+    }
   ]
 }

@@ -52,5 +52,19 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "7 Bristol Ave, Tsim Sha Tsui"
+      },
+      "googleMapsPlaceId": "ChIJ0Q_xB_IABDQRO6vXIr2gBPE"
+    },
+    {
+      "address": {
+        "en": "1/F, shop B, Fashion Walk, 7 Kingston St, Causeway Bay"
+      },
+      "googleMapsPlaceId": "ChIJRQbZg1wBBDQRrB1j69E5d7g"
+    }
   ]
 }

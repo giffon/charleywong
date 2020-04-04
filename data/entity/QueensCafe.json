@@ -27,5 +27,25 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "北角丹拿道51-61港運城地下G22號"
+      },
+      "googleMapsPlaceId": "ChIJB_4WXQUBBDQRekZHfpzAQsc"
+    },
+    {
+      "address": {
+        "zh": "九龍塘達之路80號又一城L1,18號"
+      },
+      "googleMapsPlaceId": "ChIJc0rgRjEHBDQRdlx5gtbn74A"
+    },
+    {
+      "address": {
+        "zh": "灣仔茂蘿街1-11號1樓"
+      },
+      "googleMapsPlaceId": "ChIJbbYjVVoABDQRgfdqMuw76kg"
+    }
   ]
 }

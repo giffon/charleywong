@@ -103,5 +103,25 @@
   "tags": [
     "sport",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘開源道47號凱源工業大廈2樓A室"
+      },
+      "googleMapsPlaceId": "ChIJCQojKzABBDQRKG0rpJdvxPk"
+    },
+    {
+      "address": {
+        "zh": "觀塘開源道47號凱源工業大廈4樓H室"
+      },
+      "googleMapsPlaceId": "ChIJ1dxuVEQBBDQRZIvkz9f3x6c"
+    },
+    {
+      "address": {
+        "zh": "荃灣荃景圍30-38號匯利工業中心13樓A座"
+      },
+      "googleMapsPlaceId": "ChIJ_bv0UVb5AzQRAyTz7sD2ieU"
+    }
   ]
 }

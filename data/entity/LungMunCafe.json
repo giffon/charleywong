@@ -39,5 +39,43 @@
   "tags": [
     "food",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門龍門居地舖102-103號"
+      },
+      "googleMapsPlaceId": "ChIJeX4kbjL7AzQR__ZTF2zXbn0"
+    },
+    {
+      "address": {
+        "zh": "紅磡寶其利街47號銳光中心地下"
+      },
+      "googleMapsPlaceId": "ChIJe1L7Hd4ABDQRCObprxSH7oM"
+    },
+    {
+      "address": {
+        "zh": "炮台山電氣道254-280號華凱大廈地下I舖"
+      },
+      "googleMapsPlaceId": "ChIJ4fArMQIBBDQRkpRsX1JPNbE"
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣登龍街28號永光中心"
+      },
+      "googleMapsPlaceId": "ChIJCSN4WeQBBDQR2PzPVsgLGJ4"
+    },
+    {
+      "address": {
+        "zh": "尖沙咀金馬倫道福橋大廈A及B舖"
+      },
+      "googleMapsPlaceId": "ChIJZcwab-4ABDQRbs0dZPfUcDU"
+    },
+    {
+      "address": {
+        "zh": "荃灣路德圍8號"
+      },
+      "googleMapsPlaceId": "ChIJ06f37u34AzQRSnV5EPVefB8"
+    }
   ]
 }

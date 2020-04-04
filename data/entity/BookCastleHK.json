@@ -34,5 +34,25 @@
     "toy",
     "book",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣利園二期"
+      },
+      "googleMapsPlaceId": "ChIJSQbdsVYABDQROhaYwsARmFk"
+    },
+    {
+      "address": {
+        "zh": "尖沙咀海港城"
+      },
+      "googleMapsPlaceId": "ChIJcf2QwowABDQRp5L4SOR3FpU"
+    },
+    {
+      "address": {
+        "zh": "元朗形點1期"
+      },
+      "googleMapsPlaceId": "ChIJ54Bi2KfwAzQRxn2a7lUpAfE"
+    }
   ]
 }

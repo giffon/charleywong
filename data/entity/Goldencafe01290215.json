@@ -66,5 +66,31 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍深水埗欽洲街55號地下"
+      },
+      "googleMapsPlaceId": "ChIJo6k1q0wHBDQR7Yw8UBq3mQM"
+    },
+    {
+      "address": {
+        "zh": "香港九龍深水埗北河街134-136號銀河大廈B號舖"
+      },
+      "googleMapsPlaceId": "ChIJo1k1qNgHBDQRsq9tz7YEfHc"
+    },
+    {
+      "address": {
+        "zh": "九龍深水埗順寧道253-263號地下"
+      },
+      "googleMapsPlaceId": "ChIJhyiB5OAHBDQRTRmTKItQQl8"
+    },
+    {
+      "address": {
+        "zh": "葵涌石蔭路85-97號光輝樓地下C-E號舖"
+      },
+      "googleMapsPlaceId": "ChIJT5I1tZz4AzQR_S6hrNQdFuo"
+    }
   ]
 }

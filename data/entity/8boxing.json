@@ -39,5 +39,19 @@
   "tags": [
     "fitness",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角亞皆老街39-41號金山商業大廈15樓 (旺角C2出口）"
+      },
+      "googleMapsPlaceId": "ChIJ2e9_HscABDQRVnH5vbJF39s"
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣渣甸街54-58號富盛商業大廈10樓A（銅鑼灣F1出口）"
+      },
+      "googleMapsPlaceId": "ChIJ0zHkJFEABDQRpj0Csl3qHeo"
+    }
   ]
 }

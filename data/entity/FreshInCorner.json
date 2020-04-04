@@ -37,5 +37,19 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "HK Art Center G/F"
+      },
+      "googleMapsPlaceId": "ChIJWWt41AIHBDQR6tykpcFbFVQ"
+    },
+    {
+      "address": {
+        "en": "378 Queens Rd Central"
+      },
+      "googleMapsPlaceId": "ChIJTflLlH4ABDQReEitlc-Lh-M"
+    }
   ]
 }

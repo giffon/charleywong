@@ -41,5 +41,25 @@
   "tags": [
     "bridal",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣謝斐道518號 渣菲大廈4樓"
+      },
+      "googleMapsPlaceId": "ChIJ58CG7VYABDQR9P2-XFu1Wg8"
+    },
+    {
+      "address": {
+        "zh": "尖沙咀金馬倫道42號華懋金馬倫中心13樓2室"
+      },
+      "googleMapsPlaceId": "ChIJV4XFpBgBBDQRwj-2Dsqbm50"
+    },
+    {
+      "address": {
+        "zh": "新界元朗大棠路11 號光華廣場10 樓2 號室"
+      },
+      "googleMapsPlaceId": "ChIJ6fqf-_LxAzQRA8BBjg06y68"
+    }
   ]
 }

@@ -48,5 +48,37 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "愉景新城1樓1066號舖"
+      },
+      "googleMapsPlaceId": "ChIJ13aMkNL5AzQR9bQau_7rwuw"
+    },
+    {
+      "address": {
+        "zh": "鑽石山荷里活廣場1樓"
+      },
+      "googleMapsPlaceId": "ChIJHckJKNsGBDQRDmf1xzAVyak"
+    },
+    {
+      "address": {
+        "zh": "新蒲崗譽港灣Mikiki商場地鋪"
+      },
+      "googleMapsPlaceId": "ChIJPQOtvtYGBDQRCvVWIjPX3QA"
+    },
+    {
+      "address": {
+        "zh": "九龍灣MEGABOX 10樓"
+      },
+      "googleMapsPlaceId": "ChIJKwy94jMBBDQR5p2eH-Ts-Ho"
+    },
+    {
+      "address": {
+        "zh": "油塘高超道38號大本型2樓211號舖"
+      },
+      "googleMapsPlaceId": "ChIJZYFdI2ABBDQRlnuhAwlgV2k"
+    }
   ]
 }

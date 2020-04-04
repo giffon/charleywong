@@ -146,9 +146,10 @@ class ExportSpreadsheet {
     static function importGoogleMapsPlaceIds() {
         var sheet = doc.sheetsByIndex[3];
         var noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
-        return sheet.loadCells()
+        var lastRow = 2543;
+        return sheet.loadCells('A1:Z$lastRow')
             .then(function(_){
-                for (y in 1...sheet.rowCount) {
+                for (y in 1...lastRow) {
                     switch [sheet.getCell(y, 0).value, sheet.getCell(y, 5).value] {
                         case [null | "", _] | [_, null | ""]:
                             // pass
@@ -191,10 +192,10 @@ class ExportSpreadsheet {
     static function main():Void {
         doc.useServiceAccountAuth(Json.parse(File.getContent("Giffon-3bb380c38488.json")))
             .then(_ -> doc.loadInfo())
-            // .then(_ -> importGoogleMapsPlaceIds());
-            .then(_ -> populateIndex())
-            .then(_ -> populateWebpages())
-            .then(_ -> populatePlaces())
-            .then(_ -> updateLastUpdateDate());
+            .then(_ -> importGoogleMapsPlaceIds());
+            // .then(_ -> populateIndex())
+            // .then(_ -> populateWebpages())
+            // .then(_ -> populatePlaces())
+            // .then(_ -> updateLastUpdateDate());
     }
 }

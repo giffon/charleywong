@@ -33,5 +33,31 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗阜財街2號宏豐大廈地下12號舖"
+      },
+      "googleMapsPlaceId": "ChIJo6JfyqDwAzQRWInEU7w-qKc"
+    },
+    {
+      "address": {
+        "zh": "荃灣荃興徑6號昌泰大廈地下5B舖"
+      },
+      "googleMapsPlaceId": "ChIJ02F46-34AzQRyAnsXekeYXg"
+    },
+    {
+      "address": {
+        "zh": "紅磡船澳街99號遠富樓地下B舖"
+      },
+      "googleMapsPlaceId": "ChIJHdOin-AABDQR2zfd7hgF0UA"
+    },
+    {
+      "address": {
+        "zh": "屯門青山坊2號華樂商場地下12號舖"
+      },
+      "googleMapsPlaceId": "ChIJ_wWV2BX7AzQRnEv2t3575Vo"
+    }
   ]
 }

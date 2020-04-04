@@ -41,5 +41,37 @@
     "food",
     "accessories",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "彌敦道216-228號恆豐中心地庫 1B層 28 號舖(1B-28)"
+      },
+      "googleMapsPlaceId": "ChIJr7DnfOsABDQRg9w09878Iss"
+    },
+    {
+      "address": {
+        "zh": "炮台山英皇道255號國都廣場2樓216店"
+      },
+      "googleMapsPlaceId": "ChIJfT4VtQMBBDQRTx0jAX3pc5o"
+    },
+    {
+      "address": {
+        "zh": "千色 Citistore (荃灣店) 地下化妝部公平點專櫃"
+      },
+      "googleMapsPlaceId": "ChIJp-UYP-34AzQReLX9jUE_tPo"
+    },
+    {
+      "address": {
+        "zh": "荃灣 D Park 愉景新城 L1 Donut Village 24及28號鋪"
+      },
+      "googleMapsPlaceId": "ChIJcw9HvfH4AzQR0n0-oR_IPzw"
+    },
+    {
+      "address": {
+        "zh": "荃灣德士古道120號安泰國際中心2803室​"
+      },
+      "googleMapsPlaceId": "ChIJHXKr0pT4AzQRvl3PpANxris"
+    }
   ]
 }

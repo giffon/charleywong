@@ -59,5 +59,31 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀樂道32-34號地舖"
+      },
+      "googleMapsPlaceId": "ChIJzeFthMkBBDQRYjnpWbDZkzw"
+    },
+    {
+      "address": {
+        "zh": "旺角登打士廣場地下8號鋪"
+      },
+      "googleMapsPlaceId": "ChIJTV9qcZgBBDQRuPAOeBXRT5w"
+    },
+    {
+      "address": {
+        "zh": "堅尼地城Smithfield Walk 5B鋪"
+      },
+      "googleMapsPlaceId": "ChIJnY6-6QL_AzQRzDJGOsEYMf8"
+    },
+    {
+      "address": {
+        "zh": "新浦崗崇齡街1-3號威信樓地下F舖"
+      },
+      "googleMapsPlaceId": "ChIJ3-z_uxsHBDQRJG16kL4_8Y8"
+    }
   ]
 }

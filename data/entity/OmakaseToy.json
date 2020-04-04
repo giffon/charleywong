@@ -39,5 +39,19 @@
   "tags": [
     "adult",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角西洋菜南街67號2樓"
+      },
+      "googleMapsPlaceId": "ChIJWZEfxscABDQRGqQ1S_YybBU"
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣駱克道531號1樓"
+      },
+      "googleMapsPlaceId": "ChIJNx9NM6ABBDQRO42TZSlT1j8"
+    }
   ]
 }

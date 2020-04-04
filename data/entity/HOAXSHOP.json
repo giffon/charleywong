@@ -41,5 +41,19 @@
   "tags": [
     "footwear",
     "clothing"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港銅鑼灣希慎廣場7樓709號舖"
+      },
+      "googleMapsPlaceId": "ChIJK-NKx1YABDQR2LbyQTM5gBI"
+    },
+    {
+      "address": {
+        "zh": "香港尖沙咀美麗華廣場1期2樓208舖"
+      },
+      "googleMapsPlaceId": "ChIJqaCl4u0ABDQRnv1Z0VVi28Y"
+    }
   ]
 }

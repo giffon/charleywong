@@ -70,5 +70,19 @@
   "tags": [
     "nail",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Tsim Sha Tsui"
+      },
+      "googleMapsPlaceId": "ChIJ___QeO4ABDQRc_3o1DrZRBk"
+    },
+    {
+      "address": {
+        "en": "Central"
+      },
+      "googleMapsPlaceId": "ChIJ0dJCVs8BBDQR-g_kV_vocUs"
+    }
   ]
 }
