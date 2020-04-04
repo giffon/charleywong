@@ -8,6 +8,7 @@ import charleywong.ServerMain.*;
 using Lambda;
 
 class ExportSpreadsheet {
+    static final serviceAccountFile = "Giffon-3bb380c38488.json";
     static final sheetId = "1OXVTI1DsZK9tSulJmfXAD5-pUyRneIuM6zzwmIL_SJQ";
     static final doc = new GoogleSpreadsheet(sheetId);
 
@@ -190,12 +191,12 @@ class ExportSpreadsheet {
     }
 
     static function main():Void {
-        doc.useServiceAccountAuth(Json.parse(File.getContent("Giffon-3bb380c38488.json")))
+        doc.useServiceAccountAuth(Json.parse(File.getContent(serviceAccountFile)))
             .then(_ -> doc.loadInfo())
-            .then(_ -> importGoogleMapsPlaceIds());
-            // .then(_ -> populateIndex())
-            // .then(_ -> populateWebpages())
-            // .then(_ -> populatePlaces())
-            // .then(_ -> updateLastUpdateDate());
+            // .then(_ -> importGoogleMapsPlaceIds());
+            .then(_ -> populateIndex())
+            .then(_ -> populateWebpages())
+            .then(_ -> populatePlaces())
+            .then(_ -> updateLastUpdateDate());
     }
 }
