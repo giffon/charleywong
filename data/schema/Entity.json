@@ -36,6 +36,12 @@
             "uniqueItems": true
         },
         "places" : {
+            "type": "array",
+            "items": {
+                "$ref": "Place.json"
+            }
+        },
+        "yellowBlueMapIds" : {
             "type": "array"
         }
     },

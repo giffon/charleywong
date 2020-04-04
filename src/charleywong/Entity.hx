@@ -31,4 +31,5 @@ typedef Entity = {
     tags:Array<TagId>,
     ?alias:Array<String>,
     ?places:Array<Place>,
+    ?yellowBlueMapIds:Array<String>,
 }

@@ -1,0 +1,13 @@
+{
+    "$id": "Place.json",
+    "type": "object",
+    "properties": {
+        "address": {
+            "$ref": "MultiLangString.json"
+        },
+        "googleMapsPlaceId": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false
+}
