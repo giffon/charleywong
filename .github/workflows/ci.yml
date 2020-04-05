@@ -86,6 +86,14 @@ jobs:
           npm install
           haxelib newrepo
           haxelib install all --always
+      - name: Dump YellowBlueMap
+        run: |
+          set -ex
+          haxe syncYellowBlueMap.hxml
+          node syncYellowBlueMap.js dump
+        env:
+          GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
+          GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
       - run: ls -lh
       - name: Deploy
         run: npx serverless deploy

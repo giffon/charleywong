@@ -4,9 +4,22 @@ import js.lib.Promise;
 import haxe.*;
 import sys.io.File;
 import js.npm.google_spreadsheet.GoogleSpreadsheet;
+import charleywong.GoogleServiceAccount.googleServiceAccount;
+
+typedef YellowBlueMapRef = {
+    id:String,
+    name:String,
+    categoryMajor:String,
+    categoryMinor:String,
+    area:String,
+    lat:Float,
+    lng:Float,
+    address:String,
+    reason:String,
+    source:String,
+}
 
 class YellowBlueMap {
-    static final serviceAccountFile = "Giffon-3bb380c38488.json";
     static final sheetId = "1fKW2yldIQNTuRM6-DbrAvyNbQC5Gd0WqEW99q6Zb-Og";
     static final doc = new GoogleSpreadsheet(sheetId);
     static final localCacheFile = "YellowBlueMap.json";
@@ -28,8 +41,17 @@ class YellowBlueMap {
     }
 
     static function main():Void {
-        doc.useServiceAccountAuth(Json.parse(File.getContent(serviceAccountFile)))
-            .then(_ -> doc.loadInfo())
-            .then(_ -> dumpToFile());
+        switch (Sys.args()) {
+            case ["test"]:
+                doc.useServiceAccountAuth(googleServiceAccount)
+                    .then(_ -> doc.loadInfo())
+                    .then(_ -> trace(doc.title));
+            case ["dump"]:
+                doc.useServiceAccountAuth(googleServiceAccount)
+                    .then(_ -> doc.loadInfo())
+                    .then(_ -> dumpToFile());
+            case args:
+                throw 'unknown args $args';
+        }
     }
 }

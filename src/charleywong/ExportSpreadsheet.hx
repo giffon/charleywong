@@ -1,14 +1,11 @@
 package charleywong;
 
-import js.npm.google_spreadsheet.GoogleSpreadsheetWorksheet;
-import haxe.Json;
-import sys.io.File;
-import js.npm.google_spreadsheet.GoogleSpreadsheet;
+import js.npm.google_spreadsheet.*;
 import charleywong.ServerMain.*;
+import charleywong.GoogleServiceAccount.googleServiceAccount;
 using Lambda;
 
 class ExportSpreadsheet {
-    static final serviceAccountFile = "Giffon-3bb380c38488.json";
     static final sheetId = "1OXVTI1DsZK9tSulJmfXAD5-pUyRneIuM6zzwmIL_SJQ";
     static final doc = new GoogleSpreadsheet(sheetId);
 
@@ -191,7 +188,7 @@ class ExportSpreadsheet {
     }
 
     static function main():Void {
-        doc.useServiceAccountAuth(Json.parse(File.getContent(serviceAccountFile)))
+        doc.useServiceAccountAuth(googleServiceAccount)
             .then(_ -> doc.loadInfo())
             // .then(_ -> importGoogleMapsPlaceIds());
             .then(_ -> populateIndex())
