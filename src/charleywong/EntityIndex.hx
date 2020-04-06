@@ -136,8 +136,10 @@ class EntityIndex {
                         encode: "advanced",
                     },
                     "name:zh": {
-                        tokenize: "full",
-                        split: "",
+                        tokenize: function(str:String) {
+                            return mixedChiEngSep.split(str);
+                        },
+                        encode: "icase",
                     },
                     "tag:names": {
                         tokenize: tokenize,
