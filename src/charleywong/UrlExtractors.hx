@@ -1,5 +1,9 @@
 package charleywong;
 
+#if nodejs
+import js.npm.fetch.Fetch;
+#end
+import js.lib.Promise;
 import haxe.io.Path;
 import js.html.URL;
 using StringTools;
@@ -16,6 +20,13 @@ enum Ident {
 }
 
 class UrlExtractors {
+    #if nodejs
+    static public function followRedirect(url:String):Promise<String> {
+        return Fetch.fetch(url)
+            .then(response -> response.url);
+    }
+    #end
+
     static public function cleanUrl(url:String) {
         var pUrl = new URL(url);
         return switch (pUrl) {

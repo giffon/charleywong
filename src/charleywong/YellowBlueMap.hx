@@ -1,12 +1,15 @@
 package charleywong;
 
+import js.html.URL;
 import js.lib.Promise;
 import haxe.*;
 import sys.io.File;
 import js.npm.google_spreadsheet.GoogleSpreadsheet;
 import charleywong.GoogleServiceAccount.googleServiceAccount;
+import charleywong.UrlExtractors.*;
 using Lambda;
 using Reflect;
+using StringTools;
 
 enum abstract YBMapColor(String) to String {
     var Yellow;
@@ -45,12 +48,15 @@ enum abstract YBMSheet(String) to String {
     var GreenEatShop = "Eat/Shop (綠)";
 }
 
-typedef YellowBlueMapDump = Array<{title:String, rows:Array<DynamicAccess<String>>}>;
+typedef YellowBlueMapDump = DynamicAccess<YBMapData>;
 
 class YellowBlueMap {
     static final sheetId = "1fKW2yldIQNTuRM6-DbrAvyNbQC5Gd0WqEW99q6Zb-Og";
     static final doc = new GoogleSpreadsheet(sheetId);
     static final localCacheFile = "YellowBlueMap.json";
+
+    static public var localCache(get, null):YellowBlueMapDump;
+    static function get_localCache() return localCache != null ? localCache : localCache = Json.parse(File.getContent(localCacheFile));
 
     static function strCol(row:Dynamic, colName:String):Null<String> {
         return switch (row.field(colName)) {
@@ -89,7 +95,7 @@ class YellowBlueMap {
         }
     }
 
-    final data:DynamicAccess<YBMapData>;
+    final data:YellowBlueMapDump;
     public function new(dump):Void {
         data = dump;
     }
@@ -157,7 +163,7 @@ class YellowBlueMap {
         }
         Promise.all([yEat, yShop])
             .then(sheets -> {
-                var data:DynamicAccess<YBMapData> = {};
+                var data:YellowBlueMapDump = {};
                 for (sheet in sheets)
                 for (d in (sheet:Array<YBMapData>))
                 data[d.id] = d;
@@ -176,6 +182,38 @@ class YellowBlueMap {
                 doc.useServiceAccountAuth(googleServiceAccount)
                     .then(_ -> doc.loadInfo())
                     .then(_ -> dumpToFile());
+            case ["sync"]:
+                for (d in localCache) {
+                    if (d.facebook != null) {
+                        var fbUrls = if (d.facebook.contains(",")) {
+                            ~/,/g.split(d.facebook).map(StringTools.trim);
+                        } else if (d.facebook.contains(" ")) {
+                            ~/ +/g.split(d.facebook).map(StringTools.trim);
+                        } else if (d.facebook.contains("\n")) {
+                            ~/\n/g.split(d.facebook).map(StringTools.trim);
+                        } else {
+                            [d.facebook];
+                        }
+                        for (fbUrl in fbUrls) {
+                            if (!fbUrl.startsWith("http"))
+                                fbUrl = "https://" + fbUrl;
+                            switch (new URL(fbUrl)) {
+                                case extractFbHomePage(_) => fb if (fb != null):
+
+                                case url:
+                                    // trace('Not a fb url? ${d.facebook}');
+                                    followRedirect(fbUrl).then(fbUrl ->
+                                        switch (new URL(fbUrl)) {
+                                            case extractFbHomePage(_) => fb if (fb != null):
+
+                                            case url:
+                                                trace('Not a fb url? ${fbUrl}');
+                                        }
+                                    ).catchError(err -> trace('Could not handle $fbUrl. Error: $err'));
+                            }
+                        }
+                    }
+                }
             case args:
                 throw 'unknown args $args';
         }
