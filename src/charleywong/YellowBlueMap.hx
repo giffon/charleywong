@@ -6,6 +6,7 @@ import sys.io.File;
 import js.npm.google_spreadsheet.GoogleSpreadsheet;
 import charleywong.GoogleServiceAccount.googleServiceAccount;
 using Lambda;
+using Reflect;
 
 enum abstract YBMapColor(String) to String {
     var Yellow;
@@ -51,8 +52,8 @@ class YellowBlueMap {
     static final doc = new GoogleSpreadsheet(sheetId);
     static final localCacheFile = "YellowBlueMap.json";
 
-    static function strCol(row:DynamicAccess<String>, colName:String):Null<String> {
-        return switch (row[colName]) {
+    static function strCol(row:Dynamic, colName:String):Null<String> {
+        return switch (row.field(colName)) {
             case null:
                 throw '$colName not found in $row';
             case v:
@@ -65,8 +66,8 @@ class YellowBlueMap {
         }
     }
 
-    static function floatCol(row:DynamicAccess<String>, colName:String):Null<Float> {
-        return switch (row[colName]) {
+    static function floatCol(row:Dynamic, colName:String):Null<Float> {
+        return switch (row.field(colName)) {
             case null:
                 throw '$colName not found in $row';
             case "":
@@ -76,7 +77,7 @@ class YellowBlueMap {
         }
     }
 
-    static function goodStatus(row:DynamicAccess<String>, colName:String):Bool {
+    static function goodStatus(row:Dynamic, colName:String):Bool {
         return switch (strCol(row, colName)) {
             case "Marked" | "Updated":
                 true;
@@ -88,17 +89,20 @@ class YellowBlueMap {
         }
     }
 
-    final data:Map<String, YBMapData>;
-    public function new(dump:YellowBlueMapDump):Void {
-        data = new Map();
-        switch (dump.find(s -> s.title == YellowEat)) {
+    final data:DynamicAccess<YBMapData>;
+    public function new(dump):Void {
+        data = dump;
+    }
+
+    static function dumpToFile() {
+        var yEat = switch (doc.sheetsByIndex.find(s -> s.title == YellowEat)) {
             case null:
                 throw 'Missing sheet ${YellowEat}';
             case sheet:
-                for (row in sheet.rows)
-                if (goodStatus(row, "Map Status (Marked/Removed/Changed colour)"))
-                {
-                    var d:YBMapData = {
+                sheet.getRows().then(rows -> [
+                    for (row in rows)
+                    if (goodStatus(row, "Map Status (Marked/Removed/Changed colour)"))
+                    {
                         id: strCol(row, "ID"),
                         name: strCol(row, "店名"),
 
@@ -118,18 +122,17 @@ class YellowBlueMap {
 
                         reason: strCol(row, "原因"),
                         source: strCol(row, "Source"),
-                    };
-                    data[d.id] = d;
-                }
+                    }
+                ]);
         }
-        switch (dump.find(s -> s.title == YellowShop)) {
+        var yShop = switch (doc.sheetsByIndex.find(s -> s.title == YellowShop)) {
             case null:
                 throw 'Missing sheet ${YellowShop}';
             case sheet:
-                for (row in sheet.rows)
-                if (goodStatus(row, "Map Status (Marked/ Removed/Changed colour)"))
-                {
-                    var d:YBMapData = {
+                sheet.getRows().then(rows -> [
+                    for (row in rows)
+                    if (goodStatus(row, "Map Status (Marked/ Removed/Changed colour)"))
+                    {
                         id: strCol(row, "ID"),
                         name: strCol(row, "店名"),
 
@@ -149,31 +152,18 @@ class YellowBlueMap {
 
                         reason: strCol(row, "原因"),
                         source: strCol(row, "Source"),
-                    };
-                    data[d.id] = d;
-                }
+                    }
+                ]);
         }
-    }
-
-    static function dumpToFile() {
-        Promise.all(doc.sheetsByIndex.map(sheet ->
-            sheet.getRows().then(rows ->
-                rows.map(row -> {
-                    var o:DynamicAccess<Dynamic> = {};
-                    for (h in sheet.headerValues)
-                        o[h] = Reflect.field(row, h);
-                    o;
-                })
-            ).then(rows -> {
-                title: sheet.title,
-                rows: rows,
+        Promise.all([yEat, yShop])
+            .then(sheets -> {
+                var data:DynamicAccess<YBMapData> = {};
+                for (sheet in sheets)
+                for (d in (sheet:Array<YBMapData>))
+                data[d.id] = d;
+                data;
             })
-        ))
-            .then(dump -> {
-                new YellowBlueMap(cast dump); // assert all required sheets/columns are found
-                dump;
-            })
-            .then(dump -> File.saveContent(localCacheFile, Json.stringify(dump, null, "  ")));
+            .then(data -> File.saveContent(localCacheFile, Json.stringify(data, null, "  ")));
     }
 
     static function main():Void {
