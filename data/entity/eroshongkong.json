@@ -1,24 +1,49 @@
 {
   "id": "eroshongkong",
   "name": {
-    "zh": "EROS - 有機天然．生活美容百貨"
+    "en": "EROS Natural & Organic Store"
   },
   "webpages": [
     {
+      "url": "https://www.facebook.com/eroshkco/",
       "meta": {
+        "name": "EROS Natural & Organic Store",
+        "id": "456021327827805",
+        "about": "Florihana 香港代理，另有Alteya Organics、Jane Iredale礦物彩妝、德國Ben & Anna、意大利 la Saponaria、台灣文山手作皂、希臘天然海棉及其他歐洲有機天然護膚品及芳香治療產品",
+        "categories": [
+          "Beauty, Cosmetic & Personal Care",
+          "Cosmetics Store",
+          "Organic Grocery Store"
+        ],
+        "addr": "旺角彌敦道610號荷李活商業中心7樓703",
+        "area": "852 Mong Kok",
+        "email": "eroshongkong@gmail.com",
+        "tel": "55031990"
+      }
+    },
+    {
+      "meta": {
+        "name": "EROS - 有機天然．生活美容百貨",
+        "id": "473472582810120",
         "about": "我們是法國 Florihana 香港代理，出售芳香治療產品，同時引入世界各地有機天然美容產品，（主要為歐美地區有機認證產品），致力搜羅天然安全的護膚及彩妝產品，提供更多天然環保選擇予顧",
         "categories": [
-          "Shopping & retail",
-          "Organic food shop",
-          "Beauty, cosmetic & personal care"
+          "Organic Grocery Store",
+          "Shopping & Retail",
+          "Beauty, Cosmetic & Personal Care"
         ],
         "addr": "旺角彌敦道610號荷里活商業中心7樓703",
-        "area": "Mong Kok",
+        "area": "852 Mong Kok",
         "email": "eroshongkong@gmail.com",
-        "tel": "55031990",
-        "id": "473472582810120"
+        "tel": "55031990"
       },
       "url": "https://www.facebook.com/eroshongkong/"
+    },
+    {
+      "url": "https://www.instagram.com/eroshk/",
+      "meta": {
+        "name": "EROS - Florihana 香港代理",
+        "about": "Florihana 香港代理，另有Alteya Organics、Jane Iredale、文山手作皂、Inna Organic 童顏有機、意大利La Saponaria、德國Ben & Anna等天然產品。#florihana #florihanahk #精油 #花水 #純露 #香薰 #有機護膚品"
+      }
     }
   ],
   "posts": [
