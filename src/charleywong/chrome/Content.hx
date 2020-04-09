@@ -147,16 +147,40 @@ class Content {
                         }, 100);
                 }
             case MsgScrollToJune:
+                scroll = true;
+                document.addEventListener("keyup", stopScrollingListener);
                 scrollToJune();
             case _:
                 throw 'Unknown request: $request';
         }
     }
 
+    static function stopScrollingListener(evt:KeyboardEvent) {
+        if (evt.key == "Escape") {
+            scroll = false;
+        }
+    }
+
     static public function timestampFromTimeSpan(timeSpan:SpanElement):Float {
         var timeString = [
-            for (charSpan in timeSpan.querySelectorAll("span[data-content]:not([style='display: none;'])"))
-            (cast charSpan:SpanElement).dataset.content
+            for (charSpan in timeSpan.getElementsByTagName("span"))
+            if (charSpan.style.position != "absolute")
+            {
+                if (charSpan.innerText.length == 1)
+                    charSpan.innerText;
+                else
+                    switch (charSpan.childNodes[0]) {
+                        case null:
+                            "";
+                        case {
+                            nodeType: 3, // Node.TEXT_NODE
+                            nodeValue: text
+                        } if (text.length == 1):
+                            text;
+                        case _:
+                            "";
+                    }
+            }
         ].join("");
         return if (~/^[0-9]/.match(timeString))
             Date.now().getTime();
@@ -166,7 +190,13 @@ class Content {
             Moment.moment(timeString, timeString.indexOf("at") > 0 ? "MMMM D" : "LL").toDate().getTime();
     }
 
+    static var scroll = false;
+
     static function scrollToJune() {
+        if (!scroll) {
+            return;
+        }
+
         var june = Date.fromString("2019-06-01");
         var posts = [
             for (node in document.querySelectorAll("#pagelet_timeline_main_column .userContentWrapper"))
@@ -200,6 +230,11 @@ class Content {
                 for (node in feed.querySelectorAll("div[role='article']"))
                 (cast node:DivElement)
             ];
+            
+            if (posts.length == 0) {
+                Timer.delay(function() alert("找不到 div[role='article']"), 100);
+                return;
+            }
             var times = posts
                 .map(node -> node.querySelectorAll("div > span[dir='auto']")[1])
                 .filter(timeSpan -> timeSpan != null)
@@ -207,6 +242,10 @@ class Content {
                     node: (cast timeSpan:SpanElement),
                     time: timestampFromTimeSpan(cast timeSpan),
                 });
+            if (times.length == 0) {
+                Timer.delay(function() alert("讀不到時間資訊"), 100);
+                return;
+            }
             var beforeJuneNode = times.find(t -> t.time < june.getTime());
             if (beforeJuneNode != null) {
                 beforeJuneNode.node.scrollIntoView({
