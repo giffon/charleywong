@@ -60,7 +60,11 @@ class ServerMain {
             slug: "all",
             listName: "全部 Charley Wong 和你查 商業/品牌",
             entities: {
-                var entities = entityIndex.entities.array();
+                var entities = [
+                    for (e in entityIndex.entities)
+                    if (e.posts.length > 0)
+                    e
+                ];
                 entities.sort((e1, e2) -> Reflect.compare(renderName(e1.name).toLowerCase(), renderName(e2.name).toLowerCase()));
                 entities;
             }
@@ -68,7 +72,11 @@ class ServerMain {
     }
 
     static function allJson(req:Request, res:Response) {
-        res.json([for (e in entityIndex.entities) e]);
+        res.json([
+            for (e in entityIndex.entities)
+            if (e.posts.length > 0)
+            e
+        ]);
     }
 
     static function listEntities(req:Request, res:Response) {
@@ -249,6 +257,7 @@ class ServerMain {
         }
         return ids
             .map(id -> entityIndex.entitiesOfId[id])
+            .filter(e -> e.posts.length > 0) // some entities may have posts become inaccessbile thus removed
             .filter(e -> tags.foreach(t -> e.tags.exists(tid -> tid.id.toLowerCase() == t)));
     }
 
