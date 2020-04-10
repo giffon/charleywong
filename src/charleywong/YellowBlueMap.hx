@@ -198,16 +198,16 @@ class YellowBlueMap {
                             if (!fbUrl.startsWith("http"))
                                 fbUrl = "https://" + fbUrl;
                             switch (new URL(fbUrl)) {
-                                case extractFbHomePage(_) => fb if (fb != null):
+                                case extractFbUrl(_) => fb if (fb != null):
 
                                 case url:
                                     // trace('Not a fb url? ${d.facebook}');
                                     followRedirect(fbUrl).then(fbUrl ->
                                         switch (new URL(fbUrl)) {
-                                            case extractFbHomePage(_) => fb if (fb != null):
+                                            case extractFbUrl(_) => fb if (fb != null):
 
                                             case url:
-                                                trace('Not a fb url? ${fbUrl}');
+                                                trace('${d.name} (${d.id}) has a Facebook field value not a fb url? ${fbUrl}');
                                         }
                                     ).catchError(err -> trace('Could not handle $fbUrl. Error: $err'));
                             }

@@ -183,6 +183,46 @@ class UrlExtractors {
         return null;
     }
 
+    static public function extractFbUrl(url:ParsedUrl) {
+        var regex = ~/^https?:\/\/(?:[^\.]+\.)?(?:facebook\.com|fb\.me|fb\.com)$/i;
+        var fbIdRegexp = ~/^.+-([0-9]+)$/;
+        if (regex.match(url.origin)) {
+            var pathParts = url.pathname.split("/");
+            switch (pathParts.slice(0, 5)) {
+                case ["", "page", "category", _, handle]:
+                    return if (fbIdRegexp.match(handle))
+                        fbIdRegexp.matched(1);
+                    else
+                        handle;
+                case _:
+                    // pass
+            }
+            switch (pathParts.slice(0, 3)) {
+                case ["", "pg", handle]:
+                    return if (fbIdRegexp.match(handle))
+                        fbIdRegexp.matched(1);
+                    else
+                        handle;
+                case _:
+                    // pass
+            }
+            return switch (pathParts.slice(0, 2)) {
+                case ["", "profile.php"]:
+                    parseSearch(url.search)["id"];
+                case ["", null]:
+                    null;
+                case ["", handle]:
+                    if (fbIdRegexp.match(handle))
+                        fbIdRegexp.matched(1);
+                    else
+                        handle;
+                case _:
+                    null;
+            }
+        }
+        return null;
+    }
+
     static public function parseSearch(search:String):Map<String, Null<String>> {
         if (search.charAt(0) == "?")
             search = search.substr(1);
