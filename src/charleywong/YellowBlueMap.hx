@@ -7,6 +7,7 @@ import sys.io.File;
 import js.npm.google_spreadsheet.GoogleSpreadsheet;
 import charleywong.GoogleServiceAccount.googleServiceAccount;
 import charleywong.UrlExtractors.*;
+import charleywong.ServerMain.*;
 using Lambda;
 using Reflect;
 using StringTools;
@@ -172,6 +173,50 @@ class YellowBlueMap {
             .then(data -> File.saveContent(localCacheFile, Json.stringify(data, null, "  ")));
     }
 
+    static function matchYBMapWithCharley(d:YBMapData):Promise<Array<Entity>> {
+        var entities:Array<Promise<Entity>> = [];
+        if (d.facebook != null) {
+            var fbUrls = if (d.facebook.contains(",")) {
+                ~/,/g.split(d.facebook).map(StringTools.trim);
+            } else if (d.facebook.contains(" ")) {
+                ~/ +/g.split(d.facebook).map(StringTools.trim);
+            } else if (d.facebook.contains("\n")) {
+                ~/\n/g.split(d.facebook).map(StringTools.trim);
+            } else {
+                [d.facebook];
+            }
+            for (fbUrl in fbUrls) {
+                if (!fbUrl.startsWith("http"))
+                    fbUrl = "https://" + fbUrl;
+                entities.push(switch (new URL(fbUrl)) {
+                    case extractFbUrl(_) => fb if (fb != null):
+                        Promise.resolve(entityIndex.entitiesOfFbPage[fb]);
+                    case url:
+                        followRedirect(fbUrl).then(fbUrl ->
+                            switch (new URL(fbUrl)) {
+                                case extractFbUrl(_) => fb if (fb != null):
+                                    entityIndex.entitiesOfFbPage[fb];
+                                case url:
+                                    trace('${d.name} (${d.id}) has a Facebook field value not a fb url? ${fbUrl}');
+                                    null;
+                            }
+                        ).catchError(err -> {
+                            trace('Could not handle $fbUrl. Error: $err');
+                            null;
+                        });
+                });
+            }
+        }
+
+        return Promise.all(entities).then(entities ->
+            [
+                for (e in (cast entities:Array<Entity>))
+                if (e != null)
+                e.id => e
+            ].array()
+        );
+    }
+
     static function main():Void {
         switch (Sys.args()) {
             case ["test"]:
@@ -183,37 +228,36 @@ class YellowBlueMap {
                     .then(_ -> doc.loadInfo())
                     .then(_ -> dumpToFile());
             case ["sync"]:
-                for (d in localCache) {
-                    if (d.facebook != null) {
-                        var fbUrls = if (d.facebook.contains(",")) {
-                            ~/,/g.split(d.facebook).map(StringTools.trim);
-                        } else if (d.facebook.contains(" ")) {
-                            ~/ +/g.split(d.facebook).map(StringTools.trim);
-                        } else if (d.facebook.contains("\n")) {
-                            ~/\n/g.split(d.facebook).map(StringTools.trim);
-                        } else {
-                            [d.facebook];
-                        }
-                        for (fbUrl in fbUrls) {
-                            if (!fbUrl.startsWith("http"))
-                                fbUrl = "https://" + fbUrl;
-                            switch (new URL(fbUrl)) {
-                                case extractFbUrl(_) => fb if (fb != null):
-
-                                case url:
-                                    // trace('Not a fb url? ${d.facebook}');
-                                    followRedirect(fbUrl).then(fbUrl ->
-                                        switch (new URL(fbUrl)) {
-                                            case extractFbUrl(_) => fb if (fb != null):
-
-                                            case url:
-                                                trace('${d.name} (${d.id}) has a Facebook field value not a fb url? ${fbUrl}');
-                                        }
-                                    ).catchError(err -> trace('Could not handle $fbUrl. Error: $err'));
+                var notMapped = Promise.all([
+                    for (d in localCache)
+                    matchYBMapWithCharley(d)
+                        .then(entities ->
+                            if (entities.length == 0) {
+                                d;
+                            } else {
+                                for (e in entities) {
+                                    switch (e.yellowBlueMapIds) {
+                                        case null:
+                                            e.yellowBlueMapIds = [d.id];
+                                        case ids:
+                                            if (!ids.has(d.id)) {
+                                                ids.push(d.id);
+                                            }
+                                    }
+                                    saveEntity(e, false);
+                                }
+                                null;
                             }
-                        }
-                    }
-                }
+                        )
+                ]).then(ds -> [
+                    for (d in (cast ds:Array<YBMapData>))
+                    if (d != null)
+                    d
+                ]).then(notMapped -> {
+                    var file = "YelloBlueMap_not-in-Charley.json";
+                    File.saveContent(file, Json.stringify(notMapped, null, "  "));
+                    Sys.println('${notMapped.count()} not mapped to Charley. Saved in ${file}');
+                });
             case args:
                 throw 'unknown args $args';
         }
