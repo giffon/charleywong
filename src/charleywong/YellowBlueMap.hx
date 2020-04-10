@@ -41,7 +41,7 @@ typedef YBMapData = {
     source:Null<String>,
 }
 
-enum abstract YBMSheet(String) to String {
+enum abstract YBMapSheet(String) to String {
     var YellowEat = "Eat (黃)";
     var YellowShop = "Shop (黃)";
     var BlueEat = "Eat (藍)";
@@ -49,14 +49,14 @@ enum abstract YBMSheet(String) to String {
     var GreenEatShop = "Eat/Shop (綠)";
 }
 
-typedef YellowBlueMapDump = DynamicAccess<YBMapData>;
+typedef YBMapDump = DynamicAccess<YBMapData>;
 
 class YellowBlueMap {
     static final sheetId = "1fKW2yldIQNTuRM6-DbrAvyNbQC5Gd0WqEW99q6Zb-Og";
     static final doc = new GoogleSpreadsheet(sheetId);
     static final localCacheFile = "YellowBlueMap.json";
 
-    static public var localCache(get, null):YellowBlueMapDump;
+    static public var localCache(get, null):YBMapDump;
     static function get_localCache() return localCache != null ? localCache : localCache = Json.parse(File.getContent(localCacheFile));
 
     static function strCol(row:Dynamic, colName:String):Null<String> {
@@ -96,7 +96,7 @@ class YellowBlueMap {
         }
     }
 
-    final data:YellowBlueMapDump;
+    final data:YBMapDump;
     public function new(dump):Void {
         data = dump;
     }
@@ -164,7 +164,7 @@ class YellowBlueMap {
         }
         Promise.all([yEat, yShop])
             .then(sheets -> {
-                var data:YellowBlueMapDump = {};
+                var data:YBMapDump = {};
                 for (sheet in sheets)
                 for (d in (sheet:Array<YBMapData>))
                 data[d.id] = d;
