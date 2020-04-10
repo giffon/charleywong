@@ -284,7 +284,7 @@ class YellowBlueMap {
                     if (d != null)
                     d
                 ]).then(notMapped -> {
-                    var file = "YelloBlueMap_not-in-Charley.json";
+                    var file = "YellowBlueMap_not-in-Charley.json";
                     File.saveContent(file, Json.stringify(notMapped, null, "  "));
                     Sys.println('${notMapped.count()} not mapped to Charley. Saved in ${file}');
                 });
