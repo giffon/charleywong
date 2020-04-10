@@ -180,7 +180,7 @@ class ExportSpreadsheet {
                                             place;
                                         }
                                     ];
-                                    saveEntity(e, false);
+                                    saveEntity(e, false, false);
                             }
                     }
                 }

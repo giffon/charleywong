@@ -173,44 +173,74 @@ class YellowBlueMap {
             .then(data -> File.saveContent(localCacheFile, Json.stringify(data, null, "  ")));
     }
 
-    static function matchYBMapWithCharley(d:YBMapData):Promise<Array<Entity>> {
-        var entities:Array<Promise<Entity>> = [];
-        if (d.facebook != null) {
-            var fbUrls = if (d.facebook.contains(",")) {
-                ~/,/g.split(d.facebook).map(StringTools.trim);
-            } else if (d.facebook.contains(" ")) {
-                ~/ +/g.split(d.facebook).map(StringTools.trim);
-            } else if (d.facebook.contains("\n")) {
-                ~/\n/g.split(d.facebook).map(StringTools.trim);
-            } else {
-                [d.facebook];
-            }
-            for (fbUrl in fbUrls) {
-                if (!fbUrl.startsWith("http"))
-                    fbUrl = "https://" + fbUrl;
-                entities.push(switch (new URL(fbUrl)) {
-                    case extractFbUrl(_) => fb if (fb != null):
-                        Promise.resolve(entityIndex.entitiesOfFbPage[fb]);
-                    case url:
-                        followRedirect(fbUrl).then(fbUrl ->
-                            switch (new URL(fbUrl)) {
-                                case extractFbUrl(_) => fb if (fb != null):
-                                    entityIndex.entitiesOfFbPage[fb];
-                                case url:
-                                    trace('${d.name} (${d.id}) has a Facebook field value not a fb url? ${fbUrl}');
-                                    null;
-                            }
-                        ).catchError(err -> {
-                            trace('Could not handle $fbUrl. Error: $err');
-                            null;
-                        });
+    static function urls(v:String):Array<Promise<Null<String>>> {
+        var isShortUrl = ~/^https?:\/\/(?:bit\.do|bit\.ly)\//;
+        var urls = if (v.contains(",")) {
+            ~/,/g.split(v).map(StringTools.trim);
+        } else if (v.contains(" ")) {
+            ~/ +/g.split(v).map(StringTools.trim);
+        } else if (v.contains("\n")) {
+            ~/\n/g.split(v).map(StringTools.trim);
+        } else {
+            [v];
+        }
+        return urls.map(url ->
+            if (!url.startsWith("http"))
+                "https://" + url
+            else 
+                url
+        ).map(url ->
+            if (isShortUrl.match(url)) {
+                followRedirect(url).catchError(err -> {
+                    trace('Could not handle $url. Error: $err');
+                    null;
                 });
+            } else {
+                Promise.resolve(url);
+            }
+        );
+    }
+
+    static function matchYBMapWithCharley(d:YBMapData):Promise<Array<Entity>> {
+        var entities:Array<Promise<Null<Entity>>> = [];
+        if (d.facebook != null) {
+            for (url in urls(d.facebook)) {
+                entities.push(url.then(url -> {
+                    if (url == null)
+                        null;
+                    else
+                        switch (new URL(url)) {
+                            case extractFbUrl(_) => fb if (fb != null):
+                                entityIndex.entitiesOfFbPage[fb];
+                            case url:
+                                trace('${d.name} (${d.id}) has a Facebook field value not a fb url? ${url}');
+                                null;
+                        }
+                }));
+            }
+        }
+
+        if (d.instagram != null) {
+            var urls = urls(d.instagram);
+            for (url in urls) {
+                entities.push(url.then(url -> {
+                    if (url == null)
+                        null;
+                    else
+                        switch (new URL(url)) {
+                            case extractIgProfilePage(_) => ig if (ig != null):
+                                entityIndex.entitiesOfUrl['https://www.instagram.com/$ig/'];
+                            case url:
+                                trace('${d.name} (${d.id}) has a Instagram field value not a ig url? ${url}');
+                                null;
+                        }
+                }));
             }
         }
 
         return Promise.all(entities).then(entities ->
             [
-                for (e in (cast entities:Array<Entity>))
+                for (e in (cast entities:Array<Null<Entity>>))
                 if (e != null)
                 e.id => e
             ].array()
@@ -244,7 +274,7 @@ class YellowBlueMap {
                                                 ids.push(d.id);
                                             }
                                     }
-                                    saveEntity(e, false);
+                                    saveEntity(e, false, false);
                                 }
                                 null;
                             }

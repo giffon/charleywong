@@ -318,7 +318,7 @@ class ServerMain {
                                     "sharedWith": req.body.sharedWith
                                 };
                         }
-                        saveEntity(e);
+                        saveEntity(e, true, true);
                         res.status(200).send("done");
                         return;
                 }
@@ -329,7 +329,7 @@ class ServerMain {
                 //pass
             case handle:
                 var e = createEntityFromFb(req.body);
-                saveEntity(e);
+                saveEntity(e, true, true);
                 res.status(200).send("done");
                 return;
         }
@@ -352,7 +352,7 @@ class ServerMain {
                         e.posts.push({
                             url: postUrl
                         });
-                        saveEntity(e);
+                        saveEntity(e, true, true);
                         res.status(200).send("done");
                         return;
                 }
@@ -363,7 +363,7 @@ class ServerMain {
                 //pass
             case handle:
                 var e = createEntityFromIg(req.body);
-                saveEntity(e);
+                saveEntity(e, true, true);
                 res.status(200).send("done");
                 return;
         }
@@ -373,7 +373,7 @@ class ServerMain {
                 //pass
             case Id(_) | Handle(_):
                 var e = createEntityFromYt(req.body);
-                saveEntity(e);
+                saveEntity(e, true, true);
                 res.status(200).send("done");
                 return;
         }
@@ -381,7 +381,7 @@ class ServerMain {
         res.status(500).send('Cannot handle ${req.body}.');
     }
 
-    static public function saveEntity(entity:Entity, openAfterSave = true) {
+    static public function saveEntity(entity:Entity, openAfterSave:Bool, log:Bool) {
         var fileContent = haxe.Json.stringify(entity, null, "  ");
         if (Sys.getEnv("CI") != null || Sys.getEnv("GITHUB_ACTIONS") != null) {
             Sys.println("In CI, skip writing file.");
@@ -389,7 +389,8 @@ class ServerMain {
             var file = haxe.io.Path.join([dataDirectory, entity.id + ".json"]);
             var rewrite = sys.FileSystem.exists(file);
             sys.io.File.saveContent(file, fileContent);
-            Sys.println((rewrite ? "✍️  Rewritten " : "🌟  Created ") + file);
+            if (log)
+                Sys.println((rewrite ? "✍️  Rewritten " : "🌟  Created ") + file);
             entityIndex.entities[file] = entity;
             entityIndex.invalidate();
             if (openAfterSave)
