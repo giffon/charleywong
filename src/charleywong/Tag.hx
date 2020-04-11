@@ -1,6 +1,5 @@
 package charleywong;
 
-import sys.io.File;
 using Lambda;
 
 typedef TagData = {
@@ -27,6 +26,7 @@ abstract TagId(String) from String to String {
 }
 
 class Tag {
+    #if sys
     static function main():Void {
         var ids = [for (tid => t in tags) tid.id];
         ids.sort(Reflect.compare);
@@ -35,8 +35,9 @@ class Tag {
             "type": "string",
             "enum": ids
         };
-        File.saveContent("data/schema/Tag.json", haxe.Json.stringify(schema, null, "  "));
+        sys.io.File.saveContent("data/schema/Tag.json", haxe.Json.stringify(schema, null, "  "));
     }
+    #end
 
     static public var tags(get, null):Map<TagId, TagData>;
     static public function get_tags() return tags != null ? tags : tags = {

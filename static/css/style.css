@@ -132,6 +132,25 @@ iframe.place:first-child:nth-last-child(2n+1) {
     height: 16px;
 }
 
+.ybm-logo {
+    width: 2em;
+    height: 2em;
+}
+
+.ybm-info .card-text {
+    white-space: pre-wrap;
+    text-align: left;
+}
+
+.ybm-info .blockquote-footer {
+    text-align: left;
+    margin-top: 1em;
+}
+
+.ybm-info .blockquote-footer::before {
+    content: "";
+}
+
 .webpage {
     padding: 5px;
     border-bottom: 2px dotted #ccc;

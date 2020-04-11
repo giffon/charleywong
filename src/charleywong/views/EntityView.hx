@@ -1,6 +1,7 @@
 package charleywong.views;
 
 import js.html.URL;
+import js.npm.linkifyjs.react.Linkify;
 import charleywong.Utils.prettyUrl;
 import charleywong.UrlExtractors.*;
 
@@ -121,6 +122,52 @@ class EntityView extends View {
         ');
     }
 
+    function renderYBMap(p:Entity) {
+        if (p.yellowBlueMapIds == null) {
+            return null;
+        }
+
+        var ybmData = p.yellowBlueMapIds.map(id -> switch (YellowBlueMap.localCache[id]) {
+            case null:
+                trace('No data about $id');
+                null;
+            case data:
+                data;
+        }).filter(d -> d != null);
+
+        if (ybmData.length == 0) {
+            return null;
+        }
+
+        for (d in ybmData) {
+            var detail = d.reason + "\n" + "Source:\n" + d.source;
+            var detailId = 'ybm-detail-${d.id}';
+            return jsx('
+                <div className="text-center mb-3 ybm-info card" key=${d.id}>
+                    <div className="card-body">
+                        <div className="card-title mb-0">
+                            <img className="ybm-logo rounded-circle" src=${R("/images/ybm-logo.jpg")} />
+                            收錄於終極黃藍地圖
+                            <a className="mx-2" href=${"#" + detailId} role="button" data-toggle="collapse" data-target=${"#" + detailId} aria-expanded="false" aria-controls=${detailId}>
+                                <i className="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                        <div id=${detailId} className="collapse">
+                            <blockquote className="card-text">
+                                <Linkify>
+                                    ${detail}
+                                </Linkify>
+                                <footer className="blockquote-footer">資料由<a href="https://www.facebook.com/yellowbluemap" target="_blank">終極黃藍地圖</a>提供</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            ');
+        }
+
+        return null;
+    }
+
     function renderPost(p:charleywong.Entity.Post) {
         var summary = if (p.summary != null) {
             var nodes = [];
@@ -228,6 +275,7 @@ class EntityView extends View {
                             <div className="text-center mb-3">
                                 ${entity.webpages.map(renderWebpage)}
                             </div>
+                            ${renderYBMap(entity)}
                             <div className="text-center mb-3">
                                 ${entity.places != null ? entity.places.map(renderPlaces) : null}
                             </div>

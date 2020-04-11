@@ -1,8 +1,5 @@
 package charleywong;
 
-import sys.io.File;
-using Lambda;
-
 typedef LocationData = {
     public var name:MultiLangString;
     @:optional public var inherits:Array<LocationId>;
@@ -23,6 +20,7 @@ abstract LocationId(String) from String to String {
 }
 
 class Location {
+    #if sys
     static function main():Void {
         var ids = [for (id => l in locations) id];
         ids.sort(Reflect.compare);
@@ -31,8 +29,9 @@ class Location {
             "type": "string",
             "enum": ids
         };
-        File.saveContent("data/schema/Location.json", haxe.Json.stringify(schema, null, "  "));
+        sys.io.File.saveContent("data/schema/Location.json", haxe.Json.stringify(schema, null, "  "));
     }
+    #end
 
     static public final locations:Map<LocationId, LocationData> = [
         "Taiwan" => {
