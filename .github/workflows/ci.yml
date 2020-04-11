@@ -36,18 +36,22 @@ jobs:
           bash build-dclookup.sh
           haxelib newrepo
           haxelib install all --always -notimeout
-      - name: Export flexsearch index
-        run: haxe exportFlexsearch.hxml
-      - uses: actions/upload-artifact@v1
-        with:
-          name: flexsearch
-          path: flexsearch.json
       - name: Compile index.js
         run: haxe build.hxml
       - uses: actions/upload-artifact@v1
         with:
           name: index
           path: index.js
+      - uses: actions/upload-artifact@v1
+        with:
+          name: browser
+          path: static/browser.bundled.js
+      - name: Export flexsearch index
+        run: haxe exportFlexsearch.hxml
+      - uses: actions/upload-artifact@v1
+        with:
+          name: flexsearch
+          path: flexsearch.json
       - name: Compile Chrome extension
         run: haxe chrome-extension.hxml
       - uses: actions/upload-artifact@v1
@@ -73,13 +77,17 @@ jobs:
           name: index
       - uses: actions/download-artifact@v1
         with:
+          name: browser
+      - uses: actions/download-artifact@v1
+        with:
           name: flexsearch
       - name: move artifacts
         run: |
           set -ex
           mv index/* .
+          mv browser/* static
           mv flexsearch/* .
-          rm -r index flexsearch
+          rm -r index browser flexsearch
       - name: Install libraries
         run: |
           set -ex
