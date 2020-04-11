@@ -19,9 +19,11 @@ class Index extends View {
         return jsx('
             <Fragment>
                 <div className="p-3 text-center color_black_o60 container-tags">
-                    <span className="d-block d-md-inline">今期流行 在家學習</span>
+                    <span className="d-block d-md-inline">今期流行</span>
                     <ul className="tags d-inline">
-                        <li><a href="https://www.facebook.com/charleywong2020/posts/144127737130253"><i className="fas fa-award"></i> 經典文宣知多少</a></li>
+                        <li><a href="https://www.facebook.com/charleywong2020/posts/146711696871857" target="_blank"><i className="fas fa-coffee"></i> 咖啡豆</a></li>
+                        <li><a href="https://www.facebook.com/charleywong2020/posts/148761586666868"  target="_blank"><i className="fas fa-bath"></i> 番梘</a></li>
+                        <li><a href="https://www.facebook.com/charleywong2020/posts/149977753211918"  target="_blank"><i className="fas fa-people-carry"></i> 搬屋</a></li>
                     </ul>
                 </div>
                 <div className="mt-5 container">
