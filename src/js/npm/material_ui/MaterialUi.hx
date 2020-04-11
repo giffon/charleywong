@@ -35,6 +35,9 @@ extern class Button extends ReactComponent {}
 @:jsRequire("@material-ui/core/Switch", "default")
 extern class Switch extends ReactComponent {}
 
+@:jsRequire("@material-ui/core/Select", "default")
+extern class Select extends ReactComponent {}
+
 @:jsRequire("@material-ui/core/styles")
 extern class Styles {
     static public function styled(c:Dynamic):Dynamic->ReactComponent;

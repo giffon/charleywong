@@ -1,0 +1,11 @@
+--js browser.js
+--main charleywong.BrowserMain
+--library react
+--library compiletime
+--library tink_core
+--library jQueryExtern
+--class-path src
+--class-path lib/hxnodelibs
+-D react_ver=16.12
+-D react_fragments
+--cmd npx browserify browser.js -g [ envify --NODE_ENV production ] -g uglifyify | npx terser --compress --mangle > static/browser.bundled.js

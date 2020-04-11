@@ -22,6 +22,7 @@ package:
     - test/**
     - '*.py'
     - '*.hxml'
+    - browser.js
     - chrome.*.js
 
 functions:

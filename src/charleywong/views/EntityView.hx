@@ -36,17 +36,17 @@ class EntityView extends View {
         };
     }
 
-    function renderPlaces(p:Place) {
-        var key = "AIzaSyCq-mjjqgWRRLQAILJFm-gpkH3Cq26GwSk";
-        var src = 'https://www.google.com/maps/embed/v1/place?key=${key}&q=place_id:${p.googleMapsPlaceId}';
+    function renderPlaces() {
+        if (entity.places == null || entity.places.length == 0) {
+            return null;
+        }
+
         return jsx('
-            <iframe
-                key=${p.googleMapsPlaceId}
-                className="place"
-                frameBorder="0"
-                src=${src}
-                allowFullScreen=${true}>
-            </iframe>
+            <div
+                className="places"
+                data-places=${haxe.Json.stringify(entity.places)}
+            >
+            </div>
         ');
     }
 
@@ -271,14 +271,14 @@ class EntityView extends View {
                                 <h3>${entity.name.printAll()}</h3>
                                 <div className="text-center mb-3">${closed}</div>
                                 <a className="btn btn-light" href=${jsonHref}>查看 JSON 格式 📃</a>
+                                <div className="text-center mb-3">
+                                    ${renderPlaces()}
+                                </div>
                             </div>
                             <div className="text-center mb-3">
                                 ${entity.webpages.map(renderWebpage)}
                             </div>
                             ${renderYBMap(entity)}
-                            <div className="text-center mb-3">
-                                ${entity.places != null ? entity.places.map(renderPlaces) : null}
-                            </div>
                             <div>
                                 ${entity.posts.map(renderPost)}
                             </div>

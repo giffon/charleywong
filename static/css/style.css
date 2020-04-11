@@ -13,26 +13,9 @@ form {
 }
 
 iframe.place {
-    width: 50%;
+    width: 100%;
     height: 200px;
     box-sizing: border-box;
-}
-
-iframe.place:nth-child(2n):nth-last-child(2n),
-iframe.place:nth-child(2n+1):nth-last-child(2n) {
-    padding-right: 2px;
-}
-
-iframe.place:nth-child(2n+1):nth-last-child(2n+1),
-iframe.place:nth-child(2n):nth-last-child(2n+1) {
-    padding-left: 2px;
-}
-
-iframe.place:only-child,
-iframe.place:first-child:nth-last-child(2n+1) {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .fb-post {
@@ -111,6 +94,14 @@ iframe.place:first-child:nth-last-child(2n+1) {
 
 .entity-list li:last-child {
     border-bottom: 0;
+}
+
+.places .MuiInputBase-root {
+    max-width: 100%;
+}
+
+.places .MuiSelect-select:focus {
+    background-color: transparent;
 }
 
 .container-entity {

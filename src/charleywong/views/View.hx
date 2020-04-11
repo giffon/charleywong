@@ -63,6 +63,7 @@ class View extends ReactComponent {
 
     function js() return jsx('
         <Fragment>
+            <script src=${R("/browser.bundled.js")}></script>
         </Fragment>
     ');
 
