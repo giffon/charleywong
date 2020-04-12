@@ -133,12 +133,22 @@ body .MuiMenuItem-root {
     height: 16px;
 }
 
+.ybm-logo-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 1.5em;
+    height: 1em;
+}
+
 .ybm-logo {
+    position: absolute;
+    top: -0.25em;
+    right: 0;
     width: 2em;
     height: 2em;
 }
 
-.ybm-info .card-text {
+.ybm-info blockquote {
     white-space: pre-wrap;
     text-align: left;
 }

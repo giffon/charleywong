@@ -143,23 +143,20 @@ class EntityView extends View {
             var detail = d.reason + "\n" + "Source:\n" + d.source;
             var detailId = 'ybm-detail-${d.id}';
             return jsx('
-                <div className="text-center mb-3 ybm-info card" key=${d.id}>
-                    <div className="card-body">
-                        <div className="card-title mb-0">
+                <div className="webpage ybm-info" key=${d.id}>
+                    <a className="mx-2" href=${"#" + detailId} role="button" data-toggle="collapse" data-target=${"#" + detailId} aria-expanded="false" aria-controls=${detailId}>
+                        <div className="ybm-logo-wrapper">
                             <img className="ybm-logo rounded-circle" src=${R("/images/ybm-logo.jpg")} />
-                            收錄於終極黃藍地圖
-                            <a className="mx-2" href=${"#" + detailId} role="button" data-toggle="collapse" data-target=${"#" + detailId} aria-expanded="false" aria-controls=${detailId}>
-                                <i className="fas fa-search-plus"></i>
-                            </a>
                         </div>
-                        <div id=${detailId} className="collapse">
-                            <blockquote className="card-text">
-                                <Linkify>
-                                    ${detail}
-                                </Linkify>
-                                <footer className="blockquote-footer">資料由<a href="https://www.facebook.com/yellowbluemap" target="_blank">終極黃藍地圖</a>提供</footer>
-                            </blockquote>
-                        </div>
+                        終極黃藍地圖
+                    </a>
+                    <div id=${detailId} className="collapse">
+                        <blockquote>
+                            <Linkify>
+                                ${detail}
+                            </Linkify>
+                            <footer className="blockquote-footer">資料由<a href="https://www.facebook.com/yellowbluemap" target="_blank">終極黃藍地圖</a>提供</footer>
+                        </blockquote>
                     </div>
                 </div>
             ');
@@ -277,8 +274,8 @@ class EntityView extends View {
                             </div>
                             <div className="text-center mb-3">
                                 ${entity.webpages.filter(p -> p.hidden != true).map(renderWebpage)}
+                                ${renderYBMap(entity)}
                             </div>
-                            ${renderYBMap(entity)}
                             <div>
                                 ${entity.posts.map(renderPost)}
                             </div>
