@@ -104,6 +104,16 @@ iframe.place {
     background-color: transparent;
 }
 
+.places .MuiSelect-selectMenu {
+    white-space: normal;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+body .MuiMenuItem-root {
+    white-space: normal;
+}
+
 .container-entity {
     max-width: min(584px,100%); /* fb-post's max-width is 550px */
     width: max-content;
