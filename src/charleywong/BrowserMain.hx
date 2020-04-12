@@ -49,24 +49,33 @@ class Places extends ReactComponent {
                     </iframe>
                 ');
         }
-        var items = [
-            for (i in 0...places.length)
-            jsx('
-                <MenuItem key=${i} value=${i}><i className="fas fa-map-marker-alt mr-1"></i>${places[i].address.printAll()}</MenuItem>
-            ')
-        ];
-        return jsx('
-            <Fragment>
-                <Select
-                    value=${selected}
-                    onChange=${handleChange}
-                    disableUnderline=${true}
-                >
-                    ${items}
-                </Select>
-                ${gmap}
-            </Fragment>
-        ');
+        if (places.length == 1) {
+            return jsx('
+                <Fragment>
+                    <div className="my-1"><i className="fas fa-map-marker-alt mr-1"></i>${places[0].address.printAll()}</div>
+                    ${gmap}
+                </Fragment>
+            ');
+        } else {
+            var items = [
+                for (i in 0...places.length)
+                jsx('
+                    <MenuItem key=${i} value=${i}><i className="fas fa-map-marker-alt mr-1"></i>${places[i].address.printAll()}</MenuItem>
+                ')
+            ];
+            return jsx('
+                <Fragment>
+                    <Select
+                        value=${selected}
+                        onChange=${handleChange}
+                        disableUnderline=${true}
+                    >
+                        ${items}
+                    </Select>
+                    ${gmap}
+                </Fragment>
+            ');
+        }
     }
 }
 

@@ -100,6 +100,10 @@ iframe.place {
     max-width: 100%;
 }
 
+.places .MuiSelect-select {
+    user-select: text;
+}
+
 .places .MuiSelect-select:focus {
     background-color: transparent;
 }
