@@ -5,12 +5,19 @@ import charleywong.ServerMain.*;
 import charleywong.GoogleServiceAccount.googleServiceAccount;
 using Lambda;
 
+enum abstract Sheet(String) to String {
+    var info;
+    var index;
+    var webpages;
+    var places;
+}
+
 class ExportSpreadsheet {
     static final sheetId = "1OXVTI1DsZK9tSulJmfXAD5-pUyRneIuM6zzwmIL_SJQ";
     static final doc = new GoogleSpreadsheet(sheetId);
 
     static function updateLastUpdateDate() {
-        var infoSheet = doc.sheetsByIndex[0];
+        var infoSheet = doc.sheetsByIndex.find(s -> s.title == info);
         var lastUpdateCell = "B7";
         return infoSheet.loadCells()
             .then(function(_){
@@ -26,7 +33,7 @@ class ExportSpreadsheet {
     }
 
     static function populateIndex() {
-        var sheet = doc.sheetsByIndex[1];
+        var sheet = doc.sheetsByIndex.find(s -> s.title == index);
         return sheet.clear()
             .then(function(_){
                 return sheet.setHeaderRow(["id", "name_en", "name_zh", "url_charleywong", "tags", "ybm_ids"]);
@@ -50,7 +57,7 @@ class ExportSpreadsheet {
     }
 
     static function populatePlaces() {
-        var sheet = doc.sheetsByIndex[3];
+        var sheet = doc.sheetsByIndex.find(s -> s.title == places);
         return sheet.clear()
             .then(_ -> sheet.loadCells())
             .then(_ -> sheet.setHeaderRow(["id", "name_en", "name_zh", "url_charleywong", "tags", "places"]))
@@ -111,7 +118,7 @@ class ExportSpreadsheet {
     }
 
     static function populateWebpages() {
-        var sheet = doc.sheetsByIndex[2];
+        var sheet = doc.sheetsByIndex.find(s -> s.title == webpages);
         return sheet.clear()
             .then(function(_){
                 return sheet.setHeaderRow(["id", "url"]);
@@ -146,7 +153,7 @@ class ExportSpreadsheet {
     }
 
     static function importGoogleMapsPlaceIds() {
-        var sheet = doc.sheetsByIndex[3];
+        var sheet = doc.sheetsByIndex.find(s -> s.title == places);
         var noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
         var lastRow = 2543;
         return sheet.loadCells('A1:Z$lastRow')
