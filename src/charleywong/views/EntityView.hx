@@ -276,7 +276,7 @@ class EntityView extends View {
                                 </div>
                             </div>
                             <div className="text-center mb-3">
-                                ${entity.webpages.map(renderWebpage)}
+                                ${entity.webpages.filter(p -> p.hidden != true).map(renderWebpage)}
                             </div>
                             ${renderYBMap(entity)}
                             <div>

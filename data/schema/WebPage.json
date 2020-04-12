@@ -10,6 +10,9 @@
         },
         "meta": {
             "type": "object"
+        },
+        "hidden": {
+            "type": "boolean"
         }
     },
     "required": [

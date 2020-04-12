@@ -16,6 +16,7 @@ typedef WebPage = {
     ?name:Null<MultiLangString>,
     url:String,
     ?meta:DynamicAccess<Dynamic>,
+    ?hidden:Bool,
 }
 
 typedef Place = {
