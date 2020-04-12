@@ -10,6 +10,7 @@ enum abstract Sheet(String) to String {
     var index;
     var webpages;
     var places;
+    var ybm_not_in_charley;
 }
 
 class ExportSpreadsheet {
@@ -198,10 +199,26 @@ class ExportSpreadsheet {
             });
     }
 
+    static function populateYBM() {
+        var sheet = doc.sheetsByIndex.find(s -> s.title == ybm_not_in_charley);
+        return YellowBlueMap.dump()
+            .then(_ -> YellowBlueMap.sync())
+            .then(notMapped ->
+                sheet.clear()
+                    .then(function(_){
+                        return sheet.setHeaderRow(["id", "name", "website", "facebook", "instagram", "openrice", "reason", "source"]);
+                    })
+                    .then(function(_){
+                        return sheet.addRows(notMapped);
+                    })
+            );
+    }
+
     static function main():Void {
         doc.useServiceAccountAuth(googleServiceAccount)
             .then(_ -> doc.loadInfo())
             // .then(_ -> importGoogleMapsPlaceIds());
+            .then(_ -> populateYBM())
             .then(_ -> populateIndex())
             .then(_ -> populateWebpages())
             .then(_ -> populatePlaces())

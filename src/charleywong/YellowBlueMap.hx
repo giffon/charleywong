@@ -247,6 +247,42 @@ class YellowBlueMap {
         );
     }
 
+    // return not-mapped YBMapData
+    static public function sync():Promise<Array<YBMapData>> {
+        return Promise.all([
+            for (d in localCache)
+            matchYBMapWithCharley(d)
+                .then(entities ->
+                    if (entities.length == 0) {
+                        d;
+                    } else {
+                        for (e in entities) {
+                            switch (e.yellowBlueMapIds) {
+                                case null:
+                                    e.yellowBlueMapIds = [d.id];
+                                case ids:
+                                    if (!ids.has(d.id)) {
+                                        ids.push(d.id);
+                                    }
+                            }
+                            saveEntity(e, false, false);
+                        }
+                        null;
+                    }
+                )
+        ]).then(ds -> [
+            for (d in (cast ds:Array<YBMapData>))
+            if (d != null)
+            d
+        ]);
+    }
+
+    static public function dump() {
+        return doc.useServiceAccountAuth(googleServiceAccount)
+            .then(_ -> doc.loadInfo())
+            .then(_ -> dumpToFile());
+    }
+
     static function main():Void {
         switch (Sys.args()) {
             case ["test"]:
@@ -254,40 +290,9 @@ class YellowBlueMap {
                     .then(_ -> doc.loadInfo())
                     .then(_ -> trace(doc.title));
             case ["dump"]:
-                doc.useServiceAccountAuth(googleServiceAccount)
-                    .then(_ -> doc.loadInfo())
-                    .then(_ -> dumpToFile());
+                dump();
             case ["sync"]:
-                var notMapped = Promise.all([
-                    for (d in localCache)
-                    matchYBMapWithCharley(d)
-                        .then(entities ->
-                            if (entities.length == 0) {
-                                d;
-                            } else {
-                                for (e in entities) {
-                                    switch (e.yellowBlueMapIds) {
-                                        case null:
-                                            e.yellowBlueMapIds = [d.id];
-                                        case ids:
-                                            if (!ids.has(d.id)) {
-                                                ids.push(d.id);
-                                            }
-                                    }
-                                    saveEntity(e, false, false);
-                                }
-                                null;
-                            }
-                        )
-                ]).then(ds -> [
-                    for (d in (cast ds:Array<YBMapData>))
-                    if (d != null)
-                    d
-                ]).then(notMapped -> {
-                    var file = "YellowBlueMap_not-in-Charley.json";
-                    File.saveContent(file, Json.stringify(notMapped, null, "  "));
-                    Sys.println('${notMapped.count()} not mapped to Charley. Saved in ${file}');
-                });
+                sync();
             case args:
                 throw 'unknown args $args';
         }
