@@ -150,7 +150,7 @@ class TestAllEntities extends utest.Test {
 
     function testNumWebpages() {
         for (file => entity in index.entities) {
-            Assert.isTrue(entity.webpages.filter(p -> p.hidden != true).length < 8, '${file} has too many webpages, hide some?');
+            Assert.isTrue(entity.webpages.filter(p -> p.hidden != true).length <= 8, '${file} has too many webpages, hide some?');
         }
     }
 }
