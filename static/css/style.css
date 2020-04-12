@@ -52,6 +52,14 @@ iframe.place {
     background-size: 75% 75%;
 }
 
+.ybm-info blockquote .detail a {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1em;
+}
+
 .post-link {
     border: 1px #ddd solid;
     padding: 1em;

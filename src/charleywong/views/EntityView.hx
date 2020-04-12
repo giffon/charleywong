@@ -154,9 +154,11 @@ class EntityView extends View {
                     </a>
                     <div id=${detailId} className="collapse">
                         <blockquote>
-                            <Linkify>
-                                ${detail}
-                            </Linkify>
+                            <div className="detail">
+                                <Linkify>
+                                    ${detail}
+                                </Linkify>
+                            </div>
                             <footer className="blockquote-footer">資料由<a href="https://www.facebook.com/yellowbluemap" target="_blank">終極黃藍地圖</a>提供</footer>
                         </blockquote>
                     </div>
