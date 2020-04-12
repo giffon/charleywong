@@ -144,11 +144,13 @@ class EntityView extends View {
             var detailId = 'ybm-detail-${d.id}';
             return jsx('
                 <div className="webpage ybm-info" key=${d.id}>
-                    <a className="mx-2" href=${"#" + detailId} role="button" data-toggle="collapse" data-target=${"#" + detailId} aria-expanded="false" aria-controls=${detailId}>
-                        <div className="ybm-logo-wrapper">
-                            <img className="ybm-logo rounded-circle" src=${R("/images/ybm-logo.jpg")} />
-                        </div>
-                        終極黃藍地圖
+                    <a href=${"#" + detailId} role="button" data-toggle="collapse" data-target=${"#" + detailId} aria-expanded="false" aria-controls=${detailId}>
+                        <span className="badge badge-pill badge-light font-weight-normal text-primary">
+                            <span className="ybm-logo-wrapper">
+                                <img className="ybm-logo" src=${R("/images/ybm-logo.png")} />
+                            </span>
+                            終極黃藍地圖
+                        </span>
                     </a>
                     <div id=${detailId} className="collapse">
                         <blockquote>

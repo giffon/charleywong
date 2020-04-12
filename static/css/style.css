@@ -133,19 +133,27 @@ body .MuiMenuItem-root {
     height: 16px;
 }
 
+.ybm-info a * {
+    font-size: 100%;
+}
+
+.ybm-info .badge-pill {
+    background-color: #eee;
+}
+
 .ybm-logo-wrapper {
     position: relative;
     display: inline-block;
-    width: 1.5em;
+    width: 1.25em;
     height: 1em;
 }
 
 .ybm-logo {
     position: absolute;
-    top: -0.25em;
+    top: -0.1em;
     right: 0;
-    width: 2em;
-    height: 2em;
+    width: 1.5em;
+    height: 1.5em;
 }
 
 .ybm-info blockquote {
