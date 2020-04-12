@@ -279,7 +279,8 @@ class EntityView extends View {
                                 ${renderYBMap(entity)}
                             </div>
                             <div>
-                                ${if (entity.posts.length > 0) entity.posts.map(renderPost) else "冇表態資料。有可能係先前嘅表態已被移除或者私隱設定有變。"}
+                                ${if (entity.posts.length > 0) entity.posts.map(renderPost) else null}
+                                ${if (entity.posts.length == 0) "冇表態資料。有可能係先前嘅表態已被移除或者私隱設定有變。" else null}
                             </div>
                         </div>
                     </div>
