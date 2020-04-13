@@ -141,6 +141,13 @@ class Tag {
         inherits: ["shop"]
     }
 
+    static public final burger:TagData = {
+        name: {
+            en: "burger",
+            zh: "漢堡包",
+        }
+    }
+
     static public final eyewear:TagData = {
         name: {
             en: "eyewear",

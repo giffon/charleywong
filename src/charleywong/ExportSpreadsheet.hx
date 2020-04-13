@@ -153,6 +153,32 @@ class ExportSpreadsheet {
         }
     }
 
+    static function importTags() {
+        var sheet = doc.sheetsByIndex.find(s -> s.title == index);
+        return sheet.getRows()
+            .then(function(rows){
+                for (row in rows) {
+                    switch (entityIndex.entitiesOfId[row.id]) {
+                        case null:
+                            throw 'There is no entity of id ${row.id}';
+                        case e:
+                            var tags = row.tags.split(" ");
+                            var existing = Tag.expend(e.tags);
+                            var newTags = [
+                                for (t in tags)
+                                if (!existing.has(t))
+                                t
+                            ];
+                            if (newTags.length > 0) {
+                                for (t in newTags)
+                                    e.tags.push(t);
+                                saveEntity(e, false, false);
+                            }
+                    }
+                }
+            });
+    }
+
     static function importGoogleMapsPlaceIds() {
         var sheet = doc.sheetsByIndex.find(s -> s.title == places);
         var noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
@@ -217,11 +243,12 @@ class ExportSpreadsheet {
     static function main():Void {
         doc.useServiceAccountAuth(googleServiceAccount)
             .then(_ -> doc.loadInfo())
+            .then(_ -> importTags());
             // .then(_ -> importGoogleMapsPlaceIds());
-            .then(_ -> populateYBM())
-            .then(_ -> populateIndex())
-            .then(_ -> populateWebpages())
-            .then(_ -> populatePlaces())
-            .then(_ -> updateLastUpdateDate());
+            // .then(_ -> populateYBM())
+            // .then(_ -> populateIndex())
+            // .then(_ -> populateWebpages())
+            // .then(_ -> populatePlaces())
+            // .then(_ -> updateLastUpdateDate());
     }
 }
