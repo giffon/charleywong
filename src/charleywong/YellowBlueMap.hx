@@ -88,11 +88,11 @@ class YellowBlueMap {
         return switch (strCol(row, colName)) {
             case "Marked" | "Updated":
                 true;
-            case "Removed" | "Changed colour" | "Duplicated" | "Old" | null:
+            case "Removed" | "Changed colour" | "Duplicated" | "Old" | "Hold" | null:
                 false;
             case status:
                 trace('Unknown status "$status"');
-                false;
+                true;
         }
     }
 
