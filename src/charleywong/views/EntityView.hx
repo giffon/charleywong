@@ -222,6 +222,13 @@ class EntityView extends View {
                     <iframe src=${'https://www.youtube.com/embed/$vid'} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen=${true}></iframe>
                 </div>
             ');
+        } else if (
+            p.url.startsWith("https://t.me/")
+        ) {
+            var post = p.url.substr("https://t.me/".length);
+            jsx('
+                <script async=${true} src="https://telegram.org/js/telegram-widget.js?8" data-telegram-post=${post} data-width="100%"></script>
+            ');
         } else {
             jsx('
                 <div className="post-link">
