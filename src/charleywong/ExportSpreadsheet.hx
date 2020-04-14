@@ -243,12 +243,12 @@ class ExportSpreadsheet {
     static function main():Void {
         doc.useServiceAccountAuth(googleServiceAccount)
             .then(_ -> doc.loadInfo())
-            .then(_ -> importTags());
+            // .then(_ -> importTags());
             // .then(_ -> importGoogleMapsPlaceIds());
-            // .then(_ -> populateYBM())
-            // .then(_ -> populateIndex())
-            // .then(_ -> populateWebpages())
-            // .then(_ -> populatePlaces())
-            // .then(_ -> updateLastUpdateDate());
+            .then(_ -> populateYBM())
+            .then(_ -> populateIndex())
+            .then(_ -> populateWebpages())
+            .then(_ -> populatePlaces())
+            .then(_ -> updateLastUpdateDate());
     }
 }
