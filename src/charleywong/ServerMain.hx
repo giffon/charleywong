@@ -534,7 +534,7 @@ class ServerMain {
     }
 
     static function createEntityFromFb(fbPage:charleywong.chrome.FacebookProfile):Entity {
-        var entity = switch (getEntityOfUrls([fbPage.url].concat(fbPage.websites))) {
+        var entity:Entity = switch (getEntityOfUrls([fbPage.url].concat(fbPage.websites))) {
             case null:
                 switch (entityIndex.entitiesOfFbPage[fbPage.id]) {
                     case null:
@@ -563,6 +563,23 @@ class ServerMain {
         if (fbPage.addr != null) {
             meta["addr"] = fbPage.addr.line;
             meta["area"] = fbPage.addr.area;
+
+            if (entity.places == null) {
+                var noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
+                switch(fbPage.addr.line) {
+                    case null:
+                        //pass
+                    case address:
+                        var place:Place = {};
+                        place.address = if (noChi.match(address)) {
+                            en: address
+                        } else {
+                            zh: address
+                        }
+                        place.googleMapsPlaceId = "";
+                        entity.places = [place];
+                }
+            }
         }
         if (fbPage.email != null) {
             meta["email"] = fbPage.email;
@@ -586,6 +603,7 @@ class ServerMain {
             case webpage:
                 webpage.meta = meta;
         }
+
         return entity;
     }
 
