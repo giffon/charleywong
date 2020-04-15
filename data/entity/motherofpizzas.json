@@ -1,0 +1,53 @@
+{
+  "id": "motherofpizzas",
+  "name": {
+    "en": "Mother Of Pizzas"
+  },
+  "webpages": [
+    {
+      "url": "http://www.motherofpizzas.com"
+    },
+    {
+      "url": "https://www.facebook.com/motherofpizzas/",
+      "meta": {
+        "name": "Mother Of Pizzas",
+        "id": "1760363900913191",
+        "categories": [
+          "Pizza Place"
+        ],
+        "addr": "Ground Floor, 13-19 Leighton Road, Causeway Bay",
+        "area": "Hong Kong",
+        "tel": "28912221"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/motherofpizzashk/",
+      "meta": {
+        "name": "Mother Of Pizzas",
+        "about": "🍕Ground Shop, 13-19 Leighton Road\nCauseway Bay, Hong Kong\n🍕Mon-Sun: 11:30am - 9:30pm\n🍕Call Us: 2891 2221\n🍕Order Here:"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/motherofpizzas/posts/2376887742594134",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Ground Floor, 13-19 Leighton Road, Causeway Bay"
+      },
+      "googleMapsPlaceId": "ChIJv3gz8FAABDQR9wNAjYOeZb8"
+    }
+  ],
+  "yellowBlueMapIds": [
+    "Y_EAT00147"
+  ]
+}
