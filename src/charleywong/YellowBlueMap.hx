@@ -260,12 +260,13 @@ class YellowBlueMap {
                             switch (e.yellowBlueMapIds) {
                                 case null:
                                     e.yellowBlueMapIds = [d.id];
+                                    saveEntity(e, false, false);
                                 case ids:
                                     if (!ids.has(d.id)) {
                                         ids.push(d.id);
+                                        saveEntity(e, false, false);
                                     }
                             }
-                            saveEntity(e, false, false);
                         }
                         null;
                     }
