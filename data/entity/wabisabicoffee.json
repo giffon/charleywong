@@ -7,21 +7,50 @@
   "webpages": [
     {
       "meta": {
+        "name": "侘寂珈琲 WabiSabi Coffee",
+        "id": "896367740431998",
         "about": "Instagram: wabisabi_coffee\n\n片刻寧靜，始於侘寂",
         "categories": [
-          "Coffee shop",
-          "Asian restaurant"
+          "Coffee Shop",
+          "Asian Restaurant",
+          "Breakfast & Brunch Restaurant"
         ],
         "addr": "Unit C 4/F., Everest Industrial Centre, 396 Kwun Tong Road",
-        "area": "Kwun Tong",
+        "area": "852 Kwun Tong",
         "email": "wabisabicoffee2015@gmail.com",
-        "tel": "25111929",
-        "id": "896367740431998"
+        "tel": "25111929"
       },
       "url": "https://www.facebook.com/wabisabicoffee/"
     },
     {
-      "url": "https://www.instagram.com/wabisabi_coffee/"
+      "url": "https://www.instagram.com/wabisabi_coffee/",
+      "meta": {
+        "name": "侘寂珈琲 Wabi Sabi Coffee",
+        "about": "☕香港珈琲店☕\n❤香港社區愛心商戶 16-19❤\n❤️商界展關懷 19-20❤️\n☕Est. in Hong Kong since 2015☕\n❤Hong Kong Community Caring Shop 16-19❤\n❤️Caring Company 19-20❤️"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/wabisabicoffee.kissa/",
+      "meta": {
+        "name": "侘寂珈琲・喫茶 WabiSabi Coffee Kissa",
+        "id": "110030680421726",
+        "categories": [
+          "Coffee Shop",
+          "Sake Bar",
+          "Japanese Restaurant"
+        ],
+        "addr": "Unit GF-05 G/F. 22 Museum Drive, West Kowloon Cultural District",
+        "area": "Kowloon, Hong Kong",
+        "email": "wabisabicoffeekissa2019@gmail.com",
+        "tel": "52828432"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/wabisabi_coffee.kissa/",
+      "meta": {
+        "name": "侘寂珈琲．喫茶 Wabi Sabi Coffee．Kissa",
+        "about": "├ 侘 • 寂 | 一 期 一 會 ┤\n去掉一切浮華回歸簡約，讓我們靜心漫活\n西 九 文 化 區 藝 術 公 園\n週 一 至 週 日 營 業"
+      }
     }
   ],
   "posts": [
@@ -36,6 +65,21 @@
     "food"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00117"
+    "Y_EAT00117",
+    "Y_EAT00118"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit C 4/F., Everest Industrial Centre, 396 Kwun Tong Road"
+      },
+      "googleMapsPlaceId": "ChIJpfiyOE8BBDQRazQ7L6hjHgQ"
+    },
+    {
+      "address": {
+        "en": "Unit GF-05 G/F. 22 Museum Drive, West Kowloon Cultural District"
+      },
+      "googleMapsPlaceId": "EiJNdXNldW0gRHIsIFdlc3QgS293bG9vbiwgSG9uZyBLb25nIi4qLAoUChIJ606fBZEABDQRwsxgpxYkVnMSFAoSCZ3_SteWAAQ0ERoXF9cb5r27"
+    }
   ]
 }
