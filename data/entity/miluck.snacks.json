@@ -1,0 +1,46 @@
+{
+  "id": "miluck.snacks",
+  "name": {
+    "en": "Miluck Snacks",
+    "zh": "美樂小食"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/miluck.snacks/"
+    },
+    {
+      "url": "https://www.facebook.com/miluck/",
+      "meta": {
+        "name": "美樂小食",
+        "id": "339706619411169",
+        "categories": [
+          "Restaurant"
+        ],
+        "tel": "25271900"
+      },
+      "hidden": true
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://hk.news.appledaily.com/local/realtime/article/20190613/59712194",
+      "summary": {
+        "zh": "【引渡惡法】海富中心商戶失一半生意仍贈學生飯盒：佢哋仲細 唔到我哋計較對錯 | 即時新聞 | 要聞 | 20190613"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "金鐘夏慤道18號海富中心103-104號舖"
+      },
+      "googleMapsPlaceId": "ChIJ71oGBGcABDQR5CkE22PtOfg"
+    }
+  ],
+  "yellowBlueMapIds": [
+    "Y_EAT00209"
+  ]
+}
