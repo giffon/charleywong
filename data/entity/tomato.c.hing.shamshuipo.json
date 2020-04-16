@@ -11,8 +11,8 @@
         "id": "2014583758802663",
         "about": "#專心一意做好番茄湯底",
         "categories": [
-          "Noodle House",
-          "Hong Kong Restaurant"
+          "Hong Kong Restaurant",
+          "Noodle House"
         ],
         "addr": "九龍深水埗基隆街255號地下",
         "area": "Sham Shui Po",
@@ -49,5 +49,19 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00661"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍深水埗基隆街255號地下"
+      },
+      "googleMapsPlaceId": "ChIJ25RrdrQABDQR2Cb0qPIEQ9c"
+    },
+    {
+      "address": {
+        "zh": "元朗擊壤路9號金寶大廈地下4號舖"
+      },
+      "googleMapsPlaceId": "ChIJYQoji5_wAzQRNPmHLMd79Vo"
+    }
   ]
 }
