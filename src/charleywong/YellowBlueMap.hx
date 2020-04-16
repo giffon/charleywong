@@ -249,8 +249,15 @@ class YellowBlueMap {
 
     // return not-mapped YBMapData
     static public function sync():Promise<Array<YBMapData>> {
+        var mapped = [
+            for (e in entityIndex.entities)
+            if (e.yellowBlueMapIds != null)
+            for (id in e.yellowBlueMapIds)
+            id => true
+        ];
         return Promise.all([
             for (d in localCache)
+            if (!mapped.exists(d.id))
             matchYBMapWithCharley(d)
                 .then(entities ->
                     if (entities.length == 0) {
