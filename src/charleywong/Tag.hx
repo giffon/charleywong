@@ -104,6 +104,13 @@ class Tag {
         }
     }
 
+    static public final tutoring:TagData = {
+        name: {
+            en: "tutoring",
+            zh: "補習",
+        }
+    }
+
     static public final lawyer:TagData = {
         name: {
             en: "lawyer",
