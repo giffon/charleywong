@@ -57,7 +57,12 @@ class YellowBlueMap {
     static final localCacheFile = "YellowBlueMap.json";
 
     static public var localCache(get, null):YBMapDump;
-    static function get_localCache() return localCache != null ? localCache : localCache = Json.parse(File.getContent(localCacheFile));
+    static function get_localCache() return localCache != null ? localCache : localCache = try {
+        Json.parse(File.getContent(localCacheFile));
+    } catch (e:Dynamic) {
+        trace('Unable to load $localCacheFile');
+        {};
+    }
 
     static function strCol(row:Dynamic, colName:String):Null<String> {
         return switch (row.field(colName)) {
