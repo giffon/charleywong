@@ -159,7 +159,7 @@ class EntityView extends View {
                                     ${detail}
                                 </Linkify>
                             </div>
-                            <footer className="blockquote-footer">資料由<a href="https://www.facebook.com/yellowbluemap" target="_blank">終極黃藍地圖</a>提供</footer>
+                            <footer className="blockquote-footer">以上資料由<a href="https://www.facebook.com/yellowbluemap" target="_blank">終極黃藍地圖</a>提供</footer>
                         </blockquote>
                     </div>
                 </div>
