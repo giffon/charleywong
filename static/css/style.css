@@ -30,6 +30,7 @@ iframe.place {
     display: block;
     width: 25%;
     min-width: 150px;
+    max-width: 200px;
     background-size: contain;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -257,6 +258,10 @@ footer {
 .tags li {
     list-style: none;
     display: inline-block;
+    opacity: 0;
+    animation:taags 1s ease forwards;
+    -moz-animation:taags 1s ease forwards;
+    -webkit-animation:taags 1s ease forwards;
   }
 
   .tags li a {
@@ -275,19 +280,70 @@ footer {
 
   .container-tags {
     line-height: 2rem;
-    animation:taags 1s ease forwards;
-    -moz-animation:taags 1s ease forwards;
-    -webkit-animation:taags 1s ease forwards;
+    
   }
   @keyframes taags {
     0% {
       opacity: 0;
     }
+    30% {
+      opacity: 0;
+    }
     100% {
       opacity: 1;
-      -webkit-transform: translate(0, 10px);
-      transform: translate(0, 10px);
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
     } 
+  }
+
+  .logo-c {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    min-width: 120px;
+    animation:logoc 500ms ease forwards;
+    -moz-animation:logoc 500ms ease forwards;
+    -webkit-animation:logoc 500ms ease forwards;
+  }
+
+  @keyframes logoc {
+    0% {
+      opacity: 0;
+      top: -80px;
+    }
+    100% {
+      opacity: 1;
+      top: -60px;
+    } 
+  }
+
+  .container-search {
+        
+    background-image:linear-gradient(0deg, rgba(244, 169, 72, 0.6), rgba(244, 169, 72, 0.3), rgba(255, 212, 157, 0.2)), url('/images/burger-theme.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+
+  }
+
+  .container-intro {
+    background-image:linear-gradient(90deg, #efa341 50%, #ef9f39 50%);
+  }
+
+  .bg-stripe-y {
+    background: url(
+     data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAK0lEQVQYV2O806NszAAF//4xnmGECYA4TEz/TcACMA5IIeOtLpX/IBmYNgDOyxPGopEE8gAAAABJRU5ErkJggg==
+    ) repeat;
+  }
+
+  .color_fb {
+    color: #3b5998  !important;
+    border-bottom: 0 !important;
+  }
+
+  .color_ig {
+      color: #c80085  !important;
+      border-bottom: 0 !important;
   }
 
 /* general styling class */
