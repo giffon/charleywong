@@ -6,23 +6,28 @@
   },
   "webpages": [
     {
-      "url": "http://www.kanamono.com.hk"
-    },
-    {
       "meta": {
+        "name": "金社 • Kanamono Hardware Store",
         "id": "247972471987471",
-        "about": "金社 Kanamono Hardware Store\n品選各地五金, 裝飾物品, 有趣工具，令生活增添玩味。",
+        "about": "金社 Kanamono Hardware Store\n品選各地五金,   裝飾物品,   有趣工具，令生活增添玩味。",
         "categories": [
-          "Shopping & retail",
-          "Home decor",
-          "Local service"
+          "Home Decor",
+          "Shopping & Retail",
+          "Local Service"
         ],
         "addr": "G/F, 30B, WUN SHA STREET, TAI HANG",
-        "area": "Hong Kong",
+        "area": "/ Hong Kong",
         "email": "hello@kanamono.com.hk",
         "tel": "28656168"
       },
       "url": "https://www.facebook.com/kanamonohardwarestore/"
+    },
+    {
+      "url": "https://www.instagram.com/kanamonohk/",
+      "meta": {
+        "name": "金社Kanamono",
+        "about": "金社 • Kanamono EST.2015 We sell mainly tools and item for construction and interiors! G/F, 30B Wun Sha St., Tai Hang, HK 香港大坑浣紗街30號地下B店 TUE-SUN 1-7pm"
+      }
     }
   ],
   "posts": [
@@ -38,5 +43,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01431"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, 30B, WUN SHA STREET, TAI HANG"
+      },
+      "googleMapsPlaceId": "ChIJ48VHZqsBBDQRlQiqjBe4cVs"
+    }
   ]
 }
