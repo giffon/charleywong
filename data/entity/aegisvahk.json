@@ -18,6 +18,12 @@
           "Product/Service"
         ]
       }
+    },
+    {
+      "url": "https://www.instagram.com/aegis_vahk/",
+      "meta": {
+        "name": "aegis_vahk"
+      }
     }
   ],
   "posts": [
@@ -34,6 +40,12 @@
         "utime": "1582005052",
         "sharedWith": "Public"
       }
+    },
+    {
+      "url": "https://www.facebook.com/aegisvahk/posts/138866004350188",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
@@ -42,5 +54,13 @@
   ],
   "alias": [
     "107001547536634"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "台灣台北市大安區新生南路三段68號之2 一樓"
+      },
+      "googleMapsPlaceId": "ChIJu8WGBYmpQjQRJ6RS1umjrlU"
+    }
   ]
 }
