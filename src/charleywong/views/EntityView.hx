@@ -249,7 +249,7 @@ class EntityView extends View {
         var jsonHref = '${entity.id}.json';
         var picUrl = '/${entity.id}/profile.png';
         var logoHeaderStyle = {
-            backgroundImage: 'url(${R("/images/logo-c-t.png")})',
+            backgroundImage: 'url(${R("/images/charley-600-w.png")})',
         };
         var closed = if (entity.tags.has("closed")) {
             jsx('
