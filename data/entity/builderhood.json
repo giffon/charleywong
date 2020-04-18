@@ -25,6 +25,15 @@
         "about": "地盤佬\n人在江湖，身不由己\n五金街\n買架撐，就係咁簡單"
       },
       "url": "https://www.instagram.com/builderhood/"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCb1EgKwe6X9bdCPOKKLL0oA",
+      "meta": {
+        "id": "UCb1EgKwe6X9bdCPOKKLL0oA",
+        "location": "Hong Kong",
+        "name": "地盤佬江湖 - 五金街",
+        "about": "人在江湖，身不由已首選五金工具網購平台https://mall.builderhood.com/"
+      }
     }
   ],
   "posts": [
@@ -46,5 +55,13 @@
   ],
   "tags": [
     "hardware"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀麼地道67號半島中心商場1樓180號舖"
+      },
+      "googleMapsPlaceId": "ChIJI0T-_ikBBDQRj6CYCdLfU1Y"
+    }
   ]
 }
