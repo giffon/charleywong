@@ -162,13 +162,13 @@ class View extends ReactComponent {
 
                     <div className="m-md-3 mb-3 p-3 p-md-4 p-lg-5 bg-stripe-y rounded-10 text-center col"> 
                         <h5 className="text-center"><i className="fas fa-laptop-code"></i> 使用 Charley 數據</h5>
-                        <p>Charley Wong 和你查 嘅<a href="https://github.com/giffon/charleywong">原碼</a>以 <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL-3.0-or-later</a> 發佈，數據以 <a href="http://opendatacommons.org/licenses/odbl/1.0/">ODbL-1.0</a> 發佈。</p>
+                        <p className="mb-0">Charley Wong 和你查 嘅<a href="https://github.com/giffon/charleywong">原碼</a>以 <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL-3.0-or-later</a> 發佈，數據以 <a href="http://opendatacommons.org/licenses/odbl/1.0/">ODbL-1.0</a> 發佈。</p>
                     </div>
                     
                     <div className="m-md-3 mb-3 p-3 p-md-4 p-lg-5 bg-stripe-y rounded-10 text-center col">
                         <h5 className="text-center"><i className="fas fa-baby"></i> 邊個整 Charley</h5>
                         <p>Charley 嘅父母係 <a href="https://giffon.io">Giffon</a>, 一個幫大家眾籌禮物的平台。</p>
-                        <p>另外，我哋<a href="https://www.facebook.com/charleywong2020/posts/151433913066302">同終極黃藍地圖合作</a>，持續互相完善雙方嘅資料。</p>
+                        <p className="mb-0">另外，我哋<a href="https://www.facebook.com/charleywong2020/posts/151433913066302">同終極黃藍地圖合作</a>，持續互相完善雙方嘅資料。</p>
                     </div>
                 </div>
             </div>
