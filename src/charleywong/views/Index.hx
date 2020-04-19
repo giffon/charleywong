@@ -36,7 +36,7 @@ class Index extends View {
                                     <li><a href="/search/coffee">咖啡</a></li>
                                     <li><a href="/search/burger">漢堡</a></li>
                                     <li><a href="/search/soap">番梘</a></li>
-                                    <li><a href="/search/moving">搬屋</a></li>
+                                    <li><a href="/search/搬屋">搬屋</a></li>
                                 </ul>
                             </div>
                         </div>
