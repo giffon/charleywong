@@ -156,7 +156,7 @@ class View extends ReactComponent {
                 <div className="d-md-flex color_black_o60">
                     <div className="m-md-3 mb-3 p-3 p-md-4 p-lg-5 bg-stripe-y rounded-10 text-center col">
                         <h5 className="text-center"><i className="far fa-bell"></i> 追蹤 Charley</h5>
-                        <p>睇下 Charley 搵左咩精選黃店，亦歡迎朋友搵 Charley 報料。</p>
+                        <p>睇下 Charley 介紹咗咩精選黃店，亦歡迎朋友搵 Charley 報料。</p>
                         <h2><a className="color_fb" href="https://www.facebook.com/charleywong2020"><i className="fab fa-facebook"></i></a>&nbsp;&nbsp;<a className="color_ig" href="https://www.instagram.com/charleywongwong/"><i className="fab fa-instagram"></i></a></h2>
                     </div>
 
@@ -167,7 +167,8 @@ class View extends ReactComponent {
                     
                     <div className="m-md-3 mb-3 p-3 p-md-4 p-lg-5 bg-stripe-y rounded-10 text-center col">
                         <h5 className="text-center"><i className="fas fa-baby"></i> 邊個整 Charley</h5>
-                        <p>Charley的父母其實係 Giffon, 一個幫大家眾籌禮物的平台，有興趣既朋友歡迎望一望。</p>
+                        <p>Charley 嘅父母係 <a href="https://giffon.io">Giffon</a>, 一個幫大家眾籌禮物的平台。</p>
+                        <p>另外，我哋<a href="https://www.facebook.com/charleywong2020/posts/151433913066302">同終極黃藍地圖合作</a>，持續互相完善雙方嘅資料。</p>
                     </div>
                 </div>
             </div>
