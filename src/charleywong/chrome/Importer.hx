@@ -164,8 +164,8 @@ class Importer {
     }
 
     static function igHandle() {
-        var h2 = document.getElementsByXPath("//article//header//a[text()!='Follow']")[0];
-        var href = (cast h2:AnchorElement).href;
+        var link = document.getElementsByXPath("//article//header//*[@href]")[0];
+        var href = (cast link:AnchorElement).href;
         var regexp = ~/^https:\/\/www\.instagram\.com\/([^\/]+)\/$/;
         if (regexp.match(href)) {
             return regexp.matched(1);
