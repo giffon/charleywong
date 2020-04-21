@@ -6,10 +6,11 @@
   "webpages": [
     {
       "meta": {
+        "name": "The Cool Cousins Cafe & Noodle Bar",
         "id": "356313775000657",
         "about": "The Cool Cousins 是一家提供西泰式美食的小餐館，菜式包括特色泰式湯麵和頂級西式漢堡。我們所有食材均由原材料開始準備，即叫即製，而過程中不添加任何味精，令客人能品嘗食物的原味道。",
         "categories": [
-          "Burger restaurant"
+          "Burger Restaurant"
         ],
         "addr": "開源道60號駱駝漆大廈3座11樓J",
         "area": "Kwun Tong",
@@ -32,5 +33,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00722"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "開源道60號駱駝漆大廈3座11樓J"
+      },
+      "googleMapsPlaceId": "ChIJDwUgbUUBBDQR2zlgNuYkWZ4"
+    }
   ]
 }
