@@ -543,4 +543,11 @@ class Tag {
             zh: "教車師傅"
         }
     }
+
+    static public final skincare:TagData = {
+        name: {
+            en: "skincare",
+            zh: "護膚品"
+        }
+    }
 }
