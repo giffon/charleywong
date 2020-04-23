@@ -6,7 +6,10 @@
   },
   "webpages": [
     {
-      "url": "https://www.instagram.com/aura_skincare_hk/p/BuxkdEQjv9w/?utm_source=ig_share_sheet&igshid=a1bhydmanyb2"
+      "url": "https://www.instagram.com/aura_skincare_hk/",
+      "meta": {
+        "name": "aura"
+      }
     },
     {
       "url": "https://www.facebook.com/auraallaboutnaturalhk/",
@@ -36,5 +39,8 @@
       }
     }
   ],
-  "tags": ["shop", "skincare"]
+  "tags": [
+    "shop",
+    "skincare"
+  ]
 }
