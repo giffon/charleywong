@@ -1,5 +1,6 @@
 package charleywong;
 
+import sys.*;
 import sys.io.Process;
 import haxe.io.*;
 import haxe.macro.*;
@@ -34,9 +35,14 @@ class StaticResource {
             Context.error('$path should relative to root (starts with /)', Context.currentPos());
         }
 
-        var h = hash(Path.join([resourcesDir, path]));
-
-        return macro @:privateAccess charleywong.StaticResource._R($v{path}, $v{h});
+        var staticPath = Path.join([resourcesDir, path]);
+        if (!FileSystem.exists(staticPath)) {
+            Context.warning('$path does not exist', Context.currentPos());
+            return macro @:privateAccess $v{path};
+        } else {
+            var h = hash(staticPath);
+            return macro @:privateAccess charleywong.StaticResource._R($v{path}, $v{h});
+        }
     };
 
     static function _R(path:String, hash:String):String {
