@@ -52,7 +52,10 @@
       }
     }
   ],
-  "tags": ["shop","skincare"],
+  "tags": [
+    "shop",
+    "skincare"
+  ],
   "places": [
     {
       "address": {
@@ -60,5 +63,8 @@
       },
       "googleMapsPlaceId": "ChIJ1emvTEUBBDQRz70Xa3ICGL4"
     }
+  ],
+  "yellowBlueMapIds": [
+    "Y_SHOP00056"
   ]
 }
