@@ -9,12 +9,12 @@
       "meta": {
         "name": "Cake Base烘焙食用品專賣店",
         "id": "227761737802659",
-        "about": "Cake Base 是一間專賣蛋糕材料及工具的專門店，還提供新款蛋糕課程\n\n服務範圍包括:\n\n零售及批發\n蛋糕,麵飽材料\n蛋糕,麵飽用具\n甜品原料用具\n健康食品\n烹飪書籍\n舉辦烹飪課程",
+        "about": "Cake Base 是一間專賣蛋糕材料及工具的專門店\n \n服務範圍包括:\n \n零售及批發\n蛋糕,麵飽材料\n蛋糕,麵飽用具\n甜品原料用具",
         "categories": [
           "Local Business"
         ],
         "addr": "小瀝源安麗街11號企業中心21樓2103室",
-        "area": "Sha Tin, Hong Kong",
+        "area": "000 Sha Tin, Hong Kong",
         "email": "yuicheung0111@gmail.com",
         "tel": "61360689"
       }
@@ -70,5 +70,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01704"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "小瀝源安麗街11號企業中心21樓2103室"
+      },
+      "googleMapsPlaceId": "ChIJzXz-HkcGBDQRGelrpIpmOG4"
+    }
   ]
 }

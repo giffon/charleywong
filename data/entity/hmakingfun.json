@@ -15,7 +15,7 @@
           "Food & Beverage"
         ],
         "addr": "元朗安寧路186號",
-        "area": "Yuen Long",
+        "area": "00 Yuen Long",
         "email": "housemakingfun@gmail.com",
         "tel": "24797368"
       }
@@ -46,5 +46,13 @@
   "tags": [
     "food",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗安寧路186號"
+      },
+      "googleMapsPlaceId": "ChIJdZCTsp_wAzQRgdsk7u5bN_k"
+    }
   ]
 }

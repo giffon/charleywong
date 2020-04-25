@@ -17,7 +17,7 @@
         "categories": [
           "Shopping & Retail"
         ],
-        "addr": "觀塘巧明街117號 港貿中心15字樓1504室./ Rm1504 15/F Enterpot Ctr., 117 How Ming St., KLN.",
+        "addr": "觀塘巧明街117號  港貿中心15字樓1504室./  Rm1504 15/F Enterpot Ctr., 117 How Ming St., KLN.",
         "area": "Kwun Tong",
         "email": "info@sugarhouse.com.hk",
         "tel": "39568737"
@@ -67,5 +67,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01579"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘巧明街117號  港貿中心15字樓1504室"
+      },
+      "googleMapsPlaceId": "ChIJi6WY110BBDQROhYw7izFiaM"
+    }
   ]
 }
