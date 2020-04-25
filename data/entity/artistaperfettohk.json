@@ -6,15 +6,22 @@
   "webpages": [
     {
       "meta": {
+        "name": "Artista Perfetto HK",
+        "id": "305599263600747",
         "categories": [
-          "Coffee shop",
-          "Product/service"
+          "Coffee Shop"
         ],
         "addr": "Shop 2, No. 3A Sharp Street West, Causeway Bay",
-        "area": "Hong Kong",
-        "id": "305599263600747"
+        "area": "000 Hong Kong"
       },
       "url": "https://www.facebook.com/artistaperfettohk/"
+    },
+    {
+      "url": "https://www.instagram.com/artistaperfettohk/",
+      "meta": {
+        "name": "Artista Perfetto",
+        "about": "• 𝗦𝗽𝗲𝗰𝗶𝗮𝗹𝘁𝘆 𝗰𝗼𝗳𝗳𝗲𝗲 • 𝗟𝗶𝗳𝗲𝘀𝘁𝘆𝗹𝗲 •\n-\n𝗪𝗲𝗲𝗸𝗱𝗮𝘆𝘀 𝟬𝟴:𝟬𝟬-𝟮𝟬:𝟬𝟬 / 𝗪𝗲𝗲𝗸𝗲𝗻𝗱𝘀 𝟬𝟵:𝟬𝟬-𝟭𝟵:𝟬𝟬\n-\n𝗕𝗿𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝗼𝘄𝗻 𝗰𝘂𝗽 𝗮𝗻𝗱 𝗚𝗘𝗧 𝗮 $𝟱 𝗱𝗶𝘀𝗰𝗼𝘂𝗻𝘁\n-"
+      }
     }
   ],
   "posts": [
@@ -30,5 +37,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00089"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 2, No. 3A Sharp Street West, Causeway Bay"
+      },
+      "googleMapsPlaceId": "ChIJE6Of0YwBBDQRL1dqfjfy_B4"
+    }
   ]
 }

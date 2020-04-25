@@ -12,7 +12,7 @@
         "categories": [
           "Company"
         ],
-        "addr": "Room 1503, 909 Cheung Sha Wan Road, Cheung Sha Wan",
+        "addr": "Room 1006, 10/F, Block C, Hong Kong Industrial Centre, 489-491 Castle Peak Road, Cheung Sha Wan, Kowloon",
         "area": "852 Hong Kong",
         "email": "info@u-kingdom.com.hk",
         "tel": "21142336"
@@ -34,5 +34,13 @@
   ],
   "tags": [
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room 1006, 10/F, Block C, Hong Kong Industrial Centre, 489-491 Castle Peak Road, Cheung Sha Wan, Kowloon"
+      },
+      "googleMapsPlaceId": "ChIJVakuWlQHBDQRL5mvTlhIRmM"
+    }
   ]
 }

@@ -6,12 +6,10 @@
   },
   "webpages": [
     {
-      "url": "http://asyuwishsushi.com"
-    },
-    {
       "meta": {
+        "name": "魚願以嚐 As Yu Wish Sushi",
         "id": "356623244910143",
-        "about": "《魚願以嚐》\n⎈Dreams come true for us!⎈\n⎈ 日本串燒店 Japanese Skewer & Ramen Restaurant at Quarry Bay🍢🍻\n🚊鰂魚涌站Exit B\n📍英皇道933號御皇台地下11號舖(英麗閣停車場/759後)",
+        "about": "�鰂魚涌站Exit B�英皇道933號御皇台地下11號舖(英麗閣停車場/759正後方）",
         "categories": [
           "Ramen Restaurant"
         ],
@@ -19,6 +17,13 @@
         "tel": "27881228"
       },
       "url": "https://www.facebook.com/asyuwish/"
+    },
+    {
+      "url": "https://www.instagram.com/asyuwishjapanese/",
+      "meta": {
+        "name": "魚願以嚐 As Yu Wish",
+        "about": "⎈ Founded by Millennials\n⎈ 日本串燒店🍢🍻\n🚊鰂魚涌站Exit B\n📍英皇道933號御皇台地下11號舖(英麗閣停車場/759後)\n👇禁下面Whatsapp訂位啦"
+      }
     }
   ],
   "posts": [
@@ -34,5 +39,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01305"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "英皇道933號御皇台地下11號舖"
+      },
+      "googleMapsPlaceId": "ChIJ529HwToBBDQRSGOusQH1mR0"
+    }
   ]
 }

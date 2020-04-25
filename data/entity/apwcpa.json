@@ -10,8 +10,9 @@
     },
     {
       "meta": {
+        "name": "APW CPA Limited 日進會計師事務所有限公司",
         "id": "183743174977973",
-        "about": "APW CPA Limited\nCertified Public Accountants (practising)\n日進會計師事務所有限公司",
+        "about": "APW CPA Limited  \nCertified Public Accountants (practising)\n日進會計師事務所有限公司",
         "categories": [
           "Accountant"
         ],
@@ -39,5 +40,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01949"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit 2304, 23rd Floor, Saxon Tower, 7 Cheung Shun Street, Cheung Sha Wan, Kowloon"
+      },
+      "googleMapsPlaceId": "ChIJkQgH81QHBDQRud7rCI61NZA"
+    }
   ]
 }

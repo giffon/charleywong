@@ -22,8 +22,8 @@
         "id": "108662496396025",
         "about": "元朗水族 - 水族造景設計、售賣水草 (Tropica) 、ADA (Aqua Design Amano) 產品 、熱帶魚類、蝦類、水晶蝦、造景素材(木/石)、水族用品及器材、相關魚缸保養及魚池保養服務, 、訂造魚缸及魚缸櫃等",
         "categories": [
-          "Aquarium",
-          "Aquatic Pet Store"
+          "Aquatic Pet Store",
+          "Aquarium"
         ],
         "addr": "元朗又新街37-51號又一新城商場1樓F098，F099，F141舖",
         "area": "Yuen Long Town",
@@ -76,5 +76,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00653"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗又新街37-51號又一新城商場1樓F098，F099，F141舖"
+      },
+      "googleMapsPlaceId": "ChIJhxtlVKfwAzQR6o4HkzJEogQ"
+    }
   ]
 }

@@ -6,9 +6,6 @@
   },
   "webpages": [
     {
-      "url": "https://s.openrice.com/QrbS0V2S800"
-    },
-    {
       "url": "https://www.facebook.com/ThaiinHongKong/",
       "meta": {
         "name": "THAI-IN 泰灜",
@@ -55,5 +52,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01596"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "佐敦吳松街141號"
+      },
+      "googleMapsPlaceId": "ChIJxUShDesABDQRLc_BqjKp_hs"
+    }
   ]
 }

@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.atumhk.com"
+      "url": "https://www.atumhk.com"
     },
     {
       "url": "https://www.facebook.com/atumrestaurant/",
@@ -23,6 +23,23 @@
       }
     },
     {
+      "url": "https://www.facebook.com/atumrestaurantk11/",
+      "meta": {
+        "name": "ATUM Restaurant",
+        "id": "139358150133106",
+        "about": "ATUM Restaurant提供簡約北歐風格的概念餐廳。餐廳除了提供最受客人歡迎的精緻甜品外，更有煥然一新的藝術海鮮拼盤，適合慶祝生日、紀念日及海外遊客前來享受全新的餐飲體驗。",
+        "categories": [
+          "Restaurant",
+          "Dessert Shop"
+        ],
+        "addr": "尖沙咀河內道18號K11購物藝術館1樓101B號舖",
+        "area": "Hong Kong",
+        "email": "atum@atumhk.com",
+        "tel": "35861959"
+      },
+      "hidden": true
+    },
+    {
       "url": "https://www.facebook.com/atumchampak/",
       "meta": {
         "name": "青花 ATUM Champak Restaurant",
@@ -35,6 +52,20 @@
         "area": "Hong Kong",
         "email": "atum@atumhk.com",
         "tel": "34682558"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/atumrestaurant/",
+      "meta": {
+        "name": "ATUM Restaurant",
+        "about": "藝術風格的美食,提供最受客人歡迎的精緻甜品及下午茶外，更有煥然一新的藝術海鮮拼盤，非常適合慶祝生日、紀念日及海外遊客前來享受全新的餐飲體驗。"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/atumchampak/",
+      "meta": {
+        "name": "青花 Champak",
+        "about": "摩登東南亞菜式，裝潢清新自然，設有室外及室內座位。\n提供午餐，套餐及單點菜色。\n非常適合慶祝生日、紀念日及海外遊客前來享受全新的餐飲體驗。"
       }
     }
   ],
@@ -115,5 +146,19 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01392"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀河內道18號K11購物藝術館1樓101B號舖"
+      },
+      "googleMapsPlaceId": "ChIJ88kc_u0ABDQRsOw3CRqtxhQ"
+    },
+    {
+      "address": {
+        "zh": "旺角奶路臣街17號The Forest 1樓107-108號舖"
+      },
+      "googleMapsPlaceId": "ChIJ-e35tscABDQRigm5BgynpJ4"
+    }
   ]
 }

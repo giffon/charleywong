@@ -1,26 +1,35 @@
 {
   "id": "asokthaihk",
   "name": {
-    "en": "Asokthai"
+    "en": "Asokthai",
+    "zh": "阿叔泰國貨品專賣店"
   },
   "webpages": [
     {
-      "url": "http://www.asokthai.com"
+      "url": "https://www.asokthai.com"
     },
     {
       "meta": {
+        "name": "Asok Thai 阿叔泰國貨品專賣店 團購 批發",
         "id": "893009144409840",
-        "about": "Asok Thai由3位熱愛泰國及泰國貨品的年青人創立\n每月親身走訪泰國搜購各類泰國貨品\n專人跟進訂單及查詢服務 ...\n\n\n\nSee more",
+        "about": "Asok Thai由3位熱愛泰國及泰國貨品的年青人創立\n每月親身走訪泰國搜購各類泰國貨品\n專人跟進訂單及查詢服務 \n代購及批發泰國貨品\n\n專人當地入貨100%保証正貨\n希望大家多多支持小店",
         "categories": [
-          "Internet marketing service",
-          "Retail company"
+          "Internet Marketing Service",
+          "Retail Company"
         ],
-        "addr": "九龍觀塘駱駝漆大廈3期9樓D2室",
-        "area": "Hong Kong",
+        "addr": "九龍觀塘駱駝漆大廈3期6樓U3室",
+        "area": "852 Hong Kong",
         "email": "asokshopthailand@gmail.com",
-        "tel": "36145178"
+        "tel": "96549649"
       },
       "url": "https://www.facebook.com/asokthaihk/"
+    },
+    {
+      "url": "https://www.instagram.com/asokthai/",
+      "meta": {
+        "name": "ASOKTHAI 阿叔泰國貨品專賣店",
+        "about": "香港設兩間門市🏠觀塘,大埔歡迎到門市選購🛒\n泰國直送到港@保證100%正貨🏅\nFacebook：ASOKTHAIHK\nAsokthai購物網🔥 全新推出 線上自助落單 📌"
+      }
     }
   ],
   "posts": [
@@ -38,5 +47,19 @@
     "Y_SHOP00631",
     "Y_SHOP00632",
     "Y_SHOP02092"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔昌運中心G/F 18B"
+      },
+      "googleMapsPlaceId": "ChIJt0cBdjgIBDQR3VKqzKgJt3U"
+    },
+    {
+      "address": {
+        "zh": "九龍觀塘駱駝漆大廈3期6樓U3室"
+      },
+      "googleMapsPlaceId": "ChIJZY4PbUUBBDQR2vNkNbztbZw"
+    }
   ]
 }

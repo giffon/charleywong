@@ -6,18 +6,28 @@
   "webpages": [
     {
       "meta": {
+        "name": "Aquavit Studios",
+        "id": "1821473234826129",
         "about": "Aquavit Studios是一班專業的年輕人組成團隊，在提供攝影攝錄服務中，我們更期望為大家帶來創新有態度的作品，讓我們把你們的珍貴的回憶好好記錄，希望你們會喜歡我們的作品！",
         "categories": [
-          "Photography & videography",
-          "Camera/photo",
-          "Video creator"
+          "Video Creator",
+          "Camera/Photo",
+          "Photography Videography"
         ],
-        "addr": "沙田火炭黃竹洋街15-21號華聯工業中心A座7樓23室",
-        "area": "Hong Kong",
         "email": "info@aquavitstudios.com",
-        "id": "1821473234826129"
+        "tel": "37058907"
       },
       "url": "https://www.facebook.com/aquavitstudios/"
+    },
+    {
+      "url": "https://www.instagram.com/aquavit_studios/",
+      "meta": {
+        "name": "Aquavit Studios",
+        "about": "如想看更多作品請參考Facebook\n此帳號不作任何回覆，請Fb inbox我們 謝謝哦\n寵物拍攝ig @aquavit_studios_pet\n專業拍攝| 短片製作| 🇭🇰"
+      }
+    },
+    {
+      "url": "https://www.aquavitstudios.com"
     }
   ],
   "posts": [
@@ -31,5 +41,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00805"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "火炭黃竹洋街15-21號華聯工業中心A座7樓23室"
+      },
+      "googleMapsPlaceId": "ChIJu4IkWZ8HBDQRt_cJztQRmoI"
+    }
   ]
 }

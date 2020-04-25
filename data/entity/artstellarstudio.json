@@ -13,8 +13,7 @@
         "about": "art｜space\n\n/ Painting/ Workshop/ Handcrafted goods/ Event & Collaboration/ #齋坐/",
         "categories": [
           "Art",
-          "Festival",
-          "Arts & Entertainment"
+          "Festival"
         ],
         "addr": "銅鑼灣渣甸街35號2樓",
         "area": "Hong Kong",
@@ -52,5 +51,13 @@
   "tags": [
     "artist",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣渣甸街35號2樓"
+      },
+      "googleMapsPlaceId": "ChIJ4ZkCgfABBDQRmNsLPF8rE6o"
+    }
   ]
 }

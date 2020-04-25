@@ -5,17 +5,18 @@
   },
   "webpages": [
     {
-      "url": "http://www.ashop.com.hk"
+      "url": "https://www.ashop.com.hk"
     },
     {
       "meta": {
+        "name": "香港購物網",
         "id": "166889690461747",
         "about": "香港購物網站 - ASHOP.COM.hk, 成立於2000年，共同與香港一起邁向未來",
         "categories": [
-          "Shopping service"
+          "Shopping & Retail"
         ],
         "addr": "Flat 8, 3/F, Festigood Center 8 Lok Yip Rd, On Lok Tsuen, Fanling, N.T.",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "cs@ashop.com.hk",
         "tel": "26826286"
       },
@@ -32,5 +33,13 @@
   ],
   "tags": [
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Flat 8, 3/F, Festigood Center 8 Lok Yip Rd, On Lok Tsuen, Fanling, N.T."
+      },
+      "googleMapsPlaceId": "ChIJ-btkOh72AzQRo9JrUCttMeI"
+    }
   ]
 }
