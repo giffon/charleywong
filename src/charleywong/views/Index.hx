@@ -11,7 +11,7 @@ class Index extends View {
     static public function searchForm(query:String, autoFocus:Bool) return jsx('
         <form className="d-flex" action="/" autoComplete=${query == "" ? "on" : "off"}>
             <input className="w-100 p-3 search-input" type="text" name="search" placeholder="商業/專頁名稱" defaultValue=${query} autoFocus=${autoFocus} />
-            <input className="btn m-0 p-3 search-btn" type="submit" value="🔎" />
+            <input className="btn m-0 p-3 search-btn" name="submit" type="submit" value="🔎" />
         </form>
     ');
 
