@@ -50,5 +50,19 @@
   "yellowBlueMapIds": [
     "Y_EAT00023",
     "Y_EAT00024"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍觀塘成業街19-21號成業工業大廈322室"
+      },
+      "googleMapsPlaceId": "ChIJq6rqTEUBBDQRARX4NFD0sYY"
+    },
+    {
+      "address": {
+        "zh": "九龍荔枝角長沙道883號億利工業中心1樓10A室"
+      },
+      "googleMapsPlaceId": "ChIJCZPXj4sHBDQRqMG2Oc_jiWQ"
+    }
   ]
 }

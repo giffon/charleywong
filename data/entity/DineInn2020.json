@@ -14,9 +14,16 @@
         "categories": [
           "Restaurant"
         ],
-        "addr": "九龍佐敦白加士街19號地下",
+        "addr": "九龍佐敦白加士街19號地下\n黨鐵 c2 寶靈街出口",
         "area": "Kowloon, Hong Kong",
         "tel": "39968599"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/dineinn_hk/",
+      "meta": {
+        "name": "開餐 dineinn",
+        "about": "光復香港 時代革命\n五大訴求 缺一不可￼￼￼"
       }
     }
   ],
@@ -42,5 +49,13 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍佐敦白加士街19號地下"
+      },
+      "googleMapsPlaceId": "EiMxOSBQYXJrZXMgU3QsIFlhdSBNYSBUZWksIEhvbmcgS29uZyIwEi4KFAoSCWXaC3jrAAQ0EXiICFls_Hv8EBMqFAoSCWFwpafrAAQ0EeYdR2WidUsR"
+    }
   ]
 }
