@@ -468,6 +468,13 @@ class Tag {
         }
     }
 
+    static public final bakingSupplies:TagData = {
+        name: {
+            en: "baking supplies",
+            zh: "烘焙材料",
+        }
+    }
+
     static public final interior:TagData = {
         name: {
             en: "interior design",
