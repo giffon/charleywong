@@ -6,19 +6,24 @@
   "webpages": [
     {
       "meta": {
+        "name": "巴打鮮菓",
         "id": "278840489631967",
-        "about": "為香港人帶來唔同世界各地既新鮮水菓",
+        "about": "為香港人帶來唔同世界各地既新鮮水菓\n我地提供批發、散水生果、送禮禮盒、果籃、過大禮果籃以供選購\n有興趣或任何查詢，歡迎隨時pm我地",
         "categories": [
-          "Merchandising service"
+          "Merchandising Service"
         ],
-        "addr": "葵涌",
-        "area": "Hong Kong",
+        "addr": "葵涌打磚砰街89號葵匯工業大廈地下1號鋪",
+        "area": "00852 Hong Kong",
+        "email": "brosfruithk@gmail.com",
         "tel": "92051314"
       },
       "url": "https://www.facebook.com/BrosFruit/"
     },
     {
-      "url": "https://www.instagram.com/brosfruit/"
+      "url": "https://www.instagram.com/brosfruit/",
+      "meta": {
+        "name": "BrosFruit"
+      }
     }
   ],
   "posts": [
@@ -37,5 +42,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01389"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵涌打磚砰街89號葵匯工業大廈地下1號鋪"
+      },
+      "googleMapsPlaceId": "ChIJWxScYJv4AzQRJnSi9OgJWCY"
+    }
   ]
 }

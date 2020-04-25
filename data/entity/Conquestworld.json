@@ -49,5 +49,19 @@
   "yellowBlueMapIds": [
     "Y_SHOP00143",
     "Y_SHOP00144"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角通菜街2號鴻光大廈地下B舖"
+      },
+      "googleMapsPlaceId": "ChIJP5Yc5cYABDQR22_fniZImWE"
+    },
+    {
+      "address": {
+        "zh": "香港銅鑼灣霎東街9B號1樓"
+      },
+      "googleMapsPlaceId": "EiM5IFNoYXJwIFN0IEUsIEJvd3Jpbmd0b24sIEhvbmcgS29uZyIwEi4KFAoSCfOmOiRRAAQ0EYQ1m2HjqS84EAkqFAoSCbewEN9QAAQ0Eex9pYjVZdyd"
+    }
   ]
 }

@@ -12,7 +12,7 @@
         "categories": [
           "Health Food Store"
         ],
-        "addr": "新蒲崗",
+        "addr": "新蒲崗大成街街巿",
         "area": "Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/634605913588692/"
@@ -25,5 +25,13 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新蒲崗大成街街巿"
+      },
+      "googleMapsPlaceId": "ChIJz7WqddcGBDQRG4jWpLksS1E"
+    }
   ]
 }
