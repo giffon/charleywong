@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
+        "name": "Café Corridor",
+        "id": "185341221498643",
         "about": "A passage to the coffee world since 2001.",
         "categories": [
-          "Coffee shop"
+          "Coffee Shop"
         ],
         "addr": "G/F, 26A Russell Street, Causeway Bay",
         "area": "Causeway Bay",
         "email": "info@cafecorridor.hk",
-        "tel": "28922927",
-        "id": "185341221498643"
+        "tel": "28922927"
       },
       "url": "https://www.facebook.com/cafecorridor/"
+    },
+    {
+      "url": "https://www.instagram.com/cafe_corridor/",
+      "meta": {
+        "name": "Cafe Corridor",
+        "about": "A PASSAGE TO THE COFFEE WORLD\nSINCE 2001\nOpening hours:\nMon-Fri 0800-1930\nSat & Sun 1000-1930"
+      }
     }
   ],
   "posts": [
@@ -29,5 +37,13 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, 26A Russell Street, Causeway Bay"
+      },
+      "googleMapsPlaceId": "ChIJIS-e0VAABDQR8SXZXPbsPSQ"
+    }
   ]
 }

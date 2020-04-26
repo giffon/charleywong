@@ -19,8 +19,9 @@
           "Christian Church"
         ],
         "addr": "60 Ben Lomond Crescent, Pakuranga",
-        "area": "Auckland, New Zealand",
-        "email": "cacc@cacc.org.nz"
+        "area": "Auckland, New Zealand 2010",
+        "email": "cacc@cacc.org.nz",
+        "tel": "6495767070"
       }
     }
   ],
@@ -35,5 +36,13 @@
   ],
   "tags": [
     "organization"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "60 Ben Lomond Crescent, Pakuranga"
+      },
+      "googleMapsPlaceId": "ChIJe51PInRLDW0RTQJA47MZ2UI"
+    }
   ]
 }

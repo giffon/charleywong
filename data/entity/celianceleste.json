@@ -6,16 +6,27 @@
   "webpages": [
     {
       "meta": {
+        "name": "Celia Celeste",
+        "id": "291700884303768",
         "about": "集合Celia Celeste的手作飾物 • 服飾 • 生活日常 • 美食！",
         "categories": [
-          "Arts and crafts shop"
+          "Arts & Crafts Store"
         ],
         "addr": "香港葵涌廣場三樓時尚坊38號",
         "area": "Hong Kong",
-        "email": "celia9452@hotmail.com",
-        "id": "291700884303768"
+        "email": "celia9452@hotmail.com"
       },
       "url": "https://www.facebook.com/celianceleste/"
+    },
+    {
+      "url": "https://www.instagram.com/celia_celeste/",
+      "meta": {
+        "name": "Be Blissful Be Graceful",
+        "about": "❝ 𝐬𝐢𝐧𝐜𝐞 𝟐𝟎𝟏𝟐 | 𝐦𝐚𝐝𝐞 𝐢𝐧 𝐇𝐊❞\n💍Handmade Jewels 手作飾物 by @szengacelia\n📍香港葵涌廣場三樓時尚坊38號\n-\n🧶限量精選衣物 | 日系穿撘情報\n💭可於FB / IG Direct查詢及下單\n🌏Worldwide Shipping | 全球運送"
+      }
+    },
+    {
+      "url": "https://www.celiaceleste.com"
     }
   ],
   "posts": [
@@ -28,5 +39,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00842"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港葵涌廣場三樓時尚坊38號"
+      },
+      "googleMapsPlaceId": "ChIJKVfPQ__5AzQRopTN_Ppnsj8"
+    }
   ]
 }

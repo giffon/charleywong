@@ -6,7 +6,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.caliu.com.hk"
+      "url": "https://www.caliu.com.hk"
     },
     {
       "url": "https://www.facebook.com/caliu.com.hk/",
@@ -18,7 +18,7 @@
           "Wine, Beer & Spirits Store",
           "Winery/Vineyard"
         ],
-        "addr": "Unit 424 , Shing Yip Industrial Building , 19-21 Shing Yip Street , Kwun Tong , Kowloon , Hong Kong",
+        "addr": "Unit 335 , Shing Yip Industrial Building , 19-21 Shing Yip Street , Kwun Tong , Kowloon , Hong Kong",
         "area": "Kwun Tong",
         "email": "sales@caliu.com.hk",
         "tel": "53389818"
@@ -75,5 +75,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01421"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit 335 , Shing Yip Industrial Building , 19-21 Shing Yip Street , Kwun Tong , Kowloon , Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJ1emvTEUBBDQRqPCkHuj_5z8"
+    }
   ]
 }

@@ -10,13 +10,13 @@
       "meta": {
         "name": "Cafe Swan 咖啡灣",
         "id": "819453038145853",
-        "about": "粉嶺中心219號店\n電話36192450\n\n太和中心9號店\n電話23872008\n\n荃灣千色店2期G30號店\n電話34811883\n\n將軍澳新都城2期1072號店\n電話34811807\n\nPalmary Catering Management (Hong Kong)Limited",
+        "about": "粉嶺中心219號店\n電話36192450\n\n太和中心9號店\n電話23872008\n\n荃灣千色店2期G30號店\n電話34811883\n\n將軍澳新都城2期1072號店\n電話34811807\n\nPalmary  Catering Management (Hong Kong)Limited",
         "categories": [
-          "Diner",
-          "Cafe"
+          "Cafe",
+          "Diner"
         ],
         "addr": "太和路太和中心9號舖",
-        "area": "Hong Kong",
+        "area": "這 Hong Kong",
         "tel": "23872008"
       }
     },
@@ -24,7 +24,7 @@
       "url": "https://www.instagram.com/cafeswan/",
       "meta": {
         "name": "Cafe Swan 咖啡灣☕",
-        "about": "香港小店經營\n❤😊Cafe Swan售賣意粉、沙律、特色漢堡、窩夫、夏日飲品，更加唔少得既係各種香濃咖啡，我地對顧客提供優質服務，舒適既環境，令你好奇咁入黎，好開心咁走\n粉嶺中心2期219-221號鋪\n大埔太和路太和中心9號舖\n荃灣千色匯2期地下G30號鋪\n將軍澳新都城中心2期1樓1072號舖"
+        "about": "香港小店經營\n❤😊Cafe Swan售賣意粉、沙律、特色漢堡、窩夫、夏日飲品，更加唔少得既係各種香濃咖啡，我地對顧客提供優質服務，舒適既環境，令你好奇咁入黎，好開心咁走\n1️⃣粉嶺中心2期219-221號鋪\n2️⃣大埔太和路太和中心9號舖\n3️⃣荃灣千色匯2期地下G30號鋪"
       }
     }
   ],
@@ -80,5 +80,25 @@
     "Y_EAT00779",
     "Y_EAT00780",
     "Y_EAT00781"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "粉嶺中心2期219-221號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ26-7r433AzQRej2yFPdEDR0"
+    },
+    {
+      "address": {
+        "zh": "大埔太和路太和中心9號舖"
+      },
+      "googleMapsPlaceId": "ChIJL54GBzkIBDQRec9kaoca81c"
+    },
+    {
+      "address": {
+        "zh": "荃灣千色匯2期地下G30號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ9anVau34AzQRyncZOsWA23w"
+    }
   ]
 }

@@ -9,18 +9,23 @@
     },
     {
       "meta": {
+        "name": "茶理史",
         "id": "1963709670563786",
         "about": "「茶理史」深信，能滿足各貴客的需求才是成功的重要因素，為此「茶理史」不會故步自封，大膽嘗試和改變，務求贏得貴客之信任及滿意。\n\n「茶理史」洞悉到現今健康飲食之趨勢漸漸普及；",
         "categories": [
-          "Bubble tea shop",
-          "Tea room"
+          "Tea Room",
+          "Bubble Tea Shop"
         ],
         "email": "cs@charlesteabar.com"
       },
       "url": "https://www.facebook.com/charlesteabar/"
     },
     {
-      "url": "https://www.instagram.com/charlesteabar/"
+      "url": "https://www.instagram.com/charlesteabar/",
+      "meta": {
+        "name": "茶理史 Charles Tea Bar",
+        "about": "「茶理史」諧音「茶歷史」，\n蘊藏著由古至今茶道文化的發展過程；\n.\n創辦人有感而發，本著對茶飲之熱愛，\n將其概念融入整合，擔起現代管理茶道史官之職\n.\n#茶理史\n👇🏻👇🏻分店位置👇🏻👇🏻"
+      }
     }
   ],
   "posts": [
@@ -40,5 +45,55 @@
     "Y_EAT00006",
     "Y_EAT00007",
     "Y_EAT01268"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍尖沙咀厚福街9號豪華閣地下B鋪"
+      },
+      "googleMapsPlaceId": "ChIJF6MGLewABDQRoCGdlI4KP7Q"
+    },
+    {
+      "address": {
+        "zh": "新界葵芳葵富路葵湧廣場2樓2007號舖"
+      },
+      "googleMapsPlaceId": "ChIJm4r0RaL5AzQR5jhkTsLN86g"
+    },
+    {
+      "address": {
+        "zh": "九龍旺角彌敦道688號旺角中心地下G25B1號鋪"
+      },
+      "googleMapsPlaceId": "ChIJSxlfPvsBBDQRahzHpal9W40"
+    },
+    {
+      "address": {
+        "zh": "元朗又新街恆富大廈地下14A號舖"
+      },
+      "googleMapsPlaceId": "ChIJyaj7fr_xAzQRhyJJ6dxpChs"
+    },
+    {
+      "address": {
+        "zh": "土瓜環馬頭角道金都豪苑12號舖"
+      },
+      "googleMapsPlaceId": "ChIJR27APMkBBDQR7GbSsugV3kI"
+    },
+    {
+      "address": {
+        "zh": "灣仔軒尼詩道英皇集團中心地下G08號舖"
+      },
+      "googleMapsPlaceId": "ChIJa7r3SsABBDQRF2AcEdL80cA"
+    },
+    {
+      "address": {
+        "zh": "九龍城賈炳達道恆勝樓地下113號地舖"
+      },
+      "googleMapsPlaceId": "ChIJy7YoBfEHBDQRRXViIanOobE"
+    },
+    {
+      "address": {
+        "zh": "牛頭角道馬蹄徑1號寶恩大廈地下1號舖"
+      },
+      "googleMapsPlaceId": "ChIJyV6f2E4BBDQR9hFjXdxBNbc"
+    }
   ]
 }

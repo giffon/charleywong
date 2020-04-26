@@ -9,14 +9,21 @@
       "meta": {
         "name": "C+ Burger",
         "id": "724356304610980",
-        "about": "•| 自家製漢堡 | • Homemade Burgers |• 漢堡小店 | •\n•|每日新鮮製造 | • 即叫即整 | • Cooked to order |•",
+        "about": "•| 自家製漢堡 | • Homemade Burgers |•  漢堡小店 | •\n•|每日新鮮製造 | • 即叫即整 | • Cooked to order |•",
         "categories": [
           "Burger Restaurant"
         ],
         "addr": "西環西營盤第三街168-170號水街10C地下6號鋪",
-        "area": "Hong Kong",
+        "area": "+852 Hong Kong",
         "email": "c.burger0101@gmail.com",
         "tel": "60108431"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/c_burgerhk/",
+      "meta": {
+        "name": "C+Burger",
+        "about": "•-• Homemade Burgers •-•\nMon - Sat | 🕧am-🕘pm\n⚠️Sun OFF⚠️\nShop6,10C Water St,\n168-172 Third St,Sai Wan,Hong Kong\nTel: 6010 8431 / 5339 7900"
       }
     }
   ],
@@ -63,5 +70,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00596"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "西環西營盤第三街168-170號水街10C地下6號鋪"
+      },
+      "googleMapsPlaceId": "ChIJa_nNPDv_AzQRlZ87e7cnrQg"
+    }
   ]
 }

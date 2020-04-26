@@ -18,11 +18,11 @@
         "id": "433330637424927",
         "categories": [
           "Dessert Shop",
-          "Deli",
-          "Continental Restaurant"
+          "Continental Restaurant",
+          "Deli"
         ],
         "addr": "觀塘駱駝漆大廈三座4樓T室",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "tel": "22860833"
       }
     }
@@ -46,5 +46,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01249"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘駱駝漆大廈三座4樓T室"
+      },
+      "googleMapsPlaceId": "ChIJsaKO3pYBBDQRN5cRACOBugQ"
+    }
   ]
 }

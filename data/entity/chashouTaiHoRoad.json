@@ -7,17 +7,24 @@
   "webpages": [
     {
       "meta": {
+        "name": "茶匠Chashou",
         "id": "379873005946251",
         "about": "大河道12號地下\n營業時間：1230-2300",
         "categories": [
-          "Bubble tea shop",
-          "Product/service",
-          "Food stall"
+          "Product/Service",
+          "Bubble Tea Shop",
+          "Food Stand"
         ],
-        "addr": "大河道12號",
-        "area": "Tsuen Wan, Hong Kong"
+        "tel": "54014141"
       },
       "url": "https://www.facebook.com/chashouTaiHoRoad/"
+    },
+    {
+      "url": "https://www.instagram.com/chashou.hk/",
+      "meta": {
+        "name": "茶匠Chaoshou🍵🍃",
+        "about": "Tea drinking is an attitude✨\n🔥12:00pm-11:00pm🔥\n地址：荃灣大河道12號地鋪"
+      }
     }
   ],
   "posts": [
@@ -30,5 +37,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01153"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣大河道12號地鋪"
+      },
+      "googleMapsPlaceId": "EiIxMiBUYWkgSG8gUmQsIFRzdWVuIFdhbiwgSG9uZyBLb25nIjASLgoUChIJhSr_gO34AzQReykWAtadik4QDCoUChIJxz32gu74AzQRqlpwLKJXIwk"
+    }
   ]
 }

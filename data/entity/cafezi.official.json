@@ -7,17 +7,24 @@
   "webpages": [
     {
       "meta": {
+        "name": "梔子 Zi",
+        "id": "792592420892430",
         "categories": [
-          "Coffee shop",
-          "Pub/Bar"
+          "Coffee Shop"
         ],
         "addr": "山林道 8 號",
         "area": "Tsim Sha Tsui",
         "email": "cafezi.official@gmail.com",
-        "tel": "27781628",
-        "id": "792592420892430"
+        "tel": "27781628"
       },
       "url": "https://www.facebook.com/cafezi.official/"
+    },
+    {
+      "url": "https://www.instagram.com/cafezi.official/",
+      "meta": {
+        "name": "梔子⌘Zi",
+        "about": "日間健康輕食 夜間小酒館\nEat Healthy Play Naughty\nSUPERFOOD or SUPERJUNK🌿\n☞山林道捌號地舖 ［佐敦D 出口］\n無定㊡\n☏27781628"
+      }
     }
   ],
   "posts": [
@@ -30,5 +37,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00446"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "山林道 8 號"
+      },
+      "googleMapsPlaceId": "ChIJP89QCewABDQRV5ZhmXs8NVA"
+    }
   ]
 }

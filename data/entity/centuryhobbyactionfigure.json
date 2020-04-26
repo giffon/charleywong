@@ -6,13 +6,15 @@
   "webpages": [
     {
       "meta": {
+        "name": "世紀hobby",
         "id": "1442558465991348",
         "about": "旺角亞皆老街111號皆旺商場地庫b20 & b21",
         "categories": [
-          "Games/toys",
-          "Toy shop"
+          "Games/Toys",
+          "Toy Store"
         ],
-        "email": "centuryhobby@gmail.com"
+        "email": "centuryhobby@gmail.com",
+        "tel": "23937082"
       },
       "url": "https://www.facebook.com/centuryhobbyactionfigure/"
     }
@@ -28,5 +30,13 @@
   "tags": [
     "toy",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角亞皆老街111號皆旺商場地庫b20 & b21"
+      },
+      "googleMapsPlaceId": "ChIJr-NencgABDQReKZOeh4A0fs"
+    }
   ]
 }

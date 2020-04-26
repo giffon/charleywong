@@ -6,19 +6,26 @@
   "webpages": [
     {
       "meta": {
+        "name": "CafeTalay",
+        "id": "126405584683876",
         "about": "\"ไม่เป็นไร！take it easy\"\n我們欣賞的就是這種泰國人「不打緊」口頭禪的豁達態度。希望透過精品咖啡，亞洲混合茶式為大家帶來此類新鮮的餐飲體驗。",
         "categories": [
-          "Coffee shop",
           "Restaurant",
-          "Grocers"
+          "Coffee Shop"
         ],
         "addr": "Shop 1i, G/F, 118 Connaught Road West, Sai Ying Pun, H.K.",
         "area": "Hong Kong",
         "email": "info@cafetalay.com",
-        "tel": "69964614",
-        "id": "126405584683876"
+        "tel": "69964614"
       },
       "url": "https://www.facebook.com/cafetalayhk/"
+    },
+    {
+      "url": "https://www.instagram.com/cafetalay/",
+      "meta": {
+        "name": "ᴄᴀғᴇ ᴛᴀʟᴀʏ ʜᴏɴɢᴋᴏɴɢ",
+        "about": "ᴘᴜᴛ ᴏᴜᴛ ɪɴᴛᴏ ᴅᴇᴇᴘ ᴡᴀᴛᴇʀ\nทะเล【 tá-lay】sea ; ocean\nะ 🅼🅾🅽-🅵🆁🅸 8am - 5pm\nะ 🆂🅰🆃-🆂🆄🅽 9am - 5pm\nᴛʜᴀɪ ʜᴀɴᴅᴍᴀᴅᴇ⋟@planet.6090\nⓜⓨⓐⓝⓜⓐⓡ ⋟@cafetalaymm"
+      }
     }
   ],
   "posts": [
@@ -34,5 +41,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01002"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 1i, G/F, 118 Connaught Road West, Sai Ying Pun, H.K."
+      },
+      "googleMapsPlaceId": "ChIJo9m1hX8ABDQRGZPtZtpOUME"
+    }
   ]
 }

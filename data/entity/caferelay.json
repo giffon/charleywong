@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "about": "星期六、日及公眾假期，不設訂座服務！",
+        "name": "CAFÉ RELAY",
+        "id": "994300107337460",
+        "about": "Mon - Fri : 3 pm - 6 pm DRINKS ONLY!!!",
         "categories": [
-          "Coffee shop"
+          "Coffee Shop"
         ],
         "addr": "G/F., No. 3 Ming Yan Lane, Tai Wong Street East, Wan Chai",
         "area": "Hong Kong",
         "email": "caferelay@gmail.com",
-        "tel": "28276366",
-        "id": "994300107337460"
+        "tel": "28276366"
       },
       "url": "https://www.facebook.com/caferelay/"
+    },
+    {
+      "url": "https://www.instagram.com/caferelay/",
+      "meta": {
+        "name": "CAFÉ RELAY",
+        "about": "☕️CAFÉ RELAY🍝\nMon, Tue, Thu & Fri☀️12-10 pm\nWed☀️12-6 pm\nSat & PH ☀️12-4 pm\nSun ⛔️ CLOSED"
+      }
     }
   ],
   "posts": [
@@ -33,5 +41,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00077"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F., No. 3 Ming Yan Lane, Tai Wong Street East, Wan Chai"
+      },
+      "googleMapsPlaceId": "ChIJTXwp0lwABDQRhvZ4mjQPcOQ"
+    }
   ]
 }

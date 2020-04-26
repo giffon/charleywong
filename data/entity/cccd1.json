@@ -10,12 +10,12 @@
     },
     {
       "meta": {
+        "name": "Centre For Community Cultural Development 社區文化發展中心",
         "id": "485302104889401",
         "about": "藝術充權 - 解放創意- 身心健康 | Arts Empowerment - Creativity Liberation - Health & Well Being",
         "categories": [
-          "Community organisation",
-          "Art",
-          "Non-profit organisation"
+          "Community Organization",
+          "Art"
         ],
         "addr": "L205-208, 30 Pak Tin Street, Shek Kip Mei, Kowloon, Hong Kong",
         "area": "Hong Kong",
@@ -38,5 +38,13 @@
   ],
   "tags": [
     "organization"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "L205-208, 30 Pak Tin Street, Shek Kip Mei, Kowloon, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJLdLE90oHBDQRj8GdkcRmdwk"
+    }
   ]
 }

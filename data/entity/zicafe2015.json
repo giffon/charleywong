@@ -7,10 +7,11 @@
   "webpages": [
     {
       "meta": {
+        "name": "只 zi",
         "id": "909928052390889",
-        "about": "一個地方\n簡單食物\n日活日常...\n\n\n\nSee more",
+        "about": "一個地方\n簡單食物\n日活日常\n\n\n尖沙咀加連威老道66-76威華大廈4樓2室（大廈入口在嘉蘭圍)\nRoom 402, Wai Wah Building, 66-76 Granville Road, TST",
         "categories": [
-          "Tea room",
+          "Cafe",
           "Diner"
         ],
         "addr": "Room 402, Wai Wah Building, 1 Granville circuit",
@@ -19,6 +20,16 @@
         "tel": "23251115"
       },
       "url": "https://www.facebook.com/zicafe2015/"
+    },
+    {
+      "url": "https://www.instagram.com/zicafe/",
+      "meta": {
+        "name": "只 Zi",
+        "about": "Since 2015. #尖沙咀 ❗️1-11pm❗️\nOnly use the finest ingredients.\nPets welcome. Outdoor available."
+      }
+    },
+    {
+      "url": "https://zicafe.business.site"
     }
   ],
   "posts": [
@@ -37,5 +48,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00329"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room 402, Wai Wah Building, 1 Granville circuit"
+      },
+      "googleMapsPlaceId": "ChIJY0WB8e4ABDQR_xY5twRExho"
+    }
   ]
 }

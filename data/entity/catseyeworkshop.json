@@ -7,22 +7,30 @@
   "webpages": [
     {
       "meta": {
-        "about": "貓眼工作室\n\n‧ 讓你把手作意念化為現實...\n\n\n\n\n\n\nSee more",
+        "name": "Cat's Eye Workshop 貓眼工作室",
+        "id": "1600768490198279",
+        "about": "貓眼工作室 \n\n‧ 讓你把手作意念化為現實\n‧ 資源共享\n‧ 推廣環保手作\n‧ 以大自然為主題\n‧ 手作、文化場地租用\n‧ 提供氣氛\n‧ 收集故事\n‧ 有貓，只可遠觀而不可褻玩(或可被貓褻玩…)",
         "categories": [
-          "Arts and crafts shop",
+          "Arts & Crafts Store",
           "Art",
-          "Performance & event venue"
+          "Performance & Event Venue"
         ],
         "addr": "北角和富道74-82號仁寶閣閣樓 B室",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "catseyeworkshop@gmail.com",
-        "tel": "95809580",
-        "id": "1600768490198279"
+        "tel": "95809580"
       },
       "url": "https://www.facebook.com/catseyeworkshop/"
     },
     {
-      "url": "https://www.instagram.com/catseyeworkshop/"
+      "url": "https://www.instagram.com/catseyeworkshop/",
+      "meta": {
+        "name": "Cat’s Eye Workshop 貓眼工作室",
+        "about": "真花飾品可於pinkoi購買\n.\n選物店 | 工作坊 | 自製乾花 | 手作飾品 | 鮮花回收 | 場地租用 | 場地花藝設計\nPick Up Your Missing [pi:c]\n.\nTel / WhatsApp 95809580 #貓眼工作室"
+      }
+    },
+    {
+      "url": "https://www.catseyeworkshop.com"
     }
   ],
   "posts": [
@@ -41,5 +49,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00820"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "北角和富道74-82號仁寶閣閣樓 B室"
+      },
+      "googleMapsPlaceId": "ChIJ7QiZYAMBBDQR9m1lholzX8o"
+    }
   ]
 }

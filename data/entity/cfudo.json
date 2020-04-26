@@ -9,16 +9,24 @@
     },
     {
       "meta": {
+        "name": "師傅到手機維修專門店",
         "id": "490435747789007",
-        "about": "手機維修專門店! 好憎讀書叻的人類 所以現推出*GPA*越低整機越平的優惠!\n特設上門維修 港九新界 務求令到工作繁忙嘅你 喺公司或屋企 郁都唔使郁 就可以令壞嘅手機重生😎😜\nhttps://www.facebook",
+        "about": "手機維修專門店! 好憎讀書叻的人類 所以現推出*GPA*越低整機越平的優惠! \n特設上門維修 港九新界 務求令到工作繁忙嘅你 喺公司或屋企 郁都唔使郁 就可以令壞嘅手機重生😎😜\nhttps://www.facebook",
         "categories": [
-          "Mobile phone shop"
+          "Mobile Phone Shop"
         ],
         "addr": "旺角彌敦道608號總統商業大廈(W PLAZA) 2樓202號鋪",
         "area": "Hong Kong",
         "tel": "64639691"
       },
       "url": "https://www.facebook.com/cfudo/"
+    },
+    {
+      "url": "https://www.instagram.com/c.fu.do.phone.repair/",
+      "meta": {
+        "name": "師傅到 手機維修專門店📱 大專生GPA優惠！",
+        "about": "特別設有大專生GPA越低整機越平優惠！手機有咩事都有得問啊嘛👍🏻\n輕鬆分享每日維修各類手機的情況與問題\n電話: 64639691 Bobby/ 93121601 JJ\n總店: 旺角彌敦道608號總統商業大廈2樓202室 (W Plaza)\n分店: 沙田石門京瑞廣場2期1樓101c12號鋪"
+      }
     }
   ],
   "posts": [
@@ -42,5 +50,19 @@
   "yellowBlueMapIds": [
     "Y_SHOP00110",
     "Y_SHOP00109"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角彌敦道608號總統商業大廈(W PLAZA) 2樓202號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ9R2B6LcBBDQR1DvvxAUjfnQ"
+    },
+    {
+      "address": {
+        "zh": "沙田石門京瑞廣場2期1樓101c12號鋪"
+      },
+      "googleMapsPlaceId": "ChIJJ7UL_ikHBDQRQJagRTwLWJQ"
+    }
   ]
 }

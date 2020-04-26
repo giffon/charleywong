@@ -6,18 +6,26 @@
   "webpages": [
     {
       "meta": {
+        "name": "Cafe R&C Sleepless",
+        "id": "132225386819663",
         "about": "#come as a guest , leave as a friend.\n#we don't make coffee , we create coffee.\n#catering #workshop #reservation #marketing",
         "categories": [
-          "Coffee shop",
-          "Breakfast & brunch restaurant"
+          "Coffee Shop",
+          "Breakfast & Brunch Restaurant"
         ],
         "addr": "G/F, 22&24 Haven Street , Causeway Bay",
-        "area": "Causeway Bay",
+        "area": "852 Causeway Bay",
         "email": "cafernc@gmail.com",
-        "tel": "28909838",
-        "id": "132225386819663"
+        "tel": "28909838"
       },
       "url": "https://www.facebook.com/caferncsleepless/"
+    },
+    {
+      "url": "https://www.instagram.com/cafernc_sleepless/",
+      "meta": {
+        "name": "SLEEPLESS",
+        "about": "Come as a GUEST, Leave as a FRIEND.\nOpening : 12pm\nLatteart workshop／Party ／Catering / Events\n☎️: 28909838"
+      }
     }
   ],
   "posts": [
@@ -36,5 +44,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00214"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, 22&24 Haven Street , Causeway Bay"
+      },
+      "googleMapsPlaceId": "ChIJQ38J81MABDQRU6FIg0WKTPE"
+    }
   ]
 }

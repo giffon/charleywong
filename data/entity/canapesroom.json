@@ -6,23 +6,31 @@
   },
   "webpages": [
     {
-      "url": "http://www.canapesroom.com"
+      "url": "https://www.canapesroom.com"
     },
     {
       "meta": {
+        "name": "Canapés Room",
+        "id": "492284157630543",
         "about": "餐廳主打法式精緻小食，午市有慢煮(slow cook)系列，更為你度身一站式到會服務(Customized Catering Service)，由到會顧問親自與您聯絡，了解您的需要。",
         "categories": [
-          "Breakfast & brunch restaurant",
+          "Breakfast & Brunch Restaurant",
           "Caterer",
-          "Coffee shop"
+          "Coffee Shop"
         ],
         "addr": "23-26,3/F, Block B, Wah Lok Industrial Centre, 31-41 San Mei Street, Fo Tan",
         "area": "Sha Tin, Hong Kong",
         "email": "info@canapesroom.com",
-        "tel": "37493873",
-        "id": "492284157630543"
+        "tel": "37493873"
       },
       "url": "https://www.facebook.com/canapesroom/"
+    },
+    {
+      "url": "https://www.instagram.com/canapesroom_catering/",
+      "meta": {
+        "name": "Canapés Room | 圓點工房 | 美食到會",
+        "about": "商業到會｜婚禮到會｜派對到會\n主打精緻小食,更為你度身訂製一站式到會服務\n到會顧問會親自同您聯絡,了解您既需要\n到會📞: 5340 4422 / 6655 8007\n餐廳訂座☎️: 3749 3873"
+      }
     }
   ],
   "posts": [
@@ -35,5 +43,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00585"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "23-26,3/F, Block B, Wah Lok Industrial Centre, 31-41 San Mei Street, Fo Tan"
+      },
+      "googleMapsPlaceId": "ChIJB7OlM8sHBDQREoAWhGi-dPU"
+    }
   ]
 }

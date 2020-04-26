@@ -6,16 +6,24 @@
   "webpages": [
     {
       "meta": {
+        "name": "Cannon_garden",
         "id": "324057741433691",
         "about": "本店提供多種娛樂設備，例如PS4，VR，Switch，電動麻將枱，飛鏢機，Board games等等\n另有廚房，浴室，BBQ設施\n可 whatsapp 95228825/94230876",
         "categories": [
-          "Arts and entertainment"
+          "Arts & Entertainment"
         ],
-        "addr": "銅鑼灣景隆街三號四樓",
+        "addr": "景隆街",
         "area": "Hong Kong",
         "tel": "94230876"
       },
       "url": "https://www.facebook.com/cannongardan/"
+    },
+    {
+      "url": "https://www.instagram.com/cannongarden_partyroom/",
+      "meta": {
+        "name": "Cannon_garden_partyroom",
+        "about": "私人娛樂地方，家的感覺，電動麻雀枱，標機，PS4，Switch，迷你桌球，足球枱，卡拉OK等免費提供，24小時營業，更備有浴室可供洗澡，歡迎有興趣致電查詢94230876"
+      }
     }
   ],
   "posts": [
@@ -27,6 +35,15 @@
     }
   ],
   "tags": [
+    "partyRoom",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "景隆街"
+      },
+      "googleMapsPlaceId": "EiJDYW5ub24gU3QsIENhdXNld2F5IEJheSwgSG9uZyBLb25nIi4qLAoUChIJ3TUr8VYABDQRyU_-TwkxLu0SFAoSCX-sbbNVAAQ0EWoMEuexqD8C"
+    }
   ]
 }
