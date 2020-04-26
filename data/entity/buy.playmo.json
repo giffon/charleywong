@@ -6,22 +6,30 @@
   },
   "webpages": [
     {
-      "url": "http://www.buy-playmo.com"
+      "url": "https://www.buy-playmo.com"
     },
     {
       "meta": {
+        "name": "Buy-Playmo.com Hong Kong Online Shop & Retail Store 摩比玩具香港網店及專賣店",
         "id": "817196215040195",
         "about": "BUY-PLAYMO.COM Hong Kong Online Shop & Retail Store. A Playmobil Toys Shop in Hong Kong.摩比玩具香港網店及專賣店.香港のおもちゃ屋です。☆ドイツのおもちゃ「プレイモービル」専門店です。WEB SHOPも営業中。",
         "categories": [
-          "Toy shop",
-          "Collectibles shop"
+          "Toy Store",
+          "Collectibles Store"
         ],
         "addr": "Room 1804, Champion Building, 287-291 Des Voeux Road Central,",
-        "area": "Sheung Wan",
+        "area": "000000 Sheung Wan",
         "email": "sales.buy-playmo@advanext.com.hk",
         "tel": "31761116"
       },
       "url": "https://www.facebook.com/buy.playmo/"
+    },
+    {
+      "url": "https://www.instagram.com/buy_playmo/",
+      "meta": {
+        "name": "Buy-Playmobil.com 摩比玩具香港專賣店",
+        "about": "Buy-Playmo.com Hong Kong Online Shop & Retail Store provides Playmobil Products in Hong Kong. 全香港最多最齊全Playmobil玩具專賣店。"
+      }
     }
   ],
   "posts": [
@@ -32,5 +40,13 @@
   "tags": [
     "toy",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room 1804, Champion Building, 287-291 Des Voeux Road Central"
+      },
+      "googleMapsPlaceId": "ChIJkdIYyn0ABDQRpRXBr-6Ldwo"
+    }
   ]
 }

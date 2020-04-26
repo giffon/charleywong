@@ -6,18 +6,26 @@
   "webpages": [
     {
       "meta": {
+        "name": "Browny Cafe",
         "id": "442037722576102",
         "about": "BROWNY 咖啡賞館\n位於荃灣昌寧商場往豪輝商場天橋底, 地舖",
         "categories": [
-          "Coffee shop",
+          "Coffee Shop",
           "Restaurant"
         ],
         "addr": "Shop 66a, G/F, Cheong Ning Arcade,Tsuen Cheong Centre, 202-216 Sai Lau Kok Road, Tsuen Wan",
-        "area": "Hong Kong",
+        "area": "85 Hong Kong",
         "email": "brownycafe@gmail.com",
         "tel": "23221629"
       },
       "url": "https://www.facebook.com/brownycafeTW/"
+    },
+    {
+      "url": "https://www.instagram.com/brownycafe/",
+      "meta": {
+        "name": "Browny Cafe",
+        "about": "Browny cafe: 荃灣西樓角路荃昌中心昌寧商場地下66a舖\nBrowny Roastery: 葵涌大連排道144-150號金豐工業大廈2期14U\n訂豆、咖啡旅行包、蛋糕、咖啡工作坊、到會"
+      }
     }
   ],
   "posts": [
@@ -39,5 +47,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00642"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 66a, G/F, Cheong Ning Arcade,Tsuen Cheong Centre, 202-216 Sai Lau Kok Road, Tsuen Wan"
+      },
+      "googleMapsPlaceId": "ChIJg5SHzJL4AzQRryyRKMCJT_k"
+    }
   ]
 }

@@ -5,15 +5,16 @@
   },
   "webpages": [
     {
-      "url": "http://www.brownsugarhk.com"
+      "url": "https://www.brownsugarhk.com"
     },
     {
       "meta": {
+        "name": "Brown Sugar",
         "id": "477096349023614",
-        "about": "每件衣服都有生命 為衣服尋找好主人\n九龍太子道西185號嘉爵大廈門1/F A室",
+        "about": "每件衣服都有生命  為衣服尋找好主人\n九龍太子道西185號嘉爵大廈門1/F A室",
         "categories": [
-          "Women's clothes shop",
-          "Accessories"
+          "Accessories",
+          "Women's Clothing Store"
         ],
         "addr": "九龍太子道西185號嘉爵大廈1/F A,B",
         "area": "Flat A,B 1/F Ka Tsuek Building, 185 Prince Edward Road West, Kowloon",
@@ -21,6 +22,13 @@
         "tel": "23966811"
       },
       "url": "https://www.facebook.com/brownsugarhk/"
+    },
+    {
+      "url": "https://www.instagram.com/brownsugarhk/",
+      "meta": {
+        "name": "brownsugarhk",
+        "about": "1A, Kar Tsuek Building, 185 Prince Edward Road, Hong Kong\nWhatsApp 56160698"
+      }
     }
   ],
   "posts": [
@@ -37,5 +45,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00230"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍太子道西185號嘉爵大廈1/F A,B"
+      },
+      "googleMapsPlaceId": "ChIJlXdznbABBDQRamjKpeVYdyQ"
+    }
   ]
 }

@@ -10,11 +10,19 @@
         "name": "邊譜",
         "id": "111554716327162",
         "categories": [
-          "Bookstore"
+          "Independent Bookstore"
         ],
         "addr": "台灣大道三段408號",
-        "area": "Taichung, Taiwan",
-        "email": "verge408@gmail.com"
+        "area": "Taichung, Taiwan 407",
+        "email": "verge408@gmail.com",
+        "tel": "886424521984"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/bienbooks408/",
+      "meta": {
+        "name": "邊譜 Taichung,Taiwan",
+        "about": "邊譜是一個空間，不完全以書店名義自居。\n新書｜座位｜講座｜活動空間｜讀書會\n咖啡｜茶｜無咖啡因飲品\n地址：台中市西屯區台灣大道三段408號\n電話：04-24521984"
       }
     }
   ],
@@ -44,5 +52,13 @@
   "tags": [
     "book",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "台灣大道三段408號"
+      },
+      "googleMapsPlaceId": "ChIJCcJ4rvQ9aTQRNnIuu_rf20g"
+    }
   ]
 }

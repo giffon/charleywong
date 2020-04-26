@@ -6,7 +6,7 @@
   },
   "webpages": [
     {
-      "url": "http://store.bikethemoment.com"
+      "url": "https://bikethemoment.com"
     },
     {
       "url": "https://www.facebook.com/bikethemomentstore/",
@@ -19,9 +19,16 @@
           "Lifestyle Service"
         ],
         "addr": "Unit A6, 12/F, Mai Hing Industrial Building Block A, 16-18 Hing Yip Street, Kwun Tong, Hong Kong",
-        "area": "Hong Kong",
+        "area": "00000 Hong Kong",
         "email": "store@bikethemoment.com",
         "tel": "93128538"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/bikethemoment_store/",
+      "meta": {
+        "name": "髦民士多 Bike The Moment Store",
+        "about": ".\n+美好單車生活店🚲\n+週一至日 // 11am - 7pm\n+ 來前歡迎whatsapp 預約時間\n+觀塘興業街美興工業大廈A座12樓A6室\n+@tokyobike.hk @24Bottles.hk\n+store.bikethemoment.com\n.\n👇🏻一按直接wtsapp 我地👇🏻"
       }
     }
   ],
@@ -54,5 +61,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00833"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit A6, 12/F, Mai Hing Industrial Building Block A, 16-18 Hing Yip Street, Kwun Tong, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJHWclHUUBBDQRcJrRrw0anes"
+    }
   ]
 }

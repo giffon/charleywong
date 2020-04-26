@@ -9,12 +9,13 @@
       "meta": {
         "name": "沸滷嗱喳麵",
         "id": "105499214351534",
-        "about": "由黃店西麵開設分店，以貼地平民風格經營。",
+        "about": "可whatsapp 6593 3841落order後，外賣自取",
         "categories": [
           "Restaurant"
         ],
         "addr": "屯門鄉事會路94-110康利中心地下16號舖",
-        "area": "852 Hong Kong"
+        "area": "852 Hong Kong",
+        "tel": "65933841"
       }
     },
     {
@@ -50,5 +51,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT02065"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門鄉事會路94-110康利中心地下16號舖"
+      },
+      "googleMapsPlaceId": "ChIJX5V8-iL7AzQRAzFlfKcZwHU"
+    }
   ]
 }

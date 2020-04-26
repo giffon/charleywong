@@ -6,10 +6,15 @@
   },
   "webpages": [
     {
-      "url": "https://www.instagram.com/betabularasa/"
+      "url": "https://www.instagram.com/betabularasa/",
+      "meta": {
+        "name": "白紙花舍 | 香港花店 乾花 花束 花禮 佈置",
+        "about": "週二至週日 12-8pm 週一定休 歡迎#場地租借\n☎︎ 90102761 wtsapp only\n鮮花 @betabularasa.florist\n♪ @meconopsis_btr\ninfo@betabularasa.co"
+      }
     },
     {
       "meta": {
+        "name": "白紙花舍 be tabula rasa",
         "id": "769324249745382",
         "about": "Fresh Flower | Dried Flower | Greeting | Wedding | Decoration",
         "categories": [
@@ -17,7 +22,7 @@
           "Art"
         ],
         "addr": "93 Lai Chi Kok Road Prince Edward",
-        "area": "Hong Kong",
+        "area": "+852 Hong Kong",
         "email": "info@betabularasa.co",
         "tel": "90102761"
       },
@@ -38,5 +43,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00308"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "93 Lai Chi Kok Road Prince Edward"
+      },
+      "googleMapsPlaceId": "ChIJBzCzwkkBBDQRYrMzhtnPGqU"
+    }
   ]
 }

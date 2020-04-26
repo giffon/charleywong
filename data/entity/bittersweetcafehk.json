@@ -1,22 +1,30 @@
 {
   "id": "bittersweetcafehk",
   "name": {
-    "en": "Bittersweet",
-    "zh": "咖啡館"
+    "en": "Bittersweet Cafe"
   },
   "webpages": [
     {
       "meta": {
+        "name": "Bittersweet咖啡館",
         "id": "273521932824761",
         "about": "All Day Breakfast\nCoffee",
         "categories": [
-          "Coffee shop",
+          "Coffee Shop",
           "Restaurant"
         ],
         "addr": "粉嶺聯和墟和豐街和豐閣4號地下（欽記隔離）",
-        "area": "Hong Kong"
+        "area": "0000 Hong Kong",
+        "tel": "26026711"
       },
       "url": "https://www.facebook.com/bittersweetcafehk/"
+    },
+    {
+      "url": "https://www.instagram.com/bittersweetcafehk/",
+      "meta": {
+        "name": "Bittersweet Cafe 聯和墟和豐街和豐閣4號",
+        "about": "Mon-Fri: 0730-2000 Sat:0830-2000 Sun:0930-1800 Tel 26026711"
+      }
     }
   ],
   "posts": [
@@ -29,5 +37,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00008"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "粉嶺聯和墟和豐街和豐閣4號地下"
+      },
+      "googleMapsPlaceId": "ChIJ34TQ3B32AzQRofK7u-Milkg"
+    }
   ]
 }

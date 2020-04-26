@@ -6,11 +6,12 @@
   "webpages": [
     {
       "meta": {
+        "name": "Bless shoes",
         "id": "545966905566793",
-        "about": "High heels and accessories\nFor Wedding, dancing, and casual wear\n...\n\n\nSee more",
+        "about": "High heels and accessories\nFor Wedding, dancing, and casual wear\n\nOwn manufacturer with\nRetailing, Wholesaling &\nProfessional tailor made service",
         "categories": [
-          "Shoe shop",
-          "Bridal shop"
+          "Footwear Store",
+          "Bridal Shop"
         ],
         "addr": "太子, 彌敦道 745 - 747號, 金都商場 , 一樓, 107 鋪",
         "area": "Hong Kong",
@@ -19,7 +20,10 @@
       "url": "https://www.facebook.com/blessshoeshk/"
     },
     {
-      "url": "https://www.instagram.com/blessshk/"
+      "url": "https://www.instagram.com/blessshk/",
+      "meta": {
+        "name": "blessshk"
+      }
     }
   ],
   "posts": [
@@ -28,10 +32,18 @@
     }
   ],
   "tags": [
-    "clothing",
+    "footwear",
     "wedding"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00052"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "太子, 彌敦道 745 - 747號, 金都商場 , 一樓, 107 鋪"
+      },
+      "googleMapsPlaceId": "ChIJCV_m0skABDQRr4Z8GELKibw"
+    }
   ]
 }

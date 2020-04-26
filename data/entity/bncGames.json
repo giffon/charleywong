@@ -6,15 +6,17 @@
   },
   "webpages": [
     {
-      "url": "http://www.bncgames.com"
+      "url": "https://www.bncgames.com"
     },
     {
       "meta": {
+        "name": "Board&Card Games 桌遊俱樂部",
         "id": "146254455421679",
         "about": "www.bncgames.com\nBoard&Card Games 桌遊俱樂部 係一間桌上遊戲專門店。本店有數百款遊戲比大家玩架！更有專人教導，唔識都教到你識！我地亦都有零售Board Game，詳情睇我地網頁啦～",
         "categories": [
-          "Toy shop",
-          "Retail company"
+          "Retail Company",
+          "Board Game",
+          "Toy Store"
         ],
         "addr": "香港九龍旺角西洋菜南街1A-1K號百寶利商業中心8樓808室",
         "area": "Mong Kok",
@@ -22,6 +24,12 @@
         "tel": "37912799"
       },
       "url": "https://www.facebook.com/bncGames/"
+    },
+    {
+      "url": "https://www.instagram.com/boardandcardgames/",
+      "meta": {
+        "name": "bncgames"
+      }
     }
   ],
   "posts": [
@@ -35,5 +43,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00199"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍旺角西洋菜南街1A-1K號百寶利商業中心8樓808室"
+      },
+      "googleMapsPlaceId": "ChIJmyVk4sYABDQRr9BcKnCY-B8"
+    }
   ]
 }

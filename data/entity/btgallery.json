@@ -1,24 +1,36 @@
 {
   "id": "btgallery",
   "name": {
-    "zh": "突破書廊"
+    "zh": "突破書廊",
+    "en": "Breakthrough Book Gallery"
   },
   "webpages": [
     {
       "meta": {
+        "name": "突破書廊。Breakthrough。Book。Gallery",
+        "id": "107259426001453",
         "about": "佐敦店(tel. 2377 8592)\n村門店(tel. 2632 0715)",
         "categories": [
-          "Non-profit organisation",
-          "Cultural gift shop",
-          "Book shop"
+          "Nonprofit Organization",
+          "Cultural Gifts Store",
+          "Bookstore"
         ],
         "addr": "九龍佐敦吳松街191號突破中心地下",
-        "area": "Tsim Sha Tsui",
+        "area": "852 Hong Kong",
         "email": "btg@breakthrough.org.hk",
-        "tel": "23778592",
-        "id": "107259426001453"
+        "tel": "23778592"
       },
       "url": "https://www.facebook.com/btgallery/"
+    },
+    {
+      "url": "https://www.instagram.com/btbookgallery/",
+      "meta": {
+        "name": "突破書廊。Book。Gallery。Cafe",
+        "about": "在這𥚃遇見書，由書遇見自己。\n還有Coffee and friends☕️☕️☕️\n//\nIG DM/FB Inbox 查詢及訂購產品~\n門市自取/順豐到付"
+      }
+    },
+    {
+      "url": "https://btgalleries.breakthrough.org.hk"
     }
   ],
   "posts": [
@@ -29,5 +41,19 @@
   "tags": [
     "book",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍佐敦吳松街191號突破中心地下"
+      },
+      "googleMapsPlaceId": "ChIJOyX-fOsABDQRKCSxyqKQGIE"
+    },
+    {
+      "address": {
+        "zh": "新界沙田亞公角山路33號突破青年村大堂"
+      },
+      "googleMapsPlaceId": "ChIJhcd7UhYGBDQRsQvAQ2UKPME"
+    }
   ]
 }

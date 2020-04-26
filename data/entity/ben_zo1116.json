@@ -21,7 +21,7 @@
           "Yakiniku Restaurant"
         ],
         "addr": "尖沙咀赫德道4號THE HART 3樓",
-        "area": "Tsim Sha Tsui",
+        "area": "852 Tsim Sha Tsui",
         "tel": "28871028"
       }
     }
@@ -40,5 +40,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01612"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀赫德道4號THE HART 3樓"
+      },
+      "googleMapsPlaceId": "ChIJmbAGEe4ABDQRSR_VbEEMWEg"
+    }
   ]
 }

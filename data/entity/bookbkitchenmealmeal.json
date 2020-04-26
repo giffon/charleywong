@@ -6,12 +6,13 @@
   "webpages": [
     {
       "meta": {
+        "name": "Book b kitchen meal meal",
         "id": "633533340415350",
         "about": "由食材出發，細心備菜，從一頓飯中重拾生活的節奏。\n\n服務：私人聚餐、活動專屬餐單、場地租借（歡迎pm查詢）",
         "categories": [
           "Restaurant",
-          "Coffee shop",
-          "Book shop"
+          "Coffee Shop",
+          "Bookstore"
         ],
         "addr": "荃灣白田壩街45號 南豐紗廠 111號鋪A",
         "area": "Hong Kong",
@@ -20,7 +21,11 @@
       "url": "https://www.facebook.com/bookbkitchenmealmeal/"
     },
     {
-      "url": "https://www.instagram.com/bookbkitchenmealmeal/"
+      "url": "https://www.instagram.com/bookbkitchenmealmeal/",
+      "meta": {
+        "name": "Book B Kitchen Meal Meal",
+        "about": "由食材出發，細心備菜，從一頓飯中重拾生活的節奏。\n#bookbkitchenmealmeal\n12:30pm – 9pm（last order：平日7pm / 週末8pm）\n荃灣白田壩街45號南豐紗廠111號鋪\n私人聚餐、活動專屬餐單、場地租借（歡迎pm查詢）"
+      }
     }
   ],
   "posts": [
@@ -33,5 +38,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01274"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣白田壩街45號 南豐紗廠 111號鋪A"
+      },
+      "googleMapsPlaceId": "ChIJ70P9B-T5AzQRrPF6jnt-FYM"
+    }
   ]
 }

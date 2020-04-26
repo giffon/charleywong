@@ -9,11 +9,12 @@
     },
     {
       "meta": {
+        "name": "bode communications",
         "id": "265567201308",
         "about": "We are a creative laboratory. We believe creativity has no boundaries.",
         "categories": [
-          "Graphic designer",
-          "Advertising agency"
+          "Graphic Designer",
+          "Advertising Agency"
         ],
         "addr": "Workshop B10, 18/F, Block B, Kailey Industrial Centre, 12 Fung Yip Street, Hong Kong.",
         "area": "Hong Kong",
@@ -31,5 +32,13 @@
   "tags": [
     "webdev",
     "advertisingAgency"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Workshop B10, 18/F, Block B, Kailey Industrial Centre, 12 Fung Yip Street, Hong Kong."
+      },
+      "googleMapsPlaceId": "ChIJb-ZyMCkCBDQRs2oy-1vZTNk"
+    }
   ]
 }

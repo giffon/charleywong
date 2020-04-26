@@ -1,20 +1,23 @@
 {
   "id": "bottleshockcellar",
   "name": {
-    "en": "Bottle Shock Cellar"
+    "en": "Bottle Shock Cellar",
+    "zh": "萃釀莊"
   },
   "webpages": [
     {
       "meta": {
+        "name": "Bottle Shock Cellar",
         "id": "1450412018582588",
         "about": "Bottle Shock, a tiny little cellar. I'm the only person here with 2 stupid little cat. Wine...of course I love it, unless u don't wanna get drunk. Cheers!!",
         "categories": [
-          "Winery/Vineyard",
-          "Wine bar",
-          "Brewery"
+          "Wine Bar",
+          "Brewery",
+          "Winery/Vineyard"
         ],
         "addr": "長沙灣元洲街312-314號秉輝工業大廈閣樓M4室",
-        "area": "Cheung Sha Wan, Hong Kong"
+        "area": "Cheung Sha Wan, Hong Kong",
+        "tel": "96200575"
       },
       "url": "https://www.facebook.com/bottleshockcellar/"
     }
@@ -33,5 +36,13 @@
   "tags": [
     "alcoholic",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "長沙灣元洲街312-314號秉輝工業大廈閣樓M4室"
+      },
+      "googleMapsPlaceId": "ChIJMSUIsE0HBDQR_mQ8Ac8KK5c"
+    }
   ]
 }

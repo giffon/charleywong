@@ -6,23 +6,34 @@
   },
   "webpages": [
     {
-      "url": "http://www.bgif.co"
+      "url": "https://www.bgif.co"
+    },
+    {
+      "url": "https://bgstore.com.hk"
     },
     {
       "meta": {
+        "name": "桌樂無限 BG Infinity",
         "id": "980241455340577",
-        "about": "放假打機打到悶？諗唔到地方一齊玩？ 嚟桌樂啦！ 無論一家大細定朋友聚會，我地無任歡迎，專人教授，為您提供貼心的桌遊服務！",
+        "about": "放假打機打到悶？諗唔到地方一齊玩？  嚟桌樂啦！  無論一家大細定朋友聚會，我地無任歡迎，專人教授，為您提供貼心的桌遊及租場服務！",
         "categories": [
-          "Event planner",
-          "Party & entertainment service",
-          "Games/toys"
+          "Event Planner",
+          "Party Entertainment Service",
+          "Games/Toys"
         ],
         "addr": "九龍旺角西洋菜南街5號好望角大廈1404室",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "info@bgif.co",
         "tel": "39545967"
       },
       "url": "https://www.facebook.com/bgifco/"
+    },
+    {
+      "url": "https://www.instagram.com/bgifco/",
+      "meta": {
+        "name": "BG Infinity 桌樂無限",
+        "about": "熱愛桌遊！！\n🏃🌎走遍大江南北為你搜羅最新最好玩既遊戲🎲\n👨‍👨‍👧適合一家大細\n好玩又簡單\n🎎選購專線 🎎\nWhatsApp: 65267070\n☎39545967\n📮ching@bgif.co\n提供🎁送貨服務 、 店舖自取"
+      }
     }
   ],
   "posts": [
@@ -36,5 +47,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00157"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍旺角西洋菜南街5號好望角大廈1404室"
+      },
+      "googleMapsPlaceId": "ChIJtTW838kABDQR1LNRr3mX3Us"
+    }
   ]
 }

@@ -9,10 +9,11 @@
     },
     {
       "meta": {
+        "name": "Book B",
         "id": "1675443382689599",
         "about": "Book B uncovers niche and independent publications across literature, history, art, design and illustration, particularly featuring work from Asia.",
         "categories": [
-          "Independent book shop"
+          "Independent Bookstore"
         ],
         "addr": "Shop 111, The Mills, 45 Pak Tin Par Street",
         "area": "Tsuen Wan, Hong Kong",
@@ -20,6 +21,12 @@
         "tel": "35905900"
       },
       "url": "https://www.facebook.com/bookbhk/"
+    },
+    {
+      "url": "https://www.instagram.com/bookbhk/",
+      "meta": {
+        "name": "Book B"
+      }
     }
   ],
   "posts": [
@@ -33,5 +40,13 @@
   "tags": [
     "book",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 111, The Mills, 45 Pak Tin Par Street"
+      },
+      "googleMapsPlaceId": "ChIJNXGHjLYABDQRBDArk41kuB4"
+    }
   ]
 }

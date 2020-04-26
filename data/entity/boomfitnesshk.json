@@ -15,7 +15,7 @@
           "Sports & Fitness Instruction"
         ],
         "addr": "旺角西洋菜南街5號好望角大厦11樓1103室",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "boomfitnesshk@gmail.com",
         "tel": "23980286"
       }
@@ -61,5 +61,13 @@
   "tags": [
     "fitness",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角西洋菜南街5號好望角大厦11樓1103室"
+      },
+      "googleMapsPlaceId": "ChIJcaacEMgABDQRWehjqNkxnCE"
+    }
   ]
 }

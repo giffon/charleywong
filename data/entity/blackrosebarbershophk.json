@@ -5,20 +5,35 @@
   },
   "webpages": [
     {
-      "url": "http://www.blackrosebarbershophk.com"
+      "url": "https://www.blackrosebarbershophk.com"
     },
     {
       "meta": {
+        "name": "Black Rose Barbershop",
         "id": "179659996176408",
-        "about": "We are traditional barbershop located in Tsim Sha Tsui. We do classic men cut, wet shave and beard trim.",
+        "about": "香港男士復古理髮店 Barbershop.\n提供理髮 Haircut, 鬍子修理 Beard Trim及剃鬚 Wet Shave.\n位於尖沙咀 Tsim Sha Tsui，銅鑼灣 Causeway Bay，中環 Central",
         "categories": [
-          "Barber's",
-          "Hair salon"
+          "Barber Shop",
+          "Hair Salon"
         ],
-        "addr": "5 Chatham Road South",
-        "area": "Tsim Sha Tsui"
+        "email": "info@blackrosebarbershophk.com"
       },
       "url": "https://www.facebook.com/blackrosebarbershophk/"
+    },
+    {
+      "url": "https://www.instagram.com/blackrosebarbershophk/",
+      "meta": {
+        "name": "BLACK ROSE BARBERSHOP 🌹",
+        "about": "▪️CTL: 16 Peel St.\n▪️CWB: 35 Yiu Wah St.\n▪️TST: 5 Chatham Road South\n▪️family @cheungleungkee\n▪️Appointment 🔽"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCkXh9m80jzSahy8u1X2trPw",
+      "meta": {
+        "id": "UCkXh9m80jzSahy8u1X2trPw",
+        "name": "BlackRose Barbershop",
+        "about": ""
+      }
     }
   ],
   "posts": [
@@ -34,5 +49,25 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00918"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, No. 5 Chatham Road South, TSIM SHA TSUI, HONG KONG"
+      },
+      "googleMapsPlaceId": "ChIJTwEZ3vEABDQRN4rDONxdGt8"
+    },
+    {
+      "address": {
+        "en": "G/F, No. 35 Yiu Wah Street, CAUSEWAY BAY, HONG KONG"
+      },
+      "googleMapsPlaceId": "ChIJW6ANaN0BBDQRzP2tSI65fr0"
+    },
+    {
+      "address": {
+        "en": "G/F, No. 16 Peel Street, CENTRAL, HONG KONG"
+      },
+      "googleMapsPlaceId": "ChIJl3dSQTYBBDQRaITYY0-1I8Q"
+    }
   ]
 }

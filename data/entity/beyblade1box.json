@@ -6,10 +6,11 @@
   "webpages": [
     {
       "meta": {
+        "name": "爆旋一格",
         "id": "2168059483428945",
         "categories": [
-          "Games/toys",
-          "Toy shop"
+          "Games/Toys",
+          "Toy Store"
         ],
         "addr": "油麻地彌敦道530-538號 現時點(in’s point) 2樓232號舖",
         "area": "Hong Kong",
@@ -32,5 +33,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00376"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "油麻地彌敦道530-538號 現時點(in’s point) 2樓232號舖"
+      },
+      "googleMapsPlaceId": "ChIJC_IxJ8EABDQRL248DMl1jXA"
+    }
   ]
 }

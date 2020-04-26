@@ -17,7 +17,7 @@
           "Toy Store"
         ],
         "addr": "Block B-11 , 2/F, Mai Shun Industrial Building, 18 Kwai Cheong Road, Kwai Chung, NT",
-        "area": "Hong Kong",
+        "area": "99907 Hong Kong",
         "email": "bricklighthk@gmail.com"
       }
     },
@@ -55,5 +55,13 @@
   "tags": [
     "toy",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Block B-11 , 2/F, Mai Shun Industrial Building, 18 Kwai Cheong Road, Kwai Chung, NT"
+      },
+      "googleMapsPlaceId": "ChIJscN5Hpr4AzQR4gQZqtxNTn4"
+    }
   ]
 }

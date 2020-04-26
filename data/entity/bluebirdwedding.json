@@ -5,16 +5,17 @@
   },
   "webpages": [
     {
-      "url": "http://www.bluebirdwedding.com"
+      "url": "https://www.bluebirdwedding.com"
     },
     {
       "meta": {
+        "name": "Blue Bird Wedding Gallery",
         "id": "109980159085726",
         "about": "We do everything about Wedding photography & videography !",
         "categories": [
-          "Wedding planning service",
-          "Event videographer",
-          "Camera/photo"
+          "Wedding Planning Service",
+          "Camera/Photo",
+          "Event Videographer"
         ],
         "addr": "葵芳大連排道172-180號金龍工業中心4期2樓H室",
         "area": "Hong Kong",
@@ -22,6 +23,13 @@
         "tel": "91600817"
       },
       "url": "https://www.facebook.com/bluebirdwedding/"
+    },
+    {
+      "url": "https://www.instagram.com/bluebird.wedding/",
+      "meta": {
+        "name": "Blue Bird Wedding",
+        "about": "#bluebirdweddinggallery"
+      }
     }
   ],
   "posts": [
@@ -32,5 +40,13 @@
   "tags": [
     "photographer",
     "wedding"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵芳大連排道172-180號金龍工業中心4期2樓H室"
+      },
+      "googleMapsPlaceId": "ChIJg4u_ML34AzQRRfvpTH8fZxM"
+    }
   ]
 }
