@@ -6,10 +6,13 @@
   "webpages": [
     {
       "meta": {
+        "name": "Cubic-Shop 眼鏡店 Eyewear",
         "id": "237283403040573",
-        "about": "地址：香港灣仔道東方188商場2樓248號\n電話：+852 35862038\n營業時間 : 12:30-21:00...\n\n\n\nSee more",
+        "about": "主店地址：香港灣仔道東方188商場2樓248號\n電話：+852 35862038\n營業時間 : 12:30-21:00",
         "categories": [
-          "Sunglasses & eyewear shop"
+          "Sunglasses & Eyewear Store",
+          "Product/Service",
+          "Optometrist"
         ],
         "addr": "灣仔道188商埸2樓248shop",
         "area": "Hong Kong",
@@ -17,6 +20,13 @@
         "tel": "35862038"
       },
       "url": "https://www.facebook.com/cubicshopeyewear/"
+    },
+    {
+      "url": "https://www.instagram.com/cubicshopeyewear/",
+      "meta": {
+        "name": "CubicShopEyewear【眼鏡店】",
+        "about": "🇭🇰灣仔灣仔道東方188商場2樓248舖\n營業時間：12:30~21:00\n📞Tel: +852 3586 2038\n🇭🇰灣仔灣仔道162 B1地舖(近英皇中心)\n營業時間：11:30~21:00\n📞Tel : +852 2575 2475"
+      }
     }
   ],
   "posts": [
@@ -39,5 +49,19 @@
   "yellowBlueMapIds": [
     "Y_SHOP01617",
     "Y_SHOP01618"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "灣仔灣仔道東方188商場2樓248舖"
+      },
+      "googleMapsPlaceId": "ChIJ5602WloABDQRL4lTqw_i4cQ"
+    },
+    {
+      "address": {
+        "zh": "灣仔灣仔道162 B1地舖"
+      },
+      "googleMapsPlaceId": "ChIJ-SKF_1oABDQR-gMDLrpbMyc"
+    }
   ]
 }

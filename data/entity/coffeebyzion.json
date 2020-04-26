@@ -6,18 +6,26 @@
   "webpages": [
     {
       "meta": {
-        "about": "Opening Working:\n\nWeekday:...\n\n\n\n\nSee more",
+        "name": "Coffee by Zion",
+        "id": "1024516687674493",
+        "about": "Opening Working:\n\nWeekday:\nDrink: 8am-6pm\nfood: 9am-6pm\n\nWeekend: 8am-7pm\nfood: 8am-7pm",
         "categories": [
-          "Coffee shop",
+          "Coffee Shop",
           "Restaurant"
         ],
         "addr": "Shop 1, Chun King Court, 83 First Street",
         "area": "Sai Ying Pun",
         "email": "coffeebyzion@gmail.com",
-        "tel": "28571838",
-        "id": "1024516687674493"
+        "tel": "28571838"
       },
       "url": "https://www.facebook.com/coffeebyzion/"
+    },
+    {
+      "url": "https://www.instagram.com/coffeebyzion/",
+      "meta": {
+        "name": "Coffee by ZION",
+        "about": "We know you love coffee☕️, we all do.\nOur mission is to be the door to you and help you export this whole new world of specialty coffee. #coffeebyzion"
+      }
     }
   ],
   "posts": [
@@ -30,5 +38,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00588"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 1, Chun King Court, 83 First Street"
+      },
+      "googleMapsPlaceId": "ChIJFV9Jw4D_AzQRKUif6DOn9tc"
+    }
   ]
 }

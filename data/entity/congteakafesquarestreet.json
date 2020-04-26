@@ -7,11 +7,12 @@
   "webpages": [
     {
       "meta": {
+        "name": "Congteakafe 茶咖宅",
         "id": "1869150173331019",
         "about": "Hong Kong Style Cafe\nHK milk tea VS Expresso base coffee\nHK tea set VS Classic All day breakfast\nEveryone can find your own love here\nPrivate Party Welcome",
         "categories": [
           "Cafe",
-          "Hong Kong restaurant"
+          "Hong Kong Restaurant"
         ],
         "addr": "G/F, 24 Square Street,",
         "area": "Sheung Wan",
@@ -36,5 +37,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00082"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, 24 Square Street"
+      },
+      "googleMapsPlaceId": "ChIJ_7-2rH4ABDQRLPr_Bv-yL9I"
+    }
   ]
 }

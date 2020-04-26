@@ -6,18 +6,25 @@
   "webpages": [
     {
       "meta": {
+        "name": "Coffee &",
+        "id": "149782958993672",
         "about": "The first takeaway coffee bar and self-serve laundry in Hong Kong.",
         "categories": [
-          "Coffee shop",
-          "Local service",
-          "Restaurant"
+          "Coffee Shop",
+          "Local Service"
         ],
         "addr": "Shop F, 1 Queen Street, Sheung Wan",
-        "area": "Hong Kong",
-        "email": "coffeeand.hk@gmail.com",
-        "id": "149782958993672"
+        "area": "HK Hong Kong",
+        "email": "coffeeand.hk@gmail.com"
       },
       "url": "https://www.facebook.com/coffeeand.hk/"
+    },
+    {
+      "url": "https://www.instagram.com/coffeeand.hk/",
+      "meta": {
+        "name": "Coffee & Laundry",
+        "about": "The first takeaway coffee bar and 24hour self-serve laundry in Hongkong\n.\nMon-Fri | 8am-5pm\nSat-Sun | 9am-6pm"
+      }
     }
   ],
   "posts": [
@@ -33,5 +40,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01516"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop F, 1 Queen Street, Sheung Wan"
+      },
+      "googleMapsPlaceId": "ChIJnYio_34ABDQRhbjAeJ0lkOw"
+    }
   ]
 }

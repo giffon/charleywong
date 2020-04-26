@@ -19,6 +19,13 @@
         "email": "coffeechemistryhk@gmail.com",
         "tel": "55981378"
       }
+    },
+    {
+      "url": "https://www.instagram.com/coffeechemistryhk/",
+      "meta": {
+        "name": "Coffee Chemistry",
+        "about": "How about fueling up your day with a cup of high quality coffee? We brew espresso, cold brew and hand drip. Just drop by and share the energy!"
+      }
     }
   ],
   "posts": [
@@ -63,5 +70,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00777"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵涌葵昌路51號九龍貿易中心2座2樓B2號舖"
+      },
+      "googleMapsPlaceId": "ChIJ864RBU35AzQRlNO1w7_5eFU"
+    }
   ]
 }

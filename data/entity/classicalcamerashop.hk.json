@@ -6,22 +6,29 @@
   "webpages": [
     {
       "meta": {
+        "name": "ClassicalCameraShop.hk",
+        "id": "417774858282396",
         "about": "We trade all kinds of Vintage Film Cameras, Lenses\nContact\nEmail: info@classicalcamerashop.hk\nPhone: +852-2391 3130",
         "categories": [
-          "Camera shop",
-          "Camera/photo",
-          "Shopping & retail"
+          "Camera Store",
+          "Camera/Photo"
         ],
         "addr": "太子彌敦道760號東海大廈13樓17室, Flat 17, 13/F., Cosmopolitan Centre, 760 Nathan Road, Prince Edward",
         "area": "Hong Kong",
         "email": "info@classicalcamerashop.hk",
-        "tel": "23913130",
-        "id": "417774858282396"
+        "tel": "23913130"
       },
       "url": "https://www.facebook.com/classicalcamerashop.hk/"
     },
     {
-      "url": "https://www.instagram.com/classicalcamerashop.hk/"
+      "url": "https://www.instagram.com/classicalcamerashop.hk/",
+      "meta": {
+        "name": "香港經典相機行",
+        "about": "『We Sell Film Cameras Only』\n⇒ Camera Servicing | Leica & most mechanicals\n⇒ Film Developing | B&W, Color Negative & Reversal\n☀︎Tue-Sun 2-8pm (Mon OFF)"
+      }
+    },
+    {
+      "url": "http://www.classicalcamerashop.hk"
     }
   ],
   "posts": [
@@ -34,5 +41,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01340"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "太子彌敦道760號東海大廈13樓17室, Flat 17, 13/F., Cosmopolitan Centre, 760 Nathan Road, Prince Edward"
+      },
+      "googleMapsPlaceId": "ChIJwQu0zskABDQRPcUcjshTanE"
+    }
   ]
 }

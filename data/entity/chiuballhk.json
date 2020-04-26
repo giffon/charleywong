@@ -7,14 +7,23 @@
   "webpages": [
     {
       "meta": {
+        "name": "潮丸 Chiu Ball",
         "id": "1984528065166216",
         "categories": [
-          "Local business"
+          "Cantonese Restaurant"
         ],
         "addr": "金馬倫道21c地下",
-        "area": "Hong Kong"
+        "area": "Hong Kong",
+        "tel": "25119238"
       },
       "url": "https://www.facebook.com/chiuballhk/"
+    },
+    {
+      "url": "https://www.instagram.com/chiu_ball/",
+      "meta": {
+        "name": "潮丸 CHIU BALL",
+        "about": "尖沙咀金馬倫道21C號地舖\n+852 25119238\nMon - Sat 12:00 - 22:30"
+      }
     }
   ],
   "posts": [
@@ -27,5 +36,13 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "金馬倫道21c地下"
+      },
+      "googleMapsPlaceId": "ChIJh1DEYJkBBDQRnYeWagfMOwk"
+    }
   ]
 }

@@ -6,18 +6,26 @@
   "webpages": [
     {
       "meta": {
+        "name": "Chroma Cafe + Kitchen",
         "id": "307471072962251",
         "about": "CHROMA CAFE + KITCHEN - WHERE ART MEETS FOOD",
         "categories": [
           "Restaurant",
-          "Coffee shop",
-          "Tea room"
+          "Tea Room",
+          "Coffee Shop"
         ],
         "addr": "8/F, Ming Sang Industrial Building, 19 Hing Yip Street, Kwun Tong",
         "area": "Kowloon, Hong Kong",
         "tel": "23412638"
       },
       "url": "https://www.facebook.com/chromacafekitchen/"
+    },
+    {
+      "url": "https://www.instagram.com/chromacafekitchen/",
+      "meta": {
+        "name": "Chroma Cafe + Kitchen",
+        "about": "Opening Hours: Mon-Sat 12pm-8pm"
+      }
     }
   ],
   "posts": [
@@ -30,5 +38,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01248"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "8/F, Ming Sang Industrial Building, 19 Hing Yip Street, Kwun Tong"
+      },
+      "googleMapsPlaceId": "ChIJqegsGEUBBDQRBhTgP-6FFw4"
+    }
   ]
 }

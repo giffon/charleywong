@@ -10,8 +10,7 @@
         "id": "180657409272018",
         "categories": [
           "Restaurant",
-          "Coffee Shop",
-          "Tea Room"
+          "Coffee Shop"
         ],
         "addr": "Room C, 3/F, Po Ming Building, Foo Ming Street 2-6, Causeway Bay, Hong Kong",
         "area": "Causeway Bay",
@@ -47,6 +46,9 @@
   ],
   "places": [
     {
+      "address": {
+        "zh": "銅鑼灣富明街2-6號寶明大廈3樓c室"
+      },
       "googleMapsPlaceId": "ChIJb6YUV88BBDQRTyUxw_ddEO8"
     }
   ],

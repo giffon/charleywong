@@ -9,12 +9,13 @@
     },
     {
       "meta": {
+        "name": "Ching Leather Workshop 皮革工作室",
         "id": "1423509434562324",
-        "about": "小班教學 皮革班\n歡迎查詢，交流\nWebsite: www.chingleatherworkshop.com...\n\n\nSee more",
+        "about": "小班教學 皮革班\n歡迎查詢，交流\nWebsite: www.chingleatherworkshop.com\nInstagram: ching_leather_workshop\nWhatsApp: 92612776\n工作室地址: 荔枝角青山道500號百美工業大廈6樓B3室",
         "categories": [
           "Accessories",
-          "Arts and entertainment",
-          "Product/service"
+          "Arts & Entertainment",
+          "Product/Service"
         ],
         "addr": "九龍荔枝角青山道500號百美工業大廈6樓B3室",
         "area": "Hong Kong",
@@ -24,7 +25,11 @@
       "url": "https://www.facebook.com/chingleatherworkshop/"
     },
     {
-      "url": "https://www.instagram.com/ching_leather_workshop/"
+      "url": "https://www.instagram.com/ching_leather_workshop/",
+      "meta": {
+        "name": "手作皮革ching leather workshop",
+        "about": "手縫製皮革禮物訂造\n小班教學皮革班\n手作皮革DIY\nHand made Leather goods\nWorldwide delivery\nLeather course\nFacebook: ching leather workshop\nWhatsApp: +852 92612776"
+      }
     }
   ],
   "posts": [
@@ -40,5 +45,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00813"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍荔枝角青山道500號百美工業大廈6樓B3室"
+      },
+      "googleMapsPlaceId": "ChIJ__8_Y1EHBDQRfD1yLE_EJpg"
+    }
   ]
 }

@@ -5,14 +5,19 @@
   },
   "webpages": [
     {
-      "url": "https://www.instagram.com/cojcoffietics/"
+      "url": "https://www.instagram.com/cojcoffietics/",
+      "meta": {
+        "name": "Cup of Joe by coffietics",
+        "about": "💪🏻Passionate Baristas☕️Registered Dietitian👉🏻healthy options🥑Together we guide you to better coffee and health💪🏻 askme@coffietics.com\n👇🏻《 黃色經濟圈論壇》"
+      }
     },
     {
       "meta": {
+        "name": "Cup of Joe by coffietics",
         "id": "443214826421174",
         "about": "guiding you to better coffee and health",
         "categories": [
-          "Coffee shop"
+          "Coffee Shop"
         ],
         "addr": "Shop C2A-C2B (Lift Lobby), G/F, China Insurance Group Building, 141 Des Voeux Road",
         "area": "Central, Hong Kong",
@@ -20,6 +25,9 @@
         "tel": "27869711"
       },
       "url": "https://www.facebook.com/cojcoffietics/"
+    },
+    {
+      "url": "https://bit.ly/2TB0PTv"
     }
   ],
   "posts": [
@@ -35,5 +43,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01421"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop C2A-C2B (Lift Lobby), G/F, China Insurance Group Building, 141 Des Voeux Road"
+      },
+      "googleMapsPlaceId": "ChIJJWh90HwABDQR2Cdp2dEjcU4"
+    }
   ]
 }

@@ -10,18 +10,22 @@
       "meta": {
         "name": "楚撚記大排檔 Chorland",
         "id": "156519801705334",
-        "about": "馬頭圍道187號地下2,4號舖 (鴻光街3號地下, 哥登堡餐廳對面馬路)\n訂座電話: 2515 1500/ 2515 1200/ 5338 1859 (Whatsapp)",
+        "about": "楚撚記係新派嘅大排檔，希望以舒適嘅室內環境，令客人可以嘆住冷氣食盡港式大排檔風味!",
         "categories": [
           "Chinese Restaurant"
         ],
-        "addr": "馬頭圍道187號地下2,4號舖",
-        "area": "Hong Kong",
+        "addr": "馬頭圍道187號地下2,4號舖/皇后大道西554-560號日富里地下1號舖",
+        "area": "HK Hong Kong",
         "email": "chorlandk@gmail.com",
         "tel": "25151500"
       }
     },
     {
-      "url": "https://www.instagram.com/chor_land/"
+      "url": "https://www.instagram.com/chor_land/",
+      "meta": {
+        "name": "楚撚記大排檔 Chorland",
+        "about": "位於土瓜灣之新派大排檔, 嘆住冷氣食盡港式大排檔風味!\n馬頭圍道187號地下2,4號舖 (鴻光街3號地下)\n訂座電話: 2515 1500 / 2515 1200 / 5338 1859 (Whatsapp)"
+      }
     }
   ],
   "posts": [
@@ -39,5 +43,19 @@
   "yellowBlueMapIds": [
     "Y_EAT00942",
     "Y_EAT01369"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "馬頭圍道187號地下2,4號舖"
+      },
+      "googleMapsPlaceId": "ChIJQcWhBdcABDQRAgZ1AQngqG8"
+    },
+    {
+      "address": {
+        "zh": "皇后大道西554-560號日富里地下1號舖"
+      },
+      "googleMapsPlaceId": "EiRZYXQgRnUgTG4sIFNoZWsgVG9uZyBUc3VpLCBIb25nIEtvbmciLiosChQKEgmXiuiZhP8DNBENgmC_dnj6qxIUChIJowNLj4P_AzQRLWvdg3etxXE"
+    }
   ]
 }

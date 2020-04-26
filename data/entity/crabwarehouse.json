@@ -22,9 +22,11 @@
         "id": "104209371064020",
         "about": "Instagram: crabwarehouse https://instagram.com/crabwarehouse?igshid=72t3lj9jvnk1",
         "categories": [
-          "Shopping & Retail"
+          "Shopping & Retail",
+          "Electronics",
+          "Gym/Physical Fitness Center"
         ],
-        "addr": "觀塘興業街31號興業中心2樓A室(名創工作室)20號",
+        "addr": "觀塘興業街31號興業中心2樓A室(名創工作室)7號",
         "area": "Kowloon, Hong Kong",
         "email": "crabwarehouse@gmail.com",
         "tel": "97278064"
@@ -37,9 +39,18 @@
     }
   ],
   "tags": [
+    "electricalAppliances",
     "shop"
   ],
   "alias": [
     "104209371064020"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘興業街31號興業中心2樓A室(名創工作室)7號"
+      },
+      "googleMapsPlaceId": "ChIJQ77-VUUBBDQRJ_0BJtnIeV8"
+    }
   ]
 }

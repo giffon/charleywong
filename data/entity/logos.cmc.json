@@ -9,10 +9,11 @@
     },
     {
       "meta": {
+        "name": "千泉醫館",
         "id": "867308873457966",
         "about": "千泉醫館提供多元化及全面的醫療養生服務，除了中醫診治、針灸、拔罐 、推拿、整脊手法整復、刮痧放血、艾療溫灸、天灸療法，還設有埋線減肥療法、豐胸針灸、美容保健、脫疣等 。",
         "categories": [
-          "Medical service"
+          "Medical Service"
         ],
         "addr": "901,23 Hillwood Road,Tsim Sha Tsui",
         "area": "Hong Kong",
@@ -33,5 +34,13 @@
   "tags": [
     "medical",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "901,23 Hillwood Road,Tsim Sha Tsui"
+      },
+      "googleMapsPlaceId": "ChIJt9rYAYMBBDQRPQD3N_X8sRM"
+    }
   ]
 }

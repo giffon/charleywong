@@ -5,21 +5,27 @@
   },
   "webpages": [
     {
-      "url": "http://www.cornerc.co"
+      "url": "https://www.cornerc.co"
     },
     {
       "meta": {
+        "name": "cornerc.co",
         "id": "391711861178958",
         "about": "instagram : cornerc.hk2 追蹤人數達七萬！在旺角設有門市",
         "categories": [
-          "Clothing (brand)"
+          "Clothing (Brand)"
         ],
-        "addr": "Shop 1 , G/F , Ho King Commercial Centre, 2-16 Fa Yuen Street",
-        "area": "Hong Kong",
         "email": "support@cornerc.co",
         "tel": "51014014"
       },
       "url": "https://www.facebook.com/cornerc.hk2/"
+    },
+    {
+      "url": "https://www.instagram.com/cornerc.hk2/",
+      "meta": {
+        "name": "CORNERC 服飾雜貨店♪",
+        "about": "配送範圍 • 香港 澳門 台灣￼￼￼\n正版正貨2020 (編號: 3465)\n𓃟所有相片版權均為CORNERC所有\n-\n💬 Inquire • Live chat (website)\n🏫Store • 旺角好景商業中心地下1號鋪(2-8pm)\n☕️Online Store •"
+      }
     }
   ],
   "posts": [
@@ -35,5 +41,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01523"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角好景商業中心地下1號鋪"
+      },
+      "googleMapsPlaceId": "ChIJu2xl7MYABDQRqalLEAieE-4"
+    }
   ]
 }

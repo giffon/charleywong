@@ -7,15 +7,25 @@
   "webpages": [
     {
       "meta": {
+        "name": "惜婚男女 C&S Marriage and Wedding Planning",
         "id": "117937371558917",
         "about": "我們是一間專營環保婚禮和惜婚教育的良心小企，主要業務包括二手婚禮用品租售及回收、“惜婚”工作坊、婚禮策劃、環保小禮物設計等。",
         "categories": [
-          "Wedding planning service"
+          "Wedding Planning Service"
         ],
+        "addr": null,
+        "area": "Kowloon, Hong Kong",
         "email": "cnswedding326@gmail.com",
         "tel": "21357105"
       },
       "url": "https://www.facebook.com/cnswedding/"
+    },
+    {
+      "url": "https://www.instagram.com/cnswedding/",
+      "meta": {
+        "name": "C&S Wedding",
+        "about": "惜婚男女是一間私營社企，旨在推廣正向婚姻，支持環保婚禮，關愛弱勢社群。C&S Marriage and Wedding Planning promotes positive marriage relationship, green weddings, and charity."
+      }
     }
   ],
   "posts": [
@@ -30,6 +40,7 @@
     }
   ],
   "tags": [
+    "closed",
     "wedding",
     "shop"
   ]

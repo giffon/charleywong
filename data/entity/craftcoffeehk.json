@@ -6,18 +6,29 @@
   "webpages": [
     {
       "meta": {
+        "name": "Craft Coffee Roaster",
+        "id": "1378859032342766",
         "about": "The official Facebook page of Craft Coffee Roaster - Hong Kong",
         "categories": [
-          "Coffee shop",
+          "Coffee Shop",
           "Restaurant"
         ],
         "addr": "29 Tai Kok Tsui Road,",
         "area": "Hong Kong",
         "email": "craftcoffeehk@gmail.com",
-        "tel": "51096770",
-        "id": "1378859032342766"
+        "tel": "51096770"
       },
       "url": "https://www.facebook.com/craftcoffeehk/"
+    },
+    {
+      "url": "https://www.instagram.com/craftcoffeehk/",
+      "meta": {
+        "name": "Craft Coffee Roaster",
+        "about": "Cafe & Coffee Roastery\nWorld Cup Taster Champion 2017🥄"
+      }
+    },
+    {
+      "url": "https://craftcoffeeroaster.hk"
     }
   ],
   "posts": [
@@ -33,5 +44,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00036"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "29 Tai Kok Tsui Road"
+      },
+      "googleMapsPlaceId": "ChIJL4HriLkABDQR6KzcrPHk_uM"
+    }
   ]
 }

@@ -18,12 +18,12 @@
         "id": "284242132233050",
         "about": "C1室,2樓, 駱駝漆大廈第3座, 60號開源道, 觀塘, 九龍,香港",
         "categories": [
-          "Product/Service",
+          "Sunglasses & Eyewear Store",
           "Retail Company",
-          "Sunglasses & Eyewear Store"
+          "Product/Service"
         ],
-        "addr": "Flat C-1, 2/F, Block 3, Camel Paint Building, No 60 Hoi Yuen Street",
-        "area": "Kwun Tong",
+        "addr": "C1室,2樓, 駱駝漆大廈第3座, 60號開源道",
+        "area": "00000 Kwun Tong",
         "email": "crossageoptical@gmail.com",
         "tel": "92585038"
       }
@@ -51,5 +51,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02228"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "C1室,2樓, 駱駝漆大廈第3座, 60號開源道"
+      },
+      "googleMapsPlaceId": "ChIJZ5Syvt8BBDQRkUPOmevC7no"
+    }
   ]
 }

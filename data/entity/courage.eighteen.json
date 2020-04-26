@@ -6,17 +6,26 @@
   "webpages": [
     {
       "meta": {
+        "name": "Courage Eighteen",
         "id": "106482116804475",
-        "about": "Coffee dreamer and doers. Following own dream and letting go. what money cannt buy !! 忘記背後。努力面前～\nPlat Coffee Roaster\n�TST east @courageeighteen�\n� SW @allblue.coffee.promenade �\n� ABrC Champion 2019�",
+        "about": "Coffee dreamer and doers. Following own dream and letting go. what money cannt buy !! 忘記背後。努力面前～\nPlat Coffee Roaster\n�TST east @courageeighteen�\n� SW @allblue.coffee.promenade �\n� ABrC  Champion 2019�",
         "categories": [
-          "Coffee shop",
+          "Coffee Shop",
           "Restaurant"
         ],
         "addr": "Shop 55, Ground Floor, Houston Centre, 63 Mody Square, Tsim SHa Tsui East",
         "area": "Hong Kong",
-        "email": "sales@platcoffee.com"
+        "email": "sales@platcoffee.com",
+        "tel": "26820665"
       },
       "url": "https://www.facebook.com/courage.eighteen/"
+    },
+    {
+      "url": "https://www.instagram.com/courageeighteen/",
+      "meta": {
+        "name": "CourageEighteen by PLAT",
+        "about": "📖 @platcoffeehk\nMake it cool, make it through 🔧⚙️\n忘記背後。努力面前🎏🎈"
+      }
     }
   ],
   "posts": [
@@ -35,5 +44,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00424"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 55, Ground Floor, Houston Centre, 63 Mody Square, Tsim Sha Tsui East"
+      },
+      "googleMapsPlaceId": "ChIJWQBwyu8ABDQRo1sGFdmuTno"
+    }
   ]
 }

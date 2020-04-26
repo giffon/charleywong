@@ -7,10 +7,11 @@
   "webpages": [
     {
       "meta": {
+        "name": "想點啡 Cup's Coffee Limited",
         "id": "1611363959105482",
-        "about": "營業時間\n星期一至五\n上午7:30-下午4:30...\n\n\n\n\n\n\n\nSee more",
+        "about": "營業時間\n星期一至五\n上午8:00-下午4:00\n\n星期六、日及公眾假期\n上午8:00-下午4:00\n\n休息日不定期\n請留意FB及到店查詢",
         "categories": [
-          "Coffee shop",
+          "Coffee Shop",
           "Restaurant"
         ],
         "addr": "大埔南盛街16號南盛大厦地下6號舖",
@@ -34,5 +35,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01217"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔南盛街16號南盛大厦地下6號舖"
+      },
+      "googleMapsPlaceId": "ChIJg80kPD8IBDQRvpY-wbLc7AY"
+    }
   ]
 }

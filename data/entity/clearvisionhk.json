@@ -17,7 +17,7 @@
       "meta": {
         "name": "Clear Vision 清晰視力",
         "id": "285732841449888",
-        "about": "紅磡海逸道8號海逸坊UG16號鋪\n佐敦道16A-F立信大廈地下10號鋪\n佐敦恆豐中心UG11號鋪\n北角英皇道265號南方大厦地下4號\n西環卑路乍街金堂大廈地下D舖\n香港仔成都道添喜大廈地下",
+        "about": "紅磡海逸道8號海逸坊UG16號鋪 \n佐敦道16A-F立信大廈地下10號鋪\n佐敦恆豐中心UG11號鋪\n北角英皇道265號南方大厦地下4號\n西環卑路乍街金堂大廈地下D舖\n香港仔成都道添喜大廈地下",
         "categories": [
           "Sunglasses & Eyewear Store",
           "Optometrist",
@@ -28,6 +28,9 @@
         "email": "clearvisionhk@yahoo.com.hk",
         "tel": "24558777"
       }
+    },
+    {
+      "url": "https://clearvision.hk"
     }
   ],
   "posts": [
@@ -49,5 +52,43 @@
   "tags": [
     "eyewear",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港仔成都道20-28號添喜大廈地下A, B, G舖3號舖"
+      },
+      "googleMapsPlaceId": "ChIJl9D4RgMABDQRzfow6bPGaK8"
+    },
+    {
+      "address": {
+        "zh": "香港西環卑路乍街139-153號金堂大廈地下D舖"
+      },
+      "googleMapsPlaceId": "ChIJo6gPDJr_AzQR7UWiJ8dJ30c"
+    },
+    {
+      "address": {
+        "zh": "香港北角英皇道265號南方大廈地下4號舖"
+      },
+      "googleMapsPlaceId": "ChIJiX0SsQMBBDQRWJ3oJLGeHW4"
+    },
+    {
+      "address": {
+        "zh": "九龍彌敦道216-228號恆豐中心UG11號舖"
+      },
+      "googleMapsPlaceId": "ChIJvXA-lOsABDQR-4x1cokvF10"
+    },
+    {
+      "address": {
+        "zh": "九龍紅磡海逸道8號海逸坊UG16號舖"
+      },
+      "googleMapsPlaceId": "ChIJuy7MYt8ABDQRWbfI4YtogXA"
+    },
+    {
+      "address": {
+        "zh": "九龍彌敦道240-252號, 佐敦道16A-F立信大廈地下10號舖"
+      },
+      "googleMapsPlaceId": "ChIJ60Zmt-sABDQRNdx5AKWZmGo"
+    }
   ]
 }

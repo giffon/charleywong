@@ -7,16 +7,25 @@
   "webpages": [
     {
       "meta": {
+        "name": "阿貓地攤cat store",
         "id": "825572364129597",
         "about": "Every Monday Off 逢星期一休息 Tuesday to Friday 12pm to 10pm星期二至星期五 中午12時至晚上10時Saturday, Sunday 11am to 10pm星期六，日 上午11時至晚上10時",
         "categories": [
-          "Coffee shop"
+          "Coffee Shop"
         ],
-        "addr": "銅鑼灣富明街2-6號寶明大廈3樓D室 3DE Po Ming Building, No 2 Foo Ming Street,",
-        "area": "Causeway Bay",
-        "email": "catisland2018@gmail.com"
+        "addr": "Flat D, 3/F.,Po Ming Building, Foo Ming Street, Causeway Bay H.K.",
+        "area": "852 Causeway Bay",
+        "email": "catisland2018@gmail.com",
+        "tel": "27109953"
       },
       "url": "https://www.facebook.com/cwbcatstore/"
+    },
+    {
+      "url": "https://www.instagram.com/catislandcafe/",
+      "meta": {
+        "name": "阿貓地攤 與 貓仙島",
+        "about": "全港歷史最悠久嘅貓Cafe\n9隻貓店長😸\n香港銅鑼灣富明街2號寶明大廈3樓D室\n#阿貓地攤 #貓仙島 #catstore #catisland\n.\n歡迎合作"
+      }
     }
   ],
   "posts": [
@@ -29,5 +38,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01370"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Flat D, 3/F.,Po Ming Building, Foo Ming Street, Causeway Bay H.K."
+      },
+      "googleMapsPlaceId": "ChIJE_lkMVEABDQRiIF77PrfYPI"
+    }
   ]
 }

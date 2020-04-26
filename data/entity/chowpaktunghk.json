@@ -12,14 +12,20 @@
         "id": "249931905551843",
         "about": "服務周到 百樣精通",
         "categories": [
-          "Mobile Phone Shop",
           "Computer Repair Service",
+          "Mobile Phone Shop",
           "Phone/Tablet"
         ],
         "addr": "尖沙咀漆咸道南61-65號首都廣場1樓F114-115",
         "area": "Hong Kong",
         "email": "anloulou@chowpaktung.com",
         "tel": "90417559"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/chowpaktunghk/",
+      "meta": {
+        "name": "Chow Pak Tung 周百通"
       }
     },
     {
@@ -55,5 +61,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01482"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀漆咸道南61-65號首都廣場1樓F114-115"
+      },
+      "googleMapsPlaceId": "ChIJLf5VGqUBBDQRIMynWeWqVYs"
+    }
   ]
 }

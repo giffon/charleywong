@@ -7,20 +7,25 @@
   "webpages": [
     {
       "meta": {
+        "name": "咖啡日常．Coffee Daily",
+        "id": "391441874348444",
         "about": "COFFEE IS THE BRIDGE THAT LINKS US TOGETHER AND TO THE WORLD.",
         "categories": [
-          "Blogger",
-          "Community"
-        ],
-        "id": "391441874348444"
+          "Community",
+          "Blogger"
+        ]
       },
       "url": "https://www.facebook.com/coffeeeedaily/"
     },
     {
       "meta": {
+        "name": "咖啡日常 · Coffee Daily",
         "about": "Explore everything that's coffee related.\n#852 #咖啡日常\n📍+852 HK\n🚩咖啡即生活"
       },
       "url": "https://www.instagram.com/coffeedaily_/"
+    },
+    {
+      "url": "https://medium.com/@coffeedaily_sophie"
     }
   ],
   "posts": [
@@ -32,6 +37,7 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "media"
   ]
 }

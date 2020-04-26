@@ -7,13 +7,14 @@
   "webpages": [
     {
       "meta": {
+        "name": "茶咖里 Congteakafe",
         "id": "2036760179872711",
-        "about": "街坊街里的餐廳，\n公平貿易、本土小店\n意式咖啡、港式奶茶...\n\n\nSee more",
+        "about": "街坊街里的餐廳，\n公平貿易、本土小店\n意式咖啡、港式奶茶\n經典常餐、全日早餐\n\ncongteakafe@gmail.com",
         "categories": [
-          "Coffee shop"
+          "Coffee Shop"
         ],
         "addr": "G/F David Lane 4",
-        "area": "Hong Kong",
+        "area": "N/A Hong Kong",
         "email": "congteakafe@gmail.com",
         "tel": "29158885"
       },
@@ -33,5 +34,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00083"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F David Lane 4"
+      },
+      "googleMapsPlaceId": "ChIJzxSJzoD_AzQRRQ81ZsSZnGk"
+    }
   ]
 }

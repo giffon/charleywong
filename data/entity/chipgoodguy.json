@@ -7,12 +7,13 @@
   "webpages": [
     {
       "meta": {
+        "name": "木碎好少年Chipgoodguy Studio",
         "id": "168720643843558",
-        "about": "發展原則 Crazy about art Passionate about culture 禁止通宵工作 食飯要飽肚 收錢先開工",
+        "about": "發展原則   Crazy about art  Passionate about culture   禁止通宵工作  食飯要飽肚   收錢先開工",
         "categories": [
           "Carpenter",
-          "Visual arts",
-          "Arts and entertainment"
+          "Visual Arts",
+          "Arts & Entertainment"
         ],
         "addr": "觀塘偉業街137號泛亞中心8樓802室",
         "area": "Kowloon, Hong Kong",
@@ -20,6 +21,13 @@
         "tel": "70711874"
       },
       "url": "https://www.facebook.com/chipgoodguy/"
+    },
+    {
+      "url": "https://www.instagram.com/chipgoodguy_studio/",
+      "meta": {
+        "name": "木碎好少年",
+        "about": "「木碎好少年」服務範圍包括：\n各中小學、大專院校 STEM 木工教育\n各種創意木工訂造\n自製木工產品零售\n木工藝術創作展示\n各類木工資料交流\n#香港 #本土 #手作 #STEM #機動\n電話：+852 70711874\n歡迎臨時致電😉"
+      }
     }
   ],
   "posts": [
@@ -39,5 +47,13 @@
   "tags": [
     "woodworking",
     "artist"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘偉業街137號泛亞中心8樓802室"
+      },
+      "googleMapsPlaceId": "ChIJMUw9nzYBBDQRG6-BoIWio_8"
+    }
   ]
 }

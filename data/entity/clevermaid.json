@@ -15,7 +15,7 @@
           "Employment Agency"
         ],
         "addr": "Block B, 1/F, Block B, Wah Shing Building, 82-84 Hau Tei Square",
-        "area": "Tsuen Wan, Hong Kong",
+        "area": "852 Tsuen Wan, Hong Kong",
         "email": "clevermaid@yahoo.com.hk",
         "tel": "24921169"
       }
@@ -42,5 +42,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00737"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Block B, 1/F, Block B, Wah Shing Building, 82-84 Hau Tei Square"
+      },
+      "googleMapsPlaceId": "ChIJ8T-Nzu34AzQRSvfUUNwkhJw"
+    }
   ]
 }
