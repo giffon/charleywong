@@ -12,10 +12,17 @@
           "Barbecue Restaurant"
         ],
         "addr": "廣華街2-20號翠園2期地下10號鋪",
-        "area": "Mong Kok",
+        "area": "000000 Mong Kok",
         "tel": "68865886"
       },
       "url": "https://www.facebook.com/bbgrillhk/"
+    },
+    {
+      "url": "https://www.instagram.com/chuangrill/",
+      "meta": {
+        "name": "串Grill 自助燒烤專門店",
+        "about": "串Grill 自助燒烤專門店 登陸 旺角廣華街翠園二期地下10號鋪"
+      }
     }
   ],
   "posts": [
@@ -31,5 +38,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00695"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "廣華街2-20號翠園2期地下10號鋪"
+      },
+      "googleMapsPlaceId": "ChIJUfBGoWcBBDQRHemxGi0qLBc"
+    }
   ]
 }

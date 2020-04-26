@@ -9,8 +9,8 @@
         "name": "包販子",
         "id": "190321418129361",
         "categories": [
-          "Bakery",
-          "Coffee Shop"
+          "Coffee Shop",
+          "Bakery"
         ],
         "addr": "太子通菜街254號地下",
         "area": "Hong Kong",
@@ -40,5 +40,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00121"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "太子通菜街254號地下"
+      },
+      "googleMapsPlaceId": "ChIJ79UgIsoABDQRX_BLnNcCYko"
+    }
   ]
 }

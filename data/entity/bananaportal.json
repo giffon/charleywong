@@ -9,12 +9,13 @@
     },
     {
       "meta": {
+        "name": "Banana Portal",
         "id": "587690625016349",
         "about": "香港首個完全免費的綜合服務指南平台，致力去除自由工作(Freelance)市場參差的中介，提供完全透明、保障用家利益的配對服務，並協助自由工作者(freelancer)及商戶(studios)拓展業務。",
         "categories": [
-          "Internet company",
-          "Internet marketing service",
-          "Public service"
+          "Internet Company",
+          "Internet Marketing Service",
+          "Public Service"
         ],
         "addr": "iDendron, 1/F Knowles Building, The University of Hong Kong, Hong Kong",
         "area": "Hong Kong",
@@ -22,6 +23,13 @@
         "tel": "62217466"
       },
       "url": "https://www.facebook.com/bananaportal/"
+    },
+    {
+      "url": "https://www.instagram.com/bananaportal/",
+      "meta": {
+        "name": "𝗕𝗮𝗻𝗮𝗻𝗮 𝗣𝗼𝗿𝘁𝗮𝗹 接蕉喇 - 你的生活助手",
+        "about": "香港首個完全免費、透明的綜合服務指南/配對平台，詳細比較日常服務及freelance價錢、評分、服務內容\n➖\n過百種服務分類：攝影及影片、IT、設計、美容化妝、婚姻服務、家居、補習、運動生活、頭髮、寵物、室內裝修設計、音樂藝術、表演、場地空間等。\n立即搵人🔍接蕉喇\n【👇🏻免費搵freelancer】"
+      }
     }
   ],
   "posts": [
@@ -34,5 +42,13 @@
   ],
   "tags": [
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "iDendron, 1/F Knowles Building, The University of Hong Kong, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJubhdh4b_AzQRCNq6Vqm4D1w"
+    }
   ]
 }

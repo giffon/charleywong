@@ -6,19 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "about": "【 日 本 襤 褸 骨 董 店 】\n觀 塘 偉 業 街 一 四 九 號\n週 一 至 週 日 || 下 午 二 時 至 八 時\n不 定 期 休 息 || 請 提 早 兩 天 預 約",
+        "name": "百川",
+        "id": "1731283413816331",
+        "about": "【 日 本 襤 褸 骨 董 店 】\n觀 塘  偉 業 街  一 四 九 號\n週 一 至 週 日 || 下 午 二 時 至 八 時\n不 定 期 休 息 || 請 提 早 兩 天 預 約",
         "categories": [
-          "Local business"
+          "Local Business"
         ],
         "addr": "觀塘 偉業街 149號",
         "area": "Hong Kong",
-        "tel": "60893074",
-        "id": "1731283413816331"
+        "tel": "60893074"
       },
       "url": "https://www.facebook.com/baak3cyun1/"
     },
     {
       "meta": {
+        "name": "百 川",
         "about": "週 一 至 週 日 || 下 午 二 時 至 八 時\n不 定 期 休 息 || 請 提 早 兩 天 預 約"
       },
       "url": "https://www.instagram.com/baak3cyun1/"
@@ -31,5 +33,13 @@
   ],
   "tags": [
     "clothing"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘 偉業街 149號"
+      },
+      "googleMapsPlaceId": "ChIJBYmMcD0BBDQRovHHDNm6SUc"
+    }
   ]
 }

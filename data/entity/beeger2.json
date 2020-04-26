@@ -12,13 +12,19 @@
         "about": "All about beer and burger.",
         "categories": [
           "Burger Restaurant",
-          "Gastropub",
-          "Pub"
+          "Gastropub"
         ],
         "addr": "Shop J, May Sun Building, 1-15 Smithfield, Kennedy Town",
         "area": "Hong Kong",
         "email": "beeger2hk@gmail.com",
         "tel": "28122328"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/beeger2hk/",
+      "meta": {
+        "name": "Beeger2",
+        "about": "We Sell Burgers & Handcraft Beers."
       }
     }
   ],
@@ -46,9 +52,18 @@
     }
   ],
   "tags": [
+    "burger",
     "food"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00376"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop J, May Sun Building, 1-15 Smithfield, Kennedy Town"
+      },
+      "googleMapsPlaceId": "ChIJqzSrQJr_AzQRvMP0g-TkFCE"
+    }
   ]
 }

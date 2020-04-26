@@ -6,14 +6,15 @@
   },
   "webpages": [
     {
-      "url": "http://www.batatagreens.com.hk"
+      "url": "https://www.batatagreens.com.hk"
     },
     {
       "meta": {
+        "name": "Batata Greens 甘薯葉素食超市",
         "id": "635449063214188",
         "about": "尊重生命 ‧ 真正和平\nReverence For Life ‧ Peace Comes True",
         "categories": [
-          "Health Food Shop",
+          "Health Food Store",
           "Supermarket"
         ],
         "email": "salesbatatagreens@talful.com.hk",
@@ -22,7 +23,20 @@
       "url": "https://www.facebook.com/batatagreens/"
     },
     {
-      "url": "https://www.instagram.com/batata_greens/"
+      "url": "https://www.instagram.com/batata_greens/",
+      "meta": {
+        "name": "Batata Greens 甘薯葉",
+        "about": "#甘薯葉 #素食超市 #動物權益 #環保 #健康 #animalrights #peace #healthy\n#vegetarian #goveg #vegan\n#HongKong 分店：\n太子·北角·葵涌·eSHOP"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCJgMEi8cU7maSvEl4JdyKJA",
+      "meta": {
+        "id": "UCJgMEi8cU7maSvEl4JdyKJA",
+        "location": "Hong Kong",
+        "name": "Batata Greens Veggie Store甘薯葉 素食超市",
+        "about": "The brand 'Batata Greens' concept is to popularise vegetarianism. To us, vegetarianism represents the respect and prevention of exploitation of all life. We value the importance of coexisting harmoniously with other animals. \n\nThe Batata Greens Veggie Market was established in May 2014, a one stop shop to hundreds of different dried and frozen goods for customers to choose from.\n\n甘薯葉 Batata Greens，為了讓素綠生活普及的一個理念主義品牌，把最好的素食產品帶給大家。\n\n(North Point) Shop C, 7-15 Kam Ping Street, North Point, Hong Kong\n(北角店) 香港北角錦屏街7-15號地下C舖    T: 2485 3853\n\n(Prince Edward)  Shop A, 241-243 Sai Yee Street, Prince Edward, KLN.\n(太子店)  九龍太子洗衣街241-243號地下A舖    T: 2485 3523\n\n(Kwai Chung)  8/F Gold King Industrial Building, 35-41 Tai Lin Pai Road, Kwai Chung, N.T.\n(葵涌店)  葵涌大連排道35-41號金基工業大廈8樓    T: 2485 3423\n\nwww.batatagreens.com.hk\nFacebook: Batata Greens 甘薯葉"
+      }
     }
   ],
   "posts": [
@@ -37,5 +51,25 @@
     "Y_SHOP00018",
     "Y_SHOP00019",
     "Y_SHOP00020"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港北角錦屏街7-15號地下C舖"
+      },
+      "googleMapsPlaceId": "ChIJq6p6_AQBBDQRwizTj0jGolE"
+    },
+    {
+      "address": {
+        "zh": "九龍太子洗衣街241-243號地下A舖"
+      },
+      "googleMapsPlaceId": "ChIJpxvpLsoABDQROwliOM2Qduw"
+    },
+    {
+      "address": {
+        "zh": "新界葵涌大連排道35-41號金基工業大廈7樓E室"
+      },
+      "googleMapsPlaceId": "ChIJbfeqmpn4AzQR_CQQMI4-BDI"
+    }
   ]
 }

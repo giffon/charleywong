@@ -6,18 +6,25 @@
   "webpages": [
     {
       "meta": {
+        "name": "Backpacker - 登山露營裝備店",
+        "id": "1388737378012936",
         "about": "露營裝備。登山服飾。專業服務。價廉物美\n嚴選各國優質品牌，近萬款貨品選擇，專業技術指導\n#背囊 #行山鞋 #防水褸 #戶外服飾 #跑山裝備 #防水袋 #蒙古包 #睡袋充氣蓆 #煮食爐具 #戶外小物",
         "categories": [
-          "Outdoor equipment shop",
-          "Shopping centre"
+          "Outdoor Equipment Store"
         ],
         "addr": "香港旺角山東街47-51號中僑商業大廈16樓4號舖 (瓊華中心旁)",
         "area": "Mong Kok",
         "email": "info@backpacker-outdoor.com.hk",
-        "tel": "66757254",
-        "id": "1388737378012936"
+        "tel": "66757254"
       },
       "url": "https://www.facebook.com/backpacker.outdoor.hk/"
+    },
+    {
+      "url": "https://www.instagram.com/backpacker.hk/",
+      "meta": {
+        "name": "Backpacker登山露營裝備店",
+        "about": "🌎嚴選各國優質品牌\n⛺近萬款貨品選擇\n💁專業技術指導\n🈹會員折扣\n❓產品查詢\n📩歡迎DM\n.\n💼每日13:00-22:00\n🌐假期照常營業\n📱電話/whatsapp: 6675 7254"
+      }
     }
   ],
   "posts": [
@@ -33,9 +40,18 @@
   ],
   "tags": [
     "shop",
-    "accessories"
+    "accessories",
+    "sport"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00288"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港旺角山東街47-51號中僑商業大廈16樓4號舖 (瓊華中心旁)"
+      },
+      "googleMapsPlaceId": "ChIJYVA9_0ABBDQRtVq69l7nWkA"
+    }
   ]
 }

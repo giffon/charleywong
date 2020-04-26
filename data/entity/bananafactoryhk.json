@@ -18,6 +18,12 @@
         "email": "info@bananafactory.com.hk",
         "tel": "23821408"
       }
+    },
+    {
+      "url": "https://www.instagram.com/hi_bananafactory/",
+      "meta": {
+        "name": "Banana Factory"
+      }
     }
   ],
   "posts": [
@@ -36,5 +42,13 @@
   ],
   "tags": [
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "六合街 25-27號"
+      },
+      "googleMapsPlaceId": "ChIJq6rqh9AGBDQR45a4krjy7EU"
+    }
   ]
 }

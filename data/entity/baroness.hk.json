@@ -9,21 +9,34 @@
       "url": "https://baroness-hk.business.site"
     },
     {
-      "url": "https://www.instagram.com/hkbaroness/"
+      "url": "https://www.instagram.com/hkbaroness/",
+      "meta": {
+        "name": "Baroness小黑糖·香港",
+        "about": "在最壞的時代甜一甜🇹🇼絕密手炒黑糖珍珠\n傳媒報導：Openrice/飲食男女/東周刊/Umag/Ufood/Popbee/搵食飯團/港生活/港實測/Yahoo/timbale\n門店：台北·香港·加拿大·馬來西亞\n(🇭🇰誠招加盟）\n➖➖\n尖沙咀加拿芬道45號宏生大廈D1舖（厚福街入）"
+      }
     },
     {
       "url": "https://www.facebook.com/baroness.hk/",
       "meta": {
+        "name": "Baroness小黑糖‧香港",
         "id": "256567215135802",
         "about": "小黑糖（Baroness）以秘製配方炒出完美古法黑糖，珍珠沾上黑糖精華汁，啖啖腍軟，調飲比例更經台灣始創人多年改良，在台北市極受OL和學生歡迎。鎮店招牌「小黑糖珍珠」系列！",
         "categories": [
-          "Tea Room",
           "Bubble Tea Shop"
         ],
-        "addr": "厚福街",
+        "addr": "九龍尖沙咀加拿分道45-47號宏生大廈D1號鋪(厚福街入口)",
         "area": "Kowloon, Hong Kong",
         "email": "info@baroness.com.hk",
         "tel": "29838896"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCbajUdyELnOWULBiSIw8WPg",
+      "meta": {
+        "id": "UCbajUdyELnOWULBiSIw8WPg",
+        "location": "Hong Kong",
+        "name": "小黑糖‧香港",
+        "about": ""
       }
     }
   ],
@@ -37,5 +50,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01084"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍尖沙咀加拿分道45-47號宏生大廈D1號鋪(厚福街入口)"
+      },
+      "googleMapsPlaceId": "ChIJN7lQe9YBBDQRPMqev38iUMQ"
+    }
   ]
 }

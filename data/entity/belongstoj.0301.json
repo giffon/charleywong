@@ -6,17 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "about": "Welcome to Belongs To J.\nSince 2017 香港原創 自家設計\nUnique design.\n從選料、設計、製作都是我們一手包辦啊！\nBelongs To J. 的忠旨： 面對困難時要更堅強，要有懂得保護自己的刺。",
+        "name": "Belongs To J.",
+        "id": "516609778419429",
+        "about": "Welcome to Belongs To J. \nSince 2017 香港原創 自家設計\nUnique design.\n從選料、設計、製作都是我們一手包辦啊！\nBelongs To J. 的忠旨： 面對困難時要更堅強，要有懂得保護自己的刺。",
         "categories": [
-          "Design & fashion"
+          "Design & Fashion"
         ],
         "addr": "213B, 2/F, D2 place One, Cheung Yee Street, Lai Chi Kok",
-        "area": "Hong Kong",
+        "area": "00000 Hong Kong",
         "email": "jazminepang0301@gmail.com",
-        "tel": "96095521",
-        "id": "516609778419429"
+        "tel": "96095521"
       },
       "url": "https://www.facebook.com/belongstoj.0301/"
+    },
+    {
+      "url": "https://www.instagram.com/belongs_to_j/",
+      "meta": {
+        "name": "Belongs To J",
+        "about": "🇭🇰香港原創品牌\n小店地址：\n荔枝角長義街9號D2 Place One 2/F 213B舖\nMon~Sun, 12:30~9pm\n|WhatsApp:☎96095521\n|Email: jazminepang0301@gmail.com\n|網店𝕊𝕙𝕠𝕡 𝕆𝕟𝕝𝕚𝕟𝕖👇🏾"
+      }
+    },
+    {
+      "url": "https://pinkoi.com/belongstoj"
     }
   ],
   "posts": [
@@ -30,5 +41,13 @@
   "tags": [
     "clothing",
     "accessories"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "213B, 2/F, D2 place One, Cheung Yee Street, Lai Chi Kok"
+      },
+      "googleMapsPlaceId": "ChIJ-VJ_llQHBDQRL9xYGygY894"
+    }
   ]
 }

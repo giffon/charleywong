@@ -8,12 +8,16 @@
       "url": "https://www.bagguyshk.com"
     },
     {
+      "url": "https://www.bagguysword.com"
+    },
+    {
       "meta": {
+        "name": "Bagguys",
         "id": "783324055113965",
-        "about": "香港布袋品牌 - Bagguys\n布袋專門店 手寫文字及插畫設計 原創設計布袋\n可訂製\n西九龍中心專門店/葵涌廣場專門店\nWtsapp: +852 9144 9957",
+        "about": "香港布袋品牌 - Bagguys\n布袋專門店 手寫文字及插畫設計  原創設計布袋\n可訂製\n西九龍中心專門店/葵涌廣場專門店\nWtsapp: +852 9144 9957",
         "categories": [
-          "Shopping & retail",
-          "Product/service"
+          "Brand",
+          "Shopping & Retail"
         ],
         "addr": "九龍深水埗西九龍中心7樓蘋果商場7002-7003號舖",
         "area": "Hong Kong",
@@ -21,6 +25,43 @@
         "tel": "55423544"
       },
       "url": "https://www.facebook.com/bagguys/"
+    },
+    {
+      "url": "https://www.facebook.com/bagguysword/",
+      "meta": {
+        "name": "Bagguysword",
+        "id": "199109960494371",
+        "categories": [
+          "Art",
+          "Product/Service"
+        ],
+        "email": "bagguysword@gmail.com",
+        "tel": "55423544"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/bagguys/",
+      "meta": {
+        "name": "布袋品牌🛍手寫字插畫設計🖌",
+        "about": "原創設計布袋 可個人/團體訂製\n西九專門店 @bagguys.dc\n香港22個寄賣點 #bagguys_全港寄賣點\n-\nWtsapp：55423604（下單）91449957 （查詢）\n其他產品 @bagguys.word\n-\n👇網頁下單"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/bagguys.dc/",
+      "meta": {
+        "name": "Bagguys西九龍中心專門店🔝",
+        "about": "布袋訂製 @bagguys\n鎖匙扣品/手機殼訂製 @bagguys.word\n-\n好評 @bagguys_feedback\nWtsapp下單 55423604\n-\n專門店營業時間\n星期一至五 1300 - 1930\n星期六日及公眾假期 1200 - 2030"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/bagguys.word/",
+      "meta": {
+        "name": "手寫字鎖匙扣·語錄分享·文字設計🍭",
+        "about": "前52K粉絲ac遭停用 此為新帳號\n-\n西九專門店 @bagguys.dc\n香港27個寄賣點 #bagguys_全港寄賣點\n-\nwtsapp: 55423604（下單）/ 67443177 （查詢）\n-\n👇🏻網頁下單"
+      },
+      "hidden": true
     }
   ],
   "posts": [
@@ -37,5 +78,13 @@
   "yellowBlueMapIds": [
     "Y_SHOP00850",
     "Y_SHOP00851"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍深水埗西九龍中心7樓蘋果商場7002-7003號舖"
+      },
+      "googleMapsPlaceId": "ChIJDSY-EbMABDQRljl-w6wi6fg"
+    }
   ]
 }

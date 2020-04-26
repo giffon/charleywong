@@ -11,14 +11,21 @@
         "id": "257656758143052",
         "about": "bake it easy是一間24小時營業的自助烘焙店。\n顧客根據影片及圖文教學，加上現場蛋糕師協助，親手DIY屬於自己的蛋糕。\n訂造蛋糕服務，我們和Kool Kitchen合作\n工場牌照號碼：2263805583",
         "categories": [
-          "Product/Service",
           "Local Service",
-          "Coach"
+          "Coach",
+          "Product/Service"
         ],
         "addr": "新蒲崗五芳街10號新寶中心607室",
         "area": "Kowloon, Hong Kong",
         "email": "info@bakeiteasy.hk",
         "tel": "67325740"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/bakeiteasyhk/",
+      "meta": {
+        "name": "bakeiteasy",
+        "about": "請盡量Whatsapp查詢：67325740"
       }
     }
   ],
@@ -50,5 +57,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00688"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新蒲崗五芳街10號新寶中心607室"
+      },
+      "googleMapsPlaceId": "ChIJ7UlQhGsHBDQRsg9TYzBmttI"
+    }
   ]
 }

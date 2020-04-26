@@ -9,19 +9,27 @@
     },
     {
       "meta": {
+        "name": "Barista HK",
         "id": "287097018056681",
         "about": "Official Website - http://baristahk.com\nClass Booking - http://baristahk.com/calendar/\nSharing the fun that Coffee can create with EVERYONE!",
         "categories": [
-          "Consultation agency",
-          "Food consultant",
-          "Shopping & retail"
+          "Consulting Agency",
+          "Shopping & Retail",
+          "Food Consultant"
         ],
         "addr": "Unit J, 26/F, Shield Industrial Centre, 84-92 Chai Wan Kok Street",
-        "area": "Tsuen Wan, Hong Kong",
+        "area": "852 Tsuen Wan, Hong Kong",
         "email": "info@baristahk.com",
         "tel": "39967283"
       },
       "url": "https://www.facebook.com/baristahk/"
+    },
+    {
+      "url": "https://www.instagram.com/baristahk/",
+      "meta": {
+        "name": "Barista HK",
+        "about": "Coffee Workshop. Cafe Consultant. Coffee Training School. Coffee Event Planner (Latest Schedule in out Story). 設有咖啡拉花, 沖調, 品味教學；歡迎學校機構, 公司團體, 小組包班教授查詢"
+      }
     }
   ],
   "posts": [
@@ -31,5 +39,13 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit J, 26/F, Shield Industrial Centre, 84-92 Chai Wan Kok Street"
+      },
+      "googleMapsPlaceId": "ChIJcdBEhe_4AzQR0c0xM7oaGG8"
+    }
   ]
 }

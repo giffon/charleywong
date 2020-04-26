@@ -20,7 +20,7 @@
       "meta": {
         "name": "BYO 自助烘焙 - Bake Your Own",
         "id": "148890155694503",
-        "about": "{於2017年創立}\n\nBYO自助烘焙Bake Your Own\n\n「香港首間自助式烘焙店」\n\n銅鑼灣旗艦店：銅鑼灣霎東街15號OLIV 8樓全層\n23997199\n旺角本店：旺角登打士街56號家樂坊14樓1405室\n34603475",
+        "about": "{於2017年創立} \n\nBYO自助烘焙Bake Your Own\n\n「香港首間自助式烘焙店」\n\n銅鑼灣旗艦店：銅鑼灣霎東街15號OLIV 8樓全層 \n23997199\n旺角本店：旺角登打士街56號家樂坊14樓1405室\n34603475",
         "categories": [
           "Cooking School",
           "Dessert Shop"
@@ -43,5 +43,25 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣霎東街15號Oliv 8樓全層"
+      },
+      "googleMapsPlaceId": "ChIJ3YyB2FAABDQRaS2mctq_41Q"
+    },
+    {
+      "address": {
+        "zh": "旺角登打士街56號家樂坊14樓1405室"
+      },
+      "googleMapsPlaceId": "ChIJuVLAz8YABDQRapekfUoobiw"
+    },
+    {
+      "address": {
+        "zh": "九龍灣宏照道38號MegaBox L2 32-33"
+      },
+      "googleMapsPlaceId": "ChIJ-eU74HEBBDQRihd_8iqa7zg"
+    }
   ]
 }
