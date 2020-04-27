@@ -6,21 +6,23 @@
   "webpages": [
     {
       "meta": {
-        "about": "退到城市窒息範圍以外的獨立小店，販賣擁有溫度和夢想的本地及海外手作設計、原創品牌和生活小物。\n>JCCAC L103-104 : 1-7pm\n>太古城中心二期 1/F glass house :11-830pm\n>台北赤峰街49巷6號1樓",
+        "name": "Design Port",
+        "id": "178839878991407",
+        "about": "退到城市窒息範圍以外的獨立小店，販賣擁有溫度和夢想的本地及海外手作設計、原創品牌和生活小物。\n>JCCAC L103-104 : 1-7pm\n>台北赤峰街49巷6號1樓",
         "categories": [
-          "Arts and crafts shop"
+          "Arts & Crafts Store"
         ],
         "addr": "Room L103 - L104, 1/F, Jockey Club Creative Arts Centre (JCCAC), 30 Pak Tin Street,",
         "area": "Shek Kip Mei",
         "email": "info@d-port.co",
-        "tel": "25769993",
-        "id": "178839878991407"
+        "tel": "25769993"
       },
       "url": "https://www.facebook.com/design.port.hk/"
     },
     {
       "meta": {
-        "about": "Art & Design。event。gift\n＞hk\njccac L104/1-7pm\n太古城中心 二期一樓/11-830pm\n＞tw @designportinternational\ntel 51981566\nfb design port\nevent #designport_event"
+        "name": "Design Port",
+        "about": "Art & Design。event。gift\n>hk ：jccac L103-104/1-7pm\n>tw ：@designportinternational\n>event @designport.co #designport_event"
       },
       "url": "https://www.instagram.com/design_port/"
     }
@@ -31,6 +33,15 @@
     }
   ],
   "tags": [
+    "accessories",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room L103 - L104, 1/F, Jockey Club Creative Arts Centre (JCCAC), 30 Pak Tin Street,"
+      },
+      "googleMapsPlaceId": "ChIJm-0HWEoHBDQRZToGF2-Isek"
+    }
   ]
 }

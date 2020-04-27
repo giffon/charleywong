@@ -19,6 +19,13 @@
         "email": "damoon.thai@gmail.com",
         "tel": "22858861"
       }
+    },
+    {
+      "url": "https://www.instagram.com/damoon.thaifood/",
+      "meta": {
+        "name": "大埔泰菜 象月 Da Moon",
+        "about": "正宗泰國菜，經典咖哩炒蟹 地道炸彈蟹，泰式冬陰功湯， 秘製醃料生蝦刺身， 菜式款款正宗，材料樣樣新鮮，保證回味無窮。"
+      }
     }
   ],
   "posts": [
@@ -42,5 +49,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00669"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 3, G/F, Yuet Fat Mansion, 9 Kau Hui Chik Street, Tai Wo"
+      },
+      "googleMapsPlaceId": "ChIJ68Wt4QcJBDQRmv-JvLO-n3Y"
+    }
   ]
 }

@@ -13,14 +13,12 @@
       "meta": {
         "name": "電氣生活館 Denkian",
         "id": "671890136303389",
-        "about": "電氣生活館所有貨品都係從海外直接購入，保證原裝正貨！\n仲唔快啲嚟搵我地！？\n\n地址：香港九龍觀塘開源道60號駱駝漆大廈3期2樓C2室\n電話：(852) 2698-9866 / 2698-9322 / 6677-9669\n傳真：(852) 2698-9133",
+        "about": "電氣生活館所有貨品都係從海外直接購入，保證原裝正貨！\n仲唔快啲嚟搵我地！？\n\n地址：香港九龍觀塘開源道60號駱駝漆大廈3期2樓C2室\n電話：(852) 2698-9866 / 6677-9669\n傳真：(852) 2698-9133",
         "categories": [
           "Appliances",
           "Household Supplies"
         ],
-        "addr": "九龍觀塘開源道60號駱駝漆大廈3座2樓C2室",
-        "area": "Hong Kong",
-        "email": "hkdenkian@gmail.com",
+        "email": "info@denkianhk.com",
         "tel": "66779669"
       }
     }
@@ -75,5 +73,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00622"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍觀塘開源道60號駱駝漆大廈3期2樓C2室"
+      },
+      "googleMapsPlaceId": "ChIJh7KFRE8BBDQRnbS62jyaSbw"
+    }
   ]
 }

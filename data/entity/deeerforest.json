@@ -9,15 +9,15 @@
     },
     {
       "meta": {
+        "name": "小鹿文具所",
         "id": "1438758342866986",
         "about": "充滿文具與雜貨的療癒森林\n等待文具人、雜貨人來踏青",
         "categories": [
-          "Shopping service",
-          "Cultural gift shop",
-          "Arts and entertainment"
+          "Cultural Gifts Store",
+          "Shopping Service"
         ],
         "addr": "新民街50號",
-        "area": "Taoyuan District, Taoyuan",
+        "area": "Taoyuan District, Taoyuan 330",
         "email": "deeerforest@gmail.com"
       },
       "url": "https://www.facebook.com/deeerforest/"
@@ -33,5 +33,13 @@
   ],
   "tags": [
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新民街50號"
+      },
+      "googleMapsPlaceId": "ChIJ8aCUMfweaDQRkGr7sgzBxss"
+    }
   ]
 }

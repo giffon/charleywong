@@ -50,5 +50,31 @@
   "tags": [
     "studyRoom",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣禮頓道9-11號合誠大廈18樓"
+      },
+      "googleMapsPlaceId": "ChIJ0TqG8VAABDQRwO3dI90dQAQ"
+    },
+    {
+      "address": {
+        "zh": "旺角山東街47-51號中僑商業大廈23樓"
+      },
+      "googleMapsPlaceId": "ChIJEW-zr8cABDQRCicRJ4Tz9AU"
+    },
+    {
+      "address": {
+        "zh": "荃灣沙咀道289號恒生荃灣大廈21樓"
+      },
+      "googleMapsPlaceId": "ChIJ6_Bo9-z4AzQRmidO35sOJUI"
+    },
+    {
+      "address": {
+        "zh": "灣仔電氣街1號1A舖"
+      },
+      "googleMapsPlaceId": "EiBFbGVjdHJpYyBTdCwgV2FuIENoYWksIEhvbmcgS29uZyIuKiwKFAoSCUMmo1NdAAQ0ERQZRHa64p_7EhQKEgl5_mF-WwAENBHu2MM15nElJA"
+    }
   ]
 }

@@ -6,19 +6,26 @@
   "webpages": [
     {
       "meta": {
-        "about": "一間小店\n喜歡咖啡, 喜歡烘焙, 喜歡簡單的快樂\n...\n\n\n\n\nSee more",
+        "name": "Dear Coffee & Bakery",
+        "id": "1014212055310056",
+        "about": "一間小店\n喜歡咖啡, 喜歡烘焙, 喜歡簡單的快樂\n\n在鬧市的一角,\u001d實現夢想\n為了自己喜歡的事情努力堅持\n\n一杯咖啡,一個麵包,一\b件蛋糕\n只想讓品嘗的人感受到這份用心",
         "categories": [
-          "Coffee shop",
-          "Bakery",
-          "Breakfast & brunch restaurant"
+          "Coffee Shop",
+          "Bakery"
         ],
         "addr": "Shop 22 G/F, Holford Garden, 2-8 Chik Wan Street, Tai Wai, New Territories",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "dear.coffee.bakery@gmail.com",
-        "tel": "26820093",
-        "id": "1014212055310056"
+        "tel": "26820093"
       },
       "url": "https://www.facebook.com/dear.coffee.bakery/"
+    },
+    {
+      "url": "https://www.instagram.com/dear.coffee.bakery/",
+      "meta": {
+        "name": "Dear Coffee & Bakery",
+        "about": "| SPECIALITY COFFEE |☕️\n| HOMEMADE BAKERY |\n天然手工製造·日本麵粉低溫發酵無添加\n[MON] close\n[TUE-SUN] 10am-6pm\n如常營業。歡迎外賣。\n#カフェ #コーヒー #パン"
+      }
     }
   ],
   "posts": [
@@ -34,5 +41,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00127"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 22 G/F, Holford Garden, 2-8 Chik Wan Street, Tai Wai, New Territories"
+      },
+      "googleMapsPlaceId": "ChIJV3hCtQkHBDQRyF0CKsDF2j8"
+    }
   ]
 }
