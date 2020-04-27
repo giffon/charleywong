@@ -6,17 +6,22 @@
   "webpages": [
     {
       "meta": {
+        "name": "鍍亦有鍍-汽車美容鍍膜店（粉嶺）",
         "id": "946766628806312",
         "about": "本店提供專業汽車美容鍍膜服務，如有任何問題及預約可致電或WhatsApp 54851966 卡通/60105193 ming\n本店位置設於粉嶺聯和墟聯發街22號(可在GOOGLE MAP搜尋鍍亦有鍍)",
         "categories": [
-          "Vehicle detailing service",
+          "Auto Detailing Service",
           "Cars",
-          "Motor vehicle company"
+          "Motor Vehicle Company"
         ],
         "addr": "聯和墟聯發街22號",
-        "area": "Hong Kong"
+        "area": "852 Hong Kong",
+        "tel": "54851966"
       },
       "url": "https://www.facebook.com/doittodocoating/"
+    },
+    {
+      "url": "http://hkcoatingshop.com"
     }
   ],
   "posts": [
@@ -29,5 +34,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02048"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "聯和墟聯發街22號"
+      },
+      "googleMapsPlaceId": "ChIJRUu1vh8KBDQREzfOeuIWBc0"
+    }
   ]
 }

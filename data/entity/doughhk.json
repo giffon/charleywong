@@ -11,8 +11,7 @@
         "id": "958208960998318",
         "about": "Handmade Pasta",
         "categories": [
-          "Italian Restaurant",
-          "Pizza Place"
+          "Italian Restaurant"
         ],
         "addr": "21B Brown Street, Tai Hang",
         "area": "Hong Kong",
@@ -36,5 +35,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01283"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "21B Brown Street, Tai Hang"
+      },
+      "googleMapsPlaceId": "ChIJBfj8T6sBBDQRL1EkkADgjCs"
+    }
   ]
 }

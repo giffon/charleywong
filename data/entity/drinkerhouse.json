@@ -15,9 +15,16 @@
           "Retail Company"
         ],
         "addr": "元朗鳳翔路5號偉發大廈地下04號舖",
-        "area": "Yuen Long Town",
+        "area": "852 21483723 Yuen Long Town",
         "email": "drinkerhouse@gmail.com",
         "tel": "21483723"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/drinkerhouse/",
+      "meta": {
+        "name": "Drinker House 盛酌屋",
+        "about": "專營各類紅白餐酒、汽酒香檳、威士忌、白蘭地、各種利口酒、煙絲雪茄，歡迎查詢問價。"
       }
     }
   ],
@@ -57,5 +64,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00479"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗鳳翔路5號偉發大廈地下04號舖"
+      },
+      "googleMapsPlaceId": "ChIJw4n6P6fwAzQRLVYboB_uYpc"
+    }
   ]
 }

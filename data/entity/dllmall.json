@@ -5,9 +5,6 @@
   },
   "webpages": [
     {
-      "url": "https://dllmall.com"
-    },
-    {
       "url": "https://www.facebook.com/dllmall/",
       "meta": {
         "name": "DLLMall",
@@ -19,6 +16,12 @@
           "Printing Service"
         ],
         "email": "cs@dllmall.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/dllmall/",
+      "meta": {
+        "name": "DLLMall"
       }
     }
   ],
@@ -53,6 +56,7 @@
     }
   ],
   "tags": [
-    "clothing"
+    "clothing",
+    "printing"
   ]
 }

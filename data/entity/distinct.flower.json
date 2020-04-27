@@ -6,19 +6,25 @@
   "webpages": [
     {
       "meta": {
+        "name": "棋葩",
         "id": "2332309223758413",
-        "about": "愉快桌遊 尋找真我\n\n專人教授Board Game...\n\n\nSee more",
+        "about": "愉快桌遊 尋找真我\n\n專人教授Board Game\n有空間享受Board Game\n\n2019年6月1日成立",
         "categories": [
-          "Games/toys",
-          "Board game",
-          "Product/service"
+          "Games/Toys",
+          "Board Game",
+          "Product/Service"
         ],
-        "addr": "太古仁孚工業大廈817室",
-        "area": "Hong Kong",
         "email": "distinct.flower@gmail.com",
         "tel": "97991064"
       },
       "url": "https://www.facebook.com/distinct.flower/"
+    },
+    {
+      "url": "https://www.instagram.com/distinct.f/",
+      "meta": {
+        "name": "棋葩",
+        "about": "「愉快桌遊 尋找真我」\n太古千呎桌遊樂園，過百款精選桌遊，精彩有趣。\n放學放工後，想約三五知己一聚？鄰近太古地鐵站，方便港島人碰頭。\n想要好玩又深刻的親子活動？專人教授桌遊，讓你能專注與子女互動。\n包場活動，歡迎查詢。\n想了解就WhatsApp#97991064"
+      }
     }
   ],
   "posts": [
@@ -35,5 +41,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00200"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港太古仁孚工業大廈817室"
+      },
+      "googleMapsPlaceId": "ChIJy4w-ik8BBDQR2rhh57ptJ10"
+    }
   ]
 }

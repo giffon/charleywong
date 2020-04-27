@@ -7,15 +7,23 @@
   "webpages": [
     {
       "meta": {
+        "name": "點鍋 Dim Woo",
+        "id": "847668202258287",
         "about": "任飲任食靚料火鍋放題",
         "categories": [
-          "Buffet restaurant",
-          "Hot pot restaurant"
+          "Hot Pot Restaurant",
+          "Buffet Restaurant"
         ],
-        "tel": "62010077",
-        "id": "847668202258287"
+        "tel": "62010077"
       },
       "url": "https://www.facebook.com/dimwoohk/"
+    },
+    {
+      "url": "https://www.instagram.com/dimwoohk/",
+      "meta": {
+        "name": "點鍋 Dim Woo",
+        "about": "📍旺角兆萬中心3樓301號\n☎️ 62010077"
+      }
     }
   ],
   "posts": [
@@ -34,5 +42,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01588"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角兆萬中心3樓301號"
+      },
+      "googleMapsPlaceId": "ChIJZxyg390BBDQRVuzQeEbZPAw"
+    }
   ]
 }

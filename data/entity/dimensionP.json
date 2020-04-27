@@ -5,22 +5,33 @@
   },
   "webpages": [
     {
-      "url": "http://www.dimensionplus.co"
+      "url": "https://www.dimensionplus.co"
     },
     {
       "meta": {
+        "name": "Dimension Plus",
         "id": "346159767337",
         "about": "Dimension Plus，香港和台北雙城新媒體藝術團隊，融合數位與實體，信仰實體世界的存在感，將數位資料轉化為可觸摸的質感，連結數位與實體的兩個異質世界，創造數位和類比複合的作品。",
         "categories": [
-          "Local service",
-          "Computer company"
+          "Local Service",
+          "Computer Company"
         ],
         "addr": "G/F, 186 Tai Nan Street, Shum Shui Po, Kowloon, Hong Kong",
-        "area": "Kowloon, Hong Kong",
+        "area": "852 Kowloon, Hong Kong",
         "email": "info@dimensionplus.co",
         "tel": "34836225"
       },
       "url": "https://www.facebook.com/dimensionP/"
+    },
+    {
+      "url": "https://www.instagram.com/dimension_plus/",
+      "meta": {
+        "name": "Dimension Plus",
+        "about": "Art, Design, Curate\nFocus on New Media\nHong Kong | Taiwan"
+      }
+    },
+    {
+      "url": "http://dimensionplus.co"
     }
   ],
   "posts": [
@@ -30,5 +41,13 @@
   ],
   "tags": [
     "artist"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, 186 Tai Nan Street, Shum Shui Po, Kowloon, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJH2qMI7QABDQRsl7wNhjjSis"
+    }
   ]
 }

@@ -12,7 +12,9 @@
         "id": "113279465364489",
         "about": "位於旺角金魚街的甲蟲專門店，供應世界不同品種的甲蟲成蟲幼蟲，日本專業級飼養用品及專業店長為介紹甲蟲生態。另承接學校甲蟲班或甲蟲講座，歡迎屋苑或團體查詢。",
         "categories": [
-          "Pet Service"
+          "Pet Service",
+          "Pet Store",
+          "Museum"
         ],
         "addr": "香港九龍旺角旺角道30-36號寶安大廈2樓B室",
         "area": "Hong Kong",
@@ -78,5 +80,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00275"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍旺角旺角道30-36號寶安大廈2樓B室"
+      },
+      "googleMapsPlaceId": "ChIJs2k7UsgABDQRUIue7Np4oWU"
+    }
   ]
 }

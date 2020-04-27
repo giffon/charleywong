@@ -9,16 +9,24 @@
     },
     {
       "meta": {
+        "name": "Difference Production",
         "id": "164568483625017",
         "about": "Difference Production provides a range of photography & video services, we have over 10 years experience working on fashion, editorial, advertising & wedding projects. We sincerely provide creative solutions to fulfill & satisfy your needs.",
         "categories": [
-          "Photography & videography"
+          "Photography Videography"
         ],
         "addr": "6 Sun Yip St, Chai Wan, Hong Kong",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "info@difference.com.hk"
       },
       "url": "https://www.facebook.com/differenceHK/"
+    },
+    {
+      "url": "https://www.instagram.com/difference_production/",
+      "meta": {
+        "name": "Difference Production",
+        "about": "Difference Production have over 10 years experience working on fashion, editorial, advertising & wedding projects.\n@henrylamck\n📱Henry📱>>97822567☎️"
+      }
     }
   ],
   "posts": [
@@ -28,6 +36,15 @@
   ],
   "tags": [
     "photographer",
-    "wedding"
+    "wedding",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "6 Sun Yip St, Chai Wan, Hong Kong"
+      },
+      "googleMapsPlaceId": "EiE2IFN1biBZaXAgU3QsIENoYWkgV2FuLCBIb25nIEtvbmciMBIuChQKEgm7Cc3jLgIENBHHTxIO4m2uiRAGKhQKEgmbZU_BLgIENBECtYQjM7lRaQ"
+    }
   ]
 }

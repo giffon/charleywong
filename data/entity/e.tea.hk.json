@@ -14,7 +14,7 @@
           "Local Business"
         ],
         "addr": "香港荔枝角美孚新村二期吉利徑49號E2 地鋪",
-        "area": "Kowloon, Hong Kong",
+        "area": "852 Kowloon, Hong Kong",
         "email": "e.tea.hongkong@gmail.com",
         "tel": "91264865"
       },
@@ -50,5 +50,25 @@
     "Y_EAT00262",
     "Y_EAT00263",
     "Y_EAT00264"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍美孚新邨吉利徑49E2號地舖"
+      },
+      "googleMapsPlaceId": "ChIJQ-SIsZ_5AzQRW6lK0tnWX6g"
+    },
+    {
+      "address": {
+        "zh": "天水圍天靖街3號天盛商場M419地舖"
+      },
+      "googleMapsPlaceId": "ChIJ98IDyZ_xAzQRJZcn_AIGga4"
+    },
+    {
+      "address": {
+        "zh": "屯門悦湖山莊商埸地下110號地舖"
+      },
+      "googleMapsPlaceId": "ChIJBcLpe_L7AzQRdAtiag-1VKU"
+    }
   ]
 }
