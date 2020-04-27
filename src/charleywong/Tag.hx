@@ -557,4 +557,44 @@ class Tag {
             zh: "護膚品"
         }
     }
+
+    static public final japanese:TagData = {
+        name: {
+            en: "japanese",
+            zh: "日式"
+        }
+    }
+
+    static public final noodle:TagData = {
+        name: {
+            en: "noodle",
+            zh: "麵"
+        },
+        inherits: [
+            "food"
+        ]
+    }
+
+    static public final sushi:TagData = {
+        name: {
+            en: "sushi",
+            zh: "壽司"
+        },
+        inherits: [
+            "japanese",
+            "food"
+        ]
+    }
+
+    static public final bar:TagData = {
+        name: {
+            en: "bar",
+            zh: "酒吧"
+        },
+        inherits: [
+            "food"
+        ]
+    }
+
+    
 }
