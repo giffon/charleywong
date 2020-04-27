@@ -1,23 +1,31 @@
 {
-  "id": "d2worshop",
+  "id": "d2workshop",
   "name": {
     "en": "D2 Workshop"
   },
   "webpages": [
     {
       "meta": {
+        "name": "D2 Workshop",
         "id": "1176145549077475",
         "about": "D2 Workshop is based in Hong Kong. We treat ourself as the people take good care of the after life of wood piece. And we made lots of custom made goods.",
         "categories": [
-          "Arts and crafts shop",
+          "Arts & Crafts Store",
           "Contractor"
         ],
         "addr": "Room 307, 3/F., Leader Industrial Centre, 57-59 Au Pui Wan Street, Shatin, N.T.",
-        "area": "Hong Kong",
+        "area": "- Hong Kong",
         "email": "dsquarepro@gmail.com",
         "tel": "96729472"
       },
       "url": "https://www.facebook.com/d2worshop/"
+    },
+    {
+      "url": "https://www.instagram.com/d2workshop/",
+      "meta": {
+        "name": "Dou-Gea Wong",
+        "about": "#woodworker"
+      }
     }
   ],
   "posts": [
@@ -26,6 +34,19 @@
     }
   ],
   "tags": [
-    "woodworking"
+    "woodworking",
+    "furniture",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room 307, 3/F., Leader Industrial Centre, 57-59 Au Pui Wan Street, Shatin, N.T."
+      },
+      "googleMapsPlaceId": "ChIJ07YsvDQGBDQRmlTSOdgPdDo"
+    }
+  ],
+  "alias": [
+    "d2worshop"
   ]
 }
