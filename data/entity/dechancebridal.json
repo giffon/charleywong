@@ -9,19 +9,26 @@
     },
     {
       "meta": {
+        "name": "De Chance Bridal",
         "id": "513379525412275",
         "about": "De Chance Bridal 提供一站式婚禮服務，包括租借婚紗晚裝、媽媽衫、專業新娘化妝服務、宴會化妝、婚禮拍攝、香港以及海外婚紗攝影。\n歡迎inbox/whatspp查詢及預約：98400078",
         "categories": [
-          "Bridal shop",
-          "Photography & videography",
-          "Wedding planning service"
+          "Bridal Shop",
+          "Photography Videography"
         ],
         "addr": "荔枝角青山道668-680號W668大廈 9樓07室",
-        "area": "Hong Kong",
+        "area": "852 98400078 Hong Kong",
         "email": "dechanceconcept@gmail.com",
         "tel": "98400078"
       },
       "url": "https://www.facebook.com/dechancebridal/"
+    },
+    {
+      "url": "https://www.instagram.com/dechancebridal/",
+      "meta": {
+        "name": "De Chance Bridal",
+        "about": "Rental 👰🏻🤵🏻︱Makeup 💅🏻︱Photographer 📸📹\nTel / whatsapp: 98400078 / DM\nAddress: Unit 07, 9/F, W668, 668-680 Castle Peak Road, Lai Chi Kok (MTR Exit B)"
+      }
     }
   ],
   "posts": [
@@ -34,5 +41,13 @@
     "bridal",
     "photographer",
     "makeup"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荔枝角青山道668-680號W668大廈 9樓07室"
+      },
+      "googleMapsPlaceId": "ChIJcZoGf2wHBDQRg_Ck56Mv6qM"
+    }
   ]
 }

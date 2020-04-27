@@ -10,16 +10,25 @@
     },
     {
       "meta": {
+        "name": "味角 DeliCorner",
         "id": "355482705234164",
         "about": "1. 匯聚灣仔藍屋一帶的街坊。\n2. 製作的食品是美味與健康一體\n3. 合理的價錢,有水準的質素。\n4. 齊心用心關心愛心著每一個本店成員。",
         "categories": [
-          "Barbecue restaurant"
+          "Barbecue Restaurant"
         ],
         "addr": "灣仔堅彌地街1A號景星樓地下8號舖",
         "area": "Hong Kong",
-        "email": "delicorner0819@gmail.com"
+        "email": "delicorner0819@gmail.com",
+        "tel": "26688384"
       },
       "url": "https://www.facebook.com/delicorner.hk/"
+    },
+    {
+      "url": "https://www.instagram.com/delicorner.hk/",
+      "meta": {
+        "name": "味角 Delicorner",
+        "about": "🇯🇵日式鐵板串燒專門店 Teppanyaki Specialist\n⏰營業時間時間: 1100-2130⏰\n歡迎Whatsapp預約/查詢: 51145975\n🍱定食套餐 🍢串燒炸物 🍹消暑飲品 🍵滋潤糖水"
+      }
     }
   ],
   "posts": [
@@ -35,5 +44,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00314"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "灣仔堅彌地街1A號景星樓地下8號舖"
+      },
+      "googleMapsPlaceId": "ChIJGzc0epIBBDQRC_6mU1Dp2Bo"
+    }
   ]
 }
