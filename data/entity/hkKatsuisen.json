@@ -54,7 +54,21 @@
     }
   ],
   "tags": [
-    "food"
+    "sushi"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "西環石塘咀皇后大道西503號地下"
+      },
+      "googleMapsPlaceId": "ChIJ20uMn4T_AzQRkxYxR2A6Ek4"
+    },
+    {
+      "address": {
+        "zh": "北角錦屏街21號東發大廈A座地下"
+      },
+      "googleMapsPlaceId": "ChIJ7fhlVQQBBDQRiGYNocwByxo"
+    }
   ],
   "yellowBlueMapIds": [
     "Y_EAT00192",
