@@ -124,7 +124,7 @@ class View extends ReactComponent {
             <div className="content">
                 ${bodyContent()}
             </div>
-            <div className="mt-3 mt-md-5 container-intro text-center">
+            <div className="mt-3 mt-md-5 container-intro text-center color_black_o60">
                 <h3 className="pt-5">Charley 其實係咩?</h3>
                 
                 <div className="container d-md-flex">
@@ -151,6 +151,8 @@ class View extends ReactComponent {
                         </div>
                     
                 </div>
+
+                <h5 className="py-5">Charley 現時搜集咗 ${ServerMain.entityIndex.entities.filter(e -> e.posts.length > 0).count()} 項資料，並持續增加中<br/><a href="/list/all">睇晒完整目錄</a></h5>
             </div>
             <div className="mt-5 container">
                 <div className="d-md-flex color_black_o60">
