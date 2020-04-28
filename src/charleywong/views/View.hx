@@ -152,7 +152,7 @@ class View extends ReactComponent {
                     
                 </div>
 
-                <h5 className="py-5">Charley 現時搜集咗 ${ServerMain.entityIndex.entities.filter(e -> e.posts.length > 0).count()} 項資料，並持續增加中<br/><a href="/list/all">睇晒完整目錄</a></h5>
+                <h5 className="py-5">Charley 現時收錄咗 ${ServerMain.entityIndex.entities.filter(e -> e.posts.length > 0).count()} 項資料，並持續增加中<br/><a href="/list/all">睇晒完整目錄</a></h5>
             </div>
             <div className="mt-5 container">
                 <div className="d-md-flex color_black_o60">
