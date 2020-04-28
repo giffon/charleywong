@@ -5,15 +5,13 @@
   },
   "webpages": [
     {
-      "url": "https://www.openrice.com/zh/hongkong/r-%E6%B7%BB%E7%A6%8F%E5%B0%8F%E9%A3%9F-%E6%B7%B1%E6%B0%B4%E5%9F%97-%E6%B8%AF%E5%BC%8F-%E6%BC%A2%E5%A0%A1%E5%8C%85-r452956"
-    },
-    {
       "meta": {
+        "name": "添福小食",
         "id": "838899286156738",
         "categories": [
-          "Fast food restaurant",
-          "Diner",
-          "Food stall"
+          "Food Stand",
+          "Fast Food Restaurant",
+          "Diner"
         ],
         "addr": "九龍長沙灣道80-82號文海樓地下A1鋪",
         "area": "Hong Kong",
@@ -36,5 +34,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00042"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍長沙灣道80-82號文海樓地下A1鋪"
+      },
+      "googleMapsPlaceId": "ChIJkfz5r7UABDQRWNBiRrcpNBE"
+    }
   ]
 }
