@@ -5,20 +5,31 @@
   },
   "webpages": [
     {
+      "url": "https://www.vwlink.net"
+    },
+    {
       "meta": {
-        "about": "台灣校園書房出版社港澳總代理；\n\n德慧文化荃灣站書店...\n\n\n\n\n\nSee more",
+        "name": "德慧文化圖書有限公司",
+        "id": "194580454090",
+        "about": "台灣校園書房出版社港澳總代理；\n\n德慧文化荃灣站書店\n香港新界荃灣青山公路264-298號\n南豐中心19樓08室\n\n總辨事處及貨倉\n香港新界荃灣橫窩仔街2-8號\n永桂第三工業大廈2樓B室",
         "categories": [
           "Publisher",
-          "Independent book shop",
-          "Christian church"
+          "Christian Church",
+          "Independent Bookstore"
         ],
-        "addr": "香港新界荃灣橫窩仔街2-8號",
+        "addr": null,
         "area": "Hong Kong",
         "email": "info@vwlink.net",
-        "tel": "24074000",
-        "id": "194580454090"
+        "tel": "24074000"
       },
       "url": "https://www.facebook.com/vwlink.net/"
+    },
+    {
+      "url": "https://www.instagram.com/vwlink.hk/",
+      "meta": {
+        "name": "德慧文化",
+        "about": "以閱讀更新文化　讓生活踐行信仰\n📚 荃灣南豐中心19樓1908室\nPlease check out our new books👇🏼"
+      }
     }
   ],
   "posts": [
@@ -29,5 +40,13 @@
   "tags": [
     "book",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣南豐中心19樓1908室"
+      },
+      "googleMapsPlaceId": "ChIJ1WEtb_L4AzQRG1J6YgEDR6o"
+    }
   ]
 }
