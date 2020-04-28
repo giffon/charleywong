@@ -32,7 +32,11 @@
       }
     }
   ],
-  "tags": ["food","japanese","bar"],
+  "tags": [
+    "food",
+    "japanese",
+    "bar"
+  ],
   "places": [
     {
       "address": {
@@ -40,5 +44,8 @@
       },
       "googleMapsPlaceId": "ChIJ87BjDroABDQRxpYnUF9qA5Y"
     }
+  ],
+  "yellowBlueMapIds": [
+    "Y_EAT00485"
   ]
 }

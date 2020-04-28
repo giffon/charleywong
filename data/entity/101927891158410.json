@@ -61,7 +61,9 @@
       }
     }
   ],
-  "tags": ["sushi"],
+  "tags": [
+    "sushi"
+  ],
   "places": [
     {
       "address": {
@@ -69,5 +71,8 @@
       },
       "googleMapsPlaceId": "ChIJ_y6WG8oABDQROcrBIo0iW3M"
     }
+  ],
+  "yellowBlueMapIds": [
+    "Y_EAT00767"
   ]
 }
