@@ -5,6 +5,20 @@
   },
   "webpages": [
     {
+      "url": "https://www.facebook.com/104700121230413/",
+      "meta": {
+        "name": "Binary Digitals CWB",
+        "id": "104700121230413",
+        "about": "日韓手機配件產品",
+        "categories": [
+          "Shopping & Retail"
+        ],
+        "addr": "Shop137/138/146, 1/F, 銅鑼灣地帶, 記利佐治街2號",
+        "area": "+852 Hong Kong",
+        "email": "binarydigitalscwb@gmail.com"
+      }
+    },
+    {
       "url": "https://www.facebook.com/binarydigitals/",
       "meta": {
         "name": "Binary Digitals",
@@ -14,7 +28,8 @@
           "Electronics"
         ],
         "email": "binarydigitals@gmail.com"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.instagram.com/binarydigitals/",
@@ -25,30 +40,8 @@
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/binarydigitals/photos/a.1705873902986225/2331763160397293",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=105064657860626&id=104700121230413",
       "meta": {
-        "utime": "1560237740",
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/binarydigitals/posts/2499000140340260",
-      "meta": {
-        "utime": "1577783469",
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/binarydigitals/posts/2517212765185664",
-      "meta": {
-        "utime": "1579316979",
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/binarydigitals/photos/a.1705873902986225/2369652436608365",
-      "meta": {
-        "utime": "1564936111",
         "sharedWith": "Public"
       }
     }
@@ -59,5 +52,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00403"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "Shop137/138/146, 1/F, 銅鑼灣地帶, 記利佐治街2號"
+      },
+      "googleMapsPlaceId": "ChIJt-Ekn1YABDQRx8LAJcs27a4"
+    }
   ]
 }
