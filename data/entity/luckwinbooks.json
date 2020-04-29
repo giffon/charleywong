@@ -6,28 +6,52 @@
   "webpages": [
     {
       "meta": {
-        "about": "旺角西洋菜街62號3樓\n(旺角港鐵站 E出口 銀行中心)\nemail：luckwinbooks@gmail.com...\n\n\n\n\n\nSee more",
+        "name": "樂文書店（旺角總店）",
+        "id": "1548511912060938",
+        "about": "旺角西洋菜街62號3樓 \n(旺角港鐵站 E出口 銀行中心)\nemail：luckwinbooks@gmail.com\nWhatsapp / PayMe：852 98206379\nInstagram：@luckwinbookstore",
         "categories": [
-          "Book shop"
+          "Bookstore"
         ],
         "email": "luckwinbooks@gmail.com",
-        "id": "1548511912060938"
+        "tel": "23903723"
       },
       "url": "https://www.facebook.com/luckwinbooks/"
     },
     {
+      "url": "https://www.facebook.com/546472148708120/",
       "meta": {
-        "about": "旺角西洋菜街62號3樓\n(旺角港鐵站 E出口 銀行中心)\nemail: luckwinbooks@gmail.com",
+        "name": "樂文書店-銅鑼灣",
+        "id": "546472148708120",
+        "about": "台版書7折起\n港版書8折起\n<訂購服務>",
         "categories": [
-          "Independent book shop",
-          "Book"
+          "Bookstore"
         ],
-        "addr": "旺角西洋菜街62號三樓",
-        "area": "Hong Kong",
+        "addr": "香港銅鑼灣駱克道506號2/F",
+        "area": "852 Hong Kong",
+        "email": "luckwinbs@gmail.com",
+        "tel": "28811150"
+      }
+    },
+    {
+      "meta": {
+        "name": "旺角樂文書店選書",
+        "id": "118481291500326",
+        "about": "旺角西洋菜街62號3樓\n(旺角港鐵站 E出口 銀行中心)\nemail: luckwinbooks@gmail.com\nWhatsapp / PayMe：852 98206379\nInstagram：@luckwinbookstore",
+        "categories": [
+          "Book",
+          "Independent Bookstore"
+        ],
         "email": "luckwinbooks@gmail.com",
-        "id": "118481291500326"
+        "tel": "23903723"
       },
       "url": "https://www.facebook.com/LuckWinBookStore/"
+    },
+    {
+      "url": "https://www.instagram.com/luckwinbookstore/",
+      "meta": {
+        "name": "樂文書店（旺角）",
+        "about": "@luckwinbookstore 抗疫營業時間 11:00am ～ 7:00pm"
+      }
     }
   ],
   "posts": [
@@ -40,6 +64,21 @@
     "shop"
   ],
   "yellowBlueMapIds": [
+    "Y_SHOP00530",
     "Y_SHOP00531"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角西洋菜街62號3樓"
+      },
+      "googleMapsPlaceId": "ChIJuQcQtscABDQRd-weUoFL8EU"
+    },
+    {
+      "address": {
+        "zh": "香港銅鑼灣駱克道506號2/F"
+      },
+      "googleMapsPlaceId": "ChIJQ4Wx51YABDQRnNESiKWqovk"
+    }
   ]
 }
