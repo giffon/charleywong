@@ -1,15 +1,18 @@
 {
   "id": "ramenbetsu",
   "name": {
-    "zh": "博多拉麵別天神"
+    "zh": "博多拉麵別天神",
+    "en": "Betsutenjin"
   },
   "webpages": [
     {
-      "url": "http://www.ramenbetsu.com"
+      "url": "https://www.ramenbetsu.com"
     },
     {
       "meta": {
+        "name": "博多拉麵別天神",
         "id": "2539626856177670",
+        "about": "豚骨湯的材料亦只有大量的『豬骨』和『水』兩種，因此絕不含任何味精、防腐劑或奶類製品。",
         "categories": [
           "Ramen Restaurant"
         ],
@@ -20,7 +23,35 @@
       "url": "https://www.facebook.com/ramenbetsu/"
     },
     {
-      "url": "https://www.instagram.com/ramen_betsu/"
+      "url": "https://www.facebook.com/betsutenjin.ramen/",
+      "meta": {
+        "name": "博多拉麵別天神",
+        "id": "406484296110202",
+        "categories": [
+          "Ramen Restaurant",
+          "Diner"
+        ],
+        "addr": "銅鑼灣告士打道277號地鋪",
+        "area": "Causeway Bay",
+        "email": "betsutenjin@gmail.com",
+        "tel": "34882693"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/ramen_betsu/",
+      "meta": {
+        "name": "BETSUTENJIN🍲博多拉麵 × 別天神🍥",
+        "about": "超濃，經常被人誤會加咗奶，好豬骨嘅豬骨湯(￣∇￣)\n📍Based in HK🔥USA🔥FRANCE🔥AUS\n📍##博多拉麵別天神分店地址🆕\n🈺12:00-15:30PM / 18:00- 22:30PM (銅鑼灣及旺角店營業至 12:30AM)\n約定劵(前売劵)傳送門\n⬇️⬇️⬇️⬇️⬇️"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/betsutenjin.ramen/",
+      "meta": {
+        "name": "博多拉麵別天神",
+        "about": "地址:\n銅鑼灣 告士打道277號 地下3A號舖 (世貿中心海旁)\n尖沙嘴 亞士厘道24號 天星大廈A1地舖\n時間: 12:00-15:30; 18:00-00:30"
+      },
+      "hidden": true
     }
   ],
   "posts": [
@@ -49,5 +80,61 @@
     "Y_EAT00250",
     "Y_EAT01561",
     "Y_EAT00251"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "鰂魚涌康山道1-2號AEON STYLE康怡2樓L202號店"
+      },
+      "googleMapsPlaceId": "ChIJ6Xqpr3QBBDQRp_gD8Ri5zVI"
+    },
+    {
+      "address": {
+        "zh": "北角書局街22號地下"
+      },
+      "googleMapsPlaceId": "ChIJY0WoTtgBBDQR-mluaIEJHPA"
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣告士打道277號地下"
+      },
+      "googleMapsPlaceId": "ChIJS2_gWVYABDQRNHUxrQgCzKE"
+    },
+    {
+      "address": {
+        "zh": "中環擺花街12-16號合成商業大廈地下"
+      },
+      "googleMapsPlaceId": "ChIJ2S0iY10BBDQRz6l0lfEhu3Q"
+    },
+    {
+      "address": {
+        "zh": "尖沙咀阿士厘道24號天星大廈地下"
+      },
+      "googleMapsPlaceId": "ChIJU8dYgPIABDQRqPSKdZI5L3I"
+    },
+    {
+      "address": {
+        "zh": "尖沙咀彌敦道100號THE ONE LG1樓"
+      },
+      "googleMapsPlaceId": "ChIJowmpG3UBBDQRuvewipNTKIY"
+    },
+    {
+      "address": {
+        "zh": "紅磡民泰街6號地下"
+      },
+      "googleMapsPlaceId": "ChIJM46i7xkBBDQR5HpM_ZGz-kg"
+    },
+    {
+      "address": {
+        "zh": "旺角山東街40Q地下"
+      },
+      "googleMapsPlaceId": "ChIJo5NzYMcBBDQRO94PJJRU0B0"
+    },
+    {
+      "address": {
+        "en": "954 E. Union St., Suite 102, Seattle, WA 98122"
+      },
+      "googleMapsPlaceId": "ChIJISfOEcxqkFQRgL7X1kMrKLk"
+    }
   ]
 }
