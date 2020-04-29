@@ -596,5 +596,12 @@ class Tag {
         ]
     }
 
+    static public final vegeterian:TagData = {
+        name: {
+            en: "vegeterian",
+            zh: "蛋奶素"
+        }
+    }
+
     
 }
