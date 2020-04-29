@@ -1,0 +1,64 @@
+{
+  "id": "LogosBookHouse",
+  "name": {
+    "zh": "基道書樓",
+    "en": "Logos Book House"
+  },
+  "webpages": [
+    {
+      "url": "https://www.logos.com.hk"
+    },
+    {
+      "url": "https://www.facebook.com/LogosBookHouse/",
+      "meta": {
+        "name": "基道書樓 Logos Book House",
+        "id": "427657687342751",
+        "about": "為你提供最新的基督教書籍資訊，讓閱讀拓展我們的視界。",
+        "categories": [
+          "Religious Bookstore",
+          "Gift Shop"
+        ],
+        "addr": "10/F, Mongkok Christian Centre, 56 Bute Street, Mongkok",
+        "area": ";15/F, Congregation House, 119 Leighton Road, Causeway Bay, Hong Kong Island Mong Kok",
+        "email": "bookhouse@logos.com.hk",
+        "tel": "23963528"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/LogosBookHouse/posts/2059577474150756",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/LogosBookHouse/posts/2147784551996714",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "book",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍旺角弼街56號基督教大樓10樓"
+      },
+      "googleMapsPlaceId": "ChIJ_8K4QMgABDQRlPMsfkL7C4k"
+    },
+    {
+      "address": {
+        "zh": "香港銅鑼灣禮頓道119號公理堂大樓15樓"
+      },
+      "googleMapsPlaceId": "ChIJh_RC-lMABDQRV4K22oxrbKQ"
+    }
+  ],
+  "yellowBlueMapIds": [
+    "Y_SHOP00155",
+    "Y_SHOP00156"
+  ]
+}
