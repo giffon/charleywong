@@ -30,7 +30,6 @@ class EntityIndex {
         #end
     }
 
-    #if sys
     static public function loadFromDirectory(path:String, ?serializedIndexPath:String):EntityIndex {
         var entities = new Map();
         for (item in FileSystem.readDirectory(path)) {
@@ -55,7 +54,6 @@ class EntityIndex {
             }
         );
     }
-    #end
 
     macro static public function embedFromDirectory(path:String):ExprOf<EntityIndex> {
         var exprs = [
