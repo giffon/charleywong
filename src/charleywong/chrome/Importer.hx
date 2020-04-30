@@ -203,14 +203,14 @@ class Importer {
             throw '只可以在 about page 輸入 Facebook 專頁';
         }
 
-        var id = fbId();
-
         return Promise.all([
+            fbId(),
             fbAbout(),
             fbTel(),
         ]).then(function(infos) {
-            var about = infos[0];
-            var tel = infos[1];
+            var id = infos[0];
+            var about = infos[1];
+            var tel = infos[2];
             return {
                 url: 'https://www.facebook.com/$handle/',
                 handle: handle.endsWith("-" + id) ? id : handle,
@@ -269,30 +269,19 @@ class Importer {
         postToServer(profile);
     }
 
-    static function fbId():String {
-        var elems = document.getElementsByXPath("//div[starts-with(@id, 'PagesProfileAboutInfoPagelet_')]");
-
-        // new FB layout?
-        if (elems.length == 0) {
-            var idRegexp = ~/"page":{"id":"([0-9]+)"/;
-            for (script in document.getElementsByTagName("script")) {
-                var content = script.innerText;
+    static function fbId():Promise<String> {
+        return window.fetch(Std.string(document.location), {
+            cache: FORCE_CACHE,
+        })
+            .then(response -> response.text())
+            .then(content -> {
+                var idRegexp = ~/"page":{"id":"([0-9]+)"/;
                 if (idRegexp.match(content)) {
                     return idRegexp.matched(1);
+                } else {
+                    return null;
                 }
-            }
-            throw 'Cannot find "page":{"id":"([0-9]+)" in scripts.';
-        }
-
-        if (elems.length != 1)
-            throw 'There are ${elems.length} #PagesProfileAboutInfoPagelet_*.';
-
-        var e = elems[0];
-        var regexp = ~/^PagesProfileAboutInfoPagelet_([0-9]+)$/;
-        if (regexp.match(e.id))
-            return regexp.matched(1);
-        else
-            throw 'Unknown PagesProfileAboutInfoPagelet_ ID format ${e.id}.';
+            });
     }
 
     static function fbName():String {
