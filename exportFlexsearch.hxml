@@ -8,4 +8,5 @@
 --class-path lib/hxnodelibs
 -D react_ver=16.12
 -D react_fragments
+-D export-flexsearch
 --cmd node exportFlexsearch.js

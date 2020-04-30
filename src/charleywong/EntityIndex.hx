@@ -30,6 +30,7 @@ class EntityIndex {
         #end
     }
 
+    #if nodejs
     static public function loadFromDirectory(path:String, ?serializedIndexPath:String):EntityIndex {
         var entities = new Map();
         for (item in FileSystem.readDirectory(path)) {
@@ -54,6 +55,7 @@ class EntityIndex {
             }
         );
     }
+    #end
 
     macro static public function embedFromDirectory(path:String):ExprOf<EntityIndex> {
         var exprs = [
@@ -186,6 +188,7 @@ class EntityIndex {
         f;
     };
 
+    #if export_flexsearch
     static function main():Void {
         if (FileSystem.exists(ServerMain.exportedFlexsearch)) {
             Sys.println('${ServerMain.exportedFlexsearch} already exists, remove it first?');
@@ -194,5 +197,6 @@ class EntityIndex {
         var exported = ServerMain.entityIndex.flexsearch.export();
         File.saveContent(ServerMain.exportedFlexsearch, exported);
     }
+    #end
     #end
 }
