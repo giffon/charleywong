@@ -603,5 +603,70 @@ class Tag {
         }
     }
 
+    static public final handcraft:TagData = {
+        name: {
+            en: "handcraft",
+            zh: "手造"
+        }
+    }
+
+    static public final thai:TagData = {
+        name: {
+            en: "thai",
+            zh: "泰式"
+        }
+    }
+
+    static public final korean:TagData = {
+        name: {
+            en: "korean",
+            zh: "韓式"
+        }
+    }
+
+    static public final taiwanese:TagData = {
+        name: {
+            en: "taiwanese",
+            zh: "台式"
+        }
+    }
+
+    static public final farm:TagData = {
+        name: {
+            en: "farm",
+            zh: "農場"
+        }
+    }
+
+    static public final cake:TagData = {
+        name: {
+            en: "cake",
+            zh: "蛋糕"
+        },
+        inherits: [
+            "food"
+        ]
+    }
+
+    static public final cafe:TagData = {
+        name: {
+            en: "cafe",
+            zh: "咖啡店"
+        }
+    }
+
+    static public final foodStore:TagData = {
+        name: {
+            en: "food store",
+            zh: "食材店"
+        }
+    }
+
+    static public final hiking:TagData = {
+        name: {
+            en: "hiking",
+            zh: "行山"
+        }
+    }
     
 }
