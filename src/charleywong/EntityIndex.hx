@@ -30,7 +30,7 @@ class EntityIndex {
         #end
     }
 
-    #if nodejs
+    #if sys
     static public function loadFromDirectory(path:String, ?serializedIndexPath:String):EntityIndex {
         var entities = new Map();
         for (item in FileSystem.readDirectory(path)) {
