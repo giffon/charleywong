@@ -160,9 +160,9 @@ class ExportSpreadsheet {
                 for (row in rows) {
                     switch (entityIndex.entitiesOfId[row.id]) {
                         case null:
-                            throw 'There is no entity of id ${row.id}';
+                            trace('There is no entity of id ${row.id}');
                         case e:
-                            var tags = row.tags.split(" ");
+                            var tags = ~/ +/.split(row.tags);
                             var existing = Tag.expend(e.tags);
                             var newTags = [
                                 for (t in tags)
