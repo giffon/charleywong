@@ -6,12 +6,10 @@
   },
   "webpages": [
     {
-      "url": "http://www.tenaz.com.hk"
-    },
-    {
       "meta": {
+        "name": "三叔電器 Uncle 3",
         "id": "304444816356711",
-        "about": "主打各類掛架，電視及周邊配件\n另可代訂各類家庭電器\n地址：荃灣西樓角道138-166號, 荃豐中心商場, 地下A43號鋪\n\n查詢熱線：3105 0502",
+        "about": "主打各類掛架，電視及周邊配件\n另可代訂各類家庭電器\n地址：荃灣西樓角道138-166號, 荃豐中心商場, 地下A43號鋪 \n\n查詢熱線：3105 0502",
         "categories": [
           "Electronics"
         ],
@@ -37,5 +35,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01822"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣西樓角道138-166號, 荃豐中心商場, 地下A43號鋪"
+      },
+      "googleMapsPlaceId": "ChIJh0Y8W-34AzQRQABgERzUh0g"
+    }
   ]
 }
