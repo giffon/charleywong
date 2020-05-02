@@ -5,12 +5,10 @@
   },
   "webpages": [
     {
-      "url": "https://www.openrice.com/zh/hongkong/r-jk-brother-s-%E5%B0%96%E6%B2%99%E5%92%80-%E6%97%A5%E6%9C%AC%E8%8F%9C-%E6%97%A5%E5%BC%8F%E6%94%BE%E9%A1%8C-r611105"
-    },
-    {
       "meta": {
         "name": "JK Brother's日韓放題",
         "id": "304254026673719",
+        "about": "日韓刺身及涮涮鍋放題",
         "categories": [
           "Japanese Restaurant"
         ],
@@ -72,5 +70,13 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01071"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "彌敦道180號寶華商業大廈3樓"
+      },
+      "googleMapsPlaceId": "ChIJbRRb-mUBBDQRE31AjA-F5U8"
+    }
   ]
 }
