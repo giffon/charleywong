@@ -6,17 +6,24 @@
   "webpages": [
     {
       "meta": {
+        "name": "Around Wellington",
         "id": "2234007233322371",
         "about": "Take-Away OMAKASE",
         "categories": [
+          "Restaurant",
           "Lounge"
         ],
-        "email": "aroundwellington.info@gmail.com"
+        "email": "aroundwellington.info@gmail.com",
+        "tel": "54200331"
       },
       "url": "https://www.facebook.com/aroundwellingtonhk/"
     },
     {
-      "url": "https://www.instagram.com/around.wellington/"
+      "url": "https://www.instagram.com/around.wellington/",
+      "meta": {
+        "name": "Around Wellington",
+        "about": "- 光復香港 時代革命 -"
+      }
     }
   ],
   "posts": [
@@ -25,9 +32,18 @@
     }
   ],
   "tags": [
+    "japanese",
     "food"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00317"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "中環威靈頓街154號地舖"
+      },
+      "googleMapsPlaceId": "ChIJneZ17x4BBDQRZk2jDP3Ovrw"
+    }
   ]
 }
