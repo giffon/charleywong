@@ -1,0 +1,54 @@
+{
+  "id": "helloeveryonelaundry",
+  "name": {
+    "zh": "大家好洗衣"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/helloeveryonelaundry/",
+      "meta": {
+        "name": "大家好洗衣",
+        "id": "1593093497650755",
+        "about": "大家好洗衣",
+        "categories": [
+          "Cleaning Service"
+        ],
+        "addr": "九龍深水埗保安道29號地下                    九龍深水埗楓樹街23號地下一號舖",
+        "area": "000000 Hong Kong",
+        "tel": "34822728"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/laundry_co/",
+      "meta": {
+        "name": "大家好洗衣店",
+        "about": "專業洗衣，即日有取，自設工場，價廉物美。\n服務包括：磅洗，乾洗，高溫乾衣，羽絨被，冷氣被 等等...各種工衣收送服務，歡迎Whatsapp 55963672 查詢"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/groups/842956306141338/permalink/930181550752146/"
+    }
+  ],
+  "tags": [
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍深水埗保安道29號地下"
+      },
+      "googleMapsPlaceId": "ChIJ-V-bUOQHBDQR8ZdfDrcL_fs"
+    },
+    {
+      "address": {
+        "zh": "九龍深水埗楓樹街23號地下一號舖"
+      },
+      "googleMapsPlaceId": "ChIJcw9MvbUABDQR0ntZzJxLHic"
+    }
+  ],
+  "yellowBlueMapIds": [
+    "Y_SHOP01263"
+  ]
+}
