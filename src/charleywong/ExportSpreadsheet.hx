@@ -170,9 +170,16 @@ class ExportSpreadsheet {
                                 if (!existing.has(t))
                                 t
                             ];
-                            if (newTags.length > 0) {
+                            var removedTags = [
+                                for (t in Tag.expend(existing))
+                                if (!tags.has(t))
+                                t
+                            ];
+                            if (newTags.length > 0 || removedTags.length > 0) {
                                 for (t in newTags)
                                     e.tags.push(t);
+                                for (t in removedTags)
+                                    e.tags.remove(t);
                                 saveEntity(e, false, false);
                             }
                     }
