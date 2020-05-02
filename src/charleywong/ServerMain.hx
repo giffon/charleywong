@@ -72,11 +72,17 @@ class ServerMain {
     }
 
     static function allJson(req:Request, res:Response) {
-        res.json([
-            for (e in entityIndex.entities)
-            if (e.posts.length > 0)
-            e
-        ]);
+        res.setHeader('Content-Type', 'application/json');
+        res.write("[\n");
+        var n = 0;
+        for (e in entityIndex.entities)
+        if (e.posts.length > 0) {
+            if (++n > 1) {
+                res.write(",\n");
+            }
+            res.write(Json.stringify(e));
+        }
+        res.end("\n]");
     }
 
     static function listEntities(req:Request, res:Response) {
