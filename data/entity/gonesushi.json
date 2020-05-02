@@ -13,7 +13,7 @@
           "Live & Raw Food Restaurant"
         ],
         "addr": "大埔太和翠怡花園地下16號",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "tel": "26566634"
       },
       "url": "https://www.facebook.com/726485677398926/"
@@ -49,7 +49,8 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "alias": [
     "726485677398926",
@@ -59,5 +60,19 @@
     "Y_EAT00978",
     "Y_EAT00979",
     "Y_EAT00980"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔太和翠怡花園地下16號"
+      },
+      "googleMapsPlaceId": "ChIJy1FznzkIBDQROW1mKmod-SI"
+    },
+    {
+      "address": {
+        "zh": "尖沙咀厚福街12-12A號藍馬商業大廈18樓"
+      },
+      "googleMapsPlaceId": "ChIJy8Mtee4ABDQRhJM3bhCYgv4"
+    }
   ]
 }
