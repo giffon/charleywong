@@ -6,7 +6,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.yearshk.com"
+      "url": "https://yearshk.com"
     },
     {
       "url": "https://www.facebook.com/yearshk/",
@@ -21,6 +21,13 @@
         "area": "Kowloon, Hong Kong",
         "email": "info@yearshk.com",
         "tel": "63383719"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/years.hk/",
+      "meta": {
+        "name": "YEARS | 素年",
+        "about": "Plant Based Cafè & General Store. Sham Shui Po, Kowloon, Hong Kong 深水埗福華街191-199號 (深水埗地鐵站D2出口)"
       }
     }
   ],
@@ -56,9 +63,19 @@
   ],
   "tags": [
     "food",
-    "vegeterian"
+    "vegeterian",
+    "cake",
+    "shop"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00132"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "191-199, Fuk Wah Street, Sham Shui Po"
+      },
+      "googleMapsPlaceId": "ChIJgRuFTLMABDQRQ6kBUM9XuSA"
+    }
   ]
 }
