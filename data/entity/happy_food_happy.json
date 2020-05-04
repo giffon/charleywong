@@ -13,7 +13,7 @@
           "Food Stand"
         ],
         "addr": "葵芳葵涌廣場2樓C11a",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "chowhoho114@gmail.com",
         "tel": "56666795"
       },
@@ -46,6 +46,9 @@
   ],
   "places": [
     {
+      "address": {
+        "zh": "葵芳葵涌廣場2樓C11a"
+      },
       "googleMapsPlaceId": "ChIJuUXkt734AzQRuMn99PqEZ64"
     }
   ],
