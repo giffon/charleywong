@@ -1,0 +1,56 @@
+{
+  "id": "HeroesBeerCo",
+  "name": {
+    "en": "Heroes Beer Co."
+  },
+  "webpages": [
+    {
+      "url": "https://www.heroesbeerco.com"
+    },
+    {
+      "url": "https://www.instagram.com/heroesbeerco/",
+      "meta": {
+        "name": "Heroes Beer Co",
+        "about": "香港精釀啤酒品牌 Craft beer brewery based in Hong Kong."
+      }
+    },
+    {
+      "url": "https://www.facebook.com/HeroesBeerCo/",
+      "meta": {
+        "name": "Heroes Beer Co.",
+        "id": "583129961860899",
+        "about": "Craft Beer producer based in Hong Kong 香港精釀啤酒品牌",
+        "categories": [
+          "Brewery"
+        ],
+        "addr": "Unit 3C, Wah Fai Industrial Building, 4 Sze Shan Street",
+        "area": "Yau Tong",
+        "email": "info@heroesbeerco.com",
+        "tel": "39969740"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/ByhsyaAlAmq/"
+    },
+    {
+      "url": "https://www.instagram.com/p/B0vXgX4lhWP/"
+    },
+    {
+      "url": "https://www.instagram.com/p/B5SH7J4FKFO/"
+    }
+  ],
+  "tags": [
+    "alcoholic",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit 3C, Wah Fai Industrial Building, 4 Sze Shan Street"
+      },
+      "googleMapsPlaceId": "ChIJWYfaHhsBBDQRNGQQw-cN2I4"
+    }
+  ]
+}
