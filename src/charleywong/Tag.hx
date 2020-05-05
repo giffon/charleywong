@@ -369,6 +369,14 @@ class Tag {
         }
     }
 
+    static public final courier:TagData = {
+        name: {
+            en: "courier",
+            zh: "速遞",
+        },
+        inherits: ["transport"]
+    }
+
     static public final homeMover:TagData = {
         name: {
             en: "home mover",
