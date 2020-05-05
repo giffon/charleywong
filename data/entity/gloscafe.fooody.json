@@ -11,8 +11,8 @@
         "id": "1434589716758125",
         "about": "home cooking,antique,music,coffee",
         "categories": [
-          "Cafe",
           "Diner",
+          "Cafe",
           "Chinese Restaurant"
         ],
         "addr": "Flat 3, G/F, Leader Industrial Centre, 57-59, Au Pui Wan Street, Fo Tan, Shatin",
@@ -28,6 +28,9 @@
         "about": "☕️ Taste the world in a sip\n🕰 antique 🎤 music\n🍲 home-cooked food\n📍火炭坳背灣街57~59號\n📍利達工業中心地下3號舖\n⬇️ 🇪🇸 西班牙文化節 活動報名表格\n#gloscafe #gloscafebyfooody"
       },
       "url": "https://www.instagram.com/gloscafe_fooody/"
+    },
+    {
+      "url": "https://www.instagram.com/gloscafeclub/"
     }
   ],
   "posts": [
@@ -63,9 +66,19 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "taiwanese",
+    "cafe"
   ],
   "yellowBlueMapIds": [
     "Y_EAT01042"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Flat 3, G/F, Leader Industrial Centre, 57-59, Au Pui Wan Street, Fo Tan, Shatin"
+      },
+      "googleMapsPlaceId": "ChIJNQjovTQGBDQRsVaPVMcbjX8"
+    }
   ]
 }
