@@ -335,7 +335,7 @@ class Tag {
     static public final food:TagData = {
         name: {
             en: "food & beverage",
-            zh: "食物/飲品",
+            zh: "食物/飲品/菜",
         }
     }
 
@@ -577,7 +577,7 @@ class Tag {
     static public final japanese:TagData = {
         name: {
             en: "japanese",
-            zh: "日式"
+            zh: "日本/日式"
         }
     }
 
@@ -629,21 +629,21 @@ class Tag {
     static public final thai:TagData = {
         name: {
             en: "thai",
-            zh: "泰式"
+            zh: "泰國/泰式"
         }
     }
 
     static public final korean:TagData = {
         name: {
             en: "korean",
-            zh: "韓式"
+            zh: "韓國/韓式"
         }
     }
 
     static public final taiwanese:TagData = {
         name: {
             en: "taiwanese",
-            zh: "台式"
+            zh: "台灣/台式"
         }
     }
 
