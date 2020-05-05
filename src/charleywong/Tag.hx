@@ -377,6 +377,14 @@ class Tag {
         inherits: ["transport"]
     }
 
+    static public final foodDelivery:TagData = {
+        name: {
+            en: "food delivery",
+            zh: "送餐",
+        },
+        inherits: ["transport"]
+    }
+
     static public final homeMover:TagData = {
         name: {
             en: "home mover",
