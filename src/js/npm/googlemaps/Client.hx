@@ -118,5 +118,5 @@ extern class Client {
 
     public function geocode(request:GeocodeRequest):Promise<GeocodeResponse>;
     public function geolocate(request:GeolocateRequest):Promise<GeolocateResponse>;
-    public function placeDetails(request: PlaceDetailsRequest):Promise<PlaceDetailsResponse>
+    public function placeDetails(request: PlaceDetailsRequest):Promise<PlaceDetailsResponse>;
 }

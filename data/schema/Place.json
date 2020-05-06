@@ -8,6 +8,18 @@
         "googleMapsPlaceId": {
             "type": "string",
             "pattern": "^[A-Za-z0-9\\-_]+$"
+        },
+        "coordinates": {
+            "type": "object",
+            "properties": {
+                "lat": "number",
+                "lng": "number"
+            },
+            "required": [
+                "lat",
+                "lng"
+            ],
+            "additionalProperties": false
         }
     },
     "additionalProperties": false

@@ -22,6 +22,10 @@ typedef WebPage = {
 typedef Place = {
     ?address:MultiLangString,
     ?googleMapsPlaceId:String,
+    ?coordinates:{
+        lat:Float,
+        lng:Float,
+    }
 }
 
 typedef Entity = {
