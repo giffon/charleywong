@@ -17,12 +17,15 @@ class EntityTools {
             .map(c -> switch (Dclookup.dcNameFromCoordinates(c.lat, c.lng)["2015"]) {
                 case null:
                     switch (CountryLocator.findCountryByCoordinate(c.lat, c.lng)) {
+                        case null:
+                            trace('Unknown country at ${c.lat} ${c.lng}');
+                            null;
                         case { code: "HKG" }: "香港";
                         case { code: "TWN" }: "臺灣";
                         case country: country.name;
                     }
                 case dc:
-                    dc.csubdistrict;
+                    dc.district;
             })
             .filter(a -> a != null)
             .fold((item, result:Array<String>) -> result.has(item) ? result : result.concat([item]), []);
