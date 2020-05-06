@@ -626,7 +626,12 @@ class ServerMain {
                         key: GEOCODING_KEY,
                     }
                 }).then(response -> {
-                    p.coordinates = response.data.result.geometry.location;
+                    switch (response.data.result) {
+                        case null:
+                            trace('Cannot geocode ${p.googleMapsPlaceId}: ${response.data.status}');
+                        case result:
+                            p.coordinates = result.geometry.location;
+                    }
                 })
             ];
             if (geocodings.length > 0) {
