@@ -1,5 +1,7 @@
 package charleywong.views;
 
+using charleywong.EntityTools;
+
 class EntityListView extends View {
     override public function title() return '${listName}名單';
     override public function description() return 'Charley Wong 和你查 ${listName}名單.';
@@ -19,8 +21,15 @@ class EntityListView extends View {
     public var searchQuery(get, never):Null<String>;
     function get_searchQuery() return props.searchQuery;
 
+    function renderAreasLabel(area:String) return jsx('
+        <span key=${area} className="area">${area}</span>
+    ');
+
     function renderEntity(e:Entity) return jsx('
-        <li key=${e.id}><a href=${'/${e.id}'}>${e.name.printAll()}</a></li>
+        <li key=${e.id}>
+            <a href=${'/${e.id}'}>${e.name.printAll()}</a>
+            <span>${e.areas().map(renderAreasLabel)}</span>
+        </li>
     ');
 
     function renderListName() return jsx('

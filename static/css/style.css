@@ -106,6 +106,16 @@ iframe.place {
     border-bottom: 0;
 }
 
+.entity-list li .area:first-child {
+    margin-left: 0.5em;
+}
+
+.entity-list li .area {
+    font-size: small;
+    margin: 0 0.1em;
+    white-space: nowrap;
+}
+
 .places .MuiInputBase-root {
     max-width: 100%;
 }

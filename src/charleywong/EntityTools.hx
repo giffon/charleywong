@@ -4,6 +4,7 @@ package charleywong;
 import js.npm.hk_address_parser_lib.Dclookup;
 import js.npm.country_locator.CountryLocator;
 #end
+using Lambda;
 
 class EntityTools {
     #if js
@@ -23,7 +24,8 @@ class EntityTools {
                 case dc:
                     dc.csubdistrict;
             })
-            .filter(a -> a != null);
+            .filter(a -> a != null)
+            .fold((item, result:Array<String>) -> result.has(item) ? result : result.concat([item]), []);
     }
     #end
 }
