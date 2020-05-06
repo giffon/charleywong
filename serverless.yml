@@ -6,7 +6,7 @@ frameworkVersion: ">=1.61.1"
 provider:
   name: aws
   runtime: nodejs12.x
-  timeout: 15
+  timeout: 45
   apiGateway:
     binaryMediaTypes:
       - '*/*'
