@@ -12,8 +12,12 @@
         "coordinates": {
             "type": "object",
             "properties": {
-                "lat": "number",
-                "lng": "number"
+                "lat": {
+                    "type": "number"
+                },
+                "lng": {
+                    "type": "number"
+                }
             },
             "required": [
                 "lat",
