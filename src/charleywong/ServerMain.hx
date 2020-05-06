@@ -705,6 +705,10 @@ class ServerMain {
             app.post("/", post);
             app.listen(port, function() {
                 Sys.println('http://localhost:$port');
+
+                for (e in entityIndex.entities) {
+                    geocode(e);
+                }
             });
         } else {
             var serverless = require('serverless-http');
