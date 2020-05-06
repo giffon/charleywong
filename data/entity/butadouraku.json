@@ -60,7 +60,8 @@
     }
   ],
   "tags": [
-    "japanese","noodle"
+    "japanese",
+    "noodle"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00319",
@@ -71,13 +72,21 @@
       "address": {
         "zh": "香港荃灣大河道63號"
       },
-      "googleMapsPlaceId": "ChIJS1Ipv-34AzQRexMimjY_s08"
+      "googleMapsPlaceId": "ChIJS1Ipv-34AzQRexMimjY_s08",
+      "coordinates": {
+        "lat": 22.3716238,
+        "lng": 114.1158184
+      }
     },
     {
       "address": {
         "zh": "紅磡黃埔新天地百合苑商場(第9期) 地下九號水產G2號舖"
       },
-      "googleMapsPlaceId": "ChIJf__7zOEABDQRemJjQnVbdXE"
+      "googleMapsPlaceId": "ChIJf__7zOEABDQRemJjQnVbdXE",
+      "coordinates": {
+        "lat": 22.302768,
+        "lng": 114.1903918
+      }
     }
   ]
 }

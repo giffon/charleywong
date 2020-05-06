@@ -28,14 +28,19 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "places": [
     {
       "address": {
         "zh": "元朗馬田路38號怡豐花園地下5號舖"
       },
-      "googleMapsPlaceId": "ChIJW6CI1gr6AzQRRN2TZVOkrsE"
+      "googleMapsPlaceId": "ChIJW6CI1gr6AzQRRN2TZVOkrsE",
+      "coordinates": {
+        "lat": 22.4416313,
+        "lng": 114.0249271
+      }
     }
   ],
   "yellowBlueMapIds": [

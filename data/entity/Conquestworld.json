@@ -55,13 +55,21 @@
       "address": {
         "zh": "旺角通菜街2號鴻光大廈地下B舖"
       },
-      "googleMapsPlaceId": "ChIJP5Yc5cYABDQR22_fniZImWE"
+      "googleMapsPlaceId": "ChIJP5Yc5cYABDQR22_fniZImWE",
+      "coordinates": {
+        "lat": 22.3162709,
+        "lng": 114.1712713
+      }
     },
     {
       "address": {
         "zh": "香港銅鑼灣霎東街9B號1樓"
       },
-      "googleMapsPlaceId": "EiM5IFNoYXJwIFN0IEUsIEJvd3Jpbmd0b24sIEhvbmcgS29uZyIwEi4KFAoSCfOmOiRRAAQ0EYQ1m2HjqS84EAkqFAoSCbewEN9QAAQ0Eex9pYjVZdyd"
+      "googleMapsPlaceId": "EiM5IFNoYXJwIFN0IEUsIEJvd3Jpbmd0b24sIEhvbmcgS29uZyIwEi4KFAoSCfOmOiRRAAQ0EYQ1m2HjqS84EAkqFAoSCbewEN9QAAQ0Eex9pYjVZdyd",
+      "coordinates": {
+        "lat": 22.2779372,
+        "lng": 114.1829204
+      }
     }
   ]
 }

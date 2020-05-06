@@ -59,19 +59,31 @@
       "address": {
         "zh": "香港北角錦屏街7-15號地下C舖"
       },
-      "googleMapsPlaceId": "ChIJq6p6_AQBBDQRwizTj0jGolE"
+      "googleMapsPlaceId": "ChIJq6p6_AQBBDQRwizTj0jGolE",
+      "coordinates": {
+        "lat": 22.2907032,
+        "lng": 114.2000432
+      }
     },
     {
       "address": {
         "zh": "九龍太子洗衣街241-243號地下A舖"
       },
-      "googleMapsPlaceId": "ChIJpxvpLsoABDQROwliOM2Qduw"
+      "googleMapsPlaceId": "ChIJpxvpLsoABDQROwliOM2Qduw",
+      "coordinates": {
+        "lat": 22.3260915,
+        "lng": 114.1702484
+      }
     },
     {
       "address": {
         "zh": "新界葵涌大連排道35-41號金基工業大廈7樓E室"
       },
-      "googleMapsPlaceId": "ChIJbfeqmpn4AzQR_CQQMI4-BDI"
+      "googleMapsPlaceId": "ChIJbfeqmpn4AzQR_CQQMI4-BDI",
+      "coordinates": {
+        "lat": 22.364082,
+        "lng": 114.1343226
+      }
     }
   ]
 }

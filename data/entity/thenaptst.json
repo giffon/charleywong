@@ -60,13 +60,21 @@
       "address": {
         "en": "Unit B, 4th Floor, Lyton Building, 42 Mody Road, Tsim Sha Tsui, Hong Kong"
       },
-      "googleMapsPlaceId": "ChIJK6PGlO0ABDQRf1wU5ZEDAtg"
+      "googleMapsPlaceId": "ChIJK6PGlO0ABDQRf1wU5ZEDAtg",
+      "coordinates": {
+        "lat": 22.2970436,
+        "lng": 114.1748219
+      }
     },
     {
       "address": {
         "en": "Flat A, 4/F, Kingland Apartments, 737 Nathan Road, Mong Kok"
       },
-      "googleMapsPlaceId": "ChIJQVhYnxsBBDQRzX0VW5S00nU"
+      "googleMapsPlaceId": "ChIJQVhYnxsBBDQRzX0VW5S00nU",
+      "coordinates": {
+        "lat": 22.3217419,
+        "lng": 114.1685984
+      }
     }
   ],
   "yellowBlueMapIds": [

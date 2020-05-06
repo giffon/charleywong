@@ -36,9 +36,13 @@
   "places": [
     {
       "address": {
-        "zh":"葵涌葵昌路 72 76號 Life@KCC 409號舖"
+        "zh": "葵涌葵昌路 72 76號 Life@KCC 409號舖"
       },
-      "googleMapsPlaceId":"ChIJLcSOCpn4AzQRaSs9DxrgNO4"
+      "googleMapsPlaceId": "ChIJLcSOCpn4AzQRaSs9DxrgNO4",
+      "coordinates": {
+        "lat": 22.3624466,
+        "lng": 114.1322472
+      }
     }
   ]
 }

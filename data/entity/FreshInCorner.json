@@ -43,13 +43,21 @@
       "address": {
         "en": "HK Art Center G/F"
       },
-      "googleMapsPlaceId": "ChIJWWt41AIHBDQR6tykpcFbFVQ"
+      "googleMapsPlaceId": "ChIJWWt41AIHBDQR6tykpcFbFVQ",
+      "coordinates": {
+        "lat": 22.28021159999999,
+        "lng": 114.1707554
+      }
     },
     {
       "address": {
         "en": "378 Queens Rd Central"
       },
-      "googleMapsPlaceId": "ChIJTflLlH4ABDQReEitlc-Lh-M"
+      "googleMapsPlaceId": "ChIJTflLlH4ABDQReEitlc-Lh-M",
+      "coordinates": {
+        "lat": 22.285968,
+        "lng": 114.148651
+      }
     }
   ],
   "yellowBlueMapIds": [

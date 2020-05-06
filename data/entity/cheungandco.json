@@ -45,7 +45,11 @@
       "address": {
         "en": "Room 1001-02, Shanghai Industrial Investment Building, 48-62 Hennessy Road, Wan Chai"
       },
-      "googleMapsPlaceId": "ChIJmcfV4lwABDQRucHTFE93x1E"
+      "googleMapsPlaceId": "ChIJmcfV4lwABDQRucHTFE93x1E",
+      "coordinates": {
+        "lat": 22.27737939999999,
+        "lng": 114.1707896
+      }
     }
   ]
 }

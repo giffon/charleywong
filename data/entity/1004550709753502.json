@@ -51,14 +51,19 @@
     }
   ],
   "tags": [
-    "food","noodle"
+    "food",
+    "noodle"
   ],
   "places": [
     {
       "address": {
         "en": "77 Queen's Road East Hong Kong"
       },
-      "googleMapsPlaceId": "ChIJJ7jJ0RkBBDQRE608Py2ezA4"
+      "googleMapsPlaceId": "ChIJJ7jJ0RkBBDQRE608Py2ezA4",
+      "coordinates": {
+        "lat": 22.2761972,
+        "lng": 114.1697604
+      }
     }
   ]
 }

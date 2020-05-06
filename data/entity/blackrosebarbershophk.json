@@ -55,19 +55,31 @@
       "address": {
         "en": "G/F, No. 5 Chatham Road South, TSIM SHA TSUI, HONG KONG"
       },
-      "googleMapsPlaceId": "ChIJTwEZ3vEABDQRN4rDONxdGt8"
+      "googleMapsPlaceId": "ChIJTwEZ3vEABDQRN4rDONxdGt8",
+      "coordinates": {
+        "lat": 22.2966697,
+        "lng": 114.1751807
+      }
     },
     {
       "address": {
         "en": "G/F, No. 35 Yiu Wah Street, CAUSEWAY BAY, HONG KONG"
       },
-      "googleMapsPlaceId": "ChIJW6ANaN0BBDQRzP2tSI65fr0"
+      "googleMapsPlaceId": "ChIJW6ANaN0BBDQRzP2tSI65fr0",
+      "coordinates": {
+        "lat": 22.277464,
+        "lng": 114.1815842
+      }
     },
     {
       "address": {
         "en": "G/F, No. 16 Peel Street, CENTRAL, HONG KONG"
       },
-      "googleMapsPlaceId": "ChIJl3dSQTYBBDQRaITYY0-1I8Q"
+      "googleMapsPlaceId": "ChIJl3dSQTYBBDQRaITYY0-1I8Q",
+      "coordinates": {
+        "lat": 22.2834075,
+        "lng": 114.1537878
+      }
     }
   ]
 }

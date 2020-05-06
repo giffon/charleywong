@@ -29,14 +29,19 @@
     }
   ],
   "tags": [
-    "food","taiwanese"
+    "food",
+    "taiwanese"
   ],
   "places": [
     {
       "address": {
         "zh": "土瓜灣譚公道65號d"
       },
-      "googleMapsPlaceId": "ChIJB555Tr8BBDQR1k5Ixzo3di0"
+      "googleMapsPlaceId": "ChIJB555Tr8BBDQR1k5Ixzo3di0",
+      "coordinates": {
+        "lat": 22.322703,
+        "lng": 114.188344
+      }
     }
   ],
   "yellowBlueMapIds": [

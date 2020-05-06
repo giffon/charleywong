@@ -24,14 +24,19 @@
     }
   ],
   "tags": [
-    "food","noodle"
+    "food",
+    "noodle"
   ],
   "places": [
     {
       "address": {
         "zh": "灣仔皇后大道東94號"
       },
-      "googleMapsPlaceId": "ChIJOR4vO10ABDQRip0Zgc5F5gU"
+      "googleMapsPlaceId": "ChIJOR4vO10ABDQRip0Zgc5F5gU",
+      "coordinates": {
+        "lat": 22.2763515,
+        "lng": 114.1699101
+      }
     }
   ],
   "yellowBlueMapIds": [

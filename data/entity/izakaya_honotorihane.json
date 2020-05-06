@@ -49,14 +49,19 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "alias": [
     "2004875759804350"
   ],
   "places": [
     {
-      "googleMapsPlaceId": "ChIJbS5mVtwBBDQRdpholKw67oY"
+      "googleMapsPlaceId": "ChIJbS5mVtwBBDQRdpholKw67oY",
+      "coordinates": {
+        "lat": 22.2996434,
+        "lng": 114.1739013
+      }
     }
   ],
   "yellowBlueMapIds": [

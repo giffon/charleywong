@@ -29,14 +29,19 @@
     }
   ],
   "tags": [
-    "food","noodle"
+    "food",
+    "noodle"
   ],
   "places": [
     {
       "address": {
         "zh": "元朗建業街45號"
       },
-      "googleMapsPlaceId": "EiM0NSBLaW4gWWlwIFN0LCBZdWVuIExvbmcsIEhvbmcgS29uZyIwEi4KFAoSCenWq_0J-gM0EZ5ivybLplpPEC0qFAoSCcX1I1Gn8AM0EYLTBu8satgO"
+      "googleMapsPlaceId": "EiM0NSBLaW4gWWlwIFN0LCBZdWVuIExvbmcsIEhvbmcgS29uZyIwEi4KFAoSCenWq_0J-gM0EZ5ivybLplpPEC0qFAoSCcX1I1Gn8AM0EYLTBu8satgO",
+      "coordinates": {
+        "lat": 22.4420374,
+        "lng": 114.0317093
+      }
     }
   ]
 }

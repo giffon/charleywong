@@ -46,13 +46,21 @@
       "address": {
         "zh": "香港九龍尖沙咀山林道20號錦興大厦 8/F"
       },
-      "googleMapsPlaceId": "ChIJddmTsfgBBDQRhKXgFsTxE8M"
+      "googleMapsPlaceId": "ChIJddmTsfgBBDQRhKXgFsTxE8M",
+      "coordinates": {
+        "lat": 22.3025642,
+        "lng": 114.1731267
+      }
     },
     {
       "address": {
         "zh": "長沙灣青山道 454 號 3 樓"
       },
-      "googleMapsPlaceId": "ChIJU-KghFEHBDQRw-_jgtM_eoQ"
+      "googleMapsPlaceId": "ChIJU-KghFEHBDQRw-_jgtM_eoQ",
+      "coordinates": {
+        "lat": 22.3400928,
+        "lng": 114.1532357
+      }
     }
   ],
   "yellowBlueMapIds": [

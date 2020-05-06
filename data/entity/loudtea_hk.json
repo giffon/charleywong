@@ -21,13 +21,20 @@
       "url": "https://www.instagram.com/p/B44vvKbBxfO/"
     }
   ],
-  "tags": ["food","taiwanese"],
+  "tags": [
+    "food",
+    "taiwanese"
+  ],
   "places": [
     {
       "address": {
         "zh": "柴灣柴灣道350號樂軒臺地下317-318號舖"
       },
-      "googleMapsPlaceId": "ChIJu8f13ScCBDQRY32ur5M-yxE"
+      "googleMapsPlaceId": "ChIJu8f13ScCBDQRY32ur5M-yxE",
+      "coordinates": {
+        "lat": 22.263897,
+        "lng": 114.240544
+      }
     }
   ],
   "yellowBlueMapIds": [

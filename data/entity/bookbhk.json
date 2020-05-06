@@ -46,7 +46,11 @@
       "address": {
         "en": "Shop 111, The Mills, 45 Pak Tin Par Street"
       },
-      "googleMapsPlaceId": "ChIJNXGHjLYABDQRBDArk41kuB4"
+      "googleMapsPlaceId": "ChIJNXGHjLYABDQRBDArk41kuB4",
+      "coordinates": {
+        "lat": 22.3750707,
+        "lng": 114.1101695
+      }
     }
   ]
 }

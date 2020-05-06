@@ -37,7 +37,8 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00552"
@@ -47,7 +48,11 @@
       "address": {
         "zh": "旺角彌敦道594-596號旺角新城5樓"
       },
-      "googleMapsPlaceId": "ChIJ6bK2y-YBBDQRowSMIe5upmU"
+      "googleMapsPlaceId": "ChIJ6bK2y-YBBDQRowSMIe5upmU",
+      "coordinates": {
+        "lat": 22.3161705,
+        "lng": 114.170203
+      }
     }
   ]
 }

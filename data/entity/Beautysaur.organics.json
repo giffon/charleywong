@@ -49,13 +49,21 @@
       "address": {
         "en": "210B, K11 Musea, TST"
       },
-      "googleMapsPlaceId": "ChIJy0xepekBBDQRjydDEmFfK3Y"
+      "googleMapsPlaceId": "ChIJy0xepekBBDQRjydDEmFfK3Y",
+      "coordinates": {
+        "lat": 22.2947685,
+        "lng": 114.1748451
+      }
     },
     {
       "address": {
         "en": "Kiosk 2, 1/F, Fashion walk, CWB"
       },
-      "googleMapsPlaceId": "ChIJ7XGHJLwBBDQRPxqomahariY"
+      "googleMapsPlaceId": "ChIJ7XGHJLwBBDQRPxqomahariY",
+      "coordinates": {
+        "lat": 22.280567,
+        "lng": 114.1853182
+      }
     }
   ],
   "yellowBlueMapIds": [

@@ -34,14 +34,19 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "places": [
     {
       "address": {
         "zh": "大埔安慈路4號昌運中心地下83-84號舖"
       },
-      "googleMapsPlaceId": "ChIJ7WI5iUcIBDQRythVdGnRtFA"
+      "googleMapsPlaceId": "ChIJ7WI5iUcIBDQRythVdGnRtFA",
+      "coordinates": {
+        "lat": 22.4520709,
+        "lng": 114.1683732
+      }
     }
   ]
 }

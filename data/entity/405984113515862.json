@@ -28,14 +28,19 @@
     }
   ],
   "tags": [
-    "food","noodle"
+    "food",
+    "noodle"
   ],
   "places": [
     {
       "address": {
         "zh": "深水埗基隆街391號地下"
       },
-      "googleMapsPlaceId": "ChIJbbHVRX4BBDQRtR1JH4HiLPs"
+      "googleMapsPlaceId": "ChIJbbHVRX4BBDQRtR1JH4HiLPs",
+      "coordinates": {
+        "lat": 22.330283,
+        "lng": 114.15993
+      }
     }
   ],
   "yellowBlueMapIds": [

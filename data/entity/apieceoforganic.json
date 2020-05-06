@@ -46,38 +46,60 @@
     }
   ],
   "tags": [
-    "shop","skincare","makeup"
+    "shop",
+    "skincare",
+    "makeup"
   ],
   "places": [
     {
       "address": {
         "zh": "銅鑼灣銀座商場40舖"
       },
-      "googleMapsPlaceId": "ChIJ22-H8FYABDQRpQJLA5K9U6Y"
+      "googleMapsPlaceId": "ChIJ22-H8FYABDQRpQJLA5K9U6Y",
+      "coordinates": {
+        "lat": 22.2811806,
+        "lng": 114.1831326
+      }
     },
     {
       "address": {
         "zh": "旺角彌敦道655號655大廈1112室"
       },
-      "googleMapsPlaceId": "ChIJEUbcvccABDQRBMIFLYhm4LQ"
+      "googleMapsPlaceId": "ChIJEUbcvccABDQRBMIFLYhm4LQ",
+      "coordinates": {
+        "lat": 22.3185003,
+        "lng": 114.1692486
+      }
     },
     {
       "address": {
         "zh": "荃灣南豐中心1132室"
       },
-      "googleMapsPlaceId": "ChIJlQU5LGn5AzQRMlJK2Jq_Ob4"
+      "googleMapsPlaceId": "ChIJlQU5LGn5AzQRMlJK2Jq_Ob4",
+      "coordinates": {
+        "lat": 22.3737719,
+        "lng": 114.1160548
+      }
     },
     {
       "address": {
         "zh": "屯門鄉事會路83號V city·M-95a號舖"
       },
-      "googleMapsPlaceId": "ChIJA702-_r7AzQRMkFNTMCVbNk"
+      "googleMapsPlaceId": "ChIJA702-_r7AzQRMkFNTMCVbNk",
+      "coordinates": {
+        "lat": 22.3953946,
+        "lng": 113.9739056
+      }
     },
     {
       "address": {
         "zh": "南昌站V Walk 二樓L2-11號舖"
       },
-      "googleMapsPlaceId": "ChIJV7GS9d8BBDQRbrPemtE1tnU"
+      "googleMapsPlaceId": "ChIJV7GS9d8BBDQRbrPemtE1tnU",
+      "coordinates": {
+        "lat": 22.3264788,
+        "lng": 114.155042
+      }
     }
   ],
   "yellowBlueMapIds": [

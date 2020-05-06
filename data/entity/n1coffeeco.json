@@ -51,13 +51,21 @@
       "address": {
         "en": "Shop G, 34 Mody Road"
       },
-      "googleMapsPlaceId": "ChIJb7BMHO4ABDQRdd8G_JKTARY"
+      "googleMapsPlaceId": "ChIJb7BMHO4ABDQRdd8G_JKTARY",
+      "coordinates": {
+        "lat": 22.2971553,
+        "lng": 114.1747068
+      }
     },
     {
       "address": {
         "en": "Shop B2,Shopping Centre,Marina Cove, Saikung"
       },
-      "googleMapsPlaceId": "ChIJcSZLxTEEBDQRxWZCHWS7c28"
+      "googleMapsPlaceId": "ChIJcSZLxTEEBDQRxWZCHWS7c28",
+      "coordinates": {
+        "lat": 22.3553302,
+        "lng": 114.2516511
+      }
     }
   ],
   "yellowBlueMapIds": [

@@ -47,7 +47,11 @@
       "address": {
         "en": "Shop A, G/F, Wai King Mansion, 22 Aberdeen Main Road, Aberdeen, Hong Kong"
       },
-      "googleMapsPlaceId": "ChIJY_L39BwABDQRWYx2kOc4heM"
+      "googleMapsPlaceId": "ChIJY_L39BwABDQRWYx2kOc4heM",
+      "coordinates": {
+        "lat": 22.24776959999999,
+        "lng": 114.1585624
+      }
     }
   ]
 }

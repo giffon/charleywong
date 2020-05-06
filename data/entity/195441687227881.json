@@ -27,14 +27,19 @@
     }
   ],
   "tags": [
-    "food","thai"
+    "food",
+    "thai"
   ],
   "places": [
     {
       "address": {
         "zh": "九龍城 衙前圍道 36A"
       },
-      "googleMapsPlaceId": "ChIJEd5JWdUGBDQRZexjQEVAMRU"
+      "googleMapsPlaceId": "ChIJEd5JWdUGBDQRZexjQEVAMRU",
+      "coordinates": {
+        "lat": 22.3289577,
+        "lng": 114.1917152
+      }
     }
   ],
   "yellowBlueMapIds": [

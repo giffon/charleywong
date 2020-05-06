@@ -35,7 +35,8 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "yellowBlueMapIds": [
     "Y_EAT01305"
@@ -45,7 +46,11 @@
       "address": {
         "zh": "英皇道933號御皇台地下11號舖"
       },
-      "googleMapsPlaceId": "ChIJ529HwToBBDQRSGOusQH1mR0"
+      "googleMapsPlaceId": "ChIJ529HwToBBDQRSGOusQH1mR0",
+      "coordinates": {
+        "lat": 22.2894984,
+        "lng": 114.2098164
+      }
     }
   ]
 }

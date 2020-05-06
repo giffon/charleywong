@@ -72,13 +72,21 @@
       "address": {
         "zh": "旺角西洋菜街62號3樓"
       },
-      "googleMapsPlaceId": "ChIJuQcQtscABDQRd-weUoFL8EU"
+      "googleMapsPlaceId": "ChIJuQcQtscABDQRd-weUoFL8EU",
+      "coordinates": {
+        "lat": 22.3186007,
+        "lng": 114.1702679
+      }
     },
     {
       "address": {
         "zh": "香港銅鑼灣駱克道506號2/F"
       },
-      "googleMapsPlaceId": "ChIJQ4Wx51YABDQRnNESiKWqovk"
+      "googleMapsPlaceId": "ChIJQ4Wx51YABDQRnNESiKWqovk",
+      "coordinates": {
+        "lat": 22.2804856,
+        "lng": 114.1831908
+      }
     }
   ]
 }

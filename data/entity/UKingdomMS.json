@@ -40,7 +40,11 @@
       "address": {
         "en": "Room 1006, 10/F, Block C, Hong Kong Industrial Centre, 489-491 Castle Peak Road, Cheung Sha Wan, Kowloon"
       },
-      "googleMapsPlaceId": "ChIJVakuWlQHBDQRL5mvTlhIRmM"
+      "googleMapsPlaceId": "ChIJVakuWlQHBDQRL5mvTlhIRmM",
+      "coordinates": {
+        "lat": 22.3378403,
+        "lng": 114.1478509
+      }
     }
   ]
 }

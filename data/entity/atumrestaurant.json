@@ -153,13 +153,21 @@
       "address": {
         "zh": "尖沙咀河內道18號K11購物藝術館1樓101B號舖"
       },
-      "googleMapsPlaceId": "ChIJ88kc_u0ABDQRsOw3CRqtxhQ"
+      "googleMapsPlaceId": "ChIJ88kc_u0ABDQRsOw3CRqtxhQ",
+      "coordinates": {
+        "lat": 22.29796559999999,
+        "lng": 114.1735436
+      }
     },
     {
       "address": {
         "zh": "旺角奶路臣街17號The Forest 1樓107-108號舖"
       },
-      "googleMapsPlaceId": "ChIJ-e35tscABDQRigm5BgynpJ4"
+      "googleMapsPlaceId": "ChIJ-e35tscABDQRigm5BgynpJ4",
+      "coordinates": {
+        "lat": 22.3190476,
+        "lng": 114.1715932
+      }
     }
   ]
 }

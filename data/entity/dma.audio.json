@@ -62,19 +62,31 @@
       "address": {
         "zh": "九龍旺角山東街 47 - 51 號 星際城市 2 樓 219 - 223 號"
       },
-      "googleMapsPlaceId": "ChIJwxezr8cABDQRh_71j39KZUE"
+      "googleMapsPlaceId": "ChIJwxezr8cABDQRh_71j39KZUE",
+      "coordinates": {
+        "lat": 22.3178578,
+        "lng": 114.1701233
+      }
     },
     {
       "address": {
         "zh": "香港灣仔軒尼詩道 130 號 灣仔電腦城 2 樓 218 號"
       },
-      "googleMapsPlaceId": "ChIJZ1D2hVwABDQR5C1oFPgPSfQ"
+      "googleMapsPlaceId": "ChIJZ1D2hVwABDQR5C1oFPgPSfQ",
+      "coordinates": {
+        "lat": 22.2771903,
+        "lng": 114.1731267
+      }
     },
     {
       "address": {
         "zh": "九龍深水埗 高登電腦中心 1 樓 6 號"
       },
-      "googleMapsPlaceId": "ChIJx1VXrrQABDQRryvhbbYtDOE"
+      "googleMapsPlaceId": "ChIJx1VXrrQABDQRryvhbbYtDOE",
+      "coordinates": {
+        "lat": 22.3320319,
+        "lng": 114.1622353
+      }
     }
   ],
   "yellowBlueMapIds": [

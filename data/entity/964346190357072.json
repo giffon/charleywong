@@ -28,14 +28,19 @@
     }
   ],
   "tags": [
-    "food","thai"
+    "food",
+    "thai"
   ],
   "places": [
     {
       "address": {
         "zh": "香港旺角上海街557號綜合大樓2樓旺角熟食市場2號鋪"
       },
-      "googleMapsPlaceId": "ChIJNWxghMcABDQRS1CCsjehyVM"
+      "googleMapsPlaceId": "ChIJNWxghMcABDQRS1CCsjehyVM",
+      "coordinates": {
+        "lat": 22.3184192,
+        "lng": 114.168161
+      }
     }
   ],
   "yellowBlueMapIds": [

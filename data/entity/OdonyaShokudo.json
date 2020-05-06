@@ -60,7 +60,8 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "alias": [
     "295361671071317",
@@ -71,13 +72,21 @@
       "address": {
         "zh": "筲箕灣筲箕灣道305號譽都地下3號舖"
       },
-      "googleMapsPlaceId": "ChIJdfTyAksBBDQRgpQGJLXgMZE"
+      "googleMapsPlaceId": "ChIJdfTyAksBBDQRgpQGJLXgMZE",
+      "coordinates": {
+        "lat": 22.2784724,
+        "lng": 114.2266305
+      }
     },
     {
       "address": {
         "zh": "荃灣街市街67-95號荃灣千色滙2期G1-G2地舖，Shops G1-G2, G/F, Kolour Tsuen Wan Phase 2, No.67-95 Tsuen Wan Market Street, Tsuen Wan, N.T."
       },
-      "googleMapsPlaceId": "ChIJVYEsRHn5AzQRGHPxyq2HDxc"
+      "googleMapsPlaceId": "ChIJVYEsRHn5AzQRGHPxyq2HDxc",
+      "coordinates": {
+        "lat": 22.3715544,
+        "lng": 114.1183148
+      }
     }
   ],
   "yellowBlueMapIds": [

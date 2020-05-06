@@ -52,14 +52,20 @@
     }
   ],
   "tags": [
-    "food","japanese","vegeterian"
+    "food",
+    "japanese",
+    "vegeterian"
   ],
   "places": [
     {
       "address": {
         "en": "Shop 8, LG, Eaton Hotel, 380 Nathan Road, Jordan, Kowloon. HK"
       },
-      "googleMapsPlaceId": "ChIJvViUXTUBBDQR-UMJv0vwnyY"
+      "googleMapsPlaceId": "ChIJvViUXTUBBDQR-UMJv0vwnyY",
+      "coordinates": {
+        "lat": 22.3081386,
+        "lng": 114.1717726
+      }
     }
   ],
   "yellowBlueMapIds": [

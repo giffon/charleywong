@@ -60,13 +60,21 @@
       "address": {
         "zh": "地址灣仔謝斐道392號維新大厦地下E鋪"
       },
-      "googleMapsPlaceId": "ChIJZZRMUVcABDQRjb3F4505Neg"
+      "googleMapsPlaceId": "ChIJZZRMUVcABDQRjb3F4505Neg",
+      "coordinates": {
+        "lat": 22.2799158,
+        "lng": 114.1798997
+      }
     },
     {
       "address": {
         "zh": "西灣河聖十字徑38號鴻恩大廈地下7號舖"
       },
-      "googleMapsPlaceId": "ChIJjZ1cYnYBBDQR4QEo5BqO5Uc"
+      "googleMapsPlaceId": "ChIJjZ1cYnYBBDQR4QEo5BqO5Uc",
+      "coordinates": {
+        "lat": 22.281052,
+        "lng": 114.222185
+      }
     }
   ],
   "yellowBlueMapIds": [

@@ -66,14 +66,20 @@
     }
   ],
   "tags": [
-    "food","japanese","noodle"
+    "food",
+    "japanese",
+    "noodle"
   ],
   "places": [
     {
       "address": {
         "zh": "元朗裕榮徑11號好旺洋樓地下5號舖"
       },
-      "googleMapsPlaceId": "ChIJvYerDNT7AzQRyAWpiQceo4k"
+      "googleMapsPlaceId": "ChIJvYerDNT7AzQRyAWpiQceo4k",
+      "coordinates": {
+        "lat": 22.4422308,
+        "lng": 114.0259858
+      }
     }
   ],
   "yellowBlueMapIds": [

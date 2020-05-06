@@ -47,13 +47,21 @@
       "address": {
         "zh": "九龍佐敦吳松街191號突破中心地下"
       },
-      "googleMapsPlaceId": "ChIJOyX-fOsABDQRKCSxyqKQGIE"
+      "googleMapsPlaceId": "ChIJOyX-fOsABDQRKCSxyqKQGIE",
+      "coordinates": {
+        "lat": 22.3035269,
+        "lng": 114.1700614
+      }
     },
     {
       "address": {
         "zh": "新界沙田亞公角山路33號突破青年村大堂"
       },
-      "googleMapsPlaceId": "ChIJhcd7UhYGBDQRsQvAQ2UKPME"
+      "googleMapsPlaceId": "ChIJhcd7UhYGBDQRsQvAQ2UKPME",
+      "coordinates": {
+        "lat": 22.398763,
+        "lng": 114.217467
+      }
     }
   ]
 }

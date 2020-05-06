@@ -99,13 +99,21 @@
       "address": {
         "en": "6/F, Circle Tower, 28 Tang Lung Street"
       },
-      "googleMapsPlaceId": "ChIJiR7-LFcABDQRvhlXW2Ofvfo"
+      "googleMapsPlaceId": "ChIJiR7-LFcABDQRvhlXW2Ofvfo",
+      "coordinates": {
+        "lat": 22.2792646,
+        "lng": 114.1820324
+      }
     },
     {
       "address": {
         "zh": "大圍村第3街32號"
       },
-      "googleMapsPlaceId": "ChIJPere86cHBDQRm2yHXsGTcaA"
+      "googleMapsPlaceId": "ChIJPere86cHBDQRm2yHXsGTcaA",
+      "coordinates": {
+        "lat": 22.375206,
+        "lng": 114.178429
+      }
     }
   ],
   "yellowBlueMapIds": [

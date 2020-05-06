@@ -46,7 +46,8 @@
     }
   ],
   "tags": [
-    "food","taiwanese"
+    "food",
+    "taiwanese"
   ],
   "yellowBlueMapIds": [
     "Y_EAT01084"
@@ -56,7 +57,11 @@
       "address": {
         "zh": "九龍尖沙咀加拿分道45-47號宏生大廈D1號鋪(厚福街入口)"
       },
-      "googleMapsPlaceId": "ChIJN7lQe9YBBDQRPMqev38iUMQ"
+      "googleMapsPlaceId": "ChIJN7lQe9YBBDQRPMqev38iUMQ",
+      "coordinates": {
+        "lat": 22.2993896,
+        "lng": 114.173676
+      }
     }
   ]
 }

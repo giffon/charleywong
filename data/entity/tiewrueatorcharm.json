@@ -43,19 +43,31 @@
       "address": {
         "zh": "銅鑼灣謝斐道526號地鋪"
       },
-      "googleMapsPlaceId": "ChIJ3z9Y7swBBDQRykQ_D5e_HHs"
+      "googleMapsPlaceId": "ChIJ3z9Y7swBBDQRykQ_D5e_HHs",
+      "coordinates": {
+        "lat": 22.2809844,
+        "lng": 114.183983
+      }
     },
     {
       "address": {
         "zh": "尖沙咀厚福街7號地舖"
       },
-      "googleMapsPlaceId": "ChIJezuV7kcBBDQRYab7nyBU0ew"
+      "googleMapsPlaceId": "ChIJezuV7kcBBDQRYab7nyBU0ew",
+      "coordinates": {
+        "lat": 22.2994982,
+        "lng": 114.1743923
+      }
     },
     {
       "address": {
         "zh": "大埔超級城539-541地鋪"
       },
-      "googleMapsPlaceId": "ChIJbTCkMJEJBDQR89C-MiyAk3Y"
+      "googleMapsPlaceId": "ChIJbTCkMJEJBDQR89C-MiyAk3Y",
+      "coordinates": {
+        "lat": 22.4525263,
+        "lng": 114.1712455
+      }
     }
   ]
 }

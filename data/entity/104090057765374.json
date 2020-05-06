@@ -26,14 +26,19 @@
     }
   ],
   "tags": [
-    "food","noodle"
+    "food",
+    "noodle"
   ],
   "places": [
     {
       "address": {
         "zh": "筲箕灣筲箕灣東大街28-40A號東興大廈地下2號舖"
       },
-      "googleMapsPlaceId": "ChIJKxR7AHkBBDQR6hN8EzgOeGQ"
+      "googleMapsPlaceId": "ChIJKxR7AHkBBDQR6hN8EzgOeGQ",
+      "coordinates": {
+        "lat": 22.2800455,
+        "lng": 114.2301735
+      }
     }
   ],
   "yellowBlueMapIds": [

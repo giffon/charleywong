@@ -76,13 +76,21 @@
       "address": {
         "en": "Tsim Sha Tsui"
       },
-      "googleMapsPlaceId": "ChIJ___QeO4ABDQRc_3o1DrZRBk"
+      "googleMapsPlaceId": "ChIJ___QeO4ABDQRc_3o1DrZRBk",
+      "coordinates": {
+        "lat": 22.2995679,
+        "lng": 114.1738118
+      }
     },
     {
       "address": {
         "en": "Central"
       },
-      "googleMapsPlaceId": "ChIJ0dJCVs8BBDQR-g_kV_vocUs"
+      "googleMapsPlaceId": "ChIJ0dJCVs8BBDQR-g_kV_vocUs",
+      "coordinates": {
+        "lat": 22.2829797,
+        "lng": 114.1533169
+      }
     }
   ],
   "yellowBlueMapIds": [

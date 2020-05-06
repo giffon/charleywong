@@ -49,13 +49,21 @@
       "address": {
         "zh": "葵涌青山公路葵涌段499號嘉寶大廈地下A-B舖"
       },
-      "googleMapsPlaceId": "ChIJ8acL7Zr4AzQRffW0wzYBsmg"
+      "googleMapsPlaceId": "ChIJ8acL7Zr4AzQRffW0wzYBsmg",
+      "coordinates": {
+        "lat": 22.3682896,
+        "lng": 114.1336943
+      }
     },
     {
       "address": {
         "zh": "尖沙咀金巴利道78號A鋪"
       },
-      "googleMapsPlaceId": "ChIJAQD0zu4ABDQRErPK0f4ZvlY"
+      "googleMapsPlaceId": "ChIJAQD0zu4ABDQRErPK0f4ZvlY",
+      "coordinates": {
+        "lat": 22.3019873,
+        "lng": 114.1756812
+      }
     }
   ]
 }

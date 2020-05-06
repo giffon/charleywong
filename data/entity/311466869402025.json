@@ -25,14 +25,19 @@
     }
   ],
   "tags": [
-    "food","noodle"
+    "food",
+    "noodle"
   ],
   "places": [
     {
       "address": {
         "zh": "旺角甘霖街40號廣富大廈地下1號舖"
       },
-      "googleMapsPlaceId": "ChIJm6mXm7gABDQRGAcWyGm6yGE"
+      "googleMapsPlaceId": "ChIJm6mXm7gABDQRGAcWyGm6yGE",
+      "coordinates": {
+        "lat": 22.3167151,
+        "lng": 114.1672979
+      }
     }
   ],
   "yellowBlueMapIds": [

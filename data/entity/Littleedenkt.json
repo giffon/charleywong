@@ -55,14 +55,19 @@
     }
   ],
   "tags": [
-    "food","taiwanese"
+    "food",
+    "taiwanese"
   ],
   "places": [
     {
       "address": {
         "zh": "香港 觀塘工業中心 四期 1樓C室"
       },
-      "googleMapsPlaceId": "ChIJVVWV_k8BBDQRDHaQ5YNAlHE"
+      "googleMapsPlaceId": "ChIJVVWV_k8BBDQRDHaQ5YNAlHE",
+      "coordinates": {
+        "lat": 22.3113644,
+        "lng": 114.226883
+      }
     }
   ],
   "yellowBlueMapIds": [

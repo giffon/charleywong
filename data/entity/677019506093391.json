@@ -62,14 +62,20 @@
     }
   ],
   "tags": [
-    "food","noodle","taiwanese"
+    "food",
+    "noodle",
+    "taiwanese"
   ],
   "places": [
     {
       "address": {
         "zh": "旺角廣華街8號地舖"
       },
-      "googleMapsPlaceId": "ChIJWdtaP5sBBDQRu7NbijOr4Ko"
+      "googleMapsPlaceId": "ChIJWdtaP5sBBDQRu7NbijOr4Ko",
+      "coordinates": {
+        "lat": 22.3160515,
+        "lng": 114.173027
+      }
     }
   ]
 }

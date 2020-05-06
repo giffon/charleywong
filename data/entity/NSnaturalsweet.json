@@ -41,14 +41,20 @@
     }
   ],
   "tags": [
-    "food","taiwanese","closed"
+    "food",
+    "taiwanese",
+    "closed"
   ],
   "places": [
     {
       "address": {
         "zh": "葵芳葵涌廣場 1樓65A"
       },
-      "googleMapsPlaceId": "ChIJ66pqx734AzQR8Fo9Zgd0jP8"
+      "googleMapsPlaceId": "ChIJ66pqx734AzQR8Fo9Zgd0jP8",
+      "coordinates": {
+        "lat": 22.358183,
+        "lng": 114.127704
+      }
     }
   ],
   "yellowBlueMapIds": [

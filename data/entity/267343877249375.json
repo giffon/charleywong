@@ -51,14 +51,19 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "places": [
     {
       "address": {
         "zh": "觀塘駿業街67號駿業熟食市場1樓45 & 50號舖"
       },
-      "googleMapsPlaceId": "ChIJ9xaR4DsBBDQRfjW_9UbIQ_s"
+      "googleMapsPlaceId": "ChIJ9xaR4DsBBDQRfjW_9UbIQ_s",
+      "coordinates": {
+        "lat": 22.3108425,
+        "lng": 114.2220177
+      }
     }
   ],
   "yellowBlueMapIds": [

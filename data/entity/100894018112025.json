@@ -45,13 +45,20 @@
       }
     }
   ],
-  "tags": ["food","japanese"],
+  "tags": [
+    "food",
+    "japanese"
+  ],
   "places": [
     {
       "address": {
         "zh": "灣仔摩利臣山道41 號愉景樓地下1號舖"
       },
-      "googleMapsPlaceId": "ChIJdelKiFAABDQRdq-9FKG2f9Y"
+      "googleMapsPlaceId": "ChIJdelKiFAABDQRdq-9FKG2f9Y",
+      "coordinates": {
+        "lat": 22.276664,
+        "lng": 114.180528
+      }
     }
   ]
 }

@@ -37,20 +37,29 @@
     }
   ],
   "tags": [
-    "food","cafe"
+    "food",
+    "cafe"
   ],
   "places": [
     {
       "address": {
         "zh": "銅鑼灣軒尼詩道500號希慎廣場9樓"
       },
-      "googleMapsPlaceId": "ChIJzRpFvzYBBDQR6RYlrhLKJLQ"
+      "googleMapsPlaceId": "ChIJzRpFvzYBBDQR6RYlrhLKJLQ",
+      "coordinates": {
+        "lat": 22.2798226,
+        "lng": 114.1837972
+      }
     },
     {
       "address": {
         "zh": "銅鑼灣希慎道33號利園1期2樓212號舖"
       },
-      "googleMapsPlaceId": "ChIJZ69FU1EABDQRSTVt5gA3x9Q"
+      "googleMapsPlaceId": "ChIJZ69FU1EABDQRSTVt5gA3x9Q",
+      "coordinates": {
+        "lat": 22.2785847,
+        "lng": 114.185119
+      }
     }
   ],
   "yellowBlueMapIds": [

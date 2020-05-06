@@ -61,7 +61,11 @@
   ],
   "places": [
     {
-      "googleMapsPlaceId": "ChIJY9jUhFAABDQRgc4pwtboNCM"
+      "googleMapsPlaceId": "ChIJY9jUhFAABDQRgc4pwtboNCM",
+      "coordinates": {
+        "lat": 22.2772091,
+        "lng": 114.1799365
+      }
     }
   ],
   "yellowBlueMapIds": [

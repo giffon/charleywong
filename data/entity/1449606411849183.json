@@ -48,14 +48,19 @@
     }
   ],
   "tags": [
-    "food","thai"
+    "food",
+    "thai"
   ],
   "places": [
     {
       "address": {
         "zh": "荔枝角長沙灣道883號億利工業中心地下6A6號舖"
       },
-      "googleMapsPlaceId": "ChIJA5GYz7gHBDQRV_cjwMO3B1I"
+      "googleMapsPlaceId": "ChIJA5GYz7gHBDQRV_cjwMO3B1I",
+      "coordinates": {
+        "lat": 22.3366331,
+        "lng": 114.1478912
+      }
     }
   ],
   "yellowBlueMapIds": [

@@ -30,14 +30,19 @@
     }
   ],
   "tags": [
-    "food","cafe"
+    "food",
+    "cafe"
   ],
   "places": [
     {
       "address": {
         "en": "54 Main Street, Ap Lei Chau Aberdeen, Hong Kong"
       },
-      "googleMapsPlaceId": "ChIJkeGWuFwBBDQRp31-IWSLH44"
+      "googleMapsPlaceId": "ChIJkeGWuFwBBDQRp31-IWSLH44",
+      "coordinates": {
+        "lat": 22.2443254,
+        "lng": 114.1560812
+      }
     }
   ],
   "yellowBlueMapIds": [

@@ -57,13 +57,21 @@
       "address": {
         "zh": "香港九龍尖沙咀加連威老道33號4樓"
       },
-      "googleMapsPlaceId": "ChIJbe2Phu4ABDQRhYCw8k3xtTw"
+      "googleMapsPlaceId": "ChIJbe2Phu4ABDQRhYCw8k3xtTw",
+      "coordinates": {
+        "lat": 22.300114,
+        "lng": 114.174198
+      }
     },
     {
       "address": {
         "zh": "香港九龍觀塘翠屏道17號觀塘社區中心2樓"
       },
-      "googleMapsPlaceId": "ChIJzaQoUFABBDQRM8pqYrWM9Fo"
+      "googleMapsPlaceId": "ChIJzaQoUFABBDQRM8pqYrWM9Fo",
+      "coordinates": {
+        "lat": 22.312929,
+        "lng": 114.22941
+      }
     }
   ],
   "yellowBlueMapIds": [

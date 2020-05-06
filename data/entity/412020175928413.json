@@ -19,14 +19,19 @@
   ],
   "posts": [],
   "tags": [
-    "food","thai"
+    "food",
+    "thai"
   ],
   "places": [
     {
       "address": {
         "zh": "大埔廣福道127號"
       },
-      "googleMapsPlaceId": "ChIJAQ79Xz8IBDQRLJ3F3v6KuoM"
+      "googleMapsPlaceId": "ChIJAQ79Xz8IBDQRLJ3F3v6KuoM",
+      "coordinates": {
+        "lat": 22.4481154,
+        "lng": 114.168447
+      }
     }
   ],
   "yellowBlueMapIds": [

@@ -36,14 +36,23 @@
       }
     }
   ],
-  "tags": ["food","taiwanese"],
+  "tags": [
+    "food",
+    "taiwanese"
+  ],
   "places": [
     {
       "address": {
         "zh": "香港天后電氣道39号地下"
       },
-      "googleMapsPlaceId": "Eh9FbGVjdHJpYyBSZCwgVGluIEhhdSwgSG9uZyBLb25nIi4qLAoUChIJj8MzvwEBBDQR8AN2oiww8yUSFAoSCU1yYbmqAQQ0EZY9tzUjsYnd"
+      "googleMapsPlaceId": "Eh9FbGVjdHJpYyBSZCwgVGluIEhhdSwgSG9uZyBLb25nIi4qLAoUChIJj8MzvwEBBDQR8AN2oiww8yUSFAoSCU1yYbmqAQQ0EZY9tzUjsYnd",
+      "coordinates": {
+        "lat": 22.284725,
+        "lng": 114.1916449
+      }
     }
   ],
-  "yellowBlueMapIds": ["Y_EAT00835"]
+  "yellowBlueMapIds": [
+    "Y_EAT00835"
+  ]
 }

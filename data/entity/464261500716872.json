@@ -55,14 +55,19 @@
     }
   ],
   "tags": [
-    "farm","foodStore"
+    "farm",
+    "foodStore"
   ],
   "places": [
     {
       "address": {
         "en": "Well Fung Ind Centre, 58-76 Ta Chuen Ping Street, Kwai Chung"
       },
-      "googleMapsPlaceId": "ChIJmW2oxCX5AzQRSW_WN3vBPmw"
+      "googleMapsPlaceId": "ChIJmW2oxCX5AzQRSW_WN3vBPmw",
+      "coordinates": {
+        "lat": 22.3677811,
+        "lng": 114.1371075
+      }
     }
   ],
   "yellowBlueMapIds": [

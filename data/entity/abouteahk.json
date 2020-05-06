@@ -58,32 +58,49 @@
     }
   ],
   "tags": [
-    "food","taiwanese"
+    "food",
+    "taiwanese"
   ],
   "places": [
     {
       "address": {
         "zh": "尖沙咀樂道32-34號地舖"
       },
-      "googleMapsPlaceId": "ChIJzeFthMkBBDQRYjnpWbDZkzw"
+      "googleMapsPlaceId": "ChIJzeFthMkBBDQRYjnpWbDZkzw",
+      "coordinates": {
+        "lat": 22.2974212,
+        "lng": 114.1715675
+      }
     },
     {
       "address": {
         "zh": "旺角登打士廣場地下8號鋪"
       },
-      "googleMapsPlaceId": "ChIJTV9qcZgBBDQRuPAOeBXRT5w"
+      "googleMapsPlaceId": "ChIJTV9qcZgBBDQRuPAOeBXRT5w",
+      "coordinates": {
+        "lat": 22.3157621,
+        "lng": 114.1712868
+      }
     },
     {
       "address": {
         "zh": "堅尼地城Smithfield Walk 5B鋪"
       },
-      "googleMapsPlaceId": "ChIJnY6-6QL_AzQRzDJGOsEYMf8"
+      "googleMapsPlaceId": "ChIJnY6-6QL_AzQRzDJGOsEYMf8",
+      "coordinates": {
+        "lat": 22.2817002,
+        "lng": 114.1280962
+      }
     },
     {
       "address": {
         "zh": "新浦崗崇齡街1-3號威信樓地下F舖"
       },
-      "googleMapsPlaceId": "ChIJ3-z_uxsHBDQRJG16kL4_8Y8"
+      "googleMapsPlaceId": "ChIJ3-z_uxsHBDQRJG16kL4_8Y8",
+      "coordinates": {
+        "lat": 22.3358057,
+        "lng": 114.1962682
+      }
     }
   ],
   "yellowBlueMapIds": [

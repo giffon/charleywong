@@ -50,19 +50,31 @@
       "address": {
         "zh": "銅鑼灣霎東街15號Oliv 8樓全層"
       },
-      "googleMapsPlaceId": "ChIJ3YyB2FAABDQRaS2mctq_41Q"
+      "googleMapsPlaceId": "ChIJ3YyB2FAABDQRaS2mctq_41Q",
+      "coordinates": {
+        "lat": 22.2781461,
+        "lng": 114.182572
+      }
     },
     {
       "address": {
         "zh": "旺角登打士街56號家樂坊14樓1405室"
       },
-      "googleMapsPlaceId": "ChIJuVLAz8YABDQRapekfUoobiw"
+      "googleMapsPlaceId": "ChIJuVLAz8YABDQRapekfUoobiw",
+      "coordinates": {
+        "lat": 22.3151075,
+        "lng": 114.1712915
+      }
     },
     {
       "address": {
         "zh": "九龍灣宏照道38號MegaBox L2 32-33"
       },
-      "googleMapsPlaceId": "ChIJ-eU74HEBBDQRihd_8iqa7zg"
+      "googleMapsPlaceId": "ChIJ-eU74HEBBDQRihd_8iqa7zg",
+      "coordinates": {
+        "lat": 22.3195004,
+        "lng": 114.2084928
+      }
     }
   ]
 }

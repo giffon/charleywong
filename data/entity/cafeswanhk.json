@@ -86,19 +86,31 @@
       "address": {
         "zh": "粉嶺中心2期219-221號鋪"
       },
-      "googleMapsPlaceId": "ChIJ26-7r433AzQRej2yFPdEDR0"
+      "googleMapsPlaceId": "ChIJ26-7r433AzQRej2yFPdEDR0",
+      "coordinates": {
+        "lat": 22.4913286,
+        "lng": 114.141066
+      }
     },
     {
       "address": {
         "zh": "大埔太和路太和中心9號舖"
       },
-      "googleMapsPlaceId": "ChIJL54GBzkIBDQRec9kaoca81c"
+      "googleMapsPlaceId": "ChIJL54GBzkIBDQRec9kaoca81c",
+      "coordinates": {
+        "lat": 22.4519965,
+        "lng": 114.1642091
+      }
     },
     {
       "address": {
         "zh": "荃灣千色匯2期地下G30號鋪"
       },
-      "googleMapsPlaceId": "ChIJ9anVau34AzQRyncZOsWA23w"
+      "googleMapsPlaceId": "ChIJ9anVau34AzQRyncZOsWA23w",
+      "coordinates": {
+        "lat": 22.3714682,
+        "lng": 114.1184915
+      }
     }
   ]
 }

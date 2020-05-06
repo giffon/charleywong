@@ -92,13 +92,21 @@
       "address": {
         "zh": "香港銅鑼灣富明街1號寶富大樓2樓M室 （么鳳側)"
       },
-      "googleMapsPlaceId": "ChIJJ_nBMlEABDQRVUZKQd-AusM"
+      "googleMapsPlaceId": "ChIJJ_nBMlEABDQRVUZKQd-AusM",
+      "coordinates": {
+        "lat": 22.27880499999999,
+        "lng": 114.183402
+      }
     },
     {
       "address": {
         "zh": "香港觀塘鯉魚門道2號新城工商中心519室（港鐵觀塘站D出口)"
       },
-      "googleMapsPlaceId": "ChIJVVUVmFoBBDQRwEL4zgH2AyA"
+      "googleMapsPlaceId": "ChIJVVUVmFoBBDQRwEL4zgH2AyA",
+      "coordinates": {
+        "lat": 22.3101991,
+        "lng": 114.2287405
+      }
     }
   ],
   "yellowBlueMapIds": [

@@ -52,19 +52,31 @@
       "address": {
         "zh": "屈臣道15號維多利中心58號地舖"
       },
-      "googleMapsPlaceId": "ChIJ3-x6PP4ABDQRQ1oIy9yshp0"
+      "googleMapsPlaceId": "ChIJ3-x6PP4ABDQRQ1oIy9yshp0",
+      "coordinates": {
+        "lat": 22.28718289999999,
+        "lng": 114.1905484
+      }
     },
     {
       "address": {
         "zh": "窩打老道45號A地舖"
       },
-      "googleMapsPlaceId": "ChIJg2O-gcYABDQRZxR4GRodHLw"
+      "googleMapsPlaceId": "ChIJg2O-gcYABDQRZxR4GRodHLw",
+      "coordinates": {
+        "lat": 22.3163678,
+        "lng": 114.1736753
+      }
     },
     {
       "address": {
         "zh": "旺角上海街618號1/F 101A鋪"
       },
-      "googleMapsPlaceId": "ChIJxdvp8McABDQRepxNG9SVh20"
+      "googleMapsPlaceId": "ChIJxdvp8McABDQRepxNG9SVh20",
+      "coordinates": {
+        "lat": 22.3196117,
+        "lng": 114.1681713
+      }
     }
   ]
 }

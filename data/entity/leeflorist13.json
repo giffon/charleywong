@@ -74,13 +74,21 @@
       "address": {
         "zh": "大埔"
       },
-      "googleMapsPlaceId": "ChIJR10a-kcIBDQR-3zcqMv-Jn4"
+      "googleMapsPlaceId": "ChIJR10a-kcIBDQR-3zcqMv-Jn4",
+      "coordinates": {
+        "lat": 22.45404899999999,
+        "lng": 114.1678147
+      }
     },
     {
       "address": {
         "zh": "南昌"
       },
-      "googleMapsPlaceId": "ChIJRY0DEvoBBDQR4xDM37pkr0g"
+      "googleMapsPlaceId": "ChIJRY0DEvoBBDQR4xDM37pkr0g",
+      "coordinates": {
+        "lat": 22.32727939999999,
+        "lng": 114.1553366
+      }
     }
   ],
   "yellowBlueMapIds": [

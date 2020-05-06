@@ -127,7 +127,8 @@
     }
   ],
   "tags": [
-    "food","taiwanese"
+    "food",
+    "taiwanese"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00544"
@@ -137,25 +138,41 @@
       "address": {
         "zh": "九龍何文田勝利道12號地舖1B"
       },
-      "googleMapsPlaceId": "ChIJDXCL88UABDQRtSjsGineWsM"
+      "googleMapsPlaceId": "ChIJDXCL88UABDQRtSjsGineWsM",
+      "coordinates": {
+        "lat": 22.3189086,
+        "lng": 114.17483
+      }
     },
     {
       "address": {
         "zh": "旺角太子西洋菜南街258-260號長寧大廈地下CD（Shop 1）"
       },
-      "googleMapsPlaceId": "ChIJX8IhtaMBBDQRu4eMTblN7e8"
+      "googleMapsPlaceId": "ChIJX8IhtaMBBDQRu4eMTblN7e8",
+      "coordinates": {
+        "lat": 22.323743,
+        "lng": 114.1693183
+      }
     },
     {
       "address": {
         "zh": "旺角通菜街121號地下3號舖"
       },
-      "googleMapsPlaceId": "ChIJQ1SNQs4BBDQRNUgzPqwVRH0"
+      "googleMapsPlaceId": "ChIJQ1SNQs4BBDQRNUgzPqwVRH0",
+      "coordinates": {
+        "lat": 22.3203779,
+        "lng": 114.1702125
+      }
     },
     {
       "address": {
         "zh": "香港 新界 沙田 石門 京瑞廣場2期 101b3"
       },
-      "googleMapsPlaceId": "ChIJm54U0UYGBDQRKtmFPJqHzTk"
+      "googleMapsPlaceId": "ChIJm54U0UYGBDQRKtmFPJqHzTk",
+      "coordinates": {
+        "lat": 22.3888914,
+        "lng": 114.20842
+      }
     }
   ]
 }

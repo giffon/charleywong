@@ -44,13 +44,21 @@
       }
     }
   ],
-  "tags": ["shop","skincare","makeup"],
+  "tags": [
+    "shop",
+    "skincare",
+    "makeup"
+  ],
   "places": [
     {
       "address": {
         "zh": "九龍深水埗基隆街142號地舖"
       },
-      "googleMapsPlaceId": "ChIJG89tMLQABDQRf-epAZW4d7M"
+      "googleMapsPlaceId": "ChIJG89tMLQABDQRf-epAZW4d7M",
+      "coordinates": {
+        "lat": 22.327403,
+        "lng": 114.164056
+      }
     }
   ]
 }

@@ -62,13 +62,21 @@
       "address": {
         "zh": "灣仔"
       },
-      "googleMapsPlaceId": "ChIJn3Z-9FwABDQRprYkZQh7SiU"
+      "googleMapsPlaceId": "ChIJn3Z-9FwABDQRprYkZQh7SiU",
+      "coordinates": {
+        "lat": 22.2777219,
+        "lng": 114.1719656
+      }
     },
     {
       "address": {
         "zh": "太子"
       },
-      "googleMapsPlaceId": "ChIJSbP08MkABDQRIIhGtAnGRRk"
+      "googleMapsPlaceId": "ChIJSbP08MkABDQRIIhGtAnGRRk",
+      "coordinates": {
+        "lat": 22.3253934,
+        "lng": 114.1685287
+      }
     }
   ],
   "yellowBlueMapIds": [

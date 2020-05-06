@@ -62,13 +62,21 @@
       "address": {
         "zh": "九龍太子基隆街22-24號，29號及77-79號"
       },
-      "googleMapsPlaceId": "ChIJN-IqGrYABDQRGD6IIp3r4XI"
+      "googleMapsPlaceId": "ChIJN-IqGrYABDQRGD6IIp3r4XI",
+      "coordinates": {
+        "lat": 22.3249662,
+        "lng": 114.1671669
+      }
     },
     {
       "address": {
         "zh": "香港北角和富道116號康華大廈地下C2"
       },
-      "googleMapsPlaceId": "ChIJpSd8owQBBDQRtS_025ZT9gE"
+      "googleMapsPlaceId": "ChIJpSd8owQBBDQRtS_025ZT9gE",
+      "coordinates": {
+        "lat": 22.2922822,
+        "lng": 114.1980208
+      }
     }
   ]
 }

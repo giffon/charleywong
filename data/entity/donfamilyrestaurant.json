@@ -65,7 +65,8 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "yellowBlueMapIds": [
     "Y_EAT01238"
@@ -75,7 +76,11 @@
       "address": {
         "zh": "新界元朗教育路71-79號京都閣地下"
       },
-      "googleMapsPlaceId": "ChIJv3VcUnX6AzQRq0v2KlX2tHM"
+      "googleMapsPlaceId": "ChIJv3VcUnX6AzQRq0v2KlX2tHM",
+      "coordinates": {
+        "lat": 22.4428499,
+        "lng": 114.0247981
+      }
     }
   ]
 }

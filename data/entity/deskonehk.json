@@ -56,25 +56,41 @@
       "address": {
         "zh": "銅鑼灣禮頓道9-11號合誠大廈18樓"
       },
-      "googleMapsPlaceId": "ChIJ0TqG8VAABDQRwO3dI90dQAQ"
+      "googleMapsPlaceId": "ChIJ0TqG8VAABDQRwO3dI90dQAQ",
+      "coordinates": {
+        "lat": 22.2769839,
+        "lng": 114.1814785
+      }
     },
     {
       "address": {
         "zh": "旺角山東街47-51號中僑商業大廈23樓"
       },
-      "googleMapsPlaceId": "ChIJEW-zr8cABDQRCicRJ4Tz9AU"
+      "googleMapsPlaceId": "ChIJEW-zr8cABDQRCicRJ4Tz9AU",
+      "coordinates": {
+        "lat": 22.3178578,
+        "lng": 114.1701233
+      }
     },
     {
       "address": {
         "zh": "荃灣沙咀道289號恒生荃灣大廈21樓"
       },
-      "googleMapsPlaceId": "ChIJ6_Bo9-z4AzQRmidO35sOJUI"
+      "googleMapsPlaceId": "ChIJ6_Bo9-z4AzQRmidO35sOJUI",
+      "coordinates": {
+        "lat": 22.369477,
+        "lng": 114.117446
+      }
     },
     {
       "address": {
         "zh": "灣仔電氣街1號1A舖"
       },
-      "googleMapsPlaceId": "EiBFbGVjdHJpYyBTdCwgV2FuIENoYWksIEhvbmcgS29uZyIuKiwKFAoSCUMmo1NdAAQ0ERQZRHa64p_7EhQKEgl5_mF-WwAENBHu2MM15nElJA"
+      "googleMapsPlaceId": "EiBFbGVjdHJpYyBTdCwgV2FuIENoYWksIEhvbmcgS29uZyIuKiwKFAoSCUMmo1NdAAQ0ERQZRHa64p_7EhQKEgl5_mF-WwAENBHu2MM15nElJA",
+      "coordinates": {
+        "lat": 22.2761315,
+        "lng": 114.168306
+      }
     }
   ]
 }

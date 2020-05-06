@@ -36,14 +36,19 @@
     }
   ],
   "tags": [
-    "food","taiwanese"
+    "food",
+    "taiwanese"
   ],
   "places": [
     {
       "address": {
         "zh": "旺角黑布街104號利豐大廈地下D號鋪"
       },
-      "googleMapsPlaceId": "ChIJ_flRv2cBBDQRAfRkl8aeYqg"
+      "googleMapsPlaceId": "ChIJ_flRv2cBBDQRAfRkl8aeYqg",
+      "coordinates": {
+        "lat": 22.319655,
+        "lng": 114.172433
+      }
     }
   ],
   "yellowBlueMapIds": [

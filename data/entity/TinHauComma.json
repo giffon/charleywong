@@ -43,14 +43,20 @@
     }
   ],
   "tags": [
-    "food","japanese","vegeterian"
+    "food",
+    "japanese",
+    "vegeterian"
   ],
   "places": [
     {
       "address": {
         "zh": "天后永興街1B號"
       },
-      "googleMapsPlaceId": "ChIJ3ULy8xsBBDQRNPbwvfU-j5o"
+      "googleMapsPlaceId": "ChIJ3ULy8xsBBDQRNPbwvfU-j5o",
+      "coordinates": {
+        "lat": 22.2853448,
+        "lng": 114.1909685
+      }
     }
   ]
 }

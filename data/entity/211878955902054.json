@@ -40,20 +40,30 @@
     }
   ],
   "tags": [
-    "food","japanese","noodle"
+    "food",
+    "japanese",
+    "noodle"
   ],
   "places": [
     {
       "address": {
         "zh": "元朗建德街26號益利大廈地下14號舖"
       },
-      "googleMapsPlaceId": "ChIJDYw8Iwr6AzQRRBhgDoCfcbY"
+      "googleMapsPlaceId": "ChIJDYw8Iwr6AzQRRBhgDoCfcbY",
+      "coordinates": {
+        "lat": 22.44098649999999,
+        "lng": 114.0302629
+      }
     },
     {
       "address": {
         "zh": "香港島屈地街16號金陵大廈地下"
       },
-      "googleMapsPlaceId": "ChIJ-fqsd4T_AzQRRldKB0ToZzA"
+      "googleMapsPlaceId": "ChIJ-fqsd4T_AzQRRldKB0ToZzA",
+      "coordinates": {
+        "lat": 22.2862336,
+        "lng": 114.1359369
+      }
     }
   ],
   "yellowBlueMapIds": [

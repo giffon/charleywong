@@ -38,7 +38,8 @@
     }
   ],
   "tags": [
-    "food","taiwanese"
+    "food",
+    "taiwanese"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00073"
@@ -48,7 +49,11 @@
       "address": {
         "zh": "大圍村南道81號麗星樓地下A鋪"
       },
-      "googleMapsPlaceId": "ChIJNW-fH14HBDQRG-gVs-ROp_4"
+      "googleMapsPlaceId": "ChIJNW-fH14HBDQRG-gVs-ROp_4",
+      "coordinates": {
+        "lat": 22.3744256,
+        "lng": 114.179666
+      }
     }
   ]
 }

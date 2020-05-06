@@ -47,14 +47,19 @@
     }
   ],
   "tags": [
-    "food","cake"
+    "food",
+    "cake"
   ],
   "places": [
     {
       "address": {
         "zh": "大埔廣褔里正發樓23號地下A1舖 "
       },
-      "googleMapsPlaceId": "ChIJh5Jhr3gJBDQR7YPrCNoISl8"
+      "googleMapsPlaceId": "ChIJh5Jhr3gJBDQR7YPrCNoISl8",
+      "coordinates": {
+        "lat": 22.4478151,
+        "lng": 114.1670801
+      }
     }
   ],
   "yellowBlueMapIds": [

@@ -76,7 +76,11 @@
       "address": {
         "en": "Unit A, 22/F, Grandion Plaza, 932 Cheung Sha Wan Road"
       },
-      "googleMapsPlaceId": "ChIJ0Uvg8PwHBDQR91gAGZAtY6w"
+      "googleMapsPlaceId": "ChIJ0Uvg8PwHBDQR91gAGZAtY6w",
+      "coordinates": {
+        "lat": 22.336776,
+        "lng": 114.145418
+      }
     }
   ],
   "yellowBlueMapIds": [

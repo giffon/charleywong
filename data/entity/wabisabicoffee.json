@@ -74,13 +74,21 @@
       "address": {
         "en": "Unit C 4/F., Everest Industrial Centre, 396 Kwun Tong Road"
       },
-      "googleMapsPlaceId": "ChIJpfiyOE8BBDQRazQ7L6hjHgQ"
+      "googleMapsPlaceId": "ChIJpfiyOE8BBDQRazQ7L6hjHgQ",
+      "coordinates": {
+        "lat": 22.3132715,
+        "lng": 114.2223205
+      }
     },
     {
       "address": {
         "en": "Unit GF-05 G/F. 22 Museum Drive, West Kowloon Cultural District"
       },
-      "googleMapsPlaceId": "EiJNdXNldW0gRHIsIFdlc3QgS293bG9vbiwgSG9uZyBLb25nIi4qLAoUChIJ606fBZEABDQRwsxgpxYkVnMSFAoSCZ3_SteWAAQ0ERoXF9cb5r27"
+      "googleMapsPlaceId": "EiJNdXNldW0gRHIsIFdlc3QgS293bG9vbiwgSG9uZyBLb25nIi4qLAoUChIJ606fBZEABDQRwsxgpxYkVnMSFAoSCZ3_SteWAAQ0ERoXF9cb5r27",
+      "coordinates": {
+        "lat": 22.301606,
+        "lng": 114.1580181
+      }
     }
   ]
 }

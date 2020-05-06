@@ -47,13 +47,21 @@
       "address": {
         "en": "304 Hong Kong House, 17-19 Wellington Street, Central"
       },
-      "googleMapsPlaceId": "ChIJoQUDNXsABDQRo16Ojg3sKkQ"
+      "googleMapsPlaceId": "ChIJoQUDNXsABDQRo16Ojg3sKkQ",
+      "coordinates": {
+        "lat": 22.281716,
+        "lng": 114.155677
+      }
     },
     {
       "address": {
         "en": "3/F 17 Cameron Road TST"
       },
-      "googleMapsPlaceId": "ChIJczeh15gBBDQR2G13FEzV7E0"
+      "googleMapsPlaceId": "ChIJczeh15gBBDQR2G13FEzV7E0",
+      "coordinates": {
+        "lat": 22.29914,
+        "lng": 114.173915
+      }
     }
   ],
   "yellowBlueMapIds": [

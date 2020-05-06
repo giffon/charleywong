@@ -35,14 +35,19 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "places": [
     {
       "address": {
         "zh": "新界屯門新墟雅都花園商場地下G10A"
       },
-      "googleMapsPlaceId": "ChIJkXR3vyP7AzQRB8xJ5uaG_L8"
+      "googleMapsPlaceId": "ChIJkXR3vyP7AzQRB8xJ5uaG_L8",
+      "coordinates": {
+        "lat": 22.3978554,
+        "lng": 113.9753018
+      }
     }
   ],
   "yellowBlueMapIds": [

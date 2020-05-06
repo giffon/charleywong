@@ -37,14 +37,19 @@
     }
   ],
   "tags": [
-    "food","cafe"
+    "food",
+    "cafe"
   ],
   "places": [
     {
       "address": {
         "en": "Flat 3, 22/F,83-93. Chai Wan Kok ST, Tsuen Wan, Hong Kong"
       },
-      "googleMapsPlaceId": "ChIJeSDAlO_4AzQRJnYMWlOxdkg"
+      "googleMapsPlaceId": "ChIJeSDAlO_4AzQRJnYMWlOxdkg",
+      "coordinates": {
+        "lat": 22.3727902,
+        "lng": 114.1094763
+      }
     }
   ],
   "yellowBlueMapIds": [

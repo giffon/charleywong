@@ -47,7 +47,11 @@
       "address": {
         "en": "2/F Foo Tak Building, 365 Hennessy Road"
       },
-      "googleMapsPlaceId": "ChIJV0NNBloABDQRfAMD8BJE9TA"
+      "googleMapsPlaceId": "ChIJV0NNBloABDQRfAMD8BJE9TA",
+      "coordinates": {
+        "lat": 22.2789495,
+        "lng": 114.1793967
+      }
     }
   ]
 }

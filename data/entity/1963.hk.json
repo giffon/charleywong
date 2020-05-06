@@ -47,14 +47,19 @@
     }
   ],
   "tags": [
-    "food","taiwanese"
+    "food",
+    "taiwanese"
   ],
   "places": [
     {
       "address": {
         "zh": "灣仔道110號2樓"
       },
-      "googleMapsPlaceId": "ChIJf_R1DVsABDQRb6Kyjx1pj1Q"
+      "googleMapsPlaceId": "ChIJf_R1DVsABDQRb6Kyjx1pj1Q",
+      "coordinates": {
+        "lat": 22.2768695,
+        "lng": 114.1755112
+      }
     }
   ],
   "yellowBlueMapIds": [

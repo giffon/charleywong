@@ -66,19 +66,31 @@
       "address": {
         "en": "242 QUEENS ROAD, CENTRAL"
       },
-      "googleMapsPlaceId": "ChIJE1st110ABDQRjRmyQcpj7oI"
+      "googleMapsPlaceId": "ChIJE1st110ABDQRjRmyQcpj7oI",
+      "coordinates": {
+        "lat": 22.28457269999999,
+        "lng": 114.1515826
+      }
     },
     {
       "address": {
         "en": "31 WING WO STREET, CENTRAL"
       },
-      "googleMapsPlaceId": "ChIJY206-yUBBDQRnVIDFTJ1xLE"
+      "googleMapsPlaceId": "ChIJY206-yUBBDQRnVIDFTJ1xLE",
+      "coordinates": {
+        "lat": 22.285565,
+        "lng": 114.1538857
+      }
     },
     {
       "address": {
         "en": "61 RUSSELL STREET, CAUSEWAY BAY"
       },
-      "googleMapsPlaceId": "ChIJR_9V2qoBBDQRvHjqrsFzNd0"
+      "googleMapsPlaceId": "ChIJR_9V2qoBBDQRvHjqrsFzNd0",
+      "coordinates": {
+        "lat": 22.2789561,
+        "lng": 114.1833676
+      }
     }
   ],
   "yellowBlueMapIds": [

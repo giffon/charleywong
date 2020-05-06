@@ -45,13 +45,21 @@
       "address": {
         "zh": "旺角亞皆老街39-41號金山商業大廈15樓 (旺角C2出口）"
       },
-      "googleMapsPlaceId": "ChIJ2e9_HscABDQRVnH5vbJF39s"
+      "googleMapsPlaceId": "ChIJ2e9_HscABDQRVnH5vbJF39s",
+      "coordinates": {
+        "lat": 22.3193252,
+        "lng": 114.1685493
+      }
     },
     {
       "address": {
         "zh": "銅鑼灣渣甸街54-58號富盛商業大廈10樓A（銅鑼灣F1出口）"
       },
-      "googleMapsPlaceId": "ChIJ0zHkJFEABDQRpj0Csl3qHeo"
+      "googleMapsPlaceId": "ChIJ0zHkJFEABDQRpj0Csl3qHeo",
+      "coordinates": {
+        "lat": 22.279325,
+        "lng": 114.185789
+      }
     }
   ],
   "yellowBlueMapIds": [

@@ -46,13 +46,21 @@
       "address": {
         "en": "105-1F, 618 Shanghai Street, MK"
       },
-      "googleMapsPlaceId": "ChIJzY10huwBBDQR_HMHtsaiZEA"
+      "googleMapsPlaceId": "ChIJzY10huwBBDQR_HMHtsaiZEA",
+      "coordinates": {
+        "lat": 22.3196117,
+        "lng": 114.1681713
+      }
     },
     {
       "address": {
         "en": "A2-5F, Lee Chong Industrial Building, SPK"
       },
-      "googleMapsPlaceId": "ChIJEalZlNAGBDQRw-KEFB8ly8o"
+      "googleMapsPlaceId": "ChIJEalZlNAGBDQRw-KEFB8ly8o",
+      "coordinates": {
+        "lat": 22.3365367,
+        "lng": 114.1991581
+      }
     }
   ],
   "yellowBlueMapIds": [

@@ -73,14 +73,19 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "places": [
     {
       "address": {
         "zh": "香港九龍黃大仙慈雲山蒲蕙里6-8號蒲蕙樓地下8號舖"
       },
-      "googleMapsPlaceId": "ChIJAzRbGt0GBDQRwlCfHnIpV5c"
+      "googleMapsPlaceId": "ChIJAzRbGt0GBDQRwlCfHnIpV5c",
+      "coordinates": {
+        "lat": 22.3464001,
+        "lng": 114.2013859
+      }
     }
   ],
   "yellowBlueMapIds": [

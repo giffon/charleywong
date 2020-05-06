@@ -52,14 +52,19 @@
     }
   ],
   "tags": [
-    "food","cafe"
+    "food",
+    "cafe"
   ],
   "places": [
     {
       "address": {
         "zh": "旺角煙廠街9號興發商業大廈404室 "
       },
-      "googleMapsPlaceId": "ChIJE-qn9MYABDQRHPHakwKbjIc"
+      "googleMapsPlaceId": "ChIJE-qn9MYABDQRHPHakwKbjIc",
+      "coordinates": {
+        "lat": 22.316633,
+        "lng": 114.1721049
+      }
     }
   ],
   "yellowBlueMapIds": [

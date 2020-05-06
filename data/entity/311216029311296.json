@@ -28,14 +28,19 @@
     }
   ],
   "tags": [
-    "food","noodle"
+    "food",
+    "noodle"
   ],
   "places": [
     {
       "address": {
         "zh": "沙田石門安群街3號京瑞廣場1期地下G06號舖"
       },
-      "googleMapsPlaceId": "ChIJycXFxkYGBDQRcwUy7pFW3Ao"
+      "googleMapsPlaceId": "ChIJycXFxkYGBDQRcwUy7pFW3Ao",
+      "coordinates": {
+        "lat": 22.3885091,
+        "lng": 114.2083204
+      }
     }
   ],
   "yellowBlueMapIds": [

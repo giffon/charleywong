@@ -45,7 +45,11 @@
       "address": {
         "en": "Room 03, 22/F, Prosper Commercial Building, 9 Yin Chong St, Mongkok, Kowloon, HK"
       },
-      "googleMapsPlaceId": "ChIJE-qn9MYABDQRHPHakwKbjIc"
+      "googleMapsPlaceId": "ChIJE-qn9MYABDQRHPHakwKbjIc",
+      "coordinates": {
+        "lat": 22.316633,
+        "lng": 114.1721049
+      }
     }
   ]
 }

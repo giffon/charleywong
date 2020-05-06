@@ -55,13 +55,21 @@
       "address": {
         "zh": "荃灣海壩街89-93號荃好景大廈地下D舖"
       },
-      "googleMapsPlaceId": "ChIJIytRrrr5AzQRM5W9qARC3bQ"
+      "googleMapsPlaceId": "ChIJIytRrrr5AzQRM5W9qARC3bQ",
+      "coordinates": {
+        "lat": 22.3722991,
+        "lng": 114.1152283
+      }
     },
     {
       "address": {
         "zh": "尖沙咀金巴利道香檳大廈商埸13鋪"
       },
-      "googleMapsPlaceId": "ChIJhSeELewABDQRFxyk5_y8t3g"
+      "googleMapsPlaceId": "ChIJhSeELewABDQRFxyk5_y8t3g",
+      "coordinates": {
+        "lat": 22.3002904,
+        "lng": 114.1729411
+      }
     }
   ]
 }

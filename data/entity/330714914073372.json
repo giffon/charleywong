@@ -28,14 +28,19 @@
     }
   ],
   "tags": [
-    "food","thai"
+    "food",
+    "thai"
   ],
   "places": [
     {
       "address": {
         "zh": "大角嘴中匯街16號中美樓29號地鋪"
       },
-      "googleMapsPlaceId": "ChIJS4Yj2R8BBDQRwCWSLgoEYaA"
+      "googleMapsPlaceId": "ChIJS4Yj2R8BBDQRwCWSLgoEYaA",
+      "coordinates": {
+        "lat": 22.3225635,
+        "lng": 114.1614451
+      }
     }
   ],
   "yellowBlueMapIds": [

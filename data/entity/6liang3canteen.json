@@ -72,20 +72,30 @@
     }
   ],
   "tags": [
-    "food","taiwanese","noodle"
+    "food",
+    "taiwanese",
+    "noodle"
   ],
   "places": [
     {
       "address": {
         "zh": "觀塘巧明街107號4樓02室"
       },
-      "googleMapsPlaceId": "ChIJV6kI_BQBBDQRXQ5a--wJQ_c"
+      "googleMapsPlaceId": "ChIJV6kI_BQBBDQRXQ5a--wJQ_c",
+      "coordinates": {
+        "lat": 22.3121642,
+        "lng": 114.2241663
+      }
     },
     {
       "address": {
         "zh": "尖沙嘴宜昌街3號地鋪"
       },
-      "googleMapsPlaceId": "ChIJTeEoffIABDQRc7H0QqF3YTg"
+      "googleMapsPlaceId": "ChIJTeEoffIABDQRc7H0QqF3YTg",
+      "coordinates": {
+        "lat": 22.2968754,
+        "lng": 114.1707886
+      }
     }
   ],
   "yellowBlueMapIds": [

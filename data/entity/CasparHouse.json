@@ -35,13 +35,21 @@
       "address": {
         "zh": "太古城Designport"
       },
-      "googleMapsPlaceId": "ChIJV6IybXMBBDQRbI4Dl1_zWmU"
+      "googleMapsPlaceId": "ChIJV6IybXMBBDQRbI4Dl1_zWmU",
+      "coordinates": {
+        "lat": 22.2865471,
+        "lng": 114.2189883
+      }
     },
     {
       "address": {
         "zh": "台北信義誠品店4/F"
       },
-      "googleMapsPlaceId": "ChIJywaY1LurQjQRS74hsbes0Xk"
+      "googleMapsPlaceId": "ChIJywaY1LurQjQRS74hsbes0Xk",
+      "coordinates": {
+        "lat": 25.03962,
+        "lng": 121.5652046
+      }
     }
   ]
 }

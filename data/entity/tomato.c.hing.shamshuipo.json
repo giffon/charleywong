@@ -56,13 +56,21 @@
       "address": {
         "zh": "九龍深水埗基隆街255號地下"
       },
-      "googleMapsPlaceId": "ChIJ25RrdrQABDQR2Cb0qPIEQ9c"
+      "googleMapsPlaceId": "ChIJ25RrdrQABDQR2Cb0qPIEQ9c",
+      "coordinates": {
+        "lat": 22.3287915,
+        "lng": 114.1619229
+      }
     },
     {
       "address": {
         "zh": "元朗擊壤路9號金寶大廈地下4號舖"
       },
-      "googleMapsPlaceId": "ChIJYQoji5_wAzQRNPmHLMd79Vo"
+      "googleMapsPlaceId": "ChIJYQoji5_wAzQRNPmHLMd79Vo",
+      "coordinates": {
+        "lat": 22.444908,
+        "lng": 114.024793
+      }
     }
   ]
 }

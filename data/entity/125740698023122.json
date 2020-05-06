@@ -56,14 +56,19 @@
     }
   ],
   "tags": [
-    "food","cafe"
+    "food",
+    "cafe"
   ],
   "places": [
     {
       "address": {
         "zh": "北角錦屏街35A東發大廈B座地下 "
       },
-      "googleMapsPlaceId": "ChIJqZ3C_wQBBDQRW9POa7SHKLI"
+      "googleMapsPlaceId": "ChIJqZ3C_wQBBDQRW9POa7SHKLI",
+      "coordinates": {
+        "lat": 22.2902719,
+        "lng": 114.2003577
+      }
     }
   ],
   "yellowBlueMapIds": [

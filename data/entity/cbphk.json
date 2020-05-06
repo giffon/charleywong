@@ -55,13 +55,21 @@
       "address": {
         "zh": "九龍紅磡青洲街3號紅磡花園地下G2鋪"
       },
-      "googleMapsPlaceId": "ChIJl1vGydUABDQRazdyIECrUyU"
+      "googleMapsPlaceId": "ChIJl1vGydUABDQRazdyIECrUyU",
+      "coordinates": {
+        "lat": 22.309705,
+        "lng": 114.186735
+      }
     },
     {
       "address": {
         "zh": "香港西灣河西灣河街14號地下"
       },
-      "googleMapsPlaceId": "ChIJLZNimgIBBDQRkybqjmTWK9Q"
+      "googleMapsPlaceId": "ChIJLZNimgIBBDQRkybqjmTWK9Q",
+      "coordinates": {
+        "lat": 22.280067,
+        "lng": 114.224328
+      }
     }
   ]
 }

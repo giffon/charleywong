@@ -22,14 +22,19 @@
     }
   ],
   "tags": [
-    "food","noodle"
+    "food",
+    "noodle"
   ],
   "places": [
     {
       "address": {
         "zh": "油麻地廣東道838號金冠樓地下"
       },
-      "googleMapsPlaceId": "ChIJi3_KvMAABDQRu2nGO206pfI"
+      "googleMapsPlaceId": "ChIJi3_KvMAABDQRu2nGO206pfI",
+      "coordinates": {
+        "lat": 22.3136135,
+        "lng": 114.1684699
+      }
     }
   ]
 }

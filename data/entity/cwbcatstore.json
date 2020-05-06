@@ -44,7 +44,11 @@
       "address": {
         "en": "Flat D, 3/F.,Po Ming Building, Foo Ming Street, Causeway Bay H.K."
       },
-      "googleMapsPlaceId": "ChIJE_lkMVEABDQRiIF77PrfYPI"
+      "googleMapsPlaceId": "ChIJE_lkMVEABDQRiIF77PrfYPI",
+      "coordinates": {
+        "lat": 22.2785509,
+        "lng": 114.1834922
+      }
     }
   ]
 }

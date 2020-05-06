@@ -19,14 +19,19 @@
   ],
   "posts": [],
   "tags": [
-    "food","noodle"
+    "food",
+    "noodle"
   ],
   "places": [
     {
       "address": {
         "zh": "灣仔灣仔道177-179號保和大廈地下6號舖"
       },
-      "googleMapsPlaceId": "ChIJR6GP2rYBBDQRQAM1s1OSxJM"
+      "googleMapsPlaceId": "ChIJR6GP2rYBBDQRQAM1s1OSxJM",
+      "coordinates": {
+        "lat": 22.2771076,
+        "lng": 114.1772815
+      }
     }
   ],
   "yellowBlueMapIds": [

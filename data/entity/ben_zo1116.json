@@ -36,7 +36,8 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "yellowBlueMapIds": [
     "Y_EAT01612"
@@ -46,7 +47,11 @@
       "address": {
         "zh": "尖沙咀赫德道4號THE HART 3樓"
       },
-      "googleMapsPlaceId": "ChIJmbAGEe4ABDQRSR_VbEEMWEg"
+      "googleMapsPlaceId": "ChIJmbAGEe4ABDQRSR_VbEEMWEg",
+      "coordinates": {
+        "lat": 22.2979299,
+        "lng": 114.174609
+      }
     }
   ]
 }

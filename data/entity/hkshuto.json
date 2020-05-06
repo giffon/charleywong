@@ -64,14 +64,19 @@
     }
   ],
   "tags": [
-    "japanese","bar"
+    "japanese",
+    "bar"
   ],
   "places": [
     {
       "address": {
         "en": "23a Kam Ping Street, north point"
       },
-      "googleMapsPlaceId": "ChIJc1bAVQQBBDQRHzh-ZJUD1Y8"
+      "googleMapsPlaceId": "ChIJc1bAVQQBBDQRHzh-ZJUD1Y8",
+      "coordinates": {
+        "lat": 22.2904077,
+        "lng": 114.2003456
+      }
     }
   ],
   "yellowBlueMapIds": [

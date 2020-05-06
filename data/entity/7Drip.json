@@ -39,14 +39,19 @@
     }
   ],
   "tags": [
-    "food","cafe"
+    "food",
+    "cafe"
   ],
   "places": [
     {
       "address": {
         "en": "G/f TLP132 , No.132-134 ,Tai Lin Pai Rd.Kwai Chung. N.T"
       },
-      "googleMapsPlaceId": "ChIJ__-vAZj4AzQRY-bYb8ze-OM"
+      "googleMapsPlaceId": "ChIJ__-vAZj4AzQRY-bYb8ze-OM",
+      "coordinates": {
+        "lat": 22.3596352,
+        "lng": 114.1323368
+      }
     }
   ],
   "yellowBlueMapIds": [

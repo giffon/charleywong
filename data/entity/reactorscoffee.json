@@ -62,13 +62,21 @@
       "address": {
         "en": "Shop No.823, Level 8 Fortune Metropolis, No.6 Metropolis Drive, Hunghom"
       },
-      "googleMapsPlaceId": "ChIJ1YTS8uYABDQRz6YfT-d7cJ4"
+      "googleMapsPlaceId": "ChIJ1YTS8uYABDQRz6YfT-d7cJ4",
+      "coordinates": {
+        "lat": 22.3026662,
+        "lng": 114.1831797
+      }
     },
     {
       "address": {
         "en": "Shop No. G92, G/F, Fortune City One"
       },
-      "googleMapsPlaceId": "ChIJkf-g5UUGBDQRVZIIJtiSzik"
+      "googleMapsPlaceId": "ChIJkf-g5UUGBDQRVZIIJtiSzik",
+      "coordinates": {
+        "lat": 22.3866293,
+        "lng": 114.2044382
+      }
     }
   ],
   "yellowBlueMapIds": [

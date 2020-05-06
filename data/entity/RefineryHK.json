@@ -40,13 +40,21 @@
       "address": {
         "en": "703, Taurus Building, 21A & 21B Granville Road, Tsim Sha Tsui, Hong Kong"
       },
-      "googleMapsPlaceId": "ChIJZYXenHUBBDQRE8UvKha7SzQ"
+      "googleMapsPlaceId": "ChIJZYXenHUBBDQRE8UvKha7SzQ",
+      "coordinates": {
+        "lat": 22.283036,
+        "lng": 114.151855
+      }
     },
     {
       "address": {
         "en": "803, Hong Kong House, 17-19 Wellington Street, Central, Hong Kong"
       },
-      "googleMapsPlaceId": "ChIJdWpT6e8BBDQRqsDJzTrCJEA"
+      "googleMapsPlaceId": "ChIJdWpT6e8BBDQRqsDJzTrCJEA",
+      "coordinates": {
+        "lat": 22.2817138,
+        "lng": 114.1557363
+      }
     }
   ],
   "yellowBlueMapIds": [

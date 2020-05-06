@@ -30,7 +30,8 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "alias": [
     "109635510438050"
@@ -40,7 +41,11 @@
       "address": {
         "zh": "香港北角電氣道233號城市中心商場83號地鋪"
       },
-      "googleMapsPlaceId": "ChIJi9sKBwMBBDQRFi15TdSHsAw"
+      "googleMapsPlaceId": "ChIJi9sKBwMBBDQRFi15TdSHsAw",
+      "coordinates": {
+        "lat": 22.2907972,
+        "lng": 114.1944295
+      }
     }
   ],
   "yellowBlueMapIds": [

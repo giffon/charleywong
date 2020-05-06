@@ -50,14 +50,19 @@
     }
   ],
   "tags": [
-    "food","taiwanese"
+    "food",
+    "taiwanese"
   ],
   "places": [
     {
       "address": {
         "zh": "大角咀大全街13號大有樓地下A號舖"
       },
-      "googleMapsPlaceId": "ChIJORiVq7AABDQRtEK525BXAP4"
+      "googleMapsPlaceId": "ChIJORiVq7AABDQRtEK525BXAP4",
+      "coordinates": {
+        "lat": 22.3217213,
+        "lng": 114.1615387
+      }
     }
   ],
   "yellowBlueMapIds": [

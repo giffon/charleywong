@@ -50,7 +50,11 @@
       "address": {
         "en": "Unit A, 6/F, Wing Chai Industrial Building, 27-29 Ng Fong Street, San Po Kong"
       },
-      "googleMapsPlaceId": "ChIJZVDKmtoGBDQR8-MXiLFAwBw"
+      "googleMapsPlaceId": "ChIJZVDKmtoGBDQR8-MXiLFAwBw",
+      "coordinates": {
+        "lat": 22.3380233,
+        "lng": 114.2004384
+      }
     }
   ]
 }

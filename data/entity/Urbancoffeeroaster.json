@@ -59,13 +59,21 @@
       "address": {
         "en": "7 Bristol Ave, Tsim Sha Tsui"
       },
-      "googleMapsPlaceId": "ChIJ0Q_xB_IABDQRO6vXIr2gBPE"
+      "googleMapsPlaceId": "ChIJ0Q_xB_IABDQRO6vXIr2gBPE",
+      "coordinates": {
+        "lat": 22.2973648,
+        "lng": 114.1728085
+      }
     },
     {
       "address": {
         "en": "1/F, shop B, Fashion Walk, 7 Kingston St, Causeway Bay"
       },
-      "googleMapsPlaceId": "ChIJRQbZg1wBBDQRrB1j69E5d7g"
+      "googleMapsPlaceId": "ChIJRQbZg1wBBDQRrB1j69E5d7g",
+      "coordinates": {
+        "lat": 22.2823725,
+        "lng": 114.1857755
+      }
     }
   ],
   "yellowBlueMapIds": [

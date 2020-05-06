@@ -46,7 +46,11 @@
   ],
   "places": [
     {
-      "googleMapsPlaceId": "ChIJET-c7BoBBDQRrqEcjV2bNYw"
+      "googleMapsPlaceId": "ChIJET-c7BoBBDQRrqEcjV2bNYw",
+      "coordinates": {
+        "lat": 22.330931,
+        "lng": 114.164293
+      }
     }
   ],
   "yellowBlueMapIds": [

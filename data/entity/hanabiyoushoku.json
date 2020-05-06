@@ -77,14 +77,19 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "places": [
     {
       "address": {
         "zh": "屯門龍門路54號屯門高爾夫球中心"
       },
-      "googleMapsPlaceId": "ChIJh3i6uAr7AzQRmFMn7XtwNXY"
+      "googleMapsPlaceId": "ChIJh3i6uAr7AzQRmFMn7XtwNXY",
+      "coordinates": {
+        "lat": 22.3822768,
+        "lng": 113.9627426
+      }
     }
   ],
   "yellowBlueMapIds": [
