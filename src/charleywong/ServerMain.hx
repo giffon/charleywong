@@ -613,6 +613,29 @@ class ServerMain {
         return entity;
     }
 
+    static function geocode(entity:Entity):Void {
+        var gmapsClient = new js.npm.googlemaps.Client();
+        var GEOCODING_KEY = Sys.getEnv("GEOCODING_KEY");
+        if (GEOCODING_KEY != null && entity.places != null) {
+            var geocodings = [
+                for (p in entity.places)
+                if (p.googleMapsPlaceId != null && p.coordinates == null)
+                gmapsClient.placeDetails({
+                    params: {
+                        place_id: p.googleMapsPlaceId,
+                        key: GEOCODING_KEY,
+                    }
+                }).then(response -> {
+                    p.coordinates = response.data.result.geometry.location;
+                })
+            ];
+            if (geocodings.length > 0) {
+                Promise.all(geocodings)
+                    .then(_ -> saveEntity(entity, false, false));
+            }
+        }
+    }
+
     static function main():Void {
         app = new Application();
 
@@ -644,7 +667,6 @@ class ServerMain {
         app.get("/search/:query", searchHtml);
 
         if (isMain) {
-            var gmapsClient = new js.npm.googlemaps.Client();
             var watcher = js.npm.chokidar.Chokidar.watch(dataDirectory,{
                 persistent: true,
                 ignoreInitial: true,
@@ -667,26 +689,7 @@ class ServerMain {
                     trace(e);
                     return;
                 }
-
-                var GEOCODING_KEY = Sys.getEnv("GEOCODING_KEY");
-                if (GEOCODING_KEY != null && entity.places != null) {
-                    var geocodings = [
-                        for (p in entity.places)
-                        if (p.googleMapsPlaceId != null && p.coordinates == null)
-                        gmapsClient.placeDetails({
-                            params: {
-                                place_id: p.googleMapsPlaceId,
-                                key: GEOCODING_KEY,
-                            }
-                        }).then(response -> {
-                            p.coordinates = response.data.result.geometry.location;
-                        })
-                    ];
-                    if (geocodings.length > 0) {
-                        Promise.all(geocodings)
-                            .then(_ -> saveEntity(entity, false, false));
-                    }
-                }
+                geocode(entity);
                 entityIndex.invalidate();
             });
             watcher.on("unlink", function(path:String) {
