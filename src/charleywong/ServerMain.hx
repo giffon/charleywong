@@ -660,8 +660,7 @@ class ServerMain {
             });
             watcher.on("change", function(path:String) {
                 Sys.println('detected change: $path');
-                var content = File.getContent(path);
-                entityIndex.entities[path] = try {
+                var entity = entityIndex.entities[path] = try {
                     Json.parse(File.getContent(path));
                 } catch (e:Dynamic) {
                     trace(e);
