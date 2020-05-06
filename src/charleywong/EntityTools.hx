@@ -22,7 +22,12 @@ class EntityTools {
                             null;
                         case { code: "HKG" }: "香港";
                         case { code: "TWN" }: "臺灣";
-                        case country: country.name;
+                        case { code: "USA" }: "美國";
+                        case { code: "JPN" }: "日本";
+                        case { code: "CHN" }: "中國";
+                        case country:
+                            trace('Missing Chinese name of ${country.name} (${country.code})');
+                            country.name;
                     }
                 case dc:
                     dc.district;
