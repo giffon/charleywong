@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.sensoryzero.com"
+      "url": "https://www.sensoryzero.com"
     },
     {
       "url": "https://www.facebook.com/sensoryzero/",
@@ -26,17 +26,20 @@
     {
       "url": "https://www.instagram.com/sensoryzero/",
       "meta": {
+        "name": "sensory ZERO",
         "about": "Specialty Coffee Roasters\n☕ One Island South,WongChukHang\n☕ Eslite Bookstore,Taikoo\n☕ LaneCrawford,TST\n☕ ShuiOn Centre,Wanchai\n☕️ Sasa Supreme,CWB"
       }
+    },
+    {
+      "url": "https://twitter.com/sensoryZERO"
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/sensoryzero/photos/a.476116855864377/1530202460455806",
-      "meta": {
-        "utime": "1564815082",
-        "sharedWith": "Custom"
-      }
+      "url": "https://www.instagram.com/p/B0tMaBnBDRF/"
+    },
+    {
+      "url": "https://www.instagram.com/p/B4r1KmbBh-O/"
     }
   ],
   "tags": [
@@ -48,5 +51,72 @@
     "Y_EAT01313",
     "Y_EAT01314",
     "Y_EAT01315"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "太古太古城道18號太古城中心地下誠品生活G014舖"
+      },
+      "googleMapsPlaceId": "ChIJNZW5dHMBBDQRVlOvc-kk7kU",
+      "coordinates": {
+        "lat": 22.2859647,
+        "lng": 114.2179488
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "黃竹坑香葉街2號One Island South G01號舖"
+      },
+      "googleMapsPlaceId": "ChIJAQBQFiIABDQRceF23k2uM5s",
+      "coordinates": {
+        "lat": 22.2485094,
+        "lng": 114.1687762
+      },
+      "area": {
+        "zh": "南區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀廣東道3號海港城馬哥孛羅香港酒店G樓連卡佛"
+      },
+      "googleMapsPlaceId": "ChIJe7SuJ_MABDQRk4zLbV0JDLs",
+      "coordinates": {
+        "lat": 22.2949267,
+        "lng": 114.168578
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "灣仔港灣道6-8號瑞安中心1樓103號舖"
+      },
+      "googleMapsPlaceId": "ChIJGzcbwEoBBDQRLobOczVbzFg",
+      "coordinates": {
+        "lat": 22.2801675,
+        "lng": 114.1715244
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣禮頓道77號禮頓中心2樓L1號舖"
+      },
+      "googleMapsPlaceId": "ChIJNXhSmu0BBDQRlmIhxyuD9IQ",
+      "coordinates": {
+        "lat": 22.2776353,
+        "lng": 114.1829035
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
