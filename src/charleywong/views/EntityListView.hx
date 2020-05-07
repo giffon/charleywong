@@ -26,7 +26,7 @@ class EntityListView extends View {
     ');
 
     function renderEntity(e:Entity) return jsx('
-        <li key=${e.id}>
+        <li key=${e.id} className=${Tag.expend(e.tags).map(t -> "tag-" + t.id).join(" ")} >
             <a href=${'/${e.id}'}>${e.name.printAll()}</a>
             <span>${e.areas().map(renderAreasLabel)}</span>
         </li>

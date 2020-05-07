@@ -110,10 +110,15 @@ iframe.place {
     margin-left: 0.5em;
 }
 
+.entity-list li.tag-closed a {
+    color: gray;
+}
+
 .entity-list li .area {
     font-size: small;
     margin: 0 0.1em;
     white-space: nowrap;
+    color: #333;
 }
 
 .places .MuiInputBase-root {
