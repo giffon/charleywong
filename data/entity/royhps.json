@@ -5,17 +5,28 @@
   },
   "webpages": [
     {
+      "url": "https://royhpshop.com"
+    },
+    {
       "url": "https://www.facebook.com/royhps/",
       "meta": {
+        "name": "Roy's Headphones",
         "id": "429929677107972",
         "about": "店鋪地址：\n尖沙咀 漢口道 38－40號 漢興大廈 2樓\n\n電話：27391262\n\n營業時間：\n星期一至五 0930-1930\n星期六 0930-1900\n公眾假期、星期日 0930-1800\n\nBlueBird 耳擴香港總代理\n\nInstagram：royhps",
         "categories": [
           "Electronics",
-          "Retail Company",
-          "Audio Visual Equipment Store"
+          "Audio Visual Equipment Store",
+          "Retail Company"
         ],
         "email": "royhps@outlook.com",
         "tel": "27391262"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/royhps/",
+      "meta": {
+        "name": "Roy's Headphones 自家製耳機耳擴升級線",
+        "about": "本地耳機隨身音響專門店\n真無線耳機（獨家）：#T300Pro2020款\n全港首創：調音系統耳機 #X4 及 #X6\n地址：九龍 尖沙咀 漢口道38－40號 漢興大廈 2樓\n#門市收現金PayMe轉數快 #店主一點後駐店"
       }
     }
   ],
@@ -37,5 +48,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01462"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍 尖沙咀 漢口道38－40號 漢興大廈 2樓"
+      },
+      "googleMapsPlaceId": "ChIJme0Ah-0ABDQREQpQl607Pxg",
+      "coordinates": {
+        "lat": 22.297725,
+        "lng": 114.171239
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

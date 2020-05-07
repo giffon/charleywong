@@ -41,5 +41,20 @@
     "phone",
     "electricalAppliances",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "黃金電腦商場 地庫11號舖"
+      },
+      "googleMapsPlaceId": "ChIJsQgOqbQABDQR4xl2fE6Tv5s",
+      "coordinates": {
+        "lat": 22.33204599999999,
+        "lng": 114.162
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

@@ -6,18 +6,19 @@
   },
   "webpages": [
     {
-      "url": "http://overpowerpc.com"
+      "url": "https://overpowerpc.com"
     },
     {
       "meta": {
+        "name": "O.P PC Supply 奧鉑性價電腦器材",
         "id": "523403478185633",
-        "about": "O.P. - 源於英文電競術語 OverPower，即強得不合理之意。 O.P.為預算有限，本地學生入門級別電競玩家與及預算用家提供一個耐用，極高性能價格比之電競系統平台。",
+        "about": "O.P.  - 源於英文電競術語 OverPower，即強得不合理之意。 O.P.為預算有限，本地學生入門級別電競玩家與及預算用家提供一個耐用，極高性能價格比之電競系統平台。",
         "categories": [
           "Electronics",
-          "Computers (brand)"
+          "Computers (Brand)"
         ],
-        "email": "info@bsdahk.com",
-        "tel": "66938953"
+        "email": "info@overpowerpc.com",
+        "tel": "26085050"
       },
       "url": "https://www.facebook.com/overpowerpchk/"
     }
@@ -39,5 +40,20 @@
   "tags": [
     "computer",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍青山道479號麗昌工廠大廈3樓3030室 (維修中心及營業部)"
+      },
+      "googleMapsPlaceId": "ChIJW37f51MHBDQRHLkq9uDwlvM",
+      "coordinates": {
+        "lat": 22.339082,
+        "lng": 114.1512615
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
