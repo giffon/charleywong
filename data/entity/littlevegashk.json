@@ -6,19 +6,27 @@
   "webpages": [
     {
       "meta": {
+        "name": "Little Vegas",
         "id": "727415680629667",
-        "about": "Vegas-themed restaurant in Causeway Bay.",
+        "about": "Based in Hong Kong",
         "categories": [
-          "American restaurant",
-          "New American restaurant",
-          "Asian fusion restaurant"
+          "American Restaurant",
+          "New American Restaurant",
+          "Asian Fusion Restaurant"
         ],
         "addr": "銅鑼灣耀華街3號百樂中心25樓",
-        "area": "Hong Kong",
-        "email": "info@little-vegas.com",
+        "area": "000 Hong Kong",
+        "email": "littleveashk@gmail.com",
         "tel": "26222369"
       },
       "url": "https://www.facebook.com/littlevegashk/"
+    },
+    {
+      "url": "https://www.instagram.com/littlevegashk/",
+      "meta": {
+        "name": "Little Vegas",
+        "about": "可能係全香港最無厘頭嘅餐廳"
+      }
     }
   ],
   "posts": [
@@ -30,9 +38,26 @@
     }
   ],
   "tags": [
+    "pizza",
+    "burger",
     "food"
   ],
   "yellowBlueMapIds": [
     "Y_EAT02101"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣耀華街3號百樂中心25樓"
+      },
+      "googleMapsPlaceId": "ChIJMxlW51AABDQRg1gvWN0WgmE",
+      "coordinates": {
+        "lat": 22.2777034,
+        "lng": 114.1821785
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }

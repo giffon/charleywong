@@ -43,6 +43,22 @@
     }
   ],
   "tags": [
+    "burger",
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "1/f, Royal Commerical Centre, no.56 Parkes Street, Jordan, Kowloon"
+      },
+      "googleMapsPlaceId": "ChIJl5uhZusABDQRbXa1iJlgqLA",
+      "coordinates": {
+        "lat": 22.30470889999999,
+        "lng": 114.1707101
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

@@ -11,12 +11,12 @@
         "id": "392138984557011",
         "about": "本店剛於2017年12月3日正式開張，環境以綠色和木材為主要元素，配搭田園設計，空間感十足，感覺舒服自在，位置便利就腳，位於長沙灣地鐵站A2出口，步行5分鐘就到。",
         "categories": [
-          "Coffee Shop",
+          "Restaurant",
           "Tea Room",
-          "Restaurant"
+          "Coffee Shop"
         ],
         "addr": "營盤街147號地下B2鋪",
-        "area": "Hong Kong",
+        "area": "HK Hong Kong",
         "email": "whatsscafe@gmail.com",
         "tel": "39562336"
       }
@@ -40,9 +40,26 @@
   ],
   "tags": [
     "food",
-    "cafe"
+    "cafe",
+    "burger",
+    "pizza"
   ],
   "yellowBlueMapIds": [
     "Y_EAT01728"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "營盤街147號地下B2鋪"
+      },
+      "googleMapsPlaceId": "ChIJn6WX7UwHBDQRV7uuUapLchg",
+      "coordinates": {
+        "lat": 22.3348401,
+        "lng": 114.1605607
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

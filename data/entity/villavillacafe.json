@@ -6,12 +6,12 @@
   "webpages": [
     {
       "meta": {
+        "name": "Villa Villa Cafe & Bar",
         "id": "1093830503969571",
         "about": "Villa Villa Cafe\n開始營業於 2015年12月7日\n\n本公司成立於2015年，持有普通食肆牌照。\n牌照號碼：2211805812",
         "categories": [
-          "Bar",
-          "Modern European restaurant",
-          "Coffee shop"
+          "Modern European Restaurant",
+          "Coffee Shop"
         ],
         "addr": "北角錦屏街後街東發大厦25號A 地鋪",
         "area": "Hong Kong",
@@ -19,6 +19,13 @@
         "tel": "27779033"
       },
       "url": "https://www.facebook.com/villavillacafe/"
+    },
+    {
+      "url": "https://www.instagram.com/villavillacafe/",
+      "meta": {
+        "name": "Villa Villa Cafe & Bar",
+        "about": "訂造生日蛋糕，法國朱古力，Pizza Dough，各式麵包甜品服務，\n婚宴滿朋, 謝師宴, 會議甜點及各式到會等\n門市�北角錦屏後街25A 號東發大廈地下31號鋪\nWhatsApp�97619290\n�27779033"
+      }
     }
   ],
   "posts": [
@@ -31,9 +38,26 @@
   ],
   "tags": [
     "food",
-    "cafe"
+    "cafe",
+    "cake",
+    "pizza"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00991"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "北角錦屏街後街東發大厦25號A 地鋪"
+      },
+      "googleMapsPlaceId": "ChIJd6whAAUBBDQRe8S4AXfn5Sg",
+      "coordinates": {
+        "lat": 22.290376,
+        "lng": 114.200357
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
   ]
 }

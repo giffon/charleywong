@@ -6,6 +6,7 @@
   "webpages": [
     {
       "meta": {
+        "name": "food GARDEN",
         "id": "351521598327312",
         "about": "foodGARDEN ~ 精品生活超市 Boutique Supermarket",
         "categories": [
@@ -15,6 +16,12 @@
         "tel": "28689155"
       },
       "url": "https://www.facebook.com/foodgardenhk/"
+    },
+    {
+      "url": "https://www.instagram.com/foodgardenhk/",
+      "meta": {
+        "name": "Foodgarden"
+      }
     }
   ],
   "posts": [
@@ -23,9 +30,26 @@
     }
   ],
   "tags": [
+    "pizza",
+    "burger",
     "food"
   ],
   "yellowBlueMapIds": [
     "Y_EAT01963"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荔枝角長義街9號D2 Place一期3樓303-304號舖"
+      },
+      "googleMapsPlaceId": "ChIJodtmllQHBDQROfjnW2PYqLM",
+      "coordinates": {
+        "lat": 22.336123,
+        "lng": 114.148845
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
