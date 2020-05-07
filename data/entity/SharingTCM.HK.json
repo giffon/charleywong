@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://sharingtcm.wordpress.com"
+    },
+    {
       "url": "https://tuutfuhoi.wordpress.com"
     },
     {
@@ -41,5 +44,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00711"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "官塘工業中心3期10樓J室"
+      },
+      "googleMapsPlaceId": "ChIJaRaSqloBBDQRU1h5xn1Ks8A",
+      "coordinates": {
+        "lat": 22.3109435,
+        "lng": 114.2272849
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
