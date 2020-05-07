@@ -19,10 +19,10 @@
       "meta": {
         "name": "The Vege Lab",
         "id": "1703770663204355",
-        "about": "info@thevegelab.com\n\n+852 5332 6500\n(WhatsApp only)",
+        "about": "info@thevegelab.com\n\n+852 5332 6500 \n(WhatsApp only)",
         "categories": [
-          "Vegetarian/Vegan Restaurant",
-          "Dessert Shop"
+          "Dessert Shop",
+          "Vegetarian/Vegan Restaurant"
         ],
         "addr": "觀塘觀塘道396號毅力工業中心",
         "area": "Hong Kong",
@@ -61,5 +61,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01403"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘觀塘道396號毅力工業中心"
+      },
+      "googleMapsPlaceId": "ChIJu104P08BBDQRIbEFUXhMjrQ",
+      "coordinates": {
+        "lat": 22.3134298,
+        "lng": 114.2224727
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
