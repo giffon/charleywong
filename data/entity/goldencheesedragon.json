@@ -10,8 +10,8 @@
         "id": "170605903890924",
         "about": "地址 ：深水埗北河街119C ( 汝州街218長安大廈地下） （深水埗站A2出口直行街口轉右）\n#金芝龍 #深水埗美食 #吃貨 #日本小食 #韓國小食 #街頭小食 #外賣店 #小食 #特色飲品 #韓式飲品 #台式飲品 #",
         "categories": [
-          "Japanese Restaurant",
-          "Caterer"
+          "Caterer",
+          "Japanese Restaurant"
         ],
         "addr": "深水埗 北河街 119C 地下",
         "area": "Sham Shui Po",
@@ -57,5 +57,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00358"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗 北河街 119C 地下"
+      },
+      "googleMapsPlaceId": "ChIJCWX05WABBDQRYHXSGwERJrQ",
+      "coordinates": {
+        "lat": 22.3297015,
+        "lng": 114.1619157
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

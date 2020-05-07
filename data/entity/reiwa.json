@@ -34,17 +34,17 @@
       }
     },
     {
-      "url": "https://www.instagram.com/reiwanathan/",
-      "meta": {
-        "name": "令和 鍋物酒場 彌敦道店",
-        "about": "令和 鍋物酒場 （彌敦道店）\n在旺角擴充營業\n繼續為大家提供最地道的日式料理感覺\n傳統日式小食，鍋物，燒物，串燒，再配上石燒和牛🔥🔥\n更為大家提供過百款清酒🍶梅酒🥃燒酌\n地址⛱旺角彌敦道613號飛達商業中心1樓\n電話📞 6285 2537\n🇭🇰💪🏻"
-      }
-    },
-    {
       "url": "https://www.instagram.com/reiwamk2019/",
       "meta": {
         "name": "令和",
         "about": "全新品牌進駐旺角💥\n希望成為旺角最出名的居酒屋🏮\n傳統日式小食，鍋物，燒物，串燒主打，再配上火山燒🔥🔥\n傳統日本清酒🍶燒酌🥃\n地址：旺角洗衣街111號建煌華廈地下\n電話☎️ 2392 2368/ 6081 8823"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/reiwanathan/",
+      "meta": {
+        "name": "令和 鍋物酒場 彌敦道店",
+        "about": "令和 鍋物酒場 （彌敦道店）\n在旺角擴充營業\n繼續為大家提供最地道的日式料理感覺\n傳統日式小食，鍋物，燒物，串燒，再配上石燒和牛🔥🔥\n更為大家提供過百款清酒🍶梅酒🥃燒酌\n地址⛱旺角彌敦道613號飛達商業中心1樓\n電話📞 6285 2537\n🇭🇰💪🏻"
       }
     }
   ],
@@ -87,5 +87,33 @@
   "yellowBlueMapIds": [
     "Y_EAT00760",
     "Y_EAT01674"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍旺角洗衣街111號建煌華廈地下"
+      },
+      "googleMapsPlaceId": "ChIJn0eWSeMBBDQRG9t9eMIgoJw",
+      "coordinates": {
+        "lat": 22.3201736,
+        "lng": 114.1714719
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角彌敦道613號飛達商業中心1樓"
+      },
+      "googleMapsPlaceId": "ChIJye_FjPYBBDQRIvDErkUHK7Y",
+      "coordinates": {
+        "lat": 22.3172156,
+        "lng": 114.1696491
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

@@ -6,9 +6,6 @@
   },
   "webpages": [
     {
-      "url": "https://www.openrice.com/zh/hongkong/r-%E9%BA%B5%E5%AE%B6%E5%B1%B1%E4%B8%8B-%E4%B8%8A%E6%B0%B4-%E6%97%A5%E6%9C%AC%E8%8F%9C-%E6%8B%89%E9%BA%B5-r105163"
-    },
-    {
       "meta": {
         "name": "麵家山下 麺家 山下 Menya Yamashita",
         "id": "370407776346724",
@@ -73,5 +70,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00124"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新康街63號D3-D4號"
+      },
+      "googleMapsPlaceId": "ChIJDx-UzhH2AzQRiOOJk3dG-TQ",
+      "coordinates": {
+        "lat": 22.5045763,
+        "lng": 114.1286004
+      },
+      "area": {
+        "zh": "北區"
+      }
+    }
   ]
 }

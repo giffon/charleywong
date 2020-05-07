@@ -13,7 +13,7 @@
       "meta": {
         "name": "鰹烏冬 Katsuo Udon　讃岐烏龍製麺所",
         "id": "1816601795254048",
-        "about": "觀塘開源道60號駱駝漆大廈3座11樓 O室\n星期一至三 12nn-5pm\n星期四，六 12nn-9pm\n星期五 12nn-10pm\n\n長沙灣元州街450號寶華閣地下4號舖\n星期一至日 11:30am-10:00pm",
+        "about": "觀塘開源道60號駱駝漆大廈3座11樓 O室    \n星期一至三   12nn-5pm\n星期四，六   12nn-9pm\n星期五           12nn-10pm\n\n長沙灣元州街450號寶華閣地下4號舖   \n星期一至日  11:30am-10:00pm",
         "categories": [
           "Udon Restaurant"
         ],
@@ -93,10 +93,40 @@
     }
   ],
   "tags": [
-    "food","japanese","noodle"
+    "food",
+    "japanese",
+    "noodle"
   ],
   "yellowBlueMapIds": [
     "Y_EAT01461",
     "Y_EAT01462"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘開源道60號駱駝漆大廈3座11樓 O室"
+      },
+      "googleMapsPlaceId": "ChIJEzsbbUUBBDQRUpSIIF-xxW0",
+      "coordinates": {
+        "lat": 22.3101278,
+        "lng": 114.2250869
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "長沙灣元州街450號寶華閣地下4號舖"
+      },
+      "googleMapsPlaceId": "ChIJ71bXv3kHBDQRlBn-egfcxpo",
+      "coordinates": {
+        "lat": 22.3394428,
+        "lng": 114.1543627
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

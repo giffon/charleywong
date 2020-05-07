@@ -17,7 +17,7 @@
       "meta": {
         "name": "犢食 DukSik",
         "id": "102336388025163",
-        "about": "�日式丼飯�湯咖哩(外賣自取)\n�11:30AM-07:00PM (MON-FRI)\n�SAT & SUN 暫時唔開\n�(+852)64661356\n�有咩意見隨時話比我地知\n\n觀塘巧明街105號好運工業大廈3樓D室",
+        "about": "主打日式丼飯&湯咖哩(外賣自取)\n開11:30AM-07:00PM (MON-FRI)\nSAT & SUN 暫時唔開\n(+852)64661356\n有咩意見極歡迎隨時話比我地知\n\n觀塘巧明街105號好運工業大廈3樓D室",
         "categories": [
           "Restaurant"
         ],
@@ -35,6 +35,22 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘巧明街105號好運工業大廈3樓D室"
+      },
+      "googleMapsPlaceId": "ChIJay8mU5UBBDQRDw6ryENdf-s",
+      "coordinates": {
+        "lat": 22.3122298,
+        "lng": 114.224027
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

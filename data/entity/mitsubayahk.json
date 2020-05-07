@@ -7,11 +7,13 @@
   "webpages": [
     {
       "meta": {
+        "name": "三葉屋 Mitsubaya Udon & Soba",
         "id": "481455768898072",
         "about": "每天新鮮自家製作烏冬及蕎麥麵，力求造出日本傳統風味。晚市另提供不同小食，配以精選日本啤酒、清酒、燒酒等，適合三五知己歡聚，跟店員交流飲食心得。",
         "categories": [
           "Restaurant"
-        ]
+        ],
+        "tel": "35946069"
       },
       "url": "https://www.facebook.com/mitsubayahk/"
     }
@@ -34,5 +36,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00011"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "北角炮台山宏安道18號威徳閣地下8號舖"
+      },
+      "googleMapsPlaceId": "ChIJB1E1-gEBBDQR19uLHKml38M",
+      "coordinates": {
+        "lat": 22.2882968,
+        "lng": 114.1920183
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
   ]
 }

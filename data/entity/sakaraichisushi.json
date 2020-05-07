@@ -6,24 +6,28 @@
   "webpages": [
     {
       "meta": {
+        "name": "魚一壽司",
         "id": "824806370908203",
-        "about": "魚一營業資訊:\n#星期一至日「無休日」\n#時間:「11:30am - 11:00pm」...\n\n\nSee more",
+        "about": "魚一營業資訊:\n#星期一至日「無休日」\n#時間:「11:30am - 11:00pm」\n#新鮮挪威三文魚及新鮮生蠔天天到貨!\n#whatapp外賣熱線:96446335\n#電話order熱線:24852121",
         "categories": [
           "Sushi Restaurant",
-          "Asian fusion restaurant"
+          "Asian Fusion Restaurant"
         ],
         "addr": "元朗教育路68號兆豐樓7號地鋪",
-        "area": "Hong Kong"
+        "area": "852 Hong Kong",
+        "tel": "24852121"
       },
       "url": "https://www.facebook.com/sakaraichisushi/"
     },
     {
       "meta": {
+        "name": "魚一外賣壽司",
         "id": "134852396662712",
-        "about": "元朗教育路68號兆豐樓7號地鋪(中旅社對面) 電話:24852121 歡迎電話落單，訂枱\n營業時間為11:00AM~12:00PM",
+        "about": "元朗教育路68號兆豐樓7號地鋪(中旅社對面)             電話:24852121  歡迎電話落單，訂枱\n營業時間為11:00AM~12:00PM",
         "categories": [
-          "Food and drinks company"
-        ]
+          "Food & Beverage Company"
+        ],
+        "tel": "24852121"
       },
       "url": "https://www.facebook.com/YLsalakasushi/"
     }
@@ -42,5 +46,20 @@
   "yellowBlueMapIds": [
     "Y_EAT00999",
     "Y_EAT01000"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗教育路68號兆豐樓7號地鋪"
+      },
+      "googleMapsPlaceId": "ChIJUS_Qpgr6AzQREdgBts6BRnY",
+      "coordinates": {
+        "lat": 22.4431053,
+        "lng": 114.0262071
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }

@@ -6,14 +6,14 @@
   "webpages": [
     {
       "meta": {
+        "name": "大阪日本料理",
         "id": "1364143383624097",
         "about": "日式小店",
         "categories": [
           "Sushi Restaurant"
         ],
         "addr": "元朗鳳琴街18號玉龍樓地下15號",
-        "area": "Yuen Long",
-        "email": "hosiu514@yahoo.com.hk",
+        "area": "852 Yuen Long",
         "tel": "23321611"
       },
       "url": "https://www.facebook.com/newosakajapanesefood/"
@@ -28,9 +28,25 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "yellowBlueMapIds": [
     "Y_EAT01490"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗鳳琴街18號玉龍樓地下15號"
+      },
+      "googleMapsPlaceId": "ChIJj8yM1Qn6AzQRlkbT-1z_UDw",
+      "coordinates": {
+        "lat": 22.4424136,
+        "lng": 114.0338467
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }

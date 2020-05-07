@@ -7,6 +7,7 @@
   "webpages": [
     {
       "meta": {
+        "name": "Tenno Ramen 拉麵天王",
         "id": "246296932227529",
         "about": "九龍紅磡德民街17-27號B5B地下 (德民大廈入口對面)\n\n\n【Follow us on Instagram】http://instagram.com/tennoramen\n(ID# tennoramen)",
         "categories": [
@@ -20,6 +21,7 @@
     },
     {
       "meta": {
+        "name": "拉麵天王 Tenno Ramen",
         "about": "📍地址:紅磡德民街17-27號B5B鋪 (德民大廈正門對出位置)\n🥢Please follow and support us, thank you!\n🧡ありがとうございます。"
       },
       "url": "https://www.instagram.com/tennoramen/"
@@ -46,5 +48,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00359"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍紅磡德民街17至27號B5B地下"
+      },
+      "googleMapsPlaceId": "ChIJV9LoJ94ABDQR8ElHMxRSL30",
+      "coordinates": {
+        "lat": 22.3061306,
+        "lng": 114.1882417
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
   ]
 }

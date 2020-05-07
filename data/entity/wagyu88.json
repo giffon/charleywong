@@ -46,9 +46,25 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "yellowBlueMapIds": [
     "Y_EAT01958"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港銅鑼灣登龍街28號永光中心13樓全層"
+      },
+      "googleMapsPlaceId": "ChIJr5b7LFcABDQRKsX4fAGwfxw",
+      "coordinates": {
+        "lat": 22.279266,
+        "lng": 114.1820485
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }

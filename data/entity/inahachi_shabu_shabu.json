@@ -77,5 +77,33 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01710"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop A2, G/F Mei Sun Building , 4-20 Kau Hui Chik Street, Tai Po, NT"
+      },
+      "googleMapsPlaceId": "ChIJf39bNDgIBDQRAMXLaObBwx4",
+      "coordinates": {
+        "lat": 22.4536575,
+        "lng": 114.1649641
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
+        "en": "1/F.,Fullytech Centre, 18 Tak Hoi Street., Tsuen Wan, N.T"
+      },
+      "googleMapsPlaceId": "ChIJaX7M_uz4AzQR5SjbeGk1HCw",
+      "coordinates": {
+        "lat": 22.3698907,
+        "lng": 114.1174914
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
   ]
 }

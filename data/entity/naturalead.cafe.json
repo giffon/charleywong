@@ -50,9 +50,26 @@
     }
   ],
   "tags": [
-    "food","japanese","vegeterian"
+    "food",
+    "japanese",
+    "vegeterian"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00019"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀寶勒巷10號4樓"
+      },
+      "googleMapsPlaceId": "ChIJzaX2be4ABDQRoEnlUqfmGgE",
+      "coordinates": {
+        "lat": 22.29874280000001,
+        "lng": 114.1744236
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

@@ -16,6 +16,13 @@
         "addr": "紅磡湖光街1至7號聯盛大廈地下10B1舖",
         "area": "Hong Kong"
       }
+    },
+    {
+      "url": "https://www.instagram.com/mutsukihk/",
+      "meta": {
+        "name": "麵.睦月 Mutsuki",
+        "about": "請多多指教\n🙇🏿‍♀️🙇🏿‍♀️🙇🏿‍♀️🙇🏿‍♀️"
+      }
     }
   ],
   "posts": [
@@ -48,5 +55,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01793"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "紅磡湖光街1至7號聯盛大廈地下10B1舖"
+      },
+      "googleMapsPlaceId": "ChIJ-8UH_KUBBDQRdNrHRCklv5g",
+      "coordinates": {
+        "lat": 22.305757,
+        "lng": 114.1861194
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
   ]
 }

@@ -9,13 +9,13 @@
       "meta": {
         "name": "蜜庵本膳 Mitsuan Honzen",
         "id": "285617545503372",
-        "about": "蜜庵本膳\nLunch12:00-14:30\nDessert15:00-22:00\nDinner18:00-21:00\n【蜜庵】：提供輕食及甜品的歇腳地\n【本膳】：日本料理\n和食x甜品",
+        "about": "蜜庵本膳\nLunch12:00-14:30\nDessert15:00-22:00 \nDinner18:00-21:00\n【蜜庵】：提供輕食及甜品的歇腳地\n【本膳】：日本料理\n和食x甜品",
         "categories": [
           "Japanese Restaurant",
           "Diner"
         ],
         "addr": "Shop A, G Floor, 8 Hart Ave,",
-        "area": "Tsim Sha Tsui",
+        "area": "999077 Tsim Sha Tsui",
         "tel": "24610888"
       },
       "url": "https://www.facebook.com/285617545503372/"
@@ -37,12 +37,28 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "alias": [
     "285617545503372"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00037"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop A, G Floor, 8 Hart Ave"
+      },
+      "googleMapsPlaceId": "ChIJ46ag4FgBBDQRCKWaxnRogNM",
+      "coordinates": {
+        "lat": 22.2981918,
+        "lng": 114.1747291
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

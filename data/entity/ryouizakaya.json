@@ -10,13 +10,13 @@
       "meta": {
         "name": "寮居酒屋ryou_izakaya",
         "id": "279339245793775",
-        "about": "營業時間:\n星期一至四： 上午12:00-凌晨01:00\n星期五至日：上午12:00-凌晨02:00\n\n地址:\n西灣河海寧街8號地下2號舖 (基灣小學對面)",
+        "about": "營業時間: \n星期一至四： 上午12:00-凌晨01:00\n星期五至日：上午12:00-凌晨02:00\n\n地址:\n西灣河海寧街8號地下2號舖 (基灣小學對面)",
         "categories": [
           "Kushikatsu Restaurant",
           "Yakiniku Restaurant"
         ],
         "addr": "香港西灣河海寧街8號地下2號舖",
-        "area": "Sai Wan Ho",
+        "area": "000000 Sai Wan Ho",
         "tel": "37065849"
       }
     }
@@ -31,9 +31,25 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00714"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港西灣河海寧街8號地下2號舖"
+      },
+      "googleMapsPlaceId": "ChIJr5p0XnYBBDQRCK6xhS7cHCc",
+      "coordinates": {
+        "lat": 22.2807046,
+        "lng": 114.2228378
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
   ]
 }

@@ -42,6 +42,22 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F 501 Lockhart Road"
+      },
+      "googleMapsPlaceId": "ChIJockn5FYABDQR3ftD4uBf1ps",
+      "coordinates": {
+        "lat": 22.28071019999999,
+        "lng": 114.1830838
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }

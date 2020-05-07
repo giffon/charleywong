@@ -54,9 +54,25 @@
     }
   ],
   "tags": [
-    "food","japanese"
+    "food",
+    "japanese"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00015"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀柯士甸路15A柯士甸大廈地下D鋪"
+      },
+      "googleMapsPlaceId": "ChIJr1Ccyu4ABDQRn_YicMft8RE",
+      "coordinates": {
+        "lat": 22.302298,
+        "lng": 114.1752253
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

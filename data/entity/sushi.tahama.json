@@ -14,10 +14,17 @@
           "Sushi Restaurant"
         ],
         "addr": "尖沙咀宜昌街地下6B",
-        "area": "Tsim Sha Tsui",
+        "area": "00000 Tsim Sha Tsui",
         "tel": "29581918"
       },
       "url": "https://www.facebook.com/sushi.tahama/"
+    },
+    {
+      "url": "https://www.instagram.com/ta_hama0705/",
+      "meta": {
+        "name": "立濱 Sushi Tahama",
+        "about": "尖沙咀立食壽司店\n📍地址：九龍尖沙咀宜昌街地下6B\n☎️電話：29581918\n🕐營業時間：12:00-15:00 / 17:00-23:00"
+      }
     }
   ],
   "posts": [
@@ -48,5 +55,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01245"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀宜昌街地下6B"
+      },
+      "googleMapsPlaceId": "ChIJ94v1KGIBBDQRSkVoQbJIvL8",
+      "coordinates": {
+        "lat": 22.29707179999999,
+        "lng": 114.1707
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
