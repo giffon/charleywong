@@ -9,11 +9,13 @@
     },
     {
       "meta": {
+        "name": "8p數位線上沖印",
         "id": "193851224073323",
         "about": "想洗便宜品質又好的照片來找灰哥就對了",
         "categories": [
-          "Camera/photo"
-        ]
+          "Camera/Photo"
+        ],
+        "tel": "88648852272"
       },
       "url": "https://www.facebook.com/ptt8p/"
     }
@@ -26,5 +28,20 @@
   "tags": [
     "photography",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "彰化縣溪湖鎮彰水路三段334號"
+      },
+      "googleMapsPlaceId": "ChIJl5yyIXhJaTQRn1picKu9F2U",
+      "coordinates": {
+        "lat": 23.9609734,
+        "lng": 120.4802497
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    }
   ]
 }
