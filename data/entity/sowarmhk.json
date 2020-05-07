@@ -12,9 +12,9 @@
         "id": "212746862981443",
         "about": "新蒲崗 大有街33號 地下",
         "categories": [
-          "Bakery",
           "Shopping & Retail",
-          "Dessert Shop"
+          "Dessert Shop",
+          "Bakery"
         ],
         "email": "sowarm33@gmail.com",
         "tel": "93257882"
@@ -40,5 +40,20 @@
   "tags": [
     "food",
     "cake"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新蒲崗 大有街 33號A 地下"
+      },
+      "googleMapsPlaceId": "ChIJS5jLZ9cHBDQRKd3iCOnrH64",
+      "coordinates": {
+        "lat": 22.3363355,
+        "lng": 114.197672
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
   ]
 }

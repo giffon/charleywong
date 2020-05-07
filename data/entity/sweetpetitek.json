@@ -5,17 +5,36 @@
   },
   "webpages": [
     {
+      "url": "https://sweetpetitek.com"
+    },
+    {
       "meta": {
+        "name": "Sweet Petite K",
+        "id": "963521127011942",
         "about": "All about beautiful cakes and sweet petite bakes.",
         "categories": [
-          "Bakery"
+          "Personal Blog"
         ],
-        "addr": "Shop 103, 1/F, The Mills, 45 Pak Tin Par Street",
-        "area": "Tsuen Wan, Hong Kong",
-        "email": "info@sweetpetitek.com",
-        "id": "963521127011942"
+        "email": "info@sweetpetitek.com"
       },
       "url": "https://www.facebook.com/sweetpetitek/"
+    },
+    {
+      "url": "https://www.instagram.com/sweetpetitek/",
+      "meta": {
+        "name": "Sweet P𝓮tite 𝓚",
+        "about": "베이킹공방 | 홍콩카페 @betweenharu__\nCake | Wedding Candy Table | Sweet Bites\n🙆🏻‍♀️Email replies in 5-7 days\n🙅🏻‍♀️DM"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/betweenharu__/",
+      "meta": {
+        "name": "Between Haru",
+        "about": "by Studio @sweetpetitek 一日之間\n[close] every wed\n[open] thurs - tue 1-7pm\ncrafted meals | scenery on table | still life"
+      }
+    },
+    {
+      "url": "https://twitter.com/sweetpetitek"
     }
   ],
   "posts": [
@@ -24,6 +43,23 @@
     }
   ],
   "tags": [
-    "food"
+    "cake",
+    "cafe",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "Shop 103, 1/F, The Mills, 45 Pak Tin Par Street, Tsuen Wan"
+      },
+      "googleMapsPlaceId": "ChIJOVl0Ch_5AzQRDvrWGQPldTw",
+      "coordinates": {
+        "lat": 22.3750707,
+        "lng": 114.1101695
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
   ]
 }

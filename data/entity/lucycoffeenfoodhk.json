@@ -6,22 +6,24 @@
   "webpages": [
     {
       "meta": {
+        "name": "Lucycoffeenfood",
+        "id": "1593755217528733",
         "about": "We love coffee！\nWe love food！\nWe love to share！",
         "categories": [
-          "Breakfast & brunch restaurant",
-          "Coffee shop"
+          "Coffee Shop",
+          "Breakfast & Brunch Restaurant"
         ],
         "addr": "Shop C1, Merlin Centre 55 Po On road",
         "area": "Cheung Sha Wan, Hong Kong",
         "email": "lucycoffeenfood@gmail.com",
-        "tel": "55088318",
-        "id": "1593755217528733"
+        "tel": "55088318"
       },
       "url": "https://www.facebook.com/lucycoffeenfoodhk/"
     },
     {
       "meta": {
-        "about": "Since 2014 Specialty coffee & Artisan bread & Cake 歡迎訂做蛋糕 請5天前預訂☎️ whatsapp 55088318 ***tue to sun 11-6pm LO 5:30pm ⛔️FEB MON OFF⛔️"
+        "name": "Lucy coffeenfood",
+        "about": "Since 2014 Specialty coffee & Artisan bread & Cake 歡迎訂做蛋糕 請5天前預訂*☎️ whatsapp 55088318 ***MAY mon to fri 11-6pm sat & sun 12-6pm LO 5:30pm"
       },
       "url": "https://www.instagram.com/lucycoffeenfood/"
     }
@@ -41,5 +43,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00135"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop C1, Merlin Centre 55 Po On road"
+      },
+      "googleMapsPlaceId": "ChIJjfTvXuv4AzQRZ0jkpSAs2Us",
+      "coordinates": {
+        "lat": 22.33683,
+        "lng": 114.1602153
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

@@ -5,7 +5,26 @@
   },
   "webpages": [
     {
-      "url": "https://www.instagram.com/relive.studio/"
+      "url": "https://relive.hk"
+    },
+    {
+      "url": "https://www.instagram.com/relive.studio/",
+      "meta": {
+        "name": "𝙧𝙚𝙡𝙞𝙫𝙚 & 𝙘𝙖𝙠𝙚𝙨 𝙨𝙩𝙪𝙙𝙞𝙤",
+        "about": "𓏭 𝗠𝗼𝘁𝗵𝗲𝗿’𝘀 𝗗𝗮𝘆 𝗦𝗽𝗲𝗰𝗶𝗮𝗹 𝗖𝗮𝗸𝗲\n𓊓 OFF | MAY 13-15\n⍉ FULL | MAY 4-10\nLEAD TIME: 3 days in advance\n𖡎 whatsapp | 6090 4099\n-\n↯ ORDER"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/relivestudiohk/",
+      "meta": {
+        "name": "relive",
+        "id": "777557409103979",
+        "categories": [
+          "Dessert Shop"
+        ],
+        "email": "relivestudio@hotmail.com"
+      },
+      "hidden": true
     }
   ],
   "posts": [
@@ -22,5 +41,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01405"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Block A, Hong Kong Industrial Centre, Lai Chi Kok (By Appointment Only)"
+      },
+      "googleMapsPlaceId": "ChIJtx52AVUHBDQRVE8I141mrVU",
+      "coordinates": {
+        "lat": 22.3375561,
+        "lng": 114.14673
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

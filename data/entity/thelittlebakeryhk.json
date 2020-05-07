@@ -9,7 +9,7 @@
       "meta": {
         "name": "The little bakery",
         "id": "403851083484165",
-        "about": "小店門市有港式麵包,傳統蛋糕唐餅,蛋糕\n3D 蛋糕,小回禮,散水餅,公司禮品,CUPCAKE (只限網上/WHATSAPP 訂購)",
+        "about": "小店門市有港式麵包,傳統蛋糕唐餅,蛋糕\n3D 蛋糕,小回禮,散水餅,公司禮品,CUPCAKE (可親臨本店/Facebook message/WHATSAPP 訂購)",
         "categories": [
           "Bakery"
         ],
@@ -17,6 +17,13 @@
         "area": "Hong Kong",
         "email": "thelittlebakeryhk@gmail.com",
         "tel": "98286748"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/the_little_bakery_hk/",
+      "meta": {
+        "name": "the little bakery",
+        "about": "🍞opening hours 🍰\n🌟🌟查詢/訂購請到facebook,IG 很少online🌟🌟\nMonday to Sunday 7am ~ 8pm\nAddress: Shop no.A6,G/f., Ka Yue Building,1-7 Nam On Street, Hong Kong"
       }
     }
   ],
@@ -63,5 +70,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00614"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港筲箕灣南安街1-7 號嘉裕大厦A6地下"
+      },
+      "googleMapsPlaceId": "ChIJMzoXiFYBBDQRAZybXN_LTYU",
+      "coordinates": {
+        "lat": 22.277492,
+        "lng": 114.2278659
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
   ]
 }

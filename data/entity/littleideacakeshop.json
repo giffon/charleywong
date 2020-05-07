@@ -5,20 +5,30 @@
   },
   "webpages": [
     {
+      "url": "https://littleideacafe.com"
+    },
+    {
       "meta": {
+        "name": "小念頭",
         "id": "960542954080063",
         "about": "詠春【小念頭】。念頭正，終生正！小念頭不停在腦中浮現，有多少你會將它實現？\n可能心中會有聲音說「小念頭很多也會27」。管他的！一日未實現你的小念頭，一日都還未肯定成功與否！",
         "categories": [
-          "Bakery",
-          "Coffee shop",
-          "Dessert shop"
+          "Coffee Shop",
+          "Bakery"
         ],
         "addr": "1/F, No. 75 Tung Choi Street",
-        "area": "Mong Kok",
+        "area": "0000 Mong Kok",
         "email": "littleidea_27@gmail.com",
         "tel": "61831450"
       },
       "url": "https://www.facebook.com/littleideacakeshop/"
+    },
+    {
+      "url": "https://www.instagram.com/littleideacakeshop/",
+      "meta": {
+        "name": "小念頭",
+        "about": "牌照號碼:3962805023💡Every BIG thing begins with LITTLE IDEA❤️ 營業時間：星期二至日 2時-10時 💌歡迎wts app 61831450訂購原個蛋糕💌"
+      }
     }
   ],
   "posts": [
@@ -38,5 +48,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00017"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "1/F, No. 75 Tung Choi Street"
+      },
+      "googleMapsPlaceId": "ChIJPdNay8cABDQR4SDUzDraqZI",
+      "coordinates": {
+        "lat": 22.3188671,
+        "lng": 114.1705301
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

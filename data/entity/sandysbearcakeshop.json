@@ -29,7 +29,8 @@
           "Cupcake Shop"
         ],
         "tel": "55914411"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.instagram.com/sandysbearcakeshop/",
@@ -60,5 +61,20 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港元朗嘉華大廈 (工場)"
+      },
+      "googleMapsPlaceId": "ChIJB9CzzqPwAzQR_iN5g5hOP_o",
+      "coordinates": {
+        "lat": 22.4494603,
+        "lng": 114.0284055
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }
