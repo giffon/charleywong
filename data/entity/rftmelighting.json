@@ -13,11 +13,11 @@
       "meta": {
         "name": "RFTME Home Lighting 列飛照明燈飾店",
         "id": "811509952538013",
-        "about": "Design, Interior Decoration, Lighting Store and Eshop\n燈飾店，網店，設計及室內裝飾",
+        "about": "Lighting Store, E-shop, Design and Interior Decoration\n燈飾店，網店，設計及室內裝飾",
         "categories": [
-          "Interior Design Studio",
           "Lighting Store",
-          "Furniture Store"
+          "Furniture Store",
+          "Interior Design Studio"
         ],
         "email": "sales@rftme.com",
         "tel": "35211885"
@@ -42,5 +42,20 @@
   "tags": [
     "electricalAppliances",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港新界沙田火炭山尾街華樂工業中心二期F座12樓46室"
+      },
+      "googleMapsPlaceId": "ChIJEyjwNQQHBDQRGqRoflRAN7k",
+      "coordinates": {
+        "lat": 22.398243,
+        "lng": 114.191712
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
   ]
 }

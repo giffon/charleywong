@@ -6,11 +6,15 @@
   },
   "webpages": [
     {
+      "url": "http://www.lighting25.com",
+      "hidden": true
+    },
+    {
       "url": "https://www.facebook.com/lighting25/",
       "meta": {
         "name": "香港家居燈飾倉 www.lighting25.com",
         "id": "150248695148356",
-        "about": "我們專營各類家居燈飾及電器，歡迎蒞臨參觀。\n地址:屯門建發街開泰工廠大廈22/F 2207室\nTel 37499386\n\n開放時間：\n星期二至日 11:00-19:00\n逢星期一休息(紅假及公眾假期除外)",
+        "about": "我們專營各類家居燈飾及電器，歡迎蒞臨參觀。\n地址:屯門建發街開泰工廠大廈22/F 2207室\n Tel 37499386\n\n開放時間：\n星期二至日 11:00-19:00\n逢星期一休息(紅假及公眾假期除外)",
         "categories": [
           "Home Decor",
           "Home Improvement",
@@ -43,5 +47,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01834"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門建發街開泰工廠大廈22/F 2207室"
+      },
+      "googleMapsPlaceId": "ChIJHW1YUyT7AzQRy2_H3mTQpHM",
+      "coordinates": {
+        "lat": 22.3995511,
+        "lng": 113.9685684
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
   ]
 }
