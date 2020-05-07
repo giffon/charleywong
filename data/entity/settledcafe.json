@@ -6,21 +6,23 @@
   "webpages": [
     {
       "meta": {
+        "name": "Settled cafe",
         "id": "1562705510473257",
         "about": "Nice coffee\nNice breakfast\nNice day",
         "categories": [
-          "Coffee shop",
-          "Breakfast & brunch restaurant"
+          "Coffee Shop"
         ],
         "addr": "萬華區漢口街二段117號1樓",
         "area": "Taipei, Taiwan",
-        "email": "settledcafe@gmail.com"
+        "email": "settledcafe@gmail.com",
+        "tel": "886223752518"
       },
       "url": "https://www.facebook.com/settledcafe/"
     },
     {
       "meta": {
-        "about": "Specialty Coffee,Brunch,Light Meal,Pasta\nTag us @settled_cafe\n活動連結：\n👇🏻Dear Taiwan, From Hong Kong👇🏻"
+        "name": "Settled cafe",
+        "about": "Specialty Coffee,Brunch,Light Meal,Pasta\nTag us @settled_cafe\n👇🏻Menu 菜單👇🏻"
       },
       "url": "https://www.instagram.com/settled_cafe/"
     }
@@ -35,5 +37,20 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "萬華區漢口街二段117號1樓"
+      },
+      "googleMapsPlaceId": "ChIJJWLmNw-pQjQRhFEgnsy8ChI",
+      "coordinates": {
+        "lat": 25.0464223,
+        "lng": 121.5042021
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    }
   ]
 }

@@ -6,16 +6,27 @@
   },
   "webpages": [
     {
+      "url": "https://www.fei-dou.coffee"
+    },
+    {
       "meta": {
+        "name": "竇啡 Fei-Dou",
+        "id": "383500811807445",
         "about": "以一方之隅談談說說咖啡。/\nSpeciality Coffee Shop Guide Map.",
         "categories": [
-          "Broadcasting & media production company"
+          "Broadcasting & Media Production Company"
         ],
         "email": "info@fei-dou.coffee",
-        "tel": "94490214",
-        "id": "383500811807445"
+        "tel": "94490214"
       },
       "url": "https://www.facebook.com/feidoucoffee/"
+    },
+    {
+      "url": "https://www.instagram.com/feidoucoffee/",
+      "meta": {
+        "name": "fei-dou coffee",
+        "about": "香港咖啡業界聯署 :\nsites.google.com/view/hkccjointdeclaration/"
+      }
     }
   ],
   "posts": [
@@ -30,6 +41,7 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "media"
   ]
 }

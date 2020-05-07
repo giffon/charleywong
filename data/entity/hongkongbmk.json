@@ -23,6 +23,10 @@
         "name": "Banh Mi Kitchen",
         "about": "Freshly baked bread in the house, fillings made daily, Banh Mi at its best! #banhmikitchen #banhmihk #hongkongbmk #banhmi"
       }
+    },
+    {
+      "url": "http://www.banhmikitchen.com",
+      "hidden": true
     }
   ],
   "posts": [
@@ -57,5 +61,33 @@
   "yellowBlueMapIds": [
     "Y_EAT00025",
     "Y_EAT00026"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "中環利源東街22號地下5號舖"
+      },
+      "googleMapsPlaceId": "ChIJnSiIrmQABDQR6Ts54jl-jks",
+      "coordinates": {
+        "lat": 22.2827551,
+        "lng": 114.1563297
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘海濱道83號One Bay East東翼Citi Tower 1樓E5號舖"
+      },
+      "googleMapsPlaceId": "ChIJi2VKR4cBBDQRIbv8HdZ2Y08",
+      "coordinates": {
+        "lat": 22.3159461,
+        "lng": 114.2144372
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

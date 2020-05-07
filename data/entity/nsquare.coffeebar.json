@@ -6,19 +6,24 @@
   "webpages": [
     {
       "meta": {
+        "name": "Nsquare coffee bar",
         "id": "245810922792141",
         "about": "Single Origin Coffee Bar est. 2018",
         "categories": [
-          "Coffee shop"
+          "Coffee Shop"
         ],
-        "addr": "& square Coffee Bar, Zero Carbon Building, 8 Sheung Yuet Road, Kowloon Bay",
+        "addr": "& square Coffee Bar, Zero Carbon Park, 8 Sheung Yuet Road, Kowloon Bay",
         "area": "Hong Kong",
         "email": "nsquarecoffeebar@gmail.com"
       },
       "url": "https://www.facebook.com/nsquare.coffeebar/"
     },
     {
-      "url": "https://www.instagram.com/nsquare.coffeebar/"
+      "url": "https://www.instagram.com/nsquare.coffeebar/",
+      "meta": {
+        "name": "nsquare coffee bar",
+        "about": "•\nSingle Origin Espresso Bar est. 2018\n•\nMonday to Sunday | 1100-1900\n•"
+      }
     }
   ],
   "posts": [
@@ -35,5 +40,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01150"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "& square Coffee Bar, Zero Carbon Park, 8 Sheung Yuet Road, Kowloon Bay"
+      },
+      "googleMapsPlaceId": "ChIJE_1C048BBDQRhgzRNyrfTok",
+      "coordinates": {
+        "lat": 22.3210642,
+        "lng": 114.2088632
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

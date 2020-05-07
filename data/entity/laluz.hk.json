@@ -6,16 +6,27 @@
   "webpages": [
     {
       "meta": {
+        "name": "La Luz - Coffee and Patisserie",
+        "id": "631818960343446",
         "about": "Australian Style Coffee Shop\nHomemade Bagels\nSignature Meuile-Feuille",
         "categories": [
-          "Coffee shop"
+          "Coffee Shop"
         ],
         "addr": "文苑街28號地下B舖",
-        "area": "Hong Kong",
-        "tel": "95407087",
-        "id": "631818960343446"
+        "area": "0000 Hong Kong",
+        "tel": "95407087"
       },
       "url": "https://www.facebook.com/laluz.hk/"
+    },
+    {
+      "url": "https://www.instagram.com/laluz.coffee.patisserie/",
+      "meta": {
+        "name": "LA LUZ - Australian Coffee",
+        "about": "🇦🇺 @parallel_roasters\n🥯 HOMEMADE BAGEL\n🍝 ALLDAY BREKKIE\n💡 M - F : 7 - 7 / S, S, PH : 10 - 6"
+      }
+    },
+    {
+      "url": "https://laluzhk.wixsite.com/laluzhk/"
     }
   ],
   "posts": [
@@ -34,5 +45,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00410"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "文苑街28號地下B舖"
+      },
+      "googleMapsPlaceId": "ChIJMy6IPZUABDQRTTTYarxEt6s",
+      "coordinates": {
+        "lat": 22.307649,
+        "lng": 114.166232
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

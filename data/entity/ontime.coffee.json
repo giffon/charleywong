@@ -8,7 +8,7 @@
       "meta": {
         "name": "On Time Coffee & Kitchen",
         "id": "722923398121654",
-        "about": "🗺：上環蘇杭街93號\n☎️：+852 9850 5495\n🕖：8am-11pm\n中上環區精品咖啡店💕☕️專屬下午茶時光🧁格調晚聚好去處🍸",
+        "about": "🗺：上環蘇杭街93號 \n☎️：+852  9850 5495 \n🕖：8am-11pm\n中上環區精品咖啡店💕☕️專屬下午茶時光🧁格調晚聚好去處🍸",
         "categories": [
           "Coffee Shop",
           "Breakfast & Brunch Restaurant"
@@ -43,5 +43,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01796"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "93 Jervois Street"
+      },
+      "googleMapsPlaceId": "ChIJb7BSEM8BBDQRuFZ_0omfXOo",
+      "coordinates": {
+        "lat": 22.2854736,
+        "lng": 114.1506063
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }

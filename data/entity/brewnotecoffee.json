@@ -5,17 +5,28 @@
   },
   "webpages": [
     {
+      "url": "https://www.brewnotecoffee.com"
+    },
+    {
       "meta": {
+        "name": "Brew Note Coffee Roaster",
+        "id": "662180230527735",
         "about": "A Local Micro Roaster offer seasonal direct trade coffee beans, fresh roasting and different brewing methods to present better sensory experience",
         "categories": [
-          "Coffee shop",
+          "Coffee Shop",
           "Restaurant"
         ],
         "email": "brewnotecoffeeroaster@gmail.com",
-        "tel": "25629990",
-        "id": "662180230527735"
+        "tel": "25629990"
       },
       "url": "https://www.facebook.com/brewnotecoffee/"
+    },
+    {
+      "url": "https://www.instagram.com/brewnotecoffeeroaster/",
+      "meta": {
+        "name": "Brew Note Coffee Roaster",
+        "about": "Since 2014\n-\nopening hours :\nsun-thu 10:00-18:30 (L.O. at 18:00)\nfri-sat 10:00-19:30 (L.O. at 19:00)\n(breakfast & lunch till 2:30pm)"
+      }
     }
   ],
   "posts": [
@@ -33,5 +44,20 @@
   "yellowBlueMapIds": [
     "Y_EAT00215",
     "Y_EAT01500"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "北角堡壘街19號地下"
+      },
+      "googleMapsPlaceId": "ChIJ7y_MkQMBBDQR_jtQUUQNQ8o",
+      "coordinates": {
+        "lat": 22.2898099,
+        "lng": 114.1965917
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
   ]
 }

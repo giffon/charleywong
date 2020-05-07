@@ -14,9 +14,16 @@
           "Coffee Shop"
         ],
         "addr": "92Sham Tseng Village, Sham Tseng, New Territories, Sham Tseng",
-        "area": "Tsuen Wan, Hong Kong",
+        "area": "HK Tsuen Wan, Hong Kong",
         "email": "julycoffeeco@gmail.com",
         "tel": "34910160"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/julycoffeeco/",
+      "meta": {
+        "name": "July Coffee & Co.",
+        "about": "咖啡 · 熱食 · 空間"
       }
     }
   ],
@@ -49,5 +56,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01159"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "92Sham Tseng Village, Sham Tseng, New Territories, Sham Tseng"
+      },
+      "googleMapsPlaceId": "ChIJbVeU7Fz5AzQR5mC9yiH5pJk",
+      "coordinates": {
+        "lat": 22.366999,
+        "lng": 114.058755
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
   ]
 }

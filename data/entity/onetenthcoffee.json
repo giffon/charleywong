@@ -6,16 +6,24 @@
   "webpages": [
     {
       "meta": {
+        "name": "One Tenth Coffee",
+        "id": "2197345413810493",
         "about": "Speciality Coffee | Homemade Pastries",
         "categories": [
-          "Coffee shop"
+          "Coffee Shop"
         ],
         "addr": "Flat 510 , 5/F ., Premier Centre , 20 Cheung Shun Street",
         "area": "Lai Chi Kok",
-        "email": "info@onetenthcoffee.net",
-        "id": "2197345413810493"
+        "email": "info@onetenthcoffee.net"
       },
       "url": "https://www.facebook.com/onetenthcoffee/"
+    },
+    {
+      "url": "https://www.instagram.com/onetenth.coffee/",
+      "meta": {
+        "name": "One Tenth Coffee",
+        "about": "Speciality Coffee\nMay off on 6/5 13/5 20/5 27/5\n-\nMon-Sun 1200-1900\nWed Off"
+      }
     }
   ],
   "posts": [
@@ -35,5 +43,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00109"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Flat 510 , 5/F ., Premier Centre , 20 Cheung Shun Street"
+      },
+      "googleMapsPlaceId": "ChIJ33ANG9AHBDQRGX42WaWG0C8",
+      "coordinates": {
+        "lat": 22.3363742,
+        "lng": 114.1465829
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

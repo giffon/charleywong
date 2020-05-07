@@ -7,17 +7,22 @@
   "webpages": [
     {
       "meta": {
+        "name": "Halfway Coffee 半路咖啡",
+        "id": "1501022636875471",
         "categories": [
-          "Coffee shop"
+          "Coffee Shop"
         ],
         "email": "halfwaycoffee@gmail.com",
-        "tel": "95117197",
-        "id": "1501022636875471"
+        "tel": "95117197"
       },
       "url": "https://www.facebook.com/halfwaycoffeehk/"
     },
     {
-      "url": "https://www.instagram.com/halfwaycoffee/"
+      "url": "https://www.instagram.com/halfwaycoffee/",
+      "meta": {
+        "name": "Halfway Coffee // 半路咖啡",
+        "about": "💡Mong Kok shop 10am - 7pm Closed on Monday\n🗯 咖啡文化 | 社區人情 | 記憶流傳\n➿ Coffee | Community | Memory\n📮 Halfwaycoffee@gmail.com\n💻 Article link in the bio👇🏻"
+      }
     }
   ],
   "posts": [
@@ -36,5 +41,46 @@
     "Y_EAT00220",
     "Y_EAT00221",
     "Y_EAT02190"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "6 Soy Street Mong kok"
+      },
+      "googleMapsPlaceId": "ChIJ-Vd8pLgABDQRob21CiAd848",
+      "coordinates": {
+        "lat": 22.315991,
+        "lng": 114.1671002
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "en": "26 Upper Lascar Row Sheung Wan"
+      },
+      "googleMapsPlaceId": "ChIJ6fompH4ABDQRB2H_ruqb-sA",
+      "coordinates": {
+        "lat": 22.284816,
+        "lng": 114.149741
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "en": "12 Tung Street Sheung Wan"
+      },
+      "googleMapsPlaceId": "ChIJAQAhpH4ABDQRJ9C5gcbz0II",
+      "coordinates": {
+        "lat": 22.2851977,
+        "lng": 114.1494799
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }

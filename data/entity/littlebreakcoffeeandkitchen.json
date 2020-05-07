@@ -15,7 +15,7 @@
           "Breakfast & Brunch Restaurant"
         ],
         "addr": "Shop G03, G/F, D2 Place, 9 Cheung Yee Street, Cheung Sha Wan, Kowloon",
-        "area": "Lai Chi Kok",
+        "area": "+85 Hong Kong",
         "tel": "27422782"
       }
     }
@@ -41,5 +41,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00282"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop G03, G/F, D2 Place, 9 Cheung Yee Street, Cheung Sha Wan, Kowloon"
+      },
+      "googleMapsPlaceId": "ChIJ-UY9vlQHBDQRRhr0bNfRpbE",
+      "coordinates": {
+        "lat": 22.3359619,
+        "lng": 114.1486697
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

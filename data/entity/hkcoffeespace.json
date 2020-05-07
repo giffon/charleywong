@@ -14,7 +14,7 @@
           "Coffee Shop"
         ],
         "addr": "炮台山電器道233號城市花商場第14座一樓95及96號舖",
-        "area": "North Point",
+        "area": "HK North Point",
         "tel": "37052595"
       }
     },
@@ -70,5 +70,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00809"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "炮台山電器道233號城市花商場第14座一樓95及96號舖"
+      },
+      "googleMapsPlaceId": "ChIJoRKboG0BBDQRWJn741r8qIk",
+      "coordinates": {
+        "lat": 22.2899049,
+        "lng": 114.193765
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
   ]
 }

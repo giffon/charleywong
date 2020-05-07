@@ -6,12 +6,12 @@
   "webpages": [
     {
       "meta": {
+        "name": "Life?",
         "id": "109666853872023",
         "about": "we are a upstairs coffee shop in central providing sanctuary for city dwellers looking to escape the hustle and bustle...",
         "categories": [
-          "Coffee shop",
-          "Party & entertainment service",
-          "Home decor"
+          "Coffee Shop",
+          "Party Entertainment Service"
         ],
         "addr": "2-4, Elgin Street, Central",
         "area": "Hong Kong",
@@ -40,5 +40,20 @@
   "yellowBlueMapIds": [
     "Y_EAT02119",
     "Y_SHOP01202"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "2-4, Elgin Street, Central"
+      },
+      "googleMapsPlaceId": "ChIJt4RAU6gBBDQRKQTlu2C6L-w",
+      "coordinates": {
+        "lat": 22.2829186,
+        "lng": 114.1526588
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }

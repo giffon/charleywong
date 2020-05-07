@@ -40,5 +40,33 @@
   "yellowBlueMapIds": [
     "Y_EAT01162",
     "Y_EAT01455"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港中環士丹利街22號地下"
+      },
+      "googleMapsPlaceId": "ChIJFbbJS3sABDQRZGKaWzhehxM",
+      "coordinates": {
+        "lat": 22.2821105,
+        "lng": 114.1555615
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍荔枝角長順街15號 D2第二期地下G01號舖"
+      },
+      "googleMapsPlaceId": "ChIJsQK751QHBDQRjX-S8EpHT9M",
+      "coordinates": {
+        "lat": 22.3363025,
+        "lng": 114.1475207
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

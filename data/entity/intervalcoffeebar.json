@@ -6,6 +6,8 @@
   "webpages": [
     {
       "meta": {
+        "name": "Interval Coffee Bar",
+        "id": "122214585098105",
         "about": "Nestled inside PRESET, INTERVAL Coffee Bar is a chic creative hub and a fashionable mingling hotspot to be seen.",
         "categories": [
           "Cafe",
@@ -14,10 +16,16 @@
         "addr": "UG/F, 33 Wellington Street",
         "area": "Central, Hong Kong",
         "email": "info@presetspaces.com",
-        "tel": "25707568",
-        "id": "122214585098105"
+        "tel": "25707568"
       },
       "url": "https://www.facebook.com/intervalcoffeebar/"
+    },
+    {
+      "url": "https://www.instagram.com/interval_coffeebar/",
+      "meta": {
+        "name": "INTERVAL",
+        "about": "CAFE & BISTRO of @preset_eventspace by @twins_kitchen with coffee by @coffeecollectif☕️﻿\n𝙼𝙾𝙽-𝙵𝚁𝙸: 𝟶𝟾:𝟶𝟶-𝟶𝟶:𝟶𝟶﻿\n𝚂𝙰𝚃: 𝟷𝟶:𝟶𝟶-𝟷𝟾:𝟶𝟶﻿\n﻿\nOpenrice Takeout👇🏻"
+      }
     }
   ],
   "posts": [
@@ -33,5 +41,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00080"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "UG/F, 33 Wellington Street"
+      },
+      "googleMapsPlaceId": "ChIJVVWGSXsABDQRcujkyl0lGAs",
+      "coordinates": {
+        "lat": 22.2820557,
+        "lng": 114.1554426
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }

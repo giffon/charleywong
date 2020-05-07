@@ -6,21 +6,24 @@
   "webpages": [
     {
       "meta": {
+        "name": "Nutmad",
         "about": "Coffee．Roaster．Workshop\nGastronomy．Casual Dining\n．Make A Difference．\n🇭🇰📞22548268\n📧nutmadhk@gmail.com"
       },
       "url": "https://www.instagram.com/nutmadhk/"
     },
     {
       "meta": {
+        "name": "Nutmad",
         "id": "156478131840987",
         "about": "Coffee Roasting + Training．\nGastronomy + Casual Dining．\nCoffee x Food Pairing Specialist．\nMake A Difference．",
         "categories": [
-          "Coffee shop",
+          "Coffee Shop",
           "Restaurant"
         ],
         "addr": "Flat C, 9/F, Everest Industrial Centre, 396 Kwun Tong Road, Kwun Tong",
-        "area": "Kwun Tong",
-        "email": "nutmadhk@gmail.com"
+        "area": "HK Kwun Tong",
+        "email": "nutmadhk@gmail.com",
+        "tel": "22548268"
       },
       "url": "https://www.facebook.com/nutmadhk/"
     }
@@ -36,5 +39,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00114"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Flat C, 9/F, Everest Industrial Centre, 396 Kwun Tong Road, Kwun Tong"
+      },
+      "googleMapsPlaceId": "ChIJq9KQ5rsBBDQRXEB_GoqcTmA",
+      "coordinates": {
+        "lat": 22.3133725,
+        "lng": 114.2223483
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

@@ -6,18 +6,25 @@
   "webpages": [
     {
       "meta": {
+        "name": "Hami Harmony",
         "id": "419754201568536",
         "about": "Coffee ♪ Restaurant ♪ Dessert",
         "categories": [
-          "European restaurant",
-          "Coffee shop",
-          "Dessert shop"
+          "Cafe",
+          "European Restaurant"
         ],
         "addr": "G/F, 161A Sai Yeung Choi St N",
-        "area": "Mong Kok",
+        "area": "Hong Kong",
         "tel": "23270665"
       },
       "url": "https://www.facebook.com/hamiharmony/"
+    },
+    {
+      "url": "https://www.instagram.com/hamiharmony/",
+      "meta": {
+        "name": "☕️🍴Hami Harmony🍰🍝",
+        "about": "Restaurant🍽Coffee☕️Dessert 🍰\n🍝小小融合歐式菜🍤\n🍝A little fusion twist of Western cuisine 🍤\n九龍太子西洋菜北街161A\n161A Sai Yeung Choi St. North, Kowloon 🇭🇰23270665📞"
+      }
     }
   ],
   "posts": [
@@ -30,5 +37,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00465"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, 161A Sai Yeung Choi St N"
+      },
+      "googleMapsPlaceId": "ChIJaR038ckABDQRVYyvmHeNkpI",
+      "coordinates": {
+        "lat": 22.3255015,
+        "lng": 114.1686827
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

@@ -5,15 +5,13 @@
   },
   "webpages": [
     {
-      "url": "https://www.openrice.com/zh/hongkong/r-llb-bistro-%E4%B8%8A%E7%92%B0-%E8%A5%BF%E5%BC%8F-all-day-breakfast-r610527"
-    },
-    {
       "meta": {
+        "name": "LLB Bistro",
         "id": "1152527344908153",
-        "about": "188 Hollywood Rd\nBy LLB",
+        "about": "光復香港 時代革命\nWestern x Fusion\n上環荷里活道188號 (上環地鐵站A2出口)\nTel: 35946790\nWhatsapp: 92260594\n🔸Steak🥩🔸Fusion🥘\n🔸Coffee☕️🔸Beer🍺🔸Wine🍷\n🔸Private Party 🍾",
         "categories": [
-          "Pub/Bar",
-          "Steakhouse"
+          "Restaurant",
+          "Beer Bar"
         ],
         "addr": "188 Hollywood Road",
         "area": "Sheung Wan",
@@ -24,7 +22,8 @@
     },
     {
       "meta": {
-        "about": "▪️Steak▪Fusion\n▪Coffee▪Beer▪️Wine\n▪️Private Party\nTel: 35946790\nWhatsapp: 92260594\n@foodpanda_hongkong\n@openrice_hk\n@ubereats_hk"
+        "name": "LLB Bistro",
+        "about": "光復香港 時代革命\nHong Kong x Western x Fusion\n上環荷里活道188號 (上環地鐵站A2出口)\nTel: 35946790\nWhatsapp: 92260594\n🔸Steak🥩🔸Fusion🥘\n🔸Coffee☕️🔸Beer🍺🔸Wine🍷\n🔸Private Party 🍾"
       },
       "url": "https://www.instagram.com/llbbistrohk/"
     }
@@ -42,5 +41,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00597"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "188 Hollywood Road"
+      },
+      "googleMapsPlaceId": "ChIJ7WSG0MwBBDQRGUH0iRJJ4eE",
+      "coordinates": {
+        "lat": 22.2852971,
+        "lng": 114.1484938
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }

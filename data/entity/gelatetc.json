@@ -5,20 +5,19 @@
   },
   "webpages": [
     {
-      "url": "http://fb.me/gelatetc"
-    },
-    {
+      "url": "https://www.facebook.com/gelatetc/",
       "meta": {
+        "name": "gelat etc.",
         "id": "392883327717243",
         "about": "Freshly handcrafted artisan gelato • coffee & more! 自家製意式手工雪糕�",
         "categories": [
-          "Gelato shop",
+          "Gelato Shop",
           "Cafe"
         ],
         "addr": "1 Sai Yuen Lane, Shop 2 G/F, Artisan House, Sai Ying Pun",
-        "area": "Hong Kong"
-      },
-      "url": "https://www.facebook.com/gelatetc/"
+        "area": "Hong Kong",
+        "tel": "66814343"
+      }
     }
   ],
   "posts": [
@@ -34,5 +33,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00589"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "1 Sai Yuen Lane, Shop 2 G/F, Artisan House, Sai Ying Pun"
+      },
+      "googleMapsPlaceId": "ChIJRVlkeTH_AzQR4WhrE9NlR5o",
+      "coordinates": {
+        "lat": 22.2875031,
+        "lng": 114.1417998
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }

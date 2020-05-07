@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
+        "name": "29 Coffee Co - Tai Yip St.",
+        "id": "149922175664368",
         "about": "人說三十而立；\n那在二十九的分水嶺；\n你又為它界定了甚麼 ?",
         "categories": [
-          "Coffee shop"
+          "Coffee Shop"
         ],
         "addr": "Shop D, 29 Tai Yip St.",
-        "area": "Ngau Tau Kok",
+        "area": "HK Ngau Tau Kok",
         "email": "info@29coffeeco.com",
-        "tel": "62789799",
-        "id": "149922175664368"
+        "tel": "68988685"
       },
       "url": "https://www.facebook.com/twentyninecoffee/"
+    },
+    {
+      "url": "https://www.instagram.com/29coffee/",
+      "meta": {
+        "name": "Specialty Coffee",
+        "about": "人說三十而立；\n那在二十九的分水嶺；\n你又為它界定了甚麼 ?\n✉️ info@29coffeeco.com\nWhatsapp: 68988685\nShop G2, 50 Bonham Strand, Sheung Wan\nShop D, 29 Tai Yip Street, Ngau Tau Kok"
+      }
     }
   ],
   "posts": [
@@ -34,5 +42,20 @@
   "yellowBlueMapIds": [
     "Y_EAT00111",
     "Y_EAT02043"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop D, 29 Tai Yip St."
+      },
+      "googleMapsPlaceId": "EiJUYWkgWWlwIFN0LCBLb3dsb29uIEJheSwgSG9uZyBLb25nIi4qLAoUChIJByijGzYBBDQRJ-koFitdp34SFAoSCVv8ZJHMBgQ0EcQX6713igRw",
+      "coordinates": {
+        "lat": 22.319561,
+        "lng": 114.213308
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

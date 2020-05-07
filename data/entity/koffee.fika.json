@@ -16,6 +16,13 @@
         "addr": "Unit A6, 12/F, Mai Hing Industrial Building Block A, 16-18 Hing Yip Street, Kwun Tong, Kowloon",
         "area": "Hong Kong"
       }
+    },
+    {
+      "url": "https://www.instagram.com/koffee_fika/",
+      "meta": {
+        "name": "Koffee Fika °°",
+        "about": "every drop is a new experience | enjoy moments & reconnecting people\n.\nopens saturdays\nopening hours - 1400 ~ 1830\nkoffee.fika@gmail.com\n."
+      }
     }
   ],
   "posts": [
@@ -36,5 +43,20 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit A6, 12/F, Mai Hing Industrial Building Block A, 16-18 Hing Yip Street, Kwun Tong, Kowloon"
+      },
+      "googleMapsPlaceId": "ChIJQ-4QYnMBBDQRZQ8KRazxbEc",
+      "coordinates": {
+        "lat": 22.3089604,
+        "lng": 114.2252759
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

@@ -6,17 +6,23 @@
   "webpages": [
     {
       "meta": {
+        "name": "Relax Coffee",
         "id": "298071060807783",
         "about": "咖啡對我們而言不單是提神飲品，更是享受和品味，以一杯好咖啡作為一天的動力，以咖啡作為人與人溝通的媒介。",
         "categories": [
-          "Coffee shop",
-          "Product/service"
+          "Product/Service",
+          "Coffee Shop"
         ],
-        "addr": "Shop No G06 Ground Floor Life@KCC NOS 72-76 Kwai Cheong Road",
-        "area": "Kwai Chung",
         "email": "relaxcoffeehk@gmail.com"
       },
       "url": "https://www.facebook.com/relaxcoffeehk/"
+    },
+    {
+      "url": "https://www.instagram.com/relaxcoffeehk/",
+      "meta": {
+        "name": "Relax Coffee",
+        "about": "GOOD COFFEE LIGHTS UP YOUR DAY\n-\nMon-Fri:8am-6pm\nSat&Sun:12noon-6pm\nLatte Art Workshop: PM\n-\nKWAI HING MTR Station Exit E"
+      }
     }
   ],
   "posts": [
@@ -30,5 +36,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00502"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵涌葵昌路72-76號Life@KCC地下G06舖"
+      },
+      "googleMapsPlaceId": "ChIJA2Tv5yn5AzQR2yzHd4oGimo",
+      "coordinates": {
+        "lat": 22.36227569999999,
+        "lng": 114.1325499
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }

@@ -6,10 +6,12 @@
   "webpages": [
     {
       "meta": {
+        "name": "Prisma Coffee Co. - Tin Hau",
         "id": "805217019545117",
-        "about": "Our vision is to redefine your unique coffee experience and build up a true coffee culture.\n\nInstagram: #prismacoffeehk",
+        "about": "Our vision is to redefine your unique coffee experience and build up a true coffee culture.\n\nInstagram:  #prismacoffeehk",
         "categories": [
-          "Coffee shop"
+          "Coffee Shop",
+          "Restaurant"
         ],
         "addr": "3A Watson Road",
         "area": "Hong Kong",
@@ -17,6 +19,13 @@
         "tel": "34603725"
       },
       "url": "https://www.facebook.com/prismacoffeehk.tinhau/"
+    },
+    {
+      "url": "https://www.instagram.com/prismacoffeehk/",
+      "meta": {
+        "name": "PRISMA Coffee Co.",
+        "about": "Tin Hau Shop: G/F, 3A Watson Road, Tin Hau\n#prismacoffeehk"
+      }
     }
   ],
   "posts": [
@@ -30,5 +39,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01846"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "3A Watson Road"
+      },
+      "googleMapsPlaceId": "ChIJD1t2YHwABDQRhOM79me2v2w",
+      "coordinates": {
+        "lat": 22.2867906,
+        "lng": 114.1912363
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }

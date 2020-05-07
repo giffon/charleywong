@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
+        "name": "Rings Coffee",
         "id": "166381593952894",
         "categories": [
-          "Coffee shop",
-          "Restaurant"
+          "Restaurant",
+          "Coffee Shop"
         ],
         "addr": "G/F, No.8 ,Nga Tsin Long Road, Kowloon City",
-        "area": "Kowloon, Hong Kong",
+        "area": "HK Kowloon, Hong Kong",
         "email": "ringscoffee@gmail.com",
         "tel": "97983510"
       },
       "url": "https://www.facebook.com/ringscoffee/"
+    },
+    {
+      "url": "https://www.instagram.com/ringscoffee/",
+      "meta": {
+        "name": "Coffee Rings",
+        "about": "Opening Hours\nMon-Thu 730 - 21:30\nFri 730 -21:30\nSat 9:00-21:30\nSun 9:00- 1900\n☎️：9798-3510"
+      }
     }
   ],
   "posts": [
@@ -33,5 +41,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00106"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, No.8 ,Nga Tsin Long Road, Kowloon City"
+      },
+      "googleMapsPlaceId": "ChIJewI0zSoHBDQROd4UKT6Ark0",
+      "coordinates": {
+        "lat": 22.328207,
+        "lng": 114.18938
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
   ]
 }
