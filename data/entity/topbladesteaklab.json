@@ -9,16 +9,46 @@
     },
     {
       "meta": {
-        "about": "HMT:\n4A Soares Ave, Ho Man Tin / Mong Kok East\n+852 3956 2011...\n\n\n\n\n\nSee more",
+        "name": "Top Blade Steak Lab",
+        "id": "194958111014370",
+        "about": "HMT: \n4A Soares Ave, Ho Man Tin / Mong Kok East \n+852 3956 2011\n12:00 - 4pm / 5:30pm - 10pm\n\nCWB:\n2-4 Hysan Ave, Causeway Bay\n+852 2657 8210\n12:00 - 10pm",
         "categories": [
           "Steakhouse"
-        ],
-        "id": "194958111014370"
+        ]
       },
       "url": "https://www.facebook.com/topbladesteaklab/"
     },
     {
+      "url": "https://www.facebook.com/288400641953573/",
       "meta": {
+        "name": "Top Blade Steak Lab (旺角東/何文田梭椏道)",
+        "id": "288400641953573",
+        "categories": [
+          "Steakhouse"
+        ],
+        "addr": "Northern Portion, G/f, Wing Ying Mansion, No. 4A Soares Avenue",
+        "area": "Mong Kok",
+        "tel": "39562011"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.facebook.com/topbladecwb/",
+      "meta": {
+        "name": "Top Blade Steak Lab (銅鑼灣希慎道)",
+        "id": "2110140582573090",
+        "categories": [
+          "Steakhouse"
+        ],
+        "addr": "2-4 Hysan Avenue",
+        "area": "Causeway Bay",
+        "tel": "26578210"
+      },
+      "hidden": true
+    },
+    {
+      "meta": {
+        "name": "Top Blade Steak Lab",
         "about": "Quality steak for all.\n#topbladesteak #flatiron #steaklab\n👇🏼Click here for reservation"
       },
       "url": "https://www.instagram.com/topbladesteaklab/"
@@ -38,5 +68,33 @@
   "yellowBlueMapIds": [
     "Y_EAT00494",
     "Y_EAT00495"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Northern Portion, G/f, Wing Ying Mansion, No. 4A Soares Avenue, Mong Kok"
+      },
+      "googleMapsPlaceId": "ChIJd6wPYM8ABDQRZfZLwJJh7ww",
+      "coordinates": {
+        "lat": 22.3194902,
+        "lng": 114.175116
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    },
+    {
+      "address": {
+        "en": "2-4 Hysan Avenue, Causeway Bay"
+      },
+      "googleMapsPlaceId": "ChIJT01cY6cBBDQR_zzpuLVeQBc",
+      "coordinates": {
+        "lat": 22.2779071,
+        "lng": 114.1842901
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }

@@ -15,11 +15,11 @@
         "id": "150585991940378",
         "about": "Visit us for wonderful sous vide food!\n\nThe Hangout - 19 Poplar Street, Prince Edward,\nThe Steak - 91 Prince Edward Road West, Kln",
         "categories": [
-          "Steakhouse",
-          "Deli"
+          "Deli",
+          "Steakhouse"
         ],
         "addr": "91 Prince Edward Road West, Kowloon",
-        "area": "Kowloon, Hong Kong",
+        "area": "000 Kowloon, Hong Kong",
         "tel": "56903290"
       }
     },
@@ -67,5 +67,33 @@
   "yellowBlueMapIds": [
     "Y_EAT00470",
     "Y_EAT00471"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "The Hangout - 19 Poplar Street, Prince Edward"
+      },
+      "googleMapsPlaceId": "ChIJ2zaNdbYABDQRVLbiQnNUdA8",
+      "coordinates": {
+        "lat": 22.3263096,
+        "lng": 114.1659996
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "en": "The Steak - 91 Prince Edward Road West, Kln"
+      },
+      "googleMapsPlaceId": "ChIJFf6_srcABDQRcq_QXL5lZNE",
+      "coordinates": {
+        "lat": 22.32342879999999,
+        "lng": 114.165743
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

@@ -59,9 +59,25 @@
     }
   ],
   "tags": [
-    "shop"
+    "pizza",
+    "burger"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00012"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗鳳攸南街9號地下3號鋪"
+      },
+      "googleMapsPlaceId": "ChIJXx25h6fwAzQR6L0Dt8CyXVs",
+      "coordinates": {
+        "lat": 22.4421692,
+        "lng": 114.0346081
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }
