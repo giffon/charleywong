@@ -37,5 +37,20 @@
   "tags": [
     "sport",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角登打士街56號家樂坊16樓1627-28室"
+      },
+      "googleMapsPlaceId": "ChIJLfhAP-gBBDQRqVpKVxhvI1s",
+      "coordinates": {
+        "lat": 22.3151075,
+        "lng": 114.1712915
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
