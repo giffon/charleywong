@@ -7,7 +7,7 @@ class EntityTools {
         if (e.places == null)
             return [];
 
-        return e.places.map(p -> p.area.printAll())
+        return e.places.map(p -> p.area != null ? p.area.printAll() : null)
             .filter(a -> a != null)
             .fold((item, result:Array<String>) -> result.has(item) ? result : result.concat([item]), []);
     }
