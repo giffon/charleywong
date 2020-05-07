@@ -620,7 +620,7 @@ class ServerMain {
         if (GEOCODING_KEY != null && entity.places != null) {
             var geocodings = [
                 for (p in entity.places)
-                if (p.googleMapsPlaceId != null && (p.coordinates == null || p.area == null))
+                if (p.googleMapsPlaceId != null && p.googleMapsPlaceId != "" && (p.coordinates == null || p.area == null))
                 gmapsClient.placeDetails({
                     params: {
                         place_id: p.googleMapsPlaceId,
