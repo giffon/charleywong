@@ -6,12 +6,13 @@
   "webpages": [
     {
       "meta": {
+        "name": "Easy Joe",
         "id": "381883695993649",
         "categories": [
           "Restaurant"
         ],
         "addr": "大角咀福全街18號地下",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "hkeasyjoe@gmail.com",
         "tel": "25060638"
       },
@@ -19,7 +20,8 @@
     },
     {
       "meta": {
-        "about": "📍大角咀福全街18號\n☎️25060638(只接受電話訂座)\n💥每日16:00-18:00 午休\nTue- Thur，Sun：12:00-22:00\nFri & Sat：12:00-22:30\n🔺Monday Off🔺（公眾假期除外）"
+        "name": "Let‘s Chill Like A Easyjoe☕️",
+        "about": "📍大角咀福全街18號\n☎️25060638(只接受電話訂座)\n💥每日1530-18:00 午休\nTue- Thur，Sun：12:00-22:00\nFri & Sat：12:00-22:30\n🔺Monday Off🔺（公眾假期除外）"
       },
       "url": "https://www.instagram.com/easyjoe_hk/"
     }
@@ -38,5 +40,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00510"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大角咀福全街18號地下"
+      },
+      "googleMapsPlaceId": "ChIJD3Q1zH0BBDQRvc26smfTEcU",
+      "coordinates": {
+        "lat": 22.3209079,
+        "lng": 114.1649307
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

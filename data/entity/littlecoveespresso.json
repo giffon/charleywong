@@ -6,21 +6,23 @@
   "webpages": [
     {
       "meta": {
+        "name": "Little Cove Espresso",
+        "id": "424053707795001",
         "about": "A laneway cafe with a passion for specialty coffee & Mediterranean inspired food. Taking care of the good people of Sai Kung, one cup at a time.",
         "categories": [
           "Cafe"
         ],
         "addr": "Sai Kung Town Villa Block A, Siu Yat Building Block A, Shop 1+2, G/F, Sai Kung Hoi Pong Square, Sai Kung",
-        "area": "Hong Kong",
+        "area": "0000 Hong Kong",
         "email": "info@littlecoveespresso.com",
-        "tel": "95728560",
-        "id": "424053707795001"
+        "tel": "95728560"
       },
       "url": "https://www.facebook.com/littlecoveespresso/"
     },
     {
       "meta": {
-        "about": "📞 95728560\n📩 info@littlecoveespresso.com\nA laneway cafe taking care of the good people of Sai Kung and those passing by, one cup at a time ☕"
+        "name": "Little Cove Espresso",
+        "about": "Coffee | Food | Community\ninfo@littlecoveespresso.com\n95728560"
       },
       "url": "https://www.instagram.com/littlecove.espresso/"
     }
@@ -41,5 +43,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00450"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Sai Kung Town Villa Block A, Siu Yat Building Block A, Shop 1+2, G/F, Sai Kung Hoi Pong Square, Sai Kung"
+      },
+      "googleMapsPlaceId": "ChIJ78BkB70FBDQRP-ddLYuwhGs",
+      "coordinates": {
+        "lat": 22.3809799,
+        "lng": 114.2733757
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    }
   ]
 }

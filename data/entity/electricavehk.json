@@ -6,17 +6,24 @@
   "webpages": [
     {
       "meta": {
+        "name": "Electric Ave",
         "id": "846555018811380",
         "about": "The best burgers in Hong Kong reside at this location. Stunning flavour combos can be expected as well as top notch ingredients.",
         "categories": [
-          "Burger restaurant",
-          "Fast food restaurant"
+          "Burger Restaurant"
         ],
         "addr": "301 Queen’s Road West, Sai Ying Pun, Western District",
-        "area": "Sai Ying Pun",
+        "area": "0000 Sai Ying Pun",
         "tel": "28588883"
       },
       "url": "https://www.facebook.com/electricavehk/"
+    },
+    {
+      "url": "https://www.instagram.com/electric_ave_hk/",
+      "meta": {
+        "name": "ELECTRIC BURGER RESTAURANT BAR",
+        "about": "Tiny Joint. Massive Flavours. Destroys the Competition #bestburgersinhk @electric_ave_hk"
+      }
     }
   ],
   "posts": [
@@ -29,5 +36,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00334"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "301 Queen’s Road West, Sai Ying Pun, Western District"
+      },
+      "googleMapsPlaceId": "ChIJ6VODvYD_AzQRkyYHAegBl8w",
+      "coordinates": {
+        "lat": 22.2870371,
+        "lng": 114.1421383
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }

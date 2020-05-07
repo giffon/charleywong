@@ -9,16 +9,23 @@
       "meta": {
         "name": "Fast Taste",
         "id": "598237310338384",
-        "about": "主打漢堡/意粉+飯/海鮮\n長沙灣元州街482-492號\n(港鐵站長沙灣C2 或 荔枝角B1岀口)\nBurgers/Pasta/Risotto/Seafood\nNo.482-492 Un Chau St, KLN\n(MTR Cheung Sha Wan C2 OR Lai Chi Kok B1)",
+        "about": "餐廳裝潢休閒具工業風，倡有葷有素的西式煮意!\n(漢堡包，意粉，意大利飯，沙律，小食)\n(Burger/Pasta/Risotto/Salad/Sides)\n小店由老闆兼廚師主理，提供「派對到會」，歡迎查詢。",
         "categories": [
           "Burger Restaurant",
           "New American Restaurant",
-          "Diner"
+          "Continental Restaurant"
         ],
         "addr": "No.482-492 Un Chau Street, Kowloon",
-        "area": "Cheung Sha Wan, Hong Kong",
+        "area": "00000 Cheung Sha Wan, Hong Kong",
         "email": "fasttaste.kitchen@gmail.com",
         "tel": "91233262"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/fasttaste/",
+      "meta": {
+        "name": "Fast Taste",
+        "about": "餐廳裝潢休閒具工業風，倡有葷有素的西式煮意!\n(漢堡包，意粉，意大利飯，沙律，小食)\n小店由老闆兼廚師主理，提供「派對到會」，歡迎查詢。\n☎+852 9123 3262\n地址：九龍長沙灣元州街482-492號金碧閣4號舖\n(長沙灣地鐵C2/荔枝角B1岀口）"
       }
     }
   ],
@@ -58,5 +65,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00743"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "No.482-492 Un Chau Street, Kowloon"
+      },
+      "googleMapsPlaceId": "ChIJJb92j1EHBDQRSB0_JbTatwk",
+      "coordinates": {
+        "lat": 22.3399066,
+        "lng": 114.1536608
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

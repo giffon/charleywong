@@ -12,8 +12,7 @@
         "id": "2018570475036638",
         "about": "泰越西餐廳",
         "categories": [
-          "Burger Restaurant",
-          "Fast Food Restaurant"
+          "Thai Restaurant"
         ],
         "addr": "D2 Place TWO, 1/F, Shop 110, 15 Cheung Shun Street, Lai Chi Kok",
         "area": "Kowloon, Hong Kong",
@@ -27,9 +26,6 @@
         "name": "Kool Kitchen",
         "about": "泰越西餐廳 x KOL拍攝場地\n過千尺場地悠閒嘆 | Relax!\n🏠 D2 Place TWO, 1/F（荔枝角站 D2 出口）☎️ 3572 0051 歡迎留言比下意見🙂✨"
       }
-    },
-    {
-      "url": "https://www.openrice.com/zh/hongkong/r-kool-荔枝角-西式-漢堡包-r505371"
     }
   ],
   "posts": [
@@ -48,5 +44,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01615"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "D2 Place TWO, 1/F, Shop 110, 15 Cheung Shun Street, Lai Chi Kok"
+      },
+      "googleMapsPlaceId": "ChIJM6l13VQHBDQRCkzqUOypsiQ",
+      "coordinates": {
+        "lat": 22.336115,
+        "lng": 114.147475
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

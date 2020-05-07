@@ -6,13 +6,22 @@
   "webpages": [
     {
       "meta": {
+        "name": "Jeffy's kitchen",
         "id": "123086971686396",
         "about": "Jeffy's kitchen 是間西餐外賣店 食物主打有招牌軍艦蝦多士,秘制瑞士雞翼,巴馬火腿迷你薄餅,自家制薯蓉芝士波,安格斯牛肉漢堡,卡邦尼意粉,黑松露鮮菌意大利飯...店主亦在區內長大,請多支持小店",
         "categories": [
           "Kitchen/Cooking"
-        ]
+        ],
+        "tel": "66512829"
       },
       "url": "https://www.facebook.com/jeffyskitchen/"
+    },
+    {
+      "url": "https://www.instagram.com/jeffyskitchen/",
+      "meta": {
+        "name": "Jeffy’s Kitchen",
+        "about": "🍝🍔🍕🌭🍟🥗\n📍西環堅尼地城吉席街99號\n☎️6651 2829\nOpen till 1am\nAvailable at 🐼foodpanda & 🦘deliveroo"
+      }
     }
   ],
   "posts": [
@@ -29,5 +38,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01684"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "西環堅尼地城吉席街99號"
+      },
+      "googleMapsPlaceId": "ChIJvdpvGpr_AzQRiNMiGbhFTIs",
+      "coordinates": {
+        "lat": 22.2831427,
+        "lng": 114.1267982
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }
