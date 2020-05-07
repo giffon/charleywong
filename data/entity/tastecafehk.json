@@ -6,14 +6,16 @@
   "webpages": [
     {
       "meta": {
+        "name": "TASTE Cafe & Dessert",
         "id": "1981472065464644",
         "about": "由傳統意粉薄餅到加入創新元素嘅小食，我哋希望你會期待每一次嘅光臨。大廚會不停構思新菜式，務求用食物嚟留住你。",
         "categories": [
           "Restaurant"
         ],
         "addr": "屯門青菱徑6號富麗大廈地下D1號鋪",
-        "area": "Tuen Mun",
-        "email": "tastecafehk@gmail.com"
+        "area": "852 Tuen Mun",
+        "email": "tastecafehk@gmail.com",
+        "tel": "95586601"
       },
       "url": "https://www.facebook.com/tastecafehk/"
     }
@@ -24,9 +26,25 @@
     }
   ],
   "tags": [
+    "pizza",
     "food"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00612"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門青菱徑6號富麗大廈地下D1號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ33iaZR_7AzQRlkEQ20Di124",
+      "coordinates": {
+        "lat": 22.40216999999999,
+        "lng": 113.9778783
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
   ]
 }

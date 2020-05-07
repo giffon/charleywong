@@ -9,15 +9,22 @@
       "meta": {
         "name": "Pizzeria Jacomax",
         "id": "147164608687110",
-        "about": "2D finnie street quarry bay( metro exit B opposit)\n68 Hennessy Road (next to southorn park)",
         "categories": [
           "Pizza Place",
           "Italian Restaurant"
         ],
         "addr": "38-42 Wing Lok Street, Sheung Wan",
-        "area": "Sheung Wan",
+        "area": "HK Sheung Wan",
         "email": "gbb10@live.com",
         "tel": "28514688"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/pizzeriajacomax/",
+      "hidden": true,
+      "meta": {
+        "name": "pizzeriajacomax",
+        "about": "Sheung wan:\n28-34 Wing Lok st.\n/\nWan Chai:\n68-76 Hennessy Rd.\n/\nQuarry Bay:\n2D Finnie St.\n/\nFB: Pizzeria Jacomax"
       }
     }
   ],
@@ -64,5 +71,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01325"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "38-42 Wing Lok Street, Sheung Wan"
+      },
+      "googleMapsPlaceId": "ChIJY3wMUXwABDQR7iP7Txo2P1s",
+      "coordinates": {
+        "lat": 22.2861795,
+        "lng": 114.152292
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }

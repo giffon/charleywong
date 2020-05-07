@@ -10,11 +10,11 @@
         "id": "1769645643316467",
         "about": "分店\nhttps://www.facebook.com/plato.yaumatei/",
         "categories": [
-          "Restaurant",
-          "Coffee Shop"
+          "Coffee Shop",
+          "Restaurant"
         ],
         "addr": "油麻地彌敦道483-485A號2樓",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "platocafebistro@gmail.com",
         "tel": "97875976"
       },
@@ -26,11 +26,11 @@
         "id": "535061220224752",
         "about": "Plato Cafe Bistro乃追求用心製作好食品、咖啡及飲品給每一位客人，餐廳主要提供意式食品如Pasta、Pizza及Risotto，還有其他如優質美國安格斯肉眼牛排、羊排、法國春雞等美食。",
         "categories": [
-          "Coffee Shop",
-          "Restaurant"
+          "Restaurant",
+          "Coffee Shop"
         ],
         "addr": "九龍佐敦吳松街186號至188號地下",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "tel": "97875930"
       },
       "url": "https://www.facebook.com/plato.woosung/"
@@ -39,10 +39,9 @@
       "meta": {
         "name": "Plato",
         "id": "505136319562074",
-        "about": "油麻地彌敦道448-452A號眾坊街文豪閣地下D舖 (中華書局旁)\nShop D, G/F Man Hoo Court, 448-452A Nathan Road, Yau Ma Tei, Yau Ma Tei, Hong Kong",
+        "about": "油麻地彌敦道448-452A號眾坊街文豪閣地下D舖 (中華書局旁) \nShop D, G/F Man Hoo Court, 448-452A Nathan Road, Yau Ma Tei, Yau Ma Tei, Hong Kong",
         "categories": [
-          "Continental Restaurant",
-          "Coffee Shop"
+          "Continental Restaurant"
         ],
         "addr": "Shop D, G/F Man Hoo Court, 448-452A Nathan Road, Yau Ma Tei",
         "area": "Yau Ma Tei",
@@ -50,6 +49,12 @@
         "tel": "23888269"
       },
       "url": "https://www.facebook.com/plato.yaumatei/"
+    },
+    {
+      "url": "https://www.instagram.com/platocafebistro_woosung/",
+      "meta": {
+        "name": "Plato Cafe Bistro"
+      }
     }
   ],
   "posts": [
@@ -61,11 +66,51 @@
     },
     {
       "url": "https://www.facebook.com/plato.woosung/photos/a.577624569301750/931970053867198"
+    },
+    {
+      "url": "https://www.facebook.com/plato.woosung/posts/994549140942622",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/plato.woosung/posts/941713639559506",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
     "food",
     "cafe",
     "pizza"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "油麻地彌敦道483-485A號2樓"
+      },
+      "googleMapsPlaceId": "ChIJl_amq8EABDQRS5FUVT-bKek",
+      "coordinates": {
+        "lat": 22.311381,
+        "lng": 114.17082
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "佐敦吳松街186-188號地舖"
+      },
+      "googleMapsPlaceId": "ChIJ3y4RZM0BBDQRpMMYCHpy5J4",
+      "coordinates": {
+        "lat": 22.3033333,
+        "lng": 114.1702778
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
