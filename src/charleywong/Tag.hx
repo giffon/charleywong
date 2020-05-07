@@ -684,5 +684,12 @@ class Tag {
             zh: "行山"
         }
     }
+
+    static public final pizza:TagData = {
+        name: {
+            en: "pizza",
+            zh: "薄餅"
+        }
+    }
     
 }
