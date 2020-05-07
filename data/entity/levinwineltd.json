@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.levinwine.com.hk"
+      "url": "https://www.levinwine.com.hk"
     },
     {
       "url": "https://www.facebook.com/levinwineltd/",
@@ -14,12 +14,22 @@
         "id": "1582724865326468",
         "about": "Levin Wine Ltd 是提供優質的葡萄酒供應及葡萄酒教授,酒及食物配搭,葡萄酒全方位業務\n\nLouis is a Recognized Sommelier in HK. With solid and strong wine knowledge, he understands the HK local market needs and requirements.",
         "categories": [
-          "Wine/Spirits",
           "Shopping & Retail"
         ],
         "addr": "觀塘工業中心3期4樓P室",
-        "area": "Kowloon, Hong Kong",
+        "area": "Kwun Tong",
         "email": "info@levinwinehk.com",
+        "tel": "68914178"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/LevinWineClub/",
+      "meta": {
+        "name": "Levin Wine Club",
+        "id": "1664129733710379",
+        "categories": [
+          "Wine/Spirits"
+        ],
         "tel": "68914178"
       }
     }
@@ -88,5 +98,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01762"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘工業中心3期4樓P室"
+      },
+      "googleMapsPlaceId": "ChIJ59_yNTABBDQRqwQPYVpoBN0",
+      "coordinates": {
+        "lat": 22.3111169,
+        "lng": 114.2274174
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
