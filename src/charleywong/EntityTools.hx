@@ -1,39 +1,14 @@
 package charleywong;
 
-#if js
-import js.npm.hk_address_parser_lib.Dclookup;
-import js.npm.country_locator.CountryLocator;
-#end
 using Lambda;
 
 class EntityTools {
-    #if js
     static public function areas(e:Entity):Array<String> {
         if (e.places == null)
             return [];
 
-        return e.places.map(p -> p.coordinates)
-            .filter(c -> c != null)
-            .map(c -> switch (Dclookup.dcNameFromCoordinates(c.lat, c.lng)["2015"]) {
-                case null:
-                    switch (CountryLocator.findCountryByCoordinate(c.lat, c.lng)) {
-                        case null:
-                            trace('Unknown country at ${c.lat} ${c.lng}');
-                            null;
-                        case { code: "HKG" }: "香港";
-                        case { code: "TWN" }: "臺灣";
-                        case { code: "USA" }: "美國";
-                        case { code: "JPN" }: "日本";
-                        case { code: "CHN" }: "中國";
-                        case country:
-                            trace('Missing Chinese name of ${country.name} (${country.code})');
-                            country.name;
-                    }
-                case dc:
-                    dc.district;
-            })
+        return e.places.map(p -> p.area.printAll())
             .filter(a -> a != null)
             .fold((item, result:Array<String>) -> result.has(item) ? result : result.concat([item]), []);
     }
-    #end
 }

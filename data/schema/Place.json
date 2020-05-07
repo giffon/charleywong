@@ -24,6 +24,9 @@
                 "lng"
             ],
             "additionalProperties": false
+        },
+        "area": {
+            "$ref": "MultiLangString.json"
         }
     },
     "additionalProperties": false

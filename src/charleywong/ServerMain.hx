@@ -3,6 +3,7 @@ package charleywong;
 import sys.FileSystem;
 import js.npm.nodejieba.Nodejieba;
 import js.npm.fetch.Fetch;
+import js.npm.hk_address_parser_lib.Dclookup;
 import js.lib.Promise;
 import js.npm.jimp.Jimp;
 import js.node.Buffer;
@@ -619,7 +620,7 @@ class ServerMain {
         if (GEOCODING_KEY != null && entity.places != null) {
             var geocodings = [
                 for (p in entity.places)
-                if (p.googleMapsPlaceId != null && p.coordinates == null)
+                if (p.googleMapsPlaceId != null && (p.coordinates == null || p.area == null))
                 gmapsClient.placeDetails({
                     params: {
                         place_id: p.googleMapsPlaceId,
@@ -631,6 +632,27 @@ class ServerMain {
                             trace('Cannot geocode ${p.googleMapsPlaceId}: ${response.data.status}');
                         case result:
                             p.coordinates = result.geometry.location;
+                            p.area = switch (result.address_components.find(c -> c.types.has("country"))) {
+                                case null:
+                                    trace('No country info for ${p.googleMapsPlaceId}.');
+                                    null;
+                                case { short_name: "HK" }:
+                                    switch (Dclookup.dcNameFromCoordinates(p.coordinates.lat, p.coordinates.lng)["2015"]) {
+                                        case null:
+                                            trace('Unknown district for ${p.googleMapsPlaceId}.');
+                                            null;
+                                        case dc:
+                                            { zh: dc.district };
+                                    }
+                                case { short_name: "TW" }: { zh: "臺灣" };
+                                case { short_name: "US" }: { zh: "美國" };
+                                case { short_name: "JP" }: { zh: "日本" };
+                                case { short_name: "CN" }: { zh: "中國" };
+                                case { short_name: "NZ" }: { zh: "紐西蘭" };
+                                case { short_name: code, long_name: name }:
+                                    trace('Missing Chinese name of ${code}. Check https://en.wikipedia.org/wiki/ISO_3166-1.');
+                                    { en: name };
+                            }
                     }
                 })
             ];

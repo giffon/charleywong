@@ -25,7 +25,8 @@ typedef Place = {
     ?coordinates:{
         lat:Float,
         lng:Float,
-    }
+    },
+    ?area:MultiLangString,
 }
 
 typedef Entity = {

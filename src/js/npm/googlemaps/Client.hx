@@ -72,8 +72,14 @@ typedef AddressGeometry = {
     viewport:LatLngBounds,
 }
 
+typedef AddressComponent = {
+    long_name:String,
+    short_name:String,
+    types:Array<String>,
+}
+
 typedef Place = {
-    ?address_components:Array<Dynamic>,
+    ?address_components:Array<AddressComponent>,
     ?adr_address:String,
     ?business_status:String,
     ?formatted_address:String,
