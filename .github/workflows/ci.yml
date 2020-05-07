@@ -36,6 +36,10 @@ jobs:
           bash build-dclookup.sh
           haxelib newrepo
           haxelib install all --always -notimeout
+      - uses: actions/upload-artifact@v1
+        with:
+          name: dclookup
+          path: dclookup.js
       - name: Compile index.js
         run: haxe build.hxml
       - uses: actions/upload-artifact@v1
@@ -74,6 +78,9 @@ jobs:
           submodules: true
       - uses: actions/download-artifact@v1
         with:
+          name: dclookup
+      - uses: actions/download-artifact@v1
+        with:
           name: index
       - uses: actions/download-artifact@v1
         with:
@@ -84,6 +91,7 @@ jobs:
       - name: move artifacts
         run: |
           set -ex
+          mv dclookup/* .
           mv index/* .
           mv browser/* static
           mv flexsearch/* .
