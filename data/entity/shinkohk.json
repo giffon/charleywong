@@ -14,7 +14,7 @@
         ],
         "addr": "黑布街74-76號地下1號舖",
         "area": "Hong Kong",
-        "email": "shinkoizahaya@gmail.com",
+        "email": "shinkoizakaya@gmail.com",
         "tel": "59989188"
       },
       "url": "https://www.facebook.com/shinkohk/"
@@ -41,6 +41,30 @@
         "utime": "1577715723",
         "sharedWith": "Public"
       }
+    },
+    {
+      "url": "https://www.facebook.com/shinkohk/posts/966289373720618",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/shinkohk/posts/971517226531166",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/shinkohk/posts/981698242179731",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/shinkohk/posts/990504571299098",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
@@ -49,5 +73,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00761"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "黑布街74-76號地下1號舖"
+      },
+      "googleMapsPlaceId": "ChIJr3bfuC4BBDQRH3Jc2POO5-s",
+      "coordinates": {
+        "lat": 22.3177871,
+        "lng": 114.1727493
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
