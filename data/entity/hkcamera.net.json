@@ -13,11 +13,11 @@
         "id": "1519952524898633",
         "about": "HKcamera.net 除了銷售外，還會不定期更新菲林相關的文章，就讓我們帶領大家一起探索有關菲林攝影的樂趣吧！\n\n聯絡我們 ：\nWhatsapp ：6823 2193\nInstagram: @hk_camera\n\n服務：\n＊菲林銷售沖掃＊相機買賣",
         "categories": [
-          "Camera Store",
-          "Camera/Photo"
+          "Camera/Photo",
+          "Camera Store"
         ],
         "addr": "1/F, 59 Granville Road",
-        "area": "Tsim Sha Tsui",
+        "area": "HKG Tsim Sha Tsui",
         "email": "hkcamera.photo@gmail.com",
         "tel": "31881690"
       },
@@ -26,7 +26,7 @@
     {
       "meta": {
         "name": "🎞 HKCamera 菲林相機專門店",
-        "about": "8 Years of Service\nFilm Develop • Analogue Cameras • Darkroom\nKodak Picture Kiosk 自助相片打印站\n⏱ (Mon-Sat ) 1:00-9:00 pm (Sun) 1:00-7:00 pm"
+        "about": "8 Years of Service\nFilm Develop • Analogue Cameras • Darkroom\nKodak Picture Kiosk 自助相片打印站\n⏱ (Mon-Sat ) 1:00-8:00 pm (Sun) 1:00-7:00 pm"
       },
       "url": "https://www.instagram.com/hk_camera/"
     }
@@ -42,5 +42,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00010"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "1/F, 59 Granville Road"
+      },
+      "googleMapsPlaceId": "ChIJweGNnEUBBDQRnrGghM8Q7wM",
+      "coordinates": {
+        "lat": 22.300434,
+        "lng": 114.175458
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

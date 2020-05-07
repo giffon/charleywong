@@ -6,16 +6,17 @@
   },
   "webpages": [
     {
-      "url": "http://www.zeta.com.hk"
+      "url": "https://www.zeta.com.hk"
     },
     {
       "meta": {
+        "name": "ZETA 科卓",
         "id": "121283961362950",
         "about": "ZETA 科卓本公司\n主要產品：平板電腦，手提電腦，航拍無人機，智能電動車，專業穩定器，智能攝影器材，手遊電競產品及數碼影音產品。",
         "categories": [
-          "Computer shop",
-          "Product/service",
-          "Mobile phone shop"
+          "Computer Store",
+          "Product/Service",
+          "Mobile Phone Shop"
         ],
         "addr": "九龍深水埗福華街146-152黃金電腦商場地鋪G55號（MTR D2出口直行30米）",
         "area": "Sham Shui Po",
@@ -23,6 +24,13 @@
         "tel": "26885366"
       },
       "url": "https://www.facebook.com/zetahk/"
+    },
+    {
+      "url": "https://www.instagram.com/zeta_hk/",
+      "meta": {
+        "name": "ZETA",
+        "about": "最新最潮最型數碼產品！專業航拍！個人電動載具！最多香港人like嘅數碼產品店！"
+      }
     }
   ],
   "posts": [
@@ -43,5 +51,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00142"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍深水埗福華街146-152黃金電腦商場地鋪G55號"
+      },
+      "googleMapsPlaceId": "ChIJt5uQprQABDQR3zyqq79YJGg",
+      "coordinates": {
+        "lat": 22.3318628,
+        "lng": 114.1624829
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

@@ -9,10 +9,11 @@
     },
     {
       "meta": {
+        "name": "Meteor HK",
         "id": "257927644328857",
         "about": "Camera & Lens (Leica & others) • Accessories • Bags • books • original print • Film dev • Printing • workshop • exhibition",
         "categories": [
-          "Arts and crafts shop"
+          "Arts & Crafts Store"
         ],
         "addr": "9A Lin fook House, 3 Jardine's Crescent",
         "area": "Hong Kong",
@@ -20,6 +21,21 @@
         "tel": "23920363"
       },
       "url": "https://www.facebook.com/meteorhk/"
+    },
+    {
+      "url": "https://www.instagram.com/meteorleica/",
+      "meta": {
+        "name": "Meteor · Leica",
+        "about": "📞852-23920363/Line: josephcheng /Fb: meteorhk/ WeChat 微信:waihok"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC27cc3yBTfWlkHdRfVxz_PA",
+      "meta": {
+        "id": "UC27cc3yBTfWlkHdRfVxz_PA",
+        "name": "METEOR HK",
+        "about": ""
+      }
     }
   ],
   "posts": [
@@ -45,5 +61,20 @@
   "tags": [
     "camera",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "9A Lin fook House, 3 Jardine's Crescent"
+      },
+      "googleMapsPlaceId": "ChIJu5qiEcgABDQRwVPKbWFHpWw",
+      "coordinates": {
+        "lat": 22.2797719,
+        "lng": 114.1843174
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }

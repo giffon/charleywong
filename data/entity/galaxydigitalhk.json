@@ -9,11 +9,12 @@
     },
     {
       "meta": {
+        "name": "Galaxydigitalhk",
         "id": "181164631934620",
         "about": "相機濾鏡全港最齊, 富士即影即有熱賣~",
         "categories": [
-          "Camera shop",
-          "Shopping & retail"
+          "Camera Store",
+          "Shopping & Retail"
         ],
         "addr": "旺角信和中心218號鋪(扶手電梯上到頂層第一間)",
         "area": "Hong Kong",
@@ -21,6 +22,13 @@
         "tel": "34827800"
       },
       "url": "https://www.facebook.com/galaxydigitalhk/"
+    },
+    {
+      "url": "https://www.instagram.com/galaxydigitalhk/",
+      "meta": {
+        "name": "Galaxy Digital",
+        "about": "批發 / 零售\n旺角信和中心3樓218号鋪\n(扶手電梯上到頂層第一間鋪)\n專賣數碼產品，專業配件，閃光燈，濾鏡，潮流APPS TOYS等，即影即有，寶麗來，Lomography, 日韓零食，潮流物品\nWhatsapp （批發/零售）69009952\n微信wechat（只限批發）s92027710"
+      }
     }
   ],
   "posts": [
@@ -31,5 +39,20 @@
   "tags": [
     "camera",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角信和中心218號鋪"
+      },
+      "googleMapsPlaceId": "ChIJZcDUHscABDQRKmqCjNOjwMk",
+      "coordinates": {
+        "lat": 22.3160575,
+        "lng": 114.1703633
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

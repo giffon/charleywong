@@ -17,10 +17,11 @@
         "name": "Voidlens -film camera store-",
         "id": "360233144394051",
         "categories": [
-          "Local Business"
+          "Camera Store"
         ],
         "addr": "高円寺北3-2-12",
         "area": "Suginami 166-0002",
+        "email": "voidlenstokyo@gmail.com",
         "tel": "819089721983"
       }
     },
@@ -39,5 +40,20 @@
   "tags": [
     "camera",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "高円寺北3-2-12"
+      },
+      "googleMapsPlaceId": "ChIJZQeT2_3zGGARgKFtGwhVYew",
+      "coordinates": {
+        "lat": 35.7061381,
+        "lng": 139.6475658
+      },
+      "area": {
+        "zh": "日本"
+      }
+    }
   ]
 }

@@ -75,5 +75,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00279"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍荔枝角道333號B2 333/B2"
+      },
+      "googleMapsPlaceId": "ChIJ8ye8uLMABDQR0wYl1yKc0so",
+      "coordinates": {
+        "lat": 22.3287797,
+        "lng": 114.15999
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

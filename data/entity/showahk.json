@@ -5,19 +5,21 @@
   },
   "webpages": [
     {
-      "url": "http://www.showa-store.com"
+      "url": "https://www.showa-store.com"
     },
     {
       "url": "https://www.facebook.com/showahk/",
       "meta": {
         "name": "SHOWA film & camera",
         "id": "1114774585216036",
-        "about": "SHOWA 相機店\n1. 旺角西洋菜南街66號 3/F mon to sun : 2-9pm\n2. 銅鑼灣富明街寶富大樓1號1樓H (利舞台側) mon to sun : 1-9pm\nService:\nFilm Camera - Film Developing - Repair",
+        "about": "SHOWA 相機店\n1. 旺角西洋菜南街66號 3/F mon to sun : 2-9pm \n2. 銅鑼灣富明街寶富大樓1號1樓H (利舞台側) mon to sun : 1-9pm\nService:\nFilm Camera - Film Developing - Repair",
         "categories": [
-          "Camera/Photo",
           "Camera Store",
-          "Shopping & Retail"
+          "Shopping & Retail",
+          "Camera/Photo"
         ],
+        "addr": "3/F No.66 Sai Yeung Choi Street South",
+        "area": "000000 Mong Kok",
         "email": "info@showa-store.com",
         "tel": "65415621"
       }
@@ -26,7 +28,7 @@
       "url": "https://www.instagram.com/showa_f/",
       "meta": {
         "name": "Film Camera 菲林相機店",
-        "about": "📸 Camera┊Film Develop┊Repair\n相機┊沖曬┊維修\n🏠旺角西洋菜南街66號 3/F (LUSH左面樓梯)(2-9pm)\n🏠銅鑼灣富明街1-5號寶富大樓 1/F H (1-9pm)\n教學及菲林單反相機有3個月保養*\n📞6541 5621\n#showa_photo"
+        "about": "📸 Camera┊Film Develop┊Repair\n相機┊沖曬┊維修\n教學及菲林單反相機有90日保養*\n🏠旺角西洋菜南街66號 3/F (LUSH左面樓梯)(2-9pm)\n🏠銅鑼灣富明街1-5號寶富大樓 1/F H (1-9pm)\n📞6541 5621\n網上買滿HKD500包順豐"
       }
     }
   ],
@@ -60,5 +62,33 @@
   "yellowBlueMapIds": [
     "Y_SHOP00522",
     "Y_SHOP01231"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港, 九龍, 旺角, 西洋菜南街 66號, 3樓"
+      },
+      "googleMapsPlaceId": "ChIJlaIZtscABDQR1WkvZ2s9-Oc",
+      "coordinates": {
+        "lat": 22.318641,
+        "lng": 114.170245
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港, 銅鑼灣, 富明街1-5號, 一號寶富大樓"
+      },
+      "googleMapsPlaceId": "ChIJAQDEMlEABDQRDcVTY0PUV24",
+      "coordinates": {
+        "lat": 22.2788362,
+        "lng": 114.1834373
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
