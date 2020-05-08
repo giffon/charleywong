@@ -14,9 +14,9 @@
         "id": "1491957431077967",
         "about": "香港終端 (terminalhk.com) 官方 Facebook Page",
         "categories": [
-          "Computer Company",
+          "E-commerce Website",
           "Computer Store",
-          "E-commerce Website"
+          "Computer Company"
         ],
         "addr": "3A Hung Cheong Factory Building, 742-748 Cheung Sha Wan Road",
         "area": "Lai Chi Kok",
@@ -42,5 +42,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00585"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "3A Hung Cheong Factory Building, 742-748 Cheung Sha Wan Road"
+      },
+      "googleMapsPlaceId": "ChIJBZEO5acHBDQRFLmyw8ZbdEU",
+      "coordinates": {
+        "lat": 22.338793,
+        "lng": 114.151463
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
