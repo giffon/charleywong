@@ -7,14 +7,15 @@
   "webpages": [
     {
       "meta": {
+        "name": "One Frozen 凍一凍 · 肉",
         "id": "2179292775459885",
         "about": "🏠沙田石門安麗街11號企業中心217室\n☎️96226116 (📲WhatsApp查詢 ➡️ https://wa.me/85296226116)\n⏰營業時間：星期一至六：10am-7pm (😴星期日及公眾假期休息😴)",
         "categories": [
-          "Shopping & retail",
-          "Butcher's shop"
+          "Shopping & Retail",
+          "Butcher Shop"
         ],
         "addr": "沙田石門安麗街11號企業中心217室",
-        "area": "Hong Kong",
+        "area": "000000 Hong Kong",
         "tel": "96226116"
       },
       "url": "https://www.facebook.com/onefrozen217/"
@@ -31,5 +32,20 @@
   "tags": [
     "food",
     "foodStore"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "沙田石門安麗街11號企業中心217室"
+      },
+      "googleMapsPlaceId": "ChIJJ_EmAaoHBDQR2Mqy27yhO-k",
+      "coordinates": {
+        "lat": 22.3897386,
+        "lng": 114.207564
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
   ]
 }
