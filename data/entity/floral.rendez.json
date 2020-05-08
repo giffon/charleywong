@@ -6,21 +6,29 @@
   },
   "webpages": [
     {
-      "url": "http://www.floral-rendez.com"
+      "url": "https://www.floral-rendez.com"
     },
     {
       "meta": {
+        "name": "Floral Rendezvous 花滙",
         "id": "349813118508134",
         "about": "splendid floral experience at friendly pricing",
         "categories": [
           "Florist"
         ],
-        "addr": "Unit K1, 9/F., King Win Factory Building, 65-67 King Yip Street, Kwun Tong",
+        "addr": "Unit 1126, 11/F, Bamboos Centre, 52 Hung To Road, Kwun Tong, Hong Kong",
         "area": "Hong Kong",
         "email": "floral.rendez@gmail.com",
         "tel": "93394183"
       },
       "url": "https://www.facebook.com/floral.rendez/"
+    },
+    {
+      "url": "https://www.instagram.com/floral_rendezvous/",
+      "meta": {
+        "name": "Floral Rendezvous 花滙",
+        "about": "splendid floral experience at friendly pricing\nfloral gifts & floral workshops"
+      }
     }
   ],
   "posts": [
@@ -39,5 +47,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00692"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit 1126, 11/F, Bamboos Centre, 52 Hung To Road, Kwun Tong, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJX-IQw0UBBDQRgkOCwbiNfsY",
+      "coordinates": {
+        "lat": 22.3102461,
+        "lng": 114.2220997
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

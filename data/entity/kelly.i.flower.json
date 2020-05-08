@@ -1,25 +1,32 @@
 {
   "id": "kelly.i.flower",
   "name": {
-    "zh": "保鮮花工作坊",
     "en": "Kelly i Flower"
   },
   "webpages": [
     {
       "meta": {
+        "name": "Kelly i Flower 保鮮花工作坊",
+        "id": "350137718494633",
         "about": "Kelly 在2014於日本AUBE Preserved Academy 保鮮花協會畢業，並為AUBE協會(香港區)首位講師\n\nWHATSAPP: （852）62005654\nE MAIL:kelly.i.flower@gmail.com\nINSTAGRAM: kelly_i_flower",
         "categories": [
-          "Gift shop",
-          "Wedding planning service",
-          "Photography & videography"
+          "Gift Shop",
+          "Wedding Planning Service",
+          "Photography Videography"
         ],
         "addr": "Lai Cheong Ind. Bldg.,",
         "area": "Cheung Sha Wan, Hong Kong",
         "email": "kelly.i.flower@gmail.com",
-        "tel": "62005654",
-        "id": "350137718494633"
+        "tel": "62005654"
       },
       "url": "https://www.facebook.com/kelly.i.flower/"
+    },
+    {
+      "url": "https://www.instagram.com/kelly_i_flower/",
+      "meta": {
+        "name": "Kelly i Flower保鮮花(不凋花)工作坊",
+        "about": "Kelly 在2014年於日本AUBE Preserved Academy 保鮮花協會畢業(香港區講師)。保鮮花是可保存 2-3年的真花。歡迎查詢保鮮花的訂購，教學及花材零售/批發，WhatsApp: (+852)6200 5654.E MAIL: kelly.i.flower@gmail.com"
+      }
     }
   ],
   "posts": [
@@ -38,5 +45,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01992"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Lai Cheong Ind. Bldg., Cheung Sha Wan, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJW37f51MHBDQRHLkq9uDwlvM",
+      "coordinates": {
+        "lat": 22.339082,
+        "lng": 114.1512615
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

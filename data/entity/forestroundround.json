@@ -42,5 +42,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00713"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Camel Paint Building, block 1, 10/F room C02, 62 Hoi Yuen Road,"
+      },
+      "googleMapsPlaceId": "ChIJa4CAVMgBBDQRayaPFWJaRIE",
+      "coordinates": {
+        "lat": 22.3104639,
+        "lng": 114.2251172
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

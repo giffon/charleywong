@@ -45,5 +45,20 @@
   "tags": [
     "florist",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍觀塘開源道56號大眾工業大廈7樓706室"
+      },
+      "googleMapsPlaceId": "ChIJsUc5CkUBBDQRuHRFdXglE7c",
+      "coordinates": {
+        "lat": 22.3098067,
+        "lng": 114.2243288
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

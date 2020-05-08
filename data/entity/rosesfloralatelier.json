@@ -6,13 +6,21 @@
   "webpages": [
     {
       "meta": {
+        "name": "Roses Floral Atelier",
         "id": "347055242037374",
-        "about": "Tel:64620792\n尖沙咀百利商場地下1號舖\nShop 01，G/F, Beverley Commercial Centre, 87-105 Chatham Road South, TST",
+        "about": "尖沙咀百利商場地下1號舖\nShop 01，G/F, Beverley Commercial Centre, 87-105 Chatham Road South, TST",
         "categories": [
-          "Patio/garden"
+          "Interest"
         ]
       },
       "url": "https://www.facebook.com/rosesfloralatelier/"
+    },
+    {
+      "url": "https://www.instagram.com/roses_floral_atelier/",
+      "meta": {
+        "name": "Roses Floral Atelier",
+        "about": "Hope you like our work !!"
+      }
     }
   ],
   "posts": [
@@ -25,5 +33,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01988"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀百利商場地下1號舖"
+      },
+      "googleMapsPlaceId": "ChIJdz822-4ABDQRhAa1GO77Gkw",
+      "coordinates": {
+        "lat": 22.3014535,
+        "lng": 114.17592
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

@@ -5,7 +5,11 @@
   },
   "webpages": [
     {
-      "url": "https://www.instagram.com/okinhanafloral/"
+      "url": "https://www.instagram.com/okinhanafloral/",
+      "meta": {
+        "name": "okinhanafloral",
+        "about": "Wedding∣Gift∣Bouquet∣Fresh\nFlower Basket∣Decoration∣Brand Cooperation\nWhatsapp: 62003617\nFB/IG: OkinhanaFloral\nE-mail: Okinhanafloral@gmail.com"
+      }
     },
     {
       "url": "https://www.facebook.com/okinhanafloral/",
@@ -15,8 +19,11 @@
         "about": "Okinhana Floral 每日以花來製作不同類型的花品~\n以花為客人帶來甜美的回憶~",
         "categories": [
           "Product/Service",
-          "Shopping & Retail"
+          "Shopping & Retail",
+          "Florist"
         ],
+        "addr": "108-110, King Fu Street, San Po Kong",
+        "area": "00000 Kowloon, Hong Kong",
         "email": "okinhanafloral@gmail.com",
         "tel": "62003617"
       }
@@ -40,5 +47,20 @@
   ],
   "tags": [
     "florist"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "108-110, King Fuk Street, San Po Kong"
+      },
+      "googleMapsPlaceId": "ChIJPSJHGdEGBDQR_B_OXLj2i9k",
+      "coordinates": {
+        "lat": 22.3345677,
+        "lng": 114.1992046
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
   ]
 }

@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
+        "name": "JUICY JELLY FLORIST",
         "id": "1551454215152092",
-        "about": "【❀ 花藝：設計&製作 ❀】\nJuicy Jelly 可訂造各款花球 / 花束 / 手花襟花，及多款花藝擺設。 歡迎各大商場 / 酒店 / 品牌向我們訂製不同節日氣氛的花藝裝飾擺設，亦接受報名預約每月 Floral Jamm",
+        "about": "【❀ 花藝：設計&製作 ❀】 \nJuicy Jelly 可訂造各款花球 / 花束 / 手花襟花，及多款花藝擺設。 歡迎各大商場 / 酒店 / 品牌向我們訂製不同節日氣氛的花藝裝飾擺設，亦接受報名預約每月 Floral Jamm",
         "categories": [
           "Florist"
         ],
         "addr": "葵涌葵昌路18-24號美順工業大廈2樓B17室",
-        "area": "Hong Kong",
+        "area": "00000 Hong Kong",
         "email": "juicyjelly212@gmail.com",
         "tel": "92271000"
       },
       "url": "https://www.facebook.com/juicyjellyflorist/"
+    },
+    {
+      "url": "https://www.instagram.com/juicyjellyflorist/",
+      "meta": {
+        "name": "【❀ 花藝：設計&製作 ❀】",
+        "about": "🍀獨有花品，可訂製或報名 Floral Workshop 親手製作\n🍀租借場地：輕鬆聚會 / 手工藝工作坊 / 會議商討 / Bridal Shower\n🍀專售 婚禮 / 節日 / 畢業 / 送禮 鮮花或絲花花藝品\n🍀公司 / 教會 / 個人組班預約花藝工作坊"
+      }
     }
   ],
   "posts": [
@@ -30,5 +38,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00069"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵涌葵昌路18-24號美順工業大廈2樓B17室"
+      },
+      "googleMapsPlaceId": "ChIJm_LbmZn4AzQR4MlTeNc6pBU",
+      "coordinates": {
+        "lat": 22.3649855,
+        "lng": 114.1331765
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }

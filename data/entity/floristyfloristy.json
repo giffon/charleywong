@@ -9,15 +9,22 @@
       "meta": {
         "name": "Floristy",
         "id": "371050112922741",
-        "about": "Unique and exquisite floral designs.\nNowhere but Floristy.",
+        "about": "Unique and exquisite floral designs. \nNowhere but Floristy.",
         "categories": [
           "Florist",
           "Arts & Crafts Store"
         ],
         "addr": "Block B, Tonic Industrial Centre",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "floristyfloristy@gmail.com",
         "tel": "91211844"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/floristy_by_yumiki/",
+      "meta": {
+        "name": "Floristy",
+        "about": "HK Florist / Wedding /Bouquets / Resin Arts/ DIY workshops/ Out-reach Courses"
       }
     }
   ],
@@ -50,5 +57,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01975"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Block B, Tonic Industrial Centre"
+      },
+      "googleMapsPlaceId": "ChIJ4w8tszQBBDQRsMQ38lYX68o",
+      "coordinates": {
+        "lat": 22.3248373,
+        "lng": 114.210304
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

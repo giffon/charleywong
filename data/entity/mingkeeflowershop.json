@@ -7,11 +7,12 @@
   "webpages": [
     {
       "meta": {
+        "name": "明記花店 Ming Kee Florist",
         "id": "128275158397",
         "about": "本花店創立於一九六三年　電話:27459333　傳真:27458300\n地址: 美孚荔灣道 荔灣街市18號舖",
         "categories": [
-          "Florist",
-          "Retail company"
+          "Retail Company",
+          "Florist"
         ],
         "addr": "美孚荔灣道 荔灣街市18號舖",
         "area": "Lai Chi Kok",
@@ -33,5 +34,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00160"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "美孚荔灣道 荔灣街市18號舖"
+      },
+      "googleMapsPlaceId": "ChIJz20oXKv4AzQRSoARK4Gj2s4",
+      "coordinates": {
+        "lat": 22.3374101,
+        "lng": 114.1383687
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

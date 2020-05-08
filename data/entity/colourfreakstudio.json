@@ -5,16 +5,27 @@
   },
   "webpages": [
     {
+      "url": "https://www.colourfreakstudio.net"
+    },
+    {
       "meta": {
+        "name": "Colour Freak Studio - vintage & floral design",
+        "id": "680649358712178",
         "about": "店主資歷 : DFA 荷蘭專業花藝設計師文憑; 5年花藝經驗，曾於大型花店工作。",
         "categories": [
           "Florist"
         ],
         "email": "colourfreakstudio@gmail.com",
-        "tel": "92090192",
-        "id": "680649358712178"
+        "tel": "92090192"
       },
       "url": "https://www.facebook.com/colourfreakstudio/"
+    },
+    {
+      "url": "https://www.instagram.com/colourfreakstudio/",
+      "meta": {
+        "name": "Colour Feak Studio",
+        "about": "Colouristic + Vintage floral design || based in HK\nFor creative project collabration/wedding/gift,\ncontact us 💕@\nWhatsapp: +852 92090192\nFB/ IG"
+      }
     }
   ],
   "posts": [
@@ -33,5 +44,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02001"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍荔枝角青山道489號香港工業中心6樓602室 (敬請預約)"
+      },
+      "googleMapsPlaceId": "ChIJaYPhhS0HBDQRGAB3BpW9w84",
+      "coordinates": {
+        "lat": 22.3378403,
+        "lng": 114.1478509
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "SanTinShunGor",
   "name": {
-    "zh": "新田梁日信"
+    "zh": "信芯園。新田梁日信"
   },
   "webpages": [
     {
@@ -57,5 +57,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01433"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "小磡村 元朗新田"
+      },
+      "googleMapsPlaceId": "ChIJMQ-iTOj2AzQR6eLMjC1f_n0",
+      "coordinates": {
+        "lat": 22.4923148,
+        "lng": 114.0765662
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }

@@ -39,5 +39,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01993"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "紅磡漆咸道北468號地下A及B舖"
+      },
+      "googleMapsPlaceId": "ChIJ1S1YzW0BBDQR4NGuR2pKx2M",
+      "coordinates": {
+        "lat": 22.3125746,
+        "lng": 114.1867812
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
   ]
 }

@@ -6,12 +6,23 @@
   "webpages": [
     {
       "meta": {
+        "name": "情人節花束·畢業花束·乾花花束·鮮花花束·韓式花束",
         "id": "366324970525699",
+        "about": "Florist l  Flower studio | BASED HK\nStylish Flower Shop ｜",
         "categories": [
-          "Product/service"
-        ]
+          "Product/Service"
+        ],
+        "email": "yee127aus@hotmail.com",
+        "tel": "55727794"
       },
       "url": "https://www.facebook.com/elfloridhk/"
+    },
+    {
+      "url": "https://www.instagram.com/el_florid_hk/",
+      "meta": {
+        "name": "情人節花束·畢業花束·乾花花束·鮮花花束·節日花束",
+        "about": "BASED ON HK | CWB FLOWER SHOP\n精 品 花 店\nORDERS From DM/WTSPP is Available now.\nNO email PLS\nFresh🕊 page @el_florid\nFB"
+      }
     }
   ],
   "posts": [
@@ -24,5 +35,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01326"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Rm 970, Eton tower, 8 Hysan Ave, Causeway Bay (APPOINTMENT ONLY)"
+      },
+      "googleMapsPlaceId": "ChIJoXuTT1EABDQR26w_yrulYLM",
+      "coordinates": {
+        "lat": 22.2779147,
+        "lng": 114.184708
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }

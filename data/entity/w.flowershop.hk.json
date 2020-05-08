@@ -6,21 +6,29 @@
   "webpages": [
     {
       "meta": {
+        "name": "W. Flower Shop",
+        "id": "445433225597822",
         "about": "我們提供優越現代感的高質量花藝產品。我們是專業和經驗豐富的。 我們的使命是選用最好的花材和物料去創造華麗的花藝產品。",
         "categories": [
           "Florist",
-          "Product/service"
+          "Product/Service"
         ],
         "addr": "Koon Wah Mirror Factory 3rd Bldg 5-9 Ka Hing Road",
-        "area": "Kwai Chung",
+        "area": "00852 Kwai Chung",
         "email": "w.flowershop@gmail.com",
-        "tel": "91927303",
-        "id": "445433225597822"
+        "tel": "91927303"
       },
       "url": "https://www.facebook.com/w.flowershop.hk/"
     },
     {
-      "url": "https://www.instagram.com/w.flowershop/"
+      "url": "https://www.instagram.com/w.flowershop/",
+      "meta": {
+        "name": "W. Flower Shop",
+        "about": "Please follow me👈香港網上花店🌸進口鮮花🌹花束💐花盒💝花球💒保鮮花🌺婚禮回禮🎎多肉植物🌵青苔玻璃瓶🌱設有工作室教學🎪婚禮平面設計👰(Logo etc.) 24hrs📞Whatsapp : 9192 7303"
+      }
+    },
+    {
+      "url": "https://wflowershop.com"
     }
   ],
   "posts": [
@@ -36,5 +44,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01987"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Koon Wah Mirror Factory 3rd Bldg 5-9 Ka Hing Road"
+      },
+      "googleMapsPlaceId": "ChIJIwFjVb34AzQRIAofXtdDhxc",
+      "coordinates": {
+        "lat": 22.359531,
+        "lng": 114.1319053
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
