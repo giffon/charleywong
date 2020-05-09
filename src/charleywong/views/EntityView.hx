@@ -194,8 +194,10 @@ class EntityView extends View {
                     data-show-text="true"
                 >
                     <blockquote cite=${p.url} className="fb-xfbml-parse-ignore">
-                        <a href=${p.url}>${prettyUrl(p.url)}</a>
-                        ${summary}
+                        <div className="post-link">
+                            <a href=${p.url}>${prettyUrl(p.url)}</a>
+                            ${summary}
+                        </div>
                     </blockquote>
                 </div>
             ');
@@ -208,8 +210,10 @@ class EntityView extends View {
                     data-instgrm-version="12"
                     data-instgrm-captioned=${true}
                 >
-                    <a href=${p.url}>${prettyUrl(p.url)}</a>
-                    ${summary}
+                    <div className="post-link">
+                        <a href=${p.url}>${prettyUrl(p.url)}</a>
+                        ${summary}
+                    </div>
                 </blockquote>
             ');
         } else if (
