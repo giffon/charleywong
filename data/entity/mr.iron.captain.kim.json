@@ -6,18 +6,35 @@
   "webpages": [
     {
       "meta": {
+        "name": "熨烤達人",
         "id": "1834911126725291",
         "about": "在具風格的店舖佈置下，配上嚴選韓國高級食材、五星級烤肉，還有以獨特烹調製作的多項創意菜式，讓食客們一再回味。",
         "categories": [
-          "Bar & Grill",
-          "Korean restaurant",
-          "Theme restaurant"
+          "Korean Restaurant",
+          "Theme Restaurant",
+          "Bar & Grill"
         ],
         "addr": "鑽石山荷里活廣場三樓320B舖",
         "area": "Kowloon, Hong Kong",
         "tel": "23383370"
       },
       "url": "https://www.facebook.com/mr.iron.captain.kim/"
+    },
+    {
+      "url": "https://www.facebook.com/Mr.IRON.HK/",
+      "meta": {
+        "name": "熨烤達人",
+        "id": "877977958935870",
+        "about": "熨烤達人",
+        "categories": [
+          "Barbecue Restaurant",
+          "Korean Restaurant"
+        ],
+        "addr": "旺角洗衣街147號地下",
+        "area": "852 Hong Kong",
+        "tel": "23366308"
+      },
+      "hidden": true
     }
   ],
   "posts": [
@@ -32,6 +49,22 @@
     }
   ],
   "tags": [
+    "korean",
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "鑽石山荷里活廣場三樓320B舖"
+      },
+      "googleMapsPlaceId": "ChIJx-ejJNsGBDQRdgczYdKzW6Q",
+      "coordinates": {
+        "lat": 22.340722,
+        "lng": 114.2022955
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
   ]
 }
