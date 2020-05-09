@@ -54,5 +54,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02196"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍太子長沙灣道21-25號長豐商業大廈2樓203室"
+      },
+      "googleMapsPlaceId": "ChIJV38m77UABDQRjTuSvp04Y_Y",
+      "coordinates": {
+        "lat": 22.327116,
+        "lng": 114.166605
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

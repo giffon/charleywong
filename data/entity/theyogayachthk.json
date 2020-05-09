@@ -7,10 +7,11 @@
   "webpages": [
     {
       "meta": {
+        "name": "小瑜船 The Yoga Yacht",
         "id": "1924750604255845",
         "about": "小瑜船為一艘位於觀塘可乘載40人的遊艇，提供瑜伽及租船服務，裝修舒適典雅，歡迎查詢。",
         "categories": [
-          "Yoga studio"
+          "Yoga Studio"
         ],
         "addr": "kwun tong",
         "area": "Hong Kong",
@@ -18,6 +19,12 @@
         "tel": "90771496"
       },
       "url": "https://www.facebook.com/theyogayachthk/"
+    },
+    {
+      "url": "https://www.instagram.com/theyogayachthk/",
+      "meta": {
+        "name": "小瑜船 The Yoga Yacht"
+      }
     }
   ],
   "posts": [
@@ -29,6 +36,22 @@
     }
   ],
   "tags": [
-    "fitness"
+    "fitness",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "kwun tong"
+      },
+      "googleMapsPlaceId": "ChIJh6HjWIIBBDQR04Yai7D8FXM",
+      "coordinates": {
+        "lat": 22.3085152,
+        "lng": 114.2200138
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

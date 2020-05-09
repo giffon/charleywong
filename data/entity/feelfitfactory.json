@@ -35,6 +35,22 @@
     }
   ],
   "tags": [
-    "fitness"
+    "fitness",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "9/F, Hody Commercial Building, 6 Hart Ave, Tsim Sha Tsui, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJ91yNEO4ABDQR3XKBBESbmZw",
+      "coordinates": {
+        "lat": 22.2978098,
+        "lng": 114.1746339
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

@@ -6,11 +6,12 @@
   },
   "webpages": [
     {
-      "url": "http://www.sportsline.com.hk"
+      "url": "https://www.sportsline.com.hk"
     },
     {
       "url": "https://www.facebook.com/sportslinehongkong/",
       "meta": {
+        "name": "Sportsline 運動前線",
         "id": "162280623830526",
         "about": "Professional Sports Support at http://www.sportsline.com.hk",
         "categories": [
@@ -22,7 +23,11 @@
       }
     },
     {
-      "url": "https://www.instagram.com/sportslinehk/"
+      "url": "https://www.instagram.com/sportslinehk/",
+      "meta": {
+        "name": "Sportsline",
+        "about": "Integrated Sports Medicine - 綜合運動醫學 #sportsscience #sportsmedicine #sportslinehk"
+      }
     }
   ],
   "posts": [
@@ -33,5 +38,20 @@
   "tags": [
     "fitness",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍尖沙咀柯士甸道102號21樓"
+      },
+      "googleMapsPlaceId": "ChIJbRIjcMgABDQRxgF-ExfAAoQ",
+      "coordinates": {
+        "lat": 22.303107,
+        "lng": 114.172314
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

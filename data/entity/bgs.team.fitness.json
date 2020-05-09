@@ -10,9 +10,9 @@
         "id": "2150886835166728",
         "about": "開業日期7JUNE2019\n葵芳葵豐街52-57號福業大廈1101室\n歡迎查詢",
         "categories": [
-          "Personal Coach",
           "Sports",
-          "Gym/Physical Fitness Center"
+          "Gym/Physical Fitness Center",
+          "Personal Coach"
         ],
         "tel": "62961812"
       },
@@ -44,5 +44,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01697"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵芳葵豐街52-57號福業大廈1101室"
+      },
+      "googleMapsPlaceId": "ChIJSW8mFwn5AzQRA4YOkk4xXsM",
+      "coordinates": {
+        "lat": 22.3554379,
+        "lng": 114.1260374
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }

@@ -6,12 +6,13 @@
   "webpages": [
     {
       "meta": {
+        "name": "Emilyoga Concept Studio",
         "id": "1541025232792893",
         "about": "Yoga is a way of life",
         "categories": [
-          "Gym/Physical fitness centre",
-          "Health & wellness website",
-          "Community group"
+          "Gym/Physical Fitness Center",
+          "Health & Wellness Website",
+          "Community Service"
         ],
         "addr": "9/F, Jaffe Building, No. 520 Jaffe Road, Causeway Bay (CWB MTR exit D1)",
         "area": "Hong Kong",
@@ -19,6 +20,13 @@
         "tel": "52220450"
       },
       "url": "https://www.facebook.com/emilyogacs/"
+    },
+    {
+      "url": "https://www.instagram.com/emilyogacs/",
+      "meta": {
+        "name": "emilyogacs",
+        "about": "💫E-RYT500, YACEP, RYS200 🇭🇰\n💫Yoga is a way of life\n❤️🧘🏻‍♀️Yoga, 💮Reiki\n❤️👩🏻‍🍳Cooking, 🍽Food\n❤️🌹Beauty, 💅🏻Nail art"
+      }
     }
   ],
   "posts": [
@@ -27,6 +35,22 @@
     }
   ],
   "tags": [
-    "fitness"
+    "fitness",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "9/F, Jaffe Building, No. 520 Jaffe Road, Causeway Bay (CWB MTR exit D1)"
+      },
+      "googleMapsPlaceId": "ChIJlbAS8lYABDQRFmtkKMqZ3E4",
+      "coordinates": {
+        "lat": 22.280987,
+        "lng": 114.183783
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }

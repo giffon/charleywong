@@ -19,7 +19,7 @@
           "Boxing Studio"
         ],
         "addr": "1/F, Wah Po House, 7 Fuk Wa Street, Kowloon",
-        "area": "Hong Kong",
+        "area": "Hong Kong Hong Kong",
         "email": "jcfintess.info@gmail.com",
         "tel": "57139076"
       }
@@ -78,5 +78,46 @@
     "Y_SHOP01749",
     "Y_SHOP01750",
     "Y_SHOP01751"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍太子基隆街63號M/F (JC FITNESS)"
+      },
+      "googleMapsPlaceId": "ChIJOdF0krUABDQRM6ahskQ0LJ0",
+      "coordinates": {
+        "lat": 22.3255528,
+        "lng": 114.1659974
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍太子基隆街63號G/F (神經男女)"
+      },
+      "googleMapsPlaceId": "ChIJT-4YdPABBDQRdQuGOTW2D_w",
+      "coordinates": {
+        "lat": 22.3254297,
+        "lng": 114.1662488
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "土瓜灣旭日街1A福成工業大廈12/F,B室天台 (JCF ON ROOF)"
+      },
+      "googleMapsPlaceId": "ChIJMTshb9gABDQRyXN5cAGZubM",
+      "coordinates": {
+        "lat": 22.3150127,
+        "lng": 114.1902844
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
   ]
 }

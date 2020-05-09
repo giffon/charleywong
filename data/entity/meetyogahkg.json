@@ -17,7 +17,7 @@
           "Coach"
         ],
         "addr": "Room 5A, 5/F, Sun Shine Centre, 61-63 Portland Street, Yau Ma Tei, HK",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "meetyogahk@gmail.com",
         "tel": "60662439"
       }
@@ -80,5 +80,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01315"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room 5A, 5/F, Sun Shine Centre, 61-63 Portland Street, Yau Ma Tei, HK"
+      },
+      "googleMapsPlaceId": "ChIJoWrPR8gABDQRLFWYYHffcaE",
+      "coordinates": {
+        "lat": 22.3139445,
+        "lng": 114.1696711
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

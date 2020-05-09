@@ -16,7 +16,7 @@
           "Sports & Fitness Instruction"
         ],
         "addr": "觀塘駿業街66號巧運工業大廈14樓C室",
-        "area": "Kwun Tong",
+        "area": "852 Kwun Tong",
         "email": "fury.thaiboxing@gmail.com",
         "tel": "35654622"
       }
@@ -51,5 +51,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00939"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘駿業街66號巧運工業大廈14樓C室"
+      },
+      "googleMapsPlaceId": "ChIJLXh6fE8BBDQR9nUi963pjNw",
+      "coordinates": {
+        "lat": 22.3119305,
+        "lng": 114.2236794
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

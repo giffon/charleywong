@@ -9,17 +9,25 @@
     },
     {
       "meta": {
+        "name": "Nature Yoga Hong Kong",
         "id": "682755538476738",
         "about": "Yoga, sound therapy and wellness center with a mission ~ Calm Mind, Fit Body and Inspired Life.",
         "categories": [
-          "Yoga studio"
+          "Yoga Studio"
         ],
-        "addr": "10G Imperial Building 58 Canton Road Tsim Sha Tsui (TST MTR Exit A1) 3 mins walk along HaiPhong Road",
-        "area": "Hong Kong",
+        "addr": "10G Imperial Building 58 Canton Road Tsim Sha Tsui",
+        "area": "852 Hong Kong",
         "email": "info@natureyoga.com.hk",
         "tel": "65854329"
       },
       "url": "https://www.facebook.com/natureyogahk/"
+    },
+    {
+      "url": "https://www.instagram.com/natureyogahk/",
+      "meta": {
+        "name": "Nature Yoga HK 自然瑜伽舍",
+        "about": "We are small classes in Sound Healing Gong, Kundalini Yoga, a yoga and wellness sanctuary for inspirations and fun."
+      }
     }
   ],
   "posts": [
@@ -28,6 +36,22 @@
     }
   ],
   "tags": [
-    "fitness"
+    "fitness",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "10G Imperial Building 58 Canton Road Tsim Sha Tsui"
+      },
+      "googleMapsPlaceId": "ChIJo6YR3u0ABDQRIZd3KmYpyZA",
+      "coordinates": {
+        "lat": 22.298178,
+        "lng": 114.168947
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

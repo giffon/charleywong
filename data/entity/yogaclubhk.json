@@ -18,7 +18,7 @@
           "Yoga Studio"
         ],
         "addr": "Room 14, Front Portion, 3/F, Granville Building, 12-14 Granville Road, Tsim Sha Tsui",
-        "area": "Hong Kong",
+        "area": "00000 Hong Kong",
         "email": "info@yogaclubhk.com",
         "tel": "81006488"
       }
@@ -82,5 +82,33 @@
   "yellowBlueMapIds": [
     "Y_SHOP02200",
     "Y_SHOP02201"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀加連威老道12-14號加連威大廈3樓14號前座"
+      },
+      "googleMapsPlaceId": "ChIJg63kazIBBDQRYAkdaXNYmME",
+      "coordinates": {
+        "lat": 22.2995888,
+        "lng": 114.1730571
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "太子彌敦道760號東海大廈5樓29室聯合廣場樓上"
+      },
+      "googleMapsPlaceId": "ChIJVVXFzskABDQRRtSsl0FKCBE",
+      "coordinates": {
+        "lat": 22.3235438,
+        "lng": 114.1687841
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

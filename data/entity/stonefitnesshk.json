@@ -19,7 +19,7 @@
           "Stadium, Arena & Sports Venue"
         ],
         "addr": "32 lung sum ave",
-        "area": "Sheung Shui",
+        "area": "sheung shui Sheung Shui",
         "email": "stoneprofitness@gmail.com",
         "tel": "91615053"
       }
@@ -50,5 +50,20 @@
     "Y_EAT01554",
     "Y_SHOP01155",
     "Y_SHOP01175"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "32 Lung Sum Ave, Sheung Shui"
+      },
+      "googleMapsPlaceId": "ChIJ-8btrxH2AzQRhR47CUqHMF4",
+      "coordinates": {
+        "lat": 22.5030617,
+        "lng": 114.1283656
+      },
+      "area": {
+        "zh": "北區"
+      }
+    }
   ]
 }

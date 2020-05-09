@@ -16,7 +16,7 @@
           "Tools/Equipment"
         ],
         "addr": "2/F, 17 Yun Ping Road, Causeway Bay",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "om@easyoga.com.hk",
         "tel": "29832130"
       }
@@ -27,6 +27,10 @@
         "name": "Easyoga Hong Kong",
         "about": "Yoga Apparel\nYoga props supplier\nYoga Charity / Workshop\n🚪Causeway Bay Showroom\n☎️2983-2130 / 9244-9925\n@easyogahk\nPERFECTING YOUR LIFE"
       }
+    },
+    {
+      "url": "https://www.easyoga.com.hk",
+      "hidden": true
     }
   ],
   "posts": [
@@ -42,5 +46,20 @@
     "fitness",
     "clothing",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "2/F, 17 Yun Ping Road, Causeway Bay"
+      },
+      "googleMapsPlaceId": "ChIJzxjWylYABDQRVXrSmmknk14",
+      "coordinates": {
+        "lat": 22.27905,
+        "lng": 114.1845101
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }

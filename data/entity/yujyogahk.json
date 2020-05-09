@@ -5,21 +5,29 @@
   },
   "webpages": [
     {
-      "url": "http://www.yujyogahkg.com"
+      "url": "https://www.yujyogahkg.com"
     },
     {
       "meta": {
+        "name": "Yuj. Yoga HKG",
         "id": "1578414879067414",
         "about": "Boutique Yoga studio with 2 branches\nJordan: 13/F Doubleset Commercial Centre, 37a-b Jordan Road\nSYP: 705 Wai Wah Commercial Bldg, 6 Wilmer Street, Sai Ying Pun",
         "categories": [
-          "Yoga studio"
+          "Yoga Studio"
         ],
         "addr": "13/F Doubleset Commercial Centre, 37a-37b Jordan Road",
-        "area": "Yau Ma Ti, Hong Kong",
+        "area": "852 Yau Ma Ti, Hong Kong",
         "email": "yuj.jackie@gmail.com",
         "tel": "60101130"
       },
       "url": "https://www.facebook.com/yujyogahk/"
+    },
+    {
+      "url": "https://www.instagram.com/yujyogahk/",
+      "meta": {
+        "name": "Yuj. Yoga HK",
+        "about": "Boutique Yoga studios located at Jordan Kowloon and Sai Ying Pun HK island!\nSYP at Wah Wai Commercial Centre\n✉️yuj.jackie@gmail.com\n☎️60101130"
+      }
     }
   ],
   "posts": [
@@ -28,10 +36,39 @@
     }
   ],
   "tags": [
-    "fitness"
+    "fitness",
+    "shop"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00054",
     "Y_SHOP01100"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "13/F Doubleset Commercial Centre, 37a-37b Jordan Road"
+      },
+      "googleMapsPlaceId": "ChIJO_A9GusABDQR_qKU90-wecQ",
+      "coordinates": {
+        "lat": 22.3055892,
+        "lng": 114.1696318
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "en": "705, Wai Wah Commercial Bldg, 6 Wilmer Street, Sai Ying Pun, HK Island"
+      },
+      "googleMapsPlaceId": "ChIJ98ijBTsBBDQRiUWeuXT1D6Q",
+      "coordinates": {
+        "lat": 22.2873829,
+        "lng": 114.1446553
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }

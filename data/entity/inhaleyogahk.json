@@ -16,12 +16,13 @@
       "meta": {
         "name": "Inhale Yoga Studio",
         "id": "319383148408320",
-        "about": "油麻地 - 彌敦道570-572號基利商業大廈11樓04室\n觀 塘 - 成業街15號成運工業大廈1005室",
+        "about": "油麻地 - 彌敦道570-572號基利商業大廈11樓04室\n觀    塘 - 成業街15號成運工業大廈1005室",
         "categories": [
           "Yoga Studio",
-          "Gym/Physical Fitness Center",
-          "Coach"
+          "Gym/Physical Fitness Center"
         ],
+        "addr": null,
+        "area": "Room 1104, Kelly Commercial Building, No. 570-572 Nathan Road, Kowloon",
         "email": "inhaleyogahk@gmail.com"
       }
     }
@@ -63,5 +64,33 @@
   "yellowBlueMapIds": [
     "Y_SHOP01447",
     "Y_SHOP01448"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "彌敦道570-572號基利商業大廈11樓04室"
+      },
+      "googleMapsPlaceId": "ChIJq6pWKMcABDQRkk8LCDSivVw",
+      "coordinates": {
+        "lat": 22.3149637,
+        "lng": 114.1705258
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "成業街15號成運工業大廈1005室"
+      },
+      "googleMapsPlaceId": "ChIJKVIGQdYBBDQRTAoSNQkEMrk",
+      "coordinates": {
+        "lat": 22.3103477,
+        "lng": 114.2266972
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

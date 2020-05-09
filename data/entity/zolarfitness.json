@@ -53,5 +53,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02183"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "彌敦道490-492號盤谷銀行大廈21樓"
+      },
+      "googleMapsPlaceId": "ChIJL73SpW8BBDQRBDugUOvVDN0",
+      "coordinates": {
+        "lat": 22.31163489999999,
+        "lng": 114.171176
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

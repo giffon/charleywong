@@ -11,14 +11,21 @@
         "id": "119523075374459",
         "about": "由一群拳擊運動員創立，所有教練皆曾入選香港拳擊代表隊並擁有多年教學經驗。為回饋運動及推廣拳撃發展，我們希望成立風格認真，同時讓初學者體驗到拳擊樂趣的拳撃館。",
         "categories": [
+          "Boxing Studio",
           "Gym/Physical Fitness Center",
-          "Martial Arts School",
-          "Boxing Studio"
+          "Martial Arts School"
         ],
         "addr": "葵芳葵豐街17-23號, 華業工業大廈B座3樓C",
         "area": "Kwai Chung",
         "email": "info@strike.hk",
         "tel": "59639235"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/strike_boxing_club/",
+      "meta": {
+        "name": "Strike Boxing Club",
+        "about": "由一群拳擊運動員創立，所有教練皆曾入選香港拳擊代表隊並擁有多年教學經驗。我們希望成立風格認真，同時讓初學者體驗到拳擊樂趣的拳撃館。課程架構簡單，絕不硬銷課程。設有給予初心者的初階班，以及希望繼續精進技巧的深造班。對於有心競賽成為運動員的學員，更會提供額外支援。 WhatsApp查詢：59639235"
       }
     }
   ],
@@ -55,5 +62,20 @@
   "tags": [
     "fitness",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵芳葵豐街17-23號, 華業工業大廈B座3樓C"
+      },
+      "googleMapsPlaceId": "ChIJ__8_z774AzQRVuMLC0tXA1I",
+      "coordinates": {
+        "lat": 22.355826,
+        "lng": 114.124148
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
