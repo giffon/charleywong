@@ -1,5 +1,6 @@
 .haxelib
 *.js
+!static/trackExceptions.js
 *.py
 *.js.map
 flexsearch.json
