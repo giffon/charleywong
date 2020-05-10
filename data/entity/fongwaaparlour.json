@@ -7,16 +7,24 @@
   "webpages": [
     {
       "meta": {
+        "name": "Fong Waa Parlour 芳華絕代",
         "id": "208152416632570",
         "categories": [
           "Bar",
-          "Thai restaurant"
+          "Thai Restaurant"
         ],
         "addr": "36 Boundary Street",
         "area": "Hong Kong",
         "tel": "23662113"
       },
       "url": "https://www.facebook.com/fongwaaparlour/"
+    },
+    {
+      "url": "https://www.instagram.com/fongwaaparlour/",
+      "meta": {
+        "name": "芳華絕代 Fong Waa Parlour",
+        "about": "手工啤酒館. 泰國菜.\n🍳@littlebreakcoffee\n🍜@thaigerhk\n🍻@onelittlecorner\n🍖@sankalahk\n🍸@morokok_hk\n🌬 @morokok_shisha\n🎂 @littlebake.hk\n🍲 T: +852 2366 2113"
+      }
     }
   ],
   "posts": [
@@ -32,5 +40,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00284"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "36 Boundary Street"
+      },
+      "googleMapsPlaceId": "ChIJAYFnfI0BBDQRidljPiVGOU0",
+      "coordinates": {
+        "lat": 22.3262671,
+        "lng": 114.1671353
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

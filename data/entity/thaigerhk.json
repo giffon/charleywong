@@ -6,16 +6,24 @@
   "webpages": [
     {
       "meta": {
+        "name": "Thai-ger",
         "id": "1590048277712790",
         "about": "Innovative Thai and \"Chow Chau\" style cuisine is going to serve you. Fast, Traditional and Delicious.",
         "categories": [
-          "Thai restaurant"
+          "Thai Restaurant"
         ],
         "addr": "Shop 101, 1/F, D2 Place One, 9 Cheung Yee Street, Cheung Sha Wan, Kln",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "tel": "23111520"
       },
       "url": "https://www.facebook.com/thaigerhk/"
+    },
+    {
+      "url": "https://www.instagram.com/thaigerhk/",
+      "meta": {
+        "name": "Thai-ger",
+        "about": "新派潮州泰國菜式\n🍳@littlebreakcoffee\n🍻@onelittlecorner\n🍖@sankalahk\n🍲@fongwaaparlour\n🍸@morokok_hk\n🌬 @morokok_shisha\n🎂 @littlebake.hk\n🍜 T: 2311 1520"
+      }
     }
   ],
   "posts": [
@@ -31,5 +39,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00065"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 101, 1/F, D2 Place One, 9 Cheung Yee Street, Cheung Sha Wan, Kln"
+      },
+      "googleMapsPlaceId": "ChIJj5FUllQHBDQRrMgRXjUz9LM",
+      "coordinates": {
+        "lat": 22.3361152,
+        "lng": 114.1489435
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

@@ -14,6 +14,8 @@
           "Thai Restaurant",
           "Diner"
         ],
+        "addr": "九龍城打鼓嶺道23號百營中心地庫至1樓",
+        "area": "KLN",
         "email": "enquiry@wongchunchun.com.hk",
         "tel": "27166269"
       }
@@ -43,5 +45,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT02202"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍城打鼓嶺道23號百營中心地庫至1樓"
+      },
+      "googleMapsPlaceId": "ChIJTbjvoCoHBDQR4csfnUCbwLY",
+      "coordinates": {
+        "lat": 22.3289355,
+        "lng": 114.1913981
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
   ]
 }

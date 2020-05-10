@@ -7,18 +7,27 @@
   "webpages": [
     {
       "meta": {
+        "name": "泰 基隆 Thai Ki Lung",
         "id": "1367427243296054",
         "about": "正宗泰廚主理地道泰菜\n\n泰式串燒，即叫即燒",
         "categories": [
-          "Thai restaurant",
-          "Family style restaurant",
-          "Asian fusion restaurant"
+          "Thai Restaurant",
+          "Asian Fusion Restaurant",
+          "Family Style Restaurant"
         ],
         "addr": "基隆街241號地下",
         "area": "Hong Kong",
+        "email": "enderslam@gmail.com",
         "tel": "21101941"
       },
       "url": "https://www.facebook.com/kilungthai/"
+    },
+    {
+      "url": "https://www.instagram.com/thaikilung/",
+      "meta": {
+        "name": "泰 基隆 Thai Ki Lung",
+        "about": "泰基隆\n(正宗泰國廚師主理)\n深水埗基隆街241號地下\nTel:21101941"
+      }
     }
   ],
   "posts": [
@@ -37,5 +46,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01152"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "基隆街241號地下"
+      },
+      "googleMapsPlaceId": "ChIJt-j4c7QABDQR1HS9ixnm2gg",
+      "coordinates": {
+        "lat": 22.328616,
+        "lng": 114.1621508
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

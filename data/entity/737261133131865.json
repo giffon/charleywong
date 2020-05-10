@@ -28,11 +28,53 @@
     }
   ],
   "tags": [
-    "food","thai"
+    "food",
+    "thai"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00378",
     "Y_EAT00379",
     "Y_EAT00380"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗欽州街37號西九龍中心8樓美食廣場55號舖"
+      },
+      "googleMapsPlaceId": "ChIJQxY_GvgBBDQRQk6wkdLsYWA",
+      "coordinates": {
+        "lat": 22.33114789999999,
+        "lng": 114.1599816
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "上環永樂街87號泰達大廈地下"
+      },
+      "googleMapsPlaceId": "ChIJT4tlRXwABDQRtrkjQBImiGk",
+      "coordinates": {
+        "lat": 22.2859034,
+        "lng": 114.151988
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "元朗青山公路元朗段34號任安樓地下C號舖"
+      },
+      "googleMapsPlaceId": "ChIJ7QGINxPxAzQRy1UmAniUVWo",
+      "coordinates": {
+        "lat": 22.4442448,
+        "lng": 114.0311551
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }
