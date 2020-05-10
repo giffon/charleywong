@@ -6,6 +6,7 @@
   "webpages": [
     {
       "meta": {
+        "name": "街坊 CAFÉ",
         "id": "193583507786742",
         "about": "香港人一直以來不斷為生活而改變，適應不同環境，尋求突破。街坊 Cafe 亦以香港精神為信念，立志去建立一個能代表香港的Cafe 。\n\n香港人成長生活當中有很多親切的鄰居，我們都會稱為街坊",
         "categories": [
@@ -18,17 +19,66 @@
         "tel": "90613820"
       },
       "url": "https://www.facebook.com/kaifongcafe/"
+    },
+    {
+      "url": "https://www.instagram.com/kaifongcafe/",
+      "meta": {
+        "name": "街坊 Cafe"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/kaifongcafe/photos/a.237208080090951/784734005338353"
+      "url": "https://www.instagram.com/p/B8i0Id_jXPU/"
+    },
+    {
+      "url": "https://www.instagram.com/p/B9R6zFojOzU/"
+    },
+    {
+      "url": "https://www.facebook.com/kaifongcafe/posts/615165252295230",
+      "meta": {
+        "sharedWith": "Custom"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/kaifongcafe/posts/648270512318037",
+      "meta": {
+        "sharedWith": "Custom"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/kaifongcafe/posts/710610706084017",
+      "meta": {
+        "sharedWith": "Custom"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/kaifongcafe/posts/717147575430330",
+      "meta": {
+        "sharedWith": "Custom"
+      }
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "closed"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00473"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角通菜街1E-1F號威達商業大廈"
+      },
+      "googleMapsPlaceId": "ChIJnyGH5MYABDQR8SDbbhQZG6Y",
+      "coordinates": {
+        "lat": 22.31622600000001,
+        "lng": 114.171099
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
