@@ -6,18 +6,56 @@
   "webpages": [
     {
       "meta": {
+        "name": "水門雞飯",
         "id": "162279381265050",
-        "about": "大埔總店地址：大埔汀角路11號地下 Tel: 2838 8171 元朗店：元朗教育路24至36號百宜樓地下A舖 Tel: 2382 8889 尖沙咀店：尖沙咀金馬倫道18號地下 Tel: 2369 8128",
+        "about": "大埔總店地址：大埔汀角路11號地下   Tel: 2838 8171 元朗店：元朗教育路24至36號百宜樓地下A舖  Tel: 2382 8889 尖沙咀店：尖沙咀金馬倫道18號地下  Tel: 2369 8128",
         "categories": [
-          "Thai restaurant",
-          "Theme restaurant",
-          "Diner"
+          "Thai Restaurant",
+          "Diner",
+          "Theme Restaurant"
         ],
         "addr": "尖沙咀金馬倫道18號地下",
         "area": "Tsim Sha Tsui",
         "tel": "23698128"
       },
       "url": "https://www.facebook.com/watergatechickenrice/"
+    },
+    {
+      "url": "https://www.facebook.com/watergatechickenricetaipo/",
+      "hidden": true,
+      "meta": {
+        "name": "水門雞飯 - 大埔分店",
+        "id": "344201992887002",
+        "about": "此專頁只為方便大家在大埔分店打咭，所有有關水門雞飯資訊會集中在「水門雞飯」專頁（https://facebook.com/watergatechickenrice) , 大家記得去讚好啊！",
+        "categories": [
+          "Thai Restaurant"
+        ],
+        "addr": "大埔汀角路11號地舖",
+        "area": "Hong Kong",
+        "tel": "28388171"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/watergatechickenriceyuenlong/",
+      "hidden": true,
+      "meta": {
+        "name": "水門雞飯 - 元朗分店",
+        "id": "105347927681098",
+        "about": "此專頁只為方便大家在元朗分店打咭，所有有關水門雞飯資訊會集中在「水門雞飯」專頁（https://facebook.com/watergatechickenrice) , 大家記得去讚好啊！",
+        "categories": [
+          "Thai Restaurant"
+        ],
+        "addr": "元朗教育路26-34百宜樓地下A舖",
+        "area": "Hong Kong",
+        "tel": "23828889"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/watergate_chickenrice/",
+      "meta": {
+        "name": "水門雞飯",
+        "about": "#chickenrice #水門雞飯 #大埔 #taipo #尖沙咀 #tst #tsimshatsui #元朗 #yuenlong #thaifood #日日食雞唔會瞓低 #watergate #ข้าวมันไก่ ประตูน้ำ"
+      }
     }
   ],
   "posts": [
@@ -39,5 +77,46 @@
     "Y_EAT00848",
     "Y_EAT01239",
     "Y_EAT01240"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀金馬倫道18號地下"
+      },
+      "googleMapsPlaceId": "ChIJi2CdWk8BBDQRplAm1Ca-Nko",
+      "coordinates": {
+        "lat": 22.2988652,
+        "lng": 114.1740469
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大埔汀角路11號地舖"
+      },
+      "googleMapsPlaceId": "ChIJt3au-DgIBDQR6e5lgmkY37I",
+      "coordinates": {
+        "lat": 22.4519571,
+        "lng": 114.1651076
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "元朗教育路26-34百宜樓地下A舖"
+      },
+      "googleMapsPlaceId": "ChIJBaIIf6DwAzQRowJRd1YpvMo",
+      "coordinates": {
+        "lat": 22.443099,
+        "lng": 114.027784
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }
