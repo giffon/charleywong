@@ -24,6 +24,9 @@
         "name": "Power Wash",
         "about": "1.157 Shop C Kowloon City Rd., To Kwa Wan 🇭🇰\n   157 Shop C 九龍城道, 土瓜灣\n2. 7 Sui Man Lane\n    7 萃文里, 柴灣\nWhatsApp ☎️+852-6848-1629\n#carwash #洗車 🚗🚿"
       }
+    },
+    {
+      "url": "https://www.hk01.com/article/447472"
     }
   ],
   "posts": [
@@ -59,5 +62,33 @@
   "yellowBlueMapIds": [
     "Y_SHOP01171",
     "Y_SHOP01172"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "157 Shop C 九龍城道, 土瓜灣"
+      },
+      "googleMapsPlaceId": "ChIJr5BNpQQBBDQRAT-oVLFI1_E",
+      "coordinates": {
+        "lat": 22.32122,
+        "lng": 114.190148
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    },
+    {
+      "address": {
+        "zh": "7 萃文里, 柴灣"
+      },
+      "googleMapsPlaceId": "ChIJ08s-xksBBDQRpr0dYS6YRmc",
+      "coordinates": {
+        "lat": 22.2616813,
+        "lng": 114.2339657
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
   ]
 }

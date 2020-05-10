@@ -9,10 +9,11 @@
     },
     {
       "meta": {
+        "name": "易鐘情-汽車美容鍍膜專門店",
         "id": "353665548360498",
-        "about": "我哋係一間主力專注做鍍膜嘅『汽車鍍膜專門店』！\n『平靚正』係客人俾我哋嘅真實評價，我哋感恩客人嘅支持！",
+        "about": "我哋就好似大排擋，收得平但要做得硬淨、耐用，客人唔需要有太多負擔，即使後生仔或收入唔太多但又想嘗試做鍍膜都能夠消費的起。\n本店只招呼同一立場客人，唔招呼藍佬及狗！",
         "categories": [
-          "Vehicle body shop"
+          "Automotive Body Shop"
         ],
         "addr": "錦田市大江埔村41b",
         "area": "Yuen Kong, Hong Kong",
@@ -37,5 +38,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01006"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "錦田市大江埔村41b"
+      },
+      "googleMapsPlaceId": "ChIJd358no73AzQRwMsex_hW8O4",
+      "coordinates": {
+        "lat": 22.442142,
+        "lng": 114.0699708
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }

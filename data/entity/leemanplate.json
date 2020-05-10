@@ -6,25 +6,28 @@
   },
   "webpages": [
     {
-      "url": "http://www.leemanplate.com"
+      "url": "https://www.leemanplate.com"
     },
     {
       "meta": {
+        "name": "The Leemanplate 利萬車牌",
         "id": "109545425746213",
         "about": "100% HANDMADE HONGKONG NUMBER PLATE\n\n本店為香港唯一榮獲英國LCGI高等資格認證和擁有香港運輸處頒發證明書之制作商。 研發並使用獨家及目前最先進之數碼技術。",
         "categories": [
-          "Car service",
           "Cars",
-          "DVLA"
+          "Automotive Service",
+          "DMV"
         ],
         "addr": "香港銅鑼灣大坑浣紗街1號地下",
         "area": "Tai Hang",
-        "email": "info@leemanplate.com"
+        "email": "info@leemanplate.com",
+        "tel": "25205568"
       },
       "url": "https://www.facebook.com/leemanplate/"
     },
     {
       "meta": {
+        "name": "ＴＨＥ ＬＥＥＭＡＮＰＬＡＴＥ - 利萬車牌",
         "about": "．-1960- ESTABLISHED\n．香港車牌手作小店。\n．100% HANDMADE IN HONG KONG.\n．#leemanplate\n．telephone：25205568\n．whatsapp : 56985568"
       },
       "url": "https://www.instagram.com/leemanplate/"
@@ -43,5 +46,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00700"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港銅鑼灣大坑浣紗街1號地下"
+      },
+      "googleMapsPlaceId": "ChIJvbbtZ1wABDQRbStEqraM1Fo",
+      "coordinates": {
+        "lat": 22.2792666,
+        "lng": 114.1925021
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }

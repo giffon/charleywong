@@ -13,8 +13,8 @@
         "about": "《歡迎車友及同業了解，傳送訊息說hihi》\n**以下業務可索價目\n+偈油等消耗品保養及零售\n+原廠零件維修及零售\n+電單車用品零售及批發\n+歐美台精品及部品\n+電腦檢查車輛\n+保險及文件代辦服務",
         "categories": [
           "Motorcycle Repair Shop",
-          "Motorcycle Dealership",
-          "Automotive Parts Store"
+          "Automotive Parts Store",
+          "Motorcycle Dealership"
         ],
         "addr": "土瓜灣燕安街28號",
         "area": "Hong Kong",
@@ -62,5 +62,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02063"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "土瓜灣燕安街28號"
+      },
+      "googleMapsPlaceId": "ChIJIR7D12MBBDQRg834JCHWnrA",
+      "coordinates": {
+        "lat": 22.3214277,
+        "lng": 114.1932987
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
   ]
 }

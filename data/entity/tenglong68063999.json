@@ -6,15 +6,17 @@
   "webpages": [
     {
       "meta": {
+        "name": "專業頭燈鍍膜翻新",
         "id": "1005325012852206",
         "about": "打磨及4H硬度鏡面鍍膜（絕非打蠟）\n只須一個鐘頭燈就靚仔晒\n專業入水維修及內外翻新\n不論日本車及歐洲車保證即日取車\n（半年入水保養）",
         "categories": [
-          "Vehicle restoration service",
-          "Vehicle customisation shop"
+          "Automotive Restoration Service",
+          "Automotive Customization Shop"
         ],
         "addr": "牛頭角定安街百富閣4A地舖",
         "area": "Hong Kong",
-        "email": "tenglong68063999@yahoo.com.hk"
+        "email": "tenglong68063999@yahoo.com.hk",
+        "tel": "68063999"
       },
       "url": "https://www.facebook.com/tenglong68063999/"
     }
@@ -35,5 +37,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00333"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "牛頭角定安街百富閣4A地舖"
+      },
+      "googleMapsPlaceId": "ChIJVT6P-0kBBDQRgHnEzh1z1OY",
+      "coordinates": {
+        "lat": 22.31798,
+        "lng": 114.215673
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

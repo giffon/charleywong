@@ -2,22 +2,75 @@
   "id": "wheelsHK",
   "name": {
     "en": "SparkIndustries",
-    "zh": "好輪店 車鈴專門店"
+    "zh": "好輪店"
   },
   "webpages": [
     {
+      "url": "https://sparkindustries.com.hk"
+    },
+    {
       "meta": {
+        "name": "SparkIndustries 好輪店 車鈴專門店",
         "id": "427612457765912",
-        "about": "Spark Industries\n堅尼地城海旁11-15號地下 7號鋪\n電話/ WHATSAPP: 6100 3410...\n\n\n\n\n\n\n\n\nSee more",
+        "about": "Spark Industries \n堅尼地城海旁11-15號地下 7號鋪\n電話/ WHATSAPP: 6100 3410, 9255 5919\n\n服務範疇如下:\n-政府驗車\n-汽車精品\n-汽車電池\n-車鈴\n-四輪定位\n-更換偈油/波箱油\n-24小時救車",
         "categories": [
-          "Cars",
-          "Vehicle parts store",
-          "Wheel & rim repair service"
+          "Automotive Parts Store",
+          "Wheel & Rim Repair Service",
+          "Cars"
         ],
         "addr": "堅尼地城海旁11-15號地下 7號鋪",
-        "area": "Hong Kong"
+        "area": "Hong Kong",
+        "tel": "61003410"
       },
       "url": "https://www.facebook.com/wheelsHK/"
+    },
+    {
+      "url": "https://www.facebook.com/2154374541318543/",
+      "meta": {
+        "name": "搞鈴店 新舊呔鈴專賣店",
+        "id": "2154374541318543",
+        "about": "新舊呔鈴專賣店90444043",
+        "categories": [
+          "Automotive Parts Store"
+        ],
+        "email": "djpelelai@gmail.com",
+        "tel": "90444043"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.facebook.com/1522185061418890/",
+      "meta": {
+        "name": "好輪店 二手輪呔專賣店 96444044",
+        "id": "1522185061418890",
+        "about": "好輪店 集團式經營提供一站式軚軨及輪呔服務",
+        "categories": [
+          "Automotive Parts Store"
+        ],
+        "addr": "九龍界限街21號安發大厦",
+        "area": "852 Kowloon, Hong Kong",
+        "tel": "96444044"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/2154374541318543/",
+      "meta": {
+        "name": "搞鈴店 新舊呔鈴專賣店",
+        "id": "2154374541318543",
+        "about": "新舊呔鈴專賣店90444043",
+        "categories": [
+          "Automotive Parts Store"
+        ],
+        "email": "djpelelai@gmail.com",
+        "tel": "90444043"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/sparkindustriehk/",
+      "meta": {
+        "name": "令你意想不到的車軨,輪胎,電池及四輪定位專門店",
+        "about": "SPARK INDUSTRIES 好輪店\n⚡️| 專營汽車精品，配件，合金軨，電池，政府驗車\n🕙| 11:00-20:00\n☎️| WhatsApp +852 6887 6741 / 9255 5919\n🇭🇰| 堅尼地城海旁11至15號 7號鋪"
+      }
     }
   ],
   "posts": [
@@ -33,5 +86,46 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02062"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "堅尼地城海旁11-15號地下7號鋪 SparkIndustries 好輪店"
+      },
+      "googleMapsPlaceId": "ChIJM5p6lO3_AzQRx6bOMCa4W-Q",
+      "coordinates": {
+        "lat": 22.2860989,
+        "lng": 114.1323001
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍界限街21號安發大厦 好輪店"
+      },
+      "googleMapsPlaceId": "ChIJ1RxJ2LUABDQRB0pETH__GM0",
+      "coordinates": {
+        "lat": 22.3265074,
+        "lng": 114.1655938
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍城南角道53號地下 搞鈴店"
+      },
+      "googleMapsPlaceId": "ChIJWxAM7CoHBDQR0HAiNRfDUT0",
+      "coordinates": {
+        "lat": 22.3299247,
+        "lng": 114.1896839
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
   ]
 }

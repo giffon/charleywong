@@ -14,8 +14,8 @@
         "id": "1607355899494029",
         "about": "HelmetKing.com （頭盔王電單車用品）是香港最大的網上電單車用品購物網站。我們專營來自世界各地深受電單車迷熱愛的產品，由頭盔、人身部品到改裝零件，一應俱全。",
         "categories": [
-          "Automotive Parts Store",
           "Motorcycle Dealership",
+          "Automotive Parts Store",
           "Motorcycle Repair Shop"
         ],
         "addr": "5 Cliff Road",
@@ -52,5 +52,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02060"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "5 Cliff Road"
+      },
+      "googleMapsPlaceId": "ChIJ59-sCrUABDQRPYvwB8UYoRY",
+      "coordinates": {
+        "lat": 22.3107225,
+        "lng": 114.1715708
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

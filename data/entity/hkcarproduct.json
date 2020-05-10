@@ -14,8 +14,8 @@
         "id": "999313836819655",
         "about": "更多．更平．更貼心\n\n更多 - 盡力搜羅好用高質素既汽車美容用品\n更平 - 盡力低成本化令售價係我地能力範圍之內更平\n更貼心 - 唔識用唔明白歡迎黎我地店問清楚，有不少產品更加有獨門貓紙",
         "categories": [
-          "Retail Company",
-          "Automotive Parts Store"
+          "Automotive Parts Store",
+          "Retail Company"
         ],
         "addr": "荔枝角長沙灣道 883 號億利工業中心 4 樓 407 室",
         "area": "Hong Kong",
@@ -48,5 +48,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00170"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荔枝角長沙灣道 883 號億利工業中心 4 樓 407 室"
+      },
+      "googleMapsPlaceId": "ChIJx_DRRL34AzQR1W8KQB4cWmI",
+      "coordinates": {
+        "lat": 22.3367581,
+        "lng": 114.1477441
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
