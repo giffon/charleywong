@@ -7,20 +7,65 @@
   "webpages": [
     {
       "meta": {
+        "name": "想甜嚐甜 Sweet Dreamer Dessert",
         "id": "188370764869801",
-        "about": "【想甜 | 嚐甜】\n一間令甜度 ∝ 快樂的甜品店\n堅持甜品當飯食的原則。",
+        "about": "【想甜 | 嚐甜】 \n一間令甜度 ∝ 快樂的甜品店 \n堅持甜品當飯食的原則。",
         "categories": [
-          "Dessert shop",
-          "Restaurant",
-          "Brand"
+          "Dessert Shop"
         ],
         "email": "87admin@sddessert.com"
       },
       "url": "https://www.facebook.com/sddessert/"
     },
     {
+      "url": "https://www.facebook.com/2556818427665423/",
+      "hidden": true,
       "meta": {
-        "about": "自由，並不是隨心所欲；\n自由，是不必身不由己。\n甜度 ∝ 快樂\n#nosweetnolife #dessertarian\nFB: Sweet Dreamer Dessert\n►黃大仙店：蒲崗村道73號 3956-4744\n►堅尼地城： 士美菲路15號 5916-0698\n#想甜嚐甜 #甜品店"
+        "name": "想甜嚐甜 Sweet Dreamer Dessert - 黃大仙店",
+        "id": "2556818427665423",
+        "about": "No Sweet No Life.\nSweet makes you happy.",
+        "categories": [
+          "Local Business"
+        ],
+        "addr": "蒲崗村道73號",
+        "area": "Hong Kong",
+        "tel": "39564744"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/538188016618127/",
+      "hidden": true,
+      "meta": {
+        "name": "想甜嚐甜 Sweet Dreamer Dessert - 西環店",
+        "id": "538188016618127",
+        "categories": [
+          "Dessert Shop"
+        ],
+        "addr": "士美菲路15號",
+        "area": "Hong Kong",
+        "tel": "59160698"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/103764034549874/",
+      "hidden": true,
+      "meta": {
+        "name": "想甜嚐甜 Sweet Dreamer Dessert - 大角咀店",
+        "id": "103764034549874",
+        "about": "甜品店",
+        "categories": [
+          "Dessert Shop"
+        ],
+        "addr": "嘉善街18號",
+        "area": "Hong Kong",
+        "email": "87admin@sddessert.com",
+        "tel": "68921597"
+      }
+    },
+    {
+      "meta": {
+        "name": "想甜嚐甜 SweetDreamerDessert",
+        "about": "自由，並不是隨心所欲；\n自由，是不必身不由己。\n甜度 ∝ 快樂\n#nosweetnolife #dessertarian\n►黃大仙蒲崗村道73號 3956-4744\n►堅尼地城士美菲路15號 5916-0698\n►大角咀嘉善街18號G703 舖 6892-1597\n#想甜嚐甜 #甜品店"
       },
       "url": "https://www.instagram.com/sweet_dreamer_dessert/"
     }
@@ -43,5 +88,46 @@
     "Y_EAT00101",
     "Y_EAT00102",
     "Y_EAT01957"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "黃大仙蒲崗村道73號"
+      },
+      "googleMapsPlaceId": "ChIJYSAcDdwGBDQR1KSxOQ1e26Y",
+      "coordinates": {
+        "lat": 22.3442355,
+        "lng": 114.1987733
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    },
+    {
+      "address": {
+        "zh": "堅尼地城士美菲路15號"
+      },
+      "googleMapsPlaceId": "ChIJRTQPnKb_AzQRXMNjH0ESCJE",
+      "coordinates": {
+        "lat": 22.2836168,
+        "lng": 114.1278114
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大角咀嘉善街18號G703 舖"
+      },
+      "googleMapsPlaceId": "ChIJ_eqvGLoABDQRtrYQPhdO-6A",
+      "coordinates": {
+        "lat": 22.3200855,
+        "lng": 114.1613861
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
