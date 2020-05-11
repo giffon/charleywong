@@ -411,7 +411,7 @@ class Tag {
     static public final computer:TagData = {
         name: {
             en: "computer",
-            zh: "電臘",
+            zh: "電腦",
         },
         inherits: ["technology", "shop"]
     }
