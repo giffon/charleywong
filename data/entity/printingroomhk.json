@@ -6,16 +6,24 @@
   "webpages": [
     {
       "meta": {
+        "name": "Printing Room",
         "id": "791637067568643",
         "about": "Small print for big ideas.",
         "categories": [
-          "Printing service"
+          "Printing Service"
         ],
         "addr": "觀塘 駿業里 世貿大樓 10樓 7室",
-        "area": "Hong Kong",
+        "area": "999077 Hong Kong",
         "email": "printingroomhk@gmail.com"
       },
       "url": "https://www.facebook.com/printingroomhk/"
+    },
+    {
+      "url": "https://www.instagram.com/printingroomhk/",
+      "meta": {
+        "name": "Printing Room",
+        "about": "IG暫時不會回應msg, 有需要請到：\nFacebook：Printing Room\nEmail：printingroomhk@gmail.com\n地址：觀塘駿業里世貿大樓10樓07室\n營業時間：星期一至五 2:00-8:00pm"
+      }
     }
   ],
   "posts": [
@@ -30,9 +38,25 @@
     }
   ],
   "tags": [
-    "printing"
+    "printing",
+    "shop"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00896"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘 駿業里 世貿大樓 10樓 7室"
+      },
+      "googleMapsPlaceId": "ChIJZRK1d08BBDQRY8uWDy65bNU",
+      "coordinates": {
+        "lat": 22.312408,
+        "lng": 114.22409
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

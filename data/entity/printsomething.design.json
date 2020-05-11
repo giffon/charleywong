@@ -82,5 +82,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01952"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "BLK D 12/F FU HOP FACTORY BLDG 209-211 WAI YIP ST KWUN TONG"
+      },
+      "googleMapsPlaceId": "ChIJO_9BzkUBBDQRhO2k6_Wq4uQ",
+      "coordinates": {
+        "lat": 22.3095487,
+        "lng": 114.2220997
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

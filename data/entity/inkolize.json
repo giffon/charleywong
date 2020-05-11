@@ -10,17 +10,19 @@
     },
     {
       "meta": {
+        "name": "Inkolize",
+        "id": "149153385423812",
         "about": "Embrace the joy and pain of hand printing.",
         "categories": [
-          "Product/service"
+          "Product/Service"
         ],
-        "email": "hi@inkolize.com",
-        "id": "149153385423812"
+        "email": "hi@inkolize.com"
       },
       "url": "https://www.facebook.com/inkolize/"
     },
     {
       "meta": {
+        "name": "inkolize | 墨指工作室",
         "about": "Embrace the joy and pain of hand printing."
       },
       "url": "https://www.instagram.com/inkolize/"
@@ -40,5 +42,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01954"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港新界火炭山尾街31-35號華樂工業中心E座22樓E2室"
+      },
+      "googleMapsPlaceId": "ChIJS2uQ1TQGBDQR1pnA-QueVEY",
+      "coordinates": {
+        "lat": 22.397612,
+        "lng": 114.191732
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
   ]
 }

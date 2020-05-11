@@ -5,14 +5,15 @@
   },
   "webpages": [
     {
-      "url": "http://www.ideamakerhk.com"
+      "url": "https://www.ideamakerhk.com"
     },
     {
       "meta": {
+        "name": "Idea Maker HK",
         "id": "603514526399384",
         "about": "為香港大小朋友分享最inn既Maker，3D Printing, 設計思維及創意解難。",
         "categories": [
-          "Local business"
+          "Local Business"
         ],
         "addr": "香港九龍新蒲崗五芳街12號利景工業大廈3樓A05室",
         "area": "Hong Kong",
@@ -20,6 +21,14 @@
         "tel": "55166291"
       },
       "url": "https://www.facebook.com/ideamakerhk/"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCiqhQ3WH0drIWsywO_FEgrw",
+      "meta": {
+        "id": "UCiqhQ3WH0drIWsywO_FEgrw",
+        "name": "I3D Printer HK",
+        "about": ""
+      }
     }
   ],
   "posts": [
@@ -28,6 +37,22 @@
     }
   ],
   "tags": [
-    "printing3d"
+    "printing3d",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍新蒲崗五芳街12號利景工業大廈3樓A05室"
+      },
+      "googleMapsPlaceId": "ChIJKS39eNoGBDQRNIb_z-hswe0",
+      "coordinates": {
+        "lat": 22.3378142,
+        "lng": 114.1999012
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
   ]
 }
