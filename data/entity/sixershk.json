@@ -9,11 +9,12 @@
     },
     {
       "meta": {
+        "name": "Sixers丨攝影 · 廣告 · 印刷 & 設計",
         "id": "410978615699572",
         "about": "Sixers is a Hong Kong based Photography, Videography, Advertising, Printing and Design company. Since we established in 2012.",
         "categories": [
-          "Signs & banner service",
-          "Photography & videography"
+          "Signs & Banner Service",
+          "Photography Videography"
         ],
         "addr": "九⿓龍土瓜灣旭日街 1 號 瑞英工業⼤廈 5/F 13室",
         "area": "Hong Kong",
@@ -33,10 +34,26 @@
   ],
   "tags": [
     "printing",
-    "photographer",
+    "photography",
+    "advertisingAgency",
     "shop"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00888"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九⿓龍土瓜灣旭日街 1 號 瑞英工業⼤廈 5/F 13室"
+      },
+      "googleMapsPlaceId": "ChIJAQDADdgABDQRcsruLfmVirc",
+      "coordinates": {
+        "lat": 22.3156607,
+        "lng": 114.190845
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
   ]
 }
