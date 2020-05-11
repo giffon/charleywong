@@ -10,14 +10,22 @@
     },
     {
       "meta": {
+        "name": "Part-Time Board Friend 兼職桌友",
         "id": "1938172719756114",
-        "about": "Part Time Board Friend\n擴闊你對桌遊的想像\n\n門店: PTBF香港狼人館\nYou 'll never board alone.",
+        "about": "Part Time Board Friend \n擴闊你對桌遊的想像 \n\n門店: PTBF香港狼人館\nYou 'll never board alone.",
         "categories": [
-          "Board game"
+          "Board Game"
         ],
         "email": "ptboardf@gmail.com"
       },
       "url": "https://www.facebook.com/ptboardf/"
+    },
+    {
+      "url": "https://www.instagram.com/ptboardf/",
+      "meta": {
+        "name": "Part-Time Board Friend 香港狼人館",
+        "about": "香港狼人館\n香港桌遊\n定期約狼人及board game聚會，歡迎查詢。\n地址: 九龍灣合力工業中心A座6樓03室\n❤️Board game\n🇭🇰Hong Kong\nTelegram Group: ptboardf\n#boardgame #桌遊 #香港桌遊 #香港狼人館 #狼人館 #香港狼人殺"
+      }
     }
   ],
   "posts": [
@@ -32,5 +40,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01784"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍灣合力工業中心A座6樓03室"
+      },
+      "googleMapsPlaceId": "ChIJsWGomzQBBDQRGq2dsh7k9uY",
+      "coordinates": {
+        "lat": 22.3230799,
+        "lng": 114.2098396
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

@@ -1,7 +1,8 @@
 {
   "id": "skyshiphk",
   "name": {
-    "en": "Weatherlight - MTG & Board Games' Store"
+    "en": "Weatherlight",
+    "zh": "晴空號"
   },
   "webpages": [
     {
@@ -14,12 +15,19 @@
         "id": "330495137131881",
         "about": "A MTG & Board Game Store.\nWe buy, sell and trade Magic the Gathering and other board games.",
         "categories": [
-          "Product/Service",
+          "Games/Toys",
           "Toy Store",
-          "Games/Toys"
+          "Product/Service"
         ],
         "email": "iby_chan@hotmail.com",
         "tel": "93111843"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/mtgwl/",
+      "meta": {
+        "name": "Weatherlight 晴空號",
+        "about": "Everyday 15:00-25:30, Wed 15:00-30:00\nfb.com/skyshiphk\nBoardgames & card games for sale\nHolding BR&CR"
       }
     }
   ],
@@ -59,5 +67,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00205"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘成業街19-21號成業工業大廈6 樓 35 室"
+      },
+      "googleMapsPlaceId": "ChIJC8KvTEUBBDQR9SA4sm8ufto",
+      "coordinates": {
+        "lat": 22.3101417,
+        "lng": 114.2270878
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

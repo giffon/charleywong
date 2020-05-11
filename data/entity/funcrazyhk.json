@@ -7,15 +7,16 @@
   "webpages": [
     {
       "meta": {
+        "name": "Fun Crazy Board Game House 樂瘋桌上遊戲專門店",
         "id": "371307573041563",
         "about": "本店提供五百種以上桌遊試玩及桌遊零售服務，星期一至四全日任玩連飲品只需$70！店員均為資深桌遊導師，為客人提供全方位貼心服務。",
         "categories": [
-          "Arts and entertainment",
-          "Shopping & retail",
+          "Arts & Entertainment",
+          "Shopping & Retail",
           "Cafe"
         ],
         "addr": "旺角西洋菜南街1A-1K號百寶利商業中心10樓01-02室",
-        "area": "Hong Kong",
+        "area": "852 54015170 Hong Kong",
         "email": "hongkongboardgame@gmail.com",
         "tel": "34619431"
       },
@@ -23,6 +24,7 @@
     },
     {
       "meta": {
+        "name": "Fun Crazy Board Game 樂瘋桌上遊戲專門店",
         "about": "營業時間:\n星期一至四 15:00-23:00\n星期五至日 14:00-24:00\n公眾假期及前夕 14:00-24:00\n電話:3461 9431\nWhatsapp 訂貨查詢:54015170\n電郵: hongkongboardgame@gmail.com\nFacebook：funcrazyhk"
       },
       "url": "https://www.instagram.com/funcrazyhk/"
@@ -43,5 +45,20 @@
   "yellowBlueMapIds": [
     "Y_SHOP00123",
     "Y_SHOP00157"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角西洋菜南街1A-1K號百寶利商業中心10樓01-02室"
+      },
+      "googleMapsPlaceId": "ChIJy6pOHMcABDQRVdbzhPEhh0g",
+      "coordinates": {
+        "lat": 22.3162789,
+        "lng": 114.1704794
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
