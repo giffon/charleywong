@@ -61,9 +61,25 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "closed"
   ],
   "yellowBlueMapIds": [
     "Y_EAT01999"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大角咀利得街14號地下"
+      },
+      "googleMapsPlaceId": "ChIJVWqbDsMBBDQRh--HPq50kgY",
+      "coordinates": {
+        "lat": 22.3210034,
+        "lng": 114.161414
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
