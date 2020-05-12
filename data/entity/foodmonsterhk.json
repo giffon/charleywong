@@ -18,7 +18,7 @@
           "Grocery Store"
         ],
         "addr": "長沙灣道883號億利工業中心1樓13B",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "info@foodmonster.com.hk",
         "tel": "25439998"
       }
@@ -53,9 +53,6 @@
         "name": "Monsterclub Partyroom",
         "about": "⭐️ 打造精彩 party room🤹🏻‍♀️親子活動👨‍👩‍👧‍👦🎪專業開蠔班🏅廚房聚會煮食🍝👩🏻‍🍳👨🏻‍🍳公司team building 🎭拍攝製作🎬🎧🎼🏵開業6年🏵 ☎️Tel:2543-9998 Whatsapp: 6715-2178\n🏪地址:荔枝角長沙灣道883號億利工業中心1樓13B"
       }
-    },
-    {
-      "url": "http://www.foodmonster.com.hk"
     }
   ],
   "posts": [
@@ -71,9 +68,18 @@
   ],
   "tags": [
     "food",
-    "partyRoom"
+    "partyRoom",
+    "shop"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00225"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "長沙灣道883號億利工業中心1樓13B"
+      },
+      "googleMapsPlaceId": "ChIJ-W5AIMYABDQRCQUjhs5mXd0"
+    }
   ]
 }
