@@ -6,18 +6,26 @@
   "webpages": [
     {
       "meta": {
+        "name": "Mirs",
         "id": "397210280480845",
-        "about": "| 全方位化妝服務 | 角蛋白美睫 | 日式植睫毛 | 個人化妝班 | 髮型班 |\nWelcome to MIRS Makeup Studio\n服務查詢：mirsmakeup@gmail.com\n地址：觀塘開源道駱駝漆大廈一座5樓D9室\n開放時間：請預約查詢",
+        "about": "| 全方位化妝服務 | 角蛋白美睫 | 日式植睫毛 | 個人化妝班 | 髮型班 | \nWelcome to MIRS Makeup Studio \n服務查詢：mirsmakeup@gmail.com\n地址：觀塘開源道駱駝漆大廈一座5樓D9室\n開放時間：請預約查詢",
         "categories": [
-          "Health/beauty",
-          "Makeup artist",
-          "Wedding planning service"
+          "Health/Beauty",
+          "Makeup Artist",
+          "Wedding Planning Service"
         ],
         "addr": "Rm D9, 5th floor, Ph1, Camelpaint Building",
-        "area": "Kwun Tong",
+        "area": "852 Kwun Tong",
         "email": "mirsmakeup@gmail.com"
       },
       "url": "https://www.facebook.com/mirsmakeup/"
+    },
+    {
+      "url": "https://www.instagram.com/mirsmakeup/",
+      "meta": {
+        "name": "MIRS Makeup Studio💄",
+        "about": "全方位化妝服務 | 個人化妝班 | 半永久化妝&植眼睫毛服務\n🔻Welcome to MIRS Makeup Studio🔻\n服務查詢：mirsmakeup@gmail.com\n店鋪地址：觀塘駱駝漆大廈一期5樓D9\n#bride #bridemaids #makeup"
+      }
     }
   ],
   "posts": [
@@ -29,5 +37,20 @@
     "makeup",
     "artist",
     "wedding"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Rm D9, 5th floor, Ph1, Camelpaint Building"
+      },
+      "googleMapsPlaceId": "ChIJCWwscEUBBDQRQ4KQ8lwtKO0",
+      "coordinates": {
+        "lat": 22.3105193,
+        "lng": 114.2248467
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
