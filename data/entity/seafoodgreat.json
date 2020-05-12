@@ -6,15 +6,22 @@
   "webpages": [
     {
       "meta": {
+        "name": "Seafood Great 海鮮批發及零售",
         "id": "104442463453566",
         "about": "Seafood Great 為你提供一站式海鮮方案，讓你安坐家中，就享受到美味海鮮送到俯上。",
         "categories": [
-          "Local business"
+          "Local Business"
         ],
         "email": "seafoodgreat@yahoo.com",
         "tel": "61114713"
       },
       "url": "https://www.facebook.com/seafoodgreat/"
+    },
+    {
+      "url": "https://www.instagram.com/seafoodgreat/",
+      "meta": {
+        "name": "Seafood Great"
+      }
     }
   ],
   "posts": [
@@ -29,8 +36,8 @@
     }
   ],
   "tags": [
-    "food",
-    "foodStore"
+    "foodStore",
+    "shop"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00387"
