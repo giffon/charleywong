@@ -13,8 +13,14 @@
           "Dessert Shop"
         ],
         "addr": "九龍深水埗荔枝角道323號",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "tel": "90343832"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/hongs_dessert/",
+      "meta": {
+        "name": "康瑞甜品"
       }
     }
   ],
@@ -39,5 +45,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00138"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍深水埗荔枝角道323號"
+      },
+      "googleMapsPlaceId": "ChIJN27Hv7MABDQRfRBvHXpAXLs",
+      "coordinates": {
+        "lat": 22.3285559,
+        "lng": 114.160154
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
