@@ -564,7 +564,10 @@ class Tag {
         name: {
             en: "driving instructor",
             zh: "教車師傅"
-        }
+        },
+        inherits: [
+            "shop"
+        ]
     }
 
     static public final skincare:TagData = {
@@ -668,28 +671,41 @@ class Tag {
         name: {
             en: "cafe",
             zh: "咖啡店"
-        }
+        },
+        inherits: [
+            "food"
+        ]
     }
 
     static public final foodStore:TagData = {
         name: {
             en: "food store",
             zh: "食材店"
-        }
+        },
+        inherits: [
+            "food",
+            "shop"
+        ]
     }
 
     static public final hiking:TagData = {
         name: {
             en: "hiking",
             zh: "行山"
-        }
+        },
+        inherits: [
+            "sport"
+        ]
     }
 
     static public final pizza:TagData = {
         name: {
             en: "pizza",
             zh: "薄餅"
-        }
+        },
+        inherits: [
+            "food"
+        ]
     }
     
 }
