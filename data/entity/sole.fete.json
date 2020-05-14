@@ -6,17 +6,32 @@
   "webpages": [
     {
       "meta": {
+        "name": "Sole Fete",
         "id": "940207859646419",
         "about": "Hong Kong Partyroom",
         "categories": [
-          "Just for fun",
-          "Event"
+          "Event",
+          "Just For Fun"
         ],
         "addr": "葵涌, 藍田街",
         "area": "Hong Kong",
         "tel": "98440974"
       },
       "url": "https://www.facebook.com/sole.fete/"
+    },
+    {
+      "url": "https://www.instagram.com/sole.fete/",
+      "meta": {
+        "name": "SoleFete獨享小派對🔸",
+        "about": "🔮北歐+摩洛哥風主題房🏺\n2人起可包場\n🇭🇰葵涌🕐24小時🏡私人空間\n場內設獨立洗手間🚻\n🍀全自助體驗🍀\n網上確定預訂➡️收到密碼🗝➡️自助入場\n查詢🔍 IG direct or WhatsApp 98440974\n另設1000呎主題房 6人起可包場 @solefete.bidloimoyeung"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/solefete.bidloimoyeung/",
+      "meta": {
+        "name": "SoleFete別來無恙🔸",
+        "about": "📽港式復古主題房🎞\n🗺葵涌🕰24小時🏘私人空間\n場內設獨立洗手間🚻\n🍀全自助體驗🍀\n網上確定預訂➡️收到密碼🗝➡️自助入場\n查詢🔍 IG direct or WhatsApp 98440974\n另設小主題房 2人以上可包場 @sole.fete"
+      }
     }
   ],
   "posts": [
@@ -30,5 +45,33 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00729"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵涌藍田街30-38號德記集團中心2樓, B9室"
+      },
+      "googleMapsPlaceId": "ChIJ-1bFJCv5AzQRVv-0dtnsdWE",
+      "coordinates": {
+        "lat": 22.3686951,
+        "lng": 114.138501
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵涌打磚坪街68號和豐工業中心25樓 2521"
+      },
+      "googleMapsPlaceId": "ChIJyfkb2SH5AzQR0V_CLb1PV5U",
+      "coordinates": {
+        "lat": 22.3677811,
+        "lng": 114.1371075
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }

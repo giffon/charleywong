@@ -21,7 +21,7 @@
           "Party Entertainment Service"
         ],
         "addr": "Mai Hing Ind Building, 16-18 Hing Yip Street, Kwun Tong",
-        "area": "Kwun Tong",
+        "area": "852 Kwun Tong",
         "tel": "95354670"
       }
     },
@@ -72,5 +72,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01318"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Mai Hing Ind Building, 16-18 Hing Yip Street, Kwun Tong"
+      },
+      "googleMapsPlaceId": "ChIJ86edHEUBBDQRqvwvhSqRzo0",
+      "coordinates": {
+        "lat": 22.3088856,
+        "lng": 114.225174
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
