@@ -1,0 +1,68 @@
+{
+  "id": "rooftopinstitute",
+  "name": {
+    "en": "Rooftop Institute"
+  },
+  "webpages": [
+    {
+      "url": "https://www.rooftopinstitute.org"
+    },
+    {
+      "url": "https://www.facebook.com/rooftopinstitute/",
+      "meta": {
+        "name": "Rooftop Institute",
+        "id": "1046316505429335",
+        "categories": [
+          "Local Business"
+        ],
+        "addr": "10/F , Foo Tak Building , 365 Hennessy road, Wan Chai",
+        "area": "Hong Kong",
+        "email": "hhz@rooftopinstitute.org",
+        "tel": "63157375"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/rooftopinstitute/",
+      "meta": {
+        "name": "Rooftop Institute",
+        "about": "學學習｜《後生者/ after the rain》"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/rooftopinstitute/posts/2366706650056974",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/rooftopinstitute/posts/2457930417601263",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "artist",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "10/F , Foo Tak Building , 365 Hennessy road, Wan Chai"
+      },
+      "googleMapsPlaceId": "ChIJV0NNBloABDQRfAMD8BJE9TA",
+      "coordinates": {
+        "lat": 22.2789495,
+        "lng": 114.1793967
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    "Y_SHOP02144"
+  ]
+}
