@@ -5,21 +5,29 @@
   },
   "webpages": [
     {
+      "url": "http://www.unobridal.com"
+    },
+    {
       "meta": {
+        "name": "Uno Bridal",
+        "id": "311862189385749",
         "about": "Self service bridal salon that offers affordable rental service of designer brand wedding and evening gown",
         "categories": [
-          "Bridal shop"
+          "Bridal Shop"
         ],
         "addr": "紅磡蕪湖街70-74號潤達商業大廈2樓C室",
         "area": "Kowloon, Hong Kong",
         "email": "yes@unobridal.com",
-        "tel": "35908605",
-        "id": "311862189385749"
+        "tel": "35908605"
       },
       "url": "https://www.facebook.com/unobridalhk/"
     },
     {
-      "url": "https://www.instagram.com/unobridalhk/"
+      "url": "https://www.instagram.com/unobridalhk/",
+      "meta": {
+        "name": "Uno Bridal Hong Kong",
+        "about": "全港首間100% 歐美品牌自助婚紗店。 基本租期7天。\nServe-service 100% designer brand bridal shop in Hong Kong\nBrands: Rebecca Ingram, Jovani, Alyce Paris"
+      }
     }
   ],
   "posts": [
@@ -41,5 +49,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02040"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "紅磡蕪湖街70-74號潤達商業大廈2樓C室"
+      },
+      "googleMapsPlaceId": "ChIJ5ZNGQoMBBDQRF_voHTTR8Z4",
+      "coordinates": {
+        "lat": 22.3078172,
+        "lng": 114.1854343
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
   ]
 }

@@ -22,7 +22,7 @@
           "Hair Salon"
         ],
         "addr": "1 Ming Lun Street, To Kwa Wan,",
-        "area": "Kowloon, Hong Kong",
+        "area": "852 Kowloon, Hong Kong",
         "tel": "56610681"
       }
     }
@@ -64,5 +64,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02041"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "1 Ming Lun Street, To Kwa Wan,"
+      },
+      "googleMapsPlaceId": "ChIJYWCyvn4ABDQRddJgN012iTU",
+      "coordinates": {
+        "lat": 22.32002499999999,
+        "lng": 114.193408
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
   ]
 }

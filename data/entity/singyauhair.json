@@ -6,17 +6,24 @@
   "webpages": [
     {
       "meta": {
+        "name": "Sing yau Hair Stylist",
         "id": "1213086585479996",
-        "about": "髪型屋",
+        "about": "Hair stylist: Sing Yau @Salon Basement \n歡迎預約：9129 6086 （逢星期四休息）\n黃色良心圈",
         "categories": [
-          "Hair salon",
-          "Personal blog"
+          "Hair Salon"
         ],
         "addr": "尖沙咀金巴利道18號地庫",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "tel": "91296086"
       },
       "url": "https://www.facebook.com/singyauhair/"
+    },
+    {
+      "url": "https://www.instagram.com/sing_yau_hairstylist/",
+      "meta": {
+        "name": "Sing Yau Hair Stylist",
+        "about": "黃色良💛圈￼\nFacebook: Sing Yau hair stylist\nHair stylist: Sing Yau @Salon Basement\n👇🏻請按此直接whatapps 預約"
+      }
     }
   ],
   "posts": [
@@ -38,5 +45,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01173"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀金巴利道18號地庫"
+      },
+      "googleMapsPlaceId": "EikxOCBLaW1iZXJsZXkgUmQsIFRzaW0gU2hhIFRzdWksIEhvbmcgS29uZyIwEi4KFAoSCYWotzHsAAQ0EcU7-d8XPb9JEBIqFAoSCYG_P6HuAAQ0ESXL8i34ohcg",
+      "coordinates": {
+        "lat": 22.3002482,
+        "lng": 114.172929
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

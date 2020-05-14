@@ -5,18 +5,22 @@
   },
   "webpages": [
     {
-      "url": "https://www.instagram.com/wonderhairhk/"
+      "url": "https://www.instagram.com/wonderhairhk/",
+      "meta": {
+        "name": "髮型工作室 | 髮型用品 💈",
+        "about": "💈Wonder Hair💈\n✂️10年以上經驗 ✂\n🇭🇰光復香港.時代革命🇭🇰\nWHATSAPP 📞 9232 4889\n💲HSBC | 轉數快 | PAYME | ALIPAY HK\n地址: 元朗富達廣場地下89c&90號舖（K-PLUS門口轉左）\nOPEN 12:00 ~ CLOSE 9:00"
+      }
     },
     {
       "meta": {
+        "name": "WonderHairhk",
         "id": "1685587134799041",
         "about": "主要售賣專業髮型用品\n貨品均為現貨，歡迎批發\n貨品種類較多，可直接查詢產品\n可順豐到付或親臨門市選購\nWhatsapp:92324889",
         "categories": [
-          "Hair salon",
-          "Retail company"
+          "Hair Salon"
         ],
-        "addr": "西菁街23號富達廣場地下 89C-90號鋪",
-        "area": "Yuen Long Market, Hong Kong",
+        "addr": "富達廣場地下89c&90號舖",
+        "area": "Yuen Kong, Hong Kong",
         "email": "wonderhousehk@gmail.com",
         "tel": "92324889"
       },
@@ -33,5 +37,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00947"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "富達廣場地下89c&90號舖"
+      },
+      "googleMapsPlaceId": "ChIJMcjKQgr6AzQRIXyedWegonY",
+      "coordinates": {
+        "lat": 22.4413009,
+        "lng": 114.0287779
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }
