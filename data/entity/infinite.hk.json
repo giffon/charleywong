@@ -9,6 +9,7 @@
     },
     {
       "meta": {
+        "name": "Infinite Hair Studio",
         "id": "108673950543654",
         "about": "INFINITE\n亦即解作 無限 無窮 無盡\n打破固有 理念 想像 創作\n頭髮 不應被框架所限制在內",
         "categories": [
@@ -21,7 +22,8 @@
     },
     {
       "meta": {
-        "about": "專頁只會不定時發放作品分享及參考\n有關髮型上疑問/預約請whatapp查詢\n本店只接受預約時間服務\nWhatapp:+852 98142760\n————————————\nINFINITE\n亦即解作-無限-無窮-無盡\n打破固有-理念-想像-創作\n頭髮 不應被框架所限制在內"
+        "name": "infinite.hairstudiohk",
+        "about": "專頁只會不定時發放作品分享及參考\n有關髮型上疑問/預約請whatapp查詢\n營業時間:12:00-10:00PM\n*本店只接受預約時間服務\nWhatapp連結🔗"
       },
       "url": "https://www.instagram.com/infinitehairstudiohk/"
     }
@@ -39,5 +41,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00957"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Cheung Fat Industrial Building 64. Larch Street TAI KOK TSU"
+      },
+      "googleMapsPlaceId": "ChIJvfM5E7cABDQRxtb7nljnVps",
+      "coordinates": {
+        "lat": 22.3225409,
+        "lng": 114.1637679
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

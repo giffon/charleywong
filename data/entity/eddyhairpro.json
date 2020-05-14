@@ -5,22 +5,27 @@
   },
   "webpages": [
     {
-      "url": "https://api.whatsapp.com/send?phone=85290161662"
-    },
-    {
       "meta": {
+        "name": "Eddy_hairpro",
         "id": "731182480390383",
         "about": "黑警藍絲？？！！不了����",
         "categories": [
-          "Hair salon",
-          "Barber's"
+          "Hair Salon",
+          "Barber Shop"
         ],
         "addr": "尖沙咀金巴利道18c地庫",
-        "area": "Hong Kong",
+        "area": "00852 Hong Kong",
         "email": "eddyendy@hotmail.com",
         "tel": "90161662"
       },
       "url": "https://www.facebook.com/eddyhairpro/"
+    },
+    {
+      "url": "https://www.instagram.com/eddy_hairpro/",
+      "meta": {
+        "name": "男士電髮 五一黃金周 髮型設計 染髮 電髮 漂染 優惠",
+        "about": "Hair Stylist : Eddy Leung\n十多年美髮經驗，希望能幫到大家，改變到新型像！\n想要更多資訊，可以follow FB: eddy_hairpro\n（黑白是良知 禁止犬隻 藍絲 🤬）\n#香港人加油 #香港人反抗 #五大訴求缺一不可 #男士電髮 #女士髮型\n👇歡迎預約及查詢👇"
+      }
     }
   ],
   "posts": [
@@ -39,5 +44,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00936"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀金巴利道18c地庫"
+      },
+      "googleMapsPlaceId": "EikxOCBLaW1iZXJsZXkgUmQsIFRzaW0gU2hhIFRzdWksIEhvbmcgS29uZyIwEi4KFAoSCYWotzHsAAQ0EcU7-d8XPb9JEBIqFAoSCYG_P6HuAAQ0ESXL8i34ohcg",
+      "coordinates": {
+        "lat": 22.3002482,
+        "lng": 114.172929
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

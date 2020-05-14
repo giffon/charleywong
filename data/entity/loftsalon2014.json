@@ -59,5 +59,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00506"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角弼街62號1樓"
+      },
+      "googleMapsPlaceId": "ChIJu9y6dk0BBDQRy3-SLRGMtXY",
+      "coordinates": {
+        "lat": 22.3220896,
+        "lng": 114.1696414
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

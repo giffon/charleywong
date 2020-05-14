@@ -8,7 +8,7 @@
       "url": "https://www.facebook.com/360500654290862/",
       "meta": {
         "name": "Salon Ziwei",
-        "id": "293634494547562",
+        "id": "360500654290862",
         "categories": [
           "Barber Shop",
           "Hair Salon"
@@ -56,5 +56,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00755"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "堅尼地城西環吉席街9-15號地下C鋪"
+      },
+      "googleMapsPlaceId": "ChIJH5in9pr_AzQRgB70aB_ppbc",
+      "coordinates": {
+        "lat": 22.28357459999999,
+        "lng": 114.1293883
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }

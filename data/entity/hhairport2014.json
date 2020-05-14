@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
+        "name": "H.hairport hair salon",
         "id": "814814558576358",
         "about": "Hi 入嚟睇吓我哋啲作品啦�我地既地址係大埔寶湖花園商場 L2 226 （近電梯口）歡迎預約 tel :37021379\n更加歡迎你地親臨我地會俾專業既意見你 或者Facebook 留message 我地會盡快覆你",
         "categories": [
-          "Hair salon",
-          "Barber's"
+          "Hair Salon",
+          "Barber Shop"
         ],
         "addr": "大埔寶湖花園商場 L2 226(近電梯口）226,L2,Plover Cove Garden ,tai po",
         "area": "Tai Po Industrial Estate",
         "tel": "37021379"
       },
       "url": "https://www.facebook.com/hhairport2014/"
+    },
+    {
+      "url": "https://www.instagram.com/taipo_hhairport_hairsalon/",
+      "meta": {
+        "name": "Hhairport",
+        "about": "我地既地址係\n大埔寶湖花園商場 L2 226 （近電梯口）\n更加歡迎你地親臨我地會俾專業既意見你 inbox message 我地會盡快覆你 😊\nFacebook : H.hairport hair salon\nTel:37021379"
+      }
     }
   ],
   "posts": [
@@ -32,5 +40,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00130"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔寶湖花園商場 L2 226"
+      },
+      "googleMapsPlaceId": "ChIJB4_lWUcIBDQRSGxIjbcWoNM",
+      "coordinates": {
+        "lat": 22.4494872,
+        "lng": 114.1680259
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    }
   ]
 }

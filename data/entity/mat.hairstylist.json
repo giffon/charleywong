@@ -6,18 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "about": "工作室地址: 紅磡蕪湖街61號1樓\nmagic dream salon\n...\n\n\nSee more",
+        "name": "Mat yuen",
+        "id": "1296694543795846",
+        "about": "工作室地址: 紅磡蕪湖街61號1樓 \n                     magic dream salon\n\n營業時間:  11:00-8:00\n\n預約電話� 62777643",
         "categories": [
-          "Barber's",
-          "Local service",
-          "Product/service"
+          "Product/Service",
+          "Barber Shop",
+          "Local Service"
         ],
-        "addr": "No61 1 floor wuhu street hung hom kowloon",
-        "area": "Hong Kong",
         "email": "mat_yuen@hotmail.com",
-        "id": "1296694543795846"
+        "tel": "62777643"
       },
       "url": "https://www.facebook.com/mat.hairstylist/"
+    },
+    {
+      "url": "https://www.instagram.com/mat_yuen/",
+      "meta": {
+        "name": "Mat Yuen",
+        "about": "位於紅磡一個小小工作室，比大家可以有一個美髮服務嘅空間，特別喜歡用雙手去創作一切的每一位 ￼#理髪店 #紅磡 #手作人 #hairstylist #小店 #我的快樂手作 #我工作的日常 #支持本地創作 #流動文宣 #黃色文創圈 #香港文創及工藝從業員工會#黃色經濟圈#光復香港時代革命 #義賣"
+      }
     }
   ],
   "posts": [
@@ -33,5 +40,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02027"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "紅磡蕪湖街61號1樓 Magic dream salon"
+      },
+      "googleMapsPlaceId": "ChIJTcdJGd4ABDQR2apMVzjHS44",
+      "coordinates": {
+        "lat": 22.30657859999999,
+        "lng": 114.1867231
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
   ]
 }

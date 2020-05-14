@@ -6,14 +6,23 @@
   "webpages": [
     {
       "meta": {
+        "name": "Hugo L Hair Stylist",
         "id": "2509805682585288",
         "categories": [
-          "Beauty, cosmetic & personal care"
+          "Beauty, Cosmetic & Personal Care"
         ],
         "addr": "尖沙咀金巴利道18號地庫",
-        "area": "Kowloon, Hong Kong"
+        "area": "Kowloon, Hong Kong",
+        "tel": "63336805"
       },
       "url": "https://www.facebook.com/hugolhair/"
+    },
+    {
+      "url": "https://www.instagram.com/hugolhair/",
+      "meta": {
+        "name": "Hugo Law",
+        "about": "Hair cut $280-320\nBlow dry $200\nColor\nS $650\nM $750\nL $850-900（bleach,highlight$450-600)\nPerm\n$1200-1600\nTreatments\n$600-1300"
+      }
     }
   ],
   "posts": [
@@ -26,5 +35,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02022"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀金巴利道18號地庫"
+      },
+      "googleMapsPlaceId": "EikxOCBLaW1iZXJsZXkgUmQsIFRzaW0gU2hhIFRzdWksIEhvbmcgS29uZyIwEi4KFAoSCYWotzHsAAQ0EcU7-d8XPb9JEBIqFAoSCYG_P6HuAAQ0ESXL8i34ohcg",
+      "coordinates": {
+        "lat": 22.3002482,
+        "lng": 114.172929
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

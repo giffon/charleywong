@@ -6,18 +6,26 @@
   "webpages": [
     {
       "meta": {
+        "name": "SINCE SALON",
         "id": "212963162406",
-        "about": "Since Salon 1999年成立\n在 馬鞍山 屹立 20年\n我們是一群為了...\n\n\n\n\nSee more",
+        "about": "Since Salon 1999年成立\n在 馬鞍山 屹立 20年\n我們是一群為了\n讓客人更美麗.....而努力奮鬥的美髮師\n希望 為你創造一個 \n設計 與 生活 並存的髮型\n讓你看著鏡中的自己\n[ 能 成為 最好 的 自己 ]",
         "categories": [
-          "Barber's",
-          "Hair salon",
-          "Product/service"
+          "Barber Shop",
+          "Hair Salon"
         ],
         "addr": "沙田馬鞍山西沙路608號馬鞍山中心A01號地鋪",
         "area": "Hong Kong",
-        "email": "sincesalon@gmail.com"
+        "email": "sincesalon@gmail.com",
+        "tel": "26335551"
       },
       "url": "https://www.facebook.com/sincesalon/"
+    },
+    {
+      "url": "https://www.instagram.com/sincesalon/",
+      "meta": {
+        "name": "S I N C E . S A L O N",
+        "about": "藝術就是我們生命"
+      }
     }
   ],
   "posts": [
@@ -33,5 +41,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00559"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "沙田馬鞍山西沙路608號馬鞍山中心A01號地鋪"
+      },
+      "googleMapsPlaceId": "ChIJEWw5bLEIBDQRTLnlXFXFzGc",
+      "coordinates": {
+        "lat": 22.4255997,
+        "lng": 114.231917
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
   ]
 }

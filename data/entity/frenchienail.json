@@ -6,18 +6,21 @@
   "webpages": [
     {
       "meta": {
+        "name": "Frenchie Nail Private Salon",
         "id": "1522891427976590",
-        "about": "銅鑼灣日式美甲店\nA � style private nail salon\nJNECネイリスト技能検定2級...\n\n\n\nSee more",
+        "about": "銅鑼灣日式美甲店 \nA � style private nail salon \nJNECネイリスト技能検定2級\nJNAネイルサロン衛生管理士\n美國entity品牌講師\n日本acegel品牌講師 ��\nbooking852-97526340",
         "categories": [
-          "Nail salon"
+          "Nail Salon"
         ],
         "addr": "957, 9/F, eton tower, 8 hysan avenue, causeway bay",
-        "area": "Hong Kong"
+        "area": "852 Hong Kong",
+        "tel": "97526340"
       },
       "url": "https://www.facebook.com/frenchienail/"
     },
     {
       "meta": {
+        "name": "Frenchie Nail Private Salon",
         "about": "💞#銅鑼灣日式美甲店💞\nA 🇯🇵 style private #nail salon\nJNECネイリスト技能検定2級\nJNAネイルサロン衛生管理士\n美國entity品牌講師\n日本acegel品牌講師 💅🏻👱🏼‍♀️\n🌟本店只採用日本製JNA認可品牌🌟\nbooking📲852-97526340"
       },
       "url": "https://www.instagram.com/frenchienail/"
@@ -37,5 +40,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02046"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "957, 9/F, eton tower, 8 hysan avenue, causeway bay"
+      },
+      "googleMapsPlaceId": "ChIJG_BaRVEABDQRKQurrwp6_nk",
+      "coordinates": {
+        "lat": 22.2779616,
+        "lng": 114.1847524
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
