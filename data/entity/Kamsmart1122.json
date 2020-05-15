@@ -11,11 +11,18 @@
         "id": "483014962054538",
         "about": "店主 - 金仔\n80後，家族經營蔘茸海味中西藥店三十年\n自小在花膠，鹿茸，奶粉堆中成長\n努力學習成為好老公+好爸爸中\n希望透過網上平台為大家介紹各種優質海味，蔘茸藥材及母嬰生活用品",
         "categories": [
-          "Health Food Store",
-          "Specialty Grocery Store"
+          "Specialty Grocery Store",
+          "Health Food Store"
         ],
         "email": "kamsmart2017@gmail.com",
         "tel": "96069867"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/kams_mart/",
+      "meta": {
+        "name": "金氏海味.生活百貨",
+        "about": "店主 - 金仔\n80後，家族經營蔘茸海味中西藥店三十年\n自小在花膠，鹿茸，奶粉堆中成長\n努力學習成為好老公+好爸爸中\n希望透過網上平台為大家介紹各種適合大小家庭的海味，蔘茸藥材及進口母嬰生活用品"
       }
     }
   ],
@@ -29,5 +36,20 @@
   ],
   "tags": [
     "foodStore"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "上水新康街46號地下 金城蔘茸海味"
+      },
+      "googleMapsPlaceId": "ChIJm4-HzxH2AzQRaDQv0SNJye0",
+      "coordinates": {
+        "lat": 22.504429,
+        "lng": 114.128331
+      },
+      "area": {
+        "zh": "北區"
+      }
+    }
   ]
 }
