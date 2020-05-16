@@ -9,10 +9,11 @@
     },
     {
       "meta": {
+        "name": "The Korner.",
         "id": "379608685556223",
         "about": "The Korner 是香港本地鞋履品牌，創立於2015年，品牌主張 “make shoes in your way” 與 “make goods affordable” 的理念，希望陪大家走過不同的路。\n-\nInstagram: Thekorner_hk\n-\nWe ship worldwide.",
         "categories": [
-          "Shoe shop"
+          "Footwear Store"
         ],
         "email": "kornerformen@gmail.com",
         "tel": "96265010"
@@ -23,11 +24,8 @@
       "url": "https://www.instagram.com/thekorner_hk/",
       "meta": {
         "name": "The Korner🌈",
-        "about": "The Korner, Based in 🇭🇰\nFrom local to worldwide.\nOnline seasonal sale, Click below🔥"
+        "about": "Based in 🇭🇰\nFrom local to worldwide,\nstay home stay healthy 💪🏽"
       }
-    },
-    {
-      "url": "https://www.thekornershoes.com/memberkorner"
     }
   ],
   "posts": [
@@ -45,5 +43,46 @@
     "Y_SHOP01189",
     "Y_SHOP01190",
     "Y_SHOP01191"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 120, 1/F, K11 Art Mall, Tsim Sha Tsui"
+      },
+      "googleMapsPlaceId": "ChIJ_yMf_u0ABDQRFUSKts8Cq0U",
+      "coordinates": {
+        "lat": 22.2974095,
+        "lng": 114.173575
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop 214A, 2/F, D2 Place One, Lai Chi Kok"
+      },
+      "googleMapsPlaceId": "ChIJ-VJ_llQHBDQRL9xYGygY894",
+      "coordinates": {
+        "lat": 22.3361373,
+        "lng": 114.1489362
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "en": "UG35, UG, Olympian City II, Olympic"
+      },
+      "googleMapsPlaceId": "ChIJLdOHYLkABDQRDR5nj4ociXI",
+      "coordinates": {
+        "lat": 22.3172044,
+        "lng": 114.1619682
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
