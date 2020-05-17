@@ -1,7 +1,8 @@
 {
   "id": "LetsGoBusinessManagement",
   "name": {
-    "zh": "Let’s Go 合法追收欠款（你的收數專家）"
+    "zh": "力高企業管理有限公司",
+    "en": "Let's Go Business & Management Limited"
   },
   "webpages": [
     {
@@ -23,10 +24,44 @@
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/LetsGoBusinessManagement/posts/2220841034638166"
+      "url": "https://www.facebook.com/LetsGoBusinessManagement/posts/2220841034638166",
+      "summary": {
+        "zh": "\"香港人加油💪\""
+      },
+      "meta": {
+        "sharedWith": "Public",
+        "embeddable": false
+      }
+    },
+    {
+      "url": "https://www.facebook.com/LetsGoBusinessManagement/posts/2377068962348705",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/LetsGoBusinessManagement/posts/2384434201612181",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍荔枝角瓊林街82號陸佰中心7樓E室"
+      },
+      "googleMapsPlaceId": "ChIJ909Ft1UHBDQRi4DRwBJbnns",
+      "coordinates": {
+        "lat": 22.3391351,
+        "lng": 114.1474661
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
