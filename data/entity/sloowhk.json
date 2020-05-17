@@ -5,18 +5,26 @@
   },
   "webpages": [
     {
-      "url": "https://www.sloow.store"
+      "url": "https://sloow.store"
     },
     {
       "meta": {
+        "name": "Sloow_socks",
         "id": "473596903410625",
-        "about": "〰 放慢腳步，讓我們陪你行 〰\n| 香港選襪店 , 特色襪 |\n🧦Show Room：火炭華樂工業大廈F座7樓48室\n開放時間：星期一至五 12:00-20:00（14:00lunch time)",
+        "about": "� 放慢腳步，讓我們陪你行 �\n| 香港選襪店 , 特色襪 | \n�Show Room：火炭華樂工業大廈F座7樓48室\nShowroom 暫停開放",
         "categories": [
-          "Shopping & retail"
+          "Shopping & Retail"
         ],
         "email": "sloowhk@gmail.com"
       },
       "url": "https://www.facebook.com/sloowhk/"
+    },
+    {
+      "url": "https://www.instagram.com/sloow_socks/",
+      "meta": {
+        "name": "Sloow",
+        "about": "〰️ 放慢腳步，讓我們陪你行 〰️\n🧦ShowRoom：火炭華樂工業大廈F座7樓48室\n（暫停開放，直至另行通知）\n下單請到網頁👇🏻"
+      }
     }
   ],
   "posts": [
@@ -29,5 +37,20 @@
   ],
   "tags": [
     "clothing"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "火炭華樂工業大廈F座7樓48室"
+      },
+      "googleMapsPlaceId": "ChIJS2uQ1TQGBDQR1pnA-QueVEY",
+      "coordinates": {
+        "lat": 22.397612,
+        "lng": 114.191732
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
   ]
 }
