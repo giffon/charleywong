@@ -1,0 +1,66 @@
+{
+  "id": "thefullish",
+  "name": {
+    "en": "The fullish"
+  },
+  "webpages": [
+    {
+      "url": "https://the-fullish.com",
+      "hidden": true
+    },
+    {
+      "url": "https://www.facebook.com/thefullish/",
+      "meta": {
+        "name": "The fullish",
+        "id": "106931927399399",
+        "about": "手作教學多用途租用空間",
+        "categories": [
+          "Grocery Store",
+          "Community"
+        ],
+        "addr": "荔枝角青山道588-592號 永盛工業大廈11樓6室",
+        "area": "Hong Kong",
+        "email": "info@the-fullish.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/thefullish/",
+      "meta": {
+        "name": "朔望｜共享空間×社群",
+        "about": "「圓滿自己的過程。」\n位於荔枝角，提供教學空間租用、寄賣等服務。\n👇🏻寄賣申請表👇🏻"
+      }
+    },
+    {
+      "url": "https://forms.gle/fZkuhk6Sqd23KHJH9"
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/thefullish/posts/186550179437573",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荔枝角青山道588-592號 永盛工業大廈11樓6室"
+      },
+      "googleMapsPlaceId": "ChIJ0Y4DDFQHBDQRRhL5weDz5RE",
+      "coordinates": {
+        "lat": 22.3389726,
+        "lng": 114.1494626
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    "Y_SHOP02338"
+  ]
+}
