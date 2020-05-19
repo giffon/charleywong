@@ -10,7 +10,8 @@
     },
     {
       "meta": {
-        "about": "認真研究 淺入深出\nWeb page: https://liber-research.com\nTg: https://t.me/liberinfo"
+        "name": "本土研究社",
+        "about": "認真研究 淺入深出\nWeb page: https://liber-research.com\nFacebok: 本土研究社 Liber Research Community\nTg: https://t.me/liberinfo"
       },
       "url": "https://www.instagram.com/liberresearch/"
     },
@@ -53,5 +54,20 @@
   ],
   "tags": [
     "organization"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "2/F, Foo Tak Building, 365 Hennessy Road, Wan Chai"
+      },
+      "googleMapsPlaceId": "ChIJV0NNBloABDQRfAMD8BJE9TA",
+      "coordinates": {
+        "lat": 22.2789495,
+        "lng": 114.1793967
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
