@@ -233,6 +233,12 @@ class EntityView extends View {
             jsx('
                 <script async=${true} src="https://telegram.org/js/telegram-widget.js?8" data-telegram-post=${post} data-width="100%"></script>
             ');
+        } else if (
+            p.url.startsWith("https://twitter.com/")
+        ) {
+            jsx('
+                <blockquote className="twitter-tweet"><a href=${p.url}>${prettyUrl(p.url)}</a></blockquote>
+            ');
         } else {
             jsx('
                 <div className="post-link">
