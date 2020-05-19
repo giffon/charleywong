@@ -616,8 +616,9 @@ class ServerMain {
 
     static function geocode(entity:Entity):Void {
         var gmapsClient = new js.npm.googlemaps.Client();
-        var GEOCODING_KEY = Sys.getEnv("GEOCODING_KEY");
-        if (GEOCODING_KEY != null && entity.places != null) {
+        var file = "GEOCODING_KEY";
+        if (entity.places != null && FileSystem.exists(file)) {
+            var GEOCODING_KEY = File.getContent("GEOCODING_KEY").trim();
             var geocodings = [
                 for (p in entity.places)
                 if (p.googleMapsPlaceId != null && p.googleMapsPlaceId != "" && (p.coordinates == null || p.area == null))

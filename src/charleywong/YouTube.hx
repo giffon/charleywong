@@ -21,7 +21,7 @@ extern class YouTubeService implements Dynamic {
 }
 
 class YouTube {
-    static final YOUTUBE_KEY = Sys.getEnv("YOUTUBE_KEY");
+    static final YOUTUBE_KEY = File.getContent("YOUTUBE_KEY");
     static final TOKEN_PATH = "YT_TOKEN.json";
     static final CLIENT_SECRET_PATH = "client_secret_731590974984-8onqmrnn1iqckt5vufe9siohspm83gae.apps.googleusercontent.com.json";
     static final SCOPES = ['https://www.googleapis.com/auth/youtube.readonly'];
