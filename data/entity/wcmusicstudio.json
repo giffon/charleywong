@@ -6,11 +6,12 @@
   "webpages": [
     {
       "meta": {
+        "name": "Wing Cheng Music Studio",
         "id": "612437342539665",
         "about": "主力提供音樂製作服務，包括作曲，編曲，錄音，混音及後期製作。\n另外，中心亦有一對一及小班音樂課程，如木結他、流行鋼琴、流行歌唱及樂理等等。\n查詢課程、音樂製作服務請Inbox",
         "categories": [
-          "Music school",
-          "Music production studio"
+          "Music Production Studio",
+          "Music Lessons & Instruction School"
         ],
         "addr": "旺角山東街遠景大廈3樓H2室",
         "area": "Kowloon, Hong Kong",
@@ -18,6 +19,13 @@
         "tel": "98364244"
       },
       "url": "https://www.facebook.com/wcmusicstudio/"
+    },
+    {
+      "url": "https://www.instagram.com/wcmusicstudio/",
+      "meta": {
+        "name": "Wing Cheng Music Studio",
+        "about": "🔹Vocal Dubbing 人聲錄音\n🔹Instrument Recording 樂器錄音\n🔹Recording & Mixing 錄音混音\n🔹Mastering 母帶處理\n🔹Class 音樂課程\n☎️+852 98364244\n📩 wcmusicstudio@gmail.com\n👇報名／查詢👇"
+      }
     }
   ],
   "posts": [
@@ -31,5 +39,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02258"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角山東街遠景大廈3樓H2室"
+      },
+      "googleMapsPlaceId": "ChIJW0a2iTUBBDQR-Hh_AVEDUiU",
+      "coordinates": {
+        "lat": 22.3177669,
+        "lng": 114.1705861
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
