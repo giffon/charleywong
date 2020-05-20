@@ -15,7 +15,7 @@
         "id": "165778216806771",
         "about": "麥客居 Mactivity 成立於 2005 年底，是由蘋果迷自設的蘋果產品軟硬件服務中心，提供各項蘋果產品的培訓、諮詢、支援、買賣、租用、升級、數據復修及各類軟硬件維修服務。",
         "categories": [
-          "Hardware Store"
+          "Local Business"
         ],
         "addr": "觀塘鯉魚門道 2 號 新城工商中心 13 樓 1304 室",
         "area": "Kwun Tong",
@@ -44,5 +44,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00040"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘鯉魚門道 2 號 新城工商中心 13 樓 1304 室"
+      },
+      "googleMapsPlaceId": "ChIJVVUVmFoBBDQRewkjj7SymPc",
+      "coordinates": {
+        "lat": 22.3101991,
+        "lng": 114.2287405
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

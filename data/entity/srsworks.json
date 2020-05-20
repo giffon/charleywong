@@ -9,16 +9,27 @@
     },
     {
       "meta": {
+        "name": "SRSWorks",
         "id": "117138478306086",
         "about": "SRSWorks - Premium IT accessories/gadget dealer in Hong Kong.",
         "categories": [
-          "Product/service",
-          "Mobile phone shop"
+          "Product/Service",
+          "Mobile Phone Shop"
         ],
         "email": "cs@srsworks.com",
         "tel": "52697913"
       },
       "url": "https://www.facebook.com/srsworks/"
+    },
+    {
+      "url": "https://www.instagram.com/srsworkshk/",
+      "meta": {
+        "name": "SRSWorks",
+        "about": "We like to play, show and share innovative products."
+      }
+    },
+    {
+      "url": "https://t.me/srsworkscs"
     }
   ],
   "posts": [
@@ -33,5 +44,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00188"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍觀塘開源道55號開聯工業大廈A座4樓21室"
+      },
+      "googleMapsPlaceId": "ChIJpaqqnUUBBDQRMz1fpTkVcYY",
+      "coordinates": {
+        "lat": 22.310686,
+        "lng": 114.224004
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
