@@ -5,21 +5,29 @@
   },
   "webpages": [
     {
-      "url": "http://www.idealshop.com.hk"
+      "url": "https://www.idealshop.hk"
     },
     {
       "meta": {
+        "name": "iDeal Shop hk",
         "id": "172336616117947",
         "about": "iDeal Shop－手機及Macbook配件專門店,出售各款手機配件:手機殼/外置充電/充電線/螢幕保護貼等等。還出售Macbook配件:保護殼/鍵盤模/保護袋等! 另外新增熱門玩意-Dartslive2電子飛鏢機,歡迎預約試玩!",
         "categories": [
-          "Electronics shop"
+          "Electronics Store"
         ],
         "addr": "九龍旺角西洋菜南街百寶利商業中心21樓2111室",
-        "area": "Mong Kok",
+        "area": "852 Mong Kok",
         "email": "info@idealshop.com.hk",
         "tel": "27282826"
       },
       "url": "https://www.facebook.com/idealshop.hk/"
+    },
+    {
+      "url": "https://www.instagram.com/idealshophk/",
+      "meta": {
+        "name": "iDeal Shop",
+        "about": "📢門市現貨發售 2011年開業至今 信心保證\n查詢AirPods殼：#idealshophk_airpods\n-\n🕐營業時間：星期一至日 1:00pm-8:30pm\n-\n歡迎到網站訂購🔍：www.idealshop.com.hk\n-\n提供香港及澳門戶口入數\n👇🏻按下面連結WhatsApp聯絡我們"
+      }
     }
   ],
   "posts": [
@@ -34,5 +42,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00274"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍旺角西洋菜南街百寶利商業中心21樓2111室"
+      },
+      "googleMapsPlaceId": "ChIJEZbS80gBBDQRVvn-DrO5eTc",
+      "coordinates": {
+        "lat": 22.3163451,
+        "lng": 114.1704555
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
