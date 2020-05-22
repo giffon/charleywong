@@ -111,31 +111,33 @@ class YellowBlueMap {
             case null:
                 throw 'Missing sheet ${YellowEat}';
             case sheet:
-                sheet.getRows().then(rows -> [
-                    for (row in rows)
-                    if (goodStatus(row, "Map Status (Marked/Removed/Changed colour)"))
-                    {
-                        id: strCol(row, "ID"),
-                        name: strCol(row, "店名"),
+                sheet.loadCells().then(_ ->
+                    sheet.getRows().then(rows -> [
+                        for (row in rows)
+                        if (goodStatus(row, "Map Status (Marked/Removed/Changed colour)"))
+                        {
+                            id: StringTools.trim(sheet.getCellByA1('A${row.rowNumber}').value), // someone cleared the header cell...
+                            name: strCol(row, "店名"),
 
-                        website: strCol(row, "網址"),
-                        facebook: strCol(row, "Facebook"),
-                        instagram: strCol(row, "Instagram"),
-                        openrice: strCol(row, "Openrice"),
+                            website: strCol(row, "網址"),
+                            facebook: strCol(row, "Facebook"),
+                            instagram: strCol(row, "Instagram"),
+                            openrice: strCol(row, "Openrice"),
 
-                        color: Yellow,
-                        category: strCol(row, "類別"),
-                        subcategory: null,
+                            color: Yellow,
+                            category: strCol(row, "類別"),
+                            subcategory: null,
 
-                        area: strCol(row, "分區"),
-                        lat: floatCol(row, "Lat"),
-                        lng: floatCol(row, "Lng"),
-                        address: strCol(row, "地址"),
+                            area: strCol(row, "分區"),
+                            lat: floatCol(row, "Lat"),
+                            lng: floatCol(row, "Lng"),
+                            address: strCol(row, "地址"),
 
-                        reason: strCol(row, "原因"),
-                        source: strCol(row, "Source"),
-                    }
-                ]);
+                            reason: strCol(row, "原因"),
+                            source: strCol(row, "Source"),
+                        }
+                    ])
+                );
         }
         var yShop = switch (doc.sheetsByIndex.find(s -> s.title == YellowShop)) {
             case null:
