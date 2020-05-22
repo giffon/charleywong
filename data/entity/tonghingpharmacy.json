@@ -6,14 +6,14 @@
   "webpages": [
     {
       "meta": {
+        "name": "東興大藥房",
         "id": "103493494512440",
         "about": "社區藥房",
         "categories": [
-          "Pharmacy/chemists",
-          "Product/service"
+          "Medical Supply Store"
         ],
         "addr": "筲箕灣愛禮街2號愛蝶灣商場55號舖",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "tonghingpharmacy@gmail.com",
         "tel": "25672388"
       },
@@ -32,6 +32,22 @@
     }
   ],
   "tags": [
-    "pharmacy"
+    "pharmacy",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "筲箕灣愛禮街2號愛蝶灣商場55號舖"
+      },
+      "googleMapsPlaceId": "ChIJUYGRuHkBBDQRExWmvg1u2EU",
+      "coordinates": {
+        "lat": 22.2800197,
+        "lng": 114.2284577
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
   ]
 }

@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://prestige.boutir.com"
+    },
+    {
       "meta": {
         "name": "明尚社區藥房",
         "id": "108340390530072",
@@ -13,7 +16,7 @@
           "Pharmacy / Drugstore"
         ],
         "addr": "荔枝角海麗邨海麗商場 21 號地下",
-        "area": "Hong Kong",
+        "area": "+852 Hong Kong",
         "email": "contact.us@medizigroup.com",
         "tel": "34682173"
       },
@@ -24,7 +27,8 @@
         "name": "明尚社區藥房",
         "about": "明尚社區藥房藥劑師多服務於不同的連鎖藥房、獨立藥房及一些非牟利機構的藥房。在基層醫療的層面上，社區藥劑師擔當著一個重要的角色，他們為市民提供快捷、便利的專業藥療服務，教導病人用藥的知識，避免因誤用藥物而令身體出現副作用或延誤治療等問題。"
       },
-      "url": "https://www.instagram.com/prestige_community/"
+      "url": "https://www.instagram.com/prestige_community/",
+      "hidden": true
     }
   ],
   "posts": [
@@ -39,9 +43,25 @@
     }
   ],
   "tags": [
-    "pharmacy"
+    "pharmacy",
+    "shop"
   ],
   "alias": [
     "108340390530072"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荔枝角海麗邨海麗商場 21 號地下"
+      },
+      "googleMapsPlaceId": "ChIJJZ0DYq0BBDQRczyfwvUbNls",
+      "coordinates": {
+        "lat": 22.3325441,
+        "lng": 114.1468151
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

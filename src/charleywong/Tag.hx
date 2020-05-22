@@ -461,8 +461,7 @@ class Tag {
             zh: "藥房",
         },
         inherits: [
-            "medical",
-            "shop"
+            "medical"
         ]
     }
 

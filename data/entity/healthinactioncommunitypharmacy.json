@@ -6,17 +6,18 @@
   },
   "webpages": [
     {
-      "url": "http://www.hiarx.org.hk"
+      "url": "https://hiarx.org.hk"
     },
     {
       "meta": {
+        "name": "醫護行社區藥房 Health In Action Community Pharmacy",
         "id": "102937347713625",
         "about": "醫護行社區藥房是一所由註冊藥劑師主理的非牟利藥房, 提供配藥服務與藥物諮詢。我們亦會定期進行藥物講座及社區健康教育工作，協助市民善用藥物和提高健康自主及自我管理疾病的能力。",
         "categories": [
-          "Non-governmental organisation (NGO)"
+          "Non-Governmental Organization (NGO)"
         ],
         "addr": "Portion of room 901, Milennium Trade Centre, 54-56 Kwai Cheong Road, Kwai Chung, N.T.",
-        "area": "Hong Kong",
+        "area": "100061 Hong Kong",
         "email": "hia@hia.org.hk",
         "tel": "36129515"
       },
@@ -35,9 +36,25 @@
     }
   ],
   "tags": [
-    "pharmacy"
+    "pharmacy",
+    "shop"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02039"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Portion of room 901, Milennium Trade Centre, 54-56 Kwai Cheong Road, Kwai Chung, N.T."
+      },
+      "googleMapsPlaceId": "ChIJtUcA9NX5AzQRJxX69BUKiHk",
+      "coordinates": {
+        "lat": 22.3634404,
+        "lng": 114.1325556
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
