@@ -5,16 +5,21 @@
   },
   "webpages": [
     {
-      "url": "https://www.instagram.com/everythings.hk/"
+      "url": "https://www.instagram.com/everythings.hk/",
+      "meta": {
+        "name": "꧁༒☬Everything's☬༒꧂",
+        "about": "民族 | 旅遊 | 家品 | 咖啡 | everything\n🌍 Worldwide shipping\n🏠銅鑼灣謝斐道520號渣菲大廈1樓 (入口在景隆街小巴站對面，兌換店旁)\n🕰Mon~Sun 2:00~11:00pm\n📞98074109"
+      }
     },
     {
       "meta": {
+        "name": "Everything's",
         "id": "235025277196988",
         "about": "民族 | 旅遊 | 家品 | 咖啡室 | everything",
         "categories": [
-          "Shopping & retail",
-          "Coffee shop",
-          "Ethnic Food Shop"
+          "Shopping & Retail",
+          "Coffee Shop",
+          "Ethnic Grocery Store"
         ],
         "addr": "1/Floor, Jaffe Building, 520 Jaffe Road, Causeway Bay",
         "area": "Hong Kong",
@@ -38,5 +43,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01505"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "1/Floor, Jaffe Building, 520 Jaffe Road, Causeway Bay"
+      },
+      "googleMapsPlaceId": "ChIJ9cSnNocBBDQR176bw8ksQ_w",
+      "coordinates": {
+        "lat": 22.2809234,
+        "lng": 114.1838501
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }

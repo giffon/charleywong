@@ -6,15 +6,14 @@
   "webpages": [
     {
       "meta": {
+        "name": "foreforehead",
         "id": "425267371229668",
         "about": "深水埗基隆街132B閣樓（店面在黃竹街上）\n=太子地鐵站D出口步行5分鐘=\na weird but cute space\n-artspace藝術空間\n-selectshop選物店",
         "categories": [
-          "Arts and crafts shop",
           "Art",
-          "Gift shop"
+          "Arts & Crafts Store",
+          "Gift Shop"
         ],
-        "addr": "深水埗基隆街132B閣樓",
-        "area": "Sham Shui Po",
         "email": "foreforehead@gmail.com",
         "tel": "91727911"
       },
@@ -22,7 +21,8 @@
     },
     {
       "meta": {
-        "about": "a weird but cute space\n| 藝術展覽 | 生活小物 | 家品雜貨 |\n📍深水埗基隆街132B閣樓\n💛店面在黃竹街上💛\n⭕️Wed to Sun 1-730pm"
+        "name": "foreforehead",
+        "about": "a weird but cute space\n| 藝術展覽 | 生活小物 | 家品雜貨 |\n⭕️Wed to Sun 1-730pm\n📍深水埗基隆街132B閣樓\n💛太子站D出口/ 店面在黃竹街上💛"
       },
       "url": "https://www.instagram.com/foreforehead_hi/"
     }
@@ -37,5 +37,20 @@
   ],
   "tags": [
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗基隆街132B閣樓"
+      },
+      "googleMapsPlaceId": "ChIJGzgfLrQABDQR7y3mLewL56w",
+      "coordinates": {
+        "lat": 22.3272426,
+        "lng": 114.164285
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
