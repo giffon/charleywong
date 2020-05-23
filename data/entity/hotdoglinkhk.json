@@ -1,0 +1,94 @@
+{
+  "id": "hotdoglinkhk",
+  "name": {
+    "en": "Hot Dog Link",
+    "zh": "德國熱狗"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/hotdoglinkhk/",
+      "meta": {
+        "name": "Hot Dog Link (德國熱狗)",
+        "id": "123125477749396",
+        "about": "German hot dog shop in hongkong fastfood style.",
+        "categories": [
+          "Hot Dog Joint",
+          "Fast Food Restaurant"
+        ],
+        "addr": "何文田窩打老道67D號C鋪",
+        "area": "Hong Kong",
+        "email": "hotdoglink1993@gmail.com",
+        "tel": "26244002"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/hotdoglink/",
+      "meta": {
+        "name": "HOT DOG LINK 德國熱狗",
+        "about": "德國熱狗\nHotdoglink\nSince 1993\nShop C, 67D Waterloo road, Ho man tin, Kowloon\nTel:26244002\nG/F 18 Ashley road , Tsim sha tsui, Kowloon, Hong kong\n67147780"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/hotdoglinkhk/posts/2349809825080939",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hotdoglinkhk/posts/2521561864572400:0",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hotdoglinkhk/posts/2780752795319971",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hotdoglinkhk/posts/2927257190669530",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food",
+    "burger"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "何文田窩打老道67D號C鋪"
+      },
+      "googleMapsPlaceId": "ChIJl7OB68UABDQRloeaYQDKFwQ",
+      "coordinates": {
+        "lat": 22.3182263,
+        "lng": 114.1749264
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀亞士厘道十八號地下"
+      },
+      "googleMapsPlaceId": "EiYxOCBBc2hsZXkgUmQsIFRzaW0gU2hhIFRzdWksIEhvbmcgS29uZyIwEi4KFAoSCSWju4fyAAQ0EZvCi8vSr3pdEBIqFAoSCdOKjInyAAQ0Eazvu1xmn6dE",
+      "coordinates": {
+        "lat": 22.2971447,
+        "lng": 114.1706856
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    "Y_EAT00860",
+    "Y_EAT01872"
+  ]
+}
