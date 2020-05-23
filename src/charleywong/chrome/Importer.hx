@@ -149,7 +149,14 @@ class Importer {
                     });
                 } else {
                     var postNode = document.querySelector('a[href*="${href}"]').closest("div[role='article']");
-                    var sharedWith = postNode.querySelector("img[width='12'][alt]").getAttribute("alt");
+                    var sharedWith = [
+                        for (img in postNode.querySelectorAll("img[width='12'][alt]"))
+                            (cast img:ImageElement)
+                    ].find(img -> switch (img.alt) {
+                        case "Public": true;
+                        case "Custom": true;
+                        case _: false;
+                    }).alt;
                     postToServer({
                         url: url,
                         sharedWith: sharedWith,
