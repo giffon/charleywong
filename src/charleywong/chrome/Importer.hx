@@ -44,41 +44,47 @@ class Importer {
     }
 
     static function importYtProfile() {
-        var profile = getYtProfile();
-        postToServer(profile);
+        getYtProfile().then(postToServer);
     }
 
-    static function getYtProfile():YouTubeProfile {
-        switch (extractYtAboutPage(document.location)) {
+    static function getYtProfile():Promise<YouTubeProfile> {
+        return switch (extractYtAboutPage(document.location)) {
             case null:
                 throw '只可以在 about page 輸入 YouTube Channel';
             case Handle(handle):
-                var canonical = ytCanonical();
-                return {
+                ytCanonical().then(canonical -> {
                     url: canonical,
                     id: canonical.split("/").pop(),
                     name: ytName(),
                     description: ytDescription(),
                     location: ytLocation(),
                     links: ytLinks(),
-                };
+                });
             case Id(id):
-                return {
+                Promise.resolve({
                     url: 'https://www.youtube.com/channel/$id',
                     id: id,
                     name: ytName(),
                     description: ytDescription(),
                     location: ytLocation(),
                     links: ytLinks(),
-                };
+                });
         }
     }
 
-    static function ytCanonical() {
-        return switch (document.querySelector("link[rel='canonical']")) {
-            case null: null;
-            case link: link.getAttribute("href");
-        }
+    static function ytCanonical():Promise<String> {
+        return window.fetch(Std.string(window.location), {
+            cache: FORCE_CACHE,
+        })
+            .then(r -> r.text())
+            .then(text -> {
+                var p = new DOMParser();
+                var doc = p.parseFromString(text, TEXT_HTML);
+                switch (doc.querySelector("link[rel='canonical']")) {
+                    case null: null;
+                    case link: link.getAttribute("href");
+                }
+            });
     }
 
     static function ytName() {
