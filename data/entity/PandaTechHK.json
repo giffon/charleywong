@@ -6,14 +6,18 @@
   },
   "webpages": [
     {
+      "url": "http://panda.computer",
+      "hidden": true
+    },
+    {
       "meta": {
         "name": "PandaTechnology",
         "id": "1556662797962750",
         "about": "PandaTechnology is a shop locate at Sham Shui Po, we build PC for home use, office use and professional gaming over 5 years.\n熊貓電腦在深水埗高登開業超過五年, 以零售電腦零件周邊和組裝家用,商用及電競的電腦為主",
         "categories": [
           "Computers (Brand)",
-          "Computer Repair Service",
-          "Computer Company"
+          "Computer Company",
+          "Computer Repair Service"
         ],
         "addr": "深水埗福華街146-152號高登電腦商場1樓1號鋪",
         "area": "Hong Kong",
@@ -21,6 +25,13 @@
         "tel": "97301820"
       },
       "url": "https://www.facebook.com/PandaTechHK/"
+    },
+    {
+      "url": "https://www.instagram.com/panda_gaming_pc/",
+      "meta": {
+        "name": "PandaTech 熊貓電腦科技",
+        "about": "熊貓電腦PandaTech 係一間為於深水埗高登嘅一間DIY砌機鋪頭￼，無論你需要一部簡單嘅文書處理、上網做功課、多媒體影音、執相剪片、甚至以電競為主嘅gaming PC￼都係我哋嘅產品同服務範圍。\n另外我哋都有提供比較專業嘅服務例如硬盤資料修復，電腦維修，公司電腦，網路鋪設及管理等。￼"
+      }
     }
   ],
   "posts": [
@@ -29,7 +40,8 @@
     }
   ],
   "tags": [
-    "computer"
+    "computer",
+    "shop"
   ],
   "places": [
     {
