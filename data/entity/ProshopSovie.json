@@ -1,7 +1,7 @@
 {
   "id": "ProshopSovie",
   "name": {
-    "en": "Proshop SOVIE SIM",
+    "en": "Proshop SOVIE",
     "zh": "蘇菲"
   },
   "webpages": [
@@ -11,14 +11,18 @@
     {
       "url": "https://www.facebook.com/ProshopSovie/",
       "meta": {
-        "name": "Proshop SOVIE SIM 蘇菲",
+        "name": "Proshop SOVIE 蘇菲",
         "id": "876684179021215",
         "about": "日本生活百貨及外遊數據咭專門店\n全線日本生活百貨均由日本製造並從日本原裝進口，現貨發售無需訂購等候！另外本店提供外遊數據咭線上售後服務，信心保證！",
         "categories": [
-          "Retail Company"
+          "Beauty, Cosmetic & Personal Care",
+          "Household Supplies",
+          "Internet Service Provider"
         ],
+        "addr": "荔枝角青山道501-503號國際工業中心2樓B座09室",
+        "area": "00000 Hong Kong",
         "email": "proshopsovie@gmail.com",
-        "tel": "67333693"
+        "tel": "91080989"
       }
     },
     {
@@ -63,9 +67,25 @@
   ],
   "tags": [
     "phone",
+    "skincare",
     "shop"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01167"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荔枝角青山道501-503號國際工業中心2樓B座09室"
+      },
+      "googleMapsPlaceId": "ChIJx_59cJwHBDQRifVIeG7bNHk",
+      "coordinates": {
+        "lat": 22.3372615,
+        "lng": 114.145699
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
