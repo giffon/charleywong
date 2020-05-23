@@ -13,15 +13,22 @@
       "meta": {
         "name": "火之訊專業維修專門店 爆mon 手機維修 Flame Telecom",
         "id": "360819464370667",
-        "about": "服務範圍廣,包括:手機各類型維修、加熱煙維修、手機周邊配套等,使用原裝零件、液晶屏。致力將完善服務帶比不同客人。\n駐店師傅擁有十多年電子維修經驗,更係香港首位加熱煙維修師傅。",
+        "about": "服務範圍廣,包括:手機各類型維修、加熱煙維修、手機周邊配套等,使用原裝零件、液晶屏。致力將完善服務帶比不同客人。\n 駐店師傅擁有十多年電子維修經驗,更係香港首位加熱煙維修師傅。",
         "categories": [
           "Mobile Phone Shop",
           "Telecommunication Company",
           "Local Service"
         ],
         "addr": "九龍旺角西洋菜南街1N號兆萬中心一樓125舖",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "tel": "66216979"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/flametelecom/",
+      "meta": {
+        "name": "火之訊專業維修專門店",
+        "about": "駐店師傅擁有十多年電子維修經驗，更係香港首位加熱煙維修師傅，實力專業。\n開業之今，社交平台一致真 好評。\n旺角總店：旺角兆萬中心一樓125舖\n營業時間：12pm-10pm\n銅鑼灣分店：銅鑼灣地帶一樓150舖\n營業時間：12pm-9pm\n聯絡電話：66216979"
       }
     }
   ],
@@ -41,5 +48,33 @@
   "yellowBlueMapIds": [
     "Y_SHOP00591",
     "Y_SHOP00592"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍旺角西洋菜南街1N號兆萬中心一樓125舖"
+      },
+      "googleMapsPlaceId": "ChIJ__8jIMcABDQRrw7d6Fl8zQw",
+      "coordinates": {
+        "lat": 22.3157847,
+        "lng": 114.1705723
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣地帶一樓150鋪"
+      },
+      "googleMapsPlaceId": "ChIJL3n6PXMBBDQR0Y1ObQs9msg",
+      "coordinates": {
+        "lat": 22.2802073,
+        "lng": 114.1852626
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
