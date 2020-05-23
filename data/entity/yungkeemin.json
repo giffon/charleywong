@@ -1,28 +1,57 @@
 {
   "id": "yungkeemin",
   "name": {
-    "zh": "榕記車仔麵",
+    "zh": "榕記",
     "en": "Yung Kee"
   },
   "webpages": [
     {
-      "url": "http://weibo.com/yungkeenoodle"
-    },
-    {
       "meta": {
+        "name": "榕記車仔麵 Yung Kee",
         "id": "599232710134146",
         "about": "榕記車仔麵\n觀塘港貿中心201室\nInstagram : yungkeenoodle\nOpening Hours : 11:00 a.m. - 4:00 p.m.",
         "categories": [
-          "Cantonese restaurant",
-          "Bunsik restaurant",
-          "Barbecue restaurant"
+          "Cantonese Restaurant",
+          "Bunsik Restaurant",
+          "Barbecue Restaurant"
         ],
         "addr": "Room 201,Entrepot Centre, Kwun Tong",
         "area": "Kowloon, Hong Kong",
-        "email": "yungkeenoodles@gmail.com",
         "tel": "68885831"
       },
       "url": "https://www.facebook.com/yungkeemin/"
+    },
+    {
+      "url": "https://www.facebook.com/108509963887843/",
+      "meta": {
+        "name": "榕易燒",
+        "id": "108509963887843",
+        "categories": [
+          "Product/Service"
+        ]
+      }
+    },
+    {
+      "url": "https://www.facebook.com/LuckyGrapLimited/",
+      "meta": {
+        "name": "榕易。樂堂",
+        "id": "104359891089492",
+        "about": "首創港式膽拖糖水；港式糖水飲品；招牌魯肉飯。",
+        "categories": [
+          "Restaurant"
+        ],
+        "addr": "Shop 8, G/F, Soda Mall, 23 Sung On Street, Hung Hom, KLN",
+        "area": "0000 Hong Kong",
+        "email": "luckydessert888@gmail.com",
+        "tel": "51135455"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/yungkeenoodle/",
+      "meta": {
+        "name": "榕記車仔麵",
+        "about": "地址：\n（榕記車仔麵）寶琳新都城三期地下G21\n電話：23889939\n（榕記潮麵）觀塘巧明街117號港貿中心2樓201室\nWhatsapp：68885831\n（榕易燒）九龍城打鼓嶺道80號\n電話：31481489\n（榕易•樂堂）土瓜灣崇安街Soda Mall內美食廣場"
+      }
     }
   ],
   "posts": [
@@ -43,5 +72,59 @@
     "Y_EAT00178",
     "Y_EAT01095",
     "Y_EAT01096"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "榕記車仔麵 寶琳新都城三期地下G21"
+      },
+      "googleMapsPlaceId": "ChIJFRsi_AsEBDQRblE4gLFCByE",
+      "coordinates": {
+        "lat": 22.322677,
+        "lng": 114.2571567
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "榕記潮麵 觀塘巧明街117號港貿中心2樓201室"
+      },
+      "googleMapsPlaceId": "ChIJeeDifUUBBDQRtv-uxaxrJg0",
+      "coordinates": {
+        "lat": 22.3116363,
+        "lng": 114.2245537
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "榕易燒 九龍城打鼓嶺道80號"
+      },
+      "googleMapsPlaceId": "ChIJnSyHftUGBDQRdv-PTvTDLMI",
+      "coordinates": {
+        "lat": 22.330284,
+        "lng": 114.191691
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    },
+    {
+      "address": {
+        "zh": "榕易•樂堂 土瓜灣崇安街Soda Mall內美食廣場"
+      },
+      "googleMapsPlaceId": "ChIJu8Ur0TYBBDQRWt5nkaK13Zg",
+      "coordinates": {
+        "lat": 22.3129662,
+        "lng": 114.1894343
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
   ]
 }
