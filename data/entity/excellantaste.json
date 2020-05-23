@@ -9,7 +9,7 @@
       "url": "https://www.etaste.com.hk"
     },
     {
-      "url": "https://www.facebook.com/excellantaste/",
+      "url": "https://www.facebook.com/excellentastehk/",
       "meta": {
         "name": "良糧 ExcellenTaste",
         "id": "118887612830343",
@@ -23,32 +23,55 @@
         "area": "Kowloon, Hong Kong",
         "tel": "26711498"
       }
+    },
+    {
+      "url": "https://www.instagram.com/excellentastehk/",
+      "meta": {
+        "name": "良糧 網上健康食材超市",
+        "about": "良糧以健康為本配合\n專業註冊護士及營養師團隊\n透過先天DNA分析學技術，為你度身訂造專屬膳食管理方案。\n歡迎客人上載我哋食材嘅作品🥘🥗並在文中加上 #excellentastehk @excellentastehk\n同香港人分享更多煮食新意🇭🇰"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/excellantaste/posts/157600462292391:0",
+      "url": "https://www.facebook.com/excellantastehk/posts/157600462292391:0",
       "meta": {
         "sharedWith": "Public"
       }
     },
     {
-      "url": "https://www.facebook.com/excellantaste/posts/157607952291642",
+      "url": "https://www.facebook.com/excellantastehk/posts/157607952291642",
       "meta": {
         "sharedWith": "Public"
       }
     },
     {
-      "url": "https://www.facebook.com/excellantaste/posts/182761476442956:0",
+      "url": "https://www.facebook.com/excellantastehk/posts/182761476442956:0",
       "meta": {
         "sharedWith": "Public"
       }
     }
   ],
   "tags": [
-    "food"
+    "foodStore",
+    "shop"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02164"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘興業街12號永泰中心7樓A"
+      },
+      "googleMapsPlaceId": "ChIJT_MGgNoBBDQR_lx-2PlLtuI",
+      "coordinates": {
+        "lat": 22.3092975,
+        "lng": 114.2247932
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
