@@ -1,18 +1,24 @@
 {
   "id": "sayheybakery",
   "name": {
-    "zh": "四喜麵包西餅"
+    "zh": "四喜麵包西餅",
+    "en": "Say Hey Bakery"
   },
   "webpages": [
     {
-      "url": "https://www.instagram.com/sayhey4cake/"
+      "url": "https://www.instagram.com/sayhey4cake/",
+      "meta": {
+        "name": "【四喜麵包西餅】Say Hey Bakery",
+        "about": "四喜麵包西餅\n🌏荔枝角門市營業時間：星期一至六0630-1900"
+      }
     },
     {
       "meta": {
+        "name": "四喜麵包西餅",
         "id": "617982941575321",
         "about": "長沙灣青山道500號百美工業大廈地下B6-8號鋪（荔枝角B1出口）\n星期一至六：06:30 - 19:00\n星期日：休息",
         "categories": [
-          "Local business"
+          "Local Business"
         ],
         "email": "say.hey.bakery@gmail.com",
         "tel": "39570883"
@@ -29,11 +35,27 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "shop"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00148",
     "Y_EAT00232",
     "Y_EAT00233"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "長沙灣青山道500號百美工業大廈地下B6-8號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ8V7sYlEHBDQRSUv_0-GxYiw",
+      "coordinates": {
+        "lat": 22.3397637,
+        "lng": 114.1519873
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
