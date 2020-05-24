@@ -11,10 +11,11 @@
         "id": "245424345666239",
         "about": "《龍川上海料理》\n擔擔麵 · 小籠包專賣店\n\n新界葵涌光輝圍21號昌發大廈地下5號鋪\u0003\n營業時間：早上11：00至晚上10：00\n電話：3488 0083",
         "categories": [
+          "Dim Sum Restaurant",
           "Shanghainese Restaurant"
         ],
         "addr": "葵涌光輝圍21號昌發大廈地下5號舖",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "tel": "34880083"
       },
       "url": "https://www.facebook.com/245424345666239/"
@@ -43,5 +44,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00322"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵涌光輝圍21號昌發大廈地下5號舖"
+      },
+      "googleMapsPlaceId": "ChIJ9xZ9fZr4AzQRHpT6ViYz_0M",
+      "coordinates": {
+        "lat": 22.3678239,
+        "lng": 114.1326419
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }

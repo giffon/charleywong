@@ -16,7 +16,7 @@
           "Kitchen/Cooking"
         ],
         "addr": "鳥松區龍華南街66號",
-        "area": "Kaohsiung, Taiwan"
+        "area": "Kaohsiung, Taiwan 833"
       }
     },
     {
@@ -46,5 +46,20 @@
   "tags": [
     "food",
     "taiwanese"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "鳥松區龍華南街66號"
+      },
+      "googleMapsPlaceId": "ChIJR3xlQCobbjQRj4cok7qaqP4",
+      "coordinates": {
+        "lat": 22.6495593,
+        "lng": 120.345706
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    }
   ]
 }
