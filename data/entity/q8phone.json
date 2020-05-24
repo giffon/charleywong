@@ -5,19 +5,27 @@
   },
   "webpages": [
     {
-      "url": "http://q8phone.business.site"
+      "url": "https://q8phone.business.site"
     },
     {
       "meta": {
+        "name": "宏大通訊",
         "id": "1506875759609446",
         "about": "本公司有專業維修電話服務(全港最平最快,30分鐘可取)/有大量手機配件/專業貼膜,大量手機玻璃貼,3分鐘內貼好/有批發服務,歡迎有意入行人士批發賣買(絕對最平)多謝支持!!!!Thanks",
         "categories": [
-          "Professional service"
-        ],
-        "addr": "主店：天水圍新北江C58A店， 聯名店地址： 南豐a74號鋪 土瓜灣道76號B鋪 土瓜灣道上鄉道",
-        "area": "Hong Kong"
+          "Electronics",
+          "Shopping & Retail",
+          "Professional Service"
+        ]
       },
       "url": "https://www.facebook.com/q8phone/"
+    },
+    {
+      "url": "https://www.instagram.com/q8phone2016/",
+      "meta": {
+        "name": "Q8宏大通訊",
+        "about": "q8phone2016_ 天水圍新北江商場一樓C58 A舖，可順豐寄貨，郵貨到付"
+      }
     }
   ],
   "posts": [
@@ -29,6 +37,7 @@
     }
   ],
   "tags": [
+    "electricalAppliances",
     "phone",
     "shop"
   ],
@@ -39,5 +48,20 @@
     "Y_SHOP00783",
     "Y_SHOP00784",
     "Y_SHOP00785"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "天水圍樂湖居商場1樓C58號A"
+      },
+      "googleMapsPlaceId": "ChIJuf27m4jwAzQR-GkkoVxevY0",
+      "coordinates": {
+        "lat": 22.452637,
+        "lng": 114.000621
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }
