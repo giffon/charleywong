@@ -1,0 +1,57 @@
+{
+  "id": "moonlight.tea.hk",
+  "name": {
+    "en": "Moonlight Tea"
+  },
+  "webpages": [
+    {
+      "url": "https://www.moonlight-tea.com"
+    },
+    {
+      "url": "https://www.facebook.com/moonlight.tea.hk/",
+      "meta": {
+        "name": "Moonlight Tea",
+        "id": "171570626728189",
+        "about": "A taste of quality",
+        "categories": [
+          "Tea Room",
+          "Restaurant"
+        ],
+        "addr": "21/F, Block 1, Kingley Industrial Building, Wong Chuk Hang",
+        "area": "Hong Kong",
+        "email": "info@moonlight-tea.com",
+        "tel": "91971866"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/moonlight.tea.hk/",
+      "meta": {
+        "name": "Moonlight Tea",
+        "about": "A Taste of Quality\nCold Brew Tea • Tea Leaves • Tea Services"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "21/F, Block 1, Kingley Industrial Building, Wong Chuk Hang"
+      },
+      "googleMapsPlaceId": "ChIJf_fdwBgABDQRrXYyz1cBTdE",
+      "coordinates": {
+        "lat": 22.2490047,
+        "lng": 114.1656782
+      },
+      "area": {
+        "zh": "南區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    "Y_SHOP02394"
+  ]
+}
