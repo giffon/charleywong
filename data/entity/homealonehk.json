@@ -1,0 +1,53 @@
+{
+  "id": "homealonehk",
+  "name": {
+    "en": "Homealone"
+  },
+  "webpages": [
+    {
+      "url": "https://www.homealone.com.hk"
+    },
+    {
+      "url": "https://www.facebook.com/homealonehk/",
+      "meta": {
+        "name": "Homealone",
+        "id": "394892681359276",
+        "about": "​We have a collection of solid wood furniture that are perfect for your space. This gorgeous line of product is perfect for open spaces and add some stunning touches to your home or office.",
+        "categories": [
+          "Furniture Store",
+          "Interior Design Studio",
+          "Home Decor"
+        ],
+        "email": "fb@homealone.com.hk",
+        "tel": "91699295"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/homealonehk/posts/511612339687309",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "furniture",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍灣臨興街19號同力工業中心 B座 206室"
+      },
+      "googleMapsPlaceId": "ChIJx2rKo-UHBDQRv8bJEz18wsk",
+      "coordinates": {
+        "lat": 22.3248433,
+        "lng": 114.2103506
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ]
+}
