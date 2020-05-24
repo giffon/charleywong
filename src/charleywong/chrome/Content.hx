@@ -192,7 +192,7 @@ class Content {
 
     static var scroll = false;
 
-    static function scrollToJune() {
+    static function scrollToJune(?oldArticleCount:Int) {
         if (!scroll) {
             return;
         }
@@ -205,6 +205,7 @@ class Content {
             node
         ];
         if (posts.length != 0) { // old layout
+            var scrollToJune = scrollToJune.bind(posts.length);
             var times = posts.map(node -> (cast node:Element).querySelector("abbr[data-utime]"));
             var beforeJuneNode = times.find(node -> Std.parseFloat(node.dataset.utime) * 1000 < june.getTime());
             if (beforeJuneNode != null) {
@@ -220,6 +221,13 @@ class Content {
                 Timer.delay(scrollToJune, 100);
             }
         } else {
+
+            if (document.querySelector("div[role='main'] div[role='article'] > div[role='progressbar']") == null) {
+                window.scrollTo(window.scrollX, document.body.scrollHeight);
+                Timer.delay(function() alert("到達 timeline 底部"), 100);
+                return;
+            }
+
             var feed:DivElement = cast document.getElementsByXPath("//div[@role='feed'][not(descendant::h1//*[text()='PINNED POST'])]")[0];
 
             // when there is no pinned post, there is no role='feed'
@@ -230,6 +238,13 @@ class Content {
                 for (node in feed.querySelectorAll("div[role='article']"))
                 (cast node:DivElement)
             ];
+
+            var scrollToJune = scrollToJune.bind(posts.length);
+
+            if (posts.length == oldArticleCount) {
+                Timer.delay(scrollToJune, 100);
+                return;
+            }
             
             if (posts.length == 0) {
                 Timer.delay(function() alert("找不到 div[role='article']"), 100);
@@ -252,9 +267,6 @@ class Content {
                     block: ScrollLogicalPosition.END,
                 });
                 Timer.delay(function() alert("到達2019年6月頭"), 100);
-            } else if (document.querySelector("div[role='main'] div[role='article'] > div[role='progressbar']") == null) {
-                window.scrollTo(window.scrollX, document.body.scrollHeight);
-                Timer.delay(function() alert("到達 timeline 底部"), 100);
             } else {
                 window.scrollTo(window.scrollX, document.body.scrollHeight);
                 Timer.delay(scrollToJune, 100);
