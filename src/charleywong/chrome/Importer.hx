@@ -307,24 +307,23 @@ class Importer {
             cast e
         ];
         return Promise.all(images.map(function(img) {
-            return new Promise(function(resolve, reject) {
-                window.fetch(img.src, {
-                    cache: FORCE_CACHE,
-                })
-                    .then(r -> r.arrayBuffer())
-                    .then(function(imgArrayBuffer) {
-                        var imgPng = PNG.sync.read(new Buffer(imgArrayBuffer));
-                        var target = PNG.sync.read(switch (info) {
-                            case "about": new Buffer(Resource.getBytes('about-${imgPng.width}.png').getData());
-                            case "tel": new Buffer(Resource.getBytes('tel-${imgPng.width}.png').getData());
-                            case _: throw 'Unknown info $info';
-                        });
-                        var mismatched = js.npm.pixelmatch.Pixelmatch.pixelmatch(target.data, imgPng.data, null, imgPng.width, imgPng.height, {
-                            threshold: 0.1,
-                        });
-                        resolve(mismatched == 0 ? img : null);
-                    })
-                    .catchError(reject);
+            img.crossOrigin = "Anonymous";
+            return (untyped img.decode():Promise<Void>).then(_ -> {
+                var canvas = document.createCanvasElement();
+                canvas.width = img.naturalWidth;
+                canvas.height = img.naturalHeight;
+                var canvasContext = canvas.getContext("2d");
+                canvasContext.drawImage(img, 0, 0);
+                var imageData = canvasContext.getImageData(0, 0, img.naturalWidth, img.naturalHeight).data;
+                var target = PNG.sync.read(switch (info) {
+                    case "about": new Buffer(Resource.getBytes('about-${img.naturalWidth}.png').getData());
+                    case "tel": new Buffer(Resource.getBytes('tel-${img.naturalWidth}.png').getData());
+                    case _: throw 'Unknown info $info';
+                });
+                var mismatched = js.npm.pixelmatch.Pixelmatch.pixelmatch(target.data, imageData, null, img.naturalWidth, img.naturalHeight, {
+                    threshold: 0.1,
+                });
+                mismatched == 0 ? img : null;
             });
         }))
             .then(function(images){
