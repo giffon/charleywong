@@ -5,15 +5,16 @@
   },
   "webpages": [
     {
-      "url": "http://www.sevillabridal.com"
+      "url": "https://www.sevillabridal.com"
     },
     {
       "meta": {
+        "name": "Sevilla Bridal 婚紗店",
         "id": "135632939819366",
         "about": "婚紗、晚裝、裙褂、馬褂、媽媽衫、男禮\n化妝|婚禮攝錄|婚紗攝影|大妗姐\nGowns & tuxedo rental; makeup & photography\nWhatsapp:55408890\n長沙灣永康街63號Global Gateway Tower 19樓11室 (荔枝角站 B1出口步行3分鐘)",
         "categories": [
-          "Bridal shop",
-          "Retail company"
+          "Bridal Shop",
+          "Retail Company"
         ],
         "addr": "Flat 11, 19/F, no. 63 Wing Hong Street, Global Gateway Tower",
         "area": "Cheung Sha Wan, Hong Kong",
@@ -21,6 +22,13 @@
         "tel": "26684000"
       },
       "url": "https://www.facebook.com/sevillabridal/"
+    },
+    {
+      "url": "https://www.instagram.com/sevillabridal/",
+      "meta": {
+        "name": "Sevilla Bridal",
+        "about": "Bridal Shop in Hong Kong\nWedding Services: Gown Rental / Makeup & Hairstyling / Photography / Chinese Wedding Planner\n新娘新郎媽媽每人免費試2件衫😍\n快d預約啦！😉"
+      }
     }
   ],
   "posts": [
@@ -38,5 +46,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00137"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Flat 11, 19/F, no. 63 Wing Hong Street, Global Gateway Tower"
+      },
+      "googleMapsPlaceId": "ChIJu8Dnjw8HBDQRwO_pIJP_PaQ",
+      "coordinates": {
+        "lat": 22.3393415,
+        "lng": 114.1484543
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

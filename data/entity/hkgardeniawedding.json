@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
+        "name": "Gardenia Wedding- 婚紗晚裝專門店",
         "id": "965715316916652",
-        "about": "提供婚紗,晚裝,裙褂,男士禮服租借服務\n\n觀塘成業街19號成業工業大廈7樓22室",
+        "about": "提供租借及售賣婚紗,晚裝,裙褂,男士禮服服務\n\n觀塘成業街19號成業工業大廈10樓35室",
         "categories": [
-          "Bridal shop"
+          "Bridal Shop"
         ],
-        "addr": "觀塘成業街19號成業工業大廈7樓22室",
+        "addr": "觀塘成業街19號成業工業大廈10樓35室",
         "area": "Hong Kong",
         "email": "gardeniaweddinghk@gmail.com",
         "tel": "53741360"
       },
       "url": "https://www.facebook.com/hkgardeniawedding/"
+    },
+    {
+      "url": "https://www.instagram.com/gardeniawedding/",
+      "meta": {
+        "name": "Gardeniawedding",
+        "about": "提供租借及售賣婚紗,晚裝,裙褂,男士禮服 服務\n敬請預約：inbox /WhatsApp/致電 5374 1360"
+      }
     }
   ],
   "posts": [
@@ -25,9 +33,25 @@
     }
   ],
   "tags": [
-    "bridal"
+    "bridal",
+    "shop"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00066"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘成業街19號成業工業大廈10樓35室"
+      },
+      "googleMapsPlaceId": "ChIJ1emvTEUBBDQRbBSxjcNJc38",
+      "coordinates": {
+        "lat": 22.3100594,
+        "lng": 114.2271209
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
