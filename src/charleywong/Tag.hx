@@ -455,6 +455,26 @@ class Tag {
         }
     }
 
+    static public final dental:TagData = {
+        name: {
+            en: "dental care/dentist",
+            zh: "牙齒護理/牙醫"
+        },
+        inherits: [
+            "medical"
+        ]
+    };
+
+    static public final chineseMedicinePractitioner:TagData = {
+        name: {
+            en: "Chinese medicine practitioner",
+            zh: "中醫"
+        },
+        inherits: [
+            "medical"
+        ]
+    };
+
     static public final pharmacy:TagData = {
         name: {
             en: "pharmacy",
