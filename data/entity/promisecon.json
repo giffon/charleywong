@@ -9,6 +9,7 @@
     },
     {
       "meta": {
+        "name": "浠僑針灸中醫診所",
         "id": "271585916620870",
         "about": "中醫診所\n提供中醫內科，外科，骨傷等服務",
         "categories": [
@@ -16,7 +17,7 @@
           "Acupuncturist"
         ],
         "addr": "觀塘中美中心3樓",
-        "area": "必須由A座電梯上3樓方可到達",
+        "area": "000000 必須由A座電梯上3樓方可到達",
         "email": "promisecon422@gmail.com",
         "tel": "52003288"
       },
@@ -40,5 +41,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01708"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘中美中心3樓"
+      },
+      "googleMapsPlaceId": "ChIJGQrDeEQBBDQRTkuZMf5zgc8",
+      "coordinates": {
+        "lat": 22.309397,
+        "lng": 114.2252012
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

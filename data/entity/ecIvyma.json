@@ -9,14 +9,15 @@
     },
     {
       "meta": {
+        "name": "長春藤中醫館",
         "id": "157666424269053",
-        "about": "長春藤中醫館由香港註冊中醫主理，治療各種內外婦兒科皮膚腸胃、筋骨疾病。 中醫治病講求整體治療，固本培元，以中藥、針灸或推拿手法，幫助求診者恢愎人體正氣，解決各種病痛問題。",
+        "about": "長春藤中醫館由香港註冊中醫主理，治療各種內外婦兒科皮膚腸胃、筋骨疾病。  中醫治病講求整體治療，固本培元，以中藥、針灸或推拿手法，幫助求診者恢愎人體正氣，解決各種病痛問題。",
         "categories": [
           "Acupuncturist",
           "Doctor"
         ],
         "addr": "佐敦彌敦道311號康僑大廈12樓B室",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "mivy130@gmail.com",
         "tel": "61043553"
       },
@@ -25,10 +26,16 @@
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/ecIvyma/posts/2174755149226827"
+      "url": "https://www.facebook.com/ecIvyma/posts/2174755149226827",
+      "meta": {
+        "sharedWith": "Custom"
+      }
     },
     {
-      "url": "https://www.facebook.com/ecIvyma/posts/2270420409660300"
+      "url": "https://www.facebook.com/ecIvyma/posts/2270420409660300",
+      "meta": {
+        "sharedWith": "Custom"
+      }
     }
   ],
   "tags": [
@@ -37,5 +44,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02026"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "佐敦彌敦道311號康僑大廈12樓B室"
+      },
+      "googleMapsPlaceId": "ChIJ8_r6UuoABDQRtqLgsQQ_PUg",
+      "coordinates": {
+        "lat": 22.3060578,
+        "lng": 114.1712922
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
