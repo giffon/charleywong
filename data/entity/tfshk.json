@@ -35,5 +35,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02014"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港沙田火炭坳背灣街57-59號利達工業中心地下7A"
+      },
+      "googleMapsPlaceId": "ChIJNQMSljQGBDQRM6UcNmzKJ6g",
+      "coordinates": {
+        "lat": 22.399144,
+        "lng": 114.193052
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
   ]
 }

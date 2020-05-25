@@ -6,18 +6,26 @@
   "webpages": [
     {
       "meta": {
+        "name": "Fun Collections HK",
         "id": "193694124300727",
         "about": "Tomica粉絲店主誠意為您服務! 盡情搜羅世界各地好玩有趣之玩具,精品,文具, 生活雜貨... 一同fun享所有潮人潮物/陳年舊物/童年回憶/BB最愛/媽咪之選 等等....",
         "categories": [
-          "Toy shop",
-          "Games/toys"
+          "Toy Store",
+          "Games/Toys"
         ],
         "addr": "Shop S99, 2/F, Sincere Podium, No.83 Argyle Street, Mong Kok",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "funcollectionshk@gmail.com",
         "tel": "60135496"
       },
       "url": "https://www.facebook.com/funcollectionshk/"
+    },
+    {
+      "url": "https://www.instagram.com/chrischui1985/",
+      "meta": {
+        "name": "Fun Collections Hk",
+        "about": "旺角先達廣場2樓s99鋪 不定時營業 交收一般下午1400-2100 都可在先達交收"
+      }
     }
   ],
   "posts": [
@@ -34,5 +42,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02019"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop S99, 2/F, Sincere Podium, No.83 Argyle Street, Mong Kok"
+      },
+      "googleMapsPlaceId": "ChIJFbMb1ccABDQRAbrtq4-XfBM",
+      "coordinates": {
+        "lat": 22.3198511,
+        "lng": 114.1705646
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

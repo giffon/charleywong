@@ -6,19 +6,28 @@
   },
   "webpages": [
     {
+      "url": "https://www.ladybirds.store"
+    },
+    {
       "meta": {
+        "name": "Ladybird's 甲蟲部屋",
         "id": "197361217704165",
-        "about": "本店專營畢業公仔/畢業花束，最快即日可取\n\n另有各式精品、文具、玩具，歡迎到店選購...\n\n\nSee more",
+        "about": "本店專營畢業公仔/畢業花束，最快即日可取\n\n另有各式精品、文具、玩具，歡迎到店選購\n\n地址：九龍深水埗福榮街54號地舖\n營業時間：10:30am-8:30pm",
         "categories": [
-          "Gift shop",
-          "Boutique shop",
-          "Product/service"
+          "Product/Service",
+          "Gift Shop",
+          "Boutique Store"
         ],
-        "addr": "深水埗福榮街54號地下",
-        "area": "Hong Kong",
         "email": "ladybirdsstore@gmail.com"
       },
       "url": "https://www.facebook.com/ladybirds54/"
+    },
+    {
+      "url": "https://www.instagram.com/ladybirds54/",
+      "meta": {
+        "name": "🎓Ladybird's 畢業公仔/畢業花束專門店🎓",
+        "about": "🎓本店專營畢業公仔/畢業花束💐\n.\n專接急單⏱\n訂製產品最快即日起貨💃🏻\n.\n另有各式日韓精品、Party用品等\n歡迎到店選購🥳\n.\nWhatsApp: 54886884\nFacebook: Ladybird’s 甲蟲部屋"
+      }
     }
   ],
   "posts": [
@@ -38,5 +47,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00106"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍深水埗福榮街54號地舖"
+      },
+      "googleMapsPlaceId": "ChIJt_qLut8BBDQR7zStRz5wLV8",
+      "coordinates": {
+        "lat": 22.331245,
+        "lng": 114.163876
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

@@ -67,5 +67,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00263"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗欽州街65-71號榮業商業大廈504室"
+      },
+      "googleMapsPlaceId": "ChIJAQAcVksHBDQRYVPE4dWbqMY",
+      "coordinates": {
+        "lat": 22.3329517,
+        "lng": 114.1617941
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

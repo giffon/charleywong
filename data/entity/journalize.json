@@ -7,11 +7,12 @@
   "webpages": [
     {
       "meta": {
+        "name": "Journalize 文簿具社",
         "id": "532955353471655",
         "about": "Relax yourself here.",
         "categories": [
-          "Gift shop",
-          "Cultural gift shop"
+          "Gift Shop",
+          "Cultural Gifts Store"
         ],
         "addr": "銅鑼灣摩頓臺灣景樓6A地舖 (中央圖書館側)",
         "area": "Hong Kong",
@@ -19,6 +20,13 @@
         "tel": "35656455"
       },
       "url": "https://www.facebook.com/journalize/"
+    },
+    {
+      "url": "https://www.instagram.com/journalize_store/",
+      "meta": {
+        "name": "JOURNALIZE",
+        "about": "Journalize | 文簿具社\nNotebook & Stationery Paradise\nFind us next to Central Library.\n(Shop 6A,Bayview Mansion,Moreton Terrace)\nTel: 3565 6455"
+      }
     }
   ],
   "posts": [
@@ -31,5 +39,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00146"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣摩頓臺灣景樓6A地舖"
+      },
+      "googleMapsPlaceId": "ChIJD6HV9VQABDQRUtmVjHjpXzs",
+      "coordinates": {
+        "lat": 22.2798101,
+        "lng": 114.1887082
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
