@@ -9,14 +9,13 @@
       "meta": {
         "name": "Let's Jam 一起果醬",
         "id": "592839210780646",
-        "about": "一間以果醬為主題的隱室小店，所有果醬都是自家製作，無添加。\n\n有2店\n\n西貢：\n西貢市場街9號地下\n\n尖沙咀區：\n尖沙咀松山道15-17號地下d鋪\n（近柯士甸道馬會、佐敦地鐵站D出口）",
+        "about": "一間以果醬為主題的隱室小店，所有果醬都是自家製作，無添加。\n\n有2店\n\n西貢：\n西貢市場街9號地下 \n\n尖沙咀區：\n尖沙咀松山道15-17號地下d鋪\n（近柯士甸道馬會、佐敦地鐵站D出口）",
         "categories": [
           "Breakfast & Brunch Restaurant",
-          "Tea Room",
-          "Cafeteria"
+          "Tea Room"
         ],
         "addr": "西貢市場街9號地下",
-        "area": "Sai Kung",
+        "area": "﹣ Sai Kung",
         "tel": "27919888"
       },
       "url": "https://www.facebook.com/592839210780646/"
@@ -48,5 +47,33 @@
     "Y_EAT02148",
     "Y_EAT00129",
     "Y_EAT00130"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "西貢市場街9號地下"
+      },
+      "googleMapsPlaceId": "ChIJgR_8rL0FBDQRBz6mZoe9hEk",
+      "coordinates": {
+        "lat": 22.3795946,
+        "lng": 114.2711985
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀松山道15-17號地下d鋪"
+      },
+      "googleMapsPlaceId": "ChIJRx2n_usABDQRmhbzoL-exdY",
+      "coordinates": {
+        "lat": 22.3031505,
+        "lng": 114.1733505
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
