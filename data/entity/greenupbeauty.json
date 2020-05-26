@@ -9,17 +9,26 @@
     },
     {
       "meta": {
-        "about": "Greenup Beauty\n\nWhatsapp: +852 5577-7502",
+        "name": "Greenup Beauty",
+        "id": "138183733269132",
+        "about": "Greenup Beauty \n\nWhatsapp: +852 5577-7502",
         "categories": [
-          "Beauty, cosmetic & personal care",
-          "Cosmetics shop"
+          "Beauty, Cosmetic & Personal Care",
+          "Cosmetics Store"
         ],
         "addr": "尖沙咀加拿芬道41-43號Solo Building 8樓801-802",
-        "area": "Kowloon, Hong Kong",
+        "area": "Hong Kong",
         "email": "greenupbeauty@outlook.com",
-        "id": "138183733269132"
+        "tel": "55777502"
       },
       "url": "https://www.facebook.com/greenupbeauty/"
+    },
+    {
+      "url": "https://www.instagram.com/greenupbeauty/",
+      "meta": {
+        "name": "Greenup Beauty 天然有機護膚品及化妝品",
+        "about": "⏱創業4年 👩🏼‍🏫豐富經驗幫顧客選購產品👱🏻‍♀️店主是敏感肌過來人❌💀拒絕有害成份 ⭕️🌱專搜羅天然有機實力品牌 ⭕️分享護膚心得 💁🏼‍♀️敏感_濕疹_玫瑰痤瘡_美白_保濕_抗衰老\n📱Whatsapp：(852) 5577-7502\n💁🏼‍♀️FB: greenupbeauty\n🛒網店購物👇🏻"
+      }
     }
   ],
   "posts": [
@@ -31,5 +40,20 @@
     "makeup",
     "shop",
     "skincare"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀加拿芬道41-43號Solo Building 8樓801-802"
+      },
+      "googleMapsPlaceId": "ChIJR-S5d-4ABDQRmlqpxXAoGQI",
+      "coordinates": {
+        "lat": 22.299185,
+        "lng": 114.173746
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
