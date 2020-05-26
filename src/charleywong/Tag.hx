@@ -245,8 +245,8 @@ class Tag {
 
     static public final salon:TagData = {
         name: {
-            en: "barber/salon",
-            zh: "理髮/沙龍",
+            en: "barber/hair salon",
+            zh: "剪髮/理髮/沙龍",
         }
     }
 
