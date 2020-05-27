@@ -5,14 +5,11 @@
   },
   "webpages": [
     {
-      "url": "http://www.weibo.com/roadmenticOriginal"
-    },
-    {
       "url": "https://www.facebook.com/roadmentic/",
       "meta": {
         "name": "Roadmentic",
         "id": "1336745969724563",
-        "about": "Address: G/F, 13A Haven Street, Causeway Bay, Hong Kong\n\nOpening Hours: 1:00pm - 9:00pm (Close on Wednesday)\n\nIG: roadmentic\nweibo: http://www.weibo.com/roadmentic",
+        "about": "Address: G/F, 13A Haven Street, Causeway Bay, Hong Kong\n\nOpening Hours: 1:00pm - 9:00pm  (Close on Wednesday)\n\nIG:  roadmentic\nweibo: http://www.weibo.com/roadmentic",
         "categories": [
           "Clothing Store",
           "Clothing (Brand)"
@@ -21,6 +18,13 @@
         "area": "Hong Kong",
         "email": "roadmentic@gmail.com",
         "tel": "35908499"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/roadmentic/",
+      "meta": {
+        "name": "Roadmentic",
+        "about": "Original Design Biker Style Clothing, Leather Jackets, Helmets\nOpen Hours: 1:00pm - 9:00pm (Close on Wednesday) #biker #motorcycle"
       }
     }
   ],
@@ -52,5 +56,20 @@
     "accessories",
     "footwear",
     "sport"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, 13A HAVEN STREET, CAUSEWAY BAY"
+      },
+      "googleMapsPlaceId": "ChIJQeT78VMABDQR1y5ktlwh-do",
+      "coordinates": {
+        "lat": 22.277725,
+        "lng": 114.18664
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }

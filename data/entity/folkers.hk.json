@@ -9,14 +9,22 @@
     },
     {
       "meta": {
+        "name": "Folkers",
         "id": "303949933303357",
         "about": "Folkers成立於炎夏，一個為喜愛民族服飾的人而設立的品牌，我們的團隊一直堅持每件貨品都親自挑選，踏上異國的路尋找一件又一件的寶物，曾深入印度的大街小巷、又曾到訪泰北的手工",
         "categories": [
-          "Personal blog"
+          "Personal Blog"
         ],
         "email": "folkershk@gmail.com"
       },
       "url": "https://www.facebook.com/folkers.hk/"
+    },
+    {
+      "url": "https://www.instagram.com/folkers.hk/",
+      "meta": {
+        "name": "The world needs more colour",
+        "about": "🔮‼️全店耳環任選2對送1對‼️🔮\nEthnic wear based in Hong Kong\n民族 • 服飾 • 手作小店\n🖥Facebook: Folkers"
+      }
     }
   ],
   "posts": [
@@ -28,5 +36,20 @@
     "accessories",
     "clothing",
     "footwear"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵芳金龍工業中心三期15C"
+      },
+      "googleMapsPlaceId": "ChIJT5ICPL34AzQRQG7up3MgGMA",
+      "coordinates": {
+        "lat": 22.3579478,
+        "lng": 114.1308834
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }

@@ -6,7 +6,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.rsrhk.com"
+      "url": "https://www.rsrhk.com"
     },
     {
       "url": "https://www.facebook.com/188794784473382/",
@@ -66,5 +66,20 @@
     "accessories",
     "footwear",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角彌敦道 580A號潮流特區地庫B17號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ5fziI8cABDQRpdarW5ZuSqw",
+      "coordinates": {
+        "lat": 22.3155521,
+        "lng": 114.1703071
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

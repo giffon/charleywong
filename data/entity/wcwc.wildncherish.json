@@ -17,7 +17,7 @@
           "Local Business"
         ],
         "addr": "Room 2, 20/F, Prosper Commercial Building, 9 Yin Chong Street,Mong Kok",
-        "area": "Mong Kok",
+        "area": "852 Mong Kok",
         "email": "wildncherish@gmail.com",
         "tel": "51183350"
       }
@@ -54,5 +54,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00865"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room 2, 20/F, Prosper Commercial Building, 9 Yin Chong Street,Mong Kok"
+      },
+      "googleMapsPlaceId": "ChIJE-qn9MYABDQRHPHakwKbjIc",
+      "coordinates": {
+        "lat": 22.316633,
+        "lng": 114.1721049
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

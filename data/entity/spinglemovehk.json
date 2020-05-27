@@ -9,10 +9,11 @@
     },
     {
       "meta": {
+        "name": "Spingle MOVE Hong Kong",
         "id": "890314920986797",
         "about": "創新的意念，比用金錢堆砌出來的設計更好；\n在日本製造一對對舒適的鞋子，就是 SPINGLE 的宗旨。\n品牌不斷追求完美，以袋鼠皮、鹿皮、馬臀皮及Out-Dry等等，為天天穿著的鞋履帶來驚喜！",
         "categories": [
-          "Clothing (brand)"
+          "Clothing (Brand)"
         ],
         "email": "info@spingle.com.hk",
         "tel": "22970922"
@@ -36,6 +37,22 @@
     }
   ],
   "tags": [
-    "footwear"
+    "footwear",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港尖沙咀漢口道5-15號漢口中心2樓214室"
+      },
+      "googleMapsPlaceId": "ChIJD9a3XvIABDQRPm7dq0Kpbos",
+      "coordinates": {
+        "lat": 22.2959904,
+        "lng": 114.1710601
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

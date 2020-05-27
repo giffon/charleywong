@@ -68,5 +68,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00421"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔廣場33街2.9A號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ-X4rK0YIBDQRkWvWRAWcAfc",
+      "coordinates": {
+        "lat": 22.4529599,
+        "lng": 114.1703528
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    }
   ]
 }
