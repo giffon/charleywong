@@ -50,5 +50,20 @@
   "tags": [
     "makeup",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗西菁街23號富達廣場112號舖"
+      },
+      "googleMapsPlaceId": "ChIJMcjKQgr6AzQRIXyedWegonY",
+      "coordinates": {
+        "lat": 22.4413009,
+        "lng": 114.0287779
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }
