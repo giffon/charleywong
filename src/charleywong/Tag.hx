@@ -380,7 +380,7 @@ class Tag {
     static public final foodDelivery:TagData = {
         name: {
             en: "food delivery",
-            zh: "送餐",
+            zh: "送外賣",
         },
         inherits: ["transport"]
     }
