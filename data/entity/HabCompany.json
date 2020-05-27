@@ -1,0 +1,67 @@
+{
+  "id": "HabCompany",
+  "name": {
+    "en": "HAB Company"
+  },
+  "webpages": [
+    {
+      "url": "http://www.hab-company.com",
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/hab_company/",
+      "meta": {
+        "name": "HAB Company Ltd.",
+        "about": "Interior Design"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/HabCompany/",
+      "meta": {
+        "name": "HAB Company",
+        "id": "125785534224212",
+        "about": "Interior Design + Build service",
+        "categories": [
+          "Professional Service"
+        ],
+        "addr": "1601 16/F, Kai Wong Commercial Centre, 222 Queen's Road Central",
+        "area": "Sheung Wan Hong Kong",
+        "email": "hello@hab-company.com",
+        "tel": "25200373"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/HabCompany/posts/1551535434982541",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/HabCompany/posts/1690185404450876",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "interior",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "1601 16/F, Kai Wong Commercial Centre, 222 Queen's Road Central"
+      },
+      "googleMapsPlaceId": "ChIJaSVm5VwABDQRvqrFDjypzHE",
+      "coordinates": {
+        "lat": 22.2846663,
+        "lng": 114.1518242
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ]
+}
