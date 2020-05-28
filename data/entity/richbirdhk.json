@@ -9,17 +9,25 @@
     },
     {
       "meta": {
+        "name": "發達鳥找換店",
         "id": "389429764546040",
         "about": "外貨両替專門丶激安の現金券發售",
         "categories": [
-          "Currency exchange"
+          "Currency Exchange"
         ],
         "addr": "福華街177號地舖",
         "area": "Sham Shui Po",
-        "email": "hello@richbirdhk.com",
+        "email": "richbirdhk@yahoo.com",
         "tel": "69996148"
       },
       "url": "https://www.facebook.com/richbirdhk/"
+    },
+    {
+      "url": "https://www.instagram.com/richbirdhk/",
+      "meta": {
+        "name": "發達鳥找換店",
+        "about": "發達鳥找換店 (12:00-8:00pm) 專為香港打工仔而設的兌換時間。WhatsApp :69996148"
+      }
     }
   ],
   "posts": [
@@ -42,5 +50,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00145"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "福華街177號地舖"
+      },
+      "googleMapsPlaceId": "ChIJi1ujoLQABDQRuGUV-739dk0",
+      "coordinates": {
+        "lat": 22.331864,
+        "lng": 114.1616
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
