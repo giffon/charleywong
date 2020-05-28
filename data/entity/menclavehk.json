@@ -2,7 +2,7 @@
   "id": "menclavehk",
   "name": {
     "en": "Menclave homme",
-    "zh": "《文禮》"
+    "zh": "文禮"
   },
   "webpages": [
     {
@@ -10,16 +10,25 @@
     },
     {
       "meta": {
+        "name": "《文禮》Menclave homme",
         "id": "619420944806450",
         "about": "男裝、男士禮服、新郎禮服專賣站。 專營男士休閒時裝，亦同時教你如何打造一個屬於自己成功者的形象。男人應該多一點Fashion，穿適合自己的西裝，穿適合自己的Suit、Shirt，成功的男人也!",
         "categories": [
-          "Men's clothes shop"
+          "Men's Clothing Store"
         ],
         "addr": "Room 1443-1446, 14/F, Eton Tower, 8 Hysan Road",
-        "area": "Causeway Bay",
-        "email": "menclavehk@gmail.com"
+        "area": "CWB Causeway Bay",
+        "email": "menclavehk@gmail.com",
+        "tel": "66511540"
       },
       "url": "https://www.facebook.com/menclavehk/"
+    },
+    {
+      "url": "https://www.instagram.com/menclave_homme/",
+      "meta": {
+        "name": "文禮 <Menclave homme>",
+        "about": "會打扮的男人 就是有能力的男人\n\nMenclave homme fb: www.facebook.com/menclavehk\nIsotropy fb: www.facebook.com/Isotropyhk\nwhatsapp: 852 66511540\nline: menclave"
+      }
     }
   ],
   "posts": [
@@ -33,5 +42,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00509"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room 1443-1446, 14/F, Eton Tower, 8 Hysan Road"
+      },
+      "googleMapsPlaceId": "ChIJ71BFRVEABDQRAFbbZTgCta0",
+      "coordinates": {
+        "lat": 22.2779504,
+        "lng": 114.1847591
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
