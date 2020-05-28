@@ -69,6 +69,22 @@
     }
   ],
   "tags": [
-    "media"
+    "media",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘成業街19-21號成業工業大廈13/F 24室"
+      },
+      "googleMapsPlaceId": "ChIJ1emvTEUBBDQRbBSxjcNJc38",
+      "coordinates": {
+        "lat": 22.3100594,
+        "lng": 114.2271209
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
