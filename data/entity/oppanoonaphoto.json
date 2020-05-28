@@ -6,6 +6,7 @@
   "webpages": [
     {
       "meta": {
+        "name": "Oppa Noona 韓式證件相 照相館",
         "id": "314081201991253",
         "about": "一站式證件相片拍攝\n包括服裝，補妝，攝影及修圖拍攝服務，只接受FB預約\n\nOne-stop passport photo service\nIncluding professional shooting, clothing, and photo touch up FB msg REVERSATION ONLY",
         "categories": [
@@ -20,6 +21,7 @@
     },
     {
       "meta": {
+        "name": "OppaNoona 韓式證件照相館",
         "about": "敬請預約，inbox或致電28512555\nby appointment only, please inbox or call 28512555"
       },
       "url": "https://www.instagram.com/oppanoonaphoto/"
@@ -45,5 +47,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00386"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣謝斐道460-462號楊耀熾商業大廈15樓"
+      },
+      "googleMapsPlaceId": "ChIJN20C4REBBDQRdvfhOU_w0NA",
+      "coordinates": {
+        "lat": 22.2806252,
+        "lng": 114.181844
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
