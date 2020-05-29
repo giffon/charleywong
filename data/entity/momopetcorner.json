@@ -9,19 +9,26 @@
     },
     {
       "meta": {
+        "name": "毛孩角",
         "id": "167541327111726",
         "about": "為毛孩們服務的小角落~\n店內有多款天然狗糧貓糧，寵物日用品\n另有寵物美容服務\n地址：大圍村第九街2號",
         "categories": [
-          "Pet supplies",
-          "Pet groomer",
-          "Pet shop"
+          "Pet Supplies",
+          "Pet Groomer",
+          "Pet Store"
         ],
         "addr": "大圍村第九街二號",
-        "area": "Tai Wai",
-        "email": "aquajune@gmail.com",
+        "area": "000000 Tai Wai",
         "tel": "68000245"
       },
       "url": "https://www.facebook.com/momopetcorner/"
+    },
+    {
+      "url": "https://www.instagram.com/momopetcorner/",
+      "meta": {
+        "name": "毛孩角",
+        "about": "#寵物美容 #寵物用品 #狗奴 #貓奴 #狗 #貓 #汪星人#喵星人"
+      }
     }
   ],
   "posts": [
@@ -32,5 +39,20 @@
   "tags": [
     "animal",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大圍村第九街二號"
+      },
+      "googleMapsPlaceId": "ChIJp6tZ8KcHBDQR13AOA_B2GYE",
+      "coordinates": {
+        "lat": 22.375109,
+        "lng": 114.178768
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
   ]
 }
