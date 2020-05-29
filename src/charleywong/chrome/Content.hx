@@ -162,26 +162,8 @@ class Content {
     }
 
     static public function timestampFromTimeSpan(timeSpan:SpanElement):Float {
-        var timeString = [
-            for (charSpan in timeSpan.getElementsByTagName("span"))
-            if (charSpan.style.position != "absolute")
-            {
-                if (charSpan.innerText.length == 1)
-                    charSpan.innerText;
-                else
-                    switch (charSpan.childNodes[0]) {
-                        case null:
-                            "";
-                        case {
-                            nodeType: 3, // Node.TEXT_NODE
-                            nodeValue: text
-                        } if (text.length == 1):
-                            text;
-                        case _:
-                            "";
-                    }
-            }
-        ].join("");
+        var labelledby = timeSpan.querySelector("span[aria-labelledby]").getAttribute("aria-labelledby");
+        var timeString = timeSpan.ownerDocument.getElementById(labelledby).innerText;
         return if (~/^[0-9]/.match(timeString))
             Date.now().getTime();
         else if (timeString.startsWith("Yesterday"))
