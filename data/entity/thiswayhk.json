@@ -5,16 +5,16 @@
   },
   "webpages": [
     {
-      "url": "http://www.thiswayhk.com"
+      "url": "https://www.thiswayhk.com"
     },
     {
       "meta": {
+        "name": "This Way",
         "id": "264682643656000",
         "about": "多國護膚化妝品代購\n用心、親力親爲做好每一件事",
         "categories": [
-          "Beauty, cosmetic & personal care",
-          "Beauty supply shop",
-          "Cosmetics shop"
+          "Beauty, Cosmetic & Personal Care",
+          "Beauty Supply Store"
         ],
         "email": "hkthisway@gmail.com",
         "tel": "56057369"
@@ -23,9 +23,13 @@
     },
     {
       "meta": {
+        "name": "@thiswayhk舊ac47k追蹤者被刪✨多國護膚化妝代購",
         "about": "Jewelry @thisway.studio\n💪🏻人手採購，絕不用批發貨源\n-\n📅MON - SUN ～2-9PM\n-\n►下單購買\n網站下單//WTSAPP\n💬客服查詢〈2-9PM〉：56057369\n——\n►NOTICE\n現貨付款後約2-3工作天發貨(如標明現貨)\n預訂貨品約7-10個工作天"
       },
       "url": "https://www.instagram.com/thisway_hk/"
+    },
+    {
+      "url": "https://t.me/thiswayhk"
     }
   ],
   "posts": [
@@ -35,9 +39,25 @@
   ],
   "tags": [
     "makeup",
+    "skincare",
     "shop"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00922"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角西洋菜南街1A號百寶利商業中心4樓406室"
+      },
+      "googleMapsPlaceId": "ChIJpzdKHMcABDQRhMu71hR5soc",
+      "coordinates": {
+        "lat": 22.3162789,
+        "lng": 114.1704794
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
