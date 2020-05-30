@@ -22,6 +22,22 @@
   ],
   "tags": [
     "tattoo",
-    "artist"
+    "artist",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗安興街90號祥康樓5號地鋪閣樓"
+      },
+      "googleMapsPlaceId": "ChIJW59eQnX6AzQR9gSgoyKXaz8",
+      "coordinates": {
+        "lat": 22.4427264,
+        "lng": 114.0236434
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }

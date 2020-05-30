@@ -5,21 +5,26 @@
   },
   "webpages": [
     {
+      "url": "https://www.lazyduo.com"
+    },
+    {
       "meta": {
+        "name": "LAZY DUO",
+        "id": "1608369929452579",
         "about": "⟐ 手繪圖案和書法．像真度高．無明顯膠邊\n⟐ 維持4－6天．防水防汗．日常淋浴不影響\n⟐ 香港手繪原創設計．台灣原材料和印刷\n⟐ 安全無毒．歐盟化妝品安全和防敏測試認證",
         "categories": [
-          "Just for fun",
-          "Shopping & retail",
-          "Product/service"
+          "Tattoo & Piercing Shop",
+          "Health/Beauty",
+          "Product/Service"
         ],
         "email": "hello@lazyduo.com",
-        "tel": "53931269",
-        "id": "1608369929452579"
+        "tel": "91650031"
       },
       "url": "https://www.facebook.com/lazyduohk/"
     },
     {
       "meta": {
+        "name": "LAZY DUO TATTOO ARTS ❈ HK",
         "about": "✦ #RealisticTemporaryTattoo\n✧ Lasts 4-7 days\n✦ Waterproof\n✧ Sensitive skin-safe\n✦ Designs in Hong Kong\n✧ Made in Taiwan\n✦ @mane.ink｜@mantsang.ink\n↓"
       },
       "url": "https://www.instagram.com/lazy.duo/"
@@ -32,10 +37,39 @@
   ],
   "tags": [
     "shop",
-    "tattoo"
+    "tattoo",
+    "clothing"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01959",
     "Y_SHOP01960"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "格仔店  Vincy Special 旺角中心3樓 T81號鋪 C32格 ( 進店右邊中間位置 ）"
+      },
+      "googleMapsPlaceId": "ChIJuZ9Z3scABDQRr4YoMVple_w",
+      "coordinates": {
+        "lat": 22.319953,
+        "lng": 114.16937
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "賣藝 Myarts 長洲東灣路3號"
+      },
+      "googleMapsPlaceId": "ChIJs_qgd08BBDQRrjdcOlLZRRo",
+      "coordinates": {
+        "lat": 22.2089313,
+        "lng": 114.0305743
+      },
+      "area": {
+        "zh": "離島區"
+      }
+    }
   ]
 }

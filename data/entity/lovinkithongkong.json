@@ -18,9 +18,16 @@
           "Tattoo & Piercing Shop"
         ],
         "addr": "Flat B 1/F Kinga Court 205-209 Yee Kuk Street",
-        "area": "Sham Shui Po",
+        "area": "香港深水埗醫局街205-209號 Sham Shui Po",
         "email": "info@lovinkittattoo.com",
         "tel": "39908494"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/lovinkittattoo/",
+      "meta": {
+        "name": "Lovinkit Tattoo 墨子",
+        "about": "Reputable tattoo shop in HK\n☎️39908494\n📧info@lovinkittattoo.com\n@jktattoohongkong @lexi_tattoo @yclung @navygorilla @noir_tattooer @tofu_piercinghk"
       }
     }
   ],
@@ -60,5 +67,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01733"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Flat B 1/F Kinga Court 205-209 Yee Kuk Street"
+      },
+      "googleMapsPlaceId": "ChIJIf0mobUABDQRfRoyTOdX_qA",
+      "coordinates": {
+        "lat": 22.328662,
+        "lng": 114.159065
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }

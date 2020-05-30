@@ -5,16 +5,27 @@
   },
   "webpages": [
     {
+      "url": "https://www.malichandmade.com"
+    },
+    {
       "meta": {
-        "about": "Henna artist based in HK.\nOnly using ALL NATURAL homemade henna & jagua\n\nFor any enquires. email : malichandmade@gmail.com",
+        "name": "Malic",
+        "id": "232690153437230",
+        "about": "Henna artist based in HK. \nOnly using ALL NATURAL homemade henna & jagua\n\nFor any enquires. email : malichandmade@gmail.com",
         "categories": [
-          "Product/service"
+          "Product/Service"
         ],
         "email": "malichandmade@gmail.com",
-        "tel": "97368253",
-        "id": "232690153437230"
+        "tel": "97368253"
       },
       "url": "https://www.facebook.com/malichandmade/"
+    },
+    {
+      "url": "https://www.instagram.com/malichandmade/",
+      "meta": {
+        "name": "Malic | HK Henna Artist",
+        "about": "Henna Artist🍎\nall natural #Henna & #Jagua ONLY\nbased in HK🇭🇰 able to travel\nPrivate appointment 🖐🏻\nParty / Event 🎉\nAll natural Henna Cone for sale🌿"
+      }
     }
   ],
   "posts": [
@@ -27,6 +38,7 @@
   ],
   "tags": [
     "tattoo",
-    "artist"
+    "artist",
+    "shop"
   ]
 }

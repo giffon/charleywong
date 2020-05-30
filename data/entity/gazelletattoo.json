@@ -9,18 +9,25 @@
     },
     {
       "meta": {
+        "name": "Gazelle Tattoo",
         "id": "991629594261926",
-        "about": "Tattoo Artist:\nIris Lam\niris@gazelletattoo.com...\n\n\nSee more",
+        "about": "Tattoo Artist:\nIris Lam\niris@gazelletattoo.com\n+85298648669\n(by appointment only)\nIG: @irislamht/@irislamht.ink",
         "categories": [
-          "Tattoo & piercing shop",
-          "Artist"
+          "Tattoo & Piercing Shop"
         ],
         "addr": "Room 319, 3/F, Metro Centre II, 21 Lam Hing Street, Kowloon Bay",
-        "area": "Hong Kong",
+        "area": "0000 Hong Kong",
         "email": "iris@gazelletattoo.com",
         "tel": "61076992"
       },
       "url": "https://www.facebook.com/gazelletattoo/"
+    },
+    {
+      "url": "https://www.instagram.com/gazelle_tattoo/",
+      "meta": {
+        "name": "Gazelle Tattoo",
+        "about": "Tel: 61076992\nEmail: iris@gazelletattoo.com\nOpen Hour: Monday-Sunday 2-8pm\n(By appointment Only)"
+      }
     }
   ],
   "posts": [
@@ -36,9 +43,25 @@
   ],
   "tags": [
     "tattoo",
-    "artist"
+    "artist",
+    "shop"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01346"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room 319, 3/F, Metro Centre II, 21 Lam Hing Street, Kowloon Bay"
+      },
+      "googleMapsPlaceId": "ChIJOY1NuEUBBDQRjmpvFYEsgN8",
+      "coordinates": {
+        "lat": 22.325047,
+        "lng": 114.2109077
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

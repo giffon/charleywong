@@ -11,13 +11,20 @@
         "id": "1436856506546028",
         "about": "Pd tattoo provide professional custom made tattoo service in clean and insured environment ,7 days a week\nTattoo Artists:\nJel chan\nWing Wong\nTWai Tam\nTsz Leung",
         "categories": [
-          "Tattoo & Piercing Shop",
-          "Art Gallery"
+          "Art Gallery",
+          "Tattoo & Piercing Shop"
         ],
-        "addr": "1E CHAK FUNG HSE,NATHAN RD 440-442 YAN MA TEI KOWLOON",
+        "addr": "1E CHAK FUNG HSE,NATHAN RD 440-442 YAN MA TEI   KOWLOON",
         "area": "Kowloon, Hong Kong",
         "email": "jel.pdtattoo@gmail.com",
         "tel": "98555461"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/pdtattoo.hk/",
+      "meta": {
+        "name": "Pd tattoo",
+        "about": "Tattoo studio from Hong Kong🇭🇰\nTattoo artist:\n@jelchan\n@wanderwingw\n@ttw.tattoo\n@lenugtsz.oh\n@leuktong.art\n@inkofcourse\n@nekokat_ink"
       }
     }
   ],
@@ -40,5 +47,20 @@
   "tags": [
     "tattoo",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "1E CHAK FUNG HSE,NATHAN RD 440-442 YAN MA TEI   KOWLOON"
+      },
+      "googleMapsPlaceId": "ChIJqVlX88YABDQR-HEAf5WrFjs",
+      "coordinates": {
+        "lat": 22.309906,
+        "lng": 114.171455
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
