@@ -162,7 +162,7 @@ class Content {
     }
 
     static public function timestampFromTimeSpan(timeSpan:SpanElement):Float {
-        var labelledby = timeSpan.querySelector("span[aria-labelledby]").getAttribute("aria-labelledby");
+        var labelledby = timeSpan.getAttribute("aria-labelledby");
         var timeString = timeSpan.ownerDocument.getElementById(labelledby).innerText;
         return if (~/^[0-9]/.match(timeString))
             Date.now().getTime();
@@ -233,7 +233,7 @@ class Content {
                 return;
             }
             var times = posts
-                .map(node -> node.querySelectorAll("div > span[dir='auto']")[1])
+                .map(node -> node.querySelector("span[aria-labelledby]"))
                 .filter(timeSpan -> timeSpan != null)
                 .map(timeSpan -> {
                     node: (cast timeSpan:SpanElement),
