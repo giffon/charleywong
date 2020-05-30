@@ -45,5 +45,20 @@
   "tags": [
     "tattoo",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍觀塘道460-470號官塘工業中心2期11樓S室"
+      },
+      "googleMapsPlaceId": "ChIJw3cSJlEABDQRPSPwCkUCVBY",
+      "coordinates": {
+        "lat": 22.310724,
+        "lng": 114.227626
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
