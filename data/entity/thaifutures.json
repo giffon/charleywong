@@ -51,5 +51,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02333"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角洗衣街金雞廣場1008室"
+      },
+      "googleMapsPlaceId": "ChIJXQBQR8YABDQRfuP-NE7cbBc",
+      "coordinates": {
+        "lat": 22.318367,
+        "lng": 114.171757
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

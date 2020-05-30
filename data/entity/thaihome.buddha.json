@@ -7,10 +7,11 @@
   "webpages": [
     {
       "meta": {
+        "name": "泰家 Thai Home ,by KaKa • บัว",
         "id": "115860231894540",
-        "about": "◇ 小乘佛教 ◇ 原廟供請 ◇ 保證師傅親自加持 ◇\n加持正品佛牌只會是用加持師傅的法力\n令配戴者感受到加持師傅的法力令事事順利",
+        "about": "◇ 小乘佛教  ◇  原廟供請  ◇  保證師傅親自加持  ◇  \n加持正品佛牌只會是用加持師傅的法力  \n令配戴者感受到加持師傅的法力令事事順利",
         "categories": [
-          "Local business"
+          "Religious Organization"
         ],
         "addr": "尖沙咀加拿芬道41-43號SOLO Building 306-307室",
         "area": "Kowloon, Hong Kong",
@@ -20,7 +21,11 @@
       "url": "https://www.facebook.com/thaihome.buddha/"
     },
     {
-      "url": "https://www.instagram.com/thaihome.buddha/"
+      "url": "https://www.instagram.com/thaihome.buddha/",
+      "meta": {
+        "name": "泰家",
+        "about": "◇ 原廟供請 ◇ 保證正品\n◇ 佛牌聖物只用加持師傅的法力\n◇ 查詢下單請到FB Page Inbox\n#佛牌 #泰國佛牌 #TST #尖沙咀 #泰家\n🏡尖沙咀Solo 306-307室\n💡唔覆DM\n@th.livingmart 泰家生活百貨"
+      }
     }
   ],
   "posts": [
@@ -36,5 +41,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02332"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀加拿芬道41-43號SOLO Building 306-307室"
+      },
+      "googleMapsPlaceId": "ChIJPXAiV60BBDQRq2q4SMPEft0",
+      "coordinates": {
+        "lat": 22.2990864,
+        "lng": 114.1737284
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

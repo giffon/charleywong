@@ -24,8 +24,8 @@
         "name": "泰隨緣佛牌舍 泰國佛牌 2.0",
         "id": "724307041372495",
         "categories": [
-          "Arts & Crafts Store",
-          "Religious Organization"
+          "Religious Organization",
+          "Arts & Crafts Store"
         ],
         "addr": "香港旺角花園街2-16號好景商業中心1901室",
         "area": "852 Hong Kong",
@@ -55,5 +55,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02328"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港旺角花園街2-16號好景商業中心1901室"
+      },
+      "googleMapsPlaceId": "ChIJseaa09QBBDQRyjhsme6exe0",
+      "coordinates": {
+        "lat": 22.3160459,
+        "lng": 114.1719513
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
