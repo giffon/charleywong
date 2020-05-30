@@ -11,9 +11,20 @@
         "id": "435091290011369",
         "about": "用豆腐親近土地，用閱讀貼近邊緣",
         "categories": [
+          "Bookstore",
           "Book",
           "Health Food Store"
-        ]
+        ],
+        "addr": "北興街86號",
+        "area": "Chiayi 600",
+        "tel": "88652311031"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/tofubooks.chiayi/",
+      "meta": {
+        "name": "島呼冊店",
+        "about": "用豆腐親近土地，用閱讀貼近邊緣"
       }
     }
   ],
@@ -29,5 +40,20 @@
   "tags": [
     "book",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "北興街86號"
+      },
+      "googleMapsPlaceId": "ChIJKSKRbiyUbjQRGBRx6nW-IyA",
+      "coordinates": {
+        "lat": 23.4834906,
+        "lng": 120.4428437
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    }
   ]
 }
