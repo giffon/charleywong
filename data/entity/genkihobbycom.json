@@ -6,16 +6,17 @@
   },
   "webpages": [
     {
-      "url": "http://www.genkihobby.com"
+      "url": "https://www.genkihobby.com"
     },
     {
       "meta": {
+        "name": "元氣殿堂 GenkiHobby.com 玩具店",
         "id": "760966730691588",
         "about": "元氣殿堂網上商店，如預訂產品我們會以免費本地速遞形式送到你手，提供更方便及沒有時間地域限制的購物方式\n本店專營各種日本動漫產品\n誠意為香港地區動漫愛好者服務",
         "categories": [
-          "Toy shop",
-          "Games/toys",
-          "Comic book shop"
+          "Toy Store",
+          "Games/Toys",
+          "Comic Bookstore"
         ],
         "addr": "旺角煙廠街9號興發商業大廈1802-1803室",
         "area": "Hong Kong",
@@ -25,7 +26,11 @@
       "url": "https://www.facebook.com/genkihobbycom/"
     },
     {
-      "url": "https://www.instagram.com/genkihobby/"
+      "url": "https://www.instagram.com/genkihobby/",
+      "meta": {
+        "name": "元氣殿堂 GenkiHobby 玩具店",
+        "about": "⭐如需訂購可到門市或直接到本公司網站落單\n🚫請勿使用direct，不會回覆\n⭐元氣殿堂網上商店/實體店，預訂產品會以免費本地速遞形式送到你手，提供更方便及沒有時間地域限制的購物方式\n🔍FB:元氣殿堂 GenkiHobby 玩具店"
+      }
     }
   ],
   "posts": [
@@ -45,5 +50,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00341"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角煙廠街9號興發商業大廈1802-1803室"
+      },
+      "googleMapsPlaceId": "ChIJK_pASaEBBDQREdxAYn7UbJc",
+      "coordinates": {
+        "lat": 22.3166262,
+        "lng": 114.1722082
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
