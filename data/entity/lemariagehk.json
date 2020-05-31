@@ -6,16 +6,24 @@
   "webpages": [
     {
       "meta": {
+        "name": "Le Mariage hk",
         "id": "193061957730510",
-        "about": "Mon-Sun 12:30-20:30\nTue closed\n...\n\n\n\nSee more",
+        "about": "Mon-Sun 12:30-20:30\nTue closed\n\nWedding services:\nWedding gown & evening gown rental\n\n5C, 88 Commercial Building, 28-34 Wing Lok Street, Sheung Wan",
         "categories": [
-          "Bridal shop"
+          "Bridal Shop"
         ],
         "addr": "上環永樂街東成商業大廈5樓C室",
         "area": "Hong Kong",
         "tel": "97706280"
       },
       "url": "https://www.facebook.com/lemariagehk/"
+    },
+    {
+      "url": "https://www.instagram.com/lemariage.hk/",
+      "meta": {
+        "name": "Le Mariage",
+        "about": "@lemariage.hk"
+      }
     }
   ],
   "posts": [
@@ -25,5 +33,20 @@
   ],
   "tags": [
     "bridal"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "上環永樂街東成商業大廈5樓C室"
+      },
+      "googleMapsPlaceId": "ChIJC0CeUXwABDQRm59NM-W5uUk",
+      "coordinates": {
+        "lat": 22.2861796,
+        "lng": 114.1523396
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }

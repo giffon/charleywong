@@ -6,16 +6,23 @@
   "webpages": [
     {
       "meta": {
-        "about": "Premium authorized dealer for White One collection by St. Patrick ; Affordable designers' gown rental ; Second hand gown reselling.",
+        "name": "My Cup of Tea Bridal",
+        "id": "533489866752189",
+        "about": "Premium authorized dealer for St. patrick collection by Pronovias ; Affordable designers' gown rental.",
         "categories": [
-          "Bridal shop",
-          "Product/service"
+          "Product/Service",
+          "Bridal Shop"
         ],
-        "addr": "501,5/F,United Building,17-19 Jubilee Street",
-        "area": "Central, Hong Kong",
-        "id": "533489866752189"
+        "email": "enquirymycupoftea@gmail.com"
       },
       "url": "https://www.facebook.com/mycupofteabridal/"
+    },
+    {
+      "url": "https://www.instagram.com/mycupofteabridal/",
+      "meta": {
+        "name": "My Cup of Tea Bridal",
+        "about": "Premium authorized dealer for St.Patrick, Pronovias.\nAddress: Unit 501, 5/F, United Building, 17-19 Jubilee Street, Central, HK (by appointment only)"
+      }
     }
   ],
   "posts": [
@@ -24,6 +31,22 @@
     }
   ],
   "tags": [
-    "bridal"
+    "bridal",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit 501, 5/F, United Building, 17-19 Jubilee Street, Central, HK (by appointment only)"
+      },
+      "googleMapsPlaceId": "ChIJZXUo2VYBBDQRClio2mKb8Wk",
+      "coordinates": {
+        "lat": 22.2848658,
+        "lng": 114.1559419
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }

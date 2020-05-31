@@ -6,17 +6,26 @@
   "webpages": [
     {
       "meta": {
+        "name": "Laputa Wedding",
         "id": "394930697328667",
         "about": "Since 2015.",
         "categories": [
-          "Wedding planning service",
-          "Bridal shop"
+          "Wedding Planning Service",
+          "Bridal Shop"
         ],
-        "addr": "Unit 2101, New Venture Centre, 18 Lam Tin Street, Kwai Chung ,NT",
+        "addr": "Unit 2101, New Venture  Centre, 18 Lam Tin Street, Kwai Chung ,NT",
         "area": "Hong Kong",
-        "email": "laputawedding@gmail.com"
+        "email": "laputawedding@gmail.com",
+        "tel": "28844878"
       },
       "url": "https://www.facebook.com/hklaputawedding/"
+    },
+    {
+      "url": "https://www.instagram.com/laputawedding/",
+      "meta": {
+        "name": "LaputaWedding",
+        "about": "Since 2015.\n🐉提供一站式婚禮服務🐉\n❤️婚紗·晚裝·裙褂馬褂·男仕禮服·媽媽衫·姊妹裙\n💚專業新娘化妝造型\n💜BigDay攝錄影\n🧡宴會司儀\n💛HK/Oversea PreWedding\n☎️ Tel : 28844878 📞\n🕛Opening hour : 12pm-8pm 🕗"
+      }
     }
   ],
   "posts": [
@@ -27,6 +36,22 @@
   "tags": [
     "bridal",
     "makeup",
-    "photographer"
+    "photography",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit 2101, New Venture  Centre, 18 Lam Tin Street, Kwai Chung ,NT"
+      },
+      "googleMapsPlaceId": "ChIJTbcuq7UABDQR4lIDC-5i0K8",
+      "coordinates": {
+        "lat": 22.3688092,
+        "lng": 114.1377578
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }

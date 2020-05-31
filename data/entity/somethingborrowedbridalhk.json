@@ -5,23 +5,30 @@
   },
   "webpages": [
     {
-      "url": "http://www.somethingborrowedbridalhk.com"
+      "url": "https://www.somethingborrowedbridalhk.com"
     },
     {
       "meta": {
+        "name": "Something Borrowed Bridal",
         "id": "809676175745514",
         "about": "Designer wedding gown and evening gown.",
         "categories": [
-          "Bridal shop",
-          "Clothing (brand)",
-          "Internet marketing service"
+          "Bridal Shop",
+          "Product/Service"
         ],
         "addr": "銅鑼灣富明街1-5號寶富大廈4樓D室",
-        "area": "Causeway Bay",
+        "area": "852 Causeway Bay",
         "email": "info@somethingborrowedbridalhk.com",
         "tel": "63013236"
       },
       "url": "https://www.facebook.com/somethingborrowedbridalhk/"
+    },
+    {
+      "url": "https://www.instagram.com/somethingborrowedbridal_hk/",
+      "meta": {
+        "name": "SBB |BRIDAL SHOP |WEDDING GOWN",
+        "about": "𝚂𝚒𝚗𝚌𝚎 𝟸𝟶𝟷𝟻 | 𝙵𝚛𝚎𝚎 𝚃𝚛𝚒𝚊𝚕 𝙱𝚘𝚘𝚔𝚒𝚗𝚐 👇🏻 | #sbbhk"
+      }
     }
   ],
   "posts": [
@@ -30,6 +37,22 @@
     }
   ],
   "tags": [
-    "bridal"
+    "bridal",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣富明街1-5號寶富大廈4樓D室"
+      },
+      "googleMapsPlaceId": "ChIJKXHPZ60BBDQRNKMNDQMwO7Y",
+      "coordinates": {
+        "lat": 22.2788035,
+        "lng": 114.1834136
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }

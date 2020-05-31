@@ -5,20 +5,27 @@
   },
   "webpages": [
     {
-      "url": "http://www.grannychicbridal.com"
+      "url": "https://www.grannychicbridal.com"
     },
     {
       "meta": {
+        "name": "Granny Chic Bridal",
         "id": "1831626906877548",
         "about": "Granny Chic 以時尚、年輕、簡約為設計基礎 ，以「歷久常新」為理念，顛覆傳統婚紗店概念。",
         "categories": [
-          "Product/service",
-          "Bridal shop",
-          "Wedding planning service"
+          "Product/Service",
+          "Bridal Shop",
+          "Wedding Planning Service"
         ],
         "tel": "62291024"
       },
       "url": "https://www.facebook.com/grannychicbridal/"
+    },
+    {
+      "url": "https://www.instagram.com/grannychicofficial/",
+      "meta": {
+        "name": "G R A N N Y C H I C"
+      }
     }
   ],
   "posts": [
@@ -27,6 +34,7 @@
     }
   ],
   "tags": [
-    "bridal"
+    "bridal",
+    "shop"
   ]
 }

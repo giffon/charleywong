@@ -9,15 +9,22 @@
       "meta": {
         "name": "Queen & Co. Wedding",
         "id": "246468765807658",
-        "about": "Queen & Co.設有本地及海外婚紗攝影，婚禮當日拍攝，\n租借婚紗，化妝等服務\n查詢電話 3462 2416\nWhatsApp 55180648",
+        "about": "Queen & Co.設有本地及海外婚紗攝影，婚禮當日拍攝，\n租借婚紗，化妝等服務\n查詢電話    3462 2416\nWhatsApp  55180648",
         "categories": [
           "Bridal Shop",
           "Wedding Planning Service",
           "Accessories"
         ],
         "addr": "九龍尖沙咀漆咸道南87-105 百利商業中心14樓1401室",
-        "area": "Hong Kong",
+        "area": "00852 Hong Kong",
         "tel": "34622416"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/queenandcowedding/",
+      "meta": {
+        "name": "Queen & co.",
+        "about": "婚紗攝影及禮服租借服務"
       }
     }
   ],
@@ -64,5 +71,20 @@
     "photography",
     "makeup",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍尖沙咀漆咸道南87-105 百利商業中心14樓1401室"
+      },
+      "googleMapsPlaceId": "ChIJdWhB2-4ABDQRMOAiHZGsvSo",
+      "coordinates": {
+        "lat": 22.301422,
+        "lng": 114.175966
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

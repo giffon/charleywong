@@ -5,21 +5,29 @@
   },
   "webpages": [
     {
-      "url": "http://www.gaiaprj.com"
+      "url": "https://www.gaiaprj.com"
     },
     {
       "meta": {
+        "name": "GAIA Project H.K - Bridal Gown , Photography , Makeup",
         "id": "706093746203538",
         "about": "GAIA Project位置於葵涌工廈內佔地四千多呎，空間寬敞的空間使新娘子最舒適，另有設備齊全的Studio，提供專業攝影及可供租借服務，更有專業化妝師為你設計造型，詳情請inbox或致電查詢。",
         "categories": [
-          "Bridal shop"
+          "Bridal Shop"
         ],
         "addr": "葵涌打磚坪街49-53號華基工業大廈2期23樓E室",
-        "area": "Hong Kong",
+        "area": "000000 Hong Kong",
         "email": "cs@gaiaprj.com",
         "tel": "90429991"
       },
       "url": "https://www.facebook.com/gaiaprojectstudio/"
+    },
+    {
+      "url": "https://www.instagram.com/gaiaproject/",
+      "meta": {
+        "name": "GAIA Project",
+        "about": "Hong Kong Wedding Styling | Bridal Gown Purchase & Rental | Studio Rental\nFacebook: GAIA Project | Pinterest: gaiaprojecthk\n📧：cs@gaiaprj.com"
+      }
     }
   ],
   "posts": [
@@ -31,5 +39,20 @@
     "photographer",
     "wedding",
     "bridal"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵涌打磚坪街49-53號華基工業大廈2期23樓E室"
+      },
+      "googleMapsPlaceId": "ChIJW3oZBZv4AzQR1KGGDcNshp8",
+      "coordinates": {
+        "lat": 22.367955,
+        "lng": 114.135608
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }

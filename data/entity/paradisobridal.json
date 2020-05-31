@@ -5,18 +5,29 @@
   },
   "webpages": [
     {
+      "url": "http://www.paradisobridal.com"
+    },
+    {
       "meta": {
+        "name": "Paradiso Bridal",
+        "id": "179025512191810",
         "about": "Bridal boutique with brands from the US, Europe and Australia. Sales and rental services available. Contact at 3902 3535 for appointment.",
         "categories": [
-          "Bridal shop"
+          "Bridal Shop"
         ],
         "addr": "Suite B, 2/F, Yun Tat Commercial Bldg, 70-74 Wuhu St.",
-        "area": "Kowloon, Hong Kong",
+        "area": "00000 Kowloon, Hong Kong",
         "email": "info@paradisobridal.com",
-        "tel": "39023535",
-        "id": "179025512191810"
+        "tel": "36909872"
       },
       "url": "https://www.facebook.com/paradisobridal/"
+    },
+    {
+      "url": "https://www.instagram.com/paradiso_bridal/",
+      "meta": {
+        "name": "Paradiso Bridal",
+        "about": "Hong Kong bridal & occasion wear salon. Brands: Amelia Sposa, Jovani, Modeca, Maggie Sottero, Macduggal, Olympia Sposa, Sottero & Midgley"
+      }
     }
   ],
   "posts": [
@@ -26,5 +37,20 @@
   ],
   "tags": [
     "bridal"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Suite B, 2/F, Yun Tat Commercial Bldg, 70-74 Wuhu St."
+      },
+      "googleMapsPlaceId": "ChIJF_9c4N0ABDQRKeniLhaJs8k",
+      "coordinates": {
+        "lat": 22.307817,
+        "lng": 114.185434
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
   ]
 }

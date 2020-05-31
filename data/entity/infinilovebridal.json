@@ -6,19 +6,21 @@
   "webpages": [
     {
       "meta": {
+        "name": "Infini Love Bridal",
         "about": "Simple | Elegant | Modern | Timeless\nBy Appointment ONLY"
       },
       "url": "https://www.instagram.com/infinilovebridal/"
     },
     {
       "meta": {
+        "name": "Infini Love Bridal",
         "id": "1559455151042008",
         "about": "Infini Love Bridal is dedicated to delivering excellent rental and custom-made services of wedding gown & evening gown.\n\nBy Appointment ONLY",
         "categories": [
-          "Bridal shop"
+          "Bridal Shop"
         ],
         "addr": "Manning Industrial Building, 116-118 How Ming Street",
-        "area": "Kung Tong, Hong Kong",
+        "area": "852 Kung Tong, Hong Kong",
         "email": "info@infinilovebridal.com"
       },
       "url": "https://www.facebook.com/infinilovebridal/"
@@ -31,5 +33,20 @@
   ],
   "tags": [
     "bridal"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Manning Industrial Building, 116-118 How Ming Street"
+      },
+      "googleMapsPlaceId": "ChIJcSHjeEUBBDQRUPIp4vW_8aA",
+      "coordinates": {
+        "lat": 22.3110264,
+        "lng": 114.2243624
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

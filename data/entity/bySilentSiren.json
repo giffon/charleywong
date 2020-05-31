@@ -14,10 +14,12 @@
         "id": "118639131496771",
         "about": "Uniquely designer bridal dress, Specializes in stylish and one-of-a-kind;Handmade dress by using the finest French laces & silks / delivered world!",
         "categories": [
-          "Clothing (Brand)",
           "Bridal Shop",
-          "Fashion Designer"
+          "Fashion Designer",
+          "Clothing (Brand)"
         ],
+        "addr": "Room1302, 13/F Bonham Centre, 79-85 Bonham Strand, Sheung Wan",
+        "area": "852 Hong Kong",
         "email": "info@bysilentsiren.com",
         "tel": "27424151"
       }
@@ -63,5 +65,20 @@
   "tags": [
     "bridal",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room1302, 13/F Bonham Centre, 79-85 Bonham Strand, Sheung Wan"
+      },
+      "googleMapsPlaceId": "ChIJdRHUR3wABDQRHLIxqUWwdQI",
+      "coordinates": {
+        "lat": 22.2859962,
+        "lng": 114.1515295
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }

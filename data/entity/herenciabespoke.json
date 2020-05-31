@@ -62,8 +62,22 @@
     }
   ],
   "tags": [
-    "bridal",
     "clothing",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit 1101, Tung Ming Building, 40-42 Des Voeux Road Central"
+      },
+      "googleMapsPlaceId": "ChIJuXJkWGMABDQR54-XO6qDXAU",
+      "coordinates": {
+        "lat": 22.2831666,
+        "lng": 114.1567289
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }
