@@ -146,11 +146,12 @@ class Importer {
                 })
                     .then(r -> r.text())
                     .then(text -> {
-                        var r = new EReg('"https:\\\\/\\\\/www.facebook.com\\\\/([A-Za-z0-9_]+)\\\\/photos\\\\/${set}\\\\/${fbid}\\\\/', "");
+                        var r = new EReg('"https:\\\\/\\\\/www.facebook.com\\\\/([A-Za-z0-9_\\\\.\\\\-]+)\\\\/photos\\\\/${set}\\\\/${fbid}\\\\/', "");
                         return if (r.match(text)) {
                             var owner = r.matched(1);
                             'https://www.facebook.com/${owner}/photos/${set}/${fbid}/';
                         } else {
+                            trace(text);
                             throw 'Cannot figure out the owner of this photo';
                         }
                     });
