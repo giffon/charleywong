@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
+        "name": "SOJ Wedding",
         "id": "1121903274494892",
         "about": "出售及租賃優質婚紗晚裝、男禮、姊妹裙、媽媽裙，另有化妝攝影一條龍、設計佈置服務。SOJ意思是spring of joy, 務求協助所有客人能輕鬆愉快地預備難忘的婚禮，充滿喜樂！",
         "categories": [
-          "Professional service"
+          "Professional Service"
         ],
         "addr": "RM B1, 22/F, Gold King Industrial Building, Tai Lin Pai Road 35-41, Kwai Hing",
-        "area": "Hong Kong",
+        "area": "N.T., Hong Kong",
         "email": "sojwedding@gmail.com",
         "tel": "62076066"
       },
       "url": "https://www.facebook.com/sojwedding/"
+    },
+    {
+      "url": "https://www.instagram.com/soj_wedding/",
+      "meta": {
+        "name": "SOJ Wedding",
+        "about": "🎀SOJ 🎀 出售及租賃婚紗👰🏻、晚裝👗，提供優質及一條龍服務💖SOJ意思是Spring of Joy，我們希望所有到來的客人有難忘輕鬆的體驗，充滿喜樂🎉🎉💃🏻💃🏻💃🏻"
+      }
     }
   ],
   "posts": [
@@ -30,9 +38,25 @@
   "tags": [
     "bridal",
     "makeup",
-    "photographer"
+    "photography",
+    "shop"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00046"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "RM B1, 22/F, Gold King Industrial Building, Tai Lin Pai Road 35-41, Kwai Hing"
+      },
+      "googleMapsPlaceId": "ChIJFfeqmpn4AzQRzHhgX8LJPy0",
+      "coordinates": {
+        "lat": 22.3640343,
+        "lng": 114.1343206
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
