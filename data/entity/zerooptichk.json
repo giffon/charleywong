@@ -7,16 +7,24 @@
   "webpages": [
     {
       "meta": {
+        "name": "零式光學 ZERO OPTIC",
         "id": "382396109063020",
         "about": "由零開始的一間眼鏡小店",
         "categories": [
-          "Sunglasses & eyewear shop"
+          "Sunglasses & Eyewear Store"
         ],
         "addr": "九龍旺角彌敦道582-592號信和中心214號舖",
         "area": "Hong Kong",
         "tel": "66458529"
       },
       "url": "https://www.facebook.com/zerooptichk/"
+    },
+    {
+      "url": "https://www.instagram.com/zero.optic/",
+      "meta": {
+        "name": "零式光學ZERO-OPTIC",
+        "about": "花了近十年時間在眼鏡業內學習，終於有了一個眼鏡小店形式的想法，一切由零開始，結果開店遇到不少困難，但仍得到朋友們的支持，成立了ZERO OPTIC。\n希望各位眼鏡愛好者過來交流。\n信和中心214見！"
+      }
     }
   ],
   "posts": [
@@ -29,5 +37,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01668"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍旺角彌敦道582-592號信和中心214號舖"
+      },
+      "googleMapsPlaceId": "ChIJe3UbGccABDQRKgBfYOLDYok",
+      "coordinates": {
+        "lat": 22.3161482,
+        "lng": 114.1701611
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
