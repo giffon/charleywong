@@ -5,20 +5,37 @@
   },
   "webpages": [
     {
-      "url": "http://www.yoyoyipmakeup.com"
+      "url": "https://www.yoyoyipmakeup.com"
     },
     {
       "meta": {
+        "name": "Yoyo Yip Make Up",
         "id": "393542627361107",
         "about": "Bridal Makeup | Bridesmaids Makeup | Fashion Makeup",
         "categories": [
-          "Makeup artist"
+          "Makeup Artist"
         ],
         "addr": "801, 275 Des Voeux Road Central Sheung Wan",
         "area": "Hong Kong",
         "tel": "98550771"
       },
       "url": "https://www.facebook.com/yoyoyipmakeup/"
+    },
+    {
+      "url": "https://www.instagram.com/yoyoyipmakeup/",
+      "meta": {
+        "name": "y o y o y i p",
+        "about": "#點到即止的美麗\n.\n🎬 YouTube👇🏻\nTF Beauty $1050貴婦粉底實測"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCOOASmRuvHgVXM9KPtt5N-A",
+      "meta": {
+        "id": "UCOOASmRuvHgVXM9KPtt5N-A",
+        "location": "Hong Kong",
+        "name": "Yoyo Yip",
+        "about": "香港新娘化妝師，同Wyman一樣，其實最鍾意買野，最憎 (幫自己) 化妝。\n\nIG @yoyoyipmakeup"
+      }
     }
   ],
   "posts": [
@@ -30,5 +47,20 @@
     "makeup",
     "artist",
     "wedding"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "801, 275 Des Voeux Road Central Sheung Wan"
+      },
+      "googleMapsPlaceId": "ChIJqaQPPycBBDQRv_2oxCMI94Q",
+      "coordinates": {
+        "lat": 22.286851,
+        "lng": 114.1518419
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }
