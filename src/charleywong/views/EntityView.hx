@@ -183,6 +183,7 @@ class EntityView extends View {
         var item = if (
             (
                 ~/^https:\/\/www\.facebook\.com\/[^\/]+\/(?:posts|photos|videos)\/.+$/.match(p.url) ||
+                ~/^https:\/\/www\.facebook.com\/photo\//.match(p.url) ||
                 ~/^https:\/\/www\.facebook.com\/permalink\.php\?story_fbid=[0-9]+&id=[0-9]+/.match(p.url)
             )
             && isFbPostEmbeddable(p)

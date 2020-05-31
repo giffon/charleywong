@@ -117,60 +117,82 @@ class Importer {
         ].filter(url -> url != null);
     }
 
-    static function importFb(url:URL) {
-        switch (extractFbPost(url)) {
-            case null:
-                //pass
-            case handle:
-                var href = if (url.pathname == "/permalink.php") {
-                    url.pathname + url.search;
-                } else {
-                    url.pathname;
-                }
-                var url = if (url.pathname == "/permalink.php") {
-                    var params = parseSearch(url.search);
-                    Path.join([url.origin, url.pathname]) + '?story_fbid=' + params["story_fbid"].urlEncode() + "&id=" + params["id"].urlEncode();
-                } else {
-                    Path.join([url.origin, url.pathname]);
-                }
+    static function importFb(url:URL):Promise<Void> {
+        if (
+            extractFbPost(url) != null ||
+            switch (url) {
+                case {
+                    origin: "https://www.facebook.com",
+                    pathname: "/photo/",
+                }:
+                    true;
+                case _:
+                    false;
+            }
+        ) {
+            var href = if (url.pathname == "/permalink.php" || url.pathname == "/photo/") {
+                url.pathname + url.search;
+            } else {
+                url.pathname;
+            }
+            var url:Promise<String> = if (url.pathname == "/permalink.php") {
+                var params = parseSearch(url.search);
+                Promise.resolve(Path.join([url.origin, url.pathname]) + '?story_fbid=' + params["story_fbid"].urlEncode() + "&id=" + params["id"].urlEncode());
+            } else if (url.pathname == "/photo/") {
+                var fbid = url.searchParams.get("fbid");
+                var set = url.searchParams.get("set");
+                window.fetch(Std.string(url), {
+                    cache: NO_CACHE,
+                })
+                    .then(r -> r.text())
+                    .then(text -> {
+                        var r = new EReg('"https:\\\\/\\\\/www.facebook.com\\\\/([A-Za-z0-9_]+)\\\\/photos\\\\/${set}\\\\/${fbid}\\\\/', "");
+                        return if (r.match(text)) {
+                            var owner = r.matched(1);
+                            'https://www.facebook.com/${owner}/photos/${set}/${fbid}/';
+                        } else {
+                            throw 'Cannot figure out the owner of this photo';
+                        }
+                    });
+            } else {
+                Promise.resolve(Path.join([url.origin, url.pathname]));
+            }
 
-                if (document.querySelector('.userContentWrapper') != null) { //old layout
-                    var postNode = document.querySelector('.userContentWrapper a[href*="${href}"]').closest(".userContentWrapper");
-                    var postTime = postNode.querySelector("abbr[data-utime]").dataset.utime;
-                    var sharedWithNode = postNode.querySelector("*[data-tooltip-content^='Shared with: '], a.fbPrivacyAudienceIndicator");
-                    var sharedWith = if (sharedWithNode.dataset.tooltipContent.startsWith("Shared with: "))
-                        sharedWithNode.dataset.tooltipContent.substr("Shared with: ".length);
-                    else
-                        sharedWithNode.dataset.tooltipContent;
-                    postToServer({
-                        url: url,
-                        utime: postTime,
-                        sharedWith: sharedWith,
-                    });
-                } else {
-                    var postNode = document.querySelector('a[href*="${href}"]').closest("div[role='article']");
-                    var sharedWith = [
-                        for (img in postNode.querySelectorAll("img[width='12'][alt]"))
-                            (cast img:ImageElement)
-                    ].find(img -> switch (img.alt) {
-                        case "Public": true;
-                        case "Custom": true;
-                        case _: false;
-                    }).alt;
-                    postToServer({
-                        url: url,
-                        sharedWith: sharedWith,
-                    });
-                }
-                return;
+            if (document.querySelector('.userContentWrapper') != null) { //old layout
+                var postNode = document.querySelector('.userContentWrapper a[href*="${href}"]').closest(".userContentWrapper");
+                var postTime = postNode.querySelector("abbr[data-utime]").dataset.utime;
+                var sharedWithNode = postNode.querySelector("*[data-tooltip-content^='Shared with: '], a.fbPrivacyAudienceIndicator");
+                var sharedWith = if (sharedWithNode.dataset.tooltipContent.startsWith("Shared with: "))
+                    sharedWithNode.dataset.tooltipContent.substr("Shared with: ".length);
+                else
+                    sharedWithNode.dataset.tooltipContent;
+                return url.then(url -> postToServer({
+                    url: url,
+                    utime: postTime,
+                    sharedWith: sharedWith,
+                }));
+            } else {
+                var postNode = document.querySelector('a[href*="${href}"]').closest("div[role='article']");
+                var sharedWith = [
+                    for (img in postNode.querySelectorAll("img[width='12'][alt]"))
+                        (cast img:ImageElement)
+                ].find(img -> switch (img.alt) {
+                    case "Public": true;
+                    case "Custom": true;
+                    case _: false;
+                }).alt;
+                return url.then(url -> postToServer({
+                    url: url,
+                    sharedWith: sharedWith,
+                }));
+            }
         }
 
         switch (extractFbHomePage(url)) {
             case null:
                 //pass
             case handle:
-                importFbProfile(handle);
-                return;
+                return importFbProfile(handle);
         }
 
         throw 'Cannot handle $url';
@@ -253,8 +275,8 @@ class Importer {
         };
     }
 
-    static function postToServer(data:Dynamic) {
-        window.fetch(Path.join([Content.serverEndpoint]), {
+    static function postToServer(data:Dynamic):Promise<Void> {
+        return window.fetch(Path.join([Content.serverEndpoint]), {
             method: "POST",
             mode: CORS,
             cache: NO_CACHE,
@@ -272,14 +294,14 @@ class Importer {
             });
     }
 
-    static function importFbProfile(handle:String) {
-        getFbProfile(handle)
+    static function importFbProfile(handle:String):Promise<Void> {
+        return getFbProfile(handle)
             .then(postToServer);
     }
 
-    static function importIgProfile(handle:String) {
+    static function importIgProfile(handle:String):Promise<Void> {
         var profile = getIgProfile(handle);
-        postToServer(profile);
+        return postToServer(profile);
     }
 
     static function fbId():Promise<String> {
