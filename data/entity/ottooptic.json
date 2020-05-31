@@ -77,5 +77,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00834"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角彌敦道582-592號信和中心3樓303室"
+      },
+      "googleMapsPlaceId": "ChIJE3naCEcBBDQRYPCOr9te-vQ",
+      "coordinates": {
+        "lat": 22.3160575,
+        "lng": 114.1703633
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
