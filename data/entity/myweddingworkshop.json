@@ -6,32 +6,47 @@
   "webpages": [
     {
       "meta": {
+        "name": "My Wedding Workshop",
         "id": "692209000865889",
         "categories": [
-          "Bridal shop",
-          "Product/service"
+          "Product/Service",
+          "Bridal Shop"
         ],
-        "addr": "九龍新蒲崗五芳街12號利景工業大廈5樓516室",
-        "area": "Kowloon, Hong Kong",
         "email": "myweddingworkhapihapi@gmail.com",
         "tel": "56024800"
       },
       "url": "https://www.facebook.com/myweddingworkshop/"
-    }
-  ],
-  "posts": [
-    {
-      "url": "https://www.facebook.com/myweddingworkshop/photos/a.798776106875844/2527693050650799"
     },
     {
-      "url": "https://www.facebook.com/myweddingworkshop/photos/a.798776106875844/2523211391098965"
+      "url": "https://www.instagram.com/myweddingworkshop.hk/",
+      "meta": {
+        "name": "My Wedding Workshop",
+        "about": "試身敬請預約🗓，不設walk-in\n(最後預約時間為19:30🕢)\n📲5602 4800\n👰🏼訂購婚紗\n👰🏼婚紗晚裝/裙褂/媽媽禮服/男仕禮服租借\n👰🏼婚紗晚裝，新娘化妝及攝影攝錄一站式服務"
+      }
     }
   ],
+  "posts": [],
   "tags": [
     "bridal",
-    "makeup"
+    "makeup",
+    "shop"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00087"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍新蒲崗五方街12號利景工業大廈5樓516室"
+      },
+      "googleMapsPlaceId": "ChIJKS39eNoGBDQRNIb_z-hswe0",
+      "coordinates": {
+        "lat": 22.3378142,
+        "lng": 114.1999012
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
   ]
 }
