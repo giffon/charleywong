@@ -6,6 +6,22 @@
   },
   "webpages": [
     {
+      "url": "https://www.facebook.com/517191118397141/",
+      "meta": {
+        "name": "Vision Enhancement Centre Ltd",
+        "id": "517191118397141",
+        "about": "健視專業視光中心有限公司\n提供全面的眼睛檢查, 眼鏡或隱形眼鏡驗配, 兒童近視控制等服務",
+        "categories": [
+          "Optician",
+          "Optometrist"
+        ],
+        "addr": "RM 1302, TWO GRAND TOWER, 625 NATHAN ROAD, KLN",
+        "area": "Hong Kong",
+        "email": "visionenh@yahoo.com.hk",
+        "tel": "27826722"
+      }
+    },
+    {
       "url": "https://www.facebook.com/visionenh/"
     }
   ],
@@ -53,5 +69,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01654"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "RM 1302, TWO GRAND TOWER, 625 NATHAN ROAD, KLN"
+      },
+      "googleMapsPlaceId": "ChIJ3Qw8occABDQRjLRulOid_V0",
+      "coordinates": {
+        "lat": 22.317605,
+        "lng": 114.169502
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
