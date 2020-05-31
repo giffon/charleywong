@@ -6,19 +6,24 @@
   },
   "webpages": [
     {
+      "url": "https://appleshop7077bc.boutir.com"
+    },
+    {
       "meta": {
-        "about": "深水埗西九龍中心7樓7170&7171號（旗艦店）\n\nMonday - Friday ： 2pm - 6:30pm...\n\n\nSee more",
+        "name": "其一文創 Kayztyle",
+        "id": "352604204774634",
+        "about": "深水埗西九龍中心7樓7170&7171號（旗艦店）\n\nMonday - Friday ： 2pm - 6:30pm\nSaturday & Sunday : 2pm - 6:30pm\nInstagram: kayztylehk\nEmail: Kayztyle@gmail.com",
         "categories": [
-          "Product/service"
+          "Product/Service"
         ],
-        "email": "kayztyle@gmail.com",
-        "id": "352604204774634"
+        "email": "kayztyle@gmail.com"
       },
       "url": "https://www.facebook.com/kayztyle/"
     },
     {
       "meta": {
-        "about": "深水埗西九中心7樓7170及7171舖 Dragon Centre, Shamshuipo, Kowloon.。\nMon - Fri：2pm-6:30pm\n。Sat & Sun：2pm-7:30pm\n查詢: wts +852 5313 4880；\n電郵:kayztyle@gmail.com"
+        "name": "其一文創．Kayztyle",
+        "about": "深水埗西九中心7樓7170及7171舖 Dragon Centre, Shamshuipo, Kowloon.。\nMon - Fri：2pm-6:30pm\n。Sat & Sun：2pm-6:30pm\n查詢: wts +852 5313 4880；\n電郵:kayztyle@gmail.com"
       },
       "url": "https://www.instagram.com/kayztylehk/"
     }
@@ -37,5 +42,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00525"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗西九龍中心7樓7170&7171號"
+      },
+      "googleMapsPlaceId": "ChIJM3slEbMABDQRpTr8ToiBz18",
+      "coordinates": {
+        "lat": 22.331068,
+        "lng": 114.159765
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
