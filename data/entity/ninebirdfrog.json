@@ -6,17 +6,30 @@
   },
   "webpages": [
     {
+      "url": "https://www.ninebirdfrog.store"
+    },
+    {
       "meta": {
+        "name": "九鳥蛙古董館 Nine Bird Frog Antiques",
+        "id": "274459806254795",
         "about": "「九鳥蛙古董館」從世界各地收藏不同時代的古董飾物，經過翻新修復，有時會加上自己的設計和改裝，並以大眾接受的相宜價錢出發，讓每人也有機會體驗古品穿戴身上的獨特藝術感和魅力。",
         "categories": [
-          "Jewellery/watches",
-          "Antiques shop",
-          "Clothing (brand)"
+          "Jewelry/Watches",
+          "Antique Store",
+          "Clothing (Brand)"
         ],
-        "email": "ninebirdfrog@gmail.com",
-        "id": "274459806254795"
+        "addr": null,
+        "area": "香港九龍荔枝角長順街15號 D2 Place TWO （二期）1/F 118號舖 （荔枝角MTR D2出口）",
+        "email": "ninebirdfrog@gmail.com"
       },
       "url": "https://www.facebook.com/ninebirdfrog/"
+    },
+    {
+      "url": "https://www.instagram.com/ninebirdfrog/",
+      "meta": {
+        "name": "九鳥蛙古董館",
+        "about": "🐸⏱⏳🗝🕊\n當您看見九鳥蛙的懷錶鎖匙，代表邀請您到九鳥蛙古董館，看牠穿梭不同時代的珍品收藏！\n九鳥蛙還會翻新和修復破損的古董，有時加上設計改裝, Upcyling令古董飾物重生。\nFind us at:\nShop 118, D2 Place TWO\n#antique #vintage #watch"
+      }
     }
   ],
   "posts": [
@@ -31,5 +44,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00041"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍荔枝角長順街15號 D2 Place TWO （二期）1/F 118號舖"
+      },
+      "googleMapsPlaceId": "ChIJH5VZllQHBDQRlss6B-5J7_g",
+      "coordinates": {
+        "lat": 22.3360897,
+        "lng": 114.1475583
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
