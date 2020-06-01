@@ -6,18 +6,26 @@
   "webpages": [
     {
       "meta": {
-        "about": "多用途工作室\n攝影 / 瑜珈 / 工作坊 / 私房菜 / 派對場地\n-地理位置方便，鄰近德福廣場...\n\n\n\nSee more",
+        "name": "伵舍",
+        "id": "101379731295282",
+        "about": "多用途工作室 \n攝影 / 瑜珈 / 工作坊 / 私房菜 / 派對場地\n-地理位置方便，鄰近德福廣場\n-全新裝修、陽光充足、充滿文藝氣息\n-備有煮食場地，煮食用具一應俱全\n-提供瑜伽用品\n-歡迎DM預約查詢",
         "categories": [
-          "Product/service",
-          "Local service",
-          "Film/Television studio"
+          "Local Service",
+          "Product/Service",
+          "Movie/Television Studio"
         ],
         "addr": "九龍灣美羅中心2期1825室",
-        "area": "Hong Kong",
-        "email": "shishastudiohk@gmail.com",
-        "id": "101379731295282"
+        "area": "000000 Hong Kong",
+        "email": "shishastudiohk@gmail.com"
       },
       "url": "https://www.facebook.com/shishastudiohk/"
+    },
+    {
+      "url": "https://www.instagram.com/shishastudiohk/",
+      "meta": {
+        "name": "伵舍Studio",
+        "about": "多用途工作室\n攝影 / 瑜珈 / 工作坊 / 私房菜 / 派對場地 //\n🏠 地理位置方便，鄰近德福廣場￼\n🌾 全新裝修、陽光充足、充滿文藝氣息￼\n🍳備有煮食場地，煮食用具一應俱全￼￼\n🧘‍♀️瑜伽用品由 @lululemonhk 全力贊助\n✉️ 歡迎DM預約查詢\n."
+      }
     }
   ],
   "posts": [
@@ -27,5 +35,20 @@
   ],
   "tags": [
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍灣美羅中心2期1825室"
+      },
+      "googleMapsPlaceId": "ChIJS7zbNcsGBDQRfIpCsLuepN8",
+      "coordinates": {
+        "lat": 22.325047,
+        "lng": 114.2109077
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
