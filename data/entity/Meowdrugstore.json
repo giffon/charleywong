@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.morilovebeauty.com"
+    },
+    {
       "url": "https://www.youtube.com/channel/UCW8QbVxBE0shq7TKnnt7N1A",
       "meta": {
         "id": "UCW8QbVxBE0shq7TKnnt7N1A",
@@ -16,7 +19,7 @@
       "meta": {
         "name": "貓婆藥房",
         "id": "513124815426458",
-        "about": "。。。敏感皮膚的護膚戰鬥史。。。\n護膚 健康 化妝 營養 自然療法\nwww.morilovebeauty.com",
+        "about": "。。。敏感皮膚的護膚戰鬥史。。。\n        護膚 健康 化妝 營養 自然療法\n        www.morilovebeauty.com",
         "categories": [
           "Interest"
         ]
@@ -26,8 +29,8 @@
     {
       "url": "https://www.instagram.com/kimmy_chan_/",
       "meta": {
-        "name": "貓婆藥房 Mori love beauty",
-        "about": "天然護膚品 🌵 天然化妝品 🌵\n敏感肌方案 🌵 高效修護\nFacebook @貓婆藥房\nWhatsapp 98720121\n尖沙咀諾士佛臺9號冠福中心4樓403室\n銅鑼灣希慎道8號裕景商業中心9樓948室\nwww.morilovebeauty.com\nYouTube 🎥"
+        "name": "貓婆藥房 ᴍᴏʀɪ ʟᴏᴠᴇ ʙᴇᴀᴜᴛʏ",
+        "about": "天然護膚品 🌵 天然化妝品 🌵\n敏感肌方案 🌵 高效修護\nFacebook @貓婆藥房\nWhatsapp 96903178\n尖沙咀諾士佛臺9號冠福中心4樓403室\nwww.morilovebeauty.com\nYouTube 🎥 戴口罩的護膚程序"
       }
     }
   ],
@@ -47,5 +50,20 @@
   "yellowBlueMapIds": [
     "Y_SHOP02037",
     "Y_SHOP02038"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀諾士佛臺9號冠福中心4樓403室"
+      },
+      "googleMapsPlaceId": "ChIJmbt-n-4ABDQRLZnuvuywpXI",
+      "coordinates": {
+        "lat": 22.3013136,
+        "lng": 114.1738698
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
