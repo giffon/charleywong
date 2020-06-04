@@ -178,14 +178,18 @@ class Importer {
                     for (img in postNode.querySelectorAll("img[width='12'][alt]"))
                         (cast img:ImageElement)
                 ].find(img -> switch (img.alt) {
-                    case "Public": true;
-                    case "Custom": true;
+                    case "Public" | "Shared with Public": true;
+                    case "Custom" | "Shared with Custom": true;
                     case _: false;
-                }).alt;
-                return url.then(url -> postToServer({
-                    url: url,
-                    sharedWith: sharedWith,
-                }));
+                });
+                return url.then(url -> postToServer(
+                    if (sharedWith != null) {
+                        url: url,
+                        sharedWith: sharedWith.alt.startsWith("Shared with ") ? sharedWith.alt.substr("Shared with ".length) : sharedWith.alt,
+                    } else {
+                        url: url,
+                    }
+                ));
             }
         }
 
