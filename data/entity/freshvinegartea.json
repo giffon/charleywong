@@ -1,24 +1,31 @@
 {
   "id": "freshvinegartea",
   "name": {
-    "en": "True Boss",
-    "zh": "醋頭家"
+    "en": "True Boss (HK)",
+    "zh": "醋頭家 (香港)"
   },
   "webpages": [
     {
       "meta": {
+        "name": "True Boss 醋頭家 - 香港站",
         "id": "617689218590808",
-        "about": "不追求耀眼奪目的虛華瞬間\n所以產品沒有光鮮外表能讓人打卡炫耀，\n...\n\n\n\n\nSee more",
+        "about": "不追求耀眼奪目的虛華瞬間\n所以產品沒有光鮮外表能讓人打卡炫耀，\n\n只講究自然樸實的永恆升華\n所以產品天然健康讓人身體發出光芒\n\n我是醋頭家，\n外行的選品牌，內行的選成份",
         "categories": [
-          "Taiwanese restaurant",
-          "Smoothie and juice bar"
+          "Taiwanese Restaurant"
         ],
         "addr": "元朗建業街51號鋪-總店",
-        "area": "Yuen Long",
+        "area": "+852 98687716 Yuen Long",
         "email": "info@truebosshk.com",
         "tel": "98687716"
       },
       "url": "https://www.facebook.com/freshvinegartea/"
+    },
+    {
+      "url": "https://www.instagram.com/freshvinegartea/",
+      "meta": {
+        "name": "True Boss健康酵醋",
+        "about": "@freshvinegartea -開放加盟聯絡：98687716"
+      }
     }
   ],
   "posts": [
@@ -34,5 +41,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00123"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗建業街51號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ6y0M4S_7AzQRlzYCecnaDOA",
+      "coordinates": {
+        "lat": 22.442007,
+        "lng": 114.0313995
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }
