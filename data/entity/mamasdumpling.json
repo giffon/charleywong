@@ -5,16 +5,13 @@
   },
   "webpages": [
     {
-      "url": "https://s.openrice.com/QrbS0vTi900~uzSoDAA"
-    },
-    {
       "meta": {
+        "name": "元朗有得餃",
         "id": "138380349654695",
         "about": "我們是元朗有得餃.\n類別 :港式小食/熟食店、餛飩/餃子",
         "categories": [
-          "Chinese restaurant",
-          "Deli",
-          "Food stall"
+          "Chinese Restaurant",
+          "Deli"
         ],
         "addr": "元朗建業街47 49號地舖",
         "area": "Yuen Long",
@@ -36,5 +33,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00827"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗建業街47 49號地舖"
+      },
+      "googleMapsPlaceId": "ChIJxRxow-v7AzQRAOt2tsrrVnA",
+      "coordinates": {
+        "lat": 22.4420153,
+        "lng": 114.0316009
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }
