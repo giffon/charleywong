@@ -201,6 +201,13 @@ class Tag {
         }
     }
 
+    static public final currencyExchange:TagData = {
+        name: {
+            en: "currency exchange",
+            zh: "外幣找換",
+        }
+    }
+
     static public final bridal:TagData = {
         name: {
             en: "bridal",
