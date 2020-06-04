@@ -80,5 +80,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01414"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘毅力工業中心7樓S室"
+      },
+      "googleMapsPlaceId": "ChIJVVWlOE8BBDQRsh1zV6Ai5mk",
+      "coordinates": {
+        "lat": 22.31326769999999,
+        "lng": 114.2222855
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

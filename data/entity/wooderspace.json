@@ -44,5 +44,20 @@
   "tags": [
     "studyRoom",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘巧明街116-118號萬年工業大廈10樓D1室"
+      },
+      "googleMapsPlaceId": "ChIJzVft0QYBBDQR2hIPUKY9sT4",
+      "coordinates": {
+        "lat": 22.3110271,
+        "lng": 114.2243288
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

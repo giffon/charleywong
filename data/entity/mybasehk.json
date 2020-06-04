@@ -40,5 +40,20 @@
   "tags": [
     "studyRoom",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角彌敦道 562號 5-7 樓全層"
+      },
+      "googleMapsPlaceId": "ChIJX7moYy4BBDQROFL_qNm3oEQ",
+      "coordinates": {
+        "lat": 22.3147021,
+        "lng": 114.1705258
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

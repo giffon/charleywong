@@ -76,5 +76,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00139"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "1k Fan Leng Lau, Fanling, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJbWbB5Wn3AzQRKy8M9O_86is",
+      "coordinates": {
+        "lat": 22.4958928,
+        "lng": 114.1404641
+      },
+      "area": {
+        "zh": "北區"
+      }
+    }
   ]
 }
