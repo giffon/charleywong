@@ -1,0 +1,72 @@
+{
+  "id": "syllaflorist",
+  "name": {
+    "en": "Sylla Flower"
+  },
+  "webpages": [
+    {
+      "url": "https://www.syllaflower.com"
+    },
+    {
+      "url": "https://www.facebook.com/syllaflorist/",
+      "meta": {
+        "name": "Sylla Flower",
+        "id": "248095928976526",
+        "about": "Seasonal bouquets and flower arrangements made-to-order all year round.",
+        "categories": [
+          "Florist"
+        ],
+        "addr": "Hong Kong",
+        "area": "Tai Kok Tsu, Hong Kong",
+        "email": "busessylla@gmail.com",
+        "tel": "91053226"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/syllaflower/",
+      "meta": {
+        "name": "Joan Leung",
+        "about": "Floral Design"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/syllaflorist/posts/685622161890565",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/syllaflorist/photos/a.248142918971827/792148967904550",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/syllaflorist/photos/a.248142918971827/951992648586847",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "florist",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "703A, No.9 Walnut Street, Kowloon, Hong Kong (Visit by appointment only)"
+      },
+      "googleMapsPlaceId": "ChIJKQ79PLcABDQRMjBqsqSWrCE",
+      "coordinates": {
+        "lat": 22.3231183,
+        "lng": 114.1630481
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ]
+}
