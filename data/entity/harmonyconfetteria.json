@@ -16,6 +16,13 @@
         "addr": "將軍澳厚德邨商場東翼地下Food Lane EF11號鋪",
         "area": "Hong Kong"
       }
+    },
+    {
+      "url": "https://www.instagram.com/harmonyconfetteria/",
+      "meta": {
+        "name": "清心齋",
+        "about": "將軍澳店：坑口厚德邨商場 TKO Gatewat 東翼地下 Food Lane EF11號鋪\n屯門店：蝴蝶邨街市M213號鋪\n深水埗店：富昌邨街105號鋪\n沙田店：禾輋邨街市26號鋪"
+      }
     }
   ],
   "posts": [
@@ -74,5 +81,98 @@
     "Y_EAT01243",
     "Y_EAT01247",
     "Y_EAT02115"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "將軍澳厚德商場東翼地下FoodLane EF11號"
+      },
+      "googleMapsPlaceId": "ChIJl1UNvXUEBDQRENzWziDX55Q",
+      "coordinates": {
+        "lat": 22.3174459,
+        "lng": 114.2666795
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門蝴蝶街市215號"
+      },
+      "googleMapsPlaceId": "ChIJaYsc94r7AzQR-GEpKxbUaG4",
+      "coordinates": {
+        "lat": 22.3750072,
+        "lng": 113.9634961
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "深水埗富昌街市105號"
+      },
+      "googleMapsPlaceId": "ChIJJRNi5q0ABDQRAxSZK-f8_6w",
+      "coordinates": {
+        "lat": 22.32850419999999,
+        "lng": 114.1546509
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "沙田禾輋街市26號"
+      },
+      "googleMapsPlaceId": "ChIJsTHoe0wGBDQRnYDiAQfpkpQ",
+      "coordinates": {
+        "lat": 22.3879871,
+        "lng": 114.1945184
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "美孚新邨二期吉利徑1-21號地下50B"
+      },
+      "googleMapsPlaceId": "EiMxIEdsZWUgUGF0aCwgTGFpIENoaSBLb2ssIEhvbmcgS29uZyIwEi4KFAoSCdcMMUyr-AM0EVZT6IAcLGqkEAEqFAoSCdOTlDWr-AM0Ea1vu1B40kGJ",
+      "coordinates": {
+        "lat": 22.3368018,
+        "lng": 114.1389376
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大圍顯徑街市28號"
+      },
+      "googleMapsPlaceId": "ChIJP-J7bRIHBDQRRRETLzZh2aA",
+      "coordinates": {
+        "lat": 22.3635027,
+        "lng": 114.1720137
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "樂富邨街市405號"
+      },
+      "googleMapsPlaceId": "ChIJEUaaoigHBDQRe-Zb_qJEk9M",
+      "coordinates": {
+        "lat": 22.3390502,
+        "lng": 114.1870054
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
   ]
 }

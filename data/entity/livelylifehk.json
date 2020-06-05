@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.livelylifehk.com"
+    },
+    {
       "url": "https://www.facebook.com/livelylifehk/",
       "meta": {
         "name": "喜居生活 Lively Life",
@@ -19,6 +22,13 @@
         "area": "Hong Kong",
         "email": "info@livelylifehk.com",
         "tel": "67300643"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/livelylifehk/",
+      "meta": {
+        "name": "喜居生活 Lively Life",
+        "about": "喜居生活 一間立足於社區的社區經濟的互動平台。\n使命:\n* 鼓勵真正的社區、本土、有機、公平、永續生產模式\n* 提供生活必須品而非消費品\n我們的小店在實踐的經濟模式，以社區、以尋常百姓起居生活為重心。我們不想成為經濟巨無霸，希望所在的社區有更多的生產者，更多的社區經濟互助連結。"
       }
     }
   ],
@@ -52,5 +62,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00483"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "灣仔軒尼詩道302-308號集成中心UG/F, UG 6舖"
+      },
+      "googleMapsPlaceId": "ChIJR6MyQ1oABDQRSPavU2fSjSM",
+      "coordinates": {
+        "lat": 22.27768799999999,
+        "lng": 114.1778846
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }

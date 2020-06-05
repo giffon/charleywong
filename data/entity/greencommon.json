@@ -11,7 +11,7 @@
       "url": "https://www.instagram.com/green_common/",
       "meta": {
         "name": "Green Common",
-        "about": "Make Change Happen, Make Green Common. Our 7 shops: Central, Sheung Wan, Wan Chai, TST, Mong Kok, Tseung Kwan O, Tuen Mun"
+        "about": "Make Change Happen, Make Green Common. Our 7 shops: Central, Sheung Wan, Wan Chai, TST, Mong Kok, Tseung Kwan O, Tuen Mun\nMake IMPACT Happen"
       }
     },
     {
@@ -30,6 +30,9 @@
         "email": "info@greencommon.com",
         "tel": "35824463"
       }
+    },
+    {
+      "url": "https://twitter.com/greencommon_hk"
     }
   ],
   "posts": [
@@ -62,5 +65,150 @@
     "Y_EAT01148",
     "Y_EAT01447",
     "Y_EAT01498"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Green Common Deli Festival Walk, Shop 05, MTR Level, Festival Walk, Tat Chee Avenue, Kowloon Tong, Kowloon"
+      },
+      "googleMapsPlaceId": "ChIJfx5PRjEHBDQRIDFANIp7T_0",
+      "coordinates": {
+        "lat": 22.3373517,
+        "lng": 114.1745657
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "en": "Green Common Deli Pacific Place, Great Food Hall, LG1, 88 Queensway, Pacific Place, Admiralty, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJDVW9tmcABDQRzrlkBV5PIYc",
+      "coordinates": {
+        "lat": 22.277152,
+        "lng": 114.1648871
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "en": "Green Common Tuen Mun, Shop 7-11, G/F, The Parkville, 88 Tuen Mun Heung Sze Wui Road, Tuen Mun, NT"
+      },
+      "googleMapsPlaceId": "ChIJf2EIca37AzQR_2hYHvhGyXs",
+      "coordinates": {
+        "lat": 22.3972566,
+        "lng": 113.9750234
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "en": "Future Bar by Green Common, Shop B201-14 Basement 2, K11 MUSEA VICTORIA DOCKSIDE, 18 Salisbury Road, Tsim Sha Tsui. Kowloon"
+      },
+      "googleMapsPlaceId": "ChIJJaeB3_MBBDQRMuGmb2yQxGE",
+      "coordinates": {
+        "lat": 22.294059,
+        "lng": 114.1741227
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "en": "Green Common Wan Chai, Shop 1&2, 2/F, QRE Plaza, 202 Queen’s Road East, Wanchai, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJRc9ITEMABDQRHr3qE08qMgs",
+      "coordinates": {
+        "lat": 22.2749898,
+        "lng": 114.1721495
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "en": "Green Common Nan Fung Place, Shop 1, 1/F, Nan Fung Place, 173 Des Voeux Road Central, Central, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJUQOo33wABDQR6Yc5Ilkv0i8",
+      "coordinates": {
+        "lat": 22.285828,
+        "lng": 114.154385
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "en": "Kind Kitchen Nan Fung Place, Shop 1, 1/F, Nan Fung Place, 173 Des Voeux Road Central, Central, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJ2wxz3nwABDQRaIneySocofY",
+      "coordinates": {
+        "lat": 22.285889,
+        "lng": 114.1542971
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "en": "Green Common Landmark Alexandra, Shop B2, B/F, Landmark Alexandra, 18 Chater Road, Central, Hong Kong (MTR Central Station Exit H)"
+      },
+      "googleMapsPlaceId": "ChIJ3SfRimQABDQRPNd8y2xLtno",
+      "coordinates": {
+        "lat": 22.2816024,
+        "lng": 114.1586908
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "en": "Green Common Harbour City, Shop OT G61, G/F, Ocean Terminal, Harbour City, 17 Canton Road, Tsim Sha Tsui, Kowloon, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJS1wVUO0ABDQR9NmpzGbUoLY",
+      "coordinates": {
+        "lat": 22.2950538,
+        "lng": 114.1677803
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "en": "Green Common The FOREST, Shop 110, 1/F The FOREST, 17 Nelson Street, Mong Kok, Kowloon, Hong Kong (Opposite China Travel Service Ltd)"
+      },
+      "googleMapsPlaceId": "ChIJucKgMMYABDQRKKMpO2XUltU",
+      "coordinates": {
+        "lat": 22.318882,
+        "lng": 114.171423
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "en": "Green Common Park Central, Shop No. G05, G/F., Park Central, 9 Tong Tak Street, Tseung Kwan O, New Territories, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJVd_7PfIDBDQRX4ukyydb1yw",
+      "coordinates": {
+        "lat": 22.3076038,
+        "lng": 114.2579654
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    }
   ]
 }

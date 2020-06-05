@@ -59,5 +59,20 @@
   "tags": [
     "shop",
     "vegeterian"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍尖沙咀加拿分道2號13樓"
+      },
+      "googleMapsPlaceId": "ChIJZyTh8-0ABDQRKVtiNfa7aN8",
+      "coordinates": {
+        "lat": 22.2978162,
+        "lng": 114.1726855
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
