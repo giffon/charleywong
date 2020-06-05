@@ -376,6 +376,16 @@ class Tag {
         }
     }
 
+    static public final yacht:TagData = {
+        name: {
+            en: "yacht",
+            zh: "遊艇"
+        },
+        inherits: [
+            "transport"
+        ]
+    }
+
     static public final courier:TagData = {
         name: {
             en: "courier",
