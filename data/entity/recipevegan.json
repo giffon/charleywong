@@ -42,5 +42,20 @@
   "tags": [
     "food",
     "vegeterian"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘東廣場寧晉中心57號舖"
+      },
+      "googleMapsPlaceId": "ChIJE2B1V0UBBDQRqjVl8OYDeQ8",
+      "coordinates": {
+        "lat": 22.3109879,
+        "lng": 114.2265054
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
