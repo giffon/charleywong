@@ -24,12 +24,6 @@
     }
   ],
   "posts": [
-    {
-      "url": "https://www.facebook.com/322233675131590/photos/a.322240068464284/470980620256894"
-    },
-    {
-      "url": "https://www.facebook.com/permalink.php?story_fbid=428564314498525&id=322233675131590"
-    }
   ],
   "tags": [
     "sushi"
@@ -39,6 +33,9 @@
   ],
   "places": [
     {
+      "address": {
+        "zh": "天后電氣道83號利景閣2號地舖"
+      },
       "googleMapsPlaceId": "ChIJ6WqMIAABBDQR_EdFIJ4-SI8",
       "coordinates": {
         "lat": 22.2848413,
