@@ -1,7 +1,7 @@
 {
   "id": "oohlalanailschristy",
   "name": {
-    "en": "Ooh La La Nails - Wan Chai"
+    "en": "Ooh La La Nails"
   },
   "webpages": [
     {
@@ -16,9 +16,16 @@
         "categories": [
           "Nail Salon"
         ],
-        "addr": "Room 04, 17/F, Shun Feng International Centre, No. 182 Queen’s Road East",
+        "addr": "Room 04, 17/F,  Shun Feng International Centre,  No. 182 Queen’s Road East",
         "area": "Wan Chai",
         "tel": "51383866"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/oohlalanailscc/",
+      "meta": {
+        "name": "Ooh La La NAILS • 俄式修甲|咬甲捲甲矯正",
+        "about": "❗️“The one and the only store in WanChai”\n🎗「灣仔只此一家絕無分店」\n📲 5 1 3 8 3 8 6 6\n㊙️ Russian Mani Pedi PRO\n🈯️ 3 days guarantee\n🔝 Free upgrade\n🌐 𝐁𝐎𝐎𝐊 𝐍𝐎𝐖⤵️"
       }
     }
   ],
@@ -44,5 +51,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00118"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room 04, 17/F,  Shun Feng International Centre,  No. 182 Queen’s Road East"
+      },
+      "googleMapsPlaceId": "ChIJO9uHfewBBDQRbkSskWBeQY8",
+      "coordinates": {
+        "lat": 22.2753389,
+        "lng": 114.171594
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
