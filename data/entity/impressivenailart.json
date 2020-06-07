@@ -14,10 +14,17 @@
         "categories": [
           "Nail Salon"
         ],
-        "addr": "尖沙咀漢口道8-10號漢中大廈1樓C室",
-        "area": "Tsim Sha Tsui",
+        "addr": "尖沙咀加連威老道10號加威中心701室",
+        "area": "852 Tsim Sha Tsui",
         "email": "impressivenail@gmail.com",
         "tel": "93323397"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/impressivenail/",
+      "meta": {
+        "name": "Impressive Nail",
+        "about": "✨靈龍藝術美甲✨\n🏆屢獲美甲大賽獎項🏆\n🏆2019優秀專業美容院🏆\n🎖已考取ITEC, C&G等美甲文憑\n🎖已考取C&G 評審及導師資格\n🎖可單次/套票收費\n🎖歡迎來圖報價\n一人主理 敬請預約\nBooking/ Inquiries:9332 3397\n👉🏻直接按Link預約 📲"
       }
     }
   ],
@@ -64,5 +71,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00607"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀加連威老道10號加威中心701室"
+      },
+      "googleMapsPlaceId": "ChIJK6D1BdcBBDQRsosiaf-VcJ8",
+      "coordinates": {
+        "lat": 22.299445,
+        "lng": 114.172919
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
