@@ -11,11 +11,18 @@
         "id": "1849154225350519",
         "about": "大埔大日子美甲~Lokki Nail Art\n預約電話：62270175\n本店提供專業美甲服務,提供多種款式及種類任你選擇. 本店選用美國、日本丶韓國丶臺灣的產品~\n美甲過程大約1-2小時(視乎款式花樣）",
         "categories": [
-          "Beauty, Cosmetic & Personal Care"
+          "Nail Salon"
         ],
         "addr": "大埔鄕事會街9號大日子商場1樓125號鋪（大埔新街市對面）",
         "area": "Hong Kong",
         "tel": "62270175"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/lokkiangela/",
+      "meta": {
+        "name": "Lokki Nail Art",
+        "about": "大埔美甲~Lokki Nail Art\n本店提供專業美甲服務,提供多種款式及種類任你選擇. 本店選用美國、日本丶韓國丶臺灣的產品~\n本店擁有商業登記.美甲過程大約1-2小時(視乎款式花樣）\n預約電話：62270175"
       }
     }
   ],
@@ -45,5 +52,20 @@
   "tags": [
     "nail",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔鄕事會街9號大日子商場1樓125號鋪"
+      },
+      "googleMapsPlaceId": "ChIJodNponYJBDQRFea8xskKqkk",
+      "coordinates": {
+        "lat": 22.44688,
+        "lng": 114.1663194
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    }
   ]
 }

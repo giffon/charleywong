@@ -6,15 +6,23 @@
   "webpages": [
     {
       "meta": {
+        "name": "Naildio",
         "id": "361277524616721",
         "categories": [
-          "Nail salon"
+          "Nail Salon"
         ],
         "addr": "Room 1601 ,16/f, Solo Building, 41-43 Carnarvon Road, Tsim Sha Tsui",
-        "area": "Hong Kong",
+        "area": "Tsim Sha Tsui",
         "tel": "93532594"
       },
       "url": "https://www.facebook.com/naildio/"
+    },
+    {
+      "url": "https://www.instagram.com/naildiohk/",
+      "meta": {
+        "name": "Naildio 💛單次收費美甲店💛香港加油🤚🏻",
+        "about": "💛首次試做價手單色soakoff $199/Hardgel $219\n💅🏻美國/日本/台灣gel.價錢以IG/FB更新為准\n💛1人工作室\n💛Open at 12-9pm ☆9-11am/7pm後需預約☆\n💛謝絕package! 單次收費📣📣\n👇🏻👇🏻👇🏻WhatsApp 預約"
+      }
     }
   ],
   "posts": [
@@ -28,5 +36,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01364"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room 1601 ,16/f, Solo Building, 41-43 Carnarvon Road, Tsim Sha Tsui"
+      },
+      "googleMapsPlaceId": "ChIJhf7qd-4ABDQRzdS1nKmuCqw",
+      "coordinates": {
+        "lat": 22.2991855,
+        "lng": 114.1737434
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
