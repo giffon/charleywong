@@ -5,21 +5,23 @@
   },
   "webpages": [
     {
+      "url": "https://www.instagram.com/tmwaxing/",
       "meta": {
-        "about": "SalMate Waxing Studio 屯門蜜蠟修眉店\n🎀前國際品牌（Benefit)多年經驗蜜蠟修眉師🙋🏼‍♀️\nPlease Direct👉🏻預約 / 查詢\n提供\n- 蜜蠟修眉\n- 面部脫毛\n- 身體脫毛\n- 比堅尼脫毛\n- 美瞳線"
-      },
-      "url": "https://www.instagram.com/salmatewaxingstudio/"
+        "name": "多年經驗蜜蠟修眉師",
+        "about": "Tuen Mun Waxing Studio 屯門蜜蠟修眉店\n🎀前國際品牌（Benefit)多年經驗蜜蠟修眉師🙋🏼‍♀️\nPlease Direct👉🏻預約 / 查詢\n提供\n- 蜜蠟修眉\n- 面部脫毛\n- 身體脫毛\n- 比堅尼脫毛\n- 美瞳線"
+      }
     },
     {
       "meta": {
+        "name": "屯門蜜蠟修眉店",
         "id": "123921825131617",
-        "about": "前國際品牌蜜蠟修眉師\n- 提供 蜜蠟修眉及蜜蠟身體脫毛",
+        "about": "前國際品牌蜜蠟修眉師\n - 提供 蜜蠟修眉及蜜蠟身體脫毛",
         "categories": [
-          "Health/beauty",
-          "Beauty, cosmetic & personal care"
+          "Beauty, Cosmetic & Personal Care",
+          "Health/Beauty"
         ],
-        "addr": "屯門建泰街6號恆威工業中心B1座14/F 3E室",
-        "area": "Hong Kong"
+        "addr": null,
+        "area": "HK Hong Kong"
       },
       "url": "https://www.facebook.com/salmatewax/"
     }
@@ -38,5 +40,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00599"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "恆威工業大廈"
+      },
+      "googleMapsPlaceId": "ChIJQTYOSTv7AzQRgDOyv9o4JdY",
+      "coordinates": {
+        "lat": 22.3956277,
+        "lng": 113.9701884
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
   ]
 }

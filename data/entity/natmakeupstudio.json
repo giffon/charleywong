@@ -6,15 +6,23 @@
   "webpages": [
     {
       "meta": {
+        "name": "Nat Makeup Studio",
         "id": "1804008463010479",
-        "about": "• 專業修眉\n• 化妝髮型服務\n...\n\n\n\n\nSee more",
+        "about": "• 化妝髮型服務 • 專業修眉 • 角蛋白翹睫\n現正接受2020/21年之檔期\n預約或查詢時請註明婚期/日期\n• By Appointment Only\n• Please WhatsApp For inquiry\nhttps://api.whatsapp.com/send?phone=85265740309",
         "categories": [
-          "Makeup artist"
+          "Makeup Artist"
         ],
         "email": "natmakeupstudio@gmail.com",
         "tel": "65740309"
       },
       "url": "https://www.facebook.com/natmakeupstudio/"
+    },
+    {
+      "url": "https://www.instagram.com/natmakeupstudio/",
+      "meta": {
+        "name": "🇭🇰💪🏽▪️化妝髮型服務▪️專業修眉 ▪️角蛋白翹睫",
+        "about": "現正接受2020/21年之檔期\n預約或查詢時請註明婚期/日期\n🗓By Appointment Only\n🔻Please WhatsApp For inquiry"
+      }
     }
   ],
   "posts": [
@@ -26,5 +34,20 @@
     "makeup",
     "artist",
     "wedding"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵興工業街美聯工業大廈16樓"
+      },
+      "googleMapsPlaceId": "ChIJR-DY4mL5AzQRUKaliuMHCMA",
+      "coordinates": {
+        "lat": 22.3620561,
+        "lng": 114.1353894
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
