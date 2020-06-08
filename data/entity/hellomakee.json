@@ -10,11 +10,12 @@
     },
     {
       "meta": {
+        "name": "貘記 Makee",
         "id": "290032717788511",
-        "about": "雜貨 食桌 展覽 講座 種植 習作\n\n。4/F, 65 Wing Lok Street, Sheung wan, Hongkong 香港上環永樂街65號4樓...\n\n\nSee more",
+        "about": "雜貨   食桌   展覽   講座   種植   習作   \n\n。4/F, 65 Wing Lok Street, Sheung wan, Hongkong 香港上環永樂街65號4樓\n。開放時間：Wed to Sun 1pm-7pm \n。歡迎pm查詢貨品購買方法\n。IG. hellomakee",
         "categories": [
-          "Antiques shop",
-          "Grocers"
+          "Antique Store",
+          "Grocery Store"
         ],
         "addr": "4/F, 65 wing lok street, sheung wan",
         "area": "Sheung Wan",
@@ -24,7 +25,8 @@
     },
     {
       "meta": {
-        "about": "貘記 ｛雜貨•咖啡•展覽｝\n。4/F, 65 Wing Lok Street, Sheung wan, Hongkong\n。開放時間：Wed to Sun 1pm-7pm\n。歡迎pm查詢貨品購買方法\n。fb • hellomakee"
+        "name": "makee",
+        "about": "貘記\n。4/F, 65 Wing Lok Street, Sheung wan, Hongkong\n。開放時間：Wed to Sat 1pm-7pm\n。抗疫期間開放時間或有更改\n。歡迎pm查詢貨品購買方法\n。fb • hellomakee"
       },
       "url": "https://www.instagram.com/hellomakee/"
     }
@@ -38,9 +40,25 @@
     }
   ],
   "tags": [
-    "antique"
+    "antique",
+    "shop"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00084"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "4/F, 65 wing lok street, sheung wan"
+      },
+      "googleMapsPlaceId": "ChIJu_H6WXwABDQRY09UDBLIW4g",
+      "coordinates": {
+        "lat": 22.285826,
+        "lng": 114.1525189
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }
