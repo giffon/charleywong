@@ -6,21 +6,40 @@
   },
   "webpages": [
     {
-      "url": "http://www.hkgolden.com"
+      "url": "https://www.hkgolden.com"
     },
     {
       "meta": {
+        "name": "高登討論區 HKGolden",
         "id": "116178588425696",
         "about": "高登新聞部 http://www.facebook.com/hkgolden.news",
         "categories": [
-          "Computer & Internet website",
-          "News and media website",
-          "Gaming video creator"
+          "Computers & Internet Website",
+          "News & Media Website",
+          "Gaming Video Creator"
         ],
         "email": "marketing@alivemedia.com.hk",
         "tel": "52294470"
       },
       "url": "https://www.facebook.com/fans.hkgolden/"
+    },
+    {
+      "url": "https://www.facebook.com/hkgolden.news/",
+      "meta": {
+        "name": "高登新聞部",
+        "id": "309339342552999",
+        "about": "↓睇埋高登主頁，留意更多科技、影音、玩具界消息、新品介紹同評測！↓",
+        "categories": [
+          "News & Media Website"
+        ]
+      }
+    },
+    {
+      "url": "https://www.instagram.com/hkgoldenforum/",
+      "meta": {
+        "name": "高登討論區",
+        "about": "派膠賜酒，供應大量花生"
+      }
     }
   ],
   "posts": [
