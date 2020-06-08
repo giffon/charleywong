@@ -6,14 +6,15 @@
   "webpages": [
     {
       "meta": {
+        "name": "台灣羅東肉焿番（香港）",
         "id": "276055546072758",
         "categories": [
-          "Taiwanese restaurant",
-          "Diner"
+          "Diner",
+          "Taiwanese Restaurant"
         ],
         "addr": "元朗鳳翔路69號建輝大廈地下5號舖",
-        "area": "Hong Kong",
-        "email": "rougengfanhk@yahoo.com",
+        "area": "00852 Hong Kong",
+        "email": "lolee111@yahoo.com.hk",
         "tel": "61125353"
       },
       "url": "https://www.facebook.com/rougengfan/"
@@ -33,5 +34,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01277"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗鳳翔路69號建輝大廈地下5號舖"
+      },
+      "googleMapsPlaceId": "ChIJ__-_3wn6AzQRKw7KdHvdBY0",
+      "coordinates": {
+        "lat": 22.4422841,
+        "lng": 114.032569
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }
