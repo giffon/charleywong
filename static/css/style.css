@@ -214,7 +214,7 @@ body .MuiMenuItem-root {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
-    min-width: 480px;
+    width: 100% !important;
 }
 
 .youtube-container iframe {
