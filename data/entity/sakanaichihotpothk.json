@@ -7,23 +7,18 @@
   "webpages": [
     {
       "meta": {
+        "name": "漁一海鮮火鍋料理 Sakanaichi Hotpot",
         "id": "656111764805175",
         "about": "新鮮好味",
         "categories": [
-          "Hot pot restaurant"
+          "Hot Pot Restaurant"
         ],
         "addr": "Shop 1, 2/F, Multifield Plaza, 3-7A Prat Avenue, Tsim Sha Tsui",
-        "area": "Kwun Tong",
-        "email": "sakanaichihotpot@gmail.com"
+        "area": "852 Hong Kong",
+        "email": "sakanaichihotpot@gmail.com",
+        "tel": "61343288"
       },
       "url": "https://www.facebook.com/sakanaichihotpothk/"
-    },
-    {
-      "url": "https://www.instagram.com/hotpothk/",
-      "meta": {
-        "name": "漁一海鮮火鍋料理",
-        "about": "地址: 尖沙咀寶勒巷3-7A號 萬事昌廣場2樓1號鋪\n訂座電話: 63143288\n五大訴求！！缺一不可！！"
-      }
     }
   ],
   "posts": [
@@ -79,5 +74,20 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 1, 2/F, Multifield Plaza, 3-7A Prat Avenue, Tsim Sha Tsui"
+      },
+      "googleMapsPlaceId": "ChIJDzplpgwBBDQRYSRjOmM8VNc",
+      "coordinates": {
+        "lat": 22.2983375,
+        "lng": 114.1743575
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
