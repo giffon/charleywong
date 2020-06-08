@@ -18,11 +18,18 @@
           "Cafe"
         ],
         "addr": "Block AB, 3/F, How Ming Factory Bldg., 99 How Ming St",
-        "area": "Kwun Tong",
+        "area": "852 Kwun Tong",
         "email": "mayiknow@how-dept.com",
         "tel": "28051708"
       },
       "url": "https://www.facebook.com/howdept/"
+    },
+    {
+      "url": "https://www.instagram.com/how_dept/",
+      "meta": {
+        "name": "HOW",
+        "about": "HOW Food Factory | HOW to live well Store\n日本優質傢具生活百貨 | 室內設計 | 品牌形象及宣傳\n觀塘巧明街99號3樓AB座\n@how_interior @how_furniture @how.lim\n#howdept #howtolivewell"
+      }
     }
   ],
   "posts": [
@@ -42,5 +49,20 @@
   "yellowBlueMapIds": [
     "Y_EAT00028",
     "Y_SHOP01014"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Block AB, 3/F, How Ming Factory Bldg., 99 How Ming St"
+      },
+      "googleMapsPlaceId": "ChIJT8PvbU8BBDQRvmy8w_suDmE",
+      "coordinates": {
+        "lat": 22.312736,
+        "lng": 114.2233885
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
