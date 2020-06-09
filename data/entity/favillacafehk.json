@@ -5,17 +5,56 @@
   },
   "webpages": [
     {
+      "url": "https://favilla.com.hk"
+    },
+    {
       "meta": {
+        "name": "Favilla Cafe",
+        "id": "1755609544738973",
         "categories": [
-          "Coffee shop",
+          "Coffee Shop",
           "Florist",
           "Restaurant"
         ],
         "email": "cafe@favilla.com.hk",
-        "tel": "90143749",
-        "id": "1755609544738973"
+        "tel": "90143749"
       },
       "url": "https://www.facebook.com/favillacafehk/"
+    },
+    {
+      "url": "https://www.facebook.com/theartlabbyfavilla/",
+      "meta": {
+        "name": "The ARTlab by favilla",
+        "id": "177608219700280",
+        "categories": [
+          "Art Gallery"
+        ],
+        "addr": "Room 602, 6/F, Block B, Hoi Luen Industrial Centre,, 55 Hoi Yuen Road, Kwun Tong, Kowloon.",
+        "area": "HK Kowloon, Hong Kong",
+        "email": "admin@favilla.com.hk",
+        "tel": "35909189"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/homubyfavilla/",
+      "meta": {
+        "name": "Favilla Cafe (homu by favilla)",
+        "id": "103874004322697",
+        "categories": [
+          "Coffee Shop",
+          "Japanese Restaurant"
+        ],
+        "addr": "Shop 2013, 2/F, D-Park",
+        "area": "Tsuen Wan, Hong Kong",
+        "tel": "91339428"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/favillacafe/",
+      "meta": {
+        "name": "favilla cafe",
+        "about": "Shop5A, 7-9Hoi Kwong Street, Quarry Bay\nW3-5, Wan Chai Ferry Pier, Wan Chai"
+      }
     }
   ],
   "posts": [
@@ -30,11 +69,52 @@
     }
   ],
   "tags": [
-    "food"
+    "cafe"
   ],
   "yellowBlueMapIds": [
     "Y_EAT01165",
     "Y_EAT01166",
     "Y_EAT01444"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "favilla cafe 鰂魚涌海光街7-9號龍景大廈地下5A舖"
+      },
+      "googleMapsPlaceId": "ChIJAQCwSwwBBDQRNusIebAtifs",
+      "coordinates": {
+        "lat": 22.2883187,
+        "lng": 114.2109315
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "the Artlab by favilla 觀塘開源道55號開聯工業中心B座6樓602A室"
+      },
+      "googleMapsPlaceId": "ChIJWVq3W9cBBDQRNQOGpubrEF0",
+      "coordinates": {
+        "lat": 22.3103517,
+        "lng": 114.2243761
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "homu by favilla 新界荃灣青山公路荃灣段398號愉景新城2樓2013號舖"
+      },
+      "googleMapsPlaceId": "ChIJd6GNxcj5AzQRYOhEUI4_deI",
+      "coordinates": {
+        "lat": 22.3699122,
+        "lng": 114.1144306
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
   ]
 }
