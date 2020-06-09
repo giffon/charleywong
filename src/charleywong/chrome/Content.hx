@@ -161,9 +161,7 @@ class Content {
         }
     }
 
-    static public function timestampFromTimeSpan(timeSpan:SpanElement):Float {
-        var labelledby = timeSpan.getAttribute("aria-labelledby");
-        var timeString = timeSpan.ownerDocument.getElementById(labelledby).innerText;
+    static public function timestampFromString(timeString:String):Float {
         return if (~/^[0-9]/.match(timeString))
             Date.now().getTime();
         else if (timeString.startsWith("Yesterday"))
@@ -237,8 +235,23 @@ class Content {
                 .filter(timeSpan -> timeSpan != null)
                 .map(timeSpan -> {
                     node: (cast timeSpan:SpanElement),
-                    time: timestampFromTimeSpan(cast timeSpan),
+                    time: {
+                        var labelledby = timeSpan.getAttribute("aria-labelledby");
+                        var timeString = timeSpan.ownerDocument.getElementById(labelledby).innerText;
+                        timestampFromString(timeString);
+                    },
                 });
+
+            if (times.length == 0) {
+                times = posts
+                    .map(node -> node.querySelector("span[id] a[role='link']"))
+                    .filter(timeSpan -> timeSpan != null)
+                    .map(timeSpan -> {
+                        node: (cast timeSpan:SpanElement),
+                        time: timestampFromString(timeSpan.innerText)
+                    });
+            }
+
             if (times.length == 0) {
                 Timer.delay(function() alert("讀不到時間資訊"), 100);
                 return;
