@@ -72,3 +72,5 @@ The web interface is a [React](https://reactjs.org/) / [Express](https://express
 All program source code are written in [Haxe](https://haxe.org/). Our dev environment is [Visual Studio Code](https://code.visualstudio.com/) with its [remote containers extension](https://code.visualstudio.com/docs/remote/containers).
 
 Open the checked out the source code (with git submodules) using Code, with dev container. Run `haxe build.hxml` to build the web interface. Use `npm start` to run locally.
+
+To update chrome extension, run `haxe chrome-extension.hxml`, open Chrome and go to Extension page(chrome://extensions) and reload Charley.
