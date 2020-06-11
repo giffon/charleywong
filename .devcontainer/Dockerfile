@@ -3,7 +3,7 @@
 # Licensed under the MIT License. See https://go.microsoft.com/fwlink/?linkid=2090316 for license information.
 #-------------------------------------------------------------------------------------------------------------
 
-FROM ubuntu:20.04
+FROM ubuntu:18.04
 
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
@@ -20,8 +20,8 @@ RUN apt-get update \
     && apt-get install -y git iproute2 procps sudo bash-completion build-essential curl python3 python3-virtualenv software-properties-common \
     && curl -sL https://deb.nodesource.com/setup_12.x | bash - \
     && apt-get install -y nodejs=12.* \
-    && add-apt-repository ppa:haxe/haxe4.1 \
-    && apt-get install -y haxe=1:4.1* \
+    && add-apt-repository ppa:haxe/haxe4.0 \
+    && apt-get install -y haxe=1:4.0* \
     && add-apt-repository ppa:deadsnakes/ppa \
     && apt-get install -y python3.7 \
     #
