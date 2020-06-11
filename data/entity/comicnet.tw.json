@@ -1,0 +1,61 @@
+{
+  "id": "comicnet.tw",
+  "name": {
+    "zh": "臺灣漫畫基地",
+    "en": "Taiwan Comic Base"
+  },
+  "webpages": [
+    {
+      "url": "https://tcb.culture.tw"
+    },
+    {
+      "url": "https://www.facebook.com/comicnet.tw/",
+      "meta": {
+        "name": "臺灣漫畫基地 Taiwan Comic Base",
+        "id": "135093783257697",
+        "about": "臺灣漫畫資訊",
+        "categories": [
+          "Arts & Entertainment"
+        ],
+        "addr": "臺北市大同區華陰街38號",
+        "area": "Taipei, Taiwan 103",
+        "email": "service@tcb.tw",
+        "tel": "886225553155"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/comicbase.tw/",
+      "meta": {
+        "name": "臺灣漫畫基地",
+        "about": "文化部為扶植臺灣漫畫產業，於臺北市華陰街36及38號二連棟四層樓設置臺灣首座「漫畫基地」，作為臺灣漫畫面向世界的第一道櫥窗及漫畫創作者之家。"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/comicnet.tw/posts/2663705280396522",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "artist",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "臺北市大同區華陰街38號"
+      },
+      "googleMapsPlaceId": "ChIJWyaBiv6pQjQRDpxt6as1-b8",
+      "coordinates": {
+        "lat": 25.0500376,
+        "lng": 121.5161359
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    }
+  ]
+}
