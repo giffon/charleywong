@@ -50,10 +50,39 @@
   ],
   "places": [
     {
+      "address": {
+        "zh": "旺角西洋菜南街1N號兆萬中心地庫2樓211A號舖"
+      },
+      "googleMapsPlaceId": "ChIJFd-vN8YABDQRaNyatK8Zcy0",
+      "coordinates": {
+        "lat": 22.3159236,
+        "lng": 114.1705321
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角亞皆老街109號皆旺商場2樓228-229號舖"
+      },
       "googleMapsPlaceId": "ChIJj9O5NHsBBDQRNpbu2WtJJXo",
       "coordinates": {
         "lat": 22.320015,
         "lng": 114.1714202
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "油麻地彌敦道530-538號現時點商場2樓241號鋪"
+      },
+      "googleMapsPlaceId": "ChIJC_IxJ8EABDQRL248DMl1jXA",
+      "coordinates": {
+        "lat": 22.3133363,
+        "lng": 114.1707503
       },
       "area": {
         "zh": "油尖旺區"
