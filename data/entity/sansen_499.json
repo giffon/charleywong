@@ -8,6 +8,7 @@
       "meta": {
         "name": "三川居酒屋",
         "id": "1616306841798153",
+        "about": "",
         "categories": [
           "Japanese Restaurant"
         ],
@@ -45,10 +46,26 @@
   ],
   "places": [
     {
+      "address": {
+        "zh": "銅鑼灣軒尼詩道499號永光商業大廈地庫"
+      },
       "googleMapsPlaceId": "ChIJPY3luq0BBDQRn0vgNfkwevw",
       "coordinates": {
         "lat": 22.2802898,
         "lng": 114.1830657
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "渣甸街50號渣甸中心6樓"
+      },
+      "googleMapsPlaceId": "ChIJLYxxHVQABDQR3h2Si0ST8R4",
+      "coordinates": {
+        "lat": 22.279393,
+        "lng": 114.185618
       },
       "area": {
         "zh": "灣仔區"
