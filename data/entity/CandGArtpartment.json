@@ -1,0 +1,81 @@
+{
+  "id": "CandGArtpartment",
+  "name": {
+    "en": "C&G Artpartment"
+  },
+  "webpages": [
+    {
+      "url": "http://www.candg-artpartment.com"
+    },
+    {
+      "url": "https://www.facebook.com/CandGArtpartment/",
+      "meta": {
+        "name": "C&G Artpartment",
+        "id": "165968996797440",
+        "about": "A Hong Kong based art space for idea exchanges, providing art courses, art exhibitions and a small book shop for local art books",
+        "categories": [
+          "Art Gallery"
+        ],
+        "addr": "3/F, 222 Sai Yeung Choi St South, Prince Edward",
+        "area": "000 Kowloon, Hong Kong",
+        "email": "info@candg-artpartment.com",
+        "tel": "23909332"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/candgartpartment/",
+      "meta": {
+        "name": "C&G Artpartment",
+        "about": "Goal: to fill up the crack in the current art scene, and becomes a space for idea exchanges. (Hong Kong)"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/CandGArtpartment/posts/2419284791465838",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/CandGArtpartment/posts/2705956559465325",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/CandGArtpartment/posts/2743173525743628",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/CandGArtpartment/posts/3239485242779118",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "artist",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "3/F, 222 Sai Yeung Choi St South, Prince Edward"
+      },
+      "googleMapsPlaceId": "ChIJleoTS8gABDQRkwLOjku9AQk",
+      "coordinates": {
+        "lat": 22.322843,
+        "lng": 114.169463
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    "Y_SHOP00582"
+  ]
+}
