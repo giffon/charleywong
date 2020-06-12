@@ -77,13 +77,22 @@ class Importer {
             cache: FORCE_CACHE,
         })
             .then(r -> r.text())
-            .then(text -> {
+            .then(function (text) {
                 var p = new DOMParser();
                 var doc = p.parseFromString(text, TEXT_HTML);
                 switch (doc.querySelector("link[rel='canonical']")) {
-                    case null: null;
-                    case link: link.getAttribute("href");
+                    case null:
+                        // pass
+                    case link:
+                        return link.getAttribute("href");
                 }
+                switch (doc.querySelector("meta[property='og:url']")) {
+                    case null:
+                        // pass
+                    case meta:
+                        return meta.getAttribute("content");
+                }
+                return null;
             });
     }
 
