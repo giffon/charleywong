@@ -13,7 +13,7 @@
           "Steakhouse",
           "Bar & Grill"
         ],
-        "addr": "C Shop 6 G/F Cheung Fai Building 45 Cheung Wah Street  Cheung Sha Wan",
+        "addr": "Shop 6 G/F Cheung Fai Building 45 Cheung Wah Street  Cheung Sha Wan",
         "area": "Hong Kong",
         "tel": "39565441"
       },
@@ -41,6 +41,9 @@
   ],
   "places": [
     {
+      "address": {
+        "en": "Shop 6 G/F Cheung Fai Building 45 Cheung Wah Street Cheung Sha Wan"
+      },
       "googleMapsPlaceId": "ChIJZdld6NoHBDQRyIxh7kLdZoA",
       "coordinates": {
         "lat": 22.3406686,

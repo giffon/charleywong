@@ -5,15 +5,17 @@
   },
   "webpages": [
     {
+      "url": "https://www.facebook.com/genkinikki/",
       "meta": {
         "name": "大力「日」記",
         "id": "165048430937913",
+        "about": "南島小店『搽茶居』專營有機生活態度, 純自然﹑不造作﹑慢活優閒.\n\n由頭到腳嘅有機產品﹑飲落肚嘅有機花草茶﹑令人賞心悅目嘅日本製生活雜貨店, 帶俾你一個慢活嘅瞬間.",
         "categories": [
           "Grocery Store"
         ],
+        "email": "nicolekamyu@gmail.com",
         "tel": "92285282"
-      },
-      "url": "https://www.facebook.com/165048430937913/"
+      }
     },
     {
       "url": "https://www.instagram.com/lamma_nicole_herb_to_toe/",
@@ -38,6 +40,9 @@
   ],
   "places": [
     {
+      "address": {
+        "zh": "南丫島榕樹灣大灣新村12C"
+      },
       "googleMapsPlaceId": "ChIJOdb__9BUATQRXab8JJ0ELCU",
       "coordinates": {
         "lat": 22.2234508,

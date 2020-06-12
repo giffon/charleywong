@@ -10,8 +10,8 @@
         "id": "376048946169465",
         "about": "主打磯燒海鮮、超過50款串燒、撈丁及小食，2小時任飲任食放題！",
         "categories": [
-          "Diner",
-          "Barbecue Restaurant"
+          "Barbecue Restaurant",
+          "Diner"
         ],
         "addr": "銅鑼灣駱克道491-499號京都廣場9樓",
         "area": "Hong Kong",
@@ -43,6 +43,9 @@
   ],
   "places": [
     {
+      "address": {
+        "zh": "銅鑼灣駱克道491-499號京都廣場9樓"
+      },
       "googleMapsPlaceId": "ChIJaY0a5FYABDQRaH1hb2qRf7g",
       "coordinates": {
         "lat": 22.280752,

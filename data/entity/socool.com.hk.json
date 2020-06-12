@@ -12,6 +12,7 @@
       "meta": {
         "name": "So Cool Catering Equipment",
         "id": "1930216010638514",
+        "about": "",
         "categories": [
           "Commercial Equipment"
         ],
@@ -45,6 +46,9 @@
   ],
   "places": [
     {
+      "address": {
+        "zh": "九龍灣啟祥道9號信和工商中心4樓27室"
+      },
       "googleMapsPlaceId": "ChIJ4zHxyzIBBDQRnQTamEvshRo",
       "coordinates": {
         "lat": 22.325393,

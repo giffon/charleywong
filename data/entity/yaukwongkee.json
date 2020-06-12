@@ -10,9 +10,9 @@
         "id": "106215664244893",
         "about": "良心小食店",
         "categories": [
-          "Food Stand",
           "Diner",
-          "Deli"
+          "Deli",
+          "Food Stand"
         ],
         "addr": "柴灣道350號 樂軒臺303號地下",
         "area": "Hong Kong"
@@ -42,6 +42,9 @@
   ],
   "places": [
     {
+      "address": {
+        "zh": "柴灣道350號 樂軒臺303號地下"
+      },
       "googleMapsPlaceId": "ChIJu8f13ScCBDQRY32ur5M-yxE",
       "coordinates": {
         "lat": 22.263897,

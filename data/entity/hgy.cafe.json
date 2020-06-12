@@ -9,6 +9,7 @@
       "meta": {
         "name": "Healing,go yard治癒羔羊",
         "id": "310472419523358",
+        "about": "",
         "categories": [
           "Local Service"
         ],
@@ -49,6 +50,9 @@
   ],
   "places": [
     {
+      "address": {
+        "zh": "長沙灣福榮街344-348昌發工廠大廈D座9樓8室"
+      },
       "googleMapsPlaceId": "ChIJy6iecQAHBDQRyjQJSMNlrJs",
       "coordinates": {
         "lat": 22.336269,

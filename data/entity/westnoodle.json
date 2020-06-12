@@ -9,6 +9,7 @@
       "meta": {
         "name": "西麵",
         "id": "209978996266619",
+        "about": "",
         "categories": [
           "Diner",
           "Bunsik Restaurant",
@@ -49,6 +50,9 @@
   ],
   "places": [
     {
+      "address": {
+        "zh": "屯門屯利街1號華都商場地下60號舖"
+      },
       "googleMapsPlaceId": "ChIJr73iN8P7AzQRmHWmtY8NvEk",
       "coordinates": {
         "lat": 22.3922,

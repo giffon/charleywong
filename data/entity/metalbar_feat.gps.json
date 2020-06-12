@@ -11,7 +11,6 @@
         "id": "345095669582244",
         "about": "��",
         "categories": [
-          "Beer Bar",
           "Wine Bar"
         ],
         "addr": "太子西洋菜北街312號",
@@ -84,6 +83,9 @@
   ],
   "places": [
     {
+      "address": {
+        "zh": "太子西洋菜北街312號"
+      },
       "googleMapsPlaceId": "ChIJETIEj8kABDQRoNdaB61h5c8",
       "coordinates": {
         "lat": 22.3259599,

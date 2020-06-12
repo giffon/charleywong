@@ -18,7 +18,10 @@
           "Shabu Shabu Restaurant",
           "Sukiyaki Restaurant"
         ],
-        "email": "curemitu0421@gmail.com"
+        "addr": "久茂地1-5-1",
+        "area": "Naha, Okinawa 9000015",
+        "email": "curemitu0421@gmail.com",
+        "tel": "81988660736"
       }
     },
     {
@@ -47,6 +50,9 @@
   ],
   "places": [
     {
+      "address": {
+        "zh": "沖縄県那覇市久茂地１丁目5−1"
+      },
       "googleMapsPlaceId": "ChIJLcZbI5xp5TQRtD4FrGpXwws",
       "coordinates": {
         "lat": 26.21389,

@@ -11,11 +11,11 @@
         "about": "Pasta Steak Dessert",
         "categories": [
           "Steakhouse",
-          "Continental Restaurant",
-          "Theme Restaurant"
+          "Theme Restaurant",
+          "Continental Restaurant"
         ],
         "addr": "旺角砵蘭街215號朗晴坊8樓",
-        "area": "Hong Kong",
+        "area": "0000 Hong Kong",
         "email": "lockeroom.dining@gmail.com",
         "tel": "52700008"
       },
@@ -42,6 +42,9 @@
   ],
   "places": [
     {
+      "address": {
+        "zh": "旺角砵蘭街215號朗晴坊8樓"
+      },
       "googleMapsPlaceId": "ChIJLXGhhOsBBDQR_kDhCaevw3s",
       "coordinates": {
         "lat": 22.317435,
