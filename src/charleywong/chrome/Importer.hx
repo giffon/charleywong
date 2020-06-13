@@ -334,7 +334,7 @@ class Importer {
     }
 
     static function fbName():String {
-        return document.querySelector("#seo_h1_tag a, *[role='main'] h1").innerText.trim();
+        return document.querySelector("#seo_h1_tag a, *[role='main'] h1, *[role='main'] h2").innerText.trim();
     }
 
     static function fbAboutRow(info:String):Promise<Null<Element>> {
