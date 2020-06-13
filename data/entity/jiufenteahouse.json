@@ -6,16 +6,24 @@
   "webpages": [
     {
       "meta": {
+        "name": "九份茶舍",
         "id": "2074082079568590",
-        "about": "·旺角弼街84號A鋪百寶大廈地下\n·葵芳葵涌廣場2樓2015鋪\n·沙田石門京瑞廣場二期1樓145舖\n·尖沙咀山林道10號A2舖\n·屯門青海圍2號萬寶商場地下5號舗(屯官對面)",
+        "about": "·旺角弼街84號A鋪百寶大廈地下\n·葵芳葵涌廣場2樓2015鋪\n·沙田石門京瑞廣場二期1樓145舖\n·尖沙咀山林道10號A2舖\n·屯門青海圍2號萬寶商場地下5號舗(屯官對面)\n·西九龍中心8樓58號舖",
         "categories": [
-          "Bubble tea shop",
-          "Tea room"
+          "Bubble Tea Shop",
+          "Tea Room"
         ],
         "addr": "旺角弼街84A舖百寶大廈地下(新世紀扶手電梯側)",
         "area": "Hong Kong"
       },
       "url": "https://www.facebook.com/jiufenteahouse/"
+    },
+    {
+      "url": "https://www.instagram.com/jiufenteahouse/",
+      "meta": {
+        "name": "九份茶舍",
+        "about": "— 總店— ￼旺角弼街84號A舖\n葵芳葵涌廣場2樓2015舖\n沙田石門京瑞廣場二期1樓145舖\n尖沙咀山林道10號A2舖\n屯門青海圍2號萬寶商場地下5號舗\n西九龍中心8樓58號舖￼"
+      }
     }
   ],
   "posts": [
@@ -42,5 +50,111 @@
     "Y_EAT00289",
     "Y_EAT00290",
     "Y_EAT01604"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角弼街84A舖百寶大廈地下"
+      },
+      "googleMapsPlaceId": "ChIJdbnh79YBBDQR-f6rOmYZEv0",
+      "coordinates": {
+        "lat": 22.32224769999999,
+        "lng": 114.1709206
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵芳葵富路7號葵涌廣場2樓2015號舖"
+      },
+      "googleMapsPlaceId": "ChIJd45KQFb5AzQR0R0Tw-Qjido",
+      "coordinates": {
+        "lat": 22.35814899999999,
+        "lng": 114.127809
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀山林道10號地下A2號舖"
+      },
+      "googleMapsPlaceId": "ChIJIzfVDuwABDQRCEt_XbVcctg",
+      "coordinates": {
+        "lat": 22.3025801,
+        "lng": 114.1726783
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "沙田石門安群街1號京瑞廣場二期1樓145號舖"
+      },
+      "googleMapsPlaceId": "ChIJMYeTndYHBDQRppsg8HMdQTo",
+      "coordinates": {
+        "lat": 22.38897919999999,
+        "lng": 114.2089534
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門青海圍2號萬寶商場地下5號舖"
+      },
+      "googleMapsPlaceId": "ChIJV-LrpTD7AzQRYl9OyEkpomA",
+      "coordinates": {
+        "lat": 22.389494,
+        "lng": 113.9798281
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "深水埗欽州街37號西九龍中心8樓58號舖"
+      },
+      "googleMapsPlaceId": "ChIJw4LLE7MABDQR4MMha8oMpPc",
+      "coordinates": {
+        "lat": 22.3310879,
+        "lng": 114.1597868
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角通菜街2Q-2Z號鴻輝大廈地下9B號舖"
+      },
+      "googleMapsPlaceId": "ChIJIz4IesgABDQRAdZjiAQXUGo",
+      "coordinates": {
+        "lat": 22.3159613,
+        "lng": 114.1714388
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "慈雲山毓華街"
+      },
+      "googleMapsPlaceId": "EiNZdWsgV2FoIFN0LCBUc3ogV2FuIFNoYW4sIEhvbmcgS29uZyIuKiwKFAoSCbu4H0ndBgQ0EX8HMRTHdq-0EhQKEgmDxlyR2QYENBH4dPL1NMMF3g",
+      "coordinates": {
+        "lat": 22.34716839999999,
+        "lng": 114.2029369
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
   ]
 }
