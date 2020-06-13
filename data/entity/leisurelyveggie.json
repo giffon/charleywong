@@ -1,0 +1,82 @@
+{
+  "id": "leisurelyveggie",
+  "name": {
+    "zh": "悠蔬食",
+    "en": "Leisurely Veggie"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/leisurelyveggie/",
+      "meta": {
+        "name": "悠蔬食 - Leisurely Veggie",
+        "id": "600461683388803",
+        "about": "悠蔬食的特點是融合多國菜式(Fusion) 以及使用新鮮天然食材，帶給您和家人朋友一個全新的蔬食體驗。有多款精緻甜品，滿足所有男女老幼的口味，是家庭或朋友歡聚的好地方。",
+        "categories": [
+          "Vegetarian/Vegan Restaurant",
+          "Asian Fusion Restaurant"
+        ],
+        "addr": "No. 18 Yeung Uk Road",
+        "area": "00000 Tsuen Wan, Hong Kong",
+        "tel": "26361808"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/leisurelyveggie/",
+      "meta": {
+        "name": "悠蔬食",
+        "about": "“悠蔬食”致力推廣健康清新的蔬食文化。以新鮮食材和高超廚藝，輔以高雅舒適環境，為您提供一處悠閒自在的餐飲好去處。本店齊集中西日台泰系頂尖蔬食廚師，融合多國菜式。"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/leisurelyveggie/posts/2233836010051354",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/leisurelyveggie/posts/2243431849091770",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "vegeterian",
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣楊屋道18號荃新天地2期地下G08-11號舖"
+      },
+      "googleMapsPlaceId": "ChIJzRDKAOz4AzQRCODeKnEjx0o",
+      "coordinates": {
+        "lat": 22.3679811,
+        "lng": 114.1145597
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "金馬倫道48號中國保險大廈3樓"
+      },
+      "googleMapsPlaceId": "ChIJh4jGZ-4ABDQRC0OpxTk2iZQ",
+      "coordinates": {
+        "lat": 22.2991297,
+        "lng": 114.1750201
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    "Y_EAT01212",
+    "Y_EAT01213",
+    "Y_EAT01214"
+  ]
+}
