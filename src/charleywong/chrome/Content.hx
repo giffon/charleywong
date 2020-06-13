@@ -208,11 +208,17 @@ class Content {
                 return;
             }
 
-            var feed:DivElement = cast document.getElementsByXPath("//div[@role='feed'][not(descendant::h1//*[text()='PINNED POST'])]")[0];
+            var feed:DivElement = cast [
+                for (feed in document.querySelectorAll("div[role='feed']"))
+                feed
+            ].pop();
 
             // when there is no pinned post, there is no role='feed'
             if (feed == null)
-                feed = cast document.getElementsByXPath("//div[@role='main']").pop();
+                feed = cast [
+                    for (feed in document.querySelectorAll("div[role='main']"))
+                    feed
+                ].pop();
 
             var posts = [
                 for (node in feed.querySelectorAll("div[role='article']"))
