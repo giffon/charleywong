@@ -182,7 +182,7 @@ class Importer {
                     sharedWith: sharedWith,
                 }));
             } else {
-                var postNode = document.querySelector('a[href*="${href}"]').closest("div[role='article']");
+                var postNode = document.querySelector('div[role="article"] a[href*="${href}"]').closest("div[role='article']");
                 var sharedWith = [
                     for (img in postNode.querySelectorAll("img[width='12'][alt]"))
                         (cast img:ImageElement)
