@@ -6,17 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "about": "藝人 KOL 二手物品店 👗👔#保證正貨\n#girlboss : @vangietang @quicheung\n不斷加入更多靚靚衫褲鞋手袋💕\n歡迎DM查詢價錢\n開放時間不定，如欲購買可順豐到付或\n留意開放時間參觀選購❤️"
+        "name": "As Seen On Me",
+        "about": "藝人 KOL 二手物品店 👗👔#保證正貨\n#girlboss : @vangietang @quicheung\n不斷加入更多藝人朋友靚衫褲鞋手袋💕\n歡迎DM查詢價錢\n如欲購買可順豐到付或\n留意開放時間參觀選購❤️"
       },
       "url": "https://www.instagram.com/asom_closet/"
     },
     {
       "meta": {
+        "name": "As Seen On Me",
+        "id": "664121017344138",
         "about": "Please follow our IG @asom_closet �",
         "categories": [
-          "Clothing (brand)"
-        ],
-        "id": "664121017344138"
+          "Clothing (Brand)"
+        ]
       },
       "url": "https://www.facebook.com/asomcloset/"
     }
@@ -30,9 +32,18 @@
     }
   ],
   "tags": [
-    "clothing"
+    "accessories",
+    "clothing",
+    "shop"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02471"
+  ],
+  "places": [
+    {
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
