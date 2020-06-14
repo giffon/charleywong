@@ -6,6 +6,7 @@
   "webpages": [
     {
       "meta": {
+        "name": "ONEW Image",
         "id": "295680403852202",
         "about": "從韓國及台灣等地進修專業紋繡技藝，使用來自徳國、韓國和美國的頂級用料和一次性針具，絕對安全衛生。皇牌4D飄眉，效果像真眉毛自然！粉霧眉和霧加根效果帶出自然妝感！",
         "categories": [
@@ -13,10 +14,17 @@
         ],
         "addr": "銅鑼灣軒尼詩道505號電業城 5樓516室",
         "area": "Hong Kong",
-        "email": "queentam@gmail.com",
+        "email": "onewimage@gmail.com",
         "tel": "96374797"
       },
       "url": "https://www.facebook.com/onewimage/"
+    },
+    {
+      "url": "https://www.instagram.com/onewimage/",
+      "meta": {
+        "name": "O!New Image ~ Queenie",
+        "about": "10年專業化妝師及紋繡師。\n專業半永久紋繡服務，包括4D皇牌飄眉、霧眉、內眼線、髮際線等，無痛無腫可維持1-3年。\n本店只有我一位師傅，親身到韓國訓練，用料全來自美國、德國及韓國，衛生安全。從設計眉型到補色全由一人包辦。\n地址:銅鑼灣電業城516號舖\nWhatsapp：96374797\n歡迎查詢預約"
+      }
     }
   ],
   "posts": [
@@ -33,5 +41,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00112"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣軒尼詩道505號電業城 5樓516室"
+      },
+      "googleMapsPlaceId": "ChIJAQBU3VYABDQRLYtAsYM3pu8",
+      "coordinates": {
+        "lat": 22.2802968,
+        "lng": 114.183298
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
