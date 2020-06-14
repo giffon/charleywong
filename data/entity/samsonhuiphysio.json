@@ -7,16 +7,25 @@
   "webpages": [
     {
       "meta": {
+        "name": "Samson Physio 臻善針灸物理治療",
         "id": "1695911703992025",
         "about": "筆者乃私人執業物理治療師。\n網上太多空泛，缺乏理據既資訊\n我想的是，寫有深度的文章，幫助有需要的人",
         "categories": [
-          "Physical therapist"
+          "Physical Therapist",
+          "Acupuncturist"
         ],
         "addr": "旺角西洋菜南街168號168大廈21樓2104室",
-        "area": "Hong Kong",
-        "tel": "36908078"
+        "area": "852 Hong Kong",
+        "tel": "3690807852361730"
       },
       "url": "https://www.facebook.com/samsonhuiphysio/"
+    },
+    {
+      "url": "https://www.instagram.com/samsonphysio/",
+      "meta": {
+        "name": "Samson Physio Clinic",
+        "about": "臻善針灸物理治療🏥\nFB: samsonhuiphysio\n📞電話：36908078 / 52361730\n📍地址：旺角西洋菜南街168號2104室"
+      }
     }
   ],
   "posts": [
@@ -25,6 +34,22 @@
     }
   ],
   "tags": [
-    "medical"
+    "medical",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角西洋菜南街168號168大廈21樓2104室"
+      },
+      "googleMapsPlaceId": "ChIJHTAocMgABDQRhCGhjwTRiL4",
+      "coordinates": {
+        "lat": 22.320809,
+        "lng": 114.169797
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
