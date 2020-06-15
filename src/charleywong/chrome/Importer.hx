@@ -327,9 +327,15 @@ class Importer {
                 var idRegexp = ~/"page":{"id":"([0-9]+)"/;
                 if (idRegexp.match(content)) {
                     return idRegexp.matched(1);
-                } else {
-                    return null;
                 }
+
+                var pageIDRegexp = ~/"props":{"pageID":"([0-9]+)"/;
+                if (pageIDRegexp.match(content)) {
+                    return pageIDRegexp.matched(1);
+                }
+
+                trace(content);
+                throw "Cannot find Facebook page ID";
             });
     }
 
