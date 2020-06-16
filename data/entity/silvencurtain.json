@@ -5,21 +5,29 @@
   },
   "webpages": [
     {
-      "url": "http://www.silvencurtain.com"
+      "url": "https://www.silvencurtain.com"
     },
     {
       "meta": {
+        "name": "Silven Curtain 窗簾訂製",
         "id": "179402555989565",
-        "about": "訂造各類窗簾 , 蚊網。\n即時預約光臨沙田陳列室, 免費度尺報價。\n...\n\n\nSee more",
+        "about": "訂造各類窗簾 , 蚊網。\n即時預約光臨沙田陳列室, 免費度尺報價。\n\n歡迎瀏覽 www.silvencurtain.com 獲取更多資訊\n或PM/ whatsapp: 52082236 與我哋聯絡\nhttps://wa.me/85252082336",
         "categories": [
-          "Blinds & curtains shop"
+          "Blinds & Curtains Store"
         ],
         "addr": "Unit 211, 2/F, Block B, New Trade Plaza, 6 On Ping street,",
-        "area": "Sha Tin, Hong Kong",
+        "area": "HK Sha Tin, Hong Kong",
         "email": "enquiry@silvencurtain.com",
         "tel": "52082336"
       },
       "url": "https://www.facebook.com/silvencurtain/"
+    },
+    {
+      "url": "https://www.instagram.com/silvencurtain/",
+      "meta": {
+        "name": "Silven Curtain",
+        "about": "Custom Made Window Treatments in Hong Kong\n為你家居打造完美窗飾\n……………………………………………\n💻: www.silvencurtain.com\n📧: Enquiry@silvencurtain.com\n☎️: 52082336 / 2110021"
+      }
     }
   ],
   "posts": [
@@ -29,5 +37,20 @@
   ],
   "tags": [
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit 211, 2/F, Block B, New Trade Plaza, 6 On Ping street, Sha Tin, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJx7soEkcGBDQROOvIJQ_xESY",
+      "coordinates": {
+        "lat": 22.3906398,
+        "lng": 114.2073782
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
   ]
 }
