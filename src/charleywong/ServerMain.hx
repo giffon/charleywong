@@ -15,6 +15,7 @@ import js.npm.express.*;
 import js.Node.*;
 import charleywong.UrlExtractors.*;
 using charleywong.ExpressTools;
+using charleywong.EntityTools;
 using StringTools;
 using Lambda;
 
@@ -81,7 +82,7 @@ class ServerMain {
             if (++n > 1) {
                 res.write(",\n");
             }
-            res.write(Json.stringify(e));
+            res.write(Json.stringify(e.fullInfo()));
         }
         res.end("\n]");
     }
@@ -110,7 +111,7 @@ class ServerMain {
             for (id in ids.split("+"))
             switch (entityIndex.entitiesOfId[id]) {
                 case null: throw 'Entity of id "$id" not found';
-                case e: e;
+                case e: e.fullInfo();
             }
         ];
         res.json(entities);
@@ -129,7 +130,7 @@ class ServerMain {
             return;
         }
 
-        res.json(entity);
+        res.json(entity.fullInfo());
     }
 
     static function entity(req:Request, res:Response) {
@@ -274,7 +275,7 @@ class ServerMain {
             case null: [];
             case v: v.split(" ").map(t -> t.toLowerCase());
         };
-        res.json(search(query, tags));
+        res.json(search(query, tags).map(e -> e.fullInfo()));
     }
 
     static function searchHtml(req:Request, res:Response) {
