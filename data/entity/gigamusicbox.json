@@ -62,5 +62,33 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01023"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣東角渣甸坊30-36號利發大廈3樓"
+      },
+      "googleMapsPlaceId": "ChIJVVVRpVYABDQRveFhjSge9TY",
+      "coordinates": {
+        "lat": 22.2794014,
+        "lng": 114.1848306
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角廣東道 1155 號日昇廣場 1 樓 2 室"
+      },
+      "googleMapsPlaceId": "ChIJk780wLcABDQRHTMZusPtzIs",
+      "coordinates": {
+        "lat": 22.3221007,
+        "lng": 114.1662688
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
