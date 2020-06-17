@@ -17,6 +17,12 @@
         "email": "machihotpot@gmail.com",
         "tel": "26605996"
       }
+    },
+    {
+      "url": "https://www.instagram.com/machihotpot_/",
+      "meta": {
+        "name": "machihotpot"
+      }
     }
   ],
   "posts": [
@@ -44,5 +50,20 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗鳳攸南街9號好順利大廈2座1樓2至3號室"
+      },
+      "googleMapsPlaceId": "ChIJBdHkEQ3xAzQR8VsR5BK9Ws4",
+      "coordinates": {
+        "lat": 22.4420821,
+        "lng": 114.0348448
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }

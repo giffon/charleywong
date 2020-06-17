@@ -5,9 +5,6 @@
   },
   "webpages": [
     {
-      "url": "http://hotmail.com"
-    },
-    {
       "url": "https://www.facebook.com/kumlohotpot/",
       "meta": {
         "name": "金撈老鴨湯刺身火鍋專門店",
@@ -19,9 +16,16 @@
           "Asian Fusion Restaurant"
         ],
         "addr": "香港九龍佐敦文蔚街42號文昌樓地下",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "kumlohotpot88@gmail.com",
         "tel": "23327600"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/kumlohotpot/",
+      "meta": {
+        "name": "金撈老鴨湯刺身火鍋專門店",
+        "about": "誠意出品，用心打造，香港人嘅特色火鍋專門店"
       }
     }
   ],
@@ -67,5 +71,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00428"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍佐敦文蔚街42號文昌樓地下"
+      },
+      "googleMapsPlaceId": "ChIJJ3mDFJUABDQRvWYw85Qs65k",
+      "coordinates": {
+        "lat": 22.3080635,
+        "lng": 114.1659592
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

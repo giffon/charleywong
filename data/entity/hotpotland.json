@@ -15,8 +15,8 @@
           "Shabu Shabu Restaurant",
           "Chinese Restaurant"
         ],
-        "addr": "旺角染布房街6號1樓",
-        "area": "Mong Kok",
+        "addr": null,
+        "area": "旺角染布房街6號1樓(旺角店)/香港中環雲咸街46-48號雲明行3字樓(\u0003中環店)/皇后大道西554-560號日富里地下1號舖(西環店)",
         "tel": "23361098"
       },
       "url": "https://www.facebook.com/hotpotland/"
@@ -111,5 +111,59 @@
     "Y_EAT00940",
     "Y_EAT01185",
     "Y_EAT01369"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角染布房街6號1樓"
+      },
+      "googleMapsPlaceId": "ChIJE89AdMYABDQRYL-cC20rdas",
+      "coordinates": {
+        "lat": 22.3179426,
+        "lng": 114.1733512
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角白布街2-24號藝興大廈地下14號舖"
+      },
+      "googleMapsPlaceId": "ChIJh6ieccYABDQRIbHYnO8zlmk",
+      "coordinates": {
+        "lat": 22.3177889,
+        "lng": 114.1729977
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港中環雲咸街46-48號雲明行3字樓"
+      },
+      "googleMapsPlaceId": "ChIJZWCG2XoABDQR_iMwdGpO1d8",
+      "coordinates": {
+        "lat": 22.2802668,
+        "lng": 114.1549323
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "皇后大道西554-560號日富里地下1號舖"
+      },
+      "googleMapsPlaceId": "ChIJPZrQxNP_AzQRM8muT4tG4rw",
+      "coordinates": {
+        "lat": 22.2862306,
+        "lng": 114.1340042
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }

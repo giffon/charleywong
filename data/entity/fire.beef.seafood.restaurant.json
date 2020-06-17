@@ -6,10 +6,11 @@
   "webpages": [
     {
       "meta": {
+        "name": "火滾肥牛海鮮火鍋專門店",
         "id": "173888872656831",
         "categories": [
-          "Hot pot restaurant",
-          "Fondue restaurant"
+          "Hot Pot Restaurant",
+          "Fondue Restaurant"
         ],
         "addr": "九龍長沙灣青山道422-428號秋創商業大廈地庫",
         "area": "Cheung Sha Wan, Hong Kong",
@@ -31,5 +32,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01414"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍長沙灣青山道422-428號秋創商業大廈地庫"
+      },
+      "googleMapsPlaceId": "ChIJIzZlk1EHBDQRIM2XpvzWrg8",
+      "coordinates": {
+        "lat": 22.3403275,
+        "lng": 114.1542035
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
