@@ -358,9 +358,22 @@ class Importer {
                 canvasContext.drawImage(img, 0, 0);
                 var imageData = canvasContext.getImageData(0, 0, img.naturalWidth, img.naturalHeight).data;
                 var target = PNG.sync.read(switch (info) {
-                    case "about": new Buffer(Resource.getBytes('about-${img.naturalWidth}.png').getData());
-                    case "tel": new Buffer(Resource.getBytes('tel-${img.naturalWidth}.png').getData());
-                    case _: throw 'Unknown info $info';
+                    case "about": 
+                        try {
+                            new Buffer(Resource.getBytes('about-${img.naturalWidth}.png').getData());
+                        } catch (e) {
+                            trace(Resource.listNames());
+                            throw 'Unable to get resource about-${img.naturalWidth}.png';
+                        }
+                    case "tel": 
+                        try {
+                            new Buffer(Resource.getBytes('tel-${img.naturalWidth}.png').getData());
+                        } catch (e) {
+                            trace(Resource.listNames());
+                            throw 'Unable to get resource tel-${img.naturalWidth}.png';
+                        }
+                    case _:
+                        throw 'Unknown info $info';
                 });
                 var mismatched = js.npm.pixelmatch.Pixelmatch.pixelmatch(target.data, imageData, null, img.naturalWidth, img.naturalHeight, {
                     threshold: 0.1,
