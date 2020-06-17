@@ -13,12 +13,26 @@
         "name": "LARPHK",
         "id": "1546041058808690",
         "categories": [
-          "Party Entertainment Service",
           "Product/Service",
+          "Party Entertainment Service",
           "Board Game"
         ],
         "email": "larp.hk@gmail.com",
         "tel": "68113737"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/larphk/",
+      "meta": {
+        "name": "「香港 • 謀殺之謎」🕵🏻 真人角色扮演推理遊戲 LARPG",
+        "about": "🕵🏻全港首間真人角色扮演推理遊戲館(只此一間)\n▾\n各大媒體報章推介專訪\n🌟Umagazine\n🌟New Monday\n🌟澳門日報\n🌟Playagain\n🌟ViuTv\n▾\n☎️Wts查詢：6811-3737 @sherlockshome.games"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/sherlockshome.games/",
+      "meta": {
+        "name": "sʜᴇʀʟᴏᴄᴋ's ʜᴏᴍᴇ 神探福爾摩斯遊戲館 🔎",
+        "about": "▾\n全港首間以偵探為主題的ɢᴀᴍᴇ's ʀᴏᴏᴍ\n▾\nʟᴀʀᴘ 真人角扮推理遊戲\nʙᴏᴀʀᴅ ɢᴀᴍᴇs 桌遊\nᴘᴀʀᴛʏ ʀᴏᴏᴍ 派對\nɢᴀᴍᴇs ᴄᴏᴍᴘᴇᴛɪᴛɪᴏɴ 聯賽盃\n▾\n1000呎空間\nɴᴇᴡ ᴀᴅᴅ 🎮 VRPS4\n▾\nⓕ ғʙ ɪɴʙᴏx\n☎︎ ᴡᴛsᴀᴘᴘ 68113737"
       }
     }
   ],
@@ -61,9 +75,25 @@
   ],
   "tags": [
     "partyRoom",
+    "tabletopGame",
     "shop"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00204"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘鴻圖道6-8號樂居工業大廈5E Sherlock's Home 推理遊戲館"
+      },
+      "googleMapsPlaceId": "ChIJEze9AocBBDQRaRpVTUZVoRo",
+      "coordinates": {
+        "lat": 22.3140085,
+        "lng": 114.2184007
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
