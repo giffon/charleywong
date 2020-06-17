@@ -47,5 +47,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01222"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Kwai Cheong Center, 50 Kwai Cheong Road,Kwai Chung,N.T"
+      },
+      "googleMapsPlaceId": "ChIJd3wD7pf5AzQR8Bsq-f-FGaM",
+      "coordinates": {
+        "lat": 22.3635726,
+        "lng": 114.1326785
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
