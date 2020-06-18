@@ -21,7 +21,7 @@ using Lambda;
 
 class ServerMain {
     static public final port = 3000;
-    static final isMain = (untyped __js__("require")).main == module;
+    static final isMain = js.Syntax.code("require.main") == module;
     static public final dataDirectory = "data/entity";
     static public final exportedFlexsearch = "flexsearch.json";
     static public final entityIndex:EntityIndex = EntityIndex.loadFromDirectory(
