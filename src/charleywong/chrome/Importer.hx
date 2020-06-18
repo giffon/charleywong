@@ -351,6 +351,13 @@ class Importer {
         return Promise.all(images.map(function(img) {
             img.crossOrigin = "Anonymous";
             return (untyped img.decode():Promise<Void>).then(_ -> {
+                switch(img.naturalWidth) {
+                    case 20 | 40:
+                        //pass
+                    case nw:
+                        trace(img);
+                        throw 'Image has a natural width of ${nw}, should be 20 or 40.';
+                }
                 var canvas = document.createCanvasElement();
                 canvas.width = img.naturalWidth;
                 canvas.height = img.naturalHeight;
