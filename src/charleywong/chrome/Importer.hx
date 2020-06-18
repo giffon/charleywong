@@ -16,8 +16,8 @@ using StringTools;
 using charleywong.ElementUtils;
 
 class Importer {
-    static public function importUrl(url:URL) {
-        switch (url) {
+    static public function importUrl(url:URL):Promise<Void> {
+        return switch (url) {
             case {
                 host: "www.facebook.com" | "facebook.com",
             }:
@@ -31,26 +31,27 @@ class Importer {
             }:
                 importYt(url);
             case _:
-                throw 'Cannot handle $url';
+                return Promise.reject('Cannot handle $url');
         }
     }
 
-    static function importYt(url:URL) {
-        switch (extractYouTubeProfile(url)) {
+    static function importYt(url:URL):Promise<Void> {
+        return switch (extractYouTubeProfile(url)) {
             case null:
+                Promise.reject('Not a YouTube profile url.');
             case Handle(v) | Id(v):
                 importYtProfile();
         }
     }
 
-    static function importYtProfile() {
-        getYtProfile().then(postToServer);
+    static function importYtProfile():Promise<Void> {
+        return getYtProfile().then(postToServer);
     }
 
     static function getYtProfile():Promise<YouTubeProfile> {
         return switch (extractYtAboutPage(document.location)) {
             case null:
-                throw '只可以在 about page 輸入 YouTube Channel';
+                Promise.reject('只可以在 about page 輸入 YouTube Channel');
             case Handle(handle):
                 ytCanonical().then(canonical -> {
                     url: canonical,
@@ -209,7 +210,7 @@ class Importer {
                 return importFbProfile(handle);
         }
 
-        throw 'Cannot handle $url';
+        return Promise.reject('Cannot handle $url');
     }
 
     static function igHandle() {
@@ -223,33 +224,31 @@ class Importer {
         }
     }
 
-    static function importIg(url:URL) {
+    static function importIg(url:URL):Promise<Void> {
         switch (extractIgPost(url)) {
             case null:
                 //pass
             case post:
                 if (extractIgPost(document.location) != post) {
-                    throw '只可以在 Instagram post 中輸入';
+                    return Promise.reject('只可以在 Instagram post 中輸入');
                 }
-                postToServer({
+                return postToServer({
                     url: 'https://www.instagram.com/p/$post/',
                     igHandle: igHandle(),
                 });
-                return;
         }
         switch (extractIgProfilePage(url)) {
             case null:
                 //pass
             case handle:
-                importIgProfile(handle);
-                return;
+                return importIgProfile(handle);
         }
-        throw 'Cannot handle $url';
+        return Promise.reject('Cannot handle $url');
     }
 
     static function getFbProfile(handle:String):Promise<FacebookProfile> {
         if (extractFbAboutPage(document.location) != handle) {
-            throw '只可以在 about page 輸入 Facebook 專頁';
+            return Promise.reject('只可以在 about page 輸入 Facebook 專頁');
         }
 
         return Promise.all([

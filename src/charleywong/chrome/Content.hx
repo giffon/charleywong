@@ -121,7 +121,8 @@ class Content {
                 switch (extractFbHomePage(new URL(linkUrl))) { // should expend the "see more" when importing fb profile
                     case null:
                         try {
-                            Importer.importUrl(new URL(linkUrl));
+                            Importer.importUrl(new URL(linkUrl))
+                                .catchError(alert);
                         } catch (e:Dynamic) {
                             alert(e);
                         }
@@ -140,7 +141,8 @@ class Content {
                                 return;
                             }
                             try {
-                                Importer.importUrl(new URL(linkUrl));
+                                Importer.importUrl(new URL(linkUrl))
+                                    .catchError(alert);
                             } catch (e:Dynamic) {
                                 alert(e);
                             }
