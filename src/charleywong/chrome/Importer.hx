@@ -354,8 +354,7 @@ class Importer {
                     case 20 | 40:
                         //pass
                     case nw:
-                        trace(img);
-                        throw 'Image has a natural width of ${nw}, should be 20 or 40.';
+                        throw 'Image has a natural width of ${nw}, should be 20 or 40.\n${img.src}';
                 }
                 var canvas = document.createCanvasElement();
                 canvas.width = img.naturalWidth;
@@ -368,14 +367,12 @@ class Importer {
                         try {
                             new Buffer(Resource.getBytes('about-${img.naturalWidth}.png').getData());
                         } catch (e) {
-                            trace(Resource.listNames());
                             throw 'Unable to get resource about-${img.naturalWidth}.png';
                         }
                     case "tel": 
                         try {
                             new Buffer(Resource.getBytes('tel-${img.naturalWidth}.png').getData());
                         } catch (e) {
-                            trace(Resource.listNames());
                             throw 'Unable to get resource tel-${img.naturalWidth}.png';
                         }
                     case _:
