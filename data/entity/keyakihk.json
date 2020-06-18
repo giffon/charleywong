@@ -42,6 +42,23 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "bar",
+    "japanese"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "中環和安里14號"
+      },
+      "googleMapsPlaceId": "ChIJRc0gN3sABDQRgxNMIKmZos8",
+      "coordinates": {
+        "lat": 22.2816596,
+        "lng": 114.15526
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }

@@ -7,20 +7,25 @@
   "webpages": [
     {
       "meta": {
-        "about": "obey heterological methods cafe&bar\n順·逆 珈琲酒館\n...\n\n\n\n\n\nSee more",
+        "name": "Ω ohms cafe&bar 順逆 珈琲酒館",
+        "id": "995947647125325",
+        "about": "obey heterological methods cafe&bar\n順·逆 珈琲酒館\n\n順隨自然活生，逆流於人群的去傳遞我們的理念\n\n*推廣公平貿易咖啡\n*推廣素食\n*積極減癈，資源循環再用\n*實踐永續生活模式",
         "categories": [
-          "Coffee shop"
+          "Coffee Shop"
         ],
         "addr": "Shop A, 192 Hollywood Road （SheungWan MTR Station exit A)",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "info@ohmscafebar.com",
-        "tel": "54004236",
-        "id": "995947647125325"
+        "tel": "54004236"
       },
       "url": "https://www.facebook.com/ohmshk2017/"
     },
     {
-      "url": "https://www.instagram.com/ohms_hk_2017/"
+      "url": "https://www.instagram.com/ohms_hk_2017/",
+      "meta": {
+        "name": "ohms cafe & bar 順·逆珈琲酒館",
+        "about": "🌿Fairtrade．Vegan Food ．Organic Cafe and Shop Promote Sustainability living by providing beneficial alternatives.\n公平貿易咖啡．全素食品．本地有機產品"
+      }
     }
   ],
   "posts": [
@@ -35,5 +40,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01027"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop A, 192 Hollywood Road"
+      },
+      "googleMapsPlaceId": "ChIJaxdJxn4ABDQRXU1ENq0B6o0",
+      "coordinates": {
+        "lat": 22.2851841,
+        "lng": 114.1481921
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }

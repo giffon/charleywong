@@ -1,12 +1,9 @@
 {
   "id": "labeathongkong",
   "name": {
-    "en": "Lab Eat Restaurant & Bar"
+    "en": "Lab Eat"
   },
   "webpages": [
-    {
-      "url": "http://www.openrice.com/zh/hongkong/restaurant/%E5%B0%96%E6%B2%99%E5%92%80-lab-eat-restaurant-bar/452499?region=0&s=3"
-    },
     {
       "url": "https://www.facebook.com/labeathongkong/",
       "meta": {
@@ -14,7 +11,6 @@
         "id": "1589951174622571",
         "about": "Lab Eat provides nibbles to share, delicious pastas, good quality cut meats and a wide range of beverages to have a great time with friends!",
         "categories": [
-          "Bar",
           "European Restaurant",
           "Continental Restaurant"
         ],
@@ -23,6 +19,53 @@
         "email": "labeathk@gmail.com",
         "tel": "28331976"
       }
+    },
+    {
+      "url": "https://www.facebook.com/labeatmongkok/",
+      "meta": {
+        "name": "Lab Eat Restaurant & Bar Mongkok Branch",
+        "id": "607563216271082",
+        "about": "Lab Eat with two branches at the heart of Hong Kong aims to offer the most substantial dishes to its customers. Fresh ingredients are imported daily. Our team test and monitor the best choices of ingredients and a wide range of beverages for you to enjoy.",
+        "categories": [
+          "American Restaurant"
+        ],
+        "addr": "Shop No. 502, 5/F, T.O.P This Is Our Place, 700 Nathan Road, MongKok, Kowloon",
+        "area": "Mong Kok",
+        "email": "labeat@labeat.hk",
+        "tel": "23525699"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/labeatshisha/",
+      "meta": {
+        "name": "Lab Eat Shisha Lounge",
+        "id": "247086049177046",
+        "about": "Hong Kong Outdoor Lounge, Premium Shisha Experience",
+        "categories": [
+          "Hookah Lounge",
+          "Modern European Restaurant"
+        ],
+        "addr": "502, T.O.P, This Is Our Place, 700 Nathan Road",
+        "area": "Hong Kong",
+        "tel": "23525699"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/labeathongkong/",
+      "meta": {
+        "name": "Lab Eat Restaurant And Bar",
+        "about": "Shisha Lounge: @labeatshisha\nMon - Sun, 12pm till late. #LabEatHK\n502, This Is Our Place, 700 Nathan Road, Mongkok #BookHere 🔽"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/labeatshisha/",
+      "meta": {
+        "name": "Lab Eat Shisha Lounge",
+        "about": "‪Official acc: @labeathongkong‬\nMon - Sun, 3PM to 6PM and 9PM to 1AM. #LabEatHK"
+      }
+    },
+    {
+      "url": "https://www.openrice.com/en/hongkong/r-lab-eat-restaurant-bar-mong-kok-western-seafood-r572152"
     }
   ],
   "posts": [
@@ -35,9 +78,38 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "bar"
   ],
   "yellowBlueMapIds": [
     "Y_EAT01851"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 1-2, G/F, Kiu Fung Mansion, 87-89 Kimberlay Road"
+      },
+      "googleMapsPlaceId": "ChIJCwTeF1lG_xMR0xWQVto9K_k",
+      "coordinates": {
+        "lat": 22.302562,
+        "lng": 114.1756826
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "en": "502, T.O.P, This Is Our Place, 700 Nathan Road"
+      },
+      "googleMapsPlaceId": "ChIJu1yBzRoBBDQRwwkXkqmEz8s",
+      "coordinates": {
+        "lat": 22.3206,
+        "lng": 114.1694808
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
