@@ -1,0 +1,91 @@
+{
+  "id": "PolunFood",
+  "name": {
+    "zh": "寶倫食品有限公司",
+    "en": "Po Lun Food Company Limited"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/PolunFood/",
+      "meta": {
+        "name": "寶倫食品有限公司 Po Lun Food Company Limited",
+        "id": "135939423695008",
+        "about": "政府註冊認可之急凍肉類進出口商， 並設有自家食物加工場， 車隊。 提供優質食材至本地各類型食肆，及零售商店。",
+        "categories": [
+          "Butcher Shop",
+          "Shopping & Retail",
+          "Grocery Store"
+        ],
+        "email": "polun.eshop@gmail.com",
+        "tel": "96123461"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/polunfood.hk/",
+      "meta": {
+        "name": "寶倫食品",
+        "about": "政府註冊認可之急凍肉類進出口商， 並設有自家食物加工場， 車隊。 提供優質食材至本地各類型食肆，及零售商店。\n#凍肉套餐 #凍肉"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/PolunFood/posts/585477672074512",
+      "meta": {
+        "embeddable": true,
+        "sharedWith": "Custom"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/aroundwellingtonhk/photos/a.2289370737786020/3085736628149423",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "foodStore",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗牡丹街合益廣場地下B41舖  "
+      },
+      "googleMapsPlaceId": "ChIJ3-Fm-nbxAzQR3zQ_A1vzMGM",
+      "coordinates": {
+        "lat": 22.4430913,
+        "lng": 114.0296852
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "紅磡蕪湖街金輝行地下C舖  "
+      },
+      "googleMapsPlaceId": "ChIJA-UWpLwBBDQR9Q12-QI9GDU",
+      "coordinates": {
+        "lat": 22.3065076,
+        "lng": 114.1868276
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    },
+    {
+      "address": {
+        "zh": "灣仔道3號尚翹峰1座地下B1舖"
+      },
+      "googleMapsPlaceId": "ChIJq_ZBUVsABDQR8GAtjpemc4o",
+      "coordinates": {
+        "lat": 22.2752056,
+        "lng": 114.1741021
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ]
+}
