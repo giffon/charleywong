@@ -344,7 +344,7 @@ class Importer {
 
     static function fbAboutRow(info:String):Promise<Null<Element>> {
         var images:Array<ImageElement> = [
-            for (e in document.querySelectorAll('*[role="main"] img[width="20"][height="20"]'))
+            for (e in document.querySelectorAll('*[role="main"] img[width="20"][height="20"][src^="https://static.xx.fbcdn.net"]'))
             cast e
         ];
         return Promise.all(images.map(function(img) {
