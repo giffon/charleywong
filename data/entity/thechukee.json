@@ -6,15 +6,16 @@
   "webpages": [
     {
       "meta": {
+        "name": "珠記冰室",
         "id": "1686703454946280",
         "about": "珠記冰室",
         "categories": [
           "Diner",
-          "Cantonese restaurant",
-          "Tea room"
+          "Cantonese Restaurant",
+          "Tea Room"
         ],
         "addr": "觀塘開源道48號威利廣場G/F, #2-3舖",
-        "area": "Hong Kong",
+        "area": "hk Hong Kong",
         "email": "chukee52@gmail.com",
         "tel": "34898028"
       },
@@ -32,5 +33,20 @@
   "yellowBlueMapIds": [
     "Y_EAT00331",
     "Y_EAT01619"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘開源道48號威利廣場G/F, #2-3舖"
+      },
+      "googleMapsPlaceId": "ChIJuXUls0UBBDQRsKn45eroCrs",
+      "coordinates": {
+        "lat": 22.3089395,
+        "lng": 114.2232254
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
