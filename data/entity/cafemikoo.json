@@ -1,7 +1,8 @@
 {
   "id": "cafemikoo",
   "name": {
-    "zh": "四季·良晨 - 牛肉麵·茶飲·休閒餐廳 Cafe Mikoo"
+    "zh": "四季·良晨",
+    "en": "Cafe Mikoo"
   },
   "webpages": [
     {
@@ -19,6 +20,13 @@
         ],
         "email": "info@cafemikoo.com",
         "tel": "34228388"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/cafemikoo/",
+      "meta": {
+        "name": "四季·良晨 cafe mikoo - 文青生活館 四季良晨",
+        "about": "四季有時，良晨是好時光，台灣的餐飲品牌為你帶來每日好開始，我們提供保證美味的 #台灣牛肉麵 #魯肉飯 #相機食先 #文青風 的快樂，找會那些年曾經的回憶.. 輕輕鬆鬆由這裡出發，微笑過好日子\n[將軍澳 #都城中心2期 UG樓051F號舖] #四季良晨"
       }
     }
   ],
@@ -41,5 +49,35 @@
     "cafe",
     "taiwanese"
   ],
-  "yellowBlueMapIds": ["Y_EAT00757"]
+  "yellowBlueMapIds": [
+    "Y_EAT00757"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "將軍澳 新都城中心二期 UG051F"
+      },
+      "googleMapsPlaceId": "ChIJI-EDhHcFBDQRhsleSSOrZ90",
+      "coordinates": {
+        "lat": 22.3224674,
+        "lng": 114.2592089
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "馬鞍山烏溪沙路8號迎海薈2樓4號舖"
+      },
+      "googleMapsPlaceId": "ChIJYXiBjGIPBDQRJs1A4Ss4Tkk",
+      "coordinates": {
+        "lat": 22.4305626,
+        "lng": 114.2434288
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
+  ]
 }
