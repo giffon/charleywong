@@ -12,12 +12,12 @@
         "id": "141745019901914",
         "about": "*尋回夢想的六十後*\n\n人生夢一場革命至蒼老　難得夢一場革命不老",
         "categories": [
+          "Apparel & Clothing",
           "Sewing & Alterations",
           "Sewer Service"
         ],
         "addr": "31-33 Ng Fong Street",
         "area": "Hong Kong",
-        "email": "sewinghomehk@gmail.com",
         "tel": "69984084"
       }
     },
@@ -55,5 +55,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01060"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "31-33 Ng Fong Street"
+      },
+      "googleMapsPlaceId": "EiUzMSBOZyBGb25nIFN0LCBTYW4gUG8gS29uZywgSG9uZyBLb25nIjASLgoUChIJqyd0fNoGBDQR_B59GCZBZRAQHyoUChIJYSETfNoGBDQRvLjoGSxQrNU",
+      "coordinates": {
+        "lat": 22.3380591,
+        "lng": 114.2006634
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
   ]
 }

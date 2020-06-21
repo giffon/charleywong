@@ -1,11 +1,11 @@
 {
-  "id": "1123220001059960",
+  "id": "clothesalterationandpatch",
   "name": {
     "zh": "葉太專業改衣"
   },
   "webpages": [
     {
-      "url": "https://www.facebook.com/1123220001059960/",
+      "url": "https://www.facebook.com/clothesalterationandpatch/",
       "meta": {
         "name": "專業改衣",
         "id": "1123220001059960",
@@ -13,6 +13,8 @@
         "categories": [
           "Company"
         ],
+        "addr": null,
+        "area": "九龍尖沙咀漆咸道南45-51號其士大廈尖東堡商場地庫B35號舖",
         "tel": "91028837"
       }
     }
@@ -34,5 +36,23 @@
   "tags": [
     "clothing",
     "shop"
+  ],
+  "alias": [
+    "1123220001059960"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍尖沙咀漆咸道南45-51號其士大廈尖東堡商場地庫B35號舖"
+      },
+      "googleMapsPlaceId": "ChIJWxtgQ-4ABDQR0s9qrZxhPew",
+      "coordinates": {
+        "lat": 22.298893,
+        "lng": 114.175517
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
