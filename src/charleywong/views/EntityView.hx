@@ -241,12 +241,36 @@ class EntityView extends View {
                 <blockquote className="twitter-tweet"><a href=${p.url}>${prettyUrl(p.url)}</a></blockquote>
             ');
         } else {
-            jsx('
-                <div className="post-link">
-                    <a href=${p.url}>${prettyUrl(p.url)}</a>
-                    ${summary}
-                </div>
-            ');
+            if (p.meta != null && p.meta["og"] != null) {
+                function ogProp(og:Array<{property:String, content:String}>, prop:String) {
+                    return switch(og.find(p -> p.property == prop)) {
+                        case null: null;
+                        case p: p.content;
+                    }
+                }
+                var og = p.meta["og"];
+                var title = ogProp(og, "og:title");
+                var image = ogProp(og, "og:image");
+                var siteName = ogProp(og, "og:site_name");
+                jsx('
+                    <a href=${p.url}>
+                        <div className="card text-left">
+                            <img className="card-img-top" src=${image} alt=${title} />
+                            <div className="card-body">
+                                <h6 className="card-subtitle text-muted mb-2">${siteName}</h6>
+                                <h5 className="card-title mb-0">${title}</h5>
+                            </div>
+                        </div>
+                    </a>
+                ');
+            } else {
+                jsx('
+                    <div className="post-link">
+                        <a href=${p.url}>${prettyUrl(p.url)}</a>
+                        ${summary}
+                    </div>
+                ');
+            }
         }
 
         return jsx('

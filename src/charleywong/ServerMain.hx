@@ -146,9 +146,11 @@ class ServerMain {
             return;
         }
 
-        res.sendView(EntityView, {
-            entity: entity,
-        });
+        entity.fullPostMeta().then(entity -> {
+            res.sendView(EntityView, {
+                entity: entity,
+            });
+        }).catchError(e -> res.status(500).send(e));
     }
 
     static final noProfilePic = Promise.resolve(Buffer.from(File.getBytes("static/images/user-solid.png").getData()));
