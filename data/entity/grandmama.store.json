@@ -6,19 +6,30 @@
   },
   "webpages": [
     {
+      "url": "https://www.grandmamastore.com"
+    },
+    {
       "meta": {
-        "about": "婆婆雜貨店\nC o l o r U p Y o u r L i f e �\n...\n\n\n\n\n\nSee more",
+        "name": "婆婆雜貨店 Grandmama Store",
+        "id": "397631327272964",
+        "about": "婆婆雜貨店 \nC o l o r U p Y o u r L i f e �\n\n-- --- - --- -- — -- - --- — — -- -\n✿開放時間:\n星期一至五 13:00-19:00\nOpen hours:\nMON - SUN 13:00 -19:00\n.",
         "categories": [
-          "Shopping & retail",
-          "Community"
+          "Community",
+          "Shopping & Retail"
         ],
-        "addr": "觀塘駿業里8號",
-        "area": "Kowloon, Hong Kong",
+        "addr": "觀塘駿業里8號世貿大廈1105室",
+        "area": "852 Kowloon, Hong Kong",
         "email": "grandmama.store@gmail.com",
-        "tel": "92616654",
-        "id": "397631327272964"
+        "tel": "92616654"
       },
       "url": "https://www.facebook.com/grandmama.store/"
+    },
+    {
+      "url": "https://www.instagram.com/grandmama.store/",
+      "meta": {
+        "name": "🎐婆婆雜貨店 🎏 Grandmama.store",
+        "about": "「若無閒事掛心頭，便是人間好時節。」🎨\n👵🏻《婆婆衣櫥》@grandmama.closet\n❀ 購買🛒｜網站自助下單\n❀ 交收🚚｜順豐到付或雜貨店自取\n❀ 聯絡📱｜Wtsapp 92616654\n-\n✿ 營業時間:\n星期一至日 13:00-19:00\n✿ 實體店:\n觀塘駿業里8號世貿大樓1105室"
+      }
     }
   ],
   "posts": [
@@ -32,5 +43,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00229"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘駿業里8號世貿大廈1105室"
+      },
+      "googleMapsPlaceId": "ChIJD1uuv90ABDQR1ByGE6rb19w",
+      "coordinates": {
+        "lat": 22.3124512,
+        "lng": 114.2241431
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
