@@ -45,7 +45,7 @@ class EntityTools {
                             virtualConsole: new VirtualConsole(),
                         }).window.document;
                         var og:Array<{property:String, content:String}> = [];
-                        for (meta in doc.querySelectorAll("meta[property^='og:']")) {
+                        for (meta in doc.querySelectorAll("meta[property^='og:'],meta[property^='article:']")) {
                             var meta:MetaElement = cast meta;
                             og.push({
                                 property: meta.getAttribute("property"),

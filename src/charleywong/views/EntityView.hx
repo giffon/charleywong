@@ -252,12 +252,16 @@ class EntityView extends View {
                 var title = ogProp(og, "og:title");
                 var image = ogProp(og, "og:image");
                 var siteName = ogProp(og, "og:site_name");
+                var published_time = switch(ogProp(og, "article:published_time")) {
+                    case null: null;
+                    case t: t.substr(0,10);
+                }
                 jsx('
                     <a href=${p.url}>
                         <div className="card text-left">
                             <img className="card-img-top" src=${image} alt=${title} />
                             <div className="card-body">
-                                <h6 className="card-subtitle text-muted mb-2">${siteName}</h6>
+                                <h6 className="card-subtitle text-muted mb-2">${siteName}<span className="ml-2">${published_time}</span></h6>
                                 <h5 className="card-title mb-0">${title}</h5>
                             </div>
                         </div>
