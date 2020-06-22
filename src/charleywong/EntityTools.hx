@@ -58,7 +58,6 @@ class EntityTools {
                         } catch (e) {
                             null;
                         }
-                        trace(ld);
                         var p = Reflect.copy(p);
                         if (p.meta == null)
                             p.meta = {};
