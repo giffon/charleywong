@@ -73,6 +73,10 @@ iframe.place {
     white-space: nowrap;
 }
 
+a.post-preview:hover {
+    text-decoration: none;
+}
+
 .search-input {
     border: 3px solid #f4a948;
     border-right: 0;

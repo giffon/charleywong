@@ -268,7 +268,7 @@ class EntityView extends View {
                     published_time = published_time.substr(0,10);
 
                 jsx('
-                    <a href=${p.url}>
+                    <a className="post-preview" href=${p.url}>
                         <div className="card text-left">
                             <img className="card-img-top" src=${image} alt=${title} />
                             <div className="card-body">
