@@ -243,6 +243,9 @@ class EntityView extends View {
         } else {
             if (p.meta != null && p.meta["og"] != null) {
                 function ogProp(og:Array<{property:String, content:String}>, prop:String) {
+                    if (og == null)
+                        return null;
+
                     return switch(og.find(p -> p.property == prop)) {
                         case null: null;
                         case p: p.content;
@@ -252,10 +255,18 @@ class EntityView extends View {
                 var title = ogProp(og, "og:title");
                 var image = ogProp(og, "og:image");
                 var siteName = ogProp(og, "og:site_name");
-                var published_time = switch(ogProp(og, "article:published_time")) {
-                    case null: null;
-                    case t: t.substr(0,10);
-                }
+                var published_time = ogProp(og, "article:published_time");
+
+                if (published_time == null)
+                    published_time = switch (p.meta["ld"]) {
+                        case null: null;
+                        case ld:
+                            ld.datePublished;
+                    }
+
+                if (published_time != null)
+                    published_time = published_time.substr(0,10);
+
                 jsx('
                     <a href=${p.url}>
                         <div className="card text-left">

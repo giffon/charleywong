@@ -1,5 +1,6 @@
 package charleywong;
 
+import haxe.Json;
 import js.npm.fetch.Fetch;
 #if js
 import js.lib.Promise;
@@ -52,10 +53,18 @@ class EntityTools {
                                 content: meta.content,
                             });
                         }
+                        var ld = try {
+                            Json.parse(doc.querySelector("script[type='application/ld+json']").textContent);
+                        } catch (e) {
+                            null;
+                        }
+                        trace(ld);
                         var p = Reflect.copy(p);
                         if (p.meta == null)
                             p.meta = {};
                         p.meta["og"] = og;
+                        if (ld != null)
+                            p.meta["ld"] = ld;
                         p;
                     })
                     .catchError(e -> {
