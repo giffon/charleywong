@@ -8,7 +8,7 @@
       "meta": {
         "name": "真台客",
         "id": "601591280352548",
-        "about": "在異鄉打拚的台灣人\n台灣味道在香港\n把台灣的人情味帶進香港",
+        "about": "台灣味道在香港\n—\n店鋪地址\n（元朗創史店）\n仁樂坊5號利發大廈地下G及F號舖\n （荃灣分店） \n海壩街87號荃好景大廈地下 \n（大埔分店） \n安慈路3號翠屏花園地下09號舖",
         "categories": [
           "Restaurant"
         ],
@@ -38,6 +38,48 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00256",
-    "Y_EAT02045"
+    "Y_EAT02045",
+    "Y_EAT02387"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗仁樂坊5號利發大廈地下G及F號舖"
+      },
+      "googleMapsPlaceId": "ChIJReytdaDwAzQRovoNDSw_74U",
+      "coordinates": {
+        "lat": 22.4433179,
+        "lng": 114.026712
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣海壩街87號荃好景大廈地下"
+      },
+      "googleMapsPlaceId": "ChIJQalK6e34AzQRfQb-9lyudzg",
+      "coordinates": {
+        "lat": 22.372318,
+        "lng": 114.115231
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大埔安慈路3號翠屏花園地下09號舖"
+      },
+      "googleMapsPlaceId": "ChIJp0tvCjgIBDQRpGROQoaeE2U",
+      "coordinates": {
+        "lat": 22.4529949,
+        "lng": 114.1684832
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    }
   ]
 }

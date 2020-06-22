@@ -11,6 +11,21 @@
         "name": "木子甜品 Muzi Dessert",
         "about": "《MAY 2020- 首間港島店登場- 香港人·西環見》\n手工招牌芋圓| 正宗仙草 | 香滑奶凍 | 冰涼沙冰 | 各式燉品｜心太軟 |\n.\n🍨🍧🍡🍮🥤😋😋\n✉️ muzidesserthk@gmail.com 📱91389815\n🏠\n🏠 荃灣荃華街16號荃薈商埸地下G31-33號鋪"
       }
+    },
+    {
+      "url": "https://www.facebook.com/MuziDessert/",
+      "meta": {
+        "name": "木子甜品",
+        "id": "144588092298135",
+        "about": "｜招牌手工芋圓| 正宗仙草 | 香滑奶凍 | 冰涼沙冰 | 各式燉品｜心太軟 |\n.\n\n西營盤店：香港西環西營盤皇后大道西414號地下6號舖\n\n荃灣店: 荃灣荃華街16號荃薈商埸地下G31-33號鋪",
+        "categories": [
+          "Dessert Shop"
+        ],
+        "addr": null,
+        "area": "Hong Kong",
+        "email": "muzidesserthk@gmail.com",
+        "tel": "91389815"
+      }
     }
   ],
   "posts": [
@@ -21,5 +36,40 @@
       "url": "https://www.instagram.com/p/BybwMGZD-Mc/"
     }
   ],
-  "tags": ["food","taiwanese"]
+  "tags": [
+    "food",
+    "taiwanese"
+  ],
+  "yellowBlueMapIds": [
+    "Y_EAT02384",
+    "Y_EAT02385"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港西環西營盤皇后大道西414號地下6號舖"
+      },
+      "googleMapsPlaceId": "ChIJc4JGT4H_AzQRJboae8N03p8",
+      "coordinates": {
+        "lat": 22.2865209,
+        "lng": 114.1390449
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣荃華街16號荃薈商埸地下G31-33號鋪"
+      },
+      "googleMapsPlaceId": "ChIJNV6I6-34AzQRl1zZ4N6bVNk",
+      "coordinates": {
+        "lat": 22.3683919,
+        "lng": 114.1213481
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
+  ]
 }
