@@ -5,22 +5,27 @@
   },
   "webpages": [
     {
-      "url": "https://www.lugarciamua.com"
-    },
-    {
       "meta": {
+        "name": "Lugarcia Makeup Academy",
         "id": "1661021697496196",
         "about": "Lugarcia Makeup Academy專業化妝師培訓，課程包括專業新娘化妝、髮型設計全科課程, 學生均有實習機會以及有機會成為Lugarcia的化妝師。\n\n個人服務: 設有化妝指導、專業化妝及髮型設計服務。",
         "categories": [
-          "Makeup artist",
-          "Cosmetology school"
+          "Makeup Artist",
+          "Cosmetology School"
         ],
         "addr": "Unit 1205, Westin Centre, 26 Hung To Road, Kwun Tong.",
-        "area": "Hong Kong",
+        "area": "852 Hong Kong",
         "email": "lugarcia.hk@gmail.com",
         "tel": "96334527"
       },
       "url": "https://www.facebook.com/lugarciamua/"
+    },
+    {
+      "url": "https://www.instagram.com/lugarciamua/",
+      "meta": {
+        "name": "Lugarcia Makeup Academy",
+        "about": "#化妝課程 #化妝班 #學化妝 #新娘化妝 #化妝師 #化妝教學 #化妝服務 @lugarciamua\n👰🏼Wedding Makeup @lugarcia_wedding_makeup\n👉🏻WhatsApp 92214386"
+      }
     }
   ],
   "posts": [
@@ -32,5 +37,20 @@
     "makeup",
     "shop",
     "wedding"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit 1205, Westin Centre, 26 Hung To Road, Kwun Tong."
+      },
+      "googleMapsPlaceId": "ChIJ1WIZZ-sABDQRIst5juah5RM",
+      "coordinates": {
+        "lat": 22.303899,
+        "lng": 114.169356
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
