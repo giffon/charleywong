@@ -1,7 +1,8 @@
 {
   "id": "loy.diary",
   "name": {
-    "zh": "施德來的日記簿"
+    "zh": "施德來",
+    "en": "Takloy Sze"
   },
   "webpages": [
     {
@@ -15,6 +16,20 @@
           "Community"
         ],
         "email": "sze@adpl.org.hk"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCHxsLmnXtPjVH6yFbWLIMzA",
+      "meta": {
+        "id": "UCHxsLmnXtPjVH6yFbWLIMzA",
+        "name": "民協施德來議員頻道",
+        "about": "請訂閱我的 YouTube Channel"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/takloysze/",
+      "meta": {
+        "name": "Takloy Sze"
       }
     }
   ],
