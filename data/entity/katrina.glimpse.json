@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.pinkoi.com/store/katrina-glimpse"
+      "url": "https://www.pinkoi.com/store/katrina-glimpse"
     },
     {
       "url": "https://www.facebook.com/katrina.glimpse/",
@@ -20,7 +20,11 @@
       }
     },
     {
-      "url": "https://www.instagram.com/katrina.glimpse/"
+      "url": "https://www.instagram.com/katrina.glimpse/",
+      "meta": {
+        "name": "Katrina",
+        "about": "Illustrations, stories, props...from Hong Kong"
+      }
     }
   ],
   "posts": [

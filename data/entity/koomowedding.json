@@ -9,14 +9,23 @@
     },
     {
       "meta": {
+        "name": "Koomo Wedding",
         "id": "640015202686981",
         "about": "Koomo Wedding\n攝影服務！！歡迎電話/whatsapp查詢91550906-Anson :)",
         "categories": [
           "Photographer",
-          "Wedding planning service"
-        ]
+          "Wedding Planning Service"
+        ],
+        "tel": "91550906"
       },
       "url": "https://www.facebook.com/koomowedding/"
+    },
+    {
+      "url": "https://www.instagram.com/koomostudio/",
+      "meta": {
+        "name": "ANSON Li",
+        "about": "攝影師Anson Li📷✨設計與影像\nHK-based | Private Studio in Kwai Fong\n歡迎查詢\nEmail/ anson@koomo-studio.com\nMobile/ 91550906"
+      }
     }
   ],
   "posts": [
@@ -26,6 +35,7 @@
   ],
   "tags": [
     "photographer",
-    "wedding"
+    "wedding",
+    "shop"
   ]
 }
