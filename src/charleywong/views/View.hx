@@ -101,6 +101,14 @@ class View extends ReactComponent {
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
             <title>${title()}</title>
+
+            <link rel="manifest" href="/manifest.webmanifest" />
+            <meta name="mobile-web-app-capable" content="yes" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <meta name="application-name" content="Charley Wong 和你查" />
+            <meta name="apple-mobile-web-app-title" content="Charley Wong 和你查" />
+            <meta name="msapplication-starturl" content="/" />
+
             ${favicon()}
             ${descriptionTag()}
             ${depCss()}
