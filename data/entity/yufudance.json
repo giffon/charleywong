@@ -6,17 +6,20 @@
   },
   "webpages": [
     {
+      "url": "https://www.yufuabundance.com"
+    },
+    {
       "url": "https://www.facebook.com/yufudance/",
       "meta": {
         "name": "如庫豐生 YuFu Abundance",
         "id": "1386130688144826",
         "about": "如庫豐生為一環保生活平台，搜羅各地優質綠色產品，旨在分享共生哲學。",
         "categories": [
-          "Organic Grocery Store",
-          "Vegetarian/Vegan Restaurant"
+          "Vegetarian/Vegan Restaurant",
+          "Organic Grocery Store"
         ],
         "addr": "荃灣寶業大廈B座501室(熊貓酒店側)",
-        "area": "Hong Kong",
+        "area": "000000 Hong Kong",
         "email": "yufuabundance@gmail.com",
         "tel": "94800745"
       }
@@ -58,5 +61,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01234"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣寶業大廈B座501室"
+      },
+      "googleMapsPlaceId": "ChIJHzx6sLf5AzQRXBqiVpbVQwc",
+      "coordinates": {
+        "lat": 22.3676131,
+        "lng": 114.1211765
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
   ]
 }
