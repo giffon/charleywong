@@ -703,6 +703,16 @@ class Tag {
         ]
     }
 
+    static public final hotpot:TagData = {
+        name: {
+            en: "hotpot",
+            zh: "火鍋/雞煲"
+        },
+        inherits: [
+            "food"
+        ]
+    }
+
     static public final cafe:TagData = {
         name: {
             en: "cafe",
