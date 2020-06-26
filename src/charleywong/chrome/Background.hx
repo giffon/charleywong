@@ -46,21 +46,45 @@ class Background {
         return entityIndex;
     }
 
+    static function fetchEntities(ids:Array<String>):Promise<Array<Entity>> {
+        var batchSize = 100;
+        if (ids.length <= batchSize) {
+            return Settings.getSettings().then(settings ->
+                cast Promise.all(
+                    ids.map(id -> {
+                        var entityJsonUrl = Path.join([settings.serverEndpoint, id + ".json"]);
+                        window.fetch(entityJsonUrl)
+                            .then(r -> r.json())
+                            .catchError(function(err) {
+                                console.error('Failed to fetch $entityJsonUrl');
+                                throw err;
+                            });
+                    })
+                )
+            );
+        } else {
+            return fetchEntities(ids.slice(0, 100)).then(first ->
+                fetchEntities(ids.slice(100))
+                    .then(remainings -> first.concat(remainings))
+            );
+        }
+    }
+
     static function fetchEntityIndex():Promise<EntityIndex> return new Promise(function(resolve, reject) {
         Settings.getSettings().then(function(settings) {
             var jsonUrl = Path.join([settings.serverEndpoint, "list", "all.json"]);
             window.fetch(jsonUrl)
                 .then(r -> r.json())
-                .then(function(entities:Array<Entity>) {
-                    resolve(new EntityIndex([for (e in entities) e.id => e]));
-                })
+                .then(fetchEntities)
+                .then(entities ->
+                    resolve(new EntityIndex([for (e in (cast entities:Array<Entity>)) e.id => e]))
+                )
                 .catchError(function(err) {
                     console.error('Failed to fetch $jsonUrl');
                     reject(err);
                 });
         });
     });
-
 
     static function onMessage(?request:Dynamic, sender, sendResponse:Dynamic->Void) {
         switch (Unserializer.run(request):Message) {
