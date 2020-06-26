@@ -63,8 +63,8 @@ class Background {
                 )
             );
         } else {
-            return fetchEntities(ids.slice(0, 100)).then(first ->
-                fetchEntities(ids.slice(100))
+            return fetchEntities(ids.slice(0, batchSize)).then(first ->
+                fetchEntities(ids.slice(batchSize))
                     .then(remainings -> first.concat(remainings))
             );
         }
