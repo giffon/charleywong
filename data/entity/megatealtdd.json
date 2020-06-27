@@ -6,15 +6,23 @@
   "webpages": [
     {
       "meta": {
+        "name": "茶半香初",
         "id": "295461671404188",
-        "about": "荃灣士林食街",
+        "about": "旺角登打士街43c、荃灣鱟地城華成樓b2地鋪",
         "categories": [
           "Restaurant"
         ],
         "email": "mega.tea.ltd@gmail.com",
-        "tel": "68868482"
+        "tel": "29811333"
       },
       "url": "https://www.facebook.com/megatealtdd/"
+    },
+    {
+      "url": "https://www.instagram.com/mega.tea.hk/",
+      "meta": {
+        "name": "🌱茶半香初®",
+        "about": "ᴹᴱᴳᴬᵀᴱᴬ⍢\n香港品牌茶飲店🍵\n外賣電話☎️29811333￼"
+      }
     }
   ],
   "posts": [
@@ -35,5 +43,33 @@
   "yellowBlueMapIds": [
     "Y_EAT00362",
     "Y_EAT02048"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角登打士街43c"
+      },
+      "googleMapsPlaceId": "ChIJHdXu7SD5AzQRToWKksuuhgM",
+      "coordinates": {
+        "lat": 22.3155467,
+        "lng": 114.1706303
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣鱟地城華成樓b2地鋪"
+      },
+      "googleMapsPlaceId": "ChIJ8T-Nzu34AzQRSvfUUNwkhJw",
+      "coordinates": {
+        "lat": 22.3710007,
+        "lng": 114.1151602
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
   ]
 }
