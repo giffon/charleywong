@@ -59,13 +59,23 @@
       }
     }
   ],
-  "tags": [],
+  "tags": [
+    "food",
+    "shop"
+  ],
   "places": [
     {
       "address": {
         "zh": "元朗大馬路36號F及G舖(又新街)"
       },
-      "googleMapsPlaceId": ""
+      "googleMapsPlaceId": "ChIJM43GM6fwAzQRMtuofHwfmCY",
+      "coordinates": {
+        "lat": 22.4442268,
+        "lng": 114.0309948
+      },
+      "area": {
+        "zh": "元朗區"
+      }
     }
   ],
   "yellowBlueMapIds": [
