@@ -43,15 +43,16 @@
         "id": "237411660453895",
         "about": "無論是戶外遊戲、球類、兒童單車、滑板車、三輪車、平衡車或保護裝備Jollymap.com都應有盡有。",
         "categories": [
-          "Toy Store",
           "Bicycle Shop",
-          "Bicycle Repair Service"
+          "Bicycle Repair Service",
+          "Toy Store"
         ],
         "addr": "觀塘開源道47號凱源工業大廈4樓H室",
         "area": "Kwun Tong",
         "email": "cs@jollymap.com",
         "tel": "23420780"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/Jollymap.TsuenWan/",
@@ -67,7 +68,8 @@
         "area": "Tsuen Wan, Hong Kong",
         "email": "cs@jollymap.com",
         "tel": "23420366"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.instagram.com/jollymap/",
