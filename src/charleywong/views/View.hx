@@ -40,7 +40,7 @@ class View extends ReactComponent {
 
     function depJs() return jsx('
         <Fragment>
-            <script async=${true} defer=${true} crossOrigin="anonymous" src="https://connect.facebook.net/zh_HK/sdk.js#xfbml=1&version=v6.0&appId=628806881259482&autoLogAppEvents=1"></script>
+            <script async=${true} defer=${true} crossOrigin="anonymous" src="https://connect.facebook.net/zh_HK/sdk.js#xfbml=1&version=v7.0&appId=628806881259482&autoLogAppEvents=1"></script>
             <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossOrigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-OUFW7hFO0/r5aEGTQOz9F/aXQOt+TwqI1Z4fbVvww04=" crossOrigin="anonymous"></script>
         </Fragment>
