@@ -1,25 +1,28 @@
 {
   "id": "tarolover.hk",
   "name": {
-    "en": "tarolover.hk"
+    "en": "tarolover.hk",
+    "zh": "芋圓控"
   },
   "webpages": [
     {
-      "url": "https://www.facebook.com/102884047957913/",
+      "url": "https://www.facebook.com/tarolover.hk/",
       "meta": {
-        "name": "tarolover.hk",
+        "name": "芋圓控 TAROLOVER.HK",
         "id": "102884047957913",
-        "about": "90s情侶檔",
+        "about": "ONE DREAM FOR US\n⚠️不設堂食⚠️不設堂食⚠️",
         "categories": [
           "Dessert Shop"
-        ]
+        ],
+        "addr": "觀塘駿業里6號富利工業大廈11樓C室",
+        "area": "Kowloon, Hong Kong"
       }
     },
     {
       "url": "https://www.instagram.com/tarolover.hk/",
       "meta": {
-        "name": "新店裝修中 預計4月頭開店",
-        "about": "❤️90s後情侶檔👧🏻👦🏻\n🧡營業時間：/\n💙地址：觀塘駿業里富利工業大廈11樓C室\n💛自家製🌰🍠🥔🌼\n💚不設堂食 只做外賣"
+        "name": "5月27日 罷! ⚠️不設堂食 只做外賣自取",
+        "about": "ONE DREAM FOR US👧🏻👦🏻\n🔛營業時間：2-7pm🕑🕖\n📍地址：觀塘駿業里富利工業大廈11樓C室\n💛自家製🌰🍠🥔🌼\n💚不設堂食 只做外賣"
       }
     }
   ],
@@ -42,6 +45,22 @@
     "taiwanese"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP01328"
+    "Y_SHOP01328",
+    "Y_EAT01052"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘駿業里6號富利工業大廈11樓C室"
+      },
+      "googleMapsPlaceId": "ChIJ_9ujd08BBDQRlzx5LUVzF1w",
+      "coordinates": {
+        "lat": 22.3123535,
+        "lng": 114.2240285
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
