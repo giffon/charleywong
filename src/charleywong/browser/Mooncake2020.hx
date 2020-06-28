@@ -9,18 +9,8 @@ extern class Masonry extends ReactComponent {
 
 }
 
-typedef MooncakeData = {
-    name: String,
-    note: String,
-    past_types: Array<String>,
-    types: Array<String>,
-    past_info: Array<String>,
-    info: Array<String>,
-    charleywong: String,
-}
-
 class Mooncake2020 extends ReactComponent {
-    var data(get, null):Array<MooncakeData>;
+    var data(get, null):Array<Mooncake2020Data>;
     function get_data() return props.data;
 
     function renderType(mooncakeType:String, past:Bool) {
@@ -32,7 +22,7 @@ class Mooncake2020 extends ReactComponent {
         ');
     }
 
-    function renderMooncakeData(d:MooncakeData) {
+    function renderMooncake2020Data(d:Mooncake2020Data) {
         return jsx('
             <div key=${d.name} className="card">
                 <div className="card-body">
@@ -52,7 +42,7 @@ class Mooncake2020 extends ReactComponent {
                 className="masonry-grid"
                 columnClassName="masonry-grid-column"
             >
-                ${data.map(renderMooncakeData)}
+                ${data.map(renderMooncake2020Data)}
             </Masonry>
         ');
     }

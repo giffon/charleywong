@@ -78,7 +78,7 @@ class ServerMain {
                                 case v: v.split("\n").map(s -> s.trim());
                             },
                             charleywong: r.charleywong,
-                        }:charleywong.browser.Mooncake2020.MooncakeData)
+                        }:charleywong.browser.Mooncake2020Data)
                     ];
                 } catch (e) {
                     throw 'Failed to load data.\n$e';

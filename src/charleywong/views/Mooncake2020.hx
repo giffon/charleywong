@@ -1,7 +1,7 @@
 package charleywong.views;
 
 class Mooncake2020 extends View {
-    var data(get, null):Array<charleywong.browser.Mooncake2020.MooncakeData>;
+    var data(get, null):Array<charleywong.browser.Mooncake2020Data>;
     function get_data() return props.data;
 
     override public function title() return "Charley嘅黃金月餅攻略";
