@@ -27,6 +27,12 @@
     vertical-align: text-bottom;
 }
 
+.mooncake2020 {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .mooncake2020 .card {
     overflow: hidden;
 }
@@ -41,4 +47,21 @@
 
 .mooncake2020 .card-body {
     padding: 20px 15px;
+}
+
+.mooncake-info > div {
+    margin-bottom: 0.5rem;
+    min-height: 150px;
+    background-image: url("/images/Rolling-1s-200px.gif");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100px 100px;
+}
+
+.fb-post {
+    background-color: transparent;
+}
+
+.fb-post[fb-xfbml-state="rendered"] {
+    background-color: #FFF;
 }

@@ -24,9 +24,9 @@ class Mooncake2020 extends View {
     override function bodyContent() {
         return jsx('
             <div className="container-fluid">
-                <h1 className="mt-3">${title()}</h1>
+                <h1 className="mt-3 text-center">${title()}</h1>
                 <div className="mooncake2020" data-mooncake2020=${Json.stringify(data)} />
-                <p className="text-muted mt-3">Icon: Mooncake by Xinh Studio from the Noun Project</p>
+                <p className="text-muted mt-3 text-center">Icon: Mooncake by Xinh Studio from the Noun Project</p>
             </div>
         ');
     }

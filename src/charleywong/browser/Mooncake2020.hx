@@ -41,7 +41,7 @@ class Mooncake2020 extends ReactComponent {
                         ${d.types.map(t -> renderType(t, false))}
                         ${d.past_types.map(t -> renderType(t, true))}
                     </p>
-                    <div className="mb-2">
+                    <div className="mooncake-info mb-2">
                         ${d.info.map(url -> renderInfo(url, false))}
                         ${d.past_info.map(url -> renderInfo(url, true))}
                     </div>
@@ -55,15 +55,15 @@ class Mooncake2020 extends ReactComponent {
     function renderInfo(url:String, past:Bool) {
         if (url.startsWith("https://www.facebook.com/")) {
             return jsx('
-                <EmbeddedPost className="mooncake-info" href=${url} />
+                <EmbeddedPost href=${url} />
             ');
         } else if (url.startsWith("https://www.instagram.com/")) {
             return jsx('
-                <InstagramEmbed className="mooncake-info" url=${url} />
+                <InstagramEmbed url=${url} />
             ');
         } else {
             return jsx('
-                <div className="mooncake-info">
+                <div>
                     <a href=${url}>${url}</a>
                 </div>
             ');
