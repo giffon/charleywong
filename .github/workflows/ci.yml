@@ -114,6 +114,8 @@ jobs:
       - name: Deploy
         run: npx serverless deploy
         env:
+          GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
+          GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
           AWS_ACCESS_KEY_ID: ${{ secrets.awsAccessKeyId }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.awsSecretAccessKey }}
           SERVERLESS_ACCESS_KEY: ${{ secrets.serverlessAccessKey }}
