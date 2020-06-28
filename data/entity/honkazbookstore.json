@@ -21,11 +21,29 @@
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/honkazbookstore/posts/458061784960621"
+      "url": "https://www.facebook.com/honkazbookstore/posts/458061784960621",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
     "book",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "北角英皇道294號五洲大廈地下E舖"
+      },
+      "googleMapsPlaceId": "ChIJyzoZ0MMBBDQRZN4NwHaB4vE",
+      "coordinates": {
+        "lat": 22.2898186,
+        "lng": 114.1954892
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
   ]
 }
