@@ -83,7 +83,7 @@ class Mooncake2020 extends ReactComponent {
             breakpoints[Std.string(minPageWidth)] = numCols - 1;
         }
         return jsx('
-            <FacebookProvider appId="628806881259482">
+            <FacebookProvider appId="628806881259482" version="v7.0">
                 <Masonry
                     breakpointCols=${breakpoints}
                     className="masonry-grid"
