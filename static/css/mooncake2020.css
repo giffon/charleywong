@@ -35,6 +35,10 @@
     padding: 1em;
 }
 
+.card-link+.card-link {
+    margin-left: 0.5rem;
+}
+
 .mooncake2020 .card-body {
     padding: 20px 15px;
 }

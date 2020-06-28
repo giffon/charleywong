@@ -45,7 +45,7 @@ class Mooncake2020 extends ReactComponent {
                         ${d.info.map(url -> renderInfo(url, false))}
                         ${d.past_info.map(url -> renderInfo(url, true))}
                     </div>
-                    <a className="card-link badge badge-pill badge-light" href=${d.info.concat(d.past_info)[0]}>打開資料來源</a>
+                    <a className="card-link badge badge-pill badge-light" href=${d.info.concat(d.past_info)[0]}>🔗 資料來源</a>
                     <a className="card-link badge badge-pill badge-light" href=${d.charleywong}>🐧🔎 店舖表態FC</a>
                 </div>
             </div>
