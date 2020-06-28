@@ -26,6 +26,7 @@ class Mooncake2020 extends View {
             <div className="container-fluid">
                 <h1>${title()}</h1>
                 <div className="mooncake2020" data-mooncake2020=${Json.stringify(data)} />
+                <p className="text-muted mt-3">Icon: Mooncake by Xinh Studio from the Noun Project</p>
             </div>
         ');
     }
