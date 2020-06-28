@@ -15,6 +15,15 @@ class EntityView extends View {
     public var entity(get, never):Entity;
     function get_entity() return props.entity;
 
+    override function footJs() {
+        return jsx('
+            <Fragment>
+                ${super.footJs()}
+                <script async=${true} defer=${true} crossOrigin="anonymous" src="https://connect.facebook.net/zh_HK/sdk.js#xfbml=1&version=v7.0&appId=628806881259482&autoLogAppEvents=1"></script>
+            </Fragment>
+        ');
+    }
+
     function isFbPostEmbeddable(post:Post):Bool {
         if (post.meta == null)
             return true;
