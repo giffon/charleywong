@@ -13,6 +13,8 @@
         "categories": [
           "Restaurant"
         ],
+        "addr": "Shop B Nathan Tower,518-520 Nathan Road, kowloon,Hong Kong",
+        "area": "Kowloon, Hong Kong",
         "tel": "54992779"
       }
     },
@@ -36,6 +38,18 @@
       "meta": {
         "sharedWith": "Public"
       }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=131909751888684&id=104471644632495",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=132033885209604&id=104471644632495",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
@@ -43,5 +57,20 @@
   ],
   "alias": [
     "104471644632495"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop B Nathan Tower,518-520 Nathan Road, kowloon,Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJJdKAHMEABDQR_G8rfC_hJr0",
+      "coordinates": {
+        "lat": 22.3124053,
+        "lng": 114.1709903
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
