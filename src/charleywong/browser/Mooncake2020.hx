@@ -67,7 +67,7 @@ class Mooncake2020 extends ReactComponent {
             case Matcha:
                 mooncakeName.contains("抹茶");
             case RedBeans:
-                mooncakeName.contains("紅豆");
+                mooncakeName.contains("紅豆") || mooncakeName.contains("豆沙");
             case Mocha:
                 mooncakeName.contains("朱古力咖啡");
             case Vegan:
@@ -82,10 +82,8 @@ class Mooncake2020 extends ReactComponent {
         };
     }
 
-    function renderMooncakeName(mooncakeName:String, past:Bool) {
+    function renderMooncakeName(mooncakeName:String) {
         var classes = ["mr-2", "text-nowrap"];
-        if (past)
-            classes.push("past");
         return jsx('
             <span key=${mooncakeName} className=${classes.join(" ")}><span className="mooncake-icon"></span> ${mooncakeName}</span>
         ');
@@ -98,21 +96,19 @@ class Mooncake2020 extends ReactComponent {
                     <h5 className="card-title">${d.name}</h5>
                     <h6 className="card-subtitle mb-2 text-muted">${d.note}</h6>
                     <p className="card-text">
-                        ${d.types.map(t -> renderMooncakeName(t, false))}
-                        ${d.past_types.map(t -> renderMooncakeName(t, true))}
+                        ${d.types.map(renderMooncakeName)}
                     </p>
                     <div className="mooncake-info mb-2">
-                        ${d.info.map(url -> renderInfo(url, false))}
-                        ${d.past_info.map(url -> renderInfo(url, true))}
+                        ${d.info.map(renderInfo)}
                     </div>
-                    <a className="card-link badge badge-pill badge-light" target="_blank" href=${d.info.concat(d.past_info)[0]}>🔗 資料來源</a>
+                    <a className="card-link badge badge-pill badge-light" target="_blank" href=${d.info[0]}>🔗 資料來源</a>
                     <a className="card-link badge badge-pill badge-light" target="_blank" href=${d.charleywong}>🐧🔎 店舖表態FC</a>
                 </div>
             </div>
         ');
     }
 
-    function renderInfo(url:String, past:Bool) {
+    function renderInfo(url:String) {
         if (url.startsWith("https://www.facebook.com/")) {
             return jsx('
                 <EmbeddedPost key=${url} href=${url} />
@@ -162,8 +158,12 @@ class Mooncake2020 extends ReactComponent {
 
         var filteredData = data
             .filter(d ->
-                d.types.concat(d.past_types)
-                    .exists(t -> isMooncakeType(mooncakeType, t))
+                switch (d.types) {
+                    case []:
+                        true;
+                    case types:
+                        types.exists(t -> isMooncakeType(mooncakeType, t));
+                }
             )
             .map(renderMooncake2020Data);
 
@@ -221,6 +221,11 @@ class Mooncake2020 extends ReactComponent {
                         </Toolbar>
                     </AppBar>
                 </ElevationScroll>
+                <div className="py-2">
+                    <Typography noWrap=${true}>
+                        ${filteredData.length} 項資料
+                    </Typography>
+                </div>
                 <FacebookProvider appId="628806881259482" version="v7.0">
                     <Masonry
                         breakpointCols=${breakpoints}

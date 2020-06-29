@@ -49,45 +49,7 @@ class ServerMain {
     }
 
     static function pageMooncake2020(req:Request, res:Response) {
-        var sheetId = "1IOw32aDGL9-2gTDCeI7QLe2o65lR1xQa-UZESCsSzRE";
-        var doc = new js.npm.google_spreadsheet.GoogleSpreadsheet(sheetId);
-        doc.useServiceAccountAuth(charleywong.GoogleServiceAccount.googleServiceAccount)
-            .then(_ -> doc.loadInfo())
-            .then(_ -> doc.sheetsByIndex.find(sheet -> sheet.title == "mooncake2020").getRows())
-            .then(rows -> {
-                var data = try {
-                    [
-                        for (r in rows)
-                        ({
-                            name: r.name,
-                            note: r.note,
-                            past_types: switch (r.past_types) {
-                                case "": [];
-                                case v: v.split(",").map(s -> s.trim());
-                            },
-                            types: switch (r.types) {
-                                case "": [];
-                                case v: v.split(",").map(s -> s.trim());
-                            },
-                            past_info: switch (r.past_info) {
-                                case "": [];
-                                case v: v.split("\n").map(s -> s.trim());
-                            },
-                            info: switch (r.info) {
-                                case "": [];
-                                case v: v.split("\n").map(s -> s.trim());
-                            },
-                            charleywong: r.charleywong,
-                        }:charleywong.browser.Mooncake2020Data)
-                    ];
-                } catch (e) {
-                    throw 'Failed to load data.\n$e';
-                }
-                res.sendView(Mooncake2020, {
-                    data: data
-                });
-            })
-            .catchError(err -> res.status(500).send(err));
+        res.sendView(Mooncake2020);
     }
 
     static function renderName(n:MultiLangString) {
