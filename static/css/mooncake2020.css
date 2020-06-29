@@ -49,6 +49,12 @@
     padding: 20px 15px;
 }
 
+@media (max-width: 380px) {
+    .mooncake2020 .card-body {
+        padding: 10px 5px;
+    }
+}
+
 .mooncake-info > div {
     margin-bottom: 0.5rem;
     min-height: 150px;

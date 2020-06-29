@@ -148,8 +148,16 @@ body .MuiMenuItem-root {
 }
 
 .container-entity {
+    padding: 1.5rem 1rem;
     max-width: min(584px,100%); /* fb-post's max-width is 550px */
     width: max-content;
+}
+
+@media (max-width: 380px) {
+    .container-entity {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 .container-btm:after {
@@ -237,6 +245,14 @@ footer {
 @media (min-width: 992px) {
     .order-first-lg {
         order: -1;
+    }
+}
+
+@media (max-width: 380px) {
+    .content > .container,
+    .content > .container-fluid {
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 

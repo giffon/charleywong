@@ -324,7 +324,7 @@ class EntityView extends View {
                         <a href="/" className="logo-header" style=${logoHeaderStyle}></a>
                     </header>
                     <div className="">
-                        <div className="container-entity position-relative mx-auto px-3 py-4 rounded-10 bg-white container-btm">
+                        <div className="container-entity position-relative mx-auto rounded-10 bg-white container-btm">
                             <div className="mb-3 text-center">
                                 <img
                                     className="profile-pic mb-2"
