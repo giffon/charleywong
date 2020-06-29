@@ -537,8 +537,8 @@ class Tag {
 
     static public final adult:TagData = {
         name: {
-            en: "adult only",
-            zh: "十八禁"
+            en: "adult only / sex",
+            zh: "十八禁/成人"
         }
     };
 
