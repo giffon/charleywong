@@ -65,3 +65,17 @@
 .fb-post[fb-xfbml-state="rendered"] {
     background-color: #FFF;
 }
+
+.mooncake2020 .MuiToolbar-root {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.mooncake2020 .MuiFormControl-root {
+    min-width: 120px;
+    margin: 0 1em 1em 1em;
+}
+
+.mooncake2020 .MuiSelect-select {
+    margin-bottom: -0.25em;
+}
