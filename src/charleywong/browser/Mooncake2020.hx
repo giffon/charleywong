@@ -99,7 +99,10 @@ class Mooncake2020 extends ReactComponent {
     }
 
     function renderMooncakeName(mooncakeName:String) {
-        var classes = ["mr-2", "text-nowrap"];
+        var classes = ["mooncake-name", "mr-2", "text-nowrap"];
+        if (mooncakeType != AnyMooncake && isMooncakeType(mooncakeType, mooncakeName)) {
+            classes.push("selected-mooncake-type");
+        }
         return jsx('
             <span key=${mooncakeName} className=${classes.join(" ")}><span className="mooncake-icon"></span> ${mooncakeName}</span>
         ');

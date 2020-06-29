@@ -85,3 +85,13 @@
 .mooncake2020 .MuiSelect-select {
     margin-bottom: -0.1em;
 }
+
+.mooncake-name {
+    border: 1px solid transparent;
+    border-radius: 1em;
+    padding: 0 0.5em 0 0;
+}
+
+.mooncake-name.selected-mooncake-type {
+    border: 2px solid #f4a948;
+}
