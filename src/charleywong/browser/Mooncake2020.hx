@@ -1,8 +1,10 @@
 package charleywong.browser;
 
+import js.html.ScrollLogicalPosition;
 import react.*;
 import react.ReactMacro.jsx;
 import js.npm.material_ui.MaterialUi;
+import js.Browser.*;
 import haxe.DynamicAccess;
 using StringTools;
 using Lambda;
@@ -128,6 +130,12 @@ class Mooncake2020 extends ReactComponent {
         }
     }
 
+    function onFilterChange() {
+        document.querySelector("div.mooncake2020").scrollIntoView({
+            block: ScrollLogicalPosition.START,
+        });
+    }
+
     override function render() {
         var fbMinWidth = 350; // https://developers.facebook.com/docs/plugins/embedded-posts/
         var pagePadding = 15; // bootstrap container-fiuld
@@ -171,7 +179,7 @@ class Mooncake2020 extends ReactComponent {
                                     labelId="mooncake-type-label"
                                     id="mooncake-type-select"
                                     value=${mooncakeType}
-                                    onChange=${evt -> mooncakeType = evt.target.value}
+                                    onChange=${evt -> { mooncakeType = evt.target.value; onFilterChange(); }}
                                     disableUnderline=${true}
                                     autoWidth=${true}
                                 >
