@@ -151,6 +151,15 @@ class Mooncake2020 extends ReactComponent {
         });
     }
 
+    function onOfferChange(evt) {
+        switch (offerType = evt.target.value) {
+            case Manufactured:
+            case Workshop | MaterialAndTools:
+                mooncakeType = AnyMooncake;
+        }
+        onFilterChange();
+    }
+
     override function render() {
         var fbMinWidth = 350; // https://developers.facebook.com/docs/plugins/embedded-posts/
         var pagePadding = 15; // bootstrap container-fiuld
@@ -196,6 +205,59 @@ class Mooncake2020 extends ReactComponent {
             )
             .map(renderMooncake2020Data);
 
+        var mooncakeTypeControl = switch (offerType) {
+            case Workshop | MaterialAndTools:
+                null;
+            case Manufactured:
+                jsx('
+                    <FormControl>
+                        <InputLabel id="mooncake-type-label">月餅款式</InputLabel>
+                        <Select
+                            labelId="mooncake-type-label"
+                            id="mooncake-type-select"
+                            value=${mooncakeType}
+                            onChange=${evt -> { mooncakeType = evt.target.value; onFilterChange(); }}
+                            disableUnderline=${true}
+                            autoWidth=${true}
+                        >
+                            <MenuItem value=${AnyMooncake}>
+                                ${AnyMooncake}
+                            </MenuItem>
+                            <MenuItem value=${LotusSeedPasteWithYolks}>
+                                ${LotusSeedPasteWithYolks}
+                            </MenuItem>
+                            <MenuItem value=${EggCustard}>
+                                ${EggCustard}
+                            </MenuItem>
+                            <MenuItem value=${SnowSkin}>
+                                ${SnowSkin}
+                            </MenuItem>
+                            <MenuItem value=${Nuts}>
+                                ${Nuts}
+                            </MenuItem>
+                            <MenuItem value=${PurpleYam}>
+                                ${PurpleYam}
+                            </MenuItem>
+                            <MenuItem value=${Taro}>
+                                ${Taro}
+                            </MenuItem>
+                            <MenuItem value=${Matcha}>
+                                ${Matcha}
+                            </MenuItem>
+                            <MenuItem value=${RedBeans}>
+                                ${RedBeans}
+                            </MenuItem>
+                            <MenuItem value=${Mocha}>
+                                ${Mocha}
+                            </MenuItem>
+                            <MenuItem value=${Vegan}>
+                                ${Vegan}
+                            </MenuItem>
+                        </Select>
+                    </FormControl>
+                ');
+        }
+
         return jsx('
             <div>
                 <ElevationScroll>
@@ -203,57 +265,12 @@ class Mooncake2020 extends ReactComponent {
                         <Toolbar>
                             <i className="fas fa-filter mr-2"></i>
                             <FormControl>
-                                <InputLabel id="mooncake-type-label">月餅款式</InputLabel>
-                                <Select
-                                    labelId="mooncake-type-label"
-                                    id="mooncake-type-select"
-                                    value=${mooncakeType}
-                                    onChange=${evt -> { mooncakeType = evt.target.value; onFilterChange(); }}
-                                    disableUnderline=${true}
-                                    autoWidth=${true}
-                                >
-                                    <MenuItem value=${AnyMooncake}>
-                                        ${AnyMooncake}
-                                    </MenuItem>
-                                    <MenuItem value=${LotusSeedPasteWithYolks}>
-                                        ${LotusSeedPasteWithYolks}
-                                    </MenuItem>
-                                    <MenuItem value=${EggCustard}>
-                                        ${EggCustard}
-                                    </MenuItem>
-                                    <MenuItem value=${SnowSkin}>
-                                        ${SnowSkin}
-                                    </MenuItem>
-                                    <MenuItem value=${Nuts}>
-                                        ${Nuts}
-                                    </MenuItem>
-                                    <MenuItem value=${PurpleYam}>
-                                        ${PurpleYam}
-                                    </MenuItem>
-                                    <MenuItem value=${Taro}>
-                                        ${Taro}
-                                    </MenuItem>
-                                    <MenuItem value=${Matcha}>
-                                        ${Matcha}
-                                    </MenuItem>
-                                    <MenuItem value=${RedBeans}>
-                                        ${RedBeans}
-                                    </MenuItem>
-                                    <MenuItem value=${Mocha}>
-                                        ${Mocha}
-                                    </MenuItem>
-                                    <MenuItem value=${Vegan}>
-                                        ${Vegan}
-                                    </MenuItem>
-                                </Select>
-                            </FormControl>
-                            <FormControl>
                                 <InputLabel id="offer-type-label">供應</InputLabel>
                                 <Select
                                     labelId="offer-type-label"
                                     id="offer-type-select"
                                     value=${offerType}
-                                    onChange=${evt -> { offerType = evt.target.value; onFilterChange(); }}
+                                    onChange=${onOfferChange}
                                     disableUnderline=${true}
                                     autoWidth=${true}
                                 >
@@ -268,6 +285,7 @@ class Mooncake2020 extends ReactComponent {
                                     </MenuItem>
                                 </Select>
                             </FormControl>
+                            ${mooncakeTypeControl}
                         </Toolbar>
                     </AppBar>
                 </ElevationScroll>
