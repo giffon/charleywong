@@ -22,7 +22,7 @@ extern class EmbeddedPost extends ReactComponent {}
 extern class InstagramEmbed extends ReactComponent {}
 
 enum abstract MooncakeType(String) {
-    var Any = "";
+    var AnyMooncake = "任何款式";
     var LotusSeedPasteWithYolks = "蛋黃蓮蓉";
     var EggCustard = "奶黃";
     var SnowSkin = "冰皮";
@@ -33,6 +33,12 @@ enum abstract MooncakeType(String) {
     var RedBeans = "紅豆";
     var Mocha = "朱古力咖啡";
     var Vegan = "純素";
+}
+
+enum abstract OfferType(String) {
+    var Manufactured = "製成品";
+    var Workshop = "工作坊";
+    var MaterialAndTools = "材料工具";
 }
 
 class Mooncake2020 extends ReactComponent {
@@ -48,9 +54,18 @@ class Mooncake2020 extends ReactComponent {
         return v;
     }
 
+    var offerType(get, set):OfferType;
+    function get_offerType() return state.offerType;
+    function set_offerType(v) {
+        setState({
+            offerType: v,
+        });
+        return v;
+    }
+
     static function isMooncakeType(type:MooncakeType, mooncakeName:String):Bool {
         return switch (type) {
-            case Any:
+            case AnyMooncake:
                 true;
             case LotusSeedPasteWithYolks:
                 mooncakeName.contains("蓮蓉");
@@ -78,7 +93,8 @@ class Mooncake2020 extends ReactComponent {
     function new(props) {
         super(props);
         state = {
-            mooncakeType: Any,
+            mooncakeType: AnyMooncake,
+            offerType: Manufactured,
         };
     }
 
@@ -165,6 +181,16 @@ class Mooncake2020 extends ReactComponent {
                         types.exists(t -> isMooncakeType(mooncakeType, t));
                 }
             )
+            .filter(d ->
+                switch (offerType) {
+                    case Manufactured:
+                        !d.note.contains("工作坊") && !d.note.contains("材料工具");
+                    case Workshop:
+                        d.note.contains("工作坊");
+                    case MaterialAndTools:
+                        d.note.contains("材料工具");
+                }
+            )
             .map(renderMooncake2020Data);
 
         return jsx('
@@ -172,7 +198,7 @@ class Mooncake2020 extends ReactComponent {
                 <ElevationScroll>
                     <AppBar position="sticky" className="mb-2 bg-light text-body">
                         <Toolbar>
-                            <i className="fas fa-filter"></i>
+                            <i className="fas fa-filter mr-2"></i>
                             <FormControl>
                                 <InputLabel id="mooncake-type-label">月餅款式</InputLabel>
                                 <Select
@@ -183,8 +209,8 @@ class Mooncake2020 extends ReactComponent {
                                     disableUnderline=${true}
                                     autoWidth=${true}
                                 >
-                                    <MenuItem value=${Any}>
-                                        <em>任何款式</em>
+                                    <MenuItem value=${AnyMooncake}>
+                                        ${AnyMooncake}
                                     </MenuItem>
                                     <MenuItem value=${LotusSeedPasteWithYolks}>
                                         ${LotusSeedPasteWithYolks}
@@ -215,6 +241,27 @@ class Mooncake2020 extends ReactComponent {
                                     </MenuItem>
                                     <MenuItem value=${Vegan}>
                                         ${Vegan}
+                                    </MenuItem>
+                                </Select>
+                            </FormControl>
+                            <FormControl>
+                                <InputLabel id="offer-type-label">供應</InputLabel>
+                                <Select
+                                    labelId="offer-type-label"
+                                    id="offer-type-select"
+                                    value=${offerType}
+                                    onChange=${evt -> { offerType = evt.target.value; onFilterChange(); }}
+                                    disableUnderline=${true}
+                                    autoWidth=${true}
+                                >
+                                    <MenuItem value=${Manufactured}>
+                                        ${Manufactured}
+                                    </MenuItem>
+                                    <MenuItem value=${Workshop}>
+                                        ${Workshop}
+                                    </MenuItem>
+                                    <MenuItem value=${MaterialAndTools}>
+                                        ${MaterialAndTools}
                                     </MenuItem>
                                 </Select>
                             </FormControl>
