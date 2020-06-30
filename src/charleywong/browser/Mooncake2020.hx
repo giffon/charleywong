@@ -30,7 +30,7 @@ enum abstract MooncakeType(String) {
     var PurpleYam = "紫薯";
     var Taro = "芋頭";
     var Matcha = "抹茶";
-    var RedBeans = "紅豆";
+    var RedBeans = "紅豆/豆沙";
     var Mocha = "朱古力咖啡";
     var Vegan = "純素";
 }

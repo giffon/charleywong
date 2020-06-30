@@ -263,7 +263,10 @@ class Mooncake2020 extends View {
         {
             "name": "水媽sweet工藝坊",
             "note": "訂造月餅",
-            "types": [],
+            "types": [
+                "蛋黃蓮蓉月餅",
+                "蛋黃豆沙月餅"
+            ],
             "current": false,
             "info": [
                 "https://www.facebook.com/shuima.pineapplecake/posts/2376953302519871?__cft__[0]=AZXGG1a9BAjfCDh6StTTh94FBjycSkO1s3PGr5cdt8XVAOqEKJsv71zX5rdWwHYSjw8UR5ROSYJZlNJpYqYrt6WkbuZsa9Po95L35l5_vv9iknTf-e1F98WfLuQbML3n9Mly1I5_fjzNfCtiZ7QhJ7hy47h-AS2EEivbfTMVDDWGRw&__tn__=%2CO%2CP-R"
