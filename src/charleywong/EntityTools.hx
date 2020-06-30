@@ -39,7 +39,14 @@ class EntityTools {
             Promise.resolve(p);
         } else {
             Fetch.fetch(p.url)
-                .then(r -> r.text())
+                .then(r ->
+                    if (!r.ok)
+                        r.text().then(text ->
+                            throw '${r.status} ${r.statusText}\n${text}'
+                        );
+                    else
+                        r.text()
+                )
                 .then(text -> {
                     var doc = new JSDOM(text, {
                         virtualConsole: new VirtualConsole(),

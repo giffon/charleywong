@@ -179,6 +179,16 @@ class EntityView extends View {
         return null;
     }
 
+    static function ogProp(og:Array<{property:String, content:String}>, prop:String) {
+        if (og == null)
+            return null;
+
+        return switch(og.find(p -> p.property == prop)) {
+            case null: null;
+            case p: p.content;
+        }
+    }
+
     function renderPost(p:charleywong.Entity.Post) {
         var summary = if (p.summary != null) {
             var nodes = [];
@@ -252,15 +262,6 @@ class EntityView extends View {
             ');
         } else {
             if (p.meta != null && p.meta["og"] != null) {
-                function ogProp(og:Array<{property:String, content:String}>, prop:String) {
-                    if (og == null)
-                        return null;
-
-                    return switch(og.find(p -> p.property == prop)) {
-                        case null: null;
-                        case p: p.content;
-                    }
-                }
                 var og = p.meta["og"];
                 var title = ogProp(og, "og:title");
                 var image = '/proxy/image?' + Querystring.encode({
