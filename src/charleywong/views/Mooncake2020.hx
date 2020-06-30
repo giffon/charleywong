@@ -230,6 +230,17 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/BakeForYou.HK"
         },
         {
+            "name": "Let's Jam 一起果醬",
+            "note": "",
+            "types": [
+                "流心奶黃月餅+果醬禮盒"
+            ],
+            "info": [
+                "https://www.facebook.com/permalink.php?story_fbid=1976059842458569&id=592839210780646"
+            ],
+            "charleywong": "https://charleywong.giffon.io/letsjam_"
+        },
+        {
             "name": "水媽sweet工藝坊",
             "note": "訂造月餅",
             "types": [],
