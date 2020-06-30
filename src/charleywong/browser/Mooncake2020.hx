@@ -109,11 +109,17 @@ class Mooncake2020 extends ReactComponent {
     }
 
     function renderMooncake2020Data(d:Mooncake2020Data) {
+        var oldInfoWarning = if (!d.current) {
+            jsx('<div className="old-info-warning"><i className="fas fa-exclamation-circle"></i> 以下為往年資訊</div>');
+        } else {
+            null;
+        }
         return jsx('
             <div key=${d.name} className="card">
                 <div className="card-body">
                     <h5 className="card-title">${d.name}</h5>
                     <h6 className="card-subtitle mb-2 text-muted">${d.note}</h6>
+                    ${oldInfoWarning}
                     <p className="card-text">
                         ${d.types.map(renderMooncakeName)}
                     </p>

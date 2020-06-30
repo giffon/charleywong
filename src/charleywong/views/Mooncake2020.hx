@@ -8,6 +8,7 @@ class Mooncake2020 extends View {
             "types": [
                 "蛋黃蓉白蓮蓉月餅"
             ],
+            "current": true,
             "info": [
                 "https://www.facebook.com/yummycornerhk/posts/3738183472865528"
             ],
@@ -19,6 +20,7 @@ class Mooncake2020 extends View {
             "types": [
                 "雙黃白蓮蓉月餅"
             ],
+            "current": true,
             "info": [
                 "https://www.facebook.com/permalink.php?story_fbid=288252049225697&id=116149449769292"
             ],
@@ -34,6 +36,7 @@ class Mooncake2020 extends View {
                 "純素奶黃月餅",
                 "果仁月餅"
             ],
+            "current": true,
             "info": [
                 "https://www.facebook.com/lalune.hongkong/posts/3078775305494081"
             ],
@@ -45,6 +48,7 @@ class Mooncake2020 extends View {
             "types": [
                 "奶黃月餅"
             ],
+            "current": true,
             "info": [
                 "https://www.facebook.com/sayheybakery/posts/4164629173577329"
             ],
@@ -58,6 +62,7 @@ class Mooncake2020 extends View {
                 "雙黃白蓮蓉月餅",
                 "五仁月餅"
             ],
+            "current": true,
             "info": [
                 "https://www.facebook.com/Agapegardenhk/posts/2612460102347165"
             ],
@@ -69,6 +74,7 @@ class Mooncake2020 extends View {
             "types": [
                 "流心奶黃月餅"
             ],
+            "current": true,
             "info": [
                 "https://www.facebook.com/ValeriePastry/posts/3201423863271371"
             ],
@@ -82,6 +88,7 @@ class Mooncake2020 extends View {
                 "雙黃白蓮蓉月餅",
                 "五仁月餅"
             ],
+            "current": true,
             "info": [
                 "https://www.facebook.com/LungMunCafe/posts/3245844615480333"
             ],
@@ -94,6 +101,7 @@ class Mooncake2020 extends View {
                 "蛋黃白蓮蓉月餅",
                 "豆沙蛋黃月餅"
             ],
+            "current": true,
             "info": [
                 "https://www.facebook.com/wahyeetangcakeshop/posts/3083504785100773"
             ],
@@ -105,6 +113,7 @@ class Mooncake2020 extends View {
             "types": [
                 "『水果』＆『凍』嘅月餅"
             ],
+            "current": true,
             "info": [
                 "https://www.facebook.com/w.boysfruitstore/posts/3573058452707515"
             ],
@@ -118,6 +127,7 @@ class Mooncake2020 extends View {
                 "奶黃流心月餅",
                 "紫薯流心月餅"
             ],
+            "current": true,
             "info": [
                 "https://www.instagram.com/p/CBfukXkBm2d/"
             ],
@@ -130,6 +140,7 @@ class Mooncake2020 extends View {
                 "麻薯奶皇月餅",
                 "伯爵茶奶皇月餅"
             ],
+            "current": true,
             "info": [
                 "https://www.facebook.com/permalink.php?story_fbid=713408219234091&id=124533194788266"
             ],
@@ -142,6 +153,7 @@ class Mooncake2020 extends View {
                 "金沙奶皇月餅",
                 "流心金沙奶皇月餅"
             ],
+            "current": true,
             "info": [
                 "https://www.facebook.com/circlebakeryhk/posts/3979072885467998"
             ],
@@ -154,6 +166,7 @@ class Mooncake2020 extends View {
                 "蛋黃奶皇月餅",
                 "蛋黃白蓮蓉月餅"
             ],
+            "current": false,
             "info": [
                 "https://www.facebook.com/yattungheen/posts/2245822805500404"
             ],
@@ -165,6 +178,7 @@ class Mooncake2020 extends View {
             "types": [
                 "蛋黃蓮蓉月餅"
             ],
+            "current": false,
             "info": [
                 "https://www.instagram.com/p/BZp31Xkltjc/"
             ],
@@ -177,6 +191,7 @@ class Mooncake2020 extends View {
                 "純素芋頭酥皮月餅",
                 "純素紅豆陳皮月餅"
             ],
+            "current": false,
             "info": [
                 "https://www.facebook.com/yearshk/photos/a.1001795379832707/2780588891953338"
             ],
@@ -189,6 +204,7 @@ class Mooncake2020 extends View {
                 "蛋黃蓮蓉月餅",
                 "冰皮月餅"
             ],
+            "current": false,
             "info": [
                 "https://www.facebook.com/Groundworks.Wanchai/posts/10157801534024095"
             ],
@@ -200,6 +216,7 @@ class Mooncake2020 extends View {
             "types": [
                 "冰皮月餅"
             ],
+            "current": false,
             "info": [
                 "https://www.facebook.com/taipan.com.hk/posts/2447043435358646"
             ],
@@ -211,6 +228,7 @@ class Mooncake2020 extends View {
             "types": [
                 "榴蓮冰皮月餅"
             ],
+            "current": false,
             "info": [
                 "https://www.facebook.com/permalink.php?story_fbid=868500286862955&id=807405289639122"
             ],
@@ -224,6 +242,7 @@ class Mooncake2020 extends View {
                 "花生榛子月餅",
                 "朱古力咖啡月餅"
             ],
+            "current": false,
             "info": [
                 "https://www.facebook.com/BakeForYou.HK/posts/364985934171348"
             ],
@@ -235,6 +254,7 @@ class Mooncake2020 extends View {
             "types": [
                 "流心奶黃月餅+果醬禮盒"
             ],
+            "current": false,
             "info": [
                 "https://www.facebook.com/permalink.php?story_fbid=1976059842458569&id=592839210780646"
             ],
@@ -244,6 +264,7 @@ class Mooncake2020 extends View {
             "name": "水媽sweet工藝坊",
             "note": "訂造月餅",
             "types": [],
+            "current": false,
             "info": [
                 "https://www.facebook.com/shuima.pineapplecake/posts/2376953302519871?__cft__[0]=AZXGG1a9BAjfCDh6StTTh94FBjycSkO1s3PGr5cdt8XVAOqEKJsv71zX5rdWwHYSjw8UR5ROSYJZlNJpYqYrt6WkbuZsa9Po95L35l5_vv9iknTf-e1F98WfLuQbML3n9Mly1I5_fjzNfCtiZ7QhJ7hy47h-AS2EEivbfTMVDDWGRw&__tn__=%2CO%2CP-R"
             ],
@@ -255,6 +276,7 @@ class Mooncake2020 extends View {
             "types": [
                 "奶黃月餅"
             ],
+            "current": true,
             "info": [
                 "https://www.facebook.com/PandaZoeBakery/photos/a.891971987557764/3108328159255458/"
             ],
@@ -267,6 +289,7 @@ class Mooncake2020 extends View {
                 "鮮芋彩虹千層月餅",
                 "軟心奶皇脆皮月餅"
             ],
+            "current": false,
             "info": [
                 "https://www.facebook.com/bakeyourownhk/posts/470899700160212",
                 "https://www.facebook.com/bakeyourownhk/posts/470881733495342"
@@ -279,6 +302,7 @@ class Mooncake2020 extends View {
             "types": [
                 "奶黃月餅"
             ],
+            "current": false,
             "info": [
                 "https://www.facebook.com/TLK.com.hk/posts/2313207415662006"
             ],
@@ -291,6 +315,7 @@ class Mooncake2020 extends View {
                 "蛋黃蓮蓉月餅",
                 "潮式芋泥千層月餅"
             ],
+            "current": false,
             "info": [
                 "https://www.facebook.com/mama.a.bakery/posts/1702741293192207",
                 "https://www.facebook.com/mama.a.bakery/photos/a.469403776525971/1695303233936013/"
@@ -303,6 +328,7 @@ class Mooncake2020 extends View {
             "types": [
                 "流心奶黃月餅"
             ],
+            "current": false,
             "info": [
                 "https://www.facebook.com/cakebaseshekmun/posts/480777362501094"
             ],
@@ -312,6 +338,7 @@ class Mooncake2020 extends View {
             "name": "烘焙便利店",
             "note": "月餅材料工具",
             "types": [],
+            "current": true,
             "info": [
                 "https://www.facebook.com/baking11/posts/3249050248449315"
             ],
@@ -321,6 +348,7 @@ class Mooncake2020 extends View {
             "name": "糖屋烘焙",
             "note": "月餅材料工具",
             "types": [],
+            "current": false,
             "info": [
                 "https://www.facebook.com/sugarhouse.com.hk/posts/2650344365192509"
             ],
@@ -330,6 +358,7 @@ class Mooncake2020 extends View {
             "name": "甜心烘焙",
             "note": "月餅材料工具",
             "types": [],
+            "current": false,
             "info": [
                 "https://www.facebook.com/sweetybaking/posts/10156502139866092"
             ],
@@ -339,6 +368,7 @@ class Mooncake2020 extends View {
             "name": "Housemaking Fun 家政坊",
             "note": "月餅材料工具",
             "types": [],
+            "current": false,
             "info": [
                 "https://www.facebook.com/hmakingfun/posts/2465120693527179"
             ],

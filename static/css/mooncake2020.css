@@ -95,3 +95,8 @@
 .mooncake-name.selected-mooncake-type {
     border: 2px solid #f4a948;
 }
+
+.mooncake2020 .old-info-warning {
+    color: #8a3722;
+    margin-left: 0.25em;
+}
