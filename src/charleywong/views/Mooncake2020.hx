@@ -72,7 +72,8 @@ class Mooncake2020 extends View {
             "name": "Valérie",
             "note": "",
             "types": [
-                "流心奶黃月餅"
+                "流心奶黃月餅",
+                "流心抹茶月餅"
             ],
             "current": true,
             "info": [
