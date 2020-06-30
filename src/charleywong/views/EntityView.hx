@@ -1,5 +1,6 @@
 package charleywong.views;
 
+import js.node.Querystring;
 import js.html.URL;
 import js.npm.linkifyjs.react.Linkify;
 import charleywong.Utils.prettyUrl;
@@ -262,7 +263,9 @@ class EntityView extends View {
                 }
                 var og = p.meta["og"];
                 var title = ogProp(og, "og:title");
-                var image = ogProp(og, "og:image");
+                var image = '/proxy/image?' + Querystring.encode({
+                    post: p.url,
+                });
                 var siteName = ogProp(og, "og:site_name");
                 var published_time = ogProp(og, "article:published_time");
 

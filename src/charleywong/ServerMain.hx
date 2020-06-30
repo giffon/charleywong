@@ -299,6 +299,54 @@ class ServerMain {
         next();
     }
 
+    static function getPost(url:String):Post {
+        for (e in entityIndex.entities)
+            for (p in e.posts)
+                if (p.url == url)
+                    return p;
+
+        return null;
+    }
+
+    static function proxyPostImage(req:Request, res:Response):Void {
+        var post:Null<String> = req.query.post;
+        switch (getPost(post)) {
+            case null:
+                res.status(403).send('$post doesn\'t exist in the database.');
+                return;
+            case post:
+                EntityTools.fullMeta(post).then(post -> {
+                    if (post.meta == null) {
+                        res.status(404).send('$post doesn\'t provide "og:image".');
+                        return;
+                    }
+
+                    switch(post.meta["og"]) {
+                        case null:
+                            res.status(404).send('$post doesn\'t provide "og:image".');
+                            return;
+                        case og:
+                            switch ((og:Array<{property:String, content:String}>).find(o -> o.property == "og:image")) {
+                                case null:
+                                    res.status(404).send('$post doesn\'t provide "og:image".');
+                                    return;
+                                case { content: imageUrl }:
+                                    Fetch.fetch(Std.string(new URL(imageUrl)))
+                                        .then(r -> {
+                                            res.status(r.status);
+                                            res.setHeader("Content-Type", (cast r:js.html.Response).headers.get("Content-Type"));
+                                            res.setHeader("Cache-Control", "public, max-age=2628000"); // one month
+                                            r.buffer();
+                                        })
+                                        .then(b -> res.end(b))
+                                        .catchError(err -> res.status(500).send(err));
+                                    return;
+                            }
+                    }
+                });
+        }
+    }
+
     static function post(req:Request, res:Response) {
         var url = new URL(cleanUrl(req.body.url));
         switch (extractFbPost(url)) {
@@ -692,6 +740,7 @@ class ServerMain {
         app.get("/page/mooncake2020", pageMooncake2020);
         app.get("/list/:name/:entityIds.json", listEntitiesJson);
         app.get("/list/:name/:entityIds", listEntities);
+        app.get("/proxy/image", proxyPostImage);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+).json", entityJson);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+)/profile.png", entityProfilePic);
         app.get("/:entityId([A-Za-z0-9\\-_\\.]+)", entity);
