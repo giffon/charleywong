@@ -213,14 +213,7 @@ class EntityView extends View {
                     className="fb-post"
                     data-href=${p.url}
                     data-show-text="true"
-                >
-                    <blockquote cite=${p.url} className="fb-xfbml-parse-ignore">
-                        <div className="post-link">
-                            <a href=${p.url}>${prettyUrl(p.url)}</a>
-                            ${summary}
-                        </div>
-                    </blockquote>
-                </div>
+                />
             ');
         } else if (
             p.url.startsWith("https://www.instagram.com/p/")
@@ -302,7 +295,7 @@ class EntityView extends View {
         }
 
         return jsx('
-            <div key=${p.url} className="my-1 text-center">
+            <div key=${p.url} className="post my-1 text-center">
                 ${item}
             </div>
         ');
@@ -350,7 +343,7 @@ class EntityView extends View {
                                 ${entity.webpages.filter(p -> p.hidden != true).map(renderWebpage)}
                                 ${renderYBMap(entity)}
                             </div>
-                            <div>
+                            <div className="posts">
                                 ${if (entity.posts.length > 0) entity.posts.map(renderPost) else null}
                                 ${if (entity.posts.length == 0) "冇表態資料。有可能係先前嘅表態已被移除或者私隱設定有變。" else null}
                             </div>

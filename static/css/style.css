@@ -143,6 +143,22 @@ a.post-preview:hover {
     line-height: 1.5em;
 }
 
+.posts > .post {
+    min-height: 150px;
+    background-image: url("/images/Rolling-1s-200px.gif");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100px 100px;
+}
+
+.posts > .post .fb-post {
+    background-color: transparent;
+}
+
+.posts > .post .fb-post[fb-xfbml-state="rendered"] {
+    background-color: #FFF;
+}
+
 body .MuiMenuItem-root {
     white-space: normal;
 }
@@ -151,6 +167,7 @@ body .MuiMenuItem-root {
     padding: 1.5rem 1rem;
     max-width: min(584px,100%); /* fb-post's max-width is 550px */
     width: max-content;
+    overflow: hidden;
 }
 
 @media (max-width: 380px) {
