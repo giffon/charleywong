@@ -93,6 +93,8 @@ class View extends ReactComponent {
     function prefetch():Array<String> return [];
     function prefetchNode(link:String) return jsx('<link key=${link} rel="prefetch" href=${link} />');
 
+    function ogMeta() return jsx('<Fragment />');
+
     function head() return jsx('
         <head>
             ${gtag()}
@@ -110,6 +112,7 @@ class View extends ReactComponent {
 
             ${favicon()}
             ${descriptionTag()}
+            ${ogMeta()}
             ${depCss()}
             ${depJs()}
             ${css()}

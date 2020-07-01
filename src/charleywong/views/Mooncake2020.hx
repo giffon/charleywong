@@ -382,7 +382,16 @@ class Mooncake2020 extends View {
 
     override public function title() return "Charley嘅黃金月餅攻略";
 
-    override public function description() return "Charley Wong 和你理 整合出多間黃店月餅資訊.";
+    override public function description() return "Charley Wong 和你查 整合出多間黃店月餅資訊.";
+
+    override function ogMeta() return jsx('
+        <Fragment>
+            ${super.ogMeta()}
+            <meta property="og:title" content=${title()} />
+            <meta property="og:type" content="website" />
+            <meta property="og:image" content=${R("/images/mooncake-meta.jpg")} />
+        </Fragment>
+    ');
 
     override public function render() {
         return super.render();
