@@ -63,11 +63,11 @@ class Mooncake2020 extends ReactComponent {
         return v;
     }
 
-    var windowWidth(get, set):Float;
-    function get_windowWidth() return state.windowWidth;
-    function set_windowWidth(v) {
+    var resized(get, set):Bool;
+    function get_resized() return state.resized;
+    function set_resized(v) {
         setState({
-            windowWidth: v,
+            resized: v,
         });
         return v;
     }
@@ -104,8 +104,20 @@ class Mooncake2020 extends ReactComponent {
         state = {
             mooncakeType: AnyMooncake,
             offerType: Manufactured,
-            windowWidth: window.innerWidth,
+            resized: false,
         };
+    }
+
+    function onResized() {
+        resized = true;
+    }
+
+    override function componentDidMount() {
+        window.addEventListener('resize', onResized);
+    }
+
+    override function componentWillUnmount() {
+        window.removeEventListener('resize', onResized);
     }
 
     function renderMooncakeName(mooncakeName:String) {
@@ -144,6 +156,9 @@ class Mooncake2020 extends ReactComponent {
     }
 
     function renderInfo(url:String) {
+        if (resized) {
+            return null;
+        }
         if (url.startsWith("https://www.facebook.com/")) {
             return jsx('
                 <EmbeddedPost key=${url} href=${url} />
@@ -274,7 +289,7 @@ class Mooncake2020 extends ReactComponent {
                 ');
         }
 
-        return jsx('
+        var rendered = jsx('
             <div>
                 <ElevationScroll>
                     <AppBar position="sticky" className="mb-2 bg-light text-body">
@@ -323,5 +338,11 @@ class Mooncake2020 extends ReactComponent {
                 </div>
             </div>
         ');
+
+        if (resized) {
+            resized = false;
+        }
+
+        return rendered;
     }
 }
