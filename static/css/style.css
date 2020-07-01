@@ -412,10 +412,21 @@ footer {
 }
 
 .container-search {
-    background-image:linear-gradient(0deg, rgba(244, 169, 72, 0.8), rgba(244, 169, 72, 0.5), rgba(255, 212, 157, 0.5)), url('/images/burger-theme.jpg');
+    background-image:linear-gradient(0deg, rgba(244, 169, 72, 0.8), rgba(244, 169, 72, 0.5), rgba(255, 212, 157, 0.5)), url('/images/lion.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 15px;
+}
+
+.container-search h2 {
+    text-shadow: 0 0 7px #172451;
+}
+
+.tag-mooncake {
+    box-shadow: 0 0 7px #633606, inset 0 0 4px #dd8e27;
+    background: #fabe50 !important;
+    color: #884907 !important;
+    font-weight: 700;
 }
 
 .container-intro {
