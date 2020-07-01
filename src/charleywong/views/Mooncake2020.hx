@@ -380,9 +380,9 @@ class Mooncake2020 extends View {
         }
     ];
 
-    override public function title() return "Charley嘅黃金月餅攻略";
+    override public function title() return "黃金月餅攻略";
 
-    override public function description() return "Charley Wong 和你查 整合出多間黃店月餅資訊.";
+    override public function description() return "Charley Wong 和你查 整合出多間黃店月餅資訊. 傳統/冰皮/奶黃/純素, 仲有好多其他款. 持續更新中.";
 
     override function ogMeta() return jsx('
         <Fragment>
