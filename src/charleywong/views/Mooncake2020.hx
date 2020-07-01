@@ -403,11 +403,20 @@ class Mooncake2020 extends View {
 
     override function bodyContent() {
         return jsx('
-            <div className="container-fluid">
-                <h1 className="mt-3 text-center">${title()}</h1>
-                <div className="mooncake2020" data-mooncake2020=${Json.stringify(data)} />
-                <p className="text-muted mt-3 text-center">Icon: Mooncake by Xinh Studio from the Noun Project</p>
-            </div>
+            <Fragment>
+                <div className="mooncake-header d-flex align-items-center color-white py-5">
+                    <div className="container py-lg-5 text-center">
+                        <a href="/">
+                            <img className="img-fluid col-4 col-md-3 col-lg-2" src=${R("/images/charley-mooncake.png")} alt="Charley Wong 和你查" width="1060" height="1060" />
+                        </a>
+                        <h1 className="mt-3">黃金月餅攻略</h1>
+                    </div>
+                </div>
+                <div>
+                    <div className="mooncake2020" data-mooncake2020=${Json.stringify(data)} />
+                    <p className="text-muted mt-3 text-center">Icon: Mooncake by Xinh Studio from the Noun Project</p>
+                </div>
+            </Fragment>
         ');
     }
 }

@@ -63,6 +63,15 @@ class Mooncake2020 extends ReactComponent {
         return v;
     }
 
+    var windowWidth(get, set):Float;
+    function get_windowWidth() return state.windowWidth;
+    function set_windowWidth(v) {
+        setState({
+            windowWidth: v,
+        });
+        return v;
+    }
+
     static function isMooncakeType(type:MooncakeType, mooncakeName:String):Bool {
         return switch (type) {
             case AnyMooncake:
@@ -95,6 +104,7 @@ class Mooncake2020 extends ReactComponent {
         state = {
             mooncakeType: AnyMooncake,
             offerType: Manufactured,
+            windowWidth: window.innerWidth,
         };
     }
 
@@ -295,20 +305,22 @@ class Mooncake2020 extends ReactComponent {
                         </Toolbar>
                     </AppBar>
                 </ElevationScroll>
-                <div className="py-2">
-                    <Typography noWrap=${true}>
-                        ${filteredData.length} 項資料
-                    </Typography>
+                <div className="container-fluid">
+                    <div className="py-2">
+                        <Typography noWrap=${true}>
+                            ${filteredData.length} 項資料
+                        </Typography>
+                    </div>
+                    <FacebookProvider appId="628806881259482" version="v7.0">
+                        <Masonry
+                            breakpointCols=${breakpoints}
+                            className="masonry-grid"
+                            columnClassName="masonry-grid-column"
+                        >
+                            ${filteredData}
+                        </Masonry>
+                    </FacebookProvider>
                 </div>
-                <FacebookProvider appId="628806881259482" version="v7.0">
-                    <Masonry
-                        breakpointCols=${breakpoints}
-                        className="masonry-grid"
-                        columnClassName="masonry-grid-column"
-                    >
-                        ${filteredData}
-                    </Masonry>
-                </FacebookProvider>
             </div>
         ');
     }
