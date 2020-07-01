@@ -416,10 +416,10 @@ footer {
     background-size: cover;
     background-position: center;
     border-radius: 15px;
+    color: white;
 }
 
 .container-search h2 {
-    color: white;
     text-shadow: 0 0 7px #172451;
 }
 
