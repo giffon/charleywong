@@ -280,6 +280,13 @@ class ServerMain {
 
     static function searchHtml(req:Request, res:Response) {
         var query:String = req.params.query;
+        switch (query.trim().toLowerCase()) {
+            case "月餅" | "mooncake":
+                res.redirect("/page/mooncake2020");
+                return;
+            case _:
+                //pass
+        }
         var tags = switch (req.query.tags:String) {
             case null: [];
             case v: v.split(" ").map(t -> t.toLowerCase());
