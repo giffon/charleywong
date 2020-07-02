@@ -13,7 +13,7 @@
           "Hong Kong Restaurant"
         ],
         "addr": "九龍界限街24號 24 Boundary Street, Kowloon",
-        "area": "Hong Kong",
+        "area": "nil Hong Kong",
         "tel": "23968971"
       },
       "url": "https://www.facebook.com/837548052969112/"
@@ -42,6 +42,19 @@
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "深水埗北河街141號"
+      },
+      "googleMapsPlaceId": "EiYxNDEgUGVpIEhvIFN0LCBTaGFtIFNodWkgUG8sIEhvbmcgS29uZyIxEi8KFAoSCb2Jmo-0AAQ0EQ76J_cZuYWbEI0BKhQKEgnbOlKHtAAENBHpz1nN7c9zfQ",
+      "coordinates": {
+        "lat": 22.3302537,
+        "lng": 114.1625864
+      },
+      "area": {
+        "zh": "深水埗區"
       }
     }
   ],
