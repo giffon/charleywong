@@ -6,6 +6,10 @@
   },
   "webpages": [
     {
+      "url": "http://thevenue.hk",
+      "hidden": true
+    },
+    {
       "meta": {
         "name": "The Venue",
         "id": "189770137881622",
@@ -41,5 +45,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00107"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "基隆街5號"
+      },
+      "googleMapsPlaceId": "ChIJvwIOIbYABDQRZWKTN3mm22Y",
+      "coordinates": {
+        "lat": 22.32445,
+        "lng": 114.167463
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

@@ -7,19 +7,22 @@
   "webpages": [
     {
       "meta": {
+        "name": "蘇媽.蘇媽 Semua Semua",
         "id": "115517018826718",
         "about": "蘇媽.蘇媽致力推廣馬來西亞美食給香港的普羅大眾，大部份食材皆由馬來西亞直接入口，保證口味獨特，風味絕佳，令大家一試難忘, 回味無窮~",
         "categories": [
-          "Malaysian restaurant"
+          "Malaysian Restaurant"
         ],
         "addr": "深水埗基隆街251號地下",
-        "area": "Sham Shui Po",
-        "email": "semuasemua251@gmail.com"
+        "area": "00 Sham Shui Po",
+        "email": "semuasemua251@gmail.com",
+        "tel": "24479188"
       },
       "url": "https://www.facebook.com/semuasemuaHK/"
     },
     {
       "meta": {
+        "name": "Semua Semua HK 蘇媽.蘇媽",
         "about": "蘇媽.蘇媽致力推廣馬來西亞美食給香港的普羅大眾，大部份食材皆由馬來西亞直接入口，保證口味獨特，風味絕佳，令大家一試難忘, 回味無窮~\n蘇媽.蘇媽馬來西亞茶餐室\n深水埗基隆街251號"
       },
       "url": "https://www.instagram.com/semuasemuahkg/"
@@ -40,5 +43,46 @@
     "Y_EAT01830",
     "Y_EAT01831",
     "Y_EAT01832"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗基隆街251號地下"
+      },
+      "googleMapsPlaceId": "ChIJn5wWs7QABDQRudYUMMOLcuc",
+      "coordinates": {
+        "lat": 22.3288133,
+        "lng": 114.1619217
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "新界荃灣大壩街71號地下"
+      },
+      "googleMapsPlaceId": "ChIJwa7RpGz5AzQRECIZoCTT9mc",
+      "coordinates": {
+        "lat": 22.3711591,
+        "lng": 114.1118725
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍旺角上海街618號G01舖"
+      },
+      "googleMapsPlaceId": "ChIJxdvp8McABDQRepxNG9SVh20",
+      "coordinates": {
+        "lat": 22.3196117,
+        "lng": 114.1681713
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
