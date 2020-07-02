@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://btreptile.store"
+    },
+    {
       "url": "https://www.facebook.com/BTReptile/",
       "meta": {
         "name": "BT爬蟲",
@@ -22,7 +25,7 @@
       "url": "https://www.instagram.com/btreptile_shop/",
       "meta": {
         "name": "BT爬蟲",
-        "about": "建議facebook搵我\n名都係BT爬蟲"
+        "about": "營業時間：星期一至日2-7\nfacebook：BT爬蟲\n電話：60178911\n歡迎黎鋪頭參觀🙆🏻‍♀️"
       }
     },
     {
@@ -35,12 +38,6 @@
     }
   ],
   "posts": [
-    {
-      "url": "https://www.facebook.com/BTReptile/posts/2857314127643586",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
     {
       "url": "https://www.facebook.com/BTReptile/posts/2866902286684770",
       "meta": {
@@ -66,5 +63,33 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01791"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘開源道55號開聯工業中心A座7樓706室"
+      },
+      "googleMapsPlaceId": "ChIJjTHBPvQBBDQRiSNIPxNIZTY",
+      "coordinates": {
+        "lat": 22.3106862,
+        "lng": 114.2240038
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "石硤尾偉智里2號金玉商場208地鋪"
+      },
+      "googleMapsPlaceId": "ChIJs1ipYkoHBDQRc-RFR-kwTko",
+      "coordinates": {
+        "lat": 22.3345326,
+        "lng": 114.1669493
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
