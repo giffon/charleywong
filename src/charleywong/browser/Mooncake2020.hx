@@ -126,7 +126,10 @@ class Mooncake2020 extends ReactComponent {
             classes.push("selected-mooncake-type");
         }
         return jsx('
-            <span key=${mooncakeName} className=${classes.join(" ")}><span className="mooncake-icon"></span> ${mooncakeName}</span>
+            <Fragment>
+                <span key=${mooncakeName} className=${classes.join(" ")}><span className="mooncake-icon"></span> ${mooncakeName}</span>
+                <span> </span>
+            </Fragment>
         ');
     }
 
