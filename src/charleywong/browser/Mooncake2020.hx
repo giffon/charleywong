@@ -72,6 +72,8 @@ class Mooncake2020 extends ReactComponent {
         return v;
     }
 
+    var lastWindowWidth:Float;
+
     static function isMooncakeType(type:MooncakeType, mooncakeName:String):Bool {
         return switch (type) {
             case AnyMooncake:
@@ -109,10 +111,15 @@ class Mooncake2020 extends ReactComponent {
     }
 
     function onResized() {
-        resized = true;
+        var newWidth = window.innerWidth;
+        if (lastWindowWidth != newWidth) {
+            resized = true;
+            lastWindowWidth = newWidth;
+        }
     }
 
     override function componentDidMount() {
+        lastWindowWidth = window.innerWidth;
         window.addEventListener('resize', onResized);
     }
 
