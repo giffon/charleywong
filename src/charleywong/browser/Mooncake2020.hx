@@ -4,6 +4,8 @@ import js.html.ScrollLogicalPosition;
 import react.*;
 import react.ReactMacro.jsx;
 import js.npm.material_ui.MaterialUi;
+import js.npm.react_facebook.ReactFacebook;
+import js.npm.react_instagram_embed.InstagramEmbed;
 import js.Browser.*;
 import haxe.DynamicAccess;
 using StringTools;
@@ -11,15 +13,6 @@ using Lambda;
 
 @:jsRequire("react-masonry-css", "default")
 extern class Masonry extends ReactComponent {}
-
-@:jsRequire("react-facebook", "FacebookProvider")
-extern class FacebookProvider extends ReactComponent {}
-
-@:jsRequire("react-facebook", "EmbeddedPost")
-extern class EmbeddedPost extends ReactComponent {}
-
-@:jsRequire("react-instagram-embed", "default")
-extern class InstagramEmbed extends ReactComponent {}
 
 enum abstract MooncakeType(String) {
     var AnyMooncake = "任何款式";
