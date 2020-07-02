@@ -377,6 +377,17 @@ class Mooncake2020 extends View {
                 "https://www.facebook.com/hmakingfun/posts/2465120693527179"
             ],
             "charleywong": "https://charleywong.giffon.io/hmakingfun"
+        },
+        {
+            "name": "Orange Baking Store 橘子烘焙專門店",
+            "note": "月餅材料工具",
+            "types": [],
+            "current": false,
+            "info": [
+                "https://www.facebook.com/OrangeBakingStore/posts/1795154347234688",
+                "https://www.facebook.com/OrangeBakingStore/photos/a.840537572696375/1795150880568368/"
+            ],
+            "charleywong": "https://charleywong.giffon.io/OrangeBakingStore"
         }
     ];
 
