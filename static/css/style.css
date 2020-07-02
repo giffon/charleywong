@@ -164,9 +164,8 @@ body .MuiMenuItem-root {
 }
 
 .container-entity {
-    padding: 1.5rem 1rem;
-    max-width: min(584px,100%); /* fb-post's max-width is 550px */
-    width: max-content;
+    padding: 15px 15px;
+    max-width: min(688px,100%); /* fb-post's max-width is 750px */
     overflow: hidden;
 }
 

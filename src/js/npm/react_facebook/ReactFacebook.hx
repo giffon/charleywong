@@ -7,3 +7,6 @@ extern class FacebookProvider extends ReactComponent {}
 
 @:jsRequire("react-facebook", "EmbeddedPost")
 extern class EmbeddedPost extends ReactComponent {}
+
+@:jsRequire("react-facebook", "Like")
+extern class Like extends ReactComponent {}

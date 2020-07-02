@@ -48,8 +48,6 @@ class View extends ReactComponent {
     function footJs() return jsx('
         <Fragment>
             <script src=${R("/trackExceptions.js")}></script>
-            <script async=${true} src="//www.instagram.com/embed.js"></script>
-            <script async=${true} src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
             <script src="//instant.page/3.0.0" type="module" defer=${true} integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
         </Fragment>
     ');

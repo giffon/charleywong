@@ -19,7 +19,7 @@ class Utils {
         return js.npm.fetch.Fetch.fetch(url)
             .then(r -> r.status);
     }
-    #else
+    #elseif sys
     static public function isUrlAccessible(url:String):Outcome<Int, String> {
         var code = -1;
         var err = null;
