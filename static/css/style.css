@@ -143,7 +143,7 @@ a.post-preview:hover {
     line-height: 1.5em;
 }
 
-.posts > .post {
+.posts > .post.post-fb {
     min-height: 150px;
     background-image: url("/images/Rolling-1s-200px.gif");
     background-repeat: no-repeat;

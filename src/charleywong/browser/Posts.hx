@@ -117,6 +117,8 @@ class Posts extends ReactComponent {
             width = igMinWidth;
         }
 
+        var classes = ["post", "my-1", "text-center"];
+
         var item = if (
             (
                 ~/^https:\/\/www\.facebook\.com\/[^\/]+\/(?:posts|photos|videos)\/.+$/.match(p.url) ||
@@ -125,6 +127,7 @@ class Posts extends ReactComponent {
             )
             && isFbPostEmbeddable(p)
         ) {
+            classes.push("post-fb");
             jsx('
                 <EmbeddedPost
                     href=${p.url}
@@ -135,6 +138,7 @@ class Posts extends ReactComponent {
         } else if (
             p.url.startsWith("https://www.instagram.com/p/")
         ) {
+            classes.push("post-ig");
             jsx('
                 <InstagramEmbed
                     url=${p.url}
@@ -145,6 +149,7 @@ class Posts extends ReactComponent {
         } else if (
             p.url.startsWith("https://www.youtube.com/watch?v=")
         ) {
+            classes.push("post-yt");
             var url = new URL(p.url);
             var vid = url.searchParams.get("v");
             jsx('
@@ -155,6 +160,7 @@ class Posts extends ReactComponent {
         } else if (
             p.url.startsWith("https://t.me/")
         ) {
+            classes.push("post-tg");
             var post = p.url.substr("https://t.me/".length);
             jsx('
                 <script async=${true} src="https://telegram.org/js/telegram-widget.js?8" data-telegram-post=${post} data-width="100%"></script>
@@ -162,11 +168,13 @@ class Posts extends ReactComponent {
         } else if (
             p.url.startsWith("https://twitter.com/")
         ) {
+            classes.push("post-twitter");
             jsx('
                 <blockquote className="twitter-tweet"><a href=${p.url}>${prettyUrl(p.url)}</a></blockquote>
             ');
         } else {
             if (p.meta != null && p.meta["og"] != null) {
+                classes.push("post-preview");
                 var og = p.meta["og"];
                 var title = ogProp(og, "og:title");
                 var image = '/proxy/image?post=' + p.url.urlEncode();
@@ -195,17 +203,18 @@ class Posts extends ReactComponent {
                     </a>
                 ');
             } else {
+                classes.push("post-link");
                 jsx('
-                    <div className="post-link">
+                    <Fragment>
                         <a href=${p.url}>${prettyUrl(p.url)}</a>
                         ${summary}
-                    </div>
+                    </Fragment>
                 ');
             }
         }
 
         return jsx('
-            <div key=${p.url} className="post my-1 text-center">
+            <div key=${p.url} className=${classes.join(" ")}>
                 ${item}
             </div>
         ');
