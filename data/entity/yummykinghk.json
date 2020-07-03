@@ -9,7 +9,7 @@
       "meta": {
         "name": "御品味",
         "id": "283049955943313",
-        "about": "地址\n天水圍天澤商場地下G10\n天水圍天耀商場地下LG 09  \n屯門良景商場4樓434a\n屯門富泰商場2樓206",
+        "about": "地址\n天水圍天澤商場地下G10\n天水圍天耀商場地下LG 09  \n屯門良景商場4樓434a\n屯門富泰商場2樓206\n粉嶺花都廣場98號鋪地下\n石硤尾邨(第六期), 美禧樓地鋪G03",
         "categories": [
           "Shopping & Retail"
         ],
@@ -26,19 +26,7 @@
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/yummykinghk/posts/383013039280337",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
       "url": "https://www.facebook.com/yummykinghk/posts/538524620395844",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/yummykinghk/posts/544500679798238",
       "meta": {
         "sharedWith": "Public"
       }
@@ -99,6 +87,32 @@
       },
       "area": {
         "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "粉嶺花都廣場98號鋪地下"
+      },
+      "googleMapsPlaceId": "ChIJhxydKCf2AzQRK0erR822l9s",
+      "coordinates": {
+        "lat": 22.4854804,
+        "lng": 114.141195
+      },
+      "area": {
+        "zh": "北區"
+      }
+    },
+    {
+      "address": {
+        "zh": "石硤尾邨(第六期) 美禧樓地鋪G03"
+      },
+      "googleMapsPlaceId": "ChIJjz3Wx0oHBDQRt1ukinzGAs8",
+      "coordinates": {
+        "lat": 22.332577,
+        "lng": 114.1674609
+      },
+      "area": {
+        "zh": "深水埗區"
       }
     }
   ],
