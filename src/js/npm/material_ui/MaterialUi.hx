@@ -36,6 +36,9 @@ extern class TextField extends ReactComponent {}
 @:jsRequire("@material-ui/core/Button", "default")
 extern class Button extends ReactComponent {}
 
+@:jsRequire("@material-ui/core/IconButton", "default")
+extern class IconButton extends ReactComponent {}
+
 @:jsRequire("@material-ui/core/Switch", "default")
 extern class Switch extends ReactComponent {}
 
@@ -59,3 +62,9 @@ extern class UseScrollTrigger {
     @:selfCall
     static function useScrollTrigger(opts:Dynamic):Dynamic;
 }
+
+@:jsRequire("@material-ui/core/Snackbar", "default")
+extern class Snackbar extends ReactComponent {}
+
+@:jsRequire("@material-ui/core/Tooltip", "default")
+extern class Tooltip extends ReactComponent {}

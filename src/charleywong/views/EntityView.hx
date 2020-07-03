@@ -166,37 +166,43 @@ class EntityView extends View {
         } else {
             null;
         }
+        var canonicalUrl = Path.join(["https://charleywong.giffon.io", entity.id]);
+        var shareText = 'Charyley Wong 和你查 ${entity.name.printAll()}: ${canonicalUrl}';
         return jsx('
             <Fragment>
                 <div className="container">
                     <header className="p-3 p-md-4">
                         <a href="/" className="logo-header" style=${logoHeaderStyle}></a>
                     </header>
-                    <div className="">
-                        <div className="container-entity position-relative mx-auto rounded-10 bg-white container-btm">
-                            <div className="mb-3 text-center">
-                                <img
-                                    className="profile-pic mb-2"
-                                    src=${picUrl}
-                                    loading="lazy"
-                                    decoding="async"
-                                    width=${ServerMain.entityProfilePicSize}
-                                    height=${ServerMain.entityProfilePicSize}
-                                    alt=${entity.name.printAll()}
-                                />
-                                <h3>${entity.name.printAll()}</h3>
-                                <div className="text-center mb-3">${closed}</div>
-                                <a className="btn btn-light" href=${jsonHref}>查看 JSON 格式 📃</a>
-                                <div className="text-center mb-3">
-                                    ${renderPlaces()}
-                                </div>
-                            </div>
+                    <div className="container-entity position-relative mx-auto rounded-10 bg-white container-btm">
+                        <div className="mb-3 text-center">
+                            <div
+                                className="share-button"
+                                data-title=${title()}
+                                data-text=${shareText}
+                                data-url=${canonicalUrl}
+                            />
+                            <img
+                                className="profile-pic mb-2"
+                                src=${picUrl}
+                                loading="lazy"
+                                decoding="async"
+                                width=${ServerMain.entityProfilePicSize}
+                                height=${ServerMain.entityProfilePicSize}
+                                alt=${entity.name.printAll()}
+                            />
+                            <h3>${entity.name.printAll()}</h3>
+                            <div className="text-center mb-3">${closed}</div>
+                            <a className="btn btn-light" href=${jsonHref}>查看 JSON 格式 📃</a>
                             <div className="text-center mb-3">
-                                ${entity.webpages.filter(p -> p.hidden != true).map(renderWebpage)}
-                                ${renderYBMap(entity)}
+                                ${renderPlaces()}
                             </div>
-                            <div className="posts" data-posts=${Json.stringify(entity.posts)} />
                         </div>
+                        <div className="text-center mb-3">
+                            ${entity.webpages.filter(p -> p.hidden != true).map(renderWebpage)}
+                            ${renderYBMap(entity)}
+                        </div>
+                        <div className="posts" data-posts=${Json.stringify(entity.posts)} />
                     </div>
                 </div>
             </Fragment>

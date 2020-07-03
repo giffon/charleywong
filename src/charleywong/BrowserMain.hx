@@ -30,6 +30,17 @@ class BrowserMain {
             '), div);
         }
 
+        for (div in document.querySelectorAll("div.share-button")) {
+            var div:DivElement = cast div;
+            ReactDOM.render(jsx('
+                <ShareButton
+                    title=${div.dataset.title}
+                    text=${div.dataset.text}
+                    url=${div.dataset.url}
+                />
+            '), div);
+        }
+
         if (document.body.classList.contains("page-mooncake2020")) {
             var div:DivElement = cast document.querySelector("div.mooncake2020");
             ReactDOM.render(jsx('

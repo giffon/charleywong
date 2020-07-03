@@ -46,6 +46,8 @@ class EntityListView extends View {
 
     override function bodyContent() {
         var jsonHref = '${slug}.json';
+        var canonicalUrl = Path.join(["https://charleywong.giffon.io", searchQuery != null ? "search" : "list", slug]);
+        var shareText = '${title}: ${canonicalUrl}';
         return jsx('
             <Fragment>
                 <div className="container">
@@ -56,9 +58,14 @@ class EntityListView extends View {
                         <div className="pb-3">
                             ${searchQuery != null ? Index.searchForm(searchQuery, false) : renderListName()}
                         </div>
-                        <div className="d-sm-flex text-center text-sm-left align-items-center pb-3">
+                        <div className="d-flex align-items-center">
                             <div className="col p-0">共有 ${entities.length} 項資料</div>
-                            <a className="btn btn-light" href=${jsonHref}>查看 JSON 格式 📃</a>
+                            <div
+                                className="share-button"
+                                data-title=${title()}
+                                data-text=${shareText}
+                                data-url=${canonicalUrl}
+                            />
                         </div>
                         <div><ul className="entity-list">${entities.map(renderEntity)}</ul></div>
                     </div>

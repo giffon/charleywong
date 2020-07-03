@@ -16,6 +16,20 @@
     margin-bottom: 10px;
 }
 
+.share-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.share-button .MuiIconButton-root {
+    background-color: #fff;
+}
+
+.share-button .MuiIconButton-root:hover {
+    background-color: #ddd;
+}
+
 .mooncake-icon {
     display: inline-block;
     width: 1.5em;
