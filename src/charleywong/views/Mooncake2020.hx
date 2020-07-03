@@ -54,18 +54,18 @@ class Mooncake2020 extends View {
             ],
             "charleywong": "https://charleywong.giffon.io/wangyuehk"
         },
-        // {
-        //     "name": "四喜麵包西餅",
-        //     "note": "",
-        //     "types": [
-        //         "奶黃月餅"
-        //     ],
-        //     "current": true,
-        //     "info": [
-        //         "https://www.facebook.com/sayheybakery/posts/4164629173577329"
-        //     ],
-        //     "charleywong": "https://charleywong.giffon.io/sayheybakery"
-        // },
+        {
+            "name": "四喜麵包西餅",
+            "note": "",
+            "types": [
+                "奶黃月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/sayheybakery/posts/4164629173577329"
+            ],
+            "charleywong": "https://charleywong.giffon.io/sayheybakery"
+        },
         {
             "name": "膳心小館",
             "note": "",
