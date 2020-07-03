@@ -358,9 +358,10 @@ class Mooncake2020 extends View {
             "name": "烘焙便利店",
             "note": "月餅材料工具",
             "types": [],
-            "current": true,
+            "current": false,
             "info": [
-                "https://www.facebook.com/baking11/posts/3249050248449315"
+                "https://www.facebook.com/baking11/posts/2569182583102755",
+                "https://www.facebook.com/baking11/posts/2594778927209787"
             ],
             "charleywong": "https://charleywong.giffon.io/baking11"
         },
