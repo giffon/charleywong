@@ -194,6 +194,10 @@ body .MuiMenuItem-root {
     outline-width: 0;
 }
 
+.MuiTooltip-popper .MuiTooltip-tooltip {
+    font-size: 0.8em;
+}
+
 .container-entity .share-button {
     position: absolute;
     top: 10px;
