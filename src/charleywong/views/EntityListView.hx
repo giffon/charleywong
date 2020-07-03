@@ -47,7 +47,6 @@ class EntityListView extends View {
     override function bodyContent() {
         var jsonHref = '${slug}.json';
         var canonicalUrl = Path.join(["https://charleywong.giffon.io", searchQuery != null ? "search" : "list", slug]);
-        var shareText = '${title}: ${canonicalUrl}';
         return jsx('
             <Fragment>
                 <div className="container">
@@ -63,7 +62,6 @@ class EntityListView extends View {
                             <div
                                 className="share-button"
                                 data-title=${title()}
-                                data-text=${shareText}
                                 data-url=${canonicalUrl}
                             />
                         </div>

@@ -436,8 +436,6 @@ class Mooncake2020 extends View {
     ');
 
     override function bodyContent() {
-        var canonicalUrl = "https://charleywong.giffon.io/page/mooncake2020";
-        var shareText = '${title}: ${canonicalUrl}';
         return jsx('
             <Fragment>
                 <div className="mooncake-header d-flex align-items-center color-white py-5">
@@ -445,8 +443,7 @@ class Mooncake2020 extends View {
                         <div
                             className="share-button"
                             data-title=${title()}
-                            data-text=${shareText}
-                            data-url=${canonicalUrl}
+                            data-url="https://charleywong.giffon.io/page/mooncake2020"
                         />
                         <a href="/">
                             <img className="img-fluid col-4 col-md-3 col-lg-2" src=${R("/images/charley-mooncake.png")} alt="Charley Wong 和你查" width="1060" height="1060" />

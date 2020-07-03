@@ -12,9 +12,6 @@ class ShareButton extends ReactComponent {
     var title(get, never):String;
     function get_title() return props.title;
 
-    var text(get, never):String;
-    function get_text() return props.text;
-
     var url(get, never):String;
     function get_url() return props.url;
 
@@ -39,7 +36,6 @@ class ShareButton extends ReactComponent {
     function onClickShare():Void {
         (untyped navigator.share)({
             title: title,
-            text: text,
             url: url,
         });
     }

@@ -167,7 +167,6 @@ class EntityView extends View {
             null;
         }
         var canonicalUrl = Path.join(["https://charleywong.giffon.io", entity.id]);
-        var shareText = 'Charyley Wong 和你查 ${entity.name.printAll()}: ${canonicalUrl}';
         return jsx('
             <Fragment>
                 <div className="container">
@@ -179,7 +178,6 @@ class EntityView extends View {
                             <div
                                 className="share-button"
                                 data-title=${title()}
-                                data-text=${shareText}
                                 data-url=${canonicalUrl}
                             />
                             <img
