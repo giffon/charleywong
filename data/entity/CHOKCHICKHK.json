@@ -6,22 +6,46 @@
   "webpages": [
     {
       "meta": {
+        "name": "Chok 雞",
         "about": "幾個年輕人創造小食王國嘅夢想 ~感激支持本地小店🙇🏻🙇🏻\n即叫即炸的🐣和小食，配上多種🎖自家製🏅的調味粉任您大玩Mix & Match😋Let’s Come Chok💥\n#chokchickhk #chokchick\n🔎 Facebook: chokchickhk"
       },
       "url": "https://www.instagram.com/chokchickhk/"
     },
     {
+      "url": "https://www.instagram.com/chokchickbro/",
       "meta": {
+        "name": "老表CHOK雞",
+        "about": "預備中，葵涌廣場CHOK雞新支線，敬請期待！"
+      }
+    },
+    {
+      "meta": {
+        "name": "CHOK雞",
         "id": "1454789074574942",
-        "about": "Shake shake 薯條就食得多，\n自由配搭調味嘅炸雞你又食過未？\n美式炸雞店- Chok雞...\n\n\nSee more",
+        "about": "Shake shake 薯條就食得多，\n自由配搭調味嘅炸雞你又食過未？\n美式炸雞店- Chok雞\n即叫即炸的🐣和小食，\n配上多種🎖自家製🏅的調味粉\n任您Mix & Match😋",
         "categories": [
-          "Fast food restaurant"
+          "Fast Food Restaurant"
         ],
         "addr": "葵涌葵富路7-11號葵涌廣場3/F-3069 T18號舖",
         "area": "Hong Kong",
-        "tel": "96015532"
+        "tel": "96108208"
       },
       "url": "https://www.facebook.com/CHOKCHICKHK/"
+    },
+    {
+      "url": "https://www.facebook.com/chokchickbro/",
+      "meta": {
+        "name": "老表CHOK雞",
+        "id": "106741244419764",
+        "about": "預備中，葵涌廣場CHOK雞新支線，敬請期待！",
+        "categories": [
+          "Fast Food Restaurant"
+        ],
+        "addr": "旺角彌敦道688號旺角中心1期2樓SA25A",
+        "area": "Kowloon, Hong Kong",
+        "email": "chokchickbro@gmail.com",
+        "tel": "96015532"
+      }
     }
   ],
   "posts": [
@@ -47,6 +71,19 @@
       },
       "area": {
         "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角彌敦道688號旺角中心1期2樓SA25A"
+      },
+      "googleMapsPlaceId": "ChIJ9zIy2ccABDQRuo5kcLwjPE8",
+      "coordinates": {
+        "lat": 22.3198395,
+        "lng": 114.1697195
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     }
   ],
