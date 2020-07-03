@@ -58,11 +58,15 @@ class Mooncake2020 extends View {
             "name": "四喜麵包西餅",
             "note": "",
             "types": [
-                "奶黃月餅"
+                "奶黃月餅",
+                "花生醬奶黃月餅",
+                "伯爵茶奶黃月餅",
+                "雙黃白蓮蓉月餅",
+                "雙黃紅豆沙月餅"
             ],
             "current": true,
             "info": [
-                "https://www.facebook.com/sayheybakery/posts/4164629173577329"
+                "https://www.facebook.com/sayheybakery/posts/4218892001484379"
             ],
             "charleywong": "https://charleywong.giffon.io/sayheybakery"
         },

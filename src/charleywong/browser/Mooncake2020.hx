@@ -19,7 +19,7 @@ enum abstract MooncakeType(String) {
     var LotusSeedPasteWithYolks = "蛋黃蓮蓉";
     var EggCustard = "奶黃";
     var SnowSkin = "冰皮";
-    var Nuts = "五仁/花生榛子";
+    var Nuts = "五仁/花生/榛子";
     var PurpleYam = "紫薯";
     var Taro = "芋頭";
     var Matcha = "抹茶";
