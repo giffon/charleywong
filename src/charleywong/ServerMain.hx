@@ -786,13 +786,17 @@ class ServerMain {
                 entityIndex.invalidate();
             });
             app.post("/", post);
-            app.listen(port, function() {
-                Sys.println('http://localhost:$port');
 
-                for (e in entityIndex.entities) {
-                    geocode(e);
-                }
-            });
+            require("https-localhost")().getCerts().then(certs ->
+                js.Node.require("httpolyglot").createServer(certs, app)
+                    .listen(port, function(){
+                        Sys.println('https://127.0.0.1:$port');
+
+                        for (e in entityIndex.entities) {
+                            geocode(e);
+                        }
+                    })
+            );
         } else {
             var serverless = require('serverless-http');
             js.Node.exports.handler = serverless(app, {

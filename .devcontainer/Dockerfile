@@ -17,7 +17,7 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends apt-utils dialog 2>&1 \
     #
     # Verify git and needed tools are installed
-    && apt-get install -y git iproute2 procps sudo bash-completion build-essential curl python3 python3-virtualenv software-properties-common \
+    && apt-get install -y git iproute2 procps sudo bash-completion build-essential curl python3 python3-virtualenv software-properties-common libnss3-tools \
     && curl -sL https://deb.nodesource.com/setup_12.x | bash - \
     && apt-get install -y nodejs=12.* \
     && add-apt-repository ppa:haxe/haxe4.1 \
