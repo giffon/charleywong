@@ -27,6 +27,18 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/list/%E5%85%AB%E5%BA%97%E8%81%AF%E4%B9%98%E9%9B%99%E9%BB%83%E7%99%BD%E8%93%AE%E8%93%89%E6%9C%88%E9%A4%85/mu15np650+Kwong-Wing-Catering+fromtheyuan+backstreetsteakhouse+megatealtdd+106889436054739+737261133131865+66HotPot"
         },
         {
+            "name": "四喜 x 想甜嚐甜 x Jrink 聯合中秋禮盒",
+            "note": "",
+            "types": [
+                "松露奶黃月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/sddessert/photos/a.218384731868404/1177003309339870"
+            ],
+            "charleywong": "https://charleywong.giffon.io/list/%E5%9B%9B%E5%96%9C%20x%20%E6%83%B3%E7%94%9C%E5%9A%90%E7%94%9C%20x%20Jrink/sayheybakery+sddessert+jrinkinhk"
+        },
+        {
             "name": "望月",
             "note": "",
             "types": [
@@ -42,18 +54,18 @@ class Mooncake2020 extends View {
             ],
             "charleywong": "https://charleywong.giffon.io/wangyuehk"
         },
-        {
-            "name": "四喜麵包西餅",
-            "note": "",
-            "types": [
-                "奶黃月餅"
-            ],
-            "current": true,
-            "info": [
-                "https://www.facebook.com/sayheybakery/posts/4164629173577329"
-            ],
-            "charleywong": "https://charleywong.giffon.io/sayheybakery"
-        },
+        // {
+        //     "name": "四喜麵包西餅",
+        //     "note": "",
+        //     "types": [
+        //         "奶黃月餅"
+        //     ],
+        //     "current": true,
+        //     "info": [
+        //         "https://www.facebook.com/sayheybakery/posts/4164629173577329"
+        //     ],
+        //     "charleywong": "https://charleywong.giffon.io/sayheybakery"
+        // },
         {
             "name": "膳心小館",
             "note": "",
