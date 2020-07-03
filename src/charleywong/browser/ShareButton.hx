@@ -34,11 +34,10 @@ class ShareButton extends ReactComponent {
         };
     }
 
-    static final share:(opts:Dynamic)->Promise<Void> = untyped navigator.share;
     static final copy:(text:String, ?opts:Dynamic)->Bool = require("copy-to-clipboard");
 
     function onClickShare():Void {
-        share({
+        (untyped navigator.share)({
             title: title,
             text: text,
             url: url,
@@ -56,7 +55,7 @@ class ShareButton extends ReactComponent {
     }
 
     override function render() {
-        if (share != null) {
+        if (untyped navigator.share) {
             return jsx('
                 <IconButton onClick=${onClickShare}>
                     <i className="fas fa-share-alt"></i>
