@@ -189,6 +189,19 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/superfood.tw"
         },
         {
+            "name": "Knowcakehk 老餅",
+            "note": "",
+            "types": [
+                "奶黃月餅",
+                "陳皮豆沙月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/permalink.php?story_fbid=157546149221929&id=101526934823851"
+            ],
+            "charleywong": "https://charleywong.giffon.io/knowcakehk"
+        },
+        {
             "name": "逸東軒",
             "note": "",
             "types": [
