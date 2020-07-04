@@ -26,7 +26,6 @@ class Places extends ReactComponent {
 
     function handleChange(event:Dynamic, ?child:Dynamic):Void {
         var v = event.target.value;
-        trace(v);
         selected = v;
     }
 
@@ -47,15 +46,20 @@ class Places extends ReactComponent {
                 ');
         }
         if (places.length == 1) {
-            return jsx('
-                <Fragment>
-                    <div className="my-1"><i className="fas fa-map-marker-alt mr-1"></i>${places[0].address.printAll()}</div>
-                    ${gmap}
-                </Fragment>
-            ');
+            var place = places[0];
+            if (place.address != null)
+                return jsx('
+                    <Fragment>
+                        <div className="my-1"><i className="fas fa-map-marker-alt mr-1"></i>${place.address.printAll()}</div>
+                        ${gmap}
+                    </Fragment>
+                ');
+            else
+                return gmap;
         } else {
             var items = [
                 for (i in 0...places.length)
+                if (places[i].address != null)
                 jsx('
                     <MenuItem key=${i} value=${i}><i className="fas fa-map-marker-alt mr-1"></i>${places[i].address.printAll()}</MenuItem>
                 ')
