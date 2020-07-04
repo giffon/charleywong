@@ -159,6 +159,11 @@ a.post-preview:hover {
     background-color: #FFF;
 }
 
+.post-twitter > * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body .MuiMenuItem-root {
     white-space: normal;
 }
