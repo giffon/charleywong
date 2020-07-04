@@ -65,7 +65,7 @@ class Mooncake2020 extends ReactComponent {
         return v;
     }
 
-    var lastWindowWidth:Float;
+    var lastWindowWidth:Float = window.innerWidth;
 
     static function isMooncakeType(type:MooncakeType, mooncakeName:String):Bool {
         return switch (type) {

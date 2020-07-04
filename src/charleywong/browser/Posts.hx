@@ -23,7 +23,7 @@ class Posts extends ReactComponent {
         return v;
     }
 
-    var lastWindowWidth:Float;
+    var lastWindowWidth:Float = window.innerWidth;
 
     function onResized() {
         var newWidth = window.innerWidth;
@@ -33,11 +33,8 @@ class Posts extends ReactComponent {
         }
     }
 
-    override function componentWillMount() {
-        lastWindowWidth = window.innerWidth;
-    }
-
     override function componentDidMount() {
+        lastWindowWidth = window.innerWidth;
         window.addEventListener('resize', onResized);
     }
 
