@@ -177,6 +177,18 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/circlebakeryhk"
         },
         {
+            "name": "拾壹月餅",
+            "note": "",
+            "types": [
+                "奶黃月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/permalink.php?story_fbid=899774900534183&id=601591280352548"
+            ],
+            "charleywong": "https://charleywong.giffon.io/superfood.tw"
+        },
+        {
             "name": "逸東軒",
             "note": "",
             "types": [
