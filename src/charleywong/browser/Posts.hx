@@ -5,6 +5,7 @@ import react.*;
 import react.ReactMacro.jsx;
 import js.npm.react_facebook.ReactFacebook;
 import js.npm.react_instagram_embed.InstagramEmbed;
+import js.npm.react_telegram_embed.TelegramEmbed;
 import js.Browser.*;
 import charleywong.Utils.prettyUrl;
 using StringTools;
@@ -158,9 +159,8 @@ class Posts extends ReactComponent {
             p.url.startsWith("https://t.me/")
         ) {
             classes.push("post-tg");
-            var post = p.url.substr("https://t.me/".length);
             jsx('
-                <script async=${true} src="https://telegram.org/js/telegram-widget.js?8" data-telegram-post=${post} data-width="100%"></script>
+                <TelegramEmbed src=${p.url} />
             ');
         } else if (
             p.url.startsWith("https://twitter.com/")
