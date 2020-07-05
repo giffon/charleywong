@@ -329,7 +329,7 @@ class Mooncake2020 extends ReactComponent {
                             ${filteredData.length} 項資料
                         </Typography>
                     </div>
-                    <FacebookProvider appId="628806881259482" version="v7.0">
+                    <FacebookProvider appId=${Facebook.appId} version=${Facebook.apiVersion}>
                         <Masonry
                             breakpointCols=${breakpoints}
                             className="masonry-grid"

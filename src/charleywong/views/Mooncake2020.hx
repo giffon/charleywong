@@ -453,8 +453,10 @@ class Mooncake2020 extends View {
         <Fragment>
             ${super.ogMeta()}
             <meta property="og:title" content=${title()} />
+            <meta property="og:description" content=${description()} />
             <meta property="og:type" content="website" />
-            <meta property="og:image" content=${R("/images/mooncake-meta.jpg")} />
+            <meta property="og:url" content="https://charleywong.giffon.io/page/mooncake2020" />
+            <meta property="og:image" content=${Path.join(["https://charleywong.giffon.io", R("/images/mooncake-meta.jpg")])} />
             <meta property="og:image:width" content="1200" />
             <meta property="og:image:height" content="630" />
         </Fragment>

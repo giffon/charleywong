@@ -219,7 +219,7 @@ class Posts extends ReactComponent {
 
     override function render() {
         var rendered = jsx('
-            <FacebookProvider appId="628806881259482" version="v7.0">
+            <FacebookProvider appId=${Facebook.appId} version=${Facebook.apiVersion}>
                 ${if (posts.length > 0) posts.map(renderPost) else null}
                 ${if (posts.length == 0) "冇表態資料。有可能係先前嘅表態已被移除或者私隱設定有變。" else null}
             </FacebookProvider>

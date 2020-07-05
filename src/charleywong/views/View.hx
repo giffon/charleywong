@@ -91,7 +91,11 @@ class View extends ReactComponent {
     function prefetch():Array<String> return [];
     function prefetchNode(link:String) return jsx('<link key=${link} rel="prefetch" href=${link} />');
 
-    function ogMeta() return jsx('<Fragment />');
+    function ogMeta() return jsx('
+        <Fragment>
+            <meta property="fb:app_id" content=${Facebook.appId} />
+        </Fragment>
+    ');
 
     function head() return jsx('
         <head>
