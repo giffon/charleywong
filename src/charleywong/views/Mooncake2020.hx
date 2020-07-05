@@ -230,11 +230,22 @@ class Mooncake2020 extends View {
             "name": "生隆餅家",
             "note": "",
             "types": [
-                "蛋黃蓮蓉月餅"
+                "金華火腿月餅",
+                "伍仁月餅",
+                "單/雙黃伍仁月餅",
+                "純正黃蓮蓉月餅",
+                "單/雙/四黃黃蓮蓉月餅",
+                "純正白蓮蓉月餅",
+                "單/雙/四黃白蓮蓉月餅",
+                "攬仁紅豆沙月餅",
+                "純正紅豆沙月餅",
+                "單/雙黃紅豆沙月餅",
+                "純正綠豆蓉月餅",
+                "單/雙黃綠豆蓉月餅",
             ],
-            "current": false,
+            "current": true,
             "info": [
-                "https://www.instagram.com/p/BZp31Xkltjc/"
+                "https://www.facebook.com/sanglungbakery/photos/a.123176215791813/278071303635636/"
             ],
             "charleywong": "https://charleywong.giffon.io/sang_lung_bakery"
         },

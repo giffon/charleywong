@@ -20,10 +20,11 @@ enum abstract MooncakeType(String) {
     var EggCustard = "奶黃";
     var SnowSkin = "冰皮";
     var Nuts = "五仁/花生/榛子";
+    var Ham = "金華火腿";
     var PurpleYam = "紫薯";
     var Taro = "芋頭";
     var Matcha = "抹茶";
-    var RedBeans = "紅豆/豆沙";
+    var Beans = "紅豆/豆沙/綠豆蓉";
     var Mocha = "朱古力咖啡";
     var Vegan = "純素";
 }
@@ -78,15 +79,17 @@ class Mooncake2020 extends ReactComponent {
             case SnowSkin:
                 mooncakeName.contains("冰皮") || mooncakeName.contains("凍");
             case Nuts:
-                mooncakeName.contains("五仁") || mooncakeName.contains("花生") || mooncakeName.contains("榛子");
+                mooncakeName.contains("五仁") || mooncakeName.contains("伍仁") || mooncakeName.contains("花生") || mooncakeName.contains("榛子");
+            case Ham:
+                mooncakeName.contains("金華火腿");
             case PurpleYam:
                 mooncakeName.contains("紫薯");
             case Taro:
                 mooncakeName.contains("芋");
             case Matcha:
                 mooncakeName.contains("抹茶");
-            case RedBeans:
-                mooncakeName.contains("紅豆") || mooncakeName.contains("豆沙");
+            case Beans:
+                mooncakeName.contains("紅豆") || mooncakeName.contains("豆沙") || mooncakeName.contains("綠豆蓉");
             case Mocha:
                 mooncakeName.contains("朱古力咖啡");
             case Vegan:
@@ -269,6 +272,9 @@ class Mooncake2020 extends ReactComponent {
                             <MenuItem value=${Nuts}>
                                 ${Nuts}
                             </MenuItem>
+                            <MenuItem value=${Ham}>
+                                ${Ham}
+                            </MenuItem>
                             <MenuItem value=${PurpleYam}>
                                 ${PurpleYam}
                             </MenuItem>
@@ -278,8 +284,8 @@ class Mooncake2020 extends ReactComponent {
                             <MenuItem value=${Matcha}>
                                 ${Matcha}
                             </MenuItem>
-                            <MenuItem value=${RedBeans}>
-                                ${RedBeans}
+                            <MenuItem value=${Beans}>
+                                ${Beans}
                             </MenuItem>
                             <MenuItem value=${Mocha}>
                                 ${Mocha}
