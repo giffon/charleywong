@@ -281,9 +281,9 @@ class Mooncake2020 extends View {
             "types": [
                 "冰皮月餅"
             ],
-            "current": false,
+            "current": true,
             "info": [
-                "https://www.facebook.com/taipan.com.hk/posts/2447043435358646"
+                "https://www.facebook.com/taipan.com.hk/posts/3236555656407416"
             ],
             "charleywong": "https://charleywong.giffon.io/taipan.com.hk"
         },
