@@ -180,13 +180,25 @@ class Mooncake2020 extends View {
             "name": "拾壹月餅",
             "note": "",
             "types": [
-                "奶黃月餅"
+                "流心奶黃月餅"
             ],
             "current": true,
             "info": [
-                "https://www.facebook.com/permalink.php?story_fbid=899774900534183&id=601591280352548"
+                "https://www.facebook.com/permalink.php?story_fbid=121413429617707&id=113787637046953"
             ],
-            "charleywong": "https://charleywong.giffon.io/superfood.tw"
+            "charleywong": "https://charleywong.giffon.io/113787637046953"
+        },
+        {
+            "name": "我地真係好L鍾意食流心月餅",
+            "note": "",
+            "types": [
+                "流心奶黃月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/ireallyLovehk/posts/101442518306351"
+            ],
+            "charleywong": "https://charleywong.giffon.io/ireallyLovehk"
         },
         {
             "name": "Knowcakehk 老餅",
