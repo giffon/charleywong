@@ -1,5 +1,6 @@
 package charleywong;
 
+import haxe.macro.Compiler;
 import js.npm.google_spreadsheet.*;
 import charleywong.ServerMain.*;
 import charleywong.GoogleServiceAccount.googleServiceAccount;
@@ -11,14 +12,11 @@ enum abstract Sheet(String) to String {
     var webpages;
     var places;
     var ybm_not_in_charley;
+    var data;
 }
 
 class ExportSpreadsheet {
-    static final sheetId = "1OXVTI1DsZK9tSulJmfXAD5-pUyRneIuM6zzwmIL_SJQ";
-    // static final sheetId = "1q91Ncjo3PkdCqF1suyXaws_QG5PFTHw8AdccfNRNaJE";
-    static final doc = new GoogleSpreadsheet(sheetId);
-
-    static function updateLastUpdateDate() {
+    static function updateLastUpdateDate(doc:GoogleSpreadsheet) {
         var infoSheet = doc.sheetsByIndex.find(s -> s.title == info);
         var lastUpdateCell = "B7";
         return infoSheet.loadCells()
@@ -34,7 +32,7 @@ class ExportSpreadsheet {
             });
     }
 
-    static function populateIndex() {
+    static function populateIndex(doc:GoogleSpreadsheet) {
         var sheet = doc.sheetsByIndex.find(s -> s.title == index);
         return sheet.clear()
             .then(function(_){
@@ -58,7 +56,27 @@ class ExportSpreadsheet {
             });
     }
 
-    static function populatePlaces() {
+    static function populateData(doc:GoogleSpreadsheet) {
+        var sheet = doc.sheetsByIndex.find(s -> s.title == data);
+        return sheet.clear()
+            .then(function(_){
+                return sheet.setHeaderRow(["charleywong", "name_en", "name_zh", "webpages", "posts"]);
+            })
+            .then(function(_){
+                return sheet.addRows([
+                    for (e in entityIndex.entities)
+                    {
+                        charleywong: 'https://charleywong.giffon.io/${e.id}',
+                        name_en: e.name[en],
+                        name_zh: e.name[zh],
+                        webpages: e.webpages.map(p -> p.url).join("\n"),
+                        posts: e.posts.map(p -> p.url).join("\n"),
+                    }
+                ]);
+            });
+    }
+
+    static function populatePlaces(doc:GoogleSpreadsheet) {
         var sheet = doc.sheetsByIndex.find(s -> s.title == places);
         return sheet.clear()
             .then(_ -> sheet.loadCells())
@@ -119,7 +137,7 @@ class ExportSpreadsheet {
             });
     }
 
-    static function populateWebpages() {
+    static function populateWebpages(doc:GoogleSpreadsheet) {
         var sheet = doc.sheetsByIndex.find(s -> s.title == webpages);
         return sheet.clear()
             .then(function(_){
@@ -154,7 +172,7 @@ class ExportSpreadsheet {
         }
     }
 
-    static function importTags() {
+    static function importTags(doc:GoogleSpreadsheet) {
         var sheet = doc.sheetsByIndex.find(s -> s.title == index);
         return sheet.getRows()
             .then(function(rows){
@@ -187,7 +205,7 @@ class ExportSpreadsheet {
             });
     }
 
-    static function importGoogleMapsPlaceIds() {
+    static function importGoogleMapsPlaceIds(doc:GoogleSpreadsheet) {
         var sheet = doc.sheetsByIndex.find(s -> s.title == places);
         var noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
         var lastRow = 2543;
@@ -233,7 +251,7 @@ class ExportSpreadsheet {
             });
     }
 
-    static function populateYBM() {
+    static function populateYBM(doc:GoogleSpreadsheet) {
         var sheet = doc.sheetsByIndex.find(s -> s.title == ybm_not_in_charley);
         return YellowBlueMap.dump()
             .then(_ -> YellowBlueMap.sync())
@@ -249,14 +267,25 @@ class ExportSpreadsheet {
     }
 
     static function main():Void {
-        doc.useServiceAccountAuth(googleServiceAccount)
-            .then(_ -> doc.loadInfo())
-            // .then(_ -> importTags());
-            // .then(_ -> importGoogleMapsPlaceIds());
-            .then(_ -> populateYBM())
-            .then(_ -> populateIndex())
-            .then(_ -> populateWebpages())
-            .then(_ -> populatePlaces())
-            .then(_ -> updateLastUpdateDate());
+        switch(Compiler.getDefine("CI")) {
+            case null:
+                var doc = new GoogleSpreadsheet("1OXVTI1DsZK9tSulJmfXAD5-pUyRneIuM6zzwmIL_SJQ");
+                // var doc = new GoogleSpreadsheet("1HBYmXJIZE-4SDhGSv1SrKaf26Ex6FPi-4qPX_HVnUrA");
+                doc.useServiceAccountAuth(googleServiceAccount)
+                    .then(_ -> doc.loadInfo())
+                    // .then(_ -> importTags());
+                    // .then(_ -> importGoogleMapsPlaceIds());
+                    .then(_ -> populateYBM(doc))
+                    .then(_ -> populateIndex(doc))
+                    .then(_ -> populateWebpages(doc))
+                    .then(_ -> populatePlaces(doc))
+                    .then(_ -> updateLastUpdateDate(doc));
+            case "1":
+                var doc = new GoogleSpreadsheet("1HBYmXJIZE-4SDhGSv1SrKaf26Ex6FPi-4qPX_HVnUrA");
+                doc.useServiceAccountAuth(googleServiceAccount)
+                    .then(_ -> doc.loadInfo())
+                    .then(_ -> populateData(doc))
+                    .then(_ -> updateLastUpdateDate(doc));
+        }
     }
 }

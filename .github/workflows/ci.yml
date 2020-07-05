@@ -123,3 +123,8 @@ jobs:
           SERVERLESS_ACCESS_KEY: ${{ secrets.serverlessAccessKey }}
       - name: Post-deployment test
         run: haxe test.hxml post-deployment
+      - name: Export spreadsheet
+        run: haxe -D CI exportSpreadsheet.hxml
+        env:
+          GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
+          GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
