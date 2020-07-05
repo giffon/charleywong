@@ -1,5 +1,6 @@
 package charleywong.chrome;
 
+import js.html.AbortController;
 import js.html.URL;
 import chrome.Tabs.Tab;
 import haxe.*;
@@ -71,15 +72,28 @@ class Background {
     }
 
     static function fetchEntityIndex():Promise<EntityIndex> return new Promise(function(resolve, reject) {
+        BrowserAction.setBadgeText({
+            text: "⏳",
+        });
         Settings.getSettings().then(function(settings) {
             var jsonUrl = Path.join([settings.serverEndpoint, "list", "all.json"]);
-            window.fetch(jsonUrl)
+            var abort = new AbortController();
+            Timer.delay(() -> abort.abort(), 5000);
+            window.fetch(jsonUrl, {
+                signal: abort.signal,
+            })
                 .then(r -> r.json())
                 .then(fetchEntities)
                 .then(entities ->
                     resolve(new EntityIndex([for (e in (cast entities:Array<Entity>)) e.id => e]))
                 )
+                .then(_ -> BrowserAction.setBadgeText({
+                    text: "",
+                }))
                 .catchError(function(err) {
+                    BrowserAction.setBadgeText({
+                        text: "⚠"
+                    });
                     console.error('Failed to fetch $jsonUrl');
                     reject(err);
                 });
@@ -207,12 +221,12 @@ class Background {
         ContextMenus.create({
             id: MenuOpenWebsite,
             title: "打開 Charley Wong 和你查",
-            contexts: ["page_action"]
+            contexts: ["browser_action"]
         });
         ContextMenus.create({
             id: MenuUpdateEntityIndex,
             title: "更新資料",
-            contexts: ["page_action"]
+            contexts: ["browser_action"]
         });
 
         if (dataEntryMode) {
