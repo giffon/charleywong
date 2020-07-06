@@ -175,7 +175,7 @@ class ServerMain {
         for (p in e.webpages) {
             switch (new URL(p.url)) {
                 case extractFbHomePage(_) => fb if (fb != null):
-                    return Fetch.fetch('https://graph.facebook.com/v6.0/${fb}/picture?type=square&width=${width}&height=${width}')
+                    return Fetch.fetch('https://graph.facebook.com/${Facebook.apiVersion}/${fb}/picture?type=square&width=${width}&height=${width}')
                         .then(r -> if (r.status == 404){
                             getPicOfText(e.name[en]);
                         } else if (r.url.endsWith(".gif")) {
@@ -742,8 +742,6 @@ class ServerMain {
                     return;
 
                 var actual = StaticResource.hash(path);
-                trace(actual);
-                trace(md5);
                 if (md5 == actual) {
                     res.setHeader("Cache-Control", "public, max-age=604800"); // 7 days
                 } else {
