@@ -1,0 +1,67 @@
+{
+  "id": "C.Free.Restaurant",
+  "name": {
+    "en": "C3 - C.Free Restaurant"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/C.Free.Restaurant/",
+      "meta": {
+        "name": "C3 - C.Free Restaurant",
+        "id": "903035426483297",
+        "categories": [
+          "Restaurant"
+        ],
+        "addr": "元朗鳳翔路偉發大廈地下13號",
+        "area": "852 Yuen Long"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/c3restaurant/",
+      "meta": {
+        "name": "C3 -C Free Restaurant"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/C.Free.Restaurant/posts/2233893646730795",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/C.Free.Restaurant/posts/2530081017112055",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/C.Free.Restaurant/posts/2703926516394170",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗鳳翔路偉發大廈地下13號"
+      },
+      "googleMapsPlaceId": "ChIJcU42EafwAzQR2fABBGNciJ8",
+      "coordinates": {
+        "lat": 22.4440125,
+        "lng": 114.0328524
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    "Y_EAT01113"
+  ]
+}
