@@ -463,6 +463,7 @@ class Mooncake2020 extends View {
 
     override function ogMeta() return jsx('
         <Fragment>
+            <meta name="twitter:card" content="summary_large_image" />
             ${super.ogMeta()}
             <meta property="og:type" content="website" />
             <meta property="og:image" content=${Path.join([ServerMain.domain, R("/images/mooncake-meta.jpg")])} />
