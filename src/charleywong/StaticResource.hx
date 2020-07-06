@@ -12,23 +12,21 @@ using StringTools;
 using Lambda;
 
 class StaticResource {
-    static public var resourcesDir(default, never) = "static";
+    static public final resourcesDir = "static";
 
-    #if macro
-    static var hashes(default, never) = new Map<String,String>();
-    static function hash(path:String) {
+    static final hashes = new Map<String,String>();
+    static public function hash(path:String):String {
         return switch (hashes[path]) {
             case null:
-                var p = new Process("md5sum", [path]);
-                if (p.exitCode() != 0) throw p.stderr.readAll().toString();
-                var hash = p.stdout.readAll().toString().split(" ")[0];
-                p.close();
-                hashes[path] = hash;
+                hashes[path] = try {
+                    haxe.crypto.Md5.make(sys.io.File.getBytes(path)).toHex();
+                } catch (e) {
+                    null;
+                }
             case h:
                 h;
         }
     }
-    #end
 
     macro static public function R(path:String) {
         if (!path.startsWith("/")) {

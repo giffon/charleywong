@@ -1,7 +1,6 @@
 package charleywong;
 
 import sys.FileSystem;
-import js.npm.nodejieba.Nodejieba;
 import js.npm.fetch.Fetch;
 import js.npm.hk_address_parser_lib.Dclookup;
 import js.lib.Promise;
@@ -729,7 +728,29 @@ class ServerMain {
         app.use(bodyParser.json());
 
         app.set('json spaces', 2);
-        app.use(Express.Static("static"));
+        app.use(function(req:Request, res:Response, next):Void {
+            res.locals = {
+                req: req,
+            };
+            next();
+        });
+        app.use(Express.Static(StaticResource.resourcesDir, {
+            setHeaders: function(res:Response, path:String, stat:js.node.fs.Stats) {
+                var req:Request = res.locals.req;
+                var md5:Null<String> = req.query.md5;
+                if (md5 == null)
+                    return;
+
+                var actual = StaticResource.hash(path);
+                trace(actual);
+                trace(md5);
+                if (md5 == actual) {
+                    res.setHeader("Cache-Control", "public, max-age=604800"); // 7 days
+                } else {
+                    res.setHeader("Cache-Control", "no-cache");
+                }
+            },
+        }));
         app.use(function(req:Request, res:Response, next) {
             if (req.path.endsWith('/') && req.path.length > 1) {
                 var query = req.url.substr(req.path.length);
