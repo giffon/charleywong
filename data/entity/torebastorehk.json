@@ -6,16 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "日本/英美韓代購零售-角落生物/東京迪士尼/環球影城",
-        "about": "同事長期駐日代購，來圖查詢🔍\n現貨/預訂/精品景品一番賞/批發/歡迎同行合作\n收費變畢業公仔\n📍荔枝角門市/順豐到付\n📍門市不定時營業提早詢問\n🧙🏿‍♀️逢星期一晚上安排油麻地面交\n📲IG DM或wtapp\n💰▫️銀行▫️FPS▫️Payme▫️paypal+5%\n#tsk_特賣場 #tsk_現貨區"
+        "name": "torebastorehk",
+        "about": "咩精品都有，批發/零售"
       },
-      "url": "https://www.instagram.com/torebastorehk/"
+      "url": "https://www.instagram.com/torebastorehk/",
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/kikiss.store/",
+      "meta": {
+        "name": "Sumikko Gurashi角落生物• 精品•日本代購",
+        "about": "駐日代購代拍查詢🔍精品｜環球影城｜迪士尼｜景品｜一番賞｜零食｜潮品｜收費變畢業公仔\n#tsk_角落生物\n🌍澳門|台灣|Ship Worldwide\n🧡持商業登記⭐️零售批發•同行合作⭐️\n📍荔枝角店}不定時營業提早詢問\n🧙🏿‍♀️逢星期一晚油麻地面交\n📲IG DM或wtapp 65736696"
+      }
     },
     {
       "meta": {
         "name": "Torebastorehk- 日本公仔精品店",
         "id": "108102063870239",
-        "about": "Ig: torebastorehk\n\n每月日本連線，日本同事長駐日本可代購\n另有零售批發，平過你日本買\n基本上一番賞/景品/限定都可代購，來圖查詢\n\n有旺角格仔舖\n荔枝角門市不定時營業，\n上來前請提早查詢",
+        "about": "Ig: torebastorehk \n\n每月日本連線，日本同事長駐日本可代購\n另有零售批發，平過你日本買\n基本上一番賞/景品/限定都可代購，來圖查詢\n\n荔枝角門市不定時營業，\n上來前請提早查詢",
         "categories": [
           "Shopping & Retail"
         ],
@@ -31,6 +39,7 @@
     }
   ],
   "tags": [
+    "toy",
     "shop"
   ],
   "alias": [
@@ -38,5 +47,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02305"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荔枝角匯華工廠大廈3樓1室"
+      },
+      "googleMapsPlaceId": "ChIJ2dv_SlQHBDQRVLZC15OXXys",
+      "coordinates": {
+        "lat": 22.3387747,
+        "lng": 114.1470551
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
