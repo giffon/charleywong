@@ -128,11 +128,11 @@ class Mooncake2020 extends View {
             "name": "王孖記果子",
             "note": "",
             "types": [
-                "『水果』＆『凍』嘅月餅"
+                "冰皮月餅"
             ],
             "current": true,
             "info": [
-                "https://www.facebook.com/w.boysfruitstore/posts/3573058452707515"
+                "https://www.facebook.com/w.boysfruitstore/posts/3607157475964279"
             ],
             "charleywong": "https://charleywong.giffon.io/w.boysfruitstore"
         },
