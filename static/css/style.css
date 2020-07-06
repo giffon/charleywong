@@ -90,6 +90,10 @@ a.post-preview:hover {
     border-color: #007bff;
 }
 
+.search-input:disabled {
+    background-color: #ccc;
+}
+
 .search-btn {
     background-color: #172451;
     color: white;

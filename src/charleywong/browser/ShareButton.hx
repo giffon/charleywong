@@ -1,7 +1,6 @@
 package charleywong.browser;
 
 import haxe.Timer;
-import js.lib.Promise;
 import react.*;
 import react.ReactMacro.jsx;
 import js.npm.material_ui.MaterialUi;
