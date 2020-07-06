@@ -1,0 +1,69 @@
+{
+  "id": "1station",
+  "name": {
+    "en": "1 Station Game"
+  },
+  "webpages": [
+    {
+      "url": "http://www.1stationgame.com",
+      "hidden": true
+    },
+    {
+      "url": "https://www.facebook.com/1station/",
+      "meta": {
+        "name": "1 Station Game",
+        "id": "132351323443275",
+        "about": "這是遊戲店(Game鋪) 1Station 之官方fans專頁, 我們分店位於旺角信和中心和荃灣荃豐中心, 這裡提供最新優惠和最新產品資訊。 歡迎您多互動, 多發言, 給予我們意見, 讓我們做得更好!",
+        "categories": [
+          "Video Game",
+          "Video Game Store"
+        ],
+        "email": "info@1stationgame.com",
+        "tel": "39967293"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/1stationgame/",
+      "meta": {
+        "name": "1 Station Game",
+        "about": "1 Station 遊戲店之官方Instagram專頁：）\n本專頁提供最新產品資訊和優惠～#1stationgame\n如有任何查詢，歡迎致電我們或DM我們：）\n分店資料請按「更多」查看:\n1. 荃灣荃豐中心地下A41號舖 3996 7293\n2. 旺角信和中心M樓M2號舖 2332 8771"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "videoGame",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角信和中心M樓M2號舖"
+      },
+      "googleMapsPlaceId": "ChIJZcDUHscABDQRKmqCjNOjwMk",
+      "coordinates": {
+        "lat": 22.3160575,
+        "lng": 114.1703633
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣荃豐中心地下A41號舖"
+      },
+      "googleMapsPlaceId": "ChIJh0Y8W-34AzQRQABgERzUh0g",
+      "coordinates": {
+        "lat": 22.3720028,
+        "lng": 114.1191781
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    "Y_SHOP02541"
+  ]
+}
