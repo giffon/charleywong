@@ -4,6 +4,7 @@ import charleywong.EntityIndex;
 
 class Index extends View {
     override public function description() return "一個開放源碼同開放數據嘅黃色經濟圈資料庫.";
+    override function canonical() return ServerMain.domain;
     override public function render() {
         return super.render();
     }

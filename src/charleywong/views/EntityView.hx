@@ -9,6 +9,7 @@ import charleywong.UrlExtractors.*;
 class EntityView extends View {
     override public function title() return '${entity.name.printAll()}';
     override public function description() return 'Charley Wong 和你查 ${entity.name.printAll()}.';
+    override function canonical() return Path.join([ServerMain.domain, entity.id]);
     override public function render() {
         return super.render();
     }
@@ -166,7 +167,6 @@ class EntityView extends View {
         } else {
             null;
         }
-        var canonicalUrl = Path.join(["https://charleywong.giffon.io", entity.id]);
         return jsx('
             <Fragment>
                 <div className="container">
@@ -178,7 +178,7 @@ class EntityView extends View {
                             <div
                                 className="share-button"
                                 data-title=${title()}
-                                data-url=${canonicalUrl}
+                                data-url=${canonical()}
                             />
                             <img
                                 className="profile-pic mb-2"

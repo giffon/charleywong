@@ -5,6 +5,7 @@ using charleywong.EntityTools;
 class EntityListView extends View {
     override public function title() return '${listName}名單';
     override public function description() return 'Charley Wong 和你查 ${listName}名單.';
+    override function canonical() return Path.join([ServerMain.domain, searchQuery != null ? "search" : "list", slug]);
     override public function render() {
         return super.render();
     }
@@ -46,7 +47,6 @@ class EntityListView extends View {
 
     override function bodyContent() {
         var jsonHref = '${slug}.json';
-        var canonicalUrl = Path.join(["https://charleywong.giffon.io", searchQuery != null ? "search" : "list", slug]);
         return jsx('
             <Fragment>
                 <div className="container">
@@ -62,7 +62,7 @@ class EntityListView extends View {
                             <div
                                 className="share-button"
                                 data-title=${title()}
-                                data-url=${canonicalUrl}
+                                data-url=${canonical()}
                             />
                         </div>
                         <div><ul className="entity-list">${entities.map(renderEntity)}</ul></div>

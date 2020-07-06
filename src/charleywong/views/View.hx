@@ -13,7 +13,7 @@ class View extends ReactComponent {
             ');
     };
 
-    function path():String throw "should be overridden";
+    function canonical():String throw "should be overridden";
 
     function gtag() {
         var content = {
@@ -94,6 +94,9 @@ class View extends ReactComponent {
     function ogMeta() return jsx('
         <Fragment>
             <meta property="fb:app_id" content=${Facebook.appId} />
+            <meta property="og:title" content=${title()} />
+            <meta property="og:description" content=${description()} />
+            <meta property="og:url" content=${canonical()} />
         </Fragment>
     ');
 
@@ -114,6 +117,7 @@ class View extends ReactComponent {
 
             ${favicon()}
             ${descriptionTag()}
+            <link rel="canonical" href=${canonical()} />
             ${ogMeta()}
             ${depCss()}
             ${depJs()}

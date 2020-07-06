@@ -21,6 +21,7 @@ using Lambda;
 class ServerMain {
     static public final port = 3000;
     static final isMain = js.Syntax.code("require.main") == module;
+    static public final domain = "https://charleywong.giffon.io";
     static public final dataDirectory = "data/entity";
     static public final exportedFlexsearch = "flexsearch.json";
     static public final entityIndex:EntityIndex = EntityIndex.loadFromDirectory(

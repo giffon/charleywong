@@ -459,15 +459,13 @@ class Mooncake2020 extends View {
     override public function title() return "黃金月餅攻略";
 
     override public function description() return "Charley Wong 和你查 整合出多間黃店月餅資訊. 傳統/冰皮/奶黃/純素, 仲有好多其他款. 持續更新中.";
+    override function canonical() return Path.join([ServerMain.domain, "page/mooncake2020"]);
 
     override function ogMeta() return jsx('
         <Fragment>
             ${super.ogMeta()}
-            <meta property="og:title" content=${title()} />
-            <meta property="og:description" content=${description()} />
             <meta property="og:type" content="website" />
-            <meta property="og:url" content="https://charleywong.giffon.io/page/mooncake2020" />
-            <meta property="og:image" content=${Path.join(["https://charleywong.giffon.io", R("/images/mooncake-meta.jpg")])} />
+            <meta property="og:image" content=${Path.join([ServerMain.domain, R("/images/mooncake-meta.jpg")])} />
             <meta property="og:image:width" content="1200" />
             <meta property="og:image:height" content="630" />
         </Fragment>
@@ -498,7 +496,7 @@ class Mooncake2020 extends View {
                         <div
                             className="share-button"
                             data-title=${title()}
-                            data-url="https://charleywong.giffon.io/page/mooncake2020"
+                            data-url=${canonical()}
                         />
                         <a href="/">
                             <img className="img-fluid col-4 col-md-3 col-lg-2" src=${R("/images/charley-mooncake.png")} alt="Charley Wong 和你查" width="1060" height="1060" />
