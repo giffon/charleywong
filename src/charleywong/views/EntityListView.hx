@@ -37,8 +37,8 @@ class EntityListView extends View {
         <h3 className="text-center">${listName}</h3>
     ');
 
-    override function prefetch() return [
-        for (e in entities.slice(0, 5))
+    override function prefetch() return entities.length > 5 ? [] : [
+        for (e in entities)
         [
             '/${e.id}',
             '/${e.id}/profile.png',
