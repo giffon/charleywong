@@ -59,5 +59,20 @@
     "toy",
     "photography",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新蒲崗七寶街利中工業大廈6樓A2室"
+      },
+      "googleMapsPlaceId": "ChIJqYJYlNAGBDQRQli0wBhXCBM",
+      "coordinates": {
+        "lat": 22.3365367,
+        "lng": 114.1991581
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
   ]
 }
