@@ -1,8 +1,6 @@
 package charleywong.chrome;
 
-import react.ReactComponent.ReactElement;
 import js.Browser.*;
-import js.Node.*;
 import js.npm.material_ui.MaterialUi;
 import react.*;
 import react.Fragment;
@@ -52,10 +50,10 @@ class OptionsControl extends ReactComponent {
     }
 
     function onClickSave(evt) {
-        Storage.local.set(({
+        Storage.local.set({
             serverEndpoint: serverEndpoint,
             dataEntryMode: dataEntryMode,
-        }:SettingsData), function(){
+        }, function(){
             window.close();
         });
     }

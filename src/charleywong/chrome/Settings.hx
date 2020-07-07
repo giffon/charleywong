@@ -7,6 +7,7 @@ class Settings {
     static public final defaultSettings:SettingsData = {
         serverEndpoint: "https://charleywong.giffon.io",
         dataEntryMode: false,
+        serializedEntities: null,
     };
 
     static public function getSettings():Promise<SettingsData> {

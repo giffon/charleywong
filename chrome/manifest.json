@@ -3,7 +3,7 @@
   "version": "0.1",
   "description": "Display a button next to links that Charley Wong knows about.",
   "manifest_version": 2,
-  "permissions": ["storage", "contextMenus", "notifications"],
+  "permissions": ["storage", "contextMenus", "notifications", "unlimitedStorage"],
   "background": {
     "scripts": ["Background.js"],
     "persistent": false

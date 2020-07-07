@@ -21,7 +21,23 @@ enum abstract MenuId(String) to String {
 }
 
 class Background {
-    static var entityIndex:Promise<EntityIndex> = fetchEntityIndex();
+    static var entityIndex:Promise<EntityIndex> = loadEntityIndex();
+
+    static function loadEntityIndex():Promise<EntityIndex> {
+        return Settings.getSettings()
+            .then(settings ->
+                switch (settings.serializedEntities) {
+                    case null:
+                        var entityIndex = fetchEntityIndex();
+                        entityIndex.then(entityIndex -> Storage.local.set({
+                            serializedEntities: Serializer.run(entityIndex.entities),
+                        }));
+                        return entityIndex;
+                    case serializedEntities:
+                        Promise.resolve(new EntityIndex(Unserializer.run(serializedEntities)));
+                }
+            );
+    }
 
     static function updateEntityIndex(showNotification:Bool):Promise<EntityIndex> {
         entityIndex = fetchEntityIndex();
