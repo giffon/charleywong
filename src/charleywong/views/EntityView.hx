@@ -125,7 +125,6 @@ class EntityView extends View {
         }
 
         for (d in ybmData) {
-            var detail = d.reason + "\n" + "Source:\n" + d.source;
             var detailId = 'ybm-detail-${d.id}';
             return jsx('
                 <div className="webpage ybm-info" key=${d.id}>
@@ -138,14 +137,7 @@ class EntityView extends View {
                         </span>
                     </a>
                     <div id=${detailId} className="collapse">
-                        <blockquote>
-                            <div className="detail">
-                                <Linkify>
-                                    ${detail}
-                                </Linkify>
-                            </div>
-                            <footer className="blockquote-footer">以上資料由<a href="https://www.facebook.com/yellowbluemap" target="_blank">終極黃藍地圖</a>提供</footer>
-                        </blockquote>
+                        此店舖有被收錄於<a href="https://www.facebook.com/yellowbluemap" target="_blank">終極黃藍地圖</a>。
                     </div>
                 </div>
             ');
