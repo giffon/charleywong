@@ -42,5 +42,20 @@
     "toy",
     "accessories",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵涌葵富路7-11號葵涌廣場1樓B63A(3)鋪"
+      },
+      "googleMapsPlaceId": "ChIJOUTkt734AzQR2DIuCxrfkck",
+      "coordinates": {
+        "lat": 22.35843849999999,
+        "lng": 114.1274926
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
