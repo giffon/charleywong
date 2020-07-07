@@ -103,11 +103,13 @@ class Mooncake2020 extends View {
             "types": [
                 "雙黃蓮蓉月餅",
                 "雙黃白蓮蓉月餅",
-                "五仁月餅"
+                "五仁月餅",
+                "奶皇脆皮月餅"
             ],
             "current": true,
             "info": [
-                "https://www.facebook.com/LungMunCafe/posts/3245844615480333"
+                "https://www.facebook.com/LungMunCafe/posts/3245844615480333",
+                "https://www.facebook.com/LungMunCafe/posts/3296335333764594"
             ],
             "charleywong": "https://charleywong.giffon.io/LungMunCafe"
         },
