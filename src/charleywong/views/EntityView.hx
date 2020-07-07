@@ -137,7 +137,9 @@ class EntityView extends View {
                         </span>
                     </a>
                     <div id=${detailId} className="collapse">
-                        此店舖有被收錄於<a href="https://www.facebook.com/yellowbluemap" target="_blank">終極黃藍地圖</a>。
+                        <div className="ybm-details">
+                            此店舖有被收錄於<a href="https://www.facebook.com/yellowbluemap" target="_blank">終極黃藍地圖</a>。
+                        </div>
                     </div>
                 </div>
             ');

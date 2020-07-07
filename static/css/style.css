@@ -236,6 +236,10 @@ body .MuiMenuItem-root {
     height: 1.5em;
 }
 
+.ybm-info .ybm-details {
+    padding-top: 0.5em;
+}
+
 .ybm-info blockquote {
     white-space: pre-wrap;
     text-align: left;
