@@ -346,7 +346,7 @@ class Mooncake2020 extends View {
             ],
             "current": true,
             "info": [
-                "https://www.facebook.com/PandaZoeBakery/photos/a.891971987557764/3108328159255458/"
+                "https://www.facebook.com/PandaZoeBakery/photos/a.891971987557764/3141115002643440/"
             ],
             "charleywong": "https://charleywong.giffon.io/PandaZoeBakery"
         },
