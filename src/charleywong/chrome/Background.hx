@@ -28,11 +28,7 @@ class Background {
             .then(settings ->
                 switch (settings.serializedEntities) {
                     case null:
-                        var entityIndex = fetchEntityIndex();
-                        entityIndex.then(entityIndex -> Storage.local.set({
-                            serializedEntities: Serializer.run(entityIndex.entities),
-                        }));
-                        return entityIndex;
+                        fetchEntityIndex();
                     case serializedEntities:
                         Promise.resolve(new EntityIndex(Unserializer.run(serializedEntities)));
                 }
@@ -100,9 +96,13 @@ class Background {
             })
                 .then(r -> r.json())
                 .then(fetchEntities)
-                .then(entities ->
-                    resolve(new EntityIndex([for (e in (cast entities:Array<Entity>)) e.id => e]))
-                )
+                .then(entities -> {
+                    var entityIndex = new EntityIndex([for (e in (cast entities:Array<Entity>)) e.id => e]);
+                    Storage.local.set({
+                        serializedEntities: Serializer.run(entityIndex.entities),
+                    });
+                    resolve(entityIndex);
+                })
                 .then(_ -> BrowserAction.setBadgeText({
                     text: "",
                 }))
