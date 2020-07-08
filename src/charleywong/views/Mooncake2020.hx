@@ -216,6 +216,19 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/knowcakehk"
         },
         {
+            "name": "走肉月餅",
+            "note": "",
+            "types": [
+                "棗泥果仁月餅",
+                "烏豆沙蛋黃月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/1835535343424298/posts/2511596659151493/"
+            ],
+            "charleywong": "https://charleywong.giffon.io/my_meat_run_buddy"
+        },
+        {
             "name": "逸東軒",
             "note": "",
             "types": [
