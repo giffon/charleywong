@@ -235,9 +235,9 @@ class Mooncake2020 extends View {
                 "蛋黃奶皇月餅",
                 "蛋黃白蓮蓉月餅"
             ],
-            "current": false,
+            "current": true,
             "info": [
-                "https://www.facebook.com/yattungheen/posts/2245822805500404"
+                "https://www.facebook.com/yattungheen/posts/3057114527704557"
             ],
             "charleywong": "https://charleywong.giffon.io/eatonhkhotel"
         },
