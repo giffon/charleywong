@@ -11,6 +11,44 @@ import charleywong.Utils.prettyUrl;
 using StringTools;
 using Lambda;
 
+class MyInstagramEmbed extends ReactComponent {
+    var url(get, never):Array<charleywong.Entity.Post>;
+    function get_url() return props.url;
+
+    var maxWidth(get, never):Array<charleywong.Entity.Post>;
+    function get_maxWidth() return props.maxWidth;
+
+    var embedFailed(get, set):Bool;
+    function get_embedFailed() return state.embedFailed;
+    function set_embedFailed(v) {
+        setState({
+            embedFailed: v,
+        });
+        return v;
+    }
+
+    function new(props) {
+        super(props);
+        state = {
+            embedFailed: false,
+        };
+    }
+
+    override function render() {
+        if (embedFailed)
+            return jsx('<p>無法載入 Instagram 相片，可能已經被移除。</p>');
+
+        return jsx('
+            <InstagramEmbed
+                url=${url}
+                hideCaption=${false}
+                maxWidth=${maxWidth}
+                onFailure=${() -> embedFailed = true}
+            />
+        ');
+    }
+}
+
 class Posts extends ReactComponent {
     var posts(get, never):Array<charleywong.Entity.Post>;
     function get_posts() return props.posts;
@@ -138,9 +176,8 @@ class Posts extends ReactComponent {
         ) {
             classes.push("post-ig");
             jsx('
-                <InstagramEmbed
+                <MyInstagramEmbed
                     url=${p.url}
-                    hideCaption=${false}
                     maxWidth=${width}
                 />
             ');
