@@ -291,6 +291,19 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/Groundworks.Wanchai"
         },
         {
+            "name": "叁拾士多",
+            "note": "",
+            "types": [
+                "伯爵茶奶皇月餅",
+                "陳皮紅豆月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.instagram.com/p/CCU9orbj1eX/"
+            ],
+            "charleywong": "https://charleywong.giffon.io/30store.hk"
+        },
+        {
             "name": "大班麵包西餅",
             "note": "",
             "types": [
