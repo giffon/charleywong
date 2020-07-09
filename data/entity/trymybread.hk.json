@@ -14,7 +14,7 @@
           "Fast Food Restaurant"
         ],
         "addr": "深水埗營盤街138A地下",
-        "area": "Hong Kong",
+        "area": "000000 Hong Kong",
         "tel": "98165211"
       }
     },
@@ -32,9 +32,6 @@
     },
     {
       "url": "https://www.instagram.com/p/B7ab1ymDE6O/"
-    },
-    {
-      "url": "https://www.instagram.com/p/B7oEMBojjjT/"
     }
   ],
   "tags": [
@@ -42,5 +39,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT02033"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗營盤街138A地下"
+      },
+      "googleMapsPlaceId": "ChIJnZ3x6K8HBDQRt74so8xT_Yk",
+      "coordinates": {
+        "lat": 22.3348167,
+        "lng": 114.1607665
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
