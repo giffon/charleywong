@@ -12,6 +12,12 @@ form {
     margin: 0;
 }
 
+.fb-like-button {
+    max-height: 1.5em;
+    max-width: 10em;
+    overflow: hidden;
+}
+
 iframe.place {
     width: 100%;
     height: 200px;
