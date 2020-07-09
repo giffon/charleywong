@@ -339,7 +339,10 @@ class Importer {
     }
 
     static function fbName():String {
-        return document.querySelector("#seo_h1_tag a, *:not([hidden]) *[role='main'] h1, *:not([hidden]) *[role='main'] h2").innerText.trim();
+        return [
+            for (e in document.querySelectorAll("#seo_h1_tag a, *[role='main'] h1, *[role='main'] h2"))
+            (cast e:Element)
+        ].find(e -> !e.matches("[hidden] *")).innerText.trim();
     }
 
     static function fbAboutRow(info:String):Promise<Null<Element>> {
@@ -474,7 +477,7 @@ class Importer {
 
     static function fbWebsites() {
         var igHandles = fbInstagram();
-        var linkNodes = document.getElementsByXPath("//*[@role='main']//*[starts-with(text(),'http')]//ancestor-or-self::a");
+        var linkNodes = document.getElementsByXPath("//*[@role='main']//*[starts-with(text(),'http')][not(ancestor::*[@hidden])]//ancestor-or-self::a");
         var links = linkNodes
             .map(link -> link.innerText)
             .map(link -> switch(extractIgProfilePage(new URL(link))) {
