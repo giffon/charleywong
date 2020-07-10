@@ -6,26 +6,54 @@
   "webpages": [
     {
       "meta": {
+        "name": "美樂士多",
         "id": "1610200662638197",
-        "about": "《分店地址》\n。V walk商場-L2 121舖（南昌站上蓋)\n。荃灣愉景新城 -L1 Donut Village 入口\n。星光大道kiosk 1 美食亭",
+        "about": "《分店地址》\n。V walk商場-L2 121舖（南昌站上蓋)\n。荃灣愉景新城 -L2-橋位pop up （近美康及洗手間）\n。星光大道kiosk 1 美食亭",
         "categories": [
-          "Speciality food shop",
-          "Retail company"
+          "Specialty Grocery Store"
         ],
-        "addr": "(不設零售業務,請參考美樂照相館專頁）\n觀塘偉業街181號盈達商業大廈4/F 全層",
-        "area": "Hong Kong",
         "email": "info@charles-ltd.com",
         "tel": "92238538"
       },
       "url": "https://www.facebook.com/meilokstore/"
+    },
+    {
+      "url": "https://www.instagram.com/mei_lok_store/",
+      "meta": {
+        "name": "美樂士多"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/meilokstore/photos/a.1633163823675214/2556548441336743"
+      "url": "https://www.facebook.com/meilokstore/posts/2515780668746854",
+      "meta": {
+        "sharedWith": "Public"
+      }
     },
     {
-      "url": "https://www.facebook.com/meilokstore/posts/2521797098145211"
+      "url": "https://www.facebook.com/meilokstore/posts/2521199238204997",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/meilokstore/posts/2524730394518548",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/meilokstore/posts/2535994813392106",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/meilokstore/posts/2539404483051139",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
@@ -36,5 +64,46 @@
     "Y_SHOP00149",
     "Y_SHOP00150",
     "Y_SHOP00151"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣愉景新城商場L2-pop up"
+      },
+      "googleMapsPlaceId": "ChIJcw9HvfH4AzQR0n0-oR_IPzw",
+      "coordinates": {
+        "lat": 22.3764012,
+        "lng": 114.111548
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "南昌站上蓋v walk商場L2-121"
+      },
+      "googleMapsPlaceId": "ChIJT3r4yeoBBDQR7FBYKjzVdFs",
+      "coordinates": {
+        "lat": 22.3270845,
+        "lng": 114.1543942
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "星光大道kiosk 1 美食亭"
+      },
+      "googleMapsPlaceId": "ChIJA-xCIMgBBDQRyCqtTQFWuiU",
+      "coordinates": {
+        "lat": 22.2934687,
+        "lng": 114.1725365
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
