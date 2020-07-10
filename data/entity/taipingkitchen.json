@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
+        "name": "太平飯店 - Tai Ping Kitchen",
         "id": "798627903529239",
         "about": "太平滷水，創新做法，香而不咸，回味無窮。\n\n招牌菜式有滷水鵝拼盤、精製糖醋麵、酒香鵝肝、鮮甜潮式烏頭魚、醉香溏心蛋等。",
         "categories": [
-          "Cantonese restaurant"
+          "Cantonese Restaurant"
         ],
         "addr": "北角渣華道124號地下 (北角站A1出口旁)",
-        "area": "North Point",
+        "area": "Hong Kong North Point",
         "email": "tpgroupltd.email@gmail.com",
         "tel": "31073797"
       },
       "url": "https://www.facebook.com/taipingkitchen/"
+    },
+    {
+      "url": "https://www.instagram.com/taipingkitchen/",
+      "meta": {
+        "name": "Tai Ping Kitchen 太平飯店",
+        "about": "用心，讓滷水變得不一樣"
+      }
     }
   ],
   "posts": [
@@ -35,5 +43,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00213"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "北角渣華道124號地下"
+      },
+      "googleMapsPlaceId": "ChIJQ5Uh2AQBBDQRRSPoXWpo0D4",
+      "coordinates": {
+        "lat": 22.2922194,
+        "lng": 114.2003391
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
   ]
 }
