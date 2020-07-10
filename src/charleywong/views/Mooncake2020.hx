@@ -118,11 +118,14 @@ class Mooncake2020 extends View {
             "note": "",
             "types": [
                 "蛋黃白蓮蓉月餅",
-                "豆沙蛋黃月餅"
+                "豆沙蛋黃月餅",
+                "奶黃月餅"
             ],
             "current": true,
             "info": [
-                "https://www.facebook.com/wahyeetangcakeshop/posts/3083504785100773"
+                "https://www.facebook.com/wahyeetangcakeshop/posts/3083504785100773",
+                "https://www.facebook.com/wahyeetangcakeshop/posts/3115202028597715",
+                "https://www.facebook.com/wahyeetangcakeshop/posts/3118326924951892"
             ],
             "charleywong": "https://charleywong.giffon.io/wahyeetangcakeshop"
         },
