@@ -291,6 +291,18 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/Groundworks.Wanchai"
         },
         {
+            "name": "花果山",
+            "note": "",
+            "types": [
+                "貓山王冰皮月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/mount.fruity/posts/2024376031027727"
+            ],
+            "charleywong": "https://charleywong.giffon.io/mount.fruity"
+        },
+        {
             "name": "叁拾士多",
             "note": "",
             "types": [
