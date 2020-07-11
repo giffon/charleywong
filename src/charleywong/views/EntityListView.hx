@@ -5,10 +5,13 @@ using charleywong.EntityTools;
 class EntityListView extends View {
     override public function title() return '${listName}名單';
     override public function description() return 'Charley Wong 和你查 ${listName}名單.';
-    override function canonical() return Path.join([ServerMain.domain, searchQuery != null ? "search" : "list", slug]);
+    override function canonical() return Path.join([ServerMain.domain, path]);
     override public function render() {
         return super.render();
     }
+
+    public var path(get, never):String;
+    function get_path() return props.path;
 
     public var slug(get, never):String;
     function get_slug() return props.slug;

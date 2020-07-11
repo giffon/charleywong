@@ -64,6 +64,7 @@ class ServerMain {
     static function all(req:Request, res:Response) {
         res.sendView(EntityListView, {
             slug: "all",
+            path: "list/all",
             listName: "全部 Charley Wong 和你查 商業/品牌",
             entities: {
                 var entities = [
@@ -97,6 +98,7 @@ class ServerMain {
         ];
         res.sendView(EntityListView, {
             slug: ids,
+            path: haxe.io.Path.join(["list", name, ids]),
             listName: name,
             entities: entities,
         });
@@ -292,8 +294,10 @@ class ServerMain {
             case v: v.split(" ").map(t -> t.toLowerCase());
         };
         var entities = search(query, tags);
+        var slug = query.urlEncode();
         res.sendView(EntityListView, {
-            slug: query.urlEncode(),
+            slug: slug,
+            path: haxe.io.Path.join(["search", slug]),
             listName: '${query} 搜尋結果',
             searchQuery: query,
             entities: entities,
