@@ -11,8 +11,8 @@
         "id": "2216174361736219",
         "about": "享樂烘焙宗旨為所有產品絕無麵包改良劑,使用全天然牛油,絕不使用植物/人造牛油/豬油.兩位創辦人均熱愛烘焙,並十分嚮往箇中樂趣.固此取名享樂烘焙寓意寄望顧客可共同享受烘焙帶來的快樂.",
         "categories": [
-          "Dessert Shop",
-          "Bakery"
+          "Bakery",
+          "Dessert Shop"
         ],
         "addr": "Shop E, G/F Maxgrand Plaza, No.3 Tai Yau Street, San Po Kong",
         "area": "HK Kowloon, Hong Kong",
@@ -24,7 +24,8 @@
     {
       "url": "https://www.instagram.com/ly_bakery/",
       "meta": {
-        "name": "LY Bakery"
+        "name": "LY Bakery",
+        "about": "新蒲崗總店：\n大有街3號萬迪廣場地下E鋪 (鑽石山站EXIT A2) .\nTel : 35202122\n九龍灣分店：\n常悅道21號Eastmark 地下3號鋪 (九龍灣站Exit A2) .\nTel :25062122"
       }
     }
   ],
@@ -34,9 +35,6 @@
     },
     {
       "url": "https://www.facebook.com/lybakeryltd/photos/a.2399971263356527/3152512441435735"
-    },
-    {
-      "url": "https://www.facebook.com/lybakeryltd/photos/a.2399971263356527/3224548627565449"
     }
   ],
   "tags": [
@@ -50,7 +48,7 @@
   "places": [
     {
       "address": {
-        "en": "Shop E, G/F Maxgrand Plaza, No.3 Tai Yau Street, San Po Kong"
+        "zh": "大有街3號萬迪廣場地下E鋪"
       },
       "googleMapsPlaceId": "ChIJ__LevsIHBDQRFsoDguzjo80",
       "coordinates": {
@@ -59,6 +57,19 @@
       },
       "area": {
         "zh": "黃大仙區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍灣常悅道21號Eastmark 地下3號鋪"
+      },
+      "googleMapsPlaceId": "ChIJfxa32CwBBDQRuqSSWWqea54",
+      "coordinates": {
+        "lat": 22.3221986,
+        "lng": 114.2112792
+      },
+      "area": {
+        "zh": "觀塘區"
       }
     }
   ]
