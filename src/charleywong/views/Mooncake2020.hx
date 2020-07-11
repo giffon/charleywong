@@ -331,6 +331,18 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/30store.hk"
         },
         {
+            "name": "享樂烘焙 LY Bakery",
+            "note": "",
+            "types": [
+                "奶黃月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/lybakeryltd/posts/3720574131296227"
+            ],
+            "charleywong": "https://charleywong.giffon.io/lybakeryltd"
+        },
+        {
             "name": "大班麵包西餅",
             "note": "",
             "types": [
