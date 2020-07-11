@@ -19,6 +19,13 @@
         "area": "Hong Kong",
         "tel": "35686757"
       }
+    },
+    {
+      "url": "https://www.instagram.com/sweetmomentdessert/",
+      "meta": {
+        "name": "甜一刻 Sweet Moment",
+        "about": "台式吐司磚塊、雪糕雞蛋仔、法式窩夫、台式雪花冰、港式甜品，快點來甜一刻吧~~~!!!!\n地址：長沙灣福榮街218號美居中心62號舖地下\n電話：3568 6757"
+      }
     }
   ],
   "posts": [
@@ -56,5 +63,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00069"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍長沙灣福榮街218號美居中心62號舖地下"
+      },
+      "googleMapsPlaceId": "ChIJp0sy5EwHBDQROmRKp196BQU",
+      "coordinates": {
+        "lat": 22.3347224,
+        "lng": 114.1593392
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
