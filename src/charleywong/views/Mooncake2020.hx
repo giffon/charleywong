@@ -27,6 +27,18 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/list/%E5%85%AB%E5%BA%97%E8%81%AF%E4%B9%98%E9%9B%99%E9%BB%83%E7%99%BD%E8%93%AE%E8%93%89%E6%9C%88%E9%A4%85/mu15np650+Kwong-Wing-Catering+fromtheyuan+backstreetsteakhouse+megatealtdd+106889436054739+737261133131865+66HotPot"
         },
         {
+            "name": "香港人月餅",
+            "note": "多間黃店合作",
+            "types": [
+                "雙黃白蓮蓉月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/taipingkitchen/photos/a.837767806281915/3214601468598525"
+            ],
+            "charleywong": "https://charleywong.giffon.io/list/%E9%A6%99%E6%B8%AF%E4%BA%BA%E6%9C%88%E9%A4%85/taipingkitchen+100494681540665+wingslaksa+meilokstore+Onescafehk+542591305867067+109036083805696+sweetbonbonhk+112088350546423+SichuanCoolMix"
+        },
+        {
             "name": "四喜 x 想甜嚐甜 x Jrink 聯合中秋禮盒",
             "note": "",
             "types": [
