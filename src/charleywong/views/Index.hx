@@ -10,6 +10,17 @@ class Index extends View {
         return super.render();
     }
 
+    override function ogMeta() return jsx('
+        <Fragment>
+            <meta name="twitter:card" content="summary" />
+            ${super.ogMeta()}
+            <meta property="og:type" content="website" />
+            <meta property="og:image" content=${Path.join([ServerMain.domain, R("/images/charley-600-w.png")])} />
+            <meta property="og:image:width" content="600" />
+            <meta property="og:image:height" content="600" />
+        </Fragment>
+    ');
+
     static public function searchForm(defaultQuery:String, autoFocus:Bool) return jsx('
         <div
             className="search-bar"
