@@ -12,12 +12,12 @@ class Index extends View {
 
     override function ogMeta() return jsx('
         <Fragment>
-            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:card" content="summary_large_image" />
             ${super.ogMeta()}
             <meta property="og:type" content="website" />
-            <meta property="og:image" content=${Path.join([ServerMain.domain, R("/images/charley-600-w.png")])} />
-            <meta property="og:image:width" content="600" />
-            <meta property="og:image:height" content="600" />
+            <meta property="og:image" content=${Path.join([ServerMain.domain, R("/images/charley-meta.jpg")])} />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
         </Fragment>
     ');
 
