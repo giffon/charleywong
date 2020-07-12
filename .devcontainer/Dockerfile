@@ -17,13 +17,15 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends apt-utils dialog 2>&1 \
     #
     # Verify git and needed tools are installed
-    && apt-get install -y git iproute2 procps sudo bash-completion build-essential curl python3 python3-virtualenv software-properties-common libnss3-tools \
+    && apt-get install -y iproute2 procps sudo bash-completion build-essential curl python3 python3-virtualenv software-properties-common libnss3-tools \
     && curl -sL https://deb.nodesource.com/setup_12.x | bash - \
     && apt-get install -y nodejs=12.* \
     && add-apt-repository ppa:haxe/haxe4.1 \
     && apt-get install -y haxe=1:4.1* \
     && add-apt-repository ppa:deadsnakes/ppa \
     && apt-get install -y python3.7 \
+    && add-apt-repository ppa:git-core/ppa \
+    && apt-get install -y git \
     #
     # Clean up
     && apt-get autoremove -y \
