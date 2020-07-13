@@ -10,16 +10,30 @@ import haxe.DynamicAccess;
 import haxe.Json;
 
 class Git {
-    static public var committerName:String;
-    static public var committerEMail:String;
-    static public function git(args:Array<String>):String {
+    public final config:{
+        ?user:{
+            name:String,
+            email:String,
+        },
+    };
+
+    public function new(?config) {
+        this.config = config != null ? config : {};
+    }
+
+    public function run(args:Array<String>):String {
         #if js
         switch (ChildProcess.spawnSync("git", args, {
             env: {
-                var env = Node.process.env.copy();
-                env["GIT_COMMITTER_NAME"] = committerName;
-                env["GIT_COMMITTER_EMAIL"] = committerEMail;
-                env;
+                switch (config.user) {
+                    case null:
+                        Node.process.env;
+                    case {name: name, email: email}:
+                        var env = Node.process.env.copy();
+                        env["GIT_COMMITTER_NAME"] = name;
+                        env["GIT_COMMITTER_EMAIL"] = email;
+                        env;
+                }
             },
             encoding: 'utf8',
         })) {
@@ -29,8 +43,13 @@ class Git {
                 return stdout;
         }
         #else
-        Sys.putEnv("GIT_COMMITTER_NAME", committerName);
-        Sys.putEnv("GIT_COMMITTER_EMAIL", committerEMail);
+        switch (config.user) {
+            case null:
+                //pass
+            case {name: name, email: email}:
+                Sys.putEnv("GIT_COMMITTER_NAME", name);
+                Sys.putEnv("GIT_COMMITTER_EMAIL", email);
+        }
         var p = new Process("git", args);
         var out = p.stdout.readAll().toString();
         if (p.exitCode() != 0) {
@@ -44,20 +63,32 @@ class Git {
         #end
     }
 
-    static public function lastUpdateTimestamp(file:String):Float {
-        return Std.parseFloat(git(["log", "-n", "1", "--pretty=format:%ct", "--", file]));
+    public function lastUpdateTimestamp(file:String):Float {
+        return Std.parseFloat(run(["log", "-n", "1", "--pretty=format:%ct", "--", file]));
     }
 
-    static public function commit(message:String, ?author:String, ?gpgSign:String):Void {
-        if (author == null)
-            author = '${committerName} <${committerEMail}>';
-        var args = ["commit", "--all", '--author=$author', "-m", message];
-        if (gpgSign != null)
-            args.push('--gpg-sign=$gpgSign');
-        git(args);
+    public function commit(message:String, ?opts:{
+        ?author:String,
+        ?gpgSign:String
+    }):Void {
+        var args = ["commit", "--all", "-m", message];
+
+        if (opts != null && opts.author != null)
+            args.push('--author=${opts.author}');
+        else switch (config.user) {
+            case null:
+                //pass
+            case {name: name, email: email}:
+                args.push('--author=${name} <$email>');
+        }
+
+        if (opts != null && opts.gpgSign != null)
+            args.push('--gpg-sign=$opts.gpgSign');
+
+        run(args);
     }
 
-    static public function push(repo:String, ref:String):Void {
-        git(["push", repo, ref]);
+    public function push(repo:String, ref:String):Void {
+        run(["push", repo, ref]);
     }
 }

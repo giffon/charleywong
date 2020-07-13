@@ -90,12 +90,23 @@ class Facebook {
             entity.id => file
         ];
 
+        var userRegExp = ~/^(.+) <(.+)>$/;
+        if (!userRegExp.match(author)) {
+            throw "Unknown user format";
+        }
+        var git = new Git({
+            user: {
+                name: userRegExp.matched(1),
+                email: userRegExp.matched(2)
+            }
+        });
+
         function getOldestFile() {
             for (i in 0...3) {
                 var entity = entities.pop();
                 if (entity == null) break;
                 var file = fileOfEntity[entity.id];
-                lastUpdateTimestamps[file] = Git.lastUpdateTimestamp(file);
+                lastUpdateTimestamps[file] = git.lastUpdateTimestamp(file);
             }
 
             var fileTimestamps = [
@@ -148,14 +159,8 @@ class Facebook {
 
         updateOldest()
             .then(_ -> {
-                var userRegExp = ~/^(.+) <(.+)>$/;
-                if (!userRegExp.match(author)) {
-                    throw "Unknown user format";
-                }
-                Git.committerName = userRegExp.matched(1);
-                Git.committerEMail = userRegExp.matched(2);
-                Git.commit("update fb meta", author, gpgKey);
-                Git.push(repo, "HEAD:" + branch);
+                git.commit("update fb meta", { gpgSign: gpgKey });
+                git.push(repo, "HEAD:" + branch);
             });
     }
 
