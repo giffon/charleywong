@@ -88,7 +88,28 @@ class Git {
         run(args);
     }
 
-    public function push(repo:String, ref:String):Void {
-        run(["push", repo, ref]);
+    public function push(repo:String, ref:String, ?opts:{
+        ?force:Bool,
+    }):Void {
+        var args = ["push"];
+        if (opts != null && opts.force)
+            args.push("--force");
+        args.push(repo);
+        args.push(ref);
+        run(args);
+    }
+
+    public function rebase(ref:String):Void {
+        run(["rebase", ref]);
+    }
+
+    public function reset(ref:String, ?opts:{
+        ?mode:String,
+    }):Void {
+        var args = ["reset"];
+        if (opts != null && opts.mode != null)
+            args.push('--${opts.mode}');
+        args.push(ref);
+        run(args);
     }
 }
