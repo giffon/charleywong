@@ -36,7 +36,7 @@ class Facebook {
     static public final accessToken = try {
         File.getContent("FACEBOOK_TOKEN").trim();
     } catch (e) {
-        null;
+        Sys.getEnv("FACEBOOK_TOKEN");
     }
     #end
 

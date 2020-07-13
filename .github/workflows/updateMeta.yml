@@ -1,9 +1,6 @@
 name: Update meta
 
 on:
-  push:
-    branch:
-      - meta
   schedule:
     - cron: '0 * * * *' # every hour
 
