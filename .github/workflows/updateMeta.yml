@@ -36,8 +36,8 @@ jobs:
         run: haxe syncFacebook.hxml
       - name: Import gpg key
         run: |
-          echo -e "${#CBCA760DC1170A9B}"
-          echo -e "$CBCA760DC1170A9B" | gpg --import
+          echo "${#CBCA760DC1170A9B}"
+          echo "$CBCA760DC1170A9B" | gpg --import
         env:
           CBCA760DC1170A9B: ${{ secrets.CBCA760DC1170A9B }}
       - name: Run
