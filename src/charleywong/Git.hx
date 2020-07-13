@@ -44,7 +44,7 @@ class Git {
         git(args);
     }
 
-    static public function push(repo:String, ref:String = "HEAD"):Void {
+    static public function push(repo:String, ref:String):Void {
         git(["push", repo, ref]);
     }
 }

@@ -73,12 +73,16 @@ class Facebook {
             });
     }
 
-    static function updateMeta() {
+    static function updateMeta(author:String, gpgKey:String, repo:String, branch:String) {
         var lastUpdateTimestamps = new Map<String, Float>();
         var entities = {
-            var a = ServerMain.entityIndex.entities.map(e -> { e: e, r: Math.random() });
-            a.sort((a,b) -> a.r > b.r ? 1 : a.r < b.r ? -1 : 0);
-            a.map(_ -> _.e);
+            var entities = ServerMain.entityIndex.entities.array();
+            var random = [for (e in entities) e.id => Math.random()];
+            entities.sort((a,b) -> {
+                var d = random[a.id] - random[b.id];
+                d > 0 ? 1 : d < 0 ? -1 : 0;
+            });
+            entities;
         };
         var fileOfEntity = [
             for (file => entity in ServerMain.entityIndex.entities)
@@ -122,7 +126,7 @@ class Facebook {
         }
 
         function updateOldest() {
-            if (lastAppUsage != null && Math.max(Math.max(lastAppUsage.call_count, lastAppUsage.total_cputime), lastAppUsage.total_time) > 80) {
+            if (lastAppUsage != null && Math.max(Math.max(lastAppUsage.call_count, lastAppUsage.total_cputime), lastAppUsage.total_time) > 1) {
                 Sys.println('Reaching API limit\n' + Json.stringify(lastAppUsage, null, "  "));
                 return Promise.resolve(null);
             }
@@ -134,15 +138,15 @@ class Facebook {
 
         updateOldest()
             .then(_ -> {
-                Git.commit("update fb meta", "Charley Wong's bot <charleywong-bot@giffon.io>", "CBCA760DC1170A9B!");
-                // Git.push();
+                Git.commit("update fb meta", author, gpgKey);
+                Git.push(repo, "HEAD:" + branch);
             });
     }
 
     static function main():Void {
         switch (Sys.args()) {
-            case ["updateMeta"]:
-                updateMeta();
+            case ["updateMeta", author, gpgKey, repo, branch]:
+                updateMeta(author, gpgKey, repo, branch);
             case _:
                 throw "Unknown args";
         }
