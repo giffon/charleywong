@@ -1,15 +1,18 @@
 package charleywong;
 
+import haxe.DynamicAccess;
 import js.html.URL;
 import js.html.Response;
 import js.lib.Promise;
 import haxe.Json;
-import js.node.Querystring;
-import sys.io.File;
 import haxe.io.Path;
 import js.npm.fetch.Fetch.fetch;
 using StringTools;
 using Lambda;
+#if nodejs
+import js.node.Querystring;
+import sys.io.File;
+#end
 
 typedef FacebookPageInfo = {
     id:String,
@@ -28,11 +31,15 @@ typedef FacebookPageInfo = {
 class Facebook {
     static public final appId = "628806881259482";
     static public final apiVersion = "v7.0";
+
+    #if nodejs
     static public final accessToken = try {
         File.getContent("FACEBOOK_TOKEN").trim();
     } catch (e) {
         null;
     }
+    #end
+
     static public final apiEndpoint = "https://graph.facebook.com";
 
     // These are percentages.
@@ -50,6 +57,7 @@ class Facebook {
         }
     }
 
+    #if nodejs
     static function getPageInfo(page:String):Promise<FacebookPageInfo> {
         return fetch(Path.join([apiEndpoint, apiVersion, page + "?" + Querystring.encode({
             access_token: accessToken,
@@ -124,7 +132,11 @@ class Facebook {
                 .catchError(err -> trace(err));
         }
 
-        updateOldest();
+        updateOldest()
+            .then(_ -> {
+                Git.commit("update fb meta", "Charley Wong's bot <charleywong-bot@giffon.io>", "CBCA760DC1170A9B!");
+                // Git.push();
+            });
     }
 
     static function main():Void {
@@ -135,4 +147,5 @@ class Facebook {
                 throw "Unknown args";
         }
     }
+    #end
 }
