@@ -138,6 +138,12 @@ class Facebook {
 
         updateOldest()
             .then(_ -> {
+                var userRegExp = ~/^(.+) <(.+)>$/;
+                if (!userRegExp.match(author)) {
+                    throw "Unknown user format";
+                }
+                Git.committerName = userRegExp.matched(1);
+                Git.committerEMail = userRegExp.matched(2);
                 Git.commit("update fb meta", author, gpgKey);
                 Git.push(repo, "HEAD:" + branch);
             });
