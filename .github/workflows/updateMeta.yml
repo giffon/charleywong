@@ -41,3 +41,4 @@ jobs:
         run: node syncFacebook.js updateMeta "Charley Wong's bot <charleywong-bot@giffon.io>" "CBCA760DC1170A9B!" "https://charleywong-bot:${BOT_PASSWORD}@github.com/giffon/charleywong.git" meta
         env:
           BOT_PASSWORD: ${{ secrets.botPassword }}
+          FACEBOOK_TOKEN: ${{ secrets.FACEBOOK_TOKEN }}
