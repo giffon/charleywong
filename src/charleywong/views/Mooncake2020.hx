@@ -56,13 +56,16 @@ class Mooncake2020 extends View {
             "types": [
                 "流心奶黃月餅",
                 "流心抹茶月餅",
+                "酥皮奶黃月餅",
                 "抹茶紅豆月餅",
                 "純素奶黃月餅",
-                "果仁月餅"
+                "焦糖果仁月餅",
+                "松露果仁月餅",
+                "松露黑毛豬果仁月餅"
             ],
             "current": true,
             "info": [
-                "https://www.facebook.com/lalune.hongkong/posts/3078775305494081"
+                "https://www.facebook.com/lalune.hongkong/posts/3151304474907830"
             ],
             "charleywong": "https://charleywong.giffon.io/wangyuehk"
         },
