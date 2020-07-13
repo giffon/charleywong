@@ -16,7 +16,6 @@ jobs:
           - 4444:4444
     env:
       HUB_HOST: selenium
-      CI: 1
     steps:
       - uses: actions/checkout@v1
         with:

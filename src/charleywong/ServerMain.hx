@@ -450,19 +450,15 @@ class ServerMain {
 
     static public function saveEntity(entity:Entity, openAfterSave:Bool, log:Bool) {
         var fileContent = haxe.Json.stringify(entity, null, "  ");
-        if (Sys.getEnv("CI") != null) {
-            Sys.println("In CI, skip writing file.");
-        } else {
-            var file = haxe.io.Path.join([dataDirectory, entity.id + ".json"]);
-            var rewrite = sys.FileSystem.exists(file);
-            sys.io.File.saveContent(file, fileContent);
-            if (log)
-                Sys.println((rewrite ? "✍️  Rewritten " : "🌟  Created ") + file);
-            entityIndex.entities[file] = entity;
-            entityIndex.invalidate();
-            if (openAfterSave)
-                Sys.command("code", [file]);
-        }
+        var file = haxe.io.Path.join([dataDirectory, entity.id + ".json"]);
+        var rewrite = sys.FileSystem.exists(file);
+        sys.io.File.saveContent(file, fileContent);
+        if (log)
+            Sys.println((rewrite ? "✍️  Rewritten " : "🌟  Created ") + file);
+        entityIndex.entities[file] = entity;
+        entityIndex.invalidate();
+        if (openAfterSave)
+            Sys.command("code", [file]);
     }
 
     static function createEntityFromIg(igInfo:charleywong.chrome.InstagramProfile):Entity {
