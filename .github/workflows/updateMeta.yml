@@ -1,6 +1,9 @@
 name: Update meta
 
 on:
+  push:
+    branch:
+      - meta
   schedule:
     - cron: '0 * * * *' # every hour
 
@@ -32,7 +35,9 @@ jobs:
       - name: Compile
         run: haxe syncFacebook.hxml
       - name: Import gpg key
-        run: echo -e "$CBCA760DC1170A9B" | gpg --import
+        run: |
+          echo -e "${#CBCA760DC1170A9B}"
+          echo -e "$CBCA760DC1170A9B" | gpg --import
         env:
           CBCA760DC1170A9B: ${{ secrets.CBCA760DC1170A9B }}
       - name: Run
