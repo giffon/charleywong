@@ -74,6 +74,7 @@ class Facebook {
     }
 
     static function updateMeta(author:String, gpgKey:String, repo:String, branch:String) {
+        var startTimestamp = Date.now().getTime() / 1000.0;
         var lastUpdateTimestamps = new Map<String, Float>();
         var entities = {
             var entities = ServerMain.entityIndex.entities.array();
@@ -99,11 +100,14 @@ class Facebook {
 
             var fileTimestamps = [
                 for (file => t in lastUpdateTimestamps)
+                if (t < startTimestamp)
                 {
                     file: file,
                     t: t,
                 }
             ];
+            if (fileTimestamps.length <= 0)
+                return null;
             fileTimestamps.sort((a,b) -> a.t > b.t ? 1 : a.t < b.t ? -1 : 0); // smaller timestamps come first
             return fileTimestamps[0].file;
         }
@@ -117,7 +121,10 @@ class Facebook {
                         null;
                     case fb:
                         getPageInfo(fb)
-                            .then(info -> p.meta = cast info);
+                            .then(info -> p.meta = cast info)
+                            .catchError(err -> {
+                                trace('Failed to get page info of $fb\n$err');
+                            });
                 }
             ].filter(p -> p != null);
             return Promise.all(updates)
@@ -131,9 +138,12 @@ class Facebook {
                 return Promise.resolve(null);
             }
             var oldest = getOldestFile();
-            return updateFile(oldest)
-                .then(_ -> updateOldest())
-                .catchError(err -> trace(err));
+            if (oldest == null)
+                return Promise.resolve(null);
+            else
+                return updateFile(oldest)
+                    .then(_ -> updateOldest())
+                    .catchError(err -> trace(err));
         }
 
         updateOldest()
