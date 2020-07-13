@@ -450,7 +450,7 @@ class ServerMain {
 
     static public function saveEntity(entity:Entity, openAfterSave:Bool, log:Bool) {
         var fileContent = haxe.Json.stringify(entity, null, "  ");
-        if (Sys.getEnv("CI") != null || Sys.getEnv("GITHUB_ACTIONS") != null) {
+        if (Sys.getEnv("CI") != null) {
             Sys.println("In CI, skip writing file.");
         } else {
             var file = haxe.io.Path.join([dataDirectory, entity.id + ".json"]);
