@@ -86,7 +86,7 @@ class Git {
         }
 
         if (opts != null && opts.gpgSign != null)
-            args.push('--gpg-sign=$opts.gpgSign');
+            args.push('--gpg-sign=${opts.gpgSign}');
 
         run(args);
     }
