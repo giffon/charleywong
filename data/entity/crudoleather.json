@@ -17,15 +17,25 @@
     {
       "url": "https://www.facebook.com/crudoleather/",
       "meta": {
-        "name": "Crudo Leather Craft",
         "id": "459406374097701",
+        "username": "crudoleather",
+        "name": "Crudo Leather Craft",
         "about": "Website: https://www.crudo-leather.com/",
-        "categories": [
-          "Accessories",
-          "Design & Fashion",
-          "Brand"
+        "category_list": [
+          {
+            "id": "185127444860544",
+            "name": "Accessories"
+          },
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          },
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          }
         ],
-        "tel": "66014446"
+        "website": "https://www.crudo-leather.com"
       }
     }
   ],

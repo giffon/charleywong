@@ -10,16 +10,21 @@
     },
     {
       "meta": {
-        "name": "太一音樂 The Oneness Music Ltd.",
         "id": "761816554163289",
+        "username": "TheOnenessMusicLtd",
+        "name": "太一音樂 The Oneness Music Ltd.",
         "about": "設立簡約舒適環境．開辦各類音樂工作坊及樂器課程．",
-        "categories": [
-          "Music Lessons & Instruction School"
+        "category_list": [
+          {
+            "id": "186983191324114",
+            "name": "Music Lessons & Instruction School"
+          }
         ],
-        "addr": "觀塘 興業街 14號 永興工業大廈 9樓 C11B",
-        "area": "99077 Hong Kong",
-        "email": "info@theonenessmusic.hk",
-        "tel": "31888966"
+        "emails": [
+          "info@theonenessmusic.hk"
+        ],
+        "single_line_address": "觀塘 興業街 14號 永興工業大廈 9樓 C11B, 99077 Hong Kong",
+        "website": "www.theonenessmusic.hk"
       },
       "url": "https://www.facebook.com/TheOnenessMusicLtd/"
     },

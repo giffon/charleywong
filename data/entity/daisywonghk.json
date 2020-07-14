@@ -10,11 +10,20 @@
     {
       "meta": {
         "id": "175944345770295",
+        "username": "daisywonghk",
+        "name": "香港作家王迪詩",
         "about": "寸嘴女作家。「在我的生活裡，我就是主角。」Contact: daisy.lancashire@gmail.com",
-        "categories": [
-          "Author"
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          }
         ],
-        "email": "daisy.lancashire@gmail.com"
+        "emails": [
+          "daisy.lancashire@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://www.daisywong.com.hk"
       },
       "url": "https://www.facebook.com/daisywonghk/"
     }

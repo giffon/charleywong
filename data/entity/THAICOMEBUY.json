@@ -6,11 +6,18 @@
   "webpages": [
     {
       "meta": {
-        "name": "泰泰來買",
         "id": "788667148189970",
-        "categories": [
-          "Shopping & Retail",
-          "Skin Care Service"
+        "username": "THAICOMEBUY",
+        "name": "泰泰來買",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "1644814599176740",
+            "name": "Skin Care Service"
+          }
         ]
       },
       "url": "https://www.facebook.com/THAICOMEBUY/"

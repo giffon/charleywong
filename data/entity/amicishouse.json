@@ -10,17 +10,29 @@
     {
       "url": "https://www.facebook.com/amicishouse/",
       "meta": {
-        "name": "Amici's House",
         "id": "1616225171780572",
+        "username": "amicishouse",
+        "name": "Amici's House",
         "about": "主場約1200呎，有天台燒烤場。\n有藍球機，足球機，電動麻雀，電子飛標機，PS4+VR，SWITCH，WII，唱K，美式桌球和氣墊球及超過100款Board Games。\n電話: 3705 8721\nWhatsApp: 9512 2103",
-        "categories": [
-          "Party Entertainment Service",
-          "Games/Toys"
+        "category_list": [
+          {
+            "id": "189334414420898",
+            "name": "Party Entertainment Service"
+          },
+          {
+            "id": "179943432047564",
+            "name": "Performance & Event Venue"
+          },
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          }
         ],
-        "addr": "Shing Yip Industrial Building,",
-        "area": "HK Kwun Tong",
-        "email": "amicis.house.hk@gmail.com",
-        "tel": "37058721"
+        "emails": [
+          "amicis.house.hk@gmail.com"
+        ],
+        "single_line_address": "Shing Yip Industrial Building,, HK Kwun Tong",
+        "website": "http://amicishouse.site123.me/"
       }
     }
   ],

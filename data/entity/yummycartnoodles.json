@@ -10,13 +10,24 @@
     {
       "meta": {
         "id": "129398374404427",
-        "categories": [
-          "Deli",
-          "Fast food restaurant",
-          "Diner"
+        "username": "yummycartnoodles",
+        "name": "任你點車仔麵",
+        "category_list": [
+          {
+            "id": "188334264523313",
+            "name": "Deli"
+          },
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "香港九龍深水埗福華街147號地下",
-        "area": "Hong Kong"
+        "single_line_address": "香港九龍深水埗福華街147號地下, 00000 Hong Kong",
+        "website": "www.yummycart-group.com"
       },
       "url": "https://www.facebook.com/yummycartnoodles/"
     }

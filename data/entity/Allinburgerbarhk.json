@@ -7,16 +7,23 @@
     {
       "url": "https://www.facebook.com/Allinburgerbarhk/",
       "meta": {
-        "name": "All In Burger & Bar",
         "id": "1558052120879761",
-        "categories": [
-          "Burger Restaurant",
-          "Bar",
-          "Fast Food Restaurant"
+        "username": "Allinburgerbarhk",
+        "name": "All In Burger & Bar",
+        "category_list": [
+          {
+            "id": "187425207958280",
+            "name": "Burger Restaurant"
+          },
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          }
         ],
-        "addr": "Shop B, G/F Sun Chun Building, No.4A-7 Sun Chun Street, Tai Hang",
-        "area": "Hong Kong",
-        "email": "allinburgerbar@gmail.com"
+        "emails": [
+          "allinburgerbar@gmail.com"
+        ],
+        "single_line_address": "Shop B, G/F Sun Chun Building, No.4A-7 Sun Chun Street, Tai Hang, Hong Kong"
       }
     },
     {

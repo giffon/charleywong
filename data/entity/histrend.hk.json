@@ -10,16 +10,28 @@
     {
       "meta": {
         "id": "362333250635787",
+        "username": "histrend.hk",
+        "name": "HisTrend.HK",
         "about": "我們只賣好東西",
-        "categories": [
-          "Shopping & retail",
-          "Product/service",
-          "Art"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "addr": "Cheung Fat Factory Buildings, Cheung Sha Wan",
-        "area": "Hong Kong",
-        "email": "histrend.hk@gmail.com",
-        "tel": "93478534"
+        "emails": [
+          "histrend.hk@gmail.com"
+        ],
+        "single_line_address": "Cheung Fat Factory Buildings, Cheung Sha Wan, 00852 Hong Kong",
+        "website": "http://www.histrend.hk"
       },
       "url": "https://www.facebook.com/histrend.hk/"
     }

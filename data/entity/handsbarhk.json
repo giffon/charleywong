@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/handsbarhk/",
       "meta": {
-        "name": "HANDS - Craft Beer & Magic",
         "id": "100472141430080",
+        "username": "handsbarhk",
+        "name": "HANDS - Craft Beer & Magic",
         "about": "More than just a bar, HANDS is a fantasy-inspired local craft beer bar where magic comes to life with surprise and taste.",
-        "categories": [
-          "Bar",
-          "Magician"
+        "category_list": [
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          },
+          {
+            "id": "1028050117278980",
+            "name": "Magician"
+          }
         ],
-        "addr": "太子大南街27-31號 27-31 Tai Nam Street, Prince Edward",
-        "area": "000 Hong Kong",
-        "email": "handsbarhk@gmail.com",
-        "tel": "64655508"
+        "emails": [
+          "handsbarhk@gmail.com"
+        ],
+        "single_line_address": "太子大南街27-31號 27-31 Tai Nam Street, Prince Edward, 000 Hong Kong"
       }
     },
     {

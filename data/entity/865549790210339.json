@@ -7,14 +7,18 @@
   "webpages": [
     {
       "meta": {
-        "name": "李永成 Li Wing Shing",
         "id": "865549790210339",
+        "name": "李永成 Li Wing Shing",
         "about": "沙田區議員(烏溪沙區)\n烏溪沙區包括銀湖·天峰、迎海、星漣海、渡頭灣村、長徑村、烏溪沙村、雅典居\n\nSha Tin District Councillor\nIn Wu Kai Sha Area",
-        "categories": [
-          "Politician"
+        "category_list": [
+          {
+            "id": "1700",
+            "name": "Politician"
+          }
         ],
-        "email": "officeofliwingshing@gmail.com",
-        "tel": "92327617"
+        "emails": [
+          "officeofliwingshing@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/865549790210339/"
     }

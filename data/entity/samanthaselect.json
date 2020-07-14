@@ -7,12 +7,17 @@
     {
       "url": "https://www.facebook.com/samanthaselect/",
       "meta": {
-        "name": "Samantha's Select",
         "id": "319334721491744",
+        "username": "samanthaselect",
+        "name": "Samantha's Select",
         "about": "Samantha's Select - your web merchandiser sharing fun and beautiful things together.",
-        "categories": [
-          "Community"
-        ]
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
+        ],
+        "single_line_address": "Hong Kong"
       }
     }
   ],

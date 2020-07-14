@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "Vision Wedding and Production",
         "id": "114004718864",
+        "username": "VisionWeddingProduction",
+        "name": "Vision Wedding and Production",
         "about": "Hong Kong professional wedding photography and videography \nWebsite: www.visionwedding.com.hk\nGallery: www.visionwedding.com.hk/gallery",
-        "categories": [
-          "Photographer",
-          "Wedding Planning Service"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "addr": "Sunbeam Plaza, 1155 Canton Road",
-        "area": "Hong Kong",
-        "email": "visionproductionhk@gmail.com",
-        "tel": "35681214"
+        "emails": [
+          "visionproductionhk@gmail.com"
+        ],
+        "single_line_address": "Shui Hong Industrial Building, 543 Castle Peak Road, Kwai Chung, Hong Kong",
+        "website": "http://www.visionwedding.com.hk"
       },
       "url": "https://www.facebook.com/VisionWeddingProduction/"
     },

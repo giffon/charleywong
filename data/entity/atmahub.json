@@ -7,18 +7,29 @@
     {
       "url": "https://www.facebook.com/atmahub/",
       "meta": {
-        "name": "ATMA HK",
         "id": "1210987819064185",
+        "username": "atmahub",
+        "name": "ATMA HK",
         "about": "ATMA\n上水上水圍文閣村46號\n營業時間：Tue-Sun 12:00-20:00\n逢星期一休息\n聯絡電話：66982085\n前往方法：上水火車站，按Google Map步行15分鐘。// 巴士73K，鳯溪第一中學下車，按Google Map步行8分鐘。",
-        "categories": [
-          "Art",
-          "Cultural Center",
-          "Event Planner"
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "619759428190024",
+            "name": "Cultural Center"
+          },
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          }
         ],
-        "addr": "NO. 46, MAN KOK TSUEN",
-        "area": "Sheung Shui",
-        "email": "atmahub@gmail.com",
-        "tel": "66982085"
+        "emails": [
+          "atmahub@gmail.com"
+        ],
+        "single_line_address": "NO. 46, MAN KOK TSUEN, Sheung Shui",
+        "website": "https://www.atmahub.com"
       }
     },
     {

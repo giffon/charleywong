@@ -11,12 +11,17 @@
     {
       "url": "https://www.facebook.com/BigDealCulture/",
       "meta": {
-        "name": "大鵰文化 BigDealCulture",
         "id": "101638334871568",
+        "username": "BigDealCulture",
+        "name": "大鵰文化 BigDealCulture",
         "about": "大鵰文化",
-        "categories": [
-          "Bookstore"
-        ]
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
+        ],
+        "website": "https://bdcult.com/"
       }
     },
     {

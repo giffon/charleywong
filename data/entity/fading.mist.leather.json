@@ -10,13 +10,24 @@
     {
       "meta": {
         "id": "198476083532594",
+        "username": "fading.mist.leather",
+        "name": "Fading Mist Handmade Leather",
         "about": "香港手作皮革工作坊及訂做 Hong Kong Handmade Leather Workshop & Tailor-made - 查詢 enquiry: fading.mist.leather@gmail.com",
-        "categories": [
-          "Bags/luggage",
-          "Arts and crafts shop"
+        "category_list": [
+          {
+            "id": "2206",
+            "name": "Bags/Luggage"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "email": "fading.mist.leather@gmail.com",
-        "tel": "28112181"
+        "emails": [
+          "fading.mist.leather@gmail.com"
+        ],
+        "single_line_address": "Room B, 8/F, Thomson Commercial Building, 8 Thomson Road, Wan Chai, Hong Kong, Hong Kong",
+        "website": "http://www.fadingmist.com"
       },
       "url": "https://www.facebook.com/fading.mist.leather/"
     },

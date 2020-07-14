@@ -11,14 +11,20 @@
     {
       "url": "https://www.facebook.com/sakeandthings/",
       "meta": {
-        "name": "Sake & Things 酒和器",
         "id": "104222727629336",
+        "username": "sakeandthings",
+        "name": "Sake & Things 酒和器",
         "about": "《酒和器》由醉翁及小酒窩二人成立，從各地酒造和職人工場精心搜羅清酒和器物。",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "info@sakeandthings.com",
-        "tel": "61138592"
+        "emails": [
+          "info@sakeandthings.com"
+        ],
+        "website": "https://sakeandthings.com"
       }
     }
   ],

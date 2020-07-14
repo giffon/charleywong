@@ -17,17 +17,40 @@
     {
       "url": "https://www.facebook.com/ChillaxMagazine/",
       "meta": {
-        "name": "Chillax Magazine",
         "id": "108905687214885",
+        "username": "ChillaxMagazine",
+        "name": "Chillax Magazine",
         "about": "將態度從時尚、藝術帶入生活的網上平台。\nINSTAGRAM：@chillaxmagazine\n主頁：https://chillaxmagazine.com",
-        "categories": [
-          "Magazine"
+        "category_list": [
+          {
+            "id": "1307",
+            "name": "Magazine"
+          }
         ],
-        "email": "info@chillaxmagazine.com"
+        "emails": [
+          "info@chillaxmagazine.com"
+        ],
+        "website": "https://chillaxmagazine.com/"
       }
     },
     {
-      "url": "https://www.facebook.com/chillaxmagazine/"
+      "url": "https://www.facebook.com/chillaxmagazine/",
+      "meta": {
+        "id": "108905687214885",
+        "username": "ChillaxMagazine",
+        "name": "Chillax Magazine",
+        "about": "將態度從時尚、藝術帶入生活的網上平台。\nINSTAGRAM：@chillaxmagazine\n主頁：https://chillaxmagazine.com",
+        "category_list": [
+          {
+            "id": "1307",
+            "name": "Magazine"
+          }
+        ],
+        "emails": [
+          "info@chillaxmagazine.com"
+        ],
+        "website": "https://chillaxmagazine.com/"
+      }
     }
   ],
   "posts": [

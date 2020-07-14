@@ -8,15 +8,17 @@
     {
       "url": "https://www.facebook.com/teaoneshekmun/",
       "meta": {
-        "name": "Tea One 壹茶石門分店",
         "id": "238173090055189",
-        "about": "歡迎Whatsapp 預先落單.\nWhatsapp 5542 4608",
-        "categories": [
-          "Restaurant"
+        "username": "teaoneshekmun",
+        "name": "Tea One 壹茶石門分店",
+        "about": "歡迎Whatsapp 預先落單. \nWhatsapp 5542 4608",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "沙田石門安群街一號京瑞廣場2期1樓118A1舖",
-        "area": "Sha Tin, Hong Kong",
-        "tel": "55424608"
+        "single_line_address": "沙田石門安群街一號京瑞廣場2期1樓118A1舖, Sha Tin, Hong Kong"
       }
     }
   ],

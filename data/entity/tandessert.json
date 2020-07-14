@@ -13,17 +13,25 @@
     {
       "url": "https://www.facebook.com/tandessert/",
       "meta": {
-        "name": "嘆甜品",
         "id": "1488900568029635",
+        "username": "tandessert",
+        "name": "嘆甜品",
         "about": "我們誠邀你一起來嘆甜品",
-        "categories": [
-          "Dessert Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "屯門,井財街 15號, 金銘大廈地下D號鋪",
-        "area": "+852 36896865 Hong Kong",
-        "email": "foodlandhk@gmail.com",
-        "tel": "36896865"
+        "emails": [
+          "foodlandhk@gmail.com"
+        ],
+        "single_line_address": "屯門,井財街 15號, 金銘大廈地下D號鋪, +852 36896865 Hong Kong",
+        "website": "http://instagram.com/tandessert"
       }
     }
   ],

@@ -8,13 +8,27 @@
     {
       "meta": {
         "id": "570641313388881",
+        "username": "rogerchunguniverse",
+        "name": "Roger Chung 鍾一諾",
         "about": "公共衛生學者/唱作歌手/音樂監製/電台主持/廣告配音員\nA Singing Scholar",
-        "categories": [
-          "Medical and health",
-          "Arts and entertainment",
-          "Musician/band"
+        "category_list": [
+          {
+            "id": "145118935550090",
+            "name": "Medical & Health"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "email": "admin@hkchimes.com"
+        "emails": [
+          "admin@hkchimes.com"
+        ],
+        "website": "http://www.hkchimes.com/"
       },
       "url": "https://www.facebook.com/rogerchunguniverse/"
     }

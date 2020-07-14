@@ -7,14 +7,19 @@
     {
       "url": "https://www.facebook.com/Fourfeng3437/",
       "meta": {
-        "name": "燚鳳",
         "id": "590445228138616",
+        "username": "Fourfeng3437",
+        "name": "燚鳳",
         "about": "燚鳳專營健康養生產品，想透過自家製食物將幸福傳出去！�\n�可度身訂造：\n婚宴/滿月百日宴/散水/商務/節日小禮盒",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "fourfeng3437@gmail.com",
-        "tel": "90232859"
+        "emails": [
+          "fourfeng3437@gmail.com"
+        ]
       }
     }
   ],

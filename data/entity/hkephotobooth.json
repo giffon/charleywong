@@ -6,14 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "E-Photobooth",
         "id": "1392175991058384",
+        "username": "hkephotobooth",
+        "name": "E-Photobooth",
         "about": "Your BEST choice of Photobooth Rental service in Hong Kong!",
-        "categories": [
-          "Event Planner",
-          "Photographer"
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "info@e-photobooth.com.hk"
+        "emails": [
+          "info@e-photobooth.com.hk"
+        ],
+        "single_line_address": "Kowloon, Hong Kong",
+        "website": "http://www.e-photobooth.com.hk"
       },
       "url": "https://www.facebook.com/hkephotobooth/"
     },

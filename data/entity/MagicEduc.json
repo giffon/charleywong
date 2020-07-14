@@ -18,16 +18,21 @@
     {
       "url": "https://www.facebook.com/MagicEduc/",
       "meta": {
-        "name": "Magic Education - 壹席教育",
         "id": "715060998571143",
-        "about": "小三 至 中六：英文 及 數學 ; 功課輔導 ; 成人英語",
-        "categories": [
-          "Education"
+        "username": "MagicEduc",
+        "name": "Magic Education - 壹席教育",
+        "about": "小三 至 中六：英文 及 數學 ; \n功課輔導 ; \n成人英語",
+        "category_list": [
+          {
+            "id": "2601",
+            "name": "School"
+          }
         ],
-        "addr": "馬鞍山新港城中心大街(一期)地下4號舖",
-        "area": "Hong Kong",
-        "email": "magic1educ@gmail.com",
-        "tel": "96297673"
+        "emails": [
+          "magic1educ@gmail.com"
+        ],
+        "single_line_address": "馬鞍山新港城中心大街(一期)地下4號舖, Hong Kong",
+        "website": "magic1educ.wixsite.com/home"
       }
     },
     {

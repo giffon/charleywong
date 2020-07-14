@@ -7,18 +7,29 @@
     {
       "url": "https://www.facebook.com/crispybistro/",
       "meta": {
-        "name": "Crispy Bistro",
         "id": "600332750072798",
-        "about": "Wine l Coffee l Waffle l Crepe l All Day Breakfast",
-        "categories": [
-          "Cafe",
-          "Restaurant",
-          "Bar"
+        "username": "crispybistro",
+        "name": "Crispy Bistro",
+        "about": "Wine l Coffee l Waffle l Crepe l All Day Breakfast ",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          }
         ],
-        "addr": "No. 32 Second Street, Sai Ying Pun",
-        "area": "000 Hong Kong",
-        "email": "info@crispybistro.com",
-        "tel": "25409166"
+        "emails": [
+          "info@crispybistro.com"
+        ],
+        "single_line_address": "No. 32 Second Street, Sai Ying Pun, 000 Hong Kong",
+        "website": "https://www.facebook.com/CrispyBistro"
       }
     },
     {

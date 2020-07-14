@@ -10,48 +10,66 @@
     {
       "url": "https://www.facebook.com/atumrestaurant/",
       "meta": {
-        "name": "ATUM Restaurant",
         "id": "525584490949334",
+        "username": "atumrestaurant",
+        "name": "ATUM Restaurant",
         "about": "ATUM Restaurant提供簡約北歐風格的概念餐廳。餐廳除了提供最受客人歡迎的精緻甜品外，更有煥然一新的藝術海鮮拼盤，適合慶祝生日、紀念日及海外遊客前來享受全新的餐飲體驗。",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "尖沙咀河內道18號K11購物藝術館1樓101B號舖",
-        "area": "Hong Kong",
-        "email": "atum@atumhk.com",
-        "tel": "35861959"
+        "emails": [
+          "atum@atumhk.com"
+        ],
+        "single_line_address": "尖沙咀河內道18號K11購物藝術館1樓101B號舖, Hong Kong",
+        "website": "http://www.atumhk.com"
       }
     },
     {
       "url": "https://www.facebook.com/atumrestaurantk11/",
       "meta": {
-        "name": "ATUM Restaurant",
         "id": "139358150133106",
+        "username": "atumrestaurantk11",
+        "name": "ATUM Restaurant",
         "about": "ATUM Restaurant提供簡約北歐風格的概念餐廳。餐廳除了提供最受客人歡迎的精緻甜品外，更有煥然一新的藝術海鮮拼盤，適合慶祝生日、紀念日及海外遊客前來享受全新的餐飲體驗。",
-        "categories": [
-          "Restaurant",
-          "Dessert Shop"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "尖沙咀河內道18號K11購物藝術館1樓101B號舖",
-        "area": "Hong Kong",
-        "email": "atum@atumhk.com",
-        "tel": "35861959"
+        "emails": [
+          "atum@atumhk.com"
+        ],
+        "single_line_address": "尖沙咀河內道18號K11購物藝術館1樓101B號舖, Hong Kong",
+        "website": "https://www.atumhk.com"
       },
       "hidden": true
     },
     {
       "url": "https://www.facebook.com/atumchampak/",
       "meta": {
-        "name": "青花 ATUM Champak Restaurant",
         "id": "834849203358552",
+        "username": "atumchampak",
+        "name": "青花 ATUM Champak Restaurant",
         "about": "青花 ATUM Champak Restaurant 提供東南亞菜式。適合慶祝生日、紀念日及海外遊客前來享受全新的餐飲體驗。",
-        "categories": [
-          "Thai Restaurant"
+        "category_list": [
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          }
         ],
-        "addr": "Shop107-108 1/F The Forest 17 Nelson Street Mongkok",
-        "area": "Hong Kong",
-        "email": "atum@atumhk.com",
-        "tel": "34682558"
+        "emails": [
+          "atum@atumhk.com"
+        ],
+        "single_line_address": "Shop107-108 1/F The Forest 17 Nelson Street Mongkok, Hong Kong",
+        "website": "http://www.atumhk.com"
       }
     },
     {

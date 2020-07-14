@@ -7,17 +7,29 @@
   "webpages": [
     {
       "meta": {
-        "about": "香港第一間天然藍染布工房，來自台灣的布料跟藍草提煉的藍泥做出最原始最有感覺的藍色小物。\n同時藍染體驗班也開始接受預約。",
-        "categories": [
-          "Textile company",
-          "Advertising/marketing",
-          "Travel and transport"
+        "id": "631803833564987",
+        "username": "lantaublue",
+        "name": "片藍造 Indigo 11.50",
+        "about": "香港第一間天然藍染布工房，來自台灣的布料跟藍草提煉的藍泥做出最原始最有感覺的藍色小物。\n同時藍染體驗班也開始接受預約。 ",
+        "category_list": [
+          {
+            "id": "185512691489656",
+            "name": "Textile Company"
+          },
+          {
+            "id": "1757592557789532",
+            "name": "Advertising/Marketing"
+          },
+          {
+            "id": "128232937246338",
+            "name": "Travel & Transportation"
+          }
         ],
-        "addr": "26 , Tai Long Wan , Shek pik , Lantau",
-        "area": "Hong Kong",
-        "email": "maxmaxs0@yahoo.com.hk",
-        "tel": "68391024",
-        "id": "631803833564987"
+        "emails": [
+          "maxmaxs0@yahoo.com.hk"
+        ],
+        "single_line_address": "26 , Tai Long Wan  , Shek pik , Lantau, Hong Kong Hong Kong",
+        "website": "www.lantaublue.com"
       },
       "url": "https://www.facebook.com/lantaublue/"
     }

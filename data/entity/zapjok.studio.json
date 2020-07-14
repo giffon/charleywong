@@ -7,16 +7,25 @@
   "webpages": [
     {
       "meta": {
+        "id": "828967090476973",
+        "username": "zapjok.studio",
+        "name": "習作工作室 zapjok studio",
         "about": "生 活 就 是 每 天 的 習 作 。",
-        "categories": [
-          "Art gallery",
-          "Art"
+        "category_list": [
+          {
+            "id": "197384240287028",
+            "name": "Art Gallery"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "addr": "1/f, 85 Fuk Wa Street, Sham Shui Po,",
-        "area": "Hong Kong",
-        "email": "zapjok85@gmail.com",
-        "tel": "93816260",
-        "id": "828967090476973"
+        "emails": [
+          "zapjok.hk@gmail.com"
+        ],
+        "single_line_address": "1/f, 85 Fuk Wa Street, Sham Shui Po,, +852 Hong Kong",
+        "website": "https://www.zapjok.com"
       },
       "url": "https://www.facebook.com/zapjok.studio/"
     }

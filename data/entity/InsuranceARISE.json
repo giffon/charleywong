@@ -11,12 +11,23 @@
     {
       "meta": {
         "id": "475458155963208",
+        "username": "InsuranceARISE",
+        "name": "保險起動 Insurance ARISE",
         "about": "保險起動提供業界政見表達平台，推動香港民主發展。",
-        "categories": [
-          "Community",
-          "Political organisation"
+        "category_list": [
+          {
+            "id": "373543049350668",
+            "name": "Political Organization"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "insurancearise@gmail.com"
+        "emails": [
+          "insurancearise@gmail.com"
+        ],
+        "website": "t.me/insuranceARISEchannel"
       },
       "url": "https://www.facebook.com/InsuranceARISE/"
     },

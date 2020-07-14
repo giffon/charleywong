@@ -10,16 +10,28 @@
     {
       "meta": {
         "id": "320022341797284",
-        "about": "Start your once-in-a-lifetime experience with a bespoke #WEDDING HASHTAG",
-        "categories": [
-          "Wedding planning service",
-          "Bridal shop",
-          "Wedding venue"
+        "username": "wedding.hashtag",
+        "name": "Wedding Hashtag Production - Wedding Decoration",
+        "about": "Start your once-in-a-lifetime experience with a bespoke  #WEDDING HASHTAG",
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          },
+          {
+            "id": "1698627513779470",
+            "name": "Wedding Venue"
+          }
         ],
-        "addr": "Unit 13 of De Cue, 1/F Hewlett Centre, NOS 52-54, Hoi Yuen Road, Kwun Tong",
-        "area": "Hong Kong",
-        "email": "info@weddinghashtag.hk",
-        "tel": "21092399"
+        "emails": [
+          "info@weddinghashtag.hk"
+        ],
+        "single_line_address": "The Aisle, 6/F, Shui Hong Industrial Building Nos. 543/549, Castle Peak Rd, Kwai Chung, Hong Kong",
+        "website": "http://www.weddinghashtag.hk"
       },
       "url": "https://www.facebook.com/wedding.hashtag/"
     }

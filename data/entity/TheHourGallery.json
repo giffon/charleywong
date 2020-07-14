@@ -9,14 +9,20 @@
     },
     {
       "meta": {
-        "name": "The Hour Gallery",
         "id": "1697020067183787",
+        "username": "TheHourGallery",
+        "name": "The Hour Gallery",
         "about": "The Hour Gallery provides professional photography service\n- wedding photography\n- engagement portrait\n- professional portrait\n- family portrait",
-        "categories": [
-          "Camera/Photo"
+        "category_list": [
+          {
+            "id": "2208",
+            "name": "Camera/Photo"
+          }
         ],
-        "email": "info@thehourgallery.com",
-        "tel": "98103466"
+        "emails": [
+          "info@thehourgallery.com"
+        ],
+        "website": "http://www.thehourgallery.com"
       },
       "url": "https://www.facebook.com/TheHourGallery/"
     },

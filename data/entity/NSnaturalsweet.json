@@ -13,15 +13,18 @@
     },
     {
       "meta": {
-        "name": "甜圓 NaturalSweet",
         "id": "1646801352013901",
+        "username": "NSnaturalsweet",
+        "name": "甜圓 NaturalSweet",
         "about": "甜圓 - 台式豆花, 手工芋圓專賣店\n\n我們相信，沒有比堅持手工製作，更能展現芋圓的美。\n取用天然的素材，每一下搓揉，感受它，塑造它。\n甜韻穿頰，粹之成圓。",
-        "categories": [
-          "Dessert Shop"
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "葵芳葵涌廣場 1樓65A",
-        "area": "Hong Kong",
-        "tel": "61059839"
+        "single_line_address": "Hong Kong",
+        "website": "https://www.instagram.com/nsnaturalsweet/"
       },
       "url": "https://www.facebook.com/NSnaturalsweet/"
     }

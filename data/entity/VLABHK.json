@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/VLABHK/",
       "meta": {
-        "name": "V LAB",
         "id": "335125200201815",
+        "username": "VLABHK",
+        "name": "V LAB",
         "about": "Barbershop, 髮型用品 , 男士用品",
-        "categories": [
-          "Shopping & Retail",
-          "Product/Service",
-          "Barber Shop"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          }
         ],
-        "addr": "記利左治街2-10號 銅鑼灣地帶商場103號鋪",
-        "area": "Causeway Bay",
-        "email": "info@vlabhk.com",
-        "tel": "95770888"
+        "emails": [
+          "cs@vlab.com.hk"
+        ],
+        "single_line_address": "記利左治街2-10號 銅鑼灣地帶商場103號鋪, 852 Causeway Bay",
+        "website": "http://www.vlab.com.hk"
       }
     },
     {

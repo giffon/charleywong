@@ -10,11 +10,19 @@
     {
       "meta": {
         "id": "1855418728011324",
+        "username": "mirrormediamg",
+        "name": "鏡週刊",
         "about": "《鏡週刊》以「鏡」為名，務求反映事實、時代與人性，一直與你並肩，挖掘真相，鏡往開來。",
-        "categories": [
-          "Media/news company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "mirror885@mirrormedia.mg"
+        "emails": [
+          "mirror885@mirrormedia.mg"
+        ],
+        "website": "https://www.mirrormedia.mg/"
       },
       "url": "https://www.facebook.com/mirrormediamg/"
     }

@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/elchkgyc/",
       "meta": {
-        "name": "鞍山探索館",
         "id": "590886767656784",
+        "username": "elchkgyc",
+        "name": "鞍山探索館",
         "about": "信義會恩青營(鞍山探索館)\n本館設公眾開放為逢星期六、日或特定公眾假期：10:00am-5:00pm\n\n前往方法：於新港城中心第四期地下(鞍祿街) 村巴站乘坐NR84 或 的士站乘搭新界的士",
-        "categories": [
-          "Cultural Center",
-          "Non-Governmental Organization (NGO)",
-          "Community Organization"
+        "category_list": [
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          },
+          {
+            "id": "619759428190024",
+            "name": "Cultural Center"
+          },
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          }
         ],
-        "addr": "馬鞍山村35號",
-        "area": "Ma On Shan, Hong Kong",
-        "email": "gyc@elchk.org.hk",
-        "tel": "34211436"
+        "emails": [
+          "gyc@elchk.org.hk"
+        ],
+        "single_line_address": "馬鞍山村35號, Ma On Shan, Hong Kong",
+        "website": "http://gyc.elchk.org.hk/"
       }
     },
     {

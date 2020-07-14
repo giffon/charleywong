@@ -6,15 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Wedding MC Ego",
         "id": "104277483041508",
+        "username": "WeddingMcEgo",
+        "name": "Wedding MC Ego",
         "about": "If you're just looking for standard, here's NOT for you",
-        "categories": [
-          "Artist",
-          "Wedding Planning Service"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "email": "egowan@gmail.com",
-        "tel": "62898338"
+        "emails": [
+          "egowan@gmail.com"
+        ],
+        "website": "http://wow.esdlife.com/mcego"
       },
       "url": "https://www.facebook.com/WeddingMcEgo/"
     }

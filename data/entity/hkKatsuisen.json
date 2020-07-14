@@ -7,12 +7,17 @@
     {
       "url": "https://www.facebook.com/hkKatsuisen/",
       "meta": {
-        "name": "活一鮮",
         "id": "271799415490",
+        "username": "hkKatsuisen",
+        "name": "活一鮮",
         "about": "用心的製作是我們的一份堅持!顧客的支持更是我們的最大鼓勵!",
-        "categories": [
-          "Japanese Restaurant"
-        ]
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
+        ],
+        "single_line_address": "G/F, 503 Queen's Road West, Sai Wan & G/F, Tung Fat Bldg, 21A Kam Ping Street, North Point"
       }
     }
   ],

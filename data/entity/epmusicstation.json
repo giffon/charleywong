@@ -10,12 +10,20 @@
     {
       "meta": {
         "id": "553691938114904",
-        "about": "EP Music Station 主要提供現場樂隊演奏服務、音響及樂器租賃服務。",
-        "categories": [
-          "Musician/band"
+        "username": "epmusicstation",
+        "name": "EP Music Station",
+        "about": "EP Music Station 主要提供現場樂隊演奏服務、音響及樂器租賃服務。\n",
+        "category_list": [
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "email": "epmusicstation@gmail.com",
-        "tel": "67590168"
+        "emails": [
+          "epmusicstation@gmail.com"
+        ],
+        "single_line_address": "華星街8號華達工業大廈B座15樓1506室, 852",
+        "website": "http://www.epmusicstation.com"
       },
       "url": "https://www.facebook.com/epmusicstation/"
     }

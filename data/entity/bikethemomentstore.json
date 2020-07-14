@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/bikethemomentstore/",
       "meta": {
-        "name": "Bike The Moment Store 髦民士多",
         "id": "703352863065026",
+        "username": "bikethemomentstore",
+        "name": "Bike The Moment Store 髦民士多",
         "about": "有單車的生活才是好生活",
-        "categories": [
-          "Bicycle Shop",
-          "Lifestyle Service"
+        "category_list": [
+          {
+            "id": "128003127270269",
+            "name": "Bicycle Shop"
+          },
+          {
+            "id": "360320934014496",
+            "name": "Lifestyle Service"
+          }
         ],
-        "addr": "Unit A6, 12/F, Mai Hing Industrial Building Block A, 16-18 Hing Yip Street, Kwun Tong, Hong Kong",
-        "area": "00000 Hong Kong",
-        "email": "store@bikethemoment.com",
-        "tel": "93128538"
+        "emails": [
+          "store@bikethemoment.com"
+        ],
+        "single_line_address": "Unit A6, 12/F, Mai Hing Industrial Building Block A, 16-18 Hing Yip Street, Kwun Tong, Hong Kong, 00000 Hong Kong",
+        "website": "http://store.bikethemoment.com"
       }
     },
     {

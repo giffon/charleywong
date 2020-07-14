@@ -10,14 +10,24 @@
     {
       "url": "https://www.facebook.com/winandmachk/",
       "meta": {
-        "name": "Winandmac Media",
         "id": "121622707864693",
+        "username": "winandmachk",
+        "name": "Winandmac Media",
         "about": "winandmac.com以最激最直接最敢講的方式報道新聞。\n\nhttps://www.winandmac.com/",
-        "categories": [
-          "Media/News Company",
-          "News & Media Website"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          },
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
         ],
-        "email": "tips-hk@winandmac.com"
+        "emails": [
+          "tips-hk@winandmac.com"
+        ],
+        "website": "https://www.winandmac.com"
       }
     },
     {

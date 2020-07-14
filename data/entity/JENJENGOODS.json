@@ -6,14 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "jenjengoods.com 真正好生活百貨",
         "id": "318380865662216",
-        "about": "Jenjengoods生活百貨團隊主力為大家於日韓台等地，搜羅多種生活品味與實用兼備嘅產品，希望可以幫助大家生活得更健康自在。亦同時承諾每月捐出部份營業額作慈善用途。",
-        "categories": [
-          "Product/Service"
+        "username": "JENJENGOODS",
+        "name": "jenjengoods.com 真正好生活百貨",
+        "about": "   Jenjengoods生活百貨團隊主力為大家於日韓台等地，搜羅多種生活品味與實用兼備嘅產品，希望可以幫助大家生活得更健康自在。亦同時承諾每月捐出部份營業額作慈善用途。\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "cs@jenjengoods.com",
-        "tel": "60362484"
+        "emails": [
+          "cs@jenjengoods.com"
+        ],
+        "website": "www.jenjengoods.com"
       },
       "url": "https://www.facebook.com/JENJENGOODS/"
     },

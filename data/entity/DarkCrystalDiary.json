@@ -7,13 +7,23 @@
   "webpages": [
     {
       "meta": {
-        "about": "大家好，歡迎來到我的黑暗水晶日記，有我的插圖、生活照片和更多，希望這些不會打擾你很多...至少我可以分享這些回憶。",
-        "categories": [
-          "Art",
-          "Personal blog"
+        "id": "2004824633088145",
+        "username": "DarkCrystalDiary",
+        "name": "暗い影．黑色少年之日記",
+        "about": "大家好，歡迎來到我的黑暗水晶日記",
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "chiwailam181@yahoo.com.hk",
-        "id": "2004824633088145"
+        "emails": [
+          "chiwailam181@yahoo.com.hk"
+        ]
       },
       "url": "https://www.facebook.com/DarkCrystalDiary/"
     },

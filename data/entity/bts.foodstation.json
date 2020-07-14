@@ -7,11 +7,15 @@
     {
       "meta": {
         "id": "731800710519852",
-        "categories": [
-          "Bunsik restaurant"
+        "username": "bts.foodstation",
+        "name": "BTS 美食站",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "九龍城南角道11號地下",
-        "area": "Kowloon, Hong Kong"
+        "single_line_address": "九龍城南角道11號地下, 852 Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/bts.foodstation/"
     }

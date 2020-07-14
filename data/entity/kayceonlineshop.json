@@ -10,12 +10,20 @@
     {
       "meta": {
         "id": "1455841937970909",
-        "about": "Come & visit your Wardrobe!ALL FROM KOREA 尖沙咀厚福街宏生大廈The Studio 3/F Shop 331 (許留山斜對面)\nInstagram: Kayce_closet\nWhatsapp/Wechat: 9040 7628",
-        "categories": [
-          "Clothing (brand)"
+        "username": "kayceonlineshop",
+        "name": "KAYCE Online Shop",
+        "about": "Come & visit your Wardrobe!ALL FROM KOREA 尖沙咀厚福街宏生大廈The Studio 3/F Shop 331 (許留山斜對面)\nInstagram: Kayce_closet\nWhatsapp/Wechat: 9040 7628\n",
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "email": "kaycewardrobe@gmail.com",
-        "tel": "90407628"
+        "emails": [
+          "kaycewardrobe@gmail.com"
+        ],
+        "single_line_address": "厚福街宏生大廈331, Tsim Sha Tsui",
+        "website": "http://www.instagram.com/kayce_closet"
       },
       "url": "https://www.facebook.com/kayceonlineshop/"
     }

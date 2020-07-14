@@ -11,14 +11,20 @@
     {
       "meta": {
         "id": "117018188983",
+        "username": "hkfcs",
+        "name": "香港電影評論學會 Hong Kong Film Critics Society",
         "about": "香港電影評論學會於1995年三月正式成立，為香港首個由影評人組成的文化組織，亦為國際影評人聯盟（FIPRESCI）成員之一。",
-        "categories": [
-          "Organisation"
+        "category_list": [
+          {
+            "id": "2600",
+            "name": "Organization"
+          }
         ],
-        "addr": "Unit 08, Level 6, JCCAC, 30 Pak Tin St, Shek Kip Mei, Kln",
-        "area": "Hong Kong",
-        "email": "info@filmcritics.org.hk",
-        "tel": "25755149"
+        "emails": [
+          "info@filmcritics.org.hk"
+        ],
+        "single_line_address": "Unit 08, Level 6, JCCAC, 30 Pak Tin St, Shek Kip Mei, Kln, Hong Kong",
+        "website": "http://www.filmcritics.org.hk/"
       },
       "url": "https://www.facebook.com/hkfcs/"
     },

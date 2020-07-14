@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/weahkers/",
       "meta": {
-        "name": "港人港店",
         "id": "114398963286130",
+        "username": "weahkers",
+        "name": "港人港店",
         "about": "We union , We Fight , We Revenge!",
-        "categories": [
-          "Local Business"
-        ]
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
+        ],
+        "website": "https://www.weahker.com"
       }
     }
   ],

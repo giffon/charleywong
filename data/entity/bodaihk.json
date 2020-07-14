@@ -7,14 +7,17 @@
     {
       "url": "https://www.facebook.com/bodaihk/",
       "meta": {
-        "name": "Bodaihk",
         "id": "106082640770593",
+        "username": "bodaihk",
+        "name": "Bodaihk",
         "about": "Bodai HK.\nGFHG SDGM / 5DSK K1BH.",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "The Chinese University of Hong Kong",
-        "area": "Hong Kong"
+        "single_line_address": "The Chinese University of Hong Kong, Hong Kong"
       }
     }
   ],

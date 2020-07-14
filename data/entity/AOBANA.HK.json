@@ -7,16 +7,28 @@
     {
       "meta": {
         "id": "643716822720789",
+        "username": "AOBANA.HK",
+        "name": "青花亭",
         "about": "定位請電洽詢問，謝謝！�",
-        "categories": [
-          "Restaurant",
-          "Brand",
-          "Coffee shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          }
         ],
-        "addr": "荔枝角道113號",
-        "area": "Hong Kong",
-        "email": "aobana.hk@gmail.com",
-        "tel": "35903457"
+        "emails": [
+          "aobana.hk@gmail.com"
+        ],
+        "single_line_address": "荔枝角道113號, 000 Hong Kong",
+        "website": "https://instagram.com/aobana.hk"
       },
       "url": "https://www.facebook.com/AOBANA.HK/"
     },

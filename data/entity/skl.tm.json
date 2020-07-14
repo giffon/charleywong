@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/skl.tm/",
       "meta": {
-        "name": "新金輪鋁窗工程",
         "id": "380493122291339",
+        "username": "skl.tm",
+        "name": "新金輪鋁窗工程",
         "about": "專營!!屋宇署強制驗窗,更換鋁窗,改裝鋁窗,維修鋁窗,外牆防漏",
-        "categories": [
-          "Home Improvement"
+        "category_list": [
+          {
+            "id": "108427109235243",
+            "name": "Home Improvement"
+          }
         ],
-        "addr": "屯門海榮路22號,屯門中央廣場地下15舖",
-        "area": "Hong Kong",
-        "tel": "54055999"
+        "single_line_address": "屯門海榮路22號,屯門中央廣場地下15舖, Hong Kong"
       }
     }
   ],

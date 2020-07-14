@@ -6,14 +6,28 @@
   "webpages": [
     {
       "meta": {
+        "id": "202284699897999",
+        "username": "rickloillustration",
+        "name": "Rickubic",
         "about": "Through illustrations, I try to define, share and convey meanings with the contrast of lines, calling for reflections of the bright and dark sides. Whatever hidden in the illustrations are for the audience to interpret.",
-        "categories": [
-          "Artist",
-          "Art",
-          "Visual arts"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "1080612391976317",
+            "name": "Visual Arts"
+          }
         ],
-        "email": "rick.lo@rickubic.com",
-        "id": "202284699897999"
+        "emails": [
+          "rick.lo@rickubic.com"
+        ],
+        "website": "https://www.rickubic.com/"
       },
       "url": "https://www.facebook.com/rickloillustration/"
     }

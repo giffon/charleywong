@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/fencingformula/",
       "meta": {
-        "name": "劍擊Formula - 兒童劍擊及心態調整課程（兒童遊戲治療課程）",
         "id": "182730142060429",
+        "username": "fencingformula",
+        "name": "劍擊Formula - 兒童劍擊及心態調整課程（兒童遊戲治療課程）",
         "about": "【兒童劍擊及心態調整課程】我們的導師都有心理咨詢師資格。而我們的主旨是「以劍入道」，找個人教劍擊很容易，但我們除了教劍擊，更重要的是教小朋友做人。",
-        "categories": [
-          "Sports Club",
-          "Psychotherapist",
-          "School"
+        "category_list": [
+          {
+            "id": "189018581118681",
+            "name": "Sports Club"
+          },
+          {
+            "id": "872817116184676",
+            "name": "Psychotherapist"
+          },
+          {
+            "id": "2601",
+            "name": "School"
+          }
         ],
-        "addr": "Office 1, 13/F, Rightful Centre, 12 Tak Hing Street, Jordan, Kowloon, Hong Kong",
-        "area": "Hong Kong",
-        "email": "info@fencingformula.com",
-        "tel": "31580954"
+        "emails": [
+          "info@fencingformula.com"
+        ],
+        "single_line_address": "Office 1, 13/F, Rightful Centre, 12 Tak Hing Street, Jordan, Kowloon, Hong Kong, HKSAR Hong Kong",
+        "website": "http://www.fencingformula.com"
       }
     }
   ],

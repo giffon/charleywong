@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/foodrecycling/",
       "meta": {
-        "name": "食德好 Food Grace",
         "id": "162762027087506",
+        "username": "foodrecycling",
+        "name": "食德好 Food Grace",
         "about": "http://www.foodgrace.com",
-        "categories": [
-          "Non-Governmental Organization (NGO)"
+        "category_list": [
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          }
         ],
-        "addr": "大埔太和邨翠和樓地下大埔職工盟培訓中心",
-        "area": "Hong Kong",
-        "email": "foodrecycling@hkctu.org.hk",
-        "tel": "39725262"
+        "emails": [
+          "foodrecycling@hkctu.org.hk"
+        ],
+        "single_line_address": "大埔太和邨翠和樓地下大埔職工盟培訓中心, Hong Kong",
+        "website": "http://www.foodgrace.com"
       }
     }
   ],

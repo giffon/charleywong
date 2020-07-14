@@ -13,14 +13,20 @@
     {
       "url": "https://www.facebook.com/daysbookstore/",
       "meta": {
-        "name": "日子書店",
         "id": "109640100728416",
+        "username": "daysbookstore",
+        "name": "日子書店",
         "about": "日子書店",
-        "categories": [
-          "Bookstore"
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
         ],
-        "email": "daysbookstorehk@gmail.com",
-        "tel": "94431485"
+        "emails": [
+          "daysbookstorehk@gmail.com"
+        ],
+        "website": "https://days.boutir.com"
       }
     },
     {

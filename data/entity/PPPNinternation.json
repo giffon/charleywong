@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/PPPNinternation/",
       "meta": {
-        "name": "PPPN international",
         "id": "107101437320990",
+        "username": "PPPNinternation",
+        "name": "PPPN international",
         "about": "Online news and information",
-        "categories": [
-          "News & Media Website"
+        "category_list": [
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
         ],
-        "email": "pppnint@gmail.com"
+        "emails": [
+          "pppnint@gmail.com"
+        ],
+        "website": "http://t.me/pppnewstg"
       }
     }
   ],

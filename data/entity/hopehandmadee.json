@@ -6,13 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "Hope handmade",
         "id": "530969480414902",
+        "username": "hopehandmadee",
+        "name": "Hope handmade",
         "about": "店主偶爾做做不同手作搜羅不同布料\n與大家一起分享手作的快樂\n每件作品都係全人手製作 剪裁 車縫\n用心製作希望大家都感受到",
-        "categories": [
-          "Arts & Crafts Store"
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "tel": "63545389"
+        "single_line_address": "23-31 號工業街美聯工業大廈15樓C8室, Kwai Chung"
       },
       "url": "https://www.facebook.com/hopehandmadee/"
     }

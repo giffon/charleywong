@@ -10,11 +10,28 @@
     {
       "meta": {
         "id": "1095482623825883",
+        "username": "apostlesmedia",
+        "name": "門徒媒體",
         "about": "拒絕盲目跟從, 堅持聖經公義\n各類新聞稿、採訪通知及投稿，請電郵至editorial@apostlesmedia.com",
-        "categories": [
-          "Local service"
+        "category_list": [
+          {
+            "id": "170386086340798",
+            "name": "Church of God"
+          },
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          },
+          {
+            "id": "1314020451960517",
+            "name": "Media"
+          }
         ],
-        "email": "editorial@apostlesmedia.com"
+        "emails": [
+          "editorial@apostlesmedia.com"
+        ],
+        "single_line_address": "香港",
+        "website": "http://www.apostlesmedia.com"
       },
       "url": "https://www.facebook.com/apostlesmedia/"
     }

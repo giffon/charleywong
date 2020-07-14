@@ -10,13 +10,21 @@
     {
       "url": "https://www.facebook.com/Todayzphotography/",
       "meta": {
-        "name": "Todayz Photography",
         "id": "119413141415202",
+        "username": "Todayzphotography",
+        "name": "Todayz Photography",
         "about": "Photography & Lifestyle experiment\nFind us on: www.todayzphotography.net",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "todayz_photography@yahoo.com.hk"
+        "emails": [
+          "todayz_photography@yahoo.com.hk"
+        ],
+        "single_line_address": "Shatin NT, Hong Kong",
+        "website": "http://www.todayzphotography.net"
       }
     },
     {

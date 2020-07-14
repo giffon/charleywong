@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/kidzwagon/",
       "meta": {
-        "name": "Kidz Wagon",
         "id": "150175412004616",
+        "username": "kidzwagon",
+        "name": "Kidz Wagon",
         "about": "we specialise in made-in-Japan and limited edition children's clothing for 0-2yrs, toys and accessories",
-        "categories": [
-          "Baby & Children's Clothing Store"
+        "category_list": [
+          {
+            "id": "192614304101075",
+            "name": "Baby & Children's Clothing Store"
+          }
         ],
-        "addr": "21/f, 39 Yiu Wa Street",
-        "area": "0000 Causeway Bay",
-        "email": "hello@kidzwagon.com",
-        "tel": "67746567"
+        "emails": [
+          "hello@kidzwagon.com"
+        ],
+        "single_line_address": "21/f, 39 Yiu Wa Street, 0000 Causeway Bay",
+        "website": "http://www.kidzwagon.com"
       }
     },
     {

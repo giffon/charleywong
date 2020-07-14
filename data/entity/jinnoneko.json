@@ -7,14 +7,22 @@
   "webpages": [
     {
       "meta": {
-        "name": "Jinno Neko 神野猫",
         "id": "279914545362892",
+        "name": "Jinno Neko 神野猫",
         "about": "Bamboo framework artist and Illustrator",
-        "categories": [
-          "Artist",
-          "News & Media Website"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
         ],
-        "email": "jinnoneko@gmail.com"
+        "emails": [
+          "jinnoneko@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/279914545362892/"
     },

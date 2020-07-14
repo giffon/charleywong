@@ -17,15 +17,24 @@
     {
       "url": "https://www.facebook.com/B4xAF/",
       "meta": {
-        "name": "B4AF Limited.",
         "id": "548316325314585",
+        "username": "B4xAF",
+        "name": "B4AF Limited.",
         "about": "B4AF Ltd.\n有意者請INBOX, 會盡快回覆閣下\n- 室內設計\n- 傢俬設計\n- 裝飾佈置\n- 裝修工程\n- Project Management",
-        "categories": [
-          "House Painting",
-          "Interior Design Studio"
+        "category_list": [
+          {
+            "id": "1596337297362924",
+            "name": "House Painting"
+          },
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          }
         ],
-        "email": "info.b4af@gmail.com",
-        "tel": "54000353"
+        "emails": [
+          "info.b4af@gmail.com"
+        ],
+        "website": "http://www.b4xaf.com"
       }
     }
   ],

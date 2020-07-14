@@ -8,11 +8,15 @@
     {
       "url": "https://www.facebook.com/YellYellMeow/",
       "meta": {
-        "name": "黃喵喵 YellYell Meow",
         "id": "111785353605638",
+        "username": "YellYellMeow",
+        "name": "黃喵喵 YellYell Meow",
         "about": "這裏主要分享黃喵喵日常，刁蠻任性的每一天",
-        "categories": [
-          "Author"
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          }
         ]
       }
     }

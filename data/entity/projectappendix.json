@@ -14,17 +14,26 @@
     {
       "url": "https://www.facebook.com/projectappendix/",
       "meta": {
-        "name": "Appendix Coffee & Bar",
         "id": "2114840055198262",
+        "username": "projectappendix",
+        "name": "Appendix Coffee & Bar",
         "about": "Appendix Coffee & Bar",
-        "categories": [
-          "Bar",
-          "Restaurant",
-          "Cafe"
+        "category_list": [
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
         ],
-        "addr": "3/F, Tower 535, 535 Jaffe Road, Causeway Bay",
-        "area": "Hong Kong",
-        "tel": "31022001"
+        "single_line_address": "3/F, Tower 535, 535 Jaffe Road, Causeway Bay, Hong Kong",
+        "website": "https://www.instagram.com/project_appendix/"
       }
     }
   ],

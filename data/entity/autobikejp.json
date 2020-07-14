@@ -11,16 +11,23 @@
     {
       "url": "https://www.facebook.com/1519071764992154/",
       "meta": {
-        "name": "Auto Bike J.P. 瀛車館",
         "id": "1519071764992154",
-        "categories": [
-          "Motorcycle Dealership",
-          "Shopping & Retail"
+        "name": "Auto Bike J.P. 瀛車館",
+        "category_list": [
+          {
+            "id": "150820404974203",
+            "name": "Motorcycle Dealership"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "土瓜灣道94號美華工業中心地下",
-        "area": "Kowloon, Hong Kong",
-        "email": "support@autobikejp.hk",
-        "tel": "27126779"
+        "emails": [
+          "support@autobikejp.hk"
+        ],
+        "single_line_address": "土瓜灣道94號美華工業中心地下, Kowloon, Hong Kong",
+        "website": "http://www.autobikejp.com"
       }
     }
   ],

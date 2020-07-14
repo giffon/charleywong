@@ -11,16 +11,22 @@
     {
       "url": "https://www.facebook.com/undervacuum/",
       "meta": {
-        "name": "Under Vacuum - 慢煮工業",
         "id": "150585991940378",
+        "username": "undervacuum",
+        "name": "Under Vacuum - 慢煮工業",
         "about": "Visit us for wonderful sous vide food!\n\nThe Hangout - 19 Poplar Street, Prince Edward,\nThe Steak - 91 Prince Edward Road West, Kln",
-        "categories": [
-          "Deli",
-          "Steakhouse"
+        "category_list": [
+          {
+            "id": "188334264523313",
+            "name": "Deli"
+          },
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          }
         ],
-        "addr": "91 Prince Edward Road West, Kowloon",
-        "area": "000 Kowloon, Hong Kong",
-        "tel": "56903290"
+        "single_line_address": "91 Prince Edward Road West, Kowloon, 000 Kowloon, Hong Kong",
+        "website": "http://www.undervacuum.hk"
       }
     },
     {

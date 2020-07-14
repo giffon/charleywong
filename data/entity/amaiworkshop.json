@@ -9,14 +9,22 @@
     },
     {
       "meta": {
-        "name": "Amai workshop",
         "id": "783877828374468",
+        "username": "amaiworkshop",
+        "name": "Amai workshop",
         "about": "�名額先到先得，匯款確定為實�盡力48小時內回覆所有查詢，只限Faceboo或 Instagram 查詢，不回任何whatsapp、電郵或電話查詢，多謝耐心等候。\n\nFood Factory Licence No.: 4992808057",
-        "categories": [
-          "Kitchen/Cooking",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "info@amaiworkshop.com"
+        "single_line_address": "Wah Lik Industrial Centre, Tsuen Wan, Hong Kong",
+        "website": "http://amaiworkshop.com/"
       },
       "url": "https://www.facebook.com/amaiworkshop/"
     },

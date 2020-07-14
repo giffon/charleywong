@@ -6,13 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "亞囉哈滑沙.",
         "id": "195232227322820",
+        "username": "alohawasa",
+        "name": "亞囉哈滑沙.",
         "about": "Draw & design happiness:D \nHK illustrator\n- alohawasa@gmail.com \n- 歡迎訂造客製化產品\n- 與多間機構合作 \n- 歡迎以email/msg/pm查詢:) #alohawasa\n寄賣店:突破書廊\n地址:九龍佐敦吳松街191號突破中心地下",
-        "categories": [
-          "Artist"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "164288046954643",
+            "name": "Art School"
+          }
         ],
-        "email": "wasayik@gmail.com"
+        "emails": [
+          "wasayik@gmail.com"
+        ],
+        "single_line_address": "Hong Kong"
       },
       "url": "https://www.facebook.com/alohawasa/"
     },

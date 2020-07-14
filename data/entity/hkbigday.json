@@ -9,16 +9,28 @@
     },
     {
       "meta": {
-        "name": "hkbigday.com",
         "id": "170196819108",
+        "username": "hkbigday",
+        "name": "hkbigday.com",
         "about": "The Specialist of Visual Arts / Art Design + Photography + Retouch / hkbigday成立於2006年曾為超過三百對新人擔任婚宴及婚紗攝影師。",
-        "categories": [
-          "Wedding Planning Service",
-          "Product/Service",
-          "Event Videographer"
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "1719867628280173",
+            "name": "Event Videographer"
+          }
         ],
-        "email": "info@hkbigday.com",
-        "tel": "96812255"
+        "emails": [
+          "info@hkbigday.com"
+        ],
+        "website": "http://www.hkbigday.com"
       },
       "url": "https://www.facebook.com/hkbigday/"
     }

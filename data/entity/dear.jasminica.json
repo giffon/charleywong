@@ -6,11 +6,14 @@
   "webpages": [
     {
       "meta": {
-        "name": "Dear.jasminica",
         "id": "1705257319524720",
+        "name": "Dear.jasminica",
         "about": "主要售賣自家設計手作產品�SINCE © 2 0 1 7",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       },
       "url": "https://www.facebook.com/1705257319524720/"

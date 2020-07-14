@@ -6,15 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "多寶雞蛋仔",
         "id": "312224202695385",
-        "categories": [
-          "Food Stand",
-          "Deli"
+        "username": "dorpo.yuenlong",
+        "name": "多寶雞蛋仔",
+        "category_list": [
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          },
+          {
+            "id": "188334264523313",
+            "name": "Deli"
+          }
         ],
-        "addr": "擊壤路9號 金寶大廈 G/F 11 號鋪",
-        "area": "Yuen Long",
-        "tel": "95504855"
+        "single_line_address": "擊壤路9號 金寶大廈 G/F 11 號鋪, Yuen Long"
       },
       "url": "https://www.facebook.com/dorpo.yuenlong/"
     },

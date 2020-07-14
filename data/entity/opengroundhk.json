@@ -6,16 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "about": "A Design Portal\nwith\nCoffee, ...\n\n\n\n\n\n\n\nSee more",
-        "categories": [
-          "Coffee shop",
-          "Community"
+        "id": "659145181112976",
+        "username": "opengroundhk",
+        "name": "openground",
+        "about": "A Design Portal \nwith \nCoffee, \nLibrary, \nExhibition, \nBook and Music.\n.\nopening hours\n.\n1200-2000\nTuesday to Sunday",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "addr": "198 Tai Nan Street, Sham Shui Po",
-        "area": "Kowloon, Hong Kong",
-        "email": "info@openground.hk",
-        "tel": "39745098",
-        "id": "659145181112976"
+        "emails": [
+          "info@openground.hk"
+        ],
+        "single_line_address": "198 Tai Nan Street, Sham Shui Po, Kowloon, Hong Kong",
+        "website": "shop.openground.hk"
       },
       "url": "https://www.facebook.com/opengroundhk/"
     },

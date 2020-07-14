@@ -7,12 +7,16 @@
     {
       "url": "https://www.facebook.com/114923483256323/",
       "meta": {
-        "name": "天鷲拉麵",
         "id": "114923483256323",
+        "name": "天鷲拉麵",
         "about": "博多拉麵",
-        "categories": [
-          "Ramen Restaurant"
-        ]
+        "category_list": [
+          {
+            "id": "218838724804749",
+            "name": "Ramen Restaurant"
+          }
+        ],
+        "single_line_address": "香港北角電氣道180號百加利中心地下2A舖, Hong Kong"
       }
     }
   ],

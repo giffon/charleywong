@@ -6,12 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "AJYdesigns",
         "id": "119003761592710",
+        "username": "AJYdesigns",
+        "name": "AJYdesigns",
         "about": "Leather and fabric bags designed and handmade in Hong Kong. Each piece is made once and never repeated.\nCustom orders are welcome!",
-        "categories": [
-          "Bags/Luggage"
-        ]
+        "category_list": [
+          {
+            "id": "2206",
+            "name": "Bags/Luggage"
+          }
+        ],
+        "website": "http://www.ajydesigns.com"
       },
       "url": "https://www.facebook.com/AJYdesigns/"
     },

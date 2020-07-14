@@ -7,15 +7,20 @@
   "webpages": [
     {
       "meta": {
+        "id": "296762637183676",
+        "username": "pausebookshop",
+        "name": "PAUSE 小息書店",
         "about": "靜默有時，言語有時",
-        "categories": [
-          "Book shop"
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
         ],
-        "addr": "11/F.,Cheung Lee Commercial Building,No.137-143 Cheung Sha Wan Road,Kowloon",
-        "area": "Hong Kong",
-        "email": "pause@fes.org.hk",
-        "tel": "23692750",
-        "id": "296762637183676"
+        "emails": [
+          "pause@fes.org.hk"
+        ],
+        "single_line_address": "11/F.,Cheung Lee Commercial Building,No.137-143 Cheung Sha Wan Road,Kowloon, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/pausebookshop/"
     }

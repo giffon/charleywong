@@ -7,14 +7,19 @@
     {
       "url": "https://www.facebook.com/refarmhk/",
       "meta": {
-        "name": "復興農場",
         "id": "1783409171913710",
+        "username": "refarmhk",
+        "name": "復興農場",
         "about": "復興土地 , 立足本土",
-        "categories": [
-          "Farm"
+        "category_list": [
+          {
+            "id": "150815208309028",
+            "name": "Farm"
+          }
         ],
-        "email": "chrisli000@yahoo.com.hk",
-        "tel": "91305381"
+        "emails": [
+          "chrisli000@yahoo.com.hk"
+        ]
       }
     }
   ],

@@ -7,13 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "創傷同學會 From Trauma to Transformation",
         "id": "112022836891097",
-        "about": "2019年的夏天，香港人經歷了一場前所未有的社會創傷。一班非暴力溝通及敍事治療的實踐者成立了T2T工作室，設計了三個線上實驗課程，處理三個今天香港人真實的困境。",
-        "categories": [
-          "Education"
+        "username": "FromTrauma2Transformation",
+        "name": "創傷同學會 From Trauma to Transformation",
+        "about": "2019年的夏天，香港人經歷了一場前所未有的社會創傷。一班非暴力溝通及敍事治療的實踐者成立了T2T工作室，設計線上實驗課程，處理今天香港人真實的困境。",
+        "category_list": [
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "email": "t2tproject.contactus@gmail.com"
+        "emails": [
+          "t2tproject.contactus@gmail.com"
+        ],
+        "website": "https://www.woundedtransformer.online/"
       },
       "url": "https://www.facebook.com/FromTrauma2Transformation/"
     },

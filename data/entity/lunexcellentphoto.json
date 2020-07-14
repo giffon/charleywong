@@ -7,13 +7,19 @@
     {
       "meta": {
         "id": "547013818650836",
+        "username": "lunexcellentphoto",
+        "name": "Excellent photo",
         "about": "從攝影得到快樂,以客為本,令客人簡單輕鬆地完成屬於自己的婚禮.",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "元朗",
-        "area": "九龍",
-        "email": "cheung_holun@yahoo.com.hk"
+        "emails": [
+          "cheung_holun@yahoo.com.hk"
+        ],
+        "single_line_address": "元朗, hong kong 九龍"
       },
       "url": "https://www.facebook.com/lunexcellentphoto/"
     }

@@ -8,17 +8,27 @@
     {
       "url": "https://www.facebook.com/Littleedenkt/",
       "meta": {
-        "name": "小伊甸 Little Eden",
         "id": "280440452375130",
-        "categories": [
-          "Taiwanese Restaurant",
-          "Asian Fusion Restaurant",
-          "Breakfast & Brunch Restaurant"
+        "username": "Littleedenkt",
+        "name": "小伊甸 Little Eden",
+        "category_list": [
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          },
+          {
+            "id": "174201535963762",
+            "name": "Asian Fusion Restaurant"
+          },
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          }
         ],
-        "addr": "香港 觀塘工業中心 四期 1樓C室",
-        "area": "852 Hong Kong",
-        "email": "littleedenkt@gmail.com",
-        "tel": "37053143"
+        "emails": [
+          "littleedenkt@gmail.com"
+        ],
+        "single_line_address": "香港 觀塘工業中心 四期 1樓C室, 852 Hong Kong"
       }
     }
   ],

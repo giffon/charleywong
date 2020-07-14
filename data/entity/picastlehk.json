@@ -11,14 +11,23 @@
     {
       "meta": {
         "id": "1220396444671941",
-        "categories": [
-          "Education",
-          "Arts and entertainment"
+        "username": "picastlehk",
+        "name": "畫堡 Picastle",
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "addr": "西營盤正街18號啟正中心9樓903B",
-        "area": "Hong Kong",
-        "email": "picastlehk@gmail.com",
-        "tel": "37051342"
+        "emails": [
+          "picastlehk@gmail.com"
+        ],
+        "single_line_address": "西營盤正街18號啟正中心9樓903B, Hong Kong",
+        "website": "https://www.picastlehk.com/"
       },
       "url": "https://www.facebook.com/picastlehk/"
     },

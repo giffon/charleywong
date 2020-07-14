@@ -6,11 +6,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "放假去邊度",
         "id": "244465722617562",
+        "username": "holidaywheretogo",
+        "name": "放假去邊度",
         "about": "吃喝玩樂",
-        "categories": [
-          "Personal Blog"
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ]
       },
       "url": "https://www.facebook.com/holidaywheretogo/"

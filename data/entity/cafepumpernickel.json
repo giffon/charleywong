@@ -11,16 +11,25 @@
     {
       "url": "https://www.facebook.com/cafepumpernickel/",
       "meta": {
-        "name": "黑麥 Pumpernickel",
         "id": "21554075880",
-        "about": "Pumpernickel is a bread café which is famous for its fresh home-made breads and bakery products. It creates a nice and relaxing environment for customers to enjoy good food and have good time here.",
-        "categories": [
-          "European Restaurant"
+        "username": "cafepumpernickel",
+        "name": "黑麥 Pumpernickel",
+        "about": "Pumpernickel is a bread café which is famous for its fresh home-made breads and cakes. It creates a nice and relaxing environment for customers to enjoy good food and have good time there.",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "1508025966158640",
+            "name": "European Restaurant"
+          }
         ],
-        "addr": "shop 1A, G/F, 1 Lau Li Street, Tin Hau",
-        "area": "Hong Kong",
-        "email": "cafepumpernickel@yahoo.com",
-        "tel": "25780854"
+        "emails": [
+          "cafepumpernickel@yahoo.com"
+        ],
+        "single_line_address": "shop 1A, G/F, 1 Lau Li Street, Tin Hau, Hong Kong",
+        "website": "http://www.cafepumpernickel.com"
       }
     },
     {

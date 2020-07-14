@@ -7,12 +7,18 @@
     {
       "meta": {
         "id": "1474725235898600",
+        "username": "marjoriemakeuphouse",
+        "name": "Marjorie Makeup House",
         "about": "歡迎查詢: 新娘 / 姊妹 / 伴娘 / 奶奶 / 宴會 / 外影 / 個人化妝等服務。",
-        "categories": [
-          "Makeup artist"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "email": "marjoriemakeuphouse@hotmail.com",
-        "tel": "92279795"
+        "emails": [
+          "marjoriemakeuphouse@hotmail.com"
+        ]
       },
       "url": "https://www.facebook.com/marjoriemakeuphouse/"
     }

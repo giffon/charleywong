@@ -10,14 +10,27 @@
     {
       "meta": {
         "id": "411593118983075",
-        "about": "Suburban is the store with the coolest Backpack and accessory selection in Hong Kong. Herschel Supply | Rains | Bellroy | Mystery Ranch | Helinox",
-        "categories": [
-          "Outdoor equipment shop",
-          "Bag & suitcase shop",
-          "Sportswear shop"
+        "username": "suburbanhk",
+        "name": "Suburban",
+        "about": "Suburban carries one of the finest Backpack and accessory selection in Hong Kong. We're formed by a group of Everyday Carry enthusiastic people who love to explore better ways to carry.\n\nEvergoods | Bellroy | Mystery Ranch | Helinox | Topologie and more\n",
+        "category_list": [
+          {
+            "id": "153490828039067",
+            "name": "Outdoor Equipment Store"
+          },
+          {
+            "id": "1713352298924731",
+            "name": "Sportswear Store"
+          },
+          {
+            "id": "152220181857729",
+            "name": "Bags & Luggage Store"
+          }
         ],
-        "email": "sales@suburban.com.hk",
-        "tel": "39545524"
+        "emails": [
+          "sales@suburban.com.hk"
+        ],
+        "website": "http://www.suburban.com.hk"
       },
       "url": "https://www.facebook.com/suburbanhk/"
     }

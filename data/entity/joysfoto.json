@@ -10,27 +10,41 @@
     {
       "url": "https://www.facebook.com/joysfoto/",
       "meta": {
-        "name": "JOY's foto",
         "id": "198676380211047",
-        "about": "Simple x Natural x Sweet",
-        "categories": [
-          "Photographer"
+        "username": "joysfoto",
+        "name": "JOY's foto",
+        "about": "Simple x Natural x Sweet\n",
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": null,
-        "area": "Kwun Tong",
-        "email": "info@joysfoto.com"
+        "emails": [
+          "info@joysfoto.com"
+        ],
+        "single_line_address": "Kwun Tong",
+        "website": "http://www.joysfoto.com"
       }
     },
     {
       "url": "https://www.facebook.com/joysfotobaby/",
       "meta": {
-        "name": "JOY's baby",
         "id": "502665850181322",
-        "about": "HK based female photographer provide the following photography service:\n\n- Maternity\n- Newborn\n- Baby & Child\n- Family",
-        "categories": [
-          "Photographer"
+        "username": "joysfotobaby",
+        "name": "JOY's baby",
+        "about": "HK based female photographer provide the following photography service:\n\n- Maternity\n- Newborn\n- Baby & Child\n- Family ",
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "joysfoto@gmail.com"
+        "emails": [
+          "joysfoto@gmail.com"
+        ],
+        "single_line_address": "Kwun Tong, Hong Kong",
+        "website": "www.facebook.com/joysfotobaby"
       }
     },
     {

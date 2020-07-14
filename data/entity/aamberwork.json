@@ -7,14 +7,23 @@
   "webpages": [
     {
       "meta": {
-        "name": "急急Touch",
         "id": "231296373977",
+        "username": "aamberwork",
+        "name": "急急Touch",
         "about": "你好，這是急急子分享想法的地方。",
-        "categories": [
-          "Radio Station",
-          "Author"
+        "category_list": [
+          {
+            "id": "1210",
+            "name": "Radio Station"
+          },
+          {
+            "id": "1301",
+            "name": "Author"
+          }
         ],
-        "email": "aamber2nd@gmail.com"
+        "emails": [
+          "aamber2nd@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/aamberwork/"
     }

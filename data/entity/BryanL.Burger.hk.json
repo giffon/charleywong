@@ -8,15 +8,21 @@
     {
       "url": "https://www.facebook.com/BryanL.Burger.hk/",
       "meta": {
-        "name": "Bryan L Burger布萊恩.L食堂",
         "id": "698314020211058",
-        "about": "招牌牛肉麵!\n長沙灣： 元州街498號地下\n旺角： 通菜街80號地下",
-        "categories": [
-          "Hong Kong Restaurant",
-          "Bunsik Restaurant"
+        "username": "BryanL.Burger.hk",
+        "name": "Bryan L Burger布萊恩.L食堂",
+        "about": "招牌牛肉麵!\n長沙灣： 元州街498號地下\n旺角： 通菜街80號地下\n\n",
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          },
+          {
+            "id": "533990753451464",
+            "name": "Bunsik Restaurant"
+          }
         ],
-        "addr": "元州街498號地下",
-        "area": "Kowloon, Hong Kong"
+        "single_line_address": "元州街498號地下, Kowloon, Hong Kong"
       }
     },
     {

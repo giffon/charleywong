@@ -9,14 +9,25 @@
     },
     {
       "meta": {
-        "name": "Liz Coffee",
         "id": "274832076449973",
+        "username": "lizcoffeehk",
+        "name": "Liz Coffee",
         "about": "• Specialty Coffee • Tea Coffee Spirit\n• Kombucha • Pourover\n• Espresso • Espressoda\n• Origami Dripper, Aroma Mug\nMon-Fri 8:30am-7:30pm\nSat 12nn-7:30pm\n2/F, Butterfly on LKF, Lan Kwai Fong, 23 D’Aguilar Street, Central",
-        "categories": [
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "email": "hklizcoffee@gmail.com",
-        "tel": "55409715"
+        "emails": [
+          "hklizcoffee@gmail.com"
+        ],
+        "single_line_address": "2/F, Butterfly on LKF, Lan Kwai Fong, 23 D’Aguilar Street, Central, Hong Kong",
+        "website": "www.lizcoffeehk.com"
       },
       "url": "https://www.facebook.com/lizcoffeehk/"
     },

@@ -6,15 +6,23 @@
   "webpages": [
     {
       "meta": {
-        "name": "BACOB Fashion Online",
         "id": "1567863656790729",
+        "username": "BACOBFashionOnline",
+        "name": "BACOB Fashion Online",
         "about": "簡約 隨心 穿撘",
-        "categories": [
-          "Clothing (Brand)",
-          "Women's Clothing Store"
+        "category_list": [
+          {
+            "id": "128753240528981",
+            "name": "Women's Clothing Store"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "email": "bacobstore@outlook.com",
-        "tel": "67013731"
+        "emails": [
+          "bacobstore@outlook.com"
+        ]
       },
       "url": "https://www.facebook.com/BACOBFashionOnline/"
     },

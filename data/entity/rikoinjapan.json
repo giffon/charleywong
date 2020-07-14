@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/rikoinjapan/",
       "meta": {
-        "name": "莉可in日本",
         "id": "132691140243176",
+        "username": "rikoinjapan",
+        "name": "莉可in日本",
         "about": "由Working Holiday到Working等待Holiday，一個在東京上班的香港人。不小心嫁了一個日本胖子再生了一隻港日混血小胖，搬到東京旁邊的神奈川開始新生活。紀錄著日本生活的廢話筆記。",
-        "categories": [
-          "Personal Blog"
-        ]
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
+        ],
+        "website": "http://rikoinjapan.blogspot.jp/"
       }
     }
   ],

@@ -7,16 +7,23 @@
   "webpages": [
     {
       "meta": {
-        "about": "「幼稚園」既宗旨：回歸幼稚，忘記規限，愉快地重新認識呢個美麗既世界。\n\n呢到有兩條校規：...\n\n\n\nSee more",
-        "categories": [
-          "Cultural centre",
-          "Community group"
+        "id": "992635560828487",
+        "username": "kindergarteninsane",
+        "name": "幼稚園工作室 Kindergarten Insane Studio",
+        "about": "我們是一個社區實驗平台。旨在連結對香港有想法的朋友，一起忘記規限，回歸幼稚，重新建構我們的社區。",
+        "category_list": [
+          {
+            "id": "170968163319233",
+            "name": "Community Service"
+          },
+          {
+            "id": "619759428190024",
+            "name": "Cultural Center"
+          }
         ],
-        "addr": "土瓜灣旭日街1A號福成工業大廈12樓1205室",
-        "area": "Hong Kong",
-        "email": "kindinsane@gmail.com",
-        "tel": "60824067",
-        "id": "992635560828487"
+        "emails": [
+          "kindinsane@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/kindergarteninsane/"
     }

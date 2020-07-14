@@ -9,18 +9,29 @@
     },
     {
       "meta": {
-        "name": "未來科技 - 電腦 砌機 改裝 軟硬配件",
         "id": "141876935852662",
+        "username": "buymore.hk",
+        "name": "未來科技 - 電腦 砌機 改裝 軟硬配件",
         "about": "專營電腦組裝/原廠電腦/挖礦電腦/電腦週邊配件/打印機及掃描器/各類維修/閉路電視系統",
-        "categories": [
-          "Business Service",
-          "Computer Store",
-          "Electronics"
+        "category_list": [
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          },
+          {
+            "id": "199512783398620",
+            "name": "Computer Store"
+          },
+          {
+            "id": "2213",
+            "name": "Electronics"
+          }
         ],
-        "addr": "香港灣仔軒尼詩道298 號 298電腦特區UG 158號鋪",
-        "area": "Hong Kong",
-        "email": "ask@buymore.hk",
-        "tel": "21173773"
+        "emails": [
+          "ask@buymore.hk"
+        ],
+        "single_line_address": "香港灣仔軒尼詩道298 號 298電腦特區UG 158號鋪, Hong Kong",
+        "website": "http://buymore.hk"
       },
       "url": "https://www.facebook.com/buymore.hk/"
     },

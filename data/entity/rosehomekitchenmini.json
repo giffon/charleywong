@@ -17,18 +17,29 @@
     {
       "url": "https://www.facebook.com/rosehomekitchenmini/",
       "meta": {
-        "name": "Rosé Home Kitchen",
         "id": "118428078227453",
-        "about": "香港品牌 | 10年烘焙 | 自設工場 | 天然素材\n\n歐洲式手工磅蛋糕| 客製3D 産品| 高雄養生花草果乾茶\n\n3484 9072 TEL\n9804 0331 WHATSAPP\nwww.rosehomekitchen.com",
-        "categories": [
-          "Cafe",
-          "Shopping & Retail",
-          "Bakery"
+        "username": "rosehomekitchenmini",
+        "name": "Rosé Home Kitchen",
+        "about": "香港品牌 | 10年烘焙 | 自設工場 | 天然素材 \n\n歐洲式手工磅蛋糕| 客製3D 産品|  高雄養生花草果乾茶 \n\n 3484 9072 TEL\n 9804 0331 WHATSAPP\n www.rosehomekitchen.com",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          }
         ],
-        "addr": "請留意最新消息",
-        "area": "Hong Kong",
-        "email": "rosehomekitchen@gmail.com",
-        "tel": "34849072"
+        "emails": [
+          "rosehomekitchen@gmail.com"
+        ],
+        "single_line_address": "請留意最新消息, Hong Kong",
+        "website": "http://www.rosehomekitchen.com"
       }
     }
   ],

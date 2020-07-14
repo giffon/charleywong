@@ -10,15 +10,25 @@
     {
       "url": "https://www.facebook.com/joseebeauty/",
       "meta": {
-        "name": "JOSEE Organic Beauty & Perfume",
         "id": "440700372697377",
+        "username": "joseebeauty",
+        "name": "JOSEE Organic Beauty & Perfume",
         "about": "有機美容䕶膚產品及香水。 䕶膚產品絶不含化學防腐劑, 100%天然, 適合任何年齡女仕, 孕婦及嬰兒使用。",
-        "categories": [
-          "Skin Care Service",
-          "Beauty Supply Store"
+        "category_list": [
+          {
+            "id": "1644814599176740",
+            "name": "Skin Care Service"
+          },
+          {
+            "id": "191693100854505",
+            "name": "Beauty Supply Store"
+          }
         ],
-        "email": "joseebeauty@whaasa.com",
-        "tel": "81229423"
+        "emails": [
+          "joseebeauty@whaasa.com"
+        ],
+        "single_line_address": "Tsim Sha Tsui",
+        "website": "http://www.joseebeauty.com"
       }
     },
     {
@@ -76,6 +86,7 @@
     }
   ],
   "tags": [
-    "shop","skincare"
+    "shop",
+    "skincare"
   ]
 }

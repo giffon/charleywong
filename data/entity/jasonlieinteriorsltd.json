@@ -10,17 +10,21 @@
     {
       "url": "https://www.facebook.com/jasonlieinteriorsltd/",
       "meta": {
-        "name": "Jason Lie Interiors",
         "id": "515511698536731",
+        "username": "jasonlieinteriorsltd",
+        "name": "Jason Lie Interiors",
         "about": "Design and Build",
-        "categories": [
-          "Interior Design Studio",
-          "Furniture Repair & Upholstery Service"
+        "category_list": [
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          }
         ],
-        "addr": "No.3, 10/F Metro Centre I, No.32 Lam Hing Street, Kowloon Bay, Hong Kong",
-        "area": "Hong Kong",
-        "email": "info@jasonlie-interiors.com",
-        "tel": "61781889"
+        "emails": [
+          "info@jasonlie-interiors.com"
+        ],
+        "single_line_address": "No.3, 10/F Metro Centre I, No.32 Lam Hing Street, Kowloon Bay, Hong Kong, Hong Kong",
+        "website": "http://www.jasonlie-interiors.com"
       }
     },
     {

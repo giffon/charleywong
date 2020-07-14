@@ -8,16 +8,27 @@
     {
       "url": "https://www.facebook.com/sowarmhk/",
       "meta": {
-        "name": "常溫 So warm",
         "id": "212746862981443",
-        "about": "新蒲崗 大有街33號 地下",
-        "categories": [
-          "Shopping & Retail",
-          "Dessert Shop",
-          "Bakery"
+        "username": "sowarmhk",
+        "name": "常溫 So warm",
+        "about": "新蒲崗 大有街33號 地下\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          }
         ],
-        "email": "sowarm33@gmail.com",
-        "tel": "93257882"
+        "emails": [
+          "sowarm33@gmail.com"
+        ]
       }
     },
     {

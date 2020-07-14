@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/bubblesbbplaygroup/",
       "meta": {
-        "name": "Bubbles playgroup",
         "id": "186555031687547",
+        "username": "bubblesbbplaygroup",
+        "name": "Bubbles playgroup",
         "about": "Bubbles playgroup是一個為幼兒提供愉快學習、優質教育的地方。我們的課程能夠配合幼兒多元智能發展，並建立一個良好的學習模式。",
-        "categories": [
-          "Education"
+        "category_list": [
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "addr": "九龍觀塘成業街10號電訊一代廣場27樓D01室",
-        "area": "Kwun Tong",
-        "email": "bubblesbbplaygroup@gmail.com",
-        "tel": "39569294"
+        "emails": [
+          "bubblesbbplaygroup@gmail.com"
+        ],
+        "single_line_address": "九龍觀塘成業街10號電訊一代廣場27樓D01室, Kwun Tong"
       }
     }
   ],

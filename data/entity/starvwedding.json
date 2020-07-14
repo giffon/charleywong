@@ -10,15 +10,24 @@
     {
       "meta": {
         "id": "1131062973653630",
+        "username": "starvwedding",
+        "name": "Star V Wedding",
         "about": "Star V Wedding婚紗攝影公司，提供專業婚紗攝影、頂級婚紗禮服與星級時尚妝髮服務，為新人貼身打造一生只有一次的浪漫香港及海外的婚紗攝影之旅。\n詳情請致電或電郵查詢",
-        "categories": [
-          "Consultation agency",
-          "Photographer"
+        "category_list": [
+          {
+            "id": "2248",
+            "name": "Consulting Agency"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "觀塘興業街31號興業中心3樓A28室",
-        "area": "Hong Kong",
-        "email": "starvworkshop@gmail.com",
-        "tel": "53189797"
+        "emails": [
+          "starvworkshop@gmail.com"
+        ],
+        "single_line_address": "觀塘興業街31號興業中心3樓A28室, Hong Kong",
+        "website": "http://starvwedding.com"
       },
       "url": "https://www.facebook.com/starvwedding/"
     }

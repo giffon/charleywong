@@ -6,15 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "Dog99 Coffee",
         "id": "901050250059918",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant"
+        "name": "Dog99 Coffee",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "33, Wong Chuk Street",
-        "area": "Sham Shui Po",
-        "tel": "68311311"
+        "single_line_address": "33, Wong Chuk Street, Sham Shui Po"
       },
       "url": "https://www.facebook.com/901050250059918/"
     },

@@ -6,12 +6,17 @@
   "webpages": [
     {
       "meta": {
+        "id": "1617518081869449",
+        "username": "mulanaccessories",
+        "name": "Mulan Accessories",
         "about": "Handmade Accessories\nWhatsapp +852 65076000 for Enquires & Purchases",
-        "categories": [
-          "Accessories"
+        "category_list": [
+          {
+            "id": "185127444860544",
+            "name": "Accessories"
+          }
         ],
-        "tel": "65076000",
-        "id": "1617518081869449"
+        "single_line_address": "Hong Kong"
       },
       "url": "https://www.facebook.com/mulanaccessories/"
     }

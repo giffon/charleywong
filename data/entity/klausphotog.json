@@ -7,12 +7,18 @@
     {
       "meta": {
         "id": "1202593923107562",
+        "username": "klausphotog",
+        "name": "Klaus Photography",
         "about": "We capture, we create, we play.",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "klausc852@gmail.com",
-        "tel": "55473330"
+        "emails": [
+          "klausc852@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/klausphotog/"
     }

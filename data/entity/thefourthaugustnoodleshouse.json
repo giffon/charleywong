@@ -7,16 +7,24 @@
     {
       "url": "https://www.facebook.com/thefourthaugustnoodleshouse/",
       "meta": {
-        "name": "肆年八月米線專門店",
         "id": "2164263260520645",
-        "categories": [
-          "Diner",
-          "Noodle House",
-          "Hong Kong Restaurant"
+        "username": "thefourthaugustnoodleshouse",
+        "name": "肆年八月米線專門店",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "1848365298810025",
+            "name": "Noodle House"
+          },
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
         ],
-        "addr": "大圍下徑口村30號地下",
-        "area": "Hong Kong",
-        "tel": "98727223"
+        "single_line_address": "大圍下徑口村30號地下, Hong Kong"
       }
     },
     {

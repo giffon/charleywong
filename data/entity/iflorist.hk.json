@@ -10,16 +10,20 @@
     },
     {
       "meta": {
-        "name": "愛火花花店 iflorist.hk",
         "id": "494236577260837",
+        "name": "愛火花花店 iflorist.hk",
         "about": "銳意成就一門幸福企業 http://www.iflorist.hk/b5_index.php",
-        "categories": [
-          "Florist"
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "addr": "葵涌石籬二邨石梨街18號",
-        "area": "Hong Kong",
-        "email": "cs@iflorist.hk",
-        "tel": "97741888"
+        "emails": [
+          "cs@iflorist.hk"
+        ],
+        "single_line_address": "葵涌石籬二邨石梨街18號, Hong Kong",
+        "website": "http://www.iflorist.hk/b5_index.php"
       },
       "url": "https://www.facebook.com/494236577260837/"
     }

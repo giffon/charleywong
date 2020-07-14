@@ -7,15 +7,16 @@
     {
       "url": "https://www.facebook.com/327711041092445/",
       "meta": {
-        "name": "隱。居",
         "id": "327711041092445",
+        "name": "隱。居",
         "about": "將軍澳 坑口站 11A專線小巴 \n3分鐘直達坑口村牌坊",
-        "categories": [
-          "Yakitori Restaurant"
+        "category_list": [
+          {
+            "id": "113264772433008",
+            "name": "Yakitori Restaurant"
+          }
         ],
-        "addr": "G/f  坑口村  庭和里",
-        "area": "Hang Hau",
-        "tel": "23117900"
+        "single_line_address": "Shop A G/f 6 Hang Hau Village, Hang Hau"
       }
     }
   ],

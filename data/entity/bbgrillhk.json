@@ -6,14 +6,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "串Grill",
         "id": "276854289848685",
-        "categories": [
-          "Barbecue Restaurant"
+        "username": "bbgrillhk",
+        "name": "串Grill",
+        "category_list": [
+          {
+            "id": "150534008338515",
+            "name": "Barbecue Restaurant"
+          }
         ],
-        "addr": "廣華街2-20號翠園2期地下10號鋪",
-        "area": "000000 Mong Kok",
-        "tel": "68865886"
+        "single_line_address": "廣華街2-20號翠園2期地下10號鋪, 000000 Mong Kok"
       },
       "url": "https://www.facebook.com/bbgrillhk/"
     },

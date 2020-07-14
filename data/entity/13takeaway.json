@@ -14,18 +14,29 @@
     {
       "url": "https://www.facebook.com/13takeaway/",
       "meta": {
-        "name": "13",
         "id": "111313783601054",
+        "username": "13takeaway",
+        "name": "13",
         "about": "13\n小店舖名為13。乃家中人數13人，店舖坐落於13舖，因此取13為店名。\n電話Tel：57107271\n地址：灣仔柯布連道9-13號13號舖\nAdd：Shop 13, G/F, Block B, Kin Lee Building, 9-13 O’Brien Road, Wanchai, HK",
-        "categories": [
-          "Sandwich Shop",
-          "Diner",
-          "Fast Food Restaurant"
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "188296324525457",
+            "name": "Sandwich Shop"
+          },
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          }
         ],
-        "addr": "13 O’Brien Road, Wan Chai",
-        "area": "00000 Hong Kong",
-        "email": "13takeaway@gmail.com",
-        "tel": "57107271"
+        "emails": [
+          "13takeaway@gmail.com"
+        ],
+        "single_line_address": "13 O’Brien Road, Wan Chai, 00000 Hong Kong",
+        "website": "instagram.com/13takeaway?igshid"
       }
     }
   ],

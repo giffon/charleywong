@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/InnolifeLtd/",
       "meta": {
-        "name": "Innolife 環圃休閒村",
         "id": "896572657128217",
+        "username": "InnolifeLtd",
+        "name": "Innolife 環圃休閒村",
         "about": "位置於上水蕉徑，供人休憩、享受大自然的小地方。不時會安排DIY小活動，供人娛樂。",
-        "categories": [
-          "Florist"
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "addr": "Lot 1372 DD 100, Tsiu Keng Road",
-        "area": "NT Sheung Shui",
-        "email": "info@innolife.hk",
-        "tel": "56601900"
+        "emails": [
+          "info@innolife.hk"
+        ],
+        "single_line_address": "Lot 1372 DD 100, Tsiu Keng Road, NT Sheung Shui",
+        "website": "https://www.innolife.hk"
       }
     },
     {

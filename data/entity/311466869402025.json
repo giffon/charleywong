@@ -7,12 +7,16 @@
     {
       "url": "https://www.facebook.com/311466869402025/",
       "meta": {
-        "name": "旺角88",
         "id": "311466869402025",
+        "name": "旺角88",
         "about": "串燒，車仔麵",
-        "categories": [
-          "Restaurant"
-        ]
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "旺角甘霖街40號, Hong Kong"
       }
     }
   ],

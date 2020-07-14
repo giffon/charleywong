@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "貓奴誌",
         "id": "507386412649429",
+        "username": "MeowMeowMag",
+        "name": "貓奴誌",
         "about": "鬧市中沒有被遺忘的喵生命。\nLooking for the cats in this noisy city.",
-        "categories": [
-          "Arts & Humanities Website"
+        "category_list": [
+          {
+            "id": "2701",
+            "name": "Arts & Humanities Website"
+          }
         ],
-        "email": "meow@meowmeowmag.com"
+        "emails": [
+          "meow@meowmeowmag.com"
+        ],
+        "website": "www.meowmeowmag.com"
       },
       "url": "https://www.facebook.com/MeowMeowMag/"
     },

@@ -7,30 +7,42 @@
     {
       "url": "https://www.facebook.com/reactorscoffeeHH/",
       "meta": {
-        "name": "Reactors Coffee HungHom",
         "id": "1627204144159486",
+        "username": "reactorscoffeeHH",
+        "name": "Reactors Coffee HungHom",
         "about": "We strive to provide awesome coffee by our passionated barista & we call us \"Reactors\" \n我哋係對咖啡充滿熱誠的咖啡店，自稱 \"Reactors\"，期待發揮自己的小宇宙，將咖啡發熱發亮，用心沖煮每杯咖啡俾大家",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "Shop No.823, Level 8 Fortune Metropolis, No.6 Metropolis Drive, Hunghom",
-        "area": "000 Hong Kong",
-        "tel": "39070388"
+        "single_line_address": "Shop No.823, Level 8 Fortune Metropolis, No.6 Metropolis Drive, Hunghom, 000 Hong Kong",
+        "website": "http://www.reactorscoffee.com"
       }
     },
     {
       "url": "https://www.facebook.com/ReactorsCoffeeST/",
       "meta": {
-        "name": "Reactors Coffee Shatin",
         "id": "139502043351958",
-        "categories": [
-          "Restaurant",
-          "Coffee Shop"
+        "username": "ReactorsCoffeeST",
+        "name": "Reactors Coffee Shatin",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "Shop No. G92, G/F, Fortune City One",
-        "area": "Sha Tin, Hong Kong",
-        "tel": "26559333"
+        "single_line_address": "Shop No. G92, G/F, Fortune City One, Sha Tin, Hong Kong",
+        "website": "http://www.reactorscoffee.com/"
       }
     },
     {

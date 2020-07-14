@@ -7,16 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "阿貓地攤cat store",
         "id": "825572364129597",
-        "about": "Every Monday Off 逢星期一休息 Tuesday to Friday 12pm to 10pm星期二至星期五 中午12時至晚上10時Saturday, Sunday 11am to 10pm星期六，日 上午11時至晚上10時",
-        "categories": [
-          "Coffee Shop"
+        "username": "cwbcatstore",
+        "name": "阿貓地攤cat store",
+        "about": "Monday to Sunday 12pm to 10pm 星期一至星期日 中午12時至晚上10時",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "Flat D, 3/F.,Po Ming Building, Foo Ming Street, Causeway Bay H.K.",
-        "area": "852 Causeway Bay",
-        "email": "catisland2018@gmail.com",
-        "tel": "27109953"
+        "emails": [
+          "catisland2018@gmail.com"
+        ],
+        "single_line_address": "Flat D, 3/F.,Po Ming Building, Foo Ming Street, Causeway Bay H.K., 852 Causeway Bay"
       },
       "url": "https://www.facebook.com/cwbcatstore/"
     },

@@ -8,14 +8,23 @@
     {
       "url": "https://www.facebook.com/134055657191138/",
       "meta": {
-        "name": "沙田區政Community Sha Tin",
         "id": "134055657191138",
-        "categories": [
-          "Community",
-          "Community Service"
+        "username": "CommunityShaTin",
+        "name": "沙田區政Community Sha Tin",
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "170968163319233",
+            "name": "Community Service"
+          }
         ],
-        "email": "communityshatin@gmail.com",
-        "tel": "61276361"
+        "emails": [
+          "communityshatin@gmail.com"
+        ],
+        "single_line_address": "Sha Tin, Hong Kong"
       }
     }
   ],

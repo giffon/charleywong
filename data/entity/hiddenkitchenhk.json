@@ -7,18 +7,24 @@
     {
       "url": "https://www.facebook.com/hiddenkitchenhk/",
       "meta": {
-        "name": "Hidden Kitchen",
         "id": "1870858919804215",
+        "username": "hiddenkitchenhk",
+        "name": "Hidden Kitchen",
         "about": "紅磡北拱街小型樓上咖啡店, 環境光潔，座位寬敞。\n小店按季節供應廚師精選食物, 手作小食及自家醬料。\n座位有限，建議預早訂座。",
-        "categories": [
-          "Coffee Shop",
-          "Breakfast & Brunch Restaurant",
-          "British Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          }
         ],
-        "addr": "1/F, Shop 6, The Met Focus, 8 Pak Kung Street, Hunghom, Kowloon",
-        "area": "Hong Kong",
-        "email": "hiddenkitchenhk@gmail.com",
-        "tel": "62335127"
+        "emails": [
+          "hiddenkitchenhk@gmail.com"
+        ],
+        "single_line_address": "1/F, Shop 6, The Met Focus, 8 Pak Kung Street, Hunghom, Kowloon, Hong Kong"
       }
     }
   ],

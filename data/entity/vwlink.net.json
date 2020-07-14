@@ -9,49 +9,70 @@
     },
     {
       "meta": {
-        "name": "德慧文化圖書有限公司",
         "id": "194580454090",
+        "username": "vwlink.net",
+        "name": "德慧文化圖書有限公司",
         "about": "台灣校園書房出版社港澳總代理；\n\n德慧文化荃灣站書店\n香港新界荃灣青山公路264-298號\n南豐中心19樓08室\n\n總辨事處及貨倉\n香港新界荃灣橫窩仔街2-8號\n永桂第三工業大廈2樓B室",
-        "categories": [
-          "Publisher",
-          "Christian Church",
-          "Independent Bookstore"
+        "category_list": [
+          {
+            "id": "191684877517919",
+            "name": "Publisher"
+          },
+          {
+            "id": "184266718279692",
+            "name": "Christian Church"
+          },
+          {
+            "id": "387228845011016",
+            "name": "Independent Bookstore"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong",
-        "email": "info@vwlink.net",
-        "tel": "24074000"
+        "emails": [
+          "info@vwlink.net"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://www.vwlink.net"
       },
       "url": "https://www.facebook.com/vwlink.net/"
     },
     {
       "url": "https://www.facebook.com/141838342592654/",
       "meta": {
-        "name": "德慧文化荃灣站書店",
         "id": "141838342592654",
+        "name": "德慧文化荃灣站書店",
         "about": "德慧荃灣站書店、Life Reading繪本館及德慧心靈輔導室, 三體合一的一個德慧文化Life幸福小店鋪, 我們冀盼到來的朋友,  對生命及信仰更有感、有靈智及信望愛、交會善美真聖的心靈空間。",
-        "categories": [
-          "Religious Bookstore"
+        "category_list": [
+          {
+            "id": "201787963175866",
+            "name": "Religious Bookstore"
+          }
         ],
-        "addr": "荃灣書室：荃灣青山道264-298號南豐中心19樓08室  　　　　　　　　　　　　　　　　　　　　　　　　",
-        "area": "N/A Tsuen Wan, Hong Kong",
-        "tel": "24074117"
+        "emails": [
+          "helen@vwlink.net，johnny@vwlink.net"
+        ],
+        "single_line_address": "荃灣書室：荃灣青山道264-298號南豐中心19樓08室  　　　　　　　　　　　　　　　　　　　　　　　　, N/A Tsuen Wan, Hong Kong",
+        "website": "http://www.vwlink.net"
       },
       "hidden": true
     },
     {
       "url": "https://www.facebook.com/LifeReading.vwlink/",
       "meta": {
-        "name": "Life Reading 繪本館",
         "id": "154292408057653",
-        "about": "開館時間：\n逢星期一至六\n早上10:30至晚上7:30\n逢星期日及公眾假期休館\n地址：荃灣南豐中心19樓08室\n電話查詢：24074117 / 2407 0050\n\n歡迎小組預約(大約15-20人)到來參觀(費用全免)",
-        "categories": [
-          "Bookstore"
+        "username": "LifeReading.vwlink",
+        "name": "Life Reading 繪本館",
+        "about": "開館時間：\n逢星期一至六\n早上10:30至晚上7:30\n逢星期日及公眾假期休館\n地址：荃灣南豐中心19樓08室\n電話查詢：24074117 / 2407 0050\n\n歡迎小組預約(大約15-20人)到來參觀(費用全免)\n\n\n",
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
         ],
-        "addr": "荃灣青山公路286-298號南豐中心19樓08室",
-        "area": "Hong Kong",
-        "email": "helen@vwlink.net",
-        "tel": "24070050"
+        "emails": [
+          "helen@vwlink.net"
+        ],
+        "single_line_address": "荃灣青山公路286-298號南豐中心19樓08室, Hong Kong",
+        "website": "http://www.vwlink.net"
       }
     },
     {

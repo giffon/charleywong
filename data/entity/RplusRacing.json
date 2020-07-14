@@ -6,11 +6,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "R+ Racing",
         "id": "1545535889073622",
-        "about": "Our company products are tested & trialed in the toughest world racing tournaments, aimed at providing only the best solutions for our customers.",
-        "categories": [
-          "Interest"
+        "username": "RplusRacing",
+        "name": "R+ Racing",
+        "about": "Our company products are tested & trialed in the toughest world racing tournaments, aimed at providing only the best solutions for our customers.\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       },
       "url": "https://www.facebook.com/RplusRacing/"

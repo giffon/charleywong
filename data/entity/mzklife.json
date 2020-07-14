@@ -18,15 +18,24 @@
     {
       "url": "https://www.facebook.com/mzklife/",
       "meta": {
-        "name": "花研草說 MZK Life",
         "id": "1816464185262470",
+        "username": "mzklife",
+        "name": "花研草說 MZK Life",
         "about": "Back to the Origin",
-        "categories": [
-          "Shopping & Retail",
-          "Food & Beverage Company"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2252",
+            "name": "Food & Beverage Company"
+          }
         ],
-        "email": "info@mzklife.com",
-        "tel": "52267899"
+        "emails": [
+          "info@mzklife.com"
+        ],
+        "website": "https://www.mzklife.com/"
       }
     }
   ],

@@ -6,18 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "name": "Diamond Circle 求婚鑽戒 結婚對戒 鑽石首飾",
         "id": "1444465662528362",
+        "username": "diamondcirclehk",
+        "name": "Diamond Circle 求婚鑽戒 結婚對戒 鑽石首飾",
         "about": "買鑽石最怕買錯, 買左唔係自己心目中所想要嘅鑽石! Diamond Circle嘅概念係以大型珠寶連鎖店一半嘅價錢根據客人要求去造出一件真真正正獨一無二嘅鑽石首飾!",
-        "categories": [
-          "Jewelry/Watches",
-          "Jewelry & Watches Store",
-          "Jewelry Wholesaler"
+        "category_list": [
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          },
+          {
+            "id": "188031587886173",
+            "name": "Jewelry & Watches Store"
+          },
+          {
+            "id": "155851681143483",
+            "name": "Jewelry Wholesaler"
+          }
         ],
-        "addr": "尖沙咀漆咸道南87-105號百利商業中心商場1樓45號鋪",
-        "area": "Hong Kong",
-        "email": "info@diamondcirclehk.com",
-        "tel": "61004851"
+        "emails": [
+          "info@diamondcirclehk.com"
+        ],
+        "single_line_address": "尖沙咀漆咸道南87-105號百利商業中心商場1樓45號鋪, Hong Kong",
+        "website": "https://wa.me/message/TWEVOHPY34YVD1"
       },
       "url": "https://www.facebook.com/diamondcirclehk/"
     },

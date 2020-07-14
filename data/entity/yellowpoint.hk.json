@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/yellowpoint.hk/",
       "meta": {
-        "name": "Yellow Point",
         "id": "101715631364567",
+        "username": "yellowpoint.hk",
+        "name": "Yellow Point",
         "about": "Yellow Point 是一個綜合「黃店百貨」及「黃店購物資訊」的推廣平台, 我們亦有設有網購形式的營運, 讓黃店可以透過平台在站內銷售商品, 作為推動本地品牌/供應商重要的一環。",
-        "categories": [
-          "Local Service"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "email": "cs@yellowpointhk.com"
+        "emails": [
+          "cs@yellowpointhk.com"
+        ],
+        "website": "https://www.yellowpointhk.com"
       }
     }
   ],

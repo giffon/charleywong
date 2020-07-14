@@ -7,15 +7,21 @@
     {
       "url": "https://www.facebook.com/musicatcafe/",
       "meta": {
-        "name": "Musicat Cafe",
         "id": "490707081070968",
+        "username": "musicatcafe",
+        "name": "Musicat Cafe",
         "about": "~溫馨提示~\n\n-本店為寵物友善餐廳,歡迎牽好你的小毛孩入內\n-內用客人每位低消$100\n-禁帶外食\n-由於座位有限,六日及國定假日,每桌用餐限90分鐘\n-敬請預約,訂位保留15分鐘,過時需重新輪候\n感謝合",
-        "categories": [
-          "Cafe",
-          "Diner"
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "西區中興街55號",
-        "area": "Taichung, Taiwan"
+        "single_line_address": "西區中興街55號, Taichung, Taiwan 401"
       }
     }
   ],

@@ -18,13 +18,24 @@
     {
       "url": "https://www.facebook.com/AntsPublicHK/",
       "meta": {
-        "name": "蟻民 Ants Public",
         "id": "1336901056322906",
+        "username": "AntsPublicHK",
+        "name": "蟻民 Ants Public",
         "about": "Ants Public宗旨係為蟻民生活增添歡樂。\n如有任何合作意向，歡迎inbox我哋查詢！",
-        "categories": [
-          "Podcast"
+        "category_list": [
+          {
+            "id": "627651640670228",
+            "name": "Podcast"
+          },
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "admin@antspublic.com"
+        "emails": [
+          "admin@antspublic.com"
+        ],
+        "website": "http://www.antspublic.com"
       }
     },
     {

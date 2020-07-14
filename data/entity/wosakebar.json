@@ -7,14 +7,21 @@
     {
       "url": "https://www.facebook.com/wosakebar/",
       "meta": {
-        "name": "和吧",
         "id": "324160355115736",
+        "username": "wosakebar",
+        "name": "和吧",
         "about": "專營\n日本清酒�\n日本啤酒�\n日本威士忌�\n各款酒類�\n及日式小食�\n地址 : 大角咀杉樹街3-11號，地下2號舖\n(見到大大個�鳥居�就係我哋啦)",
-        "categories": [
-          "Sake Bar"
+        "category_list": [
+          {
+            "id": "1640927539562872",
+            "name": "Sake Bar"
+          },
+          {
+            "id": "218693881483234",
+            "name": "Pub"
+          }
         ],
-        "addr": "大角咀杉樹街3-11號",
-        "area": "Kowloon, Hong Kong"
+        "single_line_address": "大角咀杉樹街3-11號, Kowloon, Hong Kong"
       }
     },
     {

@@ -6,15 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "蜜瓜爺爺",
         "id": "100590934723061",
+        "username": "Grandpamelon",
+        "name": "蜜瓜爺爺",
         "about": "蜜瓜專門店",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "太子界限街12號A地鋪",
-        "area": "Hong Kong",
-        "tel": "62022872"
+        "single_line_address": "太子界限街12號A地鋪, Hong Kong"
       },
       "url": "https://www.facebook.com/Grandpamelon/"
     },

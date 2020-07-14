@@ -6,12 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "Book Buddy",
         "id": "185058148177731",
-        "about": "English Children book and toy shop in Hong Kong. We have three branches in Windsor House and Popcorn Mall.",
-        "categories": [
-          "Games/Toys",
-          "Bookstore"
+        "username": "BookBuddyHK",
+        "name": "Book Buddy",
+        "about": "English Children book and toy shop in Hong Kong. We have three branches in Windsor House and Popcorn Mall. ",
+        "category_list": [
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          },
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
         ]
       },
       "url": "https://www.facebook.com/BookBuddyHK/"

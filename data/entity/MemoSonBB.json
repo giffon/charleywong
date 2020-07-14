@@ -17,13 +17,20 @@
     {
       "url": "https://www.facebook.com/MemoSonBB/",
       "meta": {
-        "name": "Memo子",
         "id": "131961343961171",
+        "username": "MemoSonBB",
+        "name": "Memo子",
         "about": "Stick to your daily happenings.\n\n緊「貼」日常",
-        "categories": [
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "sales@memoson.tv"
+        "emails": [
+          "sales@memoson.tv"
+        ],
+        "website": "www.memoson.tv"
       }
     },
     {

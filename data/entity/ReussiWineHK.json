@@ -8,17 +8,24 @@
     {
       "url": "https://www.facebook.com/ReussiWineHK/",
       "meta": {
-        "name": "Réussi Wine",
         "id": "1954315851537332",
+        "username": "ReussiWineHK",
+        "name": "Réussi Wine",
         "about": "Reussi Wine 為顧客搜羅世界各地紅白餐酒，務求為客人提供物超所值的餐酒體驗。我們可根據顧客要求提供選酒意見，歡迎到門市選購或網上/電話訂購。",
-        "categories": [
-          "Wine, Beer & Spirits Store",
-          "Local Business"
+        "category_list": [
+          {
+            "id": "199833073363963",
+            "name": "Wine, Beer & Spirits Store"
+          },
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "Shop B72, 1/F, San Po Kong Plaza, 33 Shung Ling Street, San Po Kong, Kowloon 九龍新蒲崗崇齡街33號新蒲崗廣場1樓B72鋪",
-        "area": "Hong Kong",
-        "email": "reussiwine@gmail.com",
-        "tel": "61177162"
+        "emails": [
+          "reussiwine@gmail.com"
+        ],
+        "single_line_address": "Shop B72, 1/F, San Po Kong Plaza, 33 Shung Ling Street, San Po Kong, Kowloon 九龍新蒲崗崇齡街33號新蒲崗廣場1樓B72鋪, Hong Kong"
       }
     },
     {

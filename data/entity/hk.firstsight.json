@@ -8,14 +8,20 @@
     {
       "url": "https://www.facebook.com/hk.firstsight/",
       "meta": {
-        "name": "初見 First Sight_HK",
         "id": "108402964078425",
-        "about": "初見 —— 大家不忘初心，渴望見到最初的香港。\n-\n本平台由一群熱心香港人及年輕人組成，推出不同原創商品，並將產品所得收益用以資助年輕人。\n-\n光復香港 時代革命\n五大訴求 缺一不可",
-        "categories": [
-          "Product/Service"
+        "username": "hk.firstsight",
+        "name": "初見 First Sight_HK",
+        "about": "初見 —— 大家不忘初心，渴望見到最初的香港。\n-\n本平台由一群熱心香港人及年輕人組成，推出不同原創商品，並將產品所得收益用以資助年輕人。\n-",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "hkfirstsight@gmail.com",
-        "tel": "60385414"
+        "emails": [
+          "hkfirstsight@gmail.com"
+        ],
+        "single_line_address": "852 Hong Kong"
       }
     },
     {

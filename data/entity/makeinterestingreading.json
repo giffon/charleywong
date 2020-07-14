@@ -10,10 +10,16 @@
     {
       "meta": {
         "id": "2054342341501416",
+        "username": "makeinterestingreading",
+        "name": "書生百用",
         "about": "書生百用。有趣、有用、有深度，是這裡的宗旨。在繁忙的生活中，陪你一起輕輕鬆鬆讀點書。",
-        "categories": [
-          "Writer"
-        ]
+        "category_list": [
+          {
+            "id": "1109",
+            "name": "Writer"
+          }
+        ],
+        "website": "https://chitchitphilosophy.blogspot.hk/"
       },
       "url": "https://www.facebook.com/makeinterestingreading/"
     }

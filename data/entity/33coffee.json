@@ -11,16 +11,28 @@
     {
       "meta": {
         "id": "422086654792702",
+        "username": "33coffee",
+        "name": "Sansan Coffee Workshop 叁叁咖啡工匠",
         "about": "我們的宗旨是推動本土精品咖啡文化。從豆子入手，不定期更新豆單，挑選高品質的咖啡豆，以商宜價格定價，使精品咖啡更「貼地」。\n我們亦會定期舉辦咖啡興趣班及分享會，歡迎查詢！",
-        "categories": [
-          "Coffee shop",
-          "Arts and crafts shop",
-          "Producer"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "169363643109176",
+            "name": "Merchandising Service"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "addr": "Flat 3, 22/F,83-93. Chai Wan Kok ST,",
-        "area": "Tsuen Wan, Hong Kong",
-        "email": "sansancoffee.hk@gmail.com",
-        "tel": "91629826"
+        "emails": [
+          "sansancoffee.hk@gmail.com"
+        ],
+        "single_line_address": "Flat 3, 22/F,83-93. Chai Wan Kok ST,, Tsuen Wan, Hong Kong",
+        "website": "http://sansancoffee.simplesite.com"
       },
       "url": "https://www.facebook.com/33coffee/"
     },

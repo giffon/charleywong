@@ -9,16 +9,21 @@
     },
     {
       "meta": {
-        "name": "18 Gifts - 香港No.1網上成人用品店",
         "id": "223505551141543",
+        "username": "18gifts",
+        "name": "18 Gifts - 香港No.1網上成人用品店",
         "about": "18Gifts 是一間專為所有人而設的成人用品店，我們深信每個人都有性愛的權利，無論是男性、女生、LGBT、不同種族、殘疾人士等都有平等權利去享受性愛。",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "荔枝角香港工業中心A座6樓6D室 (荔枝角站C出口)",
-        "area": "00852 Hong Kong",
-        "email": "cs@18gifts.com",
-        "tel": "61295309"
+        "emails": [
+          "cs@18gifts.com"
+        ],
+        "single_line_address": "荔枝角香港工業中心A座6樓6D室 (荔枝角站C出口), 00852 Hong Kong",
+        "website": "http://www.18gifts.com/"
       },
       "url": "https://www.facebook.com/18gifts/"
     },

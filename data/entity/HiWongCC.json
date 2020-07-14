@@ -11,15 +11,25 @@
     {
       "url": "https://www.facebook.com/HiWongCC/",
       "meta": {
-        "name": "Nutsdiary 營養師手記",
         "id": "168200145689",
-        "about": "黃凱詩營養師(Cynthia Wong)\n識飲識食才會愈食愈FIT\n一個營養師的減肥心得分享\nTel：29920148\n工作洽談: info@nutracare.com.hk",
-        "categories": [
-          "Author",
-          "Nutritionist"
+        "username": "HiWongCC",
+        "name": "Nutsdiary 營養師手記",
+        "about": "黃凱詩營養師(Cynthia Wong) \n識飲識食才會愈食愈FIT\n一個營養師的減肥心得分享\nTel：29920148\n工作洽談: info@nutracare.com.hk",
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          },
+          {
+            "id": "197995016883073",
+            "name": "Nutritionist"
+          }
         ],
-        "email": "nutsdiary@gmail.com",
-        "tel": "29920148"
+        "emails": [
+          "nutsdiary@gmail.com"
+        ],
+        "single_line_address": "nutracare consultancy limited",
+        "website": "www.nutsdiary.blogspot.com; www.nutracare.com.hk"
       }
     }
   ],

@@ -18,18 +18,29 @@
     {
       "url": "https://www.facebook.com/1placehk/",
       "meta": {
-        "name": "1 Place 壹立方",
         "id": "183622015769081",
-        "about": "Co-Working • Co-Study • Leisure • Event\n工作 • 自修 • 休閒 • 共享空間\n\nWhatsapp : 9157 9628\n\nSpaces :\nStudying Nooks, Group Discussion Rooms, Refresh Area",
-        "categories": [
-          "Local Service",
-          "Coffee Shop",
-          "Product/Service"
+        "username": "1placehk",
+        "name": "1 Place 壹立方",
+        "about": "Co-Working • Co-Study • Leisure •  Event\n工作 • 自修 • 休閒 • 共享空間\n\nWhatsapp : 9157 9628\n\nSpaces :\nStudying Nooks, Group Discussion Rooms, Refresh Area",
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "2/F, 68 Heung Wo Street, Tsuen Wan",
-        "area": "Tsuen Wan, Hong Kong",
-        "email": "cs@1-place.hk",
-        "tel": "23920922"
+        "emails": [
+          "cs@1-place.hk"
+        ],
+        "single_line_address": "2/F, 68 Heung Wo Street, Tsuen Wan, HK Tsuen Wan, Hong Kong",
+        "website": "http://www.1-place.hk"
       }
     }
   ],

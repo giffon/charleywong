@@ -7,16 +7,19 @@
     {
       "meta": {
         "id": "160377947770807",
+        "username": "3crazycatsss",
+        "name": "三貓黨",
         "about": "無定向胡亂塗鴉~",
-        "categories": [
-          "Personal blog",
-          "Product/service",
-          "Arts and entertainment"
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "addr": "B 39, 368 Lockhart Road",
-        "area": "Hong Kong",
-        "email": "kennytangworkshop@gmail.com",
-        "tel": "92029200"
+        "emails": [
+          "kennytangworkshop@gmail.com"
+        ],
+        "single_line_address": "B 39, 368 Lockhart Road, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/3crazycatsss/"
     },

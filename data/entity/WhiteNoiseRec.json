@@ -7,15 +7,20 @@
     {
       "url": "https://www.facebook.com/WhiteNoiseRec/",
       "meta": {
-        "name": "White Noise Records",
         "id": "124799410867193",
-        "categories": [
-          "Movie & Music Store"
+        "username": "WhiteNoiseRec",
+        "name": "White Noise Records",
+        "category_list": [
+          {
+            "id": "150432221681325",
+            "name": "Movie & Music Store"
+          }
         ],
-        "addr": "G/F, 199 Tai Nan Street",
-        "area": "N/A Sham Shui Po",
-        "email": "whitenoiserecordshk@gmail.com",
-        "tel": "25910499"
+        "emails": [
+          "whitenoiserecordshk@gmail.com"
+        ],
+        "single_line_address": "G/F, 199 Tai Nan Street, N/A Sham Shui Po",
+        "website": "http://www.whitenoiserecords.org"
       }
     },
     {

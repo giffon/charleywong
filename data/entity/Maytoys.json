@@ -10,16 +10,29 @@
     },
     {
       "meta": {
-        "name": "五月玩具店 Maytoys",
         "id": "329898277080217",
-        "about": "本店地址: 旺角信和中心1樓121號舖或2樓208號舖 ，本店專營各種動漫玩具，PVC FIGURE，超合金，聖衣神話，果子食玩，日本景品，一番抽獎等等\n營業時間 星期一至日13:00-22:00 \nTel 35720738",
-        "categories": [
-          "Retail Company",
-          "Toy Store",
-          "Shopping Service"
+        "username": "Maytoys",
+        "name": "五月玩具店 Maytoys",
+        "about": " 本店地址: 旺角信和中心1樓121號舖或2樓208號舖 ，本店專營各種動漫玩具，PVC FIGURE，超合金，聖衣神話，果子食玩，日本景品，一番抽獎等等\n營業時間 星期一至日13:00-22:00 \nTel 35720738",
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          },
+          {
+            "id": "200046713342752",
+            "name": "Shopping Service"
+          }
         ],
-        "email": "may_toys0527@yahoo.com.hk",
-        "tel": "35720738"
+        "emails": [
+          "may_toys0527@yahoo.com.hk"
+        ],
+        "single_line_address": "旺角信和中心1樓121號舖或2樓208號舖",
+        "website": "http://hk.user.auctions.yahoo.com/hk/user/may_toys0527&u=:may_toys0527&tp="
       },
       "url": "https://www.facebook.com/Maytoys/"
     }

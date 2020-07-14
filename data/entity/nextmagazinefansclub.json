@@ -10,12 +10,20 @@
     {
       "meta": {
         "id": "121625551334730",
+        "username": "nextmagazinefansclub",
+        "name": "壹週刊",
         "about": "不扮高深　只求傳真",
-        "categories": [
-          "Media/news company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "news@nextdigital.com.hk",
-        "tel": "95572778"
+        "emails": [
+          "news@nextdigital.com.hk"
+        ],
+        "single_line_address": "Tseung Kwan O, Hong Kong",
+        "website": "https://hk.nextmgz.com/"
       },
       "url": "https://www.facebook.com/nextmagazinefansclub/"
     },

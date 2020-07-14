@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/go12345taiwan/",
       "meta": {
-        "name": "古月聚台灣古早味美食-元朗店",
         "id": "996906063763696",
+        "username": "go12345taiwan",
+        "name": "古月聚台灣古早味美食-元朗店",
         "about": "裕園股份有限公司",
-        "categories": [
-          "Taiwanese Restaurant"
+        "category_list": [
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          }
         ],
-        "addr": "元朗馬田路20-30B號安寧大廈2號地舖",
-        "area": "Yuen Long",
-        "tel": "37051396"
+        "single_line_address": "元朗馬田路20-30B號安寧大廈2號地舖, Yuen Long"
       }
     }
   ],

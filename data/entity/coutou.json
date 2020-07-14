@@ -10,12 +10,18 @@
     },
     {
       "meta": {
-        "name": "草途木研社 Coutou Woodworking Studio",
         "id": "1482532171765961",
+        "username": "coutou",
+        "name": "草途木研社 Coutou Woodworking Studio",
         "about": "木匠與學生交流的地方，讓大家回到學習原點。",
-        "categories": [
-          "Art"
-        ]
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          }
+        ],
+        "single_line_address": "On lok factory building, 95 ha heung road,, To Kwa Wan",
+        "website": "https://www.coutou.space/"
       },
       "url": "https://www.facebook.com/coutou/"
     },

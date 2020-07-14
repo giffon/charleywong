@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/wykemilia/",
       "meta": {
-        "name": "Emilia Wong",
         "id": "860390390784151",
+        "username": "wykemilia",
+        "name": "Emilia Wong",
         "about": "擺喺度",
-        "categories": [
-          "Personal Blog"
-        ]
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
+        ],
+        "website": "http://emiliawyk.com"
       }
     },
     {

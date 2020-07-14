@@ -10,18 +10,29 @@
     },
     {
       "meta": {
-        "name": "香港終端 terminalhk - 為香港 建立更多信心",
         "id": "1491957431077967",
+        "username": "hkterminal",
+        "name": "香港終端 terminalhk - 為香港 建立更多信心",
         "about": "香港終端 (terminalhk.com) 官方 Facebook Page",
-        "categories": [
-          "E-commerce Website",
-          "Computer Store",
-          "Computer Company"
+        "category_list": [
+          {
+            "id": "1756049968005436",
+            "name": "E-commerce Website"
+          },
+          {
+            "id": "199512783398620",
+            "name": "Computer Store"
+          },
+          {
+            "id": "2255",
+            "name": "Computer Company"
+          }
         ],
-        "addr": "3A Hung Cheong Factory Building, 742-748 Cheung Sha Wan Road",
-        "area": "Lai Chi Kok",
-        "email": "contact@terminalhk.com",
-        "tel": "37047358"
+        "emails": [
+          "contact@terminalhk.com"
+        ],
+        "single_line_address": "3A Hung Cheong Factory Building, 742-748 Cheung Sha Wan Road, Lai Chi Kok",
+        "website": "http://www.terminalhk.com"
       },
       "url": "https://www.facebook.com/hkterminal/"
     },

@@ -18,13 +18,21 @@
     {
       "url": "https://www.facebook.com/RoadResearch/",
       "meta": {
-        "name": "Road Research Society 道路硏究社",
         "id": "1252628151428934",
-        "about": "本社秉持「道路事，話你知」精神，爲大衆提供道路資訊及知識。致力於硏究香港道路設計及其改善計劃。本社之專欄於逢週末更新。",
-        "categories": [
-          "Non-Governmental Organization (NGO)"
+        "username": "RoadResearch",
+        "name": "Road Research Society 道路硏究社",
+        "about": "本社秉持「道路事，話你知」精神，爲大衆提供道路資訊及知識。致力於硏究香港道路設計及其改善計劃。著有《香港道路探索──路牌標誌X交通設計》。",
+        "category_list": [
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          }
         ],
-        "email": "road.research.society@gmail.com"
+        "emails": [
+          "road.research.society@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "road.org.hk"
       }
     }
   ],

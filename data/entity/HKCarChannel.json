@@ -10,12 +10,20 @@
     },
     {
       "meta": {
-        "name": "汽車台 HK Car Channel",
         "id": "613890279077524",
-        "categories": [
-          "News & Media Website"
+        "username": "HKCarChannel",
+        "name": "汽車台 HK Car Channel",
+        "about": "汽車台 HK Car Channel 網站為一個由多名在不同汽車及運輸行業背景的成員建立的汽車資訊網站的關連專頁，旨在分享本港，以及世界各地有關巴士及小巴以外的汽車資訊及新聞。",
+        "category_list": [
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
         ],
-        "email": "hkcarchannel@gmail.com"
+        "emails": [
+          "hkcarchannel@gmail.com"
+        ],
+        "website": "http://www.hkcarchannel.com/"
       },
       "url": "https://www.facebook.com/HKCarChannel/"
     }

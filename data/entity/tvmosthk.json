@@ -9,12 +9,17 @@
     },
     {
       "meta": {
-        "name": "毛記電視",
         "id": "1625935910988073",
+        "username": "tvmosthk",
+        "name": "毛記電視",
         "about": "【毛記電視】\n全力以赴　毛牌仲好",
-        "categories": [
-          "TV Channel"
-        ]
+        "category_list": [
+          {
+            "id": "1404",
+            "name": "TV Channel"
+          }
+        ],
+        "website": "http://www.tvmost.com.hk/"
       },
       "url": "https://www.facebook.com/tvmosthk/"
     },

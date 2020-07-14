@@ -8,18 +8,28 @@
     {
       "url": "https://www.facebook.com/grandmusichk/",
       "meta": {
-        "name": "百樂琴行 Grand Music",
         "id": "295889170796566",
+        "username": "grandmusichk",
+        "name": "百樂琴行 Grand Music",
         "about": "百樂琴行始於1987年，三十年來致力推廣音樂文化。歷年來學員於公開比賽及考試均獲取優異成績。",
-        "categories": [
-          "Musical Instrument Store",
-          "Music Lessons & Instruction School",
-          "School"
+        "category_list": [
+          {
+            "id": "139750396088115",
+            "name": "Musical Instrument Store"
+          },
+          {
+            "id": "186983191324114",
+            "name": "Music Lessons & Instruction School"
+          },
+          {
+            "id": "2601",
+            "name": "School"
+          }
         ],
-        "addr": "土瓜灣馬頭圍道197-199號地下",
-        "area": "Kowloon, Hong Kong",
-        "email": "info@grandmusichk.com",
-        "tel": "27620332"
+        "emails": [
+          "info@grandmusichk.com"
+        ],
+        "single_line_address": "土瓜灣馬頭圍道197-199號地下, Kowloon, Hong Kong"
       }
     },
     {

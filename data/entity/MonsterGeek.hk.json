@@ -10,16 +10,29 @@
     },
     {
       "meta": {
-        "name": "MonsterGeek Board Game Store 棋怪桌上遊戲專門店 - 香港",
         "id": "514411628733082",
+        "username": "MonsterGeek.hk",
+        "name": "MonsterGeek Board Game Store 棋怪桌上遊戲專門店 - 香港",
         "about": "提供桌上遊戲零售及在場教學服務。除了在旺角的實體店外，更設有網上商店直接購買。",
-        "categories": [
-          "Games/Toys",
-          "Shopping & Retail",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "monstergeek.bg@gmail.com",
-        "tel": "21144113"
+        "emails": [
+          "monstergeek.bg@gmail.com"
+        ],
+        "single_line_address": "旺角上海街682號潤基商業大廈17樓A室, 0000 Mong Kok",
+        "website": "https://www.monstergeekbg.com/"
       },
       "url": "https://www.facebook.com/MonsterGeek.hk/"
     },

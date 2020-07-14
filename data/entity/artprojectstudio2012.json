@@ -6,16 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "ArtProjectstudio",
         "id": "386314844771919",
+        "username": "artprojectstudio2012",
+        "name": "ArtProjectstudio",
         "about": "創意攝影服務:\n - 我們擁有豐富的拍攝經驗, 獨特的攝影方式.\n- 善於捕捉客人的神情及獨特個性, 為每位客人捕捉最甜美,難忘的一刻。",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "Room 2811 Trendy Centre 682 Castle Peak Road Kowloon",
-        "area": "852 Lai Chi Kok",
-        "email": "artproject2012@yahoo.com.hk",
-        "tel": "98722180"
+        "single_line_address": "Room 2811 Trendy Centre 682 Castle Peak Road Kowloon, 852 Lai Chi Kok"
       },
       "url": "https://www.facebook.com/artprojectstudio2012/"
     }

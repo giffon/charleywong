@@ -10,15 +10,28 @@
     {
       "meta": {
         "id": "1479801235571839",
+        "username": "theyardltd",
+        "name": "The Yard HK",
         "about": "地址：九龍新蒲崗五芳街31-33號永顯工業大廈8樓D室",
-        "categories": [
-          "Performance & event venue",
-          "Event planner",
-          "Dance school"
+        "category_list": [
+          {
+            "id": "179943432047564",
+            "name": "Performance & Event Venue"
+          },
+          {
+            "id": "1554062478223469",
+            "name": "Dance School"
+          },
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          }
         ],
-        "addr": "8D, Wing Hin Factory Building, 31-33 Ng fong street, San Po Kong, Kowloon.",
-        "area": "Hong Kong",
-        "email": "info@theyard.com.hk"
+        "emails": [
+          "info@theyard.com.hk"
+        ],
+        "single_line_address": "8D, Wing Hin Factory Building, 31-33 Ng fong street, San Po Kong, Kowloon., Hong Kong",
+        "website": "http://www.theyard.com.hk"
       },
       "url": "https://www.facebook.com/theyardltd/"
     }

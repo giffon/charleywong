@@ -7,17 +7,29 @@
   "webpages": [
     {
       "meta": {
+        "id": "343221842543433",
+        "username": "theprefacehk",
+        "name": "本木序 The Preface",
         "about": "天然農作 x 個人護理品牌\n-支持本地農業\n-反對動物測試\n-保護水土健康\n-實行環保回收",
-        "categories": [
-          "Shopping & retail",
-          "Health/beauty",
-          "Beauty, cosmetic & personal care"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "addr": "觀塘開源道62號駱駝大廈一座7樓A9室",
-        "area": "Kwun Tong",
-        "email": "info@thepreface.hk",
-        "tel": "39563447",
-        "id": "343221842543433"
+        "emails": [
+          "info@thepreface.hk"
+        ],
+        "single_line_address": "旺角彌敦道560號譽發廣場15樓1501室, Hong Kong",
+        "website": "https://eshop.thepreface.hk/"
       },
       "url": "https://www.facebook.com/theprefacehk/"
     }
@@ -31,7 +43,8 @@
     }
   ],
   "tags": [
-    "shop","skincare"
+    "shop",
+    "skincare"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00326"

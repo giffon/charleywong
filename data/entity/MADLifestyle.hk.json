@@ -6,17 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "MAD Lifestyle - Private Structure, TOOT, GX3, Addicted",
         "id": "1767157033501235",
+        "username": "MADLifestyle.hk",
+        "name": "MAD Lifestyle - Private Structure, TOOT, GX3, Addicted",
         "about": "MAD 男士內褲、泳褲、運動服及生活休閒專門店。\nMAD is Men's Swimwear, Underwear, Gymwear & Lifestyle Store.\n國際品牌 Worldwide Labels: Private Structure / TOOT / ADDICTED / GX3 / C-in2",
-        "categories": [
-          "Shopping & Retail",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "旺角西洋菜南街5號好望角大廈16樓1603室 Room 1603, 16/F, Good Hope Bldg., 5 Sai Yeung Choi Street South, Mong Kok",
-        "area": "999097 Mong Kok",
-        "email": "madlifestyle.hk@gmail.com",
-        "tel": "23703900"
+        "emails": [
+          "madlifestyle.hk@gmail.com"
+        ],
+        "single_line_address": "旺角西洋菜南街5號好望角大廈16樓1603室 Room 1603, 16/F, Good Hope Bldg., 5 Sai Yeung Choi Street South, Mong Kok, 999097 Mong Kok"
       },
       "url": "https://www.facebook.com/MADLifestyle.hk/"
     },

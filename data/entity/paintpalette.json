@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/paintpalette/",
       "meta": {
-        "name": "Paint Palette 悠油畫室",
         "id": "166769186669785",
+        "username": "paintpalette",
+        "name": "Paint Palette 悠油畫室",
         "about": "For all art lovers - Art lessons, art jamming or venue rental, party service. \n提供畫班, Art jam, 場地租用, 派對服務, 歡迎查詢。\nCall us or Whatsapp 91961128",
-        "categories": [
-          "Art School"
+        "category_list": [
+          {
+            "id": "164288046954643",
+            "name": "Art School"
+          }
         ],
-        "addr": "銅鑼灣駱克道514號三樓",
-        "area": "nil Hong Kong",
-        "email": "paintpalettehk@gmail.com",
-        "tel": "91961128"
+        "emails": [
+          "paintpalettehk@gmail.com"
+        ],
+        "single_line_address": "銅鑼灣駱克道514號三樓, nil Hong Kong",
+        "website": "http://www.paintpalettehk.com/"
       }
     },
     {

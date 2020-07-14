@@ -7,17 +7,28 @@
     {
       "url": "https://www.facebook.com/beeger2/",
       "meta": {
-        "name": "Beeger2",
         "id": "1694491110772493",
+        "username": "beeger2",
+        "name": "Beeger2",
         "about": "All about beer and burger.",
-        "categories": [
-          "Burger Restaurant",
-          "Gastropub"
+        "category_list": [
+          {
+            "id": "187425207958280",
+            "name": "Burger Restaurant"
+          },
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          },
+          {
+            "id": "164049010316507",
+            "name": "Gastropub"
+          }
         ],
-        "addr": "Shop J, May Sun Building, 1-15 Smithfield, Kennedy Town",
-        "area": "Hong Kong",
-        "email": "beeger2hk@gmail.com",
-        "tel": "28122328"
+        "emails": [
+          "beeger2hk@gmail.com"
+        ],
+        "single_line_address": "Shop J, May Sun Building, 1-15 Smithfield, Kennedy Town, Hong Kong"
       }
     },
     {

@@ -10,16 +10,28 @@
     {
       "meta": {
         "id": "377218225744484",
+        "username": "kizzmakeup",
+        "name": "KIZZ Makeup - Bridal, events & commercial",
         "about": "KIZZ Makeup提供各類型化妝服務，包括：新娘／姐妹化妝、廣告雜誌攝影、舞台表演或私人派對。有興趣／預約試妝服務請電郵至 kizzmakeup@gmail.com / 致電 9028-7217 查詢。",
-        "categories": [
-          "Makeup artist",
-          "Health/beauty",
-          "Wedding planning service"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "addr": "503， Kin Sang Building, 147 Wai Yip Street, Ngau Tau Kok, Kowloon 九龍牛頭角偉業街147號建生大廈5/F 503室",
-        "area": "Hong Kong",
-        "email": "kizzmakeup@gmail.com",
-        "tel": "90287217"
+        "emails": [
+          "kizzmakeup@gmail.com"
+        ],
+        "single_line_address": "503， Kin Sang Building, 147 Wai Yip Street, Ngau Tau Kok, Kowloon 九龍牛頭角偉業街147號建生大廈5/F 503室, 852 Hong Kong",
+        "website": "http://www.kizz.com.hk"
       },
       "url": "https://www.facebook.com/kizzmakeup/"
     },

@@ -11,15 +11,24 @@
     {
       "url": "https://www.facebook.com/songwifitravel/",
       "meta": {
-        "name": "SONGWIFI爽WiFi - 旅行上網WiFi方案",
         "id": "1572380433006810",
+        "username": "songwifitravel",
+        "name": "SONGWIFI爽WiFi - 旅行上網WiFi方案",
         "about": "爽WiFi - 香港機場提供24小時櫃檯服務外, 更提供2個位於市區官塘及尖沙咀門市, 專營世界各地Pocket WiFi租借服務, 而專頁亦會分享不同旅遊資訊,包括平價機票, 酒店優惠, 旅行必去地方",
-        "categories": [
-          "Internet Service Provider",
-          "Travel Company"
+        "category_list": [
+          {
+            "id": "187215161312096",
+            "name": "Internet Service Provider"
+          },
+          {
+            "id": "2258",
+            "name": "Travel Company"
+          }
         ],
-        "email": "info@songwifi.com.hk",
-        "tel": "37098118"
+        "emails": [
+          "info@songwifi.com.hk"
+        ],
+        "website": "http://www.songwifi.com.hk/"
       }
     },
     {

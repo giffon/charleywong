@@ -7,12 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "HKPUSU Cartoons Art Society 香港理工大學動畫及漫畫學會",
         "id": "267361573469632",
-        "categories": [
-          "Nonprofit Organization"
+        "username": "HKPUSUCAS",
+        "name": "HKPUSU Cartoons Art Society 香港理工大學動畫及漫畫學會",
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          }
         ],
-        "email": "comic@su.polyu.edu.hk"
+        "emails": [
+          "comic@su.polyu.edu.hk"
+        ],
+        "website": "https://hkpusu-cas.github.io/"
       },
       "url": "https://www.facebook.com/HKPUSUCAS/"
     },

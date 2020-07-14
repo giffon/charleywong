@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/the5bprivatecorner/",
       "meta": {
-        "name": "The 5B Private Corner",
         "id": "1473587822938593",
-        "about": "Support you always",
-        "categories": [
-          "Restaurant",
-          "Coffee Shop"
+        "username": "the5bprivatecorner",
+        "name": "The 5B Private Corner",
+        "about": "Support you always ",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "荃灣柴灣角街38-40號銓通工業大廈5樓B室",
-        "area": "852 Hong Kong",
-        "email": "kelvin.teamstrong@gmail.com",
-        "tel": "39563926"
+        "emails": [
+          "kelvin.teamstrong@gmail.com"
+        ],
+        "single_line_address": "荃灣柴灣角街38-40號銓通工業大廈5樓B室, 852 Hong Kong"
       }
     },
     {

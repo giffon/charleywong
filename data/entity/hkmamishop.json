@@ -11,12 +11,27 @@
     {
       "meta": {
         "id": "1769920059903530",
-        "about": "HKmamishop為大家搜羅最抵最有用既產品/服務\n亦會為大家提供各種育兒資訊，家居小百科，食譜，烘焙等資訊",
-        "categories": [
-          "Interest"
+        "username": "hkmamishop",
+        "name": "HKmamishop 香港媽咪一站式購物網站",
+        "about": "HKmamishop為大家搜羅最抵最有用既產品/服務\n亦會為大家提供各種育兒資訊，家居小百科，食譜，烘焙等資訊 ",
+        "category_list": [
+          {
+            "id": "2232",
+            "name": "Baby Goods/Kids Goods"
+          },
+          {
+            "id": "192614304101075",
+            "name": "Baby & Children's Clothing Store"
+          },
+          {
+            "id": "288846958171402",
+            "name": "Boutique Store"
+          }
         ],
-        "email": "info@hkmamishop.com",
-        "tel": "95579355"
+        "emails": [
+          "info@hkmamishop.com"
+        ],
+        "website": "http://hkmamishop.com"
       },
       "url": "https://www.facebook.com/hkmamishop/"
     }

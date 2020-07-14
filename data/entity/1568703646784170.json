@@ -6,12 +6,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "魚蛋佬",
         "id": "1568703646784170",
-        "about": "太安樓魚蛋佬，良心小店，願榮光歸香港���",
-        "categories": [
-          "Food & Beverage Company"
-        ]
+        "name": "魚蛋佬",
+        "about": "太安樓魚蛋佬，良心小店，香港人的加油站",
+        "category_list": [
+          {
+            "id": "2252",
+            "name": "Food & Beverage Company"
+          }
+        ],
+        "single_line_address": "西灣河筲箕灣道57-87號太安樓A28B地舖, 香港"
       },
       "url": "https://www.facebook.com/1568703646784170/"
     }

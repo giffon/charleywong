@@ -7,11 +7,15 @@
     {
       "url": "https://www.facebook.com/weareOTR/",
       "meta": {
-        "name": "豆腐小員雜貨小店",
         "id": "506365429554849",
-        "about": "豆腐小員雜貨小店(註冊名稱：ON THE ROAD）\n本店從各地搜羅急救醫療人員行動常用的裝備、工具、精品，DUTY從此變得更多姿彩。",
-        "categories": [
-          "Tools/Equipment"
+        "username": "weareOTR",
+        "name": "豆腐小員雜貨小店",
+        "about": "豆腐小員雜貨小店(註冊名稱：ON THE ROAD）\n本店從各地搜羅急救醫療人員行動常用的裝備、工具、精品，DUTY從此變得更多姿彩。\n",
+        "category_list": [
+          {
+            "id": "2223",
+            "name": "Tools/Equipment"
+          }
         ]
       }
     }

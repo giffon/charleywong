@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/Prettyland.herbal/",
       "meta": {
-        "name": "美蘭海味湯料Prettylandherbal",
         "id": "348740255143856",
+        "username": "Prettyland.herbal",
+        "name": "美蘭海味湯料Prettylandherbal",
         "about": "美蘭海味湯料Prettylandherbal\n實體舖\n1. 大埔綜合大樓1樓D55號舖\n2. 大埔寶鄉街1號寶鄉村地下G08號舖-HelloCandy(售賣混合花茶/花果茶/茶包/一至二人份湯包/燜燒湯包/糖果",
-        "categories": [
-          "Shopping & Retail",
-          "Specialty Grocery Store"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "162264673824073",
+            "name": "Specialty Grocery Store"
+          }
         ],
-        "addr": "新界大埔鄉事會街8號大埔綜合大樓1樓D55號舖",
-        "area": "Hong Kong",
-        "email": "prettyland_bid@yahoo.com.hk",
-        "tel": "35863073"
+        "emails": [
+          "prettyland_bid@yahoo.com.hk"
+        ],
+        "single_line_address": "新界大埔鄉事會街8號大埔綜合大樓1樓D55號舖, Hong Kong",
+        "website": "prettylandherbal.store"
       }
     },
     {

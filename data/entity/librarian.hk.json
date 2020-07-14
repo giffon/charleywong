@@ -7,16 +7,24 @@
     {
       "url": "https://www.facebook.com/librarian.hk/",
       "meta": {
-        "name": "Librarian.hk",
         "id": "176635596562265",
+        "username": "librarian.hk",
+        "name": "Librarian.hk",
         "about": "All about taste",
-        "categories": [
-          "Restaurant",
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "鴻圖道 70號",
-        "area": "Kwun Tong",
-        "email": "librarian.0922@gmail.com"
+        "emails": [
+          "librarian.0922@gmail.com"
+        ],
+        "single_line_address": "鴻圖道 70號, Kwun Tong"
       }
     }
   ],

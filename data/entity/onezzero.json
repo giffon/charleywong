@@ -6,15 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "about": "_ONE+ZERO_\n-VINTAGE 古著店-\n+親自出國為大家挑選貨品...\n\n\nSee more",
-        "categories": [
-          "Vintage shop",
-          "Clothes shop"
+        "id": "240782003026621",
+        "username": "onezzero",
+        "name": "One+Zero",
+        "about": "_ONE+ZERO_\n-VINTAGE 古著店-\n+親自出國為大家挑選貨品\n+由2個喜愛古著既小伙子組成\n+我地會不定期出國尋找至令既古著\n+希望在這𥚃找到最適合自已既風格\n",
+        "category_list": [
+          {
+            "id": "194127957280024",
+            "name": "Vintage Store"
+          },
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          }
         ],
-        "addr": "Hong Kong",
-        "area": "Hong Kong",
-        "tel": "61544683",
-        "id": "240782003026621"
+        "single_line_address": "Hong Kong, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/onezzero/"
     }

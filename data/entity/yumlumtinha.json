@@ -8,11 +8,15 @@
     {
       "url": "https://www.facebook.com/yumlumtinha/",
       "meta": {
-        "name": "Candy Lo",
         "id": "1511394395812379",
+        "username": "yumlumtinha",
+        "name": "Candy Lo",
         "about": "盧巧音官方專頁\nCandy Lo's Official Fans Page",
-        "categories": [
-          "Musician/Band"
+        "category_list": [
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ]
       }
     },

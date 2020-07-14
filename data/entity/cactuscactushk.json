@@ -6,14 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Cactus.cactus",
         "id": "1656439927742246",
-        "categories": [
-          "Shopping & Retail",
-          "Clothing (Brand)"
+        "username": "cactuscactushk",
+        "name": "Cactus.cactus",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "addr": "葵涌廣場3樓時尚坊20號",
-        "area": "Hong Kong"
+        "single_line_address": "葵涌廣場3樓時尚坊20號, Hong Kong"
       },
       "url": "https://www.facebook.com/cactuscactushk/"
     },

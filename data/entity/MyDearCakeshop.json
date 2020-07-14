@@ -7,15 +7,20 @@
     {
       "url": "https://www.facebook.com/MyDearCakeshop/",
       "meta": {
-        "name": "MyDear烘焙工房",
         "id": "279166785443363",
+        "username": "MyDearCakeshop",
+        "name": "MyDear烘焙工房",
         "about": "私人訂制：立體蛋糕，平面蛋糕，cookies ，cupcake，馬卡龍\n地址：香港仔舊大街118號兆群商場1樓20號",
-        "categories": [
-          "Bakery"
+        "category_list": [
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          }
         ],
-        "addr": "香港仔舊大街118號兆群商場1樓20號",
-        "area": "852 Aberdeen, Hong Kong",
-        "email": "mydearcake@hotmail.com"
+        "emails": [
+          "mydearcake@hotmail.com"
+        ],
+        "single_line_address": "香港仔舊大街118號兆群商場1樓20號, 852 Aberdeen, Hong Kong"
       }
     }
   ],

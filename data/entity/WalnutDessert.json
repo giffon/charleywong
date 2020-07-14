@@ -8,16 +8,21 @@
     {
       "url": "https://www.facebook.com/WalnutDessert/",
       "meta": {
-        "name": "合桃緣 Walnut Dessert",
         "id": "130165520870820",
+        "username": "WalnutDessert",
+        "name": "合桃緣 Walnut Dessert",
         "about": "傳統手工精心製作，自家有機合桃園",
-        "categories": [
-          "Dessert Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "旺角廣華街1號仁安大廈32D鋪",
-        "area": "852 Hong Kong",
-        "tel": "38959922"
+        "single_line_address": "旺角廣華街1號仁安大廈32D鋪, 852 Hong Kong"
       }
     }
   ],

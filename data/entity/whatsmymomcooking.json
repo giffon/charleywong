@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/whatsmymomcooking/",
       "meta": {
-        "name": "嚐賞",
         "id": "1128699373905010",
+        "username": "whatsmymomcooking",
+        "name": "嚐賞",
         "about": "嚐，品嚐\n賞，欣賞\n\n一個由我和媽媽經營的煮食平台\n讓我們一起品嚐媽媽們的手藝\n欣賞她們的心思",
-        "categories": [
-          "Health Food Store"
+        "category_list": [
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          }
         ],
-        "addr": "觀塘成業街15至17號成運工業大廈7樓28室",
-        "area": "Kwun Tong",
-        "tel": "62280136"
+        "single_line_address": "觀塘成業街15至17號成運工業大廈7樓28室, Kwun Tong"
       }
     },
     {

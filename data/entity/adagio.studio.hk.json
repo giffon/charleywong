@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/adagio.studio.hk/",
       "meta": {
-        "name": "Adagio",
         "id": "639096402805936",
+        "username": "adagio.studio.hk",
+        "name": "Adagio",
         "about": "90‘s Girl Dream Palace. ADAGIO一一為女孩們分享有興趣的事物與生活態度，建立一個專屬自己的生活城堡。I have a dream.",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care",
-          "Cosmetics Store"
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          },
+          {
+            "id": "144873802247220",
+            "name": "Cosmetics Store"
+          }
         ],
-        "addr": "觀塘成業街16號怡生工業中心E座1樓E19室",
-        "area": "00000 Kwun Tong",
-        "email": "adagio.beautystore@gmail.com",
-        "tel": "53051381"
+        "emails": [
+          "adagio.beautystore@gmail.com"
+        ],
+        "single_line_address": "觀塘成業街16號怡生工業中心E座1樓E19室, 00000 Kwun Tong",
+        "website": "http://www.adagiostyle.com/"
       }
     },
     {

@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/GreenEyesMusic/",
       "meta": {
-        "name": "GreenEyes",
         "id": "111335212227147",
-        "about": "No more LIKE needed! We had enough! TNX! (bow) http://greeneyes.bandcamp.com",
-        "categories": [
-          "Musician/Band"
+        "username": "GreenEyesMusic",
+        "name": "GreenEyes",
+        "about": "No more LIKE needed! We had enough! TNX! (bow)  http://greeneyes.bandcamp.com\n",
+        "category_list": [
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "email": "greeneyestaiwan@gmail.com"
+        "emails": [
+          "greeneyestaiwan@gmail.com"
+        ],
+        "website": "http://greeneyes.bandcamp.com"
       }
     },
     {

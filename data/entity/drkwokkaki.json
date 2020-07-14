@@ -7,15 +7,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Kwok Ka Ki 郭家麒",
         "id": "395804300457445",
-        "about": "公民黨新界西立法會議員\nLegislative Council Member, Civic Party",
-        "categories": [
-          "Politician",
-          "Personal Blog"
+        "username": "drkwokkaki",
+        "name": "Kwok Ka Ki 郭家麒",
+        "about": "公民黨新界西立法會議員\nLegislative Council Member for New Territories West, Civic Party ",
+        "category_list": [
+          {
+            "id": "1700",
+            "name": "Politician"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "kkk@kkkwok.hk",
-        "tel": "54094434"
+        "emails": [
+          "kkk@kkkwok.hk"
+        ],
+        "single_line_address": "Room 812, Legislative Council Complex, 1 Legislative Council Road, Admiralty, +852 Hong Kong"
       },
       "url": "https://www.facebook.com/drkwokkaki/"
     },

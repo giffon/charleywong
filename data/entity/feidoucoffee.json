@@ -10,14 +10,20 @@
     },
     {
       "meta": {
-        "name": "竇啡 Fei-Dou",
         "id": "383500811807445",
-        "about": "以一方之隅談談說說咖啡。/\nSpeciality Coffee Shop Guide Map.",
-        "categories": [
-          "Broadcasting & Media Production Company"
+        "username": "feidoucoffee",
+        "name": "竇啡 Fei-Dou",
+        "about": "以一方之隅談談說說咖啡。/\nSpeciality Coffee Shop Guide Map.\n",
+        "category_list": [
+          {
+            "id": "169056916473899",
+            "name": "Broadcasting & Media Production Company"
+          }
         ],
-        "email": "info@fei-dou.coffee",
-        "tel": "94490214"
+        "emails": [
+          "info@fei-dou.coffee"
+        ],
+        "website": "http://www.fei-dou.coffee"
       },
       "url": "https://www.facebook.com/feidoucoffee/"
     },

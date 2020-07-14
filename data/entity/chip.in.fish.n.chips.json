@@ -10,16 +10,25 @@
     {
       "url": "https://www.facebook.com/chip.in.fish.n.chips/",
       "meta": {
-        "name": "Chip In Fish & Chips",
         "id": "292560057521065",
-        "about": "Traditional Beer Batter Fish & Chips from England. Quality Fast Food",
-        "categories": [
-          "Fish & Chips Restaurant",
-          "Fast Food Restaurant"
+        "username": "chip.in.fish.n.chips",
+        "name": "Chip In Fish & Chips",
+        "about": "Traditional Beer Batter Fish & Chips from England. Quality Fast Food ",
+        "category_list": [
+          {
+            "id": "167608369957681",
+            "name": "Fish & Chips Restaurant"
+          },
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          }
         ],
-        "addr": "Sai Kung Branch: 9 King Man Street.\nWanchai Branch: 164 Queens Road East",
-        "area": "Hong Kong",
-        "email": "info.chipin@gmail.com"
+        "emails": [
+          "info.chipin@gmail.com"
+        ],
+        "single_line_address": "Sai Kung Branch: 9 King Man Street. \nWanchai Branch: 164 Queens Road East, 000000 Hong Kong",
+        "website": "http://www.chipin.com.hk"
       }
     }
   ],

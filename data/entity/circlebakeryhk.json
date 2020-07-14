@@ -9,18 +9,29 @@
     },
     {
       "meta": {
-        "name": "Circle Bakery",
         "id": "183626325012692",
-        "about": "Circle Bakery 是多元化小店，每一樣都是用心製造，希望吃的人都感覺到幸福！歡迎whatsapp 我們：60603296",
-        "categories": [
-          "Food & Beverage",
-          "Shopping & Retail",
-          "Just For Fun"
+        "username": "circlebakeryhk",
+        "name": "Circle Bakery",
+        "about": "Circle Bakery 是多元化小店，每一樣都是用心製造，希望吃的人都感覺到幸福！歡迎whatsapp 我們：60603296\n",
+        "category_list": [
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "129417183848258",
+            "name": "Just For Fun"
+          }
         ],
-        "addr": "火炭禾寮坑路18-28號聯邦工業大廈8樓B室（火炭東鐵站D出口，步行約三分鍾）",
-        "area": "00000 Fo Tan",
-        "email": "info@circlebakeryhk.com",
-        "tel": "26928202"
+        "emails": [
+          "info@circlebakeryhk.com"
+        ],
+        "single_line_address": "火炭禾寮坑路18-28號聯邦工業大廈8樓B室（火炭東鐵站D出口，步行約三分鍾）, 00000 Fo Tan",
+        "website": "http://circlebakeryhk.com"
       },
       "url": "https://www.facebook.com/circlebakeryhk/"
     },

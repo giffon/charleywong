@@ -7,13 +7,20 @@
     {
       "url": "https://www.facebook.com/cheesehousetm/",
       "meta": {
-        "name": "芝味屋",
         "id": "120829528550024",
+        "username": "cheesehousetm",
+        "name": "芝味屋",
         "about": "屯門美食� 鐘意芝士的你一定要黎試�歡迎團體訂購 �到薈訂購�電話落單�外賣自取 �54204977",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "tel": "54204977"
+        "emails": [
+          "cheesehouse2017.hk@gmail.com"
+        ],
+        "single_line_address": "香港新界屯門翠寧花園19號鋪"
       }
     },
     {

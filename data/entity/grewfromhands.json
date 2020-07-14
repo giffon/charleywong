@@ -6,15 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "about": "親手製作自己的構思。本工作室透過特別訂製及工作坊，為顧客製作獨一無二的皮類及木類物品，務求顧客可以將自己的構思實體化，將創意變為創作。",
-        "categories": [
-          "Arts and crafts shop"
+        "id": "888240164690683",
+        "username": "grewfromhands",
+        "name": "Grew From Hands",
+        "about": "親手製作自己的構思。本工作室透過特別訂製及工作坊，為顧客製作獨一無二的皮類及木類物品，務求顧客可以將自己的構思實體化，將創意變為創作。\n",
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "addr": "1/F, Breakthrough Centre, 191 Woo Sung Street, Kowloon",
-        "area": "Hong Kong",
-        "email": "grewfromhands@gmail.com",
-        "tel": "60722581",
-        "id": "888240164690683"
+        "emails": [
+          "grewfromhands@gmail.com"
+        ],
+        "single_line_address": "1/F, Breakthrough Centre, 191 Woo Sung Street, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/grewfromhands/"
     }

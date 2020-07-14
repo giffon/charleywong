@@ -7,16 +7,27 @@
     {
       "url": "https://www.facebook.com/KandPhanmade/",
       "meta": {
-        "name": "K&P Handmade",
         "id": "111090117229670",
-        "about": "光復香港�\n時代革命��",
-        "categories": [
-          "Art",
-          "Sports & Recreation",
-          "Shopping & Retail"
+        "username": "KandPhanmade",
+        "name": "K&P Handmade",
+        "about": "\n",
+        "category_list": [
+          {
+            "id": "186982054657561",
+            "name": "Sports & Recreation"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "kandp20handmade@gmail.com",
-        "tel": "52393610"
+        "emails": [
+          "kandp20handmade@gmail.com"
+        ]
       }
     }
   ],

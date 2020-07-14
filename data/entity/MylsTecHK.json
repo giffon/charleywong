@@ -9,14 +9,17 @@
     },
     {
       "meta": {
-        "name": "Myls-Tec",
         "id": "1623107854484562",
-        "categories": [
-          "Business Center"
+        "username": "MylsTecHK",
+        "name": "Myls-Tec",
+        "category_list": [
+          {
+            "id": "139745066094977",
+            "name": "Business Center"
+          }
         ],
-        "addr": "15 D, 84-92 Chai Wan Kok Street, Shield Industrial Centre,",
-        "area": "Tsuen Wan, Hong Kong",
-        "tel": "31880410"
+        "single_line_address": "15 D, 84-92 Chai Wan Kok Street, Shield Industrial Centre,, Tsuen Wan, Hong Kong",
+        "website": "http://www.mylstec.hk"
       },
       "url": "https://www.facebook.com/MylsTecHK/"
     },

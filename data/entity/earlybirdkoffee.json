@@ -7,13 +7,19 @@
     {
       "url": "https://www.facebook.com/earlybirdkoffee/",
       "meta": {
-        "name": "早起鳥兒的咖啡",
         "id": "696063767255415",
+        "username": "earlybirdkoffee",
+        "name": "早起鳥兒的咖啡",
         "about": "「早起鳥兒的咖啡」是一杯為你帶來祝福的咖啡。它或許還載有詩意，或是感動，或是安靜的咖啡。",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "earlybirdkoffee@gmail.com"
+        "emails": [
+          "earlybirdkoffee@gmail.com"
+        ]
       }
     }
   ],

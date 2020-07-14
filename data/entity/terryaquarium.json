@@ -6,14 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "泰利水族",
         "id": "955329377946928",
-        "categories": [
-          "Pet Breeder",
-          "Aquatic Pet Store"
+        "username": "terryaquarium",
+        "name": "泰利水族",
+        "category_list": [
+          {
+            "id": "635663076586942",
+            "name": "Aquarium"
+          },
+          {
+            "id": "140154442713316",
+            "name": "Pet Breeder"
+          }
         ],
-        "addr": "Hong Kong",
-        "area": "Kwai Chung"
+        "single_line_address": "Hong Kong, Kwai Chung"
       },
       "url": "https://www.facebook.com/terryaquarium/"
     }

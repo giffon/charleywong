@@ -11,15 +11,24 @@
     {
       "meta": {
         "id": "1429037447336713",
+        "username": "vaperahk",
+        "name": "Vaperahk 電子煙專門店香港",
         "about": "VAPERA HK香港電子煙專門店\nVaperahk can help you quit smoking and bring you a modern/ healthy vape life\nTel: 852 9288 3134\nE-mail: vaperahk@gmail.com",
-        "categories": [
-          "E-Cigarette Store",
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "142431502842979",
+            "name": "E-Cigarette Store"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "Shop No.47, UG/F, South Seas Centre, 75 Mody Road, Tsim Sha Tsui East, Kowloon",
-        "area": "Hong Kong",
-        "email": "vaperahk@gmail.com",
-        "tel": "92883134"
+        "emails": [
+          "vaperahk@gmail.com"
+        ],
+        "single_line_address": "Shop No.47, UG/F, South Seas Centre, 75 Mody Road, Tsim Sha Tsui East, Kowloon, Hong Kong",
+        "website": "https://vaperahk.boutir.com"
       },
       "url": "https://www.facebook.com/vaperahk/"
     }

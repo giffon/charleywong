@@ -7,16 +7,24 @@
   "webpages": [
     {
       "meta": {
+        "id": "1107868172610759",
+        "username": "thebookcure.hk",
+        "name": "解憂舊書店 The Book Cure",
         "about": "Reading × Soul\nKnowledge × Recycle\n\n〖閱讀・心靈〗\n〖知識・環保〗",
-        "categories": [
-          "Book shop",
-          "Charity or second-hand shop"
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          },
+          {
+            "id": "205429726142620",
+            "name": "Thrift & Consignment Store"
+          }
         ],
-        "addr": "新界大埔寶湖道街市F021",
-        "area": "Hong Kong",
-        "email": "thebookcure.hk@gmail.com",
-        "tel": "53923220",
-        "id": "1107868172610759"
+        "emails": [
+          "thebookcure.hk@gmail.com"
+        ],
+        "single_line_address": "新界大埔寶湖道街市F021, NIL Tai Po Industrial Estate"
       },
       "url": "https://www.facebook.com/thebookcure.hk/"
     }

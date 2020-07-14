@@ -14,16 +14,25 @@
     {
       "url": "https://www.facebook.com/mumsnothome/",
       "meta": {
-        "name": "MUM's NOT HOME",
         "id": "154987351349643",
+        "username": "mumsnothome",
+        "name": "MUM's NOT HOME",
         "about": "・油麻地上海街302號1樓 （港鐵C出口，入口在熙龍里）\n・1/F 302 ShangHai St. YMT（Exit C）",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
         ],
-        "addr": "1/F, 302 Shanghai Street",
-        "area": "852 Yau Ma Tei",
-        "email": "mumsnothome@gmail.com",
-        "tel": "97705760"
+        "emails": [
+          "mumsnothome@gmail.com"
+        ],
+        "single_line_address": "1/F, 302 Shanghai Street, Yau Ma Tei",
+        "website": "https://instagram.com/mumsnothome"
       }
     }
   ],

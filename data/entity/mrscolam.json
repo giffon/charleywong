@@ -11,11 +11,20 @@
     {
       "meta": {
         "id": "1833183570227344",
+        "username": "mrscolam",
+        "name": "Mrs Co:Lam 凱林家生活",
         "about": "Hello 我是凱林！懷孕時開始寫blog，記下由新手孕媽到全職媽媽的親子、育兒、成長日誌，希望各位媽媽在這裡不但找到第一身的實用資訊，有時也可以談談媽媽經，一起笑一起叫。",
-        "categories": [
-          "Personal blog"
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "hello@mrscolam.com"
+        "emails": [
+          "hello@mrscolam.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://mrscolam.com/"
       },
       "url": "https://www.facebook.com/mrscolam/"
     },

@@ -8,16 +8,28 @@
     {
       "url": "https://www.facebook.com/sugarfactorycafe/",
       "meta": {
-        "name": "Sugar Factory Cafe",
         "id": "473517129435943",
+        "username": "sugarfactorycafe",
+        "name": "Sugar Factory Cafe",
         "about": "Sugar Factory Cafe 糖果工房\n桌遊•意粉•甜品•咖啡室\n\n旺角九龍登打士街36號恆威商業中心13樓全層",
-        "categories": [
-          "Coffee Shop",
-          "Dessert Shop",
-          "Japanese Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "email": "info@sugarfactorycafe.com",
-        "tel": "28381056"
+        "emails": [
+          "info@sugarfactorycafe.com"
+        ],
+        "website": "http://www.sugarfactorycafe.com"
       }
     },
     {

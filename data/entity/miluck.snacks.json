@@ -11,12 +11,16 @@
     {
       "url": "https://www.facebook.com/miluck/",
       "meta": {
-        "name": "美樂小食",
         "id": "339706619411169",
-        "categories": [
-          "Restaurant"
+        "username": "miluck",
+        "name": "美樂小食",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "tel": "25271900"
+        "single_line_address": "Admiralty Centre, Hong Kong"
       },
       "hidden": true
     }

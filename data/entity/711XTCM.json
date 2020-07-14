@@ -10,15 +10,28 @@
     {
       "url": "https://www.facebook.com/711XTCM/",
       "meta": {
-        "name": "TCM Artist",
         "id": "147971248547214",
+        "username": "711XTCM",
+        "name": "TCM Artist",
         "about": "【 711TCM 】自爽品牌。台灣品牌。自創自售。為愛而生",
-        "categories": [
-          "Artist",
-          "Clothing (Brand)",
-          "Design & Fashion"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          }
         ],
-        "email": "se7en11boy@gmail.com"
+        "emails": [
+          "se7en11boy@gmail.com"
+        ],
+        "website": "http://tw.user.bid.yahoo.com/tw/booth/Y2586739258"
       }
     }
   ],
@@ -32,6 +45,7 @@
     }
   ],
   "tags": [
-    "clothing","taiwanese"
+    "clothing",
+    "taiwanese"
   ]
 }

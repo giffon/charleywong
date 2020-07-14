@@ -8,15 +8,24 @@
     {
       "url": "https://www.facebook.com/GAMESON2012/",
       "meta": {
-        "name": "開棋 Games On",
         "id": "241669242619377",
+        "username": "GAMESON2012",
+        "name": "開棋 Games On",
         "about": "開棋是一間桌遊中心， 專門提供桌上遊戲給大眾享樂，場上有多達700 款的最新桌上遊戲，並有專人教授各式各款的好玩桌上遊戲。",
-        "categories": [
-          "Board Game",
-          "Games/Toys"
+        "category_list": [
+          {
+            "id": "2303",
+            "name": "Board Game"
+          },
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          }
         ],
-        "email": "gameson.boardgame@gmail.com",
-        "tel": "60889309"
+        "emails": [
+          "gameson.boardgame@gmail.com"
+        ],
+        "single_line_address": "油麻地彌敦道566號 橋建大廈11樓566室, Hong Kong"
       }
     },
     {

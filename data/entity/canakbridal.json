@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Canak Bridal Studio",
         "id": "866417433751852",
-        "about": "Canak Bridal Studio - Not only a bridal shop but also a Hong Kong designer brand carrying wedding gowns and evening gowns in sophisticated, romantic and stylish styles.",
-        "categories": [
-          "Bridal Shop"
+        "username": "canakbridal",
+        "name": "Canak Bridal Studio",
+        "about": "Canak Bridal Studio - Not only a bridal shop but also a Hong Kong designer brand carrying wedding gowns and evening gowns in sophisticated, romantic and stylish styles. ",
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          }
         ],
-        "addr": "Unit A6, F/8, Manning Industrial Building, 116-118 How Ming St",
-        "area": "Kwun Tong",
-        "email": "canakbridal@gmail.com",
-        "tel": "68730244"
+        "emails": [
+          "canakbridal@gmail.com"
+        ],
+        "single_line_address": "Unit A6, F/8, Manning Industrial Building, 116-118 How Ming St, Kwun Tong",
+        "website": "http://www.instagram.com/canakbridal"
       },
       "url": "https://www.facebook.com/canakbridal/"
     },

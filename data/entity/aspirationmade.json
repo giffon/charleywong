@@ -14,16 +14,21 @@
     {
       "url": "https://www.facebook.com/aspirationmade/",
       "meta": {
-        "name": "Aspiration Made",
         "id": "579672398828733",
+        "username": "aspirationmade",
+        "name": "Aspiration Made",
         "about": "Aspiration Made 皮具訂造專門店\n專營高質素皮具訂造及設計，婚禮或公司訂單。全人手縫製 • 設有工作室 • 1對1教學\n\n聯絡方法 :\nLine: Ls_ying (Ruby)\nWhatsapp: ‪69384100‬ (Kenneth)\nEmail: amxleather@gmail.com",
-        "categories": [
-          "Arts & Crafts Store"
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "addr": "Rm.12, Block b, 1/F, Fuk Cheung Factory Building, 1 Walnut Street, Tai Kok Tsui, HK",
-        "area": "Hong Kong",
-        "email": "amxleather@gmail.com",
-        "tel": "69384100"
+        "emails": [
+          "amxleather@gmail.com"
+        ],
+        "single_line_address": "Rm.12, Block b, 1/F, Fuk Cheung Factory Building, 1 Walnut Street, Tai Kok Tsui, HK, Hong Kong",
+        "website": "http://www.instagram.com/am_leather"
       }
     }
   ],

@@ -7,16 +7,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "紙· 藝復興 ｜ Paper Renaissance Handmade Store",
         "id": "419001164863979",
+        "username": "Paper.Renaissance",
+        "name": "紙· 藝復興 ｜ Paper Renaissance Handmade Store",
         "about": "•Wedding Stationary• Greeting Card• Scrapbooking• Graphic• Workshop•\nWe provide handmade unique design for personalize paper craft products\n•By Appointment",
-        "categories": [
-          "Arts & Crafts Store"
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "addr": "官塘成業街16號怡生工業中心A座5樓517室",
-        "area": "Kwun Tong",
-        "email": "paper.renaissance@gmail.com",
-        "tel": "98302337"
+        "emails": [
+          "paper.renaissance@gmail.com"
+        ],
+        "single_line_address": "官塘成業街16號怡生工業中心A座5樓517室, Kwun Tong",
+        "website": "http://www.paperrenaissance.com"
       },
       "url": "https://www.facebook.com/Paper.Renaissance/"
     },

@@ -7,15 +7,20 @@
     {
       "url": "https://www.facebook.com/1977.vintage/",
       "meta": {
-        "name": "1977 Vintage",
         "id": "436897829837237",
+        "username": "1977.vintage",
+        "name": "1977 Vintage",
         "about": "尋寶。舊物。\n\n不完美的完美\n全個人尋寶失落園\n\nIG: 1977.vintage",
-        "categories": [
-          "Vintage Store"
+        "category_list": [
+          {
+            "id": "194127957280024",
+            "name": "Vintage Store"
+          }
         ],
-        "addr": "香港",
-        "area": "Hong Kong",
-        "email": "nineteen77vintage@gmail.com"
+        "emails": [
+          "nineteen77vintage@gmail.com"
+        ],
+        "single_line_address": "香港, 852 Hong Kong"
       }
     },
     {

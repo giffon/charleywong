@@ -8,17 +8,27 @@
     {
       "url": "https://www.facebook.com/thesteamhut/",
       "meta": {
-        "name": "Thesteamhut蒸廬",
         "id": "1435295133244132",
-        "categories": [
-          "Dim Sum Restaurant",
-          "Asian Fusion Restaurant",
-          "Cantonese Restaurant"
+        "username": "thesteamhut",
+        "name": "Thesteamhut蒸廬",
+        "category_list": [
+          {
+            "id": "194588013912896",
+            "name": "Dim Sum Restaurant"
+          },
+          {
+            "id": "214976388519648",
+            "name": "Cantonese Restaurant"
+          },
+          {
+            "id": "174201535963762",
+            "name": "Asian Fusion Restaurant"
+          }
         ],
-        "addr": "215, 2/F, Kings Wing Plaza Phase 1, Shek Mun, Shatin, Hong Kong",
-        "area": "Hong Kong",
-        "email": "thesteamhuthk@gmail.com",
-        "tel": "34603411"
+        "emails": [
+          "thesteamhuthk@gmail.com"
+        ],
+        "single_line_address": "215, 2/F, Kings Wing Plaza Phase 1, Shek Mun, Shatin, Hong Kong, 852 Hong Kong"
       }
     }
   ],

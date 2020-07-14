@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "Interval Coffee Bar",
         "id": "122214585098105",
-        "about": "Nestled inside PRESET, INTERVAL Coffee Bar is a chic creative hub and a fashionable mingling hotspot to be seen.",
-        "categories": [
-          "Cafe",
-          "Bar"
+        "username": "intervalcoffeebar",
+        "name": "Interval Coffee Bar",
+        "about": "Nestled inside PRESET, INTERVAL Coffee Bar is a chic creative hub and a fashionable mingling hotspot to be seen. ",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          }
         ],
-        "addr": "UG/F, 33 Wellington Street",
-        "area": "Central, Hong Kong",
-        "email": "info@presetspaces.com",
-        "tel": "25707568"
+        "emails": [
+          "info@presetspaces.com"
+        ],
+        "single_line_address": "UG/F, 33 Wellington Street, Central, Hong Kong",
+        "website": "https://www.openrice.com/en/hongkong/r-interval-coffee-bar-central-western-wine-r553658"
       },
       "url": "https://www.facebook.com/intervalcoffeebar/"
     },

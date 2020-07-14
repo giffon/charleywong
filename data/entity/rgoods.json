@@ -11,13 +11,20 @@
     {
       "url": "https://www.facebook.com/rgoods/",
       "meta": {
-        "name": "御名物 Royal Goods",
         "id": "1132069553627548",
+        "username": "rgoods",
+        "name": "御名物 Royal Goods",
         "about": "⚜️ 御名物 ⚜️ Royal Goods ⚜️\n專業國際採購團隊，為你搜羅最新、優質、正貨商品。\n以非常簡單、舒服、省時、24小時網上購物方式。\n令您安在家中也可盡情享受購物的喜悅。",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "info@rgoods.net"
+        "emails": [
+          "info@rgoods.net"
+        ],
+        "website": "https://www.rgoods.net/"
       }
     }
   ],

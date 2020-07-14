@@ -9,15 +9,24 @@
     },
     {
       "meta": {
-        "name": "The Salt Yard Photobook Store",
         "id": "134498623371165",
+        "username": "TheSaltYard",
+        "name": "The Salt Yard Photobook Store",
         "about": "The Salt Yard is an online photobook store based in Hong Kong, specialised in photobooks by independent publishers worldwide.\nwww.thesaltyard.hk",
-        "categories": [
-          "Bookstore",
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "email": "info@thesaltyard.hk",
-        "tel": "35638003"
+        "emails": [
+          "info@thesaltyard.hk"
+        ],
+        "website": "http://store.thesaltyard.hk/"
       },
       "url": "https://www.facebook.com/TheSaltYard/"
     },

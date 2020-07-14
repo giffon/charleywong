@@ -10,15 +10,19 @@
     {
       "url": "https://www.facebook.com/142717769125964/",
       "meta": {
-        "name": "風尚台灣小吃",
         "id": "142717769125964",
-        "categories": [
-          "Taiwanese Restaurant"
+        "name": "風尚台灣小吃",
+        "category_list": [
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          }
         ],
-        "addr": "香港天后電氣道39号地下",
-        "area": "North Point",
-        "email": "fengshang@live.hk",
-        "tel": "28698801"
+        "emails": [
+          "fengshang@live.hk"
+        ],
+        "single_line_address": "香港天后電氣道39号地下, North Point",
+        "website": "https://www.openrice.com/zh/hongkong/r-風尚台灣小吃-天后-台灣菜-台式飲品-r32101"
       }
     }
   ],

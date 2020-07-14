@@ -7,11 +7,15 @@
     {
       "url": "https://www.facebook.com/whatsgaphk/",
       "meta": {
-        "name": "WhatsGap",
         "id": "100290784654471",
+        "username": "whatsgaphk",
+        "name": "WhatsGap",
         "about": "App Download Link:\nhttps://whatsgap.page.link/app",
-        "categories": [
-          "Entertainment Website"
+        "category_list": [
+          {
+            "id": "2705",
+            "name": "Entertainment Website"
+          }
         ]
       }
     },

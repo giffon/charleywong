@@ -11,15 +11,21 @@
     {
       "url": "https://www.facebook.com/KamPokFarm/",
       "meta": {
-        "name": "錦壆路農場 Kam Pok Farm",
         "id": "1209597172489660",
+        "username": "KamPokFarm",
+        "name": "錦壆路農場 Kam Pok Farm",
         "about": "我們是義工, 支持農夫周伯繼續為社區提供健康新鮮蔬菜。農夫和社區是互惠互助的伙伴, 農場更是社區生活的一部分, 耕種是教育, 收成是節慶, 為社區增添人情風味。歡迎購買及登記做義工。",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "239455319478077",
+            "name": "Urban Farm"
+          }
         ],
-        "addr": "錦壆路",
-        "area": "Hong Kong",
-        "email": "kampokfarm@gmail.com"
+        "emails": [
+          "kampokfarm@gmail.com"
+        ],
+        "single_line_address": "錦壆路, Hong Kong",
+        "website": "https://skip25.wixsite.com/kampokfarm"
       }
     },
     {

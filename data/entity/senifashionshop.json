@@ -10,12 +10,21 @@
     {
       "meta": {
         "id": "340744613011979",
+        "username": "senifashionshop",
+        "name": "SENI Fashion",
         "about": "Seni",
-        "categories": [
-          "Clothing (brand)",
-          "Women's clothes shop"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "128753240528981",
+            "name": "Women's Clothing Store"
+          }
         ],
-        "tel": "95483848"
+        "single_line_address": "葵涌廣場3樓時尚坊61號鋪         葵涌廣場3樓top世界3151舖      銅鑼灣東角LAFORET 1樓120舖",
+        "website": "https://www.senifashion.com"
       },
       "url": "https://www.facebook.com/senifashionshop/"
     }

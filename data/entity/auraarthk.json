@@ -11,18 +11,29 @@
     {
       "url": "https://www.facebook.com/auraarthk/",
       "meta": {
-        "name": "愛畫室 Aura Art",
         "id": "137216363008686",
+        "username": "auraarthk",
+        "name": "愛畫室 Aura Art",
         "about": "Coporate Event | Team Building | Art Workshop | Kids Party | Art Course | Gallery | Art Store\nTel: 28862359 / 97381525\nCauseway Bay \nauraart.hk",
-        "categories": [
-          "Art School",
-          "Art Gallery",
-          "Event Planner"
+        "category_list": [
+          {
+            "id": "164288046954643",
+            "name": "Art School"
+          },
+          {
+            "id": "197384240287028",
+            "name": "Art Gallery"
+          },
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          }
         ],
-        "addr": "1/F, 16 Matheson Street, Causeway Bay",
-        "area": "Hong Kong",
-        "email": "info@auraart.hk",
-        "tel": "28862359"
+        "emails": [
+          "info@auraart.hk"
+        ],
+        "single_line_address": "1/F, 16 Matheson Street, Causeway Bay, Hong Kong",
+        "website": "http://www.auraart.hk"
       }
     },
     {

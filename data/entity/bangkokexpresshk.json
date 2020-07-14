@@ -8,17 +8,24 @@
     {
       "url": "https://www.facebook.com/bangkokexpresshk/",
       "meta": {
-        "name": "泰道 Bangkok Express",
         "id": "109554630428614",
-        "about": "在西營盤出發去曼谷泰國媽媽的廚房！ Bangkok Express carry you to Thai Mama’s kitchen. Great and traditional taste with good vibes! \n\nHotline: 52852277 (WhatsApp or direct call)",
-        "categories": [
-          "Thai Restaurant",
-          "Kitchen/Cooking"
+        "username": "bangkokexpresshk",
+        "name": "泰道 Bangkok Express",
+        "about": "在西營盤出發去曼谷泰國媽媽的廚房！ Bangkok Express carries you to Thai Mama’s kitchen. Great and traditional taste with good vibes! \n\nHotline: 52852277 (WhatsApp or direct call)",
+        "category_list": [
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          },
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          }
         ],
-        "addr": "G/F, 2D Western Street, Sai Ying Pun (3 minutes walk from Sai Ying Pun Station Exit B3)西營盤 西邊街2號D地下鋪（港鐵西營盤站B3出口 步行3分鐘）",
-        "area": "Hong Kong",
-        "email": "bangkokexpresshk@gmail.com",
-        "tel": "52852277"
+        "emails": [
+          "bangkokexpresshk@gmail.com"
+        ],
+        "single_line_address": "G/F, 2D Western Street, Sai Ying Pun (3 minutes walk from Sai Ying Pun Station Exit B3)西營盤 西邊街2號D地下鋪（港鐵西營盤站B3出口 步行3分鐘）, Hong Kong"
       }
     },
     {

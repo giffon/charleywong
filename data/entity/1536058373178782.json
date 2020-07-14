@@ -7,16 +7,23 @@
     {
       "url": "https://www.facebook.com/1536058373178782/",
       "meta": {
-        "name": "煮宮",
         "id": "1536058373178782",
-        "categories": [
-          "Chinese Restaurant",
-          "Product/Service",
-          "Family Style Restaurant"
+        "name": "煮宮",
+        "category_list": [
+          {
+            "id": "192831537402299",
+            "name": "Family Style Restaurant"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "174483852595760",
+            "name": "Chinese Restaurant"
+          }
         ],
-        "addr": "觀塘開源道60號駱駝漆大廈三期7樓S室",
-        "area": "Kwun Tong",
-        "tel": "63525748"
+        "single_line_address": "觀塘開源道60號駱駝漆大廈三期7樓S室, HK Kwun Tong"
       }
     }
   ],

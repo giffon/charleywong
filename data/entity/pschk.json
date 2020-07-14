@@ -11,13 +11,20 @@
     {
       "url": "https://www.facebook.com/pschk/",
       "meta": {
-        "name": "民社服務中心 (People Service Centre)",
         "id": "126482327428178",
-        "categories": [
-          "Non-Governmental Organization (NGO)"
+        "username": "pschk",
+        "name": "民社服務中心 (People Service Centre)",
+        "category_list": [
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          }
         ],
-        "email": "info@pschk.org",
-        "tel": "27880101"
+        "emails": [
+          "info@pschk.org"
+        ],
+        "single_line_address": "Unit 206-208, Podium Floor, Block 19, Shek Kip Mei Estate, Kowloon",
+        "website": "http://www.pschk.org/"
       }
     },
     {

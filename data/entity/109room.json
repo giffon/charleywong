@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/109room/",
       "meta": {
-        "name": "109room",
         "id": "514179762097532",
+        "username": "109room",
+        "name": "109room",
         "about": "門市地址：\n旺角好景商業中心7樓11室\n查詢請Whatsapp:62005877",
-        "categories": [
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "addr": "旺角好景商業中心7樓11室",
-        "area": "Hong Kong",
-        "email": "109room.com@gmail.com",
-        "tel": "62005877"
+        "emails": [
+          "109room.com@gmail.com"
+        ],
+        "single_line_address": "旺角好景商業中心7樓11室, Hong Kong",
+        "website": "https://www.109room.com"
       }
     },
     {

@@ -7,13 +7,20 @@
     {
       "url": "https://www.facebook.com/MagicMissHunny/",
       "meta": {
-        "name": "Miss Hunny",
         "id": "121043151255492",
+        "username": "MagicMissHunny",
+        "name": "Miss Hunny",
         "about": "工作聯繫可PM, 或者email去：enquiry@hkvlogger.com\nor Whatsapp (852) 6126 8850 Roy",
-        "categories": [
-          "Magician"
+        "category_list": [
+          {
+            "id": "1028050117278980",
+            "name": "Magician"
+          }
         ],
-        "email": "enquiry@hkvlogger.com"
+        "emails": [
+          "enquiry@hkvlogger.com"
+        ],
+        "single_line_address": "Hong Kong"
       }
     },
     {

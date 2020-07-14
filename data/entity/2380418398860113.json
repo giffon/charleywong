@@ -7,13 +7,18 @@
     {
       "url": "https://www.facebook.com/2380418398860113/",
       "meta": {
-        "name": "滿茶",
         "id": "2380418398860113",
-        "categories": [
-          "Product/Service"
+        "name": "滿茶",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "moontea2019@yahoo.com",
-        "tel": "91650570"
+        "emails": [
+          "moontea2019@yahoo.com"
+        ],
+        "single_line_address": "新蒲崗 爵祿街72號地下a2舖"
       }
     }
   ],

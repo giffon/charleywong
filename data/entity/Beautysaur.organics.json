@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "Beautysaur Organics",
         "id": "1248162731931579",
+        "username": "Beautysaur.organics",
+        "name": "Beautysaur Organics",
         "about": "旗艦店地址：九龍尖沙咀 K11 Musea, 2/F, 210B (尖沙咀/尖東站J2出口) \n營業時間 12:00 - 21:00\n\n分店地址：香港銅鑼灣 Fashion Walk, 1/F, Kiosk2 (銅鑼灣站E出口)\n營業時間 12:00 - 21:00",
-        "categories": [
-          "Cosmetics Store",
-          "Beauty Supply Store"
+        "category_list": [
+          {
+            "id": "144873802247220",
+            "name": "Cosmetics Store"
+          },
+          {
+            "id": "191693100854505",
+            "name": "Beauty Supply Store"
+          }
         ],
-        "addr": "Shop210B, 2/F, K11 Musea, 18 Salisbury Road, Tsim Sha Tsui",
-        "area": "Hong Kong",
-        "email": "info@beautysaur.com",
-        "tel": "94329430"
+        "emails": [
+          "info@beautysaur.com"
+        ],
+        "single_line_address": "Shop210B, 2/F, K11 Musea, 18 Salisbury Road, Tsim Sha Tsui, Hong Kong",
+        "website": "http://www.beautysaur.com"
       },
       "url": "https://www.facebook.com/Beautysaur.organics/"
     },

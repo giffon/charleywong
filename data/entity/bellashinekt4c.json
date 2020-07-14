@@ -14,16 +14,21 @@
     {
       "url": "https://www.facebook.com/bellashinekt4c/",
       "meta": {
-        "name": "BELLA SHINE",
         "id": "564736310329144",
+        "username": "bellashinekt4c",
+        "name": "BELLA SHINE",
         "about": "BELLA SHINE 將高級的食材與優惠的價格，結而合一。使得“吃大餐”與“平民價”成為可能。每日新鮮海鮮到店，獨特健康的烹飪手法，使得每一道菜都有別致的口味。",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "B, 2/F, Speedy Industrial Building, No 114 How Ming Street",
-        "area": "Hong Kong",
-        "email": "bellashinekt@gmail.com",
-        "tel": "23458455"
+        "emails": [
+          "bellashinekt@gmail.com"
+        ],
+        "single_line_address": "B, 2/F, Speedy Industrial Building, No 114 How Ming Street, Hong Kong",
+        "website": "http://www.instagram.com/bellashine_hk "
       }
     }
   ],

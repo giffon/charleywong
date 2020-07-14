@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/comingsociety/",
       "meta": {
-        "name": "實現會社 The Coming Society",
         "id": "124399304329751",
+        "username": "comingsociety",
+        "name": "實現會社 The Coming Society",
         "about": "實現會社 ─ 二手書店／藝術空間 http://thecomingsociety.wordpress.com/",
-        "categories": [
-          "Bookstore"
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
         ],
-        "addr": "2/F Foo Tak Building, 365 Hennessy Road",
-        "area": "Wan Chai",
-        "email": "comingsociety@gmail.com",
-        "tel": "24677300"
+        "emails": [
+          "comingsociety@gmail.com"
+        ],
+        "single_line_address": "2/F Foo Tak Building, 365 Hennessy Road, Wan Chai",
+        "website": "http://thecomingsociety.wordpress.com/"
       }
     }
   ],

@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/dustynails.hk/",
       "meta": {
-        "name": "DustyNails",
         "id": "1546091102165779",
+        "username": "dustynails.hk",
+        "name": "DustyNails",
         "about": "設有旺角 銅鑼灣 店\n歡迎使用\nFacebook inbox\nInstagram DM\nwhatsapp 64156325\nTelegram @dustynails\n預約",
-        "categories": [
-          "Nail Salon"
+        "category_list": [
+          {
+            "id": "198516863494646",
+            "name": "Nail Salon"
+          }
         ],
-        "addr": "駱克道368號灣仔SOLO地庫8號舖",
-        "area": "Causeway Bay",
-        "tel": "64156325"
+        "single_line_address": "駱克道368號灣仔SOLO地庫8號舖, Causeway Bay"
       }
     },
     {

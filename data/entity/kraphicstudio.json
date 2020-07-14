@@ -9,17 +9,29 @@
     },
     {
       "meta": {
-        "name": "Kraphic Studio",
         "id": "151538854880114",
+        "username": "kraphicstudio",
+        "name": "Kraphic Studio",
         "about": "At Kraphic Studio, we communicate and work closely with your company to provide solutions in strategic, branding, identity, and digital.",
-        "categories": [
-          "Graphic Designer",
-          "Consulting Agency",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "162183907165552",
+            "name": "Graphic Designer"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2248",
+            "name": "Consulting Agency"
+          }
         ],
-        "addr": "1302, Hung To Industrial Building, 80 Hung To Road, Kwun Tong",
-        "area": "Hong Kong",
-        "email": "hello@kraphicstudio.com"
+        "emails": [
+          "hello@kraphicstudio.com"
+        ],
+        "single_line_address": "1302, Hung To Industrial Building, 80 Hung To Road, Kwun Tong, Hong Kong",
+        "website": "http://www.kraphicstudio.com"
       },
       "url": "https://www.facebook.com/kraphicstudio/"
     },

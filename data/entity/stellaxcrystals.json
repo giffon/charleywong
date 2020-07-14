@@ -11,12 +11,20 @@
     {
       "meta": {
         "id": "245292309652339",
-        "about": "�Stellax Crystals-水晶閣�天然水晶專賣店��門市：旺角彌敦道580A號潮流特區2樓220鋪�營業時間：星期一至五 2-9pm 六至日 12-9pm網站：stellaxcrystals.com�Wts：95741539",
-        "categories": [
-          "Jewellery/watches"
+        "username": "stellaxcrystals",
+        "name": "Stellax Crystals 水晶閣",
+        "about": "�Stellax Crystals-水晶閣�天然水晶專賣店��門市：旺角彌敦道580A號潮流特區2樓220鋪�營業時間：星期一至日 2-9pm 網站：stellaxcrystals.com�Wts：95741539",
+        "category_list": [
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          }
         ],
-        "email": "stellaxcrystals@gmail.com",
-        "tel": "95741539"
+        "emails": [
+          "stellaxcrystals@gmail.com"
+        ],
+        "single_line_address": "旺角彌敦道",
+        "website": "https://stellaxcrystals.com"
       },
       "url": "https://www.facebook.com/stellaxcrystals/"
     }

@@ -10,14 +10,24 @@
     {
       "url": "https://www.facebook.com/HKPetsLife/",
       "meta": {
-        "name": "Pets‧Life",
         "id": "395639884172813",
+        "username": "HKPetsLife",
+        "name": "Pets‧Life",
         "about": "Pets ‧ Life \n最恰當嘅衣食住行，送給你的至愛",
-        "categories": [
-          "Shopping & Retail",
-          "Pet Supplies"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2230",
+            "name": "Pet Supplies"
+          }
         ],
-        "email": "sales@hkpetslife.com"
+        "emails": [
+          "sales@hkpetslife.com"
+        ],
+        "website": "https://www.hkpetslife.com"
       }
     },
     {

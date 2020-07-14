@@ -10,15 +10,28 @@
     {
       "url": "https://www.facebook.com/yellowdims/",
       "meta": {
-        "name": "Yellowdims",
         "id": "106346631015141",
-        "about": "Yellowdims是一班生於香港、以幫助黃店為目標的80後及90後。我們只希望發揮連結者的角色，善用黃店資源，讓更多不同類型的黃店獲得支持，同路人不用違背良知光顧藍店。",
-        "categories": [
-          "Product/Service",
-          "Art",
-          "Retail Company"
+        "username": "yellowdims",
+        "name": "Yellowdims",
+        "about": "Yellowdims是一班生於香港、以幫助黃店為目標的80後及90後。我們只希望發揮連結者的角色，善用黃店資源，讓更多不同類型的黃店獲得支持。",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "email": "cs@yellowdims.com"
+        "emails": [
+          "cs@yellowdims.com"
+        ],
+        "website": "https://yellowdims.com/"
       }
     },
     {

@@ -9,17 +9,21 @@
     },
     {
       "meta": {
-        "name": "電玩直銷網",
         "id": "157257437664828",
+        "username": "DirectBuyHK.FansPage",
+        "name": "電玩直銷網",
         "about": "香港遊戲電玩業界最大的的代理商及批發商之一\nSuccess Distribution / 新成公司 \nwww.superufo.com / www.directbuyhk.com",
-        "categories": [
-          "Shopping & Retail",
-          "Electronics"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "九龍深水步福華街187號地下。",
-        "area": "Sham Shui Po",
-        "email": "info@superufo.com",
-        "tel": "92841874"
+        "emails": [
+          "info@superufo.com"
+        ],
+        "single_line_address": "九龍深水步福華街187號地下。, Sham Shui Po",
+        "website": "http://www.DirectBuyHK.com"
       },
       "url": "https://www.facebook.com/DirectBuyHK.FansPage/"
     },

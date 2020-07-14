@@ -10,15 +10,28 @@
     {
       "url": "https://www.facebook.com/weatherpolis/",
       "meta": {
-        "name": "WeatherPolis",
         "id": "419552475517173",
+        "username": "weatherpolis",
+        "name": "WeatherPolis",
         "about": "WeatherPolis 相信人生中每一刻都是獨一無二及值得珍惜的。不管天氣或晴或雨，不管心情或喜或悲，WeatherPolis 都希望能守護大城市裡的小溫暖，以小心意陪伴無價的人生旅途。",
-        "categories": [
-          "Clothing (Brand)",
-          "Website",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "2202",
+            "name": "Website"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "info@weatherpolis.com"
+        "emails": [
+          "info@weatherpolis.com"
+        ],
+        "website": "www.weatherpolis.com"
       }
     },
     {

@@ -10,16 +10,28 @@
     {
       "meta": {
         "id": "1374254579570229",
-        "about": "歡迎來到MobileGarage 我地中玩各比例既車。\n高價買取\n新車, 中古トミカ, ChoroQ, LEGO, 飛機模型,\n另外我地仲有格仔招租 :), 歡迎查詢\n地址: 先達廣場2樓S100號鋪",
-        "categories": [
-          "Toy shop",
-          "Hobby shop",
-          "Collectibles shop"
+        "username": "mobile.garage.hk",
+        "name": "Mobile Garage",
+        "about": "Welcome to MobileGarage\nOur shop located in Hong Kong since 2015\nWe are Specializing in New/Discontinue of any scale 1:64 1:43 1:18 Diecast Toys model",
+        "category_list": [
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          },
+          {
+            "id": "187679647929203",
+            "name": "Collectibles Store"
+          },
+          {
+            "id": "1787166534852540",
+            "name": "Hobby Store"
+          }
         ],
-        "addr": "亞皆老街83號 先達廣場 2樓S100",
-        "area": "Mong Kok",
-        "email": "mobilegarage001@gmail.com",
-        "tel": "57171925"
+        "emails": [
+          "mobilegarage001@gmail.com"
+        ],
+        "single_line_address": "亞皆老街83號 先達廣場 2樓S100, +852 Mong Kok",
+        "website": "http://www.mobilegaragehk.com"
       },
       "url": "https://www.facebook.com/mobile.garage.hk/"
     },

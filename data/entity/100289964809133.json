@@ -7,12 +7,16 @@
     {
       "url": "https://www.facebook.com/100289964809133/",
       "meta": {
-        "name": "Anson Wong Yellow Lifestyle",
         "id": "100289964809133",
+        "name": "Anson Wong Yellow Lifestyle",
         "about": "黃色生活圈",
-        "categories": [
-          "Personal Blog"
-        ]
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
+        ],
+        "single_line_address": "Hong Kong"
       }
     }
   ],

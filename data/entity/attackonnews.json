@@ -7,11 +7,15 @@
     {
       "url": "https://www.facebook.com/attackonnews/",
       "meta": {
-        "name": "進擊新聞",
         "id": "102376054505682",
+        "username": "attackonnews",
+        "name": "進擊新聞",
         "about": "記錄事實，追求真相，為自由發聲！",
-        "categories": [
-          "Community Organization"
+        "category_list": [
+          {
+            "id": "1500",
+            "name": "Interest"
+          }
         ]
       }
     },

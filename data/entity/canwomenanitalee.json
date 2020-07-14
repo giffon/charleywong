@@ -11,13 +11,21 @@
     {
       "url": "https://www.facebook.com/canwomenanitalee/",
       "meta": {
-        "name": "住加女人－CanWomen",
         "id": "634156790392294",
+        "username": "canwomenanitalee",
+        "name": "住加女人－CanWomen",
         "about": "住加女人－CanWomen",
-        "categories": [
-          "Media",
-          "Community"
-        ]
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "1314020451960517",
+            "name": "Media"
+          }
+        ],
+        "single_line_address": "Vancouver, British Columbia"
       }
     },
     {

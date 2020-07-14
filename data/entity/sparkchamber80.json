@@ -6,15 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "八拾花火",
         "id": "819087238226463",
-        "about": "八拾花火\n\n一群八十後\n在煩喧城市中\n拾回自己的生活\n燃燒不止一瞬燦爛的花火\n\n夢想再不去闖\n永遠只會是個夢",
-        "categories": [
-          "Local Business"
+        "username": "sparkchamber80",
+        "name": "八拾花火",
+        "about": "八拾花火\n\n一群八十後\n在煩喧城市中\n拾回自己的生活\n燃燒不止一瞬燦爛的花火\n\n夢想再不去闖\n永遠只會是個夢\n",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "1/F, 3 YUEN NGAI STREET, MONG KOK, KOWLOON",
-        "area": "852 Hong Kong",
-        "tel": "34855777"
+        "single_line_address": "1/F, 3 YUEN NGAI STREET, MONG KOK, KOWLOON, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/sparkchamber80/"
     },

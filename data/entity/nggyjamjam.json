@@ -7,15 +7,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "吾子果醬 nggy jam jam",
         "id": "1470080173294896",
+        "username": "nggyjamjam",
+        "name": "吾子果醬 nggy jam jam",
         "about": "果醬皆選用新鮮水果,加上甜度低砂糖或冰糖一半的海藻糖,並以天然香草作為配搭,口味新穎有個性, 絕無防腐化學成份 ，新鮮健康",
-        "categories": [
-          "Organic Grocery Store"
+        "category_list": [
+          {
+            "id": "1748430218710706",
+            "name": "Organic Grocery Store"
+          }
         ],
-        "addr": "荃灣柴灣角街道榮興工業中心20樓11室",
-        "area": "hk Hong Kong",
-        "email": "nggyjamjam@gmail.com"
+        "emails": [
+          "nggyjamjam@gmail.com"
+        ],
+        "single_line_address": "荃灣柴灣角街道榮興工業中心20樓11室, hk Hong Kong",
+        "website": "nggyjamjam.com"
       },
       "url": "https://www.facebook.com/nggyjamjam/"
     },

@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/MrCoolFood/",
       "meta": {
-        "name": "Mr. Cool 優質食材專門店",
         "id": "769234976825620",
+        "username": "MrCoolFood",
+        "name": "Mr. Cool 優質食材專門店",
         "about": "Mr Cool專營各國優質食材，歡迎零售批發。",
-        "categories": [
-          "Shopping & Retail",
-          "Food Wholesaler"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "1727285527537943",
+            "name": "Food Wholesaler"
+          }
         ],
-        "addr": "深水埗汝州街162號",
-        "area": "Kowloon, Hong Kong",
-        "email": "mrcoolfoodhk@gmail.com",
-        "tel": "26539288"
+        "emails": [
+          "mrcoolfoodhk@gmail.com"
+        ],
+        "single_line_address": "深水埗汝州街162號, Kowloon, Hong Kong"
       }
     },
     {

@@ -10,13 +10,27 @@
     {
       "meta": {
         "id": "104490284290345",
+        "username": "spinnerofyarns.choicegame",
+        "name": "Spinner of Yarns",
         "about": "The official page of Spinner of Yarns.",
-        "categories": [
-          "App Page",
-          "Games/toys",
-          "Literary arts"
+        "category_list": [
+          {
+            "id": "2301",
+            "name": "App Page"
+          },
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          },
+          {
+            "id": "856055631167537",
+            "name": "Literary Arts"
+          }
         ],
-        "email": "spinnerofyarns.choicegame@gmail.com"
+        "emails": [
+          "admin@yarner.app"
+        ],
+        "website": "https://yarner.app"
       },
       "url": "https://www.facebook.com/spinnerofyarns.choicegame/"
     }

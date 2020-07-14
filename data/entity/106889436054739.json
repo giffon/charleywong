@@ -7,14 +7,15 @@
     {
       "url": "https://www.facebook.com/106889436054739/",
       "meta": {
-        "name": "新景園咖喱小廚",
         "id": "106889436054739",
-        "categories": [
-          "Chinese Restaurant"
+        "name": "新景園咖喱小廚",
+        "category_list": [
+          {
+            "id": "174483852595760",
+            "name": "Chinese Restaurant"
+          }
         ],
-        "addr": "灣仔春園街20號地下",
-        "area": "Hong Kong",
-        "tel": "25749172"
+        "single_line_address": "灣仔春園街20號地下, Hong Kong"
       }
     }
   ],

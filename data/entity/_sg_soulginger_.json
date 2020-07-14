@@ -8,14 +8,18 @@
     {
       "url": "https://www.facebook.com/468966657254803/",
       "meta": {
-        "name": "本地薑 Soul Ginger",
         "id": "468966657254803",
-        "categories": [
-          "Restaurant"
+        "name": "本地薑 Soul Ginger",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "葵涌興芳路177號葵芳商場地下18號店",
-        "area": "Hong Kong",
-        "email": "info@soulginger.com"
+        "emails": [
+          "info@soulginger.com"
+        ],
+        "single_line_address": "葵涌興芳路177號葵芳廣場地下18號店, Hong Kong"
       }
     },
     {

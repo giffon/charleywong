@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/Happiness.single.coffee/",
       "meta": {
-        "name": "Happiness Single Coffee",
         "id": "1185803118141321",
+        "username": "Happiness.single.coffee",
+        "name": "Happiness Single Coffee",
         "about": "真純咖啡・醇香體驗",
-        "categories": [
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "香港西營盤正街英華臺一號",
-        "area": "999077 Hong Kong",
-        "email": "happinesscoffee@126.com",
-        "tel": "28030868"
+        "emails": [
+          "happinesscoffee@126.com"
+        ],
+        "single_line_address": "香港西營盤正街英華臺一號, 999077 Hong Kong"
       }
     },
     {

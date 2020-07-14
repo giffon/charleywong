@@ -6,14 +6,22 @@
   "webpages": [
     {
       "meta": {
-        "name": "Double.c",
         "id": "1663534540595867",
-        "about": "Double.c是一間布藝手作小店，由挑選布料 裁剪 設計 車縫都是兩位工廠妹親手打造而成。將裙子設計出多變的穿法，製作出不同形態的裙子全都是限量的",
-        "categories": [
-          "Clothing Store"
+        "username": "dddoublec",
+        "name": "Double.c",
+        "about": "Double.c是一間布藝手作小店，由挑選布料 裁剪 設計 車縫都是兩位工廠妹親手打造而成。將裙子設計出多變的穿法，製作出不同形態的裙子全都是限量的\n",
+        "category_list": [
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "葵涌廣場時尚坊43號",
-        "area": "Hong Kong"
+        "single_line_address": "葵涌廣場時尚坊43號, Hong Kong",
+        "website": "https://instagram.com/dddouble.c"
       },
       "url": "https://www.facebook.com/dddoublec/"
     },

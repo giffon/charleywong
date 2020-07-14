@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/183483239197071/",
       "meta": {
-        "name": "魚木日台美食",
         "id": "183483239197071",
+        "username": "SpiderTreeKitchen",
+        "name": "魚木日台美食",
         "about": "位於將軍澳慧安園商場的外賣店 :)",
-        "categories": [
-          "Fast Food Restaurant"
+        "category_list": [
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          }
         ],
-        "addr": "Shop A14, Wai On Garden",
-        "area": "Tseung Kwan O, Hong Kong",
-        "tel": "55972119"
+        "single_line_address": "Shop A14, Wai On Garden, Tseung Kwan O, Hong Kong"
       }
     }
   ],

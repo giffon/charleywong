@@ -8,14 +8,25 @@
     {
       "url": "https://www.facebook.com/unitemaskhk/",
       "meta": {
-        "name": "同舟 Unite Mask HK",
         "id": "100688131576851",
+        "username": "unitemaskhk",
+        "name": "同舟 Unite Mask HK",
         "about": "#同舟UniteMask 由7哥及 7嫂老闆娘 於2020年3月份創立，用「同舟」作口罩品牌之名字，以 #同舟共濟 寄寓香港人團結互助，同心協力，定能走出困局，實踐 #港人自救！",
-        "categories": [
-          "Product/Service",
-          "Shopping & Retail",
-          "Medical & Health"
-        ]
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "145118935550090",
+            "name": "Medical & Health"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
+        ],
+        "single_line_address": "Hong Kong"
       }
     }
   ],

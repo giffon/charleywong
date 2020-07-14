@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Bittersweet咖啡館",
         "id": "273521932824761",
-        "about": "All Day Breakfast\nCoffee",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant"
+        "username": "bittersweetcafehk",
+        "name": "Bittersweet咖啡館",
+        "about": "All Day Breakfast\nCoffee\n",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "粉嶺聯和墟和豐街和豐閣4號地下（欽記隔離）",
-        "area": "0000 Hong Kong",
-        "tel": "26026711"
+        "single_line_address": "粉嶺聯和墟和豐街和豐閣4號地下（欽記隔離）, 0000 Hong Kong"
       },
       "url": "https://www.facebook.com/bittersweetcafehk/"
     },

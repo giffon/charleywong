@@ -15,15 +15,28 @@
     {
       "url": "https://www.facebook.com/nomadsymmz/",
       "meta": {
-        "name": "遊牧民族【土耳其人手製地毯真皮袋專賣店】",
         "id": "299297154309938",
+        "username": "nomadsymmz",
+        "name": "遊牧民族【土耳其人手製地毯真皮袋專賣店】",
         "about": "【土耳其人手製地毯真皮袋專賣店】\n．古董地毯及真皮製造\n．100%人手製造\n．高質、獨一無二",
-        "categories": [
-          "Shopping & Retail",
-          "Ethnic Grocery Store",
-          "Bags/Luggage"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2206",
+            "name": "Bags/Luggage"
+          },
+          {
+            "id": "144815382251809",
+            "name": "Ethnic Grocery Store"
+          }
         ],
-        "email": "nomadsymmz@gmail.com"
+        "emails": [
+          "nomadsymmz@gmail.com"
+        ],
+        "website": "https://www.instagram.com/nomadsymmz/"
       }
     }
   ],

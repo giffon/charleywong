@@ -11,15 +11,24 @@
     {
       "url": "https://www.facebook.com/kougelhof/",
       "meta": {
-        "name": "咕咕洛夫甜品 Kougelhof Dessert",
         "id": "339852683150446",
-        "about": "我們是一間香港小店，希望甜品能帶給人歡樂是我們的使命，我們自家創作了本店的招牌甜品～咕咕洛夫蛋糕，樣子精緻，味道低甜；另有各款宴會甜品及生日蛋糕。",
-        "categories": [
-          "Cupcake Shop",
-          "Shopping & Retail"
+        "username": "kougelhof",
+        "name": "咕咕洛夫甜品 Kougelhof Dessert",
+        "about": "我們是一間香港小店，希望甜品能帶給人歡樂是我們的使命，我們自家創作了本店的招牌甜品～咕咕洛夫蛋糕，樣子精緻，味道低甜；另有各款宴會甜品及生日蛋糕。\n\n",
+        "category_list": [
+          {
+            "id": "325310894151007",
+            "name": "Cupcake Shop"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "carrie713@gmail.com",
-        "tel": "61121005"
+        "emails": [
+          "carrie713@gmail.com"
+        ],
+        "website": "http://kofcake.com"
       }
     },
     {

@@ -7,16 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "享茶 Enjoy Time",
         "id": "1848236945270498",
+        "username": "Enjoytimehk",
+        "name": "享茶 Enjoy Time",
         "about": "提供多款茶飲，包括最受歡迎嘅黑糖珍珠厚鮮奶，芝士奶蓋系列，多款果茶及奶茶系列。小食現已陸續推出。",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "九龍新蒲崗錦榮街4號地下",
-        "area": "Hong Kong",
-        "email": "enjoytimehk@gmail.com",
-        "tel": "98293863"
+        "emails": [
+          "enjoytimehk@gmail.com"
+        ],
+        "single_line_address": "九龍新蒲崗錦榮街4號地下, Hong Kong"
       },
       "url": "https://www.facebook.com/Enjoytimehk/"
     },

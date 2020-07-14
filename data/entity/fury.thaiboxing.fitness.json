@@ -7,18 +7,29 @@
     {
       "url": "https://www.facebook.com/fury.thaiboxing.fitness/",
       "meta": {
-        "name": "Fury MuayThai & Boxing",
         "id": "1018198814947686",
+        "username": "fury.thaiboxing.fitness",
+        "name": "Fury MuayThai & Boxing",
         "about": "由專業資格導師教授泰拳、TRX及其他核心體能訓練課程，提供單對單或3-8人小班教學。課程設有不同級別。設男女賓獨立更衣室。鄰近港鐵觀塘站。可按月或每堂收費，毋須入會及預繳。",
-        "categories": [
-          "Gym/Physical Fitness Center",
-          "Martial Arts School",
-          "Sports & Fitness Instruction"
+        "category_list": [
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          },
+          {
+            "id": "198325860180715",
+            "name": "Martial Arts School"
+          },
+          {
+            "id": "193302624020981",
+            "name": "Sports & Fitness Instruction"
+          }
         ],
-        "addr": "觀塘駿業街66號巧運工業大廈14樓C室",
-        "area": "852 Kwun Tong",
-        "email": "fury.thaiboxing@gmail.com",
-        "tel": "35654622"
+        "emails": [
+          "fury.thaiboxing@gmail.com"
+        ],
+        "single_line_address": "觀塘駿業街66號巧運工業大廈14樓C室, 852 Kwun Tong",
+        "website": "https://www.instagram.com/furymuaythaiboxing/"
       }
     },
     {

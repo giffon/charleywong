@@ -17,16 +17,28 @@
     {
       "url": "https://www.facebook.com/YOPEHK/",
       "meta": {
-        "name": "Xavi Soap",
         "id": "276814289639935",
+        "username": "YOPEHK",
+        "name": "Xavi Soap",
         "about": "來自波蘭的 YOPE 以「家庭」為品牌核心價值，採用精選植物成份，以天然、低敏為主，不含PRB、SLS、 SLES、 PEG等化學成份，並經由專業皮膚專科醫生嚴密把關，研製多款個人護理及家居產品。",
-        "categories": [
-          "Health/Beauty",
-          "Household Supplies",
-          "Beauty, Cosmetic & Personal Care"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "2220",
+            "name": "Household Supplies"
+          },
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "email": "info@xavi-era.com",
-        "tel": "91621099"
+        "emails": [
+          "info@xavi-era.com"
+        ],
+        "website": "www.xavisoap.com"
       }
     }
   ],

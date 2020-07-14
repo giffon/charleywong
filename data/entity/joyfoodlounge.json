@@ -15,16 +15,18 @@
     {
       "url": "https://www.facebook.com/joyfoodlounge/",
       "meta": {
-        "name": "Joy food lounge 聚福樓",
         "id": "331525783847754",
-        "about": "我們大玩『藝術』！！想出『創意．菜單！』只有好．好．好．的理念，顛覆傳統的飲食概念。『新鮮、健康』，用 “愛” 和＂誠意＂烹煮每一道菜式。",
-        "categories": [
-          "Restaurant",
-          "Coffee Shop"
+        "username": "joyfoodlounge",
+        "name": "Joy food lounge 聚福樓",
+        "about": "我們大玩『藝術』！！想出『創意．菜單！』只有好．好．好．的理念，顛覆傳統的飲食概念。『新鮮、健康』，用 “愛”  和＂誠意＂烹煮每一道菜式。",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "屯門青善街28號康景花園1号舖地下",
-        "area": "Hong Kong",
-        "tel": "23626968"
+        "single_line_address": "屯門青善街28號康景花園1号舖地下, 0000 Hong Kong",
+        "website": "https://www.instagram.com/joyfoodlounge"
       }
     }
   ],

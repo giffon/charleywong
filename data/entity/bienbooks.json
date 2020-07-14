@@ -7,15 +7,19 @@
     {
       "url": "https://www.facebook.com/bienbooks/",
       "meta": {
-        "name": "邊譜",
         "id": "111554716327162",
-        "categories": [
-          "Independent Bookstore"
+        "username": "bienbooks",
+        "name": "邊譜",
+        "category_list": [
+          {
+            "id": "387228845011016",
+            "name": "Independent Bookstore"
+          }
         ],
-        "addr": "台灣大道三段408號",
-        "area": "Taichung, Taiwan 407",
-        "email": "verge408@gmail.com",
-        "tel": "886424521984"
+        "emails": [
+          "verge408@gmail.com"
+        ],
+        "single_line_address": "台灣大道三段408號, Taichung, Taiwan 407"
       }
     },
     {

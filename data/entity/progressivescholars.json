@@ -7,13 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "高教公民Progressive Scholars Group",
         "id": "1873472842919770",
+        "username": "psg4hk",
+        "name": "高教公民Progressive Scholars Group",
         "about": "高教公民 是新時代的香港學者網絡，以「學術自主、公民自強」為使命！\nProgressive Scholars Group (PSG) is a scholars network which aims at promoting “academic autonomy and a strong civil society” for Hong Kong.",
-        "categories": [
-          "Community Organization"
+        "category_list": [
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          }
         ],
-        "email": "hkprogressivescholars@gmail.com"
+        "emails": [
+          "hkprogressivescholars@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/psg4hk/"
     },

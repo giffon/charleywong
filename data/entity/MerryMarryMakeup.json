@@ -9,15 +9,21 @@
     },
     {
       "meta": {
-        "name": "MerryMarry - Makeup Artist",
         "id": "193165370760218",
-        "about": "Address: 29-31 Queen's Road East, Wanchai\nhttp://merrymarry-sandy.blogspot.hk/2014/01/merrymarry-2014-20",
-        "categories": [
-          "Makeup Artist"
+        "username": "MerryMarryMakeup",
+        "name": "MerryMarry - Makeup Artist",
+        "about": "Address: 29-31 Queen's Road East, Wanchai\nhttp://merrymarry-sandy.blogspot.hk/2014/01/merrymarry-2014-20\n\n",
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "addr": "Queen's Road East, Wanchai",
-        "area": "merrymarry@gmail.com Hong Kong",
-        "email": "merrymarry@gmail.com"
+        "emails": [
+          "merrymarry@gmail.com"
+        ],
+        "single_line_address": "Queen's Road East, Wanchai, merrymarry@gmail.com Hong Kong",
+        "website": "http://www.fotop.net/merrymarry"
       },
       "url": "https://www.facebook.com/MerryMarryMakeup/"
     },

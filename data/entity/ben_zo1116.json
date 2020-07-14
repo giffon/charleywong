@@ -14,15 +14,17 @@
     {
       "url": "https://www.facebook.com/148738402154604/",
       "meta": {
-        "name": "本佐日本燒肉料理-尖沙咀店",
         "id": "148738402154604",
+        "name": "本佐日本燒肉料理-尖沙咀店",
         "about": "本佐 - 日本料理餐廳",
-        "categories": [
-          "Yakiniku Restaurant"
+        "category_list": [
+          {
+            "id": "698490883622395",
+            "name": "Yakiniku Restaurant"
+          }
         ],
-        "addr": "尖沙咀赫德道4號THE HART 3樓",
-        "area": "852 Tsim Sha Tsui",
-        "tel": "28871028"
+        "single_line_address": "尖沙咀赫德道4號THE HART 3樓, 852 Tsim Sha Tsui",
+        "website": "http://www.openrice.com/zh/hongkong/r-%E4%BC%8A%E8%B3%80%E6%97%A5%E6%9C%AC%E7%87%92%E8%82%89%E6%96%99%E7%90%86-%E5%B0%96%E6%B2%99%E5%92%80-%E6%97%A5%E6%9C%"
       }
     }
   ],

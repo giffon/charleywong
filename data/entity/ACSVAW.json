@@ -10,16 +10,28 @@
     },
     {
       "meta": {
-        "name": "關注婦女性暴力協會 Association Concerning Sexual Violence Against Women",
         "id": "124616407615456",
+        "username": "ACSVAW",
+        "name": "關注婦女性暴力協會 Association Concerning Sexual Violence Against Women",
         "about": "推動性別平等　締造零性暴力社會\nPromote Gender Equity  Strive for Zero Sexual Violence",
-        "categories": [
-          "Non-Governmental Organization (NGO)",
-          "Nonprofit Organization",
-          "Education"
+        "category_list": [
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          },
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          },
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "email": "enquiry@rainlily.org.hk",
-        "tel": "23922569"
+        "emails": [
+          "enquiry@rainlily.org.hk"
+        ],
+        "website": "https://rainlily.org.hk/ "
       },
       "url": "https://www.facebook.com/ACSVAW/"
     },

@@ -7,30 +7,47 @@
     {
       "url": "https://www.facebook.com/thealeproject/",
       "meta": {
-        "name": "TAP - The Ale Project",
         "id": "667120763378717",
-        "about": "The Ale Project is a taproom featuring carefully curated, seasonally suitable beers paired with a food menu with artisanal bread as the centerpiece",
-        "categories": [
-          "Pub",
-          "Gastropub"
+        "username": "thealeproject",
+        "name": "TAP - The Ale Project",
+        "about": "The Ale Project is a taproom by Young Master, Asia's leading craft brewery, featuring carefully curated, seasonally suitable beers paired with a food menu with artisanal bread as the centerpiece",
+        "category_list": [
+          {
+            "id": "218693881483234",
+            "name": "Pub"
+          },
+          {
+            "id": "164049010316507",
+            "name": "Gastropub"
+          }
         ],
-        "email": "info@thealeproject.com",
-        "tel": "24682010"
+        "emails": [
+          "info@thealeproject.com"
+        ],
+        "website": "http://www.thealeproject.com"
       }
     },
     {
       "url": "https://www.facebook.com/tapmills/",
       "meta": {
-        "name": "TAP - The Ale Project (The Mills)",
         "id": "378576362965439",
-        "categories": [
-          "Bar",
-          "Restaurant",
-          "Coffee Shop"
+        "username": "tapmills",
+        "name": "TAP - The Ale Project",
+        "category_list": [
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "Unit 302, The Mills, 45 Pak Tin Par Street, Tsuen Wan",
-        "area": "Tsuen Wan, Hong Kong",
-        "tel": "23312621"
+        "single_line_address": "Unit 302, The Mills, 45 Pak Tin Par Street, Tsuen Wan, Tsuen Wan, Hong Kong"
       }
     },
     {

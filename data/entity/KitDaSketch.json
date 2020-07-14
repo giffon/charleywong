@@ -12,15 +12,28 @@
     },
     {
       "meta": {
-        "name": "Kit Da Sketch - Kit Man",
         "id": "375994382535961",
-        "about": "KITMAN，三字頭中坑一枚，最憎不義之事。本業多媒體製作，由設計到編程一手包辦，寫APP寫GAME寫現場互動。16年成功籌旗製作勁揪體，18年完成並舉辦首個個人展覽。\ninquiry: info@kitdastudio.com",
-        "categories": [
-          "Artist",
-          "Art Gallery",
-          "Residence"
+        "username": "KitDaSketch",
+        "name": "Kit Da Sketch - Kit Man",
+        "about": "KITMAN，四字頭中坑一枚，最憎不義之事。本業多媒體製作，由設計到編程一手包辦，寫APP寫GAME寫現場互動。16年成功籌旗製作勁揪體，18年完成並舉辦首個個人展覽。\ninquiry: info@kitdastudio.com",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "197384240287028",
+            "name": "Art Gallery"
+          },
+          {
+            "id": "192049437499122",
+            "name": "Residence"
+          }
         ],
-        "email": "kickasstype@kitdastudio.com"
+        "emails": [
+          "kickasstype@kitdastudio.com"
+        ],
+        "website": "https://www.kickasstype.hk/shop/?orderby=date"
       },
       "url": "https://www.facebook.com/KitDaSketch/"
     },

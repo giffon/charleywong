@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "Big C Production",
         "id": "472572296246193",
+        "username": "bigcproductionbigcstudio",
+        "name": "Big C Production",
         "about": "Big C Production 提供歌曲創作、錄音、混音、排練室租借等服務，歡迎email查詢",
-        "categories": [
-          "Producer"
+        "category_list": [
+          {
+            "id": "1108",
+            "name": "Producer"
+          }
         ],
-        "email": "bigcproductionandbigcstudio@gmail.com",
-        "tel": "93487299"
+        "emails": [
+          "bigcproductionandbigcstudio@gmail.com"
+        ],
+        "single_line_address": "RmG, 7/F, Everest Industrial Centre, Kwun Tong Road 396, Kwun Tong, Kowloon, 852 Hong Kong",
+        "website": "http://www.bigcproduction.com"
       },
       "url": "https://www.facebook.com/bigcproductionbigcstudio/"
     },

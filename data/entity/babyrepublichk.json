@@ -11,13 +11,20 @@
     {
       "url": "https://www.facebook.com/babyrepublichk/",
       "meta": {
-        "name": "Baby Republic BB共和國",
         "id": "109869413947445",
+        "username": "babyrepublichk",
+        "name": "Baby Republic BB共和國",
         "about": "唔洗再忍Bk班藍色老母！一個屬於真香港人嘅BB論壇",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "cs@baby-republic.com"
+        "emails": [
+          "cs@baby-republic.com"
+        ],
+        "website": "http://www.baby-republic.com"
       }
     }
   ],

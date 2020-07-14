@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Amigurumi Love",
         "id": "379791725372974",
-        "about": "AMIGURUMI LOVE希望結集香港的鈎織同好，令鈎織不再老土。",
-        "categories": [
-          "Local Business"
+        "username": "amigurumilovehk",
+        "name": "Amigurumi Love",
+        "about": "AMIGURUMI LOVE希望結集香港的鈎織同好，令鈎織不再老土。\n",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "email": "amigurumilove@ymail.com"
+        "emails": [
+          "amigurumilove@ymail.com"
+        ],
+        "single_line_address": "Hong Kong"
       },
       "url": "https://www.facebook.com/amigurumilovehk/"
     }

@@ -6,17 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Cafe Zense",
         "id": "151000278286398",
+        "username": "cafezense",
+        "name": "Cafe Zense",
         "about": "An innovative and unique combination of ingredients that aims to tempt, enthrall, captivate and embrace the senses.﻿",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "4/F, Yeung Iu Chi Commercial Building, 460-462 Jaffe Road, Causeway Bay",
-        "area": "Hong Kong",
-        "email": "cafezense@gmail.com",
-        "tel": "28922249"
+        "emails": [
+          "cafezense@gmail.com"
+        ],
+        "single_line_address": "4/F, Yeung Iu Chi Commercial Building, 460-462 Jaffe Road, Causeway Bay, Hong Kong"
       },
       "url": "https://www.facebook.com/cafezense/"
     },

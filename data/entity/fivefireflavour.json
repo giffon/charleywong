@@ -8,10 +8,13 @@
     {
       "url": "https://www.facebook.com/106099180810104/",
       "meta": {
-        "name": "五味真火 Five Fire Flavour",
         "id": "106099180810104",
-        "categories": [
-          "Interest"
+        "name": "五味真火 Five Fire Flavour",
+        "category_list": [
+          {
+            "id": "1500",
+            "name": "Interest"
+          }
         ]
       }
     },

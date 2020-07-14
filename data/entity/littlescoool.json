@@ -7,15 +7,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "小食糖 littlescoool",
         "id": "136992696983334",
+        "username": "littlescoool",
+        "name": "小食糖 littlescoool",
         "about": "放學後的小時光",
-        "categories": [
-          "Taiwanese Restaurant"
+        "category_list": [
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          }
         ],
-        "addr": "尖沙咀彌敦道132號2樓",
-        "area": "Kowloon, Hong Kong",
-        "tel": "27717828"
+        "single_line_address": "尖沙咀彌敦道132號2樓, HK Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/136992696983334/"
     },

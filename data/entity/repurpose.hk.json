@@ -6,15 +6,27 @@
   "webpages": [
     {
       "meta": {
-        "categories": [
-          "Home improvement",
-          "Product/service"
+        "id": "1330111367074936",
+        "username": "repurpose.hk",
+        "name": "集棄場",
+        "category_list": [
+          {
+            "id": "108427109235243",
+            "name": "Home Improvement"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "806240166180298",
+            "name": "Environmental Service"
+          }
         ],
-        "addr": "FT U 1/F Kai Tak FTY BLDG STAGE 1, 101 King Kuk Street",
-        "area": "San Po Kong",
-        "email": "repurpose@dne.com.hk",
-        "tel": "61283314",
-        "id": "1330111367074936"
+        "emails": [
+          "repurpose@dne.com.hk"
+        ],
+        "single_line_address": "FT U 1/F Kai Tak FTY BLDG STAGE 1, 101 King Kuk Street, San Po Kong"
       },
       "url": "https://www.facebook.com/repurpose.hk/"
     }

@@ -9,15 +9,21 @@
     },
     {
       "meta": {
-        "name": "Artfeeling production",
         "id": "182695961769198",
+        "username": "Artfeeling",
+        "name": "Artfeeling production",
         "about": "提供專業攝影服務！",
-        "categories": [
-          "Business Service"
+        "category_list": [
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          }
         ],
-        "addr": "觀塘 成業街",
-        "area": "Hong Kong",
-        "email": "info@artfeelingproduction.com"
+        "emails": [
+          "info@artfeelingproduction.com"
+        ],
+        "single_line_address": "美康工業大廈\n觀塘偉業街160號, Hong Kong",
+        "website": "http://www.artfeelingproduction.com"
       },
       "url": "https://www.facebook.com/Artfeeling/"
     },

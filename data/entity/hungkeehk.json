@@ -14,16 +14,25 @@
     {
       "url": "https://www.facebook.com/hungkeehk/",
       "meta": {
-        "name": "雄記美食",
         "id": "858624594244945",
+        "username": "hungkeehk",
+        "name": "雄記美食",
         "about": "馳名牛什、花生旺菜皮蛋豬骨粥、香煎蝦米腸粉、䜴油王炒麵；糖水有馬來亞喳咋、雞蛋腐竹薏米",
-        "categories": [
-          "Diner",
-          "Cantonese Restaurant"
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "214976388519648",
+            "name": "Cantonese Restaurant"
+          }
         ],
-        "addr": "6, Heard Street",
-        "area": "Hong Kong",
-        "tel": "37088715"
+        "emails": [
+          "kitchowc@yahoo.com.hk"
+        ],
+        "single_line_address": "ShopB2 ,6 Heard Street,Wanchai, 000 Hong Kong",
+        "website": "www.instagram.com/hungkeehk"
       }
     }
   ],

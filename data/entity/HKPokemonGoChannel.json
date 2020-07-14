@@ -9,12 +9,17 @@
     },
     {
       "meta": {
-        "name": "Pokémon Go 香港頻道",
         "id": "600276546821612",
+        "username": "HKPokemonGoChannel",
+        "name": "Pokémon Go 香港頻道",
         "about": "提供 Pokémon Go 最新動向、精靈巢穴、最佳攻防技能、懶人包、地區群組、即時提示、同埋秘技！",
-        "categories": [
-          "Community"
-        ]
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
+        ],
+        "website": "https://t.me/HKPGC"
       },
       "url": "https://www.facebook.com/HKPokemonGoChannel/"
     }

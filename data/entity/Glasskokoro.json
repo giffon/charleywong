@@ -6,14 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "玻璃心工作坊",
         "id": "502525933482872",
+        "username": "Glasskokoro",
+        "name": "玻璃心工作坊",
         "about": "Galaxy glass 宇宙玻璃 工作室",
-        "categories": [
-          "Glass Blower"
+        "category_list": [
+          {
+            "id": "1703306846553672",
+            "name": "Glass Blower"
+          }
         ],
-        "addr": "新界葵涌大連排道182-190號金龍工業中心第四座24字樓A3室",
-        "area": "HK Hong Kong"
+        "single_line_address": "新界葵涌大連排道182-190號金龍工業中心第四座24字樓A3室, HK Hong Kong"
       },
       "url": "https://www.facebook.com/Glasskokoro/"
     }

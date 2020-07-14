@@ -10,12 +10,24 @@
     {
       "meta": {
         "id": "2097479280508360",
+        "username": "teikoh.amateur.football.club",
+        "name": "帝光足球會",
         "about": "香港業餘足球隊，成立於2000年7月1日，於2000年開始參與各項業餘足球比賽",
-        "categories": [
-          "Amateur sports team",
-          "Non-profit organisation",
-          "Sports"
-        ]
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          },
+          {
+            "id": "1803",
+            "name": "Amateur Sports Team"
+          },
+          {
+            "id": "964585346994407",
+            "name": "Sports"
+          }
+        ],
+        "website": "http://www.yosoccer.hk/team.php?id=121"
       },
       "url": "https://www.facebook.com/teikoh.amateur.football.club/"
     }

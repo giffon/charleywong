@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/meowboxcafe/",
       "meta": {
-        "name": "MeowBox Cafe",
         "id": "168032694055977",
+        "username": "meowboxcafe",
+        "name": "MeowBox Cafe",
         "about": "MeowBox 喵盒子，一個藏身，休息，嘆咖啡，食嘢同玩嘅地方。牛頭角地鐵站B6出口，行7分鐘左右，電梯上一樓就會揾到我哋啦。我哋小店有好多貓嘅裝飾品，但係無真貓㗎。公衆假期：10:00至18:00",
-        "categories": [
-          "Restaurant",
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "1/F FC Group Building, 93 Wai Yip Street",
-        "area": "Kowloon, Hong Kong",
-        "email": "meowboxlimited@gmail.com",
-        "tel": "98609080"
+        "emails": [
+          "meowboxlimited@gmail.com"
+        ],
+        "single_line_address": "1/F FC Group Building, 93 Wai Yip Street, Kowloon, Hong Kong"
       }
     },
     {

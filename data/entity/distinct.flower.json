@@ -6,16 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "棋葩",
         "id": "2332309223758413",
-        "about": "愉快桌遊 尋找真我\n\n專人教授Board Game\n有空間享受Board Game\n\n2019年6月1日成立",
-        "categories": [
-          "Games/Toys",
-          "Board Game",
-          "Product/Service"
+        "username": "distinct.flower",
+        "name": "棋葩",
+        "about": "愉快桌遊 尋找真我\n太古千呎桌遊樂園\n交通方便，聚會、講座、派對之選\n專人教授Board Game\n有空間享受Board Game\n\n2019年6月1日成立",
+        "category_list": [
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          },
+          {
+            "id": "2303",
+            "name": "Board Game"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "distinct.flower@gmail.com",
-        "tel": "97991064"
+        "emails": [
+          "distinct.flower@gmail.com"
+        ],
+        "single_line_address": "太古仁孚工業大廈817室, Hong Kong"
       },
       "url": "https://www.facebook.com/distinct.flower/"
     },

@@ -6,11 +6,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "華爾街狠人",
         "id": "110776013598523",
+        "username": "FinanceFellow",
+        "name": "華爾街狠人",
         "about": "光復香港，時代革命！生於亂世，做個狠狠的金融人",
-        "categories": [
-          "Personal Blog"
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ]
       },
       "url": "https://www.facebook.com/FinanceFellow/"

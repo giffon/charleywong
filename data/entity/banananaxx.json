@@ -6,15 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Banananaxx",
         "id": "124127991324309",
+        "username": "banananaxx",
+        "name": "Banananaxx",
         "about": "我們用心製作，親自設計每件服飾的細節 ♡\n希望每個女生可以輕鬆配搭出每天的穿搭！\n\n任何查詢 | WhatsApp +852 5338-4345\n前往網站 | https://www.banananaxx.com",
-        "categories": [
-          "Clothing (Brand)",
-          "Women's Clothing Store"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "128753240528981",
+            "name": "Women's Clothing Store"
+          }
         ],
-        "email": "banananaxxhk@gmail.com",
-        "tel": "53384345"
+        "emails": [
+          "banananaxxhk@gmail.com"
+        ],
+        "website": "https://www.banananaxx.com/"
       },
       "url": "https://www.facebook.com/banananaxx/"
     },

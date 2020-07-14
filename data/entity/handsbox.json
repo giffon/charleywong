@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/handsbox/",
       "meta": {
-        "name": "Handsbox 皮革學堂",
         "id": "146436034440",
+        "username": "handsbox",
+        "name": "Handsbox 皮革學堂",
         "about": "歡迎訂製及參加皮革DIY製作班. 一人開班, 由兩位全職專業導師教學.\n工作室24小時開放, 自由預約上堂時間.",
-        "categories": [
-          "Arts & Crafts Store",
-          "Art School"
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "164288046954643",
+            "name": "Art School"
+          }
         ],
-        "addr": "荔枝角 青山道588號 永盛工業大廈 地下 23鋪",
-        "area": "Kowloon, Hong Kong",
-        "email": "handsbox@gmail.com",
-        "tel": "60374474"
+        "emails": [
+          "handsbox@gmail.com"
+        ],
+        "single_line_address": "荔枝角 青山道588號 永盛工業大廈 地下 23鋪, Kowloon, Hong Kong",
+        "website": "http://www.handsbox.com"
       }
     },
     {

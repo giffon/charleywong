@@ -8,16 +8,21 @@
     {
       "url": "https://www.facebook.com/cafeswanhk/",
       "meta": {
-        "name": "Cafe Swan 咖啡灣",
         "id": "819453038145853",
-        "about": "粉嶺中心219號店\n電話36192450\n\n太和中心9號店\n電話23872008\n\n荃灣千色店2期G30號店\n電話34811883\n\n將軍澳新都城2期1072號店\n電話34811807\n\nPalmary  Catering Management (Hong Kong)Limited",
-        "categories": [
-          "Cafe",
-          "Diner"
+        "username": "cafeswanhk",
+        "name": "Cafe Swan 咖啡灣",
+        "about": "粉嶺中心219號店\n電話36192450\n\n太和中心9號店\n電話23872008\n\n荃灣千色店2期G30號店\n電話34811883\n",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "太和路太和中心9號舖",
-        "area": "這 Hong Kong",
-        "tel": "23872008"
+        "single_line_address": "太和路太和中心9號舖, 這 Hong Kong"
       }
     },
     {

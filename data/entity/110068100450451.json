@@ -7,17 +7,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "三和茶餐廳 Sam Wo",
         "id": "110068100450451",
+        "name": "三和茶餐廳 Sam Wo",
         "about": "三和茶餐廳",
-        "categories": [
-          "Dim Sum Restaurant",
-          "Hong Kong Restaurant",
-          "Tea Room"
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          },
+          {
+            "id": "194588013912896",
+            "name": "Dim Sum Restaurant"
+          },
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          }
         ],
-        "addr": "樂富聯合道198號樂富廣場匯富坊",
-        "area": "Wang Tau Hom",
-        "tel": "27944988"
+        "single_line_address": "樂富聯合道198號樂富廣場匯富坊, 000000 Wang Tau Hom"
       },
       "url": "https://www.facebook.com/110068100450451/"
     }

@@ -10,16 +10,21 @@
     },
     {
       "meta": {
-        "name": "最愛富士山 We Love FUJI San",
         "id": "528895380949474",
+        "username": "welovefujisan",
+        "name": "最愛富士山 We Love FUJI San",
         "about": "點解係最愛富士山呢?\n好多朋友都會問 : 點解會係點解係最愛富士山呢?富士山???其實我同好多好多朋友, 包括大家, 都係對富士山會有種莫名嘅喜好... 情意結... 同好想擁有一切同富士山相關嘅物",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "九龍",
-        "area": "Hong Kong",
-        "email": "welovefujisan@gmail.com",
-        "tel": "91203795"
+        "emails": [
+          "welovefujisan@gmail.com"
+        ],
+        "single_line_address": "九龍, Hong Kong",
+        "website": "www.welovefujisan.store"
       },
       "url": "https://www.facebook.com/welovefujisan/"
     },

@@ -6,11 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "香港地",
         "id": "169166456593130",
-        "categories": [
-          "Media/News Company"
-        ]
+        "username": "ThingsAtHongKong",
+        "name": "香港地",
+        "about": "香港地小人多",
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
+        ],
+        "website": "http://www.hkermedia.com/"
       },
       "url": "https://www.facebook.com/ThingsAtHongKong/"
     }

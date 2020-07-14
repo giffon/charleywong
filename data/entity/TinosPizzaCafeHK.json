@@ -8,15 +8,21 @@
     {
       "url": "https://www.facebook.com/TinosPizzaCafeHK/",
       "meta": {
-        "name": "Tino's Pizza Café HK 堤諾比薩",
         "id": "123282194684202",
-        "about": "堤諾提供風格獨特的創意比薩，同時結合義式咖啡。\n創新的 Pizza Cafe 讓你彷彿置身義大利，隨時可品嚐道地的美味饗宴。",
-        "categories": [
-          "Pizza Place"
+        "username": "TinosPizzaCafeHK",
+        "name": "Tino's Pizza Café HK 堤諾比薩",
+        "about": "堤諾提供風格獨特的創意比薩，同時結合義式咖啡。\n創新的 Pizza Cafe 讓你彷彿置身義大利，隨時可品嚐道地的美味饗宴。\n\n",
+        "category_list": [
+          {
+            "id": "180256082015845",
+            "name": "Pizza Place"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
         ],
-        "addr": "深水埗欽州街94號黃金中心地下7-10號鋪",
-        "area": "Sham Shui Po",
-        "tel": "27299818"
+        "single_line_address": "深水埗欽州街94號黃金中心地下7-10號鋪, Sham Shui Po"
       }
     },
     {

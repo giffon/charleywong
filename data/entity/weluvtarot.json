@@ -6,15 +6,29 @@
   "webpages": [
     {
       "meta": {
+        "id": "1460464807570054",
+        "username": "weluvtarot",
+        "name": "We Luv Tarot",
         "about": "我們是由2014年成立的香港塔羅占卜店\n售賣塔羅牌、書籍 |塔羅 |天使卡 |水晶 |專業輔導| 盧恩石 |臼井靈氣 |風水 |八字 |頌缽 |音叉 |Certified Angel Card Reader™",
-        "categories": [
-          "Product/service",
-          "Astrologist & psychic",
-          "Shopping & retail"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "108565442553819",
+            "name": "Astrologist & Psychic"
+          }
         ],
-        "email": "weluvtarot@gmail.com",
-        "tel": "54088058",
-        "id": "1460464807570054"
+        "emails": [
+          "weluvtarot@gmail.com"
+        ],
+        "single_line_address": "Shop 443, Rise Shopping Arcade, 5-11 Granville Circuit, Tsim Sha Tsui., 852 Kowloon, Hong Kong",
+        "website": "http://www.weluvtarot.com"
       },
       "url": "https://www.facebook.com/weluvtarot/"
     }

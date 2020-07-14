@@ -9,14 +9,20 @@
     },
     {
       "meta": {
-        "name": "半澤單車",
         "id": "100362481399412",
+        "username": "bcbikehk",
+        "name": "半澤單車",
         "about": "半澤單車為你地提供一個簡單,數據化嘅購物經驗,等你輕易選擇想買乜!",
-        "categories": [
-          "Bicycle Shop"
+        "category_list": [
+          {
+            "id": "128003127270269",
+            "name": "Bicycle Shop"
+          }
         ],
-        "email": "bcbikehk@gmail.com",
-        "tel": "92229264"
+        "emails": [
+          "bcbikehk@gmail.com"
+        ],
+        "website": "carousell.com/bc_bike"
       },
       "url": "https://www.facebook.com/bcbikehk/"
     }

@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Flash Media Hong Kong",
         "id": "112467260231947",
-        "about": "About:\n\nFlash Media Hong Kong 是由數名獨立攝影師及記者於2019 年創立，以多媒體創作及資訊報導香港社會議題和都市故事。",
-        "categories": [
-          "Media/News Company"
+        "username": "flashmediahk",
+        "name": "Flash Media Hong Kong",
+        "about": "About:\n\nFlash Media Hong Kong 是由數名獨立攝影師及記者於2019 年創立，以多媒體創作及資訊報導香港社會議題和都市故事。\n",
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "flashmediahk@gmail.com"
+        "emails": [
+          "flashmediahk@gmail.com"
+        ],
+        "website": "flashmediahk.com"
       },
       "url": "https://www.facebook.com/flashmediahk/"
     },

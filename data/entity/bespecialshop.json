@@ -9,16 +9,21 @@
     },
     {
       "meta": {
-        "name": "Bespecial Wood Carving & Woodcraft",
         "id": "400832370022699",
+        "username": "bespecialshop",
+        "name": "Bespecial Wood Carving & Woodcraft",
         "about": "香港木雕 | Hong Kong Wood Carving\n雕塑與設計 | Sculpture Design\n木雕研修班| Wood Carving Program\n木雕體驗工作坊 | Wood Carving Workshop\n學校及團體木雕及木藝課程| Carving & Art Education",
-        "categories": [
-          "Arts & Crafts Store"
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "addr": "觀塘偉業街171號偉業工業大廈4樓B4室",
-        "area": "000000 Hong Kong",
-        "email": "bespecialshop@yahoo.com",
-        "tel": "90407840"
+        "emails": [
+          "bespecialshop@yahoo.com"
+        ],
+        "single_line_address": "觀塘偉業街171號偉業工業大廈4樓B4室, 000000 Hong Kong",
+        "website": "http://bespecialshop.com"
       },
       "url": "https://www.facebook.com/bespecialshop/"
     },

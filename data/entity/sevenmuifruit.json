@@ -7,29 +7,35 @@
     {
       "url": "https://www.facebook.com/sevenmuifruit/",
       "meta": {
-        "name": "7 Mui Fruit Shop 七妹水果",
         "id": "1950445965182633",
-        "about": "七妹水果將不定期為大家更新水果知識發情報，務求令大家食得更開心，更放心！每口水果甜入心！\n\n七妹承諾每一天為客戶提供新鮮可口的優質進口水果。",
-        "categories": [
-          "Shopping & Retail"
+        "username": "sevenmuifruit",
+        "name": "7 Mui Fruit Shop 七妹水果",
+        "about": "七妹水果將不定期為大家更新水果知識發情報，務求令大家食得更開心，更放心！每口水果甜入心！\n\n七妹承諾每一天為客戶提供新鮮可口的優質進口水果。\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "馬鞍山錦英苑商場11C 鋪",
-        "area": "852 Hong Kong",
-        "email": "7muifruit@gmail.com",
-        "tel": "53007277"
+        "emails": [
+          "7muifruit@gmail.com"
+        ],
+        "single_line_address": "馬鞍山錦英苑商場11C 鋪, 852 Hong Kong"
       }
     },
     {
       "url": "https://www.facebook.com/MOS7mui/",
       "meta": {
-        "name": "七妹水果馬鞍山分店",
         "id": "567574133596610",
-        "categories": [
-          "Shopping & Retail"
+        "username": "MOS7mui",
+        "name": "七妹水果馬鞍山分店",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "錦英苑商場11C鋪",
-        "area": "Ma On Shan, Hong Kong",
-        "tel": "62870190"
+        "single_line_address": "錦英苑商場11C鋪, Ma On Shan, Hong Kong"
       }
     }
   ],

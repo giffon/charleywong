@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "Chiara Evening Dress",
         "id": "311349462902337",
+        "username": "chiara.eveningdress",
+        "name": "Chiara Evening Dress",
         "about": "⭐Chiara Evening Dress － Shines Bright & Clear⭐",
-        "categories": [
-          "Bridal Shop",
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "addr": "Unit M2, 9/F, Phase 3, Kaiser Estate, 9-11 Hok Yuen Street, Hunghom, Kowloon, Hong Kong",
-        "area": "Kowloon, Hong Kong",
-        "email": "chiara.eveningdress@gmail.com",
-        "tel": "90983939"
+        "emails": [
+          "chiara.eveningdress@gmail.com"
+        ],
+        "single_line_address": "Unit M2, 9/F, Phase 3, Kaiser Estate, 9-11 Hok Yuen Street, Hunghom, Kowloon, Hong Kong, Kowloon, Hong Kong",
+        "website": "https://chiaraeveningdress.wixsite.com/hongkong/"
       },
       "url": "https://www.facebook.com/chiara.eveningdress/"
     },

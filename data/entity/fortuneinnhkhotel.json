@@ -8,14 +8,20 @@
     {
       "meta": {
         "id": "102952031178693",
+        "username": "fortuneinnhkhotel",
+        "name": "幸福居酒店 Fortune Inn Hotel",
         "about": "「幸福居」位於尖沙咀A2出口旁，獨有既全自助式入住體驗，乾淨企理，有埋格仔鋪比你買野賣野，比到你更高層次既爆房享受！\n\nIG: fortuneinnhotel\n訂房WHATSAPP: 5109 6166",
-        "categories": [
-          "Hostel",
-          "Hotel"
+        "category_list": [
+          {
+            "id": "164243073639257",
+            "name": "Hotel"
+          }
         ],
-        "addr": "香港九龍尖沙咀彌敦道66-70號金冠大廈9樓A室",
-        "area": "Kowloon, Hong Kong",
-        "email": "fortuneinn.hk@gmail.com"
+        "emails": [
+          "fortuneinn.hk@gmail.com"
+        ],
+        "single_line_address": "香港九龍\u001d尖沙咀彌敦道66-70號金冠大廈9樓A室, Kowloon, Hong Kong",
+        "website": "api.whatsapp.com/send?phone=85251096166"
       },
       "url": "https://www.facebook.com/fortuneinnhkhotel/"
     },

@@ -9,17 +9,29 @@
     },
     {
       "meta": {
-        "name": "Courbeginning",
         "id": "1539149646332566",
+        "username": "CourBeginning",
+        "name": "Courbeginning",
         "about": "把國外的手作飾品帶到亞洲，讓喜歡造型獨特、時尚的女生們感受不一樣的美～\n\n目前品牌包括：\nJannie Baltzer\nEnchanted Atelier by Liv Hart\nTwigs & Honey\nMignonne Handmade\nLouloudimeli\nCherished\nFeather & Coal",
-        "categories": [
-          "Jewelry & Watches Store",
-          "Bridal Shop",
-          "Business Service"
+        "category_list": [
+          {
+            "id": "188031587886173",
+            "name": "Jewelry & Watches Store"
+          },
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          },
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          }
         ],
-        "addr": "Unit F, 14/F, On Fook Industrial Building, 41 kwai fung cres",
-        "area": "000 Kwai Chung",
-        "email": "carol@courbeginning.com"
+        "emails": [
+          "carol@courbeginning.com"
+        ],
+        "single_line_address": "Unit F, 14/F, On Fook Industrial Building, 41 kwai fung cres, 000 Kwai Chung",
+        "website": "http://www.courbeginning.com"
       },
       "url": "https://www.facebook.com/CourBeginning/"
     },

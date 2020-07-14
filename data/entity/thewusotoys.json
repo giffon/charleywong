@@ -7,14 +7,18 @@
   "webpages": [
     {
       "meta": {
-        "about": "歡迎光臨鬍鬚仔玩具店！The Wuso.",
-        "categories": [
-          "Toy shop"
+        "id": "716454205107018",
+        "username": "thewusotoys",
+        "name": "鬍鬚仔玩具 The Wuso",
+        "about": "歡迎光臨鬍鬚仔玩具店！The Wuso. ",
+        "category_list": [
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          }
         ],
-        "addr": "旺角洗衣街129號地下閣樓",
-        "area": "Hong Kong",
-        "tel": "62261985",
-        "id": "716454205107018"
+        "single_line_address": "旺角洗衣街129號地下閣樓, 852 Hong Kong",
+        "website": "carousell.com/thewusotoys"
       },
       "url": "https://www.facebook.com/thewusotoys/"
     }

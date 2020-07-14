@@ -7,14 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Dymon Studio 大萌工作室",
         "id": "582160771965556",
-        "about": "歡迎閣下來到秘密小店,\nDymon Studio的大部份商品均為獨特且少有的精品~\n如果閣下發現想要的商品已顯示為已售,可要求訂制。\n我們會盡量滿足您的需求。",
-        "categories": [
-          "Clothing (Brand)"
+        "name": "Dymon Studio 大萌工作室",
+        "about": "歡迎閣下來到秘密小店,\nDymon Studio的大部份商品均為獨特且少有的精品~\n如果閣下發現想要的商品已顯示為已售,可要求訂制。\n我們會盡量滿足您的需求。\n",
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "email": "dymonstudio@gmail.com",
-        "tel": "65450910"
+        "emails": [
+          "dymonstudio@gmail.com"
+        ],
+        "single_line_address": "元朗牛潭尾村, Hong Kong",
+        "website": "https://www.instagram.com/dymonstudio/?hl=zh-tw"
       },
       "url": "https://www.facebook.com/582160771965556/"
     },

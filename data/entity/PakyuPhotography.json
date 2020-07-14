@@ -9,11 +9,16 @@
     },
     {
       "meta": {
-        "name": "Pakyu photography",
         "id": "122306854493110",
-        "categories": [
-          "Product/Service"
-        ]
+        "username": "PakyuPhotography",
+        "name": "Pakyu photography",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
+        ],
+        "website": "http://www.pakyuphotography.com"
       },
       "url": "https://www.facebook.com/PakyuPhotography/"
     },

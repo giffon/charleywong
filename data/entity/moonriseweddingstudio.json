@@ -14,15 +14,20 @@
     {
       "url": "https://www.facebook.com/moonriseweddingstudio/",
       "meta": {
-        "name": "Moonrise Wedding Studio",
         "id": "825336040956620",
-        "categories": [
-          "Bridal Shop"
+        "username": "moonriseweddingstudio",
+        "name": "Moonrise Wedding Studio",
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          }
         ],
-        "addr": "Shop 20, Basement, Phase 4, Kwun Tong Industrial Centre, Kwun Tong, Kowloon",
-        "area": "Hong Kong",
-        "email": "moonwisews@gmail.com",
-        "tel": "96759726"
+        "emails": [
+          "moonwisews@gmail.com"
+        ],
+        "single_line_address": "Shop 2202, Tamson Plaza, No. 161 Wai Yip Street,  Kwun Tong, Hong Kong",
+        "website": "http://www.instagram.com/moonrisewedding"
       }
     }
   ],

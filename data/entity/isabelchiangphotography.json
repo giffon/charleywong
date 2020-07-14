@@ -10,14 +10,20 @@
     {
       "meta": {
         "id": "479561202187805",
-        "about": "Isabel Chiang is a Hong Kong based Portrait and Wedding Photographer.\n\nMobile / Whatsapp: +852 90152203\nEmail: info@isabelchiang.com",
-        "categories": [
-          "Photographer"
+        "username": "isabelchiangphotography",
+        "name": "Isabel Chiang Photography",
+        "about": "Isabel Chiang is a Hong Kong based Portrait and Wedding Photographer. \n\nMobile / Whatsapp: +852 90152203\nEmail: info@isabelchiang.com",
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "Unit B9, 16/F Richwealth Industrial Building, 144-146 Yeung Uk Road",
-        "area": "Tsuen Wan, Hong Kong",
-        "email": "info@isabelchiang.com",
-        "tel": "90152203"
+        "emails": [
+          "info@isabelchiang.com"
+        ],
+        "single_line_address": "Unit B9, 16/F Richwealth Industrial Building, 144-146 Yeung Uk Road, Tsuen Wan, Hong Kong",
+        "website": "https://isabelchiang.com"
       },
       "url": "https://www.facebook.com/isabelchiangphotography/"
     }

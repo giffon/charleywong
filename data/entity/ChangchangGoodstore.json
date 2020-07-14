@@ -7,15 +7,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "常常集品 Changchang Goodstore",
         "id": "337576013115691",
-        "about": "常常集品由兩位喜愛搜集好物的設計師成立，喜愛旅行拜訪當地特色小店和市集，集以為常，帶回生活日常的雜貨到小店或市集擺賣，分享故事，分享美好。",
-        "categories": [
-          "Arts & Crafts Store",
-          "Grocery Store"
+        "name": "常常集品 道具屋",
+        "category_list": [
+          {
+            "id": "150732438316813",
+            "name": "Antique Store"
+          }
         ],
-        "addr": "旺角上海街618號G04A",
-        "area": "852 Hong Kong"
+        "single_line_address": "旺角上海街618號G04A, 852 Hong Kong",
+        "website": "http://instagram.com/changchang_goodstore/"
       },
       "url": "https://www.facebook.com/337576013115691/"
     },

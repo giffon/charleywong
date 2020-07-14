@@ -8,13 +8,17 @@
     {
       "url": "https://www.facebook.com/suyie3cats/",
       "meta": {
-        "name": "Suyie三隻貓",
         "id": "290941774894855",
+        "username": "suyie3cats",
+        "name": "Suyie三隻貓",
         "about": "我與三隻貓",
-        "categories": [
-          "Producer",
-          "Video Creator"
-        ]
+        "category_list": [
+          {
+            "id": "1108",
+            "name": "Producer"
+          }
+        ],
+        "website": "https://www.youtube.com/c/SUYIE三隻貓"
       }
     },
     {

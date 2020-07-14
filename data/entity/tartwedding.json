@@ -10,11 +10,23 @@
     {
       "meta": {
         "id": "181499898585504",
-        "categories": [
-          "Arts and entertainment",
-          "Photography & videography"
+        "username": "tartwedding",
+        "name": "T. Art",
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          }
         ],
-        "email": "info@tartvideo.com"
+        "emails": [
+          "info@tartvideo.com"
+        ],
+        "single_line_address": "Sheung Wan",
+        "website": "http://www.tartvideo.com"
       },
       "url": "https://www.facebook.com/tartwedding/"
     }

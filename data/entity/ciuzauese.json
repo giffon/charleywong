@@ -7,16 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "潮州人Ciuzauese",
         "id": "304984750013105",
+        "name": "潮州人Ciuzauese",
         "about": "小店雖名為’’潮州人’’，但賣的卻不是潮州菜，取此名全因家父希望我秉承潮州人刻苦耐勞嘅精神，小店主打住家老火湯及花膠扒湯米粉等特式湯米粉。",
-        "categories": [
-          "Diner"
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "12A Boundary Street",
-        "area": "Kowloon, Hong Kong",
-        "email": "ciuzauese@gmail.com",
-        "tel": "65366626"
+        "emails": [
+          "ciuzauese@gmail.com"
+        ],
+        "single_line_address": "太子界限街12號A地舖, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/304984750013105/"
     },

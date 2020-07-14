@@ -18,15 +18,24 @@
     {
       "url": "https://www.facebook.com/deskonehk/",
       "meta": {
-        "name": "Desk-one溫室",
         "id": "849150038522207",
-        "about": "閱讀 • 工作 • 自修 —— 共享空間\nwhere knowledge connects and collaborates\nA co-working and co-learning space",
-        "categories": [
-          "Local Service",
-          "Library"
+        "username": "deskonehk",
+        "name": "Desk-one溫室",
+        "about": "閱讀 • 工作 • 自修 —— 共享空間\nwhere knowledge connects and collaborates\nA co-working and co-learning space\n",
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          },
+          {
+            "id": "169896676390222",
+            "name": "Library"
+          }
         ],
-        "email": "contact@desk-one.hk",
-        "tel": "21856660"
+        "emails": [
+          "contact@desk-one.hk"
+        ],
+        "website": "http://www.desk-one.hk"
       }
     }
   ],

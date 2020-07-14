@@ -6,16 +6,23 @@
   "webpages": [
     {
       "meta": {
-        "name": "AMPERSAND.and.coffee",
         "id": "557657481382602",
-        "categories": [
-          "Coffee Shop",
-          "Local Service"
+        "username": "ampersand.and.coffee",
+        "name": "AMPERSAND.and.coffee",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "addr": "Shop 107, Port 33, 33 Tseuk Luk Street, San Po Kong",
-        "area": "Kowloon, Hong Kong",
-        "email": "ampersandcoffeehk@gmail.com",
-        "tel": "66067866"
+        "emails": [
+          "ampersandcoffeehk@gmail.com"
+        ],
+        "single_line_address": "Shop 107, Port 33, 33 Tseuk Luk Street, San Po Kong, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/ampersand.and.coffee/"
     },

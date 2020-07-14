@@ -16,13 +16,21 @@
     },
     {
       "meta": {
-        "name": "搣時潘（Miss Pun）",
         "id": "2020605351514800",
+        "username": "MissPunGoodTeacher",
+        "name": "搣時潘（Miss Pun）",
         "about": "藍絲五毛進來不要廢話，先購買寫真。人生得意須盡歡，肺炎死了沒得看。",
-        "categories": [
-          "Blogger",
-          "Author"
-        ]
+        "category_list": [
+          {
+            "id": "361282040719868",
+            "name": "Blogger"
+          },
+          {
+            "id": "1301",
+            "name": "Author"
+          }
+        ],
+        "website": "https://www.patreon.com/misspun"
       },
       "url": "https://www.facebook.com/MissPunGoodTeacher/"
     },

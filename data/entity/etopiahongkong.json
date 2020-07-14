@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/etopiahongkong/",
       "meta": {
-        "name": "Etopia HK Mobiles & Gadgets",
         "id": "1415572925144245",
+        "username": "etopiahongkong",
+        "name": "Etopia HK Mobiles & Gadgets",
         "about": "Etopia Hong Kong \n全新手機及電子產品烏托邦\n\n舒適驗收空間， 飲品，遊戲，禮物\nLike & Share仲有折扣\n\nwww.etopiaglobal.com\n10am - 7pm (Mon to Fri)\n電話/Whatsapp : (852)97304927\n地址:觀塘永興工業大廈6樓",
-        "categories": [
-          "Mobile Phone Shop",
-          "Phone/Tablet",
-          "Electronics Store"
+        "category_list": [
+          {
+            "id": "210979565595898",
+            "name": "Mobile Phone Shop"
+          },
+          {
+            "id": "2265",
+            "name": "Phone/Tablet"
+          },
+          {
+            "id": "187937741228885",
+            "name": "Electronics Store"
+          }
         ],
-        "addr": "Wing Hing Factory Building, 14 Hing Yip street",
-        "area": "Kwun Tong",
-        "email": "info@etopiaglobal.com",
-        "tel": "97304927"
+        "emails": [
+          "info@etopiaglobal.com"
+        ],
+        "single_line_address": "Wing Hing Factory Building, 14 Hing Yip street, Kwun Tong",
+        "website": "http://www.etopiaglobal.com"
       }
     },
     {

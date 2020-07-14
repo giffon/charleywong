@@ -11,10 +11,16 @@
       "url": "https://www.facebook.com/ht319workshop/",
       "meta": {
         "id": "970961022954408",
+        "username": "ht319workshop",
+        "name": "HT319 Workshop",
         "about": "主要討論巴士的論壇，當然有MM2/OMSI",
-        "categories": [
-          "Community"
-        ]
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
+        ],
+        "website": "http://ht319workshop.weebly.com/"
       }
     }
   ],

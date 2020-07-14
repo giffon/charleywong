@@ -7,14 +7,19 @@
     {
       "meta": {
         "id": "448497531916275",
+        "username": "glimpseworkshop",
+        "name": "Glimpse Workshop",
         "about": "來自印度，尼泊爾及泰國的特式民族風手飾，工藝品，家居擺設；自家手作，度身訂造\n\n地址：銅鑼灣駱克道533號一樓（CWB MTR Exit D1）",
-        "categories": [
-          "Shopping & retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "1/F., 533 Lockhart Road, Causeway Bay",
-        "area": "Causeway Bay",
-        "email": "glimpseworkshop@gmail.com",
-        "tel": "26912303"
+        "emails": [
+          "glimpseworkshop@gmail.com"
+        ],
+        "single_line_address": "1/F., 533 Lockhart Road, Causeway Bay, 999077 Causeway Bay"
       },
       "url": "https://www.facebook.com/glimpseworkshop/"
     }

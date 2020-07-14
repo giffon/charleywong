@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/DragonJapaneseCuisine/",
       "meta": {
-        "name": "營業部",
         "id": "182293905826962",
-        "about": "拉麵。讚岐烏冬。日式小食\n—————————————–––––––––––\n歡迎電話whatsapp外賣自取：51328161",
-        "categories": [
-          "Restaurant"
+        "username": "DragonJapaneseCuisine",
+        "name": "營業部",
+        "about": "日式拉麵/讚岐烏冬/小食部\n—————————————–––––––––––\n歡迎電話whatsapp外賣自取：65773466",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "深水埗西九龍中心8樓美食廣場35號鋪",
-        "area": "852 Hong Kong",
-        "tel": "51328161"
+        "single_line_address": "深水埗西九龍中心8樓美食廣場35號鋪, 852 Hong Kong"
       }
     }
   ],

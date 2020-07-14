@@ -21,15 +21,24 @@
     {
       "url": "https://www.facebook.com/dma.audio/",
       "meta": {
-        "name": "DMA 泛音",
         "id": "168532796512896",
+        "username": "dma.audio",
+        "name": "DMA 泛音",
         "about": "您的個人音樂產品專門店",
-        "categories": [
-          "Audio Visual Equipment Store",
-          "Movie & Music Store"
+        "category_list": [
+          {
+            "id": "198632653485894",
+            "name": "Audio Visual Equipment Store"
+          },
+          {
+            "id": "150432221681325",
+            "name": "Movie & Music Store"
+          }
         ],
-        "email": "info@dma-audio.com",
-        "tel": "39710242"
+        "emails": [
+          "info@dma-audio.com"
+        ],
+        "website": "http://www.dma-audio.com"
       }
     }
   ],

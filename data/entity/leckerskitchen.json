@@ -7,18 +7,28 @@
     {
       "url": "https://www.facebook.com/leckerskitchen/",
       "meta": {
-        "name": "Lecker's Kitchen 德國廚房",
         "id": "433312593503906",
+        "username": "leckerskitchen",
+        "name": "Lecker's Kitchen 德國廚房",
         "about": "Lecker's Kitchen 德國廚房\n香脆德國咸豬手、多款德國啤酒選擇\n本餐廳更設有包場服務，歡迎查詢",
-        "categories": [
-          "German Restaurant",
-          "European Restaurant",
-          "Beer Garden"
+        "category_list": [
+          {
+            "id": "150217168372274",
+            "name": "German Restaurant"
+          },
+          {
+            "id": "1508025966158640",
+            "name": "European Restaurant"
+          },
+          {
+            "id": "203743122984241",
+            "name": "Beer Garden"
+          }
         ],
-        "addr": "大埔翠樂街11號美豐花園A座地下14號鋪",
-        "area": "Tai Po Industrial Estate",
-        "email": "leckerskitchen@gmail.com",
-        "tel": "69997874"
+        "emails": [
+          "leckerskitchen@gmail.com"
+        ],
+        "single_line_address": "大埔翠樂街11號美豐花園A座地下14號鋪, Tai Po Industrial Estate"
       }
     }
   ],

@@ -8,16 +8,21 @@
     {
       "url": "https://www.facebook.com/teaelementss/",
       "meta": {
-        "name": "Tea Elements 茶一",
         "id": "595582557528250",
-        "about": "�茶味恰當\n�一試難忘\n\n�茶一為你走遍各地搜羅最上乘茶葉！\n�用心調製，不斷創新，為每位客人做到最好。",
-        "categories": [
-          "Bubble Tea Shop",
-          "Taiwanese Restaurant"
+        "username": "teaelementss",
+        "name": "Tea Elements 茶一",
+        "about": "�茶味恰當\n�一試難忘\n\n�茶一為你走遍各地搜羅最上乘茶葉！\n�用心調製，不斷創新，為每位客人做到最好。\n",
+        "category_list": [
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          },
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          }
         ],
-        "addr": "香港北角英皇道153號A地下B2鋪",
-        "area": "Hong Kong",
-        "tel": "66538296"
+        "single_line_address": "香港北角英皇道153號A地下B2鋪, Hong Kong"
       }
     },
     {

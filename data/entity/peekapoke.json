@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/peekapoke/",
       "meta": {
-        "name": "Peek-A-Poke",
         "id": "341368926612310",
+        "username": "peekapoke",
+        "name": "Peek-A-Poke",
         "about": "You don’t have to cook fancy or complicated masterpieces – just good food from fresh ingredients",
-        "categories": [
-          "Hawaiian Restaurant"
+        "category_list": [
+          {
+            "id": "191876627510158",
+            "name": "Hawaiian Restaurant"
+          }
         ],
-        "addr": "G/F., 16 Haven Street, Causeway Bay,",
-        "area": "Hong Kong",
-        "email": "info@peek-a-poke.com",
-        "tel": "55957729"
+        "emails": [
+          "info@peek-a-poke.com"
+        ],
+        "single_line_address": "G/F., 16 Haven Street, Causeway Bay,, Hong Kong"
       }
     },
     {

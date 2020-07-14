@@ -7,14 +7,21 @@
     {
       "meta": {
         "id": "106888482675970",
-        "about": "位於觀塘崇仁街，始於1975年，見證香港四十多載的特色上海菜館。\n我地係好偏僻，好小間，家庭式經營既上海小餐廳。",
-        "categories": [
-          "Shanghainese restaurant",
-          "Cantonese restaurant"
+        "username": "shwingwah",
+        "name": "(上海)榮華川菜館",
+        "about": "位於觀塘崇仁街，始於1975年，見證香港四十多載的特色上海菜館。 \n我地係好偏僻，好小間，家庭式經營既上海小餐廳。",
+        "category_list": [
+          {
+            "id": "1119010584789150",
+            "name": "Shanghainese Restaurant"
+          },
+          {
+            "id": "214976388519648",
+            "name": "Cantonese Restaurant"
+          }
         ],
-        "addr": "觀塘崇仁街15號地下",
-        "area": "Kwun Tong",
-        "tel": "23410583"
+        "single_line_address": "觀塘崇仁街15號地下, 852 Kwun Tong",
+        "website": "http://www.shwingwah.com"
       },
       "url": "https://www.facebook.com/shwingwah/"
     }

@@ -17,16 +17,29 @@
     {
       "url": "https://www.facebook.com/franconewpapa/",
       "meta": {
-        "name": "梵高爸爸",
         "id": "1655872061140730",
+        "username": "franconewpapa",
+        "name": "梵高爸爸",
         "about": "現任香港幼兒視藝導師/ 藝術治療應用認可執行師／日本繪本故事導師。閒時分享BB成長點滴、好物實評、親子玩樂、藝術教材DIY，榮獲「2018 KOOL教育界男網紅獎」",
-        "categories": [
-          "Personal Blog",
-          "Visual Arts",
-          "School"
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          },
+          {
+            "id": "1080612391976317",
+            "name": "Visual Arts"
+          },
+          {
+            "id": "2601",
+            "name": "School"
+          }
         ],
-        "email": "franconewpapa@gmail.com",
-        "tel": "65389127"
+        "emails": [
+          "franconewpapa@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://www.francocreation.com"
       }
     },
     {

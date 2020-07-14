@@ -7,14 +7,17 @@
     {
       "url": "https://www.facebook.com/ehonia/",
       "meta": {
-        "name": "ehonia",
         "id": "1599605010142229",
+        "username": "ehonia",
+        "name": "ehonia",
         "about": "It is simple so we care.",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "Shop 1 ,9/F Hysan Place, 500 Hennessy Road, Causeway Bay",
-        "area": "Hong Kong"
+        "single_line_address": "Shop 1 ,9/F Hysan Place, 500 Hennessy Road, Causeway Bay, Hong Kong"
       }
     },
     {

@@ -6,17 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "Kurukuru Makeup Production",
         "id": "195050440640114",
+        "username": "KurukuruMakeupProduction",
+        "name": "Kurukuru Makeup Production",
         "about": "Make up service for \n*Wedding\n*Pre-wedding photo\n*Graduation\n*Party",
-        "categories": [
-          "Makeup Artist",
-          "Community",
-          "Event Planner"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          }
         ],
-        "addr": "銅鑼灣希慎道8號裕景商業中心10樓1019室",
-        "area": "Hong Kong",
-        "email": "kurukurumakeup@ymail.com"
+        "emails": [
+          "kurukurumakeup@ymail.com"
+        ],
+        "single_line_address": "銅鑼灣希慎道8號裕景商業中心10樓1019室, Hong Kong"
       },
       "url": "https://www.facebook.com/KurukuruMakeupProduction/"
     }

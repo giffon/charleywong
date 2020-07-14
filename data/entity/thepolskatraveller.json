@@ -6,16 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "about": "A handmade jewelry brand, using a rotating collection of vintage objects, antique materials from Poland to create.\nhttp://instagram.com/thepolskatraveller",
-        "categories": [
-          "Brand",
-          "Arts and crafts shop",
-          "Jewellery & watches shop"
+        "id": "291416887590235",
+        "username": "thepolskatraveller",
+        "name": "The Polska Traveller",
+        "about": "A handmade jewelry brand, using a rotating collection of vintage objects, antique materials from Poland to create.\n",
+        "category_list": [
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "188031587886173",
+            "name": "Jewelry & Watches Store"
+          }
         ],
-        "addr": "Shop 5, G/F, 19-23 Tung Lo Wan Rd, Causeway Bay",
-        "area": "Hong Kong",
-        "email": "thepolskatraveller@gmail.com",
-        "id": "291416887590235"
+        "emails": [
+          "thepolskatraveller@gmail.com"
+        ],
+        "single_line_address": "Shop 5, G/F, 19-23 Tung Lo Wan Road, Causeway Bay, Hong Kong",
+        "website": "http://instagram.com/thepolskatraveller"
       },
       "url": "https://www.facebook.com/thepolskatraveller/"
     },

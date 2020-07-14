@@ -6,16 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "name": "Mama A Bakery Workshop",
         "id": "381919985274351",
+        "username": "mama.a.bakery",
+        "name": "Mama A Bakery Workshop",
         "about": "烘焙中心位於荔枝角鐵路站附近，由專業導師教授各款中西式蛋糕甜點烘焙課程，歡迎公司、學校團體／私人包班、派對及婚宴 Candy Corner。\n\nFollow IG: mama.a.bakery",
-        "categories": [
-          "Cooking School",
-          "Product/Service",
-          "Kitchen/Cooking"
+        "category_list": [
+          {
+            "id": "182269951819423",
+            "name": "Cooking School"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          }
         ],
-        "email": "mama.a.bakery@gmail.com",
-        "tel": "22970997"
+        "emails": [
+          "mama.a.bakery@gmail.com"
+        ],
+        "single_line_address": "九龍荔枝角青山道588﹣592號 永盛工業大廈5樓02室, Hong Kong",
+        "website": "https://calendar.google.com/calendar/embed?src=wcakehk%40gmail.com&ctz=Asia/Hong_Kong"
       },
       "url": "https://www.facebook.com/mama.a.bakery/"
     },

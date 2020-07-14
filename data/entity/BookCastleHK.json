@@ -6,10 +6,14 @@
   "webpages": [
     {
       "meta": {
-        "name": "Book Castle",
         "id": "176543095697804",
-        "categories": [
-          "Bookstore"
+        "username": "BookCastleHK",
+        "name": "Book Castle",
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
         ]
       },
       "url": "https://www.facebook.com/BookCastleHK/"

@@ -7,18 +7,28 @@
     {
       "url": "https://www.facebook.com/HeneciaWedding/",
       "meta": {
-        "name": "Henecia Wedding",
         "id": "137898593039967",
-        "about": "Appointment Tel: 3484 3819/6129 3128\nRental Wedding gowns, evening gowns, bridesmaid dresses, party dresses & groom wedding suits",
-        "categories": [
-          "Bridal Shop",
-          "Photography Videography",
-          "Women's Clothing Store"
+        "username": "HeneciaWedding",
+        "name": "Henecia Wedding",
+        "about": "Appointment Tel: 3484 3819/6129 3128\nRental Wedding gowns, evening gowns, bridesmaid dresses, party dresses & groom wedding suits ",
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          },
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          },
+          {
+            "id": "128753240528981",
+            "name": "Women's Clothing Store"
+          }
         ],
-        "addr": "Flat 204B, Elite industrial centre, 883 cheung sha wan road, Lai Chi Kok",
-        "area": "852 3484 3819 ／ 6129 3128 Lai Chi Kok",
-        "email": "shop.henecia@yahoo.com",
-        "tel": "34843819"
+        "emails": [
+          "shop.henecia@yahoo.com"
+        ],
+        "single_line_address": "Flat 204B, Elite industrial centre, 883 cheung sha wan road, Lai Chi Kok, 852 3484 3819 ／ 6129 3128 Lai Chi Kok"
       }
     },
     {

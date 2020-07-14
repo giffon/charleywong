@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/yatyatcafe/",
       "meta": {
-        "name": "壹壹冰室 Since 2011",
         "id": "1586895771353174",
+        "username": "yatyatcafe",
+        "name": "壹壹冰室 Since 2011",
         "about": "地址:紅磡祟潔街28號地下\n電話:64269997\n逢星期日休息 公眾假期照常營業",
-        "categories": [
-          "Hong Kong Restaurant",
-          "Fast Food Restaurant"
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          },
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          }
         ],
-        "addr": "G/F, 28 Sung Kit Street, Hung Hom, Kowloon",
-        "area": "Kowloon, Hong Kong",
-        "tel": "64269997"
+        "single_line_address": "28 Sung Kit Street, Kowloon, Hong Kong"
       }
     }
   ],

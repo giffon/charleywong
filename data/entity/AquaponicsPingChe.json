@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/AquaponicsPingChe/",
       "meta": {
-        "name": "坪輋國泰花園魚菜共生實驗農場",
         "id": "917820031683967",
+        "username": "AquaponicsPingChe",
+        "name": "坪輋國泰花園魚菜共生實驗農場",
         "about": "魚菜共生是古老的方法，利用「魚菜共生」技術，通過魚類的亞摩尼亞，供給作物養份生長，既環保也循環不息。這套系統相對泥耕(傳統耕作)成本低、容易打理，亦方便老農在退休後可以繼續",
-        "categories": [
-          "Agricultural Cooperative"
+        "category_list": [
+          {
+            "id": "1555099458125522",
+            "name": "Agricultural Cooperative"
+          }
         ],
-        "addr": "Ping Che Village",
-        "area": "交通路線 粉嶺港鐵站c出口，乘坐52k坪輋小巴九記士多下車，巴士站右邊隔田村，原路大約三分鐘可到達農場。",
-        "email": "aquapcc@gmail.com",
-        "tel": "90811178"
+        "emails": [
+          "aquapcc@gmail.com"
+        ],
+        "single_line_address": "Ping Che Village, 交通路線 粉嶺港鐵站c出口，乘坐52k坪輋小巴九記士多下車，巴士站右邊隔田村，原路大約三分鐘可到達農場。"
       }
     }
   ],

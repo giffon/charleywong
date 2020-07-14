@@ -14,15 +14,19 @@
     {
       "url": "https://www.facebook.com/popstreetSYP/",
       "meta": {
-        "name": "Pop Street HK",
         "id": "2115819128697903",
-        "categories": [
-          "Gastropub"
+        "username": "popstreetSYP",
+        "name": "Pop Street HK",
+        "category_list": [
+          {
+            "id": "164049010316507",
+            "name": "Gastropub"
+          }
         ],
-        "addr": "70 Third Street,",
-        "area": "Sai Ying Pun",
-        "email": "popguys@popstreet.hk",
-        "tel": "51168883"
+        "emails": [
+          "popguys@popstreet.hk"
+        ],
+        "single_line_address": "70 Third Street,, Sai Ying Pun"
       }
     }
   ],

@@ -7,16 +7,22 @@
     {
       "url": "https://www.facebook.com/triplekingcafe/",
       "meta": {
-        "name": "Triple King Cafe",
         "id": "901158736647005",
+        "username": "triplekingcafe",
+        "name": "Triple King Cafe",
         "about": "上環永樂街1-3號世瑛大廈2樓203室",
-        "categories": [
-          "Cafe",
-          "Modern European Restaurant"
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "188360891207745",
+            "name": "Modern European Restaurant"
+          }
         ],
-        "addr": "上環永樂街1-3號世瑛大廈2樓203室",
-        "area": "Sheung Wan",
-        "tel": "27709450"
+        "single_line_address": "上環永樂街1-3號世瑛大廈2樓203室, Sheung Wan",
+        "website": "http://goo.gl/8BmxxK"
       }
     }
   ],

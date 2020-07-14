@@ -9,16 +9,21 @@
     },
     {
       "meta": {
-        "name": "眾新聞",
         "id": "366243453719070",
+        "username": "hkcnews",
+        "name": "眾新聞",
         "about": "《眾新聞》無黨無派，熱愛香港，希望推動公共參與，一同維繫香港自由開放、多元包容等核心價值。我們不設既定政治立場或政策傾向。\n\n電郵報料：info@hkcnews.com\n報料熱線：21143331",
-        "categories": [
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "addr": "Cheung Sha Wan",
-        "area": "Hong Kong",
-        "email": "info@hkcnews.com",
-        "tel": "21143331"
+        "emails": [
+          "info@hkcnews.com"
+        ],
+        "single_line_address": "Cheung Sha Wan, Hong Kong",
+        "website": "www.hkcnews.com"
       },
       "url": "https://www.facebook.com/hkcnews/"
     },

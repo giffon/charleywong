@@ -6,15 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "jennymadrose",
         "id": "322020744666226",
-        "about": "對症下藥，嚴格選材\n對材料深入研究，選取最適合的原材料手造護膚品，不會因為天然或有機便盲從使用；我們同時自種時令有機草藥，使自己用得更安心。",
-        "categories": [
-          "Beauty Supply Store",
-          "Skin Care Service",
-          "Organic Grocery Store"
+        "username": "jennymadrose",
+        "name": "jennymadrose",
+        "about": "對症下藥，嚴格選材\n對材料深入研究，選取最適合的原材料手造護膚品，不會因為天然或有機便盲從使用；我們同時自種時令有機草藥，使自己用得更安心。\n",
+        "category_list": [
+          {
+            "id": "191693100854505",
+            "name": "Beauty Supply Store"
+          },
+          {
+            "id": "1644814599176740",
+            "name": "Skin Care Service"
+          }
         ],
-        "email": "jennymadrose@gmail.com"
+        "emails": [
+          "jennymadrose@gmail.com"
+        ],
+        "website": "http://www.jennymadrose.com"
       },
       "url": "https://www.facebook.com/jennymadrose/"
     },
@@ -41,7 +50,8 @@
     }
   ],
   "tags": [
-    "shop","skincare"
+    "shop",
+    "skincare"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00126",

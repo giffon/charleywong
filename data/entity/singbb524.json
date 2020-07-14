@@ -15,14 +15,25 @@
     {
       "url": "https://www.facebook.com/singbb524/",
       "meta": {
-        "name": "阿聲 Singsing524",
         "id": "519290658134269",
+        "username": "singbb524",
+        "name": "阿聲 Singsing524",
         "about": "For business inquiry：\nsingbb524@gmail.com\n\nYouTube: http://youtube.com/user/singsing524\nInstagram：http://instagram.com/singsing524",
-        "categories": [
-          "Producer",
-          "Video Creator"
+        "category_list": [
+          {
+            "id": "1108",
+            "name": "Producer"
+          },
+          {
+            "id": "1817904601806120",
+            "name": "Video Creator"
+          }
         ],
-        "email": "singbb524@gmail.com"
+        "emails": [
+          "singbb524@gmail.com"
+        ],
+        "single_line_address": "852 Hong Kong",
+        "website": "http://www.youtube.com/user/singsing524"
       }
     },
     {

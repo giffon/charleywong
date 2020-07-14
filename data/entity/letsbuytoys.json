@@ -10,13 +10,20 @@
     {
       "meta": {
         "id": "775565992557606",
+        "username": "letsbuytoys",
+        "name": "LETS BUY TOYS",
         "about": "Let's B.U.Y. Toys stands for \"Let's Build Up Your Toys\"",
-        "categories": [
-          "Games/toys"
+        "category_list": [
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          }
         ],
-        "addr": "香港九龍旺角亞皆老街109-111號1樓101鋪",
-        "area": "Mong Kok",
-        "email": "letsbuytoys@gmail.com"
+        "emails": [
+          "letsbuytoys@gmail.com"
+        ],
+        "single_line_address": "香港九龍旺角亞皆老街109-111號1樓101鋪, 852 Mong Kok",
+        "website": "https://www.letsbuytoys.shop/"
       },
       "url": "https://www.facebook.com/letsbuytoys/"
     }

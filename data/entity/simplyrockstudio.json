@@ -6,44 +6,53 @@
   "webpages": [
     {
       "meta": {
-        "name": "Simply Rock Studio - 火炭總店",
         "id": "523200194464472",
+        "username": "simplyrockstudioft",
+        "name": "Simply Rock Studio - 火炭總店",
         "about": "練習室租用 / 樂器商店 / 錄音製作 / 音樂推廣\nRehearsal room / Instrument store / Production studio / Music promotion",
-        "categories": [
-          "Music Production Studio",
-          "Music Lessons & Instruction School"
+        "category_list": [
+          {
+            "id": "189483194405517",
+            "name": "Music Production Studio"
+          },
+          {
+            "id": "186983191324114",
+            "name": "Music Lessons & Instruction School"
+          }
         ],
-        "addr": "火炭坳背灣街41-43安華工業大廈9樓F室（火炭站D出口）",
-        "area": "Hong Kong",
-        "tel": "56028940"
+        "single_line_address": "火炭坳背灣街41-43安華工業大廈9樓F室（火炭站D出口）, Hong Kong"
       },
       "url": "https://www.facebook.com/simplyrockstudioft/"
     },
     {
       "meta": {
-        "name": "Simply Rock Studio 新蒲崗店",
         "id": "489882324732334",
-        "about": "Simply Rock Studio 新蒲崗店 於11月3日（星期六）正式投入服務。鑽石山A2出口三分鐘直達，位處於麥當勞對面。全新風貌，寬敞舒適。\n地址: 新蒲崗大有街14號萬星工業大廈9樓",
-        "categories": [
-          "Music Production Studio"
+        "username": "simplyrockstudiospk",
+        "name": "Simply Rock Studio 新蒲崗店",
+        "about": "Simply Rock Studio 新蒲崗店 於11月3日（星期六）正式投入服務。鑽石山A2出口三分鐘直達，位處於麥當勞對面。全新風貌，寬敞舒適。\n地址: 新蒲崗大有街14號萬星工業大廈9樓\n",
+        "category_list": [
+          {
+            "id": "189483194405517",
+            "name": "Music Production Studio"
+          }
         ],
-        "addr": "新蒲崗大有街14號萬星工業大廈9樓",
-        "area": "Hong Kong",
-        "tel": "61984819"
+        "single_line_address": "新蒲崗大有街14號萬星工業大廈9樓, Hong Kong"
       },
       "url": "https://www.facebook.com/simplyrockstudiospk/"
     },
     {
       "meta": {
-        "name": "Simply Rock Studio 觀塘店",
         "id": "1749876055233130",
+        "username": "simplyrockstudiokt",
+        "name": "Simply Rock Studio 觀塘店",
         "about": "練習室租用 / 樂器商店 / 錄音製作 / 音樂推廣\n\nRehearsal room / Instrument store / Production studio / Music promotion",
-        "categories": [
-          "Music Production Studio"
+        "category_list": [
+          {
+            "id": "189483194405517",
+            "name": "Music Production Studio"
+          }
         ],
-        "addr": "觀塘道436-446號 觀塘工業中心4期 11樓R室（觀塘站D4出口）",
-        "area": "Hong Kong",
-        "tel": "54005922"
+        "single_line_address": "觀塘道436-446號 觀塘工業中心4期 11樓R室（觀塘站D4出口）, Hong Kong"
       },
       "url": "https://www.facebook.com/simplyrockstudiokt/"
     },

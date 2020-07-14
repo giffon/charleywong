@@ -7,11 +7,15 @@
     {
       "url": "https://www.facebook.com/vvvinshop/",
       "meta": {
-        "name": "Vvvin shop",
         "id": "142175895866409",
+        "username": "vvvinshop",
+        "name": "Vvvin shop",
         "about": "每日分享我喜愛的穿搭（≧∇≦）\n喜歡我為你們挑選的產品，歡迎追蹤我們的instagram : < vvvin_shop >\n有空閒時間，來參觀一下門市吧(o^^o)\n< 香港葵涌廣場三樓時尚坊12號店及65號店 >",
-        "categories": [
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ]
       }
     },

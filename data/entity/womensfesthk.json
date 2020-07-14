@@ -10,13 +10,20 @@
     {
       "meta": {
         "id": "410276346127438",
+        "username": "womensfesthk",
+        "name": "Women's Festival HK",
         "about": "Women’s Festival，香港唯一一個慶祝女性的力量和美麗的節目！ 讓我們一起擁抱自身的力量、美麗和自由！",
-        "categories": [
-          "Festival"
+        "category_list": [
+          {
+            "id": "596582600510249",
+            "name": "Festival"
+          }
         ],
-        "addr": "380 Nathan Road, Jordan",
-        "area": "Kowloon, Hong Kong",
-        "email": "hello@womensfestival.hk"
+        "emails": [
+          "hello@womensfestival.hk"
+        ],
+        "single_line_address": "380 Nathan Road, Jordan, Kowloon, Hong Kong",
+        "website": "https://womensfestival.hk"
       },
       "url": "https://www.facebook.com/womensfesthk/"
     },

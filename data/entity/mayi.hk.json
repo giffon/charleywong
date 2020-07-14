@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/mayi.hk/",
       "meta": {
-        "name": "Mayi",
         "id": "1658451774412192",
+        "username": "mayi.hk",
+        "name": "Mayi",
         "about": "L’enfer, c’est les autre",
-        "categories": [
-          "Blogger"
-        ]
+        "category_list": [
+          {
+            "id": "361282040719868",
+            "name": "Blogger"
+          }
+        ],
+        "website": "https://www.patreon.com/mayihk"
       }
     }
   ],

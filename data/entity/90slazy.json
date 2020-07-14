@@ -7,14 +7,19 @@
     {
       "meta": {
         "id": "2238678619511430",
+        "username": "90slazy",
+        "name": "90slazyhk",
         "about": "A PLACE TO EMPTY YOURSELF",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "ROOM 401,4/F,SINCERE HOUSE 83-97 ARGYLE ST MONG KOK",
-        "area": "Hong Kong",
-        "email": "90slazy@gmail.com",
-        "tel": "67446315"
+        "emails": [
+          "90slazy@gmail.com"
+        ],
+        "single_line_address": "ROOM 401,4/F,SINCERE HOUSE 83-97 ARGYLE ST MONG KOK, 00000 Hong Kong"
       },
       "url": "https://www.facebook.com/90slazy/"
     },

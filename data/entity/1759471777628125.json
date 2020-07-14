@@ -7,13 +7,15 @@
     {
       "url": "https://www.facebook.com/1759471777628125/",
       "meta": {
-        "name": "赤壽司刺身專門店 -龍門居",
         "id": "1759471777628125",
+        "name": "赤壽司刺身專門店 -龍門居",
         "about": "地址：屯門 龍門居80號鋪\n電話：3482 0228",
-        "categories": [
-          "Interest"
-        ],
-        "tel": "34820228"
+        "category_list": [
+          {
+            "id": "1500",
+            "name": "Interest"
+          }
+        ]
       }
     }
   ],

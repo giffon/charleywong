@@ -6,13 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Artista Perfetto HK",
         "id": "305599263600747",
-        "categories": [
-          "Coffee Shop"
+        "username": "artistaperfettohk",
+        "name": "Artista Perfetto HK",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "Shop 2, No. 3A Sharp Street West, Causeway Bay",
-        "area": "000 Hong Kong"
+        "single_line_address": "Shop 2, No. 3A Sharp Street West, Causeway Bay, 000 Hong Kong",
+        "website": "https://www.instagram.com/artistaperfettohk/"
       },
       "url": "https://www.facebook.com/artistaperfettohk/"
     },

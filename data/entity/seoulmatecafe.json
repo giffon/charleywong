@@ -7,13 +7,20 @@
     {
       "meta": {
         "id": "529475840488045",
-        "categories": [
-          "Asian fusion restaurant",
-          "Coffee shop"
+        "username": "seoulmatecafe",
+        "name": "Seoulmate Cafe",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "174201535963762",
+            "name": "Asian Fusion Restaurant"
+          }
         ],
-        "addr": "4/F, Kyoto Plaza, 491-499 Lockhart Road, Causeway Bay",
-        "area": "Hong Kong",
-        "tel": "21046788"
+        "single_line_address": "4/F, Kyoto Plaza, 491-499 Lockhart Road, Causeway Bay, 852 Hong Kong",
+        "website": "http://www.seoulmatecafe.com"
       },
       "url": "https://www.facebook.com/seoulmatecafe/"
     }

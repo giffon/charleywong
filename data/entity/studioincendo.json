@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Studio Incendo",
         "id": "1474101479504603",
-        "about": "News and Images about Hong Kong.\nNot-for-profit and completely independent.\nLiberate Hong Kong. Revolution of Our Time.",
-        "categories": [
-          "News & Media Website"
+        "username": "studioincendo",
+        "name": "Studio Incendo",
+        "about": "News and Images about Hong Kong.\nNot-for-profit and completely independent.",
+        "category_list": [
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
         ],
-        "email": "studioincendo@gmail.com"
+        "emails": [
+          "studioincendo@gmail.com"
+        ],
+        "website": "https://www.studioincendo.com/"
       },
       "url": "https://www.facebook.com/studioincendo/"
     },

@@ -6,14 +6,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "Hero's Friday",
         "id": "292820281581473",
-        "categories": [
-          "Fast Food Restaurant"
+        "username": "herosfriday",
+        "name": "Hero's Friday",
+        "category_list": [
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          }
         ],
-        "addr": "Shop A5C,Ground Floor,Blk A,Hong Kong Industrial Building,489-491 Castle Peak Rd.,Lai Chi Kok.",
-        "area": "Lai Chi Kok",
-        "tel": "63415319"
+        "single_line_address": "Shop A5C,Ground Floor,Blk A,Hong Kong Industrial Building,489-491 Castle Peak Rd.,Lai Chi Kok., Lai Chi Kok"
       },
       "url": "https://www.facebook.com/herosfriday/"
     },

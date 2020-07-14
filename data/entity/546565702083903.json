@@ -6,16 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "IPL 動歷點 成長發展活動",
         "id": "546565702083903",
+        "name": "IPL 動歷點  成長發展活動",
         "about": "關注有效學習 , 降低成長壓力、負面情緒及行為的工作室。特別是學前及中小學階段學童的壓力情緒行為與學習認知。此外 , 亦關心父母面對教養子女的壓力 , 重視家庭協作。",
-        "categories": [
-          "Professional Service"
+        "category_list": [
+          {
+            "id": "176831012360626",
+            "name": "Professional Service"
+          }
         ],
-        "addr": null,
-        "area": "香港皇后大道中233號柏聯樓二樓",
-        "email": "ipl2013nov@gmail.com",
-        "tel": "26579338"
+        "emails": [
+          "ipl2013nov@gmail.com"
+        ],
+        "single_line_address": "香港皇后大道中233號柏聯樓二樓"
       },
       "url": "https://www.facebook.com/546565702083903/"
     }

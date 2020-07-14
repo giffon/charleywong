@@ -7,13 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "廣告狂人 Madman Monologue",
         "id": "653481138013826",
+        "username": "MadmanMonologue",
+        "name": "廣告狂人 Madman Magazine",
         "about": "follow 廣告狂人instagram：\nhttp://instagram.com/madmanmonogram\njoin 廣告狂人情報交流telegram：\nhttps://t.me/madmangossip",
-        "categories": [
-          "Advertising/Marketing"
+        "category_list": [
+          {
+            "id": "1757592557789532",
+            "name": "Advertising/Marketing"
+          }
         ],
-        "email": "madmanmonologue@gmail.com"
+        "emails": [
+          "madmanmonologue@gmail.com"
+        ],
+        "website": "https://madman-magazine.com"
       },
       "url": "https://www.facebook.com/MadmanMonologue/"
     },

@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/Chef.Recommendation/",
       "meta": {
-        "name": "煮打菜 打冷小菜館",
         "id": "166506286817026",
+        "username": "Chef.Recommendation",
+        "name": "煮打菜 打冷小菜館",
         "about": "使命 : 盡心做好每份菜式，選用平民能付擔的食材，使用精湛嘅廚藝，做出高層次的精美食品!",
-        "categories": [
-          "Cantonese Restaurant",
-          "Deli"
+        "category_list": [
+          {
+            "id": "214976388519648",
+            "name": "Cantonese Restaurant"
+          },
+          {
+            "id": "188334264523313",
+            "name": "Deli"
+          }
         ],
-        "addr": "筲箕灣 南康街18號 康華大廈2座 地下1號鋪",
-        "area": "Hong Kong",
-        "email": "hk27613001@gmail.com",
-        "tel": "27613001"
+        "emails": [
+          "hk27613001@gmail.com"
+        ],
+        "single_line_address": "筲箕灣 南康街18號 康華大廈2座 地下1號鋪, Hong Kong"
       }
     },
     {

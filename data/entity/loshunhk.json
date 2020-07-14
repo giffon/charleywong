@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/loshunhk/",
       "meta": {
-        "name": "佬訊",
         "id": "984214311629995",
+        "username": "loshunhk",
+        "name": "佬訊",
         "about": "讓Lifestyle回歸生活，願諸君優雅地佬去。\n\n投稿／合作／聯絡：loshun.info@gmail.com",
-        "categories": [
-          "Blogger"
+        "category_list": [
+          {
+            "id": "361282040719868",
+            "name": "Blogger"
+          }
         ],
-        "email": "loshun.info@gmail.com"
+        "emails": [
+          "loshun.info@gmail.com"
+        ],
+        "website": "https://loshunhk.com"
       }
     },
     {

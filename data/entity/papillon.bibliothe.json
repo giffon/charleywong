@@ -8,18 +8,28 @@
     {
       "url": "https://www.facebook.com/papillon.bibliothe/",
       "meta": {
-        "name": "Papillon 帕比安紅茶書室",
         "id": "1901276966678258",
-        "about": "[Papillon]\n以｜Je rêve. Je réalise.｜為理念的紅茶圖書沙龍。為大家提供享受閱讀和紅茶的空間，透過與人、與生活各種細節邂逅去愉悅自身及提升修養，感受法國人文情懷和日本的生活雅趣。",
-        "categories": [
-          "Book",
-          "Tea Room",
-          "Event Planner"
+        "username": "papillon.bibliothe",
+        "name": "Papillon 帕比安紅茶書室",
+        "about": "[Papillon]\n以｜Je rêve. Je réalise.｜為理念的紅茶圖書沙龍。為大家提供享受閱讀和紅茶的空間，透過與人、與生活各種細節邂逅去愉悅自身及提升修養，感受法國人文情懷和日本的生活雅趣。\n",
+        "category_list": [
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          },
+          {
+            "id": "1300",
+            "name": "Book"
+          },
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          }
         ],
-        "addr": "1/F, 62 Fa Yuen Street, Mong Kok",
-        "area": "Hong Kong",
-        "email": "papillon.bibliothe@gmail.com",
-        "tel": "62047863"
+        "emails": [
+          "papillon.bibliothe@gmail.com"
+        ],
+        "single_line_address": "1/F, 62 Fa Yuen Street, Mong Kok, Hong Kong"
       }
     },
     {

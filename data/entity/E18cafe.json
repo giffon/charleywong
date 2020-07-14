@@ -6,17 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Puzzle Dining & Cafe",
         "id": "339308343365033",
+        "username": "E18cafe",
+        "name": "Puzzle Dining & Cafe",
         "about": "Cafe, Western Japanese Fusion ,Opening Hours: Mon-Fri 12:00-10:00 Sat, Sun 11:30-10:00 Come and join us now!!!#puzzle cafe & dining",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "On Chun Street 33",
-        "area": "852 Ma On Shan, Hong Kong",
-        "email": "puzzlediningmos@gmail.com",
-        "tel": "63988678"
+        "emails": [
+          "puzzlediningmos@gmail.com"
+        ],
+        "single_line_address": "On Chun Street 33, 852 Ma On Shan, Hong Kong"
       },
       "url": "https://www.facebook.com/E18cafe/"
     },

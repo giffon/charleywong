@@ -8,15 +8,17 @@
     {
       "url": "https://www.facebook.com/littlenyonyahk/",
       "meta": {
-        "name": "小娘惹 Little Nyonya",
         "id": "187571118694303",
+        "username": "littlenyonyahk",
+        "name": "小娘惹 Little Nyonya",
         "about": "香港鰂魚涌海堤街的娘惹菜餐廳",
-        "categories": [
-          "Malaysian Restaurant"
+        "category_list": [
+          {
+            "id": "198383150193535",
+            "name": "Malaysian Restaurant"
+          }
         ],
-        "addr": "海堤街18號D9鋪",
-        "area": "Quarry Bay",
-        "tel": "34282250"
+        "single_line_address": "海堤街18號D9鋪, 香港 Quarry Bay"
       }
     }
   ],

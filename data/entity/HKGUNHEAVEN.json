@@ -8,16 +8,21 @@
     {
       "url": "https://www.facebook.com/GUNHEAVEN/",
       "meta": {
-        "name": "香港槍天堂 Gunheaven Hong Kong",
         "id": "306291082901503",
-        "about": "GunHeaven- We are Asia agent of WG ASG.\n\nOur company has more than 4 chain of stores at different places respectively.",
-        "categories": [
-          "Outdoor Equipment Store",
-          "Toy Store"
+        "username": "GUNHEAVEN",
+        "name": "香港槍天堂 Gunheaven Hong Kong",
+        "about": "GunHeaven- We are Asia agent of WG ASG.\n\nOur company has more than 4 chain of stores at different places respectively.\n",
+        "category_list": [
+          {
+            "id": "153490828039067",
+            "name": "Outdoor Equipment Store"
+          },
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          }
         ],
-        "addr": "Shop21B,G/F,Yan On Building,1 Kwong Wa Street, Mongkok, Kowloon",
-        "area": "852 Mong Kok",
-        "tel": "23321484"
+        "single_line_address": "Shop21B,G/F,Yan On Building,1 Kwong Wa Street, Mongkok, Kowloon, 852 Mong Kok"
       }
     },
     {

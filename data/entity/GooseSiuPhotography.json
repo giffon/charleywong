@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "Goose Siu Photography",
         "id": "362093513845730",
+        "username": "GooseSiuPhotography",
+        "name": "Goose Siu Photography",
         "about": "Goose is a wedding photojournalist.",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "goosesiu@gmail.com",
-        "tel": "64330072"
+        "emails": [
+          "goosesiu@gmail.com"
+        ],
+        "single_line_address": "觀塘成業街16號 怡生工業中心F座11樓9室, Hong Kong",
+        "website": "https://vimeo.com/goosesiuphotography"
       },
       "url": "https://www.facebook.com/GooseSiuPhotography/"
     },

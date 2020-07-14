@@ -6,14 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "AP Coffee HK",
         "id": "1204451109711692",
-        "categories": [
-          "Coffee Shop"
+        "name": "AP Coffee HK",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "54 Main Street, Ap Lei Chau",
-        "area": "Aberdeen, Hong Kong",
-        "tel": "98849231"
+        "single_line_address": "54 Main Street, Ap Lei Chau, Aberdeen, Hong Kong"
       },
       "url": "https://www.facebook.com/1204451109711692/"
     }

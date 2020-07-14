@@ -8,14 +8,21 @@
     {
       "url": "https://www.facebook.com/no7fortresshill/",
       "meta": {
-        "name": "炮台山7號酒店",
         "id": "109593817062673",
+        "username": "no7fortresshill",
+        "name": "炮台山7號酒店",
         "about": "訂房通道",
-        "categories": [
-          "Hotel & Lodging"
+        "category_list": [
+          {
+            "id": "505091123022329",
+            "name": "Hotel & Lodging"
+          }
         ],
-        "email": "joechotel@gmail.com",
-        "tel": "67171096"
+        "emails": [
+          "joechotel@gmail.com"
+        ],
+        "single_line_address": "炮台山英皇道294號五洲大廈22樓E室, Hong Kong",
+        "website": "https://api.whatsapp.com/send?phone=85267171096"
       }
     },
     {

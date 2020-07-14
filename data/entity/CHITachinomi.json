@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "CHI Tachinomi",
         "id": "103234331123240",
+        "username": "CHITachinomi",
+        "name": "CHI Tachinomi",
         "about": "Offering a unique Japanese Tachinomi (Standing Bar) experience",
-        "categories": [
-          "Bar",
-          "Yakitori Restaurant"
+        "category_list": [
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          },
+          {
+            "id": "113264772433008",
+            "name": "Yakitori Restaurant"
+          }
         ],
-        "addr": "Shop A, G/f, Central Pier 7",
-        "area": "Central, Hong Kong",
-        "tel": "28550588"
+        "single_line_address": "Shop A, G/f, Central Pier 7, Central, Hong Kong"
       },
       "url": "https://www.facebook.com/CHITachinomi/"
     },

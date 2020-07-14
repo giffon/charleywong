@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/cornershopcc/",
       "meta": {
-        "name": "Cornershopcc",
         "id": "433118966829789",
-        "about": "The Corner Shop --- 街角\nA simple, honest approach to design, where quality and utility are intrinsic.\n一間溫暖與人情味的選物，衣服，雜貨店\naddress:長洲大新街35號",
-        "categories": [
-          "Shopping & Retail"
+        "username": "cornershopcc",
+        "name": "Cornershopcc",
+        "about": "The Corner Shop --- 街角\nA simple, honest approach to design, where quality and utility are intrinsic.\n一間溫暖與人情味的選物，衣服，雜貨店\naddress:長洲大新街35號\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "長洲大新街35號, 35 Tai San Street, Cheung Chau, Hong Kong",
-        "area": "00852 Cheung Chau, Hong Kong",
-        "email": "corner90hk@gmail.com",
-        "tel": "69251965"
+        "emails": [
+          "corner90hk@gmail.com"
+        ],
+        "single_line_address": "長洲大新街35號, 35 Tai San Street, Cheung Chau, Hong Kong, 00852 Cheung Chau, Hong Kong",
+        "website": "https://cornershophk.ecwid.com/"
       }
     },
     {

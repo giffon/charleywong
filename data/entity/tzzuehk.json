@@ -7,11 +7,15 @@
     {
       "url": "https://www.facebook.com/tzzuehk/",
       "meta": {
-        "name": "Tzzue",
         "id": "795547557181071",
+        "username": "tzzuehk",
+        "name": "Tzzue",
         "about": "one day one tee | 50hkd only | share free shipping",
-        "categories": [
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ]
       }
     }

@@ -7,14 +7,16 @@
     {
       "url": "https://www.facebook.com/bilibalakt/",
       "meta": {
-        "name": "Bilibala Private Room",
         "id": "1849670895270569",
-        "categories": [
-          "Arts & Entertainment"
+        "username": "bilibalakt",
+        "name": "Bilibala Private Room",
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "addr": "觀塘偉業街97號榮韶工業大廈4樓",
-        "area": "85268883099 Hong Kong",
-        "tel": "68883099"
+        "single_line_address": "觀塘偉業街97號榮韶工業大廈4樓, 85268883099 Hong Kong"
       }
     }
   ],

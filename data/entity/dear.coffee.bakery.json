@@ -6,17 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Dear Coffee & Bakery",
         "id": "1014212055310056",
+        "username": "dear.coffee.bakery",
+        "name": "Dear Coffee & Bakery",
         "about": "一間小店\n喜歡咖啡, 喜歡烘焙, 喜歡簡單的快樂\n\n在鬧市的一角,\u001d實現夢想\n為了自己喜歡的事情努力堅持\n\n一杯咖啡,一個麵包,一\b件蛋糕\n只想讓品嘗的人感受到這份用心",
-        "categories": [
-          "Coffee Shop",
-          "Bakery"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          }
         ],
-        "addr": "Shop 22 G/F, Holford Garden, 2-8 Chik Wan Street, Tai Wai, New Territories",
-        "area": "852 Hong Kong",
-        "email": "dear.coffee.bakery@gmail.com",
-        "tel": "26820093"
+        "emails": [
+          "dear.coffee.bakery@gmail.com"
+        ],
+        "single_line_address": "Shop 22 G/F, Holford Garden, 2-8 Chik Wan Street, Tai Wai, New Territories, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/dear.coffee.bakery/"
     },

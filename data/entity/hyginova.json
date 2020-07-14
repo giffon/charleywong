@@ -17,12 +17,20 @@
     {
       "url": "https://www.facebook.com/hyginova/",
       "meta": {
-        "name": "Hyginova",
         "id": "232625403593701",
+        "username": "hyginova",
+        "name": "Hyginova",
         "about": "HYGINOVA屬少數符合5種歐盟標準的高程度廣譜消毒劑，亦是無動物測試、純素及環境友善產品。在清潔同時「對得住大家，對得住地球」- Proudly Made In Hong Kong -",
-        "categories": [
-          "Household Supplies"
-        ]
+        "category_list": [
+          {
+            "id": "2220",
+            "name": "Household Supplies"
+          }
+        ],
+        "emails": [
+          "info@hyginova.com"
+        ],
+        "website": "www.hyginova.com"
       }
     },
     {

@@ -7,16 +7,29 @@
   "webpages": [
     {
       "meta": {
+        "id": "173671323256620",
+        "username": "flipandrollpress",
+        "name": "翻滾出版 flip & roll press",
         "about": "*僅限預約 by appointment only*\n\nPrinting｜Graphic Design | Publishing",
-        "categories": [
-          "Arts and crafts shop",
-          "Printing service",
-          "Book shop"
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "197888373555475",
+            "name": "Printing Service"
+          },
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
         ],
-        "addr": "RM 5, 17/F, Metro Centre 2, 21 Lam Hing ST, Kowloon Bay, Kowloon",
-        "area": "Hong Kong",
-        "email": "info@flipandroll.press",
-        "id": "173671323256620"
+        "emails": [
+          "info@flipandroll.press"
+        ],
+        "single_line_address": "RM 5, 17/F, Metro Centre 2, 21 Lam Hing ST, Kowloon Bay, Kowloon, Hong Kong",
+        "website": "https://www.instagram.com/flipandrollpress/"
       },
       "url": "https://www.facebook.com/flipandrollpress/"
     }

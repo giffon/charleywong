@@ -6,13 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "再生玩具店",
         "id": "1897103353909322",
+        "username": "AnewToys",
+        "name": "再生玩具店",
         "about": "一項調查發現，6成半港童擁有50件或更多玩具，近1成半更多至數不清。逾3成半被訪家長月花2,000元買玩具，也有一件玩具過萬元，惟7成「失寵」玩具會被直接當垃圾丟棄。",
-        "categories": [
-          "Games/Toys"
+        "category_list": [
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          }
         ],
-        "email": "anewtoys@gmail.com"
+        "emails": [
+          "anewtoys@gmail.com"
+        ],
+        "single_line_address": "新蒲崗大有街",
+        "website": "www.anewtoys.com"
       },
       "url": "https://www.facebook.com/AnewToys/"
     },

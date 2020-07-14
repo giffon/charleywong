@@ -9,12 +9,17 @@
     },
     {
       "meta": {
-        "name": "Friendsphotog",
         "id": "155720507810092",
+        "username": "Friendsphotog",
+        "name": "Friendsphotog",
         "about": "\"Be friends. In wedding\"",
-        "categories": [
-          "Photographer"
-        ]
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
+        ],
+        "website": "http://friendsphotog.com/"
       },
       "url": "https://www.facebook.com/Friendsphotog/"
     },

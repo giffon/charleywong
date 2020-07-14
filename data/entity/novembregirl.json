@@ -13,15 +13,24 @@
     {
       "meta": {
         "id": "366078590223086",
+        "username": "novembregirl",
+        "name": "Novembregirl",
         "about": "NOVEMBREGIRL provides handmade and vintage accessories, bags and clothing.",
-        "categories": [
-          "Accessories",
-          "Baby & children's clothing store"
+        "category_list": [
+          {
+            "id": "185127444860544",
+            "name": "Accessories"
+          },
+          {
+            "id": "192614304101075",
+            "name": "Baby & Children's Clothing Store"
+          }
         ],
-        "addr": "Hong Kong",
-        "area": "Hong Kong",
-        "email": "novembregirl.hk@gmail.com",
-        "tel": "56201006"
+        "emails": [
+          "novembregirl.hk@gmail.com"
+        ],
+        "single_line_address": "Hong Kong, N/A Hong Kong",
+        "website": "http://www.instagram.com/novembregirl"
       },
       "url": "https://www.facebook.com/novembregirl/"
     }

@@ -7,16 +7,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "島中坊研 Island Workbench",
         "id": "136459776538956",
+        "username": "island.workbench",
+        "name": "島中坊研 Island Workbench",
         "about": "「島中坊研」是個創作品牌的實驗工作坊，把生活中的感受轉化成獨特的單品，出售到每個喜歡我們的人手上。",
-        "categories": [
-          "Design & Fashion"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          }
         ],
-        "addr": "新興後街2號後座地下",
-        "area": "Cheung Chau, Hong Kong",
-        "email": "info@island-workbench.com",
-        "tel": "54806627"
+        "emails": [
+          "info@island-workbench.com"
+        ],
+        "single_line_address": "新興後街2號後座地下, Cheung Chau, Hong Kong",
+        "website": "http://www.island-workbench.com/"
       },
       "url": "https://www.facebook.com/island.workbench/"
     },

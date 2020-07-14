@@ -8,17 +8,24 @@
     {
       "url": "https://www.facebook.com/musicriderhk/",
       "meta": {
-        "name": "Music Rider 香港樂器小店",
         "id": "1099833660063284",
-        "about": "集合音樂、休閒用品的概念店。\nConcept store - collection of Music & Leisure.\n\n代理品牌：StandCajonHK | LightMusic Percussion | Bosphorus Cymbals | Double Pickup",
-        "categories": [
-          "Musical Instrument Store",
-          "Music Lessons & Instruction School"
+        "username": "musicriderhk",
+        "name": "Music Rider 香港樂器小店",
+        "about": "香港樂器小店 \nConcept store - collection of Music \n\n代理品牌：StandCajonHK | LightMusic Percussion | Bosphorus Cymbals | Double Pickup｜Sole Guitar Ukulele",
+        "category_list": [
+          {
+            "id": "139750396088115",
+            "name": "Musical Instrument Store"
+          },
+          {
+            "id": "186983191324114",
+            "name": "Music Lessons & Instruction School"
+          }
         ],
-        "addr": "鑽石山港鐵站A2出口新蒲崗彩虹道202-204號華懋工業大廈9樓A座A2室（敬請預約）",
-        "area": "Hong Kong",
-        "email": "music.rider.hk@gmail.com",
-        "tel": "68880064"
+        "emails": [
+          "music.rider.hk@gmail.com"
+        ],
+        "single_line_address": "鑽石山港鐵站A2出口新蒲崗彩虹道202-204號華懋工業大廈9樓A座A2室, Hong Kong"
       }
     },
     {

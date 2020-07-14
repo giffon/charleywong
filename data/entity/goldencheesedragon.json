@@ -6,16 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "金芝龍 日韓美食站",
         "id": "170605903890924",
+        "name": "金芝龍 日韓美食站",
         "about": "地址 ：深水埗北河街119C ( 汝州街218長安大廈地下） （深水埗站A2出口直行街口轉右）\n#金芝龍 #深水埗美食 #吃貨 #日本小食 #韓國小食 #街頭小食 #外賣店 #小食 #特色飲品 #韓式飲品 #台式飲品 #",
-        "categories": [
-          "Caterer",
-          "Japanese Restaurant"
+        "category_list": [
+          {
+            "id": "139433292785470",
+            "name": "Caterer"
+          },
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "addr": "深水埗 北河街 119C 地下",
-        "area": "Sham Shui Po",
-        "tel": "54211668"
+        "single_line_address": "深水埗 北河街 119C 地下, Sham Shui Po"
       },
       "url": "https://www.facebook.com/170605903890924/"
     },

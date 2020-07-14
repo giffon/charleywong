@@ -6,16 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "A Beautiful Store",
         "id": "374008576114945",
+        "username": "abeautifulstore",
+        "name": "A Beautiful Store",
         "about": "器具 I 衣妝 I 生活美學 ［surrounded by beautiful things］\n. 3/f, 194 Prince Edward Road West, Kowloon, Hong Kong (Flower Market)\n. Wed-Fri: 2-8pm / Sat & Sun: 12-7pm / Mon & Tue: closed\n. Bring your own bag",
-        "categories": [
-          "Home Goods Store",
-          "Arts & Crafts Store"
+        "category_list": [
+          {
+            "id": "183680385005847",
+            "name": "Home Goods Store"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "addr": "3/f, 194 prince edward road west, kowloon,",
-        "area": "Hong Kong",
-        "email": "abeautifulstore@gmail.com"
+        "emails": [
+          "abeautifulstore@gmail.com"
+        ],
+        "single_line_address": "3/f, 194 prince edward road west, kowloon,, Hong Kong",
+        "website": "https://instagram.com/abeautifulstore/"
       },
       "url": "https://www.facebook.com/abeautifulstore/"
     },

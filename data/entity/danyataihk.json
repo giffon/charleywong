@@ -11,13 +11,20 @@
     {
       "url": "https://www.facebook.com/danyataihk/",
       "meta": {
-        "name": "東屋台 Dan Yatai",
         "id": "2146230735612780",
+        "username": "danyataihk",
+        "name": "東屋台 Dan Yatai",
         "about": "元祖店地址：屯門龍門路50號 \n龍門居電話：5616 8368\n珀御分店：屯門良德街8號珀御G09號舖\n珀御電話：5593 3139",
-        "categories": [
-          "Japanese Restaurant"
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "email": "danyataihk@gmail.com"
+        "emails": [
+          "danyataihk@gmail.com"
+        ],
+        "website": "https://www.danyatai.com/"
       }
     },
     {

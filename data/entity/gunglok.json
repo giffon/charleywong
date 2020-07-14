@@ -8,13 +8,24 @@
     {
       "meta": {
         "id": "235713320116326",
+        "username": "gunglok",
+        "name": "共楽 Gung Lok",
         "about": "共楽 Gung Lok 成立於 2016 年 6 月，共楽是一群飄洋過海的年青人計劃自己理想、工作和生活的空間，親力親為創造一個環境，一道簡單帶有溫度的家郷美食，分享我們喜愛的音樂、設計與藝術。",
-        "categories": [
-          "Hong Kong restaurant"
+        "category_list": [
+          {
+            "id": "223801560977980",
+            "name": "Hookah Lounge"
+          },
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
         ],
-        "addr": "赤峰街22號",
-        "area": "Taipei, Taiwan",
-        "email": "gunglokuniongrocery@gmail.com"
+        "emails": [
+          "gunglokuniongrocery@gmail.com"
+        ],
+        "single_line_address": "赤峰街22號, Taipei, Taiwan 103",
+        "website": "http://instagram.com/gunglok/"
       },
       "url": "https://www.facebook.com/gunglok/"
     },

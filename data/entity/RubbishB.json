@@ -14,16 +14,29 @@
     },
     {
       "meta": {
-        "name": "堆填區Rubbish_B",
         "id": "107929226353340",
+        "username": "RubbishB",
+        "name": "堆填區Rubbish_B",
         "about": "從世界各地搜獲中古 復古物品。也許是別人眼中是「垃圾」，但希望你們能在這個 堆填區 中，找到屬於自己的「寶物」。",
-        "categories": [
-          "Antique Store",
-          "Vintage Store"
+        "category_list": [
+          {
+            "id": "150732438316813",
+            "name": "Antique Store"
+          },
+          {
+            "id": "194127957280024",
+            "name": "Vintage Store"
+          },
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          }
         ],
-        "addr": "旺角西洋菜南街66號8樓",
-        "area": "Hong Kong",
-        "tel": "66861209"
+        "emails": [
+          "rubbishb.co@gmail.com"
+        ],
+        "single_line_address": "旺角西洋菜南街66號8樓, Hong Kong",
+        "website": "https://www.instagram.com/rubbish_b/"
       },
       "url": "https://www.facebook.com/RubbishB/"
     }

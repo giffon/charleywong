@@ -6,15 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "炻板燒",
         "id": "416287368965078",
+        "username": "SEK.BAAN.SIU",
+        "name": "炻板燒",
         "about": "屯門終於有板燒牛食啦！本店堅持採用美國牛小排！唔係度度都有得食嘅封門柳肉同日本A4和牛！快啲嚟試下�",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "新界屯門新墟雅都花園商場地下G10A",
-        "area": "Hong Kong",
-        "tel": "28331006"
+        "single_line_address": "新界屯門新墟雅都花園商場地下G10A, Hong Kong"
       },
       "url": "https://www.facebook.com/SEK.BAAN.SIU/"
     },

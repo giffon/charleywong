@@ -13,18 +13,29 @@
     },
     {
       "meta": {
-        "name": "桌樂無限 BG Infinity",
         "id": "980241455340577",
+        "username": "bgifco",
+        "name": "桌樂無限 BG Infinity",
         "about": "放假打機打到悶？諗唔到地方一齊玩？  嚟桌樂啦！  無論一家大細定朋友聚會，我地無任歡迎，專人教授，為您提供貼心的桌遊及租場服務！",
-        "categories": [
-          "Event Planner",
-          "Party Entertainment Service",
-          "Games/Toys"
+        "category_list": [
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          },
+          {
+            "id": "189334414420898",
+            "name": "Party Entertainment Service"
+          },
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          }
         ],
-        "addr": "九龍旺角西洋菜南街5號好望角大廈1404室",
-        "area": "852 Hong Kong",
-        "email": "info@bgif.co",
-        "tel": "39545967"
+        "emails": [
+          "info@bgif.co"
+        ],
+        "single_line_address": "九龍旺角西洋菜南街5號好望角大廈1404室, 852 Hong Kong",
+        "website": "http://bgstore.com.hk"
       },
       "url": "https://www.facebook.com/bgifco/"
     },

@@ -7,14 +7,15 @@
     {
       "url": "https://www.facebook.com/195441687227881/",
       "meta": {
-        "name": "泰金國",
         "id": "195441687227881",
-        "categories": [
-          "Thai Restaurant"
+        "name": "泰金國",
+        "category_list": [
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          }
         ],
-        "addr": "九龍城 衙前圍道 36A",
-        "area": "Kowloon, Hong Kong",
-        "tel": "97519002"
+        "single_line_address": "九龍城 衙前圍道 36A, Kowloon, Hong Kong"
       }
     }
   ],

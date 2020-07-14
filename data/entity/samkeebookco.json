@@ -6,15 +6,20 @@
   "webpages": [
     {
       "meta": {
+        "id": "334906163352811",
+        "username": "samkeebookco",
+        "name": "森記圖書公司",
         "about": "這是一間書店 ：）",
-        "categories": [
-          "Independent book shop"
+        "category_list": [
+          {
+            "id": "387228845011016",
+            "name": "Independent Bookstore"
+          }
         ],
-        "addr": "北角英皇道193號英皇中心地庫19號〈近國都廣場〉",
-        "area": "Hong Kong",
-        "email": "samkeebook@yahoo.com.hk",
-        "tel": "25785956",
-        "id": "334906163352811"
+        "emails": [
+          "samkeebook@yahoo.com.hk"
+        ],
+        "single_line_address": "北角英皇道193號英皇中心地庫19號〈近國都廣場〉, 00000 Hong Kong"
       },
       "url": "https://www.facebook.com/samkeebookco/"
     }

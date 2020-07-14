@@ -11,14 +11,20 @@
     {
       "url": "https://www.facebook.com/lingduck.hk/",
       "meta": {
-        "name": "拎得 - lingduck",
         "id": "107155654040179",
-        "about": "電子化外賣自取平台",
-        "categories": [
-          "Local Service"
+        "username": "lingduck.hk",
+        "name": "拎得 - lingduck",
+        "about": "電子化外賣自取平台 ",
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "email": "info@lingduck.com",
-        "tel": "95404671"
+        "emails": [
+          "info@lingduck.com"
+        ],
+        "website": "https://www.lingduck.com"
       }
     },
     {

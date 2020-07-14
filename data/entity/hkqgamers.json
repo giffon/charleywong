@@ -15,14 +15,20 @@
     },
     {
       "meta": {
-        "name": "HKQ Gamers",
         "id": "294753084191917",
+        "username": "hkqgamers",
+        "name": "HKQ Gamers",
         "about": "PS4/Switch Games專門店\n支持本地遊戲玩家\n歡迎預訂/出讓 PS4 二手遊戲\n另設一手遊戲預訂\n全港地鐵交收",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "email": "hkqgamers@gmail.com",
-        "tel": "92003924"
+        "emails": [
+          "hkqgamers@gmail.com"
+        ],
+        "website": "https://www.youtube.com/channel/UCFoQK3QsHHiHRPWFEOtpK6Q"
       },
       "url": "https://www.facebook.com/hkqgamers/"
     },

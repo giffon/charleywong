@@ -9,13 +9,21 @@
     },
     {
       "meta": {
-        "name": "MOZ Images",
         "id": "108785329289709",
+        "username": "MOZimages",
+        "name": "MOZ Images",
         "about": "Fashion, Portraiture, DocumentaryMoz Images - Will Stand the test of time.Please contact +852 9050 5009 / hihimoses@gmail.com for any booking.",
-        "categories": [
-          "Company"
+        "category_list": [
+          {
+            "id": "2200",
+            "name": "Company"
+          }
         ],
-        "email": "info.mozimages@gmail.com"
+        "emails": [
+          "info.mozimages@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://www.moz.com.hk"
       },
       "url": "https://www.facebook.com/MOZimages/"
     },

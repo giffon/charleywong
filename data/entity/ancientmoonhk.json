@@ -8,16 +8,21 @@
     {
       "url": "https://www.facebook.com/ancientmoonhk/",
       "meta": {
-        "name": "古月 Ancient Moon",
         "id": "1468996540014614",
+        "username": "ancientmoonhk",
+        "name": "古月 Ancient Moon",
         "about": "Something New. \nSomething Different. \nA Tasty Experience. \n\n地址:北角錦屏街29A\n北角站B4出口過馬路轉右步行2分鐘，書局街七姊妹道轉入後街",
-        "categories": [
-          "Singaporean Restaurant",
-          "Malaysian Restaurant"
+        "category_list": [
+          {
+            "id": "142590562472824",
+            "name": "Singaporean Restaurant"
+          },
+          {
+            "id": "198383150193535",
+            "name": "Malaysian Restaurant"
+          }
         ],
-        "addr": "北角錦屏街29A",
-        "area": "North Point",
-        "tel": "35684530"
+        "single_line_address": "北角錦屏街29A, North Point"
       }
     },
     {

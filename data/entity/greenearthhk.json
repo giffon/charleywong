@@ -7,14 +7,25 @@
   "webpages": [
     {
       "meta": {
+        "id": "250991628578095",
+        "username": "greenearthhk",
+        "name": "綠惜地球 The Green Earth",
         "about": "「綠惜地球」深信，大家可以成為綠色公民，共同發揮零浪費的綠色正能量。",
-        "categories": [
-          "Environmental conservation organisation",
-          "Non-profit organisation"
+        "category_list": [
+          {
+            "id": "191523214199822",
+            "name": "Environmental Conservation Organization"
+          },
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          }
         ],
-        "email": "info@greenearth-hk.org",
-        "tel": "37088380",
-        "id": "250991628578095"
+        "emails": [
+          "info@greenearth.org.hk"
+        ],
+        "single_line_address": "新界葵涌葵涌葵昌路50號葵昌中心7樓703室, +852 香港",
+        "website": "http://greenearth.org.hk/"
       },
       "url": "https://www.facebook.com/greenearthhk/"
     }

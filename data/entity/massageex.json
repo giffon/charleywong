@@ -11,15 +11,24 @@
     {
       "url": "https://www.facebook.com/massageex/",
       "meta": {
-        "name": "Massage Express 按摩速遞",
         "id": "1528500507476030",
+        "username": "massageex",
+        "name": "Massage Express 按摩速遞",
         "about": "頭肩頸按摩●伸展專門店 \n(尚有其他上門伸展紓壓、體適能訓練等服務)",
-        "categories": [
-          "Massage Service",
-          "Gym/Physical Fitness Center"
+        "category_list": [
+          {
+            "id": "109578329118821",
+            "name": "Massage Service"
+          },
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          }
         ],
-        "email": "service@massage-ex.com",
-        "tel": "31132620"
+        "emails": [
+          "service@massage-ex.com"
+        ],
+        "website": "http://www.massage-ex.com"
       }
     },
     {

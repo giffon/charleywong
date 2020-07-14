@@ -8,13 +8,19 @@
     {
       "meta": {
         "id": "1549938858560059",
+        "username": "entrance.tsuenwan",
+        "name": "入麵 entrance",
         "about": "自家製台式拉麵在\"入麵\"",
-        "categories": [
-          "Local business"
+        "category_list": [
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          }
         ],
-        "addr": "Shop 151, 1/F, Kings Wing Plaza 1, 3 On Kwan St",
-        "area": "Hong Kong",
-        "email": "entranceshekmun@gmail.com"
+        "emails": [
+          "entranceshekmun@gmail.com"
+        ],
+        "single_line_address": "Shop 151, 1/F, Kings Wing Plaza 1, 3 On Kwan St, Hong Kong"
       },
       "url": "https://www.facebook.com/entrance.tsuenwan/"
     }

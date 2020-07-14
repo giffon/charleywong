@@ -7,10 +7,16 @@
     {
       "meta": {
         "id": "104946244332088",
+        "username": "waidaicompany",
+        "name": "偉大百貨公司",
         "about": "九龍坪石邨紅石樓120號",
-        "categories": [
-          "Shopping & retail"
-        ]
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
+        ],
+        "single_line_address": "清水灣道, Hong Kong"
       },
       "url": "https://www.facebook.com/waidaicompany/"
     }

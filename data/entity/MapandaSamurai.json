@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/MapandaSamurai/",
       "meta": {
-        "name": "まぱんだのテキトウ香港日記",
         "id": "387845971819050",
+        "username": "MapandaSamurai",
+        "name": "まぱんだのテキトウ香港日記",
         "about": "真熊猫{Mapanda)'嘅求其香港日記\nMapanda's Random Diary in Hong Kong",
-        "categories": [
-          "Personal Blog"
-        ]
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
+        ],
+        "website": "http://mapanda3.livedoor.blog"
       }
     },
     {

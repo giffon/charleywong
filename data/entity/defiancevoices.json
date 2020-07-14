@@ -10,12 +10,23 @@
     {
       "meta": {
         "id": "100525921473329",
-        "about": "我們即將出版兩本經典精裝書籍，一本是記錄攝影集誰衛我城，另一本是文宣藝術圖冊吶喊。我們希望製作這兩本具收藏價值的書籍，並把全數利潤撥捐慈善用途。",
-        "categories": [
-          "Book series",
-          "Book"
+        "username": "defiancevoices",
+        "name": "Defiance • Voices",
+        "about": "我們出版了兩本經典精裝書籍，一本是記錄攝影集誰衛我城，另一本是文宣藝術圖冊吶喊。",
+        "category_list": [
+          {
+            "id": "1300",
+            "name": "Book"
+          },
+          {
+            "id": "1309",
+            "name": "Book Series"
+          }
         ],
-        "email": "info@defiance-voices-hk.com"
+        "emails": [
+          "info@defiance-voices-hk.com"
+        ],
+        "website": "https://www.defiance-voices-hk.com/home-ch "
       },
       "url": "https://www.facebook.com/defiancevoices/"
     },

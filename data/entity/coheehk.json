@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "CoHee",
         "id": "451662288359044",
+        "username": "coheehk",
+        "name": "CoHee",
         "about": "CoHee is your one stop destination for everything you need for a good cup of specialty coffee.  We source the best coffee equipment around the globe.",
-        "categories": [
-          "Coffee Shop",
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "G/F, 152 Kam Tin Shi Street, Yuen Long",
-        "area": "Hong Kong",
-        "email": "cs@coheehk.com",
-        "tel": "94497310"
+        "emails": [
+          "cs@coheehk.com"
+        ],
+        "single_line_address": "G/F, 152 Kam Tin Shi Street, Yuen Long, Hong Kong",
+        "website": "http://www.coheehk.com"
       },
       "url": "https://www.facebook.com/coheehk/"
     },

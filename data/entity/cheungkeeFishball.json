@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/cheungkeeFishball/",
       "meta": {
-        "name": "興利祥記食品有限公司 - 陳皮魚蛋批發",
         "id": "357433771254785",
+        "username": "cheungkeeFishball",
+        "name": "興利祥記食品有限公司 - 陳皮魚蛋批發",
         "about": "專營 陳皮魚蛋 (又叫豉油皇魚蛋), 魚青。\n主要供應全港各區街市零售，餐廳食肆，街頭小食，年宵市場等等。",
-        "categories": [
-          "Food & Beverage Company"
+        "category_list": [
+          {
+            "id": "2252",
+            "name": "Food & Beverage Company"
+          }
         ],
-        "addr": "屯門青楊街8號得利工業中心地下1號鋪",
-        "area": "Tuen Mun",
-        "email": "fishball@hl-ck.com",
-        "tel": "53637765"
+        "emails": [
+          "fishball@hl-ck.com"
+        ],
+        "single_line_address": "屯門青楊街8號得利工業中心地下1號鋪, Tuen Mun",
+        "website": "http://www.hl-ck.com/"
       }
     }
   ],

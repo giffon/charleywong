@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/victorycyclingworkshop/",
       "meta": {
-        "name": "Victory Cycling Workshop",
         "id": "2174183656142280",
+        "username": "victorycyclingworkshop",
+        "name": "Victory Cycling Workshop",
         "about": "Our goal is simple ... giving you the best customer satisfaction possible. We are offering the services on pro-cycles, frames, components...etc.\n\nEnquiry: cs@victorycycling.com.hk\n\nFor any complaint, please email to complaint@victorycycling.com.hk",
-        "categories": [
-          "Sports",
-          "Bicycle Shop",
-          "Bicycle Repair Service"
+        "category_list": [
+          {
+            "id": "964585346994407",
+            "name": "Sports"
+          },
+          {
+            "id": "1278946312134253",
+            "name": "Bicycle Repair Service"
+          },
+          {
+            "id": "128003127270269",
+            "name": "Bicycle Shop"
+          }
         ],
-        "addr": "Flat O, G/F, Tai Chow House, 121 Quarry Bay Street, Quarry Bay.",
-        "area": "Hong Kong",
-        "email": "cs@victorycycling.com.hk",
-        "tel": "25787766"
+        "emails": [
+          "cs@victorycycling.com.hk"
+        ],
+        "single_line_address": "Flat O, G/F,  Tai Chow House, 121 Quarry Bay Street, Quarry Bay., North Point",
+        "website": "www.victorycycling.com.hk"
       }
     }
   ],

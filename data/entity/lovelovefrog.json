@@ -11,18 +11,29 @@
     {
       "url": "https://www.facebook.com/lovelovefrog/",
       "meta": {
-        "name": "Love Love FRoG 青蛙愛漫遊",
         "id": "125703084166307",
+        "username": "lovelovefrog",
+        "name": "Love Love FRoG 青蛙愛漫遊",
         "about": "喜歡青蛙的生活雜貨",
-        "categories": [
-          "Retail Company",
-          "Product/Service",
-          "Design & Fashion"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          }
         ],
-        "addr": "香港九龍荔枝角青山道648號豐華工業大廈C座1樓C5鋪",
-        "area": "Hong Kong",
-        "email": "lovelovefrogshop@gmail.com",
-        "tel": "66049509"
+        "emails": [
+          "lovelovefrogshop@gmail.com"
+        ],
+        "single_line_address": "香港九龍荔枝角青山道648號豐華工業大廈C座1樓C5鋪, Hong Kong",
+        "website": "http://www.lovelovefrog.store"
       }
     },
     {

@@ -8,16 +8,20 @@
     {
       "url": "https://www.facebook.com/clevermaid/",
       "meta": {
-        "name": "醒目僱傭 Clever Maid Employment Center",
         "id": "1491266987785424",
+        "username": "clevermaid",
+        "name": "醒目僱傭 Clever Maid Employment Center",
         "about": "醒目僱傭中心\n專營菲傭印傭\nLicense#:\n勞工處網址：www.labour.gov.hk",
-        "categories": [
-          "Employment Agency"
+        "category_list": [
+          {
+            "id": "124814294258910",
+            "name": "Employment Agency"
+          }
         ],
-        "addr": "Block B, 1/F, Block B, Wah Shing Building, 82-84 Hau Tei Square",
-        "area": "852 Tsuen Wan, Hong Kong",
-        "email": "clevermaid@yahoo.com.hk",
-        "tel": "24921169"
+        "emails": [
+          "clevermaid@yahoo.com.hk"
+        ],
+        "single_line_address": "Block B, 1/F, Block B, Wah Shing Building, 82-84 Hau Tei Square, 852 Tsuen Wan, Hong Kong"
       }
     }
   ],

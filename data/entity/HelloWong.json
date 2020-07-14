@@ -6,13 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "Hello Wong",
         "id": "506169139491160",
+        "username": "HelloWong",
+        "name": "Hello Wong",
         "about": "skihalo@gmail.com\ni am a freelance graphic designer & illustrator :)\n純粹懶灰諧,太認真既人唔啱睇\n畫想畫既畫,輕鬆看待每件事",
-        "categories": [
-          "Artist"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "skihalo@gmail.com"
+        "emails": [
+          "skihalo@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/HelloWong/"
     },

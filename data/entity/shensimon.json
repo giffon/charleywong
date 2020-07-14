@@ -10,13 +10,21 @@
     },
     {
       "meta": {
-        "name": "堅離地城：沈旭暉國際生活台 Simon's Glos World",
         "id": "223783954322429",
+        "username": "shensimon",
+        "name": "堅離地城：沈旭暉國際生活台 Simon's Glos World",
         "about": "閱讀國際關係、喜愛生活品味、遊走不同國度的離地中產，分享衣食住行、電影音樂的國際視野，探討未來國際關係產業化之道。商業合作請聯絡simonshen@glos.world。",
-        "categories": [
-          "Author"
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          }
         ],
-        "email": "simonshen@glos.world"
+        "emails": [
+          "simonshen@glos.world"
+        ],
+        "single_line_address": "香港中文大學",
+        "website": "https://simonshen.blog"
       },
       "url": "https://www.facebook.com/shensimon/"
     },

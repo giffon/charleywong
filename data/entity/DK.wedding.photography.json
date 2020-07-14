@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/DK.wedding.photography/",
       "meta": {
-        "name": "Danny Kwan Photography",
         "id": "105097126235052",
+        "username": "DK.wedding.photography",
+        "name": "Danny Kwan Photography",
         "about": "Danny Kwan, Hong Kong Photographer |Wedding Day|Pre-wedding|Photography|Local|Overseas|",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "Rm21, 10/F., Block A, Hi-Tech Industrial Centre, 5-21 Pak Tin Par Street (by Appointment)",
-        "area": "Tsuen Wan, Hong Kong",
-        "email": "info@dannykwanphotography.com",
-        "tel": "69012334"
+        "emails": [
+          "info@dannykwanphotography.com"
+        ],
+        "single_line_address": "Rm21, 10/F., Block A, Hi-Tech Industrial Centre, 5-21 Pak Tin Par Street (by Appointment), Tsuen Wan, Hong Kong",
+        "website": "https://dannykwanphotography.com"
       }
     },
     {

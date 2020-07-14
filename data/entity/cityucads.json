@@ -6,12 +6,20 @@
   "webpages": [
     {
       "meta": {
+        "id": "692188684166382",
+        "username": "cityucads",
+        "name": "香港城市大學學生會動漫畫同人誌",
         "about": "香港城市大學動漫畫同人誌",
-        "categories": [
-          "Community organisation"
+        "category_list": [
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          }
         ],
-        "email": "mangetsu201925@gmail.com",
-        "id": "692188684166382"
+        "emails": [
+          "mangetsu201925@gmail.com"
+        ],
+        "single_line_address": "City University of Hong Kong, Tat Chee Avenue, 000000 Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/cityucads/"
     },

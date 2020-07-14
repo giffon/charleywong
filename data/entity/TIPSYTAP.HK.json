@@ -7,18 +7,29 @@
     {
       "url": "https://www.facebook.com/TIPSYTAP.HK/",
       "meta": {
-        "name": "Tipsy Tap",
         "id": "1996849060643220",
+        "username": "TIPSYTAP.HK",
+        "name": "Tipsy Tap",
         "about": "A craft beer bar provide you 20 taps of best tasting craft beers from all around the world, giving you a cozy , social and relaxing environment to enjoy fresh beer",
-        "categories": [
-          "Beer Bar",
-          "Gastropub",
-          "Beer Garden"
+        "category_list": [
+          {
+            "id": "263451080680156",
+            "name": "Beer Bar"
+          },
+          {
+            "id": "203743122984241",
+            "name": "Beer Garden"
+          },
+          {
+            "id": "164049010316507",
+            "name": "Gastropub"
+          }
         ],
-        "addr": "G/F, 5 Austin Avenue",
-        "area": "Tsim Sha Tsui",
-        "email": "tipsytaphk@gmail.com",
-        "tel": "68829840"
+        "emails": [
+          "info@tipsytap.hk"
+        ],
+        "single_line_address": "G/F, 5 Austin Avenue, Tsim Sha Tsui",
+        "website": "http://www.tipsytap.hk"
       }
     },
     {

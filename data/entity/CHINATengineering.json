@@ -11,13 +11,19 @@
     {
       "url": "https://www.facebook.com/CHINATengineering/",
       "meta": {
-        "name": "中科工程 Chinat Engineering",
         "id": "103789731152199",
-        "categories": [
-          "Contractor"
+        "username": "CHINATengineering",
+        "name": "中科工程 Chinat Engineering",
+        "category_list": [
+          {
+            "id": "124816677590074",
+            "name": "Contractor"
+          }
         ],
-        "email": "info@chinat.hk",
-        "tel": "66005025"
+        "emails": [
+          "info@chinat.hk"
+        ],
+        "website": "www.chinat.hk"
       }
     }
   ],

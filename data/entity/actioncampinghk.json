@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "Action Camping 戶外露營用品店",
         "id": "1661453187432587",
+        "username": "actioncampinghk",
+        "name": "Action Camping 戶外露營用品店",
         "about": "ACTION CAMPING 專營各種戶外及各種露營產品。",
-        "categories": [
-          "Outdoor Equipment Store",
-          "Outdoor & Sporting Goods Company"
+        "category_list": [
+          {
+            "id": "153490828039067",
+            "name": "Outdoor Equipment Store"
+          },
+          {
+            "id": "2231",
+            "name": "Outdoor & Sporting Goods Company"
+          }
         ],
-        "addr": "旺角西洋菜街1A-1K百寶利商業中心1606室",
-        "area": "852 Mong Kok",
-        "email": "camping.action@gmail.com",
-        "tel": "37065963"
+        "emails": [
+          "camping.action@gmail.com"
+        ],
+        "single_line_address": "旺角西洋菜街1A-1K百寶利商業中心1606室, 852 Mong Kok",
+        "website": "www.actioncampinghk.com"
       },
       "url": "https://www.facebook.com/actioncampinghk/"
     },

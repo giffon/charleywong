@@ -8,16 +8,24 @@
     {
       "url": "https://www.facebook.com/alittlesomething.handcraft/",
       "meta": {
-        "name": "A little something 小意思",
         "id": "484712002066211",
-        "about": "金工工作室 / 創意首飾\n\n金工體驗工作坊，歡迎查詢。\n連結不同創作單位，創作首飾工藝。\n場內提供專業工具及工作間，可供不同程度朋友租用。",
-        "categories": [
-          "Arts & Crafts Store",
-          "Jewelry/Watches"
+        "username": "alittlesomething.handcraft",
+        "name": "A little something 小意思",
+        "about": "金工工作室 / 創意首飾\n\n金工體驗工作坊，歡迎查詢。\n連結不同創作單位，支持本土創作。",
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          }
         ],
-        "addr": "G/F, 180 Tai Nan Street, Sham Shui Po, Kowloon",
-        "area": "Hong Kong",
-        "email": "alittlesomething.handcraft@gmail.com"
+        "emails": [
+          "alittlesomething.handcraft@gmail.com"
+        ],
+        "single_line_address": "G/F, 180 Tai Nan Street, Sham Shui Po, Kowloon, Hong Kong"
       }
     },
     {

@@ -8,14 +8,18 @@
     {
       "url": "https://www.facebook.com/bythetray/",
       "meta": {
-        "name": "By the tray 盤子工房",
         "id": "1467767443367341",
+        "username": "bythetray",
+        "name": "By the tray 盤子工房",
         "about": "If you can take a bite of our hotdog, why not?",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "no.114, G/F, commercial block ( kin sang shopping centre, kin sang estate, tuen mun,",
-        "area": "Hong Kong"
+        "single_line_address": "no.114, G/F, commercial block ( kin sang shopping centre, kin sang estate, tuen mun,, Hong Kong",
+        "website": "https://www.facebook.com/bythetray/"
       }
     },
     {

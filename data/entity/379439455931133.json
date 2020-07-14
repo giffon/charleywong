@@ -8,14 +8,17 @@
     {
       "url": "https://www.facebook.com/379439455931133/",
       "meta": {
-        "name": "QualiChef 優廚食品",
         "id": "379439455931133",
-        "categories": [
-          "Food Wholesaler"
+        "name": "QualiChef 優廚食品",
+        "about": "本公司自製產品由優鮮食品有限公司提供\n公司電話: 3595-1232\n公司地址: 香港火炭黃竹洋街1-3號裕昌中心4樓B-C及M-P室\n食物製造廠牌照: 2997800315\n\n曉麗苑分店亦領有\"冰凍甜點許可證\"",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "觀塘曉麗苑商場220A&B店 (百佳對面)",
-        "area": "Kowloon, Hong Kong",
-        "tel": "51036292"
+        "single_line_address": "觀塘曉麗苑商場220A&B店 (百佳對面), 852 Kowloon, Hong Kong",
+        "website": "www.qualichef.store"
       }
     }
   ],

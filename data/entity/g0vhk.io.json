@@ -10,14 +10,24 @@
     {
       "url": "https://www.facebook.com/g0vhk.io/",
       "meta": {
-        "name": "g0vhk.io",
         "id": "1109497075736066",
+        "username": "g0vhk.io",
+        "name": "g0vhk.io",
         "about": "g0vhk.io受台灣「零時政府」（g0v.tw）的理念啟發。目的是透過技術解決社會問題，以項目形式推動社會進步。",
-        "categories": [
-          "Community",
-          "Non-Governmental Organization (NGO)"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          }
         ],
-        "email": "info@g0vhk.io"
+        "emails": [
+          "info@g0vhk.io"
+        ],
+        "website": "https://g0vhk.io"
       }
     },
     {

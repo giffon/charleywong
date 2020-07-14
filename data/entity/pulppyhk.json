@@ -10,12 +10,20 @@
     {
       "meta": {
         "id": "2201023303514204",
+        "username": "pulppyhk",
+        "name": "Pulppy HK",
         "about": "Pulppy寶碧 細心呵護你、在乎你!",
-        "categories": [
-          "Product/service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "info_hk@pulppy.com",
-        "tel": "24672173"
+        "emails": [
+          "info_hk@pulppy.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "www.pulppy.com"
       },
       "url": "https://www.facebook.com/pulppyhk/"
     }

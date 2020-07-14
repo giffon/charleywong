@@ -8,14 +8,15 @@
     {
       "url": "https://www.facebook.com/114059953356494/",
       "meta": {
-        "name": "The One Cut 一剪",
         "id": "114059953356494",
-        "categories": [
-          "Hair Salon"
+        "name": "The One Cut 一剪",
+        "category_list": [
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          }
         ],
-        "addr": "深水埗, 欽州街, 112號, 地鋪",
-        "area": "Kowloon, Hong Kong",
-        "tel": "65910662"
+        "single_line_address": "深水埗, 欽州街, 112號, 地鋪, Kowloon, Hong Kong"
       }
     },
     {

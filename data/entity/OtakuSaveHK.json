@@ -6,11 +6,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "Otaku Save HK",
         "id": "627485427745958",
+        "username": "OtakuSaveHK",
+        "name": "Otaku Save HK",
         "about": "一群關心社會的創作者結集而成。",
-        "categories": [
-          "Art"
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ]
       },
       "url": "https://www.facebook.com/OtakuSaveHK/"

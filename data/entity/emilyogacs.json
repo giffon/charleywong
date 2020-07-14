@@ -6,18 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "Emilyoga Concept Studio",
         "id": "1541025232792893",
-        "about": "Yoga is a way of life",
-        "categories": [
-          "Gym/Physical Fitness Center",
-          "Health & Wellness Website",
-          "Community Service"
+        "username": "emilyogacs",
+        "name": "Emilyoga Concept Studio",
+        "about": "Yoga is a way of life\n",
+        "category_list": [
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          },
+          {
+            "id": "2707",
+            "name": "Health & Wellness Website"
+          },
+          {
+            "id": "170968163319233",
+            "name": "Community Service"
+          }
         ],
-        "addr": "9/F, Jaffe Building, No. 520 Jaffe Road, Causeway Bay (CWB MTR exit D1)",
-        "area": "Hong Kong",
-        "email": "emilyogacs@gmail.com",
-        "tel": "52220450"
+        "emails": [
+          "emilyogacs@gmail.com"
+        ],
+        "single_line_address": "9/F, Jaffe Building, No. 520 Jaffe Road, Causeway Bay (CWB MTR exit D1), Hong Kong"
       },
       "url": "https://www.facebook.com/emilyogacs/"
     },

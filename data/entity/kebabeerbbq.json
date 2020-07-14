@@ -11,15 +11,18 @@
     {
       "url": "https://www.facebook.com/kebabeerbbq/",
       "meta": {
-        "name": "Kebabeer 串酒里燒烤專門店",
         "id": "174161686108658",
+        "username": "kebabeerbbq",
+        "name": "Kebabeer 串酒里燒烤專門店",
         "about": "訂座電話: 22345001\nWhatsapp訂座: 95099995\nIG: Kebabeer.bbq\n\n餐廳提供四川和日式串燒,選用高級和有特色食材,食品總類多元化,更設有路天坐位,極適合三五知己把酒暢談,歡度晚上時光",
-        "categories": [
-          "Japanese Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "山林道6號B舖",
-        "area": "852 Tsim Sha Tsui",
-        "tel": "95099995"
+        "single_line_address": "山林道6號B舖, 852 Tsim Sha Tsui",
+        "website": "http://www.openrice.com/restaurant/sr2.htm?shopid=147917"
       }
     },
     {

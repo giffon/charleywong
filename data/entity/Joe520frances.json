@@ -6,12 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "JOE's Bricks",
         "id": "837911323069541",
+        "username": "Joe520frances",
+        "name": "JOE's Bricks",
         "about": "Trying different building and creation by using bricks. Bricks are limited but not the art!",
-        "categories": [
-          "Interest"
-        ]
+        "category_list": [
+          {
+            "id": "1080612391976317",
+            "name": "Visual Arts"
+          }
+        ],
+        "website": "https://www.flickr.com/photos/78570952@N05/"
       },
       "url": "https://www.facebook.com/Joe520frances/"
     },

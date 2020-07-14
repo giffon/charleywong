@@ -6,15 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "Liberty Coffee & Wine",
         "id": "111943633476991",
-        "categories": [
-          "Coffee Shop"
+        "username": "libertycoffeewine",
+        "name": "Liberty Coffee & Wine",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "G/F, Tsui Yuen Mansion, 33 Waterlood Road, Phase 1, Yau Ma Tei",
-        "area": "00000 Hong Kong",
-        "email": "libertycoffeewine@gmail.com",
-        "tel": "93463698"
+        "emails": [
+          "libertycoffeewine@gmail.com"
+        ],
+        "single_line_address": "G/F, Tsui Yuen Mansion, 33 Waterlood Road, Phase 1, Yau Ma Tei, 00000 Hong Kong"
       },
       "url": "https://www.facebook.com/libertycoffeewine/"
     },

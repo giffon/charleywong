@@ -18,13 +18,22 @@
     {
       "url": "https://www.facebook.com/neofilmshk/",
       "meta": {
-        "name": "Neofilms 新映影片",
         "id": "165556903615781",
-        "about": "現在上映電影：\n《我們的7日戰爭》\n即將上映電影：\n4.30　《野種》\n5.7　《幪面超人令和 The First Generation》\n不日上映　《數碼暴龍 Last Evolution 絆》",
-        "categories": [
-          "Movie/Television Studio",
-          "Movie"
-        ]
+        "username": "neofilmshk",
+        "name": "Neofilms 新映影片",
+        "about": "現在上映電影：\n《數碼暴龍 Last Evolution 絆》\n《劇場版 不起眼女主角培育法 Fine》\n《來自深淵：深沉靈魂的黎明》\n\n即將上映電影：\n7.23　《鳴鳥不飛 The clouds gather》",
+        "category_list": [
+          {
+            "id": "370369022981015",
+            "name": "Movie/Television Studio"
+          },
+          {
+            "id": "1105",
+            "name": "Movie"
+          }
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://www.neofilms.com.hk"
       }
     },
     {

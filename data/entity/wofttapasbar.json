@@ -14,18 +14,29 @@
     {
       "url": "https://www.facebook.com/wofttapasbar/",
       "meta": {
-        "name": "WOFT",
         "id": "1585403935054696",
-        "about": "<<WOFT>>\n地址: 旺角染布房街7-8D地下 (旺角地鐵站E2出口, 安安燒隔離)\n電話 2116 1786 / 6681 7376 (Whatsapp)\n營業時間: 17:00 - 03:00",
-        "categories": [
-          "Gastropub",
-          "Bar",
-          "Tapas Bar & Restaurant"
+        "username": "wofttapasbar",
+        "name": "WOFT",
+        "about": "<<WOFT>>\n地址: 旺角染布房街7-8D地下 (旺角地鐵站E2出口, 安安燒隔離)\n電話 2116 1786 / 6681 7376 (Whatsapp)\n訂座 / 外賣 WhatsApp專線: 6686 7237 (專線回覆時間為12pm-2am)\n營業時間: 17:00 - 03:00",
+        "category_list": [
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          },
+          {
+            "id": "119869574758000",
+            "name": "Tapas Bar & Restaurant"
+          },
+          {
+            "id": "164049010316507",
+            "name": "Gastropub"
+          }
         ],
-        "addr": "SHOP 7&8D, G/F, WAH LOK BUILDING, 6-8 YIM PO FONG STREET, MONG KOK, KOWLOON.",
-        "area": "Hong Kong",
-        "email": "woftbar@gmail.com",
-        "tel": "21161786"
+        "emails": [
+          "woftbar@gmail.com"
+        ],
+        "single_line_address": "SHOP 7&8D, G/F, WAH LOK BUILDING, 6-8 YIM PO FONG STREET, MONG KOK, KOWLOON., Hong Kong",
+        "website": "http://onondining.com"
       }
     }
   ],

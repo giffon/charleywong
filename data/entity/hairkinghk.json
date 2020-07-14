@@ -18,18 +18,29 @@
     {
       "url": "https://www.facebook.com/hairkinghk/",
       "meta": {
-        "name": "髮記 Hair King",
         "id": "201838370545984",
+        "username": "hairkinghk",
+        "name": "髮記 Hair King",
         "about": "髮記-一家創於香港的髮型用品專門店。我們用心經營，所有關於頭髮的產品，從護髮、美髮、髮型顏色到造型產品都應有盡有。精挑細選所有產品，質量絕對有保證！",
-        "categories": [
-          "Shopping & Retail",
-          "Health/Beauty",
-          "Beauty, Cosmetic & Personal Care"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "addr": "西九龍中心7樓718號舖",
-        "area": "HK Sham Shui Po",
-        "email": "138hairking@gmail.com",
-        "tel": "67289328"
+        "emails": [
+          "138hairking@gmail.com"
+        ],
+        "single_line_address": "西九龍中心7樓718號舖, HK Sham Shui Po",
+        "website": "https://www.hairking.hk/"
       }
     },
     {

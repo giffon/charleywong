@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/tugochengphotography/",
       "meta": {
-        "name": "TUGO CHENG Photography",
         "id": "760456077398711",
+        "username": "tugochengphotography",
+        "name": "TUGO CHENG Photography",
         "about": "•National Geographic Award-Winning Photographer •International Discovery 2016 •Perspective 40-under-40 Artist •Prints available@Blue Lotus Gallery Hong Kong",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "info@tugocheng.com"
+        "emails": [
+          "info@tugocheng.com"
+        ],
+        "website": "https://www.tugocheng.com/media"
       }
     },
     {

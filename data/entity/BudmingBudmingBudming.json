@@ -10,25 +10,37 @@
     },
     {
       "meta": {
-        "name": "畢明 budming",
         "id": "829867253710456",
+        "username": "BudmingBudmingBudming",
+        "name": "畢明 budming",
         "about": "廣告人傳媒人，賣腦賣字，寫電影寫酒，＠蘋果日報、am730、明周、飲食男女等寫專欄那個傻瓜，現在是導演。",
-        "categories": [
-          "Writer"
-        ]
+        "category_list": [
+          {
+            "id": "1109",
+            "name": "Writer"
+          }
+        ],
+        "website": "http://budming.wordpress.com/"
       },
       "url": "https://www.facebook.com/BudmingBudmingBudming/"
     },
     {
       "url": "https://www.facebook.com/BudmingBudming/",
       "meta": {
-        "name": "畢明",
         "id": "150268951716958",
+        "username": "BudmingBudming",
+        "name": "畢明",
         "about": "廣告人傳媒人，賣腦賣字，寫電影寫酒，＠蘋果日報、am730、明周、飲食男女等寫專欄那個傻瓜，現在是導演。",
-        "categories": [
-          "Writer"
+        "category_list": [
+          {
+            "id": "1109",
+            "name": "Writer"
+          }
         ],
-        "email": "budming@yahoo.com"
+        "emails": [
+          "budming@yahoo.com"
+        ],
+        "website": "https://budming.wordpress.com/"
       }
     },
     {

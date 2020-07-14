@@ -11,40 +11,48 @@
     {
       "url": "https://www.facebook.com/udon.hk/",
       "meta": {
-        "name": "鰹烏冬 Katsuo Udon　讃岐烏龍製麺所",
         "id": "1816601795254048",
-        "about": "觀塘開源道60號駱駝漆大廈3座11樓 O室    \n星期一至三   12nn-5pm\n星期四，六   12nn-9pm\n星期五           12nn-10pm\n\n長沙灣元州街450號寶華閣地下4號舖   \n星期一至日  11:30am-10:00pm",
-        "categories": [
-          "Udon Restaurant"
+        "username": "udon.hk",
+        "name": "鰹烏冬 Katsuo Udon　讃岐烏龍製麺所",
+        "about": "觀塘開源道60號駱駝漆大廈3座11樓 O室    \n星期一至三   12nn-5pm\n星期四，六   12nn-9pm\n星期五           12nn-10pm\nTEL: 52262241\n\n長沙灣元州街450號寶華閣地下4號舖   \n星期一至日  11:30am-10:00pm  \nTEL: 23202264",
+        "category_list": [
+          {
+            "id": "513113918897829",
+            "name": "Udon Restaurant"
+          }
         ],
-        "email": "katsuoudon@udon.com.hk",
-        "tel": "52262241"
+        "emails": [
+          "katsuoudon@udon.com.hk"
+        ],
+        "website": "http://www.udon.com.hk"
       }
     },
     {
       "url": "https://www.facebook.com/1060247327459062/",
       "meta": {
-        "name": "鰹烏冬 Katsuo Udon　讃岐烏龍製麺所 (鰹烏冬-觀塘)",
         "id": "1060247327459062",
-        "categories": [
-          "Udon Restaurant"
+        "name": "鰹烏冬 Katsuo Udon　讃岐烏龍製麺所",
+        "category_list": [
+          {
+            "id": "513113918897829",
+            "name": "Udon Restaurant"
+          }
         ],
-        "addr": "觀塘開源道60號駱駝漆大廈3座11樓 O室",
-        "area": "Kwun Tong",
-        "tel": "52262241"
+        "single_line_address": "觀塘開源道60號駱駝漆大廈3座11樓 O室, Kwun Tong"
       }
     },
     {
       "url": "https://www.facebook.com/2144717439149887/",
       "meta": {
-        "name": "鰹烏冬 Katsuo Udon　讃岐烏龍製麺所 (鰹烏冬-長沙灣)",
         "id": "2144717439149887",
-        "categories": [
-          "Udon Restaurant"
+        "name": "鰹烏冬 Katsuo Udon　讃岐烏龍製麺所",
+        "category_list": [
+          {
+            "id": "513113918897829",
+            "name": "Udon Restaurant"
+          }
         ],
-        "addr": "元州街450/464號寶華閣地下4號舖",
-        "area": "Cheung Sha Wan, Hong Kong",
-        "tel": "52262241"
+        "single_line_address": "元州街450/464號寶華閣地下4號舖, Cheung Sha Wan, Hong Kong"
       }
     }
   ],

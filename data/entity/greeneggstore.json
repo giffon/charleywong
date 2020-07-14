@@ -17,14 +17,25 @@
     {
       "url": "https://www.facebook.com/greeneggstore/",
       "meta": {
-        "name": "Green Egg Store",
         "id": "896336163770079",
-        "categories": [
-          "Product/Service",
-          "Retail Company"
+        "username": "greeneggstore",
+        "name": "Green Egg Store",
+        "about": "植物｜花藝｜選物",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "email": "sayhello@greeneggstore.co",
-        "tel": "92015598"
+        "emails": [
+          "sayhello@greeneggstore.co"
+        ],
+        "single_line_address": "威靈頓街55號, Central, Hong Kong",
+        "website": "https://www.greeneggstore.co"
       }
     }
   ],

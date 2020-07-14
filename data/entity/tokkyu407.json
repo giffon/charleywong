@@ -17,17 +17,24 @@
     {
       "url": "https://www.facebook.com/575666649140175/",
       "meta": {
-        "name": "特急407 - 生活情趣精品館",
         "id": "575666649140175",
+        "name": "特急407 - 生活情趣精品館",
         "about": "日本成人用品專賣店, 過千款情趣商品, 產品緊貼日本歐美, 最快即日到貨, 運費全免\n\nInstagram:tokkyu407",
-        "categories": [
-          "Shopping & Retail",
-          "Adult Entertainment Service"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "187623434605561",
+            "name": "Adult Entertainment Service"
+          }
         ],
-        "addr": "旺角西洋菜南街1N號兆萬中心4樓407號舖",
-        "area": "852 Hong Kong",
-        "email": "info@tokkyu407.com",
-        "tel": "69054678"
+        "emails": [
+          "info@tokkyu407.com"
+        ],
+        "single_line_address": "旺角西洋菜南街1N號兆萬中心4樓407號舖, 852 Hong Kong",
+        "website": "http://www.tokkyu407.com"
       }
     }
   ],

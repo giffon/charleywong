@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Café Corridor",
         "id": "185341221498643",
+        "username": "cafecorridor",
+        "name": "Café Corridor",
         "about": "A passage to the coffee world since 2001.",
-        "categories": [
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "G/F, 26A Russell Street, Causeway Bay",
-        "area": "Causeway Bay",
-        "email": "info@cafecorridor.hk",
-        "tel": "28922927"
+        "emails": [
+          "info@cafecorridor.hk"
+        ],
+        "single_line_address": "G/F, 26A Russell Street, Causeway Bay, Causeway Bay",
+        "website": "http://www.openrice.com/restaurant/sr2.htm?shopid=10246"
       },
       "url": "https://www.facebook.com/cafecorridor/"
     },

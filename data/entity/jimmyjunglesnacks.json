@@ -17,15 +17,20 @@
     {
       "url": "https://www.facebook.com/jimmyjunglesnacks/",
       "meta": {
-        "name": "Jimmy Jungle",
         "id": "101341284739985",
+        "username": "jimmyjunglesnacks",
+        "name": "Jimmy Jungle",
         "about": "Jimmy Jungle，一間由幾個90後創立的零食網店",
-        "categories": [
-          "Hong Kong Restaurant",
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "jimmyjungle.hk@gmail.com",
-        "tel": "46114784"
+        "emails": [
+          "jimmyjungle.hk@gmail.com"
+        ],
+        "website": "jimmyjungle.online"
       }
     }
   ],

@@ -10,16 +10,29 @@
     {
       "url": "https://www.facebook.com/gazjewelleryandaccessories/",
       "meta": {
-        "name": "GaZ Jewellery",
         "id": "122625455352",
+        "username": "gazjewelleryandaccessories",
+        "name": "GaZ Jewellery",
         "about": "Offers one-of-a-kind handmade jewellery from all over the world\nAddress: Shop 425, P4, WTC More, 280 Gloucester Rd., Causeway Bay, HK",
-        "categories": [
-          "Jewelry/Watches",
-          "Gift Shop",
-          "Jewelry & Watches Store"
+        "category_list": [
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          },
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          },
+          {
+            "id": "188031587886173",
+            "name": "Jewelry & Watches Store"
+          }
         ],
-        "email": "info@gaz.com.hk",
-        "tel": "28930082"
+        "emails": [
+          "info@gaz.com.hk"
+        ],
+        "single_line_address": "Shop 425, Podium 4, WTC More (World Trade Centre), 280 Gloucester Road, Causeway Bay",
+        "website": "https://gazjewelleryandaccessories.boutir.com/"
       }
     },
     {

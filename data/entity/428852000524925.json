@@ -8,14 +8,15 @@
     {
       "url": "https://www.facebook.com/428852000524925/",
       "meta": {
-        "name": "Prince Animal Clinic 太子動物醫療診所",
         "id": "428852000524925",
-        "categories": [
-          "Veterinarian"
+        "name": "Prince Animal Clinic 太子動物醫療診所",
+        "category_list": [
+          {
+            "id": "162068413843305",
+            "name": "Veterinarian"
+          }
         ],
-        "addr": "G/F, 75, Lai Chi Kok Road, Kowloon. Hong Kong",
-        "area": "Hong Kong",
-        "tel": "23808408"
+        "single_line_address": "G/F, 75, Lai Chi Kok Road, Kowloon. Hong Kong, Hong Kong"
       }
     }
   ],

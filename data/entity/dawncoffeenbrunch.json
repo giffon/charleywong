@@ -6,17 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Dawn",
         "id": "887735904892298",
+        "username": "dawncoffeenbrunch",
+        "name": "Dawn",
         "about": "Work Hard \nTo Make You Feel Special \nCoffee & Australian-style brunch",
-        "categories": [
-          "Coffee Shop",
-          "Breakfast & Brunch Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          }
         ],
-        "addr": "233 Fa Yuen Street, Edmund's Mansion, G/F, Shop A",
-        "area": "Hong Kong",
-        "email": "dawnbrunchncoffee@gmail.com",
-        "tel": "25699918"
+        "emails": [
+          "dawnbrunchncoffee@gmail.com"
+        ],
+        "single_line_address": "233 Fa Yuen Street, Edmund's Mansion, G/F, Shop A, Hong Kong"
       },
       "url": "https://www.facebook.com/dawncoffeenbrunch/"
     },

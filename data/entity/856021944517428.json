@@ -7,15 +7,16 @@
     {
       "url": "https://www.facebook.com/856021944517428/",
       "meta": {
-        "name": "花園街老字號床上用品專賣店",
         "id": "856021944517428",
+        "name": "花園街老字號床上用品專賣店",
         "about": "全棉床笠、被套呎碼齊全，由2.5尺至6尺，款式繁多；\n另有賣便宜床笠3尺連枕袋只售$38，$100/3套，超經濟～",
-        "categories": [
-          "Mattress Store"
+        "category_list": [
+          {
+            "id": "191990114153751",
+            "name": "Mattress Store"
+          }
         ],
-        "addr": "花園街127A號門外(10號至11號排檔)",
-        "area": "852 Hong Kong",
-        "tel": "68877169"
+        "single_line_address": "花園街127A號門外(10號至11號排檔), 852 Hong Kong"
       }
     }
   ],

@@ -10,11 +10,19 @@
     {
       "meta": {
         "id": "226589811220334",
+        "username": "digdeepgaming",
+        "name": "DigDeep",
         "about": "DigDeep was founded in 2017. We are a dedicated team of developers, designers, artists, programmers, and most importantly the passion of gaming.",
-        "categories": [
-          "Video game"
+        "category_list": [
+          {
+            "id": "211579738882707",
+            "name": "Video Game"
+          }
         ],
-        "email": "contact@digdeep-gaming.com"
+        "emails": [
+          "contact@digdeep-gaming.com"
+        ],
+        "website": "www.digdeep-gaming.com"
       },
       "url": "https://www.facebook.com/digdeepgaming/"
     }

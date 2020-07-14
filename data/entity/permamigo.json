@@ -10,13 +10,21 @@
     {
       "url": "https://www.facebook.com/permamigo/",
       "meta": {
-        "name": "綠續友徠。荔枝窩",
         "id": "866149413482236",
+        "username": "permamigo",
+        "name": "綠續友徠。荔枝窩",
         "about": "綠色生活、樸門永續耕作、交朋結友、以廣徠徠",
-        "categories": [
-          "Health & Wellness Website"
+        "category_list": [
+          {
+            "id": "2707",
+            "name": "Health & Wellness Website"
+          }
         ],
-        "email": "adleyandmaria@gmail.com"
+        "emails": [
+          "adleyandmaria@gmail.com"
+        ],
+        "single_line_address": "荔枝窩 Lai Chi Wo, 香港",
+        "website": "http://permamigo.blogspot.com"
       }
     }
   ],

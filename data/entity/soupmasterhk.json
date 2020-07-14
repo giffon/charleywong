@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/soupmasterhk/",
       "meta": {
-        "name": "大湯家 燉湯專門店",
         "id": "983761841965311",
+        "username": "soupmasterhk",
+        "name": "大湯家 燉湯專門店",
         "about": "原盅燉湯\n真材實料\n絕無味精\n\n\n\n\n\n\n\n本店已持有食物製造廠牌照 （2951811245）",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "觀塘開源道63號福昌大廈地下a01舖",
-        "area": "Kowloon, Hong Kong",
-        "tel": "55022462"
+        "single_line_address": "觀塘開源道63號福昌大廈地下a01舖, Kowloon, Hong Kong"
       }
     }
   ],

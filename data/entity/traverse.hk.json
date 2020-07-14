@@ -6,14 +6,27 @@
   "webpages": [
     {
       "meta": {
+        "id": "415568095274023",
+        "username": "traverse.hk",
+        "name": "TRAVERSE",
         "about": "手作 / 設計 / 輕量化裝備 / 登山露營 / 菲林 / Fujifilm instax WIDE 300 / Fujifilm Klasse W",
-        "categories": [
-          "Outdoor and sporting goods company",
-          "Mountain",
-          "Outdoor equipment shop"
+        "category_list": [
+          {
+            "id": "2231",
+            "name": "Outdoor & Sporting Goods Company"
+          },
+          {
+            "id": "153490828039067",
+            "name": "Outdoor Equipment Store"
+          },
+          {
+            "id": "194201147294761",
+            "name": "Mountain"
+          }
         ],
-        "email": "traversehk@gmail.com",
-        "id": "415568095274023"
+        "emails": [
+          "traversehk@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/traverse.hk/"
     }

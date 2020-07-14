@@ -7,18 +7,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "木碎好少年Chipgoodguy Studio",
         "id": "168720643843558",
+        "username": "chipgoodguy",
+        "name": "木碎好少年Chipgoodguy Studio",
         "about": "發展原則   Crazy about art  Passionate about culture   禁止通宵工作  食飯要飽肚   收錢先開工",
-        "categories": [
-          "Carpenter",
-          "Visual Arts",
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "180833545285725",
+            "name": "Carpenter"
+          },
+          {
+            "id": "1080612391976317",
+            "name": "Visual Arts"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "addr": "觀塘偉業街137號泛亞中心8樓802室",
-        "area": "Kowloon, Hong Kong",
-        "email": "chipgoodguy@gmail.com",
-        "tel": "70711874"
+        "emails": [
+          "chipgoodguy@gmail.com"
+        ],
+        "single_line_address": "觀塘偉業街137號泛亞中心8樓802室, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/chipgoodguy/"
     },

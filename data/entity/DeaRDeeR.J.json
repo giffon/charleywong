@@ -10,15 +10,21 @@
     {
       "url": "https://www.facebook.com/DeaRDeeR.J/",
       "meta": {
-        "name": "鹿途中旅遊書店",
         "id": "202252633126946",
-        "about": "要麼讀書、要麼旅行，靈魂和身體，總有一個需要在路上．．．\n\n鹿途中旅遊書店提供您最新版的旅遊書租,售及雜貨飲品",
-        "categories": [
-          "Independent Bookstore"
+        "username": "DeaRDeeR.J",
+        "name": "鹿途中旅遊書店",
+        "about": "要麼讀書、要麼旅行，靈魂和身體，總有一個需要在路上．．．\n\n鹿途中旅遊書店提供您最新版的旅遊書租,售及雜貨飲品\n",
+        "category_list": [
+          {
+            "id": "387228845011016",
+            "name": "Independent Bookstore"
+          }
         ],
-        "addr": "台北市信義區嘉興街28號",
-        "area": "Taipei, Taiwan",
-        "email": "deardeer110517@yahoo.com"
+        "emails": [
+          "deardeer110517@yahoo.com"
+        ],
+        "single_line_address": "台北市信義區嘉興街28號, Taipei, Taiwan 110",
+        "website": "http://deardeer.strikingly.com/"
       }
     },
     {

@@ -11,13 +11,23 @@
       "url": "https://www.facebook.com/icompasshk/",
       "meta": {
         "id": "314741619418934",
+        "username": "icompasshk",
+        "name": "iCompass",
         "about": "iCompass\nGuide the field of intelligent",
-        "categories": [
-          "News & Media Website",
-          "Magazine"
+        "category_list": [
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          },
+          {
+            "id": "1307",
+            "name": "Magazine"
+          }
         ],
-        "email": "info@icompass.com.hk",
-        "tel": "66969990"
+        "emails": [
+          "info@icompass.com.hk"
+        ],
+        "website": "www.icompass.com.hk"
       }
     },
     {

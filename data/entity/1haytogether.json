@@ -11,16 +11,22 @@
     {
       "url": "https://www.facebook.com/1haytogether/",
       "meta": {
-        "name": "Together．一囍",
         "id": "151942648167468",
+        "username": "1haytogether",
+        "name": "Together．一囍",
         "about": "Preserve your delightful moments of your wedding everlastingly by warmth and hue",
-        "categories": [
-          "Camera/Photo",
-          "Photographer"
+        "category_list": [
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          },
+          {
+            "id": "2208",
+            "name": "Camera/Photo"
+          }
         ],
-        "addr": "Room 2811 Trendy Centre 682 Castle Peak Road Lai Chi Kwok",
-        "area": "Kowloon, Hong Kong",
-        "tel": "98389502"
+        "single_line_address": "Room 2811 Trendy Centre 682 Castle Peak Road Lai Chi Kwok, Kowloon, Hong Kong",
+        "website": "http://www.1haytogether.com"
       }
     },
     {

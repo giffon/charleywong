@@ -16,13 +16,20 @@
     },
     {
       "meta": {
-        "name": "癲佬音樂 deenlomusic",
         "id": "113780986668024",
+        "username": "deenlomusic",
+        "name": "癲佬音樂 deenlomusic",
         "about": "癲佬一個。",
-        "categories": [
-          "Musician"
+        "category_list": [
+          {
+            "id": "1335670856447673",
+            "name": "Musician"
+          }
         ],
-        "email": "deenlomusic@gmail.com"
+        "emails": [
+          "deenlomusic@gmail.com"
+        ],
+        "website": "www.youtube.com/watch?v=W7AZdzXXJQc"
       },
       "url": "https://www.facebook.com/deenlomusic/"
     }

@@ -11,18 +11,29 @@
     {
       "url": "https://www.facebook.com/ineverusefoundation/",
       "meta": {
-        "name": "I Never Use Foundation Breakfast Club 我從不上粉早餐會",
         "id": "550134331690682",
-        "about": "我們主打皮膚及身心靈健康，保證所有產品一定先以良心出發，且必須對人體，動物及環境無害 。\n\"Be the BEST version of You!\"",
-        "categories": [
-          "Health/Beauty",
-          "Skin Care Service",
-          "Health Spa"
+        "username": "ineverusefoundation",
+        "name": "I Never Use Foundation Breakfast Club 我從不上粉早餐會",
+        "about": "我們主打皮膚及身心靈健康，保證所有產品一定先以良心出發，且必須對人體，動物及環境無害 。\n\"Be the BEST version of You!\" ",
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "1644814599176740",
+            "name": "Skin Care Service"
+          },
+          {
+            "id": "211987392145473",
+            "name": "Health Spa"
+          }
         ],
-        "addr": "21F MW Plaza, 40 Kimberley Road",
-        "area": "00000 Tsim Sha Tsui",
-        "email": "info@inufskincare.com",
-        "tel": "39040390"
+        "emails": [
+          "info@inufskincare.com"
+        ],
+        "single_line_address": "21F MW Plaza, 40 Kimberley Road, 00000 Tsim Sha Tsui",
+        "website": "http://www.inufskincare.com"
       }
     }
   ],

@@ -6,14 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "啡聞",
         "id": "288339544656362",
+        "username": "coffeeder",
+        "name": "啡聞",
         "about": "「啡聞」正式成立於2018年,由前身首個香港咖啡網誌《啡聞遊記》衍生出來的咖啡媒體。透過咖啡人、事、物，把香港咖啡文化普及和融入在日常生活中。\n「啡聞」-以期刊形式出版。",
-        "categories": [
-          "Magazine"
+        "category_list": [
+          {
+            "id": "1307",
+            "name": "Magazine"
+          }
         ],
-        "email": "info@coffeeder.co",
-        "tel": "55717267"
+        "emails": [
+          "info@coffeeder.co"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://www.coffeeder.co/"
       },
       "url": "https://www.facebook.com/coffeeder/"
     },

@@ -16,12 +16,25 @@
     },
     {
       "meta": {
-        "name": "貓叔meowsuk",
         "id": "124438280986408",
+        "username": "unclecato",
+        "name": "貓叔meowsuk",
         "about": "多多指教！放片上youtube只為「分享」。喜歡請Like一下。想繼續收睇記得訂閱哦!",
-        "categories": [
-          "Personal Website"
-        ]
+        "category_list": [
+          {
+            "id": "1350536325044173",
+            "name": "Gaming Video Creator"
+          },
+          {
+            "id": "1615",
+            "name": "Designer"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
+        ],
+        "website": "https://www.youtube.com/user/catosze/"
       },
       "url": "https://www.facebook.com/unclecato/"
     }

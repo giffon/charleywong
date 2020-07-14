@@ -6,17 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "好鄰舍北區教會",
         "id": "1561265357501167",
-        "about": "北區會址： 粉嶺聯和墟聯發街32號地鋪\n北區週六晚堂︰逢星期六 4:30PM-6:00PM成人崇拜\n北區週日早堂：逢星期日11：00am-12：30pm\n\n九龍週日：逢星期日11am-12：30pm",
-        "categories": [
-          "Religious Organization",
-          "Christian Church"
+        "username": "GoodNeighbournd",
+        "name": "好鄰舍北區教會",
+        "about": "成人崇拜\n北區會址： 粉嶺聯和墟聯發街32號地鋪\n北區週六晚堂︰逢星期六 5:30PM-7:00PM\n北區週日早堂：逢星期日11:00AM-12:30PM\n\n九龍會址：觀塘寧晉中心16樓G室\n九龍週日：逢星期日11:00AM-12:30PM\n\n ",
+        "category_list": [
+          {
+            "id": "187714557925874",
+            "name": "Religious Organization"
+          }
         ],
-        "addr": null,
-        "area": "粉嶺聯和墟聯發街32號地下",
-        "email": "goodneighbournd@gmail.com",
-        "tel": "28062766"
+        "emails": [
+          "goodneighbournd@gmail.com"
+        ],
+        "single_line_address": "粉嶺聯和墟聯發街32號地下"
       },
       "url": "https://www.facebook.com/GoodNeighbournd/"
     },

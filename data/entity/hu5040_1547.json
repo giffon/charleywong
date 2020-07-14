@@ -15,22 +15,30 @@
     {
       "url": "https://www.facebook.com/879441852142390/",
       "meta": {
-        "name": "Hong Kong Buses",
         "id": "879441852142390",
+        "name": "Hong Kong Buses",
         "about": "HU5040 苦心經營中\n歡迎follow �",
-        "categories": [
-          "Podcast"
-        ]
+        "category_list": [
+          {
+            "id": "627651640670228",
+            "name": "Podcast"
+          }
+        ],
+        "website": "http://m.youtube.com/channel/UCzrOM6JbqTRdWO71alRCYXA"
       }
     },
     {
       "meta": {
-        "name": "Hu5040 Photo Gallery",
         "id": "1792395134198699",
-        "about": "YouTube: HongKong Buses\nFacebook page: HongKong Buses\nFacebook photo: Hu5040 photo gallery\nInstagram: hu5040_1547\nFacebook: Henry Yeung",
-        "categories": [
-          "Personal Blog"
-        ]
+        "name": "Hu5040 Photo Gallery",
+        "about": "YouTube: HongKong Buses\nFacebook page: HongKong Buses\nFacebook photo: Hu5040 photo gallery \nInstagram: hu5040_1547\nFacebook: Henry Yeung \n",
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
+        ],
+        "website": "https://www.youtube.com/channel/UCzrOM6JbqTRdWO71alRCYXA"
       },
       "url": "https://www.facebook.com/1792395134198699/"
     },

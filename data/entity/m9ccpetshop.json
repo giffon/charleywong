@@ -17,16 +17,29 @@
     {
       "url": "https://www.facebook.com/m9ccpetshop/",
       "meta": {
-        "name": "M9cc寵物用品+寵物接送",
         "id": "228195744289357",
+        "username": "m9ccpetshop",
+        "name": "M9cc寵物用品+寵物接送",
         "about": "M9CC 寵物用品,寵物接送\n查詢訂購whatsapp:96659399\n寵物接送查詢預約:95454747\n\n星期一至六  12:00-20:00\n**星期日及公眾假期休息**",
-        "categories": [
-          "Pet Supplies",
-          "Pet Store",
-          "Pet Service"
+        "category_list": [
+          {
+            "id": "2230",
+            "name": "Pet Supplies"
+          },
+          {
+            "id": "188573091164316",
+            "name": "Pet Store"
+          },
+          {
+            "id": "144982405562750",
+            "name": "Pet Service"
+          }
         ],
-        "email": "info@m9cc.com.hk",
-        "tel": "96659399"
+        "emails": [
+          "info@m9cc.com.hk"
+        ],
+        "single_line_address": "山尾街43-47號環球工業中心814室, Sha Tin, Hong Kong",
+        "website": "http://www.m9cc.com.hk/"
       }
     }
   ],

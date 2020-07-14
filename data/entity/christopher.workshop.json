@@ -7,16 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "飛龍咖啡",
         "id": "1705774392997011",
+        "name": "飛龍咖啡",
         "about": "飛龍咖啡，提供多元化學習興趣班，包括咖啡拉花、立體啫喱花蛋糕、手工卡通曲奇、韓式裱花等等。歡迎學校機構、公司團體及親子家庭 包班上課及到外服務等 歡迎報價查詢。",
-        "categories": [
-          "Coffee Shop",
-          "Business Service"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          }
         ],
-        "addr": "太子界限街23A1地鋪",
-        "area": "Hong Kong",
-        "tel": "64105151"
+        "single_line_address": "太子界限街23A1地鋪, Hong Kong"
       },
       "url": "https://www.facebook.com/1705774392997011/"
     },

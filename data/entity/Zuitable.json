@@ -10,13 +10,19 @@
     {
       "url": "https://www.facebook.com/Zuitable/",
       "meta": {
-        "name": "Zuitable",
         "id": "307091456537494",
-        "categories": [
-          "Clothing (Brand)"
+        "username": "Zuitable",
+        "name": "Zuitable",
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "email": "zuitablehk@gmail.com",
-        "tel": "64681119"
+        "emails": [
+          "zuitablehk@gmail.com"
+        ],
+        "website": "https://zuitable.com.hk/"
       }
     },
     {

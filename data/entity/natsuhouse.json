@@ -10,15 +10,25 @@
     {
       "url": "https://www.facebook.com/natsuhouse/",
       "meta": {
-        "name": "Natsuhouse 日韓傢俬專門店",
         "id": "461512474217562",
+        "username": "natsuhouse",
+        "name": "Natsuhouse 日韓傢俬專門店",
         "about": "Natsuhouse 日韓傢俬專門店 - 夏屋的宗旨追求自然。\n\n葵涌店：香港葵涌華星街 16 號保盈工業大廈 10 樓 C 室\nMON ~ TUE & THU ~ FRI :12pm - 8pm\nWED :12pm ~ 6pm",
-        "categories": [
-          "Home Decor",
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "192647794097278",
+            "name": "Home Decor"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "email": "info@natsuhouse.com.hk",
-        "tel": "37098260"
+        "emails": [
+          "info@natsuhouse.com.hk"
+        ],
+        "single_line_address": "葵涌華星街 16 號保盈工業大廈 10 樓 C 室, 852 Hong Kong",
+        "website": "https://www.natsuhouse.com.hk"
       }
     },
     {

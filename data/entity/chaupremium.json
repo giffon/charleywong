@@ -18,16 +18,25 @@
     {
       "url": "https://www.facebook.com/chaupremium/",
       "meta": {
-        "name": "ChauPremium 洲海味",
         "id": "1650468945165738",
+        "username": "chaupremium",
+        "name": "ChauPremium 洲海味",
         "about": "我地擁有超過30年蔘茸海味批發既專業經驗，幫大家以平過市價嘅價錢，選購比市面更優質嘅海味",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          }
         ],
-        "addr": "西營盤德輔道西246號東慈商業大廈1506室",
-        "area": "Hong Kong",
-        "email": "chaupremium@gmail.com",
-        "tel": "93185519"
+        "emails": [
+          "chaupremium@gmail.com"
+        ],
+        "single_line_address": "西營盤德輔道西246號東慈商業大廈1506室, Hong Kong",
+        "website": "www.chaupremium.com"
       }
     }
   ],

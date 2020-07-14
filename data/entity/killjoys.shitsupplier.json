@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/killjoys.shitsupplier/",
       "meta": {
-        "name": "Kiłłjoyš",
         "id": "306512743149980",
+        "username": "killjoys.shitsupplier",
+        "name": "Kiłłjoyš",
         "about": "門市:香港旺角西洋菜南街1A百寶利商業中心4樓408室\n營業時間:14:00-23:00\n•Rat Fink\n•Vintage Toys\n•Clothing\n•Sneakers\nIG: killjoys_shitsupplier (kill$joys)\n#賣的是回憶\n\n如需詢價/商品細節/購買等\n請inbox查詢喔~",
-        "categories": [
-          "Hobby Store",
-          "Clothing Store"
+        "category_list": [
+          {
+            "id": "1787166534852540",
+            "name": "Hobby Store"
+          },
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          }
         ],
-        "addr": "旺角西洋菜南街1A-1K百寶利商業中心4樓408室",
-        "area": "Hong Kong",
-        "email": "killjoysgoodshit@gmail.com",
-        "tel": "34603252"
+        "emails": [
+          "killjoysgoodshit@gmail.com"
+        ],
+        "single_line_address": "旺角西洋菜南街1A-1K百寶利商業中心4樓408室, Hong Kong"
       }
     },
     {

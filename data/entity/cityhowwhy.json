@@ -11,11 +11,19 @@
     {
       "meta": {
         "id": "359064234119",
+        "username": "cityhowwhy",
+        "name": "號外 City Magazine",
         "about": "《號外》官方 FACEBOOK PAGE",
-        "categories": [
-          "Magazine"
+        "category_list": [
+          {
+            "id": "1307",
+            "name": "Magazine"
+          }
         ],
-        "email": "citymagazine@modernmedia.com.hk"
+        "emails": [
+          "citymagazine@modernmedia.com.hk"
+        ],
+        "website": "http://www.cityhowwhy.com.hk"
       },
       "url": "https://www.facebook.com/cityhowwhy/"
     }

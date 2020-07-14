@@ -10,13 +10,23 @@
     {
       "meta": {
         "id": "289372844422646",
-        "about": "Sunny Chan Photography\nEmail: sunnychanphoto@gmail.com\nWebsite: www.sunnychan.com.hk\nInstagram: www.instagram.com/sunnychanphotography",
-        "categories": [
-          "Photographer",
-          "Artist"
+        "username": "sunnychanphotography",
+        "name": "Sunny Chan Photography",
+        "about": "Sunny Chan Photography\nEmail: sunnychanphoto@gmail.com\nWebsite: www.sunnychan.com.hk\nInstagram: www.instagram.com/sunnychanphotography\n",
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "sunnychanphoto@gmail.com",
-        "tel": "64385670"
+        "emails": [
+          "sunnychanphoto@gmail.com"
+        ],
+        "website": "http://www.sunnychan.com.hk"
       },
       "url": "https://www.facebook.com/sunnychanphotography/"
     },

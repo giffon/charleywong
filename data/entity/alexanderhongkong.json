@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "1.1Alexander",
         "id": "468152479941643",
+        "username": "alexanderhongkong",
+        "name": "1.1Alexander",
         "about": "Menswear\nQuality | Contemporary | Simplicity\nStriving to make something to be proud of",
-        "categories": [
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "email": "alexander_homme@yahoo.com.hk",
-        "tel": "64252124"
+        "emails": [
+          "alexander_homme@yahoo.com.hk"
+        ],
+        "single_line_address": "旺角好景商業中心5樓502A-B室, Hong Kong",
+        "website": "https://www.11alexander.com"
       },
       "url": "https://www.facebook.com/alexanderhongkong/"
     },

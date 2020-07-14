@@ -13,16 +13,22 @@
     },
     {
       "meta": {
-        "name": "Six2 Hair Bar Salon",
         "id": "1720071708084564",
+        "username": "Six2hairbarsalon",
+        "name": "Six2 Hair Bar Salon",
         "about": "Six2 hair bar salon係由一班年輕資深髮型設計師聚集而成的髮型屋",
-        "categories": [
-          "Hair Salon",
-          "Barber Shop"
+        "category_list": [
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          },
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          }
         ],
-        "addr": "土瓜灣馬頭圍道284號A地鋪",
-        "area": "Kowloon, Hong Kong",
-        "tel": "92644605"
+        "single_line_address": "土瓜灣馬頭圍道284號A地鋪, Kowloon, Hong Kong",
+        "website": "https://www.instagram.com/six2hairnail/"
       },
       "url": "https://www.facebook.com/Six2hairbarsalon/"
     }

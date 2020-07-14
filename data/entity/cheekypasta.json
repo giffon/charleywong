@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/cheekypasta/",
       "meta": {
-        "name": "Cheeky Pasta",
         "id": "477246112447039",
+        "username": "cheekypasta",
+        "name": "Cheeky Pasta",
         "about": "Be Cheeky At All Times!",
-        "categories": [
-          "Italian Restaurant",
-          "Fast Food Restaurant"
+        "category_list": [
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          },
+          {
+            "id": "193831710644458",
+            "name": "Italian Restaurant"
+          }
         ],
-        "addr": "B2A,4 Swatow Street,Wan Chai,HK  灣仔汕頭街4號B2A地鋪",
-        "area": "Hong Kong",
-        "email": "cheekyconcepts@gmail.com",
-        "tel": "23252725"
+        "emails": [
+          "cheekyconcepts@gmail.com"
+        ],
+        "single_line_address": "B2A,4 Swatow Street,Wan Chai,HK  灣仔汕頭街4號B2A地鋪, Hong Kong"
       }
     },
     {

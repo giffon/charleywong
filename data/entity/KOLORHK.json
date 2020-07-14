@@ -6,11 +6,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "KOLOR",
         "id": "91306178236",
+        "username": "KOLORHK",
+        "name": "KOLOR",
         "about": "www.facebook.com/kolorhk",
-        "categories": [
-          "Musician/Band"
+        "category_list": [
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ]
       },
       "url": "https://www.facebook.com/KOLORHK/"

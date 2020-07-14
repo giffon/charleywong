@@ -13,17 +13,25 @@
     },
     {
       "meta": {
-        "name": "Nutmad",
         "id": "156478131840987",
+        "username": "nutmadhk",
+        "name": "Nutmad",
         "about": "Coffee Roasting + Training．\nGastronomy + Casual Dining．\nCoffee x Food Pairing Specialist．\nMake A Difference．",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "Flat C, 9/F, Everest Industrial Centre, 396 Kwun Tong Road, Kwun Tong",
-        "area": "HK Kwun Tong",
-        "email": "nutmadhk@gmail.com",
-        "tel": "22548268"
+        "emails": [
+          "nutmadhk@gmail.com"
+        ],
+        "single_line_address": "Flat C, 9/F, Everest Industrial Centre, 396 Kwun Tong Road, Kwun Tong, HK Kwun Tong",
+        "website": "www.instagram.com/nutmadhk"
       },
       "url": "https://www.facebook.com/nutmadhk/"
     }

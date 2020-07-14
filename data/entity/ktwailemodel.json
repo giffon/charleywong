@@ -7,16 +7,27 @@
     {
       "meta": {
         "id": "204317529736012",
+        "username": "ktwailemodel",
+        "name": "Chico Hobby - 智高模型",
         "about": "We are a family-run business since the early nineties with many years of successful experience within the scale models and hobby industry in Hong Kong, also specializing in scale models kits, paints, figures & fine craft tools supply.",
-        "categories": [
-          "Retail company",
-          "Toy shop",
-          "Hobby shop"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "1787166534852540",
+            "name": "Hobby Store"
+          },
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          }
         ],
-        "addr": "觀塘觀塘道404號時運工業大廈6樓B室",
-        "area": "Kwun Tong",
-        "email": "chicohobby@gmail.com",
-        "tel": "23431668"
+        "emails": [
+          "chicohobby@gmail.com"
+        ],
+        "single_line_address": "觀塘觀塘道404號時運工業大廈6樓B室, Kwun Tong"
       },
       "url": "https://www.facebook.com/ktwailemodel/"
     }

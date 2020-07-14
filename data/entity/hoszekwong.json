@@ -7,14 +7,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "好時光 Ho Sze Kwong",
         "id": "927974860592376",
+        "username": "hoszekwong",
+        "name": "好時光 Ho Sze Kwong",
         "about": "#好時光",
-        "categories": [
-          "Product/Service",
-          "Grocery Store"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          }
         ],
-        "email": "hoszekwong.hk@gmail.com"
+        "emails": [
+          "hoszekwong.hk@gmail.com"
+        ],
+        "single_line_address": "Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/hoszekwong/"
     }

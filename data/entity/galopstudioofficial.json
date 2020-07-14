@@ -18,16 +18,29 @@
     {
       "url": "https://www.facebook.com/galopstudioofficial/",
       "meta": {
-        "name": "GalopStudio",
         "id": "589069871532241",
-        "about": "Galop Studio 格立教室是於2016年成立的幼兒教育機構，過去兩年重點推廣幼兒舞蹈藝術教育及外展藝術推廣的工作；2018年於屯門大會堂舉辦第二屆暑期小滙演， 不定時也會舉行外展親子活動。",
-        "categories": [
-          "Art",
-          "Swimming Instructor",
-          "Dance Studio"
+        "username": "galopstudioofficial",
+        "name": "GalopStudio",
+        "about": "Galop Studio 格立教室是於2016年成立的幼兒教育機構，過去兩年重點推廣幼兒舞蹈藝術教育及外展藝術推廣的工作；2018年於屯門大會堂舉辦第二屆暑期小滙演， 不定時也會舉行外展親子活動。\n",
+        "category_list": [
+          {
+            "id": "203916779633178",
+            "name": "Dance Studio"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "1238790372819138",
+            "name": "Swimming Instructor"
+          }
         ],
-        "email": "galopstudioofficial@gmail.com",
-        "tel": "98527014"
+        "emails": [
+          "galopstudioofficial@gmail.com"
+        ],
+        "single_line_address": "Shop125B, 1/F, Smiling Plaza, 155-181 Castle Peck Road, Sham Shui Po, Kowloon, 852 Hong Kong",
+        "website": "http://www.galopstudio.jimdo.com/"
       }
     }
   ],

@@ -7,15 +7,20 @@
     {
       "url": "https://www.facebook.com/152562108270601/",
       "meta": {
-        "name": "LUNA 韓國雜貨店",
         "id": "152562108270601",
-        "about": "本公司理念為一間韓國雜貨店\n專門搜羅最新最具人氣又好用產品\nGet it beauty 及Star Beauty Show 節目介紹No.1產品都可在本店揾到\n100%韓國入口正貨",
-        "categories": [
-          "Retail Company"
+        "name": "LUNA 韓國雜貨店",
+        "about": "本公司理念為一間韓國雜貨店\n專門搜羅最新最具人氣又好用產品\nGet it beauty 及Star Beauty Show 節目介紹No.1產品都可在本店揾到\n100%韓國入口正貨\n\n\n",
+        "category_list": [
+          {
+            "id": "144873802247220",
+            "name": "Cosmetics Store"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "大埔昌運中心地下23B鋪",
-        "area": "852 Hong Kong",
-        "tel": "63116300"
+        "single_line_address": "大埔昌運中心地下23B鋪, 852 Hong Kong"
       }
     }
   ],

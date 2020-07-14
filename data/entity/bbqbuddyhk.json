@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/bbqbuddyhk/",
       "meta": {
-        "name": "燒烤拍檔",
         "id": "174312176330039",
+        "username": "bbqbuddyhk",
+        "name": "燒烤拍檔",
         "about": "只需一個柯打，BBQ Buddy會將親手秘制嘅BBQ外賣美食及用具直送到你指定的地點，令您有更多時間同親朋好友相聚，無需煩惱運輸及花費時間準備。",
-        "categories": [
-          "Food & Beverage Company"
+        "category_list": [
+          {
+            "id": "2252",
+            "name": "Food & Beverage Company"
+          }
         ],
-        "addr": "Fo Tan",
-        "area": "Hong Kong",
-        "email": "bbqbuddyhk@gmail.com",
-        "tel": "91364186"
+        "emails": [
+          "bbqbuddyhk@gmail.com"
+        ],
+        "single_line_address": "Fo Tan, Hong Kong",
+        "website": "www.bbqbuddyhk.com"
       }
     }
   ],

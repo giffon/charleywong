@@ -10,12 +10,19 @@
     {
       "meta": {
         "id": "136184826402979",
+        "username": "uniqhoto",
+        "name": "Uniqhoto ユニクォト",
         "about": "星級攝影記者為你紀錄難忘一刻。創辦人從事攝影工作十多年，曾任職攝影記者、雜誌封面攝影師，並為多位藝人拍攝宣傳照。作品遍及唱片封套、演唱會海報、MV及平面廣告等等。",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "uniqhoto@gmail.com",
-        "tel": "92559334"
+        "emails": [
+          "uniqhoto@gmail.com"
+        ],
+        "website": "http://www.uniqhoto.com"
       },
       "url": "https://www.facebook.com/uniqhoto/"
     }

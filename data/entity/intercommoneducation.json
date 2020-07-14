@@ -8,14 +8,27 @@
     {
       "url": "https://www.facebook.com/intercommoneducation/",
       "meta": {
-        "name": "民院教育 Intercommon Education",
         "id": "587552691391041",
-        "about": "香港民間學院由一群推動民間知識生產的年青學人創立，透過定期策劃各社會範疇的課程，凝聚本土知識社群，深化民間的知識創造力，介入社會關鍵爭議。",
-        "categories": [
-          "Educational Research Center",
-          "Nonprofit Organization"
+        "username": "intercommoneducation",
+        "name": "民院教育 Intercommon Education",
+        "about": "香港民間學院由一群推動民間知識生產的年青學人創立，透過定期策劃各社會範疇的課程，凝聚本土知識社群，深化民間的知識創造力，介入社會關鍵爭議。\n",
+        "category_list": [
+          {
+            "id": "191921914160604",
+            "name": "Educational Research Center"
+          },
+          {
+            "id": "2602",
+            "name": "College & University"
+          },
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          }
         ],
-        "email": "info@intercommonhk.com"
+        "emails": [
+          "info@intercommonhk.com"
+        ]
       }
     },
     {

@@ -7,13 +7,21 @@
     {
       "url": "https://www.facebook.com/ws.catproduct/",
       "meta": {
-        "name": "皇上御用 喵星用品",
         "id": "967929636631043",
+        "username": "ws.catproduct",
+        "name": "皇上御用 喵星用品",
         "about": "「皇上御用」產品由朕精挑細選出嚟，一定啱哂一眾貓奴心意",
-        "categories": [
-          "Product/Service",
-          "Shopping & Retail"
-        ]
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
+        ],
+        "single_line_address": "Hong Kong"
       }
     },
     {

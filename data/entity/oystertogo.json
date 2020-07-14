@@ -7,18 +7,24 @@
     {
       "url": "https://www.facebook.com/oystertogo/",
       "meta": {
-        "name": "Oyster To Go",
         "id": "933118056781836",
+        "username": "oystertogo",
+        "name": "Oyster To Go",
         "about": "生蠔·刺身·扒類·串燒·酒類",
-        "categories": [
-          "Seafood Restaurant",
-          "Bar",
-          "European Restaurant"
+        "category_list": [
+          {
+            "id": "163300367054197",
+            "name": "Seafood Restaurant"
+          },
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          }
         ],
-        "addr": "尖沙咀山林道6號地下",
-        "area": "Tsim Sha Tsui",
-        "email": "oystertogo.info@gamil.com",
-        "tel": "22658133"
+        "emails": [
+          "oystertogo.info@gamil.com"
+        ],
+        "single_line_address": "尖沙咀山林道6號地下, Tsim Sha Tsui"
       }
     },
     {

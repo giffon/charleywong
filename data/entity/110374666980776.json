@@ -6,13 +6,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "Game Festa",
         "id": "110374666980776",
-        "about": "葵涌廣埸2樓 C156B鋪",
-        "categories": [
-          "Shopping & Retail"
+        "name": "Game Festa",
+        "about": "葵涌廣埸2樓 C156B鋪\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "tel": "64530888"
+        "single_line_address": "葵芳葵涌廣場2樓C156號B鋪, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/110374666980776/"
     }

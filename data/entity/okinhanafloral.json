@@ -14,18 +14,28 @@
     {
       "url": "https://www.facebook.com/okinhanafloral/",
       "meta": {
-        "name": "Okinhana Floral",
         "id": "371817413334787",
-        "about": "Okinhana Floral 每日以花來製作不同類型的花品~\n以花為客人帶來甜美的回憶~",
-        "categories": [
-          "Product/Service",
-          "Shopping & Retail",
-          "Florist"
+        "username": "okinhanafloral",
+        "name": "Okinhana Floral",
+        "about": "Okinhana Floral 每日以花來製作不同類型的花品~\n以花為客人帶來甜美的回憶~\n\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "addr": "108-110, King Fu Street, San Po Kong",
-        "area": "00000 Kowloon, Hong Kong",
-        "email": "okinhanafloral@gmail.com",
-        "tel": "62003617"
+        "emails": [
+          "okinhanafloral@gmail.com"
+        ],
+        "single_line_address": "108-110, King Fu Street, San Po Kong, 00000 Kowloon, Hong Kong"
       }
     }
   ],

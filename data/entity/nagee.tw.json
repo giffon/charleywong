@@ -10,11 +10,19 @@
     {
       "meta": {
         "id": "353390642311",
+        "username": "nagee.tw",
+        "name": "nagee",
         "about": "台灣創作人",
-        "categories": [
-          "Author"
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          }
         ],
-        "email": "nagee007@gmail.com"
+        "emails": [
+          "nagee007@gmail.com"
+        ],
+        "website": "https://nagee-tw.blogspot.tw/"
       },
       "url": "https://www.facebook.com/nagee.tw/"
     },

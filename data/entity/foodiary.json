@@ -10,13 +10,21 @@
     {
       "url": "https://www.facebook.com/foodiary/",
       "meta": {
-        "name": "架架麵 飲食遊記",
         "id": "243545762324778",
-        "about": "夫妻博客 - 美食分享 | 旅遊玩樂 | 生活品味",
-        "categories": [
-          "Personal Blog"
+        "username": "foodiary",
+        "name": "架架麵 飲食遊記",
+        "about": "夫妻博客 - 美食分享 | 旅遊玩樂 | 生活品味 ",
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "foodiary@hotmail.com"
+        "emails": [
+          "foodiary@hotmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://www.ourfoodiary.blogspot.com"
       }
     }
   ],

@@ -11,15 +11,24 @@
     {
       "meta": {
         "id": "609276339572736",
+        "username": "jiegenge.hk",
+        "name": "桔梗 JIEGENGE.HK",
         "about": "從台灣來的味道\n開放式的廚房|咖啡|餐廳|空間\n陽台提供甜甜的水煙座位\n期待五月與大家見面",
-        "categories": [
-          "Cafe",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "香港旺角砵蘭街160號地鋪全棟",
-        "area": "Hong Kong",
-        "email": "info@jiegengehk.com",
-        "tel": "27877328"
+        "emails": [
+          "info@jiegengehk.com"
+        ],
+        "single_line_address": "香港旺角砵蘭街160號地鋪全棟, Hong Kong",
+        "website": "https://www.instagram.com/jiegenge.hk/"
       },
       "url": "https://www.facebook.com/jiegenge.hk/"
     }

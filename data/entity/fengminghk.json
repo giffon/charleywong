@@ -6,14 +6,20 @@
   "webpages": [
     {
       "meta": {
+        "id": "741014472934263",
+        "username": "fengminghk",
+        "name": "鳳鳴石磨腸粉",
         "about": "全港首創手工石磨「黑米」、「紅米」腸粉，上至米漿、腸粉，豆漿，下至配料及飲品，全部都係手工自家制，非加工，新鮮有營養。\nIG: fengming_original",
-        "categories": [
-          "Product/service",
-          "Breakfast & brunch restaurant",
-          "Deli"
-        ],
-        "tel": "24886928",
-        "id": "741014472934263"
+        "category_list": [
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          },
+          {
+            "id": "188334264523313",
+            "name": "Deli"
+          }
+        ]
       },
       "url": "https://www.facebook.com/fengminghk/"
     }

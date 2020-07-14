@@ -14,18 +14,28 @@
     {
       "url": "https://www.facebook.com/room68artpub/",
       "meta": {
-        "name": "room68",
         "id": "1993898434069801",
+        "username": "room68artpub",
+        "name": "room68",
         "about": "Art Pub at rooftop of Tung Nam Lou Hotel. \n位於油麻地東南樓酒店頂層的room68，融合品茶嚐啡與藝術，為訪客提供嚐味分享及互動交流的平台，匯聚各種藝術體驗與創作活動的空間。",
-        "categories": [
-          "Art Gallery",
-          "Tea Room",
-          "Bar"
+        "category_list": [
+          {
+            "id": "197384240287028",
+            "name": "Art Gallery"
+          },
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          },
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          }
         ],
-        "addr": "23/F, 68 Portland Street",
-        "area": "Yau Ma Tei",
-        "email": "room68@tungnamlou.com",
-        "tel": "57231501"
+        "emails": [
+          "room68@tungnamlou.com"
+        ],
+        "single_line_address": "23/F, 68 Portland Street, Yau Ma Tei"
       }
     }
   ],

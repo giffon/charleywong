@@ -25,15 +25,29 @@
     {
       "url": "https://www.facebook.com/poortravellershk/",
       "meta": {
-        "name": "Poortravellers窮遊",
         "id": "939223646118653",
+        "username": "poortravellershk",
+        "name": "Poortravellers窮遊",
         "about": "查詢／合作\n◈Facebook Messenger\n◈Instagram: @poortravellers\n◈Email: poortravellers@outlook.com",
-        "categories": [
-          "Entertainment Website",
-          "Travel Company",
-          "News & Media Website"
+        "category_list": [
+          {
+            "id": "2705",
+            "name": "Entertainment Website"
+          },
+          {
+            "id": "2258",
+            "name": "Travel Company"
+          },
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
         ],
-        "email": "info@poortravellers.com"
+        "emails": [
+          "info@poortravellers.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://poortravellers.com"
       }
     }
   ],

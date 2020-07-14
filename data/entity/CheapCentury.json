@@ -9,13 +9,20 @@
     },
     {
       "meta": {
-        "name": "賤人新世紀",
         "id": "211945435628813",
+        "username": "CheapCentury",
+        "name": "賤人新世紀",
         "about": "我只是一個賤人，何苦你這麼認真。\nIG: sowinghong",
-        "categories": [
-          "Just For Fun"
+        "category_list": [
+          {
+            "id": "129417183848258",
+            "name": "Just For Fun"
+          }
         ],
-        "email": "cheapcentury@gmail.com"
+        "emails": [
+          "cheapcentury@gmail.com"
+        ],
+        "website": "cheapcentury.myshopify.com"
       },
       "url": "https://www.facebook.com/CheapCentury/"
     }

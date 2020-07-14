@@ -6,11 +6,14 @@
   "webpages": [
     {
       "meta": {
-        "name": "Wilwork",
         "id": "100208801375012",
+        "name": "Wilwork",
         "about": "我鐘意影相，已經影咗X十年，菲林相機特別鍾情，因為佢有個性，每次都有新鮮感！我願意將佢地分享比大家！",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ]
       },
       "url": "https://www.facebook.com/100208801375012/"

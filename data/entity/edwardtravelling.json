@@ -11,13 +11,21 @@
     {
       "url": "https://www.facebook.com/edwardtravelling/",
       "meta": {
-        "name": "Edward's Travelling Diary 愛德華之探險手記",
         "id": "670756033054946",
+        "username": "edwardtravelling",
+        "name": "Edward's Travelling Diary 愛德華之探險手記",
         "about": "Traveler l Photographer l Filmmaker l Social Worker\n土生葡人，香港長大，從社會工作。一個喜歡探險、攝影的旅人。愛談政治時事、生活與大小花生事，積極參與社會運動。",
-        "categories": [
-          "Blogger",
-          "Local & Travel Website"
-        ]
+        "category_list": [
+          {
+            "id": "361282040719868",
+            "name": "Blogger"
+          },
+          {
+            "id": "2715",
+            "name": "Local & Travel Website"
+          }
+        ],
+        "website": "www.edwardtravelling.blogspot.hk"
       }
     },
     {

@@ -10,27 +10,42 @@
     {
       "url": "https://www.facebook.com/HNRrunningteam/",
       "meta": {
-        "name": "HNR Running Team",
         "id": "1402514576459191",
+        "username": "HNRrunningteam",
+        "name": "HNR Running Team",
         "about": "HNR的理念是本著開心去跑步，歡迎新手、老手及任何程度朋友參加。我們希望訓練唔會再加重大家日常壓力，而係希望你會更期待下一次一齊運動。",
-        "categories": [
-          "Video Creator",
-          "Amateur Sports Team"
+        "category_list": [
+          {
+            "id": "1817904601806120",
+            "name": "Video Creator"
+          },
+          {
+            "id": "1803",
+            "name": "Amateur Sports Team"
+          }
         ],
-        "email": "info@hnr.hk",
-        "tel": "55906969"
+        "emails": [
+          "info@hnr.hk"
+        ],
+        "website": "https://hnr.hk/"
       }
     },
     {
       "url": "https://www.facebook.com/HNRlimited/",
       "meta": {
-        "name": "HNR Limited",
         "id": "2366483820262038",
-        "about": "",
-        "categories": [
-          "Event Planner"
+        "username": "HNRlimited",
+        "name": "HNR Limited",
+        "category_list": [
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          }
         ],
-        "email": "info@hnr.hk"
+        "emails": [
+          "info@hnr.hk"
+        ],
+        "website": "http://hnr.hk"
       }
     },
     {

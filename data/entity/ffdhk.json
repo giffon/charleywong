@@ -11,16 +11,28 @@
     {
       "meta": {
         "id": "111551485660728",
+        "username": "ffdhk",
+        "name": "正品室內設計工程公司   Fine Formation Design Hong Kong",
         "about": "正品室內設計工程公司\nFINE FORMATION DESIGN HONG KONG\n政府註冊小型工程承辨商\nhttp://www.ffdhk.com",
-        "categories": [
-          "Engineering service",
-          "Consultation agency",
-          "Interior design studio"
+        "category_list": [
+          {
+            "id": "400062273344681",
+            "name": "Engineering Service"
+          },
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          },
+          {
+            "id": "2248",
+            "name": "Consulting Agency"
+          }
         ],
-        "addr": "柴灣新業街5號王子工業大廈309室",
-        "area": "Hong Kong",
-        "email": "contact@ffdhk.com",
-        "tel": "39918512"
+        "emails": [
+          "contact@ffdhk.com"
+        ],
+        "single_line_address": "柴灣新業街5號王子工業大廈309室, 852 Hong Kong",
+        "website": "http://www.ffdhk.com"
       },
       "url": "https://www.facebook.com/ffdhk/"
     }

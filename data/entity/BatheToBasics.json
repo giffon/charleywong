@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/BatheToBasics/",
       "meta": {
-        "name": "Bathe to Basics",
         "id": "184992704915531",
+        "username": "BatheToBasics",
+        "name": "Bathe to Basics",
         "about": "It all comes down to basics...",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care"
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "addr": "S403, Block A, PMQ, 35 Aberdeen Street,",
-        "area": "HONG KONG Central, Hong Kong",
-        "email": "info@bathetobasics.com",
-        "tel": "28588135"
+        "emails": [
+          "info@bathetobasics.com"
+        ],
+        "single_line_address": "S403, Block A, PMQ, 35 Aberdeen Street,, HONG KONG Central, Hong Kong",
+        "website": "www.bathetobasics.com"
       }
     },
     {

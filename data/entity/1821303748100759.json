@@ -6,11 +6,14 @@
   "webpages": [
     {
       "meta": {
-        "name": "消防員的故事",
         "id": "1821303748100759",
+        "name": "消防員的故事",
         "about": "從消防員的第一身角度出發，訴說消防員的日常，救援工作，職場文化。消防伙記可以在此發佈貼文，小編會用不記名的身份方式在此轉發。",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ]
       },
       "url": "https://www.facebook.com/1821303748100759/"

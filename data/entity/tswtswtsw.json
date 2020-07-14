@@ -11,13 +11,20 @@
     {
       "url": "https://www.facebook.com/117383848464583/",
       "meta": {
-        "name": "鄧小樺 TANG SIU WA",
         "id": "117383848464583",
+        "name": "鄧小樺 TANG SIU WA",
         "about": "詩人、作家、文化評論人。曾任電台文化節目主持，偶然參與社運，於各大專院校及中學兼職任教。著有詩集、散文集、訪問集五本，編有合集、訪問集、評論集四本。",
-        "categories": [
-          "Author"
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          }
         ],
-        "email": "tang.siu.wa@gmail.com"
+        "emails": [
+          "tang.siu.wa@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://tswtsw.blogspot.com"
       }
     },
     {

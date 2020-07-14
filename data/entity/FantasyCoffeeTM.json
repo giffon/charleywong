@@ -7,15 +7,19 @@
     {
       "url": "https://www.facebook.com/FantasyCoffeeTM/",
       "meta": {
-        "name": "Fantasy Coffee",
         "id": "179357755995374",
-        "categories": [
-          "Coffee Shop"
+        "username": "FantasyCoffeeTM",
+        "name": "Fantasy Coffee",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "屯門湖翠路138號Shop 1A9 G/F Richland Garden, N.T",
-        "area": "852 Hong Kong",
-        "email": "fantasycoffee.01@gmail.com",
-        "tel": "52221112"
+        "emails": [
+          "fantasycoffee.01@gmail.com"
+        ],
+        "single_line_address": "屯門湖翠路138號Shop 1A9 G/F Richland Garden, N.T, 852 Hong Kong"
       }
     },
     {

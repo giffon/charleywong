@@ -8,16 +8,22 @@
     {
       "url": "https://www.facebook.com/FAMILYOPTICALSHOP/",
       "meta": {
-        "name": "愛家眼鏡 Family Optical -堅尼地城",
         "id": "578452905627586",
+        "username": "FAMILYOPTICALSHOP",
+        "name": "愛家眼鏡 Family Optical -堅尼地城",
         "about": "「專業﹑優質﹑時尚﹑貼心」",
-        "categories": [
-          "Sunglasses & Eyewear Store",
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "1708896199364202",
+            "name": "Sunglasses & Eyewear Store"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "卑路乍街91號",
-        "area": "Kennedy Town, Hong Kong",
-        "tel": "28787783"
+        "single_line_address": "卑路乍街91號, Kennedy Town, Hong Kong",
+        "website": "familyopticalshop.com"
       }
     },
     {

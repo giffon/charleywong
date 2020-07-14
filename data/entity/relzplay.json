@@ -6,15 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "about": "Since 2014\n作品由小皮気獨力製作及設計，由零開始。\n...\n\n\n\nSee more",
-        "categories": [
-          "Graphic designer",
-          "Product/service"
+        "id": "1400235740239536",
+        "username": "relzplay",
+        "name": "RE:Lz",
+        "about": "Since 2014\n作品由小皮気獨力製作及設計，由零開始。\n\n網上訂購 / 查詢：\nfacebook inbox\nor\nEmail: relzplayhk@gmail.com",
+        "category_list": [
+          {
+            "id": "162183907165552",
+            "name": "Graphic Designer"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "葵昌路1號",
-        "area": "Hong Kong",
-        "email": "relzplayhk@gmail.com",
-        "id": "1400235740239536"
+        "emails": [
+          "relzplayhk@gmail.com"
+        ],
+        "single_line_address": "葵昌路1號, 852 Hong Kong",
+        "website": "http://www.pinkoi.com/relzplay"
       },
       "url": "https://www.facebook.com/relzplay/"
     }

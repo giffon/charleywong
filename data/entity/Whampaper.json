@@ -11,14 +11,21 @@
     {
       "url": "https://www.facebook.com/Whampaper/",
       "meta": {
-        "name": "小黃紙 Whampaper",
         "id": "883674711740491",
+        "username": "Whampaper",
+        "name": "小黃紙 Whampaper",
         "about": "黃埔社區大小事，我們來一起搜集，釀出我們獨有的記憶。\nInstagram @whampaper\nIssuu https://issuu.com/whampaper",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "apokcdc@gmail.com",
-        "tel": "37088445"
+        "emails": [
+          "apokcdc@gmail.com"
+        ],
+        "single_line_address": "53-56 Wuhu Street, Hong Kong",
+        "website": "http://t.me/whampaper"
       }
     },
     {

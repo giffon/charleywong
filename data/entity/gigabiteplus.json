@@ -11,12 +11,20 @@
     {
       "meta": {
         "id": "705260466272012",
+        "username": "gigabiteplus",
+        "name": "Keith Sir線上音樂教室",
         "about": "我未必係彈得最好😎.......但一定會係教得最好!!😎",
-        "categories": [
-          "Tutor/teacher",
-          "Musician/band"
+        "category_list": [
+          {
+            "id": "145296352197250",
+            "name": "Tutor/Teacher"
+          },
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "tel": "62111153"
+        "website": "http://www.keithsir.com"
       },
       "url": "https://www.facebook.com/gigabiteplus/"
     },

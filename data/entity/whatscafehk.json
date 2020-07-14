@@ -7,18 +7,28 @@
     {
       "url": "https://www.facebook.com/whatscafehk/",
       "meta": {
-        "name": "WhatsCafe",
         "id": "392138984557011",
+        "username": "whatscafehk",
+        "name": "WhatsCafe",
         "about": "本店剛於2017年12月3日正式開張，環境以綠色和木材為主要元素，配搭田園設計，空間感十足，感覺舒服自在，位置便利就腳，位於長沙灣地鐵站A2出口，步行5分鐘就到。",
-        "categories": [
-          "Restaurant",
-          "Tea Room",
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "營盤街147號地下B2鋪",
-        "area": "HK Hong Kong",
-        "email": "whatsscafe@gmail.com",
-        "tel": "39562336"
+        "emails": [
+          "whatsscafe@gmail.com"
+        ],
+        "single_line_address": "營盤街147號地下B2鋪, HK Hong Kong"
       }
     },
     {

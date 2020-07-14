@@ -17,13 +17,21 @@
     {
       "url": "https://www.facebook.com/hkshoplist/",
       "meta": {
-        "name": "香港良心Guide",
         "id": "100407081352127",
-        "about": "我們希望透過改變「同路人」的消費習慣，使良心企業在香港人努力抗爭期間得到支持，繼續為香港人服務。",
-        "categories": [
-          "Community",
-          "Business Service"
-        ]
+        "username": "hkshoplist",
+        "name": "香港良心Guide",
+        "about": "《香港良心Guide》成立嘅目的，正正就係希望同路人可以唔需要瞻前顧後，繼續憑良心彰顯香港人嘅核心價值。",
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          }
+        ],
+        "website": "https://hkshoplist.com/?utm_source=facebook&utm_medium=social&utm_campaign=hkshoplist-fb-about"
       }
     }
   ],

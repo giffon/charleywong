@@ -8,18 +8,29 @@
     {
       "url": "https://www.facebook.com/Seafood.Corner.HK/",
       "meta": {
-        "name": "海鮮角樂 Seafood Corner",
         "id": "1675473169335925",
+        "username": "Seafood.Corner.HK",
+        "name": "海鮮角樂 Seafood Corner",
         "about": "海鮮既好處就係唔使好複雜既煮法, 只要夠新鮮, 最簡單好既煮法就已經食到最好最原汁原味既海鮮",
-        "categories": [
-          "Seafood Restaurant",
-          "Cantonese Restaurant",
-          "Asian Fusion Restaurant"
+        "category_list": [
+          {
+            "id": "163300367054197",
+            "name": "Seafood Restaurant"
+          },
+          {
+            "id": "214976388519648",
+            "name": "Cantonese Restaurant"
+          },
+          {
+            "id": "174201535963762",
+            "name": "Asian Fusion Restaurant"
+          }
         ],
-        "addr": "Shop G16, 67 Gadogan street, Kennedy Town, Wesrern District",
-        "area": "Hong Kong",
-        "email": "seafoodcorner@gmail.com",
-        "tel": "62929472"
+        "emails": [
+          "seafoodcorner@gmail.com"
+        ],
+        "single_line_address": "Shop G16, 67 Gadogan street, Kennedy Town, Wesrern District, Hong Kong",
+        "website": "http://s.openrice.com/QrbS0h1a700"
       }
     }
   ],

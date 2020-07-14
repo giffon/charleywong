@@ -8,14 +8,22 @@
     {
       "url": "https://www.facebook.com/105112591120703/",
       "meta": {
-        "name": "Ourtown 九龍堂",
         "id": "105112591120703",
-        "about": "100%本地良知品牌\n我們會“永久”的實行每賣出一件商品,均會在零售價內抽出5%作為捐款用途, 幫助各個同路人志願組織.\n希望透過以上計劃,令大家都可以為\"慈善\"出一分力.",
-        "categories": [
-          "Boutique Store",
-          "Youth Organization"
+        "name": "Ourtown 九龍堂",
+        "about": "100%本地良知品牌\n我們會“永久”的實行每賣出一件商品,均會在零售價內抽出5%作為捐款用途, 幫助各個同路人志願組織.\n希望透過以上計劃,令大家都可以為\"慈善\"出一分力.\n",
+        "category_list": [
+          {
+            "id": "288846958171402",
+            "name": "Boutique Store"
+          },
+          {
+            "id": "181053558607965",
+            "name": "Youth Organization"
+          }
         ],
-        "email": "spoteama@gmail.com"
+        "emails": [
+          "spoteama@gmail.com"
+        ]
       }
     }
   ],

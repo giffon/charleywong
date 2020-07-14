@@ -18,15 +18,28 @@
     {
       "url": "https://www.facebook.com/joeyip101/",
       "meta": {
-        "name": "祖葉 Joe Yip",
         "id": "1561432393873829",
+        "username": "joeyip101",
+        "name": "祖葉 Joe Yip",
         "about": "祖葉 Joe Yip\nVlogger / Editor\n\nContact: joeyipctw@gmail.com\nIG: joe.yip\nYoutube: 祖葉 Joe Yip",
-        "categories": [
-          "Blogger",
-          "Local & Travel Website",
-          "Media"
+        "category_list": [
+          {
+            "id": "361282040719868",
+            "name": "Blogger"
+          },
+          {
+            "id": "2715",
+            "name": "Local & Travel Website"
+          },
+          {
+            "id": "1314020451960517",
+            "name": "Media"
+          }
         ],
-        "email": "joeyipctw@gmail.com"
+        "emails": [
+          "joeyipctw@gmail.com"
+        ],
+        "website": "https://www.joeyiptravel.com/"
       }
     },
     {

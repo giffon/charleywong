@@ -10,15 +10,21 @@
     {
       "url": "https://www.facebook.com/guttabooks/",
       "meta": {
-        "name": "無論如河",
         "id": "187313481816247",
-        "about": "坐落淡水河邊的解憂書店，是四位愛書的護理人員與西班牙歸國藝術家楊侖跨界合作的「藝術 & 療癒」書店。",
-        "categories": [
-          "Independent Bookstore"
+        "username": "guttabooks",
+        "name": "無論如河",
+        "about": "坐落淡水河邊的解憂書店，是四位愛書的護理人員與西班牙歸國藝術家楊侖跨界合作的「藝術 & 療癒」書店。\n\n\n",
+        "category_list": [
+          {
+            "id": "387228845011016",
+            "name": "Independent Bookstore"
+          }
         ],
-        "addr": "新北市淡水區中正路5巷26號2樓",
-        "area": "New Taipei City",
-        "email": "guttabooks@gmail.com"
+        "emails": [
+          "guttabooks@gmail.com"
+        ],
+        "single_line_address": "新北市淡水區中正路5巷26號2樓, New Taipei City 251",
+        "website": "https://gutta-bookscoffee.business.site/?m=true"
       }
     }
   ],

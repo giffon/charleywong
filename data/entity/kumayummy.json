@@ -7,13 +7,16 @@
     {
       "meta": {
         "id": "500981876750878",
+        "username": "kumayummy",
+        "name": "熊築地",
         "about": "sushi,sashimi,Uni,japan food ,Take away,restaurant,causeway bay\n銅鑼灣：告士打道276號地下（近世貿與景隆街）",
-        "categories": [
-          "Sushi Restaurant"
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          }
         ],
-        "addr": "銅鑼灣告士打道276號地下4號舖",
-        "area": "Causeway Bay",
-        "tel": "91721167"
+        "single_line_address": "銅鑼灣告士打道276號地下4號舖, Causeway Bay"
       },
       "url": "https://www.facebook.com/kumayummy/"
     }

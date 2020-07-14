@@ -6,12 +6,20 @@
   "webpages": [
     {
       "meta": {
+        "id": "324432127675078",
+        "username": "enjoyhiking",
+        "name": "賞山樂山",
         "about": "香港人的行山遊記",
-        "categories": [
-          "Recreation & sport website"
+        "category_list": [
+          {
+            "id": "2710",
+            "name": "Recreation & Sports Website"
+          }
         ],
-        "email": "enjoyhikinginhk@gmail.com",
-        "id": "324432127675078"
+        "emails": [
+          "enjoyhikinginhk@gmail.com"
+        ],
+        "website": "http://enjoyhiking.hk/"
       },
       "url": "https://www.facebook.com/enjoyhiking/"
     },

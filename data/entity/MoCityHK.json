@@ -8,15 +8,27 @@
     {
       "url": "https://www.facebook.com/MoCityHK/",
       "meta": {
-        "name": "毛城城 MoCity",
         "id": "1385524588130216",
+        "username": "MoCityHK",
+        "name": "毛城城 MoCity",
         "about": "香港寵物資訊平台，分享城中毛孩新聞及知識；網站備有全港獸醫診所、寵物店及美容店名單，還有全港獨有的寵物宜居樓盤搜尋功能。快啲Like同Follow我哋啦！",
-        "categories": [
-          "Pet Service",
-          "Media/News Company",
-          "Community"
+        "category_list": [
+          {
+            "id": "144982405562750",
+            "name": "Pet Service"
+          },
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "editor@mocity.com.hk"
+        "emails": [
+          "editor@mocity.com.hk"
+        ]
       }
     },
     {

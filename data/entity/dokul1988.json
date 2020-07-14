@@ -10,11 +10,17 @@
     {
       "url": "https://www.facebook.com/dokul1988/",
       "meta": {
-        "name": "一個人",
         "id": "435595919976139",
-        "categories": [
-          "Public Figure"
-        ]
+        "username": "dokul1988",
+        "name": "一個人",
+        "about": "\n",
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          }
+        ],
+        "website": "http://www.patreon.com/oneaguy"
       }
     },
     {
@@ -27,12 +33,17 @@
     {
       "url": "https://www.facebook.com/hkguy1988/",
       "meta": {
-        "name": "Hong Kong Guy",
         "id": "108058183225762",
+        "username": "hkguy1988",
+        "name": "Hong Kong Guy",
         "about": "You can know more about HK society here! Welcome to Hong Kong Guy!",
-        "categories": [
-          "Author"
-        ]
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          }
+        ],
+        "website": "instagram.com/hkguy1988"
       }
     },
     {

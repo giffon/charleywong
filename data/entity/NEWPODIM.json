@@ -6,15 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "蒲點",
         "id": "524415841367889",
+        "username": "NEWPODIM",
+        "name": "蒲點",
         "about": "\"5\"大訴求，缺\"1\"不可！\n如有外賣 或要求想食任何菜品，可提前53130365\n望可滿足每一個你。",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "慈雲山毓華里萬寶大廈28號地下6號舖",
-        "area": "Tsz Wan Shan",
-        "tel": "53130365"
+        "single_line_address": "慈雲山毓華里萬寶大廈28號地下6號舖, Tsz Wan Shan"
       },
       "url": "https://www.facebook.com/NEWPODIM/"
     },

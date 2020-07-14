@@ -10,14 +10,24 @@
     {
       "meta": {
         "id": "233821177447816",
-        "about": "We are Impulse Creation, a creative studio that loves to create, collaborate and inspire.",
-        "categories": [
-          "Video creator",
-          "Broadcasting & media production company"
+        "username": "impulsecreationltd",
+        "name": "Impulse Creation",
+        "about": "We are Impulse Creation, a creative studio that loves to create, collaborate and inspire.\n",
+        "category_list": [
+          {
+            "id": "1817904601806120",
+            "name": "Video Creator"
+          },
+          {
+            "id": "169056916473899",
+            "name": "Broadcasting & Media Production Company"
+          }
         ],
-        "addr": "Room 1B, 9/F, Wah Sing Industrial Building, 12-14 Wah Sing Street, Kwai Chung, New Territories",
-        "area": "Hong Kong",
-        "email": "info@impulsecreation.com.hk"
+        "emails": [
+          "info@impulsecreation.com.hk"
+        ],
+        "single_line_address": "Room 1B, 9/F, Wah Sing Industrial Building,  12-14 Wah Sing Street, Kwai Chung,  New Territories, Hong Kong",
+        "website": "www.impulsecreation.com.hk"
       },
       "url": "https://www.facebook.com/impulsecreationltd/"
     }

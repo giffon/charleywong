@@ -7,17 +7,25 @@
     {
       "url": "https://www.facebook.com/ypcentre/",
       "meta": {
-        "name": "衍毅教育中心",
         "id": "561738717174868",
+        "username": "ypcentre",
+        "name": "衍毅教育中心",
         "about": "開業7年多，紮根屯門，用心教育。\n衍毅教育中心(屯門中央廣場)，私人補習專門店。\n誠邀各類興趣班和體藝機構合作。\nemail: ypcentre@gmail.com\nwhat apps: 62184936",
-        "categories": [
-          "Educational Consultant",
-          "Fencing Club"
+        "category_list": [
+          {
+            "id": "199797140033948",
+            "name": "Educational Consultant"
+          },
+          {
+            "id": "279040502446357",
+            "name": "Fencing Club"
+          }
         ],
-        "addr": "新界屯門中央廣場15樓28室",
-        "area": "852 Hong Kong",
-        "email": "ypcentre@gmail.com",
-        "tel": "62184936"
+        "emails": [
+          "ypcentre@gmail.com"
+        ],
+        "single_line_address": "新界屯門中央廣場15樓28室, 852 Hong Kong",
+        "website": "https://ypeducenter.weebly.com"
       }
     }
   ],

@@ -13,14 +13,20 @@
     {
       "url": "https://www.facebook.com/Espagape/",
       "meta": {
-        "name": "Esp.AGAPE",
         "id": "1972883639499626",
-        "about": "Be a lifestylist",
-        "categories": [
-          "Jewelry/Watches"
+        "username": "Espagape",
+        "name": "Esp.AGAPE",
+        "about": "Be a lifestylist ",
+        "category_list": [
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          }
         ],
-        "email": "espahk@yahoo.com",
-        "tel": "68330013"
+        "emails": [
+          "espahk@yahoo.com"
+        ],
+        "website": "https://www.espahk.com/"
       }
     },
     {

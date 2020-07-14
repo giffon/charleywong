@@ -6,18 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "name": "Kary Wong Make Up Studio",
         "id": "561102940623626",
+        "username": "Karyywongmakeup",
+        "name": "Kary Wong Make Up Studio",
         "about": "Bride Makeup\nBridesmaid Makeup\nBanquets Makeup\nParty Makeup\nAnnual Dinner Makeup\nGraddin Makeup",
-        "categories": [
-          "Makeup Artist",
-          "Beauty Supplier",
-          "Beauty Store"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "132666603831665",
+            "name": "Beauty Store"
+          },
+          {
+            "id": "120731481338075",
+            "name": "Beauty Supplier"
+          }
         ],
-        "addr": "Shiu Fat Industrial Building",
-        "area": "Ngau Tau Kok",
-        "email": "karywongmua@gmail.com",
-        "tel": "51991769"
+        "emails": [
+          "karywongmua@gmail.com"
+        ],
+        "single_line_address": "Shiu Fat Industrial Building, Ngau Tau Kok",
+        "website": "http://Instagram.com/karyywongmua"
       },
       "url": "https://www.facebook.com/Karyywongmakeup/"
     },

@@ -6,16 +6,27 @@
   "webpages": [
     {
       "meta": {
-        "name": "HK Apocalypse",
         "id": "702204943247278",
-        "about": "HK Apocalypse 係香港一線霓虹燈佈景及禮品製作公司，曾為馬會及領展等大型商埸佈景，亦為超過500位個人客戶DIY屬於佢地專有既燈牌\b。\n\nWhatsapp : 5914 4251",
-        "categories": [
-          "Art",
-          "Home Decor",
-          "Product/Service"
+        "username": "neonlightinhk",
+        "name": "HK Apocalypse",
+        "about": "HK Apocalypse 係香港一線霓虹燈佈景及禮品製作公司，曾為香港賽馬會、各大航空公司、領展等大型商埸佈景，亦為超過500位個人客戶DIY屬於佢地專有既燈牌\b。\n\nWhatsapp : 5914 4251",
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "192647794097278",
+            "name": "Home Decor"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "hkneonwork@gmail.com",
-        "tel": "59144251"
+        "emails": [
+          "hkneonwork@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/neonlightinhk/"
     },

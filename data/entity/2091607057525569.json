@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/2091607057525569/",
       "meta": {
-        "name": "眼鏡巨人",
         "id": "2091607057525569",
-        "about": "屯門華都花園8號地鋪",
-        "categories": [
-          "Sunglasses & Eyewear Store",
-          "Product/Service",
-          "Retail Company"
+        "name": "眼鏡巨人",
+        "about": "屯門華都花園8號地鋪\n元朗西菁街富達廣場地下107號舖",
+        "category_list": [
+          {
+            "id": "1708896199364202",
+            "name": "Sunglasses & Eyewear Store"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "屯門華都花園8號地鋪",
-        "area": "Hong Kong",
-        "tel": "67179500"
+        "single_line_address": "屯門華都花園8號地鋪, Hong Kong"
       }
     }
   ],

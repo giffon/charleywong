@@ -10,13 +10,27 @@
     {
       "meta": {
         "id": "1892980717652276",
+        "username": "minorbemajor",
+        "name": "小市化大",
         "about": "「小市化大」是一個空間，\n讓社會和本地品牌一同建立新的消費體驗，\n一個個以使命為本的項目，設計具意義的活動，\n以體驗取締購買，以消費投選你想看見的世界，\n讓本地品牌百花齊放。",
-        "categories": [
-          "Designer",
-          "Arts and entertainment",
-          "Event planner"
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          },
+          {
+            "id": "1615",
+            "name": "Designer"
+          }
         ],
-        "email": "contact@minorbemajor.com"
+        "emails": [
+          "contact@minorbemajor.com"
+        ],
+        "website": "minorbemajor.com"
       },
       "url": "https://www.facebook.com/minorbemajor/"
     },

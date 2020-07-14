@@ -11,16 +11,25 @@
     {
       "url": "https://www.facebook.com/naturalnetwork/",
       "meta": {
-        "name": "自然脈絡 Natural Network",
         "id": "285457195989",
+        "username": "naturalnetwork",
+        "name": "自然脈絡 Natural Network",
         "about": "自然脈絡的綠葉為大自然奉獻一生、他日變成落葉化作春泥，將微量養份回饋自然，如脈絡般散播開去。www.nnw.hk",
-        "categories": [
-          "Education",
-          "Environmental Service",
-          "Farm"
+        "category_list": [
+          {
+            "id": "806240166180298",
+            "name": "Environmental Service"
+          },
+          {
+            "id": "150815208309028",
+            "name": "Farm"
+          }
         ],
-        "email": "info@nnw.hk",
-        "tel": "9669696526592402"
+        "emails": [
+          "info@nnw.hk"
+        ],
+        "single_line_address": "上水雞嶺村 自然脈絡, Hong Kong",
+        "website": "http://www.nnw.hk "
       }
     },
     {

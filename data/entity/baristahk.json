@@ -9,18 +9,29 @@
     },
     {
       "meta": {
-        "name": "Barista HK",
         "id": "287097018056681",
-        "about": "Official Website - http://baristahk.com\nClass Booking - http://baristahk.com/calendar/\nSharing the fun that Coffee can create with EVERYONE!",
-        "categories": [
-          "Consulting Agency",
-          "Shopping & Retail",
-          "Food Consultant"
+        "username": "baristahk",
+        "name": "Barista HK",
+        "about": "Official Website - http://baristahk.com\nClass Booking - http://baristahk.com/calendar/\nSharing the fun that Coffee can create with EVERYONE! ",
+        "category_list": [
+          {
+            "id": "2248",
+            "name": "Consulting Agency"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "187462324610381",
+            "name": "Food Consultant"
+          }
         ],
-        "addr": "Unit J, 26/F, Shield Industrial Centre, 84-92 Chai Wan Kok Street",
-        "area": "852 Tsuen Wan, Hong Kong",
-        "email": "info@baristahk.com",
-        "tel": "39967283"
+        "emails": [
+          "info@baristahk.com"
+        ],
+        "single_line_address": "Unit J, 26/F, Shield Industrial Centre, 84-92 Chai Wan Kok Street, 852 Tsuen Wan, Hong Kong",
+        "website": "http://baristahk.com"
       },
       "url": "https://www.facebook.com/baristahk/"
     },

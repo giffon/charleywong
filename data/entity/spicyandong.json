@@ -7,13 +7,16 @@
     {
       "meta": {
         "id": "574000336002867",
+        "username": "spicyandong",
+        "name": "辛安東元祖奶奶雞",
         "about": "旺角店地址 : 九龍旺角白布街二十號地下\nTel : 2332-0823",
-        "categories": [
-          "Korean restaurant"
+        "category_list": [
+          {
+            "id": "150896171638138",
+            "name": "Korean Restaurant"
+          }
         ],
-        "addr": "旺角白布街20號地下",
-        "area": "Mong Kok",
-        "tel": "23320823"
+        "single_line_address": "旺角白布街20號地下, Mong Kok"
       },
       "url": "https://www.facebook.com/spicyandong/"
     }

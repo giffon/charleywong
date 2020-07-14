@@ -9,16 +9,25 @@
     },
     {
       "meta": {
-        "name": "Ho Ho Go Experience 好好過～生活導賞",
         "id": "1429220577319212",
-        "about": "Ho Ho Go is a licensed tour agency runs all-inclusive cultural walks, community tours, workshops, and hiking excursions. We offer one-of-a-kind experience for all visitors to explore the must-go must-see and exclusive attractions.",
-        "categories": [
-          "Society & Culture Website",
-          "Travel Agency",
-          "Tour Guide"
+        "username": "hohogoexperience",
+        "name": "Ho Ho Go Experience 好好過～生活導賞",
+        "about": "Ho Ho Go is a cultural organisation with tour agency license. We run  cultural walks, community tours and workshops.  Our one-of-a-kind experience for all participating visitors to explore the city's heart and soul.",
+        "category_list": [
+          {
+            "id": "2714",
+            "name": "Society & Culture Website"
+          },
+          {
+            "id": "175657495818161",
+            "name": "Tour Guide"
+          }
         ],
-        "email": "info@hohogo.com.hk",
-        "tel": "35831184"
+        "emails": [
+          "info@hohogo.com.hk"
+        ],
+        "single_line_address": "628, 6/F, 8 Ng Fong Street, Kowloon, Hong Kong",
+        "website": "http://www.hohogo.com.hk"
       },
       "url": "https://www.facebook.com/hohogoexperience/"
     },

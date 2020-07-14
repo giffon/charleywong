@@ -7,12 +7,21 @@
     {
       "url": "https://www.facebook.com/102251591123862/",
       "meta": {
-        "name": "保鄉郊、撐農業、愛社區、反送中",
         "id": "102251591123862",
-        "categories": [
-          "Agriculture",
-          "Community",
-          "Nature Preserve"
+        "name": "保鄉郊、撐農業、愛社區、反送中",
+        "category_list": [
+          {
+            "id": "1574325646194878",
+            "name": "Agriculture"
+          },
+          {
+            "id": "1782121698686371",
+            "name": "Nature Preserve"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ]
       }
     }

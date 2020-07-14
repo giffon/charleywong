@@ -6,15 +6,18 @@
   "webpages": [
     {
       "meta": {
-        "name": "BYOB Coffee Roaster",
         "id": "1435724499817417",
-        "about": "BYOB 的名字是有以下三種解釋：\nBring your own Bike 帶你的自行車來\nBuy your own Bean 挑選你喜歡的咖啡豆\nBe your own Barista 成為自己的咖啡師",
-        "categories": [
-          "Coffee Shop"
+        "username": "byobcoffeeroaster",
+        "name": "BYOB Coffee Roaster",
+        "about": "BYOB 的名字是有以下三種解釋：\nBring your own Bike 帶你的自行車來\nBuy your own Bean 挑選你喜歡的咖啡豆\nBe your own Barista 成為自己的咖啡師\n",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "虹橋青桃徑5號文翔大厦2A地下",
-        "area": "Tuen Mun",
-        "tel": "23001163"
+        "single_line_address": "虹橋青桃徑5號文翔大厦2A地下, Tuen Mun",
+        "website": "https://byobcoffee.com"
       },
       "url": "https://www.facebook.com/byobcoffeeroaster/"
     },

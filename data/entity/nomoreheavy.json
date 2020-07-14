@@ -6,13 +6,23 @@
   "webpages": [
     {
       "meta": {
-        "about": "No More Heavy是一個户外裝備和服飾的香港品牌。專注把產品的功能和美觀結合，把舒適時尚的戶外風格融入日常生活中。主張把裝備輕量化，享受最原本的大自然。",
-        "categories": [
-          "Outdoor equipment shop",
-          "Clothing (brand)"
+        "id": "440590576478331",
+        "username": "nomoreheavy",
+        "name": "No More Heavy",
+        "about": "No More Heavy是一個户外裝備和服飾的香港品牌。專注把產品的功能和美觀結合，把舒適時尚的戶外風格融入日常生活中。主張把裝備輕量化，享受最原本的大自然。\n",
+        "category_list": [
+          {
+            "id": "153490828039067",
+            "name": "Outdoor Equipment Store"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "email": "nomoreheavy@gmail.com",
-        "id": "440590576478331"
+        "emails": [
+          "nomoreheavy@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/nomoreheavy/"
     }

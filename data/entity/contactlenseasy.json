@@ -18,15 +18,25 @@
     {
       "url": "https://www.facebook.com/contactlenseasy/",
       "meta": {
-        "name": "Contact Lens Easy 依時隱形眼鏡",
         "id": "510156205692385",
-        "about": "為你介紹更多又好用又抵既隱形眼鏡, 免費專業咨詢, 為你挑選最合適既隱形眼鏡，100%香港行貨！開業6年，質量保證，信心之選！",
-        "categories": [
-          "Retail Company",
-          "Wholesale & Supply Store"
+        "username": "contactlenseasy",
+        "name": "Contact Lens Easy 依時隱形眼鏡",
+        "about": "為你介紹更多又好用又抵既隱形眼鏡, 免費專業咨詢, 為你挑選最合適既隱形眼鏡，100%香港行貨！開業7年，質量保證，信心之選！",
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "187070794658134",
+            "name": "Wholesale & Supply Store"
+          }
         ],
-        "email": "contactlenseasy@gmail.com",
-        "tel": "63832774"
+        "emails": [
+          "contactlenseasy@gmail.com"
+        ],
+        "single_line_address": "香港商業中心",
+        "website": "http://www.contactlenseasy.com"
       }
     }
   ],

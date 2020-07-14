@@ -8,15 +8,24 @@
     {
       "url": "https://www.facebook.com/CheckWithYou/",
       "meta": {
-        "name": "和你驗 Check With You",
         "id": "363904530845960",
+        "username": "CheckWithYou",
+        "name": "和你驗 Check With You",
         "about": "舊稱:驗樓審死官\n\n在抗爭路上互相認識而成立,\n希望以誠懇的服務及較低廉的價錢維生,\n同時把部份營利捐到有需要的基金上,\n最後希望能擴充業務,\n以至可以聘請手足作兼職支援他們生活.",
-        "categories": [
-          "Home Improvement",
-          "Consulting Agency",
-          "Engineering Service"
-        ],
-        "tel": "98874876"
+        "category_list": [
+          {
+            "id": "108427109235243",
+            "name": "Home Improvement"
+          },
+          {
+            "id": "2248",
+            "name": "Consulting Agency"
+          },
+          {
+            "id": "400062273344681",
+            "name": "Engineering Service"
+          }
+        ]
       }
     }
   ],

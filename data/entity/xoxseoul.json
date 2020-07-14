@@ -10,16 +10,25 @@
     {
       "url": "https://www.facebook.com/xoxseoul/",
       "meta": {
-        "name": "XOXseoul",
         "id": "400838097022775",
+        "username": "xoxseoul",
+        "name": "XOXseoul",
         "about": "Trendy Korean Fashion Store",
-        "categories": [
-          "Clothing (Brand)",
-          "Women's Clothing Store"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "128753240528981",
+            "name": "Women's Clothing Store"
+          }
         ],
-        "addr": "Shop 1411B, 14/F, Ho King Commercial Building",
-        "area": "Mong Kok",
-        "email": "sales@xoxseoul.com"
+        "emails": [
+          "sales@xoxseoul.com"
+        ],
+        "single_line_address": "Shop 1411B, 14/F, Ho King Commercial Building, Mong Kok",
+        "website": "xoxseoul.com"
       }
     },
     {

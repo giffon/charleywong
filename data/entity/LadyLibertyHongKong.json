@@ -17,15 +17,28 @@
     },
     {
       "meta": {
-        "name": "Lady Liberty HK 香港民主女神",
         "id": "101834271203015",
+        "username": "LadyLibertyHongKong",
+        "name": "Lady Liberty HK 香港民主女神",
         "about": "「香港民主女神」的創立是為了賦予港人希望與信念，從而開拓追求民主的光明大道；另外，組識亦希望借此喚醒國際對港人民主抗爭的關注。",
-        "categories": [
-          "Art",
-          "Cause",
-          "Nonprofit Organization"
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "2606",
+            "name": "Cause"
+          }
         ],
-        "email": "admin@ladylibertyhongkong.com"
+        "emails": [
+          "cs@ladylibertyhongkong.com"
+        ],
+        "website": "https://ladylibertyhongkong.com"
       },
       "url": "https://www.facebook.com/LadyLibertyHongKong/"
     },

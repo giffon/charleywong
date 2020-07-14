@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
+        "id": "345381482151416",
+        "username": "tdf.myartworks",
+        "name": "TDF 展才坊「自家創藝」",
         "about": "「自家創藝」－本土品牌為你貼心打造心愛的布藝。件件人手製作，訂造數量不拘。\n支持小社企。實踐良心消費。推動環保「升級再生」。復興「香港製造」。以消費改變世界，你我做得到！",
-        "categories": [
-          "Shopping & retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "talent.tdf@gmail.com",
-        "tel": "27708779",
-        "id": "345381482151416"
+        "emails": [
+          "talent.tdf@gmail.com"
+        ],
+        "single_line_address": "talent.tdf@gmail.com, 香港九龍油麻地"
       },
       "url": "https://www.facebook.com/tdf.myartworks/"
     }

@@ -8,17 +8,20 @@
     {
       "url": "https://www.facebook.com/546127485867291/",
       "meta": {
-        "name": "Meowcastlehk 貓喵堡",
         "id": "546127485867291",
+        "name": "Meowcastlehk 貓喵堡",
         "about": "Meowcastle貓喵堡是一間位於尖沙咀的樓上貓cafe, 提供飲品輕食。小清新的設計希望帶給貓喵和顧客寧靜舒適的環境，享受在貓家的感覺。\nMeowcastle愛護動物，尊重生命，支持領養代替購買。",
-        "categories": [
-          "Pet Cafe",
-          "Pet Adoption Service"
+        "category_list": [
+          {
+            "id": "988079354639718",
+            "name": "Pet Cafe"
+          }
         ],
-        "addr": "尖沙咀寶勒巷27號東匯商業大廈7樓\n7/F Tung Wui Commercial Building, 27 Prat Avenue, Tsim Sha Tsui, Kowloon",
-        "area": "Hong Kong",
-        "email": "meowcastlehk@gmail.com",
-        "tel": "62512147"
+        "emails": [
+          "meowcastlehk@gmail.com"
+        ],
+        "single_line_address": "尖沙咀寶勒巷27號東匯商業大廈7樓\n7/F Tung Wui Commercial Building, 27 Prat Avenue, Tsim Sha Tsui, Kowloon, Hong Kong",
+        "website": "http://bit.do/meowcastle"
       }
     },
     {

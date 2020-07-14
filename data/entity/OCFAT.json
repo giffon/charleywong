@@ -11,13 +11,20 @@
     {
       "url": "https://www.facebook.com/OCFAT/",
       "meta": {
-        "name": "Lau Kin Lam - 林仔",
         "id": "1151498521542814",
+        "username": "OCFAT",
+        "name": "Lau Kin Lam - 林仔",
         "about": "2015年G.SKILL OC World CUP 大賽總冠軍",
-        "categories": [
-          "Public Figure"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          }
         ],
-        "email": "laukinlam@gmail.com"
+        "emails": [
+          "laukinlam@gmail.com"
+        ],
+        "website": "https://lamdiy.wordpress.com/"
       }
     },
     {

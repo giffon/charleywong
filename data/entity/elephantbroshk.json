@@ -11,13 +11,17 @@
     {
       "url": "https://www.facebook.com/elephantbroshk/",
       "meta": {
-        "name": "笨象生活 Elephant Bros",
         "id": "1074060346082791",
+        "username": "elephantbroshk",
+        "name": "笨象生活 Elephant Bros",
         "about": "耳塞專門店",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "tel": "68003073"
+        "website": "https://www.elephantbros.com"
       }
     },
     {

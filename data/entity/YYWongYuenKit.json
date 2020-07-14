@@ -7,11 +7,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "YY Wong 歪歪王",
         "id": "266896930327380",
+        "username": "YYWongYuenKit",
+        "name": "YY Wong 歪歪王",
         "about": "顧左右而言他。\n\nInstagram： https://www.instagram.com/yywongyk/",
-        "categories": [
-          "Author"
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          }
         ]
       },
       "url": "https://www.facebook.com/YYWongYuenKit/"

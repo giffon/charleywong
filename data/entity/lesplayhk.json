@@ -10,14 +10,20 @@
     {
       "meta": {
         "id": "889025764567737",
+        "username": "lesplayhk",
+        "name": "Les'Play HK",
         "about": "香港首間專為女同志而設的成人用品店，\n落地推廣正面性教育，\n希望讓小眾的聲音和需要亦能被聽見。\n\nFor Girls, By Girls.",
-        "categories": [
-          "Health/beauty"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "addr": "尖沙咀嘉蘭圍5-11號利時商業大廈13樓1305室",
-        "area": "Tsim Sha Tsui",
-        "email": "info@lesplayhk.com",
-        "tel": "91353594"
+        "emails": [
+          "info@lesplayhk.com"
+        ],
+        "single_line_address": "尖沙咀嘉蘭圍5-11號利時商業大廈13樓1305室, Tsim Sha Tsui",
+        "website": "http://www.lesplayhk.com"
       },
       "url": "https://www.facebook.com/lesplayhk/"
     },

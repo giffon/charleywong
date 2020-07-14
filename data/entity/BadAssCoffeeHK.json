@@ -6,13 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "Bad Ass Coffee",
         "id": "333013757116292",
+        "username": "BadAssCoffeeHK",
+        "name": "Bad Ass Coffee",
         "about": "Japanese Specialties coffee dealer.\n\nOur beans are roasted in Japan and ship to Hong Kong once it been made.\n\nUnique . Unbalance . Unbearable",
-        "categories": [
-          "Pub"
+        "category_list": [
+          {
+            "id": "218693881483234",
+            "name": "Pub"
+          }
         ],
-        "tel": "61621253"
+        "single_line_address": "31 Wing Wo Street Sheung Wan, Hong Kong"
       },
       "url": "https://www.facebook.com/BadAssCoffeeHK/"
     },

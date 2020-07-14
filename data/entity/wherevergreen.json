@@ -11,11 +11,16 @@
     {
       "url": "https://www.facebook.com/wherevergreen/",
       "meta": {
-        "name": "綠活地圖wherevergreen.hk",
         "id": "1610038632647025",
-        "categories": [
-          "Community"
-        ]
+        "username": "wherevergreen",
+        "name": "綠活地圖wherevergreen.hk",
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
+        ],
+        "website": "http://www.wherevergreen.hk"
       }
     }
   ],

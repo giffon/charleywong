@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/catiscatcomhk/",
       "meta": {
-        "name": "天下貓貓一樣貓",
         "id": "943961778976489",
+        "username": "catiscatcomhk",
+        "name": "天下貓貓一樣貓",
         "about": "愛貓如己。愛界大同\n取之於貓。用之於貓\n天下貓貓。一樣貓",
-        "categories": [
-          "Pet Service"
+        "category_list": [
+          {
+            "id": "144982405562750",
+            "name": "Pet Service"
+          }
         ],
-        "addr": "八鄉錦上路 DD106 Lot 1479D 近八鄉蜆殼油站",
-        "area": "00 Hong Kong",
-        "email": "info@catiscat.com.hk",
-        "tel": "54966966"
+        "emails": [
+          "info@catiscat.com.hk"
+        ],
+        "single_line_address": "八鄉錦上路 DD106 Lot 1479D 近八鄉蜆殼油站, 00 Hong Kong",
+        "website": "http://www.catiscat.com.hk"
       }
     },
     {

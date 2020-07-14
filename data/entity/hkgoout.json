@@ -6,12 +6,20 @@
   "webpages": [
     {
       "meta": {
+        "id": "105056088086",
+        "username": "hkgoout",
+        "name": "GO OUT",
         "about": "Outdoor lifestyle in Hong Kong.",
-        "categories": [
-          "Recreation & sport website"
+        "category_list": [
+          {
+            "id": "2710",
+            "name": "Recreation & Sports Website"
+          }
         ],
-        "email": "info@goout.hk",
-        "id": "105056088086"
+        "emails": [
+          "info@goout.hk"
+        ],
+        "website": "http://www.goout.hk"
       },
       "url": "https://www.facebook.com/hkgoout/"
     }

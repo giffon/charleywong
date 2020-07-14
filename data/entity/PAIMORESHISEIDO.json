@@ -6,15 +6,22 @@
   "webpages": [
     {
       "meta": {
-        "name": "熱療直療專門店",
         "id": "1532967060150997",
+        "username": "PAIMORESHISEIDO",
+        "name": "熱療直療專門店",
         "about": "LaLa Hair 開業9年 處理無數髮型,口碑極佳,最擅長為梨花頭,內彎,上直下曲等髮.位置方便，從尖沙咀地鐵站步行只須1分鐘，環境寬敞舒適。",
-        "categories": [
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          }
         ],
-        "addr": "尖沙咀金馬倫道14A 一樓 �1/F, 14A,Cameron Road,Tsim Sha Tsui,Kowlonn",
-        "area": "Hong Kong",
-        "tel": "28277776"
+        "single_line_address": "尖沙咀金馬倫道14A 一樓 �1/F, 14A,Cameron Road,Tsim Sha Tsui,Kowlonn, Hong Kong",
+        "website": "lala.hk"
       },
       "url": "https://www.facebook.com/PAIMORESHISEIDO/"
     },

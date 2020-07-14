@@ -7,15 +7,16 @@
     {
       "url": "https://www.facebook.com/1520233164908495/",
       "meta": {
-        "name": "Tomo The Bar",
         "id": "1520233164908495",
+        "name": "Tomo  The Bar",
         "about": "This is the hippest hangout in town",
-        "categories": [
-          "Pub"
+        "category_list": [
+          {
+            "id": "218693881483234",
+            "name": "Pub"
+          }
         ],
-        "addr": "No. 9, Warren Street, Tai Hang",
-        "area": "Hong Kong",
-        "tel": "93787856"
+        "single_line_address": "No. 2, Warren Street, Tai Hang, Hong Kong"
       }
     }
   ],

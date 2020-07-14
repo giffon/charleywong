@@ -13,15 +13,18 @@
     {
       "url": "https://www.facebook.com/HoffeCoffeeHK/",
       "meta": {
-        "name": "Hoffe Coffee Hong Kong",
         "id": "334823037213198",
-        "about": "HOFFE Coffee以自行研發及台灣設計製造的HOFFE ONE/II  咖啡機，搭配自家烘焙的咖啡隨行包，讓沖煮精品咖啡唾手可得，不再是一件麻煩事。",
-        "categories": [
-          "Coffee Shop"
+        "username": "HoffeCoffeeHK",
+        "name": "Hoffe Coffee Hong Kong",
+        "about": "HOFFE Coffee以自行研發及台灣設計製造的HOFFE ONE/II  咖啡機，搭配自家烘焙的咖啡隨行包，讓沖煮精品咖啡唾手可得，不再是一件麻煩事。\n",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "Shop No. C6 , Kam Sheung Road Station Market,West Rail, Yuen Long,N.T.,",
-        "area": "Hong Kong",
-        "tel": "96203797"
+        "single_line_address": "Shop No. C6 , Kam Sheung Road Station Market,West Rail, Yuen Long,N.T.,, Hong Kong",
+        "website": "https://www.instagram.com/hoffecoffeehk/"
       }
     }
   ],

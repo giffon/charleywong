@@ -10,11 +10,19 @@
     {
       "meta": {
         "id": "121190604576563",
-        "about": "Hong Kong Photographer, providing exquisite wedding & other photography service.\nEmail: info@myskyblue.com",
-        "categories": [
-          "Photographer"
+        "username": "myskyblue",
+        "name": "MySkyblue Photography",
+        "about": "Hong Kong Photographer, providing exquisite wedding & other photography service. \nEmail: info@myskyblue.com",
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "info@myskyblue.com"
+        "emails": [
+          "info@myskyblue.com"
+        ],
+        "website": "http://www.myskyblue.com"
       },
       "url": "https://www.facebook.com/myskyblue/"
     }

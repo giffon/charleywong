@@ -6,15 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Celia Celeste",
         "id": "291700884303768",
+        "username": "celianceleste",
+        "name": "Celia Celeste",
         "about": "集合Celia Celeste的手作飾物 • 服飾 • 生活日常 • 美食！",
-        "categories": [
-          "Arts & Crafts Store"
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "addr": "香港葵涌廣場三樓時尚坊38號",
-        "area": "Hong Kong",
-        "email": "celia9452@hotmail.com"
+        "emails": [
+          "celia9452@hotmail.com"
+        ],
+        "single_line_address": "香港葵涌廣場三樓時尚坊38號, Hong Kong",
+        "website": "http://celia9452.wixsite.com/celiaceleste"
       },
       "url": "https://www.facebook.com/celianceleste/"
     },

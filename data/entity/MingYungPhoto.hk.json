@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "Ming Yung Photo - Hong Kong Wedding Photographer",
         "id": "134742349916500",
+        "username": "MingYungPhoto.hk",
+        "name": "Ming Yung Photo - Hong Kong Wedding Photographer",
         "about": "香港Best 10婚禮攝影師Ming Yung",
-        "categories": [
-          "Photographer",
-          "Wedding Planning Service"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong",
-        "email": "ming@mingyungphoto.com",
-        "tel": "65331537"
+        "emails": [
+          "ming@mingyungphoto.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "www.mingyungphoto.com/mingyung"
       },
       "url": "https://www.facebook.com/MingYungPhoto.hk/"
     },

@@ -8,14 +8,20 @@
     {
       "url": "https://www.facebook.com/alabeeexp/",
       "meta": {
-        "name": "翼蜂速運 Ala Bee Ex.",
         "id": "103785201323758",
+        "username": "AlaBeeExp",
+        "name": "翼蜂速運 Ala Bee Express",
         "about": "翼蜂速運 與港人同行",
-        "categories": [
-          "Shipping Supply & Service"
+        "category_list": [
+          {
+            "id": "202313297006280",
+            "name": "Shipping Supply & Service"
+          }
         ],
-        "email": "info@alabee-ex.com",
-        "tel": "94490170"
+        "emails": [
+          "info@alabee-ex.com"
+        ],
+        "single_line_address": "新界沙田石門"
       }
     },
     {

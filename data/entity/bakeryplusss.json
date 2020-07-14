@@ -11,18 +11,29 @@
     {
       "url": "https://www.facebook.com/bakeryplusss/",
       "meta": {
-        "name": "烘焙。家 Bakery Plus",
         "id": "1816175505333218",
-        "about": "｜Pastry Class & Tailor-made Cakery |\n食物製造廠牌照 : 49 51 811766",
-        "categories": [
-          "Shopping & Retail",
-          "Cupcake Shop",
-          "Wholesale Bakery"
+        "username": "bakeryplusss",
+        "name": "烘焙。家 Bakery Plus",
+        "about": "｜Pastry Class & Tailor-made Cakery |\n食物製造廠牌照 : 49 51 811766\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "325310894151007",
+            "name": "Cupcake Shop"
+          },
+          {
+            "id": "1013107675469307",
+            "name": "Wholesale Bakery"
+          }
         ],
-        "addr": "觀塘成業街19-21號成業工業大廈834",
-        "area": "Hong Kong",
-        "email": "bakeryplusss@hotmail.com",
-        "tel": "92697818"
+        "emails": [
+          "bakeryplusss@hotmail.com"
+        ],
+        "single_line_address": "觀塘成業街19-21號成業工業大廈834, Hong Kong",
+        "website": "http://bakeryplus.boutir.com"
       }
     },
     {

@@ -6,16 +6,23 @@
   "webpages": [
     {
       "meta": {
-        "name": "Chopchop",
         "id": "151408108973366",
-        "categories": [
-          "Restaurant",
-          "Coffee Shop"
+        "username": "chopchopcafe",
+        "name": "Chopchop",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "厚德商場地下EF06號店",
-        "area": "HK Hang Hau",
-        "email": "chopchopinfohk@gmail.com",
-        "tel": "23509309"
+        "emails": [
+          "chopchopinfohk@gmail.com"
+        ],
+        "single_line_address": "厚德商場地下EF06號店, HK Hang Hau"
       },
       "url": "https://www.facebook.com/chopchopcafe/"
     }

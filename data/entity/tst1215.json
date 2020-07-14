@@ -8,14 +8,20 @@
     {
       "url": "https://www.facebook.com/tst1215/",
       "meta": {
-        "name": "EC Beauty 雅凝美肌美容中心",
         "id": "2174780602541702",
-        "about": "EC Beauty雅凝美肌美容中心致力為顧客提供優質美容服務，配合舒適環境為每一位顧客帶來身心靈放鬆，展現最美的一面。",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care"
+        "username": "tst1215",
+        "name": "EC Beauty 雅凝美肌美容中心",
+        "about": "EC Beauty雅凝美肌美容中心致力為顧客提供優質美容服務，配合舒適環境為每一位顧客帶來身心靈放鬆，留住青春，展現最美的一面。",
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "email": "ecbeauty1215@gmail.com",
-        "tel": "60857138"
+        "emails": [
+          "ecbeauty1215@gmail.com"
+        ],
+        "single_line_address": "尖沙咀北京道, Hong Kong"
       }
     }
   ],

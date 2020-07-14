@@ -7,16 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "小時候ChildhoodBakery",
         "id": "375676832803055",
-        "about": "人手用心製造  創意麵包(持食物製造廠牌照)\n無添加不加防腐劑 天然食材\n♡尋回大家小時候最簡單快樂的味道♡",
-        "categories": [
-          "Bakery"
+        "username": "ChildhoodBakery",
+        "name": "小時候ChildhoodBakery",
+        "about": "人手用心製造  創意麵包(持食物製造廠牌照)\n無添加不加防腐劑 天然食材\n♡尋回大家小時候最簡單快樂的味道♡\n",
+        "category_list": [
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          }
         ],
-        "addr": "Shop C3 G/F, Wing Hin Factory Building",
-        "area": "San Po Kong",
-        "email": "childhood.bakery@gmail.com",
-        "tel": "95730988"
+        "emails": [
+          "childhood.bakery@gmail.com"
+        ],
+        "single_line_address": "Shop C3 G/F, Wing Hin Factory Building, San Po Kong"
       },
       "url": "https://www.facebook.com/ChildhoodBakery/"
     },

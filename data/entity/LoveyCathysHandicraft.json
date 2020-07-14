@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "LoveyCathy's Handicraft",
         "id": "127149733989939",
+        "username": "LoveyCathysHandicraft",
+        "name": "LoveyCathy's Handicraft",
         "about": "Unique & Delicate\n\n你的口金包專門店",
-        "categories": [
-          "Artist"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "loveycathy@gmail.com"
+        "emails": [
+          "loveycathy@gmail.com"
+        ],
+        "single_line_address": "Hong Kong"
       },
       "url": "https://www.facebook.com/LoveyCathysHandicraft/"
     },

@@ -11,13 +11,18 @@
     {
       "url": "https://www.facebook.com/RTHK.HK/",
       "meta": {
-        "name": "RTHK 香港電台",
         "id": "146094608749288",
-        "about": "RTHK (Radio Television Hong Kong) is the sole public broadcaster in Hong Kong, providing radio, TV and Internet multimedia services to the public. 香港電台是香港唯一的公營廣播機構，提供電台、電視及網上多媒體服務。",
-        "categories": [
-          "Media/News Company"
+        "username": "RTHK.HK",
+        "name": "RTHK 香港電台",
+        "about": "RTHK (Radio Television Hong Kong)  is the sole public broadcaster in Hong Kong, providing radio, TV and Internet multimedia services to the public.   香港電台是香港唯一的公營廣播機構，提供電台、電視及網上多媒體服務。",
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "tel": "23396300"
+        "single_line_address": "30 Broadcast Drive, Kowloon, Hong Kong 香港九龍廣播道三十號",
+        "website": "http://rthk.hk"
       }
     },
     {

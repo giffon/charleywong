@@ -7,16 +7,24 @@
     {
       "url": "https://www.facebook.com/IlluminationBooks/",
       "meta": {
-        "name": "浮光書店",
         "id": "1517481308263607",
-        "about": "小型獨立書店｜電影、攝影、文哲、療癒｜動物友善，性別友善｜供閱讀、咖啡與茶 、free wifi。\n支付方式｜現金、信用卡、Apple Pay、Samsung Pay",
-        "categories": [
-          "Independent Bookstore",
-          "Coffee Shop"
+        "username": "IlluminationBooks",
+        "name": "浮光書店",
+        "about": "獨立書店｜文哲、社會、影像｜動物友善｜性別友善｜咖啡、茶、酒、點心｜ free wifi。\n支付方式｜現金、信用卡、Apple Pay、Samsung Pay。",
+        "category_list": [
+          {
+            "id": "387228845011016",
+            "name": "Independent Bookstore"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "赤峰街47巷16號2樓",
-        "area": "Taipei, Taiwan",
-        "email": "illuminationbooks.taipei@gmail.com"
+        "emails": [
+          "illuminationbooks.taipei@gmail.com"
+        ],
+        "single_line_address": "赤峰街47巷16號2樓, Taipei, Taiwan 103"
       }
     },
     {

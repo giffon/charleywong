@@ -7,14 +7,24 @@
     {
       "url": "https://www.facebook.com/imalfredchan/",
       "meta": {
-        "name": "Alfred Chan",
         "id": "520273228356224",
+        "username": "imalfredchan",
+        "name": "Alfred Chan",
         "about": "美食、旅遊、打機、開箱! 內容多元化。我會在這裡分享我喜歡的點點滴滴和生活體驗。",
-        "categories": [
-          "Video Creator",
-          "Blogger"
+        "category_list": [
+          {
+            "id": "1817904601806120",
+            "name": "Video Creator"
+          },
+          {
+            "id": "361282040719868",
+            "name": "Blogger"
+          }
         ],
-        "email": "imalfredchan@gmail.com"
+        "emails": [
+          "imalfredchan@gmail.com"
+        ],
+        "website": "www.youtube.com/c/alfredchan"
       }
     },
     {

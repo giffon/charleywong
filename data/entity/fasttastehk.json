@@ -7,18 +7,28 @@
     {
       "url": "https://www.facebook.com/fasttastehk/",
       "meta": {
-        "name": "Fast Taste",
         "id": "598237310338384",
+        "username": "fasttastehk",
+        "name": "Fast Taste",
         "about": "餐廳裝潢休閒具工業風，倡有葷有素的西式煮意!\n(漢堡包，意粉，意大利飯，沙律，小食)\n(Burger/Pasta/Risotto/Salad/Sides)\n小店由老闆兼廚師主理，提供「派對到會」，歡迎查詢。",
-        "categories": [
-          "Burger Restaurant",
-          "New American Restaurant",
-          "Continental Restaurant"
+        "category_list": [
+          {
+            "id": "187425207958280",
+            "name": "Burger Restaurant"
+          },
+          {
+            "id": "110107385737667",
+            "name": "New American Restaurant"
+          },
+          {
+            "id": "197227066968500",
+            "name": "Continental Restaurant"
+          }
         ],
-        "addr": "No.482-492 Un Chau Street, Kowloon",
-        "area": "00000 Cheung Sha Wan, Hong Kong",
-        "email": "fasttaste.kitchen@gmail.com",
-        "tel": "91233262"
+        "emails": [
+          "fasttaste.kitchen@gmail.com"
+        ],
+        "single_line_address": "No.482-492 Un Chau Street, Kowloon, 00000 Cheung Sha Wan, Hong Kong"
       }
     },
     {

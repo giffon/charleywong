@@ -10,16 +10,20 @@
     {
       "url": "https://www.facebook.com/slowcookgoodfood2018/",
       "meta": {
-        "name": "Slow Cook Good Food",
         "id": "239658746579186",
-        "categories": [
-          "French Restaurant",
-          "Asian Fusion Restaurant"
+        "username": "slowcookgoodfood2018",
+        "name": "Slow Cook Good Food",
+        "category_list": [
+          {
+            "id": "168976549819329",
+            "name": "French Restaurant"
+          }
         ],
-        "addr": "G/F, 12 Kau U Fong, Central",
-        "area": "HK Hong Kong",
-        "email": "slowcookgoodfood@gmail.com",
-        "tel": "26868101"
+        "emails": [
+          "slowcookgoodfood@gmail.com"
+        ],
+        "single_line_address": "G/F, 12 Kau U Fong, Central, HK Hong Kong",
+        "website": "https://slowcookgoodfood.com"
       }
     },
     {

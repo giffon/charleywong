@@ -7,15 +7,24 @@
     {
       "meta": {
         "id": "1181659711886577",
-        "about": "Route 83就係代表廣福道嘅83號\n係一間美式公路主題餐廳\n大部分嘅醬料同食物都係由廚師親自調製\n漢堡、薄餅、各色醬料等，都充滿著我地嘅心意�",
-        "categories": [
-          "Coffee shop",
-          "Continental restaurant",
-          "Italian restaurant"
+        "username": "2016route83",
+        "name": "Route 83",
+        "about": "Route 83就係代表廣福道嘅83號\n係一間美式公路主題餐廳\n大部分嘅醬料同食物都係由廚師親自調製\n漢堡、薄餅、各色醬料等，都充滿著我地嘅心意�\n",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "197227066968500",
+            "name": "Continental Restaurant"
+          },
+          {
+            "id": "193831710644458",
+            "name": "Italian Restaurant"
+          }
         ],
-        "addr": "G/F,No.83,kwong fuk road",
-        "area": "Tai-Po-Hui, Hong Kong",
-        "tel": "26384138"
+        "single_line_address": "G/F,No.83,kwong fuk road, 852 Tai-Po-Hui, Hong Kong"
       },
       "url": "https://www.facebook.com/2016route83/"
     }

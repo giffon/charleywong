@@ -11,13 +11,17 @@
     {
       "url": "https://www.facebook.com/ACAPcoconut/",
       "meta": {
-        "name": "A CAP 椰子油",
         "id": "379845752102519",
+        "username": "ACAPcoconut",
+        "name": "A CAP 椰子油",
         "about": "冷壓100%純鮮初榨椰子油\n產地泰國",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "tel": "23826393"
+        "website": "www.acaphk.com"
       }
     }
   ],

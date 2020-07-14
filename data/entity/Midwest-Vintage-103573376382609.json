@@ -7,17 +7,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Midwest Vintage",
         "id": "103573376382609",
-        "about": "天后店: 天后屈臣道15號維多利中心58號地鋪(營業時間11am-9pm)\nTel: 28026886\n\n旺角店：旺角窩打老道45號賀賢居地下A鋪(營業時間12nn-10pm)\nTel: 23288757",
-        "categories": [
-          "Retail Company",
-          "Clothing Store"
+        "name": "Midwest Vintage",
+        "about": "天后店: 天后屈臣道15號維多利中心58號地鋪\nTel: 28026886\n\n油麻地店：油麻地窩打老道45號賀賢居地下A鋪\nTel: 23288757\n\n旺角店：旺角上海街618號1樓101A\nTel: 23288968",
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          }
         ],
-        "addr": "Midwest Co., Shop 58, G/F, Victoria Centre, 15 Watson Road, North Point",
-        "area": "Hong Kong",
-        "email": "info@midwest-vintage.com",
-        "tel": "28026886"
+        "emails": [
+          "info@midwest-vintage.com"
+        ],
+        "single_line_address": "Midwest Co., Shop 58, G/F, Victoria Centre, 15 Watson Road, North Point, 0000 Hong Kong",
+        "website": "http://www.midwest-vintage.com"
       },
       "url": "https://www.facebook.com/103573376382609/"
     },

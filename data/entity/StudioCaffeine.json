@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "Studio Caffeine",
         "id": "1507811522796204",
+        "username": "StudioCaffeine",
+        "name": "Studio Caffeine",
         "about": "Studio Caffeine是一間售賣精品咖啡和舉辦咖啡工作坊為主的咖啡廳。",
-        "categories": [
-          "Coffee Shop",
-          "Breakfast & Brunch Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          }
         ],
-        "addr": "284 Temple Street (Near Austin Road)",
-        "area": "Tsim Sha Tsui",
-        "email": "info@studiocaffeine.com.hk",
-        "tel": "27933480"
+        "emails": [
+          "info@studiocaffeine.com.hk"
+        ],
+        "single_line_address": "284 Temple Street (Near Austin Road), Tsim Sha Tsui",
+        "website": "http://www.studiocaffeine.com.hk"
       },
       "url": "https://www.facebook.com/StudioCaffeine/"
     },

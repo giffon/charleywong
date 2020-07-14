@@ -7,30 +7,37 @@
     {
       "url": "https://www.facebook.com/AquariumGrassHouse/",
       "meta": {
-        "name": "水草苑",
         "id": "1580398355586309",
+        "username": "AquariumGrassHouse",
+        "name": "水草苑",
         "about": "L24 , L25, L46, L173, L236, L333, L273, L600, LDA105",
-        "categories": [
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "九龍旺角道97號王子大廈3樓D室(近旺角地鐵站B2出口)",
-        "area": "香港 Hong Kong",
-        "tel": "26825281"
+        "single_line_address": "九龍旺角道97號王子大廈3樓D室(近旺角地鐵站B2出口), 香港 Hong Kong"
       }
     },
     {
       "url": "https://www.facebook.com/aghclub/",
       "meta": {
-        "name": "Aghclub",
         "id": "142876482441081",
+        "username": "aghclub",
+        "name": "Aghclub",
         "about": "野生琵琶魚專門店 ( PLECO SHOP )",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "旺角道97號王子大廈3樓D室",
-        "area": "Hong Kong",
-        "email": "info@agh.com.hk",
-        "tel": "60968829"
+        "emails": [
+          "info@agh.com.hk"
+        ],
+        "single_line_address": "旺角道97號王子大廈3樓D室, Hong Kong",
+        "website": "http://www.agh.com.hk/"
       }
     }
   ],

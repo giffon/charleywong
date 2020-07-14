@@ -7,15 +7,24 @@
     {
       "url": "https://www.facebook.com/isweets317/",
       "meta": {
-        "name": "iSweets317 Studio - isweet",
         "id": "838987212905233",
+        "username": "isweets317",
+        "name": "ISweets317 - isweet",
         "about": "位於柴灣鄰近地鐵站\n小班DIY教學適合零廚藝地獄廚神的您\n持有香港商業登記 : 56***402\niSweet317與Ms.Chef for you合作\n食物製造廠牌照:2951805097\n歡迎查詢whatsapp📞63578315",
-        "categories": [
-          "Kitchen/Cooking",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "isweets317@gmail.com",
-        "tel": "63578315"
+        "emails": [
+          "isweets317@gmail.com"
+        ],
+        "single_line_address": "852 Chai Wan"
       }
     },
     {

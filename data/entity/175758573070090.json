@@ -6,14 +6,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "mimila",
         "id": "175758573070090",
-        "categories": [
-          "Malaysian Restaurant"
+        "name": "mimila",
+        "category_list": [
+          {
+            "id": "198383150193535",
+            "name": "Malaysian Restaurant"
+          }
         ],
-        "addr": "新城市廣場1期704",
-        "area": "Sha Tin, Hong Kong",
-        "tel": "24789398"
+        "single_line_address": "新城市廣場1期704, HK Sha Tin, Hong Kong"
       },
       "url": "https://www.facebook.com/175758573070090/"
     }

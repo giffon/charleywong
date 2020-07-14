@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "城寨",
         "id": "642515382497502",
-        "about": "PayPal 課金: http://www.singjai.hk/donation\nFPS : 6809941 MGuru L*****\n\n銀行帳戶/支票抬頭： MGuru Ltd.\n銀行帳號：250-390-4130-2079\n銀行名稱：Citibank HK \n\n網上轉帳/跨銀行轉 ATM\t\t輸入帳號：4130-2079",
-        "categories": [
-          "Radio Station"
+        "username": "kowloonsingjai",
+        "name": "城寨",
+        "about": "PayPal 課金: http://www.singjai.hk/donation\nFPS : 6809941 MGuru L*****\n\n銀行帳戶/支票抬頭： MGuru Ltd.\n銀行帳號：250-390-4130-2079\n銀行名稱：Citibank HK \n\n網上轉帳/跨銀行轉 ATM\t\t輸入帳號：4130-2079\n",
+        "category_list": [
+          {
+            "id": "1210",
+            "name": "Radio Station"
+          }
         ],
-        "email": "kowloonsingjai@gmail.com",
-        "tel": "25121002"
+        "emails": [
+          "kowloonsingjai@gmail.com"
+        ],
+        "single_line_address": "觀塘偉業街116號聯邦工業大厦2樓 \n2F Union Industrial Bldg., 116 Wai Yip St., Kwun Tong, HK",
+        "website": "http://singjai.hk"
       },
       "url": "https://www.facebook.com/kowloonsingjai/"
     },

@@ -7,14 +7,16 @@
     {
       "url": "https://www.facebook.com/shiweihk/",
       "meta": {
-        "name": "拾味山西刀削麵館",
         "id": "194466387855450",
-        "categories": [
-          "Restaurant"
+        "username": "shiweihk",
+        "name": "拾味山西刀削麵館",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "灣仔道212-214號A鋪",
-        "area": "852 Hong Kong",
-        "tel": "28196635"
+        "single_line_address": "灣仔道212-214號A鋪, 852 Hong Kong"
       }
     }
   ],

@@ -8,15 +8,28 @@
     {
       "url": "https://www.facebook.com/HelloJoeTay/",
       "meta": {
-        "name": "鄭敬基 Joe Tay",
         "id": "252483398206116",
+        "username": "HelloJoeTay",
+        "name": "鄭敬基 Joe Tay",
         "about": "Hello everyone",
-        "categories": [
-          "Artist",
-          "Video Creator",
-          "Advertising/Marketing"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "1817904601806120",
+            "name": "Video Creator"
+          },
+          {
+            "id": "1757592557789532",
+            "name": "Advertising/Marketing"
+          }
         ],
-        "email": "mrs.angietay@gmail.com"
+        "emails": [
+          "mrs.angietay@gmail.com"
+        ],
+        "single_line_address": "00000 Causeway Bay"
       }
     },
     {

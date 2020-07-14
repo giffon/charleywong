@@ -7,17 +7,28 @@
     {
       "url": "https://www.facebook.com/hushushcoffee/",
       "meta": {
-        "name": "hushush ice cream . coffee",
         "id": "637242033323802",
-        "about": "Homemade ice cream shop with specialty coffee & chocolate.",
-        "categories": [
-          "Coffee Shop",
-          "Ice Cream Shop",
-          "Bagel Shop"
+        "username": "hushushcoffee",
+        "name": "hushush ice cream . coffee",
+        "about": "Homemade ice cream shop with specialty coffee & chocolate. ",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "200863816597800",
+            "name": "Ice Cream Shop"
+          },
+          {
+            "id": "1545764135732572",
+            "name": "Bagel Shop"
+          }
         ],
-        "addr": "58/72 Fu Man Rd, 33 Ko Fu Building, Sai Kung",
-        "area": "Sai Kung",
-        "email": "hushushcoffee@gmail.com"
+        "emails": [
+          "hushushcoffee@gmail.com"
+        ],
+        "single_line_address": "58/72 Fu Man Rd, 33 Ko Fu Building, Sai Kung, Sai Kung"
       }
     },
     {

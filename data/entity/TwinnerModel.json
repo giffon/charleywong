@@ -10,17 +10,26 @@
     },
     {
       "meta": {
-        "name": "千里達玩具模型公司 TwinnerModel",
         "id": "898534926885385",
+        "username": "TwinnerModel",
+        "name": "千里達玩具模型公司 TwinnerModel",
         "about": "千里達模型玩具公司專營各種組裝模型、塗料及製作工具。為滿足顧客不同需要，致力從日美歐等國家網羅不同款式及高質素商品，以更優惠價格，為顧客提供更方便之購物渠道。",
-        "categories": [
-          "Toy Store",
-          "Merchandising Service",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          },
+          {
+            "id": "169363643109176",
+            "name": "Merchandising Service"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "九龍旺角洗衣街125地下。G/F., 125 Sai Yee Street, Mongkok",
-        "area": "Hong Kong",
-        "tel": "23950043"
+        "single_line_address": "九龍旺角洗衣街125地下。G/F., 125 Sai Yee Street, Mongkok, Hong Kong",
+        "website": "https://www.twinnermodel.com"
       },
       "url": "https://www.facebook.com/TwinnerModel/"
     },

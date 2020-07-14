@@ -6,10 +6,13 @@
   "webpages": [
     {
       "meta": {
-        "name": "Instant20",
         "id": "191553037636352",
-        "categories": [
-          "Camera/Photo"
+        "name": "Instant20",
+        "category_list": [
+          {
+            "id": "2208",
+            "name": "Camera/Photo"
+          }
         ]
       },
       "url": "https://www.facebook.com/191553037636352/"

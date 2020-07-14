@@ -10,15 +10,24 @@
     },
     {
       "meta": {
-        "name": "Aiyo0o 哎喲零噢",
         "id": "2289413077832660",
+        "username": "aiyo0o",
+        "name": "Aiyo0o.com",
         "about": "購物從來都是一種感覺，因此我們已經為你精心挑選最好、最特別的東西。\n店長\naiyo0o.com",
-        "categories": [
-          "Website",
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "2202",
+            "name": "Website"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "email": "aiyo0o520@gmail.com",
-        "tel": "52871715"
+        "emails": [
+          "aiyo0o520@gmail.com"
+        ],
+        "website": "www.aiyo0o.com"
       },
       "url": "https://www.facebook.com/aiyo0o/"
     },

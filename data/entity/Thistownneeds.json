@@ -6,15 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Hidden Agenda: This Town Needs",
         "id": "119610724765294",
+        "username": "Thistownneeds",
+        "name": "Hidden Agenda: This Town Needs",
         "about": "Local & International live music, hand-craft beer, cultures and entertainment",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "179943432047564",
+            "name": "Performance & Event Venue"
+          }
         ],
-        "addr": "1F, Commercial Accommodation, Ocean One, 6 Shung Shun Street",
-        "area": "852 Kwun Tong",
-        "email": "thistownneeds@gmail.com"
+        "emails": [
+          "thistownneeds@gmail.com"
+        ],
+        "single_line_address": "1F, Commercial Accommodation, Ocean One, 6 Shung Shun Street, 852 Kwun Tong",
+        "website": "www.thistownneeds.com"
       },
       "url": "https://www.facebook.com/Thistownneeds/"
     },

@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/shibaizakayahk/",
       "meta": {
-        "name": "Shiba しば",
         "id": "841930135841611",
+        "username": "shibaizakayahk",
+        "name": "Shiba しば",
         "about": "串焼き、お酒\nKushiyaki , Sake",
-        "categories": [
-          "Japanese Restaurant"
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "addr": "西環堅尼地城士美菲路11號地鋪",
-        "area": "Kennedy Town, Hong Kong",
-        "email": "shiba@keyakihk.com",
-        "tel": "35682425"
+        "emails": [
+          "shiba@keyakihk.com"
+        ],
+        "single_line_address": "西環堅尼地城士美菲路11號地鋪, Kennedy Town, Hong Kong",
+        "website": "http://keyakihk.com/shiba"
       }
     },
     {

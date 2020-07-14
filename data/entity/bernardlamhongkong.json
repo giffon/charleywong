@@ -8,13 +8,19 @@
     {
       "url": "https://www.facebook.com/bernardlamhongkong/",
       "meta": {
-        "name": "藍友斑 Bernard",
         "id": "1028988227111393",
+        "username": "bernardlamhongkong",
+        "name": "藍友斑 Bernard",
         "about": "建築師、物業投資者；業餘寫作。",
-        "categories": [
-          "Writer"
+        "category_list": [
+          {
+            "id": "1109",
+            "name": "Writer"
+          }
         ],
-        "email": "bernardlamhk@gmail.com"
+        "emails": [
+          "bernardlamhk@gmail.com"
+        ]
       }
     }
   ],

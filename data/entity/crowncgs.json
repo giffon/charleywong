@@ -11,12 +11,21 @@
     {
       "url": "https://www.facebook.com/crowncgs/",
       "meta": {
-        "name": "CROWN CGS",
         "id": "1450656865209974",
+        "username": "crowncgs",
+        "name": "CROWN CGS",
         "about": "皇冠爐具(集團)有限公司",
-        "categories": [
-          "Kitchen/Cooking"
-        ]
+        "category_list": [
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          }
+        ],
+        "emails": [
+          "cs@crown-cgs.com.hk"
+        ],
+        "single_line_address": "摩利臣山道22號地下",
+        "website": "http://crown-cgs.com.hk/"
       }
     },
     {

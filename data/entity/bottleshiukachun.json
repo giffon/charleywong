@@ -10,12 +10,19 @@
     {
       "meta": {
         "id": "148053572047302",
+        "username": "bottleshiukachun",
+        "name": "邵家臻",
         "about": "社福界立法會議員/浸大社工系講師/社工復興運動發起人/我信基督，不信基督教/屋邨仔，在石蔭村長大/雨傘人/貓型人/進步社會工作學派",
-        "categories": [
-          "Politician"
+        "category_list": [
+          {
+            "id": "1700",
+            "name": "Politician"
+          }
         ],
-        "email": "info@shiukachun.org.hk",
-        "tel": "23468669"
+        "emails": [
+          "info@shiukachun.org.hk"
+        ],
+        "website": "www.shiukachun.org.hk"
       },
       "url": "https://www.facebook.com/bottleshiukachun/"
     },

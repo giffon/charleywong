@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/moutonsweet/",
       "meta": {
-        "name": "Mouton Sweet",
         "id": "318719348198692",
+        "username": "moutonsweet",
+        "name": "Mouton Sweet",
         "about": "蛋糕曲奇蝴蝶酥專門店\n歡迎whatsapp / email / pm網上查詢及預訂\n預訂後可到工作室自取/預約送貨",
-        "categories": [
-          "Food & Beverage Company"
+        "category_list": [
+          {
+            "id": "2252",
+            "name": "Food & Beverage Company"
+          }
         ],
-        "addr": "1901 Ho Lik Centre, 64-66A Sha Tsui Road, Tsuen Wan",
-        "area": "Hong Kong",
-        "email": "moutonsweet@gmail.com",
-        "tel": "60111006"
+        "emails": [
+          "moutonsweet@gmail.com"
+        ],
+        "single_line_address": "1901 Ho Lik Centre, 64-66A Sha Tsui Road, Tsuen Wan, Hong Kong"
       }
     },
     {

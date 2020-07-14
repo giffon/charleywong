@@ -6,16 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "about": "全港首間兔Cafe，位於銅鑼灣，大家可以約埋三五知己上黎一齊與兔兔們共享歡樂時光\n\nFirst rabbit cafe in Hong Kong. Play with bunnies in cafe!!!\n\nPlease call 5281-0280 for reservation.",
-        "categories": [
-          "Pet service",
-          "Pet cafe",
-          "Coffee shop"
+        "id": "465573823652482",
+        "username": "rabbitlandcafe",
+        "name": "Rabbitland Cafe",
+        "about": "全港首間兔Cafe，位於銅鑼灣，大家可以約埋三五知己上黎一齊與兔兔們共享歡樂時光\n\nFirst rabbit cafe in Hong Kong. Play with bunnies in cafe!!!\n\nPlease call 5281-0280 for reservation. ",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "988079354639718",
+            "name": "Pet Cafe"
+          },
+          {
+            "id": "144982405562750",
+            "name": "Pet Service"
+          }
         ],
-        "addr": "銅鑼灣謝斐道530號3樓",
-        "area": "Causeway Bay",
-        "email": "info@rabbitland.com.hk",
-        "id": "465573823652482"
+        "emails": [
+          "info@rabbitland.com.hk"
+        ],
+        "single_line_address": "銅鑼灣謝斐道530號3樓, +852 Causeway Bay",
+        "website": "http://www.rabbitland.com.hk"
       },
       "url": "https://www.facebook.com/rabbitlandcafe/"
     }

@@ -8,10 +8,18 @@
     {
       "meta": {
         "id": "638645542897317",
-        "about": "A Page for Kidults.\n電影、動漫、玩具、遊戲、潮物，大人喜歡的玩物資訊專頁。",
-        "categories": [
-          "Games/toys",
-          "Magazine"
+        "username": "kidultstuff",
+        "name": "大人之玩物 Kidult Hobby",
+        "about": "A Page for Kidults.\n電影、動漫、玩具、遊戲、潮物，大人喜歡的玩物資訊專頁。\n",
+        "category_list": [
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          },
+          {
+            "id": "1307",
+            "name": "Magazine"
+          }
         ]
       },
       "url": "https://www.facebook.com/kidultstuff/"

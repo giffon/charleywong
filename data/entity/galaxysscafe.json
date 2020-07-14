@@ -14,17 +14,25 @@
     {
       "url": "https://www.facebook.com/galaxysscafe/",
       "meta": {
-        "name": "GALAXY SS CAFE",
         "id": "119943952732592",
+        "username": "galaxysscafe",
+        "name": "GALAXY SS CAFE",
         "about": "GALAXY SS CAFE",
-        "categories": [
-          "Cafe",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "尖沙咀赫德道4號5樓",
-        "area": "Kowloon, Hong Kong",
-        "email": "galaxysscafe@gmail.com",
-        "tel": "34682732"
+        "emails": [
+          "galaxysscafe@gmail.com"
+        ],
+        "single_line_address": "尖沙咀赫德道4號5樓, Kowloon, Hong Kong",
+        "website": "www.instagram.com/galaxy.shisha"
       }
     }
   ],

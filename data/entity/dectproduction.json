@@ -15,16 +15,21 @@
     },
     {
       "meta": {
-        "name": "DECT production",
         "id": "723766804405201",
+        "username": "dectproduction",
+        "name": "DECT production",
         "about": "一間為雙待青年提供就業機會的製作公司",
-        "categories": [
-          "Photography Videography"
+        "category_list": [
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          }
         ],
-        "addr": "九龍灣宏冠道鴻力工業中心506A  / RM 506A, Proficient Industrial Centre, Kowloon Bay",
-        "area": "000 Kowloon, Hong Kong",
-        "email": "dectpro@gmail.com",
-        "tel": "96599124"
+        "emails": [
+          "hello@dectpro.com"
+        ],
+        "single_line_address": "土瓜灣道86號順聯工業大廈3樓B室, 000 Kowloon, Hong Kong",
+        "website": "https://www.youtube.com/channel/UCQ1RPQknoXgcusG8vXsdBbw"
       },
       "url": "https://www.facebook.com/dectproduction/"
     },

@@ -11,11 +11,19 @@
     {
       "meta": {
         "id": "207945145910341",
-        "categories": [
-          "Non-governmental organisation (NGO)"
+        "username": "AFROhongkong",
+        "name": "青鳥 Action for Reach Out",
+        "category_list": [
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          }
         ],
-        "email": "contact@afro.org.hk",
-        "tel": "27701065"
+        "emails": [
+          "contact@afro.org.hk"
+        ],
+        "single_line_address": "P.O. Box 98108, Tsim Sha Tsui Post Office, Kowloon, Hong Kong.",
+        "website": "http://www.afro.org.hk"
       },
       "url": "https://www.facebook.com/AFROhongkong/"
     }

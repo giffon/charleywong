@@ -10,14 +10,28 @@
     {
       "meta": {
         "id": "1028836013898420",
+        "username": "hikingtommy",
+        "name": "行山達人",
         "about": "香港以致世界各地行山、玩水、Camp好去處及分享運動裝備的心得。",
-        "categories": [
-          "Local & travel website",
-          "Hiking trail",
-          "Sports"
+        "category_list": [
+          {
+            "id": "2715",
+            "name": "Local & Travel Website"
+          },
+          {
+            "id": "268946656794071",
+            "name": "Hiking Trail"
+          },
+          {
+            "id": "964585346994407",
+            "name": "Sports"
+          }
         ],
-        "email": "chungkaisun2012@gmail.com",
-        "tel": "67329930"
+        "emails": [
+          "chungkaisun2012@gmail.com"
+        ],
+        "single_line_address": "Room 420, Tin Hee House,",
+        "website": "https://hikingtommy.wordpress.com/"
       },
       "url": "https://www.facebook.com/hikingtommy/"
     }

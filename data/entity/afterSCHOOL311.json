@@ -6,13 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "AfterSCHOOL",
         "id": "186405831491451",
+        "username": "afterSCHOOL311",
+        "name": "AfterSCHOOL",
         "about": "handmade fashion store by miyakeSANDY",
-        "categories": [
-          "Interest"
+        "category_list": [
+          {
+            "id": "1500",
+            "name": "Interest"
+          }
         ],
-        "email": "afterschool@live.hk"
+        "emails": [
+          "afterschool@live.hk"
+        ]
       },
       "url": "https://www.facebook.com/afterSCHOOL311/"
     },

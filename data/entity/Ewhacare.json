@@ -10,18 +10,29 @@
     },
     {
       "meta": {
-        "name": "梨花 Ewha Care",
         "id": "298209563616016",
-        "about": "梨花的護膚化妝產品是經過嚴格的挑選和品質的把關，讓品質和美麗可以並肩而行，把優質的飾品分享給每個愛漂亮的妳們。",
-        "categories": [
-          "Skin Care Service",
-          "Retail Company",
-          "Cosmetics Store"
+        "username": "Ewhacare",
+        "name": "梨花 Ewha Care",
+        "about": "梨花的護膚化妝產品是經過嚴格的挑選和品質的把關，讓品質和美麗可以並肩而行，把優質的飾品分享給每個愛漂亮的妳們。\n",
+        "category_list": [
+          {
+            "id": "1644814599176740",
+            "name": "Skin Care Service"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "144873802247220",
+            "name": "Cosmetics Store"
+          }
         ],
-        "addr": "九龍觀塘開源道60號 駱駝漆大廈3座5樓A2室",
-        "area": "00000 Kwun Tong",
-        "email": "ewha.care@gmail.com",
-        "tel": "23041777"
+        "emails": [
+          "ewha.care@gmail.com"
+        ],
+        "single_line_address": "開源道68號官塘廣場3樓329店, 00000 Kwun Tong",
+        "website": "https://www.ewha-care.com"
       },
       "url": "https://www.facebook.com/Ewhacare/"
     },

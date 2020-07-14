@@ -11,12 +11,21 @@
     {
       "meta": {
         "id": "1293407377353709",
+        "username": "foreverbirds01",
+        "name": "忘不鳥 Forever Birds 鸚鵡店",
         "about": "Forevers Birds 忘不鳥鸚鵡店誕生基於以下概念:永遠陪伴我們的寵物鳥。\n\n我們的任務是以愛心,健康和專業，令寵物鳥能與主人建立關係，成為彼此的永遠。",
-        "categories": [
-          "Pet service",
-          "Pet shop"
+        "category_list": [
+          {
+            "id": "144982405562750",
+            "name": "Pet Service"
+          },
+          {
+            "id": "188573091164316",
+            "name": "Pet Store"
+          }
         ],
-        "tel": "51153634"
+        "single_line_address": "Hong Kong",
+        "website": "http://foreverbirds.shopolar.com/"
       },
       "url": "https://www.facebook.com/foreverbirds01/"
     }

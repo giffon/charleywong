@@ -8,16 +8,20 @@
     {
       "url": "https://www.facebook.com/arashiltd/",
       "meta": {
-        "name": "嵐屋 Arashi",
         "id": "1741799539393786",
+        "username": "arashiltd",
+        "name": "嵐屋 Arashi",
         "about": "嵐屋是一間用''心''制作的日本料理餐廳",
-        "categories": [
-          "Japanese Restaurant"
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "addr": "香港九龍黃大仙慈雲山蒲蕙里6-8號蒲蕙樓地下8號舖",
-        "area": "00852 Hong Kong",
-        "email": "arashiltd@outlook.com",
-        "tel": "23101220"
+        "emails": [
+          "arashiltd@outlook.com"
+        ],
+        "single_line_address": "香港九龍黃大仙慈雲山蒲蕙里6-8號蒲蕙樓地下8號舖, 00852 Hong Kong"
       }
     },
     {

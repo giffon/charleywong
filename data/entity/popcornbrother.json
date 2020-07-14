@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/popcornbrother/",
       "meta": {
-        "name": "Popcorn Brother",
         "id": "592326264271861",
+        "username": "popcornbrother",
+        "name": "Popcorn Brother",
         "about": "popcorn brother \n本地既爆谷小店。全部採用美國原材料。即爆即做、大大粒粒勁平均，有多種味道選擇、唔買都可以過黎試下架XD",
-        "categories": [
-          "Food & Beverage"
+        "category_list": [
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          }
         ],
-        "addr": "屯門時代廣場南翼3樓5號場地（eGG眼鏡斜對面）",
-        "area": "+852 98802975 Hong Kong",
-        "email": "popbro2016@gmail.com",
-        "tel": "98802975"
+        "emails": [
+          "popbro2016@gmail.com"
+        ],
+        "single_line_address": "荃灣荃錦中心82舖, +852 98802975 Hong Kong",
+        "website": "http://www.popcornbrother.com"
       }
     },
     {

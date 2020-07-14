@@ -7,15 +7,24 @@
     {
       "url": "https://www.facebook.com/fansfarm/",
       "meta": {
-        "name": "大江埔農莊",
         "id": "470659526278962",
+        "username": "fansfarm",
+        "name": "大江埔農莊",
         "about": "這裡是和我一起成長的地方, 有多回憶的地方, 很慶幸能在這裡長大.",
-        "categories": [
-          "Agricultural Service",
-          "Barbecue Restaurant"
+        "category_list": [
+          {
+            "id": "189323644423254",
+            "name": "Agricultural Service"
+          },
+          {
+            "id": "150534008338515",
+            "name": "Barbecue Restaurant"
+          }
         ],
-        "email": "n_lam15@yahoo.com.hk",
-        "tel": "97002022"
+        "emails": [
+          "n_lam15@yahoo.com.hk"
+        ],
+        "single_line_address": "錦田大江埔"
       }
     }
   ],

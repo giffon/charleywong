@@ -7,11 +7,15 @@
     {
       "url": "https://www.facebook.com/PewDiePie/",
       "meta": {
-        "name": "PewDiePie",
         "id": "193844937315070",
+        "username": "PewDiePie",
+        "name": "PewDiePie",
         "about": "Check out my book! http://bit.ly/1Q8Iwdj",
-        "categories": [
-          "Public Figure"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          }
         ]
       }
     },

@@ -9,15 +9,24 @@
     },
     {
       "meta": {
-        "name": "D8 DOJO & Workshop",
         "id": "1482930568483034",
-        "categories": [
-          "Industrial Company"
+        "username": "D8DOJO",
+        "name": "D8 DOJO & Workshop",
+        "category_list": [
+          {
+            "id": "186982054657561",
+            "name": "Sports & Recreation"
+          },
+          {
+            "id": "2241",
+            "name": "Industrial Company"
+          }
         ],
-        "addr": "震寰路9號好收成工業大廈14樓8號9室",
-        "area": "Tuen Mun",
-        "email": "info@d8dojodarts.com",
-        "tel": "94810942"
+        "emails": [
+          "info@d8dojodarts.com"
+        ],
+        "single_line_address": "震寰路9號好收成工業大廈14樓8號9室, Tuen Mun",
+        "website": "https://d8dojodarts.com/"
       },
       "url": "https://www.facebook.com/D8DOJO/"
     },

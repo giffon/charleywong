@@ -10,16 +10,19 @@
     {
       "url": "https://www.facebook.com/101489394806272/",
       "meta": {
-        "name": "Native Reborn",
         "id": "101489394806272",
-        "about": "自力更生，碳粉本土生產，香港工業",
-        "categories": [
-          "Computer Store"
+        "name": "Native Reborn",
+        "about": "碳粉本土生產，香港工業",
+        "category_list": [
+          {
+            "id": "199512783398620",
+            "name": "Computer Store"
+          }
         ],
-        "addr": "觀塘成業街16號怡生工業大廈1樓H座K10室",
-        "area": "Kowloon, Hong Kong",
-        "email": "nativereborn@gmail.com",
-        "tel": "55462324"
+        "emails": [
+          "nativereborn@gmail.com"
+        ],
+        "website": "carousell.com/native_reborn"
       }
     }
   ],

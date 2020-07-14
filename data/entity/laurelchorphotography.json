@@ -10,15 +10,28 @@
     {
       "url": "https://www.facebook.com/laurelchorphotography/",
       "meta": {
-        "name": "Laurel Chor - Photographer & Journalist",
         "id": "553287138056310",
+        "username": "laurelchorphotography",
+        "name": "Laurel Chor - Photographer & Journalist",
         "about": "Journalist, photographer and on-camera correspondent based in Hong Kong.",
-        "categories": [
-          "Journalist",
-          "Photographer",
-          "News Personality"
+        "category_list": [
+          {
+            "id": "1604",
+            "name": "Journalist"
+          },
+          {
+            "id": "1605",
+            "name": "News Personality"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "hi@laurelchor.com"
+        "emails": [
+          "hi@laurelchor.com"
+        ],
+        "website": "http://www.laurelchor.com"
       }
     }
   ],

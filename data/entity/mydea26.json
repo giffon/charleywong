@@ -15,15 +15,23 @@
     {
       "url": "https://www.facebook.com/mydea26/",
       "meta": {
-        "name": "賣点 MY.DEA",
         "id": "279342729259090",
-        "categories": [
-          "Beer Bar"
+        "username": "mydea26",
+        "name": "賣点 MY.DEA",
+        "category_list": [
+          {
+            "id": "203743122984241",
+            "name": "Beer Garden"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "addr": "26 Yiu Wa Street, Causeway Bay",
-        "area": "Hong Kong",
-        "email": "my.dea@zuccchero.com",
-        "tel": "25770809"
+        "emails": [
+          "my.dea@zuccchero.com"
+        ],
+        "single_line_address": "26 Yiu Wa Street, Causeway Bay, HK Hong Kong"
       }
     },
     {

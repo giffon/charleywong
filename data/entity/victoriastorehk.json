@@ -25,26 +25,39 @@
     {
       "url": "https://www.facebook.com/victoriastorehk/",
       "meta": {
-        "name": "維城士多 Victoria Store",
         "id": "296466327144423",
+        "username": "victoriastorehk",
+        "name": "維城士多 Victoria Store",
         "about": "本號專營香港民族產品\nEST. 2015 | Republic of Hong Kong\n台灣製造",
-        "categories": [
-          "Product/Service",
-          "Grocery Store"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          }
         ],
-        "email": "victoriastorehk@icloud.com"
+        "emails": [
+          "victoriastorehk@icloud.com"
+        ],
+        "website": "https://t.me/victoriastorehk"
       }
     },
     {
       "url": "https://www.facebook.com/victoriastoreTW/",
       "meta": {
-        "name": "台灣維城士多",
         "id": "112471656883452",
+        "username": "victoriastoreTW",
+        "name": "台灣維城士多",
         "about": "香港維城士多台灣分店，專營香港民族產品，本島免運費",
-        "categories": [
-          "Grocery Store"
-        ],
-        "email": "victoriastoretw@gmail.com"
+        "category_list": [
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          }
+        ]
       }
     }
   ],

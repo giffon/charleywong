@@ -8,12 +8,21 @@
     {
       "meta": {
         "id": "137694588088",
+        "username": "wooferten",
+        "name": "Woofer Ten．活化廳",
         "about": "「藝術活化社區」又或「社區活化藝術」的實驗平台",
-        "categories": [
-          "Art",
-          "Arts and crafts shop"
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "tel": "34856499"
+        "single_line_address": "404 Shanghai Street, Yau Ma Tei",
+        "website": "www.wooferten.org"
       },
       "url": "https://www.facebook.com/wooferten/"
     }

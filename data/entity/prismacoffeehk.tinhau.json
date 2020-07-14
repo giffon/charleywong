@@ -6,17 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Prisma Coffee Co. - Tin Hau",
         "id": "805217019545117",
+        "username": "prismacoffeehk.tinhau",
+        "name": "Prisma Coffee Co. - Tin Hau",
         "about": "Our vision is to redefine your unique coffee experience and build up a true coffee culture.\n\nInstagram:  #prismacoffeehk",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "3A Watson Road",
-        "area": "Hong Kong",
-        "email": "info@thefinecup.com",
-        "tel": "34603725"
+        "emails": [
+          "info@thefinecup.com"
+        ],
+        "single_line_address": "3A Watson Road, Hong Kong",
+        "website": "http://www.prismacoffee.co"
       },
       "url": "https://www.facebook.com/prismacoffeehk.tinhau/"
     },

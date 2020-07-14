@@ -11,12 +11,23 @@
     {
       "meta": {
         "id": "144429755744758",
-        "about": "狐狸小姐 Miss Foxy\nHong Kong Artist & handcrafter - Miss Foxy\n香港藝術家&手作人 - “狐狸小姐”...\n\n\n\nSee more",
-        "categories": [
-          "Artist",
-          "Arts & humanities website"
+        "username": "missfoxyhk",
+        "name": "狐狸小姐 Miss Foxy",
+        "about": "狐狸小姐 Miss Foxy\nHong Kong artist/art educator\n香港藝術家/藝術教育工作者\n*黃色文創圈認證*",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "2701",
+            "name": "Arts & Humanities Website"
+          }
         ],
-        "email": "ckyulikeswim@gmail.com"
+        "emails": [
+          "ckyulikeswim@gmail.com"
+        ],
+        "website": "www.missfoxy.net"
       },
       "url": "https://www.facebook.com/missfoxyhk/"
     },

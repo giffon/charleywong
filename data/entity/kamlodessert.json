@@ -7,14 +7,20 @@
     {
       "meta": {
         "id": "179040812138298",
+        "username": "kamlodessert",
+        "name": "甘露甜品",
         "about": "1983年開業，與土瓜灣一起成長，除了甜品、小食外，最重要的是人情味尤在!",
-        "categories": [
-          "Dessert shop",
-          "Diner"
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "九龍美景街50號地下",
-        "area": "Kowloon, Hong Kong",
-        "tel": "23633835"
+        "single_line_address": "九龍美景街50號地下, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/kamlodessert/"
     }

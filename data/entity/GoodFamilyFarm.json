@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/GoodFamilyFarm/",
       "meta": {
-        "name": "好家＋聚落 Good Family PLUS",
         "id": "447073245374807",
+        "username": "GoodFamilyFarm",
+        "name": "好家＋聚落 Good Family PLUS",
         "about": "好家庭菜園期望實現「畦田永續　阡陌常樂」——撒播都市菜園的種子，分享與自然共存的食物。",
-        "categories": [
-          "Farm",
-          "Locality"
+        "category_list": [
+          {
+            "id": "150815208309028",
+            "name": "Farm"
+          },
+          {
+            "id": "1874409019452971",
+            "name": "Locality"
+          }
         ],
-        "addr": "大嶼山 東涌 䃟頭村",
-        "area": "Hong Kong",
-        "email": "info@goodfamilyfarm.org",
-        "tel": "90986405"
+        "emails": [
+          "info@goodfamilyfarm.org"
+        ],
+        "single_line_address": "大嶼山 東涌 䃟頭村, Hong Kong",
+        "website": "http://www.goodfamilyfarm.org/"
       }
     },
     {

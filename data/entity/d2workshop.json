@@ -6,17 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "D2 Workshop",
         "id": "1176145549077475",
+        "username": "d2worshop",
+        "name": "D2 Workshop",
         "about": "D2 Workshop is based in Hong Kong. We treat ourself as the people take good care of the after life of wood piece. And we made lots of custom made goods.",
-        "categories": [
-          "Arts & Crafts Store",
-          "Contractor"
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "180833545285725",
+            "name": "Carpenter"
+          },
+          {
+            "id": "124816677590074",
+            "name": "Contractor"
+          }
         ],
-        "addr": "Room 307, 3/F., Leader Industrial Centre, 57-59 Au Pui Wan Street, Shatin, N.T.",
-        "area": "- Hong Kong",
-        "email": "dsquarepro@gmail.com",
-        "tel": "96729472"
+        "emails": [
+          "dsquarepro@gmail.com"
+        ],
+        "single_line_address": "Room 307, 3/F., Leader Industrial Centre, 57-59 Au Pui Wan Street, Shatin, N.T., - Hong Kong"
       },
       "url": "https://www.facebook.com/d2worshop/"
     },

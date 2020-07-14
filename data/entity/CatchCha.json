@@ -10,15 +10,28 @@
     {
       "meta": {
         "id": "1420656751573167",
-        "about": "Every event deserves a fun corner and CatchCha is your perfect solution.",
-        "categories": [
-          "Photographer",
-          "Party supply and rental shop",
-          "Event planner"
+        "username": "CatchCha",
+        "name": "CatchCha Studio",
+        "about": "Every event deserves a fun corner and CatchCha is your perfect solution. ",
+        "category_list": [
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          },
+          {
+            "id": "109633322446882",
+            "name": "Party Supply & Rental Shop"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "Flat G6, 2/F, Wang Kwong Industrial Building, 45 Hung To Road, Kwun Tong, KLN",
-        "area": "Hong Kong",
-        "email": "enquiry@catchcha.com.hk"
+        "emails": [
+          "enquiry@catchcha.com.hk"
+        ],
+        "single_line_address": "Flat G6, 2/F, Wang Kwong Industrial Building, 45 Hung To Road, Kwun Tong, KLN, Hong Kong",
+        "website": "http://www.catchcha.com.hk"
       },
       "url": "https://www.facebook.com/CatchCha/"
     }

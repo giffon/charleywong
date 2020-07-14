@@ -10,14 +10,25 @@
     {
       "url": "https://www.facebook.com/truthmediahk/",
       "meta": {
-        "name": "TMHK",
         "id": "833077716759751",
+        "username": "truthmediahk",
+        "name": "TMHK",
         "about": "“The truth has a million faces, but there is only one truth.” - Hermann Hesse (1877-1962)",
-        "categories": [
-          "News & Media Website"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          },
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
         ],
-        "email": "info@tmhk.org",
-        "tel": "81930262"
+        "emails": [
+          "info@tmhk.org"
+        ],
+        "single_line_address": "17/F, 80 Gloucester Road, Wan Chai, Hong Kong, Hong Kong",
+        "website": "http://tmhk.org/"
       }
     },
     {

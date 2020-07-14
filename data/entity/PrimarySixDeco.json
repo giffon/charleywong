@@ -7,14 +7,20 @@
     {
       "url": "https://www.facebook.com/PrimarySixDeco/",
       "meta": {
-        "name": "Primary six",
         "id": "136012566413343",
+        "username": "PrimarySixDeco",
+        "name": "Primary six",
         "about": "whatsapp:94471803  各類卡通精品: Hello kitty, Rilakkuma, Toys story,限定版,特別版, 日本代購,可代客製作畢業公仔, 各式公仔花束",
-        "categories": [
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "email": "primary-six@hotmail.com",
-        "tel": "94471803"
+        "emails": [
+          "primary-six@hotmail.com"
+        ],
+        "single_line_address": "旺角信和中心139號鋪(扶手電梯上2層)"
       }
     },
     {

@@ -7,14 +7,24 @@
     {
       "meta": {
         "id": "103410054343246",
+        "username": "redpandaMuseum",
+        "name": "小熊貓博物館",
         "about": "館長\n身於香港的小熊貓狂熱者\n四出搜集其足跡\n\n副修狐狸、浣熊、rascal學",
-        "categories": [
-          "Wildlife sanctuary",
-          "Boutique shop",
-          "Art"
+        "category_list": [
+          {
+            "id": "288846958171402",
+            "name": "Boutique Store"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "156982297694225",
+            "name": "Wildlife Sanctuary"
+          }
         ],
-        "addr": "小熊貓共和國",
-        "area": "Hong Kong"
+        "single_line_address": "小熊貓共和國, Hong Kong"
       },
       "url": "https://www.facebook.com/redpandaMuseum/"
     }

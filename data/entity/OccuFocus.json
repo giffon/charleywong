@@ -7,13 +7,18 @@
   "webpages": [
     {
       "meta": {
-        "name": "職療同行 OccuFocus",
         "id": "1942788249282602",
+        "name": "職療同行 OccuFocus",
         "about": "我們是一班關心香港社會的職業治療師，我們希望藉此平台推動更好的社會環境，包括\n- 公平及公義的民主社會\n- 可持續的社會發展\n- 醫療政策的改革\n- 市民的身心靈發展",
-        "categories": [
-          "Community Organization"
+        "category_list": [
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          }
         ],
-        "email": "occufocus@gmail.com"
+        "emails": [
+          "occufocus@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/1942788249282602/"
     }

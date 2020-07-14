@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/TheNutterCompany/",
       "meta": {
-        "name": "The Nutter Company",
         "id": "1143915465638421",
+        "username": "TheNutterCompany",
+        "name": "The Nutter Company",
         "about": "Hong Kong's Original Handcrafted Nut Butters!",
-        "categories": [
-          "Health Food Store"
+        "category_list": [
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          }
         ],
-        "addr": "Hong Kong",
-        "area": "Hong Kong",
-        "email": "info@thenuttercompany.com",
-        "tel": "93790416"
+        "emails": [
+          "info@thenuttercompany.com"
+        ],
+        "single_line_address": "Hong Kong, Hong Kong",
+        "website": "http://www.thenuttercompany.com"
       }
     },
     {

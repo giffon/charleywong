@@ -10,14 +10,21 @@
     {
       "url": "https://www.facebook.com/globalvillageworkshop/",
       "meta": {
-        "name": "Global Village Workshop",
         "id": "114419341936195",
-        "about": "GV Workshop自 2009 年開始，為幼兒至初中同學生提供高質素的教育。\n英文課程，朗誦訓練，幼兒 Playgroup 。",
-        "categories": [
-          "Organization"
+        "username": "globalvillageworkshop",
+        "name": "Global Village Workshop",
+        "about": "GV Workshop 自 2009 年開始，為幼兒至初中同學生提供高質素的教育。包括英文課程，朗誦訓練，幼兒 Playgroup 等 。",
+        "category_list": [
+          {
+            "id": "2600",
+            "name": "Organization"
+          }
         ],
-        "email": "info@gvworkshop.com",
-        "tel": "34881991"
+        "emails": [
+          "info@gvworkshop.com"
+        ],
+        "single_line_address": "馬鞍山雅濤居一樓 2-3 號",
+        "website": "http://www.gvworkshop.com"
       }
     }
   ],

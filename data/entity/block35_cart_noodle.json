@@ -6,17 +6,22 @@
   "webpages": [
     {
       "meta": {
-        "name": "35座車仔麵",
         "id": "324433621719933",
+        "name": "35座車仔麵",
         "about": "我們的故事 就是由秀茂坪35座車仔麵開始～～",
-        "categories": [
-          "Deli",
-          "Diner"
+        "category_list": [
+          {
+            "id": "188334264523313",
+            "name": "Deli"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "九龍牛頭角3號得寶花園得寶商場地下A1 號鋪（近彩雲道）",
-        "area": "Hong Kong",
-        "email": "35cartnoodle@gmail.com",
-        "tel": "66791218"
+        "emails": [
+          "35cartnoodle@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/324433621719933/"
     },

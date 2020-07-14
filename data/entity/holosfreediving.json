@@ -10,15 +10,29 @@
     {
       "url": "https://www.facebook.com/holosfreediving/",
       "meta": {
-        "name": "Holos Freediving",
         "id": "1248584885160549",
-        "about": "Holos係希臘文，意思係「全部」、「完全」，代表我地希望全面咁將自由潛水帶俾大家。我地相信自由潛水係人體與生俱來嘅潛能，只要有適當嘅練習，每個人都可以享受自由潛水嘅樂趣。",
-        "categories": [
-          "Sports",
-          "Education",
-          "Sports Team"
+        "username": "holosfreediving",
+        "name": "Holos Freediving",
+        "about": "Holos係希臘文，意思係「全部」、「完全」，代表我地希望全面咁將自由潛水帶俾大家。我地相信自由潛水係人體與生俱來嘅潛能，只要有適當嘅練習，每個人都可以享受自由潛水嘅樂趣。\n",
+        "category_list": [
+          {
+            "id": "964585346994407",
+            "name": "Sports"
+          },
+          {
+            "id": "2250",
+            "name": "Education"
+          },
+          {
+            "id": "1801",
+            "name": "Sports Team"
+          }
         ],
-        "email": "holosfreediving@gmail.com"
+        "emails": [
+          "holosfreediving@gmail.com"
+        ],
+        "single_line_address": "nill Hong Kong",
+        "website": "www.holosfreediving.com"
       }
     }
   ],

@@ -15,13 +15,19 @@
     },
     {
       "meta": {
-        "name": "Crystal Cheung 張紋嘉",
         "id": "447921795634",
+        "username": "CrystalCheungManKa",
+        "name": "Crystal Cheung 張紋嘉",
         "about": "Job Enquiry : Fontane Sit 9500 5577",
-        "categories": [
-          "Public Figure"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          }
         ],
-        "email": "qui.crystalcheung@gmail.com"
+        "emails": [
+          "qui.crystalcheung@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/CrystalCheungManKa/"
     },

@@ -7,17 +7,25 @@
     {
       "url": "https://www.facebook.com/dogsidepetshop/",
       "meta": {
-        "name": "Dog Side Pet Shop",
         "id": "525242250911339",
-        "about": "寵物美容 售賣寵物用品 狗糧 貓糧",
-        "categories": [
-          "Pet Store",
-          "Pet Service"
+        "username": "dogsidepetshop",
+        "name": "Dog Side Pet Shop",
+        "about": "寵物美容 售賣寵物用品 狗糧 貓糧 ",
+        "category_list": [
+          {
+            "id": "188573091164316",
+            "name": "Pet Store"
+          },
+          {
+            "id": "144982405562750",
+            "name": "Pet Service"
+          }
         ],
-        "addr": "Shop 71, Yee Fung Garden, 38 Ma Tin Road",
-        "area": "Yuen Long",
-        "email": "pang811@hotmail.com",
-        "tel": "69006400"
+        "emails": [
+          "pang811@hotmail.com"
+        ],
+        "single_line_address": "Shop 71, Yee Fung Garden, 38 Ma Tin Road, Yuen Long",
+        "website": "http://pet.ainfomedia.com/archives/36"
       }
     }
   ],

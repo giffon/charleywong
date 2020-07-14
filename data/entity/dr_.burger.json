@@ -7,14 +7,15 @@
     {
       "url": "https://www.facebook.com/197786680900910/",
       "meta": {
-        "name": "Dr .Burger",
         "id": "197786680900910",
-        "categories": [
-          "Burger Restaurant"
+        "name": "Dr .Burger",
+        "category_list": [
+          {
+            "id": "187425207958280",
+            "name": "Burger Restaurant"
+          }
         ],
-        "addr": "青柏徑6號鹿苑14號鋪（虹橋）",
-        "area": "Tuen Mun",
-        "tel": "52228178"
+        "single_line_address": "青柏徑6號鹿苑14號鋪（虹橋）, Tuen Mun"
       }
     },
     {

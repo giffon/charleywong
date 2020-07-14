@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "新記小食",
         "id": "753772002120859",
+        "username": "MsCowFriedFood",
+        "name": "新記小食",
         "about": "歡迎外賣自取\n推介生炸雞脾，腸粉",
-        "categories": [
-          "Hong Kong Restaurant",
-          "Fast Food Restaurant",
-          "Food Stand"
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          },
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          },
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          }
         ],
-        "addr": "長沙灣道1號",
-        "area": "Hong Kong",
-        "tel": "34604537"
+        "single_line_address": "長沙灣道1號, Hong Kong"
       },
       "url": "https://www.facebook.com/MsCowFriedFood/"
     }

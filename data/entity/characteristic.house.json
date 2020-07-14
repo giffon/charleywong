@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "灃美小食（元州街）",
         "id": "503601406711534",
+        "username": "characteristic.house",
+        "name": "灃美小食（元州街）",
         "about": "本店前身為尖沙咀嘉芙中心入口之“點都德街頭小食店”，現已遷往深水埗元洲街1号1F舖繼續營業，亦已改名為“灃美小食”繼續做多啲好食嘅食物俾大家食，希望各位繼續支持本店!謝謝",
-        "categories": [
-          "Food Delivery Service",
-          "Local Service",
-          "Diner"
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          },
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "addr": "九龍深水埗元州街1號1F舖地下（大埔道油站）",
-        "area": "0000 Shek Kip Mei",
-        "tel": "90645411"
+        "single_line_address": "九龍深水埗元州街1號1F舖地下（大埔道油站）, 0000 Shek Kip Mei"
       },
       "url": "https://www.facebook.com/characteristic.house/"
     },

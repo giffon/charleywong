@@ -14,17 +14,24 @@
     {
       "url": "https://www.facebook.com/moondustartistry/",
       "meta": {
-        "name": "Moondust Artistry",
         "id": "520137724841285",
+        "username": "moondustartistry",
+        "name": "Moondust Artistry",
         "about": "「因為愛，與花結下不解之緣�」\nMoondust充滿對藝術的熱愛，最擅長的是糖花和冷瓷花藝，願能把這份手藝用心展現和傳授，讓手作的魅力帶給你和親友幸福感，從心感受自信滿足的笑容！",
-        "categories": [
-          "Product/Service",
-          "Arts & Crafts Store"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "addr": "九龍觀塘開源道56號大眾工業大廈7樓706室",
-        "area": "Kwun Tong",
-        "email": "moondust.artistry@gmail.com",
-        "tel": "96656957"
+        "emails": [
+          "moondust.artistry@gmail.com"
+        ],
+        "single_line_address": "九龍觀塘開源道56號大眾工業大廈7樓706室, Kwun Tong"
       }
     }
   ],

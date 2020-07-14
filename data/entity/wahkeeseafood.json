@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/wahkeeseafood/",
       "meta": {
-        "name": "賣魚佬 【華記海鮮】",
         "id": "238212390094929",
-        "about": "�早於199x年經營\n�將軍澳寶琳邨寶琳市場T-PL 66-67號舖",
-        "categories": [
-          "Shopping & Retail"
+        "username": "wahkeeseafood",
+        "name": "賣魚佬 【華記海鮮】",
+        "about": "�早於199x年經營\n�將軍澳寶琳邨寶琳市場T-PL 66-67號舖\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "新界西貢將軍澳寶琳北路18號寶林邨寶林商場地下寶林市場T-PL 66-67號舖",
-        "area": "852 Hong Kong",
-        "email": "wahkeeseafood@gmail.com",
-        "tel": "55444060"
+        "emails": [
+          "wahkeeseafood@gmail.com"
+        ],
+        "single_line_address": "新界西貢將軍澳寶琳北路18號寶林邨寶林商場地下寶林市場T-PL 66-67號舖, 852 Hong Kong"
       }
     },
     {

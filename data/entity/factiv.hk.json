@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/factiv.hk/",
       "meta": {
-        "name": "Factiv",
         "id": "129298607751001",
-        "about": "We share scientific knowledge in beauty, we also make biomedical skincare products. 🔬Like & Follow us to learn more💌",
-        "categories": [
-          "Health/Beauty"
+        "username": "factiv.hk",
+        "name": "Factiv",
+        "about": "There are no fairy tales in beauty, only science.",
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "email": "hello@factiv.hk"
+        "emails": [
+          "hello@factiv.hk"
+        ],
+        "website": "http://www.factiv.hk/"
       }
     }
   ],
@@ -51,7 +58,8 @@
     }
   ],
   "tags": [
-    "shop","skincare"
+    "shop",
+    "skincare"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00251"

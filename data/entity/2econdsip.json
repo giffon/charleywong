@@ -6,14 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "categories": [
-          "Coffee shop",
-          "Tea room"
+        "id": "242106439868101",
+        "username": "2econdsip",
+        "name": "Second Sip by Studio Caffeine",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          }
         ],
-        "addr": "G/F, 23 School Street",
-        "area": "Causeway Bay",
-        "email": "info@studiocaffeine.com.hk",
-        "id": "242106439868101"
+        "emails": [
+          "info@studiocaffeine.com.hk"
+        ],
+        "single_line_address": "G/F, 23 School Street, Causeway Bay",
+        "website": "www.studiocaffeine.com.hk"
       },
       "url": "https://www.facebook.com/2econdsip/"
     },

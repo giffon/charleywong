@@ -14,16 +14,28 @@
     {
       "url": "https://www.facebook.com/kimature1/",
       "meta": {
-        "name": "Kimature 天然護膚",
         "id": "1377130135870436",
-        "about": "香港首枝白蘭花香水及香港製造天然護膚品   \nThe 1st White Jade Orchid Eau Fraiche (Limited Edition) & Solid Perfume in HK",
-        "categories": [
-          "Skin Care Service",
-          "Health/Beauty",
-          "Retail Company"
+        "username": "kimature1",
+        "name": "Kimature 天然護膚",
+        "about": "香港首枝白蘭花香水及香港製造天然護膚品   \nThe 1st White Jade Orchid Eau Fraiche (Limited Edition) & Solid Perfume in HK \n",
+        "category_list": [
+          {
+            "id": "1644814599176740",
+            "name": "Skin Care Service"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "email": "info@kimature.hk",
-        "tel": "35022384"
+        "emails": [
+          "info@kimature.hk"
+        ],
+        "website": "https://www.kimature.hk/categories/white-jade-orchid-series"
       }
     }
   ],

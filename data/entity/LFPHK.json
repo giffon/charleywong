@@ -7,18 +7,29 @@
     {
       "url": "https://www.facebook.com/LFPHK/",
       "meta": {
-        "name": "Lfp汽車電池-香港汽車鋰鐵電池",
         "id": "1803581549876149",
+        "username": "LFPHK",
+        "name": "Lfp汽車電池-香港汽車鋰鐵電池",
         "about": "本公司生產之鋰鐵電池開發設計生產以致保養均為香港本地制作MADE IN HK\n並取得\"香港認證中心\"發出的 歐洲CE及針對充電池安全測試的 IEC62133  ,當中包括電池過充/ 過放/ 短路,沖擊等測試認證.",
-        "categories": [
-          "Motor Vehicle Company",
-          "Tools/Equipment",
-          "Engineering Service"
+        "category_list": [
+          {
+            "id": "400062273344681",
+            "name": "Engineering Service"
+          },
+          {
+            "id": "2223",
+            "name": "Tools/Equipment"
+          },
+          {
+            "id": "2240",
+            "name": "Motor Vehicle Company"
+          }
         ],
-        "addr": "元朗洪水橋天地人路19號",
-        "area": "852 Hong Kong",
-        "email": "lfphongkong@gmail.com",
-        "tel": "90758087"
+        "emails": [
+          "lfphongkong@gmail.com"
+        ],
+        "single_line_address": "錦田市中心永隆圍173B, 852 Hong Kong",
+        "website": "https://api.whatsapp.com/send?phone=85290758087"
       }
     }
   ],

@@ -13,12 +13,17 @@
     },
     {
       "meta": {
-        "name": "HanaKitchen",
         "id": "323067158168736",
+        "username": "HanaKitchenHanapassion",
+        "name": "HanaKitchen",
         "about": "Bake & cook with passion and for pure love & joy. Come visit HanaKitchen, to share my passionate interest in cooking, the place where I live my dream",
-        "categories": [
-          "Personal Blog"
-        ]
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
+        ],
+        "website": "https://www.instagram.com/hanapassion/"
       },
       "url": "https://www.facebook.com/HanaKitchenHanapassion/"
     }

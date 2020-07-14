@@ -10,14 +10,22 @@
     {
       "url": "https://www.facebook.com/shoppingb/",
       "meta": {
-        "name": "Shopping b",
         "id": "78162805978",
-        "about": "Shopping b 日本代購",
-        "categories": [
-          "Baby Goods/Kids Goods",
-          "Retail Company"
+        "username": "shoppingb",
+        "name": "Shopping b",
+        "about": "Shopping b 日本代購\n\n",
+        "category_list": [
+          {
+            "id": "2232",
+            "name": "Baby Goods/Kids Goods"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "tel": "54009285"
+        "single_line_address": "震寰路3號德榮工業大廈7樓A座706室, Tuen Mun",
+        "website": "https://www.shoppingb.com.hk"
       }
     },
     {

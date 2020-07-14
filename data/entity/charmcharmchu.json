@@ -15,13 +15,20 @@
     },
     {
       "meta": {
-        "name": "慘慘豬 CharmCharmChu",
         "id": "168461220591",
+        "username": "charmcharmchu",
+        "name": "慘慘豬 CharmCharmChu",
         "about": "從二零零九 .戇鳩地玩認真鞭擊金屬\nWe wrote thrash metal songs with cowbell. Deal with it.",
-        "categories": [
-          "Musician/Band"
+        "category_list": [
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "email": "charmcharmchu.thrash@gmail.com"
+        "emails": [
+          "charmcharmchu.thrash@gmail.com"
+        ],
+        "website": "http://www.youtube.com/user/charmcharmchu"
       },
       "url": "https://www.facebook.com/charmcharmchu/"
     }

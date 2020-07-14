@@ -6,16 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "後街牛扒",
         "id": "817081595050388",
+        "username": "backstreetsteakhouse",
+        "name": "後街牛扒",
         "about": "後街\n牛扒",
-        "categories": [
-          "Steakhouse",
-          "New American Restaurant"
+        "category_list": [
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          },
+          {
+            "id": "110107385737667",
+            "name": "New American Restaurant"
+          }
         ],
-        "addr": "香港灣仔交加里7號永成大厦地下A鋪",
-        "area": "Hong Kong",
-        "email": "backstreetsteak@icloud.com"
+        "emails": [
+          "backstreetsteak@icloud.com"
+        ],
+        "single_line_address": "香港灣仔交加里7號永成大厦地下A鋪, Hong Kong"
       },
       "url": "https://www.facebook.com/backstreetsteakhouse/"
     },

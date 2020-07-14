@@ -7,16 +7,26 @@
     {
       "url": "https://www.facebook.com/2260389517343074/",
       "meta": {
-        "name": "BeSmile",
         "id": "2260389517343074",
+        "name": "BeSmile",
         "about": "�本店由一位80後八爪魚媽媽照顧�大少哥哥妺妹，�兼經營各地最流行䕶膚產品/奢侈品/家居用品/兒童用品/食品等等����\n�歡迎查詢inbox \n�whatsapp ：63236908\n�WeChat ID ：BeSmile_63236908",
-        "categories": [
-          "Community",
-          "Grocery Store",
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "email": "besmilepang@gmail.com",
-        "tel": "63236908"
+        "emails": [
+          "besmilepang@gmail.com"
+        ]
       }
     },
     {

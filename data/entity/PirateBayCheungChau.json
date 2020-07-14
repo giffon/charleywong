@@ -8,16 +8,20 @@
     {
       "url": "https://www.facebook.com/PirateBayCheungChau/",
       "meta": {
-        "name": "海盜灣．長洲 Pirate Bay．Cheung Chau",
         "id": "627038887627774",
+        "username": "PirateBayCheungChau",
+        "name": "海盜灣．長洲 Pirate Bay．Cheung Chau",
         "about": "飲·食·書·樂，遠離城市喧鬧的法式慢煮快食、可麗餅...小餐廳。Drinks·Food·Books·Music, French bistro of slow cook, fast crêpe... A unique getaway distant from the overcrowded city.",
-        "categories": [
-          "French Restaurant"
+        "category_list": [
+          {
+            "id": "168976549819329",
+            "name": "French Restaurant"
+          }
         ],
-        "addr": "13 Tsan Tuen Rd 西灣贊端路13號",
-        "area": "Hong Kong",
-        "email": "priscilla@piratebaycc.com",
-        "tel": "96640699"
+        "emails": [
+          "priscilla@piratebaycc.com"
+        ],
+        "single_line_address": "13 Tsan Tuen Rd 西灣贊端路13號, HK Hong Kong"
       }
     },
     {

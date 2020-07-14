@@ -7,15 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "柴太郎咖啡店 Shiba Taro Cafe",
         "id": "1933633330249751",
-        "categories": [
-          "Coffee Shop",
-          "British Restaurant"
+        "username": "ShibaTaroCafe",
+        "name": "柴太郎咖啡店 Shiba Taro Cafe",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "137670789632630",
+            "name": "British Restaurant"
+          }
         ],
-        "addr": "G/F, 11 See Cheung Street",
-        "area": "Sai Kung",
-        "tel": "94880623"
+        "single_line_address": "G/F, 11 See Cheung Street, Sai Kung"
       },
       "url": "https://www.facebook.com/ShibaTaroCafe/"
     },

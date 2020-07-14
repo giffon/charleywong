@@ -6,16 +6,27 @@
   "webpages": [
     {
       "meta": {
-        "categories": [
-          "Coffee shop",
-          "Diner",
-          "Dessert shop"
+        "id": "502136729864950",
+        "username": "sognocafeplus",
+        "name": "Sogno Cafe+",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "威靈頓街97號威利大廈2樓D",
-        "area": "Hong Kong",
-        "email": "sognocafeplus@yahoo.com.hk",
-        "tel": "27579878",
-        "id": "502136729864950"
+        "emails": [
+          "sognocafeplus@yahoo.com.hk"
+        ],
+        "single_line_address": "威靈頓街97號威利大廈2樓D, Hong Kong"
       },
       "url": "https://www.facebook.com/sognocafeplus/"
     }

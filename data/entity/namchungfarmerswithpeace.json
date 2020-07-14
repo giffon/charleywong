@@ -10,16 +10,29 @@
     {
       "url": "https://www.facebook.com/namchungfarmerswithpeace/",
       "meta": {
-        "name": "活耕建養地協會 - 南涌",
         "id": "161120604082098",
+        "username": "namchungfarmerswithpeace",
+        "name": "活耕建養地協會 - 南涌",
         "about": "活耕建養地協會(Partnership for Eco-Agriculture and the Conservation of Earth, PEACE)以發展「永續農業」和「建造生態社區」為目標。",
-        "categories": [
-          "Community",
-          "Cultural Center",
-          "Farm"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "150815208309028",
+            "name": "Farm"
+          },
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          }
         ],
-        "email": "peacenamchung@gmail.com",
-        "tel": "95401429"
+        "emails": [
+          "peacenamchung@gmail.com"
+        ],
+        "single_line_address": "Nam Chung, Hong Kong",
+        "website": "https://peacenamchung.org/"
       }
     },
     {

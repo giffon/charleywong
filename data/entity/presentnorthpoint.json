@@ -7,15 +7,21 @@
     {
       "url": "https://www.facebook.com/presentnorthpoint/",
       "meta": {
-        "name": "Present North Point",
         "id": "257814731463641",
-        "categories": [
-          "Restaurant"
+        "username": "presentnorthpoint",
+        "name": "Present North Point",
+        "about": "PRESENT",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "No.126 Wharf Road, North Point",
-        "area": "Hong Kong",
-        "email": "presentnorthpoint@gmail.com",
-        "tel": "28870838"
+        "emails": [
+          "presentnorthpoint@gmail.com"
+        ],
+        "single_line_address": "No.126 Wharf Road, North Point, 852 Hong Kong",
+        "website": "https://www.presentcafeandbar.com/"
       }
     },
     {

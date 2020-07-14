@@ -10,17 +10,29 @@
     },
     {
       "meta": {
-        "name": "好器色 FLOW+ Living",
         "id": "204670243030765",
+        "username": "FlowPlusLiving",
+        "name": "好器色 FLOW+ Living",
         "about": "好器色，用泥土的質感、釉彩的溫潤、器具的造型, 為你的一頓飯進行補白。",
-        "categories": [
-          "Home Goods Store",
-          "Home Decor",
-          "Cultural Gifts Store"
+        "category_list": [
+          {
+            "id": "183680385005847",
+            "name": "Home Goods Store"
+          },
+          {
+            "id": "192647794097278",
+            "name": "Home Decor"
+          },
+          {
+            "id": "180816211956170",
+            "name": "Cultural Gifts Store"
+          }
         ],
-        "addr": "Unit H207, PMQ, 35 Aberdeen Street, Central, Hong Kong",
-        "area": "Central, Hong Kong",
-        "email": "connect@flowplusliving.com"
+        "emails": [
+          "connect@flowplusliving.com"
+        ],
+        "single_line_address": "Unit H207, PMQ, 35 Aberdeen Street, Central, Hong Kong, Central, Hong Kong",
+        "website": "www.flowplusliving.com"
       },
       "url": "https://www.facebook.com/FlowPlusLiving/"
     },

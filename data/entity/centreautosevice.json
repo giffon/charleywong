@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/centreautosevice/",
       "meta": {
-        "name": "深達洗車",
         "id": "726196670847608",
-        "about": "[Google map]或［Apple Map］搜尋「深達洗車」即可到達",
-        "categories": [
-          "Automotive Repair Shop",
-          "Car Wash",
-          "Auto Detailing Service"
-        ],
-        "addr": "元朗大旗嶺路",
-        "area": "Yuen Long Town",
-        "tel": "91648589"
+        "username": "centreautosevice",
+        "name": "深達洗車",
+        "about": "［Google map］或［Apple Map］搜尋「深達洗車」即可到達\nhttps://reurl.cc/oLoAdj",
+        "category_list": [
+          {
+            "id": "162295707155272",
+            "name": "Car Wash"
+          },
+          {
+            "id": "149998721725634",
+            "name": "Automotive Repair Shop"
+          },
+          {
+            "id": "1033987526649038",
+            "name": "Auto Detailing Service"
+          }
+        ]
       }
     }
   ],

@@ -6,12 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "香港繪師 齊上齊落",
         "id": "113623353363170",
-        "categories": [
-          "Arts & Humanities Website"
+        "name": "香港繪師 齊上齊落",
+        "category_list": [
+          {
+            "id": "2701",
+            "name": "Arts & Humanities Website"
+          }
         ],
-        "email": "standwithhk.artist@gmail.com"
+        "emails": [
+          "standwithhk.artist@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/113623353363170/"
     }

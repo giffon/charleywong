@@ -6,18 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "3rd Space",
         "id": "552755761514146",
-        "about": "Founded in 2014, moved from Po Hing Fong to Upper Station Street, still serving quality pancake, coffee and brunch",
-        "categories": [
-          "Breakfast & Brunch Restaurant",
-          "Coffee Shop",
-          "Tea Room"
+        "username": "3rdspacehk",
+        "name": "3rd Space",
+        "about": "\nFounded in 2014, moved from Po Hing Fong to Upper Station Street, still serving quality pancake, coffee and brunch",
+        "category_list": [
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          },
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "16 Upper Station Street",
-        "area": "Sheung Wan",
-        "email": "3rdspacehk@gmail.com",
-        "tel": "92209785"
+        "emails": [
+          "3rdspacehk@gmail.com"
+        ],
+        "single_line_address": "16 Upper Station Street, Sheung Wan"
       },
       "url": "https://www.facebook.com/3rdspacehk/"
     },

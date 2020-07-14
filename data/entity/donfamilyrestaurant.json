@@ -8,15 +8,17 @@
     {
       "url": "https://www.facebook.com/donfamilyrestaurant/",
       "meta": {
-        "name": "丼家和食donfamilyrestaurant",
         "id": "1618306818493414",
+        "username": "donfamilyrestaurant",
+        "name": "丼家和食donfamilyrestaurant",
         "about": "營業時間：中午12:00-下午3:00\n                  下午6:00-晚上10:30",
-        "categories": [
-          "Japanese Restaurant"
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "addr": "新界元朗教育路71-79號京都閣地下",
-        "area": "852 23433881 Hong Kong",
-        "tel": "23433881"
+        "single_line_address": "新界元朗教育路71-79號京都閣地下, 852 23433881 Hong Kong"
       }
     },
     {

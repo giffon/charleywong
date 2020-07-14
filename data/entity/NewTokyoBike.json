@@ -11,18 +11,29 @@
     {
       "url": "https://www.facebook.com/NewTokyoBike/",
       "meta": {
-        "name": "大埔新東京單車 New Tokyo Bike",
         "id": "467465019987266",
-        "about": "本店為新東京單車, 其使命為為顧客提供優質及專業的單車維修及顧問服務 \n本店專營公路單車, 山地單車, 小童單車, 小輪經車以及摺合單車",
-        "categories": [
-          "Bicycle Shop",
-          "Bicycle Repair Service",
-          "Cycling Studio"
+        "username": "NewTokyoBike",
+        "name": "大埔新東京單車 New Tokyo Bike",
+        "about": "本店為新東京單車, 其使命為為顧客提供優質及專業的單車維修及顧問服務 \n本店專營公路單車, 山地單車, 小童單車, 小輪經車以及摺合單車 \n\n",
+        "category_list": [
+          {
+            "id": "128003127270269",
+            "name": "Bicycle Shop"
+          },
+          {
+            "id": "1278946312134253",
+            "name": "Bicycle Repair Service"
+          },
+          {
+            "id": "1039343762826317",
+            "name": "Cycling Studio"
+          }
         ],
-        "addr": "1, On Fu Road, Tai Po",
-        "area": "Hong Kong",
-        "email": "newtokyobike@gmail.com",
-        "tel": "26586959"
+        "emails": [
+          "newtokyobike@gmail.com"
+        ],
+        "single_line_address": "1, On Fu Road, Tai Po, Hong Kong",
+        "website": "https://newtokyobike.boutir.com/?cat=all"
       }
     },
     {

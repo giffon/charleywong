@@ -6,17 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Daffie Lo Makeup",
         "id": "139286476240554",
+        "username": "DaffieLoMakeup",
+        "name": "Daffie Lo Makeup",
         "about": "崇尚自然簡潔,高貴耐看的風格,不會盲目跟隨潮流.Daffie Lo從事化妝行業已超過十年，除了曾為過百新娘主理大日子的妝髮外，亦曾為各大品牌廣告化妝 ,  亦曾在香港主要電視台擔任化妝師工作",
-        "categories": [
-          "Makeup Artist",
-          "Image Consultant"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "132008380200065",
+            "name": "Image Consultant"
+          }
         ],
-        "addr": "Rise Commercial Building,5-11Granville Circuit,TST",
-        "area": "Hong Kong",
-        "email": "daffie@hotmail.com",
-        "tel": "98218218"
+        "emails": [
+          "daffie@hotmail.com"
+        ],
+        "single_line_address": "Rise Commercial Building,5-11Granville Circuit,TST, Hong Kong"
       },
       "url": "https://www.facebook.com/DaffieLoMakeup/"
     }

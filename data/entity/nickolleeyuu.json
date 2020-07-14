@@ -15,14 +15,25 @@
     {
       "url": "https://www.facebook.com/nickolleeyuu/",
       "meta": {
-        "name": "彌歌魚",
         "id": "1386582051669392",
-        "about": "彌歌魚 Nickole Fish\n叫我魚魚都可以\n+852 香港普通學生\n～喜愛創作～\n漫畫、動畫、圖文插畫\n歡迎交流分享心聲<3",
-        "categories": [
-          "Artist",
-          "Writer"
+        "username": "nickolleeyuu",
+        "name": "彌歌魚",
+        "about": "Nickole Fish \nStudent in Hong Kong�\n喜愛創作�\n漫畫、動畫、圖文插畫\n歡迎交流分享心聲�",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "1109",
+            "name": "Writer"
+          }
         ],
-        "email": "nickole8642@gmail.com"
+        "emails": [
+          "nickole8642@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://www.instagram.com/nickolleeyuu"
       }
     }
   ],

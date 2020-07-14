@@ -7,14 +7,18 @@
     {
       "url": "https://www.facebook.com/allaboutbabyhk/",
       "meta": {
-        "name": "ALL ABOUT BABY baby, cake smash, family, photography",
         "id": "971375589587230",
+        "username": "allaboutbabyhk",
+        "name": "ALL ABOUT BABY baby, cake smash, family, photography",
         "about": "自然 唯美",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "葵興",
-        "area": "Hong Kong"
+        "single_line_address": "葵興, Hong Kong",
+        "website": "http://www.facebook.com/allaboutbabyhk"
       }
     },
     {

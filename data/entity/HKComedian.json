@@ -6,11 +6,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "喜劇演員",
         "id": "204198012949721",
+        "username": "HKComedian",
+        "name": "喜劇演員",
         "about": "為搞笑而生",
-        "categories": [
-          "Comedian"
+        "category_list": [
+          {
+            "id": "1610",
+            "name": "Comedian"
+          }
         ]
       },
       "url": "https://www.facebook.com/HKComedian/"

@@ -7,14 +7,18 @@
   "webpages": [
     {
       "meta": {
-        "name": "SeaFresh 三鮮",
         "id": "1146970022125218",
+        "name": "SeaFresh 三鮮",
         "about": "SeaFresh於2018年成立，為忙碌的香港人提供一站式的新鮮海鮮送貨上門服務，與大家共享有質素的海鮮食材！\n\nSeaFresh was established in HK in 2018 with the aim to provide quality fresh seafood to everyone.",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "seafresh.d2d@gmail.com",
-        "tel": "97939353"
+        "emails": [
+          "seafresh.d2d@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/1146970022125218/"
     }

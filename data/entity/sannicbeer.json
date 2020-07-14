@@ -7,12 +7,22 @@
     {
       "meta": {
         "id": "1920893004884834",
+        "username": "sannicbeer",
+        "name": "新力睥",
         "about": "新力睥｜sannicbeer",
-        "categories": [
-          "Producer",
-          "News and media website"
+        "category_list": [
+          {
+            "id": "1108",
+            "name": "Producer"
+          },
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
         ],
-        "email": "sannicbeer@gmail.com"
+        "emails": [
+          "sannicbeer@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/sannicbeer/"
     }

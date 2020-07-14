@@ -10,16 +10,28 @@
     {
       "meta": {
         "id": "1220402398098821",
-        "about": "Discover technology Discover your talent\n發 現 科 技，發 揮 所 長",
-        "categories": [
-          "Computer training school",
-          "School",
-          "Science, technology & engineering"
+        "username": "tecky.io",
+        "name": "Tecky Academy",
+        "about": "Discover technology Discover your talent\n發 現 科 技，發 揮 所 長\n\n",
+        "category_list": [
+          {
+            "id": "162237190493977",
+            "name": "Computer Training School"
+          },
+          {
+            "id": "297544187300691",
+            "name": "Science, Technology & Engineering"
+          },
+          {
+            "id": "2601",
+            "name": "School"
+          }
         ],
-        "addr": "Rm 2715-16, 27/F, One Midtown, 11 Hoi Shing Road",
-        "area": "Tsuen Wan, Hong Kong",
-        "email": "hello@tecky.io",
-        "tel": "97256400"
+        "emails": [
+          "hello@tecky.io"
+        ],
+        "single_line_address": "Rm 2715-16, 27/F, One Midtown, 11 Hoi Shing Road, Tsuen Wan, Hong Kong",
+        "website": "https://tecky.io"
       },
       "url": "https://www.facebook.com/tecky.io/"
     }

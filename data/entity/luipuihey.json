@@ -8,12 +8,22 @@
     {
       "meta": {
         "id": "2418043524875546",
+        "username": "luipuihey",
+        "name": "雷霈晞・Dorcas",
         "about": "香港填詞人、作者、音樂人。",
-        "categories": [
-          "Musician",
-          "Author"
+        "category_list": [
+          {
+            "id": "1335670856447673",
+            "name": "Musician"
+          },
+          {
+            "id": "1301",
+            "name": "Author"
+          }
         ],
-        "email": "luipuihey@gmail.com"
+        "emails": [
+          "luipuihey@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/luipuihey/"
     },

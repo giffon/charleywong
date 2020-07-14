@@ -10,15 +10,24 @@
     {
       "url": "https://www.facebook.com/lapetitemainvegan/",
       "meta": {
-        "name": "La Petite Main Vegan Handcrafted 全素手藝品.手工護膚品",
         "id": "1536391803336609",
+        "username": "lapetitemainvegan",
+        "name": "La Petite Main Vegan Handcrafted 全素手藝品.手工護膚品",
         "about": "如對任何產品有興趣歡迎INBOX／ \nWhatapp: +852 95225770\n\nAny inquiries please inbox or whatapp +852 95225770",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care",
-          "Arts & Crafts Store"
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "email": "lovelapetitemain@gmail.com",
-        "tel": "95225770"
+        "emails": [
+          "lovelapetitemain@gmail.com"
+        ],
+        "website": "lapetitemain.net"
       }
     },
     {

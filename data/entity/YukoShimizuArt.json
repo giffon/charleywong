@@ -9,13 +9,21 @@
     },
     {
       "meta": {
-        "name": "Yuko Shimizu",
         "id": "113407815290",
+        "username": "YukoShimizuArt",
+        "name": "Yuko Shimizu",
         "about": "http://yukoart.com  \nNew York based illustrator. She did NOT create Hello Kitty. \nyou can take class with her now: http://skl.sh/1hjtYIR",
-        "categories": [
-          "Artist"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "yuko@yukoart.com"
+        "emails": [
+          "yuko@yukoart.com"
+        ],
+        "single_line_address": "New York, New York",
+        "website": "http://www.yukoart.com"
       },
       "url": "https://www.facebook.com/YukoShimizuArt/"
     },

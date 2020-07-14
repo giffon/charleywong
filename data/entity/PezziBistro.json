@@ -9,16 +9,29 @@
     },
     {
       "meta": {
-        "name": "Pezzi Bistro",
         "id": "1408005429429647",
+        "username": "PezziBistro",
+        "name": "Pezzi Bistro",
         "about": "Pezzi Bistro意思是精緻的意式小館，以美國工業式Loft為設計風格，運用了水泥及磚塊牆身帶出原始的工業感覺，綴以不同的重金屬、鋼材及鎢絲吊燈等，別具一格。",
-        "categories": [
-          "Italian Restaurant"
+        "category_list": [
+          {
+            "id": "193831710644458",
+            "name": "Italian Restaurant"
+          },
+          {
+            "id": "233804719972590",
+            "name": "Bar & Grill"
+          },
+          {
+            "id": "499741296896069",
+            "name": "Cocktail Bar"
+          }
         ],
-        "addr": "新界 粉嶺 聯和墟 聯和道 一號地下",
-        "area": "Hong Kong",
-        "email": "pezzibistro@gmail.com",
-        "tel": "26699166"
+        "emails": [
+          "pezzibistro@gmail.com"
+        ],
+        "single_line_address": "新界 粉嶺 聯和墟 聯和道 一號地下, Hong Kong",
+        "website": "https://www.instagram.com/PezziBistro"
       },
       "url": "https://www.facebook.com/PezziBistro/"
     },

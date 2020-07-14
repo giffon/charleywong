@@ -6,13 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "Patrick Cho Photography",
         "id": "1830139287275022",
+        "username": "PatrickChoPhotography",
+        "name": "Patrick Cho Photography",
         "about": "攝影是生活、是思想的延伸，藉著光影訴說感受、承載被凝住的一剎那。攝影不一定跟美麗(beauty)有關，卻肯定跟美學(aesthetics)相連，美學在乎價值、意義、時代、直覺和感受。",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "patrickchophotography@gmail.com"
+        "emails": [
+          "patrickchophotography@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/PatrickChoPhotography/"
     }

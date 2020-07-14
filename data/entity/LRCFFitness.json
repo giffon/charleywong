@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/LRCFFitness/",
       "meta": {
-        "name": "LRCF Fitness HK",
         "id": "2571955746151744",
+        "username": "LRCFFitness",
+        "name": "LRCF Fitness HK",
         "about": "LRCF provides a unique and high quality environment for Hong Kong people to reap the benefits of conditioning and multi-functional training.",
-        "categories": [
-          "Gym/Physical Fitness Center"
+        "category_list": [
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          }
         ],
-        "addr": "太子塘尾道197-199號地舖",
-        "area": "Hong Kong",
-        "email": "lrcf@lrcffitnessbox.club",
-        "tel": "26586218"
+        "emails": [
+          "lrcf@lrcffitnessbox.club"
+        ],
+        "single_line_address": "太子塘尾道197-199號地舖, 852 Hong Kong",
+        "website": "http://www.lrcffitnessbox.club"
       }
     },
     {

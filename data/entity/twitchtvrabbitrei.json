@@ -7,12 +7,20 @@
   "webpages": [
     {
       "meta": {
+        "id": "1118783441547058",
+        "username": "twitchtvrabbitrei",
+        "name": "Rabbit 兔",
         "about": "Rabbit 兔` 遊戲台",
-        "categories": [
-          "Just for fun"
+        "category_list": [
+          {
+            "id": "129417183848258",
+            "name": "Just For Fun"
+          }
         ],
-        "email": "ttvrabbitrei@gmail.com",
-        "id": "1118783441547058"
+        "emails": [
+          "ttvrabbitrei@gmail.com"
+        ],
+        "website": "http://www.twitch.tv/rabbitrei"
       },
       "url": "https://www.facebook.com/twitchtvrabbitrei/"
     },

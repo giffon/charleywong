@@ -10,15 +10,29 @@
     },
     {
       "meta": {
-        "name": "隨我行FolloMe",
         "id": "150584485300586",
+        "username": "Follo3me",
+        "name": "隨我行FolloMe",
         "about": "【FolloMe 隨我行】我們是一班喜愛郊遊、行山、攝影與露營的都市香港人，希望把自己走過的路，經歷過的旅程，用文字、相片和影片分享給喜愛大自然的您。\n\n成立日期: 19 August 2015",
-        "categories": [
-          "Hiking Trail",
-          "Local & Travel Website",
-          "Photography Videography"
+        "category_list": [
+          {
+            "id": "268946656794071",
+            "name": "Hiking Trail"
+          },
+          {
+            "id": "2715",
+            "name": "Local & Travel Website"
+          },
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          }
         ],
-        "email": "follow2015atw@gmail.com"
+        "emails": [
+          "follow2015atw@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://follo3me.com"
       },
       "url": "https://www.facebook.com/Follo3me/"
     },

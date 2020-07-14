@@ -7,13 +7,28 @@
     {
       "meta": {
         "id": "395733850615150",
+        "username": "mastermankitchen",
+        "name": "Masterman Kitchen",
         "about": "用愛作調味，用食物治療心。\n\nWe make noise not food.",
-        "categories": [
-          "Chef",
-          "School",
-          "Gastropub"
+        "category_list": [
+          {
+            "id": "1606",
+            "name": "Chef"
+          },
+          {
+            "id": "187462324610381",
+            "name": "Food Consultant"
+          },
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "email": "mastermankitchen@gmail.com"
+        "emails": [
+          "mastermankitchen@gmail.com"
+        ],
+        "single_line_address": "852 Hong Kong",
+        "website": "http://www.facebook.com/mastermankitchen"
       },
       "url": "https://www.facebook.com/mastermankitchen/"
     }

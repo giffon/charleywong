@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/wingshing2017/",
       "meta": {
-        "name": "永成潔具水電冷氣",
         "id": "249419912174785",
+        "username": "wingshing2017",
+        "name": "永成潔具水電冷氣",
         "about": "專業維修，承裝大小水電冷氣電器工程，親力親為，信心保證！",
-        "categories": [
-          "Home Improvement"
+        "category_list": [
+          {
+            "id": "108427109235243",
+            "name": "Home Improvement"
+          }
         ],
-        "addr": "九龍慈雲山毓華里16號慈祥大廈2號舖",
-        "area": "Hong Kong",
-        "email": "kw111874@gmail.com",
-        "tel": "23276337"
+        "emails": [
+          "kw111874@gmail.com"
+        ],
+        "single_line_address": "九龍慈雲山毓華里16號慈祥大廈2號舖, Hong Kong"
       }
     }
   ],

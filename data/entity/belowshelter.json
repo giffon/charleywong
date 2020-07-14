@@ -11,18 +11,29 @@
     {
       "url": "https://www.facebook.com/belowshelter/",
       "meta": {
-        "name": "秘撈工房 Below Shelter",
         "id": "159308148098616",
-        "about": "Two Artists, Jerry Ng Sek Hin and King Lau King Lam created Below Shelter to make arts and crafts.\nWe do regular courses of woodworking(by Jerry) and ink art(by King). It is also a fun zone for board game, music, chitchat and chill.\nCome and join us!",
-        "categories": [
-          "Arts & Entertainment",
-          "Gift Shop",
-          "Carpenter"
+        "username": "belowshelter",
+        "name": "秘撈工房 Below Shelter",
+        "about": "由九十後藝術家Jerry Ng創立，提供木雕藝術課程，希望宣揚手製工藝品的文化。Jerry同時是策展人，2020年夏於賽馬會創意藝術中心（JCCAC）舉辦了「612當日，我_____」藝術聯展。",
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          },
+          {
+            "id": "180833545285725",
+            "name": "Carpenter"
+          }
         ],
-        "addr": "Room1209, 12Floor, Wah Yiu Industrial Centre, 30-32 Au Pui Wan Street, Shatin, New Territories, Hong Kong",
-        "area": "Hong Kong",
-        "email": "jerryhinng@gmail.com",
-        "tel": "59308628"
+        "emails": [
+          "jerryhinng@gmail.com"
+        ],
+        "single_line_address": "Room1209, 12Floor, Wah Yiu Industrial Centre, 30-32 Au Pui Wan Street, Shatin, New Territories, Hong Kong, Hong Kong",
+        "website": "http://jerryng.wixsite.com/arts"
       }
     },
     {

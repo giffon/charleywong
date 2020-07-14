@@ -11,16 +11,22 @@
     {
       "url": "https://www.facebook.com/goshakuhk/",
       "meta": {
-        "name": "五勺 Goshaku",
         "id": "613703452146146",
+        "username": "goshakuhk",
+        "name": "五勺 Goshaku",
         "about": "專注於日本清酒的居酒屋,提供超過二百款直接入口的清酒。所有種類均以杯裝供應,讓客人每次光臨都能品嚐數款佳釀",
-        "categories": [
-          "Japanese Restaurant",
-          "Sake Bar"
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          },
+          {
+            "id": "1640927539562872",
+            "name": "Sake Bar"
+          }
         ],
-        "addr": "6/F,1 Knutsford Terrace",
-        "area": "852 Tsim Sha Tsui",
-        "tel": "26876565"
+        "single_line_address": "6/F,1 Knutsford Terrace, 852 Tsim Sha Tsui",
+        "website": "http://www.goshaku.com"
       }
     },
     {

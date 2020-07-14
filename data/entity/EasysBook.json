@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "易搜書",
         "id": "1635396006766906",
+        "username": "EasysBook",
+        "name": "易搜書",
         "about": "『易搜書』是一個手機應用程式 (Mobile App)，為香港市民及學生提供一個免費的平台作 交換或買賣 二手書籍，從而達到減少浪費和環保之目的。",
-        "categories": [
-          "Book"
+        "category_list": [
+          {
+            "id": "1300",
+            "name": "Book"
+          }
         ],
-        "email": "2easysale@gmail.com"
+        "emails": [
+          "2easysale@gmail.com"
+        ],
+        "single_line_address": "N/A Wan Chai"
       },
       "url": "https://www.facebook.com/EasysBook/"
     },

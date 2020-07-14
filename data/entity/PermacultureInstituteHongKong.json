@@ -8,14 +8,20 @@
     {
       "url": "https://www.facebook.com/PermacultureInstituteHongKong/",
       "meta": {
-        "name": "Permaculture Institute Hong Kong 香港永續栽培學苑",
         "id": "361986827204767",
+        "username": "PermacultureInstituteHongKong",
+        "name": "Permaculture Institute Hong Kong 香港永續栽培學苑",
         "about": "香港永續栽培學苑是一個非牟利（慈善）機構。透過教育活動、訓練課程、示範項目、研究計劃和顧問工作等，推廣永續栽培的理念。",
-        "categories": [
-          "Nonprofit Organization"
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          }
         ],
-        "email": "pihkboard@gmail.com",
-        "tel": "57442722"
+        "emails": [
+          "pihkboard@gmail.com"
+        ],
+        "website": "http://hkpi.webs.com/"
       }
     }
   ],

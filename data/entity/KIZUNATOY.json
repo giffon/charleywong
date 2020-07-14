@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Kizuna Toy",
         "id": "1433022153666612",
+        "username": "KIZUNATOY",
+        "name": "Kizuna Toy",
         "about": "本店負責代購各種日本宅物精品\n暫時精品以LoveLive,艦娘,刀劍亂舞的產品為主\n亦會開訂各式宅腐物品甚至卡通人物商品或趣味產品\n歡迎E-mail,whatsapp或者instagram查詢及報價",
-        "categories": [
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "深水埗西九龍中心7樓7135號舖",
-        "area": "Sham Shui Po",
-        "email": "kizunatoy@gmail.com",
-        "tel": "54043952"
+        "emails": [
+          "kizunatoy@gmail.com"
+        ],
+        "single_line_address": "深水埗西九龍中心7樓7135號舖, Sham Shui Po",
+        "website": "https://www.facebook.com/groups/944664835574522/"
       },
       "url": "https://www.facebook.com/KIZUNATOY/"
     },

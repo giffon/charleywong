@@ -10,16 +10,28 @@
     {
       "url": "https://www.facebook.com/doctormil/",
       "meta": {
-        "name": "千之助先生日語教室",
         "id": "1496803887245580",
+        "username": "doctormil",
+        "name": "千之助先生日語教室",
         "about": "非一般日語導師！\n為左令學日文唔好悶，無所不用奇極！\n（你唔係教日文，你明條鐵咩!!）\n拿~上堂我係唔講粗言穢語嫁！",
-        "categories": [
-          "Language School",
-          "Tutor/Teacher",
-          "School"
+        "category_list": [
+          {
+            "id": "191533400865548",
+            "name": "Language School"
+          },
+          {
+            "id": "2601",
+            "name": "School"
+          },
+          {
+            "id": "145296352197250",
+            "name": "Tutor/Teacher"
+          }
         ],
-        "email": "snsjap@gmail.com",
-        "tel": "61466706"
+        "emails": [
+          "snsjap@gmail.com"
+        ],
+        "website": "https://www.snsjap.com/"
       }
     }
   ],

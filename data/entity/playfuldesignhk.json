@@ -6,15 +6,28 @@
   "webpages": [
     {
       "meta": {
+        "id": "1116419215040825",
+        "username": "playfuldesignhk",
+        "name": "Playful Design",
         "about": "店內每件產品均以日本製風乾樹脂黏土、日本滴膠等製成，而所有產品由構思、設計、製造、包裝等均由店主自家包辦。店主希望客人品嚐美食時得到的滿足、幸福感延續下去。",
-        "categories": [
-          "Arts and crafts shop",
-          "Accessories",
-          "Games/toys"
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "185127444860544",
+            "name": "Accessories"
+          },
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          }
         ],
-        "email": "playfuldesignhk@gmail.com",
-        "tel": "55078507",
-        "id": "1116419215040825"
+        "emails": [
+          "playfuldesignhk@gmail.com"
+        ],
+        "website": "http://www.pinkoi.com/store/playfuldesignhk"
       },
       "url": "https://www.facebook.com/playfuldesignhk/"
     },

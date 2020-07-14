@@ -18,18 +18,29 @@
     {
       "url": "https://www.facebook.com/crabwarehouse/",
       "meta": {
-        "name": "蟹貨倉 Crab Warehouse",
         "id": "104209371064020",
+        "username": "crabwarehouse",
+        "name": "蟹貨倉 Crab Warehouse",
         "about": "Instagram: crabwarehouse https://instagram.com/crabwarehouse?igshid=72t3lj9jvnk1",
-        "categories": [
-          "Shopping & Retail",
-          "Electronics",
-          "Gym/Physical Fitness Center"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2213",
+            "name": "Electronics"
+          },
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          }
         ],
-        "addr": "觀塘興業街31號興業中心2樓A室(名創工作室)7號",
-        "area": "Kowloon, Hong Kong",
-        "email": "crabwarehouse@gmail.com",
-        "tel": "97278064"
+        "emails": [
+          "crabwarehouse@gmail.com"
+        ],
+        "single_line_address": "觀塘興業街31號興業中心2樓A室(名創工作室)7號, Kowloon, Hong Kong",
+        "website": "https://www.crabwarehouse.com/"
       }
     }
   ],

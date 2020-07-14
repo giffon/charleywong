@@ -17,14 +17,24 @@
     {
       "url": "https://www.facebook.com/chiutatcomics/",
       "meta": {
-        "name": "黃照達漫畫",
         "id": "320869361271826",
+        "username": "chiutatcomics",
+        "name": "黃照達漫畫",
         "about": "黃照達，漫畫家，每天在報章嘰嘰格格。希望透過漫畫去抒解對社會的不安與憤怒。",
-        "categories": [
-          "Artist",
-          "Graphic Designer"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "162183907165552",
+            "name": "Graphic Designer"
+          }
         ],
-        "email": "chiutat@gmail.com"
+        "emails": [
+          "chiutat@gmail.com"
+        ],
+        "website": "http://www.chiutat.com"
       }
     }
   ],

@@ -6,16 +6,25 @@
   "webpages": [
     {
       "meta": {
+        "id": "459320824196423",
+        "username": "leisureinyuenlong",
+        "name": "Leisure in Yuen Long",
         "about": "我們永遠站在雞蛋這一邊\n\nHope everyone having leisure time with lovers, friends, families, and GOD",
-        "categories": [
-          "Coffee shop",
-          "Breakfast & brunch restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          }
         ],
-        "addr": "元朗鳯攸北街9A昌威大廈28號地鋪",
-        "area": "Hong Kong",
-        "email": "leisureinyuenlong@yahoo.com.hk",
-        "tel": "35687741",
-        "id": "459320824196423"
+        "emails": [
+          "leisureinyuenlong@yahoo.com.hk"
+        ],
+        "single_line_address": "元朗鳯攸北街9A昌威大廈28號地鋪, 852 Hong Kong",
+        "website": "http://instagram.com/leisureinyuenlong"
       },
       "url": "https://www.facebook.com/leisureinyuenlong/"
     },

@@ -10,11 +10,19 @@
     {
       "meta": {
         "id": "322948217893953",
+        "username": "jennytongphotography",
+        "name": "Jenny Tong Photography",
         "about": "I believes in the power of images, and have been striving for documenting moments that not only catches your eyes, but also catches your souls.\n\nhttp://jennytongphotography.com",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "info@jennytongphotography.com"
+        "emails": [
+          "info@jennytongphotography.com"
+        ],
+        "website": "http://jennytongphotography.com"
       },
       "url": "https://www.facebook.com/jennytongphotography/"
     }

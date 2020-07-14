@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/borabeautyhk/",
       "meta": {
-        "name": "Bora Beauty Hk",
         "id": "1879052672422660",
+        "username": "borabeautyhk",
+        "name": "Bora Beauty Hk",
         "about": "務求以最抵價錢提供最大效果\n良心店，不硬銷，絕不開天殺價，讓更多人可以擁抱年輕\n每位都是十年以上的資深美容師，持續進修\n安全操作所有儀器，美容儀器每年更新\n銅鑼灣設有分店",
-        "categories": [
-          "Health/Beauty",
-          "Beauty Salon"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "199236533423806",
+            "name": "Beauty Salon"
+          }
         ],
-        "addr": "尖沙咀加連威老道39號太興商業大廈8樓",
-        "area": "Kowloon, Hong Kong",
-        "email": "info@bora.hk",
-        "tel": "37056555"
+        "emails": [
+          "info@bora.hk"
+        ],
+        "single_line_address": "銅鑼灣謝斐道500號維安商業大廈19樓, Hong Kong",
+        "website": "https://bora.hk"
       }
     },
     {

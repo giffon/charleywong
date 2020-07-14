@@ -9,16 +9,25 @@
     },
     {
       "meta": {
-        "name": "鐵道交流所",
         "id": "1631087706998047",
+        "username": "hkrms2017",
+        "name": "鐵道交流所",
         "about": "香港鐵道交流所是位於荔枝角的N比例鐵道模型Layout會所. 提供面積6米X2.5米之比例鐵道模型Layout. Layout 共有8條線可供預約. 本所亦與國鐵小站及鉄道模型灯具製作所合作寄賣產品.",
-        "categories": [
-          "Hobby Store",
-          "Sports & Recreation Venue"
+        "category_list": [
+          {
+            "id": "1787166534852540",
+            "name": "Hobby Store"
+          },
+          {
+            "id": "865117100300601",
+            "name": "Sports & Recreation Venue"
+          }
         ],
-        "addr": "荔枝角大南西街615-617號百福工業大廈3樓03室",
-        "area": "Kowloon, Hong Kong",
-        "email": "hkrms2017@gmail.com"
+        "emails": [
+          "hkrms2017@gmail.com"
+        ],
+        "single_line_address": "荔枝角大南西街615-617號百福工業大廈3樓03室, 香港 Kowloon, Hong Kong",
+        "website": "https://www.hkrms.com/"
       },
       "url": "https://www.facebook.com/hkrms2017/"
     }

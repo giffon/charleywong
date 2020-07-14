@@ -6,16 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Why 50 Coffee - Sheung Wan",
         "id": "1498312237146476",
+        "username": "Why50hk",
+        "name": "Why 50 Coffee - Sheung Wan",
         "about": "Your Hip&Chill Coffee Neighbour",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "Shop E, G/F, Fu Fai Commercial Centre, 27 Hillier Street, Sheung Wan",
-        "area": "85 Hong Kong",
-        "email": "why50hk@gmail.com"
+        "emails": [
+          "why50hk@gmail.com"
+        ],
+        "single_line_address": "Shop E, G/F, Fu Fai Commercial Centre, 27 Hillier Street, Sheung Wan, 85 Hong Kong"
       },
       "url": "https://www.facebook.com/Why50hk/"
     },

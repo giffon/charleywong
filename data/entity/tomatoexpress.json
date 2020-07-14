@@ -11,11 +11,20 @@
     {
       "meta": {
         "id": "1538934319769245",
+        "username": "tomatoexpress",
+        "name": "Tomato Express 茄姐去那兒！",
         "about": "去旅行唔係夢，一個月飛一次其實你都做得到！小編茄姐介紹全新嘅旅遊同購物體驗俾大家，are you ready?",
-        "categories": [
-          "Travel company"
+        "category_list": [
+          {
+            "id": "2258",
+            "name": "Travel Company"
+          }
         ],
-        "email": "tomatoexp@gmail.com"
+        "emails": [
+          "tomatoexp@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://tomatoexp.blogspot.hk/"
       },
       "url": "https://www.facebook.com/tomatoexpress/"
     }
