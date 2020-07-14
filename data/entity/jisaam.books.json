@@ -7,13 +7,21 @@
   "webpages": [
     {
       "meta": {
-        "categories": [
-          "Book shop"
+        "id": "114741956569603",
+        "username": "jisaam.books",
+        "name": "貳叄書房 jisaam.books",
+        "about": "𝘪𝘯 𝘢 𝘳𝘦𝘭𝘢𝘵𝘪𝘰𝘯 𝘸𝘪𝘵𝘩 空間 | 古書 | 文藝 | 結他 |咖啡",
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
         ],
-        "addr": "RM 1202, Grand Place, Nathan Road 558-560, Yau Ma Tei",
-        "area": "Hong Kong",
-        "email": "jisaam.books@gmail.com",
-        "id": "114741956569603"
+        "emails": [
+          "jisaam.books@gmail.com"
+        ],
+        "single_line_address": "RM 1202, Grand Place, Nathan Road 558-560, Yau Ma Tei",
+        "website": "https://www.instagram.com/jisaam.books/"
       },
       "url": "https://www.facebook.com/jisaam.books/"
     }

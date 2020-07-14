@@ -11,13 +11,20 @@
     {
       "url": "https://www.facebook.com/captvhk/",
       "meta": {
-        "name": "CapTV 擷電視",
         "id": "228538523933411",
+        "username": "captvhk",
+        "name": "CapTV 擷電視",
         "about": "擷粵音「kit3」\n鍾意嘅，咪擷囉！\nCap Me if you LIKE\n\n網民於CapTV的留言只屬其個人意見，均不代表CapTV立場。",
-        "categories": [
-          "TV Channel"
+        "category_list": [
+          {
+            "id": "1404",
+            "name": "TV Channel"
+          }
         ],
-        "email": "hello@captv.hk"
+        "emails": [
+          "hello@captv.hk"
+        ],
+        "website": "http://captv.hk/"
       }
     },
     {

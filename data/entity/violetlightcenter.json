@@ -10,16 +10,27 @@
     {
       "meta": {
         "id": "418651928235295",
+        "username": "violetlightcenter",
+        "name": "Violet Light Center",
         "about": "Tel 6128 8449 我們提供各式身心靈課程及服務，由淺入深讓你打穩根基。並深入探討，務求能徹底理解最根本的原則邏輯，讓你能在合理情況下，演化出自己的風格。而非只是“師傅話”。",
-        "categories": [
-          "Alternative & holistic health service",
-          "Product/service",
-          "Magician"
+        "category_list": [
+          {
+            "id": "357645644269220",
+            "name": "Alternative & Holistic Health Service"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "1028050117278980",
+            "name": "Magician"
+          }
         ],
-        "addr": "創業街36號華基中心23樓2310室(L Hotel隔離)",
-        "area": "Kwun Tong",
-        "email": "violetlightcenter@gmail.com",
-        "tel": "61288449"
+        "emails": [
+          "violetlightcenter@gmail.com"
+        ],
+        "website": "http://www.violetlightcenter.com"
       },
       "url": "https://www.facebook.com/violetlightcenter/"
     }

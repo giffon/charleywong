@@ -6,12 +6,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "Buggy Studio",
         "id": "1902473526649079",
-        "about": "Remind the good things in life~",
-        "categories": [
-          "Artist"
-        ]
+        "name": "Buggy Studio",
+        "about": "Remind the good things in life~\n",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
+        ],
+        "single_line_address": "gaia"
       },
       "url": "https://www.facebook.com/1902473526649079/"
     }

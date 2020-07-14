@@ -6,15 +6,23 @@
   "webpages": [
     {
       "meta": {
-        "name": "Gift's Palmiers - fanpage - 禮·蜜蝴蝶酥餅",
         "id": "412061888941678",
-        "about": "本店主打手製蝴蝶酥,無添加防腐劑,香脆美味。\n\n由於全人手製,為確保產品質數,除推廣日或市集外,絕不會有現貨,如訂購請預留最少3至5天前訂購。敬請留意",
-        "categories": [
-          "Shopping & Retail",
-          "Food & Beverage"
+        "username": "GiftsPalmiers",
+        "name": "Gift's Palmiers - fanpage - 禮·蜜蝴蝶酥餅",
+        "about": "本店主打手製蝴蝶酥,無添加防腐劑,香脆美味。\n\n由於全人手製,為確保產品質數,除推廣日或市集外,絕不會有現貨,如訂購請預留最少3至5天前訂購。敬請留意\n\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          }
         ],
-        "email": "gifts.palmiers@gmail.com",
-        "tel": "60723401"
+        "emails": [
+          "gifts.palmiers@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/GiftsPalmiers/"
     },

@@ -6,17 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "about": "Opendoor Cafe + Courtyard - Your neighbourhood cafe offering favourites + speciality drinks such as almond milk coffees, kefir smoothies and craft beers.",
-        "categories": [
-          "Breakfast & brunch restaurant",
-          "Cafe",
-          "Vegetarian/Vegan Restaurant"
+        "id": "132061946986975",
+        "username": "opendoorcafehk",
+        "name": "Opendoor Cafe + Courtyard",
+        "about": "Opendoor Cafe + Courtyard - Your neighbourhood cafe offering favourites + speciality drinks such as almond milk coffees, kefir smoothies and craft beers.\n",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          },
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          }
         ],
-        "addr": "G/F 120 Connaught Road West, Sai Ying Pun",
-        "area": "Hong Kong",
-        "email": "hello@opendoorcafe.hk",
-        "tel": "34603880",
-        "id": "132061946986975"
+        "emails": [
+          "hello@opendoorcafe.hk"
+        ],
+        "single_line_address": "G/F 120 Connaught Road West, Sai Ying Pun, Hong Kong",
+        "website": "http://www.opendoorcafe.hk"
       },
       "url": "https://www.facebook.com/opendoorcafehk/"
     }

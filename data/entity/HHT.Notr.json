@@ -8,13 +8,18 @@
     {
       "url": "https://www.facebook.com/HHT.Notr/",
       "meta": {
-        "name": "侯曉彤 Hau HiuTung",
         "id": "110491317032665",
-        "categories": [
-          "Community Service"
+        "username": "HHT.Notr",
+        "name": "侯曉彤 Hau HiuTung",
+        "category_list": [
+          {
+            "id": "170968163319233",
+            "name": "Community Service"
+          }
         ],
-        "email": "hit.notr@gmail.com",
-        "tel": "62541054"
+        "emails": [
+          "hit.notr@gmail.com"
+        ]
       }
     }
   ],

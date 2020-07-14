@@ -6,13 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "加加梘梘",
         "id": "262487554440548",
+        "username": "KaKaGaanGaan",
+        "name": "加加梘梘",
         "about": "某日行經一啲市集，發現好多手工梘好靚，有啲仲係透明，作為好奇小寶寶，被顏色所吸引，就產生興趣，為此去圖書館刨書，上網睇片爬文，發現好多手工梘：色彩繽紛因為顏料，透明因為皂",
-        "categories": [
-          "Interest"
+        "category_list": [
+          {
+            "id": "1500",
+            "name": "Interest"
+          }
         ],
-        "email": "kakagaangaan@gmail.com"
+        "emails": [
+          "kakagaangaan@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/KaKaGaanGaan/"
     },

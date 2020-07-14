@@ -10,12 +10,17 @@
     {
       "meta": {
         "id": "118076328205542",
+        "username": "galleryexit.hongkong",
+        "name": "Gallery EXIT",
         "about": "Gallery EXIT was established in 2008 to present conceptually grounded artworks from Hong Kong.",
-        "categories": [
-          "Art gallery"
+        "category_list": [
+          {
+            "id": "197384240287028",
+            "name": "Art Gallery"
+          }
         ],
-        "addr": "3/F, 25 Hing Wo Street, Tin Wan, Aberdeen",
-        "area": "Hong Kong"
+        "single_line_address": "3/F, 25 Hing Wo Street, Tin Wan, Aberdeen, Hong Kong",
+        "website": "http://www.galleryexit.com"
       },
       "url": "https://www.facebook.com/galleryexit.hongkong/"
     }

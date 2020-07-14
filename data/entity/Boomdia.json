@@ -9,16 +9,21 @@
     },
     {
       "meta": {
-        "name": "Boomdia Japan Store",
         "id": "194596883932533",
-        "about": "我地每月有專人飛往日本搜羅各類精品, 包括 Tokyo Disneyland, DisneySea, Sanrio, Miffy, Snoopy, 龍貓, Doraemon, Sailor Moon, IQ博士等等！\n所有貨品 100% 保證由日本直接空運到港 \n\n**** Welcome to Boomdia JP ****",
-        "categories": [
-          "Toy Store"
+        "username": "Boomdia",
+        "name": "Boomdia Japan Store",
+        "about": "我地每月有專人飛往日本搜羅各類精品, 包括 Tokyo Disneyland, DisneySea, Sanrio, Miffy, Snoopy, 龍貓, Doraemon, Sailor Moon, IQ博士等等！\n所有貨品 100% 保證由日本直接空運到港 \n\n**** Welcome to Boomdia JP ****\n\n",
+        "category_list": [
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          }
         ],
-        "addr": "九龍旺角彌敦道 610 號荷里活商業中心 18 樓 1818 室",
-        "area": "Hong Kong",
-        "email": "boomdiajp@gmail.com",
-        "tel": "60898319"
+        "emails": [
+          "boomdiajp@gmail.com"
+        ],
+        "single_line_address": "九龍旺角彌敦道 610 號荷里活商業中心 18 樓 1818 室, Hong Kong",
+        "website": "https://www.boomdiajp.store/"
       },
       "url": "https://www.facebook.com/Boomdia/"
     },

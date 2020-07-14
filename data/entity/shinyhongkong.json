@@ -14,17 +14,25 @@
     {
       "url": "https://www.facebook.com/shinyhongkong/",
       "meta": {
-        "name": "SHINY",
         "id": "486341941495617",
+        "username": "shinyhongkong",
+        "name": "SHINY",
         "about": "我倆女子每月會到日本韓國搜羅精美服飾並提供服襯服務",
-        "categories": [
-          "Clothing (Brand)",
-          "Women's Clothing Store"
+        "category_list": [
+          {
+            "id": "128753240528981",
+            "name": "Women's Clothing Store"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "addr": "Shop 36 on 1/F , Healey Building Nos. 211-223 Castle Peak Road Yuen Long & Nos. 2 & 6-10 Kik Yeung Road , Yuen Long",
-        "area": "852 Yuen Long",
-        "email": "ordershinyhk@gmail.com",
-        "tel": "98531969"
+        "emails": [
+          "ordershinyhk@gmail.com"
+        ],
+        "single_line_address": "元朗喜利商場1樓36號舖, 852 Hong Kong",
+        "website": "https://www.instagram.com/shiny_hk/"
       }
     }
   ],

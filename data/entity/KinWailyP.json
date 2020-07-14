@@ -9,14 +9,20 @@
     },
     {
       "meta": {
-        "name": "Kin Waily Presents",
         "id": "614270695576370",
+        "username": "KinWailyP",
+        "name": "Kin Waily Presents",
         "about": "Kin Waily Presents是為你投放最多心機及呈現獨有的畫面，由2009年起開始專注於拍攝、錄影及平面設計等工作，接觸的類型廣泛，因此可在不同的工作上取其優點及概念，為你提供創新的攝影體驗!",
-        "categories": [
-          "Producer"
+        "category_list": [
+          {
+            "id": "1108",
+            "name": "Producer"
+          }
         ],
-        "email": "kinwaily@gmail.com",
-        "tel": "60531113"
+        "emails": [
+          "kinwaily@gmail.com"
+        ],
+        "website": "www.kinwaily.wixsite.com/kwps"
       },
       "url": "https://www.facebook.com/KinWailyP/"
     },

@@ -9,14 +9,24 @@
     },
     {
       "meta": {
-        "name": "Victor Lui Photography",
         "id": "253486234703312",
-        "about": "Victor Lui is a worldwide photographer based in Hong Kong & Macau. \nService: Local/Overseas Pre-Wedding / Engagement / Wedding Day",
-        "categories": [
-          "Artist",
-          "Photographer"
+        "username": "VictorLuiPhotography",
+        "name": "Victor Lui Photography",
+        "about": "Victor Lui is a worldwide photographer based in Hong Kong & Macau. \nService: Local/Overseas Pre-Wedding / Engagement / Wedding Day\n",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "info@vicluichannel.com"
+        "emails": [
+          "info@vicluichannel.com"
+        ],
+        "website": "http://www.vicluichannel.com"
       },
       "url": "https://www.facebook.com/VictorLuiPhotography/"
     },

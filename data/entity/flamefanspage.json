@@ -7,12 +7,19 @@
   "webpages": [
     {
       "meta": {
+        "id": "415586471847362",
+        "username": "flamefanspage",
+        "name": "Flame微光",
         "about": "微光 Flame微光 是我們對人對夢想的一點小火光，我們相信手作的溫度可以為我們身處的城市亮起處處微光，單純的想藉著親手做，可以做出溫暖心房的小東西，帶給大家快樂和驚喜。",
-        "categories": [
-          "Product/service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "flameproduction.hk@gmail.com",
-        "id": "415586471847362"
+        "emails": [
+          "flameproduction.hk@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/flamefanspage/"
     }

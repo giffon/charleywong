@@ -7,12 +7,24 @@
     {
       "meta": {
         "id": "324405318283787",
+        "username": "3DPlateBC",
+        "name": "膠牌車長生活&製作記事",
         "about": "一個車長於工作時的趣聞，同時作為一個製作者的製作生活",
-        "categories": [
-          "Personal blog",
-          "Public service",
-          "Bus line"
-        ]
+        "category_list": [
+          {
+            "id": "138456929557798",
+            "name": "Bus Line"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          },
+          {
+            "id": "139386576124160",
+            "name": "Public Service"
+          }
+        ],
+        "single_line_address": "五芳街, Hong Kong"
       },
       "url": "https://www.facebook.com/3DPlateBC/"
     }

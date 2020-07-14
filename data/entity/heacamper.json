@@ -6,12 +6,20 @@
   "webpages": [
     {
       "meta": {
+        "id": "1669826743247095",
+        "username": "heacamper",
+        "name": "HeA Camper",
         "about": "HeA Camper係香港本土One-man Band品牌，由設計畫圖、切割打磨、上色上油，至包裝測試，都係由主理人一腳踢係香港包辦，正宗made in HK!",
-        "categories": [
-          "Outdoor and sporting goods company"
+        "category_list": [
+          {
+            "id": "2231",
+            "name": "Outdoor & Sporting Goods Company"
+          }
         ],
-        "email": "heacamper@gmail.com",
-        "id": "1669826743247095"
+        "emails": [
+          "heacamper@gmail.com"
+        ],
+        "single_line_address": "Mong Kok"
       },
       "url": "https://www.facebook.com/heacamper/"
     }

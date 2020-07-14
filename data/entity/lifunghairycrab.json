@@ -6,13 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "利豐江蘇及北海道爆膏大閘蟹專門店",
         "id": "101257227935645",
-        "categories": [
-          "Interest"
+        "name": "利豐江蘇及北海道爆膏大閘蟹專門店",
+        "category_list": [
+          {
+            "id": "1500",
+            "name": "Interest"
+          }
         ],
-        "email": "lifunghairycrab@gmail.com",
-        "tel": "59986352"
+        "emails": [
+          "lifunghairycrab@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/101257227935645/"
     },

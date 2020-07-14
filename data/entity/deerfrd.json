@@ -6,12 +6,20 @@
   "webpages": [
     {
       "meta": {
+        "id": "605086182887545",
+        "username": "deerfrd",
+        "name": "Deerfrd",
         "about": "love your pet, love yourself, love the earth",
-        "categories": [
-          "Product/service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "deerfrd@outlook.com",
-        "id": "605086182887545"
+        "emails": [
+          "deerfrd@outlook.com"
+        ],
+        "website": "https://deerfrd.wixsite.com/deerfrd"
       },
       "url": "https://www.facebook.com/deerfrd/"
     }

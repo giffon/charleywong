@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/pongSeafoodGrill/",
       "meta": {
-        "name": "燒邦特色燒烤",
         "id": "2192760480970732",
+        "username": "pongSeafoodGrill",
+        "name": "燒邦特色燒烤",
         "about": "前身西灣河海利街好拍檔美食。已搬遷到天后。歡迎預訂海鮮及訂座",
-        "categories": [
-          "Seafood Restaurant",
-          "Barbecue Restaurant"
+        "category_list": [
+          {
+            "id": "150534008338515",
+            "name": "Barbecue Restaurant"
+          },
+          {
+            "id": "163300367054197",
+            "name": "Seafood Restaurant"
+          }
         ],
-        "addr": "天后電氣道74-78號金基大廈地下3B舖",
-        "area": "North Point",
-        "tel": "96626831"
+        "single_line_address": "天后電氣道74-78號金基大廈地下3B舖, +852 North Point"
       }
     },
     {

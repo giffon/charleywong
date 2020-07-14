@@ -9,12 +9,23 @@
       "url": "https://www.facebook.com/cuhk.buy/",
       "meta": {
         "id": "1487788474872574",
+        "username": "cuhk.buy",
+        "name": "山城士多 CUStore",
         "about": "我地係一群中大學生，希望透過山城士多，同大家吹吹水，講講故，分享香港製造既故事，共購本地生產食品。",
-        "categories": [
-          "Product/Service",
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "cuhk.buy@gmail.com"
+        "emails": [
+          "cuhk.buy@gmail.com"
+        ],
+        "website": "http://form.cuhkbuy.com/"
       }
     }
   ],

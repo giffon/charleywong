@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/timable.hk/",
       "meta": {
-        "name": "Timable",
         "id": "134865886543681",
+        "username": "timable.hk",
+        "name": "Timable",
         "about": "Timable 助你〝隨時、隨地〞搵嘢玩，內容涵蓋香港文化、娛樂、節日活動；\n獨特時間搜尋，迅速充實你的空閒時間。",
-        "categories": [
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "info@timable.com"
+        "emails": [
+          "info@timable.com"
+        ],
+        "website": "http://timable.com/"
       }
     },
     {

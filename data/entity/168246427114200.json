@@ -6,10 +6,13 @@
   "webpages": [
     {
       "meta": {
-        "name": "Makeup Renee",
         "id": "168246427114200",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care"
+        "name": "Makeup Renee",
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ]
       },
       "url": "https://www.facebook.com/168246427114200/"

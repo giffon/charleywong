@@ -10,18 +10,29 @@
     },
     {
       "meta": {
-        "name": "Sprayco 沛杰",
         "id": "238427683029793",
-        "about": "專營韓國護膚品,貨品全經雨潼精挑細選，更有美容達人親自演繹商品功效, 感謝粉絲們多多支持\n\n營業時間: 星期一 12:30pm-7pm / 星期二至五 10am-7pm\n【星期六,日及勞工假休息 / 午飯時間休息2-3pm】",
-        "categories": [
-          "Cosmetics Store",
-          "Wholesale & Supply Store",
-          "Skin Care Service"
+        "username": "tdtm.page",
+        "name": "Sprayco 沛杰",
+        "about": "專營韓國護膚品,貨品全經雨潼精挑細選，更有美容達人親自演繹商品功效, 感謝粉絲們多多支持\n營業時間: 星期一, 二 11am-7pm / 星期三至五 10am-7pm\n【星期六,日及勞工假休息 / 午飯時間休息2-3pm】",
+        "category_list": [
+          {
+            "id": "144873802247220",
+            "name": "Cosmetics Store"
+          },
+          {
+            "id": "1644814599176740",
+            "name": "Skin Care Service"
+          },
+          {
+            "id": "187070794658134",
+            "name": "Wholesale & Supply Store"
+          }
         ],
-        "addr": "長沙灣大南西街615-617號百福工業大廈9樓8室",
-        "area": "Cheung Sha Wan, Hong Kong",
-        "email": "info@spray-co.com",
-        "tel": "24767499"
+        "emails": [
+          "info@spray-co.com"
+        ],
+        "single_line_address": "長沙灣大南西街615-617號百福工業大廈9樓8室, Cheung Sha Wan, Hong Kong",
+        "website": "http://spray.ehkshop.com/"
       },
       "url": "https://www.facebook.com/tdtm.page/"
     }

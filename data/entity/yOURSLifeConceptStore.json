@@ -24,16 +24,20 @@
     {
       "url": "https://www.facebook.com/311336092889868/",
       "meta": {
-        "name": "yOURSFurniture (Shop 1009, Level, D-Park)",
         "id": "311336092889868",
+        "name": "yOURSFurniture",
         "about": "售賣現成傢俱及提供訂造傢俱服務, (包3D 效果圖),專業服務,信心保證",
-        "categories": [
-          "Furniture Store"
+        "category_list": [
+          {
+            "id": "162845797101278",
+            "name": "Furniture Store"
+          }
         ],
-        "addr": "398 Castle Peak Raod., Tsuen Wan, N.T., 香港",
-        "area": "Hong Kong",
-        "email": "info@yoursfurniture.com.hk",
-        "tel": "57446905"
+        "emails": [
+          "info@yoursfurniture.com.hk"
+        ],
+        "single_line_address": "398 Castle Peak Raod., Tsuen Wan, N.T., 香港, Hong Kong",
+        "website": "www.yoursfurniture.com.hk"
       }
     },
     {

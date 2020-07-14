@@ -7,14 +7,23 @@
     {
       "url": "https://www.facebook.com/cphcatering/",
       "meta": {
-        "name": "CPH",
         "id": "2170960293127732",
-        "categories": [
-          "Caterer",
-          "Food Delivery Service",
-          "Restaurant"
-        ],
-        "tel": "91088200"
+        "username": "cphcatering",
+        "name": "CPH",
+        "category_list": [
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          },
+          {
+            "id": "139433292785470",
+            "name": "Caterer"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ]
       }
     },
     {

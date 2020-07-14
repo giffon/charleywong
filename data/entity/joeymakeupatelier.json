@@ -7,9 +7,14 @@
     {
       "meta": {
         "id": "150324595317906",
+        "username": "joeymakeupatelier",
+        "name": "Joey Makeup Atelier",
         "about": "Joey Makeup Atelier\nProvides professional makeup & hair styling service\nEmail: joeymakeupatelier@gmail.com\nWhatsapp: 51286878",
-        "categories": [
-          "Health/beauty"
+        "category_list": [
+          {
+            "id": "1500",
+            "name": "Interest"
+          }
         ]
       },
       "url": "https://www.facebook.com/joeymakeupatelier/"

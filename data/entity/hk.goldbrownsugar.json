@@ -7,15 +7,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "黑金堂Goldbrownsugar",
         "id": "561807310996499",
+        "username": "hk.goldbrownsugar",
+        "name": "黑金堂Goldbrownsugar",
         "about": "�杯杯源自整片的茶葉，口味由您自己搭配\n�尖沙咀加拿芬道45-47號 宏生大廈地下D2鋪位（轉進厚福街）\n#自己的品味自己定位",
-        "categories": [
-          "Bubble Tea Shop",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          },
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          }
         ],
-        "addr": "加拿芬道45-47號 宏生大廈地下D2舖位",
-        "area": "Tsim Sha Tsui"
+        "emails": [
+          "jm.excellent.trade@gmail.com"
+        ],
+        "single_line_address": "加拿芬道45-47號 宏生大廈地下D2舖位, Tsim Sha Tsui",
+        "website": "www.goldbrownsugar.com"
       },
       "url": "https://www.facebook.com/hk.goldbrownsugar/"
     },

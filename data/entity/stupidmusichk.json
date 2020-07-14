@@ -8,13 +8,26 @@
     {
       "meta": {
         "id": "514070008703944",
+        "username": "stupidmusichk",
+        "name": "論盡音樂 Stupid Music",
         "about": "全新網上音樂討論平台\n由歌曲到歌手至唱片公司甚至音樂新聞\n一同評定 STUPID or SMART",
-        "categories": [
-          "Song",
-          "Musician/band",
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "1201",
+            "name": "Song"
+          },
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "email": "stupidmusichk@gmail.com"
+        "emails": [
+          "stupidmusichk@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/stupidmusichk/"
     }

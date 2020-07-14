@@ -8,14 +8,20 @@
     {
       "url": "https://www.facebook.com/easywinehk/",
       "meta": {
-        "name": "Easy Wine 醉貓",
         "id": "2030607513632226",
+        "username": "easywinehk",
+        "name": "Easy Wine 醉貓",
         "about": "香港網上葡萄酒銷售平台，我們的醉貓品酒師會定期飛到法國波爾多挑選各類紅白酒，務求讓大家品嚐到性價比極高的葡萄酒。",
-        "categories": [
-          "Wine/Spirits"
+        "category_list": [
+          {
+            "id": "2224",
+            "name": "Wine/Spirits"
+          }
         ],
-        "email": "easywinehk@hotmail.com",
-        "tel": "68827036"
+        "emails": [
+          "easywinehk@hotmail.com"
+        ],
+        "website": "www.easywinehk.com"
       }
     },
     {

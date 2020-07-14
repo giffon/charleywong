@@ -10,15 +10,21 @@
     {
       "url": "https://www.facebook.com/litoocliving/",
       "meta": {
-        "name": "LITOOC",
         "id": "511787162337270",
+        "username": "litoocliving",
+        "name": "LITOOC",
         "about": "𝘋𝘦𝘴𝘪𝘨𝘯 𝘧𝘰𝘳 𝘈𝘨𝘦𝘪𝘯𝘨 𝘞𝘪𝘵𝘩 𝘎𝘳𝘢𝘤𝘦. ⁣⁣⁣\n⁣⁣⁣\nOur furniture pieces are designed to age gracefully, to wear in, not out.",
-        "categories": [
-          "Furniture Store"
+        "category_list": [
+          {
+            "id": "162845797101278",
+            "name": "Furniture Store"
+          }
         ],
-        "addr": "24A, Gee Chang Hong, 65 Wong Chuk Hang Road",
-        "area": "Hong Kong",
-        "email": "info@litooc.com"
+        "emails": [
+          "info@litooc.com"
+        ],
+        "single_line_address": "24A, Gee Chang Hong, 65 Wong Chuk Hang Road, 852 Hong Kong",
+        "website": "www.litooc.com"
       }
     },
     {

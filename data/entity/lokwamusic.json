@@ -9,15 +9,28 @@
     },
     {
       "meta": {
-        "name": "樂樺",
         "id": "1590794387884906",
+        "username": "lokwamusic",
+        "name": "樂樺",
         "about": "樂樺@樂印姊妹 | A cappella director and arranger | Piano teacher | Accompanist | English tutor",
-        "categories": [
-          "Musician",
-          "Music Lessons & Instruction School",
-          "Music Video"
+        "category_list": [
+          {
+            "id": "1817904601806120",
+            "name": "Video Creator"
+          },
+          {
+            "id": "1335670856447673",
+            "name": "Musician"
+          },
+          {
+            "id": "1207",
+            "name": "Music Video"
+          }
         ],
-        "email": "lokwamusic@gmail.com"
+        "emails": [
+          "lokwamusic@gmail.com"
+        ],
+        "website": "https://www.wecansingacappella.com/"
       },
       "url": "https://www.facebook.com/lokwamusic/"
     },

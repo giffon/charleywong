@@ -11,13 +11,23 @@
     {
       "meta": {
         "id": "667074480021069",
+        "username": "treechildren",
+        "name": "大樹孩子生活館 Tree Children's Lodge",
         "about": "優質獨特的天然玩具、手作、生活良品\nPremium quality & unique natural toys, crafts, and lifestyle goods",
-        "categories": [
-          "Toy shop",
-          "Book shop"
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          },
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          }
         ],
-        "email": "hello@treechildren.com.hk",
-        "tel": "61128081"
+        "emails": [
+          "hello@treechildren.com.hk"
+        ],
+        "website": "http://treechildren.com.hk"
       },
       "url": "https://www.facebook.com/treechildren/"
     },

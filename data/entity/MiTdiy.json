@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/MiTdiy/",
       "meta": {
-        "name": "Moments-in-Time DIY Shop & Cafe 相．藝集",
         "id": "968222103289145",
+        "username": "MiTdiy",
+        "name": "Moments-in-Time DIY Shop & Cafe 相．藝集",
         "about": "Moments in Time DIY Shop & Cafe 相．藝集 (MiT)",
-        "categories": [
-          "Gift Shop",
-          "Souvenir Shop"
+        "category_list": [
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          },
+          {
+            "id": "714231678717612",
+            "name": "Souvenir Shop"
+          }
         ],
-        "addr": "油麻地上海街395號 安業商業中心12樓全層",
-        "area": "Kowloon, Hong Kong",
-        "email": "mitdiycafe@gmail.com",
-        "tel": "67200876"
+        "emails": [
+          "mitdiycafe@gmail.com"
+        ],
+        "single_line_address": "油麻地上海街395號 安業商業中心12樓全層, Kowloon, Hong Kong",
+        "website": "https://www.mit-diy.com"
       }
     },
     {

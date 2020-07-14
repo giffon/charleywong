@@ -17,14 +17,20 @@
     {
       "url": "https://www.facebook.com/optmeal/",
       "meta": {
-        "name": "Optmeal",
         "id": "884421574926290",
+        "username": "optmeal",
+        "name": "Optmeal",
         "about": "Optmeal 我們在這裡幫助您做出正確的食物決定，以創造更健康，更自信的你。我們提供每日新鮮製造的健康零食和膳食菜單，為您的身體提供每日營養所需。",
-        "categories": [
-          "Health Food Store"
+        "category_list": [
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          }
         ],
-        "email": "info@optmeal.com",
-        "tel": "55703607"
+        "emails": [
+          "info@optmeal.com"
+        ],
+        "website": "https://optmeal.com"
       }
     }
   ],

@@ -10,12 +10,23 @@
     {
       "meta": {
         "id": "159337064770938",
-        "about": "愛。紙。花。舍\nCapturing Flower Blossoms in Life\n• Hong Kong Based Photographer with film•",
-        "categories": [
-          "Media",
-          "Photographer"
+        "username": "lovepaperflowerstudio",
+        "name": "Love Paper Flower Studio",
+        "about": "愛。紙。花。舍 \nCapturing Flower Blossoms in Life  \n • Hong Kong Based Photographer with film• \n",
+        "category_list": [
+          {
+            "id": "1314020451960517",
+            "name": "Media"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "lovepaperflowerstudio@gmail.com"
+        "emails": [
+          "lovepaperflowerstudio@gmail.com"
+        ],
+        "website": "https://www.lovepaperflowerstudio.com"
       },
       "url": "https://www.facebook.com/lovepaperflowerstudio/"
     }

@@ -11,10 +11,16 @@
     {
       "meta": {
         "id": "46251501064",
+        "username": "tsaiingwen",
+        "name": "蔡英文 Tsai Ing-wen",
         "about": "「台灣的好，不應該輕易被擊倒。當新時代已經敲門，我們必須把門打開，讓世界看見台灣的好。」",
-        "categories": [
-          "Politician"
-        ]
+        "category_list": [
+          {
+            "id": "1700",
+            "name": "Politician"
+          }
+        ],
+        "website": "http://www.president.gov.tw/"
       },
       "url": "https://www.facebook.com/tsaiingwen/"
     },

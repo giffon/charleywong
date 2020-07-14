@@ -8,12 +8,22 @@
     {
       "meta": {
         "id": "1516447715073999",
+        "username": "yellowinternational",
+        "name": "Yellow International 野佬國際開明會",
         "about": "野佬（英文：Yellow!）（前名野仔（英文:Wildchild））是香港樂隊。野仔於2012年更新為野佬。",
-        "categories": [
-          "Performing arts",
-          "Musician/band"
+        "category_list": [
+          {
+            "id": "1758092431143387",
+            "name": "Performing Arts"
+          },
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "email": "yellowi2017@gmail.com"
+        "emails": [
+          "yellowi2017@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/yellowinternational/"
     }

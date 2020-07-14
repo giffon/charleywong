@@ -10,16 +10,28 @@
     },
     {
       "meta": {
-        "name": "香港社會工作者總工會 (HKSWGU)",
         "id": "165937923461968",
+        "username": "HKSocialWorkersGeneralUnion",
+        "name": "香港社會工作者總工會 (HKSWGU)",
         "about": "香港社會工作者總工會(社總)是一個自負盈虧的工會，秉承「團結同工、爭取權益、改善服務、支持正義」的宗旨，為前線社福同工和基層市民發聲及行動。期待各位社福同工加入一起改變未來",
-        "categories": [
-          "Nonprofit Organization",
-          "Community Organization",
-          "Organization"
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          },
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          },
+          {
+            "id": "2600",
+            "name": "Organization"
+          }
         ],
-        "email": "office@hkswgu.org.hk",
-        "tel": "27802021"
+        "emails": [
+          "office@hkswgu.org.hk"
+        ],
+        "website": "http://www.hkswgu.org.hk"
       },
       "url": "https://www.facebook.com/HKSocialWorkersGeneralUnion/"
     },

@@ -8,21 +8,30 @@
     {
       "url": "https://www.facebook.com/Tommyekids/",
       "meta": {
-        "name": "阮民安 - Tommy",
         "id": "802472909813345",
-        "categories": [
-          "Public Figure"
+        "username": "Tommyekids",
+        "name": "阮民安 - Tommy",
+        "about": "阮民安個人專頁",
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          }
         ]
       }
     },
     {
       "url": "https://www.facebook.com/ekidstommy/",
       "meta": {
-        "name": "Tommy阮民安",
         "id": "102639781441732",
-        "about": "阮民安Tommy 2.0",
-        "categories": [
-          "Musician/Band"
+        "username": "ekidstommy",
+        "name": "Tommy阮民安",
+        "about": "阮民安Tommy 2.0 (Backup Page)",
+        "category_list": [
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ]
       }
     }

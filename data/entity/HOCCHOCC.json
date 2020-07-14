@@ -12,28 +12,45 @@
     },
     {
       "meta": {
-        "name": "HOCC",
         "id": "100375550229",
+        "username": "HOCCHOCC",
+        "name": "HOCC",
         "about": "www.hall1c.com",
-        "categories": [
-          "Public Figure"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          }
         ],
-        "email": "info@goomusic.com.hk"
+        "emails": [
+          "info@goomusic.com.hk"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://www.hall1c.com"
       },
       "url": "https://www.facebook.com/HOCCHOCC/"
     },
     {
       "url": "https://www.facebook.com/hall1cshop/",
       "meta": {
-        "name": "Hall1c",
         "id": "211008355746726",
+        "username": "hall1cshop",
+        "name": "Hall1c",
         "about": "Expand your world, simple lifeware for a better lifestyle.",
-        "categories": [
-          "Product/Service",
-          "Apparel & Clothing"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "1086422341396773",
+            "name": "Apparel & Clothing"
+          }
         ],
-        "email": "info@hall1c.com",
-        "tel": "37092137"
+        "emails": [
+          "info@hall1c.com"
+        ],
+        "website": "http://hall1c.com"
       }
     },
     {

@@ -8,12 +8,19 @@
     {
       "url": "https://www.facebook.com/OptomSupervision/",
       "meta": {
-        "name": "政望 Supervision",
         "id": "101062178062546",
+        "username": "OptomSupervision",
+        "name": "政望 Supervision",
         "about": "我們希望以積極務實的態度帶領有共同理念之同業，結集眾人之力量，以super vision 對社會上不公的事情作supervision！\n\n我們包括公營機構、私人機構、連鎖眼鏡公司... 的眼科視光師。",
-        "categories": [
-          "Lobbyist",
-          "Social Service"
+        "category_list": [
+          {
+            "id": "185881398118852",
+            "name": "Lobbyist"
+          },
+          {
+            "id": "178669642178193",
+            "name": "Social Service"
+          }
         ]
       }
     }

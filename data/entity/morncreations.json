@@ -6,17 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "about": "Original Design from Hong Kong, we carry an underlying animal protection theme, endangered species are featured. Our strict anti-animal skin policy shows commitment to helping animals. Talk to Designer Steve Chan, send message or morn_creations@ymail.com",
-        "categories": [
-          "Shopping & retail",
-          "Bags/luggage",
-          "Design & fashion"
+        "id": "107025929327782",
+        "username": "morncreations",
+        "name": "Morn Creations",
+        "about": "Original Design from Hong Kong, we carry an underlying animal protection theme, endangered species are featured. Our strict anti-animal skin policy shows commitment to helping animals. Talk to Designer Steve Chan, send message or morn_creations@ymail.com\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2206",
+            "name": "Bags/Luggage"
+          },
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          }
         ],
-        "addr": "G/F, No 7, Mee Lun Street, Central",
-        "area": "Hong Kong",
-        "email": "info@morn.com.hk",
-        "tel": "28697021",
-        "id": "107025929327782"
+        "emails": [
+          "info@morn.com.hk"
+        ],
+        "single_line_address": "G/F, No 117, Apliu Street, Sham Shui Po, Kowloon, 0 Hong Kong",
+        "website": "www.morn.com.hk"
       },
       "url": "https://www.facebook.com/morncreations/"
     },

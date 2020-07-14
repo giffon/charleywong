@@ -14,15 +14,27 @@
     {
       "url": "https://www.facebook.com/hrpassionman/",
       "meta": {
-        "name": "HR熱血男",
         "id": "469374690073237",
+        "username": "hrpassionman",
+        "name": "HR熱血男",
         "about": "沒有最完美的配對，只有適不適合的配對。",
-        "categories": [
-          "Public Figure",
-          "Community",
-          "Business Service"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          }
         ],
-        "email": "hrpassionman@gmail.com"
+        "emails": [
+          "hrpassionman@gmail.com"
+        ]
       }
     }
   ],

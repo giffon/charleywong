@@ -7,12 +7,24 @@
   "webpages": [
     {
       "meta": {
+        "id": "268583626923060",
+        "username": "hikingwave",
+        "name": "浪行山野  Hiking Wave",
         "about": "一班熱愛綠野之人組成的群體, 定期相約郊遊遠足, 享受戶外活動帶來的快樂和滿足感, 並立志走遍全港山野每個角落!",
-        "categories": [
-          "Recreation & sport website"
+        "category_list": [
+          {
+            "id": "2710",
+            "name": "Recreation & Sports Website"
+          },
+          {
+            "id": "268946656794071",
+            "name": "Hiking Trail"
+          }
         ],
-        "email": "hikingwave@hotmail.com",
-        "id": "268583626923060"
+        "emails": [
+          "hikingwave@hotmail.com"
+        ],
+        "website": "www.facebook.com/hikingwave"
       },
       "url": "https://www.facebook.com/hikingwave/"
     }

@@ -12,13 +12,22 @@
     },
     {
       "meta": {
-        "name": "淋漓淋浪",
         "id": "513051452376744",
+        "username": "LumliLumlong",
+        "name": "淋漓淋浪",
         "about": "香港電台《好想藝術》【淋漓、淋浪】\nhttps://www.youtube.com/watch?v=qKdeePZE2yc",
-        "categories": [
-          "Artist",
-          "Art"
-        ]
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
+        ],
+        "single_line_address": "銅鑼灣, Hong Kong",
+        "website": "https://www.instagram.com/lumlilumlong/"
       },
       "url": "https://www.facebook.com/LumliLumlong/"
     }

@@ -17,14 +17,20 @@
     {
       "url": "https://www.facebook.com/buybuytokyo/",
       "meta": {
-        "name": "Buybuytokyo",
         "id": "2022808861270914",
+        "username": "buybuytokyo",
+        "name": "Buybuytokyo",
         "about": "分享在東京的日常生活，吃喝玩樂。\n代購日本不同類型貨品。",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "contact@buybuytokyo.com",
-        "tel": "53210333"
+        "emails": [
+          "contact@buybuytokyo.com"
+        ],
+        "website": "www.buybuytokyo.com"
       }
     }
   ],

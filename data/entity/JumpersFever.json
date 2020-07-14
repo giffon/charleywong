@@ -7,16 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "Jumpers Fever 跳蛛狂熱",
         "id": "164321657409401",
+        "username": "JumpersFever",
+        "name": "Jumpers Fever 跳蛛狂熱",
         "about": "Jumping Spider / Salticidae\n同樣是指跳蛛\n\n本頁旨在推廣及介紹不同跳蛛寵物, 以及其他有趣的蛛類, 節肢類動物, 爬蟲動物",
-        "categories": [
-          "Pet Service"
+        "category_list": [
+          {
+            "id": "144982405562750",
+            "name": "Pet Service"
+          }
         ],
-        "addr": "旺角通菜街177號1樓",
-        "area": "852 Hong Kong",
-        "email": "jumpersfever@gmail.com",
-        "tel": "94803447"
+        "emails": [
+          "jumpersfever@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/JumpersFever/"
     },

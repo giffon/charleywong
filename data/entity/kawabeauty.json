@@ -7,12 +7,22 @@
     {
       "meta": {
         "id": "1901842550061010",
-        "about": "手機: 52235549\n新娘化妝 /姊妹化妝, 晚宴化妝 個人化妝及各類化妝髮型服務",
-        "categories": [
-          "Makeup artist",
-          "Cosmetology school"
+        "username": "kawabeauty",
+        "name": "Kawa Beauty",
+        "about": "手機: 52235549 \n新娘化妝 /姊妹化妝, 晚宴化妝 個人化妝及各類化妝髮型服務",
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "374053246098336",
+            "name": "Cosmetology School"
+          }
         ],
-        "email": "mua.kawa@gmail.com"
+        "emails": [
+          "mua.kawa@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/kawabeauty/"
     }

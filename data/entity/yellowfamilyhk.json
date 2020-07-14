@@ -14,13 +14,21 @@
     {
       "url": "https://www.facebook.com/yellowfamilyhk/",
       "meta": {
-        "name": "黃家聯盟 香港小店積分平台",
         "id": "112620110193706",
-        "about": "香港小店積分平台",
-        "categories": [
-          "App Page"
+        "username": "yellowfamilyhk",
+        "name": "黃家聯盟 香港小店積分平台",
+        "about": "【黃家聯盟】係一隻小店積分APP，以積分鼓勵持續消費。客人去小店消費即可賺取積分，積分全港通行，積分可以送俾手足，亦可自用，再以積分於小店重複消費。",
+        "category_list": [
+          {
+            "id": "2301",
+            "name": "App Page"
+          }
         ],
-        "email": "yellowfamilyhongkong@gmail.com"
+        "emails": [
+          "yellowfamilyhongkong@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "www.yellowfamilyhk.com"
       }
     }
   ],

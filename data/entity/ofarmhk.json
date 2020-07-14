@@ -7,17 +7,25 @@
     {
       "url": "https://www.facebook.com/ofarmhk/",
       "meta": {
-        "name": "O-Farm",
         "id": "167515199983305",
+        "username": "ofarmhk",
+        "name": "O-Farm",
         "about": "永續生活，由個人出發。-- www.o-farm.com ; ofarm@o-farm.com",
-        "categories": [
-          "Farm",
-          "Locality"
+        "category_list": [
+          {
+            "id": "150815208309028",
+            "name": "Farm"
+          },
+          {
+            "id": "1874409019452971",
+            "name": "Locality"
+          }
         ],
-        "addr": "San Uk Tsai Village, Tan Chuk Hang",
-        "area": "00000 Hong Kong",
-        "email": "ofarm@o-farm.com",
-        "tel": "64697866"
+        "emails": [
+          "ofarm@o-farm.com"
+        ],
+        "single_line_address": "San Uk Tsai Village, Tan Chuk Hang, 00000 Hong Kong",
+        "website": "http://www.o-farm.com"
       }
     },
     {

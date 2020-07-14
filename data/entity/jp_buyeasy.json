@@ -6,13 +6,18 @@
   "webpages": [
     {
       "meta": {
-        "name": "JP Buyeasy",
         "id": "100848181452276",
-        "about": "作為香港一份子,希望透過連登箱可使大家時刻提醒這場香港的抗爭運動, 連登箱刻有代表十八區的連登豬的雕刻照片和願榮光歸香港的歌曲.",
-        "categories": [
-          "Product/Service"
+        "name": "JP Buyeasy",
+        "about": "作為香港一份子,希望透過連登箱可使大家時刻提醒這場香港的抗爭運動, 連登箱刻有代表十八區的連登豬的雕刻照片和願榮光歸香港的歌曲. ",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "jp2020buyeasy@gmail.com"
+        "emails": [
+          "jp2020buyeasy@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/100848181452276/"
     },

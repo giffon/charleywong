@@ -11,16 +11,24 @@
     {
       "meta": {
         "id": "175610315931456",
-        "about": "真人實境冒險密室逃脫遊戲\n佐敦【密室梯逃】全港首間地鋪兩層電子機關密室\n官塘【密室梯逃EX】採用全高科技電子機關",
-        "categories": [
-          "Amusement and theme park",
-          "Escape game room",
-          "Party & entertainment service"
+        "username": "titleshk",
+        "name": "Title Escape 密室梯逃",
+        "about": "真人實境冒險密室逃脫遊戲\n佐敦【密室梯逃】全港首間地鋪兩層電子機關密室\n官塘【密室梯逃EX】採用全高科技電子機關\n\n",
+        "category_list": [
+          {
+            "id": "1226193487405097",
+            "name": "Escape Game Room"
+          },
+          {
+            "id": "220626791295805",
+            "name": "Amusement & Theme Park"
+          }
         ],
-        "addr": "JORDAN RD, BATTERY ST, 39B",
-        "area": "Kowloon, Hong Kong",
-        "email": "info@title-escape.com",
-        "tel": "55111875"
+        "emails": [
+          "info@title-escape.com"
+        ],
+        "single_line_address": "佐敦炮台街39B地下, Kowloon, Hong Kong",
+        "website": "http://www.title-escape.com/"
       },
       "url": "https://www.facebook.com/titleshk/"
     }

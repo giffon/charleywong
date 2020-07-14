@@ -8,13 +8,17 @@
     {
       "meta": {
         "id": "138183496248898",
+        "username": "prawnnoodleshop",
+        "name": "Prawn noodle shop 檳城蝦麵店",
         "about": "Authentic Malaysian Prawn Noodles Experience\n正宗馬來西亞蝦麵體驗",
-        "categories": [
-          "Malaysian restaurant"
+        "category_list": [
+          {
+            "id": "198383150193535",
+            "name": "Malaysian Restaurant"
+          }
         ],
-        "addr": "灣仔蘭杜街2號麗都大廈4號地舖",
-        "area": "Hong Kong",
-        "tel": "25200268"
+        "single_line_address": "灣仔蘭杜街2號麗都大廈4號地舖, 00000 Hong Kong",
+        "website": "http://www.facebook.com/prawnnoodleshop"
       },
       "url": "https://www.facebook.com/prawnnoodleshop/"
     }

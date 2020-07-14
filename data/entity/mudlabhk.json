@@ -7,17 +7,28 @@
   "webpages": [
     {
       "meta": {
-        "about": "/ 一間對水泥鍾情的研究所\n/ 渴望將它融入自己的生活日常",
-        "categories": [
-          "Product/service",
-          "Arts and crafts shop",
-          "Designer"
+        "id": "1354979847949402",
+        "username": "mudlabhk",
+        "name": "泥社 MUDLAB",
+        "about": "/  一間對水泥鍾情的研究所\n/  渴望將它融入自己的生活日常",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "1615",
+            "name": "Designer"
+          }
         ],
-        "addr": "Room 5, 12/F, Hung Shing Industrial Bldg, 27 Tai Yip Street, Kwun Tong,Kowloon",
-        "area": "Hong Kong",
-        "email": "mudlabhk@gmail.com",
-        "tel": "94903069",
-        "id": "1354979847949402"
+        "emails": [
+          "mudlabhk@gmail.com"
+        ],
+        "single_line_address": "Room 5, 12/F, Hung Shing Industrial Bldg, 27 Tai Yip Street, Ngau Tau Kok,Kowloon, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/mudlabhk/"
     },

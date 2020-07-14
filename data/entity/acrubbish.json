@@ -9,13 +9,20 @@
     },
     {
       "meta": {
-        "name": "動漫廢物電台",
         "id": "868596786555373",
+        "username": "acrubbish",
+        "name": "動漫廢物電台",
         "about": "本港唯一提供網上直播服務的動漫專屬頻道，希望可以成為廣大動漫初心者成功跨入欣賞動漫畫的階梯。\n----------------------------------\n請支持 動漫廢物電台\nPayPal LINK : goo.gl/AAoTUk",
-        "categories": [
-          "Organization"
+        "category_list": [
+          {
+            "id": "2600",
+            "name": "Organization"
+          }
         ],
-        "email": "acrubbish.radio@gmail.com"
+        "emails": [
+          "acrubbish.radio@gmail.com"
+        ],
+        "website": "http://www.acrubbish.org"
       },
       "url": "https://www.facebook.com/acrubbish/"
     },

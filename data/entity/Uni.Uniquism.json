@@ -6,15 +6,27 @@
   "webpages": [
     {
       "meta": {
-        "name": "Uniquism",
         "id": "126981034094502",
+        "username": "Uni.Uniquism",
+        "name": "Uniquism",
         "about": "Uni-Uniquism 獨家產品限量製作專門店\nCustommade & Limited Edition Product",
-        "categories": [
-          "Product/Service",
-          "Photographer",
-          "Accessories"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "185127444860544",
+            "name": "Accessories"
+          }
         ],
-        "email": "uni.uniquism@gmail.com"
+        "emails": [
+          "uni.uniquism@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/Uni.Uniquism/"
     },

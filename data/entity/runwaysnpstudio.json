@@ -7,15 +7,21 @@
   "webpages": [
     {
       "meta": {
+        "id": "282384852134642",
+        "username": "runwaysnpstudio",
+        "name": "模‧良品攝影室 Runwaysnp Studio",
         "about": "Address: Room 09, 2/F, Shing Yip Industrial Building, 19-21 Shing Yip Street, Kwun Tong, Kowloon, Hong Kong\n觀塘成業街成業工業大廈209室",
-        "categories": [
-          "Product/service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "觀塘成業街成業工業大廈2樓09室",
-        "area": "Hong Kong",
-        "email": "support@runwaysnp.com",
-        "tel": "37088147",
-        "id": "282384852134642"
+        "emails": [
+          "support@runwaysnp.com"
+        ],
+        "single_line_address": "觀塘成業街成業工業大廈2樓09室, 852 Hong Kong",
+        "website": "http://www.runwaysnp.com"
       },
       "url": "https://www.facebook.com/runwaysnpstudio/"
     }

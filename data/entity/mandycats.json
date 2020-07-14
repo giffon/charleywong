@@ -11,11 +11,19 @@
     {
       "meta": {
         "id": "118714271022",
+        "username": "mandycats",
+        "name": "文地貓 Mandycat",
         "about": "工作聯絡：Trazy(trazy@mandycat.com)\n產品：shop@mandycat.com\nig:instagram.com/mandycats/\ntwitter:twitter.com/mandycatK\n/ twitter.com/MandycatMichael",
-        "categories": [
-          "Artist"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "info@mandycat.com"
+        "emails": [
+          "info@mandycat.com"
+        ],
+        "website": "http://www.mandycat.com"
       },
       "url": "https://www.facebook.com/mandycats/"
     },

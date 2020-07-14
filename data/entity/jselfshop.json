@@ -7,11 +7,16 @@
   "webpages": [
     {
       "meta": {
+        "id": "271849669656300",
+        "username": "jselfshop",
+        "name": "JS 的精靈小店 JS's Elf Shop",
         "about": "從前有一個童話故事，故事裡有一個精靈世界。精靈們都很喜歡從人間帶走閃閃亮亮的飾品回家裝飾自己…",
-        "categories": [
-          "Jewellery/watches"
-        ],
-        "id": "271849669656300"
+        "category_list": [
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          }
+        ]
       },
       "url": "https://www.facebook.com/jselfshop/"
     }

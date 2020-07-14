@@ -17,16 +17,29 @@
     {
       "url": "https://www.facebook.com/godive90/",
       "meta": {
-        "name": "90后一起快樂去潛水",
         "id": "1948034652077489",
+        "username": "godive90",
+        "name": "90后一起快樂去潛水",
         "about": "90后潛水倉|90后一起快樂去潛水\nwww.godive90.com",
-        "categories": [
-          "Product/Service",
-          "Scuba Diving Center",
-          "Outdoor Equipment Store"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "169706939742581",
+            "name": "Scuba Diving Center"
+          },
+          {
+            "id": "153490828039067",
+            "name": "Outdoor Equipment Store"
+          }
         ],
-        "email": "askme@godive90.com",
-        "tel": "34604757"
+        "emails": [
+          "askme@godive90.com"
+        ],
+        "single_line_address": "九龍灣啟興道2號太平洋貿易中心7樓35室, Kowloon Bay, Hong Kong",
+        "website": "www.godive90.com"
       }
     }
   ],

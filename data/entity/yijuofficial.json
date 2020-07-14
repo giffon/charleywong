@@ -7,14 +7,18 @@
   "webpages": [
     {
       "meta": {
+        "id": "826559320796085",
+        "username": "yijuofficial",
+        "name": "一句制作 / YIJU",
         "about": "Design & Create our daily selection. Hong Kong Lifestyle Brands since 2015.\n\n設計及開發屬於我們的生活選物。從零到一的商品皆有它們的概念和故事。",
-        "categories": [
-          "Local business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "RM R,5/F, 2 KWEI TEI STREET, INTERNATIONAL INDUSTRIAL CENTRE",
-        "area": "Hong Kong",
-        "tel": "63460922",
-        "id": "826559320796085"
+        "single_line_address": "RM R,5/F, 2 KWEI TEI STREET, INTERNATIONAL INDUSTRIAL CENTRE, Hong Kong",
+        "website": "http://www.pinkoi.com/store/yijuofficial"
       },
       "url": "https://www.facebook.com/yijuofficial/"
     }

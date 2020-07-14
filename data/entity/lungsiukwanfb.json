@@ -11,16 +11,28 @@
     {
       "url": "https://www.facebook.com/lungsiukwanfb/",
       "meta": {
-        "name": "龍小菌 Lung Siu Kwan",
         "id": "184314671601084",
+        "username": "lungsiukwanfb",
+        "name": "龍小菌 Lung Siu Kwan",
         "about": "樂隊Carrier帶菌者主音",
-        "categories": [
-          "Performing Arts",
-          "Musician/Band",
-          "Art"
+        "category_list": [
+          {
+            "id": "1758092431143387",
+            "name": "Performing Arts"
+          },
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "email": "deansiu@gmail.com",
-        "tel": "91788969"
+        "emails": [
+          "deansiu@gmail.com"
+        ],
+        "website": "Instagram.com/lungsiukwan "
       }
     }
   ],

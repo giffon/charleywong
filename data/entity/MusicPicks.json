@@ -14,12 +14,17 @@
     },
     {
       "meta": {
-        "name": "Music Picks",
         "id": "333055030145418",
+        "username": "MusicPicks",
+        "name": "Music Picks",
         "about": "八十後男生，偽文青，聽主流華語歌長大\n\n愛唱歌，極愛聽歌\n總覺得不夠時間讀歌詞，總希望看更多演唱會\n\nIG: music__picks\nMedium: https://medium.com/@musicpicks82",
-        "categories": [
-          "Music Chart"
-        ]
+        "category_list": [
+          {
+            "id": "1213",
+            "name": "Music Chart"
+          }
+        ],
+        "website": "https://www.youtube.com/channel/UC0G9rwitqicAx0WvWPrcL-A/playlists"
       },
       "url": "https://www.facebook.com/MusicPicks/"
     }

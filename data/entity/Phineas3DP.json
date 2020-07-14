@@ -9,15 +9,28 @@
     },
     {
       "meta": {
-        "name": "Phineas 3D Printer HK",
         "id": "661968140609015",
+        "username": "Phineas3DP",
+        "name": "Phineas 3D Printer HK",
         "about": "3D printer design and manufacturer in Hong Kong. \n#3D #Printer #3Dprinter #3dp #3dprinterhk #hk #hongkong",
-        "categories": [
-          "Product/Service",
-          "Electronics"
+        "category_list": [
+          {
+            "id": "2223",
+            "name": "Tools/Equipment"
+          },
+          {
+            "id": "2213",
+            "name": "Electronics"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "phineas3dp@gmail.com",
-        "tel": "26872749"
+        "emails": [
+          "phineas3dp@gmail.com"
+        ],
+        "website": "http://www.thingiverse.com/thing:1416635   "
       },
       "url": "https://www.facebook.com/Phineas3DP/"
     },

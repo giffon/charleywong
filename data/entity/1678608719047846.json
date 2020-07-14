@@ -6,11 +6,14 @@
   "webpages": [
     {
       "meta": {
-        "name": "傑出關公災難",
         "id": "1678608719047846",
+        "name": "傑出關公災難",
         "about": "傑出關公災難",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ]
       },
       "url": "https://www.facebook.com/1678608719047846/"

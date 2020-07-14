@@ -7,11 +7,14 @@
   "webpages": [
     {
       "meta": {
-        "name": "廚獅工房。LION CAFE",
         "id": "928768217212562",
+        "name": "廚獅工房。LION CAFE",
         "about": "獅子女喜歡用心製作，把食物與藝術結合\n既能滿足愛煮愛吃的我\n亦能為身邊的人帶來別出心裁的驚喜\n\n廚獅工房，便是我和獅子狗(家中小柴犬)一齊合作的煮食平台，和大家開心share",
-        "categories": [
-          "Chef"
+        "category_list": [
+          {
+            "id": "1606",
+            "name": "Chef"
+          }
         ]
       },
       "url": "https://www.facebook.com/928768217212562/"

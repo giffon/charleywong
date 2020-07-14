@@ -9,14 +9,20 @@
     },
     {
       "meta": {
-        "name": "Lyn de June Photography",
         "id": "394867163934331",
+        "username": "LynDeJune",
+        "name": "Lyn de June Photography",
         "about": "June, the goddess of womanhood, of marriage and of maternity",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "info@lyndejune.com",
-        "tel": "55963950"
+        "emails": [
+          "info@lyndejune.com"
+        ],
+        "website": "http://www.LynDeJune.com"
       },
       "url": "https://www.facebook.com/LynDeJune/"
     },

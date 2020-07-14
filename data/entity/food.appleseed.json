@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "籽想好食",
         "id": "2101112836830825",
+        "username": "food.appleseed",
+        "name": "籽想好食",
         "about": "「精挑細味 籽想好食」\n《籽想好食》為《香港蘋果日報》副刊《果籽》的全新飲食專頁，\n知味欄目陪你遍嚐風尚，細嚼人情。\n食海無涯，知味無價。",
-        "categories": [
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "appleseed@appledaily.com"
+        "emails": [
+          "appleseed@appledaily.com"
+        ],
+        "website": "http://as.appledaily.com"
       },
       "url": "https://www.facebook.com/food.appleseed/"
     },

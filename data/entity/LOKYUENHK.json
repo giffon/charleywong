@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "樂園魚蛋",
         "id": "2064871120276707",
-        "about": "樂園魚蛋在香港以有超過五十年歷史，我們堅持香港製造、新鮮直送、不含防腐劑。",
-        "categories": [
-          "Retail Company",
-          "Food Wholesaler",
-          "Merchandising Service"
+        "username": "LOKYUENHK",
+        "name": "樂園魚蛋",
+        "about": "樂園魚蛋在香港以有超過六十年歷史，我們堅持香港製造、新鮮直送、不含防腐劑。",
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "1727285527537943",
+            "name": "Food Wholesaler"
+          },
+          {
+            "id": "169363643109176",
+            "name": "Merchandising Service"
+          }
         ],
-        "addr": "香港",
-        "area": "San Po Kong",
-        "tel": "55422987"
+        "single_line_address": "香港, San Po Kong"
       },
       "url": "https://www.facebook.com/LOKYUENHK/"
     },

@@ -7,13 +7,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "痴hike線 Crazy Hiking Squad－CHS.HK",
         "id": "971206633047583",
+        "username": "CrazyHikingSquad",
+        "name": "痴hike線 Crazy Hiking Squad－CHS.HK",
         "about": "探索香港每個角落，介紹香港生態，一群熱愛自然既年青人！",
-        "categories": [
-          "Recreation & Sports Website",
-          "Just For Fun"
-        ]
+        "category_list": [
+          {
+            "id": "2710",
+            "name": "Recreation & Sports Website"
+          },
+          {
+            "id": "129417183848258",
+            "name": "Just For Fun"
+          }
+        ],
+        "website": "https://www.instagram.com/chs.hk/"
       },
       "url": "https://www.facebook.com/CrazyHikingSquad/"
     },

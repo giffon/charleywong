@@ -7,14 +7,28 @@
     {
       "meta": {
         "id": "1686410724929756",
+        "username": "deniseybridal",
+        "name": "Denise.Y Bridal Makeup",
         "about": "We provide classy, clean and elegant bridal makeup & hair styling service\nContact No: +852 6169 0062\nEmail: deniybridal@gmail.com",
-        "categories": [
-          "Artist",
-          "Cosmetics shop",
-          "Makeup artist"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "144873802247220",
+            "name": "Cosmetics Store"
+          },
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "deniybridal@gmail.com",
-        "tel": "61690062"
+        "emails": [
+          "deniybridal@gmail.com"
+        ],
+        "single_line_address": "Hong Kong, Kwun Tong",
+        "website": "http://www.deniseybridalmakeup.com"
       },
       "url": "https://www.facebook.com/deniseybridal/"
     }

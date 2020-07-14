@@ -10,15 +10,20 @@
     {
       "url": "https://www.facebook.com/Menos.Photos/",
       "meta": {
-        "name": "Ménos",
         "id": "766743856860895",
+        "username": "Menos.Photos",
+        "name": "Ménos",
         "about": "「Ménos」在古希臘語中意為Mind（μενος），拉丁語系中解作Less。\n由「心象」到萬象，在這個相片與文字皆泛濫而虛無的年代，我們致力令攝影變得真實而純粹。",
-        "categories": [
-          "Media/News Company",
-          "Media"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "info@menosphotos.com",
-        "tel": "23920363"
+        "emails": [
+          "info@menosphotos.com"
+        ],
+        "website": "http://www.menosphotos.com"
       }
     },
     {

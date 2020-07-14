@@ -7,14 +7,22 @@
     {
       "url": "https://www.facebook.com/mokurouvisualplus/",
       "meta": {
-        "name": "Mokurou X Visual Plus",
         "id": "1682619011993081",
-        "categories": [
-          "Product/Service",
-          "Retail Company"
+        "username": "mokurouvisualplus",
+        "name": "Mokurou X Visual Plus",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "email": "mvpoptical@gmail.com",
-        "tel": "62170886"
+        "emails": [
+          "mvpoptical@gmail.com"
+        ]
       }
     },
     {

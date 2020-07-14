@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/gumbikestudio/",
       "meta": {
-        "name": "G.U.M Bike Studio",
         "id": "147858448641574",
+        "username": "gumbikestudio",
+        "name": "G.U.M Bike Studio",
         "about": "G.U.M Bike Studio // SPREAD the cycling lifestyle to everyone.\n\n主張綠色城市通勤 (Green Urban Mobility) 概念，積極支持香港人「改用踏」，達致低廢排的環保交通生活態度。G.U.M把單車定位為時尚生活產品，鼓勵",
-        "categories": [
-          "Bicycle Shop"
+        "category_list": [
+          {
+            "id": "128003127270269",
+            "name": "Bicycle Shop"
+          }
         ],
-        "addr": "G/F, 119B Chatham Road South",
-        "area": "Tsim Sha Tsui",
-        "email": "info@gum.hk",
-        "tel": "23176555"
+        "emails": [
+          "info@gum.hk"
+        ],
+        "single_line_address": "G/F, 119B Chatham Road South, Tsim Sha Tsui",
+        "website": "www.gumbikestudio.com"
       }
     }
   ],

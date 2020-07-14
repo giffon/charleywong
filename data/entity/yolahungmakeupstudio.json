@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "about": "Having over 17 years experience in the business, Yola has established herself as a highly respected and experienced make up artist in Hong Kong.",
-        "categories": [
-          "Makeup artist",
-          "Beauty salon"
+        "id": "173654121611",
+        "username": "yolahungmakeupstudio",
+        "name": "Yola Hung Makeup Studio",
+        "about": "Having over 17 years experience in the business, Yola has established herself as a highly respected and experienced make up artist in Hong Kong. ",
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "addr": "銅鑼灣蘭芳道9號4樓",
-        "area": "Hong Kong",
-        "email": "yolahung@gmail.com",
-        "tel": "93404630",
-        "id": "173654121611"
+        "emails": [
+          "yolahung@gmail.com"
+        ],
+        "single_line_address": "銅鑼灣蘭芳道9號4樓, Hong Kong",
+        "website": "http://www.yolahung.com"
       },
       "url": "https://www.facebook.com/yolahungmakeupstudio/"
     }

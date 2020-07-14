@@ -7,11 +7,14 @@
     {
       "url": "https://www.facebook.com/839297802786051/",
       "meta": {
-        "name": "MJ Contact Lens 隱形眼鏡專賣店",
         "id": "839297802786051",
-        "about": "專營各大品牌的隱形眼鏡訂購，歡迎致電或WhatsApp 查詢。電話： 60393137",
-        "categories": [
-          "Product/Service"
+        "name": "MJ Contact Lens 隱形眼鏡專賣店",
+        "about": "專營各大品牌的隱形眼鏡訂購，歡迎查詢。",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       }
     }

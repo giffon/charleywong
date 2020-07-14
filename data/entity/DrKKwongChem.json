@@ -6,11 +6,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "K Kwong",
         "id": "11383432157",
+        "username": "DrKKwongChem",
+        "name": "K Kwong",
         "about": "化學、天文、地理、電腦、行山、攝影",
-        "categories": [
-          "Public Figure"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          }
         ]
       },
       "url": "https://www.facebook.com/DrKKwongChem/"

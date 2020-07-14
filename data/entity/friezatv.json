@@ -15,12 +15,17 @@
     },
     {
       "meta": {
-        "name": "菲利TV",
         "id": "559766767768208",
+        "username": "friezatv",
+        "name": "菲利TV",
         "about": "本專頁會提供 龍珠Z爆裂激戰 所有最新情報及各種攻略心得！\n\n另外還有分享小弟對菲利的愛　哈哈哈哈",
-        "categories": [
-          "Personal Blog"
-        ]
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
+        ],
+        "website": "https://www.youtube.com/channel/UCEFPS2O5Dd4dcT55lhP3hAg"
       },
       "url": "https://www.facebook.com/friezatv/"
     }

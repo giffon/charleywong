@@ -6,12 +6,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "J.R Baby日韓雜貨",
         "id": "173307386861809",
-        "about": "『J. R日韓直送』賣既貨品未必係最平最抵，但搜羅既貨品全部都係用心挑選！而且發貨速度＆服務都務求令客人稱心滿意！",
-        "categories": [
-          "Baby Goods/Kids Goods"
-        ]
+        "name": "J.R Baby日韓雜貨",
+        "about": "『J. R日韓直送』賣既貨品未必係最平最抵，但搜羅既貨品全部都係用心挑選！而且發貨速度＆服務都務求令客人稱心滿意！\n",
+        "category_list": [
+          {
+            "id": "2232",
+            "name": "Baby Goods/Kids Goods"
+          }
+        ],
+        "single_line_address": "Hong Kong"
       },
       "url": "https://www.facebook.com/173307386861809/"
     }

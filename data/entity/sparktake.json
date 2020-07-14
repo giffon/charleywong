@@ -10,13 +10,27 @@
     {
       "meta": {
         "id": "447881102221763",
-        "about": "你遺棄的書可能是其他人的寶藏。 Sparktake 為你提供驚喜及與書相遇的機會。",
-        "categories": [
-          "Book",
-          "Bookstore",
-          "App Page"
+        "username": "sparktake",
+        "name": "Sparktake",
+        "about": "你遺棄的書可能是其他人的寶藏。 Sparktake 為你提供驚喜及與書相遇的機會。 ",
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          },
+          {
+            "id": "1300",
+            "name": "Book"
+          },
+          {
+            "id": "2301",
+            "name": "App Page"
+          }
         ],
-        "email": "sparktake2016@gmail.com"
+        "emails": [
+          "sparktake2016@gmail.com"
+        ],
+        "website": "http://www.sparktake.com"
       },
       "url": "https://www.facebook.com/sparktake/"
     }

@@ -17,15 +17,24 @@
     {
       "url": "https://www.facebook.com/imsiupin/",
       "meta": {
-        "name": "我係小編",
         "id": "120399345352054",
-        "about": "我係小編同大家分享及討論最新Digital Marketing及Growth Hacking資訊，分享各小編實戰貼士，籍著小編身份帶大家認識同了解更多 Digital Marketing 及創業相關資訊。",
-        "categories": [
-          "Advertising/Marketing",
-          "Media/News Company"
+        "username": "imsiupin",
+        "name": "我係小編",
+        "about": "我係小編同大家分享及討論最新Digital Marketing及Growth Hacking資訊，分享各小編實戰貼士，籍著小編身份帶大家認識同了解更多 Digital Marketing 及創業相關資訊。  ",
+        "category_list": [
+          {
+            "id": "1757592557789532",
+            "name": "Advertising/Marketing"
+          },
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "imsiupin@gmail.com",
-        "tel": "60220426"
+        "emails": [
+          "imsiupin@gmail.com"
+        ],
+        "website": "https://www.imsiupin.com"
       }
     }
   ],

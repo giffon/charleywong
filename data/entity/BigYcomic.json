@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Something Something",
         "id": "296724020468878",
+        "username": "BigYcomic",
+        "name": "Something Something",
         "about": "以日常的搞笑事為主題。每週會更新兩至三則漫畫。\n\n歡迎任何合作機會:\nbigycomic@gmail.com\n\nLINE STICKER:https://store.line.me/stickershop/product/1277677",
-        "categories": [
-          "Personal Blog"
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "bigycomic@gmail.com"
+        "emails": [
+          "bigycomic@gmail.com"
+        ],
+        "website": "https://www.instagram.com/bigycomic/"
       },
       "url": "https://www.facebook.com/BigYcomic/"
     },

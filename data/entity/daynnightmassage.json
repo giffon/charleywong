@@ -6,16 +6,23 @@
   "webpages": [
     {
       "meta": {
-        "name": "Day n Night Massage",
         "id": "149131645661955",
-        "categories": [
-          "Health/Beauty",
-          "Massage Service"
+        "username": "daynnightmassage",
+        "name": "Day n Night Massage",
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "109578329118821",
+            "name": "Massage Service"
+          }
         ],
-        "addr": "海珠路2號海典軒商場UG20-21號舖",
-        "area": "新界 Tuen Mun",
-        "email": "daynnight88@yahoo.com",
-        "tel": "64350150"
+        "emails": [
+          "daynnight88@yahoo.com"
+        ],
+        "single_line_address": "海珠路2號海典軒商場UG20-21號舖, 新界 Tuen Mun"
       },
       "url": "https://www.facebook.com/daynnightmassage/"
     },

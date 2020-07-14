@@ -7,15 +7,23 @@
     {
       "meta": {
         "id": "694974410840966",
+        "username": "myboat",
+        "name": "MY BOAT",
         "about": "MY BOAT Restaurant 地方寬敞、環境舒適，每天不同精選午餐及多款晚餐美食任供選擇；另設有包場派對或會議及到會服務詳情可向店員查詢。",
-        "categories": [
-          "Deli",
-          "Italian restaurant",
-          "Coffee shop"
+        "category_list": [
+          {
+            "id": "188334264523313",
+            "name": "Deli"
+          },
+          {
+            "id": "193831710644458",
+            "name": "Italian Restaurant"
+          }
         ],
-        "addr": "九龍觀塘駿業街64號南益商業中心6樓C室",
-        "area": "Kwun Tong",
-        "email": "myboatrestaurant@gmail.com"
+        "emails": [
+          "myboatrestaurant@gmail.com"
+        ],
+        "single_line_address": "九龍觀塘駿業街64號南益商業中心6樓C室, Kwun Tong"
       },
       "url": "https://www.facebook.com/myboat/"
     }

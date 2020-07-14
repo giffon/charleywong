@@ -10,13 +10,23 @@
     {
       "meta": {
         "id": "453347625057152",
-        "about": "EEC隱形眼鏡專賣店，自2017年起開業，致力提供你最齊最抵最舒適的隱形眼鏡。",
-        "categories": [
-          "Sunglasses & eyewear shop",
-          "Beauty, cosmetic & personal care"
+        "username": "EEConshop",
+        "name": "EEConshop 隱形眼鏡專賣店",
+        "about": "2017年開業至今，致力提供你最齊最抵最舒適的隱形眼鏡。款式包括單光(近視／遠視)、透明、彩妝 Color CON、散光、散光COLOR、漸進(雙光／老花)等。",
+        "category_list": [
+          {
+            "id": "1708896199364202",
+            "name": "Sunglasses & Eyewear Store"
+          },
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "email": "sales@eeconshop.com",
-        "tel": "95571937"
+        "emails": [
+          "sales@eeconshop.com"
+        ],
+        "website": "https://www.eeconshop.com"
       },
       "url": "https://www.facebook.com/EEConshop/"
     },

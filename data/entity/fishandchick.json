@@ -7,18 +7,25 @@
     {
       "url": "https://www.facebook.com/fishandchick/",
       "meta": {
-        "name": "Fish & Chick",
         "id": "1391162904452563",
+        "username": "fishandchick",
+        "name": "Fish & Chick",
         "about": "We opened right on the waterfront in Kennedy Town & serve:\n- UK styled Beer-battered Fish & Chips\n- French-style Rotisserie Chicken\n- Fresh seafood",
-        "categories": [
-          "Fish & Chips Restaurant",
-          "European Restaurant",
-          "American Restaurant"
+        "category_list": [
+          {
+            "id": "167608369957681",
+            "name": "Fish & Chips Restaurant"
+          },
+          {
+            "id": "1508025966158640",
+            "name": "European Restaurant"
+          }
         ],
-        "addr": "25 New Praya",
-        "area": "Kennedy Town, Hong Kong",
-        "email": "resv@fishandchick.co",
-        "tel": "29740088"
+        "emails": [
+          "resv@fishandchick.co"
+        ],
+        "single_line_address": "25 New Praya, Kennedy Town, Hong Kong",
+        "website": "http://www.fishandchick.co"
       }
     },
     {

@@ -7,12 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "喵大人蝦條 Mr Hatu",
         "id": "574171015998746",
+        "username": "JoewinHatu",
+        "name": "喵大人蝦條 Mr Hatu",
         "about": "2013年9月14日... 我唔再係流浪貓，我終於返屋企了！呢度就係我五星級的家呀喵！\n.\n尊重生命 愛護動物\n支持領養不棄養",
-        "categories": [
-          "Adoption Service",
-          "Animal"
+        "category_list": [
+          {
+            "id": "2621",
+            "name": "Animal"
+          },
+          {
+            "id": "193245447371023",
+            "name": "Adoption Service"
+          }
         ]
       },
       "url": "https://www.facebook.com/JoewinHatu/"

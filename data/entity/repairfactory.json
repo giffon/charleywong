@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/repairfactory/",
       "meta": {
-        "name": "Repair Factory 專業手袋皮鞋維修",
         "id": "977573182288475",
-        "about": "E-mail: repairsfactory@gmail.com\nWhatsapp: 52822512\n豐富經驗，專門為各大名牌專門店提供維修服務，信心保證！\n專業維修名牌手袋、鞋履皮具。技術查詢，即時報價，預約上門或點對點交收服務！",
-        "categories": [
-          "Local Business"
+        "username": "repairfactory",
+        "name": "Repair Factory 專業手袋皮鞋維修",
+        "about": "E-mail: repairsfactory@gmail.com\nWhatsapp: 52822512\n豐富經驗，專門為各大名牌專門店提供維修服務，信心保證！\n專業維修名牌手袋、鞋履皮具。技術查詢，即時報價，預約上門或點對點交收服務！\n",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "自設工場，點對點交收",
-        "area": "852 Hong Kong",
-        "email": "repairfactorypro@gmail.com",
-        "tel": "52822512"
+        "emails": [
+          "repairfactorypro@gmail.com"
+        ],
+        "single_line_address": "自設工場，點對點交收, 852 Hong Kong",
+        "website": "http://www.facebook.com/repairfactory"
       }
     },
     {

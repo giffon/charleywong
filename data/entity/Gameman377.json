@@ -6,16 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "Gameman",
         "id": "1616214758631558",
-        "about": "GAMEMAN \n地址:荃灣大河道18號地皇廣場3樓376-377號鋪(荃灣地鐵站A1出口步行約三分鐘,過行人天橋,大新銀行旁) \n電話:62788139 JASON",
-        "categories": [
-          "Shopping & Retail",
-          "Arcade"
+        "username": "Gameman377",
+        "name": "Gameman",
+        "about": "GAMEMAN \n地址:荃灣大河道18號地皇廣場3樓376-377號鋪(荃灣地鐵站A1出口步行約三分鐘,過行人天橋,大新銀行旁) \n電話:62788139 JASON\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "荃灣大河道18號地皇廣場3樓376-377號鋪(荃灣地鐵站A1出口步行約三分鐘）",
-        "area": "18 Tsuen Wan, Hong Kong",
-        "tel": "62788139"
+        "single_line_address": "荃灣大河道18號地皇廣場3樓376-377號鋪(荃灣地鐵站A1出口步行約三分鐘）, 18 Tsuen Wan, Hong Kong"
       },
       "url": "https://www.facebook.com/Gameman377/"
     },

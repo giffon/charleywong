@@ -10,14 +10,20 @@
     },
     {
       "meta": {
-        "name": "大大百貨 Da Da Department Store",
         "id": "635827400212155",
-        "about": "大大百貨 DaDa Department Store\n~ 相信對大部份嘅香港人嚟講就一啲都唔會陌生",
-        "categories": [
-          "Shopping & Retail"
+        "username": "dadadepartment",
+        "name": "大大百貨 Da Da Department Store",
+        "about": "大大百貨 DaDa Department Store\n~ 相信對大部份嘅香港人嚟講就一啲都唔會陌生\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "dadadeptstore@gmail.com",
-        "tel": "21360258"
+        "emails": [
+          "dadadeptstore@gmail.com"
+        ],
+        "website": "www.dadadept.store"
       },
       "url": "https://www.facebook.com/dadadepartment/"
     },

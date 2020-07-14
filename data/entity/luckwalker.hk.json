@@ -8,14 +8,24 @@
     {
       "url": "https://www.facebook.com/luckwalker.hk/",
       "meta": {
-        "name": "Luckwalker 樂活家",
         "id": "992187970802415",
+        "username": "luckwalker.hk",
+        "name": "Luckwalker 樂活家",
         "about": "✨手造戒指體驗✨\n\n✨私人訂製✨",
-        "categories": [
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          }
         ],
-        "addr": "深水埗大南街180號號地下",
-        "area": "Hong Kong"
+        "emails": [
+          "luckwalker888@gmail.com"
+        ],
+        "single_line_address": "Hong Kong"
       }
     },
     {

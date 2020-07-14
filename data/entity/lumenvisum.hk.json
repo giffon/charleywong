@@ -11,14 +11,19 @@
     {
       "meta": {
         "id": "168344549859919",
-        "categories": [
-          "Art gallery",
-          "Book shop"
+        "username": "lumenvisum.hk",
+        "name": "光影作坊 Lumenvisum",
+        "category_list": [
+          {
+            "id": "197384240287028",
+            "name": "Art Gallery"
+          }
         ],
-        "addr": "L2-02, JCCAC, 30 Pak Tin Street, Shek Kip Mei, Kowloon",
-        "area": "Hong Kong",
-        "email": "info@lumenvisum.org",
-        "tel": "31779159"
+        "emails": [
+          "info@lumenvisum.org"
+        ],
+        "single_line_address": "L2-02, JCCAC, 30 Pak Tin Street, Shek Kip Mei, Kowloon, Hong Kong",
+        "website": "www.lumenvisum.org"
       },
       "url": "https://www.facebook.com/lumenvisum.hk/"
     }

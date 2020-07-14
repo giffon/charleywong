@@ -8,15 +8,17 @@
     {
       "url": "https://www.facebook.com/thegrillstationhk/",
       "meta": {
-        "name": "燒房焗 The Grill Station",
         "id": "343279075693716",
+        "username": "thegrillstationhk",
+        "name": "燒房焗 The Grill Station",
         "about": "Yes! We are back!!",
-        "categories": [
-          "Japanese Restaurant"
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "addr": "G/F, 12C Sing Woo Road, Happy Valley",
-        "area": "0000 Hong Kong",
-        "tel": "28932100"
+        "single_line_address": "G/F, 12C Sing Woo Road, Happy Valley, 0000 Hong Kong"
       }
     },
     {

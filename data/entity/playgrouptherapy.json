@@ -8,16 +8,20 @@
     {
       "url": "https://www.facebook.com/playgrouptherapy/",
       "meta": {
-        "name": "Playgroup Therapy 快樂寶寶",
         "id": "246421435695237",
+        "username": "playgrouptherapy",
+        "name": "Playgroup Therapy 快樂寶寶",
         "about": "15年的社工經驗，透過遊戲讓小寶寶快樂健康成長，同時推動正向管教之重要！",
-        "categories": [
-          "Education"
+        "category_list": [
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "addr": "Ma On Shan",
-        "area": "852 Hong Kong",
-        "email": "playgrouptherapy@yahoo.com.hk",
-        "tel": "55082295"
+        "emails": [
+          "playgrouptherapy@yahoo.com.hk"
+        ],
+        "single_line_address": "Ma On Shan, 852 Hong Kong"
       }
     }
   ],

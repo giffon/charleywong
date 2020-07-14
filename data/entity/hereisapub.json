@@ -7,18 +7,24 @@
     {
       "url": "https://www.facebook.com/hereisapub/",
       "meta": {
-        "name": "HERE is a PUB",
         "id": "211125256057859",
+        "username": "hereisapub",
+        "name": "HERE is a PUB",
         "about": "HERE is a PUB",
-        "categories": [
-          "Beer Bar",
-          "Pub",
-          "Gastropub"
+        "category_list": [
+          {
+            "id": "218693881483234",
+            "name": "Pub"
+          },
+          {
+            "id": "263451080680156",
+            "name": "Beer Bar"
+          }
         ],
-        "addr": "Hart Avenue 12-14",
-        "area": "Tsim Sha Tsui",
-        "email": "hereisapub@gmail.com",
-        "tel": "23162829"
+        "emails": [
+          "hereisapub@gmail.com"
+        ],
+        "single_line_address": "Hart Avenue 12-14, 852 Tsim Sha Tsui"
       }
     },
     {

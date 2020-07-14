@@ -9,18 +9,24 @@
     },
     {
       "meta": {
-        "name": "SUPER VAN",
         "id": "1468598070128828",
-        "about": "仍處於傳統運輸合作模式？\n​立即成為我們的運輸伙伴，更可透過我們以特惠價錢於傳媒中推廣您的商品，向大眾宣揚您的品牌商品，聯乘舉辦活動創造商機。Let us find the right van for you.",
-        "categories": [
-          "Truck Rental",
-          "Home Mover",
-          "Transportation Service"
+        "username": "5upervan",
+        "name": "SUPER VAN",
+        "about": "立即成為我們的運輸伙伴，助您解決運輸需求!\nLet us find the right van for you.",
+        "category_list": [
+          {
+            "id": "185880521445708",
+            "name": "Home Mover"
+          },
+          {
+            "id": "152367304818850",
+            "name": "Transportation Service"
+          }
         ],
-        "addr": "港九新界",
-        "area": "Hong Kong",
-        "email": "8supervan8@gmail.com",
-        "tel": "34889448"
+        "emails": [
+          "cs.supervan@gmail.com"
+        ],
+        "website": "http://www.34889448.com"
       },
       "url": "https://www.facebook.com/5upervan/"
     },

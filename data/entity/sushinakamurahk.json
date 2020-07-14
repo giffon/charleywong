@@ -8,15 +8,17 @@
     {
       "url": "https://www.facebook.com/sushinakamurahk/",
       "meta": {
-        "name": "中村屋 Sushi Nakamuraya",
         "id": "158573841142139",
+        "username": "sushinakamurahk",
+        "name": "中村屋 Sushi Nakamuraya",
         "about": "我們以最新鮮的食材.制作出美味健康的食品.本店對食物新鮮非常講究.我們將承諾每位客人每天都能品嚐到,由潔淨廚房所製作出,安全新鮮又美味的日本壽司.期待您的光臨!!\n店主 - 中村裕二",
-        "categories": [
-          "Sushi Restaurant"
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          }
         ],
-        "addr": "Shop G/F,48 electric road,north point (TinHau MTR Exit A2)",
-        "area": "Hong Kong",
-        "tel": "27806733"
+        "single_line_address": "Shop G/F,48 electric road,north point (TinHau MTR Exit A2), Hong Kong"
       }
     }
   ],

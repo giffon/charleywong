@@ -6,14 +6,21 @@
   "webpages": [
     {
       "meta": {
+        "id": "421002051587907",
+        "username": "wereshopaholics",
+        "name": "We're Shopaholics- Natural & Organic Beauty （觀塘天然及有機護膚專門店）",
         "about": "我們執著於搜羅各國優質產品，嚴格挑選符合自然、有機、安全、無污染的高效產品。所有產品均親身使用，承諾挑選的品牌均為最高等級，貴精不貴多，帶給你高效安全的護膚體驗。",
-        "categories": [
-          "Health/beauty"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "addr": "九龍觀塘開源道56號大眾工業大廈5樓15室",
-        "area": "Hong Kong",
-        "tel": "91072276",
-        "id": "421002051587907"
+        "emails": [
+          "cs@weareshopaholics.com"
+        ],
+        "single_line_address": "九龍觀塘巧明街116-118號萬年工業大廈5樓D座D8室(門口 pw 1516, 入後轉左再轉左）, Hong Kong",
+        "website": "http://www.weareshopaholics.com"
       },
       "url": "https://www.facebook.com/wereshopaholics/"
     }

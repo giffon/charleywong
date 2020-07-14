@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "求婚&婚禮策劃 DF Wedding",
         "id": "345141338833504",
+        "username": "dfwedding",
+        "name": "求婚&婚禮策劃 DF Wedding",
         "about": "囍宴坊婚禮及宴會統籌公司是一所專門協助客戶籌辦婚宴聚會及求婚的公司，籌劃婚宴特別且一絲不苟，深受客戶歡迎！",
-        "categories": [
-          "Consulting Agency",
-          "Event Planner"
+        "category_list": [
+          {
+            "id": "2248",
+            "name": "Consulting Agency"
+          },
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          }
         ],
-        "addr": "葵涌大連排道144號金豐工業大廈二座17樓T室",
-        "area": "Hong Kong",
-        "email": "enquiry@dfwedding.info",
-        "tel": "62853881"
+        "emails": [
+          "enquiry@dfwedding.info"
+        ],
+        "single_line_address": "葵涌大連排道144號金豐工業大廈二座17樓T室, Hong Kong",
+        "website": "http://www.dfwedding.com.hk"
       },
       "url": "https://www.facebook.com/dfwedding/"
     }

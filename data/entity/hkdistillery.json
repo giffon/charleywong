@@ -10,15 +10,25 @@
     },
     {
       "meta": {
-        "name": "香港蒸餾所 Hong Kong Distillery",
         "id": "125455454706011",
-        "about": "We provide Fresh Herbal Extracts, Distillation Instruments, Laboratory/ Glassware Design & Consultant and also Environmental Engineering.",
-        "categories": [
-          "Science, Technology & Engineering",
-          "Aromatherapy Service"
+        "username": "hkdistillery",
+        "name": "香港蒸餾所 Hong Kong Distillery",
+        "about": "We provide Fresh Herbal Extracts, Distillation Instruments, Laboratory/ Glassware Design & Consultant and also Environmental Engineering.\n\n",
+        "category_list": [
+          {
+            "id": "297544187300691",
+            "name": "Science, Technology & Engineering"
+          },
+          {
+            "id": "259030350843802",
+            "name": "Aromatherapy Service"
+          }
         ],
-        "email": "support@hkdistill.com",
-        "tel": "55453592"
+        "emails": [
+          "support@hkdistill.com"
+        ],
+        "single_line_address": "A13, 7/F, Veristrong Industrial Centre, 34-36 Au Pui Wan Street, Fo Tan, New Territories, Hong Kong",
+        "website": "https://www.hkdistill.com/"
       },
       "url": "https://www.facebook.com/hkdistillery/"
     },

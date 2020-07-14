@@ -6,11 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "categories": [
-          "Artist",
-          "Author"
-        ],
-        "id": "536265050074838"
+        "id": "536265050074838",
+        "username": "wingylaam",
+        "name": "Wingy-Laam Illustration",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "1301",
+            "name": "Author"
+          }
+        ]
       },
       "url": "https://www.facebook.com/wingylaam/"
     }

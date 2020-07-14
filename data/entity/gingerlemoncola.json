@@ -8,14 +8,19 @@
     {
       "url": "https://www.facebook.com/gingerlemoncola/",
       "meta": {
-        "name": "薑檸樂 gingerlemoncola",
         "id": "242590962427146",
+        "username": "gingerlemoncola",
+        "name": "薑檸樂 gingerlemoncola",
         "about": "讀者信箱，歡迎來信E-mail: enquiry@hkvlogger.com",
-        "categories": [
-          "Video Creator"
+        "category_list": [
+          {
+            "id": "1817904601806120",
+            "name": "Video Creator"
+          }
         ],
-        "email": "enquiry@hkvlogger.com",
-        "tel": "61268850"
+        "emails": [
+          "enquiry@hkvlogger.com"
+        ]
       }
     },
     {

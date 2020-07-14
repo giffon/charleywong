@@ -7,14 +7,19 @@
     {
       "url": "https://www.facebook.com/LowQualityShots/",
       "meta": {
-        "name": "低質 · 攝影",
         "id": "426976777817364",
+        "username": "LowQualityShots",
+        "name": "低質 · 攝影",
         "about": "Just for Sharing",
-        "categories": [
-          "Camera/Photo"
+        "category_list": [
+          {
+            "id": "2208",
+            "name": "Camera/Photo"
+          }
         ],
-        "email": "l.q.s.photography.unofficial@gmail.com",
-        "tel": "95522420"
+        "emails": [
+          "l.q.s.photography.unofficial@gmail.com"
+        ]
       }
     }
   ],

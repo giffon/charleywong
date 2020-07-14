@@ -9,14 +9,20 @@
     },
     {
       "meta": {
-        "name": "香港淨水",
         "id": "785864464877937",
+        "username": "hkaquagroup",
+        "name": "香港淨水",
         "about": "致力將潔淨食水帶到每一個香港人的家中",
-        "categories": [
-          "Company"
+        "category_list": [
+          {
+            "id": "2200",
+            "name": "Company"
+          }
         ],
-        "email": "info@hkagi.com",
-        "tel": "31882757"
+        "emails": [
+          "info@hkagi.com"
+        ],
+        "website": "http://www.hkagi.com"
       },
       "url": "https://www.facebook.com/hkaquagroup/"
     }

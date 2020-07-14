@@ -18,14 +18,21 @@
     {
       "url": "https://www.facebook.com/HIAHK/",
       "meta": {
-        "name": "Health In Action 醫護行者",
         "id": "163786290355382",
+        "username": "HIAHK",
+        "name": "Health In Action 醫護行者",
         "about": "Our vision is to eliminate health inequity in societies.\n我們的願景是消除社會上的健康不公平。",
-        "categories": [
-          "Non-Governmental Organization (NGO)"
+        "category_list": [
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          }
         ],
-        "email": "hia@hia.org.hk",
-        "tel": "34619827"
+        "emails": [
+          "hia@hia.org.hk"
+        ],
+        "single_line_address": "Hong Kong, Kwai Chung",
+        "website": "www.hia.org.hk"
       }
     }
   ],

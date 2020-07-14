@@ -10,15 +10,28 @@
     },
     {
       "meta": {
-        "name": "Cemetery News 墳場新聞",
         "id": "729586907148929",
+        "username": "Cemetery.News.page",
+        "name": "Cemetery News 墳場新聞",
         "about": "獨家陰間第一手消息。",
-        "categories": [
-          "Media/News Company",
-          "Media",
-          "Locality"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          },
+          {
+            "id": "1314020451960517",
+            "name": "Media"
+          },
+          {
+            "id": "1874409019452971",
+            "name": "Locality"
+          }
         ],
-        "email": "cemeterynewshk@gmail.com"
+        "emails": [
+          "cemeterynewshk@gmail.com"
+        ],
+        "website": "http://www.cemeterynews.org/"
       },
       "url": "https://www.facebook.com/Cemetery.News.page/"
     }

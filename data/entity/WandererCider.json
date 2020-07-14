@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "Wanderer Cider",
         "id": "715673545276533",
+        "username": "WandererCider",
+        "name": "Wanderer Cider",
         "about": "Launched in 2014 by HongKongers.  Wanderer Cider is a specialist on craft ciders.  Contact us to get more info!",
-        "categories": [
-          "Wine, Beer & Spirits Store"
+        "category_list": [
+          {
+            "id": "199833073363963",
+            "name": "Wine, Beer & Spirits Store"
+          }
         ],
-        "email": "enquiry@wanderercider.com",
-        "tel": "60287459"
+        "emails": [
+          "enquiry@wanderercider.com"
+        ],
+        "single_line_address": "安業街, Chai Wan",
+        "website": "https://www.WandererCider.com"
       },
       "url": "https://www.facebook.com/WandererCider/"
     },

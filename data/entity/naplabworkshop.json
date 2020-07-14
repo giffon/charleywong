@@ -10,14 +10,20 @@
     {
       "meta": {
         "id": "1909761009288644",
+        "username": "naplabworkshop",
+        "name": "日抖工作室",
         "about": "《日抖工作室》位於灣仔星街附近，不定期舉辦迷你市集和Workshop, 記著留意啦！",
-        "categories": [
-          "Flea market"
+        "category_list": [
+          {
+            "id": "179278362129856",
+            "name": "Flea Market"
+          }
         ],
-        "addr": "2F, 1 Wing Fung Street, Wan Chai",
-        "area": "Hong Kong",
-        "email": "naplabworkshop@gmail.com",
-        "tel": "93230380"
+        "emails": [
+          "naplabworkshop@gmail.com"
+        ],
+        "single_line_address": "2F, 1 Wing Fung Street, Wan Chai, Hong Kong",
+        "website": "http://naplabworkshop.business.site/"
       },
       "url": "https://www.facebook.com/naplabworkshop/"
     }

@@ -6,13 +6,24 @@
   "webpages": [
     {
       "meta": {
+        "id": "1054095317936786",
+        "username": "momogaryee",
+        "name": "毛毛聊 - CinGaryee",
         "about": "我不是文青，我只是一個信息傳遞者。\nCingaryee@gmail.com\n工作室兼實體店：\n荔枝角麗昌工廠大廈202i室",
-        "categories": [
-          "Artist",
-          "Arts and crafts shop"
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "cingaryee@gmail.com",
-        "id": "1054095317936786"
+        "emails": [
+          "cingaryee@gmail.com"
+        ],
+        "single_line_address": "九龍青山道479-479A號麗昌工廠大廈2樓202 i 室, Lai Chi Kok"
       },
       "url": "https://www.facebook.com/momogaryee/"
     }

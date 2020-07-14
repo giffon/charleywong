@@ -7,14 +7,19 @@
     {
       "url": "https://www.facebook.com/104183877704113/",
       "meta": {
-        "name": "油漆囝",
         "id": "104183877704113",
+        "name": "油漆囝",
         "about": "專業油漆 裝修服務 無需搬開 價錢合理",
-        "categories": [
-          "Interior Design Studio",
-          "Engineering Service"
-        ],
-        "tel": "51921612"
+        "category_list": [
+          {
+            "id": "400062273344681",
+            "name": "Engineering Service"
+          },
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          }
+        ]
       }
     }
   ],

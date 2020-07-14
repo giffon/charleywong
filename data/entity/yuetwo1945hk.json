@@ -11,16 +11,28 @@
     {
       "meta": {
         "id": "2242714255992502",
+        "username": "yuetwo1945hk",
+        "name": "悦和醬園 Yuet Wo 1945",
         "about": "我們這一缸～悦和醬園\n香港製造～始於1945年\n天然生曬～酒醋醬一條龍\n\n信念：傳統不等於守舊，創新不可以忘本",
-        "categories": [
-          "Producer",
-          "Food wholesaler",
-          "Speciality food shop"
+        "category_list": [
+          {
+            "id": "1727285527537943",
+            "name": "Food Wholesaler"
+          },
+          {
+            "id": "162264673824073",
+            "name": "Specialty Grocery Store"
+          },
+          {
+            "id": "1108",
+            "name": "Producer"
+          }
         ],
-        "addr": "荃灣街市街33號地下",
-        "area": "Hong Kong",
-        "email": "info@yuetwo.hk",
-        "tel": "24923354"
+        "emails": [
+          "info@yuetwo.hk"
+        ],
+        "single_line_address": "荃灣街市街33號地下, Tsuen Wan, Hong Kong",
+        "website": "www.yuetwo.hk"
       },
       "url": "https://www.facebook.com/yuetwo1945hk/"
     }

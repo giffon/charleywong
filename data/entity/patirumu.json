@@ -9,14 +9,20 @@
       "url": "https://www.facebook.com/patirumu/",
       "meta": {
         "id": "1643646655659837",
+        "username": "patirumu",
+        "name": "Patirumu趴地館",
         "about": "荔枝角新興悠閒風格Party場館，佔地1300呎，最多可容納35-50人，提供一個安全完善場地舉辦Party, 適合舉辦親子活動， 生日Party, 朋友聚會，公司聚會",
-        "categories": [
-          "Party Entertainment Service",
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "189334414420898",
+            "name": "Party Entertainment Service"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "addr": "荔枝角永康街79號創滙國際中心",
-        "area": "Hong Kong",
-        "tel": "52130722"
+        "single_line_address": "荔枝角永康街79號創滙國際中心, Hong Kong"
       }
     }
   ],

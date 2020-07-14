@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/eamoving/",
       "meta": {
-        "name": "東亞搬運有限公司",
         "id": "349497895156496",
+        "username": "eamoving",
+        "name": "東亞搬運有限公司",
         "about": "可靠,經濟,搬屋揾我哋啦/大量二手傢俬送贈\n請Like我地，長期有大量二手免費Free新淨傢俬贈送",
-        "categories": [
-          "Cargo & Freight Company"
+        "category_list": [
+          {
+            "id": "184395321600410",
+            "name": "Cargo & Freight Company"
+          }
         ],
-        "email": "leungnam88@gmail.com",
-        "tel": "29581233"
+        "emails": [
+          "leungnam88@gmail.com"
+        ],
+        "website": "https://www.eamovers.com.hk"
       }
     }
   ],

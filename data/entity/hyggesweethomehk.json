@@ -17,16 +17,29 @@
     {
       "url": "https://www.facebook.com/hyggesweethomehk/",
       "meta": {
-        "name": "Hygge Sweet Home HK",
         "id": "133519504098372",
+        "username": "hyggesweethomehk",
+        "name": "Hygge Sweet Home HK",
         "about": "Be Good to Yourself. Promote hand drip coffee ware, tea ware and craft beer mugs, and other home goods in affordable price.\n\n對自己好些，對身邊人好些。以優惠價格推廣手沖咖啡器具如Kalita、茶具及手工啤酒杯，和生活貨",
-        "categories": [
-          "Product/Service",
-          "Household Supplies",
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2220",
+            "name": "Household Supplies"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "email": "cs@hyggesweethome.com",
-        "tel": "57421833"
+        "emails": [
+          "cs@hyggesweethome.com"
+        ],
+        "single_line_address": "荔枝角, Hong Kong",
+        "website": "hyggesweethome.com"
       }
     }
   ],

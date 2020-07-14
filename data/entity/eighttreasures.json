@@ -6,15 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "八寶清湯腩",
         "id": "498362043641689",
-        "about": "八寶清湯腩  Eight Treasures",
-        "categories": [
-          "Diner"
+        "username": "eighttreasures",
+        "name": "八寶清湯腩",
+        "about": "八寶清湯腩  Eight Treasures\n",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "香港電氣道124號榮華大厦地舖",
-        "area": "852 Hong Kong",
-        "tel": "28898366"
+        "single_line_address": "香港電氣道124號榮華大厦地舖, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/eighttreasures/"
     },

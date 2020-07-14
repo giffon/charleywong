@@ -10,14 +10,21 @@
     },
     {
       "meta": {
-        "name": "花‧時間 Plant Some Time",
         "id": "561318513962713",
-        "about": "// 花藝設計 //\n鮮花 ● 絲花 ● 佈置 ● 花飾",
-        "categories": [
-          "Product/Service"
+        "username": "PlantSomeTime",
+        "name": "花‧時間 Plant Some Time",
+        "about": "// 花藝設計 //\n鮮花 ● 絲花 ● 佈置 ● 花飾\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "info@plantsometime.com",
-        "tel": "56865868"
+        "emails": [
+          "info@plantsometime.com"
+        ],
+        "single_line_address": "Room 709, Block B, Po Lung Centre, ​11 Wang Chiu Road, Kowloon Bay, Hong Kong",
+        "website": "http://www.plantsometime.com/"
       },
       "url": "https://www.facebook.com/PlantSomeTime/"
     },

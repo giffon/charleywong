@@ -7,15 +7,20 @@
     {
       "url": "https://www.facebook.com/WatershedHK/",
       "meta": {
-        "name": "Watershed Hong Kong",
         "id": "149029388765171",
+        "username": "WatershedHK",
+        "name": "Watershed Hong Kong",
         "about": "歷史、精神、傳承。Watershed Hong Kong由香港民間組成，致力喚起大眾關注歷史傳統，以及提升公民意識。",
-        "categories": [
-          "Organization"
+        "category_list": [
+          {
+            "id": "2600",
+            "name": "Organization"
+          }
         ],
-        "addr": null,
-        "area": "Victoria, Hong Kong",
-        "email": "watershedhk@gmail.com"
+        "emails": [
+          "watershedhk@gmail.com"
+        ],
+        "single_line_address": "Victoria, Hong Kong"
       }
     }
   ],

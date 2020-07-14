@@ -10,16 +10,28 @@
     {
       "meta": {
         "id": "1866062043664791",
+        "username": "wholesomestore",
+        "name": "Wholesome",
         "about": "Edit\nWholesome Grains Limited, hereinafter Wholesome is a vegetarian / vegan mini market. We carry local and imported non-GMO, organic or natural farming p",
-        "categories": [
-          "Organic food shop",
-          "Health Food Shop",
-          "Speciality food shop"
+        "category_list": [
+          {
+            "id": "1748430218710706",
+            "name": "Organic Grocery Store"
+          },
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          },
+          {
+            "id": "162264673824073",
+            "name": "Specialty Grocery Store"
+          }
         ],
-        "addr": "Unit 6, G/F, Sky Tower, Tower 1, 38 Sung Wong Toi Road, Tokwawan,",
-        "area": "Kowloon, Hong Kong",
-        "email": "online@wholesomegrainsasia.com",
-        "tel": "26820638"
+        "emails": [
+          "online@wholesomegrainsasia.com"
+        ],
+        "single_line_address": "Unit 6, G/F, Sky Tower, Tower 1, 38 Sung Wong Toi Road, Tokwawan,, Kowloon, Hong Kong",
+        "website": "www.wholesome.store"
       },
       "url": "https://www.facebook.com/wholesomestore/"
     }

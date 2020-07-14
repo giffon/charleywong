@@ -7,14 +7,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "點子出版 Idea Publication",
         "id": "342117395918437",
+        "username": "IdeaPublication.com.hk",
+        "name": "點子出版 Idea Publication",
         "about": "點子出版為香港本地出版社，致力打造多元化高質流行讀物。\n暢銷作品包括《Deep Web File #網絡奇談》《診所低能奇觀》《天黑莫回頭》《壹獄壹世界》等等。",
-        "categories": [
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "info@idea-publication.com",
-        "tel": "23898311"
+        "emails": [
+          "info@idea-publication.com"
+        ],
+        "single_line_address": "香港荃灣海盛路11號One MidTown 13樓20室",
+        "website": "http://www.ideapublication.com"
       },
       "url": "https://www.facebook.com/IdeaPublication.com.hk/"
     },

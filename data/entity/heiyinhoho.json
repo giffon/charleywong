@@ -18,13 +18,20 @@
     {
       "url": "https://www.facebook.com/heiyinhoho/",
       "meta": {
-        "name": "Heiyinhoho - 呵呵與藍呵",
         "id": "987710188042487",
+        "username": "heiyinhoho",
+        "name": "Heiyinhoho - 呵呵與藍呵",
         "about": "香港插畫師Heiyin以現實生活為藍本，創作了兩個得意可愛的角色－呵呵與藍呵。粉紅色的女孩子是呵呵，藍色的男孩子是藍呵。",
-        "categories": [
-          "Brand"
+        "category_list": [
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          }
         ],
-        "email": "heiyinhoho@gmail.com"
+        "emails": [
+          "heiyinhoho@gmail.com"
+        ],
+        "website": "https://www.pinkoi.com/store/heiyinhoho"
       }
     }
   ],

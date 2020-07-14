@@ -7,13 +7,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "吳敏兒 Carol Ng",
         "id": "101234900633325",
+        "username": "CarolNgMY",
+        "name": "吳敏兒 Carol Ng",
         "about": "這個社會所有的價值在一點一滴地消失， 如果連自己的僅有的一份也不悍衛， 我們還剩下什麼？",
-        "categories": [
-          "Public Figure"
-        ],
-        "tel": "27708668"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          }
+        ]
       },
       "url": "https://www.facebook.com/CarolNgMY/"
     }

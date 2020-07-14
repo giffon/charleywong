@@ -11,13 +11,26 @@
     {
       "meta": {
         "id": "544513762353431",
-        "about": "Official Felix Ip fan page.\n\nYour source for everything Felix Ip, upcoming projects to artwork to original art and more.",
-        "categories": [
-          "Artist",
-          "Visual arts",
-          "Designer"
+        "username": "felixipart",
+        "name": "Felix Ip 葉偉青",
+        "about": "Official Felix Ip Art page.\n\nYour source for everything about Felix Ip, upcoming projects to artwork to original art and more. \n",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "1080612391976317",
+            "name": "Visual Arts"
+          },
+          {
+            "id": "1615",
+            "name": "Designer"
+          }
         ],
-        "email": "felixxip@gmail.com"
+        "emails": [
+          "felixxip@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/felixipart/"
     }

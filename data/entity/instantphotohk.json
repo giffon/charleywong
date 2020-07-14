@@ -10,14 +10,28 @@
     {
       "meta": {
         "id": "325605200881496",
-        "about": "服務範圍：婚禮或婚宴，企業活動和其他活動，如生日派對，萬聖節派對，週年晚宴等",
-        "categories": [
-          "Camera/photo",
-          "Photographer",
-          "Professional service"
+        "username": "instantphotohk",
+        "name": "Instant Photo & Photo Booth 即晚派相",
+        "about": "服務範圍：婚禮或婚宴，企業活動和其他活動，如生日派對，萬聖節派對，週年晚宴等\n",
+        "category_list": [
+          {
+            "id": "2208",
+            "name": "Camera/Photo"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "176831012360626",
+            "name": "Professional Service"
+          }
         ],
-        "email": "instantphotohk@gmail.com",
-        "tel": "35680621"
+        "emails": [
+          "instantphotohk@gmail.com"
+        ],
+        "single_line_address": "Shui Hong Industrial Building, 543 Castle Peak Road, Kwai Chung, Hong Kong",
+        "website": "http://www.instantphotohk.com"
       },
       "url": "https://www.facebook.com/instantphotohk/"
     }

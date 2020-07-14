@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/funnyworkshopcom/",
       "meta": {
-        "name": "Funny Workshop",
         "id": "562640467120022",
+        "username": "funnyworkshopcom",
+        "name": "Funny Workshop",
         "about": "Funny Workshop is an online shop which shares DIY décor idea and recommend cute furniture with nice design, toys, paper crafts, stamps etc. to encourage positivity by polishing our daily lives with fun.",
-        "categories": [
-          "Furniture Store"
+        "category_list": [
+          {
+            "id": "162845797101278",
+            "name": "Furniture Store"
+          }
         ],
-        "email": "info@funnypaper.com.hk",
-        "tel": "61401730"
+        "emails": [
+          "info@funnypaper.com.hk"
+        ],
+        "website": "http://funnyworkshop.com"
       }
     },
     {

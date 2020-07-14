@@ -6,15 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "KaCaMa Design Lab",
         "id": "207267635979922",
-        "about": "KaCaMa Design Lab excels in sustainable design and exploration of new design strategies that foster positive community and environmental values.",
-        "categories": [
-          "Business Service"
+        "username": "KaCaMaDesignLab",
+        "name": "KaCaMa Design Lab",
+        "about": "KaCaMa Design Lab excels in sustainable design and exploration of new design strategies that foster positive community and environmental values. ",
+        "category_list": [
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          }
         ],
-        "addr": "土瓜灣落山道108號志昌工業大廈8樓F2室  F-2, 8/F , Gee Chang Industrial Building, No. 108 Lok Shan Road, To Kwa Wan, Kowloon",
-        "area": "Hong Kong",
-        "email": "info@kacama.hk"
+        "emails": [
+          "info@kacama.hk"
+        ],
+        "single_line_address": "土瓜灣落山道108號志昌工業大廈8樓F2室  F-2, 8/F , Gee Chang Industrial Building, No. 108 Lok Shan Road, To Kwa Wan, Kowloon, Hong Kong",
+        "website": "http://www.kacama.hk"
       },
       "url": "https://www.facebook.com/KaCaMaDesignLab/"
     },

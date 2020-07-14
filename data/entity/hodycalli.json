@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "HodyC Calligraphy",
         "id": "2347521308793052",
-        "about": "Calligraphy, painting, illumination, western calligraphy.",
-        "categories": [
-          "Product/Service"
+        "username": "hodycalli",
+        "name": "HodyC Calligraphy",
+        "about": "Calligraphy, painting, illumination, western calligraphy. ",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "hodycalli@gmail.com"
+        "emails": [
+          "hodycalli@gmail.com"
+        ],
+        "website": "https://www.instagram.com/hodycalli/"
       },
       "url": "https://www.facebook.com/hodycalli/"
     },

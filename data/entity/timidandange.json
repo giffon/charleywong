@@ -16,13 +16,27 @@
     {
       "meta": {
         "id": "1600385046925067",
+        "username": "timidandange",
+        "name": "Timid and Ange",
         "about": "Timid and Ange - 出身在意大利，流著honey blood的無膽熊Timid和來自奧地利，整天穿毛衣的燥狂兔Ange。",
-        "categories": [
-          "Art",
-          "Personal blog",
-          "Public figure"
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          }
         ],
-        "email": "yoy.gog@gmail.com"
+        "emails": [
+          "yoy.gog@gmail.com"
+        ],
+        "website": "http://www.illustrator.org.hk/zh-HK/member/detail/li-man-fai-gabriel"
       },
       "url": "https://www.facebook.com/timidandange/"
     }

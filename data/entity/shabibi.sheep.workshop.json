@@ -6,17 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "about": "concrete | art | design | Hong Kong\nshowroom | studio | workshop",
-        "categories": [
-          "Artist",
-          "Home decor",
-          "Shopping & retail"
+        "id": "1655648777997760",
+        "username": "shabibi.sheep.workshop",
+        "name": "Shabibi Sheep Workshop",
+        "about": "concrete | art | design | Hong Kong\n水泥 | 藝術 | 設計 | 香港",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "192647794097278",
+            "name": "Home Decor"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "addr": "Shop 106, The Mills, 45 Pak Tin Par Street",
-        "area": "Tsuen Wan, Hong Kong",
-        "email": "hi.there@shabibisheepworkshop.com",
-        "tel": "95433689",
-        "id": "1655648777997760"
+        "emails": [
+          "hi.there@shabibisheepworkshop.com"
+        ],
+        "single_line_address": "Shop 106, The Mills, 45 Pak Tin Par Street, Tsuen Wan, Hong Kong",
+        "website": "https://www.ShabibiSheepWorkshop.com"
       },
       "url": "https://www.facebook.com/shabibi.sheep.workshop/"
     },

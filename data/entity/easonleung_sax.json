@@ -23,14 +23,20 @@
     {
       "url": "https://www.facebook.com/easonleungsaxophone/",
       "meta": {
-        "name": "Eason Leung",
         "id": "1856944571206047",
+        "username": "easonleungsaxophone",
+        "name": "Eason Leung",
         "about": "工作聯絡請致電、whatsapp 或 電郵即可",
-        "categories": [
-          "Musician/Band"
+        "category_list": [
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "email": "eason_sax@yahoo.com",
-        "tel": "66448634"
+        "emails": [
+          "eason_sax@yahoo.com"
+        ],
+        "website": "https://easonleungsax.wixsite.com/easonleung"
       }
     },
     {

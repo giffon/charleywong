@@ -10,16 +10,21 @@
     },
     {
       "meta": {
-        "name": "香港基督徒學會 Hong Kong Christian Institute",
         "id": "188635501147607",
+        "username": "hkchristianinstitute",
+        "name": "香港基督徒學會 Hong Kong Christian Institute",
         "about": "九七前，香港經歷巨大的轉變；有鑑於此，一百二十位教牧同工和信徒領袖於八八年六月以個人身分，發起成立「香港基督徒學會」，為香港教會提供一個更靈活的架構，以回應時代。",
-        "categories": [
-          "Religious Organization"
+        "category_list": [
+          {
+            "id": "187714557925874",
+            "name": "Religious Organization"
+          }
         ],
-        "addr": "九龍旺角塘尾道54至58號永利工業大廈901室",
-        "area": "Hong Kong",
-        "email": "info@hkci.org.hk",
-        "tel": "23981699"
+        "emails": [
+          "info@hkci.org.hk"
+        ],
+        "single_line_address": "九龍旺角塘尾道54至58號永利工業大廈901室, Hong Kong",
+        "website": "www.hkci.org.hk"
       },
       "url": "https://www.facebook.com/hkchristianinstitute/"
     }

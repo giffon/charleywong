@@ -7,14 +7,17 @@
     {
       "url": "https://www.facebook.com/Streamaquahk/",
       "meta": {
-        "name": "水納百川",
         "id": "2284264588267751",
+        "username": "Streamaquahk",
+        "name": "水納百川",
         "about": "水納百川  水族專門店\n\n地址：旺角通菜街158a地下\n158a, TUNG CHOI STREET, Mong Kok,  Kowloon\n金魚街十字路口\n\nIG: Streamaqua_hk",
-        "categories": [
-          "Aquatic Pet Store"
+        "category_list": [
+          {
+            "id": "209645989430607",
+            "name": "Aquatic Pet Store"
+          }
         ],
-        "addr": "旺角通菜街158a地下",
-        "area": "Hong Kong"
+        "single_line_address": "旺角通菜街158a地下, Hong Kong"
       }
     },
     {

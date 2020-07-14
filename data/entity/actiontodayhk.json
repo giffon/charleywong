@@ -7,14 +7,23 @@
     {
       "url": "https://www.facebook.com/actiontodayhk/",
       "meta": {
-        "name": "廢青男女",
         "id": "557837681007702",
+        "username": "actiontodayhk",
+        "name": "廢青男女",
         "about": "熱愛整片嘅廢青情侶\n歡迎inbox同我地傾下計 :)",
-        "categories": [
-          "Video Creator",
-          "Producer"
+        "category_list": [
+          {
+            "id": "1108",
+            "name": "Producer"
+          },
+          {
+            "id": "1817904601806120",
+            "name": "Video Creator"
+          }
         ],
-        "email": "ifightforsuccess@gmail.com"
+        "emails": [
+          "ifightforsuccess@gmail.com"
+        ]
       }
     },
     {

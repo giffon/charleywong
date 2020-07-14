@@ -10,13 +10,20 @@
     {
       "meta": {
         "id": "236973666832021",
+        "username": "phutawanhk",
+        "name": "Phutawan HK",
         "about": "原裝泰國進口，香港獨家專櫃，只此一間，別無分店，泰國行貨，買得安心！所有產品100%天然，如對產品有任何查詢，隨時與我們聯絡，祝你購物愉快！",
-        "categories": [
-          "Health/beauty"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "addr": "香港葵涌永業街1-3號忠信針織中心12樓A1223室",
-        "area": "Kwai Chung",
-        "email": "phutawanhk@yahoo.com"
+        "emails": [
+          "phutawanhk@yahoo.com"
+        ],
+        "single_line_address": "香港葵涌永業街1-3號忠信針織中心12樓A1223室, Kwai Chung",
+        "website": "www.phutawanhk.com"
       },
       "url": "https://www.facebook.com/phutawanhk/"
     },

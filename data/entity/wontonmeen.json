@@ -10,15 +10,21 @@
     {
       "meta": {
         "id": "106468316075354",
+        "username": "wontonmeen",
+        "name": "Wontonmeen",
         "about": "Your alternative Hong Kong experience...\nCome to 135 Lai Chi Kok Road.",
-        "categories": [
-          "Hostel",
-          "Community"
+        "category_list": [
+          {
+            "id": "150438461681329",
+            "name": "Hostel"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "addr": "135 Lai Chi Kok Road",
-        "area": "Kowloon, Hong Kong",
-        "email": "info@wontonmeen.com",
-        "tel": "69040918"
+        "single_line_address": "135 Lai Chi Kok Road, 000 Kowloon, Hong Kong",
+        "website": "http://www.wontonmeen.com"
       },
       "url": "https://www.facebook.com/wontonmeen/"
     }

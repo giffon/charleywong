@@ -10,13 +10,20 @@
     {
       "meta": {
         "id": "1826089374336962",
+        "username": "bubuvanhk",
+        "name": "搬搬車",
         "about": "除左一般本地搬運服務，我地更希望可以推動環保，提供二手傢俬搬運，二手傢俬拆裝服務。由去賣家屋企「拆」、中間「運」、到買家屋企「裝」，都一手包辦！",
-        "categories": [
-          "Local service",
-          "Transportation service"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "email": "bubuvancs@gmail.com",
-        "tel": "52263349"
+        "emails": [
+          "bubuvancs@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://www.bubuvan.com"
       },
       "url": "https://www.facebook.com/bubuvanhk/"
     }

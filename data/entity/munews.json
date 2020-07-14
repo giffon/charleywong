@@ -10,10 +10,19 @@
     {
       "meta": {
         "id": "100273486794265",
-        "about": "球迷會:https://www.facebook.com/groups/536988403004416/\nRagazine聲音節目\nhttp://www.ragazine.com.hk/index.php/programmes/menu-sports-life/menu-utdman",
-        "categories": [
-          "Professional sports team"
-        ]
+        "username": "munews",
+        "name": "Manchester United News",
+        "about": "球迷會:https://www.facebook.com/groups/536988403004416/\n",
+        "category_list": [
+          {
+            "id": "1801",
+            "name": "Sports Team"
+          }
+        ],
+        "emails": [
+          "manutdnews2012@gmail.com"
+        ],
+        "website": "http://www.fanpiece.com/munews/"
       },
       "url": "https://www.facebook.com/munews/"
     }

@@ -10,11 +10,20 @@
     {
       "meta": {
         "id": "256753767673303",
+        "username": "foodiesmashingpumpkins",
+        "name": "猛烈南瓜在飯桌",
         "about": "既是Openrice的 \"SMASHING PUMPKINS\"，亦是立場新聞內的\"南瓜\" ，都市日報其中一位專欄作家。",
-        "categories": [
-          "Blogger",
-          "Website"
-        ]
+        "category_list": [
+          {
+            "id": "361282040719868",
+            "name": "Blogger"
+          },
+          {
+            "id": "2202",
+            "name": "Website"
+          }
+        ],
+        "website": "http://foodie-smashingpumkins.blogspot.com/ http://smashingpumpkins.openrice.com/"
       },
       "url": "https://www.facebook.com/foodiesmashingpumpkins/"
     }

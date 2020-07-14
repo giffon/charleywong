@@ -7,14 +7,21 @@
   "webpages": [
     {
       "meta": {
+        "id": "652238318275103",
+        "username": "muchakucha.hk",
+        "name": "無茶苦茶 Muchakucha",
         "about": "抱着無茶苦茶胡來亂試的勇氣而創設的手作品牌。\n研究出原創的黏土擠花手藝，\n利用蛋糕常見的擠花技巧，製成各種飾物，\n讓曾經只能在蛋糕上出現的甜美，完美重現於你的每天。",
-        "categories": [
-          "Accessories"
+        "category_list": [
+          {
+            "id": "185127444860544",
+            "name": "Accessories"
+          }
         ],
-        "addr": "Room 1306, 13/F, Pang Kwong Building, 59 Hung To Road, Kwun Tong",
-        "area": "Kowloon, Hong Kong",
-        "email": "muchakucha.hk@gmail.com",
-        "id": "652238318275103"
+        "emails": [
+          "muchakucha.hk@gmail.com"
+        ],
+        "single_line_address": "Room 1306, 13/F, Pang Kwong Building, 59 Hung To Road, Kwun Tong, Kowloon, Hong Kong",
+        "website": "http://www.muchakuchahk.com"
       },
       "url": "https://www.facebook.com/muchakucha.hk/"
     },

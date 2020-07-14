@@ -8,11 +8,15 @@
     {
       "url": "https://www.facebook.com/miusleathercraft/",
       "meta": {
-        "name": "MIU'S Leathercraft",
         "id": "125384587618207",
-        "about": "手造皮革品，是一種藝術。每一個步驟，每個細節，都代表每一份心思。就是這份執著，造就了今天的MIU'S Leathercraft。\n\nMIU'S: M=Make, I=It, U=Unique.\n\nLet's Make It Unique!",
-        "categories": [
-          "Product/Service"
+        "username": "miusleathercraft",
+        "name": "MIU'S Leathercraft",
+        "about": "手製皮革品，是一種藝術。每一個步驟，每個細節，都代表每一份心思。就是這份執著，造就了今天的MIU'S Leathercraft。\n\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       }
     },

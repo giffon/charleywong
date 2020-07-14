@@ -14,13 +14,20 @@
     },
     {
       "meta": {
-        "name": "SYNERGY HK",
         "id": "389668444433407",
-        "about": "Hong Kong Progressive Metal\nVocal : Tyler\nBass : Manson\nDrum : Howard\nGuitar : Davey & Long",
-        "categories": [
-          "Musician/Band"
+        "username": "synergyhongkong",
+        "name": "SYNERGY HK",
+        "about": "Hong Kong Progressive Metal\nVocal : Tyler \nBass : Manson\nDrum : Howard\nGuitar : Davey & Long",
+        "category_list": [
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "email": "synergyprog@gmail.com"
+        "emails": [
+          "synergyprog@gmail.com"
+        ],
+        "website": "https://www.youtube.com/channel/UCHA0N2e58X7A238Gzz-1Nqg"
       },
       "url": "https://www.facebook.com/synergyhongkong/"
     },

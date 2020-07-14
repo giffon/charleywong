@@ -6,11 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "categories": [
-          "Brewery"
+        "id": "943412225682824",
+        "username": "foambeerbrewery",
+        "name": "Foam Beer Brewery",
+        "category_list": [
+          {
+            "id": "144535972273084",
+            "name": "Brewery"
+          }
         ],
-        "email": "foambeerbrewery@gmail.com",
-        "id": "943412225682824"
+        "emails": [
+          "foambeerbrewery@gmail.com"
+        ],
+        "single_line_address": "Hong Kong"
       },
       "url": "https://www.facebook.com/foambeerbrewery/"
     }

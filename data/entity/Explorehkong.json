@@ -13,13 +13,21 @@
     },
     {
       "meta": {
-        "name": "Explore_HongKong",
         "id": "699192866911787",
-        "about": "This is a page where I share my passion in Hong Kong with the world. Find everything about HK in this page and feel free to ask us any question about HK.",
-        "categories": [
-          "Travel Company"
+        "username": "Explorehkong",
+        "name": "Explore_HongKong",
+        "about": "This is a page where I share my passion in Hong Kong with the world. Find everything about HK in this page and feel free to ask us any question about HK. \n",
+        "category_list": [
+          {
+            "id": "2258",
+            "name": "Travel Company"
+          }
         ],
-        "email": "explorehongkong@hotmail.com"
+        "emails": [
+          "explorehongkong@hotmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://www.instagram.com/explore_hongkong"
       },
       "url": "https://www.facebook.com/Explorehkong/"
     }

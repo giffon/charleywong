@@ -7,15 +7,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Seon Sewing Handmade 淳記手作",
         "id": "1499355830388724",
+        "username": "Seonsewinghandmade",
+        "name": "Seon Sewing Handmade 淳記手作",
         "about": "從小就看著媽媽車縫東西養家糊口，深受車縫興趣，兒時喜愛復古的東西，長大後都一直記掛著兒時外公家裡的地磚，很想將興趣跟喜愛事物兩者為一，所以就產生了淳記手作 - 傳承。",
-        "categories": [
-          "Arts & Crafts Store",
-          "Sewing & Alterations"
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "140784189318631",
+            "name": "Sewing & Alterations"
+          }
         ],
-        "email": "seonsewinghandmade@gmail.com",
-        "tel": "61143255"
+        "emails": [
+          "seonsewinghandmade@gmail.com"
+        ],
+        "website": "https://seonhk.boutir.com/"
       },
       "url": "https://www.facebook.com/Seonsewinghandmade/"
     },

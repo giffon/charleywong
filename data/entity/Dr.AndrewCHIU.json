@@ -10,14 +10,21 @@
     },
     {
       "meta": {
-        "name": "趙家賢 Dr. Andrew CHIU",
         "id": "100556368100857",
+        "username": "Dr.AndrewCHIU",
+        "name": "趙家賢 Dr. Andrew CHIU",
         "about": "趙家賢 Dr. Andrew - 資深認可調解員 及 仲裁員。東區區議會副主席，07年當選太古城西民選議員。現為民主動力召集人，公共專業聯盟執委，民主黨東區黨團召集人 及 香港認可調解員學會主席。",
-        "categories": [
-          "Politician"
+        "category_list": [
+          {
+            "id": "1700",
+            "name": "Politician"
+          }
         ],
-        "email": "office@andrewchiu.hk",
-        "tel": "25356720"
+        "emails": [
+          "office@andrewchiu.hk"
+        ],
+        "single_line_address": "太古城高安閣地下 (太古灣道西面迴旋處), Hong Kong",
+        "website": "http://andrewchiu.hk"
       },
       "url": "https://www.facebook.com/Dr.AndrewCHIU/"
     }

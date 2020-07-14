@@ -7,15 +7,22 @@
   "webpages": [
     {
       "meta": {
-        "about": "是否還記得\n哪段曾經屬於我們的美好時光？\n...\n\n\n\n\nSee more",
-        "categories": [
-          "Taiwanese restaurant",
-          "Cafe"
+        "id": "657344191057793",
+        "username": "scoool.hk",
+        "name": "小時光 scoool",
+        "about": "是否還記得 \n哪段曾經屬於我們的美好時光？\n\nBook/Cafe/Toy\n\n觀塘興業街16-18號A座1樓C室, 美興工業大廈1樓. 可由停車場入口進入, 再上一層樓梯\n\n接受「五人以上」及團體訂位、包場服務。",
+        "category_list": [
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
         ],
-        "addr": "觀塘興業街18號美興工業大廈A座1樓C室",
-        "area": "Hong Kong",
-        "tel": "31882380",
-        "id": "657344191057793"
+        "single_line_address": "觀塘興業街18號美興工業大廈A座1樓C室, 觀塘興業街16-18號座1樓 Hong Kong",
+        "website": "http://www.facebook.com/scoool"
       },
       "url": "https://www.facebook.com/scoool.hk/"
     },

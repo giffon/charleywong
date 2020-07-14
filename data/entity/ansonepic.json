@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/ansonepic/",
       "meta": {
-        "name": "ANSONEPIC",
         "id": "413937892419230",
-        "about": "I was born in Hong Kong and my expertise is photography and videography. I care a lot about details, am very organized and have a good eye for aesthetics.  I am reliable and capable in fast-paced environments and I always deliver my results on time.",
-        "categories": [
-          "Photographer"
+        "username": "ansonepic",
+        "name": "ANSONEPIC",
+        "about": "I was born in Hong Kong and my expertise is photography and videography. I care a lot about details, am very organized and have a good eye for aesthetics.  I am reliable and capable in fast-paced environments and I always deliver my results on time. ",
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "ansonepic3@gmail.com"
+        "emails": [
+          "ansonepic3@gmail.com"
+        ],
+        "website": "https://www.ansonepic.com/"
       }
     },
     {

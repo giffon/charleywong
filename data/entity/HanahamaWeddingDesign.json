@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "Hanahama Design",
         "id": "134483603285508",
+        "username": "HanahamaWeddingDesign",
+        "name": "Hanahama Design",
         "about": "A Hong Kong Design, Decoration & Floral Services Company.",
-        "categories": [
-          "Design & Fashion"
+        "category_list": [
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          }
         ],
-        "email": "info@hanahama.com",
-        "tel": "56699690"
+        "emails": [
+          "info@hanahama.com"
+        ],
+        "single_line_address": "San Po Kong (By appointment only)",
+        "website": "http://www.hanahama.com/ http://www.pinterest.com/hanahama/"
       },
       "url": "https://www.facebook.com/HanahamaWeddingDesign/"
     },

@@ -10,16 +10,25 @@
     {
       "url": "https://www.facebook.com/octofashion/",
       "meta": {
-        "name": "Octo gambol",
         "id": "307807199274516",
-        "about": "門市地址\n-\n旺角 彌敦道579號 艾麗大廈 7樓 (全層) (小丸子旁入)\n.\n門市路線圖：\nhttps://goo.gl/LcovGw\n.\n2:00PM ~ 10:00PM\n.\nOnline Store(香港 / 澳門 / 台灣 / 中國內地):\nwww.octogambol.com",
-        "categories": [
-          "Clothing Store",
-          "Clothing (Brand)"
+        "username": "octofashion",
+        "name": "Octo gambol",
+        "about": "門市地址\n-\n 旺角 彌敦道579號 艾麗大廈 7樓 (全層) (小丸子旁入)\n.\n門市路線圖：\n https://goo.gl/LcovGw \n.\t\n 2:00PM ~ 10:00PM \n.\nOnline Store(香港 / 澳門 / 台灣 / 中國內地):\nwww.octogambol.com\n",
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          }
         ],
-        "addr": "旺角 彌敦道579號 艾麗大廈 7樓(全層)",
-        "area": "Hong Kong",
-        "email": "info@octogambol.com"
+        "emails": [
+          "info@octogambol.com"
+        ],
+        "single_line_address": "旺角 彌敦道579號 艾麗大廈 7樓(全層), Hong Kong",
+        "website": "http://www.octogambol.com"
       }
     },
     {

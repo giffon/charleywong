@@ -7,13 +7,19 @@
     {
       "url": "https://www.facebook.com/minifridayHK/",
       "meta": {
-        "name": "Mini Friday",
         "id": "469016890106134",
-        "categories": [
-          "New American Restaurant"
+        "username": "minifridayHK",
+        "name": "Mini Friday",
+        "category_list": [
+          {
+            "id": "110107385737667",
+            "name": "New American Restaurant"
+          }
         ],
-        "email": "info@minifriday.com.hk",
-        "tel": "37059174"
+        "emails": [
+          "info@minifriday.com.hk"
+        ],
+        "website": "www.minifriday.com.hk"
       }
     },
     {

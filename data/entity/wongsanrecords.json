@@ -7,12 +7,19 @@
   "webpages": [
     {
       "meta": {
+        "id": "1950887991816905",
+        "username": "wongsanrecords",
+        "name": "wong san 黃 山",
         "about": "Hong Kong illustrator\n\nFeel free contact me to get a draw :)",
-        "categories": [
-          "Art"
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "email": "sanwongps@gmail.com",
-        "id": "1950887991816905"
+        "emails": [
+          "sanwongps@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/wongsanrecords/"
     },

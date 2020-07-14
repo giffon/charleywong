@@ -10,13 +10,22 @@
     {
       "url": "https://www.facebook.com/yhmetblogspot/",
       "meta": {
-        "name": "作者",
         "id": "972393926144079",
+        "username": "yhmetblogspot",
+        "name": "作者",
         "about": "作者，1989年生於香港，已出版小說《地球另一端》及《捉姦》，如欲贊助寫作或邀稿可傳訊洽談。",
-        "categories": [
-          "Author",
-          "Literary Arts"
-        ]
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          },
+          {
+            "id": "856055631167537",
+            "name": "Literary Arts"
+          }
+        ],
+        "single_line_address": "香港",
+        "website": "https://www.patreon.com/writerhk"
       }
     },
     {

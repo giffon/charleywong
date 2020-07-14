@@ -8,11 +8,15 @@
     {
       "url": "https://www.facebook.com/fuheadchop/",
       "meta": {
-        "name": "虎頭鍘製作 FU Production",
         "id": "664664530314955",
+        "username": "fuheadchop",
+        "name": "虎頭鍘製作 FU Production",
         "about": "Designer, illustrator, HongKonger.",
-        "categories": [
-          "Designer"
+        "category_list": [
+          {
+            "id": "1615",
+            "name": "Designer"
+          }
         ]
       }
     }

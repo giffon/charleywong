@@ -14,18 +14,29 @@
     {
       "url": "https://www.facebook.com/whitewhalecompany/",
       "meta": {
-        "name": "White Whale Co. Vintage Clothing & Goods",
         "id": "1374731782808578",
+        "username": "whitewhalecompany",
+        "name": "White Whale Co. Vintage Clothing & Goods",
         "about": "Address: 2/F, 39 Yin Chong Street, Mong Kok, Kowloon, Hong Kong\n\n地址：香港九龍旺角煙廠街39號2樓",
-        "categories": [
-          "Clothing Store",
-          "Vintage Store",
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "194127957280024",
+            "name": "Vintage Store"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          }
         ],
-        "addr": "2/F, No.39 Yin Chong Street, Mong Kok, Kowloon",
-        "area": "Hong Kong",
-        "email": "white.whale.company@gmail.com",
-        "tel": "62880524"
+        "emails": [
+          "white.whale.company@gmail.com"
+        ],
+        "single_line_address": "2/F, No.39 Yin Chong Street, Mong Kok, Kowloon, 0 Hong Kong",
+        "website": "https://www.instagram.com/white.whale.company"
       }
     }
   ],

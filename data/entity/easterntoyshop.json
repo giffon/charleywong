@@ -7,13 +7,19 @@
     {
       "meta": {
         "id": "267930339964432",
-        "categories": [
-          "Toy shop"
+        "username": "easterntoyshop",
+        "name": "Eastern Toy Shop (玩具一閣)",
+        "category_list": [
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          }
         ],
-        "addr": "香港筲箕灣工廠街7號, 筲箕灣中心19,22號店",
-        "area": "Hong Kong",
-        "email": "info@easterntoyshop.com",
-        "tel": "24736811"
+        "emails": [
+          "info@easterntoyshop.com"
+        ],
+        "single_line_address": "香港筲箕灣工廠街7號, 筲箕灣中心19,22號店, Hong Kong",
+        "website": "www.easterntoyshop.com"
       },
       "url": "https://www.facebook.com/easterntoyshop/"
     }

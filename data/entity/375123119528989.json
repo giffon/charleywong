@@ -7,13 +7,18 @@
     {
       "url": "https://www.facebook.com/375123119528989/",
       "meta": {
-        "name": "Surrealhk",
         "id": "375123119528989",
+        "name": "Surrealhk",
         "about": "My surreal life in Hong Kong\n我在香港的超現實生活\nTommy F",
-        "categories": [
-          "Visual Arts"
+        "category_list": [
+          {
+            "id": "1080612391976317",
+            "name": "Visual Arts"
+          }
         ],
-        "email": "hellosurrealhk@gmail.com"
+        "emails": [
+          "hellosurrealhk@gmail.com"
+        ]
       }
     }
   ],

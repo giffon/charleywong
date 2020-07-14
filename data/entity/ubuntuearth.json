@@ -6,12 +6,24 @@
   "webpages": [
     {
       "meta": {
+        "id": "2237691786450085",
+        "username": "ubuntuearth",
+        "name": "Ubuntu",
         "about": "Instagram : u.b.u.n.t.u",
-        "categories": [
-          "Website",
-          "Art"
+        "category_list": [
+          {
+            "id": "2202",
+            "name": "Website"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "id": "2237691786450085"
+        "emails": [
+          "uubuntuearth@gmail.com"
+        ],
+        "website": "http://ubuntuearthart.com/"
       },
       "url": "https://www.facebook.com/ubuntuearth/"
     },

@@ -7,13 +7,16 @@
     {
       "meta": {
         "id": "1079179685449888",
-        "about": "A Professional Makeup and Hairstyling Service.\nWith a personal concept , which everyone born to be unique .",
-        "categories": [
-          "Makeup artist"
+        "username": "tentosenmakeup",
+        "name": "Ten to sen makeup",
+        "about": "A Professional Makeup and Hairstyling Service.\nWith a personal concept , which everyone born to be unique . \n",
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "addr": "Hong Kong",
-        "area": "Hong Kong",
-        "tel": "98384149"
+        "single_line_address": "Hong Kong, +852 Hong Kong"
       },
       "url": "https://www.facebook.com/tentosenmakeup/"
     }

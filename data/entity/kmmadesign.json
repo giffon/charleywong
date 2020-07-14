@@ -10,12 +10,19 @@
     {
       "meta": {
         "id": "1933591346890927",
+        "username": "kmmadesign",
+        "name": "KMMA design",
         "about": "NOT TOO LITTLE, NOT TOO MUCH, JUST RIGHT.",
-        "categories": [
-          "Interior design studio"
+        "category_list": [
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          }
         ],
-        "email": "hello@kmmadesign.com",
-        "tel": "23484233"
+        "emails": [
+          "hello@kmmadesign.com"
+        ],
+        "website": "www.kmmadesign.com"
       },
       "url": "https://www.facebook.com/kmmadesign/"
     },

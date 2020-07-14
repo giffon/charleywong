@@ -15,12 +15,17 @@
     },
     {
       "meta": {
-        "name": "零製作",
         "id": "734456046670571",
+        "username": "hkzeroproduction",
+        "name": "零製作",
         "about": "想講生活，講遊戲，講世界",
-        "categories": [
-          "Personal Blog"
-        ]
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
+        ],
+        "website": "https://www.youtube.com/channel/UCFyQX_30ajCII-QHq1a3-_Q"
       },
       "url": "https://www.facebook.com/hkzeroproduction/"
     }

@@ -7,13 +7,27 @@
     {
       "meta": {
         "id": "305204242981340",
+        "username": "queeniewartnmakeup",
+        "name": "QW Art & Makeup",
         "about": "Beauty is being the best possible version of yourself on the inside and out.\n\n* Bridal makeup services * Local/Oversea Pre-wedding makeup* Media makeup *",
-        "categories": [
-          "Product/service",
-          "Makeup artist",
-          "Skincare service"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "1644814599176740",
+            "name": "Skin Care Service"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "qw.art.makeup@gmail.com"
+        "emails": [
+          "qw.art.makeup@gmail.com"
+        ],
+        "single_line_address": "Causeway Bay, Hong Kong"
       },
       "url": "https://www.facebook.com/queeniewartnmakeup/"
     }

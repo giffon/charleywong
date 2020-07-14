@@ -23,14 +23,25 @@
     {
       "url": "https://www.facebook.com/undergradnews/",
       "meta": {
-        "name": "香港大學學生會學苑即時新聞 Undergrad, H.K.U.S.U. Instant News",
         "id": "393883453958717",
+        "username": "undergradnews",
+        "name": "香港大學學生會學苑即時新聞 Undergrad, H.K.U.S.U. Instant News",
         "about": "本頁面為香港大學學生會學苑網上新聞發布專頁。 This is the official page for online news release of the Undergrad, H.K.U.S.U.",
-        "categories": [
-          "News & Media Website",
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          },
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
         ],
-        "email": "undgrad@hku.hk"
+        "emails": [
+          "undgrad@hku.hk"
+        ],
+        "single_line_address": "香港薄扶林道香港大學方樹泉文娛中心2A01A室",
+        "website": "https://www.undergrad.hk"
       }
     }
   ],

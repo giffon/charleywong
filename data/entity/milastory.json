@@ -10,13 +10,23 @@
     {
       "meta": {
         "id": "310785152409489",
+        "username": "milastory",
+        "name": "MiLa Story",
         "about": "We're all about celebrating the love and stories we've always cherished.",
-        "categories": [
-          "Photographer",
-          "Wedding planning service"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "email": "storytomila@gmail.com",
-        "tel": "56904986"
+        "emails": [
+          "storytomila@gmail.com"
+        ],
+        "website": "http://mila-story.com"
       },
       "url": "https://www.facebook.com/milastory/"
     }

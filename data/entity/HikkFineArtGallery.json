@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "Hikk Fine Art Gallery",
         "id": "355883131191433",
-        "about": "About Hikk\nHikk Tsang is a Hong Kong-based professional photographer and artist with over 10 years experience in portrait photography. He set up KK ART WORKSHOP in 2011 and started to bring finest photography into the realm of fine art.",
-        "categories": [
-          "Professional Service"
+        "username": "HikkFineArtGallery",
+        "name": "Hikk Fine Art Gallery",
+        "about": "About Hikk\nHikk Tsang is a Hong Kong-based professional photographer and artist with over 10 years experience in portrait photography. He set up KK ART WORKSHOP in 2011 and started to bring finest photography into the realm of fine art.\n\n",
+        "category_list": [
+          {
+            "id": "176831012360626",
+            "name": "Professional Service"
+          }
         ],
-        "email": "hikk3000@hotmail.com",
-        "tel": "96242217"
+        "emails": [
+          "hikk3000@hotmail.com"
+        ],
+        "single_line_address": "香港九龍尖沙咁 百利商業大廈二樓33室",
+        "website": "http://www.hikk.net"
       },
       "url": "https://www.facebook.com/HikkFineArtGallery/"
     }

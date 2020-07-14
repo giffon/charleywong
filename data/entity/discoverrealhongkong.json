@@ -8,13 +8,22 @@
     {
       "meta": {
         "id": "112896270085707",
+        "username": "discoverrealhongkong",
+        "name": "Discover Real Hong Kong 真香港",
         "about": "We want people in the world to discover the real Hong Kong, we hope everyone can help spread the news and facts of what's happened and what's happening in Hong Kong, because Hong Kong no longer have the freedom of speech / press. Let our voice be heard.",
-        "categories": [
-          "Journalist",
-          "Newsstand",
-          "Magazine"
+        "category_list": [
+          {
+            "id": "1307",
+            "name": "Magazine"
+          },
+          {
+            "id": "829505473848469",
+            "name": "Newsstand"
+          }
         ],
-        "email": "discoverrealhongkong@gmail.com"
+        "emails": [
+          "discoverrealhongkong@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/discoverrealhongkong/"
     }

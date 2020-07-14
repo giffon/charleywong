@@ -7,43 +7,58 @@
     {
       "url": "https://www.facebook.com/thehangoutcorner/",
       "meta": {
-        "name": "The Hangout Corner",
         "id": "2338655119702952",
-        "categories": [
-          "Steakhouse"
+        "username": "thehangoutcorner",
+        "name": "The Hangout Corner",
+        "category_list": [
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          }
         ],
-        "addr": "Shop G2, Po Hing Court, 10-18 Po Hing Fong, Sheung Wan",
-        "area": "Hong Kong",
-        "email": "hangoutcornerhk@gmail.com",
-        "tel": "24680090"
+        "emails": [
+          "hangoutcornerhk@gmail.com"
+        ],
+        "single_line_address": "Shop G2, Po Hing Court, 10-18 Po Hing Fong, Sheung Wan, 852 Hong Kong",
+        "website": "https://www.openrice.com/zh/hongkong/r-%E6%88%91%E6%84%9B%E6%85%A2%E7%85%AE-%E4%B8%8A%E7%92%B0-%E5%A4%9A%E5%9C%8B%E8%8F%9C-%E9%85%92-r609753"
       }
     },
     {
       "url": "https://www.facebook.com/TheHangoutCornerMercer/",
       "meta": {
-        "name": "The Hangout Corner Mercer St.",
         "id": "418624358745004",
-        "categories": [
-          "Steakhouse",
-          "Comfort Food Restaurant"
+        "username": "TheHangoutCornerMercer",
+        "name": "The Hangout Corner Mercer St.",
+        "category_list": [
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          },
+          {
+            "id": "1087341731339756",
+            "name": "Comfort Food Restaurant"
+          }
         ],
-        "addr": "15-17 Mercer Street",
-        "area": "Sheung Wan",
-        "email": "hangoutcornerhk@gmail.com",
-        "tel": "24463383"
+        "emails": [
+          "hangoutcornerhk@gmail.com"
+        ],
+        "single_line_address": "15-17 Mercer Street, Sheung Wan",
+        "website": "https://www.openrice.com/zh/hongkong/r-%E6%88%91%E6%84%9B%E6%85%A2%E7%85%AE-%E4%B8%8A%E7%92%B0-%E5%A4%9A%E5%9C%8B%E8%8F%9C-%E9%85%92-r634712"
       }
     },
     {
       "url": "https://www.facebook.com/TheHangout.HK/",
       "meta": {
-        "name": "The Hangout by Under Vacuum 慢煮工業白楊街店",
         "id": "824695267693716",
-        "categories": [
-          "Steakhouse"
+        "username": "TheHangout.HK",
+        "name": "The Hangout by Under Vacuum 慢煮工業白楊街店",
+        "category_list": [
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          }
         ],
-        "addr": "九龍太子白楊街15-19號萬安大樓地下及1樓",
-        "area": "Hong Kong",
-        "tel": "24682705"
+        "single_line_address": "九龍太子白楊街15-19號萬安大樓地下及1樓, Hong Kong"
       }
     },
     {

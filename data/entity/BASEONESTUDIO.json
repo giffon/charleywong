@@ -6,17 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Base One Studio",
         "id": "615077598658150",
+        "username": "BASEONESTUDIO",
+        "name": "Base One Studio",
         "about": "We sell :\n•Big Day Shooting\n•Pre Wedding Shooting (local/overseas)\n•Maternity Shooting",
-        "categories": [
-          "Photographer",
-          "Artist",
-          "Media"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "RM 3&5, 6/F, Career and Kension Industrial Building, 58 Hung To Road",
-        "area": "Kwun Tong",
-        "email": "studiobaseone@gmail.com"
+        "emails": [
+          "studiobaseone@gmail.com"
+        ],
+        "single_line_address": "RM 3&5, 6/F, Career and Kension Industrial Building, 58 Hung To Road, Kwun Tong"
       },
       "url": "https://www.facebook.com/BASEONESTUDIO/"
     },

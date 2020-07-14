@@ -6,12 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "長尾工作室",
         "id": "1645022915723443",
+        "username": "cmdworkshop",
+        "name": "長尾工作室",
         "about": "DIY, 裝修，木工，本地製作",
-        "categories": [
-          "Interest"
-        ]
+        "category_list": [
+          {
+            "id": "1500",
+            "name": "Interest"
+          }
+        ],
+        "single_line_address": "b2, 13/f, 128 wai yip st, hong kong enterprise bld, kwun tong, kln."
       },
       "url": "https://www.facebook.com/cmdworkshop/"
     }

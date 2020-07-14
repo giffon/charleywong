@@ -11,17 +11,29 @@
     {
       "url": "https://www.facebook.com/takaobooks214/",
       "meta": {
-        "name": "三餘書店 TaKaoBooks",
         "id": "369238023204565",
-        "about": "三餘書店在高雄，以人文閱讀、生活創意與藝術表演為主題的獨立書店。\n\n迷路的孩子、愛書的朋友、喝咖啡的人，還有關於高雄的風土，共同親吻也創造時間。歡迎來到三餘書店。",
-        "categories": [
-          "Bookstore",
-          "Coffee Shop",
-          "Performance & Event Venue"
+        "username": "takaobooks214",
+        "name": "三餘書店 TaKaoBooks",
+        "about": "三餘書店在高雄，以人文閱讀、生活創意與藝術表演為主題的獨立書店。\n\n迷路的孩子、愛書的朋友，還有關於高雄的風土，共同親吻也創造時間。歡迎來到三餘書店。 \n",
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          },
+          {
+            "id": "179943432047564",
+            "name": "Performance & Event Venue"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "高雄市中正二路214號",
-        "area": "Kaohsiung, Taiwan",
-        "email": "takaobooks@gmail.com"
+        "emails": [
+          "takaobooks@gmail.com"
+        ],
+        "single_line_address": "高雄市中正二路214號, Kaohsiung, Taiwan 80047",
+        "website": "http://www.takaobooks.tw/"
       }
     }
   ],

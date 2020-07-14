@@ -8,18 +8,29 @@
     {
       "url": "https://www.facebook.com/KINGYOHK/",
       "meta": {
-        "name": "香港清玉好茶 KINGYO HK",
         "id": "792366544204129",
+        "username": "KINGYOHK",
+        "name": "香港清玉好茶 KINGYO HK",
         "about": "查詢 : info@kingyo.hk",
-        "categories": [
-          "Tea Room",
-          "Bubble Tea Shop",
-          "Food & Beverage Company"
+        "category_list": [
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          },
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          },
+          {
+            "id": "2252",
+            "name": "Food & Beverage Company"
+          }
         ],
-        "addr": null,
-        "area": "Tsim Sha Tsui",
-        "email": "info@kingyo.hk",
-        "tel": "23522566"
+        "emails": [
+          "info@kingyo.hk"
+        ],
+        "single_line_address": "Tsim Sha Tsui",
+        "website": "http://www.kingyo.com.tw/"
       }
     },
     {

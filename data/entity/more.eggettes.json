@@ -8,16 +8,27 @@
     {
       "meta": {
         "id": "358111281058534",
-        "about": "IG: https://www.instagram.com/moreeggetteshk/\n\n...\n\n\nSee more",
-        "categories": [
-          "Dessert shop",
-          "Food stall",
-          "Hong Kong restaurant"
+        "username": "more.eggettes",
+        "name": "More Eggettes 摩芽雞蛋仔",
+        "about": "IG: https://www.instagram.com/moreeggetteshk/\n\n\n\n新蒲崗總店: 新蒲崗康強街32-34號康強洋樓地下16A舖\n太子: 太子汝州街17B舖\n",
+        "category_list": [
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          },
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "康強街32-34號康強洋樓16A",
-        "area": "San Po Kong",
-        "email": "more.eggettes@gmail.com",
-        "tel": "92088979"
+        "emails": [
+          "more.eggettes@gmail.com"
+        ],
+        "single_line_address": "康強街32-34號康強洋樓16A, 852 Wong Tai Sin, Hong Kong"
       },
       "url": "https://www.facebook.com/more.eggettes/"
     }

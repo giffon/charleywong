@@ -14,16 +14,24 @@
     {
       "url": "https://www.facebook.com/cafemaidplanet/",
       "meta": {
-        "name": "Maid Planet メイドプラネット",
         "id": "132510504226740",
-        "categories": [
-          "Coffee Shop",
-          "Theme Restaurant"
+        "username": "cafemaidplanet",
+        "name": "Maid Planet メイドプラネット",
+        "about": "我們是來自銀河遠方的一個星體「萌星球」的侵略者(灬ºωº灬) 我們來臨藍星希望把這個星球都變得有活力和可愛(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ 所以藍星人快點到基地找來自不同星球侵略者們吧！",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "1738077623073078",
+            "name": "Theme Restaurant"
+          }
         ],
-        "addr": "旺角豉油街24-26號福泰大廈11樓",
-        "area": "Mong Kok",
-        "email": "cafpmaidplanet@gmail.com",
-        "tel": "21164814"
+        "emails": [
+          "cafpmaidplanet@gmail.com"
+        ],
+        "single_line_address": "旺角豉油街24-26號福泰大廈11樓, Mong Kok"
       }
     }
   ],

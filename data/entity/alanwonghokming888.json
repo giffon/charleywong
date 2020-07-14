@@ -6,15 +6,23 @@
   "webpages": [
     {
       "meta": {
-        "name": "黃鶴鳴律師 - Alan Wong",
         "id": "1717572185174372",
+        "username": "alanwonghokming888",
+        "name": "黃鶴鳴律師 - Alan Wong",
         "about": "執業律師、婚姻監禮人，身兼公民黨執委。相信法律和政治，是改變一個文明社會最有效的方法。平時喜愛閱讀和音樂，現正學習色士風，夢想一天可於街頭表演，與更多人分享音樂。",
-        "categories": [
-          "Public Figure",
-          "Legal Service"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          },
+          {
+            "id": "2025086974383657",
+            "name": "Legal Service"
+          }
         ],
-        "email": "alan@ytt.com.hk",
-        "tel": "64288888"
+        "emails": [
+          "alan@ytt.com.hk"
+        ]
       },
       "url": "https://www.facebook.com/alanwonghokming888/"
     },

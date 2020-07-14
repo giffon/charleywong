@@ -9,15 +9,28 @@
     },
     {
       "meta": {
-        "name": "AK IN KK - Nature Field Recording HK",
         "id": "1752097465021314",
+        "username": "akinkk.sound",
+        "name": "AK IN KK - Nature Field Recording HK",
         "about": "⛰️AK IN KK⛰️\nNATURE FIELD RECORDING HK🇭🇰\n.\n記錄香港大自然的\n「聲音地圖｜聲音存庫」\n\"Sound map｜Sound library\"\nof the Nature HK\n.\n香港獨立自然錄音計畫\nIndependent sound project in HK\n.",
-        "categories": [
-          "Artist",
-          "Hiking Trail",
-          "Nature Preserve"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "268946656794071",
+            "name": "Hiking Trail"
+          },
+          {
+            "id": "1782121698686371",
+            "name": "Nature Preserve"
+          }
         ],
-        "email": "akinkk.sound@gmail.com"
+        "emails": [
+          "akinkk.sound@gmail.com"
+        ],
+        "website": "https://www.akinkk.com/"
       },
       "url": "https://www.facebook.com/akinkk.sound/"
     },

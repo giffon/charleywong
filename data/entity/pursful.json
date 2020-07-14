@@ -9,14 +9,26 @@
     },
     {
       "meta": {
-        "name": "Pursful",
         "id": "390136617712540",
+        "username": "AllAboutBagBag",
+        "name": "Pursful",
         "about": "Pursful\nHong Kong handmade🇭🇰, worldwide shipping🌏.\n.\nOrder: \nwtsapp 64354460 / pinkoi ⇓\nhk.pinkoi.com/store/allaboutbagbag",
-        "categories": [
-          "Bags/Luggage",
-          "Design & Fashion",
-          "Arts & Crafts Store"
-        ]
+        "category_list": [
+          {
+            "id": "2206",
+            "name": "Bags/Luggage"
+          },
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
+        ],
+        "single_line_address": "191 woosung street, yau ma tei,, Kowloon, Hong Kong",
+        "website": "https://hk.pinkoi.com/store/allaboutbagbag"
       },
       "url": "https://www.facebook.com/AllAboutBagBag/"
     },

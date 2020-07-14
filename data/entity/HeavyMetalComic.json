@@ -10,14 +10,24 @@
     },
     {
       "meta": {
-        "name": "重金屬 Heavy Metal",
         "id": "102359714475505",
-        "about": "HD下載 : https://drive.google.com/drive/u/0/folders/19pQK8xtJ0wVH8aw30g1sGUPbFYxv6F7V",
-        "categories": [
-          "Community",
-          "Art"
+        "username": "HeavyMetalComic",
+        "name": "重金屬 Heavy Metal",
+        "about": "\n",
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "email": "heavymetalcomic@gmail.com"
+        "emails": [
+          "heavymetalcomic@gmail.com"
+        ],
+        "website": "https://www.instagram.com/heavymetalcomic/"
       },
       "url": "https://www.facebook.com/HeavyMetalComic/"
     },

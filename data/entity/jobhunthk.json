@@ -10,14 +10,24 @@
     {
       "meta": {
         "id": "929016753908567",
+        "username": "jobhunthk",
+        "name": "Jobs for Hong Kong Professionals",
         "about": "提供一個免費的平台協助大家找尋理想的工作",
-        "categories": [
-          "Recruiter",
-          "Business Consultant"
+        "category_list": [
+          {
+            "id": "179672275401610",
+            "name": "Business Consultant"
+          },
+          {
+            "id": "124736910930693",
+            "name": "Recruiter"
+          }
         ],
-        "addr": "Bonham Strand, Sheung Wan",
-        "area": "Hong Kong",
-        "email": "career@topexecutive.com"
+        "emails": [
+          "career@topexecutive.com"
+        ],
+        "single_line_address": "Bonham Strand, Sheung Wan, Hong Kong",
+        "website": "http://www.topexecutive.com"
       },
       "url": "https://www.facebook.com/jobhunthk/"
     }

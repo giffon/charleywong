@@ -6,13 +6,23 @@
   "webpages": [
     {
       "meta": {
+        "id": "711515088992822",
+        "username": "monsterizdesign",
+        "name": "monsteriz",
         "about": "Textile Art. Original and handmade Cute Cloth Dolls. Made in Hong Kong\nPlease inbox message for purchase.\n原創手造布偶。結合日本布藝，香港創作。歡迎inbox message選購。",
-        "categories": [
-          "Brand",
-          "Art"
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          }
         ],
-        "email": "monsterizdesign@gmail.com",
-        "id": "711515088992822"
+        "emails": [
+          "monsterizdesign@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/monsterizdesign/"
     }

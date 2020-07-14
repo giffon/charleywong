@@ -7,11 +7,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "進步教師同盟 Progressive Teachers' Alliance",
         "id": "267000840117104",
+        "username": "progressiveteachersblog",
+        "name": "進步教師同盟 Progressive Teachers' Alliance",
         "about": "Proactive, Progressive, Professional\n求變、進步、專業。\n進步教師同盟成立於2014年，成員為一群有心於為教育界及社會出力的中小學教師、大學及大專講師。",
-        "categories": [
-          "Education"
+        "category_list": [
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ]
       },
       "url": "https://www.facebook.com/progressiveteachersblog/"

@@ -10,13 +10,23 @@
     {
       "meta": {
         "id": "342539835854832",
-        "categories": [
-          "Arts and entertainment"
+        "username": "lovetokenlt",
+        "name": "Love Token",
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "2601",
+            "name": "School"
+          }
         ],
-        "addr": "工業街23-31號美聯工業大廈",
-        "area": "Kwai Chung",
-        "email": "lt.lovetoken.lt@gmail.com",
-        "tel": "64833082"
+        "emails": [
+          "lt.lovetoken.lt@gmail.com"
+        ],
+        "single_line_address": "工業街23-31號美聯工業大廈, Kwai Chung",
+        "website": "http://ltlovetokenlt.wixsite.com/lovetoken"
       },
       "url": "https://www.facebook.com/lovetokenlt/"
     }

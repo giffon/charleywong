@@ -10,12 +10,23 @@
     {
       "meta": {
         "id": "505305279495900",
+        "username": "yautaitung",
+        "name": "游大東【鴻鵠志－影視筆記】",
         "about": "游大東／／人稱大東，又名游仔，香港電視節目導賞員。\n【 電郵聯絡 】\nyautaitung@gmail.com\n【 Telegram頻道開台 】\nhttps://t.me/yautaitung",
-        "categories": [
-          "Personal blog",
-          "TV channel"
+        "category_list": [
+          {
+            "id": "1404",
+            "name": "TV Channel"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "yautaitung@gmail.com"
+        "emails": [
+          "yautaitung@gmail.com"
+        ],
+        "website": "https://medium.com/@yautaitung"
       },
       "url": "https://www.facebook.com/yautaitung/"
     },

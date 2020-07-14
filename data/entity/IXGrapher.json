@@ -7,13 +7,23 @@
   "webpages": [
     {
       "meta": {
-        "name": "玖號紀錄 IX the Grapher",
         "id": "356966884750792",
+        "username": "IXGrapher",
+        "name": "玖號紀錄 IX the Grapher",
         "about": "婚禮・藝術．活動\n攝影．錄影・紀錄\n\n我是玖號，喜歡天然紀錄事物。\n希望以顏色和畫面為主，少修且少改。\n\n歡迎行家商談合作，謝謝。",
-        "categories": [
-          "Photographer",
-          "Camera/Photo",
-          "Event Videographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "2208",
+            "name": "Camera/Photo"
+          },
+          {
+            "id": "1719867628280173",
+            "name": "Event Videographer"
+          }
         ]
       },
       "url": "https://www.facebook.com/IXGrapher/"

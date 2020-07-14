@@ -10,12 +10,20 @@
     {
       "meta": {
         "id": "643580232416370",
+        "username": "ronnieszetophotography",
+        "name": "Ronnie Szeto Photography",
         "about": "Hong Kong and Taiwan based Documentary Wedding and Family Photographer . Member of WPJA & FPJA . Travel Worldwide .",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "ronnieszetohk@gmail.com",
-        "tel": "92001233"
+        "emails": [
+          "ronnieszetohk@gmail.com"
+        ],
+        "single_line_address": "Hong Kong, Hong Kong",
+        "website": "http://www.ronnieszeto.com"
       },
       "url": "https://www.facebook.com/ronnieszetophotography/"
     }

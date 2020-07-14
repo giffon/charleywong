@@ -7,13 +7,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "贊善里家作館 Home As Space",
         "id": "413615222360899",
-        "about": "A self-funded community art space in Chancery Lane, a live there, share sitting room and front door area with kai fong.",
-        "categories": [
-          "Community",
-          "Art"
-        ]
+        "username": "HomeAsSpace",
+        "name": "贊善里家作館 Home As Space",
+        "about": "A self-funded community art space in Chancery Lane, a live there, share sitting room and front door area with kai fong. ",
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
+        ],
+        "single_line_address": "7B chancery lane, central, Hong Kong"
       },
       "url": "https://www.facebook.com/HomeAsSpace/"
     }
