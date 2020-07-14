@@ -15,6 +15,7 @@ class Git {
             name:String,
             email:String,
         },
+        ?printCmd:Bool,
     };
 
     public function new(?config) {
@@ -22,6 +23,8 @@ class Git {
     }
 
     public function run(args:Array<String>):String {
+        if (config.printCmd == true)
+            Sys.println('git ${args.map(haxe.SysTools.quoteUnixArg).join(" ")}');
         #if js
         switch (ChildProcess.spawnSync("git", args, {
             env: {

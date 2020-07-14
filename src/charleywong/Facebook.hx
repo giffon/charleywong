@@ -98,7 +98,8 @@ class Facebook {
             user: {
                 name: userRegExp.matched(1),
                 email: userRegExp.matched(2)
-            }
+            },
+            printCmd: true,
         });
 
         function getOldestFile() {
@@ -164,6 +165,10 @@ class Facebook {
                 git.reset("origin/master", { mode: "soft" });
                 git.commit("update fb meta", { gpgSign: gpgKey });
                 git.push(repo, "HEAD:" + branch, { force: true });
+            })
+            .catchError(err -> {
+                trace(err);
+                throw err;
             });
     }
 
