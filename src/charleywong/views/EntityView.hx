@@ -1,8 +1,6 @@
 package charleywong.views;
 
-import js.node.Querystring;
 import js.html.URL;
-import js.npm.linkifyjs.react.Linkify;
 import charleywong.Utils.prettyUrl;
 import charleywong.UrlExtractors.*;
 
