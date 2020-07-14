@@ -358,6 +358,18 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/taipan.com.hk"
         },
         {
+            "name": "GoodDay Cafe",
+            "note": "",
+            "types": [
+                "貓山王榴槤冰皮月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/gooddaycafehk/photos/a.1685998661717007/2626985984284932"
+            ],
+            "charleywong": "https://charleywong.giffon.io/gooddaycafehk"
+        },
+        {
             "name": "Uncle MuSang 貓山大叔",
             "note": "",
             "types": [
