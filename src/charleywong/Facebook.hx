@@ -58,7 +58,7 @@ class Facebook {
     }
 
     #if nodejs
-    static function getPageInfo(page:String):Promise<FacebookPageInfo> {
+    static public function getPageInfo(page:String):Promise<FacebookPageInfo> {
         return fetch(Path.join([apiEndpoint, apiVersion, page + "?" + Querystring.encode({
             access_token: accessToken,
             fields: "id,username,name,about,category_list,emails,single_line_address,website"

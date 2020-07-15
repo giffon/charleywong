@@ -395,9 +395,11 @@ class ServerMain {
             case null:
                 //pass
             case handle:
-                var e = createEntityFromFb(req.body);
-                saveEntity(e, true, true);
-                res.status(200).send("done");
+                createEntityFromFb(req.body)
+                    .then(e -> {
+                        saveEntity(e, true, true);
+                        res.status(200).send("done");
+                    });
                 return;
         }
 
@@ -596,7 +598,7 @@ class ServerMain {
         return entity;
     }
 
-    static function createEntityFromFb(fbPage:charleywong.chrome.FacebookProfile):Entity {
+    static function createEntityFromFb(fbPage:charleywong.chrome.FacebookProfile):Promise<Entity> {
         var entity:Entity = switch (getEntityOfUrls([fbPage.url].concat(fbPage.websites))) {
             case null:
                 switch (entityIndex.entitiesOfFbPage[fbPage.id]) {
@@ -614,20 +616,9 @@ class ServerMain {
             case e:
                 e;
         }
-        var meta:DynamicAccess<Dynamic> = {};
-        meta["name"] = fbPage.name;
-        if (fbPage.id != null) {
-            meta["id"] = fbPage.id;
-        }
-        if (fbPage.about != null) {
-            meta["about"] = fbPage.about;
-        }
-        meta["categories"] = fbPage.categories;
-        if (fbPage.addr != null) {
-            meta["addr"] = fbPage.addr.line;
-            meta["area"] = fbPage.addr.area;
 
-            if (entity.places == null) {
+        function addPlacesIfNone() {
+            if (entity.places == null && fbPage.addr != null) {
                 var noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
                 switch(fbPage.addr.line) {
                     case null:
@@ -644,30 +635,68 @@ class ServerMain {
                 }
             }
         }
-        if (fbPage.email != null) {
-            meta["email"] = fbPage.email;
-        }
-        if (fbPage.tel != null) {
-            meta["tel"] = fbPage.tel;
-        }
-        var webpages = entity.webpages;
-        if (fbPage.websites != null) {
-            for (url in fbPage.websites)
-                addWebpageToEntity(url, entity);
-        }
 
-        var fbUrl = 'https://www.facebook.com/${fbPage.handle}/';
-        switch (webpages.find(p -> p.url == fbUrl)) {
-            case null:
-                webpages.push({
-                    url: fbUrl,
-                    meta: meta,
+        if (Facebook.accessToken != null) {
+            return Facebook.getPageInfo(fbPage.handle)
+                .then(info -> {
+                    var webpages = entity.webpages;
+                    if (fbPage.websites != null) {
+                        for (url in fbPage.websites)
+                            addWebpageToEntity(url, entity);
+                    }
+                    var fbUrl = 'https://www.facebook.com/${fbPage.handle}/';
+                    switch (webpages.find(p -> p.url == fbUrl)) {
+                        case null:
+                            webpages.push({
+                                url: fbUrl,
+                                meta: cast info,
+                            });
+                        case webpage:
+                            webpage.meta = cast info;
+                    }
+                    addPlacesIfNone();
+                    entity;
                 });
-            case webpage:
-                webpage.meta = meta;
-        }
+        } else {
+            var meta:DynamicAccess<Dynamic> = {};
+            if (fbPage.id != null) {
+                meta["id"] = fbPage.id;
+            }
+            meta["name"] = fbPage.name;
+            if (fbPage.about != null) {
+                meta["about"] = fbPage.about;
+            }
+            meta["categories"] = fbPage.categories;
+            if (fbPage.addr != null) {
+                meta["addr"] = fbPage.addr.line;
+                meta["area"] = fbPage.addr.area;
 
-        return entity;
+                addPlacesIfNone();
+            }
+            if (fbPage.email != null) {
+                meta["email"] = fbPage.email;
+            }
+            if (fbPage.tel != null) {
+                meta["tel"] = fbPage.tel;
+            }
+            var webpages = entity.webpages;
+            if (fbPage.websites != null) {
+                for (url in fbPage.websites)
+                    addWebpageToEntity(url, entity);
+            }
+
+            var fbUrl = 'https://www.facebook.com/${fbPage.handle}/';
+            switch (webpages.find(p -> p.url == fbUrl)) {
+                case null:
+                    webpages.push({
+                        url: fbUrl,
+                        meta: meta,
+                    });
+                case webpage:
+                    webpage.meta = meta;
+            }
+            return Promise.resolve(entity);
+        }
     }
 
     static function geocode(entity:Entity):Void {
