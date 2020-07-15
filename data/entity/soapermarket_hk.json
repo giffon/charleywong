@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/275723115969457/",
       "meta": {
-        "name": "Soapermarket",
         "id": "275723115969457",
+        "name": "Soapermarket",
         "about": "Soapermarket\nDon't put on your skin if you wouldn't eat it! \n「食得落肚。用得響身」的冷製手工皂及護膚品",
-        "categories": [
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "email": "soapermarket@gmail.com",
-        "tel": "91787529"
+        "emails": [
+          "soapermarket@gmail.com"
+        ],
+        "single_line_address": "852 Hong Kong",
+        "website": "www.soapermarket-hk.com"
       }
     },
     {

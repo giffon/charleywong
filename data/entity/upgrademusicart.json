@@ -8,15 +8,23 @@
     {
       "url": "https://www.facebook.com/upgrademusicart/",
       "meta": {
-        "name": "進昇音樂藝術教室 Upgrade Music & Art Studio",
         "id": "532859596776471",
+        "username": "upgrademusicart",
+        "name": "進昇音樂藝術教室 Upgrade Music & Art Studio",
         "about": "專營音樂及藝術課程\n另設有琴室可供租借",
-        "categories": [
-          "Arts & Entertainment",
-          "School"
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "2601",
+            "name": "School"
+          }
         ],
-        "email": "upgrademusicart@gmail.com",
-        "tel": "55007664"
+        "emails": [
+          "upgrademusicart@gmail.com"
+        ]
       }
     },
     {

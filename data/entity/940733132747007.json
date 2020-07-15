@@ -6,12 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "Sum's cut house",
         "id": "940733132747007",
+        "name": "Sum's cut house",
         "about": "Sum's cut house ..1間你可以有要求既單剪店，唔係快剪，係專業單剪，給你有salon剪完既感覺，多謝支持",
-        "categories": [
-          "Personal Blog"
-        ]
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
+        ],
+        "single_line_address": "屯門富健花園地舖76b, Tuen Mun",
+        "website": "http://www.sumscuthouse.com"
       },
       "url": "https://www.facebook.com/940733132747007/"
     }

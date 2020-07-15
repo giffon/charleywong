@@ -10,15 +10,17 @@
     {
       "url": "https://www.facebook.com/1467018940212084/",
       "meta": {
-        "name": "屯門寶島",
         "id": "1467018940212084",
+        "name": "屯門寶島",
         "about": "工作忙碌，忘記微笑，多多包涵",
-        "categories": [
-          "Asian Restaurant"
+        "category_list": [
+          {
+            "id": "185855984789970",
+            "name": "Asian Restaurant"
+          }
         ],
-        "addr": "屯門碼頭啓豐商場地下25號",
-        "area": "0852 Hong Kong",
-        "tel": "24573538"
+        "single_line_address": "屯門碼頭啓豐商場地下25號, 0852 Hong Kong",
+        "website": "http://www.etwo.com.hk/botao"
       }
     }
   ],

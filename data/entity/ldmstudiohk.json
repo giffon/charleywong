@@ -11,15 +11,29 @@
     {
       "url": "https://www.facebook.com/ldmstudiohk/",
       "meta": {
-        "name": "小舞門 Little Dance Moon Studio",
         "id": "676928492360587",
+        "username": "ldmstudiohk",
+        "name": "小舞門 Little Dance Moon Studio",
         "about": "「小舞門 Little Dance Moon Studio」由Siuting Dance於2015年創辦，並於2018開辦舞室。提供幼兒、兒童、青少年及成人舞蹈課程。同時設合辦課程、舞蹈編排、舞蹈表演、舞室租用，歡迎查詢。",
-        "categories": [
-          "Dancer",
-          "Dance School",
-          "Dance Studio"
+        "category_list": [
+          {
+            "id": "1614",
+            "name": "Dancer"
+          },
+          {
+            "id": "1554062478223469",
+            "name": "Dance School"
+          },
+          {
+            "id": "203916779633178",
+            "name": "Dance Studio"
+          }
         ],
-        "email": "littledancemoon@gmail.com"
+        "emails": [
+          "littledancemoon@gmail.com"
+        ],
+        "single_line_address": "屯門海榮路9號萬能閣2樓238室, 852 Hong Kong",
+        "website": "https://www.ldmstudiohk.com"
       }
     },
     {

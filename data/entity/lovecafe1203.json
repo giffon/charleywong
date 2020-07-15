@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/lovecafe1203/",
       "meta": {
-        "name": "心之食堂",
         "id": "124442544689324",
-        "about": "用心製作，一間以美味去慰藉你心靈的日式Fusion餐廳",
-        "categories": [
-          "Japanese Restaurant"
+        "username": "lovecafe1203",
+        "name": "心之食堂",
+        "about": "用心製作，一間以美味去慰藉你心靈的日式Fusion餐廳\n",
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "addr": "銅鑼灣耀華街3號百樂中心12樓",
-        "area": "Causeway Bay",
-        "tel": "23211880"
+        "single_line_address": "銅鑼灣耀華街3號百樂中心12樓, Causeway Bay"
       }
     },
     {

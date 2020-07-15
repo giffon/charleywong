@@ -10,42 +10,54 @@
     {
       "url": "https://www.facebook.com/Kohaku.gyukatsu/",
       "meta": {
-        "name": "琥酌牛カツ居酒屋",
         "id": "938089749635470",
+        "username": "Kohaku.gyukatsu",
+        "name": "琥酌牛カツ居酒屋",
         "about": "牛カツ居酒屋 , 引進日式吉列牛食法",
-        "categories": [
-          "Japanese Restaurant"
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "email": "kohaku.k001@gmail.com",
-        "tel": "26500505"
+        "emails": [
+          "kohaku.k001@gmail.com"
+        ],
+        "website": "https://www.openrice.com/zh/hongkong/r-%E7%90%A5%E9%85%8C-%E5%A4%AA%E5%AD%90-%E6%97%A5%E6%9C%AC%E8%8F%9C-%E7%83%A4%E8%82%89-r505772"
       }
     },
     {
       "url": "https://www.facebook.com/1427563734003528/",
       "meta": {
-        "name": "琥酌牛カツ居酒屋 (太子西洋菜北街159A地下, Hong Kong)",
         "id": "1427563734003528",
-        "categories": [
-          "Japanese Restaurant",
-          "Arts & Entertainment"
+        "name": "琥酌牛カツ居酒屋",
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "addr": "太子西洋菜北街159A地下",
-        "area": "Hong Kong",
-        "tel": "26500505"
+        "single_line_address": "太子西洋菜北街159A地下, Hong Kong"
       }
     },
     {
       "url": "https://www.facebook.com/gyukatsu.kohaku/",
       "meta": {
-        "name": "琥酌本格和風料理の御酒屋",
         "id": "910716705794064",
+        "username": "gyukatsu.kohaku",
+        "name": "琥酌本格和風料理の御酒屋",
         "about": "「琥酌」本格和風料理,產地直送刺身,爐端串燒,揚物,酒肴,創作會藉御膳,日本產和牛,空運日本清酒威士忌の供應場.",
-        "categories": [
-          "Japanese Restaurant"
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "addr": "尖沙咀海防道38-40號中達大廈11樓全層",
-        "area": "00852 Kowloon, Hong Kong",
-        "tel": "26283660"
+        "single_line_address": "尖沙咀海防道38-40號中達大廈11樓全層, 00852 Kowloon, Hong Kong"
       }
     }
   ],

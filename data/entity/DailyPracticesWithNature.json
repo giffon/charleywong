@@ -7,13 +7,23 @@
     {
       "url": "https://www.facebook.com/DailyPracticesWithNature/",
       "meta": {
-        "name": "習慣X自然",
         "id": "1414491718782796",
+        "username": "DailyPracticesWithNature",
+        "name": "習慣X自然",
         "about": "「習慣X自然」以城市耕種、工作坊和教育活動推廣關於食物來源、食物生產、自耕自吃和永續生活的實踐，使城市人可透過觀察、互動、學習和行動去跟自然規律相認。",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "dailypracticeswithnature@gmail.com"
+        "emails": [
+          "dailypracticeswithnature@gmail.com"
+        ]
       }
     },
     {

@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/whitewallstattoostudio/",
       "meta": {
-        "name": "White Walls Tattoo Studio",
         "id": "1504526029866575",
-        "about": "Tattoo Studio provides custom and unique tattoo work. Give us a call to have a chat over your unique tattoo ideas! \n\nTel/Whatsapp:+852 60189356",
-        "categories": [
-          "Tattoo & Piercing Shop"
+        "username": "whitewallstattoostudio",
+        "name": "White Walls Tattoo Studio",
+        "about": "Tattoo Studio provides custom and unique tattoo work. Give us a call to have a chat over your unique tattoo ideas! \n\nTel/Whatsapp:+852 60189356\n",
+        "category_list": [
+          {
+            "id": "551469561691940",
+            "name": "Tattoo & Piercing Shop"
+          }
         ],
-        "addr": "Room 7, 1/F, Wa Po Mansion, 5-7 Fuk Wa Street, Kowloon",
-        "area": "00000 Hong Kong",
-        "email": "lizgaustattoo@gmail.com",
-        "tel": "60189356"
+        "emails": [
+          "lizgaustattoo@gmail.com"
+        ],
+        "single_line_address": "Room 7, 1/F, Wa Po Mansion, 5-7 Fuk Wa Street, Kowloon, 00000 Hong Kong",
+        "website": "http://www.whitewallstattoostudio.com"
       }
     },
     {

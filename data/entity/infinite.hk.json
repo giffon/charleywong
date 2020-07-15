@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "Infinite Hair Studio",
         "id": "108673950543654",
+        "username": "infinite.hk",
+        "name": "Infinite Hair Studio",
         "about": "INFINITE\n亦即解作 無限 無窮 無盡\n打破固有 理念 想像 創作\n頭髮 不應被框架所限制在內",
-        "categories": [
-          "Art"
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "email": "infinite.hairstudiohk@gmail.com",
-        "tel": "98142760"
+        "emails": [
+          "infinite.hairstudiohk@gmail.com"
+        ],
+        "single_line_address": "大角咀洋松街, Hong Kong",
+        "website": "https://infinitehairstudiohk.wixsite.com/infinitehairstudiohk"
       },
       "url": "https://www.facebook.com/infinite.hk/"
     },

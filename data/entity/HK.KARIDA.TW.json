@@ -8,13 +8,23 @@
     {
       "url": "https://www.facebook.com/HK.KARIDA.TW/",
       "meta": {
-        "name": "Karida 香港台灣代購",
         "id": "490591017667365",
+        "username": "HK.KARIDA.TW",
+        "name": "Karida 香港台灣代購",
         "about": "港妹獨自在台奮鬥\n找你所想\n個人化的代購服務\n歡迎隨時PM\n\n*下單後不接受任何原因取消/更改訂單",
-        "categories": [
-          "Product/Service",
-          "Apparel & Clothing",
-          "Food & Beverage"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "1086422341396773",
+            "name": "Apparel & Clothing"
+          },
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          }
         ]
       }
     }

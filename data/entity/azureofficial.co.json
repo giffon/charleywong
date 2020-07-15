@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/azureofficial.co/",
       "meta": {
-        "name": "Azure Accessory",
         "id": "695446844161031",
+        "username": "azureofficial.co",
+        "name": "Azure Accessory",
         "about": "“AZURE” — 貼近生活的輕首飾品牌﻿\n『重新定義優雅』﻿\n 高質 · 簡約 · 品味﻿\n讓女生能盡情享受佩戴首飾所帶來的自信",
-        "categories": [
-          "Jewelry/Watches"
+        "category_list": [
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          }
         ],
-        "email": "hello.azureofficial@gmail.com"
+        "emails": [
+          "hello.azureofficial@gmail.com"
+        ],
+        "website": "azureofficial.co"
       }
     },
     {

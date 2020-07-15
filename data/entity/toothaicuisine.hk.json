@@ -8,15 +8,18 @@
     {
       "url": "https://www.facebook.com/toothaicuisine.hk/",
       "meta": {
-        "name": "泰地道 Too Thai Cuisine",
         "id": "1435516913330386",
-        "about": "Thai delicacy",
-        "categories": [
-          "Thai Restaurant"
+        "username": "toothaicuisine.hk",
+        "name": "泰地道 Too Thai Cuisine",
+        "about": "Thai delicacy ",
+        "category_list": [
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          }
         ],
-        "addr": "西環石塘咀屈地街20號金陵大廈地下",
-        "area": "852 Hong Kong",
-        "tel": "28175688"
+        "single_line_address": "西環石塘咀屈地街20號金陵大廈地下, 852 Hong Kong",
+        "website": "https://s.openrice.com/QrbS0ywg3W0"
       }
     }
   ],

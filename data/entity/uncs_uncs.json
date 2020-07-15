@@ -18,13 +18,20 @@
     {
       "url": "https://www.facebook.com/uncs.uncs.82/",
       "meta": {
-        "name": "新公務員工會 Union for New Civil Servants",
         "id": "104692567594100",
+        "username": "uncs.uncs.82",
+        "name": "新公務員工會 Union for New Civil Servants",
         "about": "https://drive.google.com/file/d/10fB5U3wJs-0q4xWrtzdG3gUPPi7Di01M/view?usp=drivesdk",
-        "categories": [
-          "Labor Union"
+        "category_list": [
+          {
+            "id": "192775991124365",
+            "name": "Labor Union"
+          }
         ],
-        "email": "info@ufornewcs.org"
+        "emails": [
+          "info@ufornewcs.org"
+        ],
+        "website": "https://www.ufornewcs.org"
       }
     },
     {

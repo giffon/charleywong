@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/billieeilish/",
       "meta": {
-        "name": "Billie Eilish",
         "id": "399778650221956",
+        "username": "billieeilish",
+        "name": "Billie Eilish",
         "about": "Official page of Billie Eilish",
-        "categories": [
-          "Musician/Band"
-        ]
+        "category_list": [
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
+        ],
+        "website": "http://www.billieeilish.com/"
       }
     },
     {

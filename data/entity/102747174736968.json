@@ -7,14 +7,16 @@
     {
       "url": "https://www.facebook.com/102747174736968/",
       "meta": {
-        "name": "極の丼戶",
         "id": "102747174736968",
+        "name": "極の丼戶",
         "about": "本店用最優質食材，提供天花婦羅丼，刺身丼\n用高質日本料理打進 Food Court 市場。",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "太子道西193號MOKO 食代館13號舖",
-        "area": "Kowloon, Hong Kong"
+        "single_line_address": "太子道西193號MOKO 食代館13號舖, Kowloon, Hong Kong"
       }
     }
   ],

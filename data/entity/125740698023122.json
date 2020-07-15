@@ -8,17 +8,24 @@
     {
       "url": "https://www.facebook.com/125740698023122/",
       "meta": {
-        "name": "The Beans 北豆",
         "id": "125740698023122",
+        "name": "The Beans 北豆",
         "about": "�黨鐵北角站 B4 出口, 步行約2分鐘�\n�B4出口，過對面馬路�向右手邊行\n�我哋喺巻仔入面�",
-        "categories": [
-          "Bar",
-          "Cafe"
+        "category_list": [
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
         ],
-        "addr": "北角錦屏後街33A東發大廈B座後門地下",
-        "area": "852 North Point",
-        "email": "the.beans.bar@gmail.com",
-        "tel": "63394485"
+        "emails": [
+          "the.beans.bar@gmail.com"
+        ],
+        "single_line_address": "北角錦屏後街33A東發大廈B座後門地下, 852 North Point",
+        "website": "http://www.openrice.com/restaurant/sr2.htm?shopid=77903"
       }
     }
   ],

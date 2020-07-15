@@ -7,16 +7,27 @@
     {
       "meta": {
         "id": "1200099720055863",
+        "username": "midnightwildfire.hk",
+        "name": "深燒酒",
         "about": "港式串燒酒吧 港人港味\n埋黎飲。埋黎燒\n\n灣仔駱克道397號地舖",
-        "categories": [
-          "Barbecue restaurant",
-          "Diner",
-          "Live & raw food restaurant"
+        "category_list": [
+          {
+            "id": "150534008338515",
+            "name": "Barbecue Restaurant"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "204867426208613",
+            "name": "Live & Raw Food Restaurant"
+          }
         ],
-        "addr": "銅鑼灣駱克道397號地舖",
-        "area": "Hong Kong",
-        "email": "midnightwildfire.hk@gmail.com",
-        "tel": "37052556"
+        "emails": [
+          "midnightwildfire.hk@gmail.com"
+        ],
+        "single_line_address": "銅鑼灣駱克道397號地舖, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/midnightwildfire.hk/"
     }

@@ -10,13 +10,17 @@
     {
       "url": "https://www.facebook.com/sdaccessorise/",
       "meta": {
-        "name": "SD Accessories 最新潮流科技及配件分享",
         "id": "185741482214715",
+        "username": "sdaccessorise",
+        "name": "SD Accessories 最新潮流科技及配件分享",
         "about": "為大家收集最新電子配件，以及最新科技資訊",
-        "categories": [
-          "Electronics"
+        "category_list": [
+          {
+            "id": "2213",
+            "name": "Electronics"
+          }
         ],
-        "tel": "69377080"
+        "website": "https://carousell.com/sd_accessories/"
       }
     },
     {

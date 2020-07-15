@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/livelylifehk/",
       "meta": {
-        "name": "喜居生活 Lively Life",
         "id": "182858505258284",
+        "username": "livelylifehk",
+        "name": "喜居生活 Lively Life",
         "about": "喜居生活是一個社區經濟的互動平台\nLively Life is a community economic interactive platform",
-        "categories": [
-          "Shopping & Retail",
-          "Specialty Grocery Store"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "162264673824073",
+            "name": "Specialty Grocery Store"
+          }
         ],
-        "addr": "灣仔軒尼詩道302-308號集成中心UG/F, UG 6舖",
-        "area": "Hong Kong",
-        "email": "info@livelylifehk.com",
-        "tel": "67300643"
+        "emails": [
+          "info@livelylifehk.com"
+        ],
+        "single_line_address": "灣仔軒尼詩道302-308號集成中心UG/F, UG 6舖, Hong Kong",
+        "website": "http://www.livelylifehk.com"
       }
     },
     {

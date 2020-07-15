@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/roastingfrequency/",
       "meta": {
-        "name": "Roasting Frequency",
         "id": "319484778212541",
+        "username": "roastingfrequency",
+        "name": "Roasting Frequency",
         "about": "本店提供零售及批發世界各地的精選咖啡豆，配合客人口味而提供個人化的烘焙程度。\n＊保證新鮮即烘\n歡迎查詢及訂購!",
-        "categories": [
-          "Interest"
+        "category_list": [
+          {
+            "id": "1500",
+            "name": "Interest"
+          }
         ],
-        "email": "roastingfrequency@gmail.com",
-        "tel": "55975982"
+        "emails": [
+          "roastingfrequency@gmail.com"
+        ],
+        "single_line_address": "Hong Kong"
       }
     },
     {

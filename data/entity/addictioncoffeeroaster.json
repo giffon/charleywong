@@ -6,18 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "name": "咖啡焢",
         "id": "848324325273383",
+        "username": "addictioncoffeeroaster",
+        "name": "咖啡焢",
         "about": "香港新鮮烘焙。咖啡焢的「焢」字意思有二：一為咖啡控，意指咖啡沉迷者；二為咖啡烘，指咖啡烘焙。作為一個咖啡控，希望能把自己喜歡的味道親手傳遞給大家。\n\n歡迎指教，敬請預約。",
-        "categories": [
-          "Retail Company",
-          "Coffee Shop",
-          "Food Wholesaler"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "1727285527537943",
+            "name": "Food Wholesaler"
+          }
         ],
-        "addr": "A1, 7/F, Yee Wah Industrial building, 18 San on street",
-        "area": "Tuen Mun",
-        "email": "addictioncoffeeroaster@gmail.com",
-        "tel": "96186170"
+        "emails": [
+          "addictioncoffeeroaster@gmail.com"
+        ],
+        "single_line_address": "A1, 7/F, Yee Wah Industrial building, 18 San on street, Tuen Mun",
+        "website": "https://www.addictioncoffeeroaster.com"
       },
       "url": "https://www.facebook.com/addictioncoffeeroaster/"
     },

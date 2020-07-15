@@ -7,17 +7,20 @@
     {
       "url": "https://www.facebook.com/2406859649358069/",
       "meta": {
-        "name": "TimesHair&Workshop",
         "id": "2406859649358069",
-        "about": "時代髮型工作室（敬請預約）1對1服務\n藍屍免問",
-        "categories": [
-          "Hair Salon",
-          "Barber Shop"
+        "name": "TimesHair&Workshop",
+        "about": "時代髮型工作室（只接預約）1對1服務\n「黑警 藍屍 共狗 免問」",
+        "category_list": [
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          },
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          }
         ],
-        "addr": "旺角砵蘭街136號",
-        "area": "Hong Kong",
-        "email": "iamarkiechu@gmail.com",
-        "tel": "95404540"
+        "single_line_address": "旺角砵蘭街136號, Hong Kong"
       }
     },
     {

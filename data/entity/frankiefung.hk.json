@@ -19,14 +19,20 @@
     {
       "url": "https://www.facebook.com/frankiefung.hk/",
       "meta": {
-        "name": "馮達浚 Frankie Fung",
         "id": "404923336703619",
+        "username": "frankiefung.hk",
+        "name": "馮達浚 Frankie Fung",
         "about": "馮達浚，九龍西地區組織半島連線召集人，加山傳播創辦人，香港浸會大學傳理學社會科學學士，拔萃男書院畢業。",
-        "categories": [
-          "Politician"
+        "category_list": [
+          {
+            "id": "1700",
+            "name": "Politician"
+          }
         ],
-        "email": "contact@frankiefung.hk",
-        "tel": "91390472"
+        "emails": [
+          "contact@frankiefung.hk"
+        ],
+        "website": "https://frankiefung.hk/join/"
       }
     }
   ],

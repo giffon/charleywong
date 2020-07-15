@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/compassionatecmc/",
       "meta": {
-        "name": "鎬仁中醫診所",
         "id": "106946447521207",
-        "about": "前仁濟醫院特聘黎詠顥註冊中醫師主理，提供中醫全科、針灸科、骨傷科診療，另有上門出診服務。\n\n採用台灣製造濃縮藥粉，安全可靠、信心保證。",
-        "categories": [
-          "Medical Service"
+        "username": "compassionatecmc",
+        "name": "鎬仁中醫診所",
+        "about": "前仁濟醫院特聘註冊中醫師主理，提供中醫全科、針灸科、骨傷科診療，另有上門出診服務。\n\n採用台灣製造濃縮藥粉，安全可靠、信心保證。",
+        "category_list": [
+          {
+            "id": "1154837367920704",
+            "name": "Medical Service"
+          }
         ],
-        "addr": "香港仔大道236號",
-        "area": "Hong Kong",
-        "email": "compassionatecmc@gmail.com",
-        "tel": "63011903"
+        "emails": [
+          "compassionatecmc@gmail.com"
+        ],
+        "single_line_address": "香港仔大道236號, Hong Kong"
       }
     },
     {

@@ -10,16 +10,21 @@
     },
     {
       "meta": {
-        "name": "APW CPA Limited 日進會計師事務所有限公司",
         "id": "183743174977973",
+        "username": "apwcpa",
+        "name": "APW CPA Limited 日進會計師事務所有限公司",
         "about": "APW CPA Limited  \nCertified Public Accountants (practising)\n日進會計師事務所有限公司",
-        "categories": [
-          "Accountant"
+        "category_list": [
+          {
+            "id": "139976092733827",
+            "name": "Accountant"
+          }
         ],
-        "addr": "Unit 2304, 23rd Floor, Saxon Tower, 7 Cheung Shun Street, Cheung Sha Wan, Kowloon",
-        "area": "Hong Kong",
-        "email": "enquiry@apwcpa.com",
-        "tel": "31051268"
+        "emails": [
+          "enquiry@apwcpa.com"
+        ],
+        "single_line_address": "Unit 2304, 23rd Floor, Saxon Tower, 7 Cheung Shun Street, Cheung Sha Wan, Kowloon, Hong Kong",
+        "website": "http://www.apwcpa.com"
       },
       "url": "https://www.facebook.com/apwcpa/"
     }

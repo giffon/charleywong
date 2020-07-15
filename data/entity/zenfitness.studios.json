@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/zenfitness.studios/",
       "meta": {
-        "name": "ZEN Fitness Studio",
         "id": "323088008234034",
+        "username": "zenfitness.studios",
+        "name": "ZEN Fitness Studio",
         "about": "Free your mind, body and soul. Yoga, Muay Thai, Personal Training, Crossfit, HIIT Training, Weight Training, TRX Suspension, Group and Individual classes.",
-        "categories": [
-          "Gym/Physical Fitness Center"
+        "category_list": [
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          }
         ],
-        "addr": "駿業街66號 巧運工業大廈 5樓B 室 / Room B, 5/F Howard Factory Building, No.66 Tsun Yip Street, Kwun Tong",
-        "area": "Hong Kong",
-        "email": "info@zenfitness.studio",
-        "tel": "52388066"
+        "emails": [
+          "info@zenfitness.studio"
+        ],
+        "single_line_address": "駿業街66號 巧運工業大廈 5樓B 室 / Room B, 5/F Howard Factory Building, No.66 Tsun Yip Street, Kwun Tong, Hong Kong",
+        "website": "https://www.zenfitness.studio"
       }
     },
     {

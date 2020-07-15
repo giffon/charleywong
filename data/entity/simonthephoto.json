@@ -9,12 +9,17 @@
     },
     {
       "meta": {
-        "name": "simon.the.photo - Hong Kong Contemporary Wedding Photographer",
         "id": "21259724677",
+        "username": "simonthephoto",
+        "name": "simon.the.photo - Hong Kong Contemporary Wedding Photographer",
         "about": "https://blog.simonthephoto.com -- Hong Kong contemporary Wedding Photographer",
-        "categories": [
-          "Photographer"
-        ]
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
+        ],
+        "website": "https://blog.simonthephoto.com "
       },
       "url": "https://www.facebook.com/simonthephoto/"
     },

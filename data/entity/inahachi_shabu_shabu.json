@@ -8,32 +8,45 @@
     {
       "url": "https://www.facebook.com/601222153392741/",
       "meta": {
-        "name": "Inahachi 稻八日式火鍋炸物放題",
         "id": "601222153392741",
-        "about": "全新日式火鍋店進駐大埔\n擁有全香港第一部自助炸物機,前所未有,全港獨家!首創日式火鍋配上自助炸物機!",
-        "categories": [
-          "Japanese Restaurant",
-          "Fondue Restaurant",
-          "Hot Pot Restaurant"
+        "name": "Inahachi 稻八日式火鍋炸物放題",
+        "about": "全新日式火鍋店進駐大埔\n擁有全香港第一部自助炸物機,前所未有,全港獨家!首創日式火鍋配上自助炸物機!\n",
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          },
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          },
+          {
+            "id": "167116956674095",
+            "name": "Fondue Restaurant"
+          }
         ],
-        "addr": "Shop A2, G/F Mei Sun Building , 4-20 Kau Hui Chik Street, Tai Po, NT",
-        "area": "852 106538519370093",
-        "tel": "35655031"
+        "single_line_address": "Shop A2, G/F Mei Sun Building , 4-20 Kau Hui Chik Street, Tai Po, NT, 852 106538519370093"
       }
     },
     {
       "url": "https://www.facebook.com/198635187288256/",
       "meta": {
-        "name": "Inahachi 稻八日式火鍋炸物放題 荃灣店",
         "id": "198635187288256",
-        "categories": [
-          "Nabe Restaurant",
-          "Hot Pot Restaurant"
+        "name": "Inahachi 稻八日式火鍋炸物放題 荃灣店",
+        "category_list": [
+          {
+            "id": "1762060637411536",
+            "name": "Nabe Restaurant"
+          },
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          }
         ],
-        "addr": "1/F.,Fullytech Centre, 18 Tak Hoi Street., Tsuen Wan, N.T",
-        "area": "852 Hong Kong",
-        "email": "inahachitw@gmail.com",
-        "tel": "21523988"
+        "emails": [
+          "inahachitw@gmail.com"
+        ],
+        "single_line_address": "1/F.,Fullytech Centre, 18 Tak Hoi Street., Tsuen Wan, N.T, 852 Hong Kong"
       }
     },
     {

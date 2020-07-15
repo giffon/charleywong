@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/unisports/",
       "meta": {
-        "name": "Unisports 球衣專門店",
         "id": "58675603089",
+        "username": "unisports",
+        "name": "Unisports 球衣專門店",
         "about": "地址: 旺角通菜街1A威達商業大廈17樓01A室\n電話號碼\t3791-2850 / 6394-1572\n手提/whatsapp: 98446338",
-        "categories": [
-          "Outdoor Equipment Store"
+        "category_list": [
+          {
+            "id": "165823830131654",
+            "name": "Sporting Goods Store"
+          }
         ],
-        "addr": "通菜街1L威達商業大廈17樓1701A",
-        "area": "99999 Hong Kong",
-        "email": "unisportshk@gmail.com",
-        "tel": "37912850"
+        "emails": [
+          "unisportshk@gmail.com"
+        ],
+        "single_line_address": "通菜街1L威達商業大廈17樓1701A, 99999 Hong Kong"
       }
     },
     {

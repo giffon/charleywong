@@ -11,16 +11,22 @@
     {
       "url": "https://www.facebook.com/GreenwoodsRawCafe/",
       "meta": {
-        "name": "綠野林．生-活-素餐廳 Greenwoods Raw Cafe",
         "id": "1437789336448207",
-        "about": "the first 100% Living & Raw Vegan Restaurant",
-        "categories": [
-          "Vegetarian/Vegan Restaurant",
-          "Health Food Store"
+        "username": "GreenwoodsRawCafe",
+        "name": "綠野林．生-活-素餐廳 Greenwoods Raw Cafe",
+        "about": "Greenwoods is the first 100% raw vegan cafe in Hong Kong. After 6 years of serving the community, it is temporarily closed but the Health & Organic Food Shop is still open (Mon to Sat: 12pm to 7pm. Closed on Sun & Public Holiday).  ",
+        "category_list": [
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          },
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          }
         ],
-        "addr": "13/F, 2 Carnarvon Road, Tsim Sha Tsui, Kowloon, Hong Kong",
-        "area": "Hong Kong",
-        "tel": "34282416"
+        "single_line_address": "13/F, 2 Carnarvon Road, Tsim Sha Tsui, Kowloon, Hong Kong, Hong Kong",
+        "website": "https://www.greenwoodshk.org/rawcafe"
       }
     },
     {

@@ -7,17 +7,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "十下火鍋Suppa",
         "id": "1088720601225838",
+        "username": "SUPPAHK",
+        "name": "十下火鍋Suppa",
         "about": "十下，一個圍爐而吃打邊爐的地方。八十年代的舊屋邨裝潢，讓人重温舊回憶，重拾昔日回家吃飯的感覺。圍於圓圓一桌，聚在一起十下十下，再次把人與人間的人情味凝聚起來。",
-        "categories": [
-          "Hot Pot Restaurant",
-          "Fondue Restaurant"
+        "category_list": [
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          },
+          {
+            "id": "167116956674095",
+            "name": "Fondue Restaurant"
+          }
         ],
-        "addr": "銅鑼灣登龍街28號永光中心2/F",
-        "area": "Causeway Bay",
-        "email": "suppahotpot@gmail.com",
-        "tel": "35204111"
+        "emails": [
+          "suppahotpot@gmail.com"
+        ],
+        "single_line_address": "銅鑼灣登龍街28號永光中心2/F, 85235204111 Causeway Bay"
       },
       "url": "https://www.facebook.com/SUPPAHK/"
     },

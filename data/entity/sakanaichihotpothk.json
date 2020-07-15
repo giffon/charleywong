@@ -7,16 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "漁一海鮮火鍋料理 Sakanaichi Hotpot",
         "id": "656111764805175",
+        "username": "sakanaichihotpothk",
+        "name": "漁一海鮮火鍋料理 Sakanaichi Hotpot",
         "about": "新鮮好味",
-        "categories": [
-          "Hot Pot Restaurant"
+        "category_list": [
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          }
         ],
-        "addr": "Shop 1, 2/F, Multifield Plaza, 3-7A Prat Avenue, Tsim Sha Tsui",
-        "area": "852 Hong Kong",
-        "email": "sakanaichihotpot@gmail.com",
-        "tel": "61343288"
+        "emails": [
+          "sakanaichihotpot@gmail.com"
+        ],
+        "single_line_address": "Shop 1, 2/F, Multifield Plaza, 3-7A Prat Avenue, Tsim Sha Tsui, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/sakanaichihotpothk/"
     }

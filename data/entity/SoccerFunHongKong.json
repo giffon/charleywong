@@ -14,14 +14,21 @@
     {
       "url": "https://www.facebook.com/SoccerFunHongKong/",
       "meta": {
-        "name": "Soccer Fun Hong Kong",
         "id": "311038832300227",
+        "username": "SoccerFunHongKong",
+        "name": "Soccer Fun Hong Kong",
         "about": "Soccer Fun 係一個綜合嘅資訊頻道，由職業聯賽以至產品介紹。大家可以透過本專頁訂購海外及本地足球用品。此外，本站亦舉辦足球活動(如龍門訓練班)。",
-        "categories": [
-          "Outdoor & Sporting Goods Company"
+        "category_list": [
+          {
+            "id": "2231",
+            "name": "Outdoor & Sporting Goods Company"
+          }
         ],
-        "email": "soccerfunhk@gmail.com",
-        "tel": "51288455"
+        "emails": [
+          "soccerfunhk@gmail.com"
+        ],
+        "single_line_address": "00000 Hong Kong",
+        "website": "https://www.instagram.com/soccerfunhk"
       }
     }
   ],

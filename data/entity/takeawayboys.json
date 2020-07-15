@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/takeawayboys/",
       "meta": {
-        "name": "Takeawayboysss",
         "id": "109141194089067",
-        "about": "你好 我係外賣仔 茄蛋飯 $25.5 多謝\n我無嗌啊 我都未嗌！仲未嗌？\n咁就拿拿聲 搵外賣仔Take away boysss\n觀塘區 首個線上外賣平台上線啦",
-        "categories": [
-          "Local Service"
+        "username": "takeawayboys",
+        "name": "Takeawayboysss",
+        "about": "你好 我係外賣仔 茄蛋飯 $25.5 多謝\n我無嗌啊 我都未嗌！仲未嗌？\n咁就拿拿聲 搵外賣仔Take away boysss\n觀塘區 首個線上外賣平台上線啦\n",
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "addr": "70 hung to road",
-        "area": "852",
-        "email": "takeawayboysss@gmail.com",
-        "tel": "54255204"
+        "emails": [
+          "takeawayboysss@gmail.com"
+        ],
+        "single_line_address": "70 hung to road, 852",
+        "website": "https://t.me/taboys"
       }
     },
     {

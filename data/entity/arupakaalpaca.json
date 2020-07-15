@@ -14,14 +14,25 @@
     {
       "url": "https://www.facebook.com/arupakaalpaca/",
       "meta": {
-        "name": "羊駝醬太郎",
         "id": "1722203091390905",
+        "username": "arupakaalpaca",
+        "name": "羊駝醬太郎",
         "about": "セカオワ☆嵐☆NEWS☆菅田将暉（HK）\n平面及產品設計師，設計/繪圖/手工長期接單，歡迎私訊詢問詳情",
-        "categories": [
-          "Art",
-          "Graphic Designer",
-          "Arts & Entertainment"
-        ]
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "162183907165552",
+            "name": "Graphic Designer"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
+        ],
+        "website": "http://www.instagram.com/arupakaalpaca"
       }
     }
   ],

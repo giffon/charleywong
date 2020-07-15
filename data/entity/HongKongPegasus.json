@@ -10,17 +10,28 @@
     },
     {
       "meta": {
-        "name": "飛馬電腦 Pegasus",
         "id": "314622325626313",
-        "categories": [
-          "Computer Company",
-          "Computer Store",
-          "Computers (Brand)"
+        "username": "HongKongPegasus",
+        "name": "飛馬電腦 Pegasus",
+        "category_list": [
+          {
+            "id": "2255",
+            "name": "Computer Company"
+          },
+          {
+            "id": "199512783398620",
+            "name": "Computer Store"
+          },
+          {
+            "id": "2210",
+            "name": "Computers (Brand)"
+          }
         ],
-        "addr": "荔枝角青山道505號通源工業大廈9樓A室",
-        "area": "Lai Chi Kok",
-        "email": "info@pegasus.hk",
-        "tel": "67924078"
+        "emails": [
+          "info@pegasus.hk"
+        ],
+        "single_line_address": "荔枝角青山道505號通源工業大廈9樓A室, Lai Chi Kok",
+        "website": "https://shop.pegasus.hk"
       },
       "url": "https://www.facebook.com/HongKongPegasus/"
     },

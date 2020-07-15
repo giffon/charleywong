@@ -15,16 +15,20 @@
     {
       "url": "https://www.facebook.com/MuziDessert/",
       "meta": {
-        "name": "木子甜品",
         "id": "144588092298135",
-        "about": "｜招牌手工芋圓| 正宗仙草 | 香滑奶凍 | 冰涼沙冰 | 各式燉品｜心太軟 |\n.\n\n西營盤店：香港西環西營盤皇后大道西414號地下6號舖\n\n荃灣店: 荃灣荃華街16號荃薈商埸地下G31-33號鋪",
-        "categories": [
-          "Dessert Shop"
+        "username": "MuziDessert",
+        "name": "木子甜品",
+        "about": "\n｜招牌手工芋圓| 正宗仙草 | 香滑奶凍 | 冰涼沙冰 | 各式燉品｜心太軟 |\n.\n\n西營盤店：香港西環西營盤皇后大道西414號地下6號舖\n\n荃灣店: 荃灣荃華街16號荃薈商埸地下G31-33號鋪",
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong",
-        "email": "muzidesserthk@gmail.com",
-        "tel": "91389815"
+        "emails": [
+          "muzidesserthk@gmail.com"
+        ],
+        "single_line_address": "Hong Kong"
       }
     }
   ],

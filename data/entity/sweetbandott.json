@@ -15,16 +15,21 @@
     {
       "url": "https://www.facebook.com/sweetbandott/",
       "meta": {
-        "name": "幸福·駅",
         "id": "1907050369415475",
+        "username": "sweetbandott",
+        "name": "幸福·駅",
         "about": "【幸福·駅】飯糰·便當專門店\n即場人手製作新鮮日式飯糰及便當，每一啖都充滿幸福感�",
-        "categories": [
-          "Caterer"
+        "category_list": [
+          {
+            "id": "139433292785470",
+            "name": "Caterer"
+          }
         ],
-        "addr": "Shop 5A, G/F, Lei Shun Court, 118 Leighton Road, Causeway Bay",
-        "area": "Causeway Bay",
-        "email": "sweetbandott@gmail.com",
-        "tel": "22345114"
+        "emails": [
+          "sweetbandott@gmail.com"
+        ],
+        "single_line_address": "Shop 5A, G/F, Lei Shun Court, 118 Leighton Road, Causeway Bay, Causeway Bay",
+        "website": "https://www.instagram.com/sweet_bandott/"
       }
     }
   ],

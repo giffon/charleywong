@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/haruharulifehk/",
       "meta": {
-        "name": "Haruharu Life HK",
         "id": "439887420187892",
+        "username": "haruharulifehk",
+        "name": "Haruharu Life HK",
         "about": "店舖有逾二千尺空間，利用不同的擺設營造出一個個小空間。讓這個空間無論是平日或假日，都可以讓客人放慢腳步，也是三五知己聚頭的好地方",
-        "categories": [
-          "Party Entertainment Service",
-          "Food & Beverage",
-          "Photography Videography"
+        "category_list": [
+          {
+            "id": "189334414420898",
+            "name": "Party Entertainment Service"
+          },
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          },
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          }
         ],
-        "addr": "Kwai Cheong Center, 50 Kwai Cheong Road,Kwai Chung,N.T",
-        "area": "Hong Kong",
-        "email": "shibaharuharu.hk@gmail.com",
-        "tel": "67303755"
+        "emails": [
+          "shibaharuharu.hk@gmail.com"
+        ],
+        "single_line_address": "Kwai Cheong Center, 50 Kwai Cheong Road,Kwai Chung,N.T, Hong Kong",
+        "website": "https://www.haruharu.life/"
       }
     },
     {

@@ -7,14 +7,19 @@
     {
       "url": "https://www.facebook.com/110378903970363/",
       "meta": {
-        "name": "元天水圍區外賣仔",
         "id": "110378903970363",
+        "name": "元天水圍區外賣仔",
         "about": "現試行元朗餐店外賣服務，其中包括有以下送遞地位置有元朗，八鄉，錦田。有意whatapp&tg查詢 61142201",
-        "categories": [
-          "Local Business",
-          "Personal Blog"
-        ],
-        "tel": "61142201"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
+        ]
       }
     }
   ],

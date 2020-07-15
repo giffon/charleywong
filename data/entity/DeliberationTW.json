@@ -18,14 +18,20 @@
     {
       "url": "https://www.facebook.com/DeliberationTW/",
       "meta": {
-        "name": "荃民議政",
         "id": "444619249421727",
+        "username": "DeliberationTW",
+        "name": "荃民議政",
         "about": "我們是一群滿腔熱誠、關心荃灣發展的居民創立「荃民議政」。我們來自多個專業界別，致力推動社區均衡發展，監察政府施政，為本區積存已久的問題出謀獻策。",
-        "categories": [
-          "Community Organization"
+        "category_list": [
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          }
         ],
-        "email": "enquiry@deliberationtw.org",
-        "tel": "94338040"
+        "emails": [
+          "enquiry@deliberationtw.org"
+        ],
+        "website": "http://www.deliberationtw.org"
       }
     }
   ],

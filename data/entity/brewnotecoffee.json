@@ -9,15 +9,24 @@
     },
     {
       "meta": {
-        "name": "Brew Note Coffee Roaster",
         "id": "662180230527735",
-        "about": "A Local Micro Roaster offer seasonal direct trade coffee beans, fresh roasting and different brewing methods to present better sensory experience",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant"
+        "username": "brewnotecoffee",
+        "name": "Brew Note Coffee Roaster",
+        "about": "A Local Micro Roaster offer seasonal direct trade coffee beans, fresh roasting and different brewing methods to present better sensory experience ",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "email": "brewnotecoffeeroaster@gmail.com",
-        "tel": "25629990"
+        "emails": [
+          "brewnotecoffeeroaster@gmail.com"
+        ],
+        "website": "http://www.brewnotecoffee.com"
       },
       "url": "https://www.facebook.com/brewnotecoffee/"
     },

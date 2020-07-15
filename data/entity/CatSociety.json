@@ -6,16 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "香港群貓會",
         "id": "27387977553",
+        "username": "CatSociety",
+        "name": "香港群貓會",
         "about": "香港群貓會於2007年7月成立，並於2007年10月1日起成為香港特別行政區認可之註冊慈善團體。  官方網站: http://www.catsocietyhk.org/",
-        "categories": [
-          "Animal Shelter",
-          "Charity Organization"
+        "category_list": [
+          {
+            "id": "170810676298376",
+            "name": "Animal Shelter"
+          },
+          {
+            "id": "226326230802065",
+            "name": "Charity Organization"
+          }
         ],
-        "addr": "香港土瓜灣浙江街26號地下",
-        "area": "Kowloon, Hong Kong",
-        "email": "info@catsocietyhk.org"
+        "emails": [
+          "info@catsocietyhk.org"
+        ],
+        "single_line_address": "香港土瓜灣浙江街26號地下, Kowloon, Hong Kong",
+        "website": "http://www.catsocietyhk.org"
       },
       "url": "https://www.facebook.com/CatSociety/"
     },

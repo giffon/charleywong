@@ -7,12 +7,19 @@
     {
       "url": "https://www.facebook.com/callisupply/",
       "meta": {
-        "name": "抒發",
         "id": "305183966359556",
-        "categories": [
-          "Artist"
+        "username": "callisupply",
+        "name": "抒發",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "info@callisupply.hk"
+        "emails": [
+          "info@callisupply.hk"
+        ],
+        "website": "Callisupply.hk"
       }
     },
     {

@@ -7,16 +7,24 @@
     {
       "url": "https://www.facebook.com/ShumShumDesserts/",
       "meta": {
-        "name": "深深甜品",
         "id": "491268314952919",
+        "username": "ShumShumDesserts",
+        "name": "深深甜品",
         "about": "Restaurant",
-        "categories": [
-          "Restaurant",
-          "Dessert Shop"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "深水埗桂林街46C恒安樓地下",
-        "area": "Hong Kong",
-        "email": "ssdesserts18@gmail.com"
+        "emails": [
+          "ssdesserts18@gmail.com"
+        ],
+        "single_line_address": "深水埗桂林街46C恒安樓地下, Hong Kong"
       }
     },
     {

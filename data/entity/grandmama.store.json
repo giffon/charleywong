@@ -10,17 +10,25 @@
     },
     {
       "meta": {
-        "name": "婆婆雜貨店 Grandmama Store",
         "id": "397631327272964",
+        "username": "grandmama.store",
+        "name": "婆婆雜貨店 Grandmama Store",
         "about": "婆婆雜貨店 \nC o l o r U p Y o u r L i f e �\n\n-- --- - --- -- — -- - --- — — -- -\n✿開放時間:\n星期一至五 13:00-19:00\nOpen hours:\nMON - SUN 13:00 -19:00\n.",
-        "categories": [
-          "Community",
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "觀塘駿業里8號世貿大廈1105室",
-        "area": "852 Kowloon, Hong Kong",
-        "email": "grandmama.store@gmail.com",
-        "tel": "92616654"
+        "emails": [
+          "grandmama.store@gmail.com"
+        ],
+        "single_line_address": "觀塘駿業里8號世貿大廈1105室, 852 Kowloon, Hong Kong",
+        "website": "http://www.grandmamastore.com"
       },
       "url": "https://www.facebook.com/grandmama.store/"
     },

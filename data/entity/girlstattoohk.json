@@ -14,15 +14,20 @@
     {
       "url": "https://www.facebook.com/girlstattoohk/",
       "meta": {
-        "name": "Girl's Tattoo",
         "id": "1769780306676151",
-        "categories": [
-          "Tattoo & Piercing Shop",
-          "Art Gallery"
+        "username": "girlstattoohk",
+        "name": "Girl's Tattoo",
+        "category_list": [
+          {
+            "id": "551469561691940",
+            "name": "Tattoo & Piercing Shop"
+          },
+          {
+            "id": "197384240287028",
+            "name": "Art Gallery"
+          }
         ],
-        "addr": "2F, No. 2R Sai Yeung Choi Street South, Mongkok",
-        "area": "Kowloon, Hong Kong",
-        "tel": "69996444"
+        "single_line_address": "2F, No. 2R Sai Yeung Choi Street South, Mongkok, Kowloon, Hong Kong"
       },
       "hidden": true
     }

@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/hongkongtattoo/",
       "meta": {
-        "name": "Hello Tattoo HK",
         "id": "496154863880273",
+        "username": "hongkongtattoo",
+        "name": "Hello Tattoo HK",
         "about": "Address: 九龍觀塘道460-470號官塘工業中心2期11樓S室(港鐵觀塘站D4出口)\nTel: 6644-8114 (Whatsapp)",
-        "categories": [
-          "Tattoo & Piercing Shop"
+        "category_list": [
+          {
+            "id": "551469561691940",
+            "name": "Tattoo & Piercing Shop"
+          }
         ],
-        "addr": "九龍觀塘道460-470號官塘工業中心2期11樓S室",
-        "area": "Hong Kong",
-        "email": "hk-tattoo@hotmail.com",
-        "tel": "66448114"
+        "emails": [
+          "hk-tattoo@hotmail.com"
+        ],
+        "single_line_address": "九龍觀塘道460-470號官塘工業中心2期11樓S室, Hong Kong",
+        "website": "http://www.hongkong-tattoo.com"
       }
     },
     {

@@ -7,14 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "香港城市大學學生會編輯委員會 Editorial Board, CityU SU",
         "id": "387603714763860",
-        "about": "香港城市大學學生會編輯委員會為負責學生會刊物出版事宜之最高行政機構，直接向全體會員負責。",
-        "categories": [
-          "News & Media Website"
+        "username": "cityusuedb",
+        "name": "香港城市大學學生會編輯委員會 Editorial Board, CityU SU",
+        "about": "香港城市大學學生會編輯委員會為負責學生會刊物出版事宜之最高行政機構，直接向全體會員負責。\n",
+        "category_list": [
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
         ],
-        "email": "su-eb-c@my.cityu.edu.hk",
-        "tel": "34425565"
+        "emails": [
+          "su-eb-c@my.cityu.edu.hk"
+        ],
+        "single_line_address": "九龍達之路83號香港城市大學, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/cityusuedb/"
     },

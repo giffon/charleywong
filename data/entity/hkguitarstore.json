@@ -11,18 +11,29 @@
     {
       "url": "https://www.facebook.com/hkguitarstore/",
       "meta": {
-        "name": "HK Guitar Store 結他士多",
         "id": "167336847005252",
+        "username": "hkguitarstore",
+        "name": "HK Guitar Store 結他士多",
         "about": "惟一真正全手工木結他工作室，提供Setup、維修、開聲、教學、演出、安裝pickup、包場活動、結他諮詢等等。\n\n🔻Experience Handcrafted Guitar: \nBourgeois, Collings, Santa Cruz, Bourgeois, Huss&Dalton etc",
-        "categories": [
-          "Musical Instrument Store",
-          "Music Lessons & Instruction School",
-          "Art"
+        "category_list": [
+          {
+            "id": "139750396088115",
+            "name": "Musical Instrument Store"
+          },
+          {
+            "id": "186983191324114",
+            "name": "Music Lessons & Instruction School"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "addr": "Room B4, 4/F, Blk B, Hong Kong Industrial Centre",
-        "area": "852 Lai Chi Kok",
-        "email": "hkguitarstore@gmail.com",
-        "tel": "91309080"
+        "emails": [
+          "hkguitarstore@gmail.com"
+        ],
+        "single_line_address": "Room B4, 4/F, Blk B, Hong Kong Industrial Centre, 852 Lai Chi Kok",
+        "website": "https://hkguitarstore.com"
       }
     },
     {

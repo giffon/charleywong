@@ -10,14 +10,28 @@
     {
       "meta": {
         "id": "284333268305053",
+        "username": "CadenzaStudio",
+        "name": "Cadenza Studio",
         "about": "For price list & enquiry please email to <info@cadenzastudio.com.hk> or Facebook message us",
-        "categories": [
-          "Photographer",
-          "Wedding planning service",
-          "Camera/photo"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "2208",
+            "name": "Camera/Photo"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "email": "info@cadenzastudio.com.hk",
-        "tel": "97420550"
+        "emails": [
+          "info@cadenzastudio.com.hk"
+        ],
+        "single_line_address": "Room 12, 6/F, Shui Hong Industrial Building, Nos. 543/549 Castle Peak Road, Kwai Chung",
+        "website": "http://www.cadenzastudio.com.hk"
       },
       "url": "https://www.facebook.com/CadenzaStudio/"
     },

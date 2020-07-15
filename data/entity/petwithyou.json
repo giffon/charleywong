@@ -9,14 +9,20 @@
     },
     {
       "meta": {
-        "name": "連寵拯救隊",
         "id": "100126051459846",
+        "username": "petwithyou",
+        "name": "連寵拯救隊",
         "about": "有意領養浪浪們嘅奴才們歡迎隨時PM我哋",
-        "categories": [
-          "Animal Shelter"
+        "category_list": [
+          {
+            "id": "170810676298376",
+            "name": "Animal Shelter"
+          }
         ],
-        "email": "lin.pet.helper@gmail.com",
-        "tel": "70728707"
+        "emails": [
+          "lin.pet.helper@gmail.com"
+        ],
+        "website": "https://t.me/petwithyou"
       },
       "url": "https://www.facebook.com/petwithyou/"
     },

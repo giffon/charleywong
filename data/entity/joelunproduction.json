@@ -7,18 +7,28 @@
     {
       "url": "https://www.facebook.com/joelunproduction/",
       "meta": {
-        "name": "JoeLun Production",
         "id": "160441914003393",
+        "username": "joelunproduction",
+        "name": "JoeLun Production",
         "about": "作品靚唔靚好見仁見智，但至少我會為妳盡心去做，所以好多客人光顧完我地之後都會成為左朋友。我地不定時會推出優惠，一個人生嘅任何階段都總會有一個攝影計劃適合妳，唔好錯過",
-        "categories": [
-          "Producer",
-          "Photographer",
-          "Makeup Artist"
+        "category_list": [
+          {
+            "id": "1108",
+            "name": "Producer"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "addr": "Flat 10, 14/F, Block B, Wah Tat Industrial Centre, No 8 Wah Sing Street, Kwai Chung, New Territories",
-        "area": "Hong Kong",
-        "email": "joelun_production@ymail.com",
-        "tel": "82091991"
+        "emails": [
+          "joelun_production@ymail.com"
+        ],
+        "single_line_address": "Flat 10, 14/F, Block B, Wah Tat Industrial Centre, No 8 Wah Sing Street, Kwai Chung, New Territories, Hong Kong"
       }
     }
   ],

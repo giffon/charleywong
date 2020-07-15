@@ -7,15 +7,20 @@
     {
       "url": "https://www.facebook.com/2007769929535820/",
       "meta": {
-        "name": "Destiny.HK",
         "id": "2007769929535820",
+        "name": "Destiny.HK",
         "about": "提供新款至抵潮流飾品 增加每位個人風格 提高獨立氣質",
-        "categories": [
-          "Shopping & Retail",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "深水埗西九龍中心蘋果商場5樓5K 249-260 E4-F4",
-        "area": "000000 Hong Kong"
+        "single_line_address": "深水埗西九龍中心蘋果商場5樓5K 249-260 E4-F4, 000000 Hong Kong"
       }
     },
     {

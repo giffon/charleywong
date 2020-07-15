@@ -6,15 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "亞玉豆腐花",
         "id": "892744317434687",
+        "username": "ahyuktofupudding",
+        "name": "亞玉豆腐花",
         "about": "黃/黑豆豆腐花Bean curd(soya bean or black bean),黃/黑豆豆漿Soya Mike(soya bean or black bean),芝麻糊Sesame paste ,客家糍粑Mochi,砵仔糕Pudding(with red bean or without red bean)",
-        "categories": [
-          "Dessert Shop"
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "元朗阜財街2號宏豐大廈地下12號舖",
-        "area": "852 Yuen Long",
-        "tel": "26649622"
+        "single_line_address": "元朗阜財街2號宏豐大廈地下12號舖, 852 Yuen Long"
       },
       "url": "https://www.facebook.com/ahyuktofupudding/"
     },

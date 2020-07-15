@@ -15,12 +15,20 @@
     {
       "url": "https://www.facebook.com/RunningSeasonWong/",
       "meta": {
-        "name": "Running Season 黃合秀",
         "id": "150091908929769",
-        "categories": [
-          "Journalist",
-          "Sports"
-        ]
+        "username": "RunningSeasonWong",
+        "name": "Running Season 黃合秀",
+        "category_list": [
+          {
+            "id": "1604",
+            "name": "Journalist"
+          },
+          {
+            "id": "964585346994407",
+            "name": "Sports"
+          }
+        ],
+        "website": "https://www.instagram.com/season/"
       }
     }
   ],

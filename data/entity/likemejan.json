@@ -7,14 +7,20 @@
     {
       "url": "https://www.facebook.com/likemejan/",
       "meta": {
-        "name": "Jan Tam Professional Face Design 半永久化妝服務 - 飄眉/長效霧眉/手工眼線/飄唇/髮際線/化妝/修眉。",
         "id": "482904988567871",
+        "username": "likemejan",
+        "name": "Jan Tam Professional Face Design 半永久化妝服務 - 飄眉/長效霧眉/手工眼線/飄唇/髮際線/化妝/修眉。",
         "about": "本人從事化妝美容及半永久化妝超過15年，修畢於香港、台灣及韓國三地，更加了解每一個面孔需要到的~ 歡迎大家參觀及查詢\n\nPhone/Whatsapp : 6611 1251",
-        "categories": [
-          "Community",
-          "Local Service"
-        ],
-        "tel": "66111251"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
+        ]
       }
     },
     {

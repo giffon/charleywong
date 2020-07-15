@@ -7,11 +7,15 @@
     {
       "url": "https://www.facebook.com/haymamahk/",
       "meta": {
-        "name": "Hay Mama 童玩店",
         "id": "587672851617779",
+        "username": "haymamahk",
+        "name": "Hay Mama 童玩店",
         "about": "買賣兒童用品玩具的小店，門市在青衣",
-        "categories": [
-          "Baby Goods/Kids Goods"
+        "category_list": [
+          {
+            "id": "2232",
+            "name": "Baby Goods/Kids Goods"
+          }
         ]
       }
     }

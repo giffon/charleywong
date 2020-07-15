@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/ASK.Fitness.Recreation/",
       "meta": {
-        "name": "ASK Fitness & Recreation HK",
         "id": "1739625316143775",
+        "username": "ASK.Fitness.Recreation",
+        "name": "ASK Fitness & Recreation HK",
         "about": "A.S.K Fitness & Recreation HK\n180824-181124\n-泰拳/TRX/HIIT/其它-\n�地址 : 尖沙咀廣東道54-66號-帝國大廈14樓CD\n�尖沙咀A出口-向海港城方向-步行4～8分鐘至周大福轉右中國銀行旁\nhttp://bit.ly/asktimetable",
-        "categories": [
-          "Gym/Physical Fitness Center"
+        "category_list": [
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          }
         ],
-        "addr": "(尖沙咀)廣東道54-66號,帝國大廈14樓CD",
-        "area": "+852 Hong Kong",
-        "email": "askfitnesshk@gmail.com",
-        "tel": "66112985"
+        "emails": [
+          "askfitnesshk@gmail.com"
+        ],
+        "single_line_address": "(尖沙咀)廣東道54-66號,帝國大廈14樓CD, +852 Hong Kong"
       }
     },
     {

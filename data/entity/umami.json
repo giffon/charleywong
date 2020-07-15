@@ -8,14 +8,15 @@
     {
       "url": "https://www.facebook.com/266098160517859/",
       "meta": {
-        "name": "鮮一umami",
         "id": "266098160517859",
-        "categories": [
-          "Restaurant"
+        "name": "鮮一umami",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "新界天水圍天秀路8號天一商城2樓2003號舖",
-        "area": "Hong Kong",
-        "tel": "36630311"
+        "single_line_address": "新界天水圍天秀路8號天一商城2樓2003號舖, Hong Kong"
       }
     }
   ],

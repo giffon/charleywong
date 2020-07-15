@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "HIATUSFASHION",
         "id": "734964479876702",
+        "username": "HIATUSFASHION",
+        "name": "HIATUSFASHION",
         "about": "A brand with vintage and fashionable spirit. The core concept of the brand : \" Enter into the time crevasse\" create an unique, timeless design for men.",
-        "categories": [
-          "Clothing (Brand)",
-          "Men's Clothing Store"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "170241263022353",
+            "name": "Men's Clothing Store"
+          }
         ],
-        "addr": "尖沙咀河內道18號K11 Artmall 1 樓 40號亭",
-        "area": "Hong Kong",
-        "email": "hiatusfashion@gmail.com",
-        "tel": "60802184"
+        "emails": [
+          "hiatusfashion@gmail.com"
+        ],
+        "single_line_address": "尖沙咀河內道18號K11 Artmall 1 樓 40號亭, Hong Kong",
+        "website": "http://www.HIATUSFASHION.hk"
       },
       "url": "https://www.facebook.com/HIATUSFASHION/"
     },

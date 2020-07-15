@@ -8,18 +8,28 @@
     {
       "url": "https://www.facebook.com/drjncdental/",
       "meta": {
-        "name": "劉大志黃彩欣牙科醫務所 Dr. Jamie & Clayton Dental",
         "id": "1139204512783506",
+        "username": "drjncdental",
+        "name": "劉大志黃彩欣牙科醫務所 Dr. Jamie & Clayton Dental",
         "about": "本牙科診所位於荃灣市中心地帶，鄰近荃灣地鐵站, 由牙醫劉大志醫生及黃彩欣醫生主理，為荃灣及鄰近地區市民提供全面的牙科服務。\n本牙科診所於星期日及公眾假期設有緊急牙科服務。",
-        "categories": [
-          "Doctor",
-          "Hospital",
-          "General Dentist"
+        "category_list": [
+          {
+            "id": "188234584533149",
+            "name": "Doctor"
+          },
+          {
+            "id": "133152263416981",
+            "name": "Hospital"
+          },
+          {
+            "id": "116306972128008",
+            "name": "General Dentist"
+          }
         ],
-        "addr": "荃灣兆和街4號周氏大廈地下5B",
-        "area": "Hong Kong",
-        "email": "drjncdental@gmail.com",
-        "tel": "39564595"
+        "emails": [
+          "drjncdental@gmail.com"
+        ],
+        "single_line_address": "荃灣兆和街4號周氏大廈地下5B, Hong Kong"
       }
     }
   ],

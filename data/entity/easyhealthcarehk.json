@@ -8,14 +8,20 @@
     {
       "url": "https://www.facebook.com/easyhealthcarehk/",
       "meta": {
-        "name": "Easy Healthcare 依時養生",
         "id": "196734677597865",
+        "username": "easyhealthcarehk",
+        "name": "Easy Healthcare 依時養生",
         "about": "依時養生　為本地手工製造的香港養生茶品牌，提供養生茶包所有花茶包材料全部皆精挑細選，務求為都市人提供方便快捷的養生方法。",
-        "categories": [
-          "Health/Beauty",
-          "Medical & Health"
-        ],
-        "tel": "98812822"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "145118935550090",
+            "name": "Medical & Health"
+          }
+        ]
       }
     },
     {

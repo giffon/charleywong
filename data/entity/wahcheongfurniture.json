@@ -8,17 +8,28 @@
     {
       "url": "https://www.facebook.com/wahcheongfurniture/",
       "meta": {
-        "name": "華昌傢俬 Wah Cheong Furniture",
         "id": "272932432879990",
+        "username": "wahcheongfurniture",
+        "name": "華昌傢俬 Wah Cheong Furniture",
         "about": "華昌傢俬始於1983年，迄立西營盤已過30載。\n此群組提供有關華昌訂造傢俬的圖片,相片及影片,供大家觀賞及參考,謝謝!",
-        "categories": [
-          "Furniture Store",
-          "Furniture Repair & Upholstery Service"
+        "category_list": [
+          {
+            "id": "162845797101278",
+            "name": "Furniture Store"
+          },
+          {
+            "id": "187813774574368",
+            "name": "Furniture Repair & Upholstery Service"
+          },
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          }
         ],
-        "addr": "212 , G/F Queen Road West",
-        "area": "852 Hong Kong",
-        "email": "wahcheongfurniture1983@gmail.com",
-        "tel": "25404481"
+        "emails": [
+          "wahcheongfurniture1983@gmail.com"
+        ],
+        "single_line_address": "觀塘道342-344號\n泉源工業大厦11字樓1103室, 852 Hong Kong"
       }
     }
   ],

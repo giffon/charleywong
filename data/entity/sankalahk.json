@@ -15,18 +15,29 @@
     {
       "url": "https://www.facebook.com/sankalahk/",
       "meta": {
-        "name": "山旮旯 San Ka La",
         "id": "1121495187939667",
+        "username": "sankalahk",
+        "name": "山旮旯 San Ka La",
         "about": "山旮旯位於銅鑼灣，面對公園的休閒咖啡店，晚上是會同時提供自家釀造手工啤酒及特色水煙的多國菜餐廳，我們希望為客人在鬧市中帶來一個輕鬆的角落。",
-        "categories": [
-          "Beer Bar",
-          "Bar & Grill",
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "233804719972590",
+            "name": "Bar & Grill"
+          },
+          {
+            "id": "263451080680156",
+            "name": "Beer Bar"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "G/F, 84-86 Morrison Hill Road, Wan Chai",
-        "area": "Hong Kong",
-        "email": "sankalahongkong@gmail.com",
-        "tel": "28712269"
+        "emails": [
+          "sankalahongkong@gmail.com"
+        ],
+        "single_line_address": "G/F, 84-86 Morrison Hill Road, Wan Chai, 00000 Hong Kong",
+        "website": "https://www.instagram.com/sankalahk/"
       }
     }
   ],

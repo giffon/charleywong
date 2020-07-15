@@ -10,12 +10,18 @@
     {
       "url": "https://www.facebook.com/shopgoodwest/",
       "meta": {
-        "name": "買好西",
         "id": "1902873583056476",
+        "username": "shopgoodwest",
+        "name": "買好西",
         "about": "由我們的團隊為你搜羅各國的【好東西】，讓你生活倍添輕鬆！",
-        "categories": [
-          "Product/Service"
-        ]
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
+        ],
+        "single_line_address": "Mong Kok",
+        "website": "https://shopgoodwest.com/"
       }
     }
   ],

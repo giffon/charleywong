@@ -6,28 +6,35 @@
   "webpages": [
     {
       "meta": {
-        "name": "焱丸水產「えん まる水產」",
         "id": "302340646638341",
+        "username": "Flame.Japanese.Cuisine",
+        "name": "焱丸水產「えん まる水產」",
         "about": "磯燒~是解作日本漁師們的岩岸料理。是將海洋捕捉到的魚貝類,用最地道手法烹煮~",
-        "categories": [
-          "Japanese Restaurant",
-          "Live & Raw Food Restaurant"
-        ],
-        "tel": "26519400"
+        "category_list": [
+          {
+            "id": "204867426208613",
+            "name": "Live & Raw Food Restaurant"
+          },
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
+        ]
       },
       "url": "https://www.facebook.com/Flame.Japanese.Cuisine/"
     },
     {
       "url": "https://www.facebook.com/725333521165401/",
       "meta": {
-        "name": "焱丸水產「えん まる水產」 (尖沙咀店)",
         "id": "725333521165401",
-        "categories": [
-          "Sushi Restaurant"
+        "name": "焱丸水產「えん まる水產」",
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          }
         ],
-        "addr": "尖沙咀棉登徑23號華楓大廈地下5&6號舖",
-        "area": "Hong Kong",
-        "tel": "26548200"
+        "single_line_address": "尖沙咀棉登徑23號華楓大廈地下5&6號舖, Hong Kong"
       },
       "hidden": true
     },

@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/gethemallliving/",
       "meta": {
-        "name": "GeTheMall Living",
         "id": "661592300706566",
+        "username": "gethemallliving",
+        "name": "GeTheMall Living",
         "about": "GeTheMall 英/美/日/韓/台 代購 零售店舖 / 本地品牌招募 / 換領中心招募 / 旺角總店 / 銅鑼灣 / 觀塘 / 屯門取貨點\n\n旺角亞皆老街16號旺角商業大廈1003室",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "Unit 1003, 10/F, Mongkok Commercial Bldg",
-        "area": "00000 Hong Kong",
-        "email": "order@gtm.hk",
-        "tel": "35719437"
+        "emails": [
+          "order@gtm.hk"
+        ],
+        "single_line_address": "Unit 1003, 10/F, Mongkok Commercial Bldg, 00000 Hong Kong",
+        "website": "www.gtm.hk"
       }
     },
     {

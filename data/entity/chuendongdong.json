@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/chuendongdong/",
       "meta": {
-        "name": "串噹噹",
         "id": "642719685877425",
+        "username": "chuendongdong",
+        "name": "串噹噹",
         "about": "九龍紅磡蕪湖街78號A",
-        "categories": [
-          "Asian Restaurant"
+        "category_list": [
+          {
+            "id": "185855984789970",
+            "name": "Asian Restaurant"
+          }
         ],
-        "addr": "九龍紅磡蕪湖街78號A",
-        "area": "852 Hong Kong",
-        "tel": "60951519"
+        "single_line_address": "九龍紅磡蕪湖街78號A, 852 Hong Kong"
       }
     },
     {

@@ -8,14 +8,25 @@
     {
       "url": "https://www.facebook.com/herbertchowsiulung/",
       "meta": {
-        "name": "Herbert Chow 周小龍",
         "id": "102410358166146",
+        "username": "herbertchowsiulung",
+        "name": "Herbert Chow 周小龍",
         "about": "一個撐民主嘅生意人",
-        "categories": [
-          "Personal Blog",
-          "Politician",
-          "Entrepreneur"
-        ]
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          },
+          {
+            "id": "1700",
+            "name": "Politician"
+          },
+          {
+            "id": "1617",
+            "name": "Entrepreneur"
+          }
+        ],
+        "website": "https://zh.m.wikipedia.org/zh-hk/周小龍"
       }
     }
   ],

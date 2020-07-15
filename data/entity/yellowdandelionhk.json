@@ -10,15 +10,21 @@
     },
     {
       "meta": {
-        "name": "黃色蒲公英基金 Yellow Dandelion Foundation",
         "id": "106692497410837",
-        "about": "生命力極強的黃色蒲公英,被風吹起時,種子個別會像背上降傘的大軍輕飄遠飛,四處叢生,恰如抗爭者 「遍地開花」的不朽精神。",
-        "categories": [
-          "Nonprofit Organization"
+        "username": "yellowdandelionhk",
+        "name": "黃色蒲公英基金 Yellow Dandelion Foundation",
+        "about": "生命力極強的黃色蒲公英,被風吹起時,種子個別會像背上降傘的大軍輕飄遠飛,四處叢生,恰如抗爭者 「遍地開花」的不朽精神。\n\n",
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          }
         ],
-        "addr": "P.O. Box #102",
-        "area": "Monterey Park, California",
-        "email": "yellowdandelionhk@gmail.com"
+        "emails": [
+          "yellowdandelionhk@gmail.com"
+        ],
+        "single_line_address": "P.O. Box #102, Monterey Park, California 91754",
+        "website": "ydfhk.org"
       },
       "url": "https://www.facebook.com/yellowdandelionhk/"
     },

@@ -8,13 +8,19 @@
     {
       "url": "https://www.facebook.com/shockedmonster/",
       "meta": {
-        "name": "大驚小怪物 Shocked monster",
         "id": "534432830032955",
+        "username": "shockedmonster",
+        "name": "大驚小怪物 Shocked monster",
         "about": "等緊你領養一隻大驚小怪物。\n\nIG：shockedmonster\n#大驚小怪物",
-        "categories": [
-          "Artist"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "oliviachingyu@gmail.com"
+        "emails": [
+          "oliviachingyu@gmail.com"
+        ]
       }
     },
     {

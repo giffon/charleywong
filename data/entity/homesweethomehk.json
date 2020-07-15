@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/homesweethomehk/",
       "meta": {
-        "name": "Home Sweet Home HK Music Store - Ukulele Guitar Cajon Kalimba",
         "id": "441365305918896",
+        "username": "homesweethomehk",
+        "name": "Home Sweet Home HK Music Store - Ukulele Guitar Cajon Kalimba",
         "about": "香港經營零售/批發Ukulele/Guitarlele/Piano/Travel & Mini Acoustic Guitars/樂器配件/烏克麗麗/夏威夷小結他/小結他/結他/旅行結他/Ukulele HK/香港Ukulele/Baby Guitar/Mini Guitar/Cajon/Nuvo jSAX",
-        "categories": [
-          "Musical Instrument Store",
-          "Music Video",
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "139750396088115",
+            "name": "Musical Instrument Store"
+          },
+          {
+            "id": "1207",
+            "name": "Music Video"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "Rm 1008, Good Hope Building, 5 (south) Sai Yeung Choi Street",
-        "area": "Mong Kok",
-        "email": "homesweethomehk@ymail.com",
-        "tel": "64822669"
+        "emails": [
+          "homesweethomehk@ymail.com"
+        ],
+        "single_line_address": "旺角西洋菜南街5號好望角大廈10樓1008, Kowloon, Hong Kong",
+        "website": "https://www.homesweethomehk.com"
       }
     },
     {

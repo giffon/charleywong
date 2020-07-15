@@ -10,16 +10,29 @@
     {
       "url": "https://www.facebook.com/popeyebalancebike/",
       "meta": {
-        "name": "大力平衡車",
         "id": "515665692301387",
+        "username": "popeyebalancebike",
+        "name": "大力平衡車",
         "about": "可以隨時在網上選購平衡車用品",
-        "categories": [
-          "Bicycle Shop",
-          "Cycling Studio",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "128003127270269",
+            "name": "Bicycle Shop"
+          },
+          {
+            "id": "1039343762826317",
+            "name": "Cycling Studio"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "popeyebalancebike@gmail.com",
-        "tel": "66288200"
+        "emails": [
+          "popeyebalancebike@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://popeyebalancebike.boutir.com"
       }
     }
   ],

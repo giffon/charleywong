@@ -7,13 +7,20 @@
     {
       "url": "https://www.facebook.com/yummykinghk/",
       "meta": {
-        "name": "御品味",
         "id": "283049955943313",
+        "username": "yummykinghk",
+        "name": "御品味",
         "about": "地址\n天水圍天澤商場地下G10\n天水圍天耀商場地下LG 09  \n屯門良景商場4樓434a\n屯門富泰商場2樓206\n粉嶺花都廣場98號鋪地下\n石硤尾邨(第六期), 美禧樓地鋪G03",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "jimmycheung@yummykinghk.com"
+        "emails": [
+          "jimmycheung@yummykinghk.com"
+        ],
+        "single_line_address": "Hong Kong"
       }
     },
     {

@@ -10,13 +10,20 @@
     },
     {
       "meta": {
-        "name": "Trailwatch徑‧香港",
         "id": "645959668776951",
+        "username": "trailwatch",
+        "name": "Trailwatch徑‧香港",
         "about": "建立資訊網絡平台, 讓公眾參與和監察郊野的保育 | Encouraging the public to monitor and conserve Hong Kong's country parks",
-        "categories": [
-          "App Page"
+        "category_list": [
+          {
+            "id": "2301",
+            "name": "App Page"
+          }
         ],
-        "email": "info@trailwatch.hk"
+        "emails": [
+          "info@trailwatch.hk"
+        ],
+        "website": "http://www.trailwatch.hk/"
       },
       "url": "https://www.facebook.com/trailwatch/"
     },

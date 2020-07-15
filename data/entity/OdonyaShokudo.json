@@ -7,30 +7,38 @@
   "webpages": [
     {
       "meta": {
-        "name": "大丼家 筲箕灣店",
         "id": "295361671071317",
-        "categories": [
-          "Donburi Restaurant",
-          "Diner"
+        "name": "大丼家 筲箕灣店",
+        "category_list": [
+          {
+            "id": "619109018238267",
+            "name": "Donburi Restaurant"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "筲箕灣筲箕灣道305號譽都地下3號舖",
-        "area": "852 Hong Kong",
-        "email": "midohkgroup@gmail.com",
-        "tel": "26614333"
+        "emails": [
+          "midohkgroup@gmail.com"
+        ],
+        "single_line_address": "筲箕灣筲箕灣道305號譽都地下3號舖, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/295361671071317/"
     },
     {
       "meta": {
-        "name": "大丼家牛丼專門店 -荃灣店",
         "id": "1761998990729449",
+        "username": "TsuenWan.KOLOUR.2",
+        "name": "大丼家牛丼專門店 -荃灣店",
         "about": "荃灣街市街67-95號千色滙二期G1-2地舖\n(駕車人士可駛至：荃灣兆和街46號，直達【大丼家】)",
-        "categories": [
-          "Japanese Restaurant"
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "addr": "荃灣街市街67-95號荃灣千色滙2期G1-G2地舖，Shops G1-G2, G/F, Kolour Tsuen Wan Phase 2, No.67-95 Tsuen Wan Market Street, Tsuen Wan, N.T.",
-        "area": "852 Tsuen Wan, Hong Kong",
-        "tel": "26169611"
+        "single_line_address": "荃灣街市街67-95號荃灣千色滙2期G1-G2地舖，Shops G1-G2, G/F, Kolour Tsuen Wan Phase 2, No.67-95 Tsuen Wan Market Street, Tsuen Wan, N.T., 852 Tsuen Wan, Hong Kong"
       },
       "url": "https://www.facebook.com/TsuenWan.KOLOUR.2/"
     },

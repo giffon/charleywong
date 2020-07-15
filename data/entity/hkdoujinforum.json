@@ -7,15 +7,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "HKDoujin 香港同人",
         "id": "378946402236930",
+        "username": "hkdoujinforum",
+        "name": "HKDoujin 香港同人",
         "about": "香港同人HKDoujin 始創於2013年9月，包括論壇、專欄、網上新聞及期刊，希望能夠增加香港動漫同人活動的資訊透明度，加強彼此交流。",
-        "categories": [
-          "News & Media Website",
-          "Art",
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "email": "news@hkdoujin.com"
+        "emails": [
+          "news@hkdoujin.com"
+        ],
+        "website": "http://hkdoujin.com"
       },
       "url": "https://www.facebook.com/hkdoujinforum/"
     },

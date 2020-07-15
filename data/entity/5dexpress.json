@@ -10,16 +10,19 @@
     {
       "url": "https://www.facebook.com/108918777450113/",
       "meta": {
-        "name": "5Dexpress",
         "id": "108918777450113",
-        "about": "5Dexpress 香港速遞\n為香港人提供嶄新速遞體驗\n我們與你同行\nWe serve our customer by heart",
-        "categories": [
-          "Cargo & Freight Company"
+        "name": "5Dexpress",
+        "about": "5Dexpress 香港速遞\n為香港人提供嶄新速遞體驗\n我們與你同行\nWe serve our customer by heart\n",
+        "category_list": [
+          {
+            "id": "184395321600410",
+            "name": "Cargo & Freight Company"
+          }
         ],
-        "addr": "610 Nathan Road, Mong Kok",
-        "area": "Kowloon, Hong Kong",
-        "email": "hk5dexpress@gmail.com",
-        "tel": "53207118"
+        "emails": [
+          "hk5dexpress@gmail.com"
+        ],
+        "single_line_address": "610 Nathan Road, Mong Kok, Kowloon, Hong Kong"
       }
     },
     {

@@ -21,38 +21,60 @@
     {
       "url": "https://www.facebook.com/881903com/",
       "meta": {
-        "name": "881903.com 商業電台",
         "id": "8723358875",
-        "about": "商業電台官方網站 : www.881903.com\n免費下載手機app收聽直播：\niOS: http://goo.gl/kP5s6T\nAndriod: http://goo.gl/rB8xdn",
-        "categories": [
-          "Radio Station"
+        "username": "881903com",
+        "name": "881903.com 商業電台",
+        "about": "商業電台官方網站 :  www.881903.com\n免費下載手機app收聽直播：\niOS: http://goo.gl/kP5s6T\nAndriod: http://goo.gl/rB8xdn ",
+        "category_list": [
+          {
+            "id": "1210",
+            "name": "Radio Station"
+          }
         ],
-        "email": "cs@881903.com"
+        "emails": [
+          "cs@881903.com"
+        ],
+        "website": "http://www.881903.com"
       }
     },
     {
       "url": "https://www.facebook.com/my903/",
       "meta": {
-        "name": "my903.com 商業電台",
         "id": "8792258557",
-        "about": "叱咤903專屬網站: www.my903.com",
-        "categories": [
-          "Radio Station"
-        ]
+        "username": "my903",
+        "name": "my903.com 商業電台",
+        "about": "叱咤903專屬網站: www.my903.com\n\n",
+        "category_list": [
+          {
+            "id": "1210",
+            "name": "Radio Station"
+          }
+        ],
+        "emails": [
+          "help@my903.com"
+        ],
+        "website": "http://www.my903.com"
       }
     },
     {
       "url": "https://www.facebook.com/crhknews/",
       "meta": {
-        "name": "商台新聞",
         "id": "843131522461276",
+        "username": "crhknews",
+        "name": "商台新聞",
         "about": "商業電台節目官方專頁\n商台新聞",
-        "categories": [
-          "Broadcasting & Media Production Company",
-          "Media"
+        "category_list": [
+          {
+            "id": "169056916473899",
+            "name": "Broadcasting & Media Production Company"
+          },
+          {
+            "id": "1314020451960517",
+            "name": "Media"
+          }
         ],
-        "addr": "九龍廣播道3號商業電台",
-        "area": "Hong Kong"
+        "single_line_address": "九龍廣播道3號商業電台, Hong Kong",
+        "website": "http://www.881903.com"
       }
     },
     {

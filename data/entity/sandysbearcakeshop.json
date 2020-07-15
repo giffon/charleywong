@@ -7,28 +7,42 @@
     {
       "url": "https://www.facebook.com/sandysbearcakeshop/",
       "meta": {
-        "name": "Sandy's Bear Cake Shop-設計個性蛋糕訂製",
         "id": "1245282702272205",
+        "username": "sandysbearcakeshop",
+        "name": "Sandy's Bear Cake Shop-設計個性蛋糕訂製",
         "about": "蛋糕除了著重外觀，味道和口感都很重要，我的減糖分量蛋糕口感已經包括: 脆、軟綿、滑。 因為所有產品都是新鮮為你而製。 並非工場形式現成品。 \n自設拎牌工場位於香港元朗嘉華大廈。",
-        "categories": [
-          "Product/Service",
-          "Wholesale Bakery",
-          "Dessert Shop"
-        ],
-        "tel": "55914411"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "1013107675469307",
+            "name": "Wholesale Bakery"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
+        ]
       }
     },
     {
       "url": "https://www.facebook.com/102111747969294/",
       "meta": {
-        "name": "Sandy's Bear Cake Shop",
         "id": "102111747969294",
+        "name": "Sandy's Bear Cake Shop",
         "about": "訂製特色蛋糕",
-        "categories": [
-          "Food Delivery Service",
-          "Cupcake Shop"
-        ],
-        "tel": "55914411"
+        "category_list": [
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          },
+          {
+            "id": "325310894151007",
+            "name": "Cupcake Shop"
+          }
+        ]
       },
       "hidden": true
     },

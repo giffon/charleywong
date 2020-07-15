@@ -6,16 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "天文童畫教室",
         "id": "379536915480935",
+        "username": "astronomyclassroom",
+        "name": "天文童畫教室",
         "about": "天文、繪畫及其他興趣班",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "沙田穗禾苑商場2樓F6鋪",
-        "area": "000000 Hong Kong",
-        "email": "astrodrawclassroom@yahoo.com.hk",
-        "tel": "63824338"
+        "emails": [
+          "astrodrawclassroom@yahoo.com.hk"
+        ],
+        "single_line_address": "沙田穗禾苑商場2樓F6鋪, 000000 Hong Kong"
       },
       "url": "https://www.facebook.com/astronomyclassroom/"
     }

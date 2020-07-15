@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/hk.festyle/",
       "meta": {
-        "name": "妳想煮意 Festyle",
         "id": "1538311206493947",
+        "username": "hk.festyle",
+        "name": "妳想煮意 Festyle",
         "about": "「妳想煮意」Festyle 聘請婦女製作即煮餸盒及代買餸，讓繁忙的香港人能夠輕鬆自煮，享受住家心意。",
-        "categories": [
-          "Food Delivery Service",
-          "Community"
+        "category_list": [
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong",
-        "email": "contact@festyle.hk",
-        "tel": "38965043"
+        "emails": [
+          "contact@festyle.hk"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "www.festyle.hk"
       }
     },
     {

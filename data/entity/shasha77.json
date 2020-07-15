@@ -23,14 +23,23 @@
     {
       "url": "https://www.facebook.com/231881397571066/",
       "meta": {
-        "name": "志祺七七",
         "id": "231881397571066",
+        "name": "志祺七七",
         "about": "每週七天、每天七點、每次七分鐘\n一起聊聊各式各樣有趣的生活議題！",
-        "categories": [
-          "Video Creator",
-          "Just For Fun"
+        "category_list": [
+          {
+            "id": "1817904601806120",
+            "name": "Video Creator"
+          },
+          {
+            "id": "129417183848258",
+            "name": "Just For Fun"
+          }
         ],
-        "email": "hi77@simpleinfo.cc"
+        "emails": [
+          "hi77@simpleinfo.cc"
+        ],
+        "website": "http://bit.ly/shasha77_YouTube"
       }
     }
   ],

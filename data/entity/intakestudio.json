@@ -9,16 +9,29 @@
     },
     {
       "meta": {
-        "name": "InTake Studio",
         "id": "888649587897300",
-        "about": "Takebeasy Studio Professional Team 提供專業攝影、攝錄、化妝服務。\n\n查詢: 5940 5955 (What's App)",
-        "categories": [
-          "Photography Videography",
-          "Makeup Artist",
-          "Professional Service"
+        "username": "intakestudio",
+        "name": "InTake Studio",
+        "about": "InTake Studio 提供專業攝影、攝錄、化妝服務。\n\n查詢: 5940 5955 (What's App)",
+        "category_list": [
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          },
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "176831012360626",
+            "name": "Professional Service"
+          }
         ],
-        "email": "tbespt@gmail.com",
-        "tel": "59405955"
+        "emails": [
+          "intakestudiohk@gmail.com"
+        ],
+        "single_line_address": "青山公路, 852 香港",
+        "website": "https://intakestudiohk.wixsite.com/main"
       },
       "url": "https://www.facebook.com/intakestudio/"
     },

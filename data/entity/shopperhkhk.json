@@ -7,15 +7,24 @@
     {
       "url": "https://www.facebook.com/shopperhkhk/",
       "meta": {
-        "name": "Shopper",
         "id": "436521673589858",
+        "username": "shopperhkhk",
+        "name": "Shopper",
         "about": "#香港人的平台",
-        "categories": [
-          "Local Service",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "johnus@shopper.com.hk",
-        "tel": "64688085"
+        "emails": [
+          "johnus@shopper.com.hk"
+        ],
+        "website": "http://onelink.to/zwn5fs"
       }
     },
     {

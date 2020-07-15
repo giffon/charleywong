@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/JoyceW.MakeupGU/",
       "meta": {
-        "name": "Joyce W Makeup",
         "id": "285296501531259",
+        "username": "JoyceW.MakeupGU",
+        "name": "Joyce W Makeup",
         "about": "HK Makeup Artist",
-        "categories": [
-          "Makeup Artist",
-          "Cosmetology School",
-          "Cosmetics Store"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "374053246098336",
+            "name": "Cosmetology School"
+          },
+          {
+            "id": "144873802247220",
+            "name": "Cosmetics Store"
+          }
         ],
-        "addr": "長沙灣道760-762號香港紗廠工業大廈5期11樓C2A室 (荔枝角站B1出口)�",
-        "area": "Lai Chi Kok",
-        "email": "joyce.w.makeup@gmail.com",
-        "tel": "60916426"
+        "emails": [
+          "joyce.w.makeup@gmail.com"
+        ],
+        "single_line_address": "長沙灣道760-762號香港紗廠工業大廈5期11樓C2A室 (荔枝角站B1出口)�, Lai Chi Kok",
+        "website": "https://joycew-makeup.com/"
       }
     },
     {

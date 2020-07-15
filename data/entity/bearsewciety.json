@@ -10,14 +10,28 @@
     {
       "meta": {
         "id": "1483481581939794",
+        "username": "bearsewciety",
+        "name": "Bear Sewciety 車縫工作坊",
         "about": "歡迎預約縫紉課程，以小班教學，親手製作、設計自己喜愛又耐用的小物。店內設精美又舒適的日本及外國布料，歡迎選購。亦可訂製手作作品，送禮或自用皆可，讓更多人感受手作的溫暖。",
-        "categories": [
-          "Arts and crafts shop",
-          "Sewing and alterations",
-          "Fabric shop"
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "140784189318631",
+            "name": "Sewing & Alterations"
+          },
+          {
+            "id": "986118931495301",
+            "name": "Fabric Store"
+          }
         ],
-        "email": "bearsewciety@gmail.com",
-        "tel": "91748226"
+        "emails": [
+          "bearsewciety@gmail.com"
+        ],
+        "single_line_address": "九龍灣宏開道15號九龍灣工業中心9樓28室",
+        "website": "https://www.bearsewciety.com"
       },
       "url": "https://www.facebook.com/bearsewciety/"
     },

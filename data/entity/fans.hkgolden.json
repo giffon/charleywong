@@ -10,28 +10,45 @@
     },
     {
       "meta": {
-        "name": "高登討論區 HKGolden",
         "id": "116178588425696",
+        "username": "fans.hkgolden",
+        "name": "高登討論區 HKGolden",
         "about": "高登新聞部 http://www.facebook.com/hkgolden.news",
-        "categories": [
-          "Computers & Internet Website",
-          "News & Media Website",
-          "Gaming Video Creator"
+        "category_list": [
+          {
+            "id": "2703",
+            "name": "Computers & Internet Website"
+          },
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          },
+          {
+            "id": "1350536325044173",
+            "name": "Gaming Video Creator"
+          }
         ],
-        "email": "marketing@alivemedia.com.hk",
-        "tel": "52294470"
+        "emails": [
+          "marketing@alivemedia.com.hk"
+        ],
+        "website": "http://www.hkgolden.com"
       },
       "url": "https://www.facebook.com/fans.hkgolden/"
     },
     {
       "url": "https://www.facebook.com/hkgolden.news/",
       "meta": {
-        "name": "高登新聞部",
         "id": "309339342552999",
+        "username": "hkgolden.news",
+        "name": "高登新聞部",
         "about": "↓睇埋高登主頁，留意更多科技、影音、玩具界消息、新品介紹同評測！↓",
-        "categories": [
-          "News & Media Website"
-        ]
+        "category_list": [
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
+        ],
+        "website": "http://www.hkgolden.com"
       }
     },
     {

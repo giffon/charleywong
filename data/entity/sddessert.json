@@ -7,13 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "想甜嚐甜 Sweet Dreamer Dessert",
         "id": "188370764869801",
+        "username": "sddessert",
+        "name": "想甜嚐甜 Sweet Dreamer Dessert",
         "about": "【想甜 | 嚐甜】 \n一間令甜度 ∝ 快樂的甜品店 \n堅持甜品當飯食的原則。",
-        "categories": [
-          "Dessert Shop"
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "email": "87admin@sddessert.com"
+        "emails": [
+          "87admin@sddessert.com"
+        ]
       },
       "url": "https://www.facebook.com/sddessert/"
     },
@@ -21,45 +27,50 @@
       "url": "https://www.facebook.com/2556818427665423/",
       "hidden": true,
       "meta": {
-        "name": "想甜嚐甜 Sweet Dreamer Dessert - 黃大仙店",
         "id": "2556818427665423",
+        "name": "想甜嚐甜 Sweet Dreamer Dessert - 黃大仙店",
         "about": "No Sweet No Life.\nSweet makes you happy.",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "蒲崗村道73號",
-        "area": "Hong Kong",
-        "tel": "39564744"
+        "single_line_address": "蒲崗村道73號, Hong Kong"
       }
     },
     {
       "url": "https://www.facebook.com/538188016618127/",
       "hidden": true,
       "meta": {
-        "name": "想甜嚐甜 Sweet Dreamer Dessert - 西環店",
         "id": "538188016618127",
-        "categories": [
-          "Dessert Shop"
+        "name": "想甜嚐甜 Sweet Dreamer Dessert - 西環店",
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "士美菲路15號",
-        "area": "Hong Kong",
-        "tel": "59160698"
+        "single_line_address": "士美菲路15號, Hong Kong"
       }
     },
     {
       "url": "https://www.facebook.com/103764034549874/",
       "hidden": true,
       "meta": {
-        "name": "想甜嚐甜 Sweet Dreamer Dessert - 大角咀店",
         "id": "103764034549874",
+        "name": "想甜嚐甜 Sweet Dreamer Dessert - 大角咀店",
         "about": "甜品店",
-        "categories": [
-          "Dessert Shop"
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "嘉善街18號",
-        "area": "Hong Kong",
-        "email": "87admin@sddessert.com",
-        "tel": "68921597"
+        "emails": [
+          "87admin@sddessert.com"
+        ],
+        "single_line_address": "嘉善街18號, Hong Kong"
       }
     },
     {

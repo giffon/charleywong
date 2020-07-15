@@ -11,13 +11,20 @@
     {
       "url": "https://www.facebook.com/swallowlife/",
       "meta": {
-        "name": "燕子生命 Swallow Life",
         "id": "114575180180030",
+        "username": "swallowlife",
+        "name": "燕子生命 Swallow Life",
         "about": "燕子生命以推動黃色經濟圈發展、建設受刑抗爭者和流亡海外抗爭者的後續生活為目標。",
-        "categories": [
-          "Local Service"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "email": "info@swallowlife.org"
+        "emails": [
+          "info@swallowlife.org"
+        ],
+        "website": "swallowlife.org"
       }
     },
     {

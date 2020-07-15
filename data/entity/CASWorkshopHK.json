@@ -15,18 +15,29 @@
     {
       "url": "https://www.facebook.com/CASWorkshopHK/",
       "meta": {
-        "name": "CAS Workshop - Hong Kong",
         "id": "552114884889815",
+        "username": "CASWorkshopHK",
+        "name": "CAS Workshop - Hong Kong",
         "about": "美國AudioArtCable,Audioprism\n法國Advance Paris \n中國及香港總代理\n主要從事:OPPO  Player LPS 線性電源模組全機摩改、電腦全線性電源、平衡並聯式電源處理器及因客戶需要而開發產品",
-        "categories": [
-          "Audio Visual Equipment Store",
-          "Event Planner",
-          "Music Production Studio"
+        "category_list": [
+          {
+            "id": "198632653485894",
+            "name": "Audio Visual Equipment Store"
+          },
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          },
+          {
+            "id": "189483194405517",
+            "name": "Music Production Studio"
+          }
         ],
-        "addr": "Shop 245&276, In's Point 530-544 Nathan Road",
-        "area": "852 Yau Ma Tei",
-        "email": "sam@m2magic.com.hk",
-        "tel": "23104647"
+        "emails": [
+          "sam@m2magic.com.hk"
+        ],
+        "single_line_address": "Shop 245&276, In's Point 530-544 Nathan Road, 852 Yau Ma Tei",
+        "website": "https://www.youtube.com/channel/UCWTlbosoRQ2yh-ZO4aOTBSg"
       }
     }
   ],

@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/oneveganshop/",
       "meta": {
-        "name": "一素店 One Vegan Shop",
         "id": "378239955648170",
-        "about": "One Vegan Shop (OVS) strive to bring convenience and ease to the vegan lifestyle",
-        "categories": [
-          "Specialty Grocery Store",
-          "Health Food Store"
+        "username": "oneveganshop",
+        "name": "一素店 One Vegan Shop",
+        "about": "One Vegan Shop (OVS) strive to bring convenience and ease to the vegan lifestyle \n",
+        "category_list": [
+          {
+            "id": "162264673824073",
+            "name": "Specialty Grocery Store"
+          },
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          }
         ],
-        "addr": "Shop 1, G/F, Transport Plaza, 2-6, Fung Cheung Road元朗鳯翔路2-6號交通廣場地下1號舖",
-        "area": "Yuen Long",
-        "email": "askme@oneveganshop.com",
-        "tel": "36202212"
+        "emails": [
+          "askme@oneveganshop.com"
+        ],
+        "single_line_address": "Shop 1, G/F, Transport Plaza, 2-6, Fung Cheung Road元朗鳯翔路2-6號交通廣場地下1號舖, Yuen Long",
+        "website": "http://www.oneveganshop.com"
       }
     },
     {

@@ -14,15 +14,25 @@
     {
       "url": "https://www.facebook.com/Foodandtravelhk/",
       "meta": {
-        "name": "Food And Travel Hong Kong",
         "id": "725363220909461",
-        "about": "世界各地飲食與旅遊資訊共冶一爐。\nDeliciousness in one click\nThe journal is a hub for food news, restaurant reviews and travel stories around the world.",
-        "categories": [
-          "Local & Travel Website",
-          "News & Media Website",
-          "Media/News Company"
+        "username": "Foodandtravelhk",
+        "name": "Food And Travel Hong Kong",
+        "about": "世界各地飲食與旅遊資訊共冶一爐。\nDeliciousness in one click\nThe journal is a hub for food news, restaurant reviews and travel stories around the world. \n",
+        "category_list": [
+          {
+            "id": "2715",
+            "name": "Local & Travel Website"
+          },
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          },
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "foodandtravelhk@gmail.com"
+        "website": "https://www.instagram.com/foodandtravelhk/"
       }
     }
   ],

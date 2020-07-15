@@ -14,13 +14,21 @@
     {
       "url": "https://www.facebook.com/onccgongnedi/",
       "meta": {
-        "name": "港呢啲",
         "id": "1170684516349159",
+        "username": "onccgongnedi",
+        "name": "港呢啲",
         "about": "緊貼網絡熱話，發放正能量！",
-        "categories": [
-          "Website",
-          "TV Channel"
-        ]
+        "category_list": [
+          {
+            "id": "2202",
+            "name": "Website"
+          },
+          {
+            "id": "1404",
+            "name": "TV Channel"
+          }
+        ],
+        "website": "bit.ly/gongnedi_YT"
       }
     },
     {

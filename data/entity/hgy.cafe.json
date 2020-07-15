@@ -7,15 +7,18 @@
   "webpages": [
     {
       "meta": {
-        "name": "Healing,go yard治癒羔羊",
         "id": "310472419523358",
-        "about": "",
-        "categories": [
-          "Local Service"
+        "name": "Healing,go yard治癒羔羊",
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "addr": "長沙灣福榮街344-348昌發工廠大廈D座9樓8室（長沙灣地鐵站C1出口）",
-        "area": "Hong Kong",
-        "email": "healing.goyard@gmail.com"
+        "emails": [
+          "healing.goyard@gmail.com"
+        ],
+        "single_line_address": "長沙灣福榮街344-348昌發工廠大廈D座9樓8室（長沙灣地鐵站C1出口）, Hong Kong"
       },
       "url": "https://www.facebook.com/310472419523358/"
     },

@@ -8,15 +8,24 @@
     {
       "url": "https://www.facebook.com/WECONS.flowermarket/",
       "meta": {
-        "name": "天經地義生活館",
         "id": "338575672986198",
+        "username": "WECONS.flowermarket",
+        "name": "天經地義生活館",
         "about": "天經地義生活館以公平合作為原則，帶動社會創新、為社區服務、實踐經濟公義及創造另類經濟。\n\n歡迎各位來臨參觀及購物，只收現金。Tel : 93885560",
-        "categories": [
-          "Social Service",
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "178669642178193",
+            "name": "Social Service"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "wecons.flowermarket@gmail.com",
-        "tel": "93885560"
+        "emails": [
+          "wecons.flowermarket@gmail.com"
+        ],
+        "single_line_address": "九龍太子道西204號 Goodpoint 1樓, HONG KONG"
       }
     },
     {

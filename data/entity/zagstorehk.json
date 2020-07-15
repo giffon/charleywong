@@ -10,14 +10,24 @@
     {
       "url": "https://www.facebook.com/zagstorehk/",
       "meta": {
-        "name": "Zagstorehk",
         "id": "1983772858570813",
+        "username": "zagstorehk",
+        "name": "Zagstorehk",
         "about": "我們只售賣型格的環保產品。",
-        "categories": [
-          "Brand",
-          "Environmental Service"
+        "category_list": [
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          },
+          {
+            "id": "806240166180298",
+            "name": "Environmental Service"
+          }
         ],
-        "email": "zagstorehk@gmail.com"
+        "emails": [
+          "zagstorehk@gmail.com"
+        ],
+        "website": "https://zagstorehk.wixsite.com/zagstorehk"
       }
     },
     {

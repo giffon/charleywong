@@ -17,15 +17,21 @@
     {
       "url": "https://www.facebook.com/mushroomhk/",
       "meta": {
-        "name": "Mushroom",
         "id": "235121833173293",
+        "username": "mushroomhk",
+        "name": "Mushroom",
         "about": "Mushroom love to collect the happy little things from everywhere, like Paris, UK, US, Beglium, Natherland, Germany...etc\nWe provide international shipping",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": null,
-        "area": "Tsim Sha Tsui",
-        "email": "sales@mushroom.hk"
+        "emails": [
+          "sales@mushroom.hk"
+        ],
+        "single_line_address": "Tsim Sha Tsui",
+        "website": "http://www.mushroom.hk"
       }
     }
   ],

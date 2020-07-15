@@ -10,17 +10,28 @@
     {
       "url": "https://www.facebook.com/greenfinity852/",
       "meta": {
-        "name": "Greenfinity",
         "id": "315526529114923",
-        "categories": [
-          "Shopping & Retail",
-          "Food Delivery Service",
-          "Nutritionist"
+        "username": "greenfinity852",
+        "name": "Greenfinity",
+        "category_list": [
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          },
+          {
+            "id": "197995016883073",
+            "name": "Nutritionist"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "開聯工業中心",
-        "area": "0000 Kowloon, Hong Kong",
-        "email": "greenfinityhk@gmail.com",
-        "tel": "92990664"
+        "emails": [
+          "greenfinityhk@gmail.com"
+        ],
+        "single_line_address": "開聯工業中心, 0000 Kowloon, Hong Kong",
+        "website": "https://greenfinityhk.com/"
       }
     },
     {

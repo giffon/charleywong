@@ -7,15 +7,28 @@
     {
       "url": "https://www.facebook.com/dllmall/",
       "meta": {
-        "name": "DLLMall",
         "id": "218927541588313",
+        "username": "dllmall",
+        "name": "DLLMall",
         "about": "印潮Tee, 記住DLLMall",
-        "categories": [
-          "Design & Fashion",
-          "Shopping & Retail",
-          "Printing Service"
+        "category_list": [
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "197888373555475",
+            "name": "Printing Service"
+          }
         ],
-        "email": "cs@dllmall.com"
+        "emails": [
+          "cs@dllmall.com"
+        ],
+        "website": "https://dllmall.com"
       }
     },
     {

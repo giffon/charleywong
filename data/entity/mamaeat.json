@@ -11,12 +11,17 @@
     {
       "url": "https://www.facebook.com/mamaeat2020/",
       "meta": {
-        "name": "Ma Ma Eat 慢慢食",
         "id": "103502608034391",
+        "username": "mamaeat2020",
+        "name": "Ma Ma Eat 慢慢食",
         "about": "屯門外賣 Ma Ma Eat",
-        "categories": [
-          "Product/Service"
-        ]
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
+        ],
+        "website": "https://t.me/mamaeat"
       }
     }
   ],

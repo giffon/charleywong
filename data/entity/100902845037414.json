@@ -7,10 +7,13 @@
     {
       "url": "https://www.facebook.com/100902845037414/",
       "meta": {
-        "name": "香港人月餅",
         "id": "100902845037414",
-        "categories": [
-          "Product/Service"
+        "name": "香港人月餅",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       }
     }

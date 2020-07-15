@@ -7,16 +7,28 @@
     {
       "url": "https://www.facebook.com/lc.ryeung/",
       "meta": {
-        "name": "良臻",
         "id": "100126168358617",
+        "username": "lc.ryeung",
+        "name": "良臻",
         "about": "香港教師，出版人。熱衷印刷。\nHong Kong school teacher and book publisher. Printing enthusiast.",
-        "categories": [
-          "Author",
-          "Tutor/Teacher",
-          "Book"
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          },
+          {
+            "id": "145296352197250",
+            "name": "Tutor/Teacher"
+          },
+          {
+            "id": "1300",
+            "name": "Book"
+          }
         ],
-        "email": "612ytc@gmail.com",
-        "tel": "53888652"
+        "emails": [
+          "612ytc@gmail.com"
+        ],
+        "website": "http://hillway.com.hk/"
       }
     },
     {

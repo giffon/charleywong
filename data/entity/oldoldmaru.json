@@ -8,15 +8,20 @@
     {
       "url": "https://www.facebook.com/oldoldmaru/",
       "meta": {
-        "name": "Old Old Maru 老泥丸",
         "id": "1287056411311128",
+        "username": "oldoldmaru",
+        "name": "Old Old Maru 老泥丸",
         "about": "· 老丸 · 用心制作 · 每件小品 ·\n環保設計 · 減少垃圾",
-        "categories": [
-          "Company"
+        "category_list": [
+          {
+            "id": "2200",
+            "name": "Company"
+          }
         ],
-        "addr": "觀塘開源道77號業發工業大廈一期十三樓",
-        "area": "Hong Kong",
-        "email": "oldoldmaru@gmail.com"
+        "emails": [
+          "oldoldmaru@gmail.com"
+        ],
+        "single_line_address": "觀塘開源道77號業發工業大廈一期十三樓, Hong Kong"
       }
     },
     {

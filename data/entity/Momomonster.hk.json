@@ -7,11 +7,15 @@
     {
       "url": "https://www.facebook.com/Momomonster.hk/",
       "meta": {
-        "name": "Momomonster",
         "id": "405230509584443",
+        "username": "Momomonster.hk",
+        "name": "Momomonster",
         "about": "MomoMonsTER ® \n 喜歡插畫，喜歡角色設計，喜歡怪獸的怪怪插畫人。",
-        "categories": [
-          "Art"
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ]
       }
     },

@@ -7,13 +7,19 @@
     {
       "url": "https://www.facebook.com/WTSNS/",
       "meta": {
-        "name": "黃大仙大坊小會",
         "id": "103244894564764",
+        "username": "WTSNS",
+        "name": "黃大仙大坊小會",
         "about": "大坊小會由一群黃大仙街坊組成，主要服務為區內街坊，包括舉辦及參與區內各種活動。坊會希望組織區內街坊們的力量，帶給區內溫暖和關懷，同時不斷創造新的價值。",
-        "categories": [
-          "Community Organization"
+        "category_list": [
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          }
         ],
-        "email": "taisinlifecircle@gmail.com"
+        "emails": [
+          "taisinlifecircle@gmail.com"
+        ]
       }
     }
   ],

@@ -14,16 +14,22 @@
     {
       "url": "https://www.facebook.com/kiwi.beauty.hk/",
       "meta": {
-        "name": "Kiwi Beauty",
         "id": "996830317118617",
+        "username": "kiwi.beauty.hk",
+        "name": "Kiwi Beauty",
         "about": "Kiwi Beauty \n\n銅鑼灣軒尼詩道505號電業城B31號鋪\n\n5505 9653\n請先預約，歡迎 Whatsapp查詢\n\n•只接受現金•",
-        "categories": [
-          "Spa",
-          "Beauty Salon"
+        "category_list": [
+          {
+            "id": "200814353265561",
+            "name": "Spa"
+          },
+          {
+            "id": "199236533423806",
+            "name": "Beauty Salon"
+          }
         ],
-        "addr": "B31, Radio City SOLO, 505 Hennessy Road,",
-        "area": "852 Causeway Bay",
-        "tel": "55059653"
+        "single_line_address": "B31, Radio City SOLO, 505 Hennessy Road,, 852 Causeway Bay",
+        "website": "https://instagram.com/kiwi.beauty.hk?igshid=1ejdwhpr86cre"
       }
     }
   ],

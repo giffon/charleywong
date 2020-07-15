@@ -8,16 +8,25 @@
     {
       "url": "https://www.facebook.com/anoki.hk/",
       "meta": {
-        "name": "PÂTISSERIE anoki。宏樹堂",
         "id": "182468601781426",
+        "username": "anoki.hk",
+        "name": "PÂTISSERIE anoki。宏樹堂",
         "about": "Equisite French pastry made-to-order",
-        "categories": [
-          "Professional Service",
-          "Food & Beverage Company"
+        "category_list": [
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          },
+          {
+            "id": "176831012360626",
+            "name": "Professional Service"
+          }
         ],
-        "addr": "Metro Centre II, 21 Lam Hing Street",
-        "area": "Hong Kong Kowloon Bay, Hong Kong",
-        "email": "info@anoki.hk"
+        "emails": [
+          "info@anoki.hk"
+        ],
+        "single_line_address": "Metro Centre II, 21 Lam Hing Street, Hong Kong Kowloon Bay, Hong Kong",
+        "website": "http://www.anoki.hk"
       }
     },
     {

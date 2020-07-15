@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/8blessings/",
       "meta": {
-        "name": "八福",
         "id": "158047213210",
+        "username": "8blessings",
+        "name": "八福",
         "about": "日本讚岐手打烏冬專門店",
-        "categories": [
-          "Ramen Restaurant"
+        "category_list": [
+          {
+            "id": "218838724804749",
+            "name": "Ramen Restaurant"
+          }
         ],
-        "addr": "香港九龍旺角通菜街71號",
-        "area": "Mong Kok",
-        "tel": "23983350"
+        "single_line_address": "香港九龍旺角通菜街71號, Mong Kok"
       }
     }
   ],

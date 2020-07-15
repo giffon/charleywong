@@ -18,15 +18,24 @@
     {
       "url": "https://www.facebook.com/unmixedofficial/",
       "meta": {
-        "name": "純-潮流",
         "id": "385375302263284",
-        "about": "本店ig shop：unmixed_official\n主打純色Tee 細logo 學生會優惠開放申請",
-        "categories": [
-          "Costume Shop",
-          "Shopping Service"
+        "username": "unmixedofficial",
+        "name": "純-潮流",
+        "about": "本店ig shop：unmixed_official\n主打純色Tee 細logo 學生會優惠開放申請 ",
+        "category_list": [
+          {
+            "id": "180117982029833",
+            "name": "Costume Shop"
+          },
+          {
+            "id": "200046713342752",
+            "name": "Shopping Service"
+          }
         ],
-        "email": "originalteestore@gmail.com",
-        "tel": "93124881"
+        "emails": [
+          "originalteestore@gmail.com"
+        ],
+        "website": "https://www.unmixedhk.com"
       }
     }
   ],

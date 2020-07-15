@@ -8,14 +8,20 @@
     {
       "url": "https://www.facebook.com/Healthcareoptical/",
       "meta": {
-        "name": "Health Care Optical",
         "id": "192614561291954",
+        "username": "Healthcareoptical",
+        "name": "Health Care Optical",
         "about": "本公司提供專業驗眼及配鏡服務，搜羅各種最新最潮的品牌眼鏡，歡迎到店查詢選購\n\n地址: 香港灣仔軒尼詩道302-308號\n集成中心商場UG13號舖",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "info@hcoptical.com.hk",
-        "tel": "21210178"
+        "emails": [
+          "info@hcoptical.com.hk"
+        ],
+        "single_line_address": "軒尼詩道302-308號集成中心UG13號舖, Hong Kong"
       }
     },
     {

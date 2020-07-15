@@ -6,16 +6,23 @@
   "webpages": [
     {
       "meta": {
-        "name": "Faith Muay Thai & Fitness",
         "id": "743493892505992",
-        "categories": [
-          "Sports Club",
-          "Boxing Studio",
-          "Sports Team"
+        "name": "Faith Muay Thai & Fitness",
+        "category_list": [
+          {
+            "id": "1639776363011106",
+            "name": "Boxing Studio"
+          },
+          {
+            "id": "1801",
+            "name": "Sports Team"
+          },
+          {
+            "id": "189018581118681",
+            "name": "Sports Club"
+          }
         ],
-        "addr": "葵興工業街美安工業大廈7樓C2",
-        "area": "100061 Hong Kong",
-        "tel": "60187633"
+        "single_line_address": "葵興工業街美安工業大廈7樓C2, 100061 Hong Kong"
       },
       "url": "https://www.facebook.com/743493892505992/"
     },

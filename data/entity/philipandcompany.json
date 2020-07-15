@@ -7,16 +7,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "進業紙行 Philip & Company",
         "id": "722772151225745",
-        "about": "Merchant of American fine papers since 1979\n\n90,104,118,148,176,216,238 & 270gsm.\nSize 23\"x35\", 25\"x38\", 26\"x40\"\n(羊皮紙/咭) (布紋紙/咭) (水彩壓紋紙/咭)\n\nCall 93618088",
-        "categories": [
-          "Office Supplies",
-          "Arts & Crafts Store",
-          "Business Service"
+        "username": "philipandcompany",
+        "name": "進業紙行 Philip & Company",
+        "about": "Merchant of American fine papers since 1979\n\n90,104,118,148,176,216,238 & 270gsm.\nSize 23\"x35\", 25\"x38\", 26\"x40\"\n(羊皮紙/咭) (布紋紙/咭) (水彩壓紋紙/咭)\n\nCall 93618088\n\n",
+        "category_list": [
+          {
+            "id": "110249975723427",
+            "name": "Office Supplies"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          }
         ],
-        "email": "philiptsui8@gmail.com",
-        "tel": "93618088"
+        "emails": [
+          "philiptsui8@gmail.com"
+        ],
+        "single_line_address": "黃竹坑道65號\n65 Wong Chuk Hang Road.\n15 字樓 D 室 志昌行中心\n15/F room D Gee Chang Hang Centre, Hong Kong"
       },
       "url": "https://www.facebook.com/philipandcompany/"
     },

@@ -9,16 +9,21 @@
     },
     {
       "meta": {
-        "name": "Alan Yiu Photography",
         "id": "339131716278675",
+        "username": "alanyiuphotography",
+        "name": "Alan Yiu Photography",
         "about": "來自 The Flash Motion 的攝影師 Alan Yiu，相信攝影是「情感的捕捉」。為客戶捕捉每一個時刻，讓剎那變成永恆。",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "Unit 6, 7/F, Metro Centre II, 21 Lam Hing Street, Kowloon Bay, KLN",
-        "area": "Kowloon Bay, Hong Kong",
-        "email": "alanyiuphoto@gmail.com",
-        "tel": "98183456"
+        "emails": [
+          "alanyiuphoto@gmail.com"
+        ],
+        "single_line_address": "Unit 6, 7/F, Metro Centre II, 21 Lam Hing Street, Kowloon Bay, KLN, Kowloon Bay, Hong Kong",
+        "website": "http://alanyiuphoto.com"
       },
       "url": "https://www.facebook.com/alanyiuphotography/"
     }

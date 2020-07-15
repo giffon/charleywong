@@ -14,12 +14,19 @@
     {
       "url": "https://www.facebook.com/shanslatestudio/",
       "meta": {
-        "name": "Shanslate",
         "id": "456726198076935",
+        "username": "shanslatestudio",
+        "name": "Shanslate",
         "about": "�Whisky x marble�\n �不會溶化的 \n�雪糕蛋糕�\n � order via ig direct (ig: shanslatestudio)\n� based in Hong Kong",
-        "categories": [
-          "Restaurant",
-          "Bakery"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          }
         ]
       }
     }

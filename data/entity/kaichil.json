@@ -8,13 +8,19 @@
     {
       "url": "https://www.facebook.com/kaichil/",
       "meta": {
-        "name": "Kai Chi Leung 梁啟智",
         "id": "594642803906393",
+        "username": "kaichil",
+        "name": "Kai Chi Leung 梁啟智",
         "about": "時事評論員",
-        "categories": [
-          "Interest"
+        "category_list": [
+          {
+            "id": "145296352197250",
+            "name": "Tutor/Teacher"
+          }
         ],
-        "email": "leungkaichihk@gmail.com"
+        "emails": [
+          "leungkaichihk@gmail.com"
+        ]
       }
     }
   ],

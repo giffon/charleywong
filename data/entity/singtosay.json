@@ -16,12 +16,17 @@
     {
       "url": "https://www.facebook.com/singtosay/",
       "meta": {
-        "name": "挽歌之聲",
         "id": "168195589987717",
+        "username": "singtosay",
+        "name": "挽歌之聲",
         "about": "填詞/音樂愛好者\n歡迎任何商業/非商業合作\nEMAIL: singtosay@gmail.com",
-        "categories": [
-          "Musician/Band"
-        ]
+        "category_list": [
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
+        ],
+        "website": "https://www.youtube.com/channel/UCPKTeQJM5cqARl_35KL6o2Q"
       }
     },
     {

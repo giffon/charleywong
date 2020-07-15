@@ -11,14 +11,20 @@
     {
       "url": "https://www.facebook.com/mamo.hongkong/",
       "meta": {
-        "name": "貓毛會社 MAMO",
         "id": "109873040497451",
+        "username": "mamo.hongkong",
+        "name": "貓毛會社 MAMO",
         "about": "1. 堅持香港人手印刷\n2. 聘請手足自力更生\n3. 拒絕中國大陸貨源\n4. 齊上齊落一個不少\n5. 重新定義香港製造",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "admin@mamo.com.hk",
-        "tel": "97079377"
+        "emails": [
+          "catandfurhk@gmail.com"
+        ],
+        "website": "mamo.com.hk"
       }
     },
     {

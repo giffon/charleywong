@@ -6,15 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "Muze Pens",
         "id": "904960262861056",
+        "username": "Muzepen",
+        "name": "Muze Pens",
         "about": "Provider of fine writing instrument, journals, papers, fountain pen inks and other pen accessories in Hong Kong",
-        "categories": [
-          "Collectibles Store",
-          "Gift Shop"
+        "category_list": [
+          {
+            "id": "187679647929203",
+            "name": "Collectibles Store"
+          },
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          }
         ],
-        "email": "info@muzepens.com",
-        "tel": "36195136"
+        "emails": [
+          "info@muzepens.com"
+        ],
+        "single_line_address": "G/F, 263 Tai Nan Street, Sham Shui Po, Hong Kong",
+        "website": "www.muzepens.com"
       },
       "url": "https://www.facebook.com/Muzepen/"
     },

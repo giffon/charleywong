@@ -7,12 +7,19 @@
     {
       "url": "https://www.facebook.com/studioeverywhereee/",
       "meta": {
-        "name": "遍地作室",
         "id": "107466470615686",
+        "username": "studioeverywhereee",
+        "name": "遍地作室",
         "about": "讓花開遍全地",
-        "categories": [
-          "Arts & Humanities Website",
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "2701",
+            "name": "Arts & Humanities Website"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ]
       }
     }

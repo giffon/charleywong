@@ -7,14 +7,15 @@
     {
       "url": "https://www.facebook.com/267343877249375/",
       "meta": {
-        "name": "土城日本料理",
         "id": "267343877249375",
-        "categories": [
-          "Restaurant"
+        "name": "土城日本料理",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "觀塘駿業街67號駿業熟食市場1樓45 & 50號舖",
-        "area": "Kwun Tong",
-        "tel": "66241328"
+        "single_line_address": "觀塘駿業街67號駿業熟食市場1樓45 & 50號舖, Kwun Tong"
       }
     }
   ],

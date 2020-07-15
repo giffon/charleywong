@@ -6,18 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "一鍋瘋粥底火鍋專門店",
         "id": "2082835391951842",
+        "username": "crazyhotpot",
+        "name": "一鍋瘋粥底火鍋專門店",
         "about": "我們獨家秘製的粥底，用最原始的材料烹調，完全沒有加入調味劑，甚至連油、鹽、糖也沒有使用。",
-        "categories": [
-          "Hot Pot Restaurant",
-          "Seafood Restaurant",
-          "Diner"
+        "category_list": [
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          },
+          {
+            "id": "163300367054197",
+            "name": "Seafood Restaurant"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "旺角砵蘭街139號地鋪",
-        "area": "Kowloon, Hong Kong",
-        "email": "chuchukayee920@gmail.com",
-        "tel": "27772030"
+        "single_line_address": "砵蘭街, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/crazyhotpot/"
     },

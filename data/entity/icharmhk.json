@@ -7,18 +7,28 @@
     {
       "url": "https://www.facebook.com/icharmhk/",
       "meta": {
-        "name": "I-Charm Makeup",
         "id": "691166020990629",
+        "username": "icharmhk",
+        "name": "I-Charm Makeup",
         "about": "I-Charm為各位提供各項化妝服務包括新娘、pre-wedding、姊妹及親友化妝等等，歡迎查詢。",
-        "categories": [
-          "Makeup Artist",
-          "Hair Removal Service",
-          "Beauty Salon"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "128905757179140",
+            "name": "Hair Removal Service"
+          },
+          {
+            "id": "199236533423806",
+            "name": "Beauty Salon"
+          }
         ],
-        "addr": "荔枝角長順街18號華盛工業大廈11樓",
-        "area": "852 Hong Kong",
-        "email": "icharmhk@gmail.com",
-        "tel": "60806954"
+        "emails": [
+          "icharmhk@gmail.com"
+        ],
+        "single_line_address": "荔枝角長順街18號華盛工業大廈11樓, 852 Hong Kong"
       }
     },
     {

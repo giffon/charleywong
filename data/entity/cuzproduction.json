@@ -9,15 +9,18 @@
     },
     {
       "meta": {
-        "name": "CUZ Production - Wedding Planner & MC / Event Management & Production",
         "id": "117096766044",
-        "about": "Cuz Production is a boutique event management company mainly caters bespoke wedding event services since 2009.",
-        "categories": [
-          "Wedding Planning Service"
+        "username": "cuzproduction",
+        "name": "CUZ Production - Wedding Planner & MC / Event Management & Production",
+        "about": "Cuz Production is a boutique event management company mainly caters bespoke wedding event services since 2009. ",
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "addr": "15/F., Yeung Iu Chi Comm. Bldg., 460-462 Jaffe Rd., Causeway Bay",
-        "area": "+852 Hong Kong",
-        "tel": "28512555"
+        "single_line_address": "15/F., Yeung Iu Chi Comm. Bldg., 460-462 Jaffe Rd., Causeway Bay, +852 Hong Kong",
+        "website": "www.cuzproduction.com"
       },
       "url": "https://www.facebook.com/cuzproduction/"
     }

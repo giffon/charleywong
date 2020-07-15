@@ -6,12 +6,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "焰手卷",
         "id": "322233675131590",
-        "categories": [
-          "Japanese Restaurant"
+        "name": "焰手卷",
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "tel": "60890103"
+        "single_line_address": "電氣道83號地下2號舖, Hong Kong"
       },
       "url": "https://www.facebook.com/322233675131590/"
     },
@@ -23,8 +26,7 @@
       }
     }
   ],
-  "posts": [
-  ],
+  "posts": [],
   "tags": [
     "sushi"
   ],

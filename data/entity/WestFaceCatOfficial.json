@@ -6,13 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "西面貓",
         "id": "733133226862832",
+        "username": "WestFaceCatOfficial",
+        "name": "西面貓",
         "about": "�定期更新�\n藉「西面貓」記錄生活鎖碎，反映都市人處事的常態，道出人生的總總感悟，希望令人有所啟發。\n�插畫師: #CircleGuitar\n�Facebook: #西面貓",
-        "categories": [
-          "Author"
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          }
         ],
-        "email": "circleguitar@live.hk"
+        "emails": [
+          "circleguitar@live.hk"
+        ]
       },
       "url": "https://www.facebook.com/WestFaceCatOfficial/"
     },

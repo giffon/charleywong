@@ -10,15 +10,24 @@
     {
       "url": "https://www.facebook.com/kemarisports/",
       "meta": {
-        "name": "Kemari Sports",
         "id": "490770444462133",
+        "username": "kemarisports",
+        "name": "Kemari Sports",
         "about": "日本潮流 Futsal 品牌: Sfida, Penalty, Desporte, Spazio, Svolme, DalPonte, LUZeSOMBRA 等\n\n-歡迎查詢-\nWhatsapp: (852) 6202-6291\nLine ID: kemarisports\nWechat ID: kemarisports\nIG: kemari.sports",
-        "categories": [
-          "Sports & Recreation",
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "186982054657561",
+            "name": "Sports & Recreation"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "email": "info@kemarisports.net",
-        "tel": "62026291"
+        "emails": [
+          "info@kemarisports.net"
+        ],
+        "website": "http://www.kemarisports.net"
       }
     },
     {

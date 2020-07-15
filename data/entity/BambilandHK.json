@@ -17,15 +17,24 @@
     {
       "url": "https://www.facebook.com/BambilandHK/",
       "meta": {
-        "name": "Bambiland - Photography and Dog Training",
         "id": "459610990798151",
+        "username": "BambilandHK",
+        "name": "Bambiland - Photography and Dog Training",
         "about": "寵物攝影﹑犬隻訓練﹑各類寵物講座",
-        "categories": [
-          "Photographer",
-          "Dog Trainer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "175898962454294",
+            "name": "Dog Trainer"
+          }
         ],
-        "email": "ask@bambiland.hk",
-        "tel": "92238817"
+        "emails": [
+          "ask@bambiland.hk"
+        ],
+        "website": "https://www.bambiland.hk"
       }
     }
   ],

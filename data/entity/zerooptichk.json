@@ -7,15 +7,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "零式光學 ZERO OPTIC",
         "id": "382396109063020",
+        "username": "zerooptichk",
+        "name": "零式光學 ZERO OPTIC",
         "about": "由零開始的一間眼鏡小店",
-        "categories": [
-          "Sunglasses & Eyewear Store"
+        "category_list": [
+          {
+            "id": "1708896199364202",
+            "name": "Sunglasses & Eyewear Store"
+          }
         ],
-        "addr": "九龍旺角彌敦道582-592號信和中心214號舖",
-        "area": "Hong Kong",
-        "tel": "66458529"
+        "single_line_address": "九龍旺角彌敦道582-592號信和中心214號舖, Hong Kong"
       },
       "url": "https://www.facebook.com/zerooptichk/"
     },

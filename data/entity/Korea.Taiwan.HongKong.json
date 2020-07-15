@@ -14,13 +14,20 @@
     {
       "url": "https://www.facebook.com/Korea.Taiwan.HongKong/",
       "meta": {
-        "name": "香港仔與台灣妹",
         "id": "438346972898952",
+        "username": "Korea.Taiwan.HongKong",
+        "name": "香港仔與台灣妹",
         "about": "IG► https://www.instagram.com/hktwlove22/\n社團►https://www.facebook.com/groups/hktwlove/\n網站► http://redshoestogether.com/\nE-mail► info@redshoestogether.com",
-        "categories": [
-          "Personal Blog"
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "info@redshoestogether.com"
+        "emails": [
+          "info@redshoestogether.com"
+        ],
+        "website": "http://redshoestogether.com/"
       }
     }
   ],

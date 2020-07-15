@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "AGCoffee",
         "id": "1708713475851284",
+        "username": "agcoffee55",
+        "name": "AGCoffee",
         "about": "AG Coffee provides patrons with a place to congregate , talk , read , write , entertain one another or pass a time , whether individual or small group.",
-        "categories": [
-          "Coffee Shop",
-          "Theme Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "1738077623073078",
+            "name": "Theme Restaurant"
+          }
         ],
-        "addr": "G/F Cheerful Court , 55 Choi Ha Road",
-        "area": "518000 Ngau Tau Kok",
-        "tel": "82002727"
+        "website": "https://agcoffee.shoplineapp.com/"
       },
       "url": "https://www.facebook.com/agcoffee55/"
     },

@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/www.homemust.com.hk/",
       "meta": {
-        "name": "燈飾 Homemust led風扇吊燈總代理 香港多合一智能燈飾公司",
         "id": "1716372851908897",
+        "username": "www.homemust.com.hk",
+        "name": "燈飾 Homemust led風扇吊燈總代理 香港多合一智能燈飾公司",
         "about": "免費送貨~免費安裝 ~另送1年免費上門保養,更可續保 \n查詢電話 :63399377 歡迎查詢 WhatsApp歡迎訂購\n陳列室: 觀塘港鐵站B1出口\n觀塘成業街19-21號成業工業大廈11樓1124室",
-        "categories": [
-          "Home Decor",
-          "Lighting Store"
+        "category_list": [
+          {
+            "id": "192647794097278",
+            "name": "Home Decor"
+          },
+          {
+            "id": "196820813663200",
+            "name": "Lighting Store"
+          }
         ],
-        "addr": "觀塘成業街19-21號成業工業大廈11樓1124室",
-        "area": "HONG KONG Hong Kong",
-        "email": "hkhomemust@gmail.com",
-        "tel": "63399377"
+        "emails": [
+          "hkhomemust@gmail.com"
+        ],
+        "single_line_address": "觀塘成業街19-21號成業工業大廈11樓1124室, HONG KONG Hong Kong",
+        "website": "http://www.homemust.com.hk"
       }
     }
   ],

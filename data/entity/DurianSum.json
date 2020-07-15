@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/DurianSum/",
       "meta": {
-        "name": "Durian 琛榴槤",
         "id": "119076818954763",
+        "username": "DurianSum",
+        "name": "Durian 琛榴槤",
         "about": "『你有琛、我用心。琛食品』",
-        "categories": [
-          "Dessert Shop",
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "九龍佐敦白加士街105號地下, 1/F, 2/F",
-        "area": "Kwai Chung",
-        "email": "otdurian@gmail.com",
-        "tel": "28865573"
+        "emails": [
+          "otdurian@gmail.com"
+        ],
+        "single_line_address": "九龍佐敦白加士街105號地下, 1/F, 2/F, Kwai Chung",
+        "website": "https://www.laoshudurian.com"
       }
     }
   ],

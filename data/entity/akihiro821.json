@@ -8,14 +8,23 @@
     {
       "url": "https://www.facebook.com/azurite821/",
       "meta": {
-        "name": "米洋Azurite",
         "id": "1463886887200924",
+        "username": "azurite821",
+        "name": "米洋Azurite",
         "about": "委託或工商邀請，請以email或inbox查詢\n【Email】azurite821@gmail.com\n【IG】https://www.instagram.com/azurite821/\n【Twitter】https://twitter.com/azurite821",
-        "categories": [
-          "Artist",
-          "Art"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "email": "azurite821@gmail.com"
+        "emails": [
+          "azurite821@gmail.com"
+        ]
       }
     },
     {

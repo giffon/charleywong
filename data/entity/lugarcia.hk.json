@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/lugarcia.hk/",
       "meta": {
-        "name": "Lugarcia",
         "id": "169686253051054",
+        "username": "lugarcia.hk",
+        "name": "Lugarcia",
         "about": "Destination fine art Wedding & Portrait film Photography with Elegant Makeup, Based in Hong Kong & Available worldwide.",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "Unit 1205, Westin Centre, 26 Hung To Road, Kwun Tong.",
-        "area": "852 Hong Kong",
-        "email": "info@lugarciahk.com",
-        "tel": "96334527"
+        "emails": [
+          "info@lugarciahk.com"
+        ],
+        "single_line_address": "Unit 1205, Westin Centre, 26 Hung To Road, Kwun Tong., 852 Hong Kong",
+        "website": "http://www.lugarciahk.com"
       }
     },
     {

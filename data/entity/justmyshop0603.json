@@ -6,13 +6,18 @@
   "webpages": [
     {
       "meta": {
-        "name": "Just My Shop 文具精品雜貨店",
         "id": "125749727528681",
+        "username": "justmyshop0603",
+        "name": "Just My Shop 文具精品雜貨店",
         "about": "Just My Shop 網上文具精品店，\n日本 韓國 台灣 代購。\n付款方法: 轉帳到 恆生 / 中銀 / Payme  \nWhatsapp: 5488 3995 Line / wechat: jmyshop0603\nInstagram: just_my_shop",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "tel": "54883995"
+        "single_line_address": "kwun Tong, 0 Hong Kong",
+        "website": "https://www.instagram.com/just_my_shop/"
       },
       "url": "https://www.facebook.com/justmyshop0603/"
     },

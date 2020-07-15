@@ -7,16 +7,24 @@
     {
       "url": "https://www.facebook.com/TheBalcony118/",
       "meta": {
-        "name": "The Balcony",
         "id": "132322214050762",
-        "categories": [
-          "Asian Fusion Restaurant",
-          "Continental Restaurant"
+        "username": "TheBalcony118",
+        "name": "The Balcony",
+        "category_list": [
+          {
+            "id": "174201535963762",
+            "name": "Asian Fusion Restaurant"
+          },
+          {
+            "id": "197227066968500",
+            "name": "Continental Restaurant"
+          }
         ],
-        "addr": "3/F, 118 Queen's Road Central",
-        "area": "00000 Hong Kong",
-        "email": "thebalcony118@gmail.com",
-        "tel": "28982184"
+        "emails": [
+          "thebalcony118@gmail.com"
+        ],
+        "single_line_address": "3/F, 118 Queen's Road Central, 00000 Hong Kong",
+        "website": "http://fb.me/TheBalcony118"
       }
     },
     {

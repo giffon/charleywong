@@ -7,16 +7,19 @@
     {
       "url": "https://www.facebook.com/369146770325661/",
       "meta": {
-        "name": "徐記廚房點心",
         "id": "369146770325661",
+        "name": "徐記廚房點心",
         "about": "即叫即蒸點心",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "香港九龍旺角運動場道15號京華大廈地下1-2號舖",
-        "area": "Hong Kong",
-        "email": "tsuikee77@gmail.com",
-        "tel": "27253863"
+        "emails": [
+          "tsuikee77@gmail.com"
+        ],
+        "single_line_address": "香港九龍旺角運動場道15號京華大廈地下1-2號舖, Hong Kong"
       }
     },
     {

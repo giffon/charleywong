@@ -8,16 +8,25 @@
     {
       "url": "https://www.facebook.com/hmakingfun/",
       "meta": {
-        "name": "家政坊 Housemaking Fun",
         "id": "169434196429185",
+        "username": "hmakingfun",
+        "name": "家政坊 Housemaking Fun",
         "about": "開設蛋糕西餅、中式點心及各國菜式烹飪課程。讓學員從零開始，清楚學會每個製作步驟，掌握箇中技巧。我們亦備有各式的烹飪材料、工具及包裝用品以便閣下選購，歡迎訂購或批發。",
-        "categories": [
-          "Food & Beverage"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          }
         ],
-        "addr": "元朗安寧路186號",
-        "area": "00 Yuen Long",
-        "email": "housemakingfun@gmail.com",
-        "tel": "24797368"
+        "emails": [
+          "housemakingfun@gmail.com"
+        ],
+        "single_line_address": "元朗安寧路186號, 00 Yuen Long",
+        "website": "http://www.housemakingfun.com.hk"
       }
     },
     {

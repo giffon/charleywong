@@ -7,16 +7,28 @@
     {
       "url": "https://www.facebook.com/LS.WEDDING.HK/",
       "meta": {
-        "name": "LS WEDDING",
         "id": "127988597223854",
+        "username": "LS.WEDDING.HK",
+        "name": "LS WEDDING",
         "about": "Love is Stronger when Life is Shared\n\n觀塘105號巧明街 好運工業大廈4D\n\nBy appointment only 敬請預約。",
-        "categories": [
-          "Bridal Shop",
-          "Wedding Planning Service",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "l.s.wedding@live.hk",
-        "tel": "98837857"
+        "emails": [
+          "l.s.wedding@live.hk"
+        ],
+        "website": "https://www.facebook.com/LS.WEDDING.HK"
       }
     },
     {

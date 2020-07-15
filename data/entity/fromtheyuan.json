@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/fromtheyuan/",
       "meta": {
-        "name": "原汁原味",
         "id": "113648515347542",
+        "username": "fromtheyuan",
+        "name": "原汁原味",
         "about": "原汁原味提供地道中菜。以'原汁原味'為宗旨，不加味精，少油，為求好味且健康。 'The Yuan' serves authentic Chinese cuisine. We strive to give our customers quality food -fresh with no MSG added.",
-        "categories": [
-          "Cantonese Restaurant"
+        "category_list": [
+          {
+            "id": "214976388519648",
+            "name": "Cantonese Restaurant"
+          }
         ],
-        "addr": "灣仔道141號地下",
-        "area": "Wan Chai",
-        "email": "info@giantchannel.com.hk",
-        "tel": "28912018"
+        "emails": [
+          "info@giantchannel.com.hk"
+        ],
+        "single_line_address": "灣仔道141號地下, Wan Chai",
+        "website": "http://www.minglekitchen.com/"
       }
     }
   ],

@@ -6,18 +6,27 @@
   "webpages": [
     {
       "meta": {
-        "name": "Lockeroom Dining",
         "id": "2283579918591559",
+        "name": "Lockeroom Dining",
         "about": "Pasta Steak Dessert",
-        "categories": [
-          "Steakhouse",
-          "Theme Restaurant",
-          "Continental Restaurant"
+        "category_list": [
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          },
+          {
+            "id": "1738077623073078",
+            "name": "Theme Restaurant"
+          },
+          {
+            "id": "197227066968500",
+            "name": "Continental Restaurant"
+          }
         ],
-        "addr": "旺角砵蘭街215號朗晴坊8樓",
-        "area": "0000 Hong Kong",
-        "email": "lockeroom.dining@gmail.com",
-        "tel": "52700008"
+        "emails": [
+          "lockeroom.dining@gmail.com"
+        ],
+        "single_line_address": "旺角砵蘭街215號朗晴坊8樓, 0000 Hong Kong"
       },
       "url": "https://www.facebook.com/2283579918591559/"
     },

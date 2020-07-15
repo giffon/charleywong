@@ -7,16 +7,27 @@
     {
       "url": "https://www.facebook.com/HongKongIN20/",
       "meta": {
-        "name": "HongKong_IN",
         "id": "105290287850457",
+        "username": "HongKongIN20",
+        "name": "HongKong_IN",
         "about": "我地係一個有願景既零售點，除左ONLINE SHOP 之外，會自資係唔同地方租地方上架銷售。歡迎EMAIL/WHATSAPP 查詢寄賣，集中黃創，整合壯大黃經圈。",
-        "categories": [
-          "Product/Service",
-          "Retail Company",
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "hongkongin2020@gmail.com",
-        "tel": "98787393"
+        "emails": [
+          "hongkongin2020@gmail.com"
+        ]
       }
     },
     {

@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/snow.hill.laundry/",
       "meta": {
-        "name": "雪の丘洗衣舍-上門收送洗衣及乾洗服務 Snow Hill Laundry",
         "id": "1761560710754885",
+        "username": "snow.hill.laundry",
+        "name": "雪の丘洗衣舍-上門收送洗衣及乾洗服務 Snow Hill Laundry",
         "about": "本舍提供專業乾洗及磅洗上門收送服務予黃金海岸、大欖、小欖、青龍頭、深井、長沙灣、蘇屋邨、李鄭屋邨、元洲邨、幸福邨、土瓜灣、傲雲峰、欣榮花園、馬頭圍邨及真善美邨等",
-        "categories": [
-          "Dry Cleaner"
+        "category_list": [
+          {
+            "id": "133148010085253",
+            "name": "Dry Cleaner"
+          }
         ],
-        "addr": "Shop E, No 28, CHEUNG FAT STREET,CHEUNG SHA WAN",
-        "area": "Hong Kong",
-        "email": "info@snowhill-laundry.com",
-        "tel": "39545791"
+        "emails": [
+          "info@snowhill-laundry.com"
+        ],
+        "single_line_address": "Shop E, No 28, CHEUNG FAT STREET,CHEUNG SHA WAN, Hong Kong",
+        "website": "http://www.snowhill-laundry.com"
       }
     },
     {

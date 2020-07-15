@@ -11,17 +11,26 @@
     {
       "url": "https://www.facebook.com/excellentastehk/",
       "meta": {
-        "name": "良糧 ExcellenTaste",
         "id": "118887612830343",
+        "username": "excellentastehk",
+        "name": "良糧 ExcellenTaste",
         "about": "良糧 ExcellenTaste",
-        "categories": [
-          "Shopping & Retail",
-          "Health Food Store",
-          "Health & Wellness Website"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          },
+          {
+            "id": "2707",
+            "name": "Health & Wellness Website"
+          }
         ],
-        "addr": "觀塘開源道60號駱駝漆大廈三座8樓D2室",
-        "area": "Kowloon, Hong Kong",
-        "tel": "26711498"
+        "single_line_address": "觀塘開源道60號駱駝漆大廈三座8樓D2室, Kowloon, Hong Kong",
+        "website": "www.etaste.com.hk"
       }
     },
     {

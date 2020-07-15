@@ -7,12 +7,17 @@
     {
       "url": "https://www.facebook.com/sakuraprizehk/",
       "meta": {
-        "name": "櫻花賞",
         "id": "107849777560800",
+        "username": "sakuraprizehk",
+        "name": "櫻花賞",
         "about": "跟櫻花一起抽一番\n每星期兩次直播一起抽，一起玩",
-        "categories": [
-          "Product/Service"
-        ]
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
+        ],
+        "single_line_address": "旺角彌敦道612-618號好望角大廈1804室 （百老匯戲院對面）, Kowloon, Hong Kong"
       }
     },
     {

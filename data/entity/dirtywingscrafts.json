@@ -6,14 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "about": "透過羊毛氈的可塑性製作出不同類型的產品，利用羊毛來呈現出各種質感，希望以各作品的樣貌、型態，為客人帶來溫暖、歡樂及親切感。",
-        "categories": [
-          "Product/service",
-          "Arts and crafts shop",
-          "Pet supplies"
+        "id": "198901310478709",
+        "username": "dirtywingscrafts",
+        "name": "Dirty Wings",
+        "about": "透過羊毛氈的可塑性製作出不同類型的產品，利用羊毛來呈現出各種質感，希望以各作品的樣貌、型態，為客人帶來溫暖、歡樂及親切感。\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "2230",
+            "name": "Pet Supplies"
+          }
         ],
-        "email": "dirtywingscrafts@gmail.com",
-        "id": "198901310478709"
+        "emails": [
+          "dirtywingscrafts@gmail.com"
+        ],
+        "website": "http://www.pinkoi.com/dirtywingscrafts"
       },
       "url": "https://www.facebook.com/dirtywingscrafts/"
     },

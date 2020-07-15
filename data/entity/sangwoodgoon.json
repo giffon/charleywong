@@ -11,15 +11,29 @@
     {
       "url": "https://www.facebook.com/sangwoodgoon/",
       "meta": {
-        "name": "生活館 Sangwoodgoon",
         "id": "268897056486805",
+        "username": "sangwoodgoon",
+        "name": "生活館 Sangwoodgoon",
         "about": "探討、實踐新生活價值的實驗場",
-        "categories": [
-          "Community",
-          "Farmers Market",
-          "Organic Grocery Store"
+        "category_list": [
+          {
+            "id": "176527262444235",
+            "name": "Farmers Market"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "1748430218710706",
+            "name": "Organic Grocery Store"
+          }
         ],
-        "email": "sangwoodgoon@gmail.com"
+        "emails": [
+          "sangwoodgoon@gmail.com"
+        ],
+        "single_line_address": "元朗錦上路謝屋村 Tse Uk Tsuen, Kam Sheung Road, Yuen Long, Hong Kong, Hong Kong",
+        "website": "http://sangwoodgoon.wordpress.com/"
       }
     }
   ],

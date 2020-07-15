@@ -7,15 +7,26 @@
     {
       "url": "https://www.facebook.com/125761637479413/",
       "meta": {
-        "name": "Jan Wong Photography",
         "id": "125761637479413",
+        "name": "Jan Wong Photography",
         "about": "Hong Kong Wedding Photographer -- Jan Wong",
-        "categories": [
-          "Camera/Photo",
-          "Wedding Planning Service",
-          "Event Videographer"
+        "category_list": [
+          {
+            "id": "2208",
+            "name": "Camera/Photo"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "1719867628280173",
+            "name": "Event Videographer"
+          }
         ],
-        "email": "janwongphoto@gmail.com"
+        "emails": [
+          "janwongphoto@gmail.com"
+        ]
       }
     },
     {

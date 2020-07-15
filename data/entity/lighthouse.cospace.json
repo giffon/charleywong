@@ -11,18 +11,29 @@
     {
       "url": "https://www.facebook.com/lighthouse.cospace/",
       "meta": {
-        "name": "Lighthouse Cospace 光館共享空間",
         "id": "356456338191308",
-        "about": "Lighthouse Cospace is a boutique co-sharing space located in Yau Ma Tei (across from MTR exit C) that allows you to have a quiet place to study, work and relax. We provide essential services for you to work flexibly and efficiently.",
-        "categories": [
-          "Community Organization",
-          "Business Service",
-          "Performance & Event Venue"
+        "username": "lighthouse.cospace",
+        "name": "Lighthouse Cospace 光館共享空間",
+        "about": "Lighthouse Cospace is a boutique co-sharing space located in Yau Ma Tei (across from MTR exit C) that allows you to have a quiet place to study, work and relax. We provide essential services for you to work flexibly and efficiently.\n",
+        "category_list": [
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          },
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          },
+          {
+            "id": "179943432047564",
+            "name": "Performance & Event Venue"
+          }
         ],
-        "addr": "13/F, Oxford Commerical Building, 494-496 Nathan Road, Yau Ma Tei",
-        "area": "HK Hong Kong",
-        "email": "contact@lighthousecospace.com",
-        "tel": "61654128"
+        "emails": [
+          "contact@lighthousecospace.com"
+        ],
+        "single_line_address": "13/F, Oxford Commerical Building, 494-496 Nathan Road, Yau Ma Tei, HK Hong Kong",
+        "website": "http://www.lighthousecospace.com"
       }
     },
     {

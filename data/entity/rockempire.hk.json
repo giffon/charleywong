@@ -7,15 +7,24 @@
     {
       "meta": {
         "id": "185858052131",
+        "username": "rockempire.hk",
+        "name": "Rock Empire",
         "about": "地址 : 香港, 九龍, 土瓜灣, 上鄉道35-37號, 聯發大廈5/F\n電話 : 34805650 / 93097858",
-        "categories": [
-          "Musical instrument store",
-          "Musician/band",
-          "Retail company"
+        "category_list": [
+          {
+            "id": "139750396088115",
+            "name": "Musical Instrument Store"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "addr": "5/F, Luen Fat Mansion, 35-37 Sheung Heung Rd, To Kwa Wan",
-        "area": "Kowloon, Hong Kong",
-        "tel": "34805650"
+        "single_line_address": "5/F, Luen Fat Mansion, 35-37 Sheung Heung Rd, To Kwa Wan, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/rockempire.hk/"
     }

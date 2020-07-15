@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/KoreanOfficialFoto/",
       "meta": {
-        "name": "KOF 職人攝影",
         "id": "2074604856154183",
-        "categories": [
-          "Photographer",
-          "Artist"
+        "username": "KoreanOfficialFoto",
+        "name": "KOF 職人攝影",
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "addr": "22-26 Austin Avenue",
-        "area": "HK Tsim Sha Tsui",
-        "email": "bulakof@gmail.com",
-        "tel": "54097075"
+        "single_line_address": "22-26 Austin Avenue, HK Tsim Sha Tsui"
       }
     },
     {

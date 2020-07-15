@@ -7,16 +7,24 @@
     {
       "url": "https://www.facebook.com/199682373377035/",
       "meta": {
-        "name": "榮樂茶餐廳",
         "id": "199682373377035",
+        "name": "榮樂茶餐廳",
         "about": "位於沙田瀝源村,開業40年,從入面裝修都知道小店有一定的歷史,沙嗲牛肉,叉燒,炸菜肉絲等等任你拼,配埋個菠蘿包同奄列,一個簡單常餐經歷幾代學生,再加上牆身的花磚,彷彿會到七十年代一般。",
-        "categories": [
-          "Cafe",
-          "Breakfast & Brunch Restaurant",
-          "Hong Kong Restaurant"
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          },
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
         ],
-        "addr": "Shop 7, 1/F, Fu Yu House, Lek Yuen Estate",
-        "area": "Sha Tin, Hong Kong"
+        "single_line_address": "Shop 7, 1/F, Fu Yu House, Lek Yuen Estate, Sha Tin, Hong Kong"
       },
       "hidden": true
     },

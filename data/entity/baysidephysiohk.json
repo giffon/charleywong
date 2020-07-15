@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/baysidephysiohk/",
       "meta": {
-        "name": "海栢物理治療中心 Bayside Physiotherapy Centre",
         "id": "602068729807987",
+        "username": "baysidephysiohk",
+        "name": "海栢物理治療中心 Bayside Physiotherapy Centre",
         "about": "Physiotherapy",
-        "categories": [
-          "Physical Therapist",
-          "Medical Center"
+        "category_list": [
+          {
+            "id": "181885068517499",
+            "name": "Physical Therapist"
+          },
+          {
+            "id": "228143393877753",
+            "name": "Medical Center"
+          }
         ],
-        "addr": "新界馬鞍山福安花園商塲UG層77號舖",
-        "area": "Hong Kong",
-        "email": "baysidephysiohk@gmail.com",
-        "tel": "52333320"
+        "emails": [
+          "baysidephysiohk@gmail.com"
+        ],
+        "single_line_address": "新界馬鞍山福安花園商塲UG層77號舖, Hong Kong",
+        "website": "www.baysidephysiohk.com"
       }
     }
   ],

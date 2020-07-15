@@ -6,14 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "和你食",
         "id": "107295660761718",
+        "username": "woneisik",
+        "name": "和你食",
         "about": "香港人的小食店",
-        "categories": [
-          "Fast Food Restaurant"
+        "category_list": [
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          }
         ],
-        "addr": "長沙灣幸福商場地下G9號鋪",
-        "area": "000000 Hong Kong"
+        "single_line_address": "長沙灣幸福商場地下G9號鋪, 000000 Hong Kong"
       },
       "url": "https://www.facebook.com/woneisik/"
     }

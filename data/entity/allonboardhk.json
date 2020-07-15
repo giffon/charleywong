@@ -11,18 +11,29 @@
     {
       "url": "https://www.facebook.com/allonboardhk/",
       "meta": {
-        "name": "棋間限定 - All On Board HK",
         "id": "1541869329189495",
+        "username": "allonboardhk",
+        "name": "棋間限定 - All On Board HK",
         "about": "棋間限定喺一間位於油麻地嘅樓上Board Game鋪, 我地以劃一優惠嘅價錢提供桌遊試玩以及專人介紹同教授遊戲玩法。客人可以喺棋間限定玩到至岩香港人口味嘅桌上遊戲。",
-        "categories": [
-          "Board Game",
-          "Local Service",
-          "Merchandising Service"
+        "category_list": [
+          {
+            "id": "2303",
+            "name": "Board Game"
+          },
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          },
+          {
+            "id": "169363643109176",
+            "name": "Merchandising Service"
+          }
         ],
-        "addr": "油麻地上海街393號2樓全層",
-        "area": "Yau Ma Tei",
-        "email": "info@allonboardhk.com",
-        "tel": "53935367"
+        "emails": [
+          "info@allonboardhk.com"
+        ],
+        "single_line_address": "油麻地上海街393號2樓全層, Yau Ma Tei",
+        "website": "https://allonboardhk.com"
       }
     },
     {

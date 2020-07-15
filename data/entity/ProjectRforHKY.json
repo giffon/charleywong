@@ -6,15 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "Project R",
         "id": "108411783950390",
+        "username": "ProjectRforHKY",
+        "name": "Project R",
         "about": "旨在構建一個屬於全球香港人的社區及經濟共同體(Ecosystem) ，做到香港人靠香港人，拒絕經濟依賴。",
-        "categories": [
-          "Community",
-          "Graphic Designer",
-          "Designer"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "162183907165552",
+            "name": "Graphic Designer"
+          },
+          {
+            "id": "1615",
+            "name": "Designer"
+          }
         ],
-        "email": "glocosystem@gmail.com"
+        "emails": [
+          "glocosystem@gmail.com"
+        ],
+        "website": "www.hkrenaissance.com"
       },
       "url": "https://www.facebook.com/ProjectRforHKY/"
     },

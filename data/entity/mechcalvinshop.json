@@ -10,16 +10,28 @@
     },
     {
       "meta": {
-        "name": "MECHCalvin Computer 麥加文電腦",
         "id": "113753091995930",
+        "username": "mechcalvinshop",
+        "name": "MECHCalvin Computer 麥加文電腦",
         "about": "專營砌機/ 維修/ 升級/ 中小企支援服務, 歡迎查詢.",
-        "categories": [
-          "Computer Repair Service",
-          "Computer Company",
-          "Business Service"
+        "category_list": [
+          {
+            "id": "108472109230615",
+            "name": "Computer Repair Service"
+          },
+          {
+            "id": "2255",
+            "name": "Computer Company"
+          },
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          }
         ],
-        "email": "computer@mechcalvin.com",
-        "tel": "60510020"
+        "emails": [
+          "computer@mechcalvin.com"
+        ],
+        "website": "https://shop.mechcalvin.com"
       },
       "url": "https://www.facebook.com/mechcalvinshop/"
     },

@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/BUSGO612/",
       "meta": {
-        "name": "巴絲GO",
         "id": "104478941087634",
+        "username": "BUSGO612",
+        "name": "巴絲GO",
         "about": "「巴絲GO」，一個香港人嘅CALL車平台，為巴打、絲打而設，為真‧香港人服務。",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "admin@hkbusgo.com",
-        "tel": "61136122"
+        "emails": [
+          "admin@hkbusgo.com"
+        ],
+        "website": "http://busgo612.mystrikingly.com/"
       }
     },
     {

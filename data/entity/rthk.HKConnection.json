@@ -11,12 +11,18 @@
     {
       "url": "https://www.facebook.com/rthk.HKConnection/",
       "meta": {
-        "name": "鏗鏘集 Hong Kong Connection",
         "id": "249783961737360",
-        "about": "《鏗鏘集》逢星期一晚上六時及八時，分別在無綫電視翡翠台及港台電視31播映。節目於一九七八年三月五日首播，堅持以講真話為原則，鏗鏘有聲，反映社會民生時事。",
-        "categories": [
-          "TV Show"
-        ]
+        "username": "rthk.HKConnection",
+        "name": "鏗鏘集 Hong Kong Connection",
+        "about": "《鏗鏘集》逢星期一晚上八時，在港台電視31播映。節目於一九七八年三月五日首播，堅持以講真話為原則，鏗鏘有聲，反映社會民生時事。",
+        "category_list": [
+          {
+            "id": "1400",
+            "name": "TV Show"
+          }
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://www.rthk.org.hk/special/hkconnection"
       }
     },
     {

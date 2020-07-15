@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/RainbowDesignWorkshop/",
       "meta": {
-        "name": "Rainbow Design - Wedding Decoration婚禮佈置",
         "id": "164312196929276",
+        "username": "RainbowDesignWorkshop",
+        "name": "Rainbow Design - Wedding Decoration婚禮佈置",
         "about": "Rainbow Design誠意創造專屬您們的婚禮，透過討論、針對您們的需求，再以專業的設計，豐富您們的所盼所想，為所有來臨婚禮的貴賓展現創意無限的世紀婚禮!",
-        "categories": [
-          "Wedding Planning Service"
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "addr": "尖沙咀漆咸道南87-105號百利商業中心2樓42號鋪",
-        "area": "Hong Kong",
-        "email": "rainbowdeco617@gmail.com",
-        "tel": "31631854"
+        "emails": [
+          "rainbowdeco617@gmail.com"
+        ],
+        "single_line_address": "尖沙咀漆咸道南87-105號百利商業中心2樓42號鋪, Hong Kong"
       }
     },
     {

@@ -10,14 +10,25 @@
     {
       "url": "https://www.facebook.com/smalltunghk/",
       "meta": {
-        "name": "Smalltung",
         "id": "117982838763547",
+        "username": "smalltunghk",
+        "name": "Smalltung",
         "about": "smalltung的漫畫",
-        "categories": [
-          "Artist",
-          "Book",
-          "Comic Bookstore"
-        ]
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "1300",
+            "name": "Book"
+          },
+          {
+            "id": "133510666716809",
+            "name": "Comic Bookstore"
+          }
+        ],
+        "website": "http://www.smalltung.com"
       }
     },
     {

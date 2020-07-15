@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/lalune.hongkong/",
       "meta": {
-        "name": "望月 Patisserie La Lune",
         "id": "440869692618002",
-        "about": "望月 | www.wangyue.com.hk\n電話查詢：2386 7666\n電郵查詢：cs.wangyue@gmail.com",
-        "categories": [
-          "Bakery"
+        "username": "lalune.hongkong",
+        "name": "望月 Patisserie La Lune",
+        "about": "望月 | www.lalune.com.hk\n電話查詢：2386 7666\n電郵查詢：cs.wangyue@gmail.com",
+        "category_list": [
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          }
         ],
-        "addr": "10-14 Kung Yip Street",
-        "area": "Kwai Chung",
-        "email": "cs.wangyue@gmail.com",
-        "tel": "23867666"
+        "emails": [
+          "cs.wangyue@gmail.com"
+        ],
+        "single_line_address": "10-14 Kung Yip Street, Kwai Chung",
+        "website": "www.lalune.com.hk"
       }
     },
     {

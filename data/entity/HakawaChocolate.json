@@ -6,15 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "Hakawa Chocolate",
         "id": "170716096686979",
+        "username": "HakawaChocolate",
+        "name": "Hakawa Chocolate",
         "about": "Our chocolate workshop located at Shop 1B, 49-51A Gough, Central, Hong Hong\n\nLicence Type: Food Factory Licence \nLicence No.: 2918806671\nType of Restricted Food(s) endorsed for sales: manufacture of solid chocolate and chocolate drinks for retails",
-        "categories": [
-          "Chocolate Shop"
+        "category_list": [
+          {
+            "id": "498921743646445",
+            "name": "Chocolate Shop"
+          }
         ],
-        "addr": "Shop1B, 49-51A Gough Street, Central,",
-        "area": "Hong Kong",
-        "tel": "61633563"
+        "single_line_address": "Shop1B, 49-51A Gough Street, Central,, Hong Kong"
       },
       "url": "https://www.facebook.com/HakawaChocolate/"
     },

@@ -7,13 +7,23 @@
     {
       "url": "https://www.facebook.com/dddyat/",
       "meta": {
-        "name": "丁日",
         "id": "112382823518945",
+        "username": "dddyat",
+        "name": "丁日",
         "about": "Instagram: @dddyat",
-        "categories": [
-          "Artist",
-          "Graphic Designer",
-          "Personal Blog"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "162183907165552",
+            "name": "Graphic Designer"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ]
       }
     },

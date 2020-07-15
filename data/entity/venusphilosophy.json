@@ -6,13 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "Venus Philosophy",
         "id": "691774270940913",
+        "username": "venusphilosophy",
+        "name": "Venus Philosophy",
         "about": "/ 只想創造出有感染力的作品",
-        "categories": [
-          "Just For Fun"
+        "category_list": [
+          {
+            "id": "129417183848258",
+            "name": "Just For Fun"
+          }
         ],
-        "email": "lowingszevenus0505@gmail.com"
+        "emails": [
+          "lowingszevenus0505@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/venusphilosophy/"
     },

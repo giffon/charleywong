@@ -18,15 +18,27 @@
     {
       "url": "https://www.facebook.com/wongjiyuet97/",
       "meta": {
-        "name": "黃子悅 Wong Ji Yuet",
         "id": "105526877678603",
+        "username": "wongjiyuet97",
+        "name": "黃子悅 Wong Ji Yuet",
         "about": "黃子悅，22歲，嶺南大學學生。雨傘運動中曾參與絕食，於2015年擔任學民思潮發言人。學民思潮停運後成立教育實驗學社，於反送中抗爭中被控暴動罪。現繼續以個人身分在不同崗位上抗爭。",
-        "categories": [
-          "Politician",
-          "Editorial/Opinion",
-          "Personal Blog"
+        "category_list": [
+          {
+            "id": "1700",
+            "name": "Politician"
+          },
+          {
+            "id": "350465182273335",
+            "name": "Editorial/Opinion"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "wongjiyuet@gmail.com"
+        "emails": [
+          "wongjiyuet@gmail.com"
+        ]
       }
     },
     {

@@ -6,15 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "九份茶舍",
         "id": "2074082079568590",
-        "about": "·旺角弼街84號A鋪百寶大廈地下\n·葵芳葵涌廣場2樓2015鋪\n·沙田石門京瑞廣場二期1樓145舖\n·尖沙咀山林道10號A2舖\n·屯門青海圍2號萬寶商場地下5號舗(屯官對面)\n·西九龍中心8樓58號舖",
-        "categories": [
-          "Bubble Tea Shop",
-          "Tea Room"
+        "username": "jiufenteahouse",
+        "name": "九份茶舍",
+        "about": "旺角弼街84A\n葵涌廣場2樓2015舖\n石門京瑞廣場二期145舖\n尖沙咀山林道10號A2\n屯門青海圍2號萬寶商場地下5號舗\n旺角登打士街43P-43S號地下9B舖\n西九龍中心8樓58舖\n慈雲山毓華街74-80A號\n元朗教育路68號",
+        "category_list": [
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          },
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          }
         ],
-        "addr": "旺角弼街84A舖百寶大廈地下(新世紀扶手電梯側)",
-        "area": "Hong Kong"
+        "single_line_address": "旺角弼街84A舖百寶大廈地下(新世紀扶手電梯側), Hong Kong"
       },
       "url": "https://www.facebook.com/jiufenteahouse/"
     },

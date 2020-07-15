@@ -6,16 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "八寸料亭 はつすん",
         "id": "1533265410264680",
+        "name": "八寸料亭 はつすん",
         "about": "主營京都會席 日本直送食材\nカウンター  8名樣\nテーブル 10名樣\n座席 最大10名樣",
-        "categories": [
-          "Sushi Restaurant",
-          "Asian Fusion Restaurant"
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          },
+          {
+            "id": "174201535963762",
+            "name": "Asian Fusion Restaurant"
+          }
         ],
-        "addr": "大坑蓮花街3號地下",
-        "area": "Hong Kong",
-        "tel": "22176077"
+        "single_line_address": "大坑蓮花街3號地下, Hong Kong"
       },
       "url": "https://www.facebook.com/1533265410264680/"
     },

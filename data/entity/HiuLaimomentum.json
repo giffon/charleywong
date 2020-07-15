@@ -7,12 +7,19 @@
     {
       "url": "https://www.facebook.com/HiuLaimomentum/",
       "meta": {
-        "name": "曉麗新動力",
         "id": "102568698085767",
+        "username": "HiuLaimomentum",
+        "name": "曉麗新動力",
         "about": "曉麗新動力由一班住喺曉麗苑嘅街坊組成，希望喺呢個社交平台分享更加多曉麗資訊俾大家聽",
-        "categories": [
-          "Social Service",
-          "Political Organization"
+        "category_list": [
+          {
+            "id": "373543049350668",
+            "name": "Political Organization"
+          },
+          {
+            "id": "178669642178193",
+            "name": "Social Service"
+          }
         ]
       }
     },

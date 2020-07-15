@@ -8,16 +8,21 @@
     {
       "url": "https://www.facebook.com/sugarbros1201/",
       "meta": {
-        "name": "無糖不歡 SugarBros",
         "id": "103969327751271",
+        "username": "sugarbros1201",
+        "name": "無糖不歡 SugarBros",
         "about": "糖不甩專門店",
-        "categories": [
-          "Restaurant",
-          "Dessert Shop"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "大角咀利得街14號地下",
-        "area": "000000 Hong Kong",
-        "tel": "54384528"
+        "single_line_address": "大角咀利得街14號地下, 000000 Hong Kong"
       }
     },
     {

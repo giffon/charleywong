@@ -7,13 +7,16 @@
     {
       "url": "https://www.facebook.com/320199598676608/",
       "meta": {
-        "name": "富東閣海鮮酒家",
         "id": "320199598676608",
+        "name": "富東閣海鮮酒家",
         "about": "海鮮酒家，酒樓",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "tel": "26998333"
+        "single_line_address": "沙田瀝源街6號瀝源廣場1樓5號鋪, 516048 Hong Kong"
       }
     }
   ],

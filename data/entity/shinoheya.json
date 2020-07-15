@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/shinoheya/",
       "meta": {
-        "name": "紫の部屋-藥妝批發及零售",
         "id": "414329832692893",
+        "username": "shinoheya",
+        "name": "紫の部屋-藥妝批發及零售",
         "about": "歡迎光臨「紫の部屋」\n✿本店專門搜羅各國藥妝、精品及家品\n✿2019年5月開業\n✿歡迎零售及批發\n\n☏ Wtsapp：97626437（Zythia）\n☞ IG：@shinoheya",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care",
-          "Household Supplies",
-          "Boutique Store"
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          },
+          {
+            "id": "2220",
+            "name": "Household Supplies"
+          },
+          {
+            "id": "288846958171402",
+            "name": "Boutique Store"
+          }
         ],
-        "addr": "新蒲崗",
-        "area": "Hong Kong",
-        "email": "shinoheya@gmail.com",
-        "tel": "97626437"
+        "emails": [
+          "shinoheya@gmail.com"
+        ],
+        "single_line_address": "新蒲崗, Hong Kong",
+        "website": "https://shinoheya.boutir.com/"
       }
     },
     {

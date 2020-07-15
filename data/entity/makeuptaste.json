@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/makeuptaste/",
       "meta": {
-        "name": "Makeup Taste 化妝美睫店",
         "id": "478418722317389",
+        "username": "makeuptaste",
+        "name": "Makeup Taste 化妝美睫店",
         "about": "化妝造型服務\n本地／海外Pre wedding 化妝造型服務\n個人化妝／髮型課程\n新娘化妝／髮型專業課程\n日式/山茶花植眼睫毛服務\n日式電眼睫毛",
-        "categories": [
-          "Makeup Artist"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "addr": "Room G19, 4/F, Block G, East Sun Industrial Centre, 16 Shing Yip Street, Kwun Tong",
-        "area": "000000 Hong Kong",
-        "email": "grandwedding325@gmail.com",
-        "tel": "96020457"
+        "emails": [
+          "grandwedding325@gmail.com"
+        ],
+        "single_line_address": "Room G19, 4/F, Block G, East Sun Industrial Centre, 16 Shing Yip Street, Kwun Tong, 000000 Hong Kong"
       }
     },
     {

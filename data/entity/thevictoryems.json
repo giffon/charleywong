@@ -8,12 +8,19 @@
     {
       "url": "https://www.facebook.com/thevictoryems/",
       "meta": {
-        "name": "重光救急 The Victory EMS",
         "id": "451247085638150",
+        "username": "thevictoryems",
+        "name": "重光救急 The Victory EMS",
         "about": "八個月零兩天，你還是當日的你嗎？\n為自己打一仗\n讓看不見的書 走出來\n讓看不見的人 走出來\n讓看不見的字 在太陽底下開花\n八月如是 何談光復\n裝備自己 救急扶危",
-        "categories": [
-          "Product/Service",
-          "Medical Supply Store"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "124907487582838",
+            "name": "Medical Supply Store"
+          }
         ]
       }
     },

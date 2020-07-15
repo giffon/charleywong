@@ -15,14 +15,23 @@
     {
       "url": "https://www.facebook.com/leuktong.art/",
       "meta": {
-        "name": "leuk tong",
         "id": "1590593404603778",
+        "username": "leuktong.art",
+        "name": "leuk tong",
         "about": "Hong Kong tattoo artist",
-        "categories": [
-          "Artist",
-          "Tattoo & Piercing Shop"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "551469561691940",
+            "name": "Tattoo & Piercing Shop"
+          }
         ],
-        "email": "leuktong.art@gmail.com"
+        "emails": [
+          "leuktong.art@gmail.com"
+        ]
       }
     }
   ],

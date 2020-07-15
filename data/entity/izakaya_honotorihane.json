@@ -7,16 +7,18 @@
     {
       "url": "https://www.facebook.com/2004875759804350/",
       "meta": {
-        "name": "炎鳥羽",
         "id": "2004875759804350",
-        "about": "",
-        "categories": [
-          "Japanese Restaurant"
+        "name": "炎鳥羽",
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "addr": "尖沙咀厚福街藍馬商業大廈17樓",
-        "area": "Tsim Sha Tsui",
-        "email": "lamma17f@gmail.com",
-        "tel": "28110777"
+        "emails": [
+          "lamma17f@gmail.com"
+        ],
+        "single_line_address": "尖沙咀厚福街藍馬商業大廈17樓, Tsim Sha Tsui"
       }
     },
     {

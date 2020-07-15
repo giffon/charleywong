@@ -14,16 +14,22 @@
     {
       "url": "https://www.facebook.com/sweetobsessionhk/",
       "meta": {
-        "name": "瑩敏烘焙",
         "id": "1667697793522028",
+        "username": "sweetobsessionhk",
+        "name": "瑩敏烘焙",
         "about": "�Phone/Whatsapp: +852 66201439\n�Facebook: https://www.facebook.com/sweetobsessionhk\n�銅鑼灣駱克道505 3/F",
-        "categories": [
-          "Dessert Shop",
-          "Kitchen/Cooking"
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          }
         ],
-        "addr": "銅鑼灣駱克道505號3/F",
-        "area": "Causeway Bay",
-        "tel": "66201439"
+        "single_line_address": "銅鑼灣駱克道505號3/F, Causeway Bay",
+        "website": "https://www.instagram.com/sweetobsessionhk"
       }
     }
   ],

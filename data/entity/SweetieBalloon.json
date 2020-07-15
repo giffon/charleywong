@@ -6,18 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "name": "Sweetie Balloon",
         "id": "147710765266632",
+        "username": "SweetieBalloon",
+        "name": "Sweetie Balloon",
         "about": "We specialise in venue decoration of all types and offer a range of balloons including foil, latex, message balloons, popping balloons, balloon gifts etc.\n\nFor further information please come and visit our Balloon Shop or website - www.sweetieballoon.com",
-        "categories": [
-          "Party Supply & Rental Shop",
-          "Arts & Entertainment",
-          "Event Planner"
+        "category_list": [
+          {
+            "id": "109633322446882",
+            "name": "Party Supply & Rental Shop"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          }
         ],
-        "addr": "Shop 207-208, SOLO Building, 41-43 Carnarvon Road, Tsim Sha Tsui,KLN, HK",
-        "area": "852 Hong Kong",
-        "email": "info@sweetieballoon.com",
-        "tel": "51058011"
+        "emails": [
+          "info@sweetieballoon.com"
+        ],
+        "single_line_address": "Shop 207-208, SOLO Building, 41-43 Carnarvon Road, Tsim Sha Tsui,KLN, HK, 852 Hong Kong",
+        "website": "www.sweetieballoon.com"
       },
       "url": "https://www.facebook.com/SweetieBalloon/"
     },

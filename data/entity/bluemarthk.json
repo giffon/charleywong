@@ -8,13 +8,19 @@
     {
       "url": "https://www.facebook.com/bluemarthk/",
       "meta": {
-        "name": "藍市集 BLUE MART",
         "id": "2148288585266600",
+        "username": "bluemarthk",
+        "name": "藍市集 BLUE MART",
         "about": "《藍市集》團隊 會不定期舉辦不同的文創活動，包括但不限於 文創市集活動、社區導賞活動、展覽、比賽、表演活動、分享會等等。",
-        "categories": [
-          "Art"
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "email": "bluemarthk@gmail.com"
+        "emails": [
+          "bluemarthk@gmail.com"
+        ]
       }
     },
     {

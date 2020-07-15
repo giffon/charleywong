@@ -7,12 +7,14 @@
     {
       "url": "https://www.facebook.com/110226857360574/",
       "meta": {
-        "name": "yelo_swim",
         "id": "110226857360574",
-        "categories": [
-          "Coach"
-        ],
-        "tel": "60815443"
+        "name": "yelo_swim",
+        "category_list": [
+          {
+            "id": "1802",
+            "name": "Coach"
+          }
+        ]
       }
     },
     {

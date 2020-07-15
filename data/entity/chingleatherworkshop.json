@@ -9,18 +9,29 @@
     },
     {
       "meta": {
-        "name": "Ching Leather Workshop 皮革工作室",
         "id": "1423509434562324",
+        "username": "chingleatherworkshop",
+        "name": "Ching Leather Workshop 皮革工作室",
         "about": "小班教學 皮革班\n歡迎查詢，交流\nWebsite: www.chingleatherworkshop.com\nInstagram: ching_leather_workshop\nWhatsApp: 92612776\n工作室地址: 荔枝角青山道500號百美工業大廈6樓B3室",
-        "categories": [
-          "Accessories",
-          "Arts & Entertainment",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "185127444860544",
+            "name": "Accessories"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "addr": "九龍荔枝角青山道500號百美工業大廈6樓B3室",
-        "area": "Hong Kong",
-        "email": "chingleatherworkshop@gmail.com",
-        "tel": "92612776"
+        "emails": [
+          "chingleatherworkshop@gmail.com"
+        ],
+        "single_line_address": "九龍荔枝角青山道500號百美工業大廈6樓B3室, Hong Kong",
+        "website": "http://www.chingleatherworkshop.com/"
       },
       "url": "https://www.facebook.com/chingleatherworkshop/"
     },

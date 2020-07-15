@@ -6,12 +6,20 @@
   "webpages": [
     {
       "meta": {
+        "id": "200872676595627",
+        "username": "CasparHouse",
+        "name": "Caspar house",
         "about": "CASPAR HOUSE 以 “馬賽克” 及 “彩繪” 創作為主。\n每一塊馬賽克磚塊的切割及鑲嵌，以致畫畫時每一個筆觸及顏料的色彩，均有分別。我們將兩種工藝融合在一起，創作出色彩繽紛及獨有的作品",
-        "categories": [
-          "Product/service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "casparhouse.hk@gmail.com",
-        "id": "200872676595627"
+        "emails": [
+          "casparhouse.hk@gmail.com"
+        ],
+        "website": "http://hk.pinkoi.com/store/casparhouse"
       },
       "url": "https://www.facebook.com/CasparHouse/"
     },

@@ -17,16 +17,28 @@
     {
       "url": "https://www.facebook.com/lemonking.com.hk/",
       "meta": {
-        "name": "檸檬王",
         "id": "159984967417787",
+        "username": "lemonking.com.hk",
+        "name": "檸檬王",
         "about": "香港原創品牌，優質地道手信。\n\nLine ID: lemonking.com.hk\nWeChat ID: lemonking1973",
-        "categories": [
-          "Specialty Grocery Store",
-          "Shopping & Retail",
-          "Food Stand"
+        "category_list": [
+          {
+            "id": "162264673824073",
+            "name": "Specialty Grocery Store"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          }
         ],
-        "email": "info@lemonking.com.hk",
-        "tel": "35472331"
+        "emails": [
+          "info@lemonking.com.hk"
+        ],
+        "website": "https://www.lemonking.com.hk"
       }
     }
   ],

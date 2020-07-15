@@ -18,18 +18,29 @@
     {
       "url": "https://www.facebook.com/TLK.com.hk/",
       "meta": {
-        "name": "小食堂 The Little Kitchen",
         "id": "1522032521446170",
+        "username": "TLK.com.hk",
+        "name": "小食堂 The Little Kitchen",
         "about": "擁有香港最高評價的廚藝教室 -提供製作班、派對及團隊活動籌辦服務(以廣東話/英語教授)  A Premium Cooking Studio offering -cooking classes, party services, team-building activities",
-        "categories": [
-          "Kitchen/Cooking",
-          "Cooking School",
-          "Party Entertainment Service"
+        "category_list": [
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          },
+          {
+            "id": "182269951819423",
+            "name": "Cooking School"
+          },
+          {
+            "id": "189334414420898",
+            "name": "Party Entertainment Service"
+          }
         ],
-        "addr": "19/F, Oxford Commercial Building, 494-496 Nathan Road, Yau Ma Tei",
-        "area": "852 Hong Kong",
-        "email": "info@tlk.com.hk",
-        "tel": "91336421"
+        "emails": [
+          "info@tlk.com.hk"
+        ],
+        "single_line_address": "19/F, Oxford Commercial Building, 494-496 Nathan Road, Yau Ma Tei, 852 Hong Kong",
+        "website": "https://TLK.com.hk"
       }
     },
     {

@@ -7,13 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "物理治療起動 Physio Action",
         "id": "463447537192136",
+        "username": "PhysioActionHK",
+        "name": "物理治療起動 Physio Action",
         "about": "-我們是物理治療師\n-關心香港民主、自由和人權狀況\n-集結業界的力量，監察政府，建立公民社會",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "physio.action.hk@gmail.com"
+        "emails": [
+          "physio.action.hk@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/PhysioActionHK/"
     }

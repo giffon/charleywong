@@ -13,16 +13,21 @@
     },
     {
       "meta": {
-        "name": "takk Blomster",
         "id": "275785119428394",
+        "username": "takkblomster",
+        "name": "takk Blomster",
         "about": "Rose and Romanticism! \ntakk Blomster成立於2015年11月。主理人Kym是一位玫瑰愛好者，同時熱愛北歐國家的文化和音樂。takk是北歐語謝謝的意思，希望藉著花兒傳遞出感謝的心意。",
-        "categories": [
-          "Florist"
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "addr": "尖沙咀諾士佛臺9號冠福中心3樓303室",
-        "area": "Hong Kong",
-        "email": "takkblomster@gmail.com",
-        "tel": "53116017"
+        "emails": [
+          "takkblomster@gmail.com"
+        ],
+        "single_line_address": "尖沙咀諾士佛臺9號冠福中心3樓303室, Hong Kong",
+        "website": "https://www.instagram.com/takkblomster/"
       },
       "url": "https://www.facebook.com/takkblomster/"
     }

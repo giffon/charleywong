@@ -9,16 +9,21 @@
     },
     {
       "meta": {
-        "name": "白犬工坊 香港木工布藝工作坊",
         "id": "1661463990733286",
+        "username": "whitepuppyworkshop",
+        "name": "白犬工坊 香港木工布藝工作坊",
         "about": "香港人，一木一布。\n手工木首飾、木食器、木雕刻。\n手工刺繡、刺繡首飾、布手作。\n歡迎預約到工作室參觀、學習、選購。\nwhatapps/pm: +852 9861 4994。\n觀塘海濱道139~141號海濱中心9樓907室",
-        "categories": [
-          "Carpenter"
+        "category_list": [
+          {
+            "id": "180833545285725",
+            "name": "Carpenter"
+          }
         ],
-        "addr": "觀塘海濱道139-141號海濱中心9樓907室",
-        "area": "Hong Kong",
-        "email": "whitepuppyworshop@gmail.com",
-        "tel": "98614994"
+        "emails": [
+          "whitepuppyworshop@gmail.com"
+        ],
+        "single_line_address": "觀塘海濱道139-141號海濱中心9樓907室, Hong Kong",
+        "website": "http://whitepuppyhk.com/"
       },
       "url": "https://www.facebook.com/whitepuppyworkshop/"
     },

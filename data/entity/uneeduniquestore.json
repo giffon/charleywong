@@ -17,14 +17,24 @@
     {
       "url": "https://www.facebook.com/uneeduniquestore/",
       "meta": {
-        "name": "u need・uniQue",
         "id": "159265114661088",
+        "username": "uneeduniquestore",
+        "name": "u need・uniQue",
         "about": "/為你尋找「獨特」的品味生活店\n/希望你們能在「uniQue」找到你喜歡的「獨物」，送給獨特的朋友、獨特的家人、獨特的摯愛、還有獨特的自己。",
-        "categories": [
-          "Gift Shop",
-          "Brand"
+        "category_list": [
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          },
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          }
         ],
-        "email": "uneeduniquehk@gmail.com"
+        "emails": [
+          "uneeduniquehk@gmail.com"
+        ],
+        "website": "http://www.uneedunique.com"
       }
     }
   ],

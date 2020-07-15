@@ -8,13 +8,16 @@
     {
       "url": "https://www.facebook.com/jacktungkaiman/",
       "meta": {
-        "name": "童繼民 Jack Tung",
         "id": "2387920594866743",
+        "username": "jacktungkaiman",
+        "name": "童繼民 Jack Tung",
         "about": "八十後機艙艙務長，社會運動急救員，土瓜灣海心街坊",
-        "categories": [
-          "Public Figure"
-        ],
-        "tel": "94501054"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          }
+        ]
       }
     }
   ],

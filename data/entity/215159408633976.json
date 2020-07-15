@@ -9,15 +9,17 @@
     },
     {
       "meta": {
-        "name": "小食皇",
         "id": "215159408633976",
+        "name": "小食皇",
         "about": "香港筲箕灣東大街76號地下A2A舖",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "香港筲箕灣東大街76號地下A2A舖",
-        "area": "Shau Kei Wan, Hong Kong",
-        "tel": "56288062"
+        "single_line_address": "香港筲箕灣東大街76號地下A2A舖, Shau Kei Wan, Hong Kong",
+        "website": "https://s.openrice.com/QrbS0VdK700~uYP8GAA"
       },
       "url": "https://www.facebook.com/215159408633976/"
     }

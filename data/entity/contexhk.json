@@ -10,15 +10,24 @@
     {
       "url": "https://www.facebook.com/contexhk/",
       "meta": {
-        "name": "Contex Digital",
         "id": "147892771954776",
+        "username": "contexhk",
+        "name": "Contex Digital",
         "about": "Contex，香港人的電視品牌",
-        "categories": [
-          "Product/Service",
-          "Appliances"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "150060378385891",
+            "name": "Appliances"
+          }
         ],
-        "email": "info@contex.com.hk",
-        "tel": "21871321"
+        "emails": [
+          "info@contex.com.hk"
+        ],
+        "website": "https://www.contex.com.hk"
       }
     },
     {

@@ -14,16 +14,28 @@
     {
       "url": "https://www.facebook.com/Clyflorist/",
       "meta": {
-        "name": "CLY florist",
         "id": "1288652457876797",
-        "about": "Flower bouquet & event atelier",
-        "categories": [
-          "Art",
-          "Wedding Planning Service",
-          "Florist"
+        "username": "Clyflorist",
+        "name": "CLY florist",
+        "about": "Flower bouquet & event atelier ",
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "email": "clyflorist@gmail.com",
-        "tel": "67718665"
+        "emails": [
+          "clyflorist@gmail.com"
+        ],
+        "website": "https://www.instagram.com/clyflorist/"
       }
     }
   ],

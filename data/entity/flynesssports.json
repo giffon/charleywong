@@ -8,16 +8,20 @@
     {
       "url": "https://www.facebook.com/flynesssports/",
       "meta": {
-        "name": "Flyness Sports Pro Shop 敏捷運動用品專門店",
         "id": "417137371678213",
-        "about": "地址: 佐敦官涌街25號C地下 (佐敦地鐵站C2出口,官涌體育館對面) 營業時間: 12:30 pm - 8pm  Tel: 3689 0678/ 9646 2938 鋒 / 6125 1862 Anita 付款方法:現金、EPS、AE 、支付寶、Visa、Master",
-        "categories": [
-          "Shopping & Retail"
+        "username": "flynesssports",
+        "name": "Flyness Sports Pro Shop 敏捷運動用品專門店",
+        "about": "地址: 佐敦官涌街25號C地下 (佐敦地鐵站C2出口,官涌體育館對面) 營業時間: 12:30 pm - 8pm  Tel: 3689 0678/ 9646 2938 鋒 / 6125 1862 Anita 付款方法:現金、EPS、AE 、支付寶、Visa、Master ",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "佐敦官涌街25號C地下",
-        "area": "Hong Kong",
-        "email": "flynesssports@yahoo.com.hk",
-        "tel": "36890678"
+        "emails": [
+          "flynesssports@yahoo.com.hk"
+        ],
+        "single_line_address": "佐敦官涌街25號C地下, Hong Kong"
       }
     },
     {

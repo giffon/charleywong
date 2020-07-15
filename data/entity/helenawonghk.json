@@ -8,14 +8,20 @@
     {
       "url": "https://www.facebook.com/helena.dphk/",
       "meta": {
-        "name": "黃碧雲 Helena Wong",
         "id": "298961820156150",
+        "username": "helena.dphk",
+        "name": "黃碧雲 Helena Wong",
         "about": "立法會議員黃碧雲博士專頁，專注食物及食水安全、政制及人權、醫療衛生、教育及性別平等議題。",
-        "categories": [
-          "Politician"
+        "category_list": [
+          {
+            "id": "1700",
+            "name": "Politician"
+          }
         ],
-        "email": "helenawong_klw@dphk.org",
-        "tel": "27898943"
+        "emails": [
+          "helenawong_klw@dphk.org"
+        ],
+        "website": "http://www.dphk.org"
       }
     },
     {

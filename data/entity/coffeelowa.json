@@ -8,17 +8,24 @@
     {
       "url": "https://www.facebook.com/coffeelowa/",
       "meta": {
-        "name": "Coffee Lowa",
         "id": "403587756440207",
+        "username": "coffeelowa",
+        "name": "Coffee Lowa",
         "about": "本CAFE設有Wi-Fi...",
-        "categories": [
-          "Coffee Shop",
-          "Asian Fusion Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "174201535963762",
+            "name": "Asian Fusion Restaurant"
+          }
         ],
-        "addr": "九龍油麻地登打士街36號恆威商業中心17 樓 (17/F Hanway Commercial Building, 36 Dundas Street,Yau Ma Tei, Kowloon)",
-        "area": "+852 Kowloon, Hong Kong",
-        "email": "coffeelowa@gmail.com",
-        "tel": "26518033"
+        "emails": [
+          "coffeelowa@gmail.com"
+        ],
+        "single_line_address": "九龍油麻地登打士街36號恆威商業中心17 樓 (17/F Hanway Commercial Building, 36 Dundas Street,Yau Ma Tei, Kowloon), +852 Kowloon, Hong Kong"
       }
     },
     {

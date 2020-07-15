@@ -6,15 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "Thai-ger",
         "id": "1590048277712790",
-        "about": "Innovative Thai and \"Chow Chau\" style cuisine is going to serve you. Fast, Traditional and Delicious.",
-        "categories": [
-          "Thai Restaurant"
+        "username": "thaigerhk",
+        "name": "Thai-ger",
+        "about": "Innovative Thai and \"Chow Chau\" style cuisine is going to serve you. Fast, Traditional and Delicious. ",
+        "category_list": [
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          }
         ],
-        "addr": "Shop 101, 1/F, D2 Place One, 9 Cheung Yee Street, Cheung Sha Wan, Kln",
-        "area": "852 Hong Kong",
-        "tel": "23111520"
+        "single_line_address": "Shop 101, 1/F, D2 Place One, 9 Cheung Yee Street, Cheung Sha Wan, Kln, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/thaigerhk/"
     },

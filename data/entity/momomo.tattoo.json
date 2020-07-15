@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/momomo.tattoo/",
       "meta": {
-        "name": "Momomo_tattoo",
         "id": "850604228660589",
+        "username": "momomo.tattoo",
+        "name": "Momomo_tattoo",
         "about": "�HONG KONG TATTOO ARTIST�\nNew School 卡通風格 香港紋身師�\n-\n�紋身預約及查詢\nWhatsapp +852 6200 4996",
-        "categories": [
-          "Tattoo & Piercing Shop"
+        "category_list": [
+          {
+            "id": "551469561691940",
+            "name": "Tattoo & Piercing Shop"
+          }
         ],
-        "addr": "大角咀",
-        "area": "Kowloon, Hong Kong",
-        "tel": "62004996"
+        "single_line_address": "大角咀, Kowloon, Hong Kong"
       }
     },
     {

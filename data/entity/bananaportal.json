@@ -9,18 +9,29 @@
     },
     {
       "meta": {
-        "name": "Banana Portal",
         "id": "587690625016349",
+        "username": "bananaportal",
+        "name": "Banana Portal",
         "about": "香港首個完全免費的綜合服務指南平台，致力去除自由工作(Freelance)市場參差的中介，提供完全透明、保障用家利益的配對服務，並協助自由工作者(freelancer)及商戶(studios)拓展業務。",
-        "categories": [
-          "Internet Company",
-          "Internet Marketing Service",
-          "Public Service"
+        "category_list": [
+          {
+            "id": "2256",
+            "name": "Internet Company"
+          },
+          {
+            "id": "1706730532910578",
+            "name": "Internet Marketing Service"
+          },
+          {
+            "id": "139386576124160",
+            "name": "Public Service"
+          }
         ],
-        "addr": "iDendron, 1/F Knowles Building, The University of Hong Kong, Hong Kong",
-        "area": "Hong Kong",
-        "email": "wecare@bananaportal.com",
-        "tel": "62217466"
+        "emails": [
+          "wecare@bananaportal.com"
+        ],
+        "single_line_address": "iDendron, 1/F Knowles Building, The University of Hong Kong, Hong Kong, Hong Kong",
+        "website": "https://www.bananaportal.com"
       },
       "url": "https://www.facebook.com/bananaportal/"
     },

@@ -7,14 +7,16 @@
     {
       "url": "https://www.facebook.com/466220323809418/",
       "meta": {
-        "name": "銓仔記（大埔火鍋雞煲）",
         "id": "466220323809418",
-        "categories": [
-          "Hot Pot Restaurant"
+        "name": "銓仔記（大埔火鍋雞煲）",
+        "about": "任食火煱雞煲",
+        "category_list": [
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          }
         ],
-        "addr": "大埔東昌街4號",
-        "area": "Hong Kong",
-        "tel": "26380322"
+        "single_line_address": "大埔東昌街4號, Hong Kong"
       }
     },
     {

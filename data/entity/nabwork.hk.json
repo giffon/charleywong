@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/nabwork.hk/",
       "meta": {
-        "name": "Nabwork",
         "id": "455784774514059",
+        "username": "nabwork.hk",
+        "name": "Nabwork",
         "about": "nabwork by nabbunsoneo 나쁜 소녀.\n香港旺角西洋菜南街百寶利商業中心11樓\n11/F,\nPAKPOLEE COMM CTR,\n1A-1K SAI YEUNG CHOI STREET,\nMONGKOK,\nHONG KONG\nInstagram: nabwork\nWebsite: www.nabwork.hk",
-        "categories": [
-          "Footwear Store"
+        "category_list": [
+          {
+            "id": "109512302457693",
+            "name": "Footwear Store"
+          }
         ],
-        "addr": "11/F, PAKPOLEE COMM CTR, 1A-1K SAI YEUNG CHOI STREET, MONGKOK KOWLOON",
-        "area": "99907 Mong Kok",
-        "email": "info@nabwork.hk",
-        "tel": "27113883"
+        "emails": [
+          "info@nabwork.hk"
+        ],
+        "single_line_address": "11/F, PAKPOLEE COMM CTR, 1A-1K SAI YEUNG CHOI STREET, MONGKOK KOWLOON, 99907 Mong Kok",
+        "website": "http://www.nabwork.hk"
       }
     },
     {

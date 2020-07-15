@@ -10,17 +10,22 @@
     {
       "url": "https://www.facebook.com/heungshingstore/",
       "meta": {
-        "name": "香城雜貨",
         "id": "105197774386095",
+        "username": "heungshingstore",
+        "name": "香城雜貨",
         "about": "做香港人從來都唔易，\n但香港人更係不屈不撓。\n\n香城雜貨，\n由一班本土香港年輕人創立，\n我哋想自食其力，自給自足，\n同時可以繼續自己的理念，\n在亂世中迎難而上，\n與香港人砥礪前行。",
-        "categories": [
-          "Shopping & Retail",
-          "Merchandising Service"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "169363643109176",
+            "name": "Merchandising Service"
+          }
         ],
-        "addr": "Hong Kong",
-        "area": "852 Hong Kong",
-        "email": "heungshingstoreonline@gamil.com",
-        "tel": "62230726"
+        "single_line_address": "Hong Kong, 852 Hong Kong",
+        "website": "www.heungshingonline.com"
       }
     },
     {

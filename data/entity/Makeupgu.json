@@ -14,17 +14,25 @@
     {
       "url": "https://www.facebook.com/Makeupgu/",
       "meta": {
-        "name": "化妝菇 MakeupGU",
         "id": "273325746093370",
+        "username": "Makeupgu",
+        "name": "化妝菇 MakeupGU",
         "about": "設有新娘, 姊妹, 各類宴會化妝，髮型設計服務。\n歡迎查詢及索取價目表。",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care",
-          "School"
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          },
+          {
+            "id": "2601",
+            "name": "School"
+          }
         ],
-        "addr": "長沙灣道760-762號香港紗廠工業大廈5期11樓C2A室 (荔枝角站B1出口)",
-        "area": "Hong Kong",
-        "email": "info@makeupgu.com",
-        "tel": "55304664"
+        "emails": [
+          "info@makeupgu.com"
+        ],
+        "single_line_address": "長沙灣道760-762號香港紗廠工業大廈5期11樓C2A室 (荔枝角站B1出口), Hong Kong",
+        "website": "http://www.makeupgu.com"
       }
     },
     {

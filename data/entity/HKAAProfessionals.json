@@ -11,13 +11,20 @@
     {
       "url": "https://www.facebook.com/HKAAProfessionals/",
       "meta": {
-        "name": "HKAAP 香港會計專業人員協會",
         "id": "105195847624670",
+        "username": "HKAAProfessionals",
+        "name": "HKAAP 香港會計專業人員協會",
         "about": "Telegram channel: https://t.me/hkaap\nApplication Form: https://bit.ly/39uErPN",
-        "categories": [
-          "Labor Union"
+        "category_list": [
+          {
+            "id": "192775991124365",
+            "name": "Labor Union"
+          }
         ],
-        "email": "info@hkaap.org.hk"
+        "emails": [
+          "info@hkaap.org.hk"
+        ],
+        "website": "https://bit.ly/2KUzNkK"
       }
     }
   ],

@@ -10,14 +10,25 @@
     {
       "url": "https://www.facebook.com/gearuphongkong/",
       "meta": {
-        "name": "Gear噏",
         "id": "110727667218228",
+        "username": "gearuphongkong",
+        "name": "Gear噏",
         "about": "「Gear噏」希望用一個深入淺出嘅方式介紹本土論述，幫香港人思想武裝！",
-        "categories": [
-          "Blogger",
-          "Society & Culture Website"
+        "category_list": [
+          {
+            "id": "361282040719868",
+            "name": "Blogger"
+          },
+          {
+            "id": "2714",
+            "name": "Society & Culture Website"
+          }
         ],
-        "email": "gearuphongkong@gmail.com"
+        "emails": [
+          "gearuphongkong@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://matters.news/@gearup_hongkong"
       }
     },
     {

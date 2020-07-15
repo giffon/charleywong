@@ -10,14 +10,25 @@
     {
       "url": "https://www.facebook.com/Thirdblade/",
       "meta": {
-        "name": "Thirdblade Photography",
         "id": "151681981599553",
+        "username": "Thirdblade",
+        "name": "Thirdblade Photography",
         "about": "Brooklyn-based Photographer. Check out my new updates here =)\nAnd feel free to follow me via instagram: instagram.com/thirdblade",
-        "categories": [
-          "Artist",
-          "Photographer"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "john@thirdbladephoto.com"
+        "emails": [
+          "john@thirdbladephoto.com"
+        ],
+        "single_line_address": "Brooklyn, New York 11201",
+        "website": "http://thirdbladephoto.com"
       }
     },
     {

@@ -7,14 +7,20 @@
     {
       "url": "https://www.facebook.com/103405731260512/",
       "meta": {
-        "name": "雋潮",
         "id": "103405731260512",
+        "name": "雋潮",
         "about": "專營*批發●零售●商店●住戶送貨",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "hightide210@gmail.com",
-        "tel": "61618391"
+        "emails": [
+          "hightide210@gmail.com"
+        ],
+        "single_line_address": "洪水橋, Hong Kong",
+        "website": "https://www.facebook.com/雋潮-103405731260512/"
       }
     }
   ],

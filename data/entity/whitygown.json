@@ -6,14 +6,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "WHITY GOWN Wedding",
         "id": "336767229755181",
-        "about": "Wedding gowns ,Evening gowns rental service",
-        "categories": [
-          "Bridal Shop"
+        "name": "WHITY GOWN Wedding",
+        "about": "Wedding gowns ,Evening gowns rental service ",
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          }
         ],
-        "addr": "Rm02, 10/F Mai Tower ,132 Wai Yip Street, Kwun Tong",
-        "area": "Hong Kong"
+        "single_line_address": "Flat 6H, Wang Kwong Industrial Building, 45 Hung To Road, Kwun Tong, Hong Kong"
       },
       "url": "https://www.facebook.com/336767229755181/"
     },

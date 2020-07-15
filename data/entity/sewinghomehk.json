@@ -8,17 +8,25 @@
     {
       "url": "https://www.facebook.com/sewinghomehk/",
       "meta": {
-        "name": "Sewing Home 縫補寶",
         "id": "141745019901914",
+        "username": "sewinghomehk",
+        "name": "Sewing Home 縫補寶",
         "about": "*尋回夢想的六十後*\n\n人生夢一場革命至蒼老　難得夢一場革命不老",
-        "categories": [
-          "Apparel & Clothing",
-          "Sewing & Alterations",
-          "Sewer Service"
+        "category_list": [
+          {
+            "id": "1086422341396773",
+            "name": "Apparel & Clothing"
+          },
+          {
+            "id": "140784189318631",
+            "name": "Sewing & Alterations"
+          },
+          {
+            "id": "192308454131801",
+            "name": "Sewer Service"
+          }
         ],
-        "addr": "31-33 Ng Fong Street",
-        "area": "Hong Kong",
-        "tel": "69984084"
+        "single_line_address": "31-33 Ng Fong Street, Hong Kong"
       }
     },
     {

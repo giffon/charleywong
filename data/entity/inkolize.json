@@ -10,13 +10,20 @@
     },
     {
       "meta": {
-        "name": "Inkolize",
         "id": "149153385423812",
+        "username": "inkolize",
+        "name": "Inkolize",
         "about": "Embrace the joy and pain of hand printing.",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "hi@inkolize.com"
+        "emails": [
+          "hi@inkolize.com"
+        ],
+        "website": "http://www.inkolize.com"
       },
       "url": "https://www.facebook.com/inkolize/"
     },

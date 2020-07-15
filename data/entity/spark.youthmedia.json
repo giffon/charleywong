@@ -15,13 +15,19 @@
     {
       "url": "https://www.facebook.com/spark.youthmedia/",
       "meta": {
-        "name": "Spark • 撻著",
         "id": "190553828256742",
+        "username": "spark.youthmedia",
+        "name": "Spark • 撻著",
         "about": "由一群關心社會的學生組成的學生傳媒團隊。眼見社會充斥著不公不義，很多年輕人卻無法為自己吶喊。因此，我們希望集合學生的聲音就不同社會議題發聲，在這冷漠的社會中燃起星星之火。",
-        "categories": [
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "spark.youthmedia@gmail.com"
+        "emails": [
+          "spark.youthmedia@gmail.com"
+        ]
       }
     }
   ],

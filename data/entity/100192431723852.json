@@ -7,13 +7,19 @@
     {
       "url": "https://www.facebook.com/100192431723852/",
       "meta": {
-        "name": "串親你 - 串燒糖水速遞",
         "id": "100192431723852",
-        "categories": [
-          "Product/Service",
-          "Personal Blog"
+        "name": "串親你 - 串燒糖水速遞",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "tel": "51955559"
+        "single_line_address": "光輝圍, Hong Kong"
       }
     }
   ],

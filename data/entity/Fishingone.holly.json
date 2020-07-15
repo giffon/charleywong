@@ -8,17 +8,24 @@
     {
       "url": "https://www.facebook.com/Fishingone.holly/",
       "meta": {
-        "name": "海攻房 Fishing-One Tackle Shop",
         "id": "375025245915598",
-        "about": "海攻房 Fishing-One Tackle Shop\n專營各類日本品牌漁具 Retail & wholesale Japanese Brand fishing tackles\nAuthorized dealer of Yamaria/Majorcraft/Palms",
-        "categories": [
-          "Fishing Store",
-          "Outdoor & Sporting Goods Company"
+        "username": "Fishingone.holly",
+        "name": "海攻房 Fishing-One Tackle Shop",
+        "about": "海攻房 Fishing-One Tackle Shop\n專營各類日本品牌漁具 Retail & wholesale Japanese Brand fishing tackles\nAuthorized dealer of Yamaria/Majorcraft/Palms\n",
+        "category_list": [
+          {
+            "id": "281652712182174",
+            "name": "Fishing Store"
+          },
+          {
+            "id": "2231",
+            "name": "Outdoor & Sporting Goods Company"
+          }
         ],
-        "addr": "G/F,No. 21 Ferry Street,Jordan",
-        "area": "999077 Kowloon, Hong Kong",
-        "email": "info1@fishingone.com.hk",
-        "tel": "23856811"
+        "emails": [
+          "info1@fishingone.com.hk"
+        ],
+        "single_line_address": "G/F,No. 21 Ferry Street,Jordan, 999077 Kowloon, Hong Kong"
       }
     },
     {

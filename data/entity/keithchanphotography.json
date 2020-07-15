@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/keithchanphotography/",
       "meta": {
-        "name": "KeiTh cHAN PhotoGraphy",
         "id": "147619178626140",
+        "username": "keithchanphotography",
+        "name": "KeiTh cHAN PhotoGraphy",
         "about": "Website: www.keithchanphotography.com\nEmail: info@keithchanphotography.com\nTel: 66839069",
-        "categories": [
-          "Artist"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "info@keithchanphotography.com",
-        "tel": "66839069"
+        "emails": [
+          "info@keithchanphotography.com"
+        ],
+        "website": "http://www.keithchanphotography.com"
       }
     },
     {

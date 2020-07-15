@@ -7,13 +7,19 @@
     {
       "url": "https://www.facebook.com/smilingbloomflorist/",
       "meta": {
-        "name": "Smiling Bloom",
         "id": "382144978624928",
+        "username": "smilingbloomflorist",
+        "name": "Smiling Bloom",
         "about": "Floral Arrangements | Classes |  Calligraphy | Wedding Decorations",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "smilingbloomflorist@gmail.com"
+        "emails": [
+          "smilingbloomflorist@gmail.com"
+        ]
       }
     },
     {

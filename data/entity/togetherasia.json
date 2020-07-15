@@ -10,10 +10,16 @@
     {
       "meta": {
         "id": "179310962122753",
+        "username": "togetherasia",
+        "name": "Together",
         "about": "All about love\nOnline Shop : http://www.humantouch.hk",
-        "categories": [
-          "Home decor"
-        ]
+        "category_list": [
+          {
+            "id": "192647794097278",
+            "name": "Home Decor"
+          }
+        ],
+        "website": "http://www.togetherasia.com"
       },
       "url": "https://www.facebook.com/togetherasia/"
     }

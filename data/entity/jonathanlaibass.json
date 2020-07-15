@@ -10,13 +10,24 @@
     {
       "meta": {
         "id": "281702788829535",
-        "about": "Bassist |Bass Guitar Instructor |Music Lover",
-        "categories": [
-          "Music video",
-          "Musician/band"
+        "username": "jonathanlaibass",
+        "name": "Jonathan LAI - Hong Kong Bass Player",
+        "about": "Bassist |Bass Guitar Instructor |Music Lover ",
+        "category_list": [
+          {
+            "id": "1207",
+            "name": "Music Video"
+          },
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "email": "jonathanlaibass@gmail.com",
-        "tel": "92021239"
+        "emails": [
+          "jonathanlaibass@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://www.jonathanlaibass.com"
       },
       "url": "https://www.facebook.com/jonathanlaibass/"
     }

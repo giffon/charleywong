@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/1682546452008555/",
       "meta": {
-        "name": "東昇沖晒二手器材公司 Sunrise Photo Co",
         "id": "1682546452008555",
+        "name": "東昇沖晒二手器材公司 Sunrise Photo Co",
         "about": "專營 二手相機,鏡頭 ,寄賣,買賣\n歡迎 菲林 ,數碼 相機,鏡頭,維修,CLEAN Lens ,CLEAN VIEW\n本公司於1976年成立，致力為影友提供高質素的專業沖印服務",
-        "categories": [
-          "Camera Store",
-          "Photographer",
-          "Professional Service"
+        "category_list": [
+          {
+            "id": "442121929137652",
+            "name": "Camera Store"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "176831012360626",
+            "name": "Professional Service"
+          }
         ],
-        "addr": "香港九龍荔枝角道333號B2 333/B2",
-        "area": "Sham Shui Po",
-        "tel": "23862048"
+        "single_line_address": "香港九龍荔枝角道333號B2 333/B2, Sham Shui Po",
+        "website": "http://sunrisephotohk.blog126.fc2.com/"
       }
     }
   ],

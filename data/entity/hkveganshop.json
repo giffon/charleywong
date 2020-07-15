@@ -15,16 +15,20 @@
     {
       "url": "https://www.facebook.com/hkveganshop/",
       "meta": {
-        "name": "手工訂製素食專門店hkveganshop",
         "id": "324233361562068",
-        "about": "灣仔駱克道150-158號祥友大廈1/F (灣仔站A1出口行10步）",
-        "categories": [
-          "Vegetarian/Vegan Restaurant"
+        "username": "hkveganshop",
+        "name": "手工訂製素食專門店hkveganshop",
+        "category_list": [
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          }
         ],
-        "addr": "hkveganshop,1/F, Fortune Building, 158 Lockhart road,",
-        "area": "0000 Hong Kong",
-        "email": "hkveganshop@yahoo.com",
-        "tel": "68083768"
+        "emails": [
+          "hkveganshop@yahoo.com"
+        ],
+        "single_line_address": "000000 Hong Kong",
+        "website": "https://www.instagram.com/hkveganshop/"
       }
     }
   ],

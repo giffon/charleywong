@@ -8,18 +8,27 @@
     {
       "url": "https://www.facebook.com/211878955902054/",
       "meta": {
-        "name": "彩aya",
         "id": "211878955902054",
-        "about": "元朗店地址: 元朗建德街26號益利大廈地下14號舖 63508637\n香港大學店地址: 香港島屈地街16號金陵大廈地下 24400900",
-        "categories": [
-          "Ramen Restaurant",
-          "Noodle House",
-          "Diner"
+        "name": "彩aya",
+        "about": "元朗店地址: 元朗建德街26號益利大廈地下14號舖 63508637\n香港大學店地址: 香港島屈地街16號金陵大廈地下  24400900",
+        "category_list": [
+          {
+            "id": "218838724804749",
+            "name": "Ramen Restaurant"
+          },
+          {
+            "id": "1848365298810025",
+            "name": "Noodle House"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "西環石塘咀屈地街16號金陵大廈地舖",
-        "area": "Hong Kong",
-        "email": "ayamenhk@gmail.com",
-        "tel": "24400900"
+        "emails": [
+          "ayamenhk@gmail.com"
+        ],
+        "single_line_address": "西環石塘咀屈地街16號金陵大廈地舖, Hong Kong"
       }
     }
   ],

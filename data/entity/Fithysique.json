@@ -17,13 +17,20 @@
     {
       "url": "https://www.facebook.com/Fithysique/",
       "meta": {
-        "name": "Fithysique",
         "id": "146145159262178",
-        "categories": [
-          "Clothing (Brand)"
+        "username": "Fithysique",
+        "name": "Fithysique",
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "email": "fithysique@gmail.com",
-        "tel": "94697805"
+        "emails": [
+          "fithysique@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "fithysique.com"
       }
     }
   ],

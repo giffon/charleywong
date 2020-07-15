@@ -26,17 +26,25 @@
     {
       "url": "https://www.facebook.com/orangeboxhk/",
       "meta": {
-        "name": "OrangeBox 日韓時裝批發",
         "id": "1504322946497848",
+        "username": "orangeboxhk",
+        "name": "OrangeBox 日韓時裝批發",
         "about": "OrangeBox 橙盒網絡，為您提供一站式電子商務創業方案，提供一站式韓國時裝批發，令你輕鬆可以建立自己的事業！",
-        "categories": [
-          "Apparel Distributor",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "214668188548441",
+            "name": "Apparel Distributor"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "葵涌華星街 16 號保盈工業大廈 10 樓 C 室",
-        "area": "852 Hong Kong",
-        "email": "info@orangebox.com.hk",
-        "tel": "51322677"
+        "emails": [
+          "info@orangebox.com.hk"
+        ],
+        "single_line_address": "葵涌華星街 16 號保盈工業大廈 10 樓 C 室, 852 Hong Kong",
+        "website": "https://orangebox.com.hk"
       }
     }
   ],

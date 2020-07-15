@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/fanlinghideout/",
       "meta": {
-        "name": "粉嶺私塾 Fanling Hideout",
         "id": "618407784993402",
-        "about": "🏠粉嶺上水唯一共享空間®\nTatami 和式設計風\n寧靜環境｜心靈音樂｜WIFI共享｜電源供應｜投影機借用｜品味茶點｜公用電腦｜影印服務｜精選書籍｜盡訴煩惱",
-        "categories": [
-          "Product/Service",
-          "Event"
+        "username": "fanlinghideout",
+        "name": "粉嶺私塾 Fanling Hideout",
+        "about": "🏠粉嶺上水唯一共享空間®\nTatami 和式設計風\n寧靜環境｜心靈音樂｜WIFI共享｜電源供應｜投影機借用｜品味茶點｜公用電腦｜影印服務｜精選書籍｜盡訴煩惱\n\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "192119584190796",
+            "name": "Event"
+          }
         ],
-        "addr": "1k Fan Leng Lau, Fanling, Hong Kong",
-        "area": "114.1419437 Hong Kong",
-        "email": "info@fanlinghideout.com",
-        "tel": "55428665"
+        "emails": [
+          "info@fanlinghideout.com"
+        ],
+        "single_line_address": "1k Fan Leng Lau, Fanling, Hong Kong, 114.1419437 Hong Kong",
+        "website": "https://www.fanlinghideout.com/"
       }
     },
     {

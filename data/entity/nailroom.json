@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/nailroom/",
       "meta": {
-        "name": "Nail Room",
         "id": "109685305720828",
-        "about": "•本店開立於2010年，專業美甲師盡心為妳設計款式\n•Hard / Soft Gel 手，2色試做價$280\n•孕睫術•Barbie Lash 角蛋白翹睫\n•堅持不會將貨就價，不用劣質產品，不硬銷",
-        "categories": [
-          "Nail Salon"
+        "username": "nailroom",
+        "name": "Nail Room",
+        "about": "•本店開立於2010年，專業美甲師盡心為妳設計款式\n•Hard / Soft Gel 手，2色試做價$280\n•孕睫術•Barbie Lash 角蛋白翹睫\n•堅持不會將貨就價，不用劣質產品，不硬銷\n",
+        "category_list": [
+          {
+            "id": "198516863494646",
+            "name": "Nail Salon"
+          }
         ],
-        "addr": "加連威老道29號信基商業中心16樓A",
-        "area": "Tsim Sha Tsui",
-        "email": "nailroom@ymail.com",
-        "tel": "61147527"
+        "emails": [
+          "nailroom@ymail.com"
+        ],
+        "single_line_address": "加連威老道29號信基商業中心16樓A, Tsim Sha Tsui",
+        "website": "http://www.nailroomhk.com"
       }
     },
     {

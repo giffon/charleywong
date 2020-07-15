@@ -7,14 +7,18 @@
     {
       "url": "https://www.facebook.com/112426590399137/",
       "meta": {
-        "name": "翠林食店外賣專線",
         "id": "112426590399137",
+        "name": "將軍澳外賣專線",
         "about": "留家避炎，一樣可以支持小店！\n\n翠林黃店近月因肺炎疫情而令生意額嚴重受到影響，有見及此，希望藉著成立抗炎外賣圈，希望為更多街坊服務。",
-        "categories": [
-          "Local Service"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "email": "menuyellow@gmail.com",
-        "tel": "97463241"
+        "emails": [
+          "menuyellow@gmail.com"
+        ]
       }
     },
     {

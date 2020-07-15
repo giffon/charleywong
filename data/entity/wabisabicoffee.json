@@ -7,18 +7,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "侘寂珈琲 WabiSabi Coffee",
         "id": "896367740431998",
+        "username": "wabisabicoffee",
+        "name": "侘寂珈琲 WabiSabi Coffee",
         "about": "Instagram: wabisabi_coffee\n\n片刻寧靜，始於侘寂",
-        "categories": [
-          "Coffee Shop",
-          "Asian Restaurant",
-          "Breakfast & Brunch Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          },
+          {
+            "id": "185855984789970",
+            "name": "Asian Restaurant"
+          }
         ],
-        "addr": "Unit C 4/F., Everest Industrial Centre, 396 Kwun Tong Road",
-        "area": "852 Kwun Tong",
-        "email": "wabisabicoffee2015@gmail.com",
-        "tel": "25111929"
+        "emails": [
+          "wabisabicoffee2015@gmail.com"
+        ],
+        "single_line_address": "Unit C 4/F., Everest Industrial Centre, 396 Kwun Tong Road, 852 Kwun Tong"
       },
       "url": "https://www.facebook.com/wabisabicoffee/"
     },
@@ -32,17 +42,28 @@
     {
       "url": "https://www.facebook.com/wabisabicoffee.kissa/",
       "meta": {
-        "name": "侘寂珈琲・喫茶 WabiSabi Coffee Kissa",
         "id": "110030680421726",
-        "categories": [
-          "Coffee Shop",
-          "Sake Bar",
-          "Japanese Restaurant"
+        "username": "wabisabicoffee.kissa",
+        "name": "侘寂珈琲・喫茶 WabiSabi Coffee Kissa",
+        "about": "Instagram: wabisabi_coffee.kissa\n\n將侘寂與珈琲，融入藝術公園",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          },
+          {
+            "id": "1640927539562872",
+            "name": "Sake Bar"
+          }
         ],
-        "addr": "Unit GF-05 G/F. 22 Museum Drive, West Kowloon Cultural District",
-        "area": "Kowloon, Hong Kong",
-        "email": "wabisabicoffeekissa2019@gmail.com",
-        "tel": "52828432"
+        "emails": [
+          "wabisabicoffeekissa2019@gmail.com"
+        ],
+        "single_line_address": "Unit GF-05 G/F. 22 Museum Drive, West Kowloon Cultural District, Kowloon, Hong Kong"
       }
     },
     {

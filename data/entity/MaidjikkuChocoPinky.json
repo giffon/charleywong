@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Cafe Maidjikku Choco Pinky",
         "id": "242073985875973",
+        "username": "MaidjikkuChocoPinky",
+        "name": "Cafe Maidjikku Choco Pinky",
         "about": "粉紅色巧克力結界！\n可愛魔法餐點~日式蛋包飯~水果鬆餅~閃亮特調\n豐富遊樂設備~多款桌遊・PS4・Switch\n長駐兔子族族~可餵草草\n\n訂座熱線：90152868\n旺角登打士街36號恆威商業中心10樓",
-        "categories": [
-          "Restaurant",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "登打士街36號 恆威商業中心10樓",
-        "area": "Hong Kong",
-        "tel": "90152868"
+        "single_line_address": "登打士街36號 恆威商業中心10樓, Hong Kong"
       },
       "url": "https://www.facebook.com/MaidjikkuChocoPinky/"
     },

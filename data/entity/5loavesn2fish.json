@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "五餅二魚美食料理",
         "id": "190050437744103",
+        "username": "5loavesn2fish",
+        "name": "五餅二魚美食料理",
         "about": "以基督教精神開辦到會服務及易煮包，培訓弱勢社群重投社會，以發揮餐飲服務榮耀神的精神。",
-        "categories": [
-          "Caterer",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "139433292785470",
+            "name": "Caterer"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "觀塘偉業街221號美德工業大廈C座二樓",
-        "area": "Kwun Tong",
-        "email": "order@5loavesn2fish.com",
-        "tel": "26644120"
+        "emails": [
+          "order@5loavesn2fish.com"
+        ],
+        "single_line_address": "觀塘偉業街221號美德工業大廈C座二樓, Kwun Tong",
+        "website": "http://www.5loavesn2fish.com"
       },
       "url": "https://www.facebook.com/5loavesn2fish/"
     }

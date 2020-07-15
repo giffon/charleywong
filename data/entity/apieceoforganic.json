@@ -10,14 +10,21 @@
     {
       "url": "https://www.facebook.com/apieceoforganic/",
       "meta": {
-        "name": "A Piece Of Organic - APOO",
         "id": "312471372183164",
+        "username": "apieceoforganic",
+        "name": "A Piece Of Organic - APOO",
         "about": "銅鑼灣銀座商場40號舖，九龍旺角彌敦道655號655大廈（前胡社生行）11樓1112室，荃灣南豐中心1132室，屯門鄉事會路83號V City MTR層M-95a號舖，九龍深水埗深旺道28號 V Walk 二樓 L2-11號 \n\nTel：35251966",
-        "categories": [
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "email": "info@apieceoforganic.hk",
-        "tel": "35251966"
+        "emails": [
+          "info@apieceoforganic.hk"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://www.apieceoforganic.com"
       }
     },
     {

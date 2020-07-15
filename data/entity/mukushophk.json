@@ -15,15 +15,21 @@
     {
       "url": "https://www.facebook.com/mukushophk/",
       "meta": {
-        "name": "木屋MUKU",
         "id": "272744183108825",
-        "about": "特色格仔店鋪:-)\n①九龍旺角彌敦道688號旺角中心3樓T65室",
-        "categories": [
-          "Shopping & Retail"
+        "username": "mukushophk",
+        "name": "木屋MUKU",
+        "about": "特色格仔店鋪:-)\n①九龍旺角彌敦道688號旺角中心3樓T65室\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "九龍旺角彌敦道688號旺角中心3樓T65室",
-        "area": "Hong Kong",
-        "email": "mukushophk@gmail.com"
+        "emails": [
+          "mukushophk@gmail.com"
+        ],
+        "single_line_address": "九龍旺角彌敦道688號旺角中心3樓T65室, Hong Kong",
+        "website": "http://www.instagram.com/muku.shop"
       }
     }
   ],

@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/accstoreonline/",
       "meta": {
-        "name": "Accstore",
         "id": "714238782042886",
+        "username": "accstoreonline",
+        "name": "Accstore",
         "about": "We Accelerate Your Game\nInstagram: accstore",
-        "categories": [
-          "Sports Team"
+        "category_list": [
+          {
+            "id": "186982054657561",
+            "name": "Sports & Recreation"
+          }
         ],
-        "email": "sales.acchk@gmail.com",
-        "tel": "55443889"
+        "emails": [
+          "sales.acchk@gmail.com"
+        ],
+        "website": "http://accstoreonline.com/"
       }
     },
     {

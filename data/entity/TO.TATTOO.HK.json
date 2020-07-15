@@ -14,17 +14,25 @@
     {
       "url": "https://www.facebook.com/TO.TATTOO.HK/",
       "meta": {
-        "name": "T o . T a t t o o 香港紋身設計",
         "id": "568723019963321",
+        "username": "TO.TATTOO.HK",
+        "name": "T o . T a t t o o  香港紋身設計",
         "about": "Custom-made design\nProfessional tattoo\nCover Up /refreshing old tattoo\nBy appointment only\n\nUsing vegan safe tattoo ink,made in USA \nServing with disposable tips and needles",
-        "categories": [
-          "Tattoo & Piercing Shop",
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "551469561691940",
+            "name": "Tattoo & Piercing Shop"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "addr": "2003, Ho King Commerical Building, 2-16 Fa Yuen Street, Mong Kok",
-        "area": "00000 Hong Kong",
-        "email": "to.tattoo.hk@gmail.com",
-        "tel": "51172215"
+        "emails": [
+          "to.tattoo.hk@gmail.com"
+        ],
+        "single_line_address": "2003, Ho King Commerical Building, 2-16 Fa Yuen Street, Mong Kok, 00000 Hong Kong",
+        "website": "https://www.instagram.com/to.tattoo.hk"
       }
     }
   ],

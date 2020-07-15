@@ -11,15 +11,18 @@
     {
       "url": "https://www.facebook.com/WashStoryLtd/",
       "meta": {
-        "name": "Wash Story 洗碗奇兵社會企業有限公司",
         "id": "107766820786515",
+        "username": "WashStoryLtd",
+        "name": "Wash Story 洗碗奇兵社會企業有限公司",
         "about": "洗碗奇兵是一家自設工場提供餐具清洗服務的社會企業",
-        "categories": [
-          "Local Service"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "addr": "沙田火炭山尾街43-47號 環球工業大廈5樓501-502室",
-        "area": "Hong Kong",
-        "tel": "66993913"
+        "single_line_address": "沙田火炭山尾街43-47號 環球工業大廈5樓501-502室, Hong Kong",
+        "website": "https://www.wash-story.com/"
       }
     }
   ],

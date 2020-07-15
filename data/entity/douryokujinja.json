@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "動力神社",
         "id": "253044355075836",
+        "username": "douryokujinja",
+        "name": "動力神社",
         "about": "動力神社是一個插畫品牌，希望能透過當中角色——水水的故事來治癒人心。城市的人都生病了，包括畫者本人也是，但透過水水能夠表達或抒發心中鬱悶。",
-        "categories": [
-          "Artist"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "lpyshadow@gmail.com"
+        "emails": [
+          "lpyshadow@gmail.com"
+        ],
+        "website": "https://www.instagram.com/littoral_hyacinth/"
       },
       "url": "https://www.facebook.com/douryokujinja/"
     },

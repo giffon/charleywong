@@ -10,17 +10,29 @@
     {
       "url": "https://www.facebook.com/casual.ace/",
       "meta": {
-        "name": "Casual Ace Learning Centre",
         "id": "274569512658617",
-        "about": "地址 : 香港仔大道216-218 號永發商業大廈2樓全層 電話 : 3563 7970 / 5669 3000\n\n海怡分校\n地址：海怡東商場3樓390A 室\n\n天后分校\n地址：木星街9號永昇中心6 樓605 室",
-        "categories": [
-          "Tutor/Teacher",
-          "Day Care"
+        "username": "casual.ace",
+        "name": "Casual Ace Learning Centre",
+        "about": "地址 : 香港仔大道216-218 號永發商業大廈2樓全層 電話 : 3563 7970 / 5669 3000\n\n海怡分校\n地址：海怡東商場3樓390A 室\n\n",
+        "category_list": [
+          {
+            "id": "145296352197250",
+            "name": "Tutor/Teacher"
+          },
+          {
+            "id": "191914921205687",
+            "name": "Test Preparation Center"
+          },
+          {
+            "id": "164595956925901",
+            "name": "Day Care"
+          }
         ],
-        "addr": "2/F Wing Fat Commercial Building",
-        "area": "216-218 Aberdeen Main Rd Aberdeen, Hong Kong",
-        "email": "casualace.lc@gmail.com",
-        "tel": "35637970"
+        "emails": [
+          "casualace.lc@gmail.com"
+        ],
+        "single_line_address": "2/F Wing Fat Commercial Building, 216-218 Aberdeen Main Rd Aberdeen, Hong Kong",
+        "website": "https://casualace.business.site/?m=true"
       }
     },
     {

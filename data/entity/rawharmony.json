@@ -7,14 +7,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "原始和聲 Raw Harmony",
         "id": "473836902992761",
-        "about": "支持本地詩歌創作，歡迎奉獻。\nhttp://anhop.asia/incubator/08-offering_01_zh.html (請列明奉獻給Raw Harmony)",
-        "categories": [
-          "Brand",
-          "Music Video"
+        "username": "rawharmony",
+        "name": "原始和聲 Raw Harmony",
+        "about": "『原始』代表年青人不加修飾、純潔、坦率的特質；『和聲』代表不同的聲音互相協調，找到共鳴， 寄意我們接納多元的音樂表達。\n\n",
+        "category_list": [
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          },
+          {
+            "id": "1207",
+            "name": "Music Video"
+          },
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "email": "yhophk@incubatorministries.asia"
+        "emails": [
+          "rawharmonyhk@gmail.com"
+        ],
+        "website": "www.rawharmony.hk"
       },
       "url": "https://www.facebook.com/rawharmony/"
     },

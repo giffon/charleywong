@@ -9,15 +9,29 @@
     },
     {
       "meta": {
-        "name": "カマコジ（卡媽歌紙）",
         "id": "489809927855365",
+        "username": "kamakoji.kasankwong",
+        "name": "カマコジ（卡媽歌紙）",
         "about": "提供不同插畫及平面設計服務，包括書刊、雜誌、書籍、卡片、明信片、海報、教學用品..等等。\n*詳情可以 inbox 卡媽歌紙",
-        "categories": [
-          "Arts & Entertainment",
-          "Product/Service",
-          "Book"
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "1300",
+            "name": "Book"
+          }
         ],
-        "email": "kamakoji1007@gmail.com"
+        "emails": [
+          "kamakoji1007@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://kasan1007.wixsite.com/website"
       },
       "url": "https://www.facebook.com/kamakoji.kasankwong/"
     },

@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/joyeuserie/",
       "meta": {
-        "name": "Joyeuserie",
         "id": "528763467245944",
+        "username": "joyeuserie",
+        "name": "Joyeuserie",
         "about": "在法國巴黎成立的歐洲設計生活雜貨網店 Joyeuserie 以Spread the Happiness 為使命，為大家在歐洲搜羅質優漂亮的好生活設計。",
-        "categories": [
-          "Website"
-        ]
+        "category_list": [
+          {
+            "id": "2202",
+            "name": "Website"
+          }
+        ],
+        "website": "http://joyeuserie.fr/"
       }
     },
     {

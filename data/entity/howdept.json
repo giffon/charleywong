@@ -9,18 +9,29 @@
     },
     {
       "meta": {
-        "name": "HOW",
         "id": "601936756651310",
+        "username": "howdept",
+        "name": "HOW",
         "about": "HOW to live well?",
-        "categories": [
-          "Furniture Store",
-          "Interior Design Studio",
-          "Cafe"
+        "category_list": [
+          {
+            "id": "162845797101278",
+            "name": "Furniture Store"
+          },
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
         ],
-        "addr": "Block AB, 3/F, How Ming Factory Bldg., 99 How Ming St",
-        "area": "852 Kwun Tong",
-        "email": "mayiknow@how-dept.com",
-        "tel": "28051708"
+        "emails": [
+          "mayiknow@how-dept.com"
+        ],
+        "single_line_address": "Block AB, 3/F, How Ming Factory Bldg., 99 How Ming St, 852 Kwun Tong",
+        "website": "http://www.how-dept.com"
       },
       "url": "https://www.facebook.com/howdept/"
     },

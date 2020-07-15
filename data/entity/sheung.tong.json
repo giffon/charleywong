@@ -7,15 +7,23 @@
     {
       "url": "https://www.facebook.com/143239032382259/",
       "meta": {
-        "name": "嚐糖",
         "id": "143239032382259",
+        "name": "嚐糖",
         "about": "「嚐糖」是一間別具特色的糖水店，以課室作主題，讓客人在品嚐美味糖水之餘，同時可和友人回味兒時上堂的有趣回憶。",
-        "categories": [
-          "Restaurant",
-          "Candy Store"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "414430838570027",
+            "name": "Candy Store"
+          }
         ],
-        "email": "sheungtong@gmail.com",
-        "tel": "68864122"
+        "emails": [
+          "sheungtong@gmail.com"
+        ],
+        "single_line_address": "店舖:旺角廣華街13號廣輝大廈地下3號"
       }
     },
     {

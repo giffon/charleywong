@@ -9,28 +9,44 @@
     },
     {
       "meta": {
-        "name": "Giga Music Box",
         "id": "228993507140427",
+        "name": "Giga Music Box",
         "about": "Band房出租    錄音室出租    專業彩排房間    音響出租    多媒體製作\n音樂課程",
-        "categories": [
-          "Musician",
-          "Performance & Event Venue"
+        "category_list": [
+          {
+            "id": "1335670856447673",
+            "name": "Musician"
+          },
+          {
+            "id": "179943432047564",
+            "name": "Performance & Event Venue"
+          }
         ],
-        "email": "gigamusicbox@gmail.com",
-        "tel": "55407891"
+        "emails": [
+          "gigamusicbox@gmail.com"
+        ],
+        "single_line_address": "銅鑼灣東角渣甸坊30-36號利發大廈3樓 (港鐵F1出口)",
+        "website": "http://www.gigamusicbox.com"
       },
       "url": "https://www.facebook.com/228993507140427/"
     },
     {
       "meta": {
-        "name": "Giga 音樂中心 X Ukulele X Guitar X Bass X Drum X Saxophone",
         "id": "134785706584478",
+        "username": "gigaukulele",
+        "name": "Giga 音樂中心 X Ukulele X Guitar X Bass X Drum X Saxophone",
         "about": "Guitar Ukulele Bass Guitar Drum Band",
-        "categories": [
-          "Musician/Band"
+        "category_list": [
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "email": "gigamusicbox@gmail.com",
-        "tel": "55407891"
+        "emails": [
+          "gigamusicbox@gmail.com"
+        ],
+        "single_line_address": "銅鑼灣東角渣甸坊30-36號利發大廈3樓, Wan Chai",
+        "website": "http://www.gigamusicbox.com"
       },
       "url": "https://www.facebook.com/gigaukulele/"
     }

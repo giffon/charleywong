@@ -7,12 +7,19 @@
     {
       "url": "https://www.facebook.com/protectkc/",
       "meta": {
-        "name": "護我英皇",
         "id": "430082733867697",
+        "username": "protectkc",
+        "name": "護我英皇",
         "about": "2015年冬至，香港官立中學英皇書院校方在皇冠磁磚牆安裝電視，破壞學校歷史。\n保護屬於英皇的歷史，保護屬於香港的歷史，人人有責。We ourselves must write the story.",
-        "categories": [
-          "Community",
-          "School"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "2601",
+            "name": "School"
+          }
         ]
       }
     }

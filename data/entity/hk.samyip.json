@@ -18,17 +18,29 @@
     {
       "url": "https://www.facebook.com/hk.samyip/",
       "meta": {
-        "name": "葉錦龍　Sam Yip",
         "id": "817306605018029",
+        "username": "hk.samyip",
+        "name": "葉錦龍　Sam Yip",
         "about": "中西區區議會議員（石塘咀）|\n文化活動製作顧問、中日傳譯 |　\n西環飛躍動力召集人 |　\n西柚辦公室執委 |　\n中西區區議會交通及運輸委員會增選委員(2016-17)",
-        "categories": [
-          "Producer",
-          "Politician",
-          "Translator"
+        "category_list": [
+          {
+            "id": "1108",
+            "name": "Producer"
+          },
+          {
+            "id": "1700",
+            "name": "Politician"
+          },
+          {
+            "id": "132478556820146",
+            "name": "Translator"
+          }
         ],
-        "addr": "干諾道西188號香港商業中心29樓2908室",
-        "area": "Victoria, Hong Kong",
-        "email": "change.saiwan@gmail.com"
+        "emails": [
+          "change.saiwan@gmail.com"
+        ],
+        "single_line_address": "干諾道西188號香港商業中心29樓2908室, Victoria, Hong Kong",
+        "website": "http://samyip.net"
       }
     }
   ],

@@ -6,16 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "JUICY JELLY FLORIST",
         "id": "1551454215152092",
+        "username": "juicyjellyflorist",
+        "name": "JUICY JELLY FLORIST",
         "about": "【❀ 花藝：設計&製作 ❀】 \nJuicy Jelly 可訂造各款花球 / 花束 / 手花襟花，及多款花藝擺設。 歡迎各大商場 / 酒店 / 品牌向我們訂製不同節日氣氛的花藝裝飾擺設，亦接受報名預約每月 Floral Jamm",
-        "categories": [
-          "Florist"
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "addr": "葵涌葵昌路18-24號美順工業大廈2樓B17室",
-        "area": "00000 Hong Kong",
-        "email": "juicyjelly212@gmail.com",
-        "tel": "92271000"
+        "emails": [
+          "juicyjelly212@gmail.com"
+        ],
+        "single_line_address": "葵涌葵昌路18-24號美順工業大廈2樓B17室, 00000 Hong Kong"
       },
       "url": "https://www.facebook.com/juicyjellyflorist/"
     },

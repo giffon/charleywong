@@ -9,14 +9,20 @@
     },
     {
       "meta": {
-        "name": "Holly Brown",
         "id": "110646632314057",
-        "about": "Specialty coffee and amazing dessert/gelato",
-        "categories": [
-          "Restaurant"
+        "username": "hollybrowncoffee",
+        "name": "Holly Brown",
+        "about": "Restaurant with live music ",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "email": "raymondhollybrown@gmail.com",
-        "tel": "23712826"
+        "emails": [
+          "raymondhollybrown@gmail.com"
+        ],
+        "website": "http://www.hollybrowncoffee.com/"
       },
       "url": "https://www.facebook.com/hollybrowncoffee/"
     },

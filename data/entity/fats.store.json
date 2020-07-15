@@ -11,18 +11,29 @@
     {
       "url": "https://www.facebook.com/fats.store/",
       "meta": {
-        "name": "肥的店 Fat's Store - 西班牙食材葡萄酒專門店",
         "id": "103643907802243",
+        "username": "fats.store",
+        "name": "肥的店 Fat's Store - 西班牙食材葡萄酒專門店",
         "about": "我們位於大角咀，專營優質西班牙洋酒和黑毛豬及各類急凍食品。\nWe primarily offer good quality Spanish wine, Iberico and variety of frozen food in Tai Kok Tsui.",
-        "categories": [
-          "Shopping & Retail",
-          "Wine/Spirits",
-          "Food & Beverage"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2224",
+            "name": "Wine/Spirits"
+          },
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          }
         ],
-        "addr": "G/F, 64C Kok Cheung Street",
-        "area": "Tai Kok Tsui",
-        "email": "fatfatstorecs@gmail.com",
-        "tel": "66441903"
+        "emails": [
+          "fatfatstorecs@gmail.com"
+        ],
+        "single_line_address": "G/F, 64C Kok Cheung Street, Tai Kok Tsui",
+        "website": "fatstore.com.hk"
       }
     },
     {

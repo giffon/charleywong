@@ -11,14 +11,29 @@
     {
       "url": "https://www.facebook.com/orwelllai.opapa/",
       "meta": {
-        "name": "O'爸爸講故仔 O'Papa Storytelling",
         "id": "321646575160269",
+        "username": "orwelllai.opapa",
+        "name": "O'爸爸講故仔 O'Papa Storytelling",
         "about": "「O'」既取自我Orwell的第一個字母，也以圓圈提醒自己：生活可以簡單，但要充實；做學問必須深入，卻要淺出。 小撇一如舉手，像孩童般對世界不斷發問、探索，然後娓娓道出不同的故事。",
-        "categories": [
-          "Society & Culture Website",
-          "Arts & Humanities Website"
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          },
+          {
+            "id": "1300",
+            "name": "Book"
+          },
+          {
+            "id": "2701",
+            "name": "Arts & Humanities Website"
+          }
         ],
-        "email": "orwelllaiblog@gmail.com"
+        "emails": [
+          "orwelllai.blog@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://orwelllai.blogspot.com/"
       }
     }
   ],

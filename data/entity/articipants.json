@@ -8,14 +8,26 @@
     {
       "url": "https://www.facebook.com/articipants/",
       "meta": {
-        "name": "文化同行 ARTicipants",
         "id": "194065334374595",
-        "categories": [
-          "Community",
-          "Art",
-          "Society & Culture Website"
+        "username": "articipants",
+        "name": "文化同行 ARTicipants",
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "2714",
+            "name": "Society & Culture Website"
+          }
         ],
-        "email": "articipants@gmail.com"
+        "emails": [
+          "articipants@gmail.com"
+        ]
       }
     }
   ],

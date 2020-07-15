@@ -40,38 +40,49 @@
     },
     {
       "meta": {
-        "name": "18toys 成人用品葵涌店",
         "id": "1668144683446686",
+        "username": "18toys.com.hk",
+        "name": "18toys 成人用品葵涌店",
         "about": "18toys 成人用品店",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "葵涌葵昌路永祥工業大廈2樓A11",
-        "area": "Hong Kong",
-        "email": "cs.18toys@gmail.com",
-        "tel": "56431598"
+        "emails": [
+          "cs.18toys@gmail.com"
+        ],
+        "single_line_address": "葵涌葵昌路永祥工業大廈2樓A11, Hong Kong"
       },
       "url": "https://www.facebook.com/18toys.com.hk/"
     },
     {
       "meta": {
-        "name": "18toys成人用品（旺角好景店）",
         "id": "108391173889078",
-        "categories": [
-          "Product/Service"
+        "name": "18toys成人用品（旺角好景店）",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "tel": "56431598"
+        "single_line_address": "旺角好景商業中心19樓03室, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/108391173889078/"
     },
     {
       "url": "https://www.facebook.com/109003273827722/",
       "meta": {
-        "name": "18toys成人用品（旺角先達分店）",
         "id": "109003273827722",
-        "categories": [
-          "Product/Service"
-        ]
+        "name": "18toys成人用品（旺角先達分店）",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
+        ],
+        "single_line_address": "達廣場 2 樓 S39 舖, Kowloon, Hong Kong"
       }
     }
   ],

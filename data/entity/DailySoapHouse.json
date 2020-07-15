@@ -10,14 +10,25 @@
     },
     {
       "meta": {
-        "name": "天皂 Daily Soap House",
         "id": "159745654849546",
+        "username": "DailySoapHouse",
+        "name": "天皂 Daily Soap House",
         "about": "天皂，含「天然肥皂」的意思，同時也取諧音「天造」，寓意天然製造。天皂主打無棕櫚油手工皂產品，以天然用料低溫冷製，希望最大限度地保留油款和用料營養成分，呵護用家肌膚。",
-        "categories": [
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "email": "dailysoaphouse@gmail.com",
-        "tel": "96171959"
+        "emails": [
+          "info@dailysoaphouse.com"
+        ],
+        "single_line_address": "00000 Hong Kong",
+        "website": "https://dailysoaphouse.com/"
       },
       "url": "https://www.facebook.com/DailySoapHouse/"
     },

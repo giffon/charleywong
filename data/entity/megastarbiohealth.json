@@ -11,15 +11,23 @@
     {
       "url": "https://www.facebook.com/103182641286947/",
       "meta": {
-        "name": "Megastar 美加",
         "id": "103182641286947",
-        "about": "Megastar 經過20多年來的發展和研發,產品廣受用戶認可和好評,先後通過美國疾病控制與預防中心 (CDC),香港標準及檢定中心,新加坡PSB實驗室,SGS實驗室認證, 歐洲合格認證(CE)等160多項權威檢測認證",
-        "categories": [
-          "Product/Service",
-          "Cleaning Service"
+        "name": "Megastar 美加",
+        "about": "Megastar 經過20多年來的發展和研發,產品廣受用戶認可和好評,先後通過美國疾病控制與預防中心 (CDC),香港標準及檢定中心,新加坡PSB實驗室,SGS實驗室認證, 歐洲合格認證(CE)等160多項權威檢測認證\n\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "186564191378474",
+            "name": "Cleaning Service"
+          }
         ],
-        "email": "megastarbioshield@gmail.com",
-        "tel": "64869601"
+        "emails": [
+          "megastarbioshield@gmail.com"
+        ],
+        "website": "https://www.megastarbiohealth.com/"
       }
     },
     {

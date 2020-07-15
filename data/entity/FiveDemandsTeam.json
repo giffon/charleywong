@@ -7,12 +7,19 @@
     {
       "url": "https://www.facebook.com/FiveDemandsTeam/",
       "meta": {
-        "name": "五一團隊",
         "id": "105006254519330",
-        "about": "「五一」團隊",
-        "categories": [
-          "Retail Company",
-          "Restaurant"
+        "username": "FiveDemandsTeam",
+        "name": "五一團隊",
+        "about": "「五一」團隊\n\n",
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ]
       }
     }

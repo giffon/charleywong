@@ -11,15 +11,24 @@
     {
       "url": "https://www.facebook.com/Jollythinkersboardgame/",
       "meta": {
-        "name": "Jolly Thinkers Boardgames 空中棋園 桌上遊戲",
         "id": "55730429049",
+        "username": "Jollythinkersboardgame",
+        "name": "Jolly Thinkers Boardgames 空中棋園 桌上遊戲",
         "about": "全港最大的桌上遊戲中心\nWe aim at opening our Hong Kong people's eyes to internationally popular Euro Boardgames. www.jollythinkers.com Tel: 2527-2882",
-        "categories": [
-          "Product/Service",
-          "Board Game"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2303",
+            "name": "Board Game"
+          }
         ],
-        "email": "info@jollythinkers.com",
-        "tel": "25272882"
+        "emails": [
+          "info@jollythinkers.com"
+        ],
+        "website": "www.jollythinkers.com"
       }
     },
     {

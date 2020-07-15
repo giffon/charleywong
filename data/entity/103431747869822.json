@@ -7,15 +7,23 @@
     {
       "url": "https://www.facebook.com/103431747869822/",
       "meta": {
-        "name": "黃大仙 - 黃色生活圈",
         "id": "103431747869822",
+        "name": "黃大仙 - 黃色生活圈",
         "about": "由黃大仙大坊小會組成。\n自從19年區選後，黃大仙區有「首都」之稱。我地希望利用啲個平台去聯繫區內同路嘅居民及商戶。從而建立可持續發展嘅黃色生活圈。",
-        "categories": [
-          "Local Service",
-          "Product/Service",
-          "Community Organization"
-        ],
-        "email": "taisinlifecircle@gmail.com"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          }
+        ]
       }
     }
   ],

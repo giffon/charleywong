@@ -15,14 +15,22 @@
     {
       "url": "https://www.facebook.com/572271023246240/",
       "meta": {
-        "name": "Origino Store 源古著",
         "id": "572271023246240",
-        "about": "Instagram : origino_store\nEmail : storehifu@gmail.com",
-        "categories": [
-          "Clothing (Brand)",
-          "Apparel & Clothing"
+        "name": "Origino Store 源古著",
+        "about": "Instagram : origino_store\nEmail : storehifu@gmail.com \n",
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "1086422341396773",
+            "name": "Apparel & Clothing"
+          }
         ],
-        "email": "storehifu@gmail.com"
+        "emails": [
+          "storehifu@gmail.com"
+        ]
       }
     }
   ],

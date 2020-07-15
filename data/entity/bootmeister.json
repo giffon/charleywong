@@ -17,16 +17,21 @@
     {
       "url": "https://www.facebook.com/bootmeister/",
       "meta": {
-        "name": "Bootmeister 波砵專門店",
         "id": "568037290052961",
+        "username": "bootmeister",
+        "name": "Bootmeister 波砵專門店",
         "about": "BOOTMEISTER 波砵專門店 / 波BOOT資訊\n觀塘門市發售過百款波BOOT / 至抵波BOOT預訂優惠",
-        "categories": [
-          "Outdoor & Sporting Goods Company"
+        "category_list": [
+          {
+            "id": "2231",
+            "name": "Outdoor & Sporting Goods Company"
+          }
         ],
-        "addr": "觀塘成業街19-21號成業工業大廈822",
-        "area": "000000 Hong Kong",
-        "email": "bootmeister.hk@gmail.com",
-        "tel": "57032683"
+        "emails": [
+          "bootmeister.hk@gmail.com"
+        ],
+        "single_line_address": "觀塘成業街19-21號成業工業大廈822, 000000 Hong Kong",
+        "website": "https://www.bootmeister.com"
       }
     }
   ],

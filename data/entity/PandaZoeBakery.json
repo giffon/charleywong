@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/PandaZoeBakery/",
       "meta": {
-        "name": "Panda Zoe",
         "id": "857760530978910",
-        "about": "Panda Zoe 私人工作室 — 製作及授教多樣精美蛋糕及甜品。藉著追求美味、天然、新鮮、健康、創新為理念，把烘焙帶來的喜悅與歡樂傳揚。",
-        "categories": [
-          "Food & Beverage Company"
+        "username": "PandaZoeBakery",
+        "name": "Panda Zoe",
+        "about": "Panda Zoe 私人工作室 — 製作及教授多種精美蛋糕、糖果及甜品。藉著追求美味、天然、新鮮、健康、創新為理念，分享烘焙的樂趣給大家。",
+        "category_list": [
+          {
+            "id": "2252",
+            "name": "Food & Beverage Company"
+          }
         ],
-        "addr": "觀塘成業街16號怡生工業中心G座4樓G29室",
-        "area": "Hong Kong",
-        "email": "pandazoebakery@yahoo.com.hk",
-        "tel": "62399961"
+        "emails": [
+          "pandazoebakery@yahoo.com.hk"
+        ],
+        "single_line_address": "觀塘成業街16號怡生工業中心G座4樓G29室, 852 Hong Kong",
+        "website": "https://mc2zoechan.wixsite.com/pandazoe"
       }
     },
     {

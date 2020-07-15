@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/filterslane/",
       "meta": {
-        "name": "Filters Lane",
         "id": "228283510671045",
+        "username": "filterslane",
+        "name": "Filters Lane",
         "about": "Filters Lane - Coffee munchies talk",
-        "categories": [
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "111 Caine Road",
-        "area": "Central, Hong Kong",
-        "email": "info@filterslane.com",
-        "tel": "25171868"
+        "emails": [
+          "info@filterslane.com"
+        ],
+        "single_line_address": "111 Caine Road, Central, Hong Kong",
+        "website": "http://filterslane.com"
       }
     },
     {

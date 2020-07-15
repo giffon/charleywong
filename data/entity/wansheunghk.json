@@ -10,14 +10,20 @@
     {
       "meta": {
         "id": "424959017540796",
+        "username": "wansheunghk",
+        "name": "雲想暗瘡療膚中心 - 全港獨家暗瘡療法 效果保證",
         "about": "雲想暗瘡治療活膚中心",
-        "categories": [
-          "Health/beauty"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "addr": "太子西洋菜南街258-260號長寧大廈3樓E室",
-        "area": "Kowloon, Hong Kong",
-        "email": "lawyoyo122@hotmail.com",
-        "tel": "66123744"
+        "emails": [
+          "lawyoyo122@hotmail.com"
+        ],
+        "single_line_address": "太子西洋菜南街258-260號長寧大廈3樓E室, Kowloon, Hong Kong",
+        "website": "http://www.weshare.hk/lawyoyo"
       },
       "url": "https://www.facebook.com/wansheunghk/"
     }

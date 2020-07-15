@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/TasteGetherhk/",
       "meta": {
-        "name": "聚味軒",
         "id": "442742492937604",
+        "username": "TasteGetherhk",
+        "name": "聚味軒",
         "about": "川菜粵菜雞煲火鍋",
-        "categories": [
-          "Hot Pot Restaurant",
-          "Fondue Restaurant"
+        "category_list": [
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          },
+          {
+            "id": "167116956674095",
+            "name": "Fondue Restaurant"
+          }
         ],
-        "addr": "九龍城獅子石道40號",
-        "area": "Hong Kong",
-        "tel": "23963383"
+        "single_line_address": "九龍城獅子石道40號, Hong Kong"
       }
     },
     {

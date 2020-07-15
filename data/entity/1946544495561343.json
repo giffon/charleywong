@@ -6,13 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "摩登廚房",
         "id": "1946544495561343",
+        "name": "摩登廚房",
         "about": "一間在深水埗已執笠的茶記, 死唔斷氣, 係都要透過不同形式,不同手法, 繼續為全港街坊服務",
-        "categories": [
-          "Diner"
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "181053558607965",
+            "name": "Youth Organization"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "amakenoo@gmail.com"
+        "single_line_address": "852 Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/1946544495561343/"
     }

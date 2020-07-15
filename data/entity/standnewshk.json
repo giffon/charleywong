@@ -11,11 +11,19 @@
     {
       "meta": {
         "id": "710476795704610",
+        "username": "standnewshk",
+        "name": "Stand News 立場新聞",
         "about": "任何團體及個人，如欲投稿、報料，發佈新聞稿或採訪通知，請電郵至 Editorial@TheStandNews.com",
-        "categories": [
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "editorial@thestandnews.com"
+        "emails": [
+          "editorial@thestandnews.com"
+        ],
+        "website": "http://www.thestandnews.com/"
       },
       "url": "https://www.facebook.com/standnewshk/"
     },

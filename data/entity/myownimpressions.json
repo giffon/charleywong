@@ -15,15 +15,20 @@
     {
       "url": "https://www.facebook.com/myownimpressions/",
       "meta": {
-        "name": "Impressions 隨我所拍",
         "id": "334205036629909",
-        "about": "Impressions where life's special moments are captured in reflections. 能夠以第一身的感覺去拍攝, 作品才會有共鳴~",
-        "categories": [
-          "Photographer"
+        "username": "myownimpressions",
+        "name": "Impressions 隨我所拍",
+        "about": "Impressions where life's special moments are captured in reflections. 能夠以第一身的感覺去拍攝, 作品才會有共鳴~ \n",
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "新蒲崗榮盛工業大廈",
-        "area": "Kowloon, Hong Kong",
-        "email": "myownimpressions@gmail.com"
+        "emails": [
+          "myownimpressions@gmail.com"
+        ],
+        "single_line_address": "新蒲崗榮盛工業大廈, Kowloon, Hong Kong"
       }
     }
   ],

@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/CandGArtpartment/",
       "meta": {
-        "name": "C&G Artpartment",
         "id": "165968996797440",
+        "username": "CandGArtpartment",
+        "name": "C&G Artpartment",
         "about": "A Hong Kong based art space for idea exchanges, providing art courses, art exhibitions and a small book shop for local art books",
-        "categories": [
-          "Art Gallery"
+        "category_list": [
+          {
+            "id": "197384240287028",
+            "name": "Art Gallery"
+          }
         ],
-        "addr": "3/F, 222 Sai Yeung Choi St South, Prince Edward",
-        "area": "000 Kowloon, Hong Kong",
-        "email": "info@candg-artpartment.com",
-        "tel": "23909332"
+        "emails": [
+          "info@candg-artpartment.com"
+        ],
+        "single_line_address": "3/F, 222 Sai Yeung Choi St South, Prince Edward, 000 Kowloon, Hong Kong",
+        "website": "www.CandG-Artpartment.com"
       }
     },
     {

@@ -10,14 +10,20 @@
     },
     {
       "meta": {
-        "name": "八鄉朱凱廸 Chu Hoi Dick",
         "id": "201155333283732",
+        "username": "chuhoidick",
+        "name": "八鄉朱凱廸 Chu Hoi Dick",
         "about": "朱凱廸一直相信，鄉村最有價值的，是農田和水源。我們可以一起重建本土農業，復興香港鄉村。",
-        "categories": [
-          "Public Figure"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          }
         ],
-        "email": "info@chuhoidick.hk",
-        "tel": "28092102"
+        "emails": [
+          "info@chuhoidick.hk"
+        ],
+        "website": "http://chuhoidick.hk"
       },
       "url": "https://www.facebook.com/chuhoidick/"
     },

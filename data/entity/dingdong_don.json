@@ -7,15 +7,16 @@
     {
       "url": "https://www.facebook.com/104471644632495/",
       "meta": {
-        "name": "叮噹叮丼",
         "id": "104471644632495",
+        "name": "叮噹叮丼",
         "about": "各式丼飯，特色飲品，屬於真、香港人既鋪頭",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "Shop B Nathan Tower,518-520 Nathan Road, kowloon,Hong Kong",
-        "area": "Kowloon, Hong Kong",
-        "tel": "54992779"
+        "single_line_address": "Shop B Nathan Tower,518-520 Nathan Road, kowloon,Hong Kong, Kowloon, Hong Kong"
       }
     },
     {

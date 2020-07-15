@@ -10,14 +10,20 @@
     {
       "meta": {
         "id": "143893293216",
+        "username": "mephotohk",
+        "name": "ME Photography",
         "about": "ME=This is ME a real Me. ME is unique and irreplaceable.",
-        "categories": [
-          "Photography & videography"
+        "category_list": [
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          }
         ],
-        "addr": "Kowloon, Hong Kong.",
-        "area": "Kowloon, Hong Kong",
-        "email": "info@mephotohk.com",
-        "tel": "68283399"
+        "emails": [
+          "info@mephotohk.com"
+        ],
+        "single_line_address": "Kowloon, Hong Kong., 852 Kowloon, Hong Kong",
+        "website": "www.mephotohk.com"
       },
       "url": "https://www.facebook.com/mephotohk/"
     }

@@ -10,18 +10,28 @@
     {
       "url": "https://www.facebook.com/c3auto/",
       "meta": {
-        "name": "C3 - C.Free Auto Services Company Ltd.",
         "id": "1388900971380375",
+        "username": "c3auto",
+        "name": "C3 - C.Free Auto Services Company Ltd.",
         "about": "C3 - 專注為您做到最好!\n專注提供汽車個性美化 / 美容,同時提供固件保養維修, 效能提昇改裝服務等。",
-        "categories": [
-          "Car Dealership",
-          "Car Wash",
-          "Automotive Parts Store"
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Car Dealership"
+          },
+          {
+            "id": "162295707155272",
+            "name": "Car Wash"
+          },
+          {
+            "id": "139492049448901",
+            "name": "Automotive Parts Store"
+          }
         ],
-        "addr": "錦田公路梁屋村1號 (八鄉警署/消防局對面)",
-        "area": "Hong Kong",
-        "email": "eddiexx1608@gmail.com",
-        "tel": "26666639"
+        "emails": [
+          "eddiexx1608@gmail.com"
+        ],
+        "single_line_address": "錦田公路梁屋村1號 (八鄉警署/消防局對面), Hong Kong"
       }
     }
   ],

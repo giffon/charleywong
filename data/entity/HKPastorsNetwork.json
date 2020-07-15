@@ -7,12 +7,17 @@
     {
       "url": "https://www.facebook.com/HKPastorsNetwork/",
       "meta": {
-        "name": "香港教牧網絡",
         "id": "2323884767657341",
+        "username": "HKPastorsNetwork",
+        "name": "香港教牧網絡",
         "about": "【羊在。牧人在】",
-        "categories": [
-          "Christian Church"
-        ]
+        "category_list": [
+          {
+            "id": "184266718279692",
+            "name": "Christian Church"
+          }
+        ],
+        "website": "https://hkpastors.net/"
       }
     },
     {

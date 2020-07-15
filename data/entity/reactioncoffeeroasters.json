@@ -9,15 +9,18 @@
     },
     {
       "meta": {
-        "name": "REACTION Coffee Roasters",
         "id": "1499108513654527",
-        "about": "Hong Kong freshly roasted coffee\nSpecialty coffee, hand drip and cold brew\nAll day breakfast, sandwiches, salad and pasteries \nA Place to chill out",
-        "categories": [
-          "Coffee Shop"
+        "username": "reactioncoffeeroasters",
+        "name": "REACTION Coffee Roasters",
+        "about": "Hong Kong freshly roasted coffee\nSpecialty coffee, hand drip and cold brew\nAll day breakfast, sandwiches, salad and pasteries \nA Place to chill out\n\n",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "Shop 67 B & C, G/F, 67 Sing Woo Road, Happy Valley",
-        "area": "Hong Kong",
-        "tel": "26747388"
+        "single_line_address": "Shop 67 B & C, G/F, 67 Sing Woo Road, Happy Valley, Hong Kong",
+        "website": "http://www.reactioncoffee.com.hk"
       },
       "url": "https://www.facebook.com/reactioncoffeeroasters/"
     },

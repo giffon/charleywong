@@ -9,18 +9,29 @@
     },
     {
       "meta": {
-        "name": "Sheep And Wolf Shop 手機殼專門店",
         "id": "181968928607450",
+        "username": "sheepandwolfcase",
+        "name": "Sheep And Wolf Shop 手機殼專門店",
         "about": "香港一站式網上手機周邊，數碼產品超級市場�提供大量款式最新最潮手機殼以供選購，本店專營手機周邊�如手機殼，充電器，各種屏幕貼，智能手錶配件，錶帶，充電線，無綫充電器，手機",
-        "categories": [
-          "Shopping & Retail",
-          "Phone/Tablet",
-          "Website"
+        "category_list": [
+          {
+            "id": "2265",
+            "name": "Phone/Tablet"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2202",
+            "name": "Website"
+          }
         ],
-        "addr": "Room 715, My Loft , Hoi Wing Road, Sam Shing, Tuen Mun, NT(上門提貨請先預約)",
-        "area": "Hong Kong",
-        "email": "noel5335@gmail.com",
-        "tel": "51066815"
+        "emails": [
+          "noel5335@gmail.com"
+        ],
+        "single_line_address": "Room 715, My Loft , Hoi Wing Road, Sam Shing, Tuen Mun, NT(上門提貨請先預約), Hong Kong",
+        "website": "https://www.sheepandwolf.store"
       },
       "url": "https://www.facebook.com/sheepandwolfcase/"
     }

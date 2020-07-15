@@ -7,15 +7,23 @@
     {
       "url": "https://www.facebook.com/469307463590712/",
       "meta": {
-        "name": "Su.face Beauty & Nail",
         "id": "469307463590712",
+        "name": "Su.face Beauty & Nail",
         "about": "半永久定妝服務（飄眉、氧氣眉& 美瞳線）\n美容護理\n美甲�",
-        "categories": [
-          "Health/Beauty",
-          "Nail Salon"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "198516863494646",
+            "name": "Nail Salon"
+          }
         ],
-        "email": "cathy4262003@yahoo.com.hk",
-        "tel": "92004326"
+        "emails": [
+          "cathy4262003@yahoo.com.hk"
+        ],
+        "single_line_address": "屯門恆威工業中心C2座1樓196A室, 00852 Hong Kong"
       }
     },
     {

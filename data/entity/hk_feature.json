@@ -15,14 +15,20 @@
     {
       "url": "https://www.facebook.com/2420841024641862/",
       "meta": {
-        "name": "誌 hk.feature",
         "id": "2420841024641862",
+        "name": "誌 hk.feature",
         "about": "記錄香港 香港有誌",
-        "categories": [
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "hk.feature.hk@gmail.com",
-        "tel": "66076147"
+        "emails": [
+          "hk.feature.hk@gmail.com"
+        ],
+        "single_line_address": "西洋菜南街44號3樓",
+        "website": "https://hkfeature.today"
       }
     }
   ],

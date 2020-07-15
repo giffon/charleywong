@@ -10,10 +10,13 @@
     {
       "url": "https://www.facebook.com/574685463012446/",
       "meta": {
-        "name": "Jimmy YuEn",
         "id": "574685463012446",
-        "categories": [
-          "Artist"
+        "name": "Jimmy YuEn",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ]
       }
     },

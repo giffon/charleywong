@@ -11,17 +11,21 @@
     {
       "url": "https://www.facebook.com/hkecon/",
       "meta": {
-        "name": "經濟人教育中心 Econer Education Centre",
         "id": "675011289179000",
+        "username": "hkecon",
+        "name": "經濟人教育中心 Econer Education Centre",
         "about": "😎 中大經濟系畢業\n🕵 前香港大學資優學生課程導師，設計及教授與經濟學相關的課程\n💯 2017年輝煌戰績，超過3成學生取得Level 5或以上，遠超全港水平(7.2%)\n⭐親身應考，輕鬆穩取5**",
-        "categories": [
-          "Education",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "addr": "彌敦道757號太子威明商業大廈8樓",
-        "area": "Hong Kong",
-        "email": "enmwky@gmail.com",
-        "tel": "53200663"
+        "emails": [
+          "enmwky@gmail.com"
+        ],
+        "single_line_address": "彌敦道757號太子威明商業大廈8樓, Hong Kong",
+        "website": "https://www.hkecon.com"
       }
     },
     {

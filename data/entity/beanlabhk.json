@@ -8,15 +8,20 @@
     {
       "url": "https://www.facebook.com/beanlabhk/",
       "meta": {
-        "name": "Beanlab 好豆製研究所",
         "id": "462119064589403",
+        "username": "beanlabhk",
+        "name": "Beanlab 好豆製研究所",
         "about": "【Beanlab 好豆製研究所】\n\n沒有什麼事濃豆乳�解決不了�\n\n傳統日式�濃豆乳 豆粕使用�\n選用加拿大�非基因改造大豆",
-        "categories": [
-          "Health Food Store"
+        "category_list": [
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          }
         ],
-        "addr": "元朗鳳翔路45-67號金馬大廈地下12號鋪",
-        "area": "Yuen Long",
-        "email": "info@bean-lab.com"
+        "emails": [
+          "info@bean-lab.com"
+        ],
+        "single_line_address": "元朗鳳翔路45-67號金馬大廈地下12號鋪, Yuen Long"
       }
     },
     {

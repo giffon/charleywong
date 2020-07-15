@@ -10,13 +10,17 @@
     {
       "meta": {
         "id": "534002406701314",
+        "username": "onepiece.strawhatstore",
+        "name": "草帽本舖",
         "about": "「草帽本舖」是全港最大型的ONE PIECE網上專門店。除了網上訂購外，亦可蒞臨位於觀塘的實體店參觀選購。",
-        "categories": [
-          "Shopping & retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "觀塘開源道47號凱源工業大廈11樓H室",
-        "area": "Hong Kong",
-        "email": "info@strawhat-store.com"
+        "single_line_address": "觀塘開源道47號凱源工業大廈11樓H室, 九龍 Hong Kong",
+        "website": "http://www.strawhat-store.com"
       },
       "url": "https://www.facebook.com/onepiece.strawhatstore/"
     }

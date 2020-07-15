@@ -11,16 +11,29 @@
     {
       "url": "https://www.facebook.com/callfruithk/",
       "meta": {
-        "name": "菓間網店 Call Fruit",
         "id": "110390383739501",
-        "about": "菓間網店 \n\n由菓蟲成為一個菓迷，需時超過三年零八個月，今年初冬成精嘅菓后以最公道嘅價錢、貼心嘅服務誠邀您踏上呢趟高級水果嘅不歸路......\n\nCall fruit • All fruit • Life ‘s good",
-        "categories": [
-          "Shopping & Retail",
-          "Health Food Store",
-          "Fruit & Vegetable Store"
+        "username": "callfruithk",
+        "name": "菓間網店 Call Fruit",
+        "about": "菓間網店 \n\n由菓蟲成為一個菓迷，需時超過三年零八個月，今年初冬成精嘅菓后以最公道嘅價錢、貼心嘅服務誠邀您踏上呢趟高級水果嘅不歸路......\n\nCall fruit • All fruit • Life ‘s good\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          },
+          {
+            "id": "128157407253652",
+            "name": "Fruit & Vegetable Store"
+          }
         ],
-        "email": "callfruit60783608@gmail.com",
-        "tel": "60783608"
+        "emails": [
+          "callfruit60783608@gmail.com"
+        ],
+        "single_line_address": "香港九龍新界",
+        "website": "www.callfruithk.com "
       }
     },
     {

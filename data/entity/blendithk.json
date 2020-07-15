@@ -9,15 +9,29 @@
     },
     {
       "meta": {
-        "name": "Blendit Superfood Eats",
         "id": "157660071525206",
-        "about": "門市地址：大角咀海景街36號地下6號舖",
-        "categories": [
-          "Product/Service",
-          "Health Food Store",
-          "Smoothie & Juice Bar"
+        "username": "blendithk",
+        "name": "Blendit Superfood Eats",
+        "about": "門市地址：大角咀海景街36號地下6號舖\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          },
+          {
+            "id": "219222658110242",
+            "name": "Smoothie & Juice Bar"
+          }
         ],
-        "email": "info@blendit.hk"
+        "emails": [
+          "info@blendit.hk"
+        ],
+        "single_line_address": "1626, Block A, Wah Luen Industrial Centre, 15 Wong Chuk Yeung Street, Fo Tan,",
+        "website": "http://www.blendit.hk"
       },
       "url": "https://www.facebook.com/blendithk/"
     },

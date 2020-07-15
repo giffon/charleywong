@@ -8,17 +8,25 @@
     {
       "url": "https://www.facebook.com/wingslaksa/",
       "meta": {
-        "name": "Wings Laksa 榮少喇沙",
         "id": "1179571248743415",
+        "username": "wingslaksa",
+        "name": "Wings Laksa 榮少喇沙",
         "about": "天水圍天盛商場天盛街市m415\n特色新加坡喇沙",
-        "categories": [
-          "Asian Fusion Restaurant",
-          "Singaporean Restaurant"
+        "category_list": [
+          {
+            "id": "174201535963762",
+            "name": "Asian Fusion Restaurant"
+          },
+          {
+            "id": "142590562472824",
+            "name": "Singaporean Restaurant"
+          }
         ],
-        "addr": "天水圍天盛商場天盛街市",
-        "area": "852 Tin Shui Wai",
-        "email": "wingslaksa0tsw@gmail.com",
-        "tel": "34279226"
+        "emails": [
+          "wingslaksa0tsw@gmail.com"
+        ],
+        "single_line_address": "天水圍天盛商場天盛街市, 852 Tin Shui Wai",
+        "website": "https://www.foodpanda.hk/zh/restaurant/v0dy/wings-laksa-tin-shui-wai"
       }
     }
   ],

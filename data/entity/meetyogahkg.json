@@ -8,18 +8,28 @@
     {
       "url": "https://www.facebook.com/meetyogahkg/",
       "meta": {
-        "name": "Meet Yoga 瑜見",
         "id": "1998555633698561",
+        "username": "meetyogahkg",
+        "name": "Meet Yoga 瑜見",
         "about": "Meet Yoga 瑜見成立於 2018 新年前夕，我們想要建立一個充滿自然氣息的小地方，在這裡一起練習最傳統的地面瑜珈。就如同我們的店名一樣——希望在瑜珈路上，我們有緣遇見。",
-        "categories": [
-          "Yoga Studio",
-          "Gym/Physical Fitness Center",
-          "Coach"
+        "category_list": [
+          {
+            "id": "174832985894571",
+            "name": "Yoga Studio"
+          },
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          },
+          {
+            "id": "1802",
+            "name": "Coach"
+          }
         ],
-        "addr": "Room 5A, 5/F, Sun Shine Centre, 61-63 Portland Street, Yau Ma Tei, HK",
-        "area": "852 Hong Kong",
-        "email": "meetyogahk@gmail.com",
-        "tel": "60662439"
+        "emails": [
+          "meetyogahk@gmail.com"
+        ],
+        "single_line_address": "Room 5A, 5/F, Sun Shine Centre, 61-63 Portland Street, Yau Ma Tei, HK, 852 Hong Kong"
       }
     },
     {

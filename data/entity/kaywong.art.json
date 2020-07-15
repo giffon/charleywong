@@ -6,12 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "about": "Hongkonger.\nThe art is long, life is short.",
-        "categories": [
-          "Artist"
+        "id": "309427366424418",
+        "username": "kaywong.art",
+        "name": "Kay Wong",
+        "about": "Hongkonger.\nThe art is long, life is short.\n",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "kaywong@mail.com",
-        "id": "309427366424418"
+        "emails": [
+          "kaywong@mail.com"
+        ],
+        "website": "http://www.kaywong.art"
       },
       "url": "https://www.facebook.com/kaywong.art/"
     },

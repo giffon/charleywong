@@ -8,14 +8,19 @@
     {
       "url": "https://www.facebook.com/whateverlogistics/",
       "meta": {
-        "name": "隨心物流 Whatever Logistics Limited",
         "id": "103295754486276",
+        "username": "whateverlogistics",
+        "name": "隨心物流 Whatever Logistics Limited",
         "about": "本土物流公司",
-        "categories": [
-          "Local Service"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "email": "info@whateverlogistics.com",
-        "tel": "66075257"
+        "emails": [
+          "info@whateverlogistics.com"
+        ]
       }
     },
     {

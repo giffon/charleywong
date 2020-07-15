@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/rolapethotel/",
       "meta": {
-        "name": "Ro-La The Pet Hotel",
         "id": "332168066819174",
-        "about": "小動物寄養及用品送貨服務\n\nPet hotel",
-        "categories": [
-          "Pet Service",
-          "Hotel"
+        "username": "rolapethotel",
+        "name": "Ro-La The Pet Hotel",
+        "about": "小動物寄養及用品送貨服務\n\nPet hotel ",
+        "category_list": [
+          {
+            "id": "144982405562750",
+            "name": "Pet Service"
+          },
+          {
+            "id": "164243073639257",
+            "name": "Hotel"
+          }
         ],
-        "addr": "觀塘駿業里10號業運工業大廈6樓D室",
-        "area": "Hong Kong",
-        "email": "info@ro-la.com",
-        "tel": "36908217"
+        "emails": [
+          "info@ro-la.com"
+        ],
+        "single_line_address": "觀塘駿業里10號業運工業大廈6樓D室, Hong Kong",
+        "website": "http://www.ro-la.com"
       }
     },
     {

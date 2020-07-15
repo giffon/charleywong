@@ -7,10 +7,13 @@
     {
       "url": "https://www.facebook.com/108110387360342/",
       "meta": {
-        "name": "Office Avengers",
         "id": "108110387360342",
-        "categories": [
-          "Product/Service"
+        "name": "Office Avengers",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       }
     }

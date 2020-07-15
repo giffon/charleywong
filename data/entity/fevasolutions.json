@@ -17,16 +17,21 @@
     {
       "url": "https://www.facebook.com/fevasolutions/",
       "meta": {
-        "name": "FevaWorks Solutions",
         "id": "112196102159840",
-        "about": "There are introverts and extroverts. There are creative minds and there are analytical minds. Here at Feva, we create a harmony between the two to deliver the quality digital solutions you seek.",
-        "categories": [
-          "Marketing Agency"
+        "username": "fevasolutions",
+        "name": "FevaWorks Solutions",
+        "about": "There are introverts and extroverts. There are creative minds and there are analytical minds. Here at Feva, we create a harmony between the two to deliver the quality digital solutions you seek.\n",
+        "category_list": [
+          {
+            "id": "123377808095874",
+            "name": "Marketing Agency"
+          }
         ],
-        "addr": "6/F,  41 Jervois Street",
-        "area": "852 Sheung Wan",
-        "email": "info@fevaworks.net",
-        "tel": "23073111"
+        "emails": [
+          "info@fevaworks.net"
+        ],
+        "single_line_address": "6/F,  41 Jervois Street, 852 Sheung Wan",
+        "website": "http://fevaworks.net"
       }
     }
   ],

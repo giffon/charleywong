@@ -8,28 +8,45 @@
     {
       "url": "https://www.facebook.com/leeflorist13/",
       "meta": {
-        "name": "TAI PO Lee Florist Shop",
         "id": "516967401707876",
-        "about": "家庭式經營~超過20年經驗~不斷創新~大埔區花店,遠近嘟有專人送到~whatsapp 97363779 訂花~",
-        "categories": [
-          "Florist",
-          "Wholesale & Supply Store",
-          "Patio/Garden"
+        "username": "leeflorist13",
+        "name": "TAI PO Lee Florist Shop",
+        "about": "家庭式經營~超過20年經驗~不斷創新~大埔區花店,遠近嘟有專人送到~whatsapp 97363779 訂花~ ",
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          },
+          {
+            "id": "187070794658134",
+            "name": "Wholesale & Supply Store"
+          },
+          {
+            "id": "2222",
+            "name": "Patio/Garden"
+          }
         ],
-        "tel": "97363779"
+        "single_line_address": "汀角路10號, Hong Kong"
       }
     },
     {
       "url": "https://www.facebook.com/Leeflorist97363779/",
       "meta": {
-        "name": "莉記花店",
         "id": "345654172773226",
-        "about": "香港人嘅花店，第三代經營，希望一路傳承下去，珍惜香港，\n花束，花籃，花牌，結婚花球，襟花等等",
-        "categories": [
-          "Florist",
-          "Shopping & Retail"
+        "username": "Leeflorist97363779",
+        "name": "莉記花店",
+        "about": "香港人嘅花店，第三代經營，希望一路傳承下去，珍惜香港，\n花束，花籃，花牌，結婚花球，襟花等等\n\n",
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "tel": "97363779"
+        "single_line_address": "大埔大元街市&深水埗vwalk對面富昌南昌薈, Hong Kong"
       }
     }
   ],

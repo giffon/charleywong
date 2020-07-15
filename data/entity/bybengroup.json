@@ -17,17 +17,29 @@
     {
       "url": "https://www.facebook.com/bybengroup/",
       "meta": {
-        "name": "Byben Studio",
         "id": "1621519541494204",
+        "username": "bybengroup",
+        "name": "Byben Studio",
         "about": "Byben Studio位置鄰近荃灣南豐紗廠，適合商業、婚紗、家庭及寵物拍攝！",
-        "categories": [
-          "Photography Videography",
-          "Broadcasting & Media Production Company",
-          "Advertising/Marketing"
+        "category_list": [
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          },
+          {
+            "id": "169056916473899",
+            "name": "Broadcasting & Media Production Company"
+          },
+          {
+            "id": "1757592557789532",
+            "name": "Advertising/Marketing"
+          }
         ],
-        "addr": "Sha Tsui Road",
-        "area": "Tsuen Wan, Hong Kong",
-        "email": "info@bybengroup.com"
+        "emails": [
+          "info@bybengroup.com"
+        ],
+        "single_line_address": "Sha Tsui Road, Tsuen Wan, Hong Kong",
+        "website": "http://www.bybengroup.com"
       }
     }
   ],

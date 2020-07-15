@@ -10,13 +10,19 @@
     },
     {
       "meta": {
-        "name": "安安飲食集團 On On Dining Group",
         "id": "506769033400446",
+        "name": "安安飲食集團 On On Dining Group",
         "about": "安安飲食集團由一組熱血又愛飲食嘅年青人創立, 多年來致力喺香港開創唔同類型嘅餐廳, 每一間餐廳都設定獨特風格, 提供舒適用餐環境, 堅持只選用新鮮食材制作美食, 務求滿足每一位香港人!",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "email": "info@onondining.com"
+        "emails": [
+          "info@onondining.com"
+        ],
+        "website": "onondining.com"
       },
       "url": "https://www.facebook.com/506769033400446/"
     },

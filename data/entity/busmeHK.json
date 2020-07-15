@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "BusMe巴士及交通模型玩具精品店 BusMe bus & transport model shop",
         "id": "150979191627566",
-        "about": "#busme #busmodel #hkbus #toys #model #hongkongshop #bus",
-        "categories": [
-          "Toy Store"
+        "username": "busmeHK",
+        "name": "BusMe巴士及交通模型玩具精品店 BusMe bus & transport model shop",
+        "about": "#busme #busmodel #hkbus #toys #model #hongkongshop #bus ",
+        "category_list": [
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          }
         ],
-        "addr": "九龍觀塘道404號時運工業大廈二樓E20室, Selwyn Factory Building, 404 Kwun tong road,",
-        "area": "Kwun Tong",
-        "email": "busme2009@yahoo.com.hk",
-        "tel": "94575267"
+        "emails": [
+          "busme2009@yahoo.com.hk"
+        ],
+        "single_line_address": "九龍觀塘道404號時運工業大廈二樓E20室, Selwyn Factory Building, 404 Kwun tong road,, Kwun Tong",
+        "website": "https://www.facebook.com/busmeHK"
       },
       "url": "https://www.facebook.com/busmeHK/"
     },

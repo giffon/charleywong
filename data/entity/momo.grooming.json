@@ -7,16 +7,18 @@
     {
       "url": "https://www.facebook.com/momo.grooming/",
       "meta": {
-        "name": "Momo Grooming",
         "id": "797893330337537",
+        "username": "momo.grooming",
+        "name": "Momo Grooming",
         "about": "寵物美容服務、貓狗乾糧、貓狗罐頭\n寵物玩具、床、衣服、袋\n健康小食、保健食品\n\n歡迎致電查詢",
-        "categories": [
-          "Pet Groomer"
+        "category_list": [
+          {
+            "id": "163003840417682",
+            "name": "Pet Groomer"
+          }
         ],
-        "addr": "大角咀中匯街 14 號地舖",
-        "area": "852 Hong Kong",
-        "email": "momogrooming@hotmail.com",
-        "tel": "23819662"
+        "single_line_address": "大角咀中匯街 14 號地舖, 852 Hong Kong",
+        "website": "http://Momogrooming.com"
       }
     },
     {

@@ -9,14 +9,26 @@
     },
     {
       "meta": {
-        "name": "宏大通訊",
         "id": "1506875759609446",
+        "username": "q8phone",
+        "name": "宏大通訊",
         "about": "本公司有專業維修電話服務(全港最平最快,30分鐘可取)/有大量手機配件/專業貼膜,大量手機玻璃貼,3分鐘內貼好/有批發服務,歡迎有意入行人士批發賣買(絕對最平)多謝支持!!!!Thanks",
-        "categories": [
-          "Electronics",
-          "Shopping & Retail",
-          "Professional Service"
-        ]
+        "category_list": [
+          {
+            "id": "2213",
+            "name": "Electronics"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "176831012360626",
+            "name": "Professional Service"
+          }
+        ],
+        "single_line_address": "天水圍新北江C58A鋪\n沙田石門京瑞廣場二期1樓156B5鋪\n荃灣南豐商場A74號鋪 \n土瓜灣道76號\n天水圍銀座2期K8\n上水龍豐廣場地下49號鋪\n屯門華都商場1樓29B鋪\n屯門盈豐商場1樓B54A鋪, Hong Kong",
+        "website": "http://q8phone.business.site"
       },
       "url": "https://www.facebook.com/q8phone/"
     },

@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/lunelapinmakeup/",
       "meta": {
-        "name": "LUNE LAPIN Beauty Bridal Nail Salon",
         "id": "254366778087589",
+        "username": "lunelapinmakeup",
+        "name": "LUNE LAPIN Beauty Bridal Nail Salon",
         "about": "簡約優雅日系化妝美甲店",
-        "categories": [
-          "Cosmetics Store",
-          "Hair Salon",
-          "Makeup Artist"
+        "category_list": [
+          {
+            "id": "144873802247220",
+            "name": "Cosmetics Store"
+          },
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          },
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "addr": "513, Radio City, 505 Hennessy Road, Causeway Bay",
-        "area": "0000 Hong Kong",
-        "email": "info@lunelapin.org",
-        "tel": "96120682"
+        "emails": [
+          "info@lunelapin.org"
+        ],
+        "single_line_address": "513, Radio City, 505 Hennessy Road, Causeway Bay, 0000 Hong Kong",
+        "website": "http://www.lunelapin.org"
       }
     },
     {

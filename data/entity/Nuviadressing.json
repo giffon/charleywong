@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/Nuviadressing/",
       "meta": {
-        "name": "Nuvia",
         "id": "2234373790158542",
+        "username": "Nuviadressing",
+        "name": "Nuvia",
         "about": "晚裝夠新款\n婚紗夠獨特\n禮服夠型格",
-        "categories": [
-          "Apparel & Clothing"
+        "category_list": [
+          {
+            "id": "1086422341396773",
+            "name": "Apparel & Clothing"
+          }
         ],
-        "addr": "Room 1A, 1/F, Long To Building, 654-656 Castle Peak Road, Cheung Sha Wan",
-        "area": "852 Hong Kong",
-        "email": "nuviadressing@gmail.com",
-        "tel": "93896986"
+        "emails": [
+          "nuviadressing@gmail.com"
+        ],
+        "single_line_address": "Room 1A, 1/F, Long To Building, 654-656 Castle Peak Road, Cheung Sha Wan, 852 Hong Kong"
       }
     },
     {

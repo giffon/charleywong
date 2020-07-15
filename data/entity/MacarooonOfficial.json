@@ -9,13 +9,20 @@
     },
     {
       "meta": {
-        "name": "Macarooon",
         "id": "718719981607489",
+        "username": "MacarooonOfficial",
+        "name": "Macarooon",
         "about": "Macarooon - Premium Leather iPhone Case",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "info@macarooon.com"
+        "emails": [
+          "info@macarooon.com"
+        ],
+        "website": "http://www.macarooon.com"
       },
       "url": "https://www.facebook.com/MacarooonOfficial/"
     },

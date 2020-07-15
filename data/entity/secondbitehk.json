@@ -6,16 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Second Bite",
         "id": "242209396526887",
+        "name": "Second Bite",
         "about": "We Serve you the most Exciting Boodle Seafood Bar & Grilled Experience in the World!",
-        "categories": [
-          "Steakhouse",
-          "Bar & Grill"
+        "category_list": [
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          },
+          {
+            "id": "233804719972590",
+            "name": "Bar & Grill"
+          }
         ],
-        "addr": "Shop 6 G/F Cheung Fai Building 45 Cheung Wah Street  Cheung Sha Wan",
-        "area": "Hong Kong",
-        "tel": "39565441"
+        "single_line_address": "Shop 6 G/F Cheung Fai Building 45 Cheung Wah Street  Cheung Sha Wan, Hong Kong"
       },
       "url": "https://www.facebook.com/242209396526887/"
     },

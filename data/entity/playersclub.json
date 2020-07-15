@@ -7,36 +7,52 @@
     {
       "url": "https://www.facebook.com/playersclub751/",
       "meta": {
-        "name": "Players' Club -Trading Card Game store",
         "id": "554394811333353",
-        "about": "遊戲王、Pokémon、BS、Vanguard、WS、龍珠、Keyforge\n分店地址：\n太子運動場道21-27運泰大廈4樓D\n長沙灣青山道天悅廣場地下A15B號舖\n葵芳葵豐街53號福業大廈12樓02室",
-        "categories": [
-          "Local Business"
+        "username": "playersclub751",
+        "name": "Players' Club -Trading Card Game store",
+        "about": "遊戲王、Pokémon、BS、Vanguard、WS、龍珠、Keyforge分店地址：太子愛都婚紗中心8樓長沙灣青山道天悅廣場地下A15B號舖葵芳葵豐街53號福業大廈12樓02室",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "太子彌敦道749A愛都婚紗中心8樓全層",
-        "area": "+852 54067569 Hong Kong",
-        "email": "playersclubhk@gmail.com",
-        "tel": "54067569"
+        "emails": [
+          "playersclubhk@gmail.com"
+        ],
+        "single_line_address": "太子彌敦道749A愛都婚紗中心8樓全層, +852 54067569 Hong Kong",
+        "website": "http://playersclub751.blogspot.hk/"
       }
     },
     {
       "url": "https://www.facebook.com/playersclub2/",
       "meta": {
-        "name": "Players’Club 2號店-長沙灣天悅店",
         "id": "111531593544583",
-        "categories": [
-          "Retail Company"
-        ]
+        "username": "playersclub2",
+        "name": "Players’Club 2號店-長沙灣天悅店",
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
+        ],
+        "single_line_address": "長沙灣元州街天悅廣場 地下A15B 及B14號舖, 香港",
+        "website": "http://www.playersclub751.com"
       }
     },
     {
       "meta": {
-        "name": "Players’ Club 3 - 葵芳店",
         "id": "615819132222234",
-        "about": "專營PTCG、VG、BS及其他集玩式卡牌遊戲",
-        "categories": [
-          "Games/Toys"
-        ]
+        "username": "PlayersClub3",
+        "name": "Players’ Club 3 - 葵芳店",
+        "about": "專營PTCG、VG、BS、Digimon TCG 及其他集玩式卡牌遊戲\n",
+        "category_list": [
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          }
+        ],
+        "single_line_address": "葵芳葵豐街53號福業大廈12樓02室, +852 Hong Kong"
       },
       "url": "https://www.facebook.com/PlayersClub3/"
     },

@@ -15,15 +15,28 @@
     {
       "url": "https://www.facebook.com/hoiiiching/",
       "meta": {
-        "name": "Hoiching愷晴",
         "id": "1588045994588071",
+        "username": "hoiiiching",
+        "name": "Hoiching愷晴",
         "about": "前香港旅遊+飲食記者，裸辭後偶爾拍影片、偶爾寫稿子、最愛旅遊、還是一個小店的闆娘。經歷港台戀，長居台灣，2018成為蘭嶼島主～一個不甘平凡的女生～我還有個youtube頻道，記得訂閱我!",
-        "categories": [
-          "Community",
-          "Local & Travel Website",
-          "Personal Blog"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "2715",
+            "name": "Local & Travel Website"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "hoiching0218@gmail.com"
+        "emails": [
+          "hoiching0218@gmail.com"
+        ],
+        "website": "https://www.Youtube.com/hoiiiching"
       }
     },
     {

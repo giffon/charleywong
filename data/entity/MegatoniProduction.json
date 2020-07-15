@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "Megatoni Production",
         "id": "1592637540957367",
+        "username": "MegatoniProduction",
+        "name": "Megatoni Production",
         "about": "8mm、16mm、135、127、120、4x5、8x10菲林沖洗。",
-        "categories": [
-          "Arts & Entertainment",
-          "Photography Videography"
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          }
         ],
-        "addr": "深水埗基隆街139號地下",
-        "area": "Sham Shui Po",
-        "email": "info@megatoniproduction.com",
-        "tel": "59849083"
+        "emails": [
+          "info@megatoniproduction.com"
+        ],
+        "single_line_address": "深水埗基隆街139號地下, Sham Shui Po",
+        "website": "http://www.megatoniproduction.com"
       },
       "url": "https://www.facebook.com/MegatoniProduction/"
     },

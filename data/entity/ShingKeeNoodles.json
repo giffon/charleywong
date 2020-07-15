@@ -10,11 +10,14 @@
     {
       "url": "https://www.facebook.com/285851428590102/",
       "meta": {
-        "name": "沙田盛記義工團",
         "id": "285851428590102",
+        "name": "沙田盛記義工團",
         "about": "午市飯、粉麵；晩市火煱",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ]
       }
     }

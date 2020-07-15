@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/zolarfitness/",
       "meta": {
-        "name": "Zolar Fitness",
         "id": "549746708821709",
+        "username": "zolarfitness",
+        "name": "Zolar Fitness",
         "about": "�1:1 or 1:2 Personal Training \n�消脂爆汗班\n�瑜珈修身班\n�營養餐單\n�歡迎inbox查詢/\n�whatsapp 9515 7454",
-        "categories": [
-          "Gym/Physical Fitness Center"
+        "category_list": [
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          }
         ],
-        "addr": "彌敦道490-492號盤谷銀行大廈21樓",
-        "area": "852 Kowloon, Hong Kong",
-        "email": "zolarfitness@gmail.com",
-        "tel": "95157454"
+        "emails": [
+          "zolarfitness@gmail.com"
+        ],
+        "single_line_address": "彌敦道490-492號盤谷銀行大廈21樓, 852 Kowloon, Hong Kong"
       }
     },
     {

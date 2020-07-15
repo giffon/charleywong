@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "清風齋",
         "id": "994389537328338",
+        "username": "freedomcmclinic",
+        "name": "清風齋",
         "about": "清風齋（中醫診所）專頁\n本頁提供預約，及查詢服務\n診所醫師負責中醫內科（顆粒沖劑），針刺，艾灸",
-        "categories": [
-          "Medical & Health",
-          "Health & Wellness Website"
+        "category_list": [
+          {
+            "id": "145118935550090",
+            "name": "Medical & Health"
+          },
+          {
+            "id": "2707",
+            "name": "Health & Wellness Website"
+          }
         ],
-        "addr": "荔枝角青山道668-690號 嘉名工廠大廈E座10樓10室",
-        "area": "Hong Kong",
-        "email": "freedomcmclinic@gmail.com",
-        "tel": "92110972"
+        "emails": [
+          "freedomcmclinic@gmail.com"
+        ],
+        "single_line_address": "荔枝角青山道668-690號 嘉名工廠大廈E座10樓10室, Hong Kong",
+        "website": "https://leehonwaiblog.wordpress.com"
       },
       "url": "https://www.facebook.com/freedomcmclinic/"
     },

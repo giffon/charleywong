@@ -8,14 +8,19 @@
     {
       "url": "https://www.facebook.com/BenHoWP/",
       "meta": {
-        "name": "何惠彬 Ben Ho",
         "id": "1664166293612024",
+        "username": "BenHoWP",
+        "name": "何惠彬 Ben Ho",
         "about": "嶺南大學中文系畢業，從事議會地區工作8年，2019年11月24日獲3513票，於天耀選區當選元朗區議員。\n\n曾兼職清潔工，並於中學教授文學、寫作課程，籌集資金，推動嶄新社區服務。",
-        "categories": [
-          "Political Organization"
+        "category_list": [
+          {
+            "id": "373543049350668",
+            "name": "Political Organization"
+          }
         ],
-        "email": "ben.ho.dc@gmail.com",
-        "tel": "55440902"
+        "emails": [
+          "ben.ho.dc@gmail.com"
+        ]
       }
     }
   ],

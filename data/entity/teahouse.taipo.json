@@ -8,16 +8,21 @@
     {
       "url": "https://www.facebook.com/teahouse.taipo/",
       "meta": {
-        "name": "大埔鼎天茶室 Tea House",
         "id": "101698638122228",
-        "about": "光復香港 時代革命",
-        "categories": [
-          "Restaurant",
-          "Food Consultant"
+        "username": "teahouse.taipo",
+        "name": "大埔鼎天茶室 Tea House",
+        "about": "大埔友",
+        "category_list": [
+          {
+            "id": "187462324610381",
+            "name": "Food Consultant"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": null,
-        "area": "大埔安慈路3號翠屏花園商場地下3號鋪",
-        "tel": "37051486"
+        "single_line_address": "大埔安慈路3號翠屏花園商場地下3號鋪"
       }
     },
     {

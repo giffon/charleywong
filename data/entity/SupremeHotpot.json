@@ -10,31 +10,41 @@
     {
       "url": "https://www.facebook.com/SupremeHotpot/",
       "meta": {
-        "name": "靚煲皇",
         "id": "322632137777932",
-        "about": "地址：九龍旺角 塘尾道18號[嘉禮大廈]地下 \n        訂座電話：2399 0812\n        營業時間：5：00pm-5:00am",
-        "categories": [
-          "Food Consultant"
+        "username": "SupremeHotpot",
+        "name": "靚煲皇",
+        "about": "地址：九龍旺角 塘尾道18號[嘉禮大廈]地下 \n        訂座電話：2399 0812\n        營業時間：5：00pm-5:00am\n\n",
+        "category_list": [
+          {
+            "id": "187462324610381",
+            "name": "Food Consultant"
+          }
         ],
-        "addr": "18 tong mi road",
-        "area": "00852 Mong Kok",
-        "email": "info@0812.hk",
-        "tel": "23990812"
+        "emails": [
+          "info@0812.hk"
+        ],
+        "single_line_address": "18 tong mi road, 00852 Mong Kok",
+        "website": "https://s.openrice.com/QrbS07w8200~uTncGAA\r\n"
       }
     },
     {
       "url": "https://www.facebook.com/www.0812.hk/",
       "meta": {
-        "name": "靚煲皇 小菜坊",
         "id": "292855721139285",
+        "username": "www.0812.hk",
+        "name": "靚煲皇 小菜坊",
         "about": "九龍旺角塘尾道18號嘉禮大廈地下\nMong Kok, Hong Kong\n23990812",
-        "categories": [
-          "Hot Pot Restaurant"
+        "category_list": [
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          }
         ],
-        "addr": "香港旺角塘尾道18號,地下",
-        "area": "Hong Kong",
-        "email": "info@0812.hk",
-        "tel": "23990812"
+        "emails": [
+          "info@0812.hk"
+        ],
+        "single_line_address": "香港旺角塘尾道18號,地下, 0852 Hong Kong",
+        "website": "https://s.openrice.com/QrbS07w8200\r"
       }
     },
     {

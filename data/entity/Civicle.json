@@ -7,18 +7,27 @@
   "webpages": [
     {
       "meta": {
-        "name": "思域高 Civicle",
         "id": "100165398179519",
+        "name": "思域高 Civicle",
         "about": "提供網頁寄存及網頁設計，包括：公司網頁，企業管理系統，廣告或活動網頁等等。\n我們的理念：「做事憑良知」歡迎同路人查詢。\n\nCivicle, let your conscience be your guide.",
-        "categories": [
-          "Web Designer",
-          "Software",
-          "Computers & Internet Website"
+        "category_list": [
+          {
+            "id": "187393124625179",
+            "name": "Web Designer"
+          },
+          {
+            "id": "2211",
+            "name": "Software"
+          },
+          {
+            "id": "2703",
+            "name": "Computers & Internet Website"
+          }
         ],
-        "addr": "荃灣沙咀道57號荃運工業中心2期G座16樓05室",
-        "area": "Hong Kong",
-        "email": "info@civicle.com",
-        "tel": "84810388"
+        "emails": [
+          "info@civicle.com"
+        ],
+        "single_line_address": "荃灣沙咀道57號荃運工業中心2期G座16樓05室, - Hong Kong"
       },
       "url": "https://www.facebook.com/100165398179519/"
     }

@@ -7,15 +7,25 @@
     {
       "url": "https://www.facebook.com/junegiraffe2020/",
       "meta": {
-        "name": "Let's Create",
         "id": "112094903621352",
+        "username": "junegiraffe2020",
+        "name": "Let's Create",
         "about": "銷售及開發環保或竉物相關產品",
-        "categories": [
-          "Art",
-          "Environmental Service",
-          "Petting Zoo"
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "806240166180298",
+            "name": "Environmental Service"
+          },
+          {
+            "id": "186911214686518",
+            "name": "Petting Zoo"
+          }
         ],
-        "tel": "97302697"
+        "single_line_address": "Hong Kong"
       }
     }
   ],

@@ -7,14 +7,24 @@
   "webpages": [
     {
       "meta": {
+        "id": "1526159637646134",
+        "username": "oceanstampsfwte",
+        "name": "海印 Ocean Stamps",
         "about": "大海可以把每一塊陸地都連結在一起，可以透過海洋到達每一片的陸地，也把不同土地的人透過大海而重新接上。",
-        "categories": [
-          "Artist",
-          "Just for fun"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "129417183848258",
+            "name": "Just For Fun"
+          }
         ],
-        "email": "fwteoceanstamps@gmail.com",
-        "tel": "93171303",
-        "id": "1526159637646134"
+        "emails": [
+          "fwteoceanstamps@gmail.com"
+        ],
+        "website": "https://www.pinkoi.com/store/oceanstampsfwte"
       },
       "url": "https://www.facebook.com/oceanstampsfwte/"
     },

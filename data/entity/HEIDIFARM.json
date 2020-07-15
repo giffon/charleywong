@@ -7,13 +7,16 @@
     {
       "url": "https://www.facebook.com/HEIDIFARM/",
       "meta": {
-        "name": "HEIDI FARM",
         "id": "272602316912904",
+        "username": "HEIDIFARM",
+        "name": "HEIDI FARM",
         "about": "HEIDI'S FARM 位於錦田大江埔, \n歡迎租地自耕,享受自家種植樂趣",
-        "categories": [
-          "Farm"
-        ],
-        "tel": "98698646"
+        "category_list": [
+          {
+            "id": "150815208309028",
+            "name": "Farm"
+          }
+        ]
       }
     },
     {

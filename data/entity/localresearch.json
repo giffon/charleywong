@@ -17,15 +17,21 @@
     },
     {
       "meta": {
-        "name": "本土研究社 Liber Research Community",
         "id": "244689185627162",
-        "about": "開拓各種自主獨立的本土研究，推動民間知識生產與普及，請捐款支持本土研究社的工作。 \n\n撐起民間研究 Support Us：\nhttps://liber-research.com/support-us\n\n本研 Telegram Channel\nhttps://t.me/liberinfo",
-        "categories": [
-          "Non-Governmental Organization (NGO)"
+        "username": "localresearch",
+        "name": "本土研究社 Liber Research Community",
+        "about": "本土研究社（香港）有限公司開拓自主獨立的本土研究，推動民間知識生產與普及。 \n\n撐起民間研究 Support Us：\nhttps://liber-research.com/support-us\n\n本研 Telegram Channel\nhttps://t.me/liberinfo",
+        "category_list": [
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          }
         ],
-        "addr": "2/F, Foo Tak Building, 365 Hennessy Road, Wan Chai",
-        "area": "852 Hong Kong",
-        "email": "info@liber-research.com"
+        "emails": [
+          "info@liber-research.com"
+        ],
+        "single_line_address": "2/F, Foo Tak Building, 365 Hennessy Road, Wan Chai, 852 Hong Kong",
+        "website": "https://liber-research.com/"
       },
       "url": "https://www.facebook.com/localresearch/"
     },

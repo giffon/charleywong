@@ -8,14 +8,21 @@
     {
       "url": "https://www.facebook.com/samcheunghs/",
       "meta": {
-        "name": "張可森 Sam Cheung",
         "id": "102922707728081",
+        "username": "samcheunghs",
+        "name": "張可森 Sam Cheung",
         "about": "第六屆屯門區議員（新墟）\n放下素人身份，做好議員本份。",
-        "categories": [
-          "Politician"
+        "category_list": [
+          {
+            "id": "1700",
+            "name": "Politician"
+          }
         ],
-        "email": "info@samcheung.org",
-        "tel": "64364735"
+        "emails": [
+          "info@samcheung.org"
+        ],
+        "single_line_address": "新界屯門鄉事會路112-140號雅都商場1樓F2號鋪, Hong Kong",
+        "website": "https://www.facebook.com/samcheunghs"
       }
     },
     {

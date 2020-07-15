@@ -9,18 +9,29 @@
     },
     {
       "meta": {
-        "name": "Modern Art Studio",
         "id": "388985381170491",
+        "username": "ModernArtHK",
+        "name": "Modern Art Studio",
         "about": "Modern Art Studio 專注於19至21世紀的藝術課程及提供自由藝術創作空間。",
-        "categories": [
-          "Art",
-          "Art School",
-          "Art Gallery"
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "164288046954643",
+            "name": "Art School"
+          },
+          {
+            "id": "197384240287028",
+            "name": "Art Gallery"
+          }
         ],
-        "addr": "大圍村一街34號B地舖, 積福街",
-        "area": "Tai Wai",
-        "email": "modernartstudio.hk@gmail.com",
-        "tel": "26408861"
+        "emails": [
+          "modernartstudio.hk@gmail.com"
+        ],
+        "single_line_address": "大圍村一街34號B地舖, 積福街, Tai Wai",
+        "website": "http://www.modernart-hk.com"
       },
       "url": "https://www.facebook.com/ModernArtHK/"
     },

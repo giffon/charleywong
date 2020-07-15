@@ -14,15 +14,27 @@
     {
       "url": "https://www.facebook.com/heymanmusic/",
       "meta": {
-        "name": "Heyman_Music",
         "id": "114862949943287",
+        "username": "heymanmusic",
+        "name": "Heyman_Music",
         "about": "Talk less, listen more, when your surrounding is muted, even the fireplace is an instrument.",
-        "categories": [
-          "Musician",
-          "Insurance Agent",
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "1335670856447673",
+            "name": "Musician"
+          },
+          {
+            "id": "152339818172592",
+            "name": "Insurance Agent"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "email": "menheychen@gmail.com"
+        "emails": [
+          "menheychen@gmail.com"
+        ]
       }
     },
     {

@@ -6,14 +6,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "Hugo L Hair Stylist",
         "id": "2509805682585288",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care"
+        "username": "hugolhair",
+        "name": "Hugo L Hair Stylist",
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "addr": "尖沙咀金巴利道18號地庫",
-        "area": "Kowloon, Hong Kong",
-        "tel": "63336805"
+        "single_line_address": "尖沙咀金巴利道18號地庫, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/hugolhair/"
     },

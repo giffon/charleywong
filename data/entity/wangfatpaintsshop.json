@@ -8,17 +8,24 @@
     {
       "url": "https://www.facebook.com/wangfatpaintsshop/",
       "meta": {
-        "name": "宏發顏料油漆 Wang Fat Paints Shop",
         "id": "664575663648779",
+        "username": "wangfatpaintsshop",
+        "name": "宏發顏料油漆 Wang Fat Paints Shop",
         "about": "一間開業超過40年香港本地老字號，專業售賣各種各樣油漆及工具！",
-        "categories": [
-          "Home Improvement",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "108427109235243",
+            "name": "Home Improvement"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "譚臣道115號地下 (大有商場後面）G/F 115 Thomson Road, Wai Chai",
-        "area": "灣仔分店：灣仔地鐵站A3 出口 Wai Chai MTR station ExitA3 Hong Kong",
-        "email": "lovedog_monster@yahoo.com.hk",
-        "tel": "28346983"
+        "emails": [
+          "lovedog_monster@yahoo.com.hk"
+        ],
+        "single_line_address": "譚臣道115號地下 (大有商場後面）G/F 115 Thomson Road, Wai Chai, 灣仔分店：灣仔地鐵站A3 出口 Wai Chai MTR station ExitA3 Hong Kong"
       }
     }
   ],

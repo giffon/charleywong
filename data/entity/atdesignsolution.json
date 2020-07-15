@@ -9,15 +9,28 @@
     },
     {
       "meta": {
-        "name": "AT Design Solution",
         "id": "341387352662700",
+        "username": "atdesignsolution",
+        "name": "AT Design Solution",
         "about": "Design your own HOME",
-        "categories": [
-          "Interior Design Studio",
-          "Architectural Designer",
-          "Furniture"
+        "category_list": [
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          },
+          {
+            "id": "2219",
+            "name": "Furniture"
+          },
+          {
+            "id": "1711765319078442",
+            "name": "Architectural Designer"
+          }
         ],
-        "tel": "55116801"
+        "emails": [
+          "info@atdesignsolution.com"
+        ],
+        "website": "http://www.atdesignsolution.com"
       },
       "url": "https://www.facebook.com/atdesignsolution/"
     }

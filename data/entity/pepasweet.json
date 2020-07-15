@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "紙漫糖",
         "id": "118691898283454",
-        "about": "香港同人紙模型為主的組織\n製作出有趣/萌的紙模型",
-        "categories": [
-          "Organization"
+        "username": "pepasweet",
+        "name": "紙漫糖",
+        "about": "香港同人紙模型為主的組織\n製作出有趣/萌的紙模型\n",
+        "category_list": [
+          {
+            "id": "2600",
+            "name": "Organization"
+          }
         ],
-        "email": "pepatiger@yahoo.com.hk"
+        "emails": [
+          "pepatiger@yahoo.com.hk"
+        ],
+        "single_line_address": "Hong Kong"
       },
       "url": "https://www.facebook.com/pepasweet/"
     },

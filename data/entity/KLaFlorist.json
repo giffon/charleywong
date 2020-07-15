@@ -6,11 +6,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "K La Florist",
         "id": "529959100547906",
+        "username": "KLaFlorist",
+        "name": "K La Florist",
         "about": "// Flowers make your day !\n\n每個花藝品都是用心設計和製作的，\n希望收花的你能感到幸褔、快樂。",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       },
       "url": "https://www.facebook.com/KLaFlorist/"

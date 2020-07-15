@@ -8,15 +8,20 @@
     {
       "url": "https://www.facebook.com/artco33.hk/",
       "meta": {
-        "name": "Artco · 33",
         "id": "567513926734566",
-        "categories": [
-          "European Restaurant",
-          "Italian Restaurant"
+        "username": "artco33.hk",
+        "name": "Artco · 33",
+        "category_list": [
+          {
+            "id": "1508025966158640",
+            "name": "European Restaurant"
+          },
+          {
+            "id": "193831710644458",
+            "name": "Italian Restaurant"
+          }
         ],
-        "addr": "荃灣沙咀道328號寶石大厦G21",
-        "area": "852 Hong Kong",
-        "tel": "23411388"
+        "single_line_address": "荃灣沙咀道328號寶石大厦G21, 852 Hong Kong"
       }
     },
     {

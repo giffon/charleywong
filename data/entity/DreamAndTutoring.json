@@ -14,13 +14,20 @@
     {
       "url": "https://www.facebook.com/DreamAndTutoring/",
       "meta": {
-        "name": "發夢返黎 上網補習 - 網上義補義教計劃",
         "id": "101837654585500",
+        "username": "DreamAndTutoring",
+        "name": "發夢返黎 上網補習 - 網上義補義教計劃",
         "about": "《網上義補義教計劃》係一個支援「發夢」中學生免費網上補習計劃。除咗希望減輕同學仔經濟壓力、渡過學業上嘅難關，更希望可以透過義補，連結唔同世代堅持同樣信念嘅香港人。",
-        "categories": [
-          "Education Website"
+        "category_list": [
+          {
+            "id": "2704",
+            "name": "Education Website"
+          }
         ],
-        "email": "dreamandtutoring@gmail.com"
+        "emails": [
+          "dreamandtutoring@gmail.com"
+        ],
+        "website": "http://bit.ly/dreamandtutoring"
       }
     }
   ],

@@ -8,17 +8,24 @@
     {
       "url": "https://www.facebook.com/hotdoglinkhk/",
       "meta": {
-        "name": "Hot Dog Link (德國熱狗)",
         "id": "123125477749396",
+        "username": "hotdoglinkhk",
+        "name": "Hot Dog Link (德國熱狗)",
         "about": "German hot dog shop in hongkong fastfood style.",
-        "categories": [
-          "Hot Dog Joint",
-          "Fast Food Restaurant"
+        "category_list": [
+          {
+            "id": "212285478786733",
+            "name": "Hot Dog Joint"
+          },
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          }
         ],
-        "addr": "何文田窩打老道67D號C鋪",
-        "area": "Hong Kong",
-        "email": "hotdoglink1993@gmail.com",
-        "tel": "26244002"
+        "emails": [
+          "hotdoglink1993@gmail.com"
+        ],
+        "single_line_address": "何文田窩打老道67D號C鋪, Hong Kong"
       }
     },
     {

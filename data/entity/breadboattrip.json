@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/breadboattrip/",
       "meta": {
-        "name": "Bread boat trip",
         "id": "247483708954096",
-        "about": "夏天�有咩做梗係出海玩啦�����\n我地有多款既充氣設施同自家制既美食���\n包你有一個非凡既夏天�\n即刻打比方包�：97311778 book船啦�",
-        "categories": [
-          "Boat Rental",
-          "Sports & Recreation"
+        "username": "breadboattrip",
+        "name": "Bread boat trip",
+        "about": "\n夏天�有咩做梗係出海玩啦�����\n我地有多款既充氣設施同自家制既美食���\n包你有一個非凡既夏天�\n即刻打比方包�：97311778 book船啦�",
+        "category_list": [
+          {
+            "id": "170474162998885",
+            "name": "Boat Rental"
+          },
+          {
+            "id": "186982054657561",
+            "name": "Sports & Recreation"
+          }
         ],
-        "addr": "西貢市",
-        "area": "0852 Sai Kung",
-        "tel": "97311778"
+        "single_line_address": "西貢市, 0852 Sai Kung"
       }
     },
     {

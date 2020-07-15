@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/LungMeiEnvironmentalEducationCentre/",
       "meta": {
-        "name": "龍尾環境教育中心",
         "id": "323461217748457",
+        "username": "LungMeiEnvironmentalEducationCentre",
+        "name": "龍尾環境教育中心",
         "about": "認識才會珍惜。龍尾環境教育中心致力提供各種自然生態環境教育的資訊。",
-        "categories": [
-          "Education"
+        "category_list": [
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "email": "lungmei.centre@gmail.com"
+        "emails": [
+          "lungmei.centre@gmail.com"
+        ],
+        "website": "http://www.hkwildlife.net/lungmei/"
       }
     }
   ],

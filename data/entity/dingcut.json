@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/dingcut/",
       "meta": {
-        "name": "DINGCUT",
         "id": "209056912440453",
-        "about": "One man band salon",
-        "categories": [
-          "Hair Salon",
-          "Barber Shop"
+        "username": "dingcut",
+        "name": "DINGCUT",
+        "about": "One man band salon\n\n",
+        "category_list": [
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          },
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          }
         ],
-        "addr": "7/F., No.66 SAI YEUNG CHOI STREET, MONGKOK, KOWLOON",
-        "area": "Hong Kong",
-        "email": "dingley@dingcut.com",
-        "tel": "26269845"
+        "emails": [
+          "dingley@dingcut.com"
+        ],
+        "single_line_address": "7/F., No.66 SAI YEUNG CHOI STREET, MONGKOK, KOWLOON, Hong Kong"
       }
     },
     {

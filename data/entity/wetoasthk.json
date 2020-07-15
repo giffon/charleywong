@@ -11,14 +11,25 @@
     {
       "url": "https://www.facebook.com/wetoasthk/",
       "meta": {
-        "name": "港識多史 We Toast HK",
         "id": "1119587221482002",
+        "username": "wetoasthk",
+        "name": "港識多史 We Toast HK",
         "about": "簡單細說香港歷史文化故事",
-        "categories": [
-          "History Museum",
-          "Organization"
+        "category_list": [
+          {
+            "id": "244600818962350",
+            "name": "History Museum"
+          },
+          {
+            "id": "2600",
+            "name": "Organization"
+          }
         ],
-        "email": "wetoasthk@gmail.com"
+        "emails": [
+          "wetoasthk@gmail.com"
+        ],
+        "single_line_address": "852 香港",
+        "website": "http://www.wetoasthk.com"
       }
     },
     {

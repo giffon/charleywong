@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/AlFornoSoho/",
       "meta": {
-        "name": "Al Forno Soho",
         "id": "163194887159418",
+        "username": "AlFornoSoho",
+        "name": "Al Forno Soho",
         "about": "Al Forno Soho",
-        "categories": [
-          "Italian Restaurant",
-          "Pizza Place",
-          "Continental Restaurant"
+        "category_list": [
+          {
+            "id": "193831710644458",
+            "name": "Italian Restaurant"
+          },
+          {
+            "id": "180256082015845",
+            "name": "Pizza Place"
+          },
+          {
+            "id": "197227066968500",
+            "name": "Continental Restaurant"
+          }
         ],
-        "addr": "41-49 Aberdeen Street,  Central District",
-        "area": "Hong Kong",
-        "email": "alfornohongkong@gmail.com",
-        "tel": "28983833"
+        "emails": [
+          "alfornohongkong@gmail.com"
+        ],
+        "single_line_address": "41-49 Aberdeen Street,  Central District, Hong Kong",
+        "website": "http://www.alfornosoho.com"
       }
     },
     {

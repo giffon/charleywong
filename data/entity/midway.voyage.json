@@ -24,31 +24,48 @@
     {
       "url": "https://www.facebook.com/midway.voyage/",
       "meta": {
-        "name": "MIDWAY",
         "id": "541876052546362",
+        "username": "midway.voyage",
+        "name": "MIDWAY",
         "about": "航程途中，要盡情欣賞舷窗外風景。\n\nMIDWAY in our life journey, enjoy the scenery through the porthole.",
-        "categories": [
-          "Local & Travel Website",
-          "News & Media Website"
+        "category_list": [
+          {
+            "id": "2715",
+            "name": "Local & Travel Website"
+          },
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
         ],
-        "email": "hello@midway.voyage",
-        "tel": "31881951"
+        "emails": [
+          "hello@midway.voyage"
+        ],
+        "website": "http://www.midway.voyage"
       }
     },
     {
       "url": "https://www.facebook.com/midway.shop/",
       "meta": {
-        "name": "MIDWAY shop",
         "id": "1125527564257261",
+        "username": "midway.shop",
+        "name": "MIDWAY shop",
         "about": "MIDWAY shop 其實是 MIDWAY 的延伸，在店舖裡的東西，大部分都是源自於我們撰寫過的旅遊文章，在途中遇過的人和事，將物件背後的故事從文字變成實體。",
-        "categories": [
-          "Cultural Gifts Store",
-          "Household Supplies"
+        "category_list": [
+          {
+            "id": "180816211956170",
+            "name": "Cultural Gifts Store"
+          },
+          {
+            "id": "2220",
+            "name": "Household Supplies"
+          }
         ],
-        "addr": "G/F, 132B Ki Lung Street, Sham Shui Po, Kowloon",
-        "area": "Hong Kong",
-        "email": "shop@midway-studio.com",
-        "tel": "31881951"
+        "emails": [
+          "shop@midway-studio.com"
+        ],
+        "single_line_address": "G/F, 132B Ki Lung Street, Sham Shui Po, Kowloon, Hong Kong",
+        "website": "http://www.midway.voyage/shop"
       }
     },
     {
@@ -61,14 +78,17 @@
     {
       "url": "https://www.facebook.com/pressthebuttoncoffee/",
       "meta": {
-        "name": "PRESS THE BUTTON",
         "id": "100552614955364",
+        "username": "pressthebuttoncoffee",
+        "name": "PRESS THE BUTTON",
         "about": "｜𝗌𝗂𝗆𝗉𝗅𝗒 𝖺 𝗍𝗈𝗎𝖼𝗁 𝗈𝖿 𝗁𝖺𝗉𝗉𝗂𝗇𝖾𝗌𝗌",
-        "categories": [
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "G/F, 132A Ki Lung Street",
-        "area": "Kowloon, Hong Kong"
+        "single_line_address": "G/F, 132A Ki Lung Street, Kowloon, Hong Kong"
       }
     }
   ],

@@ -7,16 +7,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Sooo Vegi 素食主意",
         "id": "190133197862307",
-        "about": "香港北角電器道254-280號華凱大廈地下A6號舖. (店舖位於華凱大廈旁的福元街行人天橋底)\nTel: 2881 7996",
-        "categories": [
-          "Vegetarian/Vegan Restaurant",
-          "Health Food Restaurant"
+        "username": "SoooVegi",
+        "name": "Sooo Vegi 素食主意",
+        "about": "香港北角電器道254-280號華凱大廈地下A6號舖. (店舖位於華凱大廈旁的福元街行人天橋底)\nTel: 2881 7996\n",
+        "category_list": [
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          },
+          {
+            "id": "156756251046858",
+            "name": "Health Food Restaurant"
+          }
         ],
-        "addr": "Shop A6, Wah Hoi Mansion, 254-280 Electric Rd",
-        "area": "Fortress Hill North Point",
-        "tel": "28817996"
+        "single_line_address": "Shop A6, Wah Hoi Mansion, 254-280 Electric Rd, Fortress Hill North Point"
       },
       "url": "https://www.facebook.com/SoooVegi/"
     }

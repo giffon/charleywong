@@ -8,16 +8,21 @@
     {
       "url": "https://www.facebook.com/RealHanwoo/",
       "meta": {
-        "name": "堅韓牛 Real Hanwoo",
         "id": "195670843894809",
+        "username": "RealHanwoo",
+        "name": "堅韓牛 Real Hanwoo",
         "about": "採用頂級1++韓牛，加上美國頂級安格斯牛肋骨、肉眼扒、一口牛粒任你點！前菜、熟食、鍋物等均採用正宗韓國料理秘方，保證百分百韓式風味！快來試試韓燒加火鍋新體驗！",
-        "categories": [
-          "Korean Restaurant",
-          "Hot Pot Restaurant"
+        "category_list": [
+          {
+            "id": "150896171638138",
+            "name": "Korean Restaurant"
+          },
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          }
         ],
-        "addr": "旺角彌敦道726號16樓",
-        "area": "Hong Kong",
-        "tel": "21110753"
+        "single_line_address": "旺角彌敦道726號16樓, Hong Kong"
       }
     },
     {

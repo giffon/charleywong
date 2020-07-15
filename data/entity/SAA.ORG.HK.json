@@ -18,18 +18,29 @@
     {
       "url": "https://www.facebook.com/SAA.ORG.HK/",
       "meta": {
-        "name": "SAA 保護遺棄動物協會",
         "id": "117141993101",
-        "about": "歡迎於開放時間到本會參觀, 無需預約。\n地址:元朗僑興路白沙村第一段, 開放時間是逢星期三, 五, 六,日及公眾假期, 下午1時至4時.\n豁免持有動物售賣商牌照編號：ORG-00007",
-        "categories": [
-          "Nonprofit Organization",
-          "Animal Shelter",
-          "Charity Organization"
+        "username": "SAA.ORG.HK",
+        "name": "SAA 保護遺棄動物協會",
+        "about": "因現時疫情不穩定，本會現時只限預約探訪。不便之處，敬請原諒。\n\n豁免持有動物售賣商牌照編號：ORG-00007\n",
+        "category_list": [
+          {
+            "id": "170810676298376",
+            "name": "Animal Shelter"
+          },
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          },
+          {
+            "id": "226326230802065",
+            "name": "Charity Organization"
+          }
         ],
-        "addr": "新界元朗僑興路白沙村第一段",
-        "area": "Hong Kong",
-        "email": "saa@saa.org.hk",
-        "tel": "28380633"
+        "emails": [
+          "saa@saa.org.hk"
+        ],
+        "single_line_address": "新界元朗僑興路白沙村第一段, N/A Hong Kong",
+        "website": "http://www.saa.org.hk"
       }
     }
   ],

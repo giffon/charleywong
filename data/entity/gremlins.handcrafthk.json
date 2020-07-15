@@ -7,13 +7,16 @@
     {
       "url": "https://www.facebook.com/gremlins.handcrafthk/",
       "meta": {
-        "name": "Gremlins Handcraft",
         "id": "110974706992709",
+        "username": "gremlins.handcrafthk",
+        "name": "Gremlins Handcraft",
         "about": "� Handmade Product 歡迎訂做 �",
-        "categories": [
-          "Product/Service"
-        ],
-        "tel": "65752360"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
+        ]
       }
     },
     {

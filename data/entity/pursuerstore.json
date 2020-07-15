@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/pursuerstore/",
       "meta": {
-        "name": "Pursuer Store",
         "id": "1514121145541420",
-        "about": "PURSUER STORE創立於2014年，是一間生活百貨店舖。\n\n→個人護理\n→生活用品\n→家居用品\n→健康產品\n\n↓網上店↓\nwww.pursuerstore.com",
-        "categories": [
-          "Product/Service",
-          "Beauty Salon",
-          "Wholesale & Supply Store"
+        "username": "pursuerstore",
+        "name": "Pursuer Store",
+        "about": "PURSUER STORE創立於2014年，是一間生活百貨店舖。\n\n→個人護理\n→生活用品\n→家居用品\n→健康產品\n\n↓網上店↓\nwww.pursuerstore.com\n\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "187070794658134",
+            "name": "Wholesale & Supply Store"
+          },
+          {
+            "id": "199236533423806",
+            "name": "Beauty Salon"
+          }
         ],
-        "addr": "尖沙咀厚福街13號祥順中心14樓B (入口係金英藥房旁邊)",
-        "area": "Hong Kong",
-        "email": "pursuerstore@yahoo.com.hk",
-        "tel": "96888503"
+        "emails": [
+          "pursuerstore@yahoo.com.hk"
+        ],
+        "single_line_address": "尖沙咀厚福街13號祥順中心14樓B (入口係金英藥房旁邊), Hong Kong",
+        "website": "http://www.pursuerstore.com"
       }
     },
     {

@@ -8,15 +8,24 @@
     {
       "url": "https://www.facebook.com/116457163097308/",
       "meta": {
-        "name": "真の味 Delicious",
         "id": "116457163097308",
+        "name": "真の味 Delicious",
         "about": "小店有售\n- 各款小食\n- 飯餐\n- 到會",
-        "categories": [
-          "Deli",
-          "Restaurant",
-          "Food Stand"
+        "category_list": [
+          {
+            "id": "188334264523313",
+            "name": "Deli"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          }
         ],
-        "tel": "66946855"
+        "single_line_address": "葵涌仁芳街8號美豐大廈地下11號舖, 0000 Hong Kong"
       }
     },
     {

@@ -9,14 +9,20 @@
     },
     {
       "meta": {
-        "name": "MY honey",
         "id": "1889577357994420",
+        "username": "mummyyeunghoney",
+        "name": "MY honey",
         "about": "小店自設養蜂場，絕無加工雜質。\n詳情可了解楊媽媽的故事、商店內容。",
-        "categories": [
-          "Health Food Store"
+        "category_list": [
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          }
         ],
-        "email": "mummyyeung.honey@gmail.com",
-        "tel": "91208914"
+        "emails": [
+          "mummyyeung.honey@gmail.com"
+        ],
+        "website": "http://mummy-yeung-honey.wixsite.com/myhoney"
       },
       "url": "https://www.facebook.com/mummyyeunghoney/"
     },

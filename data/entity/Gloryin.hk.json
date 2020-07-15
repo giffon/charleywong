@@ -10,14 +10,21 @@
     {
       "url": "https://www.facebook.com/Gloryin.hk/",
       "meta": {
-        "name": "港恩中醫",
         "id": "133599516665879",
+        "username": "Gloryin.hk",
+        "name": "港恩中醫",
         "about": "港恩中醫提供完善的中醫醫療服務，在香港有4間診所，位於港九新界。",
-        "categories": [
-          "Medical Service"
+        "category_list": [
+          {
+            "id": "1154837367920704",
+            "name": "Medical Service"
+          }
         ],
-        "email": "info@gloryin.com",
-        "tel": "31885588"
+        "emails": [
+          "info@gloryin.com"
+        ],
+        "single_line_address": "灣仔道133號卓凌中心28樓 TEL:3188-5588；旺角登打士街32-34號 歐美廣場26樓 TEL:2314-2581；荔枝角長裕街18號 栢裕工業中心9樓 TEL: 2371-3681；荃灣眾安街68號 荃灣千色匯 I 期16樓1606室 TEL:3748-9980",
+        "website": "http://www.gloryin.com"
       }
     }
   ],

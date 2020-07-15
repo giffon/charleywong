@@ -7,15 +7,16 @@
     {
       "url": "https://www.facebook.com/106762920718237/",
       "meta": {
-        "name": "神之選火鍋食材店",
         "id": "106762920718237",
+        "name": "神之選火鍋食材店",
         "about": "大圍金輝花園地下N鋪",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "大圍美田路積輝街金輝花園地下N鋪",
-        "area": "Hong Kong",
-        "tel": "56406028"
+        "single_line_address": "大圍美田路積輝街金輝花園地下N鋪, Hong Kong"
       }
     }
   ],

@@ -9,40 +9,49 @@
     },
     {
       "meta": {
-        "name": "Top Blade Steak Lab",
         "id": "194958111014370",
+        "username": "topbladesteaklab",
+        "name": "Top Blade Steak Lab",
         "about": "HMT: \n4A Soares Ave, Ho Man Tin / Mong Kok East \n+852 3956 2011\n12:00 - 4pm / 5:30pm - 10pm\n\nCWB:\n2-4 Hysan Ave, Causeway Bay\n+852 2657 8210\n12:00 - 10pm",
-        "categories": [
-          "Steakhouse"
-        ]
+        "category_list": [
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          }
+        ],
+        "website": "http://www.topbladesteak.com"
       },
       "url": "https://www.facebook.com/topbladesteaklab/"
     },
     {
       "url": "https://www.facebook.com/288400641953573/",
       "meta": {
-        "name": "Top Blade Steak Lab (旺角東/何文田梭椏道)",
         "id": "288400641953573",
-        "categories": [
-          "Steakhouse"
+        "name": "Top Blade Steak Lab",
+        "category_list": [
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          }
         ],
-        "addr": "Northern Portion, G/f, Wing Ying Mansion, No. 4A Soares Avenue",
-        "area": "Mong Kok",
-        "tel": "39562011"
+        "single_line_address": "Northern Portion, G/f, Wing Ying Mansion, No. 4A Soares Avenue, Mong Kok"
       },
       "hidden": true
     },
     {
       "url": "https://www.facebook.com/topbladecwb/",
       "meta": {
-        "name": "Top Blade Steak Lab (銅鑼灣希慎道)",
         "id": "2110140582573090",
-        "categories": [
-          "Steakhouse"
+        "username": "topbladecwb",
+        "name": "Top Blade Steak Lab",
+        "category_list": [
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          }
         ],
-        "addr": "2-4 Hysan Avenue",
-        "area": "Causeway Bay",
-        "tel": "26578210"
+        "single_line_address": "2-4 Hysan Avenue, Causeway Bay",
+        "website": "www.steakwithyou.com"
       },
       "hidden": true
     },

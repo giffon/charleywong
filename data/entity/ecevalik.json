@@ -7,12 +7,19 @@
     {
       "url": "https://www.facebook.com/ecevalik/",
       "meta": {
-        "name": "李漪琦 中醫師",
         "id": "143586656004067",
+        "username": "ecevalik",
+        "name": "李漪琦 中醫師",
         "about": "樺醫館 駐診醫師",
-        "categories": [
-          "Doctor",
-          "Medical Center"
+        "category_list": [
+          {
+            "id": "188234584533149",
+            "name": "Doctor"
+          },
+          {
+            "id": "228143393877753",
+            "name": "Medical Center"
+          }
         ]
       }
     }

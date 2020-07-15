@@ -17,11 +17,15 @@
     {
       "url": "https://www.facebook.com/hongkongneonlights/",
       "meta": {
-        "name": "霓虹黯色",
         "id": "1724641047583802",
+        "username": "hongkongneonlights",
+        "name": "霓虹黯色",
         "about": "《霓虹黯色》一書記錄了香港近五百多個的霓虹招牌，並從中窺探各行各業招牌的特式及所呈現的視覺文化、美學和傳統工藝，微觀香港街道從而細讀我城的庶民生活的變遷。",
-        "categories": [
-          "Book"
+        "category_list": [
+          {
+            "id": "1300",
+            "name": "Book"
+          }
         ]
       }
     },

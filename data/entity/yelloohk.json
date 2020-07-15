@@ -10,12 +10,17 @@
     },
     {
       "meta": {
-        "name": "黃圈Yelloohk",
         "id": "103007604563685",
+        "username": "yelloohk",
+        "name": "黃圈Yelloohk",
         "about": "黃圈Yelloohk.com是一個有關黃色經濟圈的網上資訊平台，讓香港市民了解有關黃圈資訊, 並且讓大家知道有關黃圈飯券及黃圈飯咭的銷售點及使用方法,從而可以幫助到一些因運動受影響人士。",
-        "categories": [
-          "Community Service"
-        ]
+        "category_list": [
+          {
+            "id": "170968163319233",
+            "name": "Community Service"
+          }
+        ],
+        "website": "www.yelloohk.com"
       },
       "url": "https://www.facebook.com/yelloohk/"
     },

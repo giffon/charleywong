@@ -17,15 +17,29 @@
     {
       "url": "https://www.facebook.com/tamararthk/",
       "meta": {
-        "name": "Tamarart",
         "id": "67095518823",
+        "username": "tamararthk",
+        "name": "Tamarart",
         "about": "全職貓狗奴．Byben攝影師：擅長寵物攝影/女生寫真/其實乜�都影．(M.A) Graphic Design：平面設計/美術指導/亂Cute咁畫．流行讀物【薯餅這一家】作者",
-        "categories": [
-          "Artist",
-          "Photographer",
-          "Writer"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "1109",
+            "name": "Writer"
+          }
         ],
-        "email": "t@tamararthk.com"
+        "emails": [
+          "t@tamararthk.com"
+        ],
+        "single_line_address": "Hong Kong Tsuen Wan, Hong Kong",
+        "website": "http://www.tamararthk.com"
       }
     }
   ],

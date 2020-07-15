@@ -14,15 +14,24 @@
     {
       "meta": {
         "id": "420715124981608",
-        "about": "位於土瓜灣巷弄的書店cafe\n店長售賣覺得有趣的書藉；\n店長媽烹調拿手的料理；...\n\n\nSee more",
-        "categories": [
-          "Book shop",
-          "Coffee shop"
+        "username": "urbanspace.hk",
+        "name": "URBAN SPACE 都市空間",
+        "about": "位於土瓜灣巷弄的書店cafe\n店長售賣覺得有趣的書藉；\n店長媽烹調拿手的料理；\n客人來都市空間享受寧靜片刻\n\n=小小的都市空間 尋找屬於自己的生活步調=",
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "土瓜灣美景街47號B地下",
-        "area": "Kowloon, Hong Kong",
-        "email": "urbanspace.hk@gmail.com",
-        "tel": "25226300"
+        "emails": [
+          "urbanspace.hk@gmail.com"
+        ],
+        "single_line_address": "土瓜灣美景街45號地下, Kowloon, Hong Kong",
+        "website": "https://www.instagram.com/urbanspace.hk/"
       },
       "url": "https://www.facebook.com/urbanspace.hk/"
     }

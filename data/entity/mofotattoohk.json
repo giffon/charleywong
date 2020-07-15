@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/mofotattoohk/",
       "meta": {
-        "name": "美富紋身 MOFO Tattoo",
         "id": "486692564756935",
+        "username": "mofotattoohk",
+        "name": "美富紋身 MOFO Tattoo",
         "about": "a Tattoo shop in Hong Kong\nEST.2013\n\n\nTattoo Artist:\n@honcheee\n@better.than.sexx\n@gmaz\n@glittertattooer\n@lilycashchan\n@tapz_tattooer\n@lost.nathalie.tali\n\nPiercing:\n@raurz",
-        "categories": [
-          "Tattoo & Piercing Shop"
+        "category_list": [
+          {
+            "id": "551469561691940",
+            "name": "Tattoo & Piercing Shop"
+          }
         ],
-        "addr": "base/F ,16 observatory road",
-        "area": "000000 Tsim Sha Tsui",
-        "email": "mofomanvin@gmail.com",
-        "tel": "66263080"
+        "emails": [
+          "mofomanvin@gmail.com"
+        ],
+        "single_line_address": "base/F ,16 observatory road, 000000 Tsim Sha Tsui",
+        "website": "http://Www.mofotattoo.com"
       }
     },
     {

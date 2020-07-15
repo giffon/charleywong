@@ -11,16 +11,20 @@
     {
       "url": "https://www.facebook.com/29092050714/",
       "meta": {
-        "name": "M-Magic Entertainment 魔術娛樂製作",
         "id": "29092050714",
+        "name": "M-Magic Entertainment 魔術娛樂製作",
         "about": "本公司已獲信和集團、康樂及文化事務署及長江集團(旗下公司)認可為合資格節目和活動製作服務之承辦商及供應商。",
-        "categories": [
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "addr": "G/F., 5 Wing Yiu Street, Tokwawan, Kowloon",
-        "area": "Kowloon, Hong Kong",
-        "email": "info@m-magic.hk",
-        "tel": "27825253"
+        "emails": [
+          "info@m-magic.hk"
+        ],
+        "single_line_address": "G/F., 5 Wing Yiu Street, Tokwawan, Kowloon, Kowloon, Hong Kong",
+        "website": "http://www.m-magic.hk"
       }
     }
   ],

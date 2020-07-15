@@ -7,14 +7,23 @@
     {
       "url": "https://www.facebook.com/BiancassBakery/",
       "meta": {
-        "name": "Bianca's Bakery",
         "id": "1877508099174377",
+        "username": "BiancassBakery",
+        "name": "Bianca's Bakery",
         "about": "100% handmade & made in HK.\n·低醣、低碳\n·生酮飲食\n·無麩質\n·體重管理\n·關注血糖\n·糖尿病\n—————————\n·希少糖\n·甜菊糖\n·赤藻糖醇\n·杏仁粉\n·椰子粉\n·亞麻籽粉\n—————————\n·歡",
-        "categories": [
-          "Bakery",
-          "Dessert Shop"
+        "category_list": [
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "email": "biancaabakery@gmail.com"
+        "emails": [
+          "biancaabakery@gmail.com"
+        ]
       }
     },
     {

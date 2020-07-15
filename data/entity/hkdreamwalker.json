@@ -9,15 +9,21 @@
     },
     {
       "meta": {
-        "name": "Dream Walker",
         "id": "1443633389226232",
+        "username": "hkdreamwalker",
+        "name": "Dream Walker",
         "about": "生活在這時代，就是有種責任，就是對自己負責任。時時刻刻，讓自己在覺知下活得好。覺知在乎修行，而修行就在生活中。",
-        "categories": [
-          "Meditation Center"
+        "category_list": [
+          {
+            "id": "1215982301785137",
+            "name": "Meditation Center"
+          }
         ],
-        "addr": "Flat A, 14/F, Uwa Building,18-19 Connaught Road West, Sheung Wan Hong Kong",
-        "area": "Sheung Wan",
-        "email": "hkdreamwalkerhk@gmail.com"
+        "emails": [
+          "hkdreamwalkerhk@gmail.com"
+        ],
+        "single_line_address": "Flat A, 14/F, Uwa Building,18-19 Connaught Road West, Sheung Wan Hong Kong, Sheung Wan",
+        "website": "http://www.dreamwalker.com.hk"
       },
       "url": "https://www.facebook.com/hkdreamwalker/"
     },

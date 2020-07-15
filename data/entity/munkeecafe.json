@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/107991973965775/",
       "meta": {
-        "name": "滿記咖啡奶茶",
         "id": "107991973965775",
+        "name": "滿記咖啡奶茶",
         "about": "茶餐廳",
-        "categories": [
-          "Fast Food Restaurant"
+        "category_list": [
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          }
         ],
-        "addr": "翠林邨 翠林新城 二樓 匯翠坊街市37號舖",
-        "area": "Hong Kong",
-        "email": "munkeecafe@gmail.com",
-        "tel": "69159742"
+        "emails": [
+          "munkeecafe@gmail.com"
+        ],
+        "single_line_address": "翠林邨 翠林新城 二樓 匯翠坊街市37號舖, Hong Kong",
+        "website": "http://Gmail.com/"
       }
     }
   ],

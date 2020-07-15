@@ -8,13 +8,15 @@
     {
       "url": "https://www.facebook.com/105745551108909/",
       "meta": {
-        "name": "荃灣外賣仔YO！Delivery",
         "id": "105745551108909",
+        "name": "荃灣外賣仔YO！Delivery",
         "about": "「荃灣外賣仔YO！Delivery」由一群熱愛荃灣的街坊創立，旨在連繫荃灣區小店，共渡時艱。外賣仔亦旨在幫助經濟困難的年輕人，聘請他們作外賣仔，推動社區互助。",
-        "categories": [
-          "Local Service"
-        ],
-        "tel": "61469599"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
+        ]
       }
     },
     {

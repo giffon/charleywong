@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Hokahoka ほかほか",
         "id": "231903966860561",
+        "username": "hokahokasakedokoro",
+        "name": "Hokahoka ほかほか",
         "about": "居酒屋",
-        "categories": [
-          "Sushi Restaurant",
-          "Diner"
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "Shop 51-52, G/F., Houston Centre, 63 Mody Road.",
-        "area": "Tsim Sha Tsui",
-        "tel": "23661784"
+        "single_line_address": "Shop 51-52, G/F., Houston Centre, 63 Mody Road., Tsim Sha Tsui"
       },
       "url": "https://www.facebook.com/hokahokasakedokoro/"
     }

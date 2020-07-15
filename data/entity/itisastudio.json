@@ -10,16 +10,21 @@
     },
     {
       "meta": {
-        "name": "一間工作室 A studio",
         "id": "308898870988",
-        "about": "婚禮攝影/兒童攝影/婚紗寫真/活動記錄\nhttp://www.astudio.tw/\n統一編號:31868110",
-        "categories": [
-          "Photographer"
+        "username": "itisastudio",
+        "name": "一間工作室 A studio",
+        "about": "婚禮攝影/兒童攝影/婚紗寫真/活動記錄\nhttp://www.astudio.tw/\n統一編號:31868110\n",
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "台北市中正區中華路一段25-3號5樓",
-        "area": "Taipei, Taiwan 100",
-        "email": "it.is.jc@gmail.com",
-        "tel": "886952775362"
+        "emails": [
+          "it.is.jc@gmail.com"
+        ],
+        "single_line_address": "台北市中正區中華路一段25-3號5樓, Taipei, Taiwan 100",
+        "website": "http://www.astudio.tw/"
       },
       "url": "https://www.facebook.com/itisastudio/"
     }

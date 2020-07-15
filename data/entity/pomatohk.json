@@ -11,15 +11,21 @@
     {
       "url": "https://www.facebook.com/pomatohk/",
       "meta": {
-        "name": "Pomato 小薯茄",
         "id": "1030751326935127",
+        "username": "pomatohk",
+        "name": "Pomato 小薯茄",
         "about": "由簡單創出不平凡\nFrom simple to special",
-        "categories": [
-          "TV Channel",
-          "Producer",
-          "Movie/Television Studio"
+        "category_list": [
+          {
+            "id": "1817904601806120",
+            "name": "Video Creator"
+          }
         ],
-        "email": "info@pomato.hk"
+        "emails": [
+          "info@pomato.hk"
+        ],
+        "single_line_address": "香港",
+        "website": "http://pomato.hk"
       }
     },
     {

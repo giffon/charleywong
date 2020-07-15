@@ -11,18 +11,25 @@
     {
       "url": "https://www.facebook.com/LamWorkshop/",
       "meta": {
-        "name": "Lam Workshop手錶專門店",
         "id": "1628886957368078",
+        "username": "LamWorkshop",
+        "name": "Lam Workshop手錶專門店",
         "about": "出售世界各地特色手錶, 包括Orient, Timex, Tacs, Kerbholz, Paul Hewitt, Ingersoll, Giorgio Fedon 1919, Tylor, Hypergrand, AÃRK等等。風格簡約清新。",
-        "categories": [
-          "Jewelry/Watches",
-          "Jewelry & Watches Company",
-          "Clothing Store"
+        "category_list": [
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          },
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          }
         ],
-        "addr": "旺角登打士街56號家樂坊(柏裕) 16樓 1630",
-        "area": "N/A Hong Kong",
-        "email": "enquiry@lamworkshop.com",
-        "tel": "62311939"
+        "emails": [
+          "enquiry@lamworkshop.com"
+        ],
+        "single_line_address": "旺角登打士街56號家樂坊(柏裕) 16樓 1630, N/A Hong Kong",
+        "website": "http://lamworkshop.com"
       }
     },
     {

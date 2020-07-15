@@ -7,16 +7,29 @@
     {
       "url": "https://www.facebook.com/Kalimberhk/",
       "meta": {
-        "name": "kalimberhk",
         "id": "113993823334300",
+        "username": "Kalimberhk",
+        "name": "kalimberhk",
         "about": "我們是台灣卡林巴姆指琴品牌 pangolin & Namas 的香港總區代理，而且亦有自己生產香港製造的kalimba，提供更優質的kalimba給與大家。推動更多香港朋友認識非常易上手又方便攜帶既樂器。",
-        "categories": [
-          "Product/Service",
-          "Art",
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "email": "kalimberhk@gmail.com",
-        "tel": "92582871"
+        "emails": [
+          "cs@kalimberhk.com"
+        ],
+        "single_line_address": "葵興業成街18號星星中心717室, 852 Hong Kong",
+        "website": "kalimberhk.com"
       }
     },
     {

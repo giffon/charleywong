@@ -10,12 +10,19 @@
     {
       "meta": {
         "id": "2307257426229617",
+        "username": "hkphrc",
+        "name": "公共衞生研究社",
         "about": "公共衞生研究社是由民間自發，於2019年成立的研究組織。我們希望透過實證為本的研究和考察，探討香港的醫療及公共衞生發展，並推動本地的健康素養和參與衞生政策倡議。",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "contact@hkphrc.com",
-        "tel": "67913386"
+        "emails": [
+          "contact@hkphrc.com"
+        ],
+        "website": "https://hkphrc.com"
       },
       "url": "https://www.facebook.com/hkphrc/"
     }

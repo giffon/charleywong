@@ -12,31 +12,49 @@
     },
     {
       "meta": {
-        "name": "Bagguys",
         "id": "783324055113965",
+        "username": "bagguys",
+        "name": "Bagguys",
         "about": "香港布袋品牌 - Bagguys\n布袋專門店 手寫文字及插畫設計  原創設計布袋\n可訂製\n西九龍中心專門店/葵涌廣場專門店\nWtsapp: +852 9144 9957",
-        "categories": [
-          "Brand",
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "九龍深水埗西九龍中心7樓蘋果商場7002-7003號舖",
-        "area": "Hong Kong",
-        "email": "bagguyshk@gmail.com",
-        "tel": "55423544"
+        "emails": [
+          "bagguyshk@gmail.com"
+        ],
+        "single_line_address": "九龍深水埗西九龍中心7樓蘋果商場7002-7003號舖, Hong Kong",
+        "website": "https://www.bagguyshk.com"
       },
       "url": "https://www.facebook.com/bagguys/"
     },
     {
       "url": "https://www.facebook.com/bagguysword/",
       "meta": {
-        "name": "Bagguysword",
         "id": "199109960494371",
-        "categories": [
-          "Art",
-          "Product/Service"
+        "username": "bagguysword",
+        "name": "Bagguysword",
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "bagguysword@gmail.com",
-        "tel": "55423544"
+        "emails": [
+          "bagguysword@gmail.com"
+        ],
+        "single_line_address": "深水埗欽州街37K西九龍中心7樓蘋果商場7002-7003號舖, Hong Kong",
+        "website": "http://www.bagguysword.com"
       },
       "hidden": true
     },

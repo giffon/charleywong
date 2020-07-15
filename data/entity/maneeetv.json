@@ -14,13 +14,21 @@
     {
       "url": "https://www.facebook.com/maneeetv/",
       "meta": {
-        "name": "男人EEETV",
         "id": "1124033124427169",
+        "username": "maneeetv",
+        "name": "男人EEETV",
         "about": "由𡃁仔變MAN仔！",
-        "categories": [
-          "Education"
+        "category_list": [
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "email": "info@maneeetv.com"
+        "emails": [
+          "info@maneeetv.com"
+        ],
+        "single_line_address": "852 Hong Kong",
+        "website": "https://www.instagram.com/maneeetv_kidcorner/"
       }
     },
     {

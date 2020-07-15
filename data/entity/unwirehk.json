@@ -17,13 +17,20 @@
     {
       "url": "https://www.facebook.com/unwirehk/",
       "meta": {
-        "name": "UNWIRE.HK",
         "id": "477164300494",
+        "username": "unwirehk",
+        "name": "UNWIRE.HK",
         "about": "生活化報導香港好玩科技情報！不再是沉悶數據及跑分",
-        "categories": [
-          "News & Media Website"
+        "category_list": [
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
         ],
-        "email": "mkt@bmedia.hk"
+        "emails": [
+          "mkt@bmedia.hk"
+        ],
+        "website": "http://unwire.hk"
       }
     },
     {

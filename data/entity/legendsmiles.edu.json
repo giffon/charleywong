@@ -8,14 +8,19 @@
     {
       "url": "https://www.facebook.com/legendsmiles.edu/",
       "meta": {
-        "name": "笑一堂菁莪中心 Legendsmiles",
         "id": "477805642258398",
+        "username": "legendsmiles.edu",
+        "name": "笑一堂菁莪中心 Legendsmiles",
         "about": "笑一堂菁莪中心\n專業籌辦各項中小學課外活動及興趣課程，師資優良，更提供到校授課服務，肩負起減輕日校老師ECA負擔的使命，提供更多元化的活動供學生選擇。",
-        "categories": [
-          "Education"
+        "category_list": [
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "email": "belegendbylegend@gmail.com",
-        "tel": "29700002"
+        "emails": [
+          "belegendbylegend@gmail.com"
+        ]
       }
     }
   ],

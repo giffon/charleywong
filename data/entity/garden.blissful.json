@@ -8,15 +8,19 @@
     {
       "url": "https://www.facebook.com/garden.blissful/",
       "meta": {
-        "name": "幸·花村 Blissful Garden",
         "id": "1408162959498637",
-        "categories": [
-          "Florist"
+        "username": "garden.blissful",
+        "name": "幸·花村 Blissful Garden",
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "addr": "觀塘駿業里富利工業大廈8樓D2",
-        "area": "Hong Kong",
-        "email": "enquiry.blissfulgarden@gmail.com",
-        "tel": "54149395"
+        "emails": [
+          "enquiry.blissfulgarden@gmail.com"
+        ],
+        "single_line_address": "觀塘駿業里富利工業大廈8樓D2, Hong Kong"
       }
     },
     {

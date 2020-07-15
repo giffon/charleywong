@@ -14,16 +14,22 @@
     {
       "url": "https://www.facebook.com/crossfirehongkong1/",
       "meta": {
-        "name": "Crossfire Hong Kong",
         "id": "1809279332689068",
+        "username": "crossfirehongkong1",
+        "name": "Crossfire Hong Kong",
         "about": "CROSSFIRE 香港總代理，歡迎零售及批發",
-        "categories": [
-          "Car Stereo Store",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "1363733416987629",
+            "name": "Car Stereo Store"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "上水古洞大馬路141號地下",
-        "area": "Hong Kong",
-        "tel": "90957707"
+        "single_line_address": "上水古洞大馬路141號地下, Hong Kong",
+        "website": "bit.ly/2CB3PXh"
       }
     }
   ],

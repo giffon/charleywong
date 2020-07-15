@@ -7,10 +7,13 @@
     {
       "url": "https://www.facebook.com/111732257068523/",
       "meta": {
-        "name": "連儂畫家",
         "id": "111732257068523",
-        "categories": [
-          "Interest"
+        "name": "連儂畫家",
+        "category_list": [
+          {
+            "id": "1500",
+            "name": "Interest"
+          }
         ]
       }
     },

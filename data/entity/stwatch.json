@@ -11,15 +11,24 @@
     {
       "url": "https://www.facebook.com/1195447300573170/",
       "meta": {
-        "name": "新泰鐘錶 ST Watch Limited",
         "id": "1195447300573170",
+        "name": "新泰鐘錶 ST Watch Limited",
         "about": "本店提供多元化服務  多年 正牌正貨 標籤\n1.經銷代理26個品牌\n2.歡迎Pm各品牌相片查詢\n2.換電及更換錶帶服務\n4.睇岩順豐包郵\n歡迎加本店了解更多錶款及優惠\n微信：casiowatch888 \nInstagram: St_watch_hk",
-        "categories": [
-          "Jewelry/Watches",
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "email": "stwatchlimited@gmail.com",
-        "tel": "37059884"
+        "emails": [
+          "stwatchlimited@gmail.com"
+        ],
+        "single_line_address": "上水智昌路3號 上水中心L2-2221鋪",
+        "website": "carousell.com/stwatch"
       }
     }
   ],

@@ -8,15 +8,18 @@
     {
       "url": "https://www.facebook.com/ThaiinHongKong/",
       "meta": {
-        "name": "THAI-IN 泰灜",
         "id": "1323464441105779",
+        "username": "ThaiinHongKong",
+        "name": "THAI-IN 泰灜",
         "about": "泰國菜館在香港有好多 又好食又靚又正又正宗 得呢度先有",
-        "categories": [
-          "Thai Restaurant"
+        "category_list": [
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          }
         ],
-        "addr": "141, Woo Sung Street, Jordan 佐敦吳松街141號",
-        "area": "Hong Kong",
-        "tel": "28699986"
+        "single_line_address": "141, Woo Sung Street, Jordan 佐敦吳松街141號, Hong Kong",
+        "website": "https://s.openrice.com/QrbS0V2S800"
       }
     },
     {

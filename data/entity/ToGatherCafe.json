@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/ToGatherCafe/",
       "meta": {
-        "name": "To-Gather Cafe",
         "id": "304197649699621",
+        "username": "ToGatherCafe",
+        "name": "To-Gather Cafe",
         "about": "一個優閒舒適既cafe,適合一大班朋友或者三五知已gathering",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "旺角洗衣街金雞廣場19樓1915-1917室",
-        "area": "00852 Mong Kok",
-        "email": "togathercafe@gmail.com",
-        "tel": "98088044"
+        "emails": [
+          "togathercafe@gmail.com"
+        ],
+        "single_line_address": "旺角洗衣街金雞廣場19樓1915-1917室, 00852 Mong Kok"
       }
     },
     {

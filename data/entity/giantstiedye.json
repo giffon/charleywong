@@ -7,13 +7,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "巨人染 Giants Tie Dye",
         "id": "884321768271017",
+        "username": "giantstiedye",
+        "name": "巨人染 Giants Tie Dye",
         "about": "巨 人 染 Giants Tie Dye的手染基地，\n我們是來自台灣和香港的紮染技藝師。\n\n自由是一切開始的起點，\n我們用布來說故事。\n\n「給我們一片白，我們就賦予它生命。」",
-        "categories": [
-          "Artist"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "giantstiedye@gmail.com"
+        "emails": [
+          "giantstiedye@gmail.com"
+        ],
+        "single_line_address": "台灣 x 香港",
+        "website": "http://instagram.com/giants_tiedye"
       },
       "url": "https://www.facebook.com/giantstiedye/"
     },

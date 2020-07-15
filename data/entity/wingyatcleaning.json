@@ -11,18 +11,29 @@
     {
       "url": "https://www.facebook.com/wingyatcleaning/",
       "meta": {
-        "name": "永逸清潔滅蟲公司 Wing Yat Cleaning Service & Pest Control HK",
         "id": "326987991216303",
+        "username": "wingyatcleaning",
+        "name": "永逸清潔滅蟲公司 Wing Yat Cleaning Service & Pest Control HK",
         "about": "本公司提供各類型專業服務\n。滅蟲及防蟲服務\n。吉屋及裝修後清潔\n。家居、辦公室及商鋪清潔\n。地毯護理服務\n。床褥清洗及布藝護理服務\n。除甲醛服務\n。售賣優質害蟲防治產品",
-        "categories": [
-          "Cleaning Service",
-          "Pest Control Service",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "186564191378474",
+            "name": "Cleaning Service"
+          },
+          {
+            "id": "177939525582614",
+            "name": "Pest Control Service"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "荃灣青山公路荃灣段459-469號華力工業中心 11樓A-B室",
-        "area": "Hong Kong",
-        "email": "info@wingyatcleaning.com",
-        "tel": "92458813"
+        "emails": [
+          "info@wingyatcleaning.com"
+        ],
+        "single_line_address": "荃灣青山公路荃灣段459-469號華力工業中心 11樓A-B室, Hong Kong",
+        "website": "https://www.wingyatcleaning.com"
       }
     },
     {

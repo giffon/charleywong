@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/yogaclubhk/",
       "meta": {
-        "name": "Yoga Club HK 瑜心舍",
         "id": "224074564284929",
-        "about": "E-Mail: info@yogaclubhk.com, Web: www.yogaclubhk.com, Tel: 81006488, Blog: http://hk.myblog.yahoo.com/yoga_club_hk",
-        "categories": [
-          "Yoga Studio"
+        "username": "yogaclubhk",
+        "name": "Yoga Club HK 瑜心舍",
+        "about": " E-Mail: info@yogaclubhk.com, Web: www.yogaclubhk.com, Tel: 81006488, Blog: http://hk.myblog.yahoo.com/yoga_club_hk     ",
+        "category_list": [
+          {
+            "id": "174832985894571",
+            "name": "Yoga Studio"
+          }
         ],
-        "addr": "Room 14, Front Portion, 3/F, Granville Building, 12-14 Granville Road, Tsim Sha Tsui",
-        "area": "00000 Hong Kong",
-        "email": "info@yogaclubhk.com",
-        "tel": "81006488"
+        "emails": [
+          "info@yogaclubhk.com"
+        ],
+        "single_line_address": "Room 14, Front Portion, 3/F, Granville Building, 12-14 Granville Road, Tsim Sha Tsui, 00000 Hong Kong",
+        "website": "http://www.yogaclubhk.com"
       }
     },
     {

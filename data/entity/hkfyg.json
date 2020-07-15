@@ -11,16 +11,22 @@
     {
       "url": "https://www.facebook.com/hkfyg/",
       "meta": {
-        "name": "The Hong Kong Federation of Youth Groups (HKFYG) 香港青年協會",
         "id": "387709665550",
+        "username": "hkfyg",
+        "name": "The Hong Kong Federation of Youth Groups (HKFYG) 香港青年協會",
         "about": "非營利組織",
-        "categories": [
-          "Charity Organization",
-          "Community Service",
-          "Nonprofit Organization"
+        "category_list": [
+          {
+            "id": "170968163319233",
+            "name": "Community Service"
+          },
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          }
         ],
-        "addr": "The HKFYG Building, 21 Pak Fuk Road, North Point",
-        "area": "Hong Kong"
+        "single_line_address": "The HKFYG Building, 21 Pak Fuk Road, North Point, / Hong Kong",
+        "website": "http://hkfyg.org.hk"
       }
     }
   ],

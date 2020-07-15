@@ -9,13 +9,19 @@
     },
     {
       "meta": {
-        "name": "香港自由之書",
         "id": "100576917956000",
-        "about": "我地本身係一班諗住眾籌出書的義工, 後尾七月底擺街站將搞物資變左為主業, 主力提供飯券,文具玩具支援",
-        "categories": [
-          "Book"
+        "name": "香港自由之書",
+        "about": "我地本身係一班諗住眾籌出書的義工, 後尾七月底擺街站將搞物資變左為主業, 主力提供飯券,文具玩具支援\n",
+        "category_list": [
+          {
+            "id": "1300",
+            "name": "Book"
+          }
         ],
-        "email": "freemyhk@gmail.com"
+        "emails": [
+          "freemyhk@gmail.com"
+        ],
+        "website": "https://t.me/fightforh_k"
       },
       "url": "https://www.facebook.com/100576917956000/"
     }

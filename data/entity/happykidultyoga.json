@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/happykidultyoga/",
       "meta": {
-        "name": "Happy Kid-ult Yoga 快樂童‧大瑜伽",
         "id": "320113691485555",
+        "username": "happykidultyoga",
+        "name": "Happy Kid-ult Yoga 快樂童‧大瑜伽",
         "about": "Being Happy is what everyone wants to be at all ages. Let's share the happiness of yoga.\n每個人也想擁抱快樂，來讓我們一起透過瑜伽分享喜悅。",
-        "categories": [
-          "Yoga Studio",
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "174832985894571",
+            "name": "Yoga Studio"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "addr": "19A, Prince Edward - The Lamma City, 761 Nathan Road",
-        "area": "Kowloon, Hong Kong",
-        "email": "happykidultyoga@gmail.com",
-        "tel": "97653592"
+        "emails": [
+          "happykidultyoga@gmail.com"
+        ],
+        "single_line_address": "19A, Prince Edward - The Lamma City, 761 Nathan Road, Kowloon, Hong Kong",
+        "website": "http://www.happykidultyoga.com"
       }
     },
     {

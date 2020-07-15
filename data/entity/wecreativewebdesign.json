@@ -7,15 +7,16 @@
     {
       "url": "https://www.facebook.com/104578627549964/",
       "meta": {
-        "name": "We Creative 網頁製作公司",
         "id": "104578627549964",
+        "name": "We Creative 網頁製作公司",
         "about": "我們是一班香港人組成的網頁設計公司，目標希望可以人人也能做一個度身訂做的網頁",
-        "categories": [
-          "Web Designer"
+        "category_list": [
+          {
+            "id": "187393124625179",
+            "name": "Web Designer"
+          }
         ],
-        "addr": "H.K",
-        "area": "000000 Hong Kong",
-        "tel": "37428714"
+        "single_line_address": "H.K, 000000 Hong Kong"
       }
     },
     {

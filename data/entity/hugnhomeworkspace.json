@@ -18,16 +18,21 @@
     {
       "url": "https://www.facebook.com/hugnhomeworkspace/",
       "meta": {
-        "name": "浪浪抱抱 hug and home",
         "id": "1026752040796920",
+        "username": "hugnhomeworkspace",
+        "name": "浪浪抱抱 hug and home",
         "about": "與暫托貓一起的共享工作空間\n可工作可閱讀可放空\n可與我們的貓咪互相認識、交個朋友\n我們最終的盼望\n是希望貓咪有緣遇到有心人\n獲領養回家",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "Sun Street 1",
-        "area": "Wan Chai",
-        "email": "hugnhome@gmail.com",
-        "tel": "51028695"
+        "emails": [
+          "hugnhome@gmail.com"
+        ],
+        "single_line_address": "12/F, Anton Building, 1 Anton Street, Wan Chai",
+        "website": "https://hugnhome.wixsite.com/index"
       }
     }
   ],

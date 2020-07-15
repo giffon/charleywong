@@ -10,14 +10,19 @@
     {
       "url": "https://www.facebook.com/103913804589998/",
       "meta": {
-        "name": "金源花店",
         "id": "103913804589998",
+        "name": "金源花店",
         "about": "非一般的花店 , 花藝師用心制作每一件成品",
-        "categories": [
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "email": "kktamkei2017@gmail.com",
-        "tel": "23642128"
+        "emails": [
+          "kktamkei2017@gmail.com"
+        ],
+        "single_line_address": "溫斯勞街55號地下, Kowloon, Hong Kong"
       }
     }
   ],

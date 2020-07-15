@@ -14,13 +14,23 @@
     {
       "url": "https://www.facebook.com/youknowhere/",
       "meta": {
-        "name": "Knowhere",
         "id": "1314920768538562",
-        "categories": [
-          "Personal Blog",
-          "Local & Travel Website"
+        "username": "youknowhere",
+        "name": "Knowhere",
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          },
+          {
+            "id": "2715",
+            "name": "Local & Travel Website"
+          }
         ],
-        "email": "ccchankit@gmail.com"
+        "emails": [
+          "ccchankit@gmail.com"
+        ],
+        "website": "www.instagram.com/chan_kit"
       }
     }
   ],

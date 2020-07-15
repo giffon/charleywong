@@ -11,12 +11,20 @@
     {
       "meta": {
         "id": "196583419888",
+        "username": "thedphk",
+        "name": "民主黨 The Democratic Party",
         "about": "緊貼「民主黨 The Democratic Party」每日動向，與您分享每日政圈新聞及網絡熱爆事件。",
-        "categories": [
-          "Political party"
+        "category_list": [
+          {
+            "id": "2618",
+            "name": "Political Party"
+          }
         ],
-        "email": "dphk@dphk.org",
-        "tel": "23977033"
+        "emails": [
+          "dphk@dphk.org"
+        ],
+        "single_line_address": "九龍彌敦道776-778號恆利商業大廈4樓, Hong Kong",
+        "website": "http://www.dphk.org/"
       },
       "url": "https://www.facebook.com/thedphk/"
     },

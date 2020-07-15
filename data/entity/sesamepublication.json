@@ -8,15 +8,26 @@
     {
       "meta": {
         "id": "112711182145468",
-        "categories": [
-          "Teen & children's website",
-          "Book shop",
-          "Education"
+        "username": "sesamepublication",
+        "name": "小樹苗 Sesame Publication",
+        "category_list": [
+          {
+            "id": "2716",
+            "name": "Teens & Kids Website"
+          },
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          },
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "addr": "香港北角屈臣道4/6號海景大廈B座11樓 B1105A室",
-        "area": "Hong Kong",
-        "email": "info@sesame.com.hk",
-        "tel": "25089920"
+        "emails": [
+          "info@sesame.com.hk"
+        ],
+        "single_line_address": "香港北角屈臣道4/6號海景大廈B座11樓 B1105A室, Hong Kong"
       },
       "url": "https://www.facebook.com/sesamepublication/"
     },

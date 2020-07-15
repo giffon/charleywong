@@ -7,17 +7,28 @@
     {
       "url": "https://www.facebook.com/ChriscMakeupArtistry/",
       "meta": {
-        "name": "Chris.C Makeup Artistry",
         "id": "289131124536305",
-        "about": "提供專業新娘化妝, 姐妹化妝, 宴會化妝, 雜誌化妝等。同時提供專業噴槍高清化妝服務。\n曾合作品牌: Maybelline, L'Oreal , Schwarzkopf...etc。\n歡迎E-mail 查詢/預約chrisc.makeup@ymail.com",
-        "categories": [
-          "Makeup Artist",
-          "Health/Beauty",
-          "Beauty Supplier"
+        "username": "ChriscMakeupArtistry",
+        "name": "Chris.C Makeup Artistry",
+        "about": "提供專業新娘化妝, 姐妹化妝, 宴會化妝, 雜誌化妝等。同時提供專業噴槍高清化妝服務。\n曾合作品牌: Maybelline, L'Oreal , Schwarzkopf...etc。\n歡迎E-mail 查詢/預約chrisc.makeup@ymail.com\n",
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "120731481338075",
+            "name": "Beauty Supplier"
+          }
         ],
-        "addr": "Tsim Sha Tsui",
-        "area": "852 Hong Kong",
-        "email": "chrisc.makeup@ymail.com"
+        "emails": [
+          "chrisc.makeup@ymail.com"
+        ],
+        "single_line_address": "Tsim Sha Tsui, 852 Hong Kong"
       }
     },
     {

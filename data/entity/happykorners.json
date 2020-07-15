@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "The Korner.",
         "id": "379608685556223",
-        "about": "The Korner 是香港本地鞋履品牌，創立於2015年，品牌主張 “make shoes in your way” 與 “make goods affordable” 的理念，希望陪大家走過不同的路。\n-\nInstagram: Thekorner_hk\n-\nWe ship worldwide.",
-        "categories": [
-          "Footwear Store"
+        "username": "happykorners",
+        "name": "The Korner.",
+        "about": "The Korner 是香港本地鞋履品牌，創立於2015年，品牌主張 “make shoes in your way” 與 “make goods affordable” 的理念，希望陪大家走過不同的路。\n-\nInstagram: Thekorner_hk\n-\n提供全球寄運",
+        "category_list": [
+          {
+            "id": "109512302457693",
+            "name": "Footwear Store"
+          }
         ],
-        "email": "kornerformen@gmail.com",
-        "tel": "96265010"
+        "emails": [
+          "info@thekornershoes.com"
+        ],
+        "single_line_address": "Shop 120, 1/F, K11 Art Mall",
+        "website": "https://www.thekornershoes.com/"
       },
       "url": "https://www.facebook.com/happykorners/"
     },

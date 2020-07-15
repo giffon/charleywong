@@ -8,14 +8,22 @@
     {
       "meta": {
         "id": "353458894723260",
-        "categories": [
-          "Toy shop",
-          "Retail company"
+        "username": "ActionHobbiesHK",
+        "name": "Action Hobbies 極速模型",
+        "category_list": [
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "Shop 31, G/F., Yan On Bldg., 1 Kwong Wa Street.",
-        "area": "Kowloon, Hong Kong",
-        "email": "rcactionhobbies@gmail.com",
-        "tel": "27700907"
+        "emails": [
+          "rcactionhobbies@gmail.com"
+        ],
+        "single_line_address": "Shop 31, G/F., Yan On Bldg., 1 Kwong Wa Street., Mong Kok"
       },
       "url": "https://www.facebook.com/ActionHobbiesHK/"
     }

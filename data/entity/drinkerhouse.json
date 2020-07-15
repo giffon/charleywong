@@ -8,16 +8,20 @@
     {
       "url": "https://www.facebook.com/drinkerhouse/",
       "meta": {
-        "name": "Drinker House 盛酌屋",
         "id": "695172930649623",
+        "username": "drinkerhouse",
+        "name": "Drinker House 盛酌屋",
         "about": "《盛酌屋》主要銷售各類烈酒、葡萄酒、日本酒、利口酒、煙絲、雪茄等，以及快樂。",
-        "categories": [
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "元朗鳳翔路5號偉發大廈地下04號舖",
-        "area": "852 21483723 Yuen Long Town",
-        "email": "drinkerhouse@gmail.com",
-        "tel": "21483723"
+        "emails": [
+          "drinkerhouse@gmail.com"
+        ],
+        "single_line_address": "元朗鳳翔路5號偉發大廈地下04號舖, 852 21483723 Yuen Long Town"
       }
     },
     {

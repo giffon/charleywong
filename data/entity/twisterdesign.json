@@ -6,16 +6,26 @@
   "webpages": [
     {
       "meta": {
-        "name": "T&P 設計工作者",
         "id": "1592078031062941",
+        "username": "twisterdesign",
+        "name": "T&P 設計工作者",
         "about": "誠意設計分享作品給大家欣賞",
-        "categories": [
-          "Graphic Designer",
-          "Design & Fashion",
-          "Designer"
+        "category_list": [
+          {
+            "id": "162183907165552",
+            "name": "Graphic Designer"
+          },
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          },
+          {
+            "id": "1615",
+            "name": "Designer"
+          }
         ],
-        "addr": "香港",
-        "area": "852 Tuen Mun"
+        "single_line_address": "香港, 852 Tuen Mun",
+        "website": "http://www.facebook.com/twisterdesign"
       },
       "url": "https://www.facebook.com/twisterdesign/"
     }

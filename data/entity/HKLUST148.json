@@ -9,16 +9,21 @@
     },
     {
       "meta": {
-        "name": "Lust Company",
         "id": "1525067881134445",
+        "username": "HKLUST148",
+        "name": "Lust Company",
         "about": "香港情趣用品專門店\n\n更新產品的存貨\n\n緊貼日本AV界的大小事務\n\n請緊隨IG SHOP",
-        "categories": [
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "觀塘成業街16號怡生工業中心C座4樓18室",
-        "area": "Hong Kong",
-        "email": "lust.hk.co@gmail.com",
-        "tel": "66303113"
+        "emails": [
+          "lust.hk.co@gmail.com"
+        ],
+        "single_line_address": "觀塘成業街16號怡生工業中心C座4樓18室, Hong Kong",
+        "website": "hklust148.com"
       },
       "url": "https://www.facebook.com/HKLUST148/"
     }

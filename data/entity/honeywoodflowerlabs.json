@@ -14,18 +14,29 @@
     {
       "url": "https://www.facebook.com/honeywoodflowerlabs/",
       "meta": {
-        "name": "HoneyWood Flower Labs",
         "id": "240266726435846",
-        "about": "Honey tastes sweet and links up with flowers. Wood let us feel calm and relax. Just have a sweet and relax day with our products and workshops.",
-        "categories": [
-          "Florist",
-          "Product/Service",
-          "Gift Shop"
+        "username": "honeywoodflowerlabs",
+        "name": "HoneyWood Flower Labs",
+        "about": "Honey tastes sweet and links up with flowers. Wood let us feel calm and relax. Just have a sweet and relax day with our products and workshops. ",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          },
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          }
         ],
-        "addr": "116 How ming street",
-        "area": "Hong Kong",
-        "email": "honeywoodflowerlabs@gmail.com",
-        "tel": "67905999"
+        "emails": [
+          "honeywoodflowerlabs@gmail.com"
+        ],
+        "single_line_address": "116 How ming street, Hong Kong",
+        "website": "https://www.instagram.com/honeywoodflowerlabs"
       }
     }
   ],

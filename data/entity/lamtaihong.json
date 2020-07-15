@@ -7,13 +7,18 @@
     {
       "url": "https://www.facebook.com/109586394037051/",
       "meta": {
-        "name": "林.大.康-大埔外賣圈",
         "id": "109586394037051",
-        "categories": [
-          "Community",
-          "Food Delivery Service"
-        ],
-        "tel": "55615721"
+        "name": "林.大.康-大埔外賣圈",
+        "category_list": [
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
+        ]
       }
     },
     {

@@ -10,13 +10,24 @@
     {
       "meta": {
         "id": "421886331246378",
+        "username": "vinegardenbeauty",
+        "name": "Vine Garden Beauty",
         "about": "提供美容, 保健, 化妝set頭服務",
-        "categories": [
-          "Health/beauty",
-          "Makeup artist"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "email": "lilyysm@gmail.com",
-        "tel": "96206024"
+        "emails": [
+          "lilyysm@gmail.com"
+        ],
+        "single_line_address": "尖沙咀嘉蘭圍, 852",
+        "website": "http://site-1869522-4871-8307.mystrikingly.com/"
       },
       "url": "https://www.facebook.com/vinegardenbeauty/"
     }

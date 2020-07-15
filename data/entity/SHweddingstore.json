@@ -6,16 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "尚囍 - 過大禮旗艦店",
         "id": "1524769654335110",
-        "about": "� 位於【旺角家樂坊】及【荃灣南豐中心】的過大禮旗艦店 � 提供一站式專業的過大禮服務 � 良心企業 �",
-        "categories": [
-          "Shopping & Retail",
-          "Product/Service",
-          "Wedding Planning Service"
+        "username": "SHweddingstore",
+        "name": "尚囍 - 過大禮旗艦店",
+        "about": "🤵 提供一站式過大禮一條龍服務 👰 🤵 過千對新人成功例子 👰",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "email": "info@shweddingstore.com",
-        "tel": "61314745"
+        "emails": [
+          "info@shweddingstore.com"
+        ],
+        "website": "https://wa.me/85261314745"
       },
       "url": "https://www.facebook.com/SHweddingstore/"
     },

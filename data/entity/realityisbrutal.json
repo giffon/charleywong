@@ -7,13 +7,19 @@
     {
       "url": "https://www.facebook.com/realityisbrutal/",
       "meta": {
-        "name": "文字記者 梁嘉麗",
         "id": "107792933931029",
+        "username": "realityisbrutal",
+        "name": "文字記者 梁嘉麗",
         "about": "寫字維生\n分享文字",
-        "categories": [
-          "News & Media Website"
+        "category_list": [
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
         ],
-        "email": "shirleythereporter@gmail.com"
+        "emails": [
+          "shirleythereporter@gmail.com"
+        ]
       }
     }
   ],

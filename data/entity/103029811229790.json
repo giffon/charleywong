@@ -6,11 +6,14 @@
   "webpages": [
     {
       "meta": {
-        "name": "港豬寶寶",
         "id": "103029811229790",
-        "about": "homemade手作仔�勾勾公仔",
-        "categories": [
-          "Product/Service"
+        "name": "港豬寶寶",
+        "about": "homemade手作仔•勾勾公仔",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       },
       "url": "https://www.facebook.com/103029811229790/"
@@ -25,7 +28,8 @@
     }
   ],
   "tags": [
-    "shop","handcraft"
+    "shop",
+    "handcraft"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02182"

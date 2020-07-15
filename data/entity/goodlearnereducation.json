@@ -8,16 +8,28 @@
     {
       "url": "https://www.facebook.com/goodlearnereducation/",
       "meta": {
-        "name": "善學教育 Good Learner Education",
         "id": "209562332405694",
+        "username": "goodlearnereducation",
+        "name": "善學教育 Good Learner Education",
         "about": "總校地址：沙田瀝源邨瀝源廣場1樓 109 號舖\n電話：260 30 260\n\n分校地址：沙田石門京瑞廣場一期5樓J室\n電話：3705 1705",
-        "categories": [
-          "Community College",
-          "Middle School",
-          "Elementary School"
+        "category_list": [
+          {
+            "id": "217642725408390",
+            "name": "Community College"
+          },
+          {
+            "id": "2637",
+            "name": "Middle School"
+          },
+          {
+            "id": "140234236045713",
+            "name": "Elementary School"
+          }
         ],
-        "email": "goodlearner@hotmail.com.hk",
-        "tel": "26030260"
+        "emails": [
+          "goodlearner@hotmail.com.hk"
+        ],
+        "single_line_address": "沙田 瀝源邨 瀝源廣場 1 樓 109 舖"
       }
     },
     {

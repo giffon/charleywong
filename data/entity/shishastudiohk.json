@@ -6,17 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "name": "伵舍",
         "id": "101379731295282",
+        "username": "shishastudiohk",
+        "name": "伵舍",
         "about": "多用途工作室 \n攝影 / 瑜珈 / 工作坊 / 私房菜 / 派對場地\n-地理位置方便，鄰近德福廣場\n-全新裝修、陽光充足、充滿文藝氣息\n-備有煮食場地，煮食用具一應俱全\n-提供瑜伽用品\n-歡迎DM預約查詢",
-        "categories": [
-          "Local Service",
-          "Product/Service",
-          "Movie/Television Studio"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "370369022981015",
+            "name": "Movie/Television Studio"
+          }
         ],
-        "addr": "九龍灣美羅中心2期1825室",
-        "area": "000000 Hong Kong",
-        "email": "shishastudiohk@gmail.com"
+        "emails": [
+          "shishastudiohk@gmail.com"
+        ],
+        "single_line_address": "九龍灣美羅中心2期1825室, 000000 Hong Kong",
+        "website": "www.instagram.com/shishastudiohk"
       },
       "url": "https://www.facebook.com/shishastudiohk/"
     },

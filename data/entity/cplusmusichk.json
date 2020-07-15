@@ -10,13 +10,19 @@
     {
       "url": "https://www.facebook.com/cplusmusichk/",
       "meta": {
-        "name": "私家音樂",
         "id": "1753052174930755",
+        "username": "cplusmusichk",
+        "name": "私家音樂",
         "about": "2016年成立，目的為推介本地流行廣東音樂為主。會定期發佈新歌及演唱會消息，另外，會有評論文章，用不同面向介紹本地音樂。",
-        "categories": [
-          "Music Chart"
+        "category_list": [
+          {
+            "id": "1213",
+            "name": "Music Chart"
+          }
         ],
-        "email": "cplusmusichk@gmail.com"
+        "emails": [
+          "cplusmusichk@gmail.com"
+        ]
       }
     }
   ],

@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/musicube/",
       "meta": {
-        "name": "MUSICube HK - Guitar & Ukulele Shop",
         "id": "159238260753147",
-        "about": "Tel: 90644234\n\n荔枝角：香港工業中心B座,10樓,14A室 (荔枝角C出口 步行3分鐘) \n\n營業時間 每日2-8pm\n教室\n鑽石山\n\nhttp://musicube.hk/address",
-        "categories": [
-          "Musical Instrument Store",
-          "Music Lessons & Instruction School"
+        "username": "musicube",
+        "name": "MUSICube HK - Guitar & Ukulele Shop",
+        "about": "Tel: 90644234\n\n荔枝角：香港工業中心B座,10樓,14A室 (荔枝角C出口 步行3分鐘) \n\n營業時間 每日2-8pm\n教室\n鑽石山\n\nhttp://musicube.hk/address\n\n",
+        "category_list": [
+          {
+            "id": "139750396088115",
+            "name": "Musical Instrument Store"
+          },
+          {
+            "id": "186983191324114",
+            "name": "Music Lessons & Instruction School"
+          }
         ],
-        "addr": "香港工業中心 B 座 1014A",
-        "area": "852 Lai Chi Kok",
-        "email": "hkmusicube@gmail.com",
-        "tel": "90644234"
+        "emails": [
+          "hkmusicube@gmail.com"
+        ],
+        "single_line_address": "香港工業中心 B 座 1014A, 852 Lai Chi Kok",
+        "website": "musicube.hk"
       }
     },
     {

@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "HK Brewcraft",
         "id": "229538437182448",
+        "username": "HKBrewcraft",
+        "name": "HK Brewcraft",
         "about": "HK Brewcraft -- your local homebrew store + bottleshop @ Central\n\nFollow us on Instagram @hkbrewcraft and Twitter @hkbrewcraft",
-        "categories": [
-          "Beer Garden",
-          "Homebrew Supply Store"
+        "category_list": [
+          {
+            "id": "203743122984241",
+            "name": "Beer Garden"
+          },
+          {
+            "id": "148344028911374",
+            "name": "Homebrew Supply Store"
+          }
         ],
-        "addr": "4/F, 15 Cochrane Street, Central",
-        "area": "Hong Kong",
-        "email": "info@hkbrewcraft.com",
-        "tel": "59252739"
+        "emails": [
+          "info@hkbrewcraft.com"
+        ],
+        "single_line_address": "4/F, 15 Cochrane Street, Central, Hong Kong",
+        "website": "http://www.hkbrewcraft.com"
       },
       "url": "https://www.facebook.com/HKBrewcraft/"
     },

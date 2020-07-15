@@ -20,13 +20,20 @@
     {
       "url": "https://www.facebook.com/martinoeireader/",
       "meta": {
-        "name": "Martin Oei 黃世澤",
         "id": "142135802497882",
+        "username": "martinoeireader",
+        "name": "Martin Oei 黃世澤",
         "about": "時事評論員、商人、喜研究各類曲線行為。最愛以膠化方式論香港政治",
-        "categories": [
-          "Author"
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          }
         ],
-        "email": "martinoei@martinoei.com"
+        "emails": [
+          "martinoei@martinoei.com"
+        ],
+        "website": "https://martinoei.com"
       }
     },
     {

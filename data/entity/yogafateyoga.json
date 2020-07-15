@@ -7,15 +7,20 @@
     {
       "url": "https://www.facebook.com/yogafateyoga/",
       "meta": {
-        "name": "Yoga Fate",
         "id": "950179101690603",
-        "about": "Hope everyone can enjoy yoga\nLet's yoga with us and i will share some interesting yoga and health info....here=))))\nWhatsapp 62217023/60728311",
-        "categories": [
-          "Yoga Studio"
+        "username": "yogafateyoga",
+        "name": "Yoga Fate",
+        "about": "Hope everyone can enjoy yoga\nLet's yoga with us and i will share some interesting yoga and health info....here=))))\nWhatsapp 60728311",
+        "category_list": [
+          {
+            "id": "174832985894571",
+            "name": "Yoga Studio"
+          }
         ],
-        "addr": "九龍太子長沙灣道21-25號長豐商業大廈2樓203室",
-        "area": "Kowloon, Hong Kong",
-        "tel": "60728311"
+        "emails": [
+          "yogafate@gmail.com"
+        ],
+        "single_line_address": "九龍彌敦道749A愛都中心6樓, Kowloon, Hong Kong"
       }
     },
     {

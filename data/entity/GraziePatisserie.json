@@ -8,13 +8,19 @@
     {
       "url": "https://www.facebook.com/GraziePatisserie/",
       "meta": {
-        "name": "Grazie Cakes and sugarcraft Studio by Maggie Lam家糖匠坊",
         "id": "439460329436296",
+        "username": "GraziePatisserie",
+        "name": "Grazie Cakes and sugarcraft Studio by Maggie Lam家糖匠坊",
         "about": "I am the Cake Decorator and artist in Hong Kong. My Workshop establish and cooperate with Pezzi Bistro in 2019 .  \n\nIG: maggie_lam_sugarcraft",
-        "categories": [
-          "Kitchen/Cooking"
+        "category_list": [
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          }
         ],
-        "email": "graziepatisserie@gmail.com"
+        "emails": [
+          "graziepatisserie@gmail.com"
+        ]
       }
     },
     {

@@ -8,11 +8,15 @@
     {
       "url": "https://www.facebook.com/soapinhongkong/",
       "meta": {
-        "name": "香港製皂 Soap in Hong Kong",
         "id": "1927828104100203",
+        "username": "soapinhongkong",
+        "name": "香港製皂 Soap in Hong Kong",
         "about": "香港製皂\n家庭式全人手用心製皂",
-        "categories": [
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ]
       }
     },

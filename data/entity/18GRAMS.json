@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/18GRAMS/",
       "meta": {
-        "name": "18 Grams Specialty Coffee 十八克精品咖啡",
         "id": "125419834298470",
-        "about": "Aussie style Specialty cafe with local roast coffee. Made from the best beans worldwide. Come experience world-class coffee with your favorite breakfast.",
-        "categories": [
-          "Cafe"
+        "username": "18GRAMS",
+        "name": "18 Grams Specialty Coffee 十八克精品咖啡",
+        "about": "Aussie style Specialty cafe with local roast coffee. Made from the best beans worldwide. Come experience world-class coffee with your favorite breakfast. ",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
         ],
-        "addr": "15 canon street",
-        "area": "000000",
-        "email": "info@18grams.com",
-        "tel": "28938988"
+        "emails": [
+          "info@18grams.com"
+        ],
+        "single_line_address": "15 canon street, 000000",
+        "website": "https://www.coffeeroasterylab.com/shop"
       }
     },
     {

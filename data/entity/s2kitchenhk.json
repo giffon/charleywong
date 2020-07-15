@@ -7,14 +7,16 @@
     {
       "url": "https://www.facebook.com/s2kitchenhk/",
       "meta": {
-        "name": "S2 kitchen",
         "id": "1083483938347379",
-        "categories": [
-          "Japanese Restaurant"
+        "username": "s2kitchenhk",
+        "name": "S2 kitchen",
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "addr": "Shop A, 51 Wellington Street, Central",
-        "area": "000 Hong Kong",
-        "tel": "28858803"
+        "single_line_address": "Shop A, 51 Wellington Street, Central, 000 Hong Kong"
       }
     }
   ],

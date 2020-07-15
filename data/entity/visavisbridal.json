@@ -9,18 +9,29 @@
     },
     {
       "meta": {
-        "name": "Vis-à-vis Bridal Wedding Concept Store",
         "id": "194289260596401",
+        "username": "visavisbridal",
+        "name": "Vis-à-vis Bridal Wedding Concept Store",
         "about": "-Vis-à-vis Bridal since 2010-\n| Made & Rental Wedding Dress | \n| Photography Services |",
-        "categories": [
-          "Bridal Shop",
-          "Wedding Planning Service",
-          "Photographer"
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "addr": "2/F, 6 Wilmer Street, Sai Ying Pun",
-        "area": "Hong Kong",
-        "email": "visavisbridal.info@gmail.com",
-        "tel": "28694881"
+        "emails": [
+          "visavisbridal.info@gmail.com"
+        ],
+        "single_line_address": "2/F, 6 Wilmer Street, Sai Ying Pun, Hong Kong",
+        "website": "http://www.visavisbridal.com"
       },
       "url": "https://www.facebook.com/visavisbridal/"
     },

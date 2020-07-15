@@ -7,14 +7,19 @@
     {
       "meta": {
         "id": "203477153608136",
+        "username": "toysbeathk",
+        "name": "Toys Beat",
         "about": "專營各大1/6 及兵人玩具, 同時亦有其他比例人偶及玩具供應",
-        "categories": [
-          "Toy shop"
+        "category_list": [
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          }
         ],
-        "addr": "彌敦道582-592號 信和中心 13樓 1302A室",
-        "area": "Mong Kok",
-        "email": "toysbeat.hk@gmail.com",
-        "tel": "98474250"
+        "emails": [
+          "toysbeat.hk@gmail.com"
+        ],
+        "single_line_address": "彌敦道582-592號 信和中心 13樓 1302A室, Mong Kok"
       },
       "url": "https://www.facebook.com/toysbeathk/"
     }

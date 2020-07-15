@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/averylovellbridal/",
       "meta": {
-        "name": "Avery Lovell Bridal",
         "id": "424935617850918",
+        "username": "averylovellbridal",
+        "name": "Avery Lovell Bridal",
         "about": "Avery Lovell provides stunning high quality wedding gowns and evening gowns to every bride. Our goal is make your day unforgettable.",
-        "categories": [
-          "Bridal Shop"
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          }
         ],
-        "addr": "Unit A2, 8/F, Good Luck Industrial Bldg, 105 How Ming Street, Kwun Tong",
-        "area": "Hong Kong",
-        "email": "averylovellbridal@gmail.com",
-        "tel": "53488088"
+        "emails": [
+          "averylovellbridal@gmail.com"
+        ],
+        "single_line_address": "Unit A2, 8/F, Good Luck Industrial Bldg, 105 How Ming Street, Kwun Tong, Hong Kong"
       }
     },
     {

@@ -6,15 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "about": "Celebrity Make Up Artist\nProvide Professional Makeup Class/ Personal Makeup Class/Wedding Makeup Service /Commerical Makeup\n📍 Based in HK & Travel worldwide\n📩 Laurenleemakeupstudio@gmail.com\n**By Appointment Only **",
-        "categories": [
-          "Makeup artist"
+        "id": "156080831173841",
+        "username": "laurenleemakeupstudio",
+        "name": "Lauren Lee Makeup Studio",
+        "about": "Celebrity Make Up Artist\nProvide Professional Makeup Class/ Personal Makeup Class/Wedding Makeup Service /Commerical Makeup \n📍 Based in HK & Travel worldwide\n📩 Laurenleemakeupstudio@gmail.com\n**By Appointment Only **",
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "addr": "Room 806, The Icon , 320-322 Kwun Tong Rd, Ngau Tau Kok",
-        "area": "Hong Kong",
-        "email": "laurenleemakeupstudio@gmail.com",
-        "tel": "56626977",
-        "id": "156080831173841"
+        "emails": [
+          "laurenleemakeupstudio@gmail.com"
+        ],
+        "single_line_address": "Room 806, The Icon , 320-322 Kwun Tong Rd, Ngau Tau Kok, Hong Kong"
       },
       "url": "https://www.facebook.com/laurenleemakeupstudio/"
     }

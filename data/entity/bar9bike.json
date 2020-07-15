@@ -9,15 +9,25 @@
     },
     {
       "meta": {
-        "name": "Bar9bike",
         "id": "226949441205618",
+        "username": "bar9bike",
+        "name": "Bar9bike",
         "about": "Keep bar9bike before you die",
-        "categories": [
-          "Cars",
-          "Arts & Crafts Store"
+        "category_list": [
+          {
+            "id": "2205",
+            "name": "Cars"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "email": "bar9bike@hotmail.com",
-        "tel": "65138735"
+        "emails": [
+          "bar9bike@hotmail.com"
+        ],
+        "single_line_address": "彌敦道9號",
+        "website": "https://carousell.com/bar9bike"
       },
       "url": "https://www.facebook.com/bar9bike/"
     },

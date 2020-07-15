@@ -6,11 +6,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "Garden by Angie",
         "id": "293940147880170",
+        "username": "gardenbyangie",
+        "name": "Garden by Angie",
         "about": "教學連結：https://www.facebook.com/gardenbyangie/posts/340666333207551",
-        "categories": [
-          "Nurseries & Gardening Store"
+        "category_list": [
+          {
+            "id": "1307356979279301",
+            "name": "Nurseries & Gardening Store"
+          }
         ]
       },
       "url": "https://www.facebook.com/gardenbyangie/"

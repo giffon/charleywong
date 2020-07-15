@@ -7,11 +7,17 @@
     {
       "url": "https://www.facebook.com/612874222473904/",
       "meta": {
-        "name": "Soul d’Art",
         "id": "612874222473904",
-        "categories": [
-          "Jewelry/Watches",
-          "Astrologist & Psychic"
+        "name": "Soul d’Art",
+        "category_list": [
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          },
+          {
+            "id": "108565442553819",
+            "name": "Astrologist & Psychic"
+          }
         ]
       }
     },

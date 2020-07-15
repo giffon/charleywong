@@ -11,13 +11,20 @@
     {
       "url": "https://www.facebook.com/venuehk/",
       "meta": {
-        "name": "Venue.HK - 吉場",
         "id": "778092072238202",
-        "about": "Venue.hk is a platform that help individuals and organizations to find event venue.",
-        "categories": [
-          "Community Organization"
+        "username": "venuehk",
+        "name": "Venue.HK - 吉場",
+        "about": "Venue.hk is a platform that help individuals and organizations to find event venue. ",
+        "category_list": [
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          }
         ],
-        "email": "info@venue.hk"
+        "emails": [
+          "info@venue.hk"
+        ],
+        "website": "http://venue.hk"
       }
     }
   ],

@@ -10,16 +10,21 @@
     },
     {
       "meta": {
-        "name": "醫護行社區藥房 Health In Action Community Pharmacy",
         "id": "102937347713625",
+        "username": "healthinactioncommunitypharmacy",
+        "name": "醫護行社區藥房 Health In Action Community Pharmacy",
         "about": "醫護行社區藥房是一所由註冊藥劑師主理的非牟利藥房, 提供配藥服務與藥物諮詢。我們亦會定期進行藥物講座及社區健康教育工作，協助市民善用藥物和提高健康自主及自我管理疾病的能力。",
-        "categories": [
-          "Non-Governmental Organization (NGO)"
+        "category_list": [
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          }
         ],
-        "addr": "Portion of room 901, Milennium Trade Centre, 54-56 Kwai Cheong Road, Kwai Chung, N.T.",
-        "area": "100061 Hong Kong",
-        "email": "hia@hia.org.hk",
-        "tel": "36129515"
+        "emails": [
+          "hia@hia.org.hk"
+        ],
+        "single_line_address": "Portion of room 901, Milennium Trade Centre, 54-56 Kwai Cheong Road, Kwai Chung, N.T., 100061 Hong Kong",
+        "website": "www.hiarx.org.hk"
       },
       "url": "https://www.facebook.com/healthinactioncommunitypharmacy/"
     }

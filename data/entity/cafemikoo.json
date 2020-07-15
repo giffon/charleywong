@@ -11,15 +11,25 @@
     {
       "url": "https://www.facebook.com/cafemikoo/",
       "meta": {
-        "name": "四季·良晨 - 牛肉麵·茶飲·休閒餐廳 Cafe Mikoo",
         "id": "1109060562628640",
+        "username": "cafemikoo",
+        "name": "四季·良晨 - 牛肉麵·茶飲·休閒餐廳 Cafe Mikoo",
         "about": "四季有時，良晨是好時光，台灣的小品牌為你帶來每日好開始，我們提供保證美味的 #台灣牛肉麵 #魯肉飯 #文青風 的快樂，找會那些年曾經的回憶.. 輕輕鬆鬆由這裡出發，微笑過好日子",
-        "categories": [
-          "Bunsik Restaurant",
-          "Taiwanese Restaurant"
+        "category_list": [
+          {
+            "id": "533990753451464",
+            "name": "Bunsik Restaurant"
+          },
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          }
         ],
-        "email": "info@cafemikoo.com",
-        "tel": "34228388"
+        "emails": [
+          "info@cafemikoo.com"
+        ],
+        "single_line_address": "將軍澳新都城2期UG051(近百佳）, Hong Kong",
+        "website": "http://www.cafemikoo.com"
       }
     },
     {

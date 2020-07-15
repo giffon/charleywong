@@ -7,12 +7,17 @@
     {
       "url": "https://www.facebook.com/oncctesthk/",
       "meta": {
-        "name": "港。實測",
         "id": "149745768742336",
+        "username": "oncctesthk",
+        "name": "港。實測",
         "about": "社會實況小測試\nARE YOU READY TO BE TESTED?\n\n《港。實測》為東網旗下新聞網站，透過測試及小考驗，讓大眾輕鬆了解社會實況及現象。",
-        "categories": [
-          "Media/News Company"
-        ]
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
+        ],
+        "website": "http://hk.on.cc/hk/news/"
       }
     },
     {

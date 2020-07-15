@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/thecitycorner.hk/",
       "meta": {
-        "name": "The City Corner",
         "id": "1206602482752515",
+        "username": "thecitycorner.hk",
+        "name": "The City Corner",
         "about": "The City Corner － 一間由90後真香港人經營嘅西式Cafe，主打自家製作，用心煮出美食，為求滿足大家嘅味蕾。你地嘅支持對我地嚟講好重要，立刻「讚好」留意我地餐廳嘅最新資訊啦！",
-        "categories": [
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "屯門青棉徑6號好發大廈地下17-20號鋪",
-        "area": "852 Hong Kong",
-        "email": "thecitycorner.hk@gmail.com",
-        "tel": "98451054"
+        "emails": [
+          "thecitycorner.hk@gmail.com"
+        ],
+        "single_line_address": "屯門青棉徑6號好發大廈地下17-20號鋪, 852 Hong Kong"
       }
     },
     {

@@ -18,16 +18,21 @@
     {
       "url": "https://www.facebook.com/HabCompany/",
       "meta": {
-        "name": "HAB Company",
         "id": "125785534224212",
+        "username": "HabCompany",
+        "name": "HAB Company",
         "about": "Interior Design + Build service",
-        "categories": [
-          "Professional Service"
+        "category_list": [
+          {
+            "id": "176831012360626",
+            "name": "Professional Service"
+          }
         ],
-        "addr": "1601 16/F, Kai Wong Commercial Centre, 222 Queen's Road Central",
-        "area": "Sheung Wan Hong Kong",
-        "email": "hello@hab-company.com",
-        "tel": "25200373"
+        "emails": [
+          "hello@hab-company.com"
+        ],
+        "single_line_address": "1601 16/F, Kai Wong Commercial Centre, 222 Queen's Road Central, Sheung Wan Hong Kong",
+        "website": "www.hab-company.com"
       }
     }
   ],

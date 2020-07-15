@@ -10,14 +10,18 @@
     {
       "url": "https://www.facebook.com/1930216010638514/",
       "meta": {
-        "name": "So Cool Catering Equipment",
         "id": "1930216010638514",
-        "about": "",
-        "categories": [
-          "Commercial Equipment"
+        "name": "So Cool Catering Equipment",
+        "category_list": [
+          {
+            "id": "2217",
+            "name": "Commercial Equipment"
+          }
         ],
-        "email": "socool@socool.com.hk",
-        "tel": "25673993"
+        "emails": [
+          "socool@socool.com.hk"
+        ],
+        "website": "http://socool.com.hk"
       }
     }
   ],

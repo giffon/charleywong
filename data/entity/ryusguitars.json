@@ -14,12 +14,20 @@
     {
       "meta": {
         "id": "961215777233328",
-        "about": "Ryu's Guitars 龍.結他",
-        "categories": [
-          "Product/service"
+        "username": "ryusguitars",
+        "name": "Ryu's  Guitars 龍.結他",
+        "about": "日系手工結他專門店, 專營日系手工訂製結他，優質嚴選中古結他，各類相關產品，代購各國結他產品及電結他保養維修改裝 .\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "ryusguitars@gmail.com",
-        "tel": "98362791"
+        "emails": [
+          "ryusguitars@gmail.com"
+        ],
+        "single_line_address": "葵興區",
+        "website": "www.ryusguitars.com"
       },
       "url": "https://www.facebook.com/ryusguitars/"
     }

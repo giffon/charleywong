@@ -7,14 +7,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "拾號公社 Commune X",
         "id": "204973120449281",
-        "categories": [
-          "Gastropub"
+        "username": "communextm",
+        "name": "拾號公社 Commune X",
+        "category_list": [
+          {
+            "id": "164049010316507",
+            "name": "Gastropub"
+          }
         ],
-        "addr": "G/F, 10 Ming Ngai Street, Tuen Mun",
-        "area": "852 Hong Kong",
-        "tel": "98222241"
+        "single_line_address": "G/F, 10 Ming Ngai Street, Tuen Mun, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/communextm/"
     },

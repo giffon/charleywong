@@ -7,11 +7,15 @@
     {
       "url": "https://www.facebook.com/daydaycheckin/",
       "meta": {
-        "name": "人生就是不停的打卡",
         "id": "104903674452131",
+        "username": "daydaycheckin",
+        "name": "人生就是不停的打卡",
         "about": "日日打卡身體好\n人生就係不停的打卡",
-        "categories": [
-          "Blogger"
+        "category_list": [
+          {
+            "id": "361282040719868",
+            "name": "Blogger"
+          }
         ]
       }
     },

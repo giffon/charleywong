@@ -7,17 +7,21 @@
     {
       "url": "https://www.facebook.com/weddingmcjimmy/",
       "meta": {
-        "name": "Wedding MC Jimmy 婚禮司儀",
         "id": "196060824295967",
+        "username": "weddingmcjimmy",
+        "name": "Wedding MC Jimmy 婚禮司儀",
         "about": "致力令每一個婚禮順利地在歡樂感動的氣氛下完成。",
-        "categories": [
-          "Wedding Planning Service",
-          "Photographer",
-          "Wedding Venue"
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong",
-        "tel": "60807144"
+        "single_line_address": "Hong Kong"
       }
     },
     {

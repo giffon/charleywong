@@ -7,16 +7,22 @@
     {
       "url": "https://www.facebook.com/keyakihk/",
       "meta": {
-        "name": "Keyaki Kushiyaki & Bar",
         "id": "1515054545434453",
+        "username": "keyakihk",
+        "name": "Keyaki Kushiyaki & Bar",
         "about": "“Keyaki” is a Japanese charcoal grill and sake bar. Utilizing real charcoal for grilling its skewers results in smokier and richer aroma and taste.",
-        "categories": [
-          "Japanese Restaurant",
-          "Sake Bar"
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          },
+          {
+            "id": "1640927539562872",
+            "name": "Sake Bar"
+          }
         ],
-        "addr": "G/F, 14 Wo On Lane",
-        "area": "852 Hong Kong",
-        "tel": "23627223"
+        "single_line_address": "G/F, 14 Wo On Lane, 852 Hong Kong",
+        "website": "http://www.keyakihk.com/keyaki"
       }
     },
     {

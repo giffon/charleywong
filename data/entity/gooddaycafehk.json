@@ -14,16 +14,27 @@
     {
       "url": "https://www.facebook.com/gooddaycafehk/",
       "meta": {
-        "name": "GoodDay Cafe",
         "id": "1677658949217645",
-        "about": "由兩小口子主理的自家小店🌞主打即叫即製漢堡意粉 - 爽瓜瓜花生醬熔岩牛肉芝士漢堡🍔特製流心芝士炸魚薯條🐟酥炸軟殻蟹芒果沙沙漢堡🐟特濃香烤芝士菇菇意粉🍄香烤吐司\n\n Party/Catering/Event/Meeting :3704-7936 / 6310-9268\n\nEmail : GoodDayCafeHK@Gmail.com",
-        "categories": [
-          "Breakfast & Brunch Restaurant",
-          "Burger Restaurant",
-          "Coffee Shop"
+        "username": "gooddaycafehk",
+        "name": "GoodDay Cafe",
+        "category_list": [
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          },
+          {
+            "id": "187425207958280",
+            "name": "Burger Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "email": "gooddaycafehk@gmail.com",
-        "tel": "63109268"
+        "emails": [
+          "gooddaycafehk@gmail.com"
+        ],
+        "website": "https://www.instagram.com/gooddaycafehk/"
       }
     }
   ],

@@ -8,14 +8,23 @@
     {
       "url": "https://www.facebook.com/sapnin2019/",
       "meta": {
-        "name": "拾年 Sap Nin",
         "id": "104965791028186",
+        "username": "sapnin2019",
+        "name": "拾年 Sap Nin",
         "about": "以「拾年」為名，冀以十年時間，拾回香港的核心價值，一起重建這個引以為傲的地方，拾回更多個真正屬於香港人的十年。\nTelegram: @sapnin\nFacebook: https://www.facebook.com/sapnin2019/\nInstagram: @sap_nin",
-        "categories": [
-          "Product/Service",
-          "Art"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "email": "sapnin.cs@gmail.com"
+        "emails": [
+          "sapnin.cs@gmail.com"
+        ]
       }
     },
     {

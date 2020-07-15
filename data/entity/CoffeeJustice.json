@@ -11,16 +11,25 @@
     {
       "url": "https://www.facebook.com/CoffeeJustice/",
       "meta": {
-        "name": "Coffee Justice 珈啡公義",
         "id": "1692147411087612",
+        "username": "CoffeeJustice",
+        "name": "Coffee Justice 珈啡公義",
         "about": "Drink Healthy Coffee and Bring Changes to Farmers and their Communities.",
-        "categories": [
-          "Wholesale & Supply Store",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "187070794658134",
+            "name": "Wholesale & Supply Store"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "Kilimanjaro Region",
-        "area": "Moshi",
-        "email": "cs@coffee-justice.com"
+        "emails": [
+          "cs@coffee-justice.com"
+        ],
+        "single_line_address": "Kilimanjaro Region, Moshi",
+        "website": "http://www.coffee-justice.com"
       }
     },
     {

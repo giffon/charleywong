@@ -9,16 +9,21 @@
     },
     {
       "meta": {
-        "name": "Colour EXP",
         "id": "1576305292641701",
-        "about": "EXPress, EXPlore and EXPeriment with Colours!\n實體店已停止服務，選購美術用品請上我們的網店\"美術創庫\"\nShop is closed and please purchase from our online shop Nuart Depot!\nhttps://www.artmaterials.hk/",
-        "categories": [
-          "Arts & Crafts Store"
+        "username": "ColourEXP",
+        "name": "Colour EXP",
+        "about": "暫時只接受Facebook「預約購物」!\nShopping by Appointment via Facebook Only!\nEXPress, EXPlore and EXPeriment with Colours!\n",
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "addr": "觀塘 興業街19-21號 明生工業大廈 8樓 前座 8/F, Front Block, Ming Sang Industrial Building, 19-21 Hing Yip Street",
-        "area": "Kwun Tong",
-        "email": "info@colourexp.com",
-        "tel": "93303230"
+        "emails": [
+          "info@colourexp.com"
+        ],
+        "single_line_address": "觀塘 興業街19-21號 明生工業大廈 8樓 前座 8/F, Front Block, Ming Sang Industrial Building, 19-21 Hing Yip Street, Kwun Tong",
+        "website": "www.ARTmaterials.HK"
       },
       "url": "https://www.facebook.com/ColourEXP/"
     },
@@ -32,15 +37,21 @@
     {
       "url": "https://www.facebook.com/ArtMaterials.hk/",
       "meta": {
+        "id": "153937817990522",
+        "username": "ArtMaterials.hk",
         "name": "ARTmaterials.HK",
-        "about": "美術創庫國際有限公司\nNuArt Depot International Limited",
-        "categories": [
-          "Arts & Crafts Store"
+        "about": "美術創庫國際有限公司\nNuArt Depot International Limited ",
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "addr": "8/F, Rear Block,  Ming Sang Industrial Building,  21 Hing Yip Street,",
-        "area": "000000 Kwun Tong",
-        "email": "info@artmaterials.hk",
-        "tel": "25607373"
+        "emails": [
+          "info@artmaterials.hk"
+        ],
+        "single_line_address": "8/F, Rear Block,  Ming Sang Industrial Building,  21 Hing Yip Street,, 000000 Kwun Tong",
+        "website": "http://www.ARTmaterials.HK"
       }
     },
     {

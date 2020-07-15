@@ -17,16 +17,29 @@
     {
       "url": "https://www.facebook.com/omoshomehk/",
       "meta": {
-        "name": "OMÓS HOME",
         "id": "221981005169428",
+        "username": "omoshomehk",
+        "name": "OMÓS HOME",
         "about": "earthy pleasure",
-        "categories": [
-          "Home Decor",
-          "Furniture",
-          "Interior Design Studio"
+        "category_list": [
+          {
+            "id": "192647794097278",
+            "name": "Home Decor"
+          },
+          {
+            "id": "2219",
+            "name": "Furniture"
+          },
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          }
         ],
-        "email": "sales@omoshome.com",
-        "tel": "21161707"
+        "emails": [
+          "sales@omoshome.com"
+        ],
+        "single_line_address": "Shop 2611, Horizon Plaza, 26F, 2 Lee Wing Street,Ap Lei Chau, Aberdeen,, Hong Kong",
+        "website": "www.omoshomehk.com"
       }
     }
   ],

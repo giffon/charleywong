@@ -6,15 +6,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "中醫家",
         "id": "282788561835417",
+        "name": "中醫家",
         "about": "陳宇傑、鍾淑英註冊中醫師註診",
-        "categories": [
-          "Medical Service"
+        "category_list": [
+          {
+            "id": "121549447920861",
+            "name": "Acupuncturist"
+          }
         ],
-        "addr": "北角英皇道416號新都城大廈5樓501室",
-        "area": "Hong Kong",
-        "tel": "35685613"
+        "single_line_address": "北角英皇道416號新都城大廈5樓501室, Hong Kong"
       },
       "url": "https://www.facebook.com/282788561835417/"
     }

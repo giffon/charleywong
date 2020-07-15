@@ -11,14 +11,20 @@
     {
       "url": "https://www.facebook.com/calendarhk/",
       "meta": {
-        "name": "香港人日曆 HongKonger Calendar",
         "id": "118320952896336",
+        "username": "calendarhk",
+        "name": "香港人日曆 HongKonger Calendar",
         "about": "有些事情需要時刻提醒自己，不能遺忘、忘記，要牢牢記住，因為這些都是本土回憶，願回憶歸香港。",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "contact@wefund.hk",
-        "tel": "62280026"
+        "emails": [
+          "contact@wefund.hk"
+        ],
+        "website": "https://wefund.hk"
       }
     },
     {

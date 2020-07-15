@@ -8,13 +8,19 @@
     {
       "url": "https://www.facebook.com/TheBestOfPartner/",
       "meta": {
-        "name": "拍擋物流 Partner Logistics",
         "id": "696050350844189",
+        "username": "TheBestOfPartner",
+        "name": "拍擋物流 Partner Logistics",
         "about": "拍檔物流 係你嘅最佳拍檔",
-        "categories": [
-          "Cargo & Freight Company"
+        "category_list": [
+          {
+            "id": "184395321600410",
+            "name": "Cargo & Freight Company"
+          }
         ],
-        "email": "samwong701@ymail.com"
+        "emails": [
+          "samwong701@ymail.com"
+        ]
       }
     }
   ],

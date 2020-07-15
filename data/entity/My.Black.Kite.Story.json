@@ -7,14 +7,19 @@
     {
       "url": "https://www.facebook.com/My.Black.Kite.Story/",
       "meta": {
-        "name": "My Black Kite Story",
         "id": "120109734733091",
-        "about": "\"我的麻鷹手記\" 是Peter Chan為分享麻鷹及其他猛禽而設立觀察平台，有關猛禽資訊及日常麻鷹觀察，都會在此與大家分享。",
-        "categories": [
-          "Personal Blog"
+        "username": "My.Black.Kite.Story",
+        "name": "My Black Kite Story",
+        "about": "\"我的麻鷹手記\" 是Peter Chan為分享麻鷹及其他猛禽而設立觀察平台，有關猛禽資訊及日常麻鷹觀察，都會在此與大家分享。\n",
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "pitarhk@yahoo.com.hk",
-        "tel": "95730088"
+        "emails": [
+          "pitarhk@yahoo.com.hk"
+        ]
       }
     }
   ],

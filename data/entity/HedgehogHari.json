@@ -7,11 +7,15 @@
     {
       "url": "https://www.facebook.com/HedgehogHari/",
       "meta": {
-        "name": "哈利森林",
         "id": "1404330382925494",
+        "username": "Hedgehog.Hari",
+        "name": "哈利森林",
         "about": "友善刺蝟與頑皮企鵝的日常",
-        "categories": [
-          "Fictional Character"
+        "category_list": [
+          {
+            "id": "1113",
+            "name": "Fictional Character"
+          }
         ]
       }
     },

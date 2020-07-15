@@ -6,16 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "味之樂",
         "id": "1632702046986157",
+        "name": "味之樂",
         "about": "香港精神、傳統小食、老店重開。多謝支持！\n種類繁多：秘制牛雜、咖哩魚蛋、美味燒賣、潮式鹵味、八爪魚、火雞腎、爽口生腸、猪潤⋯⋯種類多。歡迎光臨！",
-        "categories": [
-          "Food Stand"
+        "category_list": [
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          }
         ],
-        "addr": "葵芳葵涌廣場2樓C11a",
-        "area": "852 Hong Kong",
-        "email": "chowhoho114@gmail.com",
-        "tel": "56666795"
+        "emails": [
+          "chowhoho114@gmail.com"
+        ],
+        "single_line_address": "葵芳葵涌廣場2樓C11a, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/1632702046986157/"
     },

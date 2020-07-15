@@ -11,14 +11,21 @@
     {
       "url": "https://www.facebook.com/runningnews.hk/",
       "meta": {
-        "name": "Running News 跑場新聞",
         "id": "864275070261077",
+        "username": "runningnews.hk",
+        "name": "Running News 跑場新聞",
         "about": "我跑步，去跑場",
-        "categories": [
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "runningnewshk@gmail.com",
-        "tel": "53953342"
+        "emails": [
+          "runningnewshk@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://sports.fanpiece.com/running-news/"
       }
     },
     {

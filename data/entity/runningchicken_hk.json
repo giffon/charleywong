@@ -7,15 +7,23 @@
     {
       "url": "https://www.facebook.com/1405004853066857/",
       "meta": {
-        "name": "米走雞",
         "id": "1405004853066857",
+        "name": "米走雞",
         "about": "芝士雞煲火煱",
-        "categories": [
-          "Fondue Restaurant",
-          "Asian Restaurant"
+        "category_list": [
+          {
+            "id": "167116956674095",
+            "name": "Fondue Restaurant"
+          },
+          {
+            "id": "185855984789970",
+            "name": "Asian Restaurant"
+          }
         ],
-        "email": "runrunningchicken@gmail.com",
-        "tel": "28138522"
+        "emails": [
+          "runrunningchicken@gmail.com"
+        ],
+        "single_line_address": "852 Hong Kong"
       }
     },
     {

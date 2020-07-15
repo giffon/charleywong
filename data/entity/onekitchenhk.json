@@ -11,13 +11,21 @@
     {
       "url": "https://www.facebook.com/onekitchenhk/",
       "meta": {
-        "name": "贇 One Kitchen",
         "id": "110645077273399",
+        "username": "onekitchenhk",
+        "name": "贇 One Kitchen",
         "about": "我們取名「贇」，寓意自家品牌盡善盡美，也標誌着在未來的日子，「香港工匠」與亮老闆聯承的「One Kitchen」，會給予大家更多意想不到的新驚喜。",
-        "categories": [
-          "Food Delivery Service",
-          "Specialty Grocery Store"
-        ]
+        "category_list": [
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          },
+          {
+            "id": "162264673824073",
+            "name": "Specialty Grocery Store"
+          }
+        ],
+        "website": "https://hggc.com.hk/%E8%B4%87_one_kitchen"
       }
     }
   ],

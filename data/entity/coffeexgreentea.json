@@ -7,18 +7,27 @@
     {
       "url": "https://www.facebook.com/512420412221989/",
       "meta": {
-        "name": "Coffee Green Tea",
         "id": "512420412221989",
+        "name": "Coffee Green Tea",
         "about": "精品咖啡室",
-        "categories": [
-          "Tea Room",
-          "Coffee Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "九龍旺角西洋菜南街38-40號萬高商業大廈3樓",
-        "area": "Mong Kok",
-        "email": "coffeegreentea0.72@gmail.com",
-        "tel": "24681518"
+        "emails": [
+          "coffeegreentea0.72@gmail.com"
+        ],
+        "single_line_address": "九龍旺角西洋菜南街38-40號萬高商業大廈3樓, Mong Kok"
       }
     },
     {

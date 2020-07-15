@@ -7,11 +7,15 @@
     {
       "url": "https://www.facebook.com/realhistoryman/",
       "meta": {
-        "name": "太一史人",
         "id": "270012393371831",
+        "username": "realhistoryman",
+        "name": "太一史人",
         "about": "我名字叫太一史人。只要你喜歡「史」，只要你喜歡「想當年」，就歡迎你，大家一起吹......吹水～～",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ]
       }
     }

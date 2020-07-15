@@ -14,17 +14,24 @@
     {
       "url": "https://www.facebook.com/APlusMakeUpStylist/",
       "meta": {
-        "name": "A Plus Make Up & Stylist",
         "id": "366994273420494",
-        "about": "Professional Makeup & Hair styling ,提供各類型化妝服務,另設高清噴槍化妝, 專業新娘化妝及髮型課程，歡迎查詢 : info@kaka-group.com , 31881418",
-        "categories": [
-          "Bridal Shop",
-          "Makeup Artist"
+        "username": "APlusMakeUpStylist",
+        "name": "A Plus Make Up & Stylist",
+        "about": "Professional Makeup & Hair styling ,提供各類型化妝服務,另設高清噴槍化妝, 專業新娘化妝及髮型課程，歡迎查詢 : info@kaka-group.com , 31881418 ",
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          },
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "addr": "九龍灣臨興街32 號美羅中心一期3樓320 室",
-        "area": "Kowloon, Hong Kong",
-        "email": "aplus@kaka-group.com",
-        "tel": "67749039"
+        "emails": [
+          "aplus@kaka-group.com"
+        ],
+        "single_line_address": "九龍灣臨興街32 號美羅中心一期3樓320 室, Kowloon, Hong Kong"
       }
     }
   ],

@@ -10,14 +10,27 @@
     {
       "meta": {
         "id": "380906865423722",
+        "username": "militaryguy",
+        "name": "香港MG戶外軍事用品店",
         "about": "本店主要售賣歐美各國主流軍事用品，包括軍服、軍鞋、背包等等。適合戶外活動愛好者、Wargamers或軍事風格的日常穿著。歡迎查詢。",
-        "categories": [
-          "Outdoor equipment shop",
-          "Clothes shop",
-          "Vintage shop"
+        "category_list": [
+          {
+            "id": "153490828039067",
+            "name": "Outdoor Equipment Store"
+          },
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          },
+          {
+            "id": "194127957280024",
+            "name": "Vintage Store"
+          }
         ],
-        "email": "militaryguy1911@ymail.com",
-        "tel": "68787594"
+        "emails": [
+          "militaryguy1911@ymail.com"
+        ],
+        "website": "http://www.mg-military.com"
       },
       "url": "https://www.facebook.com/militaryguy/"
     },

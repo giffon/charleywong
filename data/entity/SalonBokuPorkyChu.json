@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/SalonBokuPorkyChu/",
       "meta": {
-        "name": "Salon Boku",
         "id": "167198169958855",
+        "username": "SalonBokuPorkyChu",
+        "name": "Salon Boku",
         "about": "hair salon in HK",
-        "categories": [
-          "Hair Salon",
-          "Barber Shop"
+        "category_list": [
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          },
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          }
         ],
-        "addr": "Rm1301,workington Tower  ,78 Bonham Strand",
-        "area": "Sheung Wan",
-        "email": "bokusalon@gmail.com",
-        "tel": "31517575"
+        "emails": [
+          "bokusalon@gmail.com"
+        ],
+        "single_line_address": "Rm1301,workington Tower  ,78 Bonham Strand, Sheung Wan"
       }
     },
     {

@@ -10,17 +10,24 @@
     {
       "url": "https://www.facebook.com/sensoryzero/",
       "meta": {
-        "name": "sensory ZERO",
         "id": "476110415865021",
-        "about": "* Speciality Coffee & Roastery\n* Free parking: One Island South with purchase of $200\nLocations\n�One Island South, Wong Chuk Hang (HQ)\n�Eslite Bookstore, Taikoo Cityplaza\n�Lane Crawford, TST\n�Shui On Centre, Wanchai",
-        "categories": [
-          "Breakfast & Brunch Restaurant",
-          "Coffee Shop"
+        "username": "sensoryzero",
+        "name": "sensory ZERO",
+        "about": "* Speciality Coffee & Roastery  \n* Free parking: One Island South with purchase of $200\nLocations\n One Island South, Wong Chuk Hang (HQ)\n Eslite Bookstore, Taikoo Cityplaza\n Lane Crawford, TST\n Shui On Centre, Wanchai\n Leighton Centre, Causeway Bay",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          }
         ],
-        "addr": "2 Heung Yip Road",
-        "area": "Wong Chuk Hang, Hong Kong",
-        "email": "info@sensoryzero.com",
-        "tel": "25116011"
+        "emails": [
+          "info@sensoryzero.com"
+        ],
+        "website": "http://www.sensoryzero.com"
       }
     },
     {

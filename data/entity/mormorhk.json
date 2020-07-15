@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/mormorhk/",
       "meta": {
-        "name": "慢嬤嬤 mormor",
         "id": "285008521679511",
+        "username": "mormorhk",
+        "name": "慢嬤嬤 mormor",
         "about": "慢 嬤 嬤 ⌯ mor mor \n「慢嬤嬤」/ 三個女孩 / 親手造物 / 精選好物 / 慢慢用心 / 以喜歡的方式生活 \n-\n↟旺角奶路臣街15B號1/F（E2出口直行漢記書局旁樓梯上一層）\n↟3-9pm（星期三店休）\n-",
-        "categories": [
-          "Shopping & Retail",
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "addr": "香港葵芳葵涌廣場3樓時尚坊82E&F號店",
-        "area": "(3樓爭鮮旁） Hong Kong",
-        "email": "mormorhk@gmail.com",
-        "tel": "68740361"
+        "emails": [
+          "mormorhk@gmail.com"
+        ],
+        "single_line_address": "☼網站3件包郵中｜門市3件抽獎$20-100即時減✨, Hong Kong",
+        "website": "www.mormorhk.com"
       }
     },
     {

@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/209969062860712/",
       "meta": {
-        "name": "一燒窰",
         "id": "209969062860712",
+        "name": "一燒窰",
         "about": "本店為日式串燒店(⁎⁍̴̛ᴗ⁍̴̛⁎)，［無味精］全自家「秘制」醬汁！*即叫即做*不設加一！！本店設有啤酒、特製新鮮菠蘿冰、並不是地們菠蘿( ̀⌄ ́)",
-        "categories": [
-          "Kushikatsu Restaurant",
-          "Barbecue Restaurant"
+        "category_list": [
+          {
+            "id": "145473585861800",
+            "name": "Kushikatsu Restaurant"
+          },
+          {
+            "id": "150534008338515",
+            "name": "Barbecue Restaurant"
+          }
         ],
-        "addr": "旺角通菜街1A-1L號威達商業大廈",
-        "area": "852 Kowloon, Hong Kong",
-        "tel": "51724217"
+        "single_line_address": "旺角通菜街1A-1L號威達商業大廈, 852 Kowloon, Hong Kong"
       }
     },
     {

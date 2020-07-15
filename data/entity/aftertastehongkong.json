@@ -6,15 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "AFTER_TASTE.HK",
         "id": "2108290669239508",
-        "categories": [
-          "Coffee Shop"
+        "username": "aftertastehongkong",
+        "name": "AFTER_TASTE.HK",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "西營盤西邊街21號",
-        "area": "Hong Kong",
-        "email": "aftertaste168@gmail.com",
-        "tel": "97065659"
+        "emails": [
+          "aftertaste168@gmail.com"
+        ],
+        "single_line_address": "西營盤西邊街21號, Hong Kong"
       },
       "url": "https://www.facebook.com/aftertastehongkong/"
     },

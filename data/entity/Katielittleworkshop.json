@@ -6,13 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Katie Little Workshop - Wedding & Event Decoration",
         "id": "106369709399760",
+        "username": "Katielittleworkshop",
+        "name": "Katie Little Workshop - Wedding & Event Decoration",
         "about": "All about Love, All about Wedding~ Design you dream wedding.  \nInstragram : https://instagram.com/katielittleworkshop",
-        "categories": [
-          "Interest"
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "email": "katie.little.workshop@gmail.com"
+        "emails": [
+          "katie.little.workshop@gmail.com"
+        ],
+        "single_line_address": "Kwun Tong, Hong Kong (by appointment only)",
+        "website": "https://www.facebook.com/Katielittleworkshop"
       },
       "url": "https://www.facebook.com/Katielittleworkshop/"
     },

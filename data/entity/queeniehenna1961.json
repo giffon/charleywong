@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/queeniehenna1961/",
       "meta": {
-        "name": "Queenie Henna 草本染髮 & 旅行雜貨店",
         "id": "225953847895027",
+        "username": "queeniehenna1961",
+        "name": "Queenie Henna 草本染髮 & 旅行雜貨店",
         "about": "Queenie Henna 上環分店地址：\n上環干諾道西 18 號祐華大廈 13 A\n（ 敬請預約 ）",
-        "categories": [
-          "Hair Salon",
-          "Health/Beauty",
-          "Social Service"
+        "category_list": [
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "178669642178193",
+            "name": "Social Service"
+          }
         ],
-        "addr": "紅磡差館里21-27號，富業商場1樓12號鋪 (鄰近黃埔地鐵站A出口、觀音廟斜對面)",
-        "area": "Kowloon, Hong Kong",
-        "email": "queeniehenna@gmail.com",
-        "tel": "59759752"
+        "emails": [
+          "queeniehenna@gmail.com"
+        ],
+        "single_line_address": "尖沙咀寶勒巷3號萬事昌廣場 1709 室, Kowloon, Hong Kong",
+        "website": "http://www.queeniehenna.com/"
       }
     },
     {

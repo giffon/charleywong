@@ -8,14 +8,20 @@
     {
       "url": "https://www.facebook.com/willisfonghohin/",
       "meta": {
-        "name": "方浩軒 Willis Fong",
         "id": "101649604540122",
-        "about": "動元十八\n元朗區議會 民選議員（十八鄉中） \n文、藝、康、體、福利、教育及治安委員會 主席",
-        "categories": [
-          "Politician"
+        "username": "willisfonghohin",
+        "name": "方浩軒 Willis Fong",
+        "about": "動元十八\n元朗區議會 民選議員（十八鄉中） \n文、藝、康、體、福利、教育及治安委員會 主席\n\n",
+        "category_list": [
+          {
+            "id": "1700",
+            "name": "Politician"
+          }
         ],
-        "email": "willis@action18.hk",
-        "tel": "60181491"
+        "emails": [
+          "willis@action18.hk"
+        ],
+        "single_line_address": "鳳攸東街9號好順意大廈49號地鋪, Yuen Long"
       }
     }
   ],

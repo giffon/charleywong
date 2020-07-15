@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/helloeveryonelaundry/",
       "meta": {
-        "name": "大家好洗衣",
         "id": "1593093497650755",
+        "username": "helloeveryonelaundry",
+        "name": "大家好洗衣",
         "about": "大家好洗衣",
-        "categories": [
-          "Cleaning Service"
+        "category_list": [
+          {
+            "id": "186564191378474",
+            "name": "Cleaning Service"
+          }
         ],
-        "addr": "九龍深水埗保安道29號地下                    九龍深水埗楓樹街23號地下一號舖",
-        "area": "000000 Hong Kong",
-        "tel": "34822728"
+        "single_line_address": "九龍深水埗保安道29號地下                    九龍深水埗楓樹街23號地下一號舖, 000000 Hong Kong"
       }
     },
     {

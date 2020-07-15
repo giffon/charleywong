@@ -14,18 +14,29 @@
     {
       "url": "https://www.facebook.com/choysktattoo/",
       "meta": {
-        "name": "Choy Keung Tattoo",
         "id": "348377568907674",
+        "username": "choysktattoo",
+        "name": "Choy Keung Tattoo",
         "about": "歡迎查詢及預約 / Please Email / WhatsApp or inbox me if you are interesting- What's App - 9042 0801\nInstagram - choysktattoo\n4/F 26A & 28 Russell Street, Causeway Bay Hong Kong",
-        "categories": [
-          "Artist",
-          "Tattoo & Piercing Shop",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "551469561691940",
+            "name": "Tattoo & Piercing Shop"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "4/F 26A&28 Russell Street Causeway Bay 銅鑼灣羅素街26A&28號4樓",
-        "area": "Hong Kong",
-        "email": "choykeung@rabbitcave.tattoo",
-        "tel": "90420801"
+        "emails": [
+          "choykeung@rabbitcave.tattoo"
+        ],
+        "single_line_address": "4/F 26A&28 Russell Street Causeway Bay 銅鑼灣羅素街26A&28號4樓, Hong Kong",
+        "website": "https://www.instagram.com/choysktattoo/"
       }
     }
   ],

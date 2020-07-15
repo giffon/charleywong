@@ -7,16 +7,28 @@
     {
       "url": "https://www.facebook.com/bewaterlimited/",
       "meta": {
-        "name": "十分淡水",
         "id": "101915121357790",
-        "about": "�十分淡水BEWATER\n專營淡水，大魚鯇魚鯪魚白鱔桂花應有盡有\n�去骨脆肉鯇�歡迎查詢\n合作請電67301788�",
-        "categories": [
-          "Product/Service",
-          "Fish Farm",
-          "Shopping & Retail"
+        "username": "bewaterlimited",
+        "name": "十分淡水",
+        "about": "十分淡水BEWATER\n專營淡水，大魚鯇魚鯪魚白鱔桂花應有盡有\n去骨脆肉鯇 歡迎查詢\n合作請電67301788\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "1771803296365360",
+            "name": "Fish Farm"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "bewaterlimited@gmail.com",
-        "tel": "67301788"
+        "emails": [
+          "bewaterlimited@gmail.com"
+        ],
+        "single_line_address": "TONG CHUN STREET THE PARKSIDE C26, Hong Kong"
       }
     }
   ],

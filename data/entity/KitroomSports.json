@@ -7,17 +7,25 @@
     {
       "url": "https://www.facebook.com/KitroomSports/",
       "meta": {
-        "name": "Kitroom Sports",
         "id": "153727157978210",
+        "username": "KitroomSports",
+        "name": "Kitroom Sports",
         "about": "本公司成立於2006年4月。專營各國聯賽球衣，原裝正版印字及臂章，我們以必然正品，印字款式多、選擇多服務業界。",
-        "categories": [
-          "Sporting Goods Store",
-          "Outdoor & Sporting Goods Company"
+        "category_list": [
+          {
+            "id": "165823830131654",
+            "name": "Sporting Goods Store"
+          },
+          {
+            "id": "2231",
+            "name": "Outdoor & Sporting Goods Company"
+          }
         ],
-        "addr": "九龍旺角亞皆老街24-26號東方大廈7樓B&C",
-        "area": "Kowloon, Hong Kong",
-        "email": "kitroomhk@gmail.com",
-        "tel": "24430434"
+        "emails": [
+          "kitroomhk@gmail.com"
+        ],
+        "single_line_address": "九龍旺角亞皆老街24-26號東方大廈7樓B&C, Kowloon, Hong Kong",
+        "website": "www.kitroomsports.com"
       }
     }
   ],

@@ -6,14 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "My Cup of Tea Bridal",
         "id": "533489866752189",
+        "username": "mycupofteabridal",
+        "name": "My Cup of Tea Bridal",
         "about": "Premium authorized dealer for St. patrick collection by Pronovias ; Affordable designers' gown rental.",
-        "categories": [
-          "Product/Service",
-          "Bridal Shop"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          }
         ],
-        "email": "enquirymycupoftea@gmail.com"
+        "single_line_address": "501,5/F,United Building,17-19 Jubilee Street, Central, Hong Kong"
       },
       "url": "https://www.facebook.com/mycupofteabridal/"
     },

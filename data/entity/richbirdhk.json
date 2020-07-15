@@ -9,16 +9,21 @@
     },
     {
       "meta": {
-        "name": "發達鳥找換店",
         "id": "389429764546040",
+        "username": "richbirdhk",
+        "name": "發達鳥找換店",
         "about": "外貨両替專門丶激安の現金券發售",
-        "categories": [
-          "Currency Exchange"
+        "category_list": [
+          {
+            "id": "189172844438073",
+            "name": "Currency Exchange"
+          }
         ],
-        "addr": "福華街177號地舖",
-        "area": "Sham Shui Po",
-        "email": "richbirdhk@yahoo.com",
-        "tel": "69996148"
+        "emails": [
+          "richbirdhk@yahoo.com"
+        ],
+        "single_line_address": "福華街177號地舖, Sham Shui Po",
+        "website": "http://www.richbirdhk.com"
       },
       "url": "https://www.facebook.com/richbirdhk/"
     },

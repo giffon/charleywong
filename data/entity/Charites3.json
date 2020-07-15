@@ -7,18 +7,29 @@
     {
       "url": "https://www.facebook.com/Charites3/",
       "meta": {
-        "name": "Chárites 美惠 元朗美甲/植睫毛",
         "id": "2012978195490770",
+        "username": "Charites3",
+        "name": "Chárites 美惠 元朗美甲/植睫毛",
         "about": "專業美妝資格\n�正宗台式開花嫁接技巧\n�眼形調整\n�3D,6D及9D睫毛嫁接\n�clear lashes日式睫毛嫁接\n�星級台灣導師嫁接睫毛課程\n�頂級手工粉霧眉、飄眉\n精緻手繪畫花 日式水晶甲 原創圖案",
-        "categories": [
-          "Health/beauty",
-          "Product/service",
-          "Nail salon"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "198516863494646",
+            "name": "Nail Salon"
+          }
         ],
-        "addr": "教育路，嘉城廣場3078",
-        "area": "Yuen Long Town",
-        "email": "charitescharites@gmail.com",
-        "tel": "94056661"
+        "emails": [
+          "charitescharites@gmail.com"
+        ],
+        "single_line_address": "教育路，嘉城廣場3078, Yuen Long Town",
+        "website": "https://api.whatsapp.com/send?phone=85294056661"
       }
     }
   ],

@@ -13,15 +13,21 @@
     },
     {
       "meta": {
-        "name": "Infini Love Bridal",
         "id": "1559455151042008",
+        "username": "infinilovebridal",
+        "name": "Infini Love Bridal",
         "about": "Infini Love Bridal is dedicated to delivering excellent rental and custom-made services of wedding gown & evening gown.\n\nBy Appointment ONLY",
-        "categories": [
-          "Bridal Shop"
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          }
         ],
-        "addr": "Manning Industrial Building, 116-118 How Ming Street",
-        "area": "852 Kung Tong, Hong Kong",
-        "email": "info@infinilovebridal.com"
+        "emails": [
+          "info@infinilovebridal.com"
+        ],
+        "single_line_address": "Manning Industrial Building, 116-118 How Ming Street, 852 Kung Tong, Hong Kong",
+        "website": "https://www.instagram.com/infinilovebridal/"
       },
       "url": "https://www.facebook.com/infinilovebridal/"
     }

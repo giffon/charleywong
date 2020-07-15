@@ -17,17 +17,25 @@
     {
       "url": "https://www.facebook.com/ppweddingdesign/",
       "meta": {
-        "name": "PP Wedding 喜帖",
         "id": "552896724819338",
+        "username": "ppweddingdesign",
+        "name": "PP Wedding 喜帖",
         "about": "PP WEDDING為喜帖實體店，面積過千呎，為準新人提供不一樣的喜帖設計服務。\n\n作品曾獲各大婚禮媒體報導:\nCosmopolitan Bride／Harper's BAZAAR BRIDE ／Elle Bride／Bride and Breakfast HK／新婚生活易",
-        "categories": [
-          "Wedding Planning Service",
-          "Graphic Designer"
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "162183907165552",
+            "name": "Graphic Designer"
+          }
         ],
-        "addr": "Unit No.4B, 3/F., Wah Shing Centre, 11 Shing Yip Street, Kwun Tong",
-        "area": "Kwun Tong",
-        "email": "sales@ppwedding.co",
-        "tel": "34602680"
+        "emails": [
+          "sales@ppwedding.co"
+        ],
+        "single_line_address": "Unit No.4B, 3/F., Wah Shing Centre, 11 Shing Yip Street, Kwun Tong, Kwun Tong",
+        "website": "http://www.ppweddingcard.com"
       }
     }
   ],

@@ -13,12 +13,19 @@
     {
       "url": "https://www.facebook.com/wowandflutterhk/",
       "meta": {
-        "name": "wow and flutter",
         "id": "564923277001551",
-        "categories": [
-          "Artist"
+        "username": "wowandflutterhk",
+        "name": "wow and flutter",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "hello@wowandflutter.hk"
+        "emails": [
+          "hello@wowandflutter.hk"
+        ],
+        "website": "http://www.wowandflutter.hk"
       }
     },
     {

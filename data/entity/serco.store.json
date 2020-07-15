@@ -10,11 +10,19 @@
     {
       "meta": {
         "id": "1611818949034627",
-        "about": "Instagram: serco.storee",
-        "categories": [
-          "Clothing (brand)"
+        "username": "serco.store",
+        "name": "Serco Store",
+        "about": "Instagram: serco.storee\n",
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "email": "info@sercoserco.com"
+        "emails": [
+          "info@sercoserco.com"
+        ],
+        "website": "https://www.sercoserco.com"
       },
       "url": "https://www.facebook.com/serco.store/"
     },

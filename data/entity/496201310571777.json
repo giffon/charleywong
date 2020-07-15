@@ -6,16 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Hilary Bridal Makeup",
         "id": "496201310571777",
+        "name": "Hilary Bridal Makeup",
         "about": "提供新娘♡姊妹♡親友♡孕婦♡宴會化妝造型服務\n詳情及收費請inbox :)",
-        "categories": [
-          "Makeup Artist",
-          "Hair Salon",
-          "Nail Salon"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          },
+          {
+            "id": "198516863494646",
+            "name": "Nail Salon"
+          }
         ],
-        "addr": "Hong Kong",
-        "area": "Hong Kong"
+        "single_line_address": "Hong Kong, Hong Kong"
       },
       "url": "https://www.facebook.com/496201310571777/"
     }

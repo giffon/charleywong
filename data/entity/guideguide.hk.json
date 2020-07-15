@@ -10,16 +10,28 @@
     {
       "url": "https://www.facebook.com/guideguide.hk/",
       "meta": {
-        "name": "拖手仔 去街Guide",
         "id": "1492313841093722",
+        "username": "guideguide.hk",
+        "name": "拖手仔 去街Guide",
         "about": "guideguide.hk 香港旅遊網站｜親子遊｜寵物遊｜拍拖遊\n喜歡遊玩，更喜歡遊香港！一個人帶狗去玩，很好；兩個人拍拖，也很好；一家人攜寵扶幼總動員，更好！出版有《親子200遊》、《親愛52周",
-        "categories": [
-          "Blogger",
-          "Travel Service",
-          "Shopping Service"
+        "category_list": [
+          {
+            "id": "361282040719868",
+            "name": "Blogger"
+          },
+          {
+            "id": "169581916792003",
+            "name": "Travel Service"
+          },
+          {
+            "id": "200046713342752",
+            "name": "Shopping Service"
+          }
         ],
-        "email": "editorial@guideguide.hk",
-        "tel": "68862265"
+        "emails": [
+          "editorial@guideguide.hk"
+        ],
+        "website": "http://www.guideguide.hk "
       }
     },
     {

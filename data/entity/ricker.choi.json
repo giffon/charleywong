@@ -10,12 +10,16 @@
     {
       "url": "https://www.facebook.com/108360674038239/",
       "meta": {
-        "name": "Ricker Choi - Music Heals",
         "id": "108360674038239",
+        "name": "Ricker Choi - Music Heals",
         "about": "music heals our soul",
-        "categories": [
-          "Musician"
-        ]
+        "category_list": [
+          {
+            "id": "1335670856447673",
+            "name": "Musician"
+          }
+        ],
+        "website": "www.rickerchoi.com"
       }
     },
     {

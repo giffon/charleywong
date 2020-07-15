@@ -7,13 +7,22 @@
     {
       "url": "https://www.facebook.com/1951148691648823/",
       "meta": {
-        "name": "Twofishes",
         "id": "1951148691648823",
+        "name": "Twofishes",
         "about": "兩個媽媽，一起為兒女們動動腦根，創作兒童成長布藝小玩具，一針一線剪剪貼貼100%手工制作。每份制成品都充滿對小孩子的愛。",
-        "categories": [
-          "Shopping & Retail",
-          "Baby Goods/Kids Goods",
-          "Games/Toys"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2232",
+            "name": "Baby Goods/Kids Goods"
+          },
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          }
         ]
       }
     }

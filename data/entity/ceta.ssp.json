@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/ceta.ssp/",
       "meta": {
-        "name": "CETA lifestyle",
         "id": "1159486600798015",
+        "username": "ceta.ssp",
+        "name": "CETA lifestyle",
         "about": "CETA Company Limited",
-        "categories": [
-          "Department Store"
+        "category_list": [
+          {
+            "id": "344508555610070",
+            "name": "Department Store"
+          }
         ],
-        "addr": "沙田石門京瑞廣場1期1樓173號鋪",
-        "area": "852 Hong Kong",
-        "email": "ceta.sales@gmail.com",
-        "tel": "27890663"
+        "emails": [
+          "ceta.sales@gmail.com"
+        ],
+        "single_line_address": "旺角電腦中心1樓119號, 852 Hong Kong",
+        "website": "www.ceta.com.hk"
       }
     }
   ],

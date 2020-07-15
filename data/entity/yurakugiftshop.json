@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/yurakugiftshop/",
       "meta": {
-        "name": "Yurakugiftshop 有樂町精品屋",
         "id": "294308917442817",
+        "username": "yurakugiftshop",
+        "name": "Yurakugiftshop 有樂町精品屋",
         "about": "專人到日本搜羅各款特色精品雜貨,保證原裝正版貨品。本店主要出售MOOMIN精品,歡迎親臨選購。",
-        "categories": [
-          "Boutique Store",
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "288846958171402",
+            "name": "Boutique Store"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "旺角W Plaza (舊名CHIC之堡) 1樓107號鋪",
-        "area": "Hong Kong",
-        "email": "contact@yurakugiftshop.com",
-        "tel": "64452023"
+        "emails": [
+          "contact@yurakugiftshop.com"
+        ],
+        "single_line_address": "旺角W Plaza (舊名CHIC之堡) 1樓107號鋪, Hong Kong",
+        "website": "http://www.yurakugiftshop.com/"
       }
     },
     {

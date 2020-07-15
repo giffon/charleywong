@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/buyumallcakery/",
       "meta": {
-        "name": "Buyumall Cakery & Decorating 手藝蛋糕",
         "id": "162846193867484",
+        "username": "buyumallcakery",
+        "name": "Buyumall Cakery & Decorating 手藝蛋糕",
         "about": "Dear all, please inbox us for any cake & dessert & candy corner orders!\nOrder need to be made at least 1-2 weeks in advance, first come first serve^^",
-        "categories": [
-          "Cupcake Shop"
+        "category_list": [
+          {
+            "id": "325310894151007",
+            "name": "Cupcake Shop"
+          }
         ],
-        "email": "buyumall_asia@yahoo.com.hk",
-        "tel": "61220917"
+        "emails": [
+          "buyumall_asia@yahoo.com.hk"
+        ],
+        "website": "http://www.buyumallcakery.com"
       }
     },
     {

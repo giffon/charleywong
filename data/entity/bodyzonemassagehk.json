@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/bodyzonemassagehk/",
       "meta": {
-        "name": "Bodyzone Massage 按摩 Hong Kong",
         "id": "861104594061105",
-        "about": "一家位於香港尖沙咀的專業按摩店。 我們提供各種治療，從足部按摩，推淋巴到中式按摩一應俱全。",
-        "categories": [
-          "Massage Service",
-          "Massage Therapist"
+        "username": "bodyzonemassagehk",
+        "name": "Bodyzone Massage 按摩 Hong Kong",
+        "about": "按摩不只是舒緩您身體上的疲累，更是一種生活態度。Bodyzone ，一家位於香港尖沙咀的本地按摩小店，提供足部/全身按摩，推淋巴等服務。 \n",
+        "category_list": [
+          {
+            "id": "109578329118821",
+            "name": "Massage Service"
+          },
+          {
+            "id": "726846324122041",
+            "name": "Massage Therapist"
+          }
         ],
-        "addr": "2/F, 15 Cameron Road,",
-        "area": "Tsim Sha Tsui",
-        "email": "bodyzonemassagehk@gmail.com",
-        "tel": "29888483"
+        "emails": [
+          "bodyzonemassagehk@gmail.com"
+        ],
+        "single_line_address": "2/F, 15 Cameron Road,, Tsim Sha Tsui",
+        "website": "http://www.bodyzonehk.com"
       }
     },
     {

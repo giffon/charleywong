@@ -7,18 +7,29 @@
   "webpages": [
     {
       "meta": {
-        "name": "BOUND by Hillywood",
         "id": "621516837961068",
+        "username": "boundhillywood",
+        "name": "BOUND by Hillywood",
         "about": "CRAFT BEER + INDIE MUSIC + GOOD FOOD \n\nhttps://www.youtube.com/watch?v=k9od3_q0QMs",
-        "categories": [
-          "Coffee Shop",
-          "Bar",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "32 Boundary Street, Prince Edward",
-        "area": "Kowloon, Hong Kong",
-        "email": "info@boundbeerandcoffee.com",
-        "tel": "23966488"
+        "emails": [
+          "boundbyhillywood32@gmail.com"
+        ],
+        "single_line_address": "32 Boundary Street, Prince Edward, Kowloon, Hong Kong",
+        "website": "https://www.instagram.com/boundbyhillywood/"
       },
       "url": "https://www.facebook.com/boundhillywood/"
     },

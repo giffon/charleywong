@@ -10,13 +10,20 @@
     {
       "meta": {
         "id": "880884738635595",
-        "about": "花好音樂廳是一個讓音樂愛好者連結音樂，與音樂人交流的場地。Flower Music 10, where people learn music, make music and meet music lovers, is a space for facilitating a craze for music.",
-        "categories": [
-          "Local business"
+        "username": "flowermusic10",
+        "name": "Flower Music 花好音樂",
+        "about": "Let Music Blossom!\n",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "機利文街50號德享大廈10樓",
-        "area": "Central, Hong Kong",
-        "email": "info@flowermusic.hk"
+        "emails": [
+          "info@flowermusic.hk"
+        ],
+        "single_line_address": "德輔道西27號星衢商業大廈16樓B室, Sheung Wan",
+        "website": "http://www.flowermusic.hk"
       },
       "url": "https://www.facebook.com/flowermusic10/"
     },

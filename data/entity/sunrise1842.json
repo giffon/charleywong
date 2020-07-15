@@ -7,28 +7,31 @@
     {
       "url": "https://www.facebook.com/sunrise1842/",
       "meta": {
-        "name": "新藝城",
         "id": "1552873835004448",
-        "about": "創立於新道光22年(1842)年，當年生產雨傘及售賣百貨。時移勢逆，現主要售賣雨具及維修雨傘。現第五代傳人熱衷為客人維修雨傘，冀望為環保出一分力，並為顧客保留一個又一個的回憶。",
-        "categories": [
-          "Local Business"
+        "username": "sunrise1842",
+        "name": "新藝城",
+        "about": "創立於新道光22年(1842)年，當年生產雨傘及售賣百貨。時移勢逆，現主要售賣雨具及維修雨傘。現第五代傳人熱衷為客人維修雨傘，冀望為環保出一分力，並為顧客保留一個又一個的回憶。\n",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "深水埗 荔枝角道314號B (北河街尾）",
-        "area": "852 Hong Kong",
-        "tel": "92485748"
+        "single_line_address": "深水埗 荔枝角道314號B (北河街尾）, 852 Hong Kong"
       }
     },
     {
       "url": "https://www.facebook.com/339646850139531/",
       "meta": {
-        "name": "新藝城傘皇",
         "id": "339646850139531",
-        "categories": [
-          "Shopping & Retail"
+        "name": "新藝城傘皇",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "荔枝角道314號地下B",
-        "area": "Kowloon, Hong Kong",
-        "tel": "97265187"
+        "single_line_address": "荔枝角道314號地下B, Kowloon, Hong Kong"
       },
       "hidden": true
     }

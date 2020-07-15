@@ -14,14 +14,16 @@
     {
       "url": "https://www.facebook.com/272296017005954/",
       "meta": {
-        "name": "兩姊妹涼皮有限公司",
         "id": "272296017005954",
+        "name": "兩姊妹涼皮有限公司",
         "about": "太子柏樹街15號\n太子站D出口",
-        "categories": [
-          "Szechuan/Sichuan Restaurant"
+        "category_list": [
+          {
+            "id": "1748542362059803",
+            "name": "Szechuan/Sichuan Restaurant"
+          }
         ],
-        "addr": "太子柏樹街15號",
-        "area": "Hong Kong"
+        "single_line_address": "太子柏樹街15號, Hong Kong"
       }
     }
   ],

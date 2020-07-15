@@ -14,17 +14,25 @@
     {
       "url": "https://www.facebook.com/kiwi.beauty.brow/",
       "meta": {
-        "name": "Brow",
         "id": "1942094476040891",
+        "username": "kiwi.beauty.brow",
+        "name": "Brow",
         "about": "十多年美容化妝師經驗，二人工作室\n明碼實價，絶無附加收費，敬請預約\n另設有角蛋白韌睫、睫毛嫁接、水光美牙、半永久納米釉質牙貼面\n詳情可參閱以下網址\nhttps://instagram.com/debeautynet?utm_sou",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care",
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "addr": "B31, B/F, Radio City SOLO, 505 Hennessy Road, Causeway bay",
-        "area": "852 Causeway Bay",
-        "email": "hoyn20@gmail.com",
-        "tel": "92719524"
+        "emails": [
+          "hoyn20@gmail.com"
+        ],
+        "single_line_address": "B31, B/F, Radio City SOLO, 505 Hennessy Road, Causeway bay, 852 Causeway Bay",
+        "website": "https://instagram.com/kiwi.beauty.brow?igshid=fxlne0vpwo3e"
       }
     }
   ],

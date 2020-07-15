@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "懷藥堂",
         "id": "166670853486822",
+        "username": "yyorktcm",
+        "name": "懷藥堂",
         "about": "提供中醫專業醫療服務\n湯劑中藥代煎，科學濃縮中藥\n針灸，手法，拔罐，艾灸",
-        "categories": [
-          "Acupuncturist",
-          "Medical Center"
+        "category_list": [
+          {
+            "id": "121549447920861",
+            "name": "Acupuncturist"
+          },
+          {
+            "id": "228143393877753",
+            "name": "Medical Center"
+          }
         ],
-        "addr": "油麻地彌敦道518-520號彌敦行10樓B室",
-        "area": "852 Yau Ma Tei",
-        "email": "yyorktcm@yahoo.com",
-        "tel": "35861939"
+        "emails": [
+          "yyorktcm@yahoo.com"
+        ],
+        "single_line_address": "油麻地彌敦道518-520號彌敦行10樓B室, 852 Yau Ma Tei",
+        "website": "http://www.yyorktcm.com"
       },
       "url": "https://www.facebook.com/yyorktcm/"
     }

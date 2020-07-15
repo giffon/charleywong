@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/teakhaHK/",
       "meta": {
-        "name": "teakha 茶。家",
         "id": "142422802481724",
+        "username": "teakhaHK",
+        "name": "teakha 茶。家",
         "about": "\"you see the world through a cup of  tea ...\" 。透過一杯茶，你可以看到整個世界。",
-        "categories": [
-          "Tea Room",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "18 Tai Ping Shan Street",
-        "area": "Hong Kong Sheung Wan",
-        "email": "discover@teakha.com",
-        "tel": "28589185"
+        "emails": [
+          "discover@teakha.com"
+        ],
+        "single_line_address": "18 Tai Ping Shan Street, Hong Kong Sheung Wan",
+        "website": "www.teakha.com"
       }
     },
     {

@@ -14,16 +14,23 @@
     {
       "url": "https://www.facebook.com/344159642597369/",
       "meta": {
-        "name": "南香雞飯",
         "id": "344159642597369",
-        "categories": [
-          "Diner",
-          "Malaysian Restaurant",
-          "Hong Kong Restaurant"
+        "name": "南香雞飯",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "198383150193535",
+            "name": "Malaysian Restaurant"
+          },
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
         ],
-        "addr": "西菁街10號好順泰商場6號舖",
-        "area": "Yuen Long",
-        "tel": "36115255"
+        "single_line_address": "西菁街10號好順泰商場6號舖, Yuen Long"
       }
     }
   ],

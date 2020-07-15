@@ -6,11 +6,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "Bellfleurs",
         "id": "190114028118468",
-        "about": "| B E L L F L E U R S |\nby Bell Chan \n\nflowers come to life",
-        "categories": [
-          "Product/Service"
+        "username": "bellfleurs",
+        "name": "Bellfleurs",
+        "about": "| B E L L F L E U R S |\nby Bell Chan \n\nflowers come to life\n\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       },
       "url": "https://www.facebook.com/bellfleurs/"

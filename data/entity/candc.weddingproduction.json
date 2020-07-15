@@ -18,15 +18,24 @@
     {
       "url": "https://www.facebook.com/candc.weddingproduction/",
       "meta": {
-        "name": "婚禮統籌及司儀 幸福之哥 陳創",
         "id": "1451508678250918",
+        "username": "candc.weddingproduction",
+        "name": "婚禮統籌及司儀 幸福之哥 陳創",
         "about": "不接受警察的喜慶預約 專業婚禮及公司活動司儀CWP國際認可婚禮統籌師CWP活動策劃及管理文憑每個人都有屬於你們的幸福之歌，能夠參與用心編寫你們最幸福的樂章係我最榮幸的事！",
-        "categories": [
-          "Product/Service",
-          "Wedding Planning Service"
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "chanchong1217@gmail.com",
-        "tel": "61988834"
+        "emails": [
+          "chanchong1217@gmail.com"
+        ],
+        "website": "https://jerrycsamsung.wixsite.com/chanchong"
       }
     },
     {

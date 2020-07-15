@@ -11,13 +11,21 @@
     {
       "url": "https://www.facebook.com/VJGamer/",
       "meta": {
-        "name": "VJGamer 遊戲殿",
         "id": "1550318295268233",
+        "username": "VJGamer",
+        "name": "VJGamer 遊戲殿",
         "about": "為真香港人服務 提供最專業獨到遊戲動漫玩物資訊網站",
-        "categories": [
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "vjgamerhk@gmail.com"
+        "emails": [
+          "vjgamerhk@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://gamer.vjmedia.com.hk/"
       }
     }
   ],

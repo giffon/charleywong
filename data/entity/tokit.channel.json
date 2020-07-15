@@ -6,14 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "陶傑 Channel",
         "id": "272574169481780",
+        "username": "tokit.channel",
+        "name": "陶傑 Channel",
         "about": "「今日世界的問題，是愚昧的人竟然臭串而非常自信，而聰慧的人卻充滿疑慮。」（羅素：The trouble with the world is that the stupid are cocksure and the intelligent are full of doubt. ) \n\n讓我們一起改變這一切。",
-        "categories": [
-          "Public Figure",
-          "TV Channel"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          },
+          {
+            "id": "1404",
+            "name": "TV Channel"
+          }
         ],
-        "email": "chiptsao@netvigator.com"
+        "emails": [
+          "chiptsao@netvigator.com"
+        ],
+        "website": "http://www.cup.com.hk"
       },
       "url": "https://www.facebook.com/tokit.channel/"
     },

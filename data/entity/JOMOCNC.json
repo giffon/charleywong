@@ -6,16 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "JOMO Coffee & Cakes",
         "id": "310702119758741",
-        "categories": [
-          "Coffee Shop",
-          "Tea Room"
+        "username": "JOMOCNC",
+        "name": "JOMO Coffee & Cakes",
+        "category_list": [
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "No 4,Water Street, Sai Ying Pun",
-        "area": "Hong Kong",
-        "email": "jomocnc@gmail.com",
-        "tel": "27620258"
+        "emails": [
+          "jomocnc@gmail.com"
+        ],
+        "single_line_address": "No 4,Water Street, Sai Ying Pun, Hong Kong",
+        "website": "http://www.jomocnc.com"
       },
       "url": "https://www.facebook.com/JOMOCNC/"
     },

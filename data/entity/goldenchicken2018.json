@@ -14,13 +14,18 @@
     {
       "url": "https://www.facebook.com/290129308290441/",
       "meta": {
-        "name": "黃金雞",
         "id": "290129308290441",
-        "categories": [
-          "Product/Service"
+        "name": "黃金雞",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "goldenchicken2018@yahoo.com.hk",
-        "tel": "97656029"
+        "emails": [
+          "goldenchicken2018@yahoo.com.hk"
+        ],
+        "single_line_address": "地址:香港西灣河海利街6號海利大廈地下B鋪 Address: Shop B G/F Hoi Lee Building 58-60 Sai Wah Ho Street HK"
       }
     }
   ],

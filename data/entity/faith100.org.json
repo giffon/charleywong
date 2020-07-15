@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/faith100.org/",
       "meta": {
-        "name": "信仰百川",
         "id": "758347067551935",
+        "username": "faith100.org",
+        "name": "信仰百川",
         "about": "本專頁是香港基督教網上新媒體《信仰百川》（http://faith100.media/）的官方專頁，為信徒提供不同視域，回應時代，塑造靈命。",
-        "categories": [
-          "Media/News Company"
-        ]
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
+        ],
+        "website": "http://faith100.media"
       }
     }
   ],

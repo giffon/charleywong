@@ -7,12 +7,21 @@
     {
       "url": "https://www.facebook.com/nycsingswithyouhk/",
       "meta": {
-        "name": "NYC 和你唱",
         "id": "101434398251549",
+        "username": "nycsingswithyouhk",
+        "name": "NYC 和你唱",
         "about": "\"Do You Hear the People Sing?\" is an art exhibition in New York City. We are a group of Hong Kongers committed to bringing the protest street arts of Hong Kong to NYC. Instagram: nycsingswithhk",
-        "categories": [
-          "Art"
-        ]
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
+        ],
+        "website": "http://bit.ly/NYCsingswithHK"
       }
     },
     {

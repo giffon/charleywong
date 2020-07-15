@@ -10,16 +10,25 @@
     {
       "url": "https://www.facebook.com/MBWorkshop/",
       "meta": {
-        "name": "MB Workshop",
         "id": "169625789716845",
+        "username": "MBWorkshop",
+        "name": "MB Workshop",
         "about": "MB Workshop (Photography & Make Up Service)",
-        "categories": [
-          "Makeup Artist",
-          "Photographer"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "Room 1404, 14/F, Kenbo Commercial Bldg,  335-339 Queen’s Road West",
-        "area": "Sai Ying Poon, Hong Kong",
-        "email": "info@mbw.hk"
+        "emails": [
+          "info@mbw.hk"
+        ],
+        "single_line_address": "Room 1404, 14/F, Kenbo Commercial Bldg,  335-339 Queen’s Road West, Sai Ying Poon, Hong Kong",
+        "website": "http://www.mbw.hk"
       }
     }
   ],

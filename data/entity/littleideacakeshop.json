@@ -9,17 +9,29 @@
     },
     {
       "meta": {
-        "name": "小念頭",
         "id": "960542954080063",
+        "username": "littleideacakeshop",
+        "name": "小念頭",
         "about": "詠春【小念頭】。念頭正，終生正！小念頭不停在腦中浮現，有多少你會將它實現？\n可能心中會有聲音說「小念頭很多也會27」。管他的！一日未實現你的小念頭，一日都還未肯定成功與否！",
-        "categories": [
-          "Coffee Shop",
-          "Bakery"
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          }
         ],
-        "addr": "1/F, No. 75 Tung Choi Street",
-        "area": "0000 Mong Kok",
-        "email": "littleidea_27@gmail.com",
-        "tel": "61831450"
+        "emails": [
+          "littleidea_27@gmail.com"
+        ],
+        "single_line_address": "1/F, No. 75 Tung Choi Street, 0000 Mong Kok",
+        "website": "littleideacafe.com"
       },
       "url": "https://www.facebook.com/littleideacakeshop/"
     },

@@ -7,15 +7,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "金祥排骨麵 Kam Cheung Pork Noodle",
         "id": "591092227591582",
+        "name": "金祥排骨麵 Kam Cheung Pork Noodle",
         "about": "金祥排骨麵在西環經營超過２０年",
-        "categories": [
-          "Noodle House"
+        "category_list": [
+          {
+            "id": "1848365298810025",
+            "name": "Noodle House"
+          }
         ],
-        "addr": "西環西營盤德輔道西316號地下C舖",
-        "area": "852 Hong Kong",
-        "tel": "28576738"
+        "single_line_address": "西環西營盤德輔道西316號地下C舖, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/591092227591582/"
     },

@@ -15,13 +15,21 @@
     {
       "url": "https://www.facebook.com/AgnesChan.Life/",
       "meta": {
-        "name": "陳美齡細語",
         "id": "575557359294345",
+        "username": "AgnesChan.Life",
+        "name": "陳美齡細語",
         "about": "柔風輕語　笑談人生",
-        "categories": [
-          "Author",
-          "Education"
-        ]
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          },
+          {
+            "id": "2250",
+            "name": "Education"
+          }
+        ],
+        "website": "http://AgnesChan.Life"
       }
     }
   ],

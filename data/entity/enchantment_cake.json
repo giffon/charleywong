@@ -7,15 +7,26 @@
     {
       "url": "https://www.facebook.com/102500721392968/",
       "meta": {
-        "name": "Enchantment Cake",
         "id": "102500721392968",
+        "name": "Enchantment Cake",
         "about": "有人說我設計的蛋糕像是藝術品, 唔捨得吃! 你覺得呢? 韓式唧花既蛋糕, 充滿美感!",
-        "categories": [
-          "Product/Service",
-          "Grocery Store",
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "myeczemalife@gmail.com"
+        "emails": [
+          "myeczemalife@gmail.com"
+        ]
       }
     },
     {

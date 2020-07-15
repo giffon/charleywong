@@ -17,15 +17,24 @@
     {
       "url": "https://www.facebook.com/ZoltonShop/",
       "meta": {
-        "name": "Zolton Leather Accessories",
         "id": "349835522292339",
+        "username": "ZoltonShop",
+        "name": "Zolton Leather Accessories",
         "about": "男士真皮錢包, 卡片套, 旅行配飾, 商用銀包, 小型配飾。發掘香港本地設計時尚皮件, RFID 防盜, 只用上等皮革, 時尚經典並存。香港, 澳門, 台灣免運費。 支援個性化定製。",
-        "categories": [
-          "Accessories",
-          "Design & Fashion"
+        "category_list": [
+          {
+            "id": "185127444860544",
+            "name": "Accessories"
+          },
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          }
         ],
-        "email": "contact@zoltonshop.com",
-        "tel": "95414912"
+        "emails": [
+          "contact@zoltonshop.com"
+        ],
+        "website": "https://zoltonshop.com/"
       }
     }
   ],

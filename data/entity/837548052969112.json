@@ -6,15 +6,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "基隆茶餐廳",
         "id": "837548052969112",
+        "name": "基隆茶餐廳",
         "about": "基隆茶餐廳-界限街24號",
-        "categories": [
-          "Hong Kong Restaurant"
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
         ],
-        "addr": "九龍界限街24號 24 Boundary Street, Kowloon",
-        "area": "nil Hong Kong",
-        "tel": "23968971"
+        "single_line_address": "九龍界限街24號 24 Boundary Street, Kowloon, nil Hong Kong"
       },
       "url": "https://www.facebook.com/837548052969112/"
     }

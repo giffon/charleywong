@@ -7,15 +7,16 @@
     {
       "url": "https://www.facebook.com/471519256560225/",
       "meta": {
-        "name": "甜甜味",
         "id": "471519256560225",
+        "name": "甜甜味",
         "about": "用心意去做甜品，用味覺去感受，用行動去實踐，用時間去見證。",
-        "categories": [
-          "Dessert Shop"
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "土瓜灣馬頭角道51號C舖",
-        "area": "852 Hong Kong",
-        "tel": "63888453"
+        "single_line_address": "土瓜灣馬頭角道51號C舖, 852 Hong Kong"
       }
     }
   ],

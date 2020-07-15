@@ -11,15 +11,25 @@
     {
       "url": "https://www.facebook.com/sportslinehongkong/",
       "meta": {
-        "name": "Sportsline 運動前線",
         "id": "162280623830526",
+        "username": "sportslinehongkong",
+        "name": "Sportsline 運動前線",
         "about": "Professional Sports Support at http://www.sportsline.com.hk",
-        "categories": [
-          "Coach",
-          "Sporting Goods Store"
+        "category_list": [
+          {
+            "id": "1802",
+            "name": "Coach"
+          },
+          {
+            "id": "165823830131654",
+            "name": "Sporting Goods Store"
+          }
         ],
-        "email": "contactus@sportsline.com.hk",
-        "tel": "25302110"
+        "emails": [
+          "contactus@sportsline.com.hk"
+        ],
+        "single_line_address": "21/F, 102 Austin Road, Tsimshatsui, Kowloon, 00000 Hong Kong",
+        "website": "http://www.sportsline.com.hk"
       }
     },
     {

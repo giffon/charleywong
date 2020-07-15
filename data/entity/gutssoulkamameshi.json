@@ -6,15 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "釜之魂釜飯專門店",
         "id": "551851741914825",
+        "username": "gutssoulkamameshi",
+        "name": "釜之魂釜飯專門店",
         "about": "「釜之魂釜飯專門店」住處於九龍重點新興潮流商場，近二千呎全新簡約和風設計。本店引入日本傳統鍋飯為賣點，以專業，正宗的烹調方法為香港人帶來全新又地道的和食新體驗。",
-        "categories": [
-          "Japanese Restaurant"
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "addr": "九龍灣牛頭角道77號淘大期地下G286-288號舖",
-        "area": "Hong Kong",
-        "tel": "23666028"
+        "single_line_address": "九龍灣牛頭角道77號淘大期地下G286-288號舖, Hong Kong"
       },
       "url": "https://www.facebook.com/gutssoulkamameshi/"
     },

@@ -7,16 +7,27 @@
     {
       "url": "https://www.facebook.com/paperboat826/",
       "meta": {
-        "name": "PAPER BOAT",
         "id": "100928054622066",
+        "username": "paperboat826",
+        "name": "PAPER BOAT",
         "about": "親自飛往韓國入貨\n主要搜羅韓國 平。靚。正。童裝!!!!!!!!!!!! :)",
-        "categories": [
-          "Shopping & Retail",
-          "Baby Goods/Kids Goods",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2232",
+            "name": "Baby Goods/Kids Goods"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "paperboat826@gmail.com",
-        "tel": "98460786"
+        "emails": [
+          "paperboat826@gmail.com"
+        ]
       }
     },
     {

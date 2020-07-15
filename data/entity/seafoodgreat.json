@@ -6,14 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Seafood Great 海鮮批發及零售",
         "id": "104442463453566",
-        "about": "Seafood Great 為你提供一站式海鮮方案，讓你安坐家中，就享受到美味海鮮送到俯上。",
-        "categories": [
-          "Local Business"
+        "username": "seafoodgreat",
+        "name": "Seafood Great 海鮮批發及零售",
+        "about": "Seafood Great 網上海鮮平台，提供海鮮清洗及包裝服務，客人一打開包裝即時蒸煮，適合工作繁忙的香港人及困身的全職媽媽，辛勞一天後仍可在家跟家人朋友大吃一頓海鮮肥牛美食～！",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "email": "seafoodgreat@yahoo.com",
-        "tel": "61114713"
+        "emails": [
+          "seafoodgreat@yahoo.com"
+        ],
+        "single_line_address": "楊屋道街市地下22號 嬌姐海鮮 (中間旋轉樓梯底就見到), 荃灣",
+        "website": "www.seafoodgreatonline.com"
       },
       "url": "https://www.facebook.com/seafoodgreat/"
     },

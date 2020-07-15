@@ -7,13 +7,16 @@
     {
       "url": "https://www.facebook.com/1320506644730708/",
       "meta": {
-        "name": "HOMY CAFE",
         "id": "1320506644730708",
+        "name": "HOMY CAFE",
         "about": "Not just traditioal",
-        "categories": [
-          "Local Service"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "tel": "54086449"
+        "single_line_address": "上水新祥街21號地下, 香港"
       }
     },
     {

@@ -7,15 +7,27 @@
     {
       "url": "https://www.facebook.com/AnnieLeeDiet/",
       "meta": {
-        "name": "營養師 Annie Lee 李杏榆",
         "id": "165082456884433",
+        "username": "AnnieLeeDiet",
+        "name": "營養師 Annie Lee 李杏榆",
         "about": "家有三寶, 一囡和一對龍鳳胎\n於體檢中心任職營養師. \n撰寫多個健康專欄, 舉辦健康講座, 分享貼地的母嬰和育兒的經驗及營養資訊.",
-        "categories": [
-          "Public Figure",
-          "Nutritionist",
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          },
+          {
+            "id": "197995016883073",
+            "name": "Nutritionist"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "email": "annieleehy@gmail.com"
+        "emails": [
+          "annieleehy@gmail.com"
+        ]
       }
     },
     {

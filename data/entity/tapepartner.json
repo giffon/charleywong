@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/tapepartner/",
       "meta": {
-        "name": "Tape Partner",
         "id": "996333687115824",
+        "username": "tapepartner",
+        "name": "Tape Partner",
         "about": "24小時送貨服務",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "九龍新蒲崗",
-        "area": "000 Hong Kong",
-        "email": "info.tapepartner@gmail.com",
-        "tel": "96239227"
+        "emails": [
+          "info.tapepartner@gmail.com"
+        ],
+        "single_line_address": "九龍新蒲崗, 000 Hong Kong",
+        "website": "http://tapepartner.weebly.com"
       }
     },
     {

@@ -10,14 +10,20 @@
     },
     {
       "meta": {
-        "name": "裱｜Onestep Printing",
         "id": "114640246629211",
-        "about": "專業打印\n設計師主理 | 高科技印刷技術\n專業設計師幫助評估客人提供的圖片解像度，確保輸出最高質印刷產品。配合Canon最新印刷技術，印刷品擁有更廣色域、更佳光澤度，更具立體感。",
-        "categories": [
-          "Printing Service"
+        "username": "onestephongkong",
+        "name": "裱｜Onestep Printing",
+        "about": "專業打印\n設計師主理 | 高科技印刷技術\n專業設計師幫助評估客人提供的圖片解像度，確保輸出最高質印刷產品。配合Canon最新印刷技術，印刷品擁有更廣色域、更佳光澤度，更具立體感。\n",
+        "category_list": [
+          {
+            "id": "197888373555475",
+            "name": "Printing Service"
+          }
         ],
-        "email": "info@onestep.studio",
-        "tel": "70720785"
+        "emails": [
+          "info@onestep.studio"
+        ],
+        "website": "onestep.studio"
       },
       "url": "https://www.facebook.com/onestephongkong/"
     },

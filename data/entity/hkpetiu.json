@@ -7,13 +7,19 @@
     {
       "url": "https://www.facebook.com/hkpetiu/",
       "meta": {
-        "name": "香港寵物界工會",
         "id": "104651364374811",
+        "username": "hkpetiu",
+        "name": "香港寵物界工會",
         "about": "香港寵物界工會",
-        "categories": [
-          "Labor Union"
+        "category_list": [
+          {
+            "id": "192775991124365",
+            "name": "Labor Union"
+          }
         ],
-        "email": "hkpetiu@gmail.com"
+        "emails": [
+          "hkpetiu@gmail.com"
+        ]
       }
     }
   ],

@@ -10,16 +10,21 @@
     },
     {
       "meta": {
-        "name": "小房舍 Little Rooms by MG",
         "id": "522426461504634",
+        "username": "littleroomsbymg",
+        "name": "小房舍 Little Rooms by MG",
         "about": "由90後時鐘酒店 @mansionghotel 開設，位於銅鑼灣市中心的高私隱度小型Party Room。 人頭計兩位起，適合情侶、閨蜜、兄弟及朋友們一齊享受私人的休閒歡樂時光。",
-        "categories": [
-          "Party Entertainment Service"
+        "category_list": [
+          {
+            "id": "189334414420898",
+            "name": "Party Entertainment Service"
+          }
         ],
-        "addr": "銅鑼灣渣甸街人人大廈1樓",
-        "area": "Hong Kong",
-        "email": "littlerooms@mansiong.com",
-        "tel": "57078851"
+        "emails": [
+          "littlerooms@mansiong.com"
+        ],
+        "single_line_address": "銅鑼灣渣甸街人人大廈1樓, Hong Kong",
+        "website": "www.mansiong.com/littlerooms"
       },
       "url": "https://www.facebook.com/littleroomsbymg/"
     }

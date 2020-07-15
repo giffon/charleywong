@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/freshgardenjuice/",
       "meta": {
-        "name": "鮮樂園",
         "id": "2225737437524327",
+        "username": "freshgardenjuice",
+        "name": "鮮樂園",
         "about": "我們是鮮果飲品店，會以新鮮生果以慢磨方式給大家新鮮飲品體驗，令大家能在一般飲品市場下尋找到一種另類新鮮體驗",
-        "categories": [
-          "Smoothie & Juice Bar",
-          "Local Service"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          },
+          {
+            "id": "219222658110242",
+            "name": "Smoothie & Juice Bar"
+          }
         ],
-        "addr": "新界葵芳葵涌廣場地下A45A鋪",
-        "area": "Hong Kong",
-        "tel": "65530356"
+        "single_line_address": "新界葵芳葵涌廣場地下A45A鋪, Hong Kong"
       }
     }
   ],

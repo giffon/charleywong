@@ -10,15 +10,25 @@
     {
       "url": "https://www.facebook.com/191599775082540/",
       "meta": {
-        "name": "吃貨之家",
         "id": "191599775082540",
+        "name": "吃貨之家",
         "about": "吃貨之家\n只為愛吃的你提供優質食材及清酒\n歡迎查詢批發及零售",
-        "categories": [
-          "Product/Service",
-          "Food Delivery Service",
-          "Foodservice Distributor"
+        "category_list": [
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          },
+          {
+            "id": "200019523363001",
+            "name": "Foodservice Distributor"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "tel": "65149388"
+        "single_line_address": "Kowloon, Hong Kong",
+        "website": "https://weloveeating.boutir.com/"
       }
     },
     {

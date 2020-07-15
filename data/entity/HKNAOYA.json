@@ -9,16 +9,21 @@
     },
     {
       "meta": {
-        "name": "娜歐屋",
         "id": "501648459969975",
+        "username": "HKNAOYA",
+        "name": "娜歐屋",
         "about": "娜歐屋—\n日本動漫周邊專門店\n以個人化代購服務為主要業務\n坐擁龐大日本供應商網路\n兼營買取業務\n門市設於荔枝角",
-        "categories": [
-          "Hobby Store"
+        "category_list": [
+          {
+            "id": "1787166534852540",
+            "name": "Hobby Store"
+          }
         ],
-        "addr": "荔枝角香港工業中心C座2樓C1-D室",
-        "area": "999077 Hong Kong",
-        "email": "e-payment@hk-nao-ya.com",
-        "tel": "97681200"
+        "emails": [
+          "e-payment@hk-nao-ya.com"
+        ],
+        "single_line_address": "荔枝角香港工業中心C座2樓C1-D室, 999077 Hong Kong",
+        "website": "https://www.hknaoya.com/"
       },
       "url": "https://www.facebook.com/HKNAOYA/"
     },

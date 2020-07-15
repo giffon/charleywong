@@ -11,12 +11,17 @@
     {
       "url": "https://www.facebook.com/HGGCHK/",
       "meta": {
-        "name": "香港工匠 Heung Gong Goan Cheung",
         "id": "105059957750499",
+        "username": "HGGCHK",
+        "name": "香港工匠 Heung Gong Goan Cheung",
         "about": "本土同路人創辦，一個黃色本土工匠們發揮創意嘅市集",
-        "categories": [
-          "Arts & Crafts Store"
-        ]
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
+        ],
+        "website": "http://hggc.com.hk/"
       }
     },
     {

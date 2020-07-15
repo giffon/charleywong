@@ -6,15 +6,18 @@
   "webpages": [
     {
       "meta": {
-        "name": "大滾友火鍋-元朗店Big Boil's Club",
         "id": "382523968835715",
+        "username": "bigboilsclubYuenLong",
+        "name": "大滾友火鍋-元朗店Big Boil's Club",
         "about": "🤣花膠滾兩滾， 皇帝都企唔穩🤣\n香濃雞湯底用足料三黃雞,加上幾個時辰淆製而成,雞味極上濃郁,加埋花膠,骨膠原爆燈。",
-        "categories": [
-          "Hot Pot Restaurant"
+        "category_list": [
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          }
         ],
-        "addr": "元朗鳳攸南街9號好順利大廈地下4-5號鋪",
-        "area": "HK Hong Kong",
-        "tel": "36184885"
+        "single_line_address": "元朗鳳攸南街9號好順利大廈地下4-5號鋪, HK Hong Kong",
+        "website": "https://www.bigboilsclub.com/"
       },
       "url": "https://www.facebook.com/bigboilsclubYuenLong/"
     },

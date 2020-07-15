@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/ypastahk/",
       "meta": {
-        "name": "Y Pasta",
         "id": "104541196583815",
+        "username": "ypastahk",
+        "name": "Y Pasta",
         "about": "每天供應特色意大利麵，並有包場，到會服務",
-        "categories": [
-          "意大利餐廳"
+        "category_list": [
+          {
+            "id": "193831710644458",
+            "name": "Italian Restaurant"
+          }
         ],
-        "addr": "銅鑼灣駱克道459-461號 The L. Square 14樓",
-        "area": "852 銅鑼灣",
-        "tel": "53011818"
+        "single_line_address": "銅鑼灣駱克道459-461號 The L. Square 14樓, 852 Causeway Bay"
       }
     }
   ],

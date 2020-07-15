@@ -18,13 +18,20 @@
     {
       "url": "https://www.facebook.com/HKHIIAD/",
       "meta": {
-        "name": "香港大專學界國際事務代表團 Hong Kong IAD",
         "id": "107625880571519",
+        "username": "HKHIIAD",
+        "name": "香港大專學界國際事務代表團 Hong Kong IAD",
         "about": "此為香港大專學界國際事務代表團之官方Facebook專頁。\nThe page shall serve as the official Facebook page of Hong Kong Higher Institutions International Affairs Delegation.",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "hongkonghiiad@gmail.com"
+        "emails": [
+          "hongkonghiiad@gmail.com"
+        ],
+        "website": "https://hkhiiad.wordpress.com"
       }
     },
     {

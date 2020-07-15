@@ -8,14 +8,23 @@
     {
       "url": "https://www.facebook.com/chiwaioffice/",
       "meta": {
-        "name": "胡志偉 Wu Chi Wai",
         "id": "185934471445788",
-        "categories": [
-          "Politician",
-          "Public & Government Service"
+        "username": "chiwaioffice",
+        "name": "胡志偉 Wu Chi Wai",
+        "category_list": [
+          {
+            "id": "1700",
+            "name": "Politician"
+          },
+          {
+            "id": "147714868971098",
+            "name": "Public & Government Service"
+          }
         ],
-        "email": "chiwaioffice2016@gmail.com",
-        "tel": "23250763"
+        "emails": [
+          "chiwaioffice2016@gmail.com"
+        ],
+        "single_line_address": "Fu Shun House, Fu Shan Estate, Po Kong Village Road,, Wong Tai Sin, Hong Kong"
       }
     }
   ],

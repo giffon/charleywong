@@ -9,18 +9,29 @@
     },
     {
       "meta": {
-        "name": "Sally's Toy",
         "id": "187945857913839",
+        "username": "SallysToy",
+        "name": "Sally's Toy",
         "about": "Your Intimate Lifestyle Store\nsallystoy.com | youtube.com/sallystoy | \ninstagram.com/sallystoy",
-        "categories": [
-          "Shopping & Retail",
-          "Brand",
-          "Education"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          },
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "addr": "Room 302, 3rd Floor, Winning House, 14 Cochrane Street",
-        "area": "Hong Kong",
-        "email": "hello@sallystoy.com",
-        "tel": "31757408"
+        "emails": [
+          "hello@sallystoy.com"
+        ],
+        "single_line_address": "Room 302, 3rd Floor, Winning House, 14 Cochrane Street, Hong Kong",
+        "website": "http://www.sallystoy.com"
       },
       "url": "https://www.facebook.com/SallysToy/"
     },

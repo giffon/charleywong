@@ -8,15 +8,17 @@
     {
       "url": "https://www.facebook.com/DineInn2020/",
       "meta": {
-        "name": "開餐 Dine Inn",
         "id": "103903897905363",
-        "about": "良心餐廳",
-        "categories": [
-          "Restaurant"
+        "username": "DineInn2020",
+        "name": "開餐 Dine Inn",
+        "about": "良心餐廳\n",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "九龍佐敦白加士街19號地下\n黨鐵 c2 寶靈街出口",
-        "area": "Kowloon, Hong Kong",
-        "tel": "39968599"
+        "single_line_address": "九龍佐敦白加士街19號地下\n\n黨鐵 c2 寶靈街出口, Kowloon, Hong Kong"
       }
     },
     {

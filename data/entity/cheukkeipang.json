@@ -24,15 +24,24 @@
     {
       "url": "https://www.facebook.com/cheukkeipang/",
       "meta": {
-        "name": "彭卓棋 Michael Pang",
         "id": "107016567299612",
+        "username": "cheukkeipang",
+        "name": "彭卓棋 Michael Pang",
         "about": "2020-2023 南區區議員（赤柱及石澳）\n2020-2023 Southern DC Members (Stanley & Shek O)",
-        "categories": [
-          "Politician",
-          "Community"
+        "category_list": [
+          {
+            "id": "1700",
+            "name": "Politician"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "cheukkeipang.ss@gmail.com",
-        "tel": "67646892"
+        "emails": [
+          "cheukkeipang.ss@gmail.com"
+        ],
+        "website": "https://www.youtube.com/channel/UCgOX6vRbaWGZXos5PG3QiUA/featured"
       }
     }
   ],

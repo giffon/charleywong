@@ -15,14 +15,25 @@
     {
       "url": "https://www.facebook.com/duksik3d/",
       "meta": {
-        "name": "犢食 DukSik",
         "id": "102336388025163",
-        "about": "主打日式丼飯&湯咖哩(外賣自取)\n開11:30AM-07:00PM (MON-FRI)\nSAT & SUN 暫時唔開\n(+852)64661356\n有咩意見極歡迎隨時話比我地知\n\n觀塘巧明街105號好運工業大廈3樓D室",
-        "categories": [
-          "Restaurant"
+        "username": "duksik3d",
+        "name": "犢食 DukSik",
+        "about": "主打日式丼飯&湯咖哩(食物自取)\n開11:30AM-08:00PM (MON-FRI)\nSAT & SUN 暫時唔開\n(+852)64661356\n有咩意見極歡迎隨時話比我地知\n\n觀塘巧明街105號好運工業大廈3樓D室",
+        "category_list": [
+          {
+            "id": "1727285527537943",
+            "name": "Food Wholesaler"
+          },
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          }
         ],
-        "email": "duksik3d@gmail.com",
-        "tel": "64661356"
+        "emails": [
+          "duksik3d@gmail.com"
+        ],
+        "single_line_address": "Flat D, 3/F, GOOD LUCK INDUSTRIAL BUILDING, 105 HOW MING STREET, KWUN TONG, Hong Kong",
+        "website": "https://instagram.com/duksik3d"
       }
     }
   ],

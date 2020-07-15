@@ -13,13 +13,17 @@
     {
       "url": "https://www.facebook.com/guitarhippo/",
       "meta": {
-        "name": "GuitarHippo",
         "id": "1248804291798565",
+        "username": "guitarhippo",
+        "name": "GuitarHippo",
         "about": "一個唔甘心於停留於安全區嘅樂器導師。\n相信上帝創造音樂可以祝福更多嘅人。",
-        "categories": [
-          "Musician/Band"
+        "category_list": [
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "tel": "57908689"
+        "website": "https://www.instagram.com/guitarhippo.hk/?hl=zh-hk"
       }
     }
   ],

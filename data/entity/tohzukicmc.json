@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/tohzukicmc/",
       "meta": {
-        "name": "東月中醫醫務所 Tohzuki Chinese Medicine Clinic",
         "id": "410907259255206",
+        "username": "tohzukicmc",
+        "name": "東月中醫醫務所 Tohzuki Chinese Medicine Clinic",
         "about": "港鐵黃埔站B出口沿德民街直行2分鐘即達\n巴士站：觀音街（30X, 6C, 6F, 2E等）德民街（30X, A21等）\n應診語言Language：廣東話、普通話、English、日本語",
-        "categories": [
-          "Medical Center"
+        "category_list": [
+          {
+            "id": "228143393877753",
+            "name": "Medical Center"
+          }
         ],
-        "addr": "蕪湖街53-59號金輝行14樓2室",
-        "area": "九龍 Hung Hom",
-        "email": "tohzukicmc@gmail.com",
-        "tel": "23337451"
+        "emails": [
+          "tohzukicmc@gmail.com"
+        ],
+        "single_line_address": "蕪湖街53-59號金輝行14樓2室, 九龍 Hung Hom",
+        "website": "https://tohzukicmc.localinfo.jp/"
       }
     },
     {

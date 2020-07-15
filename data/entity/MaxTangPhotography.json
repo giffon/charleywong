@@ -7,14 +7,19 @@
     {
       "url": "https://www.facebook.com/MaxTangPhotography/",
       "meta": {
-        "name": "MaxTang Photography",
         "id": "733029283449008",
-        "about": "一下快門，把一剎那時光留下；\n一張照片，把歡樂分享給世界。\n\n而我\n是一個看到人們喜歡我作品就滿足的攝影師。",
-        "categories": [
-          "Photographer"
+        "username": "MaxTangPhotography",
+        "name": "MaxTang Photography",
+        "about": "一下快門，把一剎那時光留下；\n一張照片，把歡樂分享給世界。\n\n而我\n是一個看到人們喜歡我作品就滿足的攝影師。\n",
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "maxtangphotography@gmail.com",
-        "tel": "95515102"
+        "emails": [
+          "maxtangphotography@gmail.com"
+        ]
       }
     },
     {

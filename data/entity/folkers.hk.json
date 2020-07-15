@@ -9,13 +9,20 @@
     },
     {
       "meta": {
-        "name": "Folkers",
         "id": "303949933303357",
+        "username": "folkers.hk",
+        "name": "Folkers",
         "about": "Folkers成立於炎夏，一個為喜愛民族服飾的人而設立的品牌，我們的團隊一直堅持每件貨品都親自挑選，踏上異國的路尋找一件又一件的寶物，曾深入印度的大街小巷、又曾到訪泰北的手工",
-        "categories": [
-          "Personal Blog"
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "folkershk@gmail.com"
+        "emails": [
+          "folkershk@gmail.com"
+        ],
+        "website": "https://www.folkers.hk/"
       },
       "url": "https://www.facebook.com/folkers.hk/"
     },

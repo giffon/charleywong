@@ -8,15 +8,24 @@
     {
       "url": "https://www.facebook.com/yokwokmanho/",
       "meta": {
-        "name": "郭文浩 Kwok Man Ho",
         "id": "1239012699557671",
+        "username": "yokwokmanho",
+        "name": "郭文浩 Kwok Man Ho",
         "about": "郭文浩 Yo\n·\n艱苦都也不可以馬虎。\n  \n-註冊社工｜社區幹事-\n￣￣￣￣￣￣￣￣￣￣￣￣\n#天晴邨 #慧景軒 #晴景\n#天水圍 #為晴景做盡  #改變由街坊參與開始",
-        "categories": [
-          "Community Service",
-          "Political Organization"
+        "category_list": [
+          {
+            "id": "170968163319233",
+            "name": "Community Service"
+          },
+          {
+            "id": "373543049350668",
+            "name": "Political Organization"
+          }
         ],
-        "email": "kwokmanho1225@gmail.com",
-        "tel": "93659989"
+        "emails": [
+          "kwokmanho1225@gmail.com"
+        ],
+        "single_line_address": "天晴邨慧景軒"
       }
     }
   ],

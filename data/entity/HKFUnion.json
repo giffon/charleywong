@@ -11,14 +11,24 @@
     {
       "url": "https://www.facebook.com/HKFUnion/",
       "meta": {
-        "name": "香港金融業職工總會 Hong Kong Financial Industry Employees General Union",
         "id": "107457800635080",
+        "username": "HKFUnion",
+        "name": "香港金融業職工總會 Hong Kong Financial Industry Employees General Union",
         "about": "本會謀求廣納長期在香港居住，並從事於金融行業者加入本會。以促進香港金融業穩健發展，並以專業知識及其操守，共同捍衛香港社會核心價值。",
-        "categories": [
-          "Labor Union",
-          "Financial Service"
+        "category_list": [
+          {
+            "id": "192775991124365",
+            "name": "Labor Union"
+          },
+          {
+            "id": "161516070564222",
+            "name": "Financial Service"
+          }
         ],
-        "email": "info@hkfu.org.hk"
+        "emails": [
+          "info@hkfu.org.hk"
+        ],
+        "website": "https://hkfu.org.hk/"
       }
     },
     {

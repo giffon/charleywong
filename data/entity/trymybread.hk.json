@@ -7,15 +7,18 @@
     {
       "url": "https://www.facebook.com/trymybread.hk/",
       "meta": {
-        "name": "Try my Bread",
         "id": "101042817983508",
+        "username": "trymybread.hk",
+        "name": "Try my Bread",
         "about": "正宗越南法包 風靡全球的滑蛋吐司 小食 越南滴滴咖啡 特色飲品\n由於餐牌不斷改良中，均以店舖內為準。\n\n所有食品即叫即做，製作需時請耐心等待。\n歡迎致電或whatsapp預訂或查詢。",
-        "categories": [
-          "Fast Food Restaurant"
+        "category_list": [
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          }
         ],
-        "addr": "深水埗營盤街138A地下",
-        "area": "000000 Hong Kong",
-        "tel": "98165211"
+        "single_line_address": "深水埗營盤街138A地下, 000000 Hong Kong",
+        "website": "http://www.instagram.com/trymybread"
       }
     },
     {

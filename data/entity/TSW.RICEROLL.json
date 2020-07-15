@@ -7,13 +7,21 @@
     {
       "url": "https://www.facebook.com/TSW.RICEROLL/",
       "meta": {
-        "name": "天水圍萬有粉麵",
         "id": "111452546991336",
-        "about": "$2蚊 1 條腸粉，要每個人都唔會餓親。",
-        "categories": [
-          "Product/Service",
-          "Food Stand"
-        ]
+        "username": "TSW.RICEROLL",
+        "name": "天水圍萬有粉麵",
+        "about": "地址：天水圍天澤邨商場地下天澤街市TC7號鋪萬有粉麵",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          }
+        ],
+        "single_line_address": "天水圍天澤邨商場地下天澤街市TC7號鋪萬有粉麵, Hong Kong"
       }
     }
   ],

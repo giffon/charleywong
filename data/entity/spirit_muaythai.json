@@ -10,18 +10,28 @@
     },
     {
       "meta": {
-        "name": "Spirit Muay Thai & Fitness",
         "id": "220854964608795",
+        "name": "Spirit Muay Thai & Fitness",
         "about": "-本會鄰近尖沙咀地鐵站,b2出口直行2分鐘即到達\n-本中心絕無任何入會費,絕無推銷簽約\n-泰籍/男/女/教練駐場教授\n-設有泰拳或FITNESS CLASS 團體班/女子泰拳或FITNESS CLASS團體班/私人教練班\n-場地整",
-        "categories": [
-          "Boxing Studio",
-          "Gym/Physical Fitness Center",
-          "Fitness Boot Camp"
+        "category_list": [
+          {
+            "id": "1639776363011106",
+            "name": "Boxing Studio"
+          },
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          },
+          {
+            "id": "999176653484307",
+            "name": "Fitness Boot Camp"
+          }
         ],
-        "addr": "金馬倫道30-32號金馬商業大廈15樓1502室",
-        "area": "Tsim Sha Tsui",
-        "email": "spirit.muaythai.fitness@gmail.com",
-        "tel": "67481010"
+        "emails": [
+          "spirit.muaythai.fitness@gmail.com"
+        ],
+        "single_line_address": "金馬倫道30-32號金馬商業大廈15樓1502室, Tsim Sha Tsui",
+        "website": "https://www.spirit-ki.com.hk/"
       },
       "url": "https://www.facebook.com/220854964608795/"
     },

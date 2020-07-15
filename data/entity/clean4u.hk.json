@@ -8,16 +8,19 @@
     {
       "url": "https://www.facebook.com/151636721513779/",
       "meta": {
-        "name": "時代空間消毒 Clean For You",
         "id": "151636721513779",
+        "name": "時代空間消毒 Clean For You",
         "about": "時代空間消毒 (Clean For You) 以醫院級消毒劑配合ULV冷霧技術，提供空間消毒服務。",
-        "categories": [
-          "Cleaning Service"
+        "category_list": [
+          {
+            "id": "186564191378474",
+            "name": "Cleaning Service"
+          }
         ],
-        "addr": "Nathan Road",
-        "area": "Hong Kong",
-        "email": "clean4u.hk@gmail.com",
-        "tel": "90886359"
+        "emails": [
+          "clean4u.hk@gmail.com"
+        ],
+        "single_line_address": "Nathan Road, Hong Kong"
       }
     },
     {

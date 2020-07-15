@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/citypulsehk/",
       "meta": {
-        "name": "CityPulse",
         "id": "183397208674705",
+        "username": "citypulsehk",
+        "name": "CityPulse",
         "about": "香港本地服裝品牌、潮牌、潮鞋\n連續四年「正版正貨」商戶，編號2722",
-        "categories": [
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "email": "info@citypulsehk.com",
-        "tel": "97933787"
+        "emails": [
+          "info@citypulsehk.com"
+        ],
+        "website": "www.citypulsehk.com"
       }
     }
   ],

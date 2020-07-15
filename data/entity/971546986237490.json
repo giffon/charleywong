@@ -8,18 +8,27 @@
     {
       "url": "https://www.facebook.com/971546986237490/",
       "meta": {
-        "name": "Manna 。 嗎哪",
         "id": "971546986237490",
+        "name": "Manna 。 嗎哪",
         "about": "我們相信, 要行出基督信仰, 需要互相支持, 一同成長, 將大家在耶穌內的經歷, 互相勸勉。",
-        "categories": [
-          "Diner",
-          "Nonprofit Organization",
-          "Community"
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "addr": "觀塘翠屏道11號1樓 (觀潮浸信會內)",
-        "area": "0852 Hong Kong",
-        "email": "mannakwuntong@gmail.com",
-        "tel": "65233217"
+        "emails": [
+          "mannakwuntong@gmail.com"
+        ],
+        "single_line_address": "觀塘翠屏道11號1樓 (觀潮浸信會內), 0852 Hong Kong"
       }
     }
   ],

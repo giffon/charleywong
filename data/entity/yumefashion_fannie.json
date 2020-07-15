@@ -7,17 +7,23 @@
     {
       "url": "https://www.facebook.com/202475926484489/",
       "meta": {
-        "name": "YUME FASHION",
         "id": "202475926484489",
+        "name": "YUME FASHION",
         "about": "香港品牌，訂造及租用晚裝",
-        "categories": [
-          "Clothing Store",
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "addr": "健全街10-14號, 萬利工業大廈1410A",
-        "area": "Hong Kong",
-        "email": "yumefashion@yahoo.com.hk",
-        "tel": "34275575"
+        "emails": [
+          "yumefashion@yahoo.com.hk"
+        ],
+        "single_line_address": "健全街10-14號, 萬利工業大廈1410A, Hong Kong"
       }
     },
     {

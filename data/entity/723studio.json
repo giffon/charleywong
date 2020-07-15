@@ -6,15 +6,29 @@
   "webpages": [
     {
       "meta": {
+        "id": "279274449095537",
+        "username": "723studio",
+        "name": "723 Studio Limited",
         "about": "We’re a tiny design studio in HK 🇭🇰 striving to create functional, sustainable, and delightful objects...",
-        "categories": [
-          "Art",
-          "Graphic designer",
-          "Designer"
+        "category_list": [
+          {
+            "id": "162183907165552",
+            "name": "Graphic Designer"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "1615",
+            "name": "Designer"
+          }
         ],
-        "email": "info@723studio.com",
-        "tel": "24168688",
-        "id": "279274449095537"
+        "emails": [
+          "info@723studio.com"
+        ],
+        "single_line_address": "Room 723, 7/F,  Kam Hon Industrial Building, 8 Wang Kwun Road, Kowloon Bay, Hong Kong",
+        "website": "http://www.723studio.com"
       },
       "url": "https://www.facebook.com/723studio/"
     }

@@ -24,15 +24,29 @@
     {
       "url": "https://www.facebook.com/mousefx/",
       "meta": {
-        "name": "Mousefx",
         "id": "1582286768679906",
-        "about": "廣東話雷鬼歌手阿鼠 / 香港雷鬼流動聲音系統 Mousefx (阿鼠流動音效) 的專頁",
-        "categories": [
-          "Orchestra",
-          "Music Production Studio",
-          "Arts & Entertainment"
+        "username": "mousefx",
+        "name": "Mousefx",
+        "about": "廣東話雷鬼歌手阿鼠 / 香港雷鬼流動聲音系統 Mousefx (阿鼠流動音效) 的專頁\n",
+        "category_list": [
+          {
+            "id": "103436486409265",
+            "name": "Orchestra"
+          },
+          {
+            "id": "189483194405517",
+            "name": "Music Production Studio"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "email": "mousefxhk@gmail.com"
+        "emails": [
+          "mousefxhk@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://youtube.com/mousefxreggae"
       }
     },
     {

@@ -17,16 +17,21 @@
     {
       "url": "https://www.facebook.com/PartyLoftHK/",
       "meta": {
-        "name": "Party Loft",
         "id": "1379249965707834",
-        "about": "Party Loft 房間設備全面升級，PSVR讓你有全新打機玩法，超過120吋專業級投影播放！打機睇片玩大電視都係咁爽！多種娛樂設施一次過玩哂！想有一個爽爆既派對體驗？請即Whatsapp 5115 8165!",
-        "categories": [
-          "Party Entertainment Service"
+        "username": "PartyLoftHK",
+        "name": "Party Loft",
+        "about": "Party Loft 房間設備全面升級，PSVR讓你有全新打機玩法，超過120吋專業級投影播放！打機睇片玩大電視都係咁爽！多種娛樂設施一次過玩哂！想有一個爽爆既派對體驗？請即Whatsapp 5115 8165! ",
+        "category_list": [
+          {
+            "id": "189334414420898",
+            "name": "Party Entertainment Service"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong",
-        "email": "partylofthk@gmail.com",
-        "tel": "51158165"
+        "emails": [
+          "partylofthk@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://www.partyloft.com.hk"
       }
     }
   ],

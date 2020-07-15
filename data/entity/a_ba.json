@@ -10,14 +10,23 @@
     {
       "url": "https://www.facebook.com/SomePortrait/",
       "meta": {
-        "name": "Some Portrait",
         "id": "282975668787552",
+        "username": "SomePortrait",
+        "name": "Some Portrait",
         "about": "If you Love what you do it'll be worth every minute you spend alone at night, thinking and thinking about what it is you want to do or build.",
-        "categories": [
-          "Artist",
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "email": "someportrait@gmail.com"
+        "emails": [
+          "someportrait@gmail.com"
+        ]
       }
     },
     {

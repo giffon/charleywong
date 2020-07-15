@@ -8,16 +8,19 @@
     {
       "url": "https://www.facebook.com/soapinhk/",
       "meta": {
-        "name": "香港製皂",
         "id": "1410764505637775",
+        "username": "soapinhk",
+        "name": "香港製皂",
         "about": "以保護肌膚，無負擔為前提，還原最自然、樸實、平凡、簡單的生活。\n用食品級的原料，再加入各種特別元素入皂，將新鮮和功效帶給幼嫩的肌膚，拒絕再受化學物質和添加劑以及香精的污染",
-        "categories": [
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "addr": "觀塘成業街18號新怡生工業大廈6樓6B17室 <<觀塘地鐵B1 出口 (步行5分鐘即可到達)>> https://goo.gl/maps/NbHkGahdpBG2",
-        "area": "000000 Kwun Tong",
-        "email": "hksoapcs@gmail.com",
-        "tel": "64199086"
+        "emails": [
+          "hksoapcs@gmail.com"
+        ]
       }
     },
     {

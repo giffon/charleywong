@@ -6,15 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "興華茶餐廳",
         "id": "110274880540317",
+        "username": "hingwahrestaurant",
+        "name": "興華茶餐廳",
         "about": "本店地址為 柴灣興華二村15樓和興樓203-204號（OK隔離）\n如對本店有任何疑問或對食物有任何意見可私聊這個帳號！緊記逢星期三休息，唔好摸門釘！",
-        "categories": [
-          "Hong Kong Restaurant"
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
         ],
-        "addr": "興華村二期和興樓203-204室",
-        "area": "852 Hong Kong",
-        "tel": "25576129"
+        "single_line_address": "興華村二期和興樓203-204室, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/hingwahrestaurant/"
     }

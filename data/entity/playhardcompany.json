@@ -13,17 +13,21 @@
     },
     {
       "meta": {
-        "name": "PLAYHARD Store HK 手機用品生活雜貨店",
         "id": "1464809037083191",
-        "about": "PLAYHARD 用心為你揀最好玩,新奇,高品質的產品! 價錢或其他查詢•請whatsapp +852 97701118 門市地址：1.炮台山英皇道121號七海商場地下G42A舖",
-        "categories": [
-          "Shopping & Retail",
-          "Computer Company"
+        "username": "playhardcompany",
+        "name": "PLAYHARD Store HK 手機用品生活雜貨店",
+        "about": "PLAYHARD 用心為你揀最好玩,新奇,高品質的產品! 價錢或其他查詢•請whatsapp +852 97701118 門市地址：1.炮台山英皇道121號七海商場地下G42A舖\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "G42A, 7 Sea Shopping centre, 121 King's road, Fortress Hill, H.K.",
-        "area": "Hong Kong",
-        "email": "playhardcompany@gmail.com",
-        "tel": "35794889"
+        "emails": [
+          "playhardcompany@gmail.com"
+        ],
+        "single_line_address": "G42A, 7 Sea Shopping centre, 121 King's road, Fortress Hill, H.K., Hong Kong",
+        "website": "http://www.instagram.com/playhardcompany"
       },
       "url": "https://www.facebook.com/playhardcompany/"
     }

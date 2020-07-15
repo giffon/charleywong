@@ -10,34 +10,53 @@
     {
       "url": "https://www.facebook.com/foodmonsterhk/",
       "meta": {
-        "name": "Food Monster 美食速遞",
         "id": "477069268971481",
+        "username": "foodmonsterhk",
+        "name": "Food Monster 美食速遞",
         "about": "Food Monster 開店於2012年，現位於荔枝角憶利工業中心，鄰近荔枝角地鐵站(2分鐘步行路程)。 我們致力為越來越懂得享受生活的香港人搜羅各國環球美食, 生蠔海鮮，優質肉類及美酒佳餚。",
-        "categories": [
-          "Food Delivery Service",
-          "Grocery Store"
+        "category_list": [
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          },
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          }
         ],
-        "addr": "長沙灣道883號億利工業中心1樓13B",
-        "area": "852 Hong Kong",
-        "email": "info@foodmonster.com.hk",
-        "tel": "25439998"
+        "emails": [
+          "info@foodmonster.com.hk"
+        ],
+        "single_line_address": "長沙灣道883號億利工業中心1樓13B, 852 Hong Kong",
+        "website": "http://www.foodmonster.com.hk"
       }
     },
     {
       "url": "https://www.facebook.com/Monsterclubhk/",
       "meta": {
-        "name": "Monster Club 派對廚房",
         "id": "623156257873411",
+        "username": "Monsterclubhk",
+        "name": "Monster Club 派對廚房",
         "about": "Monster Club派對廚房以「廚房」作主題之Partyroom提供最先進同完善廚房設備 可係朋友面前大顯身手同時亦提供派對玩樂設施 如唱k、打機、打牌! 場地亦相當受各傳媒歡迎作拍攝場地及興趣班用途",
-        "categories": [
-          "Party Entertainment Service",
-          "Event Planner",
-          "Food & Beverage"
+        "category_list": [
+          {
+            "id": "189334414420898",
+            "name": "Party Entertainment Service"
+          },
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          },
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          }
         ],
-        "addr": "長沙灣道883號億利工業中心1樓13B",
-        "area": "Hong Kong",
-        "email": "info@foodmonster.com.hk",
-        "tel": "25439998"
+        "emails": [
+          "info@foodmonster.com.hk"
+        ],
+        "single_line_address": "長沙灣道883號億利工業中心1樓13B, Hong Kong",
+        "website": "http://www.foodmonster.com.hk/"
       }
     },
     {

@@ -7,17 +7,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "Journalize 文簿具社",
         "id": "532955353471655",
+        "username": "journalize",
+        "name": "Journalize 文簿具社",
         "about": "Relax yourself here.",
-        "categories": [
-          "Gift Shop",
-          "Cultural Gifts Store"
+        "category_list": [
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          },
+          {
+            "id": "180816211956170",
+            "name": "Cultural Gifts Store"
+          }
         ],
-        "addr": "銅鑼灣摩頓臺灣景樓6A地舖 (中央圖書館側)",
-        "area": "Hong Kong",
-        "email": "info@journalize.hk",
-        "tel": "35656455"
+        "emails": [
+          "info@journalize.hk"
+        ],
+        "single_line_address": "銅鑼灣摩頓臺灣景樓6A地舖 (中央圖書館側), Hong Kong",
+        "website": "https://journalize.hk"
       },
       "url": "https://www.facebook.com/journalize/"
     },

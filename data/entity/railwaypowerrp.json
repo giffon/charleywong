@@ -11,14 +11,21 @@
     {
       "url": "https://www.facebook.com/railwaypowerrp/",
       "meta": {
-        "name": "港鐵新動力 Railway Power",
         "id": "111222303588661",
+        "username": "railwaypowerrp",
+        "name": "港鐵新動力 Railway Power",
         "about": "這個工會是由不同線不同部門的同事所組成\n目的係為員工爭取應有的權利和福利\n免被公司剝削",
-        "categories": [
-          "Labor Union"
+        "category_list": [
+          {
+            "id": "192775991124365",
+            "name": "Labor Union"
+          }
         ],
-        "email": "railwaypowerrp@gmail.com",
-        "tel": "96357603"
+        "emails": [
+          "railwaypowerrp@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://forms.gle/KghN4EojQ9bBb6d39"
       }
     }
   ],

@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "ODY Handemade Jewellery & Metal Workshop",
         "id": "828491347175703",
-        "about": "Handmade.全人手製造\n利用傳統打金技術\nTraditional Metalsmithing\n黃銅Brass/銀Silver/金Gold\nMinimal.簡約\nOrder to make.訂造\nWorkshop.工作坊\n為你親手製造屬於你的首飾\nWorkshop by Appointment Only",
-        "categories": [
-          "Jewelry & Watches Store",
-          "Product/Service"
+        "username": "OdyTheOfficial",
+        "name": "ODY Handemade Jewellery & Metal Workshop",
+        "about": "Handmade.全人手製造\n利用傳統打金技術\nTraditional Metalsmithing\n黃銅Brass/銀Silver/金Gold\nJewellery Shop.珠寶店\nOrder to make.訂造\nWorkshop.工作坊\n為你親手製造屬於你的首飾\nWorkshop by Appointment Only",
+        "category_list": [
+          {
+            "id": "188031587886173",
+            "name": "Jewelry & Watches Store"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "Kowloon Bay Industrial Centre, 15 Wang Hoi Road",
-        "area": "Hong Kong Kowloon Bay, Hong Kong",
-        "email": "info.ody@gmail.com",
-        "tel": "62067356"
+        "emails": [
+          "info.ody@gmail.com"
+        ],
+        "single_line_address": "Kowloon Bay Industrial Centre, 15 Wang Hoi Road, Hong Kong Kowloon Bay, Hong Kong",
+        "website": "http://www.odytheofficial.com"
       },
       "url": "https://www.facebook.com/OdyTheOfficial/"
     },

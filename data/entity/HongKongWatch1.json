@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/HongKongWatch1/",
       "meta": {
-        "name": "Hong Kong Watch",
         "id": "1457138397739962",
+        "username": "HongKongWatch1",
+        "name": "Hong Kong Watch",
         "about": "Hong Kong Watch is a London-based human rights organisation which investigates the status of human rights, freedoms and rule of law in Hong Kong",
-        "categories": [
-          "Non-Governmental Organization (NGO)"
-        ]
+        "category_list": [
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          }
+        ],
+        "website": "www.hongkongwatch.org"
       }
     },
     {

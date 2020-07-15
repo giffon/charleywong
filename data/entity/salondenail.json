@@ -14,15 +14,24 @@
     {
       "url": "https://www.facebook.com/salondenail/",
       "meta": {
-        "name": "Salon De Nail/ Eye Catching /化妝/孕睫毛/飄眉/霧眉/粉黛眉/眉粉眉/美容/半永久化妝 /植睫毛",
         "id": "165899563532283",
-        "about": "美甲師簡介:\nVeronica\tHung(10年經驗, 曾於英國知名美甲品牌Nails Inc. London及香港Nail Nail擔任美甲師) 和 紋繡師\nTing ting (8年美甲及植睫毛 經驗）",
-        "categories": [
-          "Nail Salon",
-          "Hair Salon",
-          "Makeup Artist"
-        ],
-        "tel": "26216299"
+        "username": "salondenail",
+        "name": "Salon De Nail/ Eye Catching /化妝/孕睫毛/飄眉/霧眉/粉黛眉/眉粉眉/美容/半永久化妝 /植睫毛",
+        "about": "美甲師簡介:\nVeronica\tHung(10年經驗, 曾於英國知名美甲品牌Nails Inc. London及香港Nail Nail擔任美甲師) 和 紋繡師\nTing ting (8年美甲及植睫毛 經驗）\n",
+        "category_list": [
+          {
+            "id": "198516863494646",
+            "name": "Nail Salon"
+          },
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          },
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
+        ]
       }
     }
   ],

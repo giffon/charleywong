@@ -7,14 +7,26 @@
   "webpages": [
     {
       "meta": {
+        "id": "214873735366040",
+        "username": "restarthk",
+        "name": "Re start 綠活百貨",
         "about": "香港本地品牌，提供手製及搜羅自外國的天然／有機產品，主售生活日常消耗品，宗旨「肌膚無傷害．動物無傷害．環境無傷害」。成分經過嚴格挑選，不加防腐，所以絕大部分新鮮製造。",
-        "categories": [
-          "Retail company",
-          "Health & wellness website",
-          "Pet supplies"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "2707",
+            "name": "Health & Wellness Website"
+          },
+          {
+            "id": "2230",
+            "name": "Pet Supplies"
+          }
         ],
-        "email": "restarthk@gmail.com",
-        "id": "214873735366040"
+        "single_line_address": "Hong Kong",
+        "website": "http://www.everydayrestart.com"
       },
       "url": "https://www.facebook.com/restarthk/"
     }

@@ -15,13 +15,15 @@
     {
       "url": "https://www.facebook.com/1991104210961666/",
       "meta": {
-        "name": "Videos",
         "id": "1991104210961666",
-        "categories": [
-          "Bookstore"
+        "name": "見山書店",
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
         ],
-        "addr": "太平山街6號",
-        "area": "Hong Kong"
+        "single_line_address": "太平山街6號, Hong Kong"
       }
     }
   ],

@@ -18,28 +18,39 @@
     {
       "url": "https://www.facebook.com/photobi.hk/",
       "meta": {
-        "name": "Photobi.hk 弘大證件相拍攝工作室 - 香港店",
         "id": "257704284971681",
+        "username": "photobi.hk",
+        "name": "Photobi.hk 弘大證件相拍攝工作室 - 香港店",
         "about": "首爾弘大 Studio Photobi 證件相拍攝工作室(香港店)\n提供各種人像拍攝服務，包括韓式證件相、專業造型照、家庭相、空姐相、全身相、團體合照及專業履歷相片等等",
-        "categories": [
-          "Photographer",
-          "Art"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "email": "photobistudio.hk@gmail.com",
-        "tel": "96653223"
+        "emails": [
+          "photobistudio.hk@gmail.com"
+        ],
+        "website": "https://photobi.hk"
       }
     },
     {
       "url": "https://www.facebook.com/PhotobiKwunTong/",
       "meta": {
-        "name": "Photobi.hk 弘大證件相拍攝工作室 - 香港店 (Photobi HK 韓式證件相拍攝工作室 - 觀塘店)",
         "id": "582311582282371",
-        "categories": [
-          "Photography Videography"
+        "username": "PhotobiKwunTong",
+        "name": "Photobi.hk 弘大證件相拍攝工作室 - 香港店",
+        "category_list": [
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          }
         ],
-        "addr": "觀塘開源道62號駱駝漆大廈2座12樓A7室",
-        "area": "Hong Kong",
-        "tel": "96653223"
+        "single_line_address": "觀塘開源道62號駱駝漆大廈2座12樓A7室, Hong Kong"
       },
       "hidden": true
     }

@@ -8,33 +8,46 @@
     {
       "url": "https://www.facebook.com/cooklikeme.hk/",
       "meta": {
-        "name": "輕鬆煮 Cook Like Me",
         "id": "109978390654602",
+        "username": "cooklikeme.hk",
+        "name": "輕鬆煮 Cook Like Me",
         "about": "輕鬆煮 懶媽的宗旨唔係唔煮~ 係要輕輕鬆鬆咁煮~ 為你帶來全球易煮又好味的食物,在家扮大廚完全無難度! 一齊Cook Like Me~ As lazy as possible~",
-        "categories": [
-          "Food Delivery Service",
-          "Retail Company",
-          "Kitchen/Cooking"
+        "category_list": [
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          }
         ],
-        "addr": "Shop 4, LG/F, Smithfield Walk, 45-51 Smithfield Road, Kennedy Town, Hong Kong",
-        "area": "Hong Kong",
-        "email": "cooklikeme.hk@gmail.com",
-        "tel": "59925767"
+        "emails": [
+          "cooklikeme.hk@gmail.com"
+        ],
+        "single_line_address": "Shop 4, LG/F, Smithfield Walk, 45-51 Smithfield Road, Kennedy Town, Hong Kong, Hong Kong",
+        "website": "fb.me/cooklikeme.hk"
       }
     },
     {
       "url": "https://www.facebook.com/simplecook.cooklikeme/",
       "meta": {
-        "name": "輕鬆煮 堅尼地城店",
         "id": "118758825508841",
+        "username": "simplecook.cooklikeme",
+        "name": "輕鬆煮 堅尼地城店",
         "about": "滿$500包送上門（住宅、商廈都可以），$500以下收$70運費\n煮回家有多款預先煮好的食材，讓你在家輕鬆做大廚！",
-        "categories": [
-          "Food Delivery Service"
+        "category_list": [
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          }
         ],
-        "addr": "Shop 4, LG/F, Smithfield Walk, 45-51 Smithfield Road, Kennedy Town, Hong Kong",
-        "area": "Hong Kong",
-        "email": "cooklikeme.hk@gmail.com",
-        "tel": "59925767"
+        "single_line_address": "Shop 4, LG/F, Smithfield Walk, 45-51 Smithfield Road, Kennedy Town, Hong Kong, Hong Kong",
+        "website": "fb.me/cooklikeme.hk"
       }
     },
     {

@@ -11,18 +11,29 @@
     {
       "url": "https://www.facebook.com/pianoinn/",
       "meta": {
-        "name": "Piano Inn 琴棧 - 鋼琴調音及維修",
         "id": "510787679120529",
+        "username": "pianoinn",
+        "name": "Piano Inn 琴棧 - 鋼琴調音及維修",
         "about": "如有任何關於鋼琴調音、維修、翻新，買賣和搬運的查詢，請致電+852 66144630 王先生",
-        "categories": [
-          "Musical Instrument Store",
-          "Music Lessons & Instruction School",
-          "Brand"
+        "category_list": [
+          {
+            "id": "139750396088115",
+            "name": "Musical Instrument Store"
+          },
+          {
+            "id": "186983191324114",
+            "name": "Music Lessons & Instruction School"
+          },
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong",
-        "email": "sunwong@pianoinn.com",
-        "tel": "66144630"
+        "emails": [
+          "sunwong@pianoinn.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://pianoinn.com/"
       }
     },
     {

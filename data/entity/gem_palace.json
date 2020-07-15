@@ -14,14 +14,20 @@
     {
       "url": "https://www.facebook.com/103394724571569/",
       "meta": {
-        "name": "Gem_palace",
         "id": "103394724571569",
+        "name": "Gem_palace",
         "about": "願水晶繼續為你帶來最好的能量、希望、和信念。",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "evakwong606@gmail.com",
-        "tel": "63120526"
+        "emails": [
+          "evakwong606@gmail.com"
+        ],
+        "single_line_address": "九龍觀塘開源道62號駱駝漆大廈一期11樓AB1139室, Hong Kong",
+        "website": "https://instagram.com/gem_palace?igshid=jhibra79xnr"
       }
     }
   ],

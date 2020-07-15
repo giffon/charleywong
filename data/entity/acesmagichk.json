@@ -6,15 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Ace's Magic",
         "id": "972683332758750",
+        "username": "acesmagichk",
+        "name": "Ace's Magic",
         "about": "現在不需要魔術。幫手支援黃色經濟圈就好了",
-        "categories": [
-          "Performing Arts",
-          "Magician",
-          "Retail Company"
-        ],
-        "tel": "66018434"
+        "category_list": [
+          {
+            "id": "1758092431143387",
+            "name": "Performing Arts"
+          },
+          {
+            "id": "1028050117278980",
+            "name": "Magician"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
+        ]
       },
       "url": "https://www.facebook.com/acesmagichk/"
     },

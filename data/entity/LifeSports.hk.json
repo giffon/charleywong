@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/LifeSports.hk/",
       "meta": {
-        "name": "Life Sports",
         "id": "647059278667559",
+        "username": "LifeSports.hk",
+        "name": "Life Sports",
         "about": "✔ Online Shop: www.Lifesportshk.com\n✔ 現貨門市【背囊專門店】: Gregory, Herschel, Fjallraven, Wilderness Experience, Drifter, Arcteryx etc.\n✔ 港澳順豐免運費 (滿$500,順豐站自取或寄工商區地址(非偏遠)",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2231",
+            "name": "Outdoor & Sporting Goods Company"
+          }
         ],
-        "email": "lifesportshk.com@gmail.com",
-        "tel": "93465333"
+        "emails": [
+          "lifesportshk.com@gmail.com"
+        ],
+        "website": "http://www.LifeSportshk.com"
       }
     },
     {

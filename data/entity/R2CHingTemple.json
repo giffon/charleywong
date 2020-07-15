@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/R2CHingTemple/",
       "meta": {
-        "name": "C Hing 祠堂",
         "id": "297120271163698",
+        "username": "R2CHingTemple",
+        "name": "C Hing 祠堂",
         "about": "香港電台第二台\n星期一至五, 晚上 12am - 2am\n主持: 斌仔, 梓維, 阿一",
-        "categories": [
-          "Entertainment Website"
+        "category_list": [
+          {
+            "id": "2705",
+            "name": "Entertainment Website"
+          }
         ],
-        "email": "chingtemple@gmail.com"
+        "emails": [
+          "chingtemple@gmail.com"
+        ],
+        "website": "https://www.rthk.hk/radio/radio2/programme/chingtemple"
       }
     },
     {

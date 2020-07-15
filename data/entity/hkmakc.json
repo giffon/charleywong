@@ -6,12 +6,18 @@
   "webpages": [
     {
       "meta": {
-        "name": "MAKC",
         "id": "102886591105265",
-        "categories": [
-          "Arts & Crafts Store"
+        "username": "hkmakc",
+        "name": "MAKC",
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "tel": "92252820"
+        "emails": [
+          "samuel@designworks.hk"
+        ]
       },
       "url": "https://www.facebook.com/hkmakc/"
     },

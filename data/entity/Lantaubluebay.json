@@ -7,13 +7,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "藍灣-大嶼山（禁區）運輸公司 Blue Bay Transportation Co",
         "id": "842986435799061",
+        "username": "Lantaubluebay",
+        "name": "藍灣-大嶼山（禁區）運輸公司 Blue Bay Transportation Co",
         "about": "客貨車租賃  大嶼山（禁區） 歡迎預約 62571169 98892557\nKing_806@hotmail.com",
-        "categories": [
-          "Cargo & Freight Company"
+        "category_list": [
+          {
+            "id": "184395321600410",
+            "name": "Cargo & Freight Company"
+          }
         ],
-        "tel": "62571169"
+        "single_line_address": "大嶼山"
       },
       "url": "https://www.facebook.com/Lantaubluebay/"
     },

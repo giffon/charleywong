@@ -10,13 +10,20 @@
     {
       "meta": {
         "id": "139630342800785",
-        "categories": [
-          "Coffee shop",
-          "Cupcake Shop",
-          "Diner"
+        "username": "whitebuttoncafe",
+        "name": "White Button Cafe",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "Ashely Road No.23-25 12/F",
-        "area": "Tsim Sha Tsui"
+        "single_line_address": "Ashely Road No.23-25 12/F, 852 Tsim Sha Tsui",
+        "website": "https://www.instagram.com/whitebuttoncafe/"
       },
       "url": "https://www.facebook.com/whitebuttoncafe/"
     }

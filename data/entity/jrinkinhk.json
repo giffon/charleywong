@@ -12,29 +12,41 @@
     },
     {
       "meta": {
-        "name": "jrink",
         "id": "602025373253600",
+        "username": "jrinkinhk",
+        "name": "jrink",
         "about": "Tea Express Bar By Jrink\n尖沙咀河內道18號K11購物藝術館2樓201號舖 \nFB.IG: @tebbyjrink 營業時間：上午11時至下午9時",
-        "categories": [
-          "Tea Room"
+        "category_list": [
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong",
-        "email": "info@jrink.com.hk"
+        "emails": [
+          "info@jrink.com.hk"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://www.jrink.com.hk"
       },
       "url": "https://www.facebook.com/jrinkinhk/"
     },
     {
       "url": "https://www.facebook.com/tebbyjrink/",
       "meta": {
-        "name": "Tea Express Bar By Jrink",
         "id": "2059484014087494",
-        "about": "Fresh takes on tea let the ingredients shine.\nWe make tea infusions artfully straddling that sweet spot between familiarity and adventure.",
-        "categories": [
-          "Food & Beverage"
+        "username": "tebbyjrink",
+        "name": "Tea Express Bar By Jrink",
+        "about": "Fresh takes on tea let the ingredients shine.\nWe make tea infusions artfully straddling that sweet spot between familiarity and adventure.\n",
+        "category_list": [
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          }
         ],
-        "email": "teb@jrink.com.hk",
-        "tel": "60737072"
+        "emails": [
+          "teb@jrink.com.hk"
+        ],
+        "website": "https://www.tebbyjrink.co/"
       }
     },
     {

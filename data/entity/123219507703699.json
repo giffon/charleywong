@@ -7,13 +7,20 @@
     {
       "url": "https://www.facebook.com/123219507703699/",
       "meta": {
-        "name": "攪攪滑滑",
         "id": "123219507703699",
+        "name": "攪攪滑滑",
         "about": "售賣：台式飲品、小食  地點：石硤尾白田購物中心地下13舖 (石硤尾地鐵C出口)  \n\n每件事都係用心去做的",
-        "categories": [
-          "Deli",
-          "Restaurant"
-        ]
+        "category_list": [
+          {
+            "id": "188334264523313",
+            "name": "Deli"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "石硤尾偉智里1-3號白田購物中心G13 號, Hong Kong"
       }
     },
     {
@@ -69,7 +76,8 @@
     }
   ],
   "tags": [
-    "food","taiwanese"
+    "food",
+    "taiwanese"
   ],
   "yellowBlueMapIds": [
     "Y_EAT00013"

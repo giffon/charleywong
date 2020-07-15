@@ -7,12 +7,19 @@
     {
       "url": "https://www.facebook.com/fancier.hk/",
       "meta": {
-        "name": "台灣代購 Fancier",
         "id": "466736410071575",
+        "username": "fancier.hk",
+        "name": "台灣代購 Fancier",
         "about": "大家好，Fanicer 在香港跟台北都有一個家，有長駐台灣的同事為大家選購或訂購台灣貨品，用心做好代購。\n　\n注意事項：\n- 台灣同事收到貨品後會於該星期三或星期六，以順豐到付寄出。",
-        "categories": [
-          "Personal Blog",
-          "Business Service"
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          },
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          }
         ]
       }
     },

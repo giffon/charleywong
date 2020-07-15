@@ -14,14 +14,25 @@
     {
       "url": "https://www.facebook.com/syldesigns/",
       "meta": {
-        "name": "syl.hk",
         "id": "1986161834956519",
+        "username": "syldesigns",
+        "name": "syl.hk",
         "about": "Printable Arts, Customized & Personalized Services.",
-        "categories": [
-          "Artist",
-          "Art",
-          "Designer"
-        ]
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "1615",
+            "name": "Designer"
+          }
+        ],
+        "single_line_address": "Hong Kong"
       }
     }
   ],
