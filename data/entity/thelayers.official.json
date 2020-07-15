@@ -17,16 +17,29 @@
     {
       "url": "https://www.facebook.com/thelayers.official/",
       "meta": {
-        "name": "The Layers",
         "id": "248905895241096",
+        "username": "thelayers.official",
+        "name": "The Layers",
         "about": "Instagram: instagram.com/the_layers\nWe are the first fashion brand to offer layering as its focused designs.\n\nPinkoi Store: http://www.pinkoi.com/store/thelayers\nStockists: https://www.thelayers.org/stocklists\n\nFounders\n@jessibeaucoup\n@suenosteve",
-        "categories": [
-          "Clothing (Brand)",
-          "Accessories",
-          "Bags/Luggage"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "185127444860544",
+            "name": "Accessories"
+          },
+          {
+            "id": "2206",
+            "name": "Bags/Luggage"
+          }
         ],
-        "email": "thelayers.shop@gmail.com",
-        "tel": "23762273"
+        "emails": [
+          "thelayers.shop@gmail.com"
+        ],
+        "single_line_address": "WALK ON WATER | Shop 101, 1/F, K11 Select, K11 Art Mall, 18 Hanoi Road, Tsim Sha Tsui, Kowloon, Hong Kong",
+        "website": "http://thelayers.org"
       }
     }
   ],

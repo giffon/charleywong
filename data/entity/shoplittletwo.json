@@ -7,15 +7,25 @@
     {
       "url": "https://www.facebook.com/shoplittletwo/",
       "meta": {
-        "name": "店小二小店",
         "id": "434589776714324",
+        "username": "shoplittletwo",
+        "name": "店小二小店",
         "about": "◆An #art #vintage #upcycling space in SSP◆\ninstagram.com/shoplittletwo\nfacebook.com/shoplittletwo",
-        "categories": [
-          "Antique Store",
-          "Arts & Crafts Store"
+        "category_list": [
+          {
+            "id": "205429726142620",
+            "name": "Thrift & Consignment Store"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "150732438316813",
+            "name": "Antique Store"
+          }
         ],
-        "addr": "深水埗南昌街100號",
-        "area": "n/a Sham Shui Po"
+        "single_line_address": "深水埗 黃竹街 金寧大厦 1D, n/a Sham Shui Po"
       }
     },
     {

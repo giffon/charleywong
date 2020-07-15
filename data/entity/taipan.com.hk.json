@@ -11,13 +11,20 @@
     {
       "url": "https://www.facebook.com/taipan.com.hk/",
       "meta": {
-        "name": "大班麵包西餅 Taipan Bread & Cakes",
         "id": "147467721982907",
-        "categories": [
-          "Food & Beverage Company"
+        "username": "taipan.com.hk",
+        "name": "大班麵包西餅 Taipan Bread & Cakes",
+        "category_list": [
+          {
+            "id": "2252",
+            "name": "Food & Beverage Company"
+          }
         ],
-        "email": "customerservice@taipan.com.hk",
-        "tel": "23513222"
+        "emails": [
+          "customerservice@taipan.com.hk"
+        ],
+        "single_line_address": "香港九龍新蒲崗六合街 8 號六合工業大廈 11 樓 A 座",
+        "website": "http://www.taipan.com.hk"
       }
     },
     {

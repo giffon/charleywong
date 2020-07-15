@@ -6,16 +6,27 @@
   "webpages": [
     {
       "meta": {
-        "name": "Ovvio Studio Limited",
         "id": "433597143669486",
+        "username": "OVVIOStudio",
+        "name": "Ovvio Studio Limited",
         "about": "OVVIO Studio is an interior design company based in Hong Kong",
-        "categories": [
-          "Home Decor",
-          "Interior Design Studio",
-          "Engineering Service"
+        "category_list": [
+          {
+            "id": "192647794097278",
+            "name": "Home Decor"
+          },
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          },
+          {
+            "id": "400062273344681",
+            "name": "Engineering Service"
+          }
         ],
-        "email": "info@ovviostudio.net",
-        "tel": "31888967"
+        "emails": [
+          "info@ovviostudio.net"
+        ]
       },
       "url": "https://www.facebook.com/OVVIOStudio/"
     },

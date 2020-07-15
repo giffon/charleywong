@@ -10,29 +10,40 @@
     {
       "url": "https://www.facebook.com/ue.cmed/",
       "meta": {
-        "name": "如意堂中醫診所",
         "id": "313244772202903",
+        "username": "ue.cmed",
+        "name": "如意堂中醫診所",
         "about": "如意堂中醫診所志在普及簡便、有效的全科中醫藥服務，包括內科、骨傷、小兒推拿及針灸。\n歡迎與我們分享和討論更多中醫藥資訊，祝您身心如意！",
-        "categories": [
-          "Medical Company"
+        "category_list": [
+          {
+            "id": "2243",
+            "name": "Medical Company"
+          }
         ],
-        "addr": "Peking Street",
-        "area": "Tsim Sha Tsui",
-        "email": "ue.cmed@gmail.com",
-        "tel": "98881714"
+        "emails": [
+          "ue.cmed@gmail.com"
+        ],
+        "single_line_address": "Peking Street, Tsim Sha Tsui",
+        "website": "https://www.uecmclinic.com/"
       }
     },
     {
       "url": "https://www.facebook.com/cmedtalk/",
       "meta": {
-        "name": "何醫師講中醫",
         "id": "219274358510350",
+        "username": "cmedtalk",
+        "name": "何醫師講中醫",
         "about": "成日都唔知中醫講咩？\n中醫其實點睇病？\n中醫醫到咩病？\n咁多中醫問題，何醫師慢慢講你知！",
-        "categories": [
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "email": "cmedtalk@gmail.com",
-        "tel": "98881714"
+        "emails": [
+          "cmedtalk@gmail.com"
+        ],
+        "website": "www.uecmclinic.com"
       }
     },
     {

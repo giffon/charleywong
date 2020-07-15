@@ -16,12 +16,17 @@
     },
     {
       "meta": {
-        "name": "刺蝟小姐 Miss.Hedgehog",
         "id": "395887547534913",
+        "username": "miss.hedgehog1.618",
+        "name": "刺蝟小姐 Miss.Hedgehog",
         "about": "刺蝟小姐的異想世界\n\nMiss.Hedgehog’s Whimsical world",
-        "categories": [
-          "Personal Blog"
-        ]
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
+        ],
+        "website": "https://www.youtube.com/channel/UCioz-PgIkT8fgm5zjKSodbg"
       },
       "url": "https://www.facebook.com/miss.hedgehog1.618/"
     },

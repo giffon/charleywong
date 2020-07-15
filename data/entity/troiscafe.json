@@ -10,14 +10,22 @@
     {
       "meta": {
         "id": "1323200871161105",
-        "about": "𝙲𝚑𝚊𝚍ō. 𝙲𝚘𝚏𝚏𝚎𝚎. 𝙿𝚊𝚗𝚒𝚗𝚒\n𝙼𝚘𝚗 𝚝𝚘 𝙵𝚛𝚒 | 𝟾𝚊𝚖 𝚝𝚘 𝟼𝚙𝚖\n𝚂𝚊𝚝 & 𝚑𝚘𝚕𝚒𝚍𝚊𝚢 | 𝟷𝟷𝚊𝚖 𝚝𝚘 𝟼𝚙𝚖",
-        "categories": [
-          "Coffee shop",
-          "Restaurant",
-          "Tea room"
+        "username": "troiscafe",
+        "name": "Trois Cafe",
+        "about": "𝙲𝚑𝚊𝚍ō. 𝙲𝚘𝚏𝚏𝚎𝚎. 𝙱𝚊𝚘\n𝙼𝚘𝚗 𝚝𝚘 𝙵𝚛𝚒 | 𝟾𝚊𝚖 𝚝𝚘 𝟼𝚙𝚖\n𝚂𝚊𝚝 & 𝚑𝚘𝚕𝚒𝚍𝚊𝚢 | 𝟷𝟷𝚊𝚖 𝚝𝚘 𝟼𝚙𝚖",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "email": "info.troiscafe@gmail.com",
-        "tel": "28336980"
+        "emails": [
+          "info.troiscafe@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/troiscafe/"
     }

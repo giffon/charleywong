@@ -7,18 +7,28 @@
     {
       "url": "https://www.facebook.com/bittersweet.namcheong/",
       "meta": {
-        "name": "幸茶舍．南昌薈",
         "id": "332865047594694",
+        "username": "bittersweet.namcheong",
+        "name": "幸茶舍．南昌薈",
         "about": "a taste of living",
-        "categories": [
-          "Taiwanese Restaurant",
-          "Bubble Tea Shop",
-          "Dessert Shop"
+        "category_list": [
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          },
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "深水埗南昌薈街市CF5號鋪",
-        "area": "Hong Kong",
-        "email": "bittersweet.teahouse@gmail.com",
-        "tel": "97036589"
+        "emails": [
+          "bittersweet.teahouse@gmail.com"
+        ],
+        "single_line_address": "深水埗南昌薈街市CF5號鋪, Hong Kong"
       }
     },
     {

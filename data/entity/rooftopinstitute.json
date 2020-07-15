@@ -10,15 +10,20 @@
     {
       "url": "https://www.facebook.com/rooftopinstitute/",
       "meta": {
-        "name": "Rooftop Institute",
         "id": "1046316505429335",
-        "categories": [
-          "Local Business"
+        "username": "rooftopinstitute",
+        "name": "Rooftop Institute",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "10/F , Foo Tak Building , 365 Hennessy road, Wan Chai",
-        "area": "Hong Kong",
-        "email": "hhz@rooftopinstitute.org",
-        "tel": "63157375"
+        "emails": [
+          "hhz@rooftopinstitute.org"
+        ],
+        "single_line_address": "10/F , Foo Tak Building , 365 Hennessy road, Wan Chai, Hong Kong",
+        "website": "http://www.rooftopinstitute.org"
       }
     },
     {

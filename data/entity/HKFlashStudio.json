@@ -7,16 +7,24 @@
     {
       "url": "https://www.facebook.com/HKFlashStudio/",
       "meta": {
-        "name": "閃光機 - 韓式證件相影樓",
         "id": "104380056677049",
+        "username": "HKFlashStudio",
+        "name": "閃光機 - 韓式證件相影樓",
         "about": "提供一站式影證件相服務，由襯衫、化妝品、專業拍攝、修圖一手包辦，遠比坊間一般沖晒店所提供的影證件相服務專業、細心。",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "長沙灣青山道608號榮吉工業大廈B座1樓102室",
-        "area": "NA Hong Kong",
-        "email": "flashstudio@gmail.com",
-        "tel": "56243701"
+        "emails": [
+          "flashstudio@gmail.com"
+        ],
+        "single_line_address": "長沙灣青山道608號榮吉工業大廈B座1樓102室, NA Hong Kong"
       }
     },
     {

@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "Galaxydigitalhk",
         "id": "181164631934620",
+        "username": "galaxydigitalhk",
+        "name": "Galaxydigitalhk",
         "about": "相機濾鏡全港最齊, 富士即影即有熱賣~",
-        "categories": [
-          "Camera Store",
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "442121929137652",
+            "name": "Camera Store"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "旺角信和中心218號鋪(扶手電梯上到頂層第一間)",
-        "area": "Hong Kong",
-        "email": "sales@galaxydigital.com.hk",
-        "tel": "34827800"
+        "emails": [
+          "sales@galaxydigital.com.hk"
+        ],
+        "single_line_address": "旺角信和中心218號鋪(扶手電梯上到頂層第一間), Hong Kong",
+        "website": "http://www.galaxydigital.com.hk"
       },
       "url": "https://www.facebook.com/galaxydigitalhk/"
     },

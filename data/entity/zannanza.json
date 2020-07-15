@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/zannanza/",
       "meta": {
-        "name": "Zannanza's history channel",
         "id": "332376526886585",
+        "username": "zannanza",
+        "name": "Zannanza's history channel",
         "about": "Zannanza's History Channel",
-        "categories": [
-          "Arts & Humanities Website"
+        "category_list": [
+          {
+            "id": "2701",
+            "name": "Arts & Humanities Website"
+          }
         ],
-        "email": "zannanza.hattusili@gmail.com"
+        "emails": [
+          "zannanza.hattusili@gmail.com"
+        ],
+        "website": "https://zannanzahattusili.blogspot.com"
       }
     }
   ],

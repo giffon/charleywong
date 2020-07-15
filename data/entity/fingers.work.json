@@ -6,15 +6,25 @@
   "webpages": [
     {
       "meta": {
+        "id": "1732597250294445",
+        "username": "fingers.work",
+        "name": "Fingers Work",
         "about": "I need space, i go space.",
-        "categories": [
-          "Arts and crafts shop",
-          "Brand"
+        "category_list": [
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "addr": "牛頭角大業街27號鴻盛工業大廈12/F 03室",
-        "area": "Hong Kong",
-        "email": "852fingerswork@gmail.com",
-        "id": "1732597250294445"
+        "emails": [
+          "852fingerswork@gmail.com"
+        ],
+        "single_line_address": "牛頭角大業街27號鴻盛工業大廈12/F 03室, 852 Hong Kong",
+        "website": "www.fingerswork.com"
       },
       "url": "https://www.facebook.com/fingers.work/"
     },

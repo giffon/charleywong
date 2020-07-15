@@ -10,12 +10,21 @@
     },
     {
       "meta": {
+        "id": "466505160192708",
+        "username": "theinitium",
+        "name": "Initium Media 端傳媒",
         "about": "立足香港，放眼全球；深度調查，數據挖掘；探本求源，不偏不倚，華語媒體新開端。\n投稿及新聞線索：editor@theinitium.com；廣告合作：ads@theinitium.com；會員制相關：membership@theinitium.com 。",
-        "categories": [
-          "Media/news company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "editor@theinitium.com",
-        "id": "466505160192708"
+        "emails": [
+          "editor@theinitium.com"
+        ],
+        "single_line_address": "香港北角英皇道663號泓富產業千禧廣場",
+        "website": "https://theinitium.com"
       },
       "url": "https://www.facebook.com/theinitium/"
     },

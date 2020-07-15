@@ -7,13 +7,16 @@
     {
       "url": "https://www.facebook.com/304200483038/",
       "meta": {
-        "name": "新嘉美茶餐廳",
         "id": "304200483038",
+        "name": "新嘉美茶餐廳",
         "about": "灣仔犘利臣山道26號地下",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "tel": "28921021"
+        "single_line_address": "灣仔摩利臣山道 26 號地下, 852 Wan Chai"
       }
     },
     {

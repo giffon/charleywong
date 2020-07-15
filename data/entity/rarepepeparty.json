@@ -7,11 +7,15 @@
     {
       "url": "https://www.facebook.com/rarepepeparty/",
       "meta": {
-        "name": "Pepe黨",
         "id": "119658338377908",
+        "username": "rarepepeparty",
+        "name": "Pepe黨",
         "about": "好腥 係咪你射精",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ]
       }
     }

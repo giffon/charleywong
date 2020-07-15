@@ -7,18 +7,29 @@
     {
       "url": "https://www.facebook.com/easyogahongkong/",
       "meta": {
-        "name": "Easyoga Hong Kong",
         "id": "213343758701138",
+        "username": "easyogahongkong",
+        "name": "Easyoga Hong Kong",
         "about": "Perfecting Your Life - Yoga/LOHAS clothing, props & accessories",
-        "categories": [
-          "Yoga Studio",
-          "Apparel & Clothing",
-          "Tools/Equipment"
+        "category_list": [
+          {
+            "id": "174832985894571",
+            "name": "Yoga Studio"
+          },
+          {
+            "id": "1086422341396773",
+            "name": "Apparel & Clothing"
+          },
+          {
+            "id": "2223",
+            "name": "Tools/Equipment"
+          }
         ],
-        "addr": "2/F, 17 Yun Ping Road, Causeway Bay",
-        "area": "852 Hong Kong",
-        "email": "om@easyoga.com.hk",
-        "tel": "29832130"
+        "emails": [
+          "om@easyoga.com.hk"
+        ],
+        "single_line_address": "2/F, 17 Yun Ping Road, Causeway Bay, 852 Hong Kong",
+        "website": "http://www.easyoga.com.hk"
       }
     },
     {

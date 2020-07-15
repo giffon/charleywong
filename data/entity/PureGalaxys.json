@@ -11,18 +11,26 @@
     {
       "url": "https://www.facebook.com/PureGalaxys/",
       "meta": {
-        "name": "PureGalaxy studio 界域動畫教室",
         "id": "78179149140",
+        "username": "PureGalaxys",
+        "name": "PureGalaxy studio 界域動畫教室",
         "about": "PureGalaxy studio (PGS) is a animate & drawing studio of Hong Kong. http://www.puregalaxy.com is our website.",
-        "categories": [
-          "Tutor/Teacher",
-          "Product/Service",
-          "Computer Training School"
+        "category_list": [
+          {
+            "id": "145296352197250",
+            "name": "Tutor/Teacher"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "162237190493977",
+            "name": "Computer Training School"
+          }
         ],
-        "addr": "16/F RM1619. No. 26-38 Sha Tsui Road, Thriving Industrial Centre.",
-        "area": "852 Tsuen Wan, Hong Kong",
-        "email": "info@puregalaxy.com",
-        "tel": "67526728"
+        "single_line_address": "16/F RM1619. No. 26-38 Sha Tsui Road, Thriving Industrial Centre., 852 Tsuen Wan, Hong Kong",
+        "website": "http://www.puregalaxy.com"
       }
     },
     {

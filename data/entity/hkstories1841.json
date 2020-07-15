@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/hkstories1841/",
       "meta": {
-        "name": "本土桌遊工作室",
         "id": "545771975606126",
+        "username": "hkstories1841",
+        "name": "本土桌遊工作室",
         "about": "歷史是建構民族的基石，許多人忘記歷史的教訓，不斷重複歷史的錯誤，擔誤民族發展，藉卡牌能夠教育下一代，了解自己民旅的歷史",
-        "categories": [
-          "Board Game"
+        "category_list": [
+          {
+            "id": "2303",
+            "name": "Board Game"
+          }
         ],
-        "email": "timluk@hkboardgames.com"
+        "emails": [
+          "timluk@hkboardgames.com"
+        ],
+        "website": "http://www.hkboardgames.com/"
       }
     }
   ],

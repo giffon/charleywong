@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/DessertatDesert/",
       "meta": {
-        "name": "Dessert at Desert",
         "id": "118100425001713",
+        "username": "DessertatDesert",
+        "name": "Dessert at Desert",
         "about": "Dessert@Desert",
-        "categories": [
-          "Food & Beverage"
+        "category_list": [
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          }
         ],
-        "addr": "錦泰商場地下15號鋪",
-        "area": "Ma On Shan, Hong Kong",
-        "tel": "24110121"
+        "single_line_address": "錦泰商場地下15號鋪, Ma On Shan, Hong Kong"
       }
     }
   ],

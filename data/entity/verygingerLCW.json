@@ -14,17 +14,24 @@
     {
       "url": "https://www.facebook.com/verygingerLCW/",
       "meta": {
-        "name": "好夠薑",
         "id": "1743970809264700",
-        "about": "We process local grown eco ginger and turmeric in Lai Chi Wo and make beautiful products we love!\n◾️Skincare\n◾️Tea,powder\n◾️Workshop\n◾️Gift",
-        "categories": [
-          "Health Food Store",
-          "Organic Grocery Store"
+        "username": "verygingerLCW",
+        "name": "好夠薑",
+        "about": "We process local grown eco ginger and turmeric in Lai Chi Wo and make beautiful products we love! \n◾️Skincare \n◾️Tea,powder\n◾️Workshop\n◾️Gift",
+        "category_list": [
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          },
+          {
+            "id": "1748430218710706",
+            "name": "Organic Grocery Store"
+          }
         ],
-        "addr": "lai chi woo",
-        "area": "Hong Kong",
-        "email": "verygingerhk@gmail.com",
-        "tel": "66561764"
+        "emails": [
+          "verygingerhk@gmail.com"
+        ],
+        "single_line_address": "lai chi woo, Hong Kong"
       }
     }
   ],

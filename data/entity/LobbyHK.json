@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/LobbyHK/",
       "meta": {
-        "name": "The Lobby Studio",
         "id": "1727776750840181",
+        "username": "LobbyHK",
+        "name": "The Lobby Studio",
         "about": "A well equipped, professional & friendly studio for Photography and Film Making. Offers a 4000+ square-ft of space. One of the biggest studios in Hong Kong.",
-        "categories": [
-          "Photography Videography",
-          "Performance & Event Venue"
+        "category_list": [
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          },
+          {
+            "id": "179943432047564",
+            "name": "Performance & Event Venue"
+          }
         ],
-        "addr": "1/F, Pang Kwong Bldg, 59 Hung To Rd, Kwun Tong",
-        "area": "Kowloon, Hong Kong",
-        "email": "info@lobbyhk.com",
-        "tel": "53479339"
+        "emails": [
+          "info@lobbyhk.com"
+        ],
+        "single_line_address": "1/F, Pang Kwong Bldg, 59 Hung To Rd, Kwun Tong, Kowloon, Hong Kong",
+        "website": "http://lobbyhk.com"
       }
     },
     {

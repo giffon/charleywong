@@ -10,11 +10,19 @@
     {
       "meta": {
         "id": "364191050297895",
+        "username": "thepenguinlab",
+        "name": "Penguin Lab",
         "about": "Penguin Lab: 由江康泉與羅文樂，兩位熱愛動漫的創作人成立，製作只此一家的幽默風格，用笑改變生活！",
-        "categories": [
-          "Company"
+        "category_list": [
+          {
+            "id": "2200",
+            "name": "Company"
+          }
         ],
-        "email": "lawmanlok@gmail.com"
+        "emails": [
+          "penguinlab2008@gmail.com"
+        ],
+        "website": "http://www.penguinlab.net"
       },
       "url": "https://www.facebook.com/thepenguinlab/"
     }

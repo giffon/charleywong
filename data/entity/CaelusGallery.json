@@ -10,15 +10,24 @@
     {
       "meta": {
         "id": "160188754501974",
+        "username": "CaelusGallery",
+        "name": "Caelus Gallery",
         "about": "擁有多年婚攝經驗,提供本地及海外婚紗及婚禮拍攝服務,歡迎查詢 Pre wedding/Overseas Pre wedding/Wedding Day 拍攝服務.",
-        "categories": [
-          "Wedding planning service",
-          "Photographer"
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "11/F,Rm 09,Nos.26-38 Sha Tsui RD,Thriving IND CTR,Tsuen Wan,NT",
-        "area": "Hong Kong",
-        "email": "caelusgallery@gmail.com",
-        "tel": "64649496"
+        "emails": [
+          "caelusgallery@gmail.com"
+        ],
+        "single_line_address": "11/F,Rm 09,Nos.26-38 Sha Tsui RD,Thriving IND CTR,Tsuen Wan,NT, Hong Kong",
+        "website": "https://caelusgallery.wixsite.com/caelusgallery"
       },
       "url": "https://www.facebook.com/CaelusGallery/"
     },

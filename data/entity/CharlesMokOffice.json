@@ -10,14 +10,21 @@
     },
     {
       "meta": {
-        "name": "Charles Mok 莫乃光",
         "id": "232372840163384",
+        "username": "CharlesMokOffice",
+        "name": "Charles Mok 莫乃光",
         "about": "立法會資訊科技界議員\nLegislative Councillor (Information Technology)",
-        "categories": [
-          "Politician"
+        "category_list": [
+          {
+            "id": "1700",
+            "name": "Politician"
+          }
         ],
-        "email": "charlesmok@charlesmok.hk",
-        "tel": "23523129"
+        "emails": [
+          "charlesmok@charlesmok.hk"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://www.charlesmok.hk"
       },
       "url": "https://www.facebook.com/CharlesMokOffice/"
     },

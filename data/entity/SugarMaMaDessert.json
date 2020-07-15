@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/SugarMaMaDessert/",
       "meta": {
-        "name": "Sugar Ma Ma 心太軟專門店（智勝所甜品部）",
         "id": "131964636905403",
+        "username": "SugarMaMaDessert",
+        "name": "Sugar Ma Ma 心太軟專門店（智勝所甜品部）",
         "about": "可能係最好食既心太軟！Possibly the best Chocolate Lava Cake!",
-        "categories": [
-          "Dessert Shop"
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "香港新界屯門虹橋4B區，青柏徑6號鹿苑地下Shop3",
-        "area": "Tuen Mun",
-        "email": "sugarmamayl@yahoo.com",
-        "tel": "55417341"
+        "emails": [
+          "sugarmamayl@yahoo.com"
+        ],
+        "single_line_address": "香港新界屯門虹橋4B區，青柏徑6號鹿苑地下Shop3, Tuen Mun"
       }
     },
     {

@@ -17,15 +17,21 @@
     {
       "url": "https://www.facebook.com/raiderhongkong/",
       "meta": {
-        "name": "Raiderhk",
         "id": "1449261948635960",
+        "username": "raiderhongkong",
+        "name": "Raiderhk",
         "about": "-\n高質淨色T恤\n自家品牌�｜美國｜日本｜各地入口\n-\nAll about details\n剪裁｜磅數｜顏色\n-\nWe provide\n零售｜批發｜團隊制服印刷｜歡迎查詢\n-\ninatagram.com/raider.hk\n-\nOur store\n旺角西洋菜南街68號8樓",
-        "categories": [
-          "Clothing (Brand)",
-          "Clothing Store"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "email": "raiderhongkong@gmail.com",
-        "tel": "28746799"
+        "emails": [
+          "raiderhongkong@gmail.com"
+        ],
+        "single_line_address": "九龍旺角西洋菜南街68號8樓, Hong Kong",
+        "website": "http://www.raiderhk.com"
       }
     }
   ],

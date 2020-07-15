@@ -14,14 +14,24 @@
     {
       "url": "https://www.facebook.com/BAMBOOVIII/",
       "meta": {
-        "name": "竹林八閒",
         "id": "1689766797743848",
+        "username": "BAMBOOVIII",
+        "name": "竹林八閒",
         "about": "合作邀約請洽EMC凱曜網路：\nbamboo8@emctaipei.com",
-        "categories": [
-          "Literary Arts",
-          "Art"
+        "category_list": [
+          {
+            "id": "856055631167537",
+            "name": "Literary Arts"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "email": "bamboo8@emctaipei.com"
+        "emails": [
+          "bamboo8@emctaipei.com"
+        ],
+        "website": "https://www.instagram.com/bambooviii/"
       }
     }
   ],

@@ -8,13 +8,19 @@
     {
       "url": "https://www.facebook.com/121484627866832/",
       "meta": {
-        "name": "Ko Chung Ming 高仲明",
         "id": "121484627866832",
+        "name": "Ko Chung Ming 高仲明",
         "about": "Photographer/Hong Konger",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "mingko81@gmail.com"
+        "emails": [
+          "mingko81@gmail.com"
+        ],
+        "single_line_address": "mingko81@gmail.com"
       }
     },
     {

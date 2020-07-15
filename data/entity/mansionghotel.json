@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/mansionghotel/",
       "meta": {
-        "name": "羅曼美時鐘酒店Mansion G Hotel",
         "id": "1082717791861124",
+        "username": "mansionghotel",
+        "name": "羅曼美時鐘酒店Mansion G Hotel",
         "about": "Mansion G Hotel 係一間由一班香港90後管理及營運的時鐘酒店，我們明白到香港年青人性空間不足的問題，致力提供一個整潔、舒適的私人空間俾香港年青人與伴侶盡情享受歡樂時光。",
-        "categories": [
-          "Hotel"
+        "category_list": [
+          {
+            "id": "164243073639257",
+            "name": "Hotel"
+          }
         ],
-        "addr": "九龍尖沙咀彌敦道83-97號華源大廈4樓A1室",
-        "area": "Hong Kong",
-        "email": "mansion.g.hk@gmail.com",
-        "tel": "94388699"
+        "emails": [
+          "mansion.g.hk@gmail.com"
+        ],
+        "single_line_address": "九龍尖沙咀彌敦道83-97號華源大廈4樓A1室, Hong Kong",
+        "website": "https://www.mansiong.com/mansionghotel/"
       }
     },
     {

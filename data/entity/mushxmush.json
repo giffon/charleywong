@@ -9,14 +9,20 @@
     },
     {
       "meta": {
-        "name": "Mush",
         "id": "476053292443942",
-        "about": "The Rustic Refined\n\nIg: m_u_s_h\n\nTel:  98390902\nEmail:  mushxmush@gmail.com \n\nWe accept paypal and ship worldwide!",
-        "categories": [
-          "Product/Service"
+        "username": "mushxmush",
+        "name": "Mush",
+        "about": "The Rustic Refined\n\nIg: m_u_s_h\n\nTel:  98390902\nEmail:  mushxmush@gmail.com \n\nWe accept paypal and ship worldwide! ",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "mushxmush@gmail.com",
-        "tel": "98390902"
+        "emails": [
+          "mushxmush@gmail.com"
+        ],
+        "website": "https://www.pinkoi.com/store/mush-therusticrefined"
       },
       "url": "https://www.facebook.com/mushxmush/"
     },

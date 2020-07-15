@@ -7,18 +7,29 @@
   "webpages": [
     {
       "meta": {
-        "name": "Fun Crazy Board Game House 樂瘋桌上遊戲專門店",
         "id": "371307573041563",
+        "username": "funcrazyhk",
+        "name": "Fun Crazy Board Game House 樂瘋桌上遊戲專門店",
         "about": "本店提供五百種以上桌遊試玩及桌遊零售服務，星期一至四全日任玩連飲品只需$70！店員均為資深桌遊導師，為客人提供全方位貼心服務。",
-        "categories": [
-          "Arts & Entertainment",
-          "Shopping & Retail",
-          "Cafe"
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
         ],
-        "addr": "旺角西洋菜南街1A-1K號百寶利商業中心10樓01-02室",
-        "area": "852 54015170 Hong Kong",
-        "email": "hongkongboardgame@gmail.com",
-        "tel": "34619431"
+        "emails": [
+          "hongkongboardgame@gmail.com"
+        ],
+        "single_line_address": "旺角西洋菜南街1A-1K號百寶利商業中心10樓01-02室, 852 54015170 Hong Kong",
+        "website": "http://www.facebook.com/funcrazyhk"
       },
       "url": "https://www.facebook.com/funcrazyhk/"
     },

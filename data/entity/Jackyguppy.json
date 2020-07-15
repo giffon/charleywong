@@ -6,15 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "百萬香港孔雀魚專門店",
         "id": "1421546648105372",
+        "username": "Jackyguppy",
+        "name": "百萬香港孔雀魚專門店",
         "about": "百萬香港孔雀魚專門店\n九龍旺角通菜街126A號2/F\n\n本店是目前香港唯一一間的孔雀魚專門店, 前身為百萬孔雀魚繁殖場, 在這裡長註超過一百款純種孔雀魚, 每星期均有新魚入庫, 歡迎參觀選購。",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "九龍旺角通菜街126A號2/F",
-        "area": "852 Hong Kong",
-        "tel": "65997738"
+        "single_line_address": "九龍旺角通菜街126A號2/F, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/Jackyguppy/"
     },

@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/duckyswellness/",
       "meta": {
-        "name": "得記良品 Ducky's wellness",
         "id": "2029265367379457",
+        "username": "duckyswellness",
+        "name": "得記良品 Ducky's wellness",
         "about": "Ducky's Wellness",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "九龍深水埗基隆街142號地舖  G/F 142 KI LUNG ST., SHAM SHUI PO, KOWLOON",
-        "area": "Hong Kong",
-        "email": "duckyswellness@gmail.com",
-        "tel": "28104598"
+        "emails": [
+          "duckyswellness@gmail.com"
+        ],
+        "single_line_address": "九龍深水埗基隆街142號地舖  G/F 142 KI LUNG ST., SHAM SHUI PO, KOWLOON, Hong Kong",
+        "website": "https://www.duckyswellness.com.hk/"
       }
     }
   ],

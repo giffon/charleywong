@@ -15,15 +15,28 @@
     {
       "url": "https://www.facebook.com/Galaxyman.Life/",
       "meta": {
-        "name": "Galaxyman 仲民",
         "id": "930794440331346",
+        "username": "Galaxyman.Life",
+        "name": "Galaxyman 仲民",
         "about": "GALAXYMAN aka 柳偽\n\nEmail : cl@hkgplus.com\ninstagram : Galaxyman\n17 : Galaxyman\nYouTube : Galaxyman 仲民",
-        "categories": [
-          "Producer",
-          "Artist",
-          "Actor"
+        "category_list": [
+          {
+            "id": "1108",
+            "name": "Producer"
+          },
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "1602034176774683",
+            "name": "Actor"
+          }
         ],
-        "email": "cl@hkgplus.com"
+        "emails": [
+          "cl@hkgplus.com"
+        ],
+        "website": "http://instagram.com/galaxyman"
       }
     },
     {

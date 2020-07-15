@@ -10,15 +10,23 @@
     },
     {
       "meta": {
-        "name": "Shalom 嚐樂",
         "id": "193814243963164",
+        "name": "Shalom 嚐樂",
         "about": "Shalom - taste the happiness",
-        "categories": [
-          "Dessert Shop",
-          "Chinese Restaurant"
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "174483852595760",
+            "name": "Chinese Restaurant"
+          }
         ],
-        "email": "shalom2010@hotmail.com",
-        "tel": "23821989"
+        "emails": [
+          "shalom2010@hotmail.com"
+        ],
+        "website": "http://www.openrice.com/restaurant/sr2.htm?shopid=49389&tc=sr1"
       },
       "url": "https://www.facebook.com/193814243963164/"
     }

@@ -10,16 +10,28 @@
     {
       "url": "https://www.facebook.com/aussieskincare/",
       "meta": {
-        "name": "Aussie SkinCare",
         "id": "322337034903",
+        "username": "aussieskincare",
+        "name": "Aussie SkinCare",
         "about": "Shop for natural skin care products at Aussie SkinCare! Learn about the skin care products you should use to keep your skin looking great :)",
-        "categories": [
-          "Cosmetics Store",
-          "Health/Beauty",
-          "Beauty, Cosmetic & Personal Care"
+        "category_list": [
+          {
+            "id": "144873802247220",
+            "name": "Cosmetics Store"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "email": "aussieskincarehk@gmail.com",
-        "tel": "97798911"
+        "emails": [
+          "aussieskincarehk@gmail.com"
+        ],
+        "website": "http://aussieskincare.store"
       }
     },
     {

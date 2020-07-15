@@ -8,13 +8,17 @@
     {
       "url": "https://www.facebook.com/recipevegan/",
       "meta": {
-        "name": "素食譜The Recipe",
         "id": "172552063371643",
+        "username": "recipevegan",
+        "name": "素食譜The Recipe",
         "about": "素食譜^方便您素食^",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "tel": "55394088"
+        "single_line_address": "觀塘成業街7號東廣場寧晉中心地下57號舖, 香港 Kowloon, Hong Kong"
       }
     },
     {

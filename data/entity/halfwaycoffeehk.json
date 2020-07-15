@@ -7,13 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "Halfway Coffee 半路咖啡",
         "id": "1501022636875471",
-        "categories": [
-          "Coffee Shop"
+        "username": "halfwaycoffeehk",
+        "name": "Halfway Coffee 半路咖啡",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "email": "halfwaycoffee@gmail.com",
-        "tel": "95117197"
+        "emails": [
+          "halfwaycoffee@gmail.com"
+        ],
+        "website": "http://instagram.com/halfwaycoffee"
       },
       "url": "https://www.facebook.com/halfwaycoffeehk/"
     },

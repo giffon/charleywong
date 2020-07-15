@@ -8,13 +8,19 @@
     {
       "url": "https://www.facebook.com/bartenderunion/",
       "meta": {
-        "name": "香港調酒師工會 BMUHK",
         "id": "105426430955915",
+        "username": "bartenderunion",
+        "name": "香港調酒師工會 BMUHK",
         "about": "https://t.me/bmunion\nTelegram Channel",
-        "categories": [
-          "Labor Union"
+        "category_list": [
+          {
+            "id": "192775991124365",
+            "name": "Labor Union"
+          }
         ],
-        "email": "bmunionhk@gmail.com"
+        "emails": [
+          "bmunionhk@gmail.com"
+        ]
       }
     },
     {

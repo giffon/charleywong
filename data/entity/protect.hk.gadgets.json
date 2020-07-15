@@ -6,11 +6,13 @@
   "webpages": [
     {
       "meta": {
-        "name": "國難五金",
         "id": "104048264502050",
-        "about": "",
-        "categories": [
-          "Product/Service"
+        "name": "國難五金",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       },
       "url": "https://www.facebook.com/104048264502050/"

@@ -7,15 +7,20 @@
     {
       "url": "https://www.facebook.com/hkshuto/",
       "meta": {
-        "name": "酒盗",
         "id": "1248461981859702",
-        "categories": [
-          "Sake Bar",
-          "Japanese Restaurant"
+        "username": "hkshuto",
+        "name": "酒盗",
+        "category_list": [
+          {
+            "id": "1640927539562872",
+            "name": "Sake Bar"
+          },
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          }
         ],
-        "addr": "23a Kam Ping Street, north point",
-        "area": "Hong Kong",
-        "tel": "27770688"
+        "single_line_address": "23a Kam Ping Street, north point, Hong Kong"
       }
     },
     {

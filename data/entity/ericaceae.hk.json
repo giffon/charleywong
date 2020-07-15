@@ -10,17 +10,25 @@
     },
     {
       "meta": {
-        "name": "Ericaceae Florist 發花癲",
         "id": "361417767624433",
+        "username": "ericaceae.hk",
+        "name": "Ericaceae Florist 發花癲",
         "about": "曾跟隨多位世界大師學習花藝, 當中有Catherine Muller (巴黎), Jane Packer (倫敦), Diny Blom (荷蘭), New York Flower School (紐約)，偏愛自然風格派系。\n\nEricaceae 乃是杜鵑花科植物，讀音 \"Erica C\" 剛好係Erica Chan",
-        "categories": [
-          "Florist",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "太子塘尾道66-68號福強工業大厦B座1301室",
-        "area": "Hong Kong",
-        "email": "eriaceae.hk@gmail.com",
-        "tel": "97817511"
+        "emails": [
+          "eriaceae.hk@gmail.com"
+        ],
+        "single_line_address": "太子塘尾道66-68號福強工業大厦B座1301室, Hong Kong",
+        "website": "www.ericaceae.hk"
       },
       "url": "https://www.facebook.com/ericaceae.hk/"
     },

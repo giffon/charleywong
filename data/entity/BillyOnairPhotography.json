@@ -9,13 +9,20 @@
     },
     {
       "meta": {
-        "name": "Billy Onair Photography",
         "id": "179328095431325",
+        "username": "BillyOnairPhotography",
+        "name": "Billy Onair Photography",
         "about": "Wedding and Portrait Photographer in Hong Kong",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "info@billyhung.com"
+        "emails": [
+          "info@billyhung.com"
+        ],
+        "website": "http://www.billyhung.com"
       },
       "url": "https://www.facebook.com/BillyOnairPhotography/"
     },

@@ -10,12 +10,19 @@
     {
       "meta": {
         "id": "113698263356194",
+        "username": "pepelovehk",
+        "name": "Pepe.hk",
         "about": "Do you hear the pepe sing?",
-        "categories": [
-          "Politician"
+        "category_list": [
+          {
+            "id": "1314020451960517",
+            "name": "Media"
+          }
         ],
-        "email": "info@pepe.hk",
-        "tel": "56896278"
+        "emails": [
+          "info@pepe.hk"
+        ],
+        "website": "www.pepe.hk"
       },
       "url": "https://www.facebook.com/pepelovehk/"
     }

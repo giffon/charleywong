@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/chillplacecowork/",
       "meta": {
-        "name": "Chill Place 草坪",
         "id": "854873244702905",
+        "username": "chillplacecowork",
+        "name": "Chill Place 草坪",
         "about": "草坪不單單是一個共享工作空間，由流動辦公桌到溫習室或會議室，我們的理念是為大家提供一片寧靜及舒適的環境，",
-        "categories": [
-          "Local Service"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "addr": "12/F., 69A Wuhu Street",
-        "area": "Kowloon, Hong Kong",
-        "email": "ask.me@chill-place.com",
-        "tel": "25560800"
+        "emails": [
+          "ask.me@chill-place.com"
+        ],
+        "single_line_address": "12/F., 69A Wuhu Street, Kowloon, Hong Kong",
+        "website": "https://www.chill-place.com"
       }
     },
     {

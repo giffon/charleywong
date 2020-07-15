@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/bananafactoryhk/",
       "meta": {
-        "name": "Banana Factory",
         "id": "581435738569002",
+        "username": "bananafactoryhk",
+        "name": "Banana Factory",
         "about": "膽正命平做得唔鬧得之，我地真係咩都做﹗",
-        "categories": [
-          "Event"
+        "category_list": [
+          {
+            "id": "192119584190796",
+            "name": "Event"
+          }
         ],
-        "addr": "六合街 25-27號",
-        "area": "Hong Kong",
-        "email": "info@bananafactory.com.hk",
-        "tel": "23821408"
+        "emails": [
+          "info@bananafactory.com.hk"
+        ],
+        "single_line_address": "六合街 25-27號, Hong Kong"
       }
     },
     {

@@ -7,14 +7,20 @@
     {
       "url": "https://www.facebook.com/YHealth.HK/",
       "meta": {
-        "name": "卓爾中醫綜合治療中心",
         "id": "151265665472889",
-        "about": "楊澤琪博士 註冊中醫師(全科) (針灸)\n香港中醫藥管理委員會 - 註冊編號:005207\n廣州中醫藥大學學士、碩士、博士、客席講師\n威斯蘭製藥(香港)有限公司-中藥研究主任\n國際中醫中藥總會 - 理監事",
-        "categories": [
-          "Doctor"
+        "username": "YHealth.HK",
+        "name": "卓爾中醫綜合治療中心",
+        "about": "楊澤琪博士 註冊中醫師(全科) (針灸)\n香港中醫藥管理委員會 - 註冊編號:005207\n廣州中醫藥大學學士、碩士、博士、客席講師\n威斯蘭製藥(香港)有限公司-中藥研究主任\n國際中醫中藥總會 - 理監事\n",
+        "category_list": [
+          {
+            "id": "188234584533149",
+            "name": "Doctor"
+          }
         ],
-        "email": "dryeungchakki@gmail.com",
-        "tel": "23386768"
+        "emails": [
+          "dryeungchakki@gmail.com"
+        ],
+        "website": "http://YHealth.HK"
       }
     }
   ],

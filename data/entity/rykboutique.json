@@ -10,11 +10,20 @@
     {
       "meta": {
         "id": "2273947946194153",
+        "username": "rykboutique",
+        "name": "RyK Boutique",
         "about": "#Fashion",
-        "categories": [
-          "Shopping & retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "info.ryk.b@gmail.com"
+        "emails": [
+          "info.ryk.b@gmail.com"
+        ],
+        "single_line_address": "00852 Hong Kong",
+        "website": "https://wa.me/85261766320"
       },
       "url": "https://www.facebook.com/rykboutique/"
     }

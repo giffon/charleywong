@@ -7,14 +7,19 @@
     {
       "meta": {
         "id": "1535448016742189",
+        "username": "kiddiegardenhk",
+        "name": "Kiddie Garden",
         "about": "教養孩童，使他走當行的道，就是到老他也不偏離。(箴 22:6)",
-        "categories": [
-          "School"
+        "category_list": [
+          {
+            "id": "2601",
+            "name": "School"
+          }
         ],
-        "addr": "Flat A, 10/F, Pylon Tower, Fui Yiu Kok Street 12-16, Tusen Wan",
-        "area": "Hong Kong",
-        "email": "info@kiddiegarden.com.hk",
-        "tel": "34228488"
+        "emails": [
+          "info@kiddiegarden.com.hk"
+        ],
+        "single_line_address": "Hong Kong"
       },
       "url": "https://www.facebook.com/kiddiegardenhk/"
     }

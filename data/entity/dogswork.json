@@ -7,15 +7,29 @@
   "webpages": [
     {
       "meta": {
-        "name": "小久工場 DOGSWORK",
         "id": "152426158816207",
+        "username": "dogswork",
+        "name": "小久工場 DOGSWORK",
         "about": "「小久工場」是一家以香港文化為題材的精品文具店：）\n\n商品類型主要圍繞「生活日常」、「紙卡文具」及「裝飾配件」等⋯⋯",
-        "categories": [
-          "Cultural Gifts Store",
-          "Arts & Crafts Store",
-          "Hobby Store"
+        "category_list": [
+          {
+            "id": "180816211956170",
+            "name": "Cultural Gifts Store"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "1787166534852540",
+            "name": "Hobby Store"
+          }
         ],
-        "email": "dogsworkhk@gmail.com"
+        "emails": [
+          "dogsworkhk@gmail.com"
+        ],
+        "single_line_address": "852 Hong Kong",
+        "website": "https://www.pinkoi.com/store/dogswork"
       },
       "url": "https://www.facebook.com/dogswork/"
     },

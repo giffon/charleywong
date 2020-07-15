@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/sproutsinajar/",
       "meta": {
-        "name": "Sprouts in a Jar",
         "id": "182945515690915",
+        "username": "sproutsinajar",
+        "name": "Sprouts in a Jar",
         "about": "自栽自吃，一星期可收穫的健康美味！\n天然。\n無農藥。\n無基因改造。\n\nGrowing sprouts make easier.\nStart your stress relieving sprout-growing journey with us today :-D",
-        "categories": [
-          "Health Food Store"
+        "category_list": [
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          }
         ],
-        "email": "hi@sproutsinajar.com",
-        "tel": "63965859"
+        "emails": [
+          "hi@sproutsinajar.com"
+        ],
+        "website": "https://sproutsinajar.com/"
       }
     },
     {

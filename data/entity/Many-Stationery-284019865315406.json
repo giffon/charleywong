@@ -10,14 +10,16 @@
     },
     {
       "meta": {
-        "name": "文林文具Many Stationery",
         "id": "284019865315406",
-        "categories": [
-          "Shopping & Retail"
+        "name": "文林文具Many Stationery",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "65 G/F., Un Chau Street, Shamshuipo",
-        "area": "00000 Kowloon, Hong Kong",
-        "tel": "23600789"
+        "single_line_address": "65 G/F., Un Chau Street, Shamshuipo, 00000 Kowloon, Hong Kong",
+        "website": "http://www.many.hk"
       },
       "url": "https://www.facebook.com/284019865315406/"
     }

@@ -6,17 +6,27 @@
   "webpages": [
     {
       "meta": {
-        "name": "Sogno Gelato",
         "id": "301802180478254",
-        "categories": [
-          "Ice Cream Shop",
-          "Shopping & Retail",
-          "Gelato Shop"
+        "username": "Sogno.Gelato.HK",
+        "name": "Sogno Gelato",
+        "category_list": [
+          {
+            "id": "200863816597800",
+            "name": "Ice Cream Shop"
+          },
+          {
+            "id": "1194170890614519",
+            "name": "Gelato Shop"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "荃新天地二期UG樓85 | Room 85, UG/F, Tsuen Wan, Kowloon",
-        "area": "Tsuen Wan, Hong Kong",
-        "email": "sogno.gelato.hk@gmail.com",
-        "tel": "60984187"
+        "emails": [
+          "sogno.gelato.hk@gmail.com"
+        ],
+        "single_line_address": "荃新天地二期UG樓85 | Room 85, UG/F, Tsuen Wan, Kowloon, Tsuen Wan, Hong Kong"
       },
       "url": "https://www.facebook.com/Sogno.Gelato.HK/"
     },

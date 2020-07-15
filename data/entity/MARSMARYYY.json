@@ -6,12 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "MARS MARY",
         "id": "228306900633881",
-        "about": "a girl from Mars\nan illustrator.",
-        "categories": [
-          "Artist"
-        ]
+        "username": "MARSMARYYY",
+        "name": "MARS MARY",
+        "about": "a girl from Mars\nan illustrator.\n",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
+        ],
+        "website": "www.marsmary.com"
       },
       "url": "https://www.facebook.com/MARSMARYYY/"
     },

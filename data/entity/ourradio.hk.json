@@ -10,14 +10,24 @@
     {
       "url": "https://www.facebook.com/ourradio.hk/",
       "meta": {
-        "name": "OurRadio Hk",
         "id": "1518467111746378",
+        "username": "ourradio.hk",
+        "name": "OurRadio Hk",
         "about": "為了讓這個單一化社會加添多元色彩",
-        "categories": [
-          "Radio Station",
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "1210",
+            "name": "Radio Station"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "email": "ourradio.hk@gmail.com"
+        "emails": [
+          "ourradio.hk@gmail.com"
+        ],
+        "website": "http://www.ourradio.hk"
       }
     }
   ],

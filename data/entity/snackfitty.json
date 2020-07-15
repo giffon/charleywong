@@ -10,15 +10,24 @@
     {
       "url": "https://www.facebook.com/snackfitty/",
       "meta": {
-        "name": "SnackFitty",
         "id": "1924786347818208",
+        "username": "snackfitty",
+        "name": "SnackFitty",
         "about": "你的健康零食專門店\nYour Health Snack Shop",
-        "categories": [
-          "Health/Beauty",
-          "Health Food Store"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          }
         ],
-        "email": "sandylam@snackfitty.com",
-        "tel": "23768855"
+        "emails": [
+          "sandylam@snackfitty.com"
+        ],
+        "website": "www.snackfitty.com"
       }
     },
     {

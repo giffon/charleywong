@@ -17,14 +17,21 @@
     {
       "url": "https://www.facebook.com/wildrootsorganic/",
       "meta": {
-        "name": "Wildroots Organic Farm",
         "id": "165596730210330",
-        "about": "Wildroots Organic Farm specialises in urban farming. We design, build and manage rooftop farms. And we teach urban farming and sustainability workshops at HKU, PolyU and many schools.",
-        "categories": [
-          "Urban Farm"
+        "username": "wildrootsorganic",
+        "name": "Wildroots Organic Farm",
+        "about": "Wildroots Organic Farm specialises in urban farming. We design, build and manage rooftop farms. And we teach urban farming and sustainability workshops at HKU, PolyU and many schools. ",
+        "category_list": [
+          {
+            "id": "239455319478077",
+            "name": "Urban Farm"
+          }
         ],
-        "email": "fai@wildrootsorganic.com",
-        "tel": "97319120"
+        "emails": [
+          "fai@wildrootsorganic.com"
+        ],
+        "single_line_address": "n/a Fanling",
+        "website": "http://wildrootsorganic.com/"
       }
     }
   ],

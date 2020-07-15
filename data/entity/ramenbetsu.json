@@ -10,31 +10,45 @@
     },
     {
       "meta": {
-        "name": "博多拉麵別天神",
         "id": "2539626856177670",
+        "username": "ramenbetsu",
+        "name": "博多拉麵別天神",
         "about": "豚骨湯的材料亦只有大量的『豬骨』和『水』兩種，因此絕不含任何味精、防腐劑或奶類製品。",
-        "categories": [
-          "Ramen Restaurant"
+        "category_list": [
+          {
+            "id": "218838724804749",
+            "name": "Ramen Restaurant"
+          }
         ],
-        "addr": "Hong Kong",
-        "area": "Hong Kong",
-        "email": "admin@ramenbetsu.com"
+        "emails": [
+          "admin@ramenbetsu.com"
+        ],
+        "single_line_address": "Hong Kong, Hong Kong",
+        "website": "www.ramenbetsu.com"
       },
       "url": "https://www.facebook.com/ramenbetsu/"
     },
     {
       "url": "https://www.facebook.com/betsutenjin.ramen/",
       "meta": {
-        "name": "博多拉麵別天神",
         "id": "406484296110202",
-        "categories": [
-          "Ramen Restaurant",
-          "Diner"
+        "username": "betsutenjin.ramen",
+        "name": "博多拉麵別天神",
+        "category_list": [
+          {
+            "id": "218838724804749",
+            "name": "Ramen Restaurant"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "銅鑼灣告士打道277號地鋪",
-        "area": "Causeway Bay",
-        "email": "betsutenjin@gmail.com",
-        "tel": "34882693"
+        "emails": [
+          "betsutenjin@gmail.com"
+        ],
+        "single_line_address": "銅鑼灣告士打道277號地鋪, Causeway Bay",
+        "website": "https://instagram.com/betsutenjin.ramen"
       },
       "hidden": true
     },

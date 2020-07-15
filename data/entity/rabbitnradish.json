@@ -10,12 +10,23 @@
     {
       "meta": {
         "id": "273522309483996",
-        "about": "Rabbit & Radish (大根兔) 嬰幼兒親子用品專門店",
-        "categories": [
-          "Baby goods/children's goods",
-          "Household supplies"
+        "username": "rabbitnradish",
+        "name": "Rabbit n Radish",
+        "about": "Rabbit & Radish (大根兔) 嬰幼兒親子用品專門店\n",
+        "category_list": [
+          {
+            "id": "2232",
+            "name": "Baby Goods/Kids Goods"
+          },
+          {
+            "id": "2220",
+            "name": "Household Supplies"
+          }
         ],
-        "email": "rabbitnradish@gmail.com"
+        "emails": [
+          "rabbitnradish@gmail.com"
+        ],
+        "website": "http://www.rabbitnradish.com"
       },
       "url": "https://www.facebook.com/rabbitnradish/"
     }

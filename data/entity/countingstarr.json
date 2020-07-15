@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Counting.starr 潮物波鞋代購",
         "id": "1647044325510179",
+        "username": "countingstarr",
+        "name": "Counting.starr 潮物波鞋代購",
         "about": "主要以兼價高質作為本店宗旨!",
-        "categories": [
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "旺角好景商業中心21樓17室",
-        "area": "Mong Kok",
-        "email": "countingstarrr@gmail.com",
-        "tel": "69350646"
+        "emails": [
+          "countingstarrr@gmail.com"
+        ],
+        "single_line_address": "旺角好景商業中心21樓17室, Mong Kok",
+        "website": "http://instagram.com/counting.starr"
       },
       "url": "https://www.facebook.com/countingstarr/"
     },

@@ -7,14 +7,20 @@
     {
       "url": "https://www.facebook.com/slidershk/",
       "meta": {
-        "name": "The Sliders Hong Kong",
         "id": "395043800998346",
+        "username": "slidershk",
+        "name": "The Sliders Hong Kong",
         "about": "台灣手工單車 /  精品單車 /  寵物單車  \nHandmade Bikes from Taiwan",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "theslidershk@gmail.com",
-        "tel": "96203797"
+        "emails": [
+          "theslidershk@gmail.com"
+        ],
+        "single_line_address": "Kam Sheung Road Station, West Railway, Yuen Kong, Hong Kong"
       }
     }
   ],

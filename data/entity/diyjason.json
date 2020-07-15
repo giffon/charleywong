@@ -6,14 +6,25 @@
   "webpages": [
     {
       "meta": {
+        "id": "351407071564839",
+        "username": "diyjason",
+        "name": "手作J - 橡皮印章",
         "about": "人手製作寫實人像及寵物橡皮印章，歡迎Inbox查詢訂造詳情。",
-        "categories": [
-          "Artist",
-          "Product/service"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "hkdiyjason@gmail.com",
-        "tel": "97729759",
-        "id": "351407071564839"
+        "emails": [
+          "info@diyjason.com"
+        ],
+        "single_line_address": "Hong Kong, 852 Hong Kong",
+        "website": "http://www.diyjason.com"
       },
       "url": "https://www.facebook.com/diyjason/"
     },

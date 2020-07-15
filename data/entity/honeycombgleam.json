@@ -7,17 +7,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "honeycomb gleam。微光蜂舍",
         "id": "1444151279167138",
+        "username": "honeycombgleam",
+        "name": "honeycomb gleam。微光蜂舍",
         "about": "實體店不定開，最好預約 -> 6228 4197\n\n微光，和暖而不絢爛\n蜂舍，蜜蜂的家，散發香甜氣息\n\n一格格鞏固的六角柱體組成蜂巢\n一朵朵溫婉的鮮花拼湊成花束\n一個個甜蜜的故事編寫成《微光蜂舍》",
-        "categories": [
-          "Florist",
-          "Business Service"
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          },
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          }
         ],
-        "addr": "紅磡漆咸道北468號地下A及B舖",
-        "area": "Hong Kong",
-        "email": "hello@honeycombgleam.com",
-        "tel": "62284197"
+        "emails": [
+          "hello@honeycombgleam.com"
+        ],
+        "single_line_address": "紅磡漆咸道北468號地下A及B舖, Hong Kong"
       },
       "url": "https://www.facebook.com/honeycombgleam/"
     },

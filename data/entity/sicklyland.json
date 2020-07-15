@@ -7,15 +7,16 @@
     {
       "url": "https://www.facebook.com/sicklyland/",
       "meta": {
-        "name": "悉尼樂園",
         "id": "111740840505954",
-        "categories": [
-          "Restaurant",
-          "Coffee Shop"
+        "username": "sicklyland",
+        "name": "悉尼樂園",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "銅鑼灣邊寧頓街9-11號登龍閣2A",
-        "area": "Hong Kong",
-        "tel": "36195612"
+        "single_line_address": "銅鑼灣邊寧頓街9-11號登龍閣2A, Hong Kong"
       }
     },
     {

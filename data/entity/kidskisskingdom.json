@@ -17,16 +17,21 @@
     {
       "url": "https://www.facebook.com/kidskisskingdom/",
       "meta": {
-        "name": "KidsKiss Kingdom親子主題餐廳",
         "id": "366809030460951",
+        "username": "kidskisskingdom",
+        "name": "KidsKiss Kingdom親子主題餐廳",
         "about": "KidsKiss Kingdom成立的理念，銳意成為一間集學習和玩樂並容的親子主題餐廳。佔地達九千尺，為父母與孩子提供廣闊無壓力、多方的玩樂暨飲食空間。\n訂座連結: https://www.kidskisskingdom.com/",
-        "categories": [
-          "Theme Restaurant"
+        "category_list": [
+          {
+            "id": "1738077623073078",
+            "name": "Theme Restaurant"
+          }
         ],
-        "addr": "沙田石門安群街3號京瑞廣場一期1樓162舖",
-        "area": "Hong Kong",
-        "email": "info@kidskiss.com",
-        "tel": "28822779"
+        "emails": [
+          "info@kidskiss.com"
+        ],
+        "single_line_address": "沙田石門安群街3號京瑞廣場一期1樓162舖, HK Hong Kong",
+        "website": "http://kidskisskingdom.com"
       }
     }
   ],

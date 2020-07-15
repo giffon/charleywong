@@ -7,14 +7,23 @@
     {
       "url": "https://www.facebook.com/neverendingstoryhk/",
       "meta": {
-        "name": "Never Ending Story",
         "id": "171709596943587",
+        "username": "neverendingstoryhk",
+        "name": "Never Ending Story",
         "about": "- Bespoke bouquet\n- Bridal Bouquet \n- Decoration \n- Lesson",
-        "categories": [
-          "Florist",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "janiceiu.epc@gmail.com"
+        "emails": [
+          "janiceiu.epc@gmail.com"
+        ]
       }
     },
     {

@@ -11,15 +11,20 @@
     {
       "url": "https://www.facebook.com/greenwoodshk/",
       "meta": {
-        "name": "綠野林 GreenWoods",
         "id": "579009885565593",
-        "categories": [
-          "Alternative & Holistic Health Service"
+        "username": "greenwoodshk",
+        "name": "綠野林 GreenWoods",
+        "category_list": [
+          {
+            "id": "357645644269220",
+            "name": "Alternative & Holistic Health Service"
+          }
         ],
-        "addr": "九龍尖沙咀加拿分道2號13樓",
-        "area": "Hong Kong",
-        "email": "info.lifeflow@gmail.com",
-        "tel": "34282416"
+        "emails": [
+          "info.lifeflow@gmail.com"
+        ],
+        "single_line_address": "九龍尖沙咀加拿分道2號13樓, Hong Kong",
+        "website": "http://www.greenwoodshk.org"
       }
     },
     {

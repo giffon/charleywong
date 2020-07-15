@@ -10,18 +10,29 @@
     },
     {
       "meta": {
-        "name": "恆富註册 ‧ Formation Kit",
         "id": "1416214825309611",
+        "username": "formationkit",
+        "name": "恆富註册 ‧ Formation Kit",
         "about": "恒富 - 成立香港公司, 註冊有限公司, 公司秘書, 公司註冊地址, 註冊離岸公司, 協助銀行開戶, 商標註冊, 工作簽證, 稅務諮詢\n\nwww.formationkit.com",
-        "categories": [
-          "Accountant",
-          "Consulting Agency",
-          "Business Consultant"
+        "category_list": [
+          {
+            "id": "139976092733827",
+            "name": "Accountant"
+          },
+          {
+            "id": "2248",
+            "name": "Consulting Agency"
+          },
+          {
+            "id": "179672275401610",
+            "name": "Business Consultant"
+          }
         ],
-        "addr": "17/F, Winner Commercial Building, 401-3 Lockhart Road, Causeway Bay",
-        "area": "Hong Kong",
-        "email": "cs@formationkit.com",
-        "tel": "22340477"
+        "emails": [
+          "cs@formationkit.com"
+        ],
+        "single_line_address": "17/F, Winner Commercial Building, 401-3 Lockhart Road, Causeway Bay, Hong Kong",
+        "website": "www.formationkit.com"
       },
       "url": "https://www.facebook.com/formationkit/"
     }

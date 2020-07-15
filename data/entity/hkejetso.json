@@ -10,13 +10,20 @@
     },
     {
       "meta": {
-        "name": "HKeJetso 易著數 - 香港電子著數優惠分享平台",
         "id": "603712036638869",
+        "username": "hkejetso",
+        "name": "HKeJetso 易著數 - 香港電子著數優惠分享平台",
         "about": "全香港其中一個最齊全的電子著數優惠分享平台",
-        "categories": [
-          "Interest"
+        "category_list": [
+          {
+            "id": "1500",
+            "name": "Interest"
+          }
         ],
-        "email": "admin@hkejetso.com"
+        "emails": [
+          "admin@hkejetso.com"
+        ],
+        "website": "https://www.hkejetso.com"
       },
       "url": "https://www.facebook.com/hkejetso/"
     },

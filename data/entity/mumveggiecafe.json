@@ -10,17 +10,29 @@
     {
       "url": "https://www.facebook.com/mumveggiecafe/",
       "meta": {
-        "name": "Mum Veggie Cafe",
         "id": "441928712532909",
+        "username": "mumveggiecafe",
+        "name": "Mum Veggie Cafe",
         "about": "#mumveggiecafe",
-        "categories": [
-          "Vegetarian/Vegan Restaurant",
-          "Health Food Restaurant",
-          "Japanese Restaurant"
+        "category_list": [
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          },
+          {
+            "id": "156756251046858",
+            "name": "Health Food Restaurant"
+          },
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "addr": "Shop 8, LG, Eaton Hotel, 380 Nathan Road, Jordan, Kowloon. HK",
-        "area": "Hong Kong",
-        "email": "love@mum-hk.com"
+        "emails": [
+          "love@mum-hk.com"
+        ],
+        "single_line_address": "Shop 8, LG, Eaton Hotel, 380 Nathan Road, Jordan, Kowloon. HK, Hong Kong",
+        "website": "www.mum-hk.com"
       }
     },
     {

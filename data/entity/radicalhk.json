@@ -10,15 +10,28 @@
     {
       "url": "https://www.facebook.com/radicalhk/",
       "meta": {
-        "name": "基進報導",
         "id": "1611978432384272",
+        "username": "radicalhk",
+        "name": "基進報導",
         "about": "一種關注，深耕細作",
-        "categories": [
-          "Media/News Company",
-          "News & Media Website",
-          "Media"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          },
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          },
+          {
+            "id": "1314020451960517",
+            "name": "Media"
+          }
         ],
-        "email": "contact@radicalhk.com"
+        "emails": [
+          "contact@radicalhk.com"
+        ],
+        "website": "http://RadicalHK.com/"
       }
     },
     {

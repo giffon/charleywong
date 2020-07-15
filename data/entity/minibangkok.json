@@ -8,18 +8,21 @@
     {
       "url": "https://www.facebook.com/minibangkok/",
       "meta": {
-        "name": "小曼谷 Mini Bangkok มินิบางกอก",
         "id": "559635134062808",
+        "username": "minibangkok",
+        "name": "小曼谷 Mini Bangkok มินิบางกอก",
         "about": "九龍城一向有\"小曼谷\"之稱，歡迎大家到這美食之城尋找\"小曼谷\"的香氣\n九龍城人氣泰國餐廳，由泰藉大廚烹調傳統泰菜，每晚9pm後現場LIVE MUSIC，盡享泰式情懷。\n立即讚好專頁，最新優惠資訊",
-        "categories": [
-          "Thai Restaurant",
-          "Asian Fusion Restaurant",
-          "Deli"
+        "category_list": [
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          }
         ],
-        "addr": "銅鑼灣謝斐道535號 Tower535 地庫B02",
-        "area": "Kowloon, Hong Kong",
-        "email": "minibangkokbbq@gmail.com",
-        "tel": "27167818"
+        "emails": [
+          "minibangkokbbq@gmail.com"
+        ],
+        "single_line_address": "銅鑼灣謝斐道535號 Tower535 地庫B02, Kowloon, Hong Kong",
+        "website": "http://minibangkokbbq.com/"
       }
     }
   ],

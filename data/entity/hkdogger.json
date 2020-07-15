@@ -6,16 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "DOGGER",
         "id": "1281394865222888",
+        "username": "hkdogger",
+        "name": "DOGGER",
         "about": "DOGGER 提供犬隻訓練、寵物美容、日托、寵物用品零售、寵物出入境\nDOGGER provides dog training, pet groom, day care, pet products, Pet immigration services\n\nShop 1, 98-100 Catchick Street, Kennedy Town \nTel ︰ (852) 2388 4088",
-        "categories": [
-          "Pet Service"
+        "category_list": [
+          {
+            "id": "144982405562750",
+            "name": "Pet Service"
+          }
         ],
-        "addr": "吉席街98號地下1號舖",
-        "area": "Kennedy Town, Hong Kong",
-        "email": "doggerhk@gmail.com",
-        "tel": "23884088"
+        "emails": [
+          "doggerhk@gmail.com"
+        ],
+        "single_line_address": "吉席街98號地下1號舖, Kennedy Town, Hong Kong"
       },
       "url": "https://www.facebook.com/hkdogger/"
     },

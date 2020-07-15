@@ -6,16 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "集記五金機械行",
         "id": "1343736479039990",
+        "username": "JiKee.Huang",
+        "name": "集記五金機械行",
         "about": "五金電動工具，來集記五金機械行幫到你",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "148906328500868",
+            "name": "Hardware Store"
+          }
         ],
-        "addr": "新填地街461B號地舖",
-        "area": "852 Hong Kong",
-        "email": "kennywong0625@gmail.com",
-        "tel": "91684911"
+        "emails": [
+          "kennywong0625@gmail.com"
+        ],
+        "single_line_address": "新填地街474號, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/JiKee.Huang/"
     },

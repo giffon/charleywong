@@ -9,16 +9,29 @@
     },
     {
       "meta": {
-        "name": "Jn Workshop",
         "id": "601768049940663",
+        "username": "JnWorkshop",
+        "name": "Jn Workshop",
         "about": "香港尖沙咀加連威老道18號僑業大廈4樓B室(3482 3458)",
-        "categories": [
-          "Health/Beauty",
-          "Cosmetics Store",
-          "Hair Removal Service"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "144873802247220",
+            "name": "Cosmetics Store"
+          },
+          {
+            "id": "128905757179140",
+            "name": "Hair Removal Service"
+          }
         ],
-        "email": "jn@jnworkshop.com",
-        "tel": "34823458"
+        "emails": [
+          "jn@jnworkshop.com"
+        ],
+        "single_line_address": "香港尖沙咀加連威老道18號僑業大廈4/F B室(3482 3458), Tsim Sha Tsui",
+        "website": "http://www.jnworkshop.com"
       },
       "url": "https://www.facebook.com/JnWorkshop/"
     },

@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Cafe REVOL",
         "id": "1630196367310399",
+        "username": "caferevol",
+        "name": "Cafe REVOL",
         "about": "《Cafe Revol》以畫廊為設計概念，提供優質的咖啡及精緻的創意輕食。\n\nInspired by art gallery, “Café Revol\" is a place with exotic design items, good coffee and creative light meals.",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "Shop No.5, G/F, Fortune Terrace, 4-16 Tak Shing Street, Jordan, Kowloon",
-        "area": "Hong Kong",
-        "tel": "37020170"
+        "single_line_address": "Shop No.5, G/F, Fortune Terrace, 4-16 Tak Shing Street, Jordan, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/caferevol/"
     },

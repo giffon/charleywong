@@ -6,17 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "SINCE SALON",
         "id": "212963162406",
-        "about": "Since Salon 1999年成立\n在 馬鞍山 屹立 20年\n我們是一群為了\n讓客人更美麗.....而努力奮鬥的美髮師\n希望 為你創造一個 \n設計 與 生活 並存的髮型\n讓你看著鏡中的自己\n[ 能 成為 最好 的 自己 ]",
-        "categories": [
-          "Barber Shop",
-          "Hair Salon"
+        "username": "sincesalon",
+        "name": "SINCE SALON",
+        "about": "Since Salon 1999年成立\n在 馬鞍山 屹立 20年\n我們是一群為了\n讓客人更美麗.....而努力奮鬥的美髮師\n希望 為你創造一個 \n設計 與 生活 並存的髮型\n讓你看著鏡中的自己\n[ 能 成為 最好 的 自己 ]\n",
+        "category_list": [
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          },
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          },
+          {
+            "id": "1615",
+            "name": "Designer"
+          }
         ],
-        "addr": "沙田馬鞍山西沙路608號馬鞍山中心A01號地鋪",
-        "area": "Hong Kong",
-        "email": "sincesalon@gmail.com",
-        "tel": "26335551"
+        "emails": [
+          "sincesalon@gmail.com"
+        ],
+        "single_line_address": "Shop A01 , G /F ,\n1 On Chun Street , \nMa On Shan Centre.\nMa On Shan . NT .HONGKONG, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/sincesalon/"
     },

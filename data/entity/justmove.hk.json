@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
+        "id": "281218782271462",
+        "username": "justmove.hk",
+        "name": "Just Move Limited",
         "about": "We never stop, we Just Move!",
-        "categories": [
-          "Internet company"
+        "category_list": [
+          {
+            "id": "2256",
+            "name": "Internet Company"
+          }
         ],
-        "email": "info@justmove.com.hk",
-        "tel": "31114122",
-        "id": "281218782271462"
+        "emails": [
+          "info@justmove.com.hk"
+        ],
+        "website": "https://justmove.hk"
       },
       "url": "https://www.facebook.com/justmove.hk/"
     }

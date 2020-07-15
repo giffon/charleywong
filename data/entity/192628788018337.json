@@ -7,14 +7,15 @@
     {
       "url": "https://www.facebook.com/192628788018337/",
       "meta": {
-        "name": "芝C Sushi",
         "id": "192628788018337",
-        "categories": [
-          "Sushi Restaurant"
+        "name": "芝C Sushi",
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          }
         ],
-        "addr": "藍田匯景廣場L5，66號舖",
-        "area": "Lam Tin",
-        "tel": "65286855"
+        "single_line_address": "藍田匯景廣場L5，66號舖, Lam Tin"
       }
     }
   ],

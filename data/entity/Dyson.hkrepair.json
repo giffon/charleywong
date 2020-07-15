@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Dyson.hkrepair 港澳維修/ 深層清潔站",
         "id": "545556315623223",
+        "username": "Dyson.hkrepair",
+        "name": "Dyson.hkrepair 港澳維修/ 深層清潔站",
         "about": "本店提供代購Dyson吸麈機、風筒、風扇服務，我們還提供Dyson吸麈機、風筒、風扇配件代購、行貨或水貨維修、我們還提供Dyson吸麈機詳細檢查和深層清潔，使到Dyson吸塵機壽命更長。",
-        "categories": [
-          "Tools/Equipment"
+        "category_list": [
+          {
+            "id": "2223",
+            "name": "Tools/Equipment"
+          }
         ],
-        "email": "dyson.hkrepair@gmail.com"
+        "emails": [
+          "dyson.hkrepair@gmail.com"
+        ],
+        "website": "https://m.facebook.com/Dyson.hkrepair"
       },
       "url": "https://www.facebook.com/Dyson.hkrepair/"
     },

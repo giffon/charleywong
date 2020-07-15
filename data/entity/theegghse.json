@@ -7,14 +7,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "雞蛋屋 The Egg House",
         "id": "104715201037515",
-        "categories": [
-          "Taiwanese Restaurant"
+        "username": "theegghse",
+        "name": "雞蛋屋 The Egg House",
+        "category_list": [
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          }
         ],
-        "addr": "Flat A, 2/F, Ko's House , 577 Nathan Road ,",
-        "area": "Hong Kong",
-        "tel": "98391424"
+        "single_line_address": "Flat A, 2/F, Ko's House , 577 Nathan Road ,, Hong Kong"
       },
       "url": "https://www.facebook.com/theegghse/"
     },

@@ -9,16 +9,28 @@
     },
     {
       "meta": {
-        "name": "香港高級食品批發－鮮達",
         "id": "274071526834929",
+        "username": "hkg.premiumfood",
+        "name": "香港高級食品批發－鮮達",
         "about": "香港高級食品批發(鮮達)一站式提供各種高級食品. 我們在世界各地,進口精選肉類食材, 口碑載譽, 信心保證. 歡迎光臨選購.",
-        "categories": [
-          "Food Delivery Service",
-          "Meat Wholesaler",
-          "Health Food Store"
+        "category_list": [
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          },
+          {
+            "id": "1237052559660497",
+            "name": "Meat Wholesaler"
+          },
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          }
         ],
-        "email": "sintat.foods@gmail.com",
-        "tel": "39969024"
+        "emails": [
+          "sintat.foods@gmail.com"
+        ],
+        "website": "http://www.sintatfoods.com/"
       },
       "url": "https://www.facebook.com/hkg.premiumfood/"
     },

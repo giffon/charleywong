@@ -7,16 +7,27 @@
     {
       "url": "https://www.facebook.com/collectmomentsleather/",
       "meta": {
-        "name": "Collect Moments Leather Workshop",
         "id": "325032777652316",
+        "username": "collectmomentsleather",
+        "name": "Collect Moments Leather Workshop",
         "about": "Collect Moments 是一間本地全人手製作皮革的工作室。我們設有度身訂造的皮革班，訂製皮具，Kingsley 燙金服務，各大少公司團體班！",
-        "categories": [
-          "Product/Service",
-          "Retail Company",
-          "Business Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          }
         ],
-        "email": "collect_moments_leather@hotmail.com",
-        "tel": "69092189"
+        "emails": [
+          "collect_moments_leather@hotmail.com"
+        ]
       }
     },
     {

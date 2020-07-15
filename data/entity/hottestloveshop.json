@@ -6,16 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "name": "Hottestloveshop",
         "id": "217525461624424",
-        "about": "『每一針一線都是我們用心的製作，\n每一個設計也埋藏著我們一點一滴的心意。』\n/\n任何設計的工作／合作也可找我們！",
-        "categories": [
-          "Product/Service",
-          "Shopping & Retail",
-          "Design & Fashion"
+        "username": "hottestloveshop",
+        "name": "Hottestloveshop",
+        "about": "『每一針一線都是我們用心的製作，\n每一個設計也埋藏著我們一點一滴的心意。』\n/\n任何設計的工作／合作也可找我們！\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          }
         ],
-        "email": "hottestloveshop@gmail.com",
-        "tel": "69281843"
+        "emails": [
+          "hottestloveshop@gmail.com"
+        ],
+        "single_line_address": "852",
+        "website": "https://hottestloveshop.shoplineapp.com/"
       },
       "url": "https://www.facebook.com/hottestloveshop/"
     },

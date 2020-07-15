@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/107863397583840/",
       "meta": {
-        "name": "N-plus Production",
         "id": "107863397583840",
+        "name": "N-plus Production",
         "about": "為客戶提供各種 度身訂造Facebook及Instagram廣告。\n圖片設計﹑撰寫文案﹑附上廣告操作教學流程小貼士",
-        "categories": [
-          "Advertising/Marketing"
+        "category_list": [
+          {
+            "id": "1757592557789532",
+            "name": "Advertising/Marketing"
+          }
         ],
-        "addr": "503, 5/F., Winning House, 10-16 Cochrane Street,",
-        "area": "Central, Hong Kong",
-        "email": "n-plus@n-card.org",
-        "tel": "56908020"
+        "emails": [
+          "n-plus@n-card.org"
+        ],
+        "single_line_address": "503, 5/F., Winning House, 10-16 Cochrane Street,, Central, Hong Kong",
+        "website": "www.n-card.org"
       }
     },
     {

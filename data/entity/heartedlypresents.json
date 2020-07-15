@@ -7,16 +7,23 @@
     {
       "url": "https://www.facebook.com/heartedlypresents/",
       "meta": {
-        "name": "心耕手作",
         "id": "1975553672708718",
-        "categories": [
-          "Community Organization",
-          "Education"
+        "username": "heartedlypresents",
+        "name": "心耕手作",
+        "category_list": [
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          },
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "addr": null,
-        "area": "南涌",
-        "email": "heartedlypresents@gmail.com",
-        "tel": "66120801"
+        "emails": [
+          "heartedlypresents@gmail.com"
+        ],
+        "single_line_address": "南涌"
       }
     },
     {

@@ -11,14 +11,20 @@
     {
       "url": "https://www.facebook.com/lifeworkshop/",
       "meta": {
-        "name": "生命工場 Life Workshop",
         "id": "60806618803",
+        "username": "lifeworkshop",
+        "name": "生命工場 Life Workshop",
         "about": "對抗單一 Possibilities • 為生命打氣\n\n[網上購物/報名/捐款] \nhttp://lifeworkshop.ecwid.com/",
-        "categories": [
-          "Non-Governmental Organization (NGO)"
+        "category_list": [
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          }
         ],
-        "email": "info@lifeworkshop.org.hk",
-        "tel": "27898815"
+        "emails": [
+          "info@lifeworkshop.org.hk"
+        ],
+        "website": "http://www.lifeworkshop.org.hk/"
       }
     },
     {

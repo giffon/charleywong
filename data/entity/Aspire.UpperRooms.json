@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "Aspire Upper Room",
         "id": "323597045215267",
-        "about": "自修。創作。共享空間\n2小時免費體驗| 2日Weekday Plan只需$115\n租房低至每小時$88起 | 租場每小時$1,000\n\n星期一至日: 10:30am - 10:30pm\n地址: 炮台山電氣道168號2樓\n\nAspire Church 逢星期五晚 8pm - 10pm",
-        "categories": [
-          "Nonprofit Organization"
+        "username": "Aspire.UpperRooms",
+        "name": "Aspire Upper Room",
+        "about": "自修。創作。共享空間\n月費計劃：DSE學生$600 | 大專生$900 | 其他用戶$1800\n自選5日任用：DSE學生$300 | 大專生$400 | 其他用戶$480\n\nAspire Church 逢星期五晚 8pm - 10pm",
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          }
         ],
-        "email": "info@aspireupperroom.com",
-        "tel": "97244485"
+        "emails": [
+          "info@aspireupperroom.com"
+        ],
+        "single_line_address": "2/F, 168 Electric Road, Fortress Hill",
+        "website": "www.aspireupperroom.com"
       },
       "url": "https://www.facebook.com/Aspire.UpperRooms/"
     },

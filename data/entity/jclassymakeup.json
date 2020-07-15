@@ -6,14 +6,21 @@
   "webpages": [
     {
       "meta": {
+        "id": "180888471959619",
+        "username": "jclassymakeup",
+        "name": "J'Classy Makeup Studio",
         "about": "J'Classy Makeup Studio",
-        "categories": [
-          "Makeup artist"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "addr": "Koon Fook Centre, 9 Knutsford Terrace,",
-        "area": "Tsim Sha Tsui",
-        "email": "jclassymakeup@gmail.com",
-        "id": "180888471959619"
+        "emails": [
+          "jclassymakeup@gmail.com"
+        ],
+        "single_line_address": "Koon Fook Centre, 9 Knutsford Terrace,, Tsim Sha Tsui",
+        "website": "http://www.jclassy-makeup.com"
       },
       "url": "https://www.facebook.com/jclassymakeup/"
     },

@@ -8,17 +8,26 @@
     {
       "url": "https://www.facebook.com/GoldenSweetHouseDessert/",
       "meta": {
-        "name": "金糖滿屋甜品Golden Sweet House Dessert",
         "id": "301909077215343",
+        "username": "GoldenSweetHouseDessert",
+        "name": "金糖滿屋甜品Golden Sweet House Dessert",
         "about": "香港人加油�",
-        "categories": [
-          "Dessert Shop",
-          "Diner",
-          "Food Stand"
+        "category_list": [
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "元朗建業街98號滿利大廈地下G號舖",
-        "area": "852 Yuen Long",
-        "tel": "66798384"
+        "single_line_address": "元朗建業街98號滿利大廈地下G號舖, 852 Yuen Long",
+        "website": "https://goo.gl/maps/KPzR2BFGKa82"
       }
     }
   ],

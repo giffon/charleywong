@@ -7,13 +7,19 @@
     {
       "url": "https://www.facebook.com/mgfgrocery/",
       "meta": {
-        "name": "麻雞煩生活雜貨",
         "id": "110854813922078",
+        "username": "mgfgrocery",
+        "name": "麻雞煩生活雜貨",
         "about": "提供優質本地及海外的嬰幼兒產品及家庭食品。",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "mgfstorehk@gmail.com"
+        "emails": [
+          "mgfstorehk@gmail.com"
+        ]
       }
     }
   ],

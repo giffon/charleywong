@@ -6,18 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "Little Vegas",
         "id": "727415680629667",
+        "username": "littlevegashk",
+        "name": "Little Vegas",
         "about": "Based in Hong Kong",
-        "categories": [
-          "American Restaurant",
-          "New American Restaurant",
-          "Asian Fusion Restaurant"
+        "category_list": [
+          {
+            "id": "149803325077018",
+            "name": "American Restaurant"
+          },
+          {
+            "id": "110107385737667",
+            "name": "New American Restaurant"
+          },
+          {
+            "id": "174201535963762",
+            "name": "Asian Fusion Restaurant"
+          }
         ],
-        "addr": "銅鑼灣耀華街3號百樂中心25樓",
-        "area": "000 Hong Kong",
-        "email": "littleveashk@gmail.com",
-        "tel": "26222369"
+        "emails": [
+          "info@little-vegas.com"
+        ],
+        "single_line_address": "銅鑼灣耀華街3號百樂中心25樓, 000 Hong Kong"
       },
       "url": "https://www.facebook.com/littlevegashk/"
     },

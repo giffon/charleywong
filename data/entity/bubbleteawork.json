@@ -9,60 +9,75 @@
     },
     {
       "meta": {
-        "name": "丸·茶手作",
         "id": "317704111927027",
+        "username": "bubbleteawork",
+        "name": "丸。茶手作",
         "about": "丸茶手作Bubble Tea Work，成立於2016年，創辦人Eilif台灣台南人，現居香港。總店設立於香港何文田勝利道，因全球首創桂花口味珍珠而嶄露頭角，並於2017-2018年榮登【新假期】雜誌評選為全港第一",
-        "categories": [
-          "Bubble Tea Shop"
+        "category_list": [
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          }
         ],
-        "addr": "九龍何文田勝利道12號地舖1B",
-        "area": "Hong Kong",
-        "email": "bubbleteawork@gmail.com",
-        "tel": "27999265"
+        "emails": [
+          "bubbleteawork@gmail.com"
+        ],
+        "single_line_address": "九龍何文田勝利道12號地舖1B, Hong Kong",
+        "website": "https://bubbleteawork.co"
       },
       "url": "https://www.facebook.com/bubbleteawork/"
     },
     {
       "meta": {
-        "name": "丸·茶手作 - 太子店",
         "id": "211654616338093",
-        "categories": [
-          "Taiwanese Restaurant",
-          "Bubble Tea Shop"
+        "username": "bubbleteawork.princeedward",
+        "name": "丸·茶手作 - 太子店",
+        "category_list": [
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          },
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          }
         ],
-        "addr": "旺角太子西洋菜南街258-260號長寧大廈地下CD（Shop 1）",
-        "area": "Hong Kong",
-        "tel": "92677225"
+        "single_line_address": "旺角太子西洋菜南街258-260號長寧大廈地下CD（Shop 1）, Hong Kong"
       },
       "url": "https://www.facebook.com/bubbleteawork.princeedward/"
     },
     {
       "url": "https://www.facebook.com/317023692365762/",
       "meta": {
-        "name": "丸·茶手作 - 旺角店",
         "id": "317023692365762",
+        "name": "丸·茶手作 - 旺角店",
         "about": "創作出與別不同的珍珠奶茶\n更是全港唯一每天堅持自家在店內製作珍珠的奶茶店\n\n#丸茶手作 #珍珠奶茶 #手作珍珠 #台灣飲料 #自家製",
-        "categories": [
-          "Taiwanese Restaurant"
+        "category_list": [
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          }
         ],
-        "addr": "旺角通菜街121號地下3號舖",
-        "area": "0000 Hong Kong",
-        "email": "widl0810@yahoo.com",
-        "tel": "21119103"
+        "emails": [
+          "widl0810@yahoo.com"
+        ],
+        "single_line_address": "旺角通菜街121號地下3號舖, 0000 Hong Kong"
       }
     },
     {
       "url": "https://www.facebook.com/bubbleteaworkshekmun/",
       "meta": {
-        "name": "丸茶手作（石門京瑞店）",
         "id": "101199348182065",
-        "about": "丸茶 石門京瑞店 全球首創桂花味珍珠 每日新鮮製造",
-        "categories": [
-          "Restaurant"
+        "username": "bubbleteaworkshekmun",
+        "name": "丸茶手作（石門京瑞店）",
+        "about": "丸。茶 石門京瑞店 全球首創桂花味珍珠 每日新鮮製造",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "香港 新界 沙田 石門 京瑞廣場2期 101b3",
-        "area": "Hong Kong",
-        "tel": "66722549"
+        "single_line_address": "香港 新界 沙田 石門 京瑞廣場2期 101b3, Hong Kong"
       }
     },
     {

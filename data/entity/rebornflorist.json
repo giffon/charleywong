@@ -14,14 +14,21 @@
     },
     {
       "meta": {
-        "name": "叢生·森活 RebornFlorist",
         "id": "102726890202839",
+        "username": "rebornflorist",
+        "name": "叢生·森活 RebornFlorist",
         "about": "歡迎光臨叢生·森活！本店專售防輻射多肉植物，空氣草，精品小盆栽，微景觀，玻璃瓶裝飾品及其他小擺設。歡迎查詢！本店地址：屯門華都商場壹樓62A。WhatsApp: 98708671 Instagram: rebornflorist",
-        "categories": [
-          "Home Decor"
+        "category_list": [
+          {
+            "id": "192647794097278",
+            "name": "Home Decor"
+          }
         ],
-        "email": "rebornflorist@gmail.com",
-        "tel": "98708671"
+        "emails": [
+          "rebornflorist@gmail.com"
+        ],
+        "single_line_address": "屯利街1號華都商場壹樓62A, Tuen Mun",
+        "website": "http://www.rebornflorist.com"
       },
       "url": "https://www.facebook.com/rebornflorist/"
     },

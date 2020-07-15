@@ -6,16 +6,29 @@
   "webpages": [
     {
       "meta": {
+        "id": "1532126390392155",
+        "username": "necropoon",
+        "name": "NECRO POON",
         "about": "High Street fashion focus on menswear design and creation",
-        "categories": [
-          "Design & fashion",
-          "Fashion designer",
-          "Clothing (brand)"
+        "category_list": [
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          },
+          {
+            "id": "179576078750378",
+            "name": "Fashion Designer"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "addr": "Hong Kong",
-        "area": "Hong Kong",
-        "email": "necro@necropoon.com",
-        "id": "1532126390392155"
+        "emails": [
+          "necro@necropoon.com"
+        ],
+        "single_line_address": "Hong Kong, 00852 Hong Kong",
+        "website": "http://www.necropoon.com"
       },
       "url": "https://www.facebook.com/necropoon/"
     }

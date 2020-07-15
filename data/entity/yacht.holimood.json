@@ -17,17 +17,25 @@
     {
       "url": "https://www.facebook.com/yacht.holimood/",
       "meta": {
-        "name": "Holimood Yacht 香港船河",
         "id": "1009486532422267",
+        "username": "yacht.holimood",
+        "name": "Holimood Yacht 香港船河",
         "about": "香港遊艇預訂平台 HK Yacht & Junk Boat Rental Platform\nPhone/ Whatsapp:+852 54063347 (Wing), +852 98588494 (April) Wechat: HolimoodYacht2 / HolimoodYacht",
-        "categories": [
-          "Boat Service",
-          "Boat Rental"
+        "category_list": [
+          {
+            "id": "163431627040738",
+            "name": "Boat Service"
+          },
+          {
+            "id": "170474162998885",
+            "name": "Boat Rental"
+          }
         ],
-        "addr": "Workshop 3, 12/f, gravity, 29 Hing Yip St, Kwun Tong,",
-        "area": "Hong Kong",
-        "email": "yacht@holimood.com",
-        "tel": "98588494"
+        "emails": [
+          "yacht@holimood.com"
+        ],
+        "single_line_address": "Workshop 3, 12/f, gravity, 29 Hing Yip St, Kwun Tong,, Hong Kong",
+        "website": "https://yacht.holimood.com"
       }
     }
   ],

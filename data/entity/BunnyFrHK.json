@@ -15,17 +15,24 @@
     {
       "url": "https://www.facebook.com/BunnyFrHK/",
       "meta": {
-        "name": "兔菓子 Bunny Sweets",
         "id": "340884962972263",
+        "username": "BunnyFrHK",
+        "name": "兔菓子 Bunny Sweets",
         "about": "用心去做甜品, 希望做出能讓人從心而笑的甜品\n不再追夢，因為決定了要去實現\n\nHomemade desserts with Heart. Wish my desserts which can make people happy.\n\nStop chasing the dream, start living it.",
-        "categories": [
-          "Dessert Shop",
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "南屯區文心南一路9號",
-        "area": "Taichung, Taiwan 408",
-        "email": "bunnysweets.tw@gmail.com",
-        "tel": "886424730238"
+        "emails": [
+          "bunnysweets.tw@gmail.com"
+        ],
+        "single_line_address": "南屯區文心南一路9號, Taichung, Taiwan 408"
       }
     }
   ],

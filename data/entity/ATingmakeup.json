@@ -7,11 +7,18 @@
     {
       "meta": {
         "id": "299522723418072",
+        "username": "ATingmakeup",
+        "name": "ATing Makeup",
         "about": "提供新娘化妝/宴會化妝/姊妹化妝等",
-        "categories": [
-          "Health/beauty"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "email": "ating.makeup@gmail.com"
+        "emails": [
+          "ating.makeup@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/ATingmakeup/"
     }

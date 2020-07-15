@@ -8,13 +8,18 @@
     {
       "meta": {
         "id": "148489895814449",
-        "categories": [
-          "Asian fusion restaurant",
-          "Chinese restaurant"
+        "username": "ttdumplings",
+        "name": "三一餃子 Trinity Dumpling",
+        "category_list": [
+          {
+            "id": "174201535963762",
+            "name": "Asian Fusion Restaurant"
+          }
         ],
-        "addr": "No. 7, Li Yuen Street West, Central",
-        "area": "Hong Kong",
-        "email": "ttdumplings@gmail.com"
+        "emails": [
+          "ttdumplings@gmail.com"
+        ],
+        "single_line_address": "No. 7, Li Yuen Street West, Central, Hong Kong"
       },
       "url": "https://www.facebook.com/ttdumplings/"
     }

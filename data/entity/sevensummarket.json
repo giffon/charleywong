@@ -18,18 +18,29 @@
     {
       "url": "https://www.facebook.com/sevensummarket/",
       "meta": {
-        "name": "七和市集 Seven Sum Market",
         "id": "442655399562688",
+        "username": "sevensummarket",
+        "name": "七和市集 Seven Sum Market",
         "about": "我們的理念是\n\n不斷發掘世界各地「新晉品牌」，為了不讓人忽略「小品牌」的潛力，為了讓值得的「品牌」給更多人認識是我們的宗旨。\n\n-\n\n「好東西，好生活，來逛市集」",
-        "categories": [
-          "Pet Supplies",
-          "Shopping & Retail",
-          "Baby Goods/Kids Goods"
+        "category_list": [
+          {
+            "id": "2230",
+            "name": "Pet Supplies"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2232",
+            "name": "Baby Goods/Kids Goods"
+          }
         ],
-        "addr": "Room D5, 8/F, On Tat Factory Building, 3-5 Pat Tat Street",
-        "area": "Hong Kong",
-        "email": "info@sevensum.com.hk",
-        "tel": "39973274"
+        "emails": [
+          "info@sevensum.com.hk"
+        ],
+        "single_line_address": "Room 602, Max Trade Centre, 23 Luk Hop Street, San Po Kong, Hong Kong",
+        "website": "https://www.sevensummarket.com/"
       }
     }
   ],

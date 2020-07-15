@@ -8,13 +8,20 @@
     {
       "url": "https://www.facebook.com/SenchaMatcha/",
       "meta": {
-        "name": "煎茶、抹茶 Sencha Matcha",
         "id": "462412767189765",
+        "username": "SenchaMatcha",
+        "name": "煎茶、抹茶 Sencha Matcha",
         "about": "香港聞到見到食到的抹茶綠茶煎茶資訊 \nEat/Drink Japanese tea in HK",
-        "categories": [
-          "Personal Blog"
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "info@senchamatcha.com"
+        "emails": [
+          "info@senchamatcha.com"
+        ],
+        "website": "http://www.senchamatcha.com/"
       }
     },
     {

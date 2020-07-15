@@ -7,16 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "大勝丼 Daikatsu Don",
         "id": "375608802926582",
+        "username": "daikatsumk",
+        "name": "大勝丼 Daikatsu Don",
         "about": "多種和風系刺身燒肉丼！\n星期一至四晚市全單88折！\n全時段免收加一服務費！\n選用日本珍珠米飯",
-        "categories": [
-          "Japanese Restaurant"
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "addr": "旺角彌敦道594-596號旺角新城5樓",
-        "area": "Kowloon, Hong Kong",
-        "email": "daikatsumk@gmail.com",
-        "tel": "36187488"
+        "emails": [
+          "daikatsumk@gmail.com"
+        ],
+        "single_line_address": "旺角彌敦道594-596號旺角新城5樓, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/daikatsumk/"
     },

@@ -10,13 +10,25 @@
     {
       "url": "https://www.facebook.com/HKITWU/",
       "meta": {
-        "name": "香港資訊科技界工會",
         "id": "105498404134420",
+        "username": "HKITWU",
+        "name": "香港資訊科技界工會",
         "about": "在各界皆為罷工而發聲之際，發現並沒有一把屬於IT人的聲音。因此在同業及職工盟的協助下，正在積極籌組工會，希望往後能在各方面支援、協助業者，團結志同道合的同業，為其發聲。",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "192775991124365",
+            "name": "Labor Union"
+          }
         ],
-        "email": "info@hkitwu.org"
+        "emails": [
+          "info@hkitwu.org"
+        ],
+        "single_line_address": "7th Floor, Wing Wong Building, 557-559 Nathan Road, Yau Ma Tei",
+        "website": "https://www.hkitwu.org"
       }
     },
     {

@@ -7,16 +7,25 @@
     {
       "url": "https://www.facebook.com/CupidoDiamond/",
       "meta": {
-        "name": "Cupido Diamond",
         "id": "600203623419862",
-        "about": "在這裡，你可以「學習」鑽石\nCupido Diamond是由家族經營的鑽石批發商創立的香港品牌，擁有逾十年的專業選石經驗，使我們相比大多數珠寶品牌，更著重鑽石的品質，務求為顧客提供高質素服務",
-        "categories": [
-          "Jewelry & Watches Store",
-          "Jewelry Wholesaler",
-          "Jewelry & Watches Company"
+        "username": "CupidoDiamond",
+        "name": "Cupido Diamond",
+        "about": "在這裡，你可以「學習」鑽石\nCupido Diamond是香港本土品牌，擁有逾十年的專業選石經驗，使我們相比大多數珠寶品牌，更著重鑽石的品質，務求為顧客提供高質素服務",
+        "category_list": [
+          {
+            "id": "188031587886173",
+            "name": "Jewelry & Watches Store"
+          },
+          {
+            "id": "155851681143483",
+            "name": "Jewelry Wholesaler"
+          },
+          {
+            "id": "129357034153761",
+            "name": "Jewelry & Watches Company"
+          }
         ],
-        "addr": "德興街12號興富中心",
-        "area": "Kowloon, Hong Kong"
+        "single_line_address": "德興街12號興富中心, Kowloon, Hong Kong"
       }
     },
     {

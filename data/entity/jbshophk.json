@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/jbshophk/",
       "meta": {
-        "name": "JBShop",
         "id": "162314601163110",
+        "username": "jbshophk",
+        "name": "JBShop",
         "about": "本店主要售賣高性價比電子產品\n及各款智能手錶錶帶，Apple Watch 錶帶",
-        "categories": [
-          "Electronics",
-          "Games/Toys",
-          "Household Supplies"
+        "category_list": [
+          {
+            "id": "2213",
+            "name": "Electronics"
+          },
+          {
+            "id": "2220",
+            "name": "Household Supplies"
+          },
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          }
         ],
-        "addr": "觀塘工業中心一期 9樓E室",
-        "area": "Hong Kong",
-        "email": "admin@jbshophk.com",
-        "tel": "98801885"
+        "emails": [
+          "admin@jbshophk.com"
+        ],
+        "single_line_address": "觀塘工業中心一期 9樓E室, Hong Kong",
+        "website": "https://jbshophk.net/"
       }
     },
     {

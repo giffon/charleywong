@@ -9,16 +9,21 @@
     },
     {
       "meta": {
-        "name": "Gazelle Tattoo",
         "id": "991629594261926",
+        "username": "gazelletattoo",
+        "name": "Gazelle Tattoo",
         "about": "Tattoo Artist:\nIris Lam\niris@gazelletattoo.com\n+85298648669\n(by appointment only)\nIG: @irislamht/@irislamht.ink",
-        "categories": [
-          "Tattoo & Piercing Shop"
+        "category_list": [
+          {
+            "id": "551469561691940",
+            "name": "Tattoo & Piercing Shop"
+          }
         ],
-        "addr": "Room 319, 3/F, Metro Centre II, 21 Lam Hing Street, Kowloon Bay",
-        "area": "0000 Hong Kong",
-        "email": "iris@gazelletattoo.com",
-        "tel": "61076992"
+        "emails": [
+          "iris@gazelletattoo.com"
+        ],
+        "single_line_address": "Room 319, 3/F, Metro Centre II, 21 Lam Hing Street, Kowloon Bay, 0000 Hong Kong",
+        "website": "http://www.gazelletattoo.com"
       },
       "url": "https://www.facebook.com/gazelletattoo/"
     },

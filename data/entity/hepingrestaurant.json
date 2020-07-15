@@ -8,16 +8,17 @@
     {
       "url": "https://www.facebook.com/hepingrestaurant/",
       "meta": {
-        "name": "人人和平小飯店 RenRen Heping Restaurant",
         "id": "433587756727409",
+        "username": "hepingrestaurant",
+        "name": "人人和平小飯店 RenRen Heping Restaurant",
         "about": "懷舊與新穎並重的飯店，堅持高質食材，名菜：新會古井燒鵝(獲評為全港第一)、蜂蜜叉燒(旅遊發展局推介)、意大利礦泉水燉湯(全港首創)，亦有健康素食例如綿綿瓜瓞(美食之最大賞-銀獎)。",
-        "categories": [
-          "Cantonese Restaurant",
-          "Diner"
+        "category_list": [
+          {
+            "id": "214976388519648",
+            "name": "Cantonese Restaurant"
+          }
         ],
-        "addr": "Shop A, G/F, 6-8 Fort Street",
-        "area": "North Point",
-        "tel": "25708616"
+        "single_line_address": "Shop A, G/F, 6-8 Fort Street, North Point"
       }
     }
   ],

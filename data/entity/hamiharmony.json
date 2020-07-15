@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Hami Harmony",
         "id": "419754201568536",
-        "about": "Coffee ♪ Restaurant ♪ Dessert",
-        "categories": [
-          "Cafe",
-          "European Restaurant"
+        "username": "hamiharmony",
+        "name": "Hami Harmony",
+        "about": "Coffee ♪ Restaurant ♪ Dessert ",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "1508025966158640",
+            "name": "European Restaurant"
+          }
         ],
-        "addr": "G/F, 161A Sai Yeung Choi St N",
-        "area": "Hong Kong",
-        "tel": "23270665"
+        "single_line_address": "G/F, 161A Sai Yeung Choi St N, Hong Kong"
       },
       "url": "https://www.facebook.com/hamiharmony/"
     },

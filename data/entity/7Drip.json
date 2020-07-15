@@ -6,16 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "VII Drip & Brew",
         "id": "208484542969451",
+        "username": "7Drip",
+        "name": "VII Drip & Brew",
         "about": "VII - Roman numeral 7 - the number of perfection, security, and rest.",
-        "categories": [
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "G/f TLP132 , No.132-134 ,Tai Lin Pai Rd.Kwai Chung. N.T",
-        "area": "Hong Kong",
-        "email": "viidripbrew@gmail.com",
-        "tel": "57037134"
+        "emails": [
+          "viidripbrew@gmail.com"
+        ],
+        "single_line_address": "G/f TLP132 , No.132-134 ,Tai Lin Pai Rd.Kwai Chung. N.T, Hong Kong"
       },
       "url": "https://www.facebook.com/7Drip/"
     },

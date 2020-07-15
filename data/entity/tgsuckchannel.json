@@ -7,10 +7,14 @@
     {
       "url": "https://www.facebook.com/tgsuckchannel/",
       "meta": {
-        "name": "SUCK Channel",
         "id": "104901334303027",
-        "categories": [
-          "Personal Blog"
+        "username": "tgsuckchannel",
+        "name": "SUCK Channel",
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ]
       }
     },

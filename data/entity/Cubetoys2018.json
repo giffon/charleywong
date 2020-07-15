@@ -7,11 +7,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "Cubetoys 玩具立方體",
         "id": "499082643811127",
+        "username": "Cubetoys2018",
+        "name": "Cubetoys 玩具立方體",
         "about": "地址：元朗合益廣場B120\n\n販賣各類全新、中古二手玩具",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ]
       },
       "url": "https://www.facebook.com/Cubetoys2018/"

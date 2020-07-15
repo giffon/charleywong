@@ -6,16 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Mia Sposa 情侶晚裝專門店",
         "id": "196702667031193",
+        "username": "MiaSposa",
+        "name": "Mia Sposa 情侶晚裝專門店",
         "about": "Mia Sposa is the latest in glamour & freshness of wedding gown design. We offer a rich collection of elegant & vivacious designs created for the modern, discerning brides.",
-        "categories": [
-          "Bridal Shop"
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          }
         ],
-        "addr": "2/F,10 Humphreys Ave, Tsim Sha Tsui, Kowloon, Hong Kong",
-        "area": "Tsim Sha Tsui",
-        "email": "info@miasposa.com.hk",
-        "tel": "69998356"
+        "emails": [
+          "info@miasposa.com.hk"
+        ],
+        "single_line_address": "2/F,10 Humphreys Ave, Tsim Sha Tsui, Kowloon, Hong Kong, Tsim Sha Tsui"
       },
       "url": "https://www.facebook.com/MiaSposa/"
     },

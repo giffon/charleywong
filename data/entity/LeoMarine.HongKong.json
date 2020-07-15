@@ -8,15 +8,18 @@
     {
       "url": "https://www.facebook.com/LeoMarine.HongKong/",
       "meta": {
-        "name": "新興五金 Leo Marine",
         "id": "103688841267752",
+        "username": "LeoMarine.HongKong",
+        "name": "新興五金 Leo Marine",
         "about": "小店一間，由兩兄弟落手落腳去經營， 如果有乜嘢做得唔好，請大家多多包涵，用「唔完美、可接受，但亦要改善」嘅態度去接受",
-        "categories": [
-          "Hardware Store"
+        "category_list": [
+          {
+            "id": "148906328500868",
+            "name": "Hardware Store"
+          }
         ],
-        "addr": "屯門三聖邨商場地下3號舖(三聖邨車路迴旋處盡頭冬菇亭對面)",
-        "area": "Hong Kong",
-        "tel": "67765266"
+        "single_line_address": "屯門三聖邨商場地下3號舖(三聖邨車路迴旋處盡頭冬菇亭對面), Hong Kong",
+        "website": "https://leomarinehk.com/"
       }
     }
   ],

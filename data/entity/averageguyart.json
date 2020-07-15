@@ -7,10 +7,14 @@
     {
       "url": "https://www.facebook.com/averageguyart/",
       "meta": {
-        "name": "Averageguy",
         "id": "101884464535694",
-        "categories": [
-          "Designer"
+        "username": "averageguyart",
+        "name": "Averageguy",
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ]
       }
     },

@@ -11,13 +11,23 @@
     {
       "meta": {
         "id": "549720275411611",
+        "username": "okpoumusic",
+        "name": "OKPOU Music 香港樂舖",
         "about": "【樂譜訂購服務】\n【Music Score ordering service in Hong Kong】\n\n。香港音樂百貨店。\n。Musician specialized store。",
-        "categories": [
-          "Arts and entertainment",
-          "Film & music shop"
+        "category_list": [
+          {
+            "id": "150432221681325",
+            "name": "Movie & Music Store"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "email": "hello@okpou.com",
-        "tel": "68920866"
+        "emails": [
+          "info@okpou.com"
+        ],
+        "website": "https://okpoumusic.com"
       },
       "url": "https://www.facebook.com/okpoumusic/"
     },

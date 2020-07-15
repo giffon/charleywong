@@ -11,14 +11,21 @@
     {
       "url": "https://www.facebook.com/christiantimes/",
       "meta": {
-        "name": "時代論壇 Christian Times",
         "id": "404010149689010",
+        "username": "christiantimes",
+        "name": "時代論壇 Christian Times",
         "about": "疾風中企硬，戍樓匯眾聲。《時代論壇》，一份以基督教角度提供時事和社會分析的週報。網址：http://christiantimes.org.hk",
-        "categories": [
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "info@christiantimes.org.hk",
-        "tel": "27857688"
+        "emails": [
+          "info@christiantimes.org.hk"
+        ],
+        "single_line_address": "香港九龍旺角彌敦道602-608號總統商業大廈十九樓B室",
+        "website": "http://christiantimes.org.hk"
       }
     },
     {

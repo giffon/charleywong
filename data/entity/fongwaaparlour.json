@@ -7,15 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Fong Waa Parlour 芳華絕代",
         "id": "208152416632570",
-        "categories": [
-          "Bar",
-          "Thai Restaurant"
+        "username": "fongwaaparlour",
+        "name": "Fong Waa Parlour 芳華絕代",
+        "category_list": [
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          },
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          }
         ],
-        "addr": "36 Boundary Street",
-        "area": "Hong Kong",
-        "tel": "23662113"
+        "single_line_address": "36 Boundary Street, Hong Kong"
       },
       "url": "https://www.facebook.com/fongwaaparlour/"
     },

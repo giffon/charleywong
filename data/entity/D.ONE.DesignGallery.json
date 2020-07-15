@@ -8,15 +8,25 @@
     {
       "url": "https://www.facebook.com/D.ONE.DesignGallery/",
       "meta": {
-        "name": "室內設計、裝修工程、傢俬訂造 D-ONE Design Gallery 登一設計廊",
         "id": "1803551863271483",
+        "username": "D.ONE.DesignGallery",
+        "name": "室內設計、裝修工程、傢俬訂造 D-ONE Design Gallery 登一設計廊",
         "about": "室內設計、裝修工程、 傢俬訂造",
-        "categories": [
-          "Furniture",
-          "Engineering Service",
-          "Designer"
+        "category_list": [
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          },
+          {
+            "id": "187813774574368",
+            "name": "Furniture Repair & Upholstery Service"
+          },
+          {
+            "id": "2219",
+            "name": "Furniture"
+          }
         ],
-        "tel": "67428080"
+        "single_line_address": "荃灣柴灣角街38-40號銓通工業大廈3樓D9室, Hong Kong"
       }
     }
   ],

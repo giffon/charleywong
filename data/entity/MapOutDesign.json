@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/MapOutDesign/",
       "meta": {
-        "name": "MapOut",
         "id": "295560520634650",
+        "username": "MapOutDesign",
+        "name": "MapOut",
         "about": "Interior Design & Renovation 室內設計及裝修工程服務",
-        "categories": [
-          "Interior Design Studio"
+        "category_list": [
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          }
         ],
-        "addr": "21-B Kyoto Plaza, 491-499 Lockhart Road, Causeway Bay, HK",
-        "area": "Hong Kong",
-        "email": "group@mapoutdesign.com",
-        "tel": "35915464"
+        "emails": [
+          "group@mapoutdesign.com"
+        ],
+        "single_line_address": "21-B Kyoto Plaza, 491-499 Lockhart Road, Causeway Bay, HK, Hong Kong",
+        "website": "http://www.mapoutdesign.com"
       }
     },
     {

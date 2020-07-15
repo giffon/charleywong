@@ -9,17 +9,21 @@
     },
     {
       "meta": {
-        "name": "Something Borrowed Bridal",
         "id": "809676175745514",
+        "username": "somethingborrowedbridalhk",
+        "name": "Something Borrowed Bridal",
         "about": "Designer wedding gown and evening gown.",
-        "categories": [
-          "Bridal Shop",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          }
         ],
-        "addr": "銅鑼灣富明街1-5號寶富大廈4樓D室",
-        "area": "852 Causeway Bay",
-        "email": "info@somethingborrowedbridalhk.com",
-        "tel": "63013236"
+        "emails": [
+          "info@somethingborrowedbridalhk.com"
+        ],
+        "single_line_address": "銅鑼灣富明街1-5號寶富大廈4樓D室, 852 Causeway Bay",
+        "website": "http://www.somethingborrowedbridalhk.com"
       },
       "url": "https://www.facebook.com/somethingborrowedbridalhk/"
     },

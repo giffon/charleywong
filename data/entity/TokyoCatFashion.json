@@ -7,15 +7,24 @@
     {
       "url": "https://www.facebook.com/TokyoCatFashion/",
       "meta": {
-        "name": "東京貓～日本代購",
         "id": "318281984967630",
+        "username": "TokyoCatFashion",
+        "name": "東京貓～日本代購",
         "about": "小店會不定期更新日本既貨品，希望大家可以搵到平野。",
-        "categories": [
-          "Games/Toys",
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "daniel_cathy2009@yahoo.com.hk",
-        "tel": "96245575"
+        "emails": [
+          "daniel_cathy2009@yahoo.com.hk"
+        ],
+        "single_line_address": "新蒲崗大有街14號萬星工業大廈地下C5B, Hong Kong"
       }
     },
     {

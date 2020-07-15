@@ -14,15 +14,25 @@
     },
     {
       "meta": {
-        "name": "KONG Tattoo 香港紋身",
         "id": "1106549242729325",
+        "username": "kongtattoohk",
+        "name": "KONG Tattoo 香港紋身",
         "about": "香港觀塘成業街成業大廈地下5室25\n 狂繡。紋身\nwhatsapp：6848-0401 \nwechat id： kongtattoohk",
-        "categories": [
-          "Art",
-          "Design & Fashion"
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          }
         ],
-        "email": "sunny9326@hotmail.com",
-        "tel": "68480401"
+        "emails": [
+          "sunny9326@hotmail.com"
+        ],
+        "single_line_address": "觀塘成業街成業大廈地下5室25室",
+        "website": "https://www.instagram.com/tattookong/"
       },
       "url": "https://www.facebook.com/kongtattoohk/"
     }

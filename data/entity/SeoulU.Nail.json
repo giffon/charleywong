@@ -7,18 +7,28 @@
     {
       "url": "https://www.facebook.com/SeoulU.Nail/",
       "meta": {
-        "name": "Seoul U Nail & Eyelashe Studio",
         "id": "2044654945762270",
-        "about": "Seoul U Nail & Eyelashe Workshop\nOffice Hours 12:00 to 21:00\nWhatsApp 63880348\n\n銅鑼灣總店\n香港銅鑼灣駱駝道501號1樓\n\n灣仔分店\n香港灣仔天樂里僑康大厦1樓B室",
-        "categories": [
-          "Skin Care Service",
-          "Nail Salon",
-          "Beauty Supplier"
+        "username": "SeoulU.Nail",
+        "name": "Seoul U Nail & Eyelashe Studio",
+        "about": "Seoul U Nail 高質上門美甲服務\nOffice Hours 12:00 to 21:00\nWhatsApp 63880348\n\n銅鑼灣總店\n香港銅鑼灣駱駝道501號1樓\n\n灣仔分店\n香港灣仔天樂里僑康大厦1樓B室",
+        "category_list": [
+          {
+            "id": "198516863494646",
+            "name": "Nail Salon"
+          },
+          {
+            "id": "120731481338075",
+            "name": "Beauty Supplier"
+          },
+          {
+            "id": "1644814599176740",
+            "name": "Skin Care Service"
+          }
         ],
-        "addr": "銅鑼灣駱駝道501號1樓",
-        "area": "Hong Kong",
-        "email": "seoulu.nail@gmail.com",
-        "tel": "63880348"
+        "emails": [
+          "seoulu.nail@gmail.com"
+        ],
+        "single_line_address": "Flat B 1/F, Kiu Hong Mansion, 3-5 Tin Lok Lane, WanChai, Hong Kong"
       }
     },
     {

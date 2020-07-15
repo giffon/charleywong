@@ -10,17 +10,26 @@
     {
       "url": "https://www.facebook.com/habi.beautyshop/",
       "meta": {
-        "name": "HABI Beauty Shop",
         "id": "231500810376540",
+        "username": "habi.beautyshop",
+        "name": "HABI Beauty Shop",
         "about": "Welcome to Ha.Bi~~~\n\n.專業半永久化妝\n.醫學美容皮膚管理療程\n.凍齡抗衰老私人訂制療程\n.毛髮孕育\n.角蛋白睫毛矯形\n\n另提供教學課程\n\n歡迎預約查詢：\nWhatsapp 98498011",
-        "categories": [
-          "Health/Beauty",
-          "Beauty Salon",
-          "Community"
+        "category_list": [
+          {
+            "id": "199236533423806",
+            "name": "Beauty Salon"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "addr": "九龍觀塘巧明街116號萬年工業大廈5樓D10室",
-        "area": "Kwun Tong",
-        "tel": "98498011"
+        "single_line_address": "九龍觀塘巧明街116號萬年工業大廈5樓D10室, Kwun Tong",
+        "website": "https://www.habi-beautyshop.com"
       }
     },
     {

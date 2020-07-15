@@ -10,15 +10,24 @@
     {
       "url": "https://www.facebook.com/80sbespoke/",
       "meta": {
-        "name": "80’s Bespoke",
         "id": "1768482370105045",
+        "username": "80sbespoke",
+        "name": "80’s Bespoke",
         "about": "Tailor made by our renowned expertise, Bespoke suit brings out the uniqueness of you.\n專業度身訂造男/女西裝，禮服，大䄛，恤衫\nBespoke\n\"Worth speaking highly of\"",
-        "categories": [
-          "Clothing (Brand)",
-          "Men's Clothing Store"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "170241263022353",
+            "name": "Men's Clothing Store"
+          }
         ],
-        "email": "derek@80sbespoke.com",
-        "tel": "28817932"
+        "emails": [
+          "derek@80sbespoke.com"
+        ],
+        "website": "http://www.80sbespoke.com/zh/home/"
       }
     },
     {

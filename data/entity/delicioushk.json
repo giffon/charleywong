@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/delicioushk/",
       "meta": {
-        "name": "Delicious",
         "id": "298700853575459",
+        "username": "delicioushk",
+        "name": "Delicious",
         "about": "We are a Hong Kong catering company that provides personal and corporate catering, junk trip packages, catering packages, waiters, party planning, Barbeque, BBQs, spit roasts, Christmas menus, and New Year's Eve harbour cruises.",
-        "categories": [
-          "Restaurant",
-          "Caterer"
+        "category_list": [
+          {
+            "id": "139433292785470",
+            "name": "Caterer"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "13 G/F., Po Tuck Street, Shek Tong Tsui",
-        "area": "Hong Kong",
-        "email": "dennis@delicious-hk.com",
-        "tel": "64417895"
+        "emails": [
+          "dennis@delicious-hk.com"
+        ],
+        "single_line_address": "13 G/F., Po Tuck Street, Shek Tong Tsui, Hong Kong",
+        "website": "http://www.delicious-hk.com"
       }
     },
     {

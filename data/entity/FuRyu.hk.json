@@ -8,34 +8,53 @@
     {
       "url": "https://www.facebook.com/FuRyu.hk/",
       "meta": {
-        "name": "風流居酒屋 FuRyu Izakaya",
         "id": "741336376054749",
+        "username": "FuRyu.hk",
+        "name": "風流居酒屋 FuRyu Izakaya",
         "about": "【風流】以「串燒」、「燒物」及「和食」為主題；亦會提供多款清酒、啤酒、手工啤酒等等，這裡隱密到不容易讓一般的人類發現！直到夜燈初上炊煙裊裊之際--緣份來了～你就來了～",
-        "categories": [
-          "Japanese Restaurant",
-          "Bar & Grill",
-          "Asian Fusion Restaurant"
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          },
+          {
+            "id": "174201535963762",
+            "name": "Asian Fusion Restaurant"
+          },
+          {
+            "id": "233804719972590",
+            "name": "Bar & Grill"
+          }
         ],
-        "addr": "大圍村第3街32號",
-        "area": "Tai Wai",
-        "email": "furyuhk@gmail.com",
-        "tel": "26409798"
+        "emails": [
+          "furyuhk@gmail.com"
+        ],
+        "single_line_address": "大圍村第3街32號, 852 Tai Wai",
+        "website": "http://www.instagram.com/furyuhk"
       }
     },
     {
       "url": "https://www.facebook.com/furyucwb/",
       "meta": {
-        "name": "風流居酒屋 FuRyu Izakaya 銅鑼灣分店",
         "id": "172750840336310",
+        "username": "furyucwb",
+        "name": "風流居酒屋 FuRyu Izakaya 銅鑼灣分店",
         "about": "串燒、刺身、和食居酒屋；緣份來了，你就來了。",
-        "categories": [
-          "Japanese Restaurant",
-          "Bar"
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          },
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          }
         ],
-        "addr": "6/F, Circle Tower, 28 Tang Lung Street",
-        "area": "852 Causeway Bay",
-        "email": "furyucwb@gmail.com",
-        "tel": "21113984"
+        "emails": [
+          "furyucwb@gmail.com"
+        ],
+        "single_line_address": "6/F, Circle Tower, 28 Tang Lung Street, 852 Causeway Bay",
+        "website": "Http://www.instagram.com/furyucwb"
       }
     },
     {

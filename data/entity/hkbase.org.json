@@ -11,13 +11,20 @@
     {
       "url": "https://www.facebook.com/hkbase.org/",
       "meta": {
-        "name": "香港永續經濟聯會 𝐇𝐊𝐁𝐀𝐒𝐄",
         "id": "1930301210614563",
-        "about": "「香港永續經濟聯會HKBASE」是新時代的企業網絡。\nHong Kong Business Association of Sustainable Economy (HKBASE) is a enterprise network.",
-        "categories": [
-          "Community Organization"
+        "username": "hkbase.org",
+        "name": "香港永續經濟聯會 𝐇𝐊𝐁𝐀𝐒𝐄",
+        "about": "「香港永續經濟聯會HKBASE」是新時代的企業網絡。\nHong Kong Business Association of Sustainable Economy (HKBASE) is a enterprise network. ",
+        "category_list": [
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          }
         ],
-        "email": "info@hkbase.org"
+        "emails": [
+          "info@hkbase.org"
+        ],
+        "website": "https://hkbase.org"
       }
     },
     {

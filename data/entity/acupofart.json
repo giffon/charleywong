@@ -6,18 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "A cup of Art",
         "id": "530702323672439",
+        "username": "acupofart",
+        "name": "A cup of Art",
         "about": "\"I dream my painting, I paint my dream :)\"\n Come and join us for so much fun!!\nTEL: 2499-1488 | Email: info@acupofart.hk",
-        "categories": [
-          "Education",
-          "Campus Building",
-          "Business Service"
+        "category_list": [
+          {
+            "id": "2250",
+            "name": "Education"
+          },
+          {
+            "id": "216161991738736",
+            "name": "Campus Building"
+          },
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          }
         ],
-        "addr": "G/F, King Shing Court, No.28 On Hing Street, Yuen Long, N.T.",
-        "area": "000 Hong Kong",
-        "email": "admin@acupofartstudio.com",
-        "tel": "24991488"
+        "emails": [
+          "admin@acupofartstudio.com"
+        ],
+        "single_line_address": "G/F, King Shing Court, No.28 On Hing Street, Yuen Long, N.T., 000 Hong Kong"
       },
       "url": "https://www.facebook.com/acupofart/"
     }

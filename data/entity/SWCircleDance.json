@@ -10,33 +10,57 @@
     {
       "url": "https://www.facebook.com/SWCircleDance/",
       "meta": {
-        "name": "SWCircleDance",
         "id": "196221581212782",
+        "username": "SWCircleDance",
+        "name": "SWCircleDance",
         "about": "New Concept Mindfulness Semi Private Yoga & Dance Studio\n\n“You Deserve as Much Attention as Possible”\n\nWelcome Semi-Private, Private, and Corporate Group Classes",
-        "categories": [
-          "Yoga Studio",
-          "Performance & Event Venue",
-          "Dance Studio"
+        "category_list": [
+          {
+            "id": "174832985894571",
+            "name": "Yoga Studio"
+          },
+          {
+            "id": "179943432047564",
+            "name": "Performance & Event Venue"
+          },
+          {
+            "id": "203916779633178",
+            "name": "Dance Studio"
+          }
         ],
-        "addr": "SWCircleDance & Yoga, 7B Cheong Tai Commercial Building, 60 Wing Lok Street",
-        "area": "Sheung Wan",
-        "email": "yoga@swcircledance.com"
+        "emails": [
+          "yoga@swcircledance.com"
+        ],
+        "single_line_address": "SWCircleDance & Yoga, 7B Cheong Tai Commercial Building, 60 Wing Lok Street, Sheung Wan",
+        "website": "www.swcircledance.com"
       }
     },
     {
       "url": "https://www.facebook.com/SWCircleDanceYoga/",
       "meta": {
-        "name": "SWCircleDance & Yoga",
         "id": "111703510201889",
+        "username": "SWCircleDanceYoga",
+        "name": "SWCircleDance & Yoga",
         "about": "New Concept Mindfulness Semi Private Yoga & Dance Studio\n\n“You Deserve as Much Attention as Possible”\n\nWelcome Semi-Private, Private, and Corporate Group Classes",
-        "categories": [
-          "Yoga Studio",
-          "Dance Studio",
-          "Performance & Event Venue"
+        "category_list": [
+          {
+            "id": "174832985894571",
+            "name": "Yoga Studio"
+          },
+          {
+            "id": "203916779633178",
+            "name": "Dance Studio"
+          },
+          {
+            "id": "179943432047564",
+            "name": "Performance & Event Venue"
+          }
         ],
-        "addr": "SWCircleDance & Yoga, 7B Cheong Tai Commercial Building, 60 Wing Lok Street",
-        "area": "Sheung Wan",
-        "email": "yoga@swcircledance.com"
+        "emails": [
+          "yoga@swcircledance.com"
+        ],
+        "single_line_address": "SWCircleDance & Yoga, 7B Cheong Tai Commercial Building, 60 Wing Lok Street, Sheung Wan",
+        "website": "www.swcircledance.com"
       },
       "hidden": true
     },

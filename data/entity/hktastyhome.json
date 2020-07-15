@@ -15,14 +15,20 @@
     },
     {
       "meta": {
-        "name": "Tasty Home",
         "id": "1752992288105713",
-        "about": "Tasty home\n\n香港地買樓被評為「離地」，原因係香港人人工要追上樓價升幅係不可能任務。人始終要住，Tasty Home為大家未雨綢繆，增加接觸樓價樓宇嘅機會，「貼地」地追蹤樓價表現、內櫳裝修",
-        "categories": [
-          "TV Channel"
+        "username": "hktastyhome",
+        "name": "Tasty Home",
+        "about": "Tasty home \n\n香港地買樓被評為「離地」，原因係香港人人工要追上樓價升幅係不可能任務。人始終要住，Tasty Home為大家未雨綢繆，增加接觸樓價樓宇嘅機會，「貼地」地追蹤樓價表現、內櫳裝修",
+        "category_list": [
+          {
+            "id": "1404",
+            "name": "TV Channel"
+          }
         ],
-        "email": "pr@tastyhome.hk",
-        "tel": "37052345"
+        "emails": [
+          "pr@tastyhome.hk"
+        ],
+        "website": "http://www.youtube.com/c/TastyHome"
       },
       "url": "https://www.facebook.com/hktastyhome/"
     }

@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/oiihk/",
       "meta": {
-        "name": "Oii動漫",
         "id": "294105743964994",
+        "username": "oiihk",
+        "name": "Oii動漫",
         "about": "優質動漫資源及資訊, 盡在Oii !!\n動畫試看: http://www.oiihk.com/anime/\n討論區:http://forum.oiihk.com/\nFacebook會員吹水群:\nhttp://www.facebook.com/groups/261340773894422/",
-        "categories": [
-          "App Page"
-        ]
+        "category_list": [
+          {
+            "id": "2301",
+            "name": "App Page"
+          }
+        ],
+        "website": "http://www.oiihk.com"
       }
     }
   ],

@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/post852/",
       "meta": {
-        "name": "852郵報",
         "id": "569337929781203",
+        "username": "post852",
+        "name": "852郵報",
         "about": "嶄新新聞、評論與博客新媒體平台，網址為http://www.post852.com\n請將新聞稿、採訪通知或報料消息電郵至editorial@post852.com",
-        "categories": [
-          "Broadcasting & Media Production Company"
+        "category_list": [
+          {
+            "id": "169056916473899",
+            "name": "Broadcasting & Media Production Company"
+          }
         ],
-        "addr": "Flat C&D, 1/F, Uwa Building, 18-19 Connaught Road West, Sheung Wan",
-        "area": "Hong Kong",
-        "email": "info@post852.com",
-        "tel": "23318197"
+        "emails": [
+          "info@post852.com"
+        ],
+        "single_line_address": "Flat C&D, 1/F, Uwa Building, 18-19 Connaught Road West, Sheung Wan, Hong Kong",
+        "website": "http://www.post852.com"
       }
     },
     {

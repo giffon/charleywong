@@ -10,14 +10,25 @@
     {
       "url": "https://www.facebook.com/BenedictRogersUK/",
       "meta": {
-        "name": "Benedict Rogers",
         "id": "102583481401362",
+        "username": "BenedictRogersUK",
+        "name": "Benedict Rogers",
         "about": "Benedict Rogers is a human rights activist and journalist based in London. He is a regular contributor to The Wall Street Journal, The Spectator, The Diplomat, The Catholic Herald, The Huffington Post,Hong Kong Free Press, BBC, Al Jazeera and other media.",
-        "categories": [
-          "Journalist",
-          "Nonprofit Organization",
-          "News & Media Website"
-        ]
+        "category_list": [
+          {
+            "id": "1604",
+            "name": "Journalist"
+          },
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          },
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
+        ],
+        "website": "http://twitter.com/BenedictRogers"
       }
     }
   ],

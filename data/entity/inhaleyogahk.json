@@ -14,16 +14,25 @@
     {
       "url": "https://www.facebook.com/inhaleyogahk/",
       "meta": {
-        "name": "Inhale Yoga Studio",
         "id": "319383148408320",
+        "username": "inhaleyogahk",
+        "name": "Inhale Yoga Studio",
         "about": "油麻地 - 彌敦道570-572號基利商業大廈11樓04室\n觀    塘 - 成業街15號成運工業大廈1005室",
-        "categories": [
-          "Yoga Studio",
-          "Gym/Physical Fitness Center"
+        "category_list": [
+          {
+            "id": "174832985894571",
+            "name": "Yoga Studio"
+          },
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          }
         ],
-        "addr": null,
-        "area": "Room 1104, Kelly Commercial Building, No. 570-572 Nathan Road, Kowloon",
-        "email": "inhaleyogahk@gmail.com"
+        "emails": [
+          "inhaleyogahk@gmail.com"
+        ],
+        "single_line_address": "Room 1104, 11/F, Kelly Commercial Centre, No. 570-572 Nathan Road, Yau Ma Tei, HK",
+        "website": "https://wa.me/85292990590"
       }
     }
   ],

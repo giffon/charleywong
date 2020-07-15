@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/MyHomeCafe/",
       "meta": {
-        "name": "Your home",
         "id": "185606864808140",
-        "about": "本店現在擴張至有3間分店:\n#MyHomeCafe.#YourHomeCafe\n#yourhome.Party House #天台bbq\n#銅鑼灣partyroom\n歡迎各位一家大細,朋友前來包場狂歡.\n如有查詢可至電:68984692",
-        "categories": [
-          "Cafe",
-          "Party Entertainment Service"
+        "username": "MyHomeCafe",
+        "name": "Your home",
+        "about": "本店現在擴張至有3間分店:\n#MyHomeCafe.#YourHomeCafe\n#yourhome.Party House #天台bbq\n#銅鑼灣partyroom\n歡迎各位一家大細,朋友前來包場狂歡.\n如有查詢可至電:68984692 ",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "189334414420898",
+            "name": "Party Entertainment Service"
+          }
         ],
-        "addr": "3/F, 512 Lockhart Road, Causeway Bay",
-        "area": "Causeway Bay",
-        "tel": "68984692"
+        "single_line_address": "3/F, 512 Lockhart Road, Causeway Bay, Causeway Bay"
       }
     },
     {

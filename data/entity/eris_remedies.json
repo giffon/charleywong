@@ -7,15 +7,18 @@
     {
       "url": "https://www.facebook.com/430991764351475/",
       "meta": {
-        "name": "Eris Remedies",
         "id": "430991764351475",
-        "categories": [
-          "Beauty Salon"
+        "name": "Eris Remedies",
+        "category_list": [
+          {
+            "id": "199236533423806",
+            "name": "Beauty Salon"
+          }
         ],
-        "addr": "2/F, Wellington Square, 35B Wellington street",
-        "area": "Central, Hong Kong",
-        "email": "erisremedies@gmail.com",
-        "tel": "98803865"
+        "emails": [
+          "erisremedies@gmail.com"
+        ],
+        "single_line_address": "2/F, Wellington Square, 35B Wellington street, Central, Hong Kong"
       }
     },
     {

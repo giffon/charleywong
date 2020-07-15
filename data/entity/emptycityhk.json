@@ -15,13 +15,21 @@
     {
       "url": "https://www.facebook.com/emptycityhk/",
       "meta": {
-        "name": "空城記 Empty City",
         "id": "1513211625638297",
+        "username": "emptycityhk",
+        "name": "空城記 Empty City",
         "about": "時間廢墟裡　尋那不經污染相戀的鐵證",
-        "categories": [
-          "Community",
-          "Society & Culture Website"
-        ]
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "2714",
+            "name": "Society & Culture Website"
+          }
+        ],
+        "website": "https://www.instagram.com/emptycity_hk"
       }
     }
   ],

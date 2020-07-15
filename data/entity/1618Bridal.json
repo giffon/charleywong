@@ -7,16 +7,27 @@
     {
       "meta": {
         "id": "615480595142320",
+        "username": "1618Bridal",
+        "name": "1.618 Couture & Bridal",
         "about": "Designer brand of couture bridal. Design and Tailormade wedding gown and evening dress",
-        "categories": [
-          "Bridal shop",
-          "Fashion designer",
-          "Clothing (brand)"
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          },
+          {
+            "id": "179576078750378",
+            "name": "Fashion Designer"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "addr": "7/F, Cochrane Commercial House, 15 Cochrane Street",
-        "area": "Central, Hong Kong",
-        "email": "bridal1618@gmail.com",
-        "tel": "28861723"
+        "emails": [
+          "bridal1618@gmail.com"
+        ],
+        "single_line_address": "7/F, Cochrane Commercial House, 15 Cochrane Street, Central, Hong Kong"
       },
       "url": "https://www.facebook.com/1618Bridal/"
     },

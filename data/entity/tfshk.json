@@ -10,14 +10,21 @@
     {
       "url": "https://www.facebook.com/tfshk/",
       "meta": {
-        "name": "東方文具公司",
         "id": "499270786894122",
+        "username": "tfshk",
+        "name": "東方文具公司",
         "about": "\"貨式齊、送貨快、價錢公道服務佳\"",
-        "categories": [
-          "Commercial Equipment"
+        "category_list": [
+          {
+            "id": "2217",
+            "name": "Commercial Equipment"
+          }
         ],
-        "email": "info@tfs.com.hk",
-        "tel": "26023233"
+        "emails": [
+          "info@tfs.com.hk"
+        ],
+        "single_line_address": "香港沙田火炭坳背灣街57-59號利達工業中心地下7A",
+        "website": "http://www.tfs.com.hk"
       }
     }
   ],

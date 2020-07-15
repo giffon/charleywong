@@ -11,30 +11,40 @@
     {
       "url": "https://www.facebook.com/yearshk/",
       "meta": {
-        "name": "YEARS HK",
         "id": "997963310215914",
-        "about": "Plant Based in SSP.",
-        "categories": [
-          "Vegetarian/Vegan Restaurant"
+        "username": "yearshk",
+        "name": "YEARS HK",
+        "about": "Years • 191-199 Fuk Wah Street • 852 63383719\nThe Park • 132 Yu Chau Street • 852 53364000",
+        "category_list": [
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          }
         ],
-        "addr": "191-199, Fuk Wah Street, Sham Shui Po",
-        "area": "Kowloon, Hong Kong",
-        "email": "info@yearshk.com",
-        "tel": "63383719"
+        "emails": [
+          "info@yearshk.com"
+        ],
+        "single_line_address": "191-199, Fuk Wah Street, Sham Shui Po, Kowloon, Hong Kong",
+        "website": "www.yearshk.com"
       }
     },
     {
       "url": "https://www.facebook.com/theparkbyyears/",
       "meta": {
-        "name": "The Park by Years",
         "id": "114368810307704",
-        "about": "",
-        "categories": [
-          "Vegetarian/Vegan Restaurant"
+        "username": "theparkbyyears",
+        "name": "The Park by Years",
+        "about": "Years • 191-199 Fuk Wah Street • 852 63383719\nThe Park • 132 Yu Chau Street • 852 53364000",
+        "category_list": [
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          }
         ],
-        "addr": "132 Yu Chau Street",
-        "area": "Sham Shui Po",
-        "tel": "53364000"
+        "emails": [
+          "info@yearshk.com"
+        ],
+        "single_line_address": "132 Yu Chau Street, Sham Shui Po"
       }
     },
     {

@@ -10,14 +10,24 @@
     {
       "url": "https://www.facebook.com/landeducationhk/",
       "meta": {
-        "name": "土地教育基金",
         "id": "203020526907684",
+        "username": "landeducationhk",
+        "name": "土地教育基金",
         "about": "食農教育、社區設計、城鄉共生",
-        "categories": [
-          "Community",
-          "Agriculture"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "1574325646194878",
+            "name": "Agriculture"
+          }
         ],
-        "email": "landeducationfoundation@gmail.com"
+        "emails": [
+          "landeducationfoundation@gmail.com"
+        ],
+        "website": "http://www.landeducationhk.com"
       }
     }
   ],

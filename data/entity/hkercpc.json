@@ -20,14 +20,23 @@
     {
       "url": "https://www.facebook.com/hkercpc/",
       "meta": {
-        "name": "民間記者會發佈中心",
         "id": "103419337687469",
-        "categories": [
-          "Community",
-          "News & Media Website"
+        "username": "hkercpc",
+        "name": "民間記者會發佈中心",
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
         ],
-        "email": "pr640212@gmail.com",
-        "tel": "95001884"
+        "emails": [
+          "pr640212@gmail.com"
+        ],
+        "website": "t.me/citizenspresscon"
       }
     },
     {

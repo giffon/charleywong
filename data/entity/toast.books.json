@@ -12,13 +12,21 @@
     },
     {
       "meta": {
-        "about": "獨立書店 Independent bookstore\n藝術 Art\n哲學 Philosophy...\n\n\nSee more",
-        "categories": [
-          "Independent book shop"
+        "id": "179573982745561",
+        "username": "toast.books",
+        "name": "TOAST Books",
+        "about": "獨立書店 Independent bookshop\n藝術 Art\n哲學 Philosophy\n\nFollow us on Instagram: www.instagram.com/toast.books/",
+        "category_list": [
+          {
+            "id": "387228845011016",
+            "name": "Independent Bookstore"
+          }
         ],
-        "addr": "九龍石硤尾偉智街38號福田大廈地下11號舖 (馬會對面) Shop 11, G/F., 38 Wai Chi Street, Shek Kip Mei, Kowloon.",
-        "area": "Hong Kong",
-        "id": "179573982745561"
+        "emails": [
+          "info@toastbooks.com"
+        ],
+        "single_line_address": "九龍石硤尾偉智街38號福田大廈地下11號舖 (馬會對面) Shop 11, G/F., 38 Wai Chi Street, Shek Kip Mei, Kowloon., Hong Kong",
+        "website": "http://www.instagram.com/toast.books/"
       },
       "url": "https://www.facebook.com/toast.books/"
     }

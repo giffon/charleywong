@@ -7,27 +7,39 @@
     {
       "url": "https://www.facebook.com/104700121230413/",
       "meta": {
-        "name": "Binary Digitals CWB",
         "id": "104700121230413",
+        "name": "Binary Digitals CWB",
         "about": "日韓手機配件產品",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "Shop137/138/146, 1/F, 銅鑼灣地帶, 記利佐治街2號",
-        "area": "+852 Hong Kong",
-        "email": "binarydigitalscwb@gmail.com"
+        "emails": [
+          "binarydigitalscwb@gmail.com"
+        ],
+        "single_line_address": "Shop137/138/146, 1/F, 銅鑼灣地帶, 記利佐治街2號, +852 Hong Kong"
       }
     },
     {
       "url": "https://www.facebook.com/binarydigitals/",
       "meta": {
-        "name": "Binary Digitals",
         "id": "1698844733689142",
+        "username": "binarydigitals",
+        "name": "Binary Digitals",
         "about": "實體店經營，信心保證\n主打本地、日、韓、台手機配件\n各式潮流生活用品，精品\n\n本店絕對只售正版正貨，放心選購\n\n歡迎查詢合作/批發\n\n門市地址：銅鑼灣地帶1樓- 137&146號鋪",
-        "categories": [
-          "Electronics"
+        "category_list": [
+          {
+            "id": "2213",
+            "name": "Electronics"
+          }
         ],
-        "email": "binarydigitals@gmail.com"
+        "emails": [
+          "binarydigitals@gmail.com"
+        ],
+        "single_line_address": "銅鑼灣，銅鑼灣地帶,1樓,Shop 137 &146",
+        "website": "https://binarydigitals.boutir.com"
       },
       "hidden": true
     },

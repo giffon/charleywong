@@ -7,15 +7,18 @@
     {
       "url": "https://www.facebook.com/112866393429779/",
       "meta": {
-        "name": "Cafe Koinonia",
         "id": "112866393429779",
-        "categories": [
-          "Coffee Shop"
+        "name": "Cafe Koinonia",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "圓洲角路15-17號",
-        "area": "Sha Tin, Hong Kong",
-        "email": "cafekoinonia@outlook.com",
-        "tel": "91677955"
+        "emails": [
+          "cafekoinonia@outlook.com"
+        ],
+        "single_line_address": "圓洲角路15-17號, Sha Tin, Hong Kong"
       }
     },
     {

@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/moonlight.tea.hk/",
       "meta": {
-        "name": "Moonlight Tea",
         "id": "171570626728189",
-        "about": "A taste of quality",
-        "categories": [
-          "Tea Room",
-          "Restaurant"
+        "username": "moonlight.tea.hk",
+        "name": "Moonlight Tea",
+        "about": "A taste of quality\n",
+        "category_list": [
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "21/F, Block 1, Kingley Industrial Building, Wong Chuk Hang",
-        "area": "Hong Kong",
-        "email": "info@moonlight-tea.com",
-        "tel": "91971866"
+        "emails": [
+          "info@moonlight-tea.com"
+        ],
+        "single_line_address": "21/F, Block 1, Kingley Industrial Building, Wong Chuk Hang, Hong Kong",
+        "website": "http://www.moonlight-tea.com/"
       }
     },
     {

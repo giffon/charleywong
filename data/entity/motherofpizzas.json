@@ -10,14 +10,17 @@
     {
       "url": "https://www.facebook.com/motherofpizzas/",
       "meta": {
-        "name": "Mother Of Pizzas",
         "id": "1760363900913191",
-        "categories": [
-          "Pizza Place"
+        "username": "motherofpizzas",
+        "name": "Mother Of Pizzas",
+        "category_list": [
+          {
+            "id": "180256082015845",
+            "name": "Pizza Place"
+          }
         ],
-        "addr": "Ground Floor, 13-19 Leighton Road, Causeway Bay",
-        "area": "Hong Kong",
-        "tel": "28912221"
+        "single_line_address": "Ground Floor, 13-19 Leighton Road, Causeway Bay, Hong Kong",
+        "website": "http://www.motherofpizzas.com/"
       }
     },
     {

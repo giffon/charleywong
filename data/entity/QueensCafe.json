@@ -9,13 +9,21 @@
     },
     {
       "meta": {
-        "name": "Queen's Cafe",
         "id": "105258816193167",
+        "username": "QueensCafe",
+        "name": "Queen's Cafe",
         "about": "http://www.queenscafe.com/ Tel: 28989778/Wanchai 21161910/Causeway Bay 31517595/North Point 25762658/Festival Walk Kowloon Tong 22658288/Beijing 64161928",
-        "categories": [
-          "Product/Service",
-          "Hong Kong Restaurant"
-        ]
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
+        ],
+        "website": "www.queenscafe.com"
       },
       "url": "https://www.facebook.com/QueensCafe/"
     }

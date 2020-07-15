@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/cafegabbana/",
       "meta": {
-        "name": "Café Gabbana",
         "id": "137218342990533",
+        "username": "cafegabbana",
+        "name": "Café Gabbana",
         "about": "Café Gabbana是一間意式餐廳,提供各種富有意大利風味的美食,如意粉、意大利飯 #意大利牛扒 #意式焗乳豬  #無花果批甜品、香濃咖啡‧‧‧‧‧‧",
-        "categories": [
-          "Italian Restaurant",
-          "Modern European Restaurant"
+        "category_list": [
+          {
+            "id": "193831710644458",
+            "name": "Italian Restaurant"
+          },
+          {
+            "id": "188360891207745",
+            "name": "Modern European Restaurant"
+          }
         ],
-        "addr": "62 Nam Kok Road",
-        "area": "Kowloon, Hong Kong",
-        "email": "cafegabbana@gmail.com",
-        "tel": "23911098"
+        "emails": [
+          "cafegabbana@gmail.com"
+        ],
+        "single_line_address": "62 Nam Kok Road, Kowloon, Hong Kong"
       }
     },
     {

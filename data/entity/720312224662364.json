@@ -6,28 +6,32 @@
   "webpages": [
     {
       "meta": {
-        "name": "NOT Specialty Coffee",
         "id": "720312224662364",
+        "name": "NOT Specialty Coffee",
         "about": "not a specialty coffee shop",
-        "categories": [
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "9F, Hysan Place, 500 Hennessy Road, Causeway Bay, Hong Kong",
-        "area": "Hong Kong Hong Kong",
-        "tel": "21513822"
+        "single_line_address": "9F, Hysan Place, 500 Hennessy Road, Causeway Bay, Hong Kong, Hong Kong Hong Kong"
       },
       "url": "https://www.facebook.com/720312224662364/"
     },
     {
       "url": "https://www.facebook.com/381035152351651/",
       "meta": {
+        "id": "381035152351651",
         "name": "NOT Specialty Coffee Lee Garden",
-        "id": "720312224662364",
         "about": "Trying to do something making sense.",
-        "categories": [
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "tel": "21519712"
+        "single_line_address": "Shop 212, Lee Garden One, 33 Hysan Avenue, Causeway Bay, HK Hong Kong"
       }
     }
   ],

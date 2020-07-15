@@ -7,14 +7,19 @@
     {
       "url": "https://www.facebook.com/Kiyotour/",
       "meta": {
-        "name": "香港獵奇遊蹤",
         "id": "105846084181965",
+        "username": "Kiyotour",
+        "name": "香港獵奇遊蹤",
         "about": "籌劃香港本地歷史文化及自然生態導賞團",
-        "categories": [
-          "Tour Guide"
+        "category_list": [
+          {
+            "id": "175657495818161",
+            "name": "Tour Guide"
+          }
         ],
-        "email": "kiyomsr@gmail.com",
-        "tel": "92695192"
+        "emails": [
+          "kiyomsr@gmail.com"
+        ]
       }
     }
   ],

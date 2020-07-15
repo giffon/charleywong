@@ -8,14 +8,20 @@
     {
       "url": "https://www.facebook.com/LantauBuffaloAssociation/",
       "meta": {
-        "name": "大嶼山愛護水牛協會 Lantau Buffalo Association",
         "id": "112871345464031",
+        "username": "LantauBuffaloAssociation",
+        "name": "大嶼山愛護水牛協會 Lantau Buffalo Association",
         "about": "Preserve & manage the wild cattle and water buffalo herd numbers in South Lantau. 維護與管理在大嶼山南部現存野生黃牛和水牛畜群數量。",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "lantaubovine@gmail.com",
-        "tel": "81036312"
+        "emails": [
+          "lantaubovine@gmail.com"
+        ],
+        "single_line_address": "shek mun kap, Hong Kong"
       }
     },
     {

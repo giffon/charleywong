@@ -8,17 +8,23 @@
     {
       "url": "https://www.facebook.com/369101387266051/",
       "meta": {
-        "name": "Arch Interior Design LTD 雅卓室內設計有限公司",
         "id": "369101387266051",
+        "name": "Arch Interior Design LTD 雅卓室內設計有限公司",
         "about": "作為一間室內設計公司，我們會訂立以人為本作宗旨的公司。\n室內設計公司除了滿足客戶要求外,更要保留個人風格為本\n而這正正是我們與一般裝修師傅的最大分別",
-        "categories": [
-          "Interior Design Studio",
-          "Construction Company"
+        "category_list": [
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          },
+          {
+            "id": "530126207179123",
+            "name": "Construction Company"
+          }
         ],
-        "addr": "Shop D, G/F, No.28 Cheung Wah Street, Cheung Sha Wan",
-        "area": "Hong Kong",
-        "email": "arch@arch-dc.com",
-        "tel": "56457504"
+        "emails": [
+          "arch@arch-dc.com"
+        ],
+        "single_line_address": "Shop D, G/F, No.28 Cheung Wah Street, Cheung Sha Wan, Hong Kong"
       }
     },
     {

@@ -10,13 +10,24 @@
     {
       "meta": {
         "id": "143627472493357",
+        "username": "fruitybobo",
+        "name": "Fruity BoBo",
         "about": "At Fruity BoBo, beautiful fresh fruit direct to your door is soo easy!\nWe would like to develop a caring and healthy delivery platform for audience.",
-        "categories": [
-          "Health Food Shop",
-          "Local service"
+        "category_list": [
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          },
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "email": "fruitybobohk@gmail.com",
-        "tel": "95590398"
+        "emails": [
+          "fruitybobohk@gmail.com"
+        ],
+        "single_line_address": "Hong Kong, 00000 Hong Kong",
+        "website": "www.fruitybobo.com"
       },
       "url": "https://www.facebook.com/fruitybobo/"
     }

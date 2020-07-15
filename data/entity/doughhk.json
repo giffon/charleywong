@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/doughhk/",
       "meta": {
-        "name": "Dough Kitchen",
         "id": "958208960998318",
+        "username": "doughhk",
+        "name": "Dough Kitchen",
         "about": "Handmade Pasta",
-        "categories": [
-          "Italian Restaurant"
+        "category_list": [
+          {
+            "id": "193831710644458",
+            "name": "Italian Restaurant"
+          }
         ],
-        "addr": "21B Brown Street, Tai Hang",
-        "area": "Hong Kong",
-        "tel": "26887008"
+        "single_line_address": "21B Brown Street, Tai Hang, Hong Kong"
       }
     },
     {

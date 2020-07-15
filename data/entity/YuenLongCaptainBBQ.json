@@ -7,17 +7,25 @@
     {
       "url": "https://www.facebook.com/YuenLongCaptainBBQ/",
       "meta": {
-        "name": "元朗校長燒肉 日韓料理",
         "id": "312656595612136",
+        "username": "YuenLongCaptainBBQ",
+        "name": "元朗校長燒肉 日韓料理",
         "about": "校長燒肉提供日韓料理及自助燒肉, 以軍校為主題, 讓大人小朋友,食得開心就係我地的宗旨。",
-        "categories": [
-          "Barbecue Restaurant",
-          "Buffet Restaurant",
-          "Asian Fusion Restaurant"
+        "category_list": [
+          {
+            "id": "150534008338515",
+            "name": "Barbecue Restaurant"
+          },
+          {
+            "id": "176007949109829",
+            "name": "Buffet Restaurant"
+          },
+          {
+            "id": "174201535963762",
+            "name": "Asian Fusion Restaurant"
+          }
         ],
-        "addr": "西裕街",
-        "area": "元朗",
-        "tel": "25056933"
+        "single_line_address": "西裕街, 元朗"
       }
     },
     {

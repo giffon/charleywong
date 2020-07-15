@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/713039495474436/",
       "meta": {
-        "name": "Magic Dream Salon",
         "id": "713039495474436",
-        "about": "Magic Dream salon",
-        "categories": [
-          "Hair Salon",
-          "Barber Shop"
+        "name": "Magic Dream Salon",
+        "about": "Magic Dream salon ",
+        "category_list": [
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          },
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          }
         ],
-        "addr": "紅磡蕪湖街61號1樓",
-        "area": "8 港鐵黃埔站直達b出口步行3分鐘～ Kowloon, Hong Kong",
-        "tel": "27731328"
+        "single_line_address": "紅磡蕪湖街61號1樓, 8 港鐵黃埔站直達b出口步行3分鐘～ Kowloon, Hong Kong"
       }
     }
   ],

@@ -11,17 +11,29 @@
     {
       "url": "https://www.facebook.com/bonsaiplanethk/",
       "meta": {
-        "name": "盆景星球 Bonsai Planet - Hong Kong",
         "id": "312630576056631",
+        "username": "bonsaiplanethk",
+        "name": "盆景星球 Bonsai Planet - Hong Kong",
         "about": "～～盆景星球網上專門店～～\n🌱🌏盆景星球網上專門店🌍🌱\n🍀專門分享 售賣迷你/小品盆景\n🍀自家設計\n🍀多多支持 中意請follow\n🍀留意最新動態\n🇭🇰🇭🇰Hong Kong Based🇭🇰🇭🇰",
-        "categories": [
-          "Brand",
-          "Gift Shop",
-          "Landscape Company"
+        "category_list": [
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          },
+          {
+            "id": "128853933850116",
+            "name": "Landscape Company"
+          },
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          }
         ],
-        "addr": "觀塘巧明街106號冠力工業大廈15樓05室",
-        "area": "Hong Kong",
-        "email": "bonsaiplanethk@gmail.com"
+        "emails": [
+          "bonsaiplanethk@gmail.com"
+        ],
+        "single_line_address": "觀塘巧明街106號冠力工業大廈15樓05室, Hong Kong",
+        "website": "www.bonsaiplanethk.com"
       }
     },
     {

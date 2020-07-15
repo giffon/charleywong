@@ -6,11 +6,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "AMEI Makeup - Sally Cheung",
         "id": "687095578042770",
+        "username": "ameimakeup",
+        "name": "AMEI Makeup - Sally Cheung",
         "about": "Provide professional makeup and hair styling service in your precious moment.\nBanquets, events, graduations, dating and any precious moment~",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ]
       },
       "url": "https://www.facebook.com/ameimakeup/"

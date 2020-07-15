@@ -15,13 +15,19 @@
     {
       "url": "https://www.facebook.com/magis.huazhongren/",
       "meta": {
-        "name": "M a g i s 畫 中 仁",
         "id": "384732581941389",
+        "username": "magis.huazhongren",
+        "name": "M a g i s 畫 中 仁",
         "about": "M a g i s 並不只是一個以畫作做公益的網頁，更是一個生活方向︱M a g i s is more than a platform for selling paintings for charity. It is a Latin word meaning “more” or “better”. It represents a way of life.",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "magis.huazhongren@gmail.com"
+        "emails": [
+          "magis.huazhongren@gmail.com"
+        ]
       }
     }
   ],

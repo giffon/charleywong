@@ -11,14 +11,21 @@
     {
       "url": "https://www.facebook.com/breakthrough.hk/",
       "meta": {
-        "name": "突破機構 Breakthrough",
         "id": "134620429922505",
+        "username": "breakthrough.hk",
+        "name": "突破機構 Breakthrough",
         "about": "「突破」是以基督信仰為基礎的青少年機構，藉媒體及人際接觸，啟發香港青年探索生命，關心社會，活出積極人生，認識並跟隨耶穌基督。",
-        "categories": [
-          "Nonprofit Organization"
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          }
         ],
-        "email": "breakthrough@breakthrough.org.hk",
-        "tel": "26320000"
+        "emails": [
+          "breakthrough@breakthrough.org.hk"
+        ],
+        "single_line_address": "新界沙田亞公角山路33號突破青年村, 香港",
+        "website": "http://www.breakthrough.org.hk"
       }
     }
   ],

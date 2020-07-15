@@ -18,13 +18,20 @@
     {
       "url": "https://www.facebook.com/cupmedia/",
       "meta": {
-        "name": "CUP 媒體",
         "id": "81698200207",
+        "username": "cupmedia",
+        "name": "CUP 媒體",
         "about": "陶傑主理的 *CUP 媒體。\n精選十條新聞，在這個紛亂的世界，大漩渦的周邊，與你淸醒同行。",
-        "categories": [
-          "News & Media Website"
+        "category_list": [
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
         ],
-        "email": "editor@cup.com.hk"
+        "emails": [
+          "editor@cup.com.hk"
+        ],
+        "website": "www.cup.com.hk"
       }
     },
     {

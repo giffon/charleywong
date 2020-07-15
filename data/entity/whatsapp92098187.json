@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/whatsapp92098187/",
       "meta": {
-        "name": "勇清洗冷氣",
         "id": "1729501993936564",
+        "username": "whatsapp92098187",
+        "name": "勇清洗冷氣",
         "about": "提供清洗冷氣，維修及安裝服務。\nWhatsApp：92098187（勇）",
-        "categories": [
-          "Professional Service"
+        "category_list": [
+          {
+            "id": "176831012360626",
+            "name": "Professional Service"
+          }
         ],
-        "addr": "十八區",
-        "area": "00000 Hong Kong",
-        "tel": "92098187"
+        "single_line_address": "十八區, 00000 Hong Kong"
       }
     }
   ],

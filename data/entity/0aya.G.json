@@ -8,14 +8,19 @@
     {
       "url": "https://www.facebook.com/0aya.G/",
       "meta": {
-        "name": "綾舍 RainGroceries",
         "id": "199096767239313",
+        "username": "0aya.G",
+        "name": "綾舍 RainGroceries",
         "about": "綾舍RainGroceries 是一個一站式綜合服務平台，會員可以尋找各行各業的服務支援或自薦提供服務。\n透過與不同領域的伙伴交流，集思廣益，取長補短:D",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "raingroceries@gmail.com",
-        "tel": "66380385"
+        "emails": [
+          "raingroceries@gmail.com"
+        ]
       }
     },
     {

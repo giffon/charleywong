@@ -10,13 +10,20 @@
     },
     {
       "meta": {
-        "name": "煲劇學歷史 History in Drama",
         "id": "1184275761642354",
+        "username": "HistoryinDRAMA",
+        "name": "煲劇學歷史 History in Drama",
         "about": "兩個90後女生對歷史的熱愛，是從電視走到課堂，再從課堂走回電視之中。希望在這裡，能凝聚同樣喜愛古裝片的你們，一同分享當中的歷史趣聞！",
-        "categories": [
-          "Arts & Humanities Website"
+        "category_list": [
+          {
+            "id": "2701",
+            "name": "Arts & Humanities Website"
+          }
         ],
-        "email": "historyindrama@gmail.com"
+        "emails": [
+          "historyindrama@gmail.com"
+        ],
+        "website": "https://historyindrama.wixsite.com/home"
       },
       "url": "https://www.facebook.com/HistoryinDRAMA/"
     },

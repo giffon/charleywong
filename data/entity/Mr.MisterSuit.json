@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/Mr.MisterSuit/",
       "meta": {
-        "name": "The Mister Suit",
         "id": "513500992050695",
-        "about": "The Mister Suit 提供西裝及禮服專業度身訂造\n\n地址 : 九龍尖沙咀漆咸道南81號南海大廈地下J舖\n電話 : 5282 5480\n營業時間 : \n星期一 ~ 星期五 14:00 ~ 20:30\n星期六日及公眾假期 13:30 ~ 20:00",
-        "categories": [
-          "Clothing Store",
-          "Brand"
+        "username": "Mr.MisterSuit",
+        "name": "The Mister Suit",
+        "about": "The Mister Suit 提供西裝及禮服專業度身訂造\n\n地址 : 九龍尖沙咀漆咸道南81號南海大廈地下J舖\n電話 : 5282 5480\n營業時間 : \n星期一 ~ 星期五 14:00 ~ 21:00\n星期六日及公眾假期 13:30 ~ 20:00",
+        "category_list": [
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          },
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          }
         ],
-        "addr": "九龍尖沙咀漆咸道南81號南海大廈地下J舖",
-        "area": "Hong Kong",
-        "email": "mr.mistersuit@gmail.com",
-        "tel": "52825480"
+        "emails": [
+          "mr.mistersuit@gmail.com"
+        ],
+        "single_line_address": "九龍尖沙咀漆咸道南81號南海大廈地下J舖, Hong Kong"
       }
     },
     {

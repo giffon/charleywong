@@ -6,18 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "name": "3C維修工作室",
         "id": "545772952127123",
+        "username": "Fix3C",
+        "name": "3C維修工作室",
         "about": "爆mon? 搵3C維修工作室,上門專整iPhone爆mon，iPhone換電",
-        "categories": [
-          "Computer Repair Service",
-          "Phone/Tablet",
-          "Mobile Phone Shop"
+        "category_list": [
+          {
+            "id": "108472109230615",
+            "name": "Computer Repair Service"
+          },
+          {
+            "id": "210979565595898",
+            "name": "Mobile Phone Shop"
+          },
+          {
+            "id": "2265",
+            "name": "Phone/Tablet"
+          }
         ],
-        "addr": "荔枝角 香港工業中心 B座2樓712",
-        "area": "000000 Hong Kong",
-        "email": "fixxx3c@gmail.com",
-        "tel": "68555896"
+        "emails": [
+          "fixxx3c@gmail.com"
+        ],
+        "single_line_address": "旺角好景商業中心4樓 A9, 000000 Hong Kong",
+        "website": "http://iPhoneRepairHK.com"
       },
       "url": "https://www.facebook.com/Fix3C/"
     },

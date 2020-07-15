@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/YinWaiBeauty/",
       "meta": {
-        "name": "妍慧美容纖體中心 Yin Wai Beauty.",
         "id": "154443797930273",
+        "username": "YinWaiBeauty",
+        "name": "妍慧美容纖體中心 Yin Wai Beauty.",
         "about": "2010年開業 從事美容經驗超過十年\n已考獲國際認可專業文憑\n多年努力更榮獲嘉許 優秀專業美容院\n致力引入先進儀器提供專業療程\n宗旨為客人提供最合適療程 單次收費\n電話 65774274",
-        "categories": [
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "addr": "屯門屯喜號2號栢麗廣場25樓2517室",
-        "area": "Tuen Mun",
-        "email": "mandy.cheung@yinwaibeauty.com",
-        "tel": "65774274"
+        "emails": [
+          "mandy.cheung@yinwaibeauty.com"
+        ],
+        "single_line_address": "屯門屯喜號2號栢麗廣場25樓2517室, Tuen Mun",
+        "website": "www.yinwaibeauty.com"
       }
     },
     {

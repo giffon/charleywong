@@ -7,18 +7,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "Royaltea 皇茶 by Tea Circle",
         "id": "417399898629601",
-        "about": "我們是 Royal Tea HK\n天圓地方茶葉圓尖幼粗枝各有熟地，茂盛滋長。Be a part of the center \n\n將世界各地的好茶帶到香港，創造品茶潮流 ‘Fashion Tea systel’",
-        "categories": [
-          "Tea Room",
-          "Bubble Tea Shop",
-          "Lounge"
+        "username": "Teacirclegroup",
+        "name": "Royaltea 皇茶 by Tea Circle",
+        "about": "我們是 Royal Tea HK\n天圓地方茶葉圓尖幼粗枝各有熟地，茂盛滋長。Be a part of the center \n\n將世界各地的好茶帶到香港，創造品茶潮流 ‘Fashion Tea systel’\n\n",
+        "category_list": [
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          }
         ],
-        "addr": "旺角廣華街1號仁安大廈22號鋪（向登打士街）",
-        "area": "Hong Kong",
-        "email": "info.royalteahk@gmail.com",
-        "tel": "23201333"
+        "emails": [
+          "info.royalteahk@gmail.com"
+        ],
+        "single_line_address": "旺角廣華街1號仁安大廈地下22號鋪（向登打士街）, Hong Kong"
       },
       "url": "https://www.facebook.com/Teacirclegroup/"
     },

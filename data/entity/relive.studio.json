@@ -17,12 +17,19 @@
     {
       "url": "https://www.facebook.com/relivestudiohk/",
       "meta": {
-        "name": "relive",
         "id": "777557409103979",
-        "categories": [
-          "Dessert Shop"
+        "username": "relivestudiohk",
+        "name": "relive",
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "email": "relivestudio@hotmail.com"
+        "emails": [
+          "relivestudio@hotmail.com"
+        ],
+        "website": "relive.hk"
       },
       "hidden": true
     }

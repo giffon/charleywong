@@ -11,16 +11,28 @@
     {
       "url": "https://www.facebook.com/spcahk/",
       "meta": {
-        "name": "SPCA (HK) 香港愛護動物協會",
         "id": "69177347384",
+        "username": "spcahk",
+        "name": "SPCA (HK) 香港愛護動物協會",
         "about": "Animal rescue 27111000 | Hotline 28020501 | Fostering 22325524 | Donations of resources (eg towels) 22325553 | Fund raising 22325543 | ASP 22325510\n\n豁免牌照號碼：ORG-00002",
-        "categories": [
-          "Veterinarian",
-          "Adoption Service",
-          "Nonprofit Organization"
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          },
+          {
+            "id": "193245447371023",
+            "name": "Adoption Service"
+          },
+          {
+            "id": "162068413843305",
+            "name": "Veterinarian"
+          }
         ],
-        "email": "info@spca.hk",
-        "tel": "28023003"
+        "emails": [
+          "info@spca.hk"
+        ],
+        "website": "https://www.spca.org.hk/en/"
       }
     }
   ],

@@ -7,12 +7,16 @@
     {
       "url": "https://www.facebook.com/stephenlau.hairstylist/",
       "meta": {
-        "name": "StephenLau Hair",
         "id": "139893616757039",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care"
+        "username": "stephenlau.hairstylist",
+        "name": "StephenLau Hair",
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "tel": "93025025"
+        "single_line_address": "尖沙咀漢口道39-41麥仕維中心4樓"
       },
       "hidden": true
     },

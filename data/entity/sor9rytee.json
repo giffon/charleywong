@@ -17,13 +17,20 @@
     {
       "url": "https://www.facebook.com/sor9rytee/",
       "meta": {
-        "name": "Sor9ry",
         "id": "242151209625464",
+        "username": "sor9rytee",
+        "name": "Sor9ry",
         "about": "We are Sor9ry® \nThat's our Attitude",
-        "categories": [
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "email": "info@sor9ryhk.com"
+        "emails": [
+          "info@sor9ryhk.com"
+        ],
+        "website": "https://www.sor9ryhk.com/"
       }
     }
   ],

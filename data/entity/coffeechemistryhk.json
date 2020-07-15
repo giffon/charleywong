@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/coffeechemistryhk/",
       "meta": {
-        "name": "Coffee Chemistry",
         "id": "371713406784707",
+        "username": "coffeechemistryhk",
+        "name": "Coffee Chemistry",
         "about": "How about a cup of high quality coffee to fuel up your day? We brew expresso, cold brew and hand drip for you. Just drop by and share the energy!",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "葵涌葵昌路51號九龍貿易中心2座2樓B2號舖",
-        "area": "Hong Kong",
-        "email": "coffeechemistryhk@gmail.com",
-        "tel": "55981378"
+        "emails": [
+          "coffeechemistryhk@gmail.com"
+        ],
+        "single_line_address": "葵涌葵昌路51號九龍貿易中心2座2樓B2號舖, Hong Kong"
       }
     },
     {

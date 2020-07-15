@@ -7,16 +7,25 @@
     {
       "url": "https://www.facebook.com/mircalenail/",
       "meta": {
-        "name": "Mircale Nail",
         "id": "289591308181069",
+        "username": "mircalenail",
+        "name": "Mircale Nail",
         "about": "為客人提供：\n-高質素與價錢實惠的美甲服務\n-紮肚、產後修身服務\n- 纖體修型療程\n-天然護膚品\n-人手塑身",
-        "categories": [
-          "Nail Salon",
-          "Health/Beauty",
-          "Cosmetics Store"
+        "category_list": [
+          {
+            "id": "198516863494646",
+            "name": "Nail Salon"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "144873802247220",
+            "name": "Cosmetics Store"
+          }
         ],
-        "addr": null,
-        "area": "Tsim Sha Tsui"
+        "single_line_address": "Tsim Sha Tsui"
       }
     },
     {

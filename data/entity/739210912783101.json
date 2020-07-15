@@ -6,16 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "維利印刷公司",
         "id": "739210912783101",
+        "name": "維利印刷公司",
         "about": "專業印刷",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "addr": "M/F 426 Portland Street,",
-        "area": "Hong Kong",
-        "email": "mandylii@outlook.com",
-        "tel": "26152711"
+        "emails": [
+          "mandylii@outlook.com"
+        ],
+        "single_line_address": "M/F 426 Portland Street,, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/739210912783101/"
     }

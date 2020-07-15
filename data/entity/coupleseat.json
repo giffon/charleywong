@@ -7,10 +7,14 @@
     {
       "url": "https://www.facebook.com/coupleseat/",
       "meta": {
-        "name": "情侶座",
         "id": "213083449219180",
-        "categories": [
-          "Author"
+        "username": "coupleseat",
+        "name": "情侶座",
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          }
         ]
       }
     }

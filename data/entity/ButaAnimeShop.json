@@ -10,14 +10,20 @@
     {
       "meta": {
         "id": "1575343092693499",
-        "about": "本店所售之貨品，全部皆是日版正貨\nWhatsapp（5900-3230）",
-        "categories": [
-          "Toy shop"
+        "username": "ButaAnimeShop",
+        "name": "Buta Anime Shop",
+        "about": "致力提供安心的購物體驗\n營業時間：下午1至8點\n逢星期四、星期日休息\n客服wtsapp: 59003230\n只售日版正貨 #玩具 #動漫精品 \n",
+        "category_list": [
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          }
         ],
-        "addr": "旺角亞皆老街2C號啟如商業大廈4樓3室",
-        "area": "Hong Kong",
-        "email": "butaanimeshop@gmail.com",
-        "tel": "59003230"
+        "emails": [
+          "butaanimeshop@gmail.com"
+        ],
+        "single_line_address": "旺角亞皆老街2C號啟如商業大廈4樓3室, Hong Kong",
+        "website": "http://www.butaanimeshop.com/"
       },
       "url": "https://www.facebook.com/ButaAnimeShop/"
     },

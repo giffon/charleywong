@@ -12,15 +12,28 @@
     {
       "url": "https://www.facebook.com/savewohk/",
       "meta": {
-        "name": "Savewo 救世",
         "id": "108921967381242",
-        "about": "Savewo 救世 登場，為服務香港人為目的，生產高質抗疫產品。目前正在開發 5項產品",
-        "categories": [
-          "Medical & Health",
-          "Health & Wellness Website",
-          "Health/Beauty"
+        "username": "savewohk",
+        "name": "Savewo 救世",
+        "about": "Savewo 救世 成立於2020年，主力生產及設計健康防護裝備。Savewo的口罩產品性能達到世界頂尖水平，同時為香港首家生產可重用防菌面罩及超立體口罩的生產商。\n\n",
+        "category_list": [
+          {
+            "id": "145118935550090",
+            "name": "Medical & Health"
+          },
+          {
+            "id": "2707",
+            "name": "Health & Wellness Website"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "email": "info@zeta.com.hk"
+        "emails": [
+          "info@save.com"
+        ],
+        "website": "www.savewo.com"
       }
     }
   ],

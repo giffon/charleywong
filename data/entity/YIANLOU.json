@@ -6,12 +6,22 @@
   "webpages": [
     {
       "meta": {
-        "name": "失控歌手 樓一安",
         "id": "673367172783126",
-        "categories": [
-          "Arts & Entertainment",
-          "Movie/Television Studio",
-          "Movie"
+        "username": "YIANLOU",
+        "name": "失控歌手 樓一安",
+        "category_list": [
+          {
+            "id": "370369022981015",
+            "name": "Movie/Television Studio"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "1105",
+            "name": "Movie"
+          }
         ]
       },
       "url": "https://www.facebook.com/YIANLOU/"

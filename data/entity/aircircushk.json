@@ -7,16 +7,24 @@
     {
       "url": "https://www.facebook.com/aircircushk/",
       "meta": {
-        "name": "AirCircus",
         "id": "288871414935358",
-        "categories": [
-          "Pilates Studio",
-          "Gym/Physical Fitness Center"
+        "username": "aircircushk",
+        "name": "AirCircus",
+        "category_list": [
+          {
+            "id": "143297819412003",
+            "name": "Pilates Studio"
+          },
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          }
         ],
-        "addr": "Room 1018, 10/F, Hollywood Plaza, 610 Nathan Road",
-        "area": "Hong Kong",
-        "email": "happykidultyoga@gmail.com",
-        "tel": "97653592"
+        "emails": [
+          "happykidultyoga@gmail.com"
+        ],
+        "single_line_address": "Room 1018, 10/F, Hollywood Plaza, 610 Nathan Road, Hong Kong",
+        "website": "www.happykidultyoga.com"
       }
     },
     {

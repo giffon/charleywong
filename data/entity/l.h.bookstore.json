@@ -10,15 +10,21 @@
     {
       "url": "https://www.facebook.com/l.h.bookstore/",
       "meta": {
-        "name": "瑯嬛書屋",
         "id": "802891923097849",
+        "username": "l.h.bookstore",
+        "name": "瑯嬛書屋",
         "about": "性別友善書店。提供一個閱讀的、文化資訊的交流處；一個心靈休憩的空間。在性別平權真正落實之前，持續努力。",
-        "categories": [
-          "Independent Bookstore"
+        "category_list": [
+          {
+            "id": "387228845011016",
+            "name": "Independent Bookstore"
+          }
         ],
-        "addr": "中壢區榮民路165巷6號",
-        "area": "Zhongli District",
-        "email": "l.h.bookstore@gmail.com"
+        "emails": [
+          "l.h.bookstore@gmail.com"
+        ],
+        "single_line_address": "中壢區榮民路165巷6號, Zhongli District 32073",
+        "website": "https://langhuan-st.tumblr.com/"
       }
     }
   ],

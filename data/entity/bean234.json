@@ -10,15 +10,28 @@
     {
       "url": "https://www.facebook.com/bean234/",
       "meta": {
-        "name": "BEANS Coffee. Dessert. Light meal",
         "id": "538949956177961",
+        "username": "bean234",
+        "name": "BEANS Coffee. Dessert. Light meal",
         "about": "www.beanscafe.hk",
-        "categories": [
-          "Dessert Shop",
-          "Coffee Shop",
-          "Diner"
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "email": "info@beansgroup.hk"
+        "emails": [
+          "info@beansgroup.hk"
+        ],
+        "website": "www.beansgroup.hk"
       }
     },
     {

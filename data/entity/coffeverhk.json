@@ -6,16 +6,22 @@
   "webpages": [
     {
       "meta": {
-        "name": "Coffever",
         "id": "180657409272018",
-        "categories": [
-          "Restaurant",
-          "Coffee Shop"
+        "name": "Coffever",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "Room C, 3/F, Po Ming Building, Foo Ming Street 2-6, Causeway Bay, Hong Kong",
-        "area": "Causeway Bay",
-        "email": "coffeverhk@gmail.com",
-        "tel": "69189374"
+        "emails": [
+          "coffeverhk@gmail.com"
+        ],
+        "single_line_address": "Room C, 3/F, Po Ming Building, Foo Ming Street 2-6, Causeway Bay, Hong Kong, Causeway Bay"
       },
       "url": "https://www.facebook.com/180657409272018/"
     },

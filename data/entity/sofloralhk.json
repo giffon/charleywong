@@ -18,14 +18,21 @@
     {
       "url": "https://www.facebook.com/sofloralhk/",
       "meta": {
-        "name": "So' Floral 好 ‧ 花漾",
         "id": "267523507079623",
+        "username": "sofloralhk",
+        "name": "So' Floral   好 ‧ 花漾",
         "about": "店主於英國倫敦著名花藝學府McQueen Flower School畢業，並考獲多個認可專業資格，包括日本JPFA保鮮花國際文憑、日本AUBE保鮮花花藝證書及韓國B.H.L.專業花藝師證書。\n合作品牌：KIEHL’S、Jo Malone Lo",
-        "categories": [
-          "Florist"
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "email": "sofloralhk@gmail.com",
-        "tel": "51166480"
+        "emails": [
+          "so.floralhk@gmail.com"
+        ],
+        "single_line_address": "Room 2305, Rear Block, Wah Fat Industrial Building, 10-14 Kung Yip Street, Kwai Chung, Hong Kong",
+        "website": "www.sofloralhk.com"
       }
     }
   ],

@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/The.CMP.hk/",
       "meta": {
-        "name": "忠醫診所",
         "id": "110460717126396",
-        "about": "於2019年12月15日正式成立\n提供全科、針灸、治療筋骨損傷、義診服務，為香港人加油！",
-        "categories": [
-          "Medical & Health"
+        "username": "The.CMP.hk",
+        "name": "忠醫診所",
+        "about": "於2019年12月15日正式成立\n提供全科、針灸、治療筋骨損傷、義診服務，為香港人加油！\n",
+        "category_list": [
+          {
+            "id": "145118935550090",
+            "name": "Medical & Health"
+          }
         ],
-        "addr": "荔枝角青山道668號901室",
-        "area": "Hong Kong",
-        "email": "mkt.thecmp@gmail.com",
-        "tel": "21109337"
+        "emails": [
+          "mkt.thecmp@gmail.com"
+        ],
+        "single_line_address": "荔枝角青山道668號901室, Hong Kong"
       }
     },
     {

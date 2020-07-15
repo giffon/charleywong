@@ -6,15 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "about": "Natural healthcare\nBetter us - Better world",
-        "categories": [
-          "Health/beauty",
-          "Skincare service",
-          "Health spa"
+        "id": "101143674657744",
+        "username": "noUssavonslife",
+        "name": "nous_savons_",
+        "about": "NousSavons natural soap are made from natural herbs , plants and oil , using cold process making. \nBetter us - Better world",
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "1644814599176740",
+            "name": "Skin Care Service"
+          },
+          {
+            "id": "145118935550090",
+            "name": "Medical & Health"
+          }
         ],
-        "email": "pollab17@outlook.com",
-        "tel": "55421877",
-        "id": "101143674657744"
+        "emails": [
+          "pollab17@outlook.com"
+        ],
+        "single_line_address": "Geneva, Switzerland",
+        "website": "https://www.instagram.com/nous_savons_/"
       },
       "url": "https://www.facebook.com/noUssavonslife/"
     },

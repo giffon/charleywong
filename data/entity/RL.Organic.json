@@ -16,16 +16,21 @@
     },
     {
       "meta": {
-        "name": "RL Organic for Health & Beauty",
         "id": "218040974878479",
+        "username": "RL.Organic",
+        "name": "RL Organic for Health & Beauty",
         "about": "本店努力搜羅世界各地價廉物美的天然有機產品。\n俄羅斯 Levrana, Natura Siberica, Olesya Mustaeva Workshop, Organic People, Zeitun, 英國 Amphora Aromatics, 澳州 BE.ST Organic, SuperfoodLab, Luk Beautifood, 美國 Jane Iredale",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "Unit P, 9/F, Kowloon Plaza, 485 Castle Peak Road,  Lai Chi Kok, Kowloon",
-        "area": "Hong Kong",
-        "email": "info@royally.com.hk",
-        "tel": "39550162"
+        "emails": [
+          "info@royally.com.hk"
+        ],
+        "single_line_address": "𝕌𝕟𝕚𝕥 ℙ, 𝟡/𝔽, 𝕂𝕠𝕨𝕝𝕠𝕠𝕟 ℙ𝕝𝕒𝕫𝕒, 𝟜𝟠𝟝 ℂ𝕒𝕤𝕥𝕝𝕖 ℙ𝕖𝕒𝕜 ℝ𝕠𝕒𝕕, 𝕃𝕒𝕚 ℂ𝕙𝕚 𝕂𝕠𝕜, Hong Kong",
+        "website": "http://www.rl-organic.com"
       },
       "url": "https://www.facebook.com/RL.Organic/"
     }

@@ -28,30 +28,44 @@
     {
       "url": "https://www.facebook.com/kmkoreashop/",
       "meta": {
-        "name": "韓國直購代購王kmshop",
         "id": "429464497099732",
+        "username": "kmkoreashop",
+        "name": "韓國直購代購王kmshop",
         "about": "90後夫婦一畢業就創業, 人氣網店開業近5年\n女店主長居韓國入貨，設有2間門市信心保證\n店內貨品均由店主們精心挑選韓國空運到港,\n曾接受雜誌訪問。\nInstagram: @koreashop @kmkickss",
-        "categories": [
-          "Shopping Service",
-          "Apparel & Clothing",
-          "Clothing Company"
+        "category_list": [
+          {
+            "id": "200046713342752",
+            "name": "Shopping Service"
+          },
+          {
+            "id": "623704114455366",
+            "name": "Clothing Company"
+          },
+          {
+            "id": "1086422341396773",
+            "name": "Apparel & Clothing"
+          }
         ],
-        "addr": "旺角西洋菜南街5號好望角大廈14樓1407室",
-        "area": "Hong Kong",
-        "email": "kmshopksb@gmail.com",
-        "tel": "66037066"
+        "emails": [
+          "kmshopksb@gmail.com"
+        ],
+        "single_line_address": "旺角西洋菜南街5號好望角大廈14樓1407室, Hong Kong",
+        "website": "http://www.instagram.com/koreashop"
       }
     },
     {
       "url": "https://www.facebook.com/kmladies/",
       "meta": {
-        "name": "Km lady+",
         "id": "127454251307373",
-        "about": "90後km店主主理\n主售歐洲一線名牌代購\n賣KM自己喜愛的。",
-        "categories": [
-          "Product/Service"
-        ],
-        "tel": "66037066"
+        "username": "kmladies",
+        "name": "Km lady+",
+        "about": "90後km店主主理\n主售歐洲一線名牌代購\n賣KM自己喜愛的。\n\n\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
+        ]
       }
     }
   ],

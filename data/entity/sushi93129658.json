@@ -6,15 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "大埔·御千丼",
         "id": "1691254694510966",
+        "username": "sushi93129658",
+        "name": "大埔·御千丼",
         "about": "大埔翠樂街11號美豐花園15號地鋪",
-        "categories": [
-          "Sushi Restaurant"
+        "category_list": [
+          {
+            "id": "619109018238267",
+            "name": "Donburi Restaurant"
+          },
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          }
         ],
-        "addr": null,
-        "area": "新界",
-        "tel": "93129658"
+        "single_line_address": "新界"
       },
       "url": "https://www.facebook.com/sushi93129658/"
     },

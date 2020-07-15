@@ -7,16 +7,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "Ω ohms cafe&bar 順逆 珈琲酒館",
         "id": "995947647125325",
+        "username": "ohmshk2017",
+        "name": "Ω ohms cafe&bar 順逆 珈琲酒館",
         "about": "obey heterological methods cafe&bar\n順·逆 珈琲酒館\n\n順隨自然活生，逆流於人群的去傳遞我們的理念\n\n*推廣公平貿易咖啡\n*推廣素食\n*積極減癈，資源循環再用\n*實踐永續生活模式",
-        "categories": [
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "Shop A, 192 Hollywood Road （SheungWan MTR Station exit A)",
-        "area": "852 Hong Kong",
-        "email": "info@ohmscafebar.com",
-        "tel": "54004236"
+        "single_line_address": "Shop A, 192 Hollywood Road （SheungWan MTR Station exit A), 852 Hong Kong"
       },
       "url": "https://www.facebook.com/ohmshk2017/"
     },

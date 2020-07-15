@@ -7,15 +7,19 @@
     {
       "url": "https://www.facebook.com/powerwashhk/",
       "meta": {
-        "name": "Power Wash",
         "id": "1704304133025172",
-        "about": "Automated car wash, affordable, fast, and convenient\n 全新洗車技術,�快速方便�無需購買套票",
-        "categories": [
-          "Car Wash",
-          "Automotive Manufacturer"
+        "username": "powerwashhk",
+        "name": "Power Wash",
+        "about": "Automated car wash, affordable, fast, and convenient\n 全新洗車技術,�快速方便�無需購買套票\n",
+        "category_list": [
+          {
+            "id": "162295707155272",
+            "name": "Car Wash"
+          }
         ],
-        "email": "powerwash.hk@gmail.com",
-        "tel": "68481629"
+        "emails": [
+          "powerwash.hk@gmail.com"
+        ]
       }
     },
     {

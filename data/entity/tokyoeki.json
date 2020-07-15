@@ -11,14 +11,20 @@
     {
       "meta": {
         "id": "265795733442906",
-        "about": "本店專營美國玩具，以變形金剛，Marvel英雄及星球大戰為主。同時亦銷售各大玩具品牌，如Hasbro, Takara Tomy, Bandai, Banpresto, Mezco, NECA, DC Direct...etc",
-        "categories": [
-          "Toy shop"
+        "username": "tokyoeki",
+        "name": "東京駅 Tokyo Station",
+        "about": "本店專營美國玩具，以變形金剛，Marvel英雄及星球大戰為主。同時亦銷售各大玩具品牌，如Hasbro, Takara Tomy, Bandai, Banpresto, Mezco, NECA, DC Direct...etc \n\n",
+        "category_list": [
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          }
         ],
-        "addr": "九龍 油麻地 現時點 260 及 261 號舖",
-        "area": "Hong Kong",
-        "email": "tokyoeki@yahoo.com.hk",
-        "tel": "91237889"
+        "emails": [
+          "tokyoeki@yahoo.com.hk"
+        ],
+        "single_line_address": "九龍 油麻地 現時點 261及 262 號舖, 852 Hong Kong",
+        "website": "https://tokyostation.store"
       },
       "url": "https://www.facebook.com/tokyoeki/"
     }

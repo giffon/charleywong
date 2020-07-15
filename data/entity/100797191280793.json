@@ -7,14 +7,20 @@
     {
       "url": "https://www.facebook.com/100797191280793/",
       "meta": {
-        "name": "玖零後小食店",
         "id": "100797191280793",
+        "name": "玖零後小食店",
         "about": "4個傻仔老闆經營既小店",
-        "categories": [
-          "Restaurant",
-          "Food Stand"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          }
         ],
-        "tel": "67538320"
+        "single_line_address": "大圍田心街雲疊花園雲疊商場 地鋪16B"
       }
     }
   ],

@@ -10,13 +10,21 @@
     {
       "url": "https://www.facebook.com/discoverhongkongheritage/",
       "meta": {
-        "name": "尋蹤覓蹟",
         "id": "395070264249296",
+        "username": "discoverhongkongheritage",
+        "name": "尋蹤覓蹟",
         "about": "「尋蹤覓蹟」所追尋嘅係古蹟嘅蹤跡同埋背後嘅故事，我哋會以生動有趣嘅方式將古蹟呈現到大家眼前！",
-        "categories": [
-          "Society & Culture Website",
-          "Community"
-        ]
+        "category_list": [
+          {
+            "id": "2714",
+            "name": "Society & Culture Website"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
+        ],
+        "website": "https://hong-kong-heritage.com/"
       }
     },
     {

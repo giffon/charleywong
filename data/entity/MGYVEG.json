@@ -7,31 +7,43 @@
     {
       "url": "https://www.facebook.com/233152457089639/",
       "meta": {
-        "name": "梅貴緣",
         "id": "233152457089639",
-        "categories": [
-          "Health Food Restaurant",
-          "Vegetarian/Vegan Restaurant",
-          "Buffet Restaurant"
+        "name": "梅貴緣",
+        "category_list": [
+          {
+            "id": "176007949109829",
+            "name": "Buffet Restaurant"
+          },
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          },
+          {
+            "id": "156756251046858",
+            "name": "Health Food Restaurant"
+          }
         ],
-        "addr": "基隆街188號",
-        "area": "Sham Shui Po",
-        "tel": "26606988"
+        "single_line_address": "基隆街188號, 852 Sham Shui Po"
       }
     },
     {
       "url": "https://www.facebook.com/MGYVEG/",
       "meta": {
-        "name": "梅貴緣",
         "id": "1248172318615307",
-        "about": "地址：九龍深水埗基隆街188號地下C舖\n電話：2660 6988\n自助餐時段及收費\n星期二至五 (星期六、日及公眾假期)\n午市 $68 ($78)\n11:30-15:30\n晚市 $108 ($118)\n18:30-21:30\n- 用餐時間為1小時30分鐘",
-        "categories": [
-          "Vegetarian/Vegan Restaurant",
-          "Buffet Restaurant"
+        "username": "MGYVEG",
+        "name": "梅貴緣",
+        "about": "地址：九龍深水埗基隆街188號地下C舖\n電話：2660 6988\n營業時間：11:30-20:30",
+        "category_list": [
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          },
+          {
+            "id": "176007949109829",
+            "name": "Buffet Restaurant"
+          }
         ],
-        "addr": "深水埗基隆街188號C舖",
-        "area": "852 Hong Kong",
-        "tel": "26606988"
+        "single_line_address": "深水埗基隆街188號C舖, 852 Hong Kong"
       }
     }
   ],

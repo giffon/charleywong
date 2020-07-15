@@ -15,17 +15,25 @@
     {
       "url": "https://www.facebook.com/lotushongkong/",
       "meta": {
-        "name": "Lotus-荷·美人",
         "id": "280571212066059",
+        "username": "lotushongkong",
+        "name": "Lotus-荷·美人",
         "about": "美容·按摩",
-        "categories": [
-          "Skin Care Service",
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "1644814599176740",
+            "name": "Skin Care Service"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "addr": "屯門彩華花園B座23號",
-        "area": "0000 Hong Kong",
-        "email": "lotus@jointpgl.com",
-        "tel": "98152669"
+        "emails": [
+          "lotus@jointpgl.com"
+        ],
+        "single_line_address": "屯門彩華花園B座23號, 0000 Hong Kong",
+        "website": "https://instagram.com/_u/lotus_hk"
       }
     }
   ],

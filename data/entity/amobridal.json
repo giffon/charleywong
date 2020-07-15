@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/amobridal/",
       "meta": {
-        "name": "AMO Bridal 姊妹裙·晚裝·化妝造型",
         "id": "399377650131779",
+        "username": "amobridal",
+        "name": "AMO Bridal 姊妹裙·晚裝·化妝造型",
         "about": "AMO Bridal 姊妹裙專門店\n本店專營度身訂造姊妹裙，多種布料顏色任意配搭，及一站式設有姊妹化妝髮型服務，店舖寬敞舒適，歡迎預約試款~",
-        "categories": [
-          "Wedding Planning Service",
-          "Women's Clothing Store"
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "128753240528981",
+            "name": "Women's Clothing Store"
+          }
         ],
-        "addr": "漆咸道南115號達成商業大廈10樓全層",
-        "area": "Tsim Sha Tsui",
-        "email": "amobridal@hotmail.com.hk",
-        "tel": "92848474"
+        "emails": [
+          "amobridal@hotmail.com.hk"
+        ],
+        "single_line_address": "漆咸道南115號達成商業大廈10樓全層, Tsim Sha Tsui"
       }
     },
     {

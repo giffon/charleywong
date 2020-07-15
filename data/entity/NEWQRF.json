@@ -9,15 +9,17 @@
     },
     {
       "meta": {
-        "name": "QRF",
         "id": "153353478089600",
+        "username": "NEWQRF",
+        "name": "QRF",
         "about": "Close on Sundays and Hong Kong public holidays\n星期日及公眾假期休息",
-        "categories": [
-          "Outdoor & Sporting Goods Company"
+        "category_list": [
+          {
+            "id": "2231",
+            "name": "Outdoor & Sporting Goods Company"
+          }
         ],
-        "addr": "Rm 102B, 1/F., Prosper Commerical Building, 9 Yin Chong Street, Mong Kok,",
-        "area": "00 Kowloon, Hong Kong",
-        "tel": "31884530"
+        "single_line_address": "Rm 102B, 1/F., Prosper Commerical Building, 9 Yin Chong Street, Mong Kok,, 00 Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/NEWQRF/"
     },

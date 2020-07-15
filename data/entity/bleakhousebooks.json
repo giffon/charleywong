@@ -17,16 +17,21 @@
     {
       "url": "https://www.facebook.com/bleakhousebooks/",
       "meta": {
-        "name": "Bleak House Books",
         "id": "261190157665178",
+        "username": "bleakhousebooks",
+        "name": "Bleak House Books",
         "about": "Est. February 2017. We buy and sell fine new and used English language books. Part bookshop, part community space. A refuge for thinkers and readers of all ages from the hustle and bustle of Hong Kong.",
-        "categories": [
-          "Bookstore"
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
         ],
-        "addr": "27/F, Unit 05, 7-9 Pat Tat Street, Well Tech Centre",
-        "area": "San Po Kong",
-        "email": "info@bleakhousebooks.com.hk",
-        "tel": "37050251"
+        "emails": [
+          "info@bleakhousebooks.com.hk"
+        ],
+        "single_line_address": "27/F, Unit 05, 7-9 Pat Tat Street, Well Tech Centre, San Po Kong",
+        "website": "www.bleakhousebooks.com.hk"
       }
     },
     {

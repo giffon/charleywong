@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/388249611648813/",
       "meta": {
-        "name": "醉串",
         "id": "388249611648813",
+        "name": "醉串",
         "about": "《醉串》\n\n晚上主打特色串燒\n首推燒羊架、燒菠蘿、燒雞泡魚乾…",
-        "categories": [
-          "Diner",
-          "Barbecue Restaurant"
+        "category_list": [
+          {
+            "id": "150534008338515",
+            "name": "Barbecue Restaurant"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "Lok Fu Building, 2-13 Fuk Tin Path",
-        "area": "Yuen Long",
-        "tel": "24088883"
+        "single_line_address": "Lok Fu Building, 2-13 Fuk Tin Path, Yuen Long Town"
       }
     },
     {

@@ -23,15 +23,24 @@
     {
       "url": "https://www.facebook.com/footballcaddy/",
       "meta": {
-        "name": "執波仔 Football Caddy",
         "id": "240213943128832",
+        "username": "footballcaddy",
+        "name": "執波仔 Football Caddy",
         "about": "袋鼠皮波砵專門店 （專賣mizuno asics及其他品牌袋鼠皮砵，幫大家揀一對岩自己又舒服既好拍檔！）",
-        "categories": [
-          "Retail Company",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "footballcaddy@gmail.com",
-        "tel": "93868981"
+        "emails": [
+          "footballcaddy@gmail.com"
+        ],
+        "website": "https://www.instagram.com/football_caddy/"
       }
     }
   ],

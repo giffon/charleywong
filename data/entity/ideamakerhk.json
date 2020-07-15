@@ -9,16 +9,21 @@
     },
     {
       "meta": {
-        "name": "Idea Maker HK",
         "id": "603514526399384",
-        "about": "為香港大小朋友分享最inn既Maker，3D Printing, 設計思維及創意解難。",
-        "categories": [
-          "Local Business"
+        "username": "ideamakerhk",
+        "name": "Idea Maker HK",
+        "about": "為香港大小朋友分享最inn既Maker，3D Printing, coding, 設計思維及創意解難。",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "香港九龍新蒲崗五芳街12號利景工業大廈3樓A05室",
-        "area": "Hong Kong",
-        "email": "info@i3dprinter.com.hk",
-        "tel": "55166291"
+        "emails": [
+          "info@i3dprinter.com.hk"
+        ],
+        "single_line_address": "香港九龍新蒲崗五芳街12號利景工業大廈3樓A05室, Hong Kong",
+        "website": "http://www.ideamakerhk.com"
       },
       "url": "https://www.facebook.com/ideamakerhk/"
     },

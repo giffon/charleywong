@@ -6,12 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "Nail Carnival",
         "id": "149203778453472",
+        "username": "Nail.Carnival",
+        "name": "Nail Carnival",
         "about": "Nail Carnival  提供專業美甲 , 歡迎查詢 或  致電 : 6114 4791 Rainbow  \n 地址 :  深水埗西九龍中心5樓47，48號",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care",
-          "Community"
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ]
       },
       "url": "https://www.facebook.com/Nail.Carnival/"

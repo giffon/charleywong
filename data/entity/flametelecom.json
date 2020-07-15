@@ -11,17 +11,26 @@
     {
       "url": "https://www.facebook.com/flametelecom/",
       "meta": {
-        "name": "火之訊專業維修專門店 爆mon 手機維修 Flame Telecom",
         "id": "360819464370667",
-        "about": "服務範圍廣,包括:手機各類型維修、加熱煙維修、手機周邊配套等,使用原裝零件、液晶屏。致力將完善服務帶比不同客人。\n 駐店師傅擁有十多年電子維修經驗,更係香港首位加熱煙維修師傅。",
-        "categories": [
-          "Mobile Phone Shop",
-          "Telecommunication Company",
-          "Local Service"
+        "username": "flametelecom",
+        "name": "火之訊專業維修專門店 爆mon 手機維修 Flame Telecom",
+        "about": " 服務範圍廣,包括:手機各類型維修、加熱煙維修、手機周邊配套等,使用原裝零件、液晶屏。致力將完善服務帶比不同客人。\n 駐店師傅擁有十多年電子維修經驗,更係香港首位加熱煙維修師傅。",
+        "category_list": [
+          {
+            "id": "210979565595898",
+            "name": "Mobile Phone Shop"
+          },
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          },
+          {
+            "id": "2253",
+            "name": "Telecommunication Company"
+          }
         ],
-        "addr": "九龍旺角西洋菜南街1N號兆萬中心一樓125舖",
-        "area": "852 Hong Kong",
-        "tel": "66216979"
+        "single_line_address": "九龍旺角西洋菜南街1N號兆萬中心一樓125舖, 852 Hong Kong",
+        "website": "https://jovisy.wixsite.com/flametelecom"
       }
     },
     {

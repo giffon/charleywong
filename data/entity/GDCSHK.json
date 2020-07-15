@@ -7,13 +7,19 @@
     {
       "url": "https://www.facebook.com/GDCSHK/",
       "meta": {
-        "name": "Graphic Design Can Save Hong Kong",
         "id": "113737406740068",
+        "username": "GDCSHK",
+        "name": "Graphic Design Can Save Hong Kong",
         "about": "偉大的美國平面設計師David Carson有一句名言 “Graphic design will save the world right after rock and roll does.”, 我們現在就要用平面設計來拯救我們居住的地方-「香港」。",
-        "categories": [
-          "Visual Arts"
+        "category_list": [
+          {
+            "id": "1080612391976317",
+            "name": "Visual Arts"
+          }
         ],
-        "email": "gdcshk@gmail.com"
+        "emails": [
+          "gdcshk@gmail.com"
+        ]
       }
     }
   ],

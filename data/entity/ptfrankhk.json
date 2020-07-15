@@ -9,14 +9,20 @@
     },
     {
       "meta": {
-        "name": "私人教練 Frank Choi",
         "id": "161106357429480",
-        "about": "Frank is a Hong Kong based Personal Trainer. He has obtained  qualifications through HKU SPACE, NASM, AASFP, Precision Nutrition, and HKCC.",
-        "categories": [
-          "Interest"
+        "username": "ptfrankhk",
+        "name": "私人教練 Frank Choi",
+        "about": "Frank is a Hong Kong based Personal Trainer. He has obtained  qualifications through HKU SPACE, NASM, AASFP, Precision Nutrition, and HKCC.\n",
+        "category_list": [
+          {
+            "id": "1500",
+            "name": "Interest"
+          }
         ],
-        "email": "frankiechoicc@gmail.com",
-        "tel": "61232927"
+        "emails": [
+          "frankiechoicc@gmail.com"
+        ],
+        "website": "http://fitnesspersonaltrainerhongkong.blogspot.hk/2013/09/blog-post_25.html"
       },
       "url": "https://www.facebook.com/ptfrankhk/"
     }

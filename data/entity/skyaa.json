@@ -11,14 +11,20 @@
     {
       "url": "https://www.facebook.com/skyaa/",
       "meta": {
-        "name": "天空體育會 Sky Athletic Association",
         "id": "115908125118559",
+        "username": "skyaa",
+        "name": "天空體育會 Sky Athletic Association",
         "about": "天空體育會已創立十年，現時於港九新界多個暖水泳池全年提供游泳班課程，涵蓋兒童及成人泳班，主要於荔枝角丶美孚丶觀塘丶粉嶺游泳池上課，目前開放網上報名及付款。",
-        "categories": [
-          "Sports League"
+        "category_list": [
+          {
+            "id": "1800",
+            "name": "Sports League"
+          }
         ],
-        "email": "skyaa@live.hk",
-        "tel": "34834502"
+        "emails": [
+          "skyaa@live.hk"
+        ],
+        "website": "https://www.skyaa.org"
       }
     }
   ],

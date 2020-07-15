@@ -9,17 +9,26 @@
     },
     {
       "meta": {
-        "name": "Bouquets 花束 花店 - 上水 粉嶺 大埔",
         "id": "1960988814227016",
+        "username": "hkflowersh0p",
+        "name": "Bouquets 花束 花店 - 上水 粉嶺 大埔",
         "about": "花藝師的日常",
-        "categories": [
-          "Wedding Planning Service",
-          "Florist",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "Tai Po",
-        "area": "Hong Kong",
-        "tel": "96604961"
+        "single_line_address": "Tai Po, Hong Kong",
+        "website": "https://www.yukkeeflower.com.hk/"
       },
       "url": "https://www.facebook.com/hkflowersh0p/"
     },

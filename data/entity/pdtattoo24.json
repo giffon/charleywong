@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/pdtattoo24/",
       "meta": {
-        "name": "Pdtattoo",
         "id": "1436856506546028",
-        "about": "Pd tattoo provide professional custom made tattoo service in clean and insured environment ,7 days a week\nTattoo Artists:\nJel chan\nWing Wong\nTWai Tam\nTsz Leung",
-        "categories": [
-          "Art Gallery",
-          "Tattoo & Piercing Shop"
+        "username": "pdtattoo24",
+        "name": "Pdtattoo",
+        "about": "Pd tattoo provide professional custom made tattoo service in clean and insured environment ,7 days a week\nTattoo Artists:\nJel chan\nWing Wong\nTWai Tam\nTsz Leung\n",
+        "category_list": [
+          {
+            "id": "197384240287028",
+            "name": "Art Gallery"
+          },
+          {
+            "id": "551469561691940",
+            "name": "Tattoo & Piercing Shop"
+          }
         ],
-        "addr": "1E CHAK FUNG HSE,NATHAN RD 440-442 YAN MA TEI   KOWLOON",
-        "area": "Kowloon, Hong Kong",
-        "email": "jel.pdtattoo@gmail.com",
-        "tel": "98555461"
+        "emails": [
+          "jel.pdtattoo@gmail.com"
+        ],
+        "single_line_address": "1E CHAK FUNG HSE,NATHAN RD 440-442 YAN MA TEI   KOWLOON, Kowloon, Hong Kong"
       }
     },
     {

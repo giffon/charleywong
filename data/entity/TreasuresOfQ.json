@@ -6,18 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "Lampwork Art Store Treasures Of Q",
         "id": "1375679075856985",
+        "username": "TreasuresOfQ",
+        "name": "Lampwork Art Store Treasures Of Q",
         "about": "TOQ是一間琉璃工藝坊, 主要是開辦琉璃製作課程及售賣琉璃作品",
-        "categories": [
-          "Arts & Crafts Store",
-          "Jewelry/Watches",
-          "Event"
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          },
+          {
+            "id": "192119584190796",
+            "name": "Event"
+          }
         ],
-        "addr": "大連排道144號金豐工業大廈2座17樓T室",
-        "area": "000000 Hong Kong",
-        "email": "treasuresofq@gmail.com",
-        "tel": "61896095"
+        "emails": [
+          "treasuresofq@gmail.com"
+        ],
+        "single_line_address": "大連排道144號金豐工業大廈2座17樓T室, 000000 Hong Kong"
       },
       "url": "https://www.facebook.com/TreasuresOfQ/"
     },

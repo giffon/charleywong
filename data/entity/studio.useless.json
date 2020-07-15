@@ -11,14 +11,25 @@
     {
       "url": "https://www.facebook.com/studio.useless/",
       "meta": {
-        "name": "無用生活 Useless Studio",
         "id": "593011207514227",
+        "username": "studio.useless",
+        "name": "無用生活 Useless Studio",
         "about": "無用之時 ｜ 有心之物\n\nInstagram: useless.studio",
-        "categories": [
-          "Art",
-          "Community Organization"
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          }
         ],
-        "email": "useless.studio.info@gmail.com"
+        "emails": [
+          "useless.studio.info@gmail.com"
+        ],
+        "single_line_address": "九龍新蒲崗七寶街7號利中工業大廈5樓A2室, San Po Kong",
+        "website": "http://www.useless-studio.com"
       }
     },
     {

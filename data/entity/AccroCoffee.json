@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/AccroCoffee/",
       "meta": {
-        "name": "Accro Coffee",
         "id": "151881931518751",
+        "username": "AccroCoffee",
+        "name": "Accro Coffee",
         "about": "給精神打氣，給夢想勇氣      ===Accro Coffee===",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "Shop D, G/F, Kam Shing Building, 162-164 On Ning Road, Yuen Long",
-        "area": "Yuen Long",
-        "email": "info@accro.hk",
-        "tel": "94301433"
+        "emails": [
+          "info@accro.hk"
+        ],
+        "single_line_address": "Shop D, G/F, Kam Shing Building, 162-164 On Ning Road, Yuen Long, Yuen Long",
+        "website": "www.accro.hk"
       }
     },
     {

@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/thelittlebakeryhk/",
       "meta": {
-        "name": "The little bakery",
         "id": "403851083484165",
+        "username": "thelittlebakeryhk",
+        "name": "The little bakery",
         "about": "小店門市有港式麵包,傳統蛋糕唐餅,蛋糕\n3D 蛋糕,小回禮,散水餅,公司禮品,CUPCAKE (可親臨本店/Facebook message/WHATSAPP 訂購)",
-        "categories": [
-          "Bakery"
+        "category_list": [
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          }
         ],
-        "addr": "香港筲箕灣南安街1-7 號嘉裕大厦A6地下",
-        "area": "Hong Kong",
-        "email": "thelittlebakeryhk@gmail.com",
-        "tel": "98286748"
+        "emails": [
+          "thelittlebakeryhk@gmail.com"
+        ],
+        "single_line_address": "香港筲箕灣南安街1-7 號嘉裕大厦A6地下, Hong Kong"
       }
     },
     {

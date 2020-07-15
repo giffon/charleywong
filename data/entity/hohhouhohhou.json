@@ -9,14 +9,20 @@
     },
     {
       "meta": {
-        "name": "Hohhou（ホッホウ）",
         "id": "597169057131439",
+        "username": "hohhouhohhou",
+        "name": "Hohhou（ホッホウ）",
         "about": "HOHHOU（ホッホウ）the voice to reignite over love to mother earth.",
-        "categories": [
-          "Alternative & Holistic Health Service",
-          "Aromatherapy Service"
+        "category_list": [
+          {
+            "id": "357645644269220",
+            "name": "Alternative & Holistic Health Service"
+          }
         ],
-        "email": "hohhouhohhou@gmail.com"
+        "emails": [
+          "hohhouhohhou@gmail.com"
+        ],
+        "website": "www.hohhou.com"
       },
       "url": "https://www.facebook.com/hohhouhohhou/"
     },

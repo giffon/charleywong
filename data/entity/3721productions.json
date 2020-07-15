@@ -7,11 +7,18 @@
     {
       "meta": {
         "id": "177243869364426",
-        "about": "本地音樂製作公司\n3721 - 做左先得\n\n業務包括: 音樂創作 / 市場推廣 / 藝人管理 / 演唱會製作",
-        "categories": [
-          "Record label"
+        "username": "3721productions",
+        "name": "3721 Productions",
+        "about": "本地音樂製作公司\n3721 - 做左先得\n\n業務包括: 音樂創作 / 市場推廣 / 藝人管理 / 演唱會製作\n",
+        "category_list": [
+          {
+            "id": "1211",
+            "name": "Record Label"
+          }
         ],
-        "email": "productions3721@gmail.com"
+        "emails": [
+          "productions3721@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/3721productions/"
     },

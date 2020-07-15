@@ -9,16 +9,20 @@
     },
     {
       "meta": {
-        "name": "香港國際棋院",
         "id": "526849404132446",
+        "username": "HKChessAcademy",
+        "name": "香港國際棋院",
         "about": "以棋育人",
-        "categories": [
-          "Education"
+        "category_list": [
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "addr": "大埔大日子廣場342鋪\n尖沙咀首都廣場S194",
-        "area": "852 Hong Kong",
-        "email": "hkchessacademy@gmail.com",
-        "tel": "59300900"
+        "emails": [
+          "hkchessacademy@gmail.com"
+        ],
+        "single_line_address": "尖沙咀首都廣場S124, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/HKChessAcademy/"
     }

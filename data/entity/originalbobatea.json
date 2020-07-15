@@ -8,15 +8,16 @@
     {
       "url": "https://www.facebook.com/430814004073996/",
       "meta": {
-        "name": "茶·原點 Original Boba Tea",
         "id": "430814004073996",
+        "name": "茶·原點 Original Boba Tea",
         "about": "本店是一間結合台式飲料加港人口味的本土飲品品牌，創辦人一直堅持以健康，優質為理念，把原本港台風味的特色創意飲品從•原點再一次出發。",
-        "categories": [
-          "Bubble Tea Shop"
+        "category_list": [
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          }
         ],
-        "addr": "土瓜灣馬頭圍道111號地下D號",
-        "area": "Hong Kong",
-        "tel": "26031711"
+        "single_line_address": "土瓜灣馬頭圍道111號地下D號, Hong Kong"
       }
     },
     {

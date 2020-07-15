@@ -6,11 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "A’s keto-bakery",
         "id": "2357696121176730",
-        "categories": [
-          "Kitchen/Cooking",
-          "Bakery"
+        "name": "A’s keto-bakery",
+        "category_list": [
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          },
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          }
         ]
       },
       "url": "https://www.facebook.com/2357696121176730/"

@@ -10,15 +10,25 @@
     {
       "url": "https://www.facebook.com/douyuen/",
       "meta": {
-        "name": "豆丸",
         "id": "149171922325749",
+        "username": "douyuen",
+        "name": "豆丸",
         "about": "全新為貓咪🐱度身訂做豆丸貓砂現正登場！\n\n歡迎各類合作／批發",
-        "categories": [
-          "Product/Service",
-          "Pet Supplies"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2230",
+            "name": "Pet Supplies"
+          }
         ],
-        "email": "info@pettonehk.com",
-        "tel": "53492039"
+        "emails": [
+          "info@pettonehk.com"
+        ],
+        "single_line_address": "Rm E, 13/F WAH FUNG INDUSTRIAL CENTRE BLK 2 KWAI FUNG CRESCENT 33-39 KWAI CHUNG",
+        "website": "https://www.pettonehk.com"
       }
     },
     {

@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/reimaginehk/",
       "meta": {
-        "name": "18種香港",
         "id": "484540675043578",
+        "username": "reimaginehk",
+        "name": "18種香港",
         "about": "走向群眾 走入社區 耕勻香港各個角落",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "reimaginehk@gmail.com"
+        "emails": [
+          "reimaginehk@gmail.com"
+        ],
+        "website": "https://www.reimagine.hk/"
       }
     },
     {

@@ -9,18 +9,29 @@
     },
     {
       "meta": {
-        "name": "雞煲棧 元朗",
         "id": "1658431671103494",
+        "username": "ChickenPotHutYL",
+        "name": "雞煲棧 元朗",
         "about": "雞煲棧(元朗) 至\"Fresh\"的火鍋店\n\n\"Fresh\"=新鮮, 火鍋店的食材最重要是新鮮味美\n\"Fresh\"=創新, 以創新的菜式為客人帶來嶄新的餐飲體驗\n\"Fresh\"=朝氣, 員工均以最佳狀態用心服務每位客人",
-        "categories": [
-          "Fondue Restaurant",
-          "Cantonese Restaurant",
-          "Deli"
+        "category_list": [
+          {
+            "id": "167116956674095",
+            "name": "Fondue Restaurant"
+          },
+          {
+            "id": "214976388519648",
+            "name": "Cantonese Restaurant"
+          },
+          {
+            "id": "188334264523313",
+            "name": "Deli"
+          }
         ],
-        "addr": "元朗媽橫路21-43號地下11號舖",
-        "area": "0000 Hong Kong",
-        "email": "chickenpothut@gmail.com",
-        "tel": "21421618"
+        "emails": [
+          "chickenpothut@gmail.com"
+        ],
+        "single_line_address": "元朗媽橫路21-43號地下11號舖, 0000 Hong Kong",
+        "website": "http://www.openrice.com/en/hongkong/restaurant/yuen-long-chicken-pot-hut/173545"
       },
       "url": "https://www.facebook.com/ChickenPotHutYL/"
     },

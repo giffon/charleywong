@@ -17,13 +17,21 @@
     {
       "url": "https://www.facebook.com/pontemusicorg/",
       "meta": {
-        "name": "Ponte Singers & Orchestra",
         "id": "144202878923222",
-        "about": "With music we bridge hearts together\n用音樂，築起心的橋樑",
-        "categories": [
-          "Musician/Band"
+        "username": "pontemusicorg",
+        "name": "Ponte Singers & Orchestra",
+        "about": "With music we bridge hearts together\n用音樂，築起心的橋樑 ",
+        "category_list": [
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "email": "pontesingers@gmail.com"
+        "emails": [
+          "pontesingers@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "www.pontesingers.org"
       }
     },
     {

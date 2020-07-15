@@ -8,12 +8,17 @@
     {
       "url": "https://www.facebook.com/leungkaki.kk/",
       "meta": {
-        "name": "Leung Ka Ki (梁嘉琪)",
         "id": "50335207300",
+        "username": "leungkaki.kk",
+        "name": "Leung Ka Ki (梁嘉琪)",
         "about": "梁嘉琪官方FACEBOOK專頁\n工作聯繫：Gary Cheung 90170855  Email:gary.gaia@yahoo.com",
-        "categories": [
-          "Artist"
-        ]
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
+        ],
+        "single_line_address": "Hong Kong"
       }
     },
     {
@@ -26,15 +31,24 @@
     {
       "url": "https://www.facebook.com/ktimes2skirt/",
       "meta": {
-        "name": "K times 2",
         "id": "251289269088328",
+        "username": "ktimes2skirt",
+        "name": "K times 2",
         "about": "【K times 2】\n兩位琪淇👭告訴你，「女仔的秘密🤫」一間全香港製造，充滿笑聲、趣事、創意及幻想，會講故事，會為我們保守秘密的「半腰裙」專門店。",
-        "categories": [
-          "Clothing (Brand)",
-          "Women's Clothing Store"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "128753240528981",
+            "name": "Women's Clothing Store"
+          }
         ],
-        "email": "ktimes2@yahoo.com",
-        "tel": "90871737"
+        "emails": [
+          "ktimes2@yahoo.com"
+        ],
+        "single_line_address": "尖沙咀漆咸道南, Hong Kong"
       }
     },
     {

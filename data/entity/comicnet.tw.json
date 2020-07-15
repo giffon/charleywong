@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/comicnet.tw/",
       "meta": {
-        "name": "臺灣漫畫基地 Taiwan Comic Base",
         "id": "135093783257697",
+        "username": "comicnet.tw",
+        "name": "臺灣漫畫基地 Taiwan Comic Base",
         "about": "臺灣漫畫資訊",
-        "categories": [
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "addr": "臺北市大同區華陰街38號",
-        "area": "Taipei, Taiwan 103",
-        "email": "service@tcb.tw",
-        "tel": "886225553155"
+        "emails": [
+          "service@tcb.tw"
+        ],
+        "single_line_address": "臺北市大同區華陰街38號, Taipei, Taiwan 103",
+        "website": "https://tcb.culture.tw/"
       }
     },
     {

@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "EARTH.er",
         "id": "232961320075228",
+        "username": "EARTH.er.EARTH",
+        "name": "EARTH.er",
         "about": "EARTH.er 一個以香港, \n大澳為起點的自家設計環保山系服品牌, \nEARTH.er 將部份收益透過宣明會助養第三世界國家貧窮兒童, 讓利潤收益轉移到地球上有需要援助的人身上.\nEco Fashion Label from Tai O, HK",
-        "categories": [
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "email": "info.earther@gmail.com"
+        "emails": [
+          "info.earther@gmail.com"
+        ],
+        "website": "http://www.earthertaio.com"
       },
       "url": "https://www.facebook.com/EARTH.er.EARTH/"
     },

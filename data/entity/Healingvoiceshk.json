@@ -10,17 +10,25 @@
     },
     {
       "meta": {
-        "name": "Healing Voices 曉樂音樂教育及治療中心",
         "id": "1663950000530149",
-        "about": "專門為有不同發展需要的兒童提供治療服務及音樂藝術課程。\n\n• 音樂治療\n• 言語治療\n• 綜合學習課程\n• 音樂社交專注小組\n• 樂器班/敲擊樂合唱隊\n• 創意藝術課程\n• 講座/工作坊",
-        "categories": [
-          "Music Lessons & Instruction School",
-          "Disability Service"
+        "username": "Healingvoiceshk",
+        "name": "Healing Voices 曉樂音樂教育及治療中心",
+        "about": "專門為有不同發展需要的兒童提供治療服務及音樂藝術課程。\n\n• 音樂治療\n• 言語治療\n• 綜合學習課程\n• 音樂社交專注小組\n• 樂器班/敲擊樂合唱隊\n• 創意藝術課程\n• 講座/工作坊\n\n\n\n",
+        "category_list": [
+          {
+            "id": "186983191324114",
+            "name": "Music Lessons & Instruction School"
+          },
+          {
+            "id": "189687247721960",
+            "name": "Disability Service"
+          }
         ],
-        "addr": "尖沙咀山林道9號卓能中心705室",
-        "area": "Kowloon, Hong Kong",
-        "email": "info@healingvoices.com.hk",
-        "tel": "98675261"
+        "emails": [
+          "info@healingvoices.com.hk"
+        ],
+        "single_line_address": "尖沙咀山林道9號卓能中心705室, Kowloon, Hong Kong",
+        "website": "http://www.healingvoices.com.hk"
       },
       "url": "https://www.facebook.com/Healingvoiceshk/"
     },

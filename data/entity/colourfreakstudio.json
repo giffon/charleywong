@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "Colour Freak Studio - vintage & floral design",
         "id": "680649358712178",
-        "about": "店主資歷 : DFA 荷蘭專業花藝設計師文憑; 5年花藝經驗，曾於大型花店工作。",
-        "categories": [
-          "Florist"
+        "username": "colourfreakstudio",
+        "name": "Colour Freak Studio - vintage & floral design",
+        "about": "店主資歷 : DFA 荷蘭專業花藝設計師文憑; 5年花藝經驗，曾於大型花店工作。\n",
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "email": "colourfreakstudio@gmail.com",
-        "tel": "92090192"
+        "emails": [
+          "colourfreakstudio@gmail.com"
+        ],
+        "single_line_address": "Lai Chi Kok",
+        "website": "http://www.colourfreakstudio.net"
       },
       "url": "https://www.facebook.com/colourfreakstudio/"
     },

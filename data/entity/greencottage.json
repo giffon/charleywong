@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/152173294807639/",
       "meta": {
-        "name": "Green Cottage",
         "id": "152173294807639",
+        "name": "Green Cottage",
         "about": "We are established since 1997 on Lamma Island near the ferry pier at Yung Shue Wan.  We serve all vegetarian wholesome food and drinks.  Of course we serve our renown coffees and smoothies.",
-        "categories": [
-          "Family Style Restaurant",
-          "Vegetarian/Vegan Restaurant"
+        "category_list": [
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          },
+          {
+            "id": "192831537402299",
+            "name": "Family Style Restaurant"
+          }
         ],
-        "addr": "26 G/F Main Street,",
-        "area": "Lamma Island, Hong Kong Yung Shue Wan",
-        "tel": "29826934"
+        "single_line_address": "26 G/F Main Street,, Lamma Island, Hong Kong Yung Shue Wan",
+        "website": "http://www.greencottage.net http://www.openrice.com/restaurant/sr2.htm?shopid=6954"
       }
     }
   ],

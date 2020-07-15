@@ -10,16 +10,21 @@
     },
     {
       "meta": {
-        "name": "味角 DeliCorner",
         "id": "355482705234164",
-        "about": "1. 匯聚灣仔藍屋一帶的街坊。\n2. 製作的食品是美味與健康一體\n3. 合理的價錢,有水準的質素。\n4. 齊心用心關心愛心著每一個本店成員。",
-        "categories": [
-          "Barbecue Restaurant"
+        "username": "delicorner.hk",
+        "name": "味角 DeliCorner",
+        "about": "1. 匯聚灣仔藍屋一帶的街坊。\n2. 製作的食品是美味與健康一體\n3. 合理的價錢,有水準的質素。\n4. 齊心用心關心愛心著每一個本店成員。 ",
+        "category_list": [
+          {
+            "id": "150534008338515",
+            "name": "Barbecue Restaurant"
+          }
         ],
-        "addr": "灣仔堅彌地街1A號景星樓地下8號舖",
-        "area": "Hong Kong",
-        "email": "delicorner0819@gmail.com",
-        "tel": "26688384"
+        "emails": [
+          "delicorner0819@gmail.com"
+        ],
+        "single_line_address": "灣仔堅彌地街1A號景星樓地下8號舖, Hong Kong",
+        "website": "https://delicornerhk.business.site/"
       },
       "url": "https://www.facebook.com/delicorner.hk/"
     },

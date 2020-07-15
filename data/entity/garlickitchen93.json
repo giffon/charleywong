@@ -8,14 +8,16 @@
     {
       "url": "https://www.facebook.com/garlickitchen93/",
       "meta": {
-        "name": "加力飯堂Garlic Kitchen",
         "id": "476573712746103",
-        "categories": [
-          "Hong Kong Restaurant"
+        "username": "garlickitchen93",
+        "name": "加力飯堂Garlic Kitchen",
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
         ],
-        "addr": "黃大仙金鳳街5號地舖",
-        "area": "852 Kowloon, Hong Kong",
-        "tel": "28062990"
+        "single_line_address": "黃大仙金鳳街5號地舖, 852 Kowloon, Hong Kong"
       }
     }
   ],

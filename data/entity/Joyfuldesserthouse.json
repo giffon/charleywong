@@ -7,15 +7,18 @@
     {
       "url": "https://www.facebook.com/Joyfuldesserthouse/",
       "meta": {
-        "name": "Joyful Dessert House",
         "id": "642866689128791",
+        "username": "Joyfuldesserthouse",
+        "name": "Joyful Dessert House",
         "about": "Joyful Dessert House",
-        "categories": [
-          "Ice Cream Shop"
+        "category_list": [
+          {
+            "id": "200863816597800",
+            "name": "Ice Cream Shop"
+          }
         ],
-        "addr": "Shop 2 & 3, G/F.74 Hak Po Steet, Mongkok, H.K.",
-        "area": "852 Hong Kong",
-        "tel": "28561886"
+        "single_line_address": "Shop 2 & 3, G/F.74 Hak Po Steet, Mongkok, H.K., 852 Hong Kong",
+        "website": "http://www.joyful-desserthouse.com"
       }
     },
     {

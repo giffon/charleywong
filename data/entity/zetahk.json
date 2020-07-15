@@ -10,18 +10,29 @@
     },
     {
       "meta": {
-        "name": "ZETA 科卓",
         "id": "121283961362950",
+        "username": "zetahk",
+        "name": "ZETA 科卓",
         "about": "ZETA 科卓本公司\n主要產品：平板電腦，手提電腦，航拍無人機，智能電動車，專業穩定器，智能攝影器材，手遊電競產品及數碼影音產品。",
-        "categories": [
-          "Computer Store",
-          "Product/Service",
-          "Mobile Phone Shop"
+        "category_list": [
+          {
+            "id": "199512783398620",
+            "name": "Computer Store"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "210979565595898",
+            "name": "Mobile Phone Shop"
+          }
         ],
-        "addr": "九龍深水埗福華街146-152黃金電腦商場地鋪G55號（MTR D2出口直行30米）",
-        "area": "Sham Shui Po",
-        "email": "info@zeta.com.hk",
-        "tel": "26885366"
+        "emails": [
+          "info@zeta.com.hk"
+        ],
+        "single_line_address": "九龍深水埗福華街146-152黃金電腦商場地鋪G55號（MTR D2出口直行30米）, Sham Shui Po",
+        "website": "http://www.zeta.com.hk"
       },
       "url": "https://www.facebook.com/zetahk/"
     },

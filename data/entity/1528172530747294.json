@@ -6,11 +6,14 @@
   "webpages": [
     {
       "meta": {
-        "name": "迷途小熊貓",
         "id": "1528172530747294",
+        "name": "迷途小熊貓",
         "about": "一隻小熊貓用文字同插畫記錄生活",
-        "categories": [
-          "Transportation Service"
+        "category_list": [
+          {
+            "id": "152367304818850",
+            "name": "Transportation Service"
+          }
         ]
       },
       "url": "https://www.facebook.com/1528172530747294/"

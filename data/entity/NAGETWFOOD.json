@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/NAGETWFOOD/",
       "meta": {
-        "name": "那個ㄋㄚˋ ㄍㄜ",
         "id": "705205806603269",
+        "username": "NAGETWFOOD",
+        "name": "那個ㄋㄚˋ ㄍㄜ",
         "about": "就像家一樣的古早味",
-        "categories": [
-          "Taiwanese Restaurant"
+        "category_list": [
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          }
         ],
-        "addr": "大角咀大全街13號大有樓地下A號舖（大富樓對面）",
-        "area": "00000 Kowloon, Hong Kong",
-        "tel": "51782459"
+        "single_line_address": "大角咀埃華街116-118號大英樓地下8號A舖, 00000 Kowloon, Hong Kong"
       }
     },
     {

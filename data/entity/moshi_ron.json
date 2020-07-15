@@ -10,16 +10,28 @@
     {
       "url": "https://www.facebook.com/fashionhomeLP/",
       "meta": {
-        "name": "Moshi Ron",
         "id": "1429962123891997",
+        "username": "fashionhomeLP",
+        "name": "Moshi Ron",
         "about": "1）觀塘apm 2) 旺角TOP  3)荔枝角D2 Place   4）THE ONE 5) V Walk 6）愉景新城 7）朗豪坊 8)海之戀OP Mall",
-        "categories": [
-          "Clothing (Brand)",
-          "Shopping & Retail",
-          "Bags/Luggage"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2206",
+            "name": "Bags/Luggage"
+          }
         ],
-        "email": "reacte6@gmail.com",
-        "tel": "28360225"
+        "emails": [
+          "reacte6@gmail.com"
+        ],
+        "website": "Https://moshiron.boutir.com"
       }
     },
     {

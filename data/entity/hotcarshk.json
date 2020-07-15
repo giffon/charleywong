@@ -7,15 +7,23 @@
   "webpages": [
     {
       "meta": {
-        "name": "二手車/ 日本進口車 - 車狂熱 HotCars",
         "id": "706174722837687",
-        "about": "我地Hotcars專門提供日本進口汽車,維修保養,代訂正宗日本製造汽車零件及各國改裝零件",
-        "categories": [
-          "Automotive Customization Shop",
-          "Automotive Wholesaler"
+        "username": "hotcarshk",
+        "name": "二手車/ 日本進口車 - 車狂熱 HotCars",
+        "about": "我地Hotcars專門提供日本進口汽車,維修保養,代訂正宗日本製造汽車零件及各國改裝零件\n",
+        "category_list": [
+          {
+            "id": "186712678028215",
+            "name": "Automotive Customization Shop"
+          },
+          {
+            "id": "192507514101309",
+            "name": "Automotive Wholesaler"
+          }
         ],
-        "email": "hotcarstrading@yahoo.com.hk",
-        "tel": "97910390"
+        "emails": [
+          "hotcarstrading@yahoo.com.hk"
+        ]
       },
       "url": "https://www.facebook.com/hotcarshk/"
     }

@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "嘉寶小食",
         "id": "835724869781816",
+        "username": "kabo.burger",
+        "name": "嘉寶小食",
         "about": "嘉寶漢堡",
-        "categories": [
-          "Fast Food Restaurant",
-          "Food Stand"
+        "category_list": [
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          },
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          }
         ],
-        "addr": "葵涌青山公路葵涌段499號嘉寶大廈地下A-B舖",
-        "area": "Hong Kong",
-        "email": "info@kaboburger.com.hk",
-        "tel": "61258419"
+        "emails": [
+          "info@kaboburger.com.hk"
+        ],
+        "single_line_address": "葵涌青山公路葵涌段499號嘉寶大廈地下A-B舖, Hong Kong",
+        "website": "https://deliveroo.hk/en/menu/hong-kong/kwai-chung/kabo-burger"
       },
       "url": "https://www.facebook.com/kabo.burger/"
     },

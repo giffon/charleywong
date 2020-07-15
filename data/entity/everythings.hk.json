@@ -13,17 +13,26 @@
     },
     {
       "meta": {
-        "name": "Everything's",
         "id": "235025277196988",
+        "username": "everythings.hk",
+        "name": "Everything's",
         "about": "民族 | 旅遊 | 家品 | 咖啡室 | everything",
-        "categories": [
-          "Shopping & Retail",
-          "Coffee Shop",
-          "Ethnic Grocery Store"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "144815382251809",
+            "name": "Ethnic Grocery Store"
+          }
         ],
-        "addr": "1/Floor, Jaffe Building, 520 Jaffe Road, Causeway Bay",
-        "area": "Hong Kong",
-        "tel": "98074109"
+        "single_line_address": "1/Floor, Jaffe Building, 520 Jaffe Road, Causeway Bay, Hong Kong",
+        "website": "https://www.instagram.com/everythings.hk/"
       },
       "url": "https://www.facebook.com/everythings.hk/"
     }

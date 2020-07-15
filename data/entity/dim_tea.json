@@ -13,14 +13,15 @@
     {
       "url": "https://www.facebook.com/1901454766534007/",
       "meta": {
-        "name": "點茶",
         "id": "1901454766534007",
-        "categories": [
-          "Bubble Tea Shop"
+        "name": "點茶",
+        "category_list": [
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          }
         ],
-        "addr": "土瓜灣北帝街12-14號地鋪a",
-        "area": "Kowloon, Hong Kong",
-        "tel": "53333096"
+        "single_line_address": "土瓜灣北帝街12-14號地鋪a, Kowloon, Hong Kong"
       }
     }
   ],

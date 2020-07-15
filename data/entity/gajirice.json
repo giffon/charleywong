@@ -6,15 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "㗎仔飯",
         "id": "248481452771998",
-        "categories": [
-          "Restaurant"
+        "username": "gajirice",
+        "name": "㗎仔飯",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "旺角",
-        "area": "Hong Kong",
-        "email": "gajirice@gmail.com",
-        "tel": "70711402"
+        "emails": [
+          "gajirice@gmail.com"
+        ],
+        "single_line_address": "旺角, Hong Kong"
       },
       "url": "https://www.facebook.com/gajirice/"
     },

@@ -8,16 +8,21 @@
     {
       "url": "https://www.facebook.com/chorlandkei/",
       "meta": {
-        "name": "楚撚記大排檔 Chorland",
         "id": "156519801705334",
+        "username": "chorlandkei",
+        "name": "楚撚記大排檔 Chorland",
         "about": "楚撚記係新派嘅大排檔，希望以舒適嘅室內環境，令客人可以嘆住冷氣食盡港式大排檔風味!",
-        "categories": [
-          "Chinese Restaurant"
+        "category_list": [
+          {
+            "id": "174483852595760",
+            "name": "Chinese Restaurant"
+          }
         ],
-        "addr": "馬頭圍道187號地下2,4號舖/皇后大道西554-560號日富里地下1號舖",
-        "area": "HK Hong Kong",
-        "email": "chorlandk@gmail.com",
-        "tel": "25151500"
+        "emails": [
+          "chorlandk@gmail.com"
+        ],
+        "single_line_address": "馬頭圍道187號地下2,4號舖/皇后大道西554-560號日富里地下1號舖, HK Hong Kong",
+        "website": "http://onondining.com"
       }
     },
     {

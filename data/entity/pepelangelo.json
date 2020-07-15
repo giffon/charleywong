@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/pepelangelo/",
       "meta": {
-        "name": "Pepelangelo",
         "id": "247176835725025",
+        "username": "pepelangelo",
+        "name": "Pepelangelo",
         "about": "I create Pepe the Frog masterpiece paintings",
-        "categories": [
-          "Artist"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "pepelangelo@gmail.com",
-        "tel": "89313475778"
+        "emails": [
+          "pepelangelo@gmail.com"
+        ],
+        "website": "http://www.etsy.com/ru/shop/Pepelangelo"
       }
     },
     {

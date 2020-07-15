@@ -10,16 +10,20 @@
     {
       "url": "https://www.facebook.com/273873642737804/",
       "meta": {
-        "name": "QualiFresh Catering Ltd",
         "id": "273873642737804",
+        "name": "QualiFresh Catering Ltd",
         "about": "食品製造",
-        "categories": [
-          "Convenience Store"
+        "category_list": [
+          {
+            "id": "200253979990258",
+            "name": "Convenience Store"
+          }
         ],
-        "addr": "火炭",
-        "area": "Hong Kong",
-        "email": "chris@qualifresh.hk",
-        "tel": "35951232"
+        "emails": [
+          "chris@qualifresh.hk"
+        ],
+        "single_line_address": "火炭, Hong Kong",
+        "website": "www.qualifresh.hk"
       }
     }
   ],

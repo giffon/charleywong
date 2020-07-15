@@ -7,13 +7,15 @@
     {
       "url": "https://www.facebook.com/1542356389346100/",
       "meta": {
-        "name": "流星 森林 雨",
         "id": "1542356389346100",
-        "categories": [
-          "Shopping & Retail"
+        "name": "流星 森林 雨",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "quarry bay",
-        "area": "852 Hong Kong"
+        "single_line_address": "quarry bay, 852 Hong Kong"
       }
     },
     {

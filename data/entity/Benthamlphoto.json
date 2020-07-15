@@ -9,13 +9,20 @@
     },
     {
       "meta": {
-        "name": "Bentham.L Photography",
         "id": "549145148538105",
+        "username": "Benthamlphoto",
+        "name": "Bentham.L Photography",
         "about": "BenthamL Photography",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "benthamlphoto@gmail.com"
+        "emails": [
+          "info@benthaml.com"
+        ],
+        "website": "https://benthaml.com/"
       },
       "url": "https://www.facebook.com/Benthamlphoto/"
     }

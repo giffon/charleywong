@@ -8,16 +8,27 @@
     {
       "url": "https://www.facebook.com/LauBak.Livehouse/",
       "meta": {
-        "name": "留白 Lau Bak Freespace Livehouse",
         "id": "333061210913999",
+        "username": "LauBak.Livehouse",
+        "name": "留白 Lau Bak Freespace Livehouse",
         "about": "Livehouse G/F,  Freespace, West Kowloon Cultural District, No. 18 Museum Drive, Tsim Sha Tsui, Hong Kong",
-        "categories": [
-          "Lounge",
-          "Live Music Venue",
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "282281972123162",
+            "name": "Live Music Venue"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "135930436481618",
+            "name": "Lounge"
+          }
         ],
-        "email": "info@laubaklivehouse.com",
-        "tel": "28684333"
+        "emails": [
+          "info@laubaklivehouse.com"
+        ]
       }
     },
     {

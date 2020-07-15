@@ -6,13 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "詹濟南 - 香港專業驗樓學會",
         "id": "595709617150707",
+        "username": "hkpbia",
+        "name": "詹濟南 - 香港專業驗樓學會",
         "about": "查詢熱線: 8202 8217",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "tel": "82028217"
+        "website": "http://hkpbia.com"
       },
       "url": "https://www.facebook.com/hkpbia/"
     }

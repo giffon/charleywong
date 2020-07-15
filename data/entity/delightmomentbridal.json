@@ -7,17 +7,25 @@
     {
       "url": "https://www.facebook.com/delightmomentbridal/",
       "meta": {
-        "name": "Delight Moment Bridal",
         "id": "830970573668694",
+        "username": "delightmomentbridal",
+        "name": "Delight Moment Bridal",
         "about": "[高貴、個性、獨特]是我們主要設計概念,由布料,剪裁及款式細節都是用心打造,融入時尚,自然及生活細節,設計出獨一無異手工婚紗同晚裝,展現出新娘子最美最自信的一面。",
-        "categories": [
-          "Bridal Shop",
-          "Brand"
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          },
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          }
         ],
-        "addr": "Flat 2, Floor 1, Shing Yip lndustrial Building,19-21 Shing Yip Street, Kwun Tong",
-        "area": "852 Kwun Tong",
-        "email": "delightmomentbridal@gmail.com",
-        "tel": "98222194"
+        "emails": [
+          "delightmomentbridal@gmail.com"
+        ],
+        "single_line_address": "Flat 2, Floor 1, Shing Yip lndustrial Building,19-21 Shing Yip Street, Kwun Tong, 852 Kwun Tong",
+        "website": "https://www.facebook.com/delightmomentbridal/about/"
       }
     },
     {

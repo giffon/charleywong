@@ -7,14 +7,20 @@
     {
       "url": "https://www.facebook.com/hongkongbmk/",
       "meta": {
-        "name": "Banh Mi Kitchen",
         "id": "421683828173781",
+        "username": "hongkongbmk",
+        "name": "Banh Mi Kitchen",
         "about": "Fresh bread baked in house. Fillings made daily. Coffee from Vietnam. Banh Mi at its best!",
-        "categories": [
-          "Vietnamese Restaurant"
+        "category_list": [
+          {
+            "id": "155136917876965",
+            "name": "Vietnamese Restaurant"
+          }
         ],
-        "email": "feedme@banhmikitchen.com",
-        "tel": "23289699"
+        "emails": [
+          "feedme@banhmikitchen.com"
+        ],
+        "website": "http://www.banhmikitchen.com"
       }
     },
     {

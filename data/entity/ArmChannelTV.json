@@ -17,13 +17,20 @@
     {
       "url": "https://www.facebook.com/ArmChannelTV/",
       "meta": {
-        "name": "啱Channel",
         "id": "330920327037381",
-        "about": "啱Channel，\n每星期創作不同類型短片，\n每日分享最啱你心水的網絡大小事！\n\nPress release :pr@armchannel.tv",
-        "categories": [
-          "Media"
+        "username": "ArmChannelTV",
+        "name": "啱Channel",
+        "about": "啱Channel，七點睇片，十點直播！\nPress release :pr@armchannel.tv",
+        "category_list": [
+          {
+            "id": "1314020451960517",
+            "name": "Media"
+          }
         ],
-        "email": "info@armchannel.tv"
+        "emails": [
+          "info@armchannel.tv"
+        ],
+        "website": "www.armubuy.com"
       }
     },
     {

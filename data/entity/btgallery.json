@@ -7,18 +7,29 @@
   "webpages": [
     {
       "meta": {
-        "name": "突破書廊。Breakthrough。Book。Gallery",
         "id": "107259426001453",
-        "about": "佐敦店(tel. 2377 8592)\n村門店(tel. 2632 0715)",
-        "categories": [
-          "Nonprofit Organization",
-          "Cultural Gifts Store",
-          "Bookstore"
+        "username": "btgallery",
+        "name": "突破書廊。Breakthrough。Book。Gallery",
+        "about": "佐敦店(tel. 2377 8592)\n村門店(tel. 2632 0715)\n",
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          },
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          },
+          {
+            "id": "180816211956170",
+            "name": "Cultural Gifts Store"
+          }
         ],
-        "addr": "九龍佐敦吳松街191號突破中心地下",
-        "area": "852 Hong Kong",
-        "email": "btg@breakthrough.org.hk",
-        "tel": "23778592"
+        "emails": [
+          "btg@breakthrough.org.hk"
+        ],
+        "single_line_address": "九龍佐敦吳松街191號突破中心地下, 852 Hong Kong",
+        "website": "https://btgalleries.breakthrough.org.hk/products"
       },
       "url": "https://www.facebook.com/btgallery/"
     },

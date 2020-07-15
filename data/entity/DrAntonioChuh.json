@@ -8,16 +8,21 @@
     {
       "url": "https://www.facebook.com/DrAntonioChuh/",
       "meta": {
-        "name": "Dr Chuh An Tung Antonio 許晏冬醫生",
         "id": "457283980997332",
-        "about": "MD FRCP FRCPCH 香港大學醫學博士‧英國皇家內科醫學院榮授院士‧英國皇家兒科醫學院榮授院士‧香港大學醫學院榮譽助理教授‧香港中文大學醫學院榮譽副教授‧皮膚科文憑‧生殖泌尿科文憑",
-        "categories": [
-          "Medical Center",
-          "Family Doctor"
+        "username": "DrAntonioChuh",
+        "name": "Dr Chuh An Tung Antonio 許晏冬醫生",
+        "about": "MD FRCP FRCPCH 香港大學醫學博士‧英國皇家內科醫學院榮授院士‧英國皇家兒科醫學院榮授院士‧香港大學醫學院榮譽助理教授‧香港中文大學醫學院榮譽副教授‧皮膚科文憑‧生殖泌尿科文憑\n",
+        "category_list": [
+          {
+            "id": "228143393877753",
+            "name": "Medical Center"
+          },
+          {
+            "id": "113914582020990",
+            "name": "Family Doctor"
+          }
         ],
-        "addr": "Shops 5 and 6, The Imperial Terrace, 356 Queen's Road West",
-        "area": "Hong Kong",
-        "tel": "25590420"
+        "single_line_address": "Shops 5 and 6, The Imperial Terrace, 356 Queen's Road West, Hong Kong"
       }
     }
   ],

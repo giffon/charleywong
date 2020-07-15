@@ -9,15 +9,26 @@
     },
     {
       "meta": {
-        "name": "Granny Chic Bridal",
         "id": "1831626906877548",
-        "about": "Granny Chic 以時尚、年輕、簡約為設計基礎 ，以「歷久常新」為理念，顛覆傳統婚紗店概念。",
-        "categories": [
-          "Product/Service",
-          "Bridal Shop",
-          "Wedding Planning Service"
+        "username": "grannychicbridal",
+        "name": "Granny Chic Bridal",
+        "about": "Granny Chic 以時尚、年輕、簡約為設計基礎 ，以「歷久常新」為理念，顛覆傳統婚紗店概念。\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "tel": "62291024"
+        "single_line_address": "香港觀塘成業街19-21號成業工業大廈7樓25室",
+        "website": "http://www.grannychicbridal.com"
       },
       "url": "https://www.facebook.com/grannychicbridal/"
     },

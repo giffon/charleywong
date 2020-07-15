@@ -10,14 +10,21 @@
     {
       "url": "https://www.facebook.com/kiki.co504/",
       "meta": {
-        "name": "Kiki.co",
         "id": "306342189569232",
+        "username": "kiki.co504",
+        "name": "Kiki.co",
         "about": "我們都是個體，該擁有更多的獨一無二。",
-        "categories": [
-          "Women's Clothing Store",
-          "Costume Shop"
+        "category_list": [
+          {
+            "id": "128753240528981",
+            "name": "Women's Clothing Store"
+          },
+          {
+            "id": "180117982029833",
+            "name": "Costume Shop"
+          }
         ],
-        "tel": "37061700"
+        "website": "www.kikico.hk"
       }
     },
     {

@@ -14,16 +14,20 @@
     {
       "url": "https://www.facebook.com/103784997984777/",
       "meta": {
-        "name": "King Kong Express",
         "id": "103784997984777",
-        "about": "《香港本地速運》\n全港18區超過100間自提點 緊有一間係你左近！",
-        "categories": [
-          "Local Service",
-          "Shipping Supply & Service"
+        "username": "kingkongexpressltd",
+        "name": "King Kong Express",
+        "about": "《香港本地速運》\n全港18區超過100間自提點 緊有一間係你左近！\n",
+        "category_list": [
+          {
+            "id": "202313297006280",
+            "name": "Shipping Supply & Service"
+          }
         ],
-        "addr": null,
-        "area": "https://www.google.com/maps/d/u/7/edit?mid=11HRmabXZ4Vqa37me91_nH2ffuH2UZY51",
-        "email": "kingkongexpress852@gmail.com"
+        "emails": [
+          "kingkongexpress852@gmail.com"
+        ],
+        "website": "https://kingkong.masterittw.com/"
       }
     }
   ],

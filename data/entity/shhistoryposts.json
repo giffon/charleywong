@@ -15,14 +15,24 @@
     {
       "url": "https://www.facebook.com/shhistoryposts/",
       "meta": {
-        "name": "SH歷史區 SH History posts",
         "id": "1832792440113449",
+        "username": "shhistoryposts",
+        "name": "SH歷史區 SH History posts",
         "about": "小弟酷愛歷史，所以會分享歷史貼子，大多歷史貼子資料來自網路、書本，希望大家多多支持，多多討論歷史",
-        "categories": [
-          "Arts & Humanities Website",
-          "Personal Blog"
+        "category_list": [
+          {
+            "id": "2701",
+            "name": "Arts & Humanities Website"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "shhistoryposts@gmail.com"
+        "emails": [
+          "shhistoryposts@gmail.com"
+        ],
+        "website": "www.instagram.com/sh_history_posts"
       }
     }
   ],

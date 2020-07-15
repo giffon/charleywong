@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "阿塗",
         "id": "333246600089821",
+        "username": "Artohk",
+        "name": "阿塗",
         "about": "阿塗，曾創作並出版《高登神獸卡》、《謎圖小學雞》、《鵰娜猩！頂硬上！》、《圖解廣東話》及《大粵港諺語》海報，現有漫畫專欄「神獸漫話」及「神獸塗鴉」 連載於雜誌、報章及網上",
-        "categories": [
-          "Author"
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          }
         ],
-        "email": "gapbetweeth@gmail.com"
+        "emails": [
+          "gapbetweeth@gmail.com"
+        ],
+        "single_line_address": "Hong Kong"
       },
       "url": "https://www.facebook.com/Artohk/"
     },

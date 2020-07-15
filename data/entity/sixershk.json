@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "Sixers丨攝影 · 廣告 · 印刷 & 設計",
         "id": "410978615699572",
+        "username": "sixershk",
+        "name": "Sixers丨攝影 · 廣告 · 印刷 & 設計",
         "about": "Sixers is a Hong Kong based Photography, Videography, Advertising, Printing and Design company. Since we established in 2012.",
-        "categories": [
-          "Signs & Banner Service",
-          "Photography Videography"
+        "category_list": [
+          {
+            "id": "188953757794108",
+            "name": "Signs & Banner Service"
+          },
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          }
         ],
-        "addr": "九⿓龍土瓜灣旭日街 1 號 瑞英工業⼤廈 5/F 13室",
-        "area": "Hong Kong",
-        "email": "info@sixers.com.hk",
-        "tel": "34862206"
+        "emails": [
+          "info@sixers.com.hk"
+        ],
+        "single_line_address": "九⿓龍土瓜灣旭日街 1 號 瑞英工業⼤廈 5/F 13室, Hong Kong",
+        "website": "http://www.sixers.com.hk"
       },
       "url": "https://www.facebook.com/sixershk/"
     }

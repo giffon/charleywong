@@ -6,16 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "珍泰In泰式車仔麵",
         "id": "1801887796774506",
-        "categories": [
-          "Thai Restaurant",
-          "Theme Restaurant",
-          "Diner"
+        "username": "chunthaiin",
+        "name": "珍泰In泰式車仔麵",
+        "category_list": [
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          },
+          {
+            "id": "1738077623073078",
+            "name": "Theme Restaurant"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "九龍大角咀大全街26號",
-        "area": "852 Kowloon, Hong Kong",
-        "tel": "26969928"
+        "single_line_address": "九龍大角咀大全街26號, 852 Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/chunthaiin/"
     },

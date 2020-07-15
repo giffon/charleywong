@@ -7,14 +7,20 @@
     {
       "url": "https://www.facebook.com/mysteryworkshop/",
       "meta": {
-        "name": "Mystery Workshop",
         "id": "763875910299178",
-        "about": "手工皮革課程及訂制 Courses and custom handmade leather",
-        "categories": [
-          "Interest"
+        "username": "mysteryworkshop",
+        "name": "Mystery Workshop",
+        "about": "手工皮革課程及訂制 Courses and custom handmade leather\n ",
+        "category_list": [
+          {
+            "id": "1500",
+            "name": "Interest"
+          }
         ],
-        "email": "sdbchit@gmail.com",
-        "tel": "62552142"
+        "emails": [
+          "sdbchit@gmail.com"
+        ],
+        "single_line_address": "荃灣楊屋道137－143號永華工業大廈9樓905室, Hong Kong"
       }
     },
     {

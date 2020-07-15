@@ -7,16 +7,18 @@
     {
       "url": "https://www.facebook.com/CAFEWHALEHK/",
       "meta": {
-        "name": "Cafe Whale HK",
         "id": "182687708949463",
-        "about": "A hidden gem of delicious food at Aberdeen \n\nPayment: Cash only \nParking:   Shopping centre car park",
-        "categories": [
-          "Burger Restaurant",
-          "Coffee Shop"
+        "username": "CAFEWHALEHK",
+        "name": "Cafe Whale HK",
+        "about": "A hidden gem of delicious food at Aberdeen \n\nPayment: Cash only \nParking:   Shopping centre car park \n\n",
+        "category_list": [
+          {
+            "id": "187425207958280",
+            "name": "Burger Restaurant"
+          }
         ],
-        "addr": "香港仔大道223號利群商場28B鋪",
-        "area": "852 Hong Kong",
-        "tel": "97842062"
+        "single_line_address": "香港仔大道223號利群商場28B鋪, 852 Hong Kong",
+        "website": "https://deliveroo.hk/en/menu/hong-kong/aberdeen/cafe-whale?day=tomorrow&time=1700"
       }
     },
     {

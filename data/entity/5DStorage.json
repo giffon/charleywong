@@ -11,14 +11,20 @@
     {
       "meta": {
         "id": "1556435437793917",
+        "username": "5DStorage",
+        "name": "5d迷你倉-5D Storage",
         "about": "5D迷你倉, 安全D! 經濟D! 實用D! 舒適D! 安心D!",
-        "categories": [
-          "Storage facility"
+        "category_list": [
+          {
+            "id": "163459287040281",
+            "name": "Storage Facility"
+          }
         ],
-        "addr": "香港柴灣(小西灣)新業街11號森龍工業大廈4字樓B座",
-        "area": "Hong Kong",
-        "email": "info@5dstorage.com.hk",
-        "tel": "62868555"
+        "emails": [
+          "info@5dstorage.com.hk"
+        ],
+        "single_line_address": "香港柴灣(小西灣)新業街11號森龍工業大廈4字樓B座, Hong Kong",
+        "website": "www.5dstorage.com.hk"
       },
       "url": "https://www.facebook.com/5DStorage/"
     }

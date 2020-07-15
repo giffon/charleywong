@@ -9,15 +9,24 @@
     },
     {
       "meta": {
-        "name": "MyBASE - The Work-Study Space",
         "id": "1819023728397960",
+        "username": "mybasehk",
+        "name": "MyBASE - The Work-Study Space",
         "about": "旺角 | 大型共享自修空間\n工作 | 自修 | 休閒 | 閱讀 | 活動\n\n免費 | 手沖咖啡 • 花茶 • 小食 • 無限上網\n\n旺角店 | 彌敦道562號 5樓-7樓全層",
-        "categories": [
-          "Local Service",
-          "Tea Room"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          },
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          }
         ],
-        "email": "contact@mybase.com.hk",
-        "tel": "59162182"
+        "emails": [
+          "contact@mybase.com.hk"
+        ],
+        "website": "www.mybase.com.hk"
       },
       "url": "https://www.facebook.com/mybasehk/"
     },

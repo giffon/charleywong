@@ -7,14 +7,24 @@
   "webpages": [
     {
       "meta": {
-        "about": "Handmade leather craft with hand dye colorful leather, slim in shape, playful design, refreshing ideas and keep it functional for using everyday.",
-        "categories": [
-          "Product/service",
-          "Gift shop"
+        "id": "1664527560435621",
+        "username": "seedeaedition",
+        "name": "Seedea Edition 思至別註",
+        "about": "Handmade leather craft with  hand dye colorful leather, slim in shape, playful design, refreshing ideas and keep it functional for using everyday. ",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          }
         ],
-        "email": "info@seedea-edition.com",
-        "tel": "61673984",
-        "id": "1664527560435621"
+        "emails": [
+          "info@seedea-edition.com"
+        ],
+        "website": "https://seedea-edition.com/"
       },
       "url": "https://www.facebook.com/seedeaedition/"
     },

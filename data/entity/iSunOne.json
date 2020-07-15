@@ -10,11 +10,19 @@
     {
       "meta": {
         "id": "606461173121921",
-        "about": "iSunOne 希望通過區塊鏈技術、加密貨幣建立一個真正去中心、反壟斷的安全、私密、便捷、合規的全球支付工具。",
-        "categories": [
-          "App Page"
+        "username": "iSunOne",
+        "name": "iSun.One",
+        "about": "iSunOne 是以區塊鏈技術結合加密貨幣建立的一個去中心、反壟斷；既安全又可以保障私隱；合規而且方便的全球收付款工具。",
+        "category_list": [
+          {
+            "id": "2301",
+            "name": "App Page"
+          }
         ],
-        "email": "hello@isun.one"
+        "emails": [
+          "hello@isun.one"
+        ],
+        "website": "https://isun.one"
       },
       "url": "https://www.facebook.com/iSunOne/"
     }

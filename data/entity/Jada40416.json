@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "J.Pictures.FaLala",
         "id": "198497007404653",
+        "username": "Jada40416",
+        "name": "J.Pictures.FaLala",
         "about": "Illustrator and comic artist.\nInstagram: https://www.instagram.com/j.pictures.falala/",
-        "categories": [
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "email": "jadaip40416@gmail.com"
+        "emails": [
+          "jadaip40416@gmail.com"
+        ],
+        "website": "https://www.instagram.com/j.pictures.falala/"
       },
       "url": "https://www.facebook.com/Jada40416/"
     },

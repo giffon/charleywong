@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/pyeongchangmk/",
       "meta": {
-        "name": "平昌 BBQ Mongkok",
         "id": "1388992544654771",
+        "username": "pyeongchangmk",
+        "name": "平昌 BBQ Mongkok",
         "about": "平昌PYEONG CHANG BBQ MK",
-        "categories": [
-          "Barbecue Restaurant",
-          "Korean Restaurant"
+        "category_list": [
+          {
+            "id": "150534008338515",
+            "name": "Barbecue Restaurant"
+          },
+          {
+            "id": "150896171638138",
+            "name": "Korean Restaurant"
+          }
         ],
-        "addr": "香港九龍旺角西洋菜南街1N號兆萬中心(CTMA)13樓",
-        "area": "Hong Kong",
-        "tel": "26121682"
+        "single_line_address": "香港九龍旺角西洋菜南街1N號兆萬中心(CTMA)13樓, Hong Kong"
       }
     },
     {

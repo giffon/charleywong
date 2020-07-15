@@ -8,11 +8,20 @@
     {
       "meta": {
         "id": "290132324738635",
+        "username": "mr.modeler",
+        "name": "模型先生 Mr.MODELER",
         "about": "模型先生:\n位處於旺角廣華街地鋪 本店專營各類高達,科幻模型;各類製作工具;顏料,專業代客上色,模型課程等\n地址: 香港九龍旺角廣華街一號仁安大廈地下8B鋪\nshop 8B, G/F,Yan On Building,1 Kwong Wa Street",
-        "categories": [
-          "Games/toys"
+        "category_list": [
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          }
         ],
-        "email": "wongwanho918@yahoo.com.hk"
+        "emails": [
+          "wongwanho918@yahoo.com.hk"
+        ],
+        "single_line_address": "旺角廣華街一號仁安大廈地鋪8b, +852 Hong Kong",
+        "website": "www.mrmodeler.com"
       },
       "url": "https://www.facebook.com/mr.modeler/"
     },

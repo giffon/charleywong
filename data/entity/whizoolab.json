@@ -17,13 +17,20 @@
     {
       "url": "https://www.facebook.com/whizoolab/",
       "meta": {
-        "name": "WHIZOO",
         "id": "483207852048511",
+        "username": "whizoolab",
+        "name": "WHIZOO",
         "about": "Whistle up! please join us",
-        "categories": [
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "biz@whizoomedia.com"
+        "emails": [
+          "biz@whizoomedia.com"
+        ],
+        "website": "www.whizoomedia.com"
       }
     },
     {

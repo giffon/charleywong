@@ -7,13 +7,20 @@
     {
       "meta": {
         "id": "484434631581611",
-        "about": "Makeup Artist and Hair Stylist\n\n“Style to fit differential ” is the core value of SiuChung’s makeup philosophy.",
-        "categories": [
-          "Makeup artist"
+        "username": "siuchungmakeup",
+        "name": "SiuChung Makeup (小蟲）",
+        "about": "Makeup Artist and Hair Stylist\n \n“Style to fit differential ” is the core value of SiuChung’s makeup philosophy. ",
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "addr": "Jaffe Road",
-        "area": "Causeway Bay",
-        "email": "angelsiuchung@gmail.com"
+        "emails": [
+          "angelsiuchung@gmail.com"
+        ],
+        "single_line_address": "Jaffe Road, Causeway Bay",
+        "website": "http://www.siuchungmakeup.com/"
       },
       "url": "https://www.facebook.com/siuchungmakeup/"
     }

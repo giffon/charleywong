@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/julycoffeeco/",
       "meta": {
-        "name": "July Coffee & Co.",
         "id": "188599605264100",
-        "about": "July Coffee & Co.\n我們製作咖啡的宗旨是將精品咖啡更平民化，希望可以令更多人了解咖啡；喜歡咖啡。",
-        "categories": [
-          "Coffee Shop"
+        "username": "julycoffeeco",
+        "name": "July Coffee & Co.",
+        "about": "July Coffee & Co.\n",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "92Sham Tseng Village, Sham Tseng, New Territories, Sham Tseng",
-        "area": "HK Tsuen Wan, Hong Kong",
-        "email": "julycoffeeco@gmail.com",
-        "tel": "34910160"
+        "emails": [
+          "julycoffeeco@gmail.com"
+        ],
+        "single_line_address": "92Sham Tseng Village, Sham Tseng, New Territories, Sham Tseng, HK Tsuen Wan, Hong Kong"
       }
     },
     {

@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
+        "id": "136633633633737",
+        "username": "mossesbooks",
+        "name": "MOSSES",
         "about": "MOSSES is a curated bookstore presenting a select range of niche publications by independent authors and publishers from around the world.",
-        "categories": [
-          "Book shop",
-          "Publisher"
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
         ],
-        "addr": "14 St. Francis Street, Wanchai",
-        "area": "Hong Kong",
-        "email": "info@mosses.hk",
-        "tel": "23512098",
-        "id": "136633633633737"
+        "emails": [
+          "info@mosses.hk"
+        ],
+        "single_line_address": "14 St. Francis Street, Wanchai, Hong Kong",
+        "website": "mosses.hk"
       },
       "url": "https://www.facebook.com/mossesbooks/"
     },

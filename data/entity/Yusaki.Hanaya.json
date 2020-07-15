@@ -18,17 +18,25 @@
     {
       "url": "https://www.facebook.com/Yusaki.Hanaya/",
       "meta": {
-        "name": "Yusaki Hanaya by TM 夕咲花屋 - 婚禮花球 節日花束 鮮花佈置",
         "id": "141700293099330",
+        "username": "Yusaki.Hanaya",
+        "name": "Yusaki Hanaya by TM 夕咲花屋 - 婚禮花球 節日花束 鮮花佈置",
         "about": "[ Let's talk about flowers ]\n夕°月出之時\n咲°花開之間\n.\n婚禮佈置 | 花球花束 | 香薰蠟燭\n品牌合作 | 工作坊 | 畢業禮物 \nWedding | Fleur | Candles\nBrands | Workshop | Graduation\n;\n#花一生只想講愛情",
-        "categories": [
-          "Florist",
-          "Patio/Garden"
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          },
+          {
+            "id": "2222",
+            "name": "Patio/Garden"
+          }
         ],
-        "addr": "Kwai Fong",
-        "area": "Hong Kong",
-        "email": "yusaki.florist@gmail.com",
-        "tel": "98841718"
+        "emails": [
+          "yusaki.florist@gmail.com"
+        ],
+        "single_line_address": "Kwai Fong, Hong Kong",
+        "website": "www.yusakiflorist.com"
       }
     },
     {

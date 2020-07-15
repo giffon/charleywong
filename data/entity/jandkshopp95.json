@@ -17,15 +17,28 @@
     {
       "url": "https://www.facebook.com/jandkshopp95/",
       "meta": {
-        "name": "JandKshopp95",
         "id": "532222743500189",
+        "username": "jandkshopp95",
+        "name": "JandKshopp95",
         "about": "Jandkshop 日本韓國美妝代購\n🌏全球日韓英美專櫃化妝品護膚品Color con\n不間斷代購現貨日韓英美專櫃美妝護膚品✈️\n批發⭕️零售⭕️",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care",
-          "Cosmetics Store",
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          },
+          {
+            "id": "144873802247220",
+            "name": "Cosmetics Store"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "email": "jandkshopp2017@gmail.com"
+        "emails": [
+          "jandkshopp2017@gmail.com"
+        ],
+        "website": "jandkshopp.com"
       }
     }
   ],

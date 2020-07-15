@@ -7,12 +7,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "花斑茶社 Aboutea",
         "id": "459558104452858",
-        "categories": [
-          "Product/Service"
+        "username": "abouteahk",
+        "name": "花斑茶社 Aboutea",
+        "about": "尖沙咀總店：尖沙咀樂道32號\n堅尼地城分店：士美菲路45號Smithfield Walk 5B鋪\n新浦崗分店：新蒲崗崇齡街1-3號號威信樓地下\n北角分店：北角和富道和富G15C舖\n荃灣分店：荃灣海之戀G24號鋪 西鐵C2",
+        "category_list": [
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "tel": "84811174"
+        "emails": [
+          "abouteahk@gmail.com"
+        ],
+        "single_line_address": "尖沙咀樂道32號"
       },
       "url": "https://www.facebook.com/abouteahk/"
     },

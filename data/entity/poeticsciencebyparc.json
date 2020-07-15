@@ -10,17 +10,25 @@
     },
     {
       "meta": {
-        "name": "Poetic Science by Parc",
         "id": "1834921736725140",
-        "about": "[ Coffee & Plants ]   Poetic Science is a coffee label by Parc Antique & Lifestyle . We love coffee , we love green .",
-        "categories": [
-          "Coffee Shop",
-          "Shopping & Retail"
+        "username": "poeticsciencebyparc",
+        "name": "Poetic Science by Parc",
+        "about": "[ Coffee & Plants ]   Poetic Science is a coffee label by Parc Antique & Lifestyle . We love coffee , we love green . ",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "Unit B2, 10/FL, 60 Hung To Road, Kwun Tong",
-        "area": "000 Hong Kong",
-        "email": "hello@par-c.com",
-        "tel": "55440534"
+        "emails": [
+          "hello@par-c.com"
+        ],
+        "single_line_address": "Unit B2, 10/FL, 60 Hung To Road, Kwun Tong, 000 Hong Kong",
+        "website": "http://par-c.com/poeticscience"
       },
       "url": "https://www.facebook.com/poeticsciencebyparc/"
     },

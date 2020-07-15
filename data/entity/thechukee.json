@@ -6,18 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "珠記冰室",
         "id": "1686703454946280",
+        "username": "thechukee",
+        "name": "珠記冰室",
         "about": "珠記冰室",
-        "categories": [
-          "Diner",
-          "Cantonese Restaurant",
-          "Tea Room"
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "214976388519648",
+            "name": "Cantonese Restaurant"
+          },
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          }
         ],
-        "addr": "觀塘開源道48號威利廣場G/F, #2-3舖",
-        "area": "hk Hong Kong",
-        "email": "chukee52@gmail.com",
-        "tel": "34898028"
+        "emails": [
+          "chukee52@gmail.com"
+        ],
+        "single_line_address": "觀塘開源道48號威利廣場G/F, #2-3舖, hk Hong Kong"
       },
       "url": "https://www.facebook.com/thechukee/"
     }

@@ -6,12 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Modicum Studio",
         "id": "945341702332932",
-        "categories": [
-          "Arts & Crafts Store",
-          "Furniture"
-        ]
+        "username": "modicum.studio",
+        "name": "Modicum Studio",
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "2219",
+            "name": "Furniture"
+          }
+        ],
+        "single_line_address": "Hong Kong"
       },
       "url": "https://www.facebook.com/modicum.studio/"
     }

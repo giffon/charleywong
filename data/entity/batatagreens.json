@@ -10,15 +10,24 @@
     },
     {
       "meta": {
-        "name": "Batata Greens 甘薯葉素食超市",
         "id": "635449063214188",
-        "about": "尊重生命 ‧ 真正和平\nReverence For Life ‧ Peace Comes True",
-        "categories": [
-          "Health Food Store",
-          "Supermarket"
+        "username": "batatagreens",
+        "name": "Batata Greens 甘薯葉素食超市",
+        "about": "              尊重生命 ‧ 真正和平\nReverence For Life ‧ Peace Comes True",
+        "category_list": [
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          },
+          {
+            "id": "1153901557995608",
+            "name": "Supermarket"
+          }
         ],
-        "email": "salesbatatagreens@talful.com.hk",
-        "tel": "24853423"
+        "emails": [
+          "salesbatatagreens@talful.com.hk"
+        ],
+        "website": "http://www.batatagreens.com.hk/"
       },
       "url": "https://www.facebook.com/batatagreens/"
     },

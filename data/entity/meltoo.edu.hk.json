@@ -14,14 +14,25 @@
     {
       "url": "https://www.facebook.com/meltoo.edu.hk/",
       "meta": {
-        "name": "嘟嘟鼠漫畫",
         "id": "1792040907584131",
+        "username": "meltoo.edu.hk",
+        "name": "嘟嘟鼠漫畫",
         "about": "希望能帶給你當自己的勇氣\n內容包括：\n性教育\n感情關係\n身體自愛運動\n這是一個弱勢團體/ 同志/ 性侵犯倖存者的安全島",
-        "categories": [
-          "Motivational Speaker",
-          "Cause",
-          "Comedian"
-        ]
+        "category_list": [
+          {
+            "id": "1720316034885300",
+            "name": "Motivational Speaker"
+          },
+          {
+            "id": "1610",
+            "name": "Comedian"
+          },
+          {
+            "id": "2606",
+            "name": "Cause"
+          }
+        ],
+        "website": "http://Instagram.com/Meltoo.edu.hk"
       }
     }
   ],

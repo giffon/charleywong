@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/kazaf.com.hk/",
       "meta": {
-        "name": "KAZAF Academy",
         "id": "100807879961073",
+        "username": "kazaf.com.hk",
+        "name": "KAZAF Academy",
         "about": "獲全球40個國家認可, ITEC 國際專業化妝師証書課程 現正招生。\n\n查詢或報名: www.kazaf.com.hk",
-        "categories": [
-          "School"
+        "category_list": [
+          {
+            "id": "2601",
+            "name": "School"
+          }
         ],
-        "addr": "長沙灣道790號3樓",
-        "area": "852 Hong Kong",
-        "email": "info@kazaf.com.hk",
-        "tel": "27718889"
+        "emails": [
+          "info@kazaf.com.hk"
+        ],
+        "single_line_address": "長沙灣道790號3樓, 852 Hong Kong",
+        "website": "http://www.kazaf.com.hk"
       }
     },
     {

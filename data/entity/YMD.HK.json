@@ -9,16 +9,29 @@
     },
     {
       "meta": {
-        "name": "源味道生活館",
         "id": "374134596504729",
+        "username": "YMD.HK",
+        "name": "源味道生活館",
         "about": "喝湯斷食，好健康。",
-        "categories": [
-          "Health & Wellness Website",
-          "Health Food Store",
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "2707",
+            "name": "Health & Wellness Website"
+          },
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "email": "ymd.ltd.hk@gmail.com",
-        "tel": "94583882"
+        "emails": [
+          "ymd.ltd.hk@gmail.com"
+        ],
+        "single_line_address": "葵涌工業街力豐工業大廈10樓F室, Hong Kong",
+        "website": "https://jeffysc0.wixsite.com/ymdhk"
       },
       "url": "https://www.facebook.com/YMD.HK/"
     },

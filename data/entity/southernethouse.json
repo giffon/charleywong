@@ -7,11 +7,15 @@
     {
       "meta": {
         "id": "270483190020786",
+        "username": "southernethouse",
+        "name": "南區萬事屋",
         "about": "南區萬事屋係一班關注南區發展嘅朋友成立，希望透過呢個綜合平台聚集到喺南區生活嘅每一位，共享社區資源、互相幫忙，令南區成為我哋心目中嘅「怡」居社區。",
-        "categories": [
-          "Community"
-        ],
-        "tel": "37058643"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
+        ]
       },
       "url": "https://www.facebook.com/southernethouse/"
     }

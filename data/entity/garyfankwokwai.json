@@ -8,14 +8,19 @@
     {
       "url": "https://www.facebook.com/124853124283126/",
       "meta": {
-        "name": "范國威 Gary Fan",
         "id": "124853124283126",
+        "name": "范國威 Gary Fan",
         "about": "外號咖哩飯、新民主同盟創會會員、西貢區議員、進步民主派、捍衛本土、喜愛平面設計、藝術、電影及新媒體。",
-        "categories": [
-          "Politician"
+        "category_list": [
+          {
+            "id": "1700",
+            "name": "Politician"
+          }
         ],
-        "email": "garykwfan@gmail.com",
-        "tel": "2177000321772177"
+        "emails": [
+          "garykwfan@gmail.com"
+        ],
+        "website": "http://www.garyfan.org.hk"
       }
     },
     {

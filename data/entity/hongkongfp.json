@@ -17,15 +17,25 @@
     {
       "url": "https://www.facebook.com/hongkongfp/",
       "meta": {
-        "name": "Hong Kong Free Press HKFP",
         "id": "800660560021071",
-        "about": "An English-language news source for Hong Kong. Not-for-profit, free-of-charge and completely independent.",
-        "categories": [
-          "News & Media Website",
-          "Newspaper"
+        "username": "hongkongfp",
+        "name": "Hong Kong Free Press HKFP",
+        "about": "Hong Kong breaking news and opinion. Not-for-profit, free-of-charge, run by journalists and completely independent.",
+        "category_list": [
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          },
+          {
+            "id": "108366235907857",
+            "name": "Newspaper"
+          }
         ],
-        "email": "info@hongkongfp.com",
-        "tel": "94473443"
+        "emails": [
+          "info@hongkongfp.com"
+        ],
+        "single_line_address": "Wong Chuk Hang, Hong Kong",
+        "website": "https://www.hongkongfp.com"
       }
     },
     {

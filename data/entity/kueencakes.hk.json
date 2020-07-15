@@ -13,18 +13,29 @@
     },
     {
       "meta": {
-        "name": "Kueen Cakes",
         "id": "1359479837421869",
+        "username": "kueencakes.hk",
+        "name": "Kueen Cakes",
         "about": "Custom-made, delicately handcrafted delicious cakes studio based in Hong Kong.",
-        "categories": [
-          "Bakery",
-          "Candy Store",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          },
+          {
+            "id": "414430838570027",
+            "name": "Candy Store"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "Lai Chi Kok",
-        "area": "Kowloon, Hong Kong",
-        "email": "kueenhk16@gmail.com",
-        "tel": "98656362"
+        "emails": [
+          "kueenhk16@gmail.com"
+        ],
+        "single_line_address": "Lai Chi Kok, Kowloon, Hong Kong",
+        "website": "https://www.instagram.com/kueen.cakes/"
       },
       "url": "https://www.facebook.com/kueencakes.hk/"
     }

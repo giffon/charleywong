@@ -6,16 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "EverAfter Bridal Gowns",
         "id": "270289469652637",
+        "username": "EverAfterbridalGowns",
+        "name": "EverAfter Bridal Gowns",
         "about": "Wedding/Make up/Photo Shooting/Wholesale / Retail / Franchise welcome\nAddress: 觀塘成業街19-21號成業工業大廈633室",
-        "categories": [
-          "Bridal Shop"
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          }
         ],
-        "addr": "33, 6/F Shing Yip Industrial Buildings, 19-21 Shing Yip ST, Kwun Tong,",
-        "area": "Kowloon, Hong Kong",
-        "email": "everafterbridalgowns@yahoo.com",
-        "tel": "93777673"
+        "emails": [
+          "everafterbridalgowns@yahoo.com"
+        ],
+        "single_line_address": "33, 6/F Shing Yip Industrial Buildings, 19-21 Shing Yip ST, Kwun Tong,, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/EverAfterbridalGowns/"
     },

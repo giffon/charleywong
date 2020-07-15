@@ -6,16 +6,18 @@
   "webpages": [
     {
       "meta": {
-        "name": "深水埗Mon貼專門店",
         "id": "375012353110103",
-        "about": "",
-        "categories": [
-          "Local Service"
+        "name": "深水埗Mon貼專門店",
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "addr": "深水埗長沙灣道263a號",
-        "area": "Hong Kong",
-        "email": "ssposhop@gmail.com",
-        "tel": "54818747"
+        "emails": [
+          "ssposhop@gmail.com"
+        ],
+        "single_line_address": "深水埗長沙灣道263a號, Hong Kong"
       },
       "url": "https://www.facebook.com/375012353110103/"
     },

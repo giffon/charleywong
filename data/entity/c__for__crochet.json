@@ -6,12 +6,18 @@
   "webpages": [
     {
       "meta": {
-        "name": "C For Crochet",
         "id": "218858248705257",
+        "name": "C For Crochet",
         "about": "全職媽媽手作，每天只用少少時間才可製作，大家多多支持本地手作。",
-        "categories": [
-          "Product/Service",
-          "Apparel & Clothing"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "1086422341396773",
+            "name": "Apparel & Clothing"
+          }
         ]
       },
       "url": "https://www.facebook.com/218858248705257/"

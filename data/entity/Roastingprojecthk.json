@@ -10,15 +10,24 @@
     {
       "url": "https://www.facebook.com/Roastingprojecthk/",
       "meta": {
-        "name": "Roasting Project",
         "id": "353770741736797",
+        "username": "Roastingprojecthk",
+        "name": "Roasting Project",
         "about": "Local coffee beans roaster, let's enjoy fresh coffee everyday, every minute and every second.\nWe collect premium beans worldwide and \"roast to order\".",
-        "categories": [
-          "Brand",
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          }
         ],
-        "email": "roastingprojecthk@gmail.com",
-        "tel": "66007000"
+        "emails": [
+          "roastingprojecthk@gmail.com"
+        ],
+        "website": "https://roastingprojecthk.wixsite.com/website"
       }
     },
     {

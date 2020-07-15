@@ -8,14 +8,16 @@
     {
       "url": "https://www.facebook.com/Vitalcarecmc/",
       "meta": {
-        "name": "康頤中醫診所 Vitalcare Chinese Medical Clinic",
         "id": "211899965976323",
-        "categories": [
-          "Medical Company"
+        "username": "Vitalcarecmc",
+        "name": "康頤中醫診所 Vitalcare Chinese Medical Clinic",
+        "category_list": [
+          {
+            "id": "2243",
+            "name": "Medical Company"
+          }
         ],
-        "addr": "九龍太子荔枝角道65號",
-        "area": "Hong Kong",
-        "tel": "35946579"
+        "single_line_address": "九龍太子荔枝角道65號, Hong Kong"
       }
     }
   ],

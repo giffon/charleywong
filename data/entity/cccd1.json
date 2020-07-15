@@ -10,17 +10,25 @@
     },
     {
       "meta": {
-        "name": "Centre For Community Cultural Development 社區文化發展中心",
         "id": "485302104889401",
+        "username": "cccd1",
+        "name": "Centre For Community Cultural Development 社區文化發展中心",
         "about": "藝術充權 - 解放創意- 身心健康 | Arts Empowerment - Creativity Liberation - Health & Well Being",
-        "categories": [
-          "Community Organization",
-          "Art"
+        "category_list": [
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "addr": "L205-208, 30 Pak Tin Street, Shek Kip Mei, Kowloon, Hong Kong",
-        "area": "Hong Kong",
-        "email": "cccd@cccd.hk",
-        "tel": "28918482"
+        "emails": [
+          "cccd@cccd.hk"
+        ],
+        "single_line_address": "L205-208, 30 Pak Tin Street, Shek Kip Mei, Kowloon, Hong Kong, Hong Kong",
+        "website": "http://www.cccd.hk/"
       },
       "url": "https://www.facebook.com/cccd1/"
     }

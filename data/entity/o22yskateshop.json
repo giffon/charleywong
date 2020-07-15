@@ -10,15 +10,24 @@
     {
       "meta": {
         "id": "167308233330472",
+        "username": "o22yskateshop",
+        "name": "O22Y Skate Shop",
         "about": "O22Y 成立於2002年﹐由本地資深(rollerblading)特技直排愛好者創立。\n\nHong Kong Distributor - Urbanartt & MaddGear(MGP) Scooter",
-        "categories": [
-          "Sports equipment shop",
-          "Sport & recreation"
+        "category_list": [
+          {
+            "id": "165823830131654",
+            "name": "Sporting Goods Store"
+          },
+          {
+            "id": "186982054657561",
+            "name": "Sports & Recreation"
+          }
         ],
-        "addr": "香港九龍荔枝角青山道489-491號香港工業中心C座1樓20B室",
-        "area": "Lai Chi Kok",
-        "email": "info@o22y.com",
-        "tel": "91874500"
+        "emails": [
+          "info@o22y.com"
+        ],
+        "single_line_address": "香港九龍荔枝角青山道489-491號香港工業中心C座1樓20B室, Lai Chi Kok",
+        "website": "www.o22y.com"
       },
       "url": "https://www.facebook.com/o22yskateshop/"
     }

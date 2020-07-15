@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "水門雞飯",
         "id": "162279381265050",
+        "username": "watergatechickenrice",
+        "name": "水門雞飯",
         "about": "大埔總店地址：大埔汀角路11號地下   Tel: 2838 8171 元朗店：元朗教育路24至36號百宜樓地下A舖  Tel: 2382 8889 尖沙咀店：尖沙咀金馬倫道18號地下  Tel: 2369 8128",
-        "categories": [
-          "Thai Restaurant",
-          "Diner",
-          "Theme Restaurant"
+        "category_list": [
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "1738077623073078",
+            "name": "Theme Restaurant"
+          }
         ],
-        "addr": "尖沙咀金馬倫道18號地下",
-        "area": "Tsim Sha Tsui",
-        "tel": "23698128"
+        "single_line_address": "尖沙咀金馬倫道18號地下, Tsim Sha Tsui"
       },
       "url": "https://www.facebook.com/watergatechickenrice/"
     },
@@ -24,30 +32,34 @@
       "url": "https://www.facebook.com/watergatechickenricetaipo/",
       "hidden": true,
       "meta": {
-        "name": "水門雞飯 - 大埔分店",
         "id": "344201992887002",
+        "username": "watergatechickenricetaipo",
+        "name": "水門雞飯 - 大埔分店",
         "about": "此專頁只為方便大家在大埔分店打咭，所有有關水門雞飯資訊會集中在「水門雞飯」專頁（https://facebook.com/watergatechickenrice) , 大家記得去讚好啊！",
-        "categories": [
-          "Thai Restaurant"
+        "category_list": [
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          }
         ],
-        "addr": "大埔汀角路11號地舖",
-        "area": "Hong Kong",
-        "tel": "28388171"
+        "single_line_address": "大埔汀角路11號地舖, Hong Kong"
       }
     },
     {
       "url": "https://www.facebook.com/watergatechickenriceyuenlong/",
       "hidden": true,
       "meta": {
-        "name": "水門雞飯 - 元朗分店",
         "id": "105347927681098",
+        "username": "watergatechickenriceyuenlong",
+        "name": "水門雞飯 - 元朗分店",
         "about": "此專頁只為方便大家在元朗分店打咭，所有有關水門雞飯資訊會集中在「水門雞飯」專頁（https://facebook.com/watergatechickenrice) , 大家記得去讚好啊！",
-        "categories": [
-          "Thai Restaurant"
+        "category_list": [
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          }
         ],
-        "addr": "元朗教育路26-34百宜樓地下A舖",
-        "area": "Hong Kong",
-        "tel": "23828889"
+        "single_line_address": "元朗教育路26-34百宜樓地下A舖, Hong Kong"
       }
     },
     {

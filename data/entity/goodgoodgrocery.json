@@ -17,15 +17,21 @@
     {
       "url": "https://www.facebook.com/goodgoodgrocery/",
       "meta": {
-        "name": "Good Good",
         "id": "1540979715917396",
+        "username": "goodgoodgrocery",
+        "name": "Good Good",
         "about": "Bring Better Food To The People We Love.",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "2a, Second Street, Sai Ying Pun",
-        "area": "Hong Kong",
-        "email": "goodgoodgrocery@gmail.com"
+        "emails": [
+          "goodgoodgrocery@gmail.com"
+        ],
+        "single_line_address": "2a, Second Street, Sai Ying Pun, Hong Kong",
+        "website": "https://goodgoodgrocery.com/"
       }
     }
   ],

@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/jcfitness.info/",
       "meta": {
-        "name": "JC FITNESS",
         "id": "1677778199152283",
-        "about": "迷你健身房 l 點對點Training\nBelieve You Can\n\n課程提供：\n• 私人訓練 (1 on 1)：泰拳/ 健身\n• 私人小班：泰拳及健身\n\n另設團體/ 教練租埸",
-        "categories": [
-          "Gym/Physical Fitness Center",
-          "Fitness Trainer",
-          "Boxing Studio"
+        "username": "jcfitness.info",
+        "name": "JC FITNESS",
+        "about": "迷你健身房 l 點對點Training\nBelieve You Can\n\n課程提供：\n• 私人訓練 (1 on 1)：泰拳/ 健身\n• 私人小班：泰拳及健身\n\n另設團體/ 教練租埸\n",
+        "category_list": [
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          },
+          {
+            "id": "181045748599578",
+            "name": "Fitness Trainer"
+          },
+          {
+            "id": "1639776363011106",
+            "name": "Boxing Studio"
+          }
         ],
-        "addr": "1/F, Wah Po House, 7 Fuk Wa Street, Kowloon",
-        "area": "Hong Kong Hong Kong",
-        "email": "jcfintess.info@gmail.com",
-        "tel": "57139076"
+        "emails": [
+          "jcfintess.info@gmail.com"
+        ],
+        "single_line_address": "1/F, Wah Po House, 7 Fuk Wa Street, Kowloon, Hong Kong Hong Kong",
+        "website": "http://www.jcfitness.com.hk"
       }
     },
     {
@@ -34,16 +45,21 @@
     {
       "url": "https://www.facebook.com/madforlifting/",
       "meta": {
-        "name": "神經男女",
         "id": "118455692893548",
+        "username": "madforlifting",
+        "name": "神經男女",
         "about": "“神經男女”主要係Powerlifting健力三項為主(深蹲、臥推舉、硬拉)為大眾提供一個專業舒適埸地及具國際認證的世界級頂尖器材給一些熱愛Powerlifting運動員及大眾為訓練基地",
-        "categories": [
-          "Stadium, Arena & Sports Venue"
+        "category_list": [
+          {
+            "id": "109976259083543",
+            "name": "Stadium, Arena & Sports Venue"
+          }
         ],
-        "addr": "九龍太子基隆街63號G/F",
-        "area": "Hong Kong",
-        "email": "madforlifting@gmail.com",
-        "tel": "92325954"
+        "emails": [
+          "madforlifting@gmail.com"
+        ],
+        "single_line_address": "九龍太子基隆街63號G/F, Hong Kong",
+        "website": "http://www.jcfitness.com.hk/madforlifting.html"
       }
     },
     {

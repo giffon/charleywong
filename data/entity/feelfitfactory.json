@@ -6,14 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Feel Fit Factory",
         "id": "896138103875771",
+        "username": "feelfitfactory",
+        "name": "Feel Fit Factory",
         "about": "Exclusive multifunctional fitness studio for those who wants to train smarter, harder, and better!",
-        "categories": [
-          "Gym/Physical Fitness Center"
+        "category_list": [
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          }
         ],
-        "email": "feelfitfactoryhk@gmail.com",
-        "tel": "98206861"
+        "emails": [
+          "feelfitfactoryhk@gmail.com"
+        ],
+        "single_line_address": "9/F, Hody Commercial Building, 6 Hart Avenue, HK Tsim Sha Tsui"
       },
       "url": "https://www.facebook.com/feelfitfactory/"
     },

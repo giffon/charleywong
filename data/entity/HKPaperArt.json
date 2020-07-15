@@ -10,14 +10,28 @@
     },
     {
       "meta": {
-        "name": "PaperArt 紙品天地",
         "id": "260003967359684",
-        "about": "香港中環德輔道中106-108號鴻德大廈一樓\nMon-Sat:10am-7pm,Sun:Closed\nTel: (852)2545-8985\nEmail: hkpaperart@yahoo.com.hk\nInstagram: hkpaperart",
-        "categories": [
-          "Product/Service"
+        "username": "HKPaperArt",
+        "name": "PaperArt 紙品天地",
+        "about": "香港中環德輔道中106-108號鴻德大廈一樓\nMon-Sat:10am-7pm,Sun:Closed\nTel: (852)2545-8985\nEmail: hkpaperart@yahoo.com.hk\nInstagram: hkpaperart\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2223",
+            "name": "Tools/Equipment"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "hkpaperart@yahoo.com.hk",
-        "tel": "25458985"
+        "emails": [
+          "hkpaperart@yahoo.com.hk"
+        ],
+        "website": "www.hkpaperart.com"
       },
       "url": "https://www.facebook.com/HKPaperArt/"
     },

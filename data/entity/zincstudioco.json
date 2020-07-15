@@ -10,15 +10,25 @@
     {
       "url": "https://www.facebook.com/zincstudioco/",
       "meta": {
-        "name": "Zinc Studio",
         "id": "1434689726814037",
-        "about": "We're a creative interior design studio with a focus on retail, commercial and residential project.",
-        "categories": [
-          "Home Decor",
-          "Design & Fashion"
+        "username": "zincstudioco",
+        "name": "Zinc Studio",
+        "about": "We're a creative interior design studio with a focus on retail, commercial and residential project.\n",
+        "category_list": [
+          {
+            "id": "192647794097278",
+            "name": "Home Decor"
+          },
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          }
         ],
-        "email": "hello@zincstudio.co",
-        "tel": "39905433"
+        "emails": [
+          "hello@zincstudio.co"
+        ],
+        "single_line_address": "unit 06, 18/F, cheung tat centre, no:18 cheung lee street, chai wan, +852 Hong Kong",
+        "website": "http://www.zincstudio.co/"
       }
     },
     {

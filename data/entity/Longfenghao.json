@@ -10,14 +10,17 @@
     },
     {
       "meta": {
-        "name": "龍鳳號 Long Feng Hao",
         "id": "1228575627248026",
-        "categories": [
-          "Taiwanese Restaurant"
+        "username": "Longfenghao",
+        "name": "龍鳳號 Long Feng Hao",
+        "category_list": [
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          }
         ],
-        "addr": "觀塘駿業街56號中海日升中心2B鋪",
-        "area": "00000 Hong Kong",
-        "tel": "23500608"
+        "single_line_address": "觀塘駿業街56號中海日升中心2B鋪, 00000 Hong Kong",
+        "website": "http://www.longfenghao.co"
       },
       "url": "https://www.facebook.com/Longfenghao/"
     },

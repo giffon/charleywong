@@ -11,14 +11,21 @@
     {
       "url": "https://www.facebook.com/hkdiu/",
       "meta": {
-        "name": "香港設計職人工會 Hong Kong Design Individuals Union",
         "id": "108544560653043",
+        "username": "hkdiu",
+        "name": "香港設計職人工會 Hong Kong Design Individuals Union",
         "about": "我們是一群熱愛香港熱愛設計，來自不同界別的香港設計師。我們希望團結一致成立工會，維護設計師權益及設計價值，共同建立代表香港的設計。",
-        "categories": [
-          "Labor Union",
-          "Designer"
+        "category_list": [
+          {
+            "id": "192775991124365",
+            "name": "Labor Union"
+          },
+          {
+            "id": "1615",
+            "name": "Designer"
+          }
         ],
-        "tel": "97633774"
+        "website": "https://hkdiu.design"
       }
     },
     {

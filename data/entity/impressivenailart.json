@@ -8,16 +8,20 @@
     {
       "url": "https://www.facebook.com/impressivenailart/",
       "meta": {
-        "name": "Impressive Nail 靈龍藝術美甲",
         "id": "195873197492266",
-        "about": "Impressive Nail",
-        "categories": [
-          "Nail Salon"
+        "username": "impressivenailart",
+        "name": "Impressive Nail 靈龍藝術美甲",
+        "about": "Impressive Nail\n",
+        "category_list": [
+          {
+            "id": "198516863494646",
+            "name": "Nail Salon"
+          }
         ],
-        "addr": "尖沙咀加連威老道10號加威中心701室",
-        "area": "852 Tsim Sha Tsui",
-        "email": "impressivenail@gmail.com",
-        "tel": "93323397"
+        "emails": [
+          "impressivenail@gmail.com"
+        ],
+        "single_line_address": "尖沙咀加連威老道10號加威中心701室, 852 Tsim Sha Tsui"
       }
     },
     {

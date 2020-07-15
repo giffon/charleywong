@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/SecondKillHK/",
       "meta": {
-        "name": "Second Kill",
         "id": "126806874185565",
+        "username": "SecondKillHK",
+        "name": "Second Kill",
         "about": "【波鞋及潮流專門店】",
-        "categories": [
-          "Footwear Store"
+        "category_list": [
+          {
+            "id": "109512302457693",
+            "name": "Footwear Store"
+          }
         ],
-        "addr": "Room 1901-02 Gala Place 56 Dundas St",
-        "area": "Hong Kong",
-        "email": "info@secondkill.com.hk",
-        "tel": "37099208"
+        "emails": [
+          "info@secondkill.com.hk"
+        ],
+        "single_line_address": "Shop 3, G/F, Yan On Building, Kwong Wa St, Mongkok, Hong Kong",
+        "website": "http://secondkill.com.hk/"
       }
     },
     {

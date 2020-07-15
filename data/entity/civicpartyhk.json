@@ -11,12 +11,20 @@
     {
       "meta": {
         "id": "107336743456",
-        "about": "公道自在民心\nThe Civic Way, the Fairer Way",
-        "categories": [
-          "Political party"
+        "username": "civicpartyhk",
+        "name": "公民黨 Civic Party",
+        "about": "公道自在民心 \nThe Civic Way, the Fairer Way",
+        "category_list": [
+          {
+            "id": "2618",
+            "name": "Political Party"
+          }
         ],
-        "email": "contact@civicparty.hk",
-        "tel": "28657111"
+        "emails": [
+          "contact@civicparty.hk"
+        ],
+        "single_line_address": "Unit 202, 2/F, Block B, Sea View Estate, 4-6 Watson Road, North Point",
+        "website": "http://www.civicparty.hk"
       },
       "url": "https://www.facebook.com/civicpartyhk/"
     }

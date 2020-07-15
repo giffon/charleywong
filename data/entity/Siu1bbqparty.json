@@ -7,16 +7,24 @@
     {
       "url": "https://www.facebook.com/Siu1bbqparty/",
       "meta": {
-        "name": "Siu1_Party",
         "id": "1919617604786022",
+        "username": "Siu1bbqparty",
+        "name": "Siu1_Party",
         "about": "全新觀塘party room\n北歐設計風格\n適合任何類型中小型聚會\n設有天台bbq 服務\n服務熱線:5290 8466或whatsapp",
-        "categories": [
-          "Party Entertainment Service"
+        "category_list": [
+          {
+            "id": "189334414420898",
+            "name": "Party Entertainment Service"
+          },
+          {
+            "id": "179943432047564",
+            "name": "Performance & Event Venue"
+          }
         ],
-        "addr": "鴻圖道76號",
-        "area": "Kwun Tong",
-        "email": "siu1bbqparty@gmail.com",
-        "tel": "52908466"
+        "emails": [
+          "siu1bbqparty@gmail.com"
+        ],
+        "single_line_address": "鴻圖道76號, Kwun Tong"
       }
     },
     {

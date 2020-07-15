@@ -7,16 +7,25 @@
     {
       "url": "https://www.facebook.com/sayeyeslash/",
       "meta": {
-        "name": "Say Eyes Lash",
         "id": "875807919429035",
+        "username": "sayeyeslash",
+        "name": "Say Eyes Lash",
         "about": "#日式植睫毛 — 物料來自日本\n有各種不同長度 粗度 卷度 \n一接一方式 不傷害真睫毛生長 零負擔\n#角蛋白美睫 — 物料來自韓國\n\n本店2位美睫師均有4年以上經驗\nCash only(單次收費) 完全預約制",
-        "categories": [
-          "Local Service",
-          "Beauty Salon",
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          },
+          {
+            "id": "199236533423806",
+            "name": "Beauty Salon"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "addr": "怡生工業中心",
-        "area": "Hong Kong"
+        "single_line_address": "怡生工業中心, Hong Kong"
       }
     },
     {

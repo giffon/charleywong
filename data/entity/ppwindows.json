@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/ppwindows/",
       "meta": {
-        "name": "強制驗窗 - 卓譽鋁窗工程公司",
         "id": "410236512506446",
+        "username": "ppwindows",
+        "name": "強制驗窗 - 卓譽鋁窗工程公司",
         "about": "免費咨詢 \n\n鋁窗維修及保養問題\n強制驗窗問題\n\nWhatsapp: 64604796",
-        "categories": [
-          "Window Installation Service"
+        "category_list": [
+          {
+            "id": "192041444166324",
+            "name": "Window Installation Service"
+          }
         ],
-        "addr": "啟力工業中心",
-        "area": "852 Hong Kong",
-        "email": "info@p-windows.com",
-        "tel": "64604796"
+        "emails": [
+          "info@p-windows.com"
+        ],
+        "single_line_address": "啟力工業中心, 852 Hong Kong",
+        "website": "http://www.p-windows.com/"
       }
     }
   ],

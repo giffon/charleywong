@@ -7,14 +7,16 @@
     {
       "url": "https://www.facebook.com/hongs.dessert/",
       "meta": {
-        "name": "康瑞甜品",
         "id": "289210424857867",
-        "categories": [
-          "Dessert Shop"
+        "username": "hongs.dessert",
+        "name": "康瑞甜品",
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "九龍深水埗荔枝角道323號",
-        "area": "852 Hong Kong",
-        "tel": "90343832"
+        "single_line_address": "九龍深水埗荔枝角道323號, 852 Hong Kong"
       }
     },
     {

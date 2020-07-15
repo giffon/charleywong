@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/belgiumdhhk/",
       "meta": {
-        "name": "Belgium Diamond House (Hong Kong)",
         "id": "140256759380431",
+        "username": "belgiumdhhk",
+        "name": "Belgium Diamond House (Hong Kong)",
         "about": "www.belgiumdh.com",
-        "categories": [
-          "Jewelry & Watches Store",
-          "Jewelry/Watches",
-          "Jewelry & Watches Company"
+        "category_list": [
+          {
+            "id": "188031587886173",
+            "name": "Jewelry & Watches Store"
+          },
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          },
+          {
+            "id": "129357034153761",
+            "name": "Jewelry & Watches Company"
+          }
         ],
-        "addr": "Shop 116, Windsor House, 311 Gloucester Road, Causeway Bay",
-        "area": "Causeway Bay",
-        "email": "inquiry@belgiumdh.com",
-        "tel": "23691199"
+        "emails": [
+          "inquiry@belgiumdh.com"
+        ],
+        "single_line_address": "Shop 116, Windsor House, 311 Gloucester Road, Causeway Bay, Causeway Bay",
+        "website": "http://www.belgiumdh.com"
       }
     },
     {

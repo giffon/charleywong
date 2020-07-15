@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/342075799323168/",
       "meta": {
-        "name": "Fringe Five Hairdressing",
         "id": "342075799323168",
+        "name": "Fringe Five Hairdressing",
         "about": "位於尖沙咀地段，舒適環境，由經驗髮型師為你尋找適合你的髮型，不斷尋找新靈感，慕求令你滿意！",
-        "categories": [
-          "Barber Shop",
-          "Hair Salon"
+        "category_list": [
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          },
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          }
         ],
-        "addr": "Room A,2/F Savoy Mansion.No.49 Carnarvon Road",
-        "area": "Tsim Sha Tsui",
-        "tel": "35686225"
+        "single_line_address": "Room A,2/F Savoy Mansion.No.49 Carnarvon Road, Tsim Sha Tsui"
       }
     },
     {

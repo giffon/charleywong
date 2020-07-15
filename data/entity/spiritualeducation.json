@@ -7,14 +7,21 @@
     {
       "url": "https://www.facebook.com/spiritualeducation/",
       "meta": {
-        "name": "心靈教育",
         "id": "386139354740309",
+        "username": "spiritualeducation",
+        "name": "心靈教育",
         "about": "「心靈教育- 學與教的終極關懷」計劃\nSpiritual Education: Learning to be inspired and to inspire.",
-        "categories": [
-          "Education"
+        "category_list": [
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "email": "inspired@cuhk.edu.hk",
-        "tel": "39435541"
+        "emails": [
+          "inspired@cuhk.edu.hk"
+        ],
+        "single_line_address": "沙田  香港中文大學 信和樓 707B 室",
+        "website": "http://hkier.fed.cuhk.edu.hk/inspired/"
       }
     }
   ],

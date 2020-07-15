@@ -7,15 +7,16 @@
     {
       "url": "https://www.facebook.com/100894018112025/",
       "meta": {
-        "name": "竜匠燒物料理",
         "id": "100894018112025",
+        "name": "竜匠燒物料理",
         "about": "竜（讀音：龍）匠是一間以鐵板燒及串燒為主題的西日式餐廳，店內清酒均由唎酒師團隊嚴選，以搭配廚師的巧製料理。",
-        "categories": [
-          "Japanese Restaurant"
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "addr": "灣仔摩利臣山道41 號愉景樓地下1號舖",
-        "area": "Hong Kong",
-        "tel": "36197608"
+        "single_line_address": "灣仔摩利臣山道41 號愉景樓地下1號舖, Hong Kong"
       }
     }
   ],

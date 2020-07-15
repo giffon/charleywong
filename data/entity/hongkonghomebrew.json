@@ -11,14 +11,24 @@
     {
       "url": "https://www.facebook.com/hongkonghomebrew/",
       "meta": {
-        "name": "hongkonghomebrew 家釀",
         "id": "637278136455642",
+        "username": "hongkonghomebrew",
+        "name": "hongkonghomebrew 家釀",
         "about": "#hongkonghomebrew #brewforhumans\n天然成分髮型用品；全手工香港製造\n100% Hong Hong Home Brew Grooming Brand\n�Natural ingredients from US\n�Cruelty Free",
-        "categories": [
-          "Health/Beauty",
-          "Barber Shop"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          }
         ],
-        "email": "hongkonghomebrew@gmail.com"
+        "emails": [
+          "hongkonghomebrew@gmail.com"
+        ],
+        "website": "https://www.hongkonghomebrew.com"
       }
     },
     {

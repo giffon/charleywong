@@ -7,18 +7,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "金社 • Kanamono Hardware Store",
         "id": "247972471987471",
+        "username": "kanamonohardwarestore",
+        "name": "金社 • Kanamono Hardware Store",
         "about": "金社 Kanamono Hardware Store\n品選各地五金,   裝飾物品,   有趣工具，令生活增添玩味。",
-        "categories": [
-          "Home Decor",
-          "Shopping & Retail",
-          "Local Service"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "192647794097278",
+            "name": "Home Decor"
+          }
         ],
-        "addr": "G/F, 30B, WUN SHA STREET, TAI HANG",
-        "area": "/ Hong Kong",
-        "email": "hello@kanamono.com.hk",
-        "tel": "28656168"
+        "emails": [
+          "hello@kanamono.com.hk"
+        ],
+        "single_line_address": "G/F, 30B, WUN SHA STREET, TAI HANG, / Hong Kong",
+        "website": "http://www.kanamono.com.hk"
       },
       "url": "https://www.facebook.com/kanamonohardwarestore/"
     },

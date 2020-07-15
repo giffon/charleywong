@@ -11,14 +11,27 @@
     {
       "meta": {
         "id": "368482457185258",
+        "username": "612Fund",
+        "name": "612人道支援基金 612 Humanitarian Relief Fund",
         "about": "612人道支援基金是為所有反送中運動中受傷、被捕人士，提供醫療費用、心理/精神輔導費用，法律費用及其他有關援助等人道支援。\n信託人：陳日君、吳靄儀、許寶強、何秀蘭及何韻詩",
-        "categories": [
-          "Social service",
-          "Community",
-          "Non-profit organisation"
+        "category_list": [
+          {
+            "id": "178669642178193",
+            "name": "Social Service"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          }
         ],
-        "email": "info@612fund.hk",
-        "tel": "98456641"
+        "emails": [
+          "info@612fund.hk"
+        ],
+        "website": "612Fund.hk"
       },
       "url": "https://www.facebook.com/612Fund/"
     },

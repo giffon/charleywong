@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/AlternateW/",
       "meta": {
-        "name": "ALTERNATE W",
         "id": "175909532601346",
-        "about": "Fjallraven, Jansport, Gregory, Pheme, Backpack Store in Hong Kong.",
-        "categories": [
-          "Shopping & Retail"
+        "username": "AlternateW",
+        "name": "ALTERNATE W",
+        "about": "Fjallraven, Jansport, Gregory, Pheme, Backpack Store in Hong Kong.\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "旺角亞皆老街8號朗豪坊商場11樓L31-32號舖 Address: Shop No.31-32, 11/F., Langham Place, 8 Argyle Street, Mongkok, Kowloon",
-        "area": "00000 Hong Kong",
-        "email": "info@alternatew.com",
-        "tel": "37096694"
+        "emails": [
+          "info@alternatew.com"
+        ],
+        "single_line_address": "旺角亞皆老街8號朗豪坊商場11樓L31-32號舖 Address: Shop No.31-32, 11/F., Langham Place, 8 Argyle Street, Mongkok, Kowloon, 00000 Hong Kong",
+        "website": "http://www.alternatew.com"
       }
     },
     {

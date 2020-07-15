@@ -8,14 +8,19 @@
     {
       "url": "https://www.facebook.com/103953691189329/",
       "meta": {
-        "name": "CreativeworkshopArtforu",
         "id": "103953691189329",
+        "name": "CreativeworkshopArtforu",
         "about": "畫室",
-        "categories": [
-          "Art"
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "email": "artforucreativeworkshop@gmail.com",
-        "tel": "34806182"
+        "emails": [
+          "artforucreativeworkshop@gmail.com"
+        ],
+        "single_line_address": "沙田禾輋商場3樓324號鋪 藝薈畫室, Hong Kong"
       }
     }
   ],

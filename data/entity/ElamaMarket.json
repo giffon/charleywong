@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "棉子花花專區 Elama Market",
         "id": "477303715795985",
-        "about": "關於花\n芬蘭語解作Life,希望送花或收花人都能從生活中尋找到愛\nLiving a life of love",
-        "categories": [
-          "Florist"
+        "username": "ElamaMarket",
+        "name": "棉子花花專區 Elama Market",
+        "about": "關於花\n芬蘭語解作Life,希望送花或收花人都能從生活中尋找到愛\nLiving a life of love\n",
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "email": "elamamarket@gmail.com",
-        "tel": "67979350"
+        "emails": [
+          "elamamarket@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://elama.boutir.com"
       },
       "url": "https://www.facebook.com/ElamaMarket/"
     },

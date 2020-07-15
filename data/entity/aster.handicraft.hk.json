@@ -6,14 +6,23 @@
   "webpages": [
     {
       "meta": {
-        "about": "Aster 是來自古希臘文中star，描述如星晨般的紫菀花\nAster Handicraft 的每一件產品都是店主親手縫製，\n猶如天上的繁星都是相似卻獨一無二...\n\n\nSee more",
-        "categories": [
-          "Product/service",
-          "Shopping & retail"
+        "id": "670585856711462",
+        "username": "aster.handicraft.hk",
+        "name": "Aster Handicraft",
+        "about": "Aster 是來自古希臘文中star，描述如星晨般的紫菀花\nAster Handicraft 的每一件產品都是店主親手縫製，\n猶如天上的繁星都是相似卻獨一無二\n-\nMade in Hong Kong \nAll handmade",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "asterhandicraft@gmail.com",
-        "tel": "51804369",
-        "id": "670585856711462"
+        "emails": [
+          "asterhandicraft@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/aster.handicraft.hk/"
     },

@@ -14,14 +14,15 @@
     {
       "url": "https://www.facebook.com/736414586549041/",
       "meta": {
-        "name": "魚彩壽司刺身專門店",
         "id": "736414586549041",
-        "categories": [
-          "Sushi Restaurant"
+        "name": "魚彩壽司刺身專門店",
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          }
         ],
-        "addr": "天水圍天湖路一號\n新北江商場一期一樓B2-B3鋪",
-        "area": "天水圍天湖路一號",
-        "tel": "55964163"
+        "single_line_address": "天水圍天湖路一號\n新北江商場一期一樓B2-B3鋪, 天水圍天湖路一號"
       }
     }
   ],

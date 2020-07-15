@@ -6,14 +6,23 @@
   "webpages": [
     {
       "meta": {
-        "name": "9spark farm",
         "id": "109489450541393",
+        "username": "9sparkfarm",
+        "name": "9spark farm",
         "about": "9spark farm \n一個無定向喪心病狂嘅靈感農場\n呢度無特定類型嘅產品\n亦唔一定成日有新產品\n就連腦細都係傻傻哋",
-        "categories": [
-          "Shopping & Retail",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "69sparkfarm@gmail.com"
+        "emails": [
+          "69sparkfarm@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/9sparkfarm/"
     },

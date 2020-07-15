@@ -13,13 +13,24 @@
     {
       "url": "https://www.facebook.com/travelwithjesushk/",
       "meta": {
-        "name": "Travel with Jesus",
         "id": "194147674506566",
-        "categories": [
-          "Art",
-          "Catholic Church",
-          "Graphic Designer"
-        ]
+        "username": "travelwithjesushk",
+        "name": "Travel with Jesus",
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "175647552480085",
+            "name": "Catholic Church"
+          },
+          {
+            "id": "162183907165552",
+            "name": "Graphic Designer"
+          }
+        ],
+        "website": "https://www.instagram.com/travelwithjesushk"
       }
     }
   ],

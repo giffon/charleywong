@@ -15,13 +15,21 @@
     {
       "url": "https://www.facebook.com/EGTHM/",
       "meta": {
-        "name": "EG 曾憲文",
         "id": "188253908273072",
+        "username": "EGTHM",
+        "name": "EG 曾憲文",
         "about": "大家好我是EG!",
-        "categories": [
-          "Public Figure",
-          "Personal Blog"
-        ]
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
+        ],
+        "website": "https://www.instagram.com/eg1212_/"
       }
     },
     {

@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/FFATCHAU/",
       "meta": {
-        "name": "FatChau_Tech",
         "id": "390672891408628",
+        "username": "FFATCHAU",
+        "name": "FatChau_Tech",
         "about": "🎀專業維修手機.各類配件.新舊手機.儲值卡. 回收手機🎀\n- 即場維修手機\n-高價收二手手機\n-各類手機配件\n-全新手機\n-傳統手機\n-- 小店以心待人 --",
-        "categories": [
-          "Mobile Phone Shop"
+        "category_list": [
+          {
+            "id": "210979565595898",
+            "name": "Mobile Phone Shop"
+          }
         ],
-        "addr": "上水智昌路上水名都商場2樓10號鋪",
-        "area": "Sheung Shui",
-        "email": "andychau314@gmail.com",
-        "tel": "55447755"
+        "emails": [
+          "andychau314@gmail.com"
+        ],
+        "single_line_address": "上水智昌路上水名都商場2樓10號鋪, Sheung Shui",
+        "website": "http://carousell.com/fatchau_tech"
       }
     },
     {

@@ -11,14 +11,27 @@
     {
       "meta": {
         "id": "905581132910597",
+        "username": "foodiecurly",
+        "name": "FoodieCurly 鬈毛妹肥嘟嘟日誌",
         "about": "鬈毛妹 (FoodieCurly)，天生一頭曲髮，愛吃，愛笑，愛文字，最近還愛上了拍片！2017年博文瀏覽量逾45萬次，最受歡迎影片達到1.7萬次瀏覽量，其他影片平均瀏覽量亦達1,000-5,000次。",
-        "categories": [
-          "Blogger",
-          "News and media website",
-          "Food and drink"
+        "category_list": [
+          {
+            "id": "361282040719868",
+            "name": "Blogger"
+          },
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          },
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          }
         ],
-        "email": "denise@foodiecurly.com",
-        "tel": "67400288"
+        "emails": [
+          "denise@foodiecurly.com"
+        ],
+        "website": "https://foodiecurly.com/"
       },
       "url": "https://www.facebook.com/foodiecurly/"
     }

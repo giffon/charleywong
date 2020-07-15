@@ -6,16 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Seese Make Up",
         "id": "297939130332041",
-        "about": "Professional makeup and image service\n(Wedding/ Event/ Fashion/ Commercial )\nE-mail : nonouo424@yahoo.com.hk \nTel: 66889653 (Seese Lam)",
-        "categories": [
-          "Makeup Artist"
+        "username": "SeeseMakeUp",
+        "name": "Seese Make Up",
+        "about": "Professional makeup and image service\n(Wedding/ Event/ Fashion/ Commercial )\nE-mail : nonouo424@yahoo.com.hk \nTel: 66889653 (Seese Lam)\n",
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "addr": "ON SHING INDUSTRIAL BUILDING",
-        "area": "852 Fo Tan",
-        "email": "nonouo424@yahoo.com.hk",
-        "tel": "66889653"
+        "emails": [
+          "nonouo424@yahoo.com.hk"
+        ],
+        "single_line_address": "ON SHING INDUSTRIAL BUILDING, 852 Fo Tan"
       },
       "url": "https://www.facebook.com/SeeseMakeUp/"
     },

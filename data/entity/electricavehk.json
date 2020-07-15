@@ -6,15 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Electric Ave",
         "id": "846555018811380",
-        "about": "The best burgers in Hong Kong reside at this location. Stunning flavour combos can be expected as well as top notch ingredients.",
-        "categories": [
-          "Burger Restaurant"
+        "username": "electricavehk",
+        "name": "Electric Ave",
+        "about": "The best burgers in Hong Kong reside at this location. Stunning flavour combos can be expected as well as top notch ingredients. ",
+        "category_list": [
+          {
+            "id": "187425207958280",
+            "name": "Burger Restaurant"
+          }
         ],
-        "addr": "301 Queen’s Road West, Sai Ying Pun, Western District",
-        "area": "0000 Sai Ying Pun",
-        "tel": "28588883"
+        "emails": [
+          "electricavehk@gmail.com"
+        ],
+        "single_line_address": "301 Queen’s Road West, Sai Ying Pun, Western District, 0000 Sai Ying Pun",
+        "website": "http://www.electricave.com.hk"
       },
       "url": "https://www.facebook.com/electricavehk/"
     },

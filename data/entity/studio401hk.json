@@ -13,16 +13,28 @@
     {
       "url": "https://www.facebook.com/studio401hk/",
       "meta": {
-        "name": "Studio 401",
         "id": "109794377219936",
+        "username": "studio401hk",
+        "name": "Studio 401",
         "about": "鬧市中的創作交流空間",
-        "categories": [
-          "Art",
-          "Community",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "email": "tyruslui@tapyourdream.com",
-        "tel": "68210028"
+        "emails": [
+          "tyruslui@tapyourdream.com"
+        ],
+        "single_line_address": "荃灣柴灣角街裕豐工業大廈401室, Hong Kong"
       }
     }
   ],

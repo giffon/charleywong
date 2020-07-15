@@ -7,15 +7,24 @@
     {
       "url": "https://www.facebook.com/dailybreadsaiwan/",
       "meta": {
-        "name": "天天烘焙",
         "id": "111336447076751",
+        "username": "dailybreadsaiwan",
+        "name": "天天烘焙",
         "about": "本地麵包西餅店，可訂造生日蛋糕和曲奇等等！\n網上訂購可使用轉數快付款至94119888。",
-        "categories": [
-          "Wholesale Bakery",
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "1013107675469307",
+            "name": "Wholesale Bakery"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "kitzi1314@gmail.com",
-        "tel": "37051799"
+        "emails": [
+          "kitzi1314@gmail.com"
+        ],
+        "single_line_address": "西營盤德輔道西332號"
       }
     }
   ],

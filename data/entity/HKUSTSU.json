@@ -10,14 +10,24 @@
     },
     {
       "meta": {
-        "name": "香港科技大學學生會 HKUST Students' Union",
         "id": "178853615462822",
+        "username": "HKUSTSU",
+        "name": "香港科技大學學生會 HKUST Students' Union",
         "about": "此乃香港科技大學學生會之官方Facebook專頁。\nThe page shall serve as the official Facebook page of HKUSTSU.",
-        "categories": [
-          "Nonprofit Organization",
-          "Community College"
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          },
+          {
+            "id": "217642725408390",
+            "name": "Community College"
+          }
         ],
-        "email": "su_union@connect.ust.hk"
+        "emails": [
+          "su_union@connect.ust.hk"
+        ],
+        "website": "http://su.ust.hk"
       },
       "url": "https://www.facebook.com/HKUSTSU/"
     },

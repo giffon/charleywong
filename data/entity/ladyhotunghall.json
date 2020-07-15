@@ -10,16 +10,24 @@
     {
       "meta": {
         "id": "131433366878522",
+        "username": "ladyhotunghall",
+        "name": "Lady Ho Tung Hall, HKU",
         "about": "何東夫人紀念堂，英文名為 Lady Ho Tung Hall，是香港大學中十三間提供宿位的舍堂之一，是現存歷史最悠久的女生宿舍。",
-        "categories": [
-          "Halls of residence",
-          "College & University",
-          "Campus building"
+        "category_list": [
+          {
+            "id": "165665860162999",
+            "name": "Dorm"
+          },
+          {
+            "id": "2602",
+            "name": "College & University"
+          }
         ],
-        "addr": "91A Pokfulam Road",
-        "area": "Hong Kong",
-        "email": "lhthsa@connect.hku.hk",
-        "tel": "31526515"
+        "emails": [
+          "lhthsa@connect.hku.hk"
+        ],
+        "single_line_address": "91A Pokfulam Road, Hong Kong",
+        "website": "lht.hku.hk"
       },
       "url": "https://www.facebook.com/ladyhotunghall/"
     }

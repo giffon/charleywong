@@ -18,17 +18,25 @@
     {
       "url": "https://www.facebook.com/brainfoodhksl/",
       "meta": {
-        "name": "腦舍 BrainFood",
         "id": "405154060294303",
+        "username": "brainfoodhksl",
+        "name": "腦舍 BrainFood",
         "about": "我們的腦舍(Brainfood)於2018年夏季，由聾人導師 Aaron WONG 策劃並成立。成立的宗旨為以手語作為腦袋的食糧，用手語激發我們大腦的潛能。",
-        "categories": [
-          "Translator",
-          "Tutor/Teacher"
+        "category_list": [
+          {
+            "id": "145296352197250",
+            "name": "Tutor/Teacher"
+          },
+          {
+            "id": "132478556820146",
+            "name": "Translator"
+          }
         ],
-        "addr": "必發道128號宏創坊1003室",
-        "area": "Hong Kong",
-        "email": "admin@brainfoodhksl.org",
-        "tel": "55400285"
+        "emails": [
+          "admin@brainfoodhksl.org"
+        ],
+        "single_line_address": "必發道128號宏創坊1003室, Hong Kong",
+        "website": "brainfoodhksl.org"
       }
     },
     {

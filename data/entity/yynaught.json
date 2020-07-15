@@ -10,16 +10,29 @@
     {
       "url": "https://www.facebook.com/ynaught.studio/",
       "meta": {
-        "name": "Y Naught",
         "id": "648161175615258",
-        "about": "Y Naught Studio 租用及影片製作：\n多色背景紙/多用途場景/ 專業化妝間\n\n租場影相📸: 每小時$220\n租場拍片🎥: 每小時$270\n影片製作團隊 📺: 詳情請商議\n歡迎PM預約",
-        "categories": [
-          "Video Creator",
-          "Photography Videography",
-          "Media"
+        "username": "ynaught.studio",
+        "name": "Y Naught",
+        "about": "Y Naught Studio 租用及影片製作：\n多色背景紙/多用途場景/ 專業化妝間\n場地租用: 每小時$220\n影片製作團隊 📺: 詳情請商議\n歡迎PM預約\n",
+        "category_list": [
+          {
+            "id": "1817904601806120",
+            "name": "Video Creator"
+          },
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          },
+          {
+            "id": "1314020451960517",
+            "name": "Media"
+          }
         ],
-        "email": "info@yyent.com",
-        "tel": "59649693"
+        "emails": [
+          "info@yyent.com"
+        ],
+        "single_line_address": "九龍紅磡鶴園街2G恆豐工業大廈一期6樓B室, 852 Hong Kong",
+        "website": "https://yyent.com/ynaught"
       }
     },
     {

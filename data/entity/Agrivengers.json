@@ -7,14 +7,20 @@
     {
       "url": "https://www.facebook.com/Agrivengers/",
       "meta": {
-        "name": "復耕者聯盟",
         "id": "1916260038610488",
+        "username": "Agrivengers",
+        "name": "復耕者聯盟",
         "about": "聯合幾個凝聚力強的生態農業戰隊，共同設計及執行不同有關生態農業計畫。農青們挑戰各種生產項目吧，成為復耕者產銷聯盟的一份子。",
-        "categories": [
-          "Agricultural Cooperative"
+        "category_list": [
+          {
+            "id": "1555099458125522",
+            "name": "Agricultural Cooperative"
+          }
         ],
-        "email": "agrivengers@gmail.com",
-        "tel": "57430302"
+        "emails": [
+          "agrivengers@gmail.com"
+        ],
+        "website": "https://www.facebook.com/Agrivengers/"
       }
     }
   ],

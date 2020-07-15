@@ -9,16 +9,21 @@
     },
     {
       "meta": {
-        "name": "Decowings Wedding Production",
         "id": "485140921521377",
+        "username": "Decowings",
+        "name": "Decowings Wedding Production",
         "about": "婚禮佈置",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "九龍灣宏泰道12號榮發工業中心3樓307室",
-        "area": "Whatsapp 6292 1303 Kowloon, Hong Kong",
-        "email": "info@decowings.com",
-        "tel": "36895311"
+        "emails": [
+          "info@decowings.com"
+        ],
+        "single_line_address": "九龍灣宏泰道12號榮發工業中心3樓307室, Whatsapp 6292 1303 Kowloon, Hong Kong",
+        "website": "http://www.decowings.com/"
       },
       "url": "https://www.facebook.com/Decowings/"
     },

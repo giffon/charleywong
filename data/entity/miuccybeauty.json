@@ -7,12 +7,22 @@
     {
       "meta": {
         "id": "456885131185863",
-        "categories": [
-          "Beauty salon",
-          "Makeup artist"
+        "username": "miuccybeauty",
+        "name": "Miuccy Beauty",
+        "category_list": [
+          {
+            "id": "199236533423806",
+            "name": "Beauty Salon"
+          },
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "email": "miuccymakeup@gmail.com",
-        "tel": "97307329"
+        "emails": [
+          "miuccymakeup@gmail.com"
+        ],
+        "single_line_address": "香港鰂魚涌英皇道993號萬利廣場118號鋪"
       },
       "url": "https://www.facebook.com/miuccybeauty/"
     }

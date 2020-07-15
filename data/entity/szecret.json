@@ -7,13 +7,22 @@
     {
       "meta": {
         "id": "489492551128792",
+        "username": "szecret",
+        "name": "Szecret",
         "about": "szecret",
-        "categories": [
-          "Grocers",
-          "Antiques shop"
+        "category_list": [
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          },
+          {
+            "id": "150732438316813",
+            "name": "Antique Store"
+          }
         ],
-        "email": "cszecret@gmail.com",
-        "tel": "98668576"
+        "emails": [
+          "cszecret@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/szecret/"
     }

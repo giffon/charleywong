@@ -11,16 +11,22 @@
     {
       "url": "https://www.facebook.com/Hungrybirdbbq/",
       "meta": {
-        "name": "Hungry Bird-尖沙咀店 肚餓了串燒烤焗專門店",
         "id": "587706381345530",
+        "username": "Hungrybirdbbq",
+        "name": "Hungry Bird-尖沙咀店 肚餓了串燒烤焗專門店",
         "about": "Hungry bird 串燒烤焗專門店，是一間新派的串燒店，廚師不定期會推出各式各樣的新款串燒及菜式，而且食物用料上乘，慕求為食客提供新鮮感及優質的各種美食",
-        "categories": [
-          "Barbecue Restaurant",
-          "Bar & Grill"
+        "category_list": [
+          {
+            "id": "150534008338515",
+            "name": "Barbecue Restaurant"
+          },
+          {
+            "id": "233804719972590",
+            "name": "Bar & Grill"
+          }
         ],
-        "addr": "尖沙咀亞士厘道17-19號6樓",
-        "area": "852 Hong Kong",
-        "tel": "24680438"
+        "single_line_address": "尖沙咀亞士厘道17-19號6樓, 852 Hong Kong",
+        "website": "http://www.openrice.com/restaurant/sr2.htm?shopid=174273&region=0&s=3"
       }
     }
   ],

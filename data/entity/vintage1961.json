@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/vintage1961/",
       "meta": {
-        "name": "Vintage1961",
         "id": "426684980738262",
-        "about": "'Vintage1961' offers genuine vintage goods with history,quality & fine design. Each product is a hidden gem with a story to be told.",
-        "categories": [
-          "Vintage Store",
-          "Antique Store",
-          "Clothing (Brand)"
+        "username": "vintage1961",
+        "name": "Vintage1961",
+        "about": "'Vintage1961' offers genuine vintage goods with history,quality & fine design. Each product is a hidden gem with a story to be told.\n",
+        "category_list": [
+          {
+            "id": "194127957280024",
+            "name": "Vintage Store"
+          },
+          {
+            "id": "150732438316813",
+            "name": "Antique Store"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "addr": "Room 01, 12/F, Bonham Commercial Centre, 44-46 Bonham Strand West, Sheung Wan, Hong Kong",
-        "area": "Hong Kong",
-        "email": "vintage1961@outlook.com",
-        "tel": "55888339"
+        "emails": [
+          "vintage1961@outlook.com"
+        ],
+        "single_line_address": "Room 01, 12/F, Bonham Commercial Centre, 44-46 Bonham Strand West, Sheung Wan, Hong Kong, Hong Kong",
+        "website": "www.vintage1961.me"
       }
     },
     {

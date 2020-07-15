@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "好日子生活百貨",
         "id": "1296691263752754",
-        "about": "讓你更有效做好家務的聰明家務工具；\n來自世界各地的創意及新潮家品；\n漂亮又實惠的高性價比日常用品，\n盡在好日子生活百貨。",
-        "categories": [
-          "Product/Service"
+        "username": "GoodaysLifestyle",
+        "name": "好日子生活百貨",
+        "about": "做女人要對自己好D。",
+        "category_list": [
+          {
+            "id": "108427109235243",
+            "name": "Home Improvement"
+          }
         ],
-        "email": "goodays@basicshop.co",
-        "tel": "66387446"
+        "emails": [
+          "goodays@basicshop.co"
+        ],
+        "single_line_address": "852 Wong Chuk Hang, Hong Kong",
+        "website": "https://basicshop.co/product-category/goodays/"
       },
       "url": "https://www.facebook.com/GoodaysLifestyle/"
     },

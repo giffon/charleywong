@@ -6,13 +6,24 @@
   "webpages": [
     {
       "meta": {
+        "id": "516697568514666",
+        "username": "syzygyoutdoorgear",
+        "name": "Syzygy Outdoor Gear",
         "about": "Syzygy Outdoor Gear由一班香港設計師於2015年創立，主力打造smart outdoor outfit，希望將科技融入生活。",
-        "categories": [
-          "Outdoor equipment shop",
-          "Product/service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "153490828039067",
+            "name": "Outdoor Equipment Store"
+          }
         ],
-        "email": "syzygyoutdoorgear@gmail.com",
-        "id": "516697568514666"
+        "emails": [
+          "syzygyoutdoorgear@gmail.com"
+        ],
+        "website": "https://www.syzygyoutdoorgear.com/"
       },
       "url": "https://www.facebook.com/syzygyoutdoorgear/"
     }

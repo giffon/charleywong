@@ -9,11 +9,15 @@
     },
     {
       "meta": {
-        "name": "專業清算師",
         "id": "107843517256427",
+        "username": "revengehi",
+        "name": "專業清算師",
         "about": "若非此時，更待何時？若非我們，更待何人？受時代感召，我們匯聚來自各行各業的香港人，期以專業知識揭露時弊，超合法督促政府嚴正執法，捍衛普羅大眾權益。  和勇並肩，煲底見！",
-        "categories": [
-          "Blogger"
+        "category_list": [
+          {
+            "id": "361282040719868",
+            "name": "Blogger"
+          }
         ]
       },
       "url": "https://www.facebook.com/revengehi/"
@@ -21,12 +25,17 @@
     {
       "url": "https://www.facebook.com/vendettists/",
       "meta": {
-        "name": "民間清算師",
         "id": "104015014549026",
-        "about": "我們團隊匿名運作，不論是目標人物失職、僭建，無任歡迎！民間清算師同樣以攬炒為目標，同手足齊上齊落，無畏無懼！\n煲底之約，定必實現！",
-        "categories": [
-          "Personal Blog"
-        ]
+        "username": "vendettists",
+        "name": "民間清算師",
+        "about": "我們團隊匿名運作，支持政府嚴正執法！跟進社會不公義，同手足齊上齊落，無畏無懼！\n煲底之約，定必實現！",
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
+        ],
+        "website": "https://t.me/wearehongkongers"
       }
     }
   ],

@@ -7,18 +7,28 @@
     {
       "url": "https://www.facebook.com/hkveganfitness/",
       "meta": {
-        "name": "Vegan Fitness",
         "id": "148822152302533",
+        "username": "hkveganfitness",
+        "name": "Vegan Fitness",
         "about": "提倡植物性飲食方式作為生活基礎元素。\n能更有效、更天然地改善你的健康和體型，對動物、環境保護也有很大幫助。",
-        "categories": [
-          "Gym/Physical Fitness Center",
-          "Sports & Fitness Instruction",
-          "Vegetarian/Vegan Restaurant"
+        "category_list": [
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          },
+          {
+            "id": "193302624020981",
+            "name": "Sports & Fitness Instruction"
+          },
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          }
         ],
-        "addr": "香港九龍尖沙咀山林道20號錦興大厦 8/F",
-        "area": "852 Hong Kong",
-        "email": "hkveganfitness@gmail.com",
-        "tel": "91712040"
+        "emails": [
+          "hkveganfitness@gmail.com"
+        ],
+        "single_line_address": "香港九龍尖沙咀山林道20號錦興大厦 8/F, 852 Hong Kong"
       }
     },
     {

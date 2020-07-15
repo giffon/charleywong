@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/391771801017232/",
       "meta": {
-        "name": "Thai Natural Spa泰然",
         "id": "391771801017232",
+        "name": "Thai Natural Spa泰然",
         "about": "Thai Natural Spa",
-        "categories": [
-          "Massage Service",
-          "Massage Therapist"
+        "category_list": [
+          {
+            "id": "109578329118821",
+            "name": "Massage Service"
+          },
+          {
+            "id": "726846324122041",
+            "name": "Massage Therapist"
+          }
         ],
-        "addr": "旺角通菜街105號2樓",
-        "area": "Hong Kong",
-        "tel": "34852996"
+        "single_line_address": "旺角通菜街105號2樓, Hong Kong",
+        "website": "http://thai-naturalspa.com"
       }
     },
     {

@@ -17,13 +17,20 @@
     {
       "url": "https://www.facebook.com/AS.AppleDaily/",
       "meta": {
-        "name": "果籽",
         "id": "1395242620783936",
+        "username": "AS.AppleDaily",
+        "name": "果籽",
         "about": "《果籽》  點籽。好生活",
-        "categories": [
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "appleseed@appledaily.com"
+        "emails": [
+          "appleseed@appledaily.com"
+        ],
+        "website": "http://as.appledaily.com"
       }
     },
     {

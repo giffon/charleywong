@@ -7,12 +7,19 @@
     {
       "meta": {
         "id": "2345456222393289",
-        "about": "小本經營，用心制作，即叫即煮。小店地址:屯門井財街15號金銘大廈14號舖營業時間: 12:00-15:00 ; 18:00-00:00IG: meetandchill2019",
-        "categories": [
-          "Fast food restaurant"
+        "username": "meetandchill2019",
+        "name": "聚 CHILL",
+        "about": "小本經營，用心制作，即叫即煮。\n小店地址:屯門井財街15號金銘大廈14號\n舖營業時間: 12:30-15:00 ; 18:30-00:00\nIG: meetandchill2019",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "email": "meetandchill@hotmail.com",
-        "tel": "93050579"
+        "emails": [
+          "meetandchill@hotmail.com"
+        ],
+        "single_line_address": "新界屯門井財街15金銘大廈14號地鋪, 香港"
       },
       "url": "https://www.facebook.com/meetandchill2019/"
     }

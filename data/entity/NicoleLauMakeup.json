@@ -6,11 +6,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "Nicole Lau Makeup",
         "id": "489224597878014",
+        "username": "NicoleLauMakeup",
+        "name": "Nicole Lau Makeup",
         "about": "有任何關於Big day/HK prewedding/ Overseas prewedding/Bridemaids/Makeup Course/ Events makeup/  Pregnancy photoshoot 歡迎隨時致電查詢 ☎6132 6497或\nWhatsapp me:\napi.whatsapp.com/send?phone=85261326497",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       },
       "url": "https://www.facebook.com/NicoleLauMakeup/"

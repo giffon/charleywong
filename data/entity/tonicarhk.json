@@ -7,14 +7,19 @@
     {
       "meta": {
         "id": "798132040313566",
-        "about": "專賣トミカ每月新車",
-        "categories": [
-          "Games/toys"
+        "username": "tonicarhk",
+        "name": "TONI CAR",
+        "about": "售賣 Tomica / Era CAR 車仔",
+        "category_list": [
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          }
         ],
-        "addr": "Shop 73, 1/F, Metro Sham Shui, 226-242 Cheung Sha Wan Road",
-        "area": "Sam Shui Po, Hong Kong",
-        "email": "tonicarhk@gmail.com",
-        "tel": "64383103"
+        "emails": [
+          "tonicarhk@gmail.com"
+        ],
+        "single_line_address": "Flat 803, Wing Yip Commercial Building, 65-71 Yen Chow Street, Sam Shui Po, Hong Kong"
       },
       "url": "https://www.facebook.com/tonicarhk/"
     }

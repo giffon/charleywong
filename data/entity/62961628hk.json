@@ -7,15 +7,24 @@
     {
       "meta": {
         "id": "647733032411804",
+        "username": "62961628hk",
+        "name": "吳留手串燒",
         "about": "串燒",
-        "categories": [
-          "Barbecue restaurant",
-          "Diner"
+        "category_list": [
+          {
+            "id": "150534008338515",
+            "name": "Barbecue Restaurant"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "黃埔必嘉街87號",
-        "area": "Kowloon, Hong Kong",
-        "email": "hoyiny1980@yahoo.com.hk",
-        "tel": "62961628"
+        "emails": [
+          "hoyiny1980@yahoo.com.hk"
+        ],
+        "single_line_address": "黃埔必嘉街87號, Kowloon, Hong Kong",
+        "website": "https://hk.lifestyle.appledaily.com/etw/magazine/article/20190707/3_59787756"
       },
       "url": "https://www.facebook.com/62961628hk/"
     }

@@ -8,18 +8,29 @@
     {
       "url": "https://www.facebook.com/chowpaktunghk/",
       "meta": {
-        "name": "Chow Pak Tung 周百通",
         "id": "249931905551843",
+        "username": "chowpaktunghk",
+        "name": "Chow Pak Tung 周百通",
         "about": "服務周到 百樣精通",
-        "categories": [
-          "Computer Repair Service",
-          "Mobile Phone Shop",
-          "Phone/Tablet"
+        "category_list": [
+          {
+            "id": "108472109230615",
+            "name": "Computer Repair Service"
+          },
+          {
+            "id": "210979565595898",
+            "name": "Mobile Phone Shop"
+          },
+          {
+            "id": "2265",
+            "name": "Phone/Tablet"
+          }
         ],
-        "addr": "尖沙咀漆咸道南61-65號首都廣場1樓F114-115",
-        "area": "Hong Kong",
-        "email": "anloulou@chowpaktung.com",
-        "tel": "90417559"
+        "emails": [
+          "anloulou@chowpaktung.com"
+        ],
+        "single_line_address": "尖沙咀漆咸道南61-65號首都廣場1樓F114-115, Hong Kong",
+        "website": "http://www.facebook.com/chowpaktunghk"
       }
     },
     {

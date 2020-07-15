@@ -8,15 +8,17 @@
     {
       "url": "https://www.facebook.com/RealStoneGrill/",
       "meta": {
-        "name": "堅石燒 Real Stone Grill",
         "id": "676280496165889",
-        "about": "搜羅三大洲的優質肉類，讓顧客以自主方式石燒，炮製最愛滋味！",
-        "categories": [
-          "Restaurant"
+        "username": "RealStoneGrill",
+        "name": "堅石燒 Real Stone Grill",
+        "about": "搜羅三大洲的優質肉類，讓顧客以自主方式石燒，炮製最愛滋味！\n\n堅石燒\n12：00 - 22：00 （最後截單時間  21：30）\n電話: 2386 1002    Whatsapp: 5277 3191\n地址: 九龍油麻地彌敦道565-567號銀座廣場LG樓",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "LG/F, Ginza Square, 565 - 567 Nathan Road, Mong Kok,",
-        "area": "Kowloon, Hong Kong",
-        "tel": "23861002"
+        "single_line_address": "LG/F, Ginza Square, 565 - 567 Nathan Road, Mong Kok,, 999077 Kowloon, Hong Kong"
       }
     }
   ],

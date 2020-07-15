@@ -9,15 +9,25 @@
     },
     {
       "meta": {
-        "name": "Inoxibar Hong Kong",
         "id": "207382346461318",
-        "about": "【購物步驟】：\n1. 請先 INOXIBAR Facebook 專頁\n2. 查詢/訂購\n透過 Facebook專頁訊息 (inbox) 查詢確認貨品\n3.付款 (轉帳)\n付款至 INOXIBAR Hong Kong指定的匯豐銀行戶口,",
-        "categories": [
-          "Kitchen/Cooking",
-          "Shopping Service"
+        "username": "InoxibarHK",
+        "name": "Inoxibar Hong Kong",
+        "about": "【購物步驟】：\n1. 請先 INOXIBAR Facebook 專頁\n2. 查詢/訂購\n透過 Facebook專頁訊息 (inbox) 查詢確認貨品\n3.付款 (轉帳)\n付款至 INOXIBAR Hong Kong指定的匯豐銀行戶口, ",
+        "category_list": [
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          },
+          {
+            "id": "200046713342752",
+            "name": "Shopping Service"
+          }
         ],
-        "email": "inoxibar.hk@gmail.com",
-        "tel": "31068181"
+        "emails": [
+          "inoxibar.hk@gmail.com"
+        ],
+        "single_line_address": "荃灣海盛路11號 ONE MIDTOWN 6樓 05室",
+        "website": "inoxibar.hk"
       },
       "url": "https://www.facebook.com/InoxibarHK/"
     },

@@ -14,15 +14,18 @@
     },
     {
       "meta": {
-        "name": "日常料理 Mainichi",
         "id": "104326904337729",
-        "about": "呀～～～～～～～手足！5樓有湯飲！！！\n日常料理\n主打湯水小菜，小店經營，\n由於人手不足，敬請預約；\n歡迎手足上黎飲湯～ \n給香港人一個溫暖的家\n\n五大訴求 缺一不可！\n香港人加油！",
-        "categories": [
-          "Restaurant"
+        "username": "mainichi.hk",
+        "name": "日常料理 Mainichi",
+        "about": "呀～～～～～～～��！5樓有湯飲！！！\n旺角彌敦道575號Ladder Dundas5樓(富運Neway旁)\n \n�五大訴求�缺一不可！",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "旺角彌敦道575號 Ladder Dundas 5樓",
-        "area": "Hong Kong",
-        "tel": "55296082"
+        "single_line_address": "旺角彌敦道575號 Ladder Dundas 5樓, Hong Kong",
+        "website": "https://www.instagram.com/mainichi_hk/"
       },
       "url": "https://www.facebook.com/mainichi.hk/"
     }

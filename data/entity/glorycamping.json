@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/glorycamping/",
       "meta": {
-        "name": "金輝戶外運動用品",
         "id": "615645725236212",
+        "username": "glorycamping",
+        "name": "金輝戶外運動用品",
         "about": "Welcome all YAMA buddies!為各戶外愛好者搜集優質戶外用品，為你每一個精彩之旅作最強支援！",
-        "categories": [
-          "Outdoor Equipment Store",
-          "Outdoor & Sporting Goods Company"
+        "category_list": [
+          {
+            "id": "153490828039067",
+            "name": "Outdoor Equipment Store"
+          },
+          {
+            "id": "2231",
+            "name": "Outdoor & Sporting Goods Company"
+          }
         ],
-        "addr": "花園街112號5樓",
-        "area": "Hong Kong",
-        "email": "glorycampingco@yahoo.com.hk",
-        "tel": "53992414"
+        "emails": [
+          "glorycampingco@yahoo.com.hk"
+        ],
+        "single_line_address": "花園街112號5樓, Hong Kong"
       }
     },
     {

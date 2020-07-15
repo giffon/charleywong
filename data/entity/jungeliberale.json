@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/jungeliberale/",
       "meta": {
-        "name": "Junge Liberale JuLis",
         "id": "110976485656573",
+        "username": "jungeliberale",
+        "name": "Junge Liberale JuLis",
         "about": "Wir sind die liberale Jugendorganisation in Deutschland. Wir wollen Politik und Zeitgeschehen mitgestalten. http://julis.de/impressum/",
-        "categories": [
-          "Political Organization"
+        "category_list": [
+          {
+            "id": "373543049350668",
+            "name": "Political Organization"
+          }
         ],
-        "addr": "Reinhardtstraße 14",
-        "area": "10117 Berlin, Germany",
-        "email": "info@julis.de",
-        "tel": "493068078550"
+        "emails": [
+          "info@julis.de"
+        ],
+        "single_line_address": "Reinhardtstraße 14, 10117 Berlin, Germany",
+        "website": "www.julis.de"
       }
     },
     {

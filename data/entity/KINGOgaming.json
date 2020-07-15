@@ -16,13 +16,20 @@
     },
     {
       "meta": {
-        "name": "KINGO",
         "id": "949780071736424",
+        "username": "KINGOgaming",
+        "name": "KINGO",
         "about": "KINGO是香港網上娛樂媒體，主力提供 玩樂、科技、影音、美食、著數優惠 等內容，為各位介紹大量休閒活動，讓大家在空餘時間享受生活。\n\n合作及商務：news@kingo.com.hk",
-        "categories": [
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "news@kingo.com.hk"
+        "emails": [
+          "news@kingo.com.hk"
+        ],
+        "website": "www.kingo.com.hk"
       },
       "url": "https://www.facebook.com/KINGOgaming/"
     },

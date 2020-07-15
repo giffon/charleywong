@@ -14,13 +14,19 @@
     },
     {
       "meta": {
-        "name": "阿強 Ar Keung",
         "id": "241228323428032",
+        "name": "阿強 Ar Keung",
         "about": "《杜汶澤喱騷 Chapman To’s Late Show》阿強是也",
-        "categories": [
-          "Public Figure"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          }
         ],
-        "email": "arkeung0725@gmail.com"
+        "emails": [
+          "arkeung0725@gmail.com"
+        ],
+        "website": "https://www.instagram.com/ar.keung/"
       },
       "url": "https://www.facebook.com/241228323428032/"
     }

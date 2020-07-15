@@ -7,14 +7,19 @@
     {
       "url": "https://www.facebook.com/G2System/",
       "meta": {
-        "name": "G2 System -- 新系統電腦",
         "id": "291687146055",
+        "username": "G2System",
+        "name": "G2 System -- 新系統電腦",
         "about": "專營各類電腦零件、電競產品、個人電器、家居電器\n亦有電腦組裝服務、網絡設定服務",
-        "categories": [
-          "Computer Store"
+        "category_list": [
+          {
+            "id": "199512783398620",
+            "name": "Computer Store"
+          }
         ],
-        "email": "g2@esonex.com.hk",
-        "tel": "23878955"
+        "emails": [
+          "g2@esonex.com.hk"
+        ]
       }
     },
     {

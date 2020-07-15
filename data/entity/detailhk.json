@@ -7,14 +7,24 @@
     {
       "url": "https://www.facebook.com/detailhk/",
       "meta": {
-        "name": "Detailing Hong Kong",
         "id": "434060474074751",
+        "username": "detailhk",
+        "name": "Detailing Hong Kong",
         "about": "提供培訓課程，解決行業人手青黃不接，促進行業發展。",
-        "categories": [
-          "Product/Service",
-          "Auto Detailing Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "1033987526649038",
+            "name": "Auto Detailing Service"
+          }
         ],
-        "email": "detailhk@gmail.com"
+        "emails": [
+          "detailhk@gmail.com"
+        ],
+        "website": "http://www.detailing.hk/"
       }
     }
   ],

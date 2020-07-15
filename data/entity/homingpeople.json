@@ -14,18 +14,28 @@
     {
       "url": "https://www.facebook.com/homingpeople/",
       "meta": {
-        "name": "Homing People",
         "id": "352940511926409",
+        "username": "homingpeople",
+        "name": "Homing People",
         "about": "我們是一家位於鰂魚涌的麵包糕餅小店，用最貼近家的味道、最用心的製作和最天然的材料，希望為各位的身心奉上多一點點能量和動力。",
-        "categories": [
-          "Breakfast & Brunch Restaurant",
-          "Bakery",
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          },
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "Shop 4, G/F, Hon Way Mansion, 11 Hoi Kwong Street",
-        "area": "Quarry Bay",
-        "email": "homingpeople@gmail.com",
-        "tel": "65566036"
+        "emails": [
+          "homingpeople@gmail.com"
+        ],
+        "single_line_address": "Shop 4, G/F, Hon Way Mansion, 11 Hoi Kwong Street, Quarry Bay"
       }
     }
   ],

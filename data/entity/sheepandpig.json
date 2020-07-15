@@ -7,13 +7,16 @@
   "webpages": [
     {
       "meta": {
-        "categories": [
-          "Japanese restaurant",
-          "Diner"
+        "id": "2270942479860435",
+        "username": "sheepandpig",
+        "name": "Sheep and Pig 叁嘗",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "天后歌頓道1A號DIVA地下1號舖",
-        "area": "North Point",
-        "id": "2270942479860435"
+        "single_line_address": "天后歌頓道1A號DIVA地下1號舖, North Point"
       },
       "url": "https://www.facebook.com/sheepandpig/"
     }

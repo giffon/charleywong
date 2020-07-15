@@ -10,18 +10,29 @@
     },
     {
       "meta": {
-        "name": "A Little Hand一雙小手",
         "id": "1572483056368371",
+        "username": "alittlehandmakeup",
+        "name": "A Little Hand一雙小手",
         "about": "A Little Hand,代表著一雙小手。\n我們希望能夠用這一雙上帝賜予我們的手,去服務有需要的人。",
-        "categories": [
-          "Makeup Artist",
-          "Skin Care Service",
-          "Beauty Salon"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "199236533423806",
+            "name": "Beauty Salon"
+          },
+          {
+            "id": "1644814599176740",
+            "name": "Skin Care Service"
+          }
         ],
-        "addr": "尖沙咀嘉蘭圍嘉蘭大廈一樓20號",
-        "area": "Kowloon, Hong Kong",
-        "email": "alittlehandhk@yahoo.com.hk",
-        "tel": "37052438"
+        "emails": [
+          "alittlehandhk@yahoo.com.hk"
+        ],
+        "single_line_address": "尖沙咀嘉蘭圍嘉蘭大廈一樓20號, Kowloon, Hong Kong",
+        "website": "http://www.alittlehand.com.hk/"
       },
       "url": "https://www.facebook.com/alittlehandmakeup/"
     },

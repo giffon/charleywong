@@ -17,17 +17,25 @@
     {
       "url": "https://www.facebook.com/ValeriePastry/",
       "meta": {
-        "name": "Valérie",
         "id": "676899205723862",
+        "username": "ValeriePastry",
+        "name": "Valérie",
         "about": "月餅 | 蝴蝶酥 | 蛋糕 | 曲奇\nShare the Sweetness. Taste the Love.\nLicensed factory at San Po Kong. \n堅持使用優質食材!用心製作!\n吃得出的真材實料!\n持牌本地食物製造廠。百分百香港製造。",
-        "categories": [
-          "Food & Beverage",
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "7C, Wong King Industrial Building, 2-4 Tai Yau Street",
-        "area": "San Po Kong",
-        "email": "valeriepastry@gmail.com",
-        "tel": "35656765"
+        "emails": [
+          "valeriepastry@gmail.com"
+        ],
+        "single_line_address": "7C, Wong King Industrial Building, 2-4 Tai Yau Street, San Po Kong",
+        "website": "http://www.valeriefood.com"
       }
     }
   ],

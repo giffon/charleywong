@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/herenciabespoke/",
       "meta": {
-        "name": "Herencia Bespoke Tailors - 度身訂造西裝禮服",
         "id": "188043381721419",
+        "username": "herenciabespoke",
+        "name": "Herencia Bespoke Tailors - 度身訂造西裝禮服",
         "about": "Herencia Bespoke Tailors was founded with the aim of keeping the traditional craftsmanship while making fusion with new elements and designs. We embrace knowledge, timelessness and quality as the means to empower you to dress and live the way you want.",
-        "categories": [
-          "Men's Clothing Store",
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "170241263022353",
+            "name": "Men's Clothing Store"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "addr": "Unit 1101, Tung Ming Building, 40-42 Des Voeux Road Central",
-        "area": "Hong Kong",
-        "email": "info@herenciabespoke.com",
-        "tel": "93283125"
+        "emails": [
+          "info@herenciabespoke.com"
+        ],
+        "single_line_address": "Unit 1101, Tung Ming Building, 40-42 Des Voeux Road Central, Hong Kong",
+        "website": "http://herenciabespoke.com"
       }
     },
     {

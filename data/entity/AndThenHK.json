@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/AndThenHK/",
       "meta": {
-        "name": "Andthenhk",
         "id": "112482083571631",
-        "about": "AndThen.hk為全新的生活消費網站，致力推動香港良心經濟圈，是一個與真・香港人息息常關的飲食、消費、享樂及學習的生活資訊平台，線上線下共同為香港努力。",
-        "categories": [
-          "Media"
+        "username": "AndThenHK",
+        "name": "AndThen.hk",
+        "about": "AndThen.hk為全新的生活消費網站，致力推動香港良心經濟圈，是一個與真・香港人息息常關的飲食、消費、享樂及學習的生活資訊平台，線上線下共同為香港努力。\n\n\n",
+        "category_list": [
+          {
+            "id": "1314020451960517",
+            "name": "Media"
+          }
         ],
-        "email": "info@andthen.com.hk"
+        "emails": [
+          "info@andthen.com.hk"
+        ],
+        "website": "https://AndThen.hk"
       }
     },
     {

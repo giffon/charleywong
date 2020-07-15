@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "ALCA & CO.",
         "id": "433580386831285",
+        "username": "ALCAdress",
+        "name": "ALCA & CO.",
         "about": "ALCA是一間婚紗晚禮服公司，負責人CATHERINE 以「本土設計」「香港情懷」的理念經營，堅持「人情味 」的營運模式，深信「用心服務」便能做到。",
-        "categories": [
-          "Bridal Shop"
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          }
         ],
-        "email": "wongtszkei@ymail.com",
-        "tel": "90871737"
+        "emails": [
+          "wongtszkei@ymail.com"
+        ],
+        "single_line_address": "no.83-85A chatham road south, Tsim Sha Tsui",
+        "website": "https://alcaco.wixsite.com/alcadress"
       },
       "url": "https://www.facebook.com/ALCAdress/"
     },

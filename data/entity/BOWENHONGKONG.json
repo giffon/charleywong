@@ -14,16 +14,21 @@
     {
       "url": "https://www.facebook.com/BOWENHONGKONG/",
       "meta": {
-        "name": "鉢問.香港店",
         "id": "379619572861403",
-        "about": "葵涌葵興光輝圍嘉寶大廈H鋪\n\n電話 : 6909 3971",
-        "categories": [
-          "Szechuan/Sichuan Restaurant"
+        "username": "BOWENHONGKONG",
+        "name": "鉢問.香港店",
+        "about": "葵涌葵興光輝圍嘉寶大廈H鋪\n\n電話 : 6909 3971\n",
+        "category_list": [
+          {
+            "id": "1748542362059803",
+            "name": "Szechuan/Sichuan Restaurant"
+          }
         ],
-        "addr": "葵涌葵興光輝圍嘉寶大廈H鋪",
-        "area": "Hong Kong",
-        "email": "bo.wen.hongkong@gmail.com",
-        "tel": "69093971"
+        "emails": [
+          "bo.wen.hongkong@gmail.com"
+        ],
+        "single_line_address": "葵涌葵興光輝圍嘉寶大廈H鋪, Hong Kong",
+        "website": "www.instagram.com/bowen.xianggangdian"
       }
     }
   ],

@@ -8,15 +8,19 @@
     {
       "url": "https://www.facebook.com/projectrollup/",
       "meta": {
-        "name": "Project Roll-up 銀鹽捲動",
         "id": "104384693430631",
-        "categories": [
-          "Photographer"
+        "username": "projectrollup",
+        "name": "Project Roll-up 銀鹽捲動",
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "觀塘成業街成業工業大廈10樓12室",
-        "area": "Hong Kong",
-        "email": "info@project-rollup.com",
-        "tel": "21512812"
+        "emails": [
+          "info@project-rollup.com"
+        ],
+        "single_line_address": "觀塘成業街成業工業大廈10樓12室, Hong Kong"
       }
     },
     {

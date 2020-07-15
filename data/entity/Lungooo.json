@@ -6,16 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Lungo",
         "id": "287360395484221",
+        "username": "Lungooo",
+        "name": "Lungo",
         "about": "Specialty Coffee and Bagels",
-        "categories": [
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "B3B Proficient Industrial Centre, 6 wang kwun road",
-        "area": "Kowloon Bay, Hong Kong",
-        "email": "mylungocoffee@gmail.com",
-        "tel": "25813118"
+        "emails": [
+          "mylungocoffee@gmail.com"
+        ],
+        "single_line_address": "B3B Proficient Industrial Centre, 6 wang kwun road, Kowloon Bay, Hong Kong"
       },
       "url": "https://www.facebook.com/Lungooo/"
     },

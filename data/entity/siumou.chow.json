@@ -14,12 +14,17 @@
     {
       "url": "https://www.facebook.com/siumou.chow/",
       "meta": {
-        "name": "周小某",
         "id": "237865459599406",
+        "username": "siumou.chow",
+        "name": "周小某",
         "about": "畫吓野又整吓野咁。\n搞吓藝術又出吓書咁。\n就係咁。\n同人組織名稱：製造杯具",
-        "categories": [
-          "Author"
-        ]
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          }
+        ],
+        "website": "https://instagram.com/chowsiumou"
       }
     }
   ],

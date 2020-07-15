@@ -14,18 +14,29 @@
     {
       "url": "https://www.facebook.com/otakurabbit.shop/",
       "meta": {
-        "name": "御宅兔屋",
         "id": "497887307641061",
-        "about": "御宅兔屋\n本店宗旨係想各主子都有優質既用品及食品\n幫助被遺棄動物尋找一個合適家庭\n店主有６年兔仔美容經驗，會以優惠價錢提供給各主子\n本店亦有兔子﹑倉鼠﹑貓狗用品優惠價發售",
-        "categories": [
-          "Pet Service",
-          "Pet Supplies",
-          "Shopping & Retail"
+        "username": "otakurabbit.shop",
+        "name": "御宅兔屋",
+        "about": "御宅兔屋\n本店宗旨係想各主子都有優質既用品及食品\n幫助被遺棄動物尋找一個合適家庭\n店主有６年兔仔美容經驗，會以優惠價錢提供給各主子\n本店亦有兔子﹑倉鼠﹑貓狗用品優惠價發售\n",
+        "category_list": [
+          {
+            "id": "144982405562750",
+            "name": "Pet Service"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2230",
+            "name": "Pet Supplies"
+          }
         ],
-        "addr": "新界將軍澳毓雅里9號慧安園商場慧星匯一樓S59號鋪",
-        "area": "Hong Kong",
-        "email": "otakurabbit.shop@gmail.com",
-        "tel": "95436573"
+        "emails": [
+          "otakurabbit.shop@gmail.com"
+        ],
+        "single_line_address": "新界將軍澳毓雅里9號慧安園商場慧星匯一樓S59號鋪, Hong Kong",
+        "website": "https://www.instagram.com/otakurabbit_shop"
       }
     }
   ],

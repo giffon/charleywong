@@ -17,18 +17,29 @@
     {
       "url": "https://www.facebook.com/cahk1968/",
       "meta": {
-        "name": "長春社",
         "id": "120372376163",
+        "username": "cahk1968",
+        "name": "長春社",
         "about": "長春社(香港保護自然景物協會)成立於一九六八年，是香港歷史最悠久的民間環保團體。我們積極倡議可持續發展的理念、致力於自然保育、保護環境和文化遺產。",
-        "categories": [
-          "Nonprofit Organization",
-          "Non-Governmental Organization (NGO)",
-          "Environmental Conservation Organization"
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          },
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          },
+          {
+            "id": "191523214199822",
+            "name": "Environmental Conservation Organization"
+          }
         ],
-        "addr": "香港九龍大角咀道38號新九龍廣場9樓910室",
-        "area": "Hong Kong",
-        "email": "cahk@cahk.org.hk",
-        "tel": "27286781"
+        "emails": [
+          "cahk@cahk.org.hk"
+        ],
+        "single_line_address": "香港新界葵涌貨櫃碼頭路77-81 號，Magnet Place 一期十三樓1305-6 室, Hong Kong",
+        "website": "https://www.cahk.org.hk/"
       }
     }
   ],

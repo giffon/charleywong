@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/wongchunchunhk/",
       "meta": {
-        "name": "黃珍珍泰國菜館",
         "id": "548465332187794",
+        "username": "wongchunchunhk",
+        "name": "黃珍珍泰國菜館",
         "about": "我們擅長把泰式風味的甜、酸、辣加上泰式香料及香草、配合正宗烹調技巧，無論傳統地道菜式或是創新泰式風味都發揮得淋漓盡至。",
-        "categories": [
-          "Thai Restaurant",
-          "Diner"
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          }
         ],
-        "addr": "九龍城打鼓嶺道23號百營中心地庫至1樓",
-        "area": "KLN",
-        "email": "enquiry@wongchunchun.com.hk",
-        "tel": "27166269"
+        "emails": [
+          "enquiry@wongchunchun.com.hk"
+        ],
+        "single_line_address": "九龍城打鼓嶺道23號百營中心地庫至1樓, KLN"
       }
     },
     {

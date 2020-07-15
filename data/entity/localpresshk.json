@@ -11,15 +11,24 @@
     {
       "url": "https://www.facebook.com/localpresshk/",
       "meta": {
-        "name": "本土新聞Local Press",
         "id": "1487928594756950",
-        "about": "《本土新聞》Local Press http://www.localpresshk.com\n新聞稿、採訪通知、報料或投稿，請電郵 editorial@localpresshk.com\nPaypal贊助: http://bit.ly/304BdiR\nTelegram https://t.me/localpresshk\nTwitter https://twitter.com/localpress2014/",
-        "categories": [
-          "Media/News Company",
-          "Media"
+        "username": "localpresshk",
+        "name": "本土新聞Local Press",
+        "about": "《本土新聞》Local Press http://www.localpresshk.com\n新聞稿、採訪通知、報料或投稿，請電郵 editorial@localpresshk.com\nPaypal贊助: http://bit.ly/304BdiR\nTelegram https://t.me/localpresshk\nTwitter https://twitter.com/localpress2014/\n",
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          },
+          {
+            "id": "1314020451960517",
+            "name": "Media"
+          }
         ],
-        "email": "editorial@localpresshk.com",
-        "tel": "68009934"
+        "emails": [
+          "editorial@localpresshk.com"
+        ],
+        "website": "http://www.localpresshk.com"
       }
     },
     {

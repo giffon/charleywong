@@ -6,13 +6,19 @@
   "webpages": [
     {
       "meta": {
+        "id": "188918064578895",
+        "username": "vsworkshop",
+        "name": "V's Workshop",
         "about": "All about beading",
-        "categories": [
-          "Accessories"
+        "category_list": [
+          {
+            "id": "185127444860544",
+            "name": "Accessories"
+          }
         ],
-        "email": "vs_vickyan@yahoo.com",
-        "tel": "93012419",
-        "id": "188918064578895"
+        "emails": [
+          "vs_vickyan@yahoo.com"
+        ]
       },
       "url": "https://www.facebook.com/vsworkshop/"
     }

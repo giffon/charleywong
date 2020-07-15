@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/hwmotionstory/",
       "meta": {
-        "name": "HW Motion Story",
         "id": "241832959318496",
+        "username": "hwmotionstory",
+        "name": "HW Motion Story",
         "about": "Wedding Film based in HK.\n \n#繼續拍有溫度的影片",
-        "categories": [
-          "Photography Videography"
+        "category_list": [
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          }
         ],
-        "addr": "Rm 617, 6/F, 90 Kwai Cheong Street",
-        "area": "Kwai Chung",
-        "email": "info@hwstory.com",
-        "tel": "97760095"
+        "emails": [
+          "info@hwstory.com"
+        ],
+        "single_line_address": "Rm 617, 6/F, 90 Kwai Cheong Street, Kwai Chung",
+        "website": "http://www.hwstory.com"
       }
     },
     {

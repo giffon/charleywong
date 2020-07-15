@@ -7,15 +7,21 @@
   "webpages": [
     {
       "meta": {
+        "id": "1557848527849992",
+        "username": "greenfieldbookstore",
+        "name": "田園書屋 Greenfield Book Store",
         "about": "本店專營港台文史哲、藝術社會勵志書的樓上書店。\n本店全年折扣優惠。\n\nIG: gfbook1976\nWhatsapp: 93840265",
-        "categories": [
-          "Book shop"
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
         ],
-        "addr": "九龍旺角西洋菜街56號2樓",
-        "area": "Mong Kok",
-        "email": "gfbook@netvigator.com",
-        "tel": "23858031",
-        "id": "1557848527849992"
+        "emails": [
+          "gfbook@netvigator.com"
+        ],
+        "single_line_address": "九龍旺角西洋菜街56號2樓, 852 Mong Kok",
+        "website": "http://greenfieldbookstore.com.hk"
       },
       "url": "https://www.facebook.com/greenfieldbookstore/"
     }

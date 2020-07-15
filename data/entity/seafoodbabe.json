@@ -14,14 +14,20 @@
     {
       "url": "https://www.facebook.com/seafoodbabe/",
       "meta": {
-        "name": "海味補補",
         "id": "532079243943213",
+        "username": "seafoodbabe",
+        "name": "海味補補",
         "about": "細個唔知好，依家先識補",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "seafoodbabe@hotmail.com",
-        "tel": "61105147"
+        "emails": [
+          "seafoodbabe@hotmail.com"
+        ],
+        "website": "http://Instagram.com/babyseafoodbaby"
       }
     }
   ],

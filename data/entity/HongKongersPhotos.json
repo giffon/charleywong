@@ -6,13 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "和+勇Hongkongers攝影作品展",
         "id": "117315979656656",
+        "username": "HongKongersPhotos",
+        "name": "和+勇Hongkongers攝影作品展",
         "about": "展覽的名稱源於香港抗爭中被主流辯論所劃分的和理非和勇武派。\n\n攝影師Kevin Cheng 及 Alan Chan，透過鏡頭與不同角度，將整場社運更立體呈現於各人眼前。",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "hkgrphoto@gmail.com"
+        "emails": [
+          "hkgrphoto@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/HongKongersPhotos/"
     }

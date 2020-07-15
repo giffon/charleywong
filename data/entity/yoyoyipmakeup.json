@@ -9,15 +9,18 @@
     },
     {
       "meta": {
-        "name": "Yoyo Yip Make Up",
         "id": "393542627361107",
+        "username": "yoyoyipmakeup",
+        "name": "Yoyo Yip Make Up",
         "about": "Bridal Makeup | Bridesmaids Makeup | Fashion Makeup",
-        "categories": [
-          "Makeup Artist"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "addr": "801, 275 Des Voeux Road Central Sheung Wan",
-        "area": "Hong Kong",
-        "tel": "98550771"
+        "single_line_address": "1003, 275 Des Voeux Road Central Sheung Wan, Hong Kong",
+        "website": "http://www.yoyoyipmakeup.com/"
       },
       "url": "https://www.facebook.com/yoyoyipmakeup/"
     },

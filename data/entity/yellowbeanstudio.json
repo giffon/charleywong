@@ -14,14 +14,19 @@
     {
       "url": "https://www.facebook.com/yellowbeanstudio/",
       "meta": {
-        "name": "YellowBean",
         "id": "286725825039622",
-        "about": "- family \n- babies \n- pregnancy \n- portraits\n- party",
-        "categories": [
-          "Photographer"
+        "username": "yellowbeanstudio",
+        "name": "YellowBean",
+        "about": "\n- family \n- babies \n- pregnancy \n- portraits\n- party ",
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "yellowbeanstudio@gmail.com",
-        "tel": "94498907"
+        "emails": [
+          "yellowbeanstudio@gmail.com"
+        ]
       }
     }
   ],

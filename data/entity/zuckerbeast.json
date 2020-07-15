@@ -7,13 +7,21 @@
     {
       "url": "https://www.facebook.com/zuckerbeast/",
       "meta": {
-        "name": "Zuckerbeast",
         "id": "394516477992147",
-        "about": "The Korean Style Destination",
-        "categories": [
-          "Design & Fashion",
-          "Clothing (Brand)"
-        ]
+        "username": "zuckerbeast",
+        "name": "Zuckerbeast",
+        "about": "The Korean Style Destination ",
+        "category_list": [
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
+        ],
+        "website": "http://zuckerbeast.com"
       }
     },
     {

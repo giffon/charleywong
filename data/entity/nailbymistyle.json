@@ -7,15 +7,23 @@
     {
       "url": "https://www.facebook.com/nailbymistyle/",
       "meta": {
-        "name": "Nail by Mi style",
         "id": "111195167078650",
-        "about": "Nail by Mi style\n以藝術家·趙無極之抽象畫法為畫畫、美甲主靈感來源\n遂而演變出Mi style 獨有之隨性畫作及型格、浮誇、多元風格之甲藝",
-        "categories": [
-          "Nail Salon",
-          "Art"
+        "username": "nailbymistyle",
+        "name": "Nail by Mi style",
+        "about": "by Mi style\n美甲、設計創作\n以抽象畫法為畫畫、美甲主靈感\n\n",
+        "category_list": [
+          {
+            "id": "198516863494646",
+            "name": "Nail Salon"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "email": "isbatmi@gmail.com",
-        "tel": "97673599"
+        "emails": [
+          "isbatmi@gmail.com"
+        ]
       }
     },
     {

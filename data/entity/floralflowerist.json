@@ -17,16 +17,28 @@
     {
       "url": "https://www.facebook.com/floralflowerist/",
       "meta": {
-        "name": "The Floral Flowerist",
         "id": "1727010537584790",
-        "about": "Botanic Studio & Laboratory, bespoke botanic design services. The florist with asthma to create the mixed media arrangement in an artistic idea.",
-        "categories": [
-          "Florist",
-          "Event Planner",
-          "Gift Shop"
+        "username": "floralflowerist",
+        "name": "The Floral Flowerist",
+        "about": "Botanic Studio & Laboratory, bespoke botanic design services. The florist with asthma to create the mixed media arrangement in an artistic idea.\n",
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          },
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          },
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          }
         ],
-        "email": "ciao@thefloralflowerist.com",
-        "tel": "95853762"
+        "emails": [
+          "ciao@thefloralflowerist.com"
+        ],
+        "website": "https://thefloralflowerist.com"
       }
     }
   ],

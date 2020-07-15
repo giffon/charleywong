@@ -11,14 +11,21 @@
     {
       "url": "https://www.facebook.com/sincerestrings.page/",
       "meta": {
-        "name": "峻弦提琴 Sincere Strings",
         "id": "107659305944643",
-        "about": "提琴銷售、賣買：包括歐洲古董提琴及國內優質提琴。 Strings Restore & Retailing: inc. Europe & China made violins.  地址：香港九龍旺角通菜街1A-1L 威達商業大廈1112A室  預約電話:8523482-0204 whatsapp:8526611-3857",
-        "categories": [
-          "Musical Instrument"
+        "username": "sincerestrings.page",
+        "name": "峻弦提琴 Sincere Strings",
+        "about": "提琴銷售、賣買：包括歐洲古董提琴及優質提琴。 Strings Restore & Retailing: inc. Europe  made violins.  地址：香港九龍旺角通菜街1A-1L 威達商業大廈1112A室  預約電話:8523482-0204 whatsapp:8526611-3857",
+        "category_list": [
+          {
+            "id": "1204",
+            "name": "Musical Instrument"
+          }
         ],
-        "email": "sincerestrings@gmail.com",
-        "tel": "66113857"
+        "emails": [
+          "sincerestrings@gmail.com"
+        ],
+        "single_line_address": "Rm1112A, 11/F, witty commercial building, 1A-1L, Tung Choi Street, Mong Kok, Hong Kong",
+        "website": "http://www.sincerestrings.com/"
       }
     },
     {

@@ -9,17 +9,26 @@
     },
     {
       "meta": {
-        "name": "Tomo Fish",
         "id": "836653766390922",
+        "username": "tomofish4807",
+        "name": "Tomo Fish",
         "about": "Why have this Shop?\n\n40％Fun ,20%Friends \n20%Travel,20%Money\n>>>Booking<<<\nPh/Whats app:+852 60333175\nInstagram:TOMO_FISH",
-        "categories": [
-          "Hair Salon",
-          "Bookstore",
-          "Art Gallery"
+        "category_list": [
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          },
+          {
+            "id": "197384240287028",
+            "name": "Art Gallery"
+          },
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
         ],
-        "addr": "新安街9號，屯門堅基工業大廈，25樓A3",
-        "area": "Hong Kong",
-        "tel": "60333175"
+        "single_line_address": "新安街9號，屯門堅基工業大廈，25樓A3, Hong Kong",
+        "website": "https://eagcohair.wixsite.com/tomofish"
       },
       "url": "https://www.facebook.com/tomofish4807/"
     },

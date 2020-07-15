@@ -10,16 +10,29 @@
     {
       "url": "https://www.facebook.com/zenoxstore/",
       "meta": {
-        "name": "Zenox",
         "id": "1321947874500756",
+        "username": "zenoxstore",
+        "name": "Zenox",
         "about": "Zenox is a Hong Kong brand specialising in gaming chairs, desks and accessories to lift your gaming experience and performance.\nZenox係一個專營電競家具同配件嘅香港品牌，致力為你帶黎更高嘅遊戲體驗。",
-        "categories": [
-          "Product/Service",
-          "Shopping & Retail",
-          "Furniture"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2219",
+            "name": "Furniture"
+          }
         ],
-        "email": "sales@zenoxstore.com",
-        "tel": "65634820"
+        "emails": [
+          "sales@zenoxstore.com"
+        ],
+        "single_line_address": "750 Nathan Road, Hong Kong",
+        "website": "https://www.zenoxstore.com"
       }
     },
     {

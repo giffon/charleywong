@@ -6,15 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "大阪日本料理",
         "id": "1364143383624097",
+        "username": "newosakajapanesefood",
+        "name": "大阪日本料理",
         "about": "日式小店",
-        "categories": [
-          "Sushi Restaurant"
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          }
         ],
-        "addr": "元朗鳳琴街18號玉龍樓地下15號",
-        "area": "852 Yuen Long",
-        "tel": "23321611"
+        "single_line_address": "元朗鳳琴街18號玉龍樓地下15號, 852 Yuen Long"
       },
       "url": "https://www.facebook.com/newosakajapanesefood/"
     }

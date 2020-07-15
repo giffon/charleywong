@@ -9,15 +9,28 @@
     },
     {
       "meta": {
-        "name": "光時 - HKongs Mall",
         "id": "107180774006127",
-        "about": "支援義士 幫襯光時",
-        "categories": [
-          "Shopping & Retail",
-          "Grocery Store",
-          "Website"
+        "username": "hkongsofficial",
+        "name": "光時 - HKongs Mall",
+        "about": "長夜再黑 總有光時",
+        "category_list": [
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          },
+          {
+            "id": "2202",
+            "name": "Website"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "info@hkongs.com"
+        "emails": [
+          "info@hkongs.com"
+        ],
+        "website": "hkongs.com"
       },
       "url": "https://www.facebook.com/hkongsofficial/"
     },

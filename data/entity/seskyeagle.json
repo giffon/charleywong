@@ -7,14 +7,18 @@
     {
       "url": "https://www.facebook.com/118794714940389/",
       "meta": {
-        "name": "天鷹實業（亞洲）有限公司",
         "id": "118794714940389",
+        "name": "天鷹實業（亞洲）有限公司",
         "about": "本公司業務範圍：\n品牌代理\n建築工程\n裝飾材料\n收銀紙卷\n供應配送\n策劃投資\n歡迎查詢：\nTel : 2422 0138\nFax：2420 0020\nWhat’s app : 90823479",
-        "categories": [
-          "Company"
+        "category_list": [
+          {
+            "id": "2200",
+            "name": "Company"
+          }
         ],
-        "email": "seskyeagle@gmail.com",
-        "tel": "24220138"
+        "emails": [
+          "seskyeagle@gmail.com"
+        ]
       }
     }
   ],

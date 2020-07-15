@@ -7,17 +7,25 @@
     {
       "url": "https://www.facebook.com/storeast/",
       "meta": {
-        "name": "Storeast 波鞋及服飾專門店",
         "id": "644359632246861",
+        "username": "storeast",
+        "name": "Storeast 波鞋及服飾專門店",
         "about": "STOREAST 為集合城市生活及時尚潮流服飾的香港商店，主售正版潮流波鞋衣物及提供代購預訂。",
-        "categories": [
-          "Shopping & Retail",
-          "Website"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2202",
+            "name": "Website"
+          }
         ],
-        "addr": "Shop P7, 2/F, Block 3 Camel Paint Building, 62 Hoi Yuen Road",
-        "area": "/ Hong Kong",
-        "email": "info@storeast.com",
-        "tel": "55362355"
+        "emails": [
+          "info@storeast.com"
+        ],
+        "single_line_address": "Shop P7, 2/F, Block 3 Camel Paint Building, 62 Hoi Yuen Road, / Hong Kong",
+        "website": "http://storeast.com/"
       }
     },
     {

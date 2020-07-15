@@ -6,33 +6,52 @@
   "webpages": [
     {
       "meta": {
-        "name": "Story steak and pasta",
         "id": "1704252669648715",
-        "categories": [
-          "Steakhouse",
-          "Continental Restaurant",
-          "European Restaurant"
+        "username": "storysteaknpasta",
+        "name": "Story steak and pasta",
+        "category_list": [
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          },
+          {
+            "id": "197227066968500",
+            "name": "Continental Restaurant"
+          },
+          {
+            "id": "1508025966158640",
+            "name": "European Restaurant"
+          }
         ],
-        "addr": "元朗鳳攸南街9號地下3號鋪",
-        "area": "852 Hong Kong",
-        "tel": "24778636"
+        "emails": [
+          "alantonyl@gmail.com"
+        ],
+        "single_line_address": "Story Steak & Pasta\n元朗鳳攸南街9號好順利大廈地下3號舖, Hong Kong"
       },
       "url": "https://www.facebook.com/storysteaknpasta/"
     },
     {
       "url": "https://www.facebook.com/storysteakandpasta/",
       "meta": {
-        "name": "STORY STEAK & PASTA",
         "id": "647162995428352",
+        "username": "storysteakandpasta",
+        "name": "STORY STEAK & PASTA",
         "about": "親民價歎多款意式佳餚",
-        "categories": [
-          "Continental Restaurant",
-          "Burger Restaurant",
-          "Steakhouse"
+        "category_list": [
+          {
+            "id": "197227066968500",
+            "name": "Continental Restaurant"
+          },
+          {
+            "id": "187425207958280",
+            "name": "Burger Restaurant"
+          },
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          }
         ],
-        "addr": "元朗鳳攸南街9號好順利大廈地下3號舖",
-        "area": "852 Hong Kong",
-        "tel": "24778636"
+        "single_line_address": "元朗鳳攸南街9號好順利大廈地下3號舖, 852 Hong Kong"
       },
       "hidden": true
     },

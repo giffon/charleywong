@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "cornerc.co",
         "id": "391711861178958",
+        "username": "cornerc.hk2",
+        "name": "cornerc.co",
         "about": "instagram : cornerc.hk2 追蹤人數達七萬！在旺角設有門市",
-        "categories": [
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "email": "support@cornerc.co",
-        "tel": "51014014"
+        "emails": [
+          "support@cornerc.co"
+        ],
+        "single_line_address": "Shop 1 , G/F , Ho King Commercial Centre, 2-16 Fa Yuen Street, Hong Kong",
+        "website": "http://www.cornerc.co"
       },
       "url": "https://www.facebook.com/cornerc.hk2/"
     },

@@ -10,12 +10,20 @@
     {
       "meta": {
         "id": "146652782068898",
-        "about": "雙月刊，「水煮魚文化」出版，於商務、三聯、天地、中華、Kubrick、Page One、誠品、樂文、序言、榆林、田園等有售。",
-        "categories": [
-          "Media/news company"
+        "username": "fleursdeslettres",
+        "name": "字花",
+        "about": "雙月刊，「水煮魚文化」出版，於商務、三聯、天地、中華、Kubrick、Page One、誠品、樂文、序言、榆林、田園等有售。 ",
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "zihua2m@fleursdeslettres.com",
-        "tel": "21357038"
+        "emails": [
+          "zihua2m@fleursdeslettres.com"
+        ],
+        "single_line_address": "新蒲崗八達街 3-5 號安達工業大廈3 樓B3室",
+        "website": "www.zihua.org.hk"
       },
       "url": "https://www.facebook.com/fleursdeslettres/"
     }

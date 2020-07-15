@@ -8,16 +8,20 @@
     {
       "url": "https://www.facebook.com/sweatworkshophk/",
       "meta": {
-        "name": "汗工廠 Sweat Workshop",
         "id": "807780499351785",
+        "username": "sweatworkshophk",
+        "name": "汗工廠 Sweat Workshop",
         "about": "【輕鬆Keep Fit　健康運動】\n泰拳Thai Boxing │ 健康Fitness │ 太陽燈Tanning │ 休閒Relax | 瑜伽Yoga\n\n\n� https://api.whatsapp.com/send?phone=85290116030",
-        "categories": [
-          "Gym/Physical Fitness Center"
+        "category_list": [
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          }
         ],
-        "addr": "Flat C, 10/F, Tak Wing Industrial Building, No.3 Tsun Wen Road, Tuen Mun, New Territories",
-        "area": "Hong Kong",
-        "email": "sweatworkshophk@gmail.com",
-        "tel": "23333438"
+        "emails": [
+          "sweatworkshophk@gmail.com"
+        ],
+        "single_line_address": "Hong Kong"
       }
     },
     {

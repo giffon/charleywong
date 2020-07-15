@@ -6,12 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "本草匡時",
         "id": "463569550520732",
+        "username": "CMDoctorsCure",
+        "name": "本草匡時",
         "about": "由有志關懷香港社會及業界發展的香港註冊中醫師組成，中醫專業組織。",
-        "categories": [
-          "Non-Governmental Organization (NGO)"
-        ]
+        "category_list": [
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          }
+        ],
+        "single_line_address": "Hong Kong"
       },
       "url": "https://www.facebook.com/CMDoctorsCure/"
     }

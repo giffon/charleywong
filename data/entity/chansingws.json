@@ -6,14 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "陳聲工作室",
         "id": "533338250149882",
+        "name": "陳聲工作室",
         "about": "全港獨有，迷你版LED港式大花牌，不同款式,無論開張結婚大壽生日升職榮休新居入伙百日宴都能度身訂造",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "chansingws@gmail.com",
-        "tel": "63890388"
+        "emails": [
+          "chansingws@gmail.com"
+        ],
+        "website": "https://wa.me/85290952917"
       },
       "url": "https://www.facebook.com/533338250149882/"
     },

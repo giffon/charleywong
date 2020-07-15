@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/learningcruises/",
       "meta": {
-        "name": "學習啟航號",
         "id": "1512833732357953",
+        "username": "learningcruises",
+        "name": "學習啟航號",
         "about": "教書不如教讀書\nwhatapps: 97565969\n我們認為：「補習不需補一世」\n我們認為：「能力是可以改善」\n我們認為：「成績低下、跟不上進度，只是出現學習盲點。」",
-        "categories": [
-          "Tutor/Teacher"
+        "category_list": [
+          {
+            "id": "145296352197250",
+            "name": "Tutor/Teacher"
+          }
         ],
-        "addr": "荃灣大河道18號地皇廣場3樓335-336號鋪",
-        "area": "852 Hong Kong",
-        "email": "learningcruises@gmail.com",
-        "tel": "97565969"
+        "emails": [
+          "learningcruises@gmail.com"
+        ],
+        "single_line_address": "荃灣大河道18號地皇廣場3樓335-336號鋪, 852 Hong Kong",
+        "website": "http://www.learningcruises.org"
       }
     },
     {

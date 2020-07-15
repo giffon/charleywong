@@ -14,13 +14,24 @@
     {
       "url": "https://www.facebook.com/wataruhane.crystal/",
       "meta": {
-        "name": "彌羽居",
         "id": "450976758345672",
-        "categories": [
-          "Jewelry/Watches",
-          "Accessories",
-          "Design & Fashion"
-        ]
+        "username": "wataruhane.crystal",
+        "name": "彌羽居",
+        "category_list": [
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          },
+          {
+            "id": "185127444860544",
+            "name": "Accessories"
+          },
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          }
+        ],
+        "website": "https://instagram.com/wataru_hane?igshid=1a1kovj79rv1z"
       }
     }
   ],

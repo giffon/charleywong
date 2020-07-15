@@ -6,11 +6,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "Utopia ootd",
         "id": "358262314572610",
-        "about": "Outfit of the day\nWe love Yoga, Fashion and People",
-        "categories": [
-          "Product/Service"
+        "username": "utopiaootd",
+        "name": "Utopia ootd",
+        "about": "Outfit of the day \nWe love Yoga, Fashion and People ",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       },
       "url": "https://www.facebook.com/utopiaootd/"

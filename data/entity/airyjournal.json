@@ -9,14 +9,24 @@
     },
     {
       "meta": {
-        "name": "Airy Journal",
         "id": "925336487624650",
+        "name": "Airy Journal",
         "about": "Fashion Select Store",
-        "categories": [
-          "Clothing (Brand)",
-          "Women's Clothing Store"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "128753240528981",
+            "name": "Women's Clothing Store"
+          }
         ],
-        "email": "airyjournalhk@gmail.com"
+        "emails": [
+          "airyjournalhk@gmail.com"
+        ],
+        "single_line_address": "Shop70, 3/F Trendy Place, Kwai Chung Plaza",
+        "website": "www.AiryJournal.com"
       },
       "url": "https://www.facebook.com/925336487624650/"
     },

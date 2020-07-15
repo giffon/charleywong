@@ -9,15 +9,29 @@
     },
     {
       "meta": {
-        "name": "Freeze Lifestyle",
         "id": "1739860996294097",
+        "username": "freezelifestyle",
+        "name": "Freeze Lifestyle",
         "about": "FREEZE 以水泥為題材，混合其他元素，設計不同生活家品。",
-        "categories": [
-          "Product/Service",
-          "Interior Design Studio",
-          "Cultural Gifts Store"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          },
+          {
+            "id": "180816211956170",
+            "name": "Cultural Gifts Store"
+          }
         ],
-        "email": "freeze.lifestyle@gmail.com"
+        "emails": [
+          "freeze.lifestyle@gmail.com"
+        ],
+        "single_line_address": "Rm C 5/f, Yat Sang Industrial Building, 13 Tai Yip Street, Kwun Tong, Kowloon, Hong Kong",
+        "website": "http://www.freezelifestyle.com/"
       },
       "url": "https://www.facebook.com/freezelifestyle/"
     },

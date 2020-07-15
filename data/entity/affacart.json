@@ -7,12 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "Affa C Art 阿凡塵繪",
         "id": "803263786377348",
+        "username": "affacart",
+        "name": "Affa C Art 阿凡塵繪",
         "about": "無睇過Arthur C. Clarke的Affa C Art",
-        "categories": [
-          "Artist",
-          "Painting Lessons"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "487761925317535",
+            "name": "Painting Lessons"
+          }
         ]
       },
       "url": "https://www.facebook.com/affacart/"

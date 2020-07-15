@@ -9,12 +9,17 @@
     },
     {
       "meta": {
-        "name": "KKBOX",
         "id": "191473504869",
+        "username": "KKBOXHK",
+        "name": "KKBOX",
         "about": "★KKBOX 一起聽音樂吧！ www.kkbox.com★",
-        "categories": [
-          "Product/Service"
-        ]
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
+        ],
+        "website": "http://www.kkbox.com"
       },
       "url": "https://www.facebook.com/KKBOXHK/"
     },

@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/ZetaAtelier/",
       "meta": {
-        "name": "ZETA Atelier",
         "id": "272382566466345",
+        "username": "ZetaAtelier",
+        "name": "ZETA Atelier",
         "about": "ZETA Atelier 為您提供日式植眼睫毛服務，以專業的美睫技術，採用合乎國際安全標準的優質進口專業產品，於獨立舒適的房間，為您提供貼心的美睫服務。",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care"
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "addr": "尖沙咀加拿分道45-47號The Studio, 509室",
-        "area": "Tsim Sha Tsui",
-        "tel": "90132290"
+        "single_line_address": "尖沙咀加拿分道45-47號The Studio, 509室, Tsim Sha Tsui"
       }
     },
     {

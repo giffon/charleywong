@@ -13,13 +13,20 @@
     },
     {
       "meta": {
-        "name": "bethttat",
         "id": "2383545015069908",
+        "username": "bethttatoo",
+        "name": "bethttat",
         "about": "Illustrator and Tattoist from Hong Kong",
-        "categories": [
-          "Artist"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "bethttat@gmail.com"
+        "emails": [
+          "bethttat@gmail.com"
+        ],
+        "website": "https://www.instagram.com/bethttat/"
       },
       "url": "https://www.facebook.com/bethttatoo/"
     }

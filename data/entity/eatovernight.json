@@ -7,29 +7,35 @@
     {
       "url": "https://www.facebook.com/eatovernight/",
       "meta": {
-        "name": "深宵食堂",
         "id": "506155332843937",
+        "username": "eatovernight",
+        "name": "深宵食堂",
         "about": "一定會找到你想要的美食",
-        "categories": [
-          "Yakitori Restaurant"
+        "category_list": [
+          {
+            "id": "113264772433008",
+            "name": "Yakitori Restaurant"
+          }
         ],
-        "addr": "銅鑼灣耀華街百樂中心6樓",
-        "area": "852 Causeway Bay",
-        "email": "eatovernight@gmail.com",
-        "tel": "27993678"
+        "emails": [
+          "eatovernight@gmail.com"
+        ],
+        "single_line_address": "銅鑼灣耀華街百樂中心6樓, 852 Causeway Bay"
       }
     },
     {
       "url": "https://www.facebook.com/eatovernightmk/",
       "meta": {
-        "name": "深宵食堂-旺角店",
         "id": "780233299037719",
-        "categories": [
-          "Restaurant"
+        "username": "eatovernightmk",
+        "name": "深宵食堂-旺角店",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "彌敦道575號Ladder Dundas 3樓",
-        "area": "852 Hong Kong",
-        "tel": "23631152"
+        "single_line_address": "彌敦道575號Ladder Dundas 3樓, 852 Hong Kong"
       }
     },
     {

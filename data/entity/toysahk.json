@@ -10,12 +10,21 @@
     {
       "meta": {
         "id": "213460289161663",
-        "categories": [
-          "Toy shop"
+        "username": "toysahk",
+        "name": "Toysa Company",
+        "about": "Playmobil",
+        "category_list": [
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          },
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          }
         ],
-        "addr": "英皇道14號天后蘋果商場1/F Shop#83",
-        "area": "Hong Kong",
-        "tel": "59123679"
+        "single_line_address": "英皇道14號天后蘋果商場1/F Shop#83, Hong Kong",
+        "website": "https://shop.price.com.hk/toysa/"
       },
       "url": "https://www.facebook.com/toysahk/"
     }

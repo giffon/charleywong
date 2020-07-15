@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/KickBoxingFitness/",
       "meta": {
-        "name": "KickBoxing Fitness",
         "id": "480250815340952",
+        "username": "KickBoxingFitness",
+        "name": "KickBoxing Fitness",
         "about": "本中心位於觀塘區，提供專業泰拳、瑜珈和空手道訓練。\nTel:(852)62889474/(852)96075530",
-        "categories": [
-          "Sports Club",
-          "Martial Arts School",
-          "Gym/Physical Fitness Center"
+        "category_list": [
+          {
+            "id": "198325860180715",
+            "name": "Martial Arts School"
+          },
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          },
+          {
+            "id": "189018581118681",
+            "name": "Sports Club"
+          }
         ],
-        "addr": "Flat B8, 13/F, Block B, Mai Hing Industrial Building, 16-18 Hing Yip Street, Kwun Tong, Hong Kong 香港觀塘興業街16-18號美興工業大廈B座13樓B8室",
-        "area": "Kowloon, Hong Kong",
-        "email": "info@kickboxingfitness.com.hk",
-        "tel": "62889474"
+        "emails": [
+          "info@kickboxingfitness.com.hk"
+        ],
+        "single_line_address": "Flat B8, 13/F, Block B, Mai Hing Industrial Building, 16-18 Hing Yip Street, Kwun Tong, Hong Kong 香港觀塘興業街16-18號美興工業大廈B座13樓B8室, Kowloon, Hong Kong",
+        "website": "www.kickboxingfitness.com.hk"
       }
     },
     {

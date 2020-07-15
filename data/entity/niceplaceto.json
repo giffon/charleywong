@@ -7,16 +7,29 @@
   "webpages": [
     {
       "meta": {
-        "about": "攝影 / 手藝工作坊 / 生活小物 / 分享會 / flea market",
-        "categories": [
-          "Arts and entertainment",
-          "Shopping & retail",
-          "Event planner"
+        "id": "713766125344757",
+        "username": "niceplaceto",
+        "name": "A nice place to",
+        "about": "攝影 / 手藝工作坊 / 生活小物 / 分享會 / flea market\n\n",
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          }
         ],
-        "addr": "2 Chung Ching Street",
-        "area": "Sai Ying Pun",
-        "email": "aniceplaceto@gmail.com",
-        "id": "713766125344757"
+        "emails": [
+          "aniceplaceto@gmail.com"
+        ],
+        "single_line_address": "2 Chung Ching Street, Sai Ying Pun",
+        "website": "https://aniceplaceto.com"
       },
       "url": "https://www.facebook.com/niceplaceto/"
     }

@@ -6,16 +6,27 @@
   "webpages": [
     {
       "meta": {
-        "name": "Zoogenic",
         "id": "1041188412706693",
+        "username": "z.zoogenic",
+        "name": "Zoogenic",
         "about": "Spread love to Nature . Animals . Humanity",
-        "categories": [
-          "Gardener",
-          "Home Decor",
-          "Designer"
+        "category_list": [
+          {
+            "id": "156555961070638",
+            "name": "Gardener"
+          },
+          {
+            "id": "192647794097278",
+            "name": "Home Decor"
+          },
+          {
+            "id": "1615",
+            "name": "Designer"
+          }
         ],
-        "email": "z.zoogenic@gmail.com",
-        "tel": "61946808"
+        "emails": [
+          "z.zoogenic@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/z.zoogenic/"
     },

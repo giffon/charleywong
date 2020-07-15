@@ -11,16 +11,20 @@
     {
       "url": "https://www.facebook.com/sakabayashihk/",
       "meta": {
-        "name": "Sakabayashi酒林",
         "id": "165963516801754",
+        "username": "sakabayashihk",
+        "name": "Sakabayashi酒林",
         "about": "Sakabayashi - Sake Bar",
-        "categories": [
-          "Sake Bar"
+        "category_list": [
+          {
+            "id": "1640927539562872",
+            "name": "Sake Bar"
+          }
         ],
-        "addr": "44 Li Tak Street",
-        "area": "000000 Tai Kok Tsui",
-        "email": "sakabayashihk@gmail.com",
-        "tel": "57418199"
+        "emails": [
+          "sakabayashihk@gmail.com"
+        ],
+        "single_line_address": "44 Li Tak Street, 000000 Tai Kok Tsui"
       }
     }
   ],

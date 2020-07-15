@@ -8,28 +8,39 @@
     {
       "url": "https://www.facebook.com/KPFactory2013/",
       "meta": {
-        "name": "KPFactory介北工房",
         "id": "557923807574756",
+        "username": "KPFactory2013",
+        "name": "KPFactory介北工房",
         "about": "專營:車身貼膜,頭尾燈膜,拉花設計及廣告設計,歡迎查詢預約,致電及whatsapp 64638438",
-        "categories": [
-          "Cars"
-        ],
-        "tel": "64638438"
+        "category_list": [
+          {
+            "id": "2205",
+            "name": "Cars"
+          }
+        ]
       }
     },
     {
       "url": "https://www.facebook.com/kpstylehkg/",
       "meta": {
-        "name": "介北流KPstyle HKG",
         "id": "339142653472605",
+        "username": "kpstylehkg",
+        "name": "介北流KPstyle HKG",
         "about": "Kpstyle HKG專門自家設計及生產汽車精品。\nCustom design and product the car accessories.\nカスタムデザインと製品のカーアクセサリー。",
-        "categories": [
-          "Cars",
-          "Graphic Designer"
+        "category_list": [
+          {
+            "id": "2205",
+            "name": "Cars"
+          },
+          {
+            "id": "162183907165552",
+            "name": "Graphic Designer"
+          }
         ],
-        "addr": "介北工房",
-        "area": "852 Hong Kong",
-        "tel": "93469502"
+        "emails": [
+          "kpstylehkg@gmail.com"
+        ],
+        "single_line_address": "介北工房, 852 Hong Kong"
       }
     },
     {

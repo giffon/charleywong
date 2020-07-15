@@ -7,18 +7,28 @@
     {
       "url": "https://www.facebook.com/TheGentryhk/",
       "meta": {
-        "name": "The Gentry Barbershop",
         "id": "101027091610450",
+        "username": "TheGentryhk",
+        "name": "The Gentry Barbershop",
         "about": "男士理髮店",
-        "categories": [
-          "Barber Shop",
-          "Product/Service",
-          "Local Service"
+        "category_list": [
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          },
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "深水埗黃竹街15號",
-        "area": "0000 Hong Kong",
-        "email": "thegentryhk@gmail.com",
-        "tel": "63026113"
+        "emails": [
+          "thegentryhk@gmail.com"
+        ],
+        "single_line_address": "深水埗黃竹街15號, 0000 Hong Kong"
       }
     },
     {

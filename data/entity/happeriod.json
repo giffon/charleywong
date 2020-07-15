@@ -9,14 +9,24 @@
     },
     {
       "meta": {
-        "name": "Happeriod",
         "id": "291991797639200",
+        "username": "happeriod",
+        "name": "Happeriod",
         "about": "致力為香港人提供更多善待地球、又善待自己身體的月事用品選擇，推動大眾以平常心討論月事，以自在態度對待自己身體。",
-        "categories": [
-          "Education Website",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2704",
+            "name": "Education Website"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "hello@happeriod.com"
+        "emails": [
+          "hello@happeriod.com"
+        ],
+        "website": "https://happeriod.com"
       },
       "url": "https://www.facebook.com/happeriod/"
     },

@@ -9,14 +9,20 @@
     },
     {
       "meta": {
-        "name": "石賈墨",
         "id": "201600160200389",
+        "username": "Stegermatt",
+        "name": "石賈墨",
         "about": "石賈墨，現居德國的香港人。",
-        "categories": [
-          "Blogger"
+        "category_list": [
+          {
+            "id": "361282040719868",
+            "name": "Blogger"
+          }
         ],
-        "email": "stegermatt@stegermatt.de",
-        "tel": "4917657951734"
+        "emails": [
+          "stegermatt@stegermatt.de"
+        ],
+        "website": "https://www.stegermatt.de/lebenslauf/"
       },
       "url": "https://www.facebook.com/Stegermatt/"
     }

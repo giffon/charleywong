@@ -15,16 +15,22 @@
     {
       "url": "https://www.facebook.com/76barbershop/",
       "meta": {
-        "name": "港燦理髮公司76barbershop",
         "id": "1895548670719430",
+        "username": "76barbershop",
+        "name": "港燦理髮公司76barbershop",
         "about": "�港燦理髮公司�\n�76 Barbershop�\n�專業男仕理髮�\n屯門青山坊華樂商場地下99號\n敬請預約please make appointment\nWhatsApp：63249050\nig：76barbershop",
-        "categories": [
-          "Hair Salon",
-          "Barber Shop"
+        "category_list": [
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          },
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          }
         ],
-        "addr": "青山坊2號華樂大廈地下99號",
-        "area": "Tuen Mun",
-        "tel": "63249050"
+        "single_line_address": "青山坊2號華樂大廈地下99號, Tuen Mun",
+        "website": "https://www.instagram.com/76barbershop/"
       }
     }
   ],

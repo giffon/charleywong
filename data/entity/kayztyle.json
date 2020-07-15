@@ -10,13 +10,19 @@
     },
     {
       "meta": {
-        "name": "其一文創 Kayztyle",
         "id": "352604204774634",
+        "username": "kayztyle",
+        "name": "其一文創 Kayztyle",
         "about": "深水埗西九龍中心7樓7170&7171號（旗艦店）\n\nMonday - Friday ： 2pm - 6:30pm\nSaturday & Sunday : 2pm - 6:30pm\nInstagram: kayztylehk\nEmail: Kayztyle@gmail.com",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "kayztyle@gmail.com"
+        "emails": [
+          "kayztyle@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/kayztyle/"
     },

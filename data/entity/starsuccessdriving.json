@@ -11,16 +11,21 @@
     },
     {
       "meta": {
-        "name": "星捷駕駛學校 Star Success Driving School",
         "id": "604472879640386",
+        "username": "starsuccessdriving",
+        "name": "星捷駕駛學校 Star Success Driving School",
         "about": "【星捷駕駛學校】\n查詢熱線：\n九龍~9709 9700\n香港~9172 6678\n學車※考牌※補鐘\n＊星捷幫到您＊",
-        "categories": [
-          "Driving School"
+        "category_list": [
+          {
+            "id": "200010220031917",
+            "name": "Driving School"
+          }
         ],
-        "addr": "www.ssdriving.cc",
-        "area": "Hong Kong",
-        "email": "thomas@ssdriving.cc",
-        "tel": "97099700"
+        "emails": [
+          "thomas@ssdriving.cc"
+        ],
+        "single_line_address": "www.ssdriving.cc, Hong Kong",
+        "website": "http://www.ssdriving.cc"
       },
       "url": "https://www.facebook.com/starsuccessdriving/"
     }

@@ -8,15 +8,24 @@
     {
       "url": "https://www.facebook.com/joystoudioworkshop/",
       "meta": {
-        "name": "悠舍 JoyStudio",
         "id": "330448097638941",
+        "username": "joystoudioworkshop",
+        "name": "悠舍 JoyStudio",
         "about": "工作坊、分享與教學的共用空間、興趣班，手創坊\n悠舍。悠心。悠身\n在這生存以上，生活以下。\n大家一同動手製作，放下重擔，輕鬆一下。",
-        "categories": [
-          "Product/Service",
-          "Performance & Event Venue"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "179943432047564",
+            "name": "Performance & Event Venue"
+          }
         ],
-        "email": "joystoudioclub@gmail.com",
-        "tel": "55481481"
+        "emails": [
+          "joystudioclub@gmail.com"
+        ],
+        "website": "https://www.joystudioworkshop.com/"
       }
     }
   ],

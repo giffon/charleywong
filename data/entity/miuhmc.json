@@ -6,12 +6,18 @@
   "webpages": [
     {
       "meta": {
-        "name": "MIU's Homemade Cake",
         "id": "221335061229175",
-        "categories": [
-          "Personal Blog"
+        "username": "miuhmc",
+        "name": "MIU's Homemade Cake",
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "miuhmc.hm@gmail.com"
+        "emails": [
+          "miuhmc.hm@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/miuhmc/"
     },

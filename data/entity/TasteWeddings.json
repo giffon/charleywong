@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/TasteWeddings/",
       "meta": {
-        "name": "Taste Weddings 談婚論嫁",
         "id": "264426100259221",
+        "username": "TasteWeddings",
+        "name": "Taste Weddings 談婚論嫁",
         "about": "《Taste Weddings‧談婚論嫁》\nWedding planner and event planner \n提供一站式婚禮統籌、司儀、中式大妗姐、訂造婚紗晚裝、新娘化妝、婚禮拍攝等各種服務。\n歡迎免費查詢，電話：2339 1314\n\n�Taste Weddings p",
-        "categories": [
-          "Wedding Planning Service"
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "addr": "Unit 1A 1/F A Kwan Lock Building 178 Nathan Road TST",
-        "area": "852 Hong Kong",
-        "email": "cs@tasteweddings.com.hk",
-        "tel": "93388255"
+        "emails": [
+          "cs@tasteweddings.com.hk"
+        ],
+        "single_line_address": "Unit 1A 1/F A Kwan Lock Building 178 Nathan Road TST, 852 Hong Kong",
+        "website": "http://www.tasteweddings.com.hk"
       }
     },
     {

@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "LLB Bistro",
         "id": "1152527344908153",
-        "about": "光復香港 時代革命\nWestern x Fusion\n上環荷里活道188號 (上環地鐵站A2出口)\nTel: 35946790\nWhatsapp: 92260594\n🔸Steak🥩🔸Fusion🥘\n🔸Coffee☕️🔸Beer🍺🔸Wine🍷\n🔸Private Party 🍾",
-        "categories": [
-          "Restaurant",
-          "Beer Bar"
+        "username": "llbbistrohk",
+        "name": "LLB Bistro",
+        "about": "Western x Fusion\n上環荷里活道188號 (上環地鐵站A2出口)\nTel: 35946790\nWhatsapp: 92260594\n�Steak��Fusion�\n�Coffee��Beer��Wine�\n�Private Party �",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "263451080680156",
+            "name": "Beer Bar"
+          }
         ],
-        "addr": "188 Hollywood Road",
-        "area": "Sheung Wan",
-        "email": "llbistro188@gmail.com",
-        "tel": "35946790"
+        "emails": [
+          "llbistro188@gmail.com"
+        ],
+        "single_line_address": "188 Hollywood Road, Sheung Wan",
+        "website": "https://www.openrice.com/zh/hongkong/r-llb-bistro-%E4%B8%8A%E7%92%B0-%E8%A5%BF%E5%BC%8F-all-day-breakfast-r610527"
       },
       "url": "https://www.facebook.com/llbbistrohk/"
     },

@@ -7,18 +7,28 @@
     {
       "url": "https://www.facebook.com/naturalead.cafe/",
       "meta": {
-        "name": "隨然有機玄米菜食料理",
         "id": "1121165681322800",
+        "username": "naturalead.cafe",
+        "name": "隨然有機玄米菜食料理",
         "about": "Naturalead Organic Veggie Restaurant is a self-service style Japanese & Western fine dining in a cozy atmosphere. Warm colors, fresh plants, soft music",
-        "categories": [
-          "Cafe",
-          "Vegetarian/Vegan Restaurant",
-          "Theme Restaurant"
+        "category_list": [
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "1738077623073078",
+            "name": "Theme Restaurant"
+          }
         ],
-        "addr": "尖沙咀寶勒巷10號4樓",
-        "area": "852 23437868 Hong Kong",
-        "email": "naturalead@yahoo.com",
-        "tel": "67406500"
+        "emails": [
+          "naturalead@yahoo.com"
+        ],
+        "single_line_address": "尖沙咀寶勒巷10號4樓, 852 23437868 Hong Kong"
       }
     },
     {

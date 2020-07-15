@@ -10,14 +10,28 @@
     {
       "meta": {
         "id": "197252420397705",
-        "about": "Provide Make up service for Wedding, Pre-wedding photo, Graduation, Party.\nFor more details.please email: kats.magicmirror@gmail.com",
-        "categories": [
-          "Makeup artist",
-          "Day spa",
-          "Local service"
+        "username": "kathong.makeup",
+        "name": "Kat Hong Makeup & Styling",
+        "about": "Provide Make up service for Wedding,  Pre-wedding photo, Graduation, Party.\n For more details.please email: kats.magicmirror@gmail.com",
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          },
+          {
+            "id": "205950169432461",
+            "name": "Day Spa"
+          }
         ],
-        "email": "kats.magicmirror@gmail.com",
-        "tel": "98533211"
+        "emails": [
+          "kats.magicmirror@gmail.com"
+        ],
+        "single_line_address": "香港九龍觀塘偉業街221號美德工業大廈D座1樓D2室, 852 Hong Kong",
+        "website": "http://katsmagicmirror.wix.com/kats"
       },
       "url": "https://www.facebook.com/kathong.makeup/"
     }

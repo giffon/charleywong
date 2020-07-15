@@ -7,13 +7,19 @@
     {
       "url": "https://www.facebook.com/northlinkhk/",
       "meta": {
-        "name": "北區連線",
         "id": "105738877581732",
+        "username": "northlinkhk",
+        "name": "北區連線",
         "about": "「北區連線」集合了北區七位原本無政治組織背景，但目標及理念一致的素人區議員而開設的資訊統一發放平台。願吾等在位期間能團結各方，實踐理念，革新區政，真正光復北區。",
-        "categories": [
-          "Local Service"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "email": "northlinkhk@gmail.com"
+        "emails": [
+          "northlinkhk@gmail.com"
+        ]
       }
     },
     {

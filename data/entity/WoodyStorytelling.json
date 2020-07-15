@@ -17,16 +17,21 @@
     {
       "url": "https://www.facebook.com/WoodyStorytelling/",
       "meta": {
-        "name": "WOODY STORYTELLING",
         "id": "473352542844089",
-        "about": "WoodyWoo.com\n\nArtistics, creative and emotional wedding videography with a documentary approach\n\n婚禮攝錄 . 紀實傳真 . 聲畫留情",
-        "categories": [
-          "Photography Videography"
+        "username": "WoodyStorytelling",
+        "name": "WOODY STORYTELLING",
+        "about": "WoodyWoo.com\n\nArtistics, creative and emotional wedding videography with a documentary approach \n\n婚禮攝錄 . 紀實傳真 . 聲畫留情\n",
+        "category_list": [
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          }
         ],
-        "addr": "6/F, Shui Hong Industrial Building, 543 Castle Peak Road, Kwai Chung",
-        "area": "Hong Kong",
-        "email": "woody.storytelling@gmail.com",
-        "tel": "53655837"
+        "emails": [
+          "woody.storytelling@gmail.com"
+        ],
+        "single_line_address": "6/F, Shui Hong Industrial Building, Hong Kong",
+        "website": "http://www.woodywoo.com"
       }
     }
   ],

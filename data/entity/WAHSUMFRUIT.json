@@ -10,15 +10,20 @@
     {
       "url": "https://www.facebook.com/WAHSUMFRUIT/",
       "meta": {
-        "name": "華心生果",
         "id": "110145933949438",
-        "categories": [
-          "Shopping & Retail"
+        "username": "WAHSUMFRUIT",
+        "name": "華心生果",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "粉嶺一鳴路華心商場地下G29號鋪",
-        "area": "852 Hong Kong",
-        "email": "waiyichiu99@gmail.com",
-        "tel": "67631048"
+        "emails": [
+          "waiyichiu99@gmail.com"
+        ],
+        "single_line_address": "粉嶺一鳴路華心商場地下G29號鋪, 852 Hong Kong",
+        "website": "https://waiyichiu99.wixsite.com/wahsumfruits"
       }
     }
   ],

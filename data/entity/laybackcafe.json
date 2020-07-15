@@ -6,17 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Layback cafe & bar",
         "id": "1671118136480338",
+        "name": "Layback cafe & bar",
         "about": "Layback Cafe & Bar 位於尖沙咀加連威老道鬧市，本cafe提供舒適室外環境讓你享受我們為你精心調配的即磨咖啡，還有旺中帶寧靜的室外雅座及塌塌米，讓你可與家人、愛侶、三五知己共渡歡樂時光",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant",
-          "Bar"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          }
         ],
-        "addr": "尖沙咀加連威老道41C-D嘉威大廈4樓B室",
-        "area": "+852 Kowloon, Hong Kong",
-        "tel": "65771322"
+        "single_line_address": "尖沙咀加連威老道41C-D嘉威大廈4樓B室, +852 Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/1671118136480338/"
     },

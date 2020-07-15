@@ -6,15 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "Alternative",
         "id": "274798092946706",
-        "categories": [
-          "Coffee Shop"
+        "username": "AlternativeCoffeeHK",
+        "name": "Alternative",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "G/F, Breakthrough Centre, 191 Woosung Street, Jordan",
-        "area": "Hong Kong",
-        "email": "alternativehkcafe@gmail.com",
-        "tel": "65137994"
+        "emails": [
+          "alternativehkcafe@gmail.com"
+        ],
+        "single_line_address": "G/F, Breakthrough Centre, 191 Woosung Street, Jordan, Hong Kong"
       },
       "url": "https://www.facebook.com/AlternativeCoffeeHK/"
     },

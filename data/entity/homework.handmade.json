@@ -7,15 +7,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "家庭作業 Homework",
         "id": "362985017107922",
+        "username": "homework.handmade",
+        "name": "家庭作業 Homework",
         "about": "HOMEWORK堅持採用耐磨的高質布料及簡潔實用的設計，配以家中成員的專長。為顧客製作出質樸、時尚的隨身帆布製品。 而且秉承家庭作業的精神，為家帶點新鮮，用花去表達愛，宣揚家的重要。",
-        "categories": [
-          "Florist",
-          "Bags/Luggage",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          },
+          {
+            "id": "2206",
+            "name": "Bags/Luggage"
+          }
         ],
-        "email": "homework.handmade.hk@gmail.com"
+        "emails": [
+          "homework.handmade.hk@gmail.com"
+        ],
+        "website": "https://hk.pinkoi.com/store/homework-handmade"
       },
       "url": "https://www.facebook.com/homework.handmade/"
     },

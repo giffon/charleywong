@@ -22,17 +22,25 @@
     {
       "url": "https://www.facebook.com/1029871270397493/",
       "meta": {
-        "name": "Now Hair -大圍總店",
         "id": "1029871270397493",
+        "name": "Now Hair -大圍總店",
         "about": "🏕舒適露台\n📲WIFI\n☕️免費咖啡\n💈千呎寬敞\n☎️ 26813166 \n📣📣Follow ig 半價優惠📣📣\n#大學生優惠",
-        "categories": [
-          "Hair Salon",
-          "Barber Shop",
-          "Trade School"
+        "category_list": [
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          },
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          },
+          {
+            "id": "192338537450532",
+            "name": "Trade School"
+          }
         ],
-        "addr": "總店：大圍村九街10A 2F ,大圍村西巷41號1/F",
-        "area": "Tai Wai",
-        "tel": "26813166"
+        "single_line_address": "總店：大圍村九街10A 2F ,大圍村西巷41號1/F, Tai Wai",
+        "website": "http://www.nowhair.com.hk"
       },
       "hidden": true
     },

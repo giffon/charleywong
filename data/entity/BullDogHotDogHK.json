@@ -6,17 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "BullDog HotDog",
         "id": "163898654475871",
+        "username": "BullDogHotDogHK",
+        "name": "BullDog HotDog",
         "about": "BDHD熱狗專門店，致力為大家提供高品質美食。\n每隻熱狗均用上8吋長的法蘭克福腸製作。除了提供傳統熱狗以外，更有各種不同風味的熱狗。在傳統基礎下配合秘製醬汁創作出嶄新的口味。",
-        "categories": [
-          "Hot Dog Joint",
-          "Fast Food Restaurant"
+        "category_list": [
+          {
+            "id": "212285478786733",
+            "name": "Hot Dog Joint"
+          },
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          }
         ],
-        "addr": "大埔廣福道60-62號C鋪",
-        "area": "Tai Po Industrial Estate",
-        "email": "bulldoghotdog2018@gmail.com",
-        "tel": "26082523"
+        "emails": [
+          "bulldoghotdog2018@gmail.com"
+        ],
+        "single_line_address": "大埔廣福道60-62號C鋪, Tai Po Industrial Estate"
       },
       "url": "https://www.facebook.com/BullDogHotDogHK/"
     },

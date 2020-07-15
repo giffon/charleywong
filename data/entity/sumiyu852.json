@@ -7,12 +7,14 @@
   "webpages": [
     {
       "meta": {
-        "name": "Sumi隅",
         "id": "1810956905865420",
+        "name": "Sumi隅",
         "about": "一間微不足道的手作網路商店，只賣給喜歡我們和我們喜歡的人",
-        "categories": [
-          "Shopping & Retail",
-          "Design & Fashion"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ]
       },
       "url": "https://www.facebook.com/1810956905865420/"

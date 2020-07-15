@@ -10,12 +10,20 @@
     {
       "meta": {
         "id": "172454859469507",
+        "username": "chiwaichowfotography",
+        "name": "chiwaiChow fotography",
         "about": "chiwaiChow fotography, Professional photography service, chiwaichow.com",
-        "categories": [
-          "Camera/photo"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "info@chiwaichow.com",
-        "tel": "91760507"
+        "emails": [
+          "info@chiwaichow.com"
+        ],
+        "single_line_address": "牛頭角, 852 Hong Kong",
+        "website": "http://chiwaichow.com"
       },
       "url": "https://www.facebook.com/chiwaichowfotography/"
     }

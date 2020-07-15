@@ -17,18 +17,29 @@
     {
       "url": "https://www.facebook.com/greencommon/",
       "meta": {
-        "name": "Green Common",
         "id": "1410840392561265",
+        "username": "greencommon",
+        "name": "Green Common",
         "about": "To make Green Common by empowering our community with wholesome and sustainable plant-based choices.",
-        "categories": [
-          "Health Food Store",
-          "Vegetarian/Vegan Restaurant",
-          "Organic Grocery Store"
+        "category_list": [
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          },
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          },
+          {
+            "id": "1748430218710706",
+            "name": "Organic Grocery Store"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong",
-        "email": "info@greencommon.com",
-        "tel": "35824463"
+        "emails": [
+          "info@greencommon.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://www.greencommon.com "
       }
     },
     {

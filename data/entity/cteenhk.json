@@ -7,16 +7,29 @@
     {
       "url": "https://www.facebook.com/cteenhk/",
       "meta": {
-        "name": "Canteenhk",
         "id": "1729433527270884",
+        "username": "cteenhk",
+        "name": "Canteenhk",
         "about": "在這罐頭化的社會，我們仍想堅持這份手製的溫度。故此，無論是多款創新的手機殼，包括透明手機殼、原木手機殼、實色手機殼、手寫字體手機殼、半透明殼、四邊均有圖案色彩的全包殼等，",
-        "categories": [
-          "Product/Service",
-          "Design & Fashion",
-          "Art"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "email": "design@canteenhk.com",
-        "tel": "54032083"
+        "emails": [
+          "design@canteenhk.com"
+        ],
+        "single_line_address": "Unit15B1, Hill Road 7-9, Shek Tong Tsui, Hong Kong",
+        "website": "https://linktr.ee/canteenhk"
       }
     },
     {

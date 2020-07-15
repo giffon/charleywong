@@ -7,15 +7,23 @@
     {
       "url": "https://www.facebook.com/sweetypetsitter/",
       "meta": {
-        "name": "Sweety Pet Sitter",
         "id": "462664027240271",
+        "username": "sweetypetsitter",
+        "name": "Sweety Pet Sitter",
         "about": "想出門安心，寵物開心，寵物保姆是你最好的選擇！\n\n大家如有任何問題，歡迎查詢 Sherry 9040 6507。",
-        "categories": [
-          "Dog Walker",
-          "Pet Groomer"
+        "category_list": [
+          {
+            "id": "201128353243142",
+            "name": "Dog Walker"
+          },
+          {
+            "id": "163003840417682",
+            "name": "Pet Groomer"
+          }
         ],
-        "email": "sweety_pet_sitter@hotmail.com",
-        "tel": "90406507"
+        "emails": [
+          "sweety_pet_sitter@hotmail.com"
+        ]
       }
     },
     {

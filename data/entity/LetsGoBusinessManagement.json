@@ -10,14 +10,21 @@
     },
     {
       "meta": {
-        "name": "合法追收欠款（你的收數專家）",
         "id": "1485470458175231",
+        "username": "LetsGoBusinessManagement",
+        "name": "合法追收欠款（你的收數專家）",
         "about": "本公司力高Let’s Go是壞賬代收專家， 秉承合情合理合法處理每一個個案，保證不成功不收費為每一個商家服務， 資料絕對保密，如有查詢歡迎致電 852-66898225",
-        "categories": [
-          "Consulting Agency"
+        "category_list": [
+          {
+            "id": "2248",
+            "name": "Consulting Agency"
+          }
         ],
-        "email": "support@letsgoprobiz.com",
-        "tel": "66898225"
+        "emails": [
+          "support@letsgoprobiz.com"
+        ],
+        "single_line_address": "九龍荔枝角",
+        "website": "http://www.letsgoprobiz.com"
       },
       "url": "https://www.facebook.com/LetsGoBusinessManagement/"
     }

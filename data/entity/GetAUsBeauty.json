@@ -14,16 +14,22 @@
     {
       "url": "https://www.facebook.com/GetAUsBeauty/",
       "meta": {
-        "name": "Get AU's Beauty",
         "id": "1813047872266121",
+        "username": "GetAUsBeauty",
+        "name": "Get AU's Beauty",
         "about": "Let get more beauty from Get AU's Beauty :)\n\n-\n\n專業韓式半永久化妝 · 美睫\n\n-\n\n店鋪位於觀塘市中心",
-        "categories": [
-          "Health/Beauty",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "觀塘巧明街116-118號萬年工業大廈11樓W.HUB1107室",
-        "area": "Kwun Tong",
-        "tel": "62200221"
+        "single_line_address": "觀塘巧明街116-118號萬年工業大廈11樓W.HUB1107室, Kwun Tong",
+        "website": "http://www.instagram.com/getausbeauty"
       }
     }
   ],

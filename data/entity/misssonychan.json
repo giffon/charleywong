@@ -7,10 +7,14 @@
     {
       "url": "https://www.facebook.com/misssonychan/",
       "meta": {
-        "name": "Sony Chan",
         "id": "114510676004",
-        "categories": [
-          "Artist"
+        "username": "misssonychan",
+        "name": "Sony Chan",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ]
       }
     },

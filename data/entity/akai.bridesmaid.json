@@ -14,18 +14,29 @@
     {
       "url": "https://www.facebook.com/akai.bridesmaid/",
       "meta": {
-        "name": "Akai Bridesmaid Dresses 晚裝姊妹裙專門店",
         "id": "129206371079196",
+        "username": "akai.bridesmaid",
+        "name": "Akai Bridesmaid Dresses 晚裝姊妹裙專門店",
         "about": "觀塘成業街18號新怡生工業大廈1樓A204",
-        "categories": [
-          "Retail Company",
-          "Product/Service",
-          "Bridal Shop"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "觀塘成業街18號新怡生工業大廈1樓A204",
-        "area": "Hong Kong",
-        "email": "akai.bridesmaid888@gmail.com",
-        "tel": "67334689"
+        "emails": [
+          "akai.bridesmaid888@gmail.com"
+        ],
+        "single_line_address": "觀塘成業街18號新怡生工業大廈1樓A204, Hong Kong",
+        "website": "akaibridesmaid.com"
       }
     }
   ],

@@ -7,11 +7,15 @@
     {
       "url": "https://www.facebook.com/samngx123/",
       "meta": {
-        "name": "吳志森",
         "id": "428783147195623",
+        "username": "samngx123",
+        "name": "吳志森",
         "about": "傳媒工作三十年，身心俱疲，未能休息。港台《自由風》被噤聲，仍在《頭條新聞》搞鬼，D100開咪、在報紙寫稿。愛上拍鳥蹤聽鳥鳴，洗滌心靈，止痛療傷。",
-        "categories": [
-          "Journalist"
+        "category_list": [
+          {
+            "id": "1604",
+            "name": "Journalist"
+          }
         ]
       }
     },

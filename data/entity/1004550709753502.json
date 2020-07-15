@@ -8,15 +8,21 @@
     {
       "url": "https://www.facebook.com/1004550709753502/",
       "meta": {
-        "name": "和平燒味飯 Siu Mei Fan",
         "id": "1004550709753502",
+        "username": "SiuMeiFan.HP",
+        "name": "和平燒味飯 Siu Mei Fan",
         "about": "人人和平的將馳名的燒味帶到商業區，提供燒味飯盒及湯粉麵外賣，令大家返工時可以食到得獎燒鵝及叉燒。",
-        "categories": [
-          "Fast Food Restaurant"
+        "category_list": [
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          },
+          {
+            "id": "214976388519648",
+            "name": "Cantonese Restaurant"
+          }
         ],
-        "addr": "77 Queen's Road East",
-        "area": "Hong Kong",
-        "tel": "22670199"
+        "single_line_address": "77 Queen's Road East, Hong Kong"
       }
     }
   ],

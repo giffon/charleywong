@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/actionpandahk/",
       "meta": {
-        "name": "Action Panda 運動用品專門店",
         "id": "1656676591230722",
-        "about": "Action Panda 為客戶提供最好,價錢最抵的跑步,行山及露營用品. \n品牌包括HOKA , 2XU , Salomon , Black Diamond , Ultimate Direction 等不能盡錄 提供專業意見, 我哋好榮幸解答你嘅查詢.",
-        "categories": [
-          "Outdoor Equipment Store",
-          "Outdoor & Sporting Goods Company",
-          "Sports & Fitness Instruction"
+        "username": "actionpandahk",
+        "name": "Action Panda 運動用品專門店",
+        "about": "Action Panda 為客戶提供最好,價錢最抵的跑步,行山及露營用品. \n品牌包括HOKA , 2XU , Salomon , Black Diamond , Ultimate Direction 等不能盡錄 提供專業意見, 我哋好榮幸解答你嘅查詢. ",
+        "category_list": [
+          {
+            "id": "153490828039067",
+            "name": "Outdoor Equipment Store"
+          },
+          {
+            "id": "2231",
+            "name": "Outdoor & Sporting Goods Company"
+          },
+          {
+            "id": "193302624020981",
+            "name": "Sports & Fitness Instruction"
+          }
         ],
-        "addr": "觀塘道 460號 觀塘工業中心 2期 4樓 P室",
-        "area": "Hong Kong",
-        "email": "info@actionpanda.hk",
-        "tel": "52118027"
+        "emails": [
+          "info@actionpanda.hk"
+        ],
+        "single_line_address": "觀塘道 460號 觀塘工業中心 2期 4樓 P室, Hong Kong",
+        "website": "https://actionpanda.hk"
       }
     },
     {

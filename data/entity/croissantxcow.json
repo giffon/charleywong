@@ -14,15 +14,28 @@
     {
       "url": "https://www.facebook.com/croissantxcow/",
       "meta": {
-        "name": "黃賤牛",
         "id": "1038825779479183",
+        "username": "croissantxcow",
+        "name": "黃賤牛",
         "about": "每日過著被追稿的生活 / 以「犧牲享受·享受犧牲」為銘 / 牛創作不受拘束，總是給人驚喜 @croissantxcow\n\nFollow my IG: croissantxcow",
-        "categories": [
-          "Writer",
-          "Artist",
-          "Designer"
+        "category_list": [
+          {
+            "id": "1109",
+            "name": "Writer"
+          },
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "1615",
+            "name": "Designer"
+          }
         ],
-        "email": "kinmanxx@gmail.com"
+        "emails": [
+          "kinmanxx@gmail.com"
+        ],
+        "website": "https://www.instagram.com/croissantxcow/"
       }
     }
   ],

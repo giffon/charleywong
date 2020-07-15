@@ -6,15 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "Easy Joe",
         "id": "381883695993649",
-        "categories": [
-          "Restaurant"
+        "username": "easyjoehk",
+        "name": "Easy Joe",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "大角咀福全街18號地下",
-        "area": "852 Hong Kong",
-        "email": "hkeasyjoe@gmail.com",
-        "tel": "25060638"
+        "emails": [
+          "hkeasyjoe@gmail.com"
+        ],
+        "single_line_address": "18 Fuk Tsun Street, 852 Tai Kok Tsui"
       },
       "url": "https://www.facebook.com/easyjoehk/"
     },

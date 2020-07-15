@@ -11,18 +11,29 @@
     {
       "url": "https://www.facebook.com/KLNBJJMONGKOK/",
       "meta": {
-        "name": "九龍柔術旺角館 Klnbjj Mongkok",
         "id": "177542049119394",
+        "username": "KLNBJJMONGKOK",
+        "name": "九龍柔術旺角館 Klnbjj Mongkok",
         "about": "九龍柔術旺角館是一間綜合武術館，我們的成員範圍由業餘活動愛好者至積極的競技運動員，不論學員的年紀和目標是什麼,klnbjj mongkok 也是合適你參加的運動團隊",
-        "categories": [
-          "Martial Arts School",
-          "Gym/Physical Fitness Center",
-          "Stadium, Arena & Sports Venue"
+        "category_list": [
+          {
+            "id": "198325860180715",
+            "name": "Martial Arts School"
+          },
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          },
+          {
+            "id": "109976259083543",
+            "name": "Stadium, Arena & Sports Venue"
+          }
         ],
-        "addr": "通菜街 215A號 1樓",
-        "area": "Kowloon, Hong Kong",
-        "email": "donnie.wan@gmail.com",
-        "tel": "62273595"
+        "emails": [
+          "donnie.wan@gmail.com"
+        ],
+        "single_line_address": "通菜街 215A號 1樓, Kowloon, Hong Kong",
+        "website": "http://www.falcon-fitness.com/"
       }
     },
     {

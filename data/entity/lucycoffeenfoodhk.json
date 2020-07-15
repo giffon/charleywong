@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "Lucycoffeenfood",
         "id": "1593755217528733",
-        "about": "We love coffee！\nWe love food！\nWe love to share！",
-        "categories": [
-          "Coffee Shop",
-          "Breakfast & Brunch Restaurant"
+        "username": "lucycoffeenfoodhk",
+        "name": "Lucycoffeenfood",
+        "about": "We love coffee！\nWe love food！\nWe love to share！\n",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          }
         ],
-        "addr": "Shop C1, Merlin Centre 55 Po On road",
-        "area": "Cheung Sha Wan, Hong Kong",
-        "email": "lucycoffeenfood@gmail.com",
-        "tel": "55088318"
+        "emails": [
+          "lucycoffeenfood@gmail.com"
+        ],
+        "single_line_address": "Shop C1, Merlin Centre 55 Po On road, Cheung Sha Wan, Hong Kong",
+        "website": "https://instagram.com/lucycoffeenfood"
       },
       "url": "https://www.facebook.com/lucycoffeenfoodhk/"
     },

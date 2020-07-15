@@ -6,16 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Common Ground",
         "id": "148162905333773",
+        "username": "Commongroundhk",
+        "name": "Common Ground",
         "about": "Common Ground is a community project that started by Protest Design Company and Twins Kitchen.",
-        "categories": [
-          "Cafe"
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
         ],
-        "addr": "G/F, 19 Shing Wong St",
-        "area": "N/A Central, Hong Kong",
-        "email": "info@twins-kitchen.com",
-        "tel": "28188318"
+        "emails": [
+          "info@twins-kitchen.com"
+        ],
+        "single_line_address": "G/F, 19 Shing Wong St, N/A Central, Hong Kong"
       },
       "url": "https://www.facebook.com/Commongroundhk/"
     },

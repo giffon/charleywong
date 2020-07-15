@@ -11,15 +11,24 @@
     {
       "url": "https://www.facebook.com/yogamazehk/",
       "meta": {
-        "name": "Yogamaze • 瑜伽美舍",
         "id": "642915046106746",
-        "categories": [
-          "Yoga Studio"
+        "username": "yogamazehk",
+        "name": "Yogamaze • 瑜伽美舍",
+        "category_list": [
+          {
+            "id": "174832985894571",
+            "name": "Yoga Studio"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "addr": "Unit 616 C-D, 6/F, Hewlett Centre, 54 Hoi Yuen Road",
-        "area": "Kung Tong, Hong Kong",
-        "email": "yogamazehk@gmail.com",
-        "tel": "96041928"
+        "emails": [
+          "yogamazehk@gmail.com"
+        ],
+        "single_line_address": "Unit 616 C-D, 6/F, Hewlett Centre, 54 Hoi Yuen Road, Kung Tong, Hong Kong",
+        "website": "https://yogamazestudio.com"
       }
     },
     {

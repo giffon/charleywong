@@ -17,13 +17,20 @@
     {
       "url": "https://www.facebook.com/soc2019/",
       "meta": {
-        "name": "Skylines of Our City 我城側影",
         "id": "291130328254731",
-        "about": "為你每日介紹嚟個城市你想像唔到嘅建築物同歷史。希望令你感到身處喺嚟個城市係一件值得驕傲嘅事。\n------------------------------\nIntroducing you to building and history of this city that you can't imagine.",
-        "categories": [
-          "Community"
+        "username": "soc2019",
+        "name": "Skylines of Our City 我城側影",
+        "about": "為你每日介紹嚟個城市你想像唔到嘅建築物同歷史。希望令你感到身處喺嚟個城市係一件值得驕傲嘅事。\n------------------------------\nIntroducing you to building and history of this city that you can't imagine. ",
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "skylinesofourcity@gmail.com"
+        "emails": [
+          "skylinesofourcity@gmail.com"
+        ],
+        "website": "http://skylinesofourcity.com/"
       }
     }
   ],

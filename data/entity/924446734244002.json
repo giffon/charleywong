@@ -7,15 +7,18 @@
   "webpages": [
     {
       "meta": {
-        "name": "《享藝館 》j O Y F U L A R T",
         "id": "924446734244002",
-        "categories": [
-          "Education"
+        "name": "《享藝館 》j O Y F U L   A R T",
+        "category_list": [
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "addr": "九龍長沙灣元州街290號西岸國際大廈1005及1010室",
-        "area": "Hong Kong",
-        "email": "joyfulart777@yahoo.com.hk",
-        "tel": "27822108"
+        "emails": [
+          "joyfulart777@yahoo.com.hk"
+        ],
+        "single_line_address": "九龍長沙灣元州街290號西岸國際大廈1005及1010室, Hong Kong"
       },
       "url": "https://www.facebook.com/924446734244002/"
     }

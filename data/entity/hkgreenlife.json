@@ -10,15 +10,25 @@
     {
       "url": "https://www.facebook.com/hkgreenlife/",
       "meta": {
-        "name": "毋忘愛",
         "id": "465268916882797",
-        "about": "慈善機構檔案號碼: 91/14870\n「毋忘愛」致力營造優雅莊嚴的喪禮， 融入個性化和追思元素，反映逝者個性、肯定其一生，並讓親友表達思念和感激，令愛延續。",
-        "categories": [
-          "Nonprofit Organization",
-          "Non-Governmental Organization (NGO)"
+        "username": "hkgreenlife",
+        "name": "毋忘愛",
+        "about": "慈善機構檔案號碼: 91/14870\n\n「毋忘愛」致力營造優雅莊嚴的喪禮， 融入個性化和追思元素，反映逝者個性、肯定其一生，並讓親友表達思念和感激，令愛延續。",
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          },
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          }
         ],
-        "email": "info@forgettheenot.org.hk",
-        "tel": "34884933"
+        "emails": [
+          "info@forgettheenot.org.hk"
+        ],
+        "single_line_address": "九龍灣臨興街21號美羅中心二期11樓21室, Hong Kong",
+        "website": "http://www.forgettheenot.org.hk/"
       }
     }
   ],

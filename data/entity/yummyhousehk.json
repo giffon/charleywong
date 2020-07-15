@@ -11,12 +11,20 @@
     {
       "meta": {
         "id": "312550388949163",
-        "about": "美味棧 成立於2001年，是一間專門監製優質醬料及健康美食的國際性機構。",
-        "categories": [
-          "Food and drink"
+        "username": "yummyhousehk",
+        "name": "美味棧 Yummy House",
+        "about": "美味棧 成立於2001年，是一間專門監製健康美食及優質醬料的國際性機構 ︳熱賣皇牌產品﹕古法頭抽、即飲湯包、紅燒鮑魚、醃製海蜇爽、爽口榨菜絲等",
+        "category_list": [
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          }
         ],
-        "email": "info@yum.com.hk",
-        "tel": "28030833"
+        "emails": [
+          "info@yum.com.hk"
+        ],
+        "single_line_address": "香港干諾道西118號10樓1005室",
+        "website": "http://www.yum.com.hk"
       },
       "url": "https://www.facebook.com/yummyhousehk/"
     },

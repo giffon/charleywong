@@ -14,14 +14,25 @@
     {
       "url": "https://www.facebook.com/yellowbirds.hk/",
       "meta": {
-        "name": "Yellowbirds.hk",
         "id": "106226610997116",
-        "about": "YellowBirds.HK代購網店係由一班台灣朋友係台灣親自代購\n香港手足協助營運\n希望可以係台灣自力更身賺啲生活費\nGFHK SDGM\nContact : FB Direct Message or TG: http://t.me/gilulu\nPayment : FPS/ Payme/ HangSeng",
-        "categories": [
-          "Shopping Service",
-          "Beauty, Cosmetic & Personal Care",
-          "Boutique Store"
-        ]
+        "username": "yellowbirds.hk",
+        "name": "Yellowbirds.hk",
+        "about": "YellowBirds.HK代購網店係由一班台灣朋友係台灣親自代購\n香港手足協助營運\n希望可以係台灣自力更身賺啲生活費\nGFHK SDGM\nContact : FB / IG Direct Message \nPayment : FPS/ Payme/ HangSeng",
+        "category_list": [
+          {
+            "id": "288846958171402",
+            "name": "Boutique Store"
+          },
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          },
+          {
+            "id": "200046713342752",
+            "name": "Shopping Service"
+          }
+        ],
+        "website": "https://www.instagram.com/yellowbirds.hk/"
       }
     }
   ],

@@ -14,18 +14,28 @@
     {
       "url": "https://www.facebook.com/HersbyKH/",
       "meta": {
-        "name": "Hers. by KH",
         "id": "771229563071354",
+        "username": "HersbyKH",
+        "name": "Hers. by KH",
         "about": "HERS by KH. Is a made in Hong Kong designer brand which carry all sorts of bridesmaid dresses, light wedding dresses and simple evening gowns.",
-        "categories": [
-          "Bridal Shop",
-          "Clothing (Brand)",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "5B, Uwa Building, 18-19 Connaught Road West, Sheung Wan",
-        "area": "Hong Kong",
-        "email": "hersbykh@gmail.com",
-        "tel": "95837747"
+        "emails": [
+          "hersbykh@gmail.com"
+        ],
+        "single_line_address": "5B, Uwa Building, 18-19 Connaught Road West, Sheung Wan, Hong Kong"
       }
     }
   ],

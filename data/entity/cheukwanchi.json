@@ -9,13 +9,21 @@
     },
     {
       "meta": {
-        "name": "卓韻芝",
         "id": "8051644882",
+        "username": "cheukwanchi",
+        "name": "卓韻芝",
         "about": "卓韻芝書籍購買",
-        "categories": [
-          "Public Figure"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          }
         ],
-        "email": "small.letter.g@gmail.com"
+        "emails": [
+          "small.letter.g@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "cheukwanchi.co"
       },
       "url": "https://www.facebook.com/cheukwanchi/"
     },

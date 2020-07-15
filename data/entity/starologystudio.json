@@ -6,14 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "about": "· Starology ·\n工作室 | 自家品牌\n...\n\n\nSee more",
-        "categories": [
-          "Product/service",
-          "Arts and entertainment"
+        "id": "586891734790338",
+        "username": "starologystudio",
+        "name": "Starology",
+        "about": "· Starology ·\n工作室 | 自家品牌\n\n名字起源自辛波絲卡《在一顆小星星下》，自覺人類渺小而對大自然智慧的追求，謙卑溫柔地擁抱世界。\n·\n「 我為自己分分秒秒地疏漏萬物向時間致歉 」\n\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "email": "starologystudio@gmail.com",
-        "tel": "95887569",
-        "id": "586891734790338"
+        "emails": [
+          "starologystudio@gmail.com"
+        ],
+        "single_line_address": "852 Kwai Chung"
       },
       "url": "https://www.facebook.com/starologystudio/"
     }

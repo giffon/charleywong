@@ -7,31 +7,40 @@
     {
       "url": "https://www.facebook.com/ribbonzphotography/",
       "meta": {
-        "name": "Ribbonz Photography",
         "id": "126335697415920",
-        "about": "Capture your precious moments...",
-        "categories": [
-          "Photographer"
+        "username": "ribbonzphotography",
+        "name": "Ribbonz Photography",
+        "about": "Capture your precious moments...\n",
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "Kwai Sau Road,Kwai Chung, Hong Kong",
-        "area": "Kwai Chung",
-        "email": "info@ribbonzphotography.com",
-        "tel": "62278274"
+        "emails": [
+          "info@ribbonzphotography.com"
+        ],
+        "single_line_address": "Kwai Sau Road,Kwai Chung, Hong Kong, Kwai Chung"
       }
     },
     {
       "url": "https://www.facebook.com/ribbonzinterview/",
       "meta": {
-        "name": "面試相、入學相＠Ribbonzphotography",
         "id": "2108854816063703",
+        "username": "ribbonzinterview",
+        "name": "面試相、入學相＠Ribbonzphotography",
         "about": "我地會比返哂小朋友影相過程中整古做怪既所有原圖你，你會得到比你想像中更多既相片、服務、驚喜！\n如需預約可到我地Facebook主頁https://www.facebook.com/ribbonzphotography/\n或WhatsApp 62278274 跟我們",
-        "categories": [
-          "Photography Videography"
+        "category_list": [
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          }
         ],
-        "addr": "Kwai Sau Road Kwai Chung",
-        "area": "Hong Kong",
-        "email": "info@ribbonzphotography.com",
-        "tel": "62278274"
+        "emails": [
+          "info@ribbonzphotography.com"
+        ],
+        "single_line_address": "Kwai Sau Road Kwai Chung, Hong Kong",
+        "website": "http://www.ribbonzphotography.com"
       }
     },
     {

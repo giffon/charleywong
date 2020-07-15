@@ -6,14 +6,20 @@
   "webpages": [
     {
       "meta": {
+        "id": "154827901361655",
+        "username": "Busuaca",
+        "name": "浸會大學動漫學會",
         "about": "這裡是浸會大學動漫藝術研究學會的facebook page，會為大家發放我們的活動資訊以及各項動態，歡迎大家like同多多關注！",
-        "categories": [
-          "Organisation"
+        "category_list": [
+          {
+            "id": "2600",
+            "name": "Organization"
+          }
         ],
-        "addr": "YSS701, Yeung Shui Sang Building, Ho Sin Hang Campus, Hong Kong Baptist University, 224 Waterloo Road",
-        "area": "Kowloon, Hong Kong",
-        "email": "manrakucho.hkbuacas@gmail.com",
-        "id": "154827901361655"
+        "emails": [
+          "manrakucho.hkbuacas@gmail.com"
+        ],
+        "single_line_address": "YSS701, Yeung Shui Sang Building, Ho Sin Hang Campus, Hong Kong Baptist University, 224 Waterloo Road, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/Busuaca/"
     },

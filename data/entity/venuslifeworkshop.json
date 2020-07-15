@@ -13,17 +13,25 @@
     },
     {
       "meta": {
-        "name": "Venus Life Workshop",
         "id": "2187300321515656",
-        "about": "金工純銀首飾體驗班(戒指/手鐲)\n   “非銀黏土”\n．教授傳統打金工藝\n．可嘗試到-各種金工 技巧\n\n流體畫藝術體驗班\n．個人或小班預約(最多4人)\n .歡迎公司或社區活動預約課程 \n．歡迎查詢",
-        "categories": [
-          "Art",
-          "Business Service"
+        "username": "venuslifeworkshop",
+        "name": "Venus Life Workshop",
+        "about": "金工純銀首飾體驗班(戒指/手鐲)\n   “非銀黏土”\n．教授傳統打金工藝\n．可嘗試到-各種金工 技巧\n\n流體畫藝術體驗班\n．個人或小班預約(最多4人)\n .歡迎公司或社區活動預約課程 \n．歡迎查詢\n",
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          }
         ],
-        "addr": "九龍觀塘成業街16號,怡生工業中心A座,11樓A28室",
-        "area": "852 Hong Kong",
-        "email": "venuslifeworkshop@gmail.com",
-        "tel": "97882103"
+        "emails": [
+          "venuslifeworkshop@gmail.com"
+        ],
+        "single_line_address": "九龍觀塘成業街16號,怡生工業中心A座,11樓A28室, 852 Hong Kong",
+        "website": "https://www.instagram.com/venuslifeworkshop"
       },
       "url": "https://www.facebook.com/venuslifeworkshop/"
     }

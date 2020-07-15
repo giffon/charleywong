@@ -11,11 +11,20 @@
     {
       "meta": {
         "id": "781950888491053",
-        "about": "Your local HK handcrafted Kombucha drink\nProbiotic fizzy fermented tea!\n...\n\n\nSee more",
-        "categories": [
-          "Food and drinks company"
+        "username": "taboocha",
+        "name": "Taboocha 大杯茶",
+        "about": "Your local HK handcrafted Kombucha drink\nProbiotic fizzy fermented tea!\n\nLocal. Raw. Healthy. Organic.\n\nwww.taboocha.com ",
+        "category_list": [
+          {
+            "id": "2252",
+            "name": "Food & Beverage Company"
+          }
         ],
-        "email": "orders@taboocha.com"
+        "emails": [
+          "orders@taboocha.com"
+        ],
+        "single_line_address": "16C Wing Hong Centre, 18 Wing Hong St",
+        "website": "http://www.taboocha.com"
       },
       "url": "https://www.facebook.com/taboocha/"
     }

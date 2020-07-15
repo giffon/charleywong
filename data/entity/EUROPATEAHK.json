@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "木衛二香港鑄茶所",
         "id": "1949394238406901",
+        "username": "EUROPATEAHK",
+        "name": "木衛二香港鑄茶所",
         "about": "木衛二：\n是伽利略在木星旁所發現的二號衛星，\n英文取名Europa(歐羅巴)，與歐洲是同一個字根，\n這名子來自於美麗的腓尼基公主，\n都是用來形容美麗的人事物。\n#香港\n#木衛二鑄茶所",
-        "categories": [
-          "Tea Room",
-          "Bubble Tea Shop",
-          "Taiwanese Restaurant"
+        "category_list": [
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          },
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          },
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          }
         ],
-        "addr": "銅鑼灣店：\n香港銅鑼灣怡和街22號地下3號舖\n（正門位於渣甸街綠色小巴站對面）\n電話：+852-36187576\n荃灣店：\n香港荃灣白田壩街45號\n南豐紗廠The Mills 1樓118號舖\n電話：+852-28058108",
-        "area": "Hong Kong",
-        "tel": "28058108"
+        "single_line_address": "銅鑼灣店：\n香港銅鑼灣怡和街22號地下3號舖\n（正門位於渣甸街綠色小巴站對面）\n電話：+852-36187576\n\n荃灣店：\n香港荃灣白田壩街45號\n南豐紗廠The Mills 1樓118號舖\n電話：+852-28058108, Hong Kong"
       },
       "url": "https://www.facebook.com/EUROPATEAHK/"
     },

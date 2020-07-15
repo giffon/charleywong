@@ -6,12 +6,20 @@
   "webpages": [
     {
       "meta": {
+        "id": "180939441970496",
+        "username": "cwacc.org",
+        "name": "IVE(CW) 動漫文化社",
         "about": "香港專業教育學院(柴灣)學生會動漫文化社\nThe Anime Comics Club of the IVE(CW) Students' Union",
-        "categories": [
-          "Non-profit organisation"
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          }
         ],
-        "email": "info@cwacc.org",
-        "id": "180939441970496"
+        "emails": [
+          "info@cwacc.org"
+        ],
+        "website": "https://www.cwacc.org"
       },
       "url": "https://www.facebook.com/cwacc.org/"
     },

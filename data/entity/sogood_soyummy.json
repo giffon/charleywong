@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/100897984606491/",
       "meta": {
-        "name": "SO Good So Yummy",
         "id": "100897984606491",
+        "username": "SoGoodSoYummy.TKT",
+        "name": "So Good So Yummy",
         "about": "我們對烹調認真,努力為我們的顧客做好每一份食物.大家一定要來品嘗,歡迎給予寶貴的意見!",
-        "categories": [
-          "Soul Food Restaurant"
+        "category_list": [
+          {
+            "id": "156757354384541",
+            "name": "Soul Food Restaurant"
+          }
         ],
-        "addr": "大角咀 櫸樹街64號富多來商場二期地下 13號舖",
-        "area": "Kowloon, Hong Kong",
-        "email": "pollyso168@gmail.com",
-        "tel": "64279922"
+        "emails": [
+          "pollyso168@gmail.com"
+        ],
+        "single_line_address": "大角咀 櫸樹街64號富多來商場二期地下 13號舖, Kowloon, Hong Kong"
       }
     },
     {

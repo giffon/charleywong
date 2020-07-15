@@ -6,16 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "Revival Muay Thai & Fitness",
         "id": "1677146435887472",
+        "username": "johnnyngfitness",
+        "name": "Revival Muay Thai & Fitness",
         "about": "Revival Muay Thai & Fitness 鄰近觀塘港鐵站，主要教授各項瘦身泰拳，HIIT, TRX及體能訓練課程。課程以私人訓練 或 以小組形式授課。\n查詢熱線/WhatsApp: 98582896\n#fitness #thaiboxing #gym #slim #kwuntong",
-        "categories": [
-          "Boxing Studio",
-          "Coach",
-          "Gym/Physical Fitness Center"
+        "category_list": [
+          {
+            "id": "1639776363011106",
+            "name": "Boxing Studio"
+          },
+          {
+            "id": "1802",
+            "name": "Coach"
+          },
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          }
         ],
-        "email": "johnnyngfitness@gmail.com",
-        "tel": "98582896"
+        "emails": [
+          "johnnyngfitness@gmail.com"
+        ],
+        "single_line_address": "九龍觀塘鴻圖道70號利安工業大厦3樓B8室"
       },
       "url": "https://www.facebook.com/johnnyngfitness/"
     },

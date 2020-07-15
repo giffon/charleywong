@@ -18,16 +18,21 @@
     {
       "url": "https://www.facebook.com/michirujapedu/",
       "meta": {
-        "name": "美智留日本語教育中心 Michiru Japanese Education Centre",
         "id": "1528984224056648",
+        "username": "michirujapedu",
+        "name": "美智留日本語教育中心 Michiru Japanese Education Centre",
         "about": "美智留日本語教育中心位於土瓜灣，是一家提供小組日語課程（最多6人）的中心，並不時會介紹實用書藉以供預訂。（所有訂書服務每月15號截單，現貨則可立即安排交收）",
-        "categories": [
-          "School"
+        "category_list": [
+          {
+            "id": "2601",
+            "name": "School"
+          }
         ],
-        "addr": "馬頭圍道448號德信商場1樓23號舖",
-        "area": "000 Ma Tau Wai",
-        "email": "info@michirujapedu.com",
-        "tel": "37047789"
+        "emails": [
+          "info@michirujapedu.com"
+        ],
+        "single_line_address": "馬頭圍道448號德信商場1樓23號舖, 000 Ma Tau Wai",
+        "website": "http://www.michirujapedu.com"
       }
     }
   ],

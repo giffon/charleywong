@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/339710730130145/",
       "meta": {
-        "name": "B-Mix Live Music Station & Restaurant",
         "id": "339710730130145",
-        "about": "元朗鳳攸南街9號好順利大廈2座1樓2-3號",
-        "categories": [
-          "Restaurant",
-          "Live Music Venue"
+        "name": "B-Mix Live Music Station & Restaurant",
+        "about": "元朗鳳攸南街9號好順利大廈2座1樓2-3號\n",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "282281972123162",
+            "name": "Live Music Venue"
+          }
         ],
-        "addr": "元朗鳳攸南街9號好順利大廈2座1樓2-3號",
-        "area": "Yuen Long",
-        "tel": "26605997"
+        "single_line_address": "元朗鳳攸南街9號好順利大廈2座1樓2-3號, Yuen Long"
       }
     },
     {

@@ -7,13 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "Naomi's Inflorescence。愉悅花序",
         "id": "1485401985100566",
+        "username": "naomisinflorescence",
+        "name": "Naomi's Inflorescence。愉悅花序",
         "about": "DFA, Florist & Handcrafter",
-        "categories": [
-          "Florist"
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "email": "naomisinflorescence@gmail.com"
+        "emails": [
+          "naomisinflorescence@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/naomisinflorescence/"
     },

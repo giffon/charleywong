@@ -6,52 +6,64 @@
   "webpages": [
     {
       "meta": {
-        "name": "黃金冰室",
         "id": "1813585845561056",
-        "categories": [
-          "Diner"
+        "username": "Goldencafe01290215",
+        "name": "黃金冰室",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "九龍深水埗欽洲街55號地下",
-        "area": "852 Hong Kong",
-        "tel": "28166608"
+        "single_line_address": "九龍深水埗欽洲街55號地下, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/Goldencafe01290215/"
     },
     {
       "meta": {
-        "name": "黃金冰室 石蔭店",
         "id": "107747723971981",
-        "categories": [
-          "Fast Food Restaurant"
+        "username": "20191101goldencafe",
+        "name": "黃金冰室 石蔭店",
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
         ],
-        "tel": "28166660"
+        "single_line_address": "葵涌石蔭路85號至97號光輝樓C，D及E號舖, 00852 Hong Kong"
       },
       "url": "https://www.facebook.com/20191101goldencafe/"
     },
     {
       "meta": {
-        "name": "黃金冰室（北河街店）",
         "id": "202661253823367",
-        "categories": [
-          "Restaurant"
+        "username": "goldencafe02150129",
+        "name": "黃金冰室（北河街店）",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "香港九龍深水埗北河街134-136號銀河大廈B號舖",
-        "area": "852 Hong Kong",
-        "tel": "28166128"
+        "single_line_address": "香港九龍深水埗北河街134-136號銀河大廈B號舖, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/goldencafe02150129/"
     },
     {
       "meta": {
-        "name": "黃金冰室 順寧道店",
         "id": "311118269587251",
-        "categories": [
-          "Business Service",
-          "Tea Room"
+        "name": "黃金冰室 順寧道店",
+        "category_list": [
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          },
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          }
         ],
-        "addr": "九龍深水埗順寧道253-263號地下",
-        "area": "852 Cheung Sha Wan, Hong Kong",
-        "tel": "28166016"
+        "single_line_address": "九龍深水埗順寧道253-263號地下, 852 Cheung Sha Wan, Hong Kong"
       },
       "url": "https://www.facebook.com/311118269587251/"
     }

@@ -7,16 +7,27 @@
     {
       "meta": {
         "id": "807256222660198",
-        "about": "Anurati means Love & Devotion.\nHere provides a platform for everyone to share Yoga, Dance & Arts.\nWelcome to the classes or share what you want here!",
-        "categories": [
-          "Yoga studio",
-          "Dance studio",
-          "Community organisation"
+        "username": "AnuratiYogaDanceArts",
+        "name": "Anurati ・ Cindy Leung",
+        "about": "Anurati means Love & Devotion.\nHere provides a platform for everyone to share Yoga, Dance & Arts. \nWelcome to the classes or share what you want here!",
+        "category_list": [
+          {
+            "id": "174832985894571",
+            "name": "Yoga Studio"
+          },
+          {
+            "id": "203916779633178",
+            "name": "Dance Studio"
+          },
+          {
+            "id": "1215982301785137",
+            "name": "Meditation Center"
+          }
         ],
-        "addr": "Jaffe Building, 9/F, No.6 Cannon Street, CWB",
-        "area": "Causeway Bay",
-        "email": "anuratiyoga@gmail.com",
-        "tel": "51220904"
+        "emails": [
+          "anuratiyoga@gmail.com"
+        ],
+        "single_line_address": "Jaffe Building, 9/F, No.6 Cannon Street, CWB, Causeway Bay"
       },
       "url": "https://www.facebook.com/AnuratiYogaDanceArts/"
     },

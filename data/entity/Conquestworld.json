@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/Conquestworld/",
       "meta": {
-        "name": "征服世界-日本精品玩具專門店",
         "id": "128396827174126",
-        "about": "征服世界-旺角分店:\n九龍旺角通菜街2號鴻光大廈地下B鋪Tel:27830172\n征服世界-銅鑼灣分店:\n香港銅鑼灣霎東街9B號1樓Tel:25732255",
-        "categories": [
-          "Retail Company",
-          "Boutique Store",
-          "Toy Store"
+        "username": "Conquestworld",
+        "name": "征服世界-日本精品玩具專門店",
+        "about": "征服世界-旺角分店:\n九龍旺角通菜街2號鴻光大廈地下B鋪Tel:27830172\n征服世界-銅鑼灣分店:\n香港銅鑼灣霎東街9B號1樓Tel:25732255 ",
+        "category_list": [
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          },
+          {
+            "id": "288846958171402",
+            "name": "Boutique Store"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "旺角通菜街2號鴻光大廈地下B舖",
-        "area": "Hong Kong",
-        "email": "conquestworld1203@yahoo.com.hk",
-        "tel": "27830172"
+        "emails": [
+          "conquestworld1203@yahoo.com.hk"
+        ],
+        "single_line_address": "旺角通菜街2號鴻光大廈地下B舖, Hong Kong",
+        "website": "http://www.conquestworld.net/"
       }
     },
     {

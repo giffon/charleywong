@@ -8,10 +8,14 @@
     {
       "url": "https://www.facebook.com/Kongish.Store/",
       "meta": {
-        "name": "港野雜貨 Kongish Store",
         "id": "109904517290143",
-        "categories": [
-          "Product/Service"
+        "username": "Kongish.Store",
+        "name": "港野雜貨 Kongish Store",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       }
     },

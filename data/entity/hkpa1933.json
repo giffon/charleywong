@@ -11,18 +11,29 @@
     {
       "url": "https://www.facebook.com/hkpa1933/",
       "meta": {
-        "name": "HKPA 香港遊樂場協會",
         "id": "192524737860468",
+        "username": "hkpa1933",
+        "name": "HKPA 香港遊樂場協會",
         "about": "Non-governmental Organization in HK.\nFocus on Youth Work since 1933.\nPeople call us \n#PA #Playground #遊協",
-        "categories": [
-          "Youth Organization",
-          "Non-Governmental Organization (NGO)",
-          "Social Service"
+        "category_list": [
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          },
+          {
+            "id": "178669642178193",
+            "name": "Social Service"
+          },
+          {
+            "id": "181053558607965",
+            "name": "Youth Organization"
+          }
         ],
-        "addr": "130 henessy road wanchai",
-        "area": "Hong Kong",
-        "email": "cct@hkpa.hk",
-        "tel": "25733849"
+        "emails": [
+          "pr@hkpa.hk"
+        ],
+        "single_line_address": "130 henessy road wanchai, Hong Kong",
+        "website": "http://www.hkpa.hk"
       }
     },
     {

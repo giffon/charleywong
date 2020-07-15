@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/goalbadminton/",
       "meta": {
-        "name": "GOAL Badminton 駿領體育",
         "id": "1586754204934825",
-        "about": "駿領體育 - 提供專業羽毛球用品及服務，為顧客尋找合適的球拍，推薦合適的球線及磅數，匠心為顧客提供穿線服務，認真對待每支交負我們的球拍。\n\nLET's GOAL。GOAL SERVICE HERE ！",
-        "categories": [
-          "Outdoor & Sporting Goods Company",
-          "Sports & Recreation"
+        "username": "goalbadminton",
+        "name": "GOAL Badminton 駿領體育",
+        "about": "駿領體育 - 提供專業羽毛球用品及服務，為顧客尋找合適的球拍，推薦合適的球線及磅數，匠心為顧客提供穿線服務，認真對待每支交負我們的球拍。\n\nLET's GOAL。GOAL SERVICE HERE ！ ",
+        "category_list": [
+          {
+            "id": "2231",
+            "name": "Outdoor & Sporting Goods Company"
+          },
+          {
+            "id": "186982054657561",
+            "name": "Sports & Recreation"
+          }
         ],
-        "addr": "香港,元朗,又新街37-51號,又一新城商場,一樓 F65舖",
-        "area": "852 Hong Kong",
-        "email": "letgoalsport@gmail.com",
-        "tel": "66954370"
+        "emails": [
+          "letgoalsport@gmail.com"
+        ],
+        "single_line_address": "香港,元朗,又新街37-51號,又一新城商場,一樓 F65舖, 852 Hong Kong",
+        "website": "https://goalbadminton.business.site/"
       }
     },
     {

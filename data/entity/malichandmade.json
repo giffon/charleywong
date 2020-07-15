@@ -9,14 +9,20 @@
     },
     {
       "meta": {
-        "name": "Malic",
         "id": "232690153437230",
+        "username": "malichandmade",
+        "name": "Malic",
         "about": "Henna artist based in HK. \nOnly using ALL NATURAL homemade henna & jagua\n\nFor any enquires. email : malichandmade@gmail.com",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "malichandmade@gmail.com",
-        "tel": "97368253"
+        "emails": [
+          "malichandmade@gmail.com"
+        ],
+        "website": "http://www.malichandmade.com"
       },
       "url": "https://www.facebook.com/malichandmade/"
     },

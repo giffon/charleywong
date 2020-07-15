@@ -8,16 +8,21 @@
     {
       "url": "https://www.facebook.com/leisurelyveggie/",
       "meta": {
-        "name": "悠蔬食 - Leisurely Veggie",
         "id": "600461683388803",
-        "about": "悠蔬食的特點是融合多國菜式(Fusion) 以及使用新鮮天然食材，帶給您和家人朋友一個全新的蔬食體驗。有多款精緻甜品，滿足所有男女老幼的口味，是家庭或朋友歡聚的好地方。",
-        "categories": [
-          "Vegetarian/Vegan Restaurant",
-          "Asian Fusion Restaurant"
+        "username": "leisurelyveggie",
+        "name": "悠蔬食 - Leisurely Veggie",
+        "about": "悠蔬食的特點是融合多國菜式(Fusion) 以及使用新鮮天然食材，帶給您和家人朋友一個全新的蔬食體驗。有多款精緻甜品，滿足所有男女老幼的口味，是家庭或朋友歡聚的好地方。\n\n\n",
+        "category_list": [
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          },
+          {
+            "id": "174201535963762",
+            "name": "Asian Fusion Restaurant"
+          }
         ],
-        "addr": "No. 18 Yeung Uk Road",
-        "area": "00000 Tsuen Wan, Hong Kong",
-        "tel": "26361808"
+        "single_line_address": "No. 18 Yeung Uk Road, 00000 Tsuen Wan, Hong Kong"
       }
     },
     {

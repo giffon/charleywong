@@ -7,16 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Hungry Dino 為食龍",
         "id": "303096817287150",
+        "username": "hungrydino.hk",
+        "name": "Hungry Dino 為食龍",
         "about": "EAT LIKE A DINOSAUR :",
-        "categories": [
-          "Sushi Restaurant"
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          }
         ],
-        "addr": "銅鑼灣耀華街3號百樂中心G01號鋪",
-        "area": "Causeway Bay",
-        "email": "info@hungry-dino.com",
-        "tel": "35802874"
+        "emails": [
+          "info@hungry-dino.com"
+        ],
+        "single_line_address": "銅鑼灣耀華街3號百樂中心G01號鋪, Causeway Bay"
       },
       "url": "https://www.facebook.com/hungrydino.hk/"
     },

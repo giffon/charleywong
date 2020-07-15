@@ -6,16 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "香港木庫",
         "id": "544565529261397",
+        "username": "HKTIMBERBANK",
+        "name": "香港木庫",
         "about": "香港木庫\n一群熱心的設計師,藝術家及木藝師組成的非政府民企群體，以設計及商業思維積極推動使用回收塌樹再生木材, 以樹木重繫社會。",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "180833545285725",
+            "name": "Carpenter"
+          }
         ],
-        "addr": "元朗朗屏福喜街福喜貨柜場",
-        "area": "000000",
-        "email": "admin@raawstudio.com",
-        "tel": "35978245"
+        "emails": [
+          "admin@raawstudio.com"
+        ],
+        "single_line_address": "元朗朗屏福喜街55 號福喜貨柜場, 000000"
       },
       "url": "https://www.facebook.com/HKTIMBERBANK/"
     },

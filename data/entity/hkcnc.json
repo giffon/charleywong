@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "陳校長免費補習天地",
         "id": "169864346439711",
+        "username": "hkcnc",
+        "name": "陳校長免費補習天地",
         "about": "【陳校長免費補習天地】於2011年4月成立，是香港政府認可的非牟利慈善機構（註冊編號：91/11019)，為有經濟困難的弱勢學童提供完全因材施教的免費一對一補習服務和學習支援。",
-        "categories": [
-          "Nonprofit Organization"
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          }
         ],
-        "email": "info@hkcnc.org.hk",
-        "tel": "36210925"
+        "emails": [
+          "info@hkcnc.org.hk"
+        ],
+        "single_line_address": "​香港九龍長沙灣大南西街609號永義廣場20樓C室",
+        "website": "http://www.hkcnc.org.hk"
       },
       "url": "https://www.facebook.com/hkcnc/"
     }

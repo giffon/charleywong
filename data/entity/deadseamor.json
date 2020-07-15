@@ -17,16 +17,21 @@
     {
       "url": "https://www.facebook.com/deadseamor/",
       "meta": {
-        "name": "DEAD SEA MOR 死海護膚專門店",
         "id": "1569627566620260",
+        "username": "deadseamor",
+        "name": "DEAD SEA MOR 死海護膚專門店",
         "about": "歡迎親臨門市選購：\n\n專門店:\n荃灣楊屋道1號 荃新天地1期1樓130鋪\n\n網店:www.deadseamor.com",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care"
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "addr": "荃灣楊屋道1號荃新天地1期1樓130號鋪",
-        "area": "Hong Kong",
-        "email": "info@deadseamor.com",
-        "tel": "92568988"
+        "emails": [
+          "info@deadseamor.com"
+        ],
+        "single_line_address": "荃灣楊屋道1號荃新天地1期1樓130號鋪, Hong Kong",
+        "website": "https://www.deadseamor.com/"
       }
     }
   ],

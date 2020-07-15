@@ -6,18 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "Blacksmith Store",
         "id": "724310931050290",
-        "about": "Coffee , Tea , Art exhibition",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant",
-          "Tea Room"
+        "username": "blacksmithcoffeeshop",
+        "name": "Blacksmith Store",
+        "about": "Coffee , Tea , Art exhibition ",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          }
         ],
-        "addr": "No.17, See Cheung Street , Sai Kung , NT",
-        "area": "Sai Kung",
-        "email": "blacksmithcoffeeshop@gmail.com",
-        "tel": "23530039"
+        "emails": [
+          "blacksmithcoffeeshop@gmail.com"
+        ],
+        "single_line_address": "No.17, See Cheung Street , Sai Kung , NT, Sai Kung"
       },
       "url": "https://www.facebook.com/blacksmithcoffeeshop/"
     },

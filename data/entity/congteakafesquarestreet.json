@@ -7,16 +7,22 @@
   "webpages": [
     {
       "meta": {
-        "name": "Congteakafe 茶咖宅",
         "id": "1869150173331019",
+        "username": "congteakafesquarestreet",
+        "name": "Congteakafe 茶咖宅",
         "about": "Hong Kong Style Cafe\nHK milk tea VS Expresso base coffee\nHK tea set VS Classic All day breakfast\nEveryone can find your own love here\nPrivate Party Welcome",
-        "categories": [
-          "Cafe",
-          "Hong Kong Restaurant"
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
         ],
-        "addr": "G/F, 24 Square Street,",
-        "area": "Sheung Wan",
-        "tel": "98555146"
+        "single_line_address": "G/F, 24 Square Street,, Sheung Wan",
+        "website": "http://fb.me/congteakafesquarestreet"
       },
       "url": "https://www.facebook.com/congteakafesquarestreet/"
     }

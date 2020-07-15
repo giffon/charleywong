@@ -6,14 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Miss Summer",
         "id": "108831813422",
-        "about": "Handcrafted floral accessories for those with dreams in head.",
-        "categories": [
-          "Jewelry/Watches",
-          "Accessories"
+        "username": "lolitasummer",
+        "name": "Miss Summer",
+        "about": "Handcrafted floral accessories for those with dreams in head. \n",
+        "category_list": [
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          },
+          {
+            "id": "185127444860544",
+            "name": "Accessories"
+          }
         ],
-        "email": "miss.summer.shop@gmail.com"
+        "emails": [
+          "miss.summer.shop@gmail.com"
+        ],
+        "website": "http://instagram.com/lolitasummer/"
       },
       "url": "https://www.facebook.com/lolitasummer/"
     },

@@ -11,15 +11,21 @@
     {
       "url": "https://www.facebook.com/BiuKeeLokYuen/",
       "meta": {
-        "name": "標記樂園潮州粉麵菜館 Biu Kee Lok Yuen Chiu Chau Restaurant",
         "id": "182454958462004",
+        "username": "BiuKeeLokYuen",
+        "name": "標記樂園潮州粉麵菜館 Biu Kee Lok Yuen Chiu Chau Restaurant",
         "about": "三十年老字號 正宗潮州打冷 家鄉小炒\n訂座電話:62433843",
-        "categories": [
-          "Cantonese Restaurant"
+        "category_list": [
+          {
+            "id": "214976388519648",
+            "name": "Cantonese Restaurant"
+          }
         ],
-        "addr": "旺角通菜街12-14號舖",
-        "area": "Mong Kok",
-        "tel": "62433843"
+        "emails": [
+          "chaklamwong@gmail.com"
+        ],
+        "single_line_address": "旺角通菜街12-14號舖, Mong Kok",
+        "website": "http://biukeelokyuen.business.site/"
       }
     }
   ],

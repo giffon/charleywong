@@ -14,15 +14,24 @@
     {
       "url": "https://www.facebook.com/shiningbrows/",
       "meta": {
-        "name": "Shining Brows",
         "id": "357938218358916",
+        "username": "shiningbrows",
+        "name": "Shining Brows",
         "about": "韓式半永久化妝技術\n純手工飄眉、霧眉，角蛋白睫毛\n榮獲第13屆韓國IFBC國際美容藝術大賽大獎\n選用韓國／德國天然植物色料\n如有任何問題，歡迎大家查詢😊\n📲WhatsApp : +852 60176653",
-        "categories": [
-          "Health/Beauty",
-          "Beauty, Cosmetic & Personal Care"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "email": "shiningbrowshk@gmail.com",
-        "tel": "60176653"
+        "emails": [
+          "shiningbrowshk@gmail.com"
+        ],
+        "website": "https://www.instagram.com/shiningbrows/"
       }
     }
   ],

@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Sole Fete",
         "id": "940207859646419",
+        "username": "sole.fete",
+        "name": "Sole Fete",
         "about": "Hong Kong Partyroom",
-        "categories": [
-          "Event",
-          "Just For Fun"
+        "category_list": [
+          {
+            "id": "192119584190796",
+            "name": "Event"
+          },
+          {
+            "id": "129417183848258",
+            "name": "Just For Fun"
+          }
         ],
-        "addr": "葵涌, 藍田街",
-        "area": "Hong Kong",
-        "tel": "98440974"
+        "single_line_address": "葵涌, 藍田街, Hong Kong"
       },
       "url": "https://www.facebook.com/sole.fete/"
     },

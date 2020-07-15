@@ -6,13 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "We Bakery - 香港手作蛋糕訂造",
         "id": "317180652085366",
+        "username": "webakery.hk",
+        "name": "We Bakery - 香港手作蛋糕訂造",
         "about": "疫情緣故 短期內有限度接單",
-        "categories": [
-          "Cupcake Shop",
-          "Bakery"
-        ]
+        "category_list": [
+          {
+            "id": "325310894151007",
+            "name": "Cupcake Shop"
+          },
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          }
+        ],
+        "website": "http://bit.ly/WhatsAppWeBakery"
       },
       "url": "https://www.facebook.com/webakery.hk/"
     },

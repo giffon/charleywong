@@ -10,15 +10,24 @@
     {
       "url": "https://www.facebook.com/ocheflab/",
       "meta": {
-        "name": "O chef lab",
         "id": "792161637796997",
-        "about": "#香港人 #有粥食粥 #有飯食飯\n\n優惠期間，每張網上訂單，送新潟越光米即食飯包兩包飯及兩包新潟越光米即食粥包。",
-        "categories": [
-          "Product/Service",
-          "Kitchen/Cooking"
+        "username": "ocheflab",
+        "name": "O chef lab",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          }
         ],
-        "email": "info@ocheflab.com",
-        "tel": "90111661"
+        "emails": [
+          "info@ocheflab.com"
+        ],
+        "single_line_address": "Workshop A, 21/F Derrick Industrial Building, 49 Wong Chuk Hang Road, Hong Kong",
+        "website": "Www.ocheflab.com"
       }
     },
     {

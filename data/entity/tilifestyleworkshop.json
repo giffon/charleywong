@@ -6,13 +6,27 @@
   "webpages": [
     {
       "meta": {
-        "about": "Ti Lifestyle workshop\n店長紹介 ～～\n香港ローカル手作り職人、木製品のデザイナ ー TIさん自らが材料を厳選してひとつひとつ製作。\n『リラックス・ライフスタイル』を主張するストライプ柄を",
-        "categories": [
-          "Product/service",
-          "Picnic ground",
-          "Camp site"
+        "id": "1010341322444497",
+        "username": "tilifestyleworkshop",
+        "name": "T.i-Lifestyle Workshop",
+        "about": "Ti Lifestyle workshop\n店長紹介 ～～ \n香港ローカル手作り職人、木製品のデザイナ ー TIさん自らが材料を厳選してひとつひとつ製作。\n『リラックス・ライフスタイル』を主張するストライプ柄を",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "200597389954350",
+            "name": "Picnic Ground"
+          },
+          {
+            "id": "187004854667366",
+            "name": "Campground"
+          }
         ],
-        "id": "1010341322444497"
+        "emails": [
+          "ti.keung@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/tilifestyleworkshop/"
     }

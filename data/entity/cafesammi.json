@@ -7,17 +7,27 @@
   "webpages": [
     {
       "meta": {
-        "name": "Cafe Sammi 森美餐廳",
         "id": "295177280942546",
-        "categories": [
-          "Cafe",
-          "New American Restaurant",
-          "Breakfast & Brunch Restaurant"
+        "username": "cafesammi",
+        "name": "Cafe Sammi 森美餐廳",
+        "category_list": [
+          {
+            "id": "110107385737667",
+            "name": "New American Restaurant"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          }
         ],
-        "addr": "Shop A-2, G/F, Waldorf Center, 178-184 Sai Lau Kok Road, Tsuen Wan",
-        "area": "518000 Tsuen Wan, Hong Kong",
-        "email": "thecafesammi@gmail.com",
-        "tel": "24147177"
+        "emails": [
+          "thecafesammi@gmail.com"
+        ],
+        "single_line_address": "Shop A-2, G/F, Waldorf Center, 178-184 Sai Lau Kok Road, Tsuen Wan, 518000 Tsuen Wan, Hong Kong"
       },
       "url": "https://www.facebook.com/cafesammi/"
     },

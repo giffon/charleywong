@@ -6,16 +6,23 @@
   "webpages": [
     {
       "meta": {
-        "name": "Infinity Workshop Cafe",
         "id": "1159296167414599",
-        "categories": [
-          "Continental Restaurant",
-          "Coffee Shop"
+        "username": "InfinityWorkshopCafe",
+        "name": "Infinity Workshop Cafe",
+        "category_list": [
+          {
+            "id": "197227066968500",
+            "name": "Continental Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "The 5th Floor Of Dundas Square 43h Dundas Street Mongkok Kowloon",
-        "area": "Hong Kong",
-        "email": "infinitywscafe@gmail.com",
-        "tel": "39569117"
+        "emails": [
+          "infinitywscafe@gmail.com"
+        ],
+        "single_line_address": "The 5th Floor Of Dundas Square 43h Dundas Street Mongkok Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/InfinityWorkshopCafe/"
     },

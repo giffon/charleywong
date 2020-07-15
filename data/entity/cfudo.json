@@ -9,15 +9,18 @@
     },
     {
       "meta": {
-        "name": "師傅到手機維修專門店",
         "id": "490435747789007",
+        "username": "cfudo",
+        "name": "師傅到手機維修專門店",
         "about": "手機維修專門店! 好憎讀書叻的人類 所以現推出*GPA*越低整機越平的優惠! \n特設上門維修 港九新界 務求令到工作繁忙嘅你 喺公司或屋企 郁都唔使郁 就可以令壞嘅手機重生😎😜\nhttps://www.facebook",
-        "categories": [
-          "Mobile Phone Shop"
+        "category_list": [
+          {
+            "id": "210979565595898",
+            "name": "Mobile Phone Shop"
+          }
         ],
-        "addr": "旺角彌敦道608號總統商業大廈(W PLAZA) 2樓202號鋪",
-        "area": "Hong Kong",
-        "tel": "64639691"
+        "single_line_address": "旺角彌敦道608號總統商業大廈(W PLAZA) 2樓202號鋪, Hong Kong",
+        "website": "https://cfudo.com"
       },
       "url": "https://www.facebook.com/cfudo/"
     },

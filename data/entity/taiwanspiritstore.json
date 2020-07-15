@@ -11,14 +11,20 @@
     {
       "url": "https://www.facebook.com/taiwanspiritstore/",
       "meta": {
-        "name": "Taiwan Spirit 台灣魂",
         "id": "1015791345280826",
+        "username": "taiwanspiritstore",
+        "name": "Taiwan Spirit 台灣魂",
         "about": "一群熱愛台灣的香港人，希望把台灣最好的、最新鮮的帶到香港。所有產品由台灣產地直送，全部特供級數，保證絕對新鮮，絕對高質！",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "contact@taiwanspirit.com",
-        "tel": "57443361"
+        "emails": [
+          "contact@taiwanspirit.com"
+        ],
+        "website": "https://taiwanspirit.com"
       }
     },
     {

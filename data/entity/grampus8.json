@@ -7,14 +7,16 @@
     {
       "url": "https://www.facebook.com/grampus8/",
       "meta": {
-        "name": "八鯨料理",
         "id": "181123285269268",
-        "categories": [
-          "Sushi Restaurant"
+        "username": "grampus8",
+        "name": "八鯨料理",
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          }
         ],
-        "addr": "安泰路大埔廣場地鋪57號",
-        "area": "Tai Po Industrial Estate",
-        "tel": "26650997"
+        "single_line_address": "安泰路大埔廣場地鋪57號, Tai Po Industrial Estate"
       }
     }
   ],

@@ -6,12 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "about": "店主 Elisa 本身是一位平面設計師，她結合了西洋書法技巧和平面設計，創作出簡潔而獨特的婚帖產品。店主相信西洋書法能夠創造獨特的文字氛圍，傳遞一種與眾不同的溫柔。",
-        "categories": [
-          "Product/service"
+        "id": "1948550912069487",
+        "username": "moonnbackcalligraphy",
+        "name": "Moon & Back Calligraphy",
+        "about": "Moon & Back Calligraphy 是一間以西洋書法製作手作禮物的小店。",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "email": "moonnbackcalligraphy@gmail.com",
-        "id": "1948550912069487"
+        "emails": [
+          "moonnbackcalligraphy@gmail.com"
+        ],
+        "website": "www.mnbcalligraphy.com"
       },
       "url": "https://www.facebook.com/moonnbackcalligraphy/"
     }

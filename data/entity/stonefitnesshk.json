@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/stonefitnesshk/",
       "meta": {
-        "name": "Stone Fitness Studio",
         "id": "346472518860585",
+        "username": "stonefitnesshk",
+        "name": "Stone Fitness Studio",
         "about": "Stone Fitness 位於北區，是上水粉嶺—間泰拳瑜珈健身運動中心，設有HIIT，跳舞班，瑜珈班，健身課程等。\n\n我們旨在為你提供多元化課程和⼀個舒適的環境，在專業導師的指導下，讓你感受到各",
-        "categories": [
-          "Yoga Studio",
-          "Batting Cage",
-          "Stadium, Arena & Sports Venue"
+        "category_list": [
+          {
+            "id": "174832985894571",
+            "name": "Yoga Studio"
+          },
+          {
+            "id": "199544366729511",
+            "name": "Batting Cage"
+          },
+          {
+            "id": "109976259083543",
+            "name": "Stadium, Arena & Sports Venue"
+          }
         ],
-        "addr": "32 lung sum ave",
-        "area": "sheung shui Sheung Shui",
-        "email": "stoneprofitness@gmail.com",
-        "tel": "91615053"
+        "emails": [
+          "stoneprofitness@gmail.com"
+        ],
+        "single_line_address": "32 lung sum ave, sheung shui Sheung Shui",
+        "website": "http://www.stonefitness.com.hk/"
       }
     },
     {

@@ -7,13 +7,25 @@
   "webpages": [
     {
       "meta": {
-        "about": "在太陽底下，做溫暖的事。\n\n/ 藝術計劃 / 設計 / 插畫 / 壁畫 / 環境設計 /",
-        "categories": [
-          "Graphic designer",
-          "Visual arts"
+        "id": "718819308301009",
+        "username": "sunofficehk",
+        "name": "太陽事務 Sun Office",
+        "about": "在太陽底下，做溫暖的事。\n\n/ 藝術計劃 / 設計 / 插畫 / 壁畫 / 環境設計 / ",
+        "category_list": [
+          {
+            "id": "162183907165552",
+            "name": "Graphic Designer"
+          },
+          {
+            "id": "1080612391976317",
+            "name": "Visual Arts"
+          }
         ],
-        "email": "sunofficehk@gmail.com",
-        "id": "718819308301009"
+        "emails": [
+          "sunofficehk@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://sunofficehk.com"
       },
       "url": "https://www.facebook.com/sunofficehk/"
     },

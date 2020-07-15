@@ -10,16 +10,21 @@
     },
     {
       "meta": {
-        "name": "Floral Rendezvous 花滙",
         "id": "349813118508134",
+        "username": "floral.rendez",
+        "name": "Floral Rendezvous 花滙",
         "about": "splendid floral experience at friendly pricing",
-        "categories": [
-          "Florist"
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "addr": "Unit 1126, 11/F, Bamboos Centre, 52 Hung To Road, Kwun Tong, Hong Kong",
-        "area": "Hong Kong",
-        "email": "floral.rendez@gmail.com",
-        "tel": "93394183"
+        "emails": [
+          "floral.rendez@gmail.com"
+        ],
+        "single_line_address": "Unit 1126, 11/F, Bamboos Centre, 52 Hung To Road, Kwun Tong, Hong Kong, Hong Kong",
+        "website": "http://www.floral-rendez.com"
       },
       "url": "https://www.facebook.com/floral.rendez/"
     },

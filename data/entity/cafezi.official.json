@@ -7,15 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "梔子 Zi",
         "id": "792592420892430",
-        "categories": [
-          "Coffee Shop"
+        "username": "cafezi.official",
+        "name": "梔子 Zi",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "山林道 8 號",
-        "area": "Tsim Sha Tsui",
-        "email": "cafezi.official@gmail.com",
-        "tel": "27781628"
+        "emails": [
+          "cafezi.official@gmail.com"
+        ],
+        "single_line_address": "山林道 8 號, Tsim Sha Tsui"
       },
       "url": "https://www.facebook.com/cafezi.official/"
     },

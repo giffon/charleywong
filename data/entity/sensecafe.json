@@ -7,17 +7,23 @@
     {
       "url": "https://www.facebook.com/399018096836748/",
       "meta": {
-        "name": "Sense Cafe",
         "id": "399018096836748",
+        "name": "Sense Cafe",
         "about": "白加士街56號凱豪商業大廈1/F",
-        "categories": [
-          "Dessert Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "1/f, Royal Commerical Centre, no.56 Parkes Street, Jordan, Kowloon",
-        "area": "+852 28860949 Kowloon, Hong Kong",
-        "email": "sensecafehk@hotmail.com",
-        "tel": "28860949"
+        "emails": [
+          "sensecafehk@hotmail.com"
+        ],
+        "single_line_address": "1/f, Royal Commerical Centre, no.56 Parkes Street, Jordan, Kowloon, +852 28860949 Kowloon, Hong Kong"
       }
     },
     {

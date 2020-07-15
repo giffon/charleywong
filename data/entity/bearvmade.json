@@ -6,11 +6,16 @@
   "webpages": [
     {
       "meta": {
+        "id": "390459458202915",
+        "username": "bearvmade",
+        "name": "V Made",
         "about": "回歸手作包的初心，因需求而製作。",
-        "categories": [
-          "Product/service"
-        ],
-        "id": "390459458202915"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
+        ]
       },
       "url": "https://www.facebook.com/bearvmade/"
     }

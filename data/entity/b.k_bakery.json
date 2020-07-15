@@ -6,14 +6,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "B.K Bakery",
         "id": "101671684666197",
-        "about": "小店主打 全 手工法式蛋糕�同手工曲奇�\n全部材料主要都黎自日本�法國�\n絕不使用中國�烘焙材料\n如需訂蛋糕請direct or fb inbox\n\n光復香港 時代革命!",
-        "categories": [
-          "Shopping & Retail"
+        "name": "B.K Bakery",
+        "about": "小店主打 全 手工法式蛋糕�同手工曲奇�\n原材料均來自:日本�法國�\n我地制既甜品 主要以低糖、少油為主�\n如需訂蛋糕請direct or fb inbox",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong"
+        "single_line_address": "Hong Kong"
       },
       "url": "https://www.facebook.com/101671684666197/"
     },

@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/yogadreams.hk/",
       "meta": {
-        "name": "Yoga Dreams",
         "id": "117904571920224",
+        "username": "yogadreams.hk",
+        "name": "Yoga Dreams",
         "about": "Yoga Dreams 環境舒適，讓身心得而平靜下練習瑜伽，還設有以下班別：\n日月瑜伽- Hatha Yoga\n修身瑜伽- Slim Yoga\n孕婦瑜伽- Prenatal Yoga\n親子瑜伽- Family Yoga\n空中瑜伽- Aerial Yoga\n團體班- Group Class",
-        "categories": [
-          "Yoga Studio"
+        "category_list": [
+          {
+            "id": "174832985894571",
+            "name": "Yoga Studio"
+          }
         ],
-        "addr": "屯門中央廣場 2610 室",
-        "area": "Hong Kong",
-        "email": "yogadreamshk@gmail.com",
-        "tel": "51849813"
+        "emails": [
+          "yogadreamshk@gmail.com"
+        ],
+        "single_line_address": "屯門中央廣場 2610 室, Hong Kong"
       }
     }
   ],

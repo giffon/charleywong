@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/syllaflorist/",
       "meta": {
-        "name": "Sylla Flower",
         "id": "248095928976526",
+        "username": "syllaflorist",
+        "name": "Sylla Flower",
         "about": "Seasonal bouquets and flower arrangements made-to-order all year round.",
-        "categories": [
-          "Florist"
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "addr": "Hong Kong",
-        "area": "Tai Kok Tsu, Hong Kong",
-        "email": "busessylla@gmail.com",
-        "tel": "91053226"
+        "emails": [
+          "busessylla@gmail.com"
+        ],
+        "single_line_address": "Hong Kong, Tai Kok Tsu, Hong Kong",
+        "website": "http://www.syllaflower.com"
       }
     },
     {

@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "地道館車仔麵",
         "id": "651861418307982",
+        "name": "地道館車仔麵",
         "about": "香港人加油",
-        "categories": [
-          "Diner",
-          "Hong Kong Restaurant",
-          "Deli"
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          },
+          {
+            "id": "188334264523313",
+            "name": "Deli"
+          }
         ],
-        "addr": "新蒲崗崇齡街42號地下",
-        "area": "Kowloon, Hong Kong",
-        "tel": "52177008"
+        "single_line_address": "新蒲崗崇齡街42號地下, Kowloon, Hong Kong",
+        "website": "https://deliveroo.hk/menu/hong-kong/mong-kok/local-house-mk"
       },
       "url": "https://www.facebook.com/651861418307982/"
     },

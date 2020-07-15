@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/bondslearning/",
       "meta": {
-        "name": "Bonds Learning Centre",
         "id": "383917658358365",
+        "username": "bondslearning",
+        "name": "Bonds Learning Centre",
         "about": "免費教學專頁，定期提供考試資訊，令您可以在考試集中火力，一擊即中！",
-        "categories": [
-          "Test Preparation Center",
-          "High School"
+        "category_list": [
+          {
+            "id": "191914921205687",
+            "name": "Test Preparation Center"
+          },
+          {
+            "id": "110152272401235",
+            "name": "High School"
+          }
         ],
-        "addr": "6/F On Yip Commercial Building, 395 Shanghai Street",
-        "area": "Hong Kong",
-        "email": "bondslearning@gmail.com",
-        "tel": "34210904"
+        "emails": [
+          "bondslearning@gmail.com"
+        ],
+        "single_line_address": "6/F On Yip Commercial Building, 395 Shanghai Street, Hong Kong",
+        "website": "http://www.bondslearning.edu.hk"
       }
     },
     {

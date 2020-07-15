@@ -6,15 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "name": "Gimmick Easy",
         "id": "265111081065047",
+        "username": "GimmickEasy",
+        "name": "Gimmick Easy",
         "about": "我地呢班打工仔，識得慳！又識歎！",
-        "categories": [
-          "Just For Fun",
-          "Shopping & Retail",
-          "Internet Marketing Service"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "1706730532910578",
+            "name": "Internet Marketing Service"
+          },
+          {
+            "id": "129417183848258",
+            "name": "Just For Fun"
+          }
         ],
-        "email": "cs@gimmickbox.com.hk"
+        "emails": [
+          "enquiry@gimmickbox.com.hk"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "www.GimmickEasy.com"
       },
       "url": "https://www.facebook.com/GimmickEasy/"
     },

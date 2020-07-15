@@ -10,14 +10,21 @@
     {
       "url": "https://www.facebook.com/hk.sisdiamond/",
       "meta": {
-        "name": "SIS Diamond",
         "id": "850003085073043",
+        "username": "hk.sisdiamond",
+        "name": "SIS Diamond",
         "about": "SIS Diamond 是專為男士而設的網上鑽石鑽石商。我們完全明白男士對以實惠價錢，覓得大方得體、價格宜人、性價比高鑽石的渴望。我們站於同樣立場，以男視角度向您提供最乎合要求的鑽石。",
-        "categories": [
-          "Jewelry/Watches"
+        "category_list": [
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          }
         ],
-        "email": "info@sisdiamond.com",
-        "tel": "23338696"
+        "emails": [
+          "info@sisdiamond.com"
+        ],
+        "single_line_address": "觀塘巧明街94號鴻圖中心6樓636室, Hong Kong",
+        "website": "http://www.sisdiamond.com"
       }
     },
     {

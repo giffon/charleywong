@@ -6,14 +6,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "海雲台",
         "id": "907203776279040",
-        "categories": [
-          "Korean Restaurant"
+        "username": "Coastline.hk",
+        "name": "海雲台",
+        "category_list": [
+          {
+            "id": "150896171638138",
+            "name": "Korean Restaurant"
+          }
         ],
-        "addr": "G/F, 45 San Hing Street, Cheung Chau",
-        "area": "0000 Cheung Chau, Hong Kong",
-        "tel": "29818330"
+        "single_line_address": "G/F, 45 San Hing Street, Cheung Chau, 0000 Cheung Chau, Hong Kong"
       },
       "url": "https://www.facebook.com/Coastline.hk/"
     },

@@ -6,15 +6,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "万視屋健ちゃん",
         "id": "962674510506955",
+        "name": "万視屋健ちゃん",
         "about": "特價眼鏡、隱形眼鏡，做到抗通脹\n可即場用自身眼鏡度數或自己帶度數佩鏡片",
-        "categories": [
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "深水埗西九龍中心5樓K316號鋪",
-        "area": "Kowloon, Hong Kong",
-        "tel": "96571576"
+        "single_line_address": "深水埗西九龍中心5樓K316號鋪, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/962674510506955/"
     },

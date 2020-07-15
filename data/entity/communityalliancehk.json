@@ -8,13 +8,19 @@
     {
       "url": "https://www.facebook.com/communityalliancehk/",
       "meta": {
-        "name": "區政聯盟 Community Alliance",
         "id": "1333074916846609",
+        "username": "communityalliancehk",
+        "name": "區政聯盟 Community Alliance",
         "about": "區政聯盟於2019年5月30日成立，我們是一群有地區經驗的民主派，多年來扎根地區，深耕細作，寸土必爭。",
-        "categories": [
-          "Political Organization"
+        "category_list": [
+          {
+            "id": "373543049350668",
+            "name": "Political Organization"
+          }
         ],
-        "email": "cahk.sec@gmail.com"
+        "emails": [
+          "cahk.sec@gmail.com"
+        ]
       }
     }
   ],

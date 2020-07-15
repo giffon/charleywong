@@ -10,17 +10,25 @@
     },
     {
       "meta": {
-        "name": "Lost Escape 迷逃 - 鬼屋密室",
         "id": "429154707182194",
-        "about": "電話 : 34610284 Whatsapp: 61826646 \n地址：旺角彌敦道566-568號僑建大廈8樓568室\n(港鐵油麻地站A2出口與潮流特區中間)\n網址 : http://www.lostescape.com",
-        "categories": [
-          "Party Entertainment Service",
-          "Escape Game Room"
+        "username": "LostEscape",
+        "name": "Lost Escape 迷逃 - 鬼屋密室",
+        "about": "電話 : 34610284 Whatsapp: 61826646 \n地址：旺角彌敦道566-568號僑建大廈8樓568室\n(港鐵油麻地站A2出口與潮流特區中間)\n網址 : http://www.lostescape.com \n",
+        "category_list": [
+          {
+            "id": "1226193487405097",
+            "name": "Escape Game Room"
+          },
+          {
+            "id": "189334414420898",
+            "name": "Party Entertainment Service"
+          }
         ],
-        "addr": "No.568 Nathan Road, Yau Ma Tei, Hong Kong",
-        "area": "852 Yau Ma Tei",
-        "email": "lostescape.hk@gmail.com",
-        "tel": "34610284"
+        "emails": [
+          "lostescape.hk@gmail.com"
+        ],
+        "single_line_address": "No.568 Nathan Road, Yau Ma Tei, Hong Kong, 852 Yau Ma Tei",
+        "website": "http://www.lostescape.com"
       },
       "url": "https://www.facebook.com/LostEscape/"
     },

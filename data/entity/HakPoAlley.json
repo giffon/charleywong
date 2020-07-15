@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/HakPoAlley/",
       "meta": {
-        "name": "黑布小巷",
         "id": "105399514217878",
-        "about": "黑布小巷主打自家制台灣特色小食\n三色芋圓糖水, 肉蛋吐司, 咸蛋肉鬆芋泥球, 地瓜球",
-        "categories": [
-          "Taiwanese Restaurant",
-          "Dessert Shop"
+        "username": "HakPoAlley",
+        "name": "黑布小巷",
+        "about": "黑布小巷主打自家制台灣特色小食\n三色芋圓糖水, 肉蛋吐司, 咸蛋肉鬆芋泥球, 地瓜球\n\n",
+        "category_list": [
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "旺角黑布街104號利豐大廈地下D號鋪",
-        "area": "Hong Kong",
-        "tel": "92287113"
+        "single_line_address": "旺角黑布街104號利豐大廈地下D號鋪, Hong Kong"
       }
     },
     {

@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/DrKuVet/",
       "meta": {
-        "name": "太子獸醫主治醫師古道的免費諮詢",
         "id": "292106740856365",
+        "username": "DrKuVet",
+        "name": "太子獸醫主治醫師古道的免費諮詢",
         "about": "Dr. Ku's Free Veterinary Consultation",
-        "categories": [
-          "Veterinarian"
+        "category_list": [
+          {
+            "id": "162068413843305",
+            "name": "Veterinarian"
+          }
         ],
-        "addr": "75 Lai Chi Kok road, Prince Edward",
-        "area": "Hong Kong",
-        "email": "douglas.ku@gmail.com",
-        "tel": "23808408"
+        "emails": [
+          "douglas.ku@gmail.com"
+        ],
+        "single_line_address": "75 Lai Chi Kok road, Prince Edward, Hong Kong",
+        "website": "http://blog.xuite.net/sword_flying/twblog"
       }
     }
   ],

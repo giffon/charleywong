@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/c.burgerhk/",
       "meta": {
-        "name": "C+ Burger",
         "id": "724356304610980",
+        "username": "c.burgerhk",
+        "name": "C+ Burger",
         "about": "•| 自家製漢堡 | • Homemade Burgers |•  漢堡小店 | •\n•|每日新鮮製造 | • 即叫即整 | • Cooked to order |•",
-        "categories": [
-          "Burger Restaurant"
+        "category_list": [
+          {
+            "id": "187425207958280",
+            "name": "Burger Restaurant"
+          }
         ],
-        "addr": "西環西營盤第三街168-170號水街10C地下6號鋪",
-        "area": "+852 Hong Kong",
-        "email": "c.burger0101@gmail.com",
-        "tel": "60108431"
+        "emails": [
+          "c.burger0101@gmail.com"
+        ],
+        "single_line_address": "西環西營盤第三街168-170號水街10C地下6號鋪, +852 Hong Kong"
       }
     },
     {

@@ -7,16 +7,22 @@
     {
       "url": "https://www.facebook.com/FRIENDSHIPHOUSETAIWAI/",
       "meta": {
-        "name": "友酒棧台式火鍋專門店",
         "id": "2224018387885119",
+        "username": "FRIENDSHIPHOUSETAIWAI",
+        "name": "友酒棧台式火鍋專門店",
         "about": "台式火鍋用心製作,挑戰你的味蕾,帶您進入火鍋角度\n作為人氣專業的台式火鍋刺身專門店，火鍋煮場用心製作──大廚團隊精心炮製的特式鍋底，由濃至淡、素食到海鮮、多款肉類秘製鍋底都有",
-        "categories": [
-          "Hot Pot Restaurant",
-          "Diner"
+        "category_list": [
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "大圍村南道81號麗星樓地下A鋪",
-        "area": "Hong Kong",
-        "tel": "52403976"
+        "single_line_address": "大圍村南道81號麗星樓地下A鋪, Hong Kong",
+        "website": "https://www.facebook.com/FRIENDSHIPHOUSETAIWAI/?modal=admin_todo_tour"
       }
     }
   ],

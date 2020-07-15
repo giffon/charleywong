@@ -10,38 +10,51 @@
     {
       "url": "https://www.facebook.com/sushi37047177/",
       "meta": {
-        "name": "御品·千之味",
         "id": "321559594846142",
-        "about": "營業時間12:00-23:00\n\n訂位whatapp 93885690",
-        "categories": [
-          "Food & Beverage Company"
+        "username": "sushi37047177",
+        "name": "御品·千之味",
+        "about": "營業時間12:00-23:00\n\n訂位whatapp 93885690\n",
+        "category_list": [
+          {
+            "id": "2252",
+            "name": "Food & Beverage Company"
+          }
         ],
-        "tel": "37047177"
+        "single_line_address": "深水埗（地鐵站a2出口)荔枝角道390號地下C鋪（深水埗警置對面）",
+        "website": "http://www.oi-shi-sushi.com"
       }
     },
     {
       "url": "https://www.facebook.com/1421717404582231/",
       "meta": {
-        "name": "千之味刺身壽司外賣專門店",
         "id": "1421717404582231",
+        "name": "千之味刺身壽司外賣專門店",
         "about": "地址：大圍海福花園商場31-c1鋪\n電話：2698 4343",
-        "categories": [
-          "Kitchen/Cooking"
+        "category_list": [
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          }
         ]
       }
     },
     {
       "meta": {
-        "name": "千之味刺身壽司專門店",
         "id": "388878351125444",
+        "username": "sushi93885690",
+        "name": "千之味刺身壽司專門店",
         "about": "大小派對首撰，全港首間壽司蛋糕外賣專門店。\n只需whatapp落單即可送到手上\n超過百種刺身壽司及和食提供\n凡購滿$300起可免費外送各區\n訂座或查詢可以whatsapp 到93885690",
-        "categories": [
-          "Sushi Restaurant"
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          }
         ],
-        "addr": "深水埗荔枝角道390號地下C鋪",
-        "area": "Hong Kong",
-        "email": "sushi93885690@gmail.com",
-        "tel": "93885690"
+        "emails": [
+          "sushi93885690@gmail.com"
+        ],
+        "single_line_address": "深水埗荔枝角道390號地下C鋪, Hong Kong",
+        "website": "https://www.oi-shi-sushi.com/shop"
       },
       "url": "https://www.facebook.com/sushi93885690/"
     },

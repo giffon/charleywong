@@ -7,13 +7,21 @@
     {
       "url": "https://www.facebook.com/noisyMAG4K/",
       "meta": {
-        "name": "嘈爆聯盟 by MAG4K",
         "id": "108975043984671",
+        "username": "noisyMAG4K",
+        "name": "嘈爆聯盟 by MAG4K",
         "about": "<嘈爆聯盟>係點誕生？故事由來小編某日到屋企對面買外賣時發現後巷有位沒戴口罩靠執拾紙皮維生嘅老伯伯望住堆垃圾口罩，於是給了幾個口罩他而引發其他6位手足們自發創造此聯盟。",
-        "categories": [
-          "Nonprofit Organization",
-          "Community"
-        ]
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
+        ],
+        "single_line_address": "嘈爆咁周圍走"
       }
     }
   ],

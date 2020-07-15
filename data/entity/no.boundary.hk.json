@@ -20,16 +20,20 @@
     },
     {
       "meta": {
-        "name": "No Boundary - Causeway Bay",
         "id": "300858437397512",
+        "username": "no.boundary.hk",
+        "name": "No Boundary 無邊",
         "about": "\"No Boundary\" － 「無邊」。",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "9 Haven Street, Causeway Bay",
-        "area": "Causeway Bay",
-        "email": "no.boundary.hongkong@gmail.com",
-        "tel": "22199488"
+        "emails": [
+          "no.boundary.hongkong@gmail.com"
+        ],
+        "website": "https://www.instagram.com/no.boundary.hk"
       },
       "url": "https://www.facebook.com/no.boundary.hk/"
     },

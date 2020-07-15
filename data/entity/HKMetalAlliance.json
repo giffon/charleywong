@@ -6,13 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "Hong Kong Metal Alliance",
         "id": "151539854978719",
+        "username": "HKMetalAlliance",
+        "name": "Hong Kong Metal Alliance",
         "about": "2012 autumn, a new chapter of Hong Kong Metal...",
-        "categories": [
-          "Organization"
+        "category_list": [
+          {
+            "id": "2600",
+            "name": "Organization"
+          }
         ],
-        "email": "hkmetalalliance@gmail.com"
+        "emails": [
+          "hkmetalalliance@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/HKMetalAlliance/"
     }

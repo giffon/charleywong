@@ -7,14 +7,20 @@
     {
       "url": "https://www.facebook.com/hakgrid/",
       "meta": {
-        "name": "HakGrid",
         "id": "185879192187605",
+        "username": "hakgrid",
+        "name": "HakGrid",
         "about": "HakGrid, Shop 101 #8, 1/F K11 Select, K11 Art Mall, Tsim Sha Tsui, Hong Kong",
-        "categories": [
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "email": "hakgridk11@gmail.com",
-        "tel": "61982119"
+        "emails": [
+          "hakgridk11@gmail.com"
+        ],
+        "single_line_address": "Shop101, 18 Hanoi Road, Tsim Sha Tsui"
       }
     },
     {

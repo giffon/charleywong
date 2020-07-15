@@ -7,13 +7,16 @@
     {
       "url": "https://www.facebook.com/olgatattoohk/",
       "meta": {
-        "name": "Olga Tattoo & Art",
         "id": "532236790500932",
+        "username": "olgatattoohk",
+        "name": "Olga Tattoo & Art",
         "about": "HK Tattoo Artist\n香港女紋身師(⁎⁍̴̛ᴗ⁍̴̛⁎)\n擅長卡通動漫/可愛/彩色/女性化紋身",
-        "categories": [
-          "Artist"
-        ],
-        "tel": "62725553"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
+        ]
       }
     }
   ],

@@ -15,15 +15,17 @@
     {
       "url": "https://www.facebook.com/390480824743672/",
       "meta": {
-        "name": "Menya Kaku 麺屋·隠",
         "id": "390480824743672",
+        "name": "Menya Kaku 麺屋·隠",
         "about": "2018年2月23日OPEN\n地址：元朗裕榮徑11號好旺洋樓地下5號舖\n営業時間 ：中午12:00～晚上10:00 \n定休日：星期二\n電話：待更新",
-        "categories": [
-          "Ramen Restaurant"
+        "category_list": [
+          {
+            "id": "218838724804749",
+            "name": "Ramen Restaurant"
+          }
         ],
-        "addr": "元朗裕榮徑11號好旺洋樓地下5號舖",
-        "area": "Hong Kong",
-        "tel": "61065088"
+        "single_line_address": "元朗裕榮徑11號好旺洋樓地下5號舖, Hong Kong",
+        "website": "http://www.instagram.com/menya.kaku/"
       }
     }
   ],

@@ -10,14 +10,21 @@
     {
       "url": "https://www.facebook.com/mlw2jewellery/",
       "meta": {
-        "name": "美意珠寶",
         "id": "211089258912121",
+        "username": "mlw2jewellery",
+        "name": "美意珠寶",
         "about": "位於:觀塘開源道 62 號駱駝漆大廈第一座 7 字樓 A5 室   Tel : 23897177",
-        "categories": [
-          "Jewelry/Watches",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "tel": "23897177"
+        "website": "http://www.mei2jewellery.com"
       }
     },
     {

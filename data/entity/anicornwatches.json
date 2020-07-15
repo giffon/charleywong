@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/anicornwatches/",
       "meta": {
-        "name": "Anicorn Watches",
         "id": "391411967677097",
+        "username": "anicornwatches",
+        "name": "Anicorn Watches",
         "about": "Time Different",
-        "categories": [
-          "Jewelry/Watches"
-        ]
+        "category_list": [
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          }
+        ],
+        "website": "http://www.anicorn-watches.com"
       }
     },
     {
@@ -36,13 +41,20 @@
     {
       "url": "https://www.facebook.com/thetriooftime/",
       "meta": {
-        "name": "The Trio of Time - TTT",
         "id": "1838682993075727",
+        "username": "thetriooftime",
+        "name": "The Trio of Time - TTT",
         "about": "Next Journey\n-\nOne City\nOne Designer\nOne Watch",
-        "categories": [
-          "Brand"
+        "category_list": [
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          }
         ],
-        "email": "info@ttt-watches.com"
+        "emails": [
+          "info@ttt-watches.com"
+        ],
+        "website": "http://www.ttt-watches.com"
       },
       "hidden": true
     },

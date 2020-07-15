@@ -9,13 +9,21 @@
     },
     {
       "meta": {
-        "name": "Keo Chow",
         "id": "253612668071915",
+        "username": "KeoChow",
+        "name": "Keo Chow",
         "about": "www.keochow.com\nwww.youtube.com/c/keochow",
-        "categories": [
-          "Artist"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "keochow@hotmail.com"
+        "emails": [
+          "keochow@hotmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://www.keochow.com"
       },
       "url": "https://www.facebook.com/KeoChow/"
     },

@@ -11,18 +11,29 @@
     {
       "url": "https://www.facebook.com/verylboring/",
       "meta": {
-        "name": "無聊至極 verylboring",
         "id": "742380772773372",
+        "username": "verylboring",
+        "name": "無聊至極 verylboring",
         "about": "無聊至極 verylboring\n無聊至極 verylboring 由幾位因為無聊冇嘢做嘅90後合作成立嘅網店。正因為無聊，所以我哋專門蒐羅各式各樣好睇未必好洗嘅產品",
-        "categories": [
-          "Toy Store",
-          "Product/Service",
-          "Grocery Store"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "觀塘 勵業街46號 天輝工業大廈 5B 503室（敬請預約）",
-        "area": "Kowloon, Hong Kong",
-        "email": "info@verylboring.com",
-        "tel": "55264152"
+        "emails": [
+          "info@verylboring.com"
+        ],
+        "single_line_address": "觀塘 興業街12號 永泰中心 1樓 B106室（敬請預約）, Kowloon, Hong Kong",
+        "website": "https://www.verylboring.com"
       }
     },
     {

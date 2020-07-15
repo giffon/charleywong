@@ -17,16 +17,21 @@
     {
       "url": "https://www.facebook.com/themahjonghostel/",
       "meta": {
-        "name": "The Mahjong",
         "id": "676478975735116",
+        "username": "themahjonghostel",
+        "name": "The Mahjong",
         "about": "Hostel",
-        "categories": [
-          "Hostel"
+        "category_list": [
+          {
+            "id": "150438461681329",
+            "name": "Hostel"
+          }
         ],
-        "addr": "1/F, 10-16 Pak Tai Street, To Kwa Wan,",
-        "area": "00 Kowloon, Hong Kong",
-        "email": "info@themahjonghk.com",
-        "tel": "27051869"
+        "emails": [
+          "info@themahjonghk.com"
+        ],
+        "single_line_address": "1/F, 10-16 Pak Tai Street, To Kwa Wan,, 00 Kowloon, Hong Kong",
+        "website": "http://www.themahjonghk.com"
       }
     }
   ],

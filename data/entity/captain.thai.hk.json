@@ -10,15 +10,18 @@
     {
       "url": "https://www.facebook.com/captain.thai.hk/",
       "meta": {
-        "name": "船長 泰國船麵工房",
         "id": "216406802551792",
+        "username": "captain.thai.hk",
+        "name": "船長 泰國船麵工房",
         "about": "正宗泰國風味船麵登陸觀塘！本店提供有多種船麵配搭，更有清邁咖哩及多款泰國小食，是觀塘午餐的好選擇。",
-        "categories": [
-          "Thai Restaurant"
+        "category_list": [
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          }
         ],
-        "addr": "成業工業大廈1樓22室",
-        "area": "Hong Kong",
-        "tel": "39973732"
+        "single_line_address": "成業工業大廈1樓22室, Hong Kong",
+        "website": "https://restaurant-49196.business.site/"
       }
     }
   ],

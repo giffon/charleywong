@@ -7,17 +7,25 @@
     {
       "url": "https://www.facebook.com/revebridal/",
       "meta": {
-        "name": "Rêve Bridal日系嫁衣館",
         "id": "536909179769904",
+        "username": "revebridal",
+        "name": "Rêve Bridal日系嫁衣館",
         "about": "婚禮一站式服務\nby appointment : \nTEL : 5500 5639 \nEmail : revebridal@yahoo.com.hk",
-        "categories": [
-          "Wedding Planning Service",
-          "Bridal Shop",
-          "Design & Fashion"
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          },
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          }
         ],
-        "addr": "葵芳",
-        "area": "852 Hong Kong",
-        "tel": "55005639"
+        "single_line_address": "葵芳, 852 Hong Kong"
       }
     },
     {

@@ -11,17 +11,25 @@
     },
     {
       "meta": {
-        "name": "The Venue",
         "id": "189770137881622",
+        "username": "kilungstreet",
+        "name": "The Venue",
         "about": "基隆街五號\n一千呎百變場地可供包場\n可時租、整個上午或晚上",
-        "categories": [
-          "Family Style Restaurant",
-          "Performance & Event Venue"
+        "category_list": [
+          {
+            "id": "192831537402299",
+            "name": "Family Style Restaurant"
+          },
+          {
+            "id": "179943432047564",
+            "name": "Performance & Event Venue"
+          }
         ],
-        "addr": "基隆街5號",
-        "area": "852 Hong Kong",
-        "email": "reservation@thevenue.hk",
-        "tel": "64914224"
+        "emails": [
+          "reservation@thevenue.hk"
+        ],
+        "single_line_address": "基隆街5號, 852 Hong Kong",
+        "website": "http://thevenue.hk"
       },
       "url": "https://www.facebook.com/kilungstreet/"
     },

@@ -7,13 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Repair Cafe Hong Kong 復修冰室",
         "id": "178129852997071",
-        "about": "Repair Cafe is repairing broken items together, professional advice, encounters and inspiration.",
-        "categories": [
-          "Community"
+        "username": "repaircafehk",
+        "name": "Repair Cafe Hong Kong 復修冰室",
+        "about": "Repair Cafe is repairing broken items together, professional advice, encounters and inspiration. \n",
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "repaircafe_hk@communityleap.com"
+        "emails": [
+          "repaircafehk@communityleap.org"
+        ],
+        "single_line_address": "石梨街18號201室, Kwai Chung"
       },
       "url": "https://www.facebook.com/repaircafehk/"
     }

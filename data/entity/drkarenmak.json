@@ -10,12 +10,20 @@
     {
       "meta": {
         "id": "835440119857994",
+        "username": "drkarenmak",
+        "name": "Karen 博士 Dr. Karen",
         "about": "科學傳播、寓學於樂\nScience communication & Edutainment",
-        "categories": [
-          "Scientist",
-          "Science website"
+        "category_list": [
+          {
+            "id": "494338820719492",
+            "name": "Scientist"
+          },
+          {
+            "id": "2713",
+            "name": "Science Website"
+          }
         ],
-        "email": "chkaren@gmail.com"
+        "website": "https://www.drkarenmak.com"
       },
       "url": "https://www.facebook.com/drkarenmak/"
     }

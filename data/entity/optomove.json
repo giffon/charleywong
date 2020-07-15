@@ -8,11 +8,15 @@
     {
       "url": "https://www.facebook.com/optomove/",
       "meta": {
-        "name": "視光視政 Optomove",
         "id": "641399046373459",
+        "username": "optomove",
+        "name": "視光視政 Optomove",
         "about": "我們秉承專業，守護靈魂之窗，一直擁護清晰視力。可惜政府無能，令社會前景變得矇矓。我等雖不代表所有眼科視光師，但仍希望集結有良知的業界，本着良心為社會不公義發聲。",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ]
       }
     }

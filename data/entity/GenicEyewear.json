@@ -10,16 +10,29 @@
     {
       "url": "https://www.facebook.com/GenicEyewear/",
       "meta": {
-        "name": "Genic Eyewear",
         "id": "360029100748995",
+        "username": "GenicEyewear",
+        "name": "Genic Eyewear",
         "about": "香港手工眼鏡品牌﹠香港首個手作眼鏡工作坊",
-        "categories": [
-          "Product/Service",
-          "Optometrist",
-          "Designer"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "192316870798061",
+            "name": "Optometrist"
+          },
+          {
+            "id": "1615",
+            "name": "Designer"
+          }
         ],
-        "email": "geniceyewear@gmail.com",
-        "tel": "90170224"
+        "emails": [
+          "geniceyewear@gmail.com"
+        ],
+        "single_line_address": "彌敦道700號T.O.P.商場3樓303號舖",
+        "website": "http://www.geniceyewear.com"
       }
     },
     {

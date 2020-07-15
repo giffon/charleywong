@@ -14,13 +14,20 @@
     {
       "url": "https://www.facebook.com/freehongkongmedia/",
       "meta": {
-        "name": "Free HK Media",
         "id": "112449543725160",
+        "username": "freehongkongmedia",
+        "name": "Free HK Media",
         "about": "本媒體是由幾名義務記者自資營運，是擁有言論自主的媒體。現時採訪/攝影/編輯團隊都是義務的，我們在缺乏資源及知道採訪危險性的情況下，仍然想為香港人報導真相。",
-        "categories": [
-          "News & Media Website"
+        "category_list": [
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
         ],
-        "email": "freehongkongmedia@gmail.com"
+        "emails": [
+          "freehongkongmedia@gmail.com"
+        ],
+        "website": "https://www.instagram.com/freehkmedia/?igshid=1itdn0yfayp4v"
       }
     }
   ],

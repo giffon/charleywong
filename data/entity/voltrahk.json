@@ -18,16 +18,21 @@
     {
       "url": "https://www.facebook.com/voltrahk/",
       "meta": {
-        "name": "VolTra義遊",
         "id": "109619127643",
+        "username": "voltrahk",
+        "name": "VolTra義遊",
         "about": "人人都參與全球和地方行動。\nEveryone takes part in glocal action.",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          }
         ],
-        "addr": "Flat A, 15/F, Success Industrial Building, 17 Sheung Hei St, San Po Kong, Kowloon",
-        "area": "Hong Kong",
-        "email": "info@voltra.org",
-        "tel": "26835900"
+        "emails": [
+          "info@voltra.org"
+        ],
+        "single_line_address": "Flat A, 15/F, Success Industrial Building, 17 Sheung Hei St, San Po Kong, Kowloon, Hong Kong",
+        "website": "http://www.voltra.org"
       }
     }
   ],

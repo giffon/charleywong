@@ -11,15 +11,25 @@
     {
       "url": "https://www.facebook.com/1station/",
       "meta": {
-        "name": "1 Station Game",
         "id": "132351323443275",
+        "username": "1station",
+        "name": "1 Station Game",
         "about": "這是遊戲店(Game鋪) 1Station 之官方fans專頁, 我們分店位於旺角信和中心和荃灣荃豐中心, 這裡提供最新優惠和最新產品資訊。 歡迎您多互動, 多發言, 給予我們意見, 讓我們做得更好!",
-        "categories": [
-          "Video Game",
-          "Video Game Store"
+        "category_list": [
+          {
+            "id": "211579738882707",
+            "name": "Video Game"
+          },
+          {
+            "id": "201429350256874",
+            "name": "Video Game Store"
+          }
         ],
-        "email": "info@1stationgame.com",
-        "tel": "39967293"
+        "emails": [
+          "info@1stationgame.com"
+        ],
+        "single_line_address": "荃灣青山公路144-172號荃豐中心地下A41號鋪, Hong Kong",
+        "website": "http://www.1stationgame.com"
       }
     },
     {

@@ -14,16 +14,20 @@
     {
       "url": "https://www.facebook.com/superdonhk/",
       "meta": {
-        "name": "SUPERDON",
         "id": "122715224915329",
-        "about": "SUPERDON 是一間休閒及簡約的日本餐廳，位於銅鑼灣鬧市以大眾化的價錢提供最優質的日本刺身及熟食丼飯。",
-        "categories": [
-          "Donburi Restaurant"
+        "username": "superdonhk",
+        "name": "SUPERDON",
+        "about": "SUPERDON 是一間休閒及簡約的日本餐廳，位於銅鑼灣鬧市以大眾化的價錢提供最優質的日本刺身及熟食丼飯。 ",
+        "category_list": [
+          {
+            "id": "619109018238267",
+            "name": "Donburi Restaurant"
+          }
         ],
-        "addr": "G/F 501 Lockhart Road",
-        "area": "Hong Kong",
-        "email": "info@superdon.co",
-        "tel": "26681663"
+        "emails": [
+          "info@superdon.co"
+        ],
+        "single_line_address": "G/F 501 Lockhart Road, Hong Kong"
       }
     }
   ],

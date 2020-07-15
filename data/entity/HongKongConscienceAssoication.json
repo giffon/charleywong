@@ -7,14 +7,19 @@
     {
       "url": "https://www.facebook.com/HongKongConscienceAssoication/",
       "meta": {
-        "name": "良心生活圈",
         "id": "100402061454603",
+        "username": "HongKongConscienceAssoication",
+        "name": "良心生活圈",
         "about": "我們是致力推廣「良心生活」的組織，竭力發展及鞏固香港「良心」，提倡本土產業，冀改善本土營商環境，積極推動良心生活「圈」的持續性發展。",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "hkconscienceassn@gmail.com",
-        "tel": "52120171"
+        "emails": [
+          "hkconscienceassn@gmail.com"
+        ]
       }
     },
     {

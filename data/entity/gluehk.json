@@ -11,18 +11,29 @@
     {
       "url": "https://www.facebook.com/gluehk/",
       "meta": {
-        "name": "Glue 咕嚕館",
         "id": "710496106003460",
+        "username": "gluehk",
+        "name": "Glue 咕嚕館",
         "about": "glue 咕嚕館\n閲讀. 工作. 自修. 共享空間\ncollaborate • connect • cowork\npowered by @deskonehk \n.\n09:30-22:30\nDaily Mon-Sun\n.\n灣仔星街小區\nAdmiralty MTR Exit F\nPacific Place 3",
-        "categories": [
-          "Local Service",
-          "Lounge",
-          "Library"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          },
+          {
+            "id": "135930436481618",
+            "name": "Lounge"
+          },
+          {
+            "id": "169896676390222",
+            "name": "Library"
+          }
         ],
-        "addr": "1 Electric Street, Shop 1A, Wanchai, Hong Kong",
-        "area": "Hong Kong",
-        "email": "contact@glue.hk",
-        "tel": "34965150"
+        "emails": [
+          "contact@glue.hk"
+        ],
+        "single_line_address": "1 Electric Street, Shop 1A, Wanchai, Hong Kong, Hong Kong",
+        "website": "http://glue.hk"
       }
     },
     {

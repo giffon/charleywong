@@ -9,15 +9,22 @@
     },
     {
       "meta": {
-        "name": "易鐘情-汽車美容鍍膜專門店",
         "id": "353665548360498",
+        "username": "forevercoating",
+        "name": "易鐘情-汽車美容鍍膜專門店",
         "about": "我哋就好似大排擋，收得平但要做得硬淨、耐用，客人唔需要有太多負擔，即使後生仔或收入唔太多但又想嘗試做鍍膜都能夠消費的起。\n本店只招呼同一立場客人，唔招呼藍佬及狗！",
-        "categories": [
-          "Automotive Body Shop"
+        "category_list": [
+          {
+            "id": "1033987526649038",
+            "name": "Auto Detailing Service"
+          },
+          {
+            "id": "188462984509706",
+            "name": "Automotive Body Shop"
+          }
         ],
-        "addr": "錦田市大江埔村41b",
-        "area": "Yuen Kong, Hong Kong",
-        "tel": "94404888"
+        "single_line_address": "錦田市大江埔村41b, Yuen Kong, Hong Kong",
+        "website": "www.forevercoatinghk.com"
       },
       "url": "https://www.facebook.com/forevercoating/"
     }

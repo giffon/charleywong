@@ -7,14 +7,24 @@
     {
       "url": "https://www.facebook.com/bunbunbun13/",
       "meta": {
-        "name": "黃冠斌",
         "id": "214090801976111",
+        "username": "bunbunbun13",
+        "name": "黃冠斌",
         "about": "香港電台 DJ\n工作聯絡 : bunbunbun13@gmail.com",
-        "categories": [
-          "Public Figure",
-          "Personal Blog"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "bunbunbun13@gmail.com"
+        "emails": [
+          "bunbunbun13@gmail.com"
+        ],
+        "single_line_address": "九龍塘 廣播道30號 香港電台廣播大廈"
       }
     },
     {

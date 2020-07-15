@@ -10,14 +10,21 @@
     {
       "url": "https://www.facebook.com/MyDressHK/",
       "meta": {
-        "name": "MyDress",
         "id": "112468161051",
-        "about": "MyDress係香港人嘅時裝購物網，提供過萬款最潮日韓系服飾，日日都有新貨空運到港！https://www.mydress.com",
-        "categories": [
-          "Website"
+        "username": "MyDressHK",
+        "name": "MyDress",
+        "about": "MyDress係香港人嘅時裝購物網，提供過萬款最潮日韓系服飾，日日都有新貨空運到港！https://www.mydress.com ",
+        "category_list": [
+          {
+            "id": "2202",
+            "name": "Website"
+          }
         ],
-        "email": "info@mydress.com",
-        "tel": "21807474"
+        "emails": [
+          "info@mydress.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://www.mydress.com"
       }
     },
     {

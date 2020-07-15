@@ -6,15 +6,18 @@
   "webpages": [
     {
       "meta": {
-        "name": "蔥仔越南包",
         "id": "342528303105164",
-        "categories": [
-          "Vietnamese Restaurant"
+        "name": "蔥仔越南包",
+        "category_list": [
+          {
+            "id": "155136917876965",
+            "name": "Vietnamese Restaurant"
+          }
         ],
-        "addr": "櫸樹街52號",
-        "area": "Hong Kong",
-        "email": "banhmichung@gmail.com",
-        "tel": "35905561"
+        "emails": [
+          "banhmichung@gmail.com"
+        ],
+        "single_line_address": "櫸樹街52號, Hong Kong"
       },
       "url": "https://www.facebook.com/342528303105164/"
     }

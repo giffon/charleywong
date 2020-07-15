@@ -10,15 +10,17 @@
     {
       "url": "https://www.facebook.com/112018101490/",
       "meta": {
-        "name": "Vidler & Co. Solicitors",
         "id": "112018101490",
+        "name": "Vidler & Co. Solicitors",
         "about": "info@vidler-co.com",
-        "categories": [
-          "Lawyer & Law Firm"
+        "category_list": [
+          {
+            "id": "1099402320124913",
+            "name": "Lawyer & Law Firm"
+          }
         ],
-        "addr": "22/F, No. 88 Lockhart Road, Wanchai",
-        "area": "Hong Kong",
-        "tel": "28363369"
+        "single_line_address": "22/F, No. 88 Lockhart Road, Wanchai, Hong Kong",
+        "website": "http://www.vidler-co.com "
       }
     },
     {

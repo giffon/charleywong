@@ -7,17 +7,25 @@
     {
       "url": "https://www.facebook.com/roadmentic/",
       "meta": {
-        "name": "Roadmentic",
         "id": "1336745969724563",
+        "username": "roadmentic",
+        "name": "Roadmentic",
         "about": "Address: G/F, 13A Haven Street, Causeway Bay, Hong Kong\n\nOpening Hours: 1:00pm - 9:00pm  (Close on Wednesday)\n\nIG:  roadmentic\nweibo: http://www.weibo.com/roadmentic",
-        "categories": [
-          "Clothing Store",
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          }
         ],
-        "addr": "G/F, 13A HAVEN STREET, CAUSEWAY BAY",
-        "area": "Hong Kong",
-        "email": "roadmentic@gmail.com",
-        "tel": "35908499"
+        "emails": [
+          "roadmentic@gmail.com"
+        ],
+        "single_line_address": "G/F, 13A HAVEN STREET, CAUSEWAY BAY, Hong Kong",
+        "website": "http://www.weibo.com/roadmenticOriginal"
       }
     },
     {

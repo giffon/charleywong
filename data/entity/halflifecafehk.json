@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/halflifecafehk/",
       "meta": {
-        "name": "Half life cafe",
         "id": "2086675084676605",
+        "username": "halflifecafehk",
+        "name": "Half life cafe",
         "about": "關於half life\n\n其實係源自於我一個對時間概念，點解會叫做half life因為我覺得還沒有沖的咖啡只是得一半生命。\n聲明\n收集到的所有資料不會作任何商業用途",
-        "categories": [
-          "Cafe"
-        ]
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
+        ],
+        "website": "https://www.halflifecafe.com"
       }
     },
     {

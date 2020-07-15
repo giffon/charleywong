@@ -17,16 +17,21 @@
     {
       "url": "https://www.facebook.com/feelintheblank.com.hk/",
       "meta": {
-        "name": "Feel in the Blank",
         "id": "162058400635620",
-        "about": "Wedding Photo and Video Services",
-        "categories": [
-          "Photographer"
+        "username": "feelintheblank.com.hk",
+        "name": "Feel in the Blank",
+        "about": "Wedding Photo and Video Services ",
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "Flat 712, 7/F, Yick Tai Industrial Building, No. 650 - 652 Castle Peak Road, Cheung Sha Wan, Kowloon, Hong Kong",
-        "area": "00000 Hong Kong",
-        "email": "jan@feelintheblank.com.hk",
-        "tel": "92064646"
+        "emails": [
+          "jan@feelintheblank.com.hk"
+        ],
+        "single_line_address": "Flat 712, 7/F, Yick Tai Industrial Building, No. 650 - 652 Castle Peak Road, Cheung Sha Wan, Kowloon, Hong Kong, 00000 Hong Kong",
+        "website": "http://www.feelintheblank.com.hk"
       }
     }
   ],

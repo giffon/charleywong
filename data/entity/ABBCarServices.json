@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/ABBCarServices/",
       "meta": {
-        "name": "ALL 砵砵 汽車服務中心",
         "id": "2431104150454360",
+        "username": "ABBCarServices",
+        "name": "ALL 砵砵 汽車服務中心",
         "about": "地址： 深水埗營盤街118號 服務範圍:洗車吸塵、拋光打蠟、9H鍍膜、車箱蒸籠、臭氧除臭、冷氣淨味、頭燈翻新、房燈安裝、碳纖改件、驗車車保歡迎車行長期合作",
-        "categories": [
-          "Auto Detailing Service",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "1033987526649038",
+            "name": "Auto Detailing Service"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "營盤街118號",
-        "area": "Sham Shui Po",
-        "email": "abb.carservice@gmail.com",
-        "tel": "55881544"
+        "emails": [
+          "abb.carservice@gmail.com"
+        ],
+        "single_line_address": "營盤街118號, Sham Shui Po"
       }
     },
     {

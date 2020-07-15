@@ -10,15 +10,25 @@
     {
       "url": "https://www.facebook.com/endlesspartyhk/",
       "meta": {
-        "name": "Endless Party House",
         "id": "112375506768280",
+        "username": "endlesspartyhk",
+        "name": "Endless Party House",
         "about": "無盡派對 Endless Party 香港人的Party Room-尖沙咀地鐵站B出口1分鐘距離 (The One旁邊)-5間具有不同特色的主題房無盡星空�天空藍�無盡白�工業風�懷舊香港�-可容納4至60人",
-        "categories": [
-          "Party Entertainment Service",
-          "Event"
+        "category_list": [
+          {
+            "id": "189334414420898",
+            "name": "Party Entertainment Service"
+          },
+          {
+            "id": "192119584190796",
+            "name": "Event"
+          }
         ],
-        "email": "endlesspartytst@gmail.com",
-        "tel": "64935825"
+        "emails": [
+          "endlesspartytst@gmail.com"
+        ],
+        "single_line_address": "尖沙咀加拿分道49號夏蕙樓2樓 C,D,E,F,G室, 852",
+        "website": "Endlessparty.hk"
       }
     },
     {

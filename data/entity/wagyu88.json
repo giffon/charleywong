@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/wagyu88/",
       "meta": {
-        "name": "和牛88 Wagyu 88",
         "id": "137386416828983",
+        "username": "wagyu88",
+        "name": "和牛88 Wagyu 88",
         "about": "Finest Wagyu Beef from Okinawa",
-        "categories": [
-          "Yakiniku Restaurant"
+        "category_list": [
+          {
+            "id": "698490883622395",
+            "name": "Yakiniku Restaurant"
+          }
         ],
-        "addr": "香港銅鑼灣登龍街28號永光中心13樓全層",
-        "area": "Causeway Bay",
-        "email": "wagyucwb@steak88.com",
-        "tel": "31053129"
+        "emails": [
+          "wagyucwb@steak88.com"
+        ],
+        "single_line_address": "香港銅鑼灣登龍街28號永光中心13樓全層, Causeway Bay",
+        "website": "www.wagyu88.com"
       }
     },
     {

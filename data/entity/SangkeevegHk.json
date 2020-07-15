@@ -8,15 +8,18 @@
     {
       "url": "https://www.facebook.com/SangkeevegHk/",
       "meta": {
-        "name": "生記蔬菜 SangKee",
         "id": "100273581399045",
+        "username": "SangkeevegHk",
+        "name": "生記蔬菜 SangKee",
         "about": "合利生記 一直致力為大家提供精選優質蔬菜 歡迎大家來到門市購買，倘若向我們預訂產品 我們還提供送貨 材料預備 等所有服務 歡迎客人或食店查詢",
-        "categories": [
-          "Food Wholesaler"
+        "category_list": [
+          {
+            "id": "1727285527537943",
+            "name": "Food Wholesaler"
+          }
         ],
-        "addr": "大角咀福全街63號市政大廈一樓 MN82 MN93號檔",
-        "area": "Kowloon, Hong Kong",
-        "tel": "91662489"
+        "single_line_address": "大角咀福全街63號市政大廈一樓 MN82 MN93號檔, Kowloon, Hong Kong",
+        "website": "www.sangkeeveg.hk"
       }
     }
   ],

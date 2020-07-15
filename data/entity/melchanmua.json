@@ -13,14 +13,20 @@
     },
     {
       "meta": {
-        "name": "Makeup MelMel",
         "id": "1800260230235999",
-        "about": "Makeup MelMel . 貓\n\n; somethin' simple\n; somethin' sweet\n; somethin' spiffy\n\n; makeup\n; hairdo\n; handmade preserved flower",
-        "categories": [
-          "Makeup Artist"
+        "username": "melchanmua",
+        "name": "Makeup MelMel",
+        "about": "Makeup MelMel . 貓\n\n; somethin' simple\n; somethin' sweet\n; somethin' spiffy\n\n; makeup\n; hairdo\n; handmade preserved flower \n",
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "email": "judymelmua@gmail.com",
-        "tel": "90368810"
+        "emails": [
+          "judymelmua@gmail.com"
+        ],
+        "single_line_address": "Hong kong"
       },
       "url": "https://www.facebook.com/melchanmua/"
     }

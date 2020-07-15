@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/MAXFITHK/",
       "meta": {
-        "name": "maxfit_hk",
         "id": "101671701313245",
+        "username": "MAXFITHK",
+        "name": "maxfit_hk",
         "about": "Personal training classes\n-\nBoutique group trainings\n-\nSpace rental\n�51878652\n� info@maxfithk.com\n20/F Workington Tower 78 Bonham Strand, Sheung Wan",
-        "categories": [
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "addr": "20/F, 78 bonham strand, sheung wan",
-        "area": "00000 Hong Kong",
-        "email": "info@maxfithk.com",
-        "tel": "51878652"
+        "emails": [
+          "info@maxfithk.com"
+        ],
+        "single_line_address": "20/F, 78 bonham strand, sheung wan, 00000 Hong Kong"
       }
     },
     {

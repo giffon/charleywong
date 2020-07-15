@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/atorregehk/",
       "meta": {
-        "name": "Atorrege Hong Kong",
         "id": "620510471649306",
+        "username": "atorregehk",
+        "name": "Atorrege Hong Kong",
         "about": "日本專門研發和生產高端護膚產品的醫學品牌，以日本製藥標準生產，100％日本製造。致力以優質的產品及輕活提案，解決都市肌膚問題，從內而外改善肌膚，成就零壓自信人生。",
-        "categories": [
-          "Health/Beauty",
-          "Skin Care Service",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "1644814599176740",
+            "name": "Skin Care Service"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "尖沙咀彌敦道63號iSQUARE國際廣場210號舖",
-        "area": "Hong Kong",
-        "email": "info@andsbeauty.com",
-        "tel": "21919850"
+        "emails": [
+          "info@andsbeauty.com"
+        ],
+        "single_line_address": "尖沙咀彌敦道63號iSQUARE國際廣場210號舖, Hong Kong",
+        "website": "https://www.atorrege.hk/"
       }
     },
     {

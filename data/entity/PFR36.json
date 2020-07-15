@@ -9,15 +9,20 @@
     },
     {
       "meta": {
-        "name": "都蘭 小紅花",
         "id": "380768075591806",
-        "categories": [
-          "Hotel & Lodging"
+        "username": "PFR36",
+        "name": "都蘭  小紅花",
+        "category_list": [
+          {
+            "id": "505091123022329",
+            "name": "Hotel & Lodging"
+          }
         ],
-        "addr": "東河鄉都蘭村36號",
-        "area": "Taitung City 959",
-        "email": "pfr36@ms81.hinet.net",
-        "tel": "886900750963"
+        "emails": [
+          "pfr36@ms81.hinet.net"
+        ],
+        "single_line_address": "東河鄉都蘭村36號, Taitung City 959",
+        "website": "http://www.pfr.com.tw/index.php"
       },
       "url": "https://www.facebook.com/PFR36/"
     },

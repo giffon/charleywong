@@ -10,15 +10,21 @@
     {
       "url": "https://www.facebook.com/089catbooks/",
       "meta": {
-        "name": "晃晃二手書店",
         "id": "112359238844911",
+        "username": "089catbooks",
+        "name": "晃晃二手書店",
         "about": "詢問書藉／講座活動／台東旅遊住宿的朋友，請加入LINE 或 wechat: susuguesthouse 或來電 0914073170\n台東市漢陽南路139-1號（新書／二手書／咖啡／手作點心 / 雜貨/ 雜誌）",
-        "categories": [
-          "Independent Bookstore"
+        "category_list": [
+          {
+            "id": "387228845011016",
+            "name": "Independent Bookstore"
+          }
         ],
-        "addr": "台東市漢陽南路139-1號",
-        "area": "Taitung City",
-        "email": "089catbooks@gmail.com"
+        "emails": [
+          "089catbooks@gmail.com"
+        ],
+        "single_line_address": "台東市漢陽南路139-1號, Taitung City 950",
+        "website": "http://www.susuguesthouse.com"
       }
     }
   ],

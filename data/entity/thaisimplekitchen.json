@@ -7,16 +7,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Thai Simple Kitchen (泰簡單）",
         "id": "1496352034002571",
+        "username": "thaisimplekitchen",
+        "name": "Thai Simple Kitchen (泰簡單）",
         "about": "位於銅鑼灣的露天泰國餐廳",
-        "categories": [
-          "Thai Restaurant",
-          "Asian Fusion Restaurant"
+        "category_list": [
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          },
+          {
+            "id": "174201535963762",
+            "name": "Asian Fusion Restaurant"
+          }
         ],
-        "addr": "香港 銅鑼灣 謝斐道517號 總統戲院售票處側入口 按3字頂樓",
-        "area": "Hong Kong Hong Kong",
-        "tel": "28382896"
+        "single_line_address": "香港 銅鑼灣 謝斐道517號 總統戲院售票處側入口 按3字頂樓, Hong Kong Hong Kong"
       },
       "url": "https://www.facebook.com/thaisimplekitchen/"
     },

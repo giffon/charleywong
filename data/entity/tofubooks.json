@@ -7,17 +7,25 @@
     {
       "url": "https://www.facebook.com/tofubooks/",
       "meta": {
-        "name": "島呼冊店",
         "id": "435091290011369",
+        "username": "tofubooks",
+        "name": "島呼冊店",
         "about": "用豆腐親近土地，用閱讀貼近邊緣",
-        "categories": [
-          "Bookstore",
-          "Book",
-          "Health Food Store"
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          },
+          {
+            "id": "1300",
+            "name": "Book"
+          },
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          }
         ],
-        "addr": "北興街86號",
-        "area": "Chiayi 600",
-        "tel": "88652311031"
+        "single_line_address": "北興街86號, Chiayi 600"
       }
     },
     {

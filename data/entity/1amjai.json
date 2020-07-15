@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/1amjai/",
       "meta": {
-        "name": "回甘堂(林仔涼茶）",
         "id": "1388084734612728",
+        "username": "1amjai",
+        "name": "回甘堂(林仔涼茶）",
         "about": "林仔涼茶丶五花茶",
-        "categories": [
-          "Health Food Shop"
+        "category_list": [
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          }
         ],
-        "addr": "大角咀櫸樹街48號",
-        "area": "Hong Kong",
-        "email": "vcomtom@gmail.com",
-        "tel": "27890111"
+        "emails": [
+          "vcomtom@gmail.com"
+        ],
+        "single_line_address": "大角咀櫸樹街48號, Hong Kong"
       }
     }
   ],

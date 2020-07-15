@@ -7,17 +7,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "SKW Pizza Pie 筲箕灣脆意雞",
         "id": "891369807624751",
+        "username": "skwpizzapie",
+        "name": "SKW Pizza Pie 筲箕灣脆意雞",
         "about": "SKW Pizza Pie 薄餅 焗飯 專門店",
-        "categories": [
-          "Pizza Place",
-          "Fast Food Restaurant",
-          "Italian Restaurant"
+        "category_list": [
+          {
+            "id": "180256082015845",
+            "name": "Pizza Place"
+          },
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          },
+          {
+            "id": "193831710644458",
+            "name": "Italian Restaurant"
+          }
         ],
-        "addr": "香港筲箕灣道273號地下",
-        "area": "Hong Kong",
-        "tel": "29048644"
+        "single_line_address": "香港筲箕灣道273號地下, Hong Kong"
       },
       "url": "https://www.facebook.com/skwpizzapie/"
     }

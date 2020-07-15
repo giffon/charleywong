@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "浠僑針灸中醫診所",
         "id": "271585916620870",
-        "about": "中醫診所\n提供中醫內科，外科，骨傷等服務",
-        "categories": [
-          "Doctor",
-          "Acupuncturist"
+        "username": "promisecon",
+        "name": "浠僑針灸中醫診所",
+        "about": "中醫診所\n提供中醫內科，外科，骨傷等服務\n",
+        "category_list": [
+          {
+            "id": "188234584533149",
+            "name": "Doctor"
+          },
+          {
+            "id": "121549447920861",
+            "name": "Acupuncturist"
+          }
         ],
-        "addr": "觀塘中美中心3樓",
-        "area": "000000 必須由A座電梯上3樓方可到達",
-        "email": "promisecon422@gmail.com",
-        "tel": "52003288"
+        "emails": [
+          "info@promisecon.com"
+        ],
+        "single_line_address": "觀塘中美中心3樓, 000000 必須由A座電梯上3樓方可到達",
+        "website": "http://www.promisecon.com"
       },
       "url": "https://www.facebook.com/promisecon/"
     }

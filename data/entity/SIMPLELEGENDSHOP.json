@@ -7,17 +7,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "取社商店• Simple Legend Shop",
         "id": "1462173943835856",
-        "about": "取社 男性の生活服裝店",
-        "categories": [
-          "Men's Clothing Store",
-          "Retail Company",
-          "Clothing (Brand)"
+        "username": "SIMPLELEGENDSHOP",
+        "name": "取社商店•  Simple Legend Shop",
+        "about": "取社 日常の服裝店",
+        "category_list": [
+          {
+            "id": "170241263022353",
+            "name": "Men's Clothing Store"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "addr": "炮台山, 長康街20號地下",
-        "area": "Hong Kong",
-        "email": "brian@simplelegend.com.hk"
+        "emails": [
+          "brian@simplelegend.com.hk"
+        ],
+        "single_line_address": "炮台山, 長康街20號地下, Hong Kong"
       },
       "url": "https://www.facebook.com/SIMPLELEGENDSHOP/"
     },

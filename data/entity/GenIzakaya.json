@@ -8,16 +8,21 @@
     {
       "url": "https://www.facebook.com/GenIzakaya/",
       "meta": {
-        "name": "言居酒屋 Gen Izakaya",
         "id": "189975427828708",
+        "username": "GenIzakaya",
+        "name": "言居酒屋 Gen Izakaya",
         "about": "歡迎whatsapp 訂枱，電話97807122，小店逢星期日及公眾假期休息",
-        "categories": [
-          "Japanese Restaurant",
-          "Gastropub"
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          },
+          {
+            "id": "164049010316507",
+            "name": "Gastropub"
+          }
         ],
-        "addr": "佐敦長樂街24號地下",
-        "area": "Kowloon, Hong Kong",
-        "tel": "97807122"
+        "single_line_address": "佐敦長樂街24號地下, Kowloon, Hong Kong"
       }
     }
   ],

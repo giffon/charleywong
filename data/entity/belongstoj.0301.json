@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Belongs To J.",
         "id": "516609778419429",
+        "username": "belongstoj.0301",
+        "name": "Belongs To J.",
         "about": "Welcome to Belongs To J. \nSince 2017 香港原創 自家設計\nUnique design.\n從選料、設計、製作都是我們一手包辦啊！\nBelongs To J. 的忠旨： 面對困難時要更堅強，要有懂得保護自己的刺。",
-        "categories": [
-          "Design & Fashion"
+        "category_list": [
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          }
         ],
-        "addr": "213B, 2/F, D2 place One, Cheung Yee Street, Lai Chi Kok",
-        "area": "00000 Hong Kong",
-        "email": "jazminepang0301@gmail.com",
-        "tel": "96095521"
+        "emails": [
+          "jazminepang0301@gmail.com"
+        ],
+        "single_line_address": "213B, D2 place One, 9 Cheung Yee Street, Lai Chi Kok, 00000 Hong Kong",
+        "website": "https://pinkoi.com/belongstoj "
       },
       "url": "https://www.facebook.com/belongstoj.0301/"
     },

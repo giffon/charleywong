@@ -7,14 +7,19 @@
     {
       "url": "https://www.facebook.com/McRoyTang/",
       "meta": {
-        "name": "MC Roy Tang-Wedding planner",
         "id": "186003071524607",
+        "username": "McRoyTang",
+        "name": "MC Roy Tang-Wedding planner",
         "about": "專業司儀及宴會統籌",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "mc.roy.tang@gmail.com",
-        "tel": "92200021"
+        "emails": [
+          "mc.roy.tang@gmail.com"
+        ]
       }
     }
   ],

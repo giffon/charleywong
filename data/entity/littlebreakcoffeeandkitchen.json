@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/littlebreakcoffeeandkitchen/",
       "meta": {
-        "name": "Little Break Coffee and Kitchen",
         "id": "165643700294266",
+        "username": "littlebreakcoffeeandkitchen",
+        "name": "Little Break Coffee and Kitchen",
         "about": "熱愛週遊列國的兩位 80後港大畢業生JacWill加五星級酒店大廚為你呈獻環球特色美食, 讓你在忙碌生活裡Take a Little Break",
-        "categories": [
-          "Coffee Shop",
-          "Breakfast & Brunch Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          }
         ],
-        "addr": "Shop G03, G/F, D2 Place, 9 Cheung Yee Street, Cheung Sha Wan, Kowloon",
-        "area": "+85 Hong Kong",
-        "tel": "27422782"
+        "single_line_address": "Shop G03, G/F, D2 Place, 9 Cheung Yee Street, Cheung Sha Wan, Kowloon, +85 Hong Kong"
       }
     },
     {

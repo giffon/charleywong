@@ -6,13 +6,23 @@
   "webpages": [
     {
       "meta": {
-        "name": "Sixth Sense Florist",
         "id": "425416320971470",
-        "about": "Email : 6thsenseflorist@gmail.com",
-        "categories": [
-          "Florist",
-          "Gift Shop",
-          "Party Supply & Rental Shop"
+        "username": "sixthsenseflorist",
+        "name": "Sixth Sense Florist",
+        "about": "Email : 6thsenseflorist@gmail.com\n",
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          },
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          },
+          {
+            "id": "109633322446882",
+            "name": "Party Supply & Rental Shop"
+          }
         ]
       },
       "url": "https://www.facebook.com/sixthsenseflorist/"

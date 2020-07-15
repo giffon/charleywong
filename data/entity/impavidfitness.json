@@ -10,14 +10,21 @@
     {
       "url": "https://www.facebook.com/impavidfitness/",
       "meta": {
-        "name": "Impavid Fitness",
         "id": "1995627620733025",
+        "username": "impavidfitness",
+        "name": "Impavid Fitness",
         "about": "以真空慢煮方式，天然低卡調味，用心為客人提供最方便及美味的即食食物，從而令減脂增肌變得更享受和健康。\n\nProviding you a convenient & delicious food choice in order to keep fit in a more enjoyable & healthier",
-        "categories": [
-          "Interest"
+        "category_list": [
+          {
+            "id": "1500",
+            "name": "Interest"
+          }
         ],
-        "email": "impavidfitness@gmail.com",
-        "tel": "67341175"
+        "emails": [
+          "impavidfitness@gmail.com"
+        ],
+        "single_line_address": "62 Tai Nan Street, Hong Kong",
+        "website": "www.impavid-fitness.com"
       }
     },
     {

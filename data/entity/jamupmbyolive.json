@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/jamupmbyolive/",
       "meta": {
-        "name": "Jamu Postnatal Massage by Olive 古法紮肚專門店",
         "id": "933403353377633",
+        "username": "jamupmbyolive",
+        "name": "Jamu Postnatal Massage by Olive 古法紮肚專門店",
         "about": "Olive 特別遠赴峇里進修傳統古法草本紮肚技術—Jamu massage, 為坐月子的媽媽提供門市及一站式的上門服務,力求使你的家變為你個人的 luxury spa，讓你足不出戶亦可享受最放鬆最理想的修身效果。",
-        "categories": [
-          "Massage Service"
+        "category_list": [
+          {
+            "id": "109578329118821",
+            "name": "Massage Service"
+          }
         ],
-        "addr": "尖沙咀加拿芬道41-43號， Solo Building, 705室",
-        "area": "Hong Kong",
-        "email": "jamupmbyolive@yahoo.com.hk",
-        "tel": "94675130"
+        "emails": [
+          "jamupmbyolive@yahoo.com.hk"
+        ],
+        "single_line_address": "尖沙咀加拿芬道41-43號， Solo Building, 705室, Hong Kong"
       }
     },
     {

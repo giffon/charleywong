@@ -14,13 +14,20 @@
     {
       "url": "https://www.facebook.com/112082666891998/",
       "meta": {
-        "name": "WHIR ZERO",
         "id": "112082666891998",
+        "name": "WHIR ZERO",
         "about": "我只是一個普通的香港人",
-        "categories": [
-          "Personal Blog",
-          "Photographer"
-        ]
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
+        ],
+        "website": "https://www.instagram.com/whirzero/"
       }
     }
   ],

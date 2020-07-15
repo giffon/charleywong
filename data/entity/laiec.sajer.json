@@ -7,12 +7,19 @@
     {
       "url": "https://www.facebook.com/laiec.sajer/",
       "meta": {
-        "name": "吱事日常",
         "id": "106415290948492",
+        "username": "laiec.sajer",
+        "name": "吱事日常",
         "about": "從我倆的生活小趣事，與你分享健康小知識。",
-        "categories": [
-          "Health & Wellness Website",
-          "Personal Blog"
+        "category_list": [
+          {
+            "id": "2707",
+            "name": "Health & Wellness Website"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ]
       }
     },

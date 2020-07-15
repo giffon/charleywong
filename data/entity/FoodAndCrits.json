@@ -9,15 +9,24 @@
     },
     {
       "meta": {
-        "name": "Food and Crits",
         "id": "287398328002815",
+        "username": "FoodAndCrits",
+        "name": "Food and Crits",
         "about": "分享飲飲食食，下廚造飯的逸事",
-        "categories": [
-          "Personal Blog",
-          "Community"
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "ck@foodandcrits.com",
-        "tel": "66041978"
+        "emails": [
+          "ck@foodandcrits.com"
+        ],
+        "website": "http://www.foodandcrits.com"
       },
       "url": "https://www.facebook.com/FoodAndCrits/"
     },

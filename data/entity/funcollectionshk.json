@@ -6,17 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Fun Collections HK",
         "id": "193694124300727",
-        "about": "Tomica粉絲店主誠意為您服務! 盡情搜羅世界各地好玩有趣之玩具,精品,文具, 生活雜貨... 一同fun享所有潮人潮物/陳年舊物/童年回憶/BB最愛/媽咪之選 等等....",
-        "categories": [
-          "Toy Store",
-          "Games/Toys"
+        "username": "funcollectionshk",
+        "name": "Fun Collections HK",
+        "about": "Tomica粉絲店主誠意為您服務! 盡情搜羅世界各地好玩有趣之玩具,精品,文具, 生活雜貨... 一同fun享所有潮人潮物/陳年舊物/童年回憶/BB最愛/媽咪之選 等等.... ",
+        "category_list": [
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          },
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          }
         ],
-        "addr": "Shop S99, 2/F, Sincere Podium, No.83 Argyle Street, Mong Kok",
-        "area": "852 Hong Kong",
-        "email": "funcollectionshk@gmail.com",
-        "tel": "60135496"
+        "emails": [
+          "funcollectionshk@gmail.com"
+        ],
+        "single_line_address": "Shop S99, 2/F, Sincere Podium, No.83 Argyle Street, Mong Kok, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/funcollectionshk/"
     },

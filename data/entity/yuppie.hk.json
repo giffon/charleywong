@@ -10,16 +10,29 @@
     },
     {
       "meta": {
-        "name": "入屋雜貨店 yuppie.hk",
         "id": "1681374665262051",
+        "username": "yuppie.hk",
+        "name": "入屋雜貨店 yuppie.hk",
         "about": "代理多款天然有機護膚品品牌：純素護膚品－植芮堂、法國有機護膚品Najel 及香港天然香薰護膚品 Ali's Aromatherapy ，一系列的天然護膚品，適合皮膚過敏、濕疹、紅腫等朋友。歡迎查詢",
-        "categories": [
-          "Website",
-          "Retail Company",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2202",
+            "name": "Website"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "yuppiehkbuy@gmail.com",
-        "tel": "96604191"
+        "emails": [
+          "yuppiehkbuy@gmail.com"
+        ],
+        "single_line_address": "長沙灣青山道660號百生利中心10樓B室, Kowloon, Hong Kong",
+        "website": "www.yuppie.hk"
       },
       "url": "https://www.facebook.com/yuppie.hk/"
     }

@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/abcbushk/",
       "meta": {
-        "name": "ABC Bus",
         "id": "346576492145318",
+        "username": "abcbushk",
+        "name": "ABC Bus",
         "about": "旅遊巴及商務房車租賃",
-        "categories": [
-          "Motor Vehicle Company"
+        "category_list": [
+          {
+            "id": "2240",
+            "name": "Motor Vehicle Company"
+          }
         ],
-        "addr": "Room 1609, The Metropolis Tower, 10 Metropolis Drive, Hung Hom, Kowloon, Hong Kong.",
-        "area": "N/A Hung Hom",
-        "email": "enquiry@abcbus.com.hk",
-        "tel": "23336034"
+        "emails": [
+          "enquiry@abcbus.com.hk"
+        ],
+        "single_line_address": "Room 1609, The Metropolis Tower, 10 Metropolis Drive, Hung Hom, Kowloon, Hong Kong., N/A Hung Hom",
+        "website": "http://www.abcbus.com.hk/"
       }
     }
   ],

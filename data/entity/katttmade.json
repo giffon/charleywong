@@ -6,15 +6,28 @@
   "webpages": [
     {
       "meta": {
+        "id": "105814767512060",
+        "username": "katttmade",
+        "name": "Katmade Workshop",
         "about": "Handmade Natural Pearl Accessories & Jewellery",
-        "categories": [
-          "Accessories",
-          "Gift shop",
-          "Jewellery/watches"
+        "category_list": [
+          {
+            "id": "185127444860544",
+            "name": "Accessories"
+          },
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          },
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          }
         ],
-        "email": "katttmade@gmail.com",
-        "tel": "65962044",
-        "id": "105814767512060"
+        "emails": [
+          "katttmade@gmail.com"
+        ],
+        "single_line_address": "Hong Kong"
       },
       "url": "https://www.facebook.com/katttmade/"
     }

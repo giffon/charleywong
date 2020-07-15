@@ -6,12 +6,18 @@
   "webpages": [
     {
       "meta": {
-        "name": "R Floral Art",
         "id": "246969502893128",
-        "categories": [
-          "Florist"
+        "username": "floralbyR",
+        "name": "R Floral Art",
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "email": "rfloralart@gmail.com"
+        "emails": [
+          "rfloralart@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/floralbyR/"
     },

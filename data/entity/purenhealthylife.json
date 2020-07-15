@@ -7,14 +7,20 @@
     {
       "url": "https://www.facebook.com/purenhealthylife/",
       "meta": {
-        "name": "清漉",
         "id": "104215137782499",
-        "categories": [
-          "Health Food Store",
-          "Health & Wellness Website"
+        "username": "purenhealthylife",
+        "name": "清漉",
+        "category_list": [
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          },
+          {
+            "id": "2707",
+            "name": "Health & Wellness Website"
+          }
         ],
-        "addr": "香",
-        "area": "港"
+        "single_line_address": "香, 港"
       }
     },
     {

@@ -11,14 +11,25 @@
     {
       "url": "https://www.facebook.com/kaisercreation/",
       "meta": {
-        "name": "凱撒創作 Kaiser Creation",
         "id": "258321577624896",
+        "username": "kaisercreation",
+        "name": "凱撒創作 Kaiser Creation",
         "about": "凱撒 (Kaiser KS)，自由攝影記者",
-        "categories": [
-          "News & Media Website",
-          "Artist",
-          "Photographer"
-        ]
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
+        ],
+        "website": "http://kaiserks.com"
       }
     },
     {

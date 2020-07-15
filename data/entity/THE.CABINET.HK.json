@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/THE.CABINET.HK/",
       "meta": {
-        "name": "THE CABINET",
         "id": "161149627318174",
-        "about": "An international award winning design studio based in Hong Kong. \nwww.thecabinet.hk/thedrawer.html",
-        "categories": [
-          "Brand",
-          "Marketing Agency",
-          "Consulting Agency"
+        "username": "THE.CABINET.HK",
+        "name": "THE CABINET",
+        "about": "An international award-winning design studio based in Hong Kong.",
+        "category_list": [
+          {
+            "id": "123377808095874",
+            "name": "Marketing Agency"
+          },
+          {
+            "id": "2248",
+            "name": "Consulting Agency"
+          },
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          }
         ],
-        "addr": "Rm 9F, Highwin Factory Building, 47 Hoi Yuen Road, Kwun Tong",
-        "area": "852 Hong Kong",
-        "email": "malou@malouko.com",
-        "tel": "37026720"
+        "emails": [
+          "info@thecabinet.hk"
+        ],
+        "single_line_address": "Rm 9F, Highwin Factory Building, 47 Hoi Yuen Road, Kwun Tong, 852 Hong Kong",
+        "website": "http://thecabinet.hk"
       }
     },
     {

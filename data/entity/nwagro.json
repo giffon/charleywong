@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/nwagro/",
       "meta": {
-        "name": "大西北農業",
         "id": "108834464159722",
+        "username": "nwagro",
+        "name": "大西北農業 NW Agro",
         "about": "由本地農夫及農業從業員組成的平台，配對本地農場與社區，建立共購小組。",
-        "categories": [
-          "Agricultural Service"
+        "category_list": [
+          {
+            "id": "189323644423254",
+            "name": "Agricultural Service"
+          }
         ],
-        "email": "info@nwagro.com",
-        "tel": "59976724"
+        "emails": [
+          "info@nwagro.com"
+        ],
+        "website": "nwagro.com"
       }
     },
     {

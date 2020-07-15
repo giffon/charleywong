@@ -6,15 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "爆旋一格",
         "id": "2168059483428945",
-        "categories": [
-          "Games/Toys",
-          "Toy Store"
+        "username": "beyblade1box",
+        "name": "爆旋一格",
+        "category_list": [
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          },
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          }
         ],
-        "addr": "油麻地彌敦道530-538號 現時點(in’s point) 2樓232號舖",
-        "area": "Hong Kong",
-        "tel": "98899406"
+        "single_line_address": "油麻地彌敦道530-538號 現時點(in’s point) 2樓232號舖, Hong Kong"
       },
       "url": "https://www.facebook.com/beyblade1box/"
     }

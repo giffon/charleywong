@@ -7,12 +7,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "煮家男人 Bob's Your Uncle",
         "id": "257808051054494",
+        "username": "bobsuruncle",
+        "name": "煮家男人 Bob's Your Uncle",
         "about": "鳩煮。鳩噏。鳩遊。",
-        "categories": [
-          "Just For Fun"
-        ]
+        "category_list": [
+          {
+            "id": "129417183848258",
+            "name": "Just For Fun"
+          }
+        ],
+        "single_line_address": "Hong Kong"
       },
       "url": "https://www.facebook.com/bobsuruncle/"
     },

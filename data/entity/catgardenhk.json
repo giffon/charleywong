@@ -8,14 +8,16 @@
     {
       "url": "https://www.facebook.com/catgardenhk/",
       "meta": {
-        "name": "Cat Garden",
         "id": "168553943513165",
-        "categories": [
-          "Restaurant"
+        "username": "catgardenhk",
+        "name": "Cat Garden",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "尖沙咀金巴利街7-15號安聯大廈4樓c室",
-        "area": "00000 Hong Kong",
-        "tel": "61114553"
+        "single_line_address": "尖沙咀金巴利街7-15號安聯大廈4樓c室, 00000 Hong Kong"
       }
     },
     {

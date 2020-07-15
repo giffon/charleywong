@@ -10,16 +10,21 @@
     },
     {
       "meta": {
-        "name": "Open Meal開餐 生蠔刺身專門店 派對到會專家",
         "id": "202954889784690",
-        "about": "OPEN MEAL 生蠔刺身速遞專門店",
-        "categories": [
-          "Professional Service"
+        "username": "OPENMEAL",
+        "name": "Open Meal開餐 生蠔刺身專門店 派對到會專家",
+        "about": "OPEN MEAL 生蠔刺身速遞專門店\n",
+        "category_list": [
+          {
+            "id": "176831012360626",
+            "name": "Professional Service"
+          }
         ],
-        "addr": null,
-        "area": "000000 Hong Kong",
-        "email": "sales@open-meal.com",
-        "tel": "60867229"
+        "emails": [
+          "sales@open-meal.com"
+        ],
+        "single_line_address": "000000 Hong Kong",
+        "website": "http://www.open-meal.com"
       },
       "url": "https://www.facebook.com/OPENMEAL/"
     },

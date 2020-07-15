@@ -8,13 +8,28 @@
     {
       "meta": {
         "id": "233755000372105",
+        "username": "tvwallmountspecialist",
+        "name": "TV Wallmount Specialist 電視掛牆安裝專家",
         "about": "我們專業的Specialist團隊致力為我們客戶提供度身訂造及一站式電視掛牆安裝方案，無論是家居還是商業機構，只要你打算把你的電視掛到牆上，就需要一個專業準確的電視掛牆安裝建議方案",
-        "categories": [
-          "Product/service",
-          "Electronics",
-          "Interior design studio"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2213",
+            "name": "Electronics"
+          },
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          }
         ],
-        "email": "tvwallmountspecialists1@gmail.com"
+        "emails": [
+          "tvwallmountspecialists1@gmail.com"
+        ],
+        "single_line_address": "fung yip street",
+        "website": "https://api.whatsapp.com/send?phone=85255083204"
       },
       "url": "https://www.facebook.com/tvwallmountspecialist/"
     },

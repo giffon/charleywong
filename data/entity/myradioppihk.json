@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/myradioppihk/",
       "meta": {
-        "name": "MyRadio",
         "id": "220318197980225",
+        "username": "myradioppihk",
+        "name": "MyRadio",
         "about": "支持普羅政治學苑\n支持 MyRadio\n請持續支持月費計劃",
-        "categories": [
-          "Media/News Company"
-        ]
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
+        ],
+        "website": "http://myradio.hk"
       }
     },
     {

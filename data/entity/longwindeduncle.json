@@ -6,11 +6,17 @@
   "webpages": [
     {
       "meta": {
+        "id": "1542347002756194",
+        "username": "longwindeduncle",
+        "name": "囉嗦大叔",
         "about": "這是一遍融合人、大自然、生活態度與公義的樂土。",
-        "categories": [
-          "Personal blog"
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "id": "1542347002756194"
+        "website": "http://long-winded-uncle.blogspot.com"
       },
       "url": "https://www.facebook.com/longwindeduncle/"
     }

@@ -14,16 +14,24 @@
     {
       "url": "https://www.facebook.com/launch8running/",
       "meta": {
-        "name": "Launch8",
         "id": "646822008771405",
-        "about": "launch8 is a local running gear shop specifically recommending running shoes and products for distance running",
-        "categories": [
-          "Sporting Goods Store"
+        "username": "launch8running",
+        "name": "Launch 8 Korin",
+        "about": "launch8 (Korin) is a local running gear shop specifically recommending running shoes and products for distance running",
+        "category_list": [
+          {
+            "id": "109512302457693",
+            "name": "Footwear Store"
+          },
+          {
+            "id": "165823830131654",
+            "name": "Sporting Goods Store"
+          }
         ],
-        "addr": "荔枝角香港工業中心A座810室 (荔枝角地鐵站C出口U-turn)",
-        "area": "Kowloon, Hong Kong",
-        "email": "launch8.sales@gmail.com",
-        "tel": "35683354"
+        "emails": [
+          "launch8.sales@gmail.com"
+        ],
+        "single_line_address": "荔枝角香港工業中心A座810室 (荔枝角地鐵站C出口U-turn), Kowloon, Hong Kong"
       }
     }
   ],

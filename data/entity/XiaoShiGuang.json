@@ -7,17 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "小時光 XiaoShiGuang",
         "id": "412500708823533",
-        "about": "Small is good.",
-        "categories": [
-          "Product/Service",
-          "Vintage Store"
+        "username": "XiaoShiGuang",
+        "name": "小時光 XiaoShiGuang",
+        "about": "BY APPOINTMENT ONLY.",
+        "category_list": [
+          {
+            "id": "194127957280024",
+            "name": "Vintage Store"
+          }
         ],
-        "addr": "Room 103, Lam's Building, 6-10 Kau U Fong",
-        "area": "852 Central, Hong Kong",
-        "email": "xiaoshiguang.hk@gmail.com",
-        "tel": "25300035"
+        "emails": [
+          "xiaoshiguang.hk@gmail.com"
+        ],
+        "single_line_address": "Room 103, Lam's Building, 6-10 Kau U Fong, 852 Central, Hong Kong"
       },
       "url": "https://www.facebook.com/XiaoShiGuang/"
     }

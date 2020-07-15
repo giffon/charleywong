@@ -10,15 +10,18 @@
     {
       "url": "https://www.facebook.com/lefthandedhkg/",
       "meta": {
-        "name": "Lefthanded Band Tee Store",
         "id": "737504143124106",
+        "username": "lefthandedhkg",
+        "name": "Lefthanded Band Tee Store",
         "about": "Retail Store Opening hours:\nMonday: Closed\nTue to Sun: 2pm-8:30pm\nAddress:H1,6/F,High Win Factory Building,47 Hoi Yuen Road, Kwun Tong, Kowloon",
-        "categories": [
-          "Clothing Store"
+        "category_list": [
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          }
         ],
-        "addr": "H1, 6/F, High Win Factory Building, 47 Hoi Yuen Road",
-        "area": "Hong Kong Kwun Tong",
-        "tel": "98085501"
+        "single_line_address": "H1, 6/F, High Win Factory Building, 47 Hoi Yuen Road, Hong Kong Kwun Tong",
+        "website": "https://www.lefthandedhk.com/"
       }
     },
     {

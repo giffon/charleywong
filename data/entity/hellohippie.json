@@ -6,15 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "about": "::HELLO HIPPIE 你好嬉皮 \"We are vintage weirdo\"\nWe offer incredible vintage clothing from around the world.\nBase Hong Kong since 2014\nLike and follow us if you're hippie enough^^",
-        "categories": [
-          "Vintage shop"
+        "id": "196474460432012",
+        "username": "hellohippie",
+        "name": "Hello Hippie 你好嬉皮",
+        "about": "𝐇𝐄𝐋𝐋𝐎 𝐇𝐈𝐏𝐏𝐈𝐄 你好嬉皮｜𝐄𝐒𝐓.𝟐𝟎𝟏𝟒 \n\"We are vintage weirdo\" \n𝚅𝚒𝚗𝚝𝚊𝚐𝚎 & 𝚂𝚎𝚕𝚎𝚌𝚝 𝚂𝚑𝚘𝚙\nBase Hong Kong\n",
+        "category_list": [
+          {
+            "id": "194127957280024",
+            "name": "Vintage Store"
+          },
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          }
         ],
-        "addr": "香港尖沙咀梳士巴利道3號海港城星光行2樓",
-        "area": "Hong Kong",
-        "email": "hellohippievintage@gmail.com",
-        "tel": "67237773",
-        "id": "196474460432012"
+        "emails": [
+          "hellohippievintage@gmail.com"
+        ],
+        "single_line_address": "香港尖沙咀加拿分道6號集友大廈A座1樓A3室, Hong Kong",
+        "website": "https://www.hellohippie.net"
       },
       "url": "https://www.facebook.com/hellohippie/"
     },

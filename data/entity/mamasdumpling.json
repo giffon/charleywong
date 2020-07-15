@@ -6,16 +6,26 @@
   "webpages": [
     {
       "meta": {
-        "name": "元朗有得餃",
         "id": "138380349654695",
+        "username": "mamasdumpling",
+        "name": "元朗有得餃",
         "about": "我們是元朗有得餃.\n類別 :港式小食/熟食店、餛飩/餃子",
-        "categories": [
-          "Chinese Restaurant",
-          "Deli"
+        "category_list": [
+          {
+            "id": "174483852595760",
+            "name": "Chinese Restaurant"
+          },
+          {
+            "id": "188334264523313",
+            "name": "Deli"
+          },
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          }
         ],
-        "addr": "元朗建業街47 49號地舖",
-        "area": "Yuen Long",
-        "tel": "24493389"
+        "single_line_address": "元朗建業街47 49號地舖, Yuen Long",
+        "website": "https://s.openrice.com/QrbS0vTi900~uzSoDAA"
       },
       "url": "https://www.facebook.com/mamasdumpling/"
     }

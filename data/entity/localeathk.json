@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/localeathk/",
       "meta": {
-        "name": "Local Eat",
         "id": "101514438159558",
+        "username": "localeathk",
+        "name": "Local Eat",
         "about": "黃店的集點自取平台",
-        "categories": [
-          "Food Delivery Service"
+        "category_list": [
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          }
         ],
-        "email": "localeathongkong@gmail.com"
+        "emails": [
+          "localeathongkong@gmail.com"
+        ],
+        "website": "www.localeathongkong.com"
       }
     },
     {

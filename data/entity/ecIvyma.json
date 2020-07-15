@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "長春藤中醫館",
         "id": "157666424269053",
+        "username": "ecIvyma",
+        "name": "長春藤中醫館",
         "about": "長春藤中醫館由香港註冊中醫主理，治療各種內外婦兒科皮膚腸胃、筋骨疾病。  中醫治病講求整體治療，固本培元，以中藥、針灸或推拿手法，幫助求診者恢愎人體正氣，解決各種病痛問題。",
-        "categories": [
-          "Acupuncturist",
-          "Doctor"
+        "category_list": [
+          {
+            "id": "121549447920861",
+            "name": "Acupuncturist"
+          },
+          {
+            "id": "188234584533149",
+            "name": "Doctor"
+          }
         ],
-        "addr": "佐敦彌敦道311號康僑大廈12樓B室",
-        "area": "852 Hong Kong",
-        "email": "mivy130@gmail.com",
-        "tel": "61043553"
+        "emails": [
+          "mivy130@gmail.com"
+        ],
+        "single_line_address": "佐敦彌敦道311號康僑大廈12樓B室, 852 Hong Kong",
+        "website": "https://ecivy.clinic/"
       },
       "url": "https://www.facebook.com/ecIvyma/"
     }

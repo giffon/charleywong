@@ -7,13 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "原野 Wilderness",
         "id": "1500280393564107",
+        "username": "HKwilderness",
+        "name": "原野 Wilderness",
         "about": "原野是1個喜愛郊野及風景攝影的青年，此專頁主要分享行山經歴、資訊及基本攝影技巧。令更多生活在城市的市民能更多接觸自然，及使用相片為郊野留下美麗一面。",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "kelvinyeungphotography@gmail.com"
+        "emails": [
+          "kelvinyeungphotography@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/HKwilderness/"
     }

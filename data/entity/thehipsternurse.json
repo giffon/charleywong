@@ -14,12 +14,17 @@
     {
       "url": "https://www.facebook.com/thehipsternurse/",
       "meta": {
-        "name": "The Hipster Nurse’s Artworks 時髦小護",
         "id": "1968082943463488",
+        "username": "thehipsternurse",
+        "name": "The Hipster Nurse’s Artworks 時髦小護",
         "about": "主售易拉扣/手機殼/一般護士用品\n有興趣歡迎IG或FB私訊\n工作繁忙只接受郵寄�\n付款方式：匯豐/中銀入數�",
-        "categories": [
-          "Product/Service"
-        ]
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
+        ],
+        "website": "https://www.instagram.com/thehipsternurse/"
       }
     }
   ],

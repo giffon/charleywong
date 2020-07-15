@@ -10,15 +10,21 @@
     {
       "url": "https://www.facebook.com/allfor.pawsfood/",
       "meta": {
-        "name": "allfor.paws 寵物小食",
         "id": "1644243215900559",
+        "username": "allfor.pawsfood",
+        "name": "allfor.paws 寵物小食",
         "about": "凡購買小食，收入15%將會捐款予受傷流浪動物！(並不扣除任何成本開支)並每月公佈捐款資料！\n<請支持領養代替購買。善待動物。不離不棄>",
-        "categories": [
-          "Pet Service"
+        "category_list": [
+          {
+            "id": "144982405562750",
+            "name": "Pet Service"
+          }
         ],
-        "addr": "寄賣點：粉嶺花都廣場地下A8鋪「BC Pets 寵物店」",
-        "area": "HONGKONG Hong Kong",
-        "email": "tokayan@gmail.com"
+        "emails": [
+          "tokayan@gmail.com"
+        ],
+        "single_line_address": "寄賣點：粉嶺花都廣場地下A8鋪「BC Pets 寵物店」, HONGKONG Hong Kong",
+        "website": "https://allforpaws.store/"
       }
     },
     {

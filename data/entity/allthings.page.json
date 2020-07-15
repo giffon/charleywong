@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/allthings.page/",
       "meta": {
-        "name": "All Things Bright and Beautiful",
         "id": "278614605515910",
+        "username": "allthings.page",
+        "name": "All Things Bright and Beautiful",
         "about": "All Things Bright and Beautiful is a stationery and lifestyle design brand founded in 2011 by Joanne and Ah Li in Hong Kong.",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "ask.allthings@gmail.com"
+        "emails": [
+          "ask.allthings@gmail.com"
+        ],
+        "website": "http://www.allthings-brightandbeautiful.com"
       }
     },
     {

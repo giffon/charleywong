@@ -11,17 +11,26 @@
     {
       "url": "https://www.facebook.com/CarWash.HK/",
       "meta": {
-        "name": "洗車俠 CarWash.HK",
         "id": "1648542235376101",
+        "username": "CarWash.HK",
+        "name": "洗車俠 CarWash.HK",
         "about": "《洗車俠》於2015年成立，是一個以配對形式提供服務的洗車及汽車美容平台，並於2018年獲得香港社會服務聯會認證為「社企」。",
-        "categories": [
-          "Cleaning Service",
-          "Auto Detailing Service",
-          "Car Wash"
+        "category_list": [
+          {
+            "id": "186564191378474",
+            "name": "Cleaning Service"
+          },
+          {
+            "id": "1033987526649038",
+            "name": "Auto Detailing Service"
+          },
+          {
+            "id": "162295707155272",
+            "name": "Car Wash"
+          }
         ],
-        "addr": "Workshop 3, 17/F, Free Trade Centre, Kwun Tong",
-        "area": "Hong Kong",
-        "tel": "37068177"
+        "single_line_address": "Workshop 3, 17/F, Free Trade Centre, Kwun Tong, Hong Kong",
+        "website": "http://www.carwash.hk"
       }
     }
   ],

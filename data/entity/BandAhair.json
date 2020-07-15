@@ -14,17 +14,26 @@
     {
       "url": "https://www.facebook.com/BandAhair/",
       "meta": {
-        "name": "BandA - before • after（BandA Hair Salon）",
         "id": "624069227615213",
+        "username": "BandAhair",
+        "name": "BandA - before • after（BandA Hair Salon）",
         "about": "BandA - before • after\n（BandA  Hair Salon）\n\n屯門屯喜路2號屯門柏麗廣場27樓2711室",
-        "categories": [
-          "Hair Salon",
-          "Barber Shop",
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          },
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "addr": "屯門屯喜路2號屯門柏麗廣場27樓2711室",
-        "area": "Hong Kong",
-        "tel": "23650000"
+        "single_line_address": "屯門屯喜路2號屯門柏麗廣場27樓2711室, Hong Kong",
+        "website": "https://www.instagram.com/BandAhair"
       }
     }
   ],

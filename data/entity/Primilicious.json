@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/Primilicious/",
       "meta": {
-        "name": "Primilicious Baking Studio and Candy Corner",
         "id": "302426113199625",
-        "about": "Bespoke cake| Candy corner |Baking Class | \n所有食物由持牌食物製造所Tonology Food Factory生產\n牌照號碼:2992805227 \n地址：荃灣橫窩仔街16-26號順力工業大廈306室\n此地址只作食品製造用途非教室地址",
-        "categories": [
-          "Cooking School",
-          "Kitchen/Cooking"
+        "username": "Primilicious",
+        "name": "Primilicious Baking Studio and Candy Corner",
+        "about": "Bespoke cake| Candy corner |Baking Class | \n所有食物由持牌食物製造所Tonology Food Factory生產\n牌照號碼:2992805227 \n地址：荃灣橫窩仔街16-26號順力工業大廈306室\n此地址只作食品製造用途非教室地址\n",
+        "category_list": [
+          {
+            "id": "182269951819423",
+            "name": "Cooking School"
+          },
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          }
         ],
-        "addr": "Aberdeen main road 234",
-        "area": "Hong Kong",
-        "email": "primilicious.p@gmail.com",
-        "tel": "96098558"
+        "emails": [
+          "primilicious.p@gmail.com"
+        ],
+        "single_line_address": "Aberdeen main road 234, Hong Kong",
+        "website": "https://primilicious.wixsite.com/primilicious"
       }
     },
     {

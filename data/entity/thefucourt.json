@@ -10,16 +10,29 @@
     {
       "url": "https://www.facebook.com/thefucourt/",
       "meta": {
-        "name": "糧食供應所",
         "id": "319438752213001",
+        "username": "thefucourt",
+        "name": "糧食供應所",
         "about": "糧食供應所\n\n-全港BL專門店-\n\n賣的，只有一種。\n為腐男腐女獻上肉和湯。",
-        "categories": [
-          "Local Service",
-          "Just For Fun",
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          },
+          {
+            "id": "129417183848258",
+            "name": "Just For Fun"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "thefucourt@gmail.com",
-        "tel": "91507637"
+        "emails": [
+          "thefucourt@gmail.com"
+        ],
+        "single_line_address": "九龍尖沙咀漆咸道南61-65號首都廣場3樓T86-88號鋪",
+        "website": "www.fucourt.com"
       }
     },
     {

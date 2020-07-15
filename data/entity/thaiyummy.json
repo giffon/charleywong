@@ -6,15 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "泰Yummy",
         "id": "103015561179345",
+        "username": "thaiyummy",
+        "name": "泰Yummy",
         "about": "主要經營地道的泰國菜，可以令香港食到地道的泰國菜式，誠意經營。",
-        "categories": [
-          "Thai Restaurant"
+        "category_list": [
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          }
         ],
-        "addr": "元朗教育路83號元達樓地鋪2號",
-        "area": "852 Hong Kong",
-        "tel": "24434560"
+        "single_line_address": "元朗教育路83號元達樓地鋪2號, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/thaiyummy/"
     }

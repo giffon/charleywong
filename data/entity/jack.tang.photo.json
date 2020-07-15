@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/jack.tang.photo/",
       "meta": {
-        "name": "Jack Tang Photographie",
         "id": "144895278900533",
+        "username": "jack.tang.photo",
+        "name": "Jack Tang Photographie",
         "about": "Specialist on Europe Pre-wedding shooting. Professional photography service with modern style and creative lighting.",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "99 Jervois Street, Sheung Wan",
-        "area": "0000 Hong Kong",
-        "email": "info@jack-tang.com",
-        "tel": "51944719"
+        "emails": [
+          "info@jack-tang.com"
+        ],
+        "single_line_address": "99 Jervois Street, Sheung Wan, 0000 Hong Kong"
       }
     },
     {

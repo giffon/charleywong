@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "LazyKing Workshop",
         "id": "31975824584",
+        "username": "LAZYKING.Workshop",
+        "name": "LazyKing Workshop",
         "about": "Have a Lazy Day!",
-        "categories": [
-          "Advertising Agency"
+        "category_list": [
+          {
+            "id": "164886566892249",
+            "name": "Advertising Agency"
+          }
         ],
-        "addr": "Suite 2512, Langham Place Office Tower, 8 Argyle Street, Mongkok, Kowloon",
-        "area": "Hong Kong",
-        "email": "hello@lazyking.hk",
-        "tel": "81077000"
+        "emails": [
+          "hello@lazyking.hk"
+        ],
+        "single_line_address": "Suite 2512, Langham Place Office Tower, 8 Argyle Street, Mongkok, Kowloon, Hong Kong",
+        "website": "lazyking.hk"
       },
       "url": "https://www.facebook.com/LAZYKING.Workshop/"
     }

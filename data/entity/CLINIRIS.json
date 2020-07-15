@@ -10,42 +10,52 @@
     {
       "url": "https://www.facebook.com/CLINIRIS/",
       "meta": {
-        "name": "C Liniris CLiniris",
         "id": "130849250316134",
+        "username": "CLINIRIS",
+        "name": "C Liniris CLiniris",
         "about": "最新最快韓國服裝 每日韓國直送!!\n網上訂購韓國時裝 可速遞到住宅或公司地址 亦可到分店直接訂購\n\nWhatsapp +85266316632",
-        "categories": [
-          "Women's Clothing Store",
-          "Boutique Store"
+        "category_list": [
+          {
+            "id": "128753240528981",
+            "name": "Women's Clothing Store"
+          }
         ],
-        "email": "facebook@cliniris.com",
-        "tel": "66316632"
+        "emails": [
+          "facebook@cliniris.com"
+        ],
+        "website": "www.cliniris.com"
       }
     },
     {
       "url": "https://www.facebook.com/1308186779350332/",
       "meta": {
-        "name": "C Liniris CLiniris (尖沙咀分店)",
         "id": "1308186779350332",
-        "categories": [
-          "Women's Clothing Store",
-          "Apparel Distributor"
+        "name": "C Liniris CLiniris",
+        "category_list": [
+          {
+            "id": "128753240528981",
+            "name": "Women's Clothing Store"
+          },
+          {
+            "id": "214668188548441",
+            "name": "Apparel Distributor"
+          }
         ],
-        "addr": "尖沙咀加連威老道29號信基商業中心18樓C",
-        "area": "Tsim Sha Tsui",
-        "tel": "66316632"
+        "single_line_address": "尖沙咀加連威老道29號信基商業中心18樓C, 尖沙咀 Tsim Sha Tsui"
       }
     },
     {
       "url": "https://www.facebook.com/286335905594993/",
       "meta": {
-        "name": "C Liniris CLiniris (大埔廣場分店)",
         "id": "286335905594993",
-        "categories": [
-          "Women's Clothing Store"
+        "name": "C Liniris CLiniris",
+        "category_list": [
+          {
+            "id": "128753240528981",
+            "name": "Women's Clothing Store"
+          }
         ],
-        "addr": "安泰路1號大埔廣場2樓33-2.11A舖",
-        "area": "Tai Po Industrial Estate",
-        "tel": "24818113"
+        "single_line_address": "安泰路1號大埔廣場2樓33-2.11A舖, Tai Po Industrial Estate"
       }
     }
   ],

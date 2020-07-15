@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/MakeTeaWork/",
       "meta": {
-        "name": "覓茶活",
         "id": "209980816363240",
+        "username": "MakeTeaWork",
+        "name": "覓茶活",
         "about": "覓茶活（取自英文店名 make tea work 之諧音），是一家手調飲品的專門店。\n\n店主堅持為客人帶來原始味道 — 由設計配方、選材、調配、以至與客人互動交流，各個工序都從不假手於人。",
-        "categories": [
-          "Bubble Tea Shop"
+        "category_list": [
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          }
         ],
-        "addr": "石門安群街3號京瑞廣場一期1樓162號舖",
-        "area": "Sha Tin, Hong Kong",
-        "email": "maketeawork@gmail.com",
-        "tel": "91668556"
+        "emails": [
+          "maketeawork@gmail.com"
+        ],
+        "single_line_address": "石門安群街3號京瑞廣場一期1樓162號舖, Sha Tin, Hong Kong",
+        "website": "http://www.maketeawork.com"
       }
     },
     {

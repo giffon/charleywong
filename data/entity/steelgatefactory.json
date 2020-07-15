@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/steelgatefactory/",
       "meta": {
-        "name": "和通鋼閘廠",
         "id": "210682906155835",
+        "username": "steelgatefactory",
+        "name": "和通鋼閘廠",
         "about": "20多年經驗，專營不鏽鋼閘、欄河、扶手、大廈信箱、廚櫃等不鏽鋼工程。另提供維修不鏽鋼閘門鎖、更換鋼閘滑輪等服務。另承接鋁巴士摺門、鋁掩門、鋁趟門、防蚊網門及浴屏工程。",
-        "categories": [
-          "Engineering Service"
+        "category_list": [
+          {
+            "id": "400062273344681",
+            "name": "Engineering Service"
+          }
         ],
-        "addr": "欽洲街65-71號2C鋪",
-        "area": "HK Hong Kong",
-        "email": "hello@buildgate.com.hk",
-        "tel": "67771555"
+        "emails": [
+          "hello@buildgate.com.hk"
+        ],
+        "single_line_address": "欽洲街65-71號2C鋪, HK Hong Kong",
+        "website": "http://www.buildgate.com.hk"
       }
     }
   ],

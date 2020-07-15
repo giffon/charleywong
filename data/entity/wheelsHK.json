@@ -10,45 +10,60 @@
     },
     {
       "meta": {
-        "name": "SparkIndustries 好輪店 車鈴專門店",
         "id": "427612457765912",
-        "about": "Spark Industries \n堅尼地城海旁11-15號地下 7號鋪\n電話/ WHATSAPP: 6100 3410, 9255 5919\n\n服務範疇如下:\n-政府驗車\n-汽車精品\n-汽車電池\n-車鈴\n-四輪定位\n-更換偈油/波箱油\n-24小時救車",
-        "categories": [
-          "Automotive Parts Store",
-          "Wheel & Rim Repair Service",
-          "Cars"
+        "username": "wheelsHK",
+        "name": "SparkIndustries 好輪店 車鈴專門店",
+        "about": "Spark Industries \n堅尼地城海旁11-15號地下 7號鋪\n電話/ WHATSAPP: 6100 3410, 9255 5919\n\n服務範疇如下:\n-政府驗車\n-汽車精品\n-汽車電池\n-車鈴\n-四輪定位\n-更換偈油/波箱油\n-24小時救車\n\n",
+        "category_list": [
+          {
+            "id": "139492049448901",
+            "name": "Automotive Parts Store"
+          },
+          {
+            "id": "302073513458249",
+            "name": "Wheel & Rim Repair Service"
+          },
+          {
+            "id": "2205",
+            "name": "Cars"
+          }
         ],
-        "addr": "堅尼地城海旁11-15號地下 7號鋪",
-        "area": "Hong Kong",
-        "tel": "61003410"
+        "single_line_address": "堅尼地城海旁11-15號地下 7號鋪, Hong Kong",
+        "website": "https://sparkindustries.com.hk"
       },
       "url": "https://www.facebook.com/wheelsHK/"
     },
     {
       "url": "https://www.facebook.com/1522185061418890/",
       "meta": {
-        "name": "好輪店 二手輪呔專賣店 96444044",
         "id": "1522185061418890",
+        "name": "好輪店  二手輪呔專賣店 96444044",
         "about": "好輪店 集團式經營提供一站式軚軨及輪呔服務",
-        "categories": [
-          "Automotive Parts Store"
+        "category_list": [
+          {
+            "id": "139492049448901",
+            "name": "Automotive Parts Store"
+          }
         ],
-        "addr": "九龍界限街21號安發大厦",
-        "area": "852 Kowloon, Hong Kong",
-        "tel": "96444044"
+        "single_line_address": "九龍界限街21號安發大厦, 852 Kowloon, Hong Kong"
       }
     },
     {
       "url": "https://www.facebook.com/2154374541318543/",
       "meta": {
-        "name": "搞鈴店 新舊呔鈴專賣店",
         "id": "2154374541318543",
-        "about": "新舊呔鈴專賣店90444043",
-        "categories": [
-          "Automotive Parts Store"
+        "name": "搞鈴店 新舊呔鈴專賣店",
+        "about": "新舊呔鈴專賣店90444043\n",
+        "category_list": [
+          {
+            "id": "139492049448901",
+            "name": "Automotive Parts Store"
+          }
         ],
-        "email": "djpelelai@gmail.com",
-        "tel": "90444043"
+        "emails": [
+          "djpelelai@gmail.com"
+        ],
+        "single_line_address": "南角道, 852 Hong Kong"
       }
     },
     {

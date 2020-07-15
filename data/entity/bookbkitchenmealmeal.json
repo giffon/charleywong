@@ -6,17 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "Book b kitchen meal meal",
         "id": "633533340415350",
+        "username": "bookbkitchenmealmeal",
+        "name": "Book b kitchen meal meal",
         "about": "由食材出發，細心備菜，從一頓飯中重拾生活的節奏。\n\n服務：私人聚餐、活動專屬餐單、場地租借（歡迎pm查詢）",
-        "categories": [
-          "Restaurant",
-          "Coffee Shop",
-          "Bookstore"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
         ],
-        "addr": "荃灣白田壩街45號 南豐紗廠 111號鋪A",
-        "area": "Hong Kong",
-        "email": "admin@mealmealhk.com"
+        "emails": [
+          "admin@mealmealhk.com"
+        ],
+        "single_line_address": "荃灣白田壩街45號 南豐紗廠 111號鋪A, Hong Kong"
       },
       "url": "https://www.facebook.com/bookbkitchenmealmeal/"
     },

@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/lalagoodies.hk/",
       "meta": {
-        "name": "La La Goodies",
         "id": "110054774056929",
+        "username": "lalagoodies.hk",
+        "name": "La La Goodies",
         "about": "La La Goodies是一間香港的本地小店，致力於各地發掘不同的好物Goodies給顧客。",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "lalagoodies168@gmail.com",
-        "tel": "61982253"
+        "emails": [
+          "lalagoodies168@gmail.com"
+        ],
+        "website": "http://lalagoodies.posify.me/"
       }
     },
     {

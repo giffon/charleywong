@@ -9,16 +9,28 @@
     },
     {
       "meta": {
-        "name": "Urban Coffee Roaster",
         "id": "580321868745202",
+        "username": "Urbancoffeeroaster",
+        "name": "Urban Coffee Roaster",
         "about": "Life is too short for bad coffee",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant",
-          "Sandwich Shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "188296324525457",
+            "name": "Sandwich Shop"
+          }
         ],
-        "email": "info@ucr.hk",
-        "tel": "23633661"
+        "emails": [
+          "info@ucr.hk"
+        ],
+        "website": "http://ucr.hk"
       },
       "url": "https://www.facebook.com/Urbancoffeeroaster/"
     },

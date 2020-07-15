@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/makeupbyceliapoon/",
       "meta": {
-        "name": "Makeup by Celia",
         "id": "1581769825401973",
+        "username": "makeupbyceliapoon",
+        "name": "Makeup by Celia",
         "about": "崇尚清新，簡潔的風格，使妝容富有妝感同時耐看。\n\n提供不同類型的化妝服務，包括新娘化妝、姊妹、宴會、媒體、影樓及婚照化妝等。",
-        "categories": [
-          "Wedding Planning Service",
-          "Makeup Artist"
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "addr": "Hong Kong lai chi kok Kowloon plaza",
-        "area": "852 香港",
-        "email": "info@makeupbycelia.com",
-        "tel": "66115246"
+        "emails": [
+          "info@makeupbycelia.com"
+        ],
+        "single_line_address": "Hong Kong lai chi kok Kowloon plaza, 852 香港"
       }
     },
     {

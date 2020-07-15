@@ -7,12 +7,19 @@
     {
       "meta": {
         "id": "562909937104109",
+        "username": "aprilfan.makeup",
+        "name": "April's Makeup & Wellness",
         "about": "Tailor made makeup service\nFashion /Commercial /Bridal /Beauty /Event\nWellness & Health info sharing",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "aprilfan@gmail.com",
-        "tel": "93885964"
+        "emails": [
+          "aprilfan@gmail.com"
+        ],
+        "single_line_address": "Hong Kong"
       },
       "url": "https://www.facebook.com/aprilfan.makeup/"
     }

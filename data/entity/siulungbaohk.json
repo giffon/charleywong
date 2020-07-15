@@ -15,13 +15,20 @@
     {
       "url": "https://www.facebook.com/siulungbaohk/",
       "meta": {
-        "name": "Siulungbao 小籠包",
         "id": "200519283869119",
-        "about": "手作女孩\n喜歡我的話，要大聲說出來！",
-        "categories": [
-          "Artist"
+        "username": "siulungbaohk",
+        "name": "Siulungbao 小籠包",
+        "about": "喜歡我的話，要大聲說出來！",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "coeyhyt@gmail.com"
+        "emails": [
+          "coeyhyt@gmail.com"
+        ],
+        "website": "https://www.instagram.com/siulungbao"
       }
     }
   ],

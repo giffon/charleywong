@@ -7,10 +7,14 @@
     {
       "url": "https://www.facebook.com/sopoproduction.professional/",
       "meta": {
-        "name": "SOPO Production",
         "id": "1872915772993229",
-        "categories": [
-          "Product/Service"
+        "username": "sopoproduction.professional",
+        "name": "SOPO Production",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       }
     },

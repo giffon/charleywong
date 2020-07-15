@@ -10,14 +10,24 @@
     {
       "url": "https://www.facebook.com/ecompartium/",
       "meta": {
-        "name": "Ecom Partium",
         "id": "108739430851795",
-        "about": "Ecom Partium - 創造業務- 網店- 初創企業\n\n在Ecom Partium，你可以利用精實創業的方法，簡稱「MVP 」，快速將產品推出市場。",
-        "categories": [
-          "Product/Service",
-          "E-commerce Website"
+        "username": "ecompartium",
+        "name": "Ecom Partium",
+        "about": "Ecom Partium - 創造業務- 網店- 初創企業 \n\n擴大黃色經濟圈 💛\n\n在Ecom Partium，你可以利用精實創業的方法，簡稱「MVP 」，快速將產品推出市場。",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "1756049968005436",
+            "name": "E-commerce Website"
+          }
         ],
-        "email": "ecompartium@gmail.com"
+        "emails": [
+          "ecompartium@gmail.com"
+        ],
+        "website": "https://www.ecompartium.com"
       }
     },
     {

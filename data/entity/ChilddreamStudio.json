@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/ChilddreamStudio/",
       "meta": {
-        "name": "童夢漫畫教室 Childdream",
         "id": "392021697580882",
+        "username": "ChilddreamStudio",
+        "name": "童夢漫畫教室 Childdream",
         "about": "教授clipstudio電繪，漫畫製作、動漫背景、Zbrush數碼雕刻，素描丶水彩丶塑膠彩、商業插畫、首辦雕刻、複模及塗裝。",
-        "categories": [
-          "School"
+        "category_list": [
+          {
+            "id": "2601",
+            "name": "School"
+          }
         ],
-        "addr": "旺角皆旺商業大廈2307(教室) 屯門柏麗廣場地下G21室 屯門恆福商場116室 屯門龍門居90號舖",
-        "area": "852 Hong Kong",
-        "email": "info@childdream.com.hk",
-        "tel": "23909099"
+        "emails": [
+          "info@childdream.com.hk"
+        ],
+        "single_line_address": "旺角皆旺商業大廈2307(教室) 屯門柏麗廣場地下G21室 屯門恆福商場116室 屯門龍門居90號舖, 852 Hong Kong",
+        "website": "http://www.childdream.com.hk"
       }
     },
     {

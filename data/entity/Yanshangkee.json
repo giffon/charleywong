@@ -7,15 +7,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "嫣裳記 Yan Shang Kee",
         "id": "1740042699648238",
+        "username": "Yanshangkee",
+        "name": "嫣裳記 Yan Shang Kee",
         "about": "在一昧追求快的社會內，我們總是來去匆匆低著頭與這些美好的事物擦身而過，讓我們重拾昔日黃金時代的美好，穿上旗袍，漫步懷舊的香港街道，這個值得我們驕傲的香港--嫣裳記",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "Flat C , 1/F, 16A Elgin Street,Central,Hong Kong",
-        "area": "+852 Hong Kong",
-        "email": "yanshangkee@gmail.com"
+        "emails": [
+          "yanshangkee@gmail.com"
+        ],
+        "single_line_address": "Flat C , 1/F, 16A Elgin Street,Central,Hong Kong, +852 Hong Kong",
+        "website": "http://yanshangkee.hk"
       },
       "url": "https://www.facebook.com/Yanshangkee/"
     },

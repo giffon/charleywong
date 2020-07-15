@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/SoraCafeHK/",
       "meta": {
-        "name": "Sora Cafe そら カフェ",
         "id": "281773382369194",
+        "username": "SoraCafeHK",
+        "name": "Sora Cafe そら カフェ",
         "about": "古語有云：飲好啡、食好野。只有好啡、另作覓食，煩也。\n所以，Sora Cafe除左提供高汁精品咖啡、意式咖啡，仲有配合咖啡嘅甜品同輕食。\n相信透過咖啡、可以令陌生人有聯繫、分享經歷。",
-        "categories": [
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "Shop No.37, G/F, Shun Fung Building, 5-7 Shun Fung Building, Fung Yau Street North",
-        "area": "Yuen Long",
-        "tel": "94579299"
+        "single_line_address": "Shop No.37, G/F, Shun Fung Building, 5-7 Shun Fung Building, Fung Yau Street North, Yuen Long"
       }
     },
     {

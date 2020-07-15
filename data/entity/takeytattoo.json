@@ -18,17 +18,24 @@
     {
       "url": "https://www.facebook.com/1704417519794844/",
       "meta": {
-        "name": "TakeyTattoo",
         "id": "1704417519794844",
+        "name": "TakeyTattoo",
         "about": "屯門紋身店-針魂入墨\nTakeytattoo\n\nwhatsapp：61591818 \nInstagram：Takeytattoo\nwww.Takeytattoo.com\n\n屯門利寶商場1樓『6』號\n(即長頸鹿模型左邊斜對面)",
-        "categories": [
-          "Tattoo & Piercing Shop",
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "551469561691940",
+            "name": "Tattoo & Piercing Shop"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "addr": "屯門青河坊3號利寶商場1樓6號",
-        "area": "+852 Tuen Mun",
-        "email": "takeytattoo@gmail.com",
-        "tel": "61591818"
+        "emails": [
+          "takeytattoo@gmail.com"
+        ],
+        "single_line_address": "屯門青河坊3號利寶商場1樓6號, +852 Tuen Mun",
+        "website": "http://takeytattoo.com"
       }
     }
   ],

@@ -18,15 +18,28 @@
     {
       "url": "https://www.facebook.com/tokyofarmer/",
       "meta": {
-        "name": "東京自耕農 Leo's Tokyo Life",
         "id": "1569709590001144",
+        "username": "tokyofarmer",
+        "name": "東京自耕農 Leo's Tokyo Life",
         "about": "自2012年起在東京工作的上班族\n動漫電動與日劇是唯一的精神糧食\n這裡記錄著我在日本所見的大小事\n以及我想分享的事物\nYoutube頻道：https://bit.ly/2IuZc2h",
-        "categories": [
-          "Author",
-          "Video Creator",
-          "Personal Blog"
+        "category_list": [
+          {
+            "id": "1817904601806120",
+            "name": "Video Creator"
+          },
+          {
+            "id": "1301",
+            "name": "Author"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "koushun777@gmail.com"
+        "emails": [
+          "koushun777@gmail.com"
+        ],
+        "website": "http://tokyofarmer.jp"
       }
     },
     {

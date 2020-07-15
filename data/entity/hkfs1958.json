@@ -7,24 +7,32 @@
     {
       "url": "https://www.facebook.com/hkfs1958/",
       "meta": {
-        "name": "香港專上學生聯會(學聯)",
         "id": "269056797871",
-        "categories": [
-          "Non-Governmental Organization (NGO)"
+        "username": "hkfs1958",
+        "name": "香港專上學生聯會(學聯)",
+        "category_list": [
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          }
         ],
-        "addr": "香港九龍旺角道 7-9 號威特商業大廈 9 樓",
-        "area": "Kowloon, Hong Kong",
-        "email": "joinhkfs@gmail.com",
-        "tel": "23808303"
+        "emails": [
+          "joinhkfs@gmail.com"
+        ],
+        "single_line_address": "香港九龍旺角道 7-9 號威特商業大廈 9 樓, Kowloon, Hong Kong",
+        "website": "http://www.hkfs.org.hk"
       }
     },
     {
       "url": "https://www.facebook.com/2053231264890359/",
       "meta": {
-        "name": "學聯抗爭者支援基金",
         "id": "2053231264890359",
-        "categories": [
-          "Political Organization"
+        "name": "學聯抗爭者支援基金",
+        "category_list": [
+          {
+            "id": "373543049350668",
+            "name": "Political Organization"
+          }
         ]
       }
     }

@@ -17,14 +17,24 @@
     {
       "url": "https://www.facebook.com/chickeeduck.hk/",
       "meta": {
-        "name": "Chickeeduck",
         "id": "106727622691806",
-        "categories": [
-          "Clothing (Brand)",
-          "Baby Goods/Kids Goods",
-          "Baby & Children's Clothing Store"
+        "username": "chickeeduck.hk",
+        "name": "Chickeeduck",
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "2232",
+            "name": "Baby Goods/Kids Goods"
+          },
+          {
+            "id": "192614304101075",
+            "name": "Baby & Children's Clothing Store"
+          }
         ],
-        "tel": "90277985"
+        "website": "http://www.chickeeduck.com"
       }
     }
   ],

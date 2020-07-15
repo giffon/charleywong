@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "Bless shoes",
         "id": "545966905566793",
+        "username": "blessshoeshk",
+        "name": "Bless shoes",
         "about": "High heels and accessories\nFor Wedding, dancing, and casual wear\n\nOwn manufacturer with\nRetailing, Wholesaling &\nProfessional tailor made service",
-        "categories": [
-          "Footwear Store",
-          "Bridal Shop"
+        "category_list": [
+          {
+            "id": "109512302457693",
+            "name": "Footwear Store"
+          },
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          }
         ],
-        "addr": "太子, 彌敦道 745 - 747號, 金都商場 , 一樓, 107 鋪",
-        "area": "Hong Kong",
-        "tel": "21519390"
+        "single_line_address": "太子, 彌敦道 745 - 747號, 金都商場 , 一樓, 107 鋪, Hong Kong"
       },
       "url": "https://www.facebook.com/blessshoeshk/"
     },

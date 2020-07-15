@@ -14,13 +14,19 @@
     {
       "url": "https://www.facebook.com/menstruAction/",
       "meta": {
-        "name": "MenstruAction",
         "id": "707621132721700",
+        "username": "menstruAction",
+        "name": "MenstruAction",
         "about": "Challenging menstrual taboo in Hong Kong since 2016",
-        "categories": [
-          "Community Organization"
+        "category_list": [
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          }
         ],
-        "email": "menstruaction@gmail.com"
+        "emails": [
+          "menstruaction@gmail.com"
+        ]
       }
     }
   ],

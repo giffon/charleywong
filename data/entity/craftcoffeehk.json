@@ -6,17 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "Craft Coffee Roaster",
         "id": "1378859032342766",
+        "username": "craftcoffeehk",
+        "name": "Craft Coffee Roaster",
         "about": "The official Facebook page of Craft Coffee Roaster - Hong Kong",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "29 Tai Kok Tsui Road,",
-        "area": "Hong Kong",
-        "email": "craftcoffeehk@gmail.com",
-        "tel": "51096770"
+        "emails": [
+          "craftcoffeehk@gmail.com"
+        ],
+        "single_line_address": "29 Tai Kok Tsui Road,, Hong Kong",
+        "website": "http://craftcoffeeroaster.hk"
       },
       "url": "https://www.facebook.com/craftcoffeehk/"
     },

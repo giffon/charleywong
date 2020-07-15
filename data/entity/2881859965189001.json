@@ -7,13 +7,16 @@
     {
       "url": "https://www.facebook.com/2881859965189001/",
       "meta": {
-        "name": "水飯鏜",
         "id": "2881859965189001",
+        "name": "水飯鏜",
         "about": "餐廳",
-        "categories": [
-          "Fast Food Restaurant"
+        "category_list": [
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          }
         ],
-        "tel": "36197264"
+        "single_line_address": "屯門華都花園商場一樓65號舖, 00000 香港屯門"
       }
     }
   ],

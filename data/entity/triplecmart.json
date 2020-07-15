@@ -7,16 +7,22 @@
     {
       "url": "https://www.facebook.com/triplecmart/",
       "meta": {
-        "name": "TripleC Mart",
         "id": "1429153297408262",
+        "username": "triplecmart",
+        "name": "TripleC Mart",
         "about": "【TripleC Mart 韓國代購】\nIG: Triplec_mart\n有同事長駐韓國\n我們不定期為大家搜羅更多韓國最新最潮的Hot Item\n保證100%正貨\n每星期由韓國到港",
-        "categories": [
-          "Shopping & Retail",
-          "Personal Blog"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "addr": "觀塘成業街16號怡生工業中心E座一樓E25",
-        "area": "Hong Kong",
-        "tel": "57449973"
+        "single_line_address": "觀塘成業街16號怡生工業中心E座一樓E25, Hong Kong",
+        "website": "https://wa.me/85257449973"
       }
     },
     {

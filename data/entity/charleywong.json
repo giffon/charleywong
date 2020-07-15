@@ -11,13 +11,21 @@
     {
       "url": "https://www.facebook.com/charleywong2020/",
       "meta": {
-        "name": "Charley Wong 和你查",
         "id": "107416590801368",
+        "username": "charleywong2020",
+        "name": "Charley Wong 和你查",
         "about": "一個開放源碼同開放數據嘅商業/品牌目錄。",
-        "categories": [
-          "App Page",
-          "Website"
-        ]
+        "category_list": [
+          {
+            "id": "2301",
+            "name": "App Page"
+          },
+          {
+            "id": "2202",
+            "name": "Website"
+          }
+        ],
+        "website": "https://charleywong.giffon.io/"
       }
     },
     {

@@ -7,18 +7,28 @@
     {
       "url": "https://www.facebook.com/tattooer.alessa/",
       "meta": {
-        "name": "Alessa_tat2",
         "id": "379173132535246",
+        "username": "tattooer.alessa",
+        "name": "Alessa_tat2",
         "about": "Fleur Tattoo x Okinhana Floral\n紋花 賣花",
-        "categories": [
-          "Art",
-          "Tattoo & Piercing Shop",
-          "Florist"
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "551469561691940",
+            "name": "Tattoo & Piercing Shop"
+          },
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "addr": "108-111 King Fuk Street,Chiu Tat Industrial Building,San Po Kong",
-        "area": "Hong Kong",
-        "email": "alessa.tattoo@gmail.com",
-        "tel": "66818399"
+        "emails": [
+          "alessa.tattoo@gmail.com"
+        ],
+        "single_line_address": "108-111 King Fuk Street,Chiu Tat Industrial Building,San Po Kong, Hong Kong"
       }
     },
     {

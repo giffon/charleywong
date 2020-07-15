@@ -8,17 +8,28 @@
     {
       "url": "https://www.facebook.com/IncomRecover/",
       "meta": {
-        "name": "Incom 專業資料還原服務",
         "id": "1389605051264441",
+        "username": "IncomRecover",
+        "name": "Incom Online",
         "about": "資料還原媒體包括︰硬碟機、SSD、USB手指及任何記憶咭\n資料還原過程由專業資深電腦技師負責\n一切資料保證不會外洩, 除在客人要求外, 所有資料不會留下備份",
-        "categories": [
-          "Computer Store",
-          "Computers & Internet Website",
-          "Professional Service"
+        "category_list": [
+          {
+            "id": "199512783398620",
+            "name": "Computer Store"
+          },
+          {
+            "id": "2703",
+            "name": "Computers & Internet Website"
+          },
+          {
+            "id": "2255",
+            "name": "Computer Company"
+          }
         ],
-        "addr": "Shop 33-2.20B, L2 Tai Po Plaza, 1 On Tai Road, Tai Po,",
-        "area": "852 Hong Kong",
-        "email": "incomjo@hotmail.com"
+        "emails": [
+          "incomonline@hotmail.com"
+        ],
+        "single_line_address": "Shop 33-2.20B, L2 Tai Po Plaza, 1 On Tai Road, Tai Po,, 852 Hong Kong"
       }
     }
   ],

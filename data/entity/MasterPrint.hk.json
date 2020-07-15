@@ -10,14 +10,21 @@
     {
       "url": "https://www.facebook.com/MasterPrint.hk/",
       "meta": {
-        "name": "Master Print Digital Press Unit",
         "id": "123454087701774",
+        "username": "MasterPrint.hk",
+        "name": "Master Print Digital Press Unit",
         "about": "Master Print 專業彩色數碼印刷服務 - 由 富士施樂 Fuji Xerox 700 Digital Colour Press 數碼印刷系統 提供",
-        "categories": [
-          "Business Service"
+        "category_list": [
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          }
         ],
-        "email": "info@masterprint.hk",
-        "tel": "60972978"
+        "emails": [
+          "info@masterprint.hk"
+        ],
+        "single_line_address": "大埔 安泰路１號 大埔廣場２樓５４號舖, 大埔",
+        "website": "http://masterprint.hk"
       }
     },
     {

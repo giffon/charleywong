@@ -6,16 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Diamond Thai Boxing & Fitness",
         "id": "417181881673271",
-        "about": "Tel 23921133\n地點\n西洋菜南街246-248號，永興隆大厦二樓全層 (始創中心後面，義順牛奶公司樓上)2/F 246-248 Sai Yeung Choi St. South , Mong Kok, Hong Kong",
-        "categories": [
-          "Gym/Physical Fitness Center"
+        "username": "DiamondFitness",
+        "name": "Diamond Thai Boxing & Fitness",
+        "about": "Tel 23921133\n地點\n西洋菜南街246-248號，永興隆大厦二樓全層 (始創中心後面，義順牛奶公司樓上)2/F 246-248 Sai Yeung Choi St. South , Mong Kok, Hong Kong ",
+        "category_list": [
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          }
         ],
-        "addr": "2/F, Wing Hing Lung Building, 246-248 Sai Yeung Choi Street, Mong Kok",
-        "area": "Mong Kok",
-        "email": "diamondthaiboxing@gmail.com",
-        "tel": "23921133"
+        "emails": [
+          "diamondthaiboxing@gmail.com"
+        ],
+        "single_line_address": "2/F, Wing Hing Lung Building, 246-248 Sai Yeung Choi Street, Mong Kok, Mong Kok"
       },
       "url": "https://www.facebook.com/DiamondFitness/"
     }

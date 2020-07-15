@@ -7,15 +7,20 @@
     {
       "url": "https://www.facebook.com/100788740267189/",
       "meta": {
-        "name": "小米汽車美容服務",
         "id": "100788740267189",
-        "about": "專營汽車美容，翻新服務，內籠清潔，精工打臘，多年汽車美容經驗\n歡迎預約及查詢，電話98370457",
-        "categories": [
-          "Automotive Restoration Service"
+        "name": "小米汽車美容服務",
+        "about": "專營汽車美容，翻新服務，內籠清潔，精工打臘，汽車買賣，維修服務，多年汽車美容經驗\n歡迎預約及查詢，電話98370457",
+        "category_list": [
+          {
+            "id": "124718197599943",
+            "name": "Automotive Restoration Service"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "新界藍地亦園路北街7号地舖",
-        "area": "Hong Kong",
-        "tel": "98370457"
+        "single_line_address": "新界藍地亦園路北街7号地舖, Hong Kong"
       }
     }
   ],

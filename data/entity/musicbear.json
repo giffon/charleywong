@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/musicbear/",
       "meta": {
-        "name": "Music Bear Arts Centre 音樂熊藝術中心",
         "id": "629669943710996",
-        "about": "Music Bear is the largest arts centre located in Mei Foo Sun Chuen",
-        "categories": [
-          "Musical Instrument Store",
-          "Music Lessons & Instruction School"
+        "username": "musicbear",
+        "name": "Music Bear Arts Centre 音樂熊藝術中心",
+        "about": "Music Bear is the largest arts centre located in Mei Foo Sun Chuen ",
+        "category_list": [
+          {
+            "id": "139750396088115",
+            "name": "Musical Instrument Store"
+          },
+          {
+            "id": "186983191324114",
+            "name": "Music Lessons & Instruction School"
+          }
         ],
-        "addr": "九龍美孚新邨第8期商場3樓136室",
-        "area": "Hong Kong",
-        "email": "info@musicbear.com.hk",
-        "tel": "23221629"
+        "emails": [
+          "info@musicbear.com.hk"
+        ],
+        "single_line_address": "九龍美孚新邨第8期商場3樓136室, Hong Kong",
+        "website": "http://www.musicbear.com.hk"
       }
     },
     {

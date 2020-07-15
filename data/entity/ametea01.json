@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/ametea01/",
       "meta": {
-        "name": "Ametea",
         "id": "262668670525439",
+        "username": "ametea01",
+        "name": "Ametea",
         "about": "期望分享更多有關自己手作仔的事情~",
-        "categories": [
-          "Product/Service"
-        ]
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
+        ],
+        "website": "https://ametea.boutir.com"
       }
     },
     {

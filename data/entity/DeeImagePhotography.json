@@ -9,17 +9,18 @@
     },
     {
       "meta": {
-        "name": "DEE IMAGE",
         "id": "581635018513522",
+        "username": "DeeImagePhotography",
+        "name": "DEE IMAGE",
         "about": "Professional Photography Services for Wedding, Pregnancy, Family and Kids Event, Drama, etc.\nhttp://deeimage.weebly.com",
-        "categories": [
-          "Photographer",
-          "Camera/Photo",
-          "Event"
+        "category_list": [
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          }
         ],
-        "addr": null,
-        "area": "Kwai Chung",
-        "tel": "54855997"
+        "single_line_address": "Kwai Chung",
+        "website": "http://deeimage.weebly.com"
       },
       "url": "https://www.facebook.com/DeeImagePhotography/"
     }

@@ -7,14 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "棋緣 Fairy Garden",
         "id": "1734059673406637",
+        "username": "FairyGardenBGS",
+        "name": "棋緣 Fairy Garden",
         "about": "理念：無論你係一支公上黎、一家大細上黎、又或者成玩朋友上黎，我地已經準備好唔同既桌遊比你地，務求你地可以點都享受到玩桌遊既樂趣！重唔快d上嚟玩下！",
-        "categories": [
-          "Board Game"
+        "category_list": [
+          {
+            "id": "2303",
+            "name": "Board Game"
+          }
         ],
-        "email": "fairygardencs@gmail.com",
-        "tel": "36194452"
+        "emails": [
+          "fairygardencs@gmail.com"
+        ],
+        "single_line_address": "觀塘成業街11號華成工商中心1樓4A室, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/FairyGardenBGS/"
     },

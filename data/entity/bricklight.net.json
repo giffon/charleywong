@@ -10,15 +10,21 @@
     {
       "url": "https://www.facebook.com/bricklight.net/",
       "meta": {
-        "name": "Brick Light",
         "id": "1673823889519413",
+        "username": "bricklight.net",
+        "name": "Brick Light",
         "about": "Light up life",
-        "categories": [
-          "Toy Store"
+        "category_list": [
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          }
         ],
-        "addr": "Block B-11 , 2/F, Mai Shun Industrial Building, 18 Kwai Cheong Road, Kwai Chung, NT",
-        "area": "99907 Hong Kong",
-        "email": "bricklighthk@gmail.com"
+        "emails": [
+          "bricklighthk@gmail.com"
+        ],
+        "single_line_address": "Block B-11 , 2/F, Mai Shun Industrial Building, 18 Kwai Cheong Road, Kwai Chung, NT, 99907 Hong Kong",
+        "website": "https://shop.price.com.hk/OwnCase4U/category/5615"
       }
     },
     {

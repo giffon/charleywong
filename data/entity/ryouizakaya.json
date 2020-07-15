@@ -8,16 +8,21 @@
     {
       "url": "https://www.facebook.com/ryouizakaya/",
       "meta": {
-        "name": "寮居酒屋ryou_izakaya",
         "id": "279339245793775",
-        "about": "營業時間: \n星期一至四： 上午12:00-凌晨01:00\n星期五至日：上午12:00-凌晨02:00\n\n地址:\n西灣河海寧街8號地下2號舖 (基灣小學對面)",
-        "categories": [
-          "Kushikatsu Restaurant",
-          "Yakiniku Restaurant"
+        "username": "ryouizakaya",
+        "name": "寮居酒屋ryou_izakaya",
+        "about": "營業時間: \n星期一至四： 上午12:00-凌晨01:00\n星期五至日：上午12:00-凌晨02:00\n\n地址:\n西灣河海寧街8號地下2號舖 (基灣小學對面)\n",
+        "category_list": [
+          {
+            "id": "145473585861800",
+            "name": "Kushikatsu Restaurant"
+          },
+          {
+            "id": "698490883622395",
+            "name": "Yakiniku Restaurant"
+          }
         ],
-        "addr": "香港西灣河海寧街8號地下2號舖",
-        "area": "000000 Sai Wan Ho",
-        "tel": "37065849"
+        "single_line_address": "香港西灣河海寧街8號地下2號舖, 000000 Sai Wan Ho"
       }
     }
   ],

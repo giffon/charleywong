@@ -6,16 +6,23 @@
   "webpages": [
     {
       "meta": {
-        "name": "Jmt coffee shop",
         "id": "105322984173305",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant"
+        "username": "JMTCoffeeShop",
+        "name": "Jmt coffee shop",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "薄扶林道19號",
-        "area": "Sai Ying Pun",
-        "email": "jmtcoffeeshop@gmail.com",
-        "tel": "91835627"
+        "emails": [
+          "jmtcoffeeshop@gmail.com"
+        ],
+        "single_line_address": "薄扶林道19號, Sai Ying Pun"
       },
       "url": "https://www.facebook.com/JMTCoffeeShop/"
     },

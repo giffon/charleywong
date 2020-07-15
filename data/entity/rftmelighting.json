@@ -11,16 +11,28 @@
     {
       "url": "https://www.facebook.com/rftmelighting/",
       "meta": {
-        "name": "RFTME Home Lighting 列飛照明燈飾店",
         "id": "811509952538013",
+        "username": "rftmelighting",
+        "name": "RFTME Home Lighting 列飛照明燈飾店",
         "about": "Lighting Store, E-shop, Design and Interior Decoration\n燈飾店，網店，設計及室內裝飾",
-        "categories": [
-          "Lighting Store",
-          "Furniture Store",
-          "Interior Design Studio"
+        "category_list": [
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          },
+          {
+            "id": "162845797101278",
+            "name": "Furniture Store"
+          },
+          {
+            "id": "196820813663200",
+            "name": "Lighting Store"
+          }
         ],
-        "email": "sales@rftme.com",
-        "tel": "35211885"
+        "emails": [
+          "sales@rftme.com"
+        ],
+        "website": "https://www.rftme.com"
       }
     },
     {

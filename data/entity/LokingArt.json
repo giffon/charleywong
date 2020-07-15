@@ -6,15 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "LokingArt",
         "id": "1482336541812533",
+        "username": "LokingArt",
+        "name": "LokingArt",
         "about": "Inbox訂製人像畫/其他題材\n\n價錢可議",
-        "categories": [
-          "Artist",
-          "Product/Service",
-          "Art Gallery"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "197384240287028",
+            "name": "Art Gallery"
+          }
         ],
-        "email": "ashley.wu2825@gmail.com"
+        "emails": [
+          "kolezsuw@gmail.com"
+        ],
+        "website": "lokingart.portfoliobox.net"
       },
       "url": "https://www.facebook.com/LokingArt/"
     },

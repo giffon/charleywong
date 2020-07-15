@@ -7,12 +7,20 @@
     {
       "meta": {
         "id": "137069493023028",
+        "username": "somethingthine",
+        "name": "Something thine wedding shoes",
         "about": "香港中環皇后大道中176A-F 錦安大廈4樓402室 | Flat 402, 4/F, Kam On Building, 176A-F Queen's Road, Central, Hong Kong｜Tel: 2530 0181",
-        "categories": [
-          "Website"
+        "category_list": [
+          {
+            "id": "2202",
+            "name": "Website"
+          }
         ],
-        "email": "info@somethingthine.com",
-        "tel": "25300181"
+        "emails": [
+          "info@somethingthine.com"
+        ],
+        "single_line_address": "Shop 19, 1/F, Beverley Commercial Centre, 87-105 Chatham Road South, Tsim Sha Tsui",
+        "website": "http://www.somethingthine.com"
       },
       "url": "https://www.facebook.com/somethingthine/"
     }

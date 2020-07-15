@@ -14,15 +14,20 @@
     {
       "url": "https://www.facebook.com/saraton.patisserie/",
       "meta": {
-        "name": "Saraton Pâtisserie",
         "id": "397838714114413",
-        "categories": [
-          "Bakery"
+        "username": "saraton.patisserie",
+        "name": "Saraton Pâtisserie",
+        "category_list": [
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          }
         ],
-        "addr": "Room 611, 6/F, Shing Yip Industrial Building, 19 Shing Yip Street, Kwun Tong",
-        "area": "Hong Kong",
-        "email": "saraton.patisserie@gmail.com",
-        "tel": "94753994"
+        "emails": [
+          "saraton.patisserie@gmail.com"
+        ],
+        "single_line_address": "Room 611, 6/F, Shing Yip Industrial Building, 19 Shing Yip Street, Kwun Tong, Hong Kong",
+        "website": "www.instagram.com/saraton.patisserie/"
       }
     }
   ],

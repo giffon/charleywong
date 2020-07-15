@@ -24,15 +24,28 @@
     {
       "url": "https://www.facebook.com/ONETAKE.VDO/",
       "meta": {
-        "name": "Onetake 一鏡過",
         "id": "1743954382515033",
+        "username": "ONETAKE.VDO",
+        "name": "Onetake 一鏡過",
         "about": "One life, One chance, Onetaker",
-        "categories": [
-          "Video Creator",
-          "Producer",
-          "Movie/Television Studio"
+        "category_list": [
+          {
+            "id": "1817904601806120",
+            "name": "Video Creator"
+          },
+          {
+            "id": "1108",
+            "name": "Producer"
+          },
+          {
+            "id": "370369022981015",
+            "name": "Movie/Television Studio"
+          }
         ],
-        "email": "onetake.vdo@gmail.com"
+        "emails": [
+          "onetake.vdo@gmail.com"
+        ],
+        "website": "https://www.youtube.com/channel/UCfTwwm6doiwgSCKC7c8-jSg"
       }
     }
   ],

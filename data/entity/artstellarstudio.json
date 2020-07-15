@@ -8,17 +8,28 @@
     {
       "url": "https://www.facebook.com/artstellarstudio/",
       "meta": {
-        "name": "不日上画．Artstellar",
         "id": "385929802272899",
+        "username": "artstellarstudio",
+        "name": "不日上画．Artstellar",
         "about": "art｜space\n\n/ Painting/ Workshop/ Handcrafted goods/ Event & Collaboration/ #齋坐/",
-        "categories": [
-          "Art",
-          "Festival"
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "addr": "銅鑼灣渣甸街35號2樓",
-        "area": "Hong Kong",
-        "email": "artstellarstudio@gmail.com",
-        "tel": "98481465"
+        "emails": [
+          "artstellarstudio@gmail.com"
+        ],
+        "single_line_address": "銅鑼灣渣甸街35號2樓, Hong Kong"
       }
     },
     {

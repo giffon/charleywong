@@ -11,18 +11,29 @@
     {
       "url": "https://www.facebook.com/teasmatterhk/",
       "meta": {
-        "name": "一口茶事 Teas Matter",
         "id": "749016105464966",
+        "username": "teasmatterhk",
+        "name": "一口茶事 Teas Matter",
         "about": "香港全新的茶品牌「一口茶事」\n上乘選茶 簡易沖泡\n繁囂中 與你靜觀生活日常",
-        "categories": [
-          "Brand",
-          "Shopping & Retail",
-          "Tea Room"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          },
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          }
         ],
-        "addr": "中環蘭桂坊",
-        "area": "Hong Kong",
-        "email": "info@teasmatter.com",
-        "tel": "57439449"
+        "emails": [
+          "info@teasmatter.com"
+        ],
+        "single_line_address": "中環蘭桂坊, Hong Kong",
+        "website": "https://www.teasmatter.com/"
       }
     },
     {

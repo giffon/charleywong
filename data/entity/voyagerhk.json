@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/voyagerhk/",
       "meta": {
-        "name": "Voyager Yacht Club",
         "id": "1449137645308313",
-        "about": "Voyager Yacht Club was built on a love of the sea. We providing services of Boat Hire & Charter, Water Inflatables Hire and House Boat Construction.",
-        "categories": [
-          "Sports & Recreation"
+        "username": "voyagerhk",
+        "name": "Voyager Yacht Club",
+        "about": "Voyager Yacht Club was built on a love of the sea. We providing services of Boat Hire & Charter, Water Inflatables Hire and House Boat Construction. ",
+        "category_list": [
+          {
+            "id": "186982054657561",
+            "name": "Sports & Recreation"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong",
-        "email": "info@voyager-yacht.com",
-        "tel": "61532384"
+        "emails": [
+          "info@voyager-yacht.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://www.voyager-yacht.com"
       }
     },
     {

@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/aurora39051660/",
       "meta": {
-        "name": "Aurora Health & Cosmetology Centre",
         "id": "231697610180063",
+        "username": "aurora39051660",
+        "name": "Aurora Health & Cosmetology Centre",
         "about": "可單次收費, 絕不hand sell",
-        "categories": [
-          "Health/Beauty",
-          "Medical & Health"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "145118935550090",
+            "name": "Medical & Health"
+          }
         ],
-        "addr": "旺角彌敦道655號胡社生行1204室 (MTR E1 出口)",
-        "area": "Hong Kong",
-        "email": "aurora_health@yahoo.com.hk",
-        "tel": "39051660"
+        "emails": [
+          "aurora_health@yahoo.com.hk"
+        ],
+        "single_line_address": "旺角彌敦道655號胡社生行1204室 (MTR E1 出口), Hong Kong",
+        "website": "http://aurorahealth.blogspot.hk"
       }
     },
     {

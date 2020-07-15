@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/SoYuetHin/",
       "meta": {
-        "name": "素悅軒",
         "id": "295552517485078",
+        "username": "SoYuetHin",
+        "name": "素悅軒",
         "about": "素食 車仔麵 三餸套飯 炒粉/麵",
-        "categories": [
-          "Diner",
-          "Vegetarian/Vegan Restaurant"
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          }
         ],
-        "addr": "荃灣兆和街23號海晴軒15號舖",
-        "area": "Tsuen Wan, Hong Kong",
-        "tel": "34864428"
+        "single_line_address": "荃灣兆和街23號海晴軒15號舖, Tsuen Wan, Hong Kong"
       }
     }
   ],

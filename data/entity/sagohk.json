@@ -8,12 +8,17 @@
     {
       "url": "https://www.facebook.com/sagohk/",
       "meta": {
-        "name": "西米 Sago",
         "id": "752792568119711",
+        "username": "sagohk",
+        "name": "西米 Sago",
         "about": "西米將泛濫的資訊消化精煉成知識短片，藉傳播智慧推動社會前進。\n\nPlease subscribe our YouTube channel:\nhttp://www.youtube.com/c/西米Sago",
-        "categories": [
-          "Interest"
-        ]
+        "category_list": [
+          {
+            "id": "1500",
+            "name": "Interest"
+          }
+        ],
+        "website": "http://www.youtube.com/c/西米Sago "
       }
     },
     {

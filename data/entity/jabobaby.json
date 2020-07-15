@@ -10,15 +10,22 @@
     {
       "url": "https://www.facebook.com/jabobaby/",
       "meta": {
-        "name": "JaBo Baby",
         "id": "885261924846062",
+        "username": "jabobaby",
+        "name": "JaBo Baby",
         "about": "JaBo Baby主力為客人搜羅世界各地不同款式的嬰幼兒產品， 專營日本、韓國、歐美地區母嬰用品代購。\n \n如果大家在海外或在其他網站報刊雜誌圖片看到心儀產品，歡迎向我們查詢代購。",
-        "categories": [
-          "Retail Company",
-          "Baby Goods/Kids Goods"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "2232",
+            "name": "Baby Goods/Kids Goods"
+          }
         ],
-        "addr": "觀塘開源道54號豐利中心8樓11室",
-        "area": "0000 Hong Kong"
+        "single_line_address": "觀塘開源道54號豐利中心8樓11室, 0000 Hong Kong",
+        "website": "https://www.jabobaby.com"
       }
     },
     {

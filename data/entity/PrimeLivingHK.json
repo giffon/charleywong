@@ -10,16 +10,29 @@
     {
       "url": "https://www.facebook.com/PrimeLivingHK/",
       "meta": {
-        "name": "Prime-Living",
         "id": "1832574603639525",
+        "username": "PrimeLivingHK",
+        "name": "Prime-Living",
         "about": "Prime-Living 不單照顧您及家人的健康，我們還關顧環保。",
-        "categories": [
-          "Health/Beauty",
-          "Household Supplies",
-          "Baby Goods/Kids Goods"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "2220",
+            "name": "Household Supplies"
+          },
+          {
+            "id": "2232",
+            "name": "Baby Goods/Kids Goods"
+          }
         ],
-        "email": "info@primeliving.com.hk",
-        "tel": "93860015"
+        "emails": [
+          "info@primeliving.com.hk"
+        ],
+        "single_line_address": "塘尾道64號龍駒企業大廈8樓A室",
+        "website": "http://www.primeliving.com.hk/"
       }
     },
     {

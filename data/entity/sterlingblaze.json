@@ -11,15 +11,24 @@
     {
       "meta": {
         "id": "190869463883",
-        "about": "最新課程攻略 http://sterlingblaze.blogspot.com/\nInstagram: sterling_blaze",
-        "categories": [
-          "Metal fabricator",
-          "Workplace and office"
+        "username": "sterlingblaze",
+        "name": "火樹銀花 Sterling blaze",
+        "about": "最新課程攻略 http://sterlingblaze.blogspot.com/  \nInstagram: sterling_blaze\n\n\n\n\n\n",
+        "category_list": [
+          {
+            "id": "1789406654621228",
+            "name": "Metal Fabricator"
+          },
+          {
+            "id": "177721448951559",
+            "name": "Workplace & Office"
+          }
         ],
-        "addr": "銅鑼灣,勿地臣街18號,4F/五樓",
-        "area": "Hong Kong",
-        "email": "sterlingblaze@gmail.com",
-        "tel": "96002457"
+        "emails": [
+          "sterlingblaze@gmail.com"
+        ],
+        "single_line_address": "銅鑼灣,勿地臣街18號,4F/五樓, Hong Kong",
+        "website": "http://sterlingblaze.blogspot.com/"
       },
       "url": "https://www.facebook.com/sterlingblaze/"
     }

@@ -10,14 +10,20 @@
     {
       "meta": {
         "id": "119786758082726",
+        "username": "terrylowedding",
+        "name": "Terry Lo Wedding Photography",
         "about": "Email - terrylowedding@gmail.com\nAddress - 2/F, 1 Wing Fung Street, Wan Chai",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "2F, 1 Wing Fung Street, Wan Chai",
-        "area": "Hong Kong",
-        "email": "terrylowedding@gmail.com",
-        "tel": "93230380"
+        "emails": [
+          "terrylowedding@gmail.com"
+        ],
+        "single_line_address": "2F, 1 Wing Fung Street, Wan Chai, Hong Kong",
+        "website": "www.terrylowedding.com"
       },
       "url": "https://www.facebook.com/terrylowedding/"
     },

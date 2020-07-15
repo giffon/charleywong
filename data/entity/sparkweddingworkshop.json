@@ -7,14 +7,21 @@
     {
       "url": "https://www.facebook.com/sparkweddingworkshop/",
       "meta": {
-        "name": "SPARK Wedding Workshop",
         "id": "150911172306745",
-        "about": "婚宴場地佈置及設計服務\n婚宴花藝、蛋糕及甜點製作",
-        "categories": [
-          "Business Service"
+        "username": "sparkweddingworkshop",
+        "name": "SPARK Wedding Workshop",
+        "about": "婚宴場地佈置及設計服務\n婚宴花藝、蛋糕及甜點製作\n",
+        "category_list": [
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          }
         ],
-        "email": "sparkdeco.hk@gmail.com",
-        "tel": "34922719"
+        "emails": [
+          "sparkdeco.hk@gmail.com"
+        ],
+        "single_line_address": "Unit 16, 2/F Sing Win Factory Bldg, HK Hong Kong",
+        "website": "http://sparkweddingworkshop.com"
       }
     },
     {

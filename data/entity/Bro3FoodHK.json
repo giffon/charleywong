@@ -14,13 +14,21 @@
     {
       "url": "https://www.facebook.com/Bro3FoodHK/",
       "meta": {
-        "name": "BRO 3 FOOD HK",
         "id": "110740703652025",
-        "about": "飲食",
-        "categories": [
-          "Product/Service"
+        "username": "Bro3FoodHK",
+        "name": "BRO 3 FOOD HK",
+        "about": "飲食\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "bro3food@yahoo.com"
+        "emails": [
+          "bro3food@yahoo.com"
+        ],
+        "single_line_address": "元朗教育路81-85號元達樓6號地下",
+        "website": "https://www.instagram.com/p/B2g5JgvnlpE/?igshid=1wq5gjykq5vdy"
       }
     }
   ],

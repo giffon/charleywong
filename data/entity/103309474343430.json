@@ -7,14 +7,15 @@
     {
       "url": "https://www.facebook.com/103309474343430/",
       "meta": {
-        "name": "神-火山石牛扒專門店",
         "id": "103309474343430",
-        "categories": [
-          "Steakhouse"
+        "name": "神-火山石牛扒專門店",
+        "category_list": [
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          }
         ],
-        "addr": "香港新界元朗教育路103號",
-        "area": "852 Hong Kong",
-        "tel": "34643716"
+        "single_line_address": "香港新界元朗教育路103號, 852 Hong Kong"
       }
     }
   ],

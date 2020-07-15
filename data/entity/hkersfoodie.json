@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/hkersfoodie/",
       "meta": {
-        "name": "香港人 Foodie",
         "id": "101413064635555",
+        "username": "hkersfoodie",
+        "name": "香港人 Foodie",
         "about": "香港人Foodie帶大家餐餐食黃店💛\n歡迎inbox報料\nFacebook: fb.me/hkersfoodie\nInstagram: instagram.com/hkers_foodie",
-        "categories": [
-          "Blogger"
-        ]
+        "category_list": [
+          {
+            "id": "361282040719868",
+            "name": "Blogger"
+          }
+        ],
+        "website": "hkers.food.blog"
       }
     },
     {

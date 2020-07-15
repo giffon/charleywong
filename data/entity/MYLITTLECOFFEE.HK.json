@@ -6,18 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "My Little Coffee",
         "id": "458731097531829",
+        "username": "MYLITTLECOFFEE.HK",
+        "name": "My Little Coffee",
         "about": "扎根於香港最地道旺角好景的「咖啡雜貨鋪」\n。自家烘焙咖啡豆、掛耳包\n。專業咖啡機、器材賣買保養維修\n。支持聾人就業\n。2015,2018,2019 香港愛樂壓季軍\n。2018香港咖啡烘焙比賽冠軍",
-        "categories": [
-          "Coffee Shop",
-          "Wholesale Bakery",
-          "Grocery Store"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "1013107675469307",
+            "name": "Wholesale Bakery"
+          }
         ],
-        "addr": "旺角花園街2-16號好景商業中心1樓22室",
-        "area": "852 Mong Kok",
-        "email": "mylittlecoffee.hk@gmail.com",
-        "tel": "34888387"
+        "emails": [
+          "mylittlecoffee.hk@gmail.com"
+        ],
+        "single_line_address": "旺角花園街2-16號好景商業中心1樓22室, 852 Mong Kok"
       },
       "url": "https://www.facebook.com/MYLITTLECOFFEE.HK/"
     },

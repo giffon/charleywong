@@ -17,13 +17,20 @@
     {
       "url": "https://www.facebook.com/newhojeong/",
       "meta": {
-        "name": "류호정",
         "id": "114584163320591",
+        "username": "newhojeong",
+        "name": "류호정",
         "about": "정의당 국회의원 류호정",
-        "categories": [
-          "Politician"
+        "category_list": [
+          {
+            "id": "1700",
+            "name": "Politician"
+          }
         ],
-        "email": "newhojeong92@gmail.com"
+        "emails": [
+          "newhojeong92@gmail.com"
+        ],
+        "website": "https://blog.naver.com/hovan9289"
       }
     },
     {

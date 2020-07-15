@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/zeekersdanz/",
       "meta": {
-        "name": "Zeekers Danz Production舞蹈館及製作公司",
         "id": "183125531720155",
+        "username": "zeekersdanz",
+        "name": "Zeekers Danz Production舞蹈館及製作公司",
         "about": "Seek For Those Who Love Dancing!\nPursue Your Dreams!\nDance Like Oxygen!\nWork Hard Play Hard!",
-        "categories": [
-          "Dance Studio",
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "203916779633178",
+            "name": "Dance Studio"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "addr": "Unit 2101C Nan Fung Centre,Tsuen Wan",
-        "area": "Hong Kong",
-        "email": "info@zeekersdanz.com",
-        "tel": "37098213"
+        "emails": [
+          "info@zeekersdanz.com"
+        ],
+        "single_line_address": "Unit 2101C Nan Fung Centre,Tsuen Wan, Hong Kong",
+        "website": "http://www.zeekersdanz.com"
       }
     },
     {

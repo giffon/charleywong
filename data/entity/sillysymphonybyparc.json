@@ -17,17 +17,25 @@
     {
       "url": "https://www.facebook.com/sillysymphonybyparc/",
       "meta": {
-        "name": "Silly Symphony by Parc Wedding",
         "id": "707607449419988",
+        "username": "sillysymphonybyparc",
+        "name": "Silly Symphony by Parc Wedding",
         "about": "1900's 法國優美結婚式\na wedding brand by Parc 古道具公園 ( www.par-c.com)\n\nWedding Brand : Silly Symphony (https://goo.gl/ovGWVV)\nCoffee Brand : Poetic Science (https://goo.gl/p7dmHa)",
-        "categories": [
-          "Wedding Planning Service",
-          "Bridal Shop"
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          }
         ],
-        "addr": "Unit B2, 10/F, 60 Hung To Road , Kwun Tong",
-        "area": "Hong Kong",
-        "email": "hello@sillysymphony.love",
-        "tel": "55440534"
+        "emails": [
+          "hello@par-c.com"
+        ],
+        "single_line_address": "Unit B2, 10/F, 60 Hung To Road , Kwun Tong, Hong Kong",
+        "website": "http://sillysymphony.love"
       }
     }
   ],

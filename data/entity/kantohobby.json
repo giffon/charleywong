@@ -8,16 +8,20 @@
     {
       "url": "https://www.facebook.com/kantohobby/",
       "meta": {
-        "name": "關東店 Kanto Hobby",
         "id": "116396895101082",
+        "username": "kantohobby",
+        "name": "關東店 Kanto Hobby",
         "about": "提供各類玩具、精品等零售及批發",
-        "categories": [
-          "Hobby Store"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "福榮街50号，地鐵B2出口",
-        "area": "Sham Shui Po",
-        "email": "kantohobby5265@gmail.com",
-        "tel": "23614948"
+        "emails": [
+          "kantohobby5265@gmail.com"
+        ],
+        "single_line_address": "福榮街50号，地鐵B2出口, Sham Shui Po"
       }
     }
   ],

@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/HairTheorem/",
       "meta": {
-        "name": "Hair Theorem",
         "id": "137873656358346",
+        "username": "HairTheorem",
+        "name": "Hair Theorem",
         "about": "專業用心的髮型設計SALON",
-        "categories": [
-          "Hair Salon"
+        "category_list": [
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          }
         ],
-        "addr": "Shop102,1 Floor,Ping Tin Shopping Centre,23 On Tin Street,Lam Tin,KL",
-        "area": "Lam Tin",
-        "email": "hairtheorem@gmail.com",
-        "tel": "23492188"
+        "emails": [
+          "hairtheorem@gmail.com"
+        ],
+        "single_line_address": "Shop102,1 Floor,Ping Tin Shopping Centre,23 On Tin Street,Lam Tin,KL, 852 Lam Tin"
       }
     }
   ],

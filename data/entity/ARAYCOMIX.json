@@ -14,13 +14,20 @@
     {
       "url": "https://www.facebook.com/ARAYCOMIX/",
       "meta": {
-        "name": "A RAY",
         "id": "641202775921848",
+        "username": "ARAYCOMIX",
+        "name": "A RAY",
         "about": "老闆，不要香菜。\n合作提案請洽E-mail。",
-        "categories": [
-          "Author"
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          }
         ],
-        "email": "araycomix@gmail.com"
+        "emails": [
+          "araycomix@gmail.com"
+        ],
+        "website": "https://www.instagram.com/aray_comix/"
       }
     }
   ],

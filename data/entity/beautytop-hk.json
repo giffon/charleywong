@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/156165988166997/",
       "meta": {
-        "name": "彩庭有限公司",
         "id": "156165988166997",
+        "name": "彩庭有限公司",
         "about": "元朗窗簾，價格隨意，服務口碑優良，鋁窗防漏，更換，玻璃工程，組合屋，各纇防蚊門窗",
-        "categories": [
-          "Company"
+        "category_list": [
+          {
+            "id": "2200",
+            "name": "Company"
+          }
         ],
-        "email": "info@beautytop-hk.com",
-        "tel": "95450471"
+        "emails": [
+          "info@beautytop-hk.com"
+        ],
+        "single_line_address": "教育路116號地下",
+        "website": "www.beautytop-hk.com"
       }
     }
   ],

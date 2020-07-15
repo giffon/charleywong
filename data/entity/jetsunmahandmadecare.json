@@ -8,16 +8,20 @@
     {
       "url": "https://www.facebook.com/jetsunmahandmadecare/",
       "meta": {
-        "name": "Jetsunma Handmade Care 傑尊瑪創作坊",
         "id": "307668572755381",
+        "username": "jetsunmahandmadecare",
+        "name": "Jetsunma Handmade Care 傑尊瑪創作坊",
         "about": "Be Green As Compassion For All Beings\n利眾源於慈悲  天然利益眾生\n\n(天然手工皂 • 手製護膚用品 • 天然環保家居產品)",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": null,
-        "area": "852 Hong Kong",
-        "email": "jetsunmahandmade@gmail.com",
-        "tel": "28810816"
+        "emails": [
+          "jetsunmahandmade@gmail.com"
+        ],
+        "single_line_address": "852 Hong Kong"
       }
     }
   ],

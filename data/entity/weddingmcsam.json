@@ -7,16 +7,27 @@
     {
       "url": "https://www.facebook.com/weddingmcsam/",
       "meta": {
-        "name": "Wedding MC SAM 婚禮司儀 · 商演司儀",
         "id": "1617073271670356",
+        "username": "weddingmcsam",
+        "name": "Wedding MC SAM 婚禮司儀 · 商演司儀",
         "about": "專業婚宴司儀 及 婚禮統籌師\n\n- 過「百場」婚宴司儀 及 婚禮統籌經驗\n-「全職」司儀，信心 及 安心保證\n- 讓新人「零煩惱」、「零壓力」籌備婚禮，200％ 享受整個婚禮過程",
-        "categories": [
-          "Wedding Planning Service",
-          "Product/Service",
-          "Wedding Venue"
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "1698627513779470",
+            "name": "Wedding Venue"
+          }
         ],
-        "email": "mcsam.wedding@gmail.com",
-        "tel": "62271197"
+        "emails": [
+          "mcsam.wedding@gmail.com"
+        ]
       }
     },
     {

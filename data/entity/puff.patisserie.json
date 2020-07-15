@@ -14,14 +14,19 @@
     {
       "url": "https://www.facebook.com/puff.patisserie/",
       "meta": {
-        "name": "Puff Patisserie",
         "id": "322511498515763",
-        "about": "店主自小對甜品深感興趣, 並遠赴海外學藝回港.\n除了傳統的法式甜品外, 也會加入一點亞洲元素.\n本店持有食環署所發出的食物製造廠牌, 並採用優質材料製造.",
-        "categories": [
-          "Food & Beverage"
+        "username": "puff.patisserie",
+        "name": "Puff Patisserie",
+        "about": "店主自小對甜品深感興趣, 並遠赴海外學藝回港.\n除了傳統的法式甜品外, 也會加入一點亞洲元素.\n本店持有食環署所發出的食物製造廠牌, 並採用優質材料製造.\n",
+        "category_list": [
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          }
         ],
-        "email": "puffpatisserie.info@gmail.com",
-        "tel": "93261156"
+        "emails": [
+          "puffpatisserie.info@gmail.com"
+        ]
       }
     }
   ],

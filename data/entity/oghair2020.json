@@ -14,15 +14,25 @@
     {
       "url": "https://www.facebook.com/oghair2020/",
       "meta": {
-        "name": "OG hair",
         "id": "104171127834373",
-        "about": "地址： 旺角西洋菜南街55號一樓\n\n預約服務\n\nhttps://api.whatsapp.com/send?phone=85256101304",
-        "categories": [
-          "Product/Service",
-          "Hair Salon"
+        "username": "oghair2020",
+        "name": "OG hair",
+        "about": "\n地址： 旺角西洋菜南街55號一樓\n\n預約服務\n\nhttps://api.whatsapp.com/send?phone=85256101304",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          }
         ],
-        "email": "ogsalon2020@gmail.com",
-        "tel": "56101304"
+        "emails": [
+          "ogsalon2020@gmail.com"
+        ],
+        "single_line_address": "旺角西洋菜南街55號1樓, 100021 Hong Kong",
+        "website": "https://api.whatsapp.com/send?phone=85256101304"
       }
     }
   ],

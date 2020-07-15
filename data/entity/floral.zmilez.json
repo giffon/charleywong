@@ -6,15 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Z'milez Floral Design",
         "id": "294917650662610",
+        "username": "floral.zmilez",
+        "name": "Z'milez Floral Design",
         "about": "Floral gifts, Bridal bouquets, Banquet Decor, Opening flowers, Workshops and Cooperations. \n\nzmilez@outlook.com  (By Appointment Only )",
-        "categories": [
-          "Local Service"
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "addr": "Kowloon",
-        "area": "Hong Kong",
-        "email": "zmilez@outlook.com"
+        "emails": [
+          "zmilez@outlook.com"
+        ],
+        "single_line_address": "Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/floral.zmilez/"
     }

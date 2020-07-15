@@ -11,13 +11,19 @@
     {
       "meta": {
         "id": "209849992757172",
-        "categories": [
-          "Hong Kong Restaurant"
+        "username": "sweetandsourhk",
+        "name": "SWEET & SOUR 味之堂",
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
         ],
-        "addr": "將軍澳新都城中心二期商場1074B",
-        "area": "Hong Kong",
-        "email": "info@meimei.com.hk",
-        "tel": "23234223"
+        "emails": [
+          "info@meimei.com.hk"
+        ],
+        "single_line_address": "將軍澳新都城中心二期商場1074B, Hong Kong",
+        "website": "http://www.sweetandsour.hk"
       },
       "url": "https://www.facebook.com/sweetandsourhk/"
     }

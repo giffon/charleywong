@@ -13,26 +13,37 @@
     },
     {
       "meta": {
-        "name": "Om Coffee N Holistic Lab",
         "id": "1931825510452522",
+        "username": "omcoffeenholisticlab",
+        "name": "Om Coffee N Holistic Lab",
         "about": "新增中文名字：狼婆婆咖啡店",
-        "categories": [
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "tel": "59125033"
+        "website": "https://hk.carousell.com/omcoffee"
       },
       "url": "https://www.facebook.com/omcoffeenholisticlab/"
     },
     {
       "url": "https://www.facebook.com/omgrandmawolfcoffee/",
       "meta": {
-        "name": "Om Grandma Wolf Coffee",
         "id": "108647234121005",
-        "categories": [
-          "Coffee Shop",
-          "Cafe"
+        "username": "omgrandmawolfcoffee",
+        "name": "Om Grandma Wolf Coffee",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
         ],
-        "tel": "59125033"
+        "website": "http://kyte.site/om-grandma-wolf-coffee"
       }
     },
     {

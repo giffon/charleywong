@@ -7,15 +7,20 @@
     {
       "url": "https://www.facebook.com/LiveCafeRhythm/",
       "meta": {
-        "name": "Live Cafe Rhythm",
         "id": "153993625401185",
-        "about": "RHYTHM每晚8-10設有現場真人唱歌表演, \n<wtscall 97233677>\n有酒類供應\n也有各種嚴選的美味食物 \n\n再加上精心既佈置, 令客人可以置身音樂吧的環境, \n卻也不臭不吵. RHYTHM可能是最佳享受音樂的小店",
-        "categories": [
-          "Local Business"
+        "username": "LiveCafeRhythm",
+        "name": "Live Cafe Rhythm",
+        "about": "RHYTHM逢週末晚都設有現場真人唱歌表演, \n<wtscall 97233677>\n有酒類供應\n也有各種嚴選的美味食物 \n\n再加上精心既佈置, 令客人可以置身音樂吧的環境, \n卻也不臭不吵. RHYTHM可能是最佳享受音樂的小店",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "旺角登打士街43D號 達利商業大廈3樓B室",
-        "area": "HK Kowloon, Hong Kong",
-        "email": "rhylivecafe@gmail.com"
+        "emails": [
+          "rhylivecafe@gmail.com"
+        ],
+        "single_line_address": "旺角登打士街43D號 達利商業大廈3樓B室, HK Kowloon, Hong Kong"
       }
     },
     {

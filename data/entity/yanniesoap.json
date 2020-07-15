@@ -11,15 +11,28 @@
     {
       "meta": {
         "id": "1064996593520233",
+        "username": "yanniesoap",
+        "name": "Yannie Soap 嬰兒皂",
         "about": "多以草本植物或天然礦物粉製作冷製皂，希望我製作的皂除了有植物油脂本身的獨有功效外，還增添草本植物各種舒緩特性，大家可以享受沐浴時光",
-        "categories": [
-          "Skincare service",
-          "Baby goods/children's goods",
-          "Product/service"
+        "category_list": [
+          {
+            "id": "1644814599176740",
+            "name": "Skin Care Service"
+          },
+          {
+            "id": "2232",
+            "name": "Baby Goods/Kids Goods"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "香港工業中心C座12樓1210B室",
-        "area": "Lai Chi Kok",
-        "email": "handmake.yannie@gmail.com"
+        "emails": [
+          "handmake.yannie@gmail.com"
+        ],
+        "single_line_address": "香港工業中心C座12樓1210B室, 852 Lai Chi Kok",
+        "website": "http://www.yanniesoap.com"
       },
       "url": "https://www.facebook.com/yanniesoap/"
     }

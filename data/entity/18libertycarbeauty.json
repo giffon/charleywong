@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/18LibertyCarBeauty/",
       "meta": {
-        "name": "18 Liberty Car Beauty",
         "id": "100462568203531",
+        "username": "18LibertyCarBeauty",
+        "name": "18 Liberty Car Beauty",
         "about": "本店汽車美容服務包括：洗車吸塵 / 全車打蠟 / 6H鍍膜 / 9H鍍膜 / 殺菌消毒蒸籠 / 皮革翻新 / 代辦驗車\n\n本店正同時進行以下優惠：\n消毒殺菌蒸籠期間限定大優惠\n洗車10送1優惠",
-        "categories": [
-          "Auto Detailing Service"
+        "category_list": [
+          {
+            "id": "1033987526649038",
+            "name": "Auto Detailing Service"
+          }
         ],
-        "addr": "九龍 觀塘 雲漢街30號 雲漢大廈地下4B",
-        "area": "Hong Kong",
-        "email": "18libertycarbeauty2020@gmail.com",
-        "tel": "63439100"
+        "emails": [
+          "18libertycarbeauty2020@gmail.com"
+        ],
+        "single_line_address": "九龍 觀塘 雲漢街30號 雲漢大廈地下4B, Hong Kong"
       }
     },
     {

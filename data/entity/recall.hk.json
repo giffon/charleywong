@@ -17,13 +17,21 @@
     {
       "url": "https://www.facebook.com/recall.hk/",
       "meta": {
-        "name": "世代懺悔錄：香港前途考古札記",
         "id": "1662302910758427",
+        "username": "recall.hk",
+        "name": "世代懺悔錄：香港前途考古札記",
         "about": "中共走數幾十年，整代人持續受騙，做長輩難辭其咎。自問能力有限，但仍想藉業餘考古重組記憶、深切自省，也盼未來世代汲取教訓，有智慧有能力扭轉乾坤，掌握自己命運。",
-        "categories": [
-          "Education Website",
-          "Education"
-        ]
+        "category_list": [
+          {
+            "id": "2704",
+            "name": "Education Website"
+          },
+          {
+            "id": "2250",
+            "name": "Education"
+          }
+        ],
+        "website": "https://medium.com/recall-hk"
       }
     }
   ],

@@ -8,14 +8,20 @@
     {
       "url": "https://www.facebook.com/urban.spiral.design/",
       "meta": {
-        "name": "Urban Spiral Design 本城設計",
         "id": "110824253811361",
+        "username": "urban.spiral.design",
+        "name": "Urban Spiral Design 本城設計",
         "about": "Design is not just furniture. We design and create space.",
-        "categories": [
-          "Interior Design Studio"
+        "category_list": [
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          }
         ],
-        "email": "urban.spiral.hk@gmail.com",
-        "tel": "66818298"
+        "emails": [
+          "urban.spiral.hk@gmail.com"
+        ],
+        "single_line_address": "Hong Kong"
       }
     },
     {

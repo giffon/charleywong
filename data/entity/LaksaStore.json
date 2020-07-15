@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/LaksaStore/",
       "meta": {
-        "name": "西九龍中心喇沙專門店",
         "id": "2032793236979177",
-        "about": "營業時間：12：00~21：30（逢星期三休息）\n地點：深水埗西九龍中心8樓food court\n鋪名：喇沙專門店\n電話：51167518\n\n歡迎光臨\n\n謝謝支持",
-        "categories": [
-          "Asian Fusion Restaurant"
+        "username": "LaksaStore",
+        "name": "西九龍中心喇沙專門店",
+        "about": "營業時間：12：00~21：30（逢星期三休息）\n地點：深水埗西九龍中心8樓food court\n鋪名：喇沙專門店\n電話：51167518\n\n歡迎光臨 \n\n謝謝支持 \n",
+        "category_list": [
+          {
+            "id": "174201535963762",
+            "name": "Asian Fusion Restaurant"
+          }
         ],
-        "addr": "深水埗欽州街37K西九龍中心8F10",
-        "area": "Kowloon, Hong Kong",
-        "tel": "51167518"
+        "single_line_address": "深水埗欽州街37K西九龍中心8F10, Kowloon, Hong Kong"
       }
     }
   ],

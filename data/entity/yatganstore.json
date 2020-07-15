@@ -11,14 +11,21 @@
     {
       "url": "https://www.facebook.com/yatganstore/",
       "meta": {
-        "name": "壹間士多-Online Contact Lens Shop（隱形眼鏡專門店）",
         "id": "225099337515321",
+        "username": "yatganstore",
+        "name": "壹間士多-Online Contact Lens Shop（隱形眼鏡專門店）",
         "about": "同一樣物件在不同地方購買，價值完全不一樣，但貨品其實根本沒有改變。",
-        "categories": [
-          "Cosmetics Store"
+        "category_list": [
+          {
+            "id": "144873802247220",
+            "name": "Cosmetics Store"
+          }
         ],
-        "email": "yatganstore@yahoo.com",
-        "tel": "54010353"
+        "emails": [
+          "yatganstore@yahoo.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://app.ecwid.com/jsp/2180397/simple-store"
       }
     },
     {

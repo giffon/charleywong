@@ -7,17 +7,20 @@
     {
       "url": "https://www.facebook.com/bakeriec/",
       "meta": {
-        "name": "Bakerie.C",
         "id": "127562557791421",
-        "categories": [
-          "Dessert Shop",
-          "Foodservice Distributor",
-          "Wholesale Bakery"
+        "username": "bakeriec",
+        "name": "Bakerie.C",
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "C9A 6/F, Wing Hing Industrial Building, Hing Yip Street, Kwun Tong",
-        "area": "Hong Kong",
-        "email": "bakerie.c@gmail.com",
-        "tel": "66973403"
+        "emails": [
+          "bakerie.c@gmail.com"
+        ],
+        "single_line_address": "C9A 6/F, Wing Hing Industrial Building, Hing Yip Street, Kwun Tong, Hong Kong",
+        "website": "https://sites.google.com/view/bakeriec/menu?authuser=1"
       }
     },
     {

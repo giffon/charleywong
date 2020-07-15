@@ -14,18 +14,29 @@
     {
       "url": "https://www.facebook.com/crossageoptical/",
       "meta": {
-        "name": "二代目眼鏡專門店",
         "id": "284242132233050",
+        "username": "crossageoptical",
+        "name": "二代目眼鏡專門店",
         "about": "C1室,2樓, 駱駝漆大廈第3座, 60號開源道, 觀塘, 九龍,香港",
-        "categories": [
-          "Sunglasses & Eyewear Store",
-          "Retail Company",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "1708896199364202",
+            "name": "Sunglasses & Eyewear Store"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "C1室,2樓, 駱駝漆大廈第3座, 60號開源道",
-        "area": "00000 Kwun Tong",
-        "email": "crossageoptical@gmail.com",
-        "tel": "92585038"
+        "emails": [
+          "crossageoptical@gmail.com"
+        ],
+        "single_line_address": "C1室,2樓, 駱駝漆大廈第3座, 60號開源道, 00000 Kwun Tong",
+        "website": "https://www.instagram.com/crossageoptical/"
       }
     }
   ],

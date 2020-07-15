@@ -10,15 +10,24 @@
     },
     {
       "meta": {
-        "name": "套套堂 buydomdom",
         "id": "164478214325571",
+        "username": "Buydomdom",
+        "name": "套套堂 buydomdom",
         "about": "套套堂｜最高瀏覽量的兩性用品網上商店｜buydomdom.com\n\n網購取貨點覆蓋全港：順豐站、智能櫃、便利店",
-        "categories": [
-          "Health/Beauty",
-          "Beauty, Cosmetic & Personal Care"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "email": "info@buydomdom.com",
-        "tel": "69222362"
+        "emails": [
+          "info@buydomdom.com"
+        ],
+        "website": "https://www.buydomdom.com"
       },
       "url": "https://www.facebook.com/Buydomdom/"
     },

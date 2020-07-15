@@ -14,16 +14,26 @@
     {
       "url": "https://www.facebook.com/the59tattoo/",
       "meta": {
-        "name": "The 59 Tattoo and Barber Shop",
         "id": "414998442039009",
-        "categories": [
-          "Tattoo & Piercing Shop",
-          "Barber Shop",
-          "Hair Salon"
+        "username": "the59tattoo",
+        "name": "The 59 Tattoo and Barber Shop",
+        "about": "\n",
+        "category_list": [
+          {
+            "id": "551469561691940",
+            "name": "Tattoo & Piercing Shop"
+          },
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          },
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          }
         ],
-        "addr": "1 Ming Lun Street, To Kwa Wan,",
-        "area": "852 Kowloon, Hong Kong",
-        "tel": "56610681"
+        "single_line_address": "1 Ming Lun Street, To Kwa Wan,, 852 Kowloon, Hong Kong",
+        "website": "https://www.instagram.com/the59tattoo/"
       }
     }
   ],

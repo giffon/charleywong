@@ -6,15 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "One Tenth Coffee",
         "id": "2197345413810493",
+        "username": "onetenthcoffee",
+        "name": "One Tenth Coffee",
         "about": "Speciality Coffee | Homemade Pastries",
-        "categories": [
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "Flat 510 , 5/F ., Premier Centre , 20 Cheung Shun Street",
-        "area": "Lai Chi Kok",
-        "email": "info@onetenthcoffee.net"
+        "emails": [
+          "info@onetenthcoffee.net"
+        ],
+        "single_line_address": "Flat 510 , 5/F ., Premier Centre , 20 Cheung Shun Street, Lai Chi Kok",
+        "website": "www.instagram.com/onetenth.coffee/"
       },
       "url": "https://www.facebook.com/onetenthcoffee/"
     },

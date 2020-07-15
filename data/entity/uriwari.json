@@ -10,14 +10,21 @@
     {
       "url": "https://www.facebook.com/uriwari/",
       "meta": {
-        "name": "Patisserie Uriwari",
         "id": "184886264960068",
+        "username": "uriwari",
+        "name": "Patisserie Uriwari",
         "about": "我們是一家位於葵興的和風Cafe，創作和洋風格的蛋糕、甜點以及飲料。門市訂購可享95折優惠，亦可外送蛋糕至各地鐵站。\n\n網站：www.uriwari.hk\n電話：2135 6705/5445 6300,Whatapps",
-        "categories": [
-          "Food & Beverage Company"
+        "category_list": [
+          {
+            "id": "2252",
+            "name": "Food & Beverage Company"
+          }
         ],
-        "email": "p.uriwari@gmail.com",
-        "tel": "2135670554456300"
+        "emails": [
+          "p.uriwari@gmail.com"
+        ],
+        "single_line_address": "葵涌葵昌路72-76號 Life@KCC 4樓409號舖 （葵興地鐵站E出口 沿天橋前行一分鐘）",
+        "website": "http://uriwari.hk"
       }
     }
   ],

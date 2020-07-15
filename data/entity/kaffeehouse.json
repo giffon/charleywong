@@ -7,14 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "Kaffee house 家.啡",
         "id": "1312828325451328",
+        "name": "Kaffee house 家.啡",
         "about": "Kaffee House is more than a cup of gourmet coffee to our customers. We wish every customer would have an amazing experience in a comfortable environment",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "kaffeehousehk@gmail.com",
-        "tel": "23300233"
+        "emails": [
+          "kaffeehousehk@gmail.com"
+        ],
+        "single_line_address": "24 Lo Tsz Tin Tsuen"
       },
       "url": "https://www.facebook.com/1312828325451328/"
     },

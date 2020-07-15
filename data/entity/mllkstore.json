@@ -10,16 +10,22 @@
     {
       "url": "https://www.facebook.com/mllkstore/",
       "meta": {
-        "name": "MLLK Store",
         "id": "617637162020732",
+        "username": "mllkstore",
+        "name": "MLLK Store",
         "about": "日韓泰台代購\n韓國東大門高質女裝",
-        "categories": [
-          "Apparel & Clothing",
-          "Baby Goods/Kids Goods"
+        "category_list": [
+          {
+            "id": "1086422341396773",
+            "name": "Apparel & Clothing"
+          },
+          {
+            "id": "2232",
+            "name": "Baby Goods/Kids Goods"
+          }
         ],
-        "addr": "西灣河興民街",
-        "area": "Hong Kong",
-        "tel": "97355954"
+        "single_line_address": "西灣河興民街, Hong Kong",
+        "website": "mllkstore.boutir.com"
       }
     },
     {
