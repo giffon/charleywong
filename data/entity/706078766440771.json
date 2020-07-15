@@ -6,18 +6,28 @@
   },
   "webpages": [
     {
-      "url": "https://www.facebook.com/somewhereorganicfarm",
+      "url": "https://www.somewhereorganic.com"
+    },
+    {
+      "url": "https://www.facebook.com/somewhereorganicfarm/",
       "meta": {
-        "name": "亦小園 SomeWhere",
-        "id": "706078766440771",
-        "about": "No Pesticide, ONLY natural farming\n\nProvide safe Veggies and Fruit to TKO members",
+        "name": "亦小園 Somewhere Organic Farm",
+        "id": "103690534689526",
+        "about": "位於香港清水灣的私人非牟利有機藝術農莊，由善心人資助65,000呎沃土令本地農夫圓夢。\n\n農莊承諾不使用任何化學品種植，目標種植過百種香港首見的熱帶果樹及世界各地的奇花異木。",
         "categories": [
-          "Farm",
-          "Organic Grocery Store",
-          "Agricultural Service"
+          "Farm"
         ],
-        "email": "info@somewhereorganic.com",
-        "tel": "57275888"
+        "addr": "End of Hang Hau Wing Lung Road, Clear Water Bay",
+        "area": "Sai Kung",
+        "email": "hello@somewhereorganic.com",
+        "tel": "66881422"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/somewhereorganic/",
+      "meta": {
+        "name": "亦小園 Somewhere Organic Farm",
+        "about": "🏞️ 香港清水灣私人非牟利有機藝術農莊\n👨🏻‍🌾 善心人資助65,000呎沃土\n🍊 不使用任何化學品種植\n🌱 目標種植100+種香港首見的熱帶果樹及奇花異木\n🙌🏻 回饋社會、回饋大自然\n#organicfarm\n\n查詢參觀亦小園｜Enquiry for visiting us :"
       }
     }
   ],
@@ -25,5 +35,20 @@
   "tags": [
     "farm",
     "foodStore"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "End of Hang Hau Wing Lung Road, Clear Water Bay"
+      },
+      "googleMapsPlaceId": "ChIJi2evx58FBDQRDtLPLy8x7rQ",
+      "coordinates": {
+        "lat": 22.3188646,
+        "lng": 114.2876668
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    }
   ]
 }
