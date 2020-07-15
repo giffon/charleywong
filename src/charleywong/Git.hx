@@ -8,6 +8,7 @@ import sys.io.*;
 #end
 import haxe.DynamicAccess;
 import haxe.Json;
+using StringTools;
 
 class Git {
     public final config:{
@@ -40,8 +41,13 @@ class Git {
             },
             encoding: 'utf8',
         })) {
-            case {status: status, error: error} if (status != 0):
-                throw error;
+            case {status: status, error: error, stderr: stderr, stdout: stdout} if (status != 0):
+                if (error != null)
+                    throw error;
+                else if (stderr != null && (stderr:String).trim() != "")
+                    throw stderr;
+                else
+                    throw stdout;
             case {stdout: stdout}:
                 return stdout;
         }
