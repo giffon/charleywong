@@ -1,0 +1,117 @@
+{
+  "id": "hkbook.org",
+  "name": {
+    "zh": "博勢力"
+  },
+  "webpages": [
+    {
+      "url": "https://hkbook.org"
+    },
+    {
+      "url": "https://www.facebook.com/hkbook.org/",
+      "meta": {
+        "id": "418597081529158",
+        "username": "hkbook.org",
+        "name": "博勢力",
+        "category_list": [
+          {
+            "id": "1314020451960517",
+            "name": "Media"
+          },
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
+        ],
+        "single_line_address": "2/F The Capital, 尖沙咀",
+        "website": "https://hkbook.org"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/hk.book/",
+      "meta": {
+        "name": "博勢力 無人書店"
+      }
+    },
+    {
+      "url": "https://t.me/hk_book"
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/hkbook.org/posts/2188709574517891",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hkbook.org/posts/2191156764273172",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hkbook.org/posts/2192350360820479",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hkbook.org/posts/2199860366736145",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hkbook.org/posts/2282425261812988",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "book",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀漆咸道南61-65號首都廣場2樓S083號舖"
+      },
+      "googleMapsPlaceId": "ChIJpbbLzLEBBDQRIvE9X6XreBA",
+      "coordinates": {
+        "lat": 22.29964409999999,
+        "lng": 114.1754722
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "天后英皇道14號蘋果商場1樓66號舖"
+      },
+      "googleMapsPlaceId": "ChIJVQG79ewBBDQRLIHgmtHP4E0",
+      "coordinates": {
+        "lat": 22.28276,
+        "lng": 114.1927027
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "西九龍中心5樓蘋果商場5K90號舖"
+      },
+      "googleMapsPlaceId": "ChIJe-pYFrMABDQROPEISziELWo",
+      "coordinates": {
+        "lat": 22.33129,
+        "lng": 114.159791
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ]
+}
