@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20200712
+    container: giffon/charleywong_devcontainer_workspace:20200716
     services:
       selenium:
         image: selenium/standalone-chrome-debug:3.141.59-yttrium
@@ -32,7 +32,7 @@ jobs:
       - name: Install libraries
         run: |
           set -ex
-          npm install
+          yarn
           bash build-dclookup.sh
           haxelib newrepo
           haxelib install all --always -notimeout
@@ -73,7 +73,7 @@ jobs:
     needs: build
     if: success() && github.event_name == 'push' && github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20200712
+    container: giffon/charleywong_devcontainer_workspace:20200716
     steps:
       - uses: actions/checkout@v1
         with:
@@ -101,7 +101,7 @@ jobs:
       - name: Install libraries
         run: |
           set -ex
-          npm install
+          yarn
           haxelib newrepo
           haxelib install all --always
       - name: Dump YellowBlueMap

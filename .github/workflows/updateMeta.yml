@@ -7,7 +7,7 @@ on:
 jobs:
   job:
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20200712
+    container: giffon/charleywong_devcontainer_workspace:20200716
     steps:
       - uses: actions/checkout@v1
         with:

@@ -26,6 +26,7 @@ RUN apt-get update \
     && apt-get install -y python3.7 \
     && add-apt-repository ppa:git-core/ppa \
     && apt-get install -y git \
+    && npm install -g yarn \
     #
     # Clean up
     && apt-get autoremove -y \
