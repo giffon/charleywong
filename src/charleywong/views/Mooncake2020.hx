@@ -370,6 +370,18 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/gooddaycafehk"
         },
         {
+            "name": "香菜月餅",
+            "note": "香菜先生 x 秋夕 x Dion The Eater",
+            "types": [
+                "香菜月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.instagram.com/p/CCphMZMANP_/"
+            ],
+            "charleywong": "https://charleywong.giffon.io/list/%E9%A6%99%E8%8F%9C%E6%9C%88%E9%A4%85/mr.coriander.hk+an_autumn_night+diontheeater"
+        },
+        {
             "name": "Uncle MuSang 貓山大叔",
             "note": "",
             "types": [
