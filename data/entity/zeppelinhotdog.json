@@ -264,6 +264,84 @@
       "area": {
         "zh": "黃大仙區"
       }
+    },
+    {
+      "address": {
+        "zh": "旺角登打士街55號地下6號鋪"
+      },
+      "googleMapsPlaceId": "EiE1NSBEdW5kYXMgU3QsIE1vbmcgS29rLCBIb25nIEtvbmciMBIuChQKEgmrW4bCxgAENBEe4nXcZFz9nhA3KhQKEgkptU0kxwAENBGyaKK8UiWAkA",
+      "coordinates": {
+        "lat": 22.3158428,
+        "lng": 114.1716215
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵涌廣場3樓3069號T16-T17鋪"
+      },
+      "googleMapsPlaceId": "ChIJOUTkt734AzQR2DIuCxrfkck",
+      "coordinates": {
+        "lat": 22.35843849999999,
+        "lng": 114.1274926
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "青山道香港工業中心地下A座A6A舖"
+      },
+      "googleMapsPlaceId": "ChIJtx52AVUHBDQRVE8I141mrVU",
+      "coordinates": {
+        "lat": 22.3375561,
+        "lng": 114.14673
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角彌敦道688號旺角中心第一座一期2樓SB03舖"
+      },
+      "googleMapsPlaceId": "ChIJ9zIy2ccABDQRuo5kcLwjPE8",
+      "coordinates": {
+        "lat": 22.3198395,
+        "lng": 114.1697195
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "坑口厚德商場food lane EF21號舖"
+      },
+      "googleMapsPlaceId": "ChIJsff1hHUEBDQR3w0xe56bHBQ",
+      "coordinates": {
+        "lat": 22.31655,
+        "lng": 114.266281
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "灣仔道121號地鋪"
+      },
+      "googleMapsPlaceId": "ChIJH6G3D1sABDQRHP6l-rUsb3U",
+      "coordinates": {
+        "lat": 22.2766595,
+        "lng": 114.1757448
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -277,6 +355,7 @@
     "Y_EAT02263",
     "Y_EAT02264",
     "Y_EAT02265",
-    "Y_EAT02372"
+    "Y_EAT02372",
+    "Y_EAT02374"
   ]
 }
