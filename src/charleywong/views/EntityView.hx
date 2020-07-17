@@ -12,6 +12,17 @@ class EntityView extends View {
         return super.render();
     }
 
+    override function ogMeta() return jsx('
+        <Fragment>
+            <meta name="twitter:card" content="summary_large_image" />
+            ${super.ogMeta()}
+            <meta property="og:type" content="website" />
+            <meta property="og:image" content=${Path.join([ServerMain.domain, picUrl()])} />
+            <meta property="og:image:width" content=${ServerMain.entityProfilePicWidth} />
+            <meta property="og:image:height" content=${ServerMain.entityProfilePicHeight} />
+        </Fragment>
+    ');
+
     public var entity(get, never):Entity;
     function get_entity() return props.entity;
 
@@ -30,10 +41,12 @@ class EntityView extends View {
         }
 
         return jsx('
-            <div
-                className="places"
-                data-places=${haxe.Json.stringify(entity.places)}
-            >
+            <div className="text-center">
+                <div
+                    className="places"
+                    data-places=${haxe.Json.stringify(entity.places)}
+                >
+                </div>
             </div>
         ');
     }
@@ -146,15 +159,22 @@ class EntityView extends View {
         return null;
     }
 
+    function picUrl() return '/${entity.id}/profile.png';
+
     override function bodyContent() {
         var jsonHref = '${entity.id}.json';
         var picUrl = '/${entity.id}/profile.png';
+        var profilePicStyle = {
+            backgroundImage: 'url("${picUrl}")',
+        };
         var logoHeaderStyle = {
-            backgroundImage: 'url(${R("/images/charley-600-w.png")})',
+            backgroundImage: 'url("${R("/images/charley-600-w.png")}")',
         };
         var closed = if (entity.tags.has("closed")) {
             jsx('
-                <span className="badge badge-pill badge-dark font-weight-normal">已結業</span>
+                <div className="text-center mb-3">
+                    <span className="badge badge-pill badge-dark font-weight-normal">已結業</span>
+                </div>
             ');
         } else {
             null;
@@ -166,27 +186,22 @@ class EntityView extends View {
                         <a href="/" className="logo-header" style=${logoHeaderStyle}></a>
                     </header>
                     <div className="container-entity position-relative mx-auto rounded-10 bg-white container-btm">
-                        <div className="mb-3 text-center">
+                        <div className="text-center">
                             <div
                                 className="share-button"
                                 data-title=${title()}
                                 data-url=${canonical()}
                             />
-                            <img
-                                className="profile-pic mb-2"
-                                src=${picUrl}
-                                loading="lazy"
-                                decoding="async"
-                                width=${ServerMain.entityProfilePicSize}
-                                height=${ServerMain.entityProfilePicSize}
-                                alt=${entity.name.printAll()}
-                            />
-                            <h3>${entity.name.printAll()}</h3>
-                            <div className="text-center mb-3">${closed}</div>
-                            <a className="btn btn-light" href=${jsonHref}>查看 JSON 格式 📃</a>
-                            <div className="text-center mb-3">
-                                ${renderPlaces()}
+                            <div className="profile-pic-wrapper mb-2">
+                                <div
+                                    className="profile-pic"
+                                    style=${profilePicStyle}
+                                />
                             </div>
+                            <h3>${entity.name.printAll()}</h3>
+                            ${closed}
+                            <a className="btn btn-light mb-1" href=${jsonHref}>查看 JSON 格式 📃</a>
+                            ${renderPlaces()}
                         </div>
                         <div className="text-center mb-3">
                             ${entity.webpages.filter(p -> p.hidden != true).map(renderWebpage)}

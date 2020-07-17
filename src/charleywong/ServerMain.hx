@@ -196,7 +196,8 @@ class ServerMain {
         return getPicOfText(e.name[en]);
     }
 
-    static public final entityProfilePicSize = 720;
+    static public final entityProfilePicWidth = 1200;
+    static public final entityProfilePicHeight = 630;
 
     static function entityProfilePic(req:Request, res:Response) {
         var entityId:String = req.params.entityId;
@@ -206,8 +207,8 @@ class ServerMain {
             return;
         }
 
-        var w = entityProfilePicSize;
-        var border = 42;
+        var border = 46;
+        var w = entityProfilePicHeight - border - border;
         getEntityPic(entity, w)
             .then(function(pic) {
                 var frame = "static/images/charley-wong-profile-cover.png";
@@ -215,10 +216,12 @@ class ServerMain {
                     .then(function(args) {
                         var pic:Jimp = args[0];
                         var frame:Jimp = args[1];
-                        return frame.clone()
-                            .composite(pic.resize(w - border * 2, w - border * 2), border, border)
-                            .composite(frame, 0, 0)
-                            .getBufferAsync(Jimp.MIME_PNG);
+                        return Jimp.create(entityProfilePicWidth, entityProfilePicHeight, "#f4a948")
+                            .then(img -> img
+                                .composite(pic.resize(w, w), (entityProfilePicWidth - entityProfilePicHeight) * 0.5 + border, border)
+                                .composite(frame, 0, 0)
+                                .getBufferAsync(Jimp.MIME_PNG)
+                            );
                     });
             })
             .then(function(buf) {
