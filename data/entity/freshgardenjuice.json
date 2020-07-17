@@ -23,6 +23,13 @@
         ],
         "single_line_address": "新界葵芳葵涌廣場地下A45A鋪, Hong Kong"
       }
+    },
+    {
+      "url": "https://www.instagram.com/fresh_garden_juice/",
+      "meta": {
+        "name": "鮮樂園",
+        "about": "地址：新界葵芳葵涌廣場地下A45A鋪"
+      }
     }
   ],
   "posts": [
@@ -42,6 +49,22 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新界葵芳葵涌廣場地下A45A鋪"
+      },
+      "googleMapsPlaceId": "ChIJOUTkt734AzQR2DIuCxrfkck",
+      "coordinates": {
+        "lat": 22.35843849999999,
+        "lng": 114.1274926
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
