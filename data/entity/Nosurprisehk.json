@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/Nosurprisehk/",
       "meta": {
-        "name": "無奇不有",
         "id": "720426731363951",
+        "username": "Nosurprisehk",
+        "name": "無奇不有",
         "about": "一個唔扮專家, 唔會一味靠嚇, 天南地北, 乜野都講既古靈精怪網台節目",
-        "categories": [
-          "Media/News Company"
-        ]
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
+        ],
+        "website": "http://www.ourradio.hk/index.php/radio-program/newage/mystery"
       }
     },
     {

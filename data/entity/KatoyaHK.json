@@ -7,14 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "加藤屋Katoya",
         "id": "1665144723727685",
+        "username": "KatoyaHK",
+        "name": "加藤屋Katoya",
         "about": "日式牛丼專門店\n\n給香港人多一個日式牛丼選擇，除牛丼外還有各式各樣的日式美食，繼有創新的麻辣牛肉/豚肉飯，各式的鐵板飯，有些分店還有港人最愛的火鍋可供選擇，仲唔快D嚟試下~~",
-        "categories": [
-          "Donburi Restaurant"
+        "category_list": [
+          {
+            "id": "619109018238267",
+            "name": "Donburi Restaurant"
+          }
         ],
-        "email": "cs@katoyahk.com",
-        "tel": "52954135"
+        "emails": [
+          "cs@katoyahk.com"
+        ]
       },
       "url": "https://www.facebook.com/KatoyaHK/"
     }

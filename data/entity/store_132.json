@@ -10,16 +10,28 @@
     {
       "url": "https://www.facebook.com/101643191448463/",
       "meta": {
-        "name": "Store_132",
         "id": "101643191448463",
+        "name": "Store_132",
         "about": "沒有特定的風格,會隨著喜好不停轉",
-        "categories": [
-          "Clothing Store",
-          "Clothing (Brand)",
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "manlok_369@yahoo.com.hk",
-        "tel": "97168756"
+        "emails": [
+          "manlok_369@yahoo.com.hk"
+        ],
+        "single_line_address": "旺角百寶利商業中心1806室, 香港",
+        "website": "https://www.store132.com"
       }
     },
     {

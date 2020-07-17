@@ -7,17 +7,26 @@
   "webpages": [
     {
       "meta": {
-        "name": "火鍋撚 Hot Pot Land",
         "id": "538322209689283",
+        "username": "hotpotland",
+        "name": "火鍋撚 Hot Pot Land",
         "about": "Hot Pot",
-        "categories": [
-          "Fondue Restaurant",
-          "Shabu Shabu Restaurant",
-          "Chinese Restaurant"
+        "category_list": [
+          {
+            "id": "167116956674095",
+            "name": "Fondue Restaurant"
+          },
+          {
+            "id": "1754950428117615",
+            "name": "Shabu Shabu Restaurant"
+          },
+          {
+            "id": "174483852595760",
+            "name": "Chinese Restaurant"
+          }
         ],
-        "addr": null,
-        "area": "旺角染布房街6號1樓(旺角店)/香港中環雲咸街46-48號雲明行3字樓(\u0003中環店)/皇后大道西554-560號日富里地下1號舖(西環店)",
-        "tel": "23361098"
+        "single_line_address": "旺角染布房街6號1樓(旺角店)/香港中環雲咸街46-48號雲明行3字樓(\u0003中環店)/皇后大道西554-560號日富里地下1號舖(西環店)",
+        "website": "http://onondining.com"
       },
       "url": "https://www.facebook.com/hotpotland/"
     },
@@ -31,15 +40,18 @@
     {
       "url": "https://www.facebook.com/lonelyhotpotland/",
       "meta": {
-        "name": "獨 ‧ 火鍋撚 Lonely Hot Pot Land",
         "id": "103746321103797",
+        "username": "lonelyhotpotland",
+        "name": "獨 ‧ 火鍋撚 Lonely Hot Pot Land",
         "about": "秘藏典華 頤養天年\n壹人壹鍋 撚手火鍋\n\n貴為火鍋撚旗下首間壹人壹鍋專門店，《獨‧火鍋撚》秉承《火鍋撚》的宗旨，嚴選優質食材，滋味湯底, 及創新美食，為客人提供尊貴的火鍋體驗。",
-        "categories": [
-          "Fondue Restaurant"
+        "category_list": [
+          {
+            "id": "167116956674095",
+            "name": "Fondue Restaurant"
+          }
         ],
-        "addr": "旺角白布街/染布房街交界, 藝興大廈地下14號舖",
-        "area": "Kowloon, Hong Kong",
-        "tel": "23367370"
+        "single_line_address": "旺角白布街/染布房街交界, 藝興大廈地下14號舖, Kowloon, Hong Kong",
+        "website": "https://onondining.com/"
       }
     },
     {
@@ -52,16 +64,26 @@
     {
       "url": "https://www.facebook.com/hotpotwonderland/",
       "meta": {
-        "name": "火鍋撚 ‧ 典華",
-        "id": "1713117738978601",
-        "about": "延續旺角火鍋撚傳奇, 中環<火鍋撚 | 典華>帶比你更多創意美食!\n\n除咗招牌紅白鴛鴦湯，酸菜白肉湯...中環分店仲有獨家<麻辣鱔鍋>同<麻辣羊腩鍋> 秘製滋味只此一家!",
-        "categories": [
-          "Hot Pot Restaurant"
+        "id": "538322209689283",
+        "username": "hotpotland",
+        "name": "火鍋撚 Hot Pot Land",
+        "about": "Hot Pot",
+        "category_list": [
+          {
+            "id": "167116956674095",
+            "name": "Fondue Restaurant"
+          },
+          {
+            "id": "1754950428117615",
+            "name": "Shabu Shabu Restaurant"
+          },
+          {
+            "id": "174483852595760",
+            "name": "Chinese Restaurant"
+          }
         ],
-        "addr": "香港中環雲咸街46-48號雲明行3字樓",
-        "area": "Hong Kong",
-        "email": "hotpotwonderland@gmail.com",
-        "tel": "93638980"
+        "single_line_address": "旺角染布房街6號1樓(旺角店)/香港中環雲咸街46-48號雲明行3字樓(\u0003中環店)/皇后大道西554-560號日富里地下1號舖(西環店)",
+        "website": "http://onondining.com"
       }
     },
     {

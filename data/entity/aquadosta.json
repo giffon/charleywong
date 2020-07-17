@@ -11,16 +11,28 @@
     {
       "url": "https://www.facebook.com/aquadosta/",
       "meta": {
-        "name": "水漩道游泳治療教室 Aquado Swimming Therapy Academy",
         "id": "302694927083327",
+        "username": "aquadosta",
+        "name": "水漩道游泳治療教室 Aquado Swimming Therapy Academy",
         "about": "中港台地區首位國際註冊混用Watsu水療和Hallwick技巧之游泳治療師。提供水中運動復康訓練、水療和游泳治療，改善身體姿勢和痛症，所教學生超過1000名，信心保證。",
-        "categories": [
-          "Health Spa",
-          "Sports",
-          "Coach"
+        "category_list": [
+          {
+            "id": "211987392145473",
+            "name": "Health Spa"
+          },
+          {
+            "id": "964585346994407",
+            "name": "Sports"
+          },
+          {
+            "id": "1802",
+            "name": "Coach"
+          }
         ],
-        "email": "aquado.sta@gmail.com",
-        "tel": "95789985"
+        "emails": [
+          "aquado.sta@gmail.com"
+        ],
+        "website": "https://www.aquadosta.com/"
       }
     },
     {

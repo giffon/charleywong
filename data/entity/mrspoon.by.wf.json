@@ -7,18 +7,27 @@
     {
       "url": "https://www.facebook.com/2444485388904177/",
       "meta": {
-        "name": "大角咀榮發凍肉",
         "id": "2444485388904177",
+        "name": "大角咀榮發凍肉",
         "about": "大角咀榮發凍肉， 四十年老字號。一直以食材新鮮，價錢公道為本。現在，更由客人所關心的出發，為客人提供不同增值服務，務求做到與別不同的凍肉零售體驗。",
-        "categories": [
-          "Butcher Shop",
-          "Foodservice Distributor",
-          "Health Food Store"
+        "category_list": [
+          {
+            "id": "181564868547915",
+            "name": "Butcher Shop"
+          },
+          {
+            "id": "200019523363001",
+            "name": "Foodservice Distributor"
+          },
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          }
         ],
-        "addr": "深水埗大角咀福全街市政大樓地下M7鋪",
-        "area": "Hong Kong",
-        "email": "tkswingfat@gmail.com",
-        "tel": "93390447"
+        "emails": [
+          "tkswingfat@gmail.com"
+        ],
+        "single_line_address": "深水埗大角咀福全街63號市政大樓地下M7鋪, Hong Kong"
       }
     },
     {

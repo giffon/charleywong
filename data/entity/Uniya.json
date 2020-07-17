@@ -8,16 +8,19 @@
     {
       "url": "https://www.facebook.com/1724359287828956/",
       "meta": {
-        "name": "海膽屋Uniya",
         "id": "1724359287828956",
+        "name": "海膽屋Uniya",
         "about": "本店專營各國海膽,生蠔,壽司,刺身",
-        "categories": [
-          "Sushi Restaurant"
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          }
         ],
-        "addr": "上環永樂街28-34號東成商業大廈地下A舖(港鐵站A2出口)",
-        "area": "Hong Kong",
-        "email": "uni_ya@hotmail.com",
-        "tel": "24092409"
+        "emails": [
+          "uni_ya@hotmail.com"
+        ],
+        "single_line_address": "上環永樂街28-34號東成商業大廈地下A舖(港鐵站A2出口), Hong Kong"
       }
     }
   ],

@@ -7,15 +7,20 @@
     {
       "url": "https://www.facebook.com/thenaphk/",
       "meta": {
-        "name": "The Nap",
         "id": "2122531411391517",
-        "categories": [
-          "Hotel"
+        "username": "thenaphk",
+        "name": "The Nap",
+        "category_list": [
+          {
+            "id": "164243073639257",
+            "name": "Hotel"
+          }
         ],
-        "addr": "Unit B, 4th Floor, Lyton Building, 42 Mody Road, Tsim Sha Tsui, Hong Kong",
-        "area": "000 Hong Kong",
-        "email": "inotelhk@gmail.com",
-        "tel": "61436106"
+        "emails": [
+          "inotelhk@gmail.com"
+        ],
+        "single_line_address": "Unit B, 4th Floor, Lyton Building, 42 Mody Road, Tsim Sha Tsui, Hong Kong, 000 Hong Kong",
+        "website": "www.hkcapsule.com"
       }
     },
     {

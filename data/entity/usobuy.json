@@ -11,15 +11,28 @@
     {
       "url": "https://www.facebook.com/usobuy/",
       "meta": {
-        "name": "嘘購 〖USO〗",
         "id": "274802093468021",
+        "username": "usobuy",
+        "name": "嘘購 〖USO〗",
         "about": "噓 (日文：うそ，羅馬拼音：USO) 。意指，謊話。）\n\n希望您們能在這兒找到不能相信一般的實用，和新產品。\n本店銷售產品有兩條Line：\n1）日語教具\n2）非中國製產品，主要為日本，台灣。",
-        "categories": [
-          "Shopping & Retail",
-          "Games/Toys",
-          "Baby Goods/Kids Goods"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          },
+          {
+            "id": "2232",
+            "name": "Baby Goods/Kids Goods"
+          }
         ],
-        "email": "usobuyjp@gmail.com"
+        "emails": [
+          "usobuyjp@gmail.com"
+        ],
+        "website": "www.usobuy.store"
       }
     },
     {

@@ -15,17 +15,25 @@
     {
       "url": "https://www.facebook.com/shunsoap.hk/",
       "meta": {
-        "name": "純。製皂 Shun Soap",
         "id": "269199606758945",
+        "username": "shunsoap.hk",
+        "name": "純。製皂 Shun Soap",
         "about": "健康生活自己揀 健康皮膚自己梘\n歡迎訂製結婚回禮、百日宴小禮物、私人派對禮物、母乳皂等等",
-        "categories": [
-          "Health/Beauty",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "葵興美順工業大廈",
-        "area": "Hong Kong",
-        "email": "shunsoap.hk@gmail.com",
-        "tel": "51103343"
+        "emails": [
+          "shunsoap.hk@gmail.com"
+        ],
+        "single_line_address": "葵興美順工業大廈, Hong Kong",
+        "website": "https://shunsoaphk.wixsite.com/sshk"
       }
     },
     {

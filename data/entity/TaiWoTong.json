@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/TaiWoTong/",
       "meta": {
-        "name": "泰和堂中醫診所",
         "id": "581665478518688",
+        "username": "TaiWoTong",
+        "name": "泰和堂中醫診所",
         "about": "泰和堂中醫診所由香港中醫藥管理委員會之註冊中醫師開設。\n佐敦診所, 秀茂坪診所,將軍澳診所(調景嶺) ,及何文田診所現正投入服務。",
-        "categories": [
-          "Medical Company"
+        "category_list": [
+          {
+            "id": "2243",
+            "name": "Medical Company"
+          }
         ],
-        "email": "taiwotong@gmail.com"
+        "emails": [
+          "taiwotong@gmail.com"
+        ],
+        "website": "http://www.taiwotonghk.com/"
       }
     }
   ],

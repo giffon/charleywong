@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/Floatudio/",
       "meta": {
-        "name": "長洲遊艇 The Floatudio Cheung Chau",
         "id": "116109005634684",
-        "about": "離島包船、生日派對場地、 包船派對、場地租借、遊艇派對、 遊船河 、生日驚喜 、遊艇求婚 、 團體聚餐 、夜釣墨魚、獨立包船",
-        "categories": [
-          "Boat Tour Agency"
+        "username": "Floatudio",
+        "name": "長洲遊艇 The Floatudio Cheung Chau",
+        "about": "離島包船、生日派對場地、 包船派對、場地租借、遊艇派對、 遊船河 、生日驚喜 、遊艇求婚 、 團體聚餐 、夜釣墨魚、獨立包船 ",
+        "category_list": [
+          {
+            "id": "1311987892149312",
+            "name": "Boat Tour Agency"
+          }
         ],
-        "addr": "Cheung Chau",
-        "area": "00852 Hong Kong",
-        "email": "floatudio@gmail.com",
-        "tel": "66281218"
+        "emails": [
+          "floatudio@gmail.com"
+        ],
+        "single_line_address": "Cheung Chau, 00852 Hong Kong",
+        "website": "http://www.floatudio.com"
       }
     },
     {

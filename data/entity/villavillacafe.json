@@ -6,17 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Villa Villa Cafe & Bar",
         "id": "1093830503969571",
+        "username": "villavillacafe",
+        "name": "Villa Villa Cafe & Bar",
         "about": "Villa Villa Cafe\n開始營業於 2015年12月7日\n\n本公司成立於2015年，持有普通食肆牌照。\n牌照號碼：2211805812",
-        "categories": [
-          "Modern European Restaurant",
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "188360891207745",
+            "name": "Modern European Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "北角錦屏街後街東發大厦25號A 地鋪",
-        "area": "Hong Kong",
-        "email": "villavillahk@gmail.com",
-        "tel": "27779033"
+        "emails": [
+          "villavillahk@gmail.com"
+        ],
+        "single_line_address": "北角錦屏街後街東發大厦25號A 地鋪, Hong Kong"
       },
       "url": "https://www.facebook.com/villavillacafe/"
     },

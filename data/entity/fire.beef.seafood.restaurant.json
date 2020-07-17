@@ -6,15 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "火滾肥牛海鮮火鍋專門店",
         "id": "173888872656831",
-        "categories": [
-          "Hot Pot Restaurant",
-          "Fondue Restaurant"
+        "username": "fire.beef.seafood.restaurant",
+        "name": "火滾肥牛海鮮火鍋專門店",
+        "category_list": [
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          },
+          {
+            "id": "167116956674095",
+            "name": "Fondue Restaurant"
+          }
         ],
-        "addr": "九龍長沙灣青山道422-428號秋創商業大廈地庫",
-        "area": "Cheung Sha Wan, Hong Kong",
-        "tel": "27413328"
+        "single_line_address": "九龍長沙灣青山道422-428號秋創商業大廈地庫, Cheung Sha Wan, Hong Kong"
       },
       "url": "https://www.facebook.com/fire.beef.seafood.restaurant/"
     }

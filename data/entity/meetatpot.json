@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/meetatpot/",
       "meta": {
-        "name": "煲底海鮮火鍋料理",
         "id": "110079663945743",
+        "username": "meetatpot",
+        "name": "煲底海鮮火鍋料理",
         "about": "尖沙咀金馬倫道38-40號金龍中心3樓",
-        "categories": [
-          "Hot Pot Restaurant"
+        "category_list": [
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          }
         ],
-        "addr": "金馬倫道38-40號\n金龍中心3樓",
-        "area": "Hong Kong",
-        "tel": "61622721"
+        "single_line_address": "金馬倫道38-40號\n金龍中心3樓, Hong Kong"
       }
     },
     {

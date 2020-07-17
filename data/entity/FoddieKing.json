@@ -7,12 +7,22 @@
     {
       "url": "https://www.facebook.com/FoddieKing/",
       "meta": {
-        "name": "放題",
         "id": "102114691544963",
-        "categories": [
-          "Restaurant",
-          "Personal Blog",
-          "Product/Service"
+        "username": "FoddieKing",
+        "name": "放題",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       }
     }

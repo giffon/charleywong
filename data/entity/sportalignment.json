@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/sportalignment/",
       "meta": {
-        "name": "Sport Alignment 力學矯正鞋墊中心 Biomechanics Insoles Centre",
         "id": "376933319018765",
+        "username": "sportalignment",
+        "name": "Sport Alignment 力學矯正鞋墊中心 Biomechanics Insoles Centre",
         "about": "透過鞋墊治療，從力學根源解除痛症成因，令人重拾生活，繼續追求夢想。\n\n你有想做的事，卻被痛症困擾嗎？PM跟我們談談吧！",
-        "categories": [
-          "Medical Company"
+        "category_list": [
+          {
+            "id": "2243",
+            "name": "Medical Company"
+          }
         ],
-        "addr": "1608, Office Tower 2, Grand Plaza, Mongkok",
-        "area": "Hong Kong",
-        "email": "info@sportalignment.com",
-        "tel": "25616818"
+        "emails": [
+          "info@sportalignment.com"
+        ],
+        "single_line_address": "1608, Office Tower 2, Grand Plaza, Mongkok, Hong Kong",
+        "website": "http://www.sportalignment.com"
       }
     },
     {

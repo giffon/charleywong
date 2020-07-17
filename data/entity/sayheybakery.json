@@ -14,14 +14,20 @@
     },
     {
       "meta": {
-        "name": "四喜麵包西餅",
         "id": "617982941575321",
+        "username": "sayheybakery",
+        "name": "四喜麵包西餅",
         "about": "長沙灣青山道500號百美工業大廈地下B6-8號鋪（荔枝角B1出口）\n星期一至六：06:30 - 19:00\n星期日：休息",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "email": "say.hey.bakery@gmail.com",
-        "tel": "39570883"
+        "emails": [
+          "say.hey.bakery@gmail.com"
+        ],
+        "website": "https://www.instagram.com/sayhey4cake/"
       },
       "url": "https://www.facebook.com/sayheybakery/"
     }

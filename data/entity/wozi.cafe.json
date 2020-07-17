@@ -8,18 +8,28 @@
     {
       "url": "https://www.facebook.com/wozi.cafe/",
       "meta": {
-        "name": "窩子 WoZi",
         "id": "846484355448981",
+        "username": "wozi.cafe",
+        "name": "窩子 WoZi",
         "about": "新蒲崗仁愛街36號",
-        "categories": [
-          "Coffee Shop",
-          "Dessert Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "36 Yan Oi Street, San Po Kong",
-        "area": "Hong Kong",
-        "email": "wozi.cafe@gmail.com",
-        "tel": "27960001"
+        "emails": [
+          "wozi.cafe@gmail.com"
+        ],
+        "single_line_address": "36 Yan Oi Street, San Po Kong, Hong Kong"
       }
     },
     {

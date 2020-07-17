@@ -7,13 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "反抗有理 PhysioResist",
         "id": "100521374755288",
+        "name": "反抗有理 PhysioResist",
         "about": "「反抗有理」，由一群關心社會的物理治療師成立，旨在集結業界，希望以自身的力量，為社會的不公義發聲。\n\n「暴政當前，反抗有理」",
-        "categories": [
-          "Medical & Health"
+        "category_list": [
+          {
+            "id": "145118935550090",
+            "name": "Medical & Health"
+          }
         ],
-        "email": "physio.resist@gmail.com"
+        "emails": [
+          "physio.resist@gmail.com"
+        ],
+        "website": "https://t.me/joinchat/K1z2blQlZWKTGDMUuIG2pw"
       },
       "url": "https://www.facebook.com/100521374755288/"
     }

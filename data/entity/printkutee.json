@@ -10,15 +10,25 @@
     {
       "url": "https://www.facebook.com/printkutee/",
       "meta": {
-        "name": "Printku Never Give Up tee",
         "id": "2250576765204260",
+        "username": "printkutee",
+        "name": "Printku Never Give Up tee",
         "about": "本店專營自家品牌服飾\n\n- 人氣公仔圖案T恤 - PEPE 系列\n- 潮流黑TEE\n- 歡迎來圖訂制服飾, 彩色噴畫、絲印、刺繡圖案加工等~",
-        "categories": [
-          "Product/Service",
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "printku@legacy-sport.com",
-        "tel": "54022885"
+        "emails": [
+          "printku@legacy-sport.com"
+        ],
+        "single_line_address": "觀塘開源道77號業發工業中心1期6樓C3, 852 Kung Tong, Hong Kong",
+        "website": "https://www.printkutee.com"
       }
     },
     {

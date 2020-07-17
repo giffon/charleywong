@@ -7,13 +7,21 @@
     {
       "url": "https://www.facebook.com/kitchenman1112/",
       "meta": {
-        "name": "香港人既廚房佬",
         "id": "100752791448638",
+        "username": "kitchenman1112",
+        "name": "香港人既廚房佬",
         "about": "廚房佬專頁Official FB Page\n\n如有查詢/合作： 請PM本專頁",
-        "categories": [
-          "Personal Blog",
-          "Politician"
-        ]
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          },
+          {
+            "id": "1700",
+            "name": "Politician"
+          }
+        ],
+        "single_line_address": "光復街5號1巷, Hong Kong"
       }
     }
   ],

@@ -11,16 +11,29 @@
     {
       "url": "https://www.facebook.com/blankspacestudiohk/",
       "meta": {
-        "name": "流白之間 Blank Space Studio",
         "id": "1487340511514011",
+        "username": "blankspacestudiohk",
+        "name": "流白之間 Blank Space Studio",
         "about": "借鑑了新加坡戲劇家郭寶崑先生於90年代創立的電力站，期望建構一個可以讓各個藝術單位相互撞擊交流、鼓動合作的平台。",
-        "categories": [
-          "Theatrical Productions",
-          "Arts & Entertainment",
-          "Organization"
+        "category_list": [
+          {
+            "id": "1784293938474260",
+            "name": "Theatrical Productions"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "2600",
+            "name": "Organization"
+          }
         ],
-        "email": "blankspacestudiohk@gmail.com",
-        "tel": "59165952"
+        "emails": [
+          "blankspacestudiohk@gmail.com"
+        ],
+        "single_line_address": "葵涌永業街21號永業工廠大廈",
+        "website": "http://www.blankspacestudiohk.com"
       }
     }
   ],

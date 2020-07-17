@@ -8,15 +8,22 @@
     {
       "url": "https://www.facebook.com/VeggieMami/",
       "meta": {
-        "name": "素食媽咪 Veggie Mami",
         "id": "412189582153440",
-        "categories": [
-          "Vegetarian/Vegan Restaurant",
-          "Health Food Restaurant"
+        "username": "VeggieMami",
+        "name": "素食媽咪 Veggie Mami",
+        "about": "純素餐廳",
+        "category_list": [
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          },
+          {
+            "id": "156756251046858",
+            "name": "Health Food Restaurant"
+          }
         ],
-        "addr": "九龍長沙灣道順寧道338號豐盛居地下1號舖Caf'e Imagine",
-        "area": "852 Hong Kong",
-        "tel": "91384921"
+        "single_line_address": "九龍長沙灣道順寧道338號(保安道入口)豐盛居地下1號舖Caf'e Imagine, Hong Kong",
+        "website": "\nhttps://maps.app.goo.gl/wkD6Ls1DmFzH2nsB9"
       }
     },
     {

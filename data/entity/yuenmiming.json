@@ -7,13 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "袁彌明 Erica Yuen",
         "id": "183940768442517",
+        "username": "yuenmiming",
+        "name": "袁彌明 Erica Yuen",
         "about": "MI MING MART 彌明生活百貨創辦人",
-        "categories": [
-          "Entrepreneur"
+        "category_list": [
+          {
+            "id": "1617",
+            "name": "Entrepreneur"
+          }
         ],
-        "email": "erica@mimingmart.com"
+        "emails": [
+          "erica@mimingmart.com"
+        ],
+        "website": "http://www.mimingmart.com"
       },
       "url": "https://www.facebook.com/yuenmiming/"
     },

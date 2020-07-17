@@ -6,15 +6,21 @@
   "webpages": [
     {
       "meta": {
+        "id": "821851117979841",
+        "username": "gardenmeow.hk",
+        "name": "Garden Meow",
         "about": "Book Store Cafe · Taiwanese Cuisine · Supper · Dessert · Beer",
-        "categories": [
-          "Taiwanese restaurant",
-          "Cafe"
+        "category_list": [
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
         ],
-        "addr": "上環鴨巴甸街35號",
-        "area": "Hong Kong",
-        "tel": "28185438",
-        "id": "821851117979841"
+        "single_line_address": "上環鴨巴甸街35號, 香港 Hong Kong"
       },
       "url": "https://www.facebook.com/gardenmeow.hk/"
     },

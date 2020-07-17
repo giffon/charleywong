@@ -10,15 +10,24 @@
     {
       "url": "https://www.facebook.com/danielyimphotography/",
       "meta": {
-        "name": "Daniel Yim Photography",
         "id": "740554012737466",
-        "about": "熱愛攝影, 現時為全職婚禮攝影師, 主力婚禮, 婚紗攝影。\n攝影風格自然, 擅於捕捉婚禮的歡樂, 感人的表情, 為每對新人紀錄重要的一刻。",
-        "categories": [
-          "Photographer",
-          "Wedding Planning Service"
+        "username": "danielyimphotography",
+        "name": "Daniel Yim Photography",
+        "about": "熱愛攝影, 現時為全職婚禮攝影師, 主力婚禮, 婚紗攝影。\n攝影風格自然, 擅於捕捉婚禮的歡樂, 感人的表情, 為每對新人紀錄重要的一刻。\n\n",
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "email": "danielyimphoto@gmail.com",
-        "tel": "60786919"
+        "emails": [
+          "danielyimphoto@gmail.com"
+        ],
+        "website": "http://www.danielyimphotography.com"
       }
     },
     {

@@ -7,17 +7,23 @@
   "webpages": [
     {
       "meta": {
-        "name": "西麵",
         "id": "209978996266619",
-        "about": "",
-        "categories": [
-          "Diner",
-          "Bunsik Restaurant",
-          "Continental Restaurant"
+        "name": "西麵",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "533990753451464",
+            "name": "Bunsik Restaurant"
+          },
+          {
+            "id": "197227066968500",
+            "name": "Continental Restaurant"
+          }
         ],
-        "addr": "屯門屯利街1號華都商場地下60號舖",
-        "area": "Hong Kong",
-        "tel": "39973827"
+        "single_line_address": "屯門屯利街1號華都商場地下60號舖, Hong Kong"
       },
       "url": "https://www.facebook.com/209978996266619/"
     },

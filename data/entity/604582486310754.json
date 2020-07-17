@@ -9,14 +9,20 @@
     },
     {
       "meta": {
-        "name": "野外經歷訓練中心",
         "id": "604582486310754",
+        "name": "野外經歷訓練中心",
         "about": "歡迎來到＂野外經歷訓練中心＂專頁",
-        "categories": [
-          "Consulting Agency"
+        "category_list": [
+          {
+            "id": "2248",
+            "name": "Consulting Agency"
+          }
         ],
-        "email": "info@oetc.com.hk",
-        "tel": "82038483"
+        "emails": [
+          "info@oetc.com.hk"
+        ],
+        "single_line_address": "香港屯門中央郵政局郵政信箱233號",
+        "website": "http://www.oetc.com.hk"
       },
       "url": "https://www.facebook.com/604582486310754/"
     }

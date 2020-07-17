@@ -16,12 +16,17 @@
     {
       "url": "https://www.facebook.com/AFewWordsFromLeo/",
       "meta": {
-        "name": "Leo #講兩句",
         "id": "177691292863785",
+        "username": "AFewWordsFromLeo",
+        "name": "Leo #講兩句",
         "about": "小知識、科技嘢，同大家講兩句",
-        "categories": [
-          "Personal Blog"
-        ]
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
+        ],
+        "website": "https://www.youtube.com/channel/UCUcOLqsmJieNgVBkoSfTQYw"
       }
     }
   ],

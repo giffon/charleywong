@@ -10,17 +10,29 @@
     {
       "url": "https://www.facebook.com/TheHandcrafterWorkshop/",
       "meta": {
-        "name": "The Handcrafter Workshop",
         "id": "511088672337346",
-        "categories": [
-          "Gift Shop",
-          "Product/Service",
-          "Professional Service"
+        "username": "TheHandcrafterWorkshop",
+        "name": "The Handcrafter Workshop",
+        "about": " 多種工作坊，總有一個岩你的\n�999純銀製作班\n�押花精品工作坊\n�保鮮花手作坊\n�3D立體押花手作坊\n�金屬工藝體驗班\n�皮革小物工作坊\n�塑膠彩繪畫班",
+        "category_list": [
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "176831012360626",
+            "name": "Professional Service"
+          }
         ],
-        "addr": "葵涌",
-        "area": "852 Kwai Chung",
-        "email": "b.cloriss@gmail.com",
-        "tel": "53883390"
+        "emails": [
+          "b.cloriss@gmail.com"
+        ],
+        "single_line_address": "葵涌, 852 Kwai Chung",
+        "website": "https://www.thehandcrafterworkshop.com/"
       }
     },
     {

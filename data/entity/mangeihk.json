@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/mangeihk/",
       "meta": {
-        "name": "民寄百貨",
         "id": "100932801671571",
-        "about": "多款貨品台灣直寄,購物滿500免運!",
-        "categories": [
-          "Shopping & Retail"
+        "username": "mangeihk",
+        "name": "民寄百貨",
+        "about": "多款貨品台灣直寄,購物滿500免運!\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "mangeihkcs@gmail.com"
+        "emails": [
+          "mangeihkcs@gmail.com"
+        ],
+        "website": "https://mangeihk.com/"
       }
     },
     {

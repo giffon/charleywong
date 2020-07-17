@@ -7,11 +7,15 @@
     {
       "url": "https://www.facebook.com/SXTbit/",
       "meta": {
-        "name": "SXTbit",
         "id": "201762423897352",
+        "username": "SXTbit",
+        "name": "SXTbit",
         "about": "台灣文化原創插圖、設計\n合作、接案：sxtbit16@gmail.com",
-        "categories": [
-          "Interest"
+        "category_list": [
+          {
+            "id": "1500",
+            "name": "Interest"
+          }
         ]
       }
     },

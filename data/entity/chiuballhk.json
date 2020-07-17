@@ -7,14 +7,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "潮丸 Chiu Ball",
         "id": "1984528065166216",
-        "categories": [
-          "Cantonese Restaurant"
+        "username": "chiuballhk",
+        "name": "潮丸 Chiu Ball",
+        "category_list": [
+          {
+            "id": "214976388519648",
+            "name": "Cantonese Restaurant"
+          }
         ],
-        "addr": "金馬倫道21c地下",
-        "area": "Hong Kong",
-        "tel": "25119238"
+        "single_line_address": "金馬倫道21c地下, Hong Kong"
       },
       "url": "https://www.facebook.com/chiuballhk/"
     },

@@ -6,18 +6,28 @@
   "webpages": [
     {
       "meta": {
-        "name": "Haven17",
         "id": "1374525949462584",
+        "username": "HavenHaven",
+        "name": "Haven17",
         "about": "法式FUSION小餐廳\n灣仔麥加力歌街17號地下\n訂座電話: 2891 3710",
-        "categories": [
-          "French Restaurant",
-          "European Restaurant",
-          "Modern European Restaurant"
+        "category_list": [
+          {
+            "id": "168976549819329",
+            "name": "French Restaurant"
+          },
+          {
+            "id": "1508025966158640",
+            "name": "European Restaurant"
+          },
+          {
+            "id": "188360891207745",
+            "name": "Modern European Restaurant"
+          }
         ],
-        "addr": "灣仔麥加力歌街17號地下",
-        "area": "Hong Kong",
-        "email": "17haven@gmail.com",
-        "tel": "28913710"
+        "emails": [
+          "17haven@gmail.com"
+        ],
+        "single_line_address": "灣仔麥加力歌街17號地下, Hong Kong"
       },
       "url": "https://www.facebook.com/HavenHaven/"
     }

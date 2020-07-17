@@ -10,14 +10,27 @@
     {
       "meta": {
         "id": "159052177616976",
-        "about": "Fun Concepts Limited provides photobooth and others entertainment service e.g. weddings,\ncorporate events , parties, and other events!",
-        "categories": [
-          "Event videographer",
-          "Event planner",
-          "Arts and entertainment"
+        "username": "funboxplus",
+        "name": "Funbox Photo Booth Rental",
+        "about": "Fun Concepts Limited provides photobooth and others entertainment service e.g. weddings, \ncorporate events , parties, and other events! \n",
+        "category_list": [
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          },
+          {
+            "id": "1719867628280173",
+            "name": "Event Videographer"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "email": "info@funboxplus.com",
-        "tel": "68880825"
+        "emails": [
+          "info@funboxplus.com"
+        ],
+        "website": "http://www.funboxplus.com"
       },
       "url": "https://www.facebook.com/funboxplus/"
     }

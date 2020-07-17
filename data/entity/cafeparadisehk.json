@@ -10,32 +10,45 @@
     {
       "url": "https://www.facebook.com/cafeparadisehk/",
       "meta": {
-        "name": "Cafe Paradise - 太子",
         "id": "1548298542100893",
+        "username": "cafeparadisehk",
+        "name": "Cafe Paradise - 太子",
         "about": "位於太子的咖啡小店 懂得享受生活 懂得享受Paradise 優質的咖啡及食品。\n應當一無掛慮，只要凡事藉著禱告、祈求，和感謝，將你們所要的求告神。(腓立4:6)",
-        "categories": [
-          "Restaurant",
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "412 Portland Street",
-        "area": "852 Hong Kong",
-        "email": "enjoy@cafeparadise.com.hk",
-        "tel": "37098103"
+        "emails": [
+          "enjoy@cafeparadise.com.hk"
+        ],
+        "single_line_address": "412 Portland Street, 852 Hong Kong",
+        "website": "http://www.cafeparadise.com.hk"
       }
     },
     {
       "url": "https://www.facebook.com/CafeParadiseParadiseMall/",
       "meta": {
-        "name": "Cafe Paradise Paradise Mall",
         "id": "2147070878883447",
+        "username": "CafeParadiseParadiseMall",
+        "name": "Cafe Paradise Paradise Mall",
         "about": "座落鬧市中的咖啡小店 懂得享受生活 懂得享受Paradise 優質的咖啡及食品。\n 應當一無掛慮，只要凡事藉著禱告、祈求，和感謝，將你們所要的求告神。(腓立4:6)",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "杏花新城G53A",
-        "area": "852 Hong Kong",
-        "email": "enjoy@cafeparadise.com.hk",
-        "tel": "28135328"
+        "emails": [
+          "enjoy@cafeparadise.com.hk"
+        ],
+        "single_line_address": "杏花新城G53A, 852 Hong Kong",
+        "website": "www.cafeparadise.com.hk"
       }
     },
     {

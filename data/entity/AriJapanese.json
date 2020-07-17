@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/AriJapanese/",
       "meta": {
-        "name": "逸之：教日語的人",
         "id": "158804014209639",
+        "username": "AriJapanese",
+        "name": "逸之：教日語的人",
         "about": "在日本大學畢業，在日本做過英語老師，日語雜誌編輯，日資公司營業代表等工作。\n現在是一個非常幸運，能夠以自己興趣為職業的私人日語老師。\n如有興趣查詢私人教授日語的朋友,歡迎短訊",
-        "categories": [
-          "Language School"
+        "category_list": [
+          {
+            "id": "191533400865548",
+            "name": "Language School"
+          }
         ],
-        "addr": "九龍旺角廣東道 900至904 號昌華大廈6/F D室",
-        "area": "Mong Kok",
-        "email": "isshi68@gmail.com",
-        "tel": "93531474"
+        "emails": [
+          "isshi68@gmail.com"
+        ],
+        "single_line_address": "九龍旺角廣東道 900至904 號昌華大廈6/F D室, Mong Kok",
+        "website": "http://www.ari-sensei.com/"
       }
     }
   ],

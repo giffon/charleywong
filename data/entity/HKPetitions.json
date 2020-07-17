@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/HKPetitions/",
       "meta": {
-        "name": "HK Petitions Team",
         "id": "111370340463054",
+        "username": "HKPetitions",
+        "name": "HK Petitions Team",
         "about": "「和你簽」及「七起」平台的開發團隊",
-        "categories": [
-          "Community Organization"
-        ]
+        "category_list": [
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          }
+        ],
+        "website": "https://hkpetitions.com"
       }
     }
   ],

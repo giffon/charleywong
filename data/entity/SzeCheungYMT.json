@@ -7,16 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "泗祥號 Sze Cheung",
         "id": "421995904534753",
+        "username": "SzeCheungYMT",
+        "name": "泗祥號 Sze Cheung",
         "about": "香港唯一一間百年木器老店",
-        "categories": [
-          "Carpenter"
+        "category_list": [
+          {
+            "id": "180833545285725",
+            "name": "Carpenter"
+          }
         ],
-        "addr": "九龍油麻地新填地街196號地下 G/F, 196 Reclamation Street, Yau Ma Tei",
-        "area": "Kowloon, Hong Kong",
-        "email": "louishosc@hotmail.com",
-        "tel": "23846642"
+        "emails": [
+          "louishosc@hotmail.com"
+        ],
+        "single_line_address": "九龍油麻地新填地街196號地下 G/F, 196 Reclamation Street, Yau Ma Tei, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/SzeCheungYMT/"
     }

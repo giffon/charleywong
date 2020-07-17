@@ -9,18 +9,29 @@
     },
     {
       "meta": {
-        "name": "激玩部落",
         "id": "395109800557294",
-        "about": "香港派對遊戲專家\nHong Kong Party Games Specialty Shop",
-        "categories": [
-          "Party Supply & Rental Shop",
-          "Gift Shop",
-          "Games/Toys"
+        "username": "hkpartygames",
+        "name": "激玩部落",
+        "about": "香港派對遊戲專家\nHong Kong Party Games Specialty Shop\n",
+        "category_list": [
+          {
+            "id": "109633322446882",
+            "name": "Party Supply & Rental Shop"
+          },
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          },
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          }
         ],
-        "addr": "旺角彌敦道582-592信和中心M16店",
-        "area": "Hong Kong",
-        "email": "enquiry@partygame.com.hk",
-        "tel": "54032134"
+        "emails": [
+          "enquiry@partygame.com.hk"
+        ],
+        "single_line_address": "旺角彌敦道582-592信和中心M16店, Mong Kok",
+        "website": "http://www.partygame.com.hk"
       },
       "url": "https://www.facebook.com/hkpartygames/"
     },

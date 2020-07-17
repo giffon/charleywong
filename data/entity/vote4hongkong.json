@@ -10,14 +10,25 @@
     {
       "url": "https://www.facebook.com/vote4hongkong/",
       "meta": {
-        "name": "Vote4.hk 投票指南",
         "id": "103420237768824",
+        "username": "vote4hongkong",
+        "name": "Vote4.hk 投票指南",
         "about": "輸入屋苑地址，掌握選區資訊，了解候選人背景、政綱、往績。\n本網站與任何2019年區議會選舉候選人或其助選成員無關，刊載資料目的非為促使或阻礙任何候選人在選舉中當選。",
-        "categories": [
-          "Community",
-          "Political Organization",
-          "Nonprofit Organization"
-        ]
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "373543049350668",
+            "name": "Political Organization"
+          },
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          }
+        ],
+        "website": "vote4.hk"
       }
     },
     {

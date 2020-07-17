@@ -8,15 +8,24 @@
     {
       "url": "https://www.facebook.com/wclawrencelau/",
       "meta": {
-        "name": "劉偉聰 Lawrence Lau",
         "id": "605193919835894",
+        "username": "wclawrencelau",
+        "name": "劉偉聰 Lawrence Lau",
         "about": "劉偉聰，職訟師，惜官司既小亦少，嘗入官門，不見青云人未達，從來閒人耳。蒙《信報》、《壹傳媒》及《明報》不棄，開有《北狩錄》、《人間餘話》及英文《Common Nonsense》專欄。",
-        "categories": [
-          "Writer",
-          "Criminal Lawyer"
+        "category_list": [
+          {
+            "id": "1109",
+            "name": "Writer"
+          },
+          {
+            "id": "153614521358541",
+            "name": "Criminal Lawyer"
+          }
         ],
-        "email": "wclawrencelau@gmail.com",
-        "tel": "93834029"
+        "emails": [
+          "wclawrencelau@gmail.com"
+        ],
+        "single_line_address": "Yau Yat Chuen, Hong Kong"
       }
     },
     {

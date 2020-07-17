@@ -10,15 +10,25 @@
     {
       "url": "https://www.facebook.com/metahomegrocery/",
       "meta": {
-        "name": "MetaHome Hardwood Furniture",
         "id": "633474080135081",
+        "username": "metahomegrocery",
+        "name": "MetaHome Hardwood Furniture",
         "about": "專營美國原木客廳及睡房傢俬, 提供度身訂造的服務, 客人可以自訂傢俬的尺寸, 間隔, 款式及美國木材 (白橡木, 胡桃木, 櫻桃木, 紅橡木, 白蠟木), 為客人提供最大的自由度",
-        "categories": [
-          "Furniture",
-          "Furniture Store"
+        "category_list": [
+          {
+            "id": "2219",
+            "name": "Furniture"
+          },
+          {
+            "id": "162845797101278",
+            "name": "Furniture Store"
+          }
         ],
-        "email": "metahome01@gmail.com",
-        "tel": "65632946"
+        "emails": [
+          "metahome01@gmail.com"
+        ],
+        "single_line_address": "億利工業中心2樓204B室, Lai Chi Kok",
+        "website": "http://www.metahomehk.com"
       }
     },
     {

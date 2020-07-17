@@ -14,16 +14,21 @@
     {
       "url": "https://www.facebook.com/ineabutyhkg/",
       "meta": {
-        "name": "Inbeauty",
         "id": "290507011549474",
+        "username": "ineabutyhkg",
+        "name": "Inbeauty",
         "about": "日式睫毛嫁接 \nClassic Eyelashes Extension\n空中服務員優惠 \nCrew Discount",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care"
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "addr": "3/F Yau Lee Centre, 45 Hoi Yuen Road",
-        "area": "Kung Tong, Hong Kong",
-        "email": "inbeautyhkg@gmail.com",
-        "tel": "61147886"
+        "emails": [
+          "inbeautyhkg@gmail.com"
+        ],
+        "single_line_address": "3/F Yau Lee Centre, 45 Hoi Yuen Road, Kung Tong, Hong Kong",
+        "website": "http://wa.me/85261147886"
       }
     }
   ],

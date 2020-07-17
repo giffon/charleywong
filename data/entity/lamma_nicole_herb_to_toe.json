@@ -7,14 +7,20 @@
     {
       "url": "https://www.facebook.com/genkinikki/",
       "meta": {
-        "name": "大力「日」記",
         "id": "165048430937913",
+        "username": "genkinikki",
+        "name": "大力「日」記",
         "about": "南島小店『搽茶居』專營有機生活態度, 純自然﹑不造作﹑慢活優閒.\n\n由頭到腳嘅有機產品﹑飲落肚嘅有機花草茶﹑令人賞心悅目嘅日本製生活雜貨店, 帶俾你一個慢活嘅瞬間.",
-        "categories": [
-          "Grocery Store"
+        "category_list": [
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          }
         ],
-        "email": "nicolekamyu@gmail.com",
-        "tel": "92285282"
+        "emails": [
+          "nicolekamyu@gmail.com"
+        ],
+        "single_line_address": "12C Tai Wan San Village, Yung Shue Wan, Lamma Island, 852 Hong Kong"
       }
     },
     {

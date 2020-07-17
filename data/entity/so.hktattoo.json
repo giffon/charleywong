@@ -7,15 +7,25 @@
     {
       "url": "https://www.facebook.com/so.hktattoo/",
       "meta": {
-        "name": "So Tattoo",
         "id": "327198754543376",
+        "username": "so.hktattoo",
+        "name": "So Tattoo",
         "about": "So Yan�女紋身師\n�Higher Diploma In Visual Communication\n     視覺傳意高級文憑畢業\n�#hktattooartists\n ig:so.hktattoo\n�歡迎DM或WsApp認領/來圖查詢/設計傾圖\n�WhatsApp:+852 64305610\n�開放預約中",
-        "categories": [
-          "Art",
-          "Tattoo & Piercing Shop"
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "551469561691940",
+            "name": "Tattoo & Piercing Shop"
+          }
         ],
-        "email": "soyan.w@hotmail.com",
-        "tel": "64305610"
+        "emails": [
+          "soyan.w@hotmail.com"
+        ],
+        "single_line_address": "觀塘偉業街146號美嘉工業大廈 11樓C座11室, Hong Kong",
+        "website": "https://api.whatsapp.com/send?phone=85264305610"
       }
     },
     {

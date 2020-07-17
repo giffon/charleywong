@@ -8,16 +8,21 @@
     {
       "url": "https://www.facebook.com/misyucafe/",
       "meta": {
-        "name": "謎思咖啡鳳山店 Mi'S Yu",
         "id": "535270390294704",
+        "username": "misyucafe",
+        "name": "謎思咖啡鳳山店 Mi'S Yu",
         "about": "當你擁有了夢想 就會需要勇氣\n當你擁有了勇氣 就會需要衝動\n當你擁有了衝動 就會需要計畫\n當你擁有了計畫 就不要忘了初衷\n\n支持性別平權\n支持領養代替購買\n\n\nMi'S Yu 簡單的夢",
-        "categories": [
-          "Coffee Shop",
-          "Bar"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          }
         ],
-        "addr": "鳳山區中山東路3巷3-1號",
-        "area": "Kaohsiung, Taiwan",
-        "tel": "886955245955"
+        "single_line_address": "鳳山區中山東路3巷3-1號, Kaohsiung, Taiwan"
       }
     },
     {

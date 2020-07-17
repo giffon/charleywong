@@ -8,14 +8,19 @@
     {
       "url": "https://www.facebook.com/cpdenniskwok/",
       "meta": {
-        "name": "Dennis Kwok 郭榮鏗",
         "id": "475382142489660",
+        "username": "cpdenniskwok",
+        "name": "Dennis Kwok 郭榮鏗",
         "about": "Our Values．True Grit\n以堅持   迎挑戰",
-        "categories": [
-          "Politician"
+        "category_list": [
+          {
+            "id": "1700",
+            "name": "Politician"
+          }
         ],
-        "email": "dennis@denniskwok.hk",
-        "tel": "22435508"
+        "emails": [
+          "dennis@denniskwok.hk"
+        ]
       }
     },
     {

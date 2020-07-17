@@ -17,15 +17,28 @@
     {
       "url": "https://www.facebook.com/inksundae/",
       "meta": {
-        "name": "InkSundae",
         "id": "799079963546108",
-        "about": "Doodle with Ink~\n#illustration\n#zine\n#screenprint\n\nIG: https://www.instagram.com/inksundae/\nTG: https://t.me/inksundae\n\nETSY: https://www.etsy.com/uk/shop/InkSundae\nPinkoi: https://www.pinkoi.com/store/inksundae",
-        "categories": [
-          "Publisher",
-          "Product/Service",
-          "Art"
+        "username": "inksundae",
+        "name": "InkSundae",
+        "about": "Doodle with Ink~\n#illustration\n#zine\n#screenprint\n\nIG: https://www.instagram.com/inksundae/\nTG: https://t.me/inksundae\nOnline shop: https://www.inksundae.com\nETSY: https://www.etsy.com/uk/shop/InkSundae",
+        "category_list": [
+          {
+            "id": "191684877517919",
+            "name": "Publisher"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "email": "hello@inksundae.com"
+        "emails": [
+          "hello@inksundae.com"
+        ],
+        "website": "http://www.inksundae.com"
       }
     },
     {

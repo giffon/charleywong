@@ -7,15 +7,19 @@
     {
       "url": "https://www.facebook.com/machihotpot/",
       "meta": {
-        "name": "麻極手工火鍋料理",
         "id": "270551833514725",
-        "categories": [
-          "Hot Pot Restaurant"
+        "username": "machihotpot",
+        "name": "麻極手工火鍋料理",
+        "category_list": [
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          }
         ],
-        "addr": "元朗鳳攸南街9號好順利大廈2座1樓2至3號室",
-        "area": "Yuen Long",
-        "email": "machihotpot@gmail.com",
-        "tel": "26605996"
+        "emails": [
+          "machihotpot@gmail.com"
+        ],
+        "single_line_address": "元朗鳳攸南街9號好順利大廈2座1樓2至3號室, Yuen Long"
       }
     },
     {

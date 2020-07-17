@@ -6,11 +6,18 @@
   "webpages": [
     {
       "meta": {
-        "name": "Poetaster",
         "id": "158583984789698",
-        "categories": [
-          "Product/Service",
-          "Patio/Garden"
+        "username": "poetaster.florist",
+        "name": "Poetaster",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2222",
+            "name": "Patio/Garden"
+          }
         ]
       },
       "url": "https://www.facebook.com/poetaster.florist/"

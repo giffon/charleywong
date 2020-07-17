@@ -6,15 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "珍意泰國菜館",
         "id": "171839363431552",
+        "username": "ChunYeeThai",
+        "name": "珍意泰國菜館",
         "about": "珍姐的理念是要用心製作真材實料，經營雖然困難，但重開就是要迎難而上努力去延續珍姐的味道!",
-        "categories": [
-          "Thai Restaurant"
+        "category_list": [
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          }
         ],
-        "addr": "筲箕灣東大街39號地下",
-        "area": "852 Hong Kong",
-        "tel": "31781333"
+        "single_line_address": "筲箕灣東大街39號地下, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/ChunYeeThai/"
     },

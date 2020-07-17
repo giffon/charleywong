@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/floristyfloristy/",
       "meta": {
-        "name": "Floristy",
         "id": "371050112922741",
-        "about": "Unique and exquisite floral designs. \nNowhere but Floristy.",
-        "categories": [
-          "Florist",
-          "Arts & Crafts Store"
+        "username": "floristyfloristy",
+        "name": "Floristy",
+        "about": "Unique and exquisite floral designs. \nNowhere but Floristy. ",
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "addr": "Block B, Tonic Industrial Centre",
-        "area": "852 Hong Kong",
-        "email": "floristyfloristy@gmail.com",
-        "tel": "91211844"
+        "emails": [
+          "floristyfloristy@gmail.com"
+        ],
+        "single_line_address": "Block B, Tonic Industrial Centre, 852 Hong Kong"
       }
     },
     {

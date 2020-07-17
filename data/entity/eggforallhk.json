@@ -8,15 +8,19 @@
     {
       "url": "https://www.facebook.com/eggforallhk/",
       "meta": {
-        "name": "蛋哥 EGG for ALL",
         "id": "616732348844563",
-        "categories": [
-          "Breakfast & Brunch Restaurant"
+        "username": "eggforallhk",
+        "name": "蛋哥 EGG for ALL",
+        "category_list": [
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          }
         ],
-        "addr": "觀塘觀塘道460號觀塘工業中心2期E舖",
-        "area": "Hong Kong",
-        "email": "takdining@gmail.com",
-        "tel": "51129938"
+        "emails": [
+          "takdining@gmail.com"
+        ],
+        "single_line_address": "觀塘觀塘道460號觀塘工業中心2期E舖, Hong Kong"
       }
     },
     {

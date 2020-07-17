@@ -17,17 +17,25 @@
     {
       "url": "https://www.facebook.com/Portions46/",
       "meta": {
-        "name": "Portion Studio",
         "id": "423712111344056",
+        "username": "Portions46",
+        "name": "Portion Studio",
         "about": "全港首間3D打印時裝設計公司\n\nStylist / Fashion / Product\n時裝設計 ／產品設計\n\n晚裝／婚紗設計及租借\n戒指及首飾訂製\n\n請預約：\nwww.portionstudio.com",
-        "categories": [
-          "Bridal Shop",
-          "Design & Fashion"
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          },
+          {
+            "id": "557045641143373",
+            "name": "Design & Fashion"
+          }
         ],
-        "addr": "suite 34, floor23, Wing Shing Industrial Building, 26 Ng Fong Street, San Po Kong, Kowloon",
-        "area": "Hong Kong",
-        "email": "kw@portionstudio.com",
-        "tel": "64271294"
+        "emails": [
+          "kw@portionstudio.com"
+        ],
+        "single_line_address": "suite 34, floor23, Wing Shing Industrial Building, 26 Ng Fong Street, San Po Kong, Kowloon, Hong Kong",
+        "website": "http://www.portionstudio.com"
       }
     }
   ],

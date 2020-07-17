@@ -11,15 +11,25 @@
     {
       "url": "https://www.facebook.com/harperlilbabeshop/",
       "meta": {
-        "name": "Harper lil'babe Shop 雜不lung店",
         "id": "291095834873514",
+        "username": "harperlilbabeshop",
+        "name": "Harper lil'babe Shop 雜不lung店",
         "about": "50幾個有共同理念嘅媽媽圍埋一齊批貨��唔自在賺錢�最緊要開心�貼市價提供日 � 韓 � 泰 � 美 � 英 � 歐 � 等等貨品",
-        "categories": [
-          "Baby Goods/Kids Goods",
-          "Baby & Children's Clothing Store"
+        "category_list": [
+          {
+            "id": "2232",
+            "name": "Baby Goods/Kids Goods"
+          },
+          {
+            "id": "192614304101075",
+            "name": "Baby & Children's Clothing Store"
+          }
         ],
-        "email": "info@harperhk.com",
-        "tel": "61795711"
+        "emails": [
+          "info@harperhk.com"
+        ],
+        "single_line_address": "Unit E2, 13/F, Gee Tung Chang Industrial Building,  4 Fung Yip Street,, 00000 Chai Wan",
+        "website": "www.harperhk.com"
       }
     },
     {

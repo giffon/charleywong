@@ -14,16 +14,29 @@
     {
       "url": "https://www.facebook.com/Groundworks.Wanchai/",
       "meta": {
-        "name": "土作坊",
         "id": "28536179094",
+        "username": "Groundworks.Wanchai",
+        "name": "土作坊",
         "about": "地址：灣仔石水渠街74A (藍屋地舖)\n開放時間：\n星期一至日：11:00AM-6:00PM\n公眾假期休息",
-        "categories": [
-          "Organic Grocery Store",
-          "Fruit & Vegetable Store",
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "1748430218710706",
+            "name": "Organic Grocery Store"
+          },
+          {
+            "id": "128157407253652",
+            "name": "Fruit & Vegetable Store"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "groundworks@sjs.org.hk",
-        "tel": "21161106"
+        "emails": [
+          "groundworks@sjs.org.hk"
+        ],
+        "single_line_address": "灣仔石水渠街74A地下（藍屋地舖）",
+        "website": "https://groundwork.boutir.com/"
       }
     }
   ],

@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/mijosu.hk/",
       "meta": {
-        "name": "mijosu",
         "id": "184471564930248",
+        "username": "mijosu.hk",
+        "name": "mijosu",
         "about": "mijosu 開店於2009年，為男士提供西裝度身訂造服務，有別於一般傳統西裝店我們在設計與剪裁上都打破西裝帶給人沉悶又刻板的印象。令客人無論在上班或婚禮也能擁有合身而又與別不同的西裝",
-        "categories": [
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "九龍尖沙咀5-11號嘉蘭圍利時商場410鋪",
-        "area": "Tsim Sha Tsui",
-        "email": "mijosu@live.hk",
-        "tel": "23110432"
+        "emails": [
+          "mijosu@live.hk"
+        ],
+        "single_line_address": "九龍尖沙咀5-11號嘉蘭圍利時商場410鋪, Tsim Sha Tsui"
       }
     },
     {

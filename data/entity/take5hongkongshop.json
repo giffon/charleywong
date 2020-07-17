@@ -9,16 +9,21 @@
     },
     {
       "meta": {
-        "name": "Take5 HONG KONG SHOP",
         "id": "145236322189114",
+        "username": "take5hongkongshop",
+        "name": "Take5 HONG KONG SHOP",
         "about": "日本アメカジ專門店",
-        "categories": [
-          "Clothing Store",
-          "Boutique Store"
+        "category_list": [
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          },
+          {
+            "id": "288846958171402",
+            "name": "Boutique Store"
+          }
         ],
-        "addr": "1/F, 17 CAMERON ROAD, TSIM SHA TSUI, KOWLOON",
-        "area": "Tsim Sha Tsui",
-        "tel": "23755731"
+        "single_line_address": "1/F, 17 CAMERON ROAD, TSIM SHA TSUI, KOWLOON, Tsim Sha Tsui"
       },
       "url": "https://www.facebook.com/take5hongkongshop/"
     },

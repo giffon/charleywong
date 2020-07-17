@@ -15,12 +15,17 @@
     {
       "url": "https://www.facebook.com/holaholi.hk/",
       "meta": {
-        "name": "Holaholi 好想放假",
         "id": "107986784282779",
+        "username": "holaholi.hk",
+        "name": "Holaholi 好想放假",
         "about": "返工辛苦得來食之餘，仲要等放假～",
-        "categories": [
-          "News & Media Website"
-        ]
+        "category_list": [
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
+        ],
+        "website": "instagram.com/holaholi.hk"
       }
     }
   ],

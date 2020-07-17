@@ -7,15 +7,16 @@
     {
       "url": "https://www.facebook.com/330714914073372/",
       "meta": {
-        "name": "極品泰國菜館",
         "id": "330714914073372",
-        "about": "เป็นร้านอาหารไทย",
-        "categories": [
-          "Thai Restaurant"
+        "name": "極品泰國菜館",
+        "about": "เป็นร้านอาหารไทย ",
+        "category_list": [
+          {
+            "id": "179167895459033",
+            "name": "Thai Restaurant"
+          }
         ],
-        "addr": "大角嘴中匯街16號中美樓29號地鋪",
-        "area": "Hong Kong",
-        "tel": "53033325"
+        "single_line_address": "大角嘴中匯街16號中美樓29號地鋪, Hong Kong"
       }
     }
   ],

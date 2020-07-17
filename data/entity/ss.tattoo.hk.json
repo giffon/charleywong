@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/ss.tattoo.hk/",
       "meta": {
-        "name": "SS Tattoo Studio",
         "id": "558430977632686",
+        "username": "ss.tattoo.hk",
+        "name": "SS Tattoo Studio",
         "about": "觀塘Tattoo Studio In Hong Kong\nFounder : @bbc.tattoo\nSince 2013\nProfessional Custom Tattoo Service\n⛩ Flat B7,6/F,King Yip Factory Building,59 King Yip Street,Kwun Tong\n📞 60519991",
-        "categories": [
-          "Tattoo & Piercing Shop",
-          "Artist"
+        "category_list": [
+          {
+            "id": "551469561691940",
+            "name": "Tattoo & Piercing Shop"
+          },
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "addr": "觀塘敬業街敬業工廠大廈6樓B7室",
-        "area": "Kung Tong, Hong Kong",
-        "email": "bobbychow719@gmail.com",
-        "tel": "60519991"
+        "emails": [
+          "bobbychow719@gmail.com"
+        ],
+        "single_line_address": "觀塘敬業街敬業工廠大廈6樓B7室, Kung Tong, Hong Kong"
       }
     },
     {

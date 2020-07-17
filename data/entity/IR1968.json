@@ -10,17 +10,21 @@
     {
       "url": "https://www.facebook.com/IR1968/",
       "meta": {
-        "name": "IR1968",
         "id": "113568238688423",
-        "about": "HK+852 2577 9981, 5f THE L. PLACE, 139 Queens Road Central, Hong Kong",
-        "categories": [
-          "Bar",
-          "Indonesian Restaurant"
+        "username": "IR1968",
+        "name": "IR1968",
+        "about": "HK+852 2577 9981, 5f THE L. PLACE, 139 Queens Road Central, Hong Kong  ",
+        "category_list": [
+          {
+            "id": "167749593275424",
+            "name": "Indonesian Restaurant"
+          }
         ],
-        "addr": "5/F, The L Place, 139 Queen's Road Central , Central 中環皇后大道中139號The L Place 5樓",
-        "area": "0000 Hong Kong",
-        "email": "info@ir1968.com",
-        "tel": "25779981"
+        "emails": [
+          "info@ir1968.com"
+        ],
+        "single_line_address": "5/F, The L Place, 139 Queen's Road Central , Central 中環皇后大道中139號The L Place 5樓, 0000 Hong Kong",
+        "website": "http://www.ir1968.com/"
       }
     },
     {

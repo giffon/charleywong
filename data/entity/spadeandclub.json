@@ -18,15 +18,25 @@
     {
       "url": "https://www.facebook.com/spadeandclub/",
       "meta": {
-        "name": "Spade & Club 全黑桌遊",
         "id": "440180509885761",
-        "about": "地址: 葵涌葵豐街安福工業大廈9A\n開放時間: 14:00 - 00:00（星期一至日）\n收費: $80任玩（提供專業教學及過千款遊戲）\n          平日$40假日$60 任坐（自備遊戲）\n全日制學生享有$10折扣優惠",
-        "categories": [
-          "Board Game",
-          "Business Service"
+        "username": "spadeandclub",
+        "name": "Spade & Club 全黑桌遊",
+        "about": "地址: 葵涌葵豐街永康工業大廈9樓 i 室\n開放時間: 18:00-00:00（星期一至五）\n14:00 - 00:00（星期六日及公眾假期）\n收費: 平日$60任玩（提供專業教學及過千款遊戲）\n          假日 $80 任玩",
+        "category_list": [
+          {
+            "id": "2303",
+            "name": "Board Game"
+          },
+          {
+            "id": "187133811318958",
+            "name": "Business Service"
+          }
         ],
-        "email": "spadenclub@gmail.com",
-        "tel": "61736206"
+        "emails": [
+          "spadenclub@gmail.com"
+        ],
+        "single_line_address": "葵涌葵豐街41-45號安福工業大廈9/A, Hong Kong",
+        "website": "https://spadenclub.wixsite.com/home"
       }
     }
   ],

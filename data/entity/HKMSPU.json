@@ -15,13 +15,19 @@
     {
       "url": "https://www.facebook.com/HKMSPU/",
       "meta": {
-        "name": "香港市場及營銷專業人員工會 Hong Kong Marketing and Sales Professionals Union",
         "id": "103194787836995",
+        "username": "HKMSPU",
+        "name": "香港市場及營銷專業人員工會 Hong Kong Marketing and Sales Professionals Union",
         "about": "一群來自香港市場及營銷專業界別的人員現正籌備工會，希望能聚集同業眾人之力，為不公發聲",
-        "categories": [
-          "Labor Union"
+        "category_list": [
+          {
+            "id": "192775991124365",
+            "name": "Labor Union"
+          }
         ],
-        "email": "info@hkmspu.org"
+        "emails": [
+          "info@hkmspu.org"
+        ]
       }
     },
     {

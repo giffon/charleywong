@@ -17,15 +17,29 @@
     {
       "url": "https://www.facebook.com/l.condom/",
       "meta": {
-        "name": "Love Condom",
         "id": "393760670689022",
-        "about": "Condom 網店",
-        "categories": [
-          "Medical & Health",
-          "Shopping & Retail",
-          "E-commerce Website"
+        "username": "l.condom",
+        "name": "Love Condom",
+        "about": "Condom 網店\n",
+        "category_list": [
+          {
+            "id": "145118935550090",
+            "name": "Medical & Health"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "1756049968005436",
+            "name": "E-commerce Website"
+          }
         ],
-        "email": "love_condom@yahoo.com.hk"
+        "emails": [
+          "love_condom@yahoo.com.hk"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://www.wkexport.com/lovecondom"
       }
     }
   ],

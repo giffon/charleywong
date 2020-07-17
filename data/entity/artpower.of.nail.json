@@ -7,15 +7,19 @@
     {
       "url": "https://www.facebook.com/1490162864410047/",
       "meta": {
-        "name": "Art power of nail",
         "id": "1490162864410047",
-        "categories": [
-          "Nail Salon",
-          "Visual Arts"
+        "name": "Art power of nail",
+        "category_list": [
+          {
+            "id": "198516863494646",
+            "name": "Nail Salon"
+          },
+          {
+            "id": "1080612391976317",
+            "name": "Visual Arts"
+          }
         ],
-        "addr": "葵芳葵涌廣場一樓消費站1066號鋪",
-        "area": "Kwai Chung",
-        "tel": "84817489"
+        "single_line_address": "葵芳葵涌廣場一樓消費站1066號鋪, Kwai Chung"
       }
     },
     {

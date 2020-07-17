@@ -7,14 +7,16 @@
     {
       "url": "https://www.facebook.com/345095669582244/",
       "meta": {
-        "name": "Metal bar feat GPS",
         "id": "345095669582244",
+        "name": "Metal bar feat GPS",
         "about": "��",
-        "categories": [
-          "Wine Bar"
+        "category_list": [
+          {
+            "id": "192661127431931",
+            "name": "Wine Bar"
+          }
         ],
-        "addr": "太子西洋菜北街312號",
-        "area": "Kowloon, Hong Kong"
+        "single_line_address": "太子西洋菜北街312號, Kowloon, Hong Kong"
       }
     },
     {

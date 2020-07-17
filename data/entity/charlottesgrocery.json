@@ -11,16 +11,29 @@
     {
       "url": "https://www.facebook.com/charlottesgrocery/",
       "meta": {
-        "name": "沙律雜貨店 - 沖繩直送/代購",
         "id": "102057871375564",
+        "username": "charlottesgrocery",
+        "name": "沙律雜貨店 - 沖繩直送/代購",
         "about": "沙律雜貨店 - 主要代購搜羅沖繩特色產品，另會介紹沖繩當地風土人情，吃喝玩樂給大家。",
-        "categories": [
-          "Shopping & Retail",
-          "Product/Service",
-          "Personal Blog"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "charlottesgrocery@gmail.com",
-        "tel": "67712664"
+        "emails": [
+          "charlottesgrocery@gmail.com"
+        ],
+        "single_line_address": "Okinawa, Okinawa",
+        "website": "www.charlottesgrocery.com"
       }
     },
     {

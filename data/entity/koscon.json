@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/koscon/",
       "meta": {
-        "name": "KOS 隱形眼鏡 專門店",
         "id": "604995853016884",
+        "username": "koscon",
+        "name": "KOS 隱形眼鏡 專門店",
         "about": "深水埗MTR交收,另有郵寄服務/速遞到付,直接落單:98432644 Mark(Whatsapp),請遊覽我既網站,深水埗 深之都1F Shop80 81",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "深水埗",
-        "area": "852 Sham Shui Po",
-        "email": "info@koscon.net",
-        "tel": "98432644"
+        "emails": [
+          "info@koscon.net"
+        ],
+        "single_line_address": "深水埗, 852 Sham Shui Po",
+        "website": "http://www.koscon.net/"
       }
     },
     {

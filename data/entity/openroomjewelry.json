@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/openroomjewelry/",
       "meta": {
-        "name": "Open Room Jewelry",
         "id": "375950743144877",
-        "about": "Best Selection of Earrings",
-        "categories": [
-          "Shopping & Retail",
-          "Product/Service"
+        "username": "openroomjewelry",
+        "name": "Open Room Jewelry",
+        "about": "Best Selection of Earrings \n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "Room 1302-03, Pakpolee Commercial Centre, Sai Yeung Choi South Street",
-        "area": "Mong Kok",
-        "email": "openroomjewelry@gmail.com",
-        "tel": "55026016"
+        "emails": [
+          "openroomjewelry@gmail.com"
+        ],
+        "single_line_address": "Room 1302-03, Pakpolee Commercial Centre, Sai Yeung Choi South Street, Mong Kok"
       }
     },
     {

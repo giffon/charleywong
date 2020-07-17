@@ -9,16 +9,21 @@
     },
     {
       "meta": {
-        "name": "Paradiso Bridal",
         "id": "179025512191810",
+        "username": "paradisobridal",
+        "name": "Paradiso Bridal",
         "about": "Bridal boutique with brands from the US, Europe and Australia. Sales and rental services available. Contact at 3902 3535 for appointment.",
-        "categories": [
-          "Bridal Shop"
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          }
         ],
-        "addr": "Suite B, 2/F, Yun Tat Commercial Bldg, 70-74 Wuhu St.",
-        "area": "00000 Kowloon, Hong Kong",
-        "email": "info@paradisobridal.com",
-        "tel": "36909872"
+        "emails": [
+          "info@paradisobridal.com"
+        ],
+        "single_line_address": "Suite B, 2/F, Yun Tat Commercial Bldg, 70-74 Wuhu St., 00000 Kowloon, Hong Kong",
+        "website": "http://www.paradisobridal.com"
       },
       "url": "https://www.facebook.com/paradisobridal/"
     },

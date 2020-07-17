@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/sailorhousehk/",
       "meta": {
-        "name": "Sailor House",
         "id": "101884421314113",
+        "username": "sailorhousehk",
+        "name": "Sailor House",
         "about": "我哋聘請咗有多年經驗嘅廚房師傅為大家挑選由各優質進口供應商於世界各地搜羅的優質食材",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "sailorhousehk@gmail.com",
-        "tel": "57226455"
+        "emails": [
+          "sailorhousehk@gmail.com"
+        ],
+        "website": "www.sailorhouse.com.hk"
       }
     },
     {

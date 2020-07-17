@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/alchemistcreations/",
       "meta": {
-        "name": "Alchemist Creations",
         "id": "174930745932793",
+        "username": "alchemistcreations",
+        "name": "Alchemist Creations",
         "about": "\"Specially Common\"\n\nVisit our official website: www.alchemisthk.com",
-        "categories": [
-          "Shopping & Retail",
-          "Jewelry/Watches"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "Shop 109, Stanley Plaza, 23 Carmel Road, Stanley, H.K.",
-        "area": "Hong Kong",
-        "email": "info@alchemisthk.com"
+        "emails": [
+          "info@alchemisthk.com"
+        ],
+        "single_line_address": "Shop 109, Stanley Plaza, 23 Carmel Road, Stanley, H.K., +852 96857468 Hong Kong",
+        "website": "http://www.alchemisthk.com"
       }
     },
     {

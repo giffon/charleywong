@@ -14,15 +14,24 @@
     {
       "url": "https://www.facebook.com/dustykidfood/",
       "meta": {
-        "name": "心事如塵茶食亭",
         "id": "453478548550836",
+        "username": "dustykidfood",
+        "name": "心事如塵茶食亭",
         "about": "心事如塵、可輕、可重；可濃、可淡；可執著、亦可忘記。一切，就看你怎樣看待。\n\n讓我們一起喝口塵茶，吃口塵食，換個心情，抹去心事，令內心回歸自在。\n\n<- 分店地址可瀏覽功能列 \"Shops\"",
-        "categories": [
-          "Bubble Tea Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "email": "food@dustykid.org",
-        "tel": "55013351"
+        "emails": [
+          "food@dustykid.org"
+        ],
+        "website": "https://www.facebook.com/DustykidHK/"
       }
     }
   ],

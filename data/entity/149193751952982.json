@@ -7,16 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "Four Season Flower 四季軒花店",
         "id": "149193751952982",
+        "name": "Four Season Flower 四季軒花店",
         "about": "本店提供多種服務,場地佈置 新娘花球 開張花籃 月花擺設 帛事花圈.也會提供專業意見.",
-        "categories": [
-          "Florist"
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "addr": "葵涌打磚坪街45號屏麗徑16地下",
-        "area": "Chung Kwai Chung, Hong Kong",
-        "email": "season011@yahoo.com",
-        "tel": "63340120"
+        "emails": [
+          "season011@yahoo.com"
+        ],
+        "single_line_address": "葵涌打磚坪街45號屏麗徑16地下, +852 Chung Kwai Chung, Hong Kong"
       },
       "url": "https://www.facebook.com/149193751952982/"
     }

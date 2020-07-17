@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "Spingle MOVE Hong Kong",
         "id": "890314920986797",
+        "username": "spinglemovehk",
+        "name": "Spingle MOVE Hong Kong",
         "about": "創新的意念，比用金錢堆砌出來的設計更好；\n在日本製造一對對舒適的鞋子，就是 SPINGLE 的宗旨。\n品牌不斷追求完美，以袋鼠皮、鹿皮、馬臀皮及Out-Dry等等，為天天穿著的鞋履帶來驚喜！",
-        "categories": [
-          "Clothing (Brand)"
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "email": "info@spingle.com.hk",
-        "tel": "22970922"
+        "emails": [
+          "info@spingle.com.hk"
+        ],
+        "single_line_address": "Room 214, 2/F, Hankow Centre, no. 5-15 Hankow Road, Tsim Sha Tsui",
+        "website": "http://www.spingle.com.hk"
       },
       "url": "https://www.facebook.com/spinglemovehk/"
     },

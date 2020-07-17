@@ -9,16 +9,28 @@
     },
     {
       "meta": {
-        "name": "Paperhood HK",
         "id": "1657120921205123",
-        "about": "Keep a notebook | MU 香港經銷商\n專營各類紙膠帶、文具、雜貨，代理多個原創紙膠帶品牌\nInstagram: paperhoodhk",
-        "categories": [
-          "Retail Company",
-          "Product/Service"
+        "username": "paperhoodhk",
+        "name": "Paperhood",
+        "about": "香港文具小店・全球寄送\n販售各地品牌及原創類紙膠帶、手帳文具及雜貨\n多個文具品牌（如MU、Keep a notebook等）之認可經銷商",
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong",
-        "email": "paperhoodhk@gmail.com"
+        "emails": [
+          "paperhoodhk@gmail.com"
+        ],
+        "website": "http://www.paperhoodhk.com"
       },
       "url": "https://www.facebook.com/paperhoodhk/"
     },

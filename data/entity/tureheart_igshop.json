@@ -8,15 +8,23 @@
     {
       "url": "https://www.facebook.com/184629095417157/",
       "meta": {
-        "name": "荃心日韓藥房",
         "id": "184629095417157",
-        "about": "地址：荃灣眾安街47號地舖\n營業時間：0930-2200\n電話：24666593\n\n有日本、韓國、歐美不同類型的化妝品及護膚品。\n更有大量母嬰產品，保健品，生活用品出售。\n歡迎來電查詢或pm訂購產品。",
-        "categories": [
-          "Baby Goods/Kids Goods",
-          "Health/Beauty",
-          "Product/Service"
-        ],
-        "tel": "24666593"
+        "name": "荃心日韓藥房",
+        "about": "\n地址：荃灣眾安街47號地舖 \n營業時間：0930-2200\n電話：24666593\n\n有日本、韓國、歐美不同類型的化妝品及護膚品。\n更有大量母嬰產品，保健品，生活用品出售。\n歡迎來電查詢或pm訂購產品。",
+        "category_list": [
+          {
+            "id": "2232",
+            "name": "Baby Goods/Kids Goods"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "134381433294944",
+            "name": "Pharmacy / Drugstore"
+          }
+        ]
       }
     },
     {

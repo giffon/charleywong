@@ -7,16 +7,23 @@
     {
       "url": "https://www.facebook.com/107303550991682/",
       "meta": {
-        "name": "串串金 - 串燒 x 菓茶",
         "id": "107303550991682",
+        "name": "串串金 - 串燒 x 菓茶",
         "about": "香港人嘅串燒 x 菓茶小食店；香港加油；Stand With Hong Kong",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          }
         ],
-        "addr": "九龍旺角洗衣街89號A1舖地下",
-        "area": "Hong Kong",
-        "email": "amberfood@protonmail.com",
-        "tel": "52190131"
+        "emails": [
+          "amberfood@protonmail.com"
+        ],
+        "single_line_address": "九龍旺角洗衣街89號A1舖地下, Hong Kong"
       }
     },
     {

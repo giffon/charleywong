@@ -8,16 +8,21 @@
     {
       "url": "https://www.facebook.com/sweetmomentdessert/",
       "meta": {
-        "name": "甜一刻 Sweet Moment",
         "id": "1386535041590923",
+        "username": "sweetmomentdessert",
+        "name": "甜一刻 Sweet Moment",
         "about": "台式吐司磚塊、雪糕雞蛋仔、法式窩夫、台式雪花冰、港式甜品，快點來甜一刻吧~~~!!!!",
-        "categories": [
-          "Dessert Shop",
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "九龍長沙灣福榮街218號美居中心62號舖地下 Shop 62, G/F, 218 Manor Centre, Fuk Wing Street, ShamShuiPo, Kowloon.",
-        "area": "Hong Kong",
-        "tel": "35686757"
+        "single_line_address": "九龍長沙灣福榮街218號美居中心62號舖地下 Shop 62, G/F, 218 Manor Centre, Fuk Wing Street, ShamShuiPo, Kowloon., Hong Kong"
       }
     },
     {

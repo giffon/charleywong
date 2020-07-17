@@ -6,15 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "MADEGREY",
         "id": "536663596388605",
+        "username": "MADEGREY",
+        "name": "MADEGREY",
         "about": "Fashion Accessories",
-        "categories": [
-          "Shopping & Retail",
-          "Jewelry/Watches"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          }
         ],
-        "email": "info@madegrey.com",
-        "tel": "60996755"
+        "emails": [
+          "info@madegrey.com"
+        ],
+        "website": "http://www.madegrey.com"
       },
       "url": "https://www.facebook.com/MADEGREY/"
     },

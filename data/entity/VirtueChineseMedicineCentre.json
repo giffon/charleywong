@@ -8,15 +8,20 @@
     {
       "url": "https://www.facebook.com/VirtueChineseMedicineCentre/",
       "meta": {
-        "name": "懷德中醫中心 Virtue Chinese Medicine Centre",
         "id": "310999265984673",
+        "username": "VirtueChineseMedicineCentre",
+        "name": "懷德中醫中心 Virtue Chinese Medicine Centre",
         "about": "提供中醫診療服務\n我們重醫術\n更重醫德",
-        "categories": [
-          "Medical Center"
+        "category_list": [
+          {
+            "id": "228143393877753",
+            "name": "Medical Center"
+          }
         ],
-        "addr": "九龍太子彌敦道789號健峰保險大廈3樓308室",
-        "area": "Hong Kong",
-        "email": "virtuechinesemedicine@gmail.com"
+        "emails": [
+          "virtuechinesemedicine@gmail.com"
+        ],
+        "single_line_address": "九龍太子彌敦道789號健峰保險大廈3樓308室, Hong Kong"
       }
     },
     {

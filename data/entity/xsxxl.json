@@ -17,15 +17,25 @@
     {
       "url": "https://www.facebook.com/xsxxl/",
       "meta": {
-        "name": "XSXXL.COM 巨型便服專門店",
         "id": "102953696444645",
-        "about": "「只要有選擇，肥人都可以著得好潮好有型」",
-        "categories": [
-          "Clothing Store",
-          "Clothing (Brand)"
+        "username": "xsxxl",
+        "name": "XSXXL.COM 巨型便服專門店",
+        "about": "「只要有選擇，肥人都可以著得好潮好有型」\n",
+        "category_list": [
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
         ],
-        "email": "info@xsxxl.com",
-        "tel": "26100161"
+        "emails": [
+          "info@xsxxl.com"
+        ],
+        "single_line_address": "香港九龍觀塘開源道開聯工業中心A座6樓602室",
+        "website": "http://store.xsxxl.com/"
       }
     }
   ],

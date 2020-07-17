@@ -14,17 +14,27 @@
     {
       "url": "https://www.facebook.com/HeHa0518/",
       "meta": {
-        "name": "He 蝦堂 釣蝦場",
         "id": "587098808463751",
-        "categories": [
-          "Sports & Recreation",
-          "Party Entertainment Service",
-          "Fishing Spot"
+        "username": "HeHa0518",
+        "name": "He 蝦堂 釣蝦場",
+        "category_list": [
+          {
+            "id": "141810199571801",
+            "name": "Fishing Spot"
+          },
+          {
+            "id": "189334414420898",
+            "name": "Party Entertainment Service"
+          },
+          {
+            "id": "186982054657561",
+            "name": "Sports & Recreation"
+          }
         ],
-        "addr": "葵涌",
-        "area": "00852 Kowloon, Hong Kong",
-        "email": "heha20190518@gmail.com",
-        "tel": "98765432"
+        "emails": [
+          "heha20190518@gmail.com"
+        ],
+        "single_line_address": "葵涌, 00852 Kowloon, Hong Kong"
       }
     }
   ],

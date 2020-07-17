@@ -15,16 +15,20 @@
     {
       "url": "https://www.facebook.com/Mayboshop/",
       "meta": {
-        "name": "寶品Mayboshop",
         "id": "911416678963358",
-        "about": "本公司專售美國原隻熟煙火雞及美國熟煙火雞肶\n還有紐西蘭/澳洲/美國/西班牙高級牛扒,豬扒,環球海產,小食冷盤，過百款貨品任君選擇 種類繁多,不能盡錄! 查詢請致電 36184584/62236632  /Fax:36184583",
-        "categories": [
-          "Retail Company"
+        "username": "Mayboshop",
+        "name": "寶品Mayboshop",
+        "about": "本公司專售美國原隻熟煙火雞及美國熟煙火雞肶\n還有紐西蘭/澳洲/美國/西班牙高級牛扒,豬扒,環球海產,小食冷盤，過百款貨品任君選擇 種類繁多,不能盡錄! 查詢請致電 36184584/62236632  /Fax:36184583 ",
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "新界荃灣西樓角道華都中心商埸二樓2號舖",
-        "area": "Hong Kong",
-        "email": "mayboshop@yahoo.com.hk",
-        "tel": "36184584"
+        "emails": [
+          "mayboshop@yahoo.com.hk"
+        ],
+        "single_line_address": "新界荃灣西樓角道華都中心商埸二樓2號舖, Hong Kong"
       }
     }
   ],

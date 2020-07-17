@@ -7,14 +7,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "DeMos 馬民 - 馬鞍山・民知民Go",
         "id": "970516516419922",
+        "username": "DeMosDerivedFromMaOnShan",
+        "name": "DeMos 馬民 - 馬鞍山・民知民Go",
         "about": "馬民全名「馬鞍山民知民GO」，意思是當知道社區需要後（民知）就坐言起行（民GO），著手組織各類活動，與居民一起合力改善社區。",
-        "categories": [
-          "Community Organization",
-          "Community"
+        "category_list": [
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "demos.maman@gmail.com"
+        "emails": [
+          "demos.maman@gmail.com"
+        ],
+        "website": "https://www.facebook.com/pg/DeMosDerivedFromMaOnShan/about/"
       },
       "url": "https://www.facebook.com/DeMosDerivedFromMaOnShan/"
     },

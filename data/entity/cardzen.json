@@ -11,14 +11,21 @@
     {
       "url": "https://www.facebook.com/cardzen/",
       "meta": {
-        "name": "Joseph Zen",
         "id": "159315457546819",
+        "username": "cardzen",
+        "name": "Joseph Zen",
         "about": "Bishop Emeritus, Hong Kong",
-        "categories": [
-          "Public Figure"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          }
         ],
-        "email": "bishopzen@catholic.org.hk",
-        "tel": "25228689"
+        "emails": [
+          "bishopzen@catholic.org.hk"
+        ],
+        "single_line_address": "Salesian House of Studies, Hong Kong",
+        "website": "http://oldyosef.hkdavc.com/"
       }
     },
     {

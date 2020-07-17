@@ -8,15 +8,21 @@
     {
       "url": "https://www.facebook.com/Fb93874380/",
       "meta": {
-        "name": "巴打小食（Food Brother）",
         "id": "100404008071412",
+        "username": "Fb93874380",
+        "name": "巴打小食（Food Brother）",
         "about": "由兩個過期小鮮肉合作開既小食店。於2019年10月5日開業，香港人嘅「巴打小食」。以即叫炸物，秘制醬汁為主打。",
-        "categories": [
-          "Food Stand"
+        "category_list": [
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "元朗民合徑8號幸福樓二期地下6號地鋪",
-        "area": "000000 Hong Kong",
-        "tel": "93874380"
+        "single_line_address": "元朗民合徑8號幸福樓二期地下6號地鋪, 000000 Hong Kong"
       }
     }
   ],

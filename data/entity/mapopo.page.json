@@ -10,16 +10,25 @@
     },
     {
       "meta": {
-        "name": "馬寶寶社區農場 Mapopo Community Farm",
         "id": "147394011998153",
+        "username": "mapopo.page",
+        "name": "馬寶寶社區農場 Mapopo Community Farm",
         "about": "馬寶寶，粉嶺馬屎埔村的寶寶。實踐永續農業，開辦農墟及導賞。重新發現土地、食物、生活與發展的意義，重塑人與人、城與鄉的關係。栽種城鄉共生、永續發展的願望。",
-        "categories": [
-          "Agricultural Cooperative",
-          "Farm"
+        "category_list": [
+          {
+            "id": "1555099458125522",
+            "name": "Agricultural Cooperative"
+          },
+          {
+            "id": "150815208309028",
+            "name": "Farm"
+          }
         ],
-        "addr": "6 ma sik road",
-        "area": "Fanling",
-        "email": "mapopo.farm@gmail.com"
+        "emails": [
+          "mapopo.farm@gmail.com"
+        ],
+        "single_line_address": "6 ma sik road, Fanling",
+        "website": "http://mapopo.wordpress.com/"
       },
       "url": "https://www.facebook.com/mapopo.page/"
     },

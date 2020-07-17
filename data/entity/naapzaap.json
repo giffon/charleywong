@@ -18,13 +18,19 @@
     {
       "url": "https://www.facebook.com/naapzaap/",
       "meta": {
-        "name": "納雜 NAAP ZAAP",
         "id": "106120864443680",
-        "categories": [
-          "Shopping & Retail"
+        "username": "naapzaap",
+        "name": "納雜 NAAP ZAAP",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "naapzaaptaipo@gmail.com",
-        "tel": "55053640"
+        "emails": [
+          "naapzaaptaipo@gmail.com"
+        ],
+        "website": "www.naapzaap.com"
       }
     }
   ],

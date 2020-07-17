@@ -17,16 +17,25 @@
     {
       "url": "https://www.facebook.com/lifewelltravel/",
       "meta": {
-        "name": "Lifewelltravel",
         "id": "893145090817405",
+        "username": "lifewelltravel",
+        "name": "Lifewelltravel",
         "about": "LifeWellTravel是一群相信好生活不應局限於高昂價格的年輕人所創立，我們認為高品質的歐洲產品應以一個更合乎大眾期望的價格發售。",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "2206",
+            "name": "Bags/Luggage"
+          },
+          {
+            "id": "185127444860544",
+            "name": "Accessories"
+          }
         ],
-        "addr": "長沙灣永康街41號匯華工廠大廈7樓C2室",
-        "area": "Hong Kong",
-        "email": "sales@lifewelltravel.com",
-        "tel": "51281463"
+        "emails": [
+          "sales@lifewelltravel.com"
+        ],
+        "single_line_address": "長沙灣永康街41號匯華工廠大廈7樓C2室, Hong Kong",
+        "website": "http://www.lifewelltravel.com"
       }
     }
   ],

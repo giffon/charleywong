@@ -7,14 +7,19 @@
     {
       "url": "https://www.facebook.com/107148981000324/",
       "meta": {
-        "name": "Kulu隱形眼鏡專門店",
         "id": "107148981000324",
+        "name": "Kulu隱形眼鏡專門店",
         "about": "MAKE YOUR EYES SMITE\n�多款日韓台人氣con選擇\n�安全品質 信心保證\n�順豐快遞 到店自取\n�whatsapp 9723 8961\n天水圍新北江商場1樓C79B",
-        "categories": [
-          "Shopping & Retail",
-          "Health/Beauty"
-        ],
-        "tel": "97238961"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
+        ]
       }
     },
     {

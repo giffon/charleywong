@@ -15,13 +15,19 @@
     {
       "url": "https://www.facebook.com/LKNim/",
       "meta": {
-        "name": "LKNim 阿念",
         "id": "362783890536780",
+        "username": "LKNim",
+        "name": "LKNim 阿念",
         "about": "Hello大家好我係阿念\n\n一個在香港出生的年輕人\n熱愛遊戲，不論是PC/Mobile/Console的遊戲\n只要想玩便可能會實況跟大家分享\n\nFor business inquiries: lknlknim@gmail.com",
-        "categories": [
-          "Public Figure"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          }
         ],
-        "email": "lknlknim@gmail.com"
+        "emails": [
+          "lknlknim@gmail.com"
+        ]
       }
     }
   ],

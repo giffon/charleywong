@@ -7,16 +7,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "滑嘟嘟 Sweet Bon Bon",
         "id": "1445843262331310",
+        "username": "sweetbonbonhk",
+        "name": "滑嘟嘟 Sweet Bon Bon",
         "about": "自家製造豆漿, 海帶綠豆沙,薏米紅豆沙,自家磨芝麻糊, 香滑合桃糊，客家糍粑，手工芋圓",
-        "categories": [
-          "Food Stand",
-          "Dessert Shop"
+        "category_list": [
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "大埔墟街市及熟食中心2樓29號舖位",
-        "area": "Hong Kong",
-        "tel": "91729433"
+        "single_line_address": "大埔墟街市及熟食中心2樓29號舖位, Hong Kong"
       },
       "url": "https://www.facebook.com/sweetbonbonhk/"
     }

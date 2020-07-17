@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/wcwc.wildncherish/",
       "meta": {
-        "name": "WCWC.Wildncherish",
         "id": "1109154822465636",
+        "username": "wcwc.wildncherish",
+        "name": "WCWC.Wildncherish",
         "about": "Sneaker and Fashion",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "Room 2, 20/F, Prosper Commercial Building, 9 Yin Chong Street,Mong Kok",
-        "area": "852 Mong Kok",
-        "email": "wildncherish@gmail.com",
-        "tel": "51183350"
+        "emails": [
+          "wildncherish@gmail.com"
+        ],
+        "single_line_address": "Room 2, 20/F, Prosper Commercial Building, 9 Yin Chong Street,Mong Kok, 852 Mong Kok",
+        "website": "www.wildncherish.com"
       }
     },
     {

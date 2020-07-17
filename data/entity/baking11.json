@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/baking11/",
       "meta": {
-        "name": "烘焙便利店",
         "id": "847897601897937",
+        "username": "baking11",
+        "name": "烘焙便利店",
         "about": "烘焙便利店(香港)主要售賣烘焙工具/材料為主，所有產品皆由店主親自挑選，大部份產品都是現貨。\n\n產品分類: https://www.facebook.com/baking\n\n歡迎加入烘焙便利店群組: https://www.facebook.com/groups/2970609",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "銅鑼灣地帶174號舖",
-        "area": "Hong Kong",
-        "tel": "95655126"
+        "single_line_address": "銅鑼灣地帶174號舖, Hong Kong"
       }
     },
     {

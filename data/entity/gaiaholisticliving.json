@@ -11,15 +11,21 @@
     {
       "url": "https://www.facebook.com/gaiaholisticliving/",
       "meta": {
-        "name": "GAIA Holistic Living 知活",
         "id": "398819417305599",
-        "about": "YOGA · HEALING · WELLNESS  \n瑜伽。療癒。養生\n網店：www.gaiaholisticliving.com",
-        "categories": [
-          "Alternative & Holistic Health Service"
+        "username": "gaiaholisticliving",
+        "name": "GAIA Holistic Living   知活",
+        "about": "YOGA · HEALING · WELLNESS  \n瑜伽。療癒。養生\n網店：www.gaiaholisticliving.com\n",
+        "category_list": [
+          {
+            "id": "357645644269220",
+            "name": "Alternative & Holistic Health Service"
+          }
         ],
-        "addr": "Rm 1813, Wellborne Commercial Centre, 8 Java Road",
-        "area": "North Point",
-        "email": "gaiaholisticliving@gmail.com"
+        "emails": [
+          "gaiaholisticliving@gmail.com"
+        ],
+        "single_line_address": "Rm 1813, Wellborne Commercial Centre, 8 Java Road, North Point",
+        "website": "www.gaiaholisticliving.com"
       }
     },
     {

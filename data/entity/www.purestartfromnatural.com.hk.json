@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/www.purestartfromnatural.com.hk/",
       "meta": {
-        "name": "PURE start from natural",
         "id": "168764456580656",
+        "username": "www.purestartfromnatural.com.hk",
+        "name": "PURE start from natural",
         "about": "PURE分店：\n銅鑼灣軒尼斯道505號電業城Solo Tower 11樓，1111 & 1118室\n尖沙咀加連威老道12號加連威大廈5樓後座\n沙田安群街1號京瑞廣場2期2樓230號（ 石門站側）\n九龍觀塘巧明街111號富利廣場 11樓1102",
-        "categories": [
-          "Health/Beauty",
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "尖沙咀加連威老道12號加連威大廈5樓後座",
-        "area": "Hong Kong",
-        "email": "info@pure-sfn.com",
-        "tel": "53073222"
+        "emails": [
+          "info@pure-sfn.com"
+        ],
+        "single_line_address": "尖沙咀加連威老道12號加連威大廈5樓後座, Hong Kong",
+        "website": "https://purestartfromnatural.com.hk/"
       }
     },
     {

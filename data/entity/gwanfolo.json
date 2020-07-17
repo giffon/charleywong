@@ -10,13 +10,17 @@
     {
       "url": "https://www.facebook.com/gwanfolo/",
       "meta": {
-        "name": "軍火佬",
         "id": "113135960144182",
+        "username": "gwanfolo",
+        "name": "軍火佬",
         "about": "A registered press.",
-        "categories": [
-          "Personal Blog"
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "tel": "96297896"
+        "single_line_address": "Hong Kong"
       }
     }
   ],

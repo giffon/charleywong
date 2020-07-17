@@ -6,11 +6,14 @@
   "webpages": [
     {
       "meta": {
-        "name": "Terry女子自衛術",
         "id": "2372930742739644",
+        "name": "Terry女子自衛術",
         "about": "本人教授主要由跆拳道等所綜合成為專為女性度身訂造而設的自衛術，令學員能夠保護自己，勤加練習更能收強身健體之效。",
-        "categories": [
-          "Sports"
+        "category_list": [
+          {
+            "id": "964585346994407",
+            "name": "Sports"
+          }
         ]
       },
       "url": "https://www.facebook.com/2372930742739644/"

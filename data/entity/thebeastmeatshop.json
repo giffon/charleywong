@@ -8,16 +8,25 @@
     {
       "url": "https://www.facebook.com/thebeastmeatshop/",
       "meta": {
-        "name": "The Beast Feast - 胾商 肉類及海產食材專門店",
         "id": "427392377612691",
+        "username": "thebeastmeatshop",
+        "name": "The Beast Feast - 胾商 肉類及海產食材專門店",
         "about": "池酒林胾個胾",
-        "categories": [
-          "Butcher Shop",
-          "Meat Wholesaler",
-          "Food Delivery Service"
+        "category_list": [
+          {
+            "id": "181564868547915",
+            "name": "Butcher Shop"
+          },
+          {
+            "id": "1237052559660497",
+            "name": "Meat Wholesaler"
+          },
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          }
         ],
-        "addr": "天水圍天湖路1號",
-        "area": "Hong Kong"
+        "single_line_address": "天水圍天湖路1號, Hong Kong"
       }
     }
   ],

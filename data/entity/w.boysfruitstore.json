@@ -7,15 +7,23 @@
     {
       "url": "https://www.facebook.com/w.boysfruitstore/",
       "meta": {
-        "name": "王孖記果子",
         "id": "888475424499178",
-        "about": "馳名鮮果糯米糍\n每日新鮮製作，有多款口味",
-        "categories": [
-          "Dessert Shop",
-          "Grocery Store"
+        "username": "w.boysfruitstore",
+        "name": "王孖記果子",
+        "about": "馳名鮮果糯米糍\n每日新鮮製作，有多款口味\n",
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          }
         ],
-        "email": "w.boysfruitstore@gmail.com",
-        "tel": "55929088"
+        "emails": [
+          "w.boysfruitstore@gmail.com"
+        ]
       }
     },
     {

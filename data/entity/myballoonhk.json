@@ -10,14 +10,20 @@
     {
       "meta": {
         "id": "1262784247107591",
+        "username": "myballoonhk",
+        "name": "My Balloon",
         "about": "MyBalloon 為你提供色彩繽紛的氣球服務",
-        "categories": [
-          "Shopping & retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "香港觀塘鴻圖道55號幸運工業大廈",
-        "area": "Kowloon, Hong Kong",
-        "email": "myballoonhk@gmail.com",
-        "tel": "61474876"
+        "emails": [
+          "myballoonhk@gmail.com"
+        ],
+        "single_line_address": "香港觀塘鴻圖道55號幸運工業大廈, 852 Kowloon, Hong Kong",
+        "website": "http://www.myballoon.com.hk"
       },
       "url": "https://www.facebook.com/myballoonhk/"
     },

@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "Aurora lane",
         "id": "1893915893970777",
+        "username": "auroralaneco",
+        "name": "Aurora lane",
         "about": "Aurora Lane - the artisan of Fine Jewellery · Floral · Handcrafted Gift.\nOffering “Quality Light Jewellery”, affordable yet well-crafted.",
-        "categories": [
-          "Gift Shop",
-          "Jewelry/Watches"
+        "category_list": [
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          },
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          }
         ],
-        "addr": "Shop 2 , G/F, Sunshine Bldg, 36 Victory Avenue, Ho Man Tin, Kowloon",
-        "area": "Hong Kong",
-        "email": "info@auroralane.co",
-        "tel": "56823498"
+        "emails": [
+          "info@auroralane.co"
+        ],
+        "single_line_address": "Shop 2 , G/F, Sunshine Bldg, 36 Victory Avenue, Ho Man Tin, Kowloon, Hong Kong",
+        "website": "http://auroralane.co"
       },
       "url": "https://www.facebook.com/auroralaneco/"
     },

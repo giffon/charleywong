@@ -6,11 +6,14 @@
   "webpages": [
     {
       "meta": {
-        "name": "Karina & Kylie",
         "id": "918995428191103",
+        "name": "Karina & Kylie",
         "about": "記錄Karina 家姐和 Kylie 妺妹的趣事",
-        "categories": [
-          "Public Figure"
+        "category_list": [
+          {
+            "id": "1602",
+            "name": "Public Figure"
+          }
         ]
       },
       "url": "https://www.facebook.com/918995428191103/"

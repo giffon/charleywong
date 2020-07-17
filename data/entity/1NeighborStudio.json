@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/1NeighborStudio/",
       "meta": {
-        "name": "Neighbor Studio 鄰家攝影工作室 證件相 CV相 專業照 家庭相",
         "id": "102866344500635",
+        "username": "1NeighborStudio",
+        "name": "Neighbor Studio 鄰家攝影工作室 證件相 CV相 專業照 家庭相",
         "about": "Neighbor Studio 專為客人提供各項個人化妝及拍攝服務，除此更提供不同主題及風格的拍攝，不論個人型像或家庭留影，追求最自然流露一刻。",
-        "categories": [
-          "Photographer",
-          "Makeup Artist"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "addr": "駿業街43-45號創匯廣場2樓05室",
-        "area": "0000 Hong Kong",
-        "email": "1neighborstudio@gmail.com",
-        "tel": "57224318"
+        "emails": [
+          "1neighborstudio@gmail.com"
+        ],
+        "single_line_address": "駿業街43-45號創匯廣場2樓05室, 0000 Hong Kong",
+        "website": "www.neighborstudio.com"
       }
     },
     {

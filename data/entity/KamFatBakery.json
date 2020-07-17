@@ -7,14 +7,16 @@
     {
       "url": "https://www.facebook.com/KamFatBakery/",
       "meta": {
-        "name": "金發麵包",
         "id": "341654349575934",
-        "categories": [
-          "Shopping & Retail"
+        "username": "KamFatBakery",
+        "name": "金發麵包",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "旺角西奧運富榮花園地下39號舖",
-        "area": "Kowloon, Hong Kong",
-        "tel": "64870302"
+        "single_line_address": "Kowloon, Hong Kong"
       }
     },
     {

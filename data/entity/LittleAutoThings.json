@@ -10,16 +10,25 @@
     {
       "url": "https://www.facebook.com/LittleAutoThings/",
       "meta": {
-        "name": "Little Auto Things 汽車用品",
         "id": "109637647295418",
+        "username": "LittleAutoThings",
+        "name": "Little Auto Things 汽車用品",
         "about": "Little Auto Things 汽車用品店於2020成立，店主為愛車之人，為各新手老手搜羅全球新潮、有趣及優質嘅汽車精品，絕對適合愛車一族嘅你！",
-        "categories": [
-          "Shopping & Retail",
-          "Cars"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2205",
+            "name": "Cars"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong",
-        "tel": "26926929"
+        "emails": [
+          "littleautothings@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://littleautothings.com/"
       }
     },
     {

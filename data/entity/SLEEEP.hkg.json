@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/SLEEEP.hkg/",
       "meta": {
-        "name": "Sleeep Hong Kong",
         "id": "556518551217517",
+        "username": "SLEEEP.hkg",
+        "name": "Sleeep Hong Kong",
         "about": "A Space for Recharge, whenever you need it.",
-        "categories": [
-          "Hospitality Service",
-          "Hotel",
-          "Inn"
+        "category_list": [
+          {
+            "id": "180699075298665",
+            "name": "Hospitality Service"
+          },
+          {
+            "id": "164243073639257",
+            "name": "Hotel"
+          },
+          {
+            "id": "181803978524025",
+            "name": "Inn"
+          }
         ],
-        "addr": "242 Queen's Road Central",
-        "area": "Hong Kong",
-        "email": "zzz@sleeep.io",
-        "tel": "96046049"
+        "emails": [
+          "xo.hkg@sleeep.io"
+        ],
+        "single_line_address": "242 Queen's Road Central, Hong Kong",
+        "website": "https://sleeep.io"
       }
     },
     {

@@ -10,15 +10,24 @@
     {
       "url": "https://www.facebook.com/favillaflorist/",
       "meta": {
-        "name": "Favilla Florist",
         "id": "1307999852650745",
+        "username": "favillaflorist",
+        "name": "Favilla Florist",
         "about": "Order method:\n\n1/ Facebook messenger\n2/ Email",
-        "categories": [
-          "Retail Company",
-          "Florist"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          }
         ],
-        "email": "florist@favilla.com.hk",
-        "tel": "96615201"
+        "emails": [
+          "florist@favilla.com.hk"
+        ],
+        "website": "www.favilla.com.hk"
       }
     },
     {

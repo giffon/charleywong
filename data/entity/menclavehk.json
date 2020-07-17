@@ -10,16 +10,21 @@
     },
     {
       "meta": {
-        "name": "《文禮》Menclave homme",
         "id": "619420944806450",
+        "username": "menclavehk",
+        "name": "《文禮》Menclave homme",
         "about": "男裝、男士禮服、新郎禮服專賣站。 專營男士休閒時裝，亦同時教你如何打造一個屬於自己成功者的形象。男人應該多一點Fashion，穿適合自己的西裝，穿適合自己的Suit、Shirt，成功的男人也!",
-        "categories": [
-          "Men's Clothing Store"
+        "category_list": [
+          {
+            "id": "170241263022353",
+            "name": "Men's Clothing Store"
+          }
         ],
-        "addr": "Room 1443-1446, 14/F, Eton Tower, 8 Hysan Road",
-        "area": "CWB Causeway Bay",
-        "email": "menclavehk@gmail.com",
-        "tel": "66511540"
+        "emails": [
+          "menclavehk@gmail.com"
+        ],
+        "single_line_address": "Room 1443-1446, 14/F, Eton Tower, 8 Hysan Road, CWB Causeway Bay",
+        "website": "http://artiasthk.wix.com/menclave"
       },
       "url": "https://www.facebook.com/menclavehk/"
     },

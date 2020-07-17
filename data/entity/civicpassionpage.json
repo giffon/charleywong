@@ -11,13 +11,20 @@
     {
       "url": "https://www.facebook.com/civicpassionpage/",
       "meta": {
-        "name": "熱血公民",
         "id": "1663736447220948",
+        "username": "civicpassionpage",
+        "name": "熱血公民",
         "about": "熱血公民",
-        "categories": [
-          "Community Organization"
+        "category_list": [
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          }
         ],
-        "email": "enquiry@civicpassion.hk"
+        "emails": [
+          "enquiry@civicpassion.hk"
+        ],
+        "website": "http://www.civicpassion.hk"
       }
     },
     {

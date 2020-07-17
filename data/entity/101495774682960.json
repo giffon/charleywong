@@ -7,11 +7,14 @@
     {
       "url": "https://www.facebook.com/101495774682960/",
       "meta": {
-        "name": "香港人的飲食購物天地",
         "id": "101495774682960",
+        "name": "香港人的飲食購物天地",
         "about": "齊擴大黃色經濟圈",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ]
       }
     }

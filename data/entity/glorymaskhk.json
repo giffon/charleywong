@@ -8,15 +8,21 @@
     {
       "url": "https://www.facebook.com/glorymaskhk/",
       "meta": {
-        "name": "香港仔口罩 Glory Mask",
         "id": "113530453628285",
+        "username": "glorymaskhk",
+        "name": "香港仔口罩 Glory Mask",
         "about": "期盼能為香港人提供香港製造的醫療級口罩",
-        "categories": [
-          "Medical & Health",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "145118935550090",
+            "name": "Medical & Health"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "3/F Wah Shing Industrial Building, 18 Cheung Shun Street, Cheung Sha Wan",
-        "area": "00852 Hong Kong"
+        "single_line_address": "Flat B, 3/F Wah Shing Industrial Building, 18 Cheung Shun Street, Cheung Sha Wan, 00852 Hong Kong"
       }
     }
   ],

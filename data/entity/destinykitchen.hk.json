@@ -10,16 +10,25 @@
     {
       "url": "https://www.facebook.com/destinykitchen.hk/",
       "meta": {
-        "name": "DK Pizza Cafe",
         "id": "362563443881237",
+        "username": "destinykitchen.hk",
+        "name": "DK Pizza Cafe",
         "about": "Dishes from our heart",
-        "categories": [
-          "Pizza Place"
+        "category_list": [
+          {
+            "id": "180256082015845",
+            "name": "Pizza Place"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "483 順寧道",
-        "area": "Hong Kong",
-        "email": "info@destinykitchen.com",
-        "tel": "23232680"
+        "emails": [
+          "info@destinykitchen.com"
+        ],
+        "single_line_address": "483 順寧道, Hong Kong",
+        "website": "http://www.destinykitchen.com"
       }
     },
     {

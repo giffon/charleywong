@@ -7,16 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "隱啡",
         "id": "565251810318620",
+        "username": "HiddenCoffeeHK",
+        "name": "隱啡",
         "about": "聯絡我們：\n電話: 64901236 (辦公時間12:00-19:00)\nInstagram: hiddencoffeehk\n電郵:hiddencoffeehk@gmail.com",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "青山公路109號好運洋樓地下6號鋪",
-        "area": "00000 Tuen Mun",
-        "email": "hiddencoffeehk@gmail.com",
-        "tel": "64901236"
+        "emails": [
+          "hiddencoffeehk@gmail.com"
+        ],
+        "single_line_address": "青山公路109號好運洋樓地下6號鋪, 00000 Tuen Mun"
       },
       "url": "https://www.facebook.com/HiddenCoffeeHK/"
     },

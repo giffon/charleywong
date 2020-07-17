@@ -7,12 +7,19 @@
     {
       "url": "https://www.facebook.com/piu.comics/",
       "meta": {
-        "name": "飄葉漫畫",
         "id": "2110598982525650",
+        "username": "piu.comics",
+        "name": "飄葉漫畫",
         "about": "港人自救!!",
-        "categories": [
-          "Art",
-          "Community"
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ]
       }
     }

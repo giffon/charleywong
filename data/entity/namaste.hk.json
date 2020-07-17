@@ -6,16 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "about": "尋找尼泊爾寶物\nInstagram: @namaste.hanakana",
-        "categories": [
-          "Clothing (brand)",
-          "Clothes shop"
+        "id": "1085260571509354",
+        "username": "namaste.hk",
+        "name": "Namasté",
+        "about": "尋找尼泊爾寶物 \nInstagram: @namaste.hanakana",
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          },
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          }
         ],
-        "addr": "葵涌廣場3樓時尚坊32號舖",
-        "area": "Hong Kong",
-        "email": "namastehanakana@gmail.com",
-        "tel": "60304044",
-        "id": "1085260571509354"
+        "emails": [
+          "namastehanakana@gmail.com"
+        ],
+        "single_line_address": "葵涌廣場3樓時尚坊32號舖, Hong Kong",
+        "website": "https://www.pinkoi.com/store/namaste-hanakana"
       },
       "url": "https://www.facebook.com/namaste.hk/"
     },

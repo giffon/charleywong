@@ -11,29 +11,48 @@
     {
       "url": "https://www.facebook.com/flyagainla/",
       "meta": {
-        "name": "又飛啦! Flyagain.la",
         "id": "192678424122112",
+        "username": "flyagainla",
+        "name": "又飛啦! Flyagain.la",
         "about": "網站: http://flyagain.la\nFB Group: http://flyagain.la/group\nYoutube: http://flyagain.tv\n「又飛啦捕票器」App：http://flyagain.la/app\n\n電郵: flyagainla@gmail.com",
-        "categories": [
-          "Tourist Information Center",
-          "Broadcasting & Media Production Company",
-          "Travel Company"
+        "category_list": [
+          {
+            "id": "124947834245370",
+            "name": "Tourist Information Center"
+          },
+          {
+            "id": "169056916473899",
+            "name": "Broadcasting & Media Production Company"
+          },
+          {
+            "id": "2258",
+            "name": "Travel Company"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong",
-        "email": "flyagainla@gmail.com"
+        "emails": [
+          "flyagainla@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://flyagain.la"
       }
     },
     {
       "url": "https://www.facebook.com/playagainla/",
       "meta": {
-        "name": "又玩啦！Playagain.la",
         "id": "2051122951800115",
+        "username": "playagainla",
+        "name": "又玩啦！Playagain.la",
         "about": "全港一站式本地食買玩一手情報站",
-        "categories": [
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "flyagainla@gmail.com"
+        "emails": [
+          "flyagainla@gmail.com"
+        ],
+        "single_line_address": "Cheong tat road, Hong Kong"
       }
     },
     {

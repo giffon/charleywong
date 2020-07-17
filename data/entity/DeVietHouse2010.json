@@ -8,15 +8,19 @@
     {
       "url": "https://www.facebook.com/DeVietHouse2010/",
       "meta": {
-        "name": "越男仔 De Viet Son",
         "id": "212769835411804",
-        "categories": [
-          "Vietnamese Restaurant"
+        "username": "DeVietHouse2010",
+        "name": "越男仔 De Viet Son",
+        "category_list": [
+          {
+            "id": "155136917876965",
+            "name": "Vietnamese Restaurant"
+          }
         ],
-        "addr": "廣華街翠園大樓二期地下5號舖",
-        "area": "852 Mong Kok",
-        "email": "de.viet.son2010@gmail.com",
-        "tel": "24889191"
+        "emails": [
+          "de.viet.son2010@gmail.com"
+        ],
+        "single_line_address": "廣華街翠園大樓二期地下5號舖, 852 Mong Kok"
       }
     },
     {

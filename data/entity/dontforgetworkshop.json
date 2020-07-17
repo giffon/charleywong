@@ -7,13 +7,19 @@
     {
       "url": "https://www.facebook.com/dontforgetworkshop/",
       "meta": {
-        "name": "別忘 • 工作室",
         "id": "109242630644338",
+        "username": "dontforgetworkshop",
+        "name": "別忘 • 工作室",
         "about": "別忘初心 • 別忘手作 • 別忘工作室",
-        "categories": [
-          "Arts & Crafts Store"
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          }
         ],
-        "email": "dontforgetworkshop@gmail.com"
+        "emails": [
+          "dontforgetworkshop@gmail.com"
+        ]
       }
     },
     {

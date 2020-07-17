@@ -6,18 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "name": "Ufleuriste",
         "id": "354748061207957",
+        "username": "ufleuriste",
+        "name": "Ufleuriste",
         "about": "Opening Hours: Mon to Sun, 11.00am to 8.00pm",
-        "categories": [
-          "Florist",
-          "Retail Company",
-          "Wedding Planning Service"
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "addr": null,
-        "area": "NA Hong Kong",
-        "email": "info@ufleuriste.com.hk",
-        "tel": "96257392"
+        "emails": [
+          "info.ufleuriste@gmail.com"
+        ],
+        "single_line_address": "NA Hong Kong",
+        "website": "www.ufleuriste.com.hk"
       },
       "url": "https://www.facebook.com/ufleuriste/"
     },

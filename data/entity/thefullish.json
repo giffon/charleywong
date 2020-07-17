@@ -11,16 +11,24 @@
     {
       "url": "https://www.facebook.com/thefullish/",
       "meta": {
-        "name": "The fullish",
         "id": "106931927399399",
+        "username": "thefullish",
+        "name": "The fullish",
         "about": "手作教學多用途租用空間",
-        "categories": [
-          "Grocery Store",
-          "Community"
+        "category_list": [
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "addr": "荔枝角青山道588-592號 永盛工業大廈11樓6室",
-        "area": "Hong Kong",
-        "email": "info@the-fullish.com"
+        "emails": [
+          "info@the-fullish.com"
+        ],
+        "single_line_address": "荔枝角青山道588-592號 永盛工業大廈11樓6室, Hong Kong"
       }
     },
     {

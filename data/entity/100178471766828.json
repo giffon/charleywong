@@ -7,12 +7,21 @@
     {
       "url": "https://www.facebook.com/100178471766828/",
       "meta": {
-        "name": "良心裝修佬",
         "id": "100178471766828",
-        "categories": [
-          "Home Improvement",
-          "Furniture Repair & Upholstery Service",
-          "Furniture Store"
+        "name": "良心裝修佬",
+        "category_list": [
+          {
+            "id": "108427109235243",
+            "name": "Home Improvement"
+          },
+          {
+            "id": "187813774574368",
+            "name": "Furniture Repair & Upholstery Service"
+          },
+          {
+            "id": "162845797101278",
+            "name": "Furniture Store"
+          }
         ]
       }
     }

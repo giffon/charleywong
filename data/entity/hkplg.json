@@ -11,11 +11,19 @@
     {
       "meta": {
         "id": "446311465535731",
+        "username": "hkplg",
+        "name": "Progressive Lawyers Group 法政匯思",
         "about": "A group of Hong Kong lawyers dedicated to promoting core values of the rule of law, judicial independence, democracy, human rights, freedom, and justice.\n一群捍衛法治、民主和人權的律師。",
-        "categories": [
-          "Non-governmental organisation (NGO)"
+        "category_list": [
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          }
         ],
-        "email": "contact@hkplg.org"
+        "emails": [
+          "contact@hkplg.org"
+        ],
+        "website": "https://hkplg.org"
       },
       "url": "https://www.facebook.com/hkplg/"
     }

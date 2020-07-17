@@ -7,14 +7,20 @@
     {
       "url": "https://www.facebook.com/drkamanlee/",
       "meta": {
-        "name": "利嘉敏 攻關女子",
         "id": "352541585528466",
+        "username": "drkamanlee",
+        "name": "利嘉敏 攻關女子",
         "about": "．香港中文大學新聞及傳播學院副教授\n．著有《公關智商》、《公關公義》、《公關學一天課》等著作\n．《經濟日報》攻關女子專欄\n． 新城電台《原來生活好快樂之有危有機》客席主持",
-        "categories": [
-          "Author",
-          "Society & Culture Website"
-        ],
-        "email": "kamanlee.enquiry@gmail.com"
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          },
+          {
+            "id": "2714",
+            "name": "Society & Culture Website"
+          }
+        ]
       }
     }
   ],

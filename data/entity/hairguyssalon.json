@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/hairguyssalon/",
       "meta": {
-        "name": "Hair Guys Salon",
         "id": "972856586211202",
+        "username": "hairguyssalon",
+        "name": "Hair Guys Salon",
         "about": "優閒Salon\n一個舒服嘅空間比客人飲下咖啡、花茶，係消閒放鬆既同時，享受我地Hair Guys既髮型服務。\n免費無限調配磨豆手沖咖啡、cappuccino 、Latte、花茶等。\nWhatsapp : 9861 0821\nIG : hairguys.salon",
-        "categories": [
-          "Hair Salon"
+        "category_list": [
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          }
         ],
-        "addr": "登打士街45號2/F",
-        "area": "旺角",
-        "email": "hairguys.salon@gmail.com",
-        "tel": "98610821"
+        "emails": [
+          "hairguys.salon@gmail.com"
+        ],
+        "single_line_address": "登打士街45號2/F, 旺角"
       }
     },
     {

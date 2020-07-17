@@ -6,15 +6,23 @@
   "webpages": [
     {
       "meta": {
-        "name": "Harmony Coffee Hong Kong",
         "id": "1048930775312347",
+        "username": "harmonycoffee.hk",
+        "name": "Harmony Coffee Hong Kong",
         "about": "Bespoke coffee service for parties, weddings, corporate events and workshops!",
-        "categories": [
-          "Coffee Shop",
-          "Event Planner"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          }
         ],
-        "email": "harmonycoffee.hk@gmail.com",
-        "tel": "35003702"
+        "emails": [
+          "harmonycoffee.hk@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/harmonycoffee.hk/"
     },

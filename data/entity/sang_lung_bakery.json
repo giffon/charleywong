@@ -7,13 +7,17 @@
     {
       "url": "https://www.facebook.com/sanglungbakery/",
       "meta": {
-        "name": "生隆餅家",
         "id": "101919237917511",
+        "username": "sanglungbakery",
+        "name": "生隆餅家",
         "about": "傳統野 即做即賣 懷舊餅家",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "tel": "23601359"
+        "single_line_address": "深水埗北河街68號地下(地鐵A2出口), Hong Kong"
       }
     },
     {

@@ -10,14 +10,21 @@
     {
       "url": "https://www.facebook.com/watchmakehk/",
       "meta": {
-        "name": "Watchmake",
         "id": "1035194826547366",
-        "about": "Design. Build. Wear your Watch proudly because it is made by you. 2 hours DIY session to design, build your mechanic watch.",
-        "categories": [
-          "Jewelry/Watches"
+        "username": "watchmakehk",
+        "name": "Watchmake",
+        "about": "Design. Build. Wear your Watch proudly because it is made by you. 2 hours DIY session to design, build your mechanic watch. ",
+        "category_list": [
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          }
         ],
-        "email": "jay@watchmakehk.com",
-        "tel": "62477773"
+        "emails": [
+          "jay@watchmakehk.com"
+        ],
+        "single_line_address": "觀塘鴻圖道62號鴻懋工業大廈6樓25室, Hong Kong",
+        "website": "https://watchmakehk.com"
       }
     },
     {

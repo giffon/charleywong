@@ -7,13 +7,21 @@
     {
       "url": "https://www.facebook.com/ALivingWitnessIllustrations/",
       "meta": {
-        "name": "飛MUN證 - A Living Witness",
         "id": "107710287314999",
-        "about": "透過插畫、文字、Podcast及短片記錄時事。",
-        "categories": [
-          "Personal Blog",
-          "News & Media Website"
-        ]
+        "username": "ALivingWitnessIllustrations",
+        "name": "飛MUN證 - A Living Witness",
+        "about": "透過插畫、文字、Podcast及短片記錄時事。\n",
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          },
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
+        ],
+        "single_line_address": "Hong Kong"
       }
     },
     {

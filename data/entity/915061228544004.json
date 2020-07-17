@@ -6,12 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "Amour De Florist",
         "id": "915061228544004",
-        "categories": [
-          "Product/Service"
+        "name": "Amour De Florist",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "amourdeflorist@gmail.com"
+        "emails": [
+          "amourdeflorist@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/915061228544004/"
     },

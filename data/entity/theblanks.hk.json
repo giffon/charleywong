@@ -14,13 +14,29 @@
     {
       "url": "https://www.facebook.com/theblanks.hk/",
       "meta": {
-        "name": "The_ blanks",
         "id": "193368377704187",
-        "about": "the_ blanks 為國際資訊與深度活動的綜合平台，提供各種互動式體驗。",
-        "categories": [
-          "Event"
+        "username": "theblanks.hk",
+        "name": "The_ blanks",
+        "about": "Articles, Publications, Events & Shop.\n為所有想像過擁有美好生活的人提供更多追尋美好的可能。",
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "192119584190796",
+            "name": "Event"
+          },
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          }
         ],
-        "tel": "39239736"
+        "emails": [
+          "info@theblanks.club"
+        ],
+        "single_line_address": "尖沙嘴彌敦道132號美麗華廣場2樓206小食糖, Tsim Sha Tsui",
+        "website": "shop.theblanks.club"
       }
     }
   ],

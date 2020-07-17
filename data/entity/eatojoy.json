@@ -9,16 +9,25 @@
     },
     {
       "meta": {
-        "name": "e肚仔",
         "id": "888310438031984",
+        "username": "eatojoy",
+        "name": "e肚仔",
         "about": "e肚仔是一個為食而生的飲食平台，我們相信「食」應該是一種享受，一份尊重，一種態度（Eat To Joy）。\n\nAlways Eat To Joy，食出生活滋味。",
-        "categories": [
-          "Food & Beverage",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong",
-        "email": "business@eatojoy.com"
+        "emails": [
+          "business@eatojoy.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://www.eatojoy.com"
       },
       "url": "https://www.facebook.com/eatojoy/"
     },

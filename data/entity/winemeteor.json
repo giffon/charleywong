@@ -10,14 +10,21 @@
     {
       "url": "https://www.facebook.com/winemeteor/",
       "meta": {
-        "name": "Wine Meteor",
         "id": "1510526399262653",
+        "username": "winemeteor",
+        "name": "Wine Meteor",
         "about": "酒  每一刻每一口\n都帶來不同的感覺和味道\n尋找屬於你的憧憬\n享受屬於你的一個瞬間",
-        "categories": [
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "email": "wine.meteor@gmail.com",
-        "tel": "96257423"
+        "emails": [
+          "wine.meteor@gmail.com"
+        ],
+        "single_line_address": "偉業街99號連順工業大廈420室",
+        "website": "https://winemeteor.wixsite.com/wine-m"
       }
     },
     {

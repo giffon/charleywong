@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/philoarthk/",
       "meta": {
-        "name": "游藝軒人文茶館",
         "id": "1687883861519225",
+        "username": "philoarthk",
+        "name": "游藝軒人文茶館",
         "about": "子曰：「志於道、據於德、依於仁、游於藝。」(述而七)\n本店為新式茶館\n提供品茗空間以及選購茶葉茶具服務\n推廣品茶文化，以重香氣的茶品為主\n定期舉辦各類文化活動\n接受包場，歡迎預約",
-        "categories": [
-          "Tea Room"
+        "category_list": [
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong",
-        "email": "hkphiloart@gmail.com",
-        "tel": "55961556"
+        "emails": [
+          "hkphiloart@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://philoarthk.boutir.com/"
       }
     },
     {

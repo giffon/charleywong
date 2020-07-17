@@ -7,14 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "魚願以嚐 As Yu Wish Sushi",
         "id": "356623244910143",
+        "username": "asyuwish",
+        "name": "魚願以嚐 As Yu Wish Sushi",
         "about": "�鰂魚涌站Exit B�英皇道933號御皇台地下11號舖(英麗閣停車場/759正後方）",
-        "categories": [
-          "Ramen Restaurant"
+        "category_list": [
+          {
+            "id": "218838724804749",
+            "name": "Ramen Restaurant"
+          }
         ],
-        "email": "asyuwishsushi@gmail.com",
-        "tel": "27881228"
+        "emails": [
+          "asyuwishsushi@gmail.com"
+        ],
+        "website": "asyuwishsushi.com"
       },
       "url": "https://www.facebook.com/asyuwish/"
     },

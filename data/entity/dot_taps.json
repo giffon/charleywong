@@ -14,12 +14,14 @@
     {
       "url": "https://www.facebook.com/1060194344139406/",
       "meta": {
-        "name": "Dot taps",
         "id": "1060194344139406",
-        "categories": [
-          "Coffee Shop"
-        ],
-        "tel": "91329355"
+        "name": "Dot taps",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
+        ]
       }
     }
   ],

@@ -7,15 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "申子居酒屋 Shinko",
         "id": "772272223122335",
-        "categories": [
-          "Diner"
+        "username": "shinkohk",
+        "name": "申子居酒屋 Shinko",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "黑布街74-76號地下1號舖",
-        "area": "Hong Kong",
-        "email": "shinkoizahaya@gmail.com",
-        "tel": "59989188"
+        "emails": [
+          "shinkoizahaya@gmail.com"
+        ],
+        "single_line_address": "黑布街74-76號地下1號舖, Hong Kong"
       },
       "url": "https://www.facebook.com/shinkohk/"
     },

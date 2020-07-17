@@ -10,15 +10,25 @@
     {
       "url": "https://www.facebook.com/VerdeeBambooLiving/",
       "meta": {
-        "name": "Verdee Bamboo Living",
         "id": "145302555514765",
+        "username": "VerdeeBambooLiving",
+        "name": "Verdee Bamboo Living",
         "about": "Website: http://www.verdeebamboo.comShop Address: Shop 346, 3/F, HomeSquare, 138 Rural Committee Road, Shatin, Hong Kong",
-        "categories": [
-          "Home Decor",
-          "Contractor"
+        "category_list": [
+          {
+            "id": "192647794097278",
+            "name": "Home Decor"
+          },
+          {
+            "id": "124816677590074",
+            "name": "Contractor"
+          }
         ],
-        "email": "info@verdeebamboo.com",
-        "tel": "28920255"
+        "emails": [
+          "info@verdeebamboo.com"
+        ],
+        "single_line_address": "No.346,L3, HomeSquare, Shatin, Hong Kong",
+        "website": "http://www.verdeebamboo.com"
       }
     },
     {

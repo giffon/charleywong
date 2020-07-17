@@ -8,15 +8,23 @@
     {
       "meta": {
         "id": "981511671920240",
+        "username": "kasogrocery",
+        "name": "嘉嫂辦館‧ KASO Grocery",
         "about": "本店提供各類日常優質生活食材，包括法國鮮肉、歐洲日本蔬果、及各類生活糧油雜貨",
-        "categories": [
-          "Retail company",
-          "Grocers"
+        "category_list": [
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "鴨脷洲海怡半島東商場地下G58號舖、濕街市地下39B-40號舖",
-        "area": "Hong Kong",
-        "email": "kasostore@gmail.com",
-        "tel": "26510809"
+        "emails": [
+          "kasostore@gmail.com"
+        ],
+        "single_line_address": "鴨脷洲海怡半島東商場地下G58號舖、濕街市地下39B-40號舖, 000 Hong Kong"
       },
       "url": "https://www.facebook.com/kasogrocery/"
     }

@@ -8,16 +8,27 @@
     {
       "url": "https://www.facebook.com/PolunFood/",
       "meta": {
-        "name": "寶倫食品有限公司 Po Lun Food Company Limited",
         "id": "135939423695008",
-        "about": "政府註冊認可之急凍肉類進出口商， 並設有自家食物加工場， 車隊。 提供優質食材至本地各類型食肆，及零售商店。",
-        "categories": [
-          "Butcher Shop",
-          "Shopping & Retail",
-          "Grocery Store"
+        "username": "PolunFood",
+        "name": "寶倫食品有限公司 Po Lun Food Company Limited",
+        "about": "政府註冊認可之急凍肉類進出口商， 並設有自家食物加工場， 車隊。 提供優質食材至本地各類型食肆，及零售商店。 \n ",
+        "category_list": [
+          {
+            "id": "181564868547915",
+            "name": "Butcher Shop"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          }
         ],
-        "email": "polun.eshop@gmail.com",
-        "tel": "96123461"
+        "emails": [
+          "polun.eshop@gmail.com"
+        ]
       }
     },
     {

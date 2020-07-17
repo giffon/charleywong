@@ -9,16 +9,22 @@
     },
     {
       "meta": {
-        "name": "Café Sausalito",
         "id": "1484293821859280",
+        "username": "SausalitoSSP",
+        "name": "Café Sausalito",
         "about": "Find us around Sham Shui Po!",
-        "categories": [
-          "Coffee Shop",
-          "Breakfast & Brunch Restaurant"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          }
         ],
-        "addr": "G/F 201 Tai Nan St.",
-        "area": "990777 Sham Shui Po",
-        "tel": "63051887"
+        "single_line_address": "G/F 201 Tai Nan St., 990777 Sham Shui Po",
+        "website": "http://cafesausalitohk.com/"
       },
       "url": "https://www.facebook.com/SausalitoSSP/"
     },

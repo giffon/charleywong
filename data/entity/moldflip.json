@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/moldflip/",
       "meta": {
-        "name": "Moldflip 倒模",
         "id": "1567721946879858",
-        "about": "倒模由兩位\n主修建築的水泥佬主理\n可以為你度身訂造\n屬於你的水泥作品\n\nMoldflip - A creation and production. Please contact us for any inquiry regarding our tailor made concrete design",
-        "categories": [
-          "Art",
-          "Interior Design Studio"
+        "username": "moldflip",
+        "name": "Moldflip 倒模",
+        "about": "倒模由兩位\n主修建築的水泥佬主理\n可以為你度身訂造\n屬於你的水泥作品\n\nMoldflip - A creation and production. Please contact us for any inquiry regarding our tailor made concrete design\n",
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          }
         ],
-        "addr": "倒模工作室, 24C, Kin Ga Building, Tuen Mun",
-        "area": "Tuen Mun",
-        "email": "info@moldflipstudio.com",
-        "tel": "92021730"
+        "emails": [
+          "info@moldflipstudio.com"
+        ],
+        "single_line_address": "倒模工作室, 24C, Kin Ga Building, Tuen Mun, Tuen Mun",
+        "website": "http://moldflipstudio.com"
       }
     },
     {

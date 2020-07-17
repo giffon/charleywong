@@ -8,16 +8,21 @@
     {
       "url": "https://www.facebook.com/twinsbistro/",
       "meta": {
-        "name": "Twins bistro 孖寶",
         "id": "566023070247642",
+        "username": "twinsbistro",
+        "name": "Twins bistro 孖寶",
         "about": "Twins bistro孖寶",
-        "categories": [
-          "Restaurant",
-          "Cafe"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
         ],
-        "addr": "新界上水新成路109號地下",
-        "area": "Sheung Shui",
-        "tel": "25398208"
+        "single_line_address": "新界上水新成路109號地下, Sheung Shui"
       }
     },
     {

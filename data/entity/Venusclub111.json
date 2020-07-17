@@ -17,18 +17,29 @@
     {
       "url": "https://www.facebook.com/Venusclub111/",
       "meta": {
-        "name": "Venus Club",
         "id": "1506414692976254",
-        "about": "《Muaythai》 《Thaiboxing》《keep fit 》《fight Team》\n本館絕無任何其他收費，例如入會費，年費，合約⋯⋯",
-        "categories": [
-          "Gym/Physical Fitness Center",
-          "Sports Club",
-          "Stadium, Arena & Sports Venue"
+        "username": "Venusclub111",
+        "name": "Venus Club",
+        "about": "《Muaythai》 《Thaiboxing》《keep fit 》《fight Team》\n本館絕無任何其他收費，例如入會費，年費，合約⋯⋯\n",
+        "category_list": [
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          },
+          {
+            "id": "189018581118681",
+            "name": "Sports Club"
+          },
+          {
+            "id": "109976259083543",
+            "name": "Stadium, Arena & Sports Venue"
+          }
         ],
-        "addr": "1/F Hing Ming Building, 41A Granville Road",
-        "area": "Tsim Sha Tsui",
-        "email": "venusclub111@gmail.com",
-        "tel": "95559679"
+        "emails": [
+          "venusclub111@gmail.com"
+        ],
+        "single_line_address": "1/F Hing Ming Building, 41A Granville Road, 0000 Tsim Sha Tsui",
+        "website": "http://www.Venusclub.hk"
       }
     }
   ],

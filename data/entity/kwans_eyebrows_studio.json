@@ -13,14 +13,15 @@
     {
       "url": "https://www.facebook.com/433056534106833/",
       "meta": {
-        "name": "Kwan’s Eyebrows Studio",
         "id": "433056534106833",
-        "categories": [
-          "Beauty Salon"
+        "name": "Kwan’s Eyebrows Studio",
+        "category_list": [
+          {
+            "id": "199236533423806",
+            "name": "Beauty Salon"
+          }
         ],
-        "addr": "元朗西菁街23號富達廣場112號舖",
-        "area": "Hong Kong",
-        "tel": "62109039"
+        "single_line_address": "元朗西菁街23號富達廣場112號舖, Hong Kong"
       }
     }
   ],

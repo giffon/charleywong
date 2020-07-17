@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/beamingpeople/",
       "meta": {
-        "name": "Beaming People",
         "id": "1618082538507824",
+        "username": "beamingpeople",
+        "name": "Beaming People",
         "about": "beaming people - make up studio\n\n\"you are beaming with confidence to show your true and beautiful self\"\n\nmakeup & hairdo service for weddings, pre-weddings or any of your special occasions.",
-        "categories": [
-          "Makeup Artist",
-          "Hair Salon"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong",
-        "email": "okaa.makeup@gmail.com",
-        "tel": "98307774"
+        "emails": [
+          "okaa.makeup@gmail.com"
+        ],
+        "single_line_address": "Hong Kong"
       }
     },
     {

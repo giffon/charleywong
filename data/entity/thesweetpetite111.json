@@ -7,14 +7,19 @@
     {
       "url": "https://www.facebook.com/thesweetpetite111/",
       "meta": {
-        "name": "Thesweetpetite",
         "id": "246505792448818",
+        "username": "thesweetpetite111",
+        "name": "Thesweetpetite",
         "about": "杯子蛋糕|蛋白餅|馬卡龍|糖霜曲奇\n WhatsApp: +852 68247659\nEmail: the_sweetpetite@yahoo.com",
-        "categories": [
-          "Kitchen/Cooking"
+        "category_list": [
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          }
         ],
-        "email": "the_sweetpetite@yahoo.com",
-        "tel": "68247659"
+        "emails": [
+          "the_sweetpetite@yahoo.com"
+        ]
       }
     },
     {

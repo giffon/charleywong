@@ -6,15 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Master Bruce Studio - 霆霖制作 專業3d設計 3D打印 電影道具制作 3d打印服務",
         "id": "1208508645898058",
+        "username": "masterbrucestudio",
+        "name": "Master Bruce Studio - 霆霖制作 專業3d設計 3D打印 電影道具制作 3d打印服務",
         "about": "我們是一家3D打印公司\n集設計,建模,生產,上色,成品等等服務\n而且提供技術支援和查詢服務\n歡迎查詢客服",
-        "categories": [
-          "Tools/Equipment",
-          "Business Service",
-          "Merchandising Service"
+        "category_list": [
+          {
+            "id": "2223",
+            "name": "Tools/Equipment"
+          }
         ],
-        "email": "masterbrucestudio@gmail.com"
+        "emails": [
+          "masterbrucestudio@gmail.com"
+        ],
+        "website": "https://www.facebook.com/masterbrucestudio/"
       },
       "url": "https://www.facebook.com/masterbrucestudio/"
     }

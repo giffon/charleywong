@@ -8,14 +8,26 @@
     {
       "url": "https://www.facebook.com/rthkunion/",
       "meta": {
-        "name": "香港電台節目製作人員工會 RTHK Programme Staff Union",
         "id": "264279926927165",
-        "categories": [
-          "Movie/Television Studio",
-          "Arts & Entertainment",
-          "Radio Station"
+        "username": "rthkunion",
+        "name": "香港電台節目製作人員工會 RTHK Programme Staff Union",
+        "category_list": [
+          {
+            "id": "1210",
+            "name": "Radio Station"
+          },
+          {
+            "id": "370369022981015",
+            "name": "Movie/Television Studio"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "email": "staffunion.rthk@gmail.com"
+        "emails": [
+          "staffunion.rthk@gmail.com"
+        ]
       }
     }
   ],

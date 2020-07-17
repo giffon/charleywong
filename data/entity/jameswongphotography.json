@@ -10,13 +10,20 @@
     {
       "meta": {
         "id": "140323686026416",
+        "username": "jameswongphotography",
+        "name": "James Wong Photography",
         "about": "James Wong is specialised in Weddings photograhy, Portraiture, Destination Wedding & Maternity portrait",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "addr": "K202 The biscuit factory, Drummond road",
-        "area": "London, United Kingdom",
-        "email": "jameswongwai@gmail.com"
+        "emails": [
+          "jameswongwai@gmail.com"
+        ],
+        "single_line_address": "K202 The biscuit factory, Drummond road, SE16 4DG London, United Kingdom",
+        "website": "http://www.wongwai.co.uk"
       },
       "url": "https://www.facebook.com/jameswongphotography/"
     }

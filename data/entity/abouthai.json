@@ -10,13 +10,20 @@
     },
     {
       "meta": {
-        "name": "AbouThai 阿布泰國生活百貨",
         "id": "1750080655263169",
+        "username": "abouthai",
+        "name": "AbouThai 阿布泰國生活百貨",
         "about": "「AbouThai 阿布泰國生活百貨」，成立於2016年，從泰國進口優質商品。截至2020年1月，擁有14間分店，另設多個銷售平台，每年4月在港還會舉行「阿布泰國潑水節購物日」。",
-        "categories": [
-          "Department Store"
+        "category_list": [
+          {
+            "id": "344508555610070",
+            "name": "Department Store"
+          }
         ],
-        "email": "info@abouthai.com"
+        "emails": [
+          "info@abouthai.com"
+        ],
+        "website": "https://www.abouthai.com/"
       },
       "url": "https://www.facebook.com/abouthai/"
     },

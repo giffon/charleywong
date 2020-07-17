@@ -9,16 +9,29 @@
     },
     {
       "meta": {
-        "name": "地盤佬江湖 - 五金街",
         "id": "1710262555863625",
+        "username": "builderhood",
+        "name": "地盤佬江湖 - 五金街",
         "about": "買架撐，就係咁簡單",
-        "categories": [
-          "Product/Service",
-          "Hardware Store",
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "148906328500868",
+            "name": "Hardware Store"
+          },
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "info@tengenit.com",
-        "tel": "27717298"
+        "emails": [
+          "info@tengenit.com"
+        ],
+        "single_line_address": "L23 ＆ Rm 180, Peninsula CTR, 67 Mody Road, Tsim Sha Tsui",
+        "website": "http://mall.builderhood.com"
       },
       "url": "https://www.facebook.com/builderhood/"
     },

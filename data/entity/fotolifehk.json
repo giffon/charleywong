@@ -8,12 +8,24 @@
     {
       "meta": {
         "id": "636263243224515",
+        "username": "fotolifehk",
+        "name": "偽術家 Fotolife",
         "about": "影下相、講下時事咁啦~\n\nfacebook.com/fotolifehk/",
-        "categories": [
-          "Art",
-          "Personal blog",
-          "Photography & videography"
-        ]
+        "category_list": [
+          {
+            "id": "2903",
+            "name": "Art"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          },
+          {
+            "id": "191969860827280",
+            "name": "Photography Videography"
+          }
+        ],
+        "website": "facebook.com/fotolifehk/"
       },
       "url": "https://www.facebook.com/fotolifehk/"
     },

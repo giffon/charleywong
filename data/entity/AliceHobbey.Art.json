@@ -10,23 +10,34 @@
     {
       "url": "https://www.facebook.com/AliceHobbey.Art/",
       "meta": {
-        "name": "Alice Hobbey",
         "id": "319229611597929",
+        "username": "AliceHobbey.Art",
+        "name": "Alice Hobbey",
         "about": "HOB\n香港動漫電玩節第八屆及第七屆原創新星漫畫大賽繪本組及漫畫組冠軍，現為自由插畫家\n\n相關工作請私訊或聯繫alice.hobbey@gmail.com\nwww.instagram.com/alicehobbey.art",
-        "categories": [
-          "Artist"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ],
-        "email": "alice.hobbey@gmail.com"
+        "emails": [
+          "alice.hobbey@gmail.com"
+        ],
+        "website": "https://www.pinkoi.com/alicehoabbey"
       }
     },
     {
       "url": "https://www.facebook.com/iamhob1014/",
       "meta": {
-        "name": "Hob懶人記",
         "id": "2771277676216531",
-        "about": "HOB\n香港人🇭🇰️\n150cm\n前英國留學生️\n-\n分享日常生活各種蠢事\n特技是擁有各種奇怪的表情",
-        "categories": [
-          "Author"
+        "username": "iamhob1014",
+        "name": "Hob懶人記",
+        "about": "HOB \n香港人🇭🇰️\n150cm\n前英國留學生️\n-\n分享日常生活各種蠢事\n特技是擁有各種奇怪的表情",
+        "category_list": [
+          {
+            "id": "1301",
+            "name": "Author"
+          }
         ]
       }
     },

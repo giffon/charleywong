@@ -6,16 +6,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Macky’s",
         "id": "103194624448112",
-        "about": "Restaurant",
-        "categories": [
-          "Diner"
+        "username": "Mackys7601",
+        "name": "Macky’s",
+        "about": "Restaurant ",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "中環威靈頓街76號地下",
-        "area": "852 Hong Kong",
-        "email": "mackys7601@gmail.com",
-        "tel": "61760821"
+        "emails": [
+          "mackys7601@gmail.com"
+        ],
+        "single_line_address": "中環威靈頓街76號地下, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/Mackys7601/"
     },

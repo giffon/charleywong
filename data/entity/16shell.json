@@ -7,17 +7,28 @@
     {
       "url": "https://www.facebook.com/16shell/",
       "meta": {
-        "name": "16 Shell",
         "id": "715833055202027",
-        "categories": [
-          "Italian Restaurant",
-          "European Restaurant",
-          "Portuguese Restaurant"
+        "username": "16shell",
+        "name": "16 Shell",
+        "about": "由美國引入的夏威夷 X 意大利fusion菜西餐廳，位於天后炮台山的情調小店，菜式設計配搭大膽新穎。以健康食材製成的黑炭蒜蓉包和Olio style意粉等等。",
+        "category_list": [
+          {
+            "id": "193831710644458",
+            "name": "Italian Restaurant"
+          },
+          {
+            "id": "1508025966158640",
+            "name": "European Restaurant"
+          },
+          {
+            "id": "191876627510158",
+            "name": "Hawaiian Restaurant"
+          }
         ],
-        "addr": null,
-        "area": "Shop B, G/F, Po Wing Building, 6-16 Shell Street",
-        "email": "ulysses@16shell.com",
-        "tel": "39545918"
+        "emails": [
+          "sixteenshell@gmail.com"
+        ],
+        "single_line_address": "Shop B, G/F, Po Wing Building, 6-16 Shell Street"
       }
     },
     {

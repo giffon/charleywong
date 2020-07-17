@@ -7,15 +7,17 @@
     {
       "url": "https://www.facebook.com/culturetile/",
       "meta": {
-        "name": "文化磚業",
         "id": "1767927393462482",
+        "username": "culturetile",
+        "name": "文化磚業",
         "about": "專營磁磚、瓷片及文化石",
-        "categories": [
-          "Home Improvement"
+        "category_list": [
+          {
+            "id": "108427109235243",
+            "name": "Home Improvement"
+          }
         ],
-        "addr": "觀塘成業街19-21號成業工業大廈403室",
-        "area": "Kowloon, Hong Kong",
-        "tel": "96885259"
+        "single_line_address": "觀塘成業街19-21號成業工業大廈403室, Kowloon, Hong Kong"
       }
     }
   ],

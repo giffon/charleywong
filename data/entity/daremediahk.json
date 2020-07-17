@@ -10,13 +10,21 @@
     },
     {
       "meta": {
-        "name": "夠薑媒體 Dare Media HK",
         "id": "114379076584971",
+        "username": "daremediahk",
+        "name": "夠薑媒體 Dare Media HK",
         "about": "查詢 : cs@daremediahk.com",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "cs@daremediahk.com"
+        "emails": [
+          "cs@daremediahk.com"
+        ],
+        "single_line_address": "852 Hong Kong",
+        "website": "www.daremediahk.com"
       },
       "url": "https://www.facebook.com/daremediahk/"
     },

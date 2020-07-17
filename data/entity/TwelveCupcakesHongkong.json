@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/TwelveCupcakesHongkong/",
       "meta": {
-        "name": "Twelve Cupcakes Hong Kong",
         "id": "158174691049483",
-        "about": "Central, Man Yee Arcade Shop 204B - Tel: 21726190\nWindsor House Shop G15 - Tel: 27999260\nThe One L4 Kiosk 4B - Tel: 98503967\nLangham Place B2 Shop 41 - Tel: 96637381\nTelford Plaza II Shop 350A - Tel: 61121705\nD Park, L2 Kiosk 5A - Tel: 68585154",
-        "categories": [
-          "Cupcake Shop",
-          "Bakery"
+        "username": "TwelveCupcakesHongkong",
+        "name": "Twelve Cupcakes Hong Kong",
+        "about": "Central, Man Yee Arcade Shop 204B - Tel: 21726190\nWindsor House Shop G15 - Tel: 27999260\nThe One L4 Kiosk 4B - Tel: 98503967\nLangham Place B2 Shop 41 - Tel: 96637381\nTelford Plaza II Shop 350A - Tel: 61121705\nD Park, L2 Kiosk 5A - Tel: 68585154\n",
+        "category_list": [
+          {
+            "id": "325310894151007",
+            "name": "Cupcake Shop"
+          },
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          }
         ],
-        "addr": "Man Yee Arcade, Windsor House, The ONE, Langham Place, Telford Plaza, D Park",
-        "area": "852 Hong Kong",
-        "email": "enquiry@twelve-cupcakes.com.hk",
-        "tel": "61172438"
+        "emails": [
+          "enquiry@twelve-cupcakes.com.hk"
+        ],
+        "single_line_address": "Man Yee Arcade, Windsor House, The ONE, Langham Place, Telford Plaza, D Park, 852 Hong Kong",
+        "website": "http://www.twelvecupcakes.com.hk"
       }
     },
     {

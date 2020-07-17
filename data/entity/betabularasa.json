@@ -14,17 +14,25 @@
     },
     {
       "meta": {
-        "name": "白紙花舍 be tabula rasa",
         "id": "769324249745382",
-        "about": "Fresh Flower | Dried Flower | Greeting | Wedding | Decoration",
-        "categories": [
-          "Florist",
-          "Art"
+        "username": "betabularasa",
+        "name": "白紙花舍 be tabula rasa",
+        "about": "Fresh Flower | Dried Flower | Greeting | Wedding | Decoration ",
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "addr": "93 Lai Chi Kok Road Prince Edward",
-        "area": "+852 Hong Kong",
-        "email": "info@betabularasa.co",
-        "tel": "90102761"
+        "emails": [
+          "info@betabularasa.co"
+        ],
+        "single_line_address": "93 Lai Chi Kok Road Prince Edward, +852 Hong Kong",
+        "website": "http://www.instagram.com/betabularasa"
       },
       "url": "https://www.facebook.com/betabularasa/"
     }

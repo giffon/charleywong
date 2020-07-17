@@ -8,16 +8,20 @@
     {
       "url": "https://www.facebook.com/tanukistorehk/",
       "meta": {
-        "name": "狸小売店-Tanuki.store-",
         "id": "2250251268546605",
+        "username": "tanukistorehk",
+        "name": "狸小売店-Tanuki.store-",
         "about": "營業時間為\n星期一至日, 13:00-19:30",
-        "categories": [
-          "Grocery Store"
+        "category_list": [
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          }
         ],
-        "addr": "觀塘開源道60號  駱駝漆大廈三期4樓U3室\nRM U3, 4/F, BLK 3, CAMEL PAINT BUILDING, 60 HOI YUEN ROAD, KWUN TONG",
-        "area": "Hong Kong",
-        "email": "tanuki.storehk@gmail.com",
-        "tel": "91795920"
+        "emails": [
+          "tanuki.storehk@gmail.com"
+        ],
+        "single_line_address": "觀塘開源道60號  駱駝漆大廈三期4樓U3室\nRM U3, 4/F, BLK 3, CAMEL PAINT BUILDING, 60 HOI YUEN ROAD, KWUN TONG, Hong Kong"
       }
     },
     {

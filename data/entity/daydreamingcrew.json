@@ -7,11 +7,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "空姐發夢日記 A daydreamer's diary",
         "id": "720908984594955",
+        "username": "daydreamingcrew",
+        "name": "空姐發夢日記 A daydreamer's diary",
         "about": "常常發夢, 喜歡吃喝玩樂, 胡亂寫作, 不稱職的空姐就是我。\n\nig :genie1184\ncontact:genie1184dream@gmail.com",
-        "categories": [
-          "Personal Blog"
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ]
       },
       "url": "https://www.facebook.com/daydreamingcrew/"

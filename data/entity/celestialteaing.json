@@ -7,14 +7,24 @@
     {
       "url": "https://www.facebook.com/celestialteaing/",
       "meta": {
-        "name": "茶色生香",
         "id": "495028771267804",
+        "username": "celestialteaing",
+        "name": "茶色生香",
         "about": "台式飲品店，應有盡有，主打黑糖珍奶及芝士奶蓋系列。\n\n分店地址：\n1. 天水圍天一商城1105號鋪\n2. 筲箕灣愛禮街2號愛蝶灣商場地下57A 鋪（MTR D2)旁邊",
-        "categories": [
-          "Shopping & Retail",
-          "Tea Room"
+        "category_list": [
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "celestialteaing@gmail.com"
+        "emails": [
+          "celestialteaing@gmail.com"
+        ],
+        "single_line_address": "Shop 57A, Ground Floor, Aldrich Garden, No.2 Oi Lai Street, Shau Kei Wan, Hong Kong"
       }
     },
     {

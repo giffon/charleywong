@@ -6,16 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "DANCE LIFESTYLE HONG KONG",
         "id": "308325959292322",
+        "username": "dancelifestylehk",
+        "name": "DANCE LIFESTYLE HONG KONG",
         "about": "DL was created because of amazing dancers who passionate about dancing.Lets show to the world that Hongkong can inspire and share their artistry.",
-        "categories": [
-          "Dance Studio"
+        "category_list": [
+          {
+            "id": "203916779633178",
+            "name": "Dance Studio"
+          }
         ],
-        "addr": "Workshop 1701, 17/F, Hewlett Centre, 52-54 Hoi Yuen Road, Kwun Tong, Kowloon (Kwun Tong MTR station B1 entrance, around 5 mins walk) / 九龍觀塘開源道54號豐利中心17樓1701室 (觀塘地鐵站B1出口，步行約5分鐘)",
-        "area": "00852 Kwun Tong",
-        "email": "dancelifestyle.hk@gmail.com",
-        "tel": "59280730"
+        "emails": [
+          "dancelifestyle.hk@gmail.com"
+        ],
+        "single_line_address": "Workshop 1701, 17/F, Hewlett Centre, 52-54 Hoi Yuen Road, Kwun Tong, Kowloon (Kwun Tong MTR station B1 entrance, around 5 mins walk) / 九龍觀塘開源道54號豐利中心17樓1701室 (觀塘地鐵站B1出口，步行約5分鐘), 00852 Kwun Tong",
+        "website": "https://www.instagram.com/dance_lifestyle_hk/"
       },
       "url": "https://www.facebook.com/dancelifestylehk/"
     },

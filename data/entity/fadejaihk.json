@@ -11,15 +11,24 @@
     {
       "url": "https://www.facebook.com/fadejaihk/",
       "meta": {
-        "name": "飛仔 FadeJai",
         "id": "211133852771062",
+        "username": "fadejaihk",
+        "name": "飛仔 FadeJai",
         "about": "Sustainable curations for the Urban Gentlemen.\n可持續都市紳士用品 ♻️🌏\nBorn in Hong Kong. Raised by Barbers.\nfadejai.com",
-        "categories": [
-          "Product/Service",
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "email": "fadejai.limited@gmail.com",
-        "tel": "55953976"
+        "emails": [
+          "fadejai.limited@gmail.com"
+        ],
+        "website": "www.fadejai.com"
       }
     },
     {

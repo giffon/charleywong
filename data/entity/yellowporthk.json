@@ -17,18 +17,29 @@
     {
       "url": "https://www.facebook.com/yellowporthk/",
       "meta": {
-        "name": "Yellow Port",
         "id": "106607374081466",
-        "about": "Yellow port \n- 即將面世嘅包羅萬有香港網購平台\n- 主要係香港品牌同外國品牌\n- 非中國製造（黃色香港品牌除外）\n- 非常歡迎查詢及合作\n- 一齊守護我哋嘅香港",
-        "categories": [
-          "Website",
-          "Shopping & Retail",
-          "Product/Service"
+        "username": "yellowporthk",
+        "name": "Yellow Port",
+        "about": "Yellow port 黃色港口\n以非中國製及\n香港原創產品為主\n共建黃色經濟圈\n一齊拎返屬於我哋嘅香港\n本土產業都有好多正野架！\n非常歡迎查詢同合作 ！\n有興趣或任何問題DM我哋查詢",
+        "category_list": [
+          {
+            "id": "2202",
+            "name": "Website"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "Hong Kong",
-        "area": "00000 Hong Kong",
-        "email": "yellowporthk@gmail.com",
-        "tel": "35211326"
+        "emails": [
+          "yellowporthk@gmail.com"
+        ],
+        "single_line_address": "Hong Kong, 00000 Hong Kong",
+        "website": "http://Yellowporthk.com"
       }
     }
   ],

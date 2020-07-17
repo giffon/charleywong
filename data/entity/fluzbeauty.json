@@ -10,14 +10,24 @@
     {
       "url": "https://www.facebook.com/fluzbeauty/",
       "meta": {
-        "name": "FLUZBEAUTY",
         "id": "104901574293799",
+        "username": "fluzbeauty",
+        "name": "FLUZBEAUTY",
         "about": "我們抱著「誠信第一」的宗旨，努力發掘更健康的生活方式，期待與大家一起成長。",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care",
-          "Beauty Supply Store"
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          },
+          {
+            "id": "191693100854505",
+            "name": "Beauty Supply Store"
+          }
         ],
-        "email": "info@rldig.com"
+        "emails": [
+          "info@rldig.com"
+        ],
+        "website": "https://www.fluzbeauty.com/"
       }
     },
     {

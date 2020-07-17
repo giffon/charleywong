@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/BakeForYou.HK/",
       "meta": {
-        "name": "焙住你 Bake For You",
         "id": "165693170767293",
-        "about": "牌照類別:食物製造廠\n牌照編號:2951805981\n自家設計各款食品\n曲奇，月餅，禮盒，蛋糕........\n製作用心，真材實料，用料上乘\n優質，無添加",
-        "categories": [
-          "Foodservice Distributor"
+        "username": "BakeForYou.HK",
+        "name": "焙住你 Bake For You",
+        "about": "牌照類別:食物製造廠\n牌照編號:2951805981\n自家設計各款食品\n曲奇，月餅，禮盒，蛋糕........\n製作用心，真材實料，用料上乘\n優質，無添加\n",
+        "category_list": [
+          {
+            "id": "200019523363001",
+            "name": "Foodservice Distributor"
+          }
         ],
-        "addr": "九龍九龍灣臨樂街8號商業廣場5字樓8號室",
-        "area": "Hong Kong",
-        "email": "info@bakeforyou.hk",
-        "tel": "52008480"
+        "emails": [
+          "info@bakeforyou.hk"
+        ],
+        "single_line_address": "九龍九龍灣臨樂街8號商業廣場5字樓8號室, Hong Kong",
+        "website": "www.bakeforyou.hk"
       }
     }
   ],

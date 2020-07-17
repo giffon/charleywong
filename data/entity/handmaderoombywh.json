@@ -6,16 +6,29 @@
   "webpages": [
     {
       "meta": {
+        "id": "341942499520469",
+        "username": "handmaderoombywh",
+        "name": "Handmade Room By Wonderland H",
         "about": "Handmade Room 是一個創意手作空間，以多元化和美感原創為宗旨，分享生活美學和個性風格的生活方式。集結許多香港，台灣及泰國等獨立手作品牌更不定期開辦手作相關課程，提供小班教學。",
-        "categories": [
-          "Product/service",
-          "Accessories"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "185127444860544",
+            "name": "Accessories"
+          },
+          {
+            "id": "180816211956170",
+            "name": "Cultural Gifts Store"
+          }
         ],
-        "addr": "Shop 223, D2 Place ONE, 9 Cheung Yee Street, Lai Chi Kok",
-        "area": "Lai Chi Kok",
-        "email": "customer@handmaderoombywh.com",
-        "tel": "56331386",
-        "id": "341942499520469"
+        "emails": [
+          "info@handmaderoombywh.com"
+        ],
+        "single_line_address": "Shop 223, D2 Place ONE, 9 Cheung Yee Street, Lai Chi Kok, Lai Chi Kok",
+        "website": "http://www.handmaderoombywh.com"
       },
       "url": "https://www.facebook.com/handmaderoombywh/"
     },

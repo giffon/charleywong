@@ -17,14 +17,21 @@
     {
       "url": "https://www.facebook.com/miniaturelandscape/",
       "meta": {
-        "name": "Miniature Landscape",
         "id": "103346134651168",
+        "username": "miniaturelandscape",
+        "name": "Miniature Landscape",
         "about": "香港手作設計品牌，專營各種本地設計的永生花產品。我們只選用日本及歐洲進口保鮮花材， 配搭各式的配花配草及其他裝飾，為顧客設計獨一無二的小花園 。",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "miniaturelandscape2020@gmail.com",
-        "tel": "69201020"
+        "emails": [
+          "miniaturelandscape2020@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://www.miniature-landscape.com/"
       }
     }
   ],

@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/keiocandy/",
       "meta": {
-        "name": "其奧 - 花生糖專門店",
         "id": "1889884831245837",
+        "username": "keiocandy",
+        "name": "其奧 - 花生糖專門店",
         "about": "小店是元朗一家售賣傳統中式糖果的小店, 服務街坊二十多年, 堅持每日新鮮制作各式糖果。小店的產品全由手工制作, 用料新鮮天然, 而且低糖少甜, 適合各年齡層的客人食用。",
-        "categories": [
-          "Shopping & Retail",
-          "Food & Beverage"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          }
         ],
-        "addr": "元朗大馬路36號F及G舖(又新街)",
-        "area": "Yuen Long",
-        "email": "yuenlongkeio@gmail.com",
-        "tel": "24798951"
+        "emails": [
+          "yuenlongkeio@gmail.com"
+        ],
+        "single_line_address": "元朗大馬路36號F及G舖(又新街), Yuen Long"
       }
     }
   ],

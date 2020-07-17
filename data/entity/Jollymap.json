@@ -10,64 +10,100 @@
     {
       "url": "https://www.facebook.com/jollymap/",
       "meta": {
-        "name": "Jollymap.com 快樂地圖",
         "id": "653653671355231",
+        "username": "jollymap",
+        "name": "Jollymap.com 快樂地圖",
         "about": "無論是戶外遊戲、球類、兒童單車、滑板車、三輪車、平衡車或保護裝備Jollymap.com都應有盡有。",
-        "categories": [
-          "Toy Store",
-          "Bicycle Shop",
-          "Local Service"
+        "category_list": [
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          },
+          {
+            "id": "128003127270269",
+            "name": "Bicycle Shop"
+          },
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "email": "cs@jollymap.com",
-        "tel": "23420780"
+        "emails": [
+          "cs@jollymap.com"
+        ],
+        "website": "http://www.jollymap.com"
       }
     },
     {
       "url": "https://www.facebook.com/JollymapHub/",
       "meta": {
-        "name": "Jollymap Hub",
         "id": "757456114632158",
-        "categories": [
-          "Sports & Recreation Venue"
+        "username": "JollymapHub",
+        "name": "Jollymap Hub",
+        "category_list": [
+          {
+            "id": "865117100300601",
+            "name": "Sports & Recreation Venue"
+          }
         ],
-        "addr": "觀塘開源道47號凱源工業大廈2樓A室",
-        "area": "Kwu Tung, Hong Kong",
-        "email": "cs@jollymap.com",
-        "tel": "23420780"
+        "emails": [
+          "cs@jollymap.com"
+        ],
+        "single_line_address": "觀塘開源道47號凱源工業大廈2樓A室, 00000 Kwu Tung, Hong Kong",
+        "website": "https://www.jollymap.com/hk/29-trainingandactivities"
       }
     },
     {
       "url": "https://www.facebook.com/Jollymap.KwunTong/",
       "meta": {
-        "name": "Jollymap.com 快樂地圖 (觀塘 Kwun Tong)",
         "id": "237411660453895",
+        "username": "Jollymap.KwunTong",
+        "name": "Jollymap.com 快樂地圖",
         "about": "無論是戶外遊戲、球類、兒童單車、滑板車、三輪車、平衡車或保護裝備Jollymap.com都應有盡有。",
-        "categories": [
-          "Bicycle Shop",
-          "Bicycle Repair Service",
-          "Toy Store"
+        "category_list": [
+          {
+            "id": "128003127270269",
+            "name": "Bicycle Shop"
+          },
+          {
+            "id": "1278946312134253",
+            "name": "Bicycle Repair Service"
+          },
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          }
         ],
-        "addr": "觀塘開源道47號凱源工業大廈4樓H室",
-        "area": "Kwun Tong",
-        "email": "cs@jollymap.com",
-        "tel": "23420780"
+        "emails": [
+          "cs@jollymap.com"
+        ],
+        "single_line_address": "觀塘開源道47號凱源工業大廈4樓H室, Kwun Tong",
+        "website": "https://www.jollymap.com/hk/"
       },
       "hidden": true
     },
     {
       "url": "https://www.facebook.com/Jollymap.TsuenWan/",
       "meta": {
-        "name": "Jollymap.com 快樂地圖 (荃灣 Tsuen Wan)",
         "id": "285160745654543",
+        "username": "Jollymap.TsuenWan",
+        "name": "Jollymap.com 快樂地圖",
         "about": "無論是戶外遊戲、球類、兒童單車、滑板車、三輪車、平衡車或保護裝備Jollymap.com都應有盡有。",
-        "categories": [
-          "Bicycle Shop",
-          "Bicycle Repair Service"
+        "category_list": [
+          {
+            "id": "1278946312134253",
+            "name": "Bicycle Repair Service"
+          },
+          {
+            "id": "128003127270269",
+            "name": "Bicycle Shop"
+          }
         ],
-        "addr": "荃灣荃景圍30-38號匯利工業中心13樓A座",
-        "area": "Tsuen Wan, Hong Kong",
-        "email": "cs@jollymap.com",
-        "tel": "23420366"
+        "emails": [
+          "cs@jollymap.com"
+        ],
+        "single_line_address": "荃灣荃景圍30-38號匯利工業中心13樓A座, Tsuen Wan, Hong Kong",
+        "website": "https://www.jollymap.com/hk/"
       },
       "hidden": true
     },

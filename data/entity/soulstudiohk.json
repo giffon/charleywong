@@ -13,14 +13,21 @@
     {
       "url": "https://www.facebook.com/soulstudiohk/",
       "meta": {
-        "name": "SOUL STUDIO",
         "id": "246175042110686",
+        "username": "soulstudiohk",
+        "name": "SOUL STUDIO",
         "about": "SOUL STUDIO provide different kinds of photo shooting services. * A DIFFERENT PERSPECTIVE *\nAddress: 5G1, Block 2, Leader Industrial Centre, no.188-202 Texaco Road, Tsuen Wan",
-        "categories": [
-          "Camera/Photo"
+        "category_list": [
+          {
+            "id": "2208",
+            "name": "Camera/Photo"
+          }
         ],
-        "email": "info@soulstudio.hk",
-        "tel": "63437988"
+        "emails": [
+          "info@soulstudio.hk"
+        ],
+        "single_line_address": "188-202 Texaco Road, Hong Kong",
+        "website": "http://facebook.com/soulstudiohk"
       }
     },
     {

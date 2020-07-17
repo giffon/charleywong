@@ -8,13 +8,14 @@
       "url": "https://www.facebook.com/580143929074810/",
       "hidden": true,
       "meta": {
-        "name": "Pureheart Beauty",
         "id": "580143929074810",
-        "about": "",
-        "categories": [
-          "Beauty Salon"
-        ],
-        "tel": "67426440"
+        "name": "Pureheart Beauty",
+        "category_list": [
+          {
+            "id": "199236533423806",
+            "name": "Beauty Salon"
+          }
+        ]
       }
     },
     {

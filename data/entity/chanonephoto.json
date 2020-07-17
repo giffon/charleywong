@@ -10,13 +10,20 @@
     },
     {
       "meta": {
-        "name": "攝影師 · 陳一 · Chan One",
         "id": "575721652529896",
+        "username": "chanonephoto",
+        "name": "攝影師 · 陳一 · Chan One",
         "about": "【香港職業攝影師 - 陳一 】\n具多年的室內與室外人像攝影經驗，在觀塘牛頭角設有專業攝影空間，並提供各種攝影服務。",
-        "categories": [
-          "Photographer"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
         ],
-        "email": "chanonephoto@gmail.com"
+        "emails": [
+          "chanonephoto@gmail.com"
+        ],
+        "website": "http://www.chan-one.com"
       },
       "url": "https://www.facebook.com/chanonephoto/"
     },

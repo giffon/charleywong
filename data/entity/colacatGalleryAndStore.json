@@ -10,12 +10,24 @@
     {
       "meta": {
         "id": "177452899560747",
+        "username": "colacatGalleryAndStore",
+        "name": "Colacat",
         "about": "Digital artist",
-        "categories": [
-          "Sports",
-          "Arts and entertainment",
-          "Product/service"
-        ]
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "964585346994407",
+            "name": "Sports"
+          }
+        ],
+        "website": "www.colacatlee.com"
       },
       "url": "https://www.facebook.com/colacatGalleryAndStore/"
     }

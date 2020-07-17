@@ -10,15 +10,28 @@
     {
       "url": "https://www.facebook.com/sherlockshome.games/",
       "meta": {
-        "name": "LARPHK",
         "id": "1546041058808690",
-        "categories": [
-          "Product/Service",
-          "Party Entertainment Service",
-          "Board Game"
+        "username": "sherlockshome.games",
+        "name": "LARPHK",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "189334414420898",
+            "name": "Party Entertainment Service"
+          },
+          {
+            "id": "2303",
+            "name": "Board Game"
+          }
         ],
-        "email": "larp.hk@gmail.com",
-        "tel": "68113737"
+        "emails": [
+          "larp.hk@gmail.com"
+        ],
+        "single_line_address": "觀塘鴻圖道6-8號樂居工業大廈5樓E室",
+        "website": "http://www.larphk.com"
       }
     },
     {

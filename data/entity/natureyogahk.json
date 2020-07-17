@@ -9,16 +9,25 @@
     },
     {
       "meta": {
-        "name": "Nature Yoga Hong Kong",
         "id": "682755538476738",
-        "about": "Yoga, sound therapy and wellness center with a mission ~ Calm Mind, Fit Body and Inspired Life.",
-        "categories": [
-          "Yoga Studio"
+        "username": "natureyogahk",
+        "name": "Nature Yoga Hong Kong",
+        "about": "Yoga, sound therapy and wellness center with a mission ~ Calm Mind, Fit Body and Inspired Life. \n\n",
+        "category_list": [
+          {
+            "id": "174832985894571",
+            "name": "Yoga Studio"
+          },
+          {
+            "id": "357645644269220",
+            "name": "Alternative & Holistic Health Service"
+          }
         ],
-        "addr": "10G Imperial Building 58 Canton Road Tsim Sha Tsui",
-        "area": "852 Hong Kong",
-        "email": "info@natureyoga.com.hk",
-        "tel": "65854329"
+        "emails": [
+          "info@natureyoga.com.hk"
+        ],
+        "single_line_address": "10G Imperial Building 58 Canton Road Tsim Sha Tsui, 852 Hong Kong",
+        "website": "http://www.natureyoga.com.hk"
       },
       "url": "https://www.facebook.com/natureyogahk/"
     },

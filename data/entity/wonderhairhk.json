@@ -13,16 +13,21 @@
     },
     {
       "meta": {
-        "name": "WonderHairhk",
         "id": "1685587134799041",
+        "username": "wonderhairhk",
+        "name": "WonderHairhk",
         "about": "主要售賣專業髮型用品\n貨品均為現貨，歡迎批發\n貨品種類較多，可直接查詢產品\n可順豐到付或親臨門市選購\nWhatsapp:92324889",
-        "categories": [
-          "Hair Salon"
+        "category_list": [
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          }
         ],
-        "addr": "富達廣場地下89c&90號舖",
-        "area": "Yuen Kong, Hong Kong",
-        "email": "wonderhousehk@gmail.com",
-        "tel": "92324889"
+        "emails": [
+          "wonderhousehk@gmail.com"
+        ],
+        "single_line_address": "富達廣場地下89c&90號舖, Yuen Kong, Hong Kong",
+        "website": "https://www.instagram.com/wonderhairhk/"
       },
       "url": "https://www.facebook.com/wonderhairhk/"
     }

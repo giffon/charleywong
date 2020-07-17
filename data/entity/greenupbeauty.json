@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "Greenup Beauty",
         "id": "138183733269132",
+        "username": "greenupbeauty",
+        "name": "Greenup Beauty",
         "about": "Greenup Beauty \n\nWhatsapp: +852 5577-7502",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care",
-          "Cosmetics Store"
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          },
+          {
+            "id": "144873802247220",
+            "name": "Cosmetics Store"
+          }
         ],
-        "addr": "尖沙咀加拿芬道41-43號Solo Building 8樓801-802",
-        "area": "Hong Kong",
-        "email": "greenupbeauty@outlook.com",
-        "tel": "55777502"
+        "emails": [
+          "greenupbeauty@outlook.com"
+        ],
+        "single_line_address": "尖沙咀加拿芬道41-43號Solo Building 8樓801-802, Hong Kong",
+        "website": "http://greenupbeauty.com"
       },
       "url": "https://www.facebook.com/greenupbeauty/"
     },

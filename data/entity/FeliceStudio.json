@@ -9,17 +9,25 @@
     },
     {
       "meta": {
-        "name": "Felice Studio",
         "id": "148936771913645",
+        "username": "FeliceStudio",
+        "name": "Felice Studio",
         "about": "Live Band | Emcee | Photography",
-        "categories": [
-          "Arts & Entertainment",
-          "Wedding Planning Service"
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "addr": "Flat 431C, 4/F, Kowloon Bay Industrial Center, 15 Wang Hoi Road, Kowloon",
-        "area": "Kowloon, Hong Kong",
-        "email": "info@felicestudio.com",
-        "tel": "34264898"
+        "emails": [
+          "info@felicestudio.com"
+        ],
+        "single_line_address": "Flat 431C, 4/F, Kowloon Bay Industrial Center, 15 Wang Hoi Road, Kowloon, Kowloon, Hong Kong",
+        "website": "www.felicestudio.com"
       },
       "url": "https://www.facebook.com/FeliceStudio/"
     },

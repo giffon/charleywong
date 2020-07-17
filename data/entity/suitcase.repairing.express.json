@@ -7,15 +7,24 @@
     {
       "url": "https://www.facebook.com/suitcase.repairing.express/",
       "meta": {
-        "name": "整喼快",
         "id": "332369763864581",
+        "username": "suitcase.repairing.express",
+        "name": "整喼快",
         "about": "本店地址：官塘順利邨商場平台P9舖／沙田火炭山尾街華樂工中A座3樓19室(近巴士總站)／屯門建發街開泰工廈1245室(近大興邨)",
-        "categories": [
-          "Bags/Luggage",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2206",
+            "name": "Bags/Luggage"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "suitcaserepairhk@gmail.com",
-        "tel": "90373653"
+        "emails": [
+          "suitcaserepairhk@gmail.com"
+        ],
+        "single_line_address": "觀塘順利邨商場P9舖(華記鞋店), Kowloon, Hong Kong"
       }
     },
     {

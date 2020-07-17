@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/wooderspace/",
       "meta": {
-        "name": "木 • 讀 Wooder Space",
         "id": "182751285781160",
+        "username": "wooderspace",
+        "name": "木 • 讀 Wooder Space",
         "about": "觀塘自修室 • 工作坊 • 閱讀空間",
-        "categories": [
-          "Local Service",
-          "Community Organization"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          },
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          }
         ],
-        "addr": "觀塘巧明街116-118號萬年工業大廈10樓D1室",
-        "area": "Kwun Tong",
-        "email": "info@wooderspace.com",
-        "tel": "55436687"
+        "emails": [
+          "info@wooderspace.com"
+        ],
+        "single_line_address": "觀塘巧明街116-118號萬年工業大廈10樓D1室, Kwun Tong",
+        "website": "www.wooderspace.com"
       }
     },
     {

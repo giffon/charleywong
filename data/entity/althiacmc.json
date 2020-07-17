@@ -8,15 +8,20 @@
     {
       "url": "https://www.facebook.com/althiacmc/",
       "meta": {
-        "name": "樺醫館 Althia Chinese Medicine Clinic",
         "id": "370838370382710",
-        "categories": [
-          "Medical Service"
+        "username": "althiacmc",
+        "name": "樺醫館 Althia Chinese Medicine Clinic",
+        "category_list": [
+          {
+            "id": "1154837367920704",
+            "name": "Medical Service"
+          }
         ],
-        "addr": "觀塘鴻圖道63-65號鴻運工廠大廈8C08室",
-        "area": "Kowloon, Hong Kong",
-        "email": "althiacmc@gmail.com",
-        "tel": "66155451"
+        "emails": [
+          "althiacmc@gmail.com"
+        ],
+        "single_line_address": "觀塘鴻圖道63-65號鴻運工廠大廈8C08室, Kowloon, Hong Kong",
+        "website": "althiacmc.wordpress.com"
       }
     },
     {

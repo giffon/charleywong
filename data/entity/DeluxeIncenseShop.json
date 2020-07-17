@@ -8,16 +8,21 @@
     {
       "url": "https://www.facebook.com/DeluxeIncenseShop/",
       "meta": {
-        "name": "華麗名香店Deluxe Incense Shop（專營梁永盛百年名香Leung Wing Shing Franchise）",
         "id": "528936963978791",
+        "username": "DeluxeIncenseShop",
+        "name": "華麗名香店Deluxe Incense Shop（專營梁永盛百年名香Leung Wing Shing Franchise）",
         "about": "專營百年香港名牌梁永盛香莊名香。\nFranchise Leung Wing Shing incense.\n（Page managed by 啊妹）",
-        "categories": [
-          "Shopping & Retail",
-          "Specialty Grocery Store"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "162264673824073",
+            "name": "Specialty Grocery Store"
+          }
         ],
-        "addr": "九龍油麻地上海街369號地鋪Shanghai Street No.369, YauMaTei",
-        "area": "000000 Hong Kong",
-        "tel": "25483135"
+        "single_line_address": "九龍油麻地上海街369號地鋪Shanghai Street No.369, YauMaTei, 000000 Kowloon, Hong Kong"
       }
     }
   ],

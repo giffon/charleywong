@@ -8,15 +8,17 @@
     {
       "url": "https://www.facebook.com/bestskillhongkong/",
       "meta": {
-        "name": "有得補 Best Skill",
         "id": "417776218278865",
+        "username": "bestskillhongkong",
+        "name": "有得補 Best Skill",
         "about": "- 手袋皮鞋皮具維修 \n- 手袋皮具清洗翻新及轉色服務 \n- Redwing Danner 等換底服務 (選用意大利VIBRAM 鞋底)\n- 售賣各種皮革護理產品",
-        "categories": [
-          "Automotive Repair Shop"
+        "category_list": [
+          {
+            "id": "149998721725634",
+            "name": "Automotive Repair Shop"
+          }
         ],
-        "addr": "銅鑼灣堅拿道東1-2號1樓B室",
-        "area": "Causeway Bay",
-        "tel": "31561483"
+        "single_line_address": "銅鑼灣堅拿道東1-2號1樓B室, Causeway Bay"
       }
     },
     {

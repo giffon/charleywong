@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/hillwaypress/",
       "meta": {
-        "name": "山道出版社",
         "id": "1651311691843547",
+        "username": "hillwaypress",
+        "name": "山道出版社",
         "about": "香港本地出版社，以培養香港本地作家及革新出版服務為目標。",
-        "categories": [
-          "Book"
+        "category_list": [
+          {
+            "id": "1300",
+            "name": "Book"
+          }
         ],
-        "email": "press@hillway.com.hk"
+        "emails": [
+          "press@hillway.com.hk"
+        ],
+        "website": "http://hillway.com.hk/"
       }
     }
   ],

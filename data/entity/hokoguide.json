@@ -10,13 +10,20 @@
     },
     {
       "meta": {
-        "name": "Hokoguide 香港街",
         "id": "112352143518895",
+        "username": "hokoguide",
+        "name": "Hokoguide 香港街",
         "about": "為香港小店而設嘅電子劵平台",
-        "categories": [
-          "Local Service"
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "email": "info@hokoguide.com"
+        "emails": [
+          "info@hokoguide.com"
+        ],
+        "website": "https://hokoguide.com/"
       },
       "url": "https://www.facebook.com/hokoguide/"
     },

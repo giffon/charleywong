@@ -9,15 +9,24 @@
     },
     {
       "meta": {
-        "name": "This Way",
         "id": "264682643656000",
+        "username": "thiswayhk",
+        "name": "This Way",
         "about": "多國護膚化妝品代購\n用心、親力親爲做好每一件事",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care",
-          "Beauty Supply Store"
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          },
+          {
+            "id": "191693100854505",
+            "name": "Beauty Supply Store"
+          }
         ],
-        "email": "hkthisway@gmail.com",
-        "tel": "56057369"
+        "emails": [
+          "hkthisway@gmail.com"
+        ],
+        "website": "http://www.thiswayhk.com"
       },
       "url": "https://www.facebook.com/thiswayhk/"
     },

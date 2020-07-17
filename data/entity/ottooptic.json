@@ -15,15 +15,24 @@
     {
       "url": "https://www.facebook.com/ottooptic/",
       "meta": {
-        "name": "OTTO Optic傲瞳視力",
         "id": "2164882220293093",
+        "username": "ottooptic",
+        "name": "OTTO Optic傲瞳視力",
         "about": "旺角彌敦道582-592號信和中心3樓303室",
-        "categories": [
-          "Product/Service",
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "ottooptic@gmail.com",
-        "tel": "36194043"
+        "emails": [
+          "ottooptic@gmail.com"
+        ],
+        "single_line_address": "九龍旺角彌敦道582-592號信和中心3樓303室, Hong Kong"
       }
     }
   ],

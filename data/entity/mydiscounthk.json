@@ -17,16 +17,21 @@
     {
       "url": "https://www.facebook.com/mydiscounthk/",
       "meta": {
-        "name": "Outlet Express HK 生活百貨城 集合最新玩意、家品、運動、露營、投影機、釣魚等產品銷售平台",
         "id": "1524123624469636",
+        "username": "mydiscounthk",
+        "name": "Outlet Express HK 生活百貨城 集合最新玩意、家品、運動、露營、投影機、釣魚等產品銷售平台",
         "about": "我們銷售各種大小實用家品、數碼電子、創意精品、戶外體育用具等等。在 OUTLET EXPRESS 你可以輕鬆購買倒心水產品。設有門市，歡迎參觀試玩。",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "觀塘開源道47號凱源工業大廈9樓H室",
-        "area": "NA Hong Kong",
-        "email": "info@outletexpress.com.hk",
-        "tel": "39568117"
+        "emails": [
+          "info@outletexpress.com.hk"
+        ],
+        "single_line_address": "觀塘開源道47號凱源工業大廈9樓H室, NA Hong Kong",
+        "website": "https://www.outletexpress.com.hk"
       }
     }
   ],

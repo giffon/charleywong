@@ -9,16 +9,21 @@
     },
     {
       "meta": {
-        "name": "Wcube Bridal Studio",
         "id": "248747348665468",
+        "username": "wcubebridalstudio",
+        "name": "Wcube Bridal Studio",
         "about": "We deliver excellent rental and tailor-made services of wedding gown and evening gown.",
-        "categories": [
-          "Bridal Shop"
+        "category_list": [
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          }
         ],
-        "addr": "新蒲崗大有街32號泰力工業中心11樓10室",
-        "area": "Hong Kong",
-        "email": "studiowcube@gmail.com",
-        "tel": "21210906"
+        "emails": [
+          "studiowcube@gmail.com"
+        ],
+        "single_line_address": "新蒲崗大有街32號泰力工業中心11樓10室, Hong Kong",
+        "website": "wcubestudio.com"
       },
       "url": "https://www.facebook.com/wcubebridalstudio/"
     },

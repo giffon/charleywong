@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/capitalcomputer/",
       "meta": {
-        "name": "正都電腦中心 - Capital Computer Centre",
         "id": "65889541501",
+        "username": "capitalcomputer",
+        "name": "正都電腦中心 - Capital Computer Centre",
         "about": "組裝電腦專家！正都網站已革新推出，歡迎瀏覽參觀！",
-        "categories": [
-          "Computer Store"
+        "category_list": [
+          {
+            "id": "199512783398620",
+            "name": "Computer Store"
+          }
         ],
-        "addr": "Shop no. 49, 51, 53 & 55, L/G, Golden Computer Arcade",
-        "area": "-- Sham Shui Po",
-        "email": "info@cap.com.hk",
-        "tel": "23613268"
+        "emails": [
+          "info@cap.com.hk"
+        ],
+        "single_line_address": "Shop no. 49, 51, 53 & 55, L/G, Golden Computer Arcade, -- Sham Shui Po",
+        "website": "www.cap.com.hk "
       }
     }
   ],

@@ -7,14 +7,21 @@
     {
       "url": "https://www.facebook.com/tmsoulgood/",
       "meta": {
-        "name": "SoulGood Bar & Restaurant",
         "id": "274446026740320",
-        "about": "Cozy and relaxing Bar & Restaurant. serving snacks, salads, and suppers. Great place to chill and having beer with friends!!",
-        "categories": [
-          "American Restaurant",
-          "Bar"
+        "username": "tmsoulgood",
+        "name": "SoulGood Bar & Restaurant",
+        "about": "Cozy and relaxing Bar & Restaurant. serving snacks, salads, and suppers. Great place to chill and having beer with friends!! ",
+        "category_list": [
+          {
+            "id": "149803325077018",
+            "name": "American Restaurant"
+          },
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          }
         ],
-        "tel": "36124623"
+        "single_line_address": "新界屯門達仁坊1-29號， 遠東發展屯門中心大廈，地下L號舖"
       }
     }
   ],

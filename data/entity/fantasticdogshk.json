@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/fantasticdogshk/",
       "meta": {
-        "name": "FANTASTIC DOGS",
         "id": "300173513759136",
+        "username": "fantasticdogshk",
+        "name": "FANTASTIC DOGS",
         "about": "為毛孩們於市區中提供一站式服務! 範圍包括寵物美容及水療, 寵物工作坊, 狗狗寄宿, 自家制天然小食, 以及寵物用品等。 歡迎致電 3611 2036 或 Whatsapp 9739 3630與我們查詢 ^^",
-        "categories": [
-          "Pet Groomer",
-          "Pet Sitter",
-          "Pet Store"
+        "category_list": [
+          {
+            "id": "163003840417682",
+            "name": "Pet Groomer"
+          },
+          {
+            "id": "208287852530384",
+            "name": "Pet Sitter"
+          },
+          {
+            "id": "188573091164316",
+            "name": "Pet Store"
+          }
         ],
-        "addr": "SHOP 1-3, NO.8 MAIDSTONE LANE",
-        "area": "Kowloon, Hong Kong",
-        "email": "info@fantastic-dogs.com",
-        "tel": "36112036"
+        "emails": [
+          "info@fantastic-dogs.com"
+        ],
+        "single_line_address": "SHOP 1-3, NO.8 MAIDSTONE LANE, Kowloon, Hong Kong",
+        "website": "http://www.fantastic-dogs.com"
       }
     },
     {

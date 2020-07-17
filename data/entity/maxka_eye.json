@@ -14,18 +14,27 @@
     {
       "url": "https://www.facebook.com/1616656861883287/",
       "meta": {
-        "name": "Maxka Eye Beauty",
         "id": "1616656861883287",
-        "about": "產品由德國及美國入口\n仿真飄眉$3400 \n飄霧眉    $3600 \n紋眼線    $2400 \n均送補色一次\n上門另加$600\n-----------------------------------------\n專業植睫毛$550~$880 \n上門植睫毛    $800起\n各面部護理項目 $530起",
-        "categories": [
-          "Health/Beauty",
-          "Beauty Salon",
-          "Makeup Artist"
+        "name": "Maxka Eye Beauty",
+        "about": "產品由德國及美國入口\n仿真飄眉$3400 \n飄霧眉    $3600 \n紋眼線    $2400 \n均送補色一次\n上門另加$600\n-----------------------------------------\n專業植睫毛$550~$880 \n上門植睫毛    $800起\n各面部護理項目 $530起\n\n",
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "199236533423806",
+            "name": "Beauty Salon"
+          },
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          }
         ],
-        "addr": "尖沙咀厚福街3號華博商業大廈501",
-        "area": "Hong Kong",
-        "email": "maxkaeye@gmail.com",
-        "tel": "96369881"
+        "emails": [
+          "maxkaeye@gmail.com"
+        ],
+        "single_line_address": "尖沙咀厚福街3號華博商業大廈501, Hong Kong"
       }
     }
   ],

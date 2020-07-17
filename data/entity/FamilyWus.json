@@ -7,13 +7,21 @@
     {
       "url": "https://www.facebook.com/FamilyWus/",
       "meta": {
-        "name": "胡氏這一家",
         "id": "177514856207497",
-        "about": "家住大埔公屋的一家四口\n故事圍繞大埔及香港的熱話",
-        "categories": [
-          "Personal Blog",
-          "Games/Toys"
-        ]
+        "username": "FamilyWus",
+        "name": "胡氏這一家",
+        "about": "家住大埔公屋的一家四口\n故事圍繞大埔及香港的熱話\n",
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          },
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          }
+        ],
+        "single_line_address": "大埔, Hong Kong"
       }
     },
     {

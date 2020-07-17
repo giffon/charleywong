@@ -11,14 +11,21 @@
     {
       "url": "https://www.facebook.com/Concretology/",
       "meta": {
-        "name": "Concretology 日紙",
         "id": "549584088730131",
-        "about": "Concretology熱衷於設計出具人文價值的原創產品，保留傳統文化。\n\n我們深信設計是種催化劑，不單能調劑生活，也能促進不同的文化交流，引起共鳴。",
-        "categories": [
-          "Interest"
+        "username": "Concretology",
+        "name": "Concretology 日紙",
+        "about": "Concretology熱衷於設計出具人文價值的原創產品，保留傳統文化。\n\n我們深信設計是種催化劑，不單能調劑生活，也能促進不同的文化交流，引起共鳴。\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "general@daper.cc",
-        "tel": "92206324"
+        "emails": [
+          "general@daper.cc"
+        ],
+        "single_line_address": "Synbox, 10/F, Yuen Fat Industrial Building,  Kowloon Bay, Hong Kong",
+        "website": "https://www.daper.cc/"
       }
     },
     {

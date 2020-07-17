@@ -11,15 +11,18 @@
     {
       "url": "https://www.facebook.com/BondNgSolicitors/",
       "meta": {
-        "name": "伍展邦律師行 Bond Ng Solicitors",
         "id": "356641708040358",
+        "username": "BondNgSolicitors",
+        "name": "伍展邦律師行 Bond Ng Solicitors",
         "about": "Bond Ng Solicitors",
-        "categories": [
-          "Lawyer & Law Firm"
+        "category_list": [
+          {
+            "id": "1099402320124913",
+            "name": "Lawyer & Law Firm"
+          }
         ],
-        "addr": "19/F, 88 Lockhart Road, Wanchai",
-        "area": "Hong Kong",
-        "tel": "26081000"
+        "single_line_address": "19/F, 88 Lockhart Road, Wanchai, Hong Kong",
+        "website": "http://bondng.com.hk"
       }
     }
   ],

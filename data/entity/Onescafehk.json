@@ -7,17 +7,27 @@
   "webpages": [
     {
       "meta": {
-        "name": "1仔冰室 One's Cafe",
         "id": "356781328220869",
-        "categories": [
-          "Breakfast & Brunch Restaurant",
-          "Hong Kong Restaurant",
-          "Coffee Shop"
+        "username": "Onescafehk",
+        "name": "1仔冰室 One's Cafe",
+        "category_list": [
+          {
+            "id": "192108214153222",
+            "name": "Breakfast & Brunch Restaurant"
+          },
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "香港九龍紅磡必嘉街92-112號 紅磡灣中心地下9C鋪",
-        "area": "Hung Hom",
-        "email": "onescafe.cgl@gmail.com",
-        "tel": "31188111"
+        "emails": [
+          "onescafe.cgl@gmail.com"
+        ],
+        "single_line_address": "香港九龍紅磡必嘉街92-112號 紅磡灣中心地下9C鋪, Hung Hom"
       },
       "url": "https://www.facebook.com/Onescafehk/"
     },

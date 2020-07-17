@@ -7,15 +7,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "立濱 Sushi Tahama",
         "id": "894770280860920",
+        "username": "sushi.tahama",
+        "name": "立濱 Sushi Tahama",
         "about": "立食壽司店\n\n地址: 尖沙咀宜昌街地下6B\n電話: 2958 1918",
-        "categories": [
-          "Sushi Restaurant"
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          }
         ],
-        "addr": "尖沙咀宜昌街地下6B",
-        "area": "00000 Tsim Sha Tsui",
-        "tel": "29581918"
+        "single_line_address": "尖沙咀宜昌街地下6B, 00000 Tsim Sha Tsui"
       },
       "url": "https://www.facebook.com/sushi.tahama/"
     },

@@ -6,18 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "name": "時新漢堡飽 • 正宗港式漢堡包",
         "id": "528259290900458",
+        "username": "szesunhamburger",
+        "name": "時新漢堡飽 • 正宗港式漢堡包",
         "about": "港式漢堡包始祖「時新漢堡飽」回歸紅磡，落戶黃埔花園第12期家居庭。首推招牌漢堡芝士蛋包及波浪坑紋炸薯條，配搭埋Juicy炸雞肶就更滋味無窮啦！",
-        "categories": [
-          "Fast Food Restaurant",
-          "Hong Kong Restaurant",
-          "Burger Restaurant"
+        "category_list": [
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          },
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          },
+          {
+            "id": "187425207958280",
+            "name": "Burger Restaurant"
+          }
         ],
-        "addr": "紅磡 黃埔花園 第12期 家居庭 地鋪G22-23號",
-        "area": "Hung Hom",
-        "email": "szesunhamburger@gmail.com",
-        "tel": "23872868"
+        "emails": [
+          "szesunhamburger@gmail.com"
+        ],
+        "single_line_address": "紅磡 黃埔花園 第12期 家居庭 地鋪G22-23號, Hung Hom",
+        "website": "https://fb.me/szesunhamburger"
       },
       "url": "https://www.facebook.com/szesunhamburger/"
     },

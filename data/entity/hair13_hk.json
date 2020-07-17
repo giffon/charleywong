@@ -7,15 +7,16 @@
     {
       "url": "https://www.facebook.com/1637443599913819/",
       "meta": {
-        "name": "Hair13",
         "id": "1637443599913819",
+        "name": "Hair13",
         "about": "店鋪名稱：Hair13\n地址：新界馬鞍山,馬鞍山中心A07",
-        "categories": [
-          "Barber Shop"
+        "category_list": [
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          }
         ],
-        "addr": "Shop A07G/F.,Ma On Shan Centre,1 On Chun Street,Ma On Shan,New Territories",
-        "area": "852 Ma On Shan, Hong Kong",
-        "tel": "2206412826408213"
+        "single_line_address": "Shop A07G/F.,Ma On Shan Centre,1 On Chun Street,Ma On Shan,New Territories, 852 Ma On Shan, Hong Kong"
       }
     },
     {

@@ -10,15 +10,18 @@
     {
       "url": "https://www.facebook.com/amazingtattoohk/",
       "meta": {
-        "name": "Amazing Tattoo",
         "id": "297200513690669",
+        "username": "amazingtattoohk",
+        "name": "Amazing Tattoo",
         "about": "旺角通菜街(金魚街)168號 二樓\n歡迎親臨查詢預約\n\nTel/Whatsapp: 9716 5753\n\nhttp://www.amazingtattoohk.com/",
-        "categories": [
-          "Tattoo & Piercing Shop"
+        "category_list": [
+          {
+            "id": "551469561691940",
+            "name": "Tattoo & Piercing Shop"
+          }
         ],
-        "addr": "旺角通菜街168號二樓",
-        "area": "Hong Kong",
-        "tel": "97165753"
+        "single_line_address": "旺角通菜街168號二樓, Hong Kong",
+        "website": "http://www.amazingtattoohk.com"
       }
     },
     {

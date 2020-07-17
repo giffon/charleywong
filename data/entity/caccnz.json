@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/caccnz/",
       "meta": {
-        "name": "Chinese Alliance Christian Church (CACC) 基督教宣道會中信堂",
         "id": "105810013527",
+        "username": "caccnz",
+        "name": "Chinese Alliance Christian Church (CACC) 基督教宣道會中信堂",
         "about": "本堂以榮耀神為最高宗旨，並應努力宣講耶穌基督之福音，領人歸主，培育忠誠信徒及會友。",
-        "categories": [
-          "Religious Organization",
-          "Christian Church"
+        "category_list": [
+          {
+            "id": "187714557925874",
+            "name": "Religious Organization"
+          },
+          {
+            "id": "184266718279692",
+            "name": "Christian Church"
+          }
         ],
-        "addr": "60 Ben Lomond Crescent, Pakuranga",
-        "area": "Auckland, New Zealand 2010",
-        "email": "cacc@cacc.org.nz",
-        "tel": "6495767070"
+        "emails": [
+          "cacc@cacc.org.nz"
+        ],
+        "single_line_address": "60 Ben Lomond Crescent, Pakuranga, Auckland, New Zealand 2010",
+        "website": "www.cacc.org.nz"
       }
     }
   ],

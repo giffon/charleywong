@@ -17,16 +17,29 @@
     {
       "url": "https://www.facebook.com/thevegelab/",
       "meta": {
-        "name": "The Vege Lab",
         "id": "1703770663204355",
-        "about": "info@thevegelab.com\n\n+852 5332 6500 \n(WhatsApp only)",
-        "categories": [
-          "Dessert Shop",
-          "Vegetarian/Vegan Restaurant"
+        "username": "thevegelab",
+        "name": "The Vege Lab",
+        "about": "info@thevegelab.com\n\n+852 5332 6500 \n(WhatsApp only)\n",
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          },
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          }
         ],
-        "addr": "觀塘觀塘道396號毅力工業中心",
-        "area": "Hong Kong",
-        "email": "info@thevegelab.com"
+        "emails": [
+          "info@thevegelab.com"
+        ],
+        "single_line_address": "觀塘觀塘道396號毅力工業中心, Hong Kong",
+        "website": "thevegelab.com"
       }
     }
   ],

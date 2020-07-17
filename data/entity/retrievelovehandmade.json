@@ -17,16 +17,28 @@
     {
       "url": "https://www.facebook.com/retrievelovehandmade/",
       "meta": {
-        "name": "尋回‧愛 HandMade WorkShop",
         "id": "392307844152550",
-        "about": "使用天然植物原料製作，不添加任何化學劑，保證100%純天然護膚產品以天然植物素材製作，溫和細緻地保養我們的肌膚。Inbox : www.facebook.com/retrievelovehandmade\nWhatsapp : 95493039",
-        "categories": [
-          "Shopping & Retail",
-          "Health/Beauty",
-          "Skin Care Service"
+        "username": "retrievelovehandmade",
+        "name": "尋回‧愛 HandMade WorkShop",
+        "about": "使用天然植物原料製作，不添加任何化學劑，保證100%純天然護膚產品以天然植物素材製作，溫和細緻地保養我們的肌膚。Inbox : www.facebook.com/retrievelovehandmade\nWhatsapp : 95493039\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "1644814599176740",
+            "name": "Skin Care Service"
+          }
         ],
-        "email": "retrievelove@gmail.com",
-        "tel": "95493039"
+        "emails": [
+          "retrievelove@gmail.com"
+        ],
+        "website": "https://retrievelovehandmade.boutir.com/"
       }
     }
   ],

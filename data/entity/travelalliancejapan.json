@@ -11,14 +11,20 @@
     {
       "url": "https://www.facebook.com/travelalliancejapan/",
       "meta": {
-        "name": "北海道旅遊聯盟 taj",
         "id": "151333048738102",
+        "username": "travelalliancejapan",
+        "name": "北海道旅遊聯盟 taj",
         "about": "旅遊聯盟 北海道旅行專家!\n將會大家分享很多的北海道新奇好玩好吃的介紹\n請你密切留意@!@",
-        "categories": [
-          "Tour Agency"
+        "category_list": [
+          {
+            "id": "124861974254366",
+            "name": "Tour Agency"
+          }
         ],
-        "email": "dt@t-alliance.com.hk",
-        "tel": "39559580"
+        "emails": [
+          "dt@t-alliance.com.hk"
+        ],
+        "website": "www.t-alliance.com.hk"
       }
     },
     {

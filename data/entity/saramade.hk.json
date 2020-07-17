@@ -7,13 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "about": "手工皂零售、訂製母乳皂及婚禮回禮、手工皂及天然護膚保養品教學等。\n\nSaramade由莎拉主理，莎拉為手工皂專業講師(台灣手創藝術協會)、香港註冊社工、ACP國際園藝治療師。",
-        "categories": [
-          "Household supplies",
-          "Health/beauty"
-        ],
-        "tel": "95893076",
-        "id": "1526916710954067"
+        "id": "1526916710954067",
+        "username": "saramade.hk",
+        "name": "Saramade 莎拉手工皂",
+        "about": "訂製手工皂、代製母乳皂、婚禮回禮、散水禮物、手工皂及天然護膚保養品教學等。\n\nSaramade由莎拉主理，莎拉為手工皂專業講師(台灣手創藝術協會)、香港註冊社工、ACP國際園藝治療師。",
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "2220",
+            "name": "Household Supplies"
+          }
+        ]
       },
       "url": "https://www.facebook.com/saramade.hk/"
     }

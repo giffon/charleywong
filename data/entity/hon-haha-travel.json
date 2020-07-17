@@ -6,12 +6,16 @@
   "webpages": [
     {
       "meta": {
-        "name": "攀山攝水",
         "id": "226438750894778",
+        "name": "攀山攝水",
         "about": "攀山、攝水\n透過遠足活動及相片分享，讓更多人了解及欣賞大自然生態和攝影。",
-        "categories": [
-          "Travel Company"
-        ]
+        "category_list": [
+          {
+            "id": "2258",
+            "name": "Travel Company"
+          }
+        ],
+        "website": "http://hon-haha-travel.blogspot.hk/"
       },
       "url": "https://www.facebook.com/226438750894778/"
     },

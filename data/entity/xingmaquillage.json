@@ -10,13 +10,23 @@
     {
       "meta": {
         "id": "440727335942494",
+        "username": "xingmaquillage",
+        "name": "XING maQuillage",
         "about": "Experience our french way of beauty.\nWe believed and created the bride look beautiful from the outside, and feel confident and comfortable deep inside.",
-        "categories": [
-          "Makeup artist",
-          "Brand",
-          "Tanning salon"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "1605186416478696",
+            "name": "Brand"
+          }
         ],
-        "email": "info@xingmaquillage.com"
+        "emails": [
+          "info@xingmaquillage.com"
+        ],
+        "website": "http://www.xingmaquillage.com"
       },
       "url": "https://www.facebook.com/xingmaquillage/"
     }

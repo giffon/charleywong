@@ -11,14 +11,24 @@
     {
       "url": "https://www.facebook.com/s19naturehk/",
       "meta": {
-        "name": "香城童話 s19naturehk",
         "id": "910464679144299",
+        "username": "s19naturehk",
+        "name": "香城童話 s19naturehk",
         "about": "讓香城再次偉大\nMake Hong Kong Great Again",
-        "categories": [
-          "Artist",
-          "Graphic Designer"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "162183907165552",
+            "name": "Graphic Designer"
+          }
         ],
-        "email": "horusli.dc@gmail.com"
+        "emails": [
+          "horusli.dc@gmail.com"
+        ],
+        "website": "https://s19nature.studio/"
       }
     },
     {

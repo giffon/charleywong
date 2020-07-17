@@ -7,16 +7,24 @@
     {
       "url": "https://www.facebook.com/imfloraholic/",
       "meta": {
-        "name": "ImFloraholic",
         "id": "1633172713581756",
+        "username": "imfloraholic",
+        "name": "ImFloraholic",
         "about": "Instagram: imfloraholic\nemail: imfloraholic@gmail.com",
-        "categories": [
-          "Florist",
-          "Wedding Planning Service"
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "addr": "Hong Kong",
-        "area": "Hong Kong",
-        "email": "imfloraholic@gmail.com"
+        "emails": [
+          "imfloraholic@gmail.com"
+        ],
+        "single_line_address": "Hong Kong, Hong Kong"
       }
     },
     {

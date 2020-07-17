@@ -11,15 +11,24 @@
     {
       "url": "https://www.facebook.com/DrFruitsHK/",
       "meta": {
-        "name": "Dr. Fruits 水果博士",
         "id": "1823140537915888",
+        "username": "DrFruitsHK",
+        "name": "Dr. Fruits 水果博士",
         "about": "優質水果速遞，24小時網上落單，最快即日送到。\n\n🛒訂購 https://www.drfruits.hk\n☎️查詢 +852-60168220 (電話/WhatsApp)\n🚚買滿HK$300可享免費送貨 (偏遠地區除外)",
-        "categories": [
-          "Health Food Store",
-          "Fruit & Vegetable Store"
+        "category_list": [
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          },
+          {
+            "id": "128157407253652",
+            "name": "Fruit & Vegetable Store"
+          }
         ],
-        "email": "drfruitshk@gmail.com",
-        "tel": "60168220"
+        "emails": [
+          "drfruitshk@gmail.com"
+        ],
+        "website": "http://www.drfruits.hk"
       }
     },
     {

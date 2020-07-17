@@ -9,47 +9,70 @@
     },
     {
       "meta": {
-        "name": "Zeppelin Hot Dog",
         "id": "319775824852635",
+        "username": "zeppelinhotdog",
+        "name": "Zeppelin Hot Dog",
         "about": "A Hong Kong Local Brand.",
-        "categories": [
-          "Hot Dog Joint",
-          "Food Stand",
-          "Fast Food Restaurant"
+        "category_list": [
+          {
+            "id": "212285478786733",
+            "name": "Hot Dog Joint"
+          },
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          },
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          }
         ],
-        "addr": "B7, G/F, WAH SHING BUILDING, BLOCK B, 80-84 HAU TEI SQUARE, TSUEN WAN",
-        "area": "852 Tsuen Wan, Hong Kong",
-        "email": "zeppelinhotdog@gmail.com",
-        "tel": "98522901"
+        "emails": [
+          "zeppelinhotdog@gmail.com"
+        ],
+        "single_line_address": "B7, G/F, WAH SHING BUILDING, BLOCK B, 80-84 HAU TEI SQUARE, TSUEN WAN, 852 Tsuen Wan, Hong Kong",
+        "website": "https://www.zeppelinhotdog.com/"
       },
       "url": "https://www.facebook.com/zeppelinhotdog/"
     },
     {
       "meta": {
-        "name": "Zeppelin Hot Dog Tai On",
         "id": "2633033143590176",
+        "username": "zeppelinhotdogtaion",
+        "name": "Zeppelin Hot Dog Tai On",
         "about": "齊柏林熱狗店融匯全球各地的飲食文化，推出多款不同口味的熱狗，包羅澳式、火炙芝士、辣肉醬熱狗等豐富選擇，另外亦有洋蔥圈與炸魚薯條等小食，炮製充滿魅力的嶄新街頭風味。",
-        "categories": [
-          "Hot Dog Joint",
-          "New American Restaurant",
-          "Fast Food Restaurant"
+        "category_list": [
+          {
+            "id": "212285478786733",
+            "name": "Hot Dog Joint"
+          },
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          },
+          {
+            "id": "110107385737667",
+            "name": "New American Restaurant"
+          }
         ],
-        "addr": "西灣河筲箕灣道57-87號太安樓地下A55A號舖",
-        "area": "Hong Kong",
-        "tel": "57442929"
+        "single_line_address": "西灣河筲箕灣道57-87號太安樓地下A55A號舖, Hong Kong",
+        "website": "instagram.com/zeppelinhotdogtaion"
       },
       "url": "https://www.facebook.com/zeppelinhotdogtaion/",
       "hidden": true
     },
     {
       "meta": {
-        "name": "Zeppelinhotdog yuenlong",
         "id": "103253804543501",
-        "about": "小食/熱狗",
-        "categories": [
-          "Hot Dog Joint"
-        ],
-        "tel": "52828720"
+        "username": "Zeppelinhotdogyuenlong",
+        "name": "Zeppelinhotdog yuenlong",
+        "about": "小食/熱狗 ",
+        "category_list": [
+          {
+            "id": "212285478786733",
+            "name": "Hot Dog Joint"
+          }
+        ]
       },
       "url": "https://www.facebook.com/Zeppelinhotdogyuenlong/",
       "hidden": true
@@ -57,29 +80,34 @@
     {
       "url": "https://www.facebook.com/zeppelinhotdogtsw/",
       "meta": {
-        "name": "Zeppelin Hot Dog TSW",
         "id": "111799613770562",
-        "categories": [
-          "Restaurant"
+        "username": "zeppelinhotdogtsw",
+        "name": "Zeppelin Hot Dog TSW",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "天盛商場",
-        "area": "Tin Shui Wai",
-        "tel": "57229251"
+        "single_line_address": "天盛商場, Tin Shui Wai"
       },
       "hidden": true
     },
     {
       "url": "https://www.facebook.com/zeppelinhotdogwhampoa/",
       "meta": {
-        "name": "Zeppelin Hot Dog Whampoa 齊柏林熱狗",
         "id": "110287243980722",
-        "about": "齊柏林熱狗 黄埔店\n\n�\n登陸黄埔�試業中�\n  \n試業期間營業時間：11:30 -22:00\n  \n紅磡黄埔德民街29號德民大廈地下B1號鋪\n( 黄埔站A出口 生果檔�斜對面)\n\nTel: 90476785",
-        "categories": [
-          "Hot Dog Joint"
+        "username": "zeppelinhotdogwhampoa",
+        "name": "Zeppelin Hot Dog Whampoa 齊柏林熱狗",
+        "about": "齊柏林熱狗 黄埔店\n\n�\n登陸黄埔�試業中�\n  \n試業期間營業時間：12:00 -22:00\n  \n紅磡黄埔德民街29號德民大廈地下B1號鋪\n( 黄埔站A出口 生果檔�斜對面)\n\nTel: 90476785",
+        "category_list": [
+          {
+            "id": "212285478786733",
+            "name": "Hot Dog Joint"
+          }
         ],
-        "addr": "紅磡德民街29號德民大廈地下B1號鋪",
-        "area": "0000 Kowloon, Hong Kong",
-        "tel": "90476785"
+        "single_line_address": "紅磡德民街29號德民大廈地下B1號鋪, 0000 Kowloon, Hong Kong",
+        "website": "https://instagram.com/zeppelinhotdogwhampoa"
       },
       "hidden": true
     },

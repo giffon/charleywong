@@ -6,12 +6,17 @@
   "webpages": [
     {
       "meta": {
-        "name": "Reverie",
         "id": "197131570471528",
+        "username": "ReverieJewellery",
+        "name": "Reverie",
         "about": "Reverie is a local handmade brand.\n\n'REVERIE' means dream. We hope everyone can persist in their dream like how we did.",
-        "categories": [
-          "Jewelry/Watches"
-        ]
+        "category_list": [
+          {
+            "id": "2226",
+            "name": "Jewelry/Watches"
+          }
+        ],
+        "website": "https://www.instagram.com/reverie_jewellery/"
       },
       "url": "https://www.facebook.com/ReverieJewellery/"
     },

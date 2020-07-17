@@ -6,13 +6,21 @@
   "webpages": [
     {
       "meta": {
-        "name": "616牛肉火鍋專門店",
         "id": "1773794052865700",
+        "username": "616hotpot",
+        "name": "616牛肉火鍋專門店",
         "about": "全港首創！刁鑽牛部位！牛肉專家！\n平食優質手切牛！\n嚴選秦川騸牯牛！每日3點，新鮮原肉到店！",
-        "categories": [
-          "Hot Pot Restaurant",
-          "Yakiniku Restaurant"
-        ]
+        "category_list": [
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          },
+          {
+            "id": "698490883622395",
+            "name": "Yakiniku Restaurant"
+          }
+        ],
+        "website": "http://bit.ly/2uLD15p"
       },
       "url": "https://www.facebook.com/616hotpot/"
     },
@@ -20,132 +28,158 @@
       "url": "https://www.facebook.com/616hotpotcausewaybay/",
       "hidden": true,
       "meta": {
-        "name": "616牛肉火鍋專門店 (火鍋-銅鑼灣港鐵站C出口,步行約5分鐘)",
         "id": "197409194115109",
+        "username": "616hotpotcausewaybay",
+        "name": "616牛肉火鍋專門店",
         "about": "全港首創！刁鑽牛部位！牛肉火鍋專家！\n平食優質手切牛火鍋！\n嚴選秦川騸牯牛！每日3點，新鮮原肉到店！\n大埔總店。元朗、大圍、銅鑼灣均有分店！",
-        "categories": [
-          "Hot Pot Restaurant",
-          "Hong Kong Restaurant"
+        "category_list": [
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          },
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
         ],
-        "addr": "銅鑼灣謝菲道391-407新時代中心地下C舖",
-        "area": "Hong Kong",
-        "tel": "61582345"
+        "single_line_address": "銅鑼灣謝菲道391-407新時代中心地下C舖, Hong Kong"
       }
     },
     {
       "url": "https://www.facebook.com/326220914526192/",
       "hidden": true,
       "meta": {
-        "name": "616牛肉火鍋專門店 (火鍋-尖沙咀站N3出口，2分鐘路程)",
         "id": "326220914526192",
-        "categories": [
-          "Fondue Restaurant"
+        "name": "616牛肉火鍋專門店",
+        "category_list": [
+          {
+            "id": "167116956674095",
+            "name": "Fondue Restaurant"
+          }
         ],
-        "addr": "尖沙咀赫德道4號一樓",
-        "area": "Hong Kong",
-        "tel": "90374146"
+        "single_line_address": "尖沙咀赫德道4號一樓, 0000 Hong Kong"
       }
     },
     {
       "url": "https://www.facebook.com/616hotpottaipo/",
       "hidden": true,
       "meta": {
-        "name": "616牛肉火鍋專門店 (火鍋-太和港鐵站A出口, 步行約5分鐘)",
         "id": "704847079717113",
-        "categories": [
-          "Hot Pot Restaurant"
+        "username": "616hotpottaipo",
+        "name": "616牛肉火鍋專門店",
+        "category_list": [
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          }
         ],
-        "addr": "大埔翠怡街3號翠怡花園B座地下18號舖",
-        "area": "Hong Kong",
-        "tel": "35656878"
+        "single_line_address": "大埔翠怡街3號翠怡花園B座地下18號舖, Hong Kong"
       }
     },
     {
       "url": "https://www.facebook.com/616hotpottsuenwan/",
       "hidden": true,
       "meta": {
-        "name": "616牛肉火鍋專門店 (火鍋-荃灣三陂坊)",
         "id": "204751350129058",
-        "categories": [
-          "Fondue Restaurant"
+        "username": "616hotpottsuenwan",
+        "name": "616牛肉火鍋專門店",
+        "category_list": [
+          {
+            "id": "167116956674095",
+            "name": "Fondue Restaurant"
+          }
         ],
-        "addr": "荃灣三陂坊14-18號安安樓地下B號舖",
-        "area": "Hong Kong",
-        "tel": "90234199"
+        "single_line_address": "荃灣三陂坊14-18號安安樓地下B號舖, 0000 Hong Kong"
       }
     },
     {
       "url": "https://www.facebook.com/1949314975349962/",
       "hidden": true,
       "meta": {
-        "name": "616牛肉火鍋專門店 (火鍋-西營盤站B3出口, 4分鐘路程)",
         "id": "1949314975349962",
-        "categories": [
-          "Hot Pot Restaurant"
+        "name": "616牛肉火鍋專門店",
+        "category_list": [
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          }
         ],
-        "addr": "西環皇后大道西384-386號三多大廈地下A鋪",
-        "area": "Hong Kong",
-        "tel": "90349794"
+        "single_line_address": "西環皇后大道西384-386號三多大廈地下A鋪, 0000 Hong Kong"
       }
     },
     {
       "url": "https://www.facebook.com/616hotpotwhampoa/",
       "hidden": true,
       "meta": {
-        "name": "616牛肉火鍋專門店 (火鍋-黃埔站A出口，2分鐘路程)",
         "id": "342405939559160",
-        "categories": [
-          "Fondue Restaurant"
+        "username": "616hotpotwhampoa",
+        "name": "616牛肉火鍋專門店",
+        "category_list": [
+          {
+            "id": "167116956674095",
+            "name": "Fondue Restaurant"
+          }
         ],
-        "addr": "紅磡民泰街27-47號黃埔新村J-L座地下B2號舖",
-        "area": "Hong Kong",
-        "tel": "90348857"
+        "single_line_address": "紅磡民泰街27-47號黃埔新村J-L座地下B2號舖, 0000 Hong Kong"
       }
     },
     {
       "url": "https://www.facebook.com/616yakiniku.taiwai/",
       "hidden": true,
       "meta": {
-        "name": "616牛肉火鍋專門店 (燒肉酒埸-大圍站A出口，3分鐘路程)",
         "id": "329401400964403",
-        "categories": [
-          "Sake Bar",
-          "Yakiniku Restaurant"
+        "username": "616yakiniku.taiwai",
+        "name": "616牛肉火鍋專門店",
+        "category_list": [
+          {
+            "id": "1640927539562872",
+            "name": "Sake Bar"
+          },
+          {
+            "id": "698490883622395",
+            "name": "Yakiniku Restaurant"
+          }
         ],
-        "addr": "大圍積祿里4-6號好時洋樓地下4-5號舖",
-        "area": "Tai Wai",
-        "tel": "65313090"
+        "single_line_address": "大圍積祿里4-6號好時洋樓地下4-5號舖, Tai Wai"
       }
     },
     {
       "url": "https://www.facebook.com/616hotpotyuenlong/",
       "hidden": true,
       "meta": {
-        "name": "616牛肉火鍋專門店 (火鍋-元朗千色滙附近)",
         "id": "596906297151223",
+        "username": "616hotpotyuenlong",
+        "name": "616牛肉火鍋專門店",
         "about": "全港首創！刁鑽牛部位！牛肉火鍋專家！\n平食優質手切牛火鍋！\n嚴選秦川騸牯牛！每日3點，新鮮原肉到店！\n大埔總店。元朗、大圍、銅鑼灣均有分店！",
-        "categories": [
-          "Hot Pot Restaurant"
+        "category_list": [
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          }
         ],
-        "addr": "元朗西菁街9號富盛大廈地下95-100號舖",
-        "area": "Hong Kong",
-        "tel": "37020899"
+        "single_line_address": "元朗西菁街9號富盛大廈地下95-100號舖, Hong Kong",
+        "website": "facebook.com/616hotpot"
       }
     },
     {
       "url": "https://www.facebook.com/yakiniku616/",
       "hidden": true,
       "meta": {
-        "name": "616燒肉酒場",
         "id": "1562440080522939",
+        "username": "yakiniku616",
+        "name": "616燒肉酒場",
         "about": "訂座號碼：65313090\n�歡迎各位喜歡食牛的您。你。妳�",
-        "categories": [
-          "Barbecue Restaurant",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "150534008338515",
+            "name": "Barbecue Restaurant"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "大圍積福街60-62號好時洋樓地下4-5號舖",
-        "area": "Tai Wai",
-        "tel": "65313090"
+        "single_line_address": "大圍積福街60-62號好時洋樓地下4-5號舖, Tai Wai"
       }
     },
     {

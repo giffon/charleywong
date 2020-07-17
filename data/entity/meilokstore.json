@@ -6,14 +6,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "美樂士多",
         "id": "1610200662638197",
-        "about": "《分店地址》\n。V walk商場-L2 121舖（南昌站上蓋)\n。荃灣愉景新城 -L2-橋位pop up （近美康及洗手間）\n。星光大道kiosk 1 美食亭",
-        "categories": [
-          "Specialty Grocery Store"
+        "username": "meilokstore",
+        "name": "美樂士多",
+        "about": "\n《分店地址》\n。V walk商場-L2 121舖（南昌站上蓋)\n。荃灣愉景新城 -L2-橋位pop up （近美康及洗手間）\n。星光大道kiosk 1 美食亭",
+        "category_list": [
+          {
+            "id": "162264673824073",
+            "name": "Specialty Grocery Store"
+          }
         ],
-        "email": "info@charles-ltd.com",
-        "tel": "92238538"
+        "emails": [
+          "info@charles-ltd.com"
+        ]
       },
       "url": "https://www.facebook.com/meilokstore/"
     },

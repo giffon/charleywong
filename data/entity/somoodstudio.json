@@ -18,14 +18,20 @@
     {
       "url": "https://www.facebook.com/somoodstudio/",
       "meta": {
-        "name": "水木研社 Somoodstudio",
         "id": "886048398178009",
+        "username": "somoodstudio",
+        "name": "水木研社 Somoodstudio",
         "about": "香港製造手造紙品。產品銷售，歡迎訂製。不定期工作坊，歡迎合作查詢。\nHandmade paper & book • Irregularly workshop • Custom-made",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "info@somoodstudio.com",
-        "tel": "67356866"
+        "emails": [
+          "info@somoodstudio.com"
+        ],
+        "website": "http://www.somoodstudio.com"
       }
     }
   ],

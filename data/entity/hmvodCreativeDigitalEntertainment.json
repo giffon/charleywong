@@ -10,13 +10,20 @@
     {
       "url": "https://www.facebook.com/hmvodCreativeDigitalEntertainment/",
       "meta": {
-        "name": "Hmv Digital Group",
         "id": "178314478928668",
+        "username": "hmvodCreativeDigitalEntertainment",
+        "name": "Hmv Digital Group",
         "about": "One stop Entertainment. Entertain your life.",
-        "categories": [
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "email": "cs@hmvod.com.hk"
+        "emails": [
+          "cs@hmvod.com.hk"
+        ],
+        "website": "www.hmvod.com.hk"
       }
     },
     {

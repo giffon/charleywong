@@ -8,15 +8,19 @@
     {
       "url": "https://www.facebook.com/1516959751781543/",
       "meta": {
-        "name": "傳奇烘焙 Legend Bakeology",
         "id": "1516959751781543",
+        "name": "傳奇烘焙 Legend Bakeology",
         "about": "傳奇烘焙是落戶大埔墟中心點及上水彩園商場的本地自家品牌餅店。  我們專注為大家製作有水準的烘焙產品。\n\n店舖地址：\n大埔廣福里正發樓23號地下A1舖\n上水彩園路彩園邨彩園商場3樓R1B舖",
-        "categories": [
-          "Bakery"
+        "category_list": [
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          }
         ],
-        "addr": "大埔廣褔里正發樓23號地下A1舖",
-        "area": "0 Hong Kong",
-        "email": "legendbakeology@gmail.com"
+        "emails": [
+          "legendbakeology@gmail.com"
+        ],
+        "single_line_address": "大埔廣褔里正發樓23號地下A1舖, 0 Hong Kong"
       }
     }
   ],

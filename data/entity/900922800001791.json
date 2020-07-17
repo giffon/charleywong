@@ -6,12 +6,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "東京車站-玩具店",
         "id": "900922800001791",
-        "categories": [
-          "Games/Toys"
+        "name": "東京車站-玩具店",
+        "category_list": [
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          }
         ],
-        "tel": "96818631"
+        "single_line_address": "官塘巧明街116-118號, 萬年工業大厦12樓 A12, Hong Kong"
       },
       "url": "https://www.facebook.com/900922800001791/"
     }

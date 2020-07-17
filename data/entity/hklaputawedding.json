@@ -6,17 +6,24 @@
   "webpages": [
     {
       "meta": {
-        "name": "Laputa Wedding",
         "id": "394930697328667",
+        "username": "hklaputawedding",
+        "name": "Laputa Wedding",
         "about": "Since 2015.",
-        "categories": [
-          "Wedding Planning Service",
-          "Bridal Shop"
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "103446129740239",
+            "name": "Bridal Shop"
+          }
         ],
-        "addr": "Unit 2101, New Venture  Centre, 18 Lam Tin Street, Kwai Chung ,NT",
-        "area": "Hong Kong",
-        "email": "laputawedding@gmail.com",
-        "tel": "28844878"
+        "emails": [
+          "laputawedding@gmail.com"
+        ],
+        "single_line_address": "Unit 2101, New Venture  Centre, 18 Lam Tin Street, Kwai Chung ,NT, Hong Kong"
       },
       "url": "https://www.facebook.com/hklaputawedding/"
     },

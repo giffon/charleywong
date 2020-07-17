@@ -7,17 +7,25 @@
     {
       "url": "https://www.facebook.com/fomegastudio/",
       "meta": {
-        "name": "Fomegä Studio 飄眉美睫專門店",
         "id": "912164165493637",
+        "username": "fomegastudio",
+        "name": "Fomegä Studio 飄眉美睫專門店",
         "about": "The beauty of a woman must be seen from in her eyes, because that is the doorway to her heart,the place where love resides at FOMEGÄ\nWeChatID:fomegastudio",
-        "categories": [
-          "Beauty, Cosmetic & Personal Care",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "尖沙咀加連威老道39號太興商業大厦17/F全層 17/F, Tern Commercial building, 39 Granville Road, Tsim Sha Tsui KL. HK.",
-        "area": "Tsim Sha Tsui",
-        "email": "fomegastudio@gmail.com",
-        "tel": "55392491"
+        "emails": [
+          "info@fomegastudio.com"
+        ],
+        "single_line_address": "尖沙咀加連威老道39號太興商業大厦17/F全層 17/F, Tern Commercial building, 39 Granville Road, Tsim Sha Tsui KL. HK., Tsim Sha Tsui",
+        "website": "www.fomegastudio.com"
       }
     }
   ],

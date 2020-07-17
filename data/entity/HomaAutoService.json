@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/HomaAutoService/",
       "meta": {
-        "name": "俊傑汽車服務",
         "id": "168659146515185",
+        "username": "HomaAutoService",
+        "name": "俊傑汽車服務",
         "about": "汽車美容,維修換油,燒焊噴油!一切關於汽車問題都幫到你^o^",
-        "categories": [
-          "Automotive Restoration Service",
-          "Car Wash"
+        "category_list": [
+          {
+            "id": "124718197599943",
+            "name": "Automotive Restoration Service"
+          },
+          {
+            "id": "162295707155272",
+            "name": "Car Wash"
+          }
         ],
-        "addr": "九龍牛頭角定安街55號地下",
-        "area": "00852 Ngau Tau Kok",
-        "email": "hokit87@yahoo.com.hk",
-        "tel": "91333356"
+        "emails": [
+          "hokit87@yahoo.com.hk"
+        ],
+        "single_line_address": "九龍牛頭角定安街55號地下, 00852 Ngau Tau Kok"
       }
     }
   ],

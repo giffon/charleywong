@@ -7,11 +7,15 @@
   "webpages": [
     {
       "meta": {
-        "name": "合利海鮮批發 HOP LEE Seafood",
         "id": "575657082826491",
+        "username": "hopleeseafood.com.hk",
+        "name": "合利海鮮批發 HOP LEE Seafood",
         "about": "專營各類生猛海鮮、凍貨類海產；\n歡迎各大食肆查詢及訂貨。\nInstagram：hoplee_seafood888",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       },
       "url": "https://www.facebook.com/hopleeseafood.com.hk/"

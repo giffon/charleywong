@@ -9,18 +9,29 @@
     },
     {
       "meta": {
-        "name": "Tinyzakkaya",
         "id": "166329540820697",
+        "username": "tinyzakkaya1",
+        "name": "Tinyzakkaya",
         "about": "�門市：尖沙咀首都廣場一樓F165舖\n----(龍門冰室斜對面)\n（正門上電梯左邊第2間）\n.\n所有貨品均為當地直送「內銷品」！\nfollow ig + facebook緊貼最新資訊！\nIG、Facebook：tinyzakkaya\nTel:66339070",
-        "categories": [
-          "Retail Company",
-          "Beauty Store",
-          "Beauty, Cosmetic & Personal Care"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "132666603831665",
+            "name": "Beauty Store"
+          },
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "addr": "尖沙咀漆咸道南61-65號首都廣場1樓F165鋪",
-        "area": "香港 Hong Kong",
-        "email": "tinyzakkaya.info@gmail.com",
-        "tel": "66339070"
+        "emails": [
+          "tinyzakkaya.info@gmail.com"
+        ],
+        "single_line_address": "尖沙咀漆咸道南61-65號首都廣場1樓F165鋪, 香港 Hong Kong",
+        "website": "https://tinyz.hk"
       },
       "url": "https://www.facebook.com/tinyzakkaya1/"
     },

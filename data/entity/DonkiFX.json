@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/DonkiFX/",
       "meta": {
-        "name": "激安の両替 Donki FX",
         "id": "2108232725866626",
+        "username": "DonkiFX",
+        "name": "激安の両替 找換店 Donkifx",
         "about": "WhatsApp 預約及即日鎖價，開到 8pm 方便放工唱錢。\n位於元朗嘅外幣找換店，唱錢唔使再出港島九龍喇。",
-        "categories": [
-          "Currency Exchange",
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "189172844438073",
+            "name": "Currency Exchange"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "元朗嘉城廣場 3 樓 3088 號舖",
-        "area": "Hong Kong",
-        "email": "hello@donkifx.com",
-        "tel": "65533448"
+        "emails": [
+          "hello@donkifx.com"
+        ],
+        "single_line_address": "元朗嘉城廣場 3 樓 3088 號舖, Hong Kong",
+        "website": "donkifx.com"
       }
     },
     {

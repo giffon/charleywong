@@ -15,13 +15,15 @@
     {
       "url": "https://www.facebook.com/246120009663569/",
       "meta": {
-        "name": "響茶",
         "id": "246120009663569",
-        "categories": [
-          "Bubble Tea Shop"
+        "name": "響茶",
+        "category_list": [
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          }
         ],
-        "addr": "樂軒臺",
-        "area": "Chai Wan"
+        "single_line_address": "樂軒臺, Chai Wan"
       },
       "hidden": true
     }

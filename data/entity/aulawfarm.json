@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/aulawfarm/",
       "meta": {
-        "name": "歐羅有機農場",
         "id": "382257591810502",
+        "username": "aulawfarm",
+        "name": "歐羅有機農場",
         "about": "訂購新鮮有機蔬菜,敬請到 http://yuwing.com/ 自行下載Order Form.",
-        "categories": [
-          "Farm",
-          "Agricultural Cooperative"
+        "category_list": [
+          {
+            "id": "150815208309028",
+            "name": "Farm"
+          },
+          {
+            "id": "1555099458125522",
+            "name": "Agricultural Cooperative"
+          }
         ],
-        "addr": "新界錦田元朗大江埔村",
-        "area": "00852 Hong Kong",
-        "email": "yuwingwong@yahoo.com.hk",
-        "tel": "91081731"
+        "emails": [
+          "yuwingwong@yahoo.com.hk"
+        ],
+        "single_line_address": "新界錦田元朗大江埔村, 00852 Hong Kong",
+        "website": "http://yuwing.com/"
       }
     },
     {

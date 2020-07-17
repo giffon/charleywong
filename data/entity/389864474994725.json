@@ -7,14 +7,23 @@
     {
       "url": "https://www.facebook.com/389864474994725/",
       "meta": {
-        "name": "豪隍點心工房 - 觀塘",
         "id": "389864474994725",
-        "categories": [
-          "Restaurant"
+        "name": "豪隍點心工房 - 觀塘",
+        "category_list": [
+          {
+            "id": "194588013912896",
+            "name": "Dim Sum Restaurant"
+          },
+          {
+            "id": "214976388519648",
+            "name": "Cantonese Restaurant"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "觀塘敬業街敬運工業大廈1樓A",
-        "area": "Kowloon, Hong Kong",
-        "tel": "25625668"
+        "single_line_address": "觀塘敬業街65-67號敬運工業大廈1樓A室, Kwun Tong"
       }
     }
   ],

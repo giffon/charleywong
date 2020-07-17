@@ -7,17 +7,24 @@
     {
       "url": "https://www.facebook.com/msmabeauty/",
       "meta": {
-        "name": "MSMABeauty",
         "id": "1723354791036360",
+        "username": "msmabeauty",
+        "name": "MSMABeauty",
         "about": "半永久化妝、煙霧眉、飄眉、霧眉、絲霧眉、美瞳線、眼線、櫻花唇、美睫、植睫、角蛋白",
-        "categories": [
-          "Beauty salon",
-          "School"
+        "category_list": [
+          {
+            "id": "2601",
+            "name": "School"
+          },
+          {
+            "id": "199236533423806",
+            "name": "Beauty Salon"
+          }
         ],
-        "addr": "尖沙咀百利商業中心9樓907室",
-        "area": "Hong Kong",
-        "email": "msmabeauty@gmail.com",
-        "tel": "55961008"
+        "emails": [
+          "msmabeauty@gmail.com"
+        ],
+        "single_line_address": "尖沙咀百利商業中心9樓907室, Hong Kong"
       }
     }
   ],

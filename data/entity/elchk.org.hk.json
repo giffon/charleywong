@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/elchk.org.hk/",
       "meta": {
-        "name": "信義‧角度",
         "id": "128460910678658",
-        "about": "信義會倡議工作小組",
-        "categories": [
-          "Non-Governmental Organization (NGO)"
+        "username": "elchk.org.hk",
+        "name": "信義‧角度",
+        "about": "基督教香港信義會社會服務部倡議工作小組",
+        "category_list": [
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          }
         ],
-        "email": "advocacy@elchk.org.hk",
-        "tel": "36925468"
+        "emails": [
+          "advocacy@elchk.org.hk"
+        ],
+        "website": "http://www.elchk.org.hk/service/unit/49"
       }
     }
   ],

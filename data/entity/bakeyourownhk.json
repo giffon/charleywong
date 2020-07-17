@@ -18,17 +18,25 @@
     {
       "url": "https://www.facebook.com/bakeyourownhk/",
       "meta": {
-        "name": "BYO 自助烘焙 - Bake Your Own",
         "id": "148890155694503",
-        "about": "{於2017年創立} \n\nBYO自助烘焙Bake Your Own\n\n「香港首間自助式烘焙店」\n\n銅鑼灣旗艦店：銅鑼灣霎東街15號OLIV 8樓全層 \n23997199\n旺角本店：旺角登打士街56號家樂坊14樓1405室\n34603475",
-        "categories": [
-          "Cooking School",
-          "Dessert Shop"
+        "username": "bakeyourownhk",
+        "name": "BYO 自助烘焙 - Bake Your Own",
+        "about": "{於2017年創立}\n\n「香港首間自助式烘焙店」\n\n銅鑼灣店：霎東街15號OLIV 8樓全層 \n23997199\n旺角店：登打士街56號家樂坊14樓1405室\n34603475\n九龍灣店：宏照道38號MegaBox L2-32~33\n21229411",
+        "category_list": [
+          {
+            "id": "182269951819423",
+            "name": "Cooking School"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
         ],
-        "addr": "8/F Oliv 15 Sharp Street East Causeway Bay 銅鑼灣霎東街15號Oliv 8樓全層",
-        "area": "Mong Kok",
-        "email": "byo@knbgroupltd.com",
-        "tel": "34603475"
+        "emails": [
+          "byo@knbgroupltd.com"
+        ],
+        "single_line_address": "Mong Kok",
+        "website": "http://www.bakeyourownhk.com"
       }
     }
   ],

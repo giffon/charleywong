@@ -7,16 +7,28 @@
     {
       "url": "https://www.facebook.com/XeniaBeautyGroup/",
       "meta": {
-        "name": "Xenia Beauty Group",
         "id": "1486722158300636",
+        "username": "XeniaBeautyGroup",
+        "name": "Xenia Beauty Group",
         "about": "Xenia Beauty Group旗下:\nXenia Beauty Centre,JS Beaute Luxury\n我哋集團已經營運超過11年,旗下有四間分店,所有治療師有超過十幾年嘅美容經驗,同時全部都有曬國際認可證書文憑,絕對係信心既保證",
-        "categories": [
-          "Skin Care Service",
-          "Health/Beauty",
-          "Beauty Salon"
+        "category_list": [
+          {
+            "id": "1644814599176740",
+            "name": "Skin Care Service"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "199236533423806",
+            "name": "Beauty Salon"
+          }
         ],
-        "email": "xeniabeautycentre@gmail.com",
-        "tel": "54325532"
+        "emails": [
+          "xeniabeautycentre@gmail.com"
+        ],
+        "single_line_address": "沙田百德街置富第一城G87A舖，大埔安泰路大埔廣場2樓33-22號舖, 沙田石門京瑞廣場一期一樓179號鋪， 馬鞍山烏溪沙路8號迎海薈地下6F號鋪"
       }
     },
     {

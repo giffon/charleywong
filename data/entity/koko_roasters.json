@@ -14,17 +14,25 @@
     {
       "url": "https://www.facebook.com/kokoroasters/",
       "meta": {
-        "name": "KoKo Coffee Roasters",
         "id": "797865170278783",
-        "about": "我們會為這個新地點加入更多咖啡原素，請大家密切留意我們的更新！",
-        "categories": [
-          "Coffee Shop",
-          "Restaurant"
+        "username": "kokoroasters",
+        "name": "KoKo Coffee Roasters",
+        "about": "我們會為這個新地點加入更多咖啡原素，請大家密切留意我們的更新！\n",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "白田壩街45號南豐紗廠六廠 G09 The Mills G09 ,45 Pak Tin Par Street,Tsuen Wan",
-        "area": "Hong Kong",
-        "email": "info@cocobarista.com",
-        "tel": "24997255"
+        "emails": [
+          "kokocoffeehk@gmail.com"
+        ],
+        "single_line_address": "白田壩街45號南豐紗廠六廠 G09 The Mills G09 ,45 Pak Tin Par Street,Tsuen Wan, Hong Kong",
+        "website": "https://cocoespresso701.com/"
       }
     }
   ],

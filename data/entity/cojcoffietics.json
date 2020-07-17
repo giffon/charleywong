@@ -13,16 +13,21 @@
     },
     {
       "meta": {
-        "name": "Cup of Joe by coffietics",
         "id": "443214826421174",
+        "username": "cojcoffietics",
+        "name": "Cup of Joe by coffietics",
         "about": "guiding you to better coffee and health",
-        "categories": [
-          "Coffee Shop"
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "Shop C2A-C2B (Lift Lobby), G/F, China Insurance Group Building, 141 Des Voeux Road",
-        "area": "Central, Hong Kong",
-        "email": "askme@coffietics.com",
-        "tel": "27869711"
+        "emails": [
+          "askme@coffietics.com"
+        ],
+        "single_line_address": "Shop C2A-C2B (Lift Lobby), G/F, China Insurance Group Building, 141 Des Voeux Road, Central, Hong Kong",
+        "website": "https://www.instagram.com/cojcoffietics/"
       },
       "url": "https://www.facebook.com/cojcoffietics/"
     },

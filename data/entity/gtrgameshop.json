@@ -7,14 +7,22 @@
     {
       "meta": {
         "id": "171322132886211",
-        "categories": [
-          "Video games shop",
-          "Video game",
-          "Toy shop"
+        "username": "gtrgameshop",
+        "name": "GTR Co",
+        "category_list": [
+          {
+            "id": "211579738882707",
+            "name": "Video Game"
+          },
+          {
+            "id": "201429350256874",
+            "name": "Video Game Store"
+          }
         ],
-        "addr": "灣仔東方188商埸 2樓 241號舖",
-        "area": "Hong Kong",
-        "email": "gtrgameshop@gmail.com"
+        "emails": [
+          "gtrgameshop@gmail.com"
+        ],
+        "single_line_address": "灣仔東方188商埸 2樓 241號舖, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/gtrgameshop/"
     }

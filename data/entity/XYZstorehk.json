@@ -13,14 +13,20 @@
     },
     {
       "meta": {
-        "name": "XYZ_store",
         "id": "1324255454257853",
+        "username": "XYZstorehk",
+        "name": "XYZ_store",
         "about": "\"A Special Gift For A Special YOU\"\n自設工作室, 訂製專屬您的小禮物\n歡迎 INBOX 查詢\nwhatsapp：5533 8745\nwechat：5533 8745\nLine / IG : xyz_store",
-        "categories": [
-          "Product/Service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "xyzstore.contact@gmail.com",
-        "tel": "55338745"
+        "emails": [
+          "xyzstore.contact@gmail.com"
+        ],
+        "website": "https://www.instagram.com/xyz_store/"
       },
       "url": "https://www.facebook.com/XYZstorehk/"
     }

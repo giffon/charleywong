@@ -10,28 +10,44 @@
     },
     {
       "meta": {
-        "name": "FactWire News Agency 傳真社",
         "id": "396495580557502",
+        "username": "factwire",
+        "name": "FactWire News Agency 傳真社",
         "about": "+852 9639 7479 WhatsApp | Telegram 報料",
-        "categories": [
-          "Nonprofit Organization",
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          },
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "newsroom@factwire.org"
+        "emails": [
+          "newsroom@factwire.org"
+        ],
+        "website": "https://www.factwire.org"
       },
       "url": "https://www.facebook.com/factwire/"
     },
     {
       "url": "https://www.facebook.com/factwirefactcheck/",
       "meta": {
-        "name": "FactWire Fact Check",
         "id": "106274781043285",
-        "about": "求真是傳真社的宗旨，調查報道之外，這個新平台將為公眾分辨假新聞。這是一項與Yahoo!的合作計劃，調查工作不會受到影響。\n\n如發現假新聞或誤導資訊，請舉報。\nWhatsApp | Telegram  +852 9639 7479",
-        "categories": [
-          "Non-Governmental Organization (NGO)",
-          "News & Media Website"
+        "username": "factwirefactcheck",
+        "name": "FactWire Fact Check",
+        "about": "求真是傳真社的宗旨，調查報道之外，這個新平台將為公眾分辨假新聞。這是一項與Yahoo!的合作計劃，調查工作不會受到影響。\n\n如發現假新聞或誤導資訊，請舉報。\nWhatsApp | Telegram  +852 9639 7479 ",
+        "category_list": [
+          {
+            "id": "1314020451960517",
+            "name": "Media"
+          }
         ],
-        "email": "factcheck@factwire.org"
+        "emails": [
+          "factcheck@factwire.org"
+        ],
+        "website": "https://www.factwire.org"
       }
     },
     {

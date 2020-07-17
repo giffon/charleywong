@@ -9,13 +9,17 @@
     },
     {
       "meta": {
-        "name": "Simply Thingy",
         "id": "1772554886353487",
+        "username": "simply.thingy",
+        "name": "Simply Thingy",
         "about": "🌸新一季開始啦🌸網頁有更多新貨上架🛒www.simplythingy.com 🛍購物滿$800仲會包順豐速遞😉安坐家中都可以買到靚衫💡",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "tel": "54443012"
+        "website": "https://www.simplythingy.com"
       },
       "url": "https://www.facebook.com/simply.thingy/"
     },

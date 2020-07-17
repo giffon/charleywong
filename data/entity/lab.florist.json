@@ -7,15 +7,23 @@
     {
       "url": "https://www.facebook.com/lab.florist/",
       "meta": {
-        "name": "Lab.Florist",
         "id": "627397800788898",
+        "username": "lab.florist",
+        "name": "Lab.Florist",
         "about": "•All about flower •\n|花束花盒| 花藝佈置| 品牌合作| 工作坊|",
-        "categories": [
-          "Florist",
-          "Patio/Garden"
+        "category_list": [
+          {
+            "id": "192111490806699",
+            "name": "Florist"
+          },
+          {
+            "id": "2222",
+            "name": "Patio/Garden"
+          }
         ],
-        "email": "lab.floristt@gmail.com",
-        "tel": "92539541"
+        "emails": [
+          "lab.floristt@gmail.com"
+        ]
       }
     },
     {

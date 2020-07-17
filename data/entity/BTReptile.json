@@ -10,15 +10,19 @@
     {
       "url": "https://www.facebook.com/BTReptile/",
       "meta": {
-        "name": "BT爬蟲",
         "id": "1001762659865418",
-        "categories": [
-          "Pet Service"
+        "username": "BTReptile",
+        "name": "BT爬蟲",
+        "category_list": [
+          {
+            "id": "144982405562750",
+            "name": "Pet Service"
+          }
         ],
-        "addr": "觀塘開源道55號開聯工業中心A座7樓706室",
-        "area": "HKA Hong Kong",
-        "email": "btreptileshop@gmail.com",
-        "tel": "60178911"
+        "emails": [
+          "btreptileshop@gmail.com"
+        ],
+        "single_line_address": "觀塘開源道55號開聯工業中心A座7樓706室, HKA Hong Kong"
       }
     },
     {

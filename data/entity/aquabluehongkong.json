@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/aquabluehongkong/",
       "meta": {
-        "name": "AquaBlue 伽藍",
         "id": "415032142030903",
+        "username": "aquabluehongkong",
+        "name": "AquaBlue 伽藍",
         "about": "🎣伽藍美食 Aqua Blue Delicious🎣 \n\n🐠美味刺身🐟\n🌏環球生蠔🌎\n🦂急凍海產🦐\n🐮高級肉類🐷\n🐑各款美食🦀\n🍾派對美酒🍸\n\n☎查詢熱線: 2254-8487☎\n📳Whatsapp:6809-2266📳 \n📋牌照號碼: 299480576",
-        "categories": [
-          "Food & Beverage Company"
+        "category_list": [
+          {
+            "id": "2252",
+            "name": "Food & Beverage Company"
+          }
         ],
-        "addr": "元朗橫洲宏業東街安勁工業大廈5樓A室",
-        "area": "Yuen Long",
-        "email": "aquabluehongkong@gmail.com",
-        "tel": "68092266"
+        "emails": [
+          "aquabluehongkong@gmail.com"
+        ],
+        "single_line_address": "元朗橫洲宏業東街安勁工業大廈5樓A室, Yuen Long",
+        "website": "http://www.aquablue.hk"
       }
     },
     {

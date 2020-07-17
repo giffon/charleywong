@@ -9,13 +9,19 @@
     },
     {
       "meta": {
-        "name": "Sweet Petite K",
         "id": "963521127011942",
-        "about": "All about beautiful cakes and sweet petite bakes.",
-        "categories": [
-          "Personal Blog"
+        "username": "sweetpetitek",
+        "name": "Sweet Petite K",
+        "about": "All about beautiful cakes and sweet petite bakes. ",
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
         ],
-        "email": "info@sweetpetitek.com"
+        "emails": [
+          "info@sweetpetitek.com"
+        ]
       },
       "url": "https://www.facebook.com/sweetpetitek/"
     },

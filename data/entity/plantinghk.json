@@ -10,15 +10,28 @@
     {
       "url": "https://www.facebook.com/plantinghk/",
       "meta": {
-        "name": "種植香港",
         "id": "105144849896005",
+        "username": "plantinghk",
+        "name": "種植香港",
         "about": "香港農業雜誌",
-        "categories": [
-          "Farm",
-          "Agricultural Service",
-          "Agricultural Cooperative"
+        "category_list": [
+          {
+            "id": "150815208309028",
+            "name": "Farm"
+          },
+          {
+            "id": "189323644423254",
+            "name": "Agricultural Service"
+          },
+          {
+            "id": "1555099458125522",
+            "name": "Agricultural Cooperative"
+          }
         ],
-        "email": "plantinghk@gmail.com"
+        "emails": [
+          "plantinghk@gmail.com"
+        ],
+        "website": "http://plantinghk.com"
       }
     }
   ],

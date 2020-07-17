@@ -10,18 +10,29 @@
     },
     {
       "meta": {
-        "name": "傲洋游泳會 Ocean Swimming Club",
         "id": "1630375070524089",
-        "about": "2020年兒童游泳課程、女子成人游泳班、親子嬰幼兒playgroup游泳班，專業游泳教練團隊運用引導教學法的各種元素令小孩提升學游水的樂趣，爆發學習潛能。",
-        "categories": [
-          "Swimming Instructor",
-          "Education Website",
-          "Coach"
+        "username": "oceanswimclub",
+        "name": "傲洋游泳會 Ocean Swimming Club",
+        "about": "2020年兒童游泳課程、女子成人游泳班、親子嬰幼兒playgroup游泳班，專業游泳教練團隊運用引導教學法的各種元素令小孩提升學游水的樂趣，爆發學習潛能。\n",
+        "category_list": [
+          {
+            "id": "2704",
+            "name": "Education Website"
+          },
+          {
+            "id": "1802",
+            "name": "Coach"
+          },
+          {
+            "id": "1238790372819138",
+            "name": "Swimming Instructor"
+          }
         ],
-        "addr": "觀塘開源道45號有利中心3樓35室",
-        "area": "Kowloon, Hong Kong",
-        "email": "oceanswimclub@gmail.com",
-        "tel": "98368452"
+        "emails": [
+          "oceanswimclub@gmail.com"
+        ],
+        "single_line_address": "觀塘開源道45號有利中心3樓35室, Kowloon, Hong Kong",
+        "website": "http://oceanswimclub.hk"
       },
       "url": "https://www.facebook.com/oceanswimclub/"
     },

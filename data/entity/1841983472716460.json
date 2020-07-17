@@ -7,18 +7,27 @@
     {
       "url": "https://www.facebook.com/1841983472716460/",
       "meta": {
-        "name": "祥豐·裝修·建築工程有限公司",
         "id": "1841983472716460",
-        "about": "本公司擁有豐富經驗既專業人才團隊\n超過10年以上裝修經驗，\n可提供專業意見解答你疑問，\n更可為你提供特平費用為你提供服務！！\n快D WhatsApp 我地啦 91363476",
-        "categories": [
-          "Home Improvement",
-          "Home Decor",
-          "Engineering Service"
+        "name": "祥豐·裝修·建築工程有限公司",
+        "about": "本公司擁有豐富經驗既專業人才團隊多年裝修經驗，\n可提供專業意見解答你疑問，\n更可為你提供特平費用為你提供服務！！\n快D WhatsApp 我地啦 91363476",
+        "category_list": [
+          {
+            "id": "108427109235243",
+            "name": "Home Improvement"
+          },
+          {
+            "id": "192647794097278",
+            "name": "Home Decor"
+          },
+          {
+            "id": "400062273344681",
+            "name": "Engineering Service"
+          }
         ],
-        "addr": "觀塘成業街18號,怡生工業大廈6樓A座7室",
-        "area": "Kowloon, Hong Kong",
-        "email": "fortunephoenixltm@gmail.com",
-        "tel": "91363476"
+        "emails": [
+          "fortunephoenixltm@gmail.com"
+        ],
+        "single_line_address": "觀塘成業街18號,怡生工業大廈6樓A座7室, 00852 Kowloon, Hong Kong"
       }
     }
   ],

@@ -7,16 +7,20 @@
     {
       "url": "https://www.facebook.com/tokyoshokudo2015/",
       "meta": {
-        "name": "東京食堂",
         "id": "794637290653137",
+        "username": "tokyoshokudo2015",
+        "name": "東京食堂",
         "about": "東京食堂\n尖沙咀食店\n兩個人\n四隻手\n一份人情味",
-        "categories": [
-          "Japanese Restaurant"
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
         ],
-        "addr": "尖沙咀柯士甸路15A柯士甸大廈地下D鋪",
-        "area": "852 Hong Kong",
-        "email": "tokyoshokudo2015@gmail.com",
-        "tel": "56166159"
+        "emails": [
+          "tokyoshokudo2015@gmail.com"
+        ],
+        "single_line_address": "尖沙咀柯士甸路15A柯士甸大廈地下D鋪, 852 Hong Kong"
       }
     },
     {

@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/SurealInk/",
       "meta": {
-        "name": "Sureal Ink",
         "id": "668862059816399",
+        "username": "SurealInk",
+        "name": "Sureal Ink",
         "about": "Sureal Ink is a professional tattoo studio based in Hong Kong, Established by Elvis Law and Jacey Po in 2014.We believe Creative comes from an Expression, an idea, from emotions. We are here to exploring Freedom of Creation, body Art.",
-        "categories": [
-          "Tattoo & Piercing Shop",
-          "Artist",
-          "Arts & Entertainment"
+        "category_list": [
+          {
+            "id": "551469561691940",
+            "name": "Tattoo & Piercing Shop"
+          },
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          }
         ],
-        "addr": "Gee Luen Factory building, kwun tong Road 316-318",
-        "area": "00000 Hong Kong",
-        "email": "jaceypo5@gmail.com",
-        "tel": "51993456"
+        "emails": [
+          "jaceypo5@gmail.com"
+        ],
+        "single_line_address": "Gee Luen Factory building, kwun tong Road 316-318, 00000 Hong Kong",
+        "website": "http://www.surealink.com"
       }
     },
     {

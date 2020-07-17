@@ -13,18 +13,29 @@
     },
     {
       "meta": {
-        "name": "Le Café des Délices",
         "id": "591500767627446",
-        "about": "創於2014年8月 元朗法式小店\n-法國窩夫專門店-\n歡迎訂座、預訂蛋糕\n主IG: le.cafe.des.delices\n蛋糕IG: le.cafe_cake.jpg",
-        "categories": [
-          "French Restaurant",
-          "Dessert Shop",
-          "Coffee Shop"
+        "username": "yuenlong.Le.Cafe.des.Delices",
+        "name": "Le Café des Délices",
+        "about": "創於2014年8月 元朗法式小店\n-法國窩夫專門店-\n歡迎訂座、預訂蛋糕\n主IG: le.cafe.des.delices\n蛋糕IG: le.cafe_cake.jpg \n\n",
+        "category_list": [
+          {
+            "id": "168976549819329",
+            "name": "French Restaurant"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
         ],
-        "addr": "新界元朗合益路9-15號紀業樓地下i舖(徐澤林小學旁小巷)",
-        "area": "852 Hong Kong",
-        "email": "le.cafe.des.delices.hk@gmail.com",
-        "tel": "69993953"
+        "emails": [
+          "le.cafe.des.delices.hk@gmail.com"
+        ],
+        "single_line_address": "新界元朗合益路9-15號紀業樓地下i舖(徐澤林小學旁小巷), 852 Hong Kong",
+        "website": "https://www.instagram.com/le.cafe.des.delices/"
       },
       "url": "https://www.facebook.com/yuenlong.Le.Cafe.des.Delices/"
     }

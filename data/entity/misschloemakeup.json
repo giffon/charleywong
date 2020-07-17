@@ -7,14 +7,19 @@
     {
       "url": "https://www.facebook.com/misschloemakeup/",
       "meta": {
-        "name": "MissChloe Makeup",
         "id": "396140710743217",
-        "about": "Professional makeup and hair styling \nEmail: misschloemakeuphk@gmail.com",
-        "categories": [
-          "Health/Beauty"
+        "username": "misschloemakeup",
+        "name": "MissChloe Makeup",
+        "about": "Professional makeup and hair styling \nEmail: misschloemakeuphk@gmail.com\n",
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "email": "misschloemakeuphk@gmail.com",
-        "tel": "62023593"
+        "emails": [
+          "misschloemakeuphk@gmail.com"
+        ]
       }
     },
     {

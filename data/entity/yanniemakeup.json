@@ -10,15 +10,24 @@
     {
       "meta": {
         "id": "1453853211566920",
+        "username": "yanniemakeup",
+        "name": "Yannie Cheung Makeup",
         "about": "Yannie Cheung Makeup 化妝團隊提供各類化妝服務，多年經驗，為你帶來不一樣的自己。",
-        "categories": [
-          "Makeup artist",
-          "Local service"
+        "category_list": [
+          {
+            "id": "146059155460366",
+            "name": "Makeup Artist"
+          },
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
         ],
-        "addr": "觀塘駿業里8號世貿大廈13樓1315室",
-        "area": "Kwun Tong",
-        "email": "yanyi1003@gmail.com",
-        "tel": "60355520"
+        "emails": [
+          "yanyi1003@gmail.com"
+        ],
+        "single_line_address": "觀塘駿業里8號世貿大廈13樓1315室, Kwun Tong",
+        "website": "https://yyimage.wixsite.com/yanniemakeup"
       },
       "url": "https://www.facebook.com/yanniemakeup/"
     }

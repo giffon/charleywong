@@ -10,14 +10,24 @@
     {
       "url": "https://www.facebook.com/zbfghk/",
       "meta": {
-        "name": "紙本分格",
         "id": "829890720415444",
+        "username": "zbfghk",
+        "name": "紙本分格",
         "about": "Print is not dead.\n支持實體漫畫書。",
-        "categories": [
-          "Book",
-          "Community"
+        "category_list": [
+          {
+            "id": "1300",
+            "name": "Book"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "zbfghk@gmail.com"
+        "emails": [
+          "zbfghk@gmail.com"
+        ],
+        "website": "https://zbfghk.org/"
       }
     },
     {

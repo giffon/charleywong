@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/LamKeeSnacks/",
       "meta": {
-        "name": "林記懷舊小食",
         "id": "999208950169491",
+        "username": "LamKeeSnacks",
+        "name": "林記懷舊小食",
         "about": "懷舊小食，歡迎訂購，承接各種派對。糖蔥餅，龍鬚糖，菲林卷，白糖糕，砵仔糕等等",
-        "categories": [
-          "Food Stand",
-          "Just For Fun"
+        "category_list": [
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          },
+          {
+            "id": "129417183848258",
+            "name": "Just For Fun"
+          }
         ],
-        "addr": "總店:太古城中心一期一樓L119號鋪",
-        "area": "Hong Kong",
-        "tel": "62238518"
+        "single_line_address": "總店:太古城中心一期一樓L119號鋪, Hong Kong"
       }
     }
   ],

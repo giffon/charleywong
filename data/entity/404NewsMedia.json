@@ -7,11 +7,15 @@
     {
       "url": "https://www.facebook.com/404NewsMedia/",
       "meta": {
-        "name": "404 Media",
         "id": "109602737060047",
-        "about": "404 Media./404 News Media",
-        "categories": [
-          "Media/News Company"
+        "username": "404NewsMedia",
+        "name": "404 Media",
+        "about": "404 Media",
+        "category_list": [
+          {
+            "id": "1314020451960517",
+            "name": "Media"
+          }
         ]
       }
     },

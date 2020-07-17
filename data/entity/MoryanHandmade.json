@@ -6,18 +6,29 @@
   "webpages": [
     {
       "meta": {
-        "name": "Moryan Leather Production",
         "id": "386591211390143",
+        "username": "MoryanHandmade",
+        "name": "Moryan Leather Production",
         "about": "我們都是深海裡的一條魚，在冰冷的水溫之中浮沉。 這樣很好，你不認識我，我不認識你，這樣，我們只會透過皮來交流。 給我你的手，我帶你感受皮與革的味道。",
-        "categories": [
-          "Arts & Crafts Store",
-          "Arts & Entertainment",
-          "Producer"
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "1108",
+            "name": "Producer"
+          }
         ],
-        "addr": "Shop 25-26, 129-130 Connaught Road west",
-        "area": "999077 Sai Ying Pun",
-        "email": "moryanleather@gmail.com",
-        "tel": "52910532"
+        "emails": [
+          "moryanleather@gmail.com"
+        ],
+        "single_line_address": "Shop 25-26, 129-130 Connaught Road west, 999077 Sai Ying Pun",
+        "website": "https://moryanleather.wixsite.com/moryanleather"
       },
       "url": "https://www.facebook.com/MoryanHandmade/"
     },

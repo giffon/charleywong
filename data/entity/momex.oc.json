@@ -11,14 +11,24 @@
     {
       "url": "https://www.facebook.com/momex.oc/",
       "meta": {
-        "name": "Momex．毛物攝",
         "id": "103823307701513",
+        "username": "momex.oc",
+        "name": "Momex．毛物攝",
         "about": "毛物毛攝｜毛物攝 Momex",
-        "categories": [
-          "Photographer",
-          "Pet Service"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "144982405562750",
+            "name": "Pet Service"
+          }
         ],
-        "email": "info@ocstudio.org"
+        "emails": [
+          "info@ocstudio.org"
+        ],
+        "website": "www.momex-oc.com/"
       }
     },
     {

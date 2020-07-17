@@ -17,16 +17,21 @@
     {
       "url": "https://www.facebook.com/k.tfabric/",
       "meta": {
-        "name": "K ‧ T Fabric Hong Kong 日本布，韓國布，台灣布 連線直送",
         "id": "346090652532859",
-        "about": "Korea韓國布，Japan日本布，Taiwan台灣布等手作材料 連線直送香港",
-        "categories": [
-          "Shopping & Retail"
+        "username": "k.tfabric",
+        "name": "K ‧ T Fabric Hong Kong 日本布，韓國布，台灣布 連線直送",
+        "about": "Korea韓國布，Japan日本布，Taiwan台灣布等手作材料 連線直送香港\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "觀塘巧明街99號巧明工廠大廈7樓A8",
-        "area": "Hong Kong",
-        "email": "ktfabric@gmail.com",
-        "tel": "35963705"
+        "emails": [
+          "ktfabric@gmail.com"
+        ],
+        "single_line_address": "觀塘巧明街99號巧明工廠大廈7樓A8, Hong Kong",
+        "website": "www.ktfabric.com"
       }
     }
   ],

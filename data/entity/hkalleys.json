@@ -11,12 +11,17 @@
     {
       "url": "https://www.facebook.com/hkalleys/",
       "meta": {
-        "name": "香港小巷 HK Alleys",
         "id": "875621902771290",
+        "username": "hkalleys",
+        "name": "香港小巷 HK Alleys",
         "about": "HK ALLEYS ( 香港小巷 ) is a non-profit site that provides news recap with Chinese and English subtitles via Audio and Video Editing. We are a group of native Hong Kongers who were born and raised in this beloved city. Thank you for your support",
-        "categories": [
-          "News & Media Website"
-        ]
+        "category_list": [
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          }
+        ],
+        "website": "https://www.hkalleys.org/"
       }
     },
     {

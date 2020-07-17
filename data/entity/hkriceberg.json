@@ -8,14 +8,19 @@
     {
       "url": "https://www.facebook.com/hkriceberg/",
       "meta": {
-        "name": "光城香米 Riceberg",
         "id": "108609000865222",
+        "username": "hkriceberg",
+        "name": "光城香米 Riceberg",
         "about": "光城香米，一個真正屬於香港人嘅食米品牌。",
-        "categories": [
-          "Food Wholesaler"
+        "category_list": [
+          {
+            "id": "1727285527537943",
+            "name": "Food Wholesaler"
+          }
         ],
-        "email": "hkriceberg@gmail.com",
-        "tel": "61531350"
+        "emails": [
+          "hkriceberg@gmail.com"
+        ]
       }
     },
     {

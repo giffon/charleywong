@@ -6,15 +6,25 @@
   "webpages": [
     {
       "meta": {
-        "name": "So Green Handmade",
         "id": "1860841230905815",
-        "about": "專業香薰護膚品證書IFA國際芳療照護師認證HK-HSCG專業冷制手工皂證書KCCA協會師資認證～喜歡大自然味道，推廣綠色生活，希望地球少一點沒可能，多一點可能～",
-        "categories": [
-          "Health/Beauty",
-          "Aromatherapy Service"
+        "username": "sogreenhandmade",
+        "name": "So Green Handmade",
+        "about": "喜歡大自然味道，推廣綠色生活，希望地球少一點沒可能，多一點可能",
+        "category_list": [
+          {
+            "id": "259030350843802",
+            "name": "Aromatherapy Service"
+          },
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          }
         ],
-        "email": "sogreenhandmade@gmail.com",
-        "tel": "91087377"
+        "emails": [
+          "sogreenhandmade@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "https://sogreenhandmade.myshopify.com/"
       },
       "url": "https://www.facebook.com/sogreenhandmade/"
     },

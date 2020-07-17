@@ -11,15 +11,20 @@
     {
       "url": "https://www.facebook.com/teaculation/",
       "meta": {
-        "name": "Teaculation +-x茶",
         "id": "100205441331282",
+        "username": "teaculation",
+        "name": "Teaculation +-x茶",
         "about": "本地原創品牌⁣\n旅行家以當時得令食材大膽mix & match⁣\n務求奉上一杯非刻板的手搖茶飲⁣\n⁣\n#猶如實驗的精細⁣\n⁣\nOpening hours⁣\nMon-Sat. 11:30-19:30⁣\nSun. 11:30-18:30⁣\n⁣\nDelivery Whasapp: 6937 0577",
-        "categories": [
-          "Food & Beverage"
+        "category_list": [
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          }
         ],
-        "addr": "永吉街20號",
-        "area": "852 Hong Kong",
-        "email": "contact@teaculation.com"
+        "emails": [
+          "contact@teaculation.com"
+        ],
+        "website": "https://www.teaculation.com"
       }
     },
     {

@@ -13,15 +13,27 @@
     {
       "url": "https://www.facebook.com/AIRInteriorDesign/",
       "meta": {
-        "name": "AIR Interior Design & Consultancy",
         "id": "462490997271303",
+        "username": "AIRInteriorDesign",
+        "name": "AIR Interior Design & Consultancy",
         "about": "AIR Interior Design, Artistic Innovative Renovation",
-        "categories": [
-          "Home Decor",
-          "Interior Design Studio",
-          "Business Consultant"
+        "category_list": [
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          },
+          {
+            "id": "192647794097278",
+            "name": "Home Decor"
+          },
+          {
+            "id": "179672275401610",
+            "name": "Business Consultant"
+          }
         ],
-        "email": "airinteriordesignhk@gmail.com"
+        "emails": [
+          "airinteriordesignhk@gmail.com"
+        ]
       }
     }
   ],

@@ -8,13 +8,19 @@
     {
       "url": "https://www.facebook.com/happyanimallab/",
       "meta": {
-        "name": "愉快動物研究所 Happy Animal Lab",
         "id": "1452777858125914",
+        "username": "happyanimallab",
+        "name": "愉快動物研究所 Happy Animal Lab",
         "about": "純素生活\n為所有動物帶來愉快生活而努力\n\nVegan Life\nFor the happiness of all kinds of animal",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "happyanimallab@gmail.com"
+        "emails": [
+          "happyanimallab@gmail.com"
+        ]
       }
     },
     {

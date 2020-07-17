@@ -7,14 +7,19 @@
   "webpages": [
     {
       "meta": {
-        "name": "Spartans Entertainment 力場遊戲",
         "id": "590257494462026",
+        "username": "SpartansEntertainment",
+        "name": "Spartans Entertainment  力場遊戲",
         "about": "新、平、快的正貨遊戲\n各種日版預付卡\n歡迎查詢或預訂各項遊戲限定版等",
-        "categories": [
-          "Games/Toys"
+        "category_list": [
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          }
         ],
-        "email": "csy.spartans@gmail.com",
-        "tel": "60198071"
+        "emails": [
+          "csy.spartans@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/SpartansEntertainment/"
     },

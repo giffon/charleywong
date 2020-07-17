@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/redtidemall/",
       "meta": {
-        "name": "日本商品直輸入・直販ショップ-Red Tide Group",
         "id": "185321318929191",
+        "username": "redtidemall",
+        "name": "日本商品直輸入・直販ショップ-Red Tide Group",
         "about": "日本直輸入の寵物用品、食品、日用品、雑貨、成人向商品の店頭販売及び通信販売​。",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "九龍 荔枝角 青山道501-503號 國際工業大廈10樓B31室",
-        "area": "Hong Kong",
-        "email": "cs@redtidemall.com",
-        "tel": "55033643"
+        "emails": [
+          "cs@redtidemall.com"
+        ],
+        "single_line_address": "九龍 荔枝角 青山道501-503號 國際工業大廈10樓B31室, Hong Kong",
+        "website": "www.redtidemall.com"
       }
     },
     {
