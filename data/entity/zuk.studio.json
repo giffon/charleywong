@@ -9,14 +9,21 @@
     },
     {
       "meta": {
+        "id": "170469933076106",
+        "username": "zuk.studio",
+        "name": "觸STUDIO",
         "about": "觸STUDIO 致力為本地音樂人提供高質素的BAND房/鼓房租用服務及各類流行音樂課程，亦會定期舉辦音樂會活動，以推動本地音樂發展。",
-        "categories": [
-          "Musician/band",
-          "Music production studio",
-          "Music school"
+        "category_list": [
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "email": "zuk.studio@gmail.com",
-        "id": "170469933076106"
+        "emails": [
+          "zuk.studio@gmail.com"
+        ],
+        "single_line_address": "旺角亞皆老街83號先施大廈311室, Hong Kong",
+        "website": "http://www.zuk-studio.com"
       },
       "url": "https://www.facebook.com/zuk.studio/"
     }

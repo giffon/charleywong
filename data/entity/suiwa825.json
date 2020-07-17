@@ -8,16 +8,20 @@
     {
       "url": "https://www.facebook.com/suiwa825/",
       "meta": {
-        "name": "林瑞華 Gordon Lam",
         "id": "101873567895412",
+        "username": "suiwa825",
+        "name": "林瑞華 Gordon Lam",
         "about": "火鍋店小老闆，香港中小企食店聯盟召集人，美食車聯盟主席。土生土長香港人，深信良知、公義、生意是香港食肆的發展基石，缺一不可。",
-        "categories": [
-          "Food & Beverage"
+        "category_list": [
+          {
+            "id": "1700",
+            "name": "Politician"
+          }
         ],
-        "addr": null,
-        "area": "Hong Kong",
-        "email": "suiwa825@gmail.com",
-        "tel": "90318137"
+        "emails": [
+          "suiwa825@gmail.com"
+        ],
+        "single_line_address": "Hong Kong"
       }
     },
     {

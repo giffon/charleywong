@@ -10,17 +10,25 @@
     {
       "url": "https://www.facebook.com/rstudiohpshop/",
       "meta": {
-        "name": "R-Studio 耳機維修升級專門店",
         "id": "565134190233566",
-        "about": "專業耳機維修 升級換線 各類維修 HKD80起 即日可取\n專營耳機升級線材零沽批發 歡迎行家合作洽詢",
-        "categories": [
-          "Audio Visual Equipment Store",
-          "Product/Service"
+        "username": "rstudiohpshop",
+        "name": "R-Studio 耳機維修升級專門店",
+        "about": "專業耳機維修 升級換線 各類維修 HKD80起 即日可取\n專營耳機升級線材零沽批發 歡迎行家合作洽詢\n",
+        "category_list": [
+          {
+            "id": "198632653485894",
+            "name": "Audio Visual Equipment Store"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "旺角山東街星際城市二樓231號舖",
-        "area": "Hong Kong",
-        "email": "rio@rstudio-audio.com",
-        "tel": "37051707"
+        "emails": [
+          "rio@rstudio-audio.com"
+        ],
+        "single_line_address": "旺角山東街星際城市二樓231號舖, Hong Kong",
+        "website": "https://rstudio.boutir.com/"
       }
     },
     {

@@ -7,15 +7,24 @@
     {
       "url": "https://www.facebook.com/852butcher/",
       "meta": {
-        "name": "凍肉黃",
         "id": "105550464346906",
+        "username": "852butcher",
+        "name": "凍肉黃",
         "about": "凍肉黃為香港本土發蹟的食材店，全心全意為香港人搜羅環球食材，任何肉食也是包羅萬有，為食客帶來無限可能性！",
-        "categories": [
-          "Retail Company",
-          "Food Wholesaler"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "1727285527537943",
+            "name": "Food Wholesaler"
+          }
         ],
-        "email": "852butcher@gmail.com",
-        "tel": "97996690"
+        "emails": [
+          "852butcher@gmail.com"
+        ],
+        "website": "https://api.whatsapp.com/send?phone=85297996690"
       }
     },
     {

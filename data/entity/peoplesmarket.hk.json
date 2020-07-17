@@ -11,16 +11,19 @@
     {
       "meta": {
         "id": "430953663640632",
+        "username": "peoplesmarket.hk",
+        "name": "人民超市 Peoples Market",
         "about": "延續香港傳統味道",
-        "categories": [
-          "Supermarket",
-          "Health Food Shop",
-          "Shopping & retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "葵涌華星街2-6號安達工業大廈5A",
-        "area": "Hong Kong",
-        "email": "cs@peoplesmarket.hk",
-        "tel": "25686811"
+        "emails": [
+          "cs@peoplesmarket.hk"
+        ],
+        "website": "http://peoplesmarket.hk"
       },
       "url": "https://www.facebook.com/peoplesmarket.hk/"
     }

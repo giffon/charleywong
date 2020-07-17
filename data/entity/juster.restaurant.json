@@ -7,17 +7,25 @@
     {
       "url": "https://www.facebook.com/juster.restaurant/",
       "meta": {
-        "name": "Just'er Bar & Restaurant",
         "id": "831056793918813",
+        "username": "juster.restaurant",
+        "name": "Just'er Bar & Restaurant",
         "about": "Welcome to Just'er Bar & Restaurant! \nEnjoy our food! \nCall us and have reservation!!!",
-        "categories": [
-          "Bar",
-          "American Restaurant"
+        "category_list": [
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          },
+          {
+            "id": "149803325077018",
+            "name": "American Restaurant"
+          }
         ],
-        "addr": "13 Hillwood Road, Tsim Sha Tsui, Kowloon",
-        "area": "852 Tsim Sha Tsui",
-        "email": "juster.restaurant@gmail.com",
-        "tel": "23415628"
+        "emails": [
+          "juster.restaurant@gmail.com"
+        ],
+        "single_line_address": "13 Hillwood Road, Tsim Sha Tsui, Kowloon, 852 Hong Kong",
+        "website": "https://www.instagram.com/justerestaurant/"
       }
     },
     {

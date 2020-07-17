@@ -7,16 +7,21 @@
     {
       "url": "https://www.facebook.com/IvanTheKozakHK/",
       "meta": {
-        "name": "東歐餐廳 Ivan The Kozak",
         "id": "111449200254",
+        "username": "IvanTheKozakHK",
+        "name": "東歐餐廳 Ivan The Kozak",
         "about": "Ivan The Kozak has been serving the best Eastern European Cuisine in Hong Kong since 2001.",
-        "categories": [
-          "Eastern European Restaurant"
+        "category_list": [
+          {
+            "id": "1053404298085296",
+            "name": "Eastern European Restaurant"
+          }
         ],
-        "addr": "1/F Parekh House, 63 Wyndham Street, Central",
-        "area": "Hong Kong",
-        "email": "ivanthekozak@yahoo.com.hk",
-        "tel": "28511193"
+        "emails": [
+          "ivanthekozak@yahoo.com.hk"
+        ],
+        "single_line_address": "1/F Parekh House, 63 Wyndham Street, Central, Hong Kong",
+        "website": "https://www.facebook.com/IvanTheKozakHK"
       }
     },
     {

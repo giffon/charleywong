@@ -11,17 +11,25 @@
     {
       "url": "https://www.facebook.com/cache.org.hk/",
       "meta": {
-        "name": "長春社文化古蹟資源中心 The Conservancy Association Centre for Heritage (CACHe)",
         "id": "172114929484053",
+        "username": "cache.org.hk",
+        "name": "長春社文化古蹟資源中心 The Conservancy Association Centre for Heritage (CACHe)",
         "about": "非牟利保育團體，積極提倡保育歷史、文化、古蹟。",
-        "categories": [
-          "Non-Governmental Organization (NGO)",
-          "Nonprofit Organization"
+        "category_list": [
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          },
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          }
         ],
-        "addr": "西營盤西邊街36A後座",
-        "area": "Hong Kong",
-        "email": "info@cache.org.hk",
-        "tel": "22910238"
+        "emails": [
+          "info@cache.org.hk"
+        ],
+        "single_line_address": "西營盤西邊街36A後座, Hong Kong",
+        "website": "www.cache.org.hk"
       }
     },
     {

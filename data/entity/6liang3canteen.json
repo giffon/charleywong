@@ -6,31 +6,42 @@
   "webpages": [
     {
       "meta": {
-        "name": "六両三•台灣食堂",
         "id": "114329089937922",
-        "categories": [
-          "Restaurant"
+        "username": "6liang3canteen",
+        "name": "六両三•台灣食堂",
+        "category_list": [
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          }
         ],
-        "addr": "觀塘巧明街107號4樓02室",
-        "area": "Kowloon, Hong Kong",
-        "email": "6liang3@gmail.com",
-        "tel": "36203696"
+        "emails": [
+          "6liang3@gmail.com"
+        ],
+        "single_line_address": "觀塘巧明街107號4樓02室, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/6liang3canteen/"
     },
     {
       "url": "https://www.facebook.com/6liang3/",
       "meta": {
-        "name": "六両三•台灣牛肉麵",
         "id": "1421029374601005",
-        "categories": [
-          "Taiwanese Restaurant",
-          "Noodle House"
+        "username": "6liang3",
+        "name": "六両三•台灣牛肉麵",
+        "category_list": [
+          {
+            "id": "1848365298810025",
+            "name": "Noodle House"
+          },
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          }
         ],
-        "addr": "尖沙嘴宜昌街3號地鋪",
-        "area": "Hong Kong",
-        "email": "6liang3@gmail.com",
-        "tel": "34622140"
+        "emails": [
+          "6liang3@gmail.com"
+        ],
+        "single_line_address": "尖沙嘴宜昌街3號地鋪, Hong Kong"
       }
     }
   ],

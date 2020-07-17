@@ -12,18 +12,28 @@
     {
       "url": "https://www.facebook.com/109214067158953/",
       "meta": {
-        "name": "心陶 Hearty Ceramic",
         "id": "109214067158953",
+        "name": "心陶 Hearty Ceramic",
         "about": "心陶提供各式各樣的陶藝用品，如陶泥、色釉、工具、移印紙、玻璃材料、窯爐及其他設備等，種類繁多，歡迎與我們聯絡選購。",
-        "categories": [
-          "Product/Service",
-          "Merchandising Service",
-          "Art"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "169363643109176",
+            "name": "Merchandising Service"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
         ],
-        "addr": "7A, Island Industrial Building, 81 Tung Chau Street",
-        "area": "Tai Kok Tsui",
-        "email": "sales@heartyceramic.com",
-        "tel": "81013723"
+        "emails": [
+          "sales@heartyceramic.com"
+        ],
+        "single_line_address": "7A, Island Industrial Building, 81 Tung Chau Street, Tai Kok Tsui",
+        "website": "http://heartyceramic.com"
       }
     },
     {

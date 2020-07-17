@@ -11,14 +11,20 @@
     {
       "url": "https://www.facebook.com/188794784473382/",
       "meta": {
-        "name": "RSR 紅鞋宜",
         "id": "188794784473382",
+        "name": "RSR 紅鞋宜",
         "about": "旺角彌敦道 580A號潮流特區地庫B17號鋪 Shop B17, Basement, Trendy Zone, 580A Nathan Road, Mong Kok, Hong Kong Weibo : http://weibo.com/rsrhk Bus .Hr：2:00pm-10:30pm Phone: 3110 0663 Email：rsr_hk@yahoo.com.hk",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "rsr_hk@yahoo.com.hk",
-        "tel": "31100663"
+        "emails": [
+          "rsr_hk@yahoo.com.hk"
+        ],
+        "single_line_address": "旺角彌敦道580A號潮流特區地庫B17號鋪",
+        "website": "http://www.rsrhk.com/"
       }
     },
     {

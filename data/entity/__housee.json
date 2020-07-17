@@ -14,15 +14,24 @@
     {
       "url": "https://www.facebook.com/175075936731874/",
       "meta": {
-        "name": "Housee",
         "id": "175075936731874",
-        "about": "�手鈎公仔\n�數字油畫\n�仿身寵物\n�攬枕\n隨你喜歡�來圖訂製\n�全人手製作�請耐心等候\n�只限順豐到付\n有意請WTS 65714499查詢�\nhttps://api.whatsapp.com/send?phone=85265714499",
-        "categories": [
-          "Pet Service",
-          "Arts & Crafts Store"
+        "name": "Housee",
+        "about": "開業4年。信心保證\n數字油畫\n手鈎公仔\n羊毛氈\n八達通\n純銀飾品\n.\n全人手製作。請耐心等候\n只限順豐到付\n有意請WTS 65714499查詢\n\nhttps://api.whatsapp.com/send?phone=85265714499",
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "144982405562750",
+            "name": "Pet Service"
+          }
         ],
-        "email": "houseehk@gmail.com",
-        "tel": "65714499"
+        "emails": [
+          "houseehk@gmail.com"
+        ],
+        "single_line_address": "Hong Kong",
+        "website": "http://Instagram.com/__housee"
       }
     }
   ],
@@ -41,6 +50,7 @@
     }
   ],
   "tags": [
-    "shop","handcraft"
+    "shop",
+    "handcraft"
   ]
 }

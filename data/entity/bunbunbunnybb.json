@@ -18,14 +18,24 @@
     {
       "url": "https://www.facebook.com/bunbunbunnybb/",
       "meta": {
-        "name": "Bun Bun Bunny 笨笨賓尼",
         "id": "1840070222959008",
+        "username": "bunbunbunnybb",
+        "name": "Bun Bun Bunny 笨笨賓尼",
         "about": "本店會定期將所有收益的5%捐給香港兔友協會，幫助待領兔兔得到妥善的照顧和資助兔協所需嘅醫療開支！5% of all profits will be quarterly donated to Hong Kong Rabbit Society",
-        "categories": [
-          "Gift Shop",
-          "Pet Supplies"
+        "category_list": [
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          },
+          {
+            "id": "2230",
+            "name": "Pet Supplies"
+          }
         ],
-        "email": "bunbunbunnybb@gmail.com"
+        "emails": [
+          "bunbunbunnybb@gmail.com"
+        ],
+        "website": "https://bunbunbunnybb.boutir.com/"
       }
     }
   ],

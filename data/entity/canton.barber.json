@@ -14,16 +14,28 @@
     {
       "url": "https://www.facebook.com/canton.barber/",
       "meta": {
-        "name": "港東 x Canton Barber",
         "id": "1770346246348373",
-        "about": "Quarry Bay 鰂魚涌\nShop C1 & C2, Riviera Mansion, 18 Hoi Tai Street, Quarry Bay鰂魚涌海堤街18號濱海大廈C1及C2號舖\n\nCauseway Bay銅鑼灣\n27/F, Cubus, 1 Hoi Ping Road, Causeway Bay開平道1號Cubus 27樓",
-        "categories": [
-          "Hair Salon",
-          "Barber Shop",
-          "Men's Clothing Store"
+        "username": "canton.barber",
+        "name": "港東 x  Canton Barber",
+        "about": "Quarry Bay \nShop C1 & C2, Riviera Mansion, 18 Hoi Tai Street, Quarry Bay\nBooking: Booking: +852 5396 2567\n\nCauseway Bay\n27/F, Cubus, 1 Hoi Ping Road, Causeway Bay\nBooking: +852 52928812",
+        "category_list": [
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          },
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          },
+          {
+            "id": "170241263022353",
+            "name": "Men's Clothing Store"
+          }
         ],
-        "email": "info@canton-barber.com",
-        "tel": "53962567"
+        "emails": [
+          "info@canton-barber.com"
+        ],
+        "website": "https://www.fresha.com/providers/canton-barber-mpcr8fyt?pId=189220"
       }
     }
   ],

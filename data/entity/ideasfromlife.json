@@ -6,13 +6,20 @@
   "webpages": [
     {
       "meta": {
+        "id": "1673709699540281",
+        "username": "ideasfromlife",
+        "name": "紙造可能 ideasfromlife",
         "about": "給自己多一個選擇，使用可天然降解的皮革紙/Tyvek紙產品，減少動物真皮用量，降低殘殺動物的機會",
-        "categories": [
-          "Product/service"
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "ideasfromlifehk@gmail.com",
-        "tel": "97234300",
-        "id": "1673709699540281"
+        "emails": [
+          "ideasfromlifehk@gmail.com"
+        ],
+        "website": "http://www.ideasfromlife.com"
       },
       "url": "https://www.facebook.com/ideasfromlife/"
     }

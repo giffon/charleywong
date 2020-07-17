@@ -8,15 +8,17 @@
     {
       "url": "https://www.facebook.com/JoyVideoGame/",
       "meta": {
-        "name": "人氣皇 Joy Video Game - 新都城店",
         "id": "316212735075447",
+        "username": "JoyVideoGame",
+        "name": "人氣皇 Joy Video Game - 新都城店",
         "about": "人氣皇遊戲專門店\n門市: 將軍澳 貿業路 8號 新都城中心 III期 1樓 115鋪\n電話: 64519888",
-        "categories": [
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "addr": "新界將軍澳(寶林站)新都城3期115號舖",
-        "area": "Tseung Kwan O, Hong Kong",
-        "tel": "64519888"
+        "single_line_address": "新界將軍澳(寶林站)新都城3期115號舖, Tseung Kwan O, Hong Kong"
       }
     }
   ],

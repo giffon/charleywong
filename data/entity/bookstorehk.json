@@ -10,11 +10,16 @@
     {
       "url": "https://www.facebook.com/bookstorehk/",
       "meta": {
-        "name": "香城書室",
         "id": "109010387539945",
-        "categories": [
-          "Bookstore"
-        ]
+        "username": "bookstorehk",
+        "name": "香城書室",
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
+        ],
+        "website": "https://bookstorehk.com/"
       }
     }
   ],

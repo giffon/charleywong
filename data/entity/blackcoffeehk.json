@@ -11,18 +11,28 @@
     {
       "url": "https://www.facebook.com/103867781237318/",
       "meta": {
-        "name": "Black Coffee",
         "id": "103867781237318",
+        "name": "Black Coffee",
         "about": "Black Coffee 在香港孕育，流著 HeySoNuts 的血。一脈相承，於2020年由零開始，繼續以咖啡、西式餐飲、新派甜品將咖啡室體驗重新詮譯。",
-        "categories": [
-          "Restaurant",
-          "Dessert Shop",
-          "Cafe"
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
         ],
-        "addr": "旺角￼廣華￼街3號地下3號舖",
-        "area": "Hong Kong",
-        "email": "info@blackcoffee.hk",
-        "tel": "27960082"
+        "emails": [
+          "info@blackcoffee.hk"
+        ],
+        "single_line_address": "Shop 3, G/F, No.3 Kwong Wah Street, Mongkok, Hong Kong",
+        "website": "blackcoffee.hk"
       }
     },
     {

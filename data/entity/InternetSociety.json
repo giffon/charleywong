@@ -10,16 +10,25 @@
     {
       "url": "https://www.facebook.com/InternetSociety/",
       "meta": {
-        "name": "Internet Society",
         "id": "56134108238",
+        "username": "InternetSociety",
+        "name": "Internet Society",
         "about": "The Internet Society works for an open, globally-connected, secure, and trustworthy Internet for everyone.",
-        "categories": [
-          "Community Organization",
-          "Nonprofit Organization"
+        "category_list": [
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          },
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          }
         ],
-        "addr": "11710 Plaza America Drive, Suite 400",
-        "area": "Reston, Virginia 20190",
-        "email": "isoc@isoc.org"
+        "emails": [
+          "isoc@isoc.org"
+        ],
+        "single_line_address": "11710 Plaza America Drive, Suite 400, Reston, Virginia 20190",
+        "website": "https://www.internetsociety.org"
       }
     },
     {

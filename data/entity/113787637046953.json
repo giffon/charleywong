@@ -7,11 +7,18 @@
     {
       "url": "https://www.facebook.com/113787637046953/",
       "meta": {
-        "name": "拾壹月餅",
         "id": "113787637046953",
-        "categories": [
-          "Product/Service"
-        ]
+        "name": "拾壹月餅",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
+        ],
+        "emails": [
+          "101mooncake@gmail.com"
+        ],
+        "website": "www.101mooncake.com"
       }
     }
   ],

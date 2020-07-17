@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/aquariuseralyy/",
       "meta": {
-        "name": "Aquarius Era x LYY",
         "id": "419503742168847",
+        "username": "aquariuseralyy",
+        "name": "Aquarius Era x LYY",
         "about": "Aquarius Era x LYY 為Aquarius Era及LYY店主共同創立嘅水晶品牌。門市位於旺角好望角大廈1602室，提供不同類型的水晶首飾。所有水晶均由店主親自入貨的優質及天然素材。",
-        "categories": [
-          "Shopping & Retail"
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "addr": "旺角西洋菜南街5號好望角大廈16樓1602室",
-        "area": "Kowloon, Hong Kong",
-        "email": "aquariusera.lyy@gmail.com",
-        "tel": "91611140"
+        "emails": [
+          "aquariusera.lyy@gmail.com"
+        ],
+        "single_line_address": "旺角西洋菜南街5號好望角大廈16樓1602室, Kowloon, Hong Kong",
+        "website": "https://www.aquariuseraxlyy.com/"
       }
     },
     {

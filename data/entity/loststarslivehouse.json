@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/loststarslivehouse/",
       "meta": {
-        "name": "Lost Stars Livehouse Bar & Eatery",
         "id": "259447884518904",
-        "about": "LOST STARS LIVEHOUSE BAR & EATERY\nLive Music . Multi-art Form . Tapas & Cocktail",
-        "categories": [
-          "Pub",
-          "Live Music Venue",
-          "Diner"
+        "username": "loststarslivehouse",
+        "name": "Lost Stars Livehouse Bar & Eatery",
+        "about": "LOST STARS LIVEHOUSE BAR & EATERY\nLive Music . Multi-art Form . Tapas & Cocktail    \n",
+        "category_list": [
+          {
+            "id": "218693881483234",
+            "name": "Pub"
+          },
+          {
+            "id": "282281972123162",
+            "name": "Live Music Venue"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
         ],
-        "addr": "G/F,shop506,11 Li Tak Street , Square Mile,KLN",
-        "area": "852 Hong Kong",
-        "email": "loststarsinfo@gmail.com",
-        "tel": "23376728"
+        "emails": [
+          "loststarsinfo@gmail.com"
+        ],
+        "single_line_address": "G/F,shop506,11 Li Tak Street , Square Mile,KLN, 852 Hong Kong",
+        "website": "loststars.hk"
       }
     },
     {

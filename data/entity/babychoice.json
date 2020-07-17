@@ -11,11 +11,20 @@
       "url": "https://www.facebook.com/babychoice/",
       "meta": {
         "id": "667367326660480",
+        "username": "babychoice",
+        "name": "Baby Choice 母嬰用品專門店",
         "about": "我們搜羅各式各樣品質優良的正貨產品，為父母提供一站式母嬰用品。",
-        "categories": [
-          "Retail Company"
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "email": "info-yl@baby-choice.com.hk"
+        "emails": [
+          "info-yl@baby-choice.com.hk"
+        ],
+        "single_line_address": "852",
+        "website": "http://www.babychoice.com.hk/"
       }
     }
   ],

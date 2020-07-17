@@ -24,26 +24,46 @@
     {
       "url": "https://www.facebook.com/japanmednavi/",
       "meta": {
-        "name": "剩女談美容 by Japan MedNavi",
         "id": "2049388562018267",
+        "username": "japanmednavi",
+        "name": "剩女談美容 by Japan MedNavi",
         "about": "日本唯一來自香港的整容專業翻譯，現場經驗超過5000小時。日本美容外科學會會員、日本化妝品檢定1級持有者、株式会社Classic G代表，同時從事美容產品貿易。",
-        "categories": [
-          "Health/Beauty",
-          "Blogger",
-          "Product/Service"
-        ]
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "361282040719868",
+            "name": "Blogger"
+          }
+        ],
+        "website": "www.japanmednavi.com"
       }
     },
     {
       "url": "https://www.facebook.com/franfran.jpn/",
       "meta": {
-        "name": "香港人在東京- 80後剩女頹言廢語",
         "id": "273100112829490",
+        "username": "franfran.jpn",
+        "name": "香港人在東京- 80後剩女頹言廢語",
         "about": "80後剩女，不羈放縱愛自由。喜愛以文字抒發，一時文采，一時鬧人唔收口。follow 前請三思。",
-        "categories": [
-          "Writer",
-          "Blogger"
-        ]
+        "category_list": [
+          {
+            "id": "361282040719868",
+            "name": "Blogger"
+          },
+          {
+            "id": "1109",
+            "name": "Writer"
+          }
+        ],
+        "single_line_address": "東京",
+        "website": "www.japanmednavi.com"
       }
     }
   ],

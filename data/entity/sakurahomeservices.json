@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/sakurahomeservices/",
       "meta": {
-        "name": "櫻花家居服務 - 專業除甲醛",
         "id": "180689872282154",
+        "username": "sakurahomeservices",
+        "name": "櫻花家居服務 - 專業除甲醛",
         "about": "我們為追求優質健康生活而創立。為您所愛的家人消除室內甲醛危害，尤其是孕婦、嬰兒、兒童、老人提供最大保護。我們相信提供有效的空氣淨化服務，可有效改善香港家庭的健康。",
-        "categories": [
-          "Cleaning Service",
-          "Engineering Service",
-          "Environmental Consultant"
+        "category_list": [
+          {
+            "id": "186564191378474",
+            "name": "Cleaning Service"
+          },
+          {
+            "id": "400062273344681",
+            "name": "Engineering Service"
+          },
+          {
+            "id": "128268517241197",
+            "name": "Environmental Consultant"
+          }
         ],
-        "addr": "九龍觀塘開源道72號溢財中心1202A室",
-        "area": "Hong Kong",
-        "email": "info@sakura-home.com.hk",
-        "tel": "95208808"
+        "emails": [
+          "info@sakura-home.com.hk"
+        ],
+        "single_line_address": "九龍觀塘開源道72號溢財中心1202A室, Hong Kong",
+        "website": "https://www.sakura-home.com.hk/"
       }
     },
     {

@@ -6,14 +6,25 @@
   "webpages": [
     {
       "meta": {
+        "id": "61668818638",
+        "username": "sold.tora",
+        "name": "The Gal Who Sold Tora - Jewellery and Contemporary Design",
         "about": "From Twee to Luxe, Contemporary Jewelry crafted & Handmade in Hong Kong.",
-        "categories": [
-          "Jewellery/watches",
-          "Jewellery & watches shop",
-          "Fashion designer"
+        "category_list": [
+          {
+            "id": "188031587886173",
+            "name": "Jewelry & Watches Store"
+          },
+          {
+            "id": "179576078750378",
+            "name": "Fashion Designer"
+          }
         ],
-        "email": "sold.tora@gmail.com",
-        "id": "61668818638"
+        "emails": [
+          "sold.tora@gmail.com"
+        ],
+        "single_line_address": "信義誠品4/F:  110台北市信義區松高路11號, Hong Kong",
+        "website": "https://www.pinkoi.com/store/the-gal-who-sold-tora"
       },
       "url": "https://www.facebook.com/sold.tora/"
     }

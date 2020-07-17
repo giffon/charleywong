@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/hellocaptainhk/",
       "meta": {
-        "name": "Hello Captain 國際代運",
         "id": "1142271295823381",
+        "username": "hellocaptainhk",
+        "name": "Hello Captain 國際代運",
         "about": "以顧客角度打造一間以顧客服務為先的國際代運公司",
-        "categories": [
-          "Shopping Service"
+        "category_list": [
+          {
+            "id": "200046713342752",
+            "name": "Shopping Service"
+          }
         ],
-        "addr": "觀塘成業街20號怡生工業大廈11樓B室 (停車場閘口轉左）",
-        "area": "Kowloon, Hong Kong",
-        "email": "cs@hellocaptain.com.hk",
-        "tel": "69907640"
+        "emails": [
+          "cs@hellocaptain.com.hk"
+        ],
+        "single_line_address": "觀塘成業街20號怡生工業大廈11樓B室 (停車場閘口轉左）, Kowloon, Hong Kong",
+        "website": "http://www.hellocaptain.com.hk"
       }
     }
   ],

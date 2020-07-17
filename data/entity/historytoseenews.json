@@ -7,14 +7,26 @@
     {
       "url": "https://www.facebook.com/historytoseenews/",
       "meta": {
-        "name": "香港 新見舊聞",
         "id": "2150862985188434",
-        "categories": [
-          "History Museum",
-          "Arts & Humanities Website",
-          "Media"
+        "username": "historytoseenews",
+        "name": "香港 新見舊聞",
+        "category_list": [
+          {
+            "id": "244600818962350",
+            "name": "History Museum"
+          },
+          {
+            "id": "2701",
+            "name": "Arts & Humanities Website"
+          },
+          {
+            "id": "1314020451960517",
+            "name": "Media"
+          }
         ],
-        "email": "hkguy.hkhistory@gmail.com"
+        "emails": [
+          "hkguy.hkhistory@gmail.com"
+        ]
       }
     },
     {

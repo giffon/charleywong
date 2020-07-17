@@ -14,11 +14,17 @@
     {
       "url": "https://www.facebook.com/101451997880403/",
       "meta": {
-        "name": "Toysland Partyroom",
         "id": "101451997880403",
-        "categories": [
-          "Arts & Entertainment",
-          "Party Entertainment Service"
+        "name": "Toysland Partyroom",
+        "category_list": [
+          {
+            "id": "133436743388217",
+            "name": "Arts & Entertainment"
+          },
+          {
+            "id": "189334414420898",
+            "name": "Party Entertainment Service"
+          }
         ]
       }
     }

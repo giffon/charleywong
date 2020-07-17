@@ -6,16 +6,27 @@
   "webpages": [
     {
       "meta": {
-        "name": "Don LAU",
         "id": "1681149415485132",
-        "about": "全職工程監工、木工導師，本地廢木回收團體《Reclaimination》創辦人之一，曾在電視節目接受訪問及擔任木工指導包括《蝸居宅急變》及《幫人有限公司》。",
-        "categories": [
-          "Personal Blog",
-          "Carpenter",
-          "Gym/Physical Fitness Center"
+        "username": "DonLAUKT",
+        "name": "Don LAU",
+        "about": "全職工程監工、木工導師，本地廢木回收團體《Reclaimination》創辦人之一，曾在電視節目接受訪問及擔任木工指導包括《蝸居宅急變》及《幫人有限公司》。\n",
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          },
+          {
+            "id": "180833545285725",
+            "name": "Carpenter"
+          },
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          }
         ],
-        "email": "donlaukt@gmail.com",
-        "tel": "95329703"
+        "emails": [
+          "donlaukt@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/DonLAUKT/"
     },

@@ -10,16 +10,25 @@
     {
       "url": "https://www.facebook.com/geometry.id/",
       "meta": {
-        "name": "Geometric Interior Design Company",
         "id": "350683855276023",
+        "username": "geometry.id",
+        "name": "Geometric Interior Design Company",
         "about": "Focus on Interior Design project and design idea, provide a full range of service varying from space planning, material suggestion.\n\n提供室內設計工程, 概念設計, 空間規劃",
-        "categories": [
-          "Interior Design Studio",
-          "Engineering Service"
+        "category_list": [
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          },
+          {
+            "id": "400062273344681",
+            "name": "Engineering Service"
+          }
         ],
-        "addr": "The Star, 18 Yip Shing Street,Kwai CHung, Hong Kong",
-        "area": "Hong Kong",
-        "email": "info@geo-int.com.hk"
+        "emails": [
+          "info@geo-int.com.hk"
+        ],
+        "single_line_address": "The Star, 18 Yip Shing Street,Kwai CHung, Hong Kong, 852 Hong Kong",
+        "website": "http://www.geo-int.com.hk/"
       }
     }
   ],

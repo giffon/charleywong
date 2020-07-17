@@ -14,13 +14,21 @@
     {
       "url": "https://www.facebook.com/wandering.hk/",
       "meta": {
-        "name": "隨心街拍 Wandering and Streetphotos",
         "id": "1546313625686750",
-        "about": "離開手上數吋的螢光幕，放眼世界，每天都會有新的「發現」\n\nTurn our sight out of the screen, watch through the lens, you will find something special everyday~\n\nIG: wilson.wandering.hk",
-        "categories": [
-          "Community",
-          "Photographer"
-        ]
+        "username": "wandering.hk",
+        "name": "隨心街拍 Wandering and Streetphotos",
+        "about": "離開手上數吋的螢光幕，放眼世界，每天都會有新的「發現」\n\nTurn our sight out of the screen, watch through the lens, you will find something special everyday~\n\nIG: wilson.wandering.hk\n",
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
+        ],
+        "website": "http://www.instagram.com/wilson.wandering.hk"
       }
     }
   ],

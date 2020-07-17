@@ -14,15 +14,24 @@
     {
       "url": "https://www.facebook.com/kongguhk/",
       "meta": {
-        "name": "港。故",
         "id": "376269852714361",
+        "username": "kongguhk",
+        "name": "港。故",
         "about": "關心社會，認真製作\n我們用影片，記錄香港人的故事",
-        "categories": [
-          "Media/News Company",
-          "News & Media Website"
+        "category_list": [
+          {
+            "id": "2709",
+            "name": "News & Media Website"
+          },
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "ontv.konggu@gmail.com",
-        "tel": "36005177"
+        "emails": [
+          "ontv.konggu@gmail.com"
+        ],
+        "website": "http://bit.ly/KongGu"
       }
     },
     {

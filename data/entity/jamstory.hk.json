@@ -11,16 +11,21 @@
     {
       "url": "https://www.facebook.com/jamstory.hk/",
       "meta": {
-        "name": "Jam Story 果醬二三事",
         "id": "420538868075882",
+        "username": "jamstory.hk",
+        "name": "Jam Story 果醬二三事",
         "about": "全天然手工果醬致力分享最新鮮細緻溫暖健康的味道。，每星期親自到本地有機農場及果欄搜購最新鮮時令水果，依照不同水果之功效、口感、香味、甜味，配搭出多款口味果醬。果醬成份只含",
-        "categories": [
-          "Food Wholesaler"
+        "category_list": [
+          {
+            "id": "1727285527537943",
+            "name": "Food Wholesaler"
+          }
         ],
-        "addr": "葵涌打磚坪街68號和豐工業中心24樓16A室",
-        "area": "Hong Kong",
-        "email": "info@jamstoryhk.com",
-        "tel": "55015658"
+        "emails": [
+          "info@jamstoryhk.com"
+        ],
+        "single_line_address": "葵涌打磚坪街68號和豐工業中心24樓16A室, Hong Kong",
+        "website": "http://www.jamstoryhk.com"
       }
     },
     {

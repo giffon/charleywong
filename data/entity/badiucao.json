@@ -11,11 +11,14 @@
     {
       "url": "https://www.facebook.com/badiucao/",
       "meta": {
-        "name": "Badiucao",
         "id": "110798642923754",
-        "about": "",
-        "categories": [
-          "Artist"
+        "username": "badiucao",
+        "name": "Badiucao",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          }
         ]
       }
     },

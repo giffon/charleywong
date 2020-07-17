@@ -7,18 +7,29 @@
     {
       "url": "https://www.facebook.com/strikeboxingclub/",
       "meta": {
-        "name": "Strike Boxing Club",
         "id": "119523075374459",
+        "username": "strikeboxingclub",
+        "name": "Strike Boxing Club",
         "about": "由一群拳擊運動員創立，所有教練皆曾入選香港拳擊代表隊並擁有多年教學經驗。為回饋運動及推廣拳撃發展，我們希望成立風格認真，同時讓初學者體驗到拳擊樂趣的拳撃館。",
-        "categories": [
-          "Boxing Studio",
-          "Gym/Physical Fitness Center",
-          "Martial Arts School"
+        "category_list": [
+          {
+            "id": "1639776363011106",
+            "name": "Boxing Studio"
+          },
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          },
+          {
+            "id": "198325860180715",
+            "name": "Martial Arts School"
+          }
         ],
-        "addr": "葵芳葵豐街17-23號, 華業工業大廈B座3樓C",
-        "area": "Kwai Chung",
-        "email": "info@strike.hk",
-        "tel": "59639235"
+        "emails": [
+          "info@strike.hk"
+        ],
+        "single_line_address": "葵芳葵豐街17-23號, 華業工業大廈B座3樓C, Kwai Chung",
+        "website": "http://strike.hk"
       }
     },
     {

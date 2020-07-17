@@ -7,13 +7,22 @@
     {
       "meta": {
         "id": "2641727009235037",
+        "username": "superstarkidshk8",
+        "name": "Superstar Kids Store",
         "about": "本店以大眾化的價錢為大家搜羅優質童裝和嬰幼兒用品。\n\n店主是兩位小朋友的媽媽，明白在照顧小朋友上已經用了很多時間，希望這個網上平台可以為大家帶來更方便和安心的購物體驗!!",
-        "categories": [
-          "Baby goods/children's goods",
-          "Baby & children's clothing store"
+        "category_list": [
+          {
+            "id": "2232",
+            "name": "Baby Goods/Kids Goods"
+          },
+          {
+            "id": "192614304101075",
+            "name": "Baby & Children's Clothing Store"
+          }
         ],
-        "email": "superstarkids8@gmail.com",
-        "tel": "95257424"
+        "emails": [
+          "superstarkids8@gmail.com"
+        ]
       },
       "url": "https://www.facebook.com/superstarkidshk8/"
     }

@@ -11,13 +11,20 @@
     {
       "url": "https://www.facebook.com/hkadpl/",
       "meta": {
-        "name": "民協 ADPL",
         "id": "230729697738",
+        "username": "hkadpl",
+        "name": "民協 ADPL",
         "about": "香港民主民生協進會 官方戶口",
-        "categories": [
-          "Political Party"
+        "category_list": [
+          {
+            "id": "2618",
+            "name": "Political Party"
+          }
         ],
-        "email": "info@adpl.org.hk"
+        "emails": [
+          "info@adpl.org.hk"
+        ],
+        "website": "http://www.adpl.org.hk"
       }
     },
     {

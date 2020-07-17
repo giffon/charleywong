@@ -16,16 +16,25 @@
     {
       "url": "https://www.facebook.com/bluesmarty/",
       "meta": {
-        "name": "Bluesmarty Music Gears",
         "id": "1499505600360276",
+        "username": "bluesmarty",
+        "name": "Bluesmarty Music Gears",
         "about": "Bluesmarty 藍調勝田\nMusician/ Harmonica performer/ Illustrator/Audio & visual technician\n音樂人/口琴演奏者/ 插畫師/ 影音技術人員 ��\nFounder 創辦人： Marty Katsuda",
-        "categories": [
-          "Audio Visual Equipment Store",
-          "Artist",
-          "Musician/Band"
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "198632653485894",
+            "name": "Audio Visual Equipment Store"
+          },
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "addr": "Kwun Tong Kowloon, Hong Kong",
-        "area": "Hong Kong"
+        "single_line_address": "Kwun Tong Kowloon, Hong Kong, Hong Kong"
       }
     },
     {

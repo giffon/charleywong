@@ -15,14 +15,24 @@
     {
       "url": "https://www.facebook.com/WhatsNewsHK/",
       "meta": {
-        "name": "和你報 WhatsNews",
         "id": "106109531109957",
+        "username": "WhatsNewsHK",
+        "name": "和你報 WhatsNews",
         "about": "在極權統治下，香港人自由逐步逐步被扼殺；在越益失控的警暴下，新聞自由更是越來越收窄，為了捍衛香港人的自由，為了還原警暴下一切真相，「和你報WhatsNews」正式成立",
-        "categories": [
-          "Journalist",
-          "Media/News Company"
+        "category_list": [
+          {
+            "id": "1604",
+            "name": "Journalist"
+          },
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "whatsnewscs@gmail.com"
+        "emails": [
+          "whatsnewscs@gmail.com"
+        ],
+        "website": "https://whatscarhk.web.app/pages/sign-up.html"
       }
     }
   ],

@@ -14,15 +14,24 @@
     {
       "url": "https://www.facebook.com/Samanthalmakeup/",
       "meta": {
-        "name": "Samanthalmakeup",
         "id": "264088827011781",
+        "username": "Samanthalmakeup",
+        "name": "Samanthalmakeup",
         "about": "With experience over 6years, Samantha and team’s knowledge of seasonal and timeless beauty is delivered to you in a bespoke bridal service.",
-        "categories": [
-          "Wedding Planning Service",
-          "Beauty, Cosmetic & Personal Care"
+        "category_list": [
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "email": "samanthalmakeup@gmail.com",
-        "tel": "65390104"
+        "emails": [
+          "samanthalmakeup@gmail.com"
+        ],
+        "website": "https://bit.ly/2PHD7zg"
       }
     }
   ],

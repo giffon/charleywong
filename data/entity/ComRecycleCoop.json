@@ -7,13 +7,16 @@
     {
       "url": "https://www.facebook.com/ComRecycleCoop/",
       "meta": {
-        "name": "社區二手店",
         "id": "21151737459",
-        "about": "【社區二手店】\n地址：青山道100號D鋪 (營盤街與九江街之間)\n電話：27290373　每日朝11晚7時\n\n【社區二手店回收再用中心】\n地址：荔枝角長順街5號長江工廠大廈5樓C室\n2729 7023 每日10:30AM-6:30PM",
-        "categories": [
-          "Nonprofit Organization"
-        ],
-        "tel": "27297023"
+        "username": "ComRecycleCoop",
+        "name": "社區二手店",
+        "about": "【社區二手店】\n地址：青山道100號D鋪 (營盤街與九江街之間)\n電話：27290373　每日朝11晚7時\n\n【社區二手店回收再用中心】\n地址：荔枝角長順街5號長江工廠大廈5樓C室\n2729 7023 每日10:30AM-6:30PM  \n",
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          }
+        ]
       }
     }
   ],

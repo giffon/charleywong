@@ -10,16 +10,21 @@
     {
       "url": "https://www.facebook.com/PAWtners.HK/",
       "meta": {
-        "name": "PAWtners.",
         "id": "1420613181316738",
-        "about": "\"Pawtners\" hoping to break the inherent pattern of Hong Kong pet shop, So that each of the owners and pets can get rid of the rapid pace of life",
-        "categories": [
-          "Pet Store"
+        "username": "PAWtners.HK",
+        "name": "PAWtners.",
+        "about": "\"Pawtners\" hoping to break the inherent pattern of Hong Kong pet shop, So that each of the owners and pets can get rid of the rapid pace of life\n",
+        "category_list": [
+          {
+            "id": "188573091164316",
+            "name": "Pet Store"
+          }
         ],
-        "addr": "113 First Street, Sai Ying Pun",
-        "area": "00000 Hong Kong",
-        "email": "info@pawtners.com.hk",
-        "tel": "51601470"
+        "emails": [
+          "info@pawtners.com.hk"
+        ],
+        "single_line_address": "113 First Street, Sai Ying Pun, 00000 Hong Kong",
+        "website": "http://www.pawtners.com.hk"
       }
     },
     {

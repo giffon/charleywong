@@ -11,13 +11,21 @@
     {
       "url": "https://www.facebook.com/memehkdotcom/",
       "meta": {
-        "name": "謎米香港 memehk.com",
         "id": "568718043162016",
-        "about": "謎米香港。緊貼時事，分享生活。謎米香港，呼吸新聞空氣。",
-        "categories": [
-          "Media/News Company"
+        "username": "memehkdotcom",
+        "name": "謎米香港 memehk.com",
+        "about": "謎米香港。緊貼時事，分享生活。謎米香港，呼吸新聞空氣。\n\n",
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "info@memehk.com"
+        "emails": [
+          "info@memehk.com"
+        ],
+        "single_line_address": "九龍荔枝角長順街15號D2 Place TWO二期8樓",
+        "website": "http://news.memehk.com"
       }
     },
     {
