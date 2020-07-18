@@ -187,15 +187,29 @@ class Importer {
                 var sharedWith = [
                     for (img in postNode.querySelectorAll("img[width='12'][alt]"))
                         (cast img:ImageElement)
-                ].find(img -> switch (img.alt) {
-                    case "Public" | "Shared with Public": true;
-                    case "Custom" | "Shared with Custom": true;
-                    case _: false;
-                });
+                ]
+                    .map(img -> switch (img.alt) {
+                        case "Public" | "Shared with Public": "Public";
+                        case "Custom" | "Shared with Custom": "Custom";
+                        case _: null;
+                    })
+                    .find(v -> v != null);
+                if (sharedWith == null) {
+                    sharedWith = [
+                        for (i in postNode.querySelectorAll("i[role='img'][aria-label]"))
+                            (cast i:Element)
+                    ]
+                        .map(i -> switch (i.getAttribute("aria-label")) {
+                            case "Public" | "Shared with Public": "Public";
+                            case "Custom" | "Shared with Custom": "Custom";
+                            case _: null;
+                        })
+                        .find(v -> v != null);
+                }
                 return url.then(url -> postToServer(
                     if (sharedWith != null) {
                         url: url,
-                        sharedWith: sharedWith.alt.startsWith("Shared with ") ? sharedWith.alt.substr("Shared with ".length) : sharedWith.alt,
+                        sharedWith: sharedWith,
                     } else {
                         url: url,
                     }
