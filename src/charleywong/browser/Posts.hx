@@ -98,7 +98,7 @@ class Posts extends ReactComponent {
         }
     }
 
-    static function isFbPostEmbeddable(post:Post):Bool {
+    static function isPostEmbeddable(post:Post):Bool {
         if (post.meta == null)
             return true;
 
@@ -155,96 +155,103 @@ class Posts extends ReactComponent {
 
         var classes = ["post", "my-1", "text-center"];
 
-        var item = if (
-            (
+        var item = if (isPostEmbeddable(p)) {
+            if (
                 ~/^https:\/\/www\.facebook\.com\/[^\/]+\/(?:posts|photos|videos)\/.+$/.match(p.url) ||
                 ~/^https:\/\/www\.facebook.com\/photo\//.match(p.url) ||
                 ~/^https:\/\/www\.facebook.com\/permalink\.php\?story_fbid=[0-9]+&id=[0-9]+/.match(p.url)
-            )
-            && isFbPostEmbeddable(p)
-        ) {
-            classes.push("post-fb");
-            jsx('
-                <EmbeddedPost
-                    href=${p.url}
-                    showText=${true}
-                    width=${width}
-                />
-            ');
-        } else if (
-            p.url.startsWith("https://www.instagram.com/p/")
-        ) {
-            classes.push("post-ig");
-            jsx('
-                <MyInstagramEmbed
-                    url=${p.url}
-                    maxWidth=${width}
-                />
-            ');
-        } else if (
-            p.url.startsWith("https://www.youtube.com/watch?v=")
-        ) {
-            classes.push("post-yt");
-            var url = new URL(p.url);
-            var vid = url.searchParams.get("v");
-            jsx('
-                <div className="youtube-container">
-                    <iframe src=${'https://www.youtube.com/embed/$vid'} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen=${true}></iframe>
-                </div>
-            ');
-        } else if (
-            p.url.startsWith("https://t.me/")
-        ) {
-            classes.push("post-tg");
-            jsx('
-                <TelegramEmbed src=${p.url} />
-            ');
-        } else if (
-            p.url.startsWith("https://twitter.com/")
-        ) {
-            classes.push("post-twitter");
-            jsx('
-                <blockquote className="twitter-tweet"><a href=${p.url}>${prettyUrl(p.url)}</a></blockquote>
-            ');
-        } else {
-            if (p.meta != null && p.meta["og"] != null) {
-                classes.push("post-preview");
-                var og = p.meta["og"];
-                var title = ogProp(og, "og:title");
-                var image = '/proxy/image?post=' + p.url.urlEncode();
-                var siteName = ogProp(og, "og:site_name");
-                var published_time = ogProp(og, "article:published_time");
-
-                if (published_time == null)
-                    published_time = switch (p.meta["ld"]) {
-                        case null: null;
-                        case ld:
-                            ld.datePublished;
-                    }
-
-                if (published_time != null)
-                    published_time = published_time.substr(0,10);
-
+            ) {
+                classes.push("post-fb");
                 jsx('
-                    <a className="post-preview" href=${p.url}>
-                        <div className="card text-left">
-                            <img className="card-img-top" src=${image} alt=${title} />
-                            <div className="card-body">
-                                <h6 className="card-subtitle text-muted mb-2">${siteName}<span className="ml-2">${published_time}</span></h6>
-                                <h5 className="card-title mb-0">${title}</h5>
-                            </div>
-                        </div>
-                    </a>
+                    <EmbeddedPost
+                        href=${p.url}
+                        showText=${true}
+                        width=${width}
+                    />
+                ');
+            } else if (
+                p.url.startsWith("https://www.instagram.com/p/")
+            ) {
+                classes.push("post-ig");
+                jsx('
+                    <MyInstagramEmbed
+                        url=${p.url}
+                        maxWidth=${width}
+                    />
+                ');
+            } else if (
+                p.url.startsWith("https://www.youtube.com/watch?v=")
+            ) {
+                classes.push("post-yt");
+                var url = new URL(p.url);
+                var vid = url.searchParams.get("v");
+                jsx('
+                    <div className="youtube-container">
+                        <iframe src=${'https://www.youtube.com/embed/$vid'} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen=${true}></iframe>
+                    </div>
+                ');
+            } else if (
+                p.url.startsWith("https://t.me/")
+            ) {
+                classes.push("post-tg");
+                jsx('
+                    <TelegramEmbed src=${p.url} />
+                ');
+            } else if (
+                p.url.startsWith("https://twitter.com/")
+            ) {
+                classes.push("post-twitter");
+                jsx('
+                    <blockquote className="twitter-tweet"><a href=${p.url}>${prettyUrl(p.url)}</a></blockquote>
                 ');
             } else {
-                classes.push("post-link");
-                jsx('
-                    <Fragment>
-                        <a href=${p.url}>${prettyUrl(p.url)}</a>
-                        ${summary}
-                    </Fragment>
-                ');
+                if (p.meta != null && p.meta["og"] != null) {
+                    classes.push("post-preview");
+                    var og = p.meta["og"];
+                    var title = ogProp(og, "og:title");
+                    var image = '/proxy/image?post=' + p.url.urlEncode();
+                    var siteName = ogProp(og, "og:site_name");
+                    var published_time = ogProp(og, "article:published_time");
+
+                    if (published_time == null)
+                        published_time = switch (p.meta["ld"]) {
+                            case null: null;
+                            case ld:
+                                ld.datePublished;
+                        }
+
+                    if (published_time != null)
+                        published_time = published_time.substr(0,10);
+
+                    jsx('
+                        <a className="post-preview" href=${p.url}>
+                            <div className="card text-left">
+                                <img className="card-img-top" src=${image} alt=${title} />
+                                <div className="card-body">
+                                    <h6 className="card-subtitle text-muted mb-2">${siteName}<span className="ml-2">${published_time}</span></h6>
+                                    <h5 className="card-title mb-0">${title}</h5>
+                                </div>
+                            </div>
+                        </a>
+                    ');
+                } else {
+                    classes.push("post-link");
+                    jsx('
+                        <Fragment>
+                            <a href=${p.url}>${prettyUrl(p.url)}</a>
+                            ${summary}
+                        </Fragment>
+                    ');
+                }
             }
+        } else {
+            classes.push("post-link");
+            jsx('
+                <Fragment>
+                    <a href=${p.url}>${prettyUrl(p.url)}</a>
+                    ${summary}
+                </Fragment>
+            ');
         }
 
         return jsx('
