@@ -31,6 +31,22 @@
         "website": "http://www.facebook.com/mastermankitchen"
       },
       "url": "https://www.facebook.com/mastermankitchen/"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC8WsNQcqV6eMs4L8UiZ1PQg",
+      "meta": {
+        "id": "UC8WsNQcqV6eMs4L8UiZ1PQg",
+        "location": "Hong Kong",
+        "name": "Masterman Kitchen",
+        "about": "To share how i cook with love"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/mastermankitchen/",
+      "meta": {
+        "name": "Masterman KITCHEN",
+        "about": "a KOL who cooks tasty food to the world.\na Cooking Instructor who shares how to use your love and cook.\nFeel free to contact for any jobs."
+      }
     }
   ],
   "posts": [
@@ -39,6 +55,7 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "media"
   ]
 }
