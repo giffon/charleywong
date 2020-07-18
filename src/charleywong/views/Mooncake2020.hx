@@ -346,6 +346,19 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/lybakeryltd"
         },
         {
+            "name": "黄到金奶黄月餅",
+            "note": "壹點盅 x Feeder x S2",
+            "types": [
+                "奶黃月餅",
+                "咸蛋黄奶黄月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/101295394620152/photos/a.117850019631356/282530903163266"
+            ],
+            "charleywong": "https://charleywong.giffon.io/list/%E9%BB%84%E5%88%B0%E9%87%91%E5%A5%B6%E9%BB%84%E6%9C%88%E9%A4%85/one_1p.m+Feederhk+s2_homemade_dessert"
+        },
+        {
             "name": "大班麵包西餅",
             "note": "",
             "types": [
