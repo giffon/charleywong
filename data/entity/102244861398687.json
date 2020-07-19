@@ -7,14 +7,27 @@
     {
       "url": "https://www.facebook.com/102244861398687/",
       "meta": {
-        "name": "除蟎易",
         "id": "102244861398687",
-        "about": "你想唔想瞓一張潔淨的床？？",
-        "categories": [
-          "Cleaning Service"
+        "username": "KOMEservice",
+        "name": "除蟎易",
+        "about": "《除蟎易》床褥除蟎清潔專家",
+        "category_list": [
+          {
+            "id": "186564191378474",
+            "name": "Cleaning Service"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2220",
+            "name": "Household Supplies"
+          }
         ],
-        "email": "kome.service@gmail.com",
-        "tel": "96598098"
+        "emails": [
+          "kome.service@gmail.com"
+        ]
       }
     }
   ],

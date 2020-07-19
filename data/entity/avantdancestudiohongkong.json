@@ -10,18 +10,29 @@
     {
       "url": "https://www.facebook.com/avantdancestudiohongkong/",
       "meta": {
-        "name": "Avant Dance Studio Hong Kong",
         "id": "365301513933629",
+        "username": "avantdancestudiohongkong",
+        "name": "Avant Dance Studio Hong Kong",
         "about": "Avant Dance Studios understands adult's concerns over their physique, stamina and flexibility. Our classes are specially designed to cater to the needs of adult ballet students. \n\nBook your class here: https://www.avantdancestudio.com/booking-form",
-        "categories": [
-          "Dance Studio",
-          "Dance School",
-          "Dancer"
+        "category_list": [
+          {
+            "id": "203916779633178",
+            "name": "Dance Studio"
+          },
+          {
+            "id": "1554062478223469",
+            "name": "Dance School"
+          },
+          {
+            "id": "1614",
+            "name": "Dancer"
+          }
         ],
-        "addr": "801C, Harbour Centre Tower 1, 1 Hok Cheung Street, Hung Hom, Hong Kong",
-        "area": "HK Hung Hom",
-        "email": "info@avantdancestudio.com",
-        "tel": "56876020"
+        "emails": [
+          "info@avantdancestudio.com"
+        ],
+        "single_line_address": "801C, Harbour Centre Tower 1, 1 Hok Cheung Street, Hung Hom, Hong Kong, HK Hung Hom",
+        "website": "www.avantdancestudio.com"
       }
     },
     {

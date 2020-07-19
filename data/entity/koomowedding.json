@@ -9,14 +9,21 @@
     },
     {
       "meta": {
-        "name": "Koomo Wedding",
         "id": "640015202686981",
+        "username": "koomowedding",
+        "name": "Koomo Wedding",
         "about": "Koomo Wedding\n攝影服務！！歡迎電話/whatsapp查詢91550906-Anson :)",
-        "categories": [
-          "Photographer",
-          "Wedding Planning Service"
+        "category_list": [
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          }
         ],
-        "tel": "91550906"
+        "website": "http://www.koomo-studio.com"
       },
       "url": "https://www.facebook.com/koomowedding/"
     },

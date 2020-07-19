@@ -7,15 +7,16 @@
     {
       "url": "https://www.facebook.com/542591305867067/",
       "meta": {
-        "name": "潮成園手打魚蛋大王",
         "id": "542591305867067",
+        "name": "潮成園手打魚蛋大王",
         "about": "提供價廉物美的美食粉麵，飲品",
-        "categories": [
-          "Bunsik Restaurant"
+        "category_list": [
+          {
+            "id": "533990753451464",
+            "name": "Bunsik Restaurant"
+          }
         ],
-        "addr": "旺角通菜街109號",
-        "area": "Hong Kong",
-        "tel": "27841898"
+        "single_line_address": "旺角通菜街109號, Hong Kong"
       }
     }
   ],

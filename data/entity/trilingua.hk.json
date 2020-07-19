@@ -10,12 +10,17 @@
     {
       "url": "https://www.facebook.com/trilingua.hk/",
       "meta": {
-        "name": "Trilingua Design",
         "id": "224645265996",
+        "username": "trilingua.hk",
+        "name": "Trilingua Design",
         "about": "香港設計",
-        "categories": [
-          "Company"
-        ]
+        "category_list": [
+          {
+            "id": "2200",
+            "name": "Company"
+          }
+        ],
+        "website": "http://www.trilingua.hk/"
       }
     },
     {

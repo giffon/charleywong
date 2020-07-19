@@ -10,17 +10,24 @@
     },
     {
       "meta": {
-        "name": "童行森林學院 Myforestfun Academy",
         "id": "357044664736873",
+        "name": "童行森林學院 Myforestfun Academy",
         "about": "透過專業森林課程顧問，發展全港首個以戶外教育為媒介的價值教育課程。",
-        "categories": [
-          "Event Planner",
-          "Education"
+        "category_list": [
+          {
+            "id": "193705277324704",
+            "name": "Event Planner"
+          },
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "addr": "元朗流浮山深灣路",
-        "area": "Yuen Long",
-        "email": "cs@myforestfun.com",
-        "tel": "98533153"
+        "emails": [
+          "info@myforestfun.com"
+        ],
+        "single_line_address": "元朗流浮山深灣路, Yuen Long",
+        "website": "www.myforestfun.com"
       },
       "url": "https://www.facebook.com/357044664736873/"
     },

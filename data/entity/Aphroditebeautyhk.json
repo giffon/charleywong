@@ -8,16 +8,19 @@
     {
       "url": "https://www.facebook.com/Aphroditebeautyhk/",
       "meta": {
-        "name": "惜美富粥 Aphrodite Beauty",
         "id": "1450874334978588",
-        "about": "",
-        "categories": [
-          "Beauty, cosmetic & personal care"
+        "username": "Aphroditebeautyhk",
+        "name": "惜美富粥 Aphrodite Beauty",
+        "category_list": [
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "addr": "香港筲箕灣南康街4號都富大廈A1地鋪",
-        "area": "00000 Hong Kong",
-        "email": "aphrodite.beauty@outlook.com",
-        "tel": "54044525"
+        "emails": [
+          "aphrodite.beauty@outlook.com"
+        ],
+        "single_line_address": "香港筲箕灣南康街4號都富大廈A1地鋪, 00000 Hong Kong"
       }
     }
   ],

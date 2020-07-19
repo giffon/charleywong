@@ -14,15 +14,20 @@
     {
       "url": "https://www.facebook.com/voidcamerashop/",
       "meta": {
-        "name": "Voidlens -film camera store-",
         "id": "360233144394051",
-        "categories": [
-          "Camera Store"
+        "username": "voidcamerashop",
+        "name": "Voidlens -film camera store-",
+        "category_list": [
+          {
+            "id": "442121929137652",
+            "name": "Camera Store"
+          }
         ],
-        "addr": "高円寺北3-2-12",
-        "area": "Suginami 166-0002",
-        "email": "voidlenstokyo@gmail.com",
-        "tel": "819089721983"
+        "emails": [
+          "voidlenstokyo@gmail.com"
+        ],
+        "single_line_address": "高円寺北3-2-12, Suginami 166-0002",
+        "website": "https://www.instagram.com/voidlens/"
       }
     },
     {

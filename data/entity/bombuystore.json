@@ -10,12 +10,16 @@
     {
       "url": "https://www.facebook.com/bombuystore/",
       "meta": {
-        "name": "BomBuy",
         "id": "369538260322667",
-        "categories": [
-          "Shopping & Retail"
+        "username": "bombuystore",
+        "name": "BomBuy",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "tel": "60246188"
+        "website": "bombuystore.com"
       }
     },
     {

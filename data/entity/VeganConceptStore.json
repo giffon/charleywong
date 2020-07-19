@@ -17,14 +17,29 @@
     {
       "url": "https://www.facebook.com/VeganConceptStore/",
       "meta": {
-        "name": "Vegan Concept",
         "id": "108027032917700",
+        "username": "VeganConceptStore",
+        "name": "Vegan Concept",
         "about": "首間純素生活店，主要在亞洲地區售賣「純素」及「零殘忍」美容及營養補充品。我們相信美麗和健康，不需犧牲動物！",
-        "categories": [
-          "Health/Beauty"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
         ],
-        "email": "info@theveganconcept.com",
-        "tel": "97985063"
+        "emails": [
+          "info@theveganconcept.com"
+        ],
+        "single_line_address": "香港觀塘駿業里8號 世貿大樓9樓905室, Kwun Tong",
+        "website": "https://www.theveganconcept.com/zh-TW"
       }
     }
   ],

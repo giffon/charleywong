@@ -8,14 +8,24 @@
     {
       "url": "https://www.facebook.com/loy.diary/",
       "meta": {
-        "name": "施德來的日記簿",
         "id": "101392058188314",
+        "username": "loy.diary",
+        "name": "施德來的日記簿",
         "about": "日記簿載著生活中遇上的人、事、物，我的成長經歷，與同路人一起生命影響生命\n\nhttps://www.facebook.com/szetakloy",
-        "categories": [
-          "Personal Blog",
-          "Community"
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "sze@adpl.org.hk"
+        "emails": [
+          "sze@adpl.org.hk"
+        ],
+        "single_line_address": "黃大仙東頭村道 183號 東頭邨偉東樓 地下 11B 號「施德來議員辦事處」"
       }
     },
     {
