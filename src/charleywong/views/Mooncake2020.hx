@@ -407,6 +407,18 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/micmiccooking"
         },
         {
+            "name": "FairTaste 細味公平",
+            "note": "",
+            "types": [
+                "低糖蓮蓉月"
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/FAIRTASTE/posts/10158588105710168"
+            ],
+            "charleywong": "https://charleywong.giffon.io/FAIRTASTE"
+        },
+        {
             "name": "Uncle MuSang 貓山大叔",
             "note": "",
             "types": [
