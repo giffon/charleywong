@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "https://aniceplaceto.com"
+    },
+    {
       "meta": {
         "id": "713766125344757",
         "username": "niceplaceto",
@@ -32,6 +35,13 @@
         "website": "https://aniceplaceto.com"
       },
       "url": "https://www.facebook.com/niceplaceto/"
+    },
+    {
+      "url": "https://www.instagram.com/aniceplaceto/",
+      "meta": {
+        "name": "a nice place to",
+        "about": "select shop | workshop | flea market | venue rental\n🕰 fri-sun 1-7pm\n📮G/F,2 Chung Ching Street,Sai Ying Pun\n🚇 Sai Ying Pun Exit B3\n#aniceplaceto #小生活市集"
+      }
     }
   ],
   "posts": [
@@ -44,5 +54,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01852"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, 2 Chung Ching Street, Sai Ying Pun"
+      },
+      "googleMapsPlaceId": "ChIJJQuB4YD_AzQRpKGScFSMyLo",
+      "coordinates": {
+        "lat": 22.287288,
+        "lng": 114.141136
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }
