@@ -395,6 +395,18 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/list/%E9%A6%99%E8%8F%9C%E6%9C%88%E9%A4%85/mr.coriander.hk+an_autumn_night+diontheeater"
         },
         {
+            "name": "Mic Mic Cooking",
+            "note": "",
+            "types": [
+                "奶皇流心月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.instagram.com/p/CCiSR1gA5yx/"
+            ],
+            "charleywong": "https://charleywong.giffon.io/micmiccooking"
+        },
+        {
             "name": "Uncle MuSang 貓山大叔",
             "note": "",
             "types": [
