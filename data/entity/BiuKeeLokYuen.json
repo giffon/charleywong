@@ -31,7 +31,10 @@
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/groups/407801399869589/permalink/463143487668713/"
+      "url": "https://www.facebook.com/groups/407801399869589/permalink/463143487668713/",
+      "meta": {
+        "embeddable": false
+      }
     },
     {
       "url": "https://www.facebook.com/BiuKeeLokYuen/posts/4129728410401286",
@@ -56,6 +59,19 @@
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "深水埗福華街149號地舖"
+      },
+      "googleMapsPlaceId": "ChIJWfu35lEBBDQRctVO42cwly8",
+      "coordinates": {
+        "lat": 22.3312429,
+        "lng": 114.162498
+      },
+      "area": {
+        "zh": "深水埗區"
       }
     }
   ],
