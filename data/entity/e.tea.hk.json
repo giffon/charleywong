@@ -57,7 +57,9 @@
   "yellowBlueMapIds": [
     "Y_EAT00262",
     "Y_EAT00263",
-    "Y_EAT00264"
+    "Y_EAT00264",
+    "Y_EAT02412",
+    "Y_EAT02424"
   ],
   "places": [
     {
@@ -110,6 +112,32 @@
       },
       "area": {
         "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "粉嶺新運路38號祥華市場地下6號舖"
+      },
+      "googleMapsPlaceId": "ChIJ6axpnh_2AzQR-OvBW-JXFAo",
+      "coordinates": {
+        "lat": 22.4932705,
+        "lng": 114.1404578
+      },
+      "area": {
+        "zh": "北區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大角咀富榮花園二期04室"
+      },
+      "googleMapsPlaceId": "ChIJFaAPuL4ABDQRkPi1gjpzZ8I",
+      "coordinates": {
+        "lat": 22.314823,
+        "lng": 114.163222
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     }
   ]
