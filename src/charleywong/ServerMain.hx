@@ -174,26 +174,64 @@ class ServerMain {
         });
     }
 
-    static function getEntityPic(e:Entity, width:Float):Promise<Buffer> {
-        for (p in e.webpages) {
-            switch (new URL(p.url)) {
+    static function getOgImage(url:String) {
+        return Utils.getMeta(url)
+            .then(meta -> {
+                switch (meta.og.find(og -> og.property == "og:image")) {
+                    case null:
+                        throw "no og:image";
+                    case {content: ogImageUrl}:
+                        Fetch.fetch(ogImageUrl)
+                            .then(r -> if (!r.ok) {
+                                throw r.status;
+                            } else {
+                                r.buffer();
+                            });
+                }
+            });
+    }
+
+    static function getPic(profileUrls:Array<String>, width:Int) {
+        for (i => url in profileUrls) {
+            switch (new URL(url)) {
                 case extractFbHomePage(_) => fb if (fb != null):
                     return Fetch.fetch('https://graph.facebook.com/${Facebook.apiVersion}/${fb}/picture?type=square&width=${width}&height=${width}')
-                        .then(r -> if (r.status == 404){
-                            getPicOfText(e.name[en]);
+                        .then(r -> if (!r.ok) {
+                            throw r.status;
                         } else if (r.url.endsWith(".gif")) {
-                            getPicOfText(e.name[en]);
+                            throw "no profile pic set";
                         } else {
                             r.buffer();
                         })
                         .catchError(err -> {
-                            trace(err);
-                            noProfilePic;
+                            getPic(profileUrls.slice(i+1), width);
+                        });
+                case extractIgProfilePage(_) => p if (p != null):
+                    return getOgImage(url)
+                        .catchError(err -> {
+                            getPic(profileUrls.slice(i+1), width);
+                        });
+                case extractTelegramProfile(_) => p if (p != null):
+                    return getOgImage(url)
+                        .catchError(err -> {
+                            getPic(profileUrls.slice(i+1), width);
                         });
                 case _: //pass
             }
         }
-        return getPicOfText(e.name[en]);
+        return Promise.reject(null);
+    }
+
+    static function getEntityPic(e:Entity, width:Int):Promise<Buffer> {
+        var webpages = e.webpages.map(p -> p.url);
+        // prefer facebook profile pic
+        webpages.sort((a,b) -> switch [a.startsWith("https://www.facebook.com/"), b.startsWith("https://www.facebook.com/")] {
+            case [true, false]: -1;
+            case [false, true]: 1;
+            case _: 0;
+        });
+        return getPic(webpages, width)
+            .catchError(err -> getPicOfText(e.name[en]));
     }
 
     static public final entityProfilePicWidth = 1200;

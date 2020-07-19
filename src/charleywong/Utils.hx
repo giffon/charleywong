@@ -1,7 +1,14 @@
 package charleywong;
 
+import haxe.*;
 import tink.core.*;
 using StringTools;
+
+#if nodejs
+import js.lib.Promise;
+import js.html.MetaElement;
+import js.npm.jsdom.*;
+#end
 
 class Utils {
     static public function prettyUrl(url:String):String {
@@ -13,6 +20,46 @@ class Utils {
         };
         return shortUrl.urlDecode();
     }
+
+    #if nodejs
+    static public function getMeta(url:String):Promise<{
+        og:Array<{property:String, content:String}>,
+        ld:Dynamic,
+    }> {
+        return js.npm.fetch.Fetch.fetch(url)
+            .then(r ->
+                if (!r.ok)
+                    r.text().then(text ->
+                        throw '${r.status} ${r.statusText}\n${text}'
+                    );
+                else
+                    r.text()
+            )
+            .then(text -> {
+                var doc = new JSDOM(text, {
+                    virtualConsole: new VirtualConsole(),
+                }).window.document;
+                var og:Array<{property:String, content:String}> = [];
+                for (meta in doc.querySelectorAll("meta[property^='og:'],meta[property^='article:']")) {
+                    var meta:MetaElement = cast meta;
+                    og.push({
+                        property: meta.getAttribute("property"),
+                        content: meta.content,
+                    });
+                }
+                var ld = try {
+                    Json.parse(doc.querySelector("script[type='application/ld+json']").textContent);
+                } catch (e) {
+                    null;
+                }
+
+                {
+                    og: og,
+                    ld: ld,
+                };
+            });
+    }
+    #end
 
     #if nodejs
     static public function isUrlAccessible(url:String):js.lib.Promise<Int> {

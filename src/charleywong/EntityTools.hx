@@ -38,38 +38,13 @@ class EntityTools {
         ) {
             Promise.resolve(p);
         } else {
-            Fetch.fetch(p.url)
-                .then(r ->
-                    if (!r.ok)
-                        r.text().then(text ->
-                            throw '${r.status} ${r.statusText}\n${text}'
-                        );
-                    else
-                        r.text()
-                )
-                .then(text -> {
-                    var doc = new JSDOM(text, {
-                        virtualConsole: new VirtualConsole(),
-                    }).window.document;
-                    var og:Array<{property:String, content:String}> = [];
-                    for (meta in doc.querySelectorAll("meta[property^='og:'],meta[property^='article:']")) {
-                        var meta:MetaElement = cast meta;
-                        og.push({
-                            property: meta.getAttribute("property"),
-                            content: meta.content,
-                        });
-                    }
-                    var ld = try {
-                        Json.parse(doc.querySelector("script[type='application/ld+json']").textContent);
-                    } catch (e) {
-                        null;
-                    }
+            Utils.getMeta(p.url)
+                .then(meta -> {
                     var p = Reflect.copy(p);
                     if (p.meta == null)
                         p.meta = {};
-                    p.meta["og"] = og;
-                    if (ld != null)
-                        p.meta["ld"] = ld;
+                    p.meta["og"] = meta.og;
+                    p.meta["ld"] = meta.ld;
                     p;
                 })
                 .catchError(e -> {
