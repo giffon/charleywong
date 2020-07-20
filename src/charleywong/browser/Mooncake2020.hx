@@ -16,7 +16,7 @@ extern class Masonry extends ReactComponent {}
 
 enum abstract MooncakeType(String) {
     var AnyMooncake = "任何款式";
-    var LotusSeedPasteWithYolks = "蛋黃蓮蓉";
+    var LotusSeedPaste = "蓮蓉";
     var EggCustard = "奶黃";
     var SnowSkin = "冰皮";
     var Nuts = "五仁/花生/榛子/果仁";
@@ -26,6 +26,7 @@ enum abstract MooncakeType(String) {
     var Matcha = "抹茶";
     var Beans = "紅豆/豆沙/綠豆蓉";
     var Mocha = "朱古力咖啡";
+    var Pineapple = "鳳梨";
     var Coriander = "香菜(芫荽)";
     var Vegan = "純素";
 }
@@ -73,7 +74,7 @@ class Mooncake2020 extends ReactComponent {
         return switch (type) {
             case AnyMooncake:
                 true;
-            case LotusSeedPasteWithYolks:
+            case LotusSeedPaste:
                 mooncakeName.contains("蓮蓉");
             case EggCustard:
                 mooncakeName.contains("奶黃") || mooncakeName.contains("奶皇");
@@ -92,7 +93,9 @@ class Mooncake2020 extends ReactComponent {
             case Beans:
                 mooncakeName.contains("紅豆") || mooncakeName.contains("豆沙") || mooncakeName.contains("綠豆蓉");
             case Mocha:
-                mooncakeName.contains("朱古力咖啡");
+                mooncakeName.contains("朱古力咖啡") || mooncakeName.contains("摩卡咖啡");
+            case Pineapple:
+                mooncakeName.contains("鳳梨");
             case Coriander:
                 mooncakeName.contains("香菜");
             case Vegan:
@@ -263,8 +266,8 @@ class Mooncake2020 extends ReactComponent {
                             <MenuItem value=${AnyMooncake}>
                                 ${AnyMooncake}
                             </MenuItem>
-                            <MenuItem value=${LotusSeedPasteWithYolks}>
-                                ${LotusSeedPasteWithYolks}
+                            <MenuItem value=${LotusSeedPaste}>
+                                ${LotusSeedPaste}
                             </MenuItem>
                             <MenuItem value=${EggCustard}>
                                 ${EggCustard}
@@ -292,6 +295,9 @@ class Mooncake2020 extends ReactComponent {
                             </MenuItem>
                             <MenuItem value=${Mocha}>
                                 ${Mocha}
+                            </MenuItem>
+                            <MenuItem value=${Pineapple}>
+                                ${Pineapple}
                             </MenuItem>
                             <MenuItem value=${Coriander}>
                                 ${Coriander}

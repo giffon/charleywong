@@ -409,11 +409,14 @@ class Mooncake2020 extends View {
             "name": "FairTaste 細味公平",
             "note": "",
             "types": [
-                "低糖蓮蓉月"
+                "鳳梨蛋黃月餅",
+                "伊予柑豆沙蛋黃月餅",
+                "摩卡咖啡蓮蓉月餅",
+                "低糖蛋黃蓮蓉月餅",
             ],
             "current": true,
             "info": [
-                "https://www.facebook.com/FAIRTASTE/posts/10158588105710168"
+                "https://www.facebook.com/FAIRTASTE/posts/10158608733415168"
             ],
             "charleywong": "https://charleywong.giffon.io/FAIRTASTE"
         },
