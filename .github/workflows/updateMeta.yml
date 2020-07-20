@@ -25,7 +25,7 @@ jobs:
       - name: Install libraries
         run: |
           set -ex
-          npm install
+          yarn
           bash build-dclookup.sh
           haxelib newrepo
           haxelib install syncFacebook.hxml --always -notimeout
