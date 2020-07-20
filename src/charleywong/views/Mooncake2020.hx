@@ -421,6 +421,20 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/FAIRTASTE"
         },
         {
+            "name": "B.K Bakery",
+            "note": "",
+            "types": [
+                "流心奶黃月餅",
+                "抹茶流心奶皇月餅",
+                "柚子奶黃月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/permalink.php?story_fbid=174625954037436&id=101671684666197"
+            ],
+            "charleywong": "https://charleywong.giffon.io/b.k_bakery"
+        },
+        {
             "name": "Uncle MuSang 貓山大叔",
             "note": "",
             "types": [
