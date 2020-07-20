@@ -30,11 +30,39 @@
         "single_line_address": "銅鑼灣駱克道397號地舖, 852 Hong Kong"
       },
       "url": "https://www.facebook.com/midnightwildfire.hk/"
+    },
+    {
+      "url": "https://www.instagram.com/midnightwildfire.hk/",
+      "meta": {
+        "name": "深燒酒",
+        "about": "銅鑼灣駱克道397號"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/midnightwildfire.hk/posts/2667174203348400"
+      "url": "https://www.facebook.com/midnightwildfire.hk/posts/2662600897139064",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/midnightwildfire.hk/posts/2761837480548738",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/midnightwildfire.hk/posts/2937421352990349",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/midnightwildfire.hk/posts/3107187386013744",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
@@ -42,5 +70,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00283"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣駱克道397號地舖"
+      },
+      "googleMapsPlaceId": "ChIJg-PRU1cABDQRoxd2amCdUTQ",
+      "coordinates": {
+        "lat": 22.279728,
+        "lng": 114.1801361
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
