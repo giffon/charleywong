@@ -128,6 +128,6 @@ class Git {
 
     // https://stackoverflow.com/a/5737794/267998
     public function hasChanges():Bool {
-        return run(["status", "--porcelain"]).trim() == "";
+        return run(["status", "--porcelain"]).trim() != "";
     }
 }
