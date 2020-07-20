@@ -20,17 +20,36 @@
             "name": "Diner"
           }
         ],
-        "single_line_address": "九龍美景街50號地下, Kowloon, Hong Kong"
+        "single_line_address": "九龍美景街50號地下, 九龍"
       },
       "url": "https://www.facebook.com/kamlodessert/"
+    },
+    {
+      "url": "https://www.instagram.com/kam_lo_dessert/",
+      "meta": {
+        "name": "甘露甜品",
+        "about": "歡迎大家Follow~\n本店1983年開業至今。\n位於土瓜灣美景街的一間傳統中式糖水小食店。😋\n為大家帶來從前街邊小食的童年回憶👍🏻\n平靚正！！！\n地址：土瓜灣美景街50號\n香港人加油🇭🇰"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/kamlodessert/photos/a.1092449620797408/3467178933324453"
+      "url": "https://www.facebook.com/kamlodessert/posts/3276071322435216",
+      "meta": {
+        "sharedWith": "Public"
+      }
     },
     {
-      "url": "https://www.facebook.com/kamlodessert/posts/3276071322435216"
+      "url": "https://www.facebook.com/kamlodessert/posts/3470604189648594",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/kamlodessert/posts/3608191839223161",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
@@ -38,5 +57,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01012"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍美景街50號地下"
+      },
+      "googleMapsPlaceId": "ChIJgxDg-NcABDQR_qM5WEW8Q94",
+      "coordinates": {
+        "lat": 22.316937,
+        "lng": 114.191027
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
   ]
 }
