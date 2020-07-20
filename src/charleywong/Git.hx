@@ -23,6 +23,8 @@ class Git {
         this.config = config != null ? config : {};
     }
 
+    var lastRunExitCode:Int = null;
+
     public function run(args:Array<String>):String {
         if (config.printCmd == true)
             Sys.println('git ${args.map(haxe.SysTools.quoteUnixArg).join(" ")}');
@@ -42,13 +44,15 @@ class Git {
             encoding: 'utf8',
         })) {
             case {status: status, error: error, stderr: stderr, stdout: stdout} if (status != 0):
+                lastRunExitCode = status;
                 if (error != null)
                     throw error;
                 else if (stderr != null && (stderr:String).trim() != "")
                     throw stderr;
                 else
                     throw stdout;
-            case {stdout: stdout}:
+            case {status: status, stdout: stdout}:
+                lastRunExitCode = status;
                 return stdout;
         }
         #else
@@ -61,7 +65,7 @@ class Git {
         }
         var p = new Process("git", args);
         var out = p.stdout.readAll().toString();
-        if (p.exitCode() != 0) {
+        if ((lastRunExitCode = p.exitCode()) != 0) {
             var err = p.stderr.readAll().toString();
             p.close();
             throw err;
@@ -120,5 +124,10 @@ class Git {
             args.push('--${opts.mode}');
         args.push(ref);
         run(args);
+    }
+
+    // https://stackoverflow.com/a/5737794/267998
+    public function hasChanges():Bool {
+        return run(["status", "--porcelain"]).trim() == "";
     }
 }

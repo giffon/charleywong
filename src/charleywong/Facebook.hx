@@ -160,15 +160,17 @@ class Facebook {
 
         updateOldest()
             .then(_ -> {
-                git.commit("update fb meta", { gpgSign: gpgKey });
-                git.rebase("origin/master");
-                git.reset("origin/master", { mode: "soft" });
-                git.commit("update fb meta", { gpgSign: gpgKey });
-                git.push(repo, "HEAD:" + branch, { force: true });
+                if (git.hasChanges()) {
+                    git.commit("update fb meta", { gpgSign: gpgKey });
+                    git.rebase("origin/master");
+                    git.reset("origin/master", { mode: "soft" });
+                    git.commit("update fb meta", { gpgSign: gpgKey });
+                    git.push(repo, "HEAD:" + branch, { force: true });
+                }
             })
             .catchError(err -> {
-                trace(err);
-                throw err;
+                Sys.println(Std.string(err));
+                Sys.exit(1);
             });
     }
 
