@@ -138,9 +138,8 @@ class Mooncake2020 extends View {
             ],
             "current": true,
             "info": [
-                "https://www.facebook.com/wahyeetangcakeshop/posts/3083504785100773",
-                "https://www.facebook.com/wahyeetangcakeshop/posts/3115202028597715",
-                "https://www.facebook.com/wahyeetangcakeshop/posts/3118326924951892"
+                "https://www.facebook.com/wahyeetangcakeshop/posts/3139814302803154",
+                "https://www.facebook.com/wahyeetangcakeshop/posts/3141872769263974"
             ],
             "charleywong": "https://charleywong.giffon.io/wahyeetangcakeshop"
         },
