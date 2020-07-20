@@ -9,7 +9,6 @@ using Lambda;
 enum abstract Sheet(String) to String {
     var info;
     var index;
-    var webpages;
     var places;
     var ybm_not_in_charley;
     var data;
@@ -80,74 +79,45 @@ class ExportSpreadsheet {
         var sheet = doc.sheetsByIndex.find(s -> s.title == places);
         return sheet.clear()
             .then(_ -> sheet.loadCells())
-            .then(_ -> sheet.setHeaderRow(["id", "name_en", "name_zh", "url_charleywong", "tags", "places"]))
+            .then(_ -> sheet.setHeaderRow(["charleywong", "name", "tags", "places"]))
             .then(function(_){
-                var data = [
+                var rows = [
                     for (e in entityIndex.entities)
-                    {
-                        id: e.id,
-                        name_en: e.name[en],
-                        name_zh: e.name[zh],
-                        url_charleywong: 'https://charleywong.giffon.io/${e.id}',
-                        tags: Tag.expend(e.tags).join(" ")
-                    }
-                ];
-                var rows = [];
-                for (d in data) {
-                    rows.push(d);
-                    rows.push({
-                        id: null,
-                        name_en: null,
-                        name_zh: null,
-                        url_charleywong: null,
-                        tags: null,
-                    });
-                }
-                var sheetRows = sheet.addRows(rows);
-                return sheetRows
-                    .then(_ -> sheet.resize({
-                        rowCount: rows.length + 1,
-                        columnCount: sheet.columnCount,
-                    }))
-                    .then(_ -> sheet.loadCells())
-                    .then(_ -> sheetRows);
-            })
-            .then(function(rows){
-                for (row in rows) {
-                    var id = row.id;
-                    var e = entityIndex.entitiesOfId[id];
-                    if (e != null) {
-                        if (e.places != null) {
-                            setCellRow(sheet, row.rowNumber - 1, 5, e.places.map(p -> p.googleMapsPlaceId));
-                            setCellRow(sheet, row.rowNumber, 5, e.places.map(p -> p.address == null ? null : p.address.printAll()));
-                        } else {
-                            var addresses:Array<String> = [
-                                for (p in e.webpages) if (p.meta != null) switch (p.meta["addr"]) {
+                    [
+                        '=HYPERLINK("https://charleywong.giffon.io/${e.id}", "${e.id}")',
+                        e.name.printAll(),
+                        Tag.expend(e.tags).join(" "),
+                    ].concat(
+                        if (e.places != null)
+                            [
+                                for (p in e.places)
+                                if (p.address != null)
+                                (p.googleMapsPlaceId != null ? p.googleMapsPlaceId + ";" : "") + p.address.printAll()
+                            ]
+                        else
+                            [
+                                for (p in e.webpages) switch (cast p.meta:{ ?addr:String, ?single_line_address:String }) {
                                     case null:
                                         null;
-                                    case addr:
+                                    case { addr: addr } if (addr != null):
                                         addr;
+                                    case { single_line_address: addr } if (addr != null):
+                                        addr;
+                                    case _:
+                                        null;
                                 }
-                            ].filter(v -> v != null);
-                            setCellRow(sheet, row.rowNumber, 5, addresses);
-                        }
-                    }
-                }
-                return sheet.saveUpdatedCells();
-            });
-    }
-
-    static function populateWebpages(doc:GoogleSpreadsheet) {
-        var sheet = doc.sheetsByIndex.find(s -> s.title == webpages);
-        return sheet.clear()
-            .then(function(_){
-                return sheet.setHeaderRow(["id", "url"]);
+                            ].filter(v -> v != null)
+                    )
+                ];
+                return sheet.addRows(rows);
             })
-            .then(function(_){
-                return sheet.addRows([
-                    for (e in entityIndex.entities)
-                    [e.id].concat(e.webpages.map(p -> p.url))
-                ]);
+            .then(_ -> sheet.loadCells("A2:A"))
+            .then(_ -> {
+                for (row in 1...sheet.rowCount) {
+                    var cell = sheet.getCell(row, 0);
+                    cell.hyperlinkDisplayType = "LINKED";
+                }
+                sheet.saveUpdatedCells();
             });
     }
 
@@ -277,7 +247,6 @@ class ExportSpreadsheet {
                     // .then(_ -> importGoogleMapsPlaceIds());
                     .then(_ -> populateYBM(doc))
                     .then(_ -> populateIndex(doc))
-                    .then(_ -> populateWebpages(doc))
                     .then(_ -> populatePlaces(doc))
                     .then(_ -> updateLastUpdateDate(doc));
             case "1":
