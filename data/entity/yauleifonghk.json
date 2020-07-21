@@ -22,6 +22,13 @@
         "single_line_address": "九龍新蒲崗康強街21號地下, Hong Kong"
       },
       "url": "https://www.facebook.com/yauleifonghk/"
+    },
+    {
+      "url": "https://www.instagram.com/yauleifonghk/",
+      "meta": {
+        "name": "Yau Lei Fong 友利坊",
+        "about": "歡迎查詢或訂位:\n📞 +852 23386830\n📱 +852 61870018\n📍 九龍新蒲崗康強街21號地下\n🖥 FB: 友利坊 (@yauleifonghk ) #友利坊"
+      }
     }
   ],
   "posts": [
@@ -40,5 +47,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT01521"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍新蒲崗康強街21號地下"
+      },
+      "googleMapsPlaceId": "ChIJraNAKEkHBDQRbmS5o4ibxeE",
+      "coordinates": {
+        "lat": 22.3346077,
+        "lng": 114.1973136
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
   ]
 }
