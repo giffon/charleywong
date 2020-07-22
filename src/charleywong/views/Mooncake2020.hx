@@ -435,6 +435,18 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/b.k_bakery"
         },
         {
+            "name": "Kidultland",
+            "note": "",
+            "types": [
+                "奶黃月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/permalink.php?story_fbid=1719920428157463&id=1233932176756293"
+            ],
+            "charleywong": "https://charleywong.giffon.io/kidultland_cake_hk"
+        },
+        {
             "name": "Uncle MuSang 貓山大叔",
             "note": "",
             "types": [
