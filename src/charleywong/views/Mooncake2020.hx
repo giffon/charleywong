@@ -550,6 +550,16 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/cakebaseshekmun"
         },
         {
+            "name": "二德惠烘焙DIY專門店",
+            "note": "月餅材料工具",
+            "types": [],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/Twins.Baking.Supplies/posts/2571994649778136"
+            ],
+            "charleywong": "https://charleywong.giffon.io/Twins.Bakery.Supplies"
+        },
+        {
             "name": "烘焙便利店",
             "note": "月餅材料工具",
             "types": [],
