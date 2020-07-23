@@ -151,7 +151,8 @@ class Mooncake2020 extends View {
             ],
             "current": true,
             "info": [
-                "https://www.facebook.com/w.boysfruitstore/posts/3607157475964279"
+                "https://www.facebook.com/w.boysfruitstore/posts/3607157475964279",
+                "https://www.facebook.com/w.boysfruitstore/posts/3656881080991918"
             ],
             "charleywong": "https://charleywong.giffon.io/w.boysfruitstore"
         },
