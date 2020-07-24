@@ -299,12 +299,21 @@ class Mooncake2020 extends View {
             "name": "土作坊",
             "note": "",
             "types": [
-                "蛋黃蓮蓉月餅",
-                "冰皮月餅"
+                "紫薯蛋黃月餅",
+                "白蓮蓉蛋黃月餅",
+                "紅豆蛋黃月餅",
+                "黑芝麻豆蓉蛋黃月餅",
+                "白蓮蓉蛋黃月餅",
+                "紅豆抹茶蛋黃月餅",
+                "黑芝麻豆蓉蛋黃月餅",
+                "紫薯蛋黃月餅",
+                "紫薯冰皮月餅",
+                "抹茶紅豆冰皮月餅",
+                "黑芝麻豆蓉冰皮月餅"
             ],
-            "current": false,
+            "current": true,
             "info": [
-                "https://www.facebook.com/Groundworks.Wanchai/posts/10157801534024095"
+                "https://www.facebook.com/Groundworks.Wanchai/posts/10159017385989095"
             ],
             "charleywong": "https://charleywong.giffon.io/Groundworks.Wanchai"
         },
