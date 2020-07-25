@@ -368,6 +368,30 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/list/%E9%BB%84%E5%88%B0%E9%87%91%E5%A5%B6%E9%BB%84%E6%9C%88%E9%A4%85/one_1p.m+Feederhk+s2_homemade_dessert"
         },
         {
+            "name": "香城月餅",
+            "note": "香城x速弟x四喜月餅",
+            "types": [
+                "奶黃月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.instagram.com/p/CDBjiVdJTHa/"
+            ],
+            "charleywong": "https://charleywong.giffon.io/list/%E9%A6%99%E5%9F%8E%E6%9C%88%E9%A4%85/heungshingstore+Deedeeveryhk+sayheybakery"
+        },
+        {
+            "name": "《望月 X 牧羊少年 + Beans + HOW + 賞茶》",
+            "note": "",
+            "types": [
+                "奶黃月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/lalune.hongkong/posts/3179256238779320"
+            ],
+            "charleywong": "https://charleywong.giffon.io/list/%E6%9C%9B%E6%9C%88%20X%20%E7%89%A7%E7%BE%8A%E5%B0%91%E5%B9%B4%20+%20Beans%20+%20HOW%20+%20%E8%B3%9E%E8%8C%B6/wangyuehk+thealchemistcafehk+bean234+howdept+anicegift"
+        },
+        {
             "name": "大班麵包西餅",
             "note": "",
             "types": [
