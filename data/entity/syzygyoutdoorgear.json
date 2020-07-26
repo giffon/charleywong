@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.syzygyoutdoorgear.com"
+    },
+    {
       "meta": {
         "id": "516697568514666",
         "username": "syzygyoutdoorgear",
@@ -27,6 +30,13 @@
         "website": "https://www.syzygyoutdoorgear.com/"
       },
       "url": "https://www.facebook.com/syzygyoutdoorgear/"
+    },
+    {
+      "url": "https://www.instagram.com/syzygyoutdoorgear/",
+      "meta": {
+        "name": "Syzygy Outdoor Gear",
+        "about": "Hong Kong-based design team Syzygy Outdoor Gear aim to develop hi-tech outdoor gear with aesthetic and simplicity.\n#syzygyoutdoorgear\n#hongkong🇭🇰\n#SSG"
+      }
     }
   ],
   "posts": [
@@ -48,5 +58,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02350"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角花園街71號"
+      },
+      "googleMapsPlaceId": "EiI3MSBGYSBZdWVuIFN0LCBNb25nIEtvaywgSG9uZyBLb25nIjASLgoUChIJL14PMcYABDQRQa4bdLyfpWYQRyoUChIJhbwUisgABDQRJ8cJVNYAfj0",
+      "coordinates": {
+        "lat": 22.3187114,
+        "lng": 114.1711074
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
