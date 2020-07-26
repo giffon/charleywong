@@ -2787,7 +2787,7 @@ blob@0.0.5:
   resolved "https://registry.yarnpkg.com/blob/-/blob-0.0.5.tgz#d680eeef25f8cd91ad533f5b01eed48e64caf683"
   integrity sha512-gaqbzQPqOoamawKg0LGVd7SzLgXS+JH61oWprSLH+P+abTczqJbhTR8CmJ2u9/bUYNmHTGJx/UEmn6doAvvuig==
 
-bluebird@^3.7.2:
+bluebird@^3.4.7, bluebird@^3.7.2:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
@@ -8777,6 +8777,13 @@ serverless-http@2.5.0:
   integrity sha512-p0c1aTQ7mLZEtQkaP+K/zT4zFUY1YZs+mRlw/Q0yl+HptJL6IOLLylx6WXXFlQoH5+uUibivRzBbNotatvqDkg==
   optionalDependencies:
     "@types/aws-lambda" "^8.10.19"
+
+serverless-prune-plugin@1.4.3:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/serverless-prune-plugin/-/serverless-prune-plugin-1.4.3.tgz#556d76a86e37bf57d4ccd8449a7d98b6496bd5ed"
+  integrity sha512-gsZF3oLs5rFdp6ynjiWf5cuXZ4DZrAhxRd5Zf2gfH/43kPqtZMZzUqcGYbHh1OXbOzogdn8fEg5d4Q3xxWwRBA==
+  dependencies:
+    bluebird "^3.4.7"
 
 serverless@1.76.1:
   version "1.76.1"

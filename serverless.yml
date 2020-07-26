@@ -41,3 +41,11 @@ functions:
           method: ANY
           path: '{proxy+}'
           cors: true
+
+plugins:
+  - serverless-prune-plugin
+
+custom:
+  prune:
+    automatic: true
+    number: 5
