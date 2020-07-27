@@ -497,12 +497,12 @@ class Mooncake2020 extends View {
             "note": "",
             "types": [
                 "金沙奶黃月餅",
-                "花生榛子月餅",
+                "黑松露金沙奶黃月餅",
                 "朱古力咖啡月餅"
             ],
-            "current": false,
+            "current": true,
             "info": [
-                "https://www.facebook.com/BakeForYou.HK/posts/364985934171348"
+                "https://www.facebook.com/BakeForYou.HK/photos/a.173279866675290/589072901762649"
             ],
             "charleywong": "https://charleywong.giffon.io/BakeForYou.HK"
         },
