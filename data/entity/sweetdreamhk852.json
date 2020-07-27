@@ -19,6 +19,13 @@
         "single_line_address": "深水埗欽州街37K西九龍中心7166-7167號舖, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/sweetdreamhk852/"
+    },
+    {
+      "url": "https://www.instagram.com/sweetdream852/",
+      "meta": {
+        "name": "Sweet Dream 甜。夢",
+        "about": "🥤Sweet Dream 甜。夢\n⏰營業時間:Mon-Sun 12:00 - 19:00\n願每一個人都可以為夢想努力💪🏻\n飲品店，花牆打卡 📷\n🎬YouTube Cafe Vlog 🎬"
+      }
     }
   ],
   "posts": [
@@ -27,9 +34,25 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "closed"
   ],
   "yellowBlueMapIds": [
     "Y_EAT01272"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗欽州街37K西九龍中心7166-7167號舖"
+      },
+      "googleMapsPlaceId": "ChIJw4LLE7MABDQR4MMha8oMpPc",
+      "coordinates": {
+        "lat": 22.3310879,
+        "lng": 114.1597868
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
