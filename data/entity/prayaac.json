@@ -7,16 +7,20 @@
   "webpages": [
     {
       "meta": {
-        "name": "Praya Animal Clinic 柏雅動物診所",
         "id": "756219877837725",
-        "about": "位於西環堅尼地城，一間有良知有良心的動物診所，提供貓狗家庭獸醫服務！成立人堅守熱誠、愛心、平衡的原則下，將醫療服務費用設置比較貼地，希望從而幫助到更多的主人和動物們！",
-        "categories": [
-          "Veterinarian"
+        "username": "prayaac",
+        "name": "Praya Animal Clinic 柏雅動物診所",
+        "about": "位於西環堅尼地城，一間有良知有良心的動物診所，提供貓狗家庭獸醫服務！成立人堅守熱誠、愛心、平衡的原則下，將醫療服務費用設置比較貼地，希望從而幫助到更多的主人和動物們！\n",
+        "category_list": [
+          {
+            "id": "162068413843305",
+            "name": "Veterinarian"
+          }
         ],
-        "addr": "堅尼地城吉席街9-15號吉利樓地下D舖",
-        "area": "Hong Kong",
-        "email": "prayaanimalclinic@gmail.com",
-        "tel": "34619126"
+        "emails": [
+          "prayaanimalclinic@gmail.com"
+        ],
+        "single_line_address": "堅尼地城吉席街9-15號吉利樓地下D舖, Hong Kong"
       },
       "url": "https://www.facebook.com/prayaac/"
     }
