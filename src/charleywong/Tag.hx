@@ -753,5 +753,12 @@ class Tag {
             "food"
         ]
     }
+
+    static public final cooking:TagData = {
+        name: {
+            en: "cooking",
+            zh: "烹飪"
+        }
+    }
     
 }
