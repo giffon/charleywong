@@ -519,6 +519,20 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/letsjam_"
         },
         {
+            "name": "初見",
+            "note": "",
+            "types": [
+                "單黃白蓮蓉月餅",
+                "奶黃月餅",
+                "紫薯月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/hk.firstsight/posts/182631969988857"
+            ],
+            "charleywong": "https://charleywong.giffon.io/hk.firstsight"
+        },
+        {
             "name": "水媽sweet工藝坊",
             "note": "訂造月餅",
             "types": [
