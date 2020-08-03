@@ -355,11 +355,11 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/lybakeryltd"
         },
         {
-            "name": "黄到金奶黄月餅",
+            "name": "黃到金奶黃月餅",
             "note": "壹點盅 x Feeder x S2",
             "types": [
                 "奶黃月餅",
-                "咸蛋黄奶黃月餅"
+                "咸蛋黃奶黃月餅"
             ],
             "current": true,
             "info": [
