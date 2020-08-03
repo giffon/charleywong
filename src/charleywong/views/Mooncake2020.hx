@@ -359,7 +359,7 @@ class Mooncake2020 extends View {
             "note": "壹點盅 x Feeder x S2",
             "types": [
                 "奶黃月餅",
-                "咸蛋黄奶黄月餅"
+                "咸蛋黄奶黃月餅"
             ],
             "current": true,
             "info": [
