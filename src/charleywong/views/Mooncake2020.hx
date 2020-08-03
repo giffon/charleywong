@@ -670,6 +670,16 @@ class Mooncake2020 extends View {
                 "https://www.facebook.com/OrangeBakingStore/photos/a.840537572696375/1795150880568368/"
             ],
             "charleywong": "https://charleywong.giffon.io/OrangeBakingStore"
+        },
+        {
+            "name": "konighonig",
+            "note": "",
+            "types": ["金沙奶黃月餅","抹茶麻糬月餅","咸蛋黃奶黃餡月餅"],
+            "current": true,
+            "info": [
+                "https://www.instagram.com/p/CDT0FKwjhZh/"
+            ],
+            "charleywong": "https://charleywong.giffon.io/konighonig"
         }
     ];
 
