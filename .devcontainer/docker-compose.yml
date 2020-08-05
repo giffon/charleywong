@@ -5,6 +5,7 @@ services:
     image: giffon/charleywong_devcontainer_workspace:20200716
     volumes:
       - ..:/workspace:cached
+      - node_modules:/workspace/node_modules
     environment:
       - HUB_HOST=selenium
     user: user
@@ -18,3 +19,6 @@ services:
     volumes:
       - /dev/shm:/dev/shm
     restart: unless-stopped
+
+volumes:
+  node_modules:
