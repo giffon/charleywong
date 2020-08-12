@@ -680,7 +680,19 @@ class Mooncake2020 extends View {
                 "https://www.instagram.com/p/CDT0FKwjhZh/"
             ],
             "charleywong": "https://charleywong.giffon.io/konighonig"
-        }
+        },
+        {
+            "name": "🎗Yellowbucks黃豆咖啡館",
+            "note": "",
+            "types": [
+                "迷你蛋黃白蓮蓉月餅"
+            ],
+            "current": true,
+            "info": [
+                "https://www.instagram.com/p/CDb8MzppVCm/"
+            ],
+            "charleywong": "https://charleywong.giffon.io/yellowbuckshk"
+        },
     ];
 
     override public function title() return "黃金月餅攻略";
