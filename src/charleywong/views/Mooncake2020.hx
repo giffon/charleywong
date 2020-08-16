@@ -533,6 +533,22 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/excellentastehk"
         },
         {
+            "name": "煋悅「素月餅」",
+            "note": "寄賣: 小廚美食, 檳城蝦麵店, 蒸廬, 叮噹叮丼, Aroma Dessert Cafe",
+            "types": [
+                "純素奶皇月餅",
+                "純素香芒豆蓉月餅",
+                "純素濃香芝麻月餅",
+                "純素抹茶柑桔月餅",
+                "純素紅豆陳皮月餅",
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/104471644632495/photos/a.115048203574839/147759693637023/"
+            ],
+            "charleywong": "https://charleywong.giffon.io/list/%E7%85%8B%E6%82%85%E3%80%8C%E7%B4%A0%E6%9C%88%E9%A4%85%E3%80%8D/h.f._project+siuchumadeintsuenwan+prawnnoodleshop+thesteamhut+dingdong_don+aromadessertcafe"
+        },
+        {
             "name": "水媽sweet工藝坊",
             "note": "訂造月餅",
             "types": [
