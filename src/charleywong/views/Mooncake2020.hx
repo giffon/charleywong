@@ -550,6 +550,18 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/list/%E7%85%8B%E6%82%85%E3%80%8C%E7%B4%A0%E6%9C%88%E9%A4%85%E3%80%8D/h.f._project+siuchumadeintsuenwan+prawnnoodleshop+thesteamhut+dingdong_don+aromadessertcafe"
         },
         {
+            "name": "Dawn Kitchen",
+            "note": "",
+            "types": [
+                "迷你金沙奶皇月餅",
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/permalink.php?story_fbid=124596215992173&id=100892618362533"
+            ],
+            "charleywong": "https://charleywong.giffon.io/dawnkitchenhk"
+        },
+        {
             "name": "水媽sweet工藝坊",
             "note": "訂造月餅",
             "types": [
