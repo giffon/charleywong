@@ -573,26 +573,20 @@ class Mooncake2020 extends View {
         {
             "name": "Mama A Bakery Workshop",
             "note": "月餅工作坊",
-            "types": [
-                "蛋黃蓮蓉月餅",
-                "潮式芋泥千層月餅"
-            ],
-            "current": false,
+            "types": [],
+            "current": true,
             "info": [
-                "https://www.facebook.com/mama.a.bakery/posts/1702741293192207",
-                "https://www.facebook.com/mama.a.bakery/photos/a.469403776525971/1695303233936013/"
+                "https://www.facebook.com/mama.a.bakery/posts/2047664492033217"
             ],
             "charleywong": "https://charleywong.giffon.io/mama.a.bakery"
         },
         {
             "name": "Cake Base",
-            "note": "月餅工作坊",
-            "types": [
-                "流心奶黃月餅"
-            ],
-            "current": false,
+            "note": "月餅材料工具",
+            "types": [],
+            "current": true,
             "info": [
-                "https://www.facebook.com/cakebaseshekmun/posts/480777362501094"
+                "https://www.facebook.com/cakebaseshekmun/posts/717114165534078"
             ],
             "charleywong": "https://charleywong.giffon.io/cakebaseshekmun"
         },
@@ -610,10 +604,9 @@ class Mooncake2020 extends View {
             "name": "烘焙便利店",
             "note": "月餅材料工具",
             "types": [],
-            "current": false,
+            "current": true,
             "info": [
-                "https://www.facebook.com/baking11/posts/2569182583102755",
-                "https://www.facebook.com/baking11/posts/2594778927209787"
+                "https://www.facebook.com/baking11/posts/3385653661455639"
             ],
             "charleywong": "https://charleywong.giffon.io/baking11"
         },
@@ -621,9 +614,10 @@ class Mooncake2020 extends View {
             "name": "糖屋烘焙",
             "note": "月餅材料工具",
             "types": [],
-            "current": false,
+            "current": true,
             "info": [
-                "https://www.facebook.com/sugarhouse.com.hk/posts/2650344365192509"
+                "https://www.facebook.com/sugarhouse.com.hk/posts/2983521031874839",
+                "https://www.facebook.com/sugarhouse.com.hk/posts/2988206251406317"
             ],
             "charleywong": "https://charleywong.giffon.io/sugarhouse.com.hk"
         },
@@ -631,9 +625,10 @@ class Mooncake2020 extends View {
             "name": "甜心烘焙",
             "note": "月餅材料工具",
             "types": [],
-            "current": false,
+            "current": true,
             "info": [
-                "https://www.facebook.com/sweetybaking/posts/10156502139866092"
+                "https://www.facebook.com/sweetybaking/posts/10158638038411092",
+                "https://www.facebook.com/sweetybaking/posts/10158741156896092"
             ],
             "charleywong": "https://charleywong.giffon.io/sweetybaking"
         },
