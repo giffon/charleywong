@@ -23,7 +23,7 @@ enum abstract MooncakeType(String) {
     var Ham = "金華火腿";
     var PurpleYam = "紫薯";
     var Taro = "芋頭";
-    var Matcha = "抹茶";
+    var Matcha = "抹茶/伯爵茶";
     var Beans = "紅豆/綠豆/豆沙/豆蓉";
     var Mocha = "朱古力咖啡";
     var Pineapple = "鳳梨";
@@ -89,7 +89,7 @@ class Mooncake2020 extends ReactComponent {
             case Taro:
                 mooncakeName.contains("芋");
             case Matcha:
-                mooncakeName.contains("抹茶");
+                mooncakeName.contains("抹茶") || mooncakeName.contains("伯爵茶");
             case Beans:
                 mooncakeName.contains("紅豆") || mooncakeName.contains("綠豆") || mooncakeName.contains("豆沙") || mooncakeName.contains("豆蓉");
             case Mocha:
@@ -135,8 +135,8 @@ class Mooncake2020 extends ReactComponent {
             classes.push("selected-mooncake-type");
         }
         return jsx('
-            <Fragment>
-                <span key=${mooncakeName} className=${classes.join(" ")}><span className="mooncake-icon"></span> ${mooncakeName}</span>
+            <Fragment key=${mooncakeName}>
+                <span className=${classes.join(" ")}><span className="mooncake-icon"></span> ${mooncakeName}</span>
                 <span> </span>
             </Fragment>
         ');

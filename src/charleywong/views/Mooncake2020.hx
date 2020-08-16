@@ -104,11 +104,15 @@ class Mooncake2020 extends View {
             "note": "",
             "types": [
                 "流心奶黃月餅",
-                "流心抹茶月餅"
+                "流心抹茶月餅",
+                "伯爵茶月餅",
+                "蛋黃黑芝麻月餅",
+                "陳皮紅豆蛋黃月餅",
+                "蛋黃白蓮蓉月餅"
             ],
             "current": true,
             "info": [
-                "https://www.facebook.com/ValeriePastry/posts/3201423863271371"
+                "https://www.facebook.com/ValeriePastry/posts/3287787151301708"
             ],
             "charleywong": "https://charleywong.giffon.io/ValeriePastry"
         },
@@ -301,11 +305,8 @@ class Mooncake2020 extends View {
                 "紫薯蛋黃月餅",
                 "白蓮蓉蛋黃月餅",
                 "紅豆蛋黃月餅",
-                "黑芝麻豆蓉蛋黃月餅",
-                "白蓮蓉蛋黃月餅",
                 "紅豆抹茶蛋黃月餅",
                 "黑芝麻豆蓉蛋黃月餅",
-                "紫薯蛋黃月餅",
                 "紫薯冰皮月餅",
                 "抹茶紅豆冰皮月餅",
                 "黑芝麻豆蓉冰皮月餅"
