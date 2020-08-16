@@ -520,6 +520,19 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/hk.firstsight"
         },
         {
+            "name": "良糧 ExcellenTaste",
+            "note": "",
+            "types": [
+                "流心奶黃月餅",
+                "雙黃白蓮蓉月餅",
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/excellentastehk/posts/331148061604296"
+            ],
+            "charleywong": "https://charleywong.giffon.io/excellentastehk"
+        },
+        {
             "name": "水媽sweet工藝坊",
             "note": "訂造月餅",
             "types": [
