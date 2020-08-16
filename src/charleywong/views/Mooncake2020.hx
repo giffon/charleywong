@@ -151,8 +151,7 @@ class Mooncake2020 extends View {
             ],
             "current": true,
             "info": [
-                "https://www.facebook.com/w.boysfruitstore/posts/3607157475964279",
-                "https://www.facebook.com/w.boysfruitstore/posts/3656881080991918"
+                "https://www.facebook.com/w.boysfruitstore/posts/3728144633865562"
             ],
             "charleywong": "https://charleywong.giffon.io/w.boysfruitstore"
         },
@@ -286,12 +285,12 @@ class Mooncake2020 extends View {
             "name": "YEARS HK 素年",
             "note": "",
             "types": [
-                "純素芋頭酥皮月餅",
-                "純素紅豆陳皮月餅"
+                "純素欖仁蓮蓉月餅",
+                "純素陳皮豆沙月餅"
             ],
-            "current": false,
+            "current": true,
             "info": [
-                "https://www.facebook.com/yearshk/photos/a.1001795379832707/2780588891953338"
+                "https://www.facebook.com/yearshk/photos/a.1001795379832707/3719182654760619"
             ],
             "charleywong": "https://charleywong.giffon.io/yearshk"
         },
@@ -486,9 +485,9 @@ class Mooncake2020 extends View {
             "types": [
                 "榴蓮冰皮月餅"
             ],
-            "current": false,
+            "current": true,
             "info": [
-                "https://www.facebook.com/permalink.php?story_fbid=868500286862955&id=807405289639122"
+                "https://www.facebook.com/permalink.php?story_fbid=1149942775385370&id=807405289639122"
             ],
             "charleywong": "https://charleywong.giffon.io/unclemusang"
         },
@@ -505,18 +504,6 @@ class Mooncake2020 extends View {
                 "https://www.facebook.com/BakeForYou.HK/photos/a.173279866675290/589072901762649"
             ],
             "charleywong": "https://charleywong.giffon.io/BakeForYou.HK"
-        },
-        {
-            "name": "Let's Jam 一起果醬",
-            "note": "",
-            "types": [
-                "流心奶黃月餅+果醬禮盒"
-            ],
-            "current": false,
-            "info": [
-                "https://www.facebook.com/permalink.php?story_fbid=1976059842458569&id=592839210780646"
-            ],
-            "charleywong": "https://charleywong.giffon.io/letsjam_"
         },
         {
             "name": "初見",
