@@ -11,13 +11,21 @@
     {
       "url": "https://www.facebook.com/undgrad/",
       "meta": {
-        "name": "香港大學學生會學苑 Undergrad, H.K.U.S.U.",
         "id": "108376265953420",
-        "about": "學苑（Undergrad），香港大學學生會官方編輯委員會，亦為校內唯一文字傳媒，出版刊物《學苑》，內容主要分為新聞版、專題版、文藝版及專欄。",
-        "categories": [
-          "Interest"
+        "username": "undgrad",
+        "name": "香港大學學生會學苑 Undergrad, H.K.U.S.U.",
+        "about": "學苑（Undergrad），香港大學學生會官方編輯委員會，亦為校內唯一文字傳媒，出版刊物《學苑》，內容主要分為新聞版、專題版、文藝版及專欄。 ",
+        "category_list": [
+          {
+            "id": "2233",
+            "name": "Media/News Company"
+          }
         ],
-        "email": "undgrad@hku.hk"
+        "emails": [
+          "undgrad@hku.hk"
+        ],
+        "single_line_address": "香港薄扶林道香港大學方樹泉文娛中心2A01A室",
+        "website": "https://www.undergrad.hk"
       }
     },
     {

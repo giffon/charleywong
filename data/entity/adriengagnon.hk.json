@@ -11,14 +11,20 @@
     {
       "url": "https://www.facebook.com/adriengagnon.hk/",
       "meta": {
-        "name": "Adrien Gagnon楓之寶",
         "id": "1785194615099366",
-        "about": "Adrien Gagnon楓之寶\n加拿大領導性品牌 源自1946年\n\n查詢及訂購熱線: (852) 2126 1168\n電郵: ag-enquiry@ck-lifesciences.com",
-        "categories": [
-          "Vitamins/Supplements"
+        "username": "adriengagnon.hk",
+        "name": "Adrien Gagnon楓之寶",
+        "about": "Adrien Gagnon加拿大楓之寶\n加拿大領導性品牌 源自1946年\n\n查詢及訂購熱線: (852) 2126 1168\n電郵: ag-enquiry@ck-lifesciences.com",
+        "category_list": [
+          {
+            "id": "2262",
+            "name": "Vitamins/Supplements"
+          }
         ],
-        "email": "ag-enquiry@ck-lifesciences.com",
-        "tel": "21261168"
+        "emails": [
+          "ag-enquiry@ck-lifesciences.com"
+        ],
+        "website": "http://www.adriengagnon.com.hk"
       }
     }
   ],

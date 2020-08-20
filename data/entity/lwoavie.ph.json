@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/lwoavie.ph/",
       "meta": {
-        "name": "孤出版",
         "id": "373091403249582",
-        "about": "「我們相信 每個人都有閱讀的權利。」 — 孤出版\n//HK// FB/ lwoavie.ph\n合作洽談及查詢：67722779(WhatsApp) Lap Hui",
-        "categories": [
-          "Book"
+        "username": "lwoavie.ph",
+        "name": "孤出版",
+        "about": " 「我們相信 每個人都有閱讀的權利。」 — 孤出版\n//HK// FB/ lwoavie.ph\n合作洽談及查詢：67722779(WhatsApp) Lap Hui",
+        "category_list": [
+          {
+            "id": "1300",
+            "name": "Book"
+          }
         ],
-        "email": "lwoaviepro@gmail.com",
-        "tel": "65432224"
+        "emails": [
+          "lwoaviepro@gmail.com"
+        ],
+        "website": "https://lwoaviepro.com"
       }
     },
     {
