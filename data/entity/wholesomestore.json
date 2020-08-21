@@ -47,5 +47,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00008"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍灣臨興街19號同力工業中心B座1樓B1室"
+      },
+      "googleMapsPlaceId": "ChIJ4w8tszQBBDQRsMQ38lYX68o",
+      "coordinates": {
+        "lat": 22.3248373,
+        "lng": 114.210304
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

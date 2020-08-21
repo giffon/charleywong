@@ -102,19 +102,6 @@
     },
     {
       "address": {
-        "zh": "海之戀2樓2038 A號舖"
-      },
-      "googleMapsPlaceId": "ChIJtbYN-Gv5AzQRdBNcDlaqtTU",
-      "coordinates": {
-        "lat": 22.3680845,
-        "lng": 114.1106576
-      },
-      "area": {
-        "zh": "荃灣區"
-      }
-    },
-    {
-      "address": {
         "zh": "荔枝角D2 PLACE 2樓213 A號舖"
       },
       "googleMapsPlaceId": "ChIJS0C2Z3sHBDQRtqBI2Aeyqj8",
@@ -189,6 +176,32 @@
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳東港城"
+      },
+      "googleMapsPlaceId": "ChIJz4LqfXUEBDQRMR05fSGTeUo",
+      "coordinates": {
+        "lat": 22.3163478,
+        "lng": 114.2649983
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "海港城Lcx"
+      },
+      "googleMapsPlaceId": "ChIJaw6Ow_IABDQRkjApcoDUd1c",
+      "coordinates": {
+        "lat": 22.294735,
+        "lng": 114.1656411
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     }
   ],
