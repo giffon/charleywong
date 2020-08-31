@@ -123,12 +123,18 @@ class Mooncake2020 extends View {
                 "雙黃蓮蓉月餅",
                 "雙黃白蓮蓉月餅",
                 "五仁月餅",
-                "奶皇脆皮月餅"
+                "奶皇脆皮月餅",
+                "焙茶紫薯月餅",
+                "白桃烏龍開心果月餅",
+                "伯爵茶朱古力月餅",
+                "十勝紅豆抹茶月餅",
+                "鳳梨月餅"
             ],
             "current": true,
             "info": [
                 "https://www.facebook.com/LungMunCafe/posts/3245844615480333",
-                "https://www.facebook.com/LungMunCafe/posts/3296335333764594"
+                "https://www.facebook.com/LungMunCafe/posts/3296335333764594",
+                "https://www.facebook.com/LungMunCafe/posts/3443927062338753"
             ],
             "charleywong": "https://charleywong.giffon.io/LungMunCafe"
         },
@@ -560,6 +566,30 @@ class Mooncake2020 extends View {
                 "https://www.facebook.com/permalink.php?story_fbid=124596215992173&id=100892618362533"
             ],
             "charleywong": "https://charleywong.giffon.io/dawnkitchenhk"
+        },
+        {
+            "name": "HANA Soft Cream",
+            "note": "",
+            "types": [
+                "雪糕月餅",
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/hanasoftcream/photos/a.1294250863987537/3253205314758739"
+            ],
+            "charleywong": "https://charleywong.giffon.io/hanasoftcream"
+        },
+        {
+            "name": "黃色助人圈",
+            "note": "",
+            "types": [
+                "奶皇月餅",
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/102267268188468/photos/a.106540667761128/149785976769930"
+            ],
+            "charleywong": "https://charleywong.giffon.io/yellowsupports"
         },
         {
             "name": "水媽sweet工藝坊",
