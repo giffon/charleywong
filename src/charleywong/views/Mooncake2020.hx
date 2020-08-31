@@ -577,9 +577,7 @@ class Mooncake2020 extends View {
         {
             "name": "Panda Zoe",
             "note": "月餅工作坊",
-            "types": [
-                "奶黃月餅"
-            ],
+            "types": [],
             "current": true,
             "info": [
                 "https://www.facebook.com/PandaZoeBakery/posts/3268959146525691",
@@ -591,10 +589,7 @@ class Mooncake2020 extends View {
         {
             "name": "Bake Your Own BYO 自助烘焙",
             "note": "月餅工作坊",
-            "types": [
-                "鮮芋彩虹千層月餅",
-                "軟心奶皇脆皮月餅"
-            ],
+            "types": [],
             "current": true,
             "info": [
                 "https://www.facebook.com/bakeyourownhk/photos/a.155340485049470/722906404959539",
@@ -605,9 +600,7 @@ class Mooncake2020 extends View {
         {
             "name": "小食堂",
             "note": "月餅工作坊",
-            "types": [
-                "奶黃月餅"
-            ],
+            "types": [],
             "current": true,
             "info": [
                 "https://www.facebook.com/TLK.com.hk/posts/2622932058022872"
