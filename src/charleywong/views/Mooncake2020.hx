@@ -582,7 +582,9 @@ class Mooncake2020 extends View {
             ],
             "current": true,
             "info": [
-                "https://www.facebook.com/PandaZoeBakery/photos/a.891971987557764/3141115002643440/"
+                "https://www.facebook.com/PandaZoeBakery/posts/3268959146525691",
+                "https://www.facebook.com/PandaZoeBakery/photos/a.891971987557764/3278004502287822",
+                "https://www.facebook.com/PandaZoeBakery/photos/a.891971987557764/3295876457167293"
             ],
             "charleywong": "https://charleywong.giffon.io/PandaZoeBakery"
         },
@@ -593,10 +595,10 @@ class Mooncake2020 extends View {
                 "鮮芋彩虹千層月餅",
                 "軟心奶皇脆皮月餅"
             ],
-            "current": false,
+            "current": true,
             "info": [
-                "https://www.facebook.com/bakeyourownhk/posts/470899700160212",
-                "https://www.facebook.com/bakeyourownhk/posts/470881733495342"
+                "https://www.facebook.com/bakeyourownhk/photos/a.155340485049470/722906404959539",
+                "https://www.facebook.com/bakeyourownhk/photos/a.155340485049470/723755681541278"
             ],
             "charleywong": "https://charleywong.giffon.io/bakeyourownhk"
         },
@@ -606,9 +608,9 @@ class Mooncake2020 extends View {
             "types": [
                 "奶黃月餅"
             ],
-            "current": false,
+            "current": true,
             "info": [
-                "https://www.facebook.com/TLK.com.hk/posts/2313207415662006"
+                "https://www.facebook.com/TLK.com.hk/posts/2622932058022872"
             ],
             "charleywong": "https://charleywong.giffon.io/TLK.com.hk"
         },
@@ -618,7 +620,7 @@ class Mooncake2020 extends View {
             "types": [],
             "current": true,
             "info": [
-                "https://www.facebook.com/mama.a.bakery/posts/2047664492033217"
+                "https://www.facebook.com/mama.a.bakery/posts/2066345150165151"
             ],
             "charleywong": "https://charleywong.giffon.io/mama.a.bakery"
         },
