@@ -1,60 +1,73 @@
 {
   "id": "yynaught",
   "name": {
-    "en": "Y Naught"
+    "en": "LightArea Studio"
   },
   "webpages": [
     {
-      "url": "https://yyent.com/ynaught"
-    },
-    {
-      "url": "https://www.facebook.com/ynaught.studio/",
+      "url": "https://www.facebook.com/ynaughtstudio/",
       "meta": {
-        "id": "648161175615258",
-        "username": "ynaught.studio",
-        "name": "Y Naught",
-        "about": "Y Naught Studio 租用及影片製作：\n多色背景紙/多用途場景/ 專業化妝間\n場地租用: 每小時$220\n影片製作團隊 📺: 詳情請商議\n歡迎PM預約\n",
-        "category_list": [
-          {
-            "id": "1817904601806120",
-            "name": "Video Creator"
-          },
-          {
-            "id": "191969860827280",
-            "name": "Photography Videography"
-          },
-          {
-            "id": "1314020451960517",
-            "name": "Media"
-          }
+        "id": "1269616396445868",
+        "name": "LightArea Studio",
+        "categories": [
+          "Party Entertainment Service",
+          "Photography Videography",
+          "Performance Art Theatre"
         ],
-        "emails": [
-          "info@yyent.com"
-        ],
-        "single_line_address": "九龍紅磡鶴園街2G恆豐工業大廈一期6樓B室, 852 Hong Kong, Hong Kong",
-        "website": "https://yyent.com/ynaught"
+        "addr": "新界葵涌業成街",
+        "area": "852 Kwai Chung, Hong Kong",
+        "email": "ynaught.studio@gmail.com"
       }
     },
     {
-      "url": "https://www.instagram.com/ynaught.studio/",
+      "url": "https://www.instagram.com/ynaught_studio/",
       "meta": {
-        "name": "Y Naught Studio",
-        "about": "多色背景紙 I 多用途場景 I 專業化妝間\n租場影相📸\n租場拍攝🎥\n影片製作團隊🎞\n合作團隊： @thisdv_at_ynaught\n歡迎inbox預約或商議合作\n紅磡恆豐工業大廈一期6樓B\n黃埔站(A 出口) 約10分鐘路程"
+        "name": "葵興日系自然光影樓✨",
+        "about": "📸攝影丶租場服務、證婚場地提供請查詢🔍\n第三間分店全線開放中！\n租場請click 以下連結!"
       }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/ynaught.studio/posts/833482147083159",
+      "url": "https://www.facebook.com/ynaughtstudio/posts/4079032415504238",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/ynaughtstudio/posts/4112047492202730",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/ynaughtstudio/posts/4142230655851080",
       "meta": {
         "sharedWith": "Public"
       }
     }
   ],
   "tags": [
+    "wedding",
+    "photography",
     "shop"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02192"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新界葵涌業成街"
+      },
+      "googleMapsPlaceId": "EiNZaXAgU2hpbmcgU3QsIEt3YWkgQ2h1bmcsIEhvbmcgS29uZyIuKiwKFAoSCW9dkFeY-AM0ESbw1JtTpEkHEhQKEgmLq-ngl_gDNBHAFy6-HHSjgA",
+      "coordinates": {
+        "lat": 22.3609717,
+        "lng": 114.1347901
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
