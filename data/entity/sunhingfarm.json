@@ -17,16 +17,21 @@
     {
       "url": "https://www.facebook.com/sunhingfarm/",
       "meta": {
-        "name": "新興農場。牛潭尾信心米",
         "id": "1571869493089535",
+        "username": "sunhingfarm",
+        "name": "新興農場。牛潭尾信心米",
         "about": "農場介紹\n新興農場成立於50年代，位於牛潭尾村南區。",
-        "categories": [
-          "Farm"
+        "category_list": [
+          {
+            "id": "150815208309028",
+            "name": "Farm"
+          }
         ],
-        "addr": "元朗攸潭美村南區第2段8號牌水對坑前        (GPS位置22.471843, 114.072636)",
-        "area": "Hong Kong",
-        "email": "sunhingfarm@gmail.com",
-        "tel": "94555827"
+        "emails": [
+          "sunhingfarm@gmail.com"
+        ],
+        "single_line_address": "元朗攸潭美村南區第2段8號牌水對坑前        (GPS位置22.471843, 114.072636), Hong Kong, Hong Kong",
+        "website": "http://sunhingfarm.com/"
       }
     },
     {
