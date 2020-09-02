@@ -518,11 +518,13 @@ class Mooncake2020 extends View {
             "types": [
                 "單黃白蓮蓉月餅",
                 "奶黃月餅",
-                "紫薯月餅"
+                "紫薯月餅",
+                "寵物月餅"
             ],
             "current": true,
             "info": [
-                "https://www.facebook.com/hk.firstsight/posts/182631969988857"
+                "https://www.facebook.com/hk.firstsight/posts/182631969988857",
+                "https://www.facebook.com/hk.firstsight/posts/191540385764682"
             ],
             "charleywong": "https://charleywong.giffon.io/hk.firstsight"
         },
@@ -590,6 +592,90 @@ class Mooncake2020 extends View {
                 "https://www.facebook.com/102267268188468/photos/a.106540667761128/149785976769930"
             ],
             "charleywong": "https://charleywong.giffon.io/yellowsupports"
+        },
+        {
+            "name": "香港愛護動物協會",
+            "note": "",
+            "types": [
+                "寵物月餅",
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/spcahk/posts/10157336084222385"
+            ],
+            "charleywong": "https://charleywong.giffon.io/spcahk"
+        },
+        {
+            "name": "茶犬舍",
+            "note": "",
+            "types": [
+                "寵物冰皮月餅",
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/teadoghouse/posts/726524791230893"
+            ],
+            "charleywong": "https://charleywong.giffon.io/teadoghouse"
+        },
+        {
+            "name": "Cheese n Dash",
+            "note": "",
+            "types": [
+                "寵物月餅",
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/cheesendash/posts/1630781523773951"
+            ],
+            "charleywong": "https://charleywong.giffon.io/cheesendash"
+        },
+        {
+            "name": "Sweety Pet Sitter",
+            "note": "",
+            "types": [
+                "寵物月餅",
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/sweetypetsitter/posts/1606956816144314"
+            ],
+            "charleywong": "https://charleywong.giffon.io/sweetypetsitter"
+        },
+        {
+            "name": "Dogttitude",
+            "note": "",
+            "types": [
+                "寵物月餅",
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/permalink.php?story_fbid=171761117743307&id=102625551323531"
+            ],
+            "charleywong": "https://charleywong.giffon.io/_dogttitude_"
+        },
+        {
+            "name": "Hakuchi Natural Pet Food Shop",
+            "note": "",
+            "types": [
+                "寵物月餅",
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/hakuchi.npfs/posts/960042371134623"
+            ],
+            "charleywong": "https://charleywong.giffon.io/hakuchi.npfs"
+        },
+        {
+            "name": "七和市集",
+            "note": "",
+            "types": [
+                "寵物月餅",
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/sevensummarket/posts/920656135095943"
+            ],
+            "charleywong": "https://charleywong.giffon.io/sevensummarket"
         },
         {
             "name": "水媽sweet工藝坊",

@@ -29,6 +29,7 @@ enum abstract MooncakeType(String) {
     var Pineapple = "鳳梨";
     var Coriander = "香菜(芫荽)";
     var Vegan = "純素";
+    var PetFriendly = "適合寵物食用";
 }
 
 enum abstract OfferType(String) {
@@ -100,6 +101,8 @@ class Mooncake2020 extends ReactComponent {
                 mooncakeName.contains("香菜");
             case Vegan:
                 mooncakeName.contains("純素");
+            case PetFriendly:
+                mooncakeName.contains("寵物");
         }
     }
 
@@ -304,6 +307,9 @@ class Mooncake2020 extends ReactComponent {
                             </MenuItem>
                             <MenuItem value=${Vegan}>
                                 ${Vegan}
+                            </MenuItem>
+                            <MenuItem value=${PetFriendly}>
+                                ${PetFriendly}
                             </MenuItem>
                         </Select>
                     </FormControl>
