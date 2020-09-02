@@ -370,6 +370,32 @@
       "area": {
         "zh": "灣仔區"
       }
+    },
+    {
+      "address": {
+        "zh": "馬鞍山新港城2期地下G-2/01鋪"
+      },
+      "googleMapsPlaceId": "ChIJh4dqL7IIBDQR3CNTz5SxswE",
+      "coordinates": {
+        "lat": 22.4237859,
+        "lng": 114.2335724
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大埔超級城B區地下134號鋪"
+      },
+      "googleMapsPlaceId": "ChIJqX7LrkcIBDQRzNqPgpAzvts",
+      "coordinates": {
+        "lat": 22.4525939,
+        "lng": 114.1689861
+      },
+      "area": {
+        "zh": "大埔區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -386,6 +412,7 @@
     "Y_EAT02372",
     "Y_EAT02374",
     "Y_EAT02401",
-    "Y_EAT02402"
+    "Y_EAT02402",
+    "Y_EAT02469"
   ]
 }

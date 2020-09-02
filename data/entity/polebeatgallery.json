@@ -11,7 +11,7 @@
       "url": "https://www.instagram.com/polebeatgallery/",
       "meta": {
         "name": "POLE BEAT CIRCUS🎠",
-        "about": "The Leading Aerial Dance Studio in HK\n觀塘總校 成業街10號電訊一代19B&C\n旺角分校 彌敦道726號20樓\nAerial Hoop|Hammock|Silk|\nPoleDance|Aerial Yoga\nFounder @miss_carama"
+        "about": "The Leading Aerial Dance Academy in HK\n觀塘總校 成業街10號電訊一代19B&C\n旺角分校 彌敦道726號20樓\nAerial Hoop|Hammock|Silk|\nPoleDance|Aerial Yoga\nFounder @miss_carama"
       }
     },
     {
@@ -72,19 +72,33 @@
   "places": [
     {
       "address": {
-        "en": "Unit B ,19/F ,TG Place ,Shing Yip Street Kwun Tong, Hong Kong"
+        "zh": "觀塘成業街10號電訊一代19B&C"
       },
       "googleMapsPlaceId": "ChIJZWdqYEoBBDQRXLvmOC2Tfgw",
       "coordinates": {
-        "lat": 22.3102469,
-        "lng": 114.2258526
+        "lat": 22.3103856,
+        "lng": 114.2260321
       },
       "area": {
         "zh": "觀塘區"
       }
+    },
+    {
+      "address": {
+        "zh": "旺角彌敦道726號20樓"
+      },
+      "googleMapsPlaceId": "ChIJSasPRhUBBDQRfYHjM9XHmJM",
+      "coordinates": {
+        "lat": 22.3212111,
+        "lng": 114.169166
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00371"
+    "Y_SHOP00371",
+    "Y_SHOP02716"
   ]
 }

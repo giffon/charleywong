@@ -223,7 +223,7 @@
     },
     {
       "address": {
-        "zh": "尖沙咀赫德道4號一樓"
+        "zh": "尖沙咀赫德道4號利是大廈1樓"
       },
       "googleMapsPlaceId": "ChIJq6oWEe4ABDQRcJVTL9gJy_o",
       "coordinates": {
@@ -350,6 +350,58 @@
       "area": {
         "zh": "黃大仙區"
       }
+    },
+    {
+      "address": {
+        "zh": "大角咀埃華街70-86號大同新村大成樓地下H1A&H1B舖"
+      },
+      "googleMapsPlaceId": "ChIJd9NsqLAABDQRlDHjquoiUYk",
+      "coordinates": {
+        "lat": 22.3216054,
+        "lng": 114.1611671
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "馬鞍山鞍駿街1號馬鞍山中心地下A06舖"
+      },
+      "googleMapsPlaceId": "ChIJ41Ai3rMIBDQR3lKCqZrK1Nc",
+      "coordinates": {
+        "lat": 22.4258737,
+        "lng": 114.2331456
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "天后威非路道9號海閣洋樓地下C號舖"
+      },
+      "googleMapsPlaceId": "ChIJQcyLLP4ABDQR2iVFvaFgLJg",
+      "coordinates": {
+        "lat": 22.286224,
+        "lng": 114.1910539
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "北角建華街16號俊文樓地下A號舖"
+      },
+      "googleMapsPlaceId": "ChIJ-8Rt8gMBBDQRTMRdWcU_63s",
+      "coordinates": {
+        "lat": 22.2891076,
+        "lng": 114.1968851
+      },
+      "area": {
+        "zh": "東區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -365,6 +417,8 @@
     "Y_EAT01685",
     "Y_EAT01742",
     "Y_EAT01987",
-    "Y_EAT01988"
+    "Y_EAT01988",
+    "Y_EAT02506",
+    "Y_EAT02507"
   ]
 }

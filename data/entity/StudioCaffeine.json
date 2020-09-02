@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.studiocaffeine.com.hk"
+    },
+    {
       "meta": {
         "id": "1507811522796204",
         "username": "StudioCaffeine",
@@ -32,7 +35,7 @@
       "url": "https://www.instagram.com/studiocaffeine/",
       "meta": {
         "name": "Studio Caffeine",
-        "about": "- Official Instagram of Studio Caffeine\n- Home of HK Brewers Cup 2017 Champion\n📍284 Temple Street, Jordan, Kowloon, HK\n📞2793 3480"
+        "about": "- Official Instagram of Studio Caffeine\n- HKBrC 2017 Champion\n📍284 Temple Street, Jordan\n📍23 School Street, Tai Hang\n📍24 Au Pui Wan Street, Fo Tan"
       }
     }
   ],
@@ -47,7 +50,7 @@
   "places": [
     {
       "address": {
-        "en": "284 Temple Street (Near Austin Road)"
+        "en": "284 Temple Street, Jordan"
       },
       "googleMapsPlaceId": "ChIJ5WsaZesABDQR0OdTgK69v9M",
       "coordinates": {
@@ -57,9 +60,36 @@
       "area": {
         "zh": "油尖旺區"
       }
+    },
+    {
+      "address": {
+        "en": "23 School Street, Tai Hang"
+      },
+      "googleMapsPlaceId": "ChIJYxfwsVQABDQRWvVM92s0ePw",
+      "coordinates": {
+        "lat": 22.278443,
+        "lng": 114.1910801
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "en": "24 Au Pui Wan Street, Fo Tan"
+      },
+      "googleMapsPlaceId": "ChIJzazkWzQGBDQRZgZ3M8e0tkU",
+      "coordinates": {
+        "lat": 22.3980697,
+        "lng": 114.1948642
+      },
+      "area": {
+        "zh": "沙田區"
+      }
     }
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00070"
+    "Y_EAT00070",
+    "Y_EAT02497"
   ]
 }

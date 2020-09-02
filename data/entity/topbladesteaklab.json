@@ -76,7 +76,8 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00494",
-    "Y_EAT00495"
+    "Y_EAT00495",
+    "Y_EAT02512"
   ],
   "places": [
     {
@@ -103,6 +104,19 @@
       },
       "area": {
         "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop 108, G/F, New Town Plaza 1, Shatin"
+      },
+      "googleMapsPlaceId": "ChIJ8cg63PQHBDQRkRWShJlAeZ4",
+      "coordinates": {
+        "lat": 22.3822531,
+        "lng": 114.1891533
+      },
+      "area": {
+        "zh": "沙田區"
       }
     }
   ]

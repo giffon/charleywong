@@ -27,7 +27,7 @@
       "url": "https://www.instagram.com/halfwaycoffee/",
       "meta": {
         "name": "Halfway Coffee // 半路咖啡",
-        "about": "💡Mong Kok shop 10am - 7pm Closed on Monday\n🗯 咖啡文化 | 社區人情 | 記憶流傳\n➿ Coffee | Community | Memory\n📮 Halfwaycoffee@gmail.com\n💻 Article link in the bio👇🏻"
+        "about": "🗯 咖啡文化 | 社區人情 | 記憶流傳\n➿ Coffee | Community | Memory\n📮 Halfwaycoffee@gmail.com\n💻 Article link in the bio👇🏻"
       }
     }
   ],
@@ -46,9 +46,23 @@
   "yellowBlueMapIds": [
     "Y_EAT00220",
     "Y_EAT00221",
-    "Y_EAT02190"
+    "Y_EAT02190",
+    "Y_EAT02479"
   ],
   "places": [
+    {
+      "address": {
+        "en": "4 Soares Avenue Ho Man Tin"
+      },
+      "googleMapsPlaceId": "ChIJFQAXYM8ABDQR7FJlFHzSK8c",
+      "coordinates": {
+        "lat": 22.3198931,
+        "lng": 114.1748871
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    },
     {
       "address": {
         "en": "6 Soy Street Mong kok"

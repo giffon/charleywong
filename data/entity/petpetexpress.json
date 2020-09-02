@@ -80,21 +80,48 @@
   "places": [
     {
       "address": {
-        "en": "Shop No.7 G/F, 8 Wu Kai Sha Road, Double Cove Phase 1, Lok Wo Sha, Ma On Shan, NT."
+        "zh": "馬鞍山落禾沙迎海薈地下7號舖"
       },
-      "googleMapsPlaceId": "ChIJgyuQd0oPBDQRvrqOBJclPGA",
+      "googleMapsPlaceId": "ChIJ88TKa0oPBDQR29p8agZtKds",
       "coordinates": {
-        "lat": 22.4317226,
-        "lng": 114.2423933
+        "lat": 22.4300282,
+        "lng": 114.2432523
       },
       "area": {
         "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "馬鞍山新港城中心商場 L3 3012號舖"
+      },
+      "googleMapsPlaceId": "ChIJRZaLm2QABDQRddp9jBmJSc0",
+      "coordinates": {
+        "lat": 22.4241633,
+        "lng": 114.2314688
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘觀塘道448-458號觀塘工業中心第三期10樓M室"
+      },
+      "googleMapsPlaceId": "ChIJaxaSqloBBDQRYFbVdHVGbd4",
+      "coordinates": {
+        "lat": 22.310957,
+        "lng": 114.2272545
+      },
+      "area": {
+        "zh": "觀塘區"
       }
     }
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00005",
     "Y_SHOP00844",
-    "Y_SHOP00846"
+    "Y_SHOP00846",
+    "Y_SHOP02673"
   ]
 }
