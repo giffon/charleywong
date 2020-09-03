@@ -594,6 +594,18 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/yellowsupports"
         },
         {
+            "name": "無名士 momingsi",
+            "note": "",
+            "types": [
+                "低糖雙黃白蓮蓉月餅",
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/momingsihk/posts/130798778722374"
+            ],
+            "charleywong": "https://charleywong.giffon.io/momingsihk"
+        },
+        {
             "name": "香港愛護動物協會",
             "note": "",
             "types": [
