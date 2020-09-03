@@ -23,7 +23,7 @@ enum abstract MooncakeType(String) {
     var Ham = "金華火腿";
     var PurpleYam = "紫薯";
     var Taro = "芋頭";
-    var Matcha = "抹茶/伯爵茶";
+    var Matcha = "抹茶/焙茶/伯爵茶";
     var Beans = "紅豆/綠豆/豆沙/豆蓉";
     var ChocoCoffee = "朱古力/咖啡";
     var Pineapple = "鳳梨";
@@ -90,11 +90,11 @@ class Mooncake2020 extends ReactComponent {
             case Taro:
                 mooncakeName.contains("芋");
             case Matcha:
-                mooncakeName.contains("抹茶") || mooncakeName.contains("伯爵茶");
+                mooncakeName.contains("抹茶") || mooncakeName.contains("焙茶") || mooncakeName.contains("伯爵茶");
             case Beans:
                 mooncakeName.contains("紅豆") || mooncakeName.contains("綠豆") || mooncakeName.contains("豆沙") || mooncakeName.contains("豆蓉");
             case ChocoCoffee:
-                mooncakeName.contains("朱古力") || mooncakeName.contains("咖啡") || mooncakeName.contains("摩卡");
+                mooncakeName.contains("朱古力") || mooncakeName.contains("可可") || mooncakeName.contains("咖啡") || mooncakeName.contains("摩卡");
             case Pineapple:
                 mooncakeName.contains("鳳梨");
             case Coriander:
