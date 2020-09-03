@@ -606,6 +606,20 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/momingsihk"
         },
         {
+            "name": "百。般滋味。夫妻拍住煮",
+            "note": "",
+            "types": [
+                "朱古力金莎月餅",
+                "奶皇金莎酥皮月餅",
+                "單黃白蓮蓉月餅",
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/honanayummy/posts/657795951505363"
+            ],
+            "charleywong": "https://charleywong.giffon.io/honanayummy"
+        },
+        {
             "name": "香港愛護動物協會",
             "note": "",
             "types": [
