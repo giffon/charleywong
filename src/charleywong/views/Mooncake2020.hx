@@ -10,7 +10,7 @@ class Mooncake2020 extends View {
             ],
             "current": true,
             "info": [
-                "https://www.facebook.com/yummycornerhk/posts/3738183472865528"
+                "https://www.facebook.com/609276339572736/posts/921397991693901"
             ],
             "charleywong": "https://charleywong.giffon.io/yummycornerhk"
         },
