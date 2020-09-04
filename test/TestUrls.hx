@@ -37,6 +37,9 @@ class TestUrls extends utest.Test {
                 if (err.contains("503 Service Temporarily Unavailable")) {
                     Sys.println('$url is 503 Service Temporarily Unavailable');
                     Assert.pass();
+                } else if (err.contains("The requested URL returned error: 429")) {
+                    Sys.println(err);
+                    Assert.pass();
                 } else {
                     Assert.fail('$url is not accessible.\n${err}', pos);
                 }
