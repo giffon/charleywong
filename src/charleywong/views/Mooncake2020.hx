@@ -582,6 +582,18 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/hanasoftcream"
         },
         {
+            "name": "Sogno Gelato",
+            "note": "",
+            "types": [
+                "雪糕月餅",
+            ],
+            "current": true,
+            "info": [
+                "https://www.facebook.com/Sogno.Gelato.HK/posts/619422245382911"
+            ],
+            "charleywong": "https://charleywong.giffon.io/Sogno.Gelato.HK"
+        },
+        {
             "name": "黃色助人圈",
             "note": "",
             "types": [
