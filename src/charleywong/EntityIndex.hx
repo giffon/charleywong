@@ -85,9 +85,15 @@ class EntityIndex {
         if (fbPageRegexp.match(p.url))
         {
             m[fbPageRegexp.matched(1)] = e;
-            if (p.meta != null) switch (p.meta["id"]) {
-                case null: //pass
-                case id: m[id] = e;
+            if (p.meta != null) {
+                switch (p.meta["id"]) {
+                    case null: //pass
+                    case id: m[id] = e;
+                }
+                switch (p.meta["username"]) {
+                    case null: //pass
+                    case username: m[username] = e;
+                }
             }
         }
         m;
