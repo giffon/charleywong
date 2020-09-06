@@ -1,5 +1,5 @@
 {
-  "id": "141971742913793",
+  "id": "neighbor_csw",
   "name": {
     "en": "Neighbor"
   },
@@ -21,6 +21,12 @@
         ],
         "single_line_address": "Shop A8 G/F,smiling plaza,162~188 un chau street,sham shui po,Kowloon, 00000 Hong Kong, Hong Kong",
         "website": "www.neighborhoodrestaurant.com.hk"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/neighbor_csw/",
+      "meta": {
+        "name": "Neighbor"
       }
     }
   ],
@@ -82,5 +88,8 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00136"
+  ],
+  "alias": [
+    "141971742913793"
   ]
 }
