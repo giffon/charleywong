@@ -1,9 +1,12 @@
 {
   "id": "thealeproject",
   "name": {
-    "en": "The Ale Project"
+    "en": "TAP - The Ale Project"
   },
   "webpages": [
+    {
+      "url": "https://www.thealeproject.com"
+    },
     {
       "url": "https://www.facebook.com/thealeproject/",
       "meta": {
@@ -51,7 +54,11 @@
       }
     },
     {
-      "url": "https://www.thealeproject.com"
+      "url": "https://www.instagram.com/thealeproject/",
+      "meta": {
+        "name": "The Ale Project",
+        "about": "Craft Beer Bars with a Cult Following. Locations in Mongkok and Tsuen Wan HK. A project by @youngmasterales."
+      }
     }
   ],
   "posts": [
@@ -69,5 +76,20 @@
   "yellowBlueMapIds": [
     "Y_EAT01035",
     "Y_EAT01036"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit 302, The Mills, 45 Pak Tin Par Street, Tsuen Wan"
+      },
+      "googleMapsPlaceId": "ChIJwXG9crH5AzQRoX3LM3XvJSo",
+      "coordinates": {
+        "lat": 22.3750707,
+        "lng": 114.1101695
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
   ]
 }
