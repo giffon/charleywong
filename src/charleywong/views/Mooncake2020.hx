@@ -487,18 +487,6 @@ class Mooncake2020 extends View {
             "charleywong": "https://charleywong.giffon.io/kidultland_cake_hk"
         },
         {
-            "name": "Uncle MuSang 貓山大叔",
-            "note": "",
-            "types": [
-                "榴蓮冰皮月餅"
-            ],
-            "current": true,
-            "info": [
-                "https://www.facebook.com/permalink.php?story_fbid=1149942775385370&id=807405289639122"
-            ],
-            "charleywong": "https://charleywong.giffon.io/unclemusang"
-        },
-        {
             "name": "Bake For You 焙住你",
             "note": "",
             "types": [
