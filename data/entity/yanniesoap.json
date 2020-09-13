@@ -1,12 +1,11 @@
 {
   "id": "yanniesoap",
   "name": {
-    "en": "Yannie Soap",
-    "zh": "嬰兒皂"
+    "en": "Yannie Soap"
   },
   "webpages": [
     {
-      "url": "http://www.yanniesoap.com"
+      "url": "https://www.yanniesoap.com"
     },
     {
       "meta": {
@@ -35,6 +34,13 @@
         "website": "http://www.yanniesoap.com"
       },
       "url": "https://www.facebook.com/yanniesoap/"
+    },
+    {
+      "url": "https://www.instagram.com/yannie_soap/",
+      "meta": {
+        "name": "Yannie soap 手工皂材料店",
+        "about": "由於我女女半歲開始一直受到濕疹問題困擾，那時我開始學製冷製手工皂，希望能改善佢既濕疹，今年已踏入第12年了！\nYannie Soap多以草本植物或天然礦物粉製作冷製皂，希望我製作的皂除了有植物油脂本身的獨有功效外，還增添草本植物各種舒緩特性，大家可以享受沐浴時光外，亦可以令肌膚更健康！"
+      }
     }
   ],
   "posts": [
@@ -46,7 +52,8 @@
     }
   ],
   "tags": [
-    "shop"
+    "shop",
+    "hkbaseDirectory"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01913"
