@@ -127,6 +127,21 @@ class Background {
                         return;
                     }
                     switch (url) {
+                        case {
+                            origin: "https://www.google.com",
+                            pathname: "/url",
+
+                        }:
+                            url = try {
+                                new URL(url.searchParams.get("q"));
+                            } catch (err) {
+                                sendResponse(false);
+                                return;
+                            }
+                        case _:
+                            // pass
+                    }
+                    switch (url) {
                         case extractFbPost(_) => fb if (fb != null):
                             switch (index.entitiesOfFbPage[fb]) {
                                 case null:
