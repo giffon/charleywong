@@ -1,35 +1,28 @@
 {
   "id": "GoodlifeShopHK",
   "name": {
-    "zh": "好生活"
+    "zh": "好生活",
+    "en": "GoodLife"
   },
   "webpages": [
     {
       "url": "https://goodlife.com.hk"
     },
     {
-      "url": "https://www.facebook.com/GoodlifeShopHK/",
+      "url": "https://www.facebook.com/goodlifecomhk/",
       "meta": {
         "id": "104988691004422",
-        "username": "GoodlifeShopHK",
         "name": "好生活",
-        "about": "-選擇美好，傳承美好-\n\n「好生活」以提供生活中的一點美好為便命，搜羅各式優質、可靠的產品，為顧客建立不一樣的幸福感，讓我們能夠一起：過好生活、好好過生活！",
-        "category_list": [
-          {
-            "id": "2201",
-            "name": "Product/Service"
-          }
+        "categories": [
+          "Product/Service"
         ],
-        "emails": [
-          "cs@goodlife.com.hk"
-        ],
-        "website": "https://goodlife.com.hk/"
+        "email": "cs@goodlife.com.hk"
       }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/GoodlifeShopHK/posts/159174265585864",
+      "url": "https://www.facebook.com/104988691004422/posts/159174265585864",
       "meta": {
         "sharedWith": "Public"
       }
@@ -37,7 +30,8 @@
   ],
   "tags": [
     "food",
-    "shop"
+    "shop",
+    "hkbaseDirectory"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02294"
