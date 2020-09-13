@@ -34,21 +34,62 @@
         "website": "https://tecky.io"
       },
       "url": "https://www.facebook.com/tecky.io/"
+    },
+    {
+      "url": "https://www.instagram.com/tecky.io/",
+      "meta": {
+        "name": "Tecky Academy",
+        "about": "Our mission is to provide affordable and career-centric technology education to who are interested in pursuing a career in the technology field."
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/tecky.io/photos/a.1242620759210318/1553069384832119"
+      "url": "https://www.facebook.com/tecky.io/posts/1400838993388493",
+      "meta": {
+        "sharedWith": "Public"
+      }
     },
     {
-      "url": "https://www.facebook.com/tecky.io/photos/a.1224811677657893/1538724422933282"
+      "url": "https://www.facebook.com/tecky.io/posts/1540739969398394",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/tecky.io/posts/1730003040472085",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/tecky.io/posts/1736047456534310",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
     "technology",
-    "shop"
+    "shop",
+    "hkbaseDirectory"
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01377"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Rm 2715-16, 27/F, One Midtown, 11 Hoi Shing Road, Tsuen Wan, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJvXfR3ir5AzQRVPa_LFaNeRw",
+      "coordinates": {
+        "lat": 22.3724739,
+        "lng": 114.1077178
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
   ]
 }
