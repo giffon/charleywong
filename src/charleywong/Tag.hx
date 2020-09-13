@@ -760,5 +760,11 @@ class Tag {
             zh: "烹飪"
         }
     }
-    
+
+    static public final hkbaseDirectory:TagData = {
+        name: {
+            en: "HKBASE directory",
+            zh: "香港永續經濟聯會企業名冊"
+        }
+    }
 }
