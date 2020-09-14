@@ -144,6 +144,11 @@ a.post-preview:hover {
     color: #333;
 }
 
+.entity-list li .type {
+    margin-left: 0.5em;
+    color: gray;
+}
+
 .places .MuiInputBase-root {
     max-width: 100%;
 }

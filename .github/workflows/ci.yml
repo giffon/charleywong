@@ -112,6 +112,14 @@ jobs:
         env:
           GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
           GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
+      - name: Dump HKBASE directory
+        run: |
+          set -ex
+          haxe dumpHkbaseDirectory.hxml
+          node dumpHkbaseDirectory.js dump
+        env:
+          GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
+          GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
       - run: ls -lh
       - name: Deploy
         run: npx serverless deploy

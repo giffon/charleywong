@@ -19,15 +19,19 @@ class HkbaseDirectoryView extends View {
     public var entities(get, never):Array<Entity>;
     function get_entities() return props.entities;
 
-    function renderAreasLabel(area:String) return jsx('
-        <span key=${area} className="area">${area}</span>
+    function renderLabel(label:String) return jsx('
+        <span className="type">${label}</span>
     ');
 
-    function renderEntity(e:Entity) return jsx('
-        <li key=${e.id} className=${Tag.expend(e.tags).map(t -> "tag-" + t.id).join(" ")} >
-            <a href=${'/${e.id}'}>${e.name.printAll()}</a>
-        </li>
-    ');
+    function renderEntity(e:Entity) {
+        var data = HkbaseDirectory.getData(e);
+        return jsx('
+            <li key=${e.id} className=${Tag.expend(e.tags).map(t -> "tag-" + t.id).join(" ")} >
+                <a href=${'/${e.id}'}>${e.name.printAll()}</a>
+                ${data != null ? renderLabel(data.type) : null}
+            </li>
+        ');
+    }
 
     override function prefetch() return entities.length > 5 ? [] : [
         for (e in entities)
