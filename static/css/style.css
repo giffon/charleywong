@@ -496,3 +496,9 @@ footer {
     border-radius: 10px;
 }
 /* general styling class */
+
+.page-hkbase-directory h1 {
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 1em;
+}
