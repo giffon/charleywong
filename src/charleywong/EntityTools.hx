@@ -27,6 +27,14 @@ class EntityTools {
         return full;
     }
 
+    static public function searchable(e:Entity):Bool {
+        return
+            e.posts.length > 0  // some entities may have posts become inaccessbile thus removed
+            ||
+            e.tags.exists(t -> t.id == "hkbaseDirectory") // HKBASE directory is always searchable
+        ;
+    }
+
     #if js
     static public function fullMeta(p:Post):Promise<Post> {
         return if (

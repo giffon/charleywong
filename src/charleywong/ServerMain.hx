@@ -69,7 +69,7 @@ class ServerMain {
             entities: {
                 var entities = [
                     for (e in entityIndex.entities)
-                    if (e.posts.length > 0)
+                    if (e.searchable())
                     e
                 ];
                 entities.sort((e1, e2) -> Reflect.compare(renderName(e1.name).toLowerCase(), renderName(e2.name).toLowerCase()));
@@ -81,7 +81,7 @@ class ServerMain {
     static function allJson(req:Request, res:Response) {
         res.json([
             for (e in entityIndex.entities)
-            if (e.posts.length > 0)
+            if (e.searchable())
             e.id
         ]);
     }
@@ -308,7 +308,7 @@ class ServerMain {
         }
         return ids
             .map(id -> entityIndex.entitiesOfId[id])
-            .filter(e -> e.posts.length > 0) // some entities may have posts become inaccessbile thus removed
+            .filter(e -> e.searchable())
             .filter(e -> tags.foreach(t -> e.tags.exists(tid -> tid.id.toLowerCase() == t)));
     }
 
