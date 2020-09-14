@@ -52,6 +52,13 @@ class ServerMain {
         res.sendView(Mooncake2020);
     }
 
+    static function pageHkbaseDirectory(req:Request, res:Response) {
+        var entities = HkbaseDirectory.entities;
+        res.sendView(HkbaseDirectoryView, {
+            entities: entities,
+        });
+    }
+
     static function renderName(n:MultiLangString) {
         return switch [n[zh], n[en]] {
             case [ null, null ]: throw 'No name available';
@@ -325,7 +332,10 @@ class ServerMain {
         var query:String = req.params.query;
         switch (query.trim().toLowerCase()) {
             case "月餅" | "mooncake":
-                res.redirect("/page/mooncake2020");
+                res.redirect("/" + Mooncake2020.path);
+                return;
+            case "hkbase":
+                res.redirect("/" + HkbaseDirectoryView.path);
                 return;
             case _:
                 //pass
@@ -834,7 +844,8 @@ class ServerMain {
         app.get("/", index);
         app.get("/list/all.json", allJson);
         app.get("/list/all", all);
-        app.get("/page/mooncake2020", pageMooncake2020);
+        app.get("/" + Mooncake2020.path, pageMooncake2020);
+        app.get("/" + HkbaseDirectoryView.path, pageHkbaseDirectory);
         app.get("/list/:name/:entityIds.json", listEntitiesJson);
         app.get("/list/:name/:entityIds", listEntities);
         app.get("/proxy/image", proxyPostImage);
