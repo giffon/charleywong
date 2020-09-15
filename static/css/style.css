@@ -237,18 +237,22 @@ body .MuiMenuItem-root {
     font-size: 100%;
 }
 
-.ybm-info .badge-pill {
+.hkbase-info a * {
+    font-size: 100%;
+}
+
+.webpage .badge-pill {
     background-color: #eee;
 }
 
-.ybm-logo-wrapper {
+.webpage-logo-wrapper {
     position: relative;
     display: inline-block;
     width: 1.25em;
     height: 1em;
 }
 
-.ybm-logo {
+.webpage-logo {
     position: absolute;
     top: -0.1em;
     right: 0;
@@ -256,7 +260,7 @@ body .MuiMenuItem-root {
     height: 1.5em;
 }
 
-.ybm-info .ybm-details {
+.webpage .webpage-details {
     padding-top: 0.5em;
 }
 

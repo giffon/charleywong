@@ -141,14 +141,14 @@ class EntityView extends View {
                 <div className="webpage ybm-info" key=${d.id}>
                     <a href=${"#" + detailId} role="button" data-toggle="collapse" data-target=${"#" + detailId} aria-expanded="false" aria-controls=${detailId}>
                         <span className="badge badge-pill badge-light font-weight-normal text-primary">
-                            <span className="ybm-logo-wrapper">
-                                <img className="ybm-logo" src=${R("/images/ybm-logo.png")} />
+                            <span className="webpage-logo-wrapper">
+                                <img className="webpage-logo" src=${R("/images/ybm-logo.png")} />
                             </span>
                             終極黃藍地圖
                         </span>
                     </a>
                     <div id=${detailId} className="collapse">
-                        <div className="ybm-details">
+                        <div className="webpage-details">
                             此店舖有被收錄於<a href="https://www.facebook.com/yellowbluemap" target="_blank">終極黃藍地圖</a>。
                         </div>
                     </div>
@@ -157,6 +157,32 @@ class EntityView extends View {
         }
 
         return null;
+    }
+
+    function renderHkbaseDirectory(e:Entity) {
+        var data = HkbaseDirectory.getData(e);
+        if (data == null) {
+            return null;
+        }
+
+        var detailId = 'hkbase-detail';
+        return jsx('
+            <div className="webpage hkbase-info">
+                <a href=${"#" + detailId} role="button" data-toggle="collapse" data-target=${"#" + detailId} aria-expanded="false" aria-controls=${detailId}>
+                    <span className="badge badge-pill badge-light font-weight-normal text-primary">
+                        <span className="webpage-logo-wrapper">
+                            <img className="webpage-logo rounded-circle" src=${R("/images/hkbase-logo.png")} />
+                        </span>
+                        HKBASE企業名冊
+                    </span>
+                </a>
+                <div id=${detailId} className="collapse">
+                    <div className="webpage-details">
+                        此店舖有被收錄於<a href=${"/" + HkbaseDirectoryView.path}>HKBASE企業名冊</a>。
+                    </div>
+                </div>
+            </div>
+        ');
     }
 
     function picUrl() return '/${entity.id}/profile.png';
@@ -206,6 +232,7 @@ class EntityView extends View {
                         <div className="text-center mb-3">
                             ${entity.webpages.filter(p -> p.hidden != true).map(renderWebpage)}
                             ${renderYBMap(entity)}
+                            ${renderHkbaseDirectory(entity)}
                         </div>
                         <div className="posts" data-posts=${Json.stringify(entity.posts)} />
                     </div>
