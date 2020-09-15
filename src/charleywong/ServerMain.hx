@@ -308,6 +308,11 @@ class ServerMain {
                 query: query,
                 limit: Math.POSITIVE_INFINITY,
             },
+            {
+                field: "hkbase",
+                query: query,
+                limit: Math.POSITIVE_INFINITY,
+            },
         ]);
         for (id in metaResults.map(r -> r.id)) {
             if (!ids.has(id))

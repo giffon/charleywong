@@ -1,7 +1,6 @@
 package charleywong;
 
 import haxe.Json;
-import js.npm.fetch.Fetch;
 #if js
 import js.lib.Promise;
 import js.html.*;

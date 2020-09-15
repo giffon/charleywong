@@ -12,6 +12,7 @@ import haxe.ds.*;
 import haxe.io.*;
 using Lambda;
 using StringTools;
+using charleywong.EntityTools;
 
 class EntityIndex {
     public final entities:Map<String, Entity>;
@@ -154,6 +155,9 @@ class EntityIndex {
                     "meta": {
                         tokenize: tokenize,
                     },
+                    "hkbase": {
+                        tokenize: tokenize,
+                    }
                 },
             },
             store: "id",
@@ -161,7 +165,7 @@ class EntityIndex {
         if (serializedIndex != null) {
             f._import(serializedIndex);
         } else {
-            f.add(entities.map(e -> {
+            f.add(entities.filter(e -> e.searchable()).map(e -> {
                 id: e.id,
                 name: {
                     en: e.name[en],
@@ -187,6 +191,14 @@ class EntityIndex {
                             case about: about;
                         });
                 }).join("\n"),
+                hkbase: switch (HkbaseDirectory.getData(e)) {
+                    case null: "";
+                    case d:
+                        d.name_en + "\n" +
+                        d.name_zh + "\n" +
+                        d.type + "\n" +
+                        d.description;
+                }
             }));
         }
         f;
