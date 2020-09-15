@@ -52,12 +52,13 @@ class Index extends View {
                                 ${searchForm("", true)}
                                 <div className="p-1 color_black_o60 container-tags">
                                     <ul className="tags d-inline">
-                                        <li><a className="tag-mooncake" href="/page/mooncake2020">月餅</a></li>
+                                        <li><a className="tag-mooncake" href=${"/" + Mooncake2020.path}>月餅</a></li>
                                         <li><a href="/search/japanese%20food">日本菜</a></li>
                                         <li><a href="/search/coffee">咖啡</a></li>
                                         <li><a href="/search/burger">漢堡</a></li>
                                         <li><a href="/search/soap">番梘</a></li>
                                         <li><a href="/search/搬屋">搬屋</a></li>
+                                        <li><a href=${"/" + HkbaseDirectoryView.path}>HKBASE企業名冊</a></li>
                                     </ul>
                                 </div>
                             </div>
