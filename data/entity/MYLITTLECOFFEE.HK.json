@@ -28,10 +28,59 @@
       "url": "https://www.facebook.com/MYLITTLECOFFEE.HK/"
     },
     {
+      "url": "https://www.facebook.com/mylittlecoffeeTM/",
+      "meta": {
+        "id": "1426382307437824",
+        "username": "mylittlecoffeeTM",
+        "name": "Casa Blu 藍屋 at My Little Coffee TM",
+        "about": "「My Little Coffee屯門分店- Casa Blu 藍屋」\n。自家製100%純牛肉手打漢堡。秘制印度咖哩\n。多國美食。自家烘焙咖啡豆。專業咖啡機、器材賣買保養維修 。度身訂造咖啡課程",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
+        ],
+        "emails": [
+          "mylittlecoffee.hk@gmail.com"
+        ],
+        "single_line_address": "屯門建泰街6號恒威工業中心1樓4號, 屯門"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/mylittlecoffee.coffeehouse.roasters/",
+      "meta": {
+        "id": "370830866441743",
+        "username": "mylittlecoffee.coffeehouse.roasters",
+        "name": "My Little Coffee 咖啡掛耳包、假日市集、咖啡到會",
+        "about": "每星期我們的咖啡師都會進駐市集\n售賣自家制掛耳咖啡包和沖煮工具\n免費咖啡試飲\n由於我哋嘅咖啡師多為失聰人士\n我哋亦準備了無聲購物咭，方便大家購物喔\n多謝支持聾人就業",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
+        ],
+        "emails": [
+          "mylittlecoffee.hk@gmail.com"
+        ],
+        "single_line_address": "九龍觀塘駿業里8號世貿大廈1303室, Kung Tong"
+      }
+    },
+    {
       "url": "https://www.instagram.com/mylittlecoffee/",
       "meta": {
         "name": "MY LITTLE COFFEE 咖啡豆專賣店- 好景店",
         "about": "#mylittlecoffee\n扎根於香港最地道的地方-旺角好景\n「咖啡雜貨鋪」\n致力推廣咖啡文化、將咖啡真正帶入屋\n。自家烘焙咖啡豆零售批發 、咖啡膠囊、掛耳包\n。專業咖啡機、器材賣買保養維修\n。度身訂造咖啡課程：學校、公司、機構\n家庭式小社企，人手有限\n支持聾人就業、部份咖啡產品由聾人製造"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/mylittlecoffee_tm/",
+      "meta": {
+        "name": "Casa Blu @ My Little Coffee TM",
+        "about": "#mylittlecoffee\n「My Little Coffee屯門分店- Casa Blu 藍屋」\n。自家製100%純牛肉手打漢堡\n。秘制印度咖哩\n。多國美食\n。自家烘焙咖啡豆零\n。自家制咖啡膠囊\n。專業咖啡機、器材賣買保養維修\n。度身訂造咖啡課程"
       }
     }
   ],
@@ -62,6 +111,58 @@
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘駿業里8號世貿大樓13樓1303室"
+      },
+      "googleMapsPlaceId": "ChIJZRK1d08BBDQRY8uWDy65bNU",
+      "coordinates": {
+        "lat": 22.312408,
+        "lng": 114.22409
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門建泰街6號恒威工業中心1樓4號"
+      },
+      "googleMapsPlaceId": "ChIJO8QPtST7AzQRgkDGMoLQmNA",
+      "coordinates": {
+        "lat": 22.3962947,
+        "lng": 113.9701342
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門湖翠路138號啟豐商場1樓16c7號鋪"
+      },
+      "googleMapsPlaceId": "ChIJD3_la1D7AzQRZDaijvL9pdI",
+      "coordinates": {
+        "lat": 22.3730118,
+        "lng": 113.9643691
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "灣仔灣仔道188號東方188商場2樓221號舖"
+      },
+      "googleMapsPlaceId": "ChIJic3G_HIBBDQRtnLgAGeJJUo",
+      "coordinates": {
+        "lat": 22.2775888,
+        "lng": 114.1776701
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ],
