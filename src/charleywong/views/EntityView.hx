@@ -178,7 +178,8 @@ class EntityView extends View {
                 </a>
                 <div id=${detailId} className="collapse">
                     <div className="webpage-details">
-                        此店舖有被收錄於<a href=${"/" + HkbaseDirectoryView.path}>HKBASE企業名冊</a>。
+                        <p>此店舖有被收錄於<a href=${"/" + HkbaseDirectoryView.path}>HKBASE企業名冊</a>。</p>
+                        <p>HKBASE推介: ${data.description}</p>
                     </div>
                 </div>
             </div>
