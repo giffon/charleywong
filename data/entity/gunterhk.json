@@ -1,17 +1,56 @@
 {
-    "id": "gunterhk",
-    "name": {
-        "en": "Gunter Limited"
+  "id": "gunterhk",
+  "name": {
+    "en": "Gunter Limited"
+  },
+  "webpages": [
+    {
+      "url": "https://www.gunterhk.com"
     },
-    "webpages": [
-        {
-            "url": "https://www.gunterhk.com"
-        }
-    ],
-    "posts": [],
-    "tags": [
-        "advertisingAgency",
-        "shop",
-        "hkbaseDirectory"
-    ]
+    {
+      "url": "https://www.facebook.com/gunterhk/",
+      "meta": {
+        "id": "230171657538007",
+        "username": "gunterhk",
+        "name": "Gunter",
+        "about": "Gunter Limited is a brand new digital marketing consultancy forged by seasoned digital marketer Joe Wong.\n\nIn Gunter, we dare to stand up against marketing challenges deemed only surmountable by big names in industry - and at even more competitive rates.",
+        "category_list": [
+          {
+            "id": "2248",
+            "name": "Consulting Agency"
+          },
+          {
+            "id": "123377808095874",
+            "name": "Marketing Agency"
+          }
+        ],
+        "emails": [
+          "joewong@gunterhk.com"
+        ],
+        "single_line_address": "The Oasis Coworking Space, 6/F, 71 Hung To Road, 觀塘",
+        "website": "https://www.gunterhk.com/"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "advertisingAgency",
+    "shop",
+    "hkbaseDirectory"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "The Oasis Coworking Space, 6/F, 71 Hung To Road"
+      },
+      "googleMapsPlaceId": "ChIJtzie9TcBBDQRdNmKJnJt8iI",
+      "coordinates": {
+        "lat": 22.3090955,
+        "lng": 114.2238644
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ]
 }
