@@ -10,18 +10,28 @@
     {
       "url": "https://www.facebook.com/soapcheriehk/",
       "meta": {
-        "name": "Soap Chérie Hong Kong",
         "id": "2034931159867788",
+        "username": "soapcheriehk",
+        "name": "Soap Chérie Hong Kong",
         "about": "Soap Chérie 於2014年在紐約創立。\n\nSoap Chérie 馥郁香氣和豐潤配方，繁衍出完美的日用產品系列：涵蓋護膚、身體護理、香氛、頭髮護理及家居精品。",
-        "categories": [
-          "Health/Beauty",
-          "Beauty, Cosmetic & Personal Care",
-          "Health & Wellness Website"
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "2707",
+            "name": "Health & Wellness Website"
+          },
+          {
+            "id": "139225689474222",
+            "name": "Beauty, Cosmetic & Personal Care"
+          }
         ],
-        "addr": "1st Floor, Kiosk 3, 11-19 Great George Street, Causeway Bay",
-        "area": "Hong Kong",
-        "email": "info@soapcherie.com.hk",
-        "tel": "90281708"
+        "emails": [
+          "info@soapcherie.com.hk"
+        ],
+        "website": "https://www.soapcherie.com.hk"
       }
     },
     {
