@@ -1,0 +1,82 @@
+{
+  "id": "woodlandpetequipment",
+  "name": {
+    "zh": "活靈寵物用品速遞"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/woodlandpetequipment/",
+      "meta": {
+        "id": "151768148628754",
+        "name": "活靈寵物用品速遞",
+        "categories": [
+          "Product/Service"
+        ],
+        "email": "woodlandpetequipment@gmail.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/woodlandpet_/",
+      "meta": {
+        "name": "WoodlandPet",
+        "about": "22年實體店\n貓狗寵物用品/糧/零食/玩具等😉\n油麻地及大埔都有分店\nWhatsApp: 66336736/66336716"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/woodlandpetequipment/posts/781160255689537",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/woodlandpetequipment/posts/782796758859220",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/woodlandpetequipment/posts/814615375677358",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "animal",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔 昌運中心 地下88號舖"
+      },
+      "googleMapsPlaceId": "ChIJXUMuhkcIBDQRBEwJ-MsLRv4",
+      "coordinates": {
+        "lat": 22.4524409,
+        "lng": 114.1680317
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "油麻地 甘肅街15號 平安大廈 地下18A舖"
+      },
+      "googleMapsPlaceId": "ChIJpTgyAmQBBDQRNQLiPTluevY",
+      "coordinates": {
+        "lat": 22.308604,
+        "lng": 114.1709202
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    "Y_SHOP02701",
+    "Y_SHOP02702"
+  ]
+}
