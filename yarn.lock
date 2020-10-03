@@ -227,10 +227,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
   integrity sha512-kBJtf7PH6aWwZ6fka3zQ0p6SBYzx4fl1LoZXE2RrnYST9Xljm7WfKJrU4g/Xr3Beg72MLrp1AWNUmuYJTL7Cow==
 
-"@googlemaps/google-maps-services-js@3.1.9":
-  version "3.1.9"
-  resolved "https://registry.yarnpkg.com/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.1.9.tgz#a10fb8f05694497ba4915c6a284e5be21c49f461"
-  integrity sha512-WrD4de6StuGIBKuA6/CNXCQwVvVqZQQjDzr/K9/60zv93QNFLfaQRCNTjtmULNxILBSQw6CsApHVgR6tZS+40A==
+"@googlemaps/google-maps-services-js@3.1.13":
+  version "3.1.13"
+  resolved "https://registry.yarnpkg.com/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.1.13.tgz#e4263e15c0d5e5f1c7a5d3c65e376d9e613e234a"
+  integrity sha512-ONG8YFlqeofi2+CcEhtvlIkFD8Ia2p64RHnk2fZOigwOCKZ5BLs/Z/nOMnwM6JGFf2FX0x/hWzoOtQ7tUG4YAg==
   dependencies:
     agentkeepalive "^4.1.0"
     axios "0.19.0 || ^0.20.1"
