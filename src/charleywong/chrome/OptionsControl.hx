@@ -2,6 +2,7 @@ package charleywong.chrome;
 
 import js.Browser.*;
 import mui.core.*;
+import mui.core.styles.*;
 import react.*;
 import react.Fragment;
 import react.ReactMacro.jsx;
@@ -65,9 +66,9 @@ class OptionsControl extends ReactComponent {
 
     override function render() {
         var dataEntrySwitch = jsx('
-            <Switch size="small"
+            <Switch size=${Small}
                 checked=${dataEntryMode}
-                onChange=${function(evt) { dataEntryMode = evt.target.checked; }}
+                onChange=${function(evt, elm) { dataEntryMode = (cast evt.target).checked; }}
             />
         ');
         return jsx('
