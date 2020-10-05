@@ -112,7 +112,7 @@ jobs:
           mv browser/* static
           mv flexsearch/* .
           mv HkbaseDirectory/* .
-          rm -r index browser flexsearch
+          rm -r dclookup index browser flexsearch HkbaseDirectory
       - name: Install libraries
         run: |
           set -ex
