@@ -53,7 +53,7 @@ class ServerMain {
     }
 
     static function pageHkbaseDirectory(req:Request, res:Response) {
-        var entities = HkbaseDirectory.localCache.map(HkbaseDirectory.getEntity); // use the order of HKBASE directory
+        var entities = HkbaseDirectory.localCache.map(d -> HkbaseDirectory.getEntity(d, entityIndex.entitiesOfHkbase)); // use the order of HKBASE directory
         res.sendView(HkbaseDirectoryView, {
             entities: entities,
         });
