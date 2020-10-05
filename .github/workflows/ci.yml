@@ -34,8 +34,7 @@ jobs:
           set -ex
           yarn
           bash build-dclookup.sh
-          haxelib newrepo
-          haxelib install all --always -notimeout
+          lix download
       - uses: actions/upload-artifact@v1
         with:
           name: dclookup
@@ -102,8 +101,7 @@ jobs:
         run: |
           set -ex
           yarn
-          haxelib newrepo
-          haxelib install all --always
+          lix download
       - name: Dump YellowBlueMap
         run: |
           set -ex
