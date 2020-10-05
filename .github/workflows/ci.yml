@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20200716
+    container: giffon/charleywong_devcontainer_workspace:20201005
     services:
       selenium:
         image: selenium/standalone-chrome-debug:3.141.59-yttrium
@@ -73,7 +73,7 @@ jobs:
     needs: build
     if: success() && github.event_name == 'push' && github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20200716
+    container: giffon/charleywong_devcontainer_workspace:20201005
     steps:
       - uses: actions/checkout@v1
         with:

@@ -1,0 +1,4 @@
+# @install: lix --silent download "haxelib:/react#1.11.1" into react/1.11.1/haxelib
+-lib html-entities
+-cp ${HAXE_LIBCACHE}/react/1.11.1/haxelib/src/lib
+-D react=1.11.1
