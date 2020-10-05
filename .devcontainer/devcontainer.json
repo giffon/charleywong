@@ -5,7 +5,8 @@
 	"workspaceFolder": "/workspace",
 	"postCreateCommand": "./.devcontainer/postCreateCommand.sh",
 	"extensions": [
-		"nadako.vshaxe"
+		"nadako.vshaxe",
+		"lix.lix"
 	],
 	"appPort": [ 3000, 5900 ]
 }
