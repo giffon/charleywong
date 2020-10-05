@@ -118,6 +118,10 @@ class EntityIndex {
         m;
     }
 
+    public var entitiesOfHkbase(get, null):Array<Entity>;
+    function get_entitiesOfHkbase()
+        return entitiesOfHkbase != null ? entitiesOfHkbase : entitiesOfHkbase = entities.filter(e -> e.tags.exists(t -> t.id == "hkbaseDirectory"));
+
     #if js
     final emojiRegexp = ~/(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/g;
     final mixedChiEngSep = ~/(?:[\s\-\/]+|(?=[\u4e00-\u9fff])|(?<=[\u4e00-\u9fff]))/g;

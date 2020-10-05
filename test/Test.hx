@@ -8,6 +8,7 @@ class Test {
             new TestAllEntities(index),
             new TestSchema(),
             new TestTags(),
+            new TestHkbaseDirectory(index),
         ];
         switch (Sys.args()) {
             case [] | ["push"]:

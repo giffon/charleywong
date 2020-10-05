@@ -1,13 +1,13 @@
 package charleywong;
 
-import js.html.URL;
-import js.lib.Promise;
-import haxe.*;
-import sys.io.File;
+#if js
 import js.npm.google_spreadsheet.GoogleSpreadsheet;
 import charleywong.GoogleServiceAccount.googleServiceAccount;
 import charleywong.UrlExtractors.*;
-import charleywong.ServerMain.*;
+#end
+
+import haxe.*;
+import sys.io.File;
 using Lambda;
 using Reflect;
 using StringTools;
@@ -25,8 +25,10 @@ typedef HkbaseData = {
 typedef HkbaseDump = Array<HkbaseData>;
 
 class HkbaseDirectory {
+    #if js
     static final sheetId = "1tZ-ODQRQFI1bzvekxkR0g4eULcPk9D3BZTOYbvYWdt8";
     static final doc = new GoogleSpreadsheet(sheetId);
+    #end
     static final localCacheFile = "HkbaseDirectory.json";
 
     static public var localCache(get, null):HkbaseDump;
@@ -37,10 +39,40 @@ class HkbaseDirectory {
         [];
     }
 
-    static public var entities(get, null):Array<Entity>;
-    static function get_entities()
-        return entities != null ? entities : entities = entityIndex.entities.filter(e -> e.tags.exists(t -> t.id == "hkbaseDirectory"));
+    final data:HkbaseDump;
+    public function new(dump):Void {
+        data = dump;
+    }
 
+    static function url(v:String):String {
+        if (!v.startsWith("http"))
+            v = "http://" + v;
+        return v;
+    }
+
+
+    static public function match(data:HkbaseData, e:Entity):Bool {
+        if (e.webpages.exists(p -> data.webpages.has(p.url)))
+            return true;
+
+        if (e.webpages.exists(p -> p.url == 'tel:' + data.tel))
+            return true;
+
+        if (e.webpages.exists(p -> p.url == 'mailto:' + data.email))
+            return true;
+
+        return false;
+    }
+
+    static public function getEntity(data:HkbaseData, entities:Iterable<Entity>):Null<Entity> {
+        return entities.find(e -> match(data, e));
+    }
+
+    static public function getData(e:Entity):Null<HkbaseData> {
+        return localCache.find(data -> match(data, e));
+    }
+
+    #if js
     static function strCol(row:Dynamic, colName:String):Null<String> {
         return switch (row.field(colName)) {
             case null:
@@ -89,11 +121,6 @@ class HkbaseDirectory {
         }
     }
 
-    final data:HkbaseDump;
-    public function new(dump):Void {
-        data = dump;
-    }
-
     static function dumpToFile() {
         var sheet = doc.sheetsByIndex[0];
         sheet.loadCells()
@@ -118,69 +145,19 @@ class HkbaseDirectory {
             .then(data -> File.saveContent(localCacheFile, Json.stringify(data, null, "  ")));
     }
 
-    static function testMapping() {
-        for (e in entityIndex.entities)
-        if (e.tags.exists(t -> t.id == "hkbaseDirectory"))
-        {
-
-        }
-    }
-
-    static function url(v:String):String {
-        if (!v.startsWith("http"))
-            v = "http://" + v;
-        return v;
-    }
-
     static public function dump() {
         return doc.useServiceAccountAuth(googleServiceAccount)
             .then(_ -> doc.loadInfo())
             .then(_ -> dumpToFile());
     }
 
-    static public function test() {
-        for (e in entities) {
-            var data = getData(e);
-            if (data == null)
-                throw 'There is no HKBASE data for ' + e.id;
-        }
-
-        for (data in localCache) {
-            var e = getEntity(data);
-            if (e == null)
-                throw 'There is no entity for ' + data;
-        }
-    }
-
-    static public function match(data:HkbaseData, e:Entity):Bool {
-        if (e.webpages.exists(p -> data.webpages.has(p.url)))
-            return true;
-
-        if (e.webpages.exists(p -> p.url == 'tel:' + data.tel))
-            return true;
-
-        if (e.webpages.exists(p -> p.url == 'mailto:' + data.email))
-            return true;
-
-        return false;
-    }
-
-    static public function getEntity(data:HkbaseData):Null<Entity> {
-        return entities.find(e -> match(data, e));
-    }
-
-    static public function getData(e:Entity):Null<HkbaseData> {
-        return localCache.find(data -> match(data, e));
-    }
-
     static function main():Void {
         switch (Sys.args()) {
             case ["dump"]:
                 dump();
-            case ["test"]:
-                test();
             case _:
                 throw "unknown args";
         }
     }
+    #end
 }
