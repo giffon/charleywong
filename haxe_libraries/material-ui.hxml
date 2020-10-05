@@ -1,8 +1,8 @@
-# @install: lix --silent download "gh://github.com/andyli/haxe-material-ui#f9615d214c4ab7092db7f80f0582d87e7d09c3fd" into material-ui/4.1.0/github/f9615d214c4ab7092db7f80f0582d87e7d09c3fd
+# @install: lix --silent download "gh://github.com/andyli/haxe-material-ui#627b7843aba12cc53326552a60eae9092da876ee" into material-ui/4.1.0/github/627b7843aba12cc53326552a60eae9092da876ee
 -lib css-types
 -lib js-object
 -lib react-event-listener
 -lib react-transition-group
 -lib react-types
--cp ${HAXE_LIBCACHE}/material-ui/4.1.0/github/f9615d214c4ab7092db7f80f0582d87e7d09c3fd/src
+-cp ${HAXE_LIBCACHE}/material-ui/4.1.0/github/627b7843aba12cc53326552a60eae9092da876ee/src
 -D material-ui=4.1.0
