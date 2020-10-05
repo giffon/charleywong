@@ -60,7 +60,7 @@ class View extends ReactComponent {
         </Fragment>
     ');
 
-    function js() return jsx('
+    function script() return jsx('
         <Fragment>
             <script src=${R("/browser.bundled.js")}></script>
         </Fragment>
@@ -122,7 +122,7 @@ class View extends ReactComponent {
             ${depCss()}
             ${depJs()}
             ${css()}
-            ${js()}
+            ${script()}
             ${prefetch().map(prefetchNode)}
         </head>
     ');

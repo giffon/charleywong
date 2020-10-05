@@ -7,4 +7,5 @@
 --class-path src
 --class-path lib/hxnodelibs
 -D export-flexsearch
+-D react_skip_extend_component_restriction
 --cmd node exportFlexsearch.js

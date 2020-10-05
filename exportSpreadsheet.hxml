@@ -6,5 +6,6 @@
 --library tink_core
 --class-path src
 --class-path lib/hxnodelibs
+-D react_skip_extend_component_restriction
 --debug
 --cmd node exportSpreadsheet.js
