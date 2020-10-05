@@ -1,5 +1,6 @@
 --library hxnodejs
---library react
+--library react-next
+--library material-ui
 --library compiletime
 --library tink_core
 --class-path src

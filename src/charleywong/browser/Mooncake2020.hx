@@ -3,7 +3,7 @@ package charleywong.browser;
 import js.html.ScrollLogicalPosition;
 import react.*;
 import react.ReactMacro.jsx;
-import js.npm.material_ui.MaterialUi;
+import mui.core.*;
 import js.npm.react_facebook.ReactFacebook;
 import js.npm.react_instagram_embed.InstagramEmbed;
 import js.Browser.*;
@@ -13,6 +13,12 @@ using Lambda;
 
 @:jsRequire("react-masonry-css", "default")
 extern class Masonry extends ReactComponent {}
+
+@:jsRequire("@material-ui/core/useScrollTrigger", "default")
+extern class UseScrollTrigger {
+    @:selfCall
+    static function useScrollTrigger(opts:Dynamic):Dynamic;
+}
 
 enum abstract MooncakeType(String) {
     var AnyMooncake = "任何款式";
@@ -197,8 +203,8 @@ class Mooncake2020 extends ReactComponent {
         });
     }
 
-    function onOfferChange(evt) {
-        switch (offerType = evt.target.value) {
+    function onOfferChange(evt:js.html.Event, elm) {
+        switch (offerType = (cast evt.target).value) {
             case Manufactured:
             case Workshop | MaterialAndTools:
                 mooncakeType = AnyMooncake;
@@ -255,6 +261,10 @@ class Mooncake2020 extends ReactComponent {
             case Workshop | MaterialAndTools:
                 null;
             case Manufactured:
+                function onChange(evt, elm) {
+                    mooncakeType = (cast evt.target).value;
+                    onFilterChange();
+                }
                 jsx('
                     <FormControl>
                         <InputLabel id="mooncake-type-label">月餅款式</InputLabel>
@@ -262,7 +272,7 @@ class Mooncake2020 extends ReactComponent {
                             labelId="mooncake-type-label"
                             id="mooncake-type-select"
                             value=${mooncakeType}
-                            onChange=${evt -> { mooncakeType = evt.target.value; onFilterChange(); }}
+                            onChange=${onChange}
                             disableUnderline=${true}
                             autoWidth=${true}
                         >
@@ -319,7 +329,7 @@ class Mooncake2020 extends ReactComponent {
         var rendered = jsx('
             <div>
                 <ElevationScroll>
-                    <AppBar position="sticky" className="mb-2 bg-light text-body">
+                    <AppBar position=${Sticky} className="mb-2 bg-light text-body">
                         <Toolbar>
                             <i className="fas fa-filter mr-2"></i>
                             <FormControl>

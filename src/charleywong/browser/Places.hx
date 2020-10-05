@@ -2,7 +2,7 @@ package charleywong.browser;
 
 import react.*;
 import react.ReactMacro.jsx;
-import js.npm.material_ui.MaterialUi;
+import mui.core.*;
 
 class Places extends ReactComponent {
     var places(get, null):Array<charleywong.Entity.Place>;

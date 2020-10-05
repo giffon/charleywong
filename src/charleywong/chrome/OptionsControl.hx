@@ -1,7 +1,7 @@
 package charleywong.chrome;
 
 import js.Browser.*;
-import js.npm.material_ui.MaterialUi;
+import mui.core.*;
 import react.*;
 import react.Fragment;
 import react.ReactMacro.jsx;

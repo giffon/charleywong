@@ -1,0 +1,5 @@
+# @install: lix --silent download "haxelib:/react-event-listener#0.1.1" into react-event-listener/0.1.1/haxelib
+-lib react-types
+-cp ${HAXE_LIBCACHE}/react-event-listener/0.1.1/haxelib/src
+-D react-event-listener=0.1.1
+--macro react.event.EventListenerMacro.registerValidator()

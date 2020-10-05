@@ -139,7 +139,7 @@ class EntityView extends View {
             var detailId = 'ybm-detail-${d.id}';
             return jsx('
                 <div className="webpage ybm-info" key=${d.id}>
-                    <a href=${"#" + detailId} role="button" data-toggle="collapse" data-target=${"#" + detailId} aria-expanded="false" aria-controls=${detailId}>
+                    <a href=${"#" + detailId} role="button" data-toggle="collapse" data-target=${"#" + detailId} aria-expanded=${false} aria-controls=${detailId}>
                         <span className="badge badge-pill badge-light font-weight-normal text-primary">
                             <span className="webpage-logo-wrapper">
                                 <img className="webpage-logo" src=${R("/images/ybm-logo.png")} />
@@ -168,7 +168,7 @@ class EntityView extends View {
         var detailId = 'hkbase-detail';
         return jsx('
             <div className="webpage hkbase-info">
-                <a href=${"#" + detailId} role="button" data-toggle="collapse" data-target=${"#" + detailId} aria-expanded="false" aria-controls=${detailId}>
+                <a href=${"#" + detailId} role="button" data-toggle="collapse" data-target=${"#" + detailId} aria-expanded=${false} aria-controls=${detailId}>
                     <span className="badge badge-pill badge-light font-weight-normal text-primary">
                         <span className="webpage-logo-wrapper">
                             <img className="webpage-logo rounded-circle" src=${R("/images/hkbase-logo.png")} />

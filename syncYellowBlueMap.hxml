@@ -1,7 +1,7 @@
 --js syncYellowBlueMap.js
 --main charleywong.YellowBlueMap
 --library hxnodejs
---library react
+--library react-next
 --library compiletime
 --library tink_core
 --class-path src

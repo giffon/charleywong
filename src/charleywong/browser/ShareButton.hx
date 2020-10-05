@@ -3,7 +3,7 @@ package charleywong.browser;
 import haxe.Timer;
 import react.*;
 import react.ReactMacro.jsx;
-import js.npm.material_ui.MaterialUi;
+import mui.core.*;
 import js.Browser.*;
 import js.Lib.require;
 

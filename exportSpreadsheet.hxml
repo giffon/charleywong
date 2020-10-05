@@ -1,12 +1,10 @@
 --js exportSpreadsheet.js
 --main charleywong.ExportSpreadsheet
 --library hxnodejs
---library react
+--library react-next
 --library compiletime
 --library tink_core
 --class-path src
 --class-path lib/hxnodelibs
--D react_ver=16.12
--D react_fragments
 --debug
 --cmd node exportSpreadsheet.js

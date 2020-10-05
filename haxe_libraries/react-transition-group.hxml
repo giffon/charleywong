@@ -1,0 +1,5 @@
+# @install: lix --silent download "haxelib:/react-transition-group#0.1.0" into react-transition-group/0.1.0/haxelib
+-lib react-types
+-cp ${HAXE_LIBCACHE}/react-transition-group/0.1.0/haxelib/src
+-D react-transition-group=0.1.0
+--macro react.transition.TransitionMacro.registerValidator()

@@ -1,0 +1,5 @@
+# @install: lix --silent download "haxelib:/react-types#0.12.0" into react-types/0.12.0/haxelib
+-lib css-types
+-cp ${HAXE_LIBCACHE}/react-types/0.12.0/haxelib/src
+-D react-types=0.12.0
+-D react_types_base_element=DOMElement
