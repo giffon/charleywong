@@ -57,6 +57,18 @@ jobs:
         with:
           name: flexsearch
           path: flexsearch.json
+      - name: Dump HKBASE directory
+        run: |
+          set -ex
+          haxe dumpHkbaseDirectory.hxml
+          node dumpHkbaseDirectory.js dump
+        env:
+          GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
+          GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
+      - uses: actions/upload-artifact@v1
+        with:
+          name: HkbaseDirectory
+          path: HkbaseDirectory.json
       - name: Compile Chrome extension
         run: haxe chrome-extension.hxml
       - uses: actions/upload-artifact@v1
@@ -89,6 +101,9 @@ jobs:
       - uses: actions/download-artifact@v1
         with:
           name: flexsearch
+      - uses: actions/download-artifact@v1
+        with:
+          name: HkbaseDirectory
       - name: move artifacts
         run: |
           set -ex
@@ -96,6 +111,7 @@ jobs:
           mv index/* .
           mv browser/* static
           mv flexsearch/* .
+          mv HkbaseDirectory/* .
           rm -r index browser flexsearch
       - name: Install libraries
         run: |
@@ -107,14 +123,6 @@ jobs:
           set -ex
           haxe syncYellowBlueMap.hxml
           node syncYellowBlueMap.js dump
-        env:
-          GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
-          GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
-      - name: Dump HKBASE directory
-        run: |
-          set -ex
-          haxe dumpHkbaseDirectory.hxml
-          node dumpHkbaseDirectory.js dump
         env:
           GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
           GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
