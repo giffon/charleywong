@@ -11,4 +11,4 @@ sudo chmod a+rwx node_modules
 yarn
 
 bash build-dclookup.sh
-haxelib newrepo && haxelib install all --always
+lix download
