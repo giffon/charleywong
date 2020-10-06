@@ -1,7 +1,8 @@
 {
   "id": "ashopcomhk",
   "name": {
-    "zh": "香港購物網"
+    "zh": "香港購物網",
+    "en": "ASHOP.COM.HK"
   },
   "webpages": [
     {
@@ -42,7 +43,7 @@
   "places": [
     {
       "address": {
-        "en": "Flat 8, 3/F, Festigood Center 8 Lok Yip Rd, On Lok Tsuen, Fanling, N.T."
+        "zh": "香港新界粉嶺安樂村樂業路8號豐樂工貿中心3樓8室"
       },
       "googleMapsPlaceId": "ChIJ-btkOh72AzQRo9JrUCttMeI",
       "coordinates": {
@@ -51,6 +52,19 @@
       },
       "area": {
         "zh": "北區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣羅素街60號地下B舖"
+      },
+      "googleMapsPlaceId": "ChIJ6YXqMlEABDQRFvGdYlBb2To",
+      "coordinates": {
+        "lat": 22.278814,
+        "lng": 114.183424
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ]

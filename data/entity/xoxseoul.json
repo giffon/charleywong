@@ -67,5 +67,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00441"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 1104, Good Hope Building, 5 Sai Yeung Choi Street South, Mongkok"
+      },
+      "googleMapsPlaceId": "ChIJWTmv8n_5AzQRtQnXzGvPD4k",
+      "coordinates": {
+        "lat": 22.3173731,
+        "lng": 114.1700381
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
