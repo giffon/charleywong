@@ -9,12 +9,14 @@
       "meta": {
         "id": "107166414337832",
         "name": "La Tessa",
-        "categories": [
-          "Restaurant"
+        "about": "過去一年，曾穿梭各區接送陌路人回家的中年人……。現在只希望為曾為香港人走到前線的手足，提供可以為生的工作機會……。深水埗大埔道18號地下……La Tessa Restaurant (前身：翠麗餐廳）",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "深水埗 大埔道18號 中國聯合銀行大廈地下",
-        "area": "Kowloon, Hong Kong",
-        "email": "latessaltd@gmail.com"
+        "single_line_address": "深水埗 大埔道18號 中國聯合銀行大廈地下, Kowloon, Hong Kong"
       }
     },
     {

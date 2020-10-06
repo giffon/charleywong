@@ -11,12 +11,17 @@
         "id": "351503248342687",
         "name": "Fa Kee Farm 花記農場",
         "about": "具有30年耕種經驗，不斷培植及用心種植出最新鮮、最道地的蔬果。",
-        "categories": [
-          "Fruit & vegetable shop",
-          "Farm"
+        "category_list": [
+          {
+            "id": "128157407253652",
+            "name": "Fruit & Vegetable Store"
+          },
+          {
+            "id": "150815208309028",
+            "name": "Farm"
+          }
         ],
-        "addr": "元朗橋興路白沙村第一段",
-        "area": "Yuen Long Town"
+        "single_line_address": "元朗橋興路白沙村第一段, Yuen Long Town, Hong Kong"
       }
     }
   ],
