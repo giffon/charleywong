@@ -202,8 +202,7 @@ class View extends ReactComponent {
                     Copyright (C) 2020  <a href="https://giffon.io">Giffon Limited</a>
                 </p>
                 <p>
-                    <a href="https://giffon.io/terms">Terms and Conditions</a> 
-                    <a href="https://giffon.io/privacy">Privacy Policy</a>
+                    <a href="https://giffon.io/terms">Terms and Conditions</a> <a href="https://giffon.io/privacy">Privacy Policy</a>
                 </p>
             </footer>
             ${footJs()}
