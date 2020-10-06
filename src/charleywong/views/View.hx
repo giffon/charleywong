@@ -142,6 +142,10 @@ class View extends ReactComponent {
             <div className="content">
                 ${bodyContent()}
             </div>
+            <div className="mt-3 mt-md-5 text-center container">
+                <a href="https://www.facebook.com/hkssprangers"><img className="img-fluid d-none d-sm-inline" src=${R("/images/good-970-90.jpg")} alt="good space"/></a>
+                <a href="https://www.facebook.com/hkssprangers"><img className="img-fluid d-inline d-sm-none" src=${R("/images/good-320-50.jpg")} alt="good space2"/></a>
+            </div>
             <div className="mt-3 mt-md-5 container-intro text-center color_black_o60">
                 <h3 className="pt-5">Charley 其實係咩?</h3>
                 
