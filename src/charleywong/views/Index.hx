@@ -42,7 +42,7 @@ class Index extends View {
                     <div className="container-search">
                         <div className="position-relative">
                             <a href="/">
-                                <img className="img-fluid logo-c col-4 col-md-3 col-lg-2" src=${R("/images/charley-mooncake.png")} alt="Charley Wong 和你查" width="1060" height="1060" />
+                                <img className="img-fluid logo-c col-4 col-md-3 col-lg-2" src=${R("/images/charley-600-w.png")} alt="Charley Wong 和你查" width="1060" height="1060" />
                             </a>
                         </div>
                         <br/><br/><br/><br/>
