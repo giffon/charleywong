@@ -1,8 +1,5 @@
 package charleywong.views;
 
-import charleywong.browser.SearchBar;
-import charleywong.EntityIndex;
-
 class Campaign extends View {
     override public function description() return "廣告宣傳計劃";
     override function canonical() return Path.join([ServerMain.domain, "campaign"]);
@@ -12,7 +9,7 @@ class Campaign extends View {
 
     override function bodyContent() {
         return jsx('
-            <Fragment>
+            <div className="container">
                 <div className="mx-auto col-12 col-md-8">
       
                         <div className="mb-3 pl-0 pb-1 pr-1 bg-stripe-y rounded-10 col">
@@ -117,7 +114,7 @@ class Campaign extends View {
                             </div>
                         </div>
                 </div>
-            </Fragment>
+            </div>
         ');
     }
 }
