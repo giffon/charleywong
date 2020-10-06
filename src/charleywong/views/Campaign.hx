@@ -1,7 +1,8 @@
 package charleywong.views;
 
 class Campaign extends View {
-    override public function description() return "廣告宣傳計劃";
+    override public function title() return "廣告宣傳計劃";
+    override public function description() return "喺 Charley Wong 和你查 放置廣告，宣傳你嘅產品服務。";
     override function canonical() return Path.join([ServerMain.domain, "campaign"]);
     override public function render() {
         return super.render();
