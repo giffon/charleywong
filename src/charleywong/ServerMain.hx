@@ -48,6 +48,10 @@ class ServerMain {
         res.sendView(Index);
     }
 
+    static function campaign(req:Request, res:Response) {
+        res.sendView(Campaign);
+    }
+
     static function pageMooncake2020(req:Request, res:Response) {
         res.sendView(Mooncake2020);
     }
@@ -847,6 +851,7 @@ class ServerMain {
         app.use(allowCors);
 
         app.get("/", index);
+        app.get("/campaign", campaign);
         app.get("/list/all.json", allJson);
         app.get("/list/all", all);
         app.get("/" + Mooncake2020.path, pageMooncake2020);
