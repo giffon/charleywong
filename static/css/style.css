@@ -511,3 +511,11 @@ footer {
     font-size: x-large;
     margin-bottom: 1em;
 }
+
+.border-left-y {
+    border-left: 3px solid #f4a948;
+}
+
+.border-3 {
+    border: 3px solid;
+}
