@@ -115,6 +115,7 @@ class Campaign extends View {
                                 <p>視乎情況由Charley自己出內容，或由其他創作朋友出內容</p>
                                 </div>
                             </div>
+                            <br/>
                         </div>
                     </div>
             
