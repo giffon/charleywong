@@ -52,7 +52,7 @@ class Campaign extends View {
                     <div className="mb-3 pl-0 pb-1 pr-1 bg-stripe-y rounded-10 col">
                         <div className="pt-4 px-4 pt-lg-5 px-lg-5 bg-white rounded-10">
                             <div className="d-md-flex align-items-end">
-                                <div className="col">
+                                <div className="col p-0 px-md-3">
                                     <h4 className="">Banner</h4>
                                     <p>最自由嘅宣傳方式</p>
                                     <div className="pl-2 border-left-y">
@@ -70,7 +70,7 @@ class Campaign extends View {
                                     <p>上架為期1個月 <span className="badge badge-info">HK$$ 500起</span></p>
                                     </div>
                                 </div>
-                                <div className="col">
+                                <div className="col p-0 px-md-3">
                                     <img className="w-100" src=${R("/images/cap-1.jpg")}/>         
                                 </div>
                             </div>
@@ -81,11 +81,11 @@ class Campaign extends View {
                         
                         <div className="pt-4 px-4 pt-lg-5 px-lg-5 bg-white rounded-10">
                             <div className="d-flex align-items-end flex-column-reverse flex-md-row">
-                                <div className="col">
+                                <div className="col p-0 px-md-3">
                                     <img className="w-100" src=${R("/images/cap-2.jpg")}/>
                                     
                                 </div>
-                                <div className="col">
+                                <div className="col p-0 px-md-3">
                                     <h4 className="">搜尋結果排名</h4>
                                     <p>最簡單嘅宣傳方式</p>
                                     <div className="pl-2 border-left-y">
