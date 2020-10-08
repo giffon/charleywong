@@ -11,11 +11,18 @@
     {
       "url": "https://www.facebook.com/aegisvahk/",
       "meta": {
-        "name": "保護傘 Aegis",
         "id": "107001547536634",
-        "categories": [
-          "Personal Blog",
-          "Product/Service"
+        "username": "aegisvahk",
+        "name": "保護傘 Aegis",
+        "category_list": [
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       }
     },
