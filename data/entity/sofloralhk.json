@@ -47,5 +47,20 @@
   "tags": [
     "florist",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room C, 1/F, 59 King Yip Street, King Yip Factory Building, Kwun Tong, Kowloon, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJrUzLJUUBBDQR1Cqqyh33CyA",
+      "coordinates": {
+        "lat": 22.3088342,
+        "lng": 114.2262329
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
