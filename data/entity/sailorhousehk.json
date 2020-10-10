@@ -82,5 +82,20 @@
     "food",
     "foodStore",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗長沙灣道154-156號地下A3舖"
+      },
+      "googleMapsPlaceId": "EiAxNTQgQ2hldW5nIFNoYSBXYW4gUmQsIEhvbmcgS29uZyIxEi8KFAoSCZPQCfO0AAQ0EVPJ4Hj62LldEJoBKhQKEgnBgFxZrQAENBEiCMiCHY3muw",
+      "coordinates": {
+        "lat": 22.3299565,
+        "lng": 114.1636527
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
