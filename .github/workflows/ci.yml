@@ -35,6 +35,7 @@ jobs:
           yarn
           bash build-dclookup.sh
           lix download
+          npx dts2hx @types/gtag.js --noLibWrap --output lib/dts2hx
       - uses: actions/upload-artifact@v1
         with:
           name: dclookup
@@ -118,6 +119,7 @@ jobs:
           set -ex
           yarn
           lix download
+          npx dts2hx @types/gtag.js --noLibWrap --output lib/dts2hx
       - name: Dump YellowBlueMap
         run: |
           set -ex
