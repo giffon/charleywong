@@ -34,7 +34,8 @@
     },
     {
       "meta": {
-        "about": "【 Inspiration from Poland | Made in Hong Kong 】\n-\n【 Singapore Pop Up 】\n🇸🇬 7-16/2 @313somerset\n-\n【 Hong Kong Shop 】\n🇭🇰12pm - 8:30pm (Open Everyday)"
+        "name": "The Polska Traveller",
+        "about": "【 Inspiration from Polska | Crafted in Hong Kong 】\n📍🇭🇰【 Hong Kong Shop 】\n12pm - 7:30pm｜Monday - Sunday\n📍🇸🇬 Ship to Singapore before 31/10, DM us now!"
       },
       "url": "https://www.instagram.com/thepolskatraveller/"
     }
@@ -49,5 +50,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00475"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 5, G/F, 19-23 Tung Lo Wan Road, Causeway Bay"
+      },
+      "googleMapsPlaceId": "ChIJq6oOmFsABDQRblP2bHmKSsE",
+      "coordinates": {
+        "lat": 22.2787415,
+        "lng": 114.1885344
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
