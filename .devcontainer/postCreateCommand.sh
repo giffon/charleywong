@@ -12,3 +12,5 @@ yarn
 
 bash build-dclookup.sh
 lix download
+
+npx dts2hx @types/gtag.js --noLibWrap --output lib/dts2hx

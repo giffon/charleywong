@@ -3,10 +3,12 @@ package charleywong;
 import haxe.*;
 import react.*;
 import react.ReactMacro.jsx;
-import js.html.DivElement;
+import js.html.*;
 import js.jquery.*;
 import js.Browser.*;
+import global.GtagJsGlobal.*;
 import charleywong.browser.*;
+using StringTools;
 
 class BrowserMain {
     static function onReady():Void {
@@ -58,6 +60,27 @@ class BrowserMain {
                 <Mooncake2020 data=${Json.parse(div.dataset.mooncake2020)} />
             '), div);
         }
+
+        document.body.addEventListener("click", gtagOnClick);
+    }
+
+    static function gtagOnClick(evt:MouseEvent) {
+        var href = try {
+            cast(cast(evt.target, Element).closest("a"), AnchorElement).href;
+        } catch (err) return true;
+
+        if (href.startsWith(document.location.origin))
+            return true;
+
+        gtag("event", "click", {
+            event_category: "outbound",
+            event_label: href,
+            transport_type: "beacon",
+            event_callback: function(){
+                document.location.assign(href);
+            },
+        });
+        return false;
     }
 
     static function main():Void {
