@@ -36,7 +36,11 @@
       "url": "https://www.facebook.com/fading.mist.leather/"
     },
     {
-      "url": "https://www.instagram.com/fadingmist/"
+      "url": "https://www.instagram.com/fadingmist/",
+      "meta": {
+        "name": "Fading Mist Handmade Leather",
+        "about": "🇭🇰香港人皮革訂做及工作坊💪\nHong Kong Handmade Leather\n工作室: 筲箕灣望隆街1號合隆工廠大廈15樓A1508室 (*敬請預約)\nEmail: fading.mist.leather@gmail.com"
+      }
     }
   ],
   "posts": [
@@ -52,5 +56,20 @@
   ],
   "tags": [
     "accessories"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "筲箕灣望隆街1號合隆工廠大廈15樓A1508室"
+      },
+      "googleMapsPlaceId": "ChIJYdFAd3gBBDQROizUi6V0bEE",
+      "coordinates": {
+        "lat": 22.2776336,
+        "lng": 114.2293442
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
   ]
 }
