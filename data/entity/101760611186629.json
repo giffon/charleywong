@@ -8,11 +8,20 @@
       "url": "https://www.facebook.com/101760611186629/",
       "meta": {
         "id": "101760611186629",
+        "username": "blablablatea",
         "name": "壺說-台灣好茶",
-        "categories": [
-          "Bubble Tea Shop",
-          "Taiwanese Restaurant"
-        ]
+        "about": "台式珍珠奶茶手搖飲",
+        "category_list": [
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          },
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          }
+        ],
+        "single_line_address": "深水埗桂林街143號地下F號舖, Hong Kong, Hong Kong"
       }
     }
   ],
