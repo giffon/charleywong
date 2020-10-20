@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.wearenoexpert.com"
+    },
+    {
       "meta": {
         "id": "340411489384701",
         "username": "wearenoexpert",
@@ -31,6 +34,13 @@
         "website": "www.wearenoexpert.com"
       },
       "url": "https://www.facebook.com/wearenoexpert/"
+    },
+    {
+      "url": "https://www.instagram.com/wearenoexpert/",
+      "meta": {
+        "name": "We Are NO Expert",
+        "about": "香港九龍尖沙咀彌敦道132號美麗華廣場一期B138店"
+      }
     }
   ],
   "posts": [
@@ -45,5 +55,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02247"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍尖沙咀彌敦道132號美麗華廣場一期B138店"
+      },
+      "googleMapsPlaceId": "ChIJfS2WsX4BBDQR585ZPZuIFcU",
+      "coordinates": {
+        "lat": 22.3009412,
+        "lng": 114.172221
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
