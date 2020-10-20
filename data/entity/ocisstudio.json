@@ -47,5 +47,20 @@
   "tags": [
     "artist",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍旺角洗衣街91號偉基樓3A室"
+      },
+      "googleMapsPlaceId": "ChIJB0vS0MkABDQRLBky38l6DZo",
+      "coordinates": {
+        "lat": 22.319483,
+        "lng": 114.171491
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

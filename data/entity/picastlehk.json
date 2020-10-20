@@ -52,5 +52,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00116"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "西營盤正街18號啟正中心9樓903B"
+      },
+      "googleMapsPlaceId": "ChIJOcgS8oD_AzQRN3n2W43Tnnw",
+      "coordinates": {
+        "lat": 22.287552,
+        "lng": 114.142194
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }
