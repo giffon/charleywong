@@ -4204,10 +4204,10 @@ download@^8.0.0:
     p-event "^2.1.0"
     pify "^4.0.1"
 
-dts2hx@0.14.1:
-  version "0.14.1"
-  resolved "https://registry.yarnpkg.com/dts2hx/-/dts2hx-0.14.1.tgz#7aa7e6b665c99771a2cfc3e0dde1c6d3e7a933e4"
-  integrity sha512-1GkJkCPnLtj02NTFtym81F+UxFYpuO0VDMwTV5WPHUDYEc8sAdvzmQjFEIzjZRDMdjCJBpIveCELSMrb2z5q6w==
+dts2hx@0.14.4:
+  version "0.14.4"
+  resolved "https://registry.yarnpkg.com/dts2hx/-/dts2hx-0.14.4.tgz#504d0dedab832e1f6e5653c83d997061fab81a15"
+  integrity sha512-VNT306hWCcIcphL0JeOOmRHzKjWGni6ss6EXoV4EOWLmjj+/Yo69WWEfV+tq5BsN7HgBeOSrCKumuO12AgOqsw==
   dependencies:
     typescript "3.7.4"
 
