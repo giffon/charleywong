@@ -26,6 +26,13 @@
         "website": "www.palette-co.com"
       },
       "url": "https://www.facebook.com/paletteco/"
+    },
+    {
+      "url": "https://www.instagram.com/wedplanner.paletteco/",
+      "meta": {
+        "name": "Palette Co",
+        "about": "Singer-songwriter 葉晴晴 婚禮統籌師\nArtist 陳嘉寳 婚禮統籌師\nArtist 李漫芬 婚禮統籌師\n<新婚通訊>雜誌 “至Like貼心婚禮統籌” 獎項（連續4年獲得）\n☎Whatsapp\nhttps://wa.me/85290989925"
+      }
     }
   ],
   "posts": [
@@ -37,5 +44,20 @@
     "wedding",
     "shop",
     "emcee"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Flat A3, 12/F, Block 2, Camel Paint Building, 62 Hoi Yuen Road, Kwun Tong"
+      },
+      "googleMapsPlaceId": "ChIJ63n5akUBBDQRisocNm6Ap6s",
+      "coordinates": {
+        "lat": 22.3100518,
+        "lng": 114.2255362
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
