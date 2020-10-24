@@ -6,7 +6,10 @@ using Lambda;
 using StringTools;
 
 class TestAllEntities extends utest.Test {
+    final fbUrlRegexp = ~/^https?:\/\/(?:www\.)?facebook\.com\/(.+?)\/?$/;
+    final igUrlRegexp = ~/^https?:\/\/(?:www\.)?instagram\.com\/(.+?)\/?$/;
     final index:EntityIndex;
+
     public function new(index:EntityIndex) {
         super();
         this.index = index;
@@ -56,6 +59,25 @@ class TestAllEntities extends utest.Test {
         }
     }
 
+    function testIdForHuman():Void {
+        // use fb username or ig handle instead of number as id
+        for (file => e in index.entities)
+        if (~/^[0-9]{8,}$/.match(e.id))
+        {
+            for (p in e.webpages) {
+                if (fbUrlRegexp.match(p.url)) {
+                    if (p.meta != null && p.meta["username"] != null) {
+                        Assert.equals(p.meta["username"], e.id, '$file should use FB username as id.');
+                    }
+                } else if (igUrlRegexp.match(p.url)) {
+                    Assert.equals(igUrlRegexp.matched(1), e.id, '$file should use IG handle as id.');
+                }
+            }
+        }
+
+        Assert.pass();
+    }
+
     function testWebpagesUrlUniqueness():Void {
         var urls = new Map<String, Entity>();
         for (file => entity in index.entities) {
@@ -79,20 +101,18 @@ class TestAllEntities extends utest.Test {
     }
 
     function testFbUrlFormat() {
-        var regexp = ~/^https?:\/\/(?:www\.)?facebook\.com\/(.+?)\/?$/;
         for (entity in index.entities) {
             for (page in entity.webpages)
-            if (regexp.match(page.url))
-            Assert.equals('https://www.facebook.com/${regexp.matched(1)}/', page.url);
+            if (fbUrlRegexp.match(page.url))
+            Assert.equals('https://www.facebook.com/${fbUrlRegexp.matched(1)}/', page.url);
         }
     }
 
     function testIgUrlFormat() {
-        var regexp = ~/^https?:\/\/(?:www\.)?instagram\.com\/(.+?)\/?$/;
         for (entity in index.entities) {
             for (page in entity.webpages)
-            if (regexp.match(page.url))
-            Assert.equals('https://www.instagram.com/${regexp.matched(1)}/', page.url);
+            if (igUrlRegexp.match(page.url))
+            Assert.equals('https://www.instagram.com/${igUrlRegexp.matched(1)}/', page.url);
         }
     }
 
