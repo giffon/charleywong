@@ -90,5 +90,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01301"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍旺角西洋菜南街2A-2H號銀城廣場21樓"
+      },
+      "googleMapsPlaceId": "ChIJAQBAy4T4AzQRSym16WqsTuU",
+      "coordinates": {
+        "lat": 22.3162458,
+        "lng": 114.1708277
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

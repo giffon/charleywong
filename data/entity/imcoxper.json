@@ -28,7 +28,11 @@
       "url": "https://www.facebook.com/imcoxper/"
     },
     {
-      "url": "https://www.instagram.com/imcoxper/"
+      "url": "https://www.instagram.com/imcoxper/",
+      "meta": {
+        "name": "抒銅 COXPER",
+        "about": "手予銅製是抒銅名字的由來，用雙手去締造不完美的銅製品。微妙而湊巧的獨特性能為你添上不一樣的生活品味。[美]能夠不修邊幅地延續下去，就是我們渴望的[原美]。\n#本地手作 #imperfect #金工 #金工班 #工作坊 #5201314\n歡迎網購或WhatsApp 查詢訂製\n👇🏻👇🏻👇🏻"
+      }
     }
   ],
   "posts": [
@@ -45,5 +49,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP00800"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "106 King Fook Street, Prince industrial building, 7/F, Kwun Tong"
+      },
+      "googleMapsPlaceId": "ChIJu4h8GNEGBDQRBJhx7acewao",
+      "coordinates": {
+        "lat": 22.3344503,
+        "lng": 114.1989367
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
   ]
 }
