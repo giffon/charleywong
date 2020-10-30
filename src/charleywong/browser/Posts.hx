@@ -12,10 +12,10 @@ using StringTools;
 using Lambda;
 
 class MyInstagramEmbed extends ReactComponent {
-    var url(get, never):Array<charleywong.Entity.Post>;
+    var url(get, never):String;
     function get_url() return props.url;
 
-    var maxWidth(get, never):Array<charleywong.Entity.Post>;
+    var maxWidth(get, never):Float;
     function get_maxWidth() return props.maxWidth;
 
     var embedFailed(get, set):Bool;
@@ -36,7 +36,7 @@ class MyInstagramEmbed extends ReactComponent {
 
     override function render() {
         if (embedFailed)
-            return jsx('<p>無法載入 Instagram 相片，可能已經被移除。</p>');
+            return jsx('<p><a href=${url}>${url}</a></p>');
 
         return jsx('
             <InstagramEmbed
