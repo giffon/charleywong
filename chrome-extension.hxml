@@ -5,6 +5,7 @@
 --library tink_core
 --class-path src
 --class-path lib/hxnodelibs
+-D react_skip_extend_component_restriction
 
 # --library chrome-extension
 --class-path lib/chrome.extension/src
