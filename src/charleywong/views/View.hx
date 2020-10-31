@@ -62,6 +62,7 @@ class View extends ReactComponent {
 
     function script() return jsx('
         <Fragment>
+            <script src="//platform.instagram.com/en_US/embeds.js"></script>
             <script src=${R("/browser.bundled.js")}></script>
         </Fragment>
     ');

@@ -38,12 +38,24 @@ class EntityTools {
     static public function fullMeta(p:Post):Promise<Post> {
         return if (
             extractFbPost(new URL(p.url)) != null ||
-            p.url.startsWith("https://www.instagram.com/p/") ||
             p.url.startsWith("https://www.youtube.com/watch?v=") ||
             p.url.startsWith("https://t.me/") ||
             p.url.startsWith("https://twitter.com/")
         ) {
             Promise.resolve(p);
+        } else if (p.url.startsWith("https://www.instagram.com/p/")) {
+            Instagram.getOEmbed(p.url)
+                .then(oEmbed -> {
+                    var p = Reflect.copy(p);
+                    if (p.meta == null)
+                        p.meta = {};
+                    p.meta["oEmbed"] = oEmbed;
+                    p;
+                })
+                .catchError(e -> {
+                    trace(e);
+                    p;
+                });
         } else {
             Utils.getMeta(p.url)
                 .then(meta -> {

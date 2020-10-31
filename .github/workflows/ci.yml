@@ -134,6 +134,7 @@ jobs:
         env:
           GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
           GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
+          FACEBOOK_TOKEN: ${{ secrets.FACEBOOK_TOKEN }}
           AWS_ACCESS_KEY_ID: ${{ secrets.awsAccessKeyId }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.awsSecretAccessKey }}
           SERVERLESS_ACCESS_KEY: ${{ secrets.serverlessAccessKey }}

@@ -1,50 +1,41 @@
 package charleywong.browser;
 
+import js.Syntax;
+import haxe.Timer;
 import js.html.URL;
 import react.*;
+import react.ReactComponent;
 import react.ReactMacro.jsx;
 import js.npm.react_facebook.ReactFacebook;
 import js.npm.react_instagram_embed.InstagramEmbed;
 import js.npm.react_telegram_embed.TelegramEmbed;
 import js.Browser.*;
+import charleywong.Instagram;
+import charleywong.Entity;
 import charleywong.Utils.prettyUrl;
 using StringTools;
 using Lambda;
 
-class MyInstagramEmbed extends ReactComponent {
-    var url(get, never):String;
-    function get_url() return props.url;
+typedef MyInstagramEmbedProps = {
+    final post:Post;
+}
 
-    var maxWidth(get, never):Float;
-    function get_maxWidth() return props.maxWidth;
+typedef MyInstagramEmbedState = {}
 
-    var embedFailed(get, set):Bool;
-    function get_embedFailed() return state.embedFailed;
-    function set_embedFailed(v) {
-        setState({
-            embedFailed: v,
-        });
-        return v;
+class MyInstagramEmbed extends ReactComponentOf<MyInstagramEmbedProps, MyInstagramEmbedState> {
+    override function componentDidMount() {
+        Syntax.code("instgrm.Embeds.process()");
     }
-
-    function new(props) {
-        super(props);
-        state = {
-            embedFailed: false,
-        };
-    }
-
     override function render() {
-        if (embedFailed)
-            return jsx('<p><a href=${url}>${url}</a></p>');
+        if (props.post.meta == null || props.post.meta["oEmbed"] == null)
+            return jsx('<p><a href=${props.post.url}>${props.post.url}</a></p>');
+
+        var content = {
+            __html: (props.post.meta["oEmbed"]:InstagramOEmbedResponse).html,
+        };
 
         return jsx('
-            <InstagramEmbed
-                url=${url}
-                hideCaption=${false}
-                maxWidth=${maxWidth}
-                onFailure=${() -> embedFailed = true}
-            />
+            <div dangerouslySetInnerHTML=${content}></div>
         ');
     }
 }
@@ -74,7 +65,7 @@ class Posts extends ReactComponent {
 
     override function componentDidMount() {
         lastWindowWidth = window.innerWidth;
-        window.addEventListener('resize', onResized);
+        Timer.delay(() -> window.addEventListener('resize', onResized), 0);
     }
 
     override function componentWillUnmount() {
@@ -175,8 +166,7 @@ class Posts extends ReactComponent {
                 classes.push("post-ig");
                 jsx('
                     <MyInstagramEmbed
-                        url=${p.url}
-                        maxWidth=${width}
+                        post=${p}
                     />
                 ');
             } else if (
@@ -269,7 +259,7 @@ class Posts extends ReactComponent {
             </FacebookProvider>
         ');
         if (resized) {
-            resized = false;
+            Timer.delay(() -> resized = false, 0);
         }
         return rendered;
     }
