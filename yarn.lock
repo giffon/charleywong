@@ -711,7 +711,7 @@
     node-fetch "^2.6.0"
     shortid "^2.2.14"
 
-"@serverless/components@^3.2.7":
+"@serverless/components@^3.3.0":
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/@serverless/components/-/components-3.3.0.tgz#bf297d0734117009425c01166759c339bf8785d8"
   integrity sha512-QEjWK9jsIXMh9j/my8HJDtS04bL0TtiLPIr50jfPMUkqnl51thZGHswNwkkuCsmnvcQhZGspD68hIqWPlQRjMw==
@@ -2653,10 +2653,10 @@ available-typed-arrays@^1.0.0, available-typed-arrays@^1.0.2:
   dependencies:
     array-filter "^1.0.0"
 
-aws-sdk@^2.781.0:
-  version "2.781.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.781.0.tgz#e9df63e9b69c22ac939ab675c8771592ae89105a"
-  integrity sha512-y+Xd+DJJyNgZdPLZytJA8LRR79spD/zXOt0G9Uk68UC9tRDEB8aQysuxWKYEybYCexRqJtTZLCrR3ikYwU099g==
+aws-sdk@^2.784.0:
+  version "2.784.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.784.0.tgz#70136a537d5c977a9e9a2e8b6a234b45ec2da0a1"
+  integrity sha512-+KBkqH7t/XE91Fqn8eyJeNIWsnhSWL8bSUqFD7TfE3FN07MTlC0nprGYp+2WfcYNz5i8Bus1vY2DHNVhtTImnw==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -8846,19 +8846,19 @@ serverless-prune-plugin@1.4.3:
   dependencies:
     bluebird "^3.4.7"
 
-serverless@2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.9.0.tgz#7c7a158ed604201f66f4344db60653f6d3e93328"
-  integrity sha512-BrjprNv7wwzORfCvrBCslpC0r9VG0FuhCl9iYJHzV7cCMtIafuOa6oX6LWIa+rPtfL0TR0TsQwwFiEADI/OMWg==
+serverless@2.10.0:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.10.0.tgz#2d1707d5ff94f6fe881454c609a675febb09db73"
+  integrity sha512-5q/8gJvOh3ssqskIw/UNLyXWWLEfJtvRiPK7qnOS71uvjz19mtL+a3XrowMNe/KINRXzzMWBGpGNwzcLEAhcZQ==
   dependencies:
     "@serverless/cli" "^1.5.2"
-    "@serverless/components" "^3.2.7"
+    "@serverless/components" "^3.3.0"
     "@serverless/enterprise-plugin" "^4.1.1"
     "@serverless/utils" "^2.0.0"
     ajv "^6.12.6"
     ajv-keywords "^3.5.2"
     archiver "^5.0.2"
-    aws-sdk "^2.781.0"
+    aws-sdk "^2.784.0"
     bluebird "^3.7.2"
     boxen "^4.2.0"
     cachedir "^2.3.0"
