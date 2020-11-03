@@ -44,6 +44,7 @@ class EntityTools {
         ) {
             Promise.resolve(p);
         } else if (p.url.startsWith("https://www.instagram.com/p/")) {
+            #if (nodejs && !chrome)
             Instagram.getOEmbed(p.url)
                 .then(oEmbed -> {
                     var p = Reflect.copy(p);
@@ -56,6 +57,9 @@ class EntityTools {
                     trace(e);
                     p;
                 });
+            #else
+            Promise.resolve(p);
+            #end
         } else {
             Utils.getMeta(p.url)
                 .then(meta -> {

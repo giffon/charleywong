@@ -9,7 +9,7 @@ import haxe.io.Path;
 import js.npm.fetch.Fetch.fetch;
 using StringTools;
 using Lambda;
-#if nodejs
+#if (nodejs && !chrome)
 import js.node.Querystring;
 import sys.io.File;
 #end
@@ -32,7 +32,7 @@ class Facebook {
     static public final appId = "628806881259482";
     static public final apiVersion = "v7.0";
 
-    #if nodejs
+    #if (nodejs && !chrome)
     static public final accessToken = try {
         File.getContent("FACEBOOK_TOKEN").trim();
     } catch (e) {

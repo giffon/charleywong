@@ -8,3 +8,7 @@ import haxe.io.*;
 import charleywong.StaticResource.R;
 using Lambda;
 using StringTools;
+
+#if chrome
+#error
+#end

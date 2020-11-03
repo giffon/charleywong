@@ -15,7 +15,7 @@ typedef InstagramOEmbedResponse = {
 }
 
 class Instagram {
-    #if nodejs
+    #if (nodejs && !chrome)
     static public function getOEmbed(igPost:String):Promise<InstagramOEmbedResponse> {
         var query = js.node.Querystring.encode({
             url: igPost,
