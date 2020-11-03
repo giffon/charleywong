@@ -54,5 +54,20 @@
   "tags": [
     "food",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵涌大連排道162號金龍工業中心2座地下A室"
+      },
+      "googleMapsPlaceId": "ChIJE1VoR734AzQRBvRIsVAOk9U",
+      "coordinates": {
+        "lat": 22.3584055,
+        "lng": 114.1310228
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
