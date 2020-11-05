@@ -53,5 +53,20 @@
   ],
   "tags": [
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Metro City, 8 Yan King Road, Po Lam"
+      },
+      "googleMapsPlaceId": "ChIJsRhi4AsEBDQRUICy1eIXrD4",
+      "coordinates": {
+        "lat": 22.3225404,
+        "lng": 114.2570671
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    }
   ]
 }
