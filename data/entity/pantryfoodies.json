@@ -11,15 +11,28 @@
       "url": "https://www.facebook.com/pantryfoodies/",
       "meta": {
         "id": "367645086673802",
+        "username": "pantryfoodies",
         "name": "Pantry Foodies到會服務",
-        "categories": [
-          "Food Delivery Service",
-          "Foodservice Distributor",
-          "Party Entertainment Service"
+        "about": "用心經營各式派對、會議、婚禮茶會之到會美食，用食物、味道為客人帶來美好回憶。Catering service, caring service! 詳情可Whatapps查詢: 51140419",
+        "category_list": [
+          {
+            "id": "1802051720039034",
+            "name": "Food Delivery Service"
+          },
+          {
+            "id": "200019523363001",
+            "name": "Foodservice Distributor"
+          },
+          {
+            "id": "189334414420898",
+            "name": "Party Entertainment Service"
+          }
         ],
-        "addr": "青衣工業中心二期D座",
-        "area": "Tsing Yi Town, Hong Kong",
-        "email": "pantry_gm@yahoo.com.hk"
+        "emails": [
+          "pantry_gm@yahoo.com.hk"
+        ],
+        "single_line_address": "青衣工業中心二期D座, Tsing Yi Town, Hong Kong",
+        "website": "http://pantrygm.oddle.me/"
       }
     },
     {
