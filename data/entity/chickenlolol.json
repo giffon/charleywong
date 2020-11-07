@@ -1,0 +1,51 @@
+{
+  "id": "chickenlolol",
+  "name": {
+    "en": "Chicken lol",
+    "zh": "出嚟撈"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/chickenlolol/",
+      "meta": {
+        "id": "717757681971801",
+        "username": "chickenlolol",
+        "name": "Chicken lol 出嚟撈",
+        "about": "台式鹽水雞",
+        "category_list": [
+          {
+            "id": "192803624072087",
+            "name": "Fast Food Restaurant"
+          }
+        ],
+        "single_line_address": "上環孖沙街11號A地鋪, 0000 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/chickenlol_0001/",
+      "meta": {
+        "name": "Chicken LoL",
+        "about": "出嚟撈\n撈到上環孖沙街11A地鋪"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "上環孖沙街11號A地鋪"
+      },
+      "googleMapsPlaceId": "ChIJExQXp18BBDQR5-Lz7s_aaT4",
+      "coordinates": {
+        "lat": 22.2854378,
+        "lng": 114.1518196
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ]
+}
