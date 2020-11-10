@@ -126,6 +126,10 @@
     text-shadow: 0 0 7px #172451;
 }
 
+.mooncake-info > div.bg-none {
+    background-image: none;
+}
+
 @media (min-width: 576px) {
 
 }

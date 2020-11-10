@@ -7,38 +7,14 @@ import react.*;
 import react.ReactComponent;
 import react.ReactMacro.jsx;
 import js.npm.react_facebook.ReactFacebook;
-import js.npm.react_instagram_embed.InstagramEmbed;
 import js.npm.react_telegram_embed.TelegramEmbed;
 import js.Browser.*;
 import charleywong.Instagram;
 import charleywong.Entity;
 import charleywong.Utils.prettyUrl;
+import charleywong.browser.InstagramEmbed;
 using StringTools;
 using Lambda;
-
-typedef MyInstagramEmbedProps = {
-    final post:Post;
-}
-
-typedef MyInstagramEmbedState = {}
-
-class MyInstagramEmbed extends ReactComponentOf<MyInstagramEmbedProps, MyInstagramEmbedState> {
-    override function componentDidMount() {
-        Syntax.code("instgrm.Embeds.process()");
-    }
-    override function render() {
-        if (props.post.meta == null || props.post.meta["oEmbed"] == null)
-            return jsx('<p><a href=${props.post.url}>${props.post.url}</a></p>');
-
-        var content = {
-            __html: (props.post.meta["oEmbed"]:InstagramOEmbedResponse).html,
-        };
-
-        return jsx('
-            <div dangerouslySetInnerHTML=${content}></div>
-        ');
-    }
-}
 
 class Posts extends ReactComponent {
     var posts(get, never):Array<charleywong.Entity.Post>;
@@ -165,7 +141,7 @@ class Posts extends ReactComponent {
             ) {
                 classes.push("post-ig");
                 jsx('
-                    <MyInstagramEmbed
+                    <InstagramEmbed
                         post=${p}
                     />
                 ');

@@ -5,7 +5,6 @@ import react.*;
 import react.ReactMacro.jsx;
 import mui.core.*;
 import js.npm.react_facebook.ReactFacebook;
-import js.npm.react_instagram_embed.InstagramEmbed;
 import js.Browser.*;
 import haxe.DynamicAccess;
 using StringTools;
@@ -184,13 +183,9 @@ class Mooncake2020 extends ReactComponent {
             return jsx('
                 <EmbeddedPost key=${url} href=${url} />
             ');
-        } else if (url.startsWith("https://www.instagram.com/")) {
-            return jsx('
-                <InstagramEmbed key=${url} url=${url} />
-            ');
         } else {
             return jsx('
-                <div key=${url}>
+                <div key=${url} className="bg-none">
                     <a target="_blank" href=${url}>${url}</a>
                 </div>
             ');
