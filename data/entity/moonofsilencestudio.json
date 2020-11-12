@@ -31,7 +31,8 @@
     },
     {
       "meta": {
-        "about": "星期二至日：15:00-late night\n【靜月】\n香港店：大坑新村街35號地下 G/F, 35 Sun Chun Street, Tai Hang, HK"
+        "name": "靜月 Moon of Silence",
+        "about": "一個講故佬嘅萬事屋 A storyteller house⁣\n⁣大坑新村街36號地下\nContact:92431909\n⁣Business hours:Tue-Sun (2pm- 8.30pm), Mon (Close)"
       },
       "url": "https://www.instagram.com/moon.of.silence/"
     }
@@ -55,5 +56,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01123"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大坑新村街36號地下"
+      },
+      "googleMapsPlaceId": "ChIJYSrms1YABDQRx9oPYsDrX2Y",
+      "coordinates": {
+        "lat": 22.278177,
+        "lng": 114.1929409
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
