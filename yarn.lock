@@ -7219,12 +7219,7 @@ mute-stream@0.0.8:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
-nan@^2.12.1, nan@^2.14.0:
-  version "2.14.1"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.1.tgz#d7be34dfa3105b91494c3147089315eff8874b01"
-  integrity sha512-isWHgVjnFjh2x2yuJ/tj3JbwoHu3UC2dX5G/88Cm24yB6YopVgxvBObDY7n5xW6ExmFhJpSEQqFPvq9zaXc8Jw==
-
-nan@^2.14.1:
+nan@^2.12.1, nan@^2.14.0, nan@^2.14.1:
   version "2.14.2"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
   integrity sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
@@ -7387,10 +7382,10 @@ node-pre-gyp@^0.14.0:
     semver "^5.3.0"
     tar "^4.4.2"
 
-nodejieba@2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/nodejieba/-/nodejieba-2.4.1.tgz#2c3e422fbcc6d8d449f2d02226da053ba594736c"
-  integrity sha512-fxlVloaO5baDBmpnQ2egDCe6FT9SJdfbFak7tK7dKH16d7SxA5bLdv47EdTwtKS9DRbnXnMlyX5Wc33XAnaQuA==
+nodejieba@2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/nodejieba/-/nodejieba-2.4.2.tgz#15ba9032e72e89d9b68ecd9e907fcc3da3151ebc"
+  integrity sha512-U/Yey+OCv7XvTnujtjyx+FEIQ+na8nlroyrzs3vM2dIM/Nx2XpoPA8DcfDXmLuLbnlfd0rd1FCsZ5b5yFTTI9A==
   dependencies:
     nan "^2.14.0"
     node-pre-gyp "^0.14.0"
