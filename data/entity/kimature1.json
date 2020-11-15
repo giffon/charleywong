@@ -6,10 +6,14 @@
   },
   "webpages": [
     {
-      "url": "https://www.kimature.hk/categories/white-jade-orchid-series"
+      "url": "https://www.kimature.hk"
     },
     {
-      "url": "https://www.instagram.com/kimature1/"
+      "url": "https://www.instagram.com/kimature1/",
+      "meta": {
+        "name": "kimature",
+        "about": "香港獨有的#天然純素護膚品牌。#香港首枝白蘭花味香水，研製#白蘭花護膚及香體產品，採購#新鮮白蘭花#幫助長者增加收入 並以#香港有機農場種植 的 #青草藥 為主要原材料#支持有機農業，開發#極簡配方#純素 #低敏#不含奶蛋蜂蜜成份的個人護理及美容產品，適合孕婦使用。"
+      }
     },
     {
       "url": "https://www.facebook.com/kimature1/",
@@ -43,19 +47,22 @@
     {
       "url": "https://www.facebook.com/kimature1/posts/2311201109129996",
       "meta": {
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     },
     {
       "url": "https://www.facebook.com/kimature1/posts/2349680991948674",
       "meta": {
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     },
     {
       "url": "https://www.facebook.com/kimature1/posts/2358650587718381",
       "meta": {
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     }
   ],
