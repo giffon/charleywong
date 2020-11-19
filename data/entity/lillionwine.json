@@ -130,5 +130,59 @@
   "tags": [
     "alcoholic",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘巧明街114號, 迅達工業大廈8樓D室"
+      },
+      "googleMapsPlaceId": "ChIJfXjjgUUBBDQR4FwfBgopK9E",
+      "coordinates": {
+        "lat": 22.3112489,
+        "lng": 114.2241663
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀山林道9號地舖"
+      },
+      "googleMapsPlaceId": "ChIJu2HPCewABDQRLHxlyiBkV3g",
+      "coordinates": {
+        "lat": 22.3028785,
+        "lng": 114.1726382
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港灣仔天樂里12號地舖"
+      },
+      "googleMapsPlaceId": "EiIxMiBUaW4gTG9rIExuLCBXYW4gQ2hhaSwgSG9uZyBLb25nIjASLgoUChIJ_cWboFAABDQRH_q3kpa9eDUQDCoUChIJv8C0oFAABDQRbeF6Q5-M1bc",
+      "coordinates": {
+        "lat": 22.2782198,
+        "lng": 114.1797034
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角弼街60號地下C1舖"
+      },
+      "googleMapsPlaceId": "ChIJa8wuRMgABDQR5kLWDJPFhbs",
+      "coordinates": {
+        "lat": 22.322043,
+        "lng": 114.1696349
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

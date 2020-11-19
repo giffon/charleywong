@@ -27,7 +27,7 @@
       "url": "https://www.instagram.com/tinyeahtinyeah/",
       "meta": {
         "name": "田嘢 Organic Greenfield",
-        "about": "◆地址：荃灣白田壩街36-44號信義工業大廈14樓A室03號（南豐紗廠對面）\n◆電話/WhatsApp：5285 8163(11:00-18:00）"
+        "about": "◆地址：荃灣科技中心1605室（南豐紗廠白田壩街斜對面）\n◆電話/WhatsApp：5285 8163(10:00-18:00）"
       }
     }
   ],
@@ -44,5 +44,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP02313"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣沙咀道科技中心1605室"
+      },
+      "googleMapsPlaceId": "ChIJ09KcTfT5AzQRaySXWxx4BTk",
+      "coordinates": {
+        "lat": 22.3742236,
+        "lng": 114.108959
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
   ]
 }

@@ -38,5 +38,20 @@
   ],
   "yellowBlueMapIds": [
     "Y_SHOP01015"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, 11 Hoi Pong Street, Sai Kung"
+      },
+      "googleMapsPlaceId": "EiIxMSBTYWkgS3VuZyBIb2kgUG9uZyBTdCwgSG9uZyBLb25nIjASLgoUChIJTRhjqr0FBDQR3kYR3uh8rUIQCyoUChIJhwRiqr0FBDQRDBRiHY2MV44",
+      "coordinates": {
+        "lat": 22.3793733,
+        "lng": 114.2711797
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    }
   ]
 }
