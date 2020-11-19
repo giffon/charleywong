@@ -35,7 +35,7 @@
       "url": "https://www.instagram.com/fasttaste/",
       "meta": {
         "name": "Fast Taste",
-        "about": "餐廳裝潢休閒具工業風，倡有葷有素的西式煮意!\n(漢堡包，意粉，意大利飯，沙律，小食)\n小店由老闆兼廚師主理，提供「派對到會」，歡迎查詢。\n☎+852 9123 3262\n地址：九龍長沙灣元州街482-492號金碧閣4號舖\n(長沙灣地鐵C2/荔枝角B1岀口）"
+        "about": "長沙灣店 - 元州街482-492號金碧閣地下☎️9123 3262\n深水埗店 - 福華街110號地下 ☎️6162 8045\n由老細兼廚師主理嘅小店，倡有葷有素的西式煮意。\n(有漢堡包，意粉，意大利飯，海鮮，沙律，小食)"
       }
     }
   ],
@@ -79,12 +79,25 @@
   "places": [
     {
       "address": {
-        "en": "No.482-492 Un Chau Street, Kowloon"
+        "zh": "元州街482-492號金碧閣地下"
       },
       "googleMapsPlaceId": "ChIJJb92j1EHBDQRSB0_JbTatwk",
       "coordinates": {
         "lat": 22.3399066,
         "lng": 114.1536608
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "福華街110號地下"
+      },
+      "googleMapsPlaceId": "EiExMTAgRnVrIFdhIFN0LCBVbiBDaGF1LCBIb25nIEtvbmciMBIuChQKEgmFAkW8tAAENBFjVf0WEuiaZRBuKhQKEgnRTuHqtAAENBErb_6hJVVrgw",
+      "coordinates": {
+        "lat": 22.3312274,
+        "lng": 114.162943
       },
       "area": {
         "zh": "深水埗區"
