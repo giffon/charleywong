@@ -797,6 +797,7 @@ class ServerMain {
                                 case { short_name: "NZ" }: { zh: "紐西蘭" };
                                 case { short_name: "SG" }: { zh: "新加坡" };
                                 case { short_name: "MO" }: { zh: "澳門" };
+                                case { short_name: "GB" }: { zh: "英國" };
                                 case { short_name: code, long_name: name }:
                                     trace('Missing Chinese name of ${code}. Check https://en.wikipedia.org/wiki/ISO_3166-1.');
                                     { en: name };
