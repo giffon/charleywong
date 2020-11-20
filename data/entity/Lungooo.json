@@ -27,7 +27,7 @@
       "url": "https://www.instagram.com/lungo_hk/",
       "meta": {
         "name": "Lungo",
-        "about": "Specialty Coffee and Bagel\nMonday to Saturday:0800-1800 /\nSunday:Closed"
+        "about": "☕️九龍灣宏冠道6號鴻力工業中心B座地下B3B號舖\nMonday - Saturday : 08:00 - 18:00\nSunday and Holidays : 10:00 - 1800\n☕️荔枝角福華街571號曉悅地下2號舖\nMonday - Sunday 1000 - 2200"
       }
     }
   ],
@@ -46,7 +46,7 @@
   "places": [
     {
       "address": {
-        "en": "B3B Proficient Industrial Centre, 6 wang kwun road"
+        "zh": "九龍灣宏冠道6號鴻力工業中心B座地下B3B號舖"
       },
       "googleMapsPlaceId": "ChIJTZfwVqABBDQRCNmNvjGhjPg",
       "coordinates": {
@@ -55,6 +55,19 @@
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荔枝角福華街571號曉悅地下2號舖"
+      },
+      "googleMapsPlaceId": "ChIJ0V1WLVIHBDQRBSP7RbJ6PFg",
+      "coordinates": {
+        "lat": 22.3387989,
+        "lng": 114.1528171
+      },
+      "area": {
+        "zh": "深水埗區"
       }
     }
   ],
