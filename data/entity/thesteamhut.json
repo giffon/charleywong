@@ -26,6 +26,13 @@
         ],
         "single_line_address": "215, 2/F, Kings Wing Plaza Phase 1, Shek Mun, Shatin, Hong Kong, 852 Hong Kong, Hong Kong"
       }
+    },
+    {
+      "url": "https://www.instagram.com/thesteamhuthk/",
+      "meta": {
+        "name": "TheSteamHut蒸廬",
+        "about": "「蒸廬」點心。燉湯專門店\n石門京瑞廣場一期二樓225鋪 📞(852)34603411"
+      }
     }
   ],
   "posts": [
@@ -70,5 +77,33 @@
   ],
   "yellowBlueMapIds": [
     "Y_EAT00868"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "石門京瑞廣場一期二樓225鋪"
+      },
+      "googleMapsPlaceId": "ChIJyYiB6kYGBDQR9JE8e_PmY3A",
+      "coordinates": {
+        "lat": 22.3881932,
+        "lng": 114.2078343
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "紅磡船澳街99F號黃埔新邨佳富樓地舖"
+      },
+      "googleMapsPlaceId": "ChIJS7Njm-AABDQREnRqDOppVRc",
+      "coordinates": {
+        "lat": 22.3057655,
+        "lng": 114.1876636
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
   ]
 }
