@@ -57,5 +57,59 @@
     "Y_EAT00366",
     "Y_EAT00367",
     "Y_EAT01900"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣利園山道17號"
+      },
+      "googleMapsPlaceId": "ChIJG753hkYBBDQRp_y3Jua5a3I",
+      "coordinates": {
+        "lat": 22.2795148,
+        "lng": 114.1832303
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角西洋菜南街百寶利商業中心12號鋪"
+      },
+      "googleMapsPlaceId": "ChIJUQxIaJMBBDQRVl7P1P5VZPA",
+      "coordinates": {
+        "lat": 22.316279,
+        "lng": 114.170479
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣如心廣場2期111號鋪"
+      },
+      "googleMapsPlaceId": "ChIJNVcPS6_5AzQRCE2XMvMd2h0",
+      "coordinates": {
+        "lat": 22.368806,
+        "lng": 114.1114541
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳康城路1號康城廣場303號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ59EFtpcDBDQRnMYtDrHjr-g",
+      "coordinates": {
+        "lat": 22.296859,
+        "lng": 114.2699109
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    }
   ]
 }
