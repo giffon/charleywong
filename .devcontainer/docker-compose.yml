@@ -2,7 +2,7 @@ version: '3'
 services:
   workspace:
     # build: .
-    image: giffon/charleywong_devcontainer_workspace:20201005
+    image: giffon/charleywong_devcontainer_workspace:20201124
     volumes:
       - ..:/workspace:cached
       - node_modules:/workspace/node_modules

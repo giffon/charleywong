@@ -17,7 +17,8 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends apt-utils dialog 2>&1 \
     #
     # Verify git and needed tools are installed
-    && apt-get install -y iproute2 procps sudo bash-completion build-essential curl python3 python3-virtualenv software-properties-common libnss3-tools \
+    && apt-get install -y iproute2 procps sudo bash-completion build-essential unzip curl python3 python3-virtualenv software-properties-common libnss3-tools direnv \
+    && echo 'eval "$(direnv hook bash)"' >> /etc/bash.bashrc \
     && curl -sL https://deb.nodesource.com/setup_12.x | bash - \
     && apt-get install -y nodejs=12.* \
     && add-apt-repository ppa:deadsnakes/ppa \
@@ -31,6 +32,13 @@ RUN apt-get update \
     && apt-get autoremove -y \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/*
+
+# AWS cli
+RUN cd / \
+    && curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" \
+    && unzip awscliv2.zip \
+    && ./aws/install \
+    && rm -rf ./aws awscliv2.zip
 
 # Create a non-root user to use
 RUN groupadd --gid $USER_GID $USERNAME \

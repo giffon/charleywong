@@ -4,11 +4,13 @@
 *.py
 *.js.map
 flexsearch.json
+/ybm
 YellowBlueMap.json
 YellowBlueMap_not-in-Charley.json
 HkbaseDirectory.json
 dump
 /lib/dts2hx
+.envrc
 
 .DS_Store
 
