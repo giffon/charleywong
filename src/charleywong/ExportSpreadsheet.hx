@@ -230,7 +230,7 @@ class ExportSpreadsheet {
                         return sheet.setHeaderRow(["id", "internal_id", "name", "website", "facebook", "instagram", "openrice"]);
                     })
                     .then(function(_){
-                        return sheet.addRows(notMapped.filter(d -> d.color == yellow));
+                        return sheet.addRows(notMapped.filter(d -> d.color == yellow && d.status != removed));
                     })
             );
     }

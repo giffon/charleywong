@@ -124,12 +124,15 @@ class EntityView extends View {
             return null;
         }
 
-        var ybmData = p.yellowBlueMapIds.map(function(ybmId):YBMapData return switch (ybmId.type) {
-            case eat:
-                YellowBlueMap.eats.find(d -> d.id == ybmId.id);
-            case shop:
-                YellowBlueMap.shops.find(d -> d.id == ybmId.id);
-        }).filter(d -> d != null);
+        var ybmData = p.yellowBlueMapIds
+            .map(function(ybmId):YBMapData return switch (ybmId.type) {
+                case eat:
+                    YellowBlueMap.eats.find(d -> d.id == ybmId.id);
+                case shop:
+                    YellowBlueMap.shops.find(d -> d.id == ybmId.id);
+            })
+            .filter(d -> d != null)
+            .filter(d -> d.status != removed);
 
         if (ybmData.length == 0) {
             return null;
