@@ -48,7 +48,7 @@ class ExportSpreadsheet {
                         tags: Tag.expend(e.tags).join(" "),
                         ybm_ids: switch (e.yellowBlueMapIds) {
                             case null: "";
-                            case ids: ids.join(" ");
+                            case ids: ids.map(ybm -> ybm.type + ":" + ybm.id).join(" ");
                         }
                     }
                 ]);
@@ -230,7 +230,7 @@ class ExportSpreadsheet {
                         return sheet.setHeaderRow(["id", "internal_id", "name", "website", "facebook", "instagram", "openrice"]);
                     })
                     .then(function(_){
-                        return sheet.addRows(notMapped);
+                        return sheet.addRows(notMapped.filter(d -> d.color == yellow));
                     })
             );
     }
