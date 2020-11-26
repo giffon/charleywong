@@ -61,6 +61,9 @@
     "sport"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00679"
+    {
+      "type": "shop",
+      "id": 662
+    }
   ]
 }

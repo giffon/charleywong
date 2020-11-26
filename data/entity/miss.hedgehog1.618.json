@@ -50,6 +50,9 @@
     "artist"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02017"
+    {
+      "type": "shop",
+      "id": 1986
+    }
   ]
 }

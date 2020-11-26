@@ -39,6 +39,13 @@
     "food"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT02004"
+    {
+      "type": "shop",
+      "id": 1318
+    },
+    {
+      "type": "eat",
+      "id": 1915
+    }
   ]
 }

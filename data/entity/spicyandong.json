@@ -40,6 +40,9 @@
     "korean"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00021"
+    {
+      "type": "eat",
+      "id": 21
+    }
   ]
 }

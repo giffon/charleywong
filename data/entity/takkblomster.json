@@ -42,7 +42,10 @@
     "wedding"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP01965"
+    {
+      "type": "shop",
+      "id": 1934
+    }
   ],
   "places": [
     {

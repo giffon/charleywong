@@ -55,7 +55,10 @@
     "shop"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02227"
+    {
+      "type": "shop",
+      "id": 2194
+    }
   ],
   "alias": [
     "105501334281244"

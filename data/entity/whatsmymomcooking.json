@@ -89,6 +89,9 @@
     "handcraft"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT01331"
+    {
+      "type": "eat",
+      "id": 1297
+    }
   ]
 }

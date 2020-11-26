@@ -89,7 +89,10 @@
     }
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00422"
+    {
+      "type": "shop",
+      "id": 412
+    }
   ],
   "alias": [
     "thenaptst"

@@ -48,7 +48,10 @@
     "sport"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00288"
+    {
+      "type": "shop",
+      "id": 284
+    }
   ],
   "places": [
     {

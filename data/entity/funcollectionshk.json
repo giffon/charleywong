@@ -47,7 +47,10 @@
     "shop"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02019"
+    {
+      "type": "shop",
+      "id": 1988
+    }
   ],
   "places": [
     {

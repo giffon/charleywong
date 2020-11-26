@@ -42,6 +42,9 @@
     "printing"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP01953"
+    {
+      "type": "shop",
+      "id": 1922
+    }
   ]
 }

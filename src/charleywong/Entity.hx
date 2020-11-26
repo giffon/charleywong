@@ -28,6 +28,11 @@ typedef Place = {
     ?area:MultiLangString,
 }
 
+enum abstract YBMapType(String) {
+    var eat;
+    var shop;
+}
+
 typedef Entity = {
     id:String,
     name:MultiLangString,
@@ -36,5 +41,5 @@ typedef Entity = {
     tags:Array<TagId>,
     ?alias:Array<String>,
     ?places:Array<Place>,
-    ?yellowBlueMapIds:Array<String>,
+    ?yellowBlueMapIds:Array<{type:YBMapType, id:Int}>,
 }

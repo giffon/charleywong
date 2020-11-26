@@ -40,6 +40,9 @@
     "foodStore"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00100"
+    {
+      "type": "shop",
+      "id": 99
+    }
   ]
 }

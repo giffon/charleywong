@@ -40,7 +40,10 @@
     "makeup"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP01931"
+    {
+      "type": "shop",
+      "id": 1900
+    }
   ],
   "places": [
     {

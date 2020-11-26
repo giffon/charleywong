@@ -55,7 +55,10 @@
     "taiwanese"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02113"
+    {
+      "type": "shop",
+      "id": 2080
+    }
   ],
   "places": [
     {

@@ -38,7 +38,10 @@
     "closed"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT01272"
+    {
+      "type": "eat",
+      "id": 1240
+    }
   ],
   "places": [
     {

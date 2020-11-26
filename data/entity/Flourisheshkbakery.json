@@ -137,6 +137,13 @@
     }
   ],
   "yellowBlueMapIds": [
-    "Y_EAT02020"
+    {
+      "type": "shop",
+      "id": 1600
+    },
+    {
+      "type": "eat",
+      "id": 1931
+    }
   ]
 }

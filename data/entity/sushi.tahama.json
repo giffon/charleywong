@@ -56,7 +56,10 @@
     "sushi"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT01245"
+    {
+      "type": "eat",
+      "id": 1215
+    }
   ],
   "places": [
     {

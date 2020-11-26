@@ -56,6 +56,9 @@
     "artist"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02036"
+    {
+      "type": "shop",
+      "id": 2005
+    }
   ]
 }

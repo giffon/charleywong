@@ -53,9 +53,18 @@
     "thai"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00631",
-    "Y_SHOP00632",
-    "Y_SHOP02092"
+    {
+      "type": "shop",
+      "id": 615
+    },
+    {
+      "type": "shop",
+      "id": 616
+    },
+    {
+      "type": "shop",
+      "id": 2059
+    }
   ],
   "places": [
     {

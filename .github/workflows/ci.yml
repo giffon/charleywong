@@ -133,13 +133,10 @@ jobs:
           lix download
           npx dts2hx @types/gtag.js --noLibWrap --output lib/dts2hx
       - name: Dump YellowBlueMap
-        run: |
-          set -ex
-          haxe syncYellowBlueMap.hxml
-          node syncYellowBlueMap.js dump
+        run: aws s3 cp --recursive s3://pubic-ccjdhhhdi ybm
         env:
-          GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
-          GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.YBM_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.YBM_AWS_SECRET_ACCESS_KEY }}
       - run: ls -lh
       - name: Deploy
         run: npx serverless deploy

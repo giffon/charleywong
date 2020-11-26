@@ -60,11 +60,30 @@
     "foodStore"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00023",
-    "Y_EAT00024",
-    "Y_SHOP02498",
-    "Y_SHOP02499",
-    "Y_SHOP02618"
+    {
+      "type": "eat",
+      "id": 23
+    },
+    {
+      "type": "eat",
+      "id": 24
+    },
+    {
+      "type": "shop",
+      "id": 2464
+    },
+    {
+      "type": "shop",
+      "id": 2465
+    },
+    {
+      "type": "shop",
+      "id": 2584
+    },
+    {
+      "type": "shop",
+      "id": 4474
+    }
   ],
   "places": [
     {

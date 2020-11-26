@@ -29,6 +29,9 @@
     "closed"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00009"
+    {
+      "type": "eat",
+      "id": 9
+    }
   ]
 }

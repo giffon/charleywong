@@ -46,9 +46,18 @@
     "footwear"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP01189",
-    "Y_SHOP01190",
-    "Y_SHOP01191"
+    {
+      "type": "shop",
+      "id": 1163
+    },
+    {
+      "type": "shop",
+      "id": 1164
+    },
+    {
+      "type": "shop",
+      "id": 1165
+    }
   ],
   "places": [
     {

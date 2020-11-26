@@ -55,7 +55,10 @@
     "antique"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00041"
+    {
+      "type": "shop",
+      "id": 41
+    }
   ],
   "places": [
     {

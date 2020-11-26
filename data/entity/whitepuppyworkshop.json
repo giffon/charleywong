@@ -52,7 +52,10 @@
     "artist"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02233"
+    {
+      "type": "shop",
+      "id": 2200
+    }
   ],
   "places": [
     {

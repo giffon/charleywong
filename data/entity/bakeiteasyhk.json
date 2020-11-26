@@ -67,7 +67,10 @@
     "cake"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00688"
+    {
+      "type": "shop",
+      "id": 671
+    }
   ],
   "places": [
     {

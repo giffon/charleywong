@@ -34,6 +34,9 @@
     "wedding"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP01976"
+    {
+      "type": "shop",
+      "id": 1945
+    }
   ]
 }

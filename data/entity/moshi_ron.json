@@ -206,13 +206,41 @@
     }
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00545",
-    "Y_SHOP00546",
-    "Y_SHOP00547",
-    "Y_SHOP00548",
-    "Y_SHOP00549",
-    "Y_SHOP00550",
-    "Y_SHOP00551",
-    "Y_SHOP02579"
+    {
+      "type": "shop",
+      "id": 530
+    },
+    {
+      "type": "shop",
+      "id": 531
+    },
+    {
+      "type": "shop",
+      "id": 532
+    },
+    {
+      "type": "shop",
+      "id": 533
+    },
+    {
+      "type": "shop",
+      "id": 534
+    },
+    {
+      "type": "shop",
+      "id": 535
+    },
+    {
+      "type": "shop",
+      "id": 536
+    },
+    {
+      "type": "shop",
+      "id": 2545
+    },
+    {
+      "type": "shop",
+      "id": 4349
+    }
   ]
 }

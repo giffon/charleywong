@@ -56,7 +56,10 @@
     "cake"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00584"
+    {
+      "type": "eat",
+      "id": 577
+    }
   ],
   "places": [
     {

@@ -155,14 +155,45 @@
     }
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00680",
-    "Y_EAT00681",
-    "Y_EAT00682",
-    "Y_EAT00988",
-    "Y_EAT01304",
-    "Y_EAT01303",
-    "Y_EAT01302",
-    "Y_EAT01720",
-    "Y_EAT02452"
+    {
+      "type": "eat",
+      "id": 672
+    },
+    {
+      "type": "eat",
+      "id": 673
+    },
+    {
+      "type": "eat",
+      "id": 674
+    },
+    {
+      "type": "eat",
+      "id": 967
+    },
+    {
+      "type": "eat",
+      "id": 1270
+    },
+    {
+      "type": "eat",
+      "id": 1271
+    },
+    {
+      "type": "eat",
+      "id": 1272
+    },
+    {
+      "type": "eat",
+      "id": 1637
+    },
+    {
+      "type": "eat",
+      "id": 2351
+    },
+    {
+      "type": "eat",
+      "id": 2353
+    }
   ]
 }

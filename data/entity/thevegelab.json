@@ -73,7 +73,10 @@
     "vegeterian"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT01403"
+    {
+      "type": "eat",
+      "id": 1353
+    }
   ],
   "places": [
     {

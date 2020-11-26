@@ -77,6 +77,13 @@
     "burger"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT01394"
+    {
+      "type": "eat",
+      "id": 1345
+    },
+    {
+      "type": "eat",
+      "id": 5174
+    }
   ]
 }

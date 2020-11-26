@@ -101,7 +101,10 @@
     "clothing"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00229"
+    {
+      "type": "shop",
+      "id": 225
+    }
   ],
   "places": [
     {

@@ -47,7 +47,10 @@
     "salon"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00957"
+    {
+      "type": "shop",
+      "id": 933
+    }
   ],
   "places": [
     {

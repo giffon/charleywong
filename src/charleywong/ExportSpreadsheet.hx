@@ -223,12 +223,11 @@ class ExportSpreadsheet {
 
     static function populateYBM(doc:GoogleSpreadsheet) {
         var sheet = doc.sheetsByIndex.find(s -> s.title == ybm_not_in_charley);
-        return YellowBlueMap.dump()
-            .then(_ -> YellowBlueMap.sync())
+        return YellowBlueMap.sync()
             .then(notMapped ->
                 sheet.clear()
                     .then(function(_){
-                        return sheet.setHeaderRow(["id", "name", "website", "facebook", "instagram", "openrice", "reason", "source"]);
+                        return sheet.setHeaderRow(["id", "internal_id", "name", "website", "facebook", "instagram", "openrice"]);
                     })
                     .then(function(_){
                         return sheet.addRows(notMapped);

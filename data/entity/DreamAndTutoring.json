@@ -55,6 +55,9 @@
     "tutoring"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02400"
+    {
+      "type": "shop",
+      "id": 2366
+    }
   ]
 }

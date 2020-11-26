@@ -50,7 +50,10 @@
     "kolbazaar"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00809"
+    {
+      "type": "shop",
+      "id": 791
+    }
   ],
   "places": [
     {

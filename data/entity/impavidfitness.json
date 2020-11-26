@@ -56,7 +56,10 @@
     "fitness"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00213"
+    {
+      "type": "shop",
+      "id": 209
+    }
   ],
   "places": [
     {

@@ -157,7 +157,14 @@
     "taiwanese"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00544"
+    {
+      "type": "eat",
+      "id": 539
+    },
+    {
+      "type": "eat",
+      "id": 5272
+    }
   ],
   "places": [
     {

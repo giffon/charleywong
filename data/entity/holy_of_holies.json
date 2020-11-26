@@ -46,7 +46,10 @@
     "1017491721665552"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00269"
+    {
+      "type": "eat",
+      "id": 268
+    }
   ],
   "places": [
     {

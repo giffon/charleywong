@@ -42,7 +42,10 @@
     "florist"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02009"
+    {
+      "type": "shop",
+      "id": 1980
+    }
   ],
   "alias": [
     "915061228544004"

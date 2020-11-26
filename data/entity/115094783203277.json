@@ -46,6 +46,9 @@
     "handcraft"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02240"
+    {
+      "type": "shop",
+      "id": 2206
+    }
   ]
 }

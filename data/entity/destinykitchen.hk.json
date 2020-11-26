@@ -60,7 +60,10 @@
     "pizza"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00064"
+    {
+      "type": "eat",
+      "id": 64
+    }
   ],
   "places": [
     {

@@ -74,8 +74,17 @@
     }
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00436",
-    "Y_EAT00437",
-    "Y_EAT02425"
+    {
+      "type": "eat",
+      "id": 433
+    },
+    {
+      "type": "eat",
+      "id": 434
+    },
+    {
+      "type": "eat",
+      "id": 2326
+    }
   ]
 }

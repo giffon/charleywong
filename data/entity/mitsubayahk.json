@@ -39,7 +39,10 @@
     "noodle"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00011"
+    {
+      "type": "eat",
+      "id": 10
+    }
   ],
   "places": [
     {

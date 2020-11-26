@@ -40,6 +40,9 @@
     "hiking"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02488"
+    {
+      "type": "shop",
+      "id": 2453
+    }
   ]
 }

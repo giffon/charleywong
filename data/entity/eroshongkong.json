@@ -79,6 +79,9 @@
     "makeup"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00768"
+    {
+      "type": "shop",
+      "id": 750
+    }
   ]
 }

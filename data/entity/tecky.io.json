@@ -69,7 +69,14 @@
     "hkbaseDirectory"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP01377"
+    {
+      "type": "shop",
+      "id": 1351
+    },
+    {
+      "type": "shop",
+      "id": 4246
+    }
   ],
   "places": [
     {

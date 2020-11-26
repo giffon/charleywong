@@ -76,7 +76,10 @@
     "shop"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02290"
+    {
+      "type": "shop",
+      "id": 2257
+    }
   ],
   "alias": [
     "unmixed_official"

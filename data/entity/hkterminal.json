@@ -52,7 +52,10 @@
     "computer"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00585"
+    {
+      "type": "shop",
+      "id": 570
+    }
   ],
   "places": [
     {

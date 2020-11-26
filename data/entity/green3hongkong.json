@@ -53,6 +53,9 @@
     "handyman"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP01947"
+    {
+      "type": "shop",
+      "id": 1916
+    }
   ]
 }

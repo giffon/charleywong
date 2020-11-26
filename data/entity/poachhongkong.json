@@ -51,6 +51,9 @@
     "cafe"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT01544"
+    {
+      "type": "eat",
+      "id": 1472
+    }
   ]
 }

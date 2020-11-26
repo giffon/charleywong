@@ -79,7 +79,10 @@
     "music"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00809"
+    {
+      "type": "eat",
+      "id": 797
+    }
   ],
   "places": [
     {

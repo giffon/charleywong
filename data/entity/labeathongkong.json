@@ -89,8 +89,14 @@
     "bar"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT01851",
-    "Y_EAT01852"
+    {
+      "type": "eat",
+      "id": 1767
+    },
+    {
+      "type": "eat",
+      "id": 1768
+    }
   ],
   "places": [
     {

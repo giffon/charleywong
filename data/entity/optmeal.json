@@ -55,6 +55,9 @@
     "fitness"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP01537"
+    {
+      "type": "shop",
+      "id": 1508
+    }
   ]
 }

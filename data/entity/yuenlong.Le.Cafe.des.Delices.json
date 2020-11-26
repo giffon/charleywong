@@ -52,7 +52,10 @@
     "food"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00572"
+    {
+      "type": "eat",
+      "id": 567
+    }
   ],
   "places": [
     {

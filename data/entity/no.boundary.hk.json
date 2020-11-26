@@ -80,8 +80,22 @@
     "burger"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00291",
-    "Y_EAT01995"
+    {
+      "type": "eat",
+      "id": 290
+    },
+    {
+      "type": "eat",
+      "id": 1905
+    },
+    {
+      "type": "eat",
+      "id": 5176
+    },
+    {
+      "type": "eat",
+      "id": 5177
+    }
   ],
   "places": [
     {

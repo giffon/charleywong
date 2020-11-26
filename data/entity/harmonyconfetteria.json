@@ -78,13 +78,38 @@
     "vegeterian"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00654",
-    "Y_EAT00655",
-    "Y_EAT00656",
-    "Y_EAT00657",
-    "Y_EAT01243",
-    "Y_EAT01247",
-    "Y_EAT02115"
+    {
+      "type": "eat",
+      "id": 646
+    },
+    {
+      "type": "eat",
+      "id": 647
+    },
+    {
+      "type": "eat",
+      "id": 648
+    },
+    {
+      "type": "eat",
+      "id": 649
+    },
+    {
+      "type": "eat",
+      "id": 650
+    },
+    {
+      "type": "eat",
+      "id": 1212
+    },
+    {
+      "type": "eat",
+      "id": 1213
+    },
+    {
+      "type": "eat",
+      "id": 2017
+    }
   ],
   "places": [
     {

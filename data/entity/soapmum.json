@@ -72,13 +72,33 @@
     "skincare"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00756",
-    "Y_SHOP00757",
-    "Y_SHOP00758",
-    "Y_SHOP00759",
-    "Y_SHOP00760",
-    "Y_SHOP00761",
-    "Y_SHOP00762",
-    "Y_SHOP00763"
+    {
+      "type": "shop",
+      "id": 739
+    },
+    {
+      "type": "shop",
+      "id": 740
+    },
+    {
+      "type": "shop",
+      "id": 741
+    },
+    {
+      "type": "shop",
+      "id": 742
+    },
+    {
+      "type": "shop",
+      "id": 743
+    },
+    {
+      "type": "shop",
+      "id": 744
+    },
+    {
+      "type": "shop",
+      "id": 745
+    }
   ]
 }

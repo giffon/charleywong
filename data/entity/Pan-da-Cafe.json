@@ -64,7 +64,10 @@
     }
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00635"
+    {
+      "type": "eat",
+      "id": 629
+    }
   ],
   "alias": [
     "Pan-da-Cafe-120736337973194"

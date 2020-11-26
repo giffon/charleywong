@@ -53,7 +53,10 @@
     "bridal"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02040"
+    {
+      "type": "shop",
+      "id": 2009
+    }
   ],
   "places": [
     {

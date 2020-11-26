@@ -1,6 +1,7 @@
 package charleywong.views;
 
 import js.html.URL;
+import charleywong.YellowBlueMap;
 import charleywong.Utils.prettyUrl;
 import charleywong.UrlExtractors.*;
 
@@ -123,40 +124,46 @@ class EntityView extends View {
             return null;
         }
 
-        var ybmData = p.yellowBlueMapIds.map(id -> switch (YellowBlueMap.localCache[id]) {
-            case null:
-                trace('No data about $id');
-                null;
-            case data:
-                data;
+        var ybmData = p.yellowBlueMapIds.map(function(ybmId):YBMapData return switch (ybmId.type) {
+            case eat:
+                YellowBlueMap.eats.find(d -> d.id == ybmId.id);
+            case shop:
+                YellowBlueMap.shops.find(d -> d.id == ybmId.id);
         }).filter(d -> d != null);
 
         if (ybmData.length == 0) {
             return null;
         }
 
-        for (d in ybmData) {
-            var detailId = 'ybm-detail-${d.id}';
-            return jsx('
-                <div className="webpage ybm-info" key=${d.id}>
-                    <a href=${"#" + detailId} role="button" data-toggle="collapse" data-target=${"#" + detailId} aria-expanded=${false} aria-controls=${detailId}>
-                        <span className="badge badge-pill badge-light font-weight-normal text-primary">
-                            <span className="webpage-logo-wrapper">
-                                <img className="webpage-logo" src=${R("/images/ybm-logo.png")} />
-                            </span>
-                            終極黃藍地圖
+        var colors = [
+            for (d in ybmData)
+            d.color => d.color
+        ].map(color -> switch color {
+            case yellow:
+                jsx('<span key=${color} className=${'badge badge-pill ybm-${color}'}>黃</span>');
+            case blue:
+                jsx('<span key=${color} className=${'badge badge-pill ybm-${color}'}>藍</span>');
+            case green:
+                jsx('<span key=${color} className=${'badge badge-pill ybm-${color}'}>綠</span>');
+        });
+
+        return jsx('
+            <div className="webpage ybm-info">
+                <a href="#ybmDetail" role="button" data-toggle="collapse" data-target="#ybmDetail" aria-expanded=${false} aria-controls="ybmDetail">
+                    <span className="badge badge-pill badge-light font-weight-normal text-primary">
+                        <span className="webpage-logo-wrapper">
+                            <img className="webpage-logo" src=${R("/images/ybm-logo.png")} />
                         </span>
-                    </a>
-                    <div id=${detailId} className="collapse">
-                        <div className="webpage-details">
-                            此店舖有被收錄於<a href="https://www.facebook.com/yellowbluemap" target="_blank">終極黃藍地圖</a>。
-                        </div>
+                        終極黃藍地圖 ${colors}
+                    </span>
+                </a>
+                <div id="ybmDetail" className="collapse">
+                    <div className="webpage-details">
+                        此店舖有被<a href="https://www.facebook.com/yellowbluemap/" target="_blank">終極黃藍地圖</a>標示為 ${colors} 店。
                     </div>
                 </div>
-            ');
-        }
-
-        return null;
+            </div>
+        ');
     }
 
     function renderHkbaseDirectory(e:Entity) {

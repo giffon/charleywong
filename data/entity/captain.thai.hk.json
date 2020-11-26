@@ -60,7 +60,10 @@
     "thai"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00167"
+    {
+      "type": "eat",
+      "id": 166
+    }
   ],
   "places": [
     {

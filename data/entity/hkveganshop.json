@@ -67,6 +67,9 @@
     "closed"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT01178"
+    {
+      "type": "eat",
+      "id": 1150
+    }
   ]
 }

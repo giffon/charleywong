@@ -44,9 +44,22 @@
     "food"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT01830",
-    "Y_EAT01831",
-    "Y_EAT01832"
+    {
+      "type": "eat",
+      "id": 1746
+    },
+    {
+      "type": "eat",
+      "id": 1747
+    },
+    {
+      "type": "eat",
+      "id": 1751
+    },
+    {
+      "type": "eat",
+      "id": 5319
+    }
   ],
   "places": [
     {

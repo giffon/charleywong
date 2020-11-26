@@ -42,6 +42,9 @@
     "taiwanese"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00685"
+    {
+      "type": "eat",
+      "id": 676
+    }
   ]
 }

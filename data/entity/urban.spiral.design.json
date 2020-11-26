@@ -41,6 +41,9 @@
     "interior"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02286"
+    {
+      "type": "shop",
+      "id": 2253
+    }
   ]
 }

@@ -42,7 +42,10 @@
     "cafe"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT01217"
+    {
+      "type": "eat",
+      "id": 1187
+    }
   ],
   "places": [
     {

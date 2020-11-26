@@ -57,7 +57,10 @@
     "shop"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT01326"
+    {
+      "type": "eat",
+      "id": 1292
+    }
   ],
   "places": [
     {

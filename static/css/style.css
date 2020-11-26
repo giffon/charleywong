@@ -245,6 +245,27 @@ body .MuiMenuItem-root {
     background-color: #eee;
 }
 
+.webpage .badge-pill.ybm-yellow {
+    background-color: #ffff00;
+    font-size: inherit;
+    color: black;
+    font-weight: normal;
+}
+
+.webpage .badge-pill.ybm-blue {
+    background-color: #3333ff;
+    font-size: inherit;
+    color: white;
+    font-weight: normal;
+}
+
+.webpage .badge-pill.ybm-green {
+    background-color: #66ff66;
+    font-size: inherit;
+    color: black;
+    font-weight: normal;
+}
+
 .webpage-logo-wrapper {
     position: relative;
     display: inline-block;

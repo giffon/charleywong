@@ -42,7 +42,10 @@
     "automobile"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00333"
+    {
+      "type": "shop",
+      "id": 327
+    }
   ],
   "places": [
     {

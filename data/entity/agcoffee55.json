@@ -52,7 +52,13 @@
   ],
   "places": [],
   "yellowBlueMapIds": [
-    "Y_EAT00034",
-    "Y_SHOP02563"
+    {
+      "type": "eat",
+      "id": 34
+    },
+    {
+      "type": "shop",
+      "id": 2529
+    }
   ]
 }

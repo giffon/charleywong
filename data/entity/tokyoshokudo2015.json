@@ -62,7 +62,10 @@
     "japanese"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00015"
+    {
+      "type": "eat",
+      "id": 15
+    }
   ],
   "places": [
     {

@@ -42,6 +42,9 @@
     "farm"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP01651"
+    {
+      "type": "shop",
+      "id": 1623
+    }
   ]
 }

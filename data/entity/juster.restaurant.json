@@ -52,7 +52,10 @@
     "bar"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT01043"
+    {
+      "type": "eat",
+      "id": 1018
+    }
   ],
   "places": [
     {

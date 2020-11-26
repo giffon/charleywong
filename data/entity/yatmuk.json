@@ -36,6 +36,9 @@
     "woodworking"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02206"
+    {
+      "type": "shop",
+      "id": 2172
+    }
   ]
 }

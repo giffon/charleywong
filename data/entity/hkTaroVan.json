@@ -30,6 +30,9 @@
     "automobile"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02050"
+    {
+      "type": "shop",
+      "id": 2018
+    }
   ]
 }

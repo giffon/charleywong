@@ -48,7 +48,10 @@
     "handcraft"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00800"
+    {
+      "type": "shop",
+      "id": 782
+    }
   ],
   "places": [
     {

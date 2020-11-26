@@ -57,7 +57,10 @@
     "partyRoom"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP01222"
+    {
+      "type": "shop",
+      "id": 1196
+    }
   ],
   "places": [
     {

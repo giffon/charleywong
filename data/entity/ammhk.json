@@ -69,6 +69,9 @@
     }
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02055"
+    {
+      "type": "shop",
+      "id": 2023
+    }
   ]
 }

@@ -63,6 +63,9 @@
     "hkbaseDirectory"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02239"
+    {
+      "type": "shop",
+      "id": 2205
+    }
   ]
 }

@@ -37,6 +37,9 @@
     "chineseMedicinePractitioner"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02024"
+    {
+      "type": "shop",
+      "id": 1993
+    }
   ]
 }

@@ -88,6 +88,9 @@
     "homeMover"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP01152"
+    {
+      "type": "shop",
+      "id": 1126
+    }
   ]
 }

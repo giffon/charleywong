@@ -40,6 +40,9 @@
     "drivingInstructor"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02454"
+    {
+      "type": "shop",
+      "id": 2419
+    }
   ]
 }

@@ -42,6 +42,9 @@
     "noodle"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00394"
+    {
+      "type": "eat",
+      "id": 392
+    }
   ]
 }

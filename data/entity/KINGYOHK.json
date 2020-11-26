@@ -62,15 +62,53 @@
     "taiwanese"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT01123",
-    "Y_EAT01125",
-    "Y_EAT01126",
-    "Y_EAT01127",
-    "Y_EAT01128",
-    "Y_EAT01885",
-    "Y_EAT01886",
-    "Y_EAT01887",
-    "Y_EAT01888",
-    "Y_EAT01890"
+    {
+      "type": "eat",
+      "id": 1098
+    },
+    {
+      "type": "eat",
+      "id": 1099
+    },
+    {
+      "type": "eat",
+      "id": 1100
+    },
+    {
+      "type": "eat",
+      "id": 1101
+    },
+    {
+      "type": "eat",
+      "id": 1102
+    },
+    {
+      "type": "eat",
+      "id": 1103
+    },
+    {
+      "type": "eat",
+      "id": 1801
+    },
+    {
+      "type": "eat",
+      "id": 1802
+    },
+    {
+      "type": "eat",
+      "id": 1803
+    },
+    {
+      "type": "eat",
+      "id": 1804
+    },
+    {
+      "type": "eat",
+      "id": 1805
+    },
+    {
+      "type": "eat",
+      "id": 1810
+    }
   ]
 }

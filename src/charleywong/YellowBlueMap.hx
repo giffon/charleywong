@@ -4,8 +4,6 @@ import js.html.URL;
 import js.lib.Promise;
 import haxe.*;
 import sys.io.File;
-import js.npm.google_spreadsheet.GoogleSpreadsheet;
-import charleywong.GoogleServiceAccount.googleServiceAccount;
 import charleywong.UrlExtractors.*;
 import charleywong.ServerMain.*;
 using Lambda;
@@ -13,176 +11,75 @@ using Reflect;
 using StringTools;
 
 enum abstract YBMapColor(String) to String {
-    var Yellow;
-    var Blue;
-    var Green;
+    var yellow;
+    var blue;
+    var green;
+}
+
+enum abstract YBMapStatus(String) to String {
+    var marked;
+    var removed;
+    var closed;
 }
 
 typedef YBMapData = {
-    id:String,
-
-    name:String,
-
-    website:Null<String>,
-    facebook:Null<String>,
-    instagram:Null<String>,
-    openrice:Null<String>,
-
-    color:YBMapColor,
-    category:Null<String>,
-    subcategory:Null<String>,
-
-    area:Null<String>,
-    lat:Null<Float>,
-    lng:Null<Float>,
-    address:Null<String>,
-
-    reason:Null<String>,
-    source:Null<String>,
+    final id:Int;
+    final internal_id:String;
+    final name:String;
+    final color:YBMapColor;
+    final status:YBMapStatus;
+    final district:String;
+    final address:Null<String>;
+    final lat:Null<String>;
+    final lng:Null<String>;
+    final category:String;
+    final phones:Null<String>;
+    final website:Null<String>;
+    final email:Null<String>;
+    final facebook:Null<String>;
+    final instagram:Null<String>;
+    final opening_hours:Null<Dynamic>;
+    final opening_hours_remark:Null<String>;
+    final created_at:String;
+    final updated_at:String;
+    final reasons:Null<Dynamic>;
 }
 
-enum abstract YBMapSheet(String) to String {
-    var YellowEat = "Eat (黃)";
-    var YellowShop = "Shop (黃)";
-    var BlueEat = "Eat (藍)";
-    var BlueShop = "Shop (藍)";
-    var GreenEatShop = "Eat/Shop (綠)";
+typedef YBMapEatData = YBMapData & {
+    final cuisines:String;             // comma separated string
+    final restaurant_types:String;     // comma separated string
+    final dishes:String;               // comma separated string
+    final price_range:String;
+    final openrice:Null<String>;
 }
 
-typedef YBMapDump = DynamicAccess<YBMapData>;
+typedef YBMapShopData = YBMapData & {
+    final subcategories:Null<String>;  // comma separated string
+    final productservice:Null<String>; // comma separated string
+}
 
 class YellowBlueMap {
-    static final sheetId = "1fKW2yldIQNTuRM6-DbrAvyNbQC5Gd0WqEW99q6Zb-Og";
-    static final doc = new GoogleSpreadsheet(sheetId);
-    static final localCacheFile = "YellowBlueMap.json";
-
-    static public var localCache(get, null):YBMapDump;
-    static function get_localCache() return localCache != null ? localCache : localCache = try {
-        Json.parse(File.getContent(localCacheFile));
-    } catch (e:Dynamic) {
-        trace('Unable to load $localCacheFile');
-        {};
+    static public var eats(get, null):Array<YBMapEatData>;
+    static function get_eats() return eats != null ? eats : eats = try {
+        Json.parse(File.getContent("ybm/api/v1/eats.json"));
+    } catch (err) {
+        trace('Unable to load YBM eats data.\n' + err);
+        [];
     }
 
-    static function strCol(row:Dynamic, colName:String):Null<String> {
-        return switch (row.field(colName)) {
-            case null:
-                throw '$colName not found in $row';
-            case v:
-                switch (StringTools.trim(v)) {
-                    case "" | "/":
-                        null;
-                    case v:
-                        v;
-                }
-        }
-    }
-
-    static function floatCol(row:Dynamic, colName:String):Null<Float> {
-        return switch (row.field(colName)) {
-            case null:
-                throw '$colName not found in $row';
-            case "":
-                null;
-            case v:
-                Std.parseFloat(v);
-        }
-    }
-
-    static function goodStatus(row:Dynamic, colName:String):Bool {
-        return switch (strCol(row, colName)) {
-            case "Marked" | "Updated":
-                true;
-            case "Removed" | "Changed colour" | "Duplicated" | "Old" | "Hold" | null:
-                false;
-            case status:
-                trace('Unknown status "$status"');
-                true;
-        }
-    }
-
-    final data:YBMapDump;
-    public function new(dump):Void {
-        data = dump;
-    }
-
-    static function dumpToFile() {
-        var yEat = switch (doc.sheetsByIndex.find(s -> s.title == YellowEat)) {
-            case null:
-                throw 'Missing sheet ${YellowEat}';
-            case sheet:
-                sheet.loadCells().then(_ ->
-                    sheet.getRows().then(rows -> [
-                        for (row in rows)
-                        if (goodStatus(row, "Map Status (Marked/Removed/Changed colour)"))
-                        {
-                            id: StringTools.trim(sheet.getCellByA1('A${row.rowNumber}').value), // someone cleared the header cell...
-                            name: strCol(row, "店名"),
-
-                            website: strCol(row, "網址"),
-                            facebook: strCol(row, "Facebook"),
-                            instagram: strCol(row, "Instagram"),
-                            openrice: strCol(row, "Openrice"),
-
-                            color: Yellow,
-                            category: strCol(row, "類別"),
-                            subcategory: null,
-
-                            area: strCol(row, "分區"),
-                            lat: floatCol(row, "Lat"),
-                            lng: floatCol(row, "Lng"),
-                            address: strCol(row, "地址"),
-
-                            reason: strCol(row, "原因"),
-                            source: strCol(row, "Source"),
-                        }
-                    ])
-                );
-        }
-        var yShop = switch (doc.sheetsByIndex.find(s -> s.title == YellowShop)) {
-            case null:
-                throw 'Missing sheet ${YellowShop}';
-            case sheet:
-                sheet.getRows().then(rows -> [
-                    for (row in rows)
-                    if (goodStatus(row, "Map Status (Marked/ Removed/Changed colour)"))
-                    {
-                        id: strCol(row, "ID"),
-                        name: strCol(row, "店名"),
-
-                        website: strCol(row, "網址/電郵"),
-                        facebook: strCol(row, "Facebook"),
-                        instagram: strCol(row, "Instagram"),
-                        openrice: null,
-
-                        color: Yellow,
-                        category: strCol(row, "大類別"),
-                        subcategory: strCol(row, "詳細分類"),
-
-                        area: strCol(row, "分區"),
-                        lat: floatCol(row, "Lat"),
-                        lng: floatCol(row, "Lng"),
-                        address: strCol(row, "地址"),
-
-                        reason: strCol(row, "原因"),
-                        source: strCol(row, "Source"),
-                    }
-                ]);
-        }
-        Promise.all([yEat, yShop])
-            .then(sheets -> {
-                var data:YBMapDump = {};
-                for (sheet in sheets)
-                for (d in (sheet:Array<YBMapData>))
-                data[d.id] = d;
-                data;
-            })
-            .then(data -> File.saveContent(localCacheFile, Json.stringify(data, null, "  ")));
+    static public var shops(get, null):Array<YBMapShopData>;
+    static function get_shops() return shops != null ? shops : shops = try {
+        Json.parse(File.getContent("ybm/api/v1/shops.json"));
+    } catch (err) {
+        trace('Unable to load YBM shops data.\n' + err);
+        [];
     }
 
     static function urls(v:String):Array<Promise<Null<String>>> {
         var isShortUrl = ~/^https?:\/\/(?:bit\.do|bit\.ly)\//;
-        var urls = if (v.contains(",")) {
+        var urls = if (v == null) {
+            [];
+        } else if (v.contains(",")) {
             ~/,/g.split(v).map(StringTools.trim);
         } else if (v.contains(" ")) {
             ~/ +/g.split(v).map(StringTools.trim);
@@ -191,21 +88,29 @@ class YellowBlueMap {
         } else {
             [v];
         }
-        return urls.map(url ->
-            if (!url.startsWith("http"))
-                "https://" + url
-            else 
-                url
-        ).map(url ->
-            if (isShortUrl.match(url)) {
-                followRedirect(url).catchError(err -> {
-                    trace('Could not handle $url. Error: $err');
-                    null;
-                });
-            } else {
-                Promise.resolve(url);
-            }
-        );
+        return urls
+            .filter(url -> url != null)
+            .map(url -> url.trim())
+            .filter(url -> url != "")
+            .map(url ->
+                if (!url.startsWith("http"))
+                    "https://" + url
+                else 
+                    url
+            )
+            .map(url ->
+                if (isShortUrl.match(url)) {
+                    followRedirect(url).catchError(err -> {
+                        trace('Could not handle $url. Error: $err');
+                        null;
+                    }).then(result -> {
+                        // trace(url + " redirects to " + result);
+                        result;
+                    });
+                } else {
+                    Promise.resolve(url);
+                }
+            );
     }
 
     static function matchYBMapWithCharley(d:YBMapData):Promise<Array<Entity>> {
@@ -220,7 +125,7 @@ class YellowBlueMap {
                             case extractFbUrl(_) => fb if (fb != null):
                                 entityIndex.entitiesOfFbPage[fb];
                             case url:
-                                trace('${d.name} (${d.id}) has a Facebook field value not a fb url? ${url}');
+                                Sys.println('${d.name} (${d.id}) has a Facebook field value not a Facebook profile? ${url}');
                                 null;
                         }
                 }));
@@ -238,7 +143,7 @@ class YellowBlueMap {
                             case extractIgProfilePage(_) => ig if (ig != null):
                                 entityIndex.entitiesOfUrl['https://www.instagram.com/$ig/'];
                             case url:
-                                trace('${d.name} (${d.id}) has a Instagram field value not a ig url? ${url}');
+                                Sys.println('${d.name} (${d.id}) has an Instagram field value not an Instagram profile? ${url}');
                                 null;
                         }
                 }));
@@ -256,15 +161,13 @@ class YellowBlueMap {
 
     // return not-mapped YBMapData
     static public function sync():Promise<Array<YBMapData>> {
-        var mapped = [
-            for (e in entityIndex.entities)
-            if (e.yellowBlueMapIds != null)
-            for (id in e.yellowBlueMapIds)
-            id => true
+        var caches:Array<{type:YBMapType, data:Array<YBMapData>}> = [
+            {type:eat, data:eats},
+            {type:shop, data:shops},
         ];
         return Promise.all([
-            for (d in localCache)
-            if (!mapped.exists(d.id))
+            for (c in caches)
+            for (d in c.data)
             matchYBMapWithCharley(d)
                 .then(entities ->
                     if (entities.length == 0) {
@@ -273,11 +176,15 @@ class YellowBlueMap {
                         for (e in entities) {
                             switch (e.yellowBlueMapIds) {
                                 case null:
-                                    e.yellowBlueMapIds = [d.id];
+                                    e.yellowBlueMapIds = [{ type: c.type, id: d.id }];
                                     saveEntity(e, false, false);
                                 case ids:
-                                    if (!ids.has(d.id)) {
-                                        ids.push(d.id);
+                                    for (id in ids.copy())
+                                        if (Std.is(id, String))
+                                            ids.remove(id);
+                                    if (!ids.exists(id -> id.id == d.id)) {
+                                        ids.push({ type: c.type, id: d.id });
+                                        ids.sort((a, b) -> Reflect.compare(a.id, b.id));
                                         saveEntity(e, false, false);
                                     }
                             }
@@ -292,20 +199,8 @@ class YellowBlueMap {
         ]);
     }
 
-    static public function dump() {
-        return doc.useServiceAccountAuth(googleServiceAccount)
-            .then(_ -> doc.loadInfo())
-            .then(_ -> dumpToFile());
-    }
-
     static function main():Void {
         switch (Sys.args()) {
-            case ["test"]:
-                doc.useServiceAccountAuth(googleServiceAccount)
-                    .then(_ -> doc.loadInfo())
-                    .then(_ -> trace(doc.title));
-            case ["dump"]:
-                dump();
             case ["sync"]:
                 sync();
             case args:

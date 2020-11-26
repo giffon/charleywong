@@ -63,7 +63,10 @@
     "foodStore"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02356"
+    {
+      "type": "shop",
+      "id": 2322
+    }
   ],
   "places": [
     {

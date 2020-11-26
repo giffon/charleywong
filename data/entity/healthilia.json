@@ -45,6 +45,9 @@
     "instantChickenBreast"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP01724"
+    {
+      "type": "shop",
+      "id": 1696
+    }
   ]
 }

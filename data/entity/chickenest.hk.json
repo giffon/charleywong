@@ -25,7 +25,10 @@
     "instantChickenBreast"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT01581"
+    {
+      "type": "eat",
+      "id": 1503
+    }
   ],
   "places": [
     {

@@ -1,5 +1,7 @@
 package charleywong;
 
+import haxe.xml.Access;
+import haxe.xml.Fast;
 #if nodejs
 import js.npm.fetch.Fetch;
 #end
@@ -22,8 +24,27 @@ enum Ident {
 class UrlExtractors {
     #if nodejs
     static public function followRedirect(url:String):Promise<String> {
-        return Fetch.fetch(url)
-            .then(response -> response.url);
+        return if (~/https?:\/\/bit\.do\//.match(url)) {
+            Fetch.fetch("https://bit.do/expand/" + url.split("/").pop())
+                .then(r -> {
+                    if (r.ok)
+                        r.text().then(html -> {
+                            var text = new Access(Xml.parse(html)).node.pre.innerHTML;
+                            var r = ~/^Redirects to: (.+)$/m;
+                            if (r.match(text))
+                                r.matched(1);
+                            else
+                                throw "Cannot find 'Redirects to:'.\n" + html;
+                        });
+                    else
+                        r.text().then(text -> throw text);
+                });
+        } else {
+            Fetch.fetch(url, {
+                redirect: Follow,
+            })
+                .then(response -> response.url);
+        }
     }
     #end
 

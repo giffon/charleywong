@@ -32,6 +32,9 @@
     "emcee"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02453"
+    {
+      "type": "shop",
+      "id": 2420
+    }
   ]
 }

@@ -35,6 +35,9 @@
     "accessories"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP01349"
+    {
+      "type": "shop",
+      "id": 1323
+    }
   ]
 }

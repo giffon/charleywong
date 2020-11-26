@@ -40,7 +40,10 @@
     "skincare"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT01027"
+    {
+      "type": "eat",
+      "id": 1003
+    }
   ],
   "places": [
     {

@@ -43,6 +43,9 @@
     "florist"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02002"
+    {
+      "type": "shop",
+      "id": 1971
+    }
   ]
 }

@@ -62,6 +62,9 @@
     "animal"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02423"
+    {
+      "type": "shop",
+      "id": 2389
+    }
   ]
 }

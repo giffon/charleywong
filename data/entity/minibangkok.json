@@ -54,11 +54,26 @@
     "music"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT01632",
-    "Y_EAT01633",
-    "Y_EAT01634",
-    "Y_EAT01635",
-    "Y_EAT01636"
+    {
+      "type": "eat",
+      "id": 1554
+    },
+    {
+      "type": "eat",
+      "id": 1555
+    },
+    {
+      "type": "eat",
+      "id": 1556
+    },
+    {
+      "type": "eat",
+      "id": 1557
+    },
+    {
+      "type": "eat",
+      "id": 1558
+    }
   ],
   "places": [
     {

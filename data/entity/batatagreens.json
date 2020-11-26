@@ -59,9 +59,18 @@
     "vegeterian"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP00018",
-    "Y_SHOP00019",
-    "Y_SHOP00020"
+    {
+      "type": "shop",
+      "id": 18
+    },
+    {
+      "type": "shop",
+      "id": 19
+    },
+    {
+      "type": "shop",
+      "id": 20
+    }
   ],
   "places": [
     {

@@ -54,7 +54,10 @@
     "skincare"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02247"
+    {
+      "type": "shop",
+      "id": 2214
+    }
   ],
   "places": [
     {

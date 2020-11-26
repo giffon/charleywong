@@ -77,7 +77,10 @@
     "shop"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02165"
+    {
+      "type": "shop",
+      "id": 2133
+    }
   ],
   "alias": [
     "TanzaniaDreamProject"

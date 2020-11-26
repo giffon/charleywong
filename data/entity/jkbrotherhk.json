@@ -73,7 +73,10 @@
     "hotpot"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT01071"
+    {
+      "type": "eat",
+      "id": 1046
+    }
   ],
   "places": [
     {

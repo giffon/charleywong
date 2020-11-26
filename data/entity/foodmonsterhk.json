@@ -91,8 +91,14 @@
     "shop"
   ],
   "yellowBlueMapIds": [
-    "Y_EAT00225",
-    "Y_SHOP02484"
+    {
+      "type": "eat",
+      "id": 224
+    },
+    {
+      "type": "shop",
+      "id": 2450
+    }
   ],
   "places": [
     {

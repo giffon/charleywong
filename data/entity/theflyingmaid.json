@@ -33,6 +33,9 @@
     "artist"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP02153"
+    {
+      "type": "shop",
+      "id": 2120
+    }
   ]
 }

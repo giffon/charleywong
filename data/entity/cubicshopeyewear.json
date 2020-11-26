@@ -57,8 +57,14 @@
     "eyewear"
   ],
   "yellowBlueMapIds": [
-    "Y_SHOP01617",
-    "Y_SHOP01618"
+    {
+      "type": "shop",
+      "id": 1590
+    },
+    {
+      "type": "shop",
+      "id": 1591
+    }
   ],
   "places": [
     {
