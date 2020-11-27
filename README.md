@@ -12,7 +12,7 @@ Data is stored as JSON files in the [data](data) directory.
 
 ```jsonc
 {
-  // an unique string with A-Z, a-z, 0-9, dot (.), hyhen (-), underscore (_)
+  // a unique string with A-Z, a-z, 0-9, dot (.), hyhen (-), underscore (_)
   // usually the same as the enitity's social media handle
   "id": "giffon.io",
 
@@ -67,7 +67,7 @@ Data is stored as JSON files in the [data](data) directory.
 }
 ```
 
-The web interface is a [React](https://reactjs.org/) / [Express](https://expressjs.com/) app hosted by [AWS Lambda](https://aws.amazon.com/lambda/), backed by [Cloudflare](https://www.cloudflare.com/).
+The web interface is a [React](https://reactjs.org/) / [Express](https://expressjs.com/) app hosted by [AWS Lambda](https://aws.amazon.com/lambda/) with [Cloudflare](https://www.cloudflare.com/).
 
 All program source code are written in [Haxe](https://haxe.org/). Our dev environment is [Visual Studio Code](https://code.visualstudio.com/) with its [remote containers extension](https://code.visualstudio.com/docs/remote/containers).
 
