@@ -72,5 +72,20 @@
   "tags": [
     "sport",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門建發街11號好景工業大廈A座11樓5室"
+      },
+      "googleMapsPlaceId": "ChIJlf8KECX7AzQR1PIYtsUUws0",
+      "coordinates": {
+        "lat": 22.39855,
+        "lng": 113.967761
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
   ]
 }

@@ -43,5 +43,20 @@
   "tags": [
     "photographer",
     "wedding"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Rm 1310A ,13/F, CableTv Tower ,9 Hoi Shing Rd, Tsuen Wan"
+      },
+      "googleMapsPlaceId": "ChIJY7Lha-X4AzQRVyEkZz4bE8s",
+      "coordinates": {
+        "lat": 22.372972,
+        "lng": 114.107139
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
   ]
 }

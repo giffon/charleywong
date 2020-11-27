@@ -44,5 +44,20 @@
   "tags": [
     "artist",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍觀塘興業街16-18號美興工業大廈A座7樓703A室"
+      },
+      "googleMapsPlaceId": "ChIJ-_MYHUUBBDQRalxB3-c-ltI",
+      "coordinates": {
+        "lat": 22.3088856,
+        "lng": 114.225174
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

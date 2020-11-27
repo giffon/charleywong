@@ -41,5 +41,20 @@
     "shop",
     "accessories",
     "handcraft"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣希慎廣場誠品10/F L1013"
+      },
+      "googleMapsPlaceId": "ChIJqaEEx1YABDQR1hvP_ORaUWY",
+      "coordinates": {
+        "lat": 22.2798226,
+        "lng": 114.1837972
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
