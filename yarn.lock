@@ -5354,7 +5354,7 @@ globby@^11.0.1:
     merge2 "^1.3.0"
     slash "^3.0.0"
 
-google-auth-library@6.1.3, google-auth-library@^6.0.0, google-auth-library@^6.0.6:
+google-auth-library@6.1.3, google-auth-library@^6.0.0, google-auth-library@^6.1.3:
   version "6.1.3"
   resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-6.1.3.tgz#39d868140b70d0c4b32c6f6d8f4ccc1400d84dca"
   integrity sha512-m9mwvY3GWbr7ZYEbl61isWmk+fvTmOt0YNUfPOUY2VH8K5pZlAIWJjxEi0PqR3OjMretyiQLI6GURMrPSwHQ2g==
@@ -5376,13 +5376,13 @@ google-p12-pem@^3.0.3:
   dependencies:
     node-forge "^0.10.0"
 
-google-spreadsheet@3.0.13:
-  version "3.0.13"
-  resolved "https://registry.yarnpkg.com/google-spreadsheet/-/google-spreadsheet-3.0.13.tgz#e74a38b5863136b024c4c54b0ef5a5626116798c"
-  integrity sha512-gaeOf9gT9UPqSY9gMUKxIsWI25LnZ+/XJTU6E5BWXx0NM9/hJOUEhX7O0PUU5NIfeg4xeaym5Yygq+AL9OZRcw==
+google-spreadsheet@3.0.14:
+  version "3.0.14"
+  resolved "https://registry.yarnpkg.com/google-spreadsheet/-/google-spreadsheet-3.0.14.tgz#d9ed2495dfa1d6123f6a3ed434d5f410c87d2032"
+  integrity sha512-PfubtfTcdEKko6Sj72EZnpridP+IqOU32U4rGoGZ01nACu0Zl9cIgL8HWVZCC/kYWeGJjwJsOUqp+AzElxKMhg==
   dependencies:
     axios "^0.19.2"
-    google-auth-library "^6.0.6"
+    google-auth-library "^6.1.3"
     lodash "^4.17.20"
 
 googleapis-common@^4.4.1:
