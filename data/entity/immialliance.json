@@ -11,13 +11,21 @@
       "url": "https://www.facebook.com/immialliance/",
       "meta": {
         "id": "111450433804933",
+        "username": "immialliance",
         "name": "日希移民",
-        "categories": [
-          "Business consultant",
-          "Consultation agency"
+        "about": "台灣內政部移民署 ​移民業務機構註冊第 C0275號\n\n",
+        "category_list": [
+          {
+            "id": "2248",
+            "name": "Consulting Agency"
+          },
+          {
+            "id": "179672275401610",
+            "name": "Business Consultant"
+          }
         ],
-        "addr": "尖沙咀河內道5號普基商業中心",
-        "area": "Hong Kong, Hong Kong"
+        "single_line_address": "尖沙咀河內道5號普基商業中心, Hong Kong, Hong Kong",
+        "website": "http://www.immi-alliance.com/"
       }
     }
   ],

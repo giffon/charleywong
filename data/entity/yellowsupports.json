@@ -9,10 +9,19 @@
       "meta": {
         "id": "102267268188468",
         "name": "黃色助人圈",
-        "categories": [
-          "Society & Culture Website",
-          "Product/Service",
-          "Hong Kong Restaurant"
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          },
+          {
+            "id": "2714",
+            "name": "Society & Culture Website"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ]
       }
     },

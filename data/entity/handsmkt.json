@@ -11,11 +11,18 @@
       "url": "https://www.facebook.com/handsmkt/",
       "meta": {
         "id": "443005763200483",
+        "username": "handsmkt",
         "name": "Hands",
-        "categories": [
-          "Local Business"
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "email": "info@handsmkt.com"
+        "emails": [
+          "info@handsmkt.com"
+        ],
+        "website": "www.handsmkt.com"
       }
     },
     {
