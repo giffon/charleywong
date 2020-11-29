@@ -159,6 +159,15 @@ class YellowBlueMap {
         );
     }
 
+    static public function dump():Promise<Dynamic> {
+        return switch (Sys.command("aws s3 cp --recursive s3://pubic-ccjdhhhdi ybm")) {
+            case 0:
+                Promise.resolve(true);
+            case code:
+                Promise.reject("aws cli exited with " + code);
+        }
+    }
+
     // return not-mapped YBMapData
     static public function sync():Promise<Array<YBMapData>> {
         var caches:Array<{type:YBMapType, data:Array<YBMapData>}> = [
@@ -203,6 +212,8 @@ class YellowBlueMap {
         switch (Sys.args()) {
             case ["sync"]:
                 sync();
+            case ["dump"]:
+                dump();
             case args:
                 throw 'unknown args $args';
         }

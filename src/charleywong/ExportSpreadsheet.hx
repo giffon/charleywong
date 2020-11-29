@@ -223,7 +223,8 @@ class ExportSpreadsheet {
 
     static function populateYBM(doc:GoogleSpreadsheet) {
         var sheet = doc.sheetsByIndex.find(s -> s.title == ybm_not_in_charley);
-        return YellowBlueMap.sync()
+        return YellowBlueMap.dump()
+            .then(_ -> YellowBlueMap.sync())
             .then(notMapped ->
                 sheet.clear()
                     .then(function(_){
