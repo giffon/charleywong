@@ -38,7 +38,7 @@
       "url": "https://www.instagram.com/moshi_ron/",
       "meta": {
         "name": "Moshi Ron",
-        "about": "1）愉景新城2053號\n2）茘枝角D2 place one 213a號\n3）南昌VWalk 商場L2 32\n4）旺角TOP 3樓316號\n5）朗豪坊L10 K1002\n6）尖沙咀THE ONE L601\n7）海港城3樓LCX K12\n8）東港城1樓 152B\n9) 荃灣廣場L3 303-305"
+        "about": "1）希慎廣場7/F 717\n2）D2 place 213a號\n3）奧海城2期UG 30\n4）TOP 1樓104號\n5）尖沙咀THE ONE L601\n6）海港城LCX K12\n7）東港城1樓 152B\n8）荃灣廣場L3 303\n9）淘大商場地下G77"
       }
     }
   ],
@@ -89,38 +89,12 @@
   "places": [
     {
       "address": {
-        "zh": "愉景新城2樓2053號舖"
-      },
-      "googleMapsPlaceId": "ChIJ6x2tFpv5AzQRnyPaGdOnrzM",
-      "coordinates": {
-        "lat": 22.3766011,
-        "lng": 114.1114011
-      },
-      "area": {
-        "zh": "荃灣區"
-      }
-    },
-    {
-      "address": {
         "zh": "荔枝角D2 PLACE 2樓213 A號舖"
       },
       "googleMapsPlaceId": "ChIJS0C2Z3sHBDQRtqBI2Aeyqj8",
       "coordinates": {
         "lat": 22.3361036,
         "lng": 114.1489859
-      },
-      "area": {
-        "zh": "深水埗區"
-      }
-    },
-    {
-      "address": {
-        "zh": "南昌站VWALK 商場2樓37號舖"
-      },
-      "googleMapsPlaceId": "ChIJT3r4yeoBBDQR7FBYKjzVdFs",
-      "coordinates": {
-        "lat": 22.3270845,
-        "lng": 114.1543942
       },
       "area": {
         "zh": "深水埗區"
@@ -141,19 +115,6 @@
     },
     {
       "address": {
-        "zh": "旺角亞皆老街朗豪坊商場10樓13號"
-      },
-      "googleMapsPlaceId": "ChIJbXO--JwBBDQRxwPcDcofcRE",
-      "coordinates": {
-        "lat": 22.3181751,
-        "lng": 114.1685358
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
         "zh": "尖沙咀The One商場6樓601號舖"
       },
       "googleMapsPlaceId": "ChIJDwPty-0ABDQRSu49vVAKZfM",
@@ -167,20 +128,7 @@
     },
     {
       "address": {
-        "zh": "觀塘APM商場5樓7號舖"
-      },
-      "googleMapsPlaceId": "ChIJq8XRrUQBBDQRSOj6yE7gzs8",
-      "coordinates": {
-        "lat": 22.3124321,
-        "lng": 114.2253681
-      },
-      "area": {
-        "zh": "觀塘區"
-      }
-    },
-    {
-      "address": {
-        "zh": "將軍澳東港城"
+        "zh": "將軍澳東港城1樓 152B"
       },
       "googleMapsPlaceId": "ChIJz4LqfXUEBDQRMR05fSGTeUo",
       "coordinates": {
@@ -202,6 +150,58 @@
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "希慎廣場7/F 717"
+      },
+      "googleMapsPlaceId": "ChIJuwh9w1YABDQRaRbZ1DgateI",
+      "coordinates": {
+        "lat": 22.2797035,
+        "lng": 114.1838445
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "奧海城2期UG 30"
+      },
+      "googleMapsPlaceId": "ChIJLdOHYLkABDQRDR5nj4ociXI",
+      "coordinates": {
+        "lat": 22.3172044,
+        "lng": 114.1619682
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣廣場L3 303"
+      },
+      "googleMapsPlaceId": "ChIJl8B1_u74AzQRlJT-tYUUzSU",
+      "coordinates": {
+        "lat": 22.370821,
+        "lng": 114.1112277
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "淘大商場地下G77"
+      },
+      "googleMapsPlaceId": "ChIJI4qDS7UGBDQR0MCvMljz2Pw",
+      "coordinates": {
+        "lat": 22.3241301,
+        "lng": 114.2164347
+      },
+      "area": {
+        "zh": "觀塘區"
       }
     }
   ],

@@ -55,5 +55,20 @@
   "tags": [
     "automobile",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "偉業街128號"
+      },
+      "googleMapsPlaceId": "EiQxMjggV2FpIFlpcCBTdCwgS3d1biBUb25nLCBIb25nIEtvbmciMRIvChQKEgnB8Q6HSAEENBECUs_Tbxe9RBCAASoUChIJST-8EkkBBDQRvfcleNKNF0A",
+      "coordinates": {
+        "lat": 22.3127616,
+        "lng": 114.2182878
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
