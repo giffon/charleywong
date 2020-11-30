@@ -28,7 +28,7 @@
       "url": "https://www.instagram.com/reactioncoffeeroasters/",
       "meta": {
         "name": "REACTION Coffee Roasters",
-        "about": "Hong Kong freshly roasted coffee\nSpecialty coffee\nHomemade scone, Chiffon cake\nAll day breakfast, Sourdough sandwiches & Salad\nMon-Sun I 08:00-18:00"
+        "about": "Freshly Roasted Specialty Coffee\n☕ 67 Shing Woo Road, Happy Valley I 08:00-18:00\n☕ 32-48 Mody Road, Tsim Sha Tsui I 08:00-19:00"
       }
     }
   ],
@@ -45,6 +45,10 @@
     {
       "type": "eat",
       "id": 215
+    },
+    {
+      "type": "eat",
+      "id": 5408
     }
   ],
   "places": [
@@ -59,6 +63,19 @@
       },
       "area": {
         "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "en": "32-48 Mody Road, Tsim Sha Tsui"
+      },
+      "googleMapsPlaceId": "EiQzMiBNb2R5IFJkLCBUc2ltIFNoYSBUc3VpLCBIb25nIEtvbmciMBIuChQKEglrnZ0e7gAENBHNbDa5A7q1qhAgKhQKEgmFOiBJ7gAENBGtKRUlHf6ORg",
+      "coordinates": {
+        "lat": 22.2971298,
+        "lng": 114.1748302
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     }
   ]
