@@ -61,5 +61,20 @@
       "type": "shop",
       "id": 1625
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "長沙灣道66號"
+      },
+      "googleMapsPlaceId": "ChIJU6SYqLQABDQRwMyeKjPq16c",
+      "coordinates": {
+        "lat": 22.3282559,
+        "lng": 114.1657929
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
