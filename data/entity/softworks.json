@@ -1,20 +1,20 @@
 {
-    "id": "softworks",
-    "name": {
-        "en": "Softworks Studio Limited"
+  "id": "softworks",
+  "name": {
+    "en": "Softworks Studio Limited"
+  },
+  "webpages": [
+    {
+      "url": "mailto:phoebe@softworks.hk"
     },
-    "webpages": [
-        {
-            "url": "mailto:phoebe@softworks.hk"
-        },
-        {
-            "url": "tel:25253037"
-        }
-    ],
-    "posts": [],
-    "tags": [
-        "interior",
-        "shop",
-        "hkbaseDirectory"
-    ]
+    {
+      "url": "tel:25253037"
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "interior",
+    "shop",
+    "hkbaseDirectory"
+  ]
 }

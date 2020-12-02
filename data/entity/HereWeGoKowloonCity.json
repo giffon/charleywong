@@ -9,13 +9,27 @@
       "url": "https://www.facebook.com/HereWeGoKowloonCity/",
       "meta": {
         "id": "103045111431220",
-        "name": "壹流．派 here WE go",
-        "categories": [
-          "Grocery Store",
-          "Product/Service",
-          "Retail Company"
+        "username": "HereWeGoKowloonCity",
+        "name": "壹流．派    here WE go",
+        "about": "位於九龍城區的實體店鋪，富豪東方酒店對面，鄰近東頭邨、新蒲崗、樂富、啟德新區，提供集運自取、網店寄賣、速剪潮髮、Co-working space。",
+        "category_list": [
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
         ],
-        "email": "info@herewego.com.hk"
+        "emails": [
+          "info@herewego.com.hk"
+        ],
+        "single_line_address": "G/F, 41 Sa Po Road, Kowloon City,, Kowloon, Hong Kong"
       }
     },
     {
