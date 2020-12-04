@@ -22,6 +22,13 @@
         "single_line_address": "順寧道439號 順寧閣 地下2 號舖, Hong Kong Kowloon"
       },
       "url": "https://www.facebook.com/teahub439/"
+    },
+    {
+      "url": "https://www.instagram.com/teahub439/",
+      "meta": {
+        "name": "#TEAHUB",
+        "about": "不設訂位\nPlease DM for enquiries\n🍵☕️🍽🍤🍰🍺🐶\n------------------------\nTue- thur 12:00-20:00\nfri 12:00-21:00\nsat-sun 11:00-21:00\nOFF MONDAY"
+      }
     }
   ],
   "posts": [
@@ -33,12 +40,28 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "closed"
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 140
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "順寧道439號 順寧閣 地下2 號舖"
+      },
+      "googleMapsPlaceId": "ChIJ003JBk4HBDQRp9cn8N2ieuo",
+      "coordinates": {
+        "lat": 22.3391392,
+        "lng": 114.1561812
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ]
 }
