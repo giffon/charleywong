@@ -11,7 +11,7 @@
       "url": "https://www.instagram.com/crudoleather/",
       "meta": {
         "name": "Crudo Leather Craft",
-        "about": "Time flies, things change, but memory lasts.\nTag #crudomoment to be featured on our social media.\nFree Engraving Service + Global Shipping\nShop at:"
+        "about": "Time flies, things change, but memory lasts.\nTag #crudomoment to be featured on our social media.\nShop at:\n📍K11 Art Mall\n📍Hysan Place"
       }
     },
     {
@@ -68,5 +68,33 @@
   "tags": [
     "accessories",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop B211, B2/F, K11 Art Mall"
+      },
+      "googleMapsPlaceId": "ChIJ_yMf_u0ABDQRFUSKts8Cq0U",
+      "coordinates": {
+        "lat": 22.297525,
+        "lng": 114.1736355
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "en": "Open Space No.1, 3/F, Hysan Place"
+      },
+      "googleMapsPlaceId": "ChIJETW8WBYBBDQR-WszCOLRHdk",
+      "coordinates": {
+        "lat": 22.2798079,
+        "lng": 114.1837883
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
