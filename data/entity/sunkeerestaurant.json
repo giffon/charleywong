@@ -29,7 +29,7 @@
       "url": "https://www.instagram.com/sunkeecafe/",
       "meta": {
         "name": "新記冰室 • 新記芝士麵",
-        "about": "荃灣店：荃灣海壩街89-93號荃好景大廈地下D舖\nTel : 26680810"
+        "about": "旺角店：九龍旺角砵蘭街185號地下（近朗豪坊）\n電話：26680040\n荃灣店：荃灣海壩街89-93號荃好景大廈地下D舖\n電話：26680810"
       }
     }
   ],
@@ -93,9 +93,26 @@
     {
       "type": "eat",
       "id": 1181
+    },
+    {
+      "type": "eat",
+      "id": 5418
     }
   ],
   "places": [
+    {
+      "address": {
+        "zh": "九龍旺角砵蘭街185號地下"
+      },
+      "googleMapsPlaceId": "ChIJDcuTcscABDQRDskrBFGfQRk",
+      "coordinates": {
+        "lat": 22.31681,
+        "lng": 114.1690729
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
     {
       "address": {
         "zh": "荃灣海壩街89-93號荃好景大廈地下D舖"
