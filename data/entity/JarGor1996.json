@@ -6,6 +6,7 @@
   "webpages": [
     {
       "meta": {
+        "name": "渣哥 一九九六",
         "about": "【同熱愛這老口味】"
       },
       "url": "https://www.instagram.com/jargor1996/"
@@ -164,13 +165,26 @@
       "address": {
         "zh": "九龍灣常悅道21號Eastmark地下"
       },
-      "googleMapsPlaceId": "ChIJn1W47hYBBDQR6o3MQTCF8wg",
+      "googleMapsPlaceId": "ChIJRwZzOvUBBDQRdpc8bO8r-mc",
       "coordinates": {
-        "lat": 22.32218,
-        "lng": 114.211228
+        "lat": 22.3221986,
+        "lng": 114.2112792
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港灣仔軒尼詩道395-399號東區商業中心地下1 & 2號舖"
+      },
+      "googleMapsPlaceId": "ChIJ6V1lrVAABDQRKIGeGziqCdU",
+      "coordinates": {
+        "lat": 22.2792646,
+        "lng": 114.1803023
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ],
