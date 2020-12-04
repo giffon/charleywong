@@ -76,12 +76,29 @@
       "area": {
         "zh": "北區"
       }
+    },
+    {
+      "address": {
+        "zh": "上水龍琛路2號B地下"
+      },
+      "googleMapsPlaceId": "ChIJ63ObORD2AzQRe1d0_FXNy4A",
+      "coordinates": {
+        "lat": 22.503906,
+        "lng": 114.129973
+      },
+      "area": {
+        "zh": "北區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 2292
+    },
+    {
+      "type": "shop",
+      "id": 4623
     }
   ]
 }
