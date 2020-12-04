@@ -11,14 +11,24 @@
       "url": "https://www.facebook.com/hkfreetours/",
       "meta": {
         "id": "212521775810278",
+        "username": "hkfreetours",
         "name": "Hong Kong Free Tours",
-        "categories": [
-          "Tour Agency",
-          "Local & Travel Website"
+        "about": "Hong Kong stories, told by Hong Kong people. We organize weekly free tours to share with you our local perspectives.",
+        "category_list": [
+          {
+            "id": "124861974254366",
+            "name": "Tour Agency"
+          },
+          {
+            "id": "2715",
+            "name": "Local & Travel Website"
+          }
         ],
-        "addr": "Central",
-        "area": "00000 Hong Kong, Hong Kong",
-        "email": "info@hongkongfreetours.com"
+        "emails": [
+          "info@hongkongfreetours.com"
+        ],
+        "single_line_address": "Central, 00000 Hong Kong, Hong Kong",
+        "website": "http://www.hongkongfreetours.com"
       }
     },
     {

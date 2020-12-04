@@ -18,14 +18,24 @@
       "url": "https://www.facebook.com/ihashing.hk/",
       "meta": {
         "id": "202041170352713",
-        "name": "Ihashing - Blockchain Technology",
-        "categories": [
-          "Software Company",
-          "Academic Camp"
+        "username": "ihashing.hk",
+        "name": "Ihashing - Blockchain Technology Solutions",
+        "about": "Enlighten people with blockchain values -\nWe provide education, adoption & development of blockchain technology & solutions for helping SMBs to automate business, make growth & enjoy freedom.",
+        "category_list": [
+          {
+            "id": "1065597503495311",
+            "name": "Software Company"
+          },
+          {
+            "id": "152248208162513",
+            "name": "Academic Camp"
+          }
         ],
-        "addr": "CYBERPORT",
-        "area": "852 Hong Kong, Hong Kong",
-        "email": "whynot@ihashing.hk"
+        "emails": [
+          "info@ihashing.hk"
+        ],
+        "single_line_address": "CYBERPORT, 852 Hong Kong, Hong Kong",
+        "website": "https://www.ihashing.hk"
       }
     }
   ],
