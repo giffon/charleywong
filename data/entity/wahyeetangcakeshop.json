@@ -25,6 +25,13 @@
         ]
       },
       "url": "https://www.facebook.com/wahyeetangcakeshop/"
+    },
+    {
+      "url": "https://www.instagram.com/wahyeetang1984/",
+      "meta": {
+        "name": "華爾登餅店",
+        "about": "香港西環第二街120-126號仁福大廈地舖\nG/F, Yen Fook Bldg, 120-126 Second Street, Western District, Hong Kong\n☎️2915 2263￼\n📳63327410\n#華爾登餅店\n#wahyeetang"
+      }
     }
   ],
   "posts": [
@@ -46,6 +53,21 @@
     {
       "type": "shop",
       "id": 4193
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港西環第二街120-126號仁福大廈地舖"
+      },
+      "googleMapsPlaceId": "ChIJPUyt0ID_AzQRU28T1Nec4bE",
+      "coordinates": {
+        "lat": 22.2861266,
+        "lng": 114.1396843
+      },
+      "area": {
+        "zh": "中西區"
+      }
     }
   ]
 }
