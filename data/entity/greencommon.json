@@ -11,7 +11,7 @@
       "url": "https://www.instagram.com/green_common/",
       "meta": {
         "name": "Green Common",
-        "about": "Make Change Happen, Make Green Common. Our 7 shops: Central, Sheung Wan, Wan Chai, TST, Mong Kok, Tseung Kwan O, Tuen Mun\nMake IMPACT Happen"
+        "about": "Make Green Common. Our 9 shops:Central, Sheung Wan, Wan Chai, Harbour City, K11 Musea, Mong Kok, Tseung Kwan O, Tuen Mun, Tsuen Wan\nMake IMPACT Happen"
       }
     },
     {
@@ -105,22 +105,13 @@
     {
       "type": "eat",
       "id": 1427
+    },
+    {
+      "type": "shop",
+      "id": 4627
     }
   ],
   "places": [
-    {
-      "address": {
-        "en": "Green Common Deli Festival Walk, Shop 05, MTR Level, Festival Walk, Tat Chee Avenue, Kowloon Tong, Kowloon"
-      },
-      "googleMapsPlaceId": "ChIJfx5PRjEHBDQRIDFANIp7T_0",
-      "coordinates": {
-        "lat": 22.3373517,
-        "lng": 114.1745657
-      },
-      "area": {
-        "zh": "深水埗區"
-      }
-    },
     {
       "address": {
         "en": "Green Common Deli Pacific Place, Great Food Hall, LG1, 88 Queensway, Pacific Place, Admiralty, Hong Kong"
@@ -132,6 +123,45 @@
       },
       "area": {
         "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "en": "Green Common Nina Mall 2 Tsuen Wan, Shop No.101, 1/F, Nina Mall 2, No. 98 Tai Ho Road, Tsuen Wan, New Territories"
+      },
+      "googleMapsPlaceId": "ChIJayegl3X5AzQR40s9gWECNGY",
+      "coordinates": {
+        "lat": 22.368806,
+        "lng": 114.1114541
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "en": "Green Common Market Lok Fu, Stall No.137, Ground Floor in the market place of Lok Fu Place, Lok Fu Estate, 198 Junction Road, Kowloon"
+      },
+      "googleMapsPlaceId": "ChIJJR6V5SgHBDQRw2EJd1O7vMg",
+      "coordinates": {
+        "lat": 22.3383244,
+        "lng": 114.1872329
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    },
+    {
+      "address": {
+        "en": "Green Common Market Tsing Yi, Stall T-CF 52, Cheung Fat Market,  G/F., Cheung Fat Plaza, Cheung Fat Estate, No.6 Tam Kon Shan Road, Tsing Yi"
+      },
+      "googleMapsPlaceId": "ChIJI-Jswt34AzQRCOn7iSEiPsc",
+      "coordinates": {
+        "lat": 22.3621864,
+        "lng": 114.103363
+      },
+      "area": {
+        "zh": "葵青區"
       }
     },
     {
