@@ -37,13 +37,106 @@
     {
       "url": "https://www.facebook.com/mokurouvisualplus/posts/2329057210682588",
       "meta": {
-        "utime": "1560303034",
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     }
   ],
   "tags": [
     "eyewear",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣廣場一期二樓209舖"
+      },
+      "googleMapsPlaceId": "ChIJyzVb3lYABDQR3aQIYsuY-Iw",
+      "coordinates": {
+        "lat": 22.28026089999999,
+        "lng": 114.182827
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "黃埔新天地聚寶坊地庫一層KIDZONE B64舖"
+      },
+      "googleMapsPlaceId": "ChIJfwUadeAABDQRh07DjgQrXn8",
+      "coordinates": {
+        "lat": 22.3060452,
+        "lng": 114.1900229
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    },
+    {
+      "address": {
+        "zh": "藍田匯景花園商場L5層822A舖"
+      },
+      "googleMapsPlaceId": "ChIJ3y-qeFkBBDQRXhUOQ-HiJZA",
+      "coordinates": {
+        "lat": 22.3072595,
+        "lng": 114.2334976
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "馬鞍山中心地下A16舖"
+      },
+      "googleMapsPlaceId": "ChIJcSEj3LMIBDQRZ0MrxnFw9zs",
+      "coordinates": {
+        "lat": 22.4255501,
+        "lng": 114.2331
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "粉嶺中心一樓256舖"
+      },
+      "googleMapsPlaceId": "ChIJr3IWyiH2AzQR2Rk3slEg1lE",
+      "coordinates": {
+        "lat": 22.4910234,
+        "lng": 114.1409181
+      },
+      "area": {
+        "zh": "北區"
+      }
+    },
+    {
+      "address": {
+        "zh": "杏花邨杏花新城127舖"
+      },
+      "googleMapsPlaceId": "ChIJDzj02H8BBDQRM_vHVUBGZVU",
+      "coordinates": {
+        "lat": 22.2767315,
+        "lng": 114.2399396
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "調景嶺彩明商場二樓241舖"
+      },
+      "googleMapsPlaceId": "ChIJB5YB7e8DBDQRk2mu7Rv4kMw",
+      "coordinates": {
+        "lat": 22.3060752,
+        "lng": 114.2524067
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    }
   ]
 }
