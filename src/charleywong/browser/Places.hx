@@ -66,13 +66,16 @@ class Places extends ReactComponent {
             ];
             return jsx('
                 <Fragment>
-                    <Select
-                        value=${selected}
-                        onChange=${handleChange}
-                        disableUnderline=${true}
-                    >
-                        ${items}
-                    </Select>
+                    <div>
+                        <Select
+                            value=${selected}
+                            onChange=${handleChange}
+                            disableUnderline=${true}
+                        >
+                            ${items}
+                        </Select>
+                        <span className="text-nowrap text-secondary">共 ${places.length} 個地址</span>
+                    </div>
                     ${gmap}
                 </Fragment>
             ');
