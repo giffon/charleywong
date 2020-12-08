@@ -1,7 +1,8 @@
 {
   "id": "hanasoftcream",
   "name": {
-    "en": "HANA Soft Cream ハナソフトクリーム"
+    "en": "HANA Soft Cream",
+    "zh": "華軟雪糕"
   },
   "webpages": [
     {
@@ -20,6 +21,13 @@
         "website": "http://www.facebook.com/hanasoftcream/"
       },
       "url": "https://www.facebook.com/hanasoftcream/"
+    },
+    {
+      "url": "https://www.instagram.com/hanasoftcream/",
+      "meta": {
+        "name": "HANA Soft Cream ハナソフトクリーム",
+        "about": "【華軟雪糕】\n日本進口軟雪糕🍦\n8.0特濃牛乳🍶\nFB/IG: hanasoftcream\n營業時間:\n週一至四: 1300-2100\n週五: 1300-2130\n週六: 1300-2130\n公眾假期: 1300-2130"
+      }
     }
   ],
   "posts": [
@@ -40,6 +48,21 @@
     {
       "type": "eat",
       "id": 1314
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗欽州街37K西九龍中心6樓628A"
+      },
+      "googleMapsPlaceId": "ChIJi5OvFLMABDQRTOzsWGgzdpA",
+      "coordinates": {
+        "lat": 22.3310989,
+        "lng": 114.1602118
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ]
 }
