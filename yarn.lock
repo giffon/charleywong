@@ -5739,10 +5739,10 @@ https-browserify@^1.0.0:
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
-https-localhost@4.6.3:
-  version "4.6.3"
-  resolved "https://registry.yarnpkg.com/https-localhost/-/https-localhost-4.6.3.tgz#4a20a7e4def03620d1bad195889ef006ff835987"
-  integrity sha512-nVYqKsqkQcjiOexT0JGtFUHZZXdG0exXuCeemT+GD+tmICztHDc5+fzLjZW8J+VP1BtCDvPqTBQIi668z1tM7Q==
+https-localhost@4.6.4:
+  version "4.6.4"
+  resolved "https://registry.yarnpkg.com/https-localhost/-/https-localhost-4.6.4.tgz#5f0d469d368b13fadd0e565b59a38dcc39957372"
+  integrity sha512-S+bRDNPJ2T63tnGK2y0C14v742vGLOy8KBZAz6IebRQ8U3M5vVpF0PurGZwzugrzlo9vdNOcfHJyMCwIjtpuxw==
   dependencies:
     appdata-path "^1.0.0"
     compression "^1.7.4"
