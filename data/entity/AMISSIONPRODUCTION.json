@@ -90,5 +90,20 @@
     "wedding",
     "photography",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵涌打磚砰街麗麗中心B座1919室"
+      },
+      "googleMapsPlaceId": "ChIJfdS_Ypv4AzQRHoEty_J8y1Q",
+      "coordinates": {
+        "lat": 22.3677874,
+        "lng": 114.1378971
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }

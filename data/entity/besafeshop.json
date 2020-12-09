@@ -44,5 +44,20 @@
   "tags": [
     "food",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔福安樓地下6B舖"
+      },
+      "googleMapsPlaceId": "ChIJhx_5fD8IBDQRYKhYycXaJaI",
+      "coordinates": {
+        "lat": 22.4465526,
+        "lng": 114.1672979
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    }
   ]
 }

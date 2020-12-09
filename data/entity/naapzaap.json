@@ -52,5 +52,20 @@
   "tags": [
     "foodStore",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔翠和里5號麗和閣地下B1號舖"
+      },
+      "googleMapsPlaceId": "ChIJ_3dzUzgIBDQRG2Efb6lwAbs",
+      "coordinates": {
+        "lat": 22.452458,
+        "lng": 114.164903
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    }
   ]
 }
