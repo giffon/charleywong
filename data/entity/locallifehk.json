@@ -13,9 +13,13 @@
       "meta": {
         "id": "283127115130600",
         "name": "在地生活 Local Life",
-        "categories": [
-          "Product/Service"
-        ]
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
+        ],
+        "website": "http://locallifehk.wordpress.com/"
       }
     }
   ],

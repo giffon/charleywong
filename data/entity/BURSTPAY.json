@@ -27,13 +27,27 @@
       "url": "https://www.facebook.com/BURSTPAY/",
       "meta": {
         "id": "305975393423504",
+        "username": "BURSTPAY",
         "name": "BURSTPAY",
-        "categories": [
-          "App Page",
-          "Information Technology Company",
-          "E-commerce Website"
+        "about": "Green & Smart Blockchain Payment Platform, helps SMBs who care about data privacy & ownership, to make trustless transactions instantly & globally. Featured smart contracts automation, data verifiability, and public traceability.",
+        "category_list": [
+          {
+            "id": "2301",
+            "name": "App Page"
+          },
+          {
+            "id": "1130035050388269",
+            "name": "Information Technology Company"
+          },
+          {
+            "id": "1756049968005436",
+            "name": "E-commerce Website"
+          }
         ],
-        "email": "whynot@burstpay.io"
+        "emails": [
+          "whynot@burstpay.io"
+        ],
+        "website": "https://Burstpay.io"
       }
     }
   ],
