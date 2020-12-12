@@ -33,6 +33,7 @@ class Facebook {
     static public final apiVersion = "v7.0";
 
     #if (nodejs && !chrome)
+    // https://developers.facebook.com/docs/facebook-login/access-tokens/#apptokens
     static public final accessToken = try {
         File.getContent("FACEBOOK_TOKEN").trim();
     } catch (e) {
