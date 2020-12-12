@@ -50,5 +50,20 @@
       "type": "shop",
       "id": 2153
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Rm G, 16/F, The Bedford, Bedford Road"
+      },
+      "googleMapsPlaceId": "ChIJBbckJLcABDQRnUZ1Qx1nw1U",
+      "coordinates": {
+        "lat": 22.323623,
+        "lng": 114.1627645
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
