@@ -9,13 +9,21 @@
       "meta": {
         "id": "616166071917266",
         "name": "萬成行英姐",
-        "categories": [
-          "Food Wholesaler",
-          "Grocery Store"
+        "about": "專營糧油雜貨， 十穀米 , 其他產品歡迎查詢\n地址:香港西營盤德輔道西271號地下29C舖\n電話:25495090",
+        "category_list": [
+          {
+            "id": "1727285527537943",
+            "name": "Food Wholesaler"
+          },
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          }
         ],
-        "addr": null,
-        "area": "香港西營盤德輔道西271號地下29c舖",
-        "email": "kwanman_kit@hotmail.com"
+        "emails": [
+          "kwanman_kit@hotmail.com"
+        ],
+        "single_line_address": "香港西營盤德輔道西271號地下29c舖"
       }
     }
   ],
