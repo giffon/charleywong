@@ -69,5 +69,20 @@
       "type": "shop",
       "id": 2611
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "@Urban Roasted Resort Cafe, 98 Tai Nan Street, Kowloon, HK"
+      },
+      "googleMapsPlaceId": "ChIJ9cP3brYABDQRjJkECh53nIg",
+      "coordinates": {
+        "lat": 22.325461,
+        "lng": 114.165726
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
