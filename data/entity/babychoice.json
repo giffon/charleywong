@@ -52,6 +52,64 @@
     {
       "type": "shop",
       "id": 90
+    },
+    {
+      "type": "shop",
+      "id": 4808
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "馬鞍山新港城中心三樓3219-3220號鋪"
+      },
+      "googleMapsPlaceId": "ChIJT7Z-mbEIBDQRrtjlT7gXWp8",
+      "coordinates": {
+        "lat": 22.424155,
+        "lng": 114.23197
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "新界元朗天水圍天華路30及33號T Town南翼地面SG06-07鋪"
+      },
+      "googleMapsPlaceId": "ChIJ9Vj7wFrxAzQR28iZqlavS3Y",
+      "coordinates": {
+        "lat": 22.461541,
+        "lng": 113.997735
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "新界將軍澳常寧路2號TKO Gateway E166A及E166B舖"
+      },
+      "googleMapsPlaceId": "ChIJ0xgcmXUEBDQRmtcykTYDg8E",
+      "coordinates": {
+        "lat": 22.3172083,
+        "lng": 114.2658933
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "新界將軍澳調景嶺彩明街1號彩明商場218號舖"
+      },
+      "googleMapsPlaceId": "ChIJB5YB7e8DBDQRk2mu7Rv4kMw",
+      "coordinates": {
+        "lat": 22.3060752,
+        "lng": 114.2524067
+      },
+      "area": {
+        "zh": "西貢區"
+      }
     }
   ]
 }
