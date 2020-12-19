@@ -9,14 +9,14 @@
       "meta": {
         "id": "794968827585931",
         "name": "閨•家",
-        "about": "北角分店營業時間：7:00am－22:00pm\n(星期日照常營業)\n地址:炮台山蜆殼街寶榮大廈地下F舖\n\n等你 閨·家",
+        "about": "北角分店\n營業時間：7:00am-22:00pm\n店舖地址:炮台山蜆殼街寶榮大廈地下F舖\n\n深水埗分店\n營業時間：11:30am-21:00pm\n店舖地址：深水埗西九龍中心3樓319號\n\n等你 閨·家",
         "category_list": [
           {
             "id": "273819889375819",
             "name": "Restaurant"
           }
         ],
-        "single_line_address": "屯門富健花園地下40號舖, Hong Kong, Hong Kong"
+        "single_line_address": "屯門富健花園地下40號舖, 香港"
       }
     }
   ],
@@ -62,6 +62,19 @@
       "area": {
         "zh": "灣仔區"
       }
+    },
+    {
+      "address": {
+        "zh": "深水埗西九龍中心3樓319號"
+      },
+      "googleMapsPlaceId": "ChIJw4LLE7MABDQR4MMha8oMpPc",
+      "coordinates": {
+        "lat": 22.3310879,
+        "lng": 114.1597868
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -72,6 +85,10 @@
     {
       "type": "eat",
       "id": 1629
+    },
+    {
+      "type": "eat",
+      "id": 5495
     }
   ]
 }
