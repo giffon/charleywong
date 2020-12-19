@@ -54,12 +54,29 @@
       "area": {
         "zh": "深水埗區"
       }
+    },
+    {
+      "address": {
+        "zh": "深水埗黃金電腦商場地庫29b"
+      },
+      "googleMapsPlaceId": "ChIJn2Nqr7QABDQR-__8ruLtig4",
+      "coordinates": {
+        "lat": 22.3317623,
+        "lng": 114.1622803
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 98
+    },
+    {
+      "type": "shop",
+      "id": 4789
     }
   ]
 }
