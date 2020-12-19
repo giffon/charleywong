@@ -11,11 +11,19 @@
       "url": "https://www.facebook.com/KBuyers.hk/",
       "meta": {
         "id": "377896535635396",
+        "username": "KBuyers.hk",
         "name": "KBuyers.com 韓國代購",
-        "categories": [
-          "Shopping Service"
+        "about": "全香港最集中、最多元化、最豐富的韓國代購服務韓國網站代購服務",
+        "category_list": [
+          {
+            "id": "200046713342752",
+            "name": "Shopping Service"
+          }
         ],
-        "email": "info@kbuyers.com"
+        "emails": [
+          "info@kbuyers.com"
+        ],
+        "website": "http://www.kbuyers.com"
       }
     }
   ],
