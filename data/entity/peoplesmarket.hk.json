@@ -6,7 +6,7 @@
   },
   "webpages": [
     {
-      "url": "http://peoplesmarket.hk"
+      "url": "https://peoplesmarket.hk"
     },
     {
       "meta": {
@@ -60,6 +60,64 @@
     {
       "type": "eat",
       "id": 951
+    },
+    {
+      "type": "shop",
+      "id": 4796
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍灣常悅道21號 Eastmark 2樓3號舖"
+      },
+      "googleMapsPlaceId": "ChIJCwTk_ckBBDQRKUCI3pmsCVQ",
+      "coordinates": {
+        "lat": 22.3221986,
+        "lng": 114.2112792
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍長沙灣長順街15號 D2 Place 二期 8樓A室"
+      },
+      "googleMapsPlaceId": "ChIJLa-651QHBDQRqa6Kzq35ppI",
+      "coordinates": {
+        "lat": 22.3360897,
+        "lng": 114.1475583
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "灣仔灣仔道83號7樓A室"
+      },
+      "googleMapsPlaceId": "ChIJVVXBa1sABDQRykt7YJTo2gU",
+      "coordinates": {
+        "lat": 22.2763094,
+        "lng": 114.1748452
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大埔富善街62號地下"
+      },
+      "googleMapsPlaceId": "ChIJGzhAahAJBDQRLwtjsI6lGX8",
+      "coordinates": {
+        "lat": 22.4492152,
+        "lng": 114.1647318
+      },
+      "area": {
+        "zh": "大埔區"
+      }
     }
   ]
 }
