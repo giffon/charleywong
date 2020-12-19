@@ -70,15 +70,15 @@
     },
     {
       "address": {
-        "en": "Shop OT G30, Level G, Ocean Terminal, Harbour City, Tsim Sha Tsui"
+        "en": "G/F, Victoria Court, 56 Hing Fat Street, Tin Hau, Hong Kong Island"
       },
-      "googleMapsPlaceId": "ChIJSfKzq_IABDQRRzf4WaIClfw",
+      "googleMapsPlaceId": "ChIJu8Ee4f8ABDQRWUydphEJ0Lo",
       "coordinates": {
-        "lat": 22.2950196,
-        "lng": 114.1667674
+        "lat": 22.2844061,
+        "lng": 114.1913497
       },
       "area": {
-        "zh": "油尖旺區"
+        "zh": "灣仔區"
       }
     },
     {
@@ -109,32 +109,6 @@
     },
     {
       "address": {
-        "en": "Shop 358, Level 3, MOKO, Mong Kok"
-      },
-      "googleMapsPlaceId": "ChIJPWhdPMkABDQRQfSpEWpG9TE",
-      "coordinates": {
-        "lat": 22.3230544,
-        "lng": 114.1721669
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
-        "en": "Shop 313, Level 3, Plaza Hollywood, Diamond Hill, Kowloon"
-      },
-      "googleMapsPlaceId": "ChIJsUTxGdsGBDQRuMrIipHUdtQ",
-      "coordinates": {
-        "lat": 22.340554,
-        "lng": 114.2021768
-      },
-      "area": {
-        "zh": "黃大仙區"
-      }
-    },
-    {
-      "address": {
         "en": "Units 7 & 8, level 9, MegaBox, Kowloon Bay"
       },
       "googleMapsPlaceId": "ChIJjfvl4jMBBDQRKL243gid__4",
@@ -157,45 +131,6 @@
       },
       "area": {
         "zh": "沙田區"
-      }
-    },
-    {
-      "address": {
-        "en": "Shop 272, Level 2, East Point City, Tseung Kwan O"
-      },
-      "googleMapsPlaceId": "ChIJlV2SgYoDBDQRajZMSQzwvBE",
-      "coordinates": {
-        "lat": 22.316829,
-        "lng": 114.2652905
-      },
-      "area": {
-        "zh": "西貢區"
-      }
-    },
-    {
-      "address": {
-        "en": "Shop 2191C, 2/F, Tuen Mun Town Plaza Phase1, Tuen Mun"
-      },
-      "googleMapsPlaceId": "ChIJE7Wpbz37AzQRbFsJZCVg39A",
-      "coordinates": {
-        "lat": 22.3929225,
-        "lng": 113.9776685
-      },
-      "area": {
-        "zh": "屯門區"
-      }
-    },
-    {
-      "address": {
-        "en": "Shop 2030, YOHO Mall I, Yuen Long, New Territories"
-      },
-      "googleMapsPlaceId": "ChIJ54Bi2KfwAzQRvYUyR0018bA",
-      "coordinates": {
-        "lat": 22.4453777,
-        "lng": 114.036469
-      },
-      "area": {
-        "zh": "元朗區"
       }
     },
     {
@@ -264,6 +199,10 @@
     {
       "type": "shop",
       "id": 2495
+    },
+    {
+      "type": "shop",
+      "id": 4700
     }
   ]
 }
