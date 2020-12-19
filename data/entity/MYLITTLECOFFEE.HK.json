@@ -164,6 +164,19 @@
       "area": {
         "zh": "灣仔區"
       }
+    },
+    {
+      "address": {
+        "zh": "北角城中心1樓104號舖"
+      },
+      "googleMapsPlaceId": "ChIJRyZCLAIBBDQRBFcU4VJg9_o",
+      "coordinates": {
+        "lat": 22.2885726,
+        "lng": 114.194499
+      },
+      "area": {
+        "zh": "東區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -190,6 +203,14 @@
     {
       "type": "shop",
       "id": 2287
+    },
+    {
+      "type": "shop",
+      "id": 4792
+    },
+    {
+      "type": "shop",
+      "id": 4793
     }
   ]
 }
