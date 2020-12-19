@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://redpandamuseum.com"
+    },
+    {
       "meta": {
         "id": "103410054343246",
         "username": "redpandaMuseum",
@@ -28,6 +31,13 @@
         "website": "https://redpandamuseum.com/"
       },
       "url": "https://www.facebook.com/redpandaMuseum/"
+    },
+    {
+      "url": "https://www.instagram.com/redpandamuseum/",
+      "meta": {
+        "name": "小熊貓博物館",
+        "about": "身於香港的小熊貓狂熱者\n四出搜集其足跡 建造這個小熊貓博物館\n提提你，FB專頁更多大圖\n活動：\n12月25-27日 聖誕節期間店\n地址：油麻地雅達商業大廈4A\n2月6日 紙膠帶市集MTO17\n精品購買部:⬇⬇⬇#"
+      }
     }
   ],
   "posts": [
@@ -39,6 +49,22 @@
     }
   ],
   "tags": [
-    "artist"
+    "artist",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "油麻地鴉打街33號雅達商業大廈4樓A室"
+      },
+      "googleMapsPlaceId": "ChIJzblEUsAABDQRHjtDfu70Om0",
+      "coordinates": {
+        "lat": 22.3110788,
+        "lng": 114.170357
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
