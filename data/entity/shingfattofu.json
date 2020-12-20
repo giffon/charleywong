@@ -1,0 +1,84 @@
+{
+  "id": "shingfattofu",
+  "name": {
+    "zh": "成發豆品",
+    "en": "shingfattofu"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/shingfattofu/",
+      "meta": {
+        "id": "109550537440714",
+        "username": "shingfattofu",
+        "name": "成發豆品shingfattofu",
+        "about": "提供新鮮食材、基本火鍋材料",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
+        ]
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/chickenrice888/posts/1358897490968223"
+    },
+    {
+      "url": "https://www.facebook.com/shingfattofu/posts/129357985459969",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "天水圍天瑞街市地下T16號鋪 成發豆品"
+      },
+      "googleMapsPlaceId": "ChIJE227vmPwAzQRIAZIC2SZOfw",
+      "coordinates": {
+        "lat": 22.462861,
+        "lng": 113.997073
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "天水圍天瑞街市地下T18號鋪 成發粉麵"
+      },
+      "googleMapsPlaceId": "ChIJE227vmPwAzQRIAZIC2SZOfw",
+      "coordinates": {
+        "lat": 22.462861,
+        "lng": 113.997073
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門友愛街市地下TYO52號鋪 成發豆品"
+      },
+      "googleMapsPlaceId": "ChIJf2R-7j77AzQRg15I65LAaW4",
+      "coordinates": {
+        "lat": 22.3884811,
+        "lng": 113.9744989
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
+  ]
+}

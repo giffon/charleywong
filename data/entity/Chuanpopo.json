@@ -1,0 +1,101 @@
+{
+  "id": "Chuanpopo",
+  "name": {
+    "zh": "川婆婆"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/Chuanpopo/",
+      "meta": {
+        "id": "281303295226764",
+        "username": "Chuanpopo",
+        "name": "川婆婆",
+        "about": "川婆婆飲食集團，首間：尖沙咀厚福街麻辣燙，正宗四川麻辣九宮格火鍋，酸菜魚，小龍蝦",
+        "category_list": [
+          {
+            "id": "1748542362059803",
+            "name": "Szechuan/Sichuan Restaurant"
+          },
+          {
+            "id": "167116956674095",
+            "name": "Fondue Restaurant"
+          }
+        ],
+        "single_line_address": "尖沙咀寶勒巷26-36號華寶大廈5.7及8號舖, 九龍"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/chuan_po_po/",
+      "meta": {
+        "name": "川婆婆 Chuan Po Po",
+        "about": "主打：麻辣粉面 麻辣火鍋\n1. 尖沙咀火鍋店： 尖沙咀寶勒巷26-36號\n2.銅鑼灣粉面店： 利園山道5號地鋪\n3.尖沙咀外賣粉面店：厚福街7A,D舖\n4.旺角外賣粉面店： 旺角中心2樓SB04號"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/Chuanpopo/posts/3783040955052963",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food",
+    "hotpot"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀寶勒巷26-36號 (火鍋店)"
+      },
+      "googleMapsPlaceId": "ChIJKTSNQu4ABDQRAehErZ13ug8",
+      "coordinates": {
+        "lat": 22.29889,
+        "lng": 114.1752385
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣利園山道5號地鋪 (粉面店)"
+      },
+      "googleMapsPlaceId": "Eig1IExlZSBHYXJkZW4gUmQsIENhdXNld2F5IEJheSwgSG9uZyBLb25nIjASLgoUChIJKwRv21YABDQR5ojGM7Q5z-sQBSoUChIJ6cq1zFYABDQRYfCVT8oka-s",
+      "coordinates": {
+        "lat": 22.279831,
+        "lng": 114.1832409
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀厚福街7A,D舖 (外賣粉面店)"
+      },
+      "googleMapsPlaceId": "ChIJh3xMe-4ABDQRzMmWIiN32Ko",
+      "coordinates": {
+        "lat": 22.2993088,
+        "lng": 114.1744748
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角中心2樓SB04號 (外賣粉面店)"
+      },
+      "googleMapsPlaceId": "ChIJJy6L2McABDQR2WY_GCESFjA",
+      "coordinates": {
+        "lat": 22.319912,
+        "lng": 114.169461
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ]
+}
