@@ -1,0 +1,62 @@
+{
+  "id": "hustleguyeatery",
+  "name": {
+    "en": "Hustle Guy"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/hustleguyeatery/",
+      "meta": {
+        "id": "1967995776822622",
+        "username": "hustleguyeatery",
+        "name": "Hustle Guy",
+        "about": "一對80後夫婦,一間用心經營,用心創作美食,用心服務嘅優質西式小店。",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
+        ],
+        "single_line_address": "荃灣海濱花園海濱商場D平台一樓M22號舖, 852 Tsuen Wan"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/hustleguyeatery/posts/2695026627452863",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hustleguyeatery/posts/2785239761764882",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣海濱花園海濱商場D平台一樓M22號舖"
+      },
+      "googleMapsPlaceId": "ChIJt0XH_en4AzQR5dO1LYNsPNg",
+      "coordinates": {
+        "lat": 22.3625258,
+        "lng": 114.113811
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1940
+    }
+  ]
+}
