@@ -23,6 +23,9 @@
         "single_line_address": "九龍城賈炳達道63號地下, Hong Kong, Hong Kong",
         "website": "https://www.patreon.com/fologwan"
       }
+    },
+    {
+      "url": "https://www.patreon.com/fologwan"
     }
   ],
   "posts": [
@@ -54,5 +57,20 @@
   "tags": [
     "media",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍城賈炳達道63號地下"
+      },
+      "googleMapsPlaceId": "ChIJE2YVgSoHBDQRhwhxB0NZmZM",
+      "coordinates": {
+        "lat": 22.33046909999999,
+        "lng": 114.1906387
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
   ]
 }
