@@ -81,7 +81,7 @@
   "places": [
     {
       "address": {
-        "en": "Rm 2715-16, 27/F, One Midtown, 11 Hoi Shing Road, Tsuen Wan, Hong Kong"
+        "en": "Room 2715-16 & 515-516, One Midtown, Tsuen Wan"
       },
       "googleMapsPlaceId": "ChIJvXfR3ir5AzQRVPa_LFaNeRw",
       "coordinates": {
@@ -90,6 +90,19 @@
       },
       "area": {
         "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "en": "Room C-E, Golden Sun Center, Sheung Wan"
+      },
+      "googleMapsPlaceId": "ChIJCfN7loYBBDQRrtKdgmf1I5w",
+      "coordinates": {
+        "lat": 22.2873387,
+        "lng": 114.1482235
+      },
+      "area": {
+        "zh": "中西區"
       }
     }
   ]
