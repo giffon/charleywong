@@ -69,5 +69,20 @@
       "type": "eat",
       "id": 1259
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "1033 Yee Kuk West Street, Cheung Sha Wan"
+      },
+      "googleMapsPlaceId": "EiwxMDMzIFllZSBLdWsgVyBTdCwgQ2hldW5nIFNoYSBXYW4sIEhvbmcgS29uZyIxEi8KFAoSCbUApU9UBwQ0EchM-8vZbNekEIkIKhQKEglZzvJJVAcENBFFJKs_pmhI8g",
+      "coordinates": {
+        "lat": 22.3384546,
+        "lng": 114.1472408
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
