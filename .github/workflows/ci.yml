@@ -41,7 +41,7 @@ jobs:
           yarn
           bash build-dclookup.sh
           lix download
-          npx dts2hx @types/gtag.js --noLibWrap --output lib/dts2hx
+          npx dts2hx @types/node @types/gtag.js fastify --noLibWrap --output lib/dts2hx
       - uses: actions/upload-artifact@v1
         with:
           name: dclookup
@@ -131,7 +131,7 @@ jobs:
           set -ex
           yarn
           lix download
-          npx dts2hx @types/gtag.js --noLibWrap --output lib/dts2hx
+          npx dts2hx @types/node @types/gtag.js fastify --noLibWrap --output lib/dts2hx
       - name: Dump YellowBlueMap
         run: aws s3 cp --recursive s3://pubic-ccjdhhhdi ybm
         env:
