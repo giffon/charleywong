@@ -875,11 +875,7 @@ class ServerMain {
             app = Fastify.fastify();
             initServer();
             var serverless = require('serverless-http');
-            js.Node.exports.handler = serverless(app, {
-                binary: [
-                    'image/*'
-                ],
-            });
+            js.Node.exports.handler = serverless(app);
         }
     }
 }
