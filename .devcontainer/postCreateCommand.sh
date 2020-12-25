@@ -8,4 +8,4 @@ yarn
 bash build-dclookup.sh
 lix download
 
-npx dts2hx @types/gtag.js --noLibWrap --output lib/dts2hx
+npx dts2hx @types/node @types/gtag.js fastify --tsconfig tsconfig.json --noLibWrap --output lib/dts2hx

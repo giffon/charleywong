@@ -6,20 +6,23 @@ import js.npm.hk_address_parser_lib.Dclookup;
 import js.lib.Promise;
 import js.npm.jimp.Jimp;
 import js.node.Buffer;
+import Fastify;
+import fastify.*;
 import sys.io.File;
 import js.html.URL;
 import haxe.*;
 import charleywong.views.*;
-import js.npm.express.*;
 import js.Node.*;
 import charleywong.UrlExtractors.*;
-using charleywong.ExpressTools;
 using charleywong.EntityTools;
+using charleywong.ReplyTools;
 using StringTools;
 using Lambda;
 
+typedef Request = FastifyRequest<Dynamic,Dynamic,Dynamic>;
+typedef Reply = FastifyReply<Dynamic,Dynamic,Dynamic,Dynamic,Dynamic>;
+
 class ServerMain {
-    static public final port = 3000;
     static final isMain = js.Syntax.code("require.main") == module;
     static public final domain = "https://charleywong.giffon.io";
     static public final dataDirectory = "data/entity";
@@ -31,36 +34,34 @@ class ServerMain {
         else
             null
     );
-    static public var app:Application;
+    static public var app:FastifyInstance<Dynamic, Dynamic, Dynamic, Dynamic>;
 
-    static function index(req:Request, res:Response) {
+    static function index(req:Request, reply:Reply):Promise<Dynamic> {
         var search:Null<String> = req.query.search;
         if (search != null) {
-            switch (search.trim()) {
+            return switch (search.trim()) {
                 case "":
-                    res.redirect("/list/all");
-                    return;
+                    Promise.resolve(reply.redirect("/list/all"));
                 case search:
-                    res.redirect("/search/" + search.urlEncode());
-                    return;
+                    Promise.resolve(reply.redirect("/search/" + search.urlEncode()));
             }
         }
-        res.sendView(Index);
+        return Promise.resolve(reply.sendView(Index));
     }
 
-    static function campaign(req:Request, res:Response) {
-        res.sendView(Campaign);
+    static function campaign(req:Request, reply:Reply):Promise<Dynamic> {
+        return Promise.resolve(reply.sendView(Campaign));
     }
 
-    static function pageMooncake2020(req:Request, res:Response) {
-        res.sendView(Mooncake2020);
+    static function pageMooncake2020(req:Request, reply:Reply):Promise<Dynamic> {
+        return Promise.resolve(reply.sendView(Mooncake2020));
     }
 
-    static function pageHkbaseDirectory(req:Request, res:Response) {
+    static function pageHkbaseDirectory(req:Request, reply:Reply):Promise<Dynamic> {
         var entities = HkbaseDirectory.localCache.map(d -> HkbaseDirectory.getEntity(d, entityIndex.entitiesOfHkbase)); // use the order of HKBASE directory
-        res.sendView(HkbaseDirectoryView, {
+        return Promise.resolve(reply.sendView(HkbaseDirectoryView, {
             entities: entities,
-        });
+        }));
     }
 
     static function renderName(n:MultiLangString) {
@@ -72,8 +73,8 @@ class ServerMain {
         }
     }
 
-    static function all(req:Request, res:Response) {
-        res.sendView(EntityListView, {
+    static function all(req:Request, reply:Reply):Promise<Dynamic> {
+        return Promise.resolve(reply.sendView(EntityListView, {
             slug: "all",
             path: "list/all",
             listName: "全部 Charley Wong 和你查 商業/品牌",
@@ -86,20 +87,31 @@ class ServerMain {
                 entities.sort((e1, e2) -> Reflect.compare(renderName(e1.name).toLowerCase(), renderName(e2.name).toLowerCase()));
                 entities;
             }
-        });
+        }));
     }
 
-    static function allJson(req:Request, res:Response) {
-        res.json([
+    static function allJson(req:Request, reply:Reply):Promise<Dynamic> {
+        return Promise.resolve([
             for (e in entityIndex.entities)
             if (e.searchable())
             e.id
         ]);
     }
 
-    static function listEntities(req:Request, res:Response) {
+    static function listEntities(req:Request, reply:Reply):Promise<Dynamic> {
         var name:String = req.params.name;
         var ids:String = req.params.entityIds;
+        if (ids.endsWith(".json")) {
+            var ids = ids.substr(0, -".json".length);
+            var entities = [
+                for (id in ids.split("+"))
+                switch (entityIndex.entitiesOfId[id]) {
+                    case null: throw 'Entity of id "$id" not found';
+                    case e: e.fullInfo();
+                }
+            ];
+            return Promise.resolve(entities);
+        }
         var entities = [
             for (id in ids.split("+"))
             switch (entityIndex.entitiesOfId[id]) {
@@ -107,61 +119,38 @@ class ServerMain {
                 case e: e;
             }
         ];
-        res.sendView(EntityListView, {
+        return Promise.resolve(reply.sendView(EntityListView, {
             slug: ids,
             path: haxe.io.Path.join(["list", name, ids]),
             listName: name,
             entities: entities,
-        });
+        }));
     }
 
-    static function listEntitiesJson(req:Request, res:Response) {
-        var name:String = req.params.name;
-        var ids:String = req.params.entityIds;
-        var entities = [
-            for (id in ids.split("+"))
-            switch (entityIndex.entitiesOfId[id]) {
-                case null: throw 'Entity of id "$id" not found';
-                case e: e.fullInfo();
-            }
-        ];
-        res.json(entities);
-    }
-
-    static function entityJson(req:Request, res:Response) {
+    static function entity(req:Request, reply:Reply):Promise<Dynamic> {
         var entityId:String = req.params.entityId;
+        var returnJson = entityId.endsWith(".json");
+        if (returnJson)
+            entityId = entityId.substr(0, -".json".length);
+
         var entity = entityIndex.entitiesOfId[entityId];
         if (entity == null) {
-            res.status(404).send('Entity of id $entityId not found.');
-            return;
+            return Promise.resolve(reply.status(404).send('Entity of id $entityId not found.'));
         }
 
         if (entityId != entity.id) {
-            res.redirect(entity.id);
-            return;
+            return Promise.resolve(reply.redirect(entity.id + (returnJson ? ".json" : "")));
         }
 
-        res.json(entity.fullInfo());
-    }
-
-    static function entity(req:Request, res:Response) {
-        var entityId:String = req.params.entityId;
-        var entity = entityIndex.entitiesOfId[entityId];
-        if (entity == null) {
-            res.status(404).send('Entity of id $entityId not found.');
-            return;
+        if (returnJson) {
+            return Promise.resolve(entity.fullInfo());
+        } else {
+            return entity.fullPostMeta().then(entity -> {
+                reply.sendView(EntityView, {
+                    entity: entity,
+                });
+            }).catchError(e -> reply.status(500).send(e));
         }
-
-        if (entityId != entity.id) {
-            res.redirect(entity.id);
-            return;
-        }
-
-        entity.fullPostMeta().then(entity -> {
-            res.sendView(EntityView, {
-                entity: entity,
-            });
-        }).catchError(e -> res.status(500).send(e));
     }
 
     static final noProfilePic = Promise.resolve(Buffer.from(File.getBytes("static/images/user-solid.png").getData()));
@@ -248,17 +237,16 @@ class ServerMain {
     static public final entityProfilePicWidth = 1200;
     static public final entityProfilePicHeight = 630;
 
-    static function entityProfilePic(req:Request, res:Response) {
+    static function entityProfilePic(req:Request, reply:Reply):Promise<Dynamic> {
         var entityId:String = req.params.entityId;
         var entity = entityIndex.entitiesOfId[entityId];
         if (entity == null) {
-            res.status(404).send('Entity of id $entityId not found.');
-            return;
+            return Promise.resolve(reply.status(404).send('Entity of id $entityId not found.'));
         }
 
         var border = 46;
         var w = entityProfilePicHeight - border - border;
-        getEntityPic(entity, w)
+        return getEntityPic(entity, w)
             .then(function(pic) {
                 var frame = "static/images/charley-wong-profile-cover.png";
                 return Promise.all([Jimp.read(pic), Jimp.read(frame)])
@@ -273,15 +261,14 @@ class ServerMain {
                             );
                     });
             })
-            .then(function(buf) {
-                res.setHeader("Content-Type", Jimp.MIME_PNG);
-                res.setHeader("Cache-Control", "public, max-age=604800"); // 7 days
-                res.write(buf);
-                res.end();
-            })
-            .catchError(function (err) {
-                res.status(500).send(err);
-            });
+            .then(buf -> reply
+                .header("Content-Type", Jimp.MIME_PNG)
+                .header("Cache-Control", "public, max-age=604800") // 7 days
+                .send(buf)
+            )
+            .catchError(err ->
+                reply.status(500).send(err)
+            );
     }
 
     static function search(query:String, tags:Array<String>):Array<Entity> {
@@ -328,46 +315,38 @@ class ServerMain {
             .filter(e -> tags.foreach(t -> e.tags.exists(tid -> tid.id.toLowerCase() == t)));
     }
 
-    static function searchJson(req:Request, res:Response) {
+    static function searchHandler(req:Request, reply:Reply):Promise<Dynamic> {
         var query:String = req.params.query;
-        var tags = switch (req.query.tags:String) {
-            case null: [];
-            case v: v.split(" ").map(t -> t.toLowerCase());
-        };
-        res.json(search(query, tags).map(e -> e.fullInfo()));
-    }
-
-    static function searchHtml(req:Request, res:Response) {
-        var query:String = req.params.query;
+        if (query.endsWith(".json")) {
+            var query = query.substr(0, -".json".length);
+            return Promise.resolve(search(query, []).map(e -> e.fullInfo()));
+        }
         switch (query.trim().toLowerCase()) {
             case "月餅" | "mooncake":
-                res.redirect("/" + Mooncake2020.path);
-                return;
+                return Promise.resolve(reply.redirect("/" + Mooncake2020.path));
             case "hkbase":
-                res.redirect("/" + HkbaseDirectoryView.path);
-                return;
+                return Promise.resolve(reply.redirect("/" + HkbaseDirectoryView.path));
             case _:
                 //pass
         }
-        var tags = switch (req.query.tags:String) {
-            case null: [];
-            case v: v.split(" ").map(t -> t.toLowerCase());
-        };
-        var entities = search(query, tags);
+        var entities = search(query, []);
         var slug = query.urlEncode();
-        res.sendView(EntityListView, {
+        return Promise.resolve(reply.sendView(EntityListView, {
             slug: slug,
             path: haxe.io.Path.join(["search", slug]),
             listName: '${query} 搜尋結果',
             searchQuery: query,
             entities: entities,
-        });
+        }));
     }
 
-    static function allowCors(req:Request, res:Response, next):Void {
-        res.header("Access-Control-Allow-Origin", "*");
-        res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-        next();
+    static function noTrailingSlash(req:Request, reply:Reply):Promise<Any> {
+        var url = new node.url.URL(req.raw.url, "http://example.com");
+        if (url.pathname.endsWith('/') && url.pathname.length > 1) {
+            var redirectTo = url.pathname.substr(0, url.pathname.length-1) + url.search;
+            reply.redirect(301, redirectTo);
+        }
+        return Promise.resolve();
     }
 
     static function getPost(url:String):Post {
@@ -379,46 +358,42 @@ class ServerMain {
         return null;
     }
 
-    static function proxyPostImage(req:Request, res:Response):Void {
+    static function proxyPostImage(req:Request, reply:Reply):Promise<Dynamic> {
         var post:Null<String> = req.query.post;
         switch (getPost(post)) {
             case null:
-                res.status(403).send('$post doesn\'t exist in the database.');
-                return;
+                return Promise.resolve(reply.status(403).send('$post doesn\'t exist in the database.'));
             case post:
-                EntityTools.fullMeta(post).then(post -> {
+                return EntityTools.fullMeta(post).then(post -> {
                     if (post.meta == null) {
-                        res.status(404).send('$post doesn\'t provide "og:image".');
-                        return;
-                    }
-
-                    switch(post.meta["og"]) {
-                        case null:
-                            res.status(404).send('$post doesn\'t provide "og:image".');
-                            return;
-                        case og:
-                            switch ((og:Array<{property:String, content:String}>).find(o -> o.property == "og:image")) {
-                                case null:
-                                    res.status(404).send('$post doesn\'t provide "og:image".');
-                                    return;
-                                case { content: imageUrl }:
-                                    Fetch.fetch(Std.string(new URL(imageUrl)))
-                                        .then(r -> {
-                                            res.status(r.status);
-                                            res.setHeader("Content-Type", (cast r:js.html.Response).headers.get("Content-Type"));
-                                            res.setHeader("Cache-Control", "public, max-age=2628000"); // one month
-                                            r.buffer();
-                                        })
-                                        .then(b -> res.end(b))
-                                        .catchError(err -> res.status(500).send(err));
-                                    return;
-                            }
+                        Promise.resolve(reply.status(404).send('$post doesn\'t provide "og:image".'));
+                    } else {
+                        switch(post.meta["og"]) {
+                            case null:
+                                Promise.resolve(reply.status(404).send('$post doesn\'t provide "og:image".'));
+                            case og:
+                                switch ((og:Array<{property:String, content:String}>).find(o -> o.property == "og:image")) {
+                                    case null:
+                                        Promise.resolve(reply.status(404).send('$post doesn\'t provide "og:image".'));
+                                    case { content: imageUrl }:
+                                        Fetch.fetch(Std.string(new URL(imageUrl)))
+                                            .then(r -> {
+                                                reply
+                                                    .status(r.status)
+                                                    .header("Content-Type", (cast r:js.html.Response).headers.get("Content-Type"))
+                                                    .header("Cache-Control", "public, max-age=2628000"); // one month
+                                                r.buffer();
+                                            })
+                                            .then(b -> reply.send(b))
+                                            .catchError(err -> reply.status(500).send(err));
+                                }
+                        }
                     }
                 });
         }
     }
 
-    static function post(req:Request, res:Response) {
+    static function post(req:Request, reply:Reply):Promise<Dynamic> {
         var url = new URL(cleanUrl(req.body.url));
         switch (extractFbPost(url)) {
             case null:
@@ -426,8 +401,7 @@ class ServerMain {
             case handle:
                 switch (entityIndex.entitiesOfFbPage[handle]) {
                     case null:
-                        res.status(500).send('${handle} has not been imported yet.');
-                        return;
+                        return Promise.resolve(reply.status(500).send('${handle} has not been imported yet.'));
                     case e:
                         var postUrl = Std.string(url);
                         switch (e.posts.find(p -> p.url == postUrl)) {
@@ -446,8 +420,7 @@ class ServerMain {
                                 };
                         }
                         saveEntity(e, true, true);
-                        res.status(200).send("done");
-                        return;
+                        return Promise.resolve(reply.status(200).send("done"));
                 }
         }
 
@@ -455,12 +428,11 @@ class ServerMain {
             case null:
                 //pass
             case handle:
-                createEntityFromFb(req.body)
+                return createEntityFromFb(req.body)
                     .then(e -> {
                         saveEntity(e, true, true);
-                        res.status(200).send("done");
+                        return Promise.resolve(reply.status(200).send("done"));
                     });
-                return;
         }
 
         switch (extractIgPost(url)) {
@@ -470,20 +442,17 @@ class ServerMain {
                 var handle = req.body.igHandle;
                 switch (entityIndex.entitiesOfUrl['https://www.instagram.com/$handle/']) {
                     case null:
-                        res.status(500).send('${handle} has not been imported yet.');
-                        return;
+                        return Promise.resolve(reply.status(500).send('${handle} has not been imported yet.'));
                     case e:
                         var postUrl = Std.string(url);
                         if (e.posts.exists(p -> p.url == postUrl)) {
-                            res.status(500).send('${postUrl} already exists.');
-                            return;
+                            return Promise.resolve(reply.status(500).send('${postUrl} already exists.'));
                         }
                         e.posts.push({
                             url: postUrl
                         });
                         saveEntity(e, true, true);
-                        res.status(200).send("done");
-                        return;
+                        return Promise.resolve(reply.status(200).send("done"));
                 }
         }
 
@@ -493,8 +462,7 @@ class ServerMain {
             case handle:
                 var e = createEntityFromIg(req.body);
                 saveEntity(e, true, true);
-                res.status(200).send("done");
-                return;
+                return Promise.resolve(reply.status(200).send("done"));
         }
 
         switch (extractYouTubeProfile(url)) {
@@ -503,11 +471,10 @@ class ServerMain {
             case Id(_) | Handle(_):
                 var e = createEntityFromYt(req.body);
                 saveEntity(e, true, true);
-                res.status(200).send("done");
-                return;
+                return Promise.resolve(reply.status(200).send("done"));
         }
 
-        res.status(500).send('Cannot handle ${req.body}.');
+        return Promise.resolve(reply.status(500).send('Cannot handle ${req.body}.'));
     }
 
     static public function saveEntity(entity:Entity, openAfterSave:Bool, log:Bool) {
@@ -812,44 +779,37 @@ class ServerMain {
         }
     }
 
-    static function main():Void {
-        app = new Application();
-
-        var bodyParser = require("body-parser");
-        app.use(bodyParser.json());
-
-        app.set('json spaces', 2);
-        app.use(function(req:Request, res:Response, next):Void {
-            res.locals = {
-                req: req,
-            };
-            next();
+    static function initServer() {
+        app.register(require('fastify-cors'), { 
+            origin: "*",
+            allowedHeaders: "Origin, X-Requested-With, Content-Type, Accept",
         });
-        app.use(Express.Static(StaticResource.resourcesDir, {
-            setHeaders: function(res:Response, path:String, stat:js.node.fs.Stats) {
-                var req:Request = res.locals.req;
-                var md5:Null<String> = req.query.md5;
-                if (md5 == null)
-                    return;
 
-                var actual = StaticResource.hash(path);
-                if (md5 == actual) {
-                    res.setHeader("Cache-Control", "public, max-age=604800"); // 7 days
-                } else {
-                    res.setHeader("Cache-Control", "no-cache");
-                }
-            },
-        }));
-        app.use(function(req:Request, res:Response, next) {
-            if (req.path.endsWith('/') && req.path.length > 1) {
-                var query = req.url.substr(req.path.length);
-                res.redirect(301, req.path.substr(0, req.path.length-1) + query);
-            } else {
-                next();
+        app.register(require('fastify-static'), {
+            root: sys.FileSystem.absolutePath(StaticResource.resourcesDir),
+            wildcard: false,
+        });
+        app.addHook("onSend", function(req:Request, reply:Reply, payload){
+            if (payload != null) switch (untyped payload.filename:String) {
+                case null:
+                    // pass
+                case filename:
+                    var md5:Null<String> = req.query.md5;
+                    if (md5 == null) {
+                        return Promise.resolve(payload);
+                    }
+    
+                    var actual = StaticResource.hash(filename);
+                    if (md5 == actual) {
+                        reply.header("Cache-Control", "public, max-age=604800"); // 7 days
+                    } else {
+                        reply.header("Cache-Control", "no-cache");
+                    }
             }
+            return Promise.resolve(payload);
         });
 
-        app.use(allowCors);
+        app.addHook("onRequest", noTrailingSlash);
 
         app.get("/", index);
         app.get("/campaign", campaign);
@@ -857,15 +817,14 @@ class ServerMain {
         app.get("/list/all", all);
         app.get("/" + Mooncake2020.path, pageMooncake2020);
         app.get("/" + HkbaseDirectoryView.path, pageHkbaseDirectory);
-        app.get("/list/:name/:entityIds.json", listEntitiesJson);
         app.get("/list/:name/:entityIds", listEntities);
         app.get("/proxy/image", proxyPostImage);
-        app.get("/:entityId([A-Za-z0-9\\-_\\.]+).json", entityJson);
-        app.get("/:entityId([A-Za-z0-9\\-_\\.]+)/profile.png", entityProfilePic);
-        app.get("/:entityId([A-Za-z0-9\\-_\\.]+)", entity);
-        app.get("/search/:query.json", searchJson);
-        app.get("/search/:query", searchHtml);
+        app.get("/:entityId/profile.png", entityProfilePic);
+        app.get("/:entityId", entity);
+        app.get("/search/:query", searchHandler);
+    }
 
+    static function main():Void {
         if (isMain) {
             var watcher = js.npm.chokidar.Chokidar.watch(dataDirectory,{
                 persistent: true,
@@ -897,19 +856,24 @@ class ServerMain {
                 entityIndex.entities.remove(path);
                 entityIndex.invalidate();
             });
-            app.post("/", post);
 
-            require("https-localhost")().getCerts().then(certs ->
-                js.Node.require("httpolyglot").createServer(certs, app)
-                    .listen(port, function(){
-                        Sys.println('https://127.0.0.1:$port');
-
-                        for (e in entityIndex.entities) {
-                            geocode(e);
-                        }
-                    })
-            );
+            require("https-localhost")().getCerts().then(certs -> {
+                app = Fastify.fastify({
+                    http2: true,
+                    https: certs,
+                });
+                initServer();
+                app.post("/", post);
+                app.listen(443);
+            }).then(_ -> {
+                Sys.println('https://localhost');
+                for (e in entityIndex.entities) {
+                    geocode(e);
+                }
+            });
         } else {
+            app = Fastify.fastify();
+            initServer();
             var serverless = require('serverless-http');
             js.Node.exports.handler = serverless(app, {
                 binary: [
