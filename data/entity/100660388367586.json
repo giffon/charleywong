@@ -16,25 +16,13 @@
             "name": "Shipping Supply & Service"
           }
         ],
-        "single_line_address": "葵涌, 852 Hong Kong, Hong Kong"
+        "single_line_address": "葵涌, 852 香港"
       }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/permalink.php?story_fbid=107298001037158&id=100660388367586",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
       "url": "https://www.facebook.com/permalink.php?story_fbid=115663363533955&id=100660388367586",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/permalink.php?story_fbid=141660084267616&id=100660388367586",
       "meta": {
         "sharedWith": "Public"
       }
@@ -43,5 +31,11 @@
   "tags": [
     "courier",
     "shop"
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 4820
+    }
   ]
 }
