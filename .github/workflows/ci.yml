@@ -68,9 +68,7 @@ jobs:
           path: chrome
       - name: Run test
         shell: bash
-        run: |
-          source ~/venv/bin/activate
-          haxe test.hxml "$GITHUB_EVENT_NAME"
+        run: haxe test.hxml "$GITHUB_EVENT_NAME"
   deploy:
     needs: build
     if: success() && github.event_name == 'push' && ( github.ref == 'refs/heads/master' || github.ref == 'refs/heads/production' )
