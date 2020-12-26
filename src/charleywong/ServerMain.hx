@@ -779,6 +779,10 @@ class ServerMain {
         }
     }
 
+    static function favicon(req:Request, reply:Reply):Promise<Dynamic> {
+        return Promise.resolve((untyped reply.sendFile)("favicon.ico", "static/images/fav"));
+    }
+
     static function initServer() {
         app.register(require('fastify-cors'), { 
             origin: "*",
@@ -812,6 +816,7 @@ class ServerMain {
         app.addHook("onRequest", noTrailingSlash);
 
         app.get("/", index);
+        app.get("/favicon.ico", favicon);
         app.get("/campaign", campaign);
         app.get("/list/all.json", allJson);
         app.get("/list/all", all);
@@ -881,6 +886,7 @@ class ServerMain {
                     "image/gif",
                     "image/bmp",
                     "image/webp",
+                    "image/x-icon",
                 ],
             });
         }
