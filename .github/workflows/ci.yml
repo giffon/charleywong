@@ -89,7 +89,7 @@ jobs:
           haxe test.hxml "$GITHUB_EVENT_NAME"
   deploy:
     needs: build
-    if: success() && github.event_name == 'push' && github.ref == 'refs/heads/master'
+    if: success() && github.event_name == 'push' && ( github.ref == 'refs/heads/master' || github.ref == 'refs/heads/production' )
     runs-on: ubuntu-latest
     container: giffon/charleywong_devcontainer_workspace:20201124
     steps:
@@ -139,8 +139,18 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.YBM_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.YBM_AWS_SECRET_ACCESS_KEY }}
       - run: ls -lh
+      - name: Set Env
+        run: |
+          set -ex
+          if [ "${GITHUB_REF}" = "refs/heads/master" ]; then
+            echo "DEPLOY_STAGE=master" >> $GITHUB_ENV
+            echo "SERVER_HOST=charleywong-master.giffon.io" >> $GITHUB_ENV
+          elif [ "${GITHUB_REF}" = "refs/heads/production" ]; then
+            echo "DEPLOY_STAGE=production" >> $GITHUB_ENV
+            echo "SERVER_HOST=charleywong.giffon.io" >> $GITHUB_ENV
+          fi
       - name: Deploy
-        run: npx serverless deploy
+        run: npx serverless deploy --stage "${DEPLOY_STAGE}"
         env:
           GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
           GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
@@ -151,6 +161,7 @@ jobs:
       - name: Post-deployment test
         run: haxe test.hxml post-deployment
       - name: Export spreadsheet
+        if: github.ref == 'refs/heads/production'
         run: haxe -D CI exportSpreadsheet.hxml
         env:
           GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
