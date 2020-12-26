@@ -159,7 +159,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.awsSecretAccessKey }}
           SERVERLESS_ACCESS_KEY: ${{ secrets.serverlessAccessKey }}
       - name: Post-deployment test
-        run: haxe test.hxml post-deployment
+        run: haxe test.hxml post-deployment "${SERVER_HOST}"
       - name: Export spreadsheet
         if: github.ref == 'refs/heads/production'
         run: haxe -D CI exportSpreadsheet.hxml
