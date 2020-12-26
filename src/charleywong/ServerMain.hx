@@ -874,8 +874,11 @@ class ServerMain {
         } else {
             app = Fastify.fastify();
             initServer();
-            var serverless = require('serverless-http');
-            js.Node.exports.handler = serverless(app);
+            js.Node.exports.handler = require('aws-lambda-fastify')(app, {
+                binaryMimeTypes: [
+                    "image/png",
+                ],
+            });
         }
     }
 }

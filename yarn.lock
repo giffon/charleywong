@@ -2116,11 +2116,6 @@
     "@turf/invariant" "^5.1.5"
     d3-voronoi "1.1.2"
 
-"@types/aws-lambda@^8.10.56":
-  version "8.10.62"
-  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.62.tgz#857de3f73ab503136f2eefe965b1b67e5f397b62"
-  integrity sha512-43XhJY5jvyH03U0cRsSqeHWhvmGZNoLzTPSAZ3JAqgG9p20uw+Sx9Auk5OAefJajd9ZcfjDJ/9lJ2BiBxfKJRw==
-
 "@types/cacheable-request@^6.0.1":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@types/cacheable-request/-/cacheable-request-6.0.1.tgz#5d22f3dded1fd3a84c0bbeb5039a7419c2c91976"
@@ -2683,6 +2678,11 @@ avvio@^7.1.2:
     debug "^4.0.0"
     fastq "^1.6.1"
     queue-microtask "^1.1.2"
+
+aws-lambda-fastify@1.4.4:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/aws-lambda-fastify/-/aws-lambda-fastify-1.4.4.tgz#4ee8c823f9c271ff9944be4d8639d3ba1d87dda6"
+  integrity sha512-o8BuMHFIHStKUSzp3vwmAjvl3ftjnv4E6SY3f0Sy0jJwH/G81QzfUB3NakSPlnmDZ3CYr2lRvek2+LROT4vtRg==
 
 aws-sdk@^2.815.0:
   version "2.816.0"
@@ -8989,13 +8989,6 @@ serve-static@1.14.1:
     escape-html "~1.0.3"
     parseurl "~1.3.3"
     send "0.17.1"
-
-serverless-http@2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/serverless-http/-/serverless-http-2.6.0.tgz#8c4633634e00b9d75bf757558b5630fbe6527a8b"
-  integrity sha512-2mBz+MO+JXgC8PDHIZi/Ytsa65v78fc+7cFeXqcYM5laGQS/GEX9Cq+72WOaIGqPJia5JLADqjhdTBI5/iLcHQ==
-  optionalDependencies:
-    "@types/aws-lambda" "^8.10.56"
 
 serverless-prune-plugin@1.4.3:
   version "1.4.3"
