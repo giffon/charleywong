@@ -8,11 +8,14 @@ class Test {
             new TestAllEntities(index),
             new TestSchema(),
             new TestTags(),
-            new TestHkbaseDirectory(index),
         ];
         switch (Sys.args()) {
-            case [] | ["push"]:
+            case []:
                 utest.UTest.run(tests);
+            case ["push"]:
+                utest.UTest.run(tests.concat([
+                    new TestHkbaseDirectory(index),
+                ]));
             case ["post-deployment", host]:
                 utest.UTest.run([new TestPostDeployment(host)]);
             case ["schedule"]:
