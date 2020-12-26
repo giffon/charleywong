@@ -42,12 +42,6 @@ jobs:
         with:
           name: browser
           path: static/browser.bundled.js
-      - name: Export flexsearch index
-        run: haxe exportFlexsearch.hxml
-      - uses: actions/upload-artifact@v1
-        with:
-          name: flexsearch
-          path: flexsearch.json
       - name: Dump HKBASE directory
         run: |
           set -ex
@@ -60,6 +54,12 @@ jobs:
         with:
           name: HkbaseDirectory
           path: HkbaseDirectory.json
+      - name: Export flexsearch index
+        run: haxe exportFlexsearch.hxml
+      - uses: actions/upload-artifact@v1
+        with:
+          name: flexsearch
+          path: flexsearch.json
       - name: Compile Chrome extension
         run: haxe chrome-extension.hxml
       - uses: actions/upload-artifact@v1
