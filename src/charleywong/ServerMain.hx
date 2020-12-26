@@ -877,6 +877,10 @@ class ServerMain {
             js.Node.exports.handler = require('aws-lambda-fastify')(app, {
                 binaryMimeTypes: [
                     "image/png",
+                    "image/jpeg",
+                    "image/gif",
+                    "image/bmp",
+                    "image/webp",
                 ],
             });
         }
