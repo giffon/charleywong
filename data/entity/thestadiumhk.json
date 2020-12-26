@@ -1,0 +1,75 @@
+{
+  "id": "thestadiumhk",
+  "name": {
+    "en": "The Stadium"
+  },
+  "webpages": [
+    {
+      "url": "https://www.thestadium.com.hk"
+    },
+    {
+      "url": "https://www.facebook.com/thestadiumhk/",
+      "meta": {
+        "id": "1615036585402356",
+        "username": "thestadiumhk",
+        "name": "The Stadium",
+        "about": "An American sports bar & restaurant located in the heart of Kwun Tong, 3 minutes walk from the MTR station (Exit B2).",
+        "category_list": [
+          {
+            "id": "149803325077018",
+            "name": "American Restaurant"
+          },
+          {
+            "id": "184460441595855",
+            "name": "Sports Bar"
+          },
+          {
+            "id": "110107385737667",
+            "name": "New American Restaurant"
+          }
+        ],
+        "emails": [
+          "info@thestadium.com.hk"
+        ],
+        "single_line_address": "4/F, The Wave, 4 Hing Yip Street, Kwun Tong, HK 觀塘",
+        "website": "http://www.thestadium.com.hk"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/thestadiumhk/",
+      "meta": {
+        "name": "The Stadium Bar & Restaurant",
+        "about": "4/F, The Wave, 4 Hing Yip Street, Kwun Tong, Kowloon, Hong Kong\n香港九龍觀塘興業街4號The Wave 4樓"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://hk.news.yahoo.com/%E4%BF%AE%E4%BE%8B%E9%A2%A8%E6%B3%A2-%E7%94%B7%E9%A4%90%E5%BB%B3%E7%B6%93%E7%90%86%E6%B6%89%E8%A5%B24%E8%AD%A6%E5%9C%96%E5%8A%A9%E7%96%91%E7%8A%AF%E9%80%83%E8%84%AB-%E7%8D%B2%E5%87%86%E4%BF%9D%E9%87%8B-051000106.html"
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "4/F, The Wave, 4 Hing Yip Street, Kwun Tong"
+      },
+      "googleMapsPlaceId": "ChIJ4d8-CUUBBDQR1ouZA8ajsSo",
+      "coordinates": {
+        "lat": 22.3096382,
+        "lng": 114.2245772
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1841
+    }
+  ]
+}

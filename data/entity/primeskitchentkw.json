@@ -1,0 +1,71 @@
+{
+  "id": "primeskitchentkw",
+  "name": {
+    "en": "Prime's Kitchen"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/primeskitchentkw/",
+      "meta": {
+        "id": "793320827532746",
+        "username": "primeskitchentkw",
+        "name": "Prime 's Kitchen",
+        "about": "美式意大利菜\n舌尖上新感覺\n煮場飲食概念",
+        "category_list": [
+          {
+            "id": "149803325077018",
+            "name": "American Restaurant"
+          }
+        ],
+        "emails": [
+          "primeskitchen.tkw@gmail.com"
+        ],
+        "single_line_address": "土瓜灣譚公道10號地下, 852 九龍"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/primeskitchen.tkw/",
+      "meta": {
+        "name": "Prime's Kitchen"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/primeskitchentkw/posts/1086396734891819",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/primeskitchentkw/posts/1493003834231105",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "土瓜灣譚公道10號地下"
+      },
+      "googleMapsPlaceId": "ChIJgW_Jz6MBBDQRL1hZBl35gYQ",
+      "coordinates": {
+        "lat": 22.320929,
+        "lng": 114.1878237
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1038
+    }
+  ]
+}
