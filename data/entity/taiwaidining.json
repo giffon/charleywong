@@ -1,0 +1,85 @@
+{
+  "id": "taiwaidining",
+  "name": {
+    "zh": "大圍小館"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/taiwaidining/",
+      "meta": {
+        "id": "282347089045345",
+        "username": "taiwaidining",
+        "name": "大圍小館",
+        "about": "粵菜 (新舊佳餚 . 自製點心 . 明爐燒味 . 魚池海鮮)",
+        "category_list": [
+          {
+            "id": "214976388519648",
+            "name": "Cantonese Restaurant"
+          },
+          {
+            "id": "194588013912896",
+            "name": "Dim Sum Restaurant"
+          }
+        ],
+        "single_line_address": "積福街, 大圍"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/taiwaidining/",
+      "meta": {
+        "name": "大圍小館",
+        "about": "粵菜 (店內自製點心、明爐燒味、魚池生猛海鮮)。所有圖片只供參考。"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/taiwaidining/posts/744468856166497",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/taiwaidining/posts/745039272776122",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/taiwaidining/posts/746812202598829",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/taiwaidining/posts/749362272343822",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大圍積福街98號地舖"
+      },
+      "googleMapsPlaceId": "ChIJDfIgfnEHBDQRx9sWuP8IDvU",
+      "coordinates": {
+        "lat": 22.3743241,
+        "lng": 114.1789228
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5479
+    }
+  ]
+}
