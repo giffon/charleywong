@@ -1,0 +1,95 @@
+{
+  "id": "Thymehongkong",
+  "name": {
+    "zh": "百里居",
+    "en": "Thyme"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/Thymehongkong/",
+      "meta": {
+        "id": "2101559493427342",
+        "username": "Thymehongkong",
+        "name": "百里居 Thyme",
+        "category_list": [
+          {
+            "id": "174201535963762",
+            "name": "Asian Fusion Restaurant"
+          },
+          {
+            "id": "188334264523313",
+            "name": "Deli"
+          }
+        ],
+        "emails": [
+          "thymehongkong@gmail.com"
+        ],
+        "single_line_address": "中環九如坊圓玄學院大廈2A地下, 852 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/thymehongkong/",
+      "meta": {
+        "name": "百里居Thyme",
+        "about": "本公司始創於2014年\n香港總店:中環九如坊2A圓玄學院大廈地下\n營業時間:星期一至日10:30am-20:00pm\n☎️:5189-0862\n台灣分店:台中市南屯區黎明路二段536號\n營業時間:星期一至日7:00am-14:00pm17:15pm-20:00pm\n☎️:04-2255-3636"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/Thymehongkong/posts/2389533261296629:0",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/Thymehongkong/posts/2395623897354232",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/Thymehongkong/posts/2406943566222265",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "中環九如坊圓玄學院大廈2A地下"
+      },
+      "googleMapsPlaceId": "ChIJNy1REnwABDQRKhLws6V_-To",
+      "coordinates": {
+        "lat": 22.28442,
+        "lng": 114.153253
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "台中市南屯區黎明路二段536號"
+      },
+      "googleMapsPlaceId": "ChIJtYtcxuU9aTQRFXl2CAvgjKg",
+      "coordinates": {
+        "lat": 24.1548691,
+        "lng": 120.6348083
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1123
+    }
+  ]
+}

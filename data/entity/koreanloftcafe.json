@@ -1,0 +1,104 @@
+{
+  "id": "koreanloftcafe",
+  "name": {
+    "zh": "韓閣",
+    "en": "Korean Loft Cafe"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/koreanloftcafe/",
+      "meta": {
+        "id": "1026033357438977",
+        "username": "koreanloftcafe",
+        "name": "韓閣 Korean Loft Cafe",
+        "about": "專營韓國湯品，炸雞，料理。用料地道新鮮， 即叫即整，回味無窮。",
+        "category_list": [
+          {
+            "id": "150896171638138",
+            "name": "Korean Restaurant"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
+        ],
+        "single_line_address": "M shop, G/F, Winning Heights, 10 Wun Tung Street, 000 Tsuen Wan"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/korean_loft_cafe/",
+      "meta": {
+        "name": "韓閣 韓國炸雞 湯品 料理",
+        "about": "地址 : 荃灣青山公路275号富裕樓地下G4~6鋪\n電話 : 39568101"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/koreanloftcafe/posts/3039374149438211",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/koreanloftcafe/posts/3327970500578573",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/koreanloftcafe/posts/3495494880492800",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/koreanloftcafe/posts/3994188293956787",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "korean",
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣青山公路275號富裕樓地下G4-6舖"
+      },
+      "googleMapsPlaceId": "ChIJExbxie34AzQRz9tv2YBx_0o",
+      "coordinates": {
+        "lat": 22.3731789,
+        "lng": 114.1159938
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳新都城 2期 1015號鋪"
+      },
+      "googleMapsPlaceId": "ChIJTyMjCQwEBDQRUVXfKhXaR28",
+      "coordinates": {
+        "lat": 22.3231863,
+        "lng": 114.2577924
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 513
+    },
+    {
+      "type": "eat",
+      "id": 2319
+    }
+  ]
+}
