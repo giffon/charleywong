@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.thealchemistcafe.com"
+      "url": "https://www.thealchemistcafe.com"
     },
     {
       "url": "https://www.facebook.com/thealchemistcafehk/",
@@ -52,7 +52,8 @@
         ],
         "single_line_address": "太子白楊街27-29號嘉安大廈地下1號舖, Hong Kong, Hong Kong",
         "website": "www.thealchemistcafe.com"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/thealchemistcafekf/",
@@ -76,7 +77,8 @@
         ],
         "single_line_address": "葵芳興寧路12號葵青劇院地下2號舖, 852 Kwai Chung, Hong Kong",
         "website": "www.thealchemistcafe.com"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/thealchemistcafest/",
@@ -100,7 +102,8 @@
         ],
         "single_line_address": "沙田文林路1號香港文化博物館地下G6號舖, Sha Tin, Hong Kong",
         "website": "http://www.thealchemistcafe.com/"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/thealchemistcafek11/",
@@ -123,6 +126,14 @@
           "thealchemistcafehk@gmail.com"
         ],
         "website": "www.thealchemistcafe.com"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/thealchemistcafehk/",
+      "meta": {
+        "name": "牧羊少年咖啡館",
+        "about": "Founded in Hong Kong\n美食 Food\n咖啡 Coffee\n旅遊 Travel\n漂書 Book Crossing\n未來的信 Future Postal"
       }
     }
   ],
@@ -161,6 +172,86 @@
     {
       "type": "eat",
       "id": 964
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗白楊街27-29號嘉安大廈地下1號舖"
+      },
+      "googleMapsPlaceId": "ChIJgdWwibUABDQRl2wdTTccP7Y",
+      "coordinates": {
+        "lat": 22.3278468,
+        "lng": 114.1676135
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵芳興寧路12號葵青劇院地下2號舖"
+      },
+      "googleMapsPlaceId": "ChIJZ7ShJ7z4AzQReQuMzI5NIcQ",
+      "coordinates": {
+        "lat": 22.356406,
+        "lng": 114.126209
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "沙田文林路1號香港文化博物館G6號"
+      },
+      "googleMapsPlaceId": "ChIJtUyG1qsHBDQRmuzBGub4IwY",
+      "coordinates": {
+        "lat": 22.376722,
+        "lng": 114.185378
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀河內道18號K11購物藝術館B2樓27號舖"
+      },
+      "googleMapsPlaceId": "ChIJnbup_u0ABDQR0-FEWoOd6-I",
+      "coordinates": {
+        "lat": 22.29758499999999,
+        "lng": 114.173899
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳寶康路105-107號香港單車館地下G53號"
+      },
+      "googleMapsPlaceId": "ChIJL4aO0PQDBDQRJtgpZNcVQWs",
+      "coordinates": {
+        "lat": 22.313113,
+        "lng": 114.262459
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門屯順街1號屯門市廣場2樓2151號舖"
+      },
+      "googleMapsPlaceId": "ChIJASQPcT37AzQRBlhSGahsxls",
+      "coordinates": {
+        "lat": 22.3927866,
+        "lng": 113.9768676
+      },
+      "area": {
+        "zh": "屯門區"
+      }
     }
   ]
 }
