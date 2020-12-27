@@ -33,10 +33,37 @@
       }
     },
     {
+      "url": "https://www.facebook.com/pumpernickelcatering/",
+      "meta": {
+        "id": "1674962722764299",
+        "username": "pumpernickelcatering",
+        "name": "黑麥到會 Pumpernickel Catering",
+        "about": "公司聚餐、試酒會、咖啡品嘗沖泡工作坊、茶文化欣賞、婚宴活動、雞尾酒會、包場派對、生日派對…等等\n\n到會或遞送, 在我們的場地或戶外，我們都可以為您提供優質的餐飲服務。",
+        "category_list": [
+          {
+            "id": "139433292785470",
+            "name": "Caterer"
+          }
+        ],
+        "emails": [
+          "cafepumpernickel@yahoo.com"
+        ],
+        "single_line_address": "Unit A, 17/F, Southeast Ind. Bldg, 611-619 Castle Peak Rd, Tsuen Wan, n/a 香港",
+        "website": "http://www.cafepumpernickel.com/?page_id=121"
+      }
+    },
+    {
       "url": "https://www.instagram.com/cafepumpernickel/",
       "meta": {
         "name": "Cafe Pumpernickel",
         "about": "Pumpernickel | passion & tradition\nArtisan bakery cafe in Hong Kong since 2000"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/pumpernickel_catering/",
+      "meta": {
+        "name": "黑麥到會pumpernickel catering",
+        "about": "到會服務"
       }
     }
   ],
@@ -61,15 +88,41 @@
   "places": [
     {
       "address": {
-        "en": "shop 1A, G/F, 1 Lau Li Street, Tin Hau"
+        "zh": "香港天后琉璃街1號A地下"
       },
-      "googleMapsPlaceId": "ChIJvXRr4v8ABDQRz_dYbK0UuR8",
+      "googleMapsPlaceId": "ChIJp8b8HQABBDQRFD3wLid6jjQ",
       "coordinates": {
-        "lat": 22.28424619999999,
-        "lng": 114.1913469
+        "lat": 22.284282,
+        "lng": 114.191478
       },
       "area": {
         "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "金鐘夏愨道10號和記大廈1樓114B"
+      },
+      "googleMapsPlaceId": "ChIJjyDVvGYABDQRIt5IYe07Mu0",
+      "coordinates": {
+        "lat": 22.2810482,
+        "lng": 114.1626069
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍灣宏照道33號國際交易中心地下3號舖"
+      },
+      "googleMapsPlaceId": "ChIJAQdSdDQBBDQR2rJa92ePVLQ",
+      "coordinates": {
+        "lat": 22.3210973,
+        "lng": 114.2094216
+      },
+      "area": {
+        "zh": "觀塘區"
       }
     }
   ],
