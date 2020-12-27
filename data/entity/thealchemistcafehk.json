@@ -1,7 +1,8 @@
 {
   "id": "thealchemistcafehk",
   "name": {
-    "zh": "牧羊少年咖啡館"
+    "zh": "牧羊少年咖啡館",
+    "en": "The Alchemist Cafe"
   },
   "webpages": [
     {
@@ -167,11 +168,19 @@
     },
     {
       "type": "eat",
+      "id": 962
+    },
+    {
+      "type": "eat",
       "id": 963
     },
     {
       "type": "eat",
       "id": 964
+    },
+    {
+      "type": "eat",
+      "id": 5315
     }
   ],
   "places": [
