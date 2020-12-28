@@ -806,8 +806,13 @@ class ServerMain {
                     var actual = StaticResource.hash(filename);
                     if (md5 == actual) {
                         reply.header("Cache-Control", "public, max-age=604800"); // 7 days
+                        return Promise.resolve(payload);
                     } else {
                         reply.header("Cache-Control", "no-cache");
+                        var redirectUrl = new URL(req.url, "http://example.com");
+                        redirectUrl.searchParams.set("md5", actual);
+                        reply.redirect(redirectUrl.pathname + redirectUrl.search);
+                        return Promise.resolve(null);
                     }
             }
             return Promise.resolve(payload);
