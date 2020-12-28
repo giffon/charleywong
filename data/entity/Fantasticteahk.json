@@ -28,24 +28,18 @@
       }
     }
   ],
-  "posts": [],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/wclawrencelau/posts/1115462378809043"
+    },
+    {
+      "url": "https://www.facebook.com/neoguidehk/posts/267105808006184"
+    }
+  ],
   "tags": [
     "food"
   ],
   "places": [
-    {
-      "address": {
-        "zh": "九龍新蒲崗太子道東638號Mikiki商場G層28號舖"
-      },
-      "googleMapsPlaceId": "ChIJKyWNsNYGBDQR5dhVW6GzRbA",
-      "coordinates": {
-        "lat": 22.3336857,
-        "lng": 114.1971604
-      },
-      "area": {
-        "zh": "黃大仙區"
-      }
-    },
     {
       "address": {
         "zh": "深水埗福華街131-134號貴華樓地下C2A舖"
@@ -57,6 +51,19 @@
       },
       "area": {
         "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍新蒲崗太子道東638號Mikiki商場G層28號舖"
+      },
+      "googleMapsPlaceId": "ChIJKyWNsNYGBDQR5dhVW6GzRbA",
+      "coordinates": {
+        "lat": 22.3336857,
+        "lng": 114.1971604
+      },
+      "area": {
+        "zh": "黃大仙區"
       }
     },
     {
