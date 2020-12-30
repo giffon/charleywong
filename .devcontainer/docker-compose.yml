@@ -6,6 +6,8 @@ services:
     volumes:
       - ..:/workspace:cached
       - node_modules:/workspace/node_modules
+    ports:
+      - "443:443"
     user: user
     command: sleep infinity
 

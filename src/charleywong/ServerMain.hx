@@ -874,7 +874,7 @@ class ServerMain {
                 });
                 initServer();
                 app.post("/", post);
-                app.listen(443);
+                app.listen(443, "0.0.0.0");
             }).then(_ -> {
                 Sys.println('https://localhost');
                 for (e in entityIndex.entities) {
