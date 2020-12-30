@@ -1,12 +1,9 @@
 {
   "id": "truedanhk",
   "name": {
-    "zh": "珍煮丹黑糖飲品專賣"
+    "zh": "珍煮丹 香港"
   },
   "webpages": [
-    {
-      "url": "http://www.jenjudan.com"
-    },
     {
       "meta": {
         "id": "572638753119379",
@@ -26,11 +23,39 @@
         "website": "http://www.jenjudan.com"
       },
       "url": "https://www.facebook.com/truedanhk/"
+    },
+    {
+      "url": "https://www.instagram.com/truedanhk/",
+      "meta": {
+        "name": "珍煮丹-香港 Truedan HK",
+        "about": "分店：\n♦️銅鑼灣利園山道15號\n♦️荃灣荃興徑10-18號富榮大廈地下3號舖\n♦️尖沙咀加拿分道16號金輝大廈地下E2舖\n♦️葵芳葵涌廣場3樓302B鋪\nWhatsapp 預訂電話：\n銅鑼灣店 ：5543 6303\n荃灣店：9136 3319\n尖沙咀店：93307192\n葵芳店：59352939"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/truedanhk/photos/a.802955716754347/869731456743439"
+      "url": "https://www.facebook.com/truedanhk/posts/869731480076770",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/truedanhk/photos/a.612372065812714/912107919172459",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/truedanhk/photos/a.612372065812714/943572799359304",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/truedanhk/photos/a.612372065812714/1104052709977978",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
@@ -57,6 +82,47 @@
     {
       "type": "eat",
       "id": 2255
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣利園山道15號"
+      },
+      "googleMapsPlaceId": "ChIJeX8D5X8BBDQRlqR6dfkIJB0",
+      "coordinates": {
+        "lat": 22.2794757,
+        "lng": 114.1832655
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣荃興徑10-18號富榮大廈地下3號舖"
+      },
+      "googleMapsPlaceId": "ChIJ92r34-75AzQRCyw2WW3sRRM",
+      "coordinates": {
+        "lat": 22.372534,
+        "lng": 114.115686
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵芳葵涌廣場3樓302B鋪"
+      },
+      "googleMapsPlaceId": "ChIJ1bnS41H5AzQRRgNfdAXgx1g",
+      "coordinates": {
+        "lat": 22.3582128,
+        "lng": 114.1276731
+      },
+      "area": {
+        "zh": "葵青區"
+      }
     }
   ]
 }
