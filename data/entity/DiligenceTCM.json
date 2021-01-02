@@ -8,13 +8,19 @@
       "url": "https://www.facebook.com/DiligenceTCM/",
       "meta": {
         "id": "129839050500447",
+        "username": "DiligenceTCM",
         "name": "施醫師用心堂",
-        "categories": [
-          "Acupuncturist"
+        "about": "施醫是專業註冊中醫師,及跑手,以中醫方法治療內外婦多種疾病，宇宙長跑會教練團隊,獲獎無數,\n身為運動人,深知運動人身上的痛症是如何引起,也深知如何真正治療,",
+        "category_list": [
+          {
+            "id": "121549447920861",
+            "name": "Acupuncturist"
+          }
         ],
-        "addr": "英皇道395號僑冠大廈B座26樓8室",
-        "area": "North Point, Hong Kong",
-        "email": "vauitsze@gmail.com"
+        "emails": [
+          "vauitsze@gmail.com"
+        ],
+        "single_line_address": "英皇道395號僑冠大廈B座26樓8室, North Point, Hong Kong"
       }
     }
   ],

@@ -18,13 +18,24 @@
       "url": "https://www.facebook.com/ymehouse/",
       "meta": {
         "id": "112507018789441",
+        "username": "ymehouse",
         "name": "Ymehouse 旺角派對服裝專賣店",
-        "categories": [
-          "Costume Shop"
+        "about": "全港最多、最齊主題派對Cosplay服裝專賣店\n萬聖節、海盜、惡魔、女巫、天使、殭屍、吸血鬼、旗袍、護士、空姐、女警、學生制服、水手服、女僕、動漫、和服、性感睡衣、晚禮服、吊襪帶等",
+        "category_list": [
+          {
+            "id": "180117982029833",
+            "name": "Costume Shop"
+          },
+          {
+            "id": "1740922119519916",
+            "name": "Lingerie & Underwear Store"
+          }
         ],
-        "addr": "1801室, 百寶利商業中心, 西洋菜南街",
-        "area": "Mong Kok, Hong Kong",
-        "email": "ymehouse@gmail.com"
+        "emails": [
+          "ymehouse@gmail.com"
+        ],
+        "single_line_address": "元朗, 安樂路129號, 基達中心 509室, Yuen Long, Hong Kong",
+        "website": "http://www.ymehouse.com"
       }
     }
   ],

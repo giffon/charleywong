@@ -12,11 +12,19 @@
       "url": "https://www.facebook.com/goodlifecomhk/",
       "meta": {
         "id": "104988691004422",
+        "username": "goodlifecomhk",
         "name": "好生活",
-        "categories": [
-          "Product/Service"
+        "about": "-選擇美好，傳承美好-\n\n「好生活」以提供生活中的一點美好為使命，搜羅各式優質、可靠的產品，為顧客建立不一樣的幸福感，讓我們能夠一起：過好生活、好好過生活！",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "email": "cs@goodlife.com.hk"
+        "emails": [
+          "cs@goodlife.com.hk"
+        ],
+        "website": "https://goodlife.com.hk/"
       }
     }
   ],
