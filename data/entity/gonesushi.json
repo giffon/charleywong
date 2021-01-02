@@ -74,6 +74,10 @@
     {
       "type": "eat",
       "id": 960
+    },
+    {
+      "type": "eat",
+      "id": 5570
     }
   ],
   "places": [
@@ -92,7 +96,7 @@
     },
     {
       "address": {
-        "zh": "尖沙咀厚福街12-12A號藍馬商業大廈18樓"
+        "zh": "尖沙咀厚福街12-12A號藍馬商業大廈18樓/20樓"
       },
       "googleMapsPlaceId": "ChIJy8Mtee4ABDQRhJM3bhCYgv4",
       "coordinates": {
@@ -101,6 +105,19 @@
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣大壩街79號地下"
+      },
+      "googleMapsPlaceId": "EiI3OSBUYWkgUGEgU3QsIFRzdWVuIFdhbiwgSG9uZyBLb25nIjASLgoUChIJKbZt-O74AzQR3rA1kqthJRYQTyoUChIJh-zSVO74AzQRGPJ-P4M8X8Y",
+      "coordinates": {
+        "lat": 22.3710777,
+        "lng": 114.1121287
+      },
+      "area": {
+        "zh": "荃灣區"
       }
     }
   ]

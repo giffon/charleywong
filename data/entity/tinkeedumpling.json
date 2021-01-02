@@ -23,9 +23,10 @@
     },
     {
       "meta": {
-        "about": "：健康餃子專營：\n十一款餃子🥟香港製造\n——————————\n💡逢星期六休\n——————————\n📍長沙彎富華廣場19號鋪\n⏰營業時間 早上十一至晚上十時\n📞外賣電話：852 63602640\n——————————"
+        "name": "甜記餃子",
+        "about": "十一款餃子🥟香港製造\n——————————\n📍旺角通菜街鴻輝大廈2號鋪地下\n⏰營業時間 早上十二至晚上九時\n📞外賣電話：852 54015347\n——————————\n📍長沙彎富華廣場19號鋪(青山道437號旁）\n⏰營業時間 早上十一至晚上十時\n📞外賣電話：852 63602640\n💡逢星期六休"
       },
-      "url": "https://www.instagram.com/tinkeedumpling/"
+      "url": "https://www.instagram.com/tinkeedumplings/"
     }
   ],
   "posts": [
@@ -46,6 +47,38 @@
     {
       "type": "eat",
       "id": 778
+    },
+    {
+      "type": "eat",
+      "id": 5563
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角通菜街鴻輝大廈2號鋪地下"
+      },
+      "googleMapsPlaceId": "ChIJR-Q0ZJkBBDQRKvNBEDFARpA",
+      "coordinates": {
+        "lat": 22.3159836,
+        "lng": 114.171385
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "長沙彎富華廣場19號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ34iwjVEHBDQRhNbtZ5Yz2RI",
+      "coordinates": {
+        "lat": 22.3398973,
+        "lng": 114.1541073
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ]
 }

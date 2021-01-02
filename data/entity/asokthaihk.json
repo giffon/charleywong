@@ -36,7 +36,7 @@
       "url": "https://www.instagram.com/asokthai/",
       "meta": {
         "name": "ASOKTHAI 阿叔泰國貨品專賣店",
-        "about": "香港設兩間門市🏠觀塘,大埔歡迎到門市選購🛒\n泰國直送到港@保證100%正貨🏅\nFacebook：ASOKTHAIHK\nAsokthai購物網🔥 全新推出 線上自助落單 📌"
+        "about": "香港自設門市🏠觀塘,大埔,慈雲山歡迎到門市選購🛒\n泰國直送到港@保證100%正貨🏅\nFacebook：ASOKTHAIHK\nAsokthai購物網🔥 全新推出 線上自助落單 📌"
       }
     }
   ],
@@ -64,12 +64,16 @@
     {
       "type": "shop",
       "id": 2059
+    },
+    {
+      "type": "shop",
+      "id": 4915
     }
   ],
   "places": [
     {
       "address": {
-        "zh": "大埔昌運中心G/F 18B"
+        "zh": "大埔昌運中心地下28號A2鋪"
       },
       "googleMapsPlaceId": "ChIJt0cBdjgIBDQR3VKqzKgJt3U",
       "coordinates": {
@@ -91,6 +95,19 @@
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "慈雲山毓華街23號慈雲山中心地下P02"
+      },
+      "googleMapsPlaceId": "ChIJD0ZReN0GBDQRh4wK8mw1uCg",
+      "coordinates": {
+        "lat": 22.3482388,
+        "lng": 114.2005514
+      },
+      "area": {
+        "zh": "黃大仙區"
       }
     }
   ]

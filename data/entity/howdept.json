@@ -39,7 +39,35 @@
       "url": "https://www.instagram.com/how_dept/",
       "meta": {
         "name": "HOW",
-        "about": "HOW Food Factory | HOW to live well Store\n日本優質傢具生活百貨 | 室內設計 | 品牌形象及宣傳\n觀塘巧明街99號3樓AB座\n@how_interior @how_furniture @how.lim\n#howdept #howtolivewell"
+        "about": "HOW Food Factory | HOW to live well Store\n日本優質傢具生活百貨 | 室內設計 | 品牌形象及宣傳\n@how_interior @how_furniture @how.lim\n#howdept #howtolivewell"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/how_interior/",
+      "meta": {
+        "name": "HOW Interior Design Department",
+        "about": "\"通過將自然和光引入那些與城市環境相隔離的簡單幾何體中，我創造了複雜的空間。我把非凡注入到最為平凡的熟悉的環境——住屋之中，並一次促使人們重新認識平凡。\"\n- 安藤忠雄"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/how_furniture/",
+      "meta": {
+        "name": "HOW - Japan Furniture Store",
+        "about": "一件好的家具，會與你共渡人生，承傳下一代。\n是數十年，甚至過百年的選擇。\n@how_dept @how_interior"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/how.lim/",
+      "meta": {
+        "name": "HOW + LIM",
+        "about": "☎︎ Reservation: 👉🏻\nhttp://www.how-dept.com/howpluslim/\n✂︎ Open:\n11:00~21:00 (MON-SAT)\n11:00~1800 (SUNDAY)"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/sayhi_hk/",
+      "meta": {
+        "name": "Say Hi",
+        "about": "Food • Coffee • Wine\nWhatsapp Reservation : 9224 9862"
       }
     }
   ],
@@ -55,6 +83,7 @@
     "food",
     "furniture",
     "interior",
+    "salon",
     "shop"
   ],
   "yellowBlueMapIds": [
@@ -65,6 +94,10 @@
     {
       "type": "shop",
       "id": 990
+    },
+    {
+      "type": "eat",
+      "id": 5552
     }
   ],
   "places": [
@@ -79,6 +112,19 @@
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "中環士丹利街11號3樓 Say Hi"
+      },
+      "googleMapsPlaceId": "ChIJhRbyjWoBBDQR9Degt-tQAP4",
+      "coordinates": {
+        "lat": 22.2822371,
+        "lng": 114.1558142
+      },
+      "area": {
+        "zh": "中西區"
       }
     }
   ]

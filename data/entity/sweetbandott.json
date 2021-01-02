@@ -85,19 +85,6 @@
     },
     {
       "address": {
-        "zh": "山頂山頂道128號凌霄閣2樓202號舖"
-      },
-      "googleMapsPlaceId": "ChIJR1J4iXMABDQRqBwOAYY2gAo",
-      "coordinates": {
-        "lat": 22.2712357,
-        "lng": 114.1499638
-      },
-      "area": {
-        "zh": "中西區"
-      }
-    },
-    {
-      "address": {
         "zh": "觀塘成業街7號東廣場地下56號舖"
       },
       "googleMapsPlaceId": "ChIJO8F8WUUBBDQRkyhHAr0HX-c",
@@ -107,6 +94,32 @@
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘海濱道77號海濱匯1樓6A號舖"
+      },
+      "googleMapsPlaceId": "ChIJy-jziroBBDQRPF9-lDiSUL8",
+      "coordinates": {
+        "lat": 22.3164515,
+        "lng": 114.2137006
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "薄扶林石塘咀香港大學綜合大樓地下G05號舖"
+      },
+      "googleMapsPlaceId": "ChIJlzW0J4T_AzQR2MhvzdP1SCw",
+      "coordinates": {
+        "lat": 22.2829989,
+        "lng": 114.1370848
+      },
+      "area": {
+        "zh": "中西區"
       }
     }
   ],
@@ -134,6 +147,10 @@
     {
       "type": "eat",
       "id": 5322
+    },
+    {
+      "type": "eat",
+      "id": 5555
     }
   ]
 }
