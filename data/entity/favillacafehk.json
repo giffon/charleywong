@@ -75,8 +75,8 @@
     {
       "url": "https://www.instagram.com/favillacafe/",
       "meta": {
-        "name": "favilla cafe",
-        "about": "Shop5A, 7-9Hoi Kwong Street, Quarry Bay\nW3-5, Wan Chai Ferry Pier, Wan Chai"
+        "name": "favilla cafe | favilla florist",
+        "about": "favilla is a latin means sparkling. We provide a nice place with specialty coffee|florist|cuisine in Scandinavian and Japanese style. @favillaflorist"
       }
     }
   ],
@@ -110,12 +110,20 @@
     {
       "type": "eat",
       "id": 1384
+    },
+    {
+      "type": "eat",
+      "id": 5564
+    },
+    {
+      "type": "eat",
+      "id": 5565
     }
   ],
   "places": [
     {
       "address": {
-        "zh": "favilla cafe 鰂魚涌海光街7-9號龍景大廈地下5A舖"
+        "zh": "鰂魚涌海光街7-9號龍景大廈地下5A舖 favilla X Bless Cafe"
       },
       "googleMapsPlaceId": "ChIJAQCwSwwBBDQRNusIebAtifs",
       "coordinates": {
@@ -128,7 +136,20 @@
     },
     {
       "address": {
-        "zh": "the Artlab by favilla 觀塘開源道55號開聯工業中心B座6樓602A室"
+        "zh": "香港灣仔渡輪碼頭地下W3-5 favilla@yamataka"
+      },
+      "googleMapsPlaceId": "ChIJL2ndG1kABDQRiVAe198uYNU",
+      "coordinates": {
+        "lat": 22.2834762,
+        "lng": 114.1761802
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘開源道55號開聯工業中心B座6樓602A室 the Artlab by favilla"
       },
       "googleMapsPlaceId": "ChIJWVq3W9cBBDQRNQOGpubrEF0",
       "coordinates": {
@@ -141,7 +162,7 @@
     },
     {
       "address": {
-        "zh": "homu by favilla 新界荃灣青山公路荃灣段398號愉景新城2樓2013號舖"
+        "zh": "新界荃灣青山公路荃灣段398號愉景新城2樓2013號舖 hōmu by favilla"
       },
       "googleMapsPlaceId": "ChIJd6GNxcj5AzQRYOhEUI4_deI",
       "coordinates": {
