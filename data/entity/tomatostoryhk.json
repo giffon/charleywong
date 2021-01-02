@@ -19,6 +19,13 @@
         "single_line_address": "Wan Chai, Hong Kong"
       },
       "url": "https://www.facebook.com/tomatostoryhk/"
+    },
+    {
+      "url": "https://www.instagram.com/tomato_story_hk/",
+      "meta": {
+        "name": "Tomato_story",
+        "about": "TOMATO STORY以單一食材作為主題，以自家研製烹調方法，製作出一系列經典蕃茄菜式，包括「蕃茄湯通粉」、「咖哩蕃茄飯」、「蕃茄焗飯」及「星廚即製」四大系列，為食客帶來最經典的蕃茄菜式。#tomatostory #蕃茄 #灣仔 #蕃茄湯 #星廚即製 #蕃茄湯通粉 #蕃茄飯"
+      }
     }
   ],
   "posts": [
@@ -33,6 +40,21 @@
     {
       "type": "eat",
       "id": 27
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "灣仔軒尼詩道8-12號中港大廈地下A號舖"
+      },
+      "googleMapsPlaceId": "ChIJHeKK0sMBBDQRI0j18k0CwQY",
+      "coordinates": {
+        "lat": 22.2775727,
+        "lng": 114.1684822
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ]
 }

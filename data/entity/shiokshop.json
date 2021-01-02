@@ -22,6 +22,13 @@
         "single_line_address": "葵涌大連排道144-150號金豐工業大廈二期2樓P室, 852 Hong Kong, Hong Kong"
       },
       "url": "https://www.facebook.com/shiokshop/"
+    },
+    {
+      "url": "https://www.instagram.com/shiok_shop/",
+      "meta": {
+        "name": "Shiok_Shop",
+        "about": "Shiok，來自馬來西亞及新加坡，指開心、愉悅的感覺。希望用家在使用本店出品的手作物品後，亦能有Shiok的感覺。\n如有任何查詢及疑問，可回覆圖片、或like我們的Facebook專頁！\nhttps://www.facebook.com/shiokshop"
+      }
     }
   ],
   "posts": [
@@ -39,6 +46,21 @@
     {
       "type": "shop",
       "id": 2443
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵涌大連排道144-150號金豐工業大廈二期2樓P室 (工作室)"
+      },
+      "googleMapsPlaceId": "ChIJi_P1S734AzQRdKcA2_hpqGc",
+      "coordinates": {
+        "lat": 22.3585137,
+        "lng": 114.1317195
+      },
+      "area": {
+        "zh": "葵青區"
+      }
     }
   ]
 }
