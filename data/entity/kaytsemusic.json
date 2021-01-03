@@ -16,12 +16,22 @@
       "url": "https://www.facebook.com/kaytsemusic/",
       "meta": {
         "id": "182308681854926",
+        "username": "kaytsemusic",
         "name": "謝安琪 Kay Tse",
-        "categories": [
-          "Artist",
-          "Musician/Band"
+        "about": "這個專頁由謝安琪、經理人公司以及開啟此專頁的歌迷共同管理。\n\n幻國文?",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "180164648685982",
+            "name": "Musician/Band"
+          }
         ],
-        "email": "kaytseworkcontact@gmail.com"
+        "emails": [
+          "kaytseworkcontact@gmail.com"
+        ]
       }
     }
   ],

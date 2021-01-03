@@ -19,13 +19,19 @@
       "url": "https://www.facebook.com/edlab.hk/",
       "meta": {
         "id": "939161929465120",
+        "username": "edlab.hk",
         "name": "EdLab 匯文教室",
-        "categories": [
-          "Education"
+        "category_list": [
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "addr": "荃灣大河道99號99廣場7樓04室",
-        "area": "Hong Kong, Hong Kong",
-        "email": "enquiry@edlab.com.hk"
+        "emails": [
+          "enquiry@edlab.com.hk"
+        ],
+        "single_line_address": "荃灣大河道99號99廣場7樓04室, Hong Kong, Hong Kong",
+        "website": "http://www.edlab.com.hk"
       }
     }
   ],

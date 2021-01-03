@@ -9,11 +9,22 @@
       "meta": {
         "id": "102645828010602",
         "name": "冷與夜工程",
-        "categories": [
-          "Local Service",
-          "Engineering Service",
-          "Product/Service"
-        ]
+        "about": "清洗冷氣機 分體機.窗口機.商場及中央冷氣\n維修各種冷氣\n安裝各種冷氣\n24小時為客人提供服務\n可為客人晚上清洗\n價錢合理.專人為您報價\n港九新界為客人服務",
+        "category_list": [
+          {
+            "id": "400062273344681",
+            "name": "Engineering Service"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
+        ],
+        "single_line_address": "Hong Kong, Hong Kong"
       }
     }
   ],
