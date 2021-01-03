@@ -1,0 +1,54 @@
+{
+  "id": "boyabooks",
+  "name": {
+    "zh": "博雅小書店"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/boyabooks/",
+      "meta": {
+        "id": "279258538861598",
+        "username": "boyabooks",
+        "name": "博雅小書店",
+        "about": "我們以優惠折扣提供各類台版、港版及英文圖書代訂服務，種類不限。歡迎 whatsapp 66901100查詢，謝謝",
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
+        ],
+        "emails": [
+          "boyabooks@yahoo.com.hk"
+        ]
+      }
+    },
+    {
+      "url": "https://www.instagram.com/boyabooks/",
+      "meta": {
+        "name": "博雅小書店 My Little Boya Bookstore",
+        "about": "香港九龍旺角彌敦道608號\n總統商業大廈6樓601A室(近信和中心)\nWhatsapp / WeChat: 6690-1100"
+      },
+      "hidden": true
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "book",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍旺角彌敦道608號總統商業大廈6樓601A室"
+      },
+      "googleMapsPlaceId": "ChIJKXcHG8cABDQR5CgY4NP_cRs",
+      "coordinates": {
+        "lat": 22.31639729999999,
+        "lng": 114.1701646
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ]
+}
