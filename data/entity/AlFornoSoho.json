@@ -1,11 +1,12 @@
 {
   "id": "AlFornoSoho",
   "name": {
-    "en": "Al Forno Soho"
+    "en": "Al Forno Cafe and Bar"
   },
   "webpages": [
     {
-      "url": "https://www.alfornosoho.com"
+      "url": "https://www.alfornosoho.com",
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/AlFornoSoho/",
@@ -35,10 +36,10 @@
       }
     },
     {
-      "url": "https://www.instagram.com/alfornosoho/",
+      "url": "https://www.instagram.com/alfornocafeandbar/",
       "meta": {
-        "name": "Al Forno Soho",
-        "about": "Al Forno Pizzeria 🍕🍝🍺🍷\n🍽只此一家，絕無分店\n🕐營業時間：星期一三四五六日12:00-16:00 / 18:00-22:30；逢星期二休息 TUE OFF\n📞查詢或訂座電話：28983833\n📍餐廳地址：中環蘇豪鴨巴甸街41-49號金豪大廈2號舖地下上層"
+        "name": "💛Al Forno Cafe & Bar",
+        "about": "Homemade Pizza🍕 Coffee☕️ Craft Beer🍺\n地址: 銅鑼灣告士打道218號地下🅰️\n電話: 28132277 ☎️\n正常既營業時間: 12PM-2AM\n限聚令營業時間: 12PM-??? 🤷🏻‍♂️"
       }
     }
   ],
@@ -58,20 +59,6 @@
       }
     },
     {
-      "url": "https://www.facebook.com/AlFornoSoho/photos/a.164031847075722/1928615777283978",
-      "meta": {
-        "utime": "1572927266",
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/AlFornoSoho/photos/a.164031847075722/1938247666320789",
-      "meta": {
-        "utime": "1573614503",
-        "sharedWith": "Public"
-      }
-    },
-    {
       "url": "https://www.facebook.com/AlFornoSoho/photos/a.164031847075722/1952470484898507",
       "meta": {
         "utime": "1574580358",
@@ -80,21 +67,20 @@
     }
   ],
   "tags": [
-    "pizza",
-    "closed"
+    "pizza"
   ],
   "places": [
     {
       "address": {
-        "en": "41-49 Aberdeen Street, Central District"
+        "zh": "銅鑼灣告士打道218號地下"
       },
-      "googleMapsPlaceId": "ChIJWVYHlXsABDQRKBy9CIgD020",
+      "googleMapsPlaceId": "ChIJm59qWFcABDQRKin2P03keus",
       "coordinates": {
-        "lat": 22.28268,
-        "lng": 114.1515345
+        "lat": 22.2803359,
+        "lng": 114.1797476
       },
       "area": {
-        "zh": "中西區"
+        "zh": "灣仔區"
       }
     }
   ],
