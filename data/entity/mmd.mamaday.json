@@ -27,6 +27,20 @@
         "single_line_address": "105 parkes st, 852 Hong Kong, Hong Kong"
       },
       "url": "https://www.facebook.com/mmd.mamaday/"
+    },
+    {
+      "url": "https://www.instagram.com/mmd.mamaday/",
+      "meta": {
+        "name": "· M A M A D A Y ·",
+        "about": "We Feed Your Imagination.\n➖\n⏱ Recent Business Hours: 11:00-19:00\n➖\n@mamaday.studio"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/mamaday.studio/",
+      "meta": {
+        "name": "M a m a d a y · S t u d i o",
+        "about": "// Let's drink coffe. 重點是：快樂不快樂？\n➖\n⏱ Recent Business Hrs: 10:30-18:30\n➖\n@mmd.mamaday"
+      }
     }
   ],
   "posts": [
@@ -49,6 +63,51 @@
     {
       "type": "eat",
       "id": 396
+    },
+    {
+      "type": "eat",
+      "id": 5607
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣霎西街28號必發大廈1樓A&B"
+      },
+      "googleMapsPlaceId": "ChIJ__-Dk1AABDQR3zr6M-s5nWs",
+      "coordinates": {
+        "lat": 22.2775469,
+        "lng": 114.1808998
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀加連威老道29號信基商業中心2樓"
+      },
+      "googleMapsPlaceId": "ChIJRfAGdIoBBDQR2wH_yzjgf0Y",
+      "coordinates": {
+        "lat": 22.3001546,
+        "lng": 114.1738931
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "油麻地白加士街105號地舖"
+      },
+      "googleMapsPlaceId": "ChIJ5UYbLPwBBDQRsnU8yg-IOIU",
+      "coordinates": {
+        "lat": 22.3062662,
+        "lng": 114.1706958
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
