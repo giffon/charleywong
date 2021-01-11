@@ -27,9 +27,10 @@
     },
     {
       "meta": {
-        "about": "模型先生:\n位處於旺角廣華街地鋪 本店專營各類高達,科幻模型;各類製作工具;顏料,專業代客上色,模型課程等\n地址: 香港九龍旺角廣華街一號仁安大廈地下8B鋪\nshop 8B, G/F,Yan On Building,1 Kwong Wa Street\n☎️3705 9350"
+        "name": "模型先生",
+        "about": "💥本店專營各類高達,科幻模型;各類製作工具;顏料,專業代客上色,模型課程等\n🌍香港九龍旺角廣華街一號仁安大廈地下8B鋪\n☎️3705 9350\n📩inbox 不定時回覆\n直接Whatsapp 📲"
       },
-      "url": "https://www.instagram.com/mrmodeler/"
+      "url": "https://www.instagram.com/mr.modeler/"
     }
   ],
   "posts": [
@@ -43,5 +44,20 @@
   "tags": [
     "toy",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角廣華街一號仁安大廈地鋪8b"
+      },
+      "googleMapsPlaceId": "ChIJ50yasJ0BBDQRkTaT_oDbZvw",
+      "coordinates": {
+        "lat": 22.3161617,
+        "lng": 114.1725551
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

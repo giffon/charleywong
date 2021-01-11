@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://ymstudio.com.hk"
+    },
+    {
       "meta": {
         "id": "186714661357853",
         "username": "ymstudio.hk",
@@ -23,6 +26,21 @@
         "website": "https://ymstudio.com.hk"
       },
       "url": "https://www.facebook.com/ymstudio.hk/"
+    },
+    {
+      "url": "https://www.instagram.com/ymstudio.hk/",
+      "meta": {
+        "name": "YM Studio",
+        "about": "🐈 有貓嘅模型戰棋工具卡牌店♪\n-\nPokémon - MTG - 卡套卡盒\n戰棋模型 - Warmachine - Warhammer\n盒裝模型 - 模型工具 - 各牌噴罐模型油 - 噴油區\n-\n🏙旺角山東街中僑商業大廈1602室\n🌅星期一至六1:00-10:00 PM\n-\n⚠️逢週末更新更表⚠️"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCZlnd9LH2mIv-SsCfv6QwrA",
+      "meta": {
+        "id": "UCZlnd9LH2mIv-SsCfv6QwrA",
+        "name": "TheYMStudio",
+        "about": ""
+      }
     }
   ],
   "posts": [
@@ -41,6 +59,21 @@
     {
       "type": "shop",
       "id": 499
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角山東街47-51號中僑商業大廈16樓1602室"
+      },
+      "googleMapsPlaceId": "ChIJEW-zr8cABDQRbeg-18c-mbM",
+      "coordinates": {
+        "lat": 22.3178578,
+        "lng": 114.1701233
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
