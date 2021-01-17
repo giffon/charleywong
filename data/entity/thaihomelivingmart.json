@@ -23,6 +23,13 @@
         "single_line_address": "尖沙咀厚福街13號祥順中心17樓A室, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/thaihomelivingmart/"
+    },
+    {
+      "url": "https://www.instagram.com/th.livingmart/",
+      "meta": {
+        "name": "泰家生活百貨 Thai Home Living Mart",
+        "about": "🏡尖沙咀厚福街13號祥順中心17樓A室\n2014年已開始做 #泰國代購，早於14年已於銅鑼灣設有門市，於2016年租約期滿後休息了一段短時間 ，2017年底我又重新黎過，在尖沙咀重新開始實體店啦。\n@thaihome.buddha\n👆🏻泰國佛牌聖物專門店"
+      }
     }
   ],
   "posts": [
@@ -43,6 +50,21 @@
     {
       "type": "shop",
       "id": 2296
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀厚福街13號祥順中心17樓A室"
+      },
+      "googleMapsPlaceId": "ChIJa9Ypee4ABDQR_eH7pGlngVk",
+      "coordinates": {
+        "lat": 22.2995228,
+        "lng": 114.1738365
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
