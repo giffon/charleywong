@@ -6,7 +6,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.cheaplab.hk"
+      "url": "https://www.littlemonster.hk"
     },
     {
       "url": "https://www.facebook.com/littlemonster2019/",
@@ -48,6 +48,21 @@
     {
       "type": "shop",
       "id": 2145
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘成業街16號怡生大廈地下F號鋪"
+      },
+      "googleMapsPlaceId": "ChIJg3hmP0UBBDQRgGmDVXpvQ1w",
+      "coordinates": {
+        "lat": 22.3099421,
+        "lng": 114.2259542
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ]
 }

@@ -70,5 +70,20 @@
   "tags": [
     "shop",
     "foodStore"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "壽富街興隆中心13號地鋪"
+      },
+      "googleMapsPlaceId": "ChIJEySjWaDwAzQRi8zu9uY1-3s",
+      "coordinates": {
+        "lat": 22.444939,
+        "lng": 114.027722
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }

@@ -26,6 +26,13 @@
         "website": "https://isabelchiang.com"
       },
       "url": "https://www.facebook.com/isabelchiangphotography/"
+    },
+    {
+      "url": "https://www.instagram.com/isabelchiang/",
+      "meta": {
+        "name": "HKWEDDING•HKPREWEDDING",
+        "about": "📷Wedding & Portrait Photographer\n🎞Based in Hong Kong | Available worldwide\n📍 Currently in Hong Kong 🇭🇰\n📱Whatsapp: +852 90152203"
+      }
     }
   ],
   "posts": [
@@ -36,5 +43,20 @@
   "tags": [
     "photographer",
     "wedding"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "Unit 1315, 13/F, World Interests Building, No.8 Tsun Yip Lane, Kwun Tong"
+      },
+      "googleMapsPlaceId": "ChIJhfEkHhj5AzQRzI8pea2tCdo",
+      "coordinates": {
+        "lat": 22.3660511,
+        "lng": 114.1188508
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
   ]
 }

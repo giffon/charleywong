@@ -56,5 +56,20 @@
       "type": "shop",
       "id": 1987
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘開源道63號福昌大廈6樓612室"
+      },
+      "googleMapsPlaceId": "ChIJ5cxoekUBBDQRTNP63FJ-mZo",
+      "coordinates": {
+        "lat": 22.310794,
+        "lng": 114.2247003
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
