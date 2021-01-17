@@ -45,5 +45,20 @@
       "type": "eat",
       "id": 626
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "灣仔軒尼詩道314-324號W.Square 5樓"
+      },
+      "googleMapsPlaceId": "ChIJw87H5h1H_xMRVxra1Xu9prU",
+      "coordinates": {
+        "lat": 22.2781549,
+        "lng": 114.1783696
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
