@@ -8,13 +8,19 @@
       "url": "https://www.facebook.com/hoiyoktong/",
       "meta": {
         "id": "1429676573721293",
+        "username": "hoiyoktong",
         "name": "海藥堂中西大藥行",
-        "categories": [
-          "Pharmacy / Drugstore"
+        "about": "上下齊心價格要真",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
         ],
-        "addr": "馬頭涌道，馬頭圍邨，洋葵樓113號鋪",
-        "area": "852 Hong Kong, Hong Kong",
-        "email": "1948hoiyoktong@gmail.com"
+        "emails": [
+          "1948hoiyoktong@gmail.com"
+        ],
+        "single_line_address": "馬頭涌道，馬頭圍邨，洋葵樓113號鋪, 852 Hong Kong, Hong Kong"
       }
     }
   ],
