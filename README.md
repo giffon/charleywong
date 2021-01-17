@@ -67,7 +67,7 @@ Data is stored as JSON files in the [data](data) directory.
 }
 ```
 
-The web interface is a [React](https://reactjs.org/) / [Express](https://expressjs.com/) app hosted by [AWS Lambda](https://aws.amazon.com/lambda/) with [Cloudflare](https://www.cloudflare.com/).
+The web interface is a [React](https://reactjs.org/) / [Fastify](https://www.fastify.io/) app hosted by [AWS Lambda](https://aws.amazon.com/lambda/) with [Cloudflare](https://www.cloudflare.com/).
 
 All program source code are written in [Haxe](https://haxe.org/). Our dev environment is [Visual Studio Code](https://code.visualstudio.com/) with its [remote containers extension](https://code.visualstudio.com/docs/remote/containers).
 
