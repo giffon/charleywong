@@ -1,5 +1,6 @@
 package charleywong;
 
+import sys.FileSystem;
 import js.html.URL;
 import js.lib.Promise;
 import haxe.*;
@@ -160,12 +161,16 @@ class YellowBlueMap {
     }
 
     static public function dump():Promise<Dynamic> {
-        return switch (Sys.command("aws s3 cp --recursive s3://pubic-ccjdhhhdi ybm")) {
-            case 0:
-                Promise.resolve(true);
-            case code:
-                Promise.reject("aws cli exited with " + code);
+        var path = "api/v1";
+        FileSystem.createDirectory("ybm/" + path);
+        if (Sys.command('aws s3 cp s3://public-fjhasdjfv/${path}/eats.json ybm/${path}/') != 0) {
+            Promise.reject("aws s3 cp failed");
         }
+        if (Sys.command('aws s3 cp s3://public-fjhasdjfv/${path}/shops.json ybm/${path}/') != 0) {
+            Promise.reject("aws s3 cp failed");
+        }
+
+        return Promise.resolve(true);
     }
 
     // return not-mapped YBMapData
