@@ -427,6 +427,19 @@
       "area": {
         "zh": "大埔區"
       }
+    },
+    {
+      "address": {
+        "zh": "馬頭角道55號地下"
+      },
+      "googleMapsPlaceId": "ChIJFXbjEtYABDQR1ZOhldsxy0A",
+      "coordinates": {
+        "lat": 22.3216046,
+        "lng": 114.1901307
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -537,6 +550,14 @@
     {
       "type": "eat",
       "id": 5409
+    },
+    {
+      "type": "eat",
+      "id": 5611
+    },
+    {
+      "type": "eat",
+      "id": 5612
     }
   ]
 }
