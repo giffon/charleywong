@@ -20,6 +20,13 @@
         "single_line_address": "錦田祠堂村錦田紅磚屋36號, Hong Kong, Hong Kong"
       },
       "url": "https://www.facebook.com/saramade.hk/"
+    },
+    {
+      "url": "https://www.instagram.com/saramade.hk/",
+      "meta": {
+        "name": "莎拉手工皂｜手工皂教學｜寶石皂｜回禮禮物｜散水禮物｜母乳皂",
+        "about": "📍Made in Hong Kong•香港製皂\n🌱Vegan Soap•純素皂\n🌴Palm Free•無棕櫚成分\n🌎選用歐美日台韓等地進口之優質原材料\n🌻台灣手創藝術協會手工皂專業講師\n🌸日本Aromatica寶石皂導師\n🍀CHT園藝治療師"
+      }
     }
   ],
   "posts": [
@@ -36,6 +43,21 @@
     {
       "type": "shop",
       "id": 2461
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "錦田祠堂村錦田紅磚屋36號"
+      },
+      "googleMapsPlaceId": "ChIJN6uNlFj3AzQReX2_YE3u2go",
+      "coordinates": {
+        "lat": 22.438387,
+        "lng": 114.064862
+      },
+      "area": {
+        "zh": "元朗區"
+      }
     }
   ]
 }
