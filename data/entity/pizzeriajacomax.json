@@ -80,12 +80,16 @@
     {
       "type": "eat",
       "id": 1290
+    },
+    {
+      "type": "eat",
+      "id": 5622
     }
   ],
   "places": [
     {
       "address": {
-        "en": "38-42 Wing Lok Street, Sheung Wan"
+        "zh": "上環永樂街38-42號東成商業大廈地下C舖"
       },
       "googleMapsPlaceId": "ChIJY3wMUXwABDQR7iP7Txo2P1s",
       "coordinates": {
@@ -94,6 +98,19 @@
       },
       "area": {
         "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣渣甸街50號渣甸中心地鋪"
+      },
+      "googleMapsPlaceId": "ChIJLYxxHVQABDQR3h2Si0ST8R4",
+      "coordinates": {
+        "lat": 22.279393,
+        "lng": 114.185618
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ]
