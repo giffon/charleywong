@@ -115,7 +115,9 @@ jobs:
           lix download
           npx dts2hx @types/node @types/gtag.js fastify --noLibWrap --output lib/dts2hx
       - name: Dump YellowBlueMap
-        run: aws s3 cp --recursive s3://pubic-ccjdhhhdi ybm
+        run: |
+          haxe syncYellowBlueMap.hxml
+          node syncYellowBlueMap.js dump
         env:
           AWS_DEFAULT_REGION: us-east-1
           AWS_ACCESS_KEY_ID: ${{ secrets.YBM_AWS_ACCESS_KEY_ID }}
