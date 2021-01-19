@@ -18,6 +18,13 @@
         "single_line_address": "4/F, Kyoto Plaza, 491-499 Lockhart Road, Causeway Bay, 852 Hong Kong, Hong Kong"
       },
       "url": "https://www.facebook.com/seoulmatecafe/"
+    },
+    {
+      "url": "https://www.instagram.com/seoulmatecafe/",
+      "meta": {
+        "name": "Seoulmate Cafe",
+        "about": "TKO - 25B-G26A, G/F, Monterey Place, 23 Tong Chun Street, TKO\nCWB - 4/F, Kyoto Plaza, 491-499 Lockhart Road, CWB"
+      }
     }
   ],
   "posts": [
@@ -38,6 +45,38 @@
     {
       "type": "eat",
       "id": 714
+    },
+    {
+      "type": "eat",
+      "id": 5615
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣駱克道491-499號京都廣場4樓"
+      },
+      "googleMapsPlaceId": "ChIJ84aFzYD_AzQRH_IEcdAKy5g",
+      "coordinates": {
+        "lat": 22.2807022,
+        "lng": 114.1830305
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳澳南海岸唐俊街23號MONTEREY Place 地下G25B & G26A號舖"
+      },
+      "googleMapsPlaceId": "ChIJt0jUo_QDBDQRftZSm-WUPJE",
+      "coordinates": {
+        "lat": 22.3026116,
+        "lng": 114.2617927
+      },
+      "area": {
+        "zh": "西貢區"
+      }
     }
   ]
 }
