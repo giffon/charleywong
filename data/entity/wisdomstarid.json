@@ -51,5 +51,20 @@
       "type": "shop",
       "id": 1512
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新合里5號美基工業大廈21樓D2室"
+      },
+      "googleMapsPlaceId": "ChIJ3xt6gzz7AzQRCvVuf93tlbM",
+      "coordinates": {
+        "lat": 22.3937848,
+        "lng": 113.9715982
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
   ]
 }
