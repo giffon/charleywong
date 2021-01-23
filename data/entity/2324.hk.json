@@ -9,14 +9,23 @@
       "url": "https://www.facebook.com/2324.hk/",
       "meta": {
         "id": "113776237051664",
+        "username": "2324.hk",
         "name": "廿三廿四",
-        "categories": [
-          "Restaurant",
-          "Bubble Tea Shop"
+        "about": "與其心大心細，不如廿三廿四",
+        "category_list": [
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "A2, G/F, Hoi Cheung Building, 72-74 Tai Po Rd",
-        "area": "000 Sham Shui Po, Hong Kong",
-        "email": "twothreefour.hk@gmail.com"
+        "emails": [
+          "twothreefour.hk@gmail.com"
+        ],
+        "single_line_address": "深水埗大埔道72-74號海祥大廈地下A2號鋪, Sham Shui Po, Hong Kong"
       }
     },
     {
