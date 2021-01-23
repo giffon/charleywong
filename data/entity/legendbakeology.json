@@ -23,6 +23,13 @@
         ],
         "single_line_address": "大埔廣褔里正發樓23號地下A1舖, Hong Kong, Hong Kong"
       }
+    },
+    {
+      "url": "https://www.instagram.com/legend.bakeology/",
+      "meta": {
+        "name": "Legend Bakeology",
+        "about": "傳奇烘焙，本地自家品牌餅店，專注為大家製作有水準的烘焙產品\n店舖地址：\n大埔廣福里正發樓23號地下A1舖\n上水彩園路彩園邨彩園商場3樓R1B舖\n大埔太和路12號太和廣場2樓205D號舖"
+      }
     }
   ],
   "posts": [
@@ -64,6 +71,32 @@
       "coordinates": {
         "lat": 22.4478151,
         "lng": 114.1670801
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "上水彩園路彩園邨彩園商場3樓R1B舖"
+      },
+      "googleMapsPlaceId": "ChIJcVJTZxH2AzQR3SHBdAesCWY",
+      "coordinates": {
+        "lat": 22.5014606,
+        "lng": 114.1264366
+      },
+      "area": {
+        "zh": "北區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大埔太和路12號太和廣場2樓205D號舖"
+      },
+      "googleMapsPlaceId": "ChIJLZ0E7jsIBDQRj_GYThYisUE",
+      "coordinates": {
+        "lat": 22.4506851,
+        "lng": 114.1607491
       },
       "area": {
         "zh": "大埔區"
