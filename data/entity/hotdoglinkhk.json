@@ -32,7 +32,7 @@
       "url": "https://www.instagram.com/hotdoglink/",
       "meta": {
         "name": "HOT DOG LINK 德國熱狗",
-        "about": "德國熱狗\nHotdoglink\nSince 1993\nShop C, 67D Waterloo road, Ho man tin, Kowloon\nTel:26244002\nG/F 18 Ashley road , Tsim sha tsui, Kowloon, Hong kong\n67147780"
+        "about": "德國熱狗hotdoglink\n創於一九九三年\n香港首間傳統德式熱狗專門店\n元祖店\n何文田窩打老道67D號C\n26244002\n分店地址\n尖沙咀亞士厘道18號\n67147780\n天后水星街27號C\n94560926\n元朗教育路31號5B\n65341683\n香港仔田灣商場3B號舖"
       }
     }
   ],
@@ -92,6 +92,45 @@
       "area": {
         "zh": "油尖旺區"
       }
+    },
+    {
+      "address": {
+        "zh": "天后水星街27號C"
+      },
+      "googleMapsPlaceId": "ChIJMRjYKwABBDQR1pNkq_2uyes",
+      "coordinates": {
+        "lat": 22.285621,
+        "lng": 114.19173
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "元朗教育路31號5B"
+      },
+      "googleMapsPlaceId": "ChIJSbR5aXj7AzQRTGpfTvI6tQs",
+      "coordinates": {
+        "lat": 22.4429091,
+        "lng": 114.0262109
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港仔田灣商場3B號舖"
+      },
+      "googleMapsPlaceId": "ChIJq4mGqQYABDQRj5pbfaRpDlI",
+      "coordinates": {
+        "lat": 22.251088,
+        "lng": 114.149729
+      },
+      "area": {
+        "zh": "南區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -106,6 +145,14 @@
     {
       "type": "eat",
       "id": 5159
+    },
+    {
+      "type": "eat",
+      "id": 5625
+    },
+    {
+      "type": "eat",
+      "id": 5626
     }
   ]
 }
