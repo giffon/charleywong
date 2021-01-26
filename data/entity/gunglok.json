@@ -31,7 +31,8 @@
     },
     {
       "meta": {
-        "about": "Culture•Eat•Drink\n臺北赤峰店: 臺北市大同區赤峰街22號\n日本大阪店: 大阪市中央区瓦屋町3丁目6-8\n合作📩 gunglokuniongrocery@gmail.com"
+        "name": "共楽 Gung Lok Union Grocery",
+        "about": "SINCE 2016 Culture•Eat•Drink\n臺北赤峰店: 臺北市大同區赤峰街22號\n合作📩 gunglokuniongrocery@gmail.com\n#gunglok #共樂 #共楽"
       },
       "url": "https://www.instagram.com/gunglok/"
     }
@@ -43,5 +44,20 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "臺北市大同區赤峰街22號"
+      },
+      "googleMapsPlaceId": "ChIJ7fvpKGqpQjQRgHdNB-t6OUk",
+      "coordinates": {
+        "lat": 25.056075,
+        "lng": 121.5196139
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    }
   ]
 }
