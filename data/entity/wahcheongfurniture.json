@@ -66,7 +66,7 @@
   "places": [
     {
       "address": {
-        "en": "212 , G/F Queen Road West"
+        "zh": "皇后大道西212號 地舖"
       },
       "googleMapsPlaceId": "ChIJe5SRYX8ABDQRX0UXrZIHUDk",
       "coordinates": {
@@ -76,12 +76,29 @@
       "area": {
         "zh": "中西區"
       }
+    },
+    {
+      "address": {
+        "zh": "觀塘道342-344號泉源工業大厦11字樓1103室"
+      },
+      "googleMapsPlaceId": "ChIJWQ8utUkBBDQRRBxw-MGW-1M",
+      "coordinates": {
+        "lat": 22.3155137,
+        "lng": 114.2168985
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 1637
+    },
+    {
+      "type": "shop",
+      "id": 5110
     }
   ]
 }
