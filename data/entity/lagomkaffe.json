@@ -1,0 +1,88 @@
+{
+  "id": "lagomkaffe",
+  "name": {
+    "en": "Lagom Kaffe",
+    "zh": "樂感"
+  },
+  "webpages": [
+    {
+      "url": "https://www.lagomkaffe.com"
+    },
+    {
+      "url": "https://www.instagram.com/lagomkaffe/",
+      "meta": {
+        "name": "Lagom Kaffe 樂感",
+        "about": "Not Too Much | Just Enough\n帶來不一樣的自由工作、咖啡、食物空間\n\"Lagom\"源自瑞典語\n意思為「不多不少、剛剛好」\n這正是瑞典對生活、工作、精神最好的解答\n-\nPowered by 桔梗 @jiegenge.hk @jiegenge 💛\n-\n立即下載應用程式選購："
+      }
+    },
+    {
+      "url": "https://www.facebook.com/lagomkaffe/",
+      "meta": {
+        "id": "102510964689280",
+        "username": "lagomkaffe",
+        "name": "Lagom Kaffe 樂感｜Not too Much Just Enough",
+        "about": "Not Too Much | Just Enough \n為大家帶來不一樣的自由工作、咖啡、食物空間。\n-\n\"Lagom\" 源自瑞典語，意思為「不多不少；剛剛好」正是瑞典人對生活態度；工作；健康；環境最好的詮釋。\n",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "info@lagomkaffe.com"
+        ],
+        "website": "www.lagomkaffe.com"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/jiegenge.hk/posts/987265071773859"
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "International Trade Tower 牛頭角觀塘道348號 1樓01號店"
+      },
+      "googleMapsPlaceId": "ChIJ_f9diNEBBDQRig9mYRJeBAg",
+      "coordinates": {
+        "lat": 22.3151337,
+        "lng": 114.2172736
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "Two Harbour Square 觀塘偉業街180號"
+      },
+      "googleMapsPlaceId": "ChIJQTN5eUYBBDQRIh5jZ3YgziI",
+      "coordinates": {
+        "lat": 22.3097058,
+        "lng": 114.2212389
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5243
+    },
+    {
+      "type": "eat",
+      "id": 5623
+    }
+  ]
+}
