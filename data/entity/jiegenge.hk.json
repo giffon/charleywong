@@ -1,12 +1,16 @@
 {
   "id": "jiegenge.hk",
   "name": {
-    "zh": "桔梗",
+    "zh": "桔梗 (香港)",
     "en": "JIEGENGE.HK"
   },
   "webpages": [
     {
-      "url": "https://www.instagram.com/jiegenge.hk/"
+      "url": "https://www.instagram.com/jiegenge.hk/",
+      "meta": {
+        "name": "桔梗|咖啡廳 JIEGENGE.HK",
+        "about": "從台灣來的味道\n開放式的廚房|咖啡|餐廳|空間\n陽台提供甜甜的水煙座位\n地址：旺角砵蘭街160號地舖 (創興廣場後面）\n-\n姊妹分店 @lagomkaffe\n兄弟幫 @atmosphere.hk ￼￼￼\n-\n餐廳電話：27877328\n預約水煙：27978328"
+      }
     },
     {
       "meta": {
@@ -49,6 +53,21 @@
     {
       "type": "eat",
       "id": 1343
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角砵蘭街160號地舖"
+      },
+      "googleMapsPlaceId": "ChIJBSyI0R4BBDQRnSqS2URB-M4",
+      "coordinates": {
+        "lat": 22.316099,
+        "lng": 114.1693732
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
