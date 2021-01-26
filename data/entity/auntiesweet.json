@@ -29,9 +29,10 @@
       "url": "https://www.facebook.com/129501417092050/"
     },
     {
-      "url": "https://www.instagram.com/auntiesweet/",
+      "url": "https://www.instagram.com/auntiesweetcwb/",
       "meta": {
-        "name": "Auntie Sweet 甜姨姨私房甜品"
+        "name": "甜姨姨銅鑼灣分店",
+        "about": "地址：香港銅鑼灣耀華街11号地下\nAddress: G/f 11 Yiu Wah Street Causeway Bay Hong Kong\n電話：51184324\nTel: 51184324\n營業時間：1230-0030\nBusiness hours : 1230-0030"
       }
     }
   ],
@@ -62,12 +63,29 @@
       "area": {
         "zh": "灣仔區"
       }
+    },
+    {
+      "address": {
+        "zh": "香港銅鑼灣耀華街11号地下"
+      },
+      "googleMapsPlaceId": "ChIJmfdx51AABDQRvKx2KxoQX-8",
+      "coordinates": {
+        "lat": 22.2776697,
+        "lng": 114.1820556
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 543
+    },
+    {
+      "type": "eat",
+      "id": 5664
     }
   ]
 }
