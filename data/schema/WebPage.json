@@ -18,5 +18,15 @@
     "required": [
         "url"
     ],
-    "additionalProperties": false
+    "additionalProperties": false,
+    "allOf": [
+        {
+            "if": {
+                "properties": { "url": { "pattern": "^https?:\/\/(?:www\\.|m\\.)?(?:facebook\\.com|fb\\.me|fb\\.com)\/" } }
+            },
+            "then": {
+                "properties": { "url": { "pattern": "^https:\/\/www\\.facebook\\.com\/(?:[A-Za-z0-9\\.]+\/|groups\/.+)$" } }
+            }
+        }
+    ]
 }
