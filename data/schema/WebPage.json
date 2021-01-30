@@ -27,6 +27,14 @@
             "then": {
                 "properties": { "url": { "pattern": "^https:\/\/www\\.facebook\\.com\/(?:[A-Za-z0-9\\.]+\/|groups\/.+)$" } }
             }
+        },
+        {
+            "if": {
+                "properties": { "url": { "pattern": "^https?:\/\/[^/]+\/?$" } }
+            },
+            "then": {
+                "properties": { "url": { "pattern": "^https?:\/\/[^/]+$" } }
+            }
         }
     ]
 }
