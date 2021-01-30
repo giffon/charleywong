@@ -8,36 +8,62 @@
       "url": "http://www.cadenzastudio.com.hk"
     },
     {
+      "url": "https://www.facebook.com/284333268305053/",
       "meta": {
-        "id": "109707484220232",
-        "username": "Cadenza.Studio",
+        "id": "284333268305053",
         "name": "Cadenza Studio",
-        "about": "Welcome! We are a small new music studio looking to make big changes in the way of learning music. For lesson inquiries, feel free to send us a message on Facebook or check out our website for more details!",
+        "about": "For price list & enquiry please email to <info@cadenzastudio.com.hk> or Facebook message us",
         "category_list": [
           {
-            "id": "1335670856447673",
-            "name": "Musician"
+            "id": "181475575221097",
+            "name": "Photographer"
+          },
+          {
+            "id": "191173027579272",
+            "name": "Wedding Planning Service"
+          },
+          {
+            "id": "2208",
+            "name": "Camera/Photo"
           }
         ],
         "emails": [
-          "infocadenzastudio@gmail.com"
+          "info@cadenzastudio.com.hk"
         ],
-        "single_line_address": "GTA, Toronto, ON, Canada",
-        "website": "CadenzaStudio.ca"
-      },
-      "url": "https://www.facebook.com/CadenzaStudio/"
+        "single_line_address": "Room 12, 6/F, Shui Hong Industrial Building, Nos. 543/549 Castle Peak Road, Kwai Chung",
+        "website": "http://www.cadenzastudio.com.hk"
+      }
     },
     {
-      "url": "https://www.instagram.com/cadenzastudiohk/"
+      "url": "https://www.instagram.com/cadenzastudiohk/",
+      "meta": {
+        "name": "Cadenza Studio",
+        "about": "We offer Bigday & Engagement photography service in Hong Kong and Overseas\nPlease Facebook inbox us for any enquiry😃\nFacebook page 🔎 Cadenza Studio"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/CadenzaStudio/posts/3532802360124778"
+      "url": "https://www.facebook.com/284333268305053/posts/3532802360124778"
     }
   ],
   "tags": [
     "photographer",
     "wedding"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room 12, 6/F, Shui Hong Industrial Building, Nos. 543/549 Castle Peak Road, Kwai Chung"
+      },
+      "googleMapsPlaceId": "ChIJc5-Tl5r4AzQRDM9zEOP29PE",
+      "coordinates": {
+        "lat": 22.3690654,
+        "lng": 114.1328343
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
