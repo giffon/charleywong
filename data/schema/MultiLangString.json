@@ -7,7 +7,8 @@
             "pattern": "^[^\u4e00-\u9fff]+$"
         },
         "zh": {
-            "type": "string"
+            "type": "string",
+            "pattern": "[\u4e00-\u9fff]"
         }
     },
     "additionalProperties": false
