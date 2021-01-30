@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.paulwong.gallery"
+    },
+    {
       "meta": {
         "id": "1852243791700462",
         "username": "paulwongfineart",
@@ -23,6 +26,13 @@
         "website": "http://www.paulwong.gallery"
       },
       "url": "https://www.facebook.com/paulwongfineart/"
+    },
+    {
+      "url": "https://www.instagram.com/paulwongfineart/",
+      "meta": {
+        "name": "Paul Wong Fine Art Photography",
+        "about": "ℍ𝕂 𝕡𝕙𝕠𝕥𝕠𝕘𝕣𝕒𝕡𝕙𝕖𝕣 🇭🇰。香港得獎婚禮&人像攝影師\n📧 𝕝𝕠𝕟𝕘𝕞𝕠𝕙𝕚𝕞@𝕘𝕞𝕒𝕚𝕝.𝕔𝕠𝕞"
+      }
     }
   ],
   "posts": [
@@ -33,5 +43,20 @@
   "tags": [
     "photographer",
     "wedding"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Rm 301E, WAH SING INDUSTRIAL BUILDING, 12 Wah Sing Street, Kwai Chung"
+      },
+      "googleMapsPlaceId": "ChIJtyYUnpn4AzQR5ltmjzRPm5s",
+      "coordinates": {
+        "lat": 22.3635829,
+        "lng": 114.1349709
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }

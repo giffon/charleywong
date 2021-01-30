@@ -55,7 +55,7 @@
   "places": [
     {
       "address": {
-        "en": "210B, K11 Musea, TST"
+        "zh": "尖沙咀 K11 Musea, 2/F, 210B"
       },
       "googleMapsPlaceId": "ChIJy0xepekBBDQRjydDEmFfK3Y",
       "coordinates": {
@@ -68,7 +68,7 @@
     },
     {
       "address": {
-        "en": "Kiosk 2, 1/F, Fashion walk, CWB"
+        "zh": "銅鑼灣 Fashion Walk, 1/F, Kiosk2"
       },
       "googleMapsPlaceId": "ChIJ7XGHJLwBBDQRPxqomahariY",
       "coordinates": {
@@ -77,6 +77,19 @@
       },
       "area": {
         "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "元朗 YOHO MALL一期 1樓 1128a號舖"
+      },
+      "googleMapsPlaceId": "ChIJGeN4majwAzQRVHHk6wYo1oM",
+      "coordinates": {
+        "lat": 22.4449707,
+        "lng": 114.0370601
+      },
+      "area": {
+        "zh": "元朗區"
       }
     }
   ],

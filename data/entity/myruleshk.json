@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.myruleshk.com"
+      "url": "https://www.myruleshk.com"
     },
     {
       "meta": {
@@ -26,6 +26,13 @@
         "website": "http://www.myruleshk.com"
       },
       "url": "https://www.facebook.com/myruleshk/"
+    },
+    {
+      "url": "https://www.instagram.com/myruleshk/",
+      "meta": {
+        "name": "#MyRules+",
+        "about": "🇭🇰香港大碼女裝專門店| Plus Size Fashion Store\n🥂打破常規｜I Define My Rules!\n🚆 新蒲崗大有街35號義發工業大廈8樓H1室（鑽石山地鐵站A2出口）\n⏳營業時間Open Hours：每日Everyday 1-8pm\n📞96121107"
+      }
     }
   ],
   "posts": [
@@ -40,6 +47,21 @@
     {
       "type": "shop",
       "id": 379
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新蒲崗大有街35號義發工業大廈8樓H1室"
+      },
+      "googleMapsPlaceId": "ChIJ-VSVLNcGBDQRPP5SItzAoUQ",
+      "coordinates": {
+        "lat": 22.335733,
+        "lng": 114.1973469
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
     }
   ]
 }
