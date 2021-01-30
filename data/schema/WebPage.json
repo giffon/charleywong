@@ -22,18 +22,18 @@
     "allOf": [
         {
             "if": {
-                "properties": { "url": { "pattern": "^https?:\/\/(?:www\\.|m\\.)?(?:facebook\\.com|fb\\.me|fb\\.com)\/" } }
+                "properties": { "url": { "type": "string", "pattern": "^https?:\/\/(?:www\\.|m\\.)?(?:facebook\\.com|fb\\.me|fb\\.com)\/" } }
             },
             "then": {
-                "properties": { "url": { "pattern": "^https:\/\/www\\.facebook\\.com\/(?:[A-Za-z0-9\\.]+\/|groups\/.+)$" } }
+                "properties": { "url": { "type": "string", "pattern": "^https:\/\/www\\.facebook\\.com\/(?:[A-Za-z0-9\\.]+\/|groups\/.+)$" } }
             }
         },
         {
             "if": {
-                "properties": { "url": { "pattern": "^https?:\/\/[^/]+\/?$" } }
+                "properties": { "url": { "type": "string", "pattern": "^https?:\/\/[^/]+\/?$" } }
             },
             "then": {
-                "properties": { "url": { "pattern": "^https?:\/\/[^/]+$" } }
+                "properties": { "url": { "type": "string", "pattern": "^https?:\/\/[^/]+$" } }
             }
         }
     ]
