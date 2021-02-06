@@ -13,12 +13,8 @@
         "id": "352937812270777",
         "username": "Juicyfruittihk",
         "name": "一菓欄 Juicy Fruitti",
-        "about": "我地係「一菓欄」！我哋將會為大家帶黎第一手水果資訊，更方便易用嘅網上購物體驗。",
+        "about": "我地係「一菓欄」！我哋將會為大家帶黎第一手水果資訊，\n更方便易用嘅網上購物體驗。\n",
         "category_list": [
-          {
-            "id": "200600219953504",
-            "name": "Shopping & Retail"
-          },
           {
             "id": "128157407253652",
             "name": "Fruit & Vegetable Store"
@@ -26,9 +22,13 @@
           {
             "id": "198722103478014",
             "name": "Health Food Store"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
           }
         ],
-        "single_line_address": "一菓欄 觀塘成業街成業工業大廈4樓17室, Hong Kong, Hong Kong",
+        "single_line_address": "成業工業大廈2樓20室, Hong Kong, Hong Kong",
         "website": "www.juicyfruitti.com.hk"
       },
       "url": "https://www.facebook.com/Juicyfruittihk/"

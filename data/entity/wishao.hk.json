@@ -8,13 +8,19 @@
       "url": "https://www.facebook.com/wishao.hk/",
       "meta": {
         "id": "102611011543580",
+        "username": "wishao.hk",
         "name": "竹青亭",
-        "categories": [
-          "Restaurant"
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
         ],
-        "addr": "尖沙咀金馬倫道48號中國保險大廈1樓A&B室",
-        "area": "Tsim Sha Tsui, Hong Kong",
-        "email": "wishaohk@gmail.com"
+        "emails": [
+          "wishaohk@gmail.com"
+        ],
+        "single_line_address": "尖沙咀金馬倫道48號中國保險大廈1樓A&B室, Kowloon, Hong Kong",
+        "website": "https://inline.app/booking/wish/ao"
       }
     },
     {
