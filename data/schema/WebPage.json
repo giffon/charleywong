@@ -50,6 +50,9 @@
         },
         {
             "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/bit\\.ly\/)" } }
+        },
+        {
+            "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/docs\\.google\\.com\/)" } }
         }
     ]
 }
