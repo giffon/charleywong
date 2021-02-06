@@ -40,6 +40,9 @@
             "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/wa\\.me\/)" } }
         },
         {
+            "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/api\\.whatsapp\\.com\/)" } }
+        },
+        {
             "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/(www|s)\\.openrice\\.com\/)" } }
         }
     ]
