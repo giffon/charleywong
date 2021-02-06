@@ -47,6 +47,9 @@
         },
         {
             "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/linktr\\.ee\/)" } }
+        },
+        {
+            "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/bit\\.ly\/)" } }
         }
     ]
 }
