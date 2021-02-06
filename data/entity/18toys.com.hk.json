@@ -8,13 +8,6 @@
       "url": "https://www.18toys.com.hk"
     },
     {
-      "url": "https://www.instagram.com/18toys_shop/",
-      "meta": {
-        "name": "18Toys+ 成人情趣用品主打sm風格歡迎蒞臨參觀",
-        "about": "®正品正貨 信心保證\n🎁各式款式應有盡有 送禮自用佳品\n🎎 修補夫妻情侶感情 重拾和諧美滿性生活\n💪🏻支持 面交 郵寄 順豐 店舖自取\n💋記得like埋個Facebook page 喔\n📞Whatapp / WeChat: ss56431598\n🏠地址：葵興永祥工業大廈2樓A11"
-      }
-    },
-    {
       "url": "https://www.instagram.com/18toys_shop_mini/",
       "meta": {
         "name": "18toys_shop_mini",
@@ -69,7 +62,8 @@
         ],
         "single_line_address": "旺角好景商業中心19樓03室, Kowloon, Hong Kong"
       },
-      "url": "https://www.facebook.com/108391173889078/"
+      "url": "https://www.facebook.com/108391173889078/",
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/109003273827722/",
@@ -83,18 +77,16 @@
           }
         ],
         "single_line_address": "達廣場 2 樓 S39 舖, Kowloon, Hong Kong"
-      }
+      },
+      "hidden": true
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/18toys.com.hk/photos/a.1845197665741386/2432817916979355"
-    },
-    {
-      "url": "https://www.facebook.com/18toys.com.hk/videos/437690230502967"
-    },
-    {
       "url": "https://www.facebook.com/18toys.com.hk/photos/a.1684661561794998/2238675106393638"
+    },
+    {
+      "url": "https://www.facebook.com/18toys.com.hk/photos/a.1845197665741386/2432817916979355"
     }
   ],
   "tags": [
@@ -104,7 +96,7 @@
   "places": [
     {
       "address": {
-        "zh": "葵涌葵昌路永祥工業大廈2樓A11 "
+        "zh": "葵涌葵昌路永祥工業大廈2樓A11"
       },
       "googleMapsPlaceId": "ChIJq6rq1pn4AzQRaoL1aY50uFk",
       "coordinates": {
@@ -117,28 +109,15 @@
     },
     {
       "address": {
-        "zh": "好景商業中心19樓03室"
+        "zh": "觀塘工業中心4期3樓d室"
       },
-      "googleMapsPlaceId": "ChIJZ3vZokABBDQRMk7HMr1GW7M",
+      "googleMapsPlaceId": "ChIJcXwc_08BBDQRIDDR_T2doCY",
       "coordinates": {
-        "lat": 22.3159977,
-        "lng": 114.1719778
+        "lat": 22.3113644,
+        "lng": 114.226883
       },
       "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
-        "zh": "旺角先達廣場 二樓s39"
-      },
-      "googleMapsPlaceId": "ChIJw-T7LMYABDQRaeA_pAu7j7Y",
-      "coordinates": {
-        "lat": 22.31945,
-        "lng": 114.170849
-      },
-      "area": {
-        "zh": "油尖旺區"
+        "zh": "觀塘區"
       }
     }
   ],
