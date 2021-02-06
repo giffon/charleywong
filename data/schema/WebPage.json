@@ -35,6 +35,9 @@
             "then": {
                 "properties": { "url": { "type": "string", "pattern": "^https?:\/\/[^/]+$" } }
             }
+        },
+        {
+            "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/wa\\.me\/)" } }
         }
     ]
 }
