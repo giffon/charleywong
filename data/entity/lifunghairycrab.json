@@ -1,9 +1,13 @@
 {
   "id": "lifunghairycrab",
   "name": {
-    "zh": "利豐江蘇及北海道爆膏大閘蟹專門店"
+    "zh": "利豐百家百貨",
+    "en": "Li Fung Store"
   },
   "webpages": [
+    {
+      "url": "https://www.lifunghk.com"
+    },
     {
       "meta": {
         "id": "101257227935645",
@@ -27,10 +31,10 @@
       "url": "https://www.facebook.com/101257227935645/"
     },
     {
-      "url": "https://www.instagram.com/lifunghairycrab/",
+      "url": "https://www.instagram.com/lifungstore_official/",
       "meta": {
-        "name": "利豐爆膏大閘蟹專門店",
-        "about": "🦀🦀利豐爆膏大閘蟹🦀🦀\n專人送貨🚚 品質保證👍🏻"
+        "name": "利豐百家百貨 Li Fung Store",
+        "about": "本土網上百貨公司\n專營大閘蟹、進口零食、飲品、海產、凍肉及家居用品\n手足送貨🚚 品質保證👍🏻\nFacebook📘 利豐百貨\n公司網址：www.lifunghk.com"
       }
     }
   ],
@@ -49,6 +53,21 @@
     {
       "type": "shop",
       "id": 2037
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣灰窰角街 12-16號派龍中心8樓C室"
+      },
+      "googleMapsPlaceId": "ChIJ2zEFn-v4AzQRQvX5aSSGC2U",
+      "coordinates": {
+        "lat": 22.3662488,
+        "lng": 114.1169485
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
     }
   ]
 }

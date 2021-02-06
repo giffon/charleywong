@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.gtm.hk"
+      "url": "https://www.gtm.hk"
     },
     {
       "url": "https://www.facebook.com/gethemallliving/",
@@ -30,8 +30,8 @@
     {
       "url": "https://www.instagram.com/gethemall/",
       "meta": {
-        "name": "GeTheMall",
-        "about": "自助下單網站👇🏻"
+        "name": "Gethemall - 𝙜𝙩𝙢.𝙝𝙠",
+        "about": "◉ 有效商業登記⁣⁣📋正貨正品承諾\n-\n旺角門市營業時間 ⏰\n⁣☀️星期一 - 五 12:30-8:30pm | 星期六日 2-8pm⁣\n☁️星期三及公眾假期休息⁣\n🖥 ⁣𝙜𝙩𝙢.𝙝𝙠 | 每日更新｜自助下單⁣\n⁣🏪現貨商店 : @humbrand_\n-\n◉ CS客服 : 10:00- 18:00"
       }
     }
   ],
@@ -52,6 +52,21 @@
     {
       "type": "shop",
       "id": 2044
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角亞皆老街16號旺角商業大廈1504室"
+      },
+      "googleMapsPlaceId": "ChIJ9UGhNsYABDQRwGOM0sI10pg",
+      "coordinates": {
+        "lat": 22.3189802,
+        "lng": 114.1689699
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
