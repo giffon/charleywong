@@ -45,13 +45,29 @@
           "info@yearshk.com"
         ],
         "single_line_address": "132 Yu Chau Street, Sham Shui Po"
-      }
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.facebook.com/108859307576266/",
+      "meta": {
+        "id": "108859307576266",
+        "name": "Friends of Years",
+        "category_list": [
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          }
+        ],
+        "single_line_address": "20 Sam Pei Square, Tsuen Wan"
+      },
+      "hidden": true
     },
     {
       "url": "https://www.instagram.com/years.hk/",
       "meta": {
         "name": "YEARS | 素年",
-        "about": "Plant Based Cafés. SSP, KLN, HK\nYears • 191-199 Fuk Wah Street • 191-199 福華街 • 852 63383719\nThe Park • 132 Yu Chau Street • 132 汝洲街 • 852 53364000"
+        "about": "VEGAN • 1130-2030 DAILY\nYears • 福華街 191-199 Fuk Wa St • 63383719\nThe Park • 汝洲街 132 Yu Chau St • 53364000\nFriends • 三陂坊20 Sam Pei Sq • 52969864"
       }
     }
   ],
@@ -134,7 +150,7 @@
     },
     {
       "address": {
-        "zh": "荃灣三陂坊20號"
+        "en": "20 Sam Pei Square, Tsuen Wan"
       },
       "googleMapsPlaceId": "ChIJ1woZZ-z4AzQRRw1lF-g2Zss",
       "coordinates": {
