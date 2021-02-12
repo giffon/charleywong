@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.abouteahk.com"
+    },
+    {
       "meta": {
         "id": "459558104452858",
         "username": "abouteahk",
@@ -33,11 +36,8 @@
       "url": "https://www.instagram.com/abouteahk/",
       "meta": {
         "name": "花斑茶社",
-        "about": "想要喝一杯好茶🍵 往往不僅僅在於選用上等食材還需要一份制茶的用心\n往往採用純手工製作出來的天然茶飲味道比簡單沖泡出來的茶飲味道更加醇厚\n喝好茶就要去花斑茶社🐆這是一個源自香港的茶飲品牌\n傳承地道台灣茶製作工藝\n以好水好茶好奶為原材料製作每一杯都飽含了製作者的匠心杯杯溫暖🌱"
+        "about": "想要喝一杯好茶🍵 往往不僅僅在於選用上等食材還需要一份制茶的用心\n手工製作出來的天然茶飲味道比簡單沖泡出來的茶飲味道更加醇厚\n花斑茶社是一個香港的茶飲品牌\n傳承地道台灣茶製作工藝\n以好水好茶好奶為原材料製作每一杯都飽含了製作者的匠心杯杯溫暖🌱"
       }
-    },
-    {
-      "url": "https://www.abouteahk.com"
     }
   ],
   "posts": [
@@ -90,19 +90,6 @@
     },
     {
       "address": {
-        "zh": "旺角登打士廣場地下8號鋪"
-      },
-      "googleMapsPlaceId": "ChIJTV9qcZgBBDQRuPAOeBXRT5w",
-      "coordinates": {
-        "lat": 22.3157621,
-        "lng": 114.1712868
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
         "zh": "堅尼地城Smithfield Walk 5B鋪"
       },
       "googleMapsPlaceId": "ChIJnY6-6QL_AzQRzDJGOsEYMf8",
@@ -125,6 +112,45 @@
       },
       "area": {
         "zh": "黃大仙區"
+      }
+    },
+    {
+      "address": {
+        "zh": "北角和富道和富G15C舖"
+      },
+      "googleMapsPlaceId": "ChIJrfCA97oBBDQRgXNu281Icgc",
+      "coordinates": {
+        "lat": 22.2921837,
+        "lng": 114.1952802
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣海之戀G24號鋪"
+      },
+      "googleMapsPlaceId": "ChIJZTortn35AzQRdXU9H73Es2g",
+      "coordinates": {
+        "lat": 22.3680338,
+        "lng": 114.1102967
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荔枝角D2 Place TWO 1/F 106鋪"
+      },
+      "googleMapsPlaceId": "ChIJ1YX5ze4HBDQRqAHzOCxbG2I",
+      "coordinates": {
+        "lat": 22.3363403,
+        "lng": 114.1472568
+      },
+      "area": {
+        "zh": "深水埗區"
       }
     }
   ],
