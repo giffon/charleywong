@@ -26,10 +26,10 @@
       "url": "https://www.facebook.com/Rawcrafthandmade/"
     },
     {
-      "url": "https://www.instagram.com/rawcraft_handmade/",
+      "url": "https://www.instagram.com/rawcrafthandmade/",
       "meta": {
-        "name": "Rawcraft.handmade",
-        "about": "Leather craftsman (HK)\n查詢及訂制熱線/WhatsApp :"
+        "name": "Rawcraft handmade",
+        "about": "Leather craftsman (HK)\n香港手工皮具工作室\n目標：香港本土手工皮鞋工場\n查詢及訂制熱線/WhatsApp :"
       }
     }
   ],
@@ -42,12 +42,28 @@
     }
   ],
   "tags": [
-    "accessories"
+    "accessories",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 1044
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "工業街17-22號"
+      },
+      "googleMapsPlaceId": "EiUxNyBLdW5nIFlpcCBTdCwgS3dhaSBDaHVuZywgSG9uZyBLb25nIjASLgoUChIJVUJSqZn4AzQRuM17XJ5ivAkQESoUChIJxQBirpn4AzQR62ePh89b5Zo",
+      "coordinates": {
+        "lat": 22.3624047,
+        "lng": 114.1349837
+      },
+      "area": {
+        "zh": "葵青區"
+      }
     }
   ]
 }

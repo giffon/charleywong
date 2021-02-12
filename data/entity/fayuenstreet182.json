@@ -20,6 +20,13 @@
         "single_line_address": "旺角太子花園街182號二樓, Kowloon, Hong Kong"
       },
       "url": "https://www.facebook.com/fayuenstreet182/"
+    },
+    {
+      "url": "https://www.instagram.com/exotic_ethnic_zakka_store/",
+      "meta": {
+        "name": "Exotic Ethnic Zakka 異流民族雜貨",
+        "about": "※ HongKong【花園街182號唐二樓】\n※Handmade Ethnic stuff from India, Japan,Thailand,LatinAmerica,\nPakistan......\n✿Facebook @ Exotic Ethnic Zakka"
+      }
     }
   ],
   "posts": [
@@ -34,12 +41,28 @@
     }
   ],
   "tags": [
-    "clothing"
+    "clothing",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 345
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角太子花園街182號二樓"
+      },
+      "googleMapsPlaceId": "ChIJH50Mq8kABDQRYS_qOFR6U70",
+      "coordinates": {
+        "lat": 22.3229585,
+        "lng": 114.170418
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }

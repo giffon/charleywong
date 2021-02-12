@@ -58,5 +58,20 @@
       "type": "shop",
       "id": 2138
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "unit 06, 18/F, cheung tat centre, no:08, cheung lee street, chai wan"
+      },
+      "googleMapsPlaceId": "ChIJMdfXKoYBBDQRbo02vMZULEE",
+      "coordinates": {
+        "lat": 22.2652208,
+        "lng": 114.2360545
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
   ]
 }
