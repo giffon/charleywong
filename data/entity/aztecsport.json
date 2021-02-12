@@ -15,13 +15,19 @@
       "url": "https://www.facebook.com/aztecsport/",
       "meta": {
         "id": "2224551637818890",
+        "username": "aztecsport",
         "name": "AztecSport",
-        "categories": [
-          "Sports & Recreation"
+        "about": "A Playground for Sport & Wellness",
+        "category_list": [
+          {
+            "id": "186982054657561",
+            "name": "Sports & Recreation"
+          }
         ],
-        "addr": "3/F., The BEACON, 88 Sai Yee Street",
-        "area": "Mong Kok, Hong Kong",
-        "email": "enquiry@aztecsport.com"
+        "emails": [
+          "enquiry@aztecsport.com"
+        ],
+        "single_line_address": "3/F., The BEACON, 88 Sai Yee Street, Mong Kok, Hong Kong"
       }
     }
   ],
