@@ -1,0 +1,88 @@
+{
+  "id": "MassageBears",
+  "name": {
+    "zh": "按摩熊"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/MassageBears/",
+      "meta": {
+        "id": "141380129849766",
+        "username": "MassageBears",
+        "name": "按摩熊",
+        "category_list": [
+          {
+            "id": "109578329118821",
+            "name": "Massage Service"
+          },
+          {
+            "id": "2707",
+            "name": "Health & Wellness Website"
+          }
+        ],
+        "emails": [
+          "massagebears@gmail.com"
+        ],
+        "single_line_address": "雅達商業大廈, 13A &13C, 油麻地",
+        "website": "http://book.massagebears.com/"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/massagebears/",
+      "meta": {
+        "name": "按摩熊",
+        "about": "會按摩的熊"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/MassageBears/photos/a.159500634704382/402786297042480",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/MassageBears/posts/429373704383739",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/MassageBears/posts/450627115591731",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/MassageBears/posts/457728201548289",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "雅達商業大廈, 13A &13C"
+      },
+      "googleMapsPlaceId": "ChIJ9aoGKqABBDQRK3XSK60DvsA",
+      "coordinates": {
+        "lat": 22.3110788,
+        "lng": 114.170357
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 1010
+    }
+  ]
+}
