@@ -1,8 +1,8 @@
 {
   "id": "114899973239036",
   "name": {
-    "en": "Dining Place (Central)",
-    "zh": "茶檔 （中環店）"
+    "en": "Dining Place",
+    "zh": "茶檔"
   },
   "webpages": [
     {
@@ -18,6 +18,34 @@
         "single_line_address": "機利文新街20號永康樓地下 （中環中心旁）, Hong Kong, Hong Kong"
       },
       "url": "https://www.facebook.com/114899973239036/"
+    },
+    {
+      "url": "https://www.facebook.com/HappyDiningsPlace/",
+      "meta": {
+        "id": "1496482723983379",
+        "username": "HappyDiningsPlace",
+        "name": "Happy dinings place 茶檔",
+        "about": "茶檔 HappyDiningsPlace\n只賣食物，不賣服務\n以特色美食而生的茶檔\n人氣產品\n1.豬扒菠蘿包\n2.元祖級蕃茄薯仔湯\n3.溫泉蛋乾撈麵\n4.大廚即興手作\n#回覆機械人 \n#chatbot \n#茶擋\n#HappyDinginsPlace\n#合作無間\n",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
+        ],
+        "single_line_address": "香港仔舊大街120號7A地下, 00852 香港仔",
+        "website": "bit.ly/hdp-ig"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/happydiningsplace/",
+      "meta": {
+        "name": "香港仔🍴茶檔🍴 HDP",
+        "about": "🍴茶檔🍴\n只賣食物，不賣服務，大廚手作。\n1.🍅蕃茄🥔薯仔🍜湯麵\n2.🥚溫泉蛋🍝乾撈麵\n3.🍍菠蘿包餐/🥐牛角包餐\n4.🇬🇧英式早餐All-day breakfast"
+      }
     }
   ],
   "posts": [
@@ -44,12 +72,29 @@
       "area": {
         "zh": "中西區"
       }
+    },
+    {
+      "address": {
+        "zh": "香港仔舊大街120號少群大廈七A舖"
+      },
+      "googleMapsPlaceId": "ChIJQXHnIKgBBDQRkFBd1FRV3Qc",
+      "coordinates": {
+        "lat": 22.2489832,
+        "lng": 114.1562138
+      },
+      "area": {
+        "zh": "南區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 1471
+    },
+    {
+      "type": "eat",
+      "id": 1806
     }
   ]
 }
