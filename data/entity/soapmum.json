@@ -99,6 +99,129 @@
     {
       "type": "shop",
       "id": 745
+    },
+    {
+      "type": "shop",
+      "id": 5425
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘成業街7號東廣場地下(自動售賣機, 寫字樓客𨋢大堂旁)"
+      },
+      "googleMapsPlaceId": "ChIJO8F8WUUBBDQRkyhHAr0HX-c",
+      "coordinates": {
+        "lat": 22.3108771,
+        "lng": 114.2261728
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "紅磡黃埔花園第2期時尚坊地下EA1號"
+      },
+      "googleMapsPlaceId": "ChIJgzT_auAABDQREhL2S_FCnWk",
+      "coordinates": {
+        "lat": 22.3037908,
+        "lng": 114.1892659
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門兆康站SHI 21店"
+      },
+      "googleMapsPlaceId": "ChIJDRKStuD6AzQRNiseopZOr7A",
+      "coordinates": {
+        "lat": 22.4111604,
+        "lng": 113.9786884
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "沙田連城廣場1樓K1店"
+      },
+      "googleMapsPlaceId": "ChIJsYrYERYHBDQR6A5SNVHzzfc",
+      "coordinates": {
+        "lat": 22.3827059,
+        "lng": 114.1875143
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣荃豐中心2樓C87號鋪"
+      },
+      "googleMapsPlaceId": "ChIJkx1CMdf5AzQRCN1e5UNHY9M",
+      "coordinates": {
+        "lat": 22.3719907,
+        "lng": 114.1194839
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍灣常悅道21號EASTMARK 1樓4A舖"
+      },
+      "googleMapsPlaceId": "ChIJ1WWa9jQBBDQRxsAv3SjCy0Q",
+      "coordinates": {
+        "lat": 22.3221986,
+        "lng": 114.2112792
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳唐德街9號將軍澳中心G樓75A"
+      },
+      "googleMapsPlaceId": "ChIJve6EBvIDBDQRzz1TxeWW4lM",
+      "coordinates": {
+        "lat": 22.3071208,
+        "lng": 114.2572529
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角彌敦道700號T.O.P商場1樓118號舖"
+      },
+      "googleMapsPlaceId": "ChIJhXTLe4UBBDQRS9hV0CQdTHo",
+      "coordinates": {
+        "lat": 22.3205525,
+        "lng": 114.1695058
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "灣仔莊士敦道181號大有廣場3樓307"
+      },
+      "googleMapsPlaceId": "ChIJS7D3CJcBBDQRcexRP_t3QyI",
+      "coordinates": {
+        "lat": 22.2769455,
+        "lng": 114.1745433
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ]
 }

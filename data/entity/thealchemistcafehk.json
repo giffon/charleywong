@@ -181,6 +181,10 @@
     {
       "type": "eat",
       "id": 5315
+    },
+    {
+      "type": "eat",
+      "id": 5727
     }
   ],
   "places": [
@@ -260,6 +264,19 @@
       },
       "area": {
         "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣記利佐治街 Fashion Walk G17號舖"
+      },
+      "googleMapsPlaceId": "ChIJ6TgnnFYABDQRk11zTZIABvY",
+      "coordinates": {
+        "lat": 22.280815,
+        "lng": 114.1852378
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ]

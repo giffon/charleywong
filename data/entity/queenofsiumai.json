@@ -120,15 +120,28 @@
     },
     {
       "address": {
-        "zh": "旺角花園街2-16號好景商業中心地鋪22號"
+        "zh": "九龍紅磡船澳街99-109號德民街2-34E號黃埔新邨地下4J號舖"
       },
-      "googleMapsPlaceId": "ChIJ8feo68YABDQRLkzrt9hCps0",
+      "googleMapsPlaceId": "EiEyIFRhayBNYW4gU3QsIEh1bmcgSG9tLCBIb25nIEtvbmciMBIuChQKEgk5anQh3gAENBGN3ofybu1ZkRACKhQKEgn3SIWC4AAENBH-CViWj7NbOA",
       "coordinates": {
-        "lat": 22.3160478,
-        "lng": 114.1720016
+        "lat": 22.3063445,
+        "lng": 114.1871688
       },
       "area": {
-        "zh": "油尖旺區"
+        "zh": "九龍城區"
+      }
+    },
+    {
+      "address": {
+        "zh": "灣仔灣仔道181 A-181G"
+      },
+      "googleMapsPlaceId": "ChIJx6r-WFoABDQRXtRZ8wrxTGY",
+      "coordinates": {
+        "lat": 22.277186,
+        "lng": 114.177585
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ],
@@ -148,6 +161,14 @@
     {
       "type": "eat",
       "id": 5503
+    },
+    {
+      "type": "eat",
+      "id": 5700
+    },
+    {
+      "type": "eat",
+      "id": 5701
     }
   ]
 }

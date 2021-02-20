@@ -28,8 +28,11 @@
       "url": "https://www.instagram.com/jiufenteahouse/",
       "meta": {
         "name": "九份茶舍",
-        "about": "《總店》— ￼旺角弼街84號A舖\n葵芳葵涌廣場2樓2015舖\n沙田石門京瑞廣場二期101A21舖\n尖沙咀山林道10號A2舖\n屯門青海圍2號萬寶商場地下5號舗\n旺角登打士街43P-43S號地下9B舖\n西九龍中心8樓58舖\n慈雲山毓華街74-80A號 2A舖\n元朗教育路68號兆豐樓地下1B舖"
+        "about": "旺角弼街84號A\n葵涌廣場2樓2015舖\n沙田石門京瑞廣場二期101A21舖\n屯門青海圍2號萬寶商場地下5號\n旺角登打士街43P-43S號地下9B\n西九龍中心8樓58\n慈雲山毓華街74-80A號2A\n元朗教育路68號兆豐樓地下1B\n天水圍新北江商場1/FD151號\n紅磡差館里21-27號富業大廈1號"
       }
+    },
+    {
+      "url": "https://mewe.com/p/jiufenteahouse1"
     }
   ],
   "posts": [
@@ -86,6 +89,14 @@
     {
       "type": "eat",
       "id": 5139
+    },
+    {
+      "type": "eat",
+      "id": 5719
+    },
+    {
+      "type": "eat",
+      "id": 5720
     }
   ],
   "places": [
@@ -113,19 +124,6 @@
       },
       "area": {
         "zh": "葵青區"
-      }
-    },
-    {
-      "address": {
-        "zh": "尖沙咀山林道10號地下A2號舖"
-      },
-      "googleMapsPlaceId": "ChIJIzfVDuwABDQRCEt_XbVcctg",
-      "coordinates": {
-        "lat": 22.3025801,
-        "lng": 114.1726783
-      },
-      "area": {
-        "zh": "油尖旺區"
       }
     },
     {
@@ -182,15 +180,54 @@
     },
     {
       "address": {
-        "zh": "慈雲山毓華街"
+        "zh": "慈雲山毓華街74-80A號2A"
       },
-      "googleMapsPlaceId": "EiNZdWsgV2FoIFN0LCBUc3ogV2FuIFNoYW4sIEhvbmcgS29uZyIuKiwKFAoSCbu4H0ndBgQ0EX8HMRTHdq-0EhQKEgmDxlyR2QYENBH4dPL1NMMF3g",
+      "googleMapsPlaceId": "ChIJJXg7g8kHBDQRw5pbXcIBnyo",
       "coordinates": {
-        "lat": 22.34716839999999,
-        "lng": 114.2029369
+        "lat": 22.3470545,
+        "lng": 114.2028038
       },
       "area": {
         "zh": "黃大仙區"
+      }
+    },
+    {
+      "address": {
+        "zh": "元朗教育路68號兆豐樓地下1B"
+      },
+      "googleMapsPlaceId": "ChIJ5zZbKLz7AzQRQhTj1sV6-AE",
+      "coordinates": {
+        "lat": 22.443179,
+        "lng": 114.0261755
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "天水圍新北江商場1/FD151號"
+      },
+      "googleMapsPlaceId": "ChIJ8dup4n3wAzQRMyriYxUf_qo",
+      "coordinates": {
+        "lat": 22.4515147,
+        "lng": 114.0012292
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "紅磡差館里21-27號富業大廈1號"
+      },
+      "googleMapsPlaceId": "ChIJfZjHV5cBBDQR3jt3gNm9F0s",
+      "coordinates": {
+        "lat": 22.3076495,
+        "lng": 114.1859452
+      },
+      "area": {
+        "zh": "九龍城區"
       }
     }
   ]
