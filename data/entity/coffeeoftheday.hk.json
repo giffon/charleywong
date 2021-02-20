@@ -1,0 +1,75 @@
+{
+  "id": "coffeeoftheday.hk",
+  "name": {
+    "en": "Coffee of the day"
+  },
+  "webpages": [
+    {
+      "url": "https://cotdcoffee.com"
+    },
+    {
+      "url": "https://www.facebook.com/coffeeoftheday.hk/",
+      "meta": {
+        "id": "110474053894101",
+        "username": "coffeeoftheday.hk",
+        "name": "Coffee of the day",
+        "about": "Start your day with coffee.",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
+        ],
+        "emails": [
+          "coffeeoftheday.hk@gmail.com"
+        ],
+        "single_line_address": "Shop B, G/F, 172-174 Tai Nan Street, Sham Shui Po, 0000 九龍"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/coffeeoftheday.hk/",
+      "meta": {
+        "name": "COTD Coffee",
+        "about": "We gave \"C\" a meaning of \"Coffee\"\n.\nEveryday // 11am-7pm (Last Order 6:30pm)\n.\n↓ COTD Christmas Box Set ↓"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/coffeeoftheday.hk/photos/a.126755995599240/140577717550401",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/coffeeoftheday.hk/photos/a.126755995599240/145382507069922",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗大南街172-174號B鋪"
+      },
+      "googleMapsPlaceId": "ChIJO6mvD1kBBDQRnUC2RLzQIhY",
+      "coordinates": {
+        "lat": 22.3268042,
+        "lng": 114.1639949
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2464
+    }
+  ]
+}
