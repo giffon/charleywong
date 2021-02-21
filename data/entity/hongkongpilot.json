@@ -11,14 +11,20 @@
     {
       "url": "https://www.facebook.com/hongkongpilot/",
       "meta": {
-        "name": "Hong Kong Paragliding School滑翔傘學校",
         "id": "824282024308836",
+        "username": "hongkongpilot",
+        "name": "Hong Kong Paragliding School滑翔傘學校",
         "about": "滑翔傘課程 Paragliding training. \n 免費飛行服務(特定條件) Free Tandem Flight ( with conditions )",
-        "categories": [
-          "Education"
+        "category_list": [
+          {
+            "id": "2250",
+            "name": "Education"
+          }
         ],
-        "email": "shatinbird@hotmail.com",
-        "tel": "91831885"
+        "emails": [
+          "shatinbird@hotmail.com"
+        ],
+        "website": "http://www.hongkongpilot.com"
       }
     },
     {

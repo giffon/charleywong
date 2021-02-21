@@ -11,15 +11,28 @@
       "url": "https://www.facebook.com/GPGROUPHK/",
       "meta": {
         "id": "474176649262630",
+        "username": "GPGROUPHK",
         "name": "GP Group Hong Kong",
-        "categories": [
-          "Wholesale & Supply Store",
-          "Retail Company",
-          "Household Supplies"
+        "about": "www.gpg.com.hk\n家居建材批發市場~DIY雙摺門，防蚊網，鋁質窗花，寵物窗花，酒店式浴屏，不銹鋼閘，鋁窗，窗簾，電子門鎖，抽氣扇，熱水爐，防盜夾萬，鋁窗配件，玻璃膠……",
+        "category_list": [
+          {
+            "id": "187070794658134",
+            "name": "Wholesale & Supply Store"
+          },
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          },
+          {
+            "id": "2220",
+            "name": "Household Supplies"
+          }
         ],
-        "addr": "12 Station Lane, Hung Hom",
-        "area": "Hong Kong, Hong Kong",
-        "email": "gpgrouphongkong@gmail.com"
+        "emails": [
+          "gpgrouphongkong@gmail.com"
+        ],
+        "single_line_address": "12 Station Lane, Hung Hom, Hong Kong, Hong Kong",
+        "website": "www.gpg.com.hk "
       }
     },
     {
