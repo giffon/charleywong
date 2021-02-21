@@ -7,8 +7,8 @@
     {
       "url": "https://www.instagram.com/superdon_hk/",
       "meta": {
-        "name": "スーパー丼 SUPERDON",
-        "about": "G/F, 501 Lockhart Road, Causeway Bay\n銅鑼灣駱克道501號地下\n+852 2668 1663\nSun-Thurs 12:00-23:00\nFri-Sat 12:00-00:00\n#superdon #スーパー丼 @superdon_hk"
+        "name": "スーパー丼 SUPERDON",
+        "about": "501 Lockhart Road, Causeway Bay\n銅鑼灣駱克道501號地下\n+852 2668 1663\n大埔超級城B 區1樓130-133A號舖\n+852 2665 9700\nOpen 7days a week\n#superdon #スーパー丼 @superdon_hk"
       }
     },
     {
@@ -52,7 +52,7 @@
   "places": [
     {
       "address": {
-        "en": "G/F 501 Lockhart Road"
+        "zh": "銅鑼灣駱克道501號地下"
       },
       "googleMapsPlaceId": "ChIJockn5FYABDQR3ftD4uBf1ps",
       "coordinates": {
@@ -61,6 +61,32 @@
       },
       "area": {
         "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大埔超級城B區1樓130-133A號舖"
+      },
+      "googleMapsPlaceId": "ChIJPd1nqUUJBDQRjs_amydtjgc",
+      "coordinates": {
+        "lat": 22.45175009999999,
+        "lng": 114.1705639
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "佐敦逸東酒店LG層food hall"
+      },
+      "googleMapsPlaceId": "ChIJNYH-KWgBBDQRTZLgeR3sLbo",
+      "coordinates": {
+        "lat": 22.307528,
+        "lng": 114.171889
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     }
   ],
@@ -72,6 +98,10 @@
     {
       "type": "eat",
       "id": 2248
+    },
+    {
+      "type": "eat",
+      "id": 5729
     }
   ]
 }
