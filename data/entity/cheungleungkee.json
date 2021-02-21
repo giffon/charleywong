@@ -6,7 +6,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.cheungleungkee.com"
+      "url": "https://www.cheungleungkee.com"
     },
     {
       "meta": {
@@ -34,6 +34,22 @@
         "website": "http://www.cheungleungkee.com"
       },
       "url": "https://www.facebook.com/cheungleungkee/"
+    },
+    {
+      "url": "https://www.instagram.com/cheungleungkee/",
+      "meta": {
+        "name": "張梁記 男士造型用品|造型教學",
+        "about": "𝐖𝐞 𝐒𝐞𝐥𝐥 • 𝐖𝐞 𝐓𝐞𝐚𝐜𝐡\n。銅鑼灣希慎廣場4樓22B舖\n。旺角上海街618 1樓102A舖\n。尖沙咀美麗華廣場1期G06舖\n🔻港澳網上購買"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCR-zEmo53oivonktZ7yvwxQ",
+      "meta": {
+        "id": "UCR-zEmo53oivonktZ7yvwxQ",
+        "location": "Hong Kong",
+        "name": "CheungLeungKee",
+        "about": "Cheung Leung Kee - 男士造型用品專門店的產品介紹頻道\nwww.cheungleungkee.com\n"
+      }
     }
   ],
   "posts": [
@@ -59,6 +75,51 @@
     {
       "type": "shop",
       "id": 1223
+    },
+    {
+      "type": "shop",
+      "id": 5441
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣希慎廣場 4/F 22B 號舖"
+      },
+      "googleMapsPlaceId": "ChIJc4VcdHMBBDQRL9pNjQFFq9E",
+      "coordinates": {
+        "lat": 22.2798226,
+        "lng": 114.1837972
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角上海街618號1樓102A 號舖"
+      },
+      "googleMapsPlaceId": "ChIJab2peRkBBDQRtPPQ8u_o64k",
+      "coordinates": {
+        "lat": 22.3196117,
+        "lng": 114.1681713
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀美麗華商場 1 期 G06 號舖"
+      },
+      "googleMapsPlaceId": "ChIJxcoPdHMBBDQRBtfegn9QyJY",
+      "coordinates": {
+        "lat": 22.30092399999999,
+        "lng": 114.1727325
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
