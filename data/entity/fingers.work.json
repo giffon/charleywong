@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.fingerswork.com"
+    },
+    {
       "meta": {
         "id": "1732597250294445",
         "username": "fingers.work",
@@ -30,7 +33,8 @@
     },
     {
       "meta": {
-        "about": "Hong Kong·2015 Ⓒ All About Space🌛\nSpray Art / Lifestyle / Workshop\n► 門市 | 不日開放 敬請預約\n► Pinkoi | fingerswork\n► Consignment | TST Eslite L225A"
+        "name": "𝙁𝙞𝙣𝙜𝙚𝙧𝙨 𝙒𝙤𝙧𝙠",
+        "about": "𝙎𝙞𝙣𝙘𝙚 2015 Ⓒ 𝙄 𝙉𝙚𝙚𝙙 𝙎𝙥𝙖𝙘𝙚 𝙄 𝙂𝙤 𝙎𝙥𝙖𝙘𝙚.🪐\n𝙐𝙣𝙞𝙫𝙚𝙧𝙨𝙚 / 𝙉𝙖𝙩𝙪𝙧𝙚 / 𝙉𝙚𝙠𝙤\n⋆觀塘門市 | 年初八啟市\n⋆寄賣點 | 尖沙咀誠品生活L225A\n⋆ Pinkoi | Fingers Work\n———\n歡迎到官網看看👇🏼"
       },
       "url": "https://www.instagram.com/fingers.work/"
     }
@@ -51,6 +55,21 @@
     {
       "type": "shop",
       "id": 415
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘成業街15-17號成運工業大廈12/F 11室"
+      },
+      "googleMapsPlaceId": "ChIJe3kyTfkBBDQRBohiYuP3H_M",
+      "coordinates": {
+        "lat": 22.3103477,
+        "lng": 114.2266972
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ]
 }
