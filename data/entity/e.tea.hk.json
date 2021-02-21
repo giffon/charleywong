@@ -110,6 +110,10 @@
     {
       "type": "eat",
       "id": 5509
+    },
+    {
+      "type": "eat",
+      "id": 5728
     }
   ],
   "places": [
@@ -124,6 +128,45 @@
       },
       "area": {
         "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大角咀富榮花園二期04室"
+      },
+      "googleMapsPlaceId": "ChIJ3ZQPUlkBBDQRvuOos5CV_6g",
+      "coordinates": {
+        "lat": 22.3141369,
+        "lng": 114.1646111
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角花園街好景商業中心地下18號舖"
+      },
+      "googleMapsPlaceId": "ChIJ8feo68YABDQRLkzrt9hCps0",
+      "coordinates": {
+        "lat": 22.3160478,
+        "lng": 114.1720016
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "紅磡德民街29號德民大廈地下B2鋪"
+      },
+      "googleMapsPlaceId": "ChIJwe-rK94ABDQR9lyik46CQmo",
+      "coordinates": {
+        "lat": 22.306226,
+        "lng": 114.188317
+      },
+      "area": {
+        "zh": "九龍城區"
       }
     },
     {
@@ -154,80 +197,41 @@
     },
     {
       "address": {
-        "zh": "將軍澳富康花園商場40號舖"
+        "zh": "屯門市廣場二期UG層19-20號"
       },
-      "googleMapsPlaceId": "ChIJwwpVVvMDBDQRKarhBaTqn9E",
+      "googleMapsPlaceId": "ChIJzQApQT37AzQRhW1T4hJtftI",
       "coordinates": {
-        "lat": 22.3111113,
-        "lng": 114.2621497
+        "lat": 22.3939595,
+        "lng": 113.9761708
       },
       "area": {
-        "zh": "西貢區"
+        "zh": "屯門區"
       }
     },
     {
       "address": {
-        "zh": "大角咀富榮花園二期04室"
+        "zh": "元朗鳳攸東街9號好順意大廈地下10號舖"
       },
-      "googleMapsPlaceId": "ChIJFaAPuL4ABDQRkPi1gjpzZ8I",
+      "googleMapsPlaceId": "ChIJjek3kafwAzQRXmiWSRl7EiY",
       "coordinates": {
-        "lat": 22.314823,
-        "lng": 114.163222
+        "lat": 22.4428629,
+        "lng": 114.0349795
       },
       "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
-        "zh": "粉嶺新運路38號祥華市場地下6號舖"
-      },
-      "googleMapsPlaceId": "ChIJ6axpnh_2AzQR-OvBW-JXFAo",
-      "coordinates": {
-        "lat": 22.4932705,
-        "lng": 114.1404578
-      },
-      "area": {
-        "zh": "北區"
-      }
-    },
-    {
-      "address": {
-        "zh": "大埔昌運中心地下49號鋪"
-      },
-      "googleMapsPlaceId": "ChIJUVh1HvAJBDQR68_0mYyAgzk",
-      "coordinates": {
-        "lat": 22.452748,
-        "lng": 114.167773
-      },
-      "area": {
-        "zh": "大埔區"
+        "zh": "元朗區"
       }
     },
     {
       "address": {
         "zh": "鴨脷洲村西邨地下街市9號檔位"
       },
-      "googleMapsPlaceId": "ChIJgab1A6qqBjQR3mXCEwjl8G8",
+      "googleMapsPlaceId": "ChIJDSgIZo2rBjQRGhao8YIPhRw",
       "coordinates": {
-        "lat": 22.244494,
-        "lng": 114.1494683
+        "lat": 22.24468899999999,
+        "lng": 114.148795
       },
       "area": {
         "zh": "南區"
-      }
-    },
-    {
-      "address": {
-        "zh": "河畔花園商場地下5號鋪"
-      },
-      "googleMapsPlaceId": "ChIJebnPRFIGBDQRK_b-8AVAKs0",
-      "coordinates": {
-        "lat": 22.381189,
-        "lng": 114.1952491
-      },
-      "area": {
-        "zh": "沙田區"
       }
     },
     {
@@ -258,28 +262,67 @@
     },
     {
       "address": {
-        "zh": "屯門市廣場二期UG層19-20號"
+        "zh": "將軍澳富康花園商場40號舖"
       },
-      "googleMapsPlaceId": "ChIJzQApQT37AzQRhW1T4hJtftI",
+      "googleMapsPlaceId": "ChIJwwpVVvMDBDQRKarhBaTqn9E",
       "coordinates": {
-        "lat": 22.3939595,
-        "lng": 113.9761708
+        "lat": 22.3111113,
+        "lng": 114.2621497
       },
       "area": {
-        "zh": "屯門區"
+        "zh": "西貢區"
       }
     },
     {
       "address": {
-        "zh": "旺角花園街好景商業中心地下18號舖"
+        "zh": "粉嶺新運路38號祥華市場地下6號舖"
       },
-      "googleMapsPlaceId": "ChIJ8feo68YABDQRLkzrt9hCps0",
+      "googleMapsPlaceId": "ChIJ6axpnh_2AzQR-OvBW-JXFAo",
       "coordinates": {
-        "lat": 22.3160478,
-        "lng": 114.1720016
+        "lat": 22.4932705,
+        "lng": 114.1404578
       },
       "area": {
-        "zh": "油尖旺區"
+        "zh": "北區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大埔昌運中心地下49號鋪"
+      },
+      "googleMapsPlaceId": "ChIJUVh1HvAJBDQR68_0mYyAgzk",
+      "coordinates": {
+        "lat": 22.452748,
+        "lng": 114.167773
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "河畔花園商場地下5號鋪"
+      },
+      "googleMapsPlaceId": "ChIJebnPRFIGBDQRK_b-8AVAKs0",
+      "coordinates": {
+        "lat": 22.381189,
+        "lng": 114.1952491
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "上水天平邨天平商場地下112號舖"
+      },
+      "googleMapsPlaceId": "ChIJ3QEhxxr2AzQRsriqOJZPyOM",
+      "coordinates": {
+        "lat": 22.503554,
+        "lng": 114.1338055
+      },
+      "area": {
+        "zh": "北區"
       }
     }
   ]
