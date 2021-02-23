@@ -4985,10 +4985,10 @@ fastify-plugin@^3.0.0:
   resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-3.0.0.tgz#cf1b8c8098e3b5a7c8c30e6aeb06903370c054ca"
   integrity sha512-ZdCvKEEd92DNLps5n0v231Bha8bkz1DjnPP/aEz37rz/q42Z5JVLmgnqR4DYuNn3NXAO3IDCPyRvgvxtJ4Ym4w==
 
-fastify-static@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/fastify-static/-/fastify-static-4.0.0.tgz#4b5b2cdc6515220547f9de7feb7630540d57aab3"
-  integrity sha512-Qi8783aM7UIdASorUKyCJolAWgjsOsqUyX3M3RNkvjWzSCOjAXjzGk0Zu72YlK6NC+4v4rPI9w66cq1PWoXGVQ==
+fastify-static@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/fastify-static/-/fastify-static-4.0.1.tgz#28947728b2b4c9360eeea8a92ae7b36a0e38b273"
+  integrity sha512-Mjt0My8Gf/nzJqIDai9rz3HsxH4RAJeMGMIPmf40lGMFKAv4SbRiKJ2cmteXoKHrFGPeGxwMq0gXfixwueV8wA==
   dependencies:
     content-disposition "^0.5.3"
     fastify-plugin "^3.0.0"
