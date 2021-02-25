@@ -9,15 +9,27 @@
       "url": "https://www.facebook.com/YoYo.Machi.BG/",
       "meta": {
         "id": "101991804824942",
+        "username": "YoYo.Machi.BG",
         "name": "悠遊町YoyoMachi 香港小型桌遊館",
-        "categories": [
-          "Shopping & Retail",
-          "Games/Toys",
-          "Board Game"
+        "about": "香港人嘅小型桌遊館\n暫時行駛完全預約制，各位上黎前請先通知\n地址：永明街1號恆昌工廠大廈12樓D11\nIG: @yoyo.machi\nwhatsapp: 55421100",
+        "category_list": [
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2303",
+            "name": "Board Game"
+          }
         ],
-        "addr": "長沙灣永明街1號恆昌工業大廈12樓D11",
-        "area": "999077 Kowloon, Hong Kong",
-        "email": "bgame.shop.2hk@gmail.com"
+        "emails": [
+          "bgame.shop.2hk@gmail.com"
+        ],
+        "single_line_address": "長沙灣永明街1號恆昌工業大廈12樓D11, 999077 Kowloon, Hong Kong"
       }
     },
     {
