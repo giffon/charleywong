@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.pimaryhk.com"
+      "url": "https://pimaryhk.com"
     },
     {
       "meta": {
@@ -30,6 +30,13 @@
         "website": "http://www.pimaryhk.com"
       },
       "url": "https://www.facebook.com/pimary.pimary/"
+    },
+    {
+      "url": "https://www.instagram.com/pimaryhk/",
+      "meta": {
+        "name": "Pimary",
+        "about": "🪑 選物店：荃灣南豐紗廠105號鋪\n🚪 隱匿小村店：大埔大美督蘆慈田村25號\n〈 會員預約制 週二三店休 〉\n〈 📞 2408 8938 〉\n-\n重回基本 以自然為鄰\n選擇大自然的產物過純粹的生活\nPimary 探索世界各地的環保選物\n在這𥚃感受到的全是大自然帶來的美好\n-\n🍴 會員訂位："
+      }
     }
   ],
   "posts": [
@@ -47,6 +54,18 @@
     {
       "type": "eat",
       "id": 571
+    }
+  ],
+  "places": [
+    {
+      "area": {
+        "zh": "荃灣區"
+      },
+      "googleMapsPlaceId": "ChIJKSroQW35AzQRO8JpuZduYF0",
+      "coordinates": {
+        "lat": 22.374172,
+        "lng": 114.110169
+      }
     }
   ]
 }
