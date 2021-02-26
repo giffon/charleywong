@@ -1,0 +1,100 @@
+{
+  "id": "sayhi2someone",
+  "name": {
+    "en": "Say Hi Bar & Dining"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/sayhi2someone/",
+      "meta": {
+        "id": "116041983585013",
+        "username": "sayhi2someone",
+        "name": "Say Hi Bar & Dining",
+        "about": "WINE • COFFEE • FOOD",
+        "category_list": [
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
+        ],
+        "emails": [
+          "sayhi@how-dept.com"
+        ],
+        "website": "http://www.how-dept.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/sayhi_hk/",
+      "meta": {
+        "name": "Say Hi",
+        "about": "SAY HI TO SOMEONE\nFood • Coffee • Wine\n/ Central / Wanchai /\nWhatsapp Reservation :\nCentral - 9224 9862\nWanchai - 9224 2194"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/sayhi2someone/posts/163250642197480",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/sayhi2someone/posts/216095753579635",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/sayhi2someone/posts/225635499292327",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food",
+    "bar"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "中環士丹利街11號3樓"
+      },
+      "googleMapsPlaceId": "ChIJhRbyjWoBBDQR9Degt-tQAP4",
+      "coordinates": {
+        "lat": 22.2822371,
+        "lng": 114.1558142
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "灣仔大王東街22-30號樹德大廈地下4-5號舖"
+      },
+      "googleMapsPlaceId": "ChIJx4B5MWcBBDQRg0GlkEK_NR8",
+      "coordinates": {
+        "lat": 22.276125,
+        "lng": 114.171554
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5552
+    }
+  ]
+}

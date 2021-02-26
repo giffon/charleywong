@@ -62,13 +62,6 @@
         "name": "HOW + LIM",
         "about": "☎︎ Reservation: 👉🏻\nhttp://www.how-dept.com/howpluslim/\n✂︎ Open:\n11:00~21:00 (MON-SAT)\n11:00~1800 (SUNDAY)"
       }
-    },
-    {
-      "url": "https://www.instagram.com/sayhi_hk/",
-      "meta": {
-        "name": "Say Hi",
-        "about": "Food • Coffee • Wine\nWhatsapp Reservation : 9224 9862"
-      }
     }
   ],
   "posts": [
@@ -94,14 +87,6 @@
     {
       "type": "shop",
       "id": 990
-    },
-    {
-      "type": "eat",
-      "id": 5552
-    },
-    {
-      "type": "eat",
-      "id": 5691
     }
   ],
   "places": [
@@ -116,19 +101,6 @@
       },
       "area": {
         "zh": "觀塘區"
-      }
-    },
-    {
-      "address": {
-        "zh": "中環士丹利街11號3樓 Say Hi"
-      },
-      "googleMapsPlaceId": "ChIJhRbyjWoBBDQR9Degt-tQAP4",
-      "coordinates": {
-        "lat": 22.2822371,
-        "lng": 114.1558142
-      },
-      "area": {
-        "zh": "中西區"
       }
     }
   ]
