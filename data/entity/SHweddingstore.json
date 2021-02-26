@@ -35,7 +35,16 @@
       "url": "https://www.instagram.com/shwedding.store/",
       "meta": {
         "name": "尚囍過大禮旗艦店",
-        "about": "🌸「尚囍 - 過大禮旗艦店」🌸﻿\n♦️WhatsApp：6131 4745﻿\n＜＜旺角店＞＞﻿\n🔸地址：家樂坊１６樓１６１６—１７室﻿\n🔸電話：2603 0328﻿\n＜＜荃灣店＞＞﻿\n🔹地址：南豐中心１２樓１２４９室﻿\n🔹電話：2382 8398﻿"
+        "about": "💛👇 九龍門市 👇💛\n旺角 ❧ 家樂坊16樓1616-1617室﻿\n電話 ❧ 26030328﻿"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCo9MIMmXlclNvY1z9QqULUQ",
+      "meta": {
+        "id": "UCo9MIMmXlclNvY1z9QqULUQ",
+        "location": "Hong Kong",
+        "name": "尚囍過大禮旗艦店",
+        "about": "「尚囍- 過大禮旗艦店」   旺角家樂坊過千呎旗艦店提供一站式過大禮服務   地址：旺角登打士街56號家樂坊16樓1616 - 1617 室   ..."
       }
     }
   ],
@@ -84,7 +93,7 @@
   "places": [
     {
       "address": {
-        "zh": "旺角家樂坊"
+        "zh": "家樂坊16樓1616-17室"
       },
       "googleMapsPlaceId": "ChIJD_SQkLUBBDQRSPCoz6CaYY8",
       "coordinates": {
@@ -97,7 +106,7 @@
     },
     {
       "address": {
-        "zh": "荃灣南豐中心"
+        "zh": "荃灣南豐中心12樓1249室"
       },
       "googleMapsPlaceId": "ChIJISIVcPL4AzQR-kkmUwQaNZM",
       "coordinates": {
@@ -117,6 +126,10 @@
     {
       "type": "shop",
       "id": 1225
+    },
+    {
+      "type": "shop",
+      "id": 5473
     }
   ]
 }
