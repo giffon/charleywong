@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.icancentre.com.hk"
+      "url": "https://www.icancentre.com.hk"
     },
     {
       "url": "https://www.facebook.com/ican.edu.centre/",
@@ -33,6 +33,13 @@
         ],
         "single_line_address": "荔枝角長沙灣廣場二期814室, Hong Kong Hong Kong, Hong Kong",
         "website": "http://www.icancentre.com.hk"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/ican.centre/",
+      "meta": {
+        "name": "I Can Education Centre",
+        "about": "我們是一間Playgroup及兒童成長發展中心，團隊包括「親職教育顧問、臨床心理學家,言語/職業治療師及特殊兒童導師」,為兒童提供培訓, 並為有特殊需要兒童(如學習障礙等)提供個別/小組訓練。"
       }
     }
   ],
@@ -75,6 +82,21 @@
     {
       "type": "shop",
       "id": 2372
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荔枝角長沙灣廣場二期814室"
+      },
+      "googleMapsPlaceId": "ChIJZ_sY81QHBDQRdyZiAZroabg",
+      "coordinates": {
+        "lat": 22.3370191,
+        "lng": 114.1483014
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ]
 }
