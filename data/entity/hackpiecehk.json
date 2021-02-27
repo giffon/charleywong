@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.hackpiece.com"
+    },
+    {
       "meta": {
         "id": "1698990733746147",
         "username": "hackpiecehk",
@@ -26,6 +29,13 @@
         "website": "https://www.hackpiece.com/"
       },
       "url": "https://www.facebook.com/hackpiecehk/"
+    },
+    {
+      "url": "https://www.instagram.com/hackpiecehk/",
+      "meta": {
+        "name": "片刻 Hack Piece",
+        "about": "Laser Cut Studio 鐳射切割工作室。"
+      }
     }
   ],
   "posts": [
@@ -45,5 +55,20 @@
   "tags": [
     "accessories",
     "handcraft"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "牛頭角大業街13號日生工業大廈3樓"
+      },
+      "googleMapsPlaceId": "ChIJweZ2zUkBBDQR0X6t0-a_yzQ",
+      "coordinates": {
+        "lat": 22.3157097,
+        "lng": 114.2160206
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
