@@ -65,5 +65,20 @@
       "type": "eat",
       "id": 2468
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新界沙田安群街3號京瑞廣場1期1樓150號舖"
+      },
+      "googleMapsPlaceId": "ChIJqYiIwEYGBDQR6Pi1E-TTAnc",
+      "coordinates": {
+        "lat": 22.3883571,
+        "lng": 114.2081221
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
   ]
 }
