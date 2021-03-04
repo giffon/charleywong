@@ -61,5 +61,20 @@
       "type": "eat",
       "id": 1876
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, 12C Sing Woo Road, Happy Valley"
+      },
+      "googleMapsPlaceId": "ChIJj45Bz40BBDQRlZzVRbY73u0",
+      "coordinates": {
+        "lat": 22.2686051,
+        "lng": 114.1859281
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }

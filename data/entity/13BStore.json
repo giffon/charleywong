@@ -60,5 +60,20 @@
     "book",
     "toy",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍牛頭角觀塘道342-344號泉源工業大廈11樓B座1113&1116室"
+      },
+      "googleMapsPlaceId": "ChIJI2TCSkgBBDQR1nKWbulUN-g",
+      "coordinates": {
+        "lat": 22.315389,
+        "lng": 114.216885
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }

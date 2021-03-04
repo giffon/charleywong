@@ -5,7 +5,11 @@
   },
   "webpages": [
     {
-      "url": "https://www.instagram.com/triple.3.fat.delicacy/"
+      "url": "https://www.instagram.com/triple.3.fat.delicacy/",
+      "meta": {
+        "name": "三肥美食🤤",
+        "about": "三個肥仔🐻🐼🐨"
+      }
     },
     {
       "meta": {
@@ -34,6 +38,22 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗南昌街142-144號南灣大廈地下6號舖"
+      },
+      "googleMapsPlaceId": "EioxNDIgTmFtIENoZW9uZyBTdCwgU2hhbSBTaHVpIFBvLCBIb25nIEtvbmciMRIvChQKEgm1znP2tAAENBFf0eZjT3Vn5BCOASoUChIJDYRV4koHBDQRaTrUbairINI",
+      "coordinates": {
+        "lat": 22.3294892,
+        "lng": 114.1636479
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
