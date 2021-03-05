@@ -1,0 +1,52 @@
+{
+  "id": "edcr_cafe",
+  "name": {
+    "en": "E Delicious Cafe"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/112361107207350/",
+      "meta": {
+        "id": "112361107207350",
+        "name": "E Delicious Cafe",
+        "about": "法國菜",
+        "category_list": [
+          {
+            "id": "1756049968005436",
+            "name": "E-commerce Website"
+          }
+        ],
+        "emails": [
+          "edcr@edcr.hk"
+        ],
+        "single_line_address": "北河街185-187號地舖, 852 香港",
+        "website": "http://edcr.hk"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/edcr_cafe/",
+      "meta": {
+        "name": "Edelicious cafe"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "北河街185-187號地舖"
+      },
+      "googleMapsPlaceId": "ChIJ_7-C0rQABDQRfhppHPCiTnw",
+      "coordinates": {
+        "lat": 22.3320334,
+        "lng": 114.1640235
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ]
+}
