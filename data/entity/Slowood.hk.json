@@ -11,7 +11,7 @@
       "url": "https://www.instagram.com/slowood.hk/",
       "meta": {
         "name": "S L ... O W O O D",
-        "about": "#somewhereslow #slowood\nSLOW LIVING GROCERY | 1 Anniversary🎉\n🌿#zerowasteliving #refilling\n💄#greenbeauty #naturalskincare\n💚#consciousliving #vegan"
+        "about": "Sustainable Grocery Store 🌿Shatin | Shop 247, L2, New Town Plaza I 🌿D-Bay | Shop 151, L1, DB Plaza(Block C) 🌿K-Town | 11 Davis St 🚇Kennedy Town Exit C"
       }
     },
     {
@@ -80,6 +80,32 @@
       "area": {
         "zh": "中西區"
       }
+    },
+    {
+      "address": {
+        "en": "Shop Unit No.151, 1/F, DB Plaza (Block C) Discovery Bay"
+      },
+      "googleMapsPlaceId": "ChIJESICfpn9AzQR6G6KD0mfTT8",
+      "coordinates": {
+        "lat": 22.2961517,
+        "lng": 114.0172301
+      },
+      "area": {
+        "zh": "離島區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop 247, Level 2, New Town Plaza I, Shatin, New Territories"
+      },
+      "googleMapsPlaceId": "ChIJFY1BxmkHBDQRBGh7W0VYRD4",
+      "coordinates": {
+        "lat": 22.3815129,
+        "lng": 114.1884008
+      },
+      "area": {
+        "zh": "沙田區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -90,6 +116,10 @@
     {
       "type": "shop",
       "id": 4452
+    },
+    {
+      "type": "shop",
+      "id": 5493
     }
   ]
 }
