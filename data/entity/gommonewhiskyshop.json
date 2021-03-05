@@ -27,6 +27,13 @@
         "single_line_address": "Room 16,1/F Ho King Commercial Centre, 2-16 Fa Yuen Street, 852 Hong Kong, Hong Kong",
         "website": "https://www.gommonewhiskyhk.com/"
       }
+    },
+    {
+      "url": "https://www.instagram.com/gommonewhiskyshop/",
+      "meta": {
+        "name": "Gommone Whisky - 威士忌專門店",
+        "about": "📱96895556/66500034\n📍旺角好景商業中心1樓3,4號鋪\n🔞根據香港法律，不得在業務過程中，向未成年人售賣或供應令人醺醉的酒精\n【古典酒業本月優惠】\n👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼"
+      }
     }
   ],
   "posts": [
@@ -46,6 +53,21 @@
     {
       "type": "shop",
       "id": 427
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角好景商業中心1樓3,4號鋪"
+      },
+      "googleMapsPlaceId": "ChIJqyaV68IBBDQRvCHYZljdCWo",
+      "coordinates": {
+        "lat": 22.3159829,
+        "lng": 114.1719424
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }

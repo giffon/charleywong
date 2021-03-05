@@ -37,5 +37,20 @@
       "type": "shop",
       "id": 576
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角商業大廈18樓D室"
+      },
+      "googleMapsPlaceId": "ChIJa_EAKMYABDQRb5XASV4juo8",
+      "coordinates": {
+        "lat": 22.3190479,
+        "lng": 114.1689266
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }

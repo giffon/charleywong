@@ -6,7 +6,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.ffdhk.com"
+      "url": "https://www.ffdhk.com"
     },
     {
       "meta": {
@@ -35,6 +35,13 @@
         "website": "http://www.ffdhk.com"
       },
       "url": "https://www.facebook.com/ffdhk/"
+    },
+    {
+      "url": "https://www.instagram.com/ffdhk_offical/",
+      "meta": {
+        "name": "正品室內設計工程公司",
+        "about": "正品室內設計工程公司 於2010年成立, 主要業務為提供住宅及辦公室之室內設計及裝修服務。正直誠實，品德謙遜 - 為公司首要宗旨，以誠信態度營運，不以欺騙手法巧取，為香港人服務。"
+      }
     }
   ],
   "posts": [
@@ -55,6 +62,21 @@
     {
       "type": "shop",
       "id": 448
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "柴灣祥利街18號祥達中心15/F, 04A"
+      },
+      "googleMapsPlaceId": "ChIJx488JoYBBDQRtU2RBXuxQPc",
+      "coordinates": {
+        "lat": 22.265216,
+        "lng": 114.2361247
+      },
+      "area": {
+        "zh": "東區"
+      }
     }
   ]
 }
