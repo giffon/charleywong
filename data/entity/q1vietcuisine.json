@@ -1,0 +1,67 @@
+{
+  "id": "q1vietcuisine",
+  "name": {
+    "en": "Q1 Vietnamese bread & Desserts",
+    "zh": "第一郡"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/q1vietcuisine/",
+      "meta": {
+        "id": "1420850968203498",
+        "username": "q1vietcuisine",
+        "name": "Q1 Vietnamese bread & Desserts",
+        "about": "Vietnamese cuisine",
+        "category_list": [
+          {
+            "id": "155136917876965",
+            "name": "Vietnamese Restaurant"
+          }
+        ],
+        "single_line_address": "315 Lai Chi Kok Sham Shui Po, 852 九龍"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/q1vietcuisine/posts/2312598565695396",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/q1vietcuisine/posts/2458097611145490",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "315 Lai Chi Kok Sham Shui Po"
+      },
+      "googleMapsPlaceId": "ChIJzYi76rMABDQRbChdFBRbieI",
+      "coordinates": {
+        "lat": 22.3285161,
+        "lng": 114.1603461
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1830
+    },
+    {
+      "type": "eat",
+      "id": 1831
+    }
+  ]
+}
