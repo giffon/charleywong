@@ -46,5 +46,33 @@
       "type": "shop",
       "id": 1023
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍深水埗元州街65號文林文具內"
+      },
+      "googleMapsPlaceId": "ChIJWzZwtbQABDQRy1mRwqhKeQs",
+      "coordinates": {
+        "lat": 22.33218,
+        "lng": 114.163201
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣地帶一樓148號舖"
+      },
+      "googleMapsPlaceId": "ChIJd5JInlYABDQReTtgUudkDt4",
+      "coordinates": {
+        "lat": 22.280194,
+        "lng": 114.185443
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
