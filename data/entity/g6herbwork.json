@@ -27,6 +27,13 @@
         "website": "http://www.g6herbwork.com.hk"
       },
       "url": "https://www.facebook.com/g6herbwork/"
+    },
+    {
+      "url": "https://www.instagram.com/g6herbwork/",
+      "meta": {
+        "name": "G6HERBWORK 蠶豆坊",
+        "about": "專門發售蠶豆症患者適用之個人護理用品，手工香水，蚊怕水等等，歡迎pm/whatsapp6676 9956下單。\n謝謝"
+      }
     }
   ],
   "posts": [
@@ -45,6 +52,21 @@
     {
       "type": "shop",
       "id": 1005
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘成業街16號怡生工業中心7樓G座32室"
+      },
+      "googleMapsPlaceId": "ChIJLQWLO0UBBDQRZfrmv1bDFqM",
+      "coordinates": {
+        "lat": 22.30972359999999,
+        "lng": 114.2260493
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ]
 }
