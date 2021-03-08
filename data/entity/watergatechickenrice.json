@@ -66,19 +66,34 @@
       "url": "https://www.instagram.com/watergate_chickenrice/",
       "meta": {
         "name": "水門雞飯",
-        "about": "#chickenrice #水門雞飯 #大埔 #taipo #尖沙咀 #tst #tsimshatsui #元朗 #yuenlong #thaifood #日日食雞唔會瞓低 #watergate #ข้าวมันไก่ ประตูน้ำ"
+        "about": "#chickenrice #水門雞飯 #大埔 #taipo #尖沙咀 #tst #tsimshatsui #旺角 #mongkok #元朗 #yuenlong #thaifood #日日食雞唔會瞓低 #ChickenDailyStayLively #ข้าวมันไก่ ประตูน้ำ"
       }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/watergatechickenrice/videos/2805574846155935"
+      "url": "https://www.facebook.com/watergatechickenrice/posts/580499672776350",
+      "meta": {
+        "sharedWith": "Public"
+      }
     },
     {
-      "url": "https://www.facebook.com/watergatechickenrice/photos/a.163583681134620/619061675586816"
+      "url": "https://www.facebook.com/watergatechickenrice/posts/582060912620226",
+      "meta": {
+        "sharedWith": "Public"
+      }
     },
     {
-      "url": "https://www.facebook.com/watergatechickenrice/posts/594404394719211"
+      "url": "https://www.facebook.com/watergatechickenrice/posts/586100112216306",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/watergatechickenrice/posts/594404394719211",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
@@ -130,13 +145,26 @@
       "address": {
         "zh": "元朗教育路26-34百宜樓地下A舖"
       },
-      "googleMapsPlaceId": "ChIJBaIIf6DwAzQRowJRd1YpvMo",
+      "googleMapsPlaceId": "ChIJDSIwgBTxAzQRQ4nqZksJm8g",
       "coordinates": {
-        "lat": 22.443099,
-        "lng": 114.027784
+        "lat": 22.4431815,
+        "lng": 114.0276854
       },
       "area": {
         "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角豉油街21號C地下"
+      },
+      "googleMapsPlaceId": "ChIJ0URBMpMBBDQRSND7ukM_H_4",
+      "coordinates": {
+        "lat": 22.31690889999999,
+        "lng": 114.1708393
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     }
   ]
