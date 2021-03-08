@@ -12,18 +12,23 @@
         "about": "一間充滿花香的 Cafe，有手工咖啡、食用花做的 Pancake 、手工意粉，日本直送蛋糕及自家製蛋糕，全部用心製作，隨時歡迎閣下蒞臨。",
         "category_list": [
           {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
             "id": "174201535963762",
             "name": "Asian Fusion Restaurant"
           },
           {
-            "id": "149803325077018",
-            "name": "American Restaurant"
-          },
-          {
-            "id": "188334264523313",
-            "name": "Deli"
+            "id": "187153754656815",
+            "name": "Dessert Shop"
           }
-        ]
+        ],
+        "emails": [
+          "info@seancafehk.com"
+        ],
+        "single_line_address": "銅鑼灣謝斐道 535 號 Tower 535 地下 1 號（總統戲院對面）, 852 Hong Kong, Hong Kong",
+        "website": "https://www.seancafehk.com"
       },
       "url": "https://www.facebook.com/seancafehk/"
     }

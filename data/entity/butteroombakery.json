@@ -16,12 +16,12 @@
         "about": "香港手作烘焙蛋糕店。\n專長造型曲奇及日式卷蛋。\n選用優質材料，新鮮焗製，不使用任何防腐劑、添加劑及人造色素。\n全人手製作，堅持味道及原創至上的理念。",
         "category_list": [
           {
-            "id": "1013107675469307",
-            "name": "Wholesale Bakery"
-          },
-          {
             "id": "187153754656815",
             "name": "Dessert Shop"
+          },
+          {
+            "id": "1013107675469307",
+            "name": "Wholesale Bakery"
           },
           {
             "id": "182269951819423",
@@ -41,12 +41,8 @@
         "id": "180815965376532",
         "username": "butteroombakingstudio",
         "name": "Butteroom Baking Studio",
-        "about": "• 烘焙教室\n• 主理人Eva，畢業於藍帶廚藝學院，以不停學習為目標，曾遠赴海外跟從如Cédric Grolet等多位名師進修\n• 出版食譜書《午後的美味時光》&《升級免焗甜品》",
+        "about": "• 烘焙教室\n• 主理人Eva，畢業於藍帶廚藝學院，以不停學習為目標，曾遠赴海外跟從如Cédric Grolet, Jordi Bordas等多位名師進修\n• 出版食譜書《午後的美味時光》&《升級免焗甜品》",
         "category_list": [
-          {
-            "id": "187153754656815",
-            "name": "Dessert Shop"
-          },
           {
             "id": "182269951819423",
             "name": "Cooking School"
@@ -55,7 +51,7 @@
         "emails": [
           "info@butteroom.com"
         ],
-        "single_line_address": "Shing Yip Street, Kwun Tong, Hong Kong",
+        "single_line_address": "Shing Yip Street, Hong Kong, Hong Kong",
         "website": "http://www.butteroom.com/collections/all-classes"
       }
     },
