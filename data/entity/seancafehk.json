@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.seancafehk.com"
+    },
+    {
       "meta": {
         "id": "443256846128544",
         "username": "seancafehk",
@@ -31,21 +34,65 @@
         "website": "https://www.seancafehk.com"
       },
       "url": "https://www.facebook.com/seancafehk/"
+    },
+    {
+      "url": "https://www.instagram.com/seancafehk/",
+      "meta": {
+        "name": "Sean Cafe",
+        "about": "充滿花香的 Cafe，食用花做的班㦸、手工咖啡及意粉，歡迎蒞臨！銅鑼灣謝斐道Tower 535 G01地下 星期一至五：12:00nn - 10pm：星期六、日：10:00am - 10pm 電話：66769679 網上訂座："
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/seancafehk/posts/803815860072639"
+      "url": "https://www.facebook.com/seancafehk/posts/711737949280431",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/seancafehk/posts/990165621437661",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/seancafehk/posts/1021100668344156",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/seancafehk/posts/1035420200245536",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
     "food",
-    "cafe"
+    "cafe",
+    "cake"
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 734
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣謝斐道 535 號 Tower 535 地下 1 號"
+      },
+      "googleMapsPlaceId": "ChIJ4adDnWUBBDQRvS9sO6cbhWY",
+      "coordinates": {
+        "lat": 22.2813968,
+        "lng": 114.1839249
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ]
 }
