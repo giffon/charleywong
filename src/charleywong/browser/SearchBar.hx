@@ -3,14 +3,25 @@ package charleywong.browser;
 import js.Browser;
 import js.html.*;
 import react.*;
+import react.ReactComponent;
 import react.ReactMacro.jsx;
 using StringTools;
 
-class SearchBar extends ReactComponent {
+typedef SearchBarProps = {
+    final defaultQuery:String;
+    final autoFocus:Bool;
+}
+
+typedef SearchBarState = {
+    final query:String;
+    final disabled:Bool;
+}
+
+class SearchBar extends ReactComponentOf<SearchBarProps, SearchBarState> {
     var defaultQuery(get, never):String;
     function get_defaultQuery() return props.defaultQuery;
 
-    var autoFocus(get, never):String;
+    var autoFocus(get, never):Bool;
     function get_autoFocus() return props.autoFocus;
 
     var query(get, set):String;
