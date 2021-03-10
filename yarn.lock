@@ -2358,12 +2358,12 @@ agentkeepalive@^4.1.0:
     depd "^1.1.2"
     humanize-ms "^1.2.1"
 
-ajv-cli@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/ajv-cli/-/ajv-cli-4.1.0.tgz#0fd85dc7524f4f9ea0810ed692ff0f3dab7f7557"
-  integrity sha512-93vIxvsdJ9NBkkr/1xm6QYLyj9OH1UHWZn8CWM9FnuK15SLaFKb5HYXVVmvzeJS3/sIqKGNC1l/PpduooN8q8A==
+ajv-cli@4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/ajv-cli/-/ajv-cli-4.2.0.tgz#f2c371edfd9c999f2a9e0afdd5675eede8e16544"
+  integrity sha512-3Ab8Kuh7QnyXxg+v4NFzah1LLBHgYBUVtJZC8bOaDAdl766kT6Usw5f+g8UcFN+24lYIbchaQBQ+uUntYpBEyQ==
   dependencies:
-    ajv "^7.1.0"
+    ajv "^7.2.1"
     fast-json-patch "^2.0.0"
     glob "^7.1.0"
     js-yaml "^3.14.0"
@@ -2399,10 +2399,10 @@ ajv@^6.11.0, ajv@^6.12.2, ajv@^6.12.6, ajv@^6.5.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-ajv@^7.0.0-beta.9, ajv@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-7.1.0.tgz#f982ea7933dc7f1012eae9eec5a86687d805421b"
-  integrity sha512-svS9uILze/cXbH0z2myCK2Brqprx/+JJYK5pHicT/GQiBfzzhUVAIT6MwqJg8y4xV/zoGsUeuPuwtoiKSGE15g==
+ajv@^7.0.0-beta.9, ajv@^7.2.1:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-7.2.1.tgz#a5ac226171912447683524fa2f1248fcf8bac83d"
+  integrity sha512-+nu0HDv7kNSOua9apAVc979qd932rrZeb3WOvoiD31A/p1mIE5/9bN2027pE2rOPYEdS3UHzsvof4hY+lM9/WQ==
   dependencies:
     fast-deep-equal "^3.1.1"
     json-schema-traverse "^1.0.0"
