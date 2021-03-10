@@ -23,6 +23,16 @@
         "website": "http://www.pinkoi.com/zoobyshu"
       },
       "url": "https://www.facebook.com/seriousbyshu/"
+    },
+    {
+      "url": "https://www.instagram.com/seriousbyshu/",
+      "meta": {
+        "name": "Eunice shu",
+        "about": "Original knit design and animal graphics"
+      }
+    },
+    {
+      "url": "http://www.pinkoi.com/zoobyshu/"
     }
   ],
   "posts": [
@@ -38,6 +48,21 @@
     {
       "type": "shop",
       "id": 2451
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "D2place One 221 A"
+      },
+      "googleMapsPlaceId": "ChIJ-VJ_llQHBDQRL9xYGygY894",
+      "coordinates": {
+        "lat": 22.3361373,
+        "lng": 114.1489362
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ]
 }
