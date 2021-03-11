@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://hakpoalley.boutir.com"
+    },
+    {
       "url": "https://www.facebook.com/HakPoAlley/",
       "meta": {
         "id": "105399514217878",
@@ -29,7 +32,7 @@
       "url": "https://www.instagram.com/hakpo_alley/",
       "meta": {
         "name": "黑布小巷",
-        "about": "養生茶飲 | 手工芋芋 | 台式吐司\n📍 旺角黑布街104號地下D號鋪\n📞 9228 7113\n🕑 12pm - 12:30am"
+        "about": "台式芝士肉蛋吐司|自家制三色圓糖水\n📍 旺角黑布街104號地下D號鋪\n🕑 11:30am-10pm (Mon - Sun)\n📍葵涌廣場3樓摩登世界26號舖\n🕑 430pm - 1030pm (Mon - Fri)\n🕑 1230pm - 1030pm (Sat & Sun)\n📞 9228"
       }
     }
   ],
@@ -58,12 +61,29 @@
       "area": {
         "zh": "油尖旺區"
       }
+    },
+    {
+      "address": {
+        "zh": "葵涌廣場3樓摩登世界26號舖"
+      },
+      "googleMapsPlaceId": "ChIJOUTkt734AzQR2DIuCxrfkck",
+      "coordinates": {
+        "lat": 22.3584385,
+        "lng": 114.1274926
+      },
+      "area": {
+        "zh": "葵青區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 1238
+    },
+    {
+      "type": "eat",
+      "id": 5822
     }
   ]
 }
