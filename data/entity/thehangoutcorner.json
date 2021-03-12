@@ -1,7 +1,8 @@
 {
   "id": "thehangoutcorner",
   "name": {
-    "en": "The Hangout Corner"
+    "en": "The Hangout Corner",
+    "zh": "我愛慢煮"
   },
   "webpages": [
     {
@@ -21,40 +22,6 @@
         ],
         "single_line_address": "Shop G2, Po Hing Court, 10-18 Po Hing Fong, Sheung Wan, 852 Hong Kong, Hong Kong",
         "website": "https://www.openrice.com/zh/hongkong/r-%E6%88%91%E6%84%9B%E6%85%A2%E7%85%AE-%E4%B8%8A%E7%92%B0-%E5%A4%9A%E5%9C%8B%E8%8F%9C-%E9%85%92-r609753"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/TheHangoutCornerMercer/",
-      "meta": {
-        "id": "2338655119702952",
-        "username": "thehangoutcorner",
-        "name": "The Hangout Corner",
-        "category_list": [
-          {
-            "id": "198367566846946",
-            "name": "Steakhouse"
-          }
-        ],
-        "emails": [
-          "hangoutcornerhk@gmail.com"
-        ],
-        "single_line_address": "Shop G2, Po Hing Court, 10-18 Po Hing Fong, Sheung Wan, 852 Hong Kong, Hong Kong",
-        "website": "https://www.openrice.com/zh/hongkong/r-%E6%88%91%E6%84%9B%E6%85%A2%E7%85%AE-%E4%B8%8A%E7%92%B0-%E5%A4%9A%E5%9C%8B%E8%8F%9C-%E9%85%92-r609753"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/TheHangout.HK/",
-      "meta": {
-        "id": "824695267693716",
-        "username": "TheHangout.HK",
-        "name": "The Hangout by Under Vacuum 慢煮工業白楊街店",
-        "category_list": [
-          {
-            "id": "2500",
-            "name": "Local Business"
-          }
-        ],
-        "single_line_address": "九龍太子白楊街15-19號萬安大樓地下及1樓, Hong Kong, Hong Kong"
       }
     },
     {
@@ -88,6 +55,38 @@
     {
       "type": "eat",
       "id": 667
+    },
+    {
+      "type": "eat",
+      "id": 5831
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "上環孖沙街15-17號 我愛慢煮 MERCER"
+      },
+      "googleMapsPlaceId": "ChIJpz3jU9sBBDQRAOPKRcIFglY",
+      "coordinates": {
+        "lat": 22.2853401,
+        "lng": 114.1518378
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "上環普慶坊10-18號 我愛慢煮 POHO"
+      },
+      "googleMapsPlaceId": "ChIJhcIErjIBBDQRWQHKncoPbDM",
+      "coordinates": {
+        "lat": 22.284595,
+        "lng": 114.147215
+      },
+      "area": {
+        "zh": "中西區"
+      }
     }
   ]
 }
