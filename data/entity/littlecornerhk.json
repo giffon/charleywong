@@ -1,12 +1,17 @@
 {
   "id": "littlecornerhk",
   "name": {
-    "en": "handmade_corner"
+    "en": "handmade_corner",
+    "zh": "小角落木作"
   },
   "webpages": [
     {
+      "url": "https://www.littlecornerwood.com"
+    },
+    {
       "meta": {
-        "about": "《小角落木作》屬於你的小角落\n黃竹坑木雕共享創作室\n無論你有冇經驗，如有興趣製作木雕，都可嚟享受屬於自己嘅創作空間。如你係初學者，會先教你基本功，然後再慢慢練習，創作自己嘅成品。\n#handmake#wood#woodworker#woodcarving #carving#木作#木#香港木工"
+        "name": "handmade_corner",
+        "about": "《小角落木作》屬於你的小角落\n#handmake #wood #woodcarving #carving #木作 #木雕 #雕刻 #木 #香港木工 #little_corner_hk #小角落木作"
       },
       "url": "https://www.instagram.com/little_corner_hk/"
     },
@@ -49,5 +54,20 @@
   ],
   "tags": [
     "woodworking"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "黃竹坑業勤街35號金來工業大廈"
+      },
+      "googleMapsPlaceId": "ChIJBepsATgBBDQRChvoJ7hYBls",
+      "coordinates": {
+        "lat": 22.2491593,
+        "lng": 114.1657652
+      },
+      "area": {
+        "zh": "南區"
+      }
+    }
   ]
 }
