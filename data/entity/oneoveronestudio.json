@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.ihaveapen11.com"
+    },
+    {
       "meta": {
         "id": "544607029005011",
         "username": "oneoveronestudio",
@@ -21,7 +24,11 @@
       "url": "https://www.facebook.com/oneoveronestudio/"
     },
     {
-      "url": "https://www.instagram.com/oneoverone_studio_store/"
+      "url": "https://www.instagram.com/oneoverone_studio_store/",
+      "meta": {
+        "name": "一分之一工作室的文具店",
+        "about": "店面在臺北市大安區愛國東路77號2樓（無招牌需要按電鈴），謝謝。\n網路銷售委託“有筆x鋼筆工作室”（網路下標後或有任何疑問也請私訊有筆噢）\n店面營業時間\n四 4：00 - 9：00\n五 2：00 - 9：00\n六 2：00 - 9：00\n日 2：00 - 9：00"
+      }
     }
   ],
   "posts": [
@@ -34,5 +41,20 @@
   ],
   "tags": [
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "愛國東路77號2樓"
+      },
+      "googleMapsPlaceId": "ChIJMQyuEIOpQjQRqCef_7RgI5g",
+      "coordinates": {
+        "lat": 25.0317711,
+        "lng": 121.5273633
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    }
   ]
 }
