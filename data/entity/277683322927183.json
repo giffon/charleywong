@@ -9,11 +9,14 @@
       "meta": {
         "id": "277683322927183",
         "name": "琦興餐廳",
-        "categories": [
-          "Hong Kong Restaurant"
+        "about": "餐廳地址: 深水埗通州街288 - 300號, 順興閣地下",
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
         ],
-        "addr": "288-290通州街順興閣地下",
-        "area": "Sham Shui Po, Hong Kong"
+        "single_line_address": "288-290通州街順興閣地下, Sham Shui Po, Hong Kong"
       }
     }
   ],
