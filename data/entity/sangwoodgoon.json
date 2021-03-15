@@ -35,6 +35,13 @@
         "single_line_address": "元朗錦上路謝屋村 Tse Uk Tsuen, Kam Sheung Road, Yuen Long, Hong Kong, Hong Kong, Hong Kong",
         "website": "http://sangwoodgoon.wordpress.com/"
       }
+    },
+    {
+      "url": "https://www.instagram.com/sangwoodgoon/",
+      "meta": {
+        "name": "生活館 sangwoodgoon",
+        "about": "We are back! 探討、實踐新生活價值的實驗場"
+      }
     }
   ],
   "posts": [
@@ -58,12 +65,28 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "farm"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 2462
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新界元朗八鄉錦上路謝屋村生活館"
+      },
+      "googleMapsPlaceId": "ChIJnd3CZtT5AzQRk6bIB4mWt3Y",
+      "coordinates": {
+        "lat": 22.4279497,
+        "lng": 114.0929291
+      },
+      "area": {
+        "zh": "元朗區"
+      }
     }
   ]
 }
