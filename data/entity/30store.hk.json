@@ -11,7 +11,7 @@
       "url": "https://www.instagram.com/30storehk/",
       "meta": {
         "name": "叁拾士多 30store.hk",
-        "about": "門市地址\n.\n叁拾士多：九龍觀塘成業街成業工業大廈3樓22室\n叁拾士多Round 2：九龍荔枝角長沙灣道億利工業中心1樓10A室\n叁拾士多 W：香港西環堅尼地城吉席街46至60A號吉豐大廈K號地舖\n叁拾士多 F：新界大埔廣福道146號地下\n.\nWhatsapp 查詢 ：55400843"
+        "about": "門市地址\n.\n叁拾士多：九龍觀塘成業街成業工業大廈3樓22室\n叁拾士多Round 2：九龍荔枝角長沙灣道億利工業中心1樓10A室\n叁拾士多 W：香港西環堅尼地城吉席街46至60A號吉豐大廈K號地舖\n叁拾士多 F：新界大埔廣福道146號地下\n.\nWhatsapp / Signal查詢：55400843"
       }
     },
     {
@@ -83,6 +83,10 @@
     {
       "type": "shop",
       "id": 4474
+    },
+    {
+      "type": "shop",
+      "id": 5636
     }
   ],
   "places": [
@@ -136,6 +140,19 @@
       },
       "area": {
         "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港灣仔道97號聯泰大廈地下"
+      },
+      "googleMapsPlaceId": "ChIJvVWrElsABDQR3I8jpftAUIw",
+      "coordinates": {
+        "lat": 22.276698,
+        "lng": 114.175148
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ]
