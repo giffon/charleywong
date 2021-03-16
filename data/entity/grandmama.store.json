@@ -9,6 +9,9 @@
       "url": "https://www.grandmamastore.com"
     },
     {
+      "url": "https://www.grandmamacafe.com"
+    },
+    {
       "meta": {
         "id": "397631327272964",
         "username": "grandmama.store",
@@ -29,10 +32,37 @@
       "url": "https://www.facebook.com/grandmama.store/"
     },
     {
+      "url": "https://www.facebook.com/grandmama.cafe/",
+      "meta": {
+        "id": "100919705143793",
+        "username": "grandmama.cafe",
+        "name": "婆婆珈琲屋 Grandmama Cafe - 婆婆咖啡屋",
+        "about": "婆婆珈琲屋提供自然蔬食餐飲、小型音樂表演空間，給在地人多元的休閒去處。其創立初衷是為了建立一個鑒賞家品器具的空間，讓繁忙的都市人重新感受質感選物的生活美學。",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "info@grandmamacafe.com"
+        ],
+        "single_line_address": "1/F, The Nate, 176 Nathen Road, TST, 香港",
+        "website": "www.Grandmamacafe.com"
+      }
+    },
+    {
       "url": "https://www.instagram.com/grandmama.store/",
       "meta": {
         "name": "🎐婆婆雜貨店 🎏 Grandmama.store",
-        "about": "「若無閒事掛心頭，便是人間好時節。」🎨\n👵🏻《婆婆衣櫥》@grandmama.closet\n❀ 購買🛒｜網站自助下單\n❀ 交收🚚｜順豐到付或雜貨店自取\n❀ 聯絡📱｜Wtsapp 92616654\n-\n✿ 營業時間:\n星期一至日 13:00-19:00\n✿ 實體店:\n觀塘駿業里8號世貿大樓1105室"
+        "about": "「若無閒事掛心頭，便是人間好時節。」〠\n👵🏻《婆婆衣櫥》 @grandmama.closet\n🍮 《婆婆珈琲屋》 @grandmama.cafe\n❀ 購買🛒｜網站自助下單\n❀ 聯絡📱｜ 92616654\n-\n✿ 營業時間:\n星期一至日 13:00-19:00\n✿ 實體店:\n觀塘世貿大樓1105室"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/grandmama.cafe/",
+      "meta": {
+        "name": "婆婆珈琲屋 Grandmama Cafe",
+        "about": "#婆婆珈琲屋 試業階段｜歡迎網站預約｜位於山林道，初衷是建立一個鑒賞家品器具的空間，讓都市人的心，從繁忙的工作瑣事中，帶回到生活細節，重新感受質感選物美學。🎏\n#grandmamacafe\n雜貨店 @grandmama.store\n婆婆衣櫥 @grandmama.closet"
       }
     }
   ],
@@ -94,12 +124,17 @@
   ],
   "tags": [
     "shop",
-    "clothing"
+    "clothing",
+    "cafe"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 225
+    },
+    {
+      "type": "shop",
+      "id": 5637
     }
   ],
   "places": [
@@ -114,6 +149,19 @@
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "en": "1/F, The Nate, 176 Nathan Rd, Tsim Sha Tsui, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJ59Dv0CIBBDQRfYZWJtOIVuA",
+      "coordinates": {
+        "lat": 22.3025509,
+        "lng": 114.1721049
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     }
   ]
