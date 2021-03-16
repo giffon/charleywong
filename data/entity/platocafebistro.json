@@ -23,7 +23,7 @@
         "emails": [
           "platocafebistro@gmail.com"
         ],
-        "single_line_address": "油麻地彌敦道483-485A號2樓, 852 Hong Kong, Hong Kong"
+        "single_line_address": "油麻地彌敦道483-485A號2樓, Hong Kong, Hong Kong"
       },
       "url": "https://www.facebook.com/platocafebistro/"
     },
@@ -35,12 +35,12 @@
         "about": "Plato Cafe Bistro乃追求用心製作好食品、咖啡及飲品給每一位客人，餐廳主要提供意式食品如Pasta、Pizza及Risotto，還有其他如優質美國安格斯肉眼牛排、羊排、法國春雞等美食。 ",
         "category_list": [
           {
-            "id": "273819889375819",
-            "name": "Restaurant"
-          },
-          {
             "id": "128673187201735",
             "name": "Coffee Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
           }
         ],
         "single_line_address": "九龍佐敦吳松街186號至188號地下, 852 Hong Kong, Hong Kong"
@@ -49,20 +49,24 @@
     },
     {
       "meta": {
-        "id": "505136319562074",
+        "id": "1167093253366374",
         "username": "plato.yaumatei",
         "name": "Plato",
         "about": "油麻地彌敦道448-452A號眾坊街文豪閣地下D舖 (中華書局旁) \nShop D, G/F Man Hoo Court, 448-452A Nathan Road, Yau Ma Tei, Yau Ma Tei, Hong Kong",
         "category_list": [
           {
-            "id": "197227066968500",
-            "name": "Continental Restaurant"
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
           }
         ],
         "emails": [
           "plato_yaumatei@yahoo.com"
         ],
-        "single_line_address": "Shop D, G/F Man Hoo Court, 448-452A Nathan Road, Yau Ma Tei, Hong Kong Yau Ma Tei"
+        "single_line_address": "Shop D, G/F Man Hoo Court, 448-452A Nathan Road, Yau Ma Tei, Yau Ma Tei, Hong Kong"
       },
       "url": "https://www.facebook.com/plato.yaumatei/"
     },
