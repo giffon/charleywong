@@ -20,6 +20,16 @@
         "single_line_address": "長沙灣保安道65號美寧中心D座地下D3號舖, 852 Hong Kong, Hong Kong"
       },
       "url": "https://www.facebook.com/expske/"
+    },
+    {
+      "url": "https://www.instagram.com/explosionskewer/",
+      "meta": {
+        "name": "串爆里居酒屋",
+        "about": "訂枱電話25059968 / 62824808"
+      }
+    },
+    {
+      "url": "https://mewe.com/p/explosionskewer%E4%B8%B2%E7%88%86%E9%87%8Cdeep%E4%BB%94"
     }
   ],
   "posts": [
@@ -40,6 +50,21 @@
     {
       "type": "eat",
       "id": 45
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "長沙灣保安道65號美寧中心D座地下D3號舖"
+      },
+      "googleMapsPlaceId": "ChIJAQBER0wHBDQR_1WfiBoRkDE",
+      "coordinates": {
+        "lat": 22.336965,
+        "lng": 114.159843
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ]
 }
