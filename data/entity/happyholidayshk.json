@@ -19,6 +19,13 @@
         "single_line_address": "銅鑼灣渣甸街36號5號舖, 852 Causeway Bay, Hong Kong"
       },
       "url": "https://www.facebook.com/happyholidayshk/"
+    },
+    {
+      "url": "https://www.instagram.com/happy_holidays_hk/",
+      "meta": {
+        "name": "幸福週末",
+        "about": "把高雄簡樸美好的風味傳到香港，是時候放下忙碌的事情，相聚分享甜美滋味。你準備好在週末的時候停下腳步歇息了嗎？幸福週末正式為您開啟\n#幸福過末\n【幸福週末】\n旺角：旺角T.O.P.五樓 503舖\n長沙灣：￼青山道413號 foodCreative￼\n將軍澳：新都城中心三期G106舖"
+      }
     }
   ],
   "posts": [
@@ -36,6 +43,47 @@
     {
       "type": "eat",
       "id": 1277
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角T.O.P.五樓 503舖"
+      },
+      "googleMapsPlaceId": "ChIJhXTLe4UBBDQRS9hV0CQdTHo",
+      "coordinates": {
+        "lat": 22.3205525,
+        "lng": 114.1695058
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "青山道413號 foodCreative"
+      },
+      "googleMapsPlaceId": "ChIJRRmKRLsHBDQRmXzf6wHFFPA",
+      "coordinates": {
+        "lat": 22.3397826,
+        "lng": 114.1544241
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "新都城中心三期G106舖"
+      },
+      "googleMapsPlaceId": "ChIJmTkAVAkEBDQRXTEgyg0-6ac",
+      "coordinates": {
+        "lat": 22.3224373,
+        "lng": 114.2568234
+      },
+      "area": {
+        "zh": "西貢區"
+      }
     }
   ]
 }
