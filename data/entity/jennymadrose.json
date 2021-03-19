@@ -1,9 +1,13 @@
 {
   "id": "jennymadrose",
   "name": {
-    "en": "jennymadrose"
+    "en": "jennymadrose",
+    "zh": "皂乜呀"
   },
   "webpages": [
+    {
+      "url": "https://www.jennymadrose.com"
+    },
     {
       "meta": {
         "id": "322020744666226",
@@ -31,11 +35,19 @@
       "url": "https://www.instagram.com/jennymadrose/",
       "meta": {
         "name": "Rosa",
-        "about": "D2 Place One 1/F Kiosk 3\nTaikoo Eslite Spectrum L118A\nwww.jennymadrose.com\nWhatsapp: (+852) 91240325"
+        "about": "D2 Place One 1/F Kiosk 3\nTaikoo Eslite Spectrum L118A\nwww.jennymadrose.com\nWhatsapp: (+852) 94557198"
       }
     },
     {
-      "url": "https://www.jennymadrose.com"
+      "url": "https://www.youtube.com/channel/UCzACri2CY3Pwtm3rMNagD6Q",
+      "meta": {
+        "id": "UCzACri2CY3Pwtm3rMNagD6Q",
+        "name": "jenny mad rose",
+        "about": ""
+      }
+    },
+    {
+      "url": "https://mewe.com/p/jennymadrose"
     }
   ],
   "posts": [
@@ -61,6 +73,34 @@
     {
       "type": "shop",
       "id": 127
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港荔枝角長義街9 號D2 Place One 1 樓Kiosk3"
+      },
+      "googleMapsPlaceId": "ChIJj5FUllQHBDQRpNX19tjGfg8",
+      "coordinates": {
+        "lat": 22.3361152,
+        "lng": 114.1489435
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "太古城道18號太古城中心1/F 144鋪L118A"
+      },
+      "googleMapsPlaceId": "ChIJmSh2R6MBBDQRelom2tRhhEc",
+      "coordinates": {
+        "lat": 22.285745,
+        "lng": 114.217909
+      },
+      "area": {
+        "zh": "東區"
+      }
     }
   ]
 }
