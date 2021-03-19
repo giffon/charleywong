@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.where-s.com"
+    },
+    {
       "meta": {
         "id": "1723964264491874",
         "username": "whereshk",
@@ -32,7 +35,11 @@
       "url": "https://www.facebook.com/whereshk/"
     },
     {
-      "url": "https://www.instagram.com/where_s_/"
+      "url": "https://www.instagram.com/where_s_/",
+      "meta": {
+        "name": "WHERESDesignStore 集結本地創意設計品牌",
+        "about": "推動創意文化，積極引進手作及創意品牌\n• 葵芳 新都會 1樓 175舖\n• 荃灣 海之戀 2樓 2039-41B舖\n• 北角 和富中心 G09\n• 旺角 TOP 110-111舖\n• 旺角 MOKO 138舖\n• 上環PMQ B座H203\n🛒 Shop Online"
+      }
     }
   ],
   "posts": [
@@ -52,6 +59,86 @@
     {
       "type": "shop",
       "id": 2203
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍 旺角 彌敦道700號 T.O.P 1樓110-111舖"
+      },
+      "googleMapsPlaceId": "ChIJVVVlG8cABDQRh4csoD1ScK4",
+      "coordinates": {
+        "lat": 22.3206,
+        "lng": 114.1694808
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍 旺角 太子道西193號 MOKO新世紀廣場 1樓138舖"
+      },
+      "googleMapsPlaceId": "ChIJjZHdY9oBBDQRX4X1Er-kB9c",
+      "coordinates": {
+        "lat": 22.323,
+        "lng": 114.171981
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "新界 葵涌 興芳路223號 新都會廣場 175舖"
+      },
+      "googleMapsPlaceId": "ChIJAQBQxkUBBDQRxftbc_KnMkc",
+      "coordinates": {
+        "lat": 22.3576105,
+        "lng": 114.1266337
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "新界 荃灣 大河道100號 海之戀商場 2樓 2039-2041B舖"
+      },
+      "googleMapsPlaceId": "ChIJ8UfdqCr5AzQR3LxX-9B_UYk",
+      "coordinates": {
+        "lat": 22.3680845,
+        "lng": 114.1106576
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "中環 鴨巴甸街35號 PMQ B座 H203室"
+      },
+      "googleMapsPlaceId": "ChIJq6q6jXsABDQRstiV2TVhFpE",
+      "coordinates": {
+        "lat": 22.283517,
+        "lng": 114.1516312
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港島 北角 和富道21-53號 和富中心 地下G09舖"
+      },
+      "googleMapsPlaceId": "ChIJh-fXEAMBBDQRlONSnIWK0Go",
+      "coordinates": {
+        "lat": 22.2919619,
+        "lng": 114.1954428
+      },
+      "area": {
+        "zh": "東區"
+      }
     }
   ]
 }
