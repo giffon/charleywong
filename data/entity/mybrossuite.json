@@ -1,0 +1,85 @@
+{
+  "id": "mybrossuite",
+  "name": {
+    "zh": "糖兄弟甜品屋",
+    "en": "MY BROS SUITE"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/256660354499135/",
+      "meta": {
+        "id": "256660354499135",
+        "name": "糖兄弟甜品屋 MY BROS SUITE",
+        "about": "糖兄弟甜品屋宗旨是希望帶給每一位顧客都甜甜蜜蜜感覺",
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "219222658110242",
+            "name": "Smoothie & Juice Bar"
+          }
+        ],
+        "single_line_address": "SHOP 419 LOK HIN TERRACE 350 CHAI WAN ROAD, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/mybrossuite/",
+      "meta": {
+        "name": "糖兄弟甜品屋",
+        "about": "柴灣。樂軒台。東區人專用吹水區"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=1454285821403243&id=256660354499135",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=1633171620181328&id=256660354499135",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=1643783762453447&id=256660354499135",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=1686956118136211&id=256660354499135",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "SHOP 419 LOK HIN TERRACE 350 CHAI WAN ROAD"
+      },
+      "googleMapsPlaceId": "ChIJO-qLeSgCBDQRmy7Elld5aBc",
+      "coordinates": {
+        "lat": 22.264322,
+        "lng": 114.2415304
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 705
+    }
+  ]
+}
