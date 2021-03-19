@@ -6,7 +6,7 @@
   },
   "webpages": [
     {
-      "url": "http://floroma.net"
+      "url": "https://floroma.net"
     },
     {
       "meta": {
@@ -27,6 +27,13 @@
         "website": "http://floroma.net "
       },
       "url": "https://www.facebook.com/myfloroma/"
+    },
+    {
+      "url": "https://www.instagram.com/myfloroma/",
+      "meta": {
+        "name": "Floroma 花の滴 - 全港首創･醒神筆･功能性香水",
+        "about": "花の滴是知名香港原創手工香水品牌，曾獲多個媒體報導，皇牌香水包括白蘭花、薑花、桂花、茉莉花、水仙香水等￼。￼￼花之滴亦有舉辦香水班和婚姻香水吧。歡迎查詢！\nFB: myfloroma"
+      }
     }
   ],
   "posts": [
@@ -42,5 +49,20 @@
   ],
   "tags": [
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "柴灣嘉業街12號百樂門大廈1302室"
+      },
+      "googleMapsPlaceId": "ChIJMYsvMCkCBDQRA_cuA2baw9U",
+      "coordinates": {
+        "lat": 22.2678758,
+        "lng": 114.2444196
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
   ]
 }
