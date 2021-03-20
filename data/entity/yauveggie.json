@@ -1,0 +1,79 @@
+{
+  "id": "yauveggie",
+  "name": {
+    "en": "Yau Veggie Bistro",
+    "zh": "游°"
+  },
+  "webpages": [
+    {
+      "url": "https://www.yauveggie.com"
+    },
+    {
+      "url": "https://www.instagram.com/yauveggie/",
+      "meta": {
+        "name": "游°",
+        "about": "Yau Veggie Bistro🥂\nReservations are welcome.\nPlease whatsapp to 6899 0989"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/yauveggie/",
+      "meta": {
+        "id": "108426967416007",
+        "username": "yauveggie",
+        "name": "Yau Veggie Bistro",
+        "about": "游°\nYau Veggie Bistro",
+        "category_list": [
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
+        ],
+        "single_line_address": "Shop C, 16 South Lane, Western District, 香港",
+        "website": "http://www.yauveggie.com"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/yauveggie/posts/146294556962581",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/yauveggie/posts/148696693389034",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "vegeterian",
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop C, 16 South Lane, Western District"
+      },
+      "googleMapsPlaceId": "ChIJc71QA_f_AzQRGtETjXg_65w",
+      "coordinates": {
+        "lat": 22.2857401,
+        "lng": 114.1340201
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5627
+    }
+  ]
+}
