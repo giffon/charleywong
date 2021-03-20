@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.lesplayhk.com"
+      "url": "https://www.lesplayhk.com"
     },
     {
       "meta": {
@@ -29,7 +29,8 @@
     },
     {
       "meta": {
-        "about": "- For Girls by Girls\n- Intimate Store | Sex Edu | Workshop\n📍尖沙咀嘉蘭圍5-11號利時商業大廈13樓1305室\n🕚 平日2-10PM | 六日12-8PM\n📱91353594\n產品目錄 @lesplay_catalog"
+        "name": "Les'Play HK💋女性情趣用品店 | 尖沙咀門市",
+        "about": "- For Girls by Girls\n- Intimate Store | Sex Edu | Workshop\n📍尖沙咀加連威老道26號一樓\n🕚 一至日 | 2-10PM\n📱91353594\n產品目錄 @lesplay_catalog\n歡迎任何性別朋友到訪門市"
       },
       "url": "https://www.instagram.com/lesplay_hk/"
     }
@@ -50,6 +51,21 @@
     {
       "type": "shop",
       "id": 297
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀加連威老道26號一樓"
+      },
+      "googleMapsPlaceId": "ChIJuYcUeO4ABDQR99y9jj4iIXA",
+      "coordinates": {
+        "lat": 22.299899,
+        "lng": 114.1739731
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
