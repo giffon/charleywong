@@ -135,7 +135,13 @@ class Facebook {
                     case fb:
                         var id = if (p.meta != null) p.meta["id"] else null;
                         getPageInfo(id != null ? 'https://www.facebook.com/${id}/' : fb)
-                            .then(info -> p.meta = cast info)
+                            .then(info -> {
+                                p.meta = cast info;
+                                p.url = "https://www.facebook.com/" + (switch (p.meta["username"]) {
+                                    case null: p.meta["id"];
+                                    case username: username;
+                                }) + "/";
+                            })
                             .catchError(err -> {
                                 trace('Failed to get page info of $fb\n$err');
                             });
