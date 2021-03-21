@@ -8,18 +8,30 @@
       "url": "https://www.homealone.com.hk"
     },
     {
-      "url": "https://www.facebook.com/homealonehk/",
+      "url": "https://www.facebook.com/homealone.com.hk/",
       "meta": {
-        "name": "Homealone",
         "id": "394892681359276",
+        "username": "homealone.com.hk",
+        "name": "Homealone",
         "about": "​We have a collection of solid wood furniture that are perfect for your space. This gorgeous line of product is perfect for open spaces and add some stunning touches to your home or office.",
-        "categories": [
-          "Furniture Store",
-          "Interior Design Studio",
-          "Home Decor"
+        "category_list": [
+          {
+            "id": "162845797101278",
+            "name": "Furniture Store"
+          },
+          {
+            "id": "199438050070864",
+            "name": "Interior Design Studio"
+          },
+          {
+            "id": "192647794097278",
+            "name": "Home Decor"
+          }
         ],
-        "email": "fb@homealone.com.hk",
-        "tel": "91699295"
+        "emails": [
+          "fb@homealone.com.hk"
+        ],
+        "website": "www.homealone.com.hk"
       }
     }
   ],
