@@ -9,17 +9,26 @@
     },
     {
       "meta": {
-        "name": "yOURSFurniture",
         "id": "310332752802465",
-        "about": "It was founded with an ambition to source a collection of contemporary furniture created by talents all over the world. We hope to create a life concept. A life concept of YOURS.",
-        "categories": [
-          "Furniture",
-          "Furniture Store"
+        "username": "yOURSFurniture",
+        "name": "yOURSFurniture",
+        "about": "\"y\" OURS to be YOURS\n\nyOURS名字由來，是「why ours to be yours」，yOURS想帶出的信息是透過我們之「搜」，把世界各地的具質素的現成傢具，照顧到不一樣的客人。",
+        "category_list": [
+          {
+            "id": "2219",
+            "name": "Furniture"
+          },
+          {
+            "id": "162845797101278",
+            "name": "Furniture Store"
+          }
         ],
-        "email": "yoursfurniture@outlook.com",
-        "tel": "57446905"
+        "emails": [
+          "info@yoursfurniture.com.hk"
+        ],
+        "website": "www.yoursfurniture.com.hk/"
       },
-      "url": "https://www.facebook.com/yOURSLifeConceptStore/"
+      "url": "https://www.facebook.com/yOURSFurniture/"
     },
     {
       "url": "https://www.facebook.com/311336092889868/",
