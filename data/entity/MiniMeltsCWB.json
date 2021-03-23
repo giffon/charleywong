@@ -1,8 +1,7 @@
 {
   "id": "MiniMeltsCWB",
   "name": {
-    "zh": "粒粒雪糕 (銅鑼灣)",
-    "en": "Mini Melts (CWB)"
+    "zh": "慢活。瞬間 (粒粒雪糕)"
   },
   "webpages": [
     {
@@ -20,17 +19,24 @@
         ],
         "single_line_address": "長洲新興海傍街11號地下, 852"
       }
+    },
+    {
+      "url": "https://www.instagram.com/minimelts_cheungchau/",
+      "meta": {
+        "name": "慢活。瞬間",
+        "about": "做一啲你想做嘅事、過一啲你想過嘅生活，可以好簡單，不用太複雜！即使「瞬間」亦好"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/MiniMeltsCWB/posts/2336006243315254",
+      "url": "https://www.facebook.com/1926935520888997/posts/2336006243315254",
       "meta": {
         "sharedWith": "Public"
       }
     },
     {
-      "url": "https://www.facebook.com/MiniMeltsCWB/posts/2567708590145017",
+      "url": "https://www.facebook.com/1926935520888997/posts/2567708590145017",
       "meta": {
         "sharedWith": "Public"
       }
@@ -42,15 +48,15 @@
   "places": [
     {
       "address": {
-        "en": "Kiosk 13, 1/F Fashion Walk"
+        "zh": "長洲新興海傍街11號地下"
       },
-      "googleMapsPlaceId": "ChIJ6TgnnFYABDQRk11zTZIABvY",
+      "googleMapsPlaceId": "EiwxMSBTYW4gSGluZyBQcmF5YSBTdCwgQ2hldW5nIENoYXUsIEhvbmcgS29uZyIwEi4KFAoSCb3SRqGNVgE0Ecm1xhJ5-GhOEAsqFAoSCQvB1J6NVgE0Ebl7LAx1s9ax",
       "coordinates": {
-        "lat": 22.280815,
-        "lng": 114.1852378
+        "lat": 22.2095342,
+        "lng": 114.0285401
       },
       "area": {
-        "zh": "灣仔區"
+        "zh": "離島區"
       }
     }
   ],
