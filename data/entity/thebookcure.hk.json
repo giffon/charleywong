@@ -27,6 +27,12 @@
         "single_line_address": "新界大埔寶湖道街市F021, NIL Hong Kong, Hong Kong"
       },
       "url": "https://www.facebook.com/thebookcure.hk/"
+    },
+    {
+      "url": "https://www.instagram.com/thebookcure.hk/",
+      "meta": {
+        "name": "The Book Cure"
+      }
     }
   ],
   "posts": [
@@ -42,6 +48,21 @@
     {
       "type": "shop",
       "id": 520
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新界大埔寶湖道街市F021"
+      },
+      "googleMapsPlaceId": "ChIJd4J6UUcIBDQRv64-POD__CY",
+      "coordinates": {
+        "lat": 22.4495182,
+        "lng": 114.1683226
+      },
+      "area": {
+        "zh": "大埔區"
+      }
     }
   ]
 }
