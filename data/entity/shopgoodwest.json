@@ -1,11 +1,43 @@
 {
   "id": "shopgoodwest",
   "name": {
-    "zh": "買好西"
+    "zh": "夠薑辦館"
   },
   "webpages": [
     {
-      "url": "https://shopgoodwest.com"
+      "url": "https://www.feelguts.com"
+    },
+    {
+      "url": "https://shopgoodwest.com",
+      "hidden": true
+    },
+    {
+      "url": "https://www.facebook.com/feelgutsshopping/",
+      "meta": {
+        "id": "106906537811494",
+        "username": "feelgutsshopping",
+        "name": "夠薑辦館",
+        "about": "【夠薑辦館Feel Guts】是一間以香港為家的網上購物平台，由網上內容平台Tagcircle於2020年4月成立。\n\n我們有一個信念，希望與你一起尋回那我們以曾相識的舊香港、老香港。\n\n",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "1756049968005436",
+            "name": "E-commerce Website"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
+        ],
+        "emails": [
+          "feelgutsshopping@gmail.com"
+        ],
+        "single_line_address": "旺角廣東道998號協成行旺角中心3樓全層",
+        "website": "http://feelguts.com"
+      }
     },
     {
       "url": "https://www.facebook.com/feelguts/",
@@ -23,17 +55,24 @@
         "single_line_address": "Mong Kok, Hong Kong",
         "website": "https://www.feelguts.com"
       }
+    },
+    {
+      "url": "https://www.instagram.com/feelguts/",
+      "meta": {
+        "name": "夠薑辦館",
+        "about": "我們有一個信念，希望與你一起尋回那我們以曾相識的舊香港、老香港。\n夠薑、本土，是我們的理念。\n願我們一起堅持，讓光芒再現香江，讓正義再次在香江體現，在那時刻，在約定的地點相見。"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/shopgoodwest/posts/3163151313695357",
+      "url": "https://www.facebook.com/1902873583056476/posts/3163151313695357",
       "meta": {
         "sharedWith": "Public"
       }
     },
     {
-      "url": "https://www.facebook.com/shopgoodwest/posts/3330931376917349",
+      "url": "https://www.facebook.com/1902873583056476/posts/3330931376917349",
       "meta": {
         "sharedWith": "Public"
       }
@@ -50,6 +89,21 @@
     {
       "type": "shop",
       "id": 2409
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角廣東道998號協成行旺角中心3樓全層"
+      },
+      "googleMapsPlaceId": "ChIJx7IqgrgABDQRma4whMhqSkY",
+      "coordinates": {
+        "lat": 22.317289,
+        "lng": 114.167706
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
