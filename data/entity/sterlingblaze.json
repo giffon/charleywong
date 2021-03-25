@@ -31,6 +31,13 @@
         "website": "http://sterlingblaze.blogspot.com/"
       },
       "url": "https://www.facebook.com/sterlingblaze/"
+    },
+    {
+      "url": "https://www.instagram.com/sterling_blaze/",
+      "meta": {
+        "name": "Sterling Blaze 火樹銀花",
+        "about": "Handmade Silver Jewelry\nAll The Way From Hong Kong"
+      }
     }
   ],
   "posts": [
@@ -48,6 +55,21 @@
     {
       "type": "shop",
       "id": 1558
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "火炭坳背灣街49-51號協力工業大廈十四樓01室"
+      },
+      "googleMapsPlaceId": "ChIJ9bhh8jQGBDQRsKRG_xHNZlU",
+      "coordinates": {
+        "lat": 22.3983957,
+        "lng": 114.1936315
+      },
+      "area": {
+        "zh": "沙田區"
+      }
     }
   ]
 }
