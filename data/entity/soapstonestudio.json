@@ -30,6 +30,7 @@
     },
     {
       "meta": {
+        "name": "Stella 庭榛",
         "about": "[dusty silence] Soapstone art in HK & Taipei\nOnline shop : Pinkoi/Creema |\nWorkshop•Cooperation•Order Inquiry |\nFacebook: 軟石工作室"
       },
       "url": "https://www.instagram.com/soapstonestudio/"
@@ -52,6 +53,21 @@
     {
       "type": "shop",
       "id": 2362
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "淡水區中正路一段6巷32-2號淡水古蹟博物館"
+      },
+      "googleMapsPlaceId": "ChIJQTG3ZwPEDRQR3jC4yQz7DYw",
+      "coordinates": {
+        "lat": 25.1786873,
+        "lng": 121.4313068
+      },
+      "area": {
+        "zh": "臺灣"
+      }
     }
   ]
 }
