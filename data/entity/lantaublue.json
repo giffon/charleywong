@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.lantaublue.com"
+    },
+    {
       "meta": {
         "id": "631803833564987",
         "username": "lantaublue",
@@ -32,6 +35,13 @@
         "website": "www.lantaublue.com"
       },
       "url": "https://www.facebook.com/lantaublue/"
+    },
+    {
+      "url": "https://www.instagram.com/lantaublue/",
+      "meta": {
+        "name": "片藍造",
+        "about": "香港初代手工藍染的工房生活記事,大嶼山美麗的辛酸事 慢式生活節奏 查詢請聯絡官方網頁"
+      }
     }
   ],
   "posts": [
@@ -43,5 +53,20 @@
     "clothing",
     "accessories",
     "handcraft"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港大嶼山南部石壁大浪灣村"
+      },
+      "googleMapsPlaceId": "ChIJZ9_fchVZATQRgLYmUEOB7-c",
+      "coordinates": {
+        "lat": 22.221888,
+        "lng": 113.883613
+      },
+      "area": {
+        "zh": "離島區"
+      }
+    }
   ]
 }
