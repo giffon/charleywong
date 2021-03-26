@@ -5,19 +5,23 @@
   },
   "webpages": [
     {
-      "url": "https://www.facebook.com/gingerspalimited/",
+      "url": "https://www.facebook.com/ourgrandspa/",
       "meta": {
-        "name": "V Spa Centre",
         "id": "109773533744624",
-        "about": "We love life, we love spa~\n生活係一種態度,生活亦係一種享受~\n可以起忙碌生活中好好放鬆自己\n享受生活, 呢一刻由 V Spa 開始~",
-        "categories": [
-          "Sports & Recreation",
-          "Health/Beauty",
-          "Product/Service"
+        "username": "ourgrandspa",
+        "name": "薑Spa",
+        "about": "我們的薑療薰蒸\n來一個養生寐息\n懶人運動薰蒸45分鐘=跑步一小時\n生薑能驅寒抗病、抗衰老\n薑Spa透過蒸氣將薑的療癒成分帶出。促進人體血液循環，幫助去水腫，驅走體內濕氣。\n\n",
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
         ],
-        "addr": "尖沙咀寶勒巷27號東匯商業大廈9樓",
-        "area": "Kowloon, Hong Kong",
-        "tel": "56822862"
+        "single_line_address": "尖沙咀寶勒巷27號東匯商業大廈9樓, Hong Kong, Hong Kong"
       }
     }
   ],
