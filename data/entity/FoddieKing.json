@@ -1,9 +1,13 @@
 {
   "id": "FoddieKing",
   "name": {
-    "zh": "放題"
+    "zh": "放題",
+    "en": "Foddie King"
   },
   "webpages": [
+    {
+      "url": "https://foodie-king.com"
+    },
     {
       "url": "https://www.facebook.com/FoddieKing/",
       "meta": {
@@ -25,6 +29,13 @@
           }
         ]
       }
+    },
+    {
+      "url": "https://www.instagram.com/foodie.king.hk/",
+      "meta": {
+        "name": "foodie.king.hk",
+        "about": "香港人放題、香港人自己攪🇭🇰\n100% Operated by Hong Konger\n.\n不定期舉辦：「時令食品放題」\n.\n今期我地搵左本地製街頭小食。\n.\n詳情可以參閱以下網址👇🏻👇🏻👇🏻"
+      }
     }
   ],
   "posts": [
@@ -35,10 +46,7 @@
       }
     },
     {
-      "url": "https://www.facebook.com/FoddieKing/posts/113490070407425",
-      "meta": {
-        "sharedWith": "Public"
-      }
+      "url": "https://www.instagram.com/p/CGF8vvBB5fF/"
     }
   ],
   "tags": [
