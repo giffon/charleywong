@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.qualichef.store"
+    },
+    {
       "url": "https://www.facebook.com/379439455931133/",
       "meta": {
         "id": "379439455931133",
@@ -65,12 +68,51 @@
   "places": [
     {
       "address": {
-        "zh": "觀塘曉麗苑商場220A&B店 (百佳對面)"
+        "zh": "觀塘曉麗苑商場220A&B店"
       },
       "googleMapsPlaceId": "ChIJhyiQ_3wBBDQRmBjjQwb-xaI",
       "coordinates": {
         "lat": 22.3209622,
         "lng": 114.2291209
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "火炭穗禾苑商場地下G28號鋪"
+      },
+      "googleMapsPlaceId": "ChIJzVLA-EoGBDQRHJIGOkw1j-4",
+      "coordinates": {
+        "lat": 22.391994,
+        "lng": 114.194363
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "火炭黃竹洋街1-3號裕昌中心4樓L室"
+      },
+      "googleMapsPlaceId": "ChIJu9-qz8oHBDQRKIVAUKTHZNQ",
+      "coordinates": {
+        "lat": 22.3968892,
+        "lng": 114.1910307
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘茶果嶺道95號麗港中心商場31號舖"
+      },
+      "googleMapsPlaceId": "ChIJd1EPVlsBBDQRCsmIsGC7ScM",
+      "coordinates": {
+        "lat": 22.305463,
+        "lng": 114.227558
       },
       "area": {
         "zh": "觀塘區"
@@ -81,6 +123,18 @@
     {
       "type": "shop",
       "id": 131
+    },
+    {
+      "type": "shop",
+      "id": 5690
+    },
+    {
+      "type": "shop",
+      "id": 5691
+    },
+    {
+      "type": "shop",
+      "id": 5692
     }
   ]
 }
