@@ -35,20 +35,32 @@
         "website": "https://upcyclingplus.wixsite.com/mysite"
       },
       "url": "https://www.facebook.com/up.cycling.plus/"
+    },
+    {
+      "url": "https://www.instagram.com/up.cycling.plus/",
+      "meta": {
+        "name": "流動架生房 UpCycling Plus",
+        "about": "ㅿ工藝共學ㅿ永續設計ㅿ舊年代美學\nCargo bike maker | Eco craft and design\n✒ Shop and bike tour : @commonsensehsk\n✒ 學校/機構/個人工作坊歡迎inbox 預約\n📷訂閱單車生活小誌《踩住 Zine》："
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC6fciXzBVLLxgLWAGzZvD6w",
+      "meta": {
+        "id": "UC6fciXzBVLLxgLWAGzZvD6w",
+        "name": "UpCycling Plus流動架生房",
+        "about": "‘Moving Gacang’ is the first innovation of cargo bike with tools library attached that promote social and urban mobility through upcycling and cycling in Hong Kong and greater bay area. It is a co-learning platform to facilitate upcycling design and craft from everyday products to community facilities. With the vision to present the ‘Made in Hong Kong’ cargo bike to the world, Moving Gacang will be exhibited in the innovation expo at the International Cargo bike Festival in Groningen, Netherland. Through experience and document the conference on improving city logistics, cargo bike Parade and race, volunteering workshops and site visit with makers overseas, the research will be contributing to the enhancement of upcycling workshops and community-building projects in Hong Kong and the region. We aim to bring creativity, vintage aesthetics and traditional craftsmanship to the public, creating more possibilities in our lives and community. And most importantly, turn wastes into improved t"
+      }
     }
   ],
   "posts": [
     {
+      "url": "https://www.facebook.com/up.cycling.plus/photos/a.872129639638839/1170314069820393"
+    },
+    {
       "url": "https://www.facebook.com/up.cycling.plus/photos/a.872129639638839/1250950125090120"
     },
     {
-      "url": "https://www.facebook.com/up.cycling.plus/photos/a.872129639638839/1252147838303682"
-    },
-    {
       "url": "https://www.facebook.com/up.cycling.plus/videos/2528038100757508"
-    },
-    {
-      "url": "https://www.facebook.com/up.cycling.plus/photos/a.872129639638839/1170314069820393"
     }
   ],
   "tags": [
@@ -59,6 +71,21 @@
     {
       "type": "shop",
       "id": 2255
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "洪水橋丹桂村路1號"
+      },
+      "googleMapsPlaceId": "ChIJNYCRlXr7AzQR1dlL0B1D3EI",
+      "coordinates": {
+        "lat": 22.432537,
+        "lng": 113.9972106
+      },
+      "area": {
+        "zh": "元朗區"
+      }
     }
   ]
 }
