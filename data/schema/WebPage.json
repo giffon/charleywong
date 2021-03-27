@@ -56,6 +56,9 @@
         },
         {
             "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/forms\\.gle\/)" } }
+        },
+        {
+            "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/goo\\.gl\/)" } }
         }
     ]
 }
