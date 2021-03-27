@@ -1,0 +1,81 @@
+{
+  "id": "fishpothk",
+  "name": {
+    "zh": "魚鍋小甜甜",
+    "en": "Fish Pot Sichuan Restaurant"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/fishpothk/",
+      "meta": {
+        "id": "152092014939944",
+        "username": "fishpothk",
+        "name": "魚鍋小甜甜 Fish Pot Sichuan Restaurant",
+        "about": "《魚鍋小甜甜》從前筲箕灣的大排檔，現在的平民小餐館，見證著小區的變遷。每日選取新鮮及優質食材，配搭不同香料，用心巧製出既健康又珍味的精品菜色。",
+        "category_list": [
+          {
+            "id": "1176594779059495",
+            "name": "Hot Pot Restaurant"
+          },
+          {
+            "id": "1748542362059803",
+            "name": "Szechuan/Sichuan Restaurant"
+          }
+        ],
+        "emails": [
+          "fishpothk@gmail.com"
+        ],
+        "single_line_address": "114 Main Street East, Shau Kei Wan"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/fishpothk/",
+      "meta": {
+        "name": "魚鍋小甜甜FishPotSichuanRestaurant",
+        "about": "(1) #魚鍋小甜甜 (#筲箕灣)\nTel: 2967-6868\n東大街114號地舖 (上午11時半-零晨4時)\n望隆街14號地舖(晚上7時-晚上11時)\n(2) #魚鈁 (#深水埗)\nTel: 2967-6768\n深水埗欽州街58號1樓 (上午11時-零晨4時)\n#深水埗美食"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "東大街114號地舖"
+      },
+      "googleMapsPlaceId": "ChIJgRU-YXgBBDQRpJYhGtO0RFI",
+      "coordinates": {
+        "lat": 22.2784646,
+        "lng": 114.2300946
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "望隆街14號地舖"
+      },
+      "googleMapsPlaceId": "ChIJiYAZYXgBBDQRJmDYqdIAlAo",
+      "coordinates": {
+        "lat": 22.2783401,
+        "lng": 114.2298725
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 883
+    },
+    {
+      "type": "eat",
+      "id": 884
+    }
+  ]
+}
