@@ -27,10 +27,45 @@
       }
     },
     {
+      "url": "https://www.facebook.com/zbfghk.store/",
+      "meta": {
+        "id": "103755725091247",
+        "username": "zbfghk.store",
+        "name": "紙本分格 - 實體店",
+        "about": "Print is not dead.\n支持實體漫畫書。",
+        "category_list": [
+          {
+            "id": "1300",
+            "name": "Book"
+          },
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
+        ],
+        "emails": [
+          "store.zbfghk@gmail.com"
+        ],
+        "single_line_address": "觀塘敬業街65-67號敬運工業大廈11樓A室, 香港",
+        "website": "https://zbfghk.org/store/"
+      }
+    },
+    {
       "url": "https://www.instagram.com/zbfghk/",
       "meta": {
         "name": "紙本分格",
-        "about": "支持實體漫畫"
+        "about": "支持實體漫畫書"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/zbfghk.store/",
+      "meta": {
+        "name": "紙本分格 - 實體店",
+        "about": "相信漫畫"
       }
     }
   ],
@@ -92,6 +127,22 @@
   ],
   "tags": [
     "book",
-    "media"
+    "media",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港觀塘敬業街 65–67 號敬運工業大廈 11 樓 A 室"
+      },
+      "googleMapsPlaceId": "ChIJ9Zy99gABBDQRmCwkRjweZf4",
+      "coordinates": {
+        "lat": 22.3092654,
+        "lng": 114.2266508
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
