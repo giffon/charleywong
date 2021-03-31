@@ -1,7 +1,7 @@
 {
   "id": "fencingformula",
   "name": {
-    "zh": "劍擊Formula - 兒童劍擊及心態調整課程（兒童遊戲治療課程）"
+    "zh": "劍擊Formula"
   },
   "webpages": [
     {
@@ -34,6 +34,14 @@
         "single_line_address": "土瓜灣炮仗街92號福至坊LG1",
         "website": "http://www.fencingformula.com"
       }
+    },
+    {
+      "url": "https://www.instagram.com/fencing_formula/",
+      "meta": {
+        "name": "劍擊formula - 劍擊及心態調整課程",
+        "about": "如果你只想小朋友學劍擊，你還有其他選擇；如果你想小朋友學劍擊之餘，還學習到良好的心態，選擇我們。"
+      },
+      "hidden": true
     }
   ],
   "posts": [
@@ -41,20 +49,6 @@
       "url": "https://www.facebook.com/fencingformula/photos/a.189306731402770/863536520646451",
       "meta": {
         "utime": "1560498847",
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/fencingformula/photos/a.189306731402770/862091990790904",
-      "meta": {
-        "utime": "1560320165",
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/fencingformula/photos/a.538782083121898/939899436343492",
-      "meta": {
-        "utime": "1570174522",
         "sharedWith": "Public"
       }
     },
@@ -71,20 +65,6 @@
         "utime": "1570275090",
         "sharedWith": "Public"
       }
-    },
-    {
-      "url": "https://www.facebook.com/fencingformula/photos/a.189306731402770/944203542579748",
-      "meta": {
-        "utime": "1570663800",
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/fencingformula/photos/a.538782083121898/973015863031849",
-      "meta": {
-        "utime": "1573377915",
-        "sharedWith": "Public"
-      }
     }
   ],
   "tags": [
@@ -95,6 +75,21 @@
     {
       "type": "shop",
       "id": 2155
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "土瓜灣炮仗街92號福至坊LG1"
+      },
+      "googleMapsPlaceId": "ChIJU6YxTNYABDQRePih_vU46Tw",
+      "coordinates": {
+        "lat": 22.3201018,
+        "lng": 114.1894981
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
     }
   ]
 }
