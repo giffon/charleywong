@@ -767,4 +767,11 @@ class Tag {
             zh: "香港永續經濟聯會企業名冊"
         }
     }
+
+    static public final removed:TagData = {
+        name: {
+            en: "removed",
+            zh: "已移除"
+        }
+    }
 }

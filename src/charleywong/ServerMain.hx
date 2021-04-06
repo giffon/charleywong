@@ -138,6 +138,10 @@ class ServerMain {
             return Promise.resolve(reply.status(404).send('Entity of id $entityId not found.'));
         }
 
+        if (entity.tags.has("removed")) {
+            return Promise.resolve(reply.status(404).send('Entity of id $entityId not found.'));
+        }
+
         if (entityId != entity.id) {
             return Promise.resolve(reply.redirect(entity.id + (returnJson ? ".json" : "")));
         }
