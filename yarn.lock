@@ -2723,10 +2723,10 @@ aws-lambda-fastify@1.4.4:
   resolved "https://registry.yarnpkg.com/aws-lambda-fastify/-/aws-lambda-fastify-1.4.4.tgz#4ee8c823f9c271ff9944be4d8639d3ba1d87dda6"
   integrity sha512-o8BuMHFIHStKUSzp3vwmAjvl3ftjnv4E6SY3f0Sy0jJwH/G81QzfUB3NakSPlnmDZ3CYr2lRvek2+LROT4vtRg==
 
-aws-sdk@^2.881.0:
-  version "2.882.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.882.0.tgz#4742402a94219ff439129acff2087bb59a3e1a48"
-  integrity sha512-MC1tKQdvIBmSQmyFmS6McGGPrN6yvHmhP0SS0ovx+zF/BbvHPTpi5hIgqPSAkdb8/s0I16QtbwiLQgPT2pf1tA==
+aws-sdk@^2.883.0:
+  version "2.884.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.884.0.tgz#dd82338bb2c26201c59ac799abec3d6db51cbe21"
+  integrity sha512-+rhzq7zmntsj4VJRUf0v6ri9vw3dYroy9BbRtbxLHILdnSFPkoqMcodr/pwcUSO5kYEYbCG7mxr5/R2a+cfbxQ==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -6283,10 +6283,10 @@ is-descriptor@^1.0.0, is-descriptor@^1.0.2:
     is-data-descriptor "^1.0.0"
     kind-of "^6.0.2"
 
-is-docker@^2.0.0, is-docker@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/is-docker/-/is-docker-2.2.0.tgz#b037c8815281edaad6c2562648a5f5f18839d5f7"
-  integrity sha512-K4GwB4i/HzhAzwP/XSlspzRdFTI9N8OxJOyOU7Y5Rz+p+WBokXWVWblaJeBkggthmoSV0OoGTH5thJNvplpkvQ==
+is-docker@^2.0.0, is-docker@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/is-docker/-/is-docker-2.2.1.tgz#33eeabe23cfe86f14bde4408a02c0cfb853acdaa"
+  integrity sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ==
 
 is-extendable@^0.1.0, is-extendable@^0.1.1:
   version "0.1.1"
@@ -9123,10 +9123,10 @@ serverless-prune-plugin@1.5.0:
   dependencies:
     bluebird "^3.4.7"
 
-serverless@2.34.0:
-  version "2.34.0"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.34.0.tgz#b96dc7d7286d23b184b339c1194e02536d1331c8"
-  integrity sha512-Lw0MAiWvT3rTrnmi5qD6/Nu8hZ/fSjZyA3wqDD7J+C23Z2zhofdi9PHVLlVwxPWz26UgPMPBRcyCIdMMGztkZA==
+serverless@2.35.0:
+  version "2.35.0"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.35.0.tgz#0250f1a047f154deebd00e127d43d79639c3c47b"
+  integrity sha512-qtPKwZ3bSO/PB9sshKlTO0lgSvk8m0B21XQ3myxr27vVgyF5AL/NKnKDYkEOutFMAWXp5eJS/3OUqaO5uXlq+A==
   dependencies:
     "@serverless/cli" "^1.5.2"
     "@serverless/components" "^3.8.2"
@@ -9135,7 +9135,7 @@ serverless@2.34.0:
     ajv "^6.12.6"
     ajv-keywords "^3.5.2"
     archiver "^5.3.0"
-    aws-sdk "^2.881.0"
+    aws-sdk "^2.883.0"
     bluebird "^3.7.2"
     boxen "^5.0.1"
     cachedir "^2.3.0"
@@ -9156,7 +9156,7 @@ serverless@2.34.0:
     got "^11.8.2"
     graceful-fs "^4.2.6"
     https-proxy-agent "^5.0.0"
-    is-docker "^2.2.0"
+    is-docker "^2.2.1"
     is-wsl "^2.2.0"
     js-yaml "^4.0.0"
     json-cycle "^1.3.0"
