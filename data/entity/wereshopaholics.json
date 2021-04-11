@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "http://www.weareshopaholics.com"
+    },
+    {
       "meta": {
         "id": "421002051587907",
         "username": "wereshopaholics",
@@ -23,6 +26,13 @@
         "website": "http://www.weareshopaholics.com"
       },
       "url": "https://www.facebook.com/wereshopaholics/"
+    },
+    {
+      "url": "https://www.instagram.com/we.are.shopaholics/",
+      "meta": {
+        "name": "BE GORGEOUS, BE SHOPAHOLICS",
+        "about": "📱Whatsapp: 9107 2276(Wing)/ 5160 3257\n滿$200即成會員，享正價9折\n.\n🏘 門市：九龍觀塘巧明街萬年工業大廈5樓D8室(2-8pm,請預約)\n.\n🛒網上自助下單：\n@www.weareshopaholics.com\n.\n📦180/包工商速遞，$580/包順豐"
+      }
     }
   ],
   "posts": [
@@ -39,6 +49,21 @@
     {
       "type": "shop",
       "id": 2208
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍觀塘巧明街116-118號萬年工業大廈5樓D座D8室"
+      },
+      "googleMapsPlaceId": "ChIJYeg6bUUBBDQRxQkurVXVdgc",
+      "coordinates": {
+        "lat": 22.3110271,
+        "lng": 114.2243288
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ]
 }
