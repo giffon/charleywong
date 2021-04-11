@@ -5,9 +5,6 @@
   },
   "webpages": [
     {
-      "url": "http://www.cliniris.com"
-    },
-    {
       "url": "https://www.facebook.com/CLINIRIS/",
       "meta": {
         "id": "130849250316134",
@@ -42,7 +39,8 @@
           }
         ],
         "single_line_address": "尖沙咀嘉蘭圍5-11號利時商場4樓413號舖, 尖沙咀 Tsim Sha Tsui, Hong Kong"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/286335905594993/",
@@ -56,6 +54,14 @@
           }
         ],
         "single_line_address": "安泰路1號大埔廣場2樓33-2.11A舖, Tai Po Old Market, Hong Kong"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/cliniris/",
+      "meta": {
+        "name": "CLINIRIS CLINIRIS",
+        "about": "韓國直送\n店主每月到韓國1到2次 精心挑選最新時裝及飾品\n尖沙咀 大埔 分店 亦可速遞寄貨\n韓國日本代購\nShip Worldwide Whatsapp/LINE/Wechat +852 66316632"
       }
     }
   ],
@@ -64,26 +70,22 @@
       "url": "https://www.facebook.com/CLINIRIS/photos/a.130849376982788/2429993990401637",
       "meta": {
         "utime": "1560321726",
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     },
     {
       "url": "https://www.facebook.com/CLINIRIS/photos/a.456162144451508/2529519287115773",
       "meta": {
         "utime": "1564903234",
-        "sharedWith": "Custom"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/CLINIRIS/photos/a.456162144451508/2726781927389507",
-      "meta": {
-        "utime": "1573398234",
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     }
   ],
   "tags": [
-    "clothing"
+    "clothing",
+    "shop"
   ],
   "places": [
     {
