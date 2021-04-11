@@ -65,12 +65,29 @@
       "area": {
         "zh": "元朗區"
       }
+    },
+    {
+      "address": {
+        "zh": "九龍旺角亞皆老街76號地下"
+      },
+      "googleMapsPlaceId": "ChIJpUrtVewBBDQRdSDOr_QCaGc",
+      "coordinates": {
+        "lat": 22.3197032,
+        "lng": 114.1724224
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 5681
+    },
+    {
+      "type": "eat",
+      "id": 5876
     }
   ]
 }
