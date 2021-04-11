@@ -573,6 +573,32 @@
       "area": {
         "zh": "黃大仙區"
       }
+    },
+    {
+      "address": {
+        "zh": "屯門屯隆街1號錦薈坊101-102號鋪地下"
+      },
+      "googleMapsPlaceId": "ChIJWdQeFj37AzQRP-PCaicVPw4",
+      "coordinates": {
+        "lat": 22.39392,
+        "lng": 113.9754649
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍土瓜灣馬頭角道55號安寧大廈地下"
+      },
+      "googleMapsPlaceId": "ChIJm4qSEtYABDQRiKLRnd5kBr0",
+      "coordinates": {
+        "lat": 22.3217053,
+        "lng": 114.1901402
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -699,6 +725,14 @@
     {
       "type": "eat",
       "id": 5717
+    },
+    {
+      "type": "eat",
+      "id": 5873
+    },
+    {
+      "type": "eat",
+      "id": 5874
     }
   ]
 }
