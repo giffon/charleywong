@@ -6,7 +6,8 @@
   },
   "webpages": [
     {
-      "url": "http://www.sweetandsour.hk"
+      "url": "http://www.sweetandsour.hk",
+      "hidden": true
     },
     {
       "meta": {
@@ -26,20 +27,21 @@
         "website": "http://www.sweetandsour.hk"
       },
       "url": "https://www.facebook.com/sweetandsourhk/"
+    },
+    {
+      "url": "https://www.instagram.com/hksweetandsour/",
+      "meta": {
+        "name": "SWEET & SOUR 味之堂",
+        "about": "Add a Little Sweetness Everyday!"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/sweetandsourhk/photos/a.211113322630839/682889468786553"
+      "url": "https://www.instagram.com/p/B0pi1ikAlfp/"
     },
     {
-      "url": "https://www.facebook.com/sweetandsourhk/photos/a.211113322630839/581534452255389"
-    },
-    {
-      "url": "https://www.facebook.com/sweetandsourhk/posts/578592972549537"
-    },
-    {
-      "url": "https://www.facebook.com/sweetandsourhk/photos/a.211113322630839/579339282474906"
+      "url": "https://www.instagram.com/p/B4rG53jAOHh/"
     }
   ],
   "tags": [
@@ -53,6 +55,21 @@
     {
       "type": "shop",
       "id": 1091
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "將軍澳新都城中心二期商場1074B"
+      },
+      "googleMapsPlaceId": "ChIJ41amigsEBDQRxPaXE8Iv4pU",
+      "coordinates": {
+        "lat": 22.3221575,
+        "lng": 114.2585882
+      },
+      "area": {
+        "zh": "西貢區"
+      }
     }
   ]
 }
