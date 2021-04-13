@@ -109,6 +109,10 @@
     {
       "type": "shop",
       "id": 4627
+    },
+    {
+      "type": "eat",
+      "id": 5886
     }
   ],
   "places": [
@@ -279,6 +283,32 @@
       },
       "area": {
         "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "en": "Green Common Shanghai, Unit49, 1/F, East Section Raffles City, No.1139 Changning Road, Shanghai"
+      },
+      "googleMapsPlaceId": "EjBDaGFuZyBOaW5nIEx1LCBDaGFuZ25pbmcgUXUsIFNoYW5naGFpIFNoaSwgQ2hpbmEiLiosChQKEgnrbxYAeWWyNRGFRGVDJDQhgRIUChIJv23gDLllsjURsoq50CLhTOU",
+      "coordinates": {
+        "lat": 31.2184212,
+        "lng": 121.4032069
+      },
+      "area": {
+        "zh": "中國"
+      }
+    },
+    {
+      "address": {
+        "en": "Green Common Singapore, Vivocity, 1 HarbourFront Walk, #01-169/170, Singapore 098585"
+      },
+      "googleMapsPlaceId": "ChIJK7xLl1gZ2jERP_GdUY9XNLo",
+      "coordinates": {
+        "lat": 1.2644032,
+        "lng": 103.8222071
+      },
+      "area": {
+        "zh": "新加坡"
       }
     }
   ]
