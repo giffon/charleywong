@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://artistaperfetto.com"
+    },
+    {
       "meta": {
         "id": "305599263600747",
         "username": "artistaperfettohk",
@@ -26,7 +29,7 @@
       "url": "https://www.instagram.com/artistaperfettohk/",
       "meta": {
         "name": "Artista Perfetto",
-        "about": "• 𝗦𝗽𝗲𝗰𝗶𝗮𝗹𝘁𝘆 𝗰𝗼𝗳𝗳𝗲𝗲 • 𝗟𝗶𝗳𝗲𝘀𝘁𝘆𝗹𝗲 •\n-\n𝗪𝗲𝗲𝗸𝗱𝗮𝘆𝘀 𝟬𝟴:𝟬𝟬-𝟮𝟬:𝟬𝟬 / 𝗪𝗲𝗲𝗸𝗲𝗻𝗱𝘀 𝟬𝟵:𝟬𝟬-𝟭𝟵:𝟬𝟬\n-\n𝗕𝗿𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝗼𝘄𝗻 𝗰𝘂𝗽 𝗮𝗻𝗱 𝗚𝗘𝗧 𝗮 $𝟱 𝗱𝗶𝘀𝗰𝗼𝘂𝗻𝘁\n-"
+        "about": "Specialty coffee • Lifestyle\n-\nSHOP: 3 Sharp St West, Causeway Bay\nKIOSK: Lv 3, The LOHAS, Tseung Kwan O\n-"
       }
     }
   ],
@@ -46,6 +49,10 @@
     {
       "type": "eat",
       "id": 89
+    },
+    {
+      "type": "eat",
+      "id": 5878
     }
   ],
   "places": [
@@ -60,6 +67,19 @@
       },
       "area": {
         "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "en": "Kiosk B01, Shop Unit 331, Level 3, The LOHAS, Tseung Kwan O"
+      },
+      "googleMapsPlaceId": "ChIJNcWDH0oDBDQRtVFole-lbx4",
+      "coordinates": {
+        "lat": 22.2963405,
+        "lng": 114.2687451
+      },
+      "area": {
+        "zh": "西貢區"
       }
     }
   ]
