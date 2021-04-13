@@ -36,7 +36,7 @@
       "url": "https://www.instagram.com/interval_interval/",
       "meta": {
         "name": "INTERVAL",
-        "about": "All Day Dining Cafe Restaurant\nLocations\nCentral - coming soon\nLOHAS Park - soft opening 8th Feb\nCyberport - soft opening 12th Mar"
+        "about": "All Day Dining Cafe Restaurant\nLocations\nLOHAS Park: unit 417, the LOHAS\nCyberport: unit 207, Cyberport Arcade"
       }
     }
   ],
@@ -55,20 +55,41 @@
     {
       "type": "eat",
       "id": 80
+    },
+    {
+      "type": "eat",
+      "id": 5879
+    },
+    {
+      "type": "eat",
+      "id": 5880
     }
   ],
   "places": [
     {
       "address": {
-        "en": "UG/F, 33 Wellington Street"
+        "en": "Shop 417, 4/F, The LOHAS, 1 Lohas Park Road, Tseung Kwan O"
       },
       "googleMapsPlaceId": "ChIJVVWGSXsABDQRcujkyl0lGAs",
       "coordinates": {
-        "lat": 22.2820557,
-        "lng": 114.1554426
+        "lat": 22.2953199,
+        "lng": 114.271654
       },
       "area": {
-        "zh": "中西區"
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop 207, 2/F, The Arcade, Cyberport, 100 Cyberport Road, Pok Fu Lam"
+      },
+      "googleMapsPlaceId": "ChIJJYKtou__AzQRd5oHfHsVHJc",
+      "coordinates": {
+        "lat": 22.2606557,
+        "lng": 114.1297463
+      },
+      "area": {
+        "zh": "南區"
       }
     }
   ]
