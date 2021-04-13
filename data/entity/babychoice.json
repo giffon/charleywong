@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.babychoice.com.hk"
+      "url": "https://www.babychoice.com.hk"
     },
     {
       "url": "https://www.facebook.com/babychoice/",
@@ -56,6 +56,10 @@
     {
       "type": "shop",
       "id": 4808
+    },
+    {
+      "type": "shop",
+      "id": 5795
     }
   ],
   "places": [
@@ -109,6 +113,19 @@
       },
       "area": {
         "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "元朗千色匯1樓108號舖"
+      },
+      "googleMapsPlaceId": "ChIJ9X_7eAr6AzQRcX86lb4YbBE",
+      "coordinates": {
+        "lat": 22.44262,
+        "lng": 114.028494
+      },
+      "area": {
+        "zh": "元朗區"
       }
     }
   ]
