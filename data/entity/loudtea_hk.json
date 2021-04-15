@@ -8,8 +8,8 @@
     {
       "url": "https://www.instagram.com/loudtea_hk/",
       "meta": {
-        "name": "響茶LOUD TEA",
-        "about": "獨柯不成樹，獨樹不成林《團結》香港人🇭🇰\n響茶重心為茶葉香味\n所有茶葉全部台灣直送\n響茶\n營業時間：星期一至日 11:30AM-11:30PM\n電話: 98643317 (wts or call)\n同時接受FOODPANDA , DELIVEROO\n手機或電腦下單，方便足不出户也能享受響茶產品"
+        "name": "響茶Loud Tea",
+        "about": "獨柯不成樹，獨樹不成林《團結》香港人🇭🇰\n響茶重心為茶香,全茶葉台灣直送\n柴灣總店地址 : 柴灣道350號樂軒台317至318號\nTel:98643317\n炮台山分店地址 : 英皇道177號利都樓地下A1號舖\n歡迎反映意見及產品質素"
       }
     },
     {
@@ -34,9 +34,6 @@
     },
     {
       "url": "https://www.instagram.com/p/CApBIuFhY-f/"
-    },
-    {
-      "url": "https://www.instagram.com/p/CCL-VZvBwUw/"
     }
   ],
   "tags": [
@@ -56,12 +53,29 @@
       "area": {
         "zh": "東區"
       }
+    },
+    {
+      "address": {
+        "zh": "英皇道177號利都樓地下A1號舖"
+      },
+      "googleMapsPlaceId": "ChIJLUx-MQIBBDQRgP6yJMcIdtQ",
+      "coordinates": {
+        "lat": 22.289267,
+        "lng": 114.194088
+      },
+      "area": {
+        "zh": "東區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 670
+    },
+    {
+      "type": "eat",
+      "id": 5887
     }
   ]
 }
