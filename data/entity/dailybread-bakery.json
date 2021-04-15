@@ -34,8 +34,8 @@
     {
       "url": "https://www.instagram.com/dailybread_2020/",
       "meta": {
-        "name": "Daily Bread",
-        "about": "☎️Shop 2368 8867\n📱WhatsApp 6336 1693\n實體店位於長沙灣地舖，擁有乎合資格的食物製造廠牌照，確保品質安全。\n全店採用韓國優質麵粉🇰🇷美國雞蛋🇺🇸\n每日新鮮人手現製，絕不加豬油，人造色素及防腐劑。\n預訂蛋糕均於取貨前1小時即製，確保風味口感"
+        "name": "Daily Bread日光烘焙",
+        "about": "☎️Shop 2368 8867 (CSW) ／2834 7455（LCK)\n📱WhatsApp 6336 1693\n總店位於長沙灣，分店設於荔枝角地舖，擁有乎合資格的食物製造廠牌照，確保品質安全。\n全店採用韓國優質麵粉🇰🇷美國雞蛋🇺🇸\n每日新鮮人手現製，絕不加豬油，人造色素及防腐劑。"
       }
     },
     {
@@ -80,12 +80,29 @@
       "area": {
         "zh": "深水埗區"
       }
+    },
+    {
+      "address": {
+        "zh": "荔枝角青山道608號榮吉工業大廈B座地下8號店"
+      },
+      "googleMapsPlaceId": "ChIJl8dQElQHBDQRms1FVJ3-Sx4",
+      "coordinates": {
+        "lat": 22.3390443,
+        "lng": 114.14912
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 5872
+    },
+    {
+      "type": "eat",
+      "id": 5888
     }
   ]
 }
