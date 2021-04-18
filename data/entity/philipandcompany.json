@@ -62,5 +62,20 @@
       "type": "shop",
       "id": 110
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港黃竹坑道65號志昌行中心15字樓D室"
+      },
+      "googleMapsPlaceId": "ChIJGehLqFUBBDQRnXQ8f-gRPo0",
+      "coordinates": {
+        "lat": 22.2503265,
+        "lng": 114.1691557
+      },
+      "area": {
+        "zh": "南區"
+      }
+    }
   ]
 }
