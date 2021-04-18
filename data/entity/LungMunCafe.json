@@ -75,19 +75,6 @@
   "places": [
     {
       "address": {
-        "zh": "銅鑼灣登龍街28號永光中心"
-      },
-      "googleMapsPlaceId": "ChIJCSN4WeQBBDQR2PzPVsgLGJ4",
-      "coordinates": {
-        "lat": 22.2792646,
-        "lng": 114.1820324
-      },
-      "area": {
-        "zh": "灣仔區"
-      }
-    },
-    {
-      "address": {
         "zh": "尖沙咀金馬倫道福橋大廈A及B舖"
       },
       "googleMapsPlaceId": "ChIJZcwab-4ABDQRbs0dZPfUcDU",
@@ -123,6 +110,19 @@
       },
       "area": {
         "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "紅磡寶其利街47號銳光中心地下"
+      },
+      "googleMapsPlaceId": "ChIJe1L7Hd4ABDQRCObprxSH7oM",
+      "coordinates": {
+        "lat": 22.3063404,
+        "lng": 114.1866391
+      },
+      "area": {
+        "zh": "九龍城區"
       }
     }
   ],
