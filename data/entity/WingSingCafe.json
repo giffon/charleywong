@@ -1,0 +1,53 @@
+{
+  "id": "WingSingCafe",
+  "name": {
+    "zh": "永星冰室",
+    "en": "Wing Sing Cafe"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/307318806524785/",
+      "meta": {
+        "id": "307318806524785",
+        "name": "永星冰室 Wing Sing Cafe",
+        "about": "-----\n\n",
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
+        ],
+        "single_line_address": "油麻地新填地街188號, 香港"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "油麻地新填地街188號"
+      },
+      "googleMapsPlaceId": "ChIJ8b0nOscBBDQRV0zKSIukrsk",
+      "coordinates": {
+        "lat": 22.3113378,
+        "lng": 114.1693861
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2114
+    },
+    {
+      "type": "eat",
+      "id": 5593
+    }
+  ]
+}

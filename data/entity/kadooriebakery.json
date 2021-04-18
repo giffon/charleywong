@@ -1,0 +1,79 @@
+{
+  "id": "kadooriebakery",
+  "name": {
+    "en": "Kadoorie bakery",
+    "zh": "嘉多利餅店"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1332979416752010/",
+      "meta": {
+        "id": "1332979416752010",
+        "name": "Kadoorie bakery",
+        "about": "本店是製造及零售麵包西餅及生日蛋糕， 歡迎到 門市店參觀多謝",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "九龍油麻地渡船角文苑街1-23號文英樓地下\n\n九龍油麻地碧街54號地下油麻地地鐵a2出口\n\n九龍窩打老道69號c2舖培正小學對面, 香港"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍油麻地渡船角文苑街1-23號文英樓地下"
+      },
+      "googleMapsPlaceId": "ChIJiT4tMJUABDQRnUhCe_go-sc",
+      "coordinates": {
+        "lat": 22.3072995,
+        "lng": 114.1671497
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍油麻地碧街54號地下油麻地地鐵a2出口"
+      },
+      "googleMapsPlaceId": "ChIJgykIscsBBDQR0nxwRAtCYHQ",
+      "coordinates": {
+        "lat": 22.3139403,
+        "lng": 114.1710268
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍窩打老道69號c2舖培正小學對面"
+      },
+      "googleMapsPlaceId": "ChIJq6rOksUABDQReD5mDBpJ_-0",
+      "coordinates": {
+        "lat": 22.3185081,
+        "lng": 114.1752349
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1263
+    },
+    {
+      "type": "eat",
+      "id": 1264
+    }
+  ]
+}
