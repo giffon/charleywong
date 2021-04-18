@@ -1,0 +1,113 @@
+{
+  "id": "minjun_cartnoodles",
+  "name": {
+    "zh": "麵尊",
+    "en": "Min Jun"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/277816816278989/",
+      "meta": {
+        "id": "277816816278989",
+        "name": "麵尊 Min Jun",
+        "category_list": [
+          {
+            "id": "188334264523313",
+            "name": "Deli"
+          },
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://www.facebook.com/noodlesupremes/",
+      "meta": {
+        "id": "434030096641429",
+        "username": "noodlesupremes",
+        "name": "麵尊",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
+        ],
+        "single_line_address": "上環蘇杭街22-24號1號舖, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/minjun_cartnoodles/",
+      "meta": {
+        "name": "麵尊車仔麵",
+        "about": "秘制湯底由麵尊多年悉心改進及調製，食完唔口喝，\n重温小時候滿足嘅感覺，令你對車仔麵重新改觀"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/noodlesupremes/posts/3331386556905754",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/noodlesupremes/posts/3454915497886192",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/277816816278989/photos/a.726914424702557/726914474702552",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "noodle"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣登龍街18號V Point地下5號舖"
+      },
+      "googleMapsPlaceId": "ChIJiQWWV8wBBDQRtGQkZEDc6HI",
+      "coordinates": {
+        "lat": 22.279064,
+        "lng": 114.1815807
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "上環蘇杭街22-24號1號舖"
+      },
+      "googleMapsPlaceId": "ChIJLbLIYHwABDQRRzXQNhbipR8",
+      "coordinates": {
+        "lat": 22.285103,
+        "lng": 114.152647
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 929
+    },
+    {
+      "type": "eat",
+      "id": 931
+    }
+  ]
+}
