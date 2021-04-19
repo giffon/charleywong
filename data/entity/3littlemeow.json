@@ -1,0 +1,125 @@
+{
+  "id": "3littlemeow",
+  "name": {
+    "en": "Three Little Meow"
+  },
+  "webpages": [
+    {
+      "url": "https://www.3littlemeow.com"
+    },
+    {
+      "url": "https://www.instagram.com/threelittlemeow/",
+      "meta": {
+        "name": "threelittlemeow"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/3littlemeow/",
+      "meta": {
+        "id": "255223181315858",
+        "username": "3littlemeow",
+        "name": "Three Little Meow",
+        "about": "兩個貓奴受到家中三隻貓主子的腦電波干擾，發揮奴性，為主子成立一家貓用品專門店，以貓邏輯搜羅各國優質貓產品。",
+        "category_list": [
+          {
+            "id": "2230",
+            "name": "Pet Supplies"
+          }
+        ],
+        "emails": [
+          "info@3littlemeow.com"
+        ],
+        "website": "http://www.3littlemeow.com"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/3littlemeow/posts/1195564257281741",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/3littlemeow/posts/1227060370798796",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/3littlemeow/posts/1234195716751928",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/3littlemeow/posts/1280703642101135",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/3littlemeow/posts/1318176415020524",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/3littlemeow/posts/1321004384737727",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "animal",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘興業街16-18號美興工業大廈B座8樓01室 "
+      },
+      "googleMapsPlaceId": "ChIJweGNnEUBBDQR67RgkDUUawc",
+      "coordinates": {
+        "lat": 22.3088856,
+        "lng": 114.225174
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣軒尼詩道505號電業城Solo地庫07-08舖"
+      },
+      "googleMapsPlaceId": "ChIJSX9w5RYBBDQRxLxe1oNnw0Y",
+      "coordinates": {
+        "lat": 22.2802968,
+        "lng": 114.183298
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "太古城道18號太古城中心1/F 誠品生活L104號舖"
+      },
+      "googleMapsPlaceId": "ChIJEdmThzYBBDQRcK1iLU1dQT0",
+      "coordinates": {
+        "lat": 22.2864438,
+        "lng": 114.2175719
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 1281
+    }
+  ]
+}
