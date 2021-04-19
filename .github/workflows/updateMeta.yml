@@ -15,6 +15,7 @@ jobs:
         run: |
           cp -r /workspace/node_modules .
           cp -r /workspace/lib/dts2hx lib/
+      - run: yarn
       - name: Compile
         run: haxe syncFacebook.hxml
       - name: Import gpg key

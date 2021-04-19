@@ -15,6 +15,7 @@ jobs:
         run: |
           cp -r /workspace/node_modules .
           cp -r /workspace/lib/dts2hx lib/
+      - run: yarn
       - name: Compile index.js
         run: haxe build.hxml
       - name: Minify browser.js
@@ -71,6 +72,7 @@ jobs:
         run: |
           cp -r /workspace/node_modules .
           cp -r /workspace/lib/dts2hx lib/
+      - run: yarn
       - uses: actions/download-artifact@v1
         with:
           name: dclookup
