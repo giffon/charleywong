@@ -11,6 +11,10 @@ jobs:
       - uses: actions/checkout@v2
         with:
           submodules: true
+      - name: Copy libs from /workspace
+        run: |
+          cp -r /workspace/node_modules .
+          cp -r /workspace/lib/dts2hx lib/
       - name: Compile index.js
         run: haxe build.hxml
       - name: Minify browser.js
@@ -63,6 +67,10 @@ jobs:
       - uses: actions/checkout@v2
         with:
           submodules: true
+      - name: Copy libs from /workspace
+        run: |
+          cp -r /workspace/node_modules .
+          cp -r /workspace/lib/dts2hx lib/
       - uses: actions/download-artifact@v1
         with:
           name: dclookup
