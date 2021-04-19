@@ -5,9 +5,6 @@
   },
   "webpages": [
     {
-      "url": "https://nowwedesign.com"
-    },
-    {
       "url": "https://www.facebook.com/decorgirl/",
       "meta": {
         "id": "170804653553860",
@@ -28,13 +25,17 @@
       "meta": {
         "name": "Decogirl"
       }
+    },
+    {
+      "url": "https://mewe.com/i/decogirl"
     }
   ],
   "posts": [
     {
       "url": "https://www.facebook.com/decorgirl/posts/338239886810335",
       "meta": {
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     }
   ],
