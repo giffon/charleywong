@@ -1,0 +1,6 @@
+# copied from the project root by build.sh
+.haxerc
+*.hxml
+haxe_libraries
+package.json
+yarn.lock

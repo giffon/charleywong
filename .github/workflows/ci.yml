@@ -1,35 +1,16 @@
 name: CI
-
-on: 
+on:
   push:
   schedule:
     - cron: '0 0 * * *'
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20201124
+    container: giffon/charleywong_devcontainer_workspace:20210419123050
     steps:
       - uses: actions/checkout@v2
         with:
           submodules: true
-      - uses: actions/cache@v2
-        with:
-          path: |
-            ~/haxe
-            node_modules
-          key: ${{ runner.os }}
-      - name: Install libraries
-        run: |
-          set -ex
-          yarn
-          bash build-dclookup.sh
-          lix download
-          npx dts2hx @types/node @types/gtag.js fastify --noLibWrap --output lib/dts2hx
-      - uses: actions/upload-artifact@v1
-        with:
-          name: dclookup
-          path: dclookup.js
       - name: Compile index.js
         run: haxe build.hxml
       - name: Minify browser.js
@@ -42,6 +23,10 @@ jobs:
         with:
           name: browser
           path: static/browser.bundled.js
+      - uses: actions/upload-artifact@v1
+        with:
+          name: dclookup
+          path: dclookup.js
       - name: Dump HKBASE directory
         run: |
           set -ex
@@ -73,17 +58,11 @@ jobs:
     needs: build
     if: success() && github.event_name == 'push' && ( github.ref == 'refs/heads/master' || github.ref == 'refs/heads/production' )
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20201124
+    container: giffon/charleywong_devcontainer_workspace:20210419123050
     steps:
       - uses: actions/checkout@v2
         with:
           submodules: true
-      - uses: actions/cache@v2
-        with:
-          path: |
-            ~/haxe
-            node_modules
-          key: ${{ runner.os }}
       - uses: actions/download-artifact@v1
         with:
           name: dclookup
@@ -108,12 +87,6 @@ jobs:
           mv flexsearch/* .
           mv HkbaseDirectory/* .
           rm -r dclookup index browser flexsearch HkbaseDirectory
-      - name: Install libraries
-        run: |
-          set -ex
-          yarn
-          lix download
-          npx dts2hx @types/node @types/gtag.js fastify --noLibWrap --output lib/dts2hx
       - name: Dump YellowBlueMap
         run: |
           haxe syncYellowBlueMap.hxml

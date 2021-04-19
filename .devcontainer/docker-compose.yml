@@ -1,15 +1,15 @@
 version: '3'
 services:
   workspace:
-    # build: .
-    image: giffon/charleywong_devcontainer_workspace:20201124
+    image: giffon/charleywong_devcontainer_workspace:20210419123050
+    init: true
     volumes:
+      - /var/run/docker.sock:/var/run/docker-host.sock
       - ..:/workspace:cached
-      - node_modules:/workspace/node_modules
+    environment:
+      - TZ=Asia/Hong_Kong
     ports:
       - "443:443"
-    user: user
+    user: vscode
+    entrypoint: /usr/local/share/docker-init.sh
     command: sleep infinity
-
-volumes:
-  node_modules:

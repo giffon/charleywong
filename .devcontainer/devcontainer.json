@@ -3,9 +3,17 @@
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "workspace",
 	"workspaceFolder": "/workspace",
-	"postCreateCommand": "./.devcontainer/postCreateCommand.sh",
+	"remoteEnv": {
+		"LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
+	},
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
 	"extensions": [
+		"ms-azuretools.vscode-docker",
 		"nadako.vshaxe",
-		"lix.lix"
-	]
+		"lix.lix",
+		"hashicorp.terraform",
+	],
+	"remoteUser": "vscode"
 }

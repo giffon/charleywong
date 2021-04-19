@@ -1,31 +1,16 @@
 name: Update meta
-
 on:
   schedule:
     - cron: '0 * * * *' # every hour
-
 jobs:
   job:
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20201124
+    container: giffon/charleywong_devcontainer_workspace:20210419123050
     steps:
       - uses: actions/checkout@v1
         with:
           submodules: true
           ref: meta
-      - uses: actions/cache@v2
-        with:
-          path: |
-            ~/haxe
-            node_modules
-          key: ${{ runner.os }}
-      - name: Install libraries
-        run: |
-          set -ex
-          yarn
-          bash build-dclookup.sh
-          lix download
-          npx dts2hx @types/node @types/gtag.js fastify --noLibWrap --output lib/dts2hx
       - name: Compile
         run: haxe syncFacebook.hxml
       - name: Import gpg key
