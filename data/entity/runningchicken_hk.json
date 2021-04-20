@@ -30,7 +30,7 @@
       "url": "https://www.instagram.com/runningchicken_hk/",
       "meta": {
         "name": "米走雞Running Chicken",
-        "about": "芝士雞煲專門店\n自創黃金芝士雞煲、火焰麻辣雞煲\n自家制手打鮮製丸餃\n-\n長沙灣青山道379號昭德大廈地舖\n旺角彌敦道761號太子藍馬之城2樓\n銅鑼灣渣甸街50號渣甸中心3樓\n觀塘興業街4號The Wave 3樓\n-"
+        "about": "芝士雞煲專門店\n自創黃金芝士雞煲、火焰麻辣雞煲\n自家制手打鮮製丸餃\n-\n旺角彌敦道761號太子藍馬之城2樓\n銅鑼灣渣甸街50號渣甸中心3樓\n觀塘興業街4號The Wave 3樓\n-"
       }
     }
   ],
@@ -79,19 +79,6 @@
     },
     {
       "address": {
-        "zh": "長沙灣青山道379號昭德大廈地舖"
-      },
-      "googleMapsPlaceId": "ChIJP2nKA1IHBDQR_5JYHyfZzm0",
-      "coordinates": {
-        "lat": 22.3389776,
-        "lng": 114.1555057
-      },
-      "area": {
-        "zh": "深水埗區"
-      }
-    },
-    {
-      "address": {
         "zh": "觀塘興業街4號The Wave 3樓"
       },
       "googleMapsPlaceId": "ChIJ4d8-CUUBBDQRiG3e7lC6uLo",
@@ -129,6 +116,10 @@
     {
       "type": "eat",
       "id": 2357
+    },
+    {
+      "type": "eat",
+      "id": 5921
     }
   ]
 }
