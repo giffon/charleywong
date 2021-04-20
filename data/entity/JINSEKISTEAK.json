@@ -80,19 +80,22 @@
     {
       "url": "https://www.facebook.com/JINSEKISTEAK/posts/534532200668481",
       "meta": {
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     },
     {
       "url": "https://www.facebook.com/JINSEKISTEAK/posts/540259623429072",
       "meta": {
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     },
     {
       "url": "https://www.facebook.com/JINSEKISTEAK/posts/544899826298385",
       "meta": {
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     }
   ],
@@ -101,6 +104,19 @@
     "food"
   ],
   "places": [
+    {
+      "address": {
+        "zh": "大埔南運路9號新達廣場1樓36-37號舖"
+      },
+      "googleMapsPlaceId": "ChIJZ4ca50EJBDQRu5lP_Exud6M",
+      "coordinates": {
+        "lat": 22.443554,
+        "lng": 114.169348
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    },
     {
       "address": {
         "zh": "油麻地碧街35號"
@@ -139,6 +155,19 @@
       "area": {
         "zh": "觀塘區"
       }
+    },
+    {
+      "address": {
+        "zh": "將軍澳重華路8號東港城2樓265號舖"
+      },
+      "googleMapsPlaceId": "ChIJz4LqfXUEBDQRMR05fSGTeUo",
+      "coordinates": {
+        "lat": 22.3163803,
+        "lng": 114.2653434
+      },
+      "area": {
+        "zh": "西貢區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -153,6 +182,10 @@
     {
       "type": "eat",
       "id": 2269
+    },
+    {
+      "type": "eat",
+      "id": 5925
     }
   ]
 }
