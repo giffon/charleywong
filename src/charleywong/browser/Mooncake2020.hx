@@ -10,7 +10,7 @@ import haxe.DynamicAccess;
 using StringTools;
 using Lambda;
 
-@:jsRequire("react-masonry-css", "default")
+@:jsRequire("react-masonry-css")
 extern class Masonry extends ReactComponent {}
 
 @:jsRequire("@material-ui/core/useScrollTrigger", "default")
