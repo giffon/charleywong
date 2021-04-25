@@ -9,7 +9,7 @@
       "url": "https://www.instagram.com/sweet_bandott/",
       "meta": {
         "name": "幸福·駅",
-        "about": "【幸福·駅】飯糰·便當專門店。\n銅鑼灣總店 - 銅鑼灣禮頓道118號禮信大廈地下5A￼\n觀塘分店￼- ￼觀塘成業街7號東廣場地舖56號￼￼\n旺角雅蘭分店￼￼￼ - 旺角雅蘭中心地下LA1 (近旺角站E1出口￼￼)"
+        "about": "【幸福·駅】飯糰·便當專門店。\n觀塘分店￼ - ￼觀塘成業街7號東廣場地舖56號￼￼\n香港大學分店 - 香港大學綜合大樓G05號鋪\n牛頭角海濱匯分店 - 牛頭角海濱道77號海濱匯6A\n富榮分店 - 九龍旺角海泓道富榮花園地下63號A舖"
       }
     },
     {
@@ -51,46 +51,21 @@
     }
   ],
   "tags": [
+    "japanese",
     "food"
   ],
   "places": [
     {
       "address": {
-        "zh": "銅鑼灣禮頓道118號禮信大廈地下5A號舖"
+        "zh": "大角咀海庭道8號富榮花園地下63A號舖"
       },
-      "googleMapsPlaceId": "ChIJ7bYbxPMBBDQRcIW4jcJYTS4",
+      "googleMapsPlaceId": "ChIJPTQyIr8ABDQR4T1_ybajaNc",
       "coordinates": {
-        "lat": 22.2779564,
-        "lng": 114.1864136
-      },
-      "area": {
-        "zh": "灣仔區"
-      }
-    },
-    {
-      "address": {
-        "zh": "旺角彌敦道639號雅蘭中心地下LA1號舖"
-      },
-      "googleMapsPlaceId": "ChIJm_pAoscABDQREKlnvWMoghg",
-      "coordinates": {
-        "lat": 22.3178478,
-        "lng": 114.1694077
+        "lat": 22.3142252,
+        "lng": 114.165115
       },
       "area": {
         "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
-        "zh": "觀塘成業街7號東廣場地下56號舖"
-      },
-      "googleMapsPlaceId": "ChIJO8F8WUUBBDQRkyhHAr0HX-c",
-      "coordinates": {
-        "lat": 22.3108771,
-        "lng": 114.2261728
-      },
-      "area": {
-        "zh": "觀塘區"
       }
     },
     {
@@ -101,6 +76,32 @@
       "coordinates": {
         "lat": 22.3164515,
         "lng": 114.2137006
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角彌敦道639號雅蘭中心地下LA1號舖"
+      },
+      "googleMapsPlaceId": "ChIJjUIs3IoBBDQRuPXcZfEPrQ4",
+      "coordinates": {
+        "lat": 22.3179638,
+        "lng": 114.1694325
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘成業街7號東廣場地下56號舖"
+      },
+      "googleMapsPlaceId": "ChIJ4RHOrMYBBDQRpTD5JqS4OwI",
+      "coordinates": {
+        "lat": 22.3108932,
+        "lng": 114.2262793
       },
       "area": {
         "zh": "觀塘區"

@@ -31,7 +31,7 @@
       "url": "https://www.instagram.com/bulldoghotdog/",
       "meta": {
         "name": "BullDog HotDog",
-        "about": "inspiring the human taste buds, one person, one hotdog 🌭 #hotdog #bulldoghotdog"
+        "about": "🌭One Person🔸One Hotdog\n1️⃣ 銅鑼灣駱克道513-515永勝大廈地下A鋪\n2️⃣天后電氣道13-41號凱旋大廈地下K鋪\n3️⃣上環皇后大道中378號福陞閣地下04號A鋪\n4️⃣大埔安祥路2號李福林體育館地庫\n5️⃣大埔廣福道60-62號C鋪"
       }
     }
   ],
@@ -50,6 +50,32 @@
     "food"
   ],
   "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣駱克道513-515永勝大廈地下A鋪"
+      },
+      "googleMapsPlaceId": "ChIJ00uMIi4BBDQRA45H1CXyHiw",
+      "coordinates": {
+        "lat": 22.2807617,
+        "lng": 114.1833908
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "天后電氣道13-41號凱旋大廈地下K鋪"
+      },
+      "googleMapsPlaceId": "ChIJIX_4QFMBBDQRDyN4Ffel__c",
+      "coordinates": {
+        "lat": 22.2836671,
+        "lng": 114.1916749
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
     {
       "address": {
         "zh": "大埔廣福道60-62號C鋪"
