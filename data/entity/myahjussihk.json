@@ -1,0 +1,71 @@
+{
+  "id": "myahjussihk",
+  "name": {
+    "en": "My Ahjussi HK"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/myahjussi_hk/",
+      "meta": {
+        "name": "My Ahjussi 내 아저씨",
+        "about": "+852 98467315\n大角咀大全街39號"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/myahjussihk/",
+      "meta": {
+        "id": "109596550766587",
+        "username": "myahjussihk",
+        "name": "My Ahjussi HK",
+        "about": "Korean pizza, fried chicken, burger, dessert",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "myahjussihk@gmail.com"
+        ],
+        "single_line_address": "39 Tai Tsun Street, Tai Kok Tsui, 九龍",
+        "website": "https://www.instagram.com/myahjussi_hk/"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/myahjussihk/posts/270526831340224",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/ConnectCardHK/posts/185385376542557"
+    }
+  ],
+  "tags": [
+    "korean",
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大角咀大全街39號"
+      },
+      "googleMapsPlaceId": "ChIJqWFqQEwBBDQRyw8ZBdfx_Bk",
+      "coordinates": {
+        "lat": 22.3218676,
+        "lng": 114.1609267
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5610
+    }
+  ]
+}
