@@ -1,0 +1,89 @@
+{
+  "id": "bigjjseafood",
+  "name": {
+    "zh": "珍姐海鮮火鍋飯店",
+    "en": "Big JJ Seafood Hotpot restaurant"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/bigjjseafood/",
+      "meta": {
+        "id": "397912514131849",
+        "username": "bigjjseafood",
+        "name": "珍姐 JJ's",
+        "category_list": [
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "9 Wo On Lane, Central, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/bigjjseafood/",
+      "meta": {
+        "name": "珍姐海鮮火鍋飯店",
+        "about": "我地鍾意食乜就賣乜。\nWe sell what we eat.\n中環店營業時間：\nBig JJ Central Opening Hour:\n星期一至五 Mon - Fri : 10am - 9pm\n星期六及公眾假期 Sat & PH: 6pm - 9pm"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/bigjjseafood/posts/472978599958573",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/bigjjseafood/posts/500257260564040",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/bigjjseafood/posts/679604762629288",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/bigjjseafood/posts/681054455817652",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "hotpot"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "9 Wo On Lane, Central"
+      },
+      "googleMapsPlaceId": "ChIJG5vZ3uwBBDQRfoYiqaELjcE",
+      "coordinates": {
+        "lat": 22.2816471,
+        "lng": 114.155252
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1037
+    },
+    {
+      "type": "eat",
+      "id": 5218
+    }
+  ]
+}
