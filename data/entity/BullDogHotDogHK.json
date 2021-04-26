@@ -114,6 +114,19 @@
       "area": {
         "zh": "中西區"
       }
+    },
+    {
+      "address": {
+        "zh": "灣仔軒尼詩道150號修頓中心地下D3舖"
+      },
+      "googleMapsPlaceId": "ChIJF8ADkFwABDQRAAvrgSw1epQ",
+      "coordinates": {
+        "lat": 22.2772347,
+        "lng": 114.1727549
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -132,6 +145,14 @@
     {
       "type": "eat",
       "id": 5403
+    },
+    {
+      "type": "eat",
+      "id": 5926
+    },
+    {
+      "type": "eat",
+      "id": 5927
     }
   ]
 }

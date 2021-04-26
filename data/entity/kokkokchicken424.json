@@ -27,7 +27,7 @@
       "url": "https://www.instagram.com/kokkokchicken424/",
       "meta": {
         "name": "咯咯雞 - 韓食店",
-        "about": "韓式炸雞🍗\n韓式小食🍢\n韓式湯類🥘\n韓國飲品🥤🍺\n外賣自取電話☎️36119009\n￼￼￼\n￼地址 : ￼大角咀, 大角嘴道61號牡丹大廈地下 ￼"
+        "about": "尖沙咀店 （堂食餐廳）- 尖沙咀亞士厘道20號A地下\n電話 ：28860641\n營業時間：11:30AM - 10PM\n大角咀店（只限外賣）- 大角咀道61號地下\n電話：36119009\n營業時間：12PM - 10PM"
       }
     }
   ],
@@ -64,7 +64,20 @@
   "places": [
     {
       "address": {
-        "zh": "大角嘴道61號地下"
+        "zh": "尖沙咀亞士厘道20號A地下（堂食餐廳）"
+      },
+      "googleMapsPlaceId": "ChIJddkCHW4BBDQROY4wCZQI1p4",
+      "coordinates": {
+        "lat": 22.2972613,
+        "lng": 114.1705941
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大角嘴道61號地下（只限外賣）"
       },
       "googleMapsPlaceId": "ChIJBVa0DQMBBDQR--a0Bu7qRlg",
       "coordinates": {
@@ -80,6 +93,10 @@
     {
       "type": "eat",
       "id": 2128
+    },
+    {
+      "type": "eat",
+      "id": 5932
     }
   ]
 }
