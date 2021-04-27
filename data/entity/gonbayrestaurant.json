@@ -1,0 +1,66 @@
+{
+  "id": "gonbayrestaurant",
+  "name": {
+    "en": "Gonbay",
+    "zh": "乾杯"
+  },
+  "webpages": [
+    {
+      "url": "https://gonbaysale.co.uk"
+    },
+    {
+      "url": "https://gonbayaltrincham.co.uk"
+    },
+    {
+      "url": "https://www.facebook.com/gonbayrestaurant/",
+      "meta": {
+        "id": "1503199653285475",
+        "username": "gonbayrestaurant",
+        "name": "Gonbay Chinese Restaurants - Altrincham & Sale",
+        "about": "Gonbay Chinese Restaurants - Altrincham & Sale\n\nRestaurant in Sale: \ngonbaysale.co.uk \n\nRestaurant in Altrincham: \ngonbayaltrincham.co.uk",
+        "category_list": [
+          {
+            "id": "214976388519648",
+            "name": "Cantonese Restaurant"
+          }
+        ],
+        "emails": [
+          "gonbayuk@gmail.com"
+        ],
+        "single_line_address": "25 The Downs, WA14 2QD 英国奥尔特灵厄姆"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "6 Brooklands Rd, Sale M33 3SQ"
+      },
+      "googleMapsPlaceId": "ChIJQVD7AFqse0gRkt3ignZpKk0",
+      "coordinates": {
+        "lat": 53.4168361,
+        "lng": -2.3252343
+      },
+      "area": {
+        "zh": "英國"
+      }
+    },
+    {
+      "address": {
+        "en": "25 The Downs"
+      },
+      "googleMapsPlaceId": "ChIJtfF2jKOse0gRys2JR7R4kz4",
+      "coordinates": {
+        "lat": 53.3838632,
+        "lng": -2.3530456
+      },
+      "area": {
+        "zh": "英國"
+      }
+    }
+  ]
+}

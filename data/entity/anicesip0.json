@@ -1,0 +1,100 @@
+{
+  "id": "anicesip0",
+  "name": {
+    "en": "A Nice Sip",
+    "zh": "賞茶"
+  },
+  "webpages": [
+    {
+      "url": "https://anicesip.square.site"
+    },
+    {
+      "url": "https://www.instagram.com/a_nice_sip/",
+      "meta": {
+        "name": "A Nice Sip",
+        "about": "https://anicesip.square.site/s/order"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/anicesip0/",
+      "meta": {
+        "id": "1634756673257329",
+        "username": "anicesip0",
+        "name": "A Nice Sip 賞茶",
+        "about": "A Nice Sip is a trendy Bubble Tea/Chinese food Cafe.  Our tea is directly from Taiwan, freshly brewed. We use best quality ingredients for all our dishes. ",
+        "category_list": [
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "174483852595760",
+            "name": "Chinese Restaurant"
+          }
+        ],
+        "single_line_address": "8 Salisbury House, St Stephen Street, Salford, M3 6AX 英国 Manchester, United Kingdom",
+        "website": "https://anicesip.square.site"
+      }
+    },
+    {
+      "url": "https://twitter.com/nice_sip"
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/anicesip0/photos/a.1772359646163697/2328000233932966",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "taiwanese",
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "8 Salisbury House, St Stephen Street, Salford, Manchester M3 6AX"
+      },
+      "googleMapsPlaceId": "ChIJAZYGRhyxe0gRxeZlsPBOAD0",
+      "coordinates": {
+        "lat": 53.48523650000001,
+        "lng": -2.2571433
+      },
+      "area": {
+        "zh": "英國"
+      }
+    },
+    {
+      "address": {
+        "en": "FC13-14 Arndale Market, 49 High Street, Manchester M4 3AH"
+      },
+      "googleMapsPlaceId": "ChIJ91NqsHWxe0gRlR4BcZRfb98",
+      "coordinates": {
+        "lat": 53.483811,
+        "lng": -2.2393029
+      },
+      "area": {
+        "zh": "英國"
+      }
+    },
+    {
+      "address": {
+        "en": "7 Stranmillis Road, Belfast BT9 5AF"
+      },
+      "googleMapsPlaceId": "ChIJG5ETQ6EJYUgRtZJXWuWgqKs",
+      "coordinates": {
+        "lat": 54.5826764,
+        "lng": -5.9365928
+      },
+      "area": {
+        "zh": "英國"
+      }
+    }
+  ]
+}

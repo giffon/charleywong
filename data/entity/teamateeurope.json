@@ -1,0 +1,109 @@
+{
+  "id": "teamateeurope",
+  "name": {
+    "en": "Teamate"
+  },
+  "webpages": [
+    {
+      "url": "http://teamate.eu"
+    },
+    {
+      "url": "https://www.facebook.com/teamateeurope/",
+      "meta": {
+        "id": "865164780267170",
+        "username": "teamateeurope",
+        "name": "Teamate",
+        "about": "The Real Taste ",
+        "category_list": [
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          }
+        ],
+        "website": "http://teamate.eu"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/teamate_duesseldorf/",
+      "meta": {
+        "name": "TEAMATE (since 2016)",
+        "about": "Das moderne Teehaus mit taiwanesischer Freundlichkeit.\nTeamate1 Immermannstr 65C,DUS\nTeamate2 Rheinparkcenter Neuss\nTeamate3 Mutter-Ey-Str.5 Altstadt"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.taiwannews.com.tw/en/news/3762229"
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Immermannstraße 65 c (japanisches Viertel) 40210 Düsseldorf"
+      },
+      "googleMapsPlaceId": "ChIJZ98oUzDKuEcR0MvImJt8rNI",
+      "coordinates": {
+        "lat": 51.2216388,
+        "lng": 6.791785099999998
+      },
+      "area": {
+        "zh": "德國"
+      }
+    },
+    {
+      "address": {
+        "en": "Mutter-Ey-Straße 40213 Düsseldorf"
+      },
+      "googleMapsPlaceId": "ChIJZXaP5NLLuEcRUA46bs6gEV0",
+      "coordinates": {
+        "lat": 51.22704869999999,
+        "lng": 6.776051999999999
+      },
+      "area": {
+        "zh": "德國"
+      }
+    },
+    {
+      "address": {
+        "en": "Breslauer Straße 2-4 41460 Neuss"
+      },
+      "googleMapsPlaceId": "ChIJaSoQq5i1uEcR6Y07AVzn43w",
+      "coordinates": {
+        "lat": 51.2021481,
+        "lng": 6.7181814
+      },
+      "area": {
+        "zh": "德國"
+      }
+    },
+    {
+      "address": {
+        "en": "Vivatsgasse 9 53111 Bonn"
+      },
+      "googleMapsPlaceId": "ChIJLbYc88nhvkcR8jYMuzGTZQ4",
+      "coordinates": {
+        "lat": 50.7353999,
+        "lng": 7.098174899999999
+      },
+      "area": {
+        "zh": "德國"
+      }
+    },
+    {
+      "address": {
+        "en": "Antoniterstraße 14-16 50667 Köln"
+      },
+      "googleMapsPlaceId": "ChIJN5qIez0lv0cRfeiOP3nEvbc",
+      "coordinates": {
+        "lat": 50.9356869,
+        "lng": 6.953565900000001
+      },
+      "area": {
+        "zh": "德國"
+      }
+    }
+  ]
+}
