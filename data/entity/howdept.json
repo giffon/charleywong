@@ -99,20 +99,24 @@
     {
       "type": "eat",
       "id": 5691
+    },
+    {
+      "type": "eat",
+      "id": 5942
     }
   ],
   "places": [
     {
       "address": {
-        "en": "Block AB, 3/F, How Ming Factory Bldg., 99 How Ming St"
+        "zh": "尖沙咀河內道18號 K11 Art Mall 二樓, 201 號店 HOW to live well"
       },
-      "googleMapsPlaceId": "ChIJT8PvbU8BBDQRvmy8w_suDmE",
+      "googleMapsPlaceId": "ChIJo6wK5_4BBDQRyPEZuFmw_hs",
       "coordinates": {
-        "lat": 22.312736,
-        "lng": 114.2233885
+        "lat": 22.2974299,
+        "lng": 114.1737537
       },
       "area": {
-        "zh": "觀塘區"
+        "zh": "油尖旺區"
       }
     }
   ]
