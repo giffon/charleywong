@@ -60,6 +60,7 @@ jobs:
         shell: bash
         run: haxe test.hxml "$GITHUB_EVENT_NAME"
   deploy:
+    concurrency: ${{ github.ref }}
     needs: build
     if: success() && github.event_name == 'push' && ( github.ref == 'refs/heads/master' || github.ref == 'refs/heads/production' )
     runs-on: ubuntu-latest
