@@ -145,8 +145,8 @@ class View extends ReactComponent {
             </div>
             <div className="mt-3 mt-md-5 text-center container">
                 <div className="col-12">
-                    <a href="https://www.facebook.com/hkssprangers"><img className="img-fluid d-none d-sm-inline" src=${R("/images/good-970-90.jpg")} alt="深水埗黃店美食 埗兵外賣俾你食"/></a>
-                    <a href="https://www.facebook.com/hkssprangers"><img className="img-fluid d-inline d-sm-none" src=${R("/images/good-320-50.jpg")} alt="深水埗黃店美食 埗兵外賣俾你食"/></a>
+                    <a href="https://ssprangers.com/"><img className="img-fluid d-none d-sm-inline" src=${R("/images/good-970-90.jpg")} alt="深水埗黃店美食 埗兵外賣俾你食"/></a>
+                    <a href="https://ssprangers.com/"><img className="img-fluid d-inline d-sm-none" src=${R("/images/good-320-50.jpg")} alt="深水埗黃店美食 埗兵外賣俾你食"/></a>
                 </div>
                 <div className="col-12 mt-1 color_black_o60">
                     <a href="/campaign">你都想 Charley 幫你宣傳? 入嚟睇吓我哋嘅廣告宣傳計劃</a>
