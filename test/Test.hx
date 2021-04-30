@@ -12,10 +12,6 @@ class Test {
         switch (Sys.args()) {
             case []:
                 utest.UTest.run(tests);
-            case ["push"]:
-                utest.UTest.run(tests.concat([
-                    new TestHkbaseDirectory(index),
-                ]));
             case ["post-deployment", host]:
                 utest.UTest.run([new TestPostDeployment(host)]);
             case ["schedule"]:
