@@ -5017,10 +5017,10 @@ fastest-levenshtein@^1.0.12:
   resolved "https://registry.yarnpkg.com/fastest-levenshtein/-/fastest-levenshtein-1.0.12.tgz#9990f7d3a88cc5a9ffd1f1745745251700d497e2"
   integrity sha512-On2N+BpYJ15xIC974QNVuYGMOlEVt4s0EOI3wwMqOmK1fdDY+FN/zltPV8vosq4ad4c/gJ1KHScUn/6AWIgiow==
 
-fastify-cors@5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/fastify-cors/-/fastify-cors-5.2.0.tgz#a92af64d9b7df1cd736c90ecd894a7b23c0cd75a"
-  integrity sha512-Lde71qT23M3Ip3pmny3uN6q6lQ4J5J0/YWoqe2stL4sMT99R5LEtTJ2La2zijFOR5OFhxvxqGgR7BIc2x3amPg==
+fastify-cors@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/fastify-cors/-/fastify-cors-6.0.0.tgz#59764802f7260898f0ae4f9f1aa626d5e1c16a8b"
+  integrity sha512-OIvNV3EJsE0vnKkn9GIgAQiimSrc6raKTq8YBtEt8XZ4KyPyAZ6BdKDxpjPLQBQfZLgqGgcThCea53AWqI2DgA==
   dependencies:
     fastify-plugin "^3.0.0"
     vary "^1.1.2"
