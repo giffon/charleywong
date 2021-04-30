@@ -71,7 +71,7 @@ jobs:
           mv dclookup/* .
           mv index/* .
           mv browser/* static
-          rm -r dclookup index browser flexsearch HkbaseDirectory
+          rm -r dclookup index browser
       - name: Dump HKBASE directory
         run: |
           set -ex
