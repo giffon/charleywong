@@ -32,24 +32,6 @@ jobs:
         with:
           name: dclookup
           path: dclookup.js
-      - name: Dump HKBASE directory
-        run: |
-          set -ex
-          haxe dumpHkbaseDirectory.hxml
-          node dumpHkbaseDirectory.js dump
-        env:
-          GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
-          GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
-      - uses: actions/upload-artifact@v1
-        with:
-          name: HkbaseDirectory
-          path: HkbaseDirectory.json
-      - name: Export flexsearch index
-        run: haxe exportFlexsearch.hxml
-      - uses: actions/upload-artifact@v1
-        with:
-          name: flexsearch
-          path: flexsearch.json
       - name: Compile Chrome extension
         run: haxe chrome-extension.hxml
       - uses: actions/upload-artifact@v1
@@ -83,21 +65,21 @@ jobs:
       - uses: actions/download-artifact@v1
         with:
           name: browser
-      - uses: actions/download-artifact@v1
-        with:
-          name: flexsearch
-      - uses: actions/download-artifact@v1
-        with:
-          name: HkbaseDirectory
       - name: move artifacts
         run: |
           set -ex
           mv dclookup/* .
           mv index/* .
           mv browser/* static
-          mv flexsearch/* .
-          mv HkbaseDirectory/* .
           rm -r dclookup index browser flexsearch HkbaseDirectory
+      - name: Dump HKBASE directory
+        run: |
+          set -ex
+          haxe dumpHkbaseDirectory.hxml
+          node dumpHkbaseDirectory.js dump
+        env:
+          GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
+          GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
       - name: Dump YellowBlueMap
         run: |
           haxe syncYellowBlueMap.hxml
@@ -106,6 +88,8 @@ jobs:
           AWS_DEFAULT_REGION: us-east-1
           AWS_ACCESS_KEY_ID: ${{ secrets.YBM_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.YBM_AWS_SECRET_ACCESS_KEY }}
+      - name: Export flexsearch index
+        run: haxe exportFlexsearch.hxml
       - run: ls -lh
       - name: Set Env
         run: |
