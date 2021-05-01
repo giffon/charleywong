@@ -10,14 +10,20 @@
     {
       "url": "https://www.facebook.com/forfun.tw/",
       "meta": {
-        "name": "博方文創事業有限公司",
         "id": "844306908969828",
+        "username": "forfun.tw",
+        "name": "博方文創事業有限公司",
         "about": "傳達台灣藝術家與設計師的熱情與理念給這個世界",
-        "categories": [
-          "Company"
+        "category_list": [
+          {
+            "id": "2200",
+            "name": "Company"
+          }
         ],
-        "email": "alan@forfun.tw",
-        "tel": "02"
+        "emails": [
+          "alan@forfun.tw"
+        ],
+        "website": "http://www.forfun.tw/"
       }
     }
   ],
