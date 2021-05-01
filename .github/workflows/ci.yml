@@ -20,24 +20,16 @@ jobs:
         run: haxe build.hxml
       - name: Minify browser.js
         run: npx browserify browser.js -g [ envify --NODE_ENV production ] -g uglifyify | npx terser --compress --mangle > static/browser.bundled.js
-      - uses: actions/upload-artifact@v1
-        with:
-          name: index
-          path: index.js
-      - uses: actions/upload-artifact@v1
-        with:
-          name: browser
-          path: static/browser.bundled.js
-      - uses: actions/upload-artifact@v1
-        with:
-          name: dclookup
-          path: dclookup.js
       - name: Compile Chrome extension
         run: haxe chrome-extension.hxml
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v2
         with:
-          name: chrome
-          path: chrome
+          name: artifact
+          path: |
+            index.js
+            static/browser.bundled.js
+            dclookup.js
+            chrome
       - name: Run test
         shell: bash
         run: haxe test.hxml "$GITHUB_EVENT_NAME"
@@ -56,22 +48,9 @@ jobs:
           cp -r /workspace/node_modules .
           cp -r /workspace/lib/dts2hx lib/
       - run: yarn
-      - uses: actions/download-artifact@v1
+      - uses: actions/download-artifact@v2
         with:
-          name: dclookup
-      - uses: actions/download-artifact@v1
-        with:
-          name: index
-      - uses: actions/download-artifact@v1
-        with:
-          name: browser
-      - name: move artifacts
-        run: |
-          set -ex
-          mv dclookup/* .
-          mv index/* .
-          mv browser/* static
-          rm -r dclookup index browser
+          name: artifact
       - name: Dump HKBASE directory
         run: |
           set -ex
