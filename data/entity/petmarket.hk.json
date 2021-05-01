@@ -1,0 +1,68 @@
+{
+  "id": "petmarket.hk",
+  "name": {
+    "en": "PetMarket"
+  },
+  "webpages": [
+    {
+      "url": "https://www.petmarket.com.hk"
+    },
+    {
+      "url": "https://www.facebook.com/petmarket.hk/",
+      "meta": {
+        "id": "592789490791303",
+        "username": "petmarket.hk",
+        "name": "PetMarket 寵物用品速遞",
+        "about": "購物滿＄300即可免費送貨！\n訂貨熱線：2414 3122\nWhatsapp：6339 4446",
+        "category_list": [
+          {
+            "id": "188573091164316",
+            "name": "Pet Store"
+          },
+          {
+            "id": "144982405562750",
+            "name": "Pet Service"
+          }
+        ],
+        "emails": [
+          "cs@petmarket.com.hk"
+        ],
+        "single_line_address": "Room A, 11/F, Wai Cheung Industrial Centre 5, Shek Pai Tau Road Tuen Mun, New Territories, 香港",
+        "website": "http://www.petmarket.com.hk/"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/petmarket.hk/posts/2684758828261015",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/petmarket.hk/posts/2826190624117834",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "animal",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room A, 11/F, Wai Cheung Industrial Centre 5, Shek Pai Tau Road Tuen Mun, New Territories"
+      },
+      "googleMapsPlaceId": "ChIJiTZltSX7AzQRSFX6en0jqR0",
+      "coordinates": {
+        "lat": 22.4005876,
+        "lng": 113.968378
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
+  ]
+}
