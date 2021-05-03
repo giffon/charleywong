@@ -769,10 +769,10 @@
     node-fetch "^2.6.0"
     shortid "^2.2.14"
 
-"@serverless/components@^3.9.0":
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/@serverless/components/-/components-3.9.0.tgz#918ac09880a41bd95902ad529f5cc6efc2c0bcaf"
-  integrity sha512-70RIPd9eW/T6vZ7y4Rn7xVBCqPlN7cPq0NRAkxlT6sa7efgSkVDb+JCtKzST2EJpz7w2V/G+eWZjIbbYw6ueMw==
+"@serverless/components@^3.9.1":
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/@serverless/components/-/components-3.9.1.tgz#eb3d0a26a98ca8e70155dd6d32620845b9ca8dbb"
+  integrity sha512-Eo8ubz8Id40K09mRH8OheHUinruNSjj4wMYZ5rRLxsMiFfT8wVCIr/hBClNN+VU9jd8SPyvfKGen7MoLSj+eYA==
   dependencies:
     "@serverless/platform-client" "^4.2.2"
     "@serverless/platform-client-china" "^2.1.9"
@@ -2735,10 +2735,10 @@ aws-lambda-fastify@1.4.4:
   resolved "https://registry.yarnpkg.com/aws-lambda-fastify/-/aws-lambda-fastify-1.4.4.tgz#4ee8c823f9c271ff9944be4d8639d3ba1d87dda6"
   integrity sha512-o8BuMHFIHStKUSzp3vwmAjvl3ftjnv4E6SY3f0Sy0jJwH/G81QzfUB3NakSPlnmDZ3CYr2lRvek2+LROT4vtRg==
 
-aws-sdk@^2.896.0:
-  version "2.897.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.897.0.tgz#cb3594639bd57badd4908870d7f77f814f6a3166"
-  integrity sha512-GnjnZ5kgmeGe1BW+wsfRJ8Hu5mU7py/GBLXikSgtNPbMmF66yTMfND99hpS5U7m3SSaHG0qBYGVySC7Z+U1AJA==
+aws-sdk@^2.897.0:
+  version "2.899.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.899.0.tgz#fac90b8926707b3e9dcd1e7d5937cfa71c0be5ca"
+  integrity sha512-k8jSANDQGvTyyj1f/7Hj4SWaV61/gjj/BopRmavAr6n1ayjXtUeVrV8G29+ABD3V82pHXDqLq47bqNmZ9m86xQ==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -9054,19 +9054,19 @@ serverless-prune-plugin@1.5.0:
   dependencies:
     bluebird "^3.4.7"
 
-serverless@2.39.0:
-  version "2.39.0"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.39.0.tgz#c5a24bdd2faf9609d3be236ac9139e6313b95536"
-  integrity sha512-0q7SB24DlbkYkDx2a05gFmbG5W1X35ylWCRmfX6rfNtZHQyIZeR8BxAQNHJHOxAed1O/vM8njkIm2uKQeDKROw==
+serverless@2.39.1:
+  version "2.39.1"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.39.1.tgz#d13b53a98d72c224a184258ba985898dfbee8e08"
+  integrity sha512-I2yOV/6HJG2xTXCI1N0uTSTXNyM/PJf38IR6RtVDoRxqFfxyYyVCzF2yYrYZ9r182RazG0Hc6WhNDIpqy+DBKQ==
   dependencies:
     "@serverless/cli" "^1.5.2"
-    "@serverless/components" "^3.9.0"
+    "@serverless/components" "^3.9.1"
     "@serverless/enterprise-plugin" "^4.5.3"
     "@serverless/utils" "^4.1.0"
     ajv "^6.12.6"
     ajv-keywords "^3.5.2"
     archiver "^5.3.0"
-    aws-sdk "^2.896.0"
+    aws-sdk "^2.897.0"
     bluebird "^3.7.2"
     boxen "^5.0.1"
     cachedir "^2.3.0"
