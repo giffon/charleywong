@@ -2735,10 +2735,10 @@ aws-lambda-fastify@1.4.4:
   resolved "https://registry.yarnpkg.com/aws-lambda-fastify/-/aws-lambda-fastify-1.4.4.tgz#4ee8c823f9c271ff9944be4d8639d3ba1d87dda6"
   integrity sha512-o8BuMHFIHStKUSzp3vwmAjvl3ftjnv4E6SY3f0Sy0jJwH/G81QzfUB3NakSPlnmDZ3CYr2lRvek2+LROT4vtRg==
 
-aws-sdk@^2.897.0:
-  version "2.899.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.899.0.tgz#fac90b8926707b3e9dcd1e7d5937cfa71c0be5ca"
-  integrity sha512-k8jSANDQGvTyyj1f/7Hj4SWaV61/gjj/BopRmavAr6n1ayjXtUeVrV8G29+ABD3V82pHXDqLq47bqNmZ9m86xQ==
+aws-sdk@^2.900.0:
+  version "2.900.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.900.0.tgz#1d528ae45295ac5ca36ca6afa1fcdb615575b07a"
+  integrity sha512-MtLsmuE5z0F3+lEdybh8j8cThIN+VK0qF8Len83gpOaK5pj4D9aJNS95Tb7xZ0/3yqGzugk/+nRv9xXQq/Fkfg==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -9054,10 +9054,10 @@ serverless-prune-plugin@1.5.0:
   dependencies:
     bluebird "^3.4.7"
 
-serverless@2.39.1:
-  version "2.39.1"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.39.1.tgz#d13b53a98d72c224a184258ba985898dfbee8e08"
-  integrity sha512-I2yOV/6HJG2xTXCI1N0uTSTXNyM/PJf38IR6RtVDoRxqFfxyYyVCzF2yYrYZ9r182RazG0Hc6WhNDIpqy+DBKQ==
+serverless@2.39.2:
+  version "2.39.2"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.39.2.tgz#bb9ff9bbcc3a9abf2b34316b192eebfa5174ae63"
+  integrity sha512-Ycv6RaqzgI9hHuuhpjLP+cD7q3hbvwzXxJ0r55T4H2RliRKzh1asbNiAql9QgsBN9KCENi7pMGPSgYhdvRbU7w==
   dependencies:
     "@serverless/cli" "^1.5.2"
     "@serverless/components" "^3.9.1"
@@ -9066,7 +9066,7 @@ serverless@2.39.1:
     ajv "^6.12.6"
     ajv-keywords "^3.5.2"
     archiver "^5.3.0"
-    aws-sdk "^2.897.0"
+    aws-sdk "^2.900.0"
     bluebird "^3.7.2"
     boxen "^5.0.1"
     cachedir "^2.3.0"
