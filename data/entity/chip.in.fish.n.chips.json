@@ -30,11 +30,18 @@
         "single_line_address": "9 King Man Street, Sai Kung, 000000 Sai Kung, Hong Kong",
         "website": "http://www.chipin.com.hk"
       }
+    },
+    {
+      "url": "https://www.instagram.com/chip.in.fish.and.chips/",
+      "meta": {
+        "name": "Chip In Fish & Chips",
+        "about": "Fish & Chips 英式炸魚薯條🐟🍟\n全港首創炸Oreo! 愛心社企💕\n🇬🇧British Chippy, The only deep-fried Oreo in Hong Kong. Social Enterprise!"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/chip.in.fish.n.chips/photos/a.427623977348005/2282786938498357",
+      "url": "https://www.facebook.com/292560057521065/photos/a.427623977348005/2282786938498357",
       "meta": {
         "utime": "1572846466",
         "sharedWith": "Public"
@@ -52,6 +59,21 @@
     {
       "type": "eat",
       "id": 1414
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港西貢敬民街9號地下"
+      },
+      "googleMapsPlaceId": "ChIJ15AvXr0FBDQR11vlOvKtWuw",
+      "coordinates": {
+        "lat": 22.3817633,
+        "lng": 114.27314
+      },
+      "area": {
+        "zh": "西貢區"
+      }
     }
   ]
 }

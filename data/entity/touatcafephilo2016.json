@@ -1,11 +1,12 @@
 {
   "id": "touatcafephilo2016",
   "name": {
-    "zh": "左轉有書x慕哲咖啡"
+    "zh": "左轉有書",
+    "en": "TouatBooks"
   },
   "webpages": [
     {
-      "url": "http://touat.com.tw"
+      "url": "https://touat.com.tw"
     },
     {
       "url": "https://www.facebook.com/touatcafephilo2016/",
@@ -48,5 +49,20 @@
     "book",
     "shop",
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "台北市中正區鎮江街 3-1 號"
+      },
+      "googleMapsPlaceId": "ChIJUVKDdHCpQjQRu6G2pek-mU4",
+      "coordinates": {
+        "lat": 25.0444624,
+        "lng": 121.5216332
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    }
   ]
 }

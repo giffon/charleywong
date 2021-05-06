@@ -35,19 +35,47 @@
       "url": "https://www.instagram.com/borabeautyhk/",
       "meta": {
         "name": "Bora Beauty",
-        "about": "我們是香港良心店，最靚價錢，最大效果，無需hard sell。務求令每一個女人也可以更加美麗。每年更新器材，治療師10年經驗，本店獲獎無數。"
+        "about": "去斑·皮膚管理專家\n實現您的美來。Shape your beautiful future.\n📍觀塘｜尖沙咀｜銅鑼灣\n📞WhatsApp 6636 2236\n👇或瀏覽更多詳情"
       }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC2pBOFI1GKeusfSH_e1Eeow",
+      "meta": {
+        "id": "UC2pBOFI1GKeusfSH_e1Eeow",
+        "location": "Hong Kong",
+        "name": "Bora Beauty",
+        "about": ""
+      }
+    },
+    {
+      "url": "https://mewe.com/p/borabeauty"
     }
   ],
   "posts": [
     {
       "url": "https://www.instagram.com/p/B1S_ZBXniQX/"
+    },
+    {
+      "url": "https://www.instagram.com/p/CI0Bz7NDbkE/"
     }
   ],
   "tags": [
     "shop"
   ],
   "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣謝斐道500號維安商業大廈19樓"
+      },
+      "googleMapsPlaceId": "ChIJm29XHVEBBDQRNJ0E3QhjoYs",
+      "coordinates": {
+        "lat": 22.280929,
+        "lng": 114.1831586
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
     {
       "address": {
         "zh": "尖沙咀加連威老道39號太興商業大廈8樓"
@@ -59,6 +87,19 @@
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘巧明街111至113號富利廣場1106室"
+      },
+      "googleMapsPlaceId": "ChIJy5OvJasBBDQRabVMZdxU2EU",
+      "coordinates": {
+        "lat": 22.3118841,
+        "lng": 114.2244217
+      },
+      "area": {
+        "zh": "觀塘區"
       }
     }
   ],

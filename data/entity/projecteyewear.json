@@ -23,6 +23,13 @@
         "website": "http://projecteyewear.wordpress.com"
       },
       "url": "https://www.facebook.com/projecteyewear/"
+    },
+    {
+      "url": "https://www.instagram.com/projecteyewear/",
+      "meta": {
+        "name": "PROJECT EYEWEAR ✯✯ SINCE2006",
+        "about": "✨PROJECTEYEWEAR ✨\n✨✨SINCE 2006✨✨\n👓Select Optical Shop in HK 🌏\n星期一 及 星期四 休息二天\n星期二 三 五 六 日 照常營業\n☀Monday & Thursday holiday\n🕑2pm~🕗8:00\n📞2882-1648"
+      }
     }
   ],
   "posts": [
@@ -40,6 +47,21 @@
     {
       "type": "shop",
       "id": 2184
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣駱克道518號2樓"
+      },
+      "googleMapsPlaceId": "ChIJs14M6VYABDQR4wGB3s1ySlo",
+      "coordinates": {
+        "lat": 22.28058709999999,
+        "lng": 114.1836327
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ]
 }
