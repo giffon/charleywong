@@ -57,15 +57,15 @@
   "places": [
     {
       "address": {
-        "en": "7/F, SOGO, 555 Hennessy Road, Causeway Bay"
+        "en": "G/F, 21 Heung Shing Street, Tsuen Wan"
       },
-      "googleMapsPlaceId": "ChIJXeKPllYABDQRA8F44bKsKxk",
+      "googleMapsPlaceId": "ChIJj_Vwru_4AzQRWEXH_NAG6Dc",
       "coordinates": {
-        "lat": 22.2802999,
-        "lng": 114.1844892
+        "lat": 22.371842,
+        "lng": 114.1108288
       },
       "area": {
-        "zh": "灣仔區"
+        "zh": "荃灣區"
       }
     },
     {
@@ -83,15 +83,15 @@
     },
     {
       "address": {
-        "en": "Shop B242, B2, K11 Musea, Victoria Dockside, 18 Salisbury Road, Tsim Sha Tsui"
+        "en": "7/F, SOGO, 555 Hennessy Road, Causeway Bay"
       },
-      "googleMapsPlaceId": "ChIJJaeB3_MBBDQRMuGmb2yQxGE",
+      "googleMapsPlaceId": "ChIJXeKPllYABDQRA8F44bKsKxk",
       "coordinates": {
-        "lat": 22.294059,
-        "lng": 114.1741227
+        "lat": 22.2802999,
+        "lng": 114.1844892
       },
       "area": {
-        "zh": "油尖旺區"
+        "zh": "灣仔區"
       }
     },
     {
@@ -118,19 +118,6 @@
       },
       "area": {
         "zh": "觀塘區"
-      }
-    },
-    {
-      "address": {
-        "en": "Shop A229, 2/F, New Town Plaza Phase 3, Sha Tin"
-      },
-      "googleMapsPlaceId": "ChIJUy-mBq0HBDQRfF1HKv_D5fA",
-      "coordinates": {
-        "lat": 22.3811898,
-        "lng": 114.1880248
-      },
-      "area": {
-        "zh": "沙田區"
       }
     },
     {
@@ -203,6 +190,10 @@
     {
       "type": "shop",
       "id": 4700
+    },
+    {
+      "type": "shop",
+      "id": 5968
     }
   ]
 }

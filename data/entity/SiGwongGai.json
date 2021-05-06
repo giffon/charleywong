@@ -20,7 +20,7 @@
         "id": "100864391762122",
         "username": "SiGwongGai",
         "name": "時光雞",
-        "about": "屯門置樂青山坊2號華樂大廈G58號鋪\n\n主打韓式炸雞，重有好多精緻日韓小食，等你試食。",
+        "about": "時光雞：屯門置樂華樂大廈G58號鋪\n\n時光糖水：屯門置樂利寶大廈G3號鋪\n\n主打黃到仆街嘅韓式炸雞，潤到甩肺嘅港式糖水，各色精緻小食，日式炸生蠔，六款香口薯餅，等你試食啊！",
         "category_list": [
           {
             "id": "1802051720039034",
@@ -37,8 +37,7 @@
         ],
         "emails": [
           "info@lohonn.com"
-        ],
-        "website": "sigwonggai.com"
+        ]
       }
     },
     {
@@ -72,12 +71,25 @@
   "places": [
     {
       "address": {
-        "zh": "屯門置樂青山坊2號華樂大廈G58號鋪"
+        "zh": "屯門置樂青山坊2號華樂大廈G58號鋪 時光雞"
       },
       "googleMapsPlaceId": "ChIJxT_EBOz7AzQRIw7b9D5PmPQ",
       "coordinates": {
         "lat": 22.3888073,
         "lng": 113.9793187
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門置樂利寶大廈G3號鋪 時光糖水"
+      },
+      "googleMapsPlaceId": "ChIJBV2EwRX7AzQR2aLNQ-EA8MA",
+      "coordinates": {
+        "lat": 22.3884239,
+        "lng": 113.9792027
       },
       "area": {
         "zh": "屯門區"
@@ -88,6 +100,10 @@
     {
       "type": "eat",
       "id": 5373
+    },
+    {
+      "type": "eat",
+      "id": 5960
     }
   ]
 }
