@@ -30,6 +30,16 @@
         "single_line_address": "香港元朗喜業街7-11A號 嘉華工業大廈506室, Yuen Long, Hong Kong"
       },
       "url": "https://www.facebook.com/sawmusichk/"
+    },
+    {
+      "url": "https://www.instagram.com/saw_music_hk/",
+      "meta": {
+        "name": "SEITO @ S.A.W MUSIC",
+        "about": "SEITO @wharftwo_official 貳號碼頭\nMusic & Cats 🎸🐈🐾🥁\n樂器教學。維修。出租。出售。\nband房出租。演出。音樂合作\nJob Contact: 6156 1694 (whatsapp/signal)"
+      }
+    },
+    {
+      "url": "https://mewe.com/p/sawmusic"
     }
   ],
   "posts": [
@@ -51,6 +61,21 @@
     {
       "type": "shop",
       "id": 843
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港元朗喜業街7-11A號 嘉華工業大廈506室"
+      },
+      "googleMapsPlaceId": "ChIJD0qi5qbwAzQRtdZ94vZXWT4",
+      "coordinates": {
+        "lat": 22.4494556,
+        "lng": 114.0283918
+      },
+      "area": {
+        "zh": "元朗區"
+      }
     }
   ]
 }
