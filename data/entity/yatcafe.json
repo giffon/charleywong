@@ -1,0 +1,98 @@
+{
+  "id": "yatcafe",
+  "name": {
+    "zh": "一冰廳"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/yatcafe/",
+      "meta": {
+        "name": "一冰廳",
+        "about": "🌽🍜🍅🍝☕️\n營業時間：\n土瓜灣店 星期一至六 07:00～17:30\n九龍灣店 星期一至六 07:00～17:00\n🌟🌟🌟🌟🌟🌟🌟🌟\n星期日及勞工假期休息\n🌟🌟🌟🌟🌟🌟🌟🌟\n每日不同餐單此中尋👇🏻\n土瓜灣店 @yatcafemenu\n九龍灣店 @yatcafekbmenu"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/yatcafemenu/",
+      "meta": {
+        "name": "一冰廳土瓜灣店餐牌",
+        "about": "🌽🍜🍅🌶🍝🍞🍳☕️🥤\n營業時間：\n星期一至六 07:00～17:30\n星期日及勞工假期休息\n☎️ 2333 9835\n📱📲WhatsApp外送落單5518 5112\n九龍土瓜灣長寧街53號地舖"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/yatcafekbmenu/",
+      "meta": {
+        "name": "一冰廳九龍灣店",
+        "about": "一冰廳九龍灣店餐牌\n🌽🍜🍅🌶🍝🍞🍳☕️🥤\n營業時間：\n星期一至六 07:00～17:00\n星期日及勞工假期休息\n☎️ 2624 8318、2624 9987\n📱📲WhatsApp 外送落單 5403 3439"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.facebook.com/283162522220576/",
+      "meta": {
+        "id": "283162522220576",
+        "name": "一冰廳",
+        "about": "土瓜灣店\n九龍土瓜灣長寜街53號地下\n電話：5518 5112\n\n九龍灣店\n九龍灣宏照道鴻力工業中心A座地下2號舖\n電話：5403 3439",
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
+        ],
+        "single_line_address": "香港",
+        "website": "https://www.instagram.com/yatcafe/"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/B4xLuz1DnUe/"
+    },
+    {
+      "url": "https://www.instagram.com/p/CAqPF0cDS5U/"
+    },
+    {
+      "url": "https://www.instagram.com/p/CAweDDHj0Sj/"
+    },
+    {
+      "url": "https://www.instagram.com/p/CHzywlFDJtq/"
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍土瓜灣長寜街53號地下"
+      },
+      "googleMapsPlaceId": "ChIJcfgzk9cABDQRSrQCBp_v9OY",
+      "coordinates": {
+        "lat": 22.3178805,
+        "lng": 114.1899546
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍灣宏照道鴻力工業中心A座地下2號舖"
+      },
+      "googleMapsPlaceId": "ChIJA1uCZx4BBDQRaOrj04cA-yM",
+      "coordinates": {
+        "lat": 22.3226388,
+        "lng": 114.2084927
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1450
+    }
+  ]
+}
