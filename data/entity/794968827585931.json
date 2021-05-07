@@ -1,7 +1,8 @@
 {
   "id": "794968827585931",
   "name": {
-    "zh": "閨•家"
+    "zh": "閨•家",
+    "en": "Homie Food & Dessert"
   },
   "webpages": [
     {
@@ -9,15 +10,19 @@
       "meta": {
         "id": "794968827585931",
         "name": "閨•家",
-        "about": "北角分店\n營業時間：7:00am-22:00pm\n店舖地址:炮台山蜆殼街寶榮大廈地下F舖\n\n深水埗分店\n營業時間：11:30am-21:00pm\n店舖地址：深水埗西九龍中心3樓319號\n\n等你 閨·家",
+        "about": "按此查閱分店資料\n\n\n屯門\n營業時間：7:00-02:00\n河傍街148號地下\n電話: 56662923\n\n北角\n營業時間：7:00-22:00\n寶榮大廈地下F舖\n電話: 56661316\n\n深水埗\n營業時間：11:30-21:00\n西九龍中心319號\n電話: 56660120",
         "category_list": [
           {
             "id": "273819889375819",
             "name": "Restaurant"
           }
         ],
-        "single_line_address": "屯門富健花園地下40號舖, 香港"
+        "single_line_address": "香港",
+        "website": "www.homiefoodgroup.com"
       }
+    },
+    {
+      "url": "https://mewe.com/p/%E9%96%A8%E5%AE%B6"
     }
   ],
   "posts": [
@@ -54,10 +59,10 @@
       "address": {
         "zh": "炮台山蜆殼街寶榮大廈地下F舖"
       },
-      "googleMapsPlaceId": "ChIJnWiU3AEBBDQRFXyOA5LNmM4",
+      "googleMapsPlaceId": "ChIJ2d9S4eQBBDQRLbrkFORcTrs",
       "coordinates": {
-        "lat": 22.287022,
-        "lng": 114.192127
+        "lat": 22.2869818,
+        "lng": 114.1921918
       },
       "area": {
         "zh": "灣仔區"
@@ -75,6 +80,19 @@
       "area": {
         "zh": "深水埗區"
       }
+    },
+    {
+      "address": {
+        "zh": "屯門河傍街148號美基樓地下A舖"
+      },
+      "googleMapsPlaceId": "ChIJGwIs_CL7AzQRsnUWPHDtqNQ",
+      "coordinates": {
+        "lat": 22.39786999999999,
+        "lng": 113.974672
+      },
+      "area": {
+        "zh": "屯門區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -89,6 +107,10 @@
     {
       "type": "eat",
       "id": 5495
+    },
+    {
+      "type": "eat",
+      "id": 5963
     }
   ]
 }
