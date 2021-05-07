@@ -1,11 +1,15 @@
 {
   "id": "zuk.studio",
   "name": {
-    "zh": "觸STUDIO"
+    "zh": "觸STUDIO",
+    "en": "Zuk Studio"
   },
   "webpages": [
     {
       "url": "http://www.zuk-studio.com"
+    },
+    {
+      "url": "https://www.zukonlineshop.com"
     },
     {
       "meta": {
@@ -26,6 +30,28 @@
         "website": "http://www.zuk-studio.com"
       },
       "url": "https://www.facebook.com/zuk.studio/"
+    },
+    {
+      "url": "https://www.instagram.com/zukstudio/",
+      "meta": {
+        "name": "ZUK STUDIO",
+        "about": "觸STUDIO。Rehearsal studio。Instrument course。Concert production。\n☎️2395-3332\nUNISON。大學獨立音樂巡演\n@unison.hk\n本土音樂。文化。手作。網上商店\n@zuk.onlineshop"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/zuk.onlineshop/",
+      "meta": {
+        "name": "觸OnlineShop",
+        "about": "屬於觸Studio @zukstudio 的網店🔥⁣買禮物嘅好去處！\n⁣\n🛒支持 #香港設計 及 #音樂商品⁣\n📦門市自取(暫停)/ 順豐到付⁣\n🚚一般7至14日出貨⁣\n⁣\n👇🏻請到網站購買👇🏻"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC-5X7je5g1KJS8KPFCH5q5g",
+      "meta": {
+        "id": "UC-5X7je5g1KJS8KPFCH5q5g",
+        "name": "Zuk Hk",
+        "about": "觸STUDIO\nhttp://www.zuk-studio.com"
+      }
     }
   ],
   "posts": [
@@ -48,6 +74,21 @@
     {
       "type": "shop",
       "id": 1818
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍旺角亞皆老街83號　先施大廈311室"
+      },
+      "googleMapsPlaceId": "ChIJf7a_KsYABDQRyVMkKakT59c",
+      "coordinates": {
+        "lat": 22.3198836,
+        "lng": 114.1707827
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
