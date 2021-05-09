@@ -24,6 +24,13 @@
         "website": "http://www.runwaysnp.com"
       },
       "url": "https://www.facebook.com/runwaysnpstudio/"
+    },
+    {
+      "url": "https://www.instagram.com/runwaysnp_studio/",
+      "meta": {
+        "name": "模‧良品攝影室 Runwaysnp_Studio",
+        "about": "268畢業家庭相優惠👇👩‍🎓"
+      }
     }
   ],
   "posts": [
@@ -35,6 +42,22 @@
     }
   ],
   "tags": [
-    "photographer"
+    "photographer",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘成業街成業工業大廈209室"
+      },
+      "googleMapsPlaceId": "ChIJq6rqTEUBBDQRB1hVumLwHHc",
+      "coordinates": {
+        "lat": 22.3101147,
+        "lng": 114.2270687
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
