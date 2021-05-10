@@ -1,7 +1,7 @@
 {
   "id": "permamigo",
   "name": {
-    "zh": "綠續友徠。荔枝窩"
+    "zh": "綠續友徠"
   },
   "webpages": [
     {
@@ -12,7 +12,7 @@
       "meta": {
         "id": "866149413482236",
         "username": "permamigo",
-        "name": "綠續友徠。荔枝窩",
+        "name": "綠續友徠",
         "about": "綠色生活、樸門永續耕作、交朋結友、以廣徠徠",
         "category_list": [
           {
@@ -26,6 +26,12 @@
         "single_line_address": "荔枝窩 Lai Chi Wo, 香港",
         "website": "https://mewe.com/join/綠續友徠permamigo"
       }
+    },
+    {
+      "url": "https://mewe.com/i/permamigohk"
+    },
+    {
+      "url": "https://mewe.com/join/%E7%B6%A0%E7%BA%8C%E5%8F%8B%E5%BE%A0permamigo"
     }
   ],
   "posts": [
@@ -61,6 +67,25 @@
     {
       "type": "shop",
       "id": 1642
+    },
+    {
+      "type": "shop",
+      "id": 5989
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荔枝窩"
+      },
+      "googleMapsPlaceId": "ChIJZYMJx8gNBDQRzid1HjuO_Gw",
+      "coordinates": {
+        "lat": 22.5264725,
+        "lng": 114.25897
+      },
+      "area": {
+        "zh": "北區"
+      }
     }
   ]
 }
