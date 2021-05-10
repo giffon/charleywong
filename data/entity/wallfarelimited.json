@@ -61,5 +61,20 @@
   "tags": [
     "shop",
     "media"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍荔枝角青山道485號九龍廣場11樓01室"
+      },
+      "googleMapsPlaceId": "ChIJGVJ1c1QHBDQRuOpB6E8vpHA",
+      "coordinates": {
+        "lat": 22.3385366,
+        "lng": 114.1494626
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
