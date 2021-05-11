@@ -1,0 +1,101 @@
+{
+  "id": "greeneasternworld",
+  "name": {
+    "zh": "綠色東方"
+  },
+  "webpages": [
+    {
+      "url": "https://www.greeneastern.co"
+    },
+    {
+      "url": "https://www.facebook.com/greeneasternworld/",
+      "meta": {
+        "id": "1837166396571039",
+        "username": "greeneasternworld",
+        "name": "綠色東方・健康生活概念店",
+        "about": "綠色，代表生命\n東方，意味著未來\n中醫領域專業人士尋遍全球角落匯集最優質天然的保健及美容產品。",
+        "category_list": [
+          {
+            "id": "198722103478014",
+            "name": "Health Food Store"
+          },
+          {
+            "id": "144873802247220",
+            "name": "Cosmetics Store"
+          }
+        ],
+        "emails": [
+          "info@greeneastern.co"
+        ],
+        "single_line_address": "26/F, Billion Plaza, 8 Cheung Yue Street, Cheung Sha Wan, 九龍",
+        "website": "http://www.greeneastern.co"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCM-I9Cv9RX_aiQxch900qkQ",
+      "meta": {
+        "id": "UCM-I9Cv9RX_aiQxch900qkQ",
+        "location": "Hong Kong",
+        "name": "綠色東方健康生活概念店",
+        "about": ""
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/greeneasternworld/posts/2366508430303497",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/greeneasternworld/posts/2448868342067505",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/greeneasternworld/posts/2598209780466693",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍長沙灣長裕街8號億京廣場（一期）26樓"
+      },
+      "googleMapsPlaceId": "ChIJN8KlFaAHBDQRAp8XXqawTs4",
+      "coordinates": {
+        "lat": 22.3366051,
+        "lng": 114.1506648
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵芳葵涌廣場二樓C125A&C125B舖"
+      },
+      "googleMapsPlaceId": "ChIJ-2PRyb34AzQRvcW0QZ2iWlY",
+      "coordinates": {
+        "lat": 22.3580926,
+        "lng": 114.1274902
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 5970
+    }
+  ]
+}
