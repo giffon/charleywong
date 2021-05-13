@@ -812,10 +812,10 @@
     ramda "^0.26.1"
     semver "^6.1.1"
 
-"@serverless/enterprise-plugin@^4.6.0":
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/@serverless/enterprise-plugin/-/enterprise-plugin-4.6.0.tgz#46aedfb544f6b41f6a5f2eb5b84f9f5df8cbe4c1"
-  integrity sha512-RxpxEVHnkNk08kETD2XOxFtUc+pAOrljeffQRyGE1INAtQGtvy8WvV50oSPJXsB7lqbZIomjlVk2gj0hzcGLHg==
+"@serverless/dashboard-plugin@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@serverless/dashboard-plugin/-/dashboard-plugin-5.0.0.tgz#f0323375371e8b1c58fd9d43547cccf7773cf100"
+  integrity sha512-UlXkZdcDTClNNZivbfbxjujaZ/FVl5wjU3FsLdbv+FDkzDGwQ4LlSH0w25Zye076t4Nncf/WZrq5QHb5goPceQ==
   dependencies:
     "@serverless/event-mocks" "^1.1.1"
     "@serverless/platform-client" "^4.2.2"
@@ -2735,10 +2735,10 @@ aws-lambda-fastify@1.4.4:
   resolved "https://registry.yarnpkg.com/aws-lambda-fastify/-/aws-lambda-fastify-1.4.4.tgz#4ee8c823f9c271ff9944be4d8639d3ba1d87dda6"
   integrity sha512-o8BuMHFIHStKUSzp3vwmAjvl3ftjnv4E6SY3f0Sy0jJwH/G81QzfUB3NakSPlnmDZ3CYr2lRvek2+LROT4vtRg==
 
-aws-sdk@^2.904.0:
-  version "2.905.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.905.0.tgz#35f9a7af77ecc0f62598b9498aee7c90b7ace5c5"
-  integrity sha512-5A12gp+DCkJBdu3U2UvAHUACgd69NEqDBB+XUlGxaiO7a7T7y+9Azr3GKGFVICZ/vbr2Or7bUm4//wu3LVPnsg==
+aws-sdk@^2.906.0:
+  version "2.906.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.906.0.tgz#c85ebb6257865b97d6a88c6d89aeb9b6075744df"
+  integrity sha512-u/kmVILew/9HFpHwVrc3VMK24m+XrazXEooMxkzbWXEBvtVm1xTYv8xPmdgiYvogWIkWTkeIF9ME4LBeHenYkw==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -4363,10 +4363,15 @@ dot-qs@0.2.0:
   resolved "https://registry.yarnpkg.com/dot-qs/-/dot-qs-0.2.0.tgz#d36517fe24b7cda61fce7a5026a0024afaf5a439"
   integrity sha1-02UX/iS3zaYfznpQJqACSvr1pDk=
 
-dotenv@^8.2.0, dotenv@^8.6.0:
+dotenv@^8.2.0:
   version "8.6.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.6.0.tgz#061af664d19f7f4d8fc6e4ff9b584ce237adcb8b"
   integrity sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g==
+
+dotenv@^9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-9.0.2.tgz#dacc20160935a37dea6364aa1bef819fb9b6ab05"
+  integrity sha512-I9OvvrHp4pIARv4+x9iuewrWycX6CcZtoAu1XrzPxc5UygMJXJZYmBsynku8IkrJwgypE5DGNjDPmPRhDCptUg==
 
 download@^8.0.0:
   version "8.0.0"
@@ -9054,19 +9059,19 @@ serverless-prune-plugin@1.5.0:
   dependencies:
     bluebird "^3.4.7"
 
-serverless@2.41.1:
-  version "2.41.1"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.41.1.tgz#8d86b777322c39c54cb82d7bb218cfa0917cbdda"
-  integrity sha512-6X+EO5+RNYS651KNWHYp6BSIsGkS99tOHmUyPyGNp7dLxM6+ggZpXN32K7EGbOAY3T0mO0/VG6MNmTNfPtuOPQ==
+serverless@2.41.2:
+  version "2.41.2"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.41.2.tgz#1d4de12aa282ef211d573d08466c7e67ed129355"
+  integrity sha512-O/wM+i0zIOLZJZY9dKYDpHVCPUsLZZIKisVEzI0Yp4wh6VrjJSiIv9nidoDBUeo8fFsE7r1PchQopjUrds7hkA==
   dependencies:
     "@serverless/cli" "^1.5.2"
     "@serverless/components" "^3.9.2"
-    "@serverless/enterprise-plugin" "^4.6.0"
+    "@serverless/dashboard-plugin" "^5.0.0"
     "@serverless/utils" "^4.1.0"
     ajv "^6.12.6"
     ajv-keywords "^3.5.2"
     archiver "^5.3.0"
-    aws-sdk "^2.904.0"
+    aws-sdk "^2.906.0"
     bluebird "^3.7.2"
     boxen "^5.0.1"
     cachedir "^2.3.0"
@@ -9076,7 +9081,7 @@ serverless@2.41.1:
     d "^1.0.1"
     dayjs "^1.10.4"
     decompress "^4.2.1"
-    dotenv "^8.6.0"
+    dotenv "^9.0.2"
     download "^8.0.0"
     essentials "^1.1.1"
     fastest-levenshtein "^1.0.12"
