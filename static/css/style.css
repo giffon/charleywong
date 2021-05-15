@@ -12,6 +12,10 @@ form {
     margin: 0;
 }
 
+.whitespace-nowrap {
+    white-space: nowrap;
+}
+
 .fb-like-button {
     max-height: 1.5em;
     max-width: 10em;
