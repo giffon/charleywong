@@ -1,9 +1,13 @@
 {
   "id": "morncreations",
   "name": {
-    "en": "Morn Creations"
+    "en": "Morn Creations",
+    "zh": "日出意念"
   },
   "webpages": [
+    {
+      "url": "https://www.morn-creations.com"
+    },
     {
       "meta": {
         "id": "107025929327782",
@@ -33,7 +37,11 @@
       "url": "https://www.facebook.com/morncreations/"
     },
     {
-      "url": "https://www.morn-creations.com"
+      "url": "https://www.instagram.com/morncreations/",
+      "meta": {
+        "name": "Morn Creations",
+        "about": "Original Animal Shaped Bag design from Hong Kong 🇭🇰Designer: Steve Chan www.morn.com.hk @morncreations #morncreations"
+      }
     }
   ],
   "posts": [
@@ -45,12 +53,28 @@
     }
   ],
   "tags": [
-    "accessories"
+    "accessories",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 992
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "鴨寮街117地下"
+      },
+      "googleMapsPlaceId": "ChIJEzLizbYABDQRyM7k2sfLqjs",
+      "coordinates": {
+        "lat": 22.328739,
+        "lng": 114.163532
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ]
 }
