@@ -205,7 +205,7 @@ class View extends ReactComponent {
 
             <footer className="color_black_o60 py-3">
                 <p>
-                    Copyright (C) 2020  <a href="https://giffon.io">Giffon Limited</a>
+                    Copyright (C) 2020-2021 <a href="https://giffon.io">Giffon Limited</a>
                 </p>
                 <p>
                     <a href="https://giffon.io/terms">Terms and Conditions</a> <a href="https://giffon.io/privacy">Privacy Policy</a>
