@@ -1,7 +1,8 @@
 {
   "id": "dawnkitchenhk",
   "name": {
-    "en": "Dawn Kitchen"
+    "en": "Dawn Kitchen",
+    "zh": "手足廚房"
   },
   "webpages": [
     {
@@ -28,6 +29,31 @@
         "name": "手足廚房",
         "about": "手足廚房冀盼能回報各手足的付出，\n讓手足學習一門新的技能並聘請手足工作，\n好讓手足能自食其力，先照顧好自己，\n才能照顧更多的同路人!\n我哋旨在使用優質的原材料，\n製作出各種高品質產品，\n希望透過最好的良心產品\n去回報各位支持「 手足廚房」嘅 香·港·人 !Facebook: 手足廚房"
       }
+    },
+    {
+      "meta": {
+        "id": "100129758238674",
+        "username": "yellowsiblings",
+        "name": "Dawn Kitchen",
+        "about": "我哋旨在使用優質的原材料，製作出各種高品質產品，希望透過最好的良心產品去回報各位支持 嘅 香·港·人 !!\n\n",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/Cooking"
+          },
+          {
+            "id": "644728732639272",
+            "name": "Not a Business"
+          }
+        ],
+        "website": "https://yellowsiblings.wixsite.com/fivedemands"
+      },
+      "url": "https://www.facebook.com/yellowsiblings/",
+      "hidden": true
     }
   ],
   "posts": [
@@ -59,5 +85,14 @@
   "tags": [
     "food",
     "shop"
+  ],
+  "alias": [
+    "yellowsiblings"
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 1769
+    }
   ]
 }
