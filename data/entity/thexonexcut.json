@@ -23,7 +23,7 @@
       "url": "https://www.instagram.com/thexonexcut/",
       "meta": {
         "name": "thexonexcut",
-        "about": "一剪•單一•專注\n提供單剪服務\n單剪收費$60\n🧤場內定時噴消毒噴霧\n🧤提供消毒搓手液\n🧤每天消洗圍布\n地址：深水埗欽州街112號地舖 (地鐵站行3分鐘 近嘉頓)"
+        "about": "一剪•單一•專注\n提供單剪服務\n單剪收費$60\n🧤場內定時噴消毒噴霧\n🧤提供消毒搓手液\n🧤每天清洗圍布\n地址：深水埗欽州街112號地舖 (地鐵站行3分鐘 近嘉頓)\n地址：長沙灣元州街388號肇如大廈地舖 (HKTVMALL格黎)\n營業時間：1030am-9pm"
       }
     }
   ],
@@ -54,12 +54,25 @@
   "places": [
     {
       "address": {
-        "zh": "深水埗, 欽州街, 112號, 地鋪"
+        "zh": "深水埗欽州街112號地舖"
       },
       "googleMapsPlaceId": "ChIJ0e6bt5QHBDQRBXA4M9Ebdno",
       "coordinates": {
         "lat": 22.3331091,
         "lng": 114.1625233
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "長沙灣元州街388號肇如大廈地舖"
+      },
+      "googleMapsPlaceId": "ChIJNU-zCVIHBDQRa5VyGz4BsX8",
+      "coordinates": {
+        "lat": 22.3384829,
+        "lng": 114.1555137
       },
       "area": {
         "zh": "深水埗區"
@@ -70,6 +83,10 @@
     {
       "type": "shop",
       "id": 1139
+    },
+    {
+      "type": "shop",
+      "id": 5992
     }
   ]
 }
