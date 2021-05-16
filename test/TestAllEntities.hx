@@ -168,6 +168,7 @@ class TestAllEntities extends utest.Test {
         }
     }
 
+    @Ignored
     function testNumWebpages() {
         for (file => entity in index.entities) {
             Assert.isTrue(entity.webpages.filter(p -> p.hidden != true).length <= 9, '${file} has too many webpages, hide some?');
