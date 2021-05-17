@@ -7428,10 +7428,10 @@ ms@2.1.2, ms@^2.0.0, ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-mutation-summary@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/mutation-summary/-/mutation-summary-0.1.1.tgz#0cbdb0c991b1fb259657cc82b9e5710a53a416a9"
-  integrity sha1-DL2wyZGx+yWWV8yCueVxClOkFqk=
+mutation-summary@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/mutation-summary/-/mutation-summary-1.0.0.tgz#488078e8f39becc29450438b24644a3bf81ef7bc"
+  integrity sha512-6+uYx4BJ9OtHsfQ3NRrcV8xXNZHf2yMU1CYJuM4rTpDA8xt+6SXUbSX4I4zo+5UOXTW4sLMyPG/C0VS35rHK/w==
 
 mute-stream@0.0.7:
   version "0.0.7"
