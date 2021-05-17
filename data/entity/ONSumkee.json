@@ -79,5 +79,20 @@
       "type": "eat",
       "id": 18
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門青河坊3號利寶大廈地下102號舖"
+      },
+      "googleMapsPlaceId": "ChIJr6cT3RX7AzQRh9sU5p3Gnao",
+      "coordinates": {
+        "lat": 22.3884864,
+        "lng": 113.9790689
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
   ]
 }
