@@ -1,9 +1,13 @@
 {
   "id": "kaka.artworkshop",
   "name": {
-    "zh": "嘉嘉姐姐小教室"
+    "zh": "嘉嘉姐姐小教室",
+    "en": "Ka Ka Art Workshop"
   },
   "webpages": [
+    {
+      "url": "http://www.kaka-arttherapy.org"
+    },
     {
       "meta": {
         "id": "326515034102474",
@@ -22,11 +26,45 @@
         "single_line_address": "九龍觀塘興業街16-18號美興工業大廈A座7樓703A室, 00 Kowloon Bay, Hong Kong"
       },
       "url": "https://www.facebook.com/kaka.artworkshop/"
+    },
+    {
+      "meta": {
+        "id": "1972040676442017",
+        "username": "kakapastelnagomiart",
+        "name": "嘉嘉的和諧粉彩Pastel Nagomi Art",
+        "about": "嘉嘉老師-日本和諧粉彩JPHAA認證正指導師\n國家認可繪畫心理分析師導師,國家認可心理諮商師\n從事藝術教育工作，藝術心理治療及遊戲治療多年，更於多間機構擔任心理及藝術治療講師\n",
+        "category_list": [
+          {
+            "id": "1080612391976317",
+            "name": "Visual Arts"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
+        ],
+        "emails": [
+          "info@kaka-arttherapy.org"
+        ],
+        "single_line_address": "九龍觀塘興業街16-18號美興工業大廈A座7樓703A室, 000 Kowloon, Hong Kong",
+        "website": "http://www.kaka-arttherapy.org"
+      },
+      "url": "https://www.facebook.com/kakapastelnagomiart/"
+    },
+    {
+      "url": "https://www.instagram.com/kaka_art_workshop/",
+      "meta": {
+        "name": "嘉嘉姐姐小教室",
+        "about": "嘉嘉姐姐小教室\n❤️觀塘教室～主要服務：中小學視藝課，成人藝術課程，日本和諧粉彩體驗班，和諧粉彩準指導師班，日本和諧粉彩正指導師課、成人課程，心理輔導，藝術治療"
+      }
+    },
+    {
+      "url": "https://mewe.com/p/%E5%98%89%E5%98%89%E5%A7%90%E5%A7%90%E5%B0%8F%E6%95%99%E5%AE%A4"
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/kaka.artworkshop/photos/a.326516310769013/2643210875766200"
+      "url": "https://www.facebook.com/kakapastelnagomiart/posts/2344655115847236"
     },
     {
       "url": "https://www.facebook.com/kaka.artworkshop/posts/2655709057849715"
@@ -45,5 +83,23 @@
       "type": "shop",
       "id": 1359
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘興業街16-18號美興工業大廈A座7樓703A室"
+      },
+      "googleMapsPlaceId": "ChIJ-_MYHUUBBDQRalxB3-c-ltI",
+      "coordinates": {
+        "lat": 22.3088856,
+        "lng": 114.225174
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "alias": [
+    "kakapastelnagomiart"
   ]
 }
