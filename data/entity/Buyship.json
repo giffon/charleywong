@@ -1,0 +1,113 @@
+{
+  "id": "Buyship",
+  "name": {
+    "en": "Buyship Express"
+  },
+  "webpages": [
+    {
+      "url": "https://buyship.com"
+    },
+    {
+      "url": "https://www.facebook.com/Buyship.HongKong/",
+      "meta": {
+        "id": "102317848529642",
+        "username": "Buyship.HongKong",
+        "name": "Buyship Express Hong Kong",
+        "about": "Buyship主力經營香港至全球之速遞服務，我地會挑選價錢合理、時效快捷的速遞商作為合作伙伴，當中包括DHL、FEDEX、UPS、EMS等。",
+        "category_list": [
+          {
+            "id": "202313297006280",
+            "name": "Shipping Supply & Service"
+          }
+        ],
+        "single_line_address": "觀塘道396號毅力工業中心地下H2舖, 000000 香港",
+        "website": "www.buyship.com"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/Buyship.Canada/",
+      "meta": {
+        "id": "121170383063222",
+        "username": "Buyship.Canada",
+        "name": "Buyship Express Canada",
+        "about": "Buyship主力經營加拿大與香港、台灣、中國之速遞服務，於多倫多士嘉堡錦繡中華商場設有門店，香港設有自營自取點三十多個，我們也是中國郵政之合作伙伴。\n",
+        "category_list": [
+          {
+            "id": "1756049968005436",
+            "name": "E-commerce Website"
+          },
+          {
+            "id": "202313297006280",
+            "name": "Shipping Supply & Service"
+          }
+        ],
+        "single_line_address": "錦繡中華商場地下1A25鋪, 加拿大安大略省多伦多 M1V 4S5",
+        "website": "www.buyship.com"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/Buyship.HongKong/posts/142429247851835",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/Buyship.HongKong/posts/145005254260901",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/Buyship.HongKong/posts/153027090125384",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/Buyship.Canada/posts/280218897158369",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/Buyship.Canada/posts/280316663815259",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "courier",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘道396號毅力工業中心地下H2舖"
+      },
+      "googleMapsPlaceId": "ChIJu104P08BBDQRIbEFUXhMjrQ",
+      "coordinates": {
+        "lat": 22.3134298,
+        "lng": 114.2224727
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "en": "UNIT 1A25, 4675 STEELES AVE EAST, SCARBOROUGH, ON M1V 4S5, Canada"
+      },
+      "googleMapsPlaceId": "ChIJ6Y4NJZrX1IkRvDw7gLOHJok",
+      "coordinates": {
+        "lat": 43.8238712,
+        "lng": -79.3024224
+      },
+      "area": {
+        "zh": "加拿大"
+      }
+    }
+  ]
+}

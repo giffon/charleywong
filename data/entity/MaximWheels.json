@@ -1,0 +1,45 @@
+{
+  "id": "MaximWheels",
+  "name": {
+    "en": "Maxim Wheels & Tires"
+  },
+  "webpages": [
+    {
+      "url": "https://www.maximwheels.com"
+    },
+    {
+      "url": "https://www.maximwheels.net",
+      "hidden": true
+    },
+    {
+      "url": "https://www.facebook.com/MaximWheels/",
+      "meta": {
+        "name": "Maxim Wheels & Tires"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/HelloJoeTay/posts/3679120138875741"
+    }
+  ],
+  "tags": [
+    "automobile",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit 2B3 - 4675 Steeles Ave. E., Toronto, ON, M1V 0B7"
+      },
+      "googleMapsPlaceId": "ChIJPfsN8QjU1IkRABJ0pQTNBms",
+      "coordinates": {
+        "lat": 43.82387120000001,
+        "lng": -79.3024223
+      },
+      "area": {
+        "zh": "加拿大"
+      }
+    }
+  ]
+}
