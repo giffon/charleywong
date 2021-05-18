@@ -1,0 +1,69 @@
+{
+  "id": "soulmate_ramen",
+  "name": {
+    "zh": "素味謀麵",
+    "en": "Soulmate Ramen"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/100352938329845/",
+      "meta": {
+        "id": "100352938329845",
+        "name": "素味謀麵 Soulmate Ramen",
+        "about": "全港首創 純素拉麵\nHK's First & Only Vegan Ramen",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "中環和安里16號, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/soulmate_ramen/",
+      "meta": {
+        "name": "素味謀麵 Soulmate Ramen",
+        "about": "中環和安里16號\n16 Wo On Lane, Central"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=127651008933371&id=100352938329845",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/100352938329845/photos/a.137389384626200/156137002751438",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "中環和安里16號"
+      },
+      "googleMapsPlaceId": "ChIJgeEticgBBDQRG-ZuDbs5lY4",
+      "coordinates": {
+        "lat": 22.2816819,
+        "lng": 114.1552962
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2427
+    }
+  ]
+}
