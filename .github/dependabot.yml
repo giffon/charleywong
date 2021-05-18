@@ -6,15 +6,3 @@ updates:
     interval: daily
     time: "21:00"
   open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: serverless
-    versions:
-    - 2.25.1
-    - 2.37.1
-  - dependency-name: google-auth-library
-    versions:
-    - 7.0.0
-    - 7.0.3
-  - dependency-name: react
-    versions:
-    - 17.0.1
