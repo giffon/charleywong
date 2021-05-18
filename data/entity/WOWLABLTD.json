@@ -33,7 +33,7 @@
       "url": "https://www.instagram.com/wowlab.hk/",
       "meta": {
         "name": "WOW LAB Hong Kong",
-        "about": "熾工房\nWe will WoW you with our uniqueness and our quality of food."
+        "about": "熾工房\nWe will WoW you with our uniqueness and our quality of food.\n9 GF Kin Sun Lane, Cheung Chau\n111 GF High Street, Sai Ying Pun"
       }
     }
   ],
@@ -48,7 +48,7 @@
   "places": [
     {
       "address": {
-        "zh": "長洲建新里9 號地下 G/F 9, Kin San Lane"
+        "zh": "長洲建新里9 號地下"
       },
       "googleMapsPlaceId": "ChIJ1xNJg2FXATQRVKK4k5Wl-tU",
       "coordinates": {
@@ -58,12 +58,29 @@
       "area": {
         "zh": "離島區"
       }
+    },
+    {
+      "address": {
+        "zh": "西營盤高街111號地下"
+      },
+      "googleMapsPlaceId": "ChIJV5USzob_AzQRNshkKAJYhlg",
+      "coordinates": {
+        "lat": 22.2853081,
+        "lng": 114.1401034
+      },
+      "area": {
+        "zh": "中西區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 1260
+    },
+    {
+      "type": "eat",
+      "id": 5976
     }
   ]
 }
