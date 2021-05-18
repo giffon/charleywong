@@ -32,11 +32,26 @@
       "meta": {
         "name": "小林酷食"
       }
+    },
+    {
+      "url": "https://mewe.com/i/faithlam2"
     }
   ],
   "posts": [
     {
       "url": "https://www.facebook.com/permalink.php?story_fbid=178962093511136&id=105735110833835"
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=244246370316041&id=105735110833835",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=246456383428373&id=105735110833835",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
@@ -44,5 +59,20 @@
   ],
   "alias": [
     "105735110833835"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "中環堅道21-23號地下B舖"
+      },
+      "googleMapsPlaceId": "EhxDYWluZSBSZCwgQ2VudHJhbCwgSG9uZyBLb25nIi4qLAoUChIJPaiwNHoABDQRt7zlvTOjoD0SFAoSCb3RHaNkAAQ0EVK1zN47pwdQ",
+      "coordinates": {
+        "lat": 22.2809268,
+        "lng": 114.1524247
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }
