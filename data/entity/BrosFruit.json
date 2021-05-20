@@ -1,9 +1,13 @@
 {
   "id": "BrosFruit",
   "name": {
-    "zh": "巴打鮮菓"
+    "zh": "巴打鮮菓",
+    "en": "BrosFruit"
   },
   "webpages": [
+    {
+      "url": "https://brosfruit.com"
+    },
     {
       "meta": {
         "id": "278840489631967",
@@ -24,7 +28,8 @@
     {
       "url": "https://www.instagram.com/brosfruit/",
       "meta": {
-        "name": "BrosFruit"
+        "name": "BrosFruit",
+        "about": "九龍灣地址：宏泰道3-5號合力工業中心A座地下1號鋪\n😋為香港人帶來唔同世界各地嘅新鮮水菓\n🙆🏻‍♀️提供批發、散水生果、果籃、過大禮果籃以供選購\n😘有興趣或任何查詢\n歡迎隨時pm我地\n✨正價貨品買滿$380可以免費送貨，如未夠380需要加$50運費\n✨偏遠地區需正價貨品滿$500才可享有配送服務🥰"
       }
     }
   ],
@@ -50,6 +55,10 @@
     {
       "type": "shop",
       "id": 4459
+    },
+    {
+      "type": "shop",
+      "id": 6024
     }
   ],
   "places": [
@@ -77,6 +86,19 @@
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "元朗同樂街地下9號A1&A2連閣樓"
+      },
+      "googleMapsPlaceId": "EiM5IFR1bmcgTG9rIFN0LCBZdWVuIExvbmcsIEhvbmcgS29uZyIwEi4KFAoSCaGtg_ig8AM0EVyq2RC30ULPEAkqFAoSCVX_pfig8AM0EbcXlPVzoIDw",
+      "coordinates": {
+        "lat": 22.4450975,
+        "lng": 114.0277998
+      },
+      "area": {
+        "zh": "元朗區"
       }
     }
   ]
