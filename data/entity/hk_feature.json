@@ -12,7 +12,7 @@
       "url": "https://www.instagram.com/hk_feature/",
       "meta": {
         "name": "誌",
-        "about": "❚記錄香港 香港有誌，培訓公民記者，製作紀錄片，出版深度專題。專題空間 @hk_feature_territory 旺角區報 @mk.feature"
+        "about": "❚記錄香港 香港有誌，培訓公民記者，製作紀錄片，出版深度專題。專題空間 @hk_feature_territory 旺角區報 @mk.feature / podcast @hkfeature_podcast"
       }
     },
     {
@@ -33,6 +33,26 @@
         ],
         "single_line_address": "西洋菜南街44號3樓",
         "website": "https://www.hkfeature.com"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hkfeature.territory/",
+      "meta": {
+        "id": "108708020670284",
+        "username": "hkfeature.territory",
+        "name": "言志區",
+        "about": "以專題為主的網絡媒體《誌》於2019年7月成立，四名全職記者以言志區為工作基地，亦以此作培訓公民記者的中心。",
+        "category_list": [
+          {
+            "id": "370369022981015",
+            "name": "Movie/Television Studio"
+          }
+        ],
+        "emails": [
+          "chunhoikwan@zmakoto.com"
+        ],
+        "single_line_address": "西洋菜南街44號4樓, 001",
+        "website": "hkfeature.com"
       }
     }
   ],
@@ -70,5 +90,20 @@
   ],
   "tags": [
     "media"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "西洋菜南街44號4樓, 001"
+      },
+      "googleMapsPlaceId": "ChIJ73LAacMBBDQRst-98GpPFg0",
+      "coordinates": {
+        "lat": 22.3181325,
+        "lng": 114.1704088
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
