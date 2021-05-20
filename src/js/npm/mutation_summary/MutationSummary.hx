@@ -45,7 +45,7 @@ from CharacterDataQuery
 from AllQuery
 {}
 
-@:jsRequire("mutation-summary")
+@:jsRequire("mutation-summary", "MutationSummary")
 extern class MutationSummary {
     public function new(opts:{
         callback:Function,
