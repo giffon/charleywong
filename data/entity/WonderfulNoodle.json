@@ -1,0 +1,58 @@
+{
+  "id": "WonderfulNoodle",
+  "name": {
+    "zh": "麵一流",
+    "en": "Wonderful Noodle"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/332949880913773/",
+      "meta": {
+        "id": "332949880913773",
+        "name": "麵一流",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "九龍深水埗青山道62號B地下（近嘉頓麵包)"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=343157576559670&id=332949880913773",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/kamun.sin/posts/2539232089497700"
+    }
+  ],
+  "tags": [
+    "noodle"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍深水埗青山道62號B地下"
+      },
+      "googleMapsPlaceId": "ChIJT7ZTYUsHBDQRsMmzSouv5eE",
+      "coordinates": {
+        "lat": 22.3341903,
+        "lng": 114.162096
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1617
+    }
+  ]
+}
