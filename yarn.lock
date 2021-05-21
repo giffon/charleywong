@@ -5154,10 +5154,10 @@ fastify-plugin@^3.0.0:
   resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-3.0.0.tgz#cf1b8c8098e3b5a7c8c30e6aeb06903370c054ca"
   integrity sha512-ZdCvKEEd92DNLps5n0v231Bha8bkz1DjnPP/aEz37rz/q42Z5JVLmgnqR4DYuNn3NXAO3IDCPyRvgvxtJ4Ym4w==
 
-fastify-static@4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/fastify-static/-/fastify-static-4.2.1.tgz#c59e057da4f3c32fcebdd309850e4d0aac2918e8"
-  integrity sha512-cxukKJVenzDFnoFGZg2i2qbbqCJgJvq7dypvY/XrfrU7+9Ke1k2QqM3gfBp86RZW0oOW0QIU80aCCfNFTzixJQ==
+fastify-static@4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/fastify-static/-/fastify-static-4.2.2.tgz#48bd75bf23f2fb983395ce992a92448d78fe88bb"
+  integrity sha512-C631EuGdMlUzFXuuP4SqXBoQEiit9S0uYRd97cF2mFhgStvZvQKIjtzUk/GMQu6EfEdm0ddj3UAc0C6dVeNyKA==
   dependencies:
     content-disposition "^0.5.3"
     encoding-negotiator "^2.0.1"
