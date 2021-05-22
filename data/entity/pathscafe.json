@@ -1,0 +1,94 @@
+{
+  "id": "pathscafe",
+  "name": {
+    "en": "Paths Koffee & Rest Stop"
+  },
+  "webpages": [
+    {
+      "url": "https://pathscafe.com"
+    },
+    {
+      "url": "https://www.facebook.com/pathscafe/",
+      "meta": {
+        "id": "109593817349866",
+        "username": "pathscafe",
+        "name": "Paths Koffee & Rest Stop",
+        "about": "Path to a good coffee, and a rest.",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
+        ],
+        "emails": [
+          "info@pathscafe.com"
+        ],
+        "single_line_address": "Unit 303, Sing Win Factory Building, 15-17 Shing Yip Street, 00000 香港",
+        "website": "http://www.pathscafe.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/pathscafe/",
+      "meta": {
+        "name": "Paths Koffee & Rest Stop",
+        "about": "Business Hours:\nDaily: 11:00 - 18:00\nNo booking / reservations.\nWe are finding our paths to make a living."
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/pathscafe/posts/165987275043853",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/pathscafe/photos/a.143233967319184/176149284027652",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/pathscafe/posts/180983593544221",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/pathscafe/posts/214234103552503",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/pathscafe/posts/224470945862152",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit 303, Sing Win Factory Building, 15-17 Shing Yip Street"
+      },
+      "googleMapsPlaceId": "ChIJCUcdT0UBBDQRsYS1O3tOUNs",
+      "coordinates": {
+        "lat": 22.3103241,
+        "lng": 114.2265155
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2381
+    }
+  ]
+}
