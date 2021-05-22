@@ -1,22 +1,27 @@
 {
   "id": "bluebirdskitchenhk",
   "name": {
-    "en": "Blue Birds Kitchen"
+    "en": "Blue Birds Portuguese Restaurant"
   },
   "webpages": [
     {
-      "url": "https://www.facebook.com/bluebirdskitchenhk/",
+      "url": "https://www.facebook.com/bluebirdsportugueserestauranthk/",
       "meta": {
         "id": "272792676615553",
-        "username": "bluebirdskitchenhk",
-        "name": "Blue Birds Kitchen",
+        "username": "bluebirdsportugueserestauranthk",
+        "name": "Blue Birds Portuguese Restaurant",
+        "about": "藍鳥是(幸福)的象微,Blue Birds  Portuguese Restaurant代表現代的藍鳥.憑藉用心制作的料理,寄託店主及廚師的信念,將愛和幸福的感覺,傳達每ˍ位顧客的心靈.",
         "category_list": [
           {
-            "id": "185855984789970",
-            "name": "Asian Restaurant"
+            "id": "155167537873297",
+            "name": "Portuguese Restaurant"
+          },
+          {
+            "id": "1174919195872006",
+            "name": "Macanese Restaurant"
           }
         ],
-        "single_line_address": "沙田馬鞍山保泰街16號We Go Mall商場1樓110A鋪, Sha Tin, Hong Kong"
+        "single_line_address": "沙田禾輋廣場2樓251,252,鋪, 沙田"
       }
     },
     {
@@ -29,13 +34,13 @@
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/bluebirdskitchenhk/posts/527922631102555",
+      "url": "https://www.facebook.com/272792676615553/posts/527922631102555",
       "meta": {
         "sharedWith": "Public"
       }
     },
     {
-      "url": "https://www.facebook.com/bluebirdskitchenhk/posts/666266747268142",
+      "url": "https://www.facebook.com/272792676615553/posts/666266747268142",
       "meta": {
         "sharedWith": "Public"
       }
@@ -47,12 +52,12 @@
   "places": [
     {
       "address": {
-        "zh": "沙田馬鞍山保泰街16號We Go Mall商場1樓110A鋪"
+        "zh": "沙田禾輋廣場2樓251,252,鋪"
       },
-      "googleMapsPlaceId": "ChIJ5YMTKSwJBDQRmKj0NtPIMYs",
+      "googleMapsPlaceId": "ChIJJ5q3bUwGBDQRptQ3qf1gSJM",
       "coordinates": {
-        "lat": 22.41430249999999,
-        "lng": 114.223771
+        "lat": 22.3879318,
+        "lng": 114.1952336
       },
       "area": {
         "zh": "沙田區"
