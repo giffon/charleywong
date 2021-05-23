@@ -789,6 +789,29 @@ class ServerMain {
         return Promise.resolve((untyped reply.sendFile)("favicon.ico", "static/images/fav"));
     }
 
+    static function robots(req:Request, reply:Reply):Promise<Dynamic> {
+        return Promise.resolve(reply.type("text/plain").send("Sitemap: " + haxe.io.Path.join([domain, "sitemap.xml"])));
+    }
+
+    static function sitemap(req:Request, reply:Reply):Promise<Dynamic> {
+        var links = [
+            { url: '/' },
+            { url: '/list/all' },
+            { url: '/campaign' },
+            { url: Mooncake2020.path },
+            { url: HkbaseDirectoryView.path },
+        ];
+        for (e in entityIndex.entities)
+            if (e.searchable())
+                links.push({
+                    url: haxe.io.Path.join([domain, e.id])
+                });
+        var stream = new sitemap.SitemapStream( { hostname: domain } );
+        return Sitemap.streamToPromise(node.stream.Readable.from(links).pipe(stream))
+            .then(data -> data.toString())
+            .then(xmlStr -> reply.type("application/xml").send(xmlStr));
+    }
+
     static function initServer() {
         app.register(require('fastify-cors'), { 
             origin: "*",
@@ -828,6 +851,8 @@ class ServerMain {
 
         app.get("/", index);
         app.get("/favicon.ico", favicon);
+        app.get("/robots.txt", robots);
+        app.get("/sitemap.xml", sitemap);
         app.get("/campaign", campaign);
         app.get("/list/all.json", allJson);
         app.get("/list/all", all);
