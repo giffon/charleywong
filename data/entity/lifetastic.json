@@ -48,7 +48,8 @@
         ],
         "single_line_address": "L406, Level 4, The ONE, 100 Nathan Road, Tsim Sha Tsui, Kowloon, Tsim Sha Tsui, Hong Kong",
         "website": "www.lifetastichk.com"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/lifetastic.fw.cwb/",
@@ -72,7 +73,8 @@
         ],
         "single_line_address": "Kiosk 1B, 1/F, Main Block, 11-19 Great George Street, Fashion Walk, Causeway Bay, Hong Kong, Hong Kong",
         "website": "www.lifetastichk.com"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/lifetastic.tw/",
@@ -96,13 +98,14 @@
         ],
         "single_line_address": "Workshop F, 23/F, Shield Industrial Centre, 84-92 Chai Wan Kok Street, Tsuen Wan, New Territories, Hong Kong, Hong Kong",
         "website": "www.lifetastichk.com"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.instagram.com/lifetastic.official/",
       "meta": {
         "name": "LIFETASTIC",
-        "about": "☕️🍽🍰 31 Hill Rd, Sai Wan 📞2420 8851\n🍰🍹The ONE, TST 📞2564 8533\n🍰 Fashion Walk, CWB 📞2564 8283\n🍰🏢 84 Chai Wan Kok St, Tsuen Wan 📞3611 9766"
+        "about": "🍽🍹🍰 Hysan Place, CWB 📞 2538 6990\n🍰🍹The ONE, TST 📞2564 8533\n🍰 Fashion Walk, CWB 📞2564 8283\n🍰 ifc mall, Central 📞2564 8280"
       }
     }
   ],
@@ -129,15 +132,15 @@
   "places": [
     {
       "address": {
-        "en": "Shop B, G/F, 31-37 Hill Road, Western District, Hong Kong"
+        "en": "Shop 326 & 330-331, 3/F, Hysan Place, 500 Hennessy Road, Causeway Bay"
       },
-      "googleMapsPlaceId": "ChIJGQecZIT_AzQRU4c8Tlaf0Lo",
+      "googleMapsPlaceId": "ChIJG13nyK4BBDQR6D1UM5nWOLE",
       "coordinates": {
-        "lat": 22.285559,
-        "lng": 114.135687
+        "lat": 22.2798226,
+        "lng": 114.1837972
       },
       "area": {
-        "zh": "中西區"
+        "zh": "灣仔區"
       }
     },
     {
@@ -168,15 +171,15 @@
     },
     {
       "address": {
-        "en": "Workshop F, 23/F, Shield Industrial Centre, 84-92 Chai Wan Kok Street, Tsuen Wan, New Territories"
+        "en": "Shop 2096B, Podium Level 2, ifc mall, 8 Finance Street, Central"
       },
-      "googleMapsPlaceId": "ChIJ2XjrvqL5AzQRTJIFyFh_NRY",
+      "googleMapsPlaceId": "ChIJ__4cLRcBBDQRnLUcwB9yQtQ",
       "coordinates": {
-        "lat": 22.3720359,
-        "lng": 114.1087267
+        "lat": 22.2848251,
+        "lng": 114.1593763
       },
       "area": {
-        "zh": "荃灣區"
+        "zh": "中西區"
       }
     }
   ]
