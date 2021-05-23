@@ -6,7 +6,8 @@
   },
   "webpages": [
     {
-      "url": "http://www.teabrush.com"
+      "url": "http://www.teabrush.com",
+      "hidden": true
     },
     {
       "meta": {
@@ -31,6 +32,13 @@
         "website": "http://www.teabrush.com/"
       },
       "url": "https://www.facebook.com/teabrush/"
+    },
+    {
+      "url": "https://www.instagram.com/teabrush/",
+      "meta": {
+        "name": "茶墨 TeaBrush",
+        "about": "茶墨為香港本地品牌；茶墨視茶如墨 視杯如紙，有著視每件作品為藝術品般的堅持\n❍ 營業時間 12:30-22:00\n❍ 地址 尖沙咀彌敦道100號THE ONE 4樓411號鋪"
+      }
     }
   ],
   "posts": [
@@ -46,6 +54,21 @@
     {
       "type": "eat",
       "id": 662
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀彌敦道100號THE ONE 4樓411號鋪"
+      },
+      "googleMapsPlaceId": "ChIJW_h8pX4BBDQRr3qVCxkECr4",
+      "coordinates": {
+        "lat": 22.29987,
+        "lng": 114.172552
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
