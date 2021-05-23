@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20210520095205
+    container: giffon/charleywong_devcontainer_workspace:20210523174853
     steps:
       - uses: actions/checkout@v2
         with:
@@ -38,7 +38,7 @@ jobs:
     needs: build
     if: success() && github.event_name == 'push' && ( github.ref == 'refs/heads/master' || github.ref == 'refs/heads/production' )
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20210520095205
+    container: giffon/charleywong_devcontainer_workspace:20210523174853
     steps:
       - uses: actions/checkout@v2
         with:

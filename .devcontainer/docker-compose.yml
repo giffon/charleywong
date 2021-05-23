@@ -1,7 +1,7 @@
 version: '3'
 services:
   workspace:
-    image: giffon/charleywong_devcontainer_workspace:20210520095205
+    image: giffon/charleywong_devcontainer_workspace:20210523174853
     init: true
     volumes:
       - /var/run/docker.sock:/var/run/docker-host.sock
