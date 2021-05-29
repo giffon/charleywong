@@ -1,7 +1,8 @@
 {
   "id": "daylilieshandmade",
   "name": {
-    "zh": "忘憂手作社"
+    "zh": "忘憂手作社",
+    "en": "daylilies handmade"
   },
   "webpages": [
     {
@@ -33,7 +34,11 @@
       "url": "https://www.facebook.com/daylilieshandmade/"
     },
     {
-      "url": "https://www.instagram.com/daylilies_handmade/"
+      "url": "https://www.instagram.com/daylilies_handmade/",
+      "meta": {
+        "name": "真。忘憂手作社",
+        "about": "HK Design since 2017\n採用日本貴和材料|Swarovski水晶|美國Teardrop\n查詢/下單：📱55049840/DM\nWorldwide Shipping\n營業時間\n星期一至五：11:00-18:30\n星期六：11:00-17:30\n（逢星期三及公眾假期休息)"
+      }
     }
   ],
   "posts": [
@@ -45,6 +50,22 @@
     }
   ],
   "tags": [
-    "accessories"
+    "accessories",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荔枝角香港工業中心C座5樓13A"
+      },
+      "googleMapsPlaceId": "ChIJVakuWlQHBDQRL5mvTlhIRmM",
+      "coordinates": {
+        "lat": 22.3378403,
+        "lng": 114.1478509
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
