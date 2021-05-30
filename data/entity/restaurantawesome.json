@@ -65,12 +65,29 @@
       "area": {
         "zh": "屯門區"
       }
+    },
+    {
+      "address": {
+        "zh": "大角咀鐵樹街17號金堂閣地下18號鋪"
+      },
+      "googleMapsPlaceId": "ChIJo2KpNTgBBDQRVbjLBSaUn4Y",
+      "coordinates": {
+        "lat": 22.3192711,
+        "lng": 114.1633096
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 265
+    },
+    {
+      "type": "eat",
+      "id": 5997
     }
   ]
 }

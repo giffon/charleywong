@@ -70,6 +70,29 @@
       "area": {
         "zh": "油尖旺區"
       }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣廣埸二期6樓"
+      },
+      "googleMapsPlaceId": "ChIJ10U_3lYABDQRGE-ZBNvFrZo",
+      "coordinates": {
+        "lat": 22.2805855,
+        "lng": 114.1822161
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5985
+    },
+    {
+      "type": "eat",
+      "id": 5986
     }
   ]
 }
