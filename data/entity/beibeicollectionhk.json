@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.beibeicollection.com"
+    },
+    {
       "meta": {
         "id": "834817613351304",
         "username": "beibeicollectionhk",
@@ -21,6 +24,13 @@
         "website": "beibeicollection.com"
       },
       "url": "https://www.facebook.com/beibeicollectionhk/"
+    },
+    {
+      "url": "https://www.instagram.com/beibeicollectionhk/",
+      "meta": {
+        "name": "𝔹 𝔼 𝕀 𝔹 𝔼 𝕀 ｜手作耳環｜工作坊｜3D 打印",
+        "about": "⇛ 門市地址\n旺角彌敦道700號 T.O.P 4樓 420號鋪\nOpening Hours: Mon-Fri：2-9pm | Sun & Sat：1-9pm\n.\n⇛工作坊地址\n九龍灣常悅道環球工商大廈1117i室\n.\n拍攝 / 公司合作： 𝟝𝟙𝟞𝟙𝟛𝟡𝟚𝟝 ☏\n-\n選購下單 / 預約工作坊："
+      }
     }
   ],
   "posts": [
@@ -29,12 +39,45 @@
     }
   ],
   "tags": [
-    "accessories"
+    "accessories",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 1825
+    },
+    {
+      "type": "shop",
+      "id": 6031
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角彌敦道700號 T.O.P 4樓 420號鋪 (門市)"
+      },
+      "googleMapsPlaceId": "ChIJhXTLe4UBBDQRS9hV0CQdTHo",
+      "coordinates": {
+        "lat": 22.3205525,
+        "lng": 114.1695058
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍灣常悅道環球工商大廈1117i室 (工作坊)"
+      },
+      "googleMapsPlaceId": "ChIJH6SG-fQBBDQRCpAT76NjE30",
+      "coordinates": {
+        "lat": 22.3215893,
+        "lng": 114.210722
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ]
 }
