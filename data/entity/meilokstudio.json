@@ -30,6 +30,7 @@
     },
     {
       "meta": {
+        "name": "Mei Lok Studio 美樂照相館",
         "about": "美樂照相館 | 美樂士多\n美樂帶你重回美好時光\n在這裡可找到你的回憶嗎？"
       },
       "url": "https://www.instagram.com/mei_lok_studio/"
@@ -46,5 +47,20 @@
   "tags": [
     "photographer",
     "wedding"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘道328號1樓全層"
+      },
+      "googleMapsPlaceId": "ChIJiSRF2lsBBDQRMcSv2JkW-GY",
+      "coordinates": {
+        "lat": 22.3163254,
+        "lng": 114.2157607
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
