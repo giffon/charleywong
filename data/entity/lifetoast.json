@@ -1,0 +1,102 @@
+{
+  "id": "lifetoast",
+  "name": {
+    "en": "Life Toast"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/lifetoast/",
+      "meta": {
+        "id": "101154541542840",
+        "username": "lifetoast",
+        "name": "Life Toast",
+        "about": "紙盒吐司",
+        "category_list": [
+          {
+            "id": "188296324525457",
+            "name": "Sandwich Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "life.toast@outlook.com"
+        ],
+        "single_line_address": "希雲街28號, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/life_toast/",
+      "meta": {
+        "name": "Life Toast",
+        "about": "紙盒吐司\n銅鑼灣希雲街28號\n電話📲：61232204\n營業時間：11:30am-21:00pm / 售完即止\n星期一休息（如有更改另通知）\n荃灣西 @lifetoastop\n海之戀商場1樓1005號舖\n營業時間 : 11:00am - 21:00pm (無休息日）\n電話📲： 9279 7638"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/lifetoastop/",
+      "meta": {
+        "name": "lifetoast",
+        "about": "紙盒吐司\n外賣自取📲 9279 7638\n🍞荃灣海之戀商場1005號舖 🍞\n🥚Shop 1005, Op Mall, Tsuen Wan 🥚\n營業時間 : 11:00am - 21:00pm (無休息日）\n電話☎️ ： 9279 7638\n銅鑼灣店 @life_toast"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/lifetoast/posts/139120567746237",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/lifetoast/photos/a.122184466106514/140136467644647",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/lifetoast/posts/196321855359441",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣希雲街28號"
+      },
+      "googleMapsPlaceId": "ChIJ94l9OlcBBDQRhEX9lUFsKbE",
+      "coordinates": {
+        "lat": 22.2778958,
+        "lng": 114.1868774
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣西海之戀商場1樓1005號舖"
+      },
+      "googleMapsPlaceId": "ChIJZTortn35AzQRdXU9H73Es2g",
+      "coordinates": {
+        "lat": 22.3680338,
+        "lng": 114.1102967
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5786
+    }
+  ]
+}
