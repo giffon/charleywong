@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://shop.openground.hk"
+    },
+    {
       "meta": {
         "id": "659145181112976",
         "username": "opengroundhk",
@@ -30,7 +33,8 @@
     },
     {
       "meta": {
-        "about": "Designer-space with coffee, books, music & inspirations.\n.\nopening hour\n1200-2000\nTuesday to Sunday\n.\nUp Coming Event"
+        "name": "openground",
+        "about": "Designer-space with coffee, books, music & inspirations.\n.\n堂食至下午5時59分\n.\n⚠️ special opening hour\n1200-1900\nTuesday to Sunday\n."
       },
       "url": "https://www.instagram.com/openground_hk/"
     }
@@ -48,6 +52,21 @@
     {
       "type": "eat",
       "id": 29
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍深水埗大南街198號"
+      },
+      "googleMapsPlaceId": "ChIJaylbaeQBBDQRGPPC2E_eDEI",
+      "coordinates": {
+        "lat": 22.3273024,
+        "lng": 114.1633519
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ]
 }
