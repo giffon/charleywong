@@ -1,0 +1,80 @@
+{
+  "id": "hahalfwaycafe",
+  "name": {
+    "zh": "半路咖啡"
+  },
+  "webpages": [
+    {
+      "url": "https://halfway-cafe.blogspot.com"
+    },
+    {
+      "url": "https://www.facebook.com/hahalfwaycafe/",
+      "meta": {
+        "id": "766746760013130",
+        "username": "hahalfwaycafe",
+        "name": "半路咖啡",
+        "about": "走到半路停下來，或許這才是終點，當然，也可能是起點\n\n我們是一家咖啡店，至於其他的之後再說",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "147714868971098",
+            "name": "Public & Government Service"
+          }
+        ],
+        "single_line_address": "10647 台灣臺北市台北市大安區羅斯福路三段269巷51弄9號一樓",
+        "website": "http://halfway-cafe.blogspot.tw/"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/halfway_cafe/",
+      "meta": {
+        "name": "半路咖啡"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/hahalfwaycafe/posts/2399550853399371",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hahalfwaycafe/posts/2520126138008508",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hahalfwaycafe/posts/2660358927318561",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "台北市大安區羅斯福路三段269巷51弄9號一樓"
+      },
+      "googleMapsPlaceId": "ChIJn4IIMompQjQRvDRpCo4YLLw",
+      "coordinates": {
+        "lat": 25.020138,
+        "lng": 121.531603
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    }
+  ]
+}
