@@ -918,9 +918,9 @@ class Mooncake2020 extends View {
                             data-url=${canonical()}
                         />
                         <a href="/">
-                            <img className="max-w-full h-auto w-1/3 md:w-1/4 pr-4 pl-4 lg:w-1/5 pr-4 pl-4" src=${R("/images/charley-mooncake.png")} alt="Charley Wong 和你查" width="1060" height="1060" />
+                            <img className="h-auto p-4 w-40 sm:w-48 mx-auto" src=${R("/images/charley-mooncake.png")} alt="Charley Wong 和你查" width="1060" height="1060" />
                         </a>
-                        <h1 className="mt-3">黃金月餅攻略</h1>
+                        <h1 className="text-3xl my-3">黃金月餅攻略</h1>
                     </div>
                 </div>
                 <div>

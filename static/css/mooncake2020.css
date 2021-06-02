@@ -100,6 +100,10 @@
     margin-bottom: -0.1em;
 }
 
+.mooncake2020 .MuiAppBar-root {
+    background-color: rgb(245, 245, 245);
+}
+
 .mooncake-name {
     border: 1px solid transparent;
     border-radius: 1em;

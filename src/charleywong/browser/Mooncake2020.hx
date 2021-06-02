@@ -326,7 +326,7 @@ class Mooncake2020 extends ReactComponent {
                 <ElevationScroll>
                     <AppBar position=${Sticky} className="mb-2 bg-gray-100 text-body">
                         <Toolbar>
-                            <i className="fas fa-filter mr-2"></i>
+                            <i className="fas fa-filter mr-2 text-black"></i>
                             <FormControl>
                                 <InputLabel id="offer-type-label">供應</InputLabel>
                                 <Select
