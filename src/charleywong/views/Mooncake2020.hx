@@ -910,22 +910,22 @@ class Mooncake2020 extends View {
     override function bodyContent() {
         return jsx('
             <Fragment>
-                <div className="mooncake-header d-flex align-items-center color-white py-5">
-                    <div className="container py-lg-5 text-center">
+                <div className="mooncake-header flex items-center color-white py-5">
+                    <div className="container mx-auto sm:px-4 lg:py-12 text-center">
                         <div
                             className="share-button"
                             data-title=${title()}
                             data-url=${canonical()}
                         />
                         <a href="/">
-                            <img className="img-fluid col-4 col-md-3 col-lg-2" src=${R("/images/charley-mooncake.png")} alt="Charley Wong 和你查" width="1060" height="1060" />
+                            <img className="max-w-full h-auto w-1/3 md:w-1/4 pr-4 pl-4 lg:w-1/5 pr-4 pl-4" src=${R("/images/charley-mooncake.png")} alt="Charley Wong 和你查" width="1060" height="1060" />
                         </a>
                         <h1 className="mt-3">黃金月餅攻略</h1>
                     </div>
                 </div>
                 <div>
                     <div className="mooncake2020" data-mooncake2020=${Json.stringify(data)} />
-                    <p className="text-muted mt-3 text-center">Icon: Mooncake by Xinh Studio from the Noun Project</p>
+                    <p className="text-gray-700 mt-3 text-center">Icon: Mooncake by Xinh Studio from the Noun Project</p>
                 </div>
             </Fragment>
         ');

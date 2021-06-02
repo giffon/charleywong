@@ -59,13 +59,13 @@ class SearchBar extends ReactComponentOf<SearchBarProps, SearchBarState> {
     override function render() {
         return jsx('
             <form
-                className="d-flex"
+                className="flex"
                 action="/"
                 autoComplete=${defaultQuery == null || defaultQuery == "" ? "on" : "off"}
                 onSubmit=${handleSubmit}
             >
                 <input
-                    className="w-100 p-3 search-input"
+                    className="w-full p-4 search-input text-black"
                     type="text"
                     name="search"
                     placeholder="商業/專頁名稱"
@@ -75,7 +75,7 @@ class SearchBar extends ReactComponentOf<SearchBarProps, SearchBarState> {
                     disabled=${disabled}
                 />
                 <input
-                    className="btn m-0 p-3 search-btn"
+                    className="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 leading-normal no-underline m-0 p-6 search-btn"
                     name="submit"
                     type="submit"
                     value="🔎"

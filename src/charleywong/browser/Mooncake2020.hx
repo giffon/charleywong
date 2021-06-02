@@ -157,19 +157,19 @@ class Mooncake2020 extends ReactComponent {
             null;
         }
         return jsx('
-            <div key=${d.name} className="card">
-                <div className="card-body">
-                    <h5 className="card-title">${d.name}</h5>
-                    <h6 className="card-subtitle mb-2 text-muted">${d.note}</h6>
+            <div key=${d.name} className="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300">
+                <div className="flex-auto p-6">
+                    <h5 className="mb-3">${d.name}</h5>
+                    <h6 className="-mt-2 mb-0 mb-2 text-gray-700">${d.note}</h6>
                     ${oldInfoWarning}
-                    <p className="card-text">
+                    <p className="mb-0">
                         ${d.types.map(renderMooncakeName)}
                     </p>
                     <div className="mooncake-info mb-2">
                         ${d.info.map(renderInfo)}
                     </div>
-                    <a className="card-link badge badge-pill badge-light" target="_blank" href=${d.info[0]}>🔗 資料來源</a>
-                    <a className="card-link badge badge-pill badge-light" target="_blank" href=${d.charleywong}>🐧🔎 店舖表態FC</a>
+                    <a className="ml-6 inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded rounded-full py-1 px-3 bg-gray-100 text-gray-800 hover:bg-gray-200" target="_blank" href=${d.info[0]}>🔗 資料來源</a>
+                    <a className="ml-6 inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded rounded-full py-1 px-3 bg-gray-100 text-gray-800 hover:bg-gray-200" target="_blank" href=${d.charleywong}>🐧🔎 店舖表態FC</a>
                 </div>
             </div>
         ');
@@ -324,7 +324,7 @@ class Mooncake2020 extends ReactComponent {
         var rendered = jsx('
             <div>
                 <ElevationScroll>
-                    <AppBar position=${Sticky} className="mb-2 bg-light text-body">
+                    <AppBar position=${Sticky} className="mb-2 bg-gray-100 text-body">
                         <Toolbar>
                             <i className="fas fa-filter mr-2"></i>
                             <FormControl>
@@ -352,7 +352,7 @@ class Mooncake2020 extends ReactComponent {
                         </Toolbar>
                     </AppBar>
                 </ElevationScroll>
-                <div className="container-fluid">
+                <div className="container mx-auto sm:px-4 max-w-full mx-auto sm:px-4">
                     <div className="py-2">
                         <Typography noWrap=${true}>
                             ${filteredData.length} 項資料

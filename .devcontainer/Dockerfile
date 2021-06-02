@@ -19,7 +19,6 @@ RUN apt-get update \
     && apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/library-scripts/
 
 # Configure apt and install packages
-RUN sed -i 's/archive\.ubuntu\.com/ftp.ubuntu-tw.net\/ubuntu/g' /etc/apt/sources.list
 RUN apt-get update \
     && apt-get install -y --no-install-recommends apt-utils dialog 2>&1 \
     #

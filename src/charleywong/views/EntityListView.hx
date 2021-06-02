@@ -52,16 +52,16 @@ class EntityListView extends View {
         var jsonHref = '${slug}.json';
         return jsx('
             <Fragment>
-                <div className="container">
-                    <header className="p-3 p-md-4 text-center">
-                        <a href="/"><img className="col-4 col-md-3 col-lg-2 logo-header" src=${R("/images/charley-600-w.png")} alt="Charley Wong 和你查"/></a>
+                <div className="container mx-auto px-1 sm:px-4">
+                    <header className="p-6 md:p-6 text-center">
+                        <a href="/"><img className="w-1/3 md:w-1/4 pr-4 pl-4 lg:w-1/5 pr-4 pl-4 logo-header" src=${R("/images/charley-600-w.png")} alt="Charley Wong 和你查"/></a>
                     </header>
-                    <div className="col-12 col-md-8 mx-auto bg-white py-3 rounded-10 container-btm">
+                    <div className="w-full md:w-2/3 pr-4 pl-4 mx-auto bg-white py-3 rounded-10 container-btm relative">
                         <div className="pb-3">
                             ${searchQuery != null ? Index.searchForm(searchQuery, false) : renderListName()}
                         </div>
-                        <div className="d-flex align-items-center">
-                            <div className="col p-0">共有 ${entities.length} 項資料</div>
+                        <div className="flex items-center">
+                            <div className="relative flex-grow max-w-full flex-1 px-4 p-0">共有 ${entities.length} 項資料</div>
                             <div
                                 className="share-button"
                                 data-title=${title()}

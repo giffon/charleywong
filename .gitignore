@@ -23,6 +23,9 @@ GEOCODING_KEY
 YOUTUBE_KEY
 FACEBOOK_TOKEN
 
+!/tailwind.config.js
+/static/css/tailwind.css
+
 # Logs
 logs
 *.log

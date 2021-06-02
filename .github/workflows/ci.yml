@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20210523174853
+    container: giffon/charleywong_devcontainer_workspace:20210602235527
     steps:
       - uses: actions/checkout@v2
         with:
@@ -16,6 +16,10 @@ jobs:
           cp -r /workspace/node_modules .
           cp -r /workspace/lib/dts2hx lib/
       - run: yarn
+      - name: Build tailwind
+        run: yarn tailwind
+        env:
+          NODE_ENV: production
       - name: Compile index.js
         run: haxe build.hxml
       - name: Minify browser.js
@@ -38,7 +42,7 @@ jobs:
     needs: build
     if: success() && github.event_name == 'push' && ( github.ref == 'refs/heads/master' || github.ref == 'refs/heads/production' )
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20210523174853
+    container: giffon/charleywong_devcontainer_workspace:20210602235527
     steps:
       - uses: actions/checkout@v2
         with:

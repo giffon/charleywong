@@ -44,11 +44,11 @@ class HkbaseDirectoryView extends View {
     override function bodyContent() {
         return jsx('
             <Fragment>
-                <div className="container">
-                    <header className="p-3 p-md-4 text-center">
-                        <a href="/"><img className="col-4 col-md-3 col-lg-2 logo-header" src=${R("/images/charley-600-w.png")} alt="Charley Wong 和你查"/></a>
+                <div className="container mx-auto px-1 sm:px-4">
+                    <header className="p-6 md:p-6 text-center">
+                        <a href="/"><img className="w-1/3 md:w-1/4 pr-4 pl-4 lg:w-1/5 pr-4 pl-4 logo-header" src=${R("/images/charley-600-w.png")} alt="Charley Wong 和你查"/></a>
                     </header>
-                    <div className="col-12 col-md-8 mx-auto color_black_o60">
+                    <div className="w-full md:w-2/3 p-4 mx-auto color_black_o60">
                         <h1>《HKBASE企業名冊》名單</h1>
                         <p>
                             <a href="/hkbase.org">香港永續經濟聯會(HKBASE)</a> 是新時代的企業網絡，成立於2017年12月，旨在凝聚不同界別的企業人士，以推動「永續經濟 香港自強」為使命。
@@ -63,9 +63,9 @@ class HkbaseDirectoryView extends View {
                             以下資料由 HKBASE 提供。
                         </p>
                     </div>
-                    <div className="col-12 col-md-8 mx-auto bg-white py-3 rounded-10 container-btm">
-                        <div className="d-flex align-items-center">
-                            <div className="col p-0">共有 ${entities.length} 項資料</div>
+                    <div className="w-full md:w-2/3 pr-4 pl-4 mx-auto bg-white pt-3 pb-9 rounded-10 container-btm relative">
+                        <div className="flex items-center">
+                            <div className="relative flex-grow max-w-full flex-1 px-4 p-0">共有 ${entities.length} 項資料</div>
                             <div
                                 className="share-button"
                                 data-title=${title()}

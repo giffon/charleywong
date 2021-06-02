@@ -191,11 +191,11 @@ class Posts extends ReactComponent {
 
                     jsx('
                         <a className="post-preview" href=${p.url}>
-                            <div className="card text-left">
-                                <img className="card-img-top" src=${image} alt=${title} />
-                                <div className="card-body">
-                                    <h6 className="card-subtitle text-muted mb-2">${siteName}<span className="ml-2">${published_time}</span></h6>
-                                    <h5 className="card-title mb-0">${title}</h5>
+                            <div className="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 text-left">
+                                <img className="w-full rounded rounded-t" src=${image} alt=${title} />
+                                <div className="flex-auto p-6">
+                                    <h6 className="-mt-2 mb-0 text-gray-700 mb-2">${siteName}<span className="ml-2">${published_time}</span></h6>
+                                    <h5 className="mb-3 mb-0">${title}</h5>
                                 </div>
                             </div>
                         </a>
