@@ -4,7 +4,6 @@ import haxe.*;
 import react.*;
 import react.ReactMacro.jsx;
 import js.html.*;
-import js.jquery.*;
 import js.Browser.*;
 import global.GtagJsGlobal.*;
 import charleywong.browser.*;
@@ -84,6 +83,10 @@ class BrowserMain {
     }
 
     static function main():Void {
-        new JQuery(onReady);
+        if (document.readyState == 'loading') {
+            document.addEventListener('DOMContentLoaded', _ -> onReady());
+        } else {
+            onReady();
+        }
     }
 }

@@ -37,9 +37,7 @@ class View extends ReactComponent {
     ');
 
     function depJs() return jsx('
-        <Fragment>
-            <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossOrigin="anonymous"></script>
-        </Fragment>
+        <Fragment></Fragment>
     ');
 
     function footJs() return jsx('
