@@ -56,7 +56,7 @@ class EntityListView extends View {
                     <header className="p-6 md:p-6 text-center">
                         <a href="/"><img className="w-1/3 md:w-1/4 pr-4 pl-4 lg:w-1/5 pr-4 pl-4 logo-header" src=${R("/images/charley-600-w.png")} alt="Charley Wong 和你查"/></a>
                     </header>
-                    <div className="w-full md:w-2/3 pr-4 pl-4 mx-auto bg-white py-3 rounded-10 container-btm relative">
+                    <div className="w-full md:w-2/3 pr-4 pl-4 mx-auto bg-white py-5 rounded-10 container-btm relative">
                         <div className="pb-3">
                             ${searchQuery != null ? Index.searchForm(searchQuery, false) : renderListName()}
                         </div>
