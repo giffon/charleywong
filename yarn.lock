@@ -5785,10 +5785,10 @@ globby@^11.0.3:
     merge2 "^1.3.0"
     slash "^3.0.0"
 
-google-auth-library@7.1.0, google-auth-library@^7.0.2:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-7.1.0.tgz#d83b6bed1d170e30649e15e9b5b17cb375e88919"
-  integrity sha512-X+gbkGjnLN3HUZP2W3KBREuA603BXd80ITvL0PeS0QpyDNYz/u0pIZ7aRuGnrSuUc0grk/qxEgtVTFt1ogbP+A==
+google-auth-library@7.1.1, google-auth-library@^7.0.2:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-7.1.1.tgz#aa901f14e97a4ca458f426417216e01b360c2b55"
+  integrity sha512-+Q1linq/To3DYLyPz4UTEkQ0v5EOXadMM/S+taLV3W9611hq9zqg8kgGApqbTQnggtwdO9yU1y2YT7+83wdTRg==
   dependencies:
     arrify "^2.0.0"
     base64-js "^1.3.0"
