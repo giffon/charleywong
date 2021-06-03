@@ -37,8 +37,8 @@ RUN apt-get update \
         libnss3-tools \
         direnv \
     && echo 'eval "$(direnv hook bash)"' >> /etc/bash.bashrc \
-    && curl -sL https://deb.nodesource.com/setup_12.x | bash - \
-    && apt-get install -y nodejs=12.* \
+    && curl -sL https://deb.nodesource.com/setup_14.x | bash - \
+    && apt-get install -y nodejs=14.* \
     && add-apt-repository ppa:git-core/ppa \
     && apt-get install -y git \
     && curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add - \
