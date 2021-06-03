@@ -65,7 +65,7 @@ class EntityView extends View {
                     <Fragment>
                         <a href=${p.url}><i className="fab fa-facebook"></i> ${linktext}</a>
                         <div
-                            className="fb-like-button ml-1 mt-n1"
+                            className="fb-like-button flex-shrink-0 ml-1 mt-n1"
                             data-url=${p.url}
                         />
                     </Fragment>
@@ -113,7 +113,7 @@ class EntityView extends View {
         }
 
         return jsx('
-            <div key=${p.url} className="webpage flex justify-center items-center">
+            <div key=${p.url} className="webpage flex justify-center">
                 ${item}
             </div>
         ');
