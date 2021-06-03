@@ -6,7 +6,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.takaobooks.tw"
+      "url": "https://www.takaobooks.tw"
     },
     {
       "url": "https://www.facebook.com/takaobooks214/",
@@ -31,16 +31,19 @@
         "single_line_address": "新興區中正二路214號, Kaohsiung, Taiwan 80047",
         "website": "http://www.takaobooks.tw/"
       }
+    },
+    {
+      "url": "https://www.instagram.com/takaobookstw/",
+      "meta": {
+        "name": "三餘書店",
+        "about": "📍1430-1930週二公休\n📍文化中心站一號出口\n　\n疫情期間歡迎使用郵寄、得來速結帳。歡迎私訊挑書，安靜閱讀臺灣加油！"
+      }
+    },
+    {
+      "url": "https://twitter.com/takao_books"
     }
   ],
   "posts": [
-    {
-      "url": "https://www.facebook.com/takaobooks214/posts/2215047125290303",
-      "meta": {
-        "utime": "1566741061",
-        "sharedWith": "Public"
-      }
-    },
     {
       "url": "https://www.facebook.com/takaobooks214/photos/a.386900658104968/2195719623889720",
       "meta": {
@@ -59,5 +62,20 @@
   "tags": [
     "book",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新興區中正二路214號"
+      },
+      "googleMapsPlaceId": "ChIJ10OmbZQEbjQR9HoWOoBV7VM",
+      "coordinates": {
+        "lat": 22.6306268,
+        "lng": 120.31557
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    }
   ]
 }
