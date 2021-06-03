@@ -65,7 +65,7 @@ class EntityView extends View {
                     <Fragment>
                         <a href=${p.url}><i className="fab fa-facebook"></i> ${linktext}</a>
                         <div
-                            className="fb-like-button flex-shrink-0 ml-1 mt-n1"
+                            className="fb-like-button flex-shrink-0 ml-1"
                             data-url=${p.url}
                         />
                     </Fragment>

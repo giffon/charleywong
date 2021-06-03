@@ -34,6 +34,15 @@ iframe.place {
     background-color: white;
 }
 
+/* when fb button can't be displayed then span should be 0-width */
+.fb-like-button .fb_iframe_widget > span[style*="width: 90px"] {
+    width: 101px !important;
+    overflow: hidden;
+}
+.fb-like-button iframe {
+    width: 101px !important;
+}
+
 .instagram-media {
     width: 100%;
 }
