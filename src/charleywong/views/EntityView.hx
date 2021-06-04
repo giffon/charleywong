@@ -225,7 +225,7 @@ class EntityView extends View {
                             </div>
                             <h3 className="text-2xl py-2">${entity.name.printAll()}</h3>
                             ${closed}
-                            <a className="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 leading-normal no-underline bg-gray-100 text-gray-800 hover:bg-gray-200 hover:no-underline mb-1" href=${jsonHref}>查看 JSON 格式 📃</a>
+                            <a className="inline-block align-middle text-center select-none border font-normal whitespace-nowrap rounded py-1 px-3 leading-normal no-underline bg-gray-100 text-gray-800 hover:bg-gray-200 hover:no-underline mb-1" href=${jsonHref}>查看 JSON 格式 📃</a>
                             ${renderPlaces()}
                         </div>
                         <div className="text-center mb-3">

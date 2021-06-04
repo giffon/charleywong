@@ -75,7 +75,7 @@ class SearchBar extends ReactComponentOf<SearchBarProps, SearchBarState> {
                     disabled=${disabled}
                 />
                 <input
-                    className="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 leading-normal no-underline m-0 p-6 search-btn"
+                    className="inline-block align-middle text-center select-none border font-normal whitespace-nowrap rounded py-1 px-3 leading-normal no-underline m-0 p-6 search-btn"
                     name="submit"
                     type="submit"
                     value="🔎"

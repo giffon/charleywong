@@ -74,7 +74,7 @@ class Places extends ReactComponent {
                         >
                             ${items}
                         </Select>
-                        <span className="whitespace-no-wrap text-gray-600">共 ${places.length} 個地址</span>
+                        <span className="whitespace-nowrap text-gray-600">共 ${places.length} 個地址</span>
                     </div>
                     ${gmap}
                 </Fragment>
