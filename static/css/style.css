@@ -20,10 +20,6 @@ form {
     margin: 0;
 }
 
-.whitespace-nowrap {
-    white-space: nowrap;
-}
-
 iframe.place {
     width: 100%;
     height: 200px;
