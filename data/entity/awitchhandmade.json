@@ -5,7 +5,11 @@
   },
   "webpages": [
     {
-      "url": "http://www.awitchhandmade.com"
+      "url": "http://www.awitchhandmade.com",
+      "hidden": true
+    },
+    {
+      "url": "https://handmade.awitchgroup.com"
     },
     {
       "url": "https://www.awitcheshop.com"
@@ -14,8 +18,9 @@
       "url": "https://www.youtube.com/channel/UCiaNMeLdjB_zqWhUTCBGeJg",
       "meta": {
         "id": "UCiaNMeLdjB_zqWhUTCBGeJg",
+        "location": "Hong Kong",
         "name": "aWitch Handmade",
-        "about": ""
+        "about": "Hello 大家好！我是 Vivienne，這是一個讓皮膚回歸最天然純淨的DIY頻道。\n\n憑著對各種油品、原材料的認識，出版《我的手工皂「失敗」天書》、《我的DIY 護膚品「失敗」天書》，書中以輕鬆活潑、有趣的漫畫形式，與大家分享我這些年的DIY護膚品和製皂經驗，也在這裏和大家分享DIY短片，希望大家喜歡。\n\nFacebook / IG：aWitchHandmade\nWebsite：https://handmade.awitchgroup.com\nBlog：https://awitchhandmade.blogspot.com/\nEshop：https://www.awitcheshop.com\n\n＜購買aWitch 產品＞ \nDIY 材料包：\nhttps://www.awitcheshop.com/categories/diy%E6%9D%90%E6%96%99%E5%8C%85\n\nDIY 香薰用品材料包 ：\nhttps://www.awitcheshop.com/categories/diy%E9%A6%99%E8%96%B0%E7%94%A8%E5%93%81%E6%9D%90%E6%96%99%E5%8C%85%EF%BC%88%E9%A6%99%E6%B0%B4%EF%BC%8C%E8%A0%9F%E7%87%AD%EF%BC%8C%E6%93%B4%E9%A6%99%E7%9F%B3%EF%BC%8C%E8%A0%9F%E7%89%87%EF%BC%8C%E9%A6%99%E8%96%B0%E7%93%B6%EF%BC%89\n\nDIY 潤唇膏材料包：\nhttps://www.awitcheshop.com/categories/diy%E6%BD%A4%E5%94%87%E8%86%8F%E6%9D%90%E6%96%99%E5%8C%85\n"
       }
     },
     {
@@ -47,6 +52,9 @@
         "name": "awitchhandmade",
         "about": "香港首本手工皂書作者主理，製作並推廣天然生活用品，讓皮膚回歸最天然的呵護吧。\nTel: +85235681836\nFacebook/youtube: awitchhandmade\n銅鑼灣店、觀塘店同步營業"
       }
+    },
+    {
+      "url": "https://awitchhandmade.blogspot.com"
     }
   ],
   "posts": [
