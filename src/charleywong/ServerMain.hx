@@ -1,7 +1,7 @@
 package charleywong;
 
 import sys.FileSystem;
-import js.npm.fetch.Fetch;
+import node_fetch.Fetch;
 import js.npm.hk_address_parser_lib.Dclookup;
 import js.lib.Promise;
 import js.npm.jimp.Jimp;
@@ -185,7 +185,7 @@ class ServerMain {
                     case null:
                         throw "no og:image";
                     case {content: ogImageUrl}:
-                        Fetch.fetch(ogImageUrl)
+                        Fetch.call(ogImageUrl)
                             .then(r -> if (!r.ok) {
                                 throw r.status;
                             } else {
@@ -199,7 +199,7 @@ class ServerMain {
         for (i => url in profileUrls) {
             switch (new URL(url)) {
                 case extractFbHomePage(_) => fb if (fb != null):
-                    return Fetch.fetch('https://graph.facebook.com/${Facebook.apiVersion}/${fb}/picture?type=square&width=${width}&height=${width}')
+                    return Fetch.call('https://graph.facebook.com/${Facebook.apiVersion}/${fb}/picture?type=square&width=${width}&height=${width}')
                         .then(r -> if (!r.ok) {
                             throw r.status;
                         } else if (r.url.endsWith(".gif")) {
@@ -380,7 +380,7 @@ class ServerMain {
                                     case null:
                                         Promise.resolve(reply.status(404).send('$post doesn\'t provide "og:image".'));
                                     case { content: imageUrl }:
-                                        Fetch.fetch(Std.string(new URL(imageUrl)))
+                                        Fetch.call(Std.string(new URL(imageUrl)))
                                             .then(r -> {
                                                 reply
                                                     .status(r.status)

@@ -3,7 +3,7 @@ package charleywong;
 import haxe.xml.Access;
 import haxe.xml.Fast;
 #if nodejs
-import js.npm.fetch.Fetch;
+import node_fetch.Fetch;
 #end
 import js.lib.Promise;
 import haxe.io.Path;
@@ -25,7 +25,7 @@ class UrlExtractors {
     #if nodejs
     static public function followRedirect(url:String):Promise<String> {
         return if (~/https?:\/\/bit\.do\//.match(url)) {
-            Fetch.fetch("https://bit.do/expand/" + url.split("/").pop())
+            Fetch.call("https://bit.do/expand/" + url.split("/").pop())
                 .then(r -> {
                     if (r.ok)
                         r.text().then(html -> {
@@ -40,8 +40,8 @@ class UrlExtractors {
                         r.text().then(text -> throw text);
                 });
         } else {
-            Fetch.fetch(url, {
-                redirect: Follow,
+            Fetch.call(url, {
+                redirect: "follow",
             })
                 .then(response -> response.url);
         }

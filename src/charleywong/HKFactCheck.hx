@@ -4,7 +4,7 @@ import haxe.Json;
 import sys.io.File;
 import js.html.URL;
 import haxe.io.Path;
-import js.npm.fetch.Fetch;
+import node_fetch.Fetch;
 import js.lib.Promise;
 import charleywong.ServerMain.*;
 import charleywong.UrlExtractors.*;
@@ -52,12 +52,12 @@ typedef Candidate = {
 
 class HKFactCheck {
     static function getLegco():Promise<Array<Person>> {
-        return Fetch.fetch("https://api.hkfactcheck.io/legco/")
+        return Fetch.call("https://api.hkfactcheck.io/legco/")
             .then(r -> r.json());
     }
 
     static function getCandidate(id:String):Promise<Null<Candidate>> {
-        return Fetch.fetch(Path.join(["https://api.hkfactcheck.io/legco", id, "candidate"]))
+        return Fetch.call(Path.join(["https://api.hkfactcheck.io/legco", id, "candidate"]))
             .then(r -> r.text())
             .then(text -> try {
                 Json.parse(text);

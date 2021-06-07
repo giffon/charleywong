@@ -6,7 +6,7 @@ import js.html.Response;
 import js.lib.Promise;
 import haxe.Json;
 import haxe.io.Path;
-import js.npm.fetch.Fetch.fetch;
+import node_fetch.Fetch.call as fetch;
 using StringTools;
 using Lambda;
 #if (nodejs && !chrome)

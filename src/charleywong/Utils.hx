@@ -26,7 +26,7 @@ class Utils {
         og:Array<{property:String, content:String}>,
         ld:Dynamic,
     }> {
-        return js.npm.fetch.Fetch.fetch(url)
+        return node_fetch.Fetch.call(url)
             .then(r ->
                 if (!r.ok)
                     r.text().then(text ->
@@ -63,8 +63,8 @@ class Utils {
 
     #if nodejs
     static public function isUrlAccessible(url:String):js.lib.Promise<Int> {
-        return js.npm.fetch.Fetch.fetch(url)
-            .then(r -> r.status);
+        return node_fetch.Fetch.call(url)
+            .then(r -> cast r.status);
     }
     #elseif sys
     static public function isUrlAccessible(url:String):Outcome<Int, String> {
