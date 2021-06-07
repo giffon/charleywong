@@ -24,6 +24,13 @@
         "website": "https://bit.ly/2TKfs5M"
       },
       "url": "https://www.facebook.com/ttdumplings/"
+    },
+    {
+      "url": "https://www.instagram.com/ttdumplings/",
+      "meta": {
+        "name": "三一餃子 Trinity Dumpling",
+        "about": "本公司以研發香港餃子為己任，希望有朝一日創造出香港餃子，務求令香港本土特色融入餃子之內，將香港人勇敢、務實、有創意等特質以餃子表達，用新鮮食材創造出屬於香港人既餃子。"
+      }
     }
   ],
   "posts": [
@@ -38,6 +45,21 @@
     {
       "type": "eat",
       "id": 358
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "中環利源西街7號地下"
+      },
+      "googleMapsPlaceId": "ChIJ__8ve0oHBDQR5mnFtLKX6Sw",
+      "coordinates": {
+        "lat": 22.282908,
+        "lng": 114.156045
+      },
+      "area": {
+        "zh": "中西區"
+      }
     }
   ]
 }
