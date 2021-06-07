@@ -16,19 +16,19 @@ provider:
     FACEBOOK_TOKEN: ${env:FACEBOOK_TOKEN}
 
 package:
-  exclude:
-    - .devcontainer/**
-    - .github/**
-    - .haxelib/**
-    - .vscode/**
-    - chrome/**
-    - lib/**
-    - src/**
-    - test/**
-    - '*.py'
-    - '*.hxml'
-    - browser.js
-    - chrome.*.js
+  patterns:
+    - '!.devcontainer/**'
+    - '!.github/**'
+    - '!.haxelib/**'
+    - '!.vscode/**'
+    - '!chrome/**'
+    - '!lib/**'
+    - '!src/**'
+    - '!test/**'
+    - '!*.py'
+    - '!*.hxml'
+    - '!browser.js'
+    - '!chrome.*.js'
 
 functions:
   web:
