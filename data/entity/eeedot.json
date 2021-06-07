@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.eeedot.hk"
+    },
+    {
       "meta": {
         "id": "1634674776816597",
         "username": "eeedot",
@@ -23,17 +26,40 @@
         "website": "http://eeedot.hk"
       },
       "url": "https://www.facebook.com/eeedot/"
+    },
+    {
+      "url": "https://www.instagram.com/eeedot/",
+      "meta": {
+        "name": "eeedot",
+        "about": "𝙰𝚁𝚃 𝙸𝚂 𝙽𝙴𝚅𝙴𝚁 𝙾𝚄𝚃 𝙾𝙵 𝚁𝙴𝙰𝙲𝙷,\n𝙰𝚁𝚃 𝙸𝚂 𝙰𝙻𝚆𝙰𝚈𝚂 𝙸𝙽 𝙾𝚄𝚁 𝙻𝙸𝚅𝙴𝚂.\n-\n寄賣店 | @mf_select / @rcube_store\n查詢/合作 | 5282-2805\n工作室 | 星期四至日2-7PM / 參觀前請先預約\n-\n滿兩件免運優惠進行中☟"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/eeedot/photos/a.1634833706800704/2483821338568599"
+      "url": "https://www.facebook.com/eeedot/photos/a.1634833706800704/2401504173466983"
     },
     {
-      "url": "https://www.facebook.com/eeedot/photos/a.1634833706800704/2401504173466983"
+      "url": "https://www.facebook.com/eeedot/photos/a.1634833706800704/2483821338568599"
     }
   ],
   "tags": [
+    "accessories",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港觀塘巧明街116號萬年工業大廈6B20​ (請先預約)"
+      },
+      "googleMapsPlaceId": "ChIJUeTGeEUBBDQRj3h-ww8a2EU",
+      "coordinates": {
+        "lat": 22.3110257,
+        "lng": 114.2243496
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
