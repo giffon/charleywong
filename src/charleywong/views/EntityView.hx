@@ -178,7 +178,7 @@ class EntityView extends View {
                     HKBASE企業名冊
                 </span>
                 <div>
-                    <p>HKBASE推介: ${data.description}</p>
+                    <p><a href="/page/hkbase-directory">HKBASE</a>推介: ${data.description}</p>
                 </div>
             </div>
         ');
