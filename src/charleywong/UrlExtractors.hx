@@ -4,6 +4,7 @@ import haxe.xml.Access;
 import haxe.xml.Fast;
 #if nodejs
 import node_fetch.Fetch;
+import abort_controller.AbortController;
 #end
 import js.lib.Promise;
 import haxe.io.Path;
@@ -40,10 +41,15 @@ class UrlExtractors {
                         r.text().then(text -> throw text);
                 });
         } else {
+            var controller = new AbortController();
             Fetch.call(url, {
                 redirect: "follow",
+                signal: cast controller.signal,
             })
-                .then(response -> response.url);
+                .then(response -> {
+                    controller.abort();
+                    response.url;
+                });
         }
     }
     #end
