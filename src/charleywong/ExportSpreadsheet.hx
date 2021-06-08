@@ -9,7 +9,6 @@ using Lambda;
 enum abstract Sheet(String) to String {
     var info;
     var index;
-    var places;
     var ybm_not_in_charley;
     var data;
 }
@@ -75,52 +74,6 @@ class ExportSpreadsheet {
             });
     }
 
-    static function populatePlaces(doc:GoogleSpreadsheet) {
-        var sheet = doc.sheetsByIndex.find(s -> s.title == places);
-        return sheet.clear()
-            .then(_ -> sheet.loadCells())
-            .then(_ -> sheet.setHeaderRow(["charleywong", "name", "tags", "places"]))
-            .then(function(_){
-                var rows = [
-                    for (e in entityIndex.entities)
-                    [
-                        '=HYPERLINK("https://charleywong.giffon.io/${e.id}", "${e.id}")',
-                        e.name.printAll(),
-                        Tag.expend(e.tags).join(" "),
-                    ].concat(
-                        if (e.places != null)
-                            [
-                                for (p in e.places)
-                                if (p.address != null)
-                                (p.googleMapsPlaceId != null ? p.googleMapsPlaceId + ";" : "") + p.address.printAll()
-                            ]
-                        else
-                            [
-                                for (p in e.webpages) switch (cast p.meta:{ ?addr:String, ?single_line_address:String }) {
-                                    case null:
-                                        null;
-                                    case { addr: addr } if (addr != null):
-                                        addr;
-                                    case { single_line_address: addr } if (addr != null):
-                                        addr;
-                                    case _:
-                                        null;
-                                }
-                            ].filter(v -> v != null)
-                    )
-                ];
-                return sheet.addRows(rows);
-            })
-            .then(_ -> sheet.loadCells("A2:A"))
-            .then(_ -> {
-                for (row in 1...sheet.rowCount) {
-                    var cell = sheet.getCell(row, 0);
-                    cell.hyperlinkDisplayType = "LINKED";
-                }
-                sheet.saveUpdatedCells();
-            });
-    }
-
     static function getCellRow(sheet:GoogleSpreadsheetWorksheet, rowIndex:Int, columnIndex:Int):Array<String> {
         var values = [];
         while (true) {
@@ -175,52 +128,6 @@ class ExportSpreadsheet {
             });
     }
 
-    static function importGoogleMapsPlaceIds(doc:GoogleSpreadsheet) {
-        var sheet = doc.sheetsByIndex.find(s -> s.title == places);
-        var noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
-        var lastRow = 2543;
-        return sheet.loadCells('A1:Z$lastRow')
-            .then(function(_){
-                for (y in 1...lastRow) {
-                    switch [sheet.getCell(y, 0).value, sheet.getCell(y, 5).value] {
-                        case [null | "", _] | [_, null | ""]:
-                            // pass
-                        case [eid, _]:
-                            switch (entityIndex.entitiesOfId[eid]) {
-                                case null:
-                                    throw 'There is no entity of id $eid';
-                                case e:
-                                    var placeIds = getCellRow(sheet, y, 5);
-                                    var addresses = getCellRow(sheet, y+1, 5);
-                                    e.places = [
-                                        for (i in 0...Std.int(Math.max(placeIds.length, addresses.length))) {
-                                            var place:Place = {};
-                                            switch(addresses[i]) {
-                                                case null:
-                                                    //pass
-                                                case address:
-                                                    place.address = if (noChi.match(address)) {
-                                                        en: address
-                                                    } else {
-                                                        zh: address
-                                                    }
-                                            }
-                                            switch(placeIds[i]){
-                                                case null:
-                                                    //pass
-                                                case placeId:
-                                                    place.googleMapsPlaceId = placeId;
-                                            }
-                                            place;
-                                        }
-                                    ];
-                                    saveEntity(e, false, false);
-                            }
-                    }
-                }
-            });
-    }
-
     static function populateYBM(doc:GoogleSpreadsheet) {
         var sheet = doc.sheetsByIndex.find(s -> s.title == ybm_not_in_charley);
         return YellowBlueMap.dump()
@@ -247,7 +154,6 @@ class ExportSpreadsheet {
                     // .then(_ -> importGoogleMapsPlaceIds());
                     .then(_ -> populateYBM(doc))
                     .then(_ -> populateIndex(doc))
-                    .then(_ -> populatePlaces(doc))
                     .then(_ -> updateLastUpdateDate(doc));
             case "1":
                 var doc = new GoogleSpreadsheet("1HBYmXJIZE-4SDhGSv1SrKaf26Ex6FPi-4qPX_HVnUrA");
