@@ -154,7 +154,7 @@ class EntityView extends View {
             <div className="webpage ybm-info">
                 <span className="inline-block text-center text-sm align-baseline leading-none rounded rounded-full py-1.5 px-3 bg-gray-100 text-gray-800 font-normal">
                     <span className="webpage-logo-wrapper mr-1">
-                        <img className="webpage-logo h-auto" src=${R("/images/ybm-logo.png")} />
+                        <img className="webpage-logo h-auto" src=${R("/images/ybm-logo.png")} alt="終極黃藍地圖" />
                     </span>
                     終極黃藍地圖 ${colors}
                 </span>
@@ -173,7 +173,7 @@ class EntityView extends View {
             <div className="webpage hkbase-info">
                 <span className="inline-block text-center text-sm align-baseline leading-none rounded rounded-full py-1.5 px-3 bg-gray-100 text-gray-800 font-normal">
                     <span className="webpage-logo-wrapper mr-1">
-                        <img className="webpage-logo h-auto rounded-full" src=${R("/images/hkbase-logo.png")} />
+                        <img className="webpage-logo h-auto rounded-full" src=${R("/images/hkbase-logo.png")} alt="HKBASE" />
                     </span>
                     HKBASE企業名冊
                 </span>
@@ -185,6 +185,16 @@ class EntityView extends View {
     }
 
     function picUrl() return '/${entity.id}/profile.png';
+
+    function renderName() {
+        return [
+            for (lang in [en, zh])
+            if (entity.name[lang] != null)
+            jsx('
+                <span key=${lang} lang=${lang} className="mx-1">${entity.name[lang]}</span>
+            ')
+        ];
+    }
 
     override function bodyContent() {
         var jsonHref = '${entity.id}.json';
@@ -223,7 +233,7 @@ class EntityView extends View {
                                     style=${profilePicStyle}
                                 />
                             </div>
-                            <h3 className="text-2xl py-2">${entity.name.printAll()}</h3>
+                            <h3 className="flex flex-wrap justify-center text-2xl py-2">${renderName()}</h3>
                             ${closed}
                             <a className="inline-block align-middle text-center select-none border font-normal whitespace-nowrap rounded py-1 px-3 leading-normal no-underline bg-gray-100 text-gray-800 hover:bg-gray-200 hover:no-underline mb-1" href=${jsonHref}>查看 JSON 格式 📃</a>
                             ${renderPlaces()}
