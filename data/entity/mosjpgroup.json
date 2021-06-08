@@ -1,0 +1,101 @@
+{
+  "id": "mosjpgroup",
+  "name": {
+    "en": "Aplex",
+    "zh": "日本貨好友站"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/mosjpgroup/",
+      "meta": {
+        "id": "268335023528293",
+        "username": "mosjpgroup",
+        "name": "日本貨好友站 - 日本農產直送mos",
+        "about": "日本政府部門合作, 由果園, 農埸直接入口,送到用家手上\n\nAplex Store 黃大仙店：黃大仙北館 G22 號鋪 (周大福直入) \n\nAplex 日本貨好友站：馬鞍山廣場 2 樓 276 舖 （海柏mos burger旁）\n",
+        "category_list": [
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          }
+        ],
+        "single_line_address": "香港",
+        "website": "https://bit.ly/JapFriend"
+      }
+    },
+    {
+      "url": "https://mewe.com/p/%E6%97%A5%E6%9C%AC%E8%B2%A8%E5%A5%BD%E5%8F%8B%E7%AB%99-%E6%97%A5%E6%9C%AC%E8%BE%B2%E7%94%A2%E7%9B%B4%E9%80%81"
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/mosjpgroup/posts/892994304395692",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "foodStore",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "將軍澳新都城商場一期2樓262號舖"
+      },
+      "googleMapsPlaceId": "ChIJkXln2gsEBDQRtVZPskaaIr0",
+      "coordinates": {
+        "lat": 22.3214718,
+        "lng": 114.2575215
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "Aplex Store 黃大仙店 黃大仙北館 G22 號鋪"
+      },
+      "googleMapsPlaceId": "ChIJcRdNYdgGBDQRvowBfJKMc_E",
+      "coordinates": {
+        "lat": 22.3413905,
+        "lng": 114.194272
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    },
+    {
+      "address": {
+        "zh": "Aplex 日本貨好友站 馬鞍山廣場 2 樓 276 舖"
+      },
+      "googleMapsPlaceId": "ChIJl0H-brEIBDQRfoPU7er1x7k",
+      "coordinates": {
+        "lat": 22.4254571,
+        "lng": 114.2317239
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "Aplex Warehouse 葵涌打磚坪街68號和豐中心1108A室"
+      },
+      "googleMapsPlaceId": "ChIJ64M5cJv4AzQRmhDkHLRZC-g",
+      "coordinates": {
+        "lat": 22.3676478,
+        "lng": 114.1371304
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 1481
+    }
+  ]
+}
