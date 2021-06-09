@@ -11,7 +11,7 @@
       "url": "https://www.instagram.com/30storehk/",
       "meta": {
         "name": "叁拾士多 30store.hk",
-        "about": "門市地址\n.\n叁拾士多：九龍觀塘成業街成業工業大廈3樓22室\n叁拾士多Round 2：九龍荔枝角長沙灣道億利工業中心1樓10A室\n叁拾士多 W：香港西環堅尼地城吉席街46至60A號吉豐大廈K號地舖\n叁拾士多 F：新界大埔廣福道146號地下\n.\nWhatsapp / Signal查詢：55400843"
+        "about": "門市地址\n.\n觀塘店：成業街成業工業大廈3樓22室\n荔枝角店：長沙灣道億利工業中心1樓10A室\n堅尼地城店：吉席街46至60A號吉豐大廈K號\n大埔店：大埔廣福道146號地下\n灣仔店：灣仔道97號聯泰大廈地下\n.\nWhatsapp / Signal查詢：55400843"
       }
     },
     {
@@ -87,12 +87,16 @@
     {
       "type": "shop",
       "id": 5636
+    },
+    {
+      "type": "shop",
+      "id": 6104
     }
   ],
   "places": [
     {
       "address": {
-        "zh": "九龍觀塘成業街19-21號成業工業大廈322室"
+        "zh": "九龍觀塘成業街19-21號成業工業大廈322室 叁拾士多"
       },
       "googleMapsPlaceId": "ChIJq6rqTEUBBDQRARX4NFD0sYY",
       "coordinates": {
@@ -105,7 +109,7 @@
     },
     {
       "address": {
-        "zh": "九龍荔枝角長沙道883號億利工業中心1樓10A室"
+        "zh": "九龍荔枝角長沙道883號億利工業中心1樓10A室 叁拾士多 Round 2"
       },
       "googleMapsPlaceId": "ChIJCZPXj4sHBDQRqMG2Oc_jiWQ",
       "coordinates": {
@@ -118,7 +122,7 @@
     },
     {
       "address": {
-        "zh": "香港西環堅尼地城吉席街46至60A號吉豐大廈K號地舖"
+        "zh": "香港西環堅尼地城吉席街46至60A號吉豐大廈K號地舖 叁拾士多 W"
       },
       "googleMapsPlaceId": "ChIJS5WL7tf_AzQRlGJyFgDvNBc",
       "coordinates": {
@@ -131,9 +135,9 @@
     },
     {
       "address": {
-        "zh": "新界大埔廣福道146號地下"
+        "zh": "新界大埔廣福道146號地下 叁拾士多 F"
       },
-      "googleMapsPlaceId": "ChIJez9juUAIBDQRQXANCvSy_10",
+      "googleMapsPlaceId": "ChIJbb8nED0JBDQRGEUOtmyNQyA",
       "coordinates": {
         "lat": 22.4476976,
         "lng": 114.1688478
@@ -144,15 +148,28 @@
     },
     {
       "address": {
-        "zh": "香港灣仔道97號聯泰大廈地下"
+        "zh": "香港灣仔道97號聯泰大廈地下 叁拾士多 V"
       },
-      "googleMapsPlaceId": "ChIJvVWrElsABDQR3I8jpftAUIw",
+      "googleMapsPlaceId": "ChIJv97sBIgBBDQRVyNrH_9fNvg",
       "coordinates": {
-        "lat": 22.276698,
-        "lng": 114.175148
+        "lat": 22.276661,
+        "lng": 114.1751088
       },
       "area": {
         "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "新界元朗壽富街15號 叁拾士多 N"
+      },
+      "googleMapsPlaceId": "ChIJzXXw-aDwAzQRwIKsyFSQrvE",
+      "coordinates": {
+        "lat": 22.4449714,
+        "lng": 114.0282407
+      },
+      "area": {
+        "zh": "元朗區"
       }
     }
   ]
