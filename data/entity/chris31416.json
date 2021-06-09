@@ -59,6 +59,25 @@
     {
       "type": "shop",
       "id": 5491
+    },
+    {
+      "type": "shop",
+      "id": 6105
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門置樂壹號總站69號舖"
+      },
+      "googleMapsPlaceId": "ChIJ8cpX2RX7AzQRyFBQIQI6njY",
+      "coordinates": {
+        "lat": 22.388851,
+        "lng": 113.9793581
+      },
+      "area": {
+        "zh": "屯門區"
+      }
     }
   ]
 }
