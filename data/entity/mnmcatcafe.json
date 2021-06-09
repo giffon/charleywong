@@ -37,6 +37,12 @@
     },
     {
       "url": "https://www.facebook.com/mnmcatcafe/photos/a.814320512011279/2398919066884741"
+    },
+    {
+      "url": "https://www.facebook.com/ymcxafe/posts/3799635383479762",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
@@ -47,6 +53,21 @@
     {
       "type": "eat",
       "id": 93
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣富明街2-6號寶明大廈1樓L室"
+      },
+      "googleMapsPlaceId": "ChIJba5lMVEABDQR2Kn8Mtjp-SM",
+      "coordinates": {
+        "lat": 22.2784909,
+        "lng": 114.1835534
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ]
 }
