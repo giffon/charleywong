@@ -25,7 +25,14 @@
       "url": "https://www.facebook.com/CasparHouse/"
     },
     {
-      "url": "https://www.instagram.com/casparhouse/"
+      "url": "https://www.instagram.com/casparhouse/",
+      "meta": {
+        "name": "Caspar House Mosaic Handmade",
+        "about": "Mosaic Handicraft\nShop 3148, 3/F , Kwai Chung Plaza,Kwai Chung ,NT (2pm-8pm)\nTel: 9314 8227\nBased in Macau and Hong Kong"
+      }
+    },
+    {
+      "url": "https://hk.pinkoi.com/store/casparhouse"
     }
   ],
   "posts": [
@@ -37,33 +44,21 @@
     }
   ],
   "tags": [
-    "accessories"
+    "accessories",
+    "shop"
   ],
   "places": [
     {
       "address": {
-        "zh": "太古城Designport"
+        "zh": "新界葵涌葵富路7-11號葵涌廣場3樓3148號舖"
       },
-      "googleMapsPlaceId": "ChIJV6IybXMBBDQRbI4Dl1_zWmU",
+      "googleMapsPlaceId": "ChIJOUTkt734AzQR2DIuCxrfkck",
       "coordinates": {
-        "lat": 22.2865471,
-        "lng": 114.2189883
+        "lat": 22.3584385,
+        "lng": 114.1274926
       },
       "area": {
-        "zh": "東區"
-      }
-    },
-    {
-      "address": {
-        "zh": "台北信義誠品店4/F"
-      },
-      "googleMapsPlaceId": "ChIJywaY1LurQjQRS74hsbes0Xk",
-      "coordinates": {
-        "lat": 25.03962,
-        "lng": 121.5652046
-      },
-      "area": {
-        "zh": "臺灣"
+        "zh": "葵青區"
       }
     }
   ]
