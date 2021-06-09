@@ -60,15 +60,22 @@ RUN cd / \
 # Install yq
 RUN wget https://github.com/mikefarah/yq/releases/download/v4.7.0/yq_linux_amd64.tar.gz -O - | tar xz && mv yq_linux_amd64 /usr/bin/yq
 
-WORKDIR /workspace
 ENV YARN_CACHE_FOLDER=/yarn
+RUN mkdir -m 777 "$YARN_CACHE_FOLDER"
 ENV HAXESHIM_ROOT=/haxe
+RUN mkdir -m 777 "$HAXESHIM_ROOT"
+RUN mkdir -m 777 "/workspace"
+USER $USERNAME
+WORKDIR /workspace
+COPY workspace/.haxerc /workspace/
+RUN lix install haxe "$(jq -r ".version" .haxerc)"
 COPY workspace/package.json workspace/yarn.lock /workspace/
 RUN yarn
 COPY workspace /workspace/
-RUN mkdir -p "$HAXESHIM_ROOT" && lix download
+RUN lix download
 RUN yarn dts2hx
 VOLUME /workspace/node_modules /workspace/lib/dts2hx
+USER root
 
 # Expose pip installed binaries
 ENV PATH="/home/${USERNAME}/.local/bin:${PATH}"
