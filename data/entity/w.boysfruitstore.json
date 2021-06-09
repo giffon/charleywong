@@ -93,5 +93,20 @@
       "type": "eat",
       "id": 285
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "長沙灣青山道475A號A舖"
+      },
+      "googleMapsPlaceId": "ChIJ8TJ9fVEHBDQR037IGNkQ7e8",
+      "coordinates": {
+        "lat": 22.3396434,
+        "lng": 114.152219
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
