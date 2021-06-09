@@ -88,5 +88,20 @@
       "type": "eat",
       "id": 392
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 151, 1/F, Kings Wing Plaza 1, 3 On Kwan St, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJC1l820YGBDQRAM8FKdOK8XQ",
+      "coordinates": {
+        "lat": 22.3884602,
+        "lng": 114.2080934
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
   ]
 }
