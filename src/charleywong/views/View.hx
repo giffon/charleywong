@@ -186,7 +186,7 @@ class View extends ReactComponent {
 
                     <div className="md:m-4 mb-3 p-6 md:p-6 lg:p-12 bg-stripe-y rounded-10 text-center relative flex-grow max-w-full flex-1 px-4"> 
                         <h5 className="text-center text-xl mb-2"><i className="fas fa-laptop-code"></i> 使用 Charley 數據</h5>
-                        <p className="mb-0">Charley Wong 和你查 嘅<a href="https://github.com/giffon/charleywong">原碼</a>以 <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL-3.0-or-later</a> 發佈，數據以 <a href="http://opendatacommons.org/licenses/odbl/1.0/">ODbL-1.0</a> 發佈。</p>
+                        <p className="mb-0">Charley Wong 和你查 嘅<a href="https://github.com/giffon/charleywong">原碼</a>以 <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="noopener">GPL-3.0-or-later</a> 發佈，數據以 <a href="http://opendatacommons.org/licenses/odbl/1.0/">ODbL-1.0</a> 發佈。</p>
                     </div>
                     
                     <div className="md:m-4 mb-3 p-6 md:p-6 lg:p-12 bg-stripe-y rounded-10 text-center relative flex-grow max-w-full flex-1 px-4">

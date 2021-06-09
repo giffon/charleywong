@@ -63,7 +63,7 @@ class Content {
                     var title = 'Charly Wong 和你查 "${entity.name.printAll()}"';
                     var textNode = getInnerSingleChild(link);
                     textNode.innerHTML = textNode.innerHTML.trim() + '
-                        <span href="${href}" target="_blank" class="charleywong-button" title="${title.htmlEscape(true)}"></span>
+                        <span href="${href}" target="_blank" rel="noopener" class="charleywong-button" title="${title.htmlEscape(true)}"></span>
                     '.trim();
                     link.addEventListener("pointerenter", onPointerEntered, true);
                 }

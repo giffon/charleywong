@@ -168,7 +168,7 @@ class Mooncake2020 extends ReactComponent {
                     <div className="mooncake-info mb-2">
                         ${d.info.map(renderInfo)}
                     </div>
-                    <a className="ml-6 inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded rounded-full py-1 px-3 bg-gray-100 text-gray-800 hover:bg-gray-200" target="_blank" href=${d.info[0]}>🔗 資料來源</a>
+                    <a className="ml-6 inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded rounded-full py-1 px-3 bg-gray-100 text-gray-800 hover:bg-gray-200" target="_blank" rel="noopener" href=${d.info[0]}>🔗 資料來源</a>
                     <a className="ml-6 inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded rounded-full py-1 px-3 bg-gray-100 text-gray-800 hover:bg-gray-200" target="_blank" href=${d.charleywong}>🐧🔎 店舖表態FC</a>
                 </div>
             </div>
@@ -186,7 +186,7 @@ class Mooncake2020 extends ReactComponent {
         } else {
             return jsx('
                 <div key=${url} className="bg-none">
-                    <a target="_blank" href=${url}>${url}</a>
+                    <a target="_blank" rel="noopener" href=${url}>${url}</a>
                 </div>
             ');
         }

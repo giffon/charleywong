@@ -57,7 +57,7 @@ class HkbaseDirectoryView extends View {
                             2020年初起，HKBASE成立了「HKBASE商務引薦平台」，推動會員企業互相引薦供應商、客戶和伙伴，做到「香港人生意、香港人引薦」。
                         </p>
                         <p>
-                            HKBASE編製了這份<a href="https://www.facebook.com/hkbase.org/posts/2556063708038307" target="_blank">《HKBASE企業名冊》</a>，向公眾介紹各會員企業的產品和服務。
+                            HKBASE編製了這份<a href="https://www.facebook.com/hkbase.org/posts/2556063708038307" target="_blank" rel="noopener">《HKBASE企業名冊》</a>，向公眾介紹各會員企業的產品和服務。
                         </p>
                         <p>
                             以下資料由 HKBASE 提供。
