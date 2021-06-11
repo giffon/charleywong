@@ -7,14 +7,26 @@
 		"LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
 	},
 	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash"
+		"terminal.integrated.profiles.linux": {
+			"bash": {
+				"path": "/bin/bash",
+				"args": [
+					"-l"
+				]
+			},
+		},
+		"remote.portsAttributes": {
+			"6000": {
+				"label": "vshaxe server",
+				"onAutoForward": "ignore"
+			}
+		},
 	},
 	"extensions": [
 		"ms-azuretools.vscode-docker",
 		"nadako.vshaxe",
 		"lix.lix",
-		"hashicorp.terraform",
-		"rubymaniac.vscode-direnv"
+		"hashicorp.terraform"
 	],
 	"remoteUser": "vscode"
 }
