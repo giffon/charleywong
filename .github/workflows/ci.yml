@@ -20,10 +20,12 @@ jobs:
         run: yarn tailwind
         env:
           NODE_ENV: production
-      - name: Compile index.js
-        run: haxe build.hxml
+      - name: Build browser.js
+        run: haxe browser.hxml
       - name: Minify browser.js
         run: npx browserify browser.js -g [ envify --NODE_ENV production ] -g uglifyify | npx terser --compress --mangle > static/browser.bundled.js
+      - name: Build server
+        run: haxe server.hxml
       - name: Compile Chrome extension
         run: haxe chrome-extension.hxml
       - uses: actions/upload-artifact@v2
