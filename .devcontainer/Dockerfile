@@ -78,6 +78,7 @@ COPY workspace /workspace/
 RUN lix download
 RUN yarn dts2hx
 VOLUME /workspace/node_modules /workspace/lib/dts2hx
+RUN sed -ir 's/^__bash_prompt$/PS1="\\[\\033[0;32m\\]\\u \\[\\033[0m\\]➜ \\[\\033[1;34m\\]\\w\\[\\033[0m\\]\\$ "/' ~/.bashrc
 USER root
 
 # Expose pip installed binaries
