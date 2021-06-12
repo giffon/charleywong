@@ -140,7 +140,9 @@ class View extends ReactComponent {
             </div>
             <div className="mt-3 md:mt-12 text-center container max-w-screen-lg mx-auto px-4 md:px-8">
                 <div className="w-full">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScyydoYxadEtvrwgUcplDZjxbHMmV-cCFlKtE0wcwJwb3cl_A/viewform"><img className="max-w-full h-auto inline" src=${R("/images/rice-dump-form.jpg")} alt="KOLB x 點心紙 x 埗兵 端午節團購"/></a>
+                    <a href="https://linktr.ee/blackwindow">
+                        <img className="max-w-full h-auto inline" src=${R("/images/blackwindow___poster_banner1_970.90.jpg")} alt="黑窗里（前蘇波榮）重開眾籌"/>
+                    </a>
                 </div>
                 <div className="w-full mt-2 color_black_o60">
                     <a className="border-0" href="/campaign"><span className="whitespace-nowrap">你都想 Charley 幫你宣傳?</span> <span className="whitespace-nowrap">入嚟睇吓我哋嘅廣告宣傳計劃</span></a>
