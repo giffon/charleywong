@@ -12,7 +12,7 @@
       "url": "https://www.instagram.com/photobi.hk/",
       "meta": {
         "name": "Studio Photobi HK 弘大證件相拍攝工作室",
-        "about": "首爾弘大總店| 亞洲海外分店（香港）\n#\n預約: 96653223（觀塘店）/ 9665 8066（旺角店）\nor"
+        "about": "首爾弘大總店| 亞洲海外分店（香港）\n#\n預約: 9665 3223（觀塘店）/ 9665 8066（油麻地店）/ 94458066（灣仔店）"
       }
     },
     {
@@ -107,6 +107,19 @@
       "area": {
         "zh": "油尖旺區"
       }
+    },
+    {
+      "address": {
+        "zh": "灣仔皇后大道東147-149號威利商業大廈16樓全層"
+      },
+      "googleMapsPlaceId": "ChIJI6huLUMABDQRXuP-fn0xYqI",
+      "coordinates": {
+        "lat": 22.2751139,
+        "lng": 114.1713618
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -117,6 +130,10 @@
     {
       "type": "shop",
       "id": 1167
+    },
+    {
+      "type": "shop",
+      "id": 6108
     }
   ]
 }
