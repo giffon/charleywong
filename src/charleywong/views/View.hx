@@ -141,8 +141,8 @@ class View extends ReactComponent {
             <div className="mt-3 md:mt-12 text-center container max-w-screen-lg mx-auto px-4 md:px-8">
                 <div className="w-full">
                     <a href="https://linktr.ee/blackwindow">
-                        <img className="max-w-full h-auto inline hidden lg:block" src=${R("/images/blackwindow___poster_banner1_970.90.jpg")} alt="黑窗里（前蘇波榮）重開眾籌"/>
-                        <img className="max-w-full h-auto inline block lg:hidden" src=${R("/images/blackwindow___poster_banner4_970.90.jpg")} alt="黑窗里（前蘇波榮）重開眾籌"/>
+                        <img className="max-w-full h-auto hidden lg:block" src=${R("/images/blackwindow___poster_banner1_970.90.jpg")} alt="黑窗里（前蘇波榮）重開眾籌"/>
+                        <img className="max-w-full h-auto block lg:hidden" src=${R("/images/blackwindow___poster_banner4_970.90.jpg")} alt="黑窗里（前蘇波榮）重開眾籌"/>
                     </a>
                 </div>
                 <div className="w-full mt-2 color_black_o60">
