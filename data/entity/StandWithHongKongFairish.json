@@ -25,6 +25,13 @@
         ],
         "website": "https://www.stand-with-hk.com/"
       }
+    },
+    {
+      "url": "https://www.instagram.com/stand_with_hong_kong_fairish/",
+      "meta": {
+        "name": "煲底市集",
+        "about": "源於延續反送中運動的抗爭意志及壯大黃色經濟的理念，一眾來自土瓜灣的社運人士、前區議會助選團及「守護孩子」義工於2020年初創辦「煲底市集」。我們希望透過營運網上商店，務求在資源上以持續可行的方式，回饋及支援社會運動，為手足提供就業機會，並推進黃色經濟圈發展，與香港人齊上齊落。"
+      }
     }
   ],
   "posts": [
@@ -39,9 +46,27 @@
       "meta": {
         "sharedWith": "Public"
       }
+    },
+    {
+      "url": "https://www.facebook.com/StandWithHongKongFairish/posts/301506771448157",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/StandWithHongKongFairish/posts/316723299926504",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
     "shop"
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 4644
+    }
   ]
 }
