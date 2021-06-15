@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "http://www.wozicafe.com"
+    },
+    {
       "url": "https://www.facebook.com/wozi.cafe/",
       "meta": {
         "id": "846484355448981",
@@ -36,7 +39,7 @@
       "url": "https://www.instagram.com/wozi.cafe/",
       "meta": {
         "name": "窩子 WoZi",
-        "about": "新蒲崗仁愛街36號地下"
+        "about": "新蒲崗仁愛街36號地下 (逢星期二休息)\n☎️ 2796-0001"
       }
     }
   ],
@@ -77,6 +80,21 @@
     {
       "type": "eat",
       "id": 494
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新蒲崗仁愛街36號地下"
+      },
+      "googleMapsPlaceId": "ChIJpa_J89YGBDQROjLlG8uqGQ4",
+      "coordinates": {
+        "lat": 22.3344944,
+        "lng": 114.1949417
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
     }
   ]
 }
