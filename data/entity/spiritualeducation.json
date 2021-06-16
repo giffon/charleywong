@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.soulalivehk.org"
+    },
+    {
       "url": "https://www.facebook.com/spiritualeducation/",
       "meta": {
         "id": "386139354740309",
@@ -39,5 +42,20 @@
   ],
   "tags": [
     "media"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍油麻地窩打老道20號金輝大廈1樓6室"
+      },
+      "googleMapsPlaceId": "ChIJ88Vm78AABDQRXDaEdotwjpg",
+      "coordinates": {
+        "lat": 22.3126609,
+        "lng": 114.169922
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
