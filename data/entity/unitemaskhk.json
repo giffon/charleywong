@@ -38,6 +38,12 @@
       "meta": {
         "sharedWith": "Public"
       }
+    },
+    {
+      "url": "https://www.facebook.com/unitemaskhk/posts/333044381674557",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
@@ -59,6 +65,60 @@
     {
       "type": "shop",
       "id": 5424
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "火炭坳背灣街57號利達工業中心地下7A鋪 小魔怪"
+      },
+      "googleMapsPlaceId": "ChIJ07YsvDQGBDQRfHx2wCfD_KM",
+      "coordinates": {
+        "lat": 22.3992402,
+        "lng": 114.1927027
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘成業街16號怡生工業中心地下F號鋪 小魔怪"
+      },
+      "googleMapsPlaceId": "ChIJLQWLO0UBBDQRZfrmv1bDFqM",
+      "coordinates": {
+        "lat": 22.30972359999999,
+        "lng": 114.2260493
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀金馬倫道17號地下A號舖 小魔怪"
+      },
+      "googleMapsPlaceId": "ChIJpXwTd-4ABDQRW06htcDsG1U",
+      "coordinates": {
+        "lat": 22.29914,
+        "lng": 114.173915
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍灣宏開道8號其士商業中心地下6號舖 小魔怪"
+      },
+      "googleMapsPlaceId": "ChIJa2gNWzQBBDQRkC-gT_IihNs",
+      "coordinates": {
+        "lat": 22.3213269,
+        "lng": 114.2112792
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ]
 }
