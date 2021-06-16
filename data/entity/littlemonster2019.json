@@ -14,13 +14,14 @@
         "id": "852092345131108",
         "username": "littlemonster2019",
         "name": "小魔怪 Little Monster",
+        "about": "📌 尖沙咀店(星期一至日 10:00-21:00)\n📌 九龍灣店(星期一至六 09:00-19:00，星期日 10:00-19:00，公眾假期休息)\n📌 觀塘店(星期一至日 9:00-20:30)\n📌 火炭店(星期一至五09:00 - 17:30，星期六09:00 - 12:30)\n",
         "category_list": [
           {
             "id": "2232",
             "name": "Baby Goods/Kids Goods"
           }
         ],
-        "single_line_address": "觀塘成業街16號怡生大廈地下F號鋪, Hong Kong, Hong Kong",
+        "single_line_address": "觀塘成業街16號怡生大廈地下F號鋪, 香港",
         "website": "http://littlemonster.hk"
       }
     }
@@ -53,12 +54,51 @@
   "places": [
     {
       "address": {
-        "zh": "觀塘成業街16號怡生大廈地下F號鋪"
+        "zh": "火炭坳背灣街57號利達工業中心地下7A鋪"
       },
-      "googleMapsPlaceId": "ChIJg3hmP0UBBDQRgGmDVXpvQ1w",
+      "googleMapsPlaceId": "ChIJ07YsvDQGBDQRfHx2wCfD_KM",
       "coordinates": {
-        "lat": 22.3099421,
-        "lng": 114.2259542
+        "lat": 22.3992402,
+        "lng": 114.1927027
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘成業街16號怡生工業中心地下F號鋪"
+      },
+      "googleMapsPlaceId": "ChIJLQWLO0UBBDQRZfrmv1bDFqM",
+      "coordinates": {
+        "lat": 22.30972359999999,
+        "lng": 114.2260493
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀金馬倫道17號地下A號舖"
+      },
+      "googleMapsPlaceId": "ChIJpXwTd-4ABDQRW06htcDsG1U",
+      "coordinates": {
+        "lat": 22.29914,
+        "lng": 114.173915
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍灣宏開道8號其士商業中心地下6號舖"
+      },
+      "googleMapsPlaceId": "ChIJa2gNWzQBBDQRkC-gT_IihNs",
+      "coordinates": {
+        "lat": 22.3213269,
+        "lng": 114.2112792
       },
       "area": {
         "zh": "觀塘區"
