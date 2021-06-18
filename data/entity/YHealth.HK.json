@@ -58,6 +58,29 @@
       }
     },
     {
+      "url": "https://www.facebook.com/102284405285336/",
+      "hidden": true,
+      "meta": {
+        "id": "102284405285336",
+        "name": "卓爾中醫綜合治療中心 - 中環診所",
+        "about": "楊澤琪博士  註冊中醫師\n廣州中醫藥大學學士、碩士、博士、客席講師\n\n戴嘉明  註冊中醫師\n廣州中醫藥大學 學士\n\n鄺詠欣  註冊中醫師\n廣州中醫藥大學 學士\n香港大學中醫 碩士\n\n",
+        "category_list": [
+          {
+            "id": "2214",
+            "name": "Health/Beauty"
+          },
+          {
+            "id": "1154837367920704",
+            "name": "Medical Service"
+          }
+        ],
+        "emails": [
+          "yhealthcmc@gmail.com"
+        ],
+        "single_line_address": "中環皇后大道中41-47號聯成大廈601室, 香港"
+      }
+    },
+    {
       "url": "https://www.instagram.com/yhealth2/",
       "meta": {
         "name": "卓爾中醫綜合治療中心"
@@ -68,6 +91,14 @@
       "meta": {
         "name": "卓爾中醫綜合治療中心 - 北角診所",
         "about": "香港北角英皇道406-408號明園西街地下6號鋪\n預約電話：36195190/WhatsApp 93833543\n內科、婦科、兒科、針灸痛証、奇難雜証、手法復位、中醫美容"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/yhealth_central/",
+      "meta": {
+        "name": "卓爾中醫綜合治療中心 - 中環診所",
+        "about": "香港中環皇后大道中41-47號聯成大廈601室\n預約及查詢: 2893 0268 / WhatsApp: 9540 7338\n內科、婦科、兒科、針灸痛症、奇難雜症、手法復位、中醫美容等"
       },
       "hidden": true
     }
@@ -139,6 +170,32 @@
       "area": {
         "zh": "東區"
       }
+    },
+    {
+      "address": {
+        "zh": "新界屯門新安街2號富益商業大廈502室"
+      },
+      "googleMapsPlaceId": "ChIJ6x1KsFv7AzQRV7zAFmbaN_g",
+      "coordinates": {
+        "lat": 22.3938601,
+        "lng": 113.9700979
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "中環皇后大道中41-47號聯成大廈601室"
+      },
+      "googleMapsPlaceId": "ChIJm0dmLpEBBDQRDyKDVs9-L0k",
+      "coordinates": {
+        "lat": 22.2826784,
+        "lng": 114.1559884
+      },
+      "area": {
+        "zh": "中西區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -153,6 +210,10 @@
     {
       "type": "shop",
       "id": 5440
+    },
+    {
+      "type": "shop",
+      "id": 6125
     }
   ]
 }
