@@ -1,7 +1,8 @@
 {
   "id": "geometry.id",
   "name": {
-    "en": "Geometric Interior Design Company"
+    "en": "Geometric Interior Design Company",
+    "zh": "幾何室內設計顧問公司"
   },
   "webpages": [
     {
@@ -29,6 +30,13 @@
         ],
         "single_line_address": "The Star, 18 Yip Shing Street,Kwai CHung, Hong Kong, 852 Hong Kong, Hong Kong",
         "website": "http://www.geo-int.com.hk/"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/geo_int_/",
+      "meta": {
+        "name": "Geometric Interior Design",
+        "about": "Interior Design"
       }
     }
   ],
