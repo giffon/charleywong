@@ -43,6 +43,10 @@
     {
       "type": "eat",
       "id": 687
+    },
+    {
+      "type": "eat",
+      "id": 6073
     }
   ],
   "places": [
@@ -54,6 +58,19 @@
       "coordinates": {
         "lat": 22.3161553,
         "lng": 114.1731114
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角彌敦道556至560號譽發廣場7樓"
+      },
+      "googleMapsPlaceId": "ChIJA6_QKscABDQRA1uZz3E_i6Y",
+      "coordinates": {
+        "lat": 22.3144496,
+        "lng": 114.1706266
       },
       "area": {
         "zh": "油尖旺區"
