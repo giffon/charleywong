@@ -1,0 +1,62 @@
+{
+  "id": "vietthuyuyen",
+  "name": {
+    "zh": "越翠苑",
+    "en": "Viet Thuy Uyen"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/vietthuyuyen/",
+      "meta": {
+        "id": "423326191339261",
+        "username": "vietthuyuyen",
+        "name": "越翠苑 Viet Thuy Uyen",
+        "category_list": [
+          {
+            "id": "155136917876965",
+            "name": "Vietnamese Restaurant"
+          }
+        ],
+        "single_line_address": "Shop A101B G/F Asia Shopping Arcade 36-60 Texaco Road, Tsuen Wan"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/vietthuyuyen/posts/1186402321698307",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/vietthuyuyen/posts/1214276825577523",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop A101B G/F Asia Shopping Arcade 36-60 Texaco Road, Tsuen Wan"
+      },
+      "googleMapsPlaceId": "ChIJwXP5TJP4AzQRPwJGRYt2SFU",
+      "coordinates": {
+        "lat": 22.3681191,
+        "lng": 114.1219747
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1027
+    }
+  ]
+}
