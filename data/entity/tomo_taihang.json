@@ -1,5 +1,5 @@
 {
-  "id": "1520233164908495",
+  "id": "tomo_taihang",
   "name": {
     "en": "Tomo The Bar"
   },
@@ -17,6 +17,13 @@
           }
         ],
         "single_line_address": "2 Warren St, Hong Kong, Hong Kong"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/tomo_taihang/",
+      "meta": {
+        "name": "Tomo",
+        "about": "craving a beer ?🍻"
       }
     }
   ],
@@ -50,12 +57,12 @@
   "places": [
     {
       "address": {
-        "en": "No. 9, Warren Street, Tai Hang "
+        "en": "2 Warren St"
       },
       "googleMapsPlaceId": "ChIJ4VQMTasBBDQRETsYzbkdx9k",
       "coordinates": {
-        "lat": 22.2785668,
-        "lng": 114.1915743
+        "lat": 22.2785272,
+        "lng": 114.191454
       },
       "area": {
         "zh": "灣仔區"
@@ -67,5 +74,8 @@
       "type": "eat",
       "id": 2133
     }
+  ],
+  "alias": [
+    "218693881483234"
   ]
 }
