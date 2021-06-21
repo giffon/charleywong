@@ -24,6 +24,13 @@
         "website": "https://www.instagram.com/jisaam.books/"
       },
       "url": "https://www.facebook.com/jisaam.books/"
+    },
+    {
+      "url": "https://www.instagram.com/jisaam.books/",
+      "meta": {
+        "name": "貳叄書房 jisaam books",
+        "about": "𝘪𝘯 𝘢 𝘳𝘦𝘭𝘢𝘵𝘪𝘰𝘯 𝘸𝘪𝘵𝘩 ——— @jisaam.vibes\n📍油麻地店 譽發廣場1202室\n📍荔枝角店 香港工業中心B座715室🕒星期一至五10:00-21:00｜星期六日 12:00-21:00\n-\n《翔：雀陸香港》網上訂購"
+      }
     }
   ],
   "posts": [
@@ -39,6 +46,34 @@
     {
       "type": "shop",
       "id": 1101
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "油麻地譽發廣場1202室"
+      },
+      "googleMapsPlaceId": "ChIJmZJQ1lsBBDQRkMmzj_xJWSM",
+      "coordinates": {
+        "lat": 22.3144694,
+        "lng": 114.1706187
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荔枝角香港工業中心B座715室"
+      },
+      "googleMapsPlaceId": "ChIJweHqVVQHBDQRcZtWGRIIcCI",
+      "coordinates": {
+        "lat": 22.3376919,
+        "lng": 114.147323
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ]
 }
