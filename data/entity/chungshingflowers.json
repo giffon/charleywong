@@ -1,0 +1,54 @@
+{
+  "id": "chungshingflowers",
+  "name": {
+    "zh": "竣誠鮮花"
+  },
+  "webpages": [
+    {
+      "url": "https://chungshingflowers.com"
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/winemeteor/posts/2559617664353516"
+    }
+  ],
+  "tags": [
+    "florist",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角花墟道44號地下"
+      },
+      "googleMapsPlaceId": "ChIJX7M2AnQBBDQRl04e5mITVgg",
+      "coordinates": {
+        "lat": 22.3252109,
+        "lng": 114.1725189
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "太子道西152D鋪"
+      },
+      "googleMapsPlaceId": "ChIJrf4AnMkABDQRaqmggqBGojY",
+      "coordinates": {
+        "lat": 22.324575,
+        "lng": 114.1703297
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 2407
+    }
+  ]
+}
