@@ -6,6 +6,10 @@
   },
   "webpages": [
     {
+      "url": "https://pandatech.shop",
+      "hidden": true
+    },
+    {
       "url": "http://panda.computer",
       "hidden": true
     },
@@ -14,7 +18,7 @@
         "id": "1556662797962750",
         "username": "PandaTechHK",
         "name": "PandaTechnology",
-        "about": "PandaTechnology is a shop locate at Sham Shui Po, we build PC for home use, office use and professional gaming over 5 years.\n熊貓電腦在深水埗高登開業超過五年, 以零售電腦零件周邊和組裝家用,商用及電競的電腦為主",
+        "about": "We build PC for home use, office use and professional gaming over 5 years.\n熊貓電腦開業超過五年, 以零售電腦零件周邊和組裝家用,商用及電競的電腦為主",
         "category_list": [
           {
             "id": "2255",
@@ -32,7 +36,7 @@
         "emails": [
           "pandatech108@gmail.com"
         ],
-        "single_line_address": "深水埗福華街146-152號高登電腦商場1樓1號鋪, Hong Kong, Hong Kong",
+        "single_line_address": "旺角彌敦道655號胡社生行1103室, 香港",
         "website": "http://pandatech.shop"
       },
       "url": "https://www.facebook.com/PandaTechHK/"
@@ -42,6 +46,13 @@
       "meta": {
         "name": "PandaTech 熊貓電腦科技",
         "about": "熊貓電腦PandaTech 係一間為於深水埗高登嘅一間DIY砌機鋪頭￼，無論你需要一部簡單嘅文書處理、上網做功課、多媒體影音、執相剪片、甚至以電競為主嘅gaming PC￼都係我哋嘅產品同服務範圍。\n另外我哋都有提供比較專業嘅服務例如硬盤資料修復，電腦維修，公司電腦，網路鋪設及管理等。￼"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/pandatech_hk/",
+      "meta": {
+        "name": "熊貓電腦科技",
+        "about": "電腦砌機/零件/維修\n旺角彌敦道655號胡社生行1103室\nWhatsapp:97301820"
       }
     }
   ],
@@ -57,15 +68,15 @@
   "places": [
     {
       "address": {
-        "zh": "深水埗福華街146-152號高登電腦商場1樓1號鋪"
+        "zh": "旺角彌敦道655號胡社生行1103室"
       },
-      "googleMapsPlaceId": "ChIJ78wFT7wBBDQRlIchODDaJ28",
+      "googleMapsPlaceId": "ChIJpXIWvscABDQRD-Ou26zKdHM",
       "coordinates": {
-        "lat": 22.3323575,
-        "lng": 114.1616795
+        "lat": 22.3186189,
+        "lng": 114.1692222
       },
       "area": {
-        "zh": "深水埗區"
+        "zh": "油尖旺區"
       }
     }
   ],
