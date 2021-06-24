@@ -175,7 +175,13 @@ class Posts extends ReactComponent {
                     classes.push("post-preview");
                     var og = p.meta["og"];
                     var title = ogProp(og, "og:title");
-                    var image = '/proxy/image?post=' + p.url.urlEncode();
+                    var image = switch (new URL(p.url).hostname) {
+                        case "web.archive.org":
+                            null;
+                        case _:
+                            var src = '/proxy/image?post=' + p.url.urlEncode();
+                            jsx('<img className="w-full rounded rounded-t" src=${src} alt=${title} />');
+                    }
                     var siteName = ogProp(og, "og:site_name");
                     var published_time = ogProp(og, "article:published_time");
 
@@ -192,7 +198,7 @@ class Posts extends ReactComponent {
                     jsx('
                         <a className="post-preview" href=${p.url}>
                             <div className="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 text-left">
-                                <img className="w-full rounded rounded-t" src=${image} alt=${title} />
+                                ${image}
                                 <div className="flex-auto p-6">
                                     <h6 className="-mt-2 mb-0 text-gray-700 mb-2">${siteName}<span className="ml-2">${published_time}</span></h6>
                                     <h5 className="mb-3 mb-0">${title}</h5>
