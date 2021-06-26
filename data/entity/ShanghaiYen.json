@@ -1,0 +1,78 @@
+{
+  "id": "ShanghaiYen",
+  "name": {
+    "zh": "大川滬",
+    "en": "Shanghai Yen"
+  },
+  "webpages": [
+    {
+      "url": "http://108food.com",
+      "hidden": true
+    },
+    {
+      "url": "https://www.facebook.com/ShanghaiYen/",
+      "meta": {
+        "id": "325411841611782",
+        "username": "ShanghaiYen",
+        "name": "大川滬 Shanghai Yen",
+        "about": "We are a Shanghainese restaurant which also serves Hong Kong style breakfast, lunch and afternoon tea.  We have a mega TV, a bar, as well as private and outdoor seating.",
+        "category_list": [
+          {
+            "id": "1119010584789150",
+            "name": "Shanghainese Restaurant"
+          }
+        ],
+        "emails": [
+          "hello@108food.com"
+        ],
+        "single_line_address": "Shop B-J, G/F, Wui Chuen Building, 21-25, Pak Tai Street, Tokwawan, Kowloon, 0000 九龍",
+        "website": "http://108food.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/shanghaiyenhk/",
+      "meta": {
+        "name": "Marcus K Tsui",
+        "about": "土瓜灣北帝街21-25號匯川大廈地下B-J舖\nShop B-J, G/F, Wui Chuen Building, 21-25 Pak Tai Street, To Kwa Wan"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/ShanghaiYen/posts/561569534662677",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/ShanghaiYen/posts/717356055750690",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "土瓜灣北帝街21-25號匯川大廈地下B-J舖"
+      },
+      "googleMapsPlaceId": "ChIJLXAc_WwBBDQRBY7y76dMNj8",
+      "coordinates": {
+        "lat": 22.3206743,
+        "lng": 114.1879423
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1829
+    }
+  ]
+}
