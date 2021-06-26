@@ -1,0 +1,69 @@
+{
+  "id": "sammicoffee",
+  "name": {
+    "en": "Sammi #000000"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/sammicoffee/",
+      "meta": {
+        "id": "104417121258807",
+        "username": "sammicoffee",
+        "name": "Sammi #000000",
+        "about": "SAMMI THE BLACK EDITION",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
+        ],
+        "emails": [
+          "sammicoffeehk@gmail.com"
+        ],
+        "single_line_address": "Shop C&E, G/F, Wanson House, 115 Tsuen Wan Market Street, Tsuen Wan, N.T Hong Kong, Tsuen Wan"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/sammicoffeehk/",
+      "meta": {
+        "name": "#000000",
+        "about": "Smile, breathe and drink coffee.\n#000000 #sammicoffeehk"
+      }
+    },
+    {
+      "url": "https://mewe.com/p/sammi"
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/sammicoffee/posts/172896537744198",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/sammicoffee/posts/177336517300200",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop C&E, G/F, Wanson House, 115 Tsuen Wan Market Street, Tsuen Wan"
+      },
+      "googleMapsPlaceId": "ChIJ79Zad1_5AzQR93T5LAIDzD0",
+      "coordinates": {
+        "lat": 22.370499,
+        "lng": 114.1196516
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
+  ]
+}
