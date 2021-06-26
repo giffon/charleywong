@@ -1,7 +1,7 @@
 {
   "id": "GT326",
   "name": {
-    "zh": "遊戲領域 觀塘店"
+    "zh": "遊戲領域"
   },
   "webpages": [
     {
@@ -38,5 +38,20 @@
   "tags": [
     "videoGame",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘 開源道 觀塘廣場326號舖"
+      },
+      "googleMapsPlaceId": "ChIJPQ7NWEUBBDQRa9wrW7lsnLE",
+      "coordinates": {
+        "lat": 22.311161,
+        "lng": 114.2260002
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
