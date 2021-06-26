@@ -8,7 +8,15 @@
     {
       "url": "https://www.instagram.com/floomfloom/",
       "meta": {
-        "about": "We make food and emotional satisfaction.\n尖沙咀厚福街12-12A 藍馬商業大廈10樓(地鐡B2出口)\n星期日至四 12pm - 10pm\n星期五至六 12pm -11pm\n電話/ 54254733\nNo IG msg please❌"
+        "name": "鳥語 floomfloom : 日式洋食",
+        "about": "We make food and emotional satisfaction\n尖沙咀厚福街12-12A 藍馬商業大廈10樓\n一至日12pm-10pm\n📞54254733\n只接受電話預約訂枱Walkin\nK11分店 @floomfloom_cafe_kitchen"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/floomfloom_cafe_kitchen/",
+      "meta": {
+        "name": "花香 Floom Floom Cafe & Kitchen",
+        "about": "We make food and emotional satisfaction.\n尖沙咀河內道K11 artmall shop B201\n星期一至日 12:00-22:00\n查詢電話：55006239\n🌸只接受電話預約訂枱/Walk in🌸"
       }
     },
     {
@@ -43,17 +51,34 @@
     {
       "type": "eat",
       "id": 760
+    },
+    {
+      "type": "eat",
+      "id": 2437
     }
   ],
   "places": [
     {
       "address": {
-        "zh": "尖沙咀厚福街12-12A藍馬商業大廈10樓"
+        "zh": "尖沙咀厚福街12-12A藍馬商業大廈10樓 鳥語"
       },
       "googleMapsPlaceId": "ChIJXXzSfu4ABDQRBfy6GCWBM-4",
       "coordinates": {
         "lat": 22.2996,
         "lng": 114.173891
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀河內道K11 artmall shop B201 花香"
+      },
+      "googleMapsPlaceId": "ChIJ_yMf_u0ABDQRFUSKts8Cq0U",
+      "coordinates": {
+        "lat": 22.297525,
+        "lng": 114.1736355
       },
       "area": {
         "zh": "油尖旺區"
