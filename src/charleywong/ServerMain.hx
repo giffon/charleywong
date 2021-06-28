@@ -630,104 +630,62 @@ class ServerMain {
     }
 
     static function createEntityFromFb(fbPage:charleywong.chrome.FacebookProfile):Promise<Entity> {
-        var entity:Entity = switch (getEntityOfUrls([fbPage.url].concat(fbPage.websites))) {
-            case null:
-                switch (entityIndex.entitiesOfFbPage[fbPage.id]) {
-                    case null:
-                        {
-                            id: fbPage.handle,
-                            name: MultiLangString.parseName(fbPage.name),
-                            webpages: [],
-                            posts: [],
-                            tags: [],
-                        };
-                    case e:
-                        e;
-                }
-            case e:
-                e;
-        }
-
-        function addPlacesIfNone() {
-            if (entity.places == null && fbPage.addr != null) {
-                var noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
-                switch(fbPage.addr.line) {
-                    case null:
-                        //pass
-                    case address:
-                        var place:Place = {};
-                        place.address = if (noChi.match(address)) {
-                            en: address
-                        } else {
-                            zh: address
-                        }
-                        place.googleMapsPlaceId = "";
-                        entity.places = [place];
-                }
+        return Facebook.getPageInfo(fbPage.url).then(info -> {
+            var entity:Entity = switch (entityIndex.entitiesOfFbPage[info.id]) {
+                case null:
+                    var name = MultiLangString.parseName(info.name);
+                    {
+                        id: info.username != null ? info.username : switch (name[en]) {
+                            case name if (~/[A-Za-z0-9\.\-_]/.match(name)):
+                                ~/[^A-Za-z0-9\.\-_]+/.replace(name, "");
+                            case _:
+                                info.id;
+                        },
+                        name: name,
+                        webpages: [],
+                        posts: [],
+                        tags: [],
+                    };
+                case e:
+                    e;
             }
-        }
 
-        if (Facebook.accessToken != null) {
-            return Facebook.getPageInfo(fbPage.handle)
-                .then(info -> {
-                    var webpages = entity.webpages;
-                    if (fbPage.websites != null) {
-                        for (url in fbPage.websites)
-                            addWebpageToEntity(url, entity);
-                    }
-                    var fbUrl = 'https://www.facebook.com/${fbPage.handle}/';
-                    switch (webpages.find(p -> p.url == fbUrl)) {
+            function addPlacesIfNone() {
+                if (entity.places == null && info.single_line_address != null) {
+                    var noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
+                    switch(info.single_line_address) {
                         case null:
-                            webpages.push({
-                                url: fbUrl,
-                                meta: cast info,
-                            });
-                        case webpage:
-                            webpage.meta = cast info;
+                            //pass
+                        case address:
+                            var place:Place = {};
+                            place.address = if (noChi.match(address)) {
+                                en: address
+                            } else {
+                                zh: address
+                            }
+                            place.googleMapsPlaceId = "";
+                            entity.places = [place];
                     }
-                    addPlacesIfNone();
-                    entity;
-                });
-        } else {
-            var meta:DynamicAccess<Dynamic> = {};
-            if (fbPage.id != null) {
-                meta["id"] = fbPage.id;
+                }
             }
-            meta["name"] = fbPage.name;
-            if (fbPage.about != null) {
-                meta["about"] = fbPage.about;
-            }
-            meta["categories"] = fbPage.categories;
-            if (fbPage.addr != null) {
-                meta["addr"] = fbPage.addr.line;
-                meta["area"] = fbPage.addr.area;
 
-                addPlacesIfNone();
-            }
-            if (fbPage.email != null) {
-                meta["email"] = fbPage.email;
-            }
-            if (fbPage.tel != null) {
-                meta["tel"] = fbPage.tel;
-            }
             var webpages = entity.webpages;
-            if (fbPage.websites != null) {
-                for (url in fbPage.websites)
-                    addWebpageToEntity(url, entity);
+            if (info.website != null) {
+                addWebpageToEntity(info.website, entity);
             }
-
-            var fbUrl = 'https://www.facebook.com/${fbPage.handle}/';
+            var fbUrl = 'https://www.facebook.com/${info.id}/';
             switch (webpages.find(p -> p.url == fbUrl)) {
                 case null:
                     webpages.push({
                         url: fbUrl,
-                        meta: meta,
+                        meta: cast info,
                     });
                 case webpage:
-                    webpage.meta = meta;
+                    webpage.meta = cast info;
             }
-            return Promise.resolve(entity);
-        }
+            addPlacesIfNone();
+            return entity;
+        });
     }
 
     static function geocode(entity:Entity):Void {

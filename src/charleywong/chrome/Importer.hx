@@ -261,30 +261,8 @@ class Importer {
     }
 
     static function getFbProfile(handle:String):Promise<FacebookProfile> {
-        if (extractFbAboutPage(document.location) != handle) {
-            return Promise.reject('只可以在 about page 輸入 Facebook 專頁');
-        }
-
-        return Promise.all([
-            fbId(),
-            fbAbout(),
-            fbTel(),
-        ]).then(function(infos) {
-            var id = infos[0];
-            var about = infos[1];
-            var tel = infos[2];
-            return {
-                url: 'https://www.facebook.com/$handle/',
-                handle: handle.endsWith("-" + id) ? id : handle,
-                id: id,
-                name: fbName(),
-                about: about,
-                addr: fbAddr(),
-                email: fbContactEmail(),
-                websites: fbWebsites(),
-                tel: tel,
-                categories: fbCategories(),
-            };
+        return Promise.resolve({
+            url: 'https://www.facebook.com/$handle/'
         });
     }
 
