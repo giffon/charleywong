@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.shabibisheepworkshop.com"
+    },
+    {
       "meta": {
         "id": "1655648777997760",
         "username": "shabibi.sheep.workshop",
@@ -33,7 +36,11 @@
       "url": "https://www.facebook.com/shabibi.sheep.workshop/"
     },
     {
-      "url": "https://www.instagram.com/sh.sh.w/"
+      "url": "https://www.instagram.com/sh.sh.w/",
+      "meta": {
+        "name": "shabibi sheep workshop",
+        "about": "| concrete | art | design | Hong Kong |\n| 水泥 | 藝術 | 設計 | 香港 |\n@sharon_o_w_yeung\n@vincent_cy_woo"
+      }
     }
   ],
   "posts": [
@@ -51,6 +58,21 @@
     {
       "type": "shop",
       "id": 1570
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit L2, 13/F, Phase 1 Superluck Industrial Centre, 45-53 Sha Tsui Road, Tsuen Wan"
+      },
+      "googleMapsPlaceId": "ChIJSWTw3e_4AzQRImLuBXyLUd8",
+      "coordinates": {
+        "lat": 22.3737793,
+        "lng": 114.1098416
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
     }
   ]
 }
