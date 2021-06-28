@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.hkbutcher-s.com"
+    },
+    {
       "url": "https://www.facebook.com/100960451315040/",
       "meta": {
         "id": "100960451315040",
@@ -30,8 +33,8 @@
     {
       "url": "https://www.instagram.com/butcher.s_/",
       "meta": {
-        "name": "BUTCHER.S肉販佬",
-        "about": "賣肉可以求榮 賣港不能求榮\nButcher.S 肉販佬"
+        "name": "BUTCHER.S 肉販佬",
+        "about": "FB/MEWE: Butcher.S 肉販佬\n⏱營業時間：09:00-20:00\n📍門市地址：元朗壽富街興隆中心13號地鋪"
       }
     }
   ],
@@ -84,6 +87,12 @@
       "area": {
         "zh": "元朗區"
       }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 6168
     }
   ]
 }
