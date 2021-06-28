@@ -23,6 +23,13 @@
         "single_line_address": "觀塘開源道56號大眾工業大廈2樓27室"
       },
       "url": "https://www.facebook.com/grandjoyseafood/"
+    },
+    {
+      "url": "https://www.instagram.com/grand_joy/",
+      "meta": {
+        "name": "禧 悅 Grand Joy",
+        "about": "家族經營海味逾50年，可WhatsApp 5119 9323 訂貨，提供速遞服務。貨量及價格以回覆作準！ #觀塘地址：開源道56號2樓27室"
+      }
     }
   ],
   "posts": [
@@ -36,5 +43,20 @@
   "tags": [
     "food",
     "foodStore"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘開源道56號2樓27室"
+      },
+      "googleMapsPlaceId": "ChIJxVc5CkUBBDQRWdB9ehC5AHM",
+      "coordinates": {
+        "lat": 22.309832,
+        "lng": 114.224308
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
