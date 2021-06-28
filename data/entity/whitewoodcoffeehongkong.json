@@ -1,0 +1,57 @@
+{
+  "id": "whitewoodcoffeehongkong",
+  "name": {
+    "en": "Whitewood Coffee Hong Kong"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/whitewoodcoffeehongkong/",
+      "meta": {
+        "id": "1072834586195445",
+        "username": "whitewoodcoffeehongkong",
+        "name": "Whitewood Coffee Hong Kong",
+        "about": "coffee",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
+        ],
+        "emails": [
+          "jessica@whitewoodcoffee.com"
+        ],
+        "single_line_address": "Shop 207, 2/F, Kings Wing Plaza 1, 3 On Kwan Street, 沙田"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/whitewoodcoffeehongkong/",
+      "meta": {
+        "name": "Whitewood Coffee",
+        "about": "We are coffee lovers who want to foster the coffee community in Hong Kong."
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/CLaqh7ZAGSu/"
+    }
+  ],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 207, 2/F, Kings Wing Plaza 1, 3 On Kwan Street"
+      },
+      "googleMapsPlaceId": "ChIJ1y1rx0YGBDQR2hHH2BJ2lc8",
+      "coordinates": {
+        "lat": 22.3883571,
+        "lng": 114.2081214
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
+  ]
+}
