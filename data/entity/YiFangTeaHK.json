@@ -373,6 +373,19 @@
       "area": {
         "zh": "東區"
       }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣軒尼詩道500號希慎廣場10樓L1005"
+      },
+      "googleMapsPlaceId": "ChIJuwh9w1YABDQRaRbZ1DgateI",
+      "coordinates": {
+        "lat": 22.2797035,
+        "lng": 114.1838445
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -483,6 +496,10 @@
     {
       "type": "eat",
       "id": 5618
+    },
+    {
+      "type": "eat",
+      "id": 6091
     }
   ]
 }
