@@ -96,7 +96,7 @@
   "places": [
     {
       "address": {
-        "en": "412 Portland Street"
+        "zh": "九龍太子砵蘭街412"
       },
       "googleMapsPlaceId": "ChIJ5y5N3rUABDQRpO9smm9MN2g",
       "coordinates": {
@@ -109,12 +109,25 @@
     },
     {
       "address": {
-        "zh": "杏花新城G53A"
+        "zh": "柴灣杏花新城地下G53A"
       },
-      "googleMapsPlaceId": "ChIJDzj02H8BBDQRM_vHVUBGZVU",
+      "googleMapsPlaceId": "ChIJj6JbUcQDBDQRDWU7e3qlHOM",
       "coordinates": {
-        "lat": 22.2767315,
-        "lng": 114.2399396
+        "lat": 22.2764985,
+        "lng": 114.2401552
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "北角英皇道483號C-D鋪"
+      },
+      "googleMapsPlaceId": "ChIJwz_cAuUBBDQRAm2nEykrtzU",
+      "coordinates": {
+        "lat": 22.291731,
+        "lng": 114.201886
       },
       "area": {
         "zh": "東區"
@@ -129,6 +142,10 @@
     {
       "type": "eat",
       "id": 387
+    },
+    {
+      "type": "eat",
+      "id": 6089
     }
   ]
 }
