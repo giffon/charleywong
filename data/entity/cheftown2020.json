@@ -1,7 +1,7 @@
 {
-  "id": "109905363821486",
+  "id": "cheftown2020",
   "name": {
-    "zh": "小城大廚"
+    "zh": "小城大廚 X 好旺茶餐廳"
   },
   "webpages": [
     {
@@ -18,6 +18,13 @@
         "single_line_address": "長沙灣李鄭屋村商場平台3樓307, Hong Kong, Hong Kong"
       },
       "url": "https://www.facebook.com/109905363821486/"
+    },
+    {
+      "url": "https://www.instagram.com/cheftown2020/",
+      "meta": {
+        "name": "小城大廚 X 好旺茶餐廳",
+        "about": "專為繁忙的都市人提供高質素的外賣小菜\n亦可在 foodpanda下單😉"
+      }
     }
   ],
   "posts": [
@@ -33,13 +40,26 @@
       "address": {
         "zh": "長沙灣李鄭屋村商場平台3樓307 "
       },
-      "googleMapsPlaceId": "ChIJxVTd1U0HBDQRMby1RpClwW8",
+      "googleMapsPlaceId": "ChIJldbCfk4HBDQRA6IGBPxqbVE",
       "coordinates": {
-        "lat": 22.3384788,
-        "lng": 114.1584077
+        "lat": 22.33878869999999,
+        "lng": 114.1583652
       },
       "area": {
         "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍城侯王道95號地舖"
+      },
+      "googleMapsPlaceId": "Eic5NSBIYXUgV29uZyBSZCwgS293bG9vbiBDaXR5LCBIb25nIEtvbmciMBIuChQKEgk1j-38KgcENBFieqdSR2OWARBfKhQKEglji6vZKgcENBE3wrWD0H2_4Q",
+      "coordinates": {
+        "lat": 22.3303995,
+        "lng": 114.1887808
+      },
+      "area": {
+        "zh": "九龍城區"
       }
     }
   ],
@@ -47,6 +67,13 @@
     {
       "type": "eat",
       "id": 1576
+    },
+    {
+      "type": "eat",
+      "id": 6090
     }
+  ],
+  "alias": [
+    "109905363821486"
   ]
 }
