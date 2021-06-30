@@ -26,6 +26,7 @@
     },
     {
       "meta": {
+        "name": "Garden Meow 喵ㄧ下",
         "about": "Bookstore Cafe · Taiwanese Gourmet · Dessert · Supper · Beer\nHG01-HG05,G/F,Block B, PMQ,35 Aberdeen Street,Central"
       },
       "url": "https://www.instagram.com/gardenmeow/"
@@ -46,13 +47,30 @@
     }
   ],
   "tags": [
+    "japanese",
     "food",
-    "closed"
+    "book",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 675
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘興業街16-18號美興工業大廈A座2樓C1室"
+      },
+      "googleMapsPlaceId": "ChIJ-_MYHUUBBDQRalxB3-c-ltI",
+      "coordinates": {
+        "lat": 22.3088856,
+        "lng": 114.225174
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ]
 }
