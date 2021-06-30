@@ -41,7 +41,7 @@
   "places": [
     {
       "address": {
-        "zh": "灣仔道212-214號A鋪"
+        "zh": "灣仔灣仔道212-214號怡康大廈地下A號舖"
       },
       "googleMapsPlaceId": "ChIJJxl_BRsBBDQRXXi14oYd4iY",
       "coordinates": {
@@ -50,6 +50,32 @@
       },
       "area": {
         "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣渣甸街44號地鋪"
+      },
+      "googleMapsPlaceId": "Eiw0NCBKYXJkaW5lJ3MgQmF6YWFyLCBDYXVzZXdheSBCYXksIEhvbmcgS29uZyIwEi4KFAoSCRcKradWAAQ0ESRGUWprkA_BECwqFAoSCT8Hm6ZWAAQ0EcCgq3Oooe3B",
+      "coordinates": {
+        "lat": 22.2794314,
+        "lng": 114.1855292
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "中環歌賦街43號地舖"
+      },
+      "googleMapsPlaceId": "EhY0MyBHb3VnaCBTdCwgSG9uZyBLb25nIjASLgoUChIJ-deMcHwABDQRU8FgxXP17D0QKyoUChIJ_byUe3wABDQRh8Esgjv2Q1Y",
+      "coordinates": {
+        "lat": 22.2844331,
+        "lng": 114.1521496
+      },
+      "area": {
+        "zh": "中西區"
       }
     }
   ],
@@ -65,6 +91,10 @@
     {
       "type": "eat",
       "id": 5329
+    },
+    {
+      "type": "eat",
+      "id": 6098
     }
   ]
 }
