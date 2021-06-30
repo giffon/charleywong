@@ -5,7 +5,7 @@ import js.npm.pngjs.PNG;
 import haxe.Resource;
 import js.node.Buffer;
 import haxe.Serializer;
-import chrome.Runtime;
+import global.chrome.Runtime;
 import haxe.io.Path;
 import haxe.Json;
 import js.html.*;

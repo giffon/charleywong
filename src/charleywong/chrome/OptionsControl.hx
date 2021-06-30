@@ -6,7 +6,7 @@ import mui.core.styles.*;
 import react.*;
 import react.Fragment;
 import react.ReactMacro.jsx;
-import chrome.*;
+import global.chrome.*;
 
 class OptionsControl extends ReactComponent {
     final ServerEndpointInput = Styles.styled(TextField)({

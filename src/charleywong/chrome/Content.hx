@@ -3,7 +3,7 @@ package charleywong.chrome;
 import js.html.*;
 import haxe.*;
 import haxe.io.Path;
-import chrome.Runtime;
+import global.chrome.Runtime;
 import js.lib.Promise;
 import js.npm.mutation_summary.MutationSummary;
 import js.npm.moment.Moment;

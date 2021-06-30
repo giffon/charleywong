@@ -2,13 +2,13 @@ package charleywong.chrome;
 
 import js.html.AbortController;
 import js.html.URL;
-import chrome.Tabs.Tab;
+import global.chrome.tabs.Tab;
 import haxe.*;
 import haxe.io.Path;
 import js.lib.Promise;
 import js.Browser.*;
 import charleywong.UrlExtractors.*;
-import chrome.*;
+import global.chrome.*;
 using Lambda;
 using StringTools;
 
@@ -84,7 +84,7 @@ class Background {
     }
 
     static function fetchEntityIndex():Promise<EntityIndex> return new Promise(function(resolve, reject) {
-        BrowserAction.setBadgeText({
+        Action.setBadgeText({
             text: "⏳",
         });
         Settings.getSettings().then(function(settings) {
@@ -203,21 +203,8 @@ class Background {
     }
 
     static function onContextMenusClicked(
-        info:{
-            menuItemId : Dynamic,
-            ?parentMenuItemId : Dynamic,
-            ?mediaType : String,
-            ?linkUrl : String,
-            ?srcUrl : String,
-            ?pageUrl : String,
-            ?frameUrl : String,
-            ?frameId : Int,
-            ?selectionText : String,
-            editable : Bool,
-            ?wasChecked : Bool,
-            ?checked : Bool
-        },
-        ?tab:Tab
+        info:global.chrome.contextmenus.OnClickData,
+        ?tab:global.chrome.tabs.Tab
     ):Void {
         switch (info.menuItemId) {
             case MenuOpenWebsite:

@@ -7,11 +7,7 @@
 --class-path lib/hxnodelibs
 --class-path lib/dts2hx
 -D react_skip_extend_component_restriction
-
-# --library chrome-extension
---class-path lib/chrome.extension/src
 -D chrome
---macro ChromeExt.setupCompiler()
 
 --each
 

@@ -1,7 +1,7 @@
 package charleywong.chrome;
 
 import js.lib.Promise;
-import chrome.*;
+import global.chrome.*;
 
 class Settings {
     static public final defaultSettings:SettingsData = {
@@ -12,7 +12,7 @@ class Settings {
 
     static public function getSettings():Promise<SettingsData> {
         return new Promise(function(resolve, reject) {
-            Storage.local.get(defaultSettings, function(settings:SettingsData) {
+            Storage.local.get(defaultSettings, cast function(settings:SettingsData) {
                 resolve(settings);
             });
         });
