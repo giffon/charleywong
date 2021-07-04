@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "https://lybakery.boutir.com"
+    },
+    {
       "meta": {
         "id": "2216174361736219",
         "username": "lybakeryltd",
@@ -31,8 +34,8 @@
     {
       "url": "https://www.instagram.com/ly_bakery/",
       "meta": {
-        "name": "LY Bakery",
-        "about": "新蒲崗總店：\n大有街3號萬迪廣場地下E鋪 (鑽石山站EXIT A2) .\nTel : 35202122\n九龍灣分店：\n常悅道21號Eastmark 地下3號鋪 (九龍灣站Exit A2) .\nTel :25062122"
+        "name": "享樂烘焙 LY Bakery",
+        "about": "九龍灣分店: 常悅道21號Eastmark 地下3號鋪 (九龍灣站Exit A2) Tel :25062122\n新蒲崗總店： Tel : 35202122\n牌照號碼：2953803961 FOOD FACTORY #12\n👇🏻👇🏻團購訂購link👇🏻👇🏻"
       }
     }
   ],
@@ -56,6 +59,10 @@
     {
       "type": "eat",
       "id": 2135
+    },
+    {
+      "type": "eat",
+      "id": 6101
     }
   ],
   "places": [
@@ -83,6 +90,19 @@
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "元朗元龍街九號形點I 1樓1097號舖"
+      },
+      "googleMapsPlaceId": "ChIJq_y7JKbwAzQRnirDEIFSVPA",
+      "coordinates": {
+        "lat": 22.4453875,
+        "lng": 114.0362594
+      },
+      "area": {
+        "zh": "元朗區"
       }
     }
   ]

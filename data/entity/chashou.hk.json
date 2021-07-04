@@ -37,7 +37,7 @@
       "url": "https://www.instagram.com/chashou.hk/",
       "meta": {
         "name": "茶匠Chashou🍵🍃",
-        "about": "我地係一間土炮港式手搖飲品店🍵🧋\n📍荃灣店：大河道12號地鋪\n📍藍田店：匯景商場3樓A16號舖\n📍尖沙咀店：廣東道80號 Cantonyama\n📍荔枝角店：快將營業\n.\nTea drinking is an attitude☕️\n🔥接受Signal外賣落單\n.\n📨 查詢/合作請DM"
+        "about": "我地係一間土炮港式手搖飲品店🍵🧋\n📍荃灣店：大河道12號地鋪\n📍藍田店：匯景商場3樓A16號舖\n📍荔枝角店：青山道608號榮吉工業大廈地下\n📍尖沙咀店：廣東道80號 Cantonyama\n.\nTea drinking is an attitude☕️\n🔥接受外賣落單自取\n.\n📨 查詢/合作請DM"
       }
     }
   ],
@@ -63,6 +63,14 @@
     {
       "type": "eat",
       "id": 2443
+    },
+    {
+      "type": "eat",
+      "id": 6105
+    },
+    {
+      "type": "eat",
+      "id": 6106
     }
   ],
   "places": [
@@ -96,13 +104,26 @@
       "address": {
         "zh": "尖沙咀廣東道80號Cantonyama 1/F, 117-119號鋪"
       },
-      "googleMapsPlaceId": "ChIJYZiEXO0ABDQRytX4vUcb1Rw",
+      "googleMapsPlaceId": "ChIJ4STcTlQBBDQRcZQrxgq8xyM",
       "coordinates": {
         "lat": 22.298388,
         "lng": 114.16896
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荔枝角青山道608號榮吉工業大廈地下"
+      },
+      "googleMapsPlaceId": "ChIJMyDw6YgHBDQR_uhlzhYRCRw",
+      "coordinates": {
+        "lat": 22.3389656,
+        "lng": 114.1492304
+      },
+      "area": {
+        "zh": "深水埗區"
       }
     }
   ],
