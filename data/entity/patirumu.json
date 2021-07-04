@@ -24,6 +24,13 @@
         ],
         "single_line_address": "荔枝角永康街79號創滙國際中心, Hong Kong, Hong Kong"
       }
+    },
+    {
+      "url": "https://www.instagram.com/patirumu/",
+      "meta": {
+        "name": "荔枝角Partyroom_ Patirumu 趴地館",
+        "about": "荔枝角新興悠閒風格Party room，全場佔地1300呎，可容納最多30-40人，適合一家大細， 朋友聚會，生日派對， 公司team building, 亦係假日玩樂好去處。"
+      }
     }
   ],
   "posts": [
@@ -42,6 +49,21 @@
     {
       "type": "shop",
       "id": 973
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荔枝角永康街79號創滙國際中心"
+      },
+      "googleMapsPlaceId": "ChIJAQBAWlQHBDQRSfgxwmu_XoQ",
+      "coordinates": {
+        "lat": 22.3394344,
+        "lng": 114.149576
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ]
 }
