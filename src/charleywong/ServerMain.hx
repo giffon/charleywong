@@ -636,7 +636,7 @@ class ServerMain {
                     var name = MultiLangString.parseName(info.name);
                     {
                         id: info.username != null ? info.username : switch (name[en]) {
-                            case name if (~/[A-Za-z0-9\.\-_]/.match(name)):
+                            case name if (name != null && ~/[A-Za-z0-9\.\-_]/.match(name)):
                                 ~/[^A-Za-z0-9\.\-_]+/g.replace(name, "");
                             case _:
                                 info.id;
