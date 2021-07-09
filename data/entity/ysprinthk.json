@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.yaushingprinting.com"
+    },
+    {
       "url": "https://www.facebook.com/yaushingprinting/",
       "meta": {
         "id": "106527667822874",
@@ -58,5 +61,20 @@
   "tags": [
     "printing",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "灣仔"
+      },
+      "googleMapsPlaceId": "ChIJs_kITO74AzQRQQuSlmBD8wc",
+      "coordinates": {
+        "lat": 22.2785865,
+        "lng": 114.1719222
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
