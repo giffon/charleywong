@@ -1,7 +1,7 @@
 {
   "id": "hillwaypress",
   "name": {
-    "zh": "山道出版社"
+    "zh": "山道文化"
   },
   "webpages": [
     {
@@ -34,6 +34,13 @@
         "single_line_address": "旺角煙廠街9號興發商業大廈22樓02室, Hong Kong, Hong Kong",
         "website": "http://hillway.com.hk/"
       }
+    },
+    {
+      "url": "https://www.instagram.com/hillway.culture/",
+      "meta": {
+        "name": "山道文化",
+        "about": "出版自由．守護真相\n👇 網上書店、門店地址及其他資訊"
+      }
     }
   ],
   "posts": [
@@ -53,5 +60,20 @@
   "tags": [
     "book",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角煙廠街9號興發商業大廈22樓02室"
+      },
+      "googleMapsPlaceId": "ChIJE-qn9MYABDQRHPHakwKbjIc",
+      "coordinates": {
+        "lat": 22.316633,
+        "lng": 114.1721049
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
