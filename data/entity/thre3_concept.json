@@ -22,7 +22,7 @@
       "url": "https://www.instagram.com/thre3_concept/",
       "meta": {
         "name": "thre3_concept",
-        "about": "🍃Open: 12pm-10pm ( 🍃9:30 Last Order🍃 ) 🌿 🍃 www.facebook.com/Thre3-Concept 🍃🌿🍃🌿🍃🌿屯門 藍地大街 35號 🌿🍃🌿🍃"
+        "about": "🍃Open: 星期二至五12-4:30 6:00-10 星期六日11:00-4:00 6:00-10:00( 🍃9:30 Last Order🍃 ) 🍃🌿🍃🌿屯門 藍地大街 35號 地下\n🌿🍃🌿屯門 新墟村 33號 地下 電話:34829789"
       }
     }
   ],
@@ -48,12 +48,25 @@
   "places": [
     {
       "address": {
-        "zh": "屯門 藍地大街 35 號"
+        "zh": "屯門 藍地大街 35 號 地下"
       },
       "googleMapsPlaceId": "ChIJpUsQIu_6AzQRpWVGkSwOvfU",
       "coordinates": {
         "lat": 22.4191526,
         "lng": 113.9836634
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門 新墟村2台 33號 地下"
+      },
+      "googleMapsPlaceId": "ChIJ2Qu_MR_7AzQRDGx5bj8KVNg",
+      "coordinates": {
+        "lat": 22.400717,
+        "lng": 113.979567
       },
       "area": {
         "zh": "屯門區"
