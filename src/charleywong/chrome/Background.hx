@@ -47,12 +47,12 @@ class Background {
                         message: '小幫手現有 ${index.entities.count()} 項資料',
                     });
                 })
-                .catchError(function (err) {
+                .catchError(function (err:js.lib.Error) {
                     Notifications.create({
                         type: "basic",
                         iconUrl: "apple-icon.png",
                         title: "Charley Wong 和你查 資料更新失敗",
-                        message: err,
+                        message: err.message,
                     });
                 });
         }
@@ -84,7 +84,7 @@ class Background {
     }
 
     static function fetchEntityIndex():Promise<EntityIndex> return new Promise(function(resolve, reject) {
-        Action.setBadgeText({
+        BrowserAction.setBadgeText({
             text: "⏳",
         });
         Settings.getSettings().then(function(settings) {
