@@ -1,0 +1,56 @@
+{
+  "id": "Zankeefood",
+  "name": {
+    "zh": "珍記大廚小食"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/103182374662983/",
+      "meta": {
+        "id": "103182374662983",
+        "username": "Zankeefood",
+        "name": "珍記大廚小食",
+        "about": "我們專心做最local最美味的小食，馳名雞扒香濃蔥油惹味沙嗲都是我們的招牌。",
+        "category_list": [
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          }
+        ],
+        "single_line_address": "石硤尾偉智里1號, Hong Kong"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/zankeefood/",
+      "meta": {
+        "name": "珍記大廚小食",
+        "about": "做最local的美食，馳名的蔥油雞扒和最出色的產品"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "石硤尾偉智里1號"
+      },
+      "googleMapsPlaceId": "EiUxIFdhaSBDaGkgTG4sIFNoZWsgS2lwIE1laSwgSG9uZyBLb25nIjASLgoUChIJ-7JeZEoHBDQRHF1apjktdx8QASoUChIJYfZGfUoHBDQRTJT8X4yB9Go",
+      "coordinates": {
+        "lat": 22.3350951,
+        "lng": 114.1668797
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2394
+    }
+  ]
+}
