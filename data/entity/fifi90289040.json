@@ -26,6 +26,20 @@
         "single_line_address": "元朗宏業南街22號虹方9樓909室, Yuen Long, Hong Kong"
       },
       "url": "https://www.facebook.com/fifi90289040/"
+    },
+    {
+      "url": "https://www.instagram.com/house_fifi/",
+      "meta": {
+        "name": "fifi house",
+        "about": "歡迎男女賓,單次收費或優惠療程均可\n⭕門市⭕\n元朗宏業南街22號虹方the rainbow9樓909室(朗屏站F出囗)☎️ 52289995⭕屯門新合里3號匯賢一號19樓01室（屯門站A出口步行3分鐘）☎️55390002⭕尖沙咀彌敦道90-94C華敦大廈A座4樓A4室☎️ 56493894"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/fifihousetst/",
+      "meta": {
+        "name": "Fi Fi House TST",
+        "about": "💛由經驗豐富的美容師提供專業Facial\n💛各類美容機齊備，總有一樣岩你\n💛擁有超過15年按摩經驗泰籍按摩師提供各項全身按摩"
+      }
     }
   ],
   "posts": [
@@ -48,6 +62,47 @@
     {
       "type": "shop",
       "id": 1595
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗宏業南街22號虹方the rainbow9樓909室"
+      },
+      "googleMapsPlaceId": "ChIJIxUElPTxAzQRkEqIi1wzVWU",
+      "coordinates": {
+        "lat": 22.4486612,
+        "lng": 114.0273834
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門新合里3號匯賢一號19樓01室"
+      },
+      "googleMapsPlaceId": "ChIJmT5Vp2D7AzQRP_5GooMuWoI",
+      "coordinates": {
+        "lat": 22.3934671,
+        "lng": 113.971443
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀彌敦道90-94C華敦大廈A座4樓A4室"
+      },
+      "googleMapsPlaceId": "ChIJsa29d-sBBDQRbWD3vwhiQWs",
+      "coordinates": {
+        "lat": 22.2991818,
+        "lng": 114.1722152
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }

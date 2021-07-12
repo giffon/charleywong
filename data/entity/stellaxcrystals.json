@@ -27,6 +27,13 @@
         "website": "https://stellaxcrystals.com"
       },
       "url": "https://www.facebook.com/stellaxcrystals/"
+    },
+    {
+      "url": "https://www.instagram.com/stellax_crystals/",
+      "meta": {
+        "name": "🔮旺角門市 Stellax Crystals-水晶閣✨",
+        "about": "🤞優質天然 明碼實價 實物拍攝\n－\n🏪門市：旺角潮流特區2樓220鋪\n⏰營業時間：星期一至日 3-9pm\n📲Wts：9574 1539\n－\n💙好評區：@stellax_comment"
+      }
     }
   ],
   "posts": [
@@ -35,12 +42,28 @@
     }
   ],
   "tags": [
-    "accessories"
+    "accessories",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 986
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角彌敦道580A號潮流特區220鋪"
+      },
+      "googleMapsPlaceId": "ChIJf9F7jGtG_xMRzDrRzSgQ4YA",
+      "coordinates": {
+        "lat": 22.3155283,
+        "lng": 114.1704013
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
