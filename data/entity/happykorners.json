@@ -29,8 +29,17 @@
     {
       "url": "https://www.instagram.com/thekorner_hk/",
       "meta": {
-        "name": "The Korner🌈",
-        "about": "Based in 🇭🇰\nFrom local to worldwide,\nstay home stay healthy 💪🏽"
+        "name": "成立六年 過萬舒適好評💕 | 香港品牌 🇭🇰",
+        "about": "#給你雙足每天的舒適應援\n🚛: 全網免港澳運費🇭🇰🇲🇴另支援全球運送🌎\n♻️: 三十天換貨承諾（單品未穿着過狀態）\n🌱: 部份單品選用純素皮革\n📍: 門市設於銅鑼灣 / 尖沙咀 / 荔枝角 / 奧運 / 荃灣 / 觀塘"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCA10VxV6Ub2UU5gsr7Pic6Q",
+      "meta": {
+        "id": "UCA10VxV6Ub2UU5gsr7Pic6Q",
+        "location": "Hong Kong",
+        "name": "The Korner. Hong Kong",
+        "about": "The Korner"
       }
     }
   ],
@@ -62,12 +71,25 @@
   "places": [
     {
       "address": {
+        "en": "Shop 103, 1/F, Lee Theatre, Causeway Bay"
+      },
+      "googleMapsPlaceId": "ChIJZfvnvOUBBDQR5cHbDJ7J_co",
+      "coordinates": {
+        "lat": 22.2785897,
+        "lng": 114.1848936
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
         "en": "Shop 120, 1/F, K11 Art Mall, Tsim Sha Tsui"
       },
-      "googleMapsPlaceId": "ChIJ_yMf_u0ABDQRFUSKts8Cq0U",
+      "googleMapsPlaceId": "ChIJPZ-7nLIBBDQRpXN-N2A0RiI",
       "coordinates": {
-        "lat": 22.2974095,
-        "lng": 114.173575
+        "lat": 22.2979425,
+        "lng": 114.1735923
       },
       "area": {
         "zh": "油尖旺區"
@@ -77,10 +99,10 @@
       "address": {
         "en": "Shop 214A, 2/F, D2 Place One, Lai Chi Kok"
       },
-      "googleMapsPlaceId": "ChIJ-VJ_llQHBDQRL9xYGygY894",
+      "googleMapsPlaceId": "ChIJU7i1SDYHBDQRRS_1aU6YQuU",
       "coordinates": {
-        "lat": 22.3361373,
-        "lng": 114.1489362
+        "lat": 22.3361036,
+        "lng": 114.1489859
       },
       "area": {
         "zh": "深水埗區"
@@ -90,13 +112,39 @@
       "address": {
         "en": "UG35, UG, Olympian City II, Olympic"
       },
-      "googleMapsPlaceId": "ChIJLdOHYLkABDQRDR5nj4ociXI",
+      "googleMapsPlaceId": "ChIJiSenLPwBBDQRlcRfcjncCSU",
       "coordinates": {
-        "lat": 22.3172044,
-        "lng": 114.1619682
+        "lat": 22.315912,
+        "lng": 114.1634398
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "en": "UC-3, Millennium City 5, Kwun Tong"
+      },
+      "googleMapsPlaceId": "ChIJY-EvB00BBDQRjnXA-Tc9grY",
+      "coordinates": {
+        "lat": 22.31217149999999,
+        "lng": 114.2255636
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "en": "Citi Store 2/F, Tsuen Wan II, TWTL 301, Tsuen Wan, N.T."
+      },
+      "googleMapsPlaceId": "ChIJoWWLP-34AzQR7wlS0vBcvNo",
+      "coordinates": {
+        "lat": 22.371293,
+        "lng": 114.11905
+      },
+      "area": {
+        "zh": "荃灣區"
       }
     }
   ]
