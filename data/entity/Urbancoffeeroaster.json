@@ -38,7 +38,7 @@
       "url": "https://www.instagram.com/urbancoffeeroaster/",
       "meta": {
         "name": "Urban Coffee Roaster",
-        "about": "Proudly roasting since 2014\n.\nTST - 7 Bristol Avenue, TST\nCWB - 1/F, shop B, Fashion Walk, 7 Kingston St, CWB"
+        "about": "Proudly roasting since 2014\n.\nTST - 7 Bristol Avenue, TST\nTKO - Shop 12, 29 Tong Yin Street, TKO\nCWB- Shop D G/F, 9 Kingston Street, CWB\nFor details👇👇"
       }
     },
     {
@@ -82,12 +82,25 @@
     },
     {
       "address": {
-        "en": "1/F, shop B, Fashion Walk, 7 Kingston St, Causeway Bay"
+        "en": "Shop 12, 29 Tong Yin Street, Tseung Kwan O"
+      },
+      "googleMapsPlaceId": "ChIJI2tcYq4DBDQR2teGAWSqh1M",
+      "coordinates": {
+        "lat": 22.3015591,
+        "lng": 114.2579667
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop D G/F, 9 Kingston Street, Fashion Walk, Causeway Bay"
       },
       "googleMapsPlaceId": "ChIJRQbZg1wBBDQRrB1j69E5d7g",
       "coordinates": {
-        "lat": 22.2823725,
-        "lng": 114.1857755
+        "lat": 22.2824109,
+        "lng": 114.185653
       },
       "area": {
         "zh": "灣仔區"
@@ -106,6 +119,10 @@
     {
       "type": "eat",
       "id": 1381
+    },
+    {
+      "type": "eat",
+      "id": 6114
     }
   ]
 }
