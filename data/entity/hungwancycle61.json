@@ -46,5 +46,20 @@
       "type": "shop",
       "id": 817
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "馬鞍山大水坑單車公園"
+      },
+      "googleMapsPlaceId": "ChIJUfhiIxkGBDQRaalN0Gr3zig",
+      "coordinates": {
+        "lat": 22.4059525,
+        "lng": 114.2186914
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
   ]
 }
