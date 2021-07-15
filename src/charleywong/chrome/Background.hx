@@ -2,11 +2,11 @@ package charleywong.chrome;
 
 import js.html.AbortController;
 import js.html.URL;
+import node_fetch.Fetch.call as fetch;
 import global.chrome.tabs.Tab;
 import haxe.*;
 import haxe.io.Path;
 import js.lib.Promise;
-import js.Browser.*;
 import charleywong.UrlExtractors.*;
 import global.chrome.*;
 using Lambda;
@@ -30,7 +30,7 @@ class Background {
                     case null:
                         fetchEntityIndex();
                     case serializedEntities:
-                        Promise.resolve(new EntityIndex(Unserializer.run(serializedEntities)));
+                        Promise.resolve(new EntityIndex(serializedEntities.unserialize()));
                 }
             );
     }
@@ -66,10 +66,12 @@ class Background {
                 cast Promise.all(
                     ids.map(id -> {
                         var entityJsonUrl = Path.join([settings.serverEndpoint, id + ".json"]);
-                        window.fetch(entityJsonUrl)
+                        fetch(entityJsonUrl, cast {
+                            mode: "cors",
+                        })
                             .then(r -> r.json())
                             .catchError(function(err) {
-                                console.error('Failed to fetch $entityJsonUrl');
+                                trace('Failed to fetch $entityJsonUrl');
                                 throw err;
                             });
                     })
@@ -91,33 +93,36 @@ class Background {
             var jsonUrl = Path.join([settings.serverEndpoint, "list", "all.json"]);
             var abort = new AbortController();
             Timer.delay(() -> abort.abort(), 5000);
-            window.fetch(jsonUrl, {
+            fetch(jsonUrl, cast {
+                mode: "cors",
                 signal: abort.signal,
             })
                 .then(r -> r.json())
                 .then(fetchEntities)
                 .then(entities -> {
-                    var entityIndex = new EntityIndex([for (e in (cast entities:Array<Entity>)) e.id => e]);
-                    Storage.local.set({
-                        serializedEntities: Serializer.run(entityIndex.entities),
+                    BrowserAction.setBadgeText({
+                        text: "",
                     });
-                    resolve(entityIndex);
+                    var entityIndex = new EntityIndex([for (e in (cast entities:Array<Entity>)) e.id => e]);
+                    Storage.local.set(({
+                        serializedEntities: entityIndex.entities,
+                    }:SettingsData), () -> {
+                        resolve(entityIndex);
+                    });
                 })
-                .then(_ -> BrowserAction.setBadgeText({
-                    text: "",
-                }))
-                .catchError(function(err) {
+                .catchError(function(err:js.lib.Error) {
                     BrowserAction.setBadgeText({
                         text: "⚠"
                     });
-                    console.error('Failed to fetch $jsonUrl');
+                    trace('Failed to fetch $jsonUrl\n${err.message}');
                     reject(err);
                 });
         });
     });
 
-    static function onMessage(?request:Dynamic, sender, sendResponse:Dynamic->Void) {
-        switch (Unserializer.run(request):Message) {
+    static function onMessage(?request:Serialized<Message>, sender, sendResponse:Dynamic->Void) {
+        var msg = request.unserialize();
+        switch (msg) {
             case MsgGetEntityFromUrl(url):
                 entityIndex.then(function(index) {
                     var url = try {
@@ -179,6 +184,8 @@ class Background {
             case _:
                 throw 'Unknown request: $request';
         }
+
+        return false;
     }
 
     static function onStorageChanged(changes:DynamicAccess<{oldValue:Dynamic, newValue:Dynamic}>, namespace):Void {
