@@ -1,0 +1,48 @@
+{
+  "id": "MyHair",
+  "name": {
+    "en": "My Hair"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/258221328330193/",
+      "meta": {
+        "id": "258221328330193",
+        "name": "My Hair",
+        "category_list": [
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          }
+        ],
+        "single_line_address": "Plover Cover Shopping Mall, 香港"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "salon",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔寶湖道3號寶湖花園商場209E"
+      },
+      "googleMapsPlaceId": "ChIJB1L8TUcIBDQRauRoRJtcH70",
+      "coordinates": {
+        "lat": 22.449011,
+        "lng": 114.168491
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 1047
+    }
+  ]
+}
