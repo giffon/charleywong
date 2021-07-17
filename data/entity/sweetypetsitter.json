@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://sweetypetsitter.wixsite.com/shopping"
+    },
+    {
       "url": "https://www.facebook.com/sweetypetsitter/",
       "meta": {
         "id": "462664027240271",
@@ -81,6 +84,21 @@
     {
       "type": "shop",
       "id": 2220
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔黃宜坳村"
+      },
+      "googleMapsPlaceId": "ChIJy8Xni0IIBDQR-ZdXSaGW-Io",
+      "coordinates": {
+        "lat": 22.442845,
+        "lng": 114.17692
+      },
+      "area": {
+        "zh": "大埔區"
+      }
     }
   ]
 }
