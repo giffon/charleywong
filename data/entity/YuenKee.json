@@ -1,0 +1,70 @@
+{
+  "id": "YuenKee",
+  "name": {
+    "zh": "苑記粉麵茶餐廳"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/103826284521831/",
+      "meta": {
+        "id": "103826284521831",
+        "name": "大埔苑記茶餐廳",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ]
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=137919871112472&id=103826284521831",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔運頭街81號地下"
+      },
+      "googleMapsPlaceId": "ChIJdYKAnEAIBDQRjrHOi63uudM",
+      "coordinates": {
+        "lat": 22.446822,
+        "lng": 114.1679813
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大埔安慈路4號昌運中心82號"
+      },
+      "googleMapsPlaceId": "ChIJlYXvi0cIBDQR3BC7T-lW-7w",
+      "coordinates": {
+        "lat": 22.4521985,
+        "lng": 114.1684582
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5086
+    },
+    {
+      "type": "eat",
+      "id": 1698
+    }
+  ]
+}
