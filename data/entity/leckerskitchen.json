@@ -1,7 +1,8 @@
 {
   "id": "leckerskitchen",
   "name": {
-    "en": "Lecker's Kitchen"
+    "en": "Lecker's Kitchen",
+    "zh": "德國廚房"
   },
   "webpages": [
     {
@@ -27,6 +28,16 @@
         "single_line_address": "大埔翠樂街11號美豐花園A座地下14號鋪, Tai Po Industrial Estate, Hong Kong",
         "website": "https://mewe.com/p/leckerskitchen%E5%BE%B7%E5%9C%8B%E5%BB%9A%E6%88%BF"
       }
+    },
+    {
+      "url": "https://www.instagram.com/leckerskitchen/",
+      "meta": {
+        "name": "Lecker's Kitchen 德國廚房",
+        "about": "#德國咸豬手 #食飯好地方 #飯局 #德國啤酒 #leckerskitchen #德國廚房 #69997874 #whatsappreservation #whatsapp訂坐 #hkfood #hkfoodie #beer #hkfoodblogger"
+      }
+    },
+    {
+      "url": "https://mewe.com/p/leckerskitchen%E5%BE%B7%E5%9C%8B%E5%BB%9A%E6%88%BF"
     }
   ],
   "posts": [
@@ -87,6 +98,21 @@
     {
       "type": "eat",
       "id": 444
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔翠樂街11號美豐花園A座地下14號鋪"
+      },
+      "googleMapsPlaceId": "ChIJUfjzzjkIBDQRZ79lgvo-BJ0",
+      "coordinates": {
+        "lat": 22.4541775,
+        "lng": 114.1641628
+      },
+      "area": {
+        "zh": "大埔區"
+      }
     }
   ]
 }
