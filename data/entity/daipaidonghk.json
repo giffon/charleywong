@@ -1,0 +1,91 @@
+{
+  "id": "daipaidonghk",
+  "name": {
+    "zh": "大排檔小炒"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/112206413540790/",
+      "meta": {
+        "id": "112206413540790",
+        "username": "daipaidonghk",
+        "name": "大排檔小炒 灣仔分店",
+        "about": "大排檔小炒除保留昔日大排檔風味特色同夠鑊氣外，更嚴選新鮮上等食材配撚手地道廚藝，設計多款色、香、味、形俱全嘅小炒俾一眾食客品嘗。",
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
+        ],
+        "single_line_address": "灣仔天樂里2-4號金豐商業大廈地下, 香港"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/102000388606774/",
+      "meta": {
+        "id": "102000388606774",
+        "username": "daipaidonghk.CWB",
+        "name": "大排檔小炒 銅鑼灣分店",
+        "about": "大排檔小炒除保留昔日大排檔風味特色同夠鑊氣外，更嚴選新鮮上等食材配撚手地道廚藝，設計多款色、香、味、形俱全嘅小炒俾一眾食客品嘗。",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "駱克道405-419號華發大廈地下A鋪, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/daipaidongfried/",
+      "meta": {
+        "name": "大排檔小炒"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/daipaidonghk/posts/122733222488109",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "灣仔天樂里2-4號金豐商業大廈地下"
+      },
+      "googleMapsPlaceId": "ChIJg7T-dGcBBDQRJrV2u5CNJtA",
+      "coordinates": {
+        "lat": 22.2783245,
+        "lng": 114.1794896
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣駱克道405-419號華發大廈地鋪"
+      },
+      "googleMapsPlaceId": "ChIJj8zMT1cABDQRgq4OHuehZkA",
+      "coordinates": {
+        "lat": 22.2798885,
+        "lng": 114.1804171
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2142
+    }
+  ]
+}
