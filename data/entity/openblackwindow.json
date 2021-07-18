@@ -59,6 +59,22 @@
     }
   ],
   "tags": [
+    "food",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗大埔道83號"
+      },
+      "googleMapsPlaceId": "EiA4MyBUYWkgUG8gUmQsIFVuIENoYXUsIEhvbmcgS29uZyIwEi4KFAoSCVnCAC1LBwQ0EWXkI2I8RFMQEFMqFAoSCXthwlVMBwQ0EbRERACOG0qL",
+      "coordinates": {
+        "lat": 22.3323664,
+        "lng": 114.1639734
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
