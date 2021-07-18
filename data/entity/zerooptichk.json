@@ -25,7 +25,7 @@
       "url": "https://www.instagram.com/zero.optic/",
       "meta": {
         "name": "零式光學ZERO-OPTIC",
-        "about": "花了近十年時間在眼鏡業內學習，終於有了一個眼鏡小店形式的想法，一切由零開始，結果開店遇到不少困難，但仍得到朋友們的支持，成立了ZERO OPTIC。\n希望各位眼鏡愛好者過來交流。\n信和中心214見！"
+        "about": "由零開始的眼鏡小店\n初号機 旺角信和中心214\n弍號機 深水埗大南街215"
       }
     }
   ],
@@ -46,15 +46,28 @@
   "places": [
     {
       "address": {
-        "zh": "九龍旺角彌敦道582-592號信和中心214號舖"
+        "zh": "九龍旺角信和中心214號舖"
       },
-      "googleMapsPlaceId": "ChIJe3UbGccABDQRKgBfYOLDYok",
+      "googleMapsPlaceId": "ChIJZcDUHscABDQRKmqCjNOjwMk",
       "coordinates": {
-        "lat": 22.3161482,
-        "lng": 114.1701611
+        "lat": 22.3160575,
+        "lng": 114.1703633
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍深水埗大南街215號地下"
+      },
+      "googleMapsPlaceId": "EicyMTUgVGFpIE5hbiBTdCwgU2hhbSBTaHVpIFBvLCBIb25nIEtvbmciMRIvChQKEgk5kHkOtAAENBEwed38JTeC4RDXASoUChIJG6ZxIbQABDQRAGrbm7BIPiE",
+      "coordinates": {
+        "lat": 22.327729,
+        "lng": 114.162385
+      },
+      "area": {
+        "zh": "深水埗區"
       }
     }
   ]
