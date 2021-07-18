@@ -1,0 +1,68 @@
+{
+  "id": "laichiwo.hk",
+  "name": {
+    "en": "FOO’s Cafe"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/727042114300996/",
+      "meta": {
+        "id": "727042114300996",
+        "username": "laichiwo.hk",
+        "name": "FOO’s Cafe",
+        "about": "Offering  light meal with local, eco-friendly and hormone free ingredients; a wide range of local farm produces from rice, tea, cooking ingredients to skin care. ",
+        "category_list": [
+          {
+            "id": "176527262444235",
+            "name": "Farmers Market"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
+        ],
+        "emails": [
+          "fooscafehk@gmail.com"
+        ],
+        "single_line_address": "原店：Lai Chi Wo;\n分店：Ping Long , Lam Tauren, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/fooscafehk/",
+      "meta": {
+        "name": "FOO’s Cafe LCW"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/laichiwo.hk/posts/897990137206192",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荔枝窩"
+      },
+      "googleMapsPlaceId": "ChIJtSYsr2cMBDQRGqPd53Jcfzk",
+      "coordinates": {
+        "lat": 22.5264988,
+        "lng": 114.2602248
+      },
+      "area": {
+        "zh": "北區"
+      }
+    }
+  ]
+}
