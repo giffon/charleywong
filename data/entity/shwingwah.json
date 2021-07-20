@@ -24,6 +24,13 @@
         "website": "https://s.dimorder.com/shwingwah"
       },
       "url": "https://www.facebook.com/shwingwah/"
+    },
+    {
+      "url": "https://www.instagram.com/shwingwah/",
+      "meta": {
+        "name": "上海榮華川菜館",
+        "about": "位於觀塘，始於1975年的特色上海菜館。\n榮獲2012、2013年度米芝蓮指南優質推介食府。"
+      }
     }
   ],
   "posts": [
@@ -41,6 +48,21 @@
     {
       "type": "eat",
       "id": 896
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘崇仁街15號地下"
+      },
+      "googleMapsPlaceId": "ChIJ_bDHiU4BBDQRMfo514k7yqU",
+      "coordinates": {
+        "lat": 22.316198,
+        "lng": 114.224106
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ]
 }
