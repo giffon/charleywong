@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.thegrillstationhk.com"
+    },
+    {
       "url": "https://www.facebook.com/thegrillstationhk/",
       "meta": {
         "id": "343279075693716",
@@ -36,9 +39,13 @@
     {
       "url": "https://www.instagram.com/bowie_chu/",
       "meta": {
-        "name": "燒房焗The grill Station",
-        "about": "The Grill Station Izakaya\nHappy Valley, HK"
-      }
+        "name": "Bowie Chu",
+        "about": "好為食"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://mewe.com/i/thegrillstationhk"
     }
   ],
   "posts": [
@@ -55,34 +62,20 @@
       }
     },
     {
-      "url": "https://www.facebook.com/thegrillstationhk/posts/2941199635901634",
+      "url": "https://www.facebook.com/thegrillstationhk/posts/4209135959107989",
       "meta": {
         "sharedWith": "Public"
       }
     }
   ],
   "tags": [
-    "food"
+    "foodStore",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 1876
-    }
-  ],
-  "places": [
-    {
-      "address": {
-        "en": "G/F, 12C Sing Woo Road, Happy Valley"
-      },
-      "googleMapsPlaceId": "ChIJj45Bz40BBDQRlZzVRbY73u0",
-      "coordinates": {
-        "lat": 22.2686051,
-        "lng": 114.1859281
-      },
-      "area": {
-        "zh": "灣仔區"
-      }
     }
   ]
 }
