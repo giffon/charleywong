@@ -1,11 +1,12 @@
 {
   "id": "eatonhkhotel",
   "name": {
-    "en": "Eaton HK"
+    "en": "Eaton HK",
+    "zh": "香港逸東酒店"
   },
   "webpages": [
     {
-      "url": "http://www.eatonworkshop.com"
+      "url": "https://www.eatonworkshop.com"
     },
     {
       "meta": {
@@ -30,6 +31,20 @@
         "website": "www.eatonworkshop.com"
       },
       "url": "https://www.facebook.com/eatonhkhotel/"
+    },
+    {
+      "url": "https://www.instagram.com/eaton.hk/",
+      "meta": {
+        "name": "Eaton HK",
+        "about": "@eatonworkshop @eaton.dc\nWhere hospitality meets human progress; Hong Konger Woman-founded company with Women, Diverse, LGBTQI leadership"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/eatonworkshop/",
+      "meta": {
+        "name": "Eaton Workshop",
+        "about": "@eaton.dc @eaton.hk\nWhere hospitality meets human progress; Asian-American Woman-founded company with local & global BIPOC leadership"
+      }
     }
   ],
   "posts": [
@@ -38,12 +53,28 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 474
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "380 Nathan Road, Kowloon"
+      },
+      "googleMapsPlaceId": "ChIJ4UC9ceoABDQRUZMdaH4I2TI",
+      "coordinates": {
+        "lat": 22.3080096,
+        "lng": 114.1717947
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
