@@ -33,5 +33,20 @@
       "type": "shop",
       "id": 2034
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room C1, 3/F, Good Year Industrial Building, 119-121 How Ming Street, Kwun Tong"
+      },
+      "googleMapsPlaceId": "ChIJ08MqfUUBBDQRnm3WMaqd_Ig",
+      "coordinates": {
+        "lat": 22.311273,
+        "lng": 114.224979
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
