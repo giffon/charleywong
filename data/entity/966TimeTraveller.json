@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.966timetraveller.com"
+    },
+    {
       "meta": {
         "id": "2014749705431317",
         "username": "966TimeTraveller",
@@ -27,7 +30,11 @@
       "url": "https://www.facebook.com/966TimeTraveller/"
     },
     {
-      "url": "https://www.instagram.com/966_time_traveller/"
+      "url": "https://www.instagram.com/966_time_traveller/",
+      "meta": {
+        "name": "舊蹓蹓",
+        "about": "本店：富明街 2-6 號 寶明大廈 3/F H室\n分店：尖沙咀河內道18號 K11 Art Mall Shop 4 of 201 2/F\n.\nTues to Fri 2pm-8pm (CWB) Mon to Sun 12pm-8pm (K11)"
+      }
     }
   ],
   "posts": [
@@ -49,12 +56,25 @@
   "places": [
     {
       "address": {
-        "zh": "旺角花園街2-16號,好景商業中心,11/F 1105室"
+        "zh": "銅鑼灣 富明街2-6號 寶明大廈 3/F H室"
       },
       "googleMapsPlaceId": "ChIJpTAQeAgBBDQRGO04OtMLI0M",
       "coordinates": {
-        "lat": 22.3159587,
-        "lng": 114.1719515
+        "lat": 22.27849089999999,
+        "lng": 114.1835534
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀河內道18號 K11 Art Mall Shop 4 of 201 2/F (Natural Zone)"
+      },
+      "googleMapsPlaceId": "ChIJ_yMf_u0ABDQRFUSKts8Cq0U",
+      "coordinates": {
+        "lat": 22.297525,
+        "lng": 114.1736355
       },
       "area": {
         "zh": "油尖旺區"
