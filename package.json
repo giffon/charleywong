@@ -10,6 +10,7 @@
   "scripts": {
     "dclookup": "browserify lib/HKAddressParser/web/src/utils/dclookup.js --standalone dclookup -t [ babelify --plugins [ @babel/plugin-transform-modules-commonjs ] ] > dclookup.js",
     "dts2hx": "dts2hx @types/node @types/node-fetch @types/chrome abort-controller @types/gtag.js fastify sitemap --noLibWrap --output lib/dts2hx",
+    "dts2hx-workbox": "dts2hx workbox-core workbox-routing workbox-recipes workbox-cacheable-response workbox-expiration --noLibWrap --output lib/workbox",
     "tailwind": "tailwindcss-cli build -o static/css/tailwind.css",
     "start": "nodemon -L index.js",
     "test": "haxe test.hxml"
@@ -47,6 +48,9 @@
     "@babel/cli": "7.14.8",
     "@babel/core": "7.14.8",
     "@babel/plugin-transform-modules-commonjs": "7.14.5",
+    "@babel/plugin-transform-runtime": "7.14.5",
+    "@babel/preset-env": "7.14.8",
+    "@httptoolkit/httpolyglot": "1.0.0",
     "@material-ui/core": "4.12.2",
     "@types/chrome": "0.0.148",
     "@types/gtag.js": "0.0.7",
@@ -76,6 +80,11 @@
     "serverless-prune-plugin": "1.5.1",
     "tailwindcss-cli": "0.1.2",
     "terser": "5.7.1",
-    "uglifyify": "5.0.2"
+    "uglifyify": "5.0.2",
+    "workbox-cacheable-response": "6.1.5",
+    "workbox-core": "6.1.5",
+    "workbox-expiration": "6.1.5",
+    "workbox-recipes": "6.1.5",
+    "workbox-routing": "6.1.5"
   }
 }

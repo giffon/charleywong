@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20210630155445
+    container: giffon/charleywong_devcontainer_workspace:20210725152737
     steps:
       - uses: actions/checkout@v2
         with:
@@ -20,6 +20,10 @@ jobs:
         run: yarn tailwind
         env:
           NODE_ENV: production
+      - name: Build serviceWorker.js
+        run: haxe serviceWorker.hxml
+      - name: Minify serviceWorker.js
+        run: npx browserify serviceWorker.js --transform [ babelify --global ] -g [ envify --NODE_ENV production ] -g uglifyify | npx terser --compress --mangle > static/serviceWorker.bundled.js
       - name: Build browser.js
         run: haxe browser.hxml
       - name: Minify browser.js
@@ -33,6 +37,7 @@ jobs:
           name: artifact
           path: |
             index.js
+            static/serviceWorker.bundled.js
             static/css/tailwind.css
             static/browser.bundled.js
             dclookup.js
@@ -45,7 +50,7 @@ jobs:
     needs: build
     if: success() && github.event_name == 'push' && ( github.ref == 'refs/heads/master' || github.ref == 'refs/heads/production' )
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20210630155445
+    container: giffon/charleywong_devcontainer_workspace:20210725152737
     steps:
       - uses: actions/checkout@v2
         with:

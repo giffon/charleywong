@@ -858,8 +858,9 @@ class ServerMain {
 
             require("https-localhost")().getCerts().then(certs -> {
                 app = Fastify.fastify({
-                    http2: true,
-                    https: certs,
+                    serverFactory: (handler, opts) -> {
+                        require('@httptoolkit/httpolyglot').createServer(certs, handler);
+                    },
                 });
                 initServer();
                 app.post("/", post);

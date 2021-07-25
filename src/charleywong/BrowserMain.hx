@@ -7,6 +7,7 @@ import js.html.*;
 import js.Browser.*;
 import global.GtagJsGlobal.*;
 import charleywong.browser.*;
+import charleywong.StaticResource.R;
 using StringTools;
 
 class BrowserMain {
@@ -82,11 +83,21 @@ class BrowserMain {
         return false;
     }
 
+    static function initSW() {
+        if (navigator.serviceWorker != null) {
+            navigator.serviceWorker.register(R("/serviceWorker.bundled.js"))
+                .catchError(err -> {
+                    console.error('Registration failed with ' + err);
+                });
+        }
+    }
+
     static function main():Void {
         if (document.readyState == 'loading') {
             document.addEventListener('DOMContentLoaded', _ -> onReady());
         } else {
             onReady();
         }
+        initSW();
     }
 }
