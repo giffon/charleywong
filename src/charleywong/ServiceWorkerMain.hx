@@ -11,6 +11,11 @@ class ServiceWorkerMain {
 	static function main() {
 		WorkboxRouting.setDefaultHandler(new NetworkFirst());
 		WorkboxRouting.registerRoute((options:RouteMatchCallbackOptions) -> {
+			options.url.pathname == "/";
+		}, new StaleWhileRevalidate({
+			cacheName: "index",
+		}));
+		WorkboxRouting.registerRoute((options:RouteMatchCallbackOptions) -> {
 			var p = new URLSearchParams(options.url.search);
 			p.has("md5");
         }, new CacheFirst({
