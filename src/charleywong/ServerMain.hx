@@ -267,7 +267,7 @@ class ServerMain {
             })
             .then(buf -> reply
                 .header("Content-Type", Jimp.MIME_PNG)
-                .header("Cache-Control", "public, max-age=604800") // 7 days
+                .header("Cache-Control", "public, max-age=86400, stale-while-revalidate=604800") // max-age: 1 day, stale-while-revalidate: 7 days
                 .send(buf)
             )
             .catchError(err ->
@@ -385,7 +385,7 @@ class ServerMain {
                                                 reply
                                                     .status(r.status)
                                                     .header("Content-Type", (cast r:js.html.Response).headers.get("Content-Type"))
-                                                    .header("Cache-Control", "public, max-age=2628000"); // one month
+                                                    .header("Cache-Control", "public, max-age=86400, stale-while-revalidate=2628000"); // max-age: 1 day, stale-while-revalidate: one month
                                                 r.buffer();
                                             })
                                             .then(b -> reply.send(b))
