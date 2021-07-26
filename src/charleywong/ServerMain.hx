@@ -46,7 +46,11 @@ class ServerMain {
                     Promise.resolve(reply.redirect("/search/" + search.urlEncode()));
             }
         }
-        return Promise.resolve(reply.sendView(Index));
+        return Promise.resolve(
+            reply
+                .header("Cache-Control", "public, max-age=7200, stale-while-revalidate=604800") // max-age: 2 hours, stale-while-revalidate: 7 days
+                .sendView(Index)
+        );
     }
 
     static function campaign(req:Request, reply:Reply):Promise<Dynamic> {
@@ -59,9 +63,13 @@ class ServerMain {
 
     static function pageHkbaseDirectory(req:Request, reply:Reply):Promise<Dynamic> {
         var entities = HkbaseDirectory.localCache.map(d -> HkbaseDirectory.getEntity(d, entityIndex.entitiesOfHkbase)); // use the order of HKBASE directory
-        return Promise.resolve(reply.sendView(HkbaseDirectoryView, {
-            entities: entities,
-        }));
+        return Promise.resolve(
+            reply
+                .header("Cache-Control", "public, max-age=86400, stale-while-revalidate=604800") // max-age: 1 day, stale-while-revalidate: 7 days
+                .sendView(HkbaseDirectoryView, {
+                    entities: entities,
+                })
+        );
     }
 
     static function renderName(n:MultiLangString) {
@@ -150,9 +158,11 @@ class ServerMain {
             return Promise.resolve(entity.fullInfo());
         } else {
             return entity.fullPostMeta().then(entity -> {
-                reply.sendView(EntityView, {
-                    entity: entity,
-                });
+                reply
+                    .header("Cache-Control", "public, max-age=7200, stale-while-revalidate=604800") // max-age: 2 hours, stale-while-revalidate: 7 days
+                    .sendView(EntityView, {
+                        entity: entity,
+                    });
             }).catchError(e -> reply.status(500).send(e));
         }
     }
@@ -335,13 +345,17 @@ class ServerMain {
         }
         var entities = search(query, []);
         var slug = query.urlEncode();
-        return Promise.resolve(reply.sendView(EntityListView, {
-            slug: slug,
-            path: haxe.io.Path.join(["search", slug]),
-            listName: '${query} 搜尋結果',
-            searchQuery: query,
-            entities: entities,
-        }));
+        return Promise.resolve(
+            reply
+                .header("Cache-Control", "public, max-age=3600, stale-while-revalidate=604800") // max-age: 1 hour, stale-while-revalidate: 7 days
+                .sendView(EntityListView, {
+                    slug: slug,
+                    path: haxe.io.Path.join(["search", slug]),
+                    listName: '${query} 搜尋結果',
+                    searchQuery: query,
+                    entities: entities,
+                })
+        );
     }
 
     static function noTrailingSlash(req:Request, reply:Reply):Promise<Any> {
