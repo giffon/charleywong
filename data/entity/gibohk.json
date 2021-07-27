@@ -26,6 +26,13 @@
         "website": "https://gibo-hk.com/"
       },
       "url": "https://www.facebook.com/gibohk/"
+    },
+    {
+      "url": "https://www.instagram.com/giboltd/",
+      "meta": {
+        "name": "滋補滋補",
+        "about": "專營參茸海味、中藥湯包、環球凍肉、各地優質食材 ，過千款商品，歡迎零售批發\n查詢電話：2413-2322\nWhatapps落單 ：5271-9705\n可選擇自取點(葵興工業街2-8號力豐工業大廈 1樓 A室)取貨或順豐到付"
+      }
     }
   ],
   "posts": [
@@ -35,5 +42,20 @@
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵興工業街2-8號力豐工業大廈1樓A1室"
+      },
+      "googleMapsPlaceId": "ChIJNxgziJf4AzQRJkw1b_sGIUE",
+      "coordinates": {
+        "lat": 22.3626867,
+        "lng": 114.1337429
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
