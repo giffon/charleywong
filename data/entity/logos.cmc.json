@@ -5,7 +5,8 @@
   },
   "webpages": [
     {
-      "url": "http://www.cmc-logos.com"
+      "url": "http://www.cmc-logos.com",
+      "hidden": true
     },
     {
       "meta": {
@@ -23,6 +24,13 @@
         "website": "http://www.cmc-logos.com"
       },
       "url": "https://www.facebook.com/logos.cmc/"
+    },
+    {
+      "url": "https://www.instagram.com/logos.cmc/",
+      "meta": {
+        "name": "中醫．千泉醫館🌿香港註冊中醫",
+        "about": "☯️#中醫全科\n🏅#針灸拔罐 🏅#骨傷整脊🏅#徒手整形\n🏅#調經助孕 🏅#美容豐胸🏅#埋線減肥\n\n預約請wtsp 6751-4815📲致電3620-3311\n📍尖沙咀山林道23號901室\n📍佐敦吳松街182號榮國中心21樓02室"
+      }
     }
   ],
   "posts": [
@@ -40,12 +48,25 @@
   "places": [
     {
       "address": {
-        "en": "901,23 Hillwood Road,Tsim Sha Tsui"
+        "zh": "尖沙咀山林道23號901室"
       },
       "googleMapsPlaceId": "ChIJt9rYAYMBBDQRPQD3N_X8sRM",
       "coordinates": {
         "lat": 22.3027981,
         "lng": 114.17322
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "佐敦吳松街182號榮國中心2102室"
+      },
+      "googleMapsPlaceId": "ChIJa84BfOsABDQRIpXpeMBAn50",
+      "coordinates": {
+        "lat": 22.30362849999999,
+        "lng": 114.1703148
       },
       "area": {
         "zh": "油尖旺區"
