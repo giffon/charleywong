@@ -9,6 +9,7 @@ using StringTools;
 
 class ServiceWorkerMain {
 	static function main() {
+		WorkboxNavigationPreload.enable();
 		WorkboxRouting.setDefaultHandler(new NetworkFirst());
 		WorkboxRouting.registerRoute((options:RouteMatchCallbackOptions) -> {
 			options.url.pathname == "/";
