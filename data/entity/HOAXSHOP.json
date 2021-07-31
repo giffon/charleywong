@@ -38,7 +38,7 @@
       "url": "https://www.instagram.com/hoaxhk/",
       "meta": {
         "name": "HOAX",
-        "about": "🇭🇰 Shoes and Clothing Store based in Hong Kong.\n🌎 We Ship Worldwide.\n✈️ 港澳台、中國地區買鞋免運費\n-\n📍 尖沙咀美麗華廣場1期2樓208舖\n📍 銅鑼灣希慎廣場7樓709號舖"
+        "about": "🇭🇰 Shoes and Clothing Store based in Hong Kong.\n🌎 We Ship Worldwide.\n✈️ 港澳台、中國地區買鞋或購物滿$600免運費\n．\n📍尖沙咀美麗華廣場1期2樓208舖\n📍銅鑼灣希慎廣場7樓709號舖\n📍尖沙咀K11 1樓101號舖(服飾)"
       }
     }
   ],
@@ -52,7 +52,8 @@
   ],
   "tags": [
     "footwear",
-    "clothing"
+    "clothing",
+    "shop"
   ],
   "places": [
     {
@@ -76,6 +77,19 @@
       "coordinates": {
         "lat": 22.3009658,
         "lng": 114.1726528
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀K11 1樓101號舖(服飾)"
+      },
+      "googleMapsPlaceId": "ChIJ_yMf_u0ABDQRFUSKts8Cq0U",
+      "coordinates": {
+        "lat": 22.297525,
+        "lng": 114.1736355
       },
       "area": {
         "zh": "油尖旺區"
