@@ -22,6 +22,13 @@
         ],
         "single_line_address": "旺角信和中心2/F242舖"
       }
+    },
+    {
+      "url": "https://www.instagram.com/japanbookworm/",
+      "meta": {
+        "name": "日本書蟲",
+        "about": "為客人代訂各類日本書籍及雜誌( 九龍深水埗基隆街166A)\n深水埗基隆街166號 Mon ~ Sun 1300 ~ 1830pm\nthu 1400 ~ 1830pm\nhttps://maps.app.goo.gl/QvM9WsDBucEMnRAG7"
+      }
     }
   ],
   "posts": [
@@ -57,5 +64,20 @@
   "tags": [
     "book",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍深水埗基隆街166A"
+      },
+      "googleMapsPlaceId": "ChIJzcjm1AwBBDQRFz9aM0ZWHMw",
+      "coordinates": {
+        "lat": 22.3279036,
+        "lng": 114.1633995
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
