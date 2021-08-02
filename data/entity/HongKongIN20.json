@@ -5,12 +5,19 @@
   },
   "webpages": [
     {
-      "url": "https://www.facebook.com/HongKongIN20/",
+      "url": "http://hkin.in",
+      "hidden": true
+    },
+    {
+      "url": "https://hongkongin2020.webnode.tw"
+    },
+    {
+      "url": "https://www.facebook.com/105290287850457/",
       "meta": {
         "id": "105290287850457",
         "username": "HongKongIN20",
         "name": "HongKong_IN",
-        "about": "我地係一個有願景既零售點，除左ONLINE SHOP 之外，會自資係唔同地方租地方上架銷售。歡迎EMAIL/WHATSAPP 查詢寄賣，集中黃創，整合壯大黃經圈。",
+        "about": "深水埗西九龍中心 9 樓蘋果商場 9040-9043, 9027-9030 號鋪\n我地係一個有願景既零售點，亦同時有ONLINE SHOP 推廣寄賣產品。歡迎EMAIL/WHATSAPP 查詢寄賣，集中黃創，整合壯大黃經圈。",
         "category_list": [
           {
             "id": "2201",
@@ -28,7 +35,8 @@
         "emails": [
           "hongkongin2020@gmail.com"
         ],
-        "single_line_address": "永康街 41 號匯華工廠大廈3樓C座3樓26室, Hong Kong, Hong Kong"
+        "single_line_address": "深水埗西九龍中心 9 樓蘋果商場 9040-9043, 9027-9030 號鋪, 香港",
+        "website": "http://hkin.in"
       }
     },
     {
@@ -54,6 +62,9 @@
         "name": "HongKong _IN",
         "about": "☎️Whatsapp 98787393 \n🕋地址：荔枝角永康街41號匯華工廠大廈3樓C座26室\"近奇華十字路口，入口係醫局西街，大廈門口橙色大堂\"（門口門鐘按026) \n營業時間：星期三至一 1200-2000 (逢星期二休息）\n💰付款方式：現金\nMeWe: https://mewe.com/join/hongkong_in\nInstargram : www.instagram.com/hongkonginbackup\nFacebook : www.facebook.com/hongkongin20\n"
       }
+    },
+    {
+      "url": "https://mewe.com/p/hongkong_in"
     }
   ],
   "posts": [
@@ -106,12 +117,12 @@
   "places": [
     {
       "address": {
-        "zh": "荔枝角永康街41號匯華工廠大廈3樓C座26室"
+        "zh": "深水埗西九龍中心 9 樓蘋果商場 9040-9043, 9027-9030 號鋪"
       },
-      "googleMapsPlaceId": "ChIJ_x0AS1QHBDQRSC5OWnip1PU",
+      "googleMapsPlaceId": "ChIJe-pYFrMABDQROPEISziELWo",
       "coordinates": {
-        "lat": 22.3388549,
-        "lng": 114.1470298
+        "lat": 22.33129,
+        "lng": 114.159791
       },
       "area": {
         "zh": "深水埗區"
