@@ -14,6 +14,7 @@ import haxe.*;
 import charleywong.views.*;
 import js.Node.*;
 import charleywong.UrlExtractors.*;
+import charleywong.groonga.CommandResult;
 using charleywong.EntityTools;
 using charleywong.ReplyTools;
 using StringTools;
@@ -286,6 +287,26 @@ class ServerMain {
     }
 
     static function search(query:String, tags:Array<String>):Array<Entity> {
+        // return flexsearch(query, tags);
+        return groonga(query, tags);
+    }
+
+    static function groonga(query:String, tags:Array<String>):Array<Entity> {
+        var r:SelectResultBody = entityIndex.groonga.commandSync("select", {
+            table: "Entity",
+            match_columns: "name * 3 || tags * 2 || meta",
+            query: query,
+            output_columns: "_key",
+            limit: 10000,
+            sort_keys: "-_score",
+        });
+        return [
+            for (record in r.searchResult.records)
+            entityIndex.entitiesOfId[record[0]]
+        ];
+    }
+
+    static function flexsearch(query:String, tags:Array<String>):Array<Entity> {
         var ids = (entityIndex.flexsearch.search([
             {
                 field: "name:en",
