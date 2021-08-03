@@ -140,9 +140,8 @@ class View extends ReactComponent {
             </div>
             <div className="mt-3 md:mt-12 text-center container max-w-screen-lg mx-auto px-4 md:px-8">
                 <div className="w-full">
-                    <a href="https://linktr.ee/blackwindow">
-                        <img className="max-w-full h-auto hidden lg:block" src=${R("/images/blackwindow___poster_banner1_970.90.jpg")} alt="黑窗里（前蘇波榮）重開眾籌"/>
-                        <img className="max-w-full h-auto block lg:hidden" src=${R("/images/blackwindow___poster_banner4_970.90.jpg")} alt="黑窗里（前蘇波榮）重開眾籌"/>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2mSyw_3VsiK3lFcrT7lv5slIaDQUEdtpomQR8Ah8AqexJiA/viewform">
+                        <img className="max-w-full h-auto" src=${R("/images/kolb3-web-banner2.jpg")} alt="KOLB x 點心紙 x 埗兵 餸包湯包預訂"/>
                     </a>
                 </div>
                 <div className="w-full mt-2 color_black_o60">
