@@ -6897,6 +6897,11 @@ iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@~0.4.11:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
+idb@^6.0.0:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/idb/-/idb-6.1.2.tgz#82ef5c951b8e1f47875d36ccafa4bedafc62f2f1"
+  integrity sha512-1DNDVu3yDhAZkFDlJf0t7r+GLZ248F5pTAtA7V0oVG3yjmV125qZOx3g0XpAEkGZVYQiFDAsSOnGet2bhugc3w==
+
 ieee754@1.1.13, ieee754@^1.1.4:
   version "1.1.13"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.13.tgz#ec168558e95aa181fd87d37f55c32bbcb6708b84"
@@ -11792,17 +11797,23 @@ workbox-cacheable-response@6.1.5, workbox-cacheable-response@^6.1.5:
   dependencies:
     workbox-core "^6.1.5"
 
-workbox-core@6.1.5, workbox-core@^6.1.5:
+workbox-core@6.1.5:
   version "6.1.5"
   resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.1.5.tgz#424ff600e2c5448b14ebd58b2f5ac8ed91b73fb9"
   integrity sha512-9SOEle7YcJzg3njC0xMSmrPIiFjfsFm9WjwGd5enXmI8Lwk8wLdy63B0nzu5LXoibEmS9k+aWF8EzaKtOWjNSA==
 
-workbox-expiration@6.1.5, workbox-expiration@^6.1.5:
-  version "6.1.5"
-  resolved "https://registry.yarnpkg.com/workbox-expiration/-/workbox-expiration-6.1.5.tgz#a62a4ac953bb654aa969ede13507ca5bd154adc2"
-  integrity sha512-6cN+FVbh8fNq56LFKPMchGNKCJeyboHsDuGBqmhDUPvD4uDjsegQpDQzn52VaE0cpywbSIsDF/BSq9E9Yjh5oQ==
+workbox-core@^6.1.5, workbox-core@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.2.0.tgz#02b98158d9618ecda57595a9590bb6faa19d8544"
+  integrity sha512-ECNeZhyYm1Y/xLzDyRFwGneHUtwq5MnOhV4ETYILzgq0nS3PUM+yDGUxAgHX6qsNiAfKkAmyvqjIbDUjKjQrkg==
+
+workbox-expiration@6.2.0, workbox-expiration@^6.1.5:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/workbox-expiration/-/workbox-expiration-6.2.0.tgz#ac690dba79ee881928253400f0573cf8718d43cf"
+  integrity sha512-5bUItz37URqqFK1lAVAvJUbGToQb0seTKC46GDX2jlbyPbEGpmeuDCgUo+wh7qEFDVQqXA8enZwZhtfn/zhUKg==
   dependencies:
-    workbox-core "^6.1.5"
+    idb "^6.0.0"
+    workbox-core "^6.2.0"
 
 workbox-navigation-preload@6.1.5:
   version "6.1.5"
