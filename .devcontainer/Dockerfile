@@ -31,6 +31,8 @@ RUN apt-get update \
         build-essential \
         pkg-config \
         cmake \
+        autoconf \
+        libtool \
         unzip \
         curl \
         python3 \

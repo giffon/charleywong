@@ -12,3 +12,4 @@ yq eval ".services.workspace.image = \"$TAG\"" "$DIR/docker-compose.yml" -i
 yq eval ".jobs.build.container = \"$TAG\"" "$DIR/../.github/workflows/ci.yml" -i
 yq eval ".jobs.deploy.container = \"$TAG\"" "$DIR/../.github/workflows/ci.yml" -i
 yq eval ".jobs.job.container = \"$TAG\"" "$DIR/../.github/workflows/updateMeta.yml" -i
+sed -i -e "s#giffon/charleywong_devcontainer_workspace:[0-9]*#$TAG#g" "$DIR/../Dockerfile"
