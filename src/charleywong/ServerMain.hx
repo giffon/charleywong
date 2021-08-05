@@ -3,6 +3,7 @@ package charleywong;
 import sys.FileSystem;
 import node_fetch.Fetch;
 import js.npm.hk_address_parser_lib.Dclookup;
+import js.npm.nodejieba.Nodejieba;
 import js.lib.Promise;
 import js.npm.jimp.Jimp;
 import js.node.Buffer;
@@ -292,10 +293,12 @@ class ServerMain {
     }
 
     static function groonga(query:String, tags:Array<String>):Array<Entity> {
+        var cut = Nodejieba.cutHMM(query);
+        // trace(cut);
         var r:SelectResultBody = entityIndex.groonga.commandSync("select", {
             table: "Entity",
             match_columns: "name * 3 || tags * 2 || meta",
-            query: query,
+            query: cut.join(" "),
             output_columns: "_key",
             limit: 10000,
             sort_keys: "-_score",
