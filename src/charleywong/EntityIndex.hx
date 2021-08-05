@@ -290,18 +290,28 @@ class EntityIndex {
                     {
                         _key: e.id,
                         name: e.name.printAll(),
-                        meta: e.webpages.map(p -> switch (p.meta) {
-                            case null: "";
-                            case m:
-                                (switch (m["name"]) {
-                                    case null: "";
-                                    case name: name;
-                                }) + "\n" +
-                                (switch (m["about"]) {
-                                    case null: "";
-                                    case about: about;
-                                });
-                        }).join("\n"),
+                        meta:
+                            e.webpages.map(p -> switch (p.meta) {
+                                case null: "";
+                                case m:
+                                    (switch (m["name"]) {
+                                        case null: "";
+                                        case name: name;
+                                    }) + "\n" +
+                                    (switch (m["about"]) {
+                                        case null: "";
+                                        case about: about;
+                                    });
+                            }).join("\n")
+                            +
+                            switch (HkbaseDirectory.getData(e)) {
+                                case null: "";
+                                case d:
+                                    d.name_en + "\n" +
+                                    d.name_zh + "\n" +
+                                    d.type + "\n" +
+                                    d.description;
+                            },
                         tags: [
                             for (t in Tag.expend(e.tags))
                             for (v in t.name)
