@@ -38,7 +38,6 @@ RUN apt-get update \
         software-properties-common \
         libnss3-tools \
         direnv \
-        libstemmer-dev \
     && echo 'eval "$(direnv hook bash)"' >> /etc/bash.bashrc \
     && add-apt-repository -y universe \
     && add-apt-repository -y ppa:groonga/ppa \
