@@ -6897,6 +6897,11 @@ iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@~0.4.11:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
+idb@^6.0.0:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/idb/-/idb-6.1.2.tgz#82ef5c951b8e1f47875d36ccafa4bedafc62f2f1"
+  integrity sha512-1DNDVu3yDhAZkFDlJf0t7r+GLZ248F5pTAtA7V0oVG3yjmV125qZOx3g0XpAEkGZVYQiFDAsSOnGet2bhugc3w==
+
 ieee754@1.1.13, ieee754@^1.1.4:
   version "1.1.13"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.13.tgz#ec168558e95aa181fd87d37f55c32bbcb6708b84"
@@ -11785,24 +11790,44 @@ wordwrap@0.0.2:
   resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-0.0.2.tgz#b79669bb42ecb409f83d583cad52ca17eaa1643f"
   integrity sha1-t5Zpu0LstAn4PVg8rVLKF+qhZD8=
 
-workbox-cacheable-response@6.1.5, workbox-cacheable-response@^6.1.5:
+workbox-cacheable-response@6.1.5:
   version "6.1.5"
   resolved "https://registry.yarnpkg.com/workbox-cacheable-response/-/workbox-cacheable-response-6.1.5.tgz#2772e09a333cba47b0923ed91fd022416b69e75c"
   integrity sha512-x8DC71lO/JCgiaJ194l9le8wc8lFPLgUpDkLhp2si7mXV6S/wZO+8Osvw1LLgYa8YYTWGbhbFhFTXIkEMknIIA==
   dependencies:
     workbox-core "^6.1.5"
 
-workbox-core@6.1.5, workbox-core@^6.1.5:
+workbox-cacheable-response@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/workbox-cacheable-response/-/workbox-cacheable-response-6.2.0.tgz#bb3be297541db80a8fd403f806b88e66ec46b70b"
+  integrity sha512-fd+tCG9ibLt8gb4AoTGVWxu5iIsg8/RJVu2c2uOAzxr3TkZtdV4yKMoqRviDSJmKqX2s4Tw10PaBQvS1wlg20Q==
+  dependencies:
+    workbox-core "^6.2.0"
+
+workbox-core@6.1.5:
   version "6.1.5"
   resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.1.5.tgz#424ff600e2c5448b14ebd58b2f5ac8ed91b73fb9"
   integrity sha512-9SOEle7YcJzg3njC0xMSmrPIiFjfsFm9WjwGd5enXmI8Lwk8wLdy63B0nzu5LXoibEmS9k+aWF8EzaKtOWjNSA==
 
-workbox-expiration@6.1.5, workbox-expiration@^6.1.5:
+workbox-core@^6.1.5, workbox-core@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.2.0.tgz#02b98158d9618ecda57595a9590bb6faa19d8544"
+  integrity sha512-ECNeZhyYm1Y/xLzDyRFwGneHUtwq5MnOhV4ETYILzgq0nS3PUM+yDGUxAgHX6qsNiAfKkAmyvqjIbDUjKjQrkg==
+
+workbox-expiration@6.1.5:
   version "6.1.5"
   resolved "https://registry.yarnpkg.com/workbox-expiration/-/workbox-expiration-6.1.5.tgz#a62a4ac953bb654aa969ede13507ca5bd154adc2"
   integrity sha512-6cN+FVbh8fNq56LFKPMchGNKCJeyboHsDuGBqmhDUPvD4uDjsegQpDQzn52VaE0cpywbSIsDF/BSq9E9Yjh5oQ==
   dependencies:
     workbox-core "^6.1.5"
+
+workbox-expiration@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/workbox-expiration/-/workbox-expiration-6.2.0.tgz#ac690dba79ee881928253400f0573cf8718d43cf"
+  integrity sha512-5bUItz37URqqFK1lAVAvJUbGToQb0seTKC46GDX2jlbyPbEGpmeuDCgUo+wh7qEFDVQqXA8enZwZhtfn/zhUKg==
+  dependencies:
+    idb "^6.0.0"
+    workbox-core "^6.2.0"
 
 workbox-navigation-preload@6.1.5:
   version "6.1.5"
@@ -11811,40 +11836,47 @@ workbox-navigation-preload@6.1.5:
   dependencies:
     workbox-core "^6.1.5"
 
-workbox-precaching@^6.1.5:
-  version "6.1.5"
-  resolved "https://registry.yarnpkg.com/workbox-precaching/-/workbox-precaching-6.1.5.tgz#9e0fecb5c567192f46783323fccea10bffc9f79e"
-  integrity sha512-yhm1kb6wgi141JeM5X7z42XJxCry53tbMLB3NgrxktrZbwbrJF8JILzYy+RFKC9tHC6u2bPmL789GPLT2NCDzw==
+workbox-precaching@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/workbox-precaching/-/workbox-precaching-6.2.0.tgz#deff2c115ff52ceaa5499a065273b9745d470029"
+  integrity sha512-Ns84Q68c/t9Q4c1uNzj1HkJKRJrTiE//WVLjs4VAQ9BWg8+aDRl8C9gxn5ffEKBd6lKu7V17sqeEUMAqDUooWQ==
   dependencies:
-    workbox-core "^6.1.5"
-    workbox-routing "^6.1.5"
-    workbox-strategies "^6.1.5"
+    workbox-core "^6.2.0"
+    workbox-routing "^6.2.0"
+    workbox-strategies "^6.2.0"
 
-workbox-recipes@6.1.5:
-  version "6.1.5"
-  resolved "https://registry.yarnpkg.com/workbox-recipes/-/workbox-recipes-6.1.5.tgz#bb1f8976bcdb202618d967596e9f248e6077e69a"
-  integrity sha512-MD1yabHca6O/oj1hrRdfj9cRwhKA5zqIE53rWOAg/dKMMzWQsf9nyRbXRgzK3a13iQvYKuQzURU4Cx58tdnR+Q==
+workbox-recipes@6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/workbox-recipes/-/workbox-recipes-6.2.0.tgz#ebaf06bf94fcba01f2c45555bac2b86e4b59adae"
+  integrity sha512-VhjAbL3osfqcECxl1bDcBOQrPs5XG1PtxVJImM9weH7YYHJUBDkT3Sn8MdAd8SEELYbg+8zoj6e/GZg4EZsq2A==
   dependencies:
-    workbox-cacheable-response "^6.1.5"
-    workbox-core "^6.1.5"
-    workbox-expiration "^6.1.5"
-    workbox-precaching "^6.1.5"
-    workbox-routing "^6.1.5"
-    workbox-strategies "^6.1.5"
+    workbox-cacheable-response "^6.2.0"
+    workbox-core "^6.2.0"
+    workbox-expiration "^6.2.0"
+    workbox-precaching "^6.2.0"
+    workbox-routing "^6.2.0"
+    workbox-strategies "^6.2.0"
 
-workbox-routing@6.1.5, workbox-routing@^6.1.5:
+workbox-routing@6.1.5:
   version "6.1.5"
   resolved "https://registry.yarnpkg.com/workbox-routing/-/workbox-routing-6.1.5.tgz#15884d6152dba03faef83f0b23331846d8b6ef8e"
   integrity sha512-uC/Ctz+4GXGL42h1WxUNKxqKRik/38uS0NZ6VY/EHqL2F1ObLFqMHUZ4ZYvyQsKdyI82cxusvhJZHOrY0a2fIQ==
   dependencies:
     workbox-core "^6.1.5"
 
-workbox-strategies@^6.1.5:
-  version "6.1.5"
-  resolved "https://registry.yarnpkg.com/workbox-strategies/-/workbox-strategies-6.1.5.tgz#2549a3e78f0eda371b760c4db21feb0d26143573"
-  integrity sha512-QhiOn9KT9YGBdbfWOmJT6pXZOIAxaVrs6J6AMYzRpkUegBTEcv36+ZhE/cfHoT0u2fxVtthHnskOQ/snEzaXQw==
+workbox-routing@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/workbox-routing/-/workbox-routing-6.2.0.tgz#220d8a60ec5835dee68c1e44ef42aa76fc879ef2"
+  integrity sha512-AcX/FoHM1zU7udQ95EzZx3FXlc/Dzru2W62JaruSDJQcIPc1jCwi1WOmNEHZqMtL5RmuZrULFNbh8u0Uxb68xg==
   dependencies:
-    workbox-core "^6.1.5"
+    workbox-core "^6.2.0"
+
+workbox-strategies@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/workbox-strategies/-/workbox-strategies-6.2.0.tgz#ae13e2137c063e7aadf866400af0c32e09721c0b"
+  integrity sha512-6BffCwXZJhGfXGoKbruPKsdmcbTrzsQY6f2lYxMA/mGfW5vPxDRIoiIHXfRbn5qMCQ7mvl/YX0EspG8wazDTMA==
+  dependencies:
+    workbox-core "^6.2.0"
 
 wrap-ansi@^2.0.0:
   version "2.1.0"
