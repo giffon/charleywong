@@ -303,7 +303,9 @@ class ServerMain {
         return [
             for (record in r.searchResult.records)
             entityIndex.entitiesOfId[record[0]]
-        ];
+        ]
+            .filter(e -> e.searchable())
+            .filter(e -> tags.foreach(t -> e.tags.exists(tid -> tid.id.toLowerCase() == t)));
     }
 
     static function flexsearch(query:String, tags:Array<String>):Array<Entity> {
