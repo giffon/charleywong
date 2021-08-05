@@ -38,10 +38,11 @@ RUN apt-get update \
         software-properties-common \
         libnss3-tools \
         direnv \
+        libstemmer-dev \
     && echo 'eval "$(direnv hook bash)"' >> /etc/bash.bashrc \
     && add-apt-repository -y universe \
     && add-apt-repository -y ppa:groonga/ppa \
-    && apt-get install -y groonga groonga-bin groonga-tokenizer-mecab groonga-token-filter-stem groonga-normalizer-mysql \
+    && apt-get install -y groonga libgroonga-dev groonga-bin groonga-tokenizer-mecab groonga-token-filter-stem groonga-normalizer-mysql \
     && curl -sL https://deb.nodesource.com/setup_14.x | bash - \
     && apt-get install -y nodejs=14.* \
     && add-apt-repository -y ppa:git-core/ppa \
@@ -57,26 +58,6 @@ RUN apt-get update \
 
 # Config direnv
 COPY --chown=$USER_UID:$USER_GID direnv.toml /home/$USERNAME/.config/direnv/config.toml
-
-RUN cd / \
-    && git clone --recurse-submodules https://github.com/taku910/mecab.git /mecab \
-    && cd /mecab/mecab \
-    && ./configure --enable-static --disable-shared --with-pic \
-    && make -j \
-    && make install \
-    && cd / \
-    && git clone --recurse-submodules --branch v11.0.5 https://github.com/groonga/groonga.git /groonga \
-    && cp -r /groonga/include /groonga-include \
-    && mkdir /groonga-bin \
-    && cd /groonga-bin \
-    && cmake /groonga -DCMAKE_BUILD_TYPE=RELEASE -DGRN_EMBED=ON \
-    && make -j \
-    && cd /mecab/mecab \
-    && make uninstall \
-    && cd / \
-    && rm -rf /mecab /groonga 
-ENV GROONGA_INCLUDE_PATH=/groonga-include
-ENV GROONGA_BUILD_PATH=/groonga-bin
 
 # AWS cli
 RUN cd / \

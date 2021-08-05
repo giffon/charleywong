@@ -8587,9 +8587,10 @@ npmlog@^4.0.1, npmlog@^4.1.2:
     gauge "~2.7.3"
     set-blocking "~2.0.0"
 
-nroonga@andyli/nroonga#static:
+nroonga@0.4.3:
   version "0.4.3"
-  resolved "https://codeload.github.com/andyli/nroonga/tar.gz/a824c81d2b1be22eea5367ff6eab0f5c71d97dab"
+  resolved "https://registry.yarnpkg.com/nroonga/-/nroonga-0.4.3.tgz#de9b9468e2aff33139130242849615b95531683e"
+  integrity sha512-wmO/paBVd0H2z696I7+V974L3Epe6gExtstkrh161SspPNpdY5WetEHDLZmH90kWN2XtYZMV4UliLbkSFkxGiA==
   dependencies:
     nan "^2.14.1"
 

@@ -222,11 +222,13 @@ class EntityIndex {
     #end
 
     public var groonga(get, null):Database;
-    public final groongaDb = "groonga_db";
+    public final groongaDb = "data/groonga/groonga_db";
     function get_groonga() return groonga != null ? groonga : groonga = {
         var dbExists = sys.FileSystem.exists(groongaDb);
         var db = new Database(groongaDb);
         if (!dbExists) {
+            db.commandSync("plugin_register token_filters/stem");
+
             db.commandSync("table_create", {
                 name: "Entity",
                 flags: "TABLE_HASH_KEY",
@@ -255,7 +257,9 @@ class EntityIndex {
                 name: "Terms",
                 flags: "TABLE_PAT_KEY",
                 key_type: "ShortText",
-                normalizer: "NormalizerNFKC100",
+                default_tokenizer: "TokenBigramIgnoreBlankSplitSymbol",
+                normalizer: "NormalizerAuto",
+                token_filters: "TokenFilterStem",
             });
             db.commandSync('column_create', {
                 table: 'Terms',
@@ -274,7 +278,7 @@ class EntityIndex {
             db.commandSync('column_create', {
                 table: 'Terms',
                 name: 'tags',
-                flags: 'COLUMN_INDEX|WITH_POSITION',
+                flags: 'COLUMN_INDEX|WITH_POSITION|WITH_SECTION',
                 type: 'Entity',
                 source: 'tags',
             });
