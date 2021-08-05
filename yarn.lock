@@ -11792,10 +11792,15 @@ workbox-cacheable-response@6.1.5, workbox-cacheable-response@^6.1.5:
   dependencies:
     workbox-core "^6.1.5"
 
-workbox-core@6.1.5, workbox-core@^6.1.5:
+workbox-core@6.1.5:
   version "6.1.5"
   resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.1.5.tgz#424ff600e2c5448b14ebd58b2f5ac8ed91b73fb9"
   integrity sha512-9SOEle7YcJzg3njC0xMSmrPIiFjfsFm9WjwGd5enXmI8Lwk8wLdy63B0nzu5LXoibEmS9k+aWF8EzaKtOWjNSA==
+
+workbox-core@^6.1.5, workbox-core@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.2.0.tgz#02b98158d9618ecda57595a9590bb6faa19d8544"
+  integrity sha512-ECNeZhyYm1Y/xLzDyRFwGneHUtwq5MnOhV4ETYILzgq0nS3PUM+yDGUxAgHX6qsNiAfKkAmyvqjIbDUjKjQrkg==
 
 workbox-expiration@6.1.5, workbox-expiration@^6.1.5:
   version "6.1.5"
@@ -11804,12 +11809,12 @@ workbox-expiration@6.1.5, workbox-expiration@^6.1.5:
   dependencies:
     workbox-core "^6.1.5"
 
-workbox-navigation-preload@6.1.5:
-  version "6.1.5"
-  resolved "https://registry.yarnpkg.com/workbox-navigation-preload/-/workbox-navigation-preload-6.1.5.tgz#47a0d3a6d2e74bd3a52b58b72ca337cb5b654310"
-  integrity sha512-hDbNcWlffv0uvS21jCAC/mYk7NzaGRSWOQXv1p7bj2aONAX5l699D2ZK4D27G8TO0BaLHUmW/1A5CZcsvweQdg==
+workbox-navigation-preload@6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/workbox-navigation-preload/-/workbox-navigation-preload-6.2.0.tgz#60a17cde812cfc48ecc259bb816e695feedce4ea"
+  integrity sha512-YF4oOQ/ngPtHkxPhujDfHRGDLt8c+uIAp6WNDNgxM6rkbLp6YDj7PhoJTX+B17z/aH9BY7GR3M5mgk1jtpJTuw==
   dependencies:
-    workbox-core "^6.1.5"
+    workbox-core "^6.2.0"
 
 workbox-precaching@^6.1.5:
   version "6.1.5"
