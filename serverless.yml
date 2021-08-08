@@ -5,8 +5,11 @@ frameworkVersion: ">=1.61.1"
 
 provider:
   name: aws
-  runtime: nodejs14.x
-  timeout: 45
+  ecr:
+    images:
+      appimage:
+        path: ./
+  timeout: 30 # API Gateway has a limit of 30 seconds
   apiGateway:
     binaryMediaTypes:
       - '*/*'
@@ -32,7 +35,8 @@ package:
 
 functions:
   web:
-    handler: index.handler
+    image:
+      name: appimage
     events:
       - http:
           method: ANY

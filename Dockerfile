@@ -1,23 +1,5 @@
-FROM giffon/charleywong_devcontainer_workspace:20210806015210 as build
-RUN mkdir -p /workspace
-WORKDIR /workspace
-
-COPY package.json yarn.lock ./
-RUN yarn
-
-COPY . .
-RUN haxe serviceWorker.hxml
-RUN npx browserify serviceWorker.js --transform [ babelify --global ] -g [ envify --NODE_ENV production ] -g uglifyify | npx terser --compress --mangle > static/serviceWorker.bundled.js
-RUN haxe browser.hxml
-RUN npx browserify browser.js -g [ envify --NODE_ENV production ] -g uglifyify | npx terser --compress --mangle > static/browser.bundled.js
-RUN haxe server.hxml
-
-RUN yarn --production
-
-# Grab a fresh slim copy of the image to reduce the final size
 FROM ubuntu:bionic
 
-# Configure apt and install packages
 RUN apt-get update \
     && apt-get install -y --no-install-recommends software-properties-common curl \
     && add-apt-repository -y universe \
@@ -31,11 +13,8 @@ RUN apt-get update \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/*
 
-# Set working directory to function root directory
 WORKDIR /workspace
+COPY . /workspace
 
-# Copy in the built dependencies
-COPY --from=build /workspace /workspace
-
-ENTRYPOINT ["/usr/local/bin/npx", "aws-lambda-ric"]
+ENTRYPOINT ["npx", "aws-lambda-ric"]
 CMD ["index.handler"]
