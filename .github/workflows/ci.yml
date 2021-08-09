@@ -3,7 +3,7 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20210810015556
+    container: giffon/charleywong_devcontainer_workspace:20210810021442
     steps:
       - uses: actions/checkout@v2
         with:
@@ -12,7 +12,7 @@ jobs:
         run: |
           cp -r /workspace/node_modules .
           cp -r /workspace/lib/dts2hx lib/
-      - run: yarn
+      - run: yarn --ignore-optional
       - name: Build tailwind
         run: yarn tailwind
         env:
@@ -47,7 +47,7 @@ jobs:
     needs: build
     if: success() && github.event_name == 'push' && ( github.ref == 'refs/heads/master' || github.ref == 'refs/heads/production' )
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20210810015556
+    container: giffon/charleywong_devcontainer_workspace:20210810021442
     steps:
       - uses: actions/checkout@v2
         with:
@@ -56,7 +56,7 @@ jobs:
         run: |
           cp -r /workspace/node_modules .
           cp -r /workspace/lib/dts2hx lib/
-      - run: yarn
+      - run: yarn --ignore-optional
       - uses: actions/download-artifact@v2
         with:
           name: artifact

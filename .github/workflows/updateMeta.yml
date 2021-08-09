@@ -5,7 +5,7 @@ on:
 jobs:
   job:
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20210810015556
+    container: giffon/charleywong_devcontainer_workspace:20210810021442
     steps:
       - uses: actions/checkout@v1
         with:
@@ -15,7 +15,7 @@ jobs:
         run: |
           cp -r /workspace/node_modules .
           cp -r /workspace/lib/dts2hx lib/
-      - run: yarn
+      - run: yarn --ignore-optional
       - name: Compile
         run: haxe syncFacebook.hxml
       - name: Import gpg key

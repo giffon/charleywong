@@ -86,5 +86,8 @@
     "workbox-navigation-preload": "6.1.5",
     "workbox-recipes": "6.1.5",
     "workbox-routing": "6.1.5"
+  },
+  "optionalDependencies": {
+    "aws-lambda-ric": "1.1.0"
   }
 }
