@@ -217,7 +217,7 @@ class EntityView extends View {
         return jsx('
             <Fragment>
                 <div className="container mx-auto sm:px-4">
-                    <header className="p-6 md:p-6">
+                    <header className="p-6 md:p-6 flex place-items-center">
                         <a href="/" className="logo-header" style=${logoHeaderStyle}></a>
                     </header>
                     <div className="container-entity relative mx-auto rounded-10 bg-white container-btm py-5 sm:px-2">

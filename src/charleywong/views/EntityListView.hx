@@ -10,6 +10,15 @@ class EntityListView extends View {
         return super.render();
     }
 
+    override function ogMeta() return jsx('
+        <Fragment>
+            <meta name="twitter:card" content="summary_large_image" />
+            ${super.ogMeta()}
+            <meta property="og:type" content="website" />
+            <meta property="og:image" content=${R("/images/charley-600-w.png")} />
+        </Fragment>
+    ');
+
     public var path(get, never):String;
     function get_path() return props.path;
 
@@ -49,12 +58,14 @@ class EntityListView extends View {
     ].fold((item, res:Array<String>)-> res.concat(item), super.prefetch());
 
     override function bodyContent() {
-        var jsonHref = '${slug}.json';
+        var logoHeaderStyle = {
+            backgroundImage: 'url("${R("/images/charley-600-w.png")}")',
+        };
         return jsx('
             <Fragment>
                 <div className="container mx-auto px-1 sm:px-4">
-                    <header className="p-6 md:p-6 text-center">
-                        <a href="/"><img className="w-1/3 md:w-1/4 pr-4 pl-4 lg:w-1/5 pr-4 pl-4 logo-header" src=${R("/images/charley-600-w.png")} alt="Charley Wong 和你查"/></a>
+                    <header className="p-6 md:p-6 flex place-items-center">
+                        <a href="/" className="logo-header" style=${logoHeaderStyle}></a>
                     </header>
                     <div className="w-full md:w-2/3 pr-4 pl-4 mx-auto bg-white py-5 rounded-10 container-btm relative">
                         <div className="pb-3">
