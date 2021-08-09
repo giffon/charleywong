@@ -101,6 +101,7 @@ class Facebook {
                 email: userRegExp.matched(2)
             },
             printCmd: true,
+            printOut: true,
         });
 
         function getOldestFile() {

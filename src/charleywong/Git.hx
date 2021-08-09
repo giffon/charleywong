@@ -17,6 +17,7 @@ class Git {
             email:String,
         },
         ?printCmd:Bool,
+        ?printOut:Bool,
     };
 
     public function new(?config) {
@@ -45,6 +46,12 @@ class Git {
         })) {
             case {status: status, error: error, stderr: stderr, stdout: stdout} if (status != 0):
                 lastRunExitCode = status;
+                if (config.printOut) switch (stdout.trim()) {
+                    case "":
+                        // pass
+                    case stdout:
+                        Sys.println(stdout);
+                }
                 if (error != null)
                     throw error;
                 else if (stderr != null && (stderr:String).trim() != "")
@@ -53,6 +60,12 @@ class Git {
                     throw stdout;
             case {status: status, stdout: stdout}:
                 lastRunExitCode = status;
+                if (config.printOut) switch (stdout.trim()) {
+                    case "":
+                        // pass
+                    case stdout:
+                        Sys.println(stdout);
+                }
                 return stdout;
         }
         #else
@@ -128,6 +141,14 @@ class Git {
 
     // https://stackoverflow.com/a/5737794/267998
     public function hasChanges():Bool {
-        return run(["status", "--porcelain"]).trim() != "";
+        var out = run(["status", "--porcelain"]).trim();
+        if (out != "") {
+            if (config.printOut) {
+                Sys.println(out);
+            }
+            return true;
+        } else {
+            return false;
+        }
     }
 }
