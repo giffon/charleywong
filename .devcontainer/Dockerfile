@@ -70,6 +70,11 @@ RUN cd / \
 # Install yq
 RUN wget https://github.com/mikefarah/yq/releases/download/v4.7.0/yq_linux_amd64.tar.gz -O - | tar xz && mv yq_linux_amd64 /usr/bin/yq
 
+# https://github.com/wagoodman/dive
+RUN wget https://github.com/wagoodman/dive/releases/download/v0.9.2/dive_0.9.2_linux_amd64.deb \
+    && apt install ./dive_0.9.2_linux_amd64.deb \
+    && rm -rf ./dive_0.9.2_linux_amd64.deb
+
 ENV YARN_CACHE_FOLDER=/yarn
 RUN mkdir -m 777 "$YARN_CACHE_FOLDER"
 ENV HAXESHIM_ROOT=/haxe
