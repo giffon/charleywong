@@ -2,7 +2,6 @@ package charleywong;
 
 #if js
 import js.Lib.*;
-import js.npm.flexsearch.FlexSearch;
 import js.npm.nodejieba.Nodejieba;
 import js.npm.pluralize.Pluralize;
 import nroonga.Database;
@@ -28,12 +27,9 @@ class EntityIndex {
         entitiesOfUrl = null;
         entitiesOfFbPage = null;
         entitiesOfId = null;
-        #if js
-        flexsearch = null;
-        #end
     }
 
-    static public function loadFromDirectory(path:String, ?serializedIndexPath:String):EntityIndex {
+    static public function loadFromDirectory(path:String):EntityIndex {
         var entities = new Map();
         for (item in FileSystem.readDirectory(path)) {
             if (!item.endsWith(".json")) continue;
@@ -45,17 +41,7 @@ class EntityIndex {
                 throw 'Error loading $file';
             }
         }
-        return new EntityIndex(
-            entities,
-            if (serializedIndexPath != null) try {
-                File.getContent(serializedIndexPath);
-            } catch (e:Dynamic) {
-                trace(e);
-                null;
-            } else {
-                null;
-            }
-        );
+        return new EntityIndex(entities);
     }
 
     macro static public function embedFromDirectory(path:String):ExprOf<EntityIndex> {
@@ -128,96 +114,10 @@ class EntityIndex {
     final emojiRegexp = ~/(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/g;
     final mixedChiEngSep = ~/(?:[\s\-\/]+|(?=[\u4e00-\u9fff])|(?<=[\u4e00-\u9fff]))/g;
     static public final chiRegexp = ~/[\u4e00-\u9fff]/;
-    public var flexsearch(get, null):FlexSearch;
-    function get_flexsearch() return flexsearch != null ? flexsearch : flexsearch = {
-        function tokenize(str:String) {
-            return ~/[\s\-\/]+/g
-                .split(emojiRegexp.replace(str, " "))
-                .map(str -> chiRegexp.match(str) ? Nodejieba.cutForSearch(str, false) : [str])
-                .fold((a1, a2) -> a1.concat(a2), [])
-                .map(Pluralize.singular);
-        }
-        var f = FlexSearch.create({
-            profile: "match",
-            cache: 1000,
-            doc: {
-                id: "id",
-                field: {
-                    "id": {},
-                    "name:en": {
-                        tokenize: "full",
-                        encode: "advanced",
-                    },
-                    "name:zh": {
-                        tokenize: function(str:String) {
-                            return mixedChiEngSep.split(str);
-                        },
-                        encode: "icase",
-                    },
-                    "tag:names": {
-                        tokenize: tokenize,
-                    },
-                    "tag:ids": {},
-                    "meta": {
-                        tokenize: tokenize,
-                    },
-                    "hkbase": {
-                        tokenize: tokenize,
-                    }
-                },
-            },
-            store: "id",
-        });
-        if (serializedIndex != null) {
-            f._import(serializedIndex);
-        } else {
-            f.add(entities.filter(e -> e.searchable()).map(e -> {
-                id: e.id,
-                name: {
-                    en: e.name[en],
-                    zh: e.name[zh],
-                    zhchar: e.name[zh],
-                },
-                tag: {
-                    var tags = Tag.expend(e.tags);
-                    {
-                        names: tags.map(t -> [for (v in t.name) v].join("\n")).join("\n"),
-                        ids: tags.map(t -> t.id),
-                    }
-                },
-                meta: e.webpages.map(p -> switch (p.meta) {
-                    case null: "";
-                    case m:
-                        (switch (m["name"]) {
-                            case null: "";
-                            case name: name;
-                        }) + "\n" +
-                        (switch (m["about"]) {
-                            case null: "";
-                            case about: about;
-                        });
-                }).join("\n"),
-                hkbase: switch (HkbaseDirectory.getData(e)) {
-                    case null: "";
-                    case d:
-                        d.name_en + "\n" +
-                        d.name_zh + "\n" +
-                        d.type + "\n" +
-                        d.description;
-                }
-            }));
-        }
-        f;
-    };
 
-    #if export_flexsearch
+    #if export_entity_index
     static function main():Void {
-        if (FileSystem.exists(ServerMain.exportedFlexsearch)) {
-            Sys.println('${ServerMain.exportedFlexsearch} already exists, remove it first?');
-            return;
-        }
-        var exported = ServerMain.entityIndex.flexsearch.export();
-        File.saveContent(ServerMain.exportedFlexsearch, exported);
+        Sys.println(ServerMain.entityIndex.groonga.commandSync("status"));
     }
     #end
 

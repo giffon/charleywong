@@ -28,14 +28,7 @@ class ServerMain {
     static final isMain = js.Syntax.code("require.main") == module;
     static public final domain = "https://charleywong.giffon.io";
     static public final dataDirectory = "data/entity";
-    static public final exportedFlexsearch = "flexsearch.json";
-    static public final entityIndex:EntityIndex = EntityIndex.loadFromDirectory(
-        dataDirectory,
-        if (FileSystem.exists(exportedFlexsearch))
-            exportedFlexsearch
-        else
-            null
-    );
+    static public final entityIndex:EntityIndex = EntityIndex.loadFromDirectory(dataDirectory);
     static public var app:FastifyInstance<Dynamic, Dynamic, Dynamic, Dynamic>;
 
     static function index(req:Request, reply:Reply):Promise<Dynamic> {
@@ -288,7 +281,6 @@ class ServerMain {
     }
 
     static function search(query:String, tags:Array<String>):Array<Entity> {
-        // return flexsearch(query, tags);
         return groonga(query, tags);
     }
 
@@ -307,50 +299,6 @@ class ServerMain {
             for (record in r.searchResult.records)
             entityIndex.entitiesOfId[record[0]]
         ]
-            .filter(e -> e.searchable())
-            .filter(e -> tags.foreach(t -> e.tags.exists(tid -> tid.id.toLowerCase() == t)));
-    }
-
-    static function flexsearch(query:String, tags:Array<String>):Array<Entity> {
-        var ids = (entityIndex.flexsearch.search([
-            {
-                field: "name:en",
-                boost: 2,
-                query: query,
-                limit: Math.POSITIVE_INFINITY,
-            },
-            {
-                field: "name:zh",
-                boost: 2,
-                query: query,
-                limit: Math.POSITIVE_INFINITY,
-            },
-            {
-                field: "tag:names",
-                boost: 1,
-                query: query,
-                limit: Math.POSITIVE_INFINITY,
-            },
-        ]):Array<{id:String}>).map(r -> r.id);
-
-        var metaResults:Array<{id:String}> = entityIndex.flexsearch.search([
-            {
-                field: "meta",
-                query: query,
-                limit: Math.POSITIVE_INFINITY,
-            },
-            {
-                field: "hkbase",
-                query: query,
-                limit: Math.POSITIVE_INFINITY,
-            },
-        ]);
-        for (id in metaResults.map(r -> r.id)) {
-            if (!ids.has(id))
-                ids.push(id);
-        }
-        return ids
-            .map(id -> entityIndex.entitiesOfId[id])
             .filter(e -> e.searchable())
             .filter(e -> tags.foreach(t -> e.tags.exists(tid -> tid.id.toLowerCase() == t)));
     }
