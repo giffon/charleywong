@@ -2,8 +2,7 @@ FROM giffon/charleywong_devcontainer_workspace:20210809134902 as build
 RUN mkdir -p /workspace
 WORKDIR /workspace
 COPY package.json yarn.lock ./
-RUN yarn --production
-
+RUN yarn add aws-lambda-ric --production
 
 FROM ubuntu:bionic
 
