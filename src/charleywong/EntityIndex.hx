@@ -3,7 +3,6 @@ package charleywong;
 #if js
 import js.Lib.*;
 import js.npm.nodejieba.Nodejieba;
-import js.npm.pluralize.Pluralize;
 import nroonga.Database;
 #end
 import sys.*;
