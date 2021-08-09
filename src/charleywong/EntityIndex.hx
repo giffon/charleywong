@@ -226,7 +226,14 @@ class EntityIndex {
     function get_groonga() return groonga != null ? groonga : groonga = {
         var dbExists = sys.FileSystem.exists(groongaDb);
         trace('${groongaDb} exists? ' + dbExists);
-        var db = new Database(groongaDb, dbExists);
+        var db = try {
+            new Database(groongaDb, dbExists);
+        } catch (e) {
+            trace(e);
+            var tmpDb = "/tmp/groonga/groonga_db";
+            Sys.command("cp", ["-rf", Path.directory(groongaDb), Path.directory(tmpDb)]);
+            new Database(tmpDb, dbExists);
+        }
         trace("created Database");
         if (!dbExists) {
             db.commandSync("plugin_register token_filters/stem");

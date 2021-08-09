@@ -15,6 +15,7 @@ RUN apt-get update \
 
 WORKDIR /workspace
 COPY . /workspace
+RUN chmod a+r data/groonga/*
 
 ENTRYPOINT ["npx", "aws-lambda-ric"]
 CMD ["index.handler"]
