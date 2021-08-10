@@ -23,7 +23,7 @@
       "url": "https://www.instagram.com/heros_friday/",
       "meta": {
         "name": "Hero's Friday",
-        "about": "總店\n地址:荔枝角青山道489-491號香港工業中心A座地下A5C鋪\n中環店\n地址:中環威靈頓街71號地下"
+        "about": "總店\n地址:荔枝角青山道489-491號香港工業中心A座地下A5C鋪\n中環店\n地址:中環威靈頓街71號地下\n黃埔店\n地址：黃埔船塢街99號黃埔新邨地下4M鋪\n深水埗店\n地址：深水埗福華街157號B鋪"
       }
     }
   ],
@@ -78,6 +78,32 @@
       },
       "area": {
         "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "黃埔船塢街99號黃埔新邨地下4M鋪"
+      },
+      "googleMapsPlaceId": "ChIJa1ykB58BBDQRnQ94K2CnyFM",
+      "coordinates": {
+        "lat": 22.3056675,
+        "lng": 114.1876167
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    },
+    {
+      "address": {
+        "zh": "深水埗福華街157號B鋪"
+      },
+      "googleMapsPlaceId": "ChIJRSCeRoIBBDQRYp2_WZMlNcw",
+      "coordinates": {
+        "lat": 22.3315562,
+        "lng": 114.1620728
+      },
+      "area": {
+        "zh": "深水埗區"
       }
     }
   ]
