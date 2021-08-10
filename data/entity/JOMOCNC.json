@@ -1,9 +1,12 @@
 {
   "id": "JOMOCNC",
   "name": {
-    "en": "JOMO Coffee & Cakes"
+    "en": "JOMO"
   },
   "webpages": [
+    {
+      "url": "https://www.jomocnc.com"
+    },
     {
       "meta": {
         "id": "310702119758741",
@@ -32,14 +35,41 @@
       "url": "https://www.facebook.com/JOMOCNC/"
     },
     {
+      "url": "https://www.facebook.com/108018467332227/",
+      "meta": {
+        "id": "108018467332227",
+        "username": "jomoknhh",
+        "name": "JOMO Kitchen & Health Hub",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "181045748599578",
+            "name": "Fitness Trainer"
+          }
+        ],
+        "emails": [
+          "jomohnh@gmail.com"
+        ],
+        "single_line_address": "Shop G01, Monterey Place, 23 Tong Chun Street, 000000 Tseung Kwan O",
+        "website": "www.jomocnc.com"
+      }
+    },
+    {
       "meta": {
         "name": "JOMO",
-        "about": "Tseng Kwan O\nShop G01,G/F ,Monterey 23\nWeekday 09:00-18:00\nWeekend 09:00-20:00\nSai Yin Pun\nEveryday 11:00-18:00\n-Cash or Octopus\n👇🏻Whole Cake Order👇🏻"
+        "about": "Opening Hours\nSYP Everyday 1100-1800\nTKO Everyday 0900-20:00\n👇🏻Whole Cake Order"
       },
       "url": "https://www.instagram.com/jomocoffeencakes/"
     },
     {
-      "url": "https://www.jomocnc.com"
+      "url": "https://www.instagram.com/jomohealthnhub/",
+      "meta": {
+        "name": "JOMO Health Hub",
+        "about": "私人指導課程￼\n￼Food & Beverages\n@jomocoffeencakes\n@myproteinhk Discount\n60% OFF Code : JOMO\nWhatsApp : 55008591\n運動推廣￼FREE TRIAL 👇🏼"
+      }
     }
   ],
   "posts": [
@@ -60,7 +90,7 @@
   "places": [
     {
       "address": {
-        "en": "No 4,Water Street, Sai Ying Pun"
+        "zh": "西營盤三多里水街四號地下D鋪 (COFFEE & CAKES)"
       },
       "googleMapsPlaceId": "ChIJqalATSf_AzQRn10jQkdeMqI",
       "coordinates": {
@@ -69,6 +99,19 @@
       },
       "area": {
         "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳唐俊街頭23號MONTEREY 地下G01 及一樓1A鋪 (KITCHEN & HEALTH HUB)"
+      },
+      "googleMapsPlaceId": "ChIJ_7ceu4wDBDQRfHzwIvWZdN4",
+      "coordinates": {
+        "lat": 22.3018155,
+        "lng": 114.2626884
+      },
+      "area": {
+        "zh": "西貢區"
       }
     }
   ],
