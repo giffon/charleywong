@@ -5,7 +5,11 @@
   },
   "webpages": [
     {
-      "url": "http://www.adagiostyle.com"
+      "url": "http://www.adagiostyle.com",
+      "hidden": true
+    },
+    {
+      "url": "https://www.adagiostudiostore.com"
     },
     {
       "url": "https://www.facebook.com/adagio.studio.hk/",
@@ -34,49 +38,17 @@
     {
       "url": "https://www.instagram.com/adagio.studio/",
       "meta": {
-        "name": "🏠因應疫情門市暫停對外開放❗️只設網站下單及順豐發貨",
-        "about": "✈️店主日常分享 @adagio.studioselene\n🏡門市因應疫情暫停對外開放抗疫❗️\n💰網站不再設有門市自取，只設順豐到付\n或全單滿$1000輸入「mail」優惠券即減$30\n📩Whatsapp 53051381\n⚠️請勿IG Direct\n🛒網站自助下單(只設順豐到付寄貨)👇🏻"
+        "name": "閒暇·Skincare·Beauty",
+        "about": "🏠門市暫不對外開放\n🌱只限網站下單\n🌱查詢請whatsapp/signal 53051381\n🌱請勿IG Direct查詢\n🌱官方授權品牌授權書放於highlight\n🌱只售現貨，不設預購\n🌙 @adagio.selene\n.\n查詢或下單👇🏻"
       }
     }
   ],
   "posts": [
-    {
-      "url": "https://www.facebook.com/adagio.studio.hk/posts/2218871524828408:0",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/adagio.studio.hk/posts/2547313485317542:0",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/adagio.studio.hk/posts/2558134237568800:0",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    }
   ],
   "tags": [
     "shop"
   ],
-  "places": [
-    {
-      "address": {
-        "zh": "觀塘成業街16號怡生工業中心E座1樓E19室"
-      },
-      "googleMapsPlaceId": "ChIJLQWLO0UBBDQRZfrmv1bDFqM",
-      "coordinates": {
-        "lat": 22.3096875,
-        "lng": 114.226081
-      },
-      "area": {
-        "zh": "觀塘區"
-      }
-    }
-  ],
+  "places": [],
   "yellowBlueMapIds": [
     {
       "type": "shop",
