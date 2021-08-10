@@ -34,9 +34,18 @@
     },
     {
       "meta": {
+        "name": "Practice Moment",
         "about": "Practice 有著實踐和練習的意思。每個音樂人經過不斷練習，走近夢想。\nPractice Moment 希望能為每位實踐音樂夢的人，提供最適合你的學習地方。\n在這IG 記載老師學生們的點滴，歡迎喜歡音樂的你follow 。\n•元朗宏發徑宏發商場二樓17號•"
       },
       "url": "https://www.instagram.com/practicemoment_ig/"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCk2ckYuhQXMwdfpT0VwHjCA",
+      "meta": {
+        "id": "UCk2ckYuhQXMwdfpT0VwHjCA",
+        "name": "Practice Moment",
+        "about": "PracticeMoment\n樂器課程\n地址 : 香港新界元朗市宏發商場2樓17號\n查詢/預約 Whatsapp : 60716903"
+      }
     }
   ],
   "posts": [
@@ -55,6 +64,21 @@
     {
       "type": "shop",
       "id": 1999
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗宏發徑8號宏發商場2樓17號舖"
+      },
+      "googleMapsPlaceId": "ChIJ3fQjeafwAzQRwZVxlKgofr8",
+      "coordinates": {
+        "lat": 22.4424511,
+        "lng": 114.0337196
+      },
+      "area": {
+        "zh": "元朗區"
+      }
     }
   ]
 }
