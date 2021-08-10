@@ -1,7 +1,8 @@
 {
   "id": "la_tessa_ltd",
   "name": {
-    "en": "La Tessa"
+    "en": "Moody Wood Cafe & Bar (La Tessa)",
+    "zh": "牧活咖啡餐室"
   },
   "webpages": [
     {
@@ -16,14 +17,14 @@
             "name": "Restaurant"
           }
         ],
-        "single_line_address": "深水埗 大埔道18號 中國聯合銀行大廈地下, Kowloon, Hong Kong"
+        "single_line_address": "深水埗 大埔道18號 中國聯合銀行大廈地下, 九龍"
       }
     },
     {
       "url": "https://www.instagram.com/la_tessa_ltd/",
       "meta": {
         "name": "La Tessa 西餐廳及咖啡店",
-        "about": "🖐🏻☝🏻\n精品咖啡店•西餐廳\n試業中\n試業期間營業時間：07:00-22:00"
+        "about": "🖐🏻☝🏻\n精品咖啡店•西餐廳\n營業時間：07:00-22:00"
       }
     }
   ],
@@ -65,15 +66,15 @@
   "places": [
     {
       "address": {
-        "zh": "深水埗 大埔道18號 中國聯合銀行大廈地下"
+        "zh": "旺角登打士街36號恆威商業中心2樓"
       },
-      "googleMapsPlaceId": "ChIJzyNuCsoABDQRD-BN55gWzZg",
+      "googleMapsPlaceId": "ChIJL0lOMMcABDQRZ1SQBfooBxg",
       "coordinates": {
-        "lat": 22.3272017,
-        "lng": 114.1677944
+        "lat": 22.315085,
+        "lng": 114.169813
       },
       "area": {
-        "zh": "深水埗區"
+        "zh": "油尖旺區"
       }
     }
   ],
@@ -81,6 +82,10 @@
     {
       "type": "eat",
       "id": 2265
+    },
+    {
+      "type": "eat",
+      "id": 6261
     }
   ]
 }
