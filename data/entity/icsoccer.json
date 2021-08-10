@@ -28,7 +28,11 @@
       "url": "https://www.facebook.com/icsoccer/"
     },
     {
-      "url": "https://www.instagram.com/icsoccerhk/"
+      "url": "https://www.instagram.com/icsoccerhk/",
+      "meta": {
+        "name": "Q版球星漫畫 IC SOCCER【四格好波】",
+        "about": "香港原創品牌 - IC足球部 Since 2005\n📱Whatsapp +852-67001251 www.facebook.com/icsoccer\n🛒網店：icsoccerhk.com\n更多原創足球漫畫 Q版球星產品\n👇🏻"
+      }
     }
   ],
   "posts": [
@@ -37,12 +41,30 @@
     }
   ],
   "tags": [
-    "media"
+    "sport",
+    "media",
+    "clothing",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 650
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荔枝角 青山道650號 益大工業大廈5樓508"
+      },
+      "googleMapsPlaceId": "ChIJOTCrV7UGBDQRS3yr5RyxB-I",
+      "coordinates": {
+        "lat": 22.3387849,
+        "lng": 114.1484408
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ]
 }
