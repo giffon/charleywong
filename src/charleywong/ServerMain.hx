@@ -2,6 +2,7 @@ package charleywong;
 
 import sys.FileSystem;
 import node_fetch.Fetch;
+import node.url.URLSearchParams;
 import js.npm.hk_address_parser_lib.Dclookup;
 import js.npm.nodejieba.Nodejieba;
 import js.lib.Promise;
@@ -31,6 +32,17 @@ class ServerMain {
     static public final entityIndex:EntityIndex = EntityIndex.loadFromDirectory(dataDirectory);
     static public var app:FastifyInstance<Dynamic, Dynamic, Dynamic, Dynamic>;
 
+    static function noQuery(req:Request, ?allowed:Iterable<String>):URL {
+        var url = new URL(req.url, domain);
+        new URLSearchParams(req.query)
+            .forEach((value, name, searchParams) -> {
+                if (allowed == null || !allowed.has(name)) {
+                    url.searchParams.delete(name);
+                }
+            });
+        return url;
+    }
+
     static function index(req:Request, reply:Reply):Promise<Dynamic> {
         var search:Null<String> = req.query.search;
         if (search != null) {
@@ -40,6 +52,12 @@ class ServerMain {
                 case search:
                     Promise.resolve(reply.redirect("/search/" + search.urlEncode()));
             }
+        }
+        switch (noQuery(req)) {
+            case url if (url.pathname + url.search == req.url):
+                //pass
+            case url:
+                return Promise.resolve(reply.redirect(url.pathname + url.search));
         }
         return Promise.resolve(
             reply
@@ -131,6 +149,13 @@ class ServerMain {
     }
 
     static function entity(req:Request, reply:Reply):Promise<Dynamic> {
+        switch (noQuery(req)) {
+            case url if (url.pathname + url.search == req.url):
+                //pass
+            case url:
+                return Promise.resolve(reply.redirect(url.pathname + url.search));
+        }
+
         var entityId:String = req.params.entityId;
         var returnJson = entityId.endsWith(".json");
         if (returnJson)
@@ -304,6 +329,13 @@ class ServerMain {
     }
 
     static function searchHandler(req:Request, reply:Reply):Promise<Dynamic> {
+        switch (noQuery(req)) {
+            case url if (url.pathname + url.search == req.url):
+                //pass
+            case url:
+                return Promise.resolve(reply.redirect(url.pathname + url.search));
+        }
+
         var query:String = req.params.query;
         if (query.endsWith(".json")) {
             var query = query.substr(0, -".json".length);
