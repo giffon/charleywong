@@ -10,7 +10,7 @@ class Test {
             new TestTags(),
         ];
         switch (Sys.args()) {
-            case [] | ["push"]:
+            case [] | ["push" | "pull_request"]:
                 utest.UTest.run(tests);
             case ["post-deployment", host]:
                 utest.UTest.run([new TestPostDeployment(host)]);
