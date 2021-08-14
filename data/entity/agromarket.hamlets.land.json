@@ -1,12 +1,9 @@
 {
-  "id": "nwagro",
+  "id": "agromarket.hamlets.land",
   "name": {
-    "zh": "大西北農業"
+    "zh": "阡陌之間農民市集"
   },
   "webpages": [
-    {
-      "url": "https://nwagro.com"
-    },
     {
       "url": "https://www.facebook.com/agromarket.hamlets.land/",
       "meta": {
@@ -31,22 +28,22 @@
       }
     },
     {
-      "url": "https://www.instagram.com/nwagro_hk/",
+      "url": "https://www.instagram.com/argomarket.hamlets.land/",
       "meta": {
-        "name": "大西北農業",
-        "about": "由本地農夫及農業從業員組成的平台，配對本地農場與社區，建立共購小組。"
+        "name": "農民市集 by 阡陌之間",
+        "about": "情感動員消費固然快賣快買，但農夫更想靠農藝和技能，讓香港人心悅誠服地支持本地菜。\n書寫土地與農業的平台、亦是耕種者，我們組織林村、南涌、牛潭尾的農戶遠赴九龍市區，讓大眾看見農業，也讓農戶看見市場。 Main page： @hamlets.land"
       }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/nwagro/posts/114583080251527",
+      "url": "https://www.facebook.com/108834464159722/posts/114583080251527",
       "meta": {
         "sharedWith": "Public"
       }
     },
     {
-      "url": "https://www.facebook.com/nwagro/posts/121092859600549",
+      "url": "https://www.facebook.com/108834464159722/posts/121092859600549",
       "meta": {
         "sharedWith": "Public"
       }
@@ -56,5 +53,8 @@
     "farm",
     "food",
     "shop"
+  ],
+  "alias": [
+    "nwagro"
   ]
 }
