@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.elmbookhk.com"
+    },
+    {
       "meta": {
         "id": "717725661678807",
         "username": "elmbook.bookshop",
@@ -27,6 +30,24 @@
   ],
   "posts": [
     {
+      "url": "https://www.facebook.com/elmbook.bookshop/posts/2196849320433093",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/elmbook.bookshop/posts/2259201330864558",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/elmbook.bookshop/posts/2284958004955557",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
       "url": "https://www.facebook.com/elmbook.bookshop/photos/a.717725725012134/2546092265508795"
     }
   ],
@@ -38,6 +59,21 @@
     {
       "type": "shop",
       "id": 517
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角西洋菜南街59號三樓"
+      },
+      "googleMapsPlaceId": "ChIJ0w85z8cABDQRw_GHsGTH2Rc",
+      "coordinates": {
+        "lat": 22.3190153,
+        "lng": 114.1699286
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
