@@ -31,7 +31,8 @@
     },
     {
       "meta": {
-        "about": "在地球上，每一片土地都因為海洋而被隔開，海洋卻把每一塊土地每一位人每一種語言每一個物種連結起來。海，卻被了解多少？用印章告訴您屬於大海的故事。\nTell you the story about the ocean.\n#海印 #oceanstamps #oceanstampsfwte"
+        "name": "OceanStamps",
+        "about": "印章雕刻師 HandCraft Stamps\n海洋教育 Ocean Education\n版畫藝術 Engraving Art\n#海印 #oceanstamps #oceanstampsfwte #Ocean #Sea #Diving #Dolphin #Whale #Handmade #Stamps"
       },
       "url": "https://www.instagram.com/oceanstampsfwte/"
     }
@@ -45,6 +46,7 @@
     }
   ],
   "tags": [
+    "handcraft",
     "artist",
     "shop"
   ],
@@ -52,6 +54,21 @@
     {
       "type": "shop",
       "id": 5214
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍牛頭角大業街31號協發工商大廈"
+      },
+      "googleMapsPlaceId": "ChIJC4S6JDYBBDQRnC7uWO81IxY",
+      "coordinates": {
+        "lat": 22.3168321,
+        "lng": 114.2145352
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ]
 }
