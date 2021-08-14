@@ -21,10 +21,9 @@
       }
     },
     {
-      "url": "https://www.instagram.com/prejudicebookss/",
+      "url": "https://www.instagram.com/prejudicebooks_/",
       "meta": {
-        "name": "prejudicebookss",
-        "about": "Hi I’m K"
+        "name": "偏見書房"
       }
     }
   ],
@@ -56,6 +55,34 @@
     {
       "type": "shop",
       "id": 1650
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角彌敦道 700 號 T.O.P 1樓 110 號舖"
+      },
+      "googleMapsPlaceId": "ChIJhXTLe4UBBDQRS9hV0CQdTHo",
+      "coordinates": {
+        "lat": 22.3205525,
+        "lng": 114.1695058
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角砵蘭街 240 號 MPM 商場 1樓"
+      },
+      "googleMapsPlaceId": "ChIJU-VnlscABDQRQAwbTSe7osk",
+      "coordinates": {
+        "lat": 22.3184952,
+        "lng": 114.1689948
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
