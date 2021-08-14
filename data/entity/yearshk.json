@@ -73,7 +73,7 @@
       "url": "https://www.instagram.com/years.hk/",
       "meta": {
         "name": "YEARS | 素年",
-        "about": "VEGAN • 1130-2030 DAILY\nYears • 福華街 191-199 Fuk Wa St • 63383719\nThe Park • 汝洲街 132 Yu Chau St • 53364000\nFriends • 三陂坊20 Sam Pei Sq • 52969864"
+        "about": "Years • 191-199 Fuk Wa St • 63383719\nThe Park • 132 Yu Chau St • 53364000\nFriends • 20 Sam Pei Sq • 52969864\nBe • 27 Pebbles World Whampoa • 93663261"
       }
     }
   ],
@@ -158,13 +158,26 @@
       "address": {
         "en": "20 Sam Pei Square, Tsuen Wan"
       },
-      "googleMapsPlaceId": "ChIJ1woZZ-z4AzQRRw1lF-g2Zss",
+      "googleMapsPlaceId": "ChIJEyypmcj5AzQRpqeTEM3JKFA",
       "coordinates": {
         "lat": 22.368806,
         "lng": 114.116699
       },
       "area": {
         "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop 27, Pebbles World, Site 3, Whampoa Gardens"
+      },
+      "googleMapsPlaceId": "ChIJkWqmX9sBBDQRmExUf3X6ULY",
+      "coordinates": {
+        "lat": 22.3045961,
+        "lng": 114.186591
+      },
+      "area": {
+        "zh": "九龍城區"
       }
     }
   ]
