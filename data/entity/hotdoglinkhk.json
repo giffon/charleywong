@@ -28,7 +28,7 @@
       "url": "https://www.instagram.com/hotdoglink/",
       "meta": {
         "name": "HOT DOG LINK 德國熱狗",
-        "about": "德國熱狗hotdoglink\n創於一九九三年\n香港首間傳統德式熱狗專門店\n元祖店\n何文田窩打老道67D號C\n26244002\n分店地址\n尖沙咀亞士厘道18號\n67147780\n天后水星街27號C\n94560926\n元朗教育路31號5B\n65341683\n香港仔田灣商場3B號舖"
+        "about": "德國熱狗hotdoglink\n創於一九九三年\n香港首間傳統德式熱狗專門店\n何文田窩打老道67D號C舖\n尖沙咀廣東道八十號廣東捌拾一樓 03舖\n新蒲崗大有街29號宏基中心地下5B\n天后水星街27號C\n香港仔田灣商場3B號舖\n元朗教育路31號5B舖\n葵涌光輝圍昌宏大廈10號舖\n沙田秦石街市6號舖"
       }
     }
   ],
@@ -41,12 +41,6 @@
     },
     {
       "url": "https://www.facebook.com/hotdoglinkhk/posts/2521561864572400:0",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/hotdoglinkhk/posts/2780752795319971",
       "meta": {
         "sharedWith": "Public"
       }
@@ -78,12 +72,12 @@
     },
     {
       "address": {
-        "zh": "尖沙咀亞士厘道十八號地下"
+        "zh": "九龍尖沙咀廣東道80號廣東捌拾一樓03舖"
       },
-      "googleMapsPlaceId": "EiYxOCBBc2hsZXkgUmQsIFRzaW0gU2hhIFRzdWksIEhvbmcgS29uZyIwEi4KFAoSCSWju4fyAAQ0EZvCi8vSr3pdEBIqFAoSCdOKjInyAAQ0Eazvu1xmn6dE",
+      "googleMapsPlaceId": "ChIJWwxjYyYBBDQRGq2zFarSPzo",
       "coordinates": {
-        "lat": 22.2971447,
-        "lng": 114.1706856
+        "lat": 22.298388,
+        "lng": 114.16896
       },
       "area": {
         "zh": "油尖旺區"
@@ -91,25 +85,12 @@
     },
     {
       "address": {
-        "zh": "天后水星街27號C"
-      },
-      "googleMapsPlaceId": "ChIJMRjYKwABBDQR1pNkq_2uyes",
-      "coordinates": {
-        "lat": 22.285621,
-        "lng": 114.19173
-      },
-      "area": {
-        "zh": "灣仔區"
-      }
-    },
-    {
-      "address": {
-        "zh": "元朗教育路31號5B"
+        "zh": "元朗教育路57號地下5B舖"
       },
       "googleMapsPlaceId": "ChIJSbR5aXj7AzQRTGpfTvI6tQs",
       "coordinates": {
-        "lat": 22.4429091,
-        "lng": 114.0262109
+        "lat": 22.4428913,
+        "lng": 114.0263594
       },
       "area": {
         "zh": "元朗區"
@@ -117,7 +98,33 @@
     },
     {
       "address": {
-        "zh": "香港仔田灣商場3B號舖"
+        "zh": "天后水星街27號C"
+      },
+      "googleMapsPlaceId": "ChIJo_KZRroBBDQRmoGgZOJnddA",
+      "coordinates": {
+        "lat": 22.2856254,
+        "lng": 114.1917223
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵涌光輝圍昌宏大廈10號舖"
+      },
+      "googleMapsPlaceId": "ChIJGeHBlZr4AzQR0gPfGao3df0",
+      "coordinates": {
+        "lat": 22.369045,
+        "lng": 114.133234
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "田灣田灣商場田灣食mart 3B舖"
       },
       "googleMapsPlaceId": "ChIJq4mGqQYABDQRj5pbfaRpDlI",
       "coordinates": {
@@ -126,6 +133,32 @@
       },
       "area": {
         "zh": "南區"
+      }
+    },
+    {
+      "address": {
+        "zh": "沙田盛田街1號秦石商場街市6號舖"
+      },
+      "googleMapsPlaceId": "ChIJ4dJ1CqoHBDQRlbmFPNODk-4",
+      "coordinates": {
+        "lat": 22.3731232,
+        "lng": 114.1869438
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "新蒲崗大有街29號宏基中心地下5B舖"
+      },
+      "googleMapsPlaceId": "ChIJA9OLsNAGBDQRo0_x415gD7s",
+      "coordinates": {
+        "lat": 22.337196,
+        "lng": 114.1982668
+      },
+      "area": {
+        "zh": "黃大仙區"
       }
     }
   ],
@@ -149,6 +182,14 @@
     {
       "type": "eat",
       "id": 5626
+    },
+    {
+      "type": "eat",
+      "id": 6262
+    },
+    {
+      "type": "eat",
+      "id": 6263
     }
   ]
 }
