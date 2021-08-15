@@ -140,8 +140,9 @@ class View extends ReactComponent {
             </div>
             <div className="mt-3 md:mt-12 text-center container max-w-screen-lg mx-auto px-4 md:px-8">
                 <div className="w-full">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2mSyw_3VsiK3lFcrT7lv5slIaDQUEdtpomQR8Ah8AqexJiA/viewform">
-                        <img className="max-w-full h-auto" src=${R("/images/kolb3-web-banner2.jpg")} alt="KOLB x 點心紙 x 埗兵 餸包湯包預訂"/>
+                    <a href="https://ssprangers.com/">
+                        <img className="w-full hidden sm:inline" src=${R("/images/good-970-90.jpg")} alt="深水埗黃店美食 埗兵外賣俾你食"/>
+                        <img className="w-full inline sm:hidden" src=${R("/images/good-320-50.jpg")} alt="深水埗黃店美食 埗兵外賣俾你食"/>
                     </a>
                 </div>
                 <div className="w-full mt-2 color_black_o60">
