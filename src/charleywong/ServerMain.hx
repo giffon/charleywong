@@ -651,23 +651,36 @@ class ServerMain {
 
     static function createEntityFromFb(fbPage:charleywong.chrome.FacebookProfile):Promise<Entity> {
         return Facebook.getPageInfo(fbPage.url).then(info -> {
-            var entity:Entity = switch (entityIndex.entitiesOfFbPage[info.id]) {
+            var entity:Entity = null;
+            
+            if (entity == null) switch (entityIndex.entitiesOfFbPage[info.id]) {
                 case null:
-                    var name = MultiLangString.parseName(info.name);
-                    {
-                        id: info.username != null ? info.username : switch (name[en]) {
-                            case name if (name != null && ~/[A-Za-z0-9\.\-_]/.match(name)):
-                                ~/[^A-Za-z0-9\.\-_]+/g.replace(name, "");
-                            case _:
-                                info.id;
-                        },
-                        name: name,
-                        webpages: [],
-                        posts: [],
-                        tags: [],
-                    };
+                    // pass
                 case e:
-                    e;
+                    entity = e;
+            }
+            
+            if (entity == null) switch (entityIndex.entitiesOfFbPage[info.username]) {
+                case null:
+                    // pass
+                case e:
+                    entity = e;
+            }
+
+            if (entity == null) {
+                var name = MultiLangString.parseName(info.name);
+                entity = {
+                    id: info.username != null ? info.username : switch (name[en]) {
+                        case name if (name != null && ~/[A-Za-z0-9\.\-_]/.match(name)):
+                            ~/[^A-Za-z0-9\.\-_]+/g.replace(name, "");
+                        case _:
+                            info.id;
+                    },
+                    name: name,
+                    webpages: [],
+                    posts: [],
+                    tags: [],
+                };
             }
 
             function addPlacesIfNone() {
@@ -693,11 +706,10 @@ class ServerMain {
             if (info.website != null) {
                 addWebpageToEntity(info.website, entity);
             }
-            var fbUrl = 'https://www.facebook.com/${info.id}/';
-            switch (webpages.find(p -> p.url == fbUrl)) {
+            switch (webpages.find(p -> p.url == 'https://www.facebook.com/${info.id}/' || p.url == 'https://www.facebook.com/${info.username}/')) {
                 case null:
                     webpages.push({
-                        url: fbUrl,
+                        url: 'https://www.facebook.com/${info.id}/',
                         meta: cast info,
                     });
                 case webpage:
