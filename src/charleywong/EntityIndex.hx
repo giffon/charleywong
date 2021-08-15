@@ -16,16 +16,25 @@ using charleywong.EntityTools;
 
 class EntityIndex {
     public final entities:Map<String, Entity>;
-    public final serializedIndex:Null<String>;
-    public function new(entities:Map<String, Entity>, ?serializedIndex:String):Void {
+    public function new(entities:Map<String, Entity>):Void {
         this.entities = entities;
-        this.serializedIndex = serializedIndex;
     }
 
     public function invalidate():Void {
         entitiesOfUrl = null;
         entitiesOfFbPage = null;
         entitiesOfId = null;
+
+        #if (js && (!browser))
+        groonga = null;
+        var dbFileName = Path.withoutDirectory(groongaDb);
+        var dbParent = Path.directory(groongaDb);
+        for (file in FileSystem.readDirectory(dbParent)) {
+            if (file.startsWith(dbFileName)) {
+                FileSystem.deleteFile(Path.join([dbParent, file]));
+            }
+        }
+        #end
     }
 
     static public function loadFromDirectory(path:String):EntityIndex {
@@ -109,7 +118,7 @@ class EntityIndex {
     function get_entitiesOfHkbase()
         return entitiesOfHkbase != null ? entitiesOfHkbase : entitiesOfHkbase = entities.filter(e -> e.tags.exists(t -> t.id == "hkbaseDirectory"));
 
-    #if js
+    #if (js && (!browser))
     final emojiRegexp = ~/(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/g;
     final mixedChiEngSep = ~/(?:[\s\-\/]+|(?=[\u4e00-\u9fff])|(?<=[\u4e00-\u9fff]))/g;
     static public final chiRegexp = ~/[\u4e00-\u9fff]/;
@@ -191,45 +200,51 @@ class EntityIndex {
                 source: 'tags',
             });
 
-            db.commandSync("load", {
-                table: "Entity",
-                values: Json.stringify([
-                    for (_ => e in entities)
-                    {
-                        _key: e.id,
-                        name: e.name.printAll(),
-                        meta:
-                            e.webpages.map(p -> switch (p.meta) {
-                                case null: "";
-                                case m:
-                                    (switch (m["name"]) {
-                                        case null: "";
-                                        case name: name;
-                                    }) + "\n" +
-                                    (switch (m["about"]) {
-                                        case null: "";
-                                        case about: about;
-                                    });
-                            }).join("\n")
-                            +
-                            switch (HkbaseDirectory.getData(e)) {
-                                case null: "";
-                                case d:
-                                    d.name_en + "\n" +
-                                    d.name_zh + "\n" +
-                                    d.type + "\n" +
-                                    d.description;
-                            },
-                        tags: [
-                            for (t in Tag.expend(e.tags))
-                            for (v in t.name)
-                            v
-                        ],
-                    }
-                ]),
-            });
+            addToGroonga(db, entities);
         }
         db;
+    }
+
+    static function addToGroonga(db:Database, entities:Map<String, Entity>):Void {
+        db.commandSync("load", {
+            table: "Entity",
+            ifexists: true,
+            lock_table: "yes",
+            values: Json.stringify([
+                for (_ => e in entities)
+                {
+                    _key: e.id,
+                    name: e.name.printAll(),
+                    meta:
+                        e.webpages.map(p -> switch (p.meta) {
+                            case null: "";
+                            case m:
+                                (switch (m["name"]) {
+                                    case null: "";
+                                    case name: name;
+                                }) + "\n" +
+                                (switch (m["about"]) {
+                                    case null: "";
+                                    case about: about;
+                                });
+                        }).join("\n")
+                        +
+                        switch (HkbaseDirectory.getData(e)) {
+                            case null: "";
+                            case d:
+                                d.name_en + "\n" +
+                                d.name_zh + "\n" +
+                                d.type + "\n" +
+                                d.description;
+                        },
+                    tags: [
+                        for (t in Tag.expend(e.tags))
+                        for (v in t.name)
+                        v
+                    ],
+                }
+            ]),
+        });
     }
     #end
 }
