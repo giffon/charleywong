@@ -1,8 +1,8 @@
 {
   "id": "misyucafe",
   "name": {
-    "zh": "謎思咖啡鳳山店",
-    "en": "Mi'S Yu"
+    "zh": "魚佳日記",
+    "en": "Janice's Diary"
   },
   "webpages": [
     {
@@ -22,10 +22,12 @@
       }
     },
     {
-      "url": "https://www.instagram.com/misyucafe/",
+      "url": "https://www.youtube.com/channel/UCbnokkWnZa_LSEGSx7ViDPg",
       "meta": {
-        "name": "兩旺商行（謎思鳳山Mi'S Yu）",
-        "about": "簡單的店 簡單的咖啡 簡單的溫暖\n🎊營業時間🎊\n每週一固定店休\n週二-週日10:00-19:00\n(不定期店休、請關注粉專或Google商家)\n✨需要場地請找我們✨"
+        "id": "UCbnokkWnZa_LSEGSx7ViDPg",
+        "location": "Taiwan",
+        "name": "魚佳日記",
+        "about": "魚佳一家的日記分享\n怕怕鬼故事\n可愛動物區\n婚姻碎念區\n"
       }
     }
   ],
@@ -53,22 +55,6 @@
     }
   ],
   "tags": [
-    "cafe",
-    "taiwanese"
-  ],
-  "places": [
-    {
-      "address": {
-        "zh": "鳳山區中山東路3巷3-1號"
-      },
-      "googleMapsPlaceId": "ChIJY66YC6UbbjQRfQC2nOztiPY",
-      "coordinates": {
-        "lat": 22.6208413,
-        "lng": 120.3634148
-      },
-      "area": {
-        "zh": "臺灣"
-      }
-    }
+    "media"
   ]
 }
