@@ -26,7 +26,7 @@
       "url": "https://www.instagram.com/90slazyhk/",
       "meta": {
         "name": "90sLazy",
-        "about": "「懶惰，大概是九十後的通病」\n·\n💮職位申請表💮"
+        "about": "「 懶惰，大概是九十後的通病 」\n·\n💮職位申請表💮"
       }
     }
   ],
@@ -44,12 +44,12 @@
   "places": [
     {
       "address": {
-        "zh": "旺角亞皆老街83號先施大廈4樓01室"
+        "zh": "旺角山東街50號1/F & 2/F全層"
       },
-      "googleMapsPlaceId": "ChIJ-yHmLAABBDQR7aSYe1VlJ1k",
+      "googleMapsPlaceId": "ChIJ65TC260BBDQRTYCo9qNsmxc",
       "coordinates": {
-        "lat": 22.3198502,
-        "lng": 114.1706419
+        "lat": 22.31767739999999,
+        "lng": 114.1713728
       },
       "area": {
         "zh": "油尖旺區"
@@ -57,15 +57,15 @@
     },
     {
       "address": {
-        "zh": "旺角山東街50號1/F & 2/F全層"
+        "zh": "觀塘成業街19-21 號成業工業4樓06室"
       },
-      "googleMapsPlaceId": "ChIJ15bfkbgABDQRxBSjNtqma_o",
+      "googleMapsPlaceId": "ChIJ1emvTEUBBDQRbBSxjcNJc38",
       "coordinates": {
-        "lat": 22.3176805,
-        "lng": 114.1714324
+        "lat": 22.3100594,
+        "lng": 114.2271209
       },
       "area": {
-        "zh": "油尖旺區"
+        "zh": "觀塘區"
       }
     }
   ],
@@ -77,6 +77,10 @@
     {
       "type": "eat",
       "id": 5317
+    },
+    {
+      "type": "eat",
+      "id": 6270
     }
   ]
 }
