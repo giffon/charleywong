@@ -1,11 +1,32 @@
 {
-  "id": "81033380",
+  "id": "kongcfu",
   "name": {
     "zh": "洋江裝修設計工程"
   },
   "webpages": [
     {
-      "url": "tel:81033380"
+      "url": "https://kongcfu.com"
+    },
+    {
+      "url": "https://www.facebook.com/109442668114174/",
+      "meta": {
+        "id": "109442668114174",
+        "name": "洋江裝修設計工程",
+        "category_list": [
+          {
+            "id": "400062273344681",
+            "name": "Engineering Service"
+          }
+        ],
+        "website": "https://kongcfu.com/"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/yeungkong_fdnol/",
+      "meta": {
+        "name": "洋江工程",
+        "about": "#舊店原為富寧花園\n球叔\n富寧店已搬\n要搵工程致電93723670\n火爆admin言論不代表老細球叔之立場"
+      }
     }
   ],
   "posts": [
@@ -23,25 +44,13 @@
     "interior",
     "shop"
   ],
-  "places": [
-    {
-      "address": {
-        "zh": "將軍澳富寧花園街市A3舖"
-      },
-      "googleMapsPlaceId": "ChIJ-eW7MnQEBDQRLLbVeAPgLUM",
-      "coordinates": {
-        "lat": 22.318413,
-        "lng": 114.2682371
-      },
-      "area": {
-        "zh": "西貢區"
-      }
-    }
-  ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 191
     }
+  ],
+  "alias": [
+    "81033380"
   ]
 }
