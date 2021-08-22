@@ -35,7 +35,7 @@
       "url": "https://www.instagram.com/pimaryhk/",
       "meta": {
         "name": "Pimary",
-        "about": "🪑 選物店：荃灣南豐紗廠105號鋪\n🚪 隱匿小村店：大埔大美督蘆慈田村25號\n〈 會員預約制 週二三店休 〉\n〈 📞 2408 8938 〉\n-\n重回基本 以自然為鄰\n選擇大自然的產物過純粹的生活\nPimary 探索世界各地的環保選物\n在這𥚃感受到的全是大自然帶來的美好\n-\n🍴 會員訂位："
+        "about": "🪑 選物店：荃灣南豐紗廠105號鋪\n🚪 隱匿小村店：大埔大美督蘆慈田村25號\n〈 會員預約制 週二三店休 〉\n〈 📞 2408 8938 〉\n-\n重回基本 以自然為鄰\n選擇大自然的產物過純粹的生活\nPimary 探索世界各地的環保選物\n在這𥚃感受到的全是大自然帶來的美好\n-\n🥗 網店及訂座："
       }
     }
   ],
@@ -54,12 +54,16 @@
     {
       "type": "eat",
       "id": 571
+    },
+    {
+      "type": "shop",
+      "id": 6319
     }
   ],
   "places": [
     {
       "address": {
-        "en": "Shop 105, 45 Pak Tin Par Street, The Mills, Tsuen Wan"
+        "zh": "荃灣南豐紗廠105號鋪"
       },
       "area": {
         "zh": "荃灣區"
@@ -68,6 +72,19 @@
       "coordinates": {
         "lat": 22.374172,
         "lng": 114.110169
+      }
+    },
+    {
+      "address": {
+        "zh": "大埔大美督蘆慈田村25號"
+      },
+      "googleMapsPlaceId": "ChIJEULTjDkJBDQRMVBw2sd9Tu8",
+      "coordinates": {
+        "lat": 22.4737517,
+        "lng": 114.2257665
+      },
+      "area": {
+        "zh": "大埔區"
       }
     }
   ]
