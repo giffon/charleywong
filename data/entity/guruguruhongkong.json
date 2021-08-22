@@ -58,5 +58,20 @@
       "type": "shop",
       "id": 981
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "火炭坳背灣街38號華衛工貿中心 (自取點)"
+      },
+      "googleMapsPlaceId": "ChIJ_znCoDQGBDQRoIriLzwYfMo",
+      "coordinates": {
+        "lat": 22.400112,
+        "lng": 114.1927027
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
   ]
 }
