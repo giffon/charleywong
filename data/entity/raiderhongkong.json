@@ -10,8 +10,8 @@
     {
       "url": "https://www.instagram.com/raider.hk/",
       "meta": {
-        "name": "Raiderhk 淨色T專門店-EST. 2014",
-        "about": "-\n高質淨色T恤\n自家品牌®️｜美國｜日本｜各地入口\n-\nAll about details\n剪裁｜磅數｜顏色\n-\nWe provide\n零售｜批發｜團隊制服印刷｜歡迎查詢\n-\nOur store\n旺角西洋菜南街68號8/F\n🕒 3pm-10pm\n☎ 28746799\n📲 97462630"
+        "name": "Raiderhk 淨色TEE專門店-EST. 2014",
+        "about": "-\n高質淨色T恤\n自家品牌®️｜美國｜日本｜各地入口\n-\nAll about details\n剪裁｜磅數｜顏色\n-\nWe provide\n零售｜批發｜團隊制服印刷｜歡迎查詢\n-\nOur store\n旺角西洋菜南街68號8/F\n🕒 2pm-9pm\n☎ 28746799"
       }
     },
     {
@@ -52,12 +52,28 @@
     }
   ],
   "tags": [
-    "clothing"
+    "clothing",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 503
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍旺角西洋菜南街68號8樓"
+      },
+      "googleMapsPlaceId": "ChIJV06F68YABDQRVL1tPH0jgAg",
+      "coordinates": {
+        "lat": 22.3186161,
+        "lng": 114.170262
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
