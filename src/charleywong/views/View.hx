@@ -96,8 +96,17 @@ class View extends ReactComponent {
         </Fragment>
     ');
 
+    // https://github.com/dewitt/opensearch
+    function opensearch() return jsx('
+        <link
+            rel="search"
+            type="application/opensearchdescription+xml"
+            href=${R("/opensearch.xml")}
+        />
+    ');
+
     function head() return jsx('
-        <head>
+        <head profile="http://a9.com/-/spec/opensearch/1.1/">
             ${gtag()}
             <meta charSet="UTF-8" />
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -115,6 +124,7 @@ class View extends ReactComponent {
             ${descriptionTag()}
             <link rel="canonical" href=${canonical()} />
             ${ogMeta()}
+            ${opensearch()}
             ${depCss()}
             ${depJs()}
             ${css()}

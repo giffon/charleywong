@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription
+  xmlns="http://a9.com/-/spec/opensearch/1.1/"
+  xmlns:moz="http://www.mozilla.org/2006/browser/search/"
+>
+  <ShortName>Charley Wong 和你查</ShortName>
+  <Description>一個開放源碼同開放數據嘅黃色經濟圈資料庫。</Description>
+  <Url type="text/html" template="https://charleywong.giffon.io/search/{searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://charleywong.giffon.io/opensearch.xml" />
+  <Query role="example" searchTerms="外賣" />
+  <Image height="72" width="72" type="image/png">https://charleywong.giffon.io/images/fav/apple-icon-72x72.png</Image>
+  <Attribution>Copyright (C) 2020-2021 Giffon Limited</Attribution>
+</OpenSearchDescription>
