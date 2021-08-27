@@ -22,6 +22,13 @@
         ],
         "single_line_address": "復興路三段362號, Taichung, Taiwan 402"
       }
+    },
+    {
+      "url": "https://www.instagram.com/tw__smile/",
+      "meta": {
+        "name": "微笑唸歌團",
+        "about": "以傳承推廣唸歌文化為主要宗旨，藉由唸歌的演出、展覽、教學、演講等方式，傳達臺語說唱藝術的理念。期望將唸歌做多種面向的發展與提升，傳統藝術能讓更多人了解並喜歡。"
+      }
     }
   ],
   "posts": [
@@ -40,5 +47,20 @@
   ],
   "tags": [
     "music"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "復興路三段362號"
+      },
+      "googleMapsPlaceId": "ChIJR3VQjLk9aTQRYeQOFofWOMU",
+      "coordinates": {
+        "lat": 24.1314755,
+        "lng": 120.681549
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    }
   ]
 }
