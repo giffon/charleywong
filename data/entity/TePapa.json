@@ -1,0 +1,70 @@
+{
+  "id": "TePapa",
+  "name": {
+    "en": "Te Papa"
+  },
+  "webpages": [
+    {
+      "url": "https://www.tepapa.govt.nz"
+    },
+    {
+      "url": "https://www.facebook.com/58511591776/",
+      "meta": {
+        "id": "58511591776",
+        "username": "TePapa",
+        "name": "Te Papa",
+        "about": "The official page for New Zealand's bold and innovative national museum.",
+        "category_list": [
+          {
+            "id": "197817313562497",
+            "name": "Museum"
+          }
+        ],
+        "website": "www.tepapa.govt.nz"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/te_papa/",
+      "meta": {
+        "name": "Te Papa",
+        "about": "The latest from the Museum of New Zealand Te Papa Tongarewa – NZ's innovative national museum."
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC6cnrd8SMMC2x9rud3RfqlA",
+      "meta": {
+        "id": "UC6cnrd8SMMC2x9rud3RfqlA",
+        "location": "New Zealand",
+        "name": "Museum of New Zealand Te Papa Tongarewa",
+        "about": "Te Papa is New Zealand's bold and innovative national museum and a recognised world leader in interactive and visitor-focused museum experiences."
+      }
+    },
+    {
+      "url": "https://twitter.com/te_papa"
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/LadyLibertyHongKong/posts/598998911486546"
+    }
+  ],
+  "tags": [
+    "artist",
+    "organization"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "55 Cable Street, Wellington"
+      },
+      "googleMapsPlaceId": "ChIJnRaYrdGvOG0RMJot6PyfQJo",
+      "coordinates": {
+        "lat": -41.2904563,
+        "lng": 174.7820894
+      },
+      "area": {
+        "zh": "紐西蘭"
+      }
+    }
+  ]
+}
