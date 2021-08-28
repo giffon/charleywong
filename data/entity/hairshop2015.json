@@ -5,6 +5,22 @@
   },
   "webpages": [
     {
+      "url": "https://www.facebook.com/powerhairshop/",
+      "meta": {
+        "id": "2316469485234492",
+        "username": "powerhairshop",
+        "name": "Power Hair Shop 活力髮品專門店",
+        "about": "專營專業美髪產品\n店主從事美髮行業超過二十年\n專業，服務態度認真\n致力搜羅全球專業美髮產品\n\n我們沙田Hair髪品專門店同馬鞍山活力髪品專門店\n都設有送貨寄貨服務，詳情致電96609565",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
+        ],
+        "single_line_address": "馬鞍山新港城一期地下G1-21號鋪 (海皇漁港對面), 香港"
+      }
+    },
+    {
       "url": "https://www.facebook.com/hairshop2015/",
       "meta": {
         "id": "1570307876555883",
@@ -22,18 +38,20 @@
           }
         ],
         "single_line_address": "沙田好運中心L3-160號鋪。馬鞍山分店： 新港城商場一期G21號地下（海皇漁港酒樓對面）, +852 Hong Kong, Hong Kong"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/hair_power_hairproduct/",
+      "meta": {
+        "name": "Hair髮品專門店 🧴沙田廣場 💈 髮型用品專門店 ❎ 好運",
+        "about": "Hair髮品專門店 (沙田廣場)\n活力髮品專門店 Power Hair Shop (馬鞍山新港城)\n詳細地址：\n沙田廣場L3 61號舖\n馬鞍山新港城一期地下G1-21號舖\n📲 WhatsApp: 96609565"
       }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/hairshop2015/posts/2312962965623700",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/hairshop2015/posts/2506067449646583",
+      "url": "https://www.facebook.com/powerhairshop/posts/2326796620868445",
       "meta": {
         "sharedWith": "Public"
       }
@@ -45,12 +63,12 @@
   "places": [
     {
       "address": {
-        "zh": "沙田好運中心L3-160號鋪"
+        "zh": "沙田廣場61號鋪"
       },
       "googleMapsPlaceId": "ChIJIfw5W60HBDQRaHWIPJx3haw",
       "coordinates": {
-        "lat": 22.3831559,
-        "lng": 114.1904951
+        "lat": 22.38346,
+        "lng": 114.1895235
       },
       "area": {
         "zh": "沙田區"
@@ -58,12 +76,12 @@
     },
     {
       "address": {
-        "zh": "新港城商場一期G21號地下"
+        "zh": "馬鞍山新港城一期地下G1-21號舖"
       },
-      "googleMapsPlaceId": "ChIJRZaLm2QABDQRddp9jBmJSc0",
+      "googleMapsPlaceId": "ChIJCb8Vuy0PBDQRh0mwxeip4n4",
       "coordinates": {
-        "lat": 22.4241668,
-        "lng": 114.2314834
+        "lat": 22.422646,
+        "lng": 114.2326738
       },
       "area": {
         "zh": "沙田區"
