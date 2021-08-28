@@ -26,6 +26,13 @@
         ],
         "single_line_address": "佐敦柯士甸道 39號地下 E號舖, Kowloon, Hong Kong"
       }
+    },
+    {
+      "url": "https://www.instagram.com/yaku.cmc/",
+      "meta": {
+        "name": "雅皓中醫館 Yaku.CMC",
+        "about": "柯士甸道中醫。內科.針灸.推拿.拔罐"
+      }
     }
   ],
   "posts": [
@@ -34,10 +41,31 @@
       "meta": {
         "sharedWith": "Custom"
       }
+    },
+    {
+      "url": "https://www.facebook.com/Yaku.CMC/posts/338617904494333",
+      "meta": {
+        "sharedWith": "Custom"
+      }
     }
   ],
   "tags": [
     "chineseMedicinePractitioner",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "佐敦柯士甸道 39號地下 E號舖"
+      },
+      "googleMapsPlaceId": "ChIJcYzjvlwABDQRrh9kxO6ZfkI",
+      "coordinates": {
+        "lat": 22.30336,
+        "lng": 114.1696616
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
