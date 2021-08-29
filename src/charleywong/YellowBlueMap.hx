@@ -182,6 +182,17 @@ class YellowBlueMap {
         return Promise.all([
             for (c in caches)
             for (d in c.data)
+            if (
+                // not already attached to an entity
+                !Lambda.exists(
+                    entityIndex.entities,
+                    (e:Entity) ->
+                        if (e.yellowBlueMapIds == null)
+                            false;
+                        else
+                            e.yellowBlueMapIds.exists(ybm -> ybm.id == d.id && ybm.type == c.type)
+                )
+            )
             matchYBMapWithCharley(d)
                 .then(entities ->
                     if (entities.length == 0) {
