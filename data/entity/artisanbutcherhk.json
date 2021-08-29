@@ -1,0 +1,88 @@
+{
+  "id": "artisanbutcherhk",
+  "name": {
+    "en": "Artisan Butcher"
+  },
+  "webpages": [
+    {
+      "url": "https://www.artisanbutcher.com.hk"
+    },
+    {
+      "url": "https://www.facebook.com/134082593934418/",
+      "meta": {
+        "id": "134082593934418",
+        "username": "artisanbutcherhk",
+        "name": "Artisan Butcher",
+        "category_list": [
+          {
+            "id": "199833073363963",
+            "name": "Wine, Beer & Spirits Store"
+          },
+          {
+            "id": "181564868547915",
+            "name": "Butcher Shop"
+          },
+          {
+            "id": "162264673824073",
+            "name": "Specialty Grocery Store"
+          }
+        ],
+        "emails": [
+          "info@artisanbutcher.com.hk"
+        ],
+        "single_line_address": "Shop 3, 1-2 St. Stephen’s Lane, 西營盤"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/artisanbutcherhk/",
+      "meta": {
+        "name": "Artisan Butcher"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/artisanbutcherhk/posts/330861297589879",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/artisanbutcherhk/posts/544416336234373",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/artisanbutcherhk/posts/572098296799510",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "foodStore",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 3, 1-2 St. Stephen’s Lane"
+      },
+      "googleMapsPlaceId": "ChIJIwrhPof_AzQRCQ7YHSYA1wQ",
+      "coordinates": {
+        "lat": 22.2842329,
+        "lng": 114.142251
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 1066
+    }
+  ]
+}

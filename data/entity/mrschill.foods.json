@@ -1,0 +1,79 @@
+{
+  "id": "mrschill.foods",
+  "name": {
+    "en": "Mrs Chill Foods",
+    "zh": "趙師奶食材店"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/101065398508842/",
+      "meta": {
+        "id": "101065398508842",
+        "username": "mrschill.foods",
+        "name": "Mrs Chill Foods 趙師奶食材店",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
+        ],
+        "emails": [
+          "mrschill.foods@gmail.com"
+        ],
+        "single_line_address": "粉嶺花都廣場地下38號舖, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/mrschill.foods/",
+      "meta": {
+        "name": "趙師奶食材店 Mrs Chill Foods",
+        "about": "粉嶺花都廣場地下38號舖\n🎉售賣冰鮮牛肉、各式食材、火鍋燒烤食材。"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/mrschill.foods/posts/211621907453190",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/mrschill.foods/posts/219821136633267",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/mrschill.foods/posts/223382342943813",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "foodStore",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "粉嶺花都廣場地下38號舖"
+      },
+      "googleMapsPlaceId": "ChIJS2hSJkD3AzQRCAoncLFZx5U",
+      "coordinates": {
+        "lat": 22.4853717,
+        "lng": 114.1415002
+      },
+      "area": {
+        "zh": "北區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 5442
+    }
+  ]
+}
