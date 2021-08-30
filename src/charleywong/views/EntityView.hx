@@ -104,6 +104,11 @@ class EntityView extends View {
                         <a href=${p.url}><i className="fab fa-telegram"></i> ${t}</a>
                     </Fragment>
                 ');
+            case {
+                origin: "https://www.mchk.org.hk",
+                pathname: "/tc_chi/list_register/doctor_detail.php",
+            }:
+                jsx('<a href=${p.url}>醫生註冊記錄</a>');
             case _:
                 var linktext = if (p.name != null)
                     '${p.name} ${prettyUrl(p.url)}';
