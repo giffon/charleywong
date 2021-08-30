@@ -1,0 +1,80 @@
+{
+  "id": "exp.by.exp",
+  "name": {
+    "en": "EXP."
+  },
+  "webpages": [
+    {
+      "url": "https://exp.is"
+    },
+    {
+      "url": "https://www.facebook.com/107527254542953/",
+      "meta": {
+        "id": "107527254542953",
+        "username": "exp.by.exp",
+        "name": "EXP.",
+        "about": "Live Free.",
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
+        ],
+        "emails": [
+          "xo@exp.is"
+        ],
+        "single_line_address": "31 Wing Wo Street, Central, 00000",
+        "website": "https://exp.is/"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/exp.is/",
+      "meta": {
+        "name": "EXP.",
+        "about": "Is an inside-out movement to bring about sustainable peace through our collective explorations, experiments, expressions and expansions."
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港中環永和街31號"
+      },
+      "googleMapsPlaceId": "EhgzMSBXaW5nIFdvIFN0LCBIb25nIEtvbmciMBIuChQKEgkR-ebtfAAENBHV2PKUvC3xIBAfKhQKEgmnc2jvfAAENBEAejCKFmEPHA",
+      "coordinates": {
+        "lat": 22.2854467,
+        "lng": 114.1540321
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港葵涌健康街1號"
+      },
+      "googleMapsPlaceId": "EiQxIEtpbiBIb25nIFN0LCBLd2FpIENodW5nLCBIb25nIEtvbmciMBIuChQKEgktwltBkPgDNBHeYSmhRl0XURABKhQKEglP9MI4kPgDNBE-PDiNQ8ORBg",
+      "coordinates": {
+        "lat": 22.3693105,
+        "lng": 114.12995
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 6374
+    },
+    {
+      "type": "shop",
+      "id": 6375
+    }
+  ]
+}
