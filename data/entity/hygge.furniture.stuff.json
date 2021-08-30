@@ -1,0 +1,80 @@
+{
+  "id": "hygge.furniture.stuff",
+  "name": {
+    "en": "Hygge Furniture & stuff."
+  },
+  "webpages": [
+    {
+      "url": "https://www.hyggehk.com"
+    },
+    {
+      "url": "https://www.facebook.com/108863840871510/",
+      "meta": {
+        "id": "108863840871510",
+        "username": "hygge.furniture.stuff",
+        "name": "Hygge Furniture & stuff.",
+        "category_list": [
+          {
+            "id": "2219",
+            "name": "Furniture"
+          }
+        ],
+        "emails": [
+          "sales@hyggehk.com"
+        ],
+        "single_line_address": "Shop 2109-2110, OP Mall, 100 Tai Ho Road, Tsuen Wan",
+        "website": "hyggehk.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/hygge.furniture.stuff/",
+      "meta": {
+        "name": "HYGGE【hue-guh】北歐設計傢私。生活小物",
+        "about": "HYGGE Furniture & Stuff 為你打造簡約又實用的北歐幸福窩居，將丹麥人幸福哲學帶番屋企\n～\nOnline Store link in bio\n樂富廣場A區三樓3169店(Living Plaza旁)\n荃灣海之戀商場2樓2109-2110店\n～\n部份傢俬尺寸可以訂造，歡迎DM￼\n￼"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "furniture",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣 海之戀商場 2樓2109-2110舖"
+      },
+      "googleMapsPlaceId": "ChIJg5TBpG_5AzQRcrToVoNKiKQ",
+      "coordinates": {
+        "lat": 22.3680845,
+        "lng": 114.1106576
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "黃埔花園 12期家居庭商場 地下G4號舖 MyHome"
+      },
+      "googleMapsPlaceId": "ChIJ4wzyndIBBDQRD3X2dO7bLzw",
+      "coordinates": {
+        "lat": 22.3065577,
+        "lng": 114.1902412
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 4684
+    },
+    {
+      "type": "shop",
+      "id": 4685
+    }
+  ]
+}
