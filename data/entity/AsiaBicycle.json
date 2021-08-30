@@ -1,0 +1,107 @@
+{
+  "id": "AsiaBicycle",
+  "name": {
+    "en": "Asia Bicycle",
+    "zh": "亞洲單車"
+  },
+  "webpages": [
+    {
+      "url": "https://asiabicycle.com"
+    },
+    {
+      "url": "https://www.facebook.com/483300028416097/",
+      "meta": {
+        "id": "483300028416097",
+        "username": "AsiaBicycle",
+        "name": "Asia Bicycle 亞洲單車",
+        "about": "Whatsapp: +852 6999 3299 (元朗) / 5990 7707(馬鞍山)\nTel: +852 2403 6899(元朗) / 2640 9300(馬鞍山)",
+        "category_list": [
+          {
+            "id": "128003127270269",
+            "name": "Bicycle Shop"
+          }
+        ],
+        "emails": [
+          "enquiry@asiabicycle.com"
+        ],
+        "website": "http://asiabicycle.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/asiabicycle_group/",
+      "meta": {
+        "name": "AsiaBicycle亞洲單車",
+        "about": "Whatsapp: 6999 3299 (元朗) 6541 3473(馬鞍山)\nTel: 2403 6899(元朗) 2640 9300(馬鞍山)"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/AsiaBicycle/posts/2434754516603962",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/AsiaBicycle/posts/2632704853475593",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/AsiaBicycle/posts/2653531348059610",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/AsiaBicycle/posts/4126502137429183",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "transport",
+    "sport",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗安樂路129-149號基達中心地下B舖"
+      },
+      "googleMapsPlaceId": "ChIJ___Pa6HwAzQRxMsvjlJlrXA",
+      "coordinates": {
+        "lat": 22.4473329,
+        "lng": 114.0292507
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "馬鞍山新港城第一期(A-B座)地下1號舖"
+      },
+      "googleMapsPlaceId": "ChIJ8R8t9LEIBDQRbveoYWlJkn8",
+      "coordinates": {
+        "lat": 22.422801,
+        "lng": 114.232914
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 4469
+    },
+    {
+      "type": "shop",
+      "id": 4470
+    }
+  ]
+}

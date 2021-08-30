@@ -1,0 +1,78 @@
+{
+  "id": "1.7bookshops",
+  "name": {
+    "zh": "七份一書店狂想曲",
+    "en": "One Seventh Bookshops"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/112882141057902/",
+      "meta": {
+        "id": "112882141057902",
+        "username": "1.7bookshops",
+        "name": "七份一書店狂想曲 One Seventh Bookshops",
+        "about": "Rolling Books策劃的書店職人培育計劃\n\n「七份一書店・東南樓」油麻地砵蘭街68號東南樓藝術酒店22樓\n（9月1日開始試業）\n\n「七份一書店・大南街」深水埗大南街205號閣樓\n（9月15日開始試業）",
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://www.instagram.com/1.7book.tnl/",
+      "meta": {
+        "name": "七份一書店@東南樓",
+        "about": "@rollingbooks_hk 策劃的七位店長共同培育獨立書店\n‼️開業時間不日公布\n香港九龍油麻地砵蘭街68號東南樓藝術酒店22樓\n(週一至四) 12:00-20:00 (週五六日) 12:00-21:00\n👉🏼大南街分店 @1.7book.tns"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/1.7book.tns/",
+      "meta": {
+        "name": "七份一書店@大南街",
+        "about": "@rollingbooks_hk 策劃的七位店長共同培育獨立書店\n香港九龍深水埗大南街205號閣樓\n‼️裝修中‼️開業時間不日公布\n👉🏼東南樓分店 @1.7book.tnl"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/1.7bookshops/posts/131923905820392",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "book",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "油麻地砵蘭街68號東南樓藝術酒店22樓"
+      },
+      "googleMapsPlaceId": "ChIJq6ru2sAABDQRJ2lruOc82vc",
+      "coordinates": {
+        "lat": 22.3136853,
+        "lng": 114.1700614
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "深水埗大南街205號閣樓"
+      },
+      "googleMapsPlaceId": "EicyMDUgVGFpIE5hbiBTdCwgU2hhbSBTaHVpIFBvLCBIb25nIEtvbmciMRIvChQKEgk5kHkOtAAENBEwed38JTeC4RDNASoUChIJG6ZxIbQABDQRAGrbm7BIPiE",
+      "coordinates": {
+        "lat": 22.327729,
+        "lng": 114.162385
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ]
+}
