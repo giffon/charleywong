@@ -1,0 +1,77 @@
+{
+  "id": "hongkongwhistleshop",
+  "name": {
+    "en": "Hong Kong Whistle Shop",
+    "zh": "吹啤啤零售店"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/113040623863214/",
+      "meta": {
+        "id": "113040623863214",
+        "username": "hongkongwhistleshop",
+        "name": "Hong Kong Whistle Shop 吹啤啤零售店",
+        "category_list": [
+          {
+            "id": "203743122984241",
+            "name": "Beer Garden"
+          },
+          {
+            "id": "199833073363963",
+            "name": "Wine, Beer & Spirits Store"
+          }
+        ],
+        "emails": [
+          "shop@hongkongwhistle.com"
+        ],
+        "single_line_address": "L1006, eslite, 10/F Hysan Place, Causeway Bay, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/hongkongwhistleshop/",
+      "meta": {
+        "name": "Hong Kong Whistle Shop 吹啤啤零售店",
+        "about": "📍\nAddress:\nL1006, eslite,\n10/F Hysan Place,\nCauseway Bay,\nHong Kong.\n⏰\nBusiness Hours:\n10:00 - 22:00"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/hongkongwhistleshop/posts/154447876389155",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hongkongwhistleshop/posts/178589897308286",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "alcoholic",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "L1006, eslite, 10/F Hysan Place, Causeway Bay"
+      },
+      "googleMapsPlaceId": "ChIJuwh9w1YABDQRaRbZ1DgateI",
+      "coordinates": {
+        "lat": 22.2797035,
+        "lng": 114.1838445
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 4498
+    }
+  ]
+}
