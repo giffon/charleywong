@@ -962,10 +962,12 @@
     query-string "^6.11.0"
     retry-axios "^2.2.1"
 
-"@httptoolkit/httpolyglot@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@httptoolkit/httpolyglot/-/httpolyglot-1.0.0.tgz#1b06642389303b71681b4c0c2caff8be53d58a10"
-  integrity sha512-OoIbv7pk/xh3Sxqs2nZyi5ZjP9JFLMBXgPmG/911rPf77PJ3tsIHaf22x5zVYcHeu0P7x6jC7QwLYcbJdUbe7w==
+"@httptoolkit/httpolyglot@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@httptoolkit/httpolyglot/-/httpolyglot-1.0.1.tgz#2ade7c70fecc8473f8f55d95defea99bf444a81b"
+  integrity sha512-wka8aO36+Ldb4d0V7fpKf4gd9netRa1odekK5BQnsJa3BwkKSIqOYlR51ZfoaGjifwx2WBTRQgHgtcc1wY1eEg==
+  dependencies:
+    "@types/node" "^16.7.10"
 
 "@jimp/bmp@^0.16.1":
   version "0.16.1"
@@ -2967,7 +2969,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@16.7.10":
+"@types/node@*", "@types/node@16.7.10", "@types/node@^16.7.10":
   version "16.7.10"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.7.10.tgz#7aa732cc47341c12a16b7d562f519c2383b6d4fc"
   integrity sha512-S63Dlv4zIPb8x6MMTgDq5WWRJQe56iBEY0O3SOFA9JrRienkOVDXSXBjjJw6HTNQYSE2JI6GMCR6LVbIMHJVvA==
