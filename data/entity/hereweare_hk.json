@@ -2,7 +2,7 @@
   "id": "hereweare_hk",
   "name": {
     "en": "Here We Are",
-    "zh": "潯"
+    "zh": "瘋人院"
   },
   "webpages": [
     {
@@ -25,11 +25,10 @@
       }
     },
     {
-      "url": "https://www.instagram.com/hereweare_hk/",
+      "url": "https://www.instagram.com/hereweare_madhouse/",
       "meta": {
-        "name": "hereweare_hk"
-      },
-      "hidden": true
+        "name": "hereweare_madhouse"
+      }
     }
   ],
   "posts": [
@@ -67,19 +66,5 @@
       "id": 2468
     }
   ],
-  "places": [
-    {
-      "address": {
-        "zh": "新界沙田安群街3號京瑞廣場1期1樓150號舖"
-      },
-      "googleMapsPlaceId": "ChIJqYiIwEYGBDQR6Pi1E-TTAnc",
-      "coordinates": {
-        "lat": 22.3883571,
-        "lng": 114.2081221
-      },
-      "area": {
-        "zh": "沙田區"
-      }
-    }
-  ]
+  "places": []
 }
