@@ -1,28 +1,33 @@
 {
   "id": "hktramstore",
   "name": {
-    "zh": "叮叮老香港辦館"
+    "zh": "叮叮辦館",
+    "en": "HK Tram Store"
   },
   "webpages": [
     {
-      "url": "http://hktramstore.com"
+      "url": "https://hktramstore.myshopify.com"
     },
     {
       "meta": {
         "id": "327352754671373",
         "username": "hktramstore",
-        "name": "叮叮老香港辦館 Hong Kong Tram Store",
-        "about": "「叮叮老香港辦館」以電車與春秧街市集為主題，售賣生活家品、小食、模型玩具以至舊唱片等雜貨。店內也收藏了不少具歷史的物品，讓大家感受昔日老香港情懷，為傳承本土文化作出貢獻。",
+        "name": "叮叮辦館 HK Tram Store",
+        "about": "「叮叮香港辦館」以電車與市集為主題，售賣生活家品、小食、模型玩具以至舊唱片等雜貨。店內也收藏了不少具歷史的物品，讓大家感受昔日老香港情懷，為傳承本土文化作出貢獻。",
         "category_list": [
           {
             "id": "194127957280024",
             "name": "Vintage Store"
+          },
+          {
+            "id": "714231678717612",
+            "name": "Souvenir Shop"
           }
         ],
         "emails": [
           "enquiry@hktramstore.com"
         ],
-        "single_line_address": "Shop no.229, 2/F, Siu Sai Wan Plaza, 10 Siu Sai Wan Road, Hong Kong, Hong Kong",
+        "single_line_address": "Shop no. 117, 1/F, Central Market, 93 Queen's Road Central, Central, HK\n\nShop no. 229, 2/F, Siu Sai Wan Plaza, 10 Siu Sai Wan Road, Siu Sai Wan, HK, 香港",
         "website": "https://hktramstore.myshopify.com/"
       },
       "url": "https://www.facebook.com/hktramstore/"
@@ -30,14 +35,28 @@
     {
       "url": "https://www.instagram.com/hktramstore/",
       "meta": {
-        "name": "HK Tram Store 叮叮老香港辦館",
-        "about": "「叮叮老香港辦館」以電車與春秧街市集為主題，售賣生活家品、小食、以至舊唱片等雜貨。店內也收藏了不少具歷史的物品，讓大家感受昔日老香港情懷，為傳承本土文化作出貢獻。"
+        "name": "HK Tram Store 叮叮辦館"
       }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/hktramstore/posts/630592287680750"
+      "url": "https://www.instagram.com/p/ByVXS8shRxS/"
+    },
+    {
+      "url": "https://www.instagram.com/p/ByhTsLdh8Y1/"
+    },
+    {
+      "url": "https://www.instagram.com/p/BzvP72PjJ6X/"
+    },
+    {
+      "url": "https://www.instagram.com/p/B13YALkAcJg/"
+    },
+    {
+      "url": "https://www.instagram.com/p/B2I7hvsAAa7/"
+    },
+    {
+      "url": "https://www.instagram.com/p/B4rpJNUAgJv/"
     }
   ],
   "tags": [
@@ -48,12 +67,16 @@
     {
       "type": "shop",
       "id": 206
+    },
+    {
+      "type": "shop",
+      "id": 6381
     }
   ],
   "places": [
     {
       "address": {
-        "en": "Shop no.229, 2/F, Siu Sai Wan Plaza, 10 Siu Sai Wan Road"
+        "zh": "小西灣廣場2樓229號店"
       },
       "googleMapsPlaceId": "ChIJI4EC_WsDBDQRrB6Tker-fG8",
       "coordinates": {
@@ -62,6 +85,19 @@
       },
       "area": {
         "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "中環街市1樓117號店"
+      },
+      "googleMapsPlaceId": "ChIJ94v7sXwABDQR0mwwrYDbRD4",
+      "coordinates": {
+        "lat": 22.2839325,
+        "lng": 114.1553613
+      },
+      "area": {
+        "zh": "中西區"
       }
     }
   ]
