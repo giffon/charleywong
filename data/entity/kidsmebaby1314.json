@@ -5,10 +5,14 @@
   },
   "webpages": [
     {
-      "url": "http://www.kidsmebaby.com.hk"
+      "url": "https://kidsmebabyhk.boutir.com"
     },
     {
-      "url": "https://www.instagram.com/kidsmebaby.com.hk/"
+      "url": "https://www.instagram.com/kidsmebaby2013/",
+      "meta": {
+        "name": "Kids Me Baby",
+        "about": "https://kidsmebabyhk.boutir.com"
+      }
     },
     {
       "meta": {
@@ -51,6 +55,21 @@
     {
       "type": "shop",
       "id": 1908
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘開源道60號駱駝漆大廈3座3樓M1舖"
+      },
+      "googleMapsPlaceId": "ChIJVUV9Mp8BBDQRyL2gOVLDX7o",
+      "coordinates": {
+        "lat": 22.3101251,
+        "lng": 114.2250719
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ]
 }
