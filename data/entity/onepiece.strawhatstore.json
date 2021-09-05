@@ -5,7 +5,11 @@
   },
   "webpages": [
     {
-      "url": "http://www.strawhat-store.com"
+      "url": "https://shop.strawhat-store.com"
+    },
+    {
+      "url": "http://www.strawhat-store.com",
+      "hidden": true
     },
     {
       "meta": {
@@ -23,6 +27,13 @@
         "website": "https://shop.strawhat-store.com/"
       },
       "url": "https://www.facebook.com/onepiece.strawhatstore/"
+    },
+    {
+      "url": "https://www.instagram.com/strawhatstore/",
+      "meta": {
+        "name": "草帽本舖",
+        "about": "🏴‍☠️ONE PIECE海賊王最大型網上及實體專門店\n營業時間：星期一至六下午1時至8時\n星期日及公眾假期休息\n支付方法：銀行轉帳／PayMe／轉數快／PayPal ／八達通\n取貨方法：實體店取貨／順豐／中通／5Dexpres ／易網遞"
+      }
     }
   ],
   "posts": [
@@ -40,6 +51,21 @@
     {
       "type": "shop",
       "id": 11
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘開源道47號凱源工業大廈11樓H室"
+      },
+      "googleMapsPlaceId": "ChIJVdo2eUUBBDQROd2JmPvtrBQ",
+      "coordinates": {
+        "lat": 22.3102,
+        "lng": 114.223493
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ]
 }
