@@ -2987,10 +2987,10 @@
   resolved "https://registry.yarnpkg.com/@types/caseless/-/caseless-0.12.2.tgz#f65d3d6389e01eeb458bd54dc8f52b95a9463bc8"
   integrity sha512-6ckxMjBBD8URvjB6J3NcnuAn5Pkl7t3TizAg+xdlzzQGSPSmBcXf8KoIH0ua/i+tio+ZRUHEXp0HEmvaR4kt0w==
 
-"@types/chrome@0.0.154":
-  version "0.0.154"
-  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.154.tgz#7992e97364f4447e961028ad07ac843d0b052c2d"
-  integrity sha512-6QmP744MeMUZUIUHED4d4L2la5dIF1e6bcrkGF4yGQTyO94ER+r++Ss165wkzA5cAGUYt8kToDa6L9xtNqVMxg==
+"@types/chrome@0.0.156":
+  version "0.0.156"
+  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.156.tgz#1a6093ee5f4e7e1395144d20f780b8669ff77e15"
+  integrity sha512-tYb1Ouj8vG+MF1RrRBfT+VoKpXRGNJtAnfY9Q+00+eHsqCsDXRtbn+Z45NNhcI1ZoOE8MImKoQEEvnLxHrU87w==
   dependencies:
     "@types/filesystem" "*"
     "@types/har-format" "*"
