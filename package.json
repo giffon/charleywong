@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dclookup": "browserify lib/HKAddressParser/web/src/utils/dclookup.js --standalone dclookup -t [ babelify --plugins [ @babel/plugin-transform-modules-commonjs ] ] > dclookup.js",
-    "dts2hx": "dts2hx @types/node @types/node-fetch @types/chrome abort-controller @types/gtag.js fastify sitemap nroonga --noLibWrap --output lib/dts2hx",
+    "dts2hx": "dts2hx @types/node @types/node-fetch @types/chrome abort-controller @types/gtag.js fastify sitemap nroonga --noLibWrap --useSystemHaxe --output lib/dts2hx && find lib/dts2hx -type f -exec sed -i 's/js.lib.AsyncIterator/js.lib.AsyncIterator_/g' {} + && mv lib/dts2hx/js/lib/AsyncIterator.hx lib/dts2hx/js/lib/AsyncIterator_.hx && sed -i 's/AsyncIterator/AsyncIterator_/g' lib/dts2hx/js/lib/AsyncIterator_.hx",
     "dts2hx-workbox": "dts2hx workbox-core workbox-routing workbox-recipes workbox-cacheable-response workbox-expiration workbox-navigation-preload --noLibWrap --output lib/workbox",
     "tailwind": "tailwindcss-cli build -o static/css/tailwind.css",
     "start": "nodemon -L index.js",
