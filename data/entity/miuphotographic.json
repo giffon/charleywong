@@ -5,7 +5,11 @@
   },
   "webpages": [
     {
-      "url": "http://hkwedding.hk"
+      "url": "https://www.miuphoto.hk"
+    },
+    {
+      "url": "http://hkwedding.hk",
+      "hidden": true
     },
     {
       "meta": {
@@ -30,6 +34,16 @@
         "website": "http://miuphotographic.com"
       },
       "url": "https://www.facebook.com/miuphotographic/"
+    },
+    {
+      "url": "https://www.instagram.com/miuphotographic/",
+      "meta": {
+        "name": "Miu Photographic Production",
+        "about": "我地接受以下付款方式:現金/FPS/Payme/Visa/Master/AE/銀聯\n客人亦可以分期付款，詳情請DM我地"
+      }
+    },
+    {
+      "url": "https://mewe.com/p/miuphotographicproduction"
     }
   ],
   "posts": [
@@ -47,15 +61,15 @@
   "places": [
     {
       "address": {
-        "en": "Rm 1310A ,13/F, CableTv Tower ,9 Hoi Shing Rd, Tsuen Wan"
+        "en": "Unit 2, K-Sky, 10/F, Ching Cheong Industrial Building, 1-7, Kwai Cheong Road, Kwai Tsing"
       },
-      "googleMapsPlaceId": "ChIJY7Lha-X4AzQRVyEkZz4bE8s",
+      "googleMapsPlaceId": "ChIJbyJrqSH5AzQRyfT_nA_idiY",
       "coordinates": {
-        "lat": 22.372972,
-        "lng": 114.107139
+        "lat": 22.3646308,
+        "lng": 114.1338561
       },
       "area": {
-        "zh": "荃灣區"
+        "zh": "葵青區"
       }
     }
   ]
