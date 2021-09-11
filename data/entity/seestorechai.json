@@ -23,6 +23,13 @@
         "website": "https://mewe.com/i/storechai"
       },
       "url": "https://www.facebook.com/seestorechai/"
+    },
+    {
+      "url": "https://www.instagram.com/storechai_80/",
+      "meta": {
+        "name": "士多仔",
+        "about": "https://mewe.com/i/storechai\n歡迎text me落order 57213927\n2013年喺屯門利寶開業，無資金下裝修同招牌都係自己做，種種原因最終結業。\n2019年6月開始係香港黑暗時期，但我想呢個時候再戰江湖，希望同香港齊上齊落！一齊撐！\n2019年8月21日記下來"
+      }
     }
   ],
   "posts": [
@@ -37,6 +44,21 @@
     {
       "type": "shop",
       "id": 2449
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門建榮街24-30號建榮商業大廈2樓217B室"
+      },
+      "googleMapsPlaceId": "ChIJ70AkyCT7AzQRwhkiNeKvBX8",
+      "coordinates": {
+        "lat": 22.3967414,
+        "lng": 113.969683
+      },
+      "area": {
+        "zh": "屯門區"
+      }
     }
   ]
 }
