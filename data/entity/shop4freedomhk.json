@@ -1,12 +1,16 @@
 {
-  "id": "lifunghairycrab",
+  "id": "shop4freedomhk",
   "name": {
-    "zh": "利豐百家百貨",
-    "en": "Li Fung Store"
+    "zh": "自由朔",
+    "en": "Shop 4 Freedom"
   },
   "webpages": [
     {
-      "url": "https://www.lifunghk.com"
+      "url": "https://shop4freedomhk.com"
+    },
+    {
+      "url": "https://www.lifunghk.com",
+      "hidden": true
     },
     {
       "meta": {
@@ -31,10 +35,10 @@
       "url": "https://www.facebook.com/101257227935645/"
     },
     {
-      "url": "https://www.instagram.com/lifungstore_official/",
+      "url": "https://www.instagram.com/shop4freedom_official/",
       "meta": {
-        "name": "利豐百家百貨 Li Fung Store",
-        "about": "本土網上百貨公司\n專營大閘蟹、進口零食、飲品、海產、凍肉及家居用品\n手足送貨🚚 品質保證👍🏻\nFacebook📘 利豐百貨\n公司網址：www.lifunghk.com"
+        "name": "自由朔 Shop 4 Freedom",
+        "about": "•革命性資訊購物平台\n•超過800種本士及進口產品，抗赤化\n•你我擁有相同信念，仰望天空亦是相同\n- 受限制食物售賣許可證\n•預先包裝冷凍（冰鮮）及／或冷藏肉類\n『許可證號碼：0392802206』\n•預先包裝供不經烹煮而食用的蠔\n『許可證號碼：0392802190』"
       }
     }
   ],
@@ -47,27 +51,13 @@
     "food"
   ],
   "alias": [
-    "101257227935645"
+    "101257227935645",
+    "lifunghairycrab"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 2037
-    }
-  ],
-  "places": [
-    {
-      "address": {
-        "zh": "荃灣灰窰角街 12-16號派龍中心8樓C室"
-      },
-      "googleMapsPlaceId": "ChIJ2zEFn-v4AzQRQvX5aSSGC2U",
-      "coordinates": {
-        "lat": 22.3662488,
-        "lng": 114.1169485
-      },
-      "area": {
-        "zh": "荃灣區"
-      }
     }
   ]
 }
