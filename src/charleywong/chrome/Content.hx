@@ -164,12 +164,15 @@ class Content {
     }
 
     static public function timestampFromString(timeString:String):Float {
-        return if (~/^[0-9]/.match(timeString))
+        // trace(timeString);
+        var time = if (~/^[0-9]/.match(timeString))
             Date.now().getTime();
         else if (timeString.startsWith("Yesterday"))
             Moment.moment().subtract(1, "day").toDate().getTime();
         else
             Moment.moment(timeString, timeString.indexOf("at") > 0 ? "MMMM D" : "LL").toDate().getTime();
+        // trace(Date.fromTime(time).toString());
+        return time;
     }
 
     static var scroll = false;
@@ -256,7 +259,17 @@ class Content {
                     .filter(timeSpan -> timeSpan != null)
                     .map(timeSpan -> {
                         node: (cast timeSpan:SpanElement),
-                        time: timestampFromString(timeSpan.innerText)
+                        time: {
+                            // remove the hidden characters
+                            for (e in timeSpan.querySelectorAll("span")) {
+                                var span:SpanElement = cast e;
+                                switch span.style.top {
+                                    case null | "": //pass
+                                    case _: span.remove();
+                                }
+                            }
+                            timestampFromString(timeSpan.innerText);
+                        }
                     });
             }
 
