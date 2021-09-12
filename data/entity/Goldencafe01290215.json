@@ -47,7 +47,8 @@
         ],
         "single_line_address": "香港九龍深水埗北河街134-136號銀河大廈B號舖, 852 Hong Kong, Hong Kong"
       },
-      "url": "https://www.facebook.com/goldencafe02150129/"
+      "url": "https://www.facebook.com/goldencafe02150129/",
+      "hidden": true
     },
     {
       "meta": {
@@ -62,6 +63,21 @@
         "single_line_address": "九龍深水埗順寧道253-263號地下, 852 Cheung Sha Wan, Hong Kong"
       },
       "url": "https://www.facebook.com/311118269587251/"
+    },
+    {
+      "url": "https://www.facebook.com/114464063791733/",
+      "meta": {
+        "id": "114464063791733",
+        "name": "黃金冰室（北角電氣道）",
+        "about": "餐廳",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          }
+        ],
+        "single_line_address": "北角電氣道254-280號地下I號鋪"
+      }
     }
   ],
   "posts": [
@@ -91,19 +107,6 @@
     },
     {
       "address": {
-        "zh": "香港九龍深水埗北河街134-136號銀河大廈B號舖"
-      },
-      "googleMapsPlaceId": "ChIJo1k1qNgHBDQRsq9tz7YEfHc",
-      "coordinates": {
-        "lat": 22.3324148,
-        "lng": 114.1647187
-      },
-      "area": {
-        "zh": "深水埗區"
-      }
-    },
-    {
-      "address": {
         "zh": "九龍深水埗順寧道253-263號地下"
       },
       "googleMapsPlaceId": "ChIJhyiB5OAHBDQRTRmTKItQQl8",
@@ -126,6 +129,19 @@
       },
       "area": {
         "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "北角電氣道254-280號地下I號鋪"
+      },
+      "googleMapsPlaceId": "EicyNTQgRWxlY3RyaWMgUmQsIE5vcnRoIFBvaW50LCBIb25nIEtvbmciMRIvChQKEgnny_E6AgEENBFBGwhhWA9FNBD-ASoUChIJj8MzvwEBBDQR8AN2oiww8yU",
+      "coordinates": {
+        "lat": 22.2891651,
+        "lng": 114.1937252
+      },
+      "area": {
+        "zh": "東區"
       }
     }
   ],
