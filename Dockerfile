@@ -1,4 +1,4 @@
-FROM giffon/charleywong_devcontainer_workspace:20210910104413 as build
+FROM giffon/charleywong_devcontainer_workspace:20210913181056 as build
 RUN mkdir -p /workspace
 WORKDIR /workspace
 COPY package.json yarn.lock ./
