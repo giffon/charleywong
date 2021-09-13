@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.yummycornerhk.com"
+    },
+    {
       "meta": {
         "id": "2134206826596542",
         "username": "yummycornerhk",
@@ -88,7 +91,9 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "foodDelivery",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
@@ -96,19 +101,5 @@
       "id": 314
     }
   ],
-  "places": [
-    {
-      "address": {
-        "zh": "葵芳葵富路7號葵涌廣場3樓Top世界T23-T25號舖"
-      },
-      "googleMapsPlaceId": "ChIJOUTkt734AzQR2DIuCxrfkck",
-      "coordinates": {
-        "lat": 22.35843849999999,
-        "lng": 114.1274926
-      },
-      "area": {
-        "zh": "葵青區"
-      }
-    }
-  ]
+  "places": []
 }
