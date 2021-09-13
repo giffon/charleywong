@@ -256,7 +256,7 @@ class Content {
             if (times.length == 0) {
                 times = posts
                     .map(node -> node.querySelector("span[id] a[role='link']"))
-                    .filter(timeSpan -> timeSpan != null)
+                    .filter(timeSpan -> timeSpan != null && timeSpan.offsetParent != null) // ignore invisible nodes
                     .map(timeSpan -> {
                         node: (cast timeSpan:SpanElement),
                         time: {
