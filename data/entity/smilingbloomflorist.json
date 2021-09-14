@@ -27,7 +27,7 @@
       "url": "https://www.instagram.com/smilingbloomflorist/",
       "meta": {
         "name": "Smiling Bloom | 微笑花舍",
-        "about": "Floral Arrangements | Classes |\nCalligraphy | Wedding Decorations\nLocated in HK"
+        "about": "Floral Arrangements | Workshops |\nCalligraphy | Wedding Decoration |\n*Studio只於舉辦Workshop時開放予參加者，平時不對外開放，不定休"
       }
     }
   ],
@@ -78,6 +78,21 @@
     {
       "type": "shop",
       "id": 1733
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Solo, 83 Bedford Road, Tai Kok Tsui"
+      },
+      "googleMapsPlaceId": "ChIJV8ocI7cABDQR2j70UqtvUq4",
+      "coordinates": {
+        "lat": 22.3233799,
+        "lng": 114.1630481
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
