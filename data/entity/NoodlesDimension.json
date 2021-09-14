@@ -1,0 +1,64 @@
+{
+  "id": "NoodlesDimension",
+  "name": {
+    "en": "Noodles Dimension",
+    "zh": "麵賜園"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/108772248102244/",
+      "meta": {
+        "id": "108772248102244",
+        "name": "Noodles Dimension",
+        "about": "旺角女人街越興園團隊傾力之作，本地港式湯麵新派演繹。",
+        "category_list": [
+          {
+            "id": "533990753451464",
+            "name": "Bunsik Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee Shop"
+          }
+        ],
+        "single_line_address": "旺角通菜街36號地下, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/noodlesdimension/",
+      "meta": {
+        "name": "麵賜園",
+        "about": "Fusion + Noodles + Coffee\nG/F, no. 36 Tung Choi Street, Mongkok, HK\n香港旺角通菜街36號地下\nTel: 63689843"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=1913515908822299&id=812974078876493"
+    }
+  ],
+  "tags": [
+    "noodle"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角通菜街36號地下"
+      },
+      "googleMapsPlaceId": "ChIJNat0TMYABDQROgr4mXMBrro",
+      "coordinates": {
+        "lat": 22.3181533,
+        "lng": 114.1709837
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6305
+    }
+  ]
+}
