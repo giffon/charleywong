@@ -33,7 +33,7 @@
       "url": "https://www.instagram.com/bythetray/",
       "meta": {
         "name": "by the tray 盤子工房",
-        "about": "🌭 if you can take a bite of our hotdog, why not? 😛\n歡迎whatsapp下單外賣 65831388 📲😳👍🏻\n逢星期一休息 monday off 🌑"
+        "about": "A good way to start a good day☁️\n·\n1️⃣號店\n🕰8AM to 9PM\nMonday off 🌑\n[電話只可WhatsApp 65831388 📲🥸]\n·\n2️⃣號店\n🕰9AM to 6PM\n[電話只可WhatsApp 55478764 📲🥸]"
       }
     }
   ],
@@ -94,17 +94,34 @@
     {
       "type": "eat",
       "id": 566
+    },
+    {
+      "type": "eat",
+      "id": 6325
     }
   ],
   "places": [
     {
       "address": {
-        "en": "no.114, G/F, commercial block, kin sang shopping centre, kin sang estate, tuen mun,"
+        "zh": "屯門建生邨建生商場地下114號舖"
       },
       "googleMapsPlaceId": "ChIJ85bd4KT7AzQRG9P4yMppVF8",
       "coordinates": {
         "lat": 22.406909,
         "lng": 113.9697572
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門碼頭海趣坊1樓S22-23號舖 "
+      },
+      "googleMapsPlaceId": "ChIJDVP3mVr7AzQRQ9TGaAjrCqE",
+      "coordinates": {
+        "lat": 22.3724946,
+        "lng": 113.96677
       },
       "area": {
         "zh": "屯門區"
