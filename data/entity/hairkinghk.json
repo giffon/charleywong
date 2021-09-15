@@ -11,8 +11,8 @@
     {
       "url": "https://www.instagram.com/hairkinghk/",
       "meta": {
-        "name": "Hair King 髮記",
-        "about": "📍尖沙咀美麗華商場一期G10號鋪\n📍深水埗西九龍中心7樓718號舖\n📞6728 9328\n📮歡迎DM同WhatsApp/Signal查詢落單\n💰Cash|Visa|Master|AE|WeChat Pay|Alipay|Payme|八達通|FPS|Bank"
+        "name": "Hair King 髮記 | 髮型用品專門店",
+        "about": "𝐘𝐨𝐮𝐫 𝐡𝐚𝐢𝐫 𝐜𝐨𝐧𝐬𝐮𝐥𝐭𝐚𝐧𝐭.\n📍銅鑼灣希慎廣場7樓704號舖\n📍尖沙咀美麗華商場一期G10號舖\n📍深水埗西九龍中心7樓718號舖\n💈歡迎WhatsApp落單/致電6728 9328"
       }
     },
     {
@@ -53,20 +53,7 @@
       }
     }
   ],
-  "posts": [
-    {
-      "url": "https://www.facebook.com/hairkinghk/posts/429253031137849:0",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/hairkinghk/posts/458496974880121:0",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    }
-  ],
+  "posts": [],
   "tags": [
     "shop"
   ],
@@ -88,13 +75,26 @@
       "address": {
         "zh": "尖沙咀美麗華商場一期G10號鋪"
       },
-      "googleMapsPlaceId": "ChIJ4Vqgte0ABDQRKtziusekdxw",
+      "googleMapsPlaceId": "ChIJ_9GYDCUBBDQRPb00zIG3GRY",
       "coordinates": {
-        "lat": 22.3009751,
-        "lng": 114.1724411
+        "lat": 22.3009307,
+        "lng": 114.1725988
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣希慎廣場7樓704號舖"
+      },
+      "googleMapsPlaceId": "ChIJuzVebnQBBDQRMrz0Or7P1zg",
+      "coordinates": {
+        "lat": 22.2798226,
+        "lng": 114.1837972
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ]
