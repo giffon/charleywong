@@ -5,7 +5,8 @@
   },
   "webpages": [
     {
-      "url": "http://www.gvworkshop.com"
+      "url": "http://www.gvworkshop.com",
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/globalvillageworkshop/",
@@ -25,31 +26,42 @@
         ],
         "single_line_address": "馬鞍山雅濤居商場一樓 2-3 號"
       }
+    },
+    {
+      "url": "https://www.instagram.com/globalvillageworkshop/",
+      "meta": {
+        "name": "Global Village | 英語學習中心",
+        "about": "成立於 2009 年，全英語上課\n為2-15歲學生提供高質素英語教育👩🏻‍🏫\n✍🏼創意寫作 🗣朗誦訓練 🏆拼音班\n🎓劍橋英語 👶🏻幼兒Playgroup etc.\n·\n歡迎查詢課程內容☎️+852 5127 5021"
+      }
     }
   ],
   "posts": [
     {
       "url": "https://www.facebook.com/globalvillageworkshop/posts/2492697940774978",
       "meta": {
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     },
     {
       "url": "https://www.facebook.com/globalvillageworkshop/posts/2499749676736471",
       "meta": {
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     },
     {
       "url": "https://www.facebook.com/globalvillageworkshop/posts/2782804791764290",
       "meta": {
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     },
     {
       "url": "https://www.facebook.com/globalvillageworkshop/posts/2786896871355082",
       "meta": {
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     }
   ],
@@ -64,6 +76,34 @@
     {
       "type": "shop",
       "id": 1555
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "馬鞍山雅濤居商場一樓 2-3 號"
+      },
+      "googleMapsPlaceId": "ChIJKR2hY7AIBDQRXovSsGf_CBs",
+      "coordinates": {
+        "lat": 22.424791,
+        "lng": 114.2281911
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港堅尼地城海旁17-18號大新閣地下2A號舖"
+      },
+      "googleMapsPlaceId": "ChIJ44uGs4T_AzQRUqCmDb-_wZo",
+      "coordinates": {
+        "lat": 22.2859318,
+        "lng": 114.1322537
+      },
+      "area": {
+        "zh": "中西區"
+      }
     }
   ]
 }
