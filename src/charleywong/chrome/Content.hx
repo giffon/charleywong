@@ -164,7 +164,7 @@ class Content {
     }
 
     static public function timestampFromString(timeString:String):Float {
-        // trace(timeString);
+        console.debug("timestampFromString(" + Json.stringify(timeString) + ")");
         var time = if (~/^[0-9]/.match(timeString))
             Date.now().getTime();
         else if (timeString.startsWith("Yesterday"))
@@ -263,8 +263,8 @@ class Content {
                             // remove the hidden characters
                             for (e in timeSpan.querySelectorAll("span")) {
                                 var span:SpanElement = cast e;
-                                switch span.style.top {
-                                    case null | "": //pass
+                                switch window.getComputedStyle(span).top {
+                                    case null | "" | "0px": //pass
                                     case _: span.remove();
                                 }
                             }
