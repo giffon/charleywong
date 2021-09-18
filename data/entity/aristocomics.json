@@ -1,0 +1,65 @@
+{
+  "id": "aristocomics",
+  "name": {
+    "zh": "貴族漫畫村"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/106786641002038/",
+      "meta": {
+        "id": "106786641002038",
+        "username": "aristocomics",
+        "name": "貴族漫畫村",
+        "about": "本舖位於 元朗大馬路 126號 1樓 （citi bank 樓上）即開心廣場對面。",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2201",
+            "name": "Product/Service"
+          },
+          {
+            "id": "2700",
+            "name": "Personal Blog"
+          }
+        ],
+        "single_line_address": "本舖位於 元朗大馬路 126號 1樓, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/aristocomics.hk/",
+      "meta": {
+        "name": "貴族漫畫村📚",
+        "about": "租書📚\n租碟💿\n店閱👀📖\n快啲上黎啦！\n營業及回覆時間: 12p.m. - 10p.m.\n地址:元朗大馬路 126號 1樓 （citi bank 隔離上1樓）"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "book",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗大馬路 126號 1樓"
+      },
+      "googleMapsPlaceId": "ChIJ-Y5B7mTxAzQR7U1gkwgCFpY",
+      "coordinates": {
+        "lat": 22.444294,
+        "lng": 114.0284839
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 6565
+    }
+  ]
+}
