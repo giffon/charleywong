@@ -263,6 +263,7 @@ class Content {
                             // remove the hidden characters
                             for (e in timeSpan.querySelectorAll("span")) {
                                 var span:SpanElement = cast e;
+                                if (span.childElementCount > 0) continue;
                                 switch window.getComputedStyle(span).top {
                                     case null | "" | "0px": //pass
                                     case _: span.remove();
