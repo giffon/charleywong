@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://takgor.work"
+    },
+    {
       "url": "https://www.facebook.com/102451917968977/",
       "meta": {
         "id": "102451917968977",
@@ -66,6 +69,14 @@
   ],
   "places": [
     {
+      "address": {
+        "zh": "中環威靈頓街91號地庫"
+      },
+      "googleMapsPlaceId": "EiQ5MSBXZWxsaW5ndG9uIFN0LCBDZW50cmFsLCBIb25nIEtvbmciMBIuChQKEglN9G9gewAENBFLxtJDHhqukRBbKhQKEgnj7UJcewAENBFRKrlyG70egQ",
+      "coordinates": {
+        "lat": 22.2833973,
+        "lng": 114.1543813
+      },
       "area": {
         "zh": "中西區"
       }
