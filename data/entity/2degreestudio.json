@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.2degreestudio.com"
+    },
+    {
       "url": "https://www.facebook.com/2degreestudio/",
       "meta": {
         "id": "106505947580091",
@@ -26,6 +29,12 @@
         ],
         "single_line_address": "九龍旺角山東街47-51號中橋商業大廈星際城市地下8號舖, Mong Kok, Hong Kong",
         "website": "https://www.2degreestudio.com/"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/2degreestudio/",
+      "meta": {
+        "name": "異度空間工作室"
       }
     },
     {
@@ -62,6 +71,21 @@
     {
       "type": "shop",
       "id": 4760
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍旺角山東街47-51號中橋商業大廈星際城市地下8號舖"
+      },
+      "googleMapsPlaceId": "ChIJG7O3M78BBDQRfw0kDocdh00",
+      "coordinates": {
+        "lat": 22.3178944,
+        "lng": 114.1701908
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
