@@ -1,9 +1,12 @@
 {
-  "id": "zenfitness.studios",
+  "id": "vefitness.studio",
   "name": {
-    "en": "ZEN Fitness Studio"
+    "en": "VE Fitness Studio"
   },
   "webpages": [
+    {
+      "url": "https://www.zenfitness.studio"
+    },
     {
       "url": "https://www.facebook.com/vefitness.studios/",
       "meta": {
@@ -25,40 +28,37 @@
       }
     },
     {
-      "url": "https://www.instagram.com/zenfitness.studio/",
+      "url": "https://www.instagram.com/vefitness.studio/",
       "meta": {
-        "name": "ZEN Fitness Studio",
-        "about": "Free Your Mind, Body and Soul - Yoga, Muay Thai, Fitness Training"
+        "name": "VE Fitness Studio",
+        "about": "Free Your Mind, Body and Soul - Muay Thai, Fitness Training"
       }
-    },
-    {
-      "url": "https://www.zenfitness.studio"
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/zenfitness.studios/posts/495556664320500",
+      "url": "https://www.facebook.com/323088008234034/posts/495556664320500",
       "meta": {
         "utime": "1564921845",
         "sharedWith": "Public"
       }
     },
     {
-      "url": "https://www.facebook.com/zenfitness.studios/photos/a.325058761370292/502815133594653",
+      "url": "https://www.facebook.com/323088008234034/photos/a.325058761370292/502815133594653",
       "meta": {
         "utime": "1566107916",
         "sharedWith": "Public"
       }
     },
     {
-      "url": "https://www.facebook.com/zenfitness.studios/posts/504888223387344",
+      "url": "https://www.facebook.com/323088008234034/posts/504888223387344",
       "meta": {
         "utime": "1566441945",
         "sharedWith": "Public"
       }
     },
     {
-      "url": "https://www.facebook.com/zenfitness.studios/photos/a.325058761370292/513385455870954",
+      "url": "https://www.facebook.com/323088008234034/photos/a.325058761370292/513385455870954",
       "meta": {
         "utime": "1567754355",
         "sharedWith": "Public"
@@ -89,5 +89,8 @@
         "zh": "觀塘區"
       }
     }
+  ],
+  "alias": [
+    "zenfitness.studios"
   ]
 }
