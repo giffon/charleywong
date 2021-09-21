@@ -1,0 +1,77 @@
+{
+  "id": "casalohashk",
+  "name": {
+    "zh": "活機園",
+    "en": "CASA LOHAS"
+  },
+  "webpages": [
+    {
+      "url": "http://www.casalohas.com",
+      "hidden": true
+    },
+    {
+      "url": "https://david4817.wixsite.com/casalohas/"
+    },
+    {
+      "url": "https://www.facebook.com/196603070399692/",
+      "meta": {
+        "id": "196603070399692",
+        "username": "casalohashk",
+        "name": "活機園 CASA LOHAS",
+        "about": "活機園有機農場 Casa Lohas \n地址：元朗錦田大江埔村\n開放時間：早上10:00 至下午6:00",
+        "category_list": [
+          {
+            "id": "150815208309028",
+            "name": "Farm"
+          },
+          {
+            "id": "187004854667366",
+            "name": "Campground"
+          }
+        ],
+        "single_line_address": "元朗錦田大江埔, Yuen Leng"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/casalohas/",
+      "meta": {
+        "name": "CASALOHAS",
+        "about": "活機園有機農場\n地址： 元朗錦田大江埔村"
+      },
+      "hidden": true
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/casalohashk/posts/2686724831387491",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/casalohashk/posts/2953653708027934",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "farm",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗錦田大江埔"
+      },
+      "googleMapsPlaceId": "ChIJIRac8Gf3AzQRdiJRuUC5k6I",
+      "coordinates": {
+        "lat": 22.4462908,
+        "lng": 114.073078
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
+  ]
+}
