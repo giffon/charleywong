@@ -31,11 +31,50 @@
         "website": "http://wa.me/85261668601"
       },
       "url": "https://www.facebook.com/hyggespabeauty/"
+    },
+    {
+      "url": "https://www.instagram.com/hygge.spa/",
+      "meta": {
+        "name": "Hygge Spa",
+        "about": "Hygge: 北歐詞, 意: 幸福的碼密。\n我們相信每個人都是獨特,值得被幸福擁抱\nHygge Spa 崇尚 簡約。自然 。舒適\n用感官享受生活每一部份。\n用心解開我們幸福的密碼。\n我們的理念:\n於繁忙的都市生活當中,透過舒服,簡約的環境,優質專業的服務,用心令我們每一位客人心身都得到放鬆,享受"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/hyggespabeauty/posts/1300056746833711"
+      "url": "https://www.facebook.com/hyggespabeauty/posts/1177850885720965",
+      "meta": {
+        "sharedWith": "Custom",
+        "embeddable": true
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hyggespabeauty/posts/1181436828695704",
+      "meta": {
+        "sharedWith": "Custom",
+        "embeddable": true
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hyggespabeauty/posts/1181803731992347",
+      "meta": {
+        "sharedWith": "Custom",
+        "embeddable": true
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hyggespabeauty/posts/1217509381755115",
+      "meta": {
+        "sharedWith": "Custom",
+        "embeddable": true
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hyggespabeauty/posts/1298375630335156",
+      "meta": {
+        "sharedWith": "Custom",
+        "embeddable": true
+      }
     }
   ],
   "tags": [
@@ -45,6 +84,34 @@
     {
       "type": "shop",
       "id": 455
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣渣甸街50號渣甸中心18樓"
+      },
+      "googleMapsPlaceId": "ChIJSwuMXUMBBDQRFeseflWZOhg",
+      "coordinates": {
+        "lat": 22.27940779999999,
+        "lng": 114.1856201
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀加拿芬廣場8樓"
+      },
+      "googleMapsPlaceId": "ChIJLRXd2e0ABDQR-FNVl-134d4",
+      "coordinates": {
+        "lat": 22.29925249999999,
+        "lng": 114.1732574
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
