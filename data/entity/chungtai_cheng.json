@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "http://www.taihoktong.com"
+    },
+    {
       "url": "https://www.facebook.com/chengchungtai/",
       "meta": {
         "id": "396949433812753",
@@ -25,20 +28,13 @@
     {
       "url": "https://www.instagram.com/chungtai_cheng/",
       "meta": {
-        "name": "鄭松泰 Cheng Chung Tai",
-        "about": "加入熱血公民新界西鄭松泰團隊"
+        "name": "鄭松泰"
       }
     }
   ],
   "posts": [
     {
       "url": "https://www.facebook.com/chengchungtai/posts/1211889805652041",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/chengchungtai/posts/1216823895158632",
       "meta": {
         "sharedWith": "Public"
       }
@@ -75,6 +71,22 @@
     }
   ],
   "tags": [
-    "publicfigure"
+    "publicfigure",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港新界葵涌大連排道83號205室 泰學堂"
+      },
+      "googleMapsPlaceId": "ChIJhzeSsTL5AzQRk4qLWq8Lcm0",
+      "coordinates": {
+        "lat": 22.3615111,
+        "lng": 114.1333395
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
