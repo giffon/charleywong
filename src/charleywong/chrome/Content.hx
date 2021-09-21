@@ -183,111 +183,78 @@ class Content {
         }
 
         var june = Date.fromString("2019-06-01");
-        var posts = [
-            for (node in document.querySelectorAll("#pagelet_timeline_main_column .userContentWrapper"))
-            if (!(cast node:Element).matches(".userContentWrapper .userContentWrapper")) // ignore nested posts, e.g. the shared "memory" post
-            if ((cast node:Element).querySelector("*[data-tooltip-content='Pinned Post']") == null) // ignore pinned posts
-            node
-        ];
-        if (posts.length != 0) { // old layout
-            var scrollToJune = scrollToJune.bind(posts.length);
-            var times = posts.map(node -> (cast node:Element).querySelector("abbr[data-utime]"));
-            var beforeJuneNode = times.find(node -> Std.parseFloat(node.dataset.utime) * 1000 < june.getTime());
-            if (beforeJuneNode != null) {
-                beforeJuneNode.scrollIntoView({
-                    block: ScrollLogicalPosition.END,
-                });
-                Timer.delay(function() alert("到達2019年6月頭"), 100);
-            } else if (document.querySelector("#pagelet_timeline_main_column .uiMorePager") == null) {
-                window.scrollTo(window.scrollX, document.body.scrollHeight);
-                Timer.delay(function() alert("到達 timeline 底部"), 100);
-            } else {
-                window.scrollTo(window.scrollX, document.body.scrollHeight);
-                Timer.delay(scrollToJune, 100);
-            }
-        } else {
 
-            if (document.querySelector("div[role='main'] div[role='article'] > div[role='progressbar']") == null) {
-                window.scrollTo(window.scrollX, document.body.scrollHeight);
-                Timer.delay(function() alert("到達 timeline 底部"), 100);
-                return;
-            }
+        if (document.querySelector("div[role='main'] div[role='article'] > div[role='progressbar']") == null) {
+            window.scrollTo(window.scrollX, document.body.scrollHeight);
+            Timer.delay(function() alert("到達 timeline 底部"), 100);
+            return;
+        }
 
-            var feed:DivElement = cast [
-                for (feed in document.querySelectorAll("div[role='feed']"))
+        var feed:DivElement = cast [
+            for (feed in document.querySelectorAll("div[role='feed']"))
+            feed
+        ].pop();
+
+        // when there is no pinned post, there is no role='feed'
+        if (feed == null || feed.offsetParent == null)
+            feed = cast [
+                for (feed in document.querySelectorAll("div[role='main']"))
                 feed
             ].pop();
 
-            // when there is no pinned post, there is no role='feed'
-            if (feed == null)
-                feed = cast [
-                    for (feed in document.querySelectorAll("div[role='main']"))
-                    feed
-                ].pop();
+        // console.debug(feed);
 
-            var posts = [
-                for (node in feed.querySelectorAll("div[role='article']"))
-                (cast node:DivElement)
-            ];
+        var posts = [
+            for (node in feed.querySelectorAll("div[role='article']"))
+            (cast node:DivElement)
+        ];
+        console.debug('Found ${posts.length} posts');
 
-            var scrollToJune = scrollToJune.bind(posts.length);
+        var scrollToJune = scrollToJune.bind(posts.length);
 
-            if (posts.length == oldArticleCount) {
-                Timer.delay(scrollToJune, 100);
-                return;
-            }
-            
-            if (posts.length == 0) {
-                Timer.delay(function() alert("找不到 div[role='article']"), 100);
-                return;
-            }
-            var times = posts
-                .map(node -> node.querySelector("span[aria-labelledby]"))
-                .filter(timeSpan -> timeSpan != null)
-                .map(timeSpan -> {
-                    node: (cast timeSpan:SpanElement),
-                    time: {
-                        var labelledby = timeSpan.getAttribute("aria-labelledby");
-                        var timeString = timeSpan.ownerDocument.getElementById(labelledby).innerText;
-                        timestampFromString(timeString);
-                    },
-                });
-
-            if (times.length == 0) {
-                times = posts
-                    .map(node -> node.querySelector("span[id] a[role='link']"))
-                    .filter(timeSpan -> timeSpan != null && timeSpan.offsetParent != null) // ignore invisible nodes
-                    .map(timeSpan -> {
-                        node: (cast timeSpan:SpanElement),
-                        time: {
-                            // remove the hidden characters
-                            for (e in timeSpan.querySelectorAll("span")) {
-                                var span:SpanElement = cast e;
-                                if (span.childElementCount > 0) continue;
-                                switch window.getComputedStyle(span).top {
-                                    case null | "" | "0px": //pass
-                                    case _: span.remove();
-                                }
-                            }
-                            timestampFromString(timeSpan.innerText);
+        if (posts.length == oldArticleCount) {
+            Timer.delay(scrollToJune, 100);
+            return;
+        }
+        
+        if (posts.length == 0) {
+            Timer.delay(function() alert("找不到 div[role='article']"), 100);
+            return;
+        }
+        var times = posts
+            .map(node -> (cast node.querySelectorAll("span[dir='auto'] a[role='link'][href='#']")[0]:AnchorElement))
+            .filter(timeA -> timeA != null && timeA.offsetParent != null) // ignore invisible nodes
+            .map(timeA -> {
+                node: timeA,
+                time: {
+                    // remove the hidden characters
+                    for (e in timeA.querySelectorAll("span")) {
+                        var span:SpanElement = cast e;
+                        if (span.childElementCount > 0) continue;
+                        switch window.getComputedStyle(span).top {
+                            case null | "" | "0px": //pass
+                            case _: span.remove();
                         }
-                    });
-            }
+                    }
+                    timestampFromString(timeA.innerText);
+                }
+            });
 
-            if (times.length == 0) {
-                Timer.delay(function() alert("讀不到時間資訊"), 100);
-                return;
-            }
-            var beforeJuneNode = times.find(t -> t.time < june.getTime());
-            if (beforeJuneNode != null) {
-                beforeJuneNode.node.scrollIntoView({
-                    block: ScrollLogicalPosition.END,
-                });
-                Timer.delay(function() alert("到達2019年6月頭"), 100);
-            } else {
-                window.scrollTo(window.scrollX, document.body.scrollHeight);
-                Timer.delay(scrollToJune, 100);
-            }
+        if (times.length == 0) {
+            // Timer.delay(function() alert("讀不到時間資訊"), 100);
+            posts[0].scrollIntoView();
+            Timer.delay(scrollToJune, 100);
+            return;
+        }
+        var beforeJuneNode = times.find(t -> t.time < june.getTime());
+        if (beforeJuneNode != null) {
+            beforeJuneNode.node.scrollIntoView({
+                block: ScrollLogicalPosition.END,
+            });
+            Timer.delay(function() alert("到達2019年6月頭"), 100);
+        } else {
+            window.scrollTo(window.scrollX, document.body.scrollHeight);
+            Timer.delay(scrollToJune, 100);
         }
     }
 
