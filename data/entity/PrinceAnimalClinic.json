@@ -1,5 +1,5 @@
 {
-  "id": "428852000524925",
+  "id": "PrinceAnimalClinic",
   "name": {
     "en": "Prince Animal Clinic",
     "zh": "太子動物醫療診所"
@@ -24,7 +24,8 @@
     {
       "url": "https://www.facebook.com/permalink.php?story_fbid=2329649243778515&id=428852000524925",
       "meta": {
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     }
   ],
@@ -53,5 +54,8 @@
       "type": "shop",
       "id": 343
     }
+  ],
+  "alias": [
+    "428852000524925"
   ]
 }
