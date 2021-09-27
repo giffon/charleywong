@@ -40,15 +40,15 @@
   "places": [
     {
       "address": {
-        "zh": "荃灣荃富街11號富麗商場B座地下65號舖"
+        "zh": "葵涌葵秀路8-10號瑞森工業大廈20樓C室"
       },
-      "googleMapsPlaceId": "ChIJYcm4GpP4AzQROxiESS6m70g",
+      "googleMapsPlaceId": "ChIJJSP_NZr4AzQRAFJCC-08c7w",
       "coordinates": {
-        "lat": 22.369008,
-        "lng": 114.1223057
+        "lat": 22.3662886,
+        "lng": 114.1349782
       },
       "area": {
-        "zh": "荃灣區"
+        "zh": "葵青區"
       }
     }
   ],
@@ -56,6 +56,10 @@
     {
       "type": "eat",
       "id": 2282
+    },
+    {
+      "type": "eat",
+      "id": 6356
     }
   ]
 }
