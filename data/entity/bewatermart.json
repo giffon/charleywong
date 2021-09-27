@@ -12,7 +12,7 @@
       "url": "https://www.instagram.com/bewatermart/",
       "meta": {
         "name": "上水貨舖 𝘉𝘦𝘸𝘢𝘵𝘦𝘳 𝘔𝘢𝘳𝘵",
-        "about": "香港製造 唯一出路\n.\n大圍店試業中！\n◒ 11:00 —— ◓ 23:00\n.\n上水店\n𝙈𝙤𝙣 𝙩𝙤 𝙁𝙧𝙞 ◒ 11:00 —— ◓ 23:00\n𝙎𝙖𝙩 𝙩𝙤 𝙎𝙪𝙣 ◒ 10:00 —— ◓ 23:00\n6 San Hong St, Sheung Shui"
+        "about": "香港製造 唯一出路\n.\n大圍店試業中！\n11:00 — 23:00\n.\n上水店\n𝙈𝙤𝙣 𝙩𝙤 𝙁𝙧𝙞 11:00 — 23:00\n𝙎𝙖𝙩 𝙩𝙤 𝙎𝙪𝙣 10:00 — 23:00\n6 San Hong St, Sheung Shui"
       }
     },
     {
@@ -63,7 +63,7 @@
   "places": [
     {
       "address": {
-        "en": "6 San Hong Street"
+        "zh": "上水新康街6號"
       },
       "googleMapsPlaceId": "ChIJKaErlIz3AzQRS8gAEMmweD4",
       "coordinates": {
@@ -73,12 +73,29 @@
       "area": {
         "zh": "北區"
       }
+    },
+    {
+      "address": {
+        "zh": "大圍積壽里1-3號"
+      },
+      "googleMapsPlaceId": "ChIJ_x7B46oHBDQRZ_JSi5ZNguY",
+      "coordinates": {
+        "lat": 22.3744109,
+        "lng": 114.1792109
+      },
+      "area": {
+        "zh": "沙田區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 4992
+    },
+    {
+      "type": "shop",
+      "id": 6566
     }
   ]
 }
