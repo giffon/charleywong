@@ -1,0 +1,78 @@
+{
+  "id": "cafedeBeansHK",
+  "name": {
+    "zh": "荳子冰室",
+    "en": "Cafe De Beans"
+  },
+  "webpages": [
+    {
+      "url": "https://www.beansgroup.hk/%E8%8D%B3%E5%AD%90%E5%86%B0%E5%AE%A4"
+    },
+    {
+      "url": "https://www.instagram.com/cafedebeans/",
+      "meta": {
+        "name": "荳子冰室"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/115730023675461/",
+      "meta": {
+        "id": "115730023675461",
+        "username": "cafedeBeansHK",
+        "name": "荳子冰室",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "website": "https://www.beansgroup.hk/%E8%8D%B3%E5%AD%90%E5%86%B0%E5%AE%A4"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/cafedeBeansHK/posts/122980896283707",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/cafedeBeansHK/posts/332113722037089",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "將軍澳唐德街1號將軍澳廣場1樓1-005號舖"
+      },
+      "googleMapsPlaceId": "ChIJs_2QPQMDBDQRUzSCzklO9aA",
+      "coordinates": {
+        "lat": 22.3093191,
+        "lng": 114.2619224
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "上水智昌路3號上水中心2樓2038,2038B,2052號舖"
+      },
+      "googleMapsPlaceId": "ChIJ-753whD2AzQRV1IzqswHkZ8",
+      "coordinates": {
+        "lat": 22.5008858,
+        "lng": 114.1299577
+      },
+      "area": {
+        "zh": "北區"
+      }
+    }
+  ]
+}
