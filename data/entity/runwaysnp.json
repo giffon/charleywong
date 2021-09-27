@@ -40,12 +40,28 @@
     }
   ],
   "tags": [
-    "accessories"
+    "accessories",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 2472
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room 09, 2/F, Shing Yip industrial building, No. 19-21 Shing Yip Street, Kwun Tong"
+      },
+      "googleMapsPlaceId": "ChIJq6rqTEUBBDQRB1hVumLwHHc",
+      "coordinates": {
+        "lat": 22.3101147,
+        "lng": 114.2270687
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ]
 }
