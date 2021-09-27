@@ -33,6 +33,13 @@
         "name": "pizzeriajacomax",
         "about": "Sheung wan:\n28-34 Wing Lok st.\n/\nWan Chai:\n68-76 Hennessy Rd.\n/\nQuarry Bay:\n2D Finnie St.\n/\nFB: Pizzeria Jacomax"
       }
+    },
+    {
+      "url": "https://www.instagram.com/jacomax_pizza/",
+      "meta": {
+        "name": "Jacomax Pizza",
+        "about": "🍕香港比薩| HK pizzeria\n📞 Sheung Wan 28514688\n📞Wan Chai 25203333\n📍 38-42 Wing Lok Street, Sheung Wan, Hong Kong\n📍 68-76 Hennessy Road, Wan Chai, Hong Kong"
+      }
     }
   ],
   "posts": [
@@ -61,13 +68,6 @@
       "url": "https://www.facebook.com/pizzeriajacomax/photos/a.575259455877621/3347207722016100",
       "meta": {
         "utime": "1574652784",
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/pizzeriajacomax/posts/3624642227605980",
-      "meta": {
-        "utime": "1582297006",
         "sharedWith": "Public"
       }
     }
@@ -111,6 +111,19 @@
       },
       "area": {
         "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳新都城二期UG092"
+      },
+      "googleMapsPlaceId": "ChIJTyMjCQwEBDQRUVXfKhXaR28",
+      "coordinates": {
+        "lat": 22.3231863,
+        "lng": 114.2577924
+      },
+      "area": {
+        "zh": "西貢區"
       }
     }
   ]
