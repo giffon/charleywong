@@ -1,0 +1,84 @@
+{
+  "id": "HongKongWhistle",
+  "name": {
+    "en": "Hong Kong Whistle",
+    "zh": "吹啤啤"
+  },
+  "webpages": [
+    {
+      "url": "https://hongkongwhistle.com"
+    },
+    {
+      "url": "https://www.facebook.com/976865399098943/",
+      "meta": {
+        "id": "976865399098943",
+        "username": "HongKongWhistle",
+        "name": "Hong Kong Whistle 吹啤啤",
+        "about": "A boutique brewery. Our production has a fascinating connection with the contemporary culture and collective memory of Hong Kong. ",
+        "category_list": [
+          {
+            "id": "144535972273084",
+            "name": "Brewery"
+          }
+        ],
+        "emails": [
+          "beer@hongkongwhistle.com"
+        ],
+        "single_line_address": "Unit 4C, 2/F, Sunwise Industrial Building, 16-26 Wang Wo Tsai Street, Tsuen Wan, 香港",
+        "website": "http://hongkongwhistle.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/hongkongwhistle/",
+      "meta": {
+        "name": "吹啤啤",
+        "about": "We are a boutique brewery founded in 2016. Our production has a fascinating connection with the contemporary culture and collective memory of 🇭🇰"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/HongKongWhistle/photos/a.977673759018107/2272436112875192",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/HongKongWhistle/photos/a.977673759018107/2286302561488547",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/HongKongWhistle/photos/a.977673759018107/2360586874060115",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "alcoholic",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit 4C, 2/F, Sunwise Industrial Building, 16-26 Wang Wo Tsai Street, Tsuen Wan"
+      },
+      "googleMapsPlaceId": "ChIJ91w1zwf5AzQRUHSIRWDNtMA",
+      "coordinates": {
+        "lat": 22.3669881,
+        "lng": 114.1188994
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 1067
+    }
+  ]
+}

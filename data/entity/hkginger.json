@@ -1,0 +1,112 @@
+{
+  "id": "hkginger",
+  "name": {
+    "en": "Ginger Store"
+  },
+  "webpages": [
+    {
+      "url": "https://www.hkginger.com"
+    },
+    {
+      "url": "https://www.facebook.com/150362765096743/",
+      "meta": {
+        "id": "150362765096743",
+        "username": "hkginger",
+        "name": "Ginger Store",
+        "about": "品牌logo中的雨點代表眾多香港設計師的創意，而GINGER就是河流助它們流傳開去。T-shirt是文化衫，期望我們的產品可以承載本地創作的養分和香港獨有的生活文化，並傳播於社群。",
+        "category_list": [
+          {
+            "id": "186230924744328",
+            "name": "Clothing Store"
+          },
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
+        ],
+        "emails": [
+          "info@hkginger.com"
+        ],
+        "website": "www.hkginger.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/hk.ginger/",
+      "meta": {
+        "name": "Ginger Store 薑館",
+        "about": "Designed in HK | fashion | lifestyle | culture | delicacy\n★ Langham Place, Mong Kok\n★ Metroplaza, Kwai Fong\n★ Yata Dept Store, Shatin"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/hkginger/posts/1580747978724874:0",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hkginger/posts/1939401496192852",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hkginger/posts/2302881369844861",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hkginger/posts/2312782148854783",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "clothing",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 01-05, L10, Langham Place, Mong Kok, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJEctdmccABDQR0aNFuTVQHqs",
+      "coordinates": {
+        "lat": 22.3178841,
+        "lng": 114.1688364
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop 106, L1, Metroplaza, Kwai Fong, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJ4-5mye0ABDQRLE2iAv0IYEU",
+      "coordinates": {
+        "lat": 22.357424,
+        "lng": 114.1268538
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "en": "L1, YATA Department Store, New Town Plaza, Shatin, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJz43DaKwHBDQRI40O9D17zUs",
+      "coordinates": {
+        "lat": 22.3798064,
+        "lng": 114.1876868
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
+  ]
+}
