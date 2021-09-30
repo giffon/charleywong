@@ -3638,10 +3638,10 @@ aws-lambda-fastify@1.7.1:
   resolved "https://registry.yarnpkg.com/aws-lambda-fastify/-/aws-lambda-fastify-1.7.1.tgz#425da3c49fb80e9d884e6439a4be695022541cff"
   integrity sha512-FRFabrmCZ7jWVZRHlDHQAxd6cRpwrI9VzI/Q4issMTP4DJHCx69U3MVlW8LDTJK3O0DmGsXNJ+bfiwOOZNhhsA==
 
-aws-lambda-ric@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/aws-lambda-ric/-/aws-lambda-ric-1.1.0.tgz#de764d4942aa48339c352a4cff7f1c9df7874dc0"
-  integrity sha512-6kOkZ6NedEwNKYWmoqzvDjdEOj3H0P9OYxBE9T6L1bESXDVqpqYPXbg3QZx8FZVT+8RmDAn3R3JDL4zW3bnynQ==
+aws-lambda-ric@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/aws-lambda-ric/-/aws-lambda-ric-2.0.0.tgz#dd56317ffab396583ddc2334146b17f7e64188cd"
+  integrity sha512-sLumfzrns/Kioi2EqNcel1S8uucB274WkVNS7zHD98jVcUcRyWqlt4OtES5+GKazlIJIx4exE3cvAD77b37diQ==
   dependencies:
     node-addon-api "3.2.1"
     node-gyp "8.1.0"
@@ -8705,15 +8705,10 @@ node-abi@^2.7.0:
   dependencies:
     semver "^5.4.1"
 
-node-addon-api@3.2.1:
+node-addon-api@3.2.1, node-addon-api@^3.0.2:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-3.2.1.tgz#81325e0a2117789c0128dab65e7e38f07ceba161"
   integrity sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==
-
-node-addon-api@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-3.0.2.tgz#04bc7b83fd845ba785bb6eae25bc857e1ef75681"
-  integrity sha512-+D4s2HCnxPd5PjjI0STKwncjXTUKKqm74MDMz9OPXavjsGmjkvwgLtA5yoxJUdmpj52+2u+RrXgPipahKczMKg==
 
 node-dir@^0.1.17:
   version "0.1.17"
