@@ -1,0 +1,65 @@
+{
+  "id": "meowmeowmeowshop",
+  "name": {
+    "en": "Meow Meow Store",
+    "zh": "喵喵店"
+  },
+  "webpages": [
+    {
+      "url": "https://meowmeowlimited.boutir.com"
+    },
+    {
+      "url": "https://www.facebook.com/100269842269939/",
+      "meta": {
+        "id": "100269842269939",
+        "username": "meowmeowmeowshop",
+        "name": "Meow Meow Store 喵喵店",
+        "about": "本土用品 寵物用品 生活雜貨\n#本土 #寵物 #生活 ",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
+        ],
+        "emails": [
+          "meowmeowlimited@gmail.com"
+        ],
+        "single_line_address": "Shop 1E, LG/F, Victory Building, 3 Tsing Min Path, Tuen Mun, N.T., 000000 香港",
+        "website": "https://meowmeowlimited.boutir.com/"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/meowmeowmeowshop/posts/116390657324524",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/meowmeowmeowshop/posts/153556630274593",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "animal",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 1E, LG/F, Victory Building, 3 Tsing Min Path, Tuen Mun"
+      },
+      "googleMapsPlaceId": "ChIJAyFf2_T7AzQR5nqUyslWUzo",
+      "coordinates": {
+        "lat": 22.4041593,
+        "lng": 113.9789702
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
+  ]
+}
