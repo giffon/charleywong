@@ -1034,10 +1034,10 @@
   dependencies:
     purgecss "^3.1.3"
 
-"@googlemaps/google-maps-services-js@3.2.2":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.2.2.tgz#7f650fedf3e627111c26fa220612bb6bbd8c1a4b"
-  integrity sha512-lzaKdtOlyBZwP53VSB7LCB9oMvOe8N/6RuyMJMlb3pZge8TghwmEB1Y3JF0ZFvHyV45i2qR9iqxj8q3jsJX+aw==
+"@googlemaps/google-maps-services-js@3.2.3":
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.2.3.tgz#f5b6e73b1d71449b1787560588f4cf4eebed81de"
+  integrity sha512-j3UIsxkMt1nXkYpqWaFWPjg/lzmNHWCdVAWSpmYmxszqWGDFGVNa5jT3rkDKVtK6o+JloxPAGMqXuZwiD6ziDQ==
   dependencies:
     agentkeepalive "^4.1.0"
     axios "^0.21.1"
