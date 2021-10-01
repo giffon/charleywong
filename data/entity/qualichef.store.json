@@ -71,6 +71,19 @@
   "places": [
     {
       "address": {
+        "zh": "火炭黃竹洋街1-3號裕昌中心4樓L室"
+      },
+      "googleMapsPlaceId": "ChIJu9-qz8oHBDQRKIVAUKTHZNQ",
+      "coordinates": {
+        "lat": 22.3968892,
+        "lng": 114.1910307
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
         "zh": "觀塘曉麗苑商場220A&B店"
       },
       "googleMapsPlaceId": "ChIJhyiQ_3wBBDQRmBjjQwb-xaI",
@@ -97,19 +110,6 @@
     },
     {
       "address": {
-        "zh": "火炭黃竹洋街1-3號裕昌中心4樓L室"
-      },
-      "googleMapsPlaceId": "ChIJu9-qz8oHBDQRKIVAUKTHZNQ",
-      "coordinates": {
-        "lat": 22.3968892,
-        "lng": 114.1910307
-      },
-      "area": {
-        "zh": "沙田區"
-      }
-    },
-    {
-      "address": {
         "zh": "觀塘茶果嶺道95號麗港中心商場31號舖"
       },
       "googleMapsPlaceId": "ChIJd1EPVlsBBDQRCsmIsGC7ScM",
@@ -119,6 +119,32 @@
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "馬鞍山恆安邨商場208號鋪"
+      },
+      "googleMapsPlaceId": "ChIJYR9yCqYIBDQRbI9BcJDSq-0",
+      "coordinates": {
+        "lat": 22.41721300000001,
+        "lng": 114.225932
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大圍顯田村92號地下B室"
+      },
+      "googleMapsPlaceId": "ChIJCz3hPRIHBDQRkEuZ7Z-GcFc",
+      "coordinates": {
+        "lat": 22.3628758,
+        "lng": 114.172512
+      },
+      "area": {
+        "zh": "沙田區"
       }
     }
   ],
