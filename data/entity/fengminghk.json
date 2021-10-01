@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.fengminghk.com"
+    },
+    {
       "meta": {
         "id": "741014472934263",
         "username": "fengminghk",
@@ -31,14 +34,14 @@
       "url": "https://www.instagram.com/fengming_original/",
       "meta": {
         "name": "鳳鳴石磨腸粉",
-        "about": "全港首創手工石磨「黑米」、「紅米」腸粉，上至米漿、腸粉，豆漿，下至配料及飲品，全部都係手工自家制，非加工，新鮮有營養。\n觀塘廣場/小西灣/沙田/荔枝角/炮台山皆有門店"
+        "about": "全港首創手工石磨「黑米」、「紅米」腸粉，上至米漿、腸粉，豆漿，下至配料及飲品，全部都係手工自家制，非加工，新鮮有營養。\n觀塘廣場/鰂魚涌/沙田/荔枝角/炮台山皆有門店"
       }
     },
     {
       "url": "https://www.instagram.com/fengming_lck/",
       "meta": {
         "name": "鳳鳴石磨腸粉-荔枝角店",
-        "about": "🥇全港首創手工石磨「黑米」、「紅米」腸粉\n🖐🏼上至米漿、腸粉，豆漿，下至配料及飲品，全部都係手工自家制，非加工，新鮮有營養\n落單自取: 59807698"
+        "about": "🥇全港首創手工石磨「黑米」、「紅米」腸粉\n🖐🏼上至米漿、腸粉，豆漿，下至配料及飲品，全部都係手工自家制，非加工，新鮮有營養\n落單自取: 59807698\n北團團購form👇🏼👇🏼"
       },
       "hidden": true
     },
@@ -63,6 +66,14 @@
       "meta": {
         "name": "鳳鳴石磨腸粉-沙田河畔",
         "about": "鳳鳴石磨腸粉-沙田河畔店\n外賣自取熱線 📞📞9245-9449\n🥰🥰全港首創手工石磨「黑米」、「紅米」腸粉\n上至米漿，腸粉，豆漿，下至配料及飲品，全部都係手工自家製，非加工，新鮮有營養\n沙田河畔花園C座地下10B鋪"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/fengming_quarrybay/",
+      "meta": {
+        "name": "鳳鳴石磨腸粉-鰂魚涌店",
+        "about": "～·健康·～輕食·～味美·～\n～～·手工製·～～·無味精·～～\n～·石磨腸粉·～·天然飲品·～"
       },
       "hidden": true
     }
@@ -109,6 +120,10 @@
     {
       "type": "eat",
       "id": 2415
+    },
+    {
+      "type": "eat",
+      "id": 6364
     }
   ],
   "places": [
@@ -127,12 +142,12 @@
     },
     {
       "address": {
-        "zh": "柴灣小西灣道9號富欣花園地下49號舖"
+        "zh": "鰂魚涌英皇道696-702號北角大廈696A鋪地下"
       },
-      "googleMapsPlaceId": "ChIJca1Mpi8CBDQR2OUurwBL4hM",
+      "googleMapsPlaceId": "ChIJxzcCn0gBBDQRWH9D49VMgNw",
       "coordinates": {
-        "lat": 22.265095,
-        "lng": 114.248152
+        "lat": 22.291671,
+        "lng": 114.2068432
       },
       "area": {
         "zh": "東區"
@@ -172,6 +187,19 @@
       "coordinates": {
         "lat": 22.2879364,
         "lng": 114.1925339
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "柴灣小西灣道9號富欣花園地下49號舖"
+      },
+      "googleMapsPlaceId": "ChIJca1Mpi8CBDQR2OUurwBL4hM",
+      "coordinates": {
+        "lat": 22.265095,
+        "lng": 114.248152
       },
       "area": {
         "zh": "東區"
