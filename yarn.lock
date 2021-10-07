@@ -10436,10 +10436,10 @@ serve-static@1.14.1:
     parseurl "~1.3.3"
     send "0.17.1"
 
-serverless-prune-plugin@1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/serverless-prune-plugin/-/serverless-prune-plugin-1.6.0.tgz#220bc470185c3308ebbd67f244df365155e4cf79"
-  integrity sha512-KOGQrDmLyp5+XdqMGQoZwQAqSNUiV6DoKuJaASRyemUhLByOWlmQ9xAoZNDjKjgnezzYLJpN4Tz54WyU+jDTZw==
+serverless-prune-plugin@1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/serverless-prune-plugin/-/serverless-prune-plugin-1.6.1.tgz#633a34bd9b1878b05c53821319db745a058f440e"
+  integrity sha512-rTeaedrVRWFdfXgSsraxcCHpVzL3AqztcYSr7FY3Jc74PJ0/H6Ukf5nFKKYZSolnF3JkU8ddwQGY52YnJIxQqw==
   dependencies:
     bluebird "^3.4.7"
 
