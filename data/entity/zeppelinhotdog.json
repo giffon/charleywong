@@ -680,6 +680,19 @@
       "area": {
         "zh": "黃大仙區"
       }
+    },
+    {
+      "address": {
+        "zh": "炮台山宏安道2-12號宏暉大厦地下5號舖"
+      },
+      "googleMapsPlaceId": "ChIJXzoY-AEBBDQR-GiFTK_nmco",
+      "coordinates": {
+        "lat": 22.2886129,
+        "lng": 114.192215
+      },
+      "area": {
+        "zh": "東區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -822,6 +835,10 @@
     {
       "type": "eat",
       "id": 6360
+    },
+    {
+      "type": "eat",
+      "id": 6367
     }
   ]
 }
