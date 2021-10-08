@@ -28,7 +28,15 @@
       "url": "https://www.instagram.com/hollybrowncoffee/",
       "meta": {
         "name": "Holly Brown",
-        "about": "Holly Brown X Cabin Crew Coffee🎗\n📍 22 Stanley Street Central ☎️ 2869-9008\n📍 D2 Place Lai Chi Kok ☎️ 2371-2826"
+        "about": "Holly Brown X Cabin Crew Coffee🎗\n📍 22 Stanley Street Central ☎️ 2869-9008\n📍 D2 Place Lai Chi Kok ☎️ 2371-2826\nHolly Brown Gelato🍨\n📍Central Market"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCDuD9b1-PvJXWZeE1Jwr-5A",
+      "meta": {
+        "id": "UCDuD9b1-PvJXWZeE1Jwr-5A",
+        "name": "Holly Brown Channel",
+        "about": "\n📍中環分店 📞 2869 9008\n📆 星期一至星期日\n📍荔枝角D2 分店 📞 2371 2826\n📆 星期六、日\n"
       }
     }
   ],
@@ -65,6 +73,10 @@
     {
       "type": "eat",
       "id": 1388
+    },
+    {
+      "type": "eat",
+      "id": 6369
     }
   ],
   "places": [
@@ -92,6 +104,19 @@
       },
       "area": {
         "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "中環皇后大道中93號中環街市1樓110號舖"
+      },
+      "googleMapsPlaceId": "ChIJFbbJS3sABDQRZGKaWzhehxM",
+      "coordinates": {
+        "lat": 22.2821105,
+        "lng": 114.1555615
+      },
+      "area": {
+        "zh": "中西區"
       }
     }
   ]
