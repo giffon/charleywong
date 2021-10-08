@@ -3,13 +3,13 @@
 set -ex
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-TAG="giffon/charleywong_devcontainer_workspace:$(date +%Y%m%d%H%M%S)"
+IMAGE="giffon/charleywong_devcontainer_workspace"
+TAG="${IMAGE}:$(date +%Y%m%d%H%M%S)"
 
 cp -r "$DIR/../.haxerc" "$DIR"/../*.hxml "$DIR/../haxe_libraries" "$DIR/../package.json" "$DIR/../yarn.lock" "$DIR/workspace/"
 docker build --pull -t "$TAG" "$DIR"
 
-yq eval ".services.workspace.image = \"$TAG\"" "$DIR/docker-compose.yml" -i
-yq eval ".jobs.build.container = \"$TAG\"" "$DIR/../.github/workflows/ci.yml" -i
-yq eval ".jobs.deploy.container = \"$TAG\"" "$DIR/../.github/workflows/ci.yml" -i
-yq eval ".jobs.job.container = \"$TAG\"" "$DIR/../.github/workflows/updateMeta.yml" -i
-sed -i -e "s#giffon/charleywong_devcontainer_workspace:[0-9]*#$TAG#g" "$DIR/../Dockerfile"
+sed -i -e "s#${IMAGE}:[0-9]*#$TAG#g" \
+    "$DIR"/docker-compose.yml \
+    "$DIR"/../.github/workflows/*.yml \
+    "$DIR"/../Dockerfile
