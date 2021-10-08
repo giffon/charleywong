@@ -31,14 +31,28 @@
         "website": "lazyking.hk"
       },
       "url": "https://www.facebook.com/LAZYKING.Workshop/"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCNYvnQupnIVLQPNoCmFxoEQ",
+      "meta": {
+        "id": "UCNYvnQupnIVLQPNoCmFxoEQ",
+        "name": "LAZYKING Workshop",
+        "about": ""
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/LAZYKING.Workshop/photos/a.10152674666019585/10157010562569585"
+      "url": "https://www.facebook.com/LAZYKING.Workshop/posts/10156640067029585",
+      "meta": {
+        "sharedWith": "Public"
+      }
     },
     {
-      "url": "https://www.facebook.com/LAZYKING.Workshop/photos/a.10152674666019585/10156758229654585"
+      "url": "https://www.facebook.com/LAZYKING.Workshop/posts/10156791728634585",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
@@ -47,12 +61,12 @@
   "places": [
     {
       "address": {
-        "en": "Suite 2512, Langham Place Office Tower, 8 Argyle Street, Mongkok, Kowloon"
+        "en": "Room 1805-06, 18/F, Hollywood Plaza, 610 Nathan Road, Mongkok"
       },
-      "googleMapsPlaceId": "ChIJd7a8kscABDQRvKWudH3ng80",
+      "googleMapsPlaceId": "ChIJvx6UOAEBBDQRpdRX7VUdmEk",
       "coordinates": {
-        "lat": 22.318539,
-        "lng": 114.1685471
+        "lat": 22.316821,
+        "lng": 114.170224
       },
       "area": {
         "zh": "油尖旺區"
