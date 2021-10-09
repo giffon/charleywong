@@ -1,0 +1,113 @@
+{
+  "id": "cestlafood",
+  "name": {
+    "zh": "和昌食材店",
+    "en": "C'est La Food"
+  },
+  "webpages": [
+    {
+      "url": "https://www.wcboycestlafood.store"
+    },
+    {
+      "url": "https://wcboyfood.boutir.com",
+      "hidden": true
+    },
+    {
+      "url": "https://www.facebook.com/WCboycestlafood/",
+      "meta": {
+        "id": "106501647800062",
+        "username": "WCboycestlafood",
+        "name": "和昌食材店 by C'est la food",
+        "about": "實體店地址\n石門店：石門京瑞廣場一期1樓183號舖\n屯門店：屯門盈豐商場1樓B25C舖(近寶田橋側門）\n\n和昌食材店主打人氣品牌食材，及銷售外國優質凍肉。設有送貨服務。",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
+        ],
+        "single_line_address": "屯門盈豐商場1樓B25C舖 (寶田天橋側), 0000 香港",
+        "website": "https://www.wcboycestlafood.store/"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/1548000785513498/",
+      "meta": {
+        "id": "1548000785513498",
+        "username": "cestlafood",
+        "name": "和昌 By C'est La Food 《石門店》",
+        "about": "凍肉及氣炸食物專門店\n提供送貨服務",
+        "category_list": [
+          {
+            "id": "128157407253652",
+            "name": "Fruit & Vegetable Store"
+          }
+        ],
+        "single_line_address": "沙田石門京瑞廣場一期1樓183號舖, 00 香港",
+        "website": "https://wcboyfood.boutir.com"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/cest_la_food/",
+      "meta": {
+        "name": "和昌食材店by Cest la food",
+        "about": "小店主要售買急凍肉類，海產及醬料等食物\n同時亦有送貨服務🚚🚚\n\n門市地址:\n1️⃣沙田石門京瑞廣場一期1樓183號舖\n2️⃣屯門盈豐商場一樓B25C舖\n📲https://api.whatsapp.com/send?phone=85261478441&text=我想訂食材"
+      }
+    },
+    {
+      "url": "https://mewe.com/i/%E5%92%8C%E6%98%8C%E9%A3%9F%E6%9D%90%E5%BA%97"
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/WCboycestlafood/posts/295501725566719",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/WCboycestlafood/posts/325678835882341",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "foodStore",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門盈豐商場1樓B25C舖"
+      },
+      "googleMapsPlaceId": "ChIJW-qZkcT7AzQRbqhfE_krMr8",
+      "coordinates": {
+        "lat": 22.4093578,
+        "lng": 113.9674799
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "沙田石門京瑞廣場一期1樓183號舖"
+      },
+      "googleMapsPlaceId": "ChIJqYiIwEYGBDQR6Pi1E-TTAnc",
+      "coordinates": {
+        "lat": 22.3883571,
+        "lng": 114.2081221
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 6618
+    }
+  ]
+}
