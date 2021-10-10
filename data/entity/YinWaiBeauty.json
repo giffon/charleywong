@@ -6,7 +6,8 @@
   },
   "webpages": [
     {
-      "url": "https://www.yinwaibeauty.com"
+      "url": "https://www.yinwaibeauty.com",
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/YinWaiBeauty/",
@@ -32,7 +33,7 @@
       "url": "https://www.instagram.com/yinwaibeauty/",
       "meta": {
         "name": "妍慧美容纖體中心",
-        "about": "妍慧美容纖體中心由2010年創立\n全靠口碑得到顧客支持及信任\n憑著多年努力今年由小舖搬至大舖\n全新面貌令客人更舒適，全獨立房間\n一直堅持品質 用心熱誠 用心經營\n開業十年 美容經驗十多年\n已考獲多項國際認可專業文憑及證書\n引入大型美容集團均選用之韓國儀器\n多部先進儀器為您提供專業療程"
+        "about": "2010年創立 開業十多年\n全靠口碑得到顧客支持及信任\n堅持品質熱誠 用心經營\n📱查詢預約\n6537 3157 (屯門) | wa.link/ck34u1\n9271 0016 (尖沙咀) | wa.link/bvcf1m\n📍地址: 屯門栢麗廣場25樓2517室\n📍地址: 尖沙咀金巴利中心8樓804室"
       }
     }
   ],
@@ -107,6 +108,19 @@
       },
       "area": {
         "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀金巴利中心8樓804室"
+      },
+      "googleMapsPlaceId": "ChIJOen1gu4ABDQRi6O_N6I5RfM",
+      "coordinates": {
+        "lat": 22.300773,
+        "lng": 114.1736157
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     }
   ],
