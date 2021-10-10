@@ -1,9 +1,12 @@
 {
   "id": "etplant",
   "name": {
-    "en": "ETplant handmade accessories, teaching tools, living goods & designer toys"
+    "en": "ETplant"
   },
   "webpages": [
+    {
+      "url": "https://hk.pinkoi.com/store/etplant/"
+    },
     {
       "meta": {
         "id": "157038975051902",
@@ -31,6 +34,13 @@
         "website": "www.pinkoi.com/etplant"
       },
       "url": "https://www.facebook.com/etplant/"
+    },
+    {
+      "url": "https://www.instagram.com/etplant/",
+      "meta": {
+        "name": "ET PLANT - sculpted ornaments",
+        "about": "A thousand miles begins with things surround you.\nPinkoi / Creema online & welcome to DM\nShop 520,Hysan Place,Causeway Bay\nDIY Channel: bit.ly/2Xi8Ldb"
+      }
     }
   ],
   "posts": [
@@ -41,5 +51,20 @@
   "tags": [
     "accessories",
     "toy"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 520, Hysan Place, Causeway Bay"
+      },
+      "googleMapsPlaceId": "ChIJuwh9w1YABDQRaRbZ1DgateI",
+      "coordinates": {
+        "lat": 22.2797035,
+        "lng": 114.1838445
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
