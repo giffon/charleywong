@@ -1,14 +1,15 @@
 {
-  "id": "kadooriebakery",
+  "id": "kadorar",
   "name": {
-    "en": "Kadoorie bakery",
-    "zh": "嘉多利餅店"
+    "en": "Kadorar Bakery",
+    "zh": "嘉多娜餅店"
   },
   "webpages": [
     {
       "url": "https://www.facebook.com/1332979416752010/",
       "meta": {
         "id": "1332979416752010",
+        "username": "kadorar",
         "name": "Kadoorie bakery",
         "about": "本店是製造及零售麵包西餅及生日蛋糕， 歡迎到 門市店參觀多謝",
         "category_list": [
@@ -24,6 +25,12 @@
   "posts": [
     {
       "url": "https://www.facebook.com/permalink.php?story_fbid=2517918014924805&id=1332979416752010",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/1332979416752010/posts/4310398965676692",
       "meta": {
         "sharedWith": "Public"
       }
@@ -82,5 +89,8 @@
       "type": "eat",
       "id": 1264
     }
+  ],
+  "alias": [
+    "kadooriebakery"
   ]
 }
