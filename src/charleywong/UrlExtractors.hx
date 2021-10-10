@@ -119,7 +119,7 @@ class UrlExtractors {
     }
 
     static public function extractTelegramProfile(url:ParsedUrl):Null<String> {
-        var regex = ~/^https?:\/\/?t\.me$/i;
+        var regex = ~/^https?:\/\/t\.me$/i;
         return if (regex.match(url.origin))
             switch(url.pathname.split("/")) {
                 case ["", handle]: handle;
@@ -128,6 +128,35 @@ class UrlExtractors {
             }
         else
             return null;
+    }
+
+    static public function extractPatreonProfile(url:ParsedUrl):Null<String> {
+        var regex = ~/^https?:\/\/(?:www\.)?patreon\.com$/i;
+        return if (regex.match(url.origin))
+            switch(url.pathname.split("/")) {
+                case ["", handle]: handle;
+                case ["", handle, ""]: handle;
+                case _: return null;
+            }
+        else
+            return null;
+    }
+
+    static public function extractMediumProfile(url:ParsedUrl):Null<String> {
+        var regex = ~/^https?:\/\/(?:www\.)?medium\.com$/i;
+        if (regex.match(url.origin)) {
+            final handle = switch(url.pathname.split("/")) {
+                case ["", handle]: handle;
+                case ["", handle, ""]: handle;
+                case _: return null;
+            }
+            return if (handle.startsWith("@"))
+                handle.substr(1);
+            else
+                handle;
+        } else {
+            return null;
+        }
     }
 
     static public function extractTwitterProfile(url:ParsedUrl):Null<String> {
