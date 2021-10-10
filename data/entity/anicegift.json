@@ -128,5 +128,241 @@
       "type": "eat",
       "id": 1232
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "佐敦柯士甸道63號幸運大廈地下05號舖"
+      },
+      "googleMapsPlaceId": "ChIJs948fusABDQRaKsqGJyR1sc",
+      "coordinates": {
+        "lat": 22.3033228,
+        "lng": 114.1704238
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "深水埗欽州街94號黃金中心地下4-5號舖"
+      },
+      "googleMapsPlaceId": "ChIJG27ZqrQABDQR-GYSHZfj9eE",
+      "coordinates": {
+        "lat": 22.3324576,
+        "lng": 114.1619376
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "鑽石山荷里活廣場3樓324號舖"
+      },
+      "googleMapsPlaceId": "ChIJ0U3OG9sGBDQRzaf6y1C3fYI",
+      "coordinates": {
+        "lat": 22.3407167,
+        "lng": 114.2014721
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    },
+    {
+      "address": {
+        "zh": "黃大仙黃大仙中心北館G04C舖"
+      },
+      "googleMapsPlaceId": "ChIJFYRMidgGBDQR6OoAeQAHkXo",
+      "coordinates": {
+        "lat": 22.3419754,
+        "lng": 114.1925419
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    },
+    {
+      "address": {
+        "zh": "樂富樂富廣場 Food Square 1 樓1116號舖"
+      },
+      "googleMapsPlaceId": "ChIJb7Y8mCgHBDQRyat9w8ubq5k",
+      "coordinates": {
+        "lat": 22.33904549999999,
+        "lng": 114.1871474
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍灣德褔廣場2期4樓418號舖"
+      },
+      "googleMapsPlaceId": "ChIJOw_SCTUBBDQRrfTxy0cIvWA",
+      "coordinates": {
+        "lat": 22.3216678,
+        "lng": 114.2132496
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "奧海城奧海城2期下G07號舖"
+      },
+      "googleMapsPlaceId": "ChIJLdOHYLkABDQRDR5nj4ociXI",
+      "coordinates": {
+        "lat": 22.3167357,
+        "lng": 114.1615929
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "太子始創太子始創中心地下 Kiosk B"
+      },
+      "googleMapsPlaceId": "ChIJe3JtN8gABDQRAECOPU4lcIw",
+      "coordinates": {
+        "lat": 22.32255109999999,
+        "lng": 114.1691147
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍塘港鐵站太九龍塘港鐵站KOT1114號舖"
+      },
+      "googleMapsPlaceId": "ChIJdbIPamAHBDQR6exIYJ8L5EY",
+      "coordinates": {
+        "lat": 22.3369192,
+        "lng": 114.1758533
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣荃灣廣場1樓131及131A號舖"
+      },
+      "googleMapsPlaceId": "ChIJjbcP4-74AzQRVmHcYzEp2x8",
+      "coordinates": {
+        "lat": 22.3703496,
+        "lng": 114.111487
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "沙田希爾頓沙田希爾頓中心3樓37R號舖"
+      },
+      "googleMapsPlaceId": "ChIJN_gSE6wHBDQRoecH426mz_g",
+      "coordinates": {
+        "lat": 22.3797451,
+        "lng": 114.1869063
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "沙田瀝源沙田瀝源廣場217號舖"
+      },
+      "googleMapsPlaceId": "ChIJ7duES00GBDQRXt-Tlw5u-wI",
+      "coordinates": {
+        "lat": 22.384702,
+        "lng": 114.191714
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "青衣港鐵站青衣港鐵站 TSY 304號舖"
+      },
+      "googleMapsPlaceId": "ChIJ1-uhodz4AzQRfuLv89M4zMs",
+      "coordinates": {
+        "lat": 22.358785,
+        "lng": 114.1068906
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "馬鞍山馬鞍山新港城中心3樓千色Citistoe"
+      },
+      "googleMapsPlaceId": "ChIJjZiRnLEIBDQRU56eU1r5SHg",
+      "coordinates": {
+        "lat": 22.4244622,
+        "lng": 114.2320183
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大埔中心大埔超級城 A區 地下 18b 號舖"
+      },
+      "googleMapsPlaceId": "ChIJ48i6UmQJBDQRS0rXChCuEkU",
+      "coordinates": {
+        "lat": 22.4526822,
+        "lng": 114.1692486
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳中心將軍澳中心一樓137A 號舖"
+      },
+      "googleMapsPlaceId": "ChIJ51JuvgEDBDQRwi0ABvndL6U",
+      "coordinates": {
+        "lat": 22.3067735,
+        "lng": 114.2561623
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門時代廣場屯門時代廣場南翼2樓6號舖"
+      },
+      "googleMapsPlaceId": "ChIJdVLIoT37AzQRYTRVvlGYSbs",
+      "coordinates": {
+        "lat": 22.3922083,
+        "lng": 113.9758571
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "太古康怡太古康怡廣場北座地下G13號舖"
+      },
+      "googleMapsPlaceId": "ChIJ6X10pnQBBDQRnn5Yz29fiv8",
+      "coordinates": {
+        "lat": 22.284596,
+        "lng": 114.2161207
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
   ]
 }
