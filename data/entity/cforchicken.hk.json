@@ -1,0 +1,77 @@
+{
+  "id": "cforchicken.hk",
+  "name": {
+    "zh": "雞同鴨講",
+    "en": "C For Chicken"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/103912694947905/",
+      "meta": {
+        "id": "103912694947905",
+        "username": "cforchicken.hk",
+        "name": "雞同鴨講 C For Chicken",
+        "about": "元朗店地址：元朗鳳群街2號年發大廈23號舖(基元中學斜對面) \n屯門店地址：屯門鄉事會路112-140號雅都商場Gogo Mall 1樓S61舖",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "cforchicken2020@gmail.com"
+        ],
+        "single_line_address": "元朗鳳群街2號年發大廈23號舖, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/cforchicken2020/",
+      "meta": {
+        "name": "雞同鴨講 C For Chicken",
+        "about": "元朗店地址：元朗鳳群街2號年發大廈23號地舖\n屯門店地址：屯門鄉事會路112-140號雅都商場Gogo Mall 1樓S61號舖"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/cforchicken.hk/posts/217219896950517",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/p/CRknvJdhAxt/"
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗鳳群街2號年發大廈23號舖"
+      },
+      "googleMapsPlaceId": "ChIJS0cIzrjxAzQRzftw8EpgYh4",
+      "coordinates": {
+        "lat": 22.4424684,
+        "lng": 114.034997
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門鄉事會路112-140號雅都商場Gogo Mall 1樓S61舖"
+      },
+      "googleMapsPlaceId": "ChIJJ5VHXGj7AzQR1Kypn1XkrGw",
+      "coordinates": {
+        "lat": 22.3984801,
+        "lng": 113.9753759
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
+  ]
+}
