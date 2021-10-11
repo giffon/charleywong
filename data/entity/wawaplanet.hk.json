@@ -1,0 +1,89 @@
+{
+  "id": "wawaplanet.hk",
+  "name": {
+    "en": "WaWa Planet",
+    "zh": "娃娃星球"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/344740639404263/",
+      "meta": {
+        "id": "344740639404263",
+        "username": "wawaplanet.hk",
+        "name": "娃娃星球 WaWa Planet - 香港大型夾公仔實體店",
+        "about": "尖沙咀店：尖沙咀金馬倫道首都廣場2/F\n\n旺角店 : 旺角砵蘭街170號地下全棟",
+        "category_list": [
+          {
+            "id": "2300",
+            "name": "Games/Toys"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://www.instagram.com/wawaplanet.hk/",
+      "meta": {
+        "name": "Wawaplanet.hk",
+        "about": "香港大型夾公仔店\n旺角店：砵蘭街170號地鋪全層\n尖沙咀店：金馬倫道首都廣場2/F"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/Byjd_Gsjc3T/"
+    },
+    {
+      "url": "https://www.instagram.com/p/BztBPRPD7Z-/"
+    }
+  ],
+  "tags": [
+    "toy",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "砵蘭街170號地鋪全層"
+      },
+      "googleMapsPlaceId": "ChIJ5XgCjIQBBDQRPJISr7sBnqw",
+      "coordinates": {
+        "lat": 22.3164122,
+        "lng": 114.1693429
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "金馬倫道首都廣場2/F"
+      },
+      "googleMapsPlaceId": "ChIJuXZVI6wBBDQRAy3kSt7p2Ws",
+      "coordinates": {
+        "lat": 22.29964409999999,
+        "lng": 114.1754722
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 595
+    },
+    {
+      "type": "shop",
+      "id": 597
+    },
+    {
+      "type": "shop",
+      "id": 1218
+    },
+    {
+      "type": "shop",
+      "id": 1219
+    }
+  ]
+}

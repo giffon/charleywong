@@ -1,0 +1,98 @@
+{
+  "id": "euroarthk",
+  "name": {
+    "en": "Euro ArtDeco",
+    "zh": "歐藝精品坊"
+  },
+  "webpages": [
+    {
+      "url": "https://www.euroart.com.hk"
+    },
+    {
+      "url": "https://www.facebook.com/174383602581935/",
+      "meta": {
+        "id": "174383602581935",
+        "username": "euroarthk",
+        "name": "Euro ArtDeco 歐藝精品坊",
+        "about": "歐藝精品坊 Euro Art Deco –專營歐洲進口之古董家俱、燈飾、古董精品、工藝飾品等，所有貨源均由專人常駐歐洲各國古玩市場精心挑選，為您呈現真正漂洋過海，來自歐洲的古董及工藝品。",
+        "category_list": [
+          {
+            "id": "192647794097278",
+            "name": "Home Decor"
+          },
+          {
+            "id": "150732438316813",
+            "name": "Antique Store"
+          }
+        ],
+        "emails": [
+          "deco@euroart.com.hk"
+        ],
+        "single_line_address": "Shop 2042, 2F, United Centre, Admiralty, Hong Kong 香港金鐘金鐘道95號統一中心二樓2042號店 (金鐘地鐵站D出口), 香港",
+        "website": "http://www.euroart.com.hk"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/euro.artdeco/",
+      "meta": {
+        "name": "Euro Artdeco",
+        "about": "EuroArtDeco\n☎️Tel: (852) 26900397\n📍香港九龍灣宏通道2號寶康中心308室\n#antique #vintage #antiquefurniture"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/euroarthk/posts/2345426218810985",
+      "meta": {
+        "sharedWith": "Custom",
+        "embeddable": true
+      }
+    },
+    {
+      "url": "https://www.facebook.com/euroarthk/posts/2401977009822572",
+      "meta": {
+        "sharedWith": "Custom",
+        "embeddable": true
+      }
+    }
+  ],
+  "tags": [
+    "antique",
+    "furniture",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "金鐘金鐘道95號統一中心二樓2042號店"
+      },
+      "googleMapsPlaceId": "ChIJV7wXkzQBBDQRyCkq9FpmccI",
+      "coordinates": {
+        "lat": 22.2786377,
+        "lng": 114.1651851
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍灣宏通道2號寶康中心308室"
+      },
+      "googleMapsPlaceId": "ChIJGSpKwTMBBDQRTQJCTxDYoac",
+      "coordinates": {
+        "lat": 22.32086899999999,
+        "lng": 114.207494
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 587
+    }
+  ]
+}
