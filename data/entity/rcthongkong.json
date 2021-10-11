@@ -1,0 +1,88 @@
+{
+  "id": "rcthongkong",
+  "name": {
+    "en": "RCT Hong Kong"
+  },
+  "webpages": [
+    {
+      "url": "https://www.rct.com.hk"
+    },
+    {
+      "url": "https://www.facebook.com/102098758046307/",
+      "meta": {
+        "id": "102098758046307",
+        "username": "rcthongkong",
+        "name": "RCT Hong Kong",
+        "about": "RCT is a newly formed boutique boxing & fitness gym, formed by the best local boxers in the city. We offer highest level of professional boxing training coming with top of the range gym equipments.\n",
+        "category_list": [
+          {
+            "id": "1639776363011106",
+            "name": "Boxing Studio"
+          },
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          },
+          {
+            "id": "964585346994407",
+            "name": "Sports"
+          }
+        ],
+        "emails": [
+          "info@rct.com.hk"
+        ],
+        "single_line_address": "Unit 4, 20/F, Eastern Centre, 1065 King's Road, Quarry Bay, 香港",
+        "website": "www.rct.com.hk"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/rcthongkong/",
+      "meta": {
+        "name": "RCT Boxing & Fitness Gym",
+        "about": "🥊 Remain Committed To Boxing\n• Personal Training • Small Group Classes\n• Team Building Sessions\nAll classes designed by @RexTso"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC9FdZkpEHCqUC-OlToUAD1g",
+      "meta": {
+        "id": "UC9FdZkpEHCqUC-OlToUAD1g",
+        "location": "Hong Kong",
+        "name": "RCT Hong Kong",
+        "about": ""
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/rcthongkong/posts/151912533064929",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "fitness",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit 4, 20/F, Eastern Centre, 1065 King's Road, Quarry Bay"
+      },
+      "googleMapsPlaceId": "ChIJu1YJnSYBBDQRbHJNmKFj_a8",
+      "coordinates": {
+        "lat": 22.2851153,
+        "lng": 114.2142514
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 4235
+    }
+  ]
+}
