@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://hk.pinkoi.com/store/the-gal-who-sold-tora/"
+    },
+    {
       "meta": {
         "id": "61668818638",
         "username": "sold.tora",
@@ -27,6 +30,9 @@
         "website": "https://www.pinkoi.com/inv/the-gal-who-sold-tora"
       },
       "url": "https://www.facebook.com/sold.tora/"
+    },
+    {
+      "url": "https://mewe.com/join/soldtora"
     }
   ],
   "posts": [
@@ -45,6 +51,21 @@
     {
       "type": "shop",
       "id": 2357
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣希慎廣場誠品書店10/F"
+      },
+      "googleMapsPlaceId": "ChIJqaEEx1YABDQR1hvP_ORaUWY",
+      "coordinates": {
+        "lat": 22.27961310000001,
+        "lng": 114.1839412
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ]
 }
