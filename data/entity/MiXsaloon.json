@@ -1,0 +1,72 @@
+{
+  "id": "MiXsaloon",
+  "name": {
+    "en": "MiX saloon"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/MixSaloon/",
+      "meta": {
+        "id": "381771975234150",
+        "username": "MixSaloon",
+        "name": "MiX saloon",
+        "about": "香港德輔道西257號 地下\nG/f,257 Des Veuox Rd,West,HK",
+        "category_list": [
+          {
+            "id": "2200",
+            "name": "Company"
+          }
+        ],
+        "single_line_address": "香港德輔道西257號"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/529040520443261/",
+      "meta": {
+        "id": "529040520443261",
+        "name": "MiX saloon",
+        "category_list": [
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          },
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          }
+        ],
+        "emails": [
+          "mixsaloon@yahoo.com.hk"
+        ],
+        "single_line_address": "西環德輔道西257號地下, 852 香港"
+      },
+      "hidden": true
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "salon",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "西環德輔道西257號地下"
+      },
+      "googleMapsPlaceId": "ChIJr8Tv_oD_AzQReNM1JKsaWBM",
+      "coordinates": {
+        "lat": 22.288116,
+        "lng": 114.141198
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 930
+    }
+  ]
+}
