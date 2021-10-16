@@ -1,0 +1,56 @@
+{
+  "id": "shop_trolley",
+  "name": {
+    "en": "Shop_trolley"
+  },
+  "webpages": [
+    {
+      "url": "https://shoptrolley-hk.com"
+    },
+    {
+      "url": "https://shoptrolley.shopage.org",
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/shop_trolley2/",
+      "meta": {
+        "name": "Shop_trolley2",
+        "about": "原IG @shop_trolley （13K follower) 暫被停用，搶救中🥲\n📣會員優惠已開通，快啲網店登記啦\n📣支援八達通電子消費券\n格仔舖自取點：旺角中心3樓T 117號鋪\n滿$180包中通/郵局；$500包順豐"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/shop_trolley_wall/",
+      "meta": {
+        "name": "主售銀包配飾",
+        "about": "原IG @shop_trolley （13K follower) 暫被停用，搶救中🥲\n📣會員惠優已開通，快啲網店登記啦\n📣支援八達通電子消費券\n荔枝角門市：荔枝角青山道501號國際工業大廈11樓B1室\n格仔舖自取點：旺角中心3樓T 117號鋪\n滿$180包中通/郵局；$500包順豐"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "clothing",
+    "accessories",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荔枝角青山道501號國際工業大廈11樓B01室"
+      },
+      "googleMapsPlaceId": "ChIJsSdnU6AHBDQRu2_Gk_p07UE",
+      "coordinates": {
+        "lat": 22.3372183,
+        "lng": 114.1456539
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 4327
+    }
+  ]
+}
