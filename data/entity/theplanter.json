@@ -1,0 +1,45 @@
+{
+  "id": "theplanter",
+  "name": {
+    "en": "Planter",
+    "zh": "荃蕙志務書社"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/theplanter/",
+      "meta": {
+        "name": "Planter 荃蕙"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://commons.ln.edu.hk/thinkinghk/vol9/iss1/2/"
+    }
+  ],
+  "tags": [
+    "book",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門鄉事會路4-26 號明偉大樓3 樓"
+      },
+      "googleMapsPlaceId": "ChIJq9L21CL7AzQRxzCfILHQl4A",
+      "coordinates": {
+        "lat": 22.3955153,
+        "lng": 113.9747316
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 2785
+    }
+  ]
+}
