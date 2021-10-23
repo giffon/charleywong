@@ -31,7 +31,7 @@
     {
       "url": "https://www.instagram.com/myfloroma/",
       "meta": {
-        "name": "Floroma 花の滴 - 全港首創･醒神筆･功能性香水",
+        "name": "Floroma 花の滴 - 法國原料 香港制造",
         "about": "花の滴是知名香港原創手工香水品牌，曾獲多個媒體報導，皇牌香水包括白蘭花、薑花、桂花、茉莉花、水仙香水等￼。￼￼花之滴亦有舉辦香水班和婚姻香水吧。歡迎查詢！\nFB: myfloroma"
       }
     }
@@ -53,15 +53,28 @@
   "places": [
     {
       "address": {
-        "zh": "柴灣嘉業街12號百樂門大廈1302室"
+        "zh": "旺角新世紀廣場1樓109號舖"
       },
-      "googleMapsPlaceId": "ChIJMYsvMCkCBDQRA_cuA2baw9U",
+      "googleMapsPlaceId": "ChIJC_lPIskABDQRxerRNtoOV9o",
       "coordinates": {
-        "lat": 22.2678758,
-        "lng": 114.2444196
+        "lat": 22.3231937,
+        "lng": 114.1723194
       },
       "area": {
-        "zh": "東區"
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "元朗YOHO Mall1期1樓1128A號舖"
+      },
+      "googleMapsPlaceId": "ChIJpYQGYIjxAzQROoNgsmw8Z0o",
+      "coordinates": {
+        "lat": 22.4452169,
+        "lng": 114.0377483
+      },
+      "area": {
+        "zh": "元朗區"
       }
     }
   ]
