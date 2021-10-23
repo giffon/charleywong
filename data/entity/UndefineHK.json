@@ -1,7 +1,8 @@
 {
-  "id": "MAXFITHK",
+  "id": "UndefineHK",
   "name": {
-    "en": "maxfit_hk"
+    "zh": "奀",
+    "en": "Undefine"
   },
   "webpages": [
     {
@@ -9,7 +10,7 @@
       "meta": {
         "id": "101671701313245",
         "username": "UndefineHK",
-        "name": "maxfit_hk",
+        "name": "奀Undefine",
         "about": "Personal training classes\n-\nBoutique group trainings\n-\nSpace rental\n�51878652\n� info@maxfithk.com\n19/F, Xiu Hua Commercial Building, 211-213, Jaffe Road, Wan Chai, Hong Kong Island, HK",
         "category_list": [
           {
@@ -20,29 +21,26 @@
         "emails": [
           "info@maxfithk.com"
         ],
-        "single_line_address": "19/F, Xiu Hua Commercial Building, 211-213, Jaffe Road,Wan Chai, Hong Kong Island, 00000 Hong Kong, Hong Kong"
+        "single_line_address": "20/F, 78 bonham strand, sheung wan, 00000 香港"
       }
     },
     {
-      "url": "https://www.instagram.com/maxfit_hk/",
+      "url": "https://www.instagram.com/un_undefine/",
       "meta": {
-        "name": "MAXFIT",
-        "about": "Personal Training/ Group Training/ Gym Rental\nHealthy physiques come in all shapes and sizes🖤"
+        "name": "Undefine 奀",
+        "about": "灣仔謝斐道秀211-213號秀華商業大廈19樓全層\n#灣仔健身 #hkgym #hkfitness"
       }
     }
   ],
   "posts": [
     {
-      "url": "https://www.instagram.com/p/B-MSjisBrCi/"
-    },
-    {
-      "url": "https://www.facebook.com/MAXFITHK/posts/162980575182357",
+      "url": "https://www.facebook.com/101671701313245/posts/162980575182357",
       "meta": {
         "sharedWith": "Public"
       }
     },
     {
-      "url": "https://www.facebook.com/MAXFITHK/posts/166553078158440",
+      "url": "https://www.facebook.com/101671701313245/posts/166553078158440",
       "meta": {
         "sharedWith": "Public"
       }
@@ -55,15 +53,15 @@
   "places": [
     {
       "address": {
-        "en": "20/F, 78 bonham strand, sheung wan"
+        "zh": "灣仔謝斐道秀211-213號秀華商業大廈19樓全層"
       },
-      "googleMapsPlaceId": "ChIJ-TzNGogBBDQRfh8WJaqvlug",
+      "googleMapsPlaceId": "ChIJ1VrEfcoBBDQRlLMKEE6nNTc",
       "coordinates": {
-        "lat": 22.2859606,
-        "lng": 114.150647
+        "lat": 22.2790622,
+        "lng": 114.1757765
       },
       "area": {
-        "zh": "中西區"
+        "zh": "灣仔區"
       }
     }
   ],
@@ -72,5 +70,8 @@
       "type": "shop",
       "id": 2339
     }
+  ],
+  "alias": [
+    "MAXFITHK"
   ]
 }
