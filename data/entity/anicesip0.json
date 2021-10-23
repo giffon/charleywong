@@ -24,19 +24,22 @@
         "about": "A Nice Sip is a trendy Bubble Tea/Chinese food Cafe.  Our tea is directly from Taiwan, freshly brewed. We use best quality ingredients for all our dishes. ",
         "category_list": [
           {
-            "id": "1083443491742919",
-            "name": "Bubble Tea Shop"
-          },
-          {
             "id": "197871390225897",
             "name": "Cafe"
+          },
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
           },
           {
             "id": "174483852595760",
             "name": "Chinese Restaurant"
           }
         ],
-        "single_line_address": "8 Salisbury House, St Stephen Street, Salford, M3 6AX 英国 Manchester, United Kingdom",
+        "emails": [
+          "contactus@anicesip.com"
+        ],
+        "single_line_address": "8 Salisbury House, St Stephen Street, Salford, M3 6AX Manchester, UK",
         "website": "https://anicesip.square.site"
       }
     },
