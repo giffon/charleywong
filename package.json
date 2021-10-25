@@ -27,7 +27,7 @@
   "homepage": "https://github.com/giffon/CharleyWong#readme",
   "private": true,
   "dependencies": {
-    "@googlemaps/google-maps-services-js": "3.2.6",
+    "@googlemaps/google-maps-services-js": "3.3.0",
     "aws-lambda-fastify": "1.7.1",
     "chokidar": "3.5.2",
     "fastify": "3.22.1",
