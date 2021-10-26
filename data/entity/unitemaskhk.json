@@ -65,9 +65,43 @@
     {
       "type": "shop",
       "id": 5424
+    },
+    {
+      "type": "shop",
+      "id": 6679
+    },
+    {
+      "type": "shop",
+      "id": 6680
     }
   ],
   "places": [
+    {
+      "address": {
+        "zh": "灣仔莊士敦道111-123號修頓中心地下6B號鋪 同舟文創"
+      },
+      "googleMapsPlaceId": "ChIJF8ADkFwABDQRAAvrgSw1epQ",
+      "coordinates": {
+        "lat": 22.2772347,
+        "lng": 114.1727549
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "深水埗長沙灣道257號 同舟文創"
+      },
+      "googleMapsPlaceId": "ChIJE8T4XbMABDQRNPOKZEKJkIg",
+      "coordinates": {
+        "lat": 22.3312591,
+        "lng": 114.1614279
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
     {
       "address": {
         "zh": "火炭坳背灣街57號利達工業中心地下7A鋪 小魔怪"
