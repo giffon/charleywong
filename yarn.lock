@@ -3030,10 +3030,10 @@
   resolved "https://registry.yarnpkg.com/@types/caseless/-/caseless-0.12.2.tgz#f65d3d6389e01eeb458bd54dc8f52b95a9463bc8"
   integrity sha512-6ckxMjBBD8URvjB6J3NcnuAn5Pkl7t3TizAg+xdlzzQGSPSmBcXf8KoIH0ua/i+tio+ZRUHEXp0HEmvaR4kt0w==
 
-"@types/chrome@0.0.159":
-  version "0.0.159"
-  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.159.tgz#0c1125fbb6d1fd64713e35de9aafbfd5a1b7a33a"
-  integrity sha512-WZBkNJGAwZuRgv/an94DANdzFtJK0TvlO/evMpJD/TYnkjIxynIAU6RM7M78e8tyig/vD6weQ9T1Ba7v8nYjXQ==
+"@types/chrome@0.0.161":
+  version "0.0.161"
+  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.161.tgz#bd4fdb2f1baa81ae322f7d985e59f7da66177d1f"
+  integrity sha512-XIzF4QwEN9/fI0QBmV1wVpaJwWGAE+ChvxCTlzbfRDBSk58JD7SBYCqUaMjyMxnG0ehylYWrNR8YOYfHbAdnuA==
   dependencies:
     "@types/filesystem" "*"
     "@types/har-format" "*"
