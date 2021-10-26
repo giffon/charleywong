@@ -1,8 +1,7 @@
 {
   "id": "handsbox",
   "name": {
-    "en": "Handsbox",
-    "zh": "皮革學堂"
+    "en": "Handsbox"
   },
   "webpages": [
     {
@@ -69,6 +68,34 @@
     {
       "type": "shop",
       "id": 920
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵興 永祥工業大廈 二樓 A28室 (總店)"
+      },
+      "googleMapsPlaceId": "ChIJzdbwZAb5AzQR18PhYuekJeY",
+      "coordinates": {
+        "lat": 22.362771,
+        "lng": 114.1325253
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "茘枝角 永盛工業大廈 地下 23鋪 (工作室)"
+      },
+      "googleMapsPlaceId": "ChIJVVVFa1QHBDQR4uU07w-TWcE",
+      "coordinates": {
+        "lat": 22.339023,
+        "lng": 114.149358
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ]
 }
