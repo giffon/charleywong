@@ -88,5 +88,20 @@
       "type": "shop",
       "id": 1884
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "德榮工業大廈6A"
+      },
+      "googleMapsPlaceId": "ChIJ67FwVTv7AzQROdopp_ctL84",
+      "coordinates": {
+        "lat": 22.3957787,
+        "lng": 113.9713949
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
   ]
 }
