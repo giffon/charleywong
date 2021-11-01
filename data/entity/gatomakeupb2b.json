@@ -25,14 +25,25 @@
       "url": "https://www.facebook.com/gatomakeupb2b/"
     }
   ],
-  "posts": [
-    {
-      "url": "https://www.facebook.com/gatomakeupb2b/photos/a.589865144382118/2525584410810172"
-    }
-  ],
+  "posts": [],
   "tags": [
     "makeup",
     "artist",
     "wedding"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘駱駝漆大廈一期6樓C8"
+      },
+      "googleMapsPlaceId": "ChIJ5TPlbkUBBDQRnl7hErv4wV4",
+      "coordinates": {
+        "lat": 22.3104591,
+        "lng": 114.2251647
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
