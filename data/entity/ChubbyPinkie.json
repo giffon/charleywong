@@ -37,5 +37,20 @@
   "tags": [
     "shop",
     "accessories"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room1401, 14/F., Decca Industrial Centre, 12 Kut Shing Street, Chai Wan"
+      },
+      "googleMapsPlaceId": "ChIJDbcoKIYBBDQRKVygf_iHEQY",
+      "coordinates": {
+        "lat": 22.26513499999999,
+        "lng": 114.235479
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
   ]
 }
