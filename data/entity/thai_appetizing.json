@@ -91,6 +91,19 @@
       "area": {
         "zh": "黃大仙區"
       }
+    },
+    {
+      "address": {
+        "zh": "石門安麗街18號達利廣場G樓4室"
+      },
+      "googleMapsPlaceId": "ChIJM86O6EYGBDQR2r9YOu_bhH8",
+      "coordinates": {
+        "lat": 22.3886925,
+        "lng": 114.207564
+      },
+      "area": {
+        "zh": "沙田區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -101,6 +114,10 @@
     {
       "type": "eat",
       "id": 5320
+    },
+    {
+      "type": "eat",
+      "id": 6395
     }
   ],
   "alias": [
