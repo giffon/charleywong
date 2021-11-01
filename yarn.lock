@@ -5474,10 +5474,10 @@ dotenv@^8.2.0:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.6.0.tgz#061af664d19f7f4d8fc6e4ff9b584ce237adcb8b"
   integrity sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g==
 
-dts2hx@0.17.0:
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/dts2hx/-/dts2hx-0.17.0.tgz#c1100b56833370f1f7fefc815085dc36d8cdff5e"
-  integrity sha512-OxZ1c101GeGXgYtrgspix3sNv9z8O5tLVi+iG+6PFaHoakL8QQ5vbSm/PHEqEUt+wn4U1waI21a+4/OrGM8Qjw==
+dts2hx@0.18.1:
+  version "0.18.1"
+  resolved "https://registry.yarnpkg.com/dts2hx/-/dts2hx-0.18.1.tgz#f650a7baf3bb76acc6c968d8517abf49d51434af"
+  integrity sha512-DDNK57KJYIUlzutxjlE9vOzT0/pMD2kdBAxty8oO+Ij5EmkJcpzD1uAN/oPzh9r0+4OWQjBrxI6Fxw5qEh4XuQ==
   dependencies:
     typescript "3.7.4"
 
