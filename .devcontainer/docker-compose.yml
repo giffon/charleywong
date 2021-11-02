@@ -8,9 +8,14 @@ services:
       - ..:/workspace:cached
     environment:
       - TZ=Asia/Hong_Kong
-    ports:
-      - "443:443"
-      - "80:443"
     user: vscode
     entrypoint: /usr/local/share/docker-init.sh
     command: sleep infinity
+  cloudflared:
+    image: cloudflare/cloudflared:2021.10.5
+    environment:
+      - TUNNEL_METRICS=cloudflared:44871
+      - TUNNEL_TRANSPORT_PROTOCOL=http2
+    command: tunnel --no-autoupdate --url http://workspace:80
+    expose:
+      - "44871"

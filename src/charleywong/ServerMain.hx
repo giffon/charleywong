@@ -889,21 +889,24 @@ class ServerMain {
                 entityIndex.invalidate();
             });
 
-            require("https-localhost")().getCerts().then(certs -> {
-                app = Fastify.fastify({
-                    serverFactory: (handler, opts) -> {
-                        require('@httptoolkit/httpolyglot').createServer(certs, handler);
-                    },
+            app = Fastify.fastify();
+            initServer();
+            app.post("/", post);
+            app.listen(80, "0.0.0.0");
+
+            Cloudflared.getHostname("http://cloudflared:44871/metrics")
+                .then(hostname -> {
+                    Sys.println(hostname);
+                })
+                .catchError(err -> {
+                    trace(err);
+                    Sys.println('http://localhost');
+                })
+                .then(_ -> {
+                    for (e in entityIndex.entities) {
+                        geocode(e);
+                    }
                 });
-                initServer();
-                app.post("/", post);
-                app.listen(443, "0.0.0.0");
-            }).then(_ -> {
-                Sys.println('https://localhost');
-                for (e in entityIndex.entities) {
-                    geocode(e);
-                }
-            });
         } else {
             app = Fastify.fastify();
             initServer();
