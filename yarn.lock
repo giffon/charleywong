@@ -1086,14 +1086,14 @@
   dependencies:
     purgecss "^3.1.3"
 
-"@googlemaps/google-maps-services-js@3.3.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.3.0.tgz#07a02c7122d05d01ca2a94ae0568ac8e791ac0da"
-  integrity sha512-CvHkn0Svjanks1DaW/1MUDIIJCnehX7FLtpWuGb5L98xQrH9/IAOMjJSJCVPaSg9jhUoSiPkX1iDKnYbzJPWqg==
+"@googlemaps/google-maps-services-js@3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.3.1.tgz#e0fd5267d595acf63258a2fe053c7f1a19b3b914"
+  integrity sha512-Wg4IEQD+Pds2BZydxI2CVbqPCROfwzKQ8r7VRC2FI6aSdtAW8pNcjil9LiQEjy3NX6CA5ze6d4xPABcujfFUKg==
   dependencies:
     "@googlemaps/url-signature" "^1.0.2"
     agentkeepalive "^4.1.0"
-    axios "^0.21.1"
+    axios "^0.24.0"
     query-string "^7.0.1"
     retry-axios "^2.2.1"
 
@@ -3743,6 +3743,13 @@ axios@^0.21.1:
   dependencies:
     follow-redirects "^1.10.0"
 
+axios@^0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.24.0.tgz#804e6fa1e4b9c5288501dd9dff56a7a0940d20d6"
+  integrity sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA==
+  dependencies:
+    follow-redirects "^1.14.4"
+
 babel-plugin-dynamic-import-node@^2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/babel-plugin-dynamic-import-node/-/babel-plugin-dynamic-import-node-2.3.3.tgz#84fda19c976ec5c6defef57f9427b3def66e17a3"
@@ -6381,6 +6388,11 @@ follow-redirects@^1.10.0:
   version "1.13.1"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"
   integrity sha512-SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg==
+
+follow-redirects@^1.14.4:
+  version "1.14.5"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.5.tgz#f09a5848981d3c772b5392309778523f8d85c381"
+  integrity sha512-wtphSXy7d4/OR+MvIFbCVBDzZ5520qV8XfPklSN5QtxuMUJZ+b0Wnst1e1lCDocfzuCkHqj8k0FpZqO+UIaKNA==
 
 for-in@^1.0.2:
   version "1.0.2"
