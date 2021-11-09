@@ -1783,10 +1783,10 @@
     uuid "^8.3.2"
     write-file-atomic "^3.0.3"
 
-"@serverless/utils@^5.20.0":
-  version "5.20.0"
-  resolved "https://registry.yarnpkg.com/@serverless/utils/-/utils-5.20.0.tgz#09077e3fdc333c2f29118e21139a5ed49fe95aa8"
-  integrity sha512-ko6NsB5tudcSiqeBeqAKsEfa/gDZlwBIenajec2nUELcXVSy13Y4deCSYQqzn1MA0OkNOgMBJL349exukENiTg==
+"@serverless/utils@^5.20.0", "@serverless/utils@^5.20.1":
+  version "5.20.1"
+  resolved "https://registry.yarnpkg.com/@serverless/utils/-/utils-5.20.1.tgz#88c5d8e40b5a2c8947eff5a107e453b06e7598db"
+  integrity sha512-X2CD685Q4NHuX4Si3SVZU4iaMDgD4+d78sd+nTyxV+lwFHG9FFUSJftwclYzoqZshw6QoYd/mMnUotWnlsiLWA==
   dependencies:
     archive-type "^4.0.0"
     chalk "^4.1.2"
@@ -3693,10 +3693,10 @@ aws-lambda-ric@2.0.0:
     node-addon-api "3.2.1"
     node-gyp "8.1.0"
 
-aws-sdk@^2.1021.0:
-  version "2.1022.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1022.0.tgz#b8c83e7bae0cbf5d937316aaf10719d1db72546b"
-  integrity sha512-JIXk8xhBztPKe4hrBHaJ9zyjWrHUhuQhRex18BSJERwryifgMcxLjb/LFJrcYWP0d49g/WrV/GpYkpc23MBV/Q==
+aws-sdk@^2.1024.0:
+  version "2.1025.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1025.0.tgz#566f62efc80d6d4cc6e893774a2f15ac774a93fc"
+  integrity sha512-1AR2xIHcbIWj5y3fh9JHd2fLgiGqpn9Ww+8y9kZDnrsIousJkR6L+QkG0mRhChu/AjpFVQ44fiTBoE4J88Dqyw==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -10277,20 +10277,20 @@ serverless-prune-plugin@1.6.1:
   dependencies:
     bluebird "^3.4.7"
 
-serverless@2.65.0:
-  version "2.65.0"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.65.0.tgz#a693e53cd9958cca52713dabec8c71086b816bcb"
-  integrity sha512-EpqX2+R6fIyLLiG/tNf+TvsoO03CKdyOTC4MBwuuQ0E5/7hty1ig4s9/OQ9blcZzD7lxo47IzwA6FneGGrNWdQ==
+serverless@2.66.0:
+  version "2.66.0"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.66.0.tgz#22dfc152d8b15a2a8ec2606394eed2354c8be777"
+  integrity sha512-oPNuSpk44IgnPYJCnh8M3hKCX7zn9XZYpFt9kJQQhLM5zDxMiBk9yj8VV7yhUpBXBOi5gjrA5OZZwnpCPXjYww==
   dependencies:
     "@serverless/cli" "^1.5.3"
     "@serverless/components" "^3.17.2"
     "@serverless/dashboard-plugin" "^5.5.1"
     "@serverless/platform-client" "^4.3.0"
-    "@serverless/utils" "^5.20.0"
+    "@serverless/utils" "^5.20.1"
     ajv "^6.12.6"
     ajv-keywords "^3.5.2"
     archiver "^5.3.0"
-    aws-sdk "^2.1021.0"
+    aws-sdk "^2.1024.0"
     bluebird "^3.7.2"
     boxen "^5.1.2"
     cachedir "^2.3.0"
