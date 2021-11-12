@@ -1086,21 +1086,21 @@
   dependencies:
     purgecss "^3.1.3"
 
-"@googlemaps/google-maps-services-js@3.3.1":
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.3.1.tgz#e0fd5267d595acf63258a2fe053c7f1a19b3b914"
-  integrity sha512-Wg4IEQD+Pds2BZydxI2CVbqPCROfwzKQ8r7VRC2FI6aSdtAW8pNcjil9LiQEjy3NX6CA5ze6d4xPABcujfFUKg==
+"@googlemaps/google-maps-services-js@3.3.2":
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.3.2.tgz#7eb54e3f3f02cd014c3d96ae07cd7bfd18529c86"
+  integrity sha512-euDGbfxeV/sPUCVFdfHmbSm5z5J8oppYVvrWeHUJq3PDRUBsvZ4s6Zy8GsFYFmy7YYWiVELFzqhrHMa54uCcDw==
   dependencies:
-    "@googlemaps/url-signature" "^1.0.2"
+    "@googlemaps/url-signature" "^1.0.4"
     agentkeepalive "^4.1.0"
     axios "^0.24.0"
     query-string "^7.0.1"
     retry-axios "^2.2.1"
 
-"@googlemaps/url-signature@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@googlemaps/url-signature/-/url-signature-1.0.2.tgz#3760f1ccde392f808ba506db724f9c0440dfad5e"
-  integrity sha512-Td7uGc4bgHenGbh4gpIqypTZjBFgC6O73UGyWj9zJdMRWiZeU8MDl4snNlKpuo7V3Mb1BIDR6o9UcFTYXtLNfQ==
+"@googlemaps/url-signature@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@googlemaps/url-signature/-/url-signature-1.0.4.tgz#bd94dbe372187661bdf4850d89e3748c38187cd2"
+  integrity sha512-9OPJzSi/1hz7ieDbdVCEIgpfIgdPyAA+EkOrbDXPsG81//TtrIiRS/0RrDCsG0d2UGcXBxMkZGF6Y1sbsMP7oA==
   dependencies:
     crypto-js "^4.1.1"
 
