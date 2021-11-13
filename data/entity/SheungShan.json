@@ -19,11 +19,16 @@
           {
             "id": "153490828039067",
             "name": "Outdoor Equipment Store"
+          },
+          {
+            "id": "174921992560086",
+            "name": "Rock Climbing Gym"
           }
         ],
         "emails": [
           "info@seekerzsummit.com"
         ],
+        "single_line_address": "No.234 Tai Nan Street, Sham Shui Po, Kowloon, 852 香港",
         "website": "www.sheungshan.com"
       }
     },
@@ -67,5 +72,20 @@
     "hiking",
     "accessories",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍 深水埗 大南街 234號 尚山岩舘"
+      },
+      "googleMapsPlaceId": "EicyMzQgVGFpIE5hbiBTdCwgU2hhbSBTaHVpIFBvLCBIb25nIEtvbmciMRIvChQKEgk5kHkOtAAENBExed38JTeC4RDqASoUChIJG6ZxIbQABDQRAGrbm7BIPiE",
+      "coordinates": {
+        "lat": 22.3279251,
+        "lng": 114.1625422
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
