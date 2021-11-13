@@ -32,7 +32,20 @@
       }
     }
   ],
-  "posts": [],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=3087993154651899&id=1195447300573170",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=3474249706026240&id=1195447300573170",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
   "tags": [
     "accessories",
     "shop"
@@ -49,6 +62,32 @@
       },
       "area": {
         "zh": "北區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角廣華街仁安大廈地下5B舖"
+      },
+      "googleMapsPlaceId": "ChIJC4-ZkcYABDQREg1GZkBWuMM",
+      "coordinates": {
+        "lat": 22.3160548,
+        "lng": 114.1725926
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳坑口南豐廣場一樓B5A鋪"
+      },
+      "googleMapsPlaceId": "ChIJP3vCw4oDBDQRobyvs40ASsE",
+      "coordinates": {
+        "lat": 22.3144967,
+        "lng": 114.2638801
+      },
+      "area": {
+        "zh": "西貢區"
       }
     }
   ],
