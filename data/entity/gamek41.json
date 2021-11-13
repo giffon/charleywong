@@ -37,5 +37,20 @@
   "tags": [
     "toy",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵涌梨木道4-30號億萬工業中心8樓B座"
+      },
+      "googleMapsPlaceId": "ChIJn1mi6N4ABDQRCs_mjGvVtvQ",
+      "coordinates": {
+        "lat": 22.3684662,
+        "lng": 114.1355283
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
