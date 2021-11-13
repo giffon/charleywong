@@ -103,7 +103,20 @@
   "places": [
     {
       "address": {
-        "en": "Shop A14, Wai On Garden"
+        "zh": "九龍灣常悅道21號Eastmark 106鋪"
+      },
+      "googleMapsPlaceId": "ChIJ1WWa9jQBBDQRxsAv3SjCy0Q",
+      "coordinates": {
+        "lat": 22.3222915,
+        "lng": 114.2112344
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍寶琳慧安園商場地下A14 (只限外賣)"
       },
       "googleMapsPlaceId": "ChIJS7tLKA8EBDQRYOVpCM-8OV0",
       "coordinates": {
@@ -119,6 +132,10 @@
     {
       "type": "eat",
       "id": 475
+    },
+    {
+      "type": "eat",
+      "id": 6409
     }
   ],
   "alias": [
