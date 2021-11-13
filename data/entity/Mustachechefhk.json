@@ -70,6 +70,19 @@
       "area": {
         "zh": "灣仔區"
       }
+    },
+    {
+      "address": {
+        "zh": "九龍灣啓業邨啓賢樓地下1號舖"
+      },
+      "googleMapsPlaceId": "ChIJVeSeaXIHBDQRyrFluLRapeE",
+      "coordinates": {
+        "lat": 22.3286191,
+        "lng": 114.2088414
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -92,6 +105,10 @@
     {
       "type": "eat",
       "id": 6068
+    },
+    {
+      "type": "eat",
+      "id": 6414
     }
   ]
 }
