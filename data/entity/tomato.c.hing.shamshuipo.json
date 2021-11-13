@@ -42,7 +42,8 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "noodle"
   ],
   "yellowBlueMapIds": [
     {
@@ -52,6 +53,10 @@
     {
       "type": "eat",
       "id": 2119
+    },
+    {
+      "type": "eat",
+      "id": 6410
     }
   ],
   "places": [
@@ -79,6 +84,19 @@
       },
       "area": {
         "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "灣仔安樂里1號利昌大廈地下低層B號舖"
+      },
+      "googleMapsPlaceId": "ChIJDy5IS0IBBDQRVeewAStQ1wQ",
+      "coordinates": {
+        "lat": 22.277904,
+        "lng": 114.178433
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ]
