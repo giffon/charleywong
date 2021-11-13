@@ -1,7 +1,8 @@
 {
   "id": "sailorhousehk",
   "name": {
-    "en": "Sailor House"
+    "en": "Sailor House",
+    "zh": "水手屋"
   },
   "webpages": [
     {
@@ -97,12 +98,29 @@
       "area": {
         "zh": "深水埗區"
       }
+    },
+    {
+      "address": {
+        "zh": "新蒲崗衍慶街31-49號啟新大廈地下10號舖"
+      },
+      "googleMapsPlaceId": "ChIJfc3A-dYGBDQRSHieE5WiXhU",
+      "coordinates": {
+        "lat": 22.3350795,
+        "lng": 114.1947229
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 5371
+    },
+    {
+      "type": "shop",
+      "id": 6681
     }
   ]
 }
