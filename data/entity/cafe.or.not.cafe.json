@@ -1,0 +1,79 @@
+{
+  "id": "cafe.or.not.cafe",
+  "name": {
+    "zh": "這不是咖啡店"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/105168891151104/",
+      "meta": {
+        "id": "105168891151104",
+        "username": "cafe.or.not.cafe",
+        "name": "這不是咖啡店",
+        "about": "咖啡，不一定要只是咖啡。在這不是咖啡店內，除了咖啡，還有攝影書的分?",
+        "category_list": [
+          {
+            "id": "1601",
+            "name": "Artist"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "181475575221097",
+            "name": "Photographer"
+          }
+        ],
+        "emails": [
+          "joe_lauck@hotmail.com"
+        ],
+        "single_line_address": "701 台灣臺南市台南市東區崇學路96巷8弄1號"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/cafe_or_not_a_cafe/",
+      "meta": {
+        "name": "Joe Lau"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=133883048279688&id=105168891151104",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=134326558235337&id=105168891151104",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=155318592802800&id=105168891151104",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "台灣臺南市台南市東區崇學路96巷8弄1號"
+      },
+      "googleMapsPlaceId": "ChIJ6ye1RPR3bjQRnNrTKIWho84",
+      "coordinates": {
+        "lat": 22.9787672,
+        "lng": 120.2230787
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    }
+  ]
+}
