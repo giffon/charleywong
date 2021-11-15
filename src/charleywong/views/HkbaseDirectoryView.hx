@@ -25,12 +25,17 @@ class HkbaseDirectoryView extends View {
 
     function renderEntity(e:Entity) {
         var data = HkbaseDirectory.getData(e);
-        return jsx('
-            <li key=${e.id} className=${Tag.expend(e.tags).map(t -> "tag-" + t.id).join(" ")} >
-                <a href=${'/${e.id}'}>${e.name.printAll()}</a>
-                ${data != null ? renderLabel(data.type) : null}
-            </li>
-        ');
+        if (data == null) {
+            trace('No HKBASE data of ${e.name.printAll()}');
+            return null;
+        } else {
+            return jsx('
+                <li key=${e.id} className=${Tag.expend(e.tags).map(t -> "tag-" + t.id).join(" ")} >
+                    <a href=${'/${e.id}'}>${e.name.printAll()}</a>
+                    ${data != null ? renderLabel(data.type) : null}
+                </li>
+            ');
+        }
     }
 
     override function prefetch() return entities.length > 5 ? [] : [

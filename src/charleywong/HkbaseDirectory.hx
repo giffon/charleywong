@@ -1,6 +1,7 @@
 package charleywong;
 
 #if js
+import js.html.URL;
 import js.npm.google_spreadsheet.GoogleSpreadsheet;
 import charleywong.GoogleServiceAccount.googleServiceAccount;
 import charleywong.UrlExtractors.*;
@@ -52,6 +53,19 @@ class HkbaseDirectory {
 
 
     static public function match(data:HkbaseData, e:Entity):Bool {
+        for (webpage in data.webpages) {
+            switch (new URL(webpage)) {
+                case extractFbHomePage(_) => fb if (fb != null):
+                    if (e.webpages.exists(p -> switch (new URL(p.url)) {
+                        case extractFbHomePage(_) => efb if (efb != null):
+                            fb == efb || p.meta["id"] == fb || p.meta["username"] == fb;
+                        case _:
+                            false;
+                    })) return true;
+                case _:
+                    // pass
+            }
+        }
         if (e.webpages.exists(p -> data.webpages.has(p.url)))
             return true;
 

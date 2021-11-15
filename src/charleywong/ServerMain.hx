@@ -75,7 +75,15 @@ class ServerMain {
     }
 
     static function pageHkbaseDirectory(req:Request, reply:Reply):Promise<Dynamic> {
-        var entities = HkbaseDirectory.localCache.map(d -> HkbaseDirectory.getEntity(d, entityIndex.entitiesOfHkbase)); // use the order of HKBASE directory
+        var entities = HkbaseDirectory.localCache // use the order of HKBASE directory
+            .map(d -> switch (HkbaseDirectory.getEntity(d, entityIndex.entitiesOfHkbase)) {
+                case null:
+                    trace('No matching entity of ${d.name_en} ${d.name_zh}');
+                    null;
+                case e:
+                    e;
+            })
+            .filter(e -> e != null);
         return Promise.resolve(
             reply
                 .header("Cache-Control", "public, max-age=86400, stale-while-revalidate=604800") // max-age: 1 day, stale-while-revalidate: 7 days
