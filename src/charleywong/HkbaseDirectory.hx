@@ -58,7 +58,7 @@ class HkbaseDirectory {
                 case extractFbHomePage(_) => fb if (fb != null):
                     if (e.webpages.exists(p -> switch (new URL(p.url)) {
                         case extractFbHomePage(_) => efb if (efb != null):
-                            fb == efb || p.meta["id"] == fb || p.meta["username"] == fb;
+                            fb == efb || (p.meta != null && (p.meta["id"] == fb || p.meta["username"] == fb));
                         case _:
                             false;
                     })) return true;
