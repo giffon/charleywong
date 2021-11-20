@@ -114,6 +114,10 @@
     {
       "type": "eat",
       "id": 5474
+    },
+    {
+      "type": "eat",
+      "id": 6429
     }
   ],
   "places": [
@@ -132,7 +136,7 @@
     },
     {
       "address": {
-        "zh": "深水埗荔枝角道390號C號地舖 (堂食及外賣)"
+        "zh": "深水埗利聯益大廈390C號地舖 (堂食及外賣)"
       },
       "googleMapsPlaceId": "ChIJT3Zqr7MABDQRkXM7Y8vKyLc",
       "coordinates": {
@@ -219,6 +223,19 @@
       },
       "area": {
         "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門雅都花園4號舖 (新青街)（外賣店）"
+      },
+      "googleMapsPlaceId": "EiBTYW4gVHNpbmcgU3QsIFNhbiBIdWksIEhvbmcgS29uZyIuKiwKFAoSCX1aAl4i-wM0ET1m3lV6BCNfEhQKEglpacfMGPsDNBGinJ41wR9aJA",
+      "coordinates": {
+        "lat": 22.3985033,
+        "lng": 113.9760129
+      },
+      "area": {
+        "zh": "屯門區"
       }
     }
   ]
