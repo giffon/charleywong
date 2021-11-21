@@ -1,7 +1,7 @@
 {
   "id": "m9ccpetshop",
   "name": {
-    "zh": "M9cc寵物用品+寵物接送"
+    "zh": "M9cc寵物用品"
   },
   "webpages": [
     {
@@ -10,8 +10,8 @@
     {
       "url": "https://www.instagram.com/m9ccpetshop/",
       "meta": {
-        "name": "M9CC寵物用品 寵物接送",
-        "about": "行貨寵物用品貓狗糧訂購，\n購物滿$330可免費送貨(偏遠地區除外)。\n本地設計師自家品牌，貓狗圖案主題時裝，獨家發售\n訂購熱線whatsapp:96659399\n寵物接送預約:95454747\nFb:m9ccpetshop"
+        "name": "M9CC寵物用品",
+        "about": "行貨寵物用品貓狗糧訂購，\n購物滿$330可免費送貨(偏遠地區除外)。\n訂購查詢whatsapp:96659399\nFb:m9ccpetshop\n#火炭寵物店"
       }
     },
     {
@@ -71,6 +71,21 @@
     {
       "type": "shop",
       "id": 2823
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "山尾街43-47號環球工業中心824室"
+      },
+      "googleMapsPlaceId": "ChIJz5xbJh4HBDQR3RRJavjH1GA",
+      "coordinates": {
+        "lat": 22.3988661,
+        "lng": 114.1906592
+      },
+      "area": {
+        "zh": "沙田區"
+      }
     }
   ]
 }
