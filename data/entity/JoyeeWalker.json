@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://joyeewalker.boutir.com"
+    },
+    {
       "meta": {
         "id": "1668115463499101",
         "username": "JoyeeWalker",
@@ -28,6 +31,13 @@
       "url": "https://www.facebook.com/JoyeeWalker/"
     },
     {
+      "url": "https://www.instagram.com/joyeewalker/",
+      "meta": {
+        "name": "JoyeeWalker",
+        "about": "由行山片走到實體店的🏃🏻\n多謝大家一直以來的支持\nJoyeeWalker 戶外用品專門店\n地址：觀塘興業街15號中美中心B座202室\n電話／Whatspp：5744 2214\nEmail：joyeeproduction@gmail.com\n開放時間：星期一至日，12:00 - 20:00"
+      }
+    },
+    {
       "url": "https://www.youtube.com/channel/UC2s9JTT78rTkg9iqbdsVnhg",
       "meta": {
         "id": "UC2s9JTT78rTkg9iqbdsVnhg",
@@ -45,9 +55,26 @@
     }
   ],
   "tags": [
-    "media"
+    "media",
+    "hiking",
+    "shop"
   ],
   "alias": [
     "1668115463499101"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘興業街15號中美中心B座202"
+      },
+      "googleMapsPlaceId": "ChIJnYB5NlkBBDQRBb0r70oaEXc",
+      "coordinates": {
+        "lat": 22.3094856,
+        "lng": 114.2252576
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
