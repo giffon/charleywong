@@ -72,5 +72,20 @@
       "type": "shop",
       "id": 5030
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港葵涌葵豐街25-31號華業工業大廈A座 10/f J3 室"
+      },
+      "googleMapsPlaceId": "ChIJ7dovx774AzQRrcJqLaMS5R4",
+      "coordinates": {
+        "lat": 22.356175,
+        "lng": 114.124471
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
