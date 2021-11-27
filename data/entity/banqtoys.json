@@ -43,5 +43,46 @@
   "tags": [
     "toy",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗合益廣埸1樓B123"
+      },
+      "googleMapsPlaceId": "ChIJ_WrS2obxAzQRAWvqa3FA6dU",
+      "coordinates": {
+        "lat": 22.4432221,
+        "lng": 114.0291928
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "油麻地現時點1樓159"
+      },
+      "googleMapsPlaceId": "ChIJT6qlgZUBBDQRtMc1K5VqTFA",
+      "coordinates": {
+        "lat": 22.3133429,
+        "lng": 114.1708509
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵芳葵涌廣埸1樓B70"
+      },
+      "googleMapsPlaceId": "ChIJOUTkt734AzQR2DIuCxrfkck",
+      "coordinates": {
+        "lat": 22.3584385,
+        "lng": 114.1274926
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
