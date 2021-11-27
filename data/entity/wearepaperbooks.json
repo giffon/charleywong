@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://paperbooks20140718.blogspot.tw"
+      "url": "https://www.paperbooks.tw"
     },
     {
       "url": "https://www.facebook.com/wearepaperbooks/",
@@ -30,6 +30,13 @@
         "single_line_address": "西區福人街89號, Taichung, Taiwan 403",
         "website": "https://www.paperbooks.tw/"
       }
+    },
+    {
+      "url": "https://www.instagram.com/wearepaperbooks/",
+      "meta": {
+        "name": "梓書房",
+        "about": "舊書｜新書選｜內閱空間｜閱讀活動"
+      }
     }
   ],
   "posts": [
@@ -51,5 +58,20 @@
   "tags": [
     "book",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "台中市西區福人街89號"
+      },
+      "googleMapsPlaceId": "ChIJ6eDTm4U9aTQReUK4dUpAbIQ",
+      "coordinates": {
+        "lat": 24.1427629,
+        "lng": 120.659242
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    }
   ]
 }
