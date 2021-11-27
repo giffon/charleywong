@@ -36,7 +36,7 @@
       "url": "https://www.instagram.com/chashou.hk/",
       "meta": {
         "name": "茶匠Chashou🍵🍃",
-        "about": "我地係一間土炮港式手搖飲品店🍵🧋\n📍荃灣店：大河道12號地鋪\n📍藍田店：匯景商場3樓A16號舖\n📍荔枝角店：青山道608號榮吉工業大廈地下\n📍尖沙咀店：廣東道80號 Cantonyama\n.\nTea drinking is an attitude☕️\n🔥接受外賣落單自取\n.\n📨 查詢/合作請DM"
+        "about": "我地係一間土炮港式手搖飲品店🍵🧋\n📍藍田店📍荔枝角店\n📍將軍澳店 📍尖沙咀店\n📍西灣河店 📍新蒲崗店\nTea drinking is an attitude☕️\n🔥外賣落單自取請致電各分店電話聯絡\n.\n📨 合作事宜/加入我們：65985699 周先生\n接受詢問/應援及各類活動"
       }
     }
   ],
@@ -75,19 +75,6 @@
   "places": [
     {
       "address": {
-        "zh": "荃灣大河道12號地鋪"
-      },
-      "googleMapsPlaceId": "ChIJVRHiVXD5AzQRVhZrUG0nD0s",
-      "coordinates": {
-        "lat": 22.3727496,
-        "lng": 114.1163666
-      },
-      "area": {
-        "zh": "荃灣區"
-      }
-    },
-    {
-      "address": {
         "zh": "藍田匯景商場3樓A16號鋪"
       },
       "googleMapsPlaceId": "ChIJ-Y1i3AYBBDQR35Cbmzp15J0",
@@ -97,6 +84,19 @@
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荔枝角青山道608號榮吉工業大廈地下202號舖"
+      },
+      "googleMapsPlaceId": "ChIJMyDw6YgHBDQR_uhlzhYRCRw",
+      "coordinates": {
+        "lat": 22.3389656,
+        "lng": 114.1492304
+      },
+      "area": {
+        "zh": "深水埗區"
       }
     },
     {
@@ -114,15 +114,41 @@
     },
     {
       "address": {
-        "zh": "荔枝角青山道608號榮吉工業大廈地下"
+        "zh": "將軍澳南唐俊街23號 Monterey G樓 G18C 號鋪"
       },
-      "googleMapsPlaceId": "ChIJMyDw6YgHBDQR_uhlzhYRCRw",
+      "googleMapsPlaceId": "ChIJ1yS4ekADBDQRh0uHGxgcU-s",
       "coordinates": {
-        "lat": 22.3389656,
-        "lng": 114.1492304
+        "lat": 22.3024847,
+        "lng": 114.2616715
       },
       "area": {
-        "zh": "深水埗區"
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "西灣河太安樓24A號鋪"
+      },
+      "googleMapsPlaceId": "ChIJETLWvHYBBDQRRmmiGbZU-Nc",
+      "coordinates": {
+        "lat": 22.2828742,
+        "lng": 114.2220997
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "新蒲崗大有街29號宏基中心地下5B鋪"
+      },
+      "googleMapsPlaceId": "ChIJOe-7H78HBDQRsafhbNVtbQA",
+      "coordinates": {
+        "lat": 22.3371193,
+        "lng": 114.1982293
+      },
+      "area": {
+        "zh": "黃大仙區"
       }
     }
   ],
