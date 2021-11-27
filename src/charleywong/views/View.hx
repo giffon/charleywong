@@ -150,8 +150,9 @@ class View extends ReactComponent {
             </div>
             <div className="mt-3 md:mt-12 text-center container max-w-screen-lg mx-auto px-4 md:px-8">
                 <div className="w-full">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEA89MJzlOB-xKq3Y0qJsnzSKrweJdUSgNaKb1dsoWDxdMPg/viewform">
-                        <img className="w-full inline" src=${R("/images/kolb6-web-banner.jpg")} alt="埗兵媽子煮雞酒團購"/>
+                    <a href="https://ssprangers.com/">
+                        <img className="w-full hidden sm:inline" src=${R("/images/good-970-90.jpg")} alt="深水埗黃店美食 埗兵外賣俾你食"/>
+                        <img className="w-full inline sm:hidden" src=${R("/images/good-320-50.jpg")} alt="深水埗黃店美食 埗兵外賣俾你食"/>
                     </a>
                 </div>
                 <div className="w-full mt-2 color_black_o60">
