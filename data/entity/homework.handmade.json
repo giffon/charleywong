@@ -73,5 +73,20 @@
       "type": "shop",
       "id": 1978
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "The One, G/F GA03-04, 100 Nathan Road, Tsim Sha Tsui"
+      },
+      "googleMapsPlaceId": "ChIJZVJvXH0BBDQRnO2p14oC4vE",
+      "coordinates": {
+        "lat": 22.2998258,
+        "lng": 114.1724736
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
