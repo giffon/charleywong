@@ -1,7 +1,8 @@
 {
   "id": "NEWQRF",
   "name": {
-    "en": "QRF"
+    "en": "QRF",
+    "zh": "神喵町"
   },
   "webpages": [
     {
@@ -27,6 +28,13 @@
       "url": "https://www.facebook.com/newqrf/"
     },
     {
+      "url": "https://www.instagram.com/kameowracyou/",
+      "meta": {
+        "name": "神喵町",
+        "about": "店舖主售寵物用品食品\n呢度主要用作更新各店主們(貓貓)嘅最新動態及放置佢哋日常影片相片，如有興趣了解公司售賣嘅產品歡迎pm我\n店內寵物用品及食品價格相宜，歡迎大家到店內選購；亦歡迎大家自備慰問品到店內探望店主們。\n#不設入場費"
+      }
+    },
+    {
       "url": "https://www.youtube.com/channel/UCYnh5iB1s1kv_zeOkITKDzw",
       "meta": {
         "id": "UCYnh5iB1s1kv_zeOkITKDzw",
@@ -37,13 +45,20 @@
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/NEWQRF/posts/2392920797466179"
+      "url": "https://www.facebook.com/newqrf/posts/2392920797466179",
+      "meta": {
+        "sharedWith": "Custom"
+      }
     },
     {
-      "url": "https://www.facebook.com/NEWQRF/posts/2501411069950484"
+      "url": "https://www.facebook.com/newqrf/posts/2501411069950484",
+      "meta": {
+        "sharedWith": "Custom"
+      }
     }
   ],
   "tags": [
+    "animal",
     "gun",
     "toy",
     "shop"
