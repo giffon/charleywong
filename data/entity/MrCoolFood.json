@@ -13,19 +13,21 @@
         "id": "769234976825620",
         "username": "MrCoolFood",
         "name": "Mr. Cool 優質食材專門店",
-        "about": "Mr Cool專營各國優質食材，歡迎零售批發。",
+        "about": "Mr. Cool  x Mr. Kool 專營各國優質食材，歡迎零售批發。",
         "category_list": [
-          {
-            "id": "1727285527537943",
-            "name": "Food Wholesaler"
-          },
           {
             "id": "200600219953504",
             "name": "Shopping & Retail"
+          },
+          {
+            "id": "1727285527537943",
+            "name": "Food Wholesaler"
           }
         ],
-        "single_line_address": "深水埗大埔道42號, 九龍",
-        "website": "www.mrcool.com.hk"
+        "emails": [
+          "mrkoolfood@gmail.com"
+        ],
+        "single_line_address": "深水埗大埔道42號, Kowloon, Hong Kong"
       }
     },
     {

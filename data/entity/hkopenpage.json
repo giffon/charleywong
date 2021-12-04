@@ -8,13 +8,21 @@
       "url": "http://www.hkopenpage.com"
     },
     {
-      "url": "https://www.facebook.com/250874168372385/",
+      "url": "https://www.facebook.com/hkopenpage/",
       "meta": {
         "id": "250874168372385",
         "username": "hkopenpage",
         "name": "香港中和出版",
         "about": "中和出版以「中和」及\"Open Page\"為名，是希望持著中正、平和、多元、創新的態度，為作者提供一個開放的出版平台，從而為讀者提供優質的出版物。",
         "category_list": [
+          {
+            "id": "1300",
+            "name": "Book"
+          },
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          },
           {
             "id": "2233",
             "name": "Media/News Company"
@@ -23,7 +31,7 @@
         "emails": [
           "hkopenpage@gmail.com"
         ],
-        "single_line_address": "香港北角英皇道499號 北角工業大廈18樓 香港中和出版有限公司, 北角",
+        "single_line_address": "香港北角英皇道499號 北角工業大廈18樓 香港中和出版有限公司, North Point, Hong Kong",
         "website": "http://www.hkopenpage.com/"
       }
     }
