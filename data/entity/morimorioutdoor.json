@@ -28,7 +28,7 @@
       "url": "https://www.instagram.com/morimori__outdoorhk/",
       "meta": {
         "name": "morimori",
-        "about": "Urban-outdoor select shop. Ship worldwide.\nPhysical store will be opened soon, stay tuned!"
+        "about": "Urban-outdoor select shop. Ship worldwide.\nStore Opening Hours:\nTue - Fri 13:00 - 19:00\nSat 11:00 - 19:00\n⛰Mon, Sun & Public Holiday : Closed"
       }
     }
   ],
@@ -73,5 +73,20 @@
   "tags": [
     "hiking",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit 10, 6/F, New Tech Plaza, 34 Tai Yau Street, San Po Kong"
+      },
+      "googleMapsPlaceId": "ChIJx4SrO3YHBDQRgizOTEWnrlQ",
+      "coordinates": {
+        "lat": 22.3366342,
+        "lng": 114.1971611
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
   ]
 }
