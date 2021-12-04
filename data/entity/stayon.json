@@ -1,7 +1,8 @@
 {
-  "id": "calosedo",
+  "id": "stayon",
   "name": {
-    "en": "Calosedo"
+    "en": "Stayon",
+    "zh": "久留"
   },
   "webpages": [
     {
@@ -34,27 +35,25 @@
       }
     },
     {
-      "url": "https://www.instagram.com/calosedo/",
+      "url": "https://www.instagram.com/stayon.studio/",
       "meta": {
-        "name": "クローゼッド ⋄ 𝐂𝐚𝐥𝐨𝐬𝐞𝐝𝐨"
+        "name": "久 留 工 作 室 𝐒𝐭𝐚𝐲𝐨𝐧",
+        "about": "📍 紅 磡 / 黃 埔\n場 地 租 用 ⨯ 拍 攝 ⨯ 錄 影 ⨯ 多 用 途 工 作 室\n實 用 過 千 尺 容 納 𝐌𝐚𝐱. 𝟑𝟎 人\n——\n▼ 設 施 / 價 目 表 / 自 助 預 約 ▼"
       }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/calosedo/posts/240819237642400",
+      "url": "https://www.facebook.com/106088827782109/posts/240819237642400",
       "meta": {
         "sharedWith": "Public"
       }
     },
     {
-      "url": "https://www.facebook.com/calosedo/posts/260902845634039",
+      "url": "https://www.facebook.com/106088827782109/posts/260902845634039",
       "meta": {
         "sharedWith": "Public"
       }
-    },
-    {
-      "url": "https://www.instagram.com/p/CIBIwoxDYJ9/"
     }
   ],
   "tags": [
@@ -66,5 +65,8 @@
       "type": "shop",
       "id": 4724
     }
+  ],
+  "alias": [
+    "calosedo"
   ]
 }
