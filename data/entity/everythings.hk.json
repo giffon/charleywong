@@ -63,7 +63,7 @@
   "places": [
     {
       "address": {
-        "en": "Ground Floor, 68 Kat Hing Street, Tai O"
+        "zh": "大澳吉慶街68號地下"
       },
       "googleMapsPlaceId": "EiA2OCBLYXQgSGluZyBTdCwgVGFpIE8sIEhvbmcgS29uZyIwEi4KFAoSCX8BZUDSWAE0EY1w24M877b8EEQqFAoSCaESUEDSWAE0EREXmlGuchvK",
       "coordinates": {
@@ -72,6 +72,19 @@
       },
       "area": {
         "zh": "離島區"
+      }
+    },
+    {
+      "address": {
+        "zh": "中環 PMQ B 座 3 樓 H303室 (Pop-up Store)"
+      },
+      "googleMapsPlaceId": "ChIJ9cSnNocBBDQR176bw8ksQ_w",
+      "coordinates": {
+        "lat": 22.28343719999999,
+        "lng": 114.1521976
+      },
+      "area": {
+        "zh": "中西區"
       }
     }
   ]
