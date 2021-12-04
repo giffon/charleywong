@@ -1,17 +1,14 @@
 {
   "id": "kidskisskingdom",
   "name": {
-    "en": "KidsKiss Kingdom"
+    "en": "KidsKiss"
   },
   "webpages": [
     {
-      "url": "https://kidskisskingdom.com"
-    },
-    {
-      "url": "https://www.instagram.com/kidskisskingdom/",
+      "url": "https://www.instagram.com/kidskisshk/",
       "meta": {
-        "name": "KidsKissKingdom",
-        "about": "💛學習和玩樂並容的親子主題餐廳\n❤️為父母與孩子提供廣闊無壓力的玩樂暨飲食空間\n💜讓小朋友透過群體活動中學習\n👩🏼‍🍳全新KidsKiss n Cook廚房教育課程"
+        "name": "KidsKiss",
+        "about": "💛學習和玩樂並容的親子主題餐廳\n❤️為父母與孩子提供廣闊無壓力的玩樂暨飲食空間\n💜讓小朋友透過群體活動中學習"
       }
     },
     {
@@ -51,13 +48,27 @@
     }
   ],
   "tags": [
-    "food",
-    "closed"
+    "food"
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 853
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "北角和富道 21 - 53 號和富中心地庫 B01B 舖"
+      },
+      "googleMapsPlaceId": "ChIJh-fXEAMBBDQRlONSnIWK0Go",
+      "coordinates": {
+        "lat": 22.2923384,
+        "lng": 114.1965379
+      },
+      "area": {
+        "zh": "東區"
+      }
     }
   ]
 }
