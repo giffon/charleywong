@@ -22,43 +22,103 @@
     "allOf": [
         {
             "if": {
-                "properties": { "url": { "type": "string", "pattern": "^https?:\/\/(?:www\\.|m\\.)?(?:facebook\\.com|fb\\.me|fb\\.com)\/" } }
+                "properties": {
+                    "url": {
+                        "type": "string",
+                        "pattern": "^https?:\/\/(?:www\\.|m\\.)?(?:facebook\\.com|fb\\.me|fb\\.com)\/"
+                    }
+                }
             },
             "then": {
-                "properties": { "url": { "type": "string", "pattern": "^https:\/\/www\\.facebook\\.com\/(?:[A-Za-z0-9\\.]+\/|groups\/.+)$" } }
+                "properties": {
+                    "url": {
+                        "type": "string",
+                        "pattern": "^https:\/\/www\\.facebook\\.com\/(?:[A-Za-z0-9\\._]+\/|groups\/.+)$"
+                    }
+                }
             }
         },
         {
             "if": {
-                "properties": { "url": { "type": "string", "pattern": "^https?:\/\/[^/]+\/?$" } }
+                "properties": {
+                    "url": {
+                        "type": "string",
+                        "pattern": "^https?:\/\/[^/]+\/?$"
+                    }
+                }
             },
             "then": {
-                "properties": { "url": { "type": "string", "pattern": "^https?:\/\/[^/]+$" } }
+                "properties": {
+                    "url": {
+                        "type": "string",
+                        "pattern": "^https?:\/\/[^/]+$"
+                    }
+                }
             }
         },
         {
-            "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/wa\\.me\/)" } }
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "pattern": "^(?!https?:\/\/wa\\.me\/)"
+                }
+            }
         },
         {
-            "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/(.*)\\.whatsapp\\.com\/)" } }
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "pattern": "^(?!https?:\/\/(.*)\\.whatsapp\\.com\/)"
+                }
+            }
         },
         {
-            "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/(www|s)\\.openrice\\.com\/)" } }
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "pattern": "^(?!https?:\/\/(www|s)\\.openrice\\.com\/)"
+                }
+            }
         },
         {
-            "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/linktr\\.ee\/)" } }
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "pattern": "^(?!https?:\/\/linktr\\.ee\/)"
+                }
+            }
         },
         {
-            "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/bit\\.ly\/)" } }
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "pattern": "^(?!https?:\/\/bit\\.ly\/)"
+                }
+            }
         },
         {
-            "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/docs\\.google\\.com\/)" } }
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "pattern": "^(?!https?:\/\/docs\\.google\\.com\/)"
+                }
+            }
         },
         {
-            "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/forms\\.gle\/)" } }
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "pattern": "^(?!https?:\/\/forms\\.gle\/)"
+                }
+            }
         },
         {
-            "properties": { "url": { "type": "string", "pattern": "^(?!https?:\/\/goo\\.gl\/)" } }
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "pattern": "^(?!https?:\/\/goo\\.gl\/)"
+                }
+            }
         }
     ]
 }
