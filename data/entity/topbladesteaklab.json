@@ -5,7 +5,11 @@
   },
   "webpages": [
     {
-      "url": "http://www.topbladesteak.com"
+      "url": "https://www.steakwithyou.com"
+    },
+    {
+      "url": "http://www.topbladesteak.com",
+      "hidden": true
     },
     {
       "meta": {
@@ -126,6 +130,19 @@
       },
       "area": {
         "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "en": "G/F, Stanley 11, 11 Stanley Street, Central"
+      },
+      "googleMapsPlaceId": "ChIJn2Tr8xsBBDQRxg6JSy8hwKk",
+      "coordinates": {
+        "lat": 22.2822371,
+        "lng": 114.1558142
+      },
+      "area": {
+        "zh": "中西區"
       }
     }
   ]

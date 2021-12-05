@@ -32,7 +32,7 @@
             "name": "Beauty, Cosmetic & Personal Care"
           }
         ],
-        "single_line_address": "新蒲崗五芳街8號利嘉工業中心5樓15室, Kowloon, Hong Kong",
+        "single_line_address": "新蒲崗五芳街8號利嘉工業中心5樓15室, 九龍",
         "website": "https://simplysoaphk.boutir.com"
       }
     },
@@ -72,28 +72,15 @@
   "places": [
     {
       "address": {
-        "zh": "荃灣青山公路荃灣段459-469號華力工業中心4樓N-2室"
+        "zh": "新蒲崗五芳街8號利嘉工業中心5樓15室"
       },
       "googleMapsPlaceId": "ChIJ9wxUIqIBBDQRp6j6RN5ZAlM",
       "coordinates": {
-        "lat": 22.3750578,
-        "lng": 114.1105848
+        "lat": 22.3380473,
+        "lng": 114.1995296
       },
       "area": {
-        "zh": "荃灣區"
-      }
-    },
-    {
-      "address": {
-        "zh": "旺角廣東道1143號協和工業大廈4樓全層"
-      },
-      "googleMapsPlaceId": "ChIJNV8C7bcABDQRyuBd8Yvd0Fs",
-      "coordinates": {
-        "lat": 22.3215106,
-        "lng": 114.1663959
-      },
-      "area": {
-        "zh": "油尖旺區"
+        "zh": "黃大仙區"
       }
     }
   ],
