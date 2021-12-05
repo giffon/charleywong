@@ -1,9 +1,25 @@
 {
-  "id": "zolarfitness",
+  "id": "zomatefitness",
   "name": {
-    "en": "Zolar Fitness"
+    "en": "Zomate Fitness"
   },
   "webpages": [
+    {
+      "url": "https://www.facebook.com/Zomatefitness/",
+      "meta": {
+        "id": "107660535079995",
+        "username": "Zomatefitness",
+        "name": "Zomate Fitness",
+        "about": "🎀我們是主打為女士塑造健康體態的健身室\n我們提供1:1 / 1:2 個人健身訓練;\n另有1:1全方位(生酮) 餐單指導計劃",
+        "category_list": [
+          {
+            "id": "184405378265823",
+            "name": "Gym/Physical Fitness Center"
+          }
+        ],
+        "single_line_address": "柯士甸道 102號 22 樓, 852 香港"
+      }
+    },
     {
       "url": "https://www.facebook.com/zolarfitness/",
       "meta": {
@@ -18,13 +34,14 @@
           }
         ],
         "single_line_address": "香港，尖沙咀"
-      }
+      },
+      "hidden": true
     },
     {
-      "url": "https://www.instagram.com/zolarfitness/",
+      "url": "https://www.instagram.com/zomatefitness/",
       "meta": {
-        "name": "Zolar Fitness HK 私人健身室",
-        "about": "1:1 or 1:2 Personal Training\n健身中心營業中，歡迎查詢及預約\n🏋🏻‍♂️男教練🏋🏼‍♀️女教練\n————————\n⬇️按連結立即whatsapp查詢⬇️"
+        "name": "Zomate Fitness HK",
+        "about": "🎀主打為女仕塑造健康美態的健身室\n1:1 or 1:2 Personal Training // 1:1餐單計劃\n⬇️請按連結立即whatsapp查詢及預約⬇️"
       }
     }
   ],
@@ -61,16 +78,19 @@
   "places": [
     {
       "address": {
-        "zh": "彌敦道490-492號盤谷銀行大廈21樓"
+        "zh": "尖沙咀柯士甸道102號 22樓"
       },
-      "googleMapsPlaceId": "ChIJL73SpW8BBDQRBDugUOvVDN0",
+      "googleMapsPlaceId": "ChIJ6ZxypfABBDQRi_s5mb0aRtI",
       "coordinates": {
-        "lat": 22.31163489999999,
-        "lng": 114.171176
+        "lat": 22.3031065,
+        "lng": 114.1723139
       },
       "area": {
         "zh": "油尖旺區"
       }
     }
+  ],
+  "alias": [
+    "zolarfitness"
   ]
 }
