@@ -28,7 +28,7 @@
     {
       "meta": {
         "name": "陳聲工作室",
-        "about": "陳聲，做陳聲喜歡的產品，用心制作\n📱90952917(只供whatsapp查詢和落單)\n📧chansingws@gmail.com\nWeChat: LED-CHANSING"
+        "about": "陳聲，做陳聲喜歡的產品，用心制作\n📱90952917(只供whatsapp/signal查詢和落單)\n📧chansingws@gmail.com\nWeChat: LED-CHANSING"
       },
       "url": "https://www.instagram.com/chansingws/"
     }
@@ -68,8 +68,16 @@
   ],
   "places": [
     {
+      "address": {
+        "zh": "中環街市二樓 P05B鋪"
+      },
+      "googleMapsPlaceId": "ChIJ94v7sXwABDQR0mwwrYDbRD4",
+      "coordinates": {
+        "lat": 22.2839325,
+        "lng": 114.1553613
+      },
       "area": {
-        "zh": "南區"
+        "zh": "中西區"
       }
     }
   ]
