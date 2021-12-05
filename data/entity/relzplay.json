@@ -1,9 +1,13 @@
 {
   "id": "relzplay",
   "name": {
-    "en": "RE:Lz"
+    "en": "Relzplay",
+    "zh": "小皮氣"
   },
   "webpages": [
+    {
+      "url": "https://relzplay.com"
+    },
     {
       "meta": {
         "id": "1400235740239536",
@@ -27,6 +31,13 @@
         "website": "www.relzplay.com"
       },
       "url": "https://www.facebook.com/relzplay/"
+    },
+    {
+      "url": "https://www.instagram.com/relzplay/",
+      "meta": {
+        "name": "小皮気 relzplay",
+        "about": "Since 2014\n𝐇𝐚𝐧𝐝𝐦𝐚𝐝𝐞 𝐢𝐧 𝐇𝐨𝐧𝐠 𝐊𝐨𝐧𝐠\n小皮気創作作品 // 手工製作\n—————————————\n工作室(需Signal Wtsapp預約)：\n佐敦吳松街191號突破中心一樓\n-\nPinkoi/ creema : relzplay"
+      }
     }
   ],
   "posts": [
@@ -35,6 +46,22 @@
     }
   ],
   "tags": [
-    "accessories"
+    "accessories",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "佐敦吳松街191號突破中心1樓"
+      },
+      "googleMapsPlaceId": "ChIJHbfnfOsABDQRzh2RIshzXqk",
+      "coordinates": {
+        "lat": 22.3035195,
+        "lng": 114.1700601
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
