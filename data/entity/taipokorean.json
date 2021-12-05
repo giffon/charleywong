@@ -55,5 +55,20 @@
       "type": "shop",
       "id": 6086
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "太平工業中心第一座13樓c2室"
+      },
+      "googleMapsPlaceId": "ChIJz8B01TcIBDQR5qNdg24Vg1o",
+      "coordinates": {
+        "lat": 22.4570505,
+        "lng": 114.16767
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    }
   ]
 }
