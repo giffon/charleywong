@@ -94,6 +94,10 @@
     {
       "type": "eat",
       "id": 5621
+    },
+    {
+      "type": "shop",
+      "id": 6782
     }
   ],
   "places": [
@@ -108,6 +112,32 @@
       },
       "area": {
         "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大埔汀角路29-35號榮暉花園地下3號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ85hjx3oJBDQRc_Yte-uxiHM",
+      "coordinates": {
+        "lat": 22.4533948,
+        "lng": 114.1655807
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "黃大仙中心北館2樓N223A號鋪"
+      },
+      "googleMapsPlaceId": "ChIJcRdNYdgGBDQRvowBfJKMc_E",
+      "coordinates": {
+        "lat": 22.3413905,
+        "lng": 114.194272
+      },
+      "area": {
+        "zh": "黃大仙區"
       }
     }
   ]
