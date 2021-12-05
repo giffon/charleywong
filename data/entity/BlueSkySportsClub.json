@@ -1,0 +1,91 @@
+{
+  "id": "BlueSkySportsClub",
+  "name": {
+    "en": "Blue Sky Sports Club"
+  },
+  "webpages": [
+    {
+      "url": "https://bluesky-sc.com"
+    },
+    {
+      "url": "https://www.facebook.com/342693015741448/",
+      "meta": {
+        "id": "342693015741448",
+        "username": "BlueSkySportsClub",
+        "name": "Blue Sky Sports Club",
+        "about": "Come and join us for exciting water sports & activities in Sai Kung.",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
+        ],
+        "emails": [
+          "info@bluesky-sc.com"
+        ],
+        "single_line_address": "西貢沙下沙路 Sha Ha Road, Sha ha, Sai Kung, NT, 香港",
+        "website": "https://bluesky-sc.com/"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/blueskysportsclub/",
+      "meta": {
+        "name": "Blue Sky Sports Club",
+        "about": "Stand up paddling 🏝️\nKayaking 🛶\nSurfing🏄🏿‍♂️\nDragon boating🐉\nWakeboarding🤙🏿\nWakesurfing🌊\nSwimming🏊‍♂️\nCamping 🏕️"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/BlueSkySportsClub/posts/2814905375186854",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "sport",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "西貢沙下沙路"
+      },
+      "googleMapsPlaceId": "ChIJCxeGG5oFBDQRBLJB1DXC98I",
+      "coordinates": {
+        "lat": 22.3873406,
+        "lng": 114.2756747
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "企嶺下新圍16號"
+      },
+      "googleMapsPlaceId": "ChIJ8Yom7ewPBDQRn5Z_B5lXlaI",
+      "coordinates": {
+        "lat": 22.4148316,
+        "lng": 114.2720547
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳唐俊街23號澳南海岸MONTEREY PLACE地下G26C號舖"
+      },
+      "googleMapsPlaceId": "ChIJZzH9T-4DBDQRhwpc1bRgY-Y",
+      "coordinates": {
+        "lat": 22.3028601,
+        "lng": 114.2632889
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    }
+  ]
+}
