@@ -1,5 +1,5 @@
 {
-  "id": "Kirakira-897763637046365",
+  "id": "kirakira_hk",
   "name": {
     "en": "Kirakira"
   },
@@ -18,6 +18,13 @@
         "single_line_address": "Tsuen Wan, Hong Kong, Hong Kong"
       },
       "url": "https://www.facebook.com/897763637046365/"
+    },
+    {
+      "url": "https://www.instagram.com/kirakira_hk/",
+      "meta": {
+        "name": "Kirakira",
+        "about": "キラキラ ❄ 手作小店\n🌸🌼🌺🌷💐🌺🌹\n☆暫停營業☆"
+      }
     }
   ],
   "posts": [
@@ -26,12 +33,16 @@
     }
   ],
   "tags": [
-    "accessories"
+    "accessories",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 1725
     }
+  ],
+  "alias": [
+    "Kirakira-897763637046365"
   ]
 }
