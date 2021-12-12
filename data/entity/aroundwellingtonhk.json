@@ -35,8 +35,15 @@
     {
       "url": "https://www.instagram.com/around.wellington/",
       "meta": {
-        "name": "Around Wellington",
-        "about": "特色Fusion多國菜餐廳\n#光顧AW #時代隔籬\n.\n-本土糧油雜貨：\n@storewellington.cwb\n#香港製造 #唯一出路"
+        "name": "𝘼𝙧𝙤𝙪𝙣𝙙 𝙒𝙚𝙡𝙡𝙞𝙣𝙜𝙩𝙤𝙣",
+        "about": "-特色Fusion多國菜：\n@around.wellington\n#光顧AW #時代隔籬\n.\n-中環Fusion小餐館\n@bistro.wellington\n#午飯咪愁 #食乜都可\n.\n-本土糧油雜貨店：\n@storewellington.cwb\n#香港製造 #唯一出路"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/bistro.wellington/",
+      "meta": {
+        "name": "Bistro Wellington",
+        "about": "中環Fusion小餐館"
       }
     }
   ],
@@ -68,6 +75,19 @@
       },
       "area": {
         "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop C, G/F, Sun Wise Building, 112-114 Wellington Street, Central"
+      },
+      "googleMapsPlaceId": "ChIJPzDK7eABBDQRgVcnvid0pCM",
+      "coordinates": {
+        "lat": 22.2832687,
+        "lng": 114.1541769
+      },
+      "area": {
+        "zh": "中西區"
       }
     }
   ]
