@@ -206,6 +206,21 @@ class Importer {
                         })
                         .find(v -> v != null);
                 }
+                if (sharedWith == null) {
+                    trace(postNode.querySelectorAll("svg[title^='Shared with']"));
+                    sharedWith = [
+                        for (i in postNode.querySelectorAll("svg[title^='Shared with']"))
+                            (cast i:Element)
+                    ]
+                        .map(i -> switch(i.getAttribute("title")) {
+                            case "Shared with Public": "Public";
+                            case "Shared with Custom": "Custom";
+                            case title:
+                                trace(title);    
+                                null;
+                        })
+                        .find(v -> v != null);
+                }
                 return url.then(url -> postToServer(
                     if (sharedWith != null) {
                         url: url,
