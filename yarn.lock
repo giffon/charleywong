@@ -1047,10 +1047,10 @@
   dependencies:
     crypto-js "^4.1.1"
 
-"@httptoolkit/httpolyglot@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@httptoolkit/httpolyglot/-/httpolyglot-1.0.1.tgz#2ade7c70fecc8473f8f55d95defea99bf444a81b"
-  integrity sha512-wka8aO36+Ldb4d0V7fpKf4gd9netRa1odekK5BQnsJa3BwkKSIqOYlR51ZfoaGjifwx2WBTRQgHgtcc1wY1eEg==
+"@httptoolkit/httpolyglot@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@httptoolkit/httpolyglot/-/httpolyglot-2.0.0.tgz#fae19b807a4dab2bd5ca91a8bd9dc7a9c0164ee6"
+  integrity sha512-5bFBsDaDQv8L+QpuJeV76JOThH6tbOamuGwCasHuX1ZnIMEuCcF6mM6Y17JHXwswZkjPKQzBcF7NYNRCNPgemA==
   dependencies:
     "@types/node" "^16.7.10"
 
