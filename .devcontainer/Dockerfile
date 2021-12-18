@@ -1,15 +1,17 @@
 FROM mcr.microsoft.com/vscode/devcontainers/base:0-focal
 
+ARG TARGETARCH
+
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
 
-ARG INSTALL_ZSH="false"
-ARG UPGRADE_PACKAGES="true"
-ARG ENABLE_NONROOT_DOCKER="true"
-ARG USE_MOBY="true"
-ARG USERNAME=vscode
-ARG USER_UID=1000
-ARG USER_GID=$USER_UID
+ARG INSTALL_ZSH
+ARG UPGRADE_PACKAGES
+ARG ENABLE_NONROOT_DOCKER
+ARG USE_MOBY
+ARG USERNAME
+ARG USER_UID
+ARG USER_GID
 COPY library-scripts/*.sh /tmp/library-scripts/
 RUN apt-get update \
     && /bin/bash /tmp/library-scripts/common-debian.sh "${INSTALL_ZSH}" "${USERNAME}" "${USER_UID}" "${USER_GID}" "${UPGRADE_PACKAGES}" "true" "true" \
@@ -72,23 +74,16 @@ RUN wget https://github.com/wagoodman/dive/releases/download/v0.9.2/dive_0.9.2_l
     && apt install ./dive_0.9.2_linux_amd64.deb \
     && rm -rf ./dive_0.9.2_linux_amd64.deb
 
+# Install earthly
+RUN curl -fsSL https://github.com/earthly/earthly/releases/download/v0.6.2/earthly-linux-${TARGETARCH} -o /usr/local/bin/earthly \
+    && chmod +x /usr/local/bin/earthly
+RUN earthly bootstrap --no-buildkit --with-autocomplete
+
 ENV YARN_CACHE_FOLDER=/yarn
 RUN mkdir -m 777 "$YARN_CACHE_FOLDER"
 ENV HAXESHIM_ROOT=/haxe
 RUN mkdir -m 777 "$HAXESHIM_ROOT"
 RUN mkdir -m 777 "/workspace"
-USER $USERNAME
-WORKDIR /workspace
-COPY workspace/.haxerc /workspace/
-RUN lix install haxe "$(jq -r ".version" .haxerc)"
-COPY workspace/package.json workspace/yarn.lock /workspace/
-RUN yarn
-COPY workspace /workspace/
-RUN lix download
-RUN yarn dts2hx
-VOLUME /workspace/node_modules /workspace/lib/dts2hx
-RUN sed -ir 's/^__bash_prompt$/PS1="\\[\\033[0;32m\\]\\u \\[\\033[0m\\]➜ \\[\\033[1;34m\\]\\w\\[\\033[0m\\]\\$ "/' ~/.bashrc
-USER root
 
 # Expose pip installed binaries
 ENV PATH="/home/${USERNAME}/.local/bin:${PATH}"

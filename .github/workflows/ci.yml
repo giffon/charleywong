@@ -1,9 +1,13 @@
 name: CI
 on: [push, pull_request]
+
+env:
+  TZ: Asia/Hong_Kong
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20211218123735
+    container: giffon/charleywong_devcontainer_workspace:20211219084710
     steps:
       - uses: actions/checkout@v2
         with:
@@ -47,40 +51,50 @@ jobs:
     needs: build
     if: success() && github.event_name == 'push' && ( github.ref == 'refs/heads/master' || github.ref == 'refs/heads/production' )
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20211218123735
+    container: giffon/charleywong_devcontainer_workspace:20211219084710
+    services:
+      earthly:
+        image: earthly/buildkitd:v0.6.2
+        options: --privileged
+        env:
+          BUILDKIT_TCP_TRANSPORT_ENABLED: "true"
+        ports:
+          - 8372
+        volumes:
+          - /tmp/earthly
+    permissions:
+      contents: read
+      packages: write
     steps:
       - uses: actions/checkout@v2
         with:
           submodules: true
-      - name: Copy libs from /workspace
-        run: |
-          cp -r /workspace/node_modules .
-          cp -r /workspace/lib/dts2hx lib/
-      - run: yarn --ignore-optional
-      - uses: actions/download-artifact@v2
+      - name: Log in to the Container registry
+        uses: docker/login-action@v1
         with:
-          name: artifact
-      - name: Dump HKBASE directory
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create .env
         run: |
-          set -ex
-          haxe dumpHkbaseDirectory.hxml
-          node dumpHkbaseDirectory.js dump
+          cat > .env <<EOT
+          export GOOGLE_CLIENT_EMAIL="$GOOGLE_CLIENT_EMAIL"
+          export GOOGLE_PRIVATE_KEY="$GOOGLE_PRIVATE_KEY"
+          export AWS_DEFAULT_REGION="$AWS_DEFAULT_REGION"
+          export AWS_ACCESS_KEY_ID="$AWS_ACCESS_KEY_ID"
+          export AWS_SECRET_ACCESS_KEY="$AWS_SECRET_ACCESS_KEY"
+          EOT
         env:
           GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
           GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
-      - name: Dump YellowBlueMap
-        run: |
-          haxe syncYellowBlueMap.hxml
-          node syncYellowBlueMap.js dump
-        env:
           AWS_DEFAULT_REGION: us-east-1
           AWS_ACCESS_KEY_ID: ${{ secrets.YBM_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.YBM_AWS_SECRET_ACCESS_KEY }}
-      - name: Export entity index
-        run: haxe exportEntityIndex.hxml
-      - run: ls -lh
-      - run: ls -lah
-        working-directory: data/groonga
+      - name: Build lambda image
+        run: earthly --push +lambda-container --LAMBDA_IMAGE_TAG="${{ github.sha }}"
+        env:
+          EARTHLY_BUILDKIT_HOST: tcp://earthly:8372
+          EARTHLY_SECRET_FILES: .envrc=.envrc
       - name: Set Env
         run: |
           set -ex
@@ -100,11 +114,12 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.awsAccessKeyId }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.awsSecretAccessKey }}
           SERVERLESS_ACCESS_KEY: ${{ secrets.serverlessAccessKey }}
-      - name: Post-deployment test
-        run: haxe test.hxml post-deployment "${SERVER_HOST}"
-      - name: Export spreadsheet
-        if: github.ref == 'refs/heads/production'
-        run: haxe -D CI exportSpreadsheet.hxml
-        env:
-          GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
-          GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
+          LAMBDA_IMAGE: giffon/charleywong_lambda:${{ github.sha }}
+      # - name: Post-deployment test
+      #   run: haxe test.hxml post-deployment "${SERVER_HOST}"
+      # - name: Export spreadsheet
+      #   if: github.ref == 'refs/heads/production'
+      #   run: haxe -D CI exportSpreadsheet.hxml
+      #   env:
+      #     GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
+      #     GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}

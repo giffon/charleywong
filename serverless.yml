@@ -5,10 +5,6 @@ frameworkVersion: ">=1.61.1"
 
 provider:
   name: aws
-  ecr:
-    images:
-      appimage:
-        path: ./
   timeout: 30 # API Gateway has a limit of 30 seconds
   apiGateway:
     binaryMediaTypes:
@@ -35,8 +31,7 @@ package:
 
 functions:
   web:
-    image:
-      name: appimage
+    image: ${env:LAMBDA_IMAGE}
     events:
       - http:
           method: ANY

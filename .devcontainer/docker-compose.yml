@@ -1,13 +1,15 @@
 version: '3'
 services:
   workspace:
-    image: giffon/charleywong_devcontainer_workspace:20211218123735
+    image: giffon/charleywong_devcontainer_workspace:20211219084710
     init: true
     volumes:
       - /var/run/docker.sock:/var/run/docker-host.sock
       - ..:/workspace:cached
     environment:
       - TZ=Asia/Hong_Kong
+      - EARTHLY_BUILDKIT_HOST=tcp://earthly:8372
+      - EARTHLY_SECRET_FILES=.envrc=/workspace/.envrc
     user: vscode
     entrypoint: /usr/local/share/docker-init.sh
     command: sleep infinity
@@ -19,3 +21,16 @@ services:
     command: tunnel --no-autoupdate --url http://workspace:80
     expose:
       - "44871"
+  earthly:
+    image: earthly/buildkitd:v0.6.2
+    privileged: true
+    environment:
+      - BUILDKIT_TCP_TRANSPORT_ENABLED=true
+    expose:
+      - 8372
+    volumes:
+      # https://docs.earthly.dev/docs/guides/using-the-earthly-docker-images/buildkit-standalone#earthly_tmp_dir
+      - earthly-tmp:/tmp/earthly:rw
+
+volumes:
+  earthly-tmp:
