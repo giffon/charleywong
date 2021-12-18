@@ -1,4 +1,4 @@
-FROM giffon/charleywong_devcontainer_workspace:20211218122651 as build
+FROM giffon/charleywong_devcontainer_workspace:20211218123735 as build
 RUN mkdir -p /workspace
 WORKDIR /workspace
 COPY package.json yarn.lock ./
@@ -11,8 +11,8 @@ RUN apt-get update \
     && add-apt-repository -y universe \
     && add-apt-repository -y ppa:groonga/ppa \
     && apt-get install -y --no-install-recommends groonga groonga-token-filter-stem \
-    && curl -sL https://deb.nodesource.com/setup_14.x | bash - \
-    && apt-get install -y --no-install-recommends nodejs=14.* \
+    && curl -sL https://deb.nodesource.com/setup_16.x | bash - \
+    && apt-get install -y --no-install-recommends nodejs=16.* \
     #
     # Clean up
     && apt-get autoremove -y \

@@ -44,8 +44,8 @@ RUN apt-get update \
     && add-apt-repository -y universe \
     && add-apt-repository -y ppa:groonga/ppa \
     && apt-get install -y groonga libgroonga-dev groonga-bin groonga-tokenizer-mecab groonga-token-filter-stem groonga-normalizer-mysql \
-    && curl -sL https://deb.nodesource.com/setup_14.x | bash - \
-    && apt-get install -y nodejs=14.* \
+    && curl -sL https://deb.nodesource.com/setup_16.x | bash - \
+    && apt-get install -y nodejs=16.* \
     && add-apt-repository -y ppa:git-core/ppa \
     && apt-get install -y git \
     && curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add - \
