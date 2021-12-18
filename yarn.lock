@@ -1047,13 +1047,6 @@
   dependencies:
     crypto-js "^4.1.1"
 
-"@httptoolkit/httpolyglot@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@httptoolkit/httpolyglot/-/httpolyglot-1.0.1.tgz#2ade7c70fecc8473f8f55d95defea99bf444a81b"
-  integrity sha512-wka8aO36+Ldb4d0V7fpKf4gd9netRa1odekK5BQnsJa3BwkKSIqOYlR51ZfoaGjifwx2WBTRQgHgtcc1wY1eEg==
-  dependencies:
-    "@types/node" "^16.7.10"
-
 "@jimp/bmp@^0.16.1":
   version "0.16.1"
   resolved "https://registry.yarnpkg.com/@jimp/bmp/-/bmp-0.16.1.tgz#6e2da655b2ba22e721df0795423f34e92ef13768"
@@ -3056,7 +3049,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@16.11.14", "@types/node@^16.7.10":
+"@types/node@*", "@types/node@16.11.14":
   version "16.11.14"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.14.tgz#4939fb42e5b0ffb3ea7e193c28244fe7414977a6"
   integrity sha512-mK6BKLpL0bG6v2CxHbm0ed6RcZrAtTHBTd/ZpnlVPVa3HkumsqLE4BC4u6TQ8D7pnrRbOU0am6epuALs+Ncnzw==
