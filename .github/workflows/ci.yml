@@ -79,6 +79,8 @@ jobs:
       - name: Export entity index
         run: haxe exportEntityIndex.hxml
       - run: ls -lh
+      - run: ls -lah
+        working-directory: data/groonga
       - name: Set Env
         run: |
           set -ex
