@@ -75,9 +75,9 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - name: Create .env
+      - name: Create .envrc
         run: |
-          cat > .env <<EOT
+          cat > .envrc <<EOT
           export GOOGLE_CLIENT_EMAIL="$GOOGLE_CLIENT_EMAIL"
           export GOOGLE_PRIVATE_KEY="$GOOGLE_PRIVATE_KEY"
           export AWS_DEFAULT_REGION="$AWS_DEFAULT_REGION"
