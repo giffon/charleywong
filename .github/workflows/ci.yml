@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     container: giffon/charleywong_devcontainer_workspace:20211219161619
     services:
-      earthly: &earthly
+      earthly:
         image: earthly/buildkitd:v0.6.2
         options: --privileged
         env:
@@ -33,7 +33,15 @@ jobs:
     runs-on: ubuntu-latest
     container: giffon/charleywong_devcontainer_workspace:20211219161619
     services:
-      earthly: *earthly
+      earthly:
+        image: earthly/buildkitd:v0.6.2
+        options: --privileged
+        env:
+          BUILDKIT_TCP_TRANSPORT_ENABLED: "true"
+        ports:
+          - 8372
+        volumes:
+          - /tmp/earthly
     steps:
       - uses: actions/checkout@v2
         with:
