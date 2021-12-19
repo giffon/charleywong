@@ -114,7 +114,7 @@ entity-index-exporter:
 entity-index:
     FROM +devcontainer
     COPY static static
-    COPY dclookup.js .
+    COPY +dclookup/* .
     COPY +entity-index-exporter/exportEntityIndex.js .
     COPY data/entity data/entity
     RUN mkdir -p data/groonga
