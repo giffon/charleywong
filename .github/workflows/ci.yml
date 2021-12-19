@@ -3,57 +3,15 @@ on: [push, pull_request]
 
 env:
   TZ: Asia/Hong_Kong
+  EARTHLY_BUILDKIT_HOST: tcp://earthly:8372
+  EARTHLY_USE_INLINE_CACHE: "true"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     container: giffon/charleywong_devcontainer_workspace:20211219161619
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: true
-      - name: Copy libs from /workspace
-        run: |
-          cp -r /workspace/node_modules .
-          cp -r /workspace/lib/dts2hx lib/
-      - run: yarn --ignore-optional
-      - name: Build tailwind
-        run: yarn tailwind
-        env:
-          NODE_ENV: production
-      - name: Build serviceWorker.js
-        run: haxe serviceWorker.hxml
-      - name: Minify serviceWorker.js
-        run: npx browserify serviceWorker.js --transform [ babelify --global ] -g [ envify --NODE_ENV production ] -g uglifyify | npx terser --compress --mangle > static/serviceWorker.bundled.js
-      - name: Build browser.js
-        run: haxe browser.hxml
-      - name: Minify browser.js
-        run: npx browserify browser.js -g [ envify --NODE_ENV production ] -g uglifyify | npx terser --compress --mangle > static/browser.bundled.js
-      - name: Build server
-        run: haxe server.hxml
-      - name: Compile Chrome extension
-        run: haxe chrome-extension.hxml
-      - uses: actions/upload-artifact@v2
-        with:
-          name: artifact
-          path: |
-            index.js
-            static/serviceWorker.bundled.js
-            static/css/tailwind.css
-            static/browser.bundled.js
-            dclookup.js
-            chrome
-      - name: Run test
-        shell: bash
-        run: haxe test.hxml "$GITHUB_EVENT_NAME"
-  deploy:
-    concurrency: ${{ github.ref }}
-    needs: build
-    if: success() && github.event_name == 'push' && ( github.ref == 'refs/heads/master' || github.ref == 'refs/heads/production' )
-    runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20211219161619
     services:
-      earthly:
+      earthly: &earthly
         image: earthly/buildkitd:v0.6.2
         options: --privileged
         env:
@@ -62,9 +20,20 @@ jobs:
           - 8372
         volumes:
           - /tmp/earthly
-    env:
-      EARTHLY_BUILDKIT_HOST: tcp://earthly:8372
-      EARTHLY_USE_INLINE_CACHE: "true"
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Run test
+        run: earthly +test --TEST="$GITHUB_EVENT_NAME"
+  deploy:
+    concurrency: ${{ github.ref }}
+    needs: build
+    if: success() && github.event_name == 'push' && ( github.ref == 'refs/heads/master' || github.ref == 'refs/heads/production' )
+    runs-on: ubuntu-latest
+    container: giffon/charleywong_devcontainer_workspace:20211219161619
+    services:
+      earthly: *earthly
     steps:
       - uses: actions/checkout@v2
         with:

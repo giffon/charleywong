@@ -153,6 +153,19 @@ ybm:
         node syncYellowBlueMap.js dump
     SAVE ARTIFACT ybm
 
+test:
+    FROM +devcontainer
+    COPY +dclookup/* .
+    COPY lib/hxnodelibs lib/hxnodelibs
+    COPY haxe_libraries haxe_libraries
+    COPY src src
+    COPY test test
+    COPY static static
+    COPY data data
+    COPY .haxerc test.hxml .
+    ARG TEST
+    RUN haxe test.hxml $TEST
+
 tailwind:
     FROM +devcontainer
     COPY src src
