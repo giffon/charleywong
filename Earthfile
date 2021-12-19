@@ -1,8 +1,8 @@
 VERSION 0.6
 FROM busybox:1
 ARG DEVCONTAINER_IMAGE_NAME=giffon/charleywong_devcontainer_workspace
-ARG LAMBDA_IMAGE_BASE=ghcr.io/giffon/charleywong_lambda_base
-ARG LAMBDA_IMAGE_NAME=ghcr.io/giffon/charleywong_lambda
+ARG LAMBDA_IMAGE_REGISTRY=932878902707.dkr.ecr.us-east-1.amazonaws.com
+ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-master
 
 ARG USERNAME=vscode
 ARG USER_UID=1000
@@ -146,7 +146,11 @@ ybm:
     COPY data data
     RUN --mount=type=secret,id=+secrets/.envrc,target=.envrc \
         . ./.envrc \
-        && AWS_DEFAULT_REGION=us-east-1 node syncYellowBlueMap.js dump
+        && \
+        AWS_DEFAULT_REGION="$YBM_AWS_DEFAULT_REGION" \
+        AWS_ACCESS_KEY_ID="$YBM_AWS_ACCESS_KEY_ID" \
+        AWS_SECRET_ACCESS_KEY="$YBM_AWS_SECRET_ACCESS_KEY" \
+        node syncYellowBlueMap.js dump
     SAVE ARTIFACT ybm
 
 tailwind:
@@ -207,7 +211,6 @@ lambda-container-base:
         && apt-get clean -y \
         && rm -rf /var/lib/apt/lists/*
     WORKDIR /workspace
-    SAVE IMAGE --push "$LAMBDA_IMAGE_BASE"
 
 lambda-container:
     FROM +lambda-container-base
@@ -234,3 +237,18 @@ lambda-container-rebuild:
         --platform=linux/amd64 \
         +lambda-container \
         --LAMBDA_IMAGE_TAG="$(cat buildtime)"
+
+deploy:
+    FROM +node-modules-dev
+    COPY serverless.yml .
+    ARG LAMBDA_IMAGE_TAG
+    ENV LAMBDA_IMAGE="$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG"
+    ARG DEPLOY_STAGE
+    RUN \
+        --mount=type=secret,id=+secrets/.envrc,target=.envrc \
+        . ./.envrc \
+        && npx serverless deploy --stage "${DEPLOY_STAGE}"
+
+ecr-login:
+    LOCALLY
+    RUN aws ecr get-login-password | docker login --username AWS --password-stdin "$LAMBDA_IMAGE_REGISTRY"

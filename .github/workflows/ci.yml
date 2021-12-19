@@ -62,19 +62,21 @@ jobs:
           - 8372
         volumes:
           - /tmp/earthly
-    permissions:
-      contents: read
-      packages: write
+    env:
+      EARTHLY_BUILDKIT_HOST: tcp://earthly:8372
     steps:
       - uses: actions/checkout@v2
         with:
           submodules: true
-      - name: Log in to the Container registry
-        uses: docker/login-action@v1
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
         with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          aws-access-key-id: ${{ secrets.awsAccessKeyId }}
+          aws-secret-access-key: ${{ secrets.awsSecretAccessKey }}
+          aws-region: us-east-1
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
       - name: Create .envrc
         run: |
           cat > .envrc <<EOT
@@ -83,17 +85,26 @@ jobs:
           export AWS_DEFAULT_REGION="$AWS_DEFAULT_REGION"
           export AWS_ACCESS_KEY_ID="$AWS_ACCESS_KEY_ID"
           export AWS_SECRET_ACCESS_KEY="$AWS_SECRET_ACCESS_KEY"
+          export YBM_AWS_DEFAULT_REGION="$YBM_AWS_DEFAULT_REGION"
+          export YBM_AWS_ACCESS_KEY_ID="$YBM_AWS_ACCESS_KEY_ID"
+          export YBM_AWS_SECRET_ACCESS_KEY="$YBM_AWS_SECRET_ACCESS_KEY"
+          export FACEBOOK_TOKEN="$FACEBOOK_TOKEN"
+          export SERVERLESS_ACCESS_KEY="$SERVERLESS_ACCESS_KEY"
           EOT
         env:
           GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
           GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
           AWS_DEFAULT_REGION: us-east-1
-          AWS_ACCESS_KEY_ID: ${{ secrets.YBM_AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.YBM_AWS_SECRET_ACCESS_KEY }}
-      - name: Build lambda image
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          YBM_AWS_DEFAULT_REGION: us-east-1
+          YBM_AWS_ACCESS_KEY_ID: ${{ secrets.YBM_AWS_ACCESS_KEY_ID }}
+          YBM_AWS_SECRET_ACCESS_KEY: ${{ secrets.YBM_AWS_SECRET_ACCESS_KEY }}
+          FACEBOOK_TOKEN: ${{ secrets.FACEBOOK_TOKEN }}
+          SERVERLESS_ACCESS_KEY: ${{ secrets.serverlessAccessKey }}
+      - name: Build Lambda image
         run: earthly --push +lambda-container --LAMBDA_IMAGE_TAG="${{ github.sha }}"
         env:
-          EARTHLY_BUILDKIT_HOST: tcp://earthly:8372
           EARTHLY_SECRET_FILES: .envrc=.envrc
       - name: Set Env
         run: |
@@ -106,15 +117,19 @@ jobs:
             echo "SERVER_HOST=charleywong.giffon.io" >> $GITHUB_ENV
           fi
       - name: Deploy
-        run: npx serverless deploy --stage "${DEPLOY_STAGE}"
+        run: earthly +deploy --LAMBDA_IMAGE_TAG="${{ github.sha }}" --DEPLOY_STAGE="$DEPLOY_STAGE"
         env:
-          GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
-          GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
-          FACEBOOK_TOKEN: ${{ secrets.FACEBOOK_TOKEN }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.awsAccessKeyId }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.awsSecretAccessKey }}
-          SERVERLESS_ACCESS_KEY: ${{ secrets.serverlessAccessKey }}
-          LAMBDA_IMAGE: giffon/charleywong_lambda:${{ github.sha }}
+          EARTHLY_SECRET_FILES: .envrc=.envrc
+      # - name: Deploy
+      #   run: npx serverless deploy --stage "${DEPLOY_STAGE}"
+      #   env:
+      #     GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
+      #     GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
+      #     FACEBOOK_TOKEN: ${{ secrets.FACEBOOK_TOKEN }}
+      #     AWS_ACCESS_KEY_ID: ${{ secrets.awsAccessKeyId }}
+      #     AWS_SECRET_ACCESS_KEY: ${{ secrets.awsSecretAccessKey }}
+      #     SERVERLESS_ACCESS_KEY: ${{ secrets.serverlessAccessKey }}
+      #     LAMBDA_IMAGE: giffon/charleywong_lambda:${{ github.sha }}
       # - name: Post-deployment test
       #   run: haxe test.hxml post-deployment "${SERVER_HOST}"
       # - name: Export spreadsheet
