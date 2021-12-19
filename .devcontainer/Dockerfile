@@ -64,15 +64,16 @@ COPY --chown=$USER_UID:$USER_GID direnv.toml /home/$USERNAME/.config/direnv/conf
 
 # AWS cli
 RUN cd / \
-    && curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" \
-    && unzip awscliv2.zip \
+    && curl -fsSL "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" \
+    && unzip -qq awscliv2.zip \
     && ./aws/install \
     && rm -rf ./aws awscliv2.zip
 
 # https://github.com/wagoodman/dive
-RUN wget https://github.com/wagoodman/dive/releases/download/v0.9.2/dive_0.9.2_linux_amd64.deb \
-    && apt install ./dive_0.9.2_linux_amd64.deb \
-    && rm -rf ./dive_0.9.2_linux_amd64.deb
+ARG DIVE_VERSION=0.10.0
+RUN curl -fsSL "https://github.com/wagoodman/dive/releases/download/v${DIVE_VERSION}/dive_${DIVE_VERSION}_linux_amd64.deb" -o dive.deb \
+    && apt install ./dive.deb \
+    && rm -rf ./dive.deb
 
 # Install earthly
 RUN curl -fsSL https://github.com/earthly/earthly/releases/download/v0.6.2/earthly-linux-${TARGETARCH} -o /usr/local/bin/earthly \

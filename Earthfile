@@ -45,8 +45,8 @@ devcontainer:
     RUN sed -ir 's/^__bash_prompt$/PS1="\\[\\033[0;32m\\]\\u \\[\\033[0m\\]➜ \\[\\033[1;34m\\]\\w\\[\\033[0m\\]\\$ "/' ~/.bashrc
     USER root
 
-    ARG DEVCONTAINER_IMAGE_TAG=local
-    SAVE IMAGE --push "$DEVCONTAINER_IMAGE_NAME:$DEVCONTAINER_IMAGE_TAG"
+    ARG DEVCONTAINER_IMAGE_TAG=latest
+    SAVE IMAGE --push "$DEVCONTAINER_IMAGE_NAME:$DEVCONTAINER_IMAGE_TAG" "$DEVCONTAINER_IMAGE_NAME:latest"
 
 devcontainer-rebuild:
     RUN --no-cache date +%Y%m%d%H%M%S | tee buildtime
@@ -228,8 +228,8 @@ lambda-container:
 
     ENTRYPOINT ["npx", "aws-lambda-ric"]
     CMD ["index.handler"]
-    ARG LAMBDA_IMAGE_TAG=local
-    SAVE IMAGE --push "$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG"
+    ARG LAMBDA_IMAGE_TAG=latest
+    SAVE IMAGE --push "$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG" "$LAMBDA_IMAGE_NAME:latest"
 
 lambda-container-rebuild:
     RUN --no-cache date +%Y%m%d%H%M%S | tee buildtime

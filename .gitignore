@@ -26,6 +26,8 @@ FACEBOOK_TOKEN
 !/tailwind.config.js
 /static/css/tailwind.css
 
+.tmp-earthly-out*
+
 # Logs
 logs
 *.log

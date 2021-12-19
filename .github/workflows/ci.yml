@@ -7,7 +7,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20211219084710
+    container: giffon/charleywong_devcontainer_workspace:20211219161619
     steps:
       - uses: actions/checkout@v2
         with:
@@ -51,7 +51,7 @@ jobs:
     needs: build
     if: success() && github.event_name == 'push' && ( github.ref == 'refs/heads/master' || github.ref == 'refs/heads/production' )
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20211219084710
+    container: giffon/charleywong_devcontainer_workspace:20211219161619
     services:
       earthly:
         image: earthly/buildkitd:v0.6.2
@@ -64,6 +64,7 @@ jobs:
           - /tmp/earthly
     env:
       EARTHLY_BUILDKIT_HOST: tcp://earthly:8372
+      EARTHLY_USE_INLINE_CACHE: "true"
     steps:
       - uses: actions/checkout@v2
         with:
