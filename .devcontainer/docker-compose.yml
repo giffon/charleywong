@@ -1,7 +1,7 @@
 version: '3'
 services:
   workspace:
-    image: giffon/charleywong_devcontainer_workspace:20211219161619
+    image: giffon/charleywong_devcontainer_workspace:20211219191241
     init: true
     volumes:
       - /var/run/docker.sock:/var/run/docker-host.sock
@@ -11,6 +11,8 @@ services:
       - EARTHLY_BUILDKIT_HOST=tcp://earthly:8372
       - EARTHLY_SECRET_FILES=.envrc=/workspace/.envrc
       - EARTHLY_USE_INLINE_CACHE=true
+      - EARTHLY_SAVE_INLINE_CACHE=true
+      - EARTHLY_STRICT=true
     user: vscode
     entrypoint: /usr/local/share/docker-init.sh
     command: sleep infinity
