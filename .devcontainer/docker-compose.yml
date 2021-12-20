@@ -12,7 +12,6 @@ services:
       - EARTHLY_SECRET_FILES=.envrc=/workspace/.envrc
       - EARTHLY_USE_INLINE_CACHE=true
       - EARTHLY_SAVE_INLINE_CACHE=true
-      - EARTHLY_STRICT=true
     user: vscode
     entrypoint: /usr/local/share/docker-init.sh
     command: sleep infinity
