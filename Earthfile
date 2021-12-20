@@ -244,12 +244,32 @@ lambda-container:
     ARG LAMBDA_IMAGE_TAG=latest
     SAVE IMAGE --push "$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG" "$LAMBDA_IMAGE_NAME:latest"
 
+aws-lambda-rie:
+    FROM +devcontainer
+    RUN curl -fsSL https://github.com/aws/aws-lambda-runtime-interface-emulator/releases/latest/download/aws-lambda-rie -o aws-lambda-rie \
+        && chmod +x aws-lambda-rie
+    SAVE ARTIFACT aws-lambda-rie
+
+lambda-container-rie:
+    ARG LAMBDA_IMAGE_TAG=latest
+    FROM +lambda-container --LAMBDA_IMAGE_TAG="$LAMBDA_IMAGE_TAG"
+    COPY +aws-lambda-rie/aws-lambda-rie /usr/local/bin/aws-lambda-rie
+    ENTRYPOINT ["aws-lambda-rie", "npx", "aws-lambda-ric"]
+    SAVE IMAGE "${LAMBDA_IMAGE_NAME}:${LAMBDA_IMAGE_TAG}-rie"
+
 lambda-container-rebuild:
     RUN --no-cache date +%Y%m%d%H%M%S | tee buildtime
     BUILD \
         --platform=linux/amd64 \
         +lambda-container \
         --LAMBDA_IMAGE_TAG="$(cat buildtime)"
+
+lambda-container-run:
+    LOCALLY
+    ARG LAMBDA_IMAGE_TAG=latest
+    WITH DOCKER --load=+lambda-container-rie
+        RUN docker run --rm -p 80:80 "${LAMBDA_IMAGE_NAME}:${LAMBDA_IMAGE_TAG}-rie"
+    END
 
 deploy:
     FROM +node-modules-dev
