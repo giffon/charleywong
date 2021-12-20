@@ -9,6 +9,8 @@ provider:
   apiGateway:
     binaryMediaTypes:
       - '*/*'
+  httpApi:
+    cors: true
   environment:
     GOOGLE_CLIENT_EMAIL: ${env:GOOGLE_CLIENT_EMAIL}
     GOOGLE_PRIVATE_KEY: ${env:GOOGLE_PRIVATE_KEY}
@@ -33,14 +35,7 @@ functions:
   web:
     image: ${env:LAMBDA_IMAGE}
     events:
-      - http:
-          method: ANY
-          path: '/'
-          cors: true
-      - http:
-          method: ANY
-          path: '{proxy+}'
-          cors: true
+      - httpApi: '*'
 
 plugins:
   - serverless-prune-plugin
