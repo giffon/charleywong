@@ -16,12 +16,6 @@ echo:
     ARG MSG
     RUN --no-cache echo $MSG
 
-# devcontainer:
-#     COPY .devcontainer/docker-compose.yml docker-compose.yml
-#     RUN grep -oE "$DEVCONTAINER_IMAGE_NAME:[a-z0-9]+" docker-compose.yml | awk -F ':' '{print $2}' | tee DEVCONTAINER_IMAGE_TAG_PREVIOUS
-#     FROM +devcontainer-build \
-#         --DEVCONTAINER_IMAGE_TAG_PREVIOUS="$(cat DEVCONTAINER_IMAGE_TAG_PREVIOUS)"
-
 devcontainer-base:
     FROM DOCKERFILE .devcontainer \
         --INSTALL_ZSH="false" \
@@ -272,7 +266,7 @@ lambda-container-run:
     END
 
 deploy:
-    FROM +node-modules-dev
+    FROM +devcontainer
     COPY serverless.yml .
     ARG LAMBDA_IMAGE_TAG
     ENV LAMBDA_IMAGE="$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG"
