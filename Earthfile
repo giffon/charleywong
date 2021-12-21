@@ -286,3 +286,14 @@ deploy:
 ecr-login:
     LOCALLY
     RUN aws ecr get-login-password | docker login --username AWS --password-stdin "$LAMBDA_IMAGE_REGISTRY"
+
+tail-logs:
+    FROM +devcontainer
+    COPY serverless.yml .
+    ARG LAMBDA_IMAGE_TAG=latest
+    ENV LAMBDA_IMAGE="$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG"
+    ARG DEPLOY_STAGE
+    RUN --no-cache \
+        --mount=type=secret,id=+secrets/.envrc,target=.envrc \
+        . ./.envrc \
+        && npx serverless logs -t -f web --stage "${DEPLOY_STAGE}"
