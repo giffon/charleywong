@@ -263,7 +263,13 @@ lambda-container-run:
     LOCALLY
     ARG LAMBDA_IMAGE_TAG=latest
     WITH DOCKER --load=+lambda-container-rie
-        RUN docker run --rm -p 80:80 "${LAMBDA_IMAGE_NAME}:${LAMBDA_IMAGE_TAG}-rie"
+        RUN docker run \
+            --rm \
+            -p 9000:8080 \
+            -e GOOGLE_CLIENT_EMAIL="$GOOGLE_CLIENT_EMAIL" \
+            -e GOOGLE_PRIVATE_KEY="$GOOGLE_PRIVATE_KEY" \
+            -e FACEBOOK_TOKEN="$FACEBOOK_TOKEN" \
+            "${LAMBDA_IMAGE_NAME}:${LAMBDA_IMAGE_TAG}-rie"
     END
 
 deploy:
