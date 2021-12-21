@@ -113,6 +113,7 @@ entity-index:
     COPY data/entity data/entity
     RUN mkdir -p data/groonga
     RUN node exportEntityIndex.js
+    RUN chmod a+r data/groonga/*
     SAVE ARTIFACT data/groonga groonga
 
 hkbase-directory:
