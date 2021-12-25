@@ -44,5 +44,20 @@
   "tags": [
     "interior",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門青楊街8號 B座 五樓 504室"
+      },
+      "googleMapsPlaceId": "ChIJqUIA9iT7AzQRYEMzC89GsLw",
+      "coordinates": {
+        "lat": 22.3990346,
+        "lng": 113.9696434
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
   ]
 }
