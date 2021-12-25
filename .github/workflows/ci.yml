@@ -100,8 +100,8 @@ jobs:
         run: earthly +deploy --LAMBDA_IMAGE_TAG="${{ github.sha }}" --DEPLOY_STAGE="$DEPLOY_STAGE"
         env:
           EARTHLY_SECRET_FILES: .envrc=.envrc
-      # - name: Post-deployment test
-      #   run: haxe test.hxml post-deployment "${SERVER_HOST}"
+      - name: Post-deployment test
+        run: earthly +test --TEST="post-deployment ${SERVER_HOST}"
       # - name: Export spreadsheet
       #   if: github.ref == 'refs/heads/production'
       #   run: haxe -D CI exportSpreadsheet.hxml
