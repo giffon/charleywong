@@ -30,6 +30,13 @@
         "website": "https://yyimage.wixsite.com/yanniemakeup"
       },
       "url": "https://www.facebook.com/yanniemakeup/"
+    },
+    {
+      "url": "https://www.instagram.com/yanniemakeup/",
+      "meta": {
+        "name": "YYIMAGE Yannie Cheung Makeup",
+        "about": "𝕳𝖔𝖓𝖌 𝕶𝖔𝖓𝖌 𝕸𝖆𝖐𝖊𝖚𝖕 𝕬𝖗𝖙𝖎𝖘𝖙\nClick入呢條link WhatsApp快速查詢❤️👇🏻👇🏻"
+      }
     }
   ],
   "posts": [
@@ -41,5 +48,20 @@
     "makeup",
     "artist",
     "wedding"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "牛頭角海濱道139 – 141號海濱中心509室"
+      },
+      "googleMapsPlaceId": "ChIJQfBZf0gBBDQRcos0Yk-qKvs",
+      "coordinates": {
+        "lat": 22.3125627,
+        "lng": 114.2179202
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
