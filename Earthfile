@@ -137,7 +137,7 @@ hkbase-directory:
         && node dumpHkbaseDirectory.js dump
     SAVE ARTIFACT HkbaseDirectory.json
 
-ybm:
+ybm-download:
     FROM +devcontainer
     COPY +dclookup/* .
     COPY lib/hxnodelibs lib/hxnodelibs
@@ -147,6 +147,7 @@ ybm:
     COPY .haxerc syncYellowBlueMap.hxml .
     RUN haxe syncYellowBlueMap.hxml
     COPY data data
+    ARG CACHE_KEY
     RUN --mount=type=secret,id=+secrets/.envrc,target=.envrc \
         . ./.envrc \
         && \
@@ -154,6 +155,10 @@ ybm:
         AWS_ACCESS_KEY_ID="$YBM_AWS_ACCESS_KEY_ID" \
         AWS_SECRET_ACCESS_KEY="$YBM_AWS_SECRET_ACCESS_KEY" \
         node syncYellowBlueMap.js dump
+    SAVE ARTIFACT ybm
+
+ybm:
+    FROM +ybm-download --CACHE_KEY="$(date +%Y%m%d)"
     SAVE ARTIFACT ybm
 
 exportSpreadsheet:
