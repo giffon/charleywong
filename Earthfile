@@ -64,8 +64,7 @@ devcontainer-update-refs:
         --FILE='./.devcontainer/docker-compose.yml' \
         --FILE='./.github/workflows/ci-master.yml' \
         --FILE='./.github/workflows/ci-production.yml' \
-        --FILE='./.github/workflows/updateMeta.yml' \
-        --FILE='./Dockerfile'
+        --FILE='./.github/workflows/updateMeta.yml'
 
 devcontainer-update-ref:
     ARG --required DEVCONTAINER_IMAGE_NAME
