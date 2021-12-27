@@ -102,9 +102,6 @@ jobs:
           EARTHLY_SECRET_FILES: .envrc=.envrc
       - name: Post-deployment test
         run: earthly +test --TEST="post-deployment ${SERVER_HOST}"
-      # - name: Export spreadsheet
-      #   if: github.ref == 'refs/heads/production'
-      #   run: haxe -D CI exportSpreadsheet.hxml
-      #   env:
-      #     GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
-      #     GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
+      - name: Export spreadsheet
+        if: github.ref == 'refs/heads/production'
+        run: earthly +exportSpreadsheet --HAXE_ARGS="-D CI"

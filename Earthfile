@@ -148,6 +148,24 @@ ybm:
         node syncYellowBlueMap.js dump
     SAVE ARTIFACT ybm
 
+exportSpreadsheet:
+    FROM +devcontainer
+    COPY +dclookup/* .
+    COPY lib/hxnodelibs lib/hxnodelibs
+    COPY haxe_libraries haxe_libraries
+    COPY src src
+    COPY static static
+    COPY .haxerc exportSpreadsheet.hxml .
+    COPY data data
+    ARG HAXE_ARGS
+    RUN --mount=type=secret,id=+secrets/.envrc,target=.envrc \
+        . ./.envrc \
+        && \
+        AWS_DEFAULT_REGION="$YBM_AWS_DEFAULT_REGION" \
+        AWS_ACCESS_KEY_ID="$YBM_AWS_ACCESS_KEY_ID" \
+        AWS_SECRET_ACCESS_KEY="$YBM_AWS_SECRET_ACCESS_KEY" \
+        haxe $HAXE_ARGS exportSpreadsheet.hxml
+
 test:
     FROM +devcontainer
     COPY +dclookup/* .
