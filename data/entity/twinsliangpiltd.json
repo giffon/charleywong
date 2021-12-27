@@ -8,7 +8,7 @@
       "url": "https://www.instagram.com/twinsliangpiltd/",
       "meta": {
         "name": "☻兩 姊 妹 涼 皮 有 限 公 司☻",
-        "about": "★太子 柏樹街15號。太子站D出口★\n⭕️✨水晶涼皮✨清透爽滑✨非凡口感⭕️\n星期二至六(14:30-20:00)\n星期日(14:30-18:00)\n下面沙田團購🥸"
+        "about": "★太子 柏樹街15號。太子站D出口★\n⭕️✨水晶涼皮✨清透爽滑✨非凡口感⭕️\n星期二至六(14:30-20:00)\n星期日(14:30-18:00)"
       }
     },
     {
@@ -35,24 +35,6 @@
       }
     },
     {
-      "url": "https://www.facebook.com/permalink.php?story_fbid=314552579446964&id=272296017005954",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/permalink.php?story_fbid=381855242716697&id=272296017005954",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/permalink.php?story_fbid=389830368585851&id=272296017005954",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
       "url": "https://www.instagram.com/p/B93XoquDD82/"
     }
   ],
@@ -63,12 +45,16 @@
     {
       "type": "eat",
       "id": 322
+    },
+    {
+      "type": "eat",
+      "id": 6455
     }
   ],
   "places": [
     {
       "address": {
-        "zh": "太子 柏樹街15號"
+        "zh": "太子柏樹街15號"
       },
       "googleMapsPlaceId": "ChIJlQT9aIIBBDQRnVfxi-yOcVw",
       "coordinates": {
@@ -77,6 +63,32 @@
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "教育路68號兆豐樓地下21號鋪"
+      },
+      "googleMapsPlaceId": "ChIJUVofDKD7AzQRgCGeE8hVNqY",
+      "coordinates": {
+        "lat": 22.4432513,
+        "lng": 114.026075
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荔枝角青山道473號A舖"
+      },
+      "googleMapsPlaceId": "ChIJ7y7ffVEHBDQRhD1rGwH5kUY",
+      "coordinates": {
+        "lat": 22.3397049,
+        "lng": 114.1524933
+      },
+      "area": {
+        "zh": "深水埗區"
       }
     }
   ]
