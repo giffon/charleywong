@@ -28,14 +28,21 @@
         "emails": [
           "homekong1314@gmail.com"
         ],
-        "single_line_address": "屯門青河坊3號利寶大廈地下102號舖, 852 Hong Kong, Hong Kong"
+        "single_line_address": "屯門青河坊3號利寶大廈地下102號舖, 852 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/sigwonggai/",
+      "meta": {
+        "name": "時光雞",
+        "about": "願時光保持不變\n時光機 留給你\nFb: fb.me/times.chicken\n後備ac: @times.chicken\nWts/Signal/Tg: +852 6103 4059\n營業時間：11:30-21:00\n時光炸雞為你提供韓式無骨炸雞、韓式飯捲、韓式熱狗棒等美食"
       }
     },
     {
       "url": "https://www.instagram.com/times.chicken/",
       "meta": {
-        "name": "時光炸雞專門店（時光炸雞）",
-        "about": "願時光保持不變\n時光機 留給你\nFb: fb.me/times.chicken\nWts/Signal/Tg: +852 6103 4059\n營業時間：11:30-21:00\n時光炸雞為你提供韓式無骨炸雞、韓式飯捲、韓式熱狗棒等美食"
+        "name": "時光炸雞專門店（屯門時光炸雞）",
+        "about": "願時光保持不變\n時光機 留給你\nFb: fb.me/times.chicken\nWts/Signal/Tg: +852 6103 4059\n主ac: @sigwonggai\n營業時間：11:30-21:00\n時光炸雞為你提供韓式無骨炸雞、韓式飯捲、韓式熱狗棒等美食"
       }
     }
   ],
@@ -75,7 +82,18 @@
   "yellowBlueMapIds": [
     {
       "type": "eat",
+      "id": 5373
+    },
+    {
+      "type": "eat",
+      "id": 5960
+    },
+    {
+      "type": "eat",
       "id": 6285
     }
+  ],
+  "alias": [
+    "SiGwongGai"
   ]
 }
