@@ -63,6 +63,12 @@ jobs:
       - name: Login to Amazon ECR
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
       - name: Create .envrc
         run: |
           cat > .envrc <<EOT
@@ -90,8 +96,6 @@ jobs:
           SERVERLESS_ACCESS_KEY: ${{ secrets.serverlessAccessKey }}
       - name: Build devcontainer image
         run: earthly --push +devcontainer --DEVCONTAINER_IMAGE_TAG="${{ github.sha }}"
-        env:
-          EARTHLY_SECRET_FILES: .envrc=.envrc
       - name: Build Lambda image
         run: earthly --push +lambda-container --LAMBDA_IMAGE_TAG="${{ github.sha }}"
         env:
