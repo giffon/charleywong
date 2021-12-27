@@ -56,7 +56,8 @@ devcontainer-update-refs:
     BUILD +devcontainer-update-ref \
         --DEVCONTAINER_IMAGE_TAG="$DEVCONTAINER_IMAGE_TAG" \
         --FILE='./.devcontainer/docker-compose.yml' \
-        --FILE='./.github/workflows/ci.yml' \
+        --FILE='./.github/workflows/ci-master.yml' \
+        --FILE='./.github/workflows/ci-production.yml' \
         --FILE='./.github/workflows/updateMeta.yml' \
         --FILE='./Dockerfile'
 

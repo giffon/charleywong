@@ -1,0 +1,100 @@
+name: CI-master
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+env:
+  TZ: Asia/Hong_Kong
+  EARTHLY_BUILDKIT_HOST: tcp://earthly:8372
+  EARTHLY_USE_INLINE_CACHE: "true"
+  EARTHLY_SAVE_INLINE_CACHE: "true"
+  EARTHLY_STRICT: "true"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: giffon/charleywong_devcontainer_workspace:20211219191241
+    services:
+      earthly:
+        image: earthly/buildkitd:v0.6.2
+        options: --privileged
+        env:
+          BUILDKIT_TCP_TRANSPORT_ENABLED: "true"
+        ports:
+          - 8372
+        volumes:
+          - /tmp/earthly
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Run test
+        run: earthly +test --TEST="$GITHUB_EVENT_NAME"
+  deploy:
+    concurrency: ${{ github.ref }}
+    needs: build
+    if: success() && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    container: giffon/charleywong_devcontainer_workspace:20211219191241
+    services:
+      earthly:
+        image: earthly/buildkitd:v0.6.2
+        options: --privileged
+        env:
+          BUILDKIT_TCP_TRANSPORT_ENABLED: "true"
+        ports:
+          - 8372
+        volumes:
+          - /tmp/earthly
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.awsAccessKeyId }}
+          aws-secret-access-key: ${{ secrets.awsSecretAccessKey }}
+          aws-region: us-east-1
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+      - name: Create .envrc
+        run: |
+          cat > .envrc <<EOT
+          export GOOGLE_CLIENT_EMAIL="$GOOGLE_CLIENT_EMAIL"
+          export GOOGLE_PRIVATE_KEY="$GOOGLE_PRIVATE_KEY"
+          export AWS_DEFAULT_REGION="$AWS_DEFAULT_REGION"
+          export AWS_ACCESS_KEY_ID="$AWS_ACCESS_KEY_ID"
+          export AWS_SECRET_ACCESS_KEY="$AWS_SECRET_ACCESS_KEY"
+          export YBM_AWS_DEFAULT_REGION="$YBM_AWS_DEFAULT_REGION"
+          export YBM_AWS_ACCESS_KEY_ID="$YBM_AWS_ACCESS_KEY_ID"
+          export YBM_AWS_SECRET_ACCESS_KEY="$YBM_AWS_SECRET_ACCESS_KEY"
+          export FACEBOOK_TOKEN="$FACEBOOK_TOKEN"
+          export SERVERLESS_ACCESS_KEY="$SERVERLESS_ACCESS_KEY"
+          EOT
+        env:
+          GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
+          GOOGLE_PRIVATE_KEY: ${{ secrets.googlePrivateKey }}
+          AWS_DEFAULT_REGION: us-east-1
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          YBM_AWS_DEFAULT_REGION: us-east-1
+          YBM_AWS_ACCESS_KEY_ID: ${{ secrets.YBM_AWS_ACCESS_KEY_ID }}
+          YBM_AWS_SECRET_ACCESS_KEY: ${{ secrets.YBM_AWS_SECRET_ACCESS_KEY }}
+          FACEBOOK_TOKEN: ${{ secrets.FACEBOOK_TOKEN }}
+          SERVERLESS_ACCESS_KEY: ${{ secrets.serverlessAccessKey }}
+      - name: Build Lambda image
+        run: earthly --push +lambda-container --LAMBDA_IMAGE_TAG="${{ github.sha }}"
+        env:
+          EARTHLY_SECRET_FILES: .envrc=.envrc
+      - name: Deploy
+        run: earthly +deploy --LAMBDA_IMAGE_TAG="${{ github.sha }}" --DEPLOY_STAGE="master"
+        env:
+          EARTHLY_SECRET_FILES: .envrc=.envrc
+      - name: Post-deployment test
+        run: earthly +test --TEST="post-deployment charleywong-master.giffon.io"

@@ -1,5 +1,8 @@
-name: CI
-on: [push, pull_request]
+name: CI-production
+on:
+  push:
+    branches:
+      - production
 
 env:
   TZ: Asia/Hong_Kong
@@ -9,29 +12,8 @@ env:
   EARTHLY_STRICT: "true"
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20211219191241
-    services:
-      earthly:
-        image: earthly/buildkitd:v0.6.2
-        options: --privileged
-        env:
-          BUILDKIT_TCP_TRANSPORT_ENABLED: "true"
-        ports:
-          - 8372
-        volumes:
-          - /tmp/earthly
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: true
-      - name: Run test
-        run: earthly +test --TEST="$GITHUB_EVENT_NAME"
   deploy:
     concurrency: ${{ github.ref }}
-    needs: build
-    if: success() && github.event_name == 'push' && ( github.ref == 'refs/heads/master' || github.ref == 'refs/heads/production' )
     runs-on: ubuntu-latest
     container: giffon/charleywong_devcontainer_workspace:20211219191241
     services:
@@ -82,28 +64,13 @@ jobs:
           YBM_AWS_SECRET_ACCESS_KEY: ${{ secrets.YBM_AWS_SECRET_ACCESS_KEY }}
           FACEBOOK_TOKEN: ${{ secrets.FACEBOOK_TOKEN }}
           SERVERLESS_ACCESS_KEY: ${{ secrets.serverlessAccessKey }}
-      - name: Build Lambda image
-        run: earthly --push +lambda-container --LAMBDA_IMAGE_TAG="${{ github.sha }}"
-        env:
-          EARTHLY_SECRET_FILES: .envrc=.envrc
-      - name: Set Env
-        run: |
-          set -ex
-          if [ "${GITHUB_REF}" = "refs/heads/master" ]; then
-            echo "DEPLOY_STAGE=master" >> $GITHUB_ENV
-            echo "SERVER_HOST=charleywong-master.giffon.io" >> $GITHUB_ENV
-          elif [ "${GITHUB_REF}" = "refs/heads/production" ]; then
-            echo "DEPLOY_STAGE=production" >> $GITHUB_ENV
-            echo "SERVER_HOST=charleywong.giffon.io" >> $GITHUB_ENV
-          fi
       - name: Deploy
-        run: earthly +deploy --LAMBDA_IMAGE_TAG="${{ github.sha }}" --DEPLOY_STAGE="$DEPLOY_STAGE"
+        run: earthly +deploy --LAMBDA_IMAGE_TAG="${{ github.sha }}" --DEPLOY_STAGE="production"
         env:
           EARTHLY_SECRET_FILES: .envrc=.envrc
       - name: Post-deployment test
-        run: earthly +test --TEST="post-deployment ${SERVER_HOST}"
+        run: earthly +test --TEST="post-deployment charleywong-master.giffon.io"
       - name: Export spreadsheet
-        if: github.ref == 'refs/heads/production'
         run: earthly +exportSpreadsheet --HAXE_ARGS="-D CI"
         env:
           EARTHLY_SECRET_FILES: .envrc=.envrc
