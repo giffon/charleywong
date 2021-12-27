@@ -15,9 +15,9 @@ env:
   EARTHLY_STRICT: "true"
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20211219191241
+    container: ghcr.io/giffon/charleywong_devcontainer_workspace:20211227072110
     services:
       earthly:
         image: earthly/buildkitd:v0.6.2
@@ -36,10 +36,10 @@ jobs:
         run: earthly +test --TEST="$GITHUB_EVENT_NAME"
   deploy:
     concurrency: ${{ github.ref }}
-    needs: build
+    needs: test
     if: success() && github.event_name == 'push'
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20211219191241
+    container: ghcr.io/giffon/charleywong_devcontainer_workspace:20211227072110
     services:
       earthly:
         image: earthly/buildkitd:v0.6.2
@@ -88,6 +88,10 @@ jobs:
           YBM_AWS_SECRET_ACCESS_KEY: ${{ secrets.YBM_AWS_SECRET_ACCESS_KEY }}
           FACEBOOK_TOKEN: ${{ secrets.FACEBOOK_TOKEN }}
           SERVERLESS_ACCESS_KEY: ${{ secrets.serverlessAccessKey }}
+      - name: Build devcontainer image
+        run: earthly --push +devcontainer --DEVCONTAINER_IMAGE_TAG="${{ github.sha }}"
+        env:
+          EARTHLY_SECRET_FILES: .envrc=.envrc
       - name: Build Lambda image
         run: earthly --push +lambda-container --LAMBDA_IMAGE_TAG="${{ github.sha }}"
         env:

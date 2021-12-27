@@ -1,6 +1,6 @@
 VERSION 0.6
 FROM busybox:1
-ARG DEVCONTAINER_IMAGE_NAME=giffon/charleywong_devcontainer_workspace
+ARG DEVCONTAINER_IMAGE_NAME_DEFAULT=ghcr.io/giffon/charleywong_devcontainer_workspace
 ARG LAMBDA_IMAGE_REGISTRY=932878902707.dkr.ecr.us-east-1.amazonaws.com
 ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-master
 
@@ -39,21 +39,27 @@ devcontainer:
     RUN sed -ir 's/^__bash_prompt$/PS1="\\[\\033[0;32m\\]\\u \\[\\033[0m\\]➜ \\[\\033[1;34m\\]\\w\\[\\033[0m\\]\\$ "/' ~/.bashrc
     USER root
 
+    ARG DEVCONTAINER_IMAGE_NAME="$DEVCONTAINER_IMAGE_NAME_DEFAULT"
     ARG DEVCONTAINER_IMAGE_TAG=latest
     SAVE IMAGE --push "$DEVCONTAINER_IMAGE_NAME:$DEVCONTAINER_IMAGE_TAG" "$DEVCONTAINER_IMAGE_NAME:latest"
 
 devcontainer-rebuild:
     RUN --no-cache date +%Y%m%d%H%M%S | tee buildtime
+    ARG DEVCONTAINER_IMAGE_NAME="$DEVCONTAINER_IMAGE_NAME_DEFAULT"
     BUILD \
         --platform=linux/amd64 \
         +devcontainer \
+        --DEVCONTAINER_IMAGE_NAME="$DEVCONTAINER_IMAGE_NAME" \
         --DEVCONTAINER_IMAGE_TAG="$(cat buildtime)"
     BUILD +devcontainer-update-refs \
+        --DEVCONTAINER_IMAGE_NAME="$DEVCONTAINER_IMAGE_NAME" \
         --DEVCONTAINER_IMAGE_TAG="$(cat buildtime)"
 
 devcontainer-update-refs:
-    ARG DEVCONTAINER_IMAGE_TAG
+    ARG --required DEVCONTAINER_IMAGE_NAME
+    ARG --required DEVCONTAINER_IMAGE_TAG
     BUILD +devcontainer-update-ref \
+        --DEVCONTAINER_IMAGE_NAME="$DEVCONTAINER_IMAGE_NAME" \
         --DEVCONTAINER_IMAGE_TAG="$DEVCONTAINER_IMAGE_TAG" \
         --FILE='./.devcontainer/docker-compose.yml' \
         --FILE='./.github/workflows/ci-master.yml' \
@@ -62,7 +68,8 @@ devcontainer-update-refs:
         --FILE='./Dockerfile'
 
 devcontainer-update-ref:
-    ARG DEVCONTAINER_IMAGE_TAG
+    ARG --required DEVCONTAINER_IMAGE_NAME
+    ARG --required DEVCONTAINER_IMAGE_TAG
     ARG FILE
     COPY "$FILE" file.src
     RUN sed -e "s#$DEVCONTAINER_IMAGE_NAME:[a-z0-9]*#$DEVCONTAINER_IMAGE_NAME:$DEVCONTAINER_IMAGE_TAG#g" file.src > file.out
@@ -301,6 +308,10 @@ deploy:
         --mount=type=secret,id=+secrets/.envrc,target=.envrc \
         . ./.envrc \
         && npx serverless deploy --stage "${DEPLOY_STAGE}"
+
+ghcr-login:
+    LOCALLY
+    RUN echo "$GITHUB_CR_PAT" | docker login ghcr.io -u "$GITHUB_USERNAME" --password-stdin
 
 ecr-login:
     LOCALLY

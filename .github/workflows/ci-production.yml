@@ -15,7 +15,7 @@ jobs:
   deploy:
     concurrency: ${{ github.ref }}
     runs-on: ubuntu-latest
-    container: giffon/charleywong_devcontainer_workspace:20211219191241
+    container: ghcr.io/giffon/charleywong_devcontainer_workspace:20211227072110
     services:
       earthly:
         image: earthly/buildkitd:v0.6.2
