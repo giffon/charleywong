@@ -178,6 +178,7 @@ exportSpreadsheet:
         AWS_ACCESS_KEY_ID="$YBM_AWS_ACCESS_KEY_ID" \
         AWS_SECRET_ACCESS_KEY="$YBM_AWS_SECRET_ACCESS_KEY" \
         haxe $HAXE_ARGS exportSpreadsheet.hxml
+    SAVE ARTIFACT --keep-ts data AS LOCAL data
 
 test:
     FROM +devcontainer
