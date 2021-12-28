@@ -1,0 +1,68 @@
+{
+  "id": "MellowMellowHK",
+  "name": {
+    "en": "MellowMellow",
+    "zh": "麥蘆"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/112659017099179/",
+      "meta": {
+        "id": "112659017099179",
+        "username": "MellowMellowHK",
+        "name": "MellowMellow 麥蘆",
+        "about": "Dessert Kitchen",
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
+        ],
+        "emails": [
+          "mellowmellowhk@gmail.com"
+        ],
+        "single_line_address": "Room 617, 6/F, Flourish Industrial Building, No. 33 Sheung Yee Road, Kowloon Bay, Kowloon, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/mellowmellowhk/",
+      "meta": {
+        "name": "MellowMellow 麥蘆",
+        "about": "持牌食物製造廠"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/MellowMellowHK/posts/167755684922845",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room 617, 6/F, Flourish Industrial Building, No. 33 Sheung Yee Road, Kowloon Bay"
+      },
+      "googleMapsPlaceId": "ChIJUYOwuDMBBDQRXFqA7rMc97s",
+      "coordinates": {
+        "lat": 22.3211936,
+        "lng": 114.2074176
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 6796
+    }
+  ]
+}

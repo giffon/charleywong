@@ -1,0 +1,75 @@
+{
+  "id": "myflavorcoffee",
+  "name": {
+    "en": "Myflavorcoffee"
+  },
+  "webpages": [
+    {
+      "url": "https://www.myflavorcoffee.com"
+    },
+    {
+      "url": "https://www.facebook.com/267149893464494/",
+      "meta": {
+        "id": "267149893464494",
+        "username": "myflavorcoffee",
+        "name": "Myflavorcoffee",
+        "about": "My Flavor Coffee Roaster & Workshop \n(My Flavor Coffee Company)\n\n做出一杯好咖啡，本身就是藝術、學問集於一身的。\n我們承諾，每一杯咖啡都是集藝術和味道於一身！\n\nOnline shop : \nhttp://www.myflavorcoffee.com/",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "emails": [
+          "myflavorcoffee@gmail.com"
+        ],
+        "website": "http://www.myflavorcoffee.com/"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/myflavorcoffee/",
+      "meta": {
+        "name": "Myflavorcoffee",
+        "about": "Specialty coffee shop & roaster🇭🇰\nWe do the special one.\n📍Coffee Roaster👍🏿\n📍Coffee Work Shop👍🏿\n📍Film Photography Lover📷"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/myflavorcoffee/photos/a.312782008901282/1157041864475288",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/myflavorcoffee/photos/a.312782008901282/1180145822164892",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍觀塘成業街15-17號成運工業大廈12樓05室"
+      },
+      "googleMapsPlaceId": "ChIJIxGwcUUBBDQRptSXxyB8yLE",
+      "coordinates": {
+        "lat": 22.3103477,
+        "lng": 114.2266972
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 1069
+    }
+  ]
+}
