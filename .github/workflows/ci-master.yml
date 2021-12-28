@@ -34,6 +34,8 @@ jobs:
           submodules: true
       - name: Run test
         run: earthly +test --TEST="$GITHUB_EVENT_NAME"
+      - name: Build Chrome extension
+        run: earthly +chrome-extension
   deploy:
     concurrency: ${{ github.ref }}
     needs: test

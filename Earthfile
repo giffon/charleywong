@@ -235,6 +235,18 @@ server-script:
     RUN haxe server.hxml
     SAVE ARTIFACT index.js
 
+chrome-extension:
+    FROM +devcontainer
+    COPY haxe_libraries haxe_libraries
+    COPY lib/hxnodelibs lib/hxnodelibs
+    COPY lib/HKAddressParser lib/HKAddressParser
+    COPY lib/workbox lib/workbox
+    COPY src src
+    COPY .haxerc babel.config.json chrome-extension.hxml .
+    RUN mkdir -p chrome
+    RUN haxe chrome-extension.hxml
+    SAVE ARTIFACT --keep-ts chrome/*.js AS LOCAL ./chrome/
+
 lambda-container-base:
     FROM ubuntu:focal
     RUN apt-get update \
