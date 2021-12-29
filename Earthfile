@@ -344,3 +344,13 @@ tail-logs:
         --mount=type=secret,id=+secrets/.envrc,target=.envrc \
         . ./.envrc \
         && npx serverless logs -t -f web --stage "${DEPLOY_STAGE}"
+
+waybackpy:
+    FROM python:3.9
+    RUN pip install waybackpy==2.4.4
+    RUN --no-cache waybackpy --version
+
+wayback-save:
+    FROM +waybackpy
+    ARG --required URL
+    RUN waybackpy --save --url "$URL" --user_agent "charleywong"

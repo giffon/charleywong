@@ -5,6 +5,7 @@ import js.npm.google_spreadsheet.*;
 import charleywong.ServerMain.*;
 import charleywong.GoogleServiceAccount.googleServiceAccount;
 using Lambda;
+using StringTools;
 
 enum abstract Sheet(String) to String {
     var info;
@@ -143,7 +144,24 @@ class ExportSpreadsheet {
             );
     }
 
+    static function archiveStandNewsUrlsCmd() {
+        final urls = [
+            for (e in entityIndex.entities)
+            for (p in e.posts)
+            if (p.url.startsWith("https://www.thestandnews.com/"))
+            p.url => p.url
+        ].map(url -> 'earthly +wayback-save --URL "${url}"');
+        Sys.println(urls.join("\n"));
+    }
+
     static function main():Void {
+        switch (Sys.args()) {
+            case ["archiveStandNewsUrlsCmd"]:
+                archiveStandNewsUrlsCmd();
+                return;
+            case _: //pass
+        }
+
         switch(Compiler.getDefine("CI")) {
             case null:
                 var doc = new GoogleSpreadsheet("1OXVTI1DsZK9tSulJmfXAD5-pUyRneIuM6zzwmIL_SJQ");
