@@ -348,7 +348,6 @@ tail-logs:
 waybackpy:
     FROM python:3.9
     RUN pip install waybackpy==2.4.4
-    RUN --no-cache waybackpy --version
 
 wayback-save:
     FROM +waybackpy
