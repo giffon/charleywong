@@ -168,7 +168,7 @@ exportSpreadsheet:
     COPY src src
     COPY static static
     COPY .haxerc exportSpreadsheet.hxml .
-    COPY data data
+    COPY --keep-ts data/entity data/entity
     ARG HAXE_ARGS
     RUN --mount=type=secret,id=+secrets/.envrc,target=.envrc \
         . ./.envrc \
@@ -177,7 +177,7 @@ exportSpreadsheet:
         AWS_ACCESS_KEY_ID="$YBM_AWS_ACCESS_KEY_ID" \
         AWS_SECRET_ACCESS_KEY="$YBM_AWS_SECRET_ACCESS_KEY" \
         haxe $HAXE_ARGS exportSpreadsheet.hxml
-    SAVE ARTIFACT --keep-ts data AS LOCAL data
+    SAVE ARTIFACT --keep-ts data/entity AS LOCAL data/entity
 
 test:
     FROM +devcontainer
