@@ -3853,7 +3853,7 @@ blob@0.0.5:
   resolved "https://registry.yarnpkg.com/blob/-/blob-0.0.5.tgz#d680eeef25f8cd91ad533f5b01eed48e64caf683"
   integrity sha512-gaqbzQPqOoamawKg0LGVd7SzLgXS+JH61oWprSLH+P+abTczqJbhTR8CmJ2u9/bUYNmHTGJx/UEmn6doAvvuig==
 
-bluebird@^3.4.7, bluebird@^3.7.2:
+bluebird@^3.7.2:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
@@ -10284,12 +10284,12 @@ send@^0.17.1:
     range-parser "~1.2.1"
     statuses "~1.5.0"
 
-serverless-prune-plugin@1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/serverless-prune-plugin/-/serverless-prune-plugin-1.6.1.tgz#633a34bd9b1878b05c53821319db745a058f440e"
-  integrity sha512-rTeaedrVRWFdfXgSsraxcCHpVzL3AqztcYSr7FY3Jc74PJ0/H6Ukf5nFKKYZSolnF3JkU8ddwQGY52YnJIxQqw==
+serverless-prune-plugin@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/serverless-prune-plugin/-/serverless-prune-plugin-2.0.0.tgz#77a19accf0355841cd95591e1819befe3da3af0c"
+  integrity sha512-ZSPC4ZiFnoir3kL+rINMat8MISZeKJOn5D7AbUqEy/seOQqrR1KRwlwc70I//3cpxFpWmAwSF6WoszXIMKMptg==
   dependencies:
-    bluebird "^3.4.7"
+    bluebird "^3.7.2"
 
 serverless@2.70.0:
   version "2.70.0"
