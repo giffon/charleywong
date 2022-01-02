@@ -9,7 +9,6 @@ env:
   EARTHLY_BUILDKIT_HOST: tcp://earthly:8372
   EARTHLY_USE_INLINE_CACHE: "true"
   EARTHLY_SAVE_INLINE_CACHE: "true"
-  EARTHLY_STRICT: "true"
   LAMBDA_IMAGE_REGISTRY: 932878902707.dkr.ecr.us-east-1.amazonaws.com
   LAMBDA_IMAGE_NAME_MASTER: $LAMBDA_IMAGE_REGISTRY/serverless-charleywong-master
   LAMBDA_IMAGE_NAME_PRODUCTION: $LAMBDA_IMAGE_REGISTRY/serverless-charleywong-production
