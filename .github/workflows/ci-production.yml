@@ -15,7 +15,7 @@ jobs:
   deploy:
     concurrency: ${{ github.ref }}
     runs-on: ubuntu-latest
-    container: ghcr.io/giffon/charleywong_devcontainer_workspace:20220102133420
+    container: ghcr.io/giffon/charleywong_devcontainer_workspace:20220102164309
     services:
       earthly:
         image: earthly/buildkitd:v0.6.2
@@ -64,6 +64,8 @@ jobs:
           YBM_AWS_SECRET_ACCESS_KEY: ${{ secrets.YBM_AWS_SECRET_ACCESS_KEY }}
           FACEBOOK_TOKEN: ${{ secrets.FACEBOOK_TOKEN }}
           SERVERLESS_ACCESS_KEY: ${{ secrets.serverlessAccessKey }}
+      - name: Build devcontainer image
+        run: earthly +lambda-container --LAMBDA_IMAGE_TAG="${{ github.sha }}"
       - name: Deploy
         run: earthly +deploy --LAMBDA_IMAGE_TAG="${{ github.sha }}" --DEPLOY_STAGE="production"
         env:

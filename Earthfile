@@ -3,7 +3,8 @@ ARG UBUNTU_RELEASE=focal
 FROM mcr.microsoft.com/vscode/devcontainers/base:0-$UBUNTU_RELEASE
 ARG DEVCONTAINER_IMAGE_NAME_DEFAULT=ghcr.io/giffon/charleywong_devcontainer_workspace
 ARG LAMBDA_IMAGE_REGISTRY=932878902707.dkr.ecr.us-east-1.amazonaws.com
-ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-master
+ARG LAMBDA_IMAGE_NAME_MASTER=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-master
+ARG LAMBDA_IMAGE_NAME_PRODUCTION=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-production
 
 ARG USERNAME=vscode
 ARG USER_UID=1000
@@ -420,6 +421,7 @@ lambda-container:
 
     ENTRYPOINT ["npx", "aws-lambda-ric"]
     CMD ["index.handler"]
+    ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_NAME_MASTER
     ARG LAMBDA_IMAGE_TAG=latest
     SAVE IMAGE --push "$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG" "$LAMBDA_IMAGE_NAME:latest"
 
@@ -434,6 +436,7 @@ lambda-container-rie:
     FROM +lambda-container --LAMBDA_IMAGE_TAG="$LAMBDA_IMAGE_TAG"
     COPY +aws-lambda-rie/aws-lambda-rie /usr/local/bin/aws-lambda-rie
     ENTRYPOINT ["aws-lambda-rie", "npx", "aws-lambda-ric"]
+    ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_NAME_MASTER
     SAVE IMAGE "${LAMBDA_IMAGE_NAME}:${LAMBDA_IMAGE_TAG}-rie"
 
 lambda-container-rebuild:
@@ -445,6 +448,7 @@ lambda-container-rebuild:
 
 lambda-container-run:
     LOCALLY
+    ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_NAME_MASTER
     ARG LAMBDA_IMAGE_TAG=latest
     WITH DOCKER --load=+lambda-container-rie
         RUN docker run \
@@ -459,9 +463,10 @@ lambda-container-run:
 deploy:
     FROM +devcontainer
     COPY serverless.yml .
-    ARG LAMBDA_IMAGE_TAG
+    ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_NAME_MASTER
+    ARG --required LAMBDA_IMAGE_TAG
     ENV LAMBDA_IMAGE="$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG"
-    ARG DEPLOY_STAGE
+    ARG --required DEPLOY_STAGE
     RUN \
         --mount=type=secret,id=+secrets/.envrc,target=.envrc \
         . ./.envrc \
@@ -478,6 +483,7 @@ ecr-login:
 tail-logs:
     FROM +devcontainer
     COPY serverless.yml .
+    ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_NAME_MASTER
     ARG LAMBDA_IMAGE_TAG=latest
     ENV LAMBDA_IMAGE="$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG"
     ARG DEPLOY_STAGE
