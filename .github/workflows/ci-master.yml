@@ -17,7 +17,7 @@ env:
 jobs:
   test:
     runs-on: ubuntu-latest
-    container: ghcr.io/giffon/charleywong_devcontainer_workspace:20220102112615
+    container: ghcr.io/giffon/charleywong_devcontainer_workspace:20220102133420
     services:
       earthly:
         image: earthly/buildkitd:v0.6.2
@@ -41,7 +41,7 @@ jobs:
     needs: test
     if: success() && github.event_name == 'push'
     runs-on: ubuntu-latest
-    container: ghcr.io/giffon/charleywong_devcontainer_workspace:20220102112615
+    container: ghcr.io/giffon/charleywong_devcontainer_workspace:20220102133420
     services:
       earthly:
         image: earthly/buildkitd:v0.6.2

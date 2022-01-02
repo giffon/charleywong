@@ -115,6 +115,16 @@ tfenv:
     RUN git clone --depth 1 https://github.com/tfutils/tfenv.git /tfenv
     SAVE ARTIFACT /tfenv
 
+# COPY +terraform-ls/terraform-ls /usr/local/bin/
+terraform-ls:
+    ARG --required TARGETARCH
+    ARG TERRAFORM_LS_VERSION=0.25.0
+    RUN curl -fsSL -o terraform-ls.zip https://github.com/hashicorp/terraform-ls/releases/download/v${TERRAFORM_LS_VERSION}/terraform-ls_${TERRAFORM_LS_VERSION}_linux_${TARGETARCH}.zip \
+        && unzip -qq terraform-ls.zip \
+        && mv ./terraform-ls /usr/local/bin/ \
+        && rm terraform-ls.zip
+    SAVE ARTIFACT /usr/local/bin/terraform-ls
+
 terraform:
     FROM +tfenv
     RUN ln -s /tfenv/bin/* /usr/local/bin
@@ -144,6 +154,7 @@ devcontainer:
     COPY --chown=$USER_UID:$USER_GID .terraform-version /home/$USERNAME/
     RUN tfenv install "$(</home/$USERNAME/.terraform-version)"
     RUN tfenv use "$(</home/$USERNAME/.terraform-version)"
+    COPY +terraform-ls/terraform-ls /usr/local/bin/
 
     # Install earthly
     COPY +earthly/earthly /usr/local/bin/
