@@ -500,3 +500,11 @@ wayback-save:
     FROM +waybackpy
     ARG --required URL
     RUN waybackpy --save --url "$URL" --user_agent "charleywong"
+
+copy-image:
+    LOCALLY
+    ARG --required SRC
+    ARG --required DEST
+    RUN docker pull "$SRC"
+    RUN docker tag "$SRC" "$DEST"
+    RUN docker push "$DEST"
