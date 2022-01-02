@@ -1,5 +1,6 @@
 VERSION 0.6
-FROM mcr.microsoft.com/vscode/devcontainers/base:0-bionic
+ARG UBUNTU_RELEASE=focal
+FROM mcr.microsoft.com/vscode/devcontainers/base:0-$UBUNTU_RELEASE
 ARG DEVCONTAINER_IMAGE_NAME_DEFAULT=ghcr.io/giffon/charleywong_devcontainer_workspace
 ARG LAMBDA_IMAGE_REGISTRY=932878902707.dkr.ecr.us-east-1.amazonaws.com
 ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-master
@@ -15,14 +16,6 @@ image:
 echo:
     ARG MSG
     RUN --no-cache echo $MSG
-
-# RUN /aws/install
-awscli:
-    RUN cd / \
-        && curl -fsSL "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" \
-        && unzip -qq awscliv2.zip \
-        && rm awscliv2.zip
-    SAVE ARTIFACT aws
 
 devcontainer-base:
     ARG TARGETARCH
@@ -81,23 +74,13 @@ devcontainer-base:
         && apt-get clean -y \
         && rm -rf /var/lib/apt/lists/*
 
-    # Config direnv
-    COPY --chown=$USER_UID:$USER_GID .devcontainer/direnv.toml /home/$USERNAME/.config/direnv/config.toml
-
-    # AWS cli
-    COPY +awscli/aws /aws
-    RUN /aws/install
-
     # https://github.com/wagoodman/dive
-    ARG DIVE_VERSION=0.10.0
-    RUN curl -fsSL "https://github.com/wagoodman/dive/releases/download/v${DIVE_VERSION}/dive_${DIVE_VERSION}_linux_amd64.deb" -o dive.deb \
-        && apt install ./dive.deb \
-        && rm -rf ./dive.deb
-
-    # Install earthly
-    RUN curl -fsSL https://github.com/earthly/earthly/releases/download/v0.6.2/earthly-linux-${TARGETARCH} -o /usr/local/bin/earthly \
-        && chmod +x /usr/local/bin/earthly
-    RUN earthly bootstrap --no-buildkit --with-autocomplete
+    IF [ "$TARGETARCH" = "amd64" ]
+        ARG DIVE_VERSION=0.10.0
+        RUN curl -fsSL "https://github.com/wagoodman/dive/releases/download/v${DIVE_VERSION}/dive_${DIVE_VERSION}_linux_amd64.deb" -o dive.deb \
+            && apt install ./dive.deb \
+            && rm -rf ./dive.deb
+    END
 
     ENV YARN_CACHE_FOLDER=/yarn
     RUN mkdir -m 777 "$YARN_CACHE_FOLDER"
@@ -116,10 +99,61 @@ devcontainer-base:
     ENTRYPOINT [ "/usr/local/share/docker-init.sh" ]
     CMD [ "sleep", "infinity" ]
 
+# RUN /aws/install
+awscli:
+    FROM +devcontainer-base
+    RUN cd / \
+        && curl -fsSL "https://awscli.amazonaws.com/awscli-exe-linux-$(uname -m).zip" -o "awscliv2.zip" \
+        && unzip -qq awscliv2.zip \
+        && rm awscliv2.zip
+    SAVE ARTIFACT aws
+
+# COPY +tfenv/tfenv /tfenv
+# RUN ln -s /tfenv/bin/* /usr/local/bin
+tfenv:
+    FROM +devcontainer-base
+    RUN git clone --depth 1 https://github.com/tfutils/tfenv.git /tfenv
+    SAVE ARTIFACT /tfenv
+
+terraform:
+    FROM +tfenv
+    RUN ln -s /tfenv/bin/* /usr/local/bin
+    ARG --required TERRAFORM_VERSION
+    RUN tfenv install "$TERRAFORM_VERSION"
+    RUN tfenv use "$TERRAFORM_VERSION"
+
+# COPY +earthly/earthly /usr/local/bin/
+# RUN earthly bootstrap --no-buildkit --with-autocomplete
+earthly:
+    FROM +devcontainer-base
+    ARG --required TARGETARCH
+    RUN curl -fsSL https://github.com/earthly/earthly/releases/download/v0.6.2/earthly-linux-${TARGETARCH} -o /usr/local/bin/earthly \
+        && chmod +x /usr/local/bin/earthly
+    SAVE ARTIFACT /usr/local/bin/earthly
+
 devcontainer:
     FROM +devcontainer-base
 
+    # AWS cli
+    COPY +awscli/aws /aws
+    RUN /aws/install
+
+    # tfenv
+    COPY +tfenv/tfenv /tfenv
+    RUN ln -s /tfenv/bin/* /usr/local/bin/
+    COPY --chown=$USER_UID:$USER_GID .terraform-version /home/$USERNAME/
+    RUN tfenv install "$(</home/$USERNAME/.terraform-version)"
+    RUN tfenv use "$(</home/$USERNAME/.terraform-version)"
+
+    # Install earthly
+    COPY +earthly/earthly /usr/local/bin/
+    RUN earthly bootstrap --no-buildkit --with-autocomplete
+
     USER $USERNAME
+
+    # Config direnv
+    COPY --chown=$USER_UID:$USER_GID .devcontainer/direnv.toml /home/$USERNAME/.config/direnv/config.toml
+
     WORKDIR /workspace
     COPY +node-modules-dev/node_modules node_modules
     VOLUME /workspace/node_modules
@@ -127,6 +161,11 @@ devcontainer:
     VOLUME /workspace/lib/dts2hx
     COPY +lix-download/haxe "$HAXESHIM_ROOT"
     RUN sed -ir 's/^__bash_prompt$/PS1="\\[\\033[0;32m\\]\\u \\[\\033[0m\\]➜ \\[\\033[1;34m\\]\\w\\[\\033[0m\\]\\$ "/' ~/.bashrc
+
+    # Config bash completion
+    RUN echo 'complete -C terraform terraform' >> ~/.bashrc
+    RUN echo "complete -C '/usr/local/bin/aws_completer' aws" >> ~/.bashrc
+
     USER root
 
     ARG DEVCONTAINER_IMAGE_NAME="$DEVCONTAINER_IMAGE_NAME_DEFAULT"
@@ -338,7 +377,7 @@ chrome-extension:
     SAVE ARTIFACT --keep-ts chrome/*.js AS LOCAL ./chrome/
 
 lambda-container-base:
-    FROM ubuntu:focal
+    FROM ubuntu:$UBUNTU_RELEASE
     RUN apt-get update \
         && apt-get install -y --no-install-recommends software-properties-common curl \
         && add-apt-repository -y universe \
