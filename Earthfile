@@ -245,6 +245,7 @@ entity-index:
     FROM +devcontainer
     COPY static static
     COPY +dclookup/* .
+    COPY +hkbase-directory/* .
     COPY +entity-index-exporter/exportEntityIndex.js .
     COPY data/entity data/entity
     RUN mkdir -p data/groonga
