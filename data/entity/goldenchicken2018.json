@@ -8,7 +8,7 @@
       "url": "https://www.instagram.com/goldenchicken2018/",
       "meta": {
         "name": "黃金雞",
-        "about": "營業時間：1200-2130\n*如賣晒野會提早收工*\n🔊🔊逢星期三休息\n提前一天訂飯盒\n每個減$5\nwhatsapp熱線📞：9765 6029"
+        "about": "營業時間：1100-2130\n*如賣晒野會提早收工*\n🔊🔊逢星期三休息\n提前一天訂飯盒\n每個減$5\nwhatsapp熱線📞：9765 6029"
       }
     },
     {
@@ -29,6 +29,9 @@
         "single_line_address": "地址:香港西灣河海利街6號海利大廈地下B鋪 Address: Shop B G/F Hoi Lee Building 58-60 Sai Wah Ho Street HK",
         "website": "http://golden-chicken-togo.nube.hk"
       }
+    },
+    {
+      "url": "http://golden-chicken-togo.nube.hk"
     }
   ],
   "posts": [
@@ -69,12 +72,25 @@
   "places": [
     {
       "address": {
-        "zh": "筲箕灣海利街6號海利大廈地舖"
+        "zh": "西灣河海利街6號海利大廈地下B鋪"
       },
       "googleMapsPlaceId": "ChIJTzJvI4cBBDQRygwOJBY3oG4",
       "coordinates": {
         "lat": 22.28043,
         "lng": 114.2232727
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "鰂魚涌鰂魚涌街123號太隆樓地下I鋪"
+      },
+      "googleMapsPlaceId": "ChIJD2vb_AoBBDQRPFQLVPYMVmc",
+      "coordinates": {
+        "lat": 22.2823928,
+        "lng": 114.2129975
       },
       "area": {
         "zh": "東區"
