@@ -76,13 +76,12 @@ devcontainer-base:
         && rm -rf /var/lib/apt/lists/*
 
     # https://github.com/wagoodman/dive
-    IF [ "$TARGETARCH" = "amd64" ]
-        ARG DIVE_VERSION=0.10.0
-        RUN curl -fsSL "https://github.com/wagoodman/dive/releases/download/v${DIVE_VERSION}/dive_${DIVE_VERSION}_linux_amd64.deb" -o dive.deb \
-            && apt install ./dive.deb \
-            && rm -rf ./dive.deb
-    END
-
+    ARG DIVE_VERSION=0.10.0
+    RUN if [ "$TARGETARCH" = "amd64" ]; then \
+            curl -fsSL "https://github.com/wagoodman/dive/releases/download/v${DIVE_VERSION}/dive_${DIVE_VERSION}_linux_amd64.deb" -o dive.deb \
+                && apt install ./dive.deb \
+                && rm -rf ./dive.deb; \
+        fi
     ENV YARN_CACHE_FOLDER=/yarn
     RUN mkdir -m 777 "$YARN_CACHE_FOLDER"
     ENV HAXESHIM_ROOT=/haxe
