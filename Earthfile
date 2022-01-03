@@ -309,6 +309,7 @@ exportSpreadsheet:
     COPY src src
     COPY static static
     COPY .haxerc exportSpreadsheet.hxml .
+    COPY +entity-index/groonga data/groonga
     COPY --keep-ts data/entity data/entity
     ARG HAXE_ARGS
     RUN --mount=type=secret,id=+secrets/.envrc,target=.envrc \
