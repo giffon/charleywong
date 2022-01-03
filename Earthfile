@@ -152,8 +152,8 @@ devcontainer:
     COPY +tfenv/tfenv /tfenv
     RUN ln -s /tfenv/bin/* /usr/local/bin/
     COPY --chown=$USER_UID:$USER_GID .terraform-version /home/$USERNAME/
-    RUN tfenv install "$(</home/$USERNAME/.terraform-version)"
-    RUN tfenv use "$(</home/$USERNAME/.terraform-version)"
+    RUN tfenv install "$(cat /home/$USERNAME/.terraform-version)"
+    RUN tfenv use "$(cat /home/$USERNAME/.terraform-version)"
     COPY +terraform-ls/terraform-ls /usr/local/bin/
 
     # Install earthly
