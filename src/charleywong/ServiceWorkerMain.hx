@@ -15,6 +15,14 @@ class ServiceWorkerMain {
 			options.url.pathname == "/";
 		}, new StaleWhileRevalidate({
 			cacheName: "index",
+			plugins: cast ([
+				new CacheableResponsePlugin({
+					statuses: [0, 200],
+				}),
+				new ExpirationPlugin({
+					maxAgeSeconds: 86400, // 1 day
+				}),
+			]:Array<Dynamic>),
 		}));
 		WorkboxRouting.registerRoute((options:RouteMatchCallbackOptions) -> {
 			var p = new URLSearchParams(options.url.search);
