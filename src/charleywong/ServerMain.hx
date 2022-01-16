@@ -66,10 +66,6 @@ class ServerMain {
         );
     }
 
-    static function campaign(req:Request, reply:Reply):Promise<Dynamic> {
-        return Promise.resolve(reply.sendView(Campaign));
-    }
-
     static function pageMooncake2020(req:Request, reply:Reply):Promise<Dynamic> {
         return Promise.resolve(reply.sendView(Mooncake2020));
     }
@@ -797,7 +793,6 @@ class ServerMain {
         var links = [
             { url: '/' },
             { url: '/list/all' },
-            { url: '/campaign' },
             { url: Mooncake2020.path },
             { url: HkbaseDirectoryView.path },
         ];
@@ -853,7 +848,6 @@ class ServerMain {
         app.get("/favicon.ico", favicon);
         app.get("/robots.txt", robots);
         app.get("/sitemap.xml", sitemap);
-        app.get("/campaign", campaign);
         app.get("/list/all.json", allJson);
         app.get("/list/all", all);
         app.get("/" + Mooncake2020.path, pageMooncake2020);

@@ -154,9 +154,6 @@ class View extends ReactComponent {
                         <img className="w-full inline" src=${R("/images/mui-cake-banner2.jpg")} alt="梅貴緣 x 埗兵 埗埗糕昇大行動"/>
                     </a>
                 </div>
-                <div className="w-full mt-2 color_black_o60">
-                    <a className="border-0" href="/campaign"><span className="whitespace-nowrap">你都想 Charley 幫你宣傳?</span> <span className="whitespace-nowrap">入嚟睇吓我哋嘅廣告宣傳計劃</span></a>
-                </div>
             </div>
             <div className="mt-3 md:mt-12 container-intro text-center color_black_o60">
                 <h3 className="pt-5 text-2xl">Charley 其實係咩?</h3>
