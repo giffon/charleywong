@@ -49,5 +49,20 @@
       "type": "shop",
       "id": 277
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大圍積存街80號地舖"
+      },
+      "googleMapsPlaceId": "ChIJg2D30acHBDQRYbTx8FhB2-U",
+      "coordinates": {
+        "lat": 22.376905,
+        "lng": 114.17891
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
   ]
 }
