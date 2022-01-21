@@ -52,5 +52,20 @@
       "type": "shop",
       "id": 1361
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Flat 3, 223-225, Whitechapel Road, E1 1DB London, UK"
+      },
+      "googleMapsPlaceId": "ChIJH_LgyM0cdkgRycr_aqMp284",
+      "coordinates": {
+        "lat": 51.51903060000001,
+        "lng": -0.06164429999999999
+      },
+      "area": {
+        "zh": "英國"
+      }
+    }
   ]
 }
