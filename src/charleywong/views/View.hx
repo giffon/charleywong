@@ -166,7 +166,7 @@ class View extends ReactComponent {
                             </div>
                             <div className="text-center lg:px-12 pb-4 md:py-0 color_black_o60">
                                 <div className="container-yc"><span className="yc">黃</span><span className="yc">色</span><span className="yc">經</span><span className="yc">濟</span><span className="yc">圈</span></div>
-                                <p className="p-6">Charley Wong 和你查 搜集多個商店、創作人、專頁，以第一身表態支持 #香港人 #反送中，爭取 #自由 #民主 的良心發言。當中有高調行動，有低調暗示，我地不作篩選，各位自行以個人喜好辨別。</p>
+                                <p className="p-6">Charley Wong 和你查 搜集多個商店、創作人、專頁，以第一身表態支持 #香港人，爭取 #自由 #民主 的良心發言。當中有高調行動，有低調暗示，我地不作篩選，各位自行以個人喜好辨別。</p>
                             </div>
                         </div>
 
