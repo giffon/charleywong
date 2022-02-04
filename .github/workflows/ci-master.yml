@@ -50,6 +50,7 @@ jobs:
       - name: Build Chrome extension
         run: earthly +chrome-extension
       - name: Create .envrc
+        if: success() && env.EARTHLY_PUSH == 'true'
         run: |
           cat > .envrc <<EOT
           export GOOGLE_CLIENT_EMAIL="$GOOGLE_CLIENT_EMAIL"
@@ -75,13 +76,15 @@ jobs:
           FACEBOOK_TOKEN: ${{ secrets.FACEBOOK_TOKEN }}
           SERVERLESS_ACCESS_KEY: ${{ secrets.serverlessAccessKey }}
       - name: Build Lambda image
+        if: success() && env.EARTHLY_PUSH == 'true'
         run: earthly +lambda-container --LAMBDA_IMAGE_TAG="${{ github.sha }}"
         env:
           EARTHLY_SECRET_FILES: .envrc=.envrc
       - name: Deploy
-        if: success() && github.repository_owner == 'giffon' && github.event_name == 'push'
+        if: success() && env.EARTHLY_PUSH == 'true'
         run: earthly +deploy --LAMBDA_IMAGE_TAG="${{ github.sha }}" --DEPLOY_STAGE="master"
         env:
           EARTHLY_SECRET_FILES: .envrc=.envrc
       - name: Post-deployment test
+        if: success() && env.EARTHLY_PUSH == 'true'
         run: earthly +test --TEST="post-deployment charleywong-master.giffon.io"
