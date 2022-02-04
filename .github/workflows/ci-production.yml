@@ -11,12 +11,13 @@ env:
   EARTHLY_SAVE_INLINE_CACHE: "true"
   LAMBDA_IMAGE_NAME_MASTER: 932878902707.dkr.ecr.us-east-1.amazonaws.com/serverless-charleywong-master
   LAMBDA_IMAGE_NAME_PRODUCTION: 932878902707.dkr.ecr.us-east-1.amazonaws.com/serverless-charleywong-production
+  FORCE_COLOR: 1
 
 jobs:
   deploy:
     concurrency: ${{ github.ref }}
     runs-on: ubuntu-latest
-    container: ghcr.io/giffon/charleywong_devcontainer_workspace:20220112022922
+    container: ghcr.io/giffon/charleywong_devcontainer_workspace:${{ github.sha }}
     services:
       earthly:
         image: earthly/buildkitd:v0.6.2
