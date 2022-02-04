@@ -239,7 +239,8 @@ node-modules-dev:
 
 dts2hx:
     FROM +node-modules-dev
-    RUN yarn dts2hx
+    RUN npx dts2hx @types/node @types/node-fetch @types/chrome abort-controller @types/gtag.js fastify sitemap nroonga --noLibWrap --useSystemHaxe --output lib/dts2hx
+    RUN find lib/dts2hx -name "*.hx" -exec sed -i s/ajv.lib.ajv.[A-Za-z0-9]*/Dynamic/g {} \;
     SAVE ARTIFACT lib/dts2hx
 
 entity-index-exporter:
