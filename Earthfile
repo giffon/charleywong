@@ -18,6 +18,11 @@ echo:
     ARG MSG
     RUN --no-cache echo $MSG
 
+devcontainer-library-scripts:
+    RUN curl -fsSLO https://raw.githubusercontent.com/microsoft/vscode-dev-containers/main/script-library/common-debian.sh
+    RUN curl -fsSLO https://raw.githubusercontent.com/microsoft/vscode-dev-containers/main/script-library/docker-debian.sh
+    SAVE ARTIFACT --keep-ts *.sh AS LOCAL .devcontainer/library-scripts/
+
 devcontainer-base:
     ARG TARGETARCH
 
@@ -32,7 +37,7 @@ devcontainer-base:
     RUN apt-get update \
         && /bin/bash /tmp/library-scripts/common-debian.sh "${INSTALL_ZSH}" "${USERNAME}" "${USER_UID}" "${USER_GID}" "${UPGRADE_PACKAGES}" "true" "true" \
         # Use Docker script from script library to set things up
-        && /bin/bash /tmp/library-scripts/docker-debian.sh "${ENABLE_NONROOT_DOCKER}" "/var/run/docker-host.sock" "/var/run/docker.sock" "${USERNAME}" \
+        && /bin/bash /tmp/library-scripts/docker-debian.sh "${ENABLE_NONROOT_DOCKER}" "/var/run/docker-host.sock" "/var/run/docker.sock" "${USERNAME}" "${USE_MOBY}" \
         # Clean up
         && apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/library-scripts/
 
@@ -162,6 +167,10 @@ devcontainer:
 
     USER $USERNAME
 
+    # Do not show git branch in bash prompt because it's slow
+    # https://github.com/microsoft/vscode-dev-containers/issues/1196#issuecomment-988388658
+    RUN git config --global codespaces-theme.hide-status 1
+
     # Config direnv
     COPY --chown=$USER_UID:$USER_GID .devcontainer/direnv.toml /home/$USERNAME/.config/direnv/config.toml
 
@@ -171,7 +180,6 @@ devcontainer:
     COPY +dts2hx/dts2hx lib/dts2hx
     VOLUME /workspace/lib/dts2hx
     COPY +lix-download/haxe "$HAXESHIM_ROOT"
-    RUN sed -ir 's/^__bash_prompt$/PS1="\\[\\033[0;32m\\]\\u \\[\\033[0m\\]➜ \\[\\033[1;34m\\]\\w\\[\\033[0m\\]\\$ "/' ~/.bashrc
 
     # Config bash completion
     RUN echo 'complete -C terraform terraform' >> ~/.bashrc
