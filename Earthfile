@@ -178,10 +178,21 @@ devcontainer:
     RUN echo "complete -C '/usr/local/bin/aws_completer' aws" >> ~/.bashrc
 
     USER root
+    ARG GIT_SHA
+    ENV GIT_SHA="$GIT_SHA"
+    ARG IMAGE_NAME="$DEVCONTAINER_IMAGE_NAME_DEFAULT"
+    ARG IMAGE_TAG="master"
+    ARG IMAGE_CACHE="$IMAGE_NAME:$IMAGE_TAG"
+    SAVE IMAGE --cache-from="$IMAGE_CACHE" --push "$IMAGE_NAME:$IMAGE_TAG"
 
-    ARG DEVCONTAINER_IMAGE_NAME="$DEVCONTAINER_IMAGE_NAME_DEFAULT"
-    ARG DEVCONTAINER_IMAGE_TAG=latest
-    SAVE IMAGE --push "$DEVCONTAINER_IMAGE_NAME:$DEVCONTAINER_IMAGE_TAG" "$DEVCONTAINER_IMAGE_NAME:latest"
+devcontainer-ci:
+    ARG --required GIT_REF_NAME
+    ARG --required GIT_SHA
+    BUILD +devcontainer \ 
+        --IMAGE_CACHE="$DEVCONTAINER_IMAGE_NAME_DEFAULT:$GIT_REF_NAME" \
+        --IMAGE_TAG="$GIT_REF_NAME" \
+        --IMAGE_TAG="$GIT_SHA" \
+        --GIT_SHA="$GIT_SHA"
 
 devcontainer-rebuild:
     RUN --no-cache date +%Y%m%d%H%M%S | tee buildtime
@@ -424,7 +435,7 @@ lambda-container:
     CMD ["index.handler"]
     ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_NAME_MASTER
     ARG LAMBDA_IMAGE_TAG=latest
-    SAVE IMAGE --push "$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG" "$LAMBDA_IMAGE_NAME:latest"
+    SAVE IMAGE --push "$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG"
 
 aws-lambda-rie:
     FROM +devcontainer
