@@ -9,7 +9,7 @@
       "url": "https://www.instagram.com/sweet_bandott/",
       "meta": {
         "name": "幸福·駅",
-        "about": "【幸福·駅】飯糰·便當專門店。\n觀塘分店￼ - ￼觀塘成業街7號東廣場地舖56號￼￼\n香港大學分店 - 香港大學綜合大樓G05號鋪\n牛頭角海濱匯分店 - 牛頭角海濱道77號海濱匯6A\n富榮分店 - 九龍旺角海泓道富榮花園地下63號A舖\n屯門栢麗分店 - 屯門屯喜路2號栢麗廣場211號"
+        "about": "【幸福·駅】飯糰·便當專門店。\n觀塘分店￼ - ￼觀塘成業街7號東廣場地舖56號￼￼\n香港大學分店 - 香港大學綜合大樓G05號鋪\n牛頭角海濱匯分店 - 牛頭角海濱道77號海濱匯6A\n富榮分店 - 九龍旺角海泓道富榮花園地下63號A舖"
       }
     },
     {
@@ -92,45 +92,6 @@
   "places": [
     {
       "address": {
-        "zh": "大角咀海庭道8號富榮花園地下63A號舖"
-      },
-      "googleMapsPlaceId": "ChIJPTQyIr8ABDQR4T1_ybajaNc",
-      "coordinates": {
-        "lat": 22.3142252,
-        "lng": 114.165115
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
-        "zh": "觀塘海濱道77號海濱匯1樓6A號舖"
-      },
-      "googleMapsPlaceId": "ChIJy-jziroBBDQRPF9-lDiSUL8",
-      "coordinates": {
-        "lat": 22.3164515,
-        "lng": 114.2137006
-      },
-      "area": {
-        "zh": "觀塘區"
-      }
-    },
-    {
-      "address": {
-        "zh": "旺角彌敦道639號雅蘭中心地下LA1號舖"
-      },
-      "googleMapsPlaceId": "ChIJjUIs3IoBBDQRuPXcZfEPrQ4",
-      "coordinates": {
-        "lat": 22.3179638,
-        "lng": 114.1694325
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
         "zh": "觀塘成業街7號東廣場地下56號舖"
       },
       "googleMapsPlaceId": "ChIJ4RHOrMYBBDQRpTD5JqS4OwI",
@@ -153,6 +114,32 @@
       },
       "area": {
         "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘海濱道77號海濱匯1樓6A號舖"
+      },
+      "googleMapsPlaceId": "ChIJy-jziroBBDQRPF9-lDiSUL8",
+      "coordinates": {
+        "lat": 22.3164515,
+        "lng": 114.2137006
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大角咀海庭道8號富榮花園地下63A號舖"
+      },
+      "googleMapsPlaceId": "ChIJPTQyIr8ABDQR4T1_ybajaNc",
+      "coordinates": {
+        "lat": 22.3142252,
+        "lng": 114.165115
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     }
   ],
@@ -184,6 +171,10 @@
     {
       "type": "eat",
       "id": 5555
+    },
+    {
+      "type": "eat",
+      "id": 6481
     }
   ]
 }
