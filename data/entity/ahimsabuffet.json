@@ -30,16 +30,31 @@
       "url": "https://www.instagram.com/ahimsabuffet/",
       "meta": {
         "name": "無肉食 Ahimsa buffet",
-        "about": "🍅🍊🥕🌽 🥔🥦🥬🥒🍆🍠🍚\n🇭🇰香港素食餐廳🇭🇰\n🥢Vegetarian Restaurant🍴\n✍🏼分享綠色小故事♻️\n📍北角店📍旺角店📍佐敦店\n🍽午市 11:30 - 15:30 (繁忙時間限時75分鐘)\n🍽晚市 18:00 - 22:00(繁忙時間限時90分鐘)\n💰只收現金 Cash Only💰"
+        "about": "🇭🇰香港素食餐廳\n🍅🍆🥦🥬🥒🌽🥕🥔🍠🍌🍋🍓🍍🥑\n🥢Vegetarian Restaurant🍴\n✍🏼分享綠色小故事♻️\n📍北角店📍旺角店📍中環店📍荃灣店📍將軍澳店\n🍽午市 11:30 - 15:30\n🍽晚市 18:00 - 22:00"
       }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/ahimsabuffet/posts/1061802914160152"
+      "url": "https://www.facebook.com/ahimsabuffet/posts/898020407205071",
+      "meta": {
+        "sharedWith": "Public"
+      }
     },
     {
       "url": "https://www.facebook.com/ahimsabuffet/photos/a.121559518184501/1040064996333944"
+    },
+    {
+      "url": "https://www.facebook.com/ahimsabuffet/posts/1160101374330305",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/ahimsabuffet/posts/1239929753014133",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
@@ -49,51 +64,12 @@
   "places": [
     {
       "address": {
-        "zh": "旺角洗衣街88號2樓"
-      },
-      "googleMapsPlaceId": "ChIJiexfIcYABDQR-ijInknWXb8",
-      "coordinates": {
-        "lat": 22.319078,
-        "lng": 114.1719838
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
-        "zh": "佐敦德興街8號地下"
-      },
-      "googleMapsPlaceId": "ChIJM6vcwOsABDQRFzh11D6dCLQ",
-      "coordinates": {
-        "lat": 22.3046533,
-        "lng": 114.172314
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
-        "zh": "北角堡壘街10-16號華"
-      },
-      "googleMapsPlaceId": "ChIJY1zykgMBBDQR5Gn0AoWPjpw",
-      "coordinates": {
-        "lat": 22.2895208,
-        "lng": 114.1965901
-      },
-      "area": {
-        "zh": "東區"
-      }
-    },
-    {
-      "address": {
         "zh": "中環嘉咸街23號My Central地下5號舖"
       },
-      "googleMapsPlaceId": "ChIJv64uyVUBBDQRU95gveYWmQ8",
+      "googleMapsPlaceId": "ChIJ20ofW3kBBDQRUQzsSr_pEj4",
       "coordinates": {
-        "lat": 22.2832864,
-        "lng": 114.1538092
+        "lat": 22.2834075,
+        "lng": 114.1537878
       },
       "area": {
         "zh": "中西區"
@@ -110,6 +86,45 @@
       },
       "area": {
         "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角洗衣街88號2樓"
+      },
+      "googleMapsPlaceId": "ChIJiexfIcYABDQR-ijInknWXb8",
+      "coordinates": {
+        "lat": 22.319078,
+        "lng": 114.1719838
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳天晉匯二期G20舖"
+      },
+      "googleMapsPlaceId": "ChIJ_8WGh-0DBDQRbQiigS3LsaY",
+      "coordinates": {
+        "lat": 22.3058129,
+        "lng": 114.2592065
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "北角堡壘街10-16號華"
+      },
+      "googleMapsPlaceId": "ChIJY1zykgMBBDQR5Gn0AoWPjpw",
+      "coordinates": {
+        "lat": 22.2895208,
+        "lng": 114.1965901
+      },
+      "area": {
+        "zh": "東區"
       }
     }
   ],
@@ -133,6 +148,10 @@
     {
       "type": "eat",
       "id": 2111
+    },
+    {
+      "type": "eat",
+      "id": 6513
     }
   ]
 }
