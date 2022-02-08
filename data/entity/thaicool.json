@@ -1,9 +1,12 @@
 {
-  "id": "101086341417064",
+  "id": "thaicool",
   "name": {
     "zh": "泰Cool"
   },
   "webpages": [
+    {
+      "url": "https://www.thaicool.hk"
+    },
     {
       "meta": {
         "id": "101086341417064",
@@ -18,6 +21,13 @@
         "single_line_address": "泰COOL (將軍澳)\n將軍澳唐俊街21號翩匯坊地下G25號舖\n\n23293830/23293839\n\n\n泰COOL (觀塘)\n觀塘鴻圖道48號新榮大廈1樓\n\n28151182/28151191\n\n泰COOL (油麻地)\n油麻地彌敦道483-485A號Le Chateau1樓\n\n27028770/27029777, 852 27028770"
       },
       "url": "https://www.facebook.com/101086341417064/"
+    },
+    {
+      "url": "https://www.instagram.com/thai_coolhk/",
+      "meta": {
+        "name": "泰Cool",
+        "about": "泰Cool鰂魚涌分店8月16日開張！ 我地宜家招聘人手，有興趣聯絡我地！\n泰Cool@鰂魚涌新分店\n香港鰂魚涌英皇道1001號10樓\n(太古站A2出口步行8分鐘)\nTel: 2739 9083 / 9635 8696\n11:30 am - 10:00 pm"
+      }
     }
   ],
   "posts": [
@@ -35,22 +45,9 @@
   "places": [
     {
       "address": {
-        "zh": "將軍澳唐俊街21號翩匯坊地下G25號舖"
-      },
-      "googleMapsPlaceId": "ChIJzWpT0K8DBDQR-ZhN_JhMUhw",
-      "coordinates": {
-        "lat": 22.3034892,
-        "lng": 114.2641073
-      },
-      "area": {
-        "zh": "西貢區"
-      }
-    },
-    {
-      "address": {
         "zh": "觀塘鴻圖道48號新榮大廈1樓"
       },
-      "googleMapsPlaceId": "ChIJ22Mvd_gBBDQRO1BdgHssOb0",
+      "googleMapsPlaceId": "ChIJGX5rkWgBBDQRIubcRro2cC4",
       "coordinates": {
         "lat": 22.3106094,
         "lng": 114.2220069
@@ -63,13 +60,26 @@
       "address": {
         "zh": "油麻地彌敦道483-485A號1樓"
       },
-      "googleMapsPlaceId": "EiQ0ODMgTmF0aGFuIFJkLCBZYXUgTWEgVGVpLCBIb25nIEtvbmciMRIvChQKEgntbKGrwQAENBF0iIHtFL4gVBDjAyoUChIJxyHZSMAABDQROQ49vF5K_40",
+      "googleMapsPlaceId": "ChIJyVaVE88BBDQRU8EnyyxhSUA",
       "coordinates": {
-        "lat": 22.3113133,
-        "lng": 114.1707856
+        "lat": 22.3113228,
+        "lng": 114.1707712
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "鰂魚涌英皇道1001號10樓1號舖"
+      },
+      "googleMapsPlaceId": "ChIJ4_L9btsBBDQRUi7FE7vg8Bo",
+      "coordinates": {
+        "lat": 22.284881,
+        "lng": 114.2124255
+      },
+      "area": {
+        "zh": "東區"
       }
     }
   ],
@@ -85,6 +95,13 @@
     {
       "type": "eat",
       "id": 2326
+    },
+    {
+      "type": "eat",
+      "id": 6527
     }
+  ],
+  "alias": [
+    "101086341417064"
   ]
 }
