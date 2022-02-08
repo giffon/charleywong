@@ -36,7 +36,7 @@
       "url": "https://www.instagram.com/abouteahk/",
       "meta": {
         "name": "花斑茶社",
-        "about": "#花斑茶社 是一個香港的茶飲品牌\n傳承地道台灣茶製作工藝\n🐆推介：#黑糖珍珠烏龍奶茶 #黑糖珍珠厚鮮奶 #白桃烏龍 #鳳梨冰茶 #奶蓋四季春 #花豹芋圓\n🐆分店：尖沙咀/堅尼地城/新蒲崗/北角/荃灣/荔枝角/屯門/元朗/灣仔/將軍澳\n加盟查詢：8481 1174"
+        "about": "花斑茶社是一個香港的茶飲品牌\n傳承地道台灣茶製作工藝\n以好水好茶好奶為原材料製作每一杯都飽含了製作者的匠心杯杯溫暖🌱\n#花斑茶社 #黑糖珍珠\n🐆分店包括：尖沙咀/堅尼地城/新蒲崗/北角/荃灣/荔枝角/屯門/元朗/灣仔/上環/銅鑼灣/將軍澳/筲箕灣/火炭/大埔/黃埔/觀塘/沙田/土瓜灣"
       }
     }
   ],
@@ -77,6 +77,19 @@
   "places": [
     {
       "address": {
+        "zh": "銅鑼灣駱克道470號地舖"
+      },
+      "googleMapsPlaceId": "ChIJuf27qf0BBDQRYk7uMA7s15E",
+      "coordinates": {
+        "lat": 22.2801093,
+        "lng": 114.1819975
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
         "zh": "尖沙咀樂道32-34號地舖"
       },
       "googleMapsPlaceId": "ChIJzeFthMkBBDQRYjnpWbDZkzw",
@@ -86,58 +99,6 @@
       },
       "area": {
         "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
-        "zh": "堅尼地城Smithfield Walk 5B鋪"
-      },
-      "googleMapsPlaceId": "ChIJnY6-6QL_AzQRzDJGOsEYMf8",
-      "coordinates": {
-        "lat": 22.2817002,
-        "lng": 114.1280962
-      },
-      "area": {
-        "zh": "中西區"
-      }
-    },
-    {
-      "address": {
-        "zh": "新浦崗崇齡街1-3號威信樓地下F舖"
-      },
-      "googleMapsPlaceId": "ChIJ3-z_uxsHBDQRJG16kL4_8Y8",
-      "coordinates": {
-        "lat": 22.3358057,
-        "lng": 114.1962682
-      },
-      "area": {
-        "zh": "黃大仙區"
-      }
-    },
-    {
-      "address": {
-        "zh": "北角和富道和富G15C舖"
-      },
-      "googleMapsPlaceId": "ChIJrfCA97oBBDQRgXNu281Icgc",
-      "coordinates": {
-        "lat": 22.2921837,
-        "lng": 114.1952802
-      },
-      "area": {
-        "zh": "東區"
-      }
-    },
-    {
-      "address": {
-        "zh": "皇后大道東200號利東街B1/F B14舖"
-      },
-      "googleMapsPlaceId": "ChIJCYmot1wABDQRCrBnS3KbUho",
-      "coordinates": {
-        "lat": 22.275003,
-        "lng": 114.1720515
-      },
-      "area": {
-        "zh": "灣仔區"
       }
     },
     {
@@ -155,6 +116,32 @@
     },
     {
       "address": {
+        "zh": "皇后大道東200號利東街B1/F B14舖"
+      },
+      "googleMapsPlaceId": "ChIJCYmot1wABDQRCrBnS3KbUho",
+      "coordinates": {
+        "lat": 22.275003,
+        "lng": 114.1720515
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "堅尼地城Smithfield Walk 5B鋪"
+      },
+      "googleMapsPlaceId": "ChIJnY6-6QL_AzQRzDJGOsEYMf8",
+      "coordinates": {
+        "lat": 22.2817002,
+        "lng": 114.1280962
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
         "zh": "荔枝角D2 Place TWO 1/F 106鋪"
       },
       "googleMapsPlaceId": "ChIJ1YX5ze4HBDQRqAHzOCxbG2I",
@@ -164,6 +151,32 @@
       },
       "area": {
         "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "北角和富道和富G15C舖"
+      },
+      "googleMapsPlaceId": "ChIJrfCA97oBBDQRgXNu281Icgc",
+      "coordinates": {
+        "lat": 22.2921837,
+        "lng": 114.1952802
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "新浦崗崇齡街1-3號威信樓地下F舖"
+      },
+      "googleMapsPlaceId": "ChIJ3-z_uxsHBDQRJG16kL4_8Y8",
+      "coordinates": {
+        "lat": 22.3358057,
+        "lng": 114.1962682
+      },
+      "area": {
+        "zh": "黃大仙區"
       }
     },
     {
@@ -181,15 +194,15 @@
     },
     {
       "address": {
-        "zh": "元朗鳳琴街22號金龍樓地下20B舖"
+        "zh": "上環德輔道中272-284號興業商業中心地下"
       },
-      "googleMapsPlaceId": "ChIJMUnFM03xAzQRWsN58ZjciS0",
+      "googleMapsPlaceId": "ChIJA-jtSnwABDQRPhoJPq0tjRo",
       "coordinates": {
-        "lat": 22.4427654,
-        "lng": 114.0338816
+        "lat": 22.2865048,
+        "lng": 114.1513914
       },
       "area": {
-        "zh": "元朗區"
+        "zh": "中西區"
       }
     },
     {
@@ -203,6 +216,84 @@
       },
       "area": {
         "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "元朗鳳琴街22號金龍樓地下20B舖"
+      },
+      "googleMapsPlaceId": "ChIJMUnFM03xAzQRWsN58ZjciS0",
+      "coordinates": {
+        "lat": 22.4427654,
+        "lng": 114.0338816
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "筲箕灣道393號形薈G09號"
+      },
+      "googleMapsPlaceId": "ChIJc6hyooIBBDQR9c9HDIr4r-M",
+      "coordinates": {
+        "lat": 22.2769674,
+        "lng": 114.2286113
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍紅磡黃埔新天地第5及6期地庫B10舖"
+      },
+      "googleMapsPlaceId": "ChIJWYHH3d8ABDQRuSGDNJY4Eng",
+      "coordinates": {
+        "lat": 22.3056178,
+        "lng": 114.1898614
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    },
+    {
+      "address": {
+        "zh": "火炭坳背灣街27-31號地下A01B舖"
+      },
+      "googleMapsPlaceId": "EiMyNyBBdSBQdWkgV2FuIFN0LCBGbyBUYW4sIEhvbmcgS29uZyIwEi4KFAoSCaPBh0o0BgQ0EWsDdAUGFdaVEBsqFAoSCdf9ZFw0BgQ0EQ80ZefQuKls",
+      "coordinates": {
+        "lat": 22.3967923,
+        "lng": 114.1956372
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘開源道63號福昌大廈地下A1舖"
+      },
+      "googleMapsPlaceId": "ChIJ5cxoekUBBDQRTNP63FJ-mZo",
+      "coordinates": {
+        "lat": 22.310794,
+        "lng": 114.2247003
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大埔鄉事會街41-49號福安樓地下15B舖"
+      },
+      "googleMapsPlaceId": "ChIJhx_5fD8IBDQRYKhYycXaJaI",
+      "coordinates": {
+        "lat": 22.4465526,
+        "lng": 114.1672979
+      },
+      "area": {
+        "zh": "大埔區"
       }
     }
   ],
@@ -226,6 +317,10 @@
     {
       "type": "eat",
       "id": 1687
+    },
+    {
+      "type": "eat",
+      "id": 6482
     }
   ]
 }
