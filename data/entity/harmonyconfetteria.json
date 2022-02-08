@@ -109,6 +109,10 @@
     {
       "type": "eat",
       "id": 2017
+    },
+    {
+      "type": "eat",
+      "id": 6522
     }
   ],
   "places": [
@@ -140,19 +144,6 @@
     },
     {
       "address": {
-        "zh": "深水埗富昌街市105號"
-      },
-      "googleMapsPlaceId": "ChIJJRNi5q0ABDQRAxSZK-f8_6w",
-      "coordinates": {
-        "lat": 22.32850419999999,
-        "lng": 114.1546509
-      },
-      "area": {
-        "zh": "深水埗區"
-      }
-    },
-    {
-      "address": {
         "zh": "沙田禾輋街市26號"
       },
       "googleMapsPlaceId": "ChIJsTHoe0wGBDQRnYDiAQfpkpQ",
@@ -166,15 +157,15 @@
     },
     {
       "address": {
-        "zh": "樂富邨街市405號"
+        "zh": "新都城 1021號鋪"
       },
-      "googleMapsPlaceId": "ChIJEUaaoigHBDQRe-Zb_qJEk9M",
+      "googleMapsPlaceId": "ChIJsRhi4AsEBDQRUICy1eIXrD4",
       "coordinates": {
-        "lat": 22.3390502,
-        "lng": 114.1870054
+        "lat": 22.3225404,
+        "lng": 114.2570671
       },
       "area": {
-        "zh": "黃大仙區"
+        "zh": "西貢區"
       }
     }
   ]
