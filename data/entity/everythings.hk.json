@@ -59,12 +59,12 @@
   "places": [
     {
       "address": {
-        "zh": "大澳吉慶街68號地下"
+        "zh": "大澳吉慶街68號地下 (大澳榕樹頭)"
       },
-      "googleMapsPlaceId": "EiA2OCBLYXQgSGluZyBTdCwgVGFpIE8sIEhvbmcgS29uZyIwEi4KFAoSCX8BZUDSWAE0EY1w24M877b8EEQqFAoSCaESUEDSWAE0EREXmlGuchvK",
+      "googleMapsPlaceId": "ChIJMUqigNFYATQRe2LZXeJNQLo",
       "coordinates": {
-        "lat": 22.2547096,
-        "lng": 113.8629442
+        "lat": 22.254865,
+        "lng": 113.8631794
       },
       "area": {
         "zh": "離島區"
@@ -72,15 +72,28 @@
     },
     {
       "address": {
-        "zh": "中環 PMQ B 座 3 樓 H303室 (Pop-up Store)"
+        "zh": "大澳吉慶街76號地下 (斯人地方)"
       },
-      "googleMapsPlaceId": "ChIJ9cSnNocBBDQR176bw8ksQ_w",
+      "googleMapsPlaceId": "ChIJiWzrSl1ZATQRczPDNxhBRZs",
       "coordinates": {
-        "lat": 22.28343719999999,
-        "lng": 114.1521976
+        "lat": 22.2548861,
+        "lng": 113.8632257
       },
       "area": {
-        "zh": "中西區"
+        "zh": "離島區"
+      }
+    },
+    {
+      "address": {
+        "zh": "赤柱大街1號地下 (pop up)"
+      },
+      "googleMapsPlaceId": "EiUxIFN0YW5sZXkgTWFpbiBTdCwgU3RhbmxleSwgSG9uZyBLb25nIjASLgoUChIJSdPtimuqBjQR5kF6iSdzM1wQASoUChIJo8AshWuqBjQRsfQixqBo9UA",
+      "coordinates": {
+        "lat": 22.2185522,
+        "lng": 114.2114774
+      },
+      "area": {
+        "zh": "南區"
       }
     }
   ]
