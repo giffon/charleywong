@@ -11,7 +11,7 @@
       "url": "https://www.instagram.com/shangchinghk/",
       "meta": {
         "name": "尚青商號",
-        "about": "尚青：台語 siɔŋ⊦-ts‘ĩ\n寓意 [最新鮮]\n我們販賣各種來自台灣\n家鄉的味道\n人文的溫度\n謙虛的態度\n.\nMeWe: https://mewe.com/p/尚青商號\n地址：灣仔蘭杜街4號（文熙大廈地下）\n電話：23639989\n電郵：shangchinghk@gmail.com"
+        "about": "尚青：台語 siɔŋ⊦-ts‘ĩ\n寓意 [最新鮮]\n我們販賣各種來自台灣\n家鄉的味道/人文的溫度/謙虛的態度\n.\n灣仔店：灣仔蘭杜街4號（文熙大廈地下）\n荃灣店：荃灣兆和街16號和盛樓地下5號舖\n電郵：shangchinghk@gmail.com"
       }
     },
     {
@@ -63,12 +63,29 @@
       "area": {
         "zh": "灣仔區"
       }
+    },
+    {
+      "address": {
+        "zh": "荃灣兆和街16號和盛樓地下5號舖"
+      },
+      "googleMapsPlaceId": "ChIJIcRrtXL5AzQRL8VuZcvI7BM",
+      "coordinates": {
+        "lat": 22.37203929999999,
+        "lng": 114.1174284
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 5548
+    },
+    {
+      "type": "eat",
+      "id": 6475
     }
   ]
 }
