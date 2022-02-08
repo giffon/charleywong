@@ -188,6 +188,19 @@
       "area": {
         "zh": "大埔區"
       }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀彌敦道100號GA04"
+      },
+      "googleMapsPlaceId": "ChIJO8Rrye0ABDQRIzRnrwsXcu0",
+      "coordinates": {
+        "lat": 22.2998755,
+        "lng": 114.1727008
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -222,6 +235,18 @@
     {
       "type": "shop",
       "id": 4793
+    },
+    {
+      "type": "shop",
+      "id": 6928
+    },
+    {
+      "type": "shop",
+      "id": 6929
+    },
+    {
+      "type": "shop",
+      "id": 6930
     }
   ]
 }
