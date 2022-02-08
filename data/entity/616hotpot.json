@@ -208,6 +208,19 @@
   "places": [
     {
       "address": {
+        "zh": "將軍澳唐德街3號九龍東智選假日酒店7樓702號舖"
+      },
+      "googleMapsPlaceId": "ChIJP0SeRfIDBDQRH0cijIQ3a6E",
+      "coordinates": {
+        "lat": 22.308125,
+        "lng": 114.2596038
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
         "zh": "大埔翠怡街3號翠怡花園B座地下18號舖"
       },
       "googleMapsPlaceId": "ChIJ1-MpmTkIBDQR8GDGz16bpfk",
@@ -500,6 +513,14 @@
     {
       "type": "eat",
       "id": 5650
+    },
+    {
+      "type": "eat",
+      "id": 6524
+    },
+    {
+      "type": "eat",
+      "id": 6525
     }
   ]
 }
