@@ -48,10 +48,10 @@
       "address": {
         "zh": "將軍澳唐賢街9號PopCorn商場1樓F96號舖"
       },
-      "googleMapsPlaceId": "ChIJNU6sV_IDBDQRHTaaMQ5mMqc",
+      "googleMapsPlaceId": "ChIJ2UMRmpQDBDQRJwA5gvpj5Ks",
       "coordinates": {
-        "lat": 22.307805,
-        "lng": 114.2595907
+        "lat": 22.3088694,
+        "lng": 114.261059
       },
       "area": {
         "zh": "西貢區"
@@ -59,15 +59,93 @@
     },
     {
       "address": {
+        "zh": "沙田橫壆街2-16號沙田中心3樓19號舖"
+      },
+      "googleMapsPlaceId": "ChIJ87Ar4gYHBDQR0zzP0PE_1mA",
+      "coordinates": {
+        "lat": 22.3827121,
+        "lng": 114.1896084
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "中環皇后大道中93號中環街市1樓111號舖"
+      },
+      "googleMapsPlaceId": "ChIJlf_dsXwABDQR_vHeEbY8JhA",
+      "coordinates": {
+        "lat": 22.283944,
+        "lng": 114.1555478
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
         "zh": "九龍灣偉業街33號德福廣場2期平台P39A號舖"
       },
-      "googleMapsPlaceId": "ChIJxxSvNjUBBDQRucrTN6RmGtM",
+      "googleMapsPlaceId": "ChIJrUnUrA8BBDQR_ukAP4kFUd0",
       "coordinates": {
-        "lat": 22.3238143,
-        "lng": 114.2135246
+        "lat": 22.32239,
+        "lng": 114.2127079
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵芳葵富路7號葵涌廣場2樓C79號舖"
+      },
+      "googleMapsPlaceId": "ChIJOUTkt734AzQR2DIuCxrfkck",
+      "coordinates": {
+        "lat": 22.3584385,
+        "lng": 114.1274926
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "太子彌敦道750號始創中心地下Kiosk B"
+      },
+      "googleMapsPlaceId": "ChIJe3JtN8gABDQRAECOPU4lcIw",
+      "coordinates": {
+        "lat": 22.32255109999999,
+        "lng": 114.1691147
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "元朗教育路1號千色匯地下G32號舖"
+      },
+      "googleMapsPlaceId": "ChIJ5xUmeQr6AzQRpgfX6Cgp-UQ",
+      "coordinates": {
+        "lat": 22.44268,
+        "lng": 114.02841
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門屯順街1號屯門市廣場一期UG層UG42號舖"
+      },
+      "googleMapsPlaceId": "ChIJASQPcT37AzQRBlhSGahsxls",
+      "coordinates": {
+        "lat": 22.3930073,
+        "lng": 113.9765973
+      },
+      "area": {
+        "zh": "屯門區"
       }
     }
   ],
@@ -87,6 +165,26 @@
     {
       "type": "eat",
       "id": 5195
+    },
+    {
+      "type": "eat",
+      "id": 6516
+    },
+    {
+      "type": "eat",
+      "id": 6517
+    },
+    {
+      "type": "eat",
+      "id": 6518
+    },
+    {
+      "type": "eat",
+      "id": 6519
+    },
+    {
+      "type": "eat",
+      "id": 6520
     }
   ]
 }
