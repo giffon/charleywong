@@ -122,7 +122,7 @@ tfenv:
 
 # COPY +terraform-ls/terraform-ls /usr/local/bin/
 terraform-ls:
-    ARG --required TARGETARCH
+    ARG TARGETARCH
     ARG TERRAFORM_LS_VERSION=0.25.0
     RUN curl -fsSL -o terraform-ls.zip https://github.com/hashicorp/terraform-ls/releases/download/v${TERRAFORM_LS_VERSION}/terraform-ls_${TERRAFORM_LS_VERSION}_linux_${TARGETARCH}.zip \
         && unzip -qq terraform-ls.zip \
@@ -141,7 +141,7 @@ terraform:
 # RUN earthly bootstrap --no-buildkit --with-autocomplete
 earthly:
     FROM +devcontainer-base
-    ARG --required TARGETARCH
+    ARG TARGETARCH
     RUN curl -fsSL https://github.com/earthly/earthly/releases/download/v0.6.2/earthly-linux-${TARGETARCH} -o /usr/local/bin/earthly \
         && chmod +x /usr/local/bin/earthly
     SAVE ARTIFACT /usr/local/bin/earthly
