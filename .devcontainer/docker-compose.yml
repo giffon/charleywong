@@ -10,8 +10,7 @@ services:
       - TZ=Asia/Hong_Kong
       - EARTHLY_BUILDKIT_HOST=tcp://earthly:8372
       - EARTHLY_SECRET_FILES=.envrc=/workspace/.envrc
-      - EARTHLY_USE_INLINE_CACHE=true
-      - EARTHLY_SAVE_INLINE_CACHE=true
+      - EARTHLY_REMOTE_CACHE=ghcr.io/giffon/charleywong_cache:master_devcontainer_workspace
     user: vscode
     entrypoint: /usr/local/share/docker-init.sh
     command: sleep infinity
@@ -24,7 +23,7 @@ services:
     expose:
       - "44871"
   earthly:
-    image: earthly/buildkitd:v0.6.2
+    image: earthly/buildkitd:v0.6.7
     privileged: true
     environment:
       - BUILDKIT_TCP_TRANSPORT_ENABLED=true
