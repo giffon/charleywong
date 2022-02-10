@@ -104,6 +104,8 @@ devcontainer-base:
     ENTRYPOINT [ "/usr/local/share/docker-init.sh" ]
     CMD [ "sleep", "infinity" ]
 
+    SAVE IMAGE --cache-hint
+
 # RUN /aws/install
 awscli:
     FROM +devcontainer-base
@@ -242,6 +244,7 @@ lix-download:
     COPY .haxerc .
     RUN lix download
     SAVE ARTIFACT "$HAXESHIM_ROOT"
+    SAVE IMAGE --cache-hint
 
 node-modules-prod:
     FROM +devcontainer-base
@@ -251,17 +254,20 @@ node-modules-prod:
     COPY +lix-download/haxe "$HAXESHIM_ROOT"
     RUN yarn --production
     SAVE ARTIFACT node_modules
+    SAVE IMAGE --cache-hint
 
 node-modules-dev:
     FROM +node-modules-prod
     RUN yarn
     SAVE ARTIFACT node_modules
+    SAVE IMAGE --cache-hint
 
 dts2hx:
     FROM +node-modules-dev
     RUN npx dts2hx @types/node @types/node-fetch @types/chrome abort-controller @types/gtag.js fastify sitemap nroonga --noLibWrap --useSystemHaxe --output lib/dts2hx
     RUN find lib/dts2hx -name "*.hx" -exec sed -i s/ajv.lib.ajv.[A-Za-z0-9]*/Dynamic/g {} \;
     SAVE ARTIFACT lib/dts2hx
+    SAVE IMAGE --cache-hint
 
 entity-index-exporter:
     FROM +devcontainer
@@ -368,6 +374,7 @@ dclookup:
     COPY babel.config.json package.json .
     RUN yarn dclookup
     SAVE ARTIFACT dclookup.js
+    SAVE IMAGE --cache-hint
 
 service-worker:
     FROM +devcontainer
@@ -425,6 +432,7 @@ lambda-container-base:
         && apt-get clean -y \
         && rm -rf /var/lib/apt/lists/*
     WORKDIR /workspace
+    SAVE IMAGE --cache-hint
 
 lambda-container:
     FROM +lambda-container-base
