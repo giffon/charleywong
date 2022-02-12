@@ -203,6 +203,7 @@ devcontainer-ci:
     BUILD +devcontainer \ 
         --IMAGE_CACHE="$(cat image_cache)" \
         --IMAGE_TAG="$(cat image_tag)" \
+        --IMAGE_TAG="$GIT_SHA" \
         --GIT_SHA="$GIT_SHA"
 
 devcontainer-rebuild:
