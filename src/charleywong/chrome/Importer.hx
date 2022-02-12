@@ -592,13 +592,17 @@ class Importer {
     }
 
     static function igName() {
-        var h1s = document.getElementsByXPath("//main//header//h1");
+        final h1s = document.getElementsByXPath("//main//header//h1");
         if (h1s[1] != null)
             return h1s[1].innerText;
-        else if (h1s[0] != null)
+        if (h1s[0] != null)
             return h1s[0].innerText;
-        else
-            throw document.getElementsByXPath("//main//header")[0].innerText;
+
+        final spans = document.querySelectorAll("header section > div > span");
+        if (spans[0] != null)
+            return (cast spans[0]:Element).innerText;
+
+        throw 'Cannot get user name. <header> content: ' + document.getElementsByXPath("//main//header")[0].innerText;
     }
 
     static function igWebsite() {
@@ -620,7 +624,10 @@ class Importer {
     }
 
     static function igAbout() {
-        var aboutElement = document.getElementsByXPath("//main//header/section/div[2]/span")[0];
-        return aboutElement != null ? aboutElement.innerText : null;
+        final spans = document.querySelectorAll("header section > div > span");
+        if (spans[1] != null)
+            return (cast spans[1]:Element).innerText;
+        trace('Cannot get user name. <header> content: ' + (cast document.querySelectorAll("header section")[0]:Element).innerText);
+        return null;
     }
 }

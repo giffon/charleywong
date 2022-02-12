@@ -519,7 +519,7 @@ class ServerMain {
     }
 
     static function createEntityFromIg(igInfo:charleywong.chrome.InstagramProfile):Entity {
-        var entity = switch (getEntityOfUrls([igInfo.url, igInfo.website])) {
+        final entity = switch (getEntityOfUrls([igInfo.url, igInfo.website])) {
             case null:
                 {
                     id: igInfo.handle,
@@ -532,20 +532,21 @@ class ServerMain {
                 e;
         }
 
-        var webpages = entity.webpages;
+        final meta:DynamicAccess<Dynamic> = {};
+        final webpages = entity.webpages;
         if (igInfo.website != null) {
+            meta["website"] = igInfo.website;
             addWebpageToEntity(igInfo.website, entity);
         }
-        var meta:DynamicAccess<Dynamic> = {};
         if (igInfo.name != null) {
             meta["name"] = igInfo.name;
         }
         if (igInfo.about != null) {
             meta["about"] = igInfo.about;
         }
-        var igPage:WebPage = switch (entity.webpages.find(p -> p.url == igInfo.url)) {
+        final igPage:WebPage = switch (entity.webpages.find(p -> p.url == igInfo.url)) {
             case null:
-                var p = {
+                final p = {
                     url: 'https://www.instagram.com/${igInfo.handle}/',
                 };
                 webpages.push(p);
