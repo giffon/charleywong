@@ -72,6 +72,7 @@ devcontainer-base:
         && add-apt-repository -y ppa:git-core/ppa \
         && apt-get install -y git \
         && curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add - \
+        && npm config --global set update-notifier false \
         && npm install -g yarn \
         && yarn global add lix --prefix /usr/local \
         #
