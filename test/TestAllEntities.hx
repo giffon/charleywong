@@ -147,12 +147,13 @@ class TestAllEntities extends utest.Test {
     }
 
     function testTelegramUrlFormat() {
-        var regexp = ~/^https?:\/\/(?:t\.me)/;
-        var valid = ~/^https:\/\/t\.me\/[A-z0-9_]+$/;
+        final regexp = ~/^https?:\/\/(?:t\.me)/;
+        final tgUsername = ~/^https:\/\/t\.me\/[A-z0-9_]+$/;
+        final tgJoinchat = ~/^https:\/\/t\.me\/joinchat\/[A-z0-9_\-]+$/;
         for (entity in index.entities) {
             for (page in entity.webpages)
             if (regexp.match(page.url))
-            Assert.isTrue(valid.match(page.url), '${page.url} is of invalid format');
+            Assert.isTrue(tgUsername.match(page.url) || tgJoinchat.match(page.url), '${page.url} is of invalid format');
         }
     }
 
