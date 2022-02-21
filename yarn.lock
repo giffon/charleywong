@@ -1463,14 +1463,14 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@serverless/dashboard-plugin@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@serverless/dashboard-plugin/-/dashboard-plugin-6.0.0.tgz#874a3542b1be029429ffd9770745e4a4ae37509d"
-  integrity sha512-ltoFGVoR7qmT4cO3ol2zUsXSVMaFmuV2+N/2dvKWKdqNrjHZRKTOH4fK4Onzmjb6WzK61nZScCT/XCtMhJwQqQ==
+"@serverless/dashboard-plugin@^6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@serverless/dashboard-plugin/-/dashboard-plugin-6.1.0.tgz#3434d957925e5e5b34118cbed6dc075150e464c6"
+  integrity sha512-rbIWKRoqTIMl0ZOt6f0VIaEj+6slV18iEkW7tIBOKq6eQTkX2tHvBgVXrTh3ZKFNnMePGn4rtfbwB5G9oZ0Wig==
   dependencies:
     "@serverless/event-mocks" "^1.1.1"
-    "@serverless/platform-client" "^4.3.0"
-    "@serverless/utils" "^6.0.0"
+    "@serverless/platform-client" "^4.3.1"
+    "@serverless/utils" "^6.0.2"
     child-process-ext "^2.1.1"
     chokidar "^3.5.3"
     flat "^5.0.2"
@@ -1485,7 +1485,7 @@
     open "^7.4.2"
     semver "^7.3.5"
     simple-git "^2.48.0"
-    type "^2.5.0"
+    type "^2.6.0"
     uuid "^8.3.2"
     yamljs "^0.3.0"
 
@@ -1497,7 +1497,7 @@
     "@types/lodash" "^4.14.123"
     lodash "^4.17.11"
 
-"@serverless/platform-client@^4.3.0", "@serverless/platform-client@^4.3.1":
+"@serverless/platform-client@^4.3.1":
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/@serverless/platform-client/-/platform-client-4.3.1.tgz#5caa52321f9b4e7a451748a16d3f851f263ea3ef"
   integrity sha512-VPXeTTgXmWZtZmbzm9eh5FJcOoFgHkcwgfNA59FV3TE2Vcm5JZiXKtXl5AANu9LYcyOtJK7iBJXs8OUSwNbJZw==
@@ -1518,7 +1518,7 @@
     traverse "^0.6.6"
     ws "^7.5.3"
 
-"@serverless/utils@^6.0.0", "@serverless/utils@^6.0.2":
+"@serverless/utils@^6.0.2":
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/@serverless/utils/-/utils-6.0.2.tgz#e23e79b5f10e3aba0bd4965d1924df10c77f9681"
   integrity sha512-4vNv6nt4/w8wX79DN7OujR/Ih1wlJ9ZJnY28BtF69ehFwlGqnxlF2CXVGo3W7Xh4maK3hWnoc+L4akQX6nH+3g==
@@ -3342,10 +3342,10 @@ aws-lambda-ric@2.0.0:
     node-addon-api "3.2.1"
     node-gyp "8.1.0"
 
-aws-sdk@^2.1073.0:
-  version "2.1074.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1074.0.tgz#be3283f781b3060cd67d5abef50d1edacefede70"
-  integrity sha512-tD478mkukglutjs+mq5FQmYFzz+l/wddl5u3tTMWTNa+j1eSL+AqaHPFM1rC3O9h98QqpKKzeKbLrPhGDvYaRg==
+aws-sdk@^2.1076.0:
+  version "2.1078.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1078.0.tgz#5871750b38045f05e141e5217521f8ff8bf73a26"
+  integrity sha512-eJuiiCE4tomYzsxqfsjERmQ1WQkNAe5RUhOXUwJbGTEfwmbiQqq/HgVYrwcMswOHoURbtKpB5SSrTLNOBuyurA==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -9271,18 +9271,18 @@ serverless-prune-plugin@2.0.1:
   dependencies:
     bluebird "^3.7.2"
 
-serverless@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.2.1.tgz#b09a4ddb1a04ca7b7e4e48c53b4ec5fce454669a"
-  integrity sha512-ocCfLKt+C8rZaalzkbdnxenPZBjS78wnZxJYqDdXx3EYr4e9KND2WyTKUhB8g/f3FPSWjGW35R9e3/Mfd/ceTw==
+serverless@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.3.0.tgz#05de8f35f016cd2f418f8e9b9194707d6c1d5270"
+  integrity sha512-7zMdqFyr2p0gED3Z3GrAy8Cj0nzJOwM8ksihj53TAtGxW4Ky65XTiKPYCiqAItFmOubiYZqVBMy/6R/rFl9MCQ==
   dependencies:
-    "@serverless/dashboard-plugin" "^6.0.0"
+    "@serverless/dashboard-plugin" "^6.1.0"
     "@serverless/platform-client" "^4.3.1"
     "@serverless/utils" "^6.0.2"
     ajv "^8.10.0"
     ajv-formats "^2.1.1"
     archiver "^5.3.0"
-    aws-sdk "^2.1073.0"
+    aws-sdk "^2.1076.0"
     bluebird "^3.7.2"
     cachedir "^2.3.0"
     chalk "^4.1.2"
