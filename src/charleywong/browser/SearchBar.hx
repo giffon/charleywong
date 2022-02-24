@@ -53,7 +53,12 @@ class SearchBar extends ReactComponentOf<SearchBarProps, SearchBarState> {
     function handleSubmit(event:Event) {
         event.preventDefault();
         disabled = true;
-        Browser.location.href = "/search/" + query.urlEncode();
+        Browser.location.href = switch (query.trim()) {
+            case "":
+                "/list/all";
+            case query:
+                "/search/" + query.urlEncode();
+        }
     }
 
     override function render() {
