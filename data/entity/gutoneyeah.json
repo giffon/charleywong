@@ -73,12 +73,29 @@
       "area": {
         "zh": "葵青區"
       }
+    },
+    {
+      "address": {
+        "zh": "葵芳葵富路7號葵涌廣場3樓TOP世界3069-T23-T25號舖"
+      },
+      "googleMapsPlaceId": "ChIJOUTkt734AzQR2DIuCxrfkck",
+      "coordinates": {
+        "lat": 22.3584385,
+        "lng": 114.1274926
+      },
+      "area": {
+        "zh": "葵青區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 637
+    },
+    {
+      "type": "eat",
+      "id": 6598
     }
   ]
 }
