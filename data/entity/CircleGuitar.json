@@ -27,8 +27,8 @@
     {
       "url": "https://www.instagram.com/circleguitar/",
       "meta": {
-        "name": "CircleGuitar",
-        "about": "🎸Singer-song Writer / 🎨illustrator\nEnjoy your life ❤️\nFacebook page / YouTube : #circleguitar"
+        "website": "https://music.apple.com/hk/artist/circleguitar/1137373528?l=en",
+        "name": "CircleGuitar"
       }
     },
     {
@@ -74,5 +74,20 @@
   "tags": [
     "artist",
     "music"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "1F Fortune Building, 150-158 Lockhart Road, Wan Chai"
+      },
+      "googleMapsPlaceId": "ChIJAysqeVwABDQRWF_4Jc2ZmyE",
+      "coordinates": {
+        "lat": 22.2780417,
+        "lng": 114.1734206
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
