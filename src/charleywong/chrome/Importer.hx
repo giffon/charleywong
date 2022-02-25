@@ -624,10 +624,9 @@ class Importer {
     }
 
     static function igAbout() {
-        final spans = document.querySelectorAll("header section > div > span");
-        if (spans[1] != null)
-            return (cast spans[1]:Element).innerText;
-        trace('Cannot get user name. <header> content: ' + (cast document.querySelectorAll("header section")[0]:Element).innerText);
+        final div:Element = cast document.querySelectorAll("header section > div:nth-of-type(2) > div:nth-of-type(2)")[0];
+        if (div != null)
+            return div.innerText;
         return null;
     }
 }
