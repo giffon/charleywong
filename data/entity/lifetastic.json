@@ -16,14 +16,22 @@
         "about": "Our founders travelled from Australia, the place they were inspired to create pastries, back to their hometown, Hong Kong. LIFETASTIC opened in February 2016 with the idea to provide the finest in Australian pastry with an Asian twist.",
         "category_list": [
           {
-            "id": "187827497907070",
-            "name": "Bakery"
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
           }
         ],
         "emails": [
           "info@lifetastichk.com"
         ],
-        "website": "https://order.lifetastichk.com"
+        "website": "https://www.lifetastichk.com/cakeOrder"
       }
     },
     {
@@ -42,8 +50,11 @@
             "name": "Coffee shop"
           }
         ],
+        "emails": [
+          "info@lifetastichk.com"
+        ],
         "single_line_address": "L406, Level 4, The ONE, 100 Nathan Road, Tsim Sha Tsui, Kowloon, Tsim Sha Tsui, Hong Kong",
-        "website": "www.lifetastichk.com"
+        "website": "https://lifetastichk.com/cakeOrder.php?lang=tc"
       },
       "hidden": true
     },
@@ -68,7 +79,7 @@
           }
         ],
         "single_line_address": "Kiosk 1B, 1/F, Main Block, 11-19 Great George Street, Fashion Walk, Causeway Bay, Hong Kong, Hong Kong",
-        "website": "www.lifetastichk.com"
+        "website": "https://lifetastichk.com/cakeOrder.php?lang=tc"
       },
       "hidden": true
     },
