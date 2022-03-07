@@ -3334,10 +3334,10 @@ avvio@^7.1.2:
     fastq "^1.6.1"
     queue-microtask "^1.1.2"
 
-aws-lambda-fastify@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/aws-lambda-fastify/-/aws-lambda-fastify-2.1.0.tgz#26c566dec3e1bd2baa01c7dd31e76a8e69d3f7e5"
-  integrity sha512-vY4bfWb8Jn7aKMCFanjlONaqfJOvX5I+l/f0NP6nr5ASO1LgvNB6hJZt3tAK7n8V1oRFs5tXQpIQpk4WhwEgKw==
+aws-lambda-fastify@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/aws-lambda-fastify/-/aws-lambda-fastify-2.1.1.tgz#b55d515cd3acfbeff35e0de26d6687c2c6e73351"
+  integrity sha512-+SUn2LSAxhwXVP1nL82jHSUQHgclDQHqM92Hi8ETwrTl61W4ByxCCJC6WKPpv2khlqclaSzl+9QJI7+CCyfXWg==
 
 aws-lambda-ric@2.0.0:
   version "2.0.0"
