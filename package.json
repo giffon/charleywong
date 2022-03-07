@@ -27,7 +27,7 @@
   "private": true,
   "dependencies": {
     "@googlemaps/google-maps-services-js": "3.3.10",
-    "aws-lambda-fastify": "2.1.0",
+    "aws-lambda-fastify": "2.1.1",
     "chokidar": "3.5.3",
     "fastify": "3.27.2",
     "fastify-cors": "6.0.3",
