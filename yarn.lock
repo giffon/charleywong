@@ -3347,10 +3347,10 @@ aws-lambda-ric@2.0.0:
     node-addon-api "3.2.1"
     node-gyp "8.1.0"
 
-aws-sdk@^2.1088.0:
-  version "2.1089.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1089.0.tgz#198ee116f3d6f70cd26cd6f7efa6adba46a54768"
-  integrity sha512-QhawXCxhOLR+SJHuKXNzyx1hd+oA1HqaDRjbeTKUrz7g2KF4EyPWvLwzf1fNaOTPK3Vp3JDYijusdKlfV69efw==
+aws-sdk@^2.1089.0:
+  version "2.1090.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1090.0.tgz#c30e4cbc177e4c3b7792020cc79dfaf155cc8197"
+  integrity sha512-oHdfbiuSjK9mn6rrm5fsitdwv7jEiYzaYB0Xz1kqjIczcVX3JEc+9ySdxlueQf4o5G3RVUcLRF2pIc5j9vcHSg==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -9281,10 +9281,10 @@ serverless-prune-plugin@2.0.1:
   dependencies:
     bluebird "^3.7.2"
 
-serverless@3.7.2:
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.7.2.tgz#8a955c2284b6ef9a35887e3d27d28fc00cb47572"
-  integrity sha512-+mmIJEtPje+9pY16/TOjNE2640VhpoaF2QAuwJKNol2eXA3ipTpJRPyPorDbgpq+y2lR36AHEYBNGZILtTKUqA==
+serverless@3.7.3:
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.7.3.tgz#5cf41f7fdf9317847f43a9ad4484e6a5599916df"
+  integrity sha512-ZnTuD4iuxbGx93cclPsf4s0IFz//Xan8G3YU2hgisBrRzsi9sxv5lBik0KbyTSh0pCwVnU+cWqXD3yr/UVhK0Q==
   dependencies:
     "@serverless/aws-lambda-otel-extension-dist" "^0.1.6"
     "@serverless/dashboard-plugin" "^6.1.5"
@@ -9293,7 +9293,7 @@ serverless@3.7.2:
     ajv "^8.10.0"
     ajv-formats "^2.1.1"
     archiver "^5.3.0"
-    aws-sdk "^2.1088.0"
+    aws-sdk "^2.1089.0"
     bluebird "^3.7.2"
     cachedir "^2.3.0"
     chalk "^4.1.2"
