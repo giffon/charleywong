@@ -1463,10 +1463,10 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@serverless/aws-lambda-otel-extension-dist@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@serverless/aws-lambda-otel-extension-dist/-/aws-lambda-otel-extension-dist-0.1.6.tgz#f5f890317b70a7ee33339cba6dc4bdb303e18c9c"
-  integrity sha512-Xt1bVZvDYKp01kXo8z0/8yd5rHeq1SxOmP4ZsdoASNXVlliR/wo4W/Pt4eJk5/zklA6CjWN4PfhcRkt90XKqtw==
+"@serverless/aws-lambda-otel-extension-dist@^0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@serverless/aws-lambda-otel-extension-dist/-/aws-lambda-otel-extension-dist-0.1.9.tgz#aa9eb63e24fb0f96e4168ec79aa4357ed7df854b"
+  integrity sha512-HrWxouhzpcDh9YqSIefGoFpv4Zn6fTGclR6prXyYsuwGCsKwNgu2i8C28DW2y4gX+fkdzhQRjX+JR/+Lwr5Edw==
 
 "@serverless/dashboard-plugin@^6.1.5":
   version "6.1.5"
@@ -3347,10 +3347,10 @@ aws-lambda-ric@2.0.0:
     node-addon-api "3.2.1"
     node-gyp "8.1.0"
 
-aws-sdk@^2.1089.0:
-  version "2.1090.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1090.0.tgz#c30e4cbc177e4c3b7792020cc79dfaf155cc8197"
-  integrity sha512-oHdfbiuSjK9mn6rrm5fsitdwv7jEiYzaYB0Xz1kqjIczcVX3JEc+9ySdxlueQf4o5G3RVUcLRF2pIc5j9vcHSg==
+aws-sdk@^2.1090.0:
+  version "2.1091.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1091.0.tgz#2281723dbb4ec49a7decd44554329e9b0a1ce03a"
+  integrity sha512-DSidFjHdZZopF2kBt6I5wlkxeV5xhXWWXtLtZVQw9g9RQxFnmm+B3iBf1mQtw9fPspfyKyQwnBUNnvMtPku3Yw==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -9281,19 +9281,19 @@ serverless-prune-plugin@2.0.1:
   dependencies:
     bluebird "^3.7.2"
 
-serverless@3.7.3:
-  version "3.7.3"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.7.3.tgz#5cf41f7fdf9317847f43a9ad4484e6a5599916df"
-  integrity sha512-ZnTuD4iuxbGx93cclPsf4s0IFz//Xan8G3YU2hgisBrRzsi9sxv5lBik0KbyTSh0pCwVnU+cWqXD3yr/UVhK0Q==
+serverless@3.7.4:
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.7.4.tgz#4a67e4ee25f14302873bfa1bef1f21a9476ba2d0"
+  integrity sha512-TsrSGfzKO9N0/rp2dROVUrKgku3b3JHP1wBEPrCgLLmfBTBLRi6YoTK9HAWgehNa+uSHdE4x02s+nttXU6qhtQ==
   dependencies:
-    "@serverless/aws-lambda-otel-extension-dist" "^0.1.6"
+    "@serverless/aws-lambda-otel-extension-dist" "^0.1.9"
     "@serverless/dashboard-plugin" "^6.1.5"
     "@serverless/platform-client" "^4.3.2"
     "@serverless/utils" "^6.0.3"
     ajv "^8.10.0"
     ajv-formats "^2.1.1"
     archiver "^5.3.0"
-    aws-sdk "^2.1089.0"
+    aws-sdk "^2.1090.0"
     bluebird "^3.7.2"
     cachedir "^2.3.0"
     chalk "^4.1.2"
