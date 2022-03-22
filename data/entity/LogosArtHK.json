@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.logosart.com.hk"
+      "url": "https://logosart.com.hk"
     },
     {
       "url": "https://www.facebook.com/LogosArtHK/",
@@ -28,9 +28,11 @@
       }
     },
     {
-      "url": "https://www.instagram.com/joyinlogosart/",
+      "url": "https://www.instagram.com/logosarthk/",
       "meta": {
-        "name": "LogosArt"
+        "website": "http://www.logosart.com.hk/",
+        "name": "LogosArt",
+        "about": "Product/service"
       }
     }
   ],
@@ -50,5 +52,20 @@
   ],
   "tags": [
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Unit 1610, 16/F, Sterling Centre, 11 Cheung Yue Street"
+      },
+      "googleMapsPlaceId": "ChIJc_jjgVMHBDQRhtTMLprK3OE",
+      "coordinates": {
+        "lat": 22.3370751,
+        "lng": 114.1501593
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
