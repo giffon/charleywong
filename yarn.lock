@@ -1485,10 +1485,10 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@serverless/dashboard-plugin@^6.2.0":
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/@serverless/dashboard-plugin/-/dashboard-plugin-6.2.0.tgz#dc41bf3a771e32aad1869b3df9d8f8067d5ec1ee"
-  integrity sha512-3vapxoW1hI8OBxLRJq+J9vt3tdckZObhYWfwRPDlqPs6FOEoHuJieAzz07e7YdWt7fO/LkQx6rlgCXlGamLnjw==
+"@serverless/dashboard-plugin@^6.2.1":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@serverless/dashboard-plugin/-/dashboard-plugin-6.2.1.tgz#10c5e88bcf56c56733a4b9c745751fcfe00d9355"
+  integrity sha512-ZvkDZsakoVluEbaQsskY1fW8puVjKjfjkMFAuXJnAPflGy0LCgT1ETGFEqCrAJwUJhgenPVxpZalO8J/22nzKw==
   dependencies:
     "@serverless/event-mocks" "^1.1.1"
     "@serverless/platform-client" "^4.3.2"
@@ -1498,7 +1498,7 @@
     flat "^5.0.2"
     fs-extra "^9.1.0"
     js-yaml "^4.1.0"
-    jszip "^3.7.1"
+    jszip "^3.8.0"
     lodash "^4.17.21"
     memoizee "^0.4.15"
     ncjsm "^4.3.0"
@@ -1506,7 +1506,7 @@
     node-fetch "^2.6.7"
     open "^7.4.2"
     semver "^7.3.5"
-    simple-git "^3.4.0"
+    simple-git "^3.5.0"
     type "^2.6.0"
     uuid "^8.3.2"
     yamljs "^0.3.0"
@@ -3364,10 +3364,10 @@ aws-lambda-ric@2.0.0:
     node-addon-api "3.2.1"
     node-gyp "8.1.0"
 
-aws-sdk@^2.1104.0:
-  version "2.1105.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1105.0.tgz#3e63129f2aca254f1d6d5a1580b988bb786e98fa"
-  integrity sha512-YZ6IbKvtiw8noD/Iuyp3hXNX5NmhJ2xSU4598pZr55CfnIQ0oU5ZwtQqLPG8E07ouA363/moCYddIAVGYSkQ+A==
+aws-sdk@^2.1106.0:
+  version "2.1107.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1107.0.tgz#90155fd8c78de59ba79a50e392a442286dbcf5a0"
+  integrity sha512-gZaCm+zSSwjUYSa/cVg63uXhq5w9coT9yA8aTDOYzFkyl19b9H2CCixPeyf7KHtZdGwe3QAG2Oe6Rw0xtoCs+Q==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -7099,10 +7099,10 @@ jss@10.5.1, jss@^10.5.1:
     is-in-browser "^1.1.3"
     tiny-warning "^1.0.2"
 
-jszip@^3.7.1:
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/jszip/-/jszip-3.7.1.tgz#bd63401221c15625a1228c556ca8a68da6fda3d9"
-  integrity sha512-ghL0tz1XG9ZEmRMcEN2vt7xabrDdqHHeykgARpmZ0BiIctWxM47Vt63ZO2dnp4QYt/xJVLLy5Zv1l/xRdh2byg==
+jszip@^3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/jszip/-/jszip-3.8.0.tgz#a2ac3c33fe96a76489765168213655850254d51b"
+  integrity sha512-cnpQrXvFSLdsR9KR5/x7zdf6c3m8IhZfZzSblFEHSqBaVwD2nvJ4CuCKLyvKvwBgZm08CgfSoiTBQLm5WW9hGw==
   dependencies:
     lie "~3.3.0"
     pako "~1.0.2"
@@ -9336,18 +9336,18 @@ serverless-prune-plugin@2.0.1:
   dependencies:
     bluebird "^3.7.2"
 
-serverless@3.10.2:
-  version "3.10.2"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.10.2.tgz#7d26dd4080fa8c324f43ad04745d4b5f0c5156ac"
-  integrity sha512-uBLwA+nRoXrxOTjfF3lPS8W5cWB8+cQoMfD/+e3z8o39PRA+on7/uaKFzqyaiqWfGww8qvptz8znN3SaMTmuWw==
+serverless@3.11.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.11.0.tgz#3e2ac4e1048986a83aeebac88c69eb3bba848818"
+  integrity sha512-v4yfKOK46ri12TkiuNfUrLo+PrfR4BI9WkrUxPF66Cst7Kdu1RH0qiCA6Gxpibauox++gnbxCdgoJ+XKw9nv1g==
   dependencies:
-    "@serverless/dashboard-plugin" "^6.2.0"
+    "@serverless/dashboard-plugin" "^6.2.1"
     "@serverless/platform-client" "^4.3.2"
     "@serverless/utils" "^6.0.3"
     ajv "^8.11.0"
     ajv-formats "^2.1.1"
     archiver "^5.3.0"
-    aws-sdk "^2.1104.0"
+    aws-sdk "^2.1106.0"
     bluebird "^3.7.2"
     cachedir "^2.3.0"
     chalk "^4.1.2"
@@ -9472,10 +9472,10 @@ simple-concat@^1.0.0:
   resolved "https://registry.yarnpkg.com/simple-concat/-/simple-concat-1.0.0.tgz#7344cbb8b6e26fb27d66b2fc86f9f6d5997521c6"
   integrity sha1-c0TLuLbib7J9ZrL8hvn21Zl1IcY=
 
-simple-git@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.4.0.tgz#dea49dfafbc16a67b26221917fca1caaeb976e4a"
-  integrity sha512-sBRdudUc1yvi0xQQPuHXc1L9gTWkRn4hP2bbc7q4BTxR502d3JJAGsDOhrmsBY+wAZAw5JLl82tx55fSWYE65w==
+simple-git@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.5.0.tgz#3c3538f4d7a1b3c8f3904412b12740bdcad9c8b1"
+  integrity sha512-fZsaq5nzdxQRhMNs6ESGLpMUHoL5GRP+boWPhq9pMYMKwOGZV2jHOxi8AbFFA2Y/6u4kR99HoULizSbpzaODkA==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
