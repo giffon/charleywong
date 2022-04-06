@@ -22,7 +22,7 @@ using charleywong.ReplyTools;
 using StringTools;
 using Lambda;
 
-typedef Request = FastifyRequest<Dynamic,Dynamic,Dynamic,Dynamic>;
+typedef Request = FastifyRequest<Dynamic,Dynamic,Dynamic,Dynamic,Dynamic>;
 typedef Reply = FastifyReply<Dynamic,Dynamic,Dynamic,Dynamic,Dynamic>;
 
 class ServerMain {
