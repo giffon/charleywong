@@ -46,21 +46,40 @@ class View extends ReactComponent {
         </Fragment>
     ');
 
-    function css() return jsx('
-        <Fragment>
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Nunito&display=swap"/>
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossOrigin="anonymous" />
-            <link rel="stylesheet" href=${R("/css/tailwind.css")} />
-            <link rel="stylesheet" href=${R("/css/style.css")} />
-        </Fragment>
-    ');
+    function css() {
+        final tailwind = if (charleywong.ServerMain.isMain) {
+            null;
+        } else {
+            jsx('
+                <link rel="stylesheet" href=${R("/css/tailwind.css", false)} />
+            ');
+        };
+        return jsx('
+            <Fragment>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Nunito&display=swap"/>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossOrigin="anonymous" />
+                ${tailwind}
+                <link rel="stylesheet" href=${R("/css/style.css")} />
+            </Fragment>
+        ');
+    }
 
-    function script() return jsx('
-        <Fragment>
-            <script src="//platform.instagram.com/en_US/embeds.js"></script>
-            <script src=${R("/browser.bundled.js")}></script>
-        </Fragment>
-    ');
+    function script() {
+        final tailwind = if (charleywong.ServerMain.isMain) {
+            jsx('
+                <script src="https://cdn.tailwindcss.com"></script>
+            ');
+        } else {
+            null;
+        };
+        return jsx('
+            <Fragment>
+                ${tailwind}
+                <script src="//platform.instagram.com/en_US/embeds.js"></script>
+                <script src=${R("/browser.bundled.js")}></script>
+            </Fragment>
+        ');
+    }
 
     function favicon() return jsx('
         <Fragment>

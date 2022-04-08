@@ -8,15 +8,15 @@ body {
     background: #f4a948;
 }
 
-a {
+body a {
     color: #007bff;
 }
 
-a:hover {
+body a:hover {
     text-decoration: underline;
 }
 
-form {
+body form {
     margin: 0;
 }
 
@@ -120,7 +120,7 @@ a.post-preview:hover {
     background-color: #ccc;
 }
 
-.search-btn {
+input.search-btn {
     background-color: #172451;
     color: white;
     border: 3px solid #f4a948;

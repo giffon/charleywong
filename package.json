@@ -10,7 +10,7 @@
   "scripts": {
     "dclookup": "browserify lib/HKAddressParser/web/src/utils/dclookup.js --standalone dclookup -t [ babelify --plugins [ @babel/plugin-transform-modules-commonjs ] ] > dclookup.js",
     "dts2hx-workbox": "dts2hx workbox-core workbox-routing workbox-recipes workbox-cacheable-response workbox-expiration workbox-navigation-preload --noLibWrap --output lib/workbox",
-    "tailwind": "tailwindcss-cli build -o static/css/tailwind.css",
+    "tailwind": "tailwindcss -o static/css/tailwind.css --minify",
     "start": "nodemon -L index.js",
     "test": "haxe test.hxml"
   },
@@ -72,7 +72,7 @@
     "react-telegram-embed": "0.1.1",
     "serverless": "3.12.0",
     "serverless-prune-plugin": "2.0.1",
-    "tailwindcss-cli": "0.1.2",
+    "tailwindcss": "3.0.23",
     "terser": "5.12.1",
     "uglifyify": "5.0.2",
     "workbox-cacheable-response": "6.5.2",

@@ -30,14 +30,16 @@ class StaticResource {
     }
     #end
 
-    macro static public function R(path:String) {
+    macro static public function R(path:String, ?warnIfNotFound:Bool = true) {
         if (!path.startsWith("/")) {
             Context.error('$path should relative to root (starts with /)', Context.currentPos());
         }
 
         var staticPath = Path.join([resourcesDir, path]);
         if (!FileSystem.exists(staticPath)) {
-            Context.warning('$path does not exist', Context.currentPos());
+            if (warnIfNotFound) {
+                Context.warning('$path does not exist', Context.currentPos());
+            }
             return macro @:privateAccess $v{path};
         } else {
             var h = hash(staticPath);

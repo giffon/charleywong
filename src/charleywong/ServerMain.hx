@@ -26,7 +26,7 @@ typedef Request = FastifyRequest<Dynamic,Dynamic,Dynamic,Dynamic,Dynamic>;
 typedef Reply = FastifyReply<Dynamic,Dynamic,Dynamic,Dynamic,Dynamic>;
 
 class ServerMain {
-    static final isMain = js.Syntax.code("require.main") == module;
+    static public final isMain = js.Syntax.code("require.main") == module;
     static public final domain = "https://charleywong.giffon.io";
     static public final dataDirectory = "data/entity";
     static public final entityIndex:EntityIndex = EntityIndex.loadFromDirectory(dataDirectory);
