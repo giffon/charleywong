@@ -1,14 +1,14 @@
 {
   "id": "CosmosRestaurantandBarHK",
   "name": {
-    "en": "Cosmos Restaurant & Bar"
+    "en": "Cosmos Research & Development"
   },
   "webpages": [
     {
-      "url": "https://www.instagram.com/cosmos_rnb/",
+      "url": "https://www.instagram.com/cosmos_rnnd/",
       "meta": {
-        "name": "Cosmos R & B",
-        "about": "曾經嘅酒吧餐廳……經過社會運動同武肺嘅洗禮之後，係時候休息下……"
+        "name": "Cosmos Research & Development",
+        "about": "Cosmos 轉型做 IT project 了... 最近就幫緊朋友搞網頁同電腦app...."
       }
     },
     {
@@ -91,25 +91,9 @@
     }
   ],
   "tags": [
-    "burger",
-    "bar",
-    "closed"
+    "technology"
   ],
-  "places": [
-    {
-      "address": {
-        "en": "G/F., Tung Wui Commercial Building, No.27 Prat Avenue, Tsim Sha Tsui"
-      },
-      "googleMapsPlaceId": "ChIJr06VQe4ABDQRt0hl6NO8KRk",
-      "coordinates": {
-        "lat": 22.2985781,
-        "lng": 114.1752516
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    }
-  ],
+  "places": [],
   "yellowBlueMapIds": [
     {
       "type": "eat",
