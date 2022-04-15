@@ -190,6 +190,18 @@
     {
       "type": "eat",
       "id": 6521
+    },
+    {
+      "type": "eat",
+      "id": 6630
+    },
+    {
+      "type": "eat",
+      "id": 6635
+    },
+    {
+      "type": "eat",
+      "id": 6672
     }
   ],
   "places": [
@@ -620,6 +632,45 @@
       },
       "area": {
         "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "粉嶺一鳴路18號華心邨華心商場地下F-WS3號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ2V4Dki9T_xMRmUPENUiANjI",
+      "coordinates": {
+        "lat": 22.4867046,
+        "lng": 114.1420587
+      },
+      "area": {
+        "zh": "北區"
+      }
+    },
+    {
+      "address": {
+        "zh": "馬鞍山新港城中心大街地下G-2/02號舖"
+      },
+      "googleMapsPlaceId": "ChIJbZXe7rEIBDQRYxIiTDM2XqM",
+      "coordinates": {
+        "lat": 22.4225776,
+        "lng": 114.2320374
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "青衣長發邨街市地下6號舖"
+      },
+      "googleMapsPlaceId": "ChIJ3-pFv934AzQRF0Mu2eK3r2s",
+      "coordinates": {
+        "lat": 22.3623356,
+        "lng": 114.1039637
+      },
+      "area": {
+        "zh": "葵青區"
       }
     }
   ]
