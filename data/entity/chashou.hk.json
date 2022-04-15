@@ -35,8 +35,9 @@
     {
       "url": "https://www.instagram.com/chashou.hk/",
       "meta": {
+        "website": "https://www.facebook.com/chashou.hk",
         "name": "茶匠Chashou🍵🍃",
-        "about": "我地係一間土炮港式手搖飲品店🍵🧋\n📍藍田店📍荔枝角店\n📍將軍澳店 📍尖沙咀店\n📍西灣河店 📍新蒲崗店\nTea drinking is an attitude☕️\n🔥外賣落單自取請致電各分店電話聯絡\n.\n📨 合作事宜/加入我們：65985699 周先生\n接受詢問/應援及各類活動"
+        "about": "我地係一間土炮港式手搖飲品店🍵🧋\n📍藍田店📍荔枝角店\n📍將軍澳店 📍尖沙咀店\n📍西灣河店 📍新蒲崗店\n📍元朗店（快將開業）\nTea drinking is an attitude☕️\n🔥外賣落單自取請致電各分店電話聯絡\n.\n📨 合作事宜/加入我們：65985699 周先生\n接受詢問/應援及各類活動"
       }
     }
   ],
@@ -70,6 +71,14 @@
     {
       "type": "eat",
       "id": 6106
+    },
+    {
+      "type": "eat",
+      "id": 6628
+    },
+    {
+      "type": "eat",
+      "id": 6629
     }
   ],
   "places": [
@@ -149,6 +158,19 @@
       },
       "area": {
         "zh": "黃大仙區"
+      }
+    },
+    {
+      "address": {
+        "zh": "元朗教育路31號地下5B鋪"
+      },
+      "googleMapsPlaceId": "EiMzMSBLYXUgWXVrIFJkLCBZdWVuIExvbmcsIEhvbmcgS29uZyIwEi4KFAoSCZ16N6EK-gM0EbbmogFzg5puEB8qFAoSCV2aSakK-gM0EawcA6vPNsHJ",
+      "coordinates": {
+        "lat": 22.4428667,
+        "lng": 114.0262104
+      },
+      "area": {
+        "zh": "元朗區"
       }
     }
   ],
