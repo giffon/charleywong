@@ -61,6 +61,7 @@
     {
       "url": "https://www.instagram.com/sushi93885690/",
       "meta": {
+        "website": "http://www.oi-shi-sushi.com/",
         "name": "千之味刺身壽司專門店",
         "about": "全港唯一壽司蛋糕外賣專門店。\n只需whatapp落單即可送到手上\n超過百種刺身壽司及和食提供\n歡迎到會服務\n凡購滿$300起可免費外送各區\n詳情可whatapp9388 5690查詢。"
       }
@@ -118,6 +119,10 @@
     {
       "type": "eat",
       "id": 6429
+    },
+    {
+      "type": "eat",
+      "id": 6687
     }
   ],
   "places": [
@@ -158,19 +163,6 @@
       },
       "area": {
         "zh": "觀塘區"
-      }
-    },
-    {
-      "address": {
-        "zh": "大角咀大全街22號地舖 (堂食及外賣)"
-      },
-      "googleMapsPlaceId": "ChIJc4g_uTQBBDQRkhK2l7J6QyY",
-      "coordinates": {
-        "lat": 22.3220155,
-        "lng": 114.1614867
-      },
-      "area": {
-        "zh": "油尖旺區"
       }
     },
     {
