@@ -31,10 +31,47 @@
       }
     },
     {
+      "url": "https://www.facebook.com/blablabys0/",
+      "meta": {
+        "id": "103120842300011",
+        "username": "blablabys0",
+        "name": "BLA BLA by sensory ZERO",
+        "about": "Hong Kong Comfort Food & Specialty Coffee",
+        "category_list": [
+          {
+            "id": "192803624072087",
+            "name": "Fast food restaurant"
+          }
+        ],
+        "single_line_address": "Causeway Centre, 28 Harbour Road, 香港",
+        "website": "www.sensoryzero.com"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.facebook.com/bbb1acksheep/",
+      "meta": {
+        "id": "104725065001615",
+        "username": "bbb1acksheep",
+        "name": "BLA BLA by sensory ZERO - Telford Plaza Kowloon Bay",
+        "about": "Hong Kong Style Comfort Food & Specialty Coffee",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
+        ],
+        "single_line_address": "telford plaza 2, kowloon bay, 香港",
+        "website": "www.sensoryzero.com"
+      },
+      "hidden": true
+    },
+    {
       "url": "https://www.instagram.com/sensoryzero/",
       "meta": {
+        "website": "http://www.sensoryzero.com/",
         "name": "sensory ZERO",
-        "about": "Specialty Coffee Roasters\n☕ One Island South,WongChukHang\n☕ Eslite Bookstore,Taikoo\n☕ LaneCrawford,TST\n☕ ShuiOn Centre,Wanchai\n☕️ Sasa Supreme,CWB"
+        "about": "Specialty Coffee Roasters\n☕ One Island South\n☕ Taikoo Cityplaza\n☕ Lane Crawford TST\n☕ ShuiOn Centre\n☕️ Sasa Supreme\n☕️ New Town Plaza\n☕️ Science Park"
       }
     },
     {
@@ -76,9 +113,30 @@
     {
       "type": "eat",
       "id": 6284
+    },
+    {
+      "type": "eat",
+      "id": 6677
+    },
+    {
+      "type": "eat",
+      "id": 6679
     }
   ],
   "places": [
+    {
+      "address": {
+        "zh": "尖沙咀廣東道3號海港城馬哥孛羅香港酒店G樓連卡佛"
+      },
+      "googleMapsPlaceId": "ChIJe7SuJ_MABDQRk4zLbV0JDLs",
+      "coordinates": {
+        "lat": 22.2949267,
+        "lng": 114.168578
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
     {
       "address": {
         "zh": "太古太古城道18號太古城中心地下誠品生活G014舖"
@@ -103,32 +161,6 @@
       },
       "area": {
         "zh": "南區"
-      }
-    },
-    {
-      "address": {
-        "zh": "尖沙咀廣東道3號海港城馬哥孛羅香港酒店G樓連卡佛"
-      },
-      "googleMapsPlaceId": "ChIJe7SuJ_MABDQRk4zLbV0JDLs",
-      "coordinates": {
-        "lat": 22.2949267,
-        "lng": 114.168578
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
-        "zh": "灣仔港灣道6-8號瑞安中心1樓103號舖"
-      },
-      "googleMapsPlaceId": "ChIJGzcbwEoBBDQRLobOczVbzFg",
-      "coordinates": {
-        "lat": 22.2801675,
-        "lng": 114.1715244
-      },
-      "area": {
-        "zh": "灣仔區"
       }
     },
     {
@@ -159,15 +191,41 @@
     },
     {
       "address": {
-        "zh": "沙田科技大道西17號17W大樓地下G01號舖"
+        "zh": "灣仔港灣道6-8號瑞安中心1樓103號舖"
       },
-      "googleMapsPlaceId": "ChIJXY1Z65QJBDQRnVOk2Ew8vMQ",
+      "googleMapsPlaceId": "ChIJGzcbwEoBBDQRLobOczVbzFg",
       "coordinates": {
-        "lat": 22.4267787,
-        "lng": 114.2087402
+        "lat": 22.2801675,
+        "lng": 114.1715244
       },
       "area": {
-        "zh": "沙田區"
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍灣偉業街33號德福廣場二期2樓1號舖"
+      },
+      "googleMapsPlaceId": "ChIJ4SoTdk8BBDQRAfWpBpxn4Xw",
+      "coordinates": {
+        "lat": 22.3208636,
+        "lng": 114.2132392
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "灣仔港灣道28號灣景中心大廈Brim281樓4號舖"
+      },
+      "googleMapsPlaceId": "ChIJpdWSjDUBBDQRdB3_TQIPiZI",
+      "coordinates": {
+        "lat": 22.28057310000001,
+        "lng": 114.1762849
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ]
