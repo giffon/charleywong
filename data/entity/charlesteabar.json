@@ -29,6 +29,7 @@
     {
       "url": "https://www.instagram.com/charlesteabar/",
       "meta": {
+        "website": "http://www.charlesteabar.com/?page_id=18461",
         "name": "茶理史 Charles Tea Bar",
         "about": "「茶理史」諧音「茶歷史」，\n蘊藏著由古至今茶道文化的發展過程；\n.\n創辦人有感而發，本著對茶飲之熱愛，\n將其概念融入整合，擔起現代管理茶道史官之職\n.\n#茶理史\n👇🏻👇🏻分店位置👇🏻👇🏻"
       }
@@ -75,6 +76,10 @@
     {
       "type": "eat",
       "id": 1236
+    },
+    {
+      "type": "eat",
+      "id": 6636
     }
   ],
   "places": [
@@ -132,19 +137,6 @@
     },
     {
       "address": {
-        "zh": "土瓜環馬頭角道金都豪苑12號舖"
-      },
-      "googleMapsPlaceId": "ChIJR27APMkBBDQR7GbSsugV3kI",
-      "coordinates": {
-        "lat": 22.3224621,
-        "lng": 114.1892073
-      },
-      "area": {
-        "zh": "九龍城區"
-      }
-    },
-    {
-      "address": {
         "zh": "灣仔軒尼詩道英皇集團中心地下G08號舖"
       },
       "googleMapsPlaceId": "ChIJa7r3SsABBDQRF2AcEdL80cA",
@@ -167,19 +159,6 @@
       },
       "area": {
         "zh": "九龍城區"
-      }
-    },
-    {
-      "address": {
-        "zh": "牛頭角道馬蹄徑1號寶恩大廈地下1號舖"
-      },
-      "googleMapsPlaceId": "ChIJyV6f2E4BBDQR9hFjXdxBNbc",
-      "coordinates": {
-        "lat": 22.314644,
-        "lng": 114.222238
-      },
-      "area": {
-        "zh": "觀塘區"
       }
     }
   ]
