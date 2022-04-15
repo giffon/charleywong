@@ -27,6 +27,7 @@
     {
       "url": "https://www.instagram.com/ladybobo.tea/",
       "meta": {
+        "website": "https://lady-bobo.com/",
         "name": "圓圓小姐LadyBoBo",
         "about": "圓圓是來自台灣的女孩，起源於 #深水埗\n初嫁到香港時，時常想念在家鄉味道，單純想將這美好感受移植香港。\n#圓圓小姐#台灣人妻#港媳\n#Ladybobotea #bubbletea #圓圓聊天室 #珍珠奶茶 #手搖飲料\n-\n🔻WhatsApp落單｜滿200免外送"
       }
@@ -65,6 +66,19 @@
     },
     {
       "address": {
+        "zh": "旺角山東街50號地下C號舖"
+      },
+      "googleMapsPlaceId": "ChIJoVRdy5IBBDQRypXvBQEPkOo",
+      "coordinates": {
+        "lat": 22.3176724,
+        "lng": 114.171387
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
         "zh": "西九龍中心8樓food court"
       },
       "googleMapsPlaceId": "ChIJw4LLE7MABDQR4MMha8oMpPc",
@@ -81,6 +95,14 @@
     {
       "type": "eat",
       "id": 1379
+    },
+    {
+      "type": "eat",
+      "id": 6642
+    },
+    {
+      "type": "eat",
+      "id": 6643
     }
   ]
 }
