@@ -103,10 +103,11 @@ class Background {
                     BrowserAction.setBadgeText({
                         text: "",
                     });
-                    var entityIndex = new EntityIndex([for (e in (cast entities:Array<Entity>)) e.id => e]);
-                    Storage.local.set(({
+                    final entityIndex = new EntityIndex([for (e in (cast entities:Array<Entity>)) e.id => e]);
+                    final settings:SettingsData = {
                         serializedEntities: entityIndex.entities,
-                    }:SettingsData), () -> {
+                    };
+                    Storage.local.set(cast settings, () -> {
                         resolve(entityIndex);
                     });
                 })

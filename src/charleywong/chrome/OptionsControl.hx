@@ -51,10 +51,11 @@ class OptionsControl extends ReactComponent {
     }
 
     function onClickSave(evt) {
-        Storage.local.set({
+        final settings:SettingsData = {
             serverEndpoint: serverEndpoint,
             dataEntryMode: dataEntryMode,
-        }, function(){
+        };
+        Storage.local.set(cast settings, function(){
             window.close();
         });
     }

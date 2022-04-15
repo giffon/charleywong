@@ -12,7 +12,7 @@ class Settings {
 
     static public function getSettings():Promise<SettingsData> {
         return new Promise(function(resolve, reject) {
-            Storage.local.get(defaultSettings, cast function(settings:SettingsData) {
+            Storage.local.get(cast defaultSettings, cast function(settings:SettingsData) {
                 resolve(settings);
             });
         });
