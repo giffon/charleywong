@@ -97,6 +97,10 @@
     {
       "type": "eat",
       "id": 1594
+    },
+    {
+      "type": "eat",
+      "id": 6646
     }
   ],
   "places": [
@@ -121,6 +125,19 @@
       "coordinates": {
         "lat": 22.3172156,
         "lng": 114.1696491
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀厚福街9號豪華閣地下-1樓"
+      },
+      "googleMapsPlaceId": "ChIJRYSpNHMBBDQRGcr5bYDDaAY",
+      "coordinates": {
+        "lat": 22.2996782,
+        "lng": 114.1742878
       },
       "area": {
         "zh": "油尖旺區"
