@@ -31,6 +31,7 @@
     {
       "url": "https://www.instagram.com/herbaceousteas/",
       "meta": {
+        "website": "http://www.herbaceousteas.com/",
         "name": "herbaceous teas 良茶隅",
         "about": "Our herbal teas, made from the finest herbs with our exclusively long-effective prescriptions, are your best natural detox and cleanse solution."
       }
@@ -140,6 +141,10 @@
     }
   ],
   "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6644
+    },
     {
       "type": "shop",
       "id": 6790
