@@ -1013,10 +1013,10 @@
   dependencies:
     ajv "^6.12.6"
 
-"@googlemaps/google-maps-services-js@3.3.12":
-  version "3.3.12"
-  resolved "https://registry.npmjs.org/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.3.12.tgz"
-  integrity sha512-d/cWUnzgB0kBT0X6I7Pudj8yWMxTOuAlw7pJ9Dx9mgIb11/x8BNHSuem10a5ypU7K0hCyEOG6jKQ7K/P6De8qw==
+"@googlemaps/google-maps-services-js@3.3.13":
+  version "3.3.13"
+  resolved "https://registry.yarnpkg.com/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.3.13.tgz#bfac9a0740677325f87b00e9859ce35c35db5ea1"
+  integrity sha512-SWqnXjfr4UddmnpYFm7a2zIrfzkXIU+GRtfxX7yAzxzYM9M3WdkVJFnmAKLYZKomm7topbicw8Cr4l9kW82ZmA==
   dependencies:
     "@googlemaps/url-signature" "^1.0.4"
     agentkeepalive "^4.1.0"
