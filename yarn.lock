@@ -1464,10 +1464,10 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@serverless/dashboard-plugin@^6.2.1":
-  version "6.2.1"
-  resolved "https://registry.npmjs.org/@serverless/dashboard-plugin/-/dashboard-plugin-6.2.1.tgz"
-  integrity sha512-ZvkDZsakoVluEbaQsskY1fW8puVjKjfjkMFAuXJnAPflGy0LCgT1ETGFEqCrAJwUJhgenPVxpZalO8J/22nzKw==
+"@serverless/dashboard-plugin@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@serverless/dashboard-plugin/-/dashboard-plugin-6.2.2.tgz#1de497040d1b30d4abd7f4cdfdc40c84715200f4"
+  integrity sha512-h3zOprpuWZCdAP7qoOKT2nboB+AaxMkGoSzOD0jIBpt9s0cXqLE2VFjR2vKn8Cvam47Qa3XYnT2/XN6tR6rZgQ==
   dependencies:
     "@serverless/event-mocks" "^1.1.1"
     "@serverless/platform-client" "^4.3.2"
@@ -1477,15 +1477,15 @@
     flat "^5.0.2"
     fs-extra "^9.1.0"
     js-yaml "^4.1.0"
-    jszip "^3.8.0"
+    jszip "^3.9.1"
     lodash "^4.17.21"
     memoizee "^0.4.15"
     ncjsm "^4.3.0"
     node-dir "^0.1.17"
     node-fetch "^2.6.7"
     open "^7.4.2"
-    semver "^7.3.5"
-    simple-git "^3.5.0"
+    semver "^7.3.7"
+    simple-git "^3.7.0"
     type "^2.6.0"
     uuid "^8.3.2"
     yamljs "^0.3.0"
@@ -3164,13 +3164,13 @@ archiver-utils@^2.1.0:
     normalize-path "^3.0.0"
     readable-stream "^2.0.0"
 
-archiver@^5.3.0:
-  version "5.3.0"
-  resolved "https://registry.npmjs.org/archiver/-/archiver-5.3.0.tgz"
-  integrity sha512-iUw+oDwK0fgNpvveEsdQ0Ase6IIKztBJU2U0E9MzszMfmVVUyv1QJhS2ITW9ZCqx8dktAxVAjWWkKehuZE8OPg==
+archiver@^5.3.0, archiver@^5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/archiver/-/archiver-5.3.1.tgz#21e92811d6f09ecfce649fbefefe8c79e57cbbb6"
+  integrity sha512-8KyabkmbYrH+9ibcTScQ1xCJC/CGcugdVIwB+53f5sZziXgwUh3iXlAlANMxcZyDEfTHMe6+Z5FofV8nopXP7w==
   dependencies:
     archiver-utils "^2.1.0"
-    async "^3.2.0"
+    async "^3.2.3"
     buffer-crc32 "^0.2.1"
     readable-stream "^3.6.0"
     readdir-glob "^1.0.0"
@@ -3276,10 +3276,10 @@ async@^2.1.2:
   dependencies:
     lodash "^4.17.14"
 
-async@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.npmjs.org/async/-/async-3.2.0.tgz"
-  integrity sha512-TR2mEZFVOj2pLStYxLht7TyfuRzaydfpxr3k9RpHIzMgw7A64dzsdqCxH1WJyQdoe8T10nDXd9wnEigmiuHIZw==
+async@^3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/async/-/async-3.2.3.tgz#ac53dafd3f4720ee9e8a160628f18ea91df196c9"
+  integrity sha512-spZRyzKL5l5BZQrr/6m/SqFdBN0q3OCI0f9rjfBzCMBIP4p75P620rR3gTmaksNOhmzgdxcaxdNfMy6anrbM0g==
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -3331,10 +3331,10 @@ aws-lambda-ric@2.0.0:
     node-addon-api "3.2.1"
     node-gyp "8.1.0"
 
-aws-sdk@^2.1114.0:
-  version "2.1115.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1115.0.tgz#a5f9b049c7625755b4922fbbf3f4c6dedc0d8f4e"
-  integrity sha512-WuMPBkE2b0hGRcF4oYw9zhjG0PC20lFKHT5FS8PXgZgu4GK8adQ8oIK0wBYPjq3F6b+VNdhDWSy3R7a6K+ENOQ==
+aws-sdk@^2.1117.0:
+  version "2.1118.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1118.0.tgz#1789e881b1f43bef7807111d5716ab691ab965c2"
+  integrity sha512-R3g06c4RC0Gz/lwMA7wgC7+FwYf5vaO30sPIigoX5m6Tfb7tdzfCYD7pnpvkPRNUvWJ3f5kQk+pEeW25DstRrQ==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -4483,10 +4483,10 @@ data-urls@^3.0.1:
     whatwg-mimetype "^3.0.0"
     whatwg-url "^10.0.0"
 
-dayjs@^1.11.0:
-  version "1.11.0"
-  resolved "https://registry.npmjs.org/dayjs/-/dayjs-1.11.0.tgz"
-  integrity sha512-JLC809s6Y948/FuCZPm5IX8rRhQwOiyMb2TfVVQEixG7P8Lm/gt5S7yoQZmC8x1UehI9Pb7sksEt4xx14m+7Ug==
+dayjs@^1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.1.tgz#90b33a3dda3417258d48ad2771b415def6545eb0"
+  integrity sha512-ER7EjqVAMkRRsxNCC5YqJ9d9VQYuWdGt7aiH2qA5R5wt8ZmWaP2dLUSIK6y/kVzLMlmh1Tvu5xUf4M/wdGJ5KA==
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
@@ -6147,10 +6147,10 @@ https-browserify@^1.0.0:
   resolved "https://registry.npmjs.org/https-browserify/-/https-browserify-1.0.0.tgz"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
-https-proxy-agent@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.0.tgz"
-  integrity sha512-EkYm5BcKUGiduxzSt3Eppko+PiNWNEpa4ySk9vTC6wDsQJW9rHSa+UhGNJoRYp7bz6Ht1eaRIa6QaJqO5rCFbA==
+https-proxy-agent@^5.0.0, https-proxy-agent@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz#c59ef224a04fe8b754f3db0063a25ea30d0005d6"
+  integrity sha512-dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA==
   dependencies:
     agent-base "6"
     debug "4"
@@ -6942,10 +6942,10 @@ jss@10.5.1, jss@^10.5.1:
     is-in-browser "^1.1.3"
     tiny-warning "^1.0.2"
 
-jszip@^3.8.0:
-  version "3.8.0"
-  resolved "https://registry.npmjs.org/jszip/-/jszip-3.8.0.tgz"
-  integrity sha512-cnpQrXvFSLdsR9KR5/x7zdf6c3m8IhZfZzSblFEHSqBaVwD2nvJ4CuCKLyvKvwBgZm08CgfSoiTBQLm5WW9hGw==
+jszip@^3.9.1:
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/jszip/-/jszip-3.9.1.tgz#784e87f328450d1e8151003a9c67733e2b901051"
+  integrity sha512-H9A60xPqJ1CuC4Ka6qxzXZeU8aNmgOeP5IFqwJbQQwtu2EUYxota3LdsiZWplF7Wgd9tkAd0mdu36nceSaPuYw==
   dependencies:
     lie "~3.3.0"
     pako "~1.0.2"
@@ -9094,18 +9094,18 @@ serverless-prune-plugin@2.0.1:
   dependencies:
     bluebird "^3.7.2"
 
-serverless@3.14.0:
-  version "3.14.0"
-  resolved "https://registry.npmjs.org/serverless/-/serverless-3.14.0.tgz"
-  integrity sha512-+8B26dyIfsQ9QqDubKJhVRbSjcg0qJNWlFU/fdHYoLn/nUO4u1u+4AYdnUSiku8bDyrdaAjFJp9Zk3cwPCsm9A==
+serverless@3.15.0:
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.15.0.tgz#1ee4f46f5245512f31513efc4a1dbf7ad3506a1e"
+  integrity sha512-53tVnDXbzhxVH4QJwqZPIb/W/cOozNowTMOmMuigX9xk0R0PVI3f2F30jd0NO3EQtCrL2+Gq9YZdUJAjldtZCg==
   dependencies:
-    "@serverless/dashboard-plugin" "^6.2.1"
+    "@serverless/dashboard-plugin" "^6.2.2"
     "@serverless/platform-client" "^4.3.2"
     "@serverless/utils" "^6.0.3"
     ajv "^8.11.0"
     ajv-formats "^2.1.1"
-    archiver "^5.3.0"
-    aws-sdk "^2.1114.0"
+    archiver "^5.3.1"
+    aws-sdk "^2.1117.0"
     bluebird "^3.7.2"
     cachedir "^2.3.0"
     chalk "^4.1.2"
@@ -9113,7 +9113,7 @@ serverless@3.14.0:
     ci-info "^3.3.0"
     cli-progress-footer "^2.3.1"
     d "^1.0.1"
-    dayjs "^1.11.0"
+    dayjs "^1.11.1"
     decompress "^4.2.1"
     dotenv "^10.0.0"
     dotenv-expand "^5.1.0"
@@ -9126,7 +9126,7 @@ serverless@3.14.0:
     globby "^11.1.0"
     got "^11.8.3"
     graceful-fs "^4.2.10"
-    https-proxy-agent "^5.0.0"
+    https-proxy-agent "^5.0.1"
     is-docker "^2.2.1"
     js-yaml "^4.1.0"
     json-cycle "^1.3.0"
@@ -9230,10 +9230,10 @@ simple-concat@^1.0.0:
   resolved "https://registry.npmjs.org/simple-concat/-/simple-concat-1.0.0.tgz"
   integrity sha1-c0TLuLbib7J9ZrL8hvn21Zl1IcY=
 
-simple-git@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.npmjs.org/simple-git/-/simple-git-3.5.0.tgz"
-  integrity sha512-fZsaq5nzdxQRhMNs6ESGLpMUHoL5GRP+boWPhq9pMYMKwOGZV2jHOxi8AbFFA2Y/6u4kR99HoULizSbpzaODkA==
+simple-git@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.7.0.tgz#b0aac4c2e6e8118c115460ed93d072cda966dd42"
+  integrity sha512-O9HlI83ywqkYqnr7Wh3CqKNNrMkfjzpKQSGtJAhk7+H5P+lAxHBTIPgu/eO/0D9pMciepgs433p0d5S+NYv5Jg==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
