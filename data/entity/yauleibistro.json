@@ -89,6 +89,19 @@
       "area": {
         "zh": "黃大仙區"
       }
+    },
+    {
+      "address": {
+        "zh": "觀塘駿業街中海日升中心地下HJK號"
+      },
+      "googleMapsPlaceId": "ChIJDXBuq0oBBDQR26NylU6KBTk",
+      "coordinates": {
+        "lat": 22.3110304,
+        "lng": 114.2227883
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -99,6 +112,10 @@
     {
       "type": "eat",
       "id": 6638
+    },
+    {
+      "type": "eat",
+      "id": 6692
     }
   ]
 }
