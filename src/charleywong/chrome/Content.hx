@@ -227,16 +227,24 @@ class Content {
             .map(timeA -> {
                 node: timeA,
                 time: {
-                    // remove the hidden characters
-                    for (e in timeA.querySelectorAll("span")) {
-                        var span:SpanElement = cast e;
-                        if (span.childElementCount > 0) continue;
-                        switch window.getComputedStyle(span).top {
-                            case null | "" | "0px": //pass
-                            case _: span.remove();
-                        }
+                    final baselined = [
+                        for (e in timeA.querySelectorAll("span"))
+                        if (switch (window.getComputedStyle(cast e).top) {
+                            case null | "" | "0px": true;
+                            case _: false;
+                        })
+                        (cast e:SpanElement)
+                    ];
+                    baselined.sort((a,b) -> Std.parseInt(window.getComputedStyle(a).order) - Std.parseInt(window.getComputedStyle(b).order));
+                    final sorted = baselined.map(span -> span.innerText.charAt(0)).join("");
+                    final spaceNormal = ~/\s/g.replace(sorted, " ");
+                    final time = switch (spaceNormal.split(" ")[0].substr(1)) {
+                        case "January" | "February" | "March" | "April" | "May" | "June" | "July" | "August" | "September" | "October" | "November" | "December":
+                            spaceNormal.substr(1);
+                        case _:
+                            spaceNormal;
                     }
-                    timestampFromString(timeA.innerText);
+                    timestampFromString(time);
                 }
             });
 
