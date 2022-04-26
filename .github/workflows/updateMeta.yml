@@ -2,6 +2,13 @@ name: Update meta
 on:
   schedule:
     - cron: '0 * * * *' # every hour
+
+env:
+  TZ: Asia/Hong_Kong
+  FORCE_COLOR: 1
+  EARTHLY_STRICT: "true"
+  EARTHLY_REMOTE_CACHE: "ghcr.io/giffon/charleywong_cache:master_devcontainer_workspace"
+
 jobs:
   job:
     runs-on: ubuntu-latest
@@ -13,14 +20,23 @@ jobs:
       - uses: earthly/actions-setup@v1
         with:
           version: "v0.6.13"
+      - name: Create .envrc
+        run: |
+          cat > .envrc <<EOT
+          export FACEBOOK_TOKEN="$FACEBOOK_TOKEN"
+          EOT
+        env:
+          FACEBOOK_TOKEN: ${{ secrets.FACEBOOK_TOKEN }}
+      - run: earthly +syncFacebook
+        env:
+          EARTHLY_SECRET_FILES: .envrc=.envrc
+      - run: earthly +git.js
       - name: Import gpg key
         run: |
           echo "${#CBCA760DC1170A9B}"
           echo "$CBCA760DC1170A9B" | gpg --import
         env:
           CBCA760DC1170A9B: ${{ secrets.CBCA760DC1170A9B }}
-      - run: earthly +syncFacebook
-      - run: earthly +git.js
       - run: node git.js rebase-commit-push "Charley Wong's bot <charleywong-bot@giffon.io>" "CBCA760DC1170A9B!" "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/giffon/charleywong.git" meta
         env:
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
