@@ -17,6 +17,7 @@ jobs:
         with:
           submodules: true
           ref: meta
+          fetch-depth: 0
       - uses: earthly/actions-setup@v1
         with:
           version: "v0.6.13"
