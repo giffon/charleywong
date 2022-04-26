@@ -161,7 +161,7 @@ class Facebook {
         }
 
         function updateOldest() {
-            if (lastAppUsage != null && Math.max(Math.max(lastAppUsage.call_count, lastAppUsage.total_cputime), lastAppUsage.total_time) > 10) {
+            if (lastAppUsage != null && Math.max(Math.max(lastAppUsage.call_count, lastAppUsage.total_cputime), lastAppUsage.total_time) > 80) {
                 Sys.println('Reaching API limit\n' + Json.stringify(lastAppUsage, null, "  "));
                 return Promise.resolve(null);
             }
