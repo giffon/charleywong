@@ -539,3 +539,15 @@ copy-image:
     RUN docker pull "$SRC"
     RUN docker tag "$SRC" "$DEST"
     RUN docker push "$DEST"
+
+syncFacebook.js:
+    FROM +devcontainer
+    COPY lib/hxnodelibs lib/hxnodelibs
+    COPY haxe_libraries haxe_libraries
+    COPY src src
+    COPY static static
+    COPY +dclookup/* .
+    COPY .haxerc syncFacebook.hxml package.json yarn.lock .
+    RUN haxe syncFacebook.hxml
+    SAVE ARTIFACT syncFacebook.js AS LOCAL syncFacebook.js
+
