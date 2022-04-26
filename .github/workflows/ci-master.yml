@@ -39,8 +39,9 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - name: Setup Earthly
-        run: "sudo /bin/sh -c 'wget https://github.com/earthly/earthly/releases/download/v0.6.13/earthly-linux-amd64 -O /usr/local/bin/earthly && chmod +x /usr/local/bin/earthly'"
+      - uses: earthly/actions-setup@v1
+        with:
+          version: "v0.6.13"
       - name: Build devcontainer image
         run: earthly +devcontainer-ci --GIT_REF_NAME="${{ github.ref_name }}" --GIT_SHA="${{ github.sha }}"
         env:

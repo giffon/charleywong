@@ -74,45 +74,52 @@ class Facebook {
             });
     }
 
-    static function updateMeta(author:String, gpgKey:String, repo:String, branch:String) {
-        var startTimestamp = Date.now().getTime() / 1000.0;
-        var lastUpdateTimestamps = new Map<String, Float>();
-        var entities = {
-            var entities = ServerMain.entityIndex.entities.array();
-            var random = [for (e in entities) e.id => Math.random()];
+    static function updateMeta(?author:String, ?gpgKey:String, ?repo:String, ?branch:String) {
+        final startTimestamp = Date.now().getTime() / 1000.0;
+        final lastUpdateTimestamps = new Map<String, Float>();
+        final entities = {
+            final entities = ServerMain.entityIndex.entities.array();
+            final random = [for (e in entities) e.id => Math.random()];
             entities.sort((a,b) -> {
-                var d = random[a.id] - random[b.id];
+                final d = random[a.id] - random[b.id];
                 d > 0 ? 1 : d < 0 ? -1 : 0;
             });
             entities;
         };
-        var fileOfEntity = [
+        final fileOfEntity = [
             for (file => entity in ServerMain.entityIndex.entities)
             entity.id => file
         ];
 
-        var userRegExp = ~/^(.+) <(.+)>$/;
-        if (!userRegExp.match(author)) {
-            throw "Unknown user format";
+        final git = if (author != null) {
+            final userRegExp = ~/^(.+) <(.+)>$/;
+            if (!userRegExp.match(author)) {
+                throw "Unknown user format";
+            }
+            new Git({
+                user: {
+                    name: userRegExp.matched(1),
+                    email: userRegExp.matched(2)
+                },
+                printCmd: true,
+                printOut: true,
+            });
+        } else {
+            new Git({
+                printCmd: true,
+                printOut: true,
+            });
         }
-        var git = new Git({
-            user: {
-                name: userRegExp.matched(1),
-                email: userRegExp.matched(2)
-            },
-            printCmd: true,
-            printOut: true,
-        });
 
         function getOldestFile() {
             for (i in 0...3) {
-                var entity = entities.pop();
+                final entity = entities.pop();
                 if (entity == null) break;
-                var file = fileOfEntity[entity.id];
+                final file = fileOfEntity[entity.id];
                 lastUpdateTimestamps[file] = git.lastUpdateTimestamp(file);
             }
 
-            var fileTimestamps = [
+            final fileTimestamps = [
                 for (file => t in lastUpdateTimestamps)
                 if (t < startTimestamp)
                 {
@@ -127,8 +134,8 @@ class Facebook {
         }
 
         function updateFile(file:String):Promise<Dynamic> {
-            var entity = ServerMain.entityIndex.entities[file];
-            var updates = [
+            final entity = ServerMain.entityIndex.entities[file];
+            final updates = [
                 for (p in entity.webpages)
                 switch (UrlExtractors.extractFbHomePage(new URL(p.url))) {
                     case null:
@@ -154,11 +161,11 @@ class Facebook {
         }
 
         function updateOldest() {
-            if (lastAppUsage != null && Math.max(Math.max(lastAppUsage.call_count, lastAppUsage.total_cputime), lastAppUsage.total_time) > 80) {
+            if (lastAppUsage != null && Math.max(Math.max(lastAppUsage.call_count, lastAppUsage.total_cputime), lastAppUsage.total_time) > 10) {
                 Sys.println('Reaching API limit\n' + Json.stringify(lastAppUsage, null, "  "));
                 return Promise.resolve(null);
             }
-            var oldest = getOldestFile();
+            final oldest = getOldestFile();
             if (oldest == null)
                 return Promise.resolve(null);
             else
@@ -167,24 +174,34 @@ class Facebook {
                     .catchError(err -> trace(err));
         }
 
-        updateOldest()
-            .then(_ -> {
-                if (git.hasChanges()) {
-                    git.commit("update fb meta", { gpgSign: gpgKey });
-                    git.rebase("origin/master");
-                    git.reset("origin/master", { mode: "soft" });
-                    git.commit("update fb meta", { gpgSign: gpgKey });
-                    git.push(repo, "HEAD:" + branch, { force: true });
-                }
-            })
-            .catchError(err -> {
-                Sys.println(Std.string(err));
-                Sys.exit(1);
-            });
+        if (author != null) {
+            updateOldest()
+                .then(_ -> {
+                    if (git.hasChanges()) {
+                        git.commit("update fb meta", { gpgSign: gpgKey });
+                        git.rebase("origin/master");
+                        git.reset("origin/master", { mode: "soft" });
+                        git.commit("update fb meta", { gpgSign: gpgKey });
+                        git.push(repo, "HEAD:" + branch, { force: true });
+                    }
+                })
+                .catchError(err -> {
+                    Sys.println(Std.string(err));
+                    Sys.exit(1);
+                });
+        } else {
+            updateOldest()
+                .catchError(err -> {
+                    Sys.println(Std.string(err));
+                    Sys.exit(1);
+                });
+        }
     }
 
     static function main():Void {
         switch (Sys.args()) {
+            case ["updateMeta"]:
+                updateMeta();
             case ["updateMeta", author, gpgKey, repo, branch]:
                 updateMeta(author, gpgKey, repo, branch);
             case _:

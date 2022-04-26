@@ -151,4 +151,38 @@ class Git {
             return false;
         }
     }
+
+    static function main():Void {
+        switch (Sys.args()) {
+            case ["rebase-commit-push", author, gpgKey, repo, branch]:
+                final git = if (author != null) {
+                    final userRegExp = ~/^(.+) <(.+)>$/;
+                    if (!userRegExp.match(author)) {
+                        throw "Unknown user format";
+                    }
+                    new Git({
+                        user: {
+                            name: userRegExp.matched(1),
+                            email: userRegExp.matched(2)
+                        },
+                        printCmd: true,
+                        printOut: true,
+                    });
+                } else {
+                    new Git({
+                        printCmd: true,
+                        printOut: true,
+                    });
+                }
+                if (git.hasChanges()) {
+                    git.commit("update fb meta", { gpgSign: gpgKey });
+                    git.rebase("origin/master");
+                    git.reset("origin/master", { mode: "soft" });
+                    git.commit("update fb meta", { gpgSign: gpgKey });
+                    git.push(repo, "HEAD:" + branch, { force: true });
+                }
+            case _:
+                throw "Unknown args";
+        }
+    }
 }

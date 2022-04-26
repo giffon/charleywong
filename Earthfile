@@ -549,5 +549,25 @@ syncFacebook.js:
     COPY +dclookup/* .
     COPY .haxerc syncFacebook.hxml package.json yarn.lock .
     RUN haxe syncFacebook.hxml
-    SAVE ARTIFACT syncFacebook.js AS LOCAL syncFacebook.js
+    SAVE ARTIFACT syncFacebook.js
 
+syncFacebook:
+    FROM +devcontainer
+    COPY .git .git
+    RUN git checkout -- . && rm -r data
+    COPY data data
+    COPY +syncFacebook.js/* .
+    COPY +dclookup/* .
+    RUN \
+        --mount=type=secret,id=+secrets/.envrc,target=.envrc \
+        . ./.envrc \
+        && node syncFacebook.js updateMeta
+    SAVE ARTIFACT data/entity/*.json AS LOCAL ./data/entity/
+
+git.js:
+    FROM +devcontainer
+    COPY haxe_libraries haxe_libraries
+    COPY src src
+    COPY .haxerc .
+    RUN haxe --class-path src --library hxnodejs --main charleywong.Git --dce full --js git.js
+    SAVE ARTIFACT git.js AS LOCAL git.js

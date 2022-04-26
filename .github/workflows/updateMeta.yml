@@ -5,27 +5,23 @@ on:
 jobs:
   job:
     runs-on: ubuntu-latest
-    container: ghcr.io/giffon/charleywong_devcontainer_workspace:master
     steps:
       - uses: actions/checkout@v3
         with:
           submodules: true
           ref: meta
-      - name: Copy libs from /workspace
-        run: |
-          cp -r /workspace/node_modules .
-          cp -r /workspace/lib/dts2hx lib/
-      - run: yarn --ignore-optional
-      - name: Compile
-        run: haxe syncFacebook.hxml
+      - uses: earthly/actions-setup@v1
+        with:
+          version: "v0.6.13"
       - name: Import gpg key
         run: |
           echo "${#CBCA760DC1170A9B}"
           echo "$CBCA760DC1170A9B" | gpg --import
         env:
           CBCA760DC1170A9B: ${{ secrets.CBCA760DC1170A9B }}
-      - name: Run
-        run: node syncFacebook.js updateMeta "Charley Wong's bot <charleywong-bot@giffon.io>" "CBCA760DC1170A9B!" "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/giffon/charleywong.git" meta
+      - run: earthly +syncFacebook
+      - run: earthly +git.js
+      - run: node git.js rebase-commit-push "Charley Wong's bot <charleywong-bot@giffon.io>" "CBCA760DC1170A9B!" "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/giffon/charleywong.git" meta
         env:
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
