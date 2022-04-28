@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.ammhk.com"
+      "url": "https://www.ammhk.com"
     },
     {
       "meta": {
@@ -38,8 +38,9 @@
     {
       "url": "https://www.instagram.com/autominimatecaraccessories/",
       "meta": {
+        "website": "http://ammhk.com/",
         "name": "AutoMiniMate (Car Accessories)",
-        "about": "whatsapps 61 909 686 / address :"
+        "about": "whatsapps 61 909 686"
       }
     }
   ],
@@ -55,17 +56,18 @@
     }
   ],
   "tags": [
-    "automobile"
+    "automobile",
+    "shop"
   ],
   "places": [
     {
       "address": {
-        "zh": "觀塘 開源道 55 號 開聯工業中心 A 座 10樓 1004 室"
+        "zh": "觀塘巧明街117號港貿中心17樓6室"
       },
       "googleMapsPlaceId": "ChIJhQEeviABBDQRe5eH7QWgpHw",
       "coordinates": {
-        "lat": 22.3097738,
-        "lng": 114.2237094
+        "lat": 22.3116363,
+        "lng": 114.2245537
       },
       "area": {
         "zh": "觀塘區"
