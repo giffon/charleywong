@@ -1,7 +1,8 @@
 {
   "id": "casual.ace",
   "name": {
-    "en": "Casual Ace Learning Centre"
+    "en": "Casual Ace Learning Centre",
+    "zh": "智研教育中心"
   },
   "webpages": [
     {
@@ -34,8 +35,18 @@
     {
       "url": "https://www.instagram.com/casual.ace/",
       "meta": {
+        "website": "http://youtube.com/c/casualace/",
         "name": "Casual Ace Learning Centre",
-        "about": "功課班/小學專科\n初中/高中\n歡迎查詢35637970\n2020-2021 重點計劃\n1. Homework Fighter\n2. Exam Fighter\n香港仔 hotline 5669 3000\n海怡半島 hotline 9139 9545\n利東 hotline 2812 6009"
+        "about": "中小學功課班/專科班，歡迎查詢\n香港仔總校 ☎️5669-3000\n海怡分校 ☎️9139-9545\n利東分校 ☎️2812-6009\n西營盤教學點 ☎️5614-7927\n即刻免費訂閱埋我地YouTube Channel,\n超過4️⃣0️⃣0️⃣條實用升中及教學片"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCGI3eCSIm_41I0YTssXGbqg",
+      "meta": {
+        "id": "UCGI3eCSIm_41I0YTssXGbqg",
+        "location": "Hong Kong",
+        "name": "Casual Ace",
+        "about": "升中教路\n升中諮詢\n"
       }
     }
   ],
@@ -78,7 +89,7 @@
   "places": [
     {
       "address": {
-        "zh": "香港仔大道216-218 號永發商業大廈2樓全層"
+        "zh": "香港仔大道216-218 號永發商業大廈2樓全層 (總校)"
       },
       "googleMapsPlaceId": "ChIJi4DjWAMABDQRngFsunTdYoU",
       "coordinates": {
@@ -91,7 +102,7 @@
     },
     {
       "address": {
-        "zh": "海怡東商場3樓390A 室"
+        "zh": "海怡東商場3樓390A 室 (分校)"
       },
       "googleMapsPlaceId": "ChIJ93wSOKqqBjQR0sH5yS93N2k",
       "coordinates": {
@@ -104,15 +115,41 @@
     },
     {
       "address": {
-        "zh": "利東商場一期3 樓308號鋪"
+        "zh": "利東商場3樓3C 號鋪 (分校)"
       },
-      "googleMapsPlaceId": "ChIJR7YfKqaqBjQR5MO4_S2_ilU",
+      "googleMapsPlaceId": "ChIJ6wRJZ5KrBjQRFK8cjYYVDYc",
       "coordinates": {
-        "lat": 22.2409897,
-        "lng": 114.1559524
+        "lat": 22.2414965,
+        "lng": 114.1552327
       },
       "area": {
         "zh": "南區"
+      }
+    },
+    {
+      "address": {
+        "zh": "德輔道西243-245號兆安大廈2樓全層 (教學點)"
+      },
+      "googleMapsPlaceId": "ChIJ8SXf-ID_AzQRadm6OPuZDwc",
+      "coordinates": {
+        "lat": 22.28814299999999,
+        "lng": 114.141407
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "筲箕灣道50-54號陽安大廈1樓A-C室 (教學點)"
+      },
+      "googleMapsPlaceId": "ChIJE-IhHHQBBDQR1k_uTkeeGXo",
+      "coordinates": {
+        "lat": 22.2831381,
+        "lng": 114.2208443
+      },
+      "area": {
+        "zh": "東區"
       }
     }
   ],
