@@ -809,12 +809,12 @@ class ServerMain {
     }
 
     static function initServer() {
-        app.register(require('fastify-cors'), { 
+        app.register(require('@fastify/cors'), { 
             origin: "*",
             allowedHeaders: "Origin, X-Requested-With, Content-Type, Accept",
         });
 
-        app.register(require('fastify-static'), {
+        app.register(require('@fastify/static'), {
             root: sys.FileSystem.absolutePath(StaticResource.resourcesDir),
             wildcard: false,
         });
