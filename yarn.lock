@@ -1101,10 +1101,10 @@
   resolved "https://registry.yarnpkg.com/@fastify/error/-/error-2.0.0.tgz#a9f94af56eb934f0ab1ce4ef9f0ced6ebf2319dc"
   integrity sha512-wI3fpfDT0t7p8E6dA2eTECzzOd+bZsZCJ2Hcv+Onn2b7ZwK3RwD27uW2QDaMtQhAfWQQP+WNK7nKf0twLsBf9w==
 
-"@fastify/static@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@fastify/static/-/static-5.0.0.tgz#7aa2527148da067f2a550ac4a585c0f6f0a188ec"
-  integrity sha512-GGltJkO0idXa7yCZ0PfdTZ6qokWDX/vigCvmRpjOU2A3jc93c9p+oHDvHmwHK60hwWoBEGqHjGofVyn3H1CjZg==
+"@fastify/static@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@fastify/static/-/static-5.0.1.tgz#6bb6b94c2b51d9fafb06261b79ed5da5038dd5a1"
+  integrity sha512-0lReUKWVOt2i5i1KoBLYsbcMBthq5eiEoUQrFceoXJkCv+OyA0iLl6hGxcmnMRxLsl/Netrzt1NNOpg4muCcuw==
   dependencies:
     content-disposition "^0.5.3"
     encoding-negotiator "^2.0.1"
