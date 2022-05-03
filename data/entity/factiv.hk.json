@@ -25,6 +25,14 @@
         ],
         "website": "http://www.factiv.hk/"
       }
+    },
+    {
+      "url": "https://www.instagram.com/factiv.hk/",
+      "meta": {
+        "website": "http://factiv.hk/",
+        "name": "factiv",
+        "about": "香港科研護膚品牌\nNO FAIRY TALES.\n‎\n實體體驗店\n⎵ 旺角朗豪坊L5 18號舖\n⎵ 12-9 PM (Mon - Thur)\n⎵ 12-10 PM (Fri - Sun)"
+      }
     }
   ],
   "posts": [
@@ -65,6 +73,25 @@
     {
       "type": "shop",
       "id": 247
+    },
+    {
+      "type": "shop",
+      "id": 7049
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角朗豪坊L5 18號舖"
+      },
+      "googleMapsPlaceId": "ChIJ7x4GHU4JBDQRK59bKoCr7Gs",
+      "coordinates": {
+        "lat": 22.3179721,
+        "lng": 114.16872
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
