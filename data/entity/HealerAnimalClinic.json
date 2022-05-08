@@ -1,0 +1,64 @@
+{
+  "id": "HealerAnimalClinic",
+  "name": {
+    "en": "Healer Animal Clinic",
+    "zh": "希樂動物診所"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/173834952760950/",
+      "meta": {
+        "id": "173834952760950",
+        "username": "HealerAnimalClinic",
+        "name": "Healer Animal Clinic 希樂動物診所",
+        "about": "Healer Animal Clinic : Dr. Lien Yuan Pei  希樂動物診所 : 連元培醫生",
+        "category_list": [
+          {
+            "id": "162068413843305",
+            "name": "Veterinarian"
+          }
+        ],
+        "emails": [
+          "healer_vet@yahoo.com.hk"
+        ],
+        "single_line_address": "G/F, No. 17, Apliu Street, Sham Shui Po (行車請由白楊街轉入鴨寮街), 九龍"
+      }
+    },
+    {
+      "url": "https://mewe.com/i/healeranimalclinic"
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/HealerAnimalClinic/posts/1784148161729613",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "animal",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, No. 17, Apliu Street, Sham Shui Po"
+      },
+      "googleMapsPlaceId": "ChIJuQbawrUABDQRmyLKo2uTddg",
+      "coordinates": {
+        "lat": 22.3269145,
+        "lng": 114.1660935
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 2583
+    }
+  ]
+}
