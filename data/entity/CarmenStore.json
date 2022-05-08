@@ -1,0 +1,61 @@
+{
+  "id": "CarmenStore",
+  "name": {
+    "zh": "嘉汶",
+    "en": "Carmen Store"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/101917588230683/",
+      "meta": {
+        "id": "101917588230683",
+        "name": "嘉汶 Carmen Store",
+        "about": "營業時間星期一至五13.00_21.00\n星期六：日公衆假期12.00_21.00\n沙田大圍上徑口16號地下",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
+        ]
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=321302346292205&id=101917588230683",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=322573062831800&id=101917588230683",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "沙田大圍上徑口16號地下"
+      },
+      "googleMapsPlaceId": "ChIJofo2_REHBDQRxlSyUPYrTNs",
+      "coordinates": {
+        "lat": 22.363936,
+        "lng": 114.174372
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 7045
+    }
+  ]
+}
