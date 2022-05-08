@@ -10,21 +10,21 @@
         "id": "1424331954277444",
         "username": "doublehappinessnoodle",
         "name": "旺囍",
-        "about": "香港傳統味道車仔麵~",
+        "about": "我地係旺囍",
         "category_list": [
           {
             "id": "1848365298810025",
             "name": "Noodle House"
           }
         ],
-        "single_line_address": "九龍旺角豉油街11-15號, 香港，香港"
+        "single_line_address": "九龍土瓜灣北帝街12-14號北帝大廈地下6B鋪 旺囍 雞太郎, 香港"
       }
     },
     {
       "url": "https://www.instagram.com/double_happiness_cart_noodle/",
       "meta": {
-        "name": "旺囍車仔麵",
-        "about": "我地係旺囍車仔麵"
+        "name": "旺囍 雞太郎",
+        "about": "旺囍 雞"
       }
     }
   ],
@@ -54,15 +54,15 @@
   "places": [
     {
       "address": {
-        "zh": "九龍旺角豉油街11-15號"
+        "zh": "土瓜灣北帝街12-14號北帝大廈地下6B鋪"
       },
       "googleMapsPlaceId": "ChIJw5yWbMcABDQRG7ZVOjmQF8M",
       "coordinates": {
-        "lat": 22.3165127,
-        "lng": 114.1690881
+        "lat": 22.32000129999999,
+        "lng": 114.1879252
       },
       "area": {
-        "zh": "油尖旺區"
+        "zh": "九龍城區"
       }
     }
   ],
@@ -70,6 +70,10 @@
     {
       "type": "eat",
       "id": 1525
+    },
+    {
+      "type": "eat",
+      "id": 6720
     }
   ]
 }
