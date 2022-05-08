@@ -1,0 +1,92 @@
+{
+  "id": "HEIMA",
+  "name": {
+    "en": "HEIMA",
+    "zh": "稀物角落"
+  },
+  "webpages": [
+    {
+      "url": "https://www.heima.com.hk"
+    },
+    {
+      "url": "https://www.facebook.com/108449701324073/",
+      "meta": {
+        "id": "108449701324073",
+        "name": "HEIMA 稀物角落",
+        "about": "「搜羅世界各地精品」\n[ Heima : 冰島語AT HOME] 🎶“ He-Ma”\n把在家的悠閑感帶到生活的每個角落\n⏳12:00 -20:00 |mon-sun\n📍Heima_深水埗小店 (shop)\n📍Heima_別館觀塘(office & shop)",
+        "category_list": [
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          },
+          {
+            "id": "288846958171402",
+            "name": "Boutique Store"
+          }
+        ],
+        "emails": [
+          "info@heima.com.hk"
+        ],
+        "single_line_address": "Shop 6 G/F, 128-136 Nam Cheong Street, Sham Shui Po, 香港",
+        "website": "https://www.heima.com.hk"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/heima1996/",
+      "meta": {
+        "website": "https://www.heima.com.hk/",
+        "name": "稀物角落 Heima",
+        "about": "[ Heima : 冰島語AT HOME] 🎶“ He-Ma”\n把在家的悠閑感帶到生活的每個角落\n⏳12:00 -20:00 | mon-sun\n📍Heima_深水埗小店 (shop)\n📍Heima_別館觀塘(office & shop)\n▼SHOP🛒ONLINE STORE▼ INFO"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=190761113092931&id=108449701324073",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘興業街14號永興工業大廈905室"
+      },
+      "googleMapsPlaceId": "ChIJd0b0hb8BBDQR1Bm83OZKuzU",
+      "coordinates": {
+        "lat": 22.3091309,
+        "lng": 114.2244681
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "深水埗南昌街128號6號地舖"
+      },
+      "googleMapsPlaceId": "ChIJkzv83KMBBDQRFKQJEP4ftYA",
+      "coordinates": {
+        "lat": 22.3289931,
+        "lng": 114.1633444
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 5245
+    },
+    {
+      "type": "shop",
+      "id": 6829
+    }
+  ]
+}
