@@ -1,9 +1,13 @@
 {
   "id": "chou_leather",
   "name": {
-    "en": "Chou_leather"
+    "en": "Chou_leather",
+    "zh": "小故革物"
   },
   "webpages": [
+    {
+      "url": "https://chouleather.wixsite.com/info"
+    },
     {
       "url": "https://www.facebook.com/1803019736428135/",
       "meta": {
@@ -26,8 +30,9 @@
     {
       "url": "https://www.instagram.com/chou_leather/",
       "meta": {
+        "website": "https://chouleather.wixsite.com/info",
         "name": "CHOU_LEATHER",
-        "about": "All handcraft from Hong Kong,based in HK.\n“Forever and ever”\nWorkshop - Crafts￼ - Wedding gift\nContact us for more information or order.\n☎️: 54074533"
+        "about": "All handcraft from Hong Kong,based in HK.\n“Forever and ever”\nWorkshop - Crafts￼ - Souvenir\nContact us for more information or order.\n☎️: 54074533"
       }
     }
   ],
@@ -54,6 +59,21 @@
     {
       "type": "shop",
       "id": 6008
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Rm15, 7/F, Block B,Alexandra Industrial Building, Wing Hong Street27, Lai Chi Kok"
+      },
+      "googleMapsPlaceId": "ChIJJUqBMtwHBDQRnBrQHBqZf9w",
+      "coordinates": {
+        "lat": 22.338527,
+        "lng": 114.1461776
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ]
 }
