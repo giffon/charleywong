@@ -22,6 +22,13 @@
         "single_line_address": "hong kong 九龍"
       },
       "url": "https://www.facebook.com/lunexcellentphoto/"
+    },
+    {
+      "url": "https://www.instagram.com/lunexcellent/",
+      "meta": {
+        "name": "Excellent photo",
+        "about": "Uk Photography\nhttps://www.facebook.com/lunexcellentphoto"
+      }
     }
   ],
   "posts": [
@@ -32,5 +39,12 @@
   "tags": [
     "photographer",
     "wedding"
+  ],
+  "places": [
+    {
+      "area": {
+        "zh": "英國"
+      }
+    }
   ]
 }
