@@ -38,8 +38,9 @@
     {
       "url": "https://www.instagram.com/cooking.helper/",
       "meta": {
+        "website": "https://forms.gle/UK4Tq3FRhEu54rWAA",
         "name": "煮飯好幫手🤚🏻",
-        "about": "「煮飯好幫手」創立於2020年，原為在疫情下無法外出晚飯的大眾市民，提供不同特色醬料湯包，讓原本少下廚的大家，更輕鬆在家煮食。"
+        "about": "「煮飯好幫手」創立於2020年，原為在疫情下無法外出晚飯的大眾市民，提供不同特色醬料湯包，讓原本少下廚的大家，更輕鬆在家煮食。\n馬來西亞特色新年年餅pre-order form:"
       }
     }
   ],
@@ -59,5 +60,20 @@
   ],
   "tags": [
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "62 Cheung Sha Wan Road, Sham Shui Po"
+      },
+      "googleMapsPlaceId": "ChIJcXjhHIEBBDQRol3ecoVhWU8",
+      "coordinates": {
+        "lat": 22.3282388,
+        "lng": 114.1659073
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
