@@ -29,8 +29,9 @@
     {
       "url": "https://www.instagram.com/food.daily.hk/",
       "meta": {
+        "website": "https://linktr.ee/food.daily.hk",
         "name": "日嚐時光 FOOD DAILY",
-        "about": "持有新鮮糧食牌｜牌照號碼：3663802091\n📍美孚店地址：香港九龍荔枝角美孚新邨百老匯街45-50號第三期平台153B舖\n⏰ 營業時間 ：10:00am-8:00pm\n📍海怡店地址：海怡半島東商場31G鋪\n⏰ 營業時間 : 12:00-8:00pm\n#優質食材 ｜#急凍食品 ｜"
+        "about": "#優質食材 ｜#香港製造｜#美孚｜#坑口\n持有新鮮糧食牌｜牌照號碼：3663802091\n📍美孚店地址：美孚新邨百老匯街45-50號第三期平台153B\n⏰ 營業時間 ：10:30am-7:30pm\n📍坑口店地址：坑口培成路8號南豐廣場一樓B3\n⏰ 營業時間 ：11:00am-8:00pm"
       }
     }
   ],
@@ -79,15 +80,15 @@
     },
     {
       "address": {
-        "zh": "海怡半島東商場31G鋪"
+        "zh": "新界將軍澳培成路8號南豐廣場一樓B3"
       },
-      "googleMapsPlaceId": "ChIJ93wSOKqqBjQR0sH5yS93N2k",
+      "googleMapsPlaceId": "ChIJuekgkbcDBDQRbvE_1YyI0F0",
       "coordinates": {
-        "lat": 22.2431756,
-        "lng": 114.1486164
+        "lat": 22.3147268,
+        "lng": 114.2640324
       },
       "area": {
-        "zh": "南區"
+        "zh": "西貢區"
       }
     }
   ],
@@ -99,6 +100,10 @@
     {
       "type": "shop",
       "id": 5474
+    },
+    {
+      "type": "shop",
+      "id": 7060
     }
   ]
 }
