@@ -30,7 +30,8 @@
     {
       "url": "https://www.instagram.com/route83taipo/",
       "meta": {
-        "name": "Route 83"
+        "name": "Route 83",
+        "about": "Coffee shop"
       }
     }
   ],
@@ -47,7 +48,7 @@
   "places": [
     {
       "address": {
-        "en": "G/F,No.83,kwong fuk road, Tai Po Old Market"
+        "zh": "大埔廣福道83號"
       },
       "googleMapsPlaceId": "ChIJQUlWUT8IBDQReZb7dA2NwGk",
       "coordinates": {
@@ -57,12 +58,29 @@
       "area": {
         "zh": "大埔區"
       }
+    },
+    {
+      "address": {
+        "zh": "粉嶺聯和墟馬適路1號逸峯廣場地下G25 A號舖"
+      },
+      "googleMapsPlaceId": "ChIJjw3GZGwJBDQR0pS6x-iIL5w",
+      "coordinates": {
+        "lat": 22.5013543,
+        "lng": 114.1467147
+      },
+      "area": {
+        "zh": "北區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 1406
+    },
+    {
+      "type": "eat",
+      "id": 6725
     }
   ]
 }
