@@ -1,0 +1,64 @@
+{
+  "id": "picturebookstore",
+  "name": {
+    "zh": "百好繪本士多"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1066369966785258/",
+      "meta": {
+        "id": "1066369966785258",
+        "username": "picturebookstore",
+        "name": "百好繪本士多",
+        "about": "百好繪本士多\n\n不賣汽水  賣故事 \n不賣香煙  賣人情\n\n交通資訊：https://goo.gl/forms/rUuDVF6IDUYtSNT93",
+        "category_list": [
+          {
+            "id": "152880021441864",
+            "name": "Community Organization"
+          }
+        ],
+        "single_line_address": "香港屯門藍地大街129號",
+        "website": "https://goo.gl/oPLfjj"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/picturebookstore/posts/2325095894245986",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/picturebookstore/posts/2333760663379509",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "book",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港屯門藍地大街129號"
+      },
+      "googleMapsPlaceId": "ChIJfYJjqe_6AzQRO5PNQqzURco",
+      "coordinates": {
+        "lat": 22.4182248,
+        "lng": 113.9867578
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 1797
+    }
+  ]
+}
