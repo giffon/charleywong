@@ -9,7 +9,7 @@
       "meta": {
         "id": "389864474994725",
         "name": "豪隍點心工房 - 觀塘",
-        "about": "觀塘總店,觀塘敬業街65-67號敬運工業大廈1樓A\n設有堂食,外賣自取,Deliveroo外賣送遞\n屯門分店,屯門建豐街4號悅品渡假酒店地下1號鋪\n只提供Deliveroo外賣送遞及外賣自取",
+        "about": "總店:觀塘敬業街65-67號敬運工業大廈1樓A\n分店:觀塘鴻圖道83號東瀛遊廣場地下b鋪\n戶戶送服務點 : 葵涌，長沙灣",
         "category_list": [
           {
             "id": "214976388519648",
@@ -20,7 +20,7 @@
             "name": "Diner"
           }
         ],
-        "single_line_address": "觀塘敬業街65-67號敬運工業大廈1樓A室, Kwun Tong, Hong Kong"
+        "single_line_address": "觀塘敬業街65-67號敬運工業大廈1樓A室, Hong Kong"
       }
     }
   ],
@@ -70,12 +70,29 @@
       "area": {
         "zh": "觀塘區"
       }
+    },
+    {
+      "address": {
+        "zh": "觀塘鴻圖道83號東瀛遊廣場地下b鋪"
+      },
+      "googleMapsPlaceId": "ChIJfQ7TVRUBBDQREPlnXtmwAwA",
+      "coordinates": {
+        "lat": 22.3082212,
+        "lng": 114.2255362
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 1198
+    },
+    {
+      "type": "eat",
+      "id": 6728
     }
   ]
 }

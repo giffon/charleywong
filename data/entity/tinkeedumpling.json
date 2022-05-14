@@ -27,7 +27,7 @@
     {
       "meta": {
         "name": "甜記餃子",
-        "about": "十一款餃子🥟香港製造\n——————————\n📍旺角通菜街鴻輝大廈2號鋪地下\n⏰早上十二至晚上九點半\n📞：852 54015347\n——————————\n📍長沙彎富華廣場19號鋪(青山道437號旁）\n⏰早上十一至晚上十時\n📞：852 63602640\n💡逢星期六休"
+        "about": "十 二 款 餃 子 🥟 香 港 製 造\n📍太子砵蘭街HQ地下C-D舖\n📞：46149740\n—————————\n📍旺角通菜街鴻輝大廈2號地鋪\n📞：54015347\n—————————\n📍長沙彎富華廣場19號鋪(青山道437號旁）\n📞：63602640\n💡逢星期六休"
       },
       "url": "https://www.instagram.com/tinkeedumplings/"
     }
@@ -51,6 +51,10 @@
     {
       "type": "eat",
       "id": 5563
+    },
+    {
+      "type": "eat",
+      "id": 6731
     }
   ],
   "places": [
@@ -71,13 +75,26 @@
       "address": {
         "zh": "長沙彎富華廣場19號鋪"
       },
-      "googleMapsPlaceId": "ChIJ34iwjVEHBDQRhNbtZ5Yz2RI",
+      "googleMapsPlaceId": "ChIJE38hgIMHBDQRmMdmK4uvdZI",
       "coordinates": {
-        "lat": 22.3398973,
-        "lng": 114.1541073
+        "lat": 22.3401252,
+        "lng": 114.1540291
       },
       "area": {
         "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "太子砵蘭街HQ地下C-D舖"
+      },
+      "googleMapsPlaceId": "ChIJW4AuzaoBBDQRCZcGO5Qh_Ek",
+      "coordinates": {
+        "lat": 22.3262079,
+        "lng": 114.1674155
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     }
   ]
