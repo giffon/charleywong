@@ -1,0 +1,60 @@
+{
+  "id": "SalonMomiji",
+  "name": {
+    "en": "SalonMomiji"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1690001541069718/",
+      "meta": {
+        "id": "1690001541069718",
+        "name": "SalonMomiji",
+        "category_list": [
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          },
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          }
+        ],
+        "single_line_address": "銅鑼灣利園山道19號, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/salon_momiji/",
+      "meta": {
+        "website": "https://api.whatsapp.com/send?phone=85252882340",
+        "name": "香港日系髮型屋/全日本品牌產品/外國人風/小顏カット",
+        "about": "💈SalonMomiji\nOPEN 11:30~20:00\n⬇︎銅鑼灣利園山道19號1樓⬇︎\n我們團隊\n@momiji_nick\n@momiji_jimmy\n@momiji_felix\n@momiji_rico\n@momiji_kila\n@momiji_michael\nNo.27892770"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "salon",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣利園山道19號"
+      },
+      "googleMapsPlaceId": "ChIJNeBXSoYBBDQRdfCSJJIeJUU",
+      "coordinates": {
+        "lat": 22.2794264,
+        "lng": 114.1832627
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 1764
+    }
+  ]
+}
