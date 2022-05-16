@@ -1,0 +1,73 @@
+{
+  "id": "PetsStyleF.S.Company",
+  "name": {
+    "en": "Pet's Style F.S. Company"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/400163523464430/",
+      "meta": {
+        "id": "400163523464430",
+        "name": "Pet's Style F.S. Company",
+        "about": "星級寵物美容服務，優質天然寵物食品及用品",
+        "category_list": [
+          {
+            "id": "163003840417682",
+            "name": "Pet Groomer"
+          },
+          {
+            "id": "188573091164316",
+            "name": "Pet Store"
+          }
+        ],
+        "single_line_address": "將軍澳毓雅里9號慧安商場A16舖, Tseung Kwan O"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/pets_style_fs_co/",
+      "meta": {
+        "name": "Pet's style (FS) Co.花灑屋寵物造型專門店",
+        "about": "✂️✂️專業寵物美容\n👕👕優質寵物用品\n🥘🥘天然寵物食品\n☎️☎️電話:31946558"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/400163523464430/photos/a.400340750113374/1476189675861804",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/400163523464430/photos/a.400340750113374/1639246092889494",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "animal",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "將軍澳毓雅里9號慧安商場A16舖"
+      },
+      "googleMapsPlaceId": "ChIJA6BC1AgEBDQRSmY_ZYu6GWo",
+      "coordinates": {
+        "lat": 22.3242052,
+        "lng": 114.2541338
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 1699
+    }
+  ]
+}
