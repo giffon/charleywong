@@ -63,6 +63,31 @@ Data is stored as JSON files in the [data](data) directory.
   // see "src/charleywong/Tag.hx" for possible values
   "tags": [
     "shop"
+  ],
+
+  // physical locations, optional
+  "places": [
+    {
+      "address": {
+        "en": "Hong Kong"
+      },
+
+      // https://developers.google.com/maps/documentation/javascript/examples/places-placeid-geocoder
+      "googleMapsPlaceId": "ChIJD5gyo-3iAzQRfMnq27qzivA",
+
+      // auto-filled by our import tool
+      "coordinates": {
+        "lat": 22.28017,
+        "lng": 114.23015
+      },
+
+      // rough area
+      // for HK addresses, one of the 18 districts
+      // for others, the country
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
 ```
