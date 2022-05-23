@@ -39,7 +39,7 @@
       "url": "https://www.instagram.com/mansion_hkg/",
       "meta": {
         "name": "Mansion G",
-        "about": "MG 網上時鐘酒店 🥂\n請抱緊壓迫裡的你的我的網絡緣份 💌\n由MG小編 Jen爸爸桑 💁🏻‍♂️ @jen_son90 繼續和你吹\nMG粉！我地喺呢度重聚囉 👩🏻‍🚀👩🏻‍💼👨🏻‍💻"
+        "about": "MG 羅曼美元宇宙酒店 🥂\n#請抱緊壓迫裡的你的我的網絡緣份\n由MG小編 Jen爸爸桑 💁🏻‍♂️ @jen_son90 繼續和你吹\nMG粉！我地喺呢度重聚囉 👩🏻‍🚀👩🏻‍💼👨🏻‍💻"
       }
     }
   ],
@@ -75,12 +75,28 @@
   ],
   "tags": [
     "adult",
-    "shop"
+    "shop",
+    "closed"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 57
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍尖沙咀彌敦道83-97號華源大廈4樓A1室"
+      },
+      "googleMapsPlaceId": "ChIJ61KAjO0ABDQRLHsPVfYxIQs",
+      "coordinates": {
+        "lat": 22.29771869999999,
+        "lng": 114.1718214
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
