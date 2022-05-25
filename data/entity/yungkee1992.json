@@ -26,8 +26,9 @@
     {
       "url": "https://www.instagram.com/yungkee1992/",
       "meta": {
-        "name": "榕基滷水專門店🦆",
-        "about": "- Since 1992 -\n定位年輕嘅老字號滷水店👫\n電話：6765 1145\n地址：大埔廣福道103號C舖"
+        "website": "https://www.facebook.com/yungkee1992/",
+        "name": "榕基滷水專門店🦢",
+        "about": "- Since 1992 -\n定位年輕嘅老字號滷水店👫\n電話：6765 1145\n大埔地址：大埔廣福道103號C舖"
       }
     }
   ],
@@ -69,12 +70,12 @@
   "places": [
     {
       "address": {
-        "zh": "大埔廣福道103號C舖"
+        "zh": "大埔廣福道97-99號"
       },
-      "googleMapsPlaceId": "ChIJbdiLqUAIBDQRdfWqDWUv9IQ",
+      "googleMapsPlaceId": "EiI5NyBLd29uZyBGdWsgUmQsIFRhaSBQbywgSG9uZyBLb25nIjASLgoUChIJzXIuVj8IBDQRcnVyWY83M28QYSoUChIJW-1IqjgIBDQRUWWIY-y8qvE",
       "coordinates": {
-        "lat": 22.448416,
-        "lng": 114.1678318
+        "lat": 22.4483635,
+        "lng": 114.1676312
       },
       "area": {
         "zh": "大埔區"
@@ -91,6 +92,19 @@
       },
       "area": {
         "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "紅磡德民街36號地下E1號舖"
+      },
+      "googleMapsPlaceId": "ChIJVxpMF50BBDQRoJjV8AUs9rU",
+      "coordinates": {
+        "lat": 22.3057704,
+        "lng": 114.1879144
+      },
+      "area": {
+        "zh": "九龍城區"
       }
     }
   ],
