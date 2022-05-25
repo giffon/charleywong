@@ -1,9 +1,12 @@
 {
   "id": "pureloungehk",
   "name": {
-    "en": "Pure Lounge Make Up"
+    "en": "Pure Lounge HK"
   },
   "webpages": [
+    {
+      "url": "https://www.pureloungehk.com"
+    },
     {
       "meta": {
         "id": "562342547150527",
@@ -27,6 +30,13 @@
         "website": "www.pureloungehk.com"
       },
       "url": "https://www.facebook.com/pureloungehk/"
+    },
+    {
+      "url": "https://www.instagram.com/pureloungehk/",
+      "meta": {
+        "name": "P U R E L O U N G E · H K",
+        "about": "# BEAUTY is in the Air #\n#化妝 #髮型 #半永久 #角蛋白\n妝相 ✨ @suricheungmua / Highlight\n只限預約\n.\n📮 DM ︱ pureloungehk@gmail.com"
+      }
     }
   ],
   "posts": [
@@ -38,5 +48,20 @@
     "makeup",
     "artist",
     "wedding"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "太子花園街248號"
+      },
+      "googleMapsPlaceId": "ChIJI0AmJsoABDQRVBNihuYMjqo",
+      "coordinates": {
+        "lat": 22.3259012,
+        "lng": 114.1699166
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
