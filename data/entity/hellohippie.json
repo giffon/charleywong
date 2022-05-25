@@ -1,9 +1,13 @@
 {
   "id": "hellohippie",
   "name": {
-    "en": "Hello Hippie \"I am a Vintage weirdo\""
+    "en": "Hello Hippie",
+    "zh": "你好嬉皮"
   },
   "webpages": [
+    {
+      "url": "https://www.hellohippie.net"
+    },
     {
       "meta": {
         "id": "196474460432012",
@@ -30,27 +34,45 @@
     },
     {
       "meta": {
-        "about": "HELLO HIPPIE ||Since 2014\nWe are vintage weirdo\n🌈實體店: 尖沙咀星光行誠品生活2/F\n（兒童館旁）10-10pm\nWtsapp| +852 67237773\nFB| hellohippie\n微信| hellohippie\n🏠ONLINE SHOP👇🏻"
+        "website": "https://www.hellohippie.net/",
+        "name": "✿HelloHippie✿REMAKE/古著/日韓選物",
+        "about": "𝐇𝐄𝐋𝐋𝐎 𝐇𝐈𝐏𝐏𝐈𝐄｜𝐄𝐒𝐓.𝟐𝟎𝟏𝟒\n𝚅𝚒𝚗𝚝𝚊𝚐𝚎 & 𝚂𝚎𝚕𝚎𝚌𝚝 𝚂𝚝𝚘𝚛𝚎\n✿ 葵涌葵豐街福業大廈19樓1905室\n（🎈葵芳地鐵站C出口 *行人隧道往工業區方向）\n✿ 門市營業時間：2-8 pm Daily\n✿ www.hellohippie.net\n✿ ShipWorldwide"
       },
       "url": "https://www.instagram.com/hellohellohippie/"
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/hellohippie/photos/a.665696683509785/2608870549192379"
+      "url": "https://www.facebook.com/hellohippie/photos/a.665791163500337/2594073390672095"
     },
     {
-      "url": "https://www.facebook.com/hellohippie/photos/a.665791163500337/2594073390672095"
+      "url": "https://www.facebook.com/hellohippie/photos/a.665696683509785/2608870549192379"
     }
   ],
   "tags": [
     "clothing",
-    "accessories"
+    "accessories",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 1504
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵涌葵豐街53號福業大廈19樓1905室"
+      },
+      "googleMapsPlaceId": "ChIJLy_ZrpL5AzQRhb4etRAMjOs",
+      "coordinates": {
+        "lat": 22.3554713,
+        "lng": 114.1260969
+      },
+      "area": {
+        "zh": "葵青區"
+      }
     }
   ]
 }
