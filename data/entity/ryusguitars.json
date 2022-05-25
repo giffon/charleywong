@@ -6,10 +6,15 @@
   },
   "webpages": [
     {
-      "url": "http://www.ryusguitars.com"
+      "url": "https://www.ryusguitars.com.hk"
     },
     {
-      "url": "https://www.instagram.com/ryusguitars/"
+      "url": "https://www.instagram.com/ryusguitars/",
+      "meta": {
+        "website": "https://www.facebook.com/ryusguitars/",
+        "name": "Ryu's Guitars 龍.結他",
+        "about": "🇯🇵日系手工結他專門店🇯🇵\n專營日系手工訂製結他，優質嚴選中古結他，各類相關產品，代購各國結他產品及電結他保養維修改裝\nWhatsapp預約：852-55617318\n官方網店：www.ryusguitars.com.hk/shop-1\n電郵查詢：ryusguitars@gmail.com"
+      }
     },
     {
       "meta": {
@@ -30,6 +35,17 @@
         "website": "www.ryusguitars.com.hk"
       },
       "url": "https://www.facebook.com/ryusguitars/"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCSJp6dMhoZcqdW4VAZMnLRQ",
+      "meta": {
+        "id": "UCSJp6dMhoZcqdW4VAZMnLRQ",
+        "name": "Ryu's Guitars",
+        "about": ""
+      }
+    },
+    {
+      "url": "https://twitter.com/ryusguitars"
     }
   ],
   "posts": [
