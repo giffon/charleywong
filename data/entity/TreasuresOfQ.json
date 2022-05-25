@@ -1,9 +1,12 @@
 {
   "id": "TreasuresOfQ",
   "name": {
-    "en": "Lampwork Art Store Treasures Of Q"
+    "en": "Treasures Of Q"
   },
   "webpages": [
+    {
+      "url": "https://treasuresofq.com"
+    },
     {
       "meta": {
         "id": "1375679075856985",
@@ -35,6 +38,7 @@
     {
       "url": "https://www.instagram.com/treasuresofq/",
       "meta": {
+        "website": "http://www.facebook.com/treasuresofq",
         "name": "treasuresofq"
       }
     }
@@ -48,21 +52,23 @@
     }
   ],
   "tags": [
+    "handcraft",
     "artist",
-    "accessories"
+    "accessories",
+    "shop"
   ],
   "places": [
     {
       "address": {
-        "zh": "大連排道144號金豐工業大廈2座17樓T室"
+        "zh": "向上南路一段188號"
       },
-      "googleMapsPlaceId": "ChIJaT9QiPn5AzQR3NfxPyFfbUs",
+      "googleMapsPlaceId": "ChIJdSvQdSI9aTQRkzlw9OARgyU",
       "coordinates": {
-        "lat": 22.3585137,
-        "lng": 114.1317195
+        "lat": 24.1450709,
+        "lng": 120.6524409
       },
       "area": {
-        "zh": "葵青區"
+        "zh": "臺灣"
       }
     }
   ],
