@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.meowmeows.com.hk"
+    },
+    {
       "url": "https://www.facebook.com/meowmeows/",
       "meta": {
         "id": "102482648266785",
@@ -26,8 +29,9 @@
     {
       "url": "https://www.instagram.com/meowmeowspet/",
       "meta": {
+        "website": "https://www.meowmeows.com.hk/",
         "name": "MeowMeow",
-        "about": "MeowMeow寵物用品店\n主打貓🐱狗🐶寵物用品，乾/濕糧，寵物零食等⋯\n地址：大埔廣場2樓33街27號鋪\n歡迎查詢🤗🤗"
+        "about": "MeowMeow寵物店。貓🐱狗🐶糧~零食用品～\n.\n貓店長iG: @meowmeow_shopmanager\n.\n地址：大埔靖遠街45號地鋪\n（林村小巴總站/大埔墟三角公園附近）"
       }
     }
   ],
@@ -64,12 +68,12 @@
   "places": [
     {
       "address": {
-        "zh": "新界大埔安泰路1號大埔廣場2樓33街27號鋪"
+        "zh": "大埔靖遠街45號地鋪"
       },
-      "googleMapsPlaceId": "ChIJE6t3zEcIBDQRkNUH-YsXl5s",
+      "googleMapsPlaceId": "ChIJa_XKjrcJBDQR6CVZv919Se8",
       "coordinates": {
-        "lat": 22.452909,
-        "lng": 114.170445
+        "lat": 22.4491603,
+        "lng": 114.1649408
       },
       "area": {
         "zh": "大埔區"
