@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "https://2nation.store"
+    },
+    {
       "url": "https://www.facebook.com/2NATION/",
       "meta": {
         "id": "200035963379321",
@@ -68,21 +71,7 @@
     "clothing",
     "shop"
   ],
-  "places": [
-    {
-      "address": {
-        "zh": "紅磡廣場地下G66舖"
-      },
-      "googleMapsPlaceId": "ChIJF_bA594ABDQRjYUqyfZ2NMU",
-      "coordinates": {
-        "lat": 22.31025439999999,
-        "lng": 114.1877826
-      },
-      "area": {
-        "zh": "九龍城區"
-      }
-    }
-  ],
+  "places": [],
   "yellowBlueMapIds": [
     {
       "type": "shop",
