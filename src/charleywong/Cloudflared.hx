@@ -1,7 +1,7 @@
 package charleywong;
 
 import js.lib.Promise;
-import node_fetch.Fetch.call as fetch;
+import CrossFetch.fetch;
 
 class Cloudflared {
     static public function getHostname(metricsUrl:String):Promise<String> {

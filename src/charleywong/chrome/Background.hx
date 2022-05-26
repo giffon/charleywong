@@ -2,7 +2,7 @@ package charleywong.chrome;
 
 import js.html.AbortController;
 import js.html.URL;
-import node_fetch.Fetch.call as fetch;
+import CrossFetch.fetch;
 import global.chrome.tabs.Tab;
 import haxe.*;
 import haxe.io.Path;

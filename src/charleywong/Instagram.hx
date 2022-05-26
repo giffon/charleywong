@@ -1,6 +1,7 @@
 package charleywong;
 
 import js.lib.Promise;
+import CrossFetch.fetch;
 
 typedef InstagramOEmbedResponse = {
     version:String,
@@ -22,7 +23,7 @@ class Instagram {
             access_token: Facebook.accessToken,
             omitscript: true,
         });
-        return node_fetch.Fetch.call('https://graph.facebook.com/v8.0/instagram_oembed?${query}')
+        return fetch('https://graph.facebook.com/v8.0/instagram_oembed?${query}')
             .then(r -> {
                 if (r.ok)
                     r.json();

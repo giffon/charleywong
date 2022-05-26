@@ -8,6 +8,7 @@ using StringTools;
 import js.lib.Promise;
 import js.html.MetaElement;
 import js.npm.jsdom.*;
+import CrossFetch.fetch;
 #end
 
 class Utils {
@@ -26,7 +27,7 @@ class Utils {
         og:Array<{property:String, content:String}>,
         ld:Dynamic,
     }> {
-        return node_fetch.Fetch.call(url)
+        return fetch(url)
             .then(r ->
                 if (!r.ok)
                     r.text().then(text ->
@@ -63,7 +64,7 @@ class Utils {
 
     #if nodejs
     static public function isUrlAccessible(url:String):js.lib.Promise<Int> {
-        return node_fetch.Fetch.call(url)
+        return fetch(url)
             .then(r -> cast r.status);
     }
     #elseif sys

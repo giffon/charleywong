@@ -1,7 +1,7 @@
 package charleywong;
 
 import sys.FileSystem;
-import node_fetch.Fetch;
+import CrossFetch.fetch;
 import node.url.URLSearchParams;
 import js.npm.hk_address_parser_lib.Dclookup;
 import js.npm.nodejieba.Nodejieba;
@@ -219,12 +219,13 @@ class ServerMain {
                     case null:
                         throw "no og:image";
                     case {content: ogImageUrl}:
-                        Fetch.call(ogImageUrl)
+                        fetch(ogImageUrl)
                             .then(r -> if (!r.ok) {
                                 throw r.status;
                             } else {
-                                r.buffer();
-                            });
+                                r.arrayBuffer();
+                            })
+                            .then(ab -> node.buffer.Buffer.from(ab));
                 }
             });
     }
@@ -233,14 +234,15 @@ class ServerMain {
         for (i => url in profileUrls) {
             switch (new URL(url)) {
                 case extractFbHomePage(_) => fb if (fb != null):
-                    return Fetch.call('https://graph.facebook.com/${Facebook.apiVersion}/${fb}/picture?type=square&width=${width}&height=${width}')
+                    return fetch('https://graph.facebook.com/${Facebook.apiVersion}/${fb}/picture?type=square&width=${width}&height=${width}')
                         .then(r -> if (!r.ok) {
                             throw r.status;
                         } else if (r.url.endsWith(".gif")) {
                             throw "no profile pic set";
                         } else {
-                            r.buffer();
+                            r.arrayBuffer();
                         })
+                        .then(ab -> node.buffer.Buffer.from(ab))
                         .catchError(err -> {
                             getPic(profileUrls.slice(i+1), width);
                         });
@@ -404,14 +406,15 @@ class ServerMain {
                                     case null:
                                         Promise.resolve(reply.status(404).send('$post doesn\'t provide "og:image".'));
                                     case { content: imageUrl }:
-                                        Fetch.call(Std.string(new URL(imageUrl)))
+                                        fetch(Std.string(new URL(imageUrl)))
                                             .then(r -> {
                                                 reply
                                                     .status(r.status)
                                                     .header("Content-Type", (cast r:js.html.Response).headers.get("Content-Type"))
                                                     .header("Cache-Control", "public, max-age=86400, stale-while-revalidate=2628000"); // max-age: 1 day, stale-while-revalidate: one month
-                                                r.buffer();
+                                                r.arrayBuffer();
                                             })
+                                            .then(ab -> node.buffer.Buffer.from(ab))
                                             .then(b -> reply.send(b))
                                             .catchError(err -> reply.status(500).send(err));
                                 }
