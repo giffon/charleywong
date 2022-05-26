@@ -27,6 +27,14 @@
           }
         ]
       }
+    },
+    {
+      "url": "https://www.instagram.com/hans.bookstorehk/",
+      "meta": {
+        "website": "https://www.facebook.com/hans.bookstorehk/",
+        "name": "留下書舍 Have A Nice Stay",
+        "about": "睇多啲書\n圍多啲爐\n飲多啲酒"
+      }
     }
   ],
   "posts": [
@@ -35,10 +43,28 @@
       "meta": {
         "sharedWith": "Public"
       }
+    },
+    {
+      "url": "https://www.facebook.com/renewshk/posts/127013516639894"
     }
   ],
   "tags": [
     "book",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "太子西洋菜南街 228 號唐四樓"
+      },
+      "googleMapsPlaceId": "EiwyMjggU2FpIFlldW5nIENob2kgU3QgUywgTW9uZyBLb2ssIEhvbmcgS29uZyIxEi8KFAoSCbf1Z0rIAAQ0EesKcbB-Vy5cEOQBKhQKEgmvVv7ZxwAENBF7ty3yw9i69g",
+      "coordinates": {
+        "lat": 22.3225659,
+        "lng": 114.1694936
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
