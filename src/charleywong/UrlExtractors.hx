@@ -41,7 +41,7 @@ class UrlExtractors {
                         r.text().then(text -> throw text);
                 });
         } else {
-            var controller = new AbortController();
+            final controller = new AbortController();
             fetch(url, {
                 redirect: FOLLOW,
                 signal: cast controller.signal,

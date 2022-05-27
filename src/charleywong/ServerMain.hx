@@ -462,7 +462,7 @@ class ServerMain {
                 return createEntityFromFb(req.body)
                     .then(e -> {
                         saveEntity(e, true, true);
-                        return Promise.resolve(reply.status(200).send("done"));
+                        return reply.status(200).send("done");
                     });
         }
 
@@ -491,18 +491,22 @@ class ServerMain {
             case null:
                 //pass
             case handle:
-                var e = createEntityFromIg(req.body);
-                saveEntity(e, true, true);
-                return Promise.resolve(reply.status(200).send("done"));
+                return createEntityFromIg(req.body)
+                    .then(e -> {
+                        saveEntity(e, true, true);
+                        reply.status(200).send("done");
+                    });
         }
 
         switch (extractYouTubeProfile(url)) {
             case null:
                 //pass
             case Id(_) | Handle(_):
-                var e = createEntityFromYt(req.body);
-                saveEntity(e, true, true);
-                return Promise.resolve(reply.status(200).send("done"));
+                return createEntityFromYt(req.body)
+                    .then(e -> {
+                        saveEntity(e, true, true);
+                        reply.status(200).send("done");
+                    });
         }
 
         return Promise.resolve(reply.status(500).send('Cannot handle ${req.body}.'));
@@ -521,7 +525,7 @@ class ServerMain {
             Sys.command("code", [file]);
     }
 
-    static function createEntityFromIg(igInfo:charleywong.chrome.InstagramProfile):Entity {
+    static function createEntityFromIg(igInfo:charleywong.chrome.InstagramProfile):Promise<Entity> {
         final entity = switch (getEntityOfUrls([igInfo.url, igInfo.website])) {
             case null:
                 {
@@ -537,30 +541,34 @@ class ServerMain {
 
         final meta:DynamicAccess<Dynamic> = {};
         final webpages = entity.webpages;
-        if (igInfo.website != null) {
+        final entity = if (igInfo.website != null) {
             meta["website"] = igInfo.website;
             addWebpageToEntity(igInfo.website, entity);
+        } else {
+            Promise.resolve(entity);
         }
-        if (igInfo.name != null) {
-            meta["name"] = igInfo.name;
-        }
-        if (igInfo.about != null) {
-            meta["about"] = igInfo.about;
-        }
-        final igPage:WebPage = switch (entity.webpages.find(p -> p.url == igInfo.url)) {
-            case null:
-                final p = {
-                    url: 'https://www.instagram.com/${igInfo.handle}/',
-                };
-                webpages.push(p);
-                p;
-            case p:
-                p;
-        };
-        if (meta.keys().length > 0) {
-            igPage.meta = meta;
-        }
-        return entity;
+        return entity.then(entity -> {
+            if (igInfo.name != null) {
+                meta["name"] = igInfo.name;
+            }
+            if (igInfo.about != null) {
+                meta["about"] = igInfo.about;
+            }
+            final igPage:WebPage = switch (entity.webpages.find(p -> p.url == igInfo.url)) {
+                case null:
+                    final p = {
+                        url: 'https://www.instagram.com/${igInfo.handle}/',
+                    };
+                    webpages.push(p);
+                    p;
+                case p:
+                    p;
+            };
+            if (meta.keys().length > 0) {
+                igPage.meta = meta;
+            }
+            return entity;
+        });
     }
 
     static function getEntityOfUrls(urls:Array<String>):Null<Entity> {
@@ -580,39 +588,49 @@ class ServerMain {
         return null;
     }
 
-    static function addWebpageToEntity(url:String, entity:Entity):Void {
-        var webpages = entity.webpages;
-        var url = try {
-            cleanUrl(url);
+    static function addWebpageToEntity(url:String, entity:Entity):Promise<Entity> {
+        final webpages = entity.webpages;
+        final url = try {
+            (switch (new URL(url).protocol) {
+                case "https:":
+                    Promise.resolve(url);
+                case _:
+                    charleywong.UrlExtractors.followRedirect(url);
+            }).then(cleanUrl);
         } catch (e:Dynamic) {
-            return;
+            trace(e);
+            return Promise.resolve(entity);
         }
 
-        // check to see if there is an existing webpage that is only differ by protocol
-        var protocol = new URL(url).protocol;
-        for (p in webpages) {
-            var pUrl = new URL(p.url);
-            if (pUrl.protocol != protocol) {
-                pUrl.protocol = protocol;
-                if (cleanUrl(Std.string(pUrl)) == url) {
-                    if (protocol == "https:") {
-                        pUrl.protocol = "https:";
-                        p.url = cleanUrl(Std.string(pUrl));
+        return url.then(url -> {
+            // check to see if there is an existing webpage that is only differ by protocol
+            final protocol = new URL(url).protocol;
+            for (p in webpages) {
+                final pUrl = new URL(p.url);
+                if (pUrl.protocol != protocol) {
+                    pUrl.protocol = protocol;
+                    if (cleanUrl(Std.string(pUrl)) == url) {
+                        if (protocol == "https:") {
+                            pUrl.protocol = "https:";
+                            p.url = cleanUrl(Std.string(pUrl));
+                        }
+                        return entity;
                     }
-                    return;
                 }
             }
-        }
 
-        if (!webpages.exists(p -> p.url == url)) {
-            webpages.push({
-                url: url,
-            });
-        }
+            if (!webpages.exists(p -> p.url == url)) {
+                webpages.push({
+                    url: url,
+                });
+            }
+
+            return entity;
+        });
     }
 
-    static function createEntityFromYt(info:charleywong.chrome.YouTubeProfile):Entity {
-        var entity = switch (getEntityOfUrls([info.url].concat(info.links))) {
+    static function createEntityFromYt(info:charleywong.chrome.YouTubeProfile):Promise<Entity> {
+        final entity = switch (getEntityOfUrls([info.url].concat(info.links))) {
             case null:
                 {
                     id: info.id,
@@ -624,37 +642,41 @@ class ServerMain {
             case e:
                 e;
         }
-
-        if (info.links != null) {
-            for (url in info.links) {
-                addWebpageToEntity(url, entity);
+        final entity = if (info.links != null) {
+            Promise.all([
+                for (url in info.links)
+                addWebpageToEntity(url, entity)
+            ]).then(_ -> entity);
+        } else {
+            Promise.resolve(entity);
+        }
+        return entity.then(entity -> {
+            final meta:DynamicAccess<Dynamic> = {};
+            meta["id"] = info.id;
+            if (info.location != null) {
+                meta["location"] = info.location;
             }
-        }
-        var meta:DynamicAccess<Dynamic> = {};
-        meta["id"] = info.id;
-        if (info.location != null) {
-            meta["location"] = info.location;
-        }
-        if (info.name != null) {
-            meta["name"] = info.name;
-        }
-        if (info.description != null) {
-            meta["about"] = info.description;
-        }
-        var yt:WebPage = switch (entity.webpages.find(p -> p.url == info.url)) {
-            case null:
-                var p = {
-                    url: 'https://www.youtube.com/channel/${info.id}',
-                };
-                entity.webpages.push(p);
-                p;
-            case p:
-                p;
-        };
-        if (meta.keys().length > 0) {
-            yt.meta = meta;
-        }
-        return entity;
+            if (info.name != null) {
+                meta["name"] = info.name;
+            }
+            if (info.description != null) {
+                meta["about"] = info.description;
+            }
+            final yt:WebPage = switch (entity.webpages.find(p -> p.url == info.url)) {
+                case null:
+                    final p = {
+                        url: 'https://www.youtube.com/channel/${info.id}',
+                    };
+                    entity.webpages.push(p);
+                    p;
+                case p:
+                    p;
+            };
+            if (meta.keys().length > 0) {
+                yt.meta = meta;
+            }
+            return entity;
+        });
     }
 
     static function createEntityFromFb(fbPage:charleywong.chrome.FacebookProfile):Promise<Entity> {
@@ -710,21 +732,21 @@ class ServerMain {
                 }
             }
 
-            var webpages = entity.webpages;
-            if (info.website != null) {
-                addWebpageToEntity(info.website, entity);
-            }
-            switch (webpages.find(p -> p.url == 'https://www.facebook.com/${info.id}/' || p.url == 'https://www.facebook.com/${info.username}/')) {
-                case null:
-                    webpages.push({
-                        url: 'https://www.facebook.com/${info.id}/',
-                        meta: cast info,
-                    });
-                case webpage:
-                    webpage.meta = cast info;
-            }
-            addPlacesIfNone();
-            return entity;
+            final webpages = entity.webpages;
+            return (info.website != null ? addWebpageToEntity(info.website, entity) : Promise.resolve(entity))
+                .then(entity -> {
+                    switch (webpages.find(p -> p.url == 'https://www.facebook.com/${info.id}/' || p.url == 'https://www.facebook.com/${info.username}/')) {
+                        case null:
+                            webpages.push({
+                                url: 'https://www.facebook.com/${info.id}/',
+                                meta: cast info,
+                            });
+                        case webpage:
+                            webpage.meta = cast info;
+                    }
+                    addPlacesIfNone();
+                    return entity;
+                });
         });
     }
 
