@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://seeuhk.com"
+      "url": "https://www.seeuhk.com"
     },
     {
       "meta": {
@@ -19,10 +19,18 @@
             "name": "Clothing (Brand)"
           }
         ],
-        "single_line_address": "葵芳葵涌廣場3樓時尚坊78號鋪 { 爭鮮對面第1條行第2間 ｝, Hong Kong, Hong Kong",
+        "single_line_address": "葵芳葵涌廣場3樓時尚坊78號鋪 { 爭鮮對面第1條行第2間 ｝, 香港",
         "website": "http://seeuhk.com/"
       },
       "url": "https://www.facebook.com/seeudaily/"
+    },
+    {
+      "url": "https://www.instagram.com/seeu.hk/",
+      "meta": {
+        "website": "http://www.seeuhk.com/",
+        "name": "SEE U 春夏裝新款上架𖧷｜門市接受消費券付款 ♪",
+        "about": "“𝑆𝑒𝑒 𝑈 𝑖𝑛 𝑎 𝑔𝑜𝑜𝑑 𝑑𝑎𝑦 ☁︎︎“\n𝟮件𝟵𝟱折 (VIP 𝟴𝟱折)，𝟯件起包郵！\n買滿 $𝟲𝟴𝟬 即時 𝟴𝟴折 +成為永久會員 ❣︎\n·\n◔ 疫情期間不定期開放\n✍︎︎ 訂購/查詢 𝗐𝗁𝖺𝗍𝗌𝖺𝗉𝗉：𝟨𝟦𝟥𝟧 𝟪𝟪𝟦𝟥\n➡︎ 自助下單："
+      }
     }
   ],
   "posts": [
@@ -34,6 +42,22 @@
     }
   ],
   "tags": [
-    "clothing"
+    "clothing",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵芳葵涌廣場3樓時尚坊78號鋪"
+      },
+      "googleMapsPlaceId": "ChIJPehqtr34AzQR1OpdrdG_QCc",
+      "coordinates": {
+        "lat": 22.3582607,
+        "lng": 114.1271935
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
