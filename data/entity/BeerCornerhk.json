@@ -1,0 +1,78 @@
+{
+  "id": "BeerCornerhk",
+  "name": {
+    "zh": "啤Corner"
+  },
+  "webpages": [
+    {
+      "url": "https://www.beerscornerhk.com"
+    },
+    {
+      "url": "https://www.facebook.com/2339882026227664/",
+      "meta": {
+        "id": "2339882026227664",
+        "username": "BeerCornerhk",
+        "name": "啤 Corner",
+        "about": "紅白&烈酒&精釀啤酒專門店🇭🇰\nCraft Beer & Wine & Spirits Shop",
+        "category_list": [
+          {
+            "id": "199833073363963",
+            "name": "Wine, Beer & Spirits Store"
+          }
+        ],
+        "emails": [
+          "info@beerscornerhk.com"
+        ],
+        "single_line_address": "九龍觀塘成業街7號寧晉中心東廣場1樓133號鋪\nShop 133, 1/F, E Plaza, Legend Tower, 7 Shing Yip Street, Kwun Tong, Kowloon, 香港",
+        "website": "www.beerscornerhk.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/beers_corner/",
+      "meta": {
+        "website": "http://www.beerscornerhk.com/",
+        "name": "啤corner",
+        "about": "紅白&烈酒&精釀啤酒專門店🇭🇰\nCraft Beer & Wine & Spirits Shop"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/BeerCornerhk/posts/2440871892795343",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/BeerCornerhk/posts/2442787242603808",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "alcoholic",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍觀塘成業街7號寧晉中心東廣場1樓133號鋪"
+      },
+      "googleMapsPlaceId": "ChIJjcdLO_oBBDQR7oekCF5prsk",
+      "coordinates": {
+        "lat": 22.3108932,
+        "lng": 114.2262793
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 1580
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "ZenMassage",
+  "name": {
+    "en": "Zen Massage"
+  },
+  "webpages": [
+    {
+      "url": "https://www.zenhkmassage.com"
+    },
+    {
+      "url": "https://www.facebook.com/569655783154025/",
+      "meta": {
+        "id": "569655783154025",
+        "name": "Zen Massage",
+        "about": "Thai massage by ZEN is a place for you to relax and enjoy the real Thai massage in central of Causeway Bay.",
+        "category_list": [
+          {
+            "id": "109578329118821",
+            "name": "Massage Service"
+          }
+        ],
+        "emails": [
+          "thaimassagebyzen@gmail.com"
+        ],
+        "single_line_address": "Flat B, 4/F, Hyde Park Mansion, 53 Paterson Street, 銅鑼灣",
+        "website": "http://Zenhkmassage.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/thaimassagebyzen/",
+      "meta": {
+        "name": "Zen massage",
+        "about": "ZEN is an unique place with all experienced Thai therapists for you to escape the busy day. #massage #hongkong #goodday #zen #causewaybay"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=2156100061176248&id=569655783154025",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=2242261222560131&id=569655783154025",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Flat B, 4/F, Hyde Park Mansion, 53 Paterson Street"
+      },
+      "googleMapsPlaceId": "ChIJlyEufVYABDQRBdOvMKTK3MA",
+      "coordinates": {
+        "lat": 22.2815993,
+        "lng": 114.1848538
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "en": "1/F, 42 Jardine’s Bazaar, Causeway Bay"
+      },
+      "googleMapsPlaceId": "ChIJjbCap1YABDQRc2pYwExJLYY",
+      "coordinates": {
+        "lat": 22.2794269,
+        "lng": 114.1855152
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "en": "1/F, Man Hoi Building, 98-100 Electric Road, Tin Hau"
+      },
+      "googleMapsPlaceId": "ChIJi-BPIQABBDQRCPpWUB-7YcE",
+      "coordinates": {
+        "lat": 22.2848789,
+        "lng": 114.1918435
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 1506
+    },
+    {
+      "type": "shop",
+      "id": 1507
+    },
+    {
+      "type": "shop",
+      "id": 1510
+    }
+  ]
+}
