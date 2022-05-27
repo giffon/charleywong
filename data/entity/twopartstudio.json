@@ -1,0 +1,107 @@
+{
+  "id": "twopartstudio",
+  "name": {
+    "en": "Two Parts Studio",
+    "zh": "二部藝術工作室"
+  },
+  "webpages": [
+    {
+      "url": "https://www.twopartstudio.com"
+    },
+    {
+      "url": "https://www.facebook.com/520257898317497/",
+      "meta": {
+        "id": "520257898317497",
+        "username": "twopartstudio",
+        "name": "Two Parts Studio",
+        "about": "二部藝術工作室\nDrawing Painting | Pottery",
+        "category_list": [
+          {
+            "id": "164288046954643",
+            "name": "Art School"
+          }
+        ],
+        "emails": [
+          "info@twopartstudio.com"
+        ],
+        "website": "www.twopartstudio.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/twopartstudio/",
+      "meta": {
+        "website": "http://www.twopartstudio.com/",
+        "name": "Two Parts Studio",
+        "about": "二部藝術工作室\nArt School\n#drawing #painting #pottery\n#taikoo #sanpokong"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/twopartstudio/photos/a.520592148284072/913749908968292",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/twopartstudio/photos/a.520592148284072/999069970436285",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/twopartstudio/photos/a.520592148284072/1027387660937849",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/twopartstudio/photos/a.520592148284072/1044964932513455",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "artist",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍新蒲崗五芳街5-7號華懋工業大廈8樓D室"
+      },
+      "googleMapsPlaceId": "ChIJv5ui_xsHBDQRzoQKfxAehNk",
+      "coordinates": {
+        "lat": 22.338654,
+        "lng": 114.199719
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港鰂魚涌英皇道1065號東達中心2樓03室"
+      },
+      "googleMapsPlaceId": "ChIJGdsWcNIBBDQRKRb969ct0VM",
+      "coordinates": {
+        "lat": 22.2851153,
+        "lng": 114.2142514
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 1419
+    },
+    {
+      "type": "shop",
+      "id": 1420
+    }
+  ]
+}

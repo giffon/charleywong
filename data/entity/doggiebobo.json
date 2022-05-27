@@ -1,0 +1,129 @@
+{
+  "id": "doggiebobo",
+  "name": {
+    "zh": "狗寶寶",
+    "en": "Doggie Bo Bo"
+  },
+  "webpages": [
+    {
+      "url": "https://www.doggiebobo.com"
+    },
+    {
+      "url": "https://www.facebook.com/110351249029642/",
+      "meta": {
+        "id": "110351249029642",
+        "username": "doggiebobo",
+        "name": "狗寶寶Doggie Bo Bo",
+        "about": "狗寶寶於寵物行業立足20多年，用品零售，美容服務，訂貨送貨一應俱全",
+        "category_list": [
+          {
+            "id": "2230",
+            "name": "Pet Supplies"
+          },
+          {
+            "id": "188573091164316",
+            "name": "Pet Store"
+          }
+        ],
+        "emails": [
+          "dbbpethouse@gmail.com"
+        ],
+        "single_line_address": "總店: 屯門青海圍置樂花園地下127號 分店:屯門建生寶怡花園商場103號鋪 分店: 將軍澳彩明苑彩明商場2樓215號鋪, 香港",
+        "website": "https://www.doggiebobo.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/doggiebobo_hk/",
+      "meta": {
+        "website": "https://www.doggiebobo.com/",
+        "name": "狗寶寶寵物專門店",
+        "about": "小店由多年經驗前獸醫助護主理，\n專業認可寵物美容證書，\n另有經驗寵物美容師及資深售貨員\n本店服務：\n📍專業寵物美容\n📍寵物護理\n📍糧食用品\n📍送貨速遞\n領養不棄養•領養代替購買\n真•香港人加油"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/doggiebobo/posts/2487490514649025",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/doggiebobo/posts/2489805874417489",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/doggiebobo/posts/2759896584075082",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/doggiebobo/posts/2958335714231167",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "animal",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門青海圍置樂花園地下127號"
+      },
+      "googleMapsPlaceId": "ChIJna2MsRX7AzQRxAge9Kme3Yk",
+      "coordinates": {
+        "lat": 22.3871565,
+        "lng": 113.9804296
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門建生寶怡花園商場103號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ26TqT-37AzQRedRpHI8Sro4",
+      "coordinates": {
+        "lat": 22.4077222,
+        "lng": 113.9688487
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳彩明苑彩明商場2樓215號鋪"
+      },
+      "googleMapsPlaceId": "ChIJB5YB7e8DBDQRk2mu7Rv4kMw",
+      "coordinates": {
+        "lat": 22.3060752,
+        "lng": 114.2524067
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 1402
+    },
+    {
+      "type": "shop",
+      "id": 1403
+    },
+    {
+      "type": "shop",
+      "id": 1404
+    }
+  ]
+}

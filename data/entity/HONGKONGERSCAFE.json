@@ -1,0 +1,71 @@
+{
+  "id": "HONGKONGERSCAFE",
+  "name": {
+    "zh": "香港人冰室"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/105032878402186/",
+      "meta": {
+        "id": "105032878402186",
+        "username": "HONGKONGERSCAFE",
+        "name": "香港人冰室",
+        "about": "餐廳",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "hongkongerscafe@gmail.com"
+        ],
+        "single_line_address": "香港長沙灣順寧道29-39號新寧閣地下D號鋪, 00000 香港"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/HONGKONGERSCAFE/posts/126311412940999",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/HONGKONGERSCAFE/posts/126520496253424",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/HONGKONGERSCAFE/posts/126645649574242",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港長沙灣順寧道29-39號新寧閣地下D號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ_Y8tt_AHBDQRUb_Vawpfp6I",
+      "coordinates": {
+        "lat": 22.3356524,
+        "lng": 114.1607526
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6484
+    }
+  ]
+}
