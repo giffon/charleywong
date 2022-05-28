@@ -1,0 +1,69 @@
+{
+  "id": "Beautycode",
+  "name": {
+    "en": "Beauty code"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/168369626556381/",
+      "meta": {
+        "id": "168369626556381",
+        "name": "Beauty code",
+        "about": "Purple House 地址: 大埔昌運中心1樓44B鋪   電話: 2666-6134\n電話:3493-3538\n ",
+        "category_list": [
+          {
+            "id": "2239",
+            "name": "Retail Company"
+          }
+        ],
+        "emails": [
+          "fanscode@beautycode.com.hk"
+        ],
+        "single_line_address": "大埔工業邨",
+        "website": "www.beautycode.com.hk "
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔昌運中心商埸1樓44B"
+      },
+      "googleMapsPlaceId": "ChIJXUMuhkcIBDQRBEwJ-MsLRv4",
+      "coordinates": {
+        "lat": 22.4524409,
+        "lng": 114.1680317
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣富明街1號寶富大廈3樓C室"
+      },
+      "googleMapsPlaceId": "ChIJaeYZM1EABDQR-5GixS3deZs",
+      "coordinates": {
+        "lat": 22.2788398,
+        "lng": 114.1834472
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 1253
+    },
+    {
+      "type": "shop",
+      "id": 1296
+    }
+  ]
+}
