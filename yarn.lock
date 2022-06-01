@@ -1046,10 +1046,10 @@
     readable-stream "^3.4.0"
     send "^0.17.1"
 
-"@googlemaps/google-maps-services-js@3.3.14":
-  version "3.3.14"
-  resolved "https://registry.yarnpkg.com/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.3.14.tgz#b18bbe73398633cbf379ea464138ce4ad9db7726"
-  integrity sha512-R7d/5anYSr0yeTBOjDuNmdAPLh18aajjmdrwIl933vpIis6DzOIclLDpHp7qe+v0V8GzbSzs8mPYJJTZX0Rv7Q==
+"@googlemaps/google-maps-services-js@3.3.15":
+  version "3.3.15"
+  resolved "https://registry.yarnpkg.com/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.3.15.tgz#5562daeb05969c87580782abd66c2cb99fc8a6d5"
+  integrity sha512-2LqH13nW+uTsci3krqbxHMLBw/e9aQnkQLoN+MPCMwkldQ9L0g3lrPguNSOV2yEFx4LtUXUaqaj19SgeQYCMHg==
   dependencies:
     "@googlemaps/url-signature" "^1.0.4"
     agentkeepalive "^4.1.0"
