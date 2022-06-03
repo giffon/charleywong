@@ -1,0 +1,80 @@
+{
+  "id": "anlanderstore",
+  "name": {
+    "en": "Anlander",
+    "zh": "好貨加"
+  },
+  "webpages": [
+    {
+      "url": "https://anlander.com"
+    },
+    {
+      "url": "https://www.facebook.com/1867890386765792/",
+      "meta": {
+        "id": "1867890386765792",
+        "username": "anlanderstore",
+        "name": "Anlander 好貨加",
+        "about": "anlander.com 好貨加 - 好貨不停加",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2213",
+            "name": "Electronics"
+          }
+        ],
+        "emails": [
+          "contact.us@anlander.com"
+        ],
+        "single_line_address": "Flat C1, 6/F, Por Mee Factory Building, 500 Castle Peak Road, Lai Chi Kok, KLN, 香港",
+        "website": "http://anlander.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/anlander_com/",
+      "meta": {
+        "website": "https://anlander.com/",
+        "name": "anlander 好貨加",
+        "about": "🌎 | 自取點 ｜上門送貨｜OK 便利店\n🈹 | VISA | Master | AE | ApplePay\n🔐 | 香港網店商會成員\n👇👇👇 按這裡買"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/Byh0V08hzaa/"
+    },
+    {
+      "url": "https://www.instagram.com/p/BztPZPbhT2-/"
+    },
+    {
+      "url": "https://www.instagram.com/p/B0nScwNnViz/"
+    }
+  ],
+  "tags": [
+    "electricalAppliances",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Flat C1, 6/F, Por Mee Factory Building, 500 Castle Peak Road, Lai Chi Kok"
+      },
+      "googleMapsPlaceId": "ChIJwV_CMMEHBDQRUGtPdJHApfU",
+      "coordinates": {
+        "lat": 22.3399216,
+        "lng": 114.1520172
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 7079
+    }
+  ]
+}
