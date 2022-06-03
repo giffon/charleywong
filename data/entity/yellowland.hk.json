@@ -81,5 +81,20 @@
       "type": "shop",
       "id": 7087
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘成業街20號怡生工業大廈10樓1009室 小皇國"
+      },
+      "googleMapsPlaceId": "ChIJfXvo3U8BBDQRJHwopj9-z0o",
+      "coordinates": {
+        "lat": 22.3097052,
+        "lng": 114.2264882
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
