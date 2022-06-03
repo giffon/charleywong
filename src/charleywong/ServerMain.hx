@@ -595,7 +595,8 @@ class ServerMain {
                 case "https:":
                     Promise.resolve(url);
                 case _:
-                    charleywong.UrlExtractors.followRedirect(url);
+                    charleywong.UrlExtractors.followRedirect(url)
+                        .catchError(err -> url);
             }).then(cleanUrl);
         } catch (e:Dynamic) {
             trace(e);
