@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.trexjai.com"
+    },
+    {
       "url": "https://www.facebook.com/104700121230413/",
       "meta": {
         "id": "104700121230413",
@@ -20,7 +23,8 @@
           "binarydigitalscwb@gmail.com"
         ],
         "single_line_address": "Shop137/138/146, 1/F, 銅鑼灣地帶, 記利佐治街2號, +852 Hong Kong, Hong Kong"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/binarydigitals/",
@@ -40,13 +44,14 @@
         ],
         "single_line_address": "銅鑼灣，銅鑼灣地帶,1樓,Shop 137 &146, 852 Hong Kong, Hong Kong",
         "website": "https://www.trexjai.com"
-      },
-      "hidden": true
+      }
     },
     {
       "url": "https://www.instagram.com/binarydigitals/",
       "meta": {
-        "name": "Binary digitals"
+        "website": "https://www.trexjai.com/",
+        "name": "Binary digitals",
+        "about": "如有任何查詢，歡迎WhatsApp聯繫\n93571686 / 65225522"
       }
     }
   ],
@@ -66,6 +71,10 @@
     {
       "type": "shop",
       "id": 393
+    },
+    {
+      "type": "shop",
+      "id": 7077
     }
   ],
   "places": [
@@ -77,6 +86,19 @@
       "coordinates": {
         "lat": 22.2801458,
         "lng": 114.1852495
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣地帶一樓Shop102 暴龍仔"
+      },
+      "googleMapsPlaceId": "ChIJd5JInlYABDQRqGtqVFiz6QE",
+      "coordinates": {
+        "lat": 22.2802073,
+        "lng": 114.1852626
       },
       "area": {
         "zh": "灣仔區"
