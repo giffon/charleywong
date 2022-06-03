@@ -15,5 +15,25 @@
     "required": [
         "url"
     ],
-    "additionalProperties": false
+    "additionalProperties": false,
+    "allOf": [
+        {
+            "if": {
+                "properties": {
+                    "url": {
+                        "type": "string",
+                        "pattern": "^https?:\/\/(?:www\\.|m\\.)?(?:facebook\\.com|fb\\.me|fb\\.com)\/"
+                    }
+                }
+            },
+            "then": {
+                "properties": {
+                    "url": {
+                        "type": "string",
+                        "pattern": "^((?!pfbid).)*$"
+                    }
+                }
+            }
+        }
+    ]
 }
