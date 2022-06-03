@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "https://yellowlandhk.com"
+    },
+    {
       "url": "https://www.youtube.com/channel/UCi-CdIE8ab40eAqp2kzpGOg",
       "meta": {
         "id": "UCi-CdIE8ab40eAqp2kzpGOg",
@@ -17,8 +20,17 @@
     {
       "url": "https://www.instagram.com/yellowland_hk/",
       "meta": {
+        "website": "https://yellowlandhk.com/shop/pepecookies/",
         "name": "Yellowland HK 走訪深黃大地",
-        "about": "👷🏻‍♂️黃店+食評+老闆訪問👷🏻‍♀️\n一齊走訪深黃大地，介紹香港所有大大小小嘅黃店\n一齊發掘更多良心小店，了解黃店背後既理念\n為壯大黃色經濟圈出一分力！💪💪\n我地深信，憑住二百萬人既力量\n一定可以建立屬於我地自己既真香港💛\n光復香港 時代革命🇭🇰\nYouTube: Yellowland HK"
+        "about": "Youtube: @走訪深黃大地 Yellowland HK\n小店 @yellowland_store\n🎬 合作聯絡：visityellowland@gmail.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/yellowland_store/",
+      "meta": {
+        "website": "https://yellowlandhk.com/shop/pepecookies/",
+        "name": "小皇國 Yellowland HK",
+        "about": "💛由Youtuber @yellowland_hk 創立既小店💛\n⏰營業時間: 星期二至日 1:00pm-8:00pm ⏰\n實體店: 觀塘成業街怡生工業大廈10樓1009室 (B1出口)\n歡迎上黎買野🤤 快啲成為小皇國既國民啦！\n$450免運費\n送貨/網上買👇"
       }
     },
     {
@@ -61,6 +73,13 @@
   ],
   "tags": [
     "food",
-    "media"
+    "media",
+    "shop"
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 7087
+    }
   ]
 }
