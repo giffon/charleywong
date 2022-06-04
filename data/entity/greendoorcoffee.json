@@ -1,0 +1,89 @@
+{
+  "id": "greendoorcoffee",
+  "name": {
+    "en": "Green Door Coffee"
+  },
+  "webpages": [
+    {
+      "url": "https://greendoorcoffee.com"
+    },
+    {
+      "url": "https://www.facebook.com/822796017761343/",
+      "meta": {
+        "id": "822796017761343",
+        "username": "greendoorcoffee",
+        "name": "Green Door Coffee",
+        "about": "G/F, 197A Queen’s Road Central,\nSheung Wan\n\nMon to Fri 8:00-18:00",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          },
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          }
+        ],
+        "website": "http://www.greendoorcoffee.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/greendoorcoffee/",
+      "meta": {
+        "website": "http://www.greendoorcoffee.com/",
+        "name": "Green Door Coffee",
+        "about": "已烘焙嘅咖啡豆除咗經唔起時間考驗，更不適合長途運輸，要品嘗最佳時刻首選本地烘焙。\n本店已有十年以上烘焙經驗，持食物製廠牌工場，已合理價錢提供優質咖啡豆及服務。"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/greendoorcoffee/posts/3038170452890544",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/greendoorcoffee/posts/3058750807499175",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/greendoorcoffee/posts/3194236563950598",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/greendoorcoffee/posts/3278900022150918",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, 197A Queen’s Road Central, Sheung Wan"
+      },
+      "googleMapsPlaceId": "ChIJR192YHwABDQRbSuOJfSoPig",
+      "coordinates": {
+        "lat": 22.2851131,
+        "lng": 114.1527288
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1441
+    }
+  ]
+}

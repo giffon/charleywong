@@ -1,0 +1,86 @@
+{
+  "id": "hairhousebyadamchan",
+  "name": {
+    "en": "Hair House by Adam Chan"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/hairhousebyadamchan/",
+      "meta": {
+        "website": "https://hairhousebyadamchan.resurva.com/",
+        "name": "Hair House by Adam Chan",
+        "about": "Since 2013\nHongKong ChiangMai\n🔸4/F,16 Wyndham st\n🔸G/F,28 Sau Wa Fong\n🔸141/2 Kampangdin\n🔸12/8 soi3 WuaLai\nLINE:hairhousebyadamchan\n⬇️book online"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hairhousebyadamchan/",
+      "meta": {
+        "id": "350695095066727",
+        "username": "hairhousebyadamchan",
+        "name": "Hair House barbershop by Adam Chan",
+        "about": "The soul of traditional barbershop\nCut 360\nShave 320\nAdam Chan $400(cut) $360(wet shave)\n飛仔 ,Uppercut ,HongKong Homebrew",
+        "category_list": [
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          },
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          }
+        ],
+        "emails": [
+          "adam@hairhousebyadamchan.com"
+        ],
+        "website": "https://hairhousebyadamchan.resurva.com"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/ByzXkUggJ1o/"
+    }
+  ],
+  "tags": [
+    "salon",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "4/F, Wong Chung Ming commercial building, 16 Wyndham Street, Central"
+      },
+      "googleMapsPlaceId": "ChIJaYY_KXsABDQRd5nr_uOIogc",
+      "coordinates": {
+        "lat": 22.2808752,
+        "lng": 114.1563472
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "en": "G/F, 28 Sau Wa Fong, Admiralty"
+      },
+      "googleMapsPlaceId": "ChIJ_Vy7MV0ABDQRWEPigoD08is",
+      "coordinates": {
+        "lat": 22.2758412,
+        "lng": 114.1698471
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 707
+    },
+    {
+      "type": "shop",
+      "id": 1104
+    }
+  ]
+}
