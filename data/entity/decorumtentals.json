@@ -35,8 +35,9 @@
     {
       "url": "https://www.instagram.com/decorumtentals/",
       "meta": {
+        "website": "https://www.decorumtentals.com/",
         "name": "decorumtentals 山問露營户外用品租售",
-        "about": "Camping Gears Rental & Retail in Hong Kong\n山問，山的學問\n在山中有一套獨特的學問與文化，不再著重征服，而是欣賞。\n🏕先試後買，實測選擇適合自己的露營户外用品\n🏖以租代買，減少長期閒置用具\n💡尊重品牌開發及創作用心\n本地户外大自然主題用品寄賣 | 場地租用"
+        "about": "Camping Gears Rental & Retail in Hong Kong\n山問，山的學問\n🏕先試後買，實測選擇適合自己的露營户外用品\n🏖以租代買，減少長期閒置用具\n💡尊重品牌開發及創作用心\n本地户外大自然主題用品寄賣 | 營具租借 | 洗營服務"
       }
     }
   ],
@@ -61,15 +62,28 @@
   "places": [
     {
       "address": {
-        "en": "Unit A1, 5/F, Majestic House, 80 Nathan Road, Tsim Sha Tsui"
+        "zh": "香港太古城中心地下誠品生活太古店 G010號舖"
       },
-      "googleMapsPlaceId": "ChIJe5C2ZBgBBDQR49xydXgbdiM",
+      "googleMapsPlaceId": "ChIJhacyEnMBBDQRlDxinJnj3G8",
       "coordinates": {
-        "lat": 22.2985929,
-        "lng": 114.1723759
+        "lat": 22.28563369999999,
+        "lng": 114.2175951
       },
       "area": {
-        "zh": "油尖旺區"
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘興業街15號中美中心B座202"
+      },
+      "googleMapsPlaceId": "ChIJGQrDeEQBBDQRTkuZMf5zgc8",
+      "coordinates": {
+        "lat": 22.309397,
+        "lng": 114.2252012
+      },
+      "area": {
+        "zh": "觀塘區"
       }
     }
   ]
