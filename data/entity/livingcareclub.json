@@ -1,0 +1,85 @@
+{
+  "id": "livingcareclub",
+  "name": {
+    "en": "Living Care",
+    "zh": "滿杏堂"
+  },
+  "webpages": [
+    {
+      "url": "https://livingcareclub.com"
+    },
+    {
+      "url": "https://www.facebook.com/896414937065810/",
+      "meta": {
+        "id": "896414937065810",
+        "username": "livingcareclub",
+        "name": "Living Care 滿杏堂",
+        "category_list": [
+          {
+            "id": "188234584533149",
+            "name": "Doctor"
+          },
+          {
+            "id": "2243",
+            "name": "Medical Company"
+          }
+        ],
+        "emails": [
+          "info@livingcareclub.com"
+        ],
+        "single_line_address": "青衣機鐵站機鐵快綫地下46號舖 G/F Shop 46 Tsing Yi Station MTR Airport Express Line Hong Kong, 九龍",
+        "website": "http://www.livingcareclub.com"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/livingcareclub/posts/3155887087785239",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "chineseMedicinePractitioner",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港德輔道中249-253號東寧大廈604室"
+      },
+      "googleMapsPlaceId": "ChIJDZcGknABBDQRlGO8AjXm9k8",
+      "coordinates": {
+        "lat": 22.2868293,
+        "lng": 114.1522901
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "青衣機鐵站機鐵快綫地下46號舖"
+      },
+      "googleMapsPlaceId": "ChIJ4frBpNz4AzQR0NFrQedi88k",
+      "coordinates": {
+        "lat": 22.3584978,
+        "lng": 114.107672
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 1031
+    },
+    {
+      "type": "shop",
+      "id": 1033
+    }
+  ]
+}
