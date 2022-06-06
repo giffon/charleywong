@@ -1,0 +1,74 @@
+{
+  "id": "AmelieStreet",
+  "name": {
+    "en": "Amelie Street"
+  },
+  "webpages": [
+    {
+      "url": "https://www.ameliestreet.com"
+    },
+    {
+      "url": "https://www.facebook.com/191015304271309/",
+      "meta": {
+        "id": "191015304271309",
+        "username": "AmelieStreet",
+        "name": "Amelie Street",
+        "about": "銅鑼灣2-6號富明街道寶明大廈1樓M室 \n\nTel: 35978449\n\nOpening hour: 1:30-8:30pm",
+        "category_list": [
+          {
+            "id": "2209",
+            "name": "Clothing (Brand)"
+          }
+        ],
+        "website": "http://www.ameliestreet.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/ameliestreet/",
+      "meta": {
+        "website": "http://www.ameliestreet.com/",
+        "name": "Amelie street",
+        "about": "@ameliestreet #ameliestreet"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/AmelieStreet/posts/2315907661782052",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/AmelieStreet/posts/2618871638152318",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "clothing",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣2-6號富明街道寶明大廈1樓M室"
+      },
+      "googleMapsPlaceId": "ChIJzw_DM1EABDQRxuO_YF3u3rU",
+      "coordinates": {
+        "lat": 22.2785816,
+        "lng": 114.1835847
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 886
+    }
+  ]
+}
