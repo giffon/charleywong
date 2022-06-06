@@ -1,0 +1,109 @@
+{
+  "id": "livezero.hk",
+  "name": {
+    "en": "Live Zero"
+  },
+  "webpages": [
+    {
+      "url": "https://livezero.hk"
+    },
+    {
+      "url": "https://www.facebook.com/1557604787629969/",
+      "meta": {
+        "id": "1557604787629969",
+        "username": "livezero.hk",
+        "name": "Live Zero",
+        "about": "Hong Kong’s First Zero Waste Bulk Food Store! Located in Sai Ying Pun & Sai Kung featuring a ton of package free food options, daily essentials and products to help you achieve a zero-waste lifestyle.",
+        "category_list": [
+          {
+            "id": "162264673824073",
+            "name": "Specialty Grocery Store"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "2214",
+            "name": "Health/beauty"
+          }
+        ],
+        "emails": [
+          "hello@livezero.hk"
+        ],
+        "website": "http://www.livezero.hk"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/livezero.hk/",
+      "meta": {
+        "website": "https://linktr.ee/livezero",
+        "name": "Live Zero | Hong Kong's first zero-waste grocery store",
+        "about": "♻️ Eco-friendly & reusable products\n📍 33 High Street SYP\n📍 22 Yi Chun Street SK\n📍 15/F 4, Eastern Centre QB"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/livezero.hk/posts/2378760865514353",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "foodStore",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "西營盤高街33號"
+      },
+      "googleMapsPlaceId": "ChIJSTMOSof_AzQRzMlL74K8esQ",
+      "coordinates": {
+        "lat": 22.2852246,
+        "lng": 114.1426443
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "西貢宜春街22號"
+      },
+      "googleMapsPlaceId": "ChIJI8imJkwFBDQRVoUpaDqO0qM",
+      "coordinates": {
+        "lat": 22.3814838,
+        "lng": 114.271196
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "鰂魚涌英皇道1065號東達中心15樓4室"
+      },
+      "googleMapsPlaceId": "ChIJY3ksU9sBBDQRWr48gtn4jcM",
+      "coordinates": {
+        "lat": 22.2851153,
+        "lng": 114.2142514
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 961
+    },
+    {
+      "type": "shop",
+      "id": 962
+    }
+  ]
+}
