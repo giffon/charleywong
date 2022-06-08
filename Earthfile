@@ -1,5 +1,5 @@
 VERSION 0.6
-ARG UBUNTU_RELEASE=focal
+ARG UBUNTU_RELEASE=jammy
 FROM mcr.microsoft.com/vscode/devcontainers/base:0-$UBUNTU_RELEASE
 ARG DEVCONTAINER_IMAGE_NAME_DEFAULT=ghcr.io/giffon/charleywong_devcontainer_workspace
 ARG LAMBDA_IMAGE_REGISTRY=932878902707.dkr.ecr.us-east-1.amazonaws.com
@@ -65,7 +65,6 @@ devcontainer-base:
             direnv \
         && echo 'eval "$(direnv hook bash)"' >> /etc/bash.bashrc \
         && add-apt-repository -y universe \
-        && add-apt-repository -y ppa:groonga/ppa \
         && apt-get install -y groonga libgroonga-dev groonga-bin groonga-tokenizer-mecab groonga-token-filter-stem groonga-normalizer-mysql \
         && curl -sL https://deb.nodesource.com/setup_16.x | bash - \
         && apt-get install -y nodejs=16.* \
@@ -303,7 +302,7 @@ hkbase-directory:
     RUN \
         --mount=type=secret,id=+secrets/.envrc,target=.envrc \
         . ./.envrc \
-        && node dumpHkbaseDirectory.js dump
+        && OPENSSL_CONF=/dev/null node dumpHkbaseDirectory.js dump
     SAVE ARTIFACT HkbaseDirectory.json
 
 ybm-download:
@@ -421,13 +420,11 @@ chrome-extension:
 
 lambda-container-base:
     FROM ubuntu:$UBUNTU_RELEASE
+    ENV DEBIAN_FRONTEND=noninteractive
     RUN apt-get update \
-        && apt-get install -y --no-install-recommends software-properties-common curl \
-        && add-apt-repository -y universe \
-        && add-apt-repository -y ppa:groonga/ppa \
-        && apt-get install -y --no-install-recommends groonga groonga-token-filter-stem \
+        && apt-get install -yq --no-install-recommends ca-certificates curl groonga groonga-token-filter-stem \
         && curl -sL https://deb.nodesource.com/setup_16.x | bash - \
-        && apt-get install -y --no-install-recommends nodejs=16.* \
+        && apt-get install -yq --no-install-recommends nodejs=16.* \
         #
         # Clean up
         && apt-get autoremove -y \
