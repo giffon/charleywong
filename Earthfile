@@ -139,6 +139,11 @@ terraform:
     RUN tfenv install "$TERRAFORM_VERSION"
     RUN tfenv use "$TERRAFORM_VERSION"
 
+flyctl:
+    ARG FLY_VERSION=0.0.333
+    RUN curl -fsSL https://fly.io/install.sh | bash -s -- "$FLY_VERSION"
+    SAVE ARTIFACT /root/.fly
+
 # COPY +earthly/earthly /usr/local/bin/
 # RUN earthly bootstrap --no-buildkit --with-autocomplete
 earthly:
@@ -168,6 +173,10 @@ devcontainer:
     RUN earthly bootstrap --no-buildkit --with-autocomplete
 
     USER $USERNAME
+
+    ENV FLYCTL_INSTALL="/home/$USERNAME/.fly"
+    ENV PATH="$FLYCTL_INSTALL/bin:$PATH"
+    COPY --chown=$USER_UID:$USER_GID +flyctl/.fly "$FLYCTL_INSTALL"
 
     # Do not show git branch in bash prompt because it's slow
     # https://github.com/microsoft/vscode-dev-containers/issues/1196#issuecomment-988388658
