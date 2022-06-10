@@ -95,7 +95,7 @@ jobs:
           EARTHLY_REMOTE_CACHE: "ghcr.io/giffon/charleywong_cache:master_fly"
       - name: Deploy
         if: success() && env.PUSH == 'true' && github.event_name == 'push'
-        run: flyctl deploy --remote-only
+        run: flyctl deploy --image "registry.fly.io/charleywong:${{ github.sha }}"
         env:
           EARTHLY_SECRET_FILES: .envrc=.envrc
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
