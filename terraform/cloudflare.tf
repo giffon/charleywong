@@ -10,20 +10,46 @@ resource "cloudflare_record" "_acme-challenge-charleywong" {
   ttl     = 1
 }
 
-resource "cloudflare_record" "charleywong" {
+resource "cloudflare_record" "_acme-challenge-charleywong-dev" {
+  zone_id = data.cloudflare_zone.giffonio.id
+  name    = "_acme-challenge.charleywong-dev"
+  value   = "charleywong-dev.giffon.io.m6z0n.flydns.net"
+  type    = "CNAME"
+  ttl     = 1
+}
+
+resource "cloudflare_record" "charleywong-A" {
   zone_id = data.cloudflare_zone.giffonio.id
   name    = "charleywong"
-  value   = "d-ym2czixfq5.execute-api.us-east-1.amazonaws.com"
-  type    = "CNAME"
+  value   = "37.16.16.171"
+  type    = "A"
   ttl     = 1
   proxied = true
 }
 
-resource "cloudflare_record" "charleywong-dev" {
+resource "cloudflare_record" "charleywong-AAAA" {
+  zone_id = data.cloudflare_zone.giffonio.id
+  name    = "charleywong"
+  value   = "2a09:8280:1::44f4"
+  type    = "AAAA"
+  ttl     = 1
+  proxied = true
+}
+
+resource "cloudflare_record" "charleywong-dev-A" {
   zone_id = data.cloudflare_zone.giffonio.id
   name    = "charleywong-dev"
-  value   = "d-786mbxxpy7.execute-api.us-east-1.amazonaws.com"
-  type    = "CNAME"
+  value   = "37.16.16.171"
+  type    = "A"
+  ttl     = 1
+  proxied = true
+}
+
+resource "cloudflare_record" "charleywong-dev-AAAA" {
+  zone_id = data.cloudflare_zone.giffonio.id
+  name    = "charleywong-dev"
+  value   = "2a09:8280:1::44f4"
+  type    = "AAAA"
   ttl     = 1
   proxied = true
 }
