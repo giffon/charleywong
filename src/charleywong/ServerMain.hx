@@ -888,8 +888,25 @@ class ServerMain {
     }
 
     static function main():Void {
-        if (isMain) {
-            var watcher = js.npm.chokidar.Chokidar.watch(dataDirectory,{
+        if (Sys.getEnv("FLY_APP_NAME") != null) {
+            app = Fastify.fastify();
+            initServer();
+            app.listen(80, "0.0.0.0");
+        } else if (Sys.getEnv("AWS_LAMBDA_FUNCTION_NAME") != null) {
+            app = Fastify.fastify();
+            initServer();
+            js.Node.exports.handler = require('aws-lambda-fastify')(app, {
+                binaryMimeTypes: [
+                    "image/png",
+                    "image/jpeg",
+                    "image/gif",
+                    "image/bmp",
+                    "image/webp",
+                    "image/x-icon",
+                ],
+            });
+        } else {
+            final watcher = js.npm.chokidar.Chokidar.watch(dataDirectory,{
                 persistent: true,
                 ignoreInitial: true,
             });
@@ -938,19 +955,6 @@ class ServerMain {
                         geocode(e);
                     }
                 });
-        } else {
-            app = Fastify.fastify();
-            initServer();
-            js.Node.exports.handler = require('aws-lambda-fastify')(app, {
-                binaryMimeTypes: [
-                    "image/png",
-                    "image/jpeg",
-                    "image/gif",
-                    "image/bmp",
-                    "image/webp",
-                    "image/x-icon",
-                ],
-            });
         }
     }
 }

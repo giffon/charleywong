@@ -5,6 +5,8 @@ ARG DEVCONTAINER_IMAGE_NAME_DEFAULT=ghcr.io/giffon/charleywong_devcontainer_work
 ARG LAMBDA_IMAGE_REGISTRY=932878902707.dkr.ecr.us-east-1.amazonaws.com
 ARG LAMBDA_IMAGE_NAME_MASTER=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-master
 ARG LAMBDA_IMAGE_NAME_PRODUCTION=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-production
+ARG FLY_IMAGE_REGISTRY=registry.fly.io
+ARG FLY_IMAGE_NAME=$FLY_IMAGE_REGISTRY/charleywong
 
 ARG USERNAME=vscode
 ARG USER_UID=1000
@@ -427,7 +429,7 @@ chrome-extension:
     RUN haxe chrome-extension.hxml
     SAVE ARTIFACT --keep-ts chrome/*.js AS LOCAL ./chrome/
 
-lambda-container-base:
+runtime:
     FROM ubuntu:$UBUNTU_RELEASE
     ENV DEBIAN_FRONTEND=noninteractive
     RUN apt-get update \
@@ -442,8 +444,26 @@ lambda-container-base:
     WORKDIR /workspace
     SAVE IMAGE --cache-hint
 
+fly-image:
+    FROM +runtime
+    COPY +node-modules-prod/node_modules node_modules
+    COPY static static
+    COPY data data
+    COPY +entity-index/groonga data/groonga
+    COPY +ybm/* ybm
+    COPY +hkbase-directory/* .
+    COPY +dclookup/* .
+    COPY +browser-script/* static
+    COPY +service-worker/* static
+    COPY +tailwind/* static/css
+    COPY +server-script/* .
+    CMD ["node", "index.js"]
+    ARG FLY_IMAGE_NAME=$FLY_IMAGE_NAME
+    ARG FLY_IMAGE_TAG=development
+    SAVE IMAGE --push "$FLY_IMAGE_NAME:$FLY_IMAGE_TAG"
+
 lambda-container:
-    FROM +lambda-container-base
+    FROM +runtime
     COPY +node-modules-prod/node_modules node_modules
     COPY static static
     COPY data data
