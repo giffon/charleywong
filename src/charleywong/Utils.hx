@@ -78,7 +78,6 @@ class Utils {
                 "--retry", "3",
                 "--connect-timeout", "30",
                 "--max-redirs", "5", // fb posts may return inf redirects
-                "--http1.0",
                 "-A", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"
             ]);
             code = p.exitCode();
