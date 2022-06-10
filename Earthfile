@@ -7,6 +7,7 @@ ARG LAMBDA_IMAGE_NAME_MASTER=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-maste
 ARG LAMBDA_IMAGE_NAME_PRODUCTION=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-production
 ARG FLY_IMAGE_REGISTRY=registry.fly.io
 ARG FLY_IMAGE_NAME=$FLY_IMAGE_REGISTRY/charleywong
+ARG NODE_VERSION=18
 
 ARG USERNAME=vscode
 ARG USER_UID=1000
@@ -68,8 +69,8 @@ devcontainer-base:
         && echo 'eval "$(direnv hook bash)"' >> /etc/bash.bashrc \
         && add-apt-repository -y universe \
         && apt-get install -y groonga libgroonga-dev groonga-bin groonga-tokenizer-mecab groonga-token-filter-stem groonga-normalizer-mysql \
-        && curl -sL https://deb.nodesource.com/setup_16.x | bash - \
-        && apt-get install -y nodejs=16.* \
+        && curl -sL https://deb.nodesource.com/setup_$NODE_VERSION.x | bash - \
+        && apt-get install -y nodejs=$NODE_VERSION.* \
         && add-apt-repository -y ppa:git-core/ppa \
         && apt-get install -y git \
         && curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add - \
@@ -434,8 +435,8 @@ runtime:
     ENV DEBIAN_FRONTEND=noninteractive
     RUN apt-get update \
         && apt-get install -yq --no-install-recommends ca-certificates curl groonga groonga-token-filter-stem \
-        && curl -sL https://deb.nodesource.com/setup_16.x | bash - \
-        && apt-get install -yq --no-install-recommends nodejs=16.* \
+        && curl -sL https://deb.nodesource.com/setup_$NODE_VERSION.x | bash - \
+        && apt-get install -yq --no-install-recommends nodejs=$NODE_VERSION.* \
         #
         # Clean up
         && apt-get autoremove -y \
