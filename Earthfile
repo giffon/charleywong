@@ -341,7 +341,7 @@ ybm:
     FROM +ybm-download --CACHE_KEY="$(date +%Y%m%d)"
     SAVE ARTIFACT ybm
 
-exportSpreadsheet:
+exportSpreadsheet.js:
     FROM +devcontainer
     COPY +dclookup/* .
     COPY lib/hxnodelibs lib/hxnodelibs
@@ -359,6 +359,49 @@ exportSpreadsheet:
         AWS_ACCESS_KEY_ID="$YBM_AWS_ACCESS_KEY_ID" \
         AWS_SECRET_ACCESS_KEY="$YBM_AWS_SECRET_ACCESS_KEY" \
         haxe $HAXE_ARGS exportSpreadsheet.hxml
+    SAVE ARTIFACT exportSpreadsheet.js
+
+exportSpreadsheet:
+    # Somehow +devcontainer doesn't work:
+    # Error: error:25066067:DSO support routines:dlfcn_load:could not load the shared library
+    FROM node:$NODE_VERSION-bullseye
+    RUN apt-get update && apt-get install -yq \
+            bash-completion \
+            build-essential \
+            pkg-config \
+            cmake \
+            autoconf \
+            libtool \
+            groonga \
+            libgroonga-dev \
+            groonga-bin \
+            groonga-tokenizer-mecab \
+            groonga-token-filter-stem \
+            groonga-normalizer-mysql \
+        #
+        # Clean up
+        && apt-get autoremove -y \
+        && apt-get clean -y \
+        && rm -rf /var/lib/apt/lists/*
+    WORKDIR $WORKDIR
+    COPY .haxerc package.json yarn.lock .
+    COPY +lix-download/haxe "$HAXESHIM_ROOT"
+    RUN yarn
+    COPY +awscli/aws /aws
+    RUN /aws/install
+    COPY +dclookup/* .
+    # COPY +node-modules-dev/node_modules node_modules
+    COPY +entity-index/groonga data/groonga
+    COPY +exportSpreadsheet.js/exportSpreadsheet.js .
+    COPY static static
+    COPY --keep-ts data/entity data/entity
+    RUN --mount=type=secret,id=+secrets/.envrc,target=.envrc \
+        . ./.envrc \
+        && \
+        AWS_DEFAULT_REGION="$YBM_AWS_DEFAULT_REGION" \
+        AWS_ACCESS_KEY_ID="$YBM_AWS_ACCESS_KEY_ID" \
+        AWS_SECRET_ACCESS_KEY="$YBM_AWS_SECRET_ACCESS_KEY" \
+        node exportSpreadsheet.js
     SAVE ARTIFACT --keep-ts data/entity AS LOCAL data/entity
 
 test:
