@@ -21,15 +21,6 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: true
-      - uses: superfly/flyctl-actions/setup-flyctl@master
-        if: success() && env.PUSH == 'true' && github.event_name == 'push'
-        env:
-          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
-      - name: Login to registry.fly.io
-        if: success() && env.PUSH == 'true' && github.event_name == 'push'
-        run: flyctl auth docker
-        env:
-          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
       - name: Configure AWS credentials
         if: success() && env.PUSH == 'true'
         uses: aws-actions/configure-aws-credentials@v1
@@ -86,19 +77,18 @@ jobs:
           YBM_AWS_SECRET_ACCESS_KEY: ${{ secrets.YBM_AWS_SECRET_ACCESS_KEY }}
           FACEBOOK_TOKEN: ${{ secrets.FACEBOOK_TOKEN }}
           SERVERLESS_ACCESS_KEY: ${{ secrets.serverlessAccessKey }}
-      - name: Build fly image
+      - name: Build Lambda image
         if: success() && env.PUSH == 'true' && github.event_name == 'push'
-        run: earthly +fly-image --FLY_IMAGE_TAG="${{ github.sha }}"
+        run: earthly +lambda-container --LAMBDA_IMAGE_TAG="${{ github.sha }}"
         env:
           EARTHLY_SECRET_FILES: .envrc=.envrc
           EARTHLY_PUSH: ${{ env.PUSH }}
-          EARTHLY_REMOTE_CACHE: "ghcr.io/giffon/charleywong_cache:master_fly"
+          EARTHLY_REMOTE_CACHE: "ghcr.io/giffon/charleywong_cache:master_lambda"
       - name: Deploy
         if: success() && env.PUSH == 'true' && github.event_name == 'push'
-        run: flyctl deploy --image "registry.fly.io/charleywong:${{ github.sha }}"
+        run: earthly +deploy --LAMBDA_IMAGE_TAG="${{ github.sha }}" --DEPLOY_STAGE="master"
         env:
           EARTHLY_SECRET_FILES: .envrc=.envrc
-          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
       - name: Post-deployment test
         if: success() && env.PUSH == 'true' && github.event_name == 'push'
-        run: earthly +test --TEST="post-deployment charleywong.giffon.io"
+        run: earthly +test --TEST="post-deployment charleywong-master.giffon.io"
