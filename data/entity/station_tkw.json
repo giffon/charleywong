@@ -1,5 +1,5 @@
 {
-  "id": "865108003692763",
+  "id": "station_tkw",
   "name": {
     "zh": "茶渟",
     "en": "Station"
@@ -23,6 +23,14 @@
         "website": "https://s.dimorder.com/station"
       },
       "url": "https://www.facebook.com/865108003692763/"
+    },
+    {
+      "url": "https://www.instagram.com/station_tkw/",
+      "meta": {
+        "website": "https://s.dimorder.com/station",
+        "name": "STATION 茶渟",
+        "about": "⏰營業時間 : 11:00~23:00\n📌地址 : 土瓜灣譚公道65d地鋪"
+      }
     }
   ],
   "posts": [
@@ -57,5 +65,8 @@
       "type": "eat",
       "id": 792
     }
+  ],
+  "alias": [
+    "865108003692763"
   ]
 }
