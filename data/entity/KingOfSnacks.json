@@ -1,7 +1,8 @@
 {
-  "id": "215159408633976",
+  "id": "KingOfSnacks",
   "name": {
-    "zh": "小食皇"
+    "zh": "小食皇",
+    "en": "King Of Snacks"
   },
   "webpages": [
     {
@@ -65,5 +66,8 @@
       "type": "eat",
       "id": 1539
     }
+  ],
+  "alias": [
+    "215159408633976"
   ]
 }
