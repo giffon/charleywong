@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://as-uni.com"
+      "url": "https://as-uni.com"
     },
     {
       "meta": {
@@ -26,6 +26,14 @@
         "website": "as-uni.com"
       },
       "url": "https://www.facebook.com/asuni.style/"
+    },
+    {
+      "url": "https://www.instagram.com/asuni.style/",
+      "meta": {
+        "website": "http://as-uni.com/",
+        "name": "asuni, 【每週新品到達門市！💕】",
+        "about": "𝐃𝐢𝐟𝐟𝐞𝐫𝐞𝐭 𝐢𝐬 𝐔𝐧𝐢𝐪𝐮𝐞\n📍尖沙咀美麗華一期 : 12PM-8:30PM(mon-thu)\n12PM-9PM(fri-sun)\n💬查詢/下單 wtsapp 61698863 /DM\n🇰🇷All from Korea"
+      }
     }
   ],
   "posts": [
@@ -34,12 +42,28 @@
     }
   ],
   "tags": [
-    "clothing"
+    "clothing",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 1308
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀美麗華廣場1期G29號舖"
+      },
+      "googleMapsPlaceId": "ChIJybMTUdcBBDQRVz6ZY2zAIiM",
+      "coordinates": {
+        "lat": 22.3000224,
+        "lng": 114.172422
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
