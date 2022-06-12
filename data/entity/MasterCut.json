@@ -1,0 +1,72 @@
+{
+  "id": "MasterCut",
+  "name": {
+    "en": "Master Cut"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/273173696726258/",
+      "meta": {
+        "id": "273173696726258",
+        "name": "Master Cut",
+        "category_list": [
+          {
+            "id": "174177802634376",
+            "name": "Hair Salon"
+          },
+          {
+            "id": "169758603141095",
+            "name": "Barber Shop"
+          }
+        ],
+        "single_line_address": "新墟明藝街24號好景樓地下A舖, 852 屯門"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/mastercut_hair/",
+      "meta": {
+        "name": "Master Cut",
+        "about": "Beauty, cosmetic & personal care"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=435997717110521&id=273173696726258",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=543161829727442&id=273173696726258",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "salon",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新墟明藝街24號好景樓地下A舖"
+      },
+      "googleMapsPlaceId": "ChIJs-P86qr7AzQRP5sLRQ0IUNg",
+      "coordinates": {
+        "lat": 22.3976456,
+        "lng": 113.9740822
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 681
+    }
+  ]
+}
