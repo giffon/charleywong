@@ -7,8 +7,9 @@
     {
       "url": "https://www.instagram.com/dustykidfood/",
       "meta": {
+        "website": "https://bit.ly/dkfoodorder01",
         "name": "心事如塵茶食亭",
-        "about": "讓我們一起喝口塵茶，吃口塵食，換個心情，抹去心事，令內心回歸自在❣️ FB @dustykidfood\n店舖：上環 / 觀塘 / 葵興 / 鰂魚涌\n歡迎訂購塵輕食"
+        "about": "店舖：上環 / 葵興 / 鰂魚涌 / 荔枝角 / 灣仔\n喝口塵茶，吃口塵食，換個心情，抹去心事，令內心回歸自在❣️ 網頁訂購#散水餅 #回禮禮物 #打氣禮物 心靈金句烘焙食品 #香港手工製作、獨立包裝、低糖、無防腐劑👇🏻\nFB @dustykidfood #塵茶 #沙律 #塵丼丼 #蔬菜湯"
       }
     },
     {
@@ -106,15 +107,28 @@
     },
     {
       "address": {
-        "zh": "觀塘偉業街221-231號宏利金融中心(MFC) A座1樓6號舖"
+        "zh": "長沙灣道883號億利工業中心地下6-A3舖"
       },
-      "googleMapsPlaceId": "ChIJ5Y0z0P4BBDQRjLDzLN_g8uU",
+      "googleMapsPlaceId": "ChIJu1LELDQHBDQRc8wpGjUWAmA",
       "coordinates": {
-        "lat": 22.3084284,
-        "lng": 114.2231214
+        "lat": 22.3367581,
+        "lng": 114.1477441
       },
       "area": {
-        "zh": "觀塘區"
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "灣仔軒尼詩道38-46號地下E舖"
+      },
+      "googleMapsPlaceId": "EiMzOCBIZW5uZXNzeSBSZCwgV2FuIENoYWksIEhvbmcgS29uZyIwEi4KFAoSCav4xwJdAAQ0EeebdO_YRyzLECYqFAoSCYNBp8lbAAQ0ERU7Txt9LFWi",
+      "coordinates": {
+        "lat": 22.2774564,
+        "lng": 114.1705548
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ],
@@ -138,6 +152,10 @@
     {
       "type": "eat",
       "id": 5113
+    },
+    {
+      "type": "eat",
+      "id": 6751
     }
   ]
 }
