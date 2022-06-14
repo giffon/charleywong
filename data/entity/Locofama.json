@@ -1,0 +1,68 @@
+{
+  "id": "Locofama",
+  "name": {
+    "en": "Locofama"
+  },
+  "webpages": [
+    {
+      "url": "https://locofama.com"
+    },
+    {
+      "url": "https://www.facebook.com/153996084780103/",
+      "meta": {
+        "id": "153996084780103",
+        "username": "Locofama",
+        "name": "Locofama",
+        "about": "Fresh Organic Bites",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "199833073363963",
+            "name": "Wine, Beer & Spirits Store"
+          }
+        ],
+        "emails": [
+          "hello@locofama.com"
+        ],
+        "single_line_address": "9-13 Fuk Sau Ln, 852 西營盤",
+        "website": "http://www.locofama.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/locofama/",
+      "meta": {
+        "website": "https://linktr.ee/locofamagroup",
+        "name": "LOCOFAMA",
+        "about": "Your local, organic, pet friendly hang out, bringing healthy, hearty living to the table. 🌱 🍴🐕\nWhatsapp +852 6223 1665 for enquiries"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "9-13 Fuk Sau Ln"
+      },
+      "googleMapsPlaceId": "ChIJeW_ALYH_AzQRoob80Cb4Nr4",
+      "coordinates": {
+        "lat": 22.2859538,
+        "lng": 114.1402848
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 411
+    }
+  ]
+}

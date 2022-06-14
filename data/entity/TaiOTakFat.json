@@ -1,0 +1,74 @@
+{
+  "id": "TaiOTakFat",
+  "name": {
+    "zh": "大澳德發"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/101620372257519/",
+      "meta": {
+        "id": "101620372257519",
+        "name": "大澳德發（銅鑼灣）",
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          },
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
+        ]
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=167455529007336&id=101620372257519",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "北角英皇道153號英皇樓地下"
+      },
+      "googleMapsPlaceId": "ChIJnyUpigEBBDQR1ZNCfGEWjKU",
+      "coordinates": {
+        "lat": 22.2883192,
+        "lng": 114.1933148
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣謝斐道477-481號肇明大廈1樓及地下A號舖"
+      },
+      "googleMapsPlaceId": "ChIJYRanAlcABDQRAvvEJOBpVWQ",
+      "coordinates": {
+        "lat": 22.2811986,
+        "lng": 114.1825549
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 445
+    },
+    {
+      "type": "eat",
+      "id": 6750
+    }
+  ]
+}
