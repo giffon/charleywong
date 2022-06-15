@@ -2,25 +2,32 @@
     "$id": "Entity.json",
     "type": "object",
     "properties": {
-        "id" : {
-            "$ref": "#/definitions/entityId"
+        "id": {
+            "$ref": "#/definitions/entityId",
+            "allOf": [
+                {
+                    "description": "should not contain the word 'official'",
+                    "type": "string",
+                    "pattern": "^((?![oO][fF][fF][iI][cC][iI][aA][lL]).)*$"
+                }
+            ]
         },
-        "name" : {
+        "name": {
             "$ref": "MultiLangString.json"
         },
-        "webpages" : {
+        "webpages": {
             "type": "array",
             "items": {
                 "$ref": "WebPage.json"
             }
         },
-        "posts" : {
+        "posts": {
             "type": "array",
             "items": {
                 "$ref": "Post.json"
             }
         },
-        "tags" : {
+        "tags": {
             "type": "array",
             "items": {
                 "$ref": "Tag.json"
@@ -28,28 +35,28 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "alias" : {
+        "alias": {
             "type": "array",
             "items": {
                 "$ref": "#/definitions/entityId"
             },
             "uniqueItems": true
         },
-        "places" : {
+        "places": {
             "type": "array",
             "items": {
                 "$ref": "Place.json"
             }
         },
-        "yellowBlueMapIds" : {
+        "yellowBlueMapIds": {
             "type": "array",
             "items": {
                 "type": "object",
                 "properties": {
-                    "type" : {
+                    "type": {
                         "type": "string"
                     },
-                    "id" : {
+                    "id": {
                         "type": "integer"
                     }
                 }
