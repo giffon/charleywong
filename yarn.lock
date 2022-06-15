@@ -3376,10 +3376,18 @@ avvio@^7.1.2:
     fastq "^1.6.1"
     queue-microtask "^1.1.2"
 
-aws-lambda-fastify@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.npmjs.org/aws-lambda-fastify/-/aws-lambda-fastify-2.1.2.tgz"
-  integrity sha512-ngvuS3R8YI1yyE2OMZwAQKsZRlLaT0JqUyVVEYOmSHY+N/TxZCicW8KMuGL4XavWHjOsH7ZqQOgjbdDZH7CqEg==
+"aws-lambda-fastify-deprecated@npm:aws-lambda-fastify@2.1.6":
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/aws-lambda-fastify/-/aws-lambda-fastify-2.1.6.tgz#3e87f77a1c490e7c5613cfcdd6923158be975c35"
+  integrity sha512-56OHxiVrA5CjkjkLaO9VWGoWqLSIwMrrkZCDH+2XS/yprHqlGCJdzihaAhpTDB2FWrqwB9wp4ikINiHX3AcXXg==
+
+aws-lambda-fastify@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/aws-lambda-fastify/-/aws-lambda-fastify-2.2.0.tgz#38a4d060676147bfe919f9fc771c3ee276c29c72"
+  integrity sha512-19AR/u7XEOEDFtWATWjSJMb5vCTR2+HXjOAf/b5SkBJIcCGzOcQkBLu72o6ZpLVzIssM1pz45vn40mbngwxy/g==
+  dependencies:
+    aws-lambda-fastify-deprecated "npm:aws-lambda-fastify@2.1.6"
+    process-warning "^1.0.0"
 
 aws-lambda-ric@2.0.0:
   version "2.0.0"
