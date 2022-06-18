@@ -1,0 +1,65 @@
+{
+  "id": "TapsandBites",
+  "name": {
+    "en": "Taps and Bites"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/105027754297027/",
+      "meta": {
+        "id": "105027754297027",
+        "name": "Taps and Bites",
+        "about": "Beer and Southeast Asian Grill",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "263451080680156",
+            "name": "Beer Bar"
+          }
+        ],
+        "single_line_address": "香港灣仔大王東街7號地鋪 G/F, 7 Tai Wong Street East, Wan Chai, +852 香港"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=143841250415677&id=105027754297027",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=155413585925110&id=105027754297027",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "bar"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港灣仔大王東街7號地鋪"
+      },
+      "googleMapsPlaceId": "ChIJ_fnB0FwABDQR8g9M5kHTYlE",
+      "coordinates": {
+        "lat": 22.2758325,
+        "lng": 114.1711616
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1898
+    }
+  ]
+}
