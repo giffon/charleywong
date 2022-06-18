@@ -1,0 +1,95 @@
+{
+  "id": "HKERBurger",
+  "name": {
+    "en": "HONG KONG Burger"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/100189782142700/",
+      "meta": {
+        "id": "100189782142700",
+        "username": "HKERBurger",
+        "name": "HONG KONG Burger",
+        "about": "HONG KONG Burger \n漢堡專賣店�\n各款意式薄餅、熱狗、意粉��",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "SHOP NO.74 ON GROUND FLOOR, MEI FOO SUN CHUEN, NOS.41-49, 51-68, 70-90 BROADWAY, NOS. 6-8 GLEE PATH KL 九龍吉利徑6-8號，百老匯街41-49, 51-68, 70-90號美孚新邨地下74號, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/hongkongburgerhker/",
+      "meta": {
+        "website": "https://www.facebook.com/HONG-KONG-Burger-100189782142700/",
+        "name": "HONG KONG BURGER",
+        "about": "九龍吉利徑6-8號百老匯街74號地下74A舖\n(近美孚地鐵站A出口)\n葵芳葵富路7-11號葵涌廣場2樓潮流廊2018號鋪\n九龍灣宏泰道12號榮發工業大廈地下4A3號舖\n各款自家製🍔漢堡包🍕Pizza🌭熱狗🍝意粉"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "burger"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍吉利徑6-8號百老匯街74號地下74A舖"
+      },
+      "googleMapsPlaceId": "ChIJZbnWAwP_AzQRQZ5vWZsGYbo",
+      "coordinates": {
+        "lat": 22.3361565,
+        "lng": 114.1406809
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵芳葵富路7-11號葵涌廣場2樓潮流廊2018號鋪"
+      },
+      "googleMapsPlaceId": "ChIJPehqtr34AzQR1OpdrdG_QCc",
+      "coordinates": {
+        "lat": 22.3582607,
+        "lng": 114.1271935
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍灣宏泰道12號榮發工業大廈地下4A3號舖"
+      },
+      "googleMapsPlaceId": "ChIJn_O6gjQBBDQRwp3ph7N5zeA",
+      "coordinates": {
+        "lat": 22.3231376,
+        "lng": 114.209115
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6268
+    },
+    {
+      "type": "eat",
+      "id": 6269
+    },
+    {
+      "type": "eat",
+      "id": 6468
+    }
+  ]
+}
