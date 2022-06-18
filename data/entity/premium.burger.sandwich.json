@@ -1,0 +1,67 @@
+{
+  "id": "premium.burger.sandwich",
+  "name": {
+    "en": "Premium burger & sandwich"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/Premiumburgerandsandwich/",
+      "meta": {
+        "id": "106393558292646",
+        "username": "Premiumburgerandsandwich",
+        "name": "Premium burger & sandwich",
+        "about": "主打特色手工和牛漢堡,各款特色三文治，即叫即製,肉質Juicy,包你一試難忘~歡迎外賣自取~\n銅鑼灣希雲街12號",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/service"
+          }
+        ],
+        "single_line_address": "銅鑼灣希雲街12號, +852 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/premium.burger.sandwich/",
+      "meta": {
+        "website": "https://m.facebook.com/Premiumburgerandsandwich/?ref=bookmarks",
+        "name": "P.B.S.",
+        "about": "Premium Burger & Sandwich\n地址：香港銅鑼灣希雲街12號\nAddress: 12 Haven street, Causeway Bay, HK\nOpening hours: 12:00-22:00\n為你獻上最優質既美食🍴\n主打手工和牛漢堡🍔\n各款特色三文治🥪\n啤酒炸物小食🍟"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/CPs_xHOhNcm/"
+    },
+    {
+      "url": "https://www.facebook.com/Premiumburgerandsandwich/posts/140878031510865",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "burger"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣希雲街12號"
+      },
+      "googleMapsPlaceId": "ChIJw2z2O5X7AzQR2xDvi6ktMWs",
+      "coordinates": {
+        "lat": 22.2781333,
+        "lng": 114.1865979
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6404
+    }
+  ]
+}

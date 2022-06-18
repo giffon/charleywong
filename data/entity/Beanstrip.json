@@ -1,0 +1,61 @@
+{
+  "id": "Beanstrip",
+  "name": {
+    "en": "Beanstrip",
+    "zh": "豆旅"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/106394694503627/",
+      "meta": {
+        "id": "106394694503627",
+        "name": "Beanstrip豆旅",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://www.instagram.com/beanstrip/",
+      "meta": {
+        "name": "BeansTrip豆旅",
+        "about": "HK🇭🇰\nShop B2, 15 Hillwood Road, Tsim Sha Tsui\n-\nSun - Thur l 12 - 6pm\nFri - Sat l 12 - 8pm\n-\nMon l Non-stable Open\n-\n一粒豆子、不分好壞\n簡單旅程、享受其中"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/CPr2T7xgavW/"
+    },
+    {
+      "url": "https://www.instagram.com/p/CQP1vtmArvl/"
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop B2, 15 Hillwood Road, Tsim Sha Tsui"
+      },
+      "googleMapsPlaceId": "ChIJs_dQuQEBBDQRZgTf9-luSpA",
+      "coordinates": {
+        "lat": 22.3027727,
+        "lng": 114.1729074
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6400
+    }
+  ]
+}
