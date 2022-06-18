@@ -9,7 +9,7 @@
       "url": "https://www.instagram.com/loudtea_hk/",
       "meta": {
         "name": "響茶Loud Tea",
-        "about": "獨柯不成樹，獨樹不成林《團結》香港人🇭🇰\n響茶重心為茶香,全茶葉台灣直送\n歡迎🇭🇰🟡責任心『加盟者』合作\n柴灣 : 柴灣道350號樂軒台317至318號\n☎️98643317\n炮台山 : 英皇道177號利都樓地下A1號\n☎️46117360"
+        "about": "獨柯不成樹、獨樹不成林《團結》香港人🇭🇰\n響茶重心為茶香,全茶葉台灣直送"
       }
     },
     {
@@ -48,14 +48,63 @@
         "single_line_address": "樂軒臺, Hong Kong, Hong Kong"
       },
       "hidden": true
+    },
+    {
+      "url": "https://www.facebook.com/110223431482568/",
+      "meta": {
+        "id": "110223431482568",
+        "name": "響茶 - 灣仔分店",
+        "about": "灣仔響茶🧋",
+        "category_list": [
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          }
+        ],
+        "single_line_address": "灣仔 - 灣仔道162-164號 - 地下B1號舖"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.facebook.com/104952915146879/",
+      "hidden": true,
+      "meta": {
+        "id": "104952915146879",
+        "name": "響茶 土瓜灣店",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "土瓜灣道80號地下"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/104406381938132/",
+      "hidden": true,
+      "meta": {
+        "id": "104406381938132",
+        "name": "響茶（九龍城）",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "九龍城獅子石道93號2號舖"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.instagram.com/p/B0tOIf1Hei3/"
+      "url": "https://www.instagram.com/p/B4sVlljBn8-/"
     },
     {
-      "url": "https://www.instagram.com/p/CApBIuFhY-f/"
+      "url": "https://www.instagram.com/p/B4u8ihQh8rp/"
+    },
+    {
+      "url": "https://www.instagram.com/p/CL379zjh8Gc/"
     }
   ],
   "tags": [
@@ -67,10 +116,10 @@
       "address": {
         "zh": "柴灣柴灣道350號樂軒臺地下317-318號舖"
       },
-      "googleMapsPlaceId": "ChIJu8f13ScCBDQRY32ur5M-yxE",
+      "googleMapsPlaceId": "ChIJv6fltzsDBDQRV78rhp8C-nE",
       "coordinates": {
-        "lat": 22.263897,
-        "lng": 114.240544
+        "lat": 22.2640342,
+        "lng": 114.2409757
       },
       "area": {
         "zh": "東區"
@@ -80,13 +129,52 @@
       "address": {
         "zh": "英皇道177號利都樓地下A1號舖"
       },
-      "googleMapsPlaceId": "ChIJLUx-MQIBBDQRgP6yJMcIdtQ",
+      "googleMapsPlaceId": "ChIJbxuWS_ABBDQRRYbjC6PpjMs",
       "coordinates": {
-        "lat": 22.289267,
-        "lng": 114.194088
+        "lat": 22.2890629,
+        "lng": 114.1939568
       },
       "area": {
         "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "灣仔灣仔道162-164號地下B1號舖"
+      },
+      "googleMapsPlaceId": "ChIJG52B_1oABDQRRDSuCLnEms0",
+      "coordinates": {
+        "lat": 22.2771345,
+        "lng": 114.1767958
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "土瓜灣土瓜灣道78-80號定安大廈地下32號舖"
+      },
+      "googleMapsPlaceId": "ChIJHeYfq1UBBDQRceEK2_XXjNo",
+      "coordinates": {
+        "lat": 22.3171963,
+        "lng": 114.1901922
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍城獅子石道93號光大樓地下2號舖"
+      },
+      "googleMapsPlaceId": "ChIJ92EYl88HBDQR5TJeLGzvO7E",
+      "coordinates": {
+        "lat": 22.3305535,
+        "lng": 114.1880524
+      },
+      "area": {
+        "zh": "九龍城區"
       }
     }
   ],
@@ -98,6 +186,14 @@
     {
       "type": "eat",
       "id": 5887
+    },
+    {
+      "type": "eat",
+      "id": 6406
+    },
+    {
+      "type": "eat",
+      "id": 6405
     }
   ]
 }
