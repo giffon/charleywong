@@ -1,0 +1,80 @@
+{
+  "id": "fengminghouse",
+  "name": {
+    "zh": "鳳鳴居"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/fengminghouse/",
+      "meta": {
+        "name": "鳳鳴居",
+        "about": "🍴Founder:\n@maxiyeung @chiukkkkkkkkk\n🥢旺角西洋菜南街138號地下☎️3188-5880\n🥢上水馬會道154號地下 ☎️2726-0008\n⏰營業時間：星期一至日 12:00pm-10:30pm\n💬如有休息會另出通知\n📞歡迎外賣自取"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/fengminghouse/",
+      "meta": {
+        "id": "198686837628839",
+        "username": "fengminghouse",
+        "name": "鳳鳴居",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "fengminghouse@gmail.com"
+        ],
+        "single_line_address": "香港上水馬會道154號地下, 香港",
+        "website": "https://www.instagram.com/fengminghouse"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/CGC1m6khNrH/"
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港上水馬會道154號地下"
+      },
+      "googleMapsPlaceId": "ChIJPXRp1uL3AzQRAIn2zWXrakw",
+      "coordinates": {
+        "lat": 22.5046756,
+        "lng": 114.1299465
+      },
+      "area": {
+        "zh": "北區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角西洋菜南街138號地下"
+      },
+      "googleMapsPlaceId": "ChIJLSO-18cABDQRZscW0UxKg9E",
+      "coordinates": {
+        "lat": 22.3199786,
+        "lng": 114.1700591
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 546
+    },
+    {
+      "type": "eat",
+      "id": 6477
+    }
+  ]
+}

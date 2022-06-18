@@ -1,0 +1,41 @@
+{
+  "id": "hygge_pizza_crepe",
+  "name": {
+    "en": "Hygge"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/hygge_pizza_crepe/",
+      "meta": {
+        "website": "https://inline.app/booking/hygge/hyggetko?language=zh-hk",
+        "name": "Hygge",
+        "about": "Pizza , Crepe , Milkshake and love\n歡迎使用以下連結進入預訂系統\n每日開放之後兩周空位\n營業時間為\n星期一至日10:00-20:00"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "pizza"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "將軍澳唐俊街28號海天晉滙地下G33號舖"
+      },
+      "googleMapsPlaceId": "ChIJ4-Y8rsUDBDQRyNHCHJREwi0",
+      "coordinates": {
+        "lat": 22.3034604,
+        "lng": 114.2605074
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6470
+    }
+  ]
+}
