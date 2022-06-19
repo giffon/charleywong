@@ -1,0 +1,49 @@
+{
+  "id": "HongKongTaste",
+  "name": {
+    "zh": "香港味道",
+    "en": "Hong Kong Taste"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/312369169642250/",
+      "meta": {
+        "id": "312369169642250",
+        "name": "香港味道 Hong Kong Taste",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "新蒲崗仁愛街52號, 黃大仙"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新蒲崗仁愛街52號"
+      },
+      "googleMapsPlaceId": "EiQ1MiBZYW4gT2kgU3QsIFNhbiBQbyBLb25nLCBIb25nIEtvbmciMBIuChQKEgllikDy1gYENBF4t3Alg-vYDRA0KhQKEgnJpuDx1gYENBF1SbIAhiQWEA",
+      "coordinates": {
+        "lat": 22.3342524,
+        "lng": 114.1951969
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1640
+    }
+  ]
+}

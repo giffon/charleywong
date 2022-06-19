@@ -1,0 +1,40 @@
+{
+  "id": "bmeatery",
+  "name": {
+    "zh": "本味食堂"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/bmeatery/",
+      "meta": {
+        "name": "本味食堂",
+        "about": "港式車仔麵餐廳\n「 一份地道情懷。盡顯無限心思 」\nA Taste of Traditional Hong Kong Style Cart Noodles\n🕚營業時間：\n星期一至日 12:00 - 22:00"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/463330570774131/",
+      "meta": {
+        "id": "463330570774131",
+        "name": "本味食堂",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "鞍城街"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food",
+    "closed"
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 806
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "homekitchenkt",
+  "name": {
+    "zh": "慢煮屋"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/homekitchenkt/",
+      "meta": {
+        "name": "慢煮屋",
+        "about": "星期一至日：11:30-22:00\n公眾假期：照常營業\n訂座請Whatsapp：54888867"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/523182961482321/",
+      "meta": {
+        "id": "523182961482321",
+        "username": "homekitchenkt",
+        "name": "慢煮屋",
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
+        ],
+        "single_line_address": "觀塘開源道60號駱駝漆大廈3期11樓G室, 香港",
+        "website": "https://instagram.com/homekitchenkt"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/homekitchenkt/posts/726000201200595",
+      "meta": {
+        "sharedWith": "Custom"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/homekitchenkt/posts/729360384197910",
+      "meta": {
+        "sharedWith": "Custom"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘開源道60號駱駝漆大廈3期11樓G室"
+      },
+      "googleMapsPlaceId": "ChIJieRc5KcBBDQRxmVOv0LUeOU",
+      "coordinates": {
+        "lat": 22.3101278,
+        "lng": 114.2250869
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1194
+    },
+    {
+      "type": "eat",
+      "id": 5895
+    }
+  ]
+}

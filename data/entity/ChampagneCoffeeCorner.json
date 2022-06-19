@@ -1,0 +1,110 @@
+{
+  "id": "ChampagneCoffeeCorner",
+  "name": {
+    "zh": "橙皮咖啡"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/895885130765801/",
+      "meta": {
+        "id": "895885130765801",
+        "username": "ChampagneCoffeeCorner",
+        "name": "橙皮咖啡",
+        "about": "Provide good choice for breakfast, lunch as well as tea time in Fotan.  Coffee beans and other ingredients are well selected.\n\nEnjoy:)",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "127892053948220",
+            "name": "Cafeteria"
+          }
+        ],
+        "emails": [
+          "champagnecoffee2021@gmail.com"
+        ],
+        "single_line_address": "Shop 4, Happy Market, Level 1, 2-18 Lok King Street, Jubilee Garden, Fotan, Shatin, 00000 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/cham.pagnecoffee/",
+      "meta": {
+        "website": "https://www.facebook.com/ChampagneCoffeeCorner/",
+        "name": "橙皮咖啡",
+        "about": "Provide good choice for breakfast, lunch as well as tea time in Fotan. Coffee beans and other ingredients are well selected.\nEnjoy:)"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/ChampagneCoffeeCorner/posts/987278361626477",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/ChampagneCoffeeCorner/posts/995296604157986",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/ChampagneCoffeeCorner/posts/998072730547040",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/ChampagneCoffeeCorner/posts/1053315378356108",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 4, Happy Market, Level 1, 2-18 Lok King Street, Jubilee Garden, Fotan, Shatin"
+      },
+      "googleMapsPlaceId": "ChIJXe9l6wUHBDQR07AKJsgkKMg",
+      "coordinates": {
+        "lat": 22.3971526,
+        "lng": 114.1997493
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop 10, G/F, Wah Yiu Industrial Centre, 30-32 Au Pui Wan Street, Fo Tan"
+      },
+      "googleMapsPlaceId": "ChIJ103iWGAHBDQRLdFp0ZcuamI",
+      "coordinates": {
+        "lat": 22.3989732,
+        "lng": 114.1936069
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1222
+    },
+    {
+      "type": "eat",
+      "id": 6736
+    }
+  ]
+}
