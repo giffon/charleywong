@@ -1,0 +1,60 @@
+{
+  "id": "aroma.kitchen.bar",
+  "name": {
+    "en": "Elmo's Bistro & Bar"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1376244449069107/",
+      "meta": {
+        "id": "1376244449069107",
+        "username": "aroma.kitchen.bar",
+        "name": "Elmo's Bistro & Bar",
+        "about": "Elmo's Bistro & Bar\n一間隱世於藍屋附近的小小歐式餐廳，歡迎致電訂位‧\nA Small European Restaurant Hidden Near the Blue House,Please call to have a reservation.",
+        "category_list": [
+          {
+            "id": "1508025966158640",
+            "name": "European Restaurant"
+          }
+        ],
+        "emails": [
+          "inspiration.aroma@gmail.com"
+        ],
+        "single_line_address": "64th Stone Nullah Lane Shop 1,Wan Chai, 9997 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/elmosbistro/",
+      "meta": {
+        "name": "Elmo's Bistro & Bar",
+        "about": "Focus on Passion & Inspiration of food\nG/F 70A Stone Nullah Lane, Wan Chai, Hong Kong"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "bar",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "64th Stone Nullah Lane Shop 1,Wan Chai"
+      },
+      "googleMapsPlaceId": "ChIJDTDRqEQABDQRk3FNXCqHp_A",
+      "coordinates": {
+        "lat": 22.2741472,
+        "lng": 114.174165
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1092
+    }
+  ]
+}

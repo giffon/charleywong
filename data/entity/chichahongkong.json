@@ -1,0 +1,99 @@
+{
+  "id": "chichahongkong",
+  "name": {
+    "en": "Chicha",
+    "zh": "茶痴"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/chichahongkong/",
+      "meta": {
+        "name": "CHICHA Tea & Coffee",
+        "about": "Tea Room"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/456883118193794/",
+      "meta": {
+        "id": "456883118193794",
+        "username": "chichahongkong",
+        "name": "Chicha 茶痴",
+        "about": "Dream to offering the freshest and tastiest mixed tea.\n\nIt tastes nutty but smells like honey bee;\nAnd that’s what we call CHICHA tea\n\n• Click on the link to check out the drink menu ",
+        "category_list": [
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          },
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "emails": [
+          "chicha.tea.coffee@gmail.com"
+        ],
+        "single_line_address": "上環文咸東街14號, 香港",
+        "website": "http://bit.ly/CHICHA"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/chichahongkong/photos/a.461055744443198/661400557742048",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/chichahongkong/posts/905688916646543",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "上環文咸東街14號"
+      },
+      "googleMapsPlaceId": "ChIJMQHdjxQBBDQR56rI1lceD2A",
+      "coordinates": {
+        "lat": 22.2854021,
+        "lng": 114.1523513
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍灣常悅道21號The Eastmark1樓3號舖"
+      },
+      "googleMapsPlaceId": "ChIJL7T4QMQBBDQR7ljdVO7r2bM",
+      "coordinates": {
+        "lat": 22.3221986,
+        "lng": 114.2112792
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1415
+    },
+    {
+      "type": "eat",
+      "id": 5850
+    }
+  ]
+}

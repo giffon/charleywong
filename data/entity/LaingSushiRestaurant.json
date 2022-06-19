@@ -1,0 +1,75 @@
+{
+  "id": "LaingSushiRestaurant",
+  "name": {
+    "zh": "良鮨壽司",
+    "en": "Laing Sushi Restaurant"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/110300671253627/",
+      "meta": {
+        "id": "110300671253627",
+        "name": "良鮨壽司 Laing Sushi Restaurant",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "大埔廣福道77號地下 ( 77 Kwong Fuk Rd. Tai Po), 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/liangzhi_sushi/",
+      "meta": {
+        "website": "https://www.facebook.com/良鮨壽司-Laing-Sushi-Restaurant-110300671253627/",
+        "name": "良鮨壽司"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=118848780398816&id=110300671253627",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=121013600182334&id=110300671253627",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=128219746128386&id=110300671253627",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "japanese",
+    "sushi"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔廣福道77號地下"
+      },
+      "googleMapsPlaceId": "ChIJ17t3o90JBDQR8QeEj0LvPyo",
+      "coordinates": {
+        "lat": 22.4487098,
+        "lng": 114.1672589
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6618
+    }
+  ]
+}

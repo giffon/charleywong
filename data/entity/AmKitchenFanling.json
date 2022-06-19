@@ -1,0 +1,54 @@
+{
+  "id": "AmKitchenFanling",
+  "name": {
+    "en": "Am Kitchen"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1508162905987538/",
+      "meta": {
+        "id": "1508162905987538",
+        "username": "AmKitchenFanling",
+        "name": "Am Kitchen",
+        "about": "粉嶺西餐廳, 私房菜(提前一天打電話預訂)\n餐牌多款式\n可來料加工",
+        "category_list": [
+          {
+            "id": "192831537402299",
+            "name": "Family Style Restaurant"
+          },
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          }
+        ],
+        "single_line_address": "粉嶺聯和墟和豐街56號建豐樓地下B舖"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "粉嶺聯和墟和豐街56號建豐樓地下B舖"
+      },
+      "googleMapsPlaceId": "ChIJc7UYjh32AzQR6bPlGbe4sA8",
+      "coordinates": {
+        "lat": 22.499153,
+        "lng": 114.1432107
+      },
+      "area": {
+        "zh": "北區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2449
+    }
+  ]
+}

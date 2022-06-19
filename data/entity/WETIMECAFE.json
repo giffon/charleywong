@@ -1,0 +1,57 @@
+{
+  "id": "WETIMECAFE",
+  "name": {
+    "en": "WE TIME CAFE"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1615423748669824/",
+      "meta": {
+        "id": "1615423748669824",
+        "name": "WE TIME CAFE",
+        "about": "Taking Some Me Time Makes We Time That Much Better",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
+        ],
+        "single_line_address": "葵涌光輝圍21號昌發大廈地下6號铺, 葵涌"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=425634196229141&id=100063476936998"
+    }
+  ],
+  "tags": [
+    "food",
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵涌光輝圍21號昌發大廈地下6號铺"
+      },
+      "googleMapsPlaceId": "ChIJhcF2h5r4AzQRSr4JYeQd0yQ",
+      "coordinates": {
+        "lat": 22.367899,
+        "lng": 114.132584
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6690
+    }
+  ]
+}
