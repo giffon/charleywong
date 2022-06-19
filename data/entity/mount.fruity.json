@@ -23,8 +23,9 @@
     {
       "url": "https://www.instagram.com/mount.fruity/",
       "meta": {
+        "website": "https://www.facebook.com/mount.fruity/",
         "name": "花果山 Mount.Fruity",
-        "about": "🇭🇰本地茶飲品牌🇭🇰以榴槤及新鮮水果為主打的特色茶飲店\n採用馬來西亞貓山王及D24榴槤製作飲品\n🎗🤚🏻☝🏼🎗\n#康復香港時代抗疫 ￼\n地址: 尖沙咀加拿分道33號發利大廈地下2A鋪\n電話68727454"
+        "about": "🇭🇰本地品牌🇭🇰以榴槤及新鮮水果為主打\n🎗🤚🏻☝🏼🎗\n#康復香港時代抗疫 ￼\n地址: We are Everywhere\nWhatsapp/Signal only: 68727454"
       }
     }
   ],
@@ -63,10 +64,17 @@
         "utime": "1579516859",
         "sharedWith": "Public"
       }
+    },
+    {
+      "url": "https://www.facebook.com/mount.fruity/posts/2657453031053354",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "closed"
   ],
   "yellowBlueMapIds": [
     {
@@ -76,21 +84,6 @@
     {
       "type": "eat",
       "id": 2392
-    }
-  ],
-  "places": [
-    {
-      "address": {
-        "zh": "尖沙咀加拿分道33號發利大廈地下2A鋪"
-      },
-      "googleMapsPlaceId": "ChIJp5rgJEUBBDQRsNGCD9hBhHE",
-      "coordinates": {
-        "lat": 22.2985613,
-        "lng": 114.1739669
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
     }
   ]
 }
