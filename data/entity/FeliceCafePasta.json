@@ -1,0 +1,80 @@
+{
+  "id": "FeliceCafePasta",
+  "name": {
+    "en": "Felice Cafe&Pasta"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/102503254531886/",
+      "meta": {
+        "id": "102503254531886",
+        "name": "Felice Cafe&Pasta",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "希雲街12號地下, 0000 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/cwb_felice/",
+      "meta": {
+        "name": "Felice Cafe&Pasta",
+        "about": "地址:銅鑼灣希雲街12號地下\n營業時間:中午12時-3時 晚上6時-9時30分\n逢星期一休息\n不設訂座敬請留意"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=111844013597810&id=102503254531886",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=250752286373648&id=102503254531886",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=353732019409007&id=102503254531886",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=384467663002109&id=102503254531886",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "cafe",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "希雲街12號地下"
+      },
+      "googleMapsPlaceId": "EhYxMiBIYXZlbiBTdCwgSG9uZyBLb25nIjASLgoUChIJJzHL9lMABDQRvOpY4nSwMEoQDCoUChIJBS5V8lMABDQRg5kBxB0B0dE",
+      "coordinates": {
+        "lat": 22.2780878,
+        "lng": 114.1866929
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 956
+    }
+  ]
+}

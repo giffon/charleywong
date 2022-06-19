@@ -1,0 +1,64 @@
+{
+  "id": "ChefsChoice",
+  "name": {
+    "zh": "幸福小廚"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/220946044597022/",
+      "meta": {
+        "id": "220946044597022",
+        "name": "幸福小廚",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "Yuen Long, 852 香港"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=2617651641593105&id=220946044597022",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=3755172897840968&id=220946044597022",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗鳳攸南街3號好順景大廈2座地下50號舖"
+      },
+      "googleMapsPlaceId": "ChIJUdx0gKfwAzQRAkhPzFKpknM",
+      "coordinates": {
+        "lat": 22.4420056,
+        "lng": 114.0340503
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1733
+    },
+    {
+      "type": "eat",
+      "id": 1908
+    }
+  ]
+}
