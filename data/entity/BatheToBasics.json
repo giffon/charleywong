@@ -29,8 +29,9 @@
     {
       "url": "https://www.instagram.com/bathetobasics/",
       "meta": {
+        "website": "http://www.bathetobasics.com/",
         "name": "Bathe to Basics",
-        "about": "We believe BASIC brings out the best of us.\n・100% Natural Skincare, Bath and Body Brand\n・Proudly Made in Hong Kong\n・Worldwide Shipping Available"
+        "about": "IT ALL COMES DOWN TO BASICS\n讓生活回歸基本步\n・Clean Skincare, Bath and Body Brand\n・Proudly Made in Hong Kong\n・Worldwide Shipping Available"
       }
     }
   ],
@@ -64,12 +65,29 @@
       "area": {
         "zh": "中西區"
       }
+    },
+    {
+      "address": {
+        "en": "Shop 228, 2/F, Central Market, 93 Queens Road Central, Central"
+      },
+      "googleMapsPlaceId": "ChIJlf_dsXwABDQR_vHeEbY8JhA",
+      "coordinates": {
+        "lat": 22.283944,
+        "lng": 114.1555478
+      },
+      "area": {
+        "zh": "中西區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 709
+    },
+    {
+      "type": "shop",
+      "id": 7099
     }
   ]
 }
