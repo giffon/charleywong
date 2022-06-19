@@ -37,7 +37,9 @@
     {
       "url": "https://www.instagram.com/littlefreshhk/",
       "meta": {
-        "name": "Littlefresh"
+        "website": "https://littlefresh.oddle.me/en_HK",
+        "name": "Littlefresh",
+        "about": "Coffee shop"
       }
     }
   ],
@@ -65,7 +67,9 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "cafe",
+    "bar"
   ],
   "alias": [
     "288260855138541"
@@ -74,6 +78,21 @@
     {
       "type": "eat",
       "id": 855
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "18/F, Hanwai Commercial Centre, 36 Dundas Street, Mongkok"
+      },
+      "googleMapsPlaceId": "ChIJeQge1e4BBDQR3sh8D_bpMok",
+      "coordinates": {
+        "lat": 22.3150862,
+        "lng": 114.1698175
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
