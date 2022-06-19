@@ -46,10 +46,56 @@
       }
     },
     {
+      "url": "https://www.facebook.com/TurningPointbyCoffeeArt/",
+      "meta": {
+        "id": "107232491173176",
+        "username": "TurningPointbyCoffeeArt",
+        "name": "Turning Point by Coffee Art",
+        "about": "Turning Point 是烘焙咖啡豆的術語，意旨由高溫轉下來再升溫！猶如逗號的停頓讓你稍作舒緩，享受片刻的恬靜，回溫後再次啟航。",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "coffeeart_924@yahoo.com.hk"
+        ],
+        "single_line_address": "九龍尖沙咀彌敦道132號 美麗華廣場1期1樓 113A & 113B舖, 香港"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/100293832184162/",
+      "meta": {
+        "id": "100293832184162",
+        "username": "steakart.hk",
+        "name": "Steak ART",
+        "about": "Steak House in North Point, Hong Kong",
+        "category_list": [
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          }
+        ],
+        "single_line_address": "香港北角匯2期G17, 0000 香港"
+      }
+    },
+    {
       "url": "https://www.instagram.com/coffeeart_924/",
       "meta": {
         "name": "coffee ART",
-        "about": "(Kwun Tong) Shop 46,on the ground floor, E plaza, legend tower,7 shing yip street,kwun tong\n(Po Lam) Shop G95, G/F, MCP I, 8 Mau Yip Road"
+        "about": "(Kwun Tong) Shop 46, G/F, E plaza\n(Po Lam) Shop G95, G/F, MCP I\n(Tsui Sha Tsui) 113A, 1/F, MIRA Place1\n(North Point) G17,Harbour North 2"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/steakart.hk/",
+      "meta": {
+        "name": "Steak Art",
+        "about": "主打風乾熟成牛及創意西式料理的扒房\n11:30-22:00\n北角滙2期 G17 舖\n訂座電話：55299868"
       }
     }
   ],
@@ -94,6 +140,32 @@
       "area": {
         "zh": "觀塘區"
       }
+    },
+    {
+      "address": {
+        "zh": "九龍尖沙咀彌敦道132號 美麗華廣場1期1樓 113A & 113B舖"
+      },
+      "googleMapsPlaceId": "ChIJZywVfOIBBDQR8ss00Ysf160",
+      "coordinates": {
+        "lat": 22.3009412,
+        "lng": 114.172221
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港北角匯2期G17 Steak ART"
+      },
+      "googleMapsPlaceId": "ChIJmYte1yEBBDQR2l71Jl1GBR4",
+      "coordinates": {
+        "lat": 22.2926046,
+        "lng": 114.2003682
+      },
+      "area": {
+        "zh": "東區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -104,6 +176,14 @@
     {
       "type": "eat",
       "id": 353
+    },
+    {
+      "type": "eat",
+      "id": 5388
+    },
+    {
+      "type": "eat",
+      "id": 6737
     }
   ]
 }
