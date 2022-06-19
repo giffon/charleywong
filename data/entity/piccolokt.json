@@ -1,0 +1,64 @@
+{
+  "id": "piccolokt",
+  "name": {
+    "en": "Piccolo Pizzeria & Bar"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/229637710434221/",
+      "meta": {
+        "id": "229637710434221",
+        "username": "piccolokt",
+        "name": "Piccolo Pizzeria & Bar",
+        "about": "Casual and relaxed neighborhood pizzeria. \nSimply honest to \"Goodness\".",
+        "category_list": [
+          {
+            "id": "180256082015845",
+            "name": "Pizza place"
+          },
+          {
+            "id": "193831710644458",
+            "name": "Italian Restaurant"
+          }
+        ],
+        "emails": [
+          "piccolokt@piccolo.hk"
+        ],
+        "single_line_address": "Shop A325, Level 3, New Town Plaza Phase III, Shatin",
+        "website": "http://piccolopizzeriabar.oddle.me/"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/piccolo_pizzeria/",
+      "meta": {
+        "name": "Piccolo Pizzeria & Bar",
+        "about": "⁣⁣Casual and relaxed neighborhood pizzeria. Simply honest to “Goodness”.⠀\n⠀\nShatin • Tai Hang⠀\n⠀⠀\n📣Check out our new concept! @trattoriapiccolo.hk⠀"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "pizza"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "沙田沙田正街18號新城市廣場三期3樓A325號舖"
+      },
+      "googleMapsPlaceId": "ChIJ3RDicKwHBDQRMjnQHUUfDZU",
+      "coordinates": {
+        "lat": 22.379537,
+        "lng": 114.187559
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2006
+    }
+  ]
+}

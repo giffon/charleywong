@@ -1,0 +1,60 @@
+{
+  "id": "TrattoriaPiccolo.hk",
+  "name": {
+    "en": "Trattoria Piccolo"
+  },
+  "webpages": [
+    {
+      "url": "https://www.trattoriapiccolo.hk"
+    },
+    {
+      "url": "https://www.facebook.com/109787388264771/",
+      "meta": {
+        "id": "109787388264771",
+        "username": "TrattoriaPiccolo.hk",
+        "name": "Trattoria Piccolo",
+        "about": "Trattoria Piccolo offers exciting Italian snacks  reminiscent of a Venetian Cichetti bar.  The cicchetti snack menu changes daily. Hearty pastas and pizzas make up the rest of the menu. We welcome dine in and takeaway.",
+        "category_list": [
+          {
+            "id": "193831710644458",
+            "name": "Italian Restaurant"
+          },
+          {
+            "id": "180256082015845",
+            "name": "Pizza place"
+          }
+        ],
+        "emails": [
+          "reservations@trattoriapiccolo.hk"
+        ],
+        "single_line_address": "41 Cadogan Street, Kennedy Town, 00000 香港",
+        "website": "www.TrattoriaPiccolo.hk"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "pizza"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "41 Cadogan Street, Kennedy Town"
+      },
+      "googleMapsPlaceId": "ChIJVa_qolr_AzQR6Zetn4w8vXo",
+      "coordinates": {
+        "lat": 22.2819738,
+        "lng": 114.1262968
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6723
+    }
+  ]
+}
