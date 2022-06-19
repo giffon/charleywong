@@ -1,0 +1,66 @@
+{
+  "id": "Burgersaan",
+  "name": {
+    "en": "Burger saan",
+    "zh": "保家山"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/104595231342729/",
+      "meta": {
+        "id": "104595231342729",
+        "name": "Burger saan 保家山",
+        "about": "Burger restaurant",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "burger.saan@gmail.com"
+        ],
+        "single_line_address": "香港觀塘開源道60號駱駝漆大廈三期5樓O室, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/burger.saan/",
+      "meta": {
+        "name": "burger saan 保家山",
+        "about": "🍔\n採用澳洲和牛🇦🇺\n美國安格斯🇺🇸\nMon to Sun\n12:00 - 20:00 hrs"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=300714748397442&id=104595231342729",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "burger"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港觀塘開源道60號駱駝漆大廈三期5樓O室"
+      },
+      "googleMapsPlaceId": "ChIJJ2TayK8BBDQRPrxr9Fghvaw",
+      "coordinates": {
+        "lat": 22.3101251,
+        "lng": 114.2250719
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6310
+    }
+  ]
+}
