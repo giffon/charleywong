@@ -22,9 +22,29 @@
       }
     },
     {
+      "url": "https://www.facebook.com/102460191625145/",
+      "meta": {
+        "id": "102460191625145",
+        "name": "皇后冰廳 Empress Cafe",
+        "about": "餐廳\n",
+        "category_list": [
+          {
+            "id": "1758418281071392",
+            "name": "Local Service"
+          }
+        ],
+        "emails": [
+          "dkt@live.hk"
+        ],
+        "single_line_address": "長沙灣長沙灣道391號 長沙灣邨服務設施大樓地下1號舖, 852 Cheung Sha Wan"
+      },
+      "hidden": true
+    },
+    {
       "url": "https://www.instagram.com/empresscafehk/",
       "meta": {
-        "name": "🇭🇰皇后冰廳 Empress Cafe"
+        "name": "🇭🇰皇后冰廳 Empress Cafe",
+        "about": "Continental Restaurant"
       }
     }
   ],
@@ -37,7 +57,8 @@
     }
   ],
   "tags": [
-    "cafe"
+    "cafe",
+    "closed"
   ],
   "places": [
     {
@@ -52,6 +73,12 @@
       "area": {
         "zh": "深水埗區"
       }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5453
     }
   ]
 }
