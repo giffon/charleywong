@@ -1,0 +1,91 @@
+{
+  "id": "spicy_kingdom",
+  "name": {
+    "zh": "麻王"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/100111911748455/",
+      "meta": {
+        "id": "100111911748455",
+        "name": "麻王",
+        "about": "銅鑼灣店- 銅鑼灣禮頓道106-126禮信大廈。地下4&15號\n灣仔店- 灣仔灣仔道177-179保和大廈。地下H鋪(克街)\n炮台山店- 炮台山宏安道2-12號宏暉大廈地下6號舖",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/service"
+          }
+        ],
+        "emails": [
+          "spicykingdomltd@gmail.com"
+        ]
+      }
+    },
+    {
+      "url": "https://www.instagram.com/spicy_kingdom/",
+      "meta": {
+        "name": "麻王",
+        "about": "📍銅鑼灣店。禮頓道106-126禮信大廈地下4&15號\n📍灣仔店。 灣仔道177-179保和大廈地下H鋪(克街)\n📍炮台山店。宏安道2-12號宏暉大廈地下6號舖"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣店禮頓道106-126禮信大廈地下4&15號"
+      },
+      "googleMapsPlaceId": "ChIJW1RDbuUBBDQRQB7rIZw3iOE",
+      "coordinates": {
+        "lat": 22.2778546,
+        "lng": 114.1864278
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "灣仔店灣仔道177-179保和大廈地下H鋪"
+      },
+      "googleMapsPlaceId": "ChIJ9TeqGwcBBDQR41PFef2NmQY",
+      "coordinates": {
+        "lat": 22.2769572,
+        "lng": 114.177237
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "炮台山店宏安道2-12號宏暉大廈地下6號舖"
+      },
+      "googleMapsPlaceId": "ChIJzXHzrO0BBDQRYZ_k6hawvcA",
+      "coordinates": {
+        "lat": 22.2886136,
+        "lng": 114.1923184
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2456
+    },
+    {
+      "type": "eat",
+      "id": 5671
+    },
+    {
+      "type": "eat",
+      "id": 5672
+    }
+  ]
+}
