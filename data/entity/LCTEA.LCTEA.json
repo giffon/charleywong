@@ -7,8 +7,25 @@
     {
       "url": "https://www.instagram.com/lctea.lctea/",
       "meta": {
-        "name": "LC.TEA",
-        "about": "堅持選用新鮮水果製作‼️\n唔落果醬🚫唔落添加劑🚫唔落人工色素🚫\nHashtag: #LCTEA\n💮分店地址：\n屯門屯門碼頭海趣坊22-23號鋪🎉\n營業時間：12:00-21:30☺️☺️\n屯門雅都商場地下S01號舖🥳\n營業時間：12:30-21:45"
+        "name": "LC Tea",
+        "about": "水果茶店\n🥤本店所有飲品100%新鮮水果\n🚫絕不含任何果醬及添加劑\n🧀主打芝士奶蓋\n⚠️全港首創豆腐奶蓋\n🥤北角電氣道聯和大廈308號地下C4B鋪 1200-2000\n🥤天水圍新北江商場一樓D151號舖 1230-2000\n#新鮮水果 #Fruittea\n如有任何意見合作查詢，歡迎DM"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/lctea.tm/",
+      "meta": {
+        "id": "105115924799236",
+        "username": "lctea.tm",
+        "name": "LC Tea 水果茶專門店",
+        "about": "本店飲品100%新鮮水果\n絕不含果醬\n主打芝士奶蓋\n豆腐奶蓋\n北角電氣道聯和大廈308號地下C4B 1200-2000\n天水圍新北江商場一樓D151號舖 1230-2000\n#新鮮水果 #Fruittea \n\nig 較常用 follow ig : lctea.lctea",
+        "category_list": [
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          }
+        ],
+        "single_line_address": "屯門新墟GogoMall地下S01, 香港",
+        "website": "www.instagram.com/lctea.lctea"
       }
     },
     {
@@ -25,7 +42,8 @@
         ],
         "website": "https://www.instagram.com/lctea.lctea/"
       },
-      "url": "https://www.facebook.com/LCTEA.LCTEA/"
+      "url": "https://www.facebook.com/LCTEA.LCTEA/",
+      "hidden": true
     }
   ],
   "posts": [
@@ -42,28 +60,28 @@
   "places": [
     {
       "address": {
-        "zh": "屯門屯門碼頭海趣坊22-23號鋪"
+        "zh": "北角電氣道聯和大廈308號地下C4B鋪"
       },
-      "googleMapsPlaceId": "ChIJnTOuHw37AzQRC4WkU0tcNe8",
+      "googleMapsPlaceId": "ChIJe8VBa-4BBDQRO2I0DFGhjsY",
       "coordinates": {
-        "lat": 22.3734075,
-        "lng": 113.9661981
+        "lat": 22.2904214,
+        "lng": 114.1947873
       },
       "area": {
-        "zh": "屯門區"
+        "zh": "東區"
       }
     },
     {
       "address": {
-        "zh": "屯門雅都商場地下S01號舖"
+        "zh": "天水圍新北江商場一樓D151號舖"
       },
-      "googleMapsPlaceId": "ChIJKZlJIiz7AzQRXOIaDrmGrSM",
+      "googleMapsPlaceId": "ChIJ8dup4n3wAzQRMyriYxUf_qo",
       "coordinates": {
-        "lat": 22.39790039999999,
-        "lng": 113.9756016
+        "lat": 22.4515147,
+        "lng": 114.0012292
       },
       "area": {
-        "zh": "屯門區"
+        "zh": "元朗區"
       }
     }
   ],
@@ -75,6 +93,10 @@
     {
       "type": "eat",
       "id": 1268
+    },
+    {
+      "type": "eat",
+      "id": 6763
     }
   ]
 }
