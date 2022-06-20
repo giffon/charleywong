@@ -1,0 +1,56 @@
+{
+  "id": "wetogether_hygge",
+  "name": {
+    "zh": "三餐四季",
+    "en": "Hygge"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/107087281326067/",
+      "meta": {
+        "id": "107087281326067",
+        "name": "三餐四季",
+        "about": "不繁不簡的生活 \n一日三餐 一年四季\n相聚於三餐四季",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "上水馬會道172號, 0000 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/wetogether_hygge/",
+      "meta": {
+        "name": "三餐四季",
+        "about": "不繁不簡的生活\n一日三餐・一年四季\n相聚於三餐四季\n🕗 營業時間: 星期一至日 0600-2200\n📍地扯: 上水馬會道172號地下\n📞歡迎外賣自取"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "上水馬會道172號地舖"
+      },
+      "googleMapsPlaceId": "ChIJ_08mSxD2AzQRdX--yoBQZgc",
+      "coordinates": {
+        "lat": 22.5044555,
+        "lng": 114.130144
+      },
+      "area": {
+        "zh": "北區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1688
+    }
+  ]
+}

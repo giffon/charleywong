@@ -1,0 +1,55 @@
+{
+  "id": "GrandDumplings",
+  "name": {
+    "zh": "餃子爺爺",
+    "en": "Grand Dumplings"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/108793154197614/",
+      "meta": {
+        "id": "108793154197614",
+        "name": "餃子爺爺 Grand Dumplings",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "觀塘協和街131號仁富大廈地下E號鋪, 九龍"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/grand_dumplings/",
+      "meta": {
+        "name": "餃子爺爺",
+        "about": "手工水餃🥟｜冰花煎餃🥟｜爺爺麵食🍜｜手工小菜🥬｜鮮味濃湯🍲\n☼ Mon - Sun｜1000 - 2300 ⏰\n✆ 外賣自取 9024 2868 ☎️"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘協和街131號仁富大廈地下E號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ10yCqDcBBDQRMNZkRjZHHGQ",
+      "coordinates": {
+        "lat": 22.3160704,
+        "lng": 114.2259955
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5684
+    }
+  ]
+}
