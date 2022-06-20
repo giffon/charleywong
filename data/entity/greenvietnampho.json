@@ -1,0 +1,54 @@
+{
+  "id": "greenvietnampho",
+  "name": {
+    "en": "Green Vietnam Pho",
+    "zh": "綠色越南"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/910687839135056/",
+      "meta": {
+        "id": "910687839135056",
+        "username": "greenvietnampho",
+        "name": "Green Vietnam Pho 綠色越南",
+        "about": "越南菜外賣店",
+        "category_list": [
+          {
+            "id": "155136917876965",
+            "name": "Vietnamese Restaurant"
+          }
+        ],
+        "emails": [
+          "greenvietpho@gmail.com"
+        ],
+        "single_line_address": "荃灣西樓角路202-216號荃昌中心昌寧商場地下28號鋪Shop 28, G/F, Cheong Ning Building, 202-216 Sai Lau Kok Road, Tsuen Wan, Tsuen Wan"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣西樓角路202-216號荃昌中心昌寧商場地下28號鋪"
+      },
+      "googleMapsPlaceId": "ChIJDV8Hy5L4AzQRAoMzlwTocO0",
+      "coordinates": {
+        "lat": 22.3709791,
+        "lng": 114.120226
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5787
+    }
+  ]
+}

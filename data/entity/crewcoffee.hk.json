@@ -1,0 +1,83 @@
+{
+  "id": "crewcoffee.hk",
+  "name": {
+    "en": "Crew"
+  },
+  "webpages": [
+    {
+      "url": "https://crewcoffee.hk"
+    },
+    {
+      "url": "https://www.facebook.com/112574313870903/",
+      "meta": {
+        "id": "112574313870903",
+        "username": "crewcoffee.hk",
+        "name": "Crew",
+        "about": "The corner for a brew, the crew, and you.\n#crewcoffeehk #crewmate #crewforbrew",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "emails": [
+          "crewcoffee.hk@gmail.com"
+        ],
+        "single_line_address": "Shop 9A, G/F, On Hing Mansion, 156-164 Queen's Road East, Wan Chai, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/crewcoffee.hk/",
+      "meta": {
+        "website": "https://crewcoffee.hk/",
+        "name": "crew",
+        "about": "Central (BaseHall.) REOPENED! Info in Highlights. 𝕄𝕠𝕟 𝕥𝕠 𝕊𝕒𝕥: 𝟙𝟙𝟘𝟘-𝟙𝟠𝟘𝟘\nWan Chai:\n𝕄𝕠𝕟 𝕥𝕠 𝔽𝕣𝕚: 𝟘𝟠𝟘𝟘-𝟙𝟠𝟘𝟘\n𝕊𝕒𝕥, 𝕊𝕦𝕟, 𝕡𝕙: 𝟘𝟡𝟛𝟘-𝟙𝟠𝟘𝟘"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/crewcoffee.hk/posts/145614113900256",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 9A, G/F, On Hing Mansion, 156-164 Queen's Road East, Wan Chai"
+      },
+      "googleMapsPlaceId": "ChIJ52lKwWQBBDQRa1-khvcHY3c",
+      "coordinates": {
+        "lat": 22.2754402,
+        "lng": 114.1713133
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop 9A,B & C, LG/F, Jardine House, 1 Connaught Place, Central"
+      },
+      "googleMapsPlaceId": "ChIJoSdKaWMABDQRNSVgnZldIDY",
+      "coordinates": {
+        "lat": 22.2829926,
+        "lng": 114.1592393
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5433
+    }
+  ]
+}

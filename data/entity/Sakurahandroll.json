@@ -1,0 +1,76 @@
+{
+  "id": "Sakurahandroll",
+  "name": {
+    "zh": "桜手卷",
+    "en": "Sakura"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1663841627265197/",
+      "meta": {
+        "id": "1663841627265197",
+        "username": "Sakurahandroll",
+        "name": "桜手卷Sakura",
+        "about": "海膽，三文魚刺身，咖哩飯，各款小食和超過四十款手卷供客人選擇\n",
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
+        ]
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "japanese",
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗又新街35號地下7B號舖"
+      },
+      "googleMapsPlaceId": "ChIJW6kHUqfwAzQRvwT3V9t8crY",
+      "coordinates": {
+        "lat": 22.4431058,
+        "lng": 114.0312964
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣荃興徑8號昌泰大樓地下4B號舖"
+      },
+      "googleMapsPlaceId": "ChIJ6-gU6-34AzQRlqPi_4Db2C4",
+      "coordinates": {
+        "lat": 22.3721378,
+        "lng": 114.115555
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": " 西灣河筲箕灣道57-87號太安樓地下A48B號舖"
+      },
+      "googleMapsPlaceId": "ChIJETLWvHYBBDQRRmmiGbZU-Nc",
+      "coordinates": {
+        "lat": 22.2828742,
+        "lng": 114.2220997
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5788
+    }
+  ]
+}
