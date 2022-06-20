@@ -33,10 +33,50 @@
       }
     },
     {
+      "url": "https://www.facebook.com/lalune.taiwan/",
+      "meta": {
+        "id": "113673837894476",
+        "username": "lalune.taiwan",
+        "name": "望月｜Patisserie La Lune Taiwan",
+        "about": "讓「吃」的快樂屬於每一個人\n望月來自香港，於2012年成立，開展了一場對美味的探索與追求。 \n",
+        "category_list": [
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          },
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          },
+          {
+            "id": "164409566941435",
+            "name": "Arcade"
+          }
+        ]
+      }
+    },
+    {
       "url": "https://www.instagram.com/lalune.hk/",
       "meta": {
-        "name": "望月",
-        "about": "Mooncakes with Attitudes."
+        "website": "https://linktr.ee/_lalune",
+        "name": "望月｜Patisserie La Lune",
+        "about": "Bakery"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/lalune.taiwan/",
+      "meta": {
+        "name": "望月｜Patisserie La Lune Taiwan",
+        "about": "讓「吃」的快樂屬於每一個人"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCoXWBAwklm-8HY2iYs6n9MQ",
+      "meta": {
+        "id": "UCoXWBAwklm-8HY2iYs6n9MQ",
+        "location": "Hong Kong",
+        "name": "望月 Patisserie La Lune",
+        "about": ""
       }
     }
   ],
@@ -69,6 +109,19 @@
       },
       "area": {
         "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "台北市信義區松高路12號新光三越A8店"
+      },
+      "googleMapsPlaceId": "ChIJj9UJtrurQjQRSvkXdnrzyeI",
+      "coordinates": {
+        "lat": 25.0382454,
+        "lng": 121.5668708
+      },
+      "area": {
+        "zh": "臺灣"
       }
     }
   ],
