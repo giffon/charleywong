@@ -26,7 +26,9 @@
     },
     {
       "meta": {
-        "about": "我們永遠站在雞蛋這一邊\nMon-Sun 10am-6pm (5:00pm Cutoff)\n元朗鳯攸北街9A昌威大廈28號地鋪"
+        "website": "http://www.openrice.com/restaurant/sr2.htm?shopid=177068",
+        "name": "Leisure",
+        "about": "暫休覓新址，期待重聚\n我們永遠站在雞蛋這一邊\nMon-Sun 10am-6pm (5:00pm Cutoff)\n元朗鳯攸北街9A昌威大廈28號地鋪"
       },
       "url": "https://www.instagram.com/leisureinyuenlong/"
     }
@@ -43,12 +45,28 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "closed"
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 126
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗鳯攸北街9A昌威大廈28號地鋪"
+      },
+      "googleMapsPlaceId": "ChIJyZm5CKfwAzQRKyp2dMRVd_4",
+      "coordinates": {
+        "lat": 22.4440759,
+        "lng": 114.0335911
+      },
+      "area": {
+        "zh": "元朗區"
+      }
     }
   ]
 }
