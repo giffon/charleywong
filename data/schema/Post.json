@@ -34,6 +34,14 @@
                     }
                 }
             }
+        },
+        {
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "pattern": "^(?!https?://(?:www\\.)?hkcnews\\.com/).*"
+                }
+            }
         }
     ]
 }
