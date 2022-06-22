@@ -12,10 +12,34 @@
       "hidden": true
     },
     {
-      "url": "https://twitter.com/ProtonMail"
+      "url": "https://twitter.com/ProtonPrivacy"
     },
     {
-      "url": "https://twitter.com/protonvpn"
+      "url": "https://twitter.com/ProtonVPN"
+    },
+    {
+      "url": "https://twitter.com/ProtonCalendar",
+      "hidden": true
+    },
+    {
+      "url": "https://twitter.com/ProtonDrive",
+      "hidden": true
+    },
+    {
+      "url": "https://www.facebook.com/232990460221636/",
+      "meta": {
+        "id": "232990460221636",
+        "username": "Proton",
+        "name": "Proton",
+        "about": "We empower people to choose an internet where privacy is the default.\nMakers of Proton Mail, Proton Vpn, Proton Calendar & Proton Drive. 🇨🇭",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/service"
+          }
+        ],
+        "website": "https://proton.me/"
+      }
     },
     {
       "url": "https://www.facebook.com/ProtonMail/",
@@ -31,32 +55,15 @@
           }
         ],
         "website": "https://proton.me/"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/ProtonVPN/",
-      "meta": {
-        "id": "557495427749529",
-        "username": "ProtonVPN",
-        "name": "Proton VPN",
-        "about": "ProtonVPN is a Swiss-based open source VPN service, developed by the same team of CERN scientists who created ProtonMail. ProtonVPN makes it possible to access the Internet without censorship and surveillance.",
-        "category_list": [
-          {
-            "id": "2201",
-            "name": "Product/service"
-          }
-        ],
-        "emails": [
-          "contact@protonvpn.com"
-        ],
-        "website": "https://protonvpn.com"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.instagram.com/protonvpn/",
       "meta": {
-        "name": "ProtonVPN",
-        "about": "A privacy-focused open source #VPN, created by the same team behind ProtonMail. Provides #secure Internet access without surveillance or ads."
+        "website": "https://protonvpn.com/blog/what-is-an-ip-address/",
+        "name": "Proton VPN",
+        "about": "A security-first open-source #VPN developed by the team behind @protonmail. Reach out to us: protonvpn.com/support-form"
       }
     },
     {
