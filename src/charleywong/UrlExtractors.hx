@@ -1,7 +1,5 @@
 package charleywong;
 
-import haxe.xml.Access;
-import haxe.xml.Fast;
 #if nodejs
 import CrossFetch.fetch;
 import abort_controller.AbortController;
@@ -9,6 +7,7 @@ import abort_controller.AbortController;
 import js.lib.Promise;
 import haxe.io.Path;
 import js.html.URL;
+import charleywong.Utils.*;
 using StringTools;
 
 typedef ParsedUrl = {
@@ -23,37 +22,6 @@ enum Ident {
 }
 
 class UrlExtractors {
-    #if nodejs
-    static public function followRedirect(url:String):Promise<String> {
-        return if (~/https?:\/\/bit\.do\//.match(url)) {
-            fetch("https://bit.do/expand/" + url.split("/").pop())
-                .then(r -> {
-                    if (r.ok)
-                        r.text().then(html -> {
-                            var text = new Access(Xml.parse(html)).node.pre.innerHTML;
-                            var r = ~/^Redirects to: (.+)$/m;
-                            if (r.match(text))
-                                r.matched(1);
-                            else
-                                throw "Cannot find 'Redirects to:'.\n" + html;
-                        });
-                    else
-                        r.text().then(text -> throw text);
-                });
-        } else {
-            final controller = new AbortController();
-            fetch(url, {
-                redirect: FOLLOW,
-                signal: cast controller.signal,
-            })
-                .then(response -> {
-                    controller.abort();
-                    response.url;
-                });
-        }
-    }
-    #end
-
     static public function cleanUrl(url:String) {
         var pUrl = new URL(url);
         return switch (pUrl) {

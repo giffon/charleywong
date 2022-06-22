@@ -3,12 +3,15 @@ package charleywong;
 import haxe.*;
 import tink.core.*;
 using StringTools;
+import haxe.xml.Access;
+import haxe.xml.Fast;
 
 #if nodejs
 import js.lib.Promise;
 import js.html.MetaElement;
 import js.npm.jsdom.*;
 import CrossFetch.fetch;
+import abort_controller.AbortController;
 #end
 
 class Utils {
@@ -23,6 +26,56 @@ class Utils {
     }
 
     #if nodejs
+    static public function followRedirect(url:String):Promise<String> {
+        return if (~/https?:\/\/bit\.do\//.match(url)) {
+            fetch("https://bit.do/expand/" + url.split("/").pop())
+                .then(r -> {
+                    if (r.ok)
+                        r.text().then(html -> {
+                            var text = new Access(Xml.parse(html)).node.pre.innerHTML;
+                            var r = ~/^Redirects to: (.+)$/m;
+                            if (r.match(text))
+                                r.matched(1);
+                            else
+                                throw "Cannot find 'Redirects to:'.\n" + html;
+                        });
+                    else
+                        r.text().then(text -> throw text);
+                });
+        } else {
+            final controller = new AbortController();
+            fetch(url, {
+                redirect: FOLLOW,
+                signal: cast controller.signal,
+            })
+                .then(response -> {
+                    controller.abort();
+                    response.url;
+                });
+        }
+    }
+
+    static public function getCanonical(url:String):Promise<Null<String>> {
+        return fetch(url)
+            .then(r ->
+                if (!r.ok)
+                    r.text().then(text ->
+                        throw '${r.status} ${r.statusText}\n${text}'
+                    );
+                else
+                    r.text()
+            )
+            .then(text -> {
+                // Sys.println(text);
+                final doc = new JSDOM(text, {
+                    virtualConsole: new VirtualConsole(),
+                }).window.document;
+                final meta:MetaElement = cast doc.querySelector("link[rel='canonical']");
+                final href = meta.getAttribute("href");
+                href;
+            });
+    }
+
     static public function getMeta(url:String):Promise<{
         og:Array<{property:String, content:String}>,
         ld:Dynamic,

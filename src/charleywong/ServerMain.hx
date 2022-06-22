@@ -430,28 +430,35 @@ class ServerMain {
             case null:
                 //pass
             case handle:
-                switch (entityIndex.entitiesOfFbPage[handle]) {
+                return switch (entityIndex.entitiesOfFbPage[handle]) {
                     case null:
-                        return Promise.resolve(reply.status(500).send('${handle} has not been imported yet.'));
+                        Promise.resolve(reply.status(500).send('${handle} has not been imported yet.'));
                     case e:
-                        var postUrl = Std.string(url);
-                        switch (e.posts.find(p -> p.url == postUrl)) {
-                            case null:
-                                e.posts.push({
-                                    url: postUrl,
-                                    meta: {
-                                        "utime": req.body.utime,
-                                        "sharedWith": req.body.sharedWith
-                                    }
-                                });
-                            case post:
-                                post.meta = {
-                                    "utime": req.body.utime,
-                                    "sharedWith": req.body.sharedWith
-                                };
-                        }
-                        saveEntity(e, true, true);
-                        return Promise.resolve(reply.status(200).send("done"));
+                        Utils.getCanonical(Std.string(url))
+                            .then(Utils.followRedirect)
+                            .catchError(err -> {
+                                trace(err);
+                                url;
+                            })
+                            .then(postUrl -> {
+                                switch (e.posts.find(p -> p.url == postUrl)) {
+                                    case null:
+                                        e.posts.push({
+                                            url: postUrl,
+                                            meta: {
+                                                "utime": req.body.utime,
+                                                "sharedWith": req.body.sharedWith
+                                            }
+                                        });
+                                    case post:
+                                        post.meta = {
+                                            "utime": req.body.utime,
+                                            "sharedWith": req.body.sharedWith
+                                        };
+                                }
+                                saveEntity(e, true, true);
+                                reply.status(200).send("done");
+                            });
                 }
         }
 
@@ -595,7 +602,7 @@ class ServerMain {
                 case "https:":
                     Promise.resolve(url);
                 case _:
-                    charleywong.UrlExtractors.followRedirect(url)
+                    Utils.followRedirect(url)
                         .catchError(err -> url);
             }).then(cleanUrl);
         } catch (e:Dynamic) {
