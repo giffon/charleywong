@@ -21,22 +21,10 @@
       }
     }
   ],
-  "posts": [
-    {
-      "url": "https://www.facebook.com/mu15np650/posts/1045570192507362",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/mu15np650/posts/1048408252223556",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    }
-  ],
+  "posts": [],
   "tags": [
-    "food"
+    "food",
+    "closed"
   ],
   "places": [
     {
@@ -51,6 +39,12 @@
       "area": {
         "zh": "灣仔區"
       }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 817
     }
   ]
 }
