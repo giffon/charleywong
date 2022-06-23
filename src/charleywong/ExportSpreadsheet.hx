@@ -136,7 +136,7 @@ class ExportSpreadsheet {
             .then(notMapped ->
                 sheet.clear()
                     .then(function(_){
-                        return sheet.setHeaderRow(["id", "internal_id", "name", "website", "facebook", "instagram", "openrice"]);
+                        return sheet.setHeaderRow(["id", "internal_id", "status", "name", "website", "facebook", "instagram", "openrice"]);
                     })
                     .then(function(_){
                         return sheet.addRows(notMapped.filter(d -> d.color == yellow && d.status != removed));
