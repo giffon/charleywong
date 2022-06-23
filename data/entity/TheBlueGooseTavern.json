@@ -1,0 +1,64 @@
+{
+  "id": "TheBlueGooseTavern",
+  "name": {
+    "en": "The Blue Goose Tavern"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/375415789186985/",
+      "meta": {
+        "id": "375415789186985",
+        "username": "TheBlueGooseTavern",
+        "name": "The Blue Goose Tavern",
+        "about": "Great Pub Grub comfort food and fine British Ales, relax on our seafront terraces, we also have a pool table on out 1st floor.",
+        "category_list": [
+          {
+            "id": "218693881483234",
+            "name": "Pub"
+          },
+          {
+            "id": "137670789632630",
+            "name": "British Restaurant"
+          }
+        ],
+        "emails": [
+          "bgt.lamma@yahoo.com"
+        ],
+        "single_line_address": "G/F 47 Yung Shue Wan Main street, Lamma Island, 0000 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/bluegooselamma/",
+      "meta": {
+        "name": "The Blue Goose Tavern",
+        "about": "Best pub on Lamma Island, Hong Kong! ☀️ Join us for our stunning sea views, unbeatable pub grub and great bar drinks! 🍻🌴🍹🌊"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F 47 Yung Shue Wan Main street, Lamma Island"
+      },
+      "googleMapsPlaceId": "ChIJY9_ZqxNVATQR9aJ2_9ta8Vk",
+      "coordinates": {
+        "lat": 22.2256856,
+        "lng": 114.1117046
+      },
+      "area": {
+        "zh": "離島區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5127
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "TheSpicyRestaurant",
+  "name": {
+    "zh": "麻辣風雲"
+  },
+  "webpages": [
+    {
+      "url": "https://www.thespicyrestaurant.com"
+    },
+    {
+      "url": "https://www.facebook.com/108960444095377/",
+      "meta": {
+        "id": "108960444095377",
+        "username": "TheSpicyRestaurant",
+        "name": "麻辣風雲",
+        "about": "叫人欲罷不能的麻辣 : 荃灣人的好去處－麻辣風雲，是嗜辣控的天堂。\n\n荃灣店- 海壩街114號1樓\n☎️：2156 9291\n銅鑼灣店 - 京都廣場5樓\n☎️： 2155 9899\n旺角店 - 瓊華中心10樓\n☎️： 2156 1618",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "荃灣海壩街114號1樓, 852 香港",
+        "website": "https://www.thespicyrestaurant.com/"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/spicy_restaurant_hk/",
+      "meta": {
+        "website": "https://www.thespicyrestaurant.com/",
+        "name": "麻辣風雲",
+        "about": "☀️睇Menu 、Book枱👇🏻👇🏻\n/ Opening Hour /\n🔹Mon-Sun : 11:30 - 22:00\n荃灣店- 海壩街114號1樓\n☎️：2156 9291\n銅鑼灣店 - 京都廣場5樓\n☎️： 2155 9899\n旺角店 - 瓊華中心10樓\n☎️： 2156 1618"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/as1hk.entertainment/posts/171097795254286/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣海壩街114號1樓"
+      },
+      "googleMapsPlaceId": "ChIJyWs_oXb5AzQR3QSpfUYDY3U",
+      "coordinates": {
+        "lat": 22.3714248,
+        "lng": 114.1162053
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣京都廣場5樓"
+      },
+      "googleMapsPlaceId": "ChIJaWXTBqABBDQRQ9C4Kcrn7Hg",
+      "coordinates": {
+        "lat": 22.280733,
+        "lng": 114.1830193
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角瓊華中心10樓"
+      },
+      "googleMapsPlaceId": "ChIJoQVVf80BBDQRWnrBznnAqhI",
+      "coordinates": {
+        "lat": 22.3178752,
+        "lng": 114.1698982
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5566
+    },
+    {
+      "type": "eat",
+      "id": 6577
+    }
+  ]
+}

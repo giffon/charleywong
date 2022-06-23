@@ -1,0 +1,86 @@
+{
+  "id": "Kickstartcoffee.hk",
+  "name": {
+    "en": "Kickstartcoffee.hk"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/kickstartcoffee.hk/",
+      "meta": {
+        "website": "https://www.facebook.com/Kickstartcoffeehk-103471138028357/",
+        "name": "KickStart Coffee",
+        "about": "Coffee shop"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/103471138028357/",
+      "meta": {
+        "id": "103471138028357",
+        "name": "Kickstartcoffee.hk",
+        "about": " ",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "website": "https://www.instagram.com/kickstartcoffee.hk/"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/103471138028357/posts/113262507049220/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/103471138028357/posts/122249109483893/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/103471138028357/posts/126565832385554/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/103471138028357/posts/129069118801892/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "北角京華道9-27號富利來商場地下7號舖"
+      },
+      "googleMapsPlaceId": "ChIJU0czHJMBBDQRgUfBFpEL18E",
+      "coordinates": {
+        "lat": 22.2884172,
+        "lng": 114.1917038
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2340
+    }
+  ]
+}
