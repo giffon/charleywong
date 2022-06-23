@@ -1,0 +1,63 @@
+{
+  "id": "KAMSHINGRESTAURANT",
+  "name": {
+    "zh": "金城 · 漁"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/549339202069525/",
+      "meta": {
+        "id": "549339202069525",
+        "username": "KAMSHINGRESTAURANT",
+        "name": "金城 · 漁",
+        "about": "港式餐廳, 提供炒粉麵飯, 小菜 , 海鮮加工, 私房菜\n \n送外賣服務",
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
+        ],
+        "single_line_address": "筲箕灣東大街59-99號東威大廈地下3號舖, 852 Shau Kei Wan"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/kamshing_restaurant/",
+      "meta": {
+        "name": "金城 · 漁",
+        "about": "筲箕灣東大街59-99號東威大廈地下3號鋪\n25131936"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/KAMSHINGRESTAURANT/posts/1070893289914111/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "筲箕灣東大街59-99號東威大廈地下3號舖"
+      },
+      "googleMapsPlaceId": "ChIJ_____3gBBDQRyo9A7cZYowM",
+      "coordinates": {
+        "lat": 22.2796591,
+        "lng": 114.2303897
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1690
+    }
+  ]
+}
