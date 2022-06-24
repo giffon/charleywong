@@ -1,0 +1,60 @@
+{
+  "id": "bubbleteassp",
+  "name": {
+    "zh": "茶太郎"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/100815274985298/",
+      "meta": {
+        "id": "100815274985298",
+        "name": "茶太郎",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "深水埗 桂林街 112至114號 恆成大廈d 1A舖"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/bubbleteassp/",
+      "meta": {
+        "name": "bubble tea 茶太郎"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=100824671651025&id=100815274985298",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗 桂林街 112至114號 恆成大廈d 1A舖"
+      },
+      "googleMapsPlaceId": "ChIJc15vsLQABDQRCbZrMgZ90Ic",
+      "coordinates": {
+        "lat": 22.331718,
+        "lng": 114.1627874
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2384
+    }
+  ]
+}
