@@ -1,0 +1,57 @@
+{
+  "id": "PizzaPlus",
+  "name": {
+    "en": "Pizza Plus",
+    "zh": "比斯比薩"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/519029152239587/",
+      "meta": {
+        "id": "519029152239587",
+        "name": "Pizza Plus 比斯比薩",
+        "about": "電話：35291656",
+        "category_list": [
+          {
+            "id": "180256082015845",
+            "name": "Pizza place"
+          },
+          {
+            "id": "139433292785470",
+            "name": "Caterer"
+          }
+        ],
+        "emails": [
+          "bigzhong923@ymail.com"
+        ],
+        "single_line_address": "香港",
+        "website": "www.pizzaplus.com.hk"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "pizza"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門石排頭路7號德雅工業中心A座地下E1-E2號舖"
+      },
+      "googleMapsPlaceId": "ChIJu8vAQOr7AzQRagJAqMVV4Cw",
+      "coordinates": {
+        "lat": 22.4005704,
+        "lng": 113.9688897
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1352
+    }
+  ]
+}
