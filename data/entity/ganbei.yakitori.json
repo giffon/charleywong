@@ -1,0 +1,85 @@
+{
+  "id": "ganbei.yakitori",
+  "name": {
+    "en": "Ganbei HK",
+    "zh": "乾杯香港"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/445278275902170/",
+      "meta": {
+        "id": "445278275902170",
+        "name": "Ganbei HK 乾杯香港 尖沙咀 西營盤",
+        "about": "可能係全香港最好食嘅串燒居酒屋",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
+        ],
+        "emails": [
+          "kanpaihk@gmail.com"
+        ],
+        "single_line_address": "九龍尖沙咀漆咸道南121至123號永業大廈地下G-H舖, 尖沙咀"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/ganbei.yakitori.syp/",
+      "meta": {
+        "name": "Ganbei Yakitori Syp Shop",
+        "about": "We serve Yakitori & Sake ! 🐓🍶🍻 🐡 🍶🍻🍺🍢🐔Open 6:00pm till Late !\n#ganbeiyakitori\nCheck out our Tst Shop @ganbei.yakitori.tst"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/ganbei.yakitori.tst/",
+      "meta": {
+        "website": "http://www.ganbeihk.com/",
+        "name": "Ganbei Yakitori 乾杯香港-尖沙咀.西環",
+        "about": "We serve Yakitori ，Sake & Beer ! 🍢🍶🍻\n乾杯串燒居酒屋訂位 Reservation\n☎ 2414-3888(尖沙咀Tst)尖沙咀漆咸道南123號地下\n☎ 2433-3328(西環Sai Wan)西環皇后大道西403號地下"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "japanese",
+    "bar"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍尖沙咀漆咸道南121至123號永業大廈地下G-H舖"
+      },
+      "googleMapsPlaceId": "ChIJERuz1e4ABDQR3bx_4UBP2TI",
+      "coordinates": {
+        "lat": 22.3021129,
+        "lng": 114.1765644
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "西環皇后大道西403-405號宏立閣地舖"
+      },
+      "googleMapsPlaceId": "ChIJHe9aUIH_AzQR7_TUgUpJUDE",
+      "coordinates": {
+        "lat": 22.2866206,
+        "lng": 114.1385531
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 866
+    },
+    {
+      "type": "eat",
+      "id": 867
+    }
+  ]
+}
