@@ -1,0 +1,67 @@
+{
+  "id": "ramenikka",
+  "name": {
+    "zh": "麺処一家",
+    "en": "Ramen Ikka"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/456016198260138/",
+      "meta": {
+        "id": "456016198260138",
+        "username": "ramenikka",
+        "name": "麺処一家",
+        "about": "東京風濃厚豚骨醬油魚介拉麵小店（2019年2月登場）",
+        "category_list": [
+          {
+            "id": "218838724804749",
+            "name": "Ramen Restaurant"
+          }
+        ],
+        "emails": [
+          "ikkaramen@gmail.com"
+        ],
+        "single_line_address": "G/F, 11 Hau Fook Street, 尖沙咀"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/ikkaramen/",
+      "meta": {
+        "name": "Ramen Ikka"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/ramenikka/photos/a.502871406907950/563379327523824/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "japanese",
+    "noodle"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, 11 Hau Fook Street"
+      },
+      "googleMapsPlaceId": "ChIJW0u5pDMBBDQRZkC2j0p1Cxw",
+      "coordinates": {
+        "lat": 22.2996222,
+        "lng": 114.1740208
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 809
+    }
+  ]
+}
