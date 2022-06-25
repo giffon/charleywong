@@ -1,0 +1,59 @@
+{
+  "id": "thebackstreetkitchen",
+  "name": {
+    "en": "The Backstreet Kitchen"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1132690080171998/",
+      "meta": {
+        "id": "1132690080171998",
+        "username": "thebackstreetkitchen",
+        "name": "The Backstreet Kitchen",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
+        ],
+        "emails": [
+          "thebackstreetkitchen@gmail.com"
+        ],
+        "single_line_address": "元朗合益路9-15號紀業樓地下H鋪, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/thebackstreetkitchen/",
+      "meta": {
+        "name": "The Backstreet Kitchen",
+        "about": "📮元朗合益路9-15號紀業樓地下H舖\n☎️ 62727271\n⚠️\n營業時間:\n星期一、二、四、五\n1130-1430 / 1800-2200\n星期六、日及假期\n1130-1600 / 1800-2200\n*不設訂座"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗合益路9-15號紀業樓地下H鋪"
+      },
+      "googleMapsPlaceId": "ChIJazr87wn6AzQRWlbyW0ldNkU",
+      "coordinates": {
+        "lat": 22.441627,
+        "lng": 114.031719
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2120
+    }
+  ]
+}

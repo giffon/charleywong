@@ -1,0 +1,121 @@
+{
+  "id": "TheSandwichClub",
+  "name": {
+    "en": "The Sandwich Club",
+    "zh": "美國三文治公司"
+  },
+  "webpages": [
+    {
+      "url": "https://www.thesandwichclub.com.hk"
+    },
+    {
+      "url": "https://www.facebook.com/282786968409746/",
+      "meta": {
+        "id": "282786968409746",
+        "name": "The Sandwich Club",
+        "category_list": [
+          {
+            "id": "2252",
+            "name": "Food & Beverage Company"
+          }
+        ],
+        "emails": [
+          "enquiry@thesandwichclub.com.hk"
+        ],
+        "single_line_address": "Coffee Shop, HKUST, Clear Water Bay Road, Sai Kung, NT",
+        "website": "www.thesandwichclub.com.hk"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=2394524273902661&id=282786968409746",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/282786968409746/posts/2674653989223020/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/282786968409746/posts/2682987951722957/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "American Diner, Concourse Outlet 3, L1, Chia Wei Woo Academic Concourse, HKUST, Clear Water Bay Road, Sai Kung, NT"
+      },
+      "googleMapsPlaceId": "ChIJFX6cwWsEBDQRvkH4nI_V7Ss",
+      "coordinates": {
+        "lat": 22.3363998,
+        "lng": 114.2654655
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "en": "American Diner, Kiosk at FHGJ Courtyard, P/F, PolyU, Hung Hom, Kowloon"
+      },
+      "googleMapsPlaceId": "ChIJS_gtmOgABDQRuEN_FXNbfs0",
+      "coordinates": {
+        "lat": 22.3034864,
+        "lng": 114.1789083
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "en": "Café Express, LG, Lee Shau Kee Building, CUHK, Sha Tin, NT"
+      },
+      "googleMapsPlaceId": "ChIJBa_htpwIBDQRNFtMXC0_Ac8",
+      "coordinates": {
+        "lat": 22.419593,
+        "lng": 114.203932
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "en": "Sandwich Club Kiosk, Portion of Run Run Shaw Podium, Main Campus, HKU"
+      },
+      "googleMapsPlaceId": "ChIJL33kd4b_AzQRzrvjG_lE5sQ",
+      "coordinates": {
+        "lat": 22.2825142,
+        "lng": 114.1380589
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1776
+    },
+    {
+      "type": "eat",
+      "id": 1778
+    },
+    {
+      "type": "eat",
+      "id": 5553
+    }
+  ]
+}

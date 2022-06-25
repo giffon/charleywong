@@ -1,0 +1,55 @@
+{
+  "id": "SunChuenFatRestaurant",
+  "name": {
+    "zh": "新泉發潮州飯店"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/122744318348320/",
+      "meta": {
+        "id": "122744318348320",
+        "name": "新泉發潮州飯店",
+        "about": "更改名子",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "174483852595760",
+            "name": "Chinese Restaurant"
+          }
+        ],
+        "emails": [
+          "wosha1120@gmail.com"
+        ],
+        "single_line_address": "九龍旺角上海街498號地下, 九龍"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍旺角上海街498號地下"
+      },
+      "googleMapsPlaceId": "ChIJm8y4dMcABDQRP4H0JamqfI4",
+      "coordinates": {
+        "lat": 22.316648,
+        "lng": 114.168764
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5342
+    }
+  ]
+}
