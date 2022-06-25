@@ -169,9 +169,9 @@ class View extends ReactComponent {
             </div>
             <div className="mt-3 md:mt-12 text-center container max-w-screen-lg mx-auto px-4 md:px-8">
                 <div className="w-full">
-                    <a href="https://ssprangers.com/">
-                        <img className="w-full hidden sm:inline" src=${R("/images/good-970-90.jpg")} alt="深水埗黃店美食 埗兵外賣俾你食"/>
-                        <img className="w-full inline sm:hidden" src=${R("/images/good-320-50.jpg")} alt="深水埗黃店美食 埗兵外賣俾你食"/>
+                    <a href="https://www.facebook.com/hkssprangers/posts/474379454365622/">
+                        <img className="w-full hidden sm:inline" src=${R("/images/banner-recruit-970x90.jpg")} alt="埗兵招人 誠徵佛系兼職外賣員"/>
+                        <img className="w-full inline sm:hidden" src=${R("/images/banner-recruit-570x90.jpg")} alt="埗兵招人 誠徵佛系兼職外賣員"/>
                     </a>
                 </div>
             </div>
