@@ -1,0 +1,74 @@
+{
+  "id": "KojimaKitchen",
+  "name": {
+    "en": "Kojima",
+    "zh": "小島料理"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/100448651894127/",
+      "meta": {
+        "id": "100448651894127",
+        "username": "KojimaKitchen",
+        "name": "Kojima小島料理",
+        "about": "日式料理丼",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "kojimakitchen@gmail.com"
+        ],
+        "single_line_address": "香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/kojima_kitchen/",
+      "meta": {
+        "name": "小島料理_Kojima",
+        "about": "地址：大角咀櫸樹街富多來商場二期58號\n電話：64790023\nFackbook : Kojima小島料理\n歡迎合作及團購外賣😋\n日式料理\n主打慢煮牛肉飯🐮"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/KojimaKitchen/posts/101573535114972/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/KojimaKitchen/posts/253616549910669/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "japanese",
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大角咀櫸樹街富多來商場二期58號"
+      },
+      "googleMapsPlaceId": "ChIJFXHe41cBBDQRSO4mTAgygtQ",
+      "coordinates": {
+        "lat": 22.3200808,
+        "lng": 114.1631462
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5975
+    }
+  ]
+}

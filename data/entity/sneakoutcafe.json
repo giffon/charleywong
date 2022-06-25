@@ -1,0 +1,55 @@
+{
+  "id": "sneakoutcafe",
+  "name": {
+    "zh": "蛇竇茶記"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/492437551142335/",
+      "meta": {
+        "id": "492437551142335",
+        "username": "sneakoutcafe",
+        "name": "蛇竇茶記",
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
+        ],
+        "single_line_address": "G/F Tung Tat Building ,392 Des Voeux Road West, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/sneakoutcafe/",
+      "meta": {
+        "name": "蛇竇茶記 Sneak Out Cafe",
+        "about": "蛇竇茶記 🐍 Sneak Out Cafe\n地址： 香港西盤營德輔道西392 B鋪\n電話21440668\n營業時間7:30-10:00\nFacebook page : 蛇竇茶記\nInstagram : sneakoutcafe"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F Tung Tat Building ,392 Des Voeux Road West"
+      },
+      "googleMapsPlaceId": "ChIJxd5n8IP_AzQRWBA37E2uXvU",
+      "coordinates": {
+        "lat": 22.2867523,
+        "lng": 114.1371646
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5692
+    }
+  ]
+}

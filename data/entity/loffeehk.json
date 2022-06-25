@@ -1,0 +1,71 @@
+{
+  "id": "loffeehk",
+  "name": {
+    "zh": "佬啡"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/105990427763859/",
+      "meta": {
+        "id": "105990427763859",
+        "username": "loffeehk",
+        "name": "佬啡",
+        "about": "How wonderful yellow is. It always stands for....",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
+        ],
+        "single_line_address": "第一街129號順泰大廈地下7號舖, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/loffeehk/",
+      "meta": {
+        "website": "http://facebook.com/loffeehk",
+        "name": "佬啡～生活呢喃萬事屋",
+        "about": "曾經，這是一家在西營盤街角有家外賣咖啡店，沒有名字，也沒有招牌，只有水泥牆和一抹黃色。轉戰網上，買咖啡、買雜貨，也談生活，是謂，生活呢喃。"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/loffeehk/photos/a.152322943130607/158542679175300/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/loffeehk/posts/459654979064067/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "第一街129號順泰大廈地下7號舖"
+      },
+      "googleMapsPlaceId": "ChIJY0qkIIH_AzQRMkoeTLMj2Hs",
+      "coordinates": {
+        "lat": 22.2866721,
+        "lng": 114.1409468
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5659
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "TheThirdBakery",
+  "name": {
+    "en": "The Third Bakery"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/103129298519570/",
+      "meta": {
+        "id": "103129298519570",
+        "name": "The Third Bakery",
+        "about": "Specialty Coffee｜Baked goods\n‧ Monday to Sunday 10am - 6pm\n‧ 40 Eastern Street",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "187827497907070",
+            "name": "Bakery"
+          },
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
+        ],
+        "single_line_address": "40 Eastern Street, Sai Ying Pun, 香港",
+        "website": "http://thirdbakery.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/thethird.syp/",
+      "meta": {
+        "name": "thethird.syp",
+        "about": "Tel / Whatsapp 5313 1526\nPaste | Risotto | Burger | Brunch\nCoffee / Scented Tea / Fruit Tea\n▫️ Temporarily closed\n▫️40 Eastern Street"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "40 Eastern Street, Sai Ying Pun"
+      },
+      "googleMapsPlaceId": "ChIJyxa5MgL_AzQR1P8Smx7-r_c",
+      "coordinates": {
+        "lat": 22.2865465,
+        "lng": 114.1438589
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6271
+    }
+  ]
+}
