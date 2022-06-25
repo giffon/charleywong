@@ -182,7 +182,7 @@ class Content {
             return;
         }
 
-        var june = Date.fromString("2019-06-01");
+        final june = Date.fromString("2019-06-01");
 
         if (document.querySelector("div[role='main'] div[role='article'] > div[role='progressbar']") == null) {
             window.scrollTo(window.scrollX, document.body.scrollHeight);
@@ -204,13 +204,13 @@ class Content {
 
         // console.debug(feed);
 
-        var posts = [
+        final posts = [
             for (node in feed.querySelectorAll("div[role='article']"))
             (cast node:DivElement)
         ];
         console.debug('Found ${posts.length} posts');
 
-        var scrollToJune = scrollToJune.bind(posts.length);
+        final scrollToJune = scrollToJune.bind(posts.length);
 
         if (posts.length == oldArticleCount) {
             Timer.delay(scrollToJune, 100);
@@ -221,14 +221,14 @@ class Content {
             Timer.delay(function() alert("找不到 div[role='article']"), 100);
             return;
         }
-        var times = posts
+        final times = posts
             .map(node -> (cast node.querySelectorAll("span[dir='auto'] a[role='link'][href='#']")[0]:AnchorElement))
             .filter(timeA -> timeA != null && timeA.offsetParent != null) // ignore invisible nodes
             .map(timeA -> {
                 node: timeA,
                 time: {
                     final baselined = [
-                        for (e in timeA.querySelectorAll("span"))
+                        for (e in timeA.querySelectorAll("div"))
                         if (switch (window.getComputedStyle(cast e).top) {
                             case null | "" | "0px": true;
                             case _: false;
@@ -254,7 +254,7 @@ class Content {
             Timer.delay(scrollToJune, 100);
             return;
         }
-        var beforeJuneNode = times.find(t -> t.time < june.getTime());
+        final beforeJuneNode = times.find(t -> t.time < june.getTime());
         if (beforeJuneNode != null) {
             beforeJuneNode.node.scrollIntoView({
                 block: ScrollLogicalPosition.END,
