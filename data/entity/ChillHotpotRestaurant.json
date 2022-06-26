@@ -1,0 +1,70 @@
+{
+  "id": "ChillHotpotRestaurant",
+  "name": {
+    "en": "Chill Hot Pot",
+    "zh": "潮營火鍋小炒菜館"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/102243858677073/",
+      "meta": {
+        "id": "102243858677073",
+        "username": "ChillHotpotRestaurant",
+        "name": "Chill潮營火鍋小炒菜館",
+        "about": "中式, 火鍋及酸菜魚",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
+        ],
+        "single_line_address": "新界上水馬會道176號地下, 0000000 香港",
+        "website": "https://api.whatsapp.com/send?phone=85297654819"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/ChillHotpotRestaurant/posts/123460176555441/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/ChillHotpotRestaurant/posts/124957033072422/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/ChillHotpotRestaurant/posts/132273879007404/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "hotpot"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新界上水馬會道176號地下"
+      },
+      "googleMapsPlaceId": "ChIJ75uY_2n3AzQRas-jaIaNFH0",
+      "coordinates": {
+        "lat": 22.5043109,
+        "lng": 114.1302341
+      },
+      "area": {
+        "zh": "北區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6464
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "manmancanteen",
+  "name": {
+    "zh": "滿滿食堂"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/112181730272759/",
+      "meta": {
+        "id": "112181730272759",
+        "username": "manmancanteen",
+        "name": "滿滿食堂",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "中環皇后大道中58-60號振邦大廈地庫, 香港"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "中環皇后大道中58-60號振邦大廈地庫"
+      },
+      "googleMapsPlaceId": "ChIJN_E3BoEBBDQRkD5EtHl5fdE",
+      "coordinates": {
+        "lat": 22.28242389999999,
+        "lng": 114.1558406
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2432
+    }
+  ]
+}

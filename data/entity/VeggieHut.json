@@ -1,0 +1,61 @@
+{
+  "id": "VeggieHut",
+  "name": {
+    "en": "Veggie Hut",
+    "zh": "素味牽"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/107319871045758/",
+      "meta": {
+        "id": "107319871045758",
+        "name": "Veggie Hut 素味牽",
+        "about": "我們不僅提供素食, 我們更加推廣食素!\nWe are not only providing vegetarian food, but more of promoting vegetarianism. \n",
+        "category_list": [
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          }
+        ],
+        "emails": [
+          "veggie.hutlimited@gmail.com"
+        ],
+        "single_line_address": "深水埗元州街32號地下, 00852 深水埗"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/veggiehut19/",
+      "meta": {
+        "name": "Veggiehut 素味牽",
+        "about": "甚麼原因令你選擇我們？\n愛護動物 | 宗教信仰 | 關心健康 | 支持環保 | 轉轉口味\n店舖地址：深水埗元州街32號地下\n營業時間：11:20am – 9:40pm"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "vegeterian",
+    "food",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗元州街32號地下"
+      },
+      "googleMapsPlaceId": "ChIJ15SJuUoBBDQRn343G6iidQs",
+      "coordinates": {
+        "lat": 22.3321996,
+        "lng": 114.1635604
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2451
+    }
+  ]
+}

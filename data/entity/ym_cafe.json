@@ -1,0 +1,66 @@
+{
+  "id": "ym_cafe",
+  "name": {
+    "en": "Y.M. Cafe"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/ym_cafe/",
+      "meta": {
+        "name": "Y.M. Cafe",
+        "about": "💛逢星期二休息💛\n⏰12:00-9:30pm\n歡迎walkin/PM book位"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/111614517842174/",
+      "meta": {
+        "id": "111614517842174",
+        "name": "Y.M. Cafe - 一間由年青人運作嘅休閒cafe",
+        "about": "歡迎來臨 Y.M.Cafe\n\n我們希望提供一個舒適嘅地方畀大家上嚟Hea下",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "emails": [
+          "ymcafe@gmail.com"
+        ],
+        "single_line_address": "香港銅鑼灣富明街2-6號寶明大廈1樓L室, 香港",
+        "website": "https://instagram.com/ym_cafe?igshid=NDA1YzNhOGU%3D"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/photo/?fbid=283227580684045&set=a.234197648920372"
+    },
+    {
+      "url": "https://www.facebook.com/photo/?fbid=308198034853666&set=a.234197648920372"
+    }
+  ],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港銅鑼灣富明街2-6號寶明大廈1樓L室"
+      },
+      "googleMapsPlaceId": "ChIJ0YwK7SABBDQRtkw_Mb3hiyQ",
+      "coordinates": {
+        "lat": 22.27849089999999,
+        "lng": 114.1835534
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6379
+    }
+  ]
+}

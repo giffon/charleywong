@@ -1,0 +1,57 @@
+{
+  "id": "Restaurant2dot0.taipo",
+  "name": {
+    "zh": "茶餐廳2.0 (大埔店)",
+    "en": "CAFE 2.0 (Tai Po)"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/305267446926624/",
+      "meta": {
+        "id": "305267446926624",
+        "username": "Restaurant2dot0",
+        "name": "茶餐廳2.0",
+        "about": "茶餐廳2.0裝修清雅，壁畫設計深化茶記特色，舒適座位具空間感。",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          },
+          {
+            "id": "197227066968500",
+            "name": "Continental Restaurant"
+          }
+        ]
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔安邦路9號大埔超級城A區地下012A舖"
+      },
+      "googleMapsPlaceId": "Eh85IE9uIFBvbmcgUmQsIFRhaSBQbywgSG9uZyBLb25nIjASLgoUChIJETUzu0cIBDQR64vqvglJ6gQQCSoUChIJA8frx0cIBDQRJXdBjQ9e8b0",
+      "coordinates": {
+        "lat": 22.452016,
+        "lng": 114.1696864
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2003
+    }
+  ]
+}

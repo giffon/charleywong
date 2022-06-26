@@ -1,0 +1,71 @@
+{
+  "id": "Jskitchensheungwan",
+  "name": {
+    "en": "js_kitchen_hk",
+    "zh": "袁味湯品"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/107146037434780/",
+      "meta": {
+        "id": "107146037434780",
+        "username": "Jskitchensheungwan",
+        "name": "js_kitchen_hk",
+        "about": "Catering Service",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "jsjs_kitchen@hotmail.com"
+        ],
+        "single_line_address": "1/F 270-276 Queens Road Central, Sheung Wan"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/js_kitchen_hk/",
+      "meta": {
+        "name": "Js Kitchen",
+        "about": "Restaurant"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/CArO1y4jDyA/"
+    },
+    {
+      "url": "https://www.facebook.com/Jskitchensheungwan/posts/181589426657107/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "1/F 270-276 Queens Road Central, Sheung Wan"
+      },
+      "googleMapsPlaceId": "ChIJVWgyD3wABDQRenaTSM_DpaQ",
+      "coordinates": {
+        "lat": 22.284438,
+        "lng": 114.1507631
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2025
+    }
+  ]
+}

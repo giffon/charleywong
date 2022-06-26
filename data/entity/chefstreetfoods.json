@@ -1,0 +1,69 @@
+{
+  "id": "chefstreetfoods",
+  "name": {
+    "zh": "主廚小食",
+    "en": "Chefstreetfoods"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/586720801807036/",
+      "meta": {
+        "id": "586720801807036",
+        "username": "chefstreetfoods",
+        "name": "主廚小食 Chefstreetfoods",
+        "about": "三位廚師主理的食店",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://www.instagram.com/chef.streetfoods/",
+      "meta": {
+        "name": "主廚小食 Chef Street Foods",
+        "about": "三位廚師主理的食店￼"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/chefstreetfoods/posts/874688983010215/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/chefstreetfoods/posts/951402678672178/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "青衣長康邨一期康和樓地下長康市集M15號舖"
+      },
+      "googleMapsPlaceId": "ChIJKYTpr535AzQRHTV6VrIBNIc",
+      "coordinates": {
+        "lat": 22.3496792,
+        "lng": 114.1047446
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5896
+    }
+  ]
+}
