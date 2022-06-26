@@ -1,0 +1,57 @@
+{
+  "id": "fungyipcanteen",
+  "name": {
+    "zh": "豐業食堂"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/676969202342285/",
+      "meta": {
+        "id": "676969202342285",
+        "username": "fungyipcanteen",
+        "name": "豐業食堂",
+        "about": "開業逾30年",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "觀塘偉業街170號豐業工業大廈1樓A室, 觀塘"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/fungyipcanteen/posts/2477178168988037/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘偉業街170號豐業工業大廈1樓A室"
+      },
+      "googleMapsPlaceId": "ChIJsS0KckYBBDQRgdNTCyAwlCo",
+      "coordinates": {
+        "lat": 22.310438,
+        "lng": 114.220485
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2215
+    }
+  ]
+}

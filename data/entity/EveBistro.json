@@ -1,0 +1,62 @@
+{
+  "id": "EveBistro",
+  "name": {
+    "zh": "夏娃",
+    "en": "Eve Bistro"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/280543992450471/",
+      "meta": {
+        "id": "280543992450471",
+        "name": "夏娃 Eve Bistro",
+        "category_list": [
+          {
+            "id": "1508025966158640",
+            "name": "European Restaurant"
+          }
+        ],
+        "emails": [
+          "evebistro@gmail.com"
+        ],
+        "single_line_address": "北角和富道118號, 00000 North Point"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/eve.bistro/",
+      "meta": {
+        "name": "Eve Bistro",
+        "about": "⏰營業時間:11:30-15:00,18:00-22:30\n📍北角和富道118號康華大廈地下C1舖 ☎️：34622000 歡迎訂座！😊\n#用心經營 #90後創業 #北角唯一德國餐廳"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/B8bXkTLh5Q7/"
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "北角和富道118號"
+      },
+      "googleMapsPlaceId": "ChIJEyerpQQBBDQRh4_4aI9Vml8",
+      "coordinates": {
+        "lat": 22.2922231,
+        "lng": 114.1980444
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2213
+    }
+  ]
+}

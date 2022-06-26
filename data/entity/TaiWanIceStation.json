@@ -1,0 +1,73 @@
+{
+  "id": "TaiWanIceStation",
+  "name": {
+    "zh": "臺味冰點"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/697576510584311/",
+      "meta": {
+        "id": "697576510584311",
+        "username": "TaiWanIceStationTSW",
+        "name": "臺味冰點-天水圍總店",
+        "about": "thanks.",
+        "category_list": [
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          }
+        ],
+        "single_line_address": "天水圍天湖路1號嘉湖新北江商場1樓C23-24號舖, Tin Shui Wai"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/wtsgoldmagician/posts/382539153883673/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "天水圍天湖路1號嘉湖新北江商場1樓C23-24號舖"
+      },
+      "googleMapsPlaceId": "ChIJwVFZD37wAzQRT96zVBAamrU",
+      "coordinates": {
+        "lat": 22.4518329,
+        "lng": 114.0007421
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門海麗花園商場地下1號舖"
+      },
+      "googleMapsPlaceId": "ChIJw_OTgCf7AzQREPRt1k8-nFY",
+      "coordinates": {
+        "lat": 22.4077092,
+        "lng": 113.9681099
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1178
+    },
+    {
+      "type": "eat",
+      "id": 2251
+    }
+  ]
+}

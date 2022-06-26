@@ -1,0 +1,70 @@
+{
+  "id": "24500033",
+  "name": {
+    "zh": "您想點鮮"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/111407123790265/",
+      "meta": {
+        "id": "111407123790265",
+        "name": "您想點鮮（屯門碼頭店）",
+        "about": "即叫即做 手握壽司 刺身 法國生蠔",
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          }
+        ],
+        "single_line_address": "000000 香港"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/100879328263964/",
+      "meta": {
+        "id": "100879328263964",
+        "name": "您想點鮮 屯門碼頭啟豐商場地下5 號舖",
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          }
+        ],
+        "emails": [
+          "eva808@me.com"
+        ],
+        "single_line_address": "852 香港"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "japanese",
+    "sushi"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門湖翠路138號啟豐商場地下5號舖"
+      },
+      "googleMapsPlaceId": "ChIJJxuxaVD7AzQRKx-vn7dxrhw",
+      "coordinates": {
+        "lat": 22.3730236,
+        "lng": 113.9645058
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2260
+    },
+    {
+      "type": "eat",
+      "id": 2397
+    }
+  ]
+}
