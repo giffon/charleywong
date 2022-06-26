@@ -1,0 +1,82 @@
+{
+  "id": "myrainbowcafe",
+  "name": {
+    "en": "Rainbow Cafe"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/205859632804913/",
+      "meta": {
+        "id": "205859632804913",
+        "username": "myrainbowcafe",
+        "name": "Rainbow Cafe",
+        "about": "Rainbow Cafe",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
+        ],
+        "emails": [
+          "coffee@myrainbowcafe.com"
+        ],
+        "single_line_address": "G/F, 63 San Hing Praya Street, Cheung Chau, 00000 Cheung Chau"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/my_rainbow_cafe/",
+      "meta": {
+        "name": "myrainbowcafe",
+        "about": "Cheung Chau, Hong Kong\n- myrainbowcafe@gmail.com\n- Facebook @myrainbowcafe"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/myrainbowcafe/photos/a.2471975746193279/2471975916193262/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/myrainbowcafe/photos/a.2517910541599799/2517910774933109/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/myrainbowcafe/photos/a.2971207096270139/2971211116269737/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, 63 San Hing Praya Street, Cheung Chau"
+      },
+      "googleMapsPlaceId": "ChIJ4aUIpI1WATQRM5XGA83Zjd0",
+      "coordinates": {
+        "lat": 22.2095394,
+        "lng": 114.0285693
+      },
+      "area": {
+        "zh": "離島區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2380
+    }
+  ]
+}

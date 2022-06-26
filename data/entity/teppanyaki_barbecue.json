@@ -1,0 +1,54 @@
+{
+  "id": "teppanyaki_barbecue",
+  "name": {
+    "zh": "鐵板神蒜"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/109158367578621/",
+      "meta": {
+        "id": "109158367578621",
+        "name": "鐵板神蒜",
+        "about": "街坊小店  用心制作",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://www.instagram.com/teppanyaki_barbecue/",
+      "meta": {
+        "name": "鐵板神蒜",
+        "about": "營業時間：11:30a.m～1:30p.m\n電話：6972 2811\n地址：大嶼山東涌逸東邨 街市7號舖"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大嶼山東涌逸東邨 街市7號舖"
+      },
+      "googleMapsPlaceId": "ChIJtYPNzabiAzQRzl6u7B8UrcY",
+      "coordinates": {
+        "lat": 22.281039,
+        "lng": 113.9355582
+      },
+      "area": {
+        "zh": "離島區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1364
+    }
+  ]
+}

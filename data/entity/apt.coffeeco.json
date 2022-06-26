@@ -1,0 +1,100 @@
+{
+  "id": "apt.coffeeco",
+  "name": {
+    "en": "APT. Coffee"
+  },
+  "webpages": [
+    {
+      "url": "https://www.apt-coffee.com"
+    },
+    {
+      "url": "https://www.facebook.com/290411711656367/",
+      "meta": {
+        "id": "290411711656367",
+        "username": "apt.coffeeco",
+        "name": "APT. Coffee",
+        "about": "We focus on the details – one at a time – to create an unique coffee and toast experience.",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "emails": [
+          "info@apt-coffee.com"
+        ],
+        "website": "www.apt-coffee.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/apt.coffee/",
+      "meta": {
+        "website": "http://linktr.ee/apersonaltailor/",
+        "name": "APT- A PERSONAL TAILOR",
+        "about": "Sai Ying Pun ・Pasta & Tacos\nWanchai ・Central・ Coffee & Toast\nSAI YING PUN RESERVATION👇🏻"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/apt.coffeeco/photos/a.300492250648313/400647417299462/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 3-5, G/F, Artisan House, Sai Ying Pun, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJHSAdGxH_AzQRSHOWiye_umg",
+      "coordinates": {
+        "lat": 22.287679,
+        "lng": 114.1418318
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop A-C, G/F, Moon street 2-12, Wanchai, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJKzRZjlkBBDQRdxvRsF1yeGs",
+      "coordinates": {
+        "lat": 22.27616489999999,
+        "lng": 114.1684939
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop C, G/F, Cochrane street 34, Central, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJt0eaQpQBBDQRLmjdZlAnXdQ",
+      "coordinates": {
+        "lat": 22.2826949,
+        "lng": 114.1542269
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1890
+    },
+    {
+      "type": "eat",
+      "id": 2352
+    }
+  ]
+}
