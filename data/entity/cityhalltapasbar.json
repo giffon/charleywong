@@ -1,0 +1,68 @@
+{
+  "id": "cityhalltapasbar",
+  "name": {
+    "en": "City Hall Tapas Bar"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/112667220160092/",
+      "meta": {
+        "id": "112667220160092",
+        "username": "cityhalltapasbar",
+        "name": "City Hall Tapas Bar",
+        "about": "City Hall is a tapas restaurant and bar located in up and coming gourmet paradise in Tuen Mun - Tseng Choi Street.  We serve everything in fresh and homemade with selective tailor made cocktails, local crafted beer and wines",
+        "category_list": [
+          {
+            "id": "119869574758000",
+            "name": "Tapas Bar & Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          },
+          {
+            "id": "499741296896069",
+            "name": "Cocktail Bar"
+          }
+        ],
+        "emails": [
+          "cityhalldining@gmail.com"
+        ],
+        "single_line_address": "屯門井財街19號嘉熙大廈地下B2及B3號舖, 852 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/city_hall_tapas_bar/",
+      "meta": {
+        "website": "https://wa.me/85297888082?text=Hello",
+        "name": "City Hall Tapas Bar",
+        "about": "Tue - Sun 12:00-03:00\nMon off (except public holiday)"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "bar"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門井財街19號嘉熙大廈地下B2及B3號舖"
+      },
+      "googleMapsPlaceId": "ChIJlXqGlib7AzQRotU-2csQdiY",
+      "coordinates": {
+        "lat": 22.4019381,
+        "lng": 113.97783
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5220
+    }
+  ]
+}
