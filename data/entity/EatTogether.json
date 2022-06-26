@@ -1,0 +1,72 @@
+{
+  "id": "EatTogether",
+  "name": {
+    "zh": "一起食堂"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1990928137690162/",
+      "meta": {
+        "id": "1990928137690162",
+        "name": "一起食堂",
+        "about": "中環域多利皇后街2號地舖\n外賣熱線 6722 1639\n\n觀塘開源道48號威利廣場地下G5舖\n外賣熱線 6636 9003",
+        "category_list": [
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          }
+        ],
+        "single_line_address": "No.2 Queen Victoria Street, Central, 香港"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/1990928137690162/posts/2528072833975687/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "中環域多利皇后街2號地舖"
+      },
+      "googleMapsPlaceId": "ChIJo3qd2Q8BBDQRLbfT_XNxYc8",
+      "coordinates": {
+        "lat": 22.2839726,
+        "lng": 114.1559308
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘開源道48號威利廣場地下G5舖"
+      },
+      "googleMapsPlaceId": "ChIJG66mhWkBBDQRdXgnw1aeqB8",
+      "coordinates": {
+        "lat": 22.3089885,
+        "lng": 114.223232
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1390
+    },
+    {
+      "type": "eat",
+      "id": 5969
+    }
+  ]
+}
