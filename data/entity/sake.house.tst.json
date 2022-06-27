@@ -1,0 +1,70 @@
+{
+  "id": "sake.house.tst",
+  "name": {
+    "zh": "鱘",
+    "en": "Sake House"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/sake.house.tst/",
+      "meta": {
+        "name": "Sake House TST",
+        "about": "裝修風格時尚簡約的鱘，提供近百款清酒及特色飲料，配合廚師精心搜購食材炮製的串燒及日式居酒屋美食，愛酒之士可在此與良朋品酒談心。\nContact : 27232711"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/267537690485325/",
+      "meta": {
+        "id": "267537690485325",
+        "name": "鱘 Sake House",
+        "about": "裝修風格時尚簡約的鱘Sake Bar，提供近百款清酒及特色飲料，配合廚師精心搜購食材炮製的串燒及日式居酒屋美食，愛酒之士可在此與良朋品酒談心。",
+        "category_list": [
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          }
+        ],
+        "single_line_address": "B1, 2-4 Observatory ct. TST, 尖沙咀"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/267537690485325/posts/469017123670713/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/267537690485325/posts/472530373319388/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "japanese",
+    "bar"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "B1, 2-4 Observatory ct. TST"
+      },
+      "googleMapsPlaceId": "EioyIE9ic2VydmF0b3J5IFJkLCBUc2ltIFNoYSBUc3VpLCBIb25nIEtvbmciMBIuChQKEgnFHhHn7gAENBHhhuijrZv88BACKhQKEgk3Tg6i7gAENBHjlrbH720o_Q",
+      "coordinates": {
+        "lat": 22.3008669,
+        "lng": 114.1760145
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2256
+    }
+  ]
+}

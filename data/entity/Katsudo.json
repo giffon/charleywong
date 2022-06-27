@@ -1,0 +1,89 @@
+{
+  "id": "Katsudo",
+  "name": {
+    "zh": "諸勝堂",
+    "en": "Katsudo"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/365944447285404/",
+      "meta": {
+        "id": "365944447285404",
+        "name": "諸勝堂 -Katsudo- （上環分店）",
+        "about": "用日本優質食材的香港人冰室",
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
+        ],
+        "single_line_address": "上環禧利街15號地下, 852"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/katsudo.swh/",
+      "meta": {
+        "id": "101988528905401",
+        "username": "katsudo.swh",
+        "name": "諸勝堂 -Katsudo- （西灣河分店）",
+        "about": "用日本優質食材的豚骨湯冰室",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "G/f., 104 Shau Kei Wan Road, Sai Wan Ho , HK, 852 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/katsudo_official/",
+      "meta": {
+        "name": "Katsudo 諸勝堂",
+        "about": "港式茶餐廳\n茶仔價錢，酒店級水準\n👍🏻忌廉豬骨湯叉燒湯意粉\n👍🏻自家製XO醬肉眼扒飯\n👍🏻炒日本滑蛋\n🏠上環禧利街15號地下\n📞2394-1188\n歡迎外賣自取"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "上環禧利街15號地下"
+      },
+      "googleMapsPlaceId": "ChIJNYjo4zMBBDQRH7QX4nP_frU",
+      "coordinates": {
+        "lat": 22.285499,
+        "lng": 114.151475
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "西灣河筲箕灣道104號地下"
+      },
+      "googleMapsPlaceId": "ChIJrXPlZu8BBDQRj50oBG028lQ",
+      "coordinates": {
+        "lat": 22.282199,
+        "lng": 114.2216906
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2270
+    }
+  ]
+}
