@@ -1,0 +1,62 @@
+{
+  "id": "SweetieHouseSWH",
+  "name": {
+    "zh": "甜甜屋",
+    "en": "Sweetie House"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/2319023755037918/",
+      "meta": {
+        "id": "2319023755037918",
+        "username": "SweetieHouseSWH",
+        "name": "西灣河甜品店 糖水店舖 甜點 - Sweetie House 甜甜屋",
+        "about": "甜甜屋 Sweetie House，西灣河甜品糖水店，今年六歲，住在西灣河西灣河街110B，一間多元素嘅特式西灣河糖水舖。西灣河甜點包括：中式、西式、台式仲有我地嘅港式甜品。",
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "西灣河 西灣河街 110 號 地下 B 舖, 西灣河"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/sweetiehouseswh/",
+      "meta": {
+        "website": "http://facebook.com/SweetieHouseSWH/",
+        "name": "甜甜屋 Sweetie House - 西灣河甜品糖水店",
+        "about": "甜甜屋 Sweetie House - 營業時間：星期一至日 4PM - 1AM。歡迎堂食🍨或外賣致電 ☎️：2513 1298"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "西灣河 西灣河街 110 號 地下 B 舖"
+      },
+      "googleMapsPlaceId": "ChIJ32NBhnYBBDQRgaTQFAvQLI8",
+      "coordinates": {
+        "lat": 22.2814774,
+        "lng": 114.2219024
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1398
+    }
+  ]
+}

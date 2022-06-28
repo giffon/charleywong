@@ -1,0 +1,67 @@
+{
+  "id": "coffeeonwater",
+  "name": {
+    "en": "Coffee on Water",
+    "zh": "水上。啡"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/106025808074236/",
+      "meta": {
+        "id": "106025808074236",
+        "username": "coffeeonwater",
+        "name": "Coffee on Water",
+        "about": "\n⏅  Coffee shop ⏅\n ◔  0900-1700 ◔\nMonday OFF",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "emails": [
+          "coffeeonwater2020@gmail.com"
+        ],
+        "single_line_address": "香港新界長洲海傍街, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/coffeeonwater/",
+      "meta": {
+        "name": "水上。啡",
+        "about": "◔ 0900-1700 ◔\n不定休*\n(碼頭附近)"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/coffeeonwater/posts/202425655100917/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港新界長洲海傍街"
+      },
+      "googleMapsPlaceId": "ChIJ_eHGq8hXATQRlGuMNCnxvMU",
+      "coordinates": {
+        "lat": 22.2086486,
+        "lng": 114.0297738
+      },
+      "area": {
+        "zh": "離島區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5877
+    }
+  ]
+}

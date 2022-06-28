@@ -1,0 +1,70 @@
+{
+  "id": "fab.kitchen.hk",
+  "name": {
+    "en": "FAB Kitchen"
+  },
+  "webpages": [
+    {
+      "url": "https://fab.com.hk"
+    },
+    {
+      "url": "https://www.instagram.com/fab.kitchen.hk/",
+      "meta": {
+        "website": "http://fab.com.hk/",
+        "name": "FAB Kitchen",
+        "about": "FAB (Fabulous Appetite Bon) is an elegant and spacious restaurant with a modern and stylish decor located in Lai Chi Kok"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/661841570915582/",
+      "meta": {
+        "id": "661841570915582",
+        "name": "FAB Kitchen",
+        "about": "FAB (Fabulous Appetite Bon) is an elegant and spacious restaurant with a modern and stylish decor located in Lai Chi Kok within the industrial building, which aims to popularize the idea of fine dining.  ",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "info@fab.com.hk"
+        ],
+        "single_line_address": "Elite Industrial Centre 7/F Room 704, 香港",
+        "website": "fab.com.hk"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/661841570915582/posts/712871155812623/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room 704, 7/F, Elite Industrial Centre"
+      },
+      "googleMapsPlaceId": "ChIJ2-ZlpBwHBDQRY9g6HoP-l_s",
+      "coordinates": {
+        "lat": 22.3367537,
+        "lng": 114.1476756
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1511
+    }
+  ]
+}

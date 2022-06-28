@@ -1,0 +1,74 @@
+{
+  "id": "15squarestreet",
+  "name": {
+    "en": "15squarestreet"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/294969770158/",
+      "meta": {
+        "id": "294969770158",
+        "username": "15squarestreet",
+        "name": "15squarestreet",
+        "about": "15squarestreet is a retail concept/Swedish Cafe set in the Sheung Wan Soho area of Hong Kong. ",
+        "category_list": [
+          {
+            "id": "191647907538150",
+            "name": "Gift Shop"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          },
+          {
+            "id": "109512302457693",
+            "name": "Footwear store"
+          }
+        ],
+        "emails": [
+          "info@squarestreet.se"
+        ],
+        "website": "http://www.15squarestreet.com"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "15squarestreet, G/F, 15 Square Street, Sheung Wan"
+      },
+      "googleMapsPlaceId": "ChIJh1FKVXkABDQR4h9z1NGBPJs",
+      "coordinates": {
+        "lat": 22.2843236,
+        "lng": 114.1497025
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "en": "squarestreet Archive, G/F, 41 Circular Pathway, Sheung Wan"
+      },
+      "googleMapsPlaceId": "Ei00MSBDaXJjdWxhciBQYXRod2F5LCBUYWkgUGluZyBTaGFuLCBIb25nIEtvbmciMBIuChQKEgnBTrgGfAAENBH_JAQcUGG8TxApKhQKEgl1JEkGfAAENBEfb5enCrBrYw",
+      "coordinates": {
+        "lat": 22.2844064,
+        "lng": 114.150269
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1383
+    }
+  ]
+}

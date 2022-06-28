@@ -1,0 +1,53 @@
+{
+  "id": "sappororamenen",
+  "name": {
+    "zh": "札幌拉麵元"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/469525219815146/",
+      "meta": {
+        "id": "469525219815146",
+        "username": "sappororamenen",
+        "name": "札幌拉麵元-熊貓店",
+        "about": "Japanese Ramen Restaurant\n\n荔枝角本店：\nhttps://www.facebook.com/sappororamenen/",
+        "category_list": [
+          {
+            "id": "218838724804749",
+            "name": "Ramen Restaurant"
+          }
+        ]
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "japanese",
+    "noodle"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣荃華街3號悅來坊B1樓B121號鋪"
+      },
+      "googleMapsPlaceId": "ChIJPXolLpP4AzQRDrtYYH0HkOc",
+      "coordinates": {
+        "lat": 22.3690102,
+        "lng": 114.1206291
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2162
+    },
+    {
+      "type": "eat",
+      "id": 2163
+    }
+  ]
+}

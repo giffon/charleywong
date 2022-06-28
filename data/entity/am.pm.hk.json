@@ -1,0 +1,64 @@
+{
+  "id": "am.pm.hk",
+  "name": {
+    "en": "am.pm Hong Kong"
+  },
+  "webpages": [
+    {
+      "url": "https://www.ampm-antepost.co"
+    },
+    {
+      "url": "https://www.facebook.com/1670345489941355/",
+      "meta": {
+        "id": "1670345489941355",
+        "username": "am.pm.hk",
+        "name": "am.pm Hong Kong",
+        "about": "am.pm specializes in fun, fresh and innovative desserts! ",
+        "category_list": [
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
+        ],
+        "emails": [
+          "yibaocake@gmail.com"
+        ],
+        "single_line_address": "Shop B, G/F, Grand Place, #560 Nathan Road, Kowloon, 香港",
+        "website": "http://www.ampm-antepost.co/"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/am.pm.hk/",
+      "meta": {
+        "website": "http://www.ampm-antepost.co/",
+        "name": "「 am.pm Hong Kong 」",
+        "about": "🚌 Business Hours 14:00 - 22:30\n🥞 Catering & Partnerships\n🌎 Master License Inquiries 國家代理\n📍Hong Kong 📍Philippines 📍Thailand"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop B, G/F, Grand Place, #560 Nathan Road, Kowloon"
+      },
+      "googleMapsPlaceId": "ChIJt2XcKscABDQRpZ41i142WpI",
+      "coordinates": {
+        "lat": 22.31454489999999,
+        "lng": 114.1707141
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1372
+    }
+  ]
+}
