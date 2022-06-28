@@ -1,0 +1,76 @@
+{
+  "id": "Sushishiawase",
+  "name": {
+    "zh": "幸鮨屋",
+    "en": "Sushishiawase"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/114330160308275/",
+      "meta": {
+        "id": "114330160308275",
+        "name": "幸鮨屋Sushishiawase",
+        "about": "日式餐廳",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "皇后大道509號地鋪"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/sushi_shiawase/",
+      "meta": {
+        "name": "幸鮨屋Sushi_shiawase",
+        "about": "皇后大道西509號\nTel: 52071509￼\n歡迎外賣自取\nUber eat\nFoodpanda\nDelivery Roo"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/114330160308275/photos/a.137456244662333/149905356750755/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/114330160308275/photos/a.137456244662333/149905413417416/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/114330160308275/posts/335897341484888/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "japanese",
+    "sushi"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "皇后大道509號地鋪"
+      },
+      "googleMapsPlaceId": "ChIJv9fQSiL_AzQRBoqJ1kwk6ws",
+      "coordinates": {
+        "lat": 22.2865994,
+        "lng": 114.1335109
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5796
+    }
+  ]
+}

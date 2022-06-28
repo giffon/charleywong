@@ -1,0 +1,70 @@
+{
+  "id": "SuperDuperNoodles",
+  "name": {
+    "zh": "超級無敵車仔麵",
+    "en": "Super Duper Noodles"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/284818984995271/",
+      "meta": {
+        "id": "284818984995271",
+        "username": "SuperDuperNoodles",
+        "name": "超級無敵車仔麵 Super Duper Noodles",
+        "about": "超級無敵車仔麵 Super Duper Noodles",
+        "category_list": [
+          {
+            "id": "1848365298810025",
+            "name": "Noodle House"
+          }
+        ],
+        "single_line_address": "西灣河街116號地下 G/F 116 Sai Wan Ho Street, 香港"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/SuperDuperNoodles/posts/1851377755006045/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "noodle"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "西灣河街116號地下"
+      },
+      "googleMapsPlaceId": "ChIJESBGhHYBBDQRSIoBC0h0oEQ",
+      "coordinates": {
+        "lat": 22.281685,
+        "lng": 114.221728
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "筲箕灣筲箕灣道384號地舖"
+      },
+      "googleMapsPlaceId": "ChIJz750_ncBBDQR3AS99K3-YYU",
+      "coordinates": {
+        "lat": 22.2777032,
+        "lng": 114.2267599
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2258
+    }
+  ]
+}

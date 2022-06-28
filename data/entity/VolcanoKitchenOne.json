@@ -1,0 +1,65 @@
+{
+  "id": "VolcanoKitchenOne",
+  "name": {
+    "zh": "火山燒",
+    "en": "Volcano KitchenOne"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/103189958021795/",
+      "meta": {
+        "id": "103189958021795",
+        "username": "VolcanoKitchenOne",
+        "name": "火山燒 Volcano KitchenOne",
+        "about": "近期荃灣人氣最旺的食店",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          }
+        ],
+        "emails": [
+          "thai.palace@ymail.com"
+        ],
+        "single_line_address": "荃灣大壩街75號地下, Tsuen Wan"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/VolcanoKitchenOne/posts/123695129304611/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "japanese",
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣大壩街75號地下"
+      },
+      "googleMapsPlaceId": "ChIJK_yfuff5AzQRB7IV9GAiKLQ",
+      "coordinates": {
+        "lat": 22.3711284,
+        "lng": 114.1119198
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2145
+    }
+  ]
+}
