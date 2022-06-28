@@ -131,10 +131,39 @@
       "hidden": true
     },
     {
+      "url": "https://www.facebook.com/barlemna/",
+      "meta": {
+        "id": "362224421125011",
+        "username": "barlemna",
+        "name": "Lemna",
+        "about": "【Lemna of The Alchemist】 is the flagship store of The Alchemist Cafe ( Hong Kong ).\n\nLEMNA organise exhibitions, underground music live shows, stand-up comedy, handcraft workshops, salon, film screening & all kind of arts performance.",
+        "category_list": [
+          {
+            "id": "619759428190024",
+            "name": "Cultural Center"
+          }
+        ],
+        "emails": [
+          "barlemna@gmail.com"
+        ],
+        "single_line_address": "G/F RESTAURANT BLOCK HONG KONG CULTURAL CENTRE 10 SALISBURY RD TSIM SHA TSUI KL, 香港",
+        "website": "www.thealchemistcafe.com"
+      }
+    },
+    {
       "url": "https://www.instagram.com/thealchemistcafehk/",
       "meta": {
+        "website": "http://www.thealchemistcafe.com/",
         "name": "牧羊少年咖啡館",
         "about": "Founded in Hong Kong\n美食 Food\n咖啡 Coffee\n旅遊 Travel\n漂書 Book Crossing\n未來的信 Future Postal"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/barlemna/",
+      "meta": {
+        "website": "https://www.facebook.com/barlemna/",
+        "name": "Lemna of the alchemist",
+        "about": "Lemna is the cultural line of The Alchemist Cafe (牧羊少年) in Hong Kong, offering a wide range of cultural and arts happenings."
       }
     }
   ],
@@ -277,6 +306,19 @@
       },
       "area": {
         "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀文化中心餐廳大樓 G/F Lemna"
+      },
+      "googleMapsPlaceId": "ChIJp4NnsfMABDQRyQLUySCwRNo",
+      "coordinates": {
+        "lat": 22.29384959999999,
+        "lng": 114.1703232
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     }
   ]
