@@ -17,7 +17,7 @@
             "name": "Food & Beverage"
           }
         ],
-        "single_line_address": "石硤尾偉智里1號, 香港，香港"
+        "single_line_address": "石硤尾偉倫街12號, Hong Kong"
       }
     },
     {
@@ -35,15 +35,28 @@
   "places": [
     {
       "address": {
-        "zh": "石硤尾偉智里1號"
+        "zh": "石硤尾偉倫街12號"
       },
-      "googleMapsPlaceId": "EiUxIFdhaSBDaGkgTG4sIFNoZWsgS2lwIE1laSwgSG9uZyBLb25nIjASLgoUChIJ-7JeZEoHBDQRHF1apjktdx8QASoUChIJYfZGfUoHBDQRTJT8X4yB9Go",
+      "googleMapsPlaceId": "ChIJE4-yRGIHBDQR5MRijF693U8",
       "coordinates": {
-        "lat": 22.3350951,
-        "lng": 114.1668797
+        "lat": 22.3347488,
+        "lng": 114.1673755
       },
       "area": {
         "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "佐敦南京街6-6C"
+      },
+      "googleMapsPlaceId": "ChIJVcCXVOoABDQRbvJQsDmPGFM",
+      "coordinates": {
+        "lat": 22.306064,
+        "lng": 114.171007
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     }
   ],
