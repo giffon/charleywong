@@ -125,8 +125,17 @@ class Git {
         run(args);
     }
 
-    public function rebase(ref:String):Void {
-        run(["rebase", ref]);
+    public function rebase(ref:String, ?opts:{
+        ?strategyOption:String
+    }):Void {
+        final args = ["rebase", ref];
+        if (opts != null) {
+            if (opts.strategyOption != null) {
+                args.push("--strategy-option");
+                args.push(opts.strategyOption);
+            }
+        }
+        run(args);
     }
 
     public function reset(ref:String, ?opts:{
@@ -176,7 +185,7 @@ class Git {
                 }
                 if (git.hasChanges()) {
                     git.commit("update fb meta", { gpgSign: gpgKey });
-                    git.rebase("origin/master");
+                    git.rebase("origin/master", { strategyOption: "theirs" });
                     git.reset("origin/master", { mode: "soft" });
                     git.commit("update fb meta", { gpgSign: gpgKey });
                     git.push(repo, "HEAD:" + branch, { force: true });
