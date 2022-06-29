@@ -1,0 +1,61 @@
+{
+  "id": "torigen.hk",
+  "name": {
+    "zh": "鳥元"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/torigen.hk/",
+      "meta": {
+        "name": "鳥元",
+        "about": "鳥元，torigen\n地址：新界荃灣荃華街3號悅來坊商場地庫一層B108號鋪\n電話：6068 7818"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/1074764789387293/",
+      "meta": {
+        "id": "1074764789387293",
+        "name": "鳥元",
+        "about": "正宗的日本炸雞和日式大碗飯",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
+        ],
+        "single_line_address": "新界荃灣荃華街3號悅來坊商場地庫一層B108號鋪, 852 尖沙咀",
+        "website": "https://wa.me/85260687818"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "japanese",
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新界荃灣荃華街3號悅來坊商場地庫一層B108號鋪"
+      },
+      "googleMapsPlaceId": "ChIJGzEgMJP4AzQRTWidpCUi0dw",
+      "coordinates": {
+        "lat": 22.368991,
+        "lng": 114.1208
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2171
+    }
+  ]
+}

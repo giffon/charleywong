@@ -1,0 +1,75 @@
+{
+  "id": "InTaste.com.hk",
+  "name": {
+    "zh": "燃味棧",
+    "en": "InTaste"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/972654306113441/",
+      "meta": {
+        "id": "972654306113441",
+        "username": "InTaste.com.hk",
+        "name": "燃味棧 InTaste",
+        "category_list": [
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          }
+        ],
+        "single_line_address": "屯門 仁愛堂街14號, 852 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/_intaste_/",
+      "meta": {
+        "name": "燃味棧 InTaste",
+        "about": "地址: 屯門仁愛堂街14號\n電話: 93036665"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/InTaste.com.hk/posts/2390945040951020/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/InTaste.com.hk/posts/2481148125264044/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/InTaste.com.hk/posts/2671576422887879/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門 仁愛堂街14號"
+      },
+      "googleMapsPlaceId": "ChIJr-_pjz37AzQRrOoSZuw_Wts",
+      "coordinates": {
+        "lat": 22.3959519,
+        "lng": 113.9769631
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2216
+    }
+  ]
+}

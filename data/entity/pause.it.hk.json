@@ -1,0 +1,85 @@
+{
+  "id": "pause.it.hk",
+  "name": {
+    "en": "Pause It"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1965127150481666/",
+      "meta": {
+        "id": "1965127150481666",
+        "username": "pause.it.hk",
+        "name": "Pause It",
+        "about": "Pause It and drink coffee.",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "emails": [
+          "info@pause-it.com"
+        ]
+      }
+    },
+    {
+      "url": "https://www.instagram.com/pause__it/",
+      "meta": {
+        "name": "Pause It and drink coffee.",
+        "about": "𝘔𝘰𝘯𝘨 𝘒𝘰𝘬\nShop G11, G/F, The Forest, 17 Nelson Street\n𝘍𝘰𝘳𝘵𝘳𝘦𝘴𝘴 𝘏𝘪𝘭𝘭\nShop 18, G/F, AIA Tower, 183 Electric Road\nMon-Fri 8am-10pm\nSat-Sun 9am-10pm"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/B4sHR05ANi9/"
+    },
+    {
+      "url": "https://www.instagram.com/p/CAmcDnvgSkO/"
+    },
+    {
+      "url": "https://www.instagram.com/p/CBAs04Xg5da/"
+    }
+  ],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop G11, G/F, The Forest, 17 Nelson Street"
+      },
+      "googleMapsPlaceId": "ChIJB1ADacYABDQRwcaD8ES262I",
+      "coordinates": {
+        "lat": 22.3179164,
+        "lng": 114.1723875
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop 18, G/F, AIA Tower, 183 Electric Road"
+      },
+      "googleMapsPlaceId": "ChIJSdgKOlQBBDQRAgsU0vtMD3k",
+      "coordinates": {
+        "lat": 22.2885234,
+        "lng": 114.1924339
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1494
+    },
+    {
+      "type": "eat",
+      "id": 2140
+    }
+  ]
+}

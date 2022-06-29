@@ -1,0 +1,57 @@
+{
+  "id": "woodhouse_2015",
+  "name": {
+    "zh": "木屋小食店"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/640842316340347/",
+      "meta": {
+        "id": "640842316340347",
+        "name": "木屋小食店",
+        "about": "地址:長康邨康和樓地下，長康市集M16號",
+        "category_list": [
+          {
+            "id": "218838724804749",
+            "name": "Ramen Restaurant"
+          }
+        ],
+        "single_line_address": "香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/woodhouse_2015/",
+      "meta": {
+        "name": "木屋小食店ラーメン",
+        "about": "本店創於2015年\n營業時間\n星期一至六 12：00 - 7：00\n逢星期日休息"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "japanese",
+    "food",
+    "noodle"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "青衣長康邨康和樓長康市集地下M16號舖"
+      },
+      "googleMapsPlaceId": "ChIJVX7NBdH4AzQR8vaj76SIvk4",
+      "coordinates": {
+        "lat": 22.3497825,
+        "lng": 114.1046986
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2148
+    }
+  ]
+}
