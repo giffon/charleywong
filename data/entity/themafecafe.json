@@ -1,0 +1,55 @@
+{
+  "id": "themafecafe",
+  "name": {
+    "en": "The MAFE Cafe"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/2080213002194259/",
+      "meta": {
+        "id": "2080213002194259",
+        "username": "themafecafe",
+        "name": "The MAFE Cafe",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "mafe@e-mail.com"
+        ],
+        "single_line_address": "旺角彌敦道577號高氏大廈3樓a-b室, mafe 香港"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角彌敦道577號高氏大廈3樓a-b室"
+      },
+      "googleMapsPlaceId": "ChIJAYiTL8cABDQRBClZ6dIK3nM",
+      "coordinates": {
+        "lat": 22.3151753,
+        "lng": 114.1700426
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2009
+    }
+  ]
+}

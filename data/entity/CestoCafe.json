@@ -1,0 +1,79 @@
+{
+  "id": "CestoCafe",
+  "name": {
+    "en": "Cesto Café",
+    "zh": "籃子咖啡"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/CestoCafe/",
+      "meta": {
+        "id": "602383956453399",
+        "username": "CestoCafe",
+        "name": "Cesto Café 籃子咖啡。",
+        "about": "Promoting and serving specialty coffee for the area.",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "emails": [
+          "cestocafe@gmail.com"
+        ],
+        "single_line_address": "屯門藍地大街5號, Hong Kong 屯門",
+        "website": "http://fb.me/CestoCafe"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/cestocafe/",
+      "meta": {
+        "name": "Cesto"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/CestoCafe/posts/3043225832369187/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/CestoCafe/posts/4189226784435747/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/CestoCafe/posts/5364427513582329/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門藍地大街5號"
+      },
+      "googleMapsPlaceId": "ChIJ6-qw1ej6AzQRreowB-2RySU",
+      "coordinates": {
+        "lat": 22.4191578,
+        "lng": 113.9831766
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2021
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "cafe_seasonshk",
+  "name": {
+    "zh": "四季常餐"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/199248384214784/",
+      "meta": {
+        "id": "199248384214784",
+        "name": "四季常餐",
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
+        ],
+        "single_line_address": "中環德輔道中88號, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/cafe_seasonshk/",
+      "meta": {
+        "name": "四季常餐",
+        "about": "A Hong Kong diner serving simple yet tasty local classics with our own twist🐔🍳🥪"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "http://hk.epochtimes.com/news/2020-08-10/63485518"
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "中環德輔道中88號"
+      },
+      "googleMapsPlaceId": "ChIJKyhbx6oBBDQRaGYNifrxkas",
+      "coordinates": {
+        "lat": 22.2846781,
+        "lng": 114.1554144
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2029
+    }
+  ]
+}

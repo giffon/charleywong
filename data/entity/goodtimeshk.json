@@ -1,0 +1,135 @@
+{
+  "id": "goodtimeshk",
+  "name": {
+    "en": "Good Times Restaurant and Bar"
+  },
+  "webpages": [
+    {
+      "url": "https://www.goodtimeshk.com"
+    },
+    {
+      "url": "https://www.facebook.com/258336131759027/",
+      "meta": {
+        "id": "258336131759027",
+        "username": "goodtimeshkbar",
+        "name": "Good Times Restaurant and Bar",
+        "about": "At Good Times Restaurant and Bar, it is our mission and responsibility to let your Good Times Roll!\nWhatsApp Us: https://wa.me/85269400539",
+        "category_list": [
+          {
+            "id": "233804719972590",
+            "name": "Bar & Grill"
+          },
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          }
+        ],
+        "emails": [
+          "contact@goodtimeshk.com"
+        ],
+        "single_line_address": "28 Wo Fung Street, 粉嶺",
+        "website": "https://www.goodtimeshk.com"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/goodtimestaipo/",
+      "meta": {
+        "id": "106805478414021",
+        "username": "goodtimestaipo",
+        "name": "Good Times Bistro & Lounge - 大埔",
+        "about": "At Good Times Bistro & Lounge, it is our mission and responsibility to let your Good Times Roll!",
+        "category_list": [
+          {
+            "id": "149803325077018",
+            "name": "American Restaurant"
+          },
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          }
+        ],
+        "emails": [
+          "contact@goodtimeshk.com"
+        ],
+        "single_line_address": "大埔舊墟直街30號美利大廈13號地舖, NT Tai Po Kau",
+        "website": "www.goodtimeshk.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/goodtimeshk/",
+      "meta": {
+        "name": "Good Times",
+        "about": "Bar & Grill"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/goodtimeshkbar/posts/547990676126903/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/goodtimeshkbar/posts/555541485371822/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/goodtimeshkbar/posts/572162570376380/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/goodtimeshkbar/posts/639380680321235/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/goodtimeshkbar/posts/652861388973164/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "bar"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "粉嶺聯和墟和豐街28號囍逸06-07A地舖 Restaurant & Bar"
+      },
+      "googleMapsPlaceId": "ChIJX9XPwij3AzQRn3UBdRhcSBM",
+      "coordinates": {
+        "lat": 22.498806,
+        "lng": 114.142739
+      },
+      "area": {
+        "zh": "北區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大埔舊墟直街30號美利大廈13號地舖 Bistro & Lounge"
+      },
+      "googleMapsPlaceId": "ChIJP_km73UJBDQRAQaL_mAxOvc",
+      "coordinates": {
+        "lat": 22.45427949999999,
+        "lng": 114.1655448
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1950
+    }
+  ]
+}

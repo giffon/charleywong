@@ -1,0 +1,60 @@
+{
+  "id": "hohoneatery",
+  "name": {
+    "en": "HoHon Eatery",
+    "zh": "好漢"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/104700351709901/",
+      "meta": {
+        "id": "104700351709901",
+        "username": "hohoneatery",
+        "name": "HoHon Eatery",
+        "about": "Neighborhood Pasta & Burger joint.",
+        "category_list": [
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          }
+        ],
+        "emails": [
+          "hohoneatery@gmail.com"
+        ],
+        "single_line_address": "419M Queen's Road West, Shek Tong Tsui, Sai Wan, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/hohoneatery/",
+      "meta": {
+        "name": "HoHon Eatery好漢",
+        "about": "🔥GOOD FOOD. GOOD PEOPLE. GOOD VIBE🔥\n🍔 Closed MONDAY & TUESDAY\n🍝 12:00 PM - 9:30 PM\n🍔 DM for PRIVATE DINING\n🍝 3 mins away from HKU Exit B1"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "419M Queen's Road West, Shek Tong Tsui, Sai Wan"
+      },
+      "googleMapsPlaceId": "ChIJVZGvHf7_AzQRLw_D69qcaLE",
+      "coordinates": {
+        "lat": 22.286311,
+        "lng": 114.1374498
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6769
+    }
+  ]
+}
