@@ -1,0 +1,84 @@
+{
+  "id": "regameclub",
+  "name": {
+    "en": "Regame Club",
+    "zh": "再玩一會"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/109962970344039/",
+      "meta": {
+        "id": "109962970344039",
+        "username": "regameclub",
+        "name": "Regame Club 再玩一會",
+        "about": "REGAMECLUB 再玩一會",
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          },
+          {
+            "id": "189334414420898",
+            "name": "Party Entertainment Service"
+          }
+        ],
+        "single_line_address": "Shop B, 1/F, Chip Lee Building,180 Sai Yeung Choi Street South, Mongkok, 九龍"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/regameclub/",
+      "meta": {
+        "website": "https://facebook.com/regameclub",
+        "name": "再玩一會REGAME CLUB",
+        "about": "訂座及查詢 | 68885668"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/regameclub/posts/187746082565727/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/regameclub/posts/251988386141496/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/regameclub/posts/625075172166147/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "videoGame",
+    "shop",
+    "food",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop B, 1/F, Chip Lee Building,180 Sai Yeung Choi Street South, Mongkok"
+      },
+      "googleMapsPlaceId": "ChIJp3trYUkBBDQRh5HF5AcFQbM",
+      "coordinates": {
+        "lat": 22.3212029,
+        "lng": 114.1698058
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1872
+    }
+  ]
+}
