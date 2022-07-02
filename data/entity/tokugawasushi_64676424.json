@@ -1,7 +1,7 @@
 {
-  "id": "110037200710109",
+  "id": "tokugawasushi_64676424",
   "name": {
-    "zh": "德川手握壽司外賣專賣店"
+    "zh": "德川手握壽司專門店"
   },
   "webpages": [
     {
@@ -15,6 +15,28 @@
             "name": "Restaurant"
           }
         ]
+      }
+    },
+    {
+      "url": "https://www.facebook.com/284308805075923/",
+      "meta": {
+        "id": "284308805075923",
+        "name": "德川手握壽司專門店",
+        "category_list": [
+          {
+            "id": "2252",
+            "name": "Food & Beverage Company"
+          }
+        ],
+        "single_line_address": "大埔墟廣福道114號6B鋪(巴士站旁)"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/tokugawasushi_64676424/",
+      "meta": {
+        "name": "德川手握壽司外賣專賣店",
+        "about": "Restaurant"
       }
     }
   ],
@@ -51,7 +73,7 @@
   "places": [
     {
       "address": {
-        "zh": "大埔大埔墟廣福道114號地下6B舖"
+        "zh": "大埔墟廣福道114號6B鋪"
       },
       "googleMapsPlaceId": "ChIJFWzXpUAIBDQRGOWI39YY7-A",
       "coordinates": {
@@ -61,6 +83,15 @@
       "area": {
         "zh": "大埔區"
       }
+    }
+  ],
+  "alias": [
+    "110037200710109"
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1456
     }
   ]
 }
