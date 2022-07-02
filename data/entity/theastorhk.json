@@ -1,0 +1,73 @@
+{
+  "id": "theastorhk",
+  "name": {
+    "en": "The Astor",
+    "zh": "普慶"
+  },
+  "webpages": [
+    {
+      "url": "https://www.theastorhk.com"
+    },
+    {
+      "url": "https://www.facebook.com/1866994430025486/",
+      "meta": {
+        "id": "1866994430025486",
+        "username": "theastorhk",
+        "name": "The Astor 普慶",
+        "about": "All-day dining venue The Astor combines the nostalgia of Hong Kong’s cha chaan teng culture with the novelty and convenience of an Asian hawker center. ",
+        "category_list": [
+          {
+            "id": "176007949109829",
+            "name": "Buffet Restaurant"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
+        ],
+        "emails": [
+          "theastorhk@eatonworkshop.com"
+        ],
+        "single_line_address": "B1, Eaton HK, 380 Nathan Road, 九龍",
+        "website": "www.theastorhk.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/theastorhk/",
+      "meta": {
+        "website": "http://www.theastorhk.com/",
+        "name": "The Astor",
+        "about": "Awarded “Best Buffet in Hong Kong” at @eaton.hk\n榮獲Openrice、U Magazine及新假期「香港最佳自助餐」！\nMon-Sun 630am-930pm"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "B1, Eaton HK, 380 Nathan Road"
+      },
+      "googleMapsPlaceId": "ChIJGWUzcOoABDQR_qcSrQL-aGk",
+      "coordinates": {
+        "lat": 22.3080402,
+        "lng": 114.1717086
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1527
+    },
+    {
+      "type": "eat",
+      "id": 1528
+    }
+  ]
+}

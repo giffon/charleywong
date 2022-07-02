@@ -1,0 +1,68 @@
+{
+  "id": "VortexAmericanSnackBar",
+  "name": {
+    "en": "Vortex American Snack Bar"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/vortex_american_snack_bar/",
+      "meta": {
+        "name": "Vortex American Snack Bar",
+        "about": "Fusion American Food"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/1006413392821357/",
+      "meta": {
+        "id": "1006413392821357",
+        "username": "VortexAmericanSnackBar",
+        "name": "Vortex American Snack Bar",
+        "about": "We are American snack bar \nLet's Chill and Enjoy Food in your life\n",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
+        ],
+        "single_line_address": "Shop No.46 G/F Beverly Garden 1 Tong Ming ST Tseung Kwan O, 852 香港",
+        "website": "https://www.instagram.com/vortexamericansnackbar/"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/CJQm6T_BB6j/"
+    },
+    {
+      "url": "https://www.instagram.com/p/CLJOW05hy5f/"
+    },
+    {
+      "url": "https://www.instagram.com/p/COPjjaXBYdx/"
+    }
+  ],
+  "tags": [
+    "burger",
+    "bar"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop No.46 G/F Beverly Garden 1 Tong Ming ST Tseung Kwan O"
+      },
+      "googleMapsPlaceId": "ChIJ1xcPV_MDBDQRpwlIBhLIYTA",
+      "coordinates": {
+        "lat": 22.3108142,
+        "lng": 114.2622717
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 609
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "thegrove_cafe",
+  "name": {
+    "en": "The Grove Taiwanese Cafe"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/thegrove_cafe/",
+      "meta": {
+        "name": "The Grove Taiwanese Cafe",
+        "about": "田心店🏠\n大圍田心村269號地下（Tel: 36172868)\n營業時間: 08:30-21:00\n🐶🐱 pet friendly\n———\n啟岸店🏠\n土瓜灣馬頭圍道63號啟岸巷子（Tel: 62115231)\n營業時間: 11:00-21:00 （早餐時段暫停)\n———\n🍜🍚🍞🧋🍹☕️🍽"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/thegrovetaiwanesecafe/",
+      "meta": {
+        "id": "110849493922811",
+        "username": "thegrovetaiwanesecafe",
+        "name": "The Grove Taiwanese Cafe",
+        "about": "台式餐廳\n珍珠奶茶\n花園景觀\n",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "thegrovetwcafe@gmail.com"
+        ],
+        "single_line_address": "沙田大圍田心村269號地下, 00000 香港"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "沙田大圍田心村269號地下"
+      },
+      "googleMapsPlaceId": "ChIJ56VSFxMHBDQRPdQb24mOi40",
+      "coordinates": {
+        "lat": 22.3688442,
+        "lng": 114.177815
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "土瓜灣馬頭圍道63號地下啟岸26-27號鋪"
+      },
+      "googleMapsPlaceId": "ChIJFyqYLtkABDQRyMZmtg1ZJVo",
+      "coordinates": {
+        "lat": 22.3120535,
+        "lng": 114.1880119
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1538
+    }
+  ]
+}

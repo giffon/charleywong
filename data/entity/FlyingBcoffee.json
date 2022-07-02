@@ -1,0 +1,80 @@
+{
+  "id": "FlyingBcoffee",
+  "name": {
+    "en": "Flying B coffee"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/108117847246603/",
+      "meta": {
+        "id": "108117847246603",
+        "name": "Flying B coffee",
+        "about": "Coffee",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "single_line_address": "葵涌和宜合道138-184 地下 瑞景大廈15 號, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/flyingbcoffee/",
+      "meta": {
+        "name": "Flying B. Coffee",
+        "about": "❤☕營業時間:\nSun 09:00~18:00\nMon- Sat 08:00~20:00\nClosed every Wednesday\nB for Barista ☕️\nB for Beans\n“We promise to do our Best.”"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/108117847246603/photos/a.130764451648609/152306126161108/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/108117847246603/photos/a.130764451648609/153686006023120/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/108117847246603/photos/a.130764451648609/174689127256141/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/108117847246603/photos/a.130764451648609/283650196360033/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵涌和宜合道138-184 地下 瑞景大廈15 號"
+      },
+      "googleMapsPlaceId": "ChIJ2c4yctf5AzQR3iSUpxKkCGk",
+      "coordinates": {
+        "lat": 22.3692806,
+        "lng": 114.1392956
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1530
+    }
+  ]
+}

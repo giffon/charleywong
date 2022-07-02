@@ -1,0 +1,47 @@
+{
+  "id": "NamKee",
+  "name": {
+    "zh": "南記冰室"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/259235801326807/",
+      "meta": {
+        "id": "259235801326807",
+        "name": "南記冰室",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          }
+        ],
+        "single_line_address": "葵涌葵昌路72-76號地下至零三至零四號舖, 852 葵涌"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵涌葵昌路72-76號地下至零三至零四號舖"
+      },
+      "googleMapsPlaceId": "ChIJxQNjO_j5AzQRls_XcuAROSw",
+      "coordinates": {
+        "lat": 22.3623836,
+        "lng": 114.132388
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1336
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gladysestate",
+  "name": {
+    "en": "Gladys’ Estate Coffee"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/gladys.coffee.9/",
+      "meta": {
+        "name": "GladysEstate Journal"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/gladysestatev3/",
+      "meta": {
+        "name": "Gladys’ Estate Coffee v3",
+        "about": "Mon/ Tue/ Thu/ Fri 8:00-17:00 (Last order 16:00)\nSat/ Sun/ Public Holiday 8:30~17:00(Last order 16:00)\nWed *Day Off"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍城獅子石道6-8號美景樓地下"
+      },
+      "googleMapsPlaceId": "ChIJsdu81tQABDQRG2feHd7-ktY",
+      "coordinates": {
+        "lat": 22.3279626,
+        "lng": 114.1883026
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 550
+    }
+  ]
+}
