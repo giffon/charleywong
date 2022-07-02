@@ -1,0 +1,59 @@
+{
+  "id": "MilkChocolateCafe",
+  "name": {
+    "zh": "牛朱啡",
+    "en": "Milk Chocolate Cafe"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1080585398796116/",
+      "meta": {
+        "id": "1080585398796116",
+        "name": "牛朱啡 Milk Chocolate Cafe",
+        "about": "飲食業",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "emails": [
+          "nakaicandy18@gmail.com"
+        ],
+        "single_line_address": "地下竹園市場W-CY90B號舖, 0000 香港"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/1080585398796116/posts/1248956898625631/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "黃大仙竹園道15號竹園廣場地下竹園市場90B號舖"
+      },
+      "googleMapsPlaceId": "ChIJM1x1Od8GBDQRVcGRMmOTAdg",
+      "coordinates": {
+        "lat": 22.3450458,
+        "lng": 114.1933114
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1753
+    }
+  ]
+}

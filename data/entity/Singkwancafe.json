@@ -1,0 +1,61 @@
+{
+  "id": "Singkwancafe",
+  "name": {
+    "zh": "星君冰廳"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/278806506371701/",
+      "meta": {
+        "id": "278806506371701",
+        "name": "星君冰廳",
+        "about": "歡迎外賣 派對到會",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "大有街34號新科技廣場場下11號鋪, 新蒲崗"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/278806506371701/posts/394910311427986/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/278806506371701/posts/429279351324415/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大有街34號新科技廣場場下11號鋪"
+      },
+      "googleMapsPlaceId": "ChIJBXqINdcGBDQRrtaeZt1O7Ro",
+      "coordinates": {
+        "lat": 22.3366342,
+        "lng": 114.1971611
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1844
+    }
+  ]
+}

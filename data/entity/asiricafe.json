@@ -1,0 +1,79 @@
+{
+  "id": "asiricafe",
+  "name": {
+    "en": "asiri CAFE"
+  },
+  "webpages": [
+    {
+      "url": "https://asiri-cafe.com"
+    },
+    {
+      "url": "https://www.facebook.com/442897712501259/",
+      "meta": {
+        "id": "442897712501259",
+        "username": "asiricafe",
+        "name": "asiri CAFE",
+        "about": "Discover HOKKAIDO like you've never seen it before.",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          },
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          }
+        ],
+        "emails": [
+          "shige_kato@hkdgateway.com"
+        ],
+        "single_line_address": "11 Hoi Kwong St.,, 鰂魚涌",
+        "website": "https://asiri-cafe.com/"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/asiricafehokkaido/",
+      "meta": {
+        "name": "asiri cafe",
+        "about": "Restaurant"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/asiricafe/posts/1767474526710231/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "japanese",
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "11 Hoi Kwong St."
+      },
+      "googleMapsPlaceId": "ChIJUZZmSQwBBDQRabZs8BFXJwA",
+      "coordinates": {
+        "lat": 22.2881,
+        "lng": 114.211
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1892
+    }
+  ]
+}
