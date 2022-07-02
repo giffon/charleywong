@@ -28,6 +28,26 @@
         "single_line_address": "G/F 117 Sai Yee Street, 852 九龍",
         "website": "http://oppabbq.kr"
       }
+    },
+    {
+      "url": "https://www.facebook.com/oppabbqtaipo/",
+      "meta": {
+        "id": "577701185695282",
+        "username": "oppabbqtaipo",
+        "name": "Oppa Korean Restaurant - Tai Po 烤肉哥哥 - 大埔店",
+        "about": "韓國餐廳 · 燒烤餐廳 · 酒吧",
+        "category_list": [
+          {
+            "id": "698490883622395",
+            "name": "Yakiniku Restaurant"
+          }
+        ],
+        "emails": [
+          "info@oppabbq.kr"
+        ],
+        "single_line_address": "大埔舊墟直街4-20號美新大廈B2舖地下, 852 35655032 香港",
+        "website": "http://tp.oppabbq.kr/"
+      }
     }
   ],
   "posts": [
@@ -89,6 +109,10 @@
     }
   ],
   "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1820
+    },
     {
       "type": "eat",
       "id": 1821
