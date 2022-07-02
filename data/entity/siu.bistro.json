@@ -1,0 +1,51 @@
+{
+  "id": "siu.bistro",
+  "name": {
+    "zh": "少店主"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/173153083421050/",
+      "meta": {
+        "id": "173153083421050",
+        "name": "少店主",
+        "about": "family style",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
+        ],
+        "emails": [
+          "siu.bistro@gmail.com"
+        ],
+        "single_line_address": "長洲大新後街102號地下, Cheung Chau"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "長洲大新後街102號地下"
+      },
+      "googleMapsPlaceId": "ChIJh8l552BXATQRZDpNXOuEfsQ",
+      "coordinates": {
+        "lat": 22.2068805,
+        "lng": 114.0295104
+      },
+      "area": {
+        "zh": "離島區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1587
+    }
+  ]
+}

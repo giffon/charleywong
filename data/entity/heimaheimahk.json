@@ -1,0 +1,79 @@
+{
+  "id": "heimaheimahk",
+  "name": {
+    "en": "Heima heima"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1140272646037367/",
+      "meta": {
+        "id": "1140272646037367",
+        "username": "heimaheimahk",
+        "name": "Heima heima",
+        "about": "heima heima is a nordic style café located on the Cheung Chau island, serving family-style food and beverages.\n",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "G/F, No.25 Tsan Tuen Road, Cheung Chau, N.T., 852 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/heimaheimahk/",
+      "meta": {
+        "name": "heima heima",
+        "about": "長洲 x 日和 x 北歐\n咖啡 x 喫茶 x 生活\n星期四、五：12:00-18:00\n星期六：12:30-18:00\n星期日至三：休息\nWalk in only\n不設訂座"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/heimaheimahk/posts/2563978180333466/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/heimaheimahk/posts/2652170988180851/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/heimaheimahk/posts/3094889297242349/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, No.25 Tsan Tuen Road, Cheung Chau, N.T."
+      },
+      "googleMapsPlaceId": "ChIJ1_a3JOpWATQRbVuRDP4RWZ4",
+      "coordinates": {
+        "lat": 22.2005936,
+        "lng": 114.0197672
+      },
+      "area": {
+        "zh": "離島區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1489
+    }
+  ]
+}

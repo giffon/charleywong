@@ -1,0 +1,54 @@
+{
+  "id": "kassuishokudo",
+  "name": {
+    "zh": "活水和風食堂"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/424541695032708/",
+      "meta": {
+        "id": "424541695032708",
+        "username": "kassuishokudo",
+        "name": "活水和風食堂",
+        "about": "#とんかつ #天ぷら #ラーメン",
+        "category_list": [
+          {
+            "id": "619109018238267",
+            "name": "Donburi Restaurant"
+          },
+          {
+            "id": "151854495230528",
+            "name": "Tempura Restaurant"
+          }
+        ],
+        "single_line_address": "長沙灣福華街571號曉悅地下 3號舖, 香港"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "japanese",
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "長沙灣福華街571號曉悅地下 3號舖"
+      },
+      "googleMapsPlaceId": "ChIJnZMbwpgHBDQRuea1WZP53U0",
+      "coordinates": {
+        "lat": 22.3387704,
+        "lng": 114.1528188
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1599
+    }
+  ]
+}

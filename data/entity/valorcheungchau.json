@@ -1,0 +1,59 @@
+{
+  "id": "valorcheungchau",
+  "name": {
+    "zh": "啡寮",
+    "en": "Valor Cheung Chau"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/573013422818211/",
+      "meta": {
+        "id": "573013422818211",
+        "username": "valorcheungchau",
+        "name": "啡寮 Valor Cheung Chau",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "emails": [
+          "contact@valorcheungchau.com"
+        ],
+        "single_line_address": "長洲新興街4號地鋪, 852 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/valor_cheungchau/",
+      "meta": {
+        "name": "啡寮 Valor Cheung Chau",
+        "about": "冰滴咖啡店 | Ice Dripped Coffee Shop\n#啡寮 #valorcheungchau #長洲\nContact@valorcheungchau.com"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "長洲新興街4號地鋪"
+      },
+      "googleMapsPlaceId": "ChIJFdC-r41WATQRwBUIaQj0zcE",
+      "coordinates": {
+        "lat": 22.21068249999999,
+        "lng": 114.0286087
+      },
+      "area": {
+        "zh": "離島區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1600
+    }
+  ]
+}

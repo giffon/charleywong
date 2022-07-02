@@ -1,0 +1,70 @@
+{
+  "id": "Pillowtalkbar",
+  "name": {
+    "en": "Pillowtalk Restaurant&Bar"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1825762440768154/",
+      "meta": {
+        "id": "1825762440768154",
+        "username": "Pillowtalkbar",
+        "name": "Pillowtalk Restaurant&Bar",
+        "category_list": [
+          {
+            "id": "192661127431931",
+            "name": "Wine Bar"
+          }
+        ],
+        "emails": [
+          "pillowtalkbar@gmail.com"
+        ],
+        "single_line_address": "SHOP 6,G/F KIM BO BUILDING 5 TSING MIN PATH TM NT, HK 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/pillowtalkbar/",
+      "meta": {
+        "name": "pillowtalkbar"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/Pillowtalkbar/posts/2774848395859549/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/Pillowtalkbar/posts/3233437096667341/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "bar"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "SHOP 6,G/F KIM BO BUILDING 5 TSING MIN PATH TM NT, HK"
+      },
+      "googleMapsPlaceId": "ChIJJRrumAD7AzQR8ADYD58Q6ME",
+      "coordinates": {
+        "lat": 22.4037311,
+        "lng": 113.9788799
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1499
+    }
+  ]
+}

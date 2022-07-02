@@ -1,0 +1,85 @@
+{
+  "id": "jimcha",
+  "name": {
+    "zh": "尖茶",
+    "en": "jimcha"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/2039200146320942/",
+      "meta": {
+        "id": "2039200146320942",
+        "name": "尖茶jimcha",
+        "about": "台式飲品專門店",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          }
+        ],
+        "single_line_address": "華都花園商場地下七號舖(AEON對面), 852 屯門"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/jimchahk/",
+      "meta": {
+        "website": "https://www.facebook.com/尖茶jimcha-2039200146320942/",
+        "name": "尖茶jimcha"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/2039200146320942/posts/2437903043117315/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/2039200146320942/posts/2449514041956215/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/2039200146320942/posts/2451467381760881/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/2039200146320942/photos/a.2139258102981812/2529146813992937/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "華都花園商場地下七號舖"
+      },
+      "googleMapsPlaceId": "ChIJy7kW67X7AzQRXYOlfMPNZaE",
+      "coordinates": {
+        "lat": 22.3924012,
+        "lng": 113.9779063
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1533
+    }
+  ]
+}
