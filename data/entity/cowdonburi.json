@@ -1,0 +1,57 @@
+{
+  "id": "cowdonburi",
+  "name": {
+    "zh": "牛蓋"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1938262579791962/",
+      "meta": {
+        "id": "1938262579791962",
+        "username": "cowdonburi",
+        "name": "牛蓋",
+        "about": "日式牛肉飯專門店\n\n地址: 屯門華都花園地鋪55號",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
+        ],
+        "single_line_address": "屯門華都花園地鋪55號, 屯門"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/cowcowdonburi/",
+      "meta": {
+        "name": "牛蓋🐮🐮(Official)",
+        "about": "🐄日式牛肉飯專門店🥩"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "japanese",
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門華都花園地鋪55號"
+      },
+      "googleMapsPlaceId": "ChIJ65U2LBb7AzQR0IFAcKciBaA",
+      "coordinates": {
+        "lat": 22.3918119,
+        "lng": 113.9783629
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1754
+    }
+  ]
+}

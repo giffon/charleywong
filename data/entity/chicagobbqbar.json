@@ -1,0 +1,102 @@
+{
+  "id": "chicagobbqbar",
+  "name": {
+    "zh": "芝加哥串燒酒場",
+    "en": "Dragon Bbq Bar"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/chicagobbqbar/",
+      "meta": {
+        "website": "https://www.facebook.com/芝加哥串燒酒場-Chicago-1609327929149816/",
+        "name": "芝加哥串燒酒場 Dragon Bbq Bar",
+        "about": "燒烤串燒酒場"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/1609327929149816/",
+      "meta": {
+        "id": "1609327929149816",
+        "name": "芝加哥串燒酒場 Chicago",
+        "about": "酒吧餐廳",
+        "category_list": [
+          {
+            "id": "233804719972590",
+            "name": "Bar & Grill"
+          },
+          {
+            "id": "150534008338515",
+            "name": "Barbecue Restaurant"
+          },
+          {
+            "id": "1640927539562872",
+            "name": "Sake Bar"
+          }
+        ],
+        "single_line_address": "太和路24號太和中心地下37號, 香港",
+        "website": "https://s.openrice.com/QrbS0qw0900~duoubHqPJ\r\n"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/1609327929149816/posts/2664518316964100/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/1609327929149816/posts/3001288996620362/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/1609327929149816/posts/3710747919007796/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "bar"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "太和路24號太和中心地下37號"
+      },
+      "googleMapsPlaceId": "ChIJ__-r0zkIBDQRvBRTiUm14Zg",
+      "coordinates": {
+        "lat": 22.452248,
+        "lng": 114.1641814
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "元朗金祥坊2號明雲閣地下A-B號舖"
+      },
+      "googleMapsPlaceId": "ChIJCVgF6gr6AzQRGnf9c6Hgy_g",
+      "coordinates": {
+        "lat": 22.44181,
+        "lng": 114.0265554
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1681
+    },
+    {
+      "type": "eat",
+      "id": 1682
+    }
+  ]
+}
