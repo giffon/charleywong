@@ -1,0 +1,71 @@
+{
+  "id": "goldenrice.rest.hk",
+  "name": {
+    "zh": "金禾",
+    "en": "cha chaan teng"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/691654627518789/",
+      "meta": {
+        "id": "691654627518789",
+        "username": "goldenrice.rest.hk",
+        "name": "金禾 cha chaan teng",
+        "about": "港式茶餐廳\n在灣仔經營多年 堅持做到最好味 \n新舖中環 會繼承同一中旨\n早餐 午餐 下午茶 晚餐 \n煎炒煮炸 茶餐啡茶樣樣齊\n必食 荷葉籠仔蒸餸 鹽焗雞 咖哩牛腩",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "中環威靈頓街 108-110號, 00000 香港"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/goldenrice.rest.hk/posts/6333493803334815/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food",
+    "noodle"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "中環威靈頓街108-110號"
+      },
+      "googleMapsPlaceId": "EiUxMDggV2VsbGluZ3RvbiBTdCwgQ2VudHJhbCwgSG9uZyBLb25nIjASLgoUChIJr9wiXnsABDQRZHWUjoHb224QbCoUChIJ4-1CXHsABDQRUSq5chu9HoE",
+      "coordinates": {
+        "lat": 22.2831538,
+        "lng": 114.1542894
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "中環威靈頓街112號"
+      },
+      "googleMapsPlaceId": "ChIJk7znYHsABDQRbtjJ4rzdb7A",
+      "coordinates": {
+        "lat": 22.2832517,
+        "lng": 114.1541895
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1624
+    }
+  ]
+}

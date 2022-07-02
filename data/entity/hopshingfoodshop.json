@@ -1,0 +1,82 @@
+{
+  "id": "hopshingfoodshop",
+  "name": {
+    "zh": "合城食店"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/420892241840684/",
+      "meta": {
+        "id": "420892241840684",
+        "username": "hopshingfoodshop",
+        "name": "合城食店",
+        "about": "提供多款早餐及午餐外賣, 咖啡奶茶三文治炒麵燒賣, 港式及亞洲午餐",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "九龍灣宏泰道12號榮發工業大厦4A2號鋪"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/hop.shing.food.shop/",
+      "meta": {
+        "website": "https://www.facebook.com/hopshingfoodshop",
+        "name": "合城食店",
+        "about": "早餐 午餐 外賣店\n九龍灣 宏泰道12號榮發工業大廈 4 A 2號舖\n電話: 9340 4363@"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/hopshingfoodshop/posts/487273345202573/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hopshingfoodshop/posts/488738818389359/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hopshingfoodshop/photos/a.460904964506078/577395742856999/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hopshingfoodshop/photos/a.460904964506078/614580085805231/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍灣宏泰道12號榮發工業大厦4A2號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ22Ul9NIBBDQR0mfolBXoKRI",
+      "coordinates": {
+        "lat": 22.3232436,
+        "lng": 114.2091738
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1839
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "marblevietnamese",
+  "name": {
+    "zh": "孖寶越南湯河店"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/114668843596823/",
+      "meta": {
+        "id": "114668843596823",
+        "name": "孖寶越南湯河店（尖沙咀）",
+        "about": "id323623@yahoo.com.hk",
+        "category_list": [
+          {
+            "id": "155136917876965",
+            "name": "Vietnamese Restaurant"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://www.instagram.com/marblevietnamese/",
+      "meta": {
+        "website": "http://yahoo.com/",
+        "name": "孖寶越南湯河店",
+        "about": "尖沙咀柯士甸路17號地下 4c店 另一店 上環蘇杭街103號"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/114668843596823/posts/137352101328497/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "noodle"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀柯士甸路17號地下"
+      },
+      "googleMapsPlaceId": "ChIJAQAQS-kABDQRXZ3jPULVwzg",
+      "coordinates": {
+        "lat": 22.3026897,
+        "lng": 114.1749129
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "上環蘇杭街103號"
+      },
+      "googleMapsPlaceId": "ChIJSx26ut4BBDQRTCDF8gfi6nk",
+      "coordinates": {
+        "lat": 22.2856578,
+        "lng": 114.1505125
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1943
+    },
+    {
+      "type": "eat",
+      "id": 6100
+    }
+  ]
+}

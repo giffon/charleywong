@@ -1,0 +1,56 @@
+{
+  "id": "PaddoRestaurant",
+  "name": {
+    "en": "Paddo Restaurant",
+    "zh": "八道餐廳"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/groups/138110657017511/"
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/groups/138110657017511/posts/640535426775029/",
+      "meta": {
+        "embeddable": false
+      }
+    },
+    {
+      "url": "https://www.facebook.com/groups/138110657017511/posts/641698903325348/",
+      "meta": {
+        "embeddable": false
+      }
+    },
+    {
+      "url": "https://www.facebook.com/groups/138110657017511/posts/761074011387836/",
+      "meta": {
+        "embeddable": false
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "慈雲山毓華街74-80A號嘉華大厦地舖"
+      },
+      "googleMapsPlaceId": "ChIJm5RFEJQHBDQRCPmpNBnNnzc",
+      "coordinates": {
+        "lat": 22.3471019,
+        "lng": 114.2027919
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1567
+    }
+  ]
+}

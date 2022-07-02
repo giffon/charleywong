@@ -1,0 +1,68 @@
+{
+  "id": "sheungshui_chau.tai.tai",
+  "name": {
+    "zh": "周太太餐廳"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/sheungshui_chau.tai.tai/",
+      "meta": {
+        "name": "周太太餐廳",
+        "about": "營業時間🕖 早上7時至晚上5時\n地址:上水石湖墟熟食中心2字樓CF15鋪\n外賣電話☎️ 2670 8823 / 9099 4364"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/106657787995463/",
+      "meta": {
+        "id": "106657787995463",
+        "name": "上水周太太餐廳",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/service"
+          },
+          {
+            "id": "2700",
+            "name": "Personal blog"
+          }
+        ],
+        "single_line_address": "CF15, Shek Wu Hui market, 香港"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/CApLYk6HKRc/"
+    },
+    {
+      "url": "https://www.instagram.com/p/CBTXdpylEj2/"
+    },
+    {
+      "url": "https://www.instagram.com/p/CDu_Qrol25a/"
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "上水石湖墟熟食中心2字樓CF15鋪"
+      },
+      "googleMapsPlaceId": "ChIJabfbihD2AzQRCSMsZd6XbAQ",
+      "coordinates": {
+        "lat": 22.501966,
+        "lng": 114.130619
+      },
+      "area": {
+        "zh": "北區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1680
+    }
+  ]
+}
