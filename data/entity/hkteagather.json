@@ -1,0 +1,65 @@
+{
+  "id": "hkteagather",
+  "name": {
+    "zh": "嘆杯茶",
+    "en": "Tea Gather"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/2008145589484187/",
+      "meta": {
+        "id": "2008145589484187",
+        "username": "hkteagather",
+        "name": "嘆杯茶 Tea Gather",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "hkteagather@gmail.com"
+        ]
+      }
+    },
+    {
+      "url": "https://www.instagram.com/hkteagather/",
+      "meta": {
+        "name": "嘆杯茶 Tea Gather",
+        "about": "做人 • 最緊要識嘆 ！#teagather"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/hkteagather/posts/2661939577438115/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "鑽石山蒲崗村道59號F2舖"
+      },
+      "googleMapsPlaceId": "ChIJWeQzTDwHBDQR6TKfj54VQvo",
+      "coordinates": {
+        "lat": 22.3438684,
+        "lng": 114.1987083
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 628
+    }
+  ]
+}

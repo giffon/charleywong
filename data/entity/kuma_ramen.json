@@ -1,0 +1,112 @@
+{
+  "id": "kuma_ramen",
+  "name": {
+    "en": "Kuma ramen",
+    "zh": "熊拉麵"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1514752122151829/",
+      "meta": {
+        "id": "1514752122151829",
+        "name": "Kuma ramen - 熊拉麵 - 熊らーめん",
+        "about": "12時間じっくり煮込んだ魚介豚骨ラーメン\n12 hours slow cook pork soup Japanese ramen",
+        "category_list": [
+          {
+            "id": "218838724804749",
+            "name": "Ramen Restaurant"
+          }
+        ],
+        "single_line_address": "G/F, 2-8 Parkes Street, Jordan, Kowloon, 852 香港"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/1729478287294605/",
+      "meta": {
+        "id": "1729478287294605",
+        "name": "Kuma ramen Sheung Wan - 熊拉麵上環- 熊らーめん",
+        "about": "12時間じっくり煮込んだ魚介豚骨ラーメン\n12 hours slow cook pork soup Japanese ramen",
+        "category_list": [
+          {
+            "id": "218838724804749",
+            "name": "Ramen Restaurant"
+          },
+          {
+            "id": "1848365298810025",
+            "name": "Noodle House"
+          }
+        ],
+        "single_line_address": "No.84 Jervois Street, Sheung Wan, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/kuma_ramen_official/",
+      "meta": {
+        "name": "Kuma Ramen",
+        "about": "熊拉麵\n濃厚豚骨湯\n佐敦分店 : 佐敦白加士街2-8號地下\n上環分店 : 上環蘇杭街84號地下"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/1729478287294605/posts/2393932854182475/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/1729478287294605/posts/2428092774099816/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/1514752122151829/posts/2206971636263204/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "japanese",
+    "noodle"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, 2-8 Parkes Street, Jordan, Kowloon"
+      },
+      "googleMapsPlaceId": "ChIJAwSYgesABDQRRkS2kAaFvPU",
+      "coordinates": {
+        "lat": 22.3034744,
+        "lng": 114.1708293
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "en": "No.84 Jervois Street, Sheung Wan"
+      },
+      "googleMapsPlaceId": "ChIJiYSaE3wABDQRNWFu8xCjO8o",
+      "coordinates": {
+        "lat": 22.2848923,
+        "lng": 114.1510708
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1089
+    },
+    {
+      "type": "eat",
+      "id": 1090
+    }
+  ]
+}
