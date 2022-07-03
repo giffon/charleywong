@@ -1,0 +1,54 @@
+{
+  "id": "MafeCafe",
+  "name": {
+    "zh": "孖啡",
+    "en": "Double Cafe"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/212451638793817/",
+      "meta": {
+        "id": "212451638793817",
+        "username": "MafeCafe",
+        "name": "孖啡 Double Cafe",
+        "about": "包場每位$138, 包10款美食及飲品任飲!",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "emails": [
+          "cafedouble@gmail.com"
+        ],
+        "single_line_address": "旺角彌敦道577號高氏大廈4樓, 香港",
+        "website": "www.doublecafe.com"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角彌敦道577號高氏大廈4樓"
+      },
+      "googleMapsPlaceId": "ChIJFzpGJscABDQRW7s9y0eZcr4",
+      "coordinates": {
+        "lat": 22.315172,
+        "lng": 114.169999
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1111
+    }
+  ]
+}

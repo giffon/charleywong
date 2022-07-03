@@ -1,0 +1,55 @@
+{
+  "id": "chunyuennoodleshop",
+  "name": {
+    "zh": "珍苑麵家"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/groups/53598672647/"
+    },
+    {
+      "url": "https://www.instagram.com/chunyuennoodleshop/",
+      "meta": {
+        "name": "珍苑麵家"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/groups/53598672647/posts/10158315423002648/",
+      "meta": {
+        "embeddable": false
+      }
+    },
+    {
+      "url": "https://www.facebook.com/groups/53598672647/posts/10158316654452648/",
+      "meta": {
+        "embeddable": false
+      }
+    }
+  ],
+  "tags": [
+    "noodle"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "上水馬會道148號B舖"
+      },
+      "googleMapsPlaceId": "ChIJs3IuJhD2AzQRS9wtw9ukI7A",
+      "coordinates": {
+        "lat": 22.50474539999999,
+        "lng": 114.1296589
+      },
+      "area": {
+        "zh": "北區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1170
+    }
+  ]
+}

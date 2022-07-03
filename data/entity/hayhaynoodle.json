@@ -1,0 +1,55 @@
+{
+  "id": "hayhaynoodle",
+  "name": {
+    "zh": "喜喜麵館"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1695891890454156/",
+      "meta": {
+        "id": "1695891890454156",
+        "username": "hayhaynoodle",
+        "name": "喜喜麵館",
+        "category_list": [
+          {
+            "id": "1848365298810025",
+            "name": "Noodle House"
+          }
+        ],
+        "single_line_address": "26 Sung Kit St, 九龍"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/hayhaynoodle/posts/3566699696706690/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "noodle"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "26 Sung Kit St"
+      },
+      "googleMapsPlaceId": "ChIJLeLOyYYBBDQRSTKWP1xZZf8",
+      "coordinates": {
+        "lat": 22.3117639,
+        "lng": 114.1885885
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1145
+    }
+  ]
+}

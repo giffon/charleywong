@@ -1,0 +1,40 @@
+{
+  "id": "after5hk",
+  "name": {
+    "en": "After 5 Wine Bar"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/after5hk/",
+      "meta": {
+        "name": "After 5 Wine Bar",
+        "about": "Restaurant"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "bar"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "太和美新里5號美菱居地下A舖"
+      },
+      "googleMapsPlaceId": "ChIJ__-zTDgIBDQR14m46lBsTEA",
+      "coordinates": {
+        "lat": 22.4530355,
+        "lng": 114.1647666
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1085
+    }
+  ]
+}
