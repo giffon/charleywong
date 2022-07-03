@@ -34,8 +34,9 @@
     {
       "url": "https://www.instagram.com/chip.in.fish.and.chips/",
       "meta": {
+        "website": "http://www.chipin.com.hk/",
         "name": "Chip In Fish & Chips",
-        "about": "Fish & Chips 英式炸魚薯條🐟🍟\n全港首創炸Oreo! 愛心社企💕\n🇬🇧British Chippy, The only deep-fried Oreo in Hong Kong. Social Enterprise!"
+        "about": "Fish & Chips 英式炸魚薯條🐟🍟\n全港首創炸Oreo! 愛心社企💕\n🇬🇧British Chippy, The only deep-fried Oreo in Hong Kong. Social Enterprise!\n📍西貢 Sai Kung\n📍紅磡 Hung Hom"
       }
     }
   ],
@@ -59,6 +60,10 @@
     {
       "type": "eat",
       "id": 1414
+    },
+    {
+      "type": "eat",
+      "id": 6511
     }
   ],
   "places": [
@@ -73,6 +78,19 @@
       },
       "area": {
         "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "紅磡馬頭圍道63號啟岸地下28號舖"
+      },
+      "googleMapsPlaceId": "ChIJebQ2j1IBBDQRSzwImL4Gi1U",
+      "coordinates": {
+        "lat": 22.3120535,
+        "lng": 114.1880119
+      },
+      "area": {
+        "zh": "九龍城區"
       }
     }
   ]
