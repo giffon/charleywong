@@ -1,0 +1,70 @@
+{
+  "id": "caskyhk",
+  "name": {
+    "en": "Casky"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/930203350496106/",
+      "meta": {
+        "id": "930203350496106",
+        "username": "caskyhk",
+        "name": "Casky",
+        "about": "A whisky bar located at Wan Chai with over 350 selections of whiskies & craft beer",
+        "category_list": [
+          {
+            "id": "1081709315199455",
+            "name": "Whisky Bar"
+          }
+        ],
+        "single_line_address": "Shop 1 G/F, Golden Star Building, 20-24 Lockhart Road, Wan Chai, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/caskyhk/",
+      "meta": {
+        "name": "Casky",
+        "about": "🥃Whisky 🍽Food ☕️Coffee\nA Whisky Bar with 400+ opened bottles by glass.\nCustom made personal whisky tasting\nMon-Fri 12:00-00:00 Sat 15:00-00:00"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/caskyhk/posts/1172499166266522/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/caskyhk/posts/1253491431500628/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "bar",
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 1 G/F, Golden Star Building, 20-24 Lockhart Road, Wan Chai"
+      },
+      "googleMapsPlaceId": "ChIJeXHJRhUBBDQRBIN29Tz70QI",
+      "coordinates": {
+        "lat": 22.278097,
+        "lng": 114.1698768
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 697
+    }
+  ]
+}

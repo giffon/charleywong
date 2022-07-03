@@ -1,0 +1,60 @@
+{
+  "id": "ShackTapazaka",
+  "name": {
+    "en": "SHACK Tapazaka"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1154622931224517/",
+      "meta": {
+        "id": "1154622931224517",
+        "username": "ShackTapazaka",
+        "name": "SHACK Tapazaka",
+        "about": "The first TAPAZAKA restaurant in Hong Kong!",
+        "category_list": [
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          }
+        ],
+        "emails": [
+          "shacktapazaka@gmail.com"
+        ],
+        "single_line_address": "1-1A, Yiu Wa Street, Causeway Bay, 香港",
+        "website": "www.ShackTapazaka.com.hk"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/shack.tapazaka/",
+      "meta": {
+        "name": "SHACK Tapazaka",
+        "about": "The 1st TAPAZAKA in HKG! SHACK takes its inspiration from izakaya combining it with tapas-style serving to offer a unique social dining experience."
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "1-1A, Yiu Wa Street, Causeway Bay"
+      },
+      "googleMapsPlaceId": "ChIJde2Y4FAABDQR5vg57jy7m0I",
+      "coordinates": {
+        "lat": 22.2776989,
+        "lng": 114.1822725
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 742
+    }
+  ]
+}

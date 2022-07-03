@@ -1,0 +1,75 @@
+{
+  "id": "DearNeighborCoffee",
+  "name": {
+    "en": "Dear Neighbor"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/316200065533443/",
+      "meta": {
+        "id": "316200065533443",
+        "username": "DearNeighborCoffee",
+        "name": "Dear Neighbor",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "single_line_address": "Yen Oi Garden, 9 - 15 Po Tuck Street, HK 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/dearneighborhk/",
+      "meta": {
+        "website": "https://www.facebook.com/DearNeighborCoffee/",
+        "name": "DearNeighbor",
+        "about": "Coffee | Takeaway | Brunch | Dessert | All Day Breakfast\nPets are welcome! | With upper floor\nTue-Sun 8:30AM-6:00PM\n(Close on Mon)\nHKU MTR Exit B2"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/DearNeighborCoffee/photos/a.337889963364453/623593201460793/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/DearNeighborCoffee/photos/a.337889963364453/722932468193532/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/DearNeighborCoffee/photos/a.337889963364453/870985960054848/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Yen Oi Garden, 9 - 15 Po Tuck Street"
+      },
+      "googleMapsPlaceId": "ChIJ9YhuQYT_AzQR_nbWuBnZxXo",
+      "coordinates": {
+        "lat": 22.2847069,
+        "lng": 114.1362022
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 624
+    }
+  ]
+}
