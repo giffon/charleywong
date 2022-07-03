@@ -1,0 +1,73 @@
+{
+  "id": "NewYorkClub",
+  "name": {
+    "en": "New York Club"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/314592058650620/",
+      "meta": {
+        "id": "314592058650620",
+        "name": "New York Club",
+        "about": "Cash only",
+        "category_list": [
+          {
+            "id": "185855984789970",
+            "name": "Asian Restaurant"
+          }
+        ],
+        "single_line_address": "24 School St, Tai Hang, 大坑"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/314592058650620/posts/2070800629696412/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/314592058650620/posts/2287974807978992/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/314592058650620/posts/2344660348977104/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/314592058650620/posts/3262288643880932/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "24 School St, Tai Hang"
+      },
+      "googleMapsPlaceId": "ChIJkb0BslQABDQRoaBUPZVRpjE",
+      "coordinates": {
+        "lat": 22.2784857,
+        "lng": 114.1910662
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 689
+    }
+  ]
+}

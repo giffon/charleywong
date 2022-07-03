@@ -1,0 +1,79 @@
+{
+  "id": "MakKeeYummyFood",
+  "name": {
+    "zh": "麥記美食",
+    "en": "Mak Kee Yummy Food"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/344133773046391/",
+      "meta": {
+        "id": "344133773046391",
+        "name": "麥記美食 Mak Kee Yummy Food",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/service"
+          }
+        ]
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/344133773046391/posts/449186122541155/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/344133773046391/posts/687441742048924/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/344133773046391/posts/720260445433720/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "北角堡壘街21-23號美嘉洋樓地下"
+      },
+      "googleMapsPlaceId": "ChIJgWiYjgMBBDQRs9XKXvJvNpQ",
+      "coordinates": {
+        "lat": 22.2898873,
+        "lng": 114.1970335
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "新蒲崗彩虹道242采頤花園地下"
+      },
+      "googleMapsPlaceId": "ChIJ3VNXCNAGBDQRsu1BrvVoVF8",
+      "coordinates": {
+        "lat": 22.3372243,
+        "lng": 114.2023552
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1217
+    }
+  ]
+}

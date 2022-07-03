@@ -1,0 +1,58 @@
+{
+  "id": "ramendou",
+  "name": {
+    "zh": "麺道",
+    "en": "Ramen Dou"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/706367146196964/",
+      "meta": {
+        "id": "706367146196964",
+        "username": "ramendou",
+        "name": "麺道 Ramen Dou",
+        "about": "「麺道」以專業、嚴謹、用心的態度，提供上品拉麵及創意小食，由湯、麵、調味料和配料均按照傳統做法，讓您品嚐最正宗的京都風拉麵。\n\n\n\n",
+        "category_list": [
+          {
+            "id": "218838724804749",
+            "name": "Ramen Restaurant"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://www.instagram.com/ramen.dou/",
+      "meta": {
+        "website": "http://facebook.com/ramendou/",
+        "name": "麺道",
+        "about": "麺道 ラーメン\n⛩ 沙田石門京瑞廣場1期地下1號鋪\n☎️ 3563 5262\n🕚 星期一至日 11am - 8pm"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "japanese",
+    "noodle"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "沙田石門京瑞廣場1期地下1號鋪"
+      },
+      "googleMapsPlaceId": "ChIJb-gAxkYGBDQRjqZTmwhFz5c",
+      "coordinates": {
+        "lat": 22.3881028,
+        "lng": 114.2084131
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2033
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "Henshin.Cafe",
+  "name": {
+    "en": "Henshin Cafe",
+    "zh": "變身喫茶店"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1442294899378804/",
+      "meta": {
+        "id": "1442294899378804",
+        "username": "Henshin.Cafe",
+        "name": "Henshin Cafe",
+        "about": "總部提供物資, 精神補給, 心靈治愈! Let's Henshin!",
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
+        ],
+        "single_line_address": "11/F, Heng Long Building. 46 Dundas St, Mong Kok"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/henshin_cafe/",
+      "meta": {
+        "website": "http://www.facebook.com/henshin.cafe/",
+        "name": "Henshin Cafe"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/Bz-6uuUFcES/"
+    },
+    {
+      "url": "https://www.instagram.com/p/B4HpQNplu4x/"
+    },
+    {
+      "url": "https://www.instagram.com/p/CAp3R93D3Se/"
+    }
+  ],
+  "tags": [
+    "cafe",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "11/F, Heng Long Building. 46 Dundas St, Mong Kok"
+      },
+      "googleMapsPlaceId": "ChIJCTwZJscABDQRaewdkRq09e8",
+      "coordinates": {
+        "lat": 22.315316,
+        "lng": 114.1705193
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1132
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "my.little.dori",
+  "name": {
+    "en": "My Little Dori",
+    "zh": "多莉餅店"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/113002253414488/",
+      "meta": {
+        "id": "113002253414488",
+        "username": "my.little.dori",
+        "name": "My Little Dori",
+        "about": "歡迎WhatsApp查詢：6778 8813（FB messenger不接/ Ig dm不接）",
+        "category_list": [
+          {
+            "id": "132852590115660",
+            "name": "Kitchen/cooking"
+          }
+        ],
+        "single_line_address": "沒有 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/my.little.dori/",
+      "meta": {
+        "website": "https://www.facebook.com/113002253414488/",
+        "name": "👨🏻‍🍳💁🏻‍♀️多莉餅店 My Little Dori🎂🍰",
+        "about": "📞WhatsApp/ Signal: 6778 8813(❌Ig dm❌Fb msg❌Tg pm❌)\n📍元朗鳳攸東街9號好順意大廈地下18號舖\n🕙:::營業時間:::\n星期一至五 上午十時至晚上八時\n星期六 上午十時至晚上九時\n星期日及公眾假期 上午十時至晚上七時\n週三例休及不定休（每月一號公布）"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/my.little.dori/photos/a.128239391890774/146804200034293/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/my.little.dori/photos/a.128239391890774/150308289683884/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/my.little.dori/photos/a.128239391890774/152425816138798/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "cake",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗鳳攸東街9號好順意大廈地下18號舖"
+      },
+      "googleMapsPlaceId": "ChIJ2VmQkPvxAzQR2cIncM2thbU",
+      "coordinates": {
+        "lat": 22.4428629,
+        "lng": 114.0349795
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1670
+    }
+  ]
+}

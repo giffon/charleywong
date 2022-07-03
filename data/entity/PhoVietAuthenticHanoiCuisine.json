@@ -1,0 +1,47 @@
+{
+  "id": "PhoVietAuthenticHanoiCuisine",
+  "name": {
+    "zh": "越發正宗河内料理"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1975695032662495/",
+      "meta": {
+        "id": "1975695032662495",
+        "name": "越發正宗河内料理",
+        "category_list": [
+          {
+            "id": "211063415594061",
+            "name": "Pho Restaurant"
+          }
+        ],
+        "single_line_address": "No.99 Portland Street, 九龍"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "No.99 Portland Street"
+      },
+      "googleMapsPlaceId": "ChIJJfFVy8AABDQRILvw5rGRDFs",
+      "coordinates": {
+        "lat": 22.3145508,
+        "lng": 114.169572
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1631
+    }
+  ]
+}

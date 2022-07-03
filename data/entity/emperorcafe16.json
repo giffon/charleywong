@@ -1,0 +1,53 @@
+{
+  "id": "emperorcafe16",
+  "name": {
+    "zh": "天王冰室"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/2259914284244479/",
+      "meta": {
+        "id": "2259914284244479",
+        "username": "emperorcafe16",
+        "name": "天王冰室",
+        "about": "天王冰室",
+        "category_list": [
+          {
+            "id": "192803624072087",
+            "name": "Fast food restaurant"
+          }
+        ],
+        "emails": [
+          "emperorcafe16@gmail.com"
+        ],
+        "single_line_address": "新界元朗鳯攸南街3號好順景大廈地下16號舖, Yuen Long"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新界元朗鳯攸南街3號好順景大廈地下16號舖"
+      },
+      "googleMapsPlaceId": "ChIJNx-O1Qn6AzQRfk1vF5OYjW0",
+      "coordinates": {
+        "lat": 22.4420205,
+        "lng": 114.0336786
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1749
+    }
+  ]
+}

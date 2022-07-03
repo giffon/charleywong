@@ -1,0 +1,71 @@
+{
+  "id": "motoyakitori",
+  "name": {
+    "en": "Moto Yakitori"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/motoyakitori/",
+      "meta": {
+        "id": "160174474578757",
+        "username": "motoyakitori",
+        "name": "Moto Yakitori",
+        "about": "焼鳥+日本洒",
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          },
+          {
+            "id": "1640927539562872",
+            "name": "Sake Bar"
+          }
+        ],
+        "single_line_address": "21A BROWN STREET, TAI HANG, 香港",
+        "website": "http://www.motoyakitori.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/motoyakitori/",
+      "meta": {
+        "website": "https://inline.app/booking/moto/YAKITORi",
+        "name": "moto yakitori",
+        "about": "Tel: (+852) 2688 7007\nMonday-Sunday ☀️13:00-15:00 🌜18:00-22:00\n💁🏻‍♀️ BOOK NOW 👇🏻👇🏻👇🏻 預訂💁🏻‍♀️"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/motoyakitori/posts/666778687251664/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "japanese",
+    "food",
+    "bar"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "21A BROWN STREET, TAI HANG"
+      },
+      "googleMapsPlaceId": "ChIJtUVITqsBBDQRH0QKfoXELho",
+      "coordinates": {
+        "lat": 22.2782618,
+        "lng": 114.1921637
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1250
+    }
+  ]
+}
