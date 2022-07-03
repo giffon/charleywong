@@ -1,0 +1,121 @@
+{
+  "id": "hksushi_tokyostreet",
+  "name": {
+    "zh": "東京街"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/hksushi_tokyostreet/",
+      "meta": {
+        "name": "東京街日本料理",
+        "about": "日本精選美食-東京街\n壽司 刺身外賣專門店\n香港九龍太子水渠道30-32號A地下5號鋪\n營業時間：11:00--00:00(星期一至星期日)"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/106193871404637/",
+      "meta": {
+        "id": "106193871404637",
+        "name": "東京街",
+        "about": "壽司  刺身外賣專門店\n太子水渠道30-32號地鋪\n54087567\n抵食高質壽司",
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://www.facebook.com/tokoystreet/",
+      "meta": {
+        "id": "100898755251556",
+        "username": "tokoystreet",
+        "name": "東京街",
+        "about": "西洋菜南街228號（始創中心對面)\n電話�：24883666\nwts落單:55466277",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
+        ],
+        "single_line_address": "西洋菜南街228號"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/CI3Y8m3nRhu/"
+    },
+    {
+      "url": "https://www.facebook.com/tokoystreet/posts/114558127218952/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/106193871404637/posts/119279976762693/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "japanese",
+    "sushi"
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1008
+    },
+    {
+      "type": "eat",
+      "id": 5510
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "太子水渠道30-32號地鋪 (外賣專門店)"
+      },
+      "googleMapsPlaceId": "ChIJSS7_tvwBBDQRjSiRIVUDK_0",
+      "coordinates": {
+        "lat": 22.323417,
+        "lng": 114.169564
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "太子西洋菜南街228號地舖 (堂食分店)"
+      },
+      "googleMapsPlaceId": "EiwyMjggU2FpIFlldW5nIENob2kgU3QgUywgTW9uZyBLb2ssIEhvbmcgS29uZyIxEi8KFAoSCbf1Z0rIAAQ0EesKcbB-Vy5cEOQBKhQKEgmvVv7ZxwAENBF7ty3yw9i69g",
+      "coordinates": {
+        "lat": 22.3225659,
+        "lng": 114.1694936
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "土瓜灣馬頭角道57-59號地下B號舖 (外賣分店)"
+      },
+      "googleMapsPlaceId": "ChIJ47_UdJMBBDQRERdfwydbND8",
+      "coordinates": {
+        "lat": 22.3215647,
+        "lng": 114.1903546
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    }
+  ]
+}

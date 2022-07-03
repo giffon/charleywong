@@ -1,0 +1,83 @@
+{
+  "id": "sinbadcoffee",
+  "name": {
+    "en": "Sinbad Coffee Roasters"
+  },
+  "webpages": [
+    {
+      "url": "https://sinbadcoffee.com"
+    },
+    {
+      "url": "https://www.facebook.com/271405916397339/",
+      "meta": {
+        "id": "271405916397339",
+        "username": "sinbadcoffee",
+        "name": "Sinbad Coffee Roasters",
+        "about": "Boutique coffee roastery in Hong Kong",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
+        ],
+        "emails": [
+          "info@sinbadcoffee.com"
+        ],
+        "single_line_address": "Shop 2, 90 Hoi Bun Road, 香港",
+        "website": "http://sinbadcoffee.com/"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/sinbadcoffee/",
+      "meta": {
+        "website": "https://sinbadcoffee.com/online-store",
+        "name": "Sinbad Coffee Roasters",
+        "about": "Small-batch coffee roaster ☕️"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/sinbadcoffee/posts/1108190722718850/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/sinbadcoffee/posts/1143977592473496/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/sinbadcoffee/photos/a.453109454893650/1227867090751212/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 2, 90 Hoi Bun Road"
+      },
+      "googleMapsPlaceId": "ChIJMWFLVJ4BBDQR4cCEMzzJtCU",
+      "coordinates": {
+        "lat": 22.31286459999999,
+        "lng": 114.2169447
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 845
+    }
+  ]
+}
