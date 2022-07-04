@@ -1,0 +1,61 @@
+{
+  "id": "V.DimpalFusionPizzaHouse",
+  "name": {
+    "en": "V.Dimpal Fusion & Pizza House"
+  },
+  "webpages": [
+    {
+      "url": "https://www.dimpal.com.hk"
+    },
+    {
+      "url": "https://www.facebook.com/205053966190407/",
+      "meta": {
+        "id": "205053966190407",
+        "name": "V.Dimpal Fusion & Pizza House",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
+        ],
+        "emails": [
+          "info@dimpal.com.hk"
+        ],
+        "single_line_address": "G/F , Shop 2, Po Fat Building , 283 Temple Street , Jordan, 852 香港",
+        "website": "http://www.dimpal.com.hk"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/dimpalfusion/",
+      "meta": {
+        "name": "Dimpal Fusion Restaurant & Bar",
+        "about": "Welcome to Dimpal Fusion & pizza house for your appetite of Italian ,western, Indian & Nepalese Cuisine."
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F , Shop 2, Po Fat Building , 283 Temple Street , Jordan"
+      },
+      "googleMapsPlaceId": "ChIJc8pjYesABDQRzFLbD0a7JWk",
+      "coordinates": {
+        "lat": 22.3036454,
+        "lng": 114.1695618
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1551
+    }
+  ]
+}

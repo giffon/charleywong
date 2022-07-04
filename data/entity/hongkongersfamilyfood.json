@@ -1,0 +1,88 @@
+{
+  "id": "hongkongersfamilyfood",
+  "name": {
+    "zh": "香港人兩餸飯",
+    "en": "Hong Kongers Family Food"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/107995084921142/",
+      "meta": {
+        "id": "107995084921142",
+        "username": "hongkongersfamilyfood",
+        "name": "香港人兩餸飯 Hong Kongers Family Food",
+        "about": "鰂魚涌芬尼街22-46號海暉大廈地下Q號舖\n柴灣小西灣富欣花園商場地下49號舖",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "芬尼街22-46號海暉大廈地下Q號舖, 香港"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/hongkongersfamilyfood/posts/120493933671257/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hongkongersfamilyfood/posts/162052759515374/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hongkongersfamilyfood/posts/175052688215381/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/hongkongersfamilyfood/posts/175659341488049/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "鰂魚涌芬尼街22-46號海暉大廈地下Q號舖"
+      },
+      "googleMapsPlaceId": "ChIJOTIMyw0BBDQROhvEUb1JL3o",
+      "coordinates": {
+        "lat": 22.2887263,
+        "lng": 114.2105581
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "柴灣小西灣富欣花園商場地下49號舖"
+      },
+      "googleMapsPlaceId": "ChIJD48GpC8CBDQR3onQHIH_9ko",
+      "coordinates": {
+        "lat": 22.2647267,
+        "lng": 114.24843
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6742
+    }
+  ]
+}

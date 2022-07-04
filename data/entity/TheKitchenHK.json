@@ -1,0 +1,51 @@
+{
+  "id": "TheKitchenHK",
+  "name": {
+    "en": "The Kitchen HK"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/505334019479633/",
+      "meta": {
+        "id": "505334019479633",
+        "name": "The Kitchen HK",
+        "about": "Italian Cuisine ",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "thekitchenhk@gmail.com"
+        ],
+        "single_line_address": "18A Scenic Crest Mui Wo Ferry Pier Road, 香港"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "18A Scenic Crest Mui Wo Ferry Pier Road"
+      },
+      "googleMapsPlaceId": "ChIJIZb1VitWATQR-TmRP0orB7w",
+      "coordinates": {
+        "lat": 22.263493,
+        "lng": 114.0017604
+      },
+      "area": {
+        "zh": "離島區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 14
+    }
+  ]
+}

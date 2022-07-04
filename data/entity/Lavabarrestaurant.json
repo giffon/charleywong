@@ -1,0 +1,80 @@
+{
+  "id": "Lavabarrestaurant",
+  "name": {
+    "en": "LAVA Bar & Restaurant"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/905836562844403/",
+      "meta": {
+        "id": "905836562844403",
+        "username": "Lavabarrestaurant",
+        "name": "LAVA Bar & Restaurant",
+        "about": "西班牙菜。餐廳。酒吧2",
+        "category_list": [
+          {
+            "id": "188360891207745",
+            "name": "Modern European Restaurant"
+          },
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          },
+          {
+            "id": "119869574758000",
+            "name": "Tapas Bar & Restaurant"
+          }
+        ],
+        "emails": [
+          "lava.nrb@gmail.com"
+        ],
+        "single_line_address": "九龍太子通菜街236號地下, 00852 九龍"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/lavabarrestaurant/",
+      "meta": {
+        "name": "Lava Bar & Restaurant",
+        "about": "LAVA 2 - B, G/F, Tung Choi Street 236, Prince Edward Tel: 2642 1618#barandrestaurant #spanish #太子 #craftbeer #craftbeer #西班牙油條 #西班牙海鮮飯 #hkfoodlover"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/Lavabarrestaurant/photos/a.909230139171712/2420392071388837/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/Lavabarrestaurant/posts/2564617036966339/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "bar"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍太子通菜街236號地下"
+      },
+      "googleMapsPlaceId": "ChIJU5ETHMoABDQRlnpJs_YeIkM",
+      "coordinates": {
+        "lat": 22.3251831,
+        "lng": 114.1695242
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 455
+    }
+  ]
+}

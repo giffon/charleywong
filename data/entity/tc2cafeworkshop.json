@@ -1,0 +1,67 @@
+{
+  "id": "tc2cafeworkshop",
+  "name": {
+    "en": "TC2 cafe & workshop"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/tc2cafeworkshop/",
+      "meta": {
+        "name": "TC2 cafe & workshop",
+        "about": "用心做好一間文化咖啡店 coffee•food•desserts•books•music•film•anything you named culture"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/121103711251308/",
+      "meta": {
+        "id": "121103711251308",
+        "name": "TC2 cafe & workshop",
+        "about": "讓我們\"解拆\"對砵蘭街的\"論述\", 真正拉闊文化。",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "tc2.cafe@gmail.com"
+        ],
+        "single_line_address": "香港"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.inmediahk.net/node/1061995"
+    }
+  ],
+  "tags": [
+    "cafe",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "太子柏樹街"
+      },
+      "googleMapsPlaceId": "EiJDZWRhciBTdCwgUHJpbmNlIEVkd2FyZCwgSG9uZyBLb25nIi4qLAoUChIJVw83FLYABDQRepvSyxIZxJISFAoSCTt0YHTJAAQ0EZIZnaipMQAl",
+      "coordinates": {
+        "lat": 22.3248565,
+        "lng": 114.1663329
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5608
+    }
+  ]
+}

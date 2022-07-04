@@ -1,0 +1,74 @@
+{
+  "id": "mysushi.com.hk",
+  "name": {
+    "en": "My Sushi",
+    "zh": "神川"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/140433012714965/",
+      "meta": {
+        "id": "140433012714965",
+        "username": "mysushi.com.hk",
+        "name": "My Sushi Hong Kong 神川",
+        "about": "廚師拍板 驚喜處處\n\n平民版廚師拍板  \n用心經營\n新嘗試 \n希望客人用心品嚐\n\n另有鮮美刺身拼盤、多款壽司、拉麵烏冬、香脆炸物！ ",
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          }
+        ],
+        "emails": [
+          "emmab1107@gmail.com"
+        ],
+        "single_line_address": "西環 水街25-35A樂新大廈地下2號鋪, 852 香港"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/mysushi.com.hk/posts/2349023638522547/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "japanese",
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "西環水街25-35A樂新大廈地下2號鋪 My Sushi Hong Kong 神川"
+      },
+      "googleMapsPlaceId": "ChIJjfnDs4b_AzQRv5VixxX2XGE",
+      "coordinates": {
+        "lat": 22.2854605,
+        "lng": 114.1390235
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣摩理臣山道10號地鋪 岳川串揚 Yakimori"
+      },
+      "googleMapsPlaceId": "ChIJ0bylwNIBBDQR5RYWi0o19VY",
+      "coordinates": {
+        "lat": 22.2775395,
+        "lng": 114.1797682
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 584
+    }
+  ]
+}

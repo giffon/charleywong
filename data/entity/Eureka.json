@@ -1,0 +1,54 @@
+{
+  "id": "Eureka",
+  "name": {
+    "zh": "澄居串燒料理",
+    "en": "Eureka"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/108207854963420/",
+      "meta": {
+        "id": "108207854963420",
+        "name": "澄居串燒料理 Eureka",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://www.instagram.com/eureka2102021/",
+      "meta": {
+        "name": "Larry Lau",
+        "about": "澄居\n營業時間 晚市營業18:30-02:00am"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "西環西營盤第一街129號地下"
+      },
+      "googleMapsPlaceId": "ChIJu4BSJ4H_AzQRJ59UurSYffk",
+      "coordinates": {
+        "lat": 22.2866889,
+        "lng": 114.140936
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 585
+    }
+  ]
+}

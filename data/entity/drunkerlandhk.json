@@ -1,0 +1,68 @@
+{
+  "id": "drunkerlandhk",
+  "name": {
+    "en": "Drunkerland"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/933824230060022/",
+      "meta": {
+        "id": "933824230060022",
+        "username": "drunkerlandhk",
+        "name": "Drunkerland",
+        "about": "給你一個可以享受手工啤酒, 美食, 和朋友小聚嘅好地",
+        "category_list": [
+          {
+            "id": "218693881483234",
+            "name": "Pub"
+          },
+          {
+            "id": "263451080680156",
+            "name": "Beer Bar"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "drunkerland@gmail.com"
+        ],
+        "single_line_address": "Shop B, G/F, 27 Ngan Mok Street, Tin Hau, 852 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/drunkerlandhk/",
+      "meta": {
+        "name": "Drunkerlandhk",
+        "about": "📪天后銀幕街27號地下B舖 Shop B, 27 Ngan Mok Street, Tin Hau, Hong Kong\n☎3702 1841\n@drunkerlandhk #drunkerlandhk #drunkerland"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "bar",
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop B, G/F, 27 Ngan Mok Street, Tin Hau"
+      },
+      "googleMapsPlaceId": "ChIJ5TBFGgABBDQRV3AarZHPtCM",
+      "coordinates": {
+        "lat": 22.2840331,
+        "lng": 114.1921067
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 437
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "fuyuencafe",
+  "name": {
+    "zh": "富園冰室"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/163739727656120/",
+      "meta": {
+        "id": "163739727656120",
+        "username": "fuyuencafe",
+        "name": "富園冰室",
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
+        ],
+        "single_line_address": "Shop G05, G/F, We Go Mall, 16 Po Tai Street, 沙田"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop G05, G/F, We Go Mall, 16 Po Tai Street"
+      },
+      "googleMapsPlaceId": "ChIJfb7Es04JBDQRl0b1oE0vZqs",
+      "coordinates": {
+        "lat": 22.4145561,
+        "lng": 114.2239889
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 418
+    }
+  ]
+}

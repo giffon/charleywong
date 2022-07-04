@@ -1,0 +1,60 @@
+{
+  "id": "bar.tomoko",
+  "name": {
+    "en": "Bar.Tomoko"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/bar.tomoko/",
+      "meta": {
+        "name": "Bar.Tomoko",
+        "about": "包場"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/Tomoko.Cocktail/",
+      "meta": {
+        "id": "1782244212066484",
+        "username": "Tomoko.Cocktail",
+        "name": "BAR Tomoko",
+        "about": "Hope to see you soon, cheers.\n\nBUSINESS HOURS:\n5:00 PM - 2:00 AM ( Monday to Sunday )\n\nHAPPY HOURS :",
+        "category_list": [
+          {
+            "id": "218693881483234",
+            "name": "Pub"
+          }
+        ],
+        "emails": [
+          "tomokohk288@gmail.com"
+        ],
+        "single_line_address": "5 First street, 香港"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "bar",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "西環西營盤第一街5號地下A舖"
+      },
+      "googleMapsPlaceId": "ChIJNdT8oYD_AzQRsiqeFj9r6ig",
+      "coordinates": {
+        "lat": 22.2865754,
+        "lng": 114.1436018
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 454
+    }
+  ]
+}

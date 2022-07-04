@@ -1,0 +1,67 @@
+{
+  "id": "Santgriakitchen",
+  "name": {
+    "en": "Santgria kitchen"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/884800108388388/",
+      "meta": {
+        "id": "884800108388388",
+        "name": "Santgria kitchen",
+        "about": "西式扒房",
+        "category_list": [
+          {
+            "id": "198367566846946",
+            "name": "Steakhouse"
+          },
+          {
+            "id": "149803325077018",
+            "name": "American Restaurant"
+          }
+        ],
+        "single_line_address": "Ground floor Woosung Street 143,, HK 九龍"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/santgria_kitchen/",
+      "meta": {
+        "website": "https://www.facebook.com/pg/Santgria-kitchen-884800108388388/photos/?ref=page_internal",
+        "name": "牛屋餐廳酒吧",
+        "about": "佐敦吳松街143號地下“牛屋餐廳”~"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/CDurEXVBsYG/"
+    },
+    {
+      "url": "https://www.instagram.com/p/CQerS5YhavH/"
+    }
+  ],
+  "tags": [
+    "bar"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "佐敦吳松街143號地下"
+      },
+      "googleMapsPlaceId": "ChIJwU8GDesABDQRYKDa5yMx238",
+      "coordinates": {
+        "lat": 22.3048884,
+        "lng": 114.1699748
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 422
+    }
+  ]
+}

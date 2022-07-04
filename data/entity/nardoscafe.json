@@ -1,0 +1,57 @@
+{
+  "id": "nardoscafe",
+  "name": {
+    "en": "Nardo's Cafe"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/177633552312175/",
+      "meta": {
+        "id": "177633552312175",
+        "name": "Nardo's Cafe",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
+        ],
+        "single_line_address": "彌敦道594-596號旺角新城8樓(全層), 852 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/nardoscafe/",
+      "meta": {
+        "name": "Nardo's Cafe"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "彌敦道594-596號旺角新城8樓(全層)"
+      },
+      "googleMapsPlaceId": "ChIJjdz6G8cABDQRXcz9QyoD4X4",
+      "coordinates": {
+        "lat": 22.316235,
+        "lng": 114.1702781
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 554
+    }
+  ]
+}

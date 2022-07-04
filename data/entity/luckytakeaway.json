@@ -1,0 +1,67 @@
+{
+  "id": "luckytakeaway",
+  "name": {
+    "zh": "吉利餐室"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/110106801699150/",
+      "meta": {
+        "id": "110106801699150",
+        "username": "luckytakeaway",
+        "name": "吉利餐室",
+        "about": "吉利餐室\nSince 2020\n#香港味道#港式小食#沙嗲牛肉麵#兩餸飯",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          }
+        ],
+        "single_line_address": "2 Tung Loi Lane, Sheung Wan, Sheung Wan"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/lucky_takeaway/",
+      "meta": {
+        "name": "吉利餐室",
+        "about": "Since 2020\n#香港味道#港式小食#沙嗲牛肉麵#兩餸飯"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/CN_80X8hu-y/"
+    },
+    {
+      "url": "https://www.instagram.com/p/COR8W3rhuas/"
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "2 Tung Loi Lane, Sheung Wan, Sheung Wan"
+      },
+      "googleMapsPlaceId": "ChIJ93wwHqABBDQRBWd8YAFPV3o",
+      "coordinates": {
+        "lat": 22.2867635,
+        "lng": 114.1500508
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5940
+    }
+  ]
+}

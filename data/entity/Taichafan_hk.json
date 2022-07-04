@@ -1,0 +1,56 @@
+{
+  "id": "Taichafan_hk",
+  "name": {
+    "en": "Taichafan_hk",
+    "zh": "大茶飯"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/2057752390987890/",
+      "meta": {
+        "id": "2057752390987890",
+        "name": "Taichafan_hk",
+        "category_list": [
+          {
+            "id": "199146280116687",
+            "name": "Taiwanese Restaurant"
+          }
+        ],
+        "single_line_address": "Shop 137B, 1/F, Park Central Shopping Arcade, 9 Tong Tak Street, Tseung Kwan O, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/taichafan_hk/",
+      "meta": {
+        "name": "大茶飯",
+        "about": "台式餐廳\n📍地址：將軍澳唐德街9號將軍澳中心1樓137B號舖\n🕚營業時間：11:00 - 22:00"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "taiwanese",
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 137B, 1/F, Park Central Shopping Arcade, 9 Tong Tak Street, Tseung Kwan O"
+      },
+      "googleMapsPlaceId": "ChIJH6sIYpoDBDQRkT2TnMPMENA",
+      "coordinates": {
+        "lat": 22.3066758,
+        "lng": 114.2561053
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1722
+    }
+  ]
+}

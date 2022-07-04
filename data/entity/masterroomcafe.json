@@ -1,0 +1,82 @@
+{
+  "id": "masterroomcafe",
+  "name": {
+    "en": "Master Room"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/100114361953615/",
+      "meta": {
+        "id": "100114361953615",
+        "username": "masterroomcafe",
+        "name": "Master Room",
+        "about": "生於亂世，有種責任",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          },
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "emails": [
+          "masterroomcafe@gmail.com"
+        ],
+        "single_line_address": "觀塘偉業街223號宏利金融中心地下02號舖, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/masterroomcafe/",
+      "meta": {
+        "name": "Master Room",
+        "about": "Cafe, photography"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/masterroomcafe/posts/135154151782969/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/masterroomcafe/posts/145806324051085/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/masterroomcafe/posts/151025386862512/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘偉業街223號宏利金融中心地下02號舖"
+      },
+      "googleMapsPlaceId": "ChIJ5ck5zr0BBDQR8JV7YDB3udo",
+      "coordinates": {
+        "lat": 22.3072719,
+        "lng": 114.2240966
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5725
+    }
+  ]
+}

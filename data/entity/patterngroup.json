@@ -1,0 +1,82 @@
+{
+  "id": "patterngroup",
+  "name": {
+    "en": "Pattern"
+  },
+  "webpages": [
+    {
+      "url": "http://www.pattern-catering.com.hk"
+    },
+    {
+      "url": "https://www.facebook.com/327915987398141/",
+      "meta": {
+        "id": "327915987398141",
+        "username": "patterngroup",
+        "name": "Pattern",
+        "about": "Pattern提供舒適悠閒環境的西餐廳，Pattern希望帶給繁忙的城市人有喘息的地方享用屬於自己Pattern的食物。",
+        "category_list": [
+          {
+            "id": "149803325077018",
+            "name": "American Restaurant"
+          }
+        ],
+        "emails": [
+          "info@pattern-catering.com.hk"
+        ],
+        "single_line_address": "Shop 13, G/F, Tai Wo Centre, 15 Tai Po Tai Wo Rd, Tai-po-hui",
+        "website": "http://www.pattern-catering.com.hk"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/patternrest/",
+      "meta": {
+        "website": "http://www.pattern-catering.com.hk/",
+        "name": "Pattern"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/patterngroup/posts/1066720513517681/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/patterngroup/posts/1068234033366329/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/patterngroup/posts/1193682394154825/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 13, G/F, Tai Wo Centre, 15 Tai Po Tai Wo Rd, Tai-po-hui"
+      },
+      "googleMapsPlaceId": "ChIJJ7uTADkIBDQR2v16XJPjjvw",
+      "coordinates": {
+        "lat": 22.4520403,
+        "lng": 114.1645297
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 389
+    }
+  ]
+}

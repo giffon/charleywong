@@ -1,0 +1,49 @@
+{
+  "id": "taiheichadon",
+  "name": {
+    "zh": "大喜茶檔"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/651878428238181/",
+      "meta": {
+        "id": "651878428238181",
+        "username": "taiheichadon",
+        "name": "大喜茶檔",
+        "about": "大喜茶檔",
+        "category_list": [
+          {
+            "id": "512762212262409",
+            "name": "Hong Kong Restaurant"
+          }
+        ],
+        "single_line_address": "上環華里7號, 25776177 香港"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "上環華里7號"
+      },
+      "googleMapsPlaceId": "ChIJy_Q2v34ABDQRl8B70oAfN10",
+      "coordinates": {
+        "lat": 22.285535,
+        "lng": 114.1485051
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 510
+    }
+  ]
+}

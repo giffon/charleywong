@@ -1,0 +1,55 @@
+{
+  "id": "yaosushi_mosque",
+  "name": {
+    "en": "Yao Sushi Takeaway"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/yaosushi_mosque/",
+      "meta": {
+        "name": "Yao Sushi Takeaway",
+        "about": "Restaurant"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/553710001820077/",
+      "meta": {
+        "id": "553710001820077",
+        "name": "Yao sushi mosque",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "Shop no.1 on Lg/F Floral Tower 1-9 Mosque ST, 852 香港"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "japanese",
+    "sushi"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop no.1 on Lg/F Floral Tower 1-9 Mosque ST"
+      },
+      "googleMapsPlaceId": "ChIJ4aJJKXv_AzQRZAxX4UMir_k",
+      "coordinates": {
+        "lat": 22.2796419,
+        "lng": 114.1520118
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1740
+    }
+  ]
+}
