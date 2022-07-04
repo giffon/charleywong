@@ -1,0 +1,76 @@
+{
+  "id": "WINKHONGKONG",
+  "name": {
+    "en": "WINK"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/1442526086016622/",
+      "meta": {
+        "id": "1442526086016622",
+        "username": "WINKHONGKONG",
+        "name": "WINK",
+        "about": "Featuring an exciting range of exclusive cocktails, premium wines, champagnes and spirits in the heart of Sheung Wan. ",
+        "category_list": [
+          {
+            "id": "218693881483234",
+            "name": "Pub"
+          },
+          {
+            "id": "499741296896069",
+            "name": "Cocktail Bar"
+          }
+        ],
+        "emails": [
+          "winkhongkong@gmail.com"
+        ]
+      }
+    },
+    {
+      "url": "https://www.instagram.com/wink_hk/",
+      "meta": {
+        "website": "http://www.facebook.com/winkhongkong",
+        "name": "WINK",
+        "about": "Featuring an exciting range of exclusive cocktails, premium wines, champagnes and spirits in the heart of Sheung Wan"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/WINKHONGKONG/posts/2381381342131087/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/WINKHONGKONG/posts/2419563031646251/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "bar"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "上環文咸東街79號地舖"
+      },
+      "googleMapsPlaceId": "ChIJeY4sRnwABDQRRzO5QCVNBQs",
+      "coordinates": {
+        "lat": 22.2859601,
+        "lng": 114.151426
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 593
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "star_river",
+  "name": {
+    "zh": "星河餐廳"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/star_river_official/",
+      "meta": {
+        "name": "星河餐廳OFFICIAL",
+        "about": "係深水埗28年老牌餐廳😋\n#深水埗大南街374號地下\n＊有早餐，午餐，下午茶，重有鋸扒🍛\n＊外賣熱線 2728 8371☎️"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/CQfDdm_ro1O/"
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗大南街374號地下"
+      },
+      "googleMapsPlaceId": "ChIJsSbQprMABDQR3NsxEqnvsIQ",
+      "coordinates": {
+        "lat": 22.3298951,
+        "lng": 114.1599484
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1741
+    }
+  ]
+}
