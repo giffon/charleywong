@@ -339,7 +339,7 @@ ybm-download:
 
 ybm:
     FROM +ybm-download --CACHE_KEY="$(date +%Y%m%d)"
-    SAVE ARTIFACT ybm
+    SAVE ARTIFACT ybm AS LOCAL ./ybm/
 
 exportSpreadsheet.js:
     FROM +devcontainer
