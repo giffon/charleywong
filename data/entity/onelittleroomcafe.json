@@ -22,6 +22,13 @@
         ],
         "single_line_address": "觀塘偉業街93號, 852 Kowloon, Hong Kong"
       }
+    },
+    {
+      "url": "https://www.instagram.com/onelittleroom/",
+      "meta": {
+        "name": "One little room",
+        "about": "cafe/specialty coffee/barista/photographer/food photography/snapshot"
+      }
     }
   ],
   "posts": [
@@ -77,12 +84,28 @@
   ],
   "tags": [
     "food",
-    "cafe"
+    "cafe",
+    "closed"
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 198
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘偉業街93號"
+      },
+      "googleMapsPlaceId": "EiM5MyBXYWkgWWlwIFN0LCBLd3VuIFRvbmcsIEhvbmcgS29uZyIwEi4KFAoSCZtLEmhIAQQ0EYhw5xxiZ2z3EF0qFAoSCUk_vBJJAQQ0Eb33JXjSjRdA",
+      "coordinates": {
+        "lat": 22.3139777,
+        "lng": 114.2173488
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ]
 }
