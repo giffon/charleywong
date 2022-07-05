@@ -28,10 +28,36 @@
       }
     },
     {
-      "url": "https://www.instagram.com/edcr_cafe/",
+      "url": "https://www.facebook.com/1718138455170514/",
       "meta": {
-        "name": "Edelicious cafe"
+        "id": "1718138455170514",
+        "name": "Delicious cafe restaurant 味",
+        "about": "西式法國菜、地道港式西餐美食、及精品咖啡，盡在 。緊貼我們的專頁，即",
+        "category_list": [
+          {
+            "id": "193831710644458",
+            "name": "Italian Restaurant"
+          }
+        ],
+        "single_line_address": "深水埗北河街185號, 852 Hong Kong, Hong Kong",
+        "website": "https://instagram.com/delicioucafe?r=nametag"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/edelicious_cafe_restaurant/",
+      "meta": {
+        "name": "Edelicious cafe",
+        "about": "西式法國菜、地道港式西餐美食、及精品咖啡，盡在 。緊貼我們的專頁，即時掌握最新美食資訊及優惠！希望每位顧客有回味無窮，食指大動，物超所值的感覺"
       }
+    },
+    {
+      "url": "https://www.instagram.com/edelicioucafe/",
+      "meta": {
+        "name": "Delicious Cafe Restaurant",
+        "about": "如需惠顧請移玉步到深水埗北河街185號地下\n（E Delicious cafe restaurant )多謝支持！」\n歡迎訂座電話；26188870"
+      },
+      "hidden": true
     }
   ],
   "posts": [],
@@ -51,6 +77,15 @@
       "area": {
         "zh": "深水埗區"
       }
+    }
+  ],
+  "alias": [
+    "delicioucafe"
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1612
     }
   ]
 }
