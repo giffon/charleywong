@@ -1,7 +1,8 @@
 {
   "id": "flowermusic10",
   "name": {
-    "en": "Flower Music 10"
+    "en": "Flower Music",
+    "zh": "花好音樂"
   },
   "webpages": [
     {
@@ -28,19 +29,71 @@
       "url": "https://www.facebook.com/flowermusichk/"
     },
     {
+      "url": "https://www.facebook.com/littleflowerkidsmusic/",
       "meta": {
-        "about": "租場查詢預約 請DM\nWhatsapp: 52654035\nZoom網上音樂課堂報名詳情："
+        "id": "106070161653543",
+        "username": "littleflowerkidsmusic",
+        "name": "小花寶寶音樂 Little Flower Kids Music",
+        "about": "小花寶寶音樂是花好音樂的一個新計劃，目標為香港小朋友創作及製作高質?",
+        "category_list": [
+          {
+            "id": "1201",
+            "name": "Song"
+          }
+        ],
+        "emails": [
+          "littleflower@flowermusic.hk"
+        ],
+        "website": "http://www.flowermusic.hk/kidsmusic"
+      }
+    },
+    {
+      "meta": {
+        "name": "花好音樂廳 Flower Music 10",
+        "about": "花好音樂"
       },
       "url": "https://www.instagram.com/flowermusic10/"
+    },
+    {
+      "url": "https://www.instagram.com/littleflowerkidsmusic/",
+      "meta": {
+        "website": "http://www.flowermusic.hk/kidsmusic",
+        "name": "Flower Music 花好音樂",
+        "about": "小花寶寶音樂是花好音樂於2021年開展的一個新計劃，目標為香港小朋友創作及製作高質素兒歌，從文化藝術以至日常生活瑣事各層面培養小孩正確價值觀、自信心以及傳承香港文化。"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC3zgm2q6EDtZx9J5WsOzkQw",
+      "meta": {
+        "id": "UC3zgm2q6EDtZx9J5WsOzkQw",
+        "location": "Hong Kong",
+        "name": "小花寶寶音樂 Little Flower Kids Music",
+        "about": "小花寶寶音樂是花好音樂的一個新計劃，目標為香港小朋友創作及製作高質素兒歌，從文化藝術以至日常生活瑣事各層面培養小孩正確價值觀、自信心以及傳承香港文化。"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/flowermusic10/posts/2953320198058695"
+      "url": "https://www.facebook.com/880884738635595/posts/2953320198058695"
     }
   ],
   "tags": [
     "music",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "德輔道西27號星衢商業大廈12樓"
+      },
+      "googleMapsPlaceId": "ChIJDWu023wABDQRsmd7D7K4W6s",
+      "coordinates": {
+        "lat": 22.287846,
+        "lng": 114.146978
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }
