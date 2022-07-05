@@ -46,5 +46,59 @@
   "tags": [
     "medical",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣糖街1-5號銅鑼灣商業大廈15樓B1室"
+      },
+      "googleMapsPlaceId": "ChIJD-ffJwUBBDQRwgy9DCcj8bA",
+      "coordinates": {
+        "lat": 22.2799736,
+        "lng": 114.1864561
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "油麻地彌敦道518號彌敦行13樓B室"
+      },
+      "googleMapsPlaceId": "ChIJq6qOHMEABDQRVdZ9b-CqAsI",
+      "coordinates": {
+        "lat": 22.3124053,
+        "lng": 114.1709903
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣南豐中心9樓921室"
+      },
+      "googleMapsPlaceId": "ChIJISIVcPL4AzQRbk1LmvzGyrI",
+      "coordinates": {
+        "lat": 22.3738049,
+        "lng": 114.1163548
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "元朗壽富街55號元朗中心1308室"
+      },
+      "googleMapsPlaceId": "ChIJ__r7RqDwAzQRir5Cw6CnoJg",
+      "coordinates": {
+        "lat": 22.4450342,
+        "lng": 114.026712
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }
