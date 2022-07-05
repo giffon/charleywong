@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://chichichi.com.hk"
+    },
+    {
       "meta": {
         "id": "103234331123240",
         "username": "CHITachinomi",
@@ -28,8 +31,9 @@
     {
       "url": "https://www.instagram.com/chitachinomi/",
       "meta": {
+        "website": "http://chichichi.com.hk/",
         "name": "CHI Tachinomi",
-        "about": "11:30-22:00 Daily. CHI the moment ✌🏼"
+        "about": "Central Queen’s Rd: G/f, Queen’s Rd Central 54, Central\nCentral: G/f, Central Pier 7\nTuen Mun: G073, G/f, Tuen Mun Town Plaza 1\nBooking 👇"
       }
     }
   ],
@@ -56,6 +60,32 @@
       },
       "area": {
         "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "en": "G/f, Queen’s Rd Central 54, Central"
+      },
+      "googleMapsPlaceId": "ChIJI1jvHzMBBDQRiO1W3qVnhho",
+      "coordinates": {
+        "lat": 22.2822933,
+        "lng": 114.1559419
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "en": "G073, G/f, Tuen Mun Town Plaza 1"
+      },
+      "googleMapsPlaceId": "ChIJbxgNDqX7AzQRuAc0avYIv8U",
+      "coordinates": {
+        "lat": 22.3935909,
+        "lng": 113.9763951
+      },
+      "area": {
+        "zh": "屯門區"
       }
     }
   ],
