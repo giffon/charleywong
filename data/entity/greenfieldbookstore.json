@@ -23,11 +23,28 @@
         "single_line_address": "九龍旺角西洋菜街56號2樓, 852 Mong Kok, Hong Kong"
       },
       "url": "https://www.facebook.com/greenfieldbookstore/"
+    },
+    {
+      "url": "https://www.instagram.com/gfbook1976/",
+      "meta": {
+        "website": "http://greenfieldbookstore.com.hk/",
+        "name": "Greenfield Book Store",
+        "about": "本店專營港台文史哲、藝術社會勵志書的樓上書店。\n本店全年折扣優惠。"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/greenfieldbookstore/photos/a.1557862131181965/2158298967804942"
+      "url": "https://www.facebook.com/greenfieldbookstore/posts/2057282997906540/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/greenfieldbookstore/posts/2207743842860454/",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
@@ -38,6 +55,21 @@
     {
       "type": "shop",
       "id": 518
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍旺角西洋菜街56號2樓"
+      },
+      "googleMapsPlaceId": "ChIJc97DtscABDQR-ryN3pTRJvA",
+      "coordinates": {
+        "lat": 22.3183699,
+        "lng": 114.1703071
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
