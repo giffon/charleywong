@@ -24,9 +24,24 @@
         "single_line_address": "總店：鰂魚涌康怡廣場3樓SF3A    第2店：中環皇后大道中93號中環街市1樓108號舖    第3店：將軍澳新都城3期194號鋪, Hong Kong, Hong Kong",
         "website": "https://s.dimorder.com/lamkeesnack"
       }
+    },
+    {
+      "url": "https://www.instagram.com/lamkeesnack/",
+      "meta": {
+        "website": "https://s.dimorder.com/lamkeesnack",
+        "name": "林記懷舊小食",
+        "about": "🇭🇰香港懷舊小食\n承接各種派對\n糖蔥餅.龍鬚糖.菲林卷.白糖糕.砵仔糕等等\n📍總店📍鰂魚涌康怡廣場3樓SF3A\n📍第二店📍中環皇后大道中93號中環街市1樓108號舖\n📍第三店📍將軍澳新都城3期194號鋪"
+      }
     }
   ],
-  "posts": [],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/LamKeeSnacks/posts/4128941447196210/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
   "tags": [
     "food"
   ],
@@ -46,15 +61,28 @@
     },
     {
       "address": {
-        "zh": "旺角新世紀廣場moko1樓L123c號鋪"
+        "zh": "中環皇后大道中93號中環街市1樓108號舖"
       },
-      "googleMapsPlaceId": "ChIJC_lPIskABDQRxerRNtoOV9o",
+      "googleMapsPlaceId": "ChIJ94v7sXwABDQR0mwwrYDbRD4",
       "coordinates": {
-        "lat": 22.3231937,
-        "lng": 114.1723194
+        "lat": 22.2839325,
+        "lng": 114.1553613
       },
       "area": {
-        "zh": "油尖旺區"
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳新都城3期194號鋪"
+      },
+      "googleMapsPlaceId": "ChIJmTkAVAkEBDQRXTEgyg0-6ac",
+      "coordinates": {
+        "lat": 22.3224373,
+        "lng": 114.2568234
+      },
+      "area": {
+        "zh": "西貢區"
       }
     }
   ],
