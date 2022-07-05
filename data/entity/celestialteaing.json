@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://celestialteainghk.com"
+    },
+    {
       "url": "https://www.facebook.com/celestialteaing/",
       "meta": {
         "id": "495028771267804",
@@ -31,7 +34,7 @@
       "url": "https://www.instagram.com/celestial_teaing/",
       "meta": {
         "name": "茶色生香",
-        "about": "分店地址：\n1.天水圍天一商城1105號鋪\n2.筲箕灣愛禮街2號愛蝶灣商場地下57A 鋪（MTR D2)\n3.荃灣楊屋道18號荃新天地2期UG樓86號舖\n4.尖沙咀金巴利道58號鋪\n5.太古英皇道1090號寶峰園地下2B鋪 (MTR B出口左邊）\n6.石門京瑞廣場2期1樓101A 21號鋪"
+        "about": "天水圍天一商城1105號|荃灣荃新天地2期UG樓86號|尖沙咀金巴利道58號|太古英皇道1090號2B鋪|石門京瑞廣場2期1樓101A 21號|石塘咀新安大樓A 鋪|大角咀道61號鋪|柴灣樂軒台115號鋪|屯門山景商場125號鋪"
       }
     }
   ],
@@ -67,32 +70,6 @@
   "places": [
     {
       "address": {
-        "zh": "天水圍天一商城1105號鋪"
-      },
-      "googleMapsPlaceId": "ChIJ1y64PorwAzQRSO0LWqzLOZ8",
-      "coordinates": {
-        "lat": 22.4647433,
-        "lng": 114.0030365
-      },
-      "area": {
-        "zh": "元朗區"
-      }
-    },
-    {
-      "address": {
-        "zh": "筲箕灣愛禮街2號愛蝶灣商場地下57A 鋪"
-      },
-      "googleMapsPlaceId": "ChIJDYTQvK8BBDQRi0at-10a1tg",
-      "coordinates": {
-        "lat": 22.2798628,
-        "lng": 114.2288934
-      },
-      "area": {
-        "zh": "東區"
-      }
-    },
-    {
-      "address": {
         "zh": "荃灣楊屋道18號荃新天地2期UG樓86號舖"
       },
       "googleMapsPlaceId": "ChIJzRDKAOz4AzQRCODeKnEjx0o",
@@ -102,19 +79,6 @@
       },
       "area": {
         "zh": "荃灣區"
-      }
-    },
-    {
-      "address": {
-        "zh": "尖沙咀金巴利道58號鋪"
-      },
-      "googleMapsPlaceId": "ChIJR7mLlO4ABDQRNl4Jf7PyWeY",
-      "coordinates": {
-        "lat": 22.3009003,
-        "lng": 114.1749374
-      },
-      "area": {
-        "zh": "油尖旺區"
       }
     },
     {
@@ -132,6 +96,19 @@
     },
     {
       "address": {
+        "zh": "天水圍天一商城1105號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ1y64PorwAzQRSO0LWqzLOZ8",
+      "coordinates": {
+        "lat": 22.4647433,
+        "lng": 114.0030365
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
         "zh": "石門京瑞廣場2期1樓101A 21號鋪"
       },
       "googleMapsPlaceId": "ChIJA_qIKn0HBDQRO7s03JVSg7c",
@@ -141,6 +118,84 @@
       },
       "area": {
         "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "柴灣柴灣道350號樂軒臺地下115號舖"
+      },
+      "googleMapsPlaceId": "ChIJaa2yXH4DBDQRDaJeqVou2Vk",
+      "coordinates": {
+        "lat": 22.2639169,
+        "lng": 114.2405418
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大角咀大角咀道61號牡丹大廈地舖"
+      },
+      "googleMapsPlaceId": "ChIJOQGR9bkABDQRs_TgRKwzwnU",
+      "coordinates": {
+        "lat": 22.3202029,
+        "lng": 114.1617451
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀金巴利道58號鋪"
+      },
+      "googleMapsPlaceId": "ChIJR7mLlO4ABDQRNl4Jf7PyWeY",
+      "coordinates": {
+        "lat": 22.3009003,
+        "lng": 114.1749374
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "西環皇后大道西484-496號新安大廈地下A號舖"
+      },
+      "googleMapsPlaceId": "ChIJwUr3q8j_AzQR7h2zE3EkQYI",
+      "coordinates": {
+        "lat": 22.2858022,
+        "lng": 114.1354354
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門鳴琴路1號山景商場地下125號舖"
+      },
+      "googleMapsPlaceId": "ChIJH9x6rTr7AzQRhd7R62dfkNE",
+      "coordinates": {
+        "lat": 22.3966317,
+        "lng": 113.9665641
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "紅磡馬頭圍道116-118號置富商業大廈地下E號舖"
+      },
+      "googleMapsPlaceId": "ChIJcVQowt4ABDQRfu5fpELuRAs",
+      "coordinates": {
+        "lat": 22.3105103,
+        "lng": 114.1874314
+      },
+      "area": {
+        "zh": "九龍城區"
       }
     }
   ],
