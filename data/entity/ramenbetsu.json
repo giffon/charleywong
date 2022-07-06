@@ -59,8 +59,9 @@
     {
       "url": "https://www.instagram.com/ramen_betsu/",
       "meta": {
+        "website": "https://bit.ly/3GL0xy7",
         "name": "BETSUTENJIN🍲博多拉麵 × 別天神🍥",
-        "about": "超濃，經常被人誤會加咗奶，好豬骨嘅豬骨湯(￣∇￣)\n📍Based in HK🔥USA🔥FRANCE🔥AUS\n📍##博多拉麵別天神分店地址🆕\n🈺12:00-15:30PM / 18:00- 22:30PM (銅鑼灣及旺角店營業至 12:30AM)\n特注品組合傳送門\n⬇️⬇️⬇️⬇️⬇️"
+        "about": "超濃，經常被人誤會加咗奶，好豬骨嘅豬骨湯(￣∇￣)\n📍Based in HK🔥USA🔥FRANCE🔥AUS\n📍##博多拉麵別天神分店地址🆕\n🈺12:00-22:00(不設落場時間)\n別天神x幪面超人50th紀念商品傳送門\n⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️"
       }
     },
     {
@@ -132,6 +133,10 @@
     {
       "type": "eat",
       "id": 5292
+    },
+    {
+      "type": "eat",
+      "id": 6777
     }
   ],
   "places": [
@@ -189,41 +194,15 @@
     },
     {
       "address": {
-        "zh": "尖沙咀彌敦道100號THE ONE LG1樓"
+        "zh": "旺角亞皆老街74號地下"
       },
-      "googleMapsPlaceId": "ChIJowmpG3UBBDQRuvewipNTKIY",
+      "googleMapsPlaceId": "ChIJtTj81msBBDQRKmtoSrpzqQA",
       "coordinates": {
-        "lat": 22.2998217,
-        "lng": 114.1726855
+        "lat": 22.3196236,
+        "lng": 114.1718899
       },
       "area": {
         "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
-        "zh": "旺角山東街40Q地下"
-      },
-      "googleMapsPlaceId": "ChIJo5NzYMcBBDQRO94PJJRU0B0",
-      "coordinates": {
-        "lat": 22.3176497,
-        "lng": 114.1706374
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
-        "zh": "銅鑼灣伊榮街9號欣榮商業大廈地下 (牛天神)"
-      },
-      "googleMapsPlaceId": "ChIJazVrD1QABDQRcqva7iDX0V0",
-      "coordinates": {
-        "lat": 22.2787937,
-        "lng": 114.1864484
-      },
-      "area": {
-        "zh": "灣仔區"
       }
     },
     {
