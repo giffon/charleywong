@@ -10,8 +10,9 @@
     {
       "url": "https://www.instagram.com/rosehomekitchen/",
       "meta": {
+        "website": "http://www.rosehomekitchen.com/",
         "name": "🍰 Rosé Home Kitchen 🍰",
-        "about": "🇭🇰 香港| 10年烘焙| 歐洲式手工磅蛋糕🎂| 客製3D産品 👩‍🔧\n☎️ 3484 9072 📞 9804 0331 what's app"
+        "about": "🎂 歐洲式手工磅蛋糕 🧀 鄉村風味芝士餅 🚙 派對美食\n👩‍🎨 專屬3D慶祝牌 🤲🏾手心木 @rosehomekitchen_factory\n☎️ 3484 9072 📞 9804 0331 what's app"
       }
     },
     {
@@ -37,21 +38,28 @@
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/rosehomekitchenmini/photos/a.118682074868720/3130860390317525",
-      "meta": {
-        "utime": "1570856821",
-        "sharedWith": "Public"
-      }
+      "url": "https://www.instagram.com/p/B4Fb70vDHXf/"
     },
     {
-      "url": "https://www.facebook.com/rosehomekitchenmini/photos/a.2409204752483096/3146877145382516",
-      "meta": {
-        "utime": "1571287221",
-        "sharedWith": "Public"
-      }
+      "url": "https://www.instagram.com/p/B4WXVaBjQiB/"
     }
   ],
   "tags": [
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "西灣河筲箕灣道50-54號陽安大廈地下9號舖"
+      },
+      "googleMapsPlaceId": "ChIJGfw6P3wABDQRhOX_Qzzjaw4",
+      "coordinates": {
+        "lat": 22.2831594,
+        "lng": 114.2208008
+      },
+      "area": {
+        "zh": "東區"
+      }
+    }
   ]
 }
