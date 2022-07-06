@@ -33,6 +33,7 @@
     {
       "url": "https://www.instagram.com/beans_cafe_hk/",
       "meta": {
+        "website": "http://www.beanscafe.hk/",
         "name": "Beans",
         "about": "#beans #cafe #hongkongcafe #alldaybrreakfast #alldaybrunch #coffee #dessert #lightmeal #beans分店地址"
       }
@@ -93,6 +94,10 @@
     {
       "type": "eat",
       "id": 5778
+    },
+    {
+      "type": "eat",
+      "id": 6775
     }
   ],
   "places": [
@@ -189,15 +194,15 @@
     },
     {
       "address": {
-        "zh": "荃灣海壩街99號地下 Beans"
+        "zh": "屯門屯順街1號屯門市廣場一期UG層UG42號舖 Beans"
       },
-      "googleMapsPlaceId": "ChIJgyn46u34AzQRXM9HCcIIAI8",
+      "googleMapsPlaceId": "ChIJASQPcT37AzQRBlhSGahsxls",
       "coordinates": {
-        "lat": 22.3720358,
-        "lng": 114.1155846
+        "lat": 22.3930073,
+        "lng": 113.9765973
       },
       "area": {
-        "zh": "荃灣區"
+        "zh": "屯門區"
       }
     }
   ]
