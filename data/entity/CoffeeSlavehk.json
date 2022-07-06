@@ -85,7 +85,7 @@
   "places": [
     {
       "address": {
-        "en": "Workshop 2A Ground Floor, Hung Tat Industrial Building, 43 Hung To Road, Kwun Tong, Kowloon."
+        "zh": "觀塘鴻圖道43號鴻達工業大廈地下2A號舖"
       },
       "googleMapsPlaceId": "ChIJB2OY69kBBDQR8GXKuvWJLJ0",
       "coordinates": {
@@ -94,6 +94,19 @@
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣海壩街101號"
+      },
+      "googleMapsPlaceId": "ChIJS7nKi-D5AzQRcTpIQAj-4HA",
+      "coordinates": {
+        "lat": 22.372609,
+        "lng": 114.114986
+      },
+      "area": {
+        "zh": "荃灣區"
       }
     }
   ],
