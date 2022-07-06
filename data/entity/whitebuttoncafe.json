@@ -5,7 +5,12 @@
   },
   "webpages": [
     {
-      "url": "https://www.instagram.com/whitebuttoncafe/"
+      "url": "https://www.instagram.com/whitebuttoncafe/",
+      "meta": {
+        "website": "http://www.facebook.com/whitebuttoncafe",
+        "name": "Since 2014 Hong Kong",
+        "about": "Restaurant"
+      }
     },
     {
       "meta": {
@@ -35,6 +40,22 @@
   ],
   "tags": [
     "food",
-    "cafe"
+    "cafe",
+    "closed"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "12/F, No. 23-25 Ashley Road, Tsim Sha Tsui"
+      },
+      "googleMapsPlaceId": "EiYyMyBBc2hsZXkgUmQsIFRzaW0gU2hhIFRzdWksIEhvbmcgS29uZyIwEi4KFAoSCSWju4fyAAQ0EZrCi8vSr3pdEBcqFAoSCdOKjInyAAQ0Eazvu1xmn6dE",
+      "coordinates": {
+        "lat": 22.2971681,
+        "lng": 114.1703427
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
