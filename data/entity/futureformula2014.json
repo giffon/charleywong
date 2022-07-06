@@ -26,14 +26,48 @@
         "single_line_address": "旺角上海街450號慶華商業大廈7/F A1室, 0 Hong Kong，Hong Kong"
       },
       "url": "https://www.facebook.com/futureformula2014/"
+    },
+    {
+      "url": "https://www.facebook.com/ffdaily/",
+      "meta": {
+        "id": "486734784834399",
+        "username": "ffdaily",
+        "name": "店長ff日記-休閒直播下打機或者抽下時事水",
+        "about": "Future Formula店長&Friends 打機9up系列\n自High居多，有game就玩下\nSolo、team play都有",
+        "category_list": [
+          {
+            "id": "361282040719868",
+            "name": "Blogger"
+          },
+          {
+            "id": "211579738882707",
+            "name": "Video Game"
+          }
+        ],
+        "single_line_address": "九龍旺角上海街450號慶華商業大廈7/F A2室"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/futureformula/",
+      "meta": {
+        "name": "Future",
+        "about": "專營ACG週邊商品\nACG週邊理應由認識ACG的人來經營，\n我們是小本經營，只求把最好的帶給所有朋友，而特別的會員制度絕對令所有會員滿足"
+      },
+      "hidden": true
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/futureformula2014/posts/2728821410507610"
+      "url": "https://www.facebook.com/ffdaily/posts/1265171750324028/",
+      "meta": {
+        "sharedWith": "Public"
+      }
     },
     {
-      "url": "https://www.facebook.com/futureformula2014/posts/2636813499708402"
+      "url": "https://www.facebook.com/ffdaily/posts/1267048790136324/",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
@@ -44,6 +78,21 @@
     {
       "type": "shop",
       "id": 258
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角上海街450號慶華商業大廈7/F A1室"
+      },
+      "googleMapsPlaceId": "ChIJ3RBXRscABDQRv5AKcOhUq5I",
+      "coordinates": {
+        "lat": 22.3155394,
+        "lng": 114.169086
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
