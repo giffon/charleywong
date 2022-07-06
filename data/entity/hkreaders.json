@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.hkreaders.com"
+    },
+    {
       "meta": {
         "id": "308792302656086",
         "username": "hkreaders",
@@ -27,18 +30,19 @@
     },
     {
       "meta": {
+        "website": "https://linktr.ee/hkreaders",
         "name": "HK Reader 序言書室",
-        "about": "序言書室\nHONG KONG READER Bookstore\n地址︰旺角西洋菜南街68號7字樓(旺角地鐵站D3/E2)\n7F, 68 Sai Yeung Choi Street South, Mong Kok, Kowloon\nOpening Hour︰13:00-23:00"
+        "about": "序言書室\nHONG KONG READER\n地址︰旺角西洋菜南街68號7字樓(旺角地鐵站D3/E2)\n7F, 68 Sai Yeung Choi Street South, Mong Kok, Kowloon\nOpening Hour︰12:00-2200"
       },
       "url": "https://www.instagram.com/hkreaders/"
-    },
-    {
-      "url": "https://www.hkreaders.com"
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/hkreaders/posts/1255787531289887"
+      "url": "https://www.facebook.com/hkreaders/posts/1178507795684528/",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
@@ -49,6 +53,21 @@
     {
       "type": "shop",
       "id": 519
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角西洋菜南街68號7字樓"
+      },
+      "googleMapsPlaceId": "ChIJGzgryMcABDQRyw0qliaA8QY",
+      "coordinates": {
+        "lat": 22.3186161,
+        "lng": 114.170262
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
