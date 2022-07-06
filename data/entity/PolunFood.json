@@ -1,13 +1,9 @@
 {
   "id": "PolunFood",
   "name": {
-    "zh": "寶倫食品有限公司",
-    "en": "Po Lun Food Company Limited"
+    "zh": "港、食、肉"
   },
   "webpages": [
-    {
-      "url": "https://www.polunasia.com"
-    },
     {
       "url": "https://www.facebook.com/Freshnaturalmeat/",
       "meta": {
@@ -52,6 +48,7 @@
     {
       "url": "https://www.instagram.com/polunfood.hk/",
       "meta": {
+        "website": "https://wa.me/85296123461",
         "name": "寶倫食品",
         "about": "政府註冊認可之急凍肉類進出口商， 並設有自家食物加工場， 車隊。 提供優質食材至本地各類型食肆，及零售商店。\n#凍肉套餐 #凍肉"
       }
@@ -59,7 +56,7 @@
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/PolunFood/posts/585477672074512",
+      "url": "https://www.facebook.com/135939423695008/posts/585477672074512",
       "meta": {
         "embeddable": true,
         "sharedWith": "Custom"
@@ -70,39 +67,18 @@
       "meta": {
         "sharedWith": "Public"
       }
+    },
+    {
+      "url": "https://www.facebook.com/Freshnaturalmeat/posts/843140706308206/",
+      "meta": {
+        "embeddable": true,
+        "sharedWith": "Custom"
+      }
     }
   ],
   "tags": [
     "foodStore",
     "shop"
-  ],
-  "places": [
-    {
-      "address": {
-        "zh": "元朗牡丹街合益廣場地下B41舖  "
-      },
-      "googleMapsPlaceId": "ChIJ3-Fm-nbxAzQR3zQ_A1vzMGM",
-      "coordinates": {
-        "lat": 22.4430913,
-        "lng": 114.0296852
-      },
-      "area": {
-        "zh": "元朗區"
-      }
-    },
-    {
-      "address": {
-        "zh": "紅磡蕪湖街金輝行地下C舖  "
-      },
-      "googleMapsPlaceId": "ChIJA-UWpLwBBDQR9Q12-QI9GDU",
-      "coordinates": {
-        "lat": 22.3065076,
-        "lng": 114.1868276
-      },
-      "area": {
-        "zh": "九龍城區"
-      }
-    }
   ],
   "yellowBlueMapIds": [
     {
