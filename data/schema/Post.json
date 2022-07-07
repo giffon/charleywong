@@ -50,6 +50,14 @@
                     "pattern": "^(?!https?://(?:www\\.)?hkcnews\\.com/).*"
                 }
             }
+        },
+        {
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "pattern": "^(?!https://www\\.facebook\\.com/login/).*"
+                }
+            }
         }
     ]
 }
