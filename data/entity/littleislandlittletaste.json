@@ -20,6 +20,14 @@
         "single_line_address": "新興海旁街81號地下, 0000 Cheung Chau, Hong Kong"
       },
       "url": "https://www.facebook.com/littleislandlittletaste/"
+    },
+    {
+      "url": "https://www.instagram.com/little_island_little_taste/",
+      "meta": {
+        "website": "https://www.facebook.com/littleislandlittletaste",
+        "name": "小島品味Little Island Little Taste",
+        "about": "長洲特色小店\n▫️自家手製純銀飾品品牌 - Silverme\n▫️自家設計紀念品 / 手製品\n▫️專業人手刻字服務\n▫️各地搜購飾品 / 手作工藝品牌\n📲 Whatsapp: 852-6758 3765"
+      }
     }
   ],
   "posts": [
@@ -38,6 +46,21 @@
     {
       "type": "shop",
       "id": 256
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新興海旁街81號地下"
+      },
+      "googleMapsPlaceId": "ChIJCwSyk41WATQRIab-9S3JzYo",
+      "coordinates": {
+        "lat": 22.209065,
+        "lng": 114.02924
+      },
+      "area": {
+        "zh": "離島區"
+      }
     }
   ]
 }
