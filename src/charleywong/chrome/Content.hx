@@ -118,36 +118,28 @@ class Content {
     static function onMessage(?request:Dynamic, sender, sendResponse:Dynamic->Void) {
         switch (Unserializer.run(request):Message) {
             case MsgImportToCharley(linkUrl):
-                switch (extractFbHomePage(new URL(linkUrl))) { // should expend the "see more" when importing fb profile
-                    case null:
-                        try {
-                            Importer.importUrl(new URL(linkUrl))
-                                .catchError(alert);
-                        } catch (e:Dynamic) {
-                            alert(e);
-                        }
+                (switch (new URL(linkUrl)) {
+                    // case extractFbPost(_) => fb if (fb != null):
+                    //     Utils.getCanonical(linkUrl.replace("https://www.facebook.com/", "https://m.facebook.com/"))
+                    //         .then(url -> {
+                    //             trace(url);
+                    //             url;
+                    //         })
+                    //         .then(Utils.followRedirect)
+                    //         .catchError(err -> {
+                    //             trace(err);
+                    //             linkUrl;
+                    //         });
                     case _:
-                        var seeMoreLinks = "*[role='main'] a.see_more_link";
-                        for (link in document.querySelectorAll(seeMoreLinks)) {
-                            var link:AnchorElement = cast link;
-                            link.click();
-                            link.remove();
-                        };
-
-                        Timer.delay(function(){
-                            for (link in document.querySelectorAll(seeMoreLinks))
-                            {
-                                alert('There are still "See More" buttons.');
-                                return;
-                            }
-                            try {
-                                Importer.importUrl(new URL(linkUrl))
-                                    .catchError(alert);
-                            } catch (e:Dynamic) {
-                                alert(e);
-                            }
-                        }, 100);
-                }
+                        Promise.resolve(linkUrl);
+                }).then(linkUrl -> {
+                    try {
+                        Importer.importUrl(new URL(linkUrl))
+                            .catchError(alert);
+                    } catch (e:Dynamic) {
+                        alert(e);
+                    }
+                });     
             case MsgScrollToJune:
                 scroll = true;
                 document.addEventListener("keyup", stopScrollingListener);

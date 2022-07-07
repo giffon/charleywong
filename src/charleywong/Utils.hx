@@ -66,13 +66,18 @@ class Utils {
                     r.text()
             )
             .then(text -> {
-                // Sys.println(text);
                 final doc = new JSDOM(text, {
                     virtualConsole: new VirtualConsole(),
                 }).window.document;
                 final meta:MetaElement = cast doc.querySelector("link[rel='canonical']");
-                final href = meta.getAttribute("href");
-                href;
+                if (meta == null) {
+                    trace("No link[rel='canonical']");
+                    trace(text);
+                    url;
+                } else {
+                    final href = meta.getAttribute("href");
+                    href;
+                }
             });
     }
 
