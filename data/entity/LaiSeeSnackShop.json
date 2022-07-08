@@ -1,7 +1,8 @@
 {
-  "id": "155974824457532",
+  "id": "LaiSeeSnackShop",
   "name": {
-    "zh": "麗絲快餐店"
+    "zh": "麗絲快餐店",
+    "en": "Lai See Snack Shop"
   },
   "webpages": [
     {
@@ -44,5 +45,14 @@
         "zh": "南區"
       }
     }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 401
+    }
+  ],
+  "alias": [
+    "155974824457532"
   ]
 }
