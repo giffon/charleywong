@@ -111,7 +111,7 @@ class UrlExtractors {
     }
 
     static public function extractMediumProfile(url:ParsedUrl):Null<String> {
-        var regex = ~/^https?:\/\/(?:www\.)?medium\.com$/i;
+        final regex = ~/^https?:\/\/(?:www\.)?medium\.com$/i;
         if (regex.match(url.origin)) {
             final handle = switch(url.pathname.split("/")) {
                 case ["", handle]: handle;
@@ -122,9 +122,14 @@ class UrlExtractors {
                 handle.substr(1);
             else
                 handle;
-        } else {
-            return null;
         }
+        
+        final regex = ~/^https?:\/\/(.+)\.medium\.com$/i;
+        if (regex.match(url.origin)) {
+            return regex.matched(1);
+        }
+
+        return null;
     }
 
     static public function extractTwitterProfile(url:ParsedUrl):Null<String> {
