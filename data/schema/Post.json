@@ -39,7 +39,7 @@
             "properties": {
                 "url": {
                     "type": "string",
-                    "pattern": "^(?!https://www\\.facebook\\.com/[^/]+/posts/[^/]+/.+).*$"
+                    "pattern": "^(?!https://www\\.facebook\\.com/[^/]+/(?:posts|videos)/[^/]+/.+).*$"
                 }
             }
         },
