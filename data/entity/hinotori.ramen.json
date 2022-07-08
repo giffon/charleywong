@@ -19,27 +19,48 @@
         ],
         "single_line_address": "西環皇后大道西455號龍暉花園地下16號舖, n/a 香港，香港"
       }
+    },
+    {
+      "url": "https://www.instagram.com/hinotori_ramen/",
+      "meta": {
+        "name": "博多拉麺 火の鳥",
+        "about": "🎌由日本人經營的博多拉麵店🍜\n👉有豚骨湯底和雞湯湯底選擇\n🐷豚骨湯由日本空運到港\n🐔雞湯則由師傅長時間親自餚制\n✨良心小店 用心制作 用料十足✨\n地址：西環皇后大道西455號龍暉花園地下16號舖（港鐵HKU站B2出口）\n営業時間: 1200-1630 & 1800-2200（不定休）"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/hinotori.ramen/posts/989806498021222",
-      "meta": {}
+      "url": "https://www.facebook.com/hinotori.ramen/posts/989806498021222"
     },
     {
-      "url": "https://www.facebook.com/hinotori.ramen/posts/1004024296599442",
-      "meta": {}
+      "url": "https://www.facebook.com/hinotori.ramen/posts/1004024296599442"
     }
   ],
   "tags": [
     "food",
     "japanese",
-    "noodle"
+    "noodle",
+    "closed"
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 5257
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "西環皇后大道西455號龍暉花園地下16號舖"
+      },
+      "googleMapsPlaceId": "ChIJFcESgYT_AzQRfdonKdShGv4",
+      "coordinates": {
+        "lat": 22.2864143,
+        "lng": 114.1344499
+      },
+      "area": {
+        "zh": "中西區"
+      }
     }
   ]
 }
