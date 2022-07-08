@@ -183,6 +183,7 @@
     {
       "url": "https://www.instagram.com/616hotpothk/",
       "meta": {
+        "website": "https://facebook.com/616hotpot",
         "name": "616牛肉火鍋專門店",
         "about": "為客人提供刁鑽牛肉部位，食盡各種刁鑽牛部位，如牛頸脊、牛肩心等等\n為您搜羅來自不同產地、不同部位的牛肉，包括俄羅斯、澳洲等\n一餐飯將成隻牛食落肚！"
       }
@@ -206,6 +207,19 @@
     "hotpot"
   ],
   "places": [
+    {
+      "address": {
+        "zh": "將軍澳培成里10號明德邨明德商場1樓105-106號鋪"
+      },
+      "googleMapsPlaceId": "ChIJJQ_M4nUEBDQRnpbJpMyjaPc",
+      "coordinates": {
+        "lat": 22.3166476,
+        "lng": 114.2687672
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
     {
       "address": {
         "zh": "將軍澳唐德街3號九龍東智選假日酒店7樓702號舖"
@@ -286,6 +300,19 @@
     },
     {
       "address": {
+        "zh": "九龍城道68號瑧尚UPLACE 1樓103號鋪"
+      },
+      "googleMapsPlaceId": "ChIJi7epONgBBDQRAgajZznXtk8",
+      "coordinates": {
+        "lat": 22.317955,
+        "lng": 114.1889574
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    },
+    {
+      "address": {
         "zh": "九龍旺角彌敦道594-596號旺角新城3樓"
       },
       "googleMapsPlaceId": "ChIJS-L6G8cABDQRPuZY5JTP-hg",
@@ -327,13 +354,13 @@
       "address": {
         "zh": "太子白楊街21號地舖"
       },
-      "googleMapsPlaceId": "EiNQb3BsYXIgU3QsIFByaW5jZSBFZHdhcmQsIEhvbmcgS29uZyIuKiwKFAoSCY-bP-G1AAQ0EbUwqmBAtBXKEhQKEgk7dGB0yQAENBGSGZ2oqTEAJQ",
+      "googleMapsPlaceId": "ChIJ8Vw9o_oBBDQRCKJspWU9Ldw",
       "coordinates": {
-        "lat": 22.3261058,
-        "lng": 114.1659826
+        "lat": 22.3266047,
+        "lng": 114.1662838
       },
       "area": {
-        "zh": "油尖旺區"
+        "zh": "深水埗區"
       }
     },
     {
@@ -521,6 +548,10 @@
     {
       "type": "eat",
       "id": 6525
+    },
+    {
+      "type": "eat",
+      "id": 6788
     }
   ]
 }
