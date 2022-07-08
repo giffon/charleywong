@@ -9,10 +9,21 @@
       "url": "https://www.hkfeature.com"
     },
     {
+      "url": "https://hkfeaturemall.com"
+    },
+    {
       "url": "https://www.instagram.com/hk_feature/",
       "meta": {
         "name": "誌",
         "about": "❚記錄香港 香港有誌，培訓公民記者，製作紀錄片，出版深度專題。專題空間 @hk_feature_territory 旺角區報 @mk.feature / podcast @hkfeature_podcast"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/hk_feature_territory/",
+      "meta": {
+        "website": "http://hkfeaturemall.com/",
+        "name": "言志區",
+        "about": "💬誌傳媒有限公司（@hk_feature）旗下藝文空間。\n.\n2022.1.23 由實體店轉型網站，支持獨立出版，定期舉辦文化活動，推廣本土製造。\n.\n請繼續支持 言志線上購物平台 #誌mall ：隨時隨地購物"
       }
     },
     {
@@ -89,22 +100,8 @@
     }
   ],
   "tags": [
-    "media"
-  ],
-  "places": [
-    {
-      "address": {
-        "zh": "西洋菜南街44號4樓, 001"
-      },
-      "googleMapsPlaceId": "ChIJ73LAacMBBDQRst-98GpPFg0",
-      "coordinates": {
-        "lat": 22.3181325,
-        "lng": 114.1704088
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    }
+    "media",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
