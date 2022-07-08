@@ -91,22 +91,13 @@
     {
       "type": "eat",
       "id": 5967
+    },
+    {
+      "type": "eat",
+      "id": 6789
     }
   ],
   "places": [
-    {
-      "address": {
-        "zh": "荃灣楊屋道1號荃新天地一期1樓108及110號舖"
-      },
-      "googleMapsPlaceId": "ChIJYbOt5I4BBDQRdbiON4iZ-rw",
-      "coordinates": {
-        "lat": 22.2770409,
-        "lng": 114.1694411
-      },
-      "area": {
-        "zh": "灣仔區"
-      }
-    },
     {
       "address": {
         "zh": "灣仔蘭杜街2號麗都大廈4號地舖"
@@ -122,15 +113,15 @@
     },
     {
       "address": {
-        "zh": "銅鑼灣軒尼詩道500號希慎廣場11樓1109號舖"
+        "zh": "鰂魚涌海光街11號漢威大廈地下3號舖"
       },
-      "googleMapsPlaceId": "ChIJuwh9w1YABDQRaRbZ1DgateI",
+      "googleMapsPlaceId": "ChIJ0_W_SgwBBDQRmvlbdXh5Xb8",
       "coordinates": {
-        "lat": 22.2797035,
-        "lng": 114.1838445
+        "lat": 22.2883727,
+        "lng": 114.2109549
       },
       "area": {
-        "zh": "灣仔區"
+        "zh": "東區"
       }
     },
     {
@@ -148,12 +139,12 @@
     },
     {
       "address": {
-        "zh": "鰂魚涌海光街11號漢威大廈地下3號舖"
+        "zh": "鰂魚涌海堤街18-22號濱海大廈地下D1號舖 檳榔島敍"
       },
-      "googleMapsPlaceId": "ChIJ0_W_SgwBBDQRmvlbdXh5Xb8",
+      "googleMapsPlaceId": "ChIJL0aHlaQBBDQRjUjO0qbJ0CQ",
       "coordinates": {
-        "lat": 22.2883727,
-        "lng": 114.2109549
+        "lat": 22.2883088,
+        "lng": 114.2113356
       },
       "area": {
         "zh": "東區"
