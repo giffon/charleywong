@@ -31,6 +31,14 @@
         "single_line_address": "深水埗北河街街市一樓, Hong Kong, Hong Kong",
         "website": "www.fruityauntie.com"
       }
+    },
+    {
+      "url": "https://www.instagram.com/fruityauntie_hk/",
+      "meta": {
+        "website": "http://www.fruityauntie.com/",
+        "name": "仙姐鮮菓 | 開張果籃•散水生果•節日送禮",
+        "about": "果籃訂製 | 水果零售 | 優質食材\n📍深水埗店：北河街街市一樓MN110-MN111\n📍荔枝角店：永康街10號中太工業大廈六樓06室\n.\n🛵 𝙵𝚛𝚎𝚎 𝙳𝚎𝚕𝚒𝚟𝚎𝚛𝚢 𝙾𝚟𝚎𝚛 $𝟻𝟶𝟶"
+      }
     }
   ],
   "posts": [
@@ -66,6 +74,19 @@
       "coordinates": {
         "lat": 22.3293422,
         "lng": 114.1608026
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "永康街10號中太工業大廈六樓06室"
+      },
+      "googleMapsPlaceId": "ChIJ7cfHkD4HBDQRWmENvUfibPw",
+      "coordinates": {
+        "lat": 22.337839,
+        "lng": 114.145854
       },
       "area": {
         "zh": "深水埗區"
