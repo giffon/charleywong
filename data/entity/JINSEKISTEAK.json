@@ -69,36 +69,15 @@
       }
     },
     {
-      "url": "https://www.instagram.com/jinseki.steak/",
+      "url": "https://www.instagram.com/jinsekisteak/",
       "meta": {
+        "website": "https://www.openrice.com/zh/hongkong/restaurants?chainId=10005627",
         "name": "神石焼きビーフステーキ專門店",
-        "about": "石神井 飲食集團\n神石焼きビーフステーキ專門店\n首家岩鹽熱石牛扒專門店\n石神井 飲食集團總裁以十多年日式餐飲管理經驗為根本，使神石焼きビーフステーキ專門店以最專業的態度提供餐飲服務， 並以引入優質牛扒給香港人品嘗為方向，帶領團隊進行產品研發，更確保所有食材均得到國際認證。"
+        "about": "📍 荃灣如心廣場\n📍九龍灣淘大廣場\n📍將軍澳東港城\n📍元朗Yoho Mall\n📍大埔新達廣場\n📍油麻地碧街\n💁🏻‍♀️OpenRice 訂座"
       }
     }
   ],
-  "posts": [
-    {
-      "url": "https://www.facebook.com/JINSEKISTEAK/posts/534532200668481",
-      "meta": {
-        "sharedWith": "Custom",
-        "embeddable": true
-      }
-    },
-    {
-      "url": "https://www.facebook.com/JINSEKISTEAK/posts/540259623429072",
-      "meta": {
-        "sharedWith": "Custom",
-        "embeddable": true
-      }
-    },
-    {
-      "url": "https://www.facebook.com/JINSEKISTEAK/posts/544899826298385",
-      "meta": {
-        "sharedWith": "Custom",
-        "embeddable": true
-      }
-    }
-  ],
+  "posts": [],
   "tags": [
     "japanese",
     "food"
@@ -106,15 +85,15 @@
   "places": [
     {
       "address": {
-        "zh": "大埔南運路9號新達廣場1樓36-37號舖"
+        "zh": "九龍灣牛頭角道77號淘大商場1期地下G114-5號舖"
       },
-      "googleMapsPlaceId": "ChIJZ4ca50EJBDQRu5lP_Exud6M",
+      "googleMapsPlaceId": "ChIJsduVGqwHBDQRs7hwdmZ5l0g",
       "coordinates": {
-        "lat": 22.443554,
-        "lng": 114.169348
+        "lat": 22.3243735,
+        "lng": 114.2162244
       },
       "area": {
-        "zh": "大埔區"
+        "zh": "觀塘區"
       }
     },
     {
@@ -132,6 +111,19 @@
     },
     {
       "address": {
+        "zh": "將軍澳重華路8號東港城2樓265號舖"
+      },
+      "googleMapsPlaceId": "ChIJz4LqfXUEBDQRMR05fSGTeUo",
+      "coordinates": {
+        "lat": 22.3163803,
+        "lng": 114.2653434
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
         "zh": "荃灣大河道98號如心廣場商場二期2樓206號舖"
       },
       "googleMapsPlaceId": "ChIJwWgQpID5AzQRSSyyXJC0_lg",
@@ -145,28 +137,28 @@
     },
     {
       "address": {
-        "zh": "九龍灣牛頭角道77號淘大商場1期地下G114-5號舖"
+        "zh": "大埔南運路9號新達廣場1樓36-37號舖"
       },
-      "googleMapsPlaceId": "ChIJN1gxS7UGBDQRGvK1RZTb-4w",
+      "googleMapsPlaceId": "ChIJZ4ca50EJBDQRu5lP_Exud6M",
       "coordinates": {
-        "lat": 22.3244614,
-        "lng": 114.2163021
+        "lat": 22.443554,
+        "lng": 114.169348
       },
       "area": {
-        "zh": "觀塘區"
+        "zh": "大埔區"
       }
     },
     {
       "address": {
-        "zh": "將軍澳重華路8號東港城2樓265號舖"
+        "zh": "元朗元龍街9號形點二期3樓A303號舖"
       },
-      "googleMapsPlaceId": "ChIJz4LqfXUEBDQRMR05fSGTeUo",
+      "googleMapsPlaceId": "ChIJfeBjDXzxAzQRMf4zOEZfDZY",
       "coordinates": {
-        "lat": 22.3163803,
-        "lng": 114.2653434
+        "lat": 22.443614,
+        "lng": 114.03738
       },
       "area": {
-        "zh": "西貢區"
+        "zh": "元朗區"
       }
     }
   ],
@@ -186,6 +178,14 @@
     {
       "type": "eat",
       "id": 5925
+    },
+    {
+      "type": "eat",
+      "id": 6781
+    },
+    {
+      "type": "eat",
+      "id": 6782
     }
   ]
 }
