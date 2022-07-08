@@ -139,6 +139,7 @@ class ExportSpreadsheet {
                         return sheet.setHeaderRow(["id", "internal_id", "status", "name", "website", "facebook", "instagram", "openrice"]);
                     })
                     .then(function(_){
+                        notMapped.sort((r1, r2) -> Reflect.compare(r1.internal_id, r2.internal_id));
                         return sheet.addRows(notMapped.filter(d -> d.color == yellow && d.status != removed));
                     })
             );
