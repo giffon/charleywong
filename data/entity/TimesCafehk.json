@@ -48,10 +48,10 @@
       "address": {
         "zh": "九龍灣常悅道20號環球工商大廈地下1B號"
       },
-      "googleMapsPlaceId": "ChIJ9TrXYDQBBDQRx8vVZZ9aGjE",
+      "googleMapsPlaceId": "ChIJKzEIZzQBBDQRpxTDm8JBJ5w",
       "coordinates": {
-        "lat": 22.3215003,
-        "lng": 114.210735
+        "lat": 22.3215895,
+        "lng": 114.2106869
       },
       "area": {
         "zh": "觀塘區"
@@ -100,10 +100,10 @@
       "address": {
         "zh": "長沙灣青山道305號地下1B號舖"
       },
-      "googleMapsPlaceId": "Eh0zMDUgQ2FzdGxlIFBlYWsgUmQsIEhvbmcgS29uZyIxEi8KFAoSCYlvje9NBwQ0EX5tudr9KU0iELECKhQKEgnv2dSrUwcENBFLmZNb99yjTg",
+      "googleMapsPlaceId": "ChIJ2U7VqJUHBDQR5NBpGut7qtQ",
       "coordinates": {
-        "lat": 22.3378255,
-        "lng": 114.1568096
+        "lat": 22.3378157,
+        "lng": 114.1568012
       },
       "area": {
         "zh": "深水埗區"
@@ -113,10 +113,10 @@
       "address": {
         "zh": "新蒲崗崇齡街81-83號地下"
       },
-      "googleMapsPlaceId": "Eig4MSBTaHVuZyBMaW5nIFN0LCBTYW4gUG8gS29uZywgSG9uZyBLb25nIjASLgoUChIJkcO17tYGBDQRqj48Vm_tEgsQUSoUChIJS82L59YGBDQRwVf48Djsu3I",
+      "googleMapsPlaceId": "ChIJje1RcIEHBDQRjrpo_cNuflQ",
       "coordinates": {
-        "lat": 22.3345959,
-        "lng": 114.1958042
+        "lat": 22.3344765,
+        "lng": 114.1958726
       },
       "area": {
         "zh": "黃大仙區"
@@ -126,10 +126,10 @@
       "address": {
         "zh": "太子長沙灣道21-25號地下A舖"
       },
-      "googleMapsPlaceId": "ChIJi_ky6bUABDQRlCciHHsG-AM",
+      "googleMapsPlaceId": "ChIJs7HWjw0BBDQRq4dIdRWprcY",
       "coordinates": {
-        "lat": 22.3270816,
-        "lng": 114.1666709
+        "lat": 22.3270997,
+        "lng": 114.1666875
       },
       "area": {
         "zh": "深水埗區"
@@ -164,6 +164,10 @@
     {
       "type": "eat",
       "id": 5656
+    },
+    {
+      "type": "eat",
+      "id": 6780
     }
   ]
 }
