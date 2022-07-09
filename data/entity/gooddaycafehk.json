@@ -1,14 +1,15 @@
 {
   "id": "gooddaycafehk",
   "name": {
-    "en": "GoodDay Cafe"
+    "en": "GoodDay",
+    "zh": "好日"
   },
   "webpages": [
     {
       "url": "https://www.instagram.com/gooddaycafehk/",
       "meta": {
         "name": "Goodday 好日咖啡 好日料理",
-        "about": "👉🏻 葵興life@KCC 8樓801鋪 (6360 0766)\n鬧市的側旁、玻璃牆﹑音樂﹑咖啡﹑餐點、紅白酒、CRAFT BEER﹑朋友 …\n「最新的👉🏻聖誕新年到會套餐👈🏻登場」"
+        "about": "👉🏻 葵興life@KCC 8樓801鋪 (6360 0766)\n🌟葵興E出口，一分鐘天橋直達🌟\n8:30am-6:00pm\n👉🏻啟德嘉峯匯商舖1樓11號鋪(9291 4116)\n🌟啟德站D出口，步行3-5分鐘🌟\n8:30am-9:00pm"
       }
     },
     {
@@ -88,13 +89,26 @@
       "address": {
         "zh": "葵興life@KCC 8樓801鋪"
       },
-      "googleMapsPlaceId": "ChIJOxbi1Jn4AzQRt48t3ioGHDY",
+      "googleMapsPlaceId": "ChIJa1fugNT5AzQRVrmnbWIwPh0",
       "coordinates": {
-        "lat": 22.3624422,
-        "lng": 114.1322643
+        "lat": 22.362406,
+        "lng": 114.1324087
       },
       "area": {
         "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "啟德嘉峯匯商舖1樓11號鋪"
+      },
+      "googleMapsPlaceId": "ChIJBY689nUBBDQR8_l4tjZf_ZI",
+      "coordinates": {
+        "lat": 22.3281034,
+        "lng": 114.1980276
+      },
+      "area": {
+        "zh": "九龍城區"
       }
     }
   ]
