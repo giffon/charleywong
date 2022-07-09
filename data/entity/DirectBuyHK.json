@@ -1,5 +1,5 @@
 {
-  "id": "DirectBuyHK.FansPage",
+  "id": "DirectBuyHK",
   "name": {
     "zh": "電玩直銷網"
   },
@@ -30,14 +30,24 @@
     {
       "url": "https://www.instagram.com/directbuyhk/",
       "meta": {
+        "website": "http://www.directbuyhk.com/",
         "name": "電玩直銷網",
-        "about": "電玩直銷網員工"
+        "about": "自取 l 快遞送貨 l 100%全新未開封\n實體店舖 l 每月達萬宗交易￼￼￼￼￼￼￼￼￼l Facebook 超五萬 Fans l Facebook: 電玩直銷網￼"
       }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/DirectBuyHK.FansPage/posts/2718705788186634"
+      "url": "https://www.facebook.com/DirectBuyHK.FansPage/posts/2525000264223855/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/DirectBuyHK.FansPage/posts/4301322479924949/",
+      "meta": {
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
@@ -64,5 +74,8 @@
         "zh": "深水埗區"
       }
     }
+  ],
+  "alias": [
+    "DirectBuyHK.FansPage"
   ]
 }
