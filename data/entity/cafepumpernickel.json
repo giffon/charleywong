@@ -80,47 +80,6 @@
     "food",
     "cafe"
   ],
-  "places": [
-    {
-      "address": {
-        "zh": "香港天后琉璃街1號A地下"
-      },
-      "googleMapsPlaceId": "ChIJp8b8HQABBDQRFD3wLid6jjQ",
-      "coordinates": {
-        "lat": 22.284282,
-        "lng": 114.191478
-      },
-      "area": {
-        "zh": "灣仔區"
-      }
-    },
-    {
-      "address": {
-        "zh": "金鐘夏愨道10號和記大廈1樓114B"
-      },
-      "googleMapsPlaceId": "ChIJjyDVvGYABDQRIt5IYe07Mu0",
-      "coordinates": {
-        "lat": 22.2810482,
-        "lng": 114.1626069
-      },
-      "area": {
-        "zh": "中西區"
-      }
-    },
-    {
-      "address": {
-        "zh": "九龍灣宏照道33號國際交易中心地下3號舖"
-      },
-      "googleMapsPlaceId": "ChIJAQdSdDQBBDQR2rJa92ePVLQ",
-      "coordinates": {
-        "lat": 22.3210973,
-        "lng": 114.2094216
-      },
-      "area": {
-        "zh": "觀塘區"
-      }
-    }
-  ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
