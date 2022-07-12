@@ -26,6 +26,20 @@
         "website": "www.yummycart-group.com"
       },
       "url": "https://www.facebook.com/yummycartnoodles/"
+    },
+    {
+      "url": "https://www.instagram.com/yummy_cart_noodles/",
+      "meta": {
+        "name": "任你點車仔麵",
+        "about": "Food & beverage"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/yummycartnoodles/",
+      "meta": {
+        "name": "任你點車仔麵"
+      },
+      "hidden": true
     }
   ],
   "posts": [
@@ -40,7 +54,8 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "noodle"
   ],
   "yellowBlueMapIds": [
     {
@@ -50,6 +65,34 @@
     {
       "type": "eat",
       "id": 878
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗福華街147號地下"
+      },
+      "googleMapsPlaceId": "ChIJT9_FvLQABDQReNs8wwBYAEc",
+      "coordinates": {
+        "lat": 22.3312599,
+        "lng": 114.1625676
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍城衙前圍道7號地舖"
+      },
+      "googleMapsPlaceId": "ChIJB4TPDqsHBDQRiOIij2t4pzI",
+      "coordinates": {
+        "lat": 22.3287454,
+        "lng": 114.1912448
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
     }
   ]
 }
