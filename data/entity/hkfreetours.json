@@ -1,7 +1,8 @@
 {
   "id": "hkfreetours",
   "name": {
-    "en": "Hong Kong Free Tours"
+    "en": "Hong Kong Free Tours",
+    "zh": "香港自由行"
   },
   "webpages": [
     {
@@ -30,55 +31,13 @@
     {
       "url": "https://www.instagram.com/hkfreetours/",
       "meta": {
-        "name": "Hong Kong Free Tours",
-        "about": "Hong Kong stories, told by Hong Kong people."
+        "website": "https://zh-hk.hongkongfreetours.com/",
+        "name": "香港自由行",
+        "about": "🇭🇰香港人的香港故事 | 香港深度遊 | 香港本地遊\n#hongkong101 #香港必修課 #香港製造\n想知幾時開團？去我地HKFT網站睇下啦！"
       }
     }
   ],
-  "posts": [
-    {
-      "url": "https://www.facebook.com/hkfreetours/posts/772965846432532",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/hkfreetours/posts/774315529630897",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/hkfreetours/posts/800824603646656",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/hkfreetours/posts/835518346843948",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/hkfreetours/posts/841204932941956",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/hkfreetours/posts/849105705485212",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/hkfreetours/posts/879779372417845",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    }
-  ],
+  "posts": [],
   "tags": [
     "shop",
     "hkbaseDirectory"
