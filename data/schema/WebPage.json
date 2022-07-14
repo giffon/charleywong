@@ -68,7 +68,7 @@
             "properties": {
                 "url": {
                     "type": "string",
-                    "pattern": "^(?!https?:\/\/(.*)\\.whatsapp\\.com\/)"
+                    "pattern": "^(?!https?:\/\/(?:[^.]*\\.)?whatsapp\\.com)"
                 }
             }
         },
