@@ -49,12 +49,15 @@
         ],
         "single_line_address": "杏花新城G53A, 852 Hong Kong, Hong Kong",
         "website": "http://www.cafeparadise.com.hk"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.instagram.com/cafeparadisehk/",
       "meta": {
-        "name": "Cafe Paradise"
+        "website": "http://www.cafeparadise.com.hk/",
+        "name": "Cafe Paradise",
+        "about": "Shopping & retail"
       }
     }
   ],
@@ -105,32 +108,6 @@
       },
       "area": {
         "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
-        "zh": "柴灣杏花新城地下G53A"
-      },
-      "googleMapsPlaceId": "ChIJj6JbUcQDBDQRDWU7e3qlHOM",
-      "coordinates": {
-        "lat": 22.2764985,
-        "lng": 114.2401552
-      },
-      "area": {
-        "zh": "東區"
-      }
-    },
-    {
-      "address": {
-        "zh": "北角英皇道483號C-D鋪"
-      },
-      "googleMapsPlaceId": "ChIJwz_cAuUBBDQRAm2nEykrtzU",
-      "coordinates": {
-        "lat": 22.291731,
-        "lng": 114.201886
-      },
-      "area": {
-        "zh": "東區"
       }
     }
   ],
