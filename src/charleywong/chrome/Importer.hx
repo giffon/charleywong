@@ -624,7 +624,7 @@ class Importer {
     }
 
     static function igAbout() {
-        final div:Element = cast document.querySelectorAll("header section > div:nth-of-type(2) > div:last-of-type")[0];
+        final div:Element = cast document.querySelectorAll("header section > div:last-of-type > div:last-of-type")[0];
         if (div != null)
             return div.innerText;
         return null;
