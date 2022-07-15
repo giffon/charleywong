@@ -169,7 +169,7 @@ class Content {
 
     static var scroll = false;
 
-    static function scrollToJune(?oldArticleCount:Int) {
+    static function scrollToJune() {
         if (!scroll) {
             return;
         }
@@ -201,20 +201,13 @@ class Content {
             (cast node:DivElement)
         ];
         console.debug('Found ${posts.length} posts');
-
-        final scrollToJune = scrollToJune.bind(posts.length);
-
-        if (posts.length == oldArticleCount) {
-            Timer.delay(scrollToJune, 100);
-            return;
-        }
         
         if (posts.length == 0) {
             Timer.delay(function() alert("找不到 div[role='article']"), 100);
             return;
         }
         final times = posts
-            .map(node -> (cast node.querySelectorAll("span[dir='auto'] a[role='link'][href='#']")[0]:AnchorElement))
+            .map(node -> (cast node.querySelectorAll("span[dir='auto'] a[role='link'][href^='?']")[0]:AnchorElement))
             .filter(timeA -> timeA != null && timeA.offsetParent != null) // ignore invisible nodes
             .map(timeA -> {
                 node: timeA,
@@ -242,6 +235,7 @@ class Content {
 
         if (times.length == 0) {
             // Timer.delay(function() alert("讀不到時間資訊"), 100);
+            trace("no time info is found");
             posts[0].scrollIntoView();
             Timer.delay(scrollToJune, 100);
             return;
@@ -253,6 +247,7 @@ class Content {
             });
             Timer.delay(function() alert("到達2019年6月頭"), 100);
         } else {
+            trace("scroll to bottom");
             window.scrollTo(window.scrollX, document.body.scrollHeight);
             Timer.delay(scrollToJune, 100);
         }
