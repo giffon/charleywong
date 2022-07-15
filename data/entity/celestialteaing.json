@@ -70,19 +70,6 @@
   "places": [
     {
       "address": {
-        "zh": "荃灣楊屋道18號荃新天地2期UG樓86號舖"
-      },
-      "googleMapsPlaceId": "ChIJzRDKAOz4AzQRCODeKnEjx0o",
-      "coordinates": {
-        "lat": 22.3679811,
-        "lng": 114.1145597
-      },
-      "area": {
-        "zh": "荃灣區"
-      }
-    },
-    {
-      "address": {
         "zh": "太古英皇道1090號寶峰園地下2B鋪"
       },
       "googleMapsPlaceId": "ChIJ88TzfUcBBDQRRxTHKTo77S0",
@@ -96,28 +83,15 @@
     },
     {
       "address": {
-        "zh": "天水圍天一商城1105號鋪"
+        "zh": "西環皇后大道西484-496號新安大廈地下A號舖"
       },
-      "googleMapsPlaceId": "ChIJ1y64PorwAzQRSO0LWqzLOZ8",
+      "googleMapsPlaceId": "ChIJwUr3q8j_AzQR7h2zE3EkQYI",
       "coordinates": {
-        "lat": 22.4647433,
-        "lng": 114.0030365
+        "lat": 22.2858022,
+        "lng": 114.1354354
       },
       "area": {
-        "zh": "元朗區"
-      }
-    },
-    {
-      "address": {
-        "zh": "石門京瑞廣場2期1樓101A 21號鋪"
-      },
-      "googleMapsPlaceId": "ChIJA_qIKn0HBDQRO7s03JVSg7c",
-      "coordinates": {
-        "lat": 22.3889088,
-        "lng": 114.2090653
-      },
-      "area": {
-        "zh": "沙田區"
+        "zh": "中西區"
       }
     },
     {
@@ -131,6 +105,19 @@
       },
       "area": {
         "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣楊屋道18號荃新天地2期UG樓86號舖"
+      },
+      "googleMapsPlaceId": "ChIJzRDKAOz4AzQRCODeKnEjx0o",
+      "coordinates": {
+        "lat": 22.3679811,
+        "lng": 114.1145597
+      },
+      "area": {
+        "zh": "荃灣區"
       }
     },
     {
@@ -161,19 +148,6 @@
     },
     {
       "address": {
-        "zh": "西環皇后大道西484-496號新安大廈地下A號舖"
-      },
-      "googleMapsPlaceId": "ChIJwUr3q8j_AzQR7h2zE3EkQYI",
-      "coordinates": {
-        "lat": 22.2858022,
-        "lng": 114.1354354
-      },
-      "area": {
-        "zh": "中西區"
-      }
-    },
-    {
-      "address": {
         "zh": "屯門鳴琴路1號山景商場地下125號舖"
       },
       "googleMapsPlaceId": "ChIJH9x6rTr7AzQRhd7R62dfkNE",
@@ -187,15 +161,28 @@
     },
     {
       "address": {
-        "zh": "紅磡馬頭圍道116-118號置富商業大廈地下E號舖"
+        "zh": "石門京瑞廣場2期1樓101A 21號鋪"
       },
-      "googleMapsPlaceId": "ChIJcVQowt4ABDQRfu5fpELuRAs",
+      "googleMapsPlaceId": "ChIJA_qIKn0HBDQRO7s03JVSg7c",
       "coordinates": {
-        "lat": 22.3105103,
-        "lng": 114.1874314
+        "lat": 22.3889088,
+        "lng": 114.2090653
       },
       "area": {
-        "zh": "九龍城區"
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "天水圍天一商城1105號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ1y64PorwAzQRSO0LWqzLOZ8",
+      "coordinates": {
+        "lat": 22.4647433,
+        "lng": 114.0030365
+      },
+      "area": {
+        "zh": "元朗區"
       }
     }
   ],
@@ -219,6 +206,10 @@
     {
       "type": "eat",
       "id": 6421
+    },
+    {
+      "type": "eat",
+      "id": 6791
     }
   ]
 }
