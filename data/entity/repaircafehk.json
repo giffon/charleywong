@@ -27,6 +27,14 @@
         "single_line_address": "成美工業大廈8樓B1室, Kwai Chung, Hong Kong"
       },
       "url": "https://www.facebook.com/repaircafehk/"
+    },
+    {
+      "url": "https://www.instagram.com/repair_cafe_hongkong/",
+      "meta": {
+        "website": "http://linktr.ee/RepairCafeHK",
+        "name": "復修冰室 Repair Cafe HK",
+        "about": "「#復修冰室」的概念源於荷蘭阿姆斯特丹的Repair Café。我們聚集復修冰室的師傅，免費維修已損壞的電器、舊物等等，令它們得以重生。\n.\n此外，我們亦會透過舉辦工作坊及課程，培訓更多有意推動維修減廢的人，推廣惜物維修的文化，引領大眾反思過度消費的習慣。"
+      }
     }
   ],
   "posts": [
@@ -39,12 +47,28 @@
     }
   ],
   "tags": [
-    "handyman"
+    "handyman",
+    "organization"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 1917
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "成美工業大廈8樓B1室"
+      },
+      "googleMapsPlaceId": "ChIJ8d12XJr4AzQRqT7XJ8phSAU",
+      "coordinates": {
+        "lat": 22.367224,
+        "lng": 114.133948
+      },
+      "area": {
+        "zh": "葵青區"
+      }
     }
   ]
 }
