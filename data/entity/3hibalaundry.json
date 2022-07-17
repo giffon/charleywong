@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "https://3hiba-laundry-place.business.site"
+      "url": "https://3hibalaundryplace.wixsite.com/website"
     },
     {
       "url": "https://www.facebook.com/3hibalaundry/",
@@ -38,6 +38,7 @@
     {
       "url": "https://www.instagram.com/3hibalaundryplace/",
       "meta": {
+        "website": "https://www.facebook.com/3hiba-Laundry-Place-103243384382046/",
         "name": "3hiba Laundry & Laundry 24",
         "about": "·Premium Laundry 🧺\n·24-Hour Self-Laundry Cafe ☕️ 🏪\n·Home Decoration Products 🇫🇷 🇯🇵"
       }
@@ -57,12 +58,25 @@
   "places": [
     {
       "address": {
-        "zh": "唐俊街12號天晉匯1期1樓110號"
+        "zh": "將軍澳唐俊街12號天晉匯1期1樓110號"
       },
       "googleMapsPlaceId": "ChIJOfr_jjwDBDQRazne2fZjVq0",
       "coordinates": {
         "lat": 22.3065073,
         "lng": 114.2607448
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳貿業街8號新都城3期地下G31舖"
+      },
+      "googleMapsPlaceId": "ChIJ--rjtz0FBDQRuHk0Gxqvb_I",
+      "coordinates": {
+        "lat": 22.32245069999999,
+        "lng": 114.2563317
       },
       "area": {
         "zh": "西貢區"
