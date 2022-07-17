@@ -30,6 +30,7 @@
     {
       "url": "https://www.instagram.com/jasonlie_interiors/",
       "meta": {
+        "website": "http://www.jasonlie-interiors.com/",
         "name": "JASON LIE INTERIORS",
         "about": "Design and Build"
       }
@@ -48,5 +49,20 @@
     "interior",
     "furniture",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Room 2208, 22/F, Metro Centre II, No.21 Lam Hing Street, Kowloon Bay"
+      },
+      "googleMapsPlaceId": "ChIJhQq5LUIBBDQRk5kmOUEj8OM",
+      "coordinates": {
+        "lat": 22.325047,
+        "lng": 114.2109077
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
