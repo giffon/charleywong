@@ -27,7 +27,8 @@
         "website": "https://linktr.ee/1.7book.tnl",
         "name": "七份一書店@東南樓",
         "about": "@rollingbooks_hk 策劃，七位店長共同營運的獨立書店\n🌱實驗性書店，營業至2022年2月28日（已完結）\n［大南街姊妹店 @1.7book.tns］"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.instagram.com/1.7book.tns/",
@@ -35,7 +36,26 @@
         "website": "http://linktr.ee/1.7book.tns/",
         "name": "七份一書店@大南街",
         "about": "@rollingbooks_hk 策劃，七位店長營運的書店\n（已完結）\n[👉🏼東南樓姊妹店 @1.7book.tnl ]\n店長傳送 / 活動報名⬇️："
-      }
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/1.7book.wanchai/",
+      "meta": {
+        "website": "https://linktr.ee/1.7book.wanchai",
+        "name": "七份一書店@集成中心",
+        "about": "全新素人店長共同營運的獨立書店\n營業期：2022年6月16日至12月31日\n營業時間：12:00 - 20:00\n地址：集成中心商場G2B號\n策劃：@rollingbooks_hk"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/1.7book.wontonmeen/",
+      "meta": {
+        "website": "https://linktr.ee/1.7book.wontonmeen",
+        "name": "七份一書店@Wontonmeen",
+        "about": "7️⃣位店長共同營運的二手書店\n營業時間：12:00 - 18:00 （現場成為會員）\n閱讀空間時段：18:00 - 21:00（預約）\n地址：深水埗荔枝角道135號1樓\n書店當值：62013666\n過夜預約：69040918\n場地夥伴： @wontonmeen_"
+      },
+      "hidden": true
     }
   ],
   "posts": [
@@ -48,35 +68,6 @@
   ],
   "tags": [
     "book",
-    "shop",
-    "closed"
-  ],
-  "places": [
-    {
-      "address": {
-        "zh": "油麻地砵蘭街68號東南樓藝術酒店22樓"
-      },
-      "googleMapsPlaceId": "ChIJI7tYhkUBBDQRB0QY3p5z7KM",
-      "coordinates": {
-        "lat": 22.3136853,
-        "lng": 114.1700614
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
-        "zh": "深水埗大南街205號閣樓"
-      },
-      "googleMapsPlaceId": "ChIJk3rFQnABBDQR7qkybbolJko",
-      "coordinates": {
-        "lat": 22.3274585,
-        "lng": 114.1626763
-      },
-      "area": {
-        "zh": "深水埗區"
-      }
-    }
+    "shop"
   ]
 }
