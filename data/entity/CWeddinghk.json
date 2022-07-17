@@ -5,7 +5,11 @@
   },
   "webpages": [
     {
-      "url": "https://cweddinghk.wixsite.com/floral"
+      "url": "https://www.cwedding.ca"
+    },
+    {
+      "url": "https://cweddinghk.wixsite.com/floral",
+      "hidden": true
     },
     {
       "meta": {
@@ -35,15 +39,13 @@
     {
       "url": "https://www.instagram.com/cwedding.ca/",
       "meta": {
-        "name": "Vancouver - Florist & Beauty"
+        "website": "http://www.cwedding.ca/",
+        "name": "Vancouver Floral & Makeup ✨",
+        "about": "[Be your own kind of beautiful]\nOver 6 yrs Floral • Decoration • Beauty Services\nBased in Vancouver 🇨🇦\nContact us for quotation"
       }
     }
   ],
-  "posts": [
-    {
-      "url": "https://www.facebook.com/196397813853525/posts/1391550981004863"
-    }
-  ],
+  "posts": [],
   "tags": [
     "wedding",
     "florist"
@@ -52,6 +54,21 @@
     {
       "type": "shop",
       "id": 1977
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "New Westminster, BC, Canada"
+      },
+      "googleMapsPlaceId": "ChIJl1DbPXXYhVQR7v5N9hjpqOw",
+      "coordinates": {
+        "lat": 49.2057179,
+        "lng": -122.910956
+      },
+      "area": {
+        "zh": "加拿大"
+      }
     }
   ]
 }
