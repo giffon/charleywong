@@ -5,7 +5,11 @@
   },
   "webpages": [
     {
-      "url": "https://tonghing.boutir.com"
+      "url": "https://www.tonghingmall.com"
+    },
+    {
+      "url": "https://tonghing.boutir.com",
+      "hidden": true
     },
     {
       "meta": {
@@ -30,8 +34,9 @@
     {
       "url": "https://www.instagram.com/tonghingtaidispensary/",
       "meta": {
+        "website": "https://www.tonghingmall.com/",
         "name": "東興大藥房",
-        "about": "東興大藥房/東藥房有限公司\nhttps://m.facebook.com/tonghingpharmacy/\n如有問題，請直接聯絡Whatsapp客服☎️6639 2201\nhttps://wa.me/85266392201"
+        "about": "東興大藥房/東藥房有限公司\nhttps://m.facebook.com/tonghingpharmacy/\n任何查詢，歡迎聯絡客服 (Whatsapp)☎️: 6639 2201\nhttp://wa.me/85266392201"
       }
     }
   ],
@@ -53,7 +58,7 @@
   "places": [
     {
       "address": {
-        "zh": "筲箕灣愛禮街2號愛蝶灣商場55號舖"
+        "zh": "筲箕灣愛禮街2號愛蝶灣商場55號舖 筲箕灣東興大藥房"
       },
       "googleMapsPlaceId": "ChIJUYGRuHkBBDQRExWmvg1u2EU",
       "coordinates": {
@@ -66,7 +71,46 @@
     },
     {
       "address": {
-        "zh": "柴灣小西灣道23號富怡花園地下52-53號舖"
+        "zh": "香港筲箕灣愛禮街2號愛蝶灣商場24號舖 筲箕灣東興大藥房（中藥部）"
+      },
+      "googleMapsPlaceId": "ChIJUYGRuHkBBDQRExWmvg1u2EU",
+      "coordinates": {
+        "lat": 22.2810547,
+        "lng": 114.228604
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港筲箕灣愛禮街2號愛蝶灣商場17號舖 筲箕灣東興生活百貨"
+      },
+      "googleMapsPlaceId": "ChIJUYGRuHkBBDQRExWmvg1u2EU",
+      "coordinates": {
+        "lat": 22.2810547,
+        "lng": 114.228604
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "柴灣小西灣道23號富怡花園地下52-53號舖 小西灣東興藥房"
+      },
+      "googleMapsPlaceId": "ChIJ76Vm-i8CBDQRTWfx6BK8-m0",
+      "coordinates": {
+        "lat": 22.2628253,
+        "lng": 114.2498465
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港柴灣小西灣道23號富怡花園地下51號舖 小西灣東興生活百貨"
       },
       "googleMapsPlaceId": "ChIJ76Vm-i8CBDQRTWfx6BK8-m0",
       "coordinates": {
