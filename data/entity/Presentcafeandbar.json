@@ -23,8 +23,8 @@
         "emails": [
           "presentcafeandbar@gmail.com"
         ],
-        "single_line_address": "No. 44 Tak Ku Ling Road, Kowloon City, 852 Kowloon, Hong Kong",
-        "website": "https://www.presentcafeandbar.com/"
+        "single_line_address": "No. 44 Tak Ku Ling Road, Kowloon City, 852 香港，香港",
+        "website": "http://www.presentcatering.com/"
       }
     },
     {
@@ -36,6 +36,10 @@
         "about": "PRESENT",
         "category_list": [
           {
+            "id": "110290705711626",
+            "name": "Bar"
+          },
+          {
             "id": "197871390225897",
             "name": "Cafe"
           }
@@ -43,7 +47,7 @@
         "emails": [
           "presentnorthpoint@gmail.com"
         ],
-        "single_line_address": "No.126 Wharf Road, North Point, 852 Hong Kong, Hong Kong",
+        "single_line_address": "No.126 Wharf Road, North Point, 852 香港，香港",
         "website": "https://www.presentcafeandbar.com/"
       },
       "hidden": true
@@ -54,7 +58,6 @@
         "id": "662481020866710",
         "username": "PresentTsingYi",
         "name": "Present Tsing Yi",
-        "about": "Present Restaurant 當下\n營業時間：7:00am-10:00pm\n地址：青衣翠怡花園4號 #百佳旁 #不在商場內\n電話：26307288\nwww.presentcafeandbar.com\n📲RVSP(Contact Us 聯絡我們）",
         "category_list": [
           {
             "id": "273819889375819",
@@ -64,7 +67,7 @@
         "emails": [
           "presenttsingyi@gmail.com"
         ],
-        "single_line_address": "No.4 Cheung Wan Street, Tsing Yi,, 852 Hong Kong, Hong Kong",
+        "single_line_address": "No.4 Cheung Wan Street, Tsing Yi,, 852 香港，香港",
         "website": "https://www.presentcafeandbar.com/"
       },
       "hidden": true
@@ -75,19 +78,18 @@
         "id": "296567927891991",
         "username": "SakeBarPresent",
         "name": "SAKE BAR Present",
-        "about": "It’s all about sake and Yakitory.",
+        "about": "It’s all about sake and Yakitori.",
         "category_list": [
           {
             "id": "1640927539562872",
             "name": "Sake Bar"
-          },
-          {
-            "id": "199035016778342",
-            "name": "Japanese Restaurant"
           }
         ],
-        "single_line_address": "79 Tak Ku Ling Road, Kowloon City, 852 Hong Kong, Hong Kong",
-        "website": "www.presentcafeandbar.com"
+        "emails": [
+          "sakebarpresent@gmail.com"
+        ],
+        "single_line_address": "79 Tak Ku Ling Road, Kowloon City, 852 香港，香港",
+        "website": "https://www.presentcatering.com/"
       }
     },
     {
@@ -106,8 +108,8 @@
         "emails": [
           "sakebarpresenttkw@gmail.com"
         ],
-        "single_line_address": "44 Tin Kwong Road, Tokwawan., 852 Hong Kong, Hong Kong",
-        "website": "www.presentcafeandbar.com"
+        "single_line_address": "44 Tin Kwong Road, Tokwawan., 852 香港，香港",
+        "website": "www.presentcatering.com"
       },
       "hidden": true
     },
@@ -128,7 +130,7 @@
           "sakebarpresentpe@gmail.com"
         ],
         "single_line_address": "G/F 213A Fa Yuen street",
-        "website": "http://www.presentcafeandbar.com"
+        "website": "http://www.presentcatering.com"
       },
       "hidden": true
     },
