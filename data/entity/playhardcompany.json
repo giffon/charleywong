@@ -5,9 +5,13 @@
   },
   "webpages": [
     {
+      "url": "https://playhardstudio.simplybook.asia"
+    },
+    {
       "meta": {
-        "name": "精品手機用品📱潮流生活雜貨店🃏高品質正貨🎩炮台山門市",
-        "about": "實體店：炮台山店：七海商場 G42A （炮台山地鐵站行兩分鐘）\n❗️支持原裝正貨❗️所有貨品包郵Welcome online order! ✈️Free shipping in HK 📲whatsapp 97701118☎️35794889"
+        "website": "https://playhardstudio.simplybook.asia/v2/",
+        "name": "PLAYHARD。真實場景+靚靚服飾",
+        "about": "適合六個月至六歲小朋友 （衣服size最大120cm）\n♥️包專業女攝影師及氹笑姐姐、幫您手放電、怕影相既bb可以放心一試呢☺️👍\n觀塘影樓，線上預約📢📢"
       },
       "url": "https://www.instagram.com/playhardcompany/"
     },
@@ -52,6 +56,21 @@
     {
       "type": "shop",
       "id": 1344
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G42A, 7 Sea Shopping centre, 121 King's road, Fortress Hill"
+      },
+      "googleMapsPlaceId": "ChIJCQ_Z6AEBBDQRNt6Rp3yjG_k",
+      "coordinates": {
+        "lat": 22.2875631,
+        "lng": 114.192424
+      },
+      "area": {
+        "zh": "東區"
+      }
     }
   ]
 }
