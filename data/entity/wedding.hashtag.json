@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.weddinghashtag.hk"
+      "url": "https://www.weddinghashtag.hk"
     },
     {
       "meta": {
@@ -26,6 +26,14 @@
         "website": "http://www.weddinghashtag.hk/"
       },
       "url": "https://www.facebook.com/wedding.hashtag/"
+    },
+    {
+      "url": "https://www.instagram.com/wedding.hashtag/",
+      "meta": {
+        "website": "https://bit.ly/2IoI9j7",
+        "name": "Wedding Hashtag Production",
+        "about": "Start your once-in-a-lifetime experience with a bespoke # WEDDING HASHTAG\nReach us | 6779 6092 / 5244 6542\nwww.weddinghashtag.hk\n*Fully booked on 2022"
+      }
     }
   ],
   "posts": [
@@ -41,6 +49,21 @@
     {
       "type": "shop",
       "id": 2212
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "The Aisle, 11C, Yam Hop Hing Industrial Building, 40-44 Kwai Wing Rd, Kwai Chung"
+      },
+      "googleMapsPlaceId": "ChIJr79IRnwABDQRfEWmfHQo5Fk",
+      "coordinates": {
+        "lat": 22.3676464,
+        "lng": 114.1343671
+      },
+      "area": {
+        "zh": "葵青區"
+      }
     }
   ]
 }
