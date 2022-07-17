@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://ataroxhk.com"
+    },
+    {
       "meta": {
         "id": "346751999168181",
         "username": "ataroxhk",
@@ -30,7 +33,9 @@
     },
     {
       "meta": {
-        "about": "/ 工 作 坊 /\n報 名 開 放 中\n⁃\n/ 寄 賣 /\n島 中 坊 研 （ 沙 灘 店 ）· 長 洲\n姨 姨 工 作 室 · 觀 塘\n⁃\n/ 下 回 出 店 /\n待 定"
+        "website": "https://linktr.ee/atarox",
+        "name": "天 然 石 ｜ 金 工 ｜蠟 雕 ｜工 作 坊",
+        "about": "『 戴上的不只是首飾 而是手中的溫度 ♡ 』\n-\n工 作 室 ｜週 五 至 日 2 - 6 pm 開 放\n石 硤 尾 白 田 街 30號 JCCAC , L7 - 11\n-\n↓ 下 單 / 工 作 坊 報 名 ↓"
       },
       "url": "https://www.instagram.com/ataroxhk/"
     }
@@ -47,12 +52,28 @@
     }
   ],
   "tags": [
-    "accessories"
+    "accessories",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 1309
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "石 硤 尾 白 田 街 30號 JCCAC , L7 - 11"
+      },
+      "googleMapsPlaceId": "ChIJLVXlV0oHBDQRfisX8-oN-uE",
+      "coordinates": {
+        "lat": 22.3347807,
+        "lng": 114.1656077
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ]
 }
