@@ -4948,10 +4948,10 @@ dotenv@^10.0.0:
   resolved "https://registry.npmjs.org/dotenv/-/dotenv-10.0.0.tgz"
   integrity sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==
 
-dts2hx@0.19.0:
-  version "0.19.0"
-  resolved "https://registry.npmjs.org/dts2hx/-/dts2hx-0.19.0.tgz"
-  integrity sha512-eqMbzNSMM4s4DX2vcMdGVDYZ0So4EZijsrlT4tazQe09aI8O1Th9O4iXbLj6F44rHFxupczoEuGdoYhp/+RHaA==
+dts2hx@0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/dts2hx/-/dts2hx-0.19.1.tgz#c0bb316591e7040c9bc3acadc4fe65e836a3b8c1"
+  integrity sha512-gFIK5SkDP3MocaAn7uPvrFX86XC9/whWxWlTnpfEPR8GwZkewMiMQZ4Y/ucf4RIWBwDwkqvXuCUn1e7BajrsVw==
   dependencies:
     typescript "3.7.4"
 
