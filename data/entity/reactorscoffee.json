@@ -19,7 +19,8 @@
         ],
         "single_line_address": "Shop No.823, Level 8 Fortune Metropolis, No.6 Metropolis Drive, Hunghom, 000 Гонконг, Гонконг",
         "website": "http://www.reactorscoffee.com"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/ReactorsCoffeeST/",
@@ -44,41 +45,27 @@
     {
       "url": "https://www.instagram.com/reactorscoffeehh/",
       "meta": {
+        "website": "http://www.reactorscoffee.com/",
         "name": "Reactors Coffee HungHom",
         "about": "Strive to provide good coffee & food\nfor the delight of people.\n\nMon-Fri 0800-1900\nSat 0900-1800\nSun 1000-1800"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.instagram.com/reactorscoffeest/",
       "meta": {
+        "website": "http://reactioncoffee.com.hk/",
         "name": "Reactors Coffee SHATIN",
-        "about": "Be Specialty.\nMon - Fri 0730-2130 ｜Sat - Sun 0900-2130"
+        "about": "Be Specialty.\nMon - Fri 0800-2130 ｜Sat - Sun 0900-2130"
       }
     }
   ],
-  "posts": [
-    {
-      "url": "https://www.instagram.com/p/B4qdhazBDI4/"
-    }
-  ],
+  "posts": [],
   "tags": [
     "food",
     "cafe"
   ],
   "places": [
-    {
-      "address": {
-        "en": "Shop No.823, Level 8 Fortune Metropolis, No.6 Metropolis Drive, Hunghom"
-      },
-      "googleMapsPlaceId": "ChIJ1YTS8uYABDQRz6YfT-d7cJ4",
-      "coordinates": {
-        "lat": 22.3026662,
-        "lng": 114.1831797
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
     {
       "address": {
         "en": "Shop No. G92, G/F, Fortune City One"
