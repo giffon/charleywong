@@ -216,6 +216,7 @@ class Content {
                         for (e in timeA.querySelectorAll("div"))
                         if (switch (window.getComputedStyle(cast e).top) {
                             case null | "" | "0px": true;
+                            case top if (Std.parseFloat(top) < 1): true;
                             case _: false;
                         })
                         (cast e:SpanElement)
