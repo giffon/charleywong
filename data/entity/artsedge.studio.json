@@ -1,13 +1,9 @@
 {
   "id": "artsedge.studio",
   "name": {
-    "en": "ArtsEdge",
-    "zh": "藝術樂園"
+    "en": "Atlantis Studio"
   },
   "webpages": [
-    {
-      "url": "http://www.artsedge-studio.com"
-    },
     {
       "meta": {
         "id": "658352240962322",
@@ -27,13 +23,22 @@
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/artsedge.studio/photos/a.667873906676822/1733802663417269"
+      "url": "https://www.facebook.com/658352240962322/photos/a.667873906676822/1733802663417269",
+      "meta": {
+        "embeddable": false
+      }
     },
     {
-      "url": "https://www.facebook.com/artsedge.studio/photos/a.667873906676822/1666976610099875"
+      "url": "https://www.facebook.com/658352240962322/photos/a.667873906676822/1666976610099875",
+      "meta": {
+        "embeddable": false
+      }
     },
     {
-      "url": "https://www.facebook.com/artsedge.studio/photos/a.667872373343642/1721045994692936"
+      "url": "https://www.facebook.com/658352240962322/photos/a.667872373343642/1721045994692936",
+      "meta": {
+        "embeddable": false
+      }
     }
   ],
   "tags": [
@@ -44,6 +49,21 @@
     {
       "type": "shop",
       "id": 1735
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Flat i, 1/F, Po Foo Building, 1 - 5 Foo Ming St, Causeway Bay, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJJ_nBMlEABDQRknwvidfdLf0",
+      "coordinates": {
+        "lat": 22.2788362,
+        "lng": 114.1834373
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ]
 }
