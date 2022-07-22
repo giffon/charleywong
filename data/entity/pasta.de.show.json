@@ -1,0 +1,61 @@
+{
+  "id": "pasta.de.show",
+  "name": {
+    "en": "Pasta de Show"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/103592605585845/",
+      "meta": {
+        "id": "103592605585845",
+        "name": "Pasta de Show",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "香港堅尼地城山市街, 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/pasta.de.show/",
+      "meta": {
+        "name": ":) ℙ𝕒𝕤𝕥𝕒 𝕕𝕖 𝕊𝕙𝕠𝕨 🍝",
+        "about": "每日用心製作\n新鮮手工意粉\n𝚃𝚎𝚕: 𝟼𝟽𝟻𝟿𝟼𝟿𝟶𝟶\n堅尼地城山市街1C號\nMonday - Sunday\n12 noon - 4pm (3:30pm last order)\n6pm - 10 pm (9:30pm last order)"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/110732317196641/posts/543006903969178/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港堅尼地城山市街"
+      },
+      "googleMapsPlaceId": "ChIJr2SvPNX_AzQRCsfHMbbzWP0",
+      "coordinates": {
+        "lat": 22.2832301,
+        "lng": 114.129818
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6796
+    }
+  ]
+}

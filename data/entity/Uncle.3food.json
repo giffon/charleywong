@@ -1,0 +1,97 @@
+{
+  "id": "Uncle.3food",
+  "name": {
+    "en": "Uncle 3"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/104679388336213/",
+      "meta": {
+        "id": "104679388336213",
+        "username": "Uncle.3food",
+        "name": "Uncle 3 優質食材專賣店",
+        "about": "專營各類優質冷凍食材，零售及批發飲品，致力提供多元化優質食材給顧客。\n\n分店地址：\n\n大埔安富道 3 號  \n營業時間: 09:00 - 19:00\n\n沙田新田圍村商場 5 樓 生活鮮 B鋪\n營業時間: 09:00 - 19:30",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "Shopping & Retail"
+          }
+        ],
+        "emails": [
+          "uncle.3food@gmail.com"
+        ],
+        "single_line_address": "安富道3號, 852 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/uncle.3food/",
+      "meta": {
+        "website": "http://facebook.com/uncle.3food/",
+        "name": "uncle.3food",
+        "about": "專營各類優質冷凍食材，零售及批發飲品，致力提供多元化優質食材給顧客。\n分店地址：\n大埔安富道 3 號\n營業時間: 09:00 - 19:00\n沙田新田圍村商場 5 樓 生活鮮 B鋪\n營業時間: 09:00 - 19:30\n如需查詢或訂購，可訊息到 52068029 😉"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/Uncle.3food/posts/127510049386480/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/Uncle.3food/posts/138912714912880/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/Uncle.3food/posts/183460277124790/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "foodStore",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔安富道3號"
+      },
+      "googleMapsPlaceId": "ChIJHXz53ccJBDQRZYTxBhuoQnY",
+      "coordinates": {
+        "lat": 22.4475865,
+        "lng": 114.1648043
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "沙田新田圍村商場 5 樓 生活鮮 B鋪"
+      },
+      "googleMapsPlaceId": "ChIJh7azPFUHBDQRoMuFdsGsY1I",
+      "coordinates": {
+        "lat": 22.3706398,
+        "lng": 114.185848
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 7155
+    },
+    {
+      "type": "shop",
+      "id": 7156
+    }
+  ]
+}
