@@ -22,10 +22,43 @@
       "url": "https://www.facebook.com/secondbitehk/"
     },
     {
+      "url": "https://www.facebook.com/secondbitecafe/",
+      "meta": {
+        "id": "111171514708937",
+        "username": "secondbitecafe",
+        "name": "Second Bite Bar & Cafe",
+        "about": "Bar & Cafe ",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "emails": [
+          "2ndbites2@gmail.com"
+        ],
+        "single_line_address": "香港",
+        "website": "www.diningathome.com.hk"
+      }
+    },
+    {
       "url": "https://www.instagram.com/secondbitehk/",
       "meta": {
+        "website": "https://diningathome.oddle.me/en_HK/",
         "name": "Secondbite 整多啖 先！",
-        "about": "❤️Seafood Bar & Grill\n❤️Lunch.Dinner.Bar\nSHOP C NO. 6 41-51 CHEUNG WAH STREET CHEUNG FAI BUILDING CHEUNG SHA WAN"
+        "about": "地址：長沙灣昌華街45號昌暉大廈地下6號舖\n電話： 39565441\nODDLE 訂座，自取及跨區外賣直送👇🏻"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/secondbitecafe/",
+      "meta": {
+        "website": "https://diningathome.oddle.me/en_HK/",
+        "name": "Secondbite cafe HK",
+        "about": "地址：紅磡必嘉街92-112號紅磡灣中心地下14A號舖\nTel： 28118861\nOddle 訂座，自取及跨區外賣直送👇🏻"
       }
     }
   ],
@@ -44,7 +77,7 @@
   "places": [
     {
       "address": {
-        "en": "Shop 6 G/F Cheung Fai Building 45 Cheung Wah Street Cheung Sha Wan"
+        "zh": "長沙灣昌華街45號昌暉大廈地下6號舖"
       },
       "googleMapsPlaceId": "ChIJZdld6NoHBDQRyIxh7kLdZoA",
       "coordinates": {
@@ -54,12 +87,29 @@
       "area": {
         "zh": "深水埗區"
       }
+    },
+    {
+      "address": {
+        "zh": "紅磡必嘉街92-112號紅磡灣中心地下14A號舖"
+      },
+      "googleMapsPlaceId": "ChIJxafmgaIBBDQR5pK7OvstnCc",
+      "coordinates": {
+        "lat": 22.305618,
+        "lng": 114.186106
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 133
+    },
+    {
+      "type": "eat",
+      "id": 6790
     }
   ]
 }
