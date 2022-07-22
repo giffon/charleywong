@@ -1,7 +1,8 @@
 {
   "id": "WahMing48",
   "name": {
-    "zh": "潮記粉麵- 華明"
+    "zh": "潮記粉麵- 華明",
+    "en": "Chiu Kee Noodles"
   },
   "webpages": [
     {
@@ -20,7 +21,7 @@
             "name": "Product/service"
           }
         ],
-        "single_line_address": "粉嶺華明路21號華明市場地下48-49號舖, 852 Hong Kong, Hong Kong"
+        "single_line_address": "粉嶺華明路21號華明市場地下48-49號舖, 852 香港"
       }
     }
   ],
@@ -48,6 +49,12 @@
       "area": {
         "zh": "北區"
       }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2160
     }
   ]
 }
