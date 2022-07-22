@@ -23,8 +23,9 @@
     {
       "url": "https://www.instagram.com/harmonyconfetteria/",
       "meta": {
+        "website": "http://fb.me/harmonyconfetteria",
         "name": "清心齋",
-        "about": "將軍澳店：坑口厚德邨商場 TKO Gatewat 東翼地下 Food Lane EF11號鋪\n屯門店：蝴蝶邨街市M213號鋪\n沙田店：禾輋邨街市26號鋪"
+        "about": "荔枝角店：昇悅居商場125號鋪\n寶琳店：新都城二期1021號鋪\n坑口店：坑口厚德邨商場 TKO Gatewat 東翼地下 Food Lane EF11號鋪"
       }
     }
   ],
@@ -130,41 +131,28 @@
     },
     {
       "address": {
-        "zh": "屯門蝴蝶街市215號"
-      },
-      "googleMapsPlaceId": "ChIJaYsc94r7AzQR-GEpKxbUaG4",
-      "coordinates": {
-        "lat": 22.3750072,
-        "lng": 113.9634961
-      },
-      "area": {
-        "zh": "屯門區"
-      }
-    },
-    {
-      "address": {
-        "zh": "沙田禾輋街市26號"
-      },
-      "googleMapsPlaceId": "ChIJsTHoe0wGBDQRnYDiAQfpkpQ",
-      "coordinates": {
-        "lat": 22.3879871,
-        "lng": 114.1945184
-      },
-      "area": {
-        "zh": "沙田區"
-      }
-    },
-    {
-      "address": {
         "zh": "新都城 1021號鋪"
       },
-      "googleMapsPlaceId": "ChIJsRhi4AsEBDQRUICy1eIXrD4",
+      "googleMapsPlaceId": "ChIJy_3CxEgFBDQRVLDT-xO8rcI",
       "coordinates": {
-        "lat": 22.3225404,
-        "lng": 114.2570671
+        "lat": 22.3240457,
+        "lng": 114.2576992
       },
       "area": {
         "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荔枝角道833號昇悅居昇悅商場1樓125號舖"
+      },
+      "googleMapsPlaceId": "ChIJMe81zEoHBDQRTSBjzRjz9TA",
+      "coordinates": {
+        "lat": 22.3350203,
+        "lng": 114.1490263
+      },
+      "area": {
+        "zh": "深水埗區"
       }
     }
   ]
