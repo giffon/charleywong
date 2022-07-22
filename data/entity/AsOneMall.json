@@ -6,11 +6,7 @@
   },
   "webpages": [
     {
-      "url": "https://hker-sake.com"
-    },
-    {
-      "url": "https://www.asonehk.com",
-      "hidden": true
+      "url": "https://asonehk.com"
     },
     {
       "url": "https://www.facebook.com/AsOneMall/",
@@ -39,8 +35,9 @@
     {
       "url": "https://www.instagram.com/as.one.mall/",
       "meta": {
+        "website": "https://linktr.ee/asonehk",
         "name": "如一 AsOne 團購網購平台",
-        "about": "📍旺角W Plaza 312鋪\n🎄日本手工製 #香港人清酒 訂購 🍶 每支酒送總值 $150+ 聖誕禮包！"
+        "about": "📍新鋪！旺角W Plaza 203 鋪｜2-8 PM｜逢二五休息\n🍶日本手工製 #香港人清酒\n🕊@waitingbirdhk #候鳥平安包"
       }
     },
     {
@@ -50,10 +47,31 @@
   "posts": [
     {
       "url": "https://www.instagram.com/p/CTE87xCBmom/"
+    },
+    {
+      "url": "https://www.instagram.com/p/CeU1411vtYn/"
+    },
+    {
+      "url": "https://www.instagram.com/p/Ce0sJG2vu6J/"
     }
   ],
   "tags": [
     "food",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 203, W Plaza, Mongkok"
+      },
+      "googleMapsPlaceId": "ChIJR2_XsNQBBDQRtK7aiShuj00",
+      "coordinates": {
+        "lat": 22.3164209,
+        "lng": 114.1702704
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
