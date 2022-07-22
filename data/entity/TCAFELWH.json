@@ -1,0 +1,60 @@
+{
+  "id": "TCAFELWH",
+  "name": {
+    "en": "T-Cafe"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/111763607155282/",
+      "meta": {
+        "id": "111763607155282",
+        "username": "TCAFELWH",
+        "name": "T-Cafe",
+        "about": "創於1995年，招牌由以前的茶啡檔轉為現時的T-Café。位於粉嶺，早午餐以茶?",
+        "category_list": [
+          {
+            "id": "167954166588517",
+            "name": "Diner"
+          },
+          {
+            "id": "197227066968500",
+            "name": "Continental Restaurant"
+          }
+        ],
+        "single_line_address": "香港新界粉嶺聯和墟聯安街47－49號地下, 852 香港"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/TCAFELWH/posts/161521102179532/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港新界粉嶺聯和墟聯安街47－49號地下"
+      },
+      "googleMapsPlaceId": "ChIJS7zpdx32AzQRK40_rn0PVW8",
+      "coordinates": {
+        "lat": 22.5001924,
+        "lng": 114.142971
+      },
+      "area": {
+        "zh": "北區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 515
+    }
+  ]
+}
