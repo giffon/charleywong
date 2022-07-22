@@ -1,11 +1,19 @@
 {
   "id": "kayceonlineshop",
   "name": {
-    "en": "KAYCE Online Shop"
+    "en": "KAYCE"
   },
   "webpages": [
     {
-      "url": "https://www.instagram.com/kayce_closet/"
+      "url": "https://kayceclosethk.com"
+    },
+    {
+      "url": "https://www.instagram.com/kayce_closet/",
+      "meta": {
+        "website": "https://kayceclosethk.com/",
+        "name": "𝐊𝐀𝐘𝐂𝐄𝐂𝐋𝐎𝐒𝐄𝐓",
+        "about": "𝐵𝑒 𝐺𝑜𝑟𝑔𝑒𝑜𝑢𝑠 & 𝐸𝑥𝑐𝑙𝑢𝑠𝑖𝑣𝑒,𝐿𝑒𝑡 𝑈𝑆 𝑏𝑒 𝑌𝑂𝑈𝑅 𝑜𝑤𝑛 𝑙𝑎𝑏𝑒𝑙*\n🗼尖沙咀諾士佛台𝟏𝟎號𝟗𝐀\n📦𝐹𝑟𝑜𝑚 𝐾𝑜𝑟𝑒𝑎♡𝑆𝘩𝑖𝑝🌎♡𝐻𝐾\n🏷𝑂𝑝𝑒𝑛 𝑑𝑎𝑦: 逢星期五六 𝟯𝗣.𝗠.-𝟴𝗣.𝗠.♥\n🛍 幫您找到最適合自己的𝑂𝑛𝑙𝑖𝑛𝑒 𝐶𝑙𝑜𝑠𝑒𝑡:)"
+      }
     },
     {
       "meta": {
@@ -31,6 +39,22 @@
     }
   ],
   "tags": [
-    "clothing"
+    "clothing",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀諾士佛臺10號9樓A室"
+      },
+      "googleMapsPlaceId": "ChIJ8_qZgwoBBDQRiRI5VCuRQxA",
+      "coordinates": {
+        "lat": 22.3013607,
+        "lng": 114.1739859
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
