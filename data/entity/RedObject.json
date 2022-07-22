@@ -1,0 +1,80 @@
+{
+  "id": "RedObject",
+  "name": {
+    "en": "Red Object",
+    "zh": "蕃茄仔"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/110791434814900/",
+      "meta": {
+        "id": "110791434814900",
+        "name": "Red Object 蕃茄仔",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "shop 107, Eastmark, 21 sheung yuet road, kowloon bay"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/redobjectss/",
+      "meta": {
+        "website": "https://linktr.ee/Redobjects",
+        "name": "Red Object KLN",
+        "about": "九龍灣常悅道21號Eastmark 1樓07號\n電話 📞 26777338"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/CQQHSKYgkP_/"
+    },
+    {
+      "url": "https://www.instagram.com/p/CQfR9MxAd7P/"
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "蕃茄仔 銅鑼灣希雲街5號地下"
+      },
+      "googleMapsPlaceId": "EiFIYXZlbiBTdCwgQ2F1c2V3YXkgQmF5LCBIb25nIEtvbmciLiosChQKEgkFLlXyUwAENBGDmQHEHQHR0RIUChIJf6xts1UABDQRagwS57GoPwI",
+      "coordinates": {
+        "lat": 22.2779954,
+        "lng": 114.1866357
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "蕃茄仔 九龍灣常悅道21號Eastmark 1樓 7號"
+      },
+      "googleMapsPlaceId": "ChIJ1WWa9jQBBDQRxsAv3SjCy0Q",
+      "coordinates": {
+        "lat": 22.3222915,
+        "lng": 114.2112344
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2205
+    },
+    {
+      "type": "eat",
+      "id": 6069
+    }
+  ]
+}
