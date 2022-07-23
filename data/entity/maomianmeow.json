@@ -1,0 +1,59 @@
+{
+  "id": "maomianmeow",
+  "name": {
+    "en": "Meow Noodles",
+    "zh": "貓麵"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/813593565444244/",
+      "meta": {
+        "id": "813593565444244",
+        "name": "Meow Noodles 貓麵",
+        "about": "本鋪賣傳統上海冷麵/日式冷麵.\n地址:葵涌廣場2樓2011號鋪i",
+        "category_list": [
+          {
+            "id": "192803624072087",
+            "name": "Fast food restaurant"
+          },
+          {
+            "id": "133576170041936",
+            "name": "Bank"
+          }
+        ],
+        "single_line_address": "葵涌葵富路葵涌廣場2樓2011舖, 000000 香港"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/maomianmeow/",
+      "meta": {
+        "name": "貓麵 Meow Noodles"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "noodle"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵芳葵富路7號葵涌廣場2樓2011號舖"
+      },
+      "googleMapsPlaceId": "ChIJPehqtr34AzQR1OpdrdG_QCc",
+      "coordinates": {
+        "lat": 22.3582607,
+        "lng": 114.1271935
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 5163
+    }
+  ]
+}

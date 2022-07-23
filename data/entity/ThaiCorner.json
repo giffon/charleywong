@@ -1,0 +1,34 @@
+{
+  "id": "ThaiCorner",
+  "name": {
+    "en": "Thai Corner",
+    "zh": "小泰閣"
+  },
+  "webpages": [],
+  "posts": [],
+  "tags": [
+    "thai",
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍灣宏照道6號鴻力工業中心地下B1A號舖"
+      },
+      "googleMapsPlaceId": "ChIJYYxUdzMBBDQRnAHVOu4L5qU",
+      "coordinates": {
+        "lat": 22.3226388,
+        "lng": 114.2084928
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 2420
+    }
+  ]
+}
