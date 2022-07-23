@@ -1,0 +1,32 @@
+{
+  "id": "CaffeParadiso",
+  "name": {
+    "en": "Caffe Paradiso"
+  },
+  "webpages": [],
+  "posts": [],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大嶼山梅窩銀運路3號梅窩中心地下8號舖"
+      },
+      "googleMapsPlaceId": "ChIJk2iJNitWATQRwsb-w7ihKoU",
+      "coordinates": {
+        "lat": 22.2642074,
+        "lng": 114.0016513
+      },
+      "area": {
+        "zh": "離島區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 613
+    }
+  ]
+}

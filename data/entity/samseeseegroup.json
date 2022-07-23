@@ -1,0 +1,70 @@
+{
+  "id": "samseeseegroup",
+  "name": {
+    "zh": "心思思美食店"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/178799282592416/",
+      "meta": {
+        "id": "178799282592416",
+        "username": "samseeseegroup",
+        "name": "心思思美食店",
+        "about": "心思思美食店是一所家庭式經營的小食店，已開業超過15年，是全屯門區數一數二的實力小店。\n\n必食推介有:\n1.冷麵撈撈\n2.Q餅\n3.瑞士汁雞翼\n4.雪糕窩夫\n5.雪糕雞蛋仔",
+        "category_list": [
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          }
+        ],
+        "emails": [
+          "cyrchung2@gmail.com"
+        ],
+        "single_line_address": "屯門碼頭啟豐商場1樓59號鋪, 屯門",
+        "website": "https://s.openrice.com/QrRS0Hys300"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門碼頭啟豐商場1樓59號鋪"
+      },
+      "googleMapsPlaceId": "ChIJVclX7dL7AzQRet47jmqJXfE",
+      "coordinates": {
+        "lat": 22.3730518,
+        "lng": 113.9643104
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門屯利街1號華都商場1樓63號舖"
+      },
+      "googleMapsPlaceId": "ChIJ4V77LRb7AzQReEDmVi0eVw0",
+      "coordinates": {
+        "lat": 22.3917862,
+        "lng": 113.9781386
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 621
+    },
+    {
+      "type": "eat",
+      "id": 622
+    }
+  ]
+}

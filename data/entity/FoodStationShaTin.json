@@ -1,0 +1,33 @@
+{
+  "id": "FoodStationShaTin",
+  "name": {
+    "en": "Food Station (Sha Tin)",
+    "zh": "必食站 (沙田店)"
+  },
+  "webpages": [],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "沙田銀城街1號置富第一城街市M2-3號舖"
+      },
+      "googleMapsPlaceId": "ChIJGRgd8UUGBDQRppF-zRDOu74",
+      "coordinates": {
+        "lat": 22.3854352,
+        "lng": 114.2050277
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 710
+    }
+  ]
+}
