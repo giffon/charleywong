@@ -1,0 +1,33 @@
+{
+  "id": "ManLee",
+  "name": {
+    "zh": "文利",
+    "en": "Man Lee"
+  },
+  "webpages": [],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "半山堅尼地道6號"
+      },
+      "googleMapsPlaceId": "ChIJYwWPk28ABDQRzo55310muXc",
+      "coordinates": {
+        "lat": 22.2763802,
+        "lng": 114.1575531
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 407
+    }
+  ]
+}

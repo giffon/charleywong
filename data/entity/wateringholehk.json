@@ -1,0 +1,44 @@
+{
+  "id": "wateringholehk",
+  "name": {
+    "en": "Watering Hole"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/wateringholehk/",
+      "meta": {
+        "name": "wateringhole",
+        "about": "G/F, 7 Lan Kwai Fong, Central, Hong Kong\nBar & Booze Convenient Store"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://web.archive.org/web/20210621192033/https://hk.appledaily.com/local/20191224/RVA4C3HS4YHPCUKSMXSYUDRJOI/"
+    }
+  ],
+  "tags": [
+    "bar"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "G/F, 7 Lan Kwai Fong, Central"
+      },
+      "googleMapsPlaceId": "ChIJ9-XkyHABBDQRnc6QY5bdxsQ",
+      "coordinates": {
+        "lat": 22.280732,
+        "lng": 114.1556871
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1491
+    }
+  ]
+}

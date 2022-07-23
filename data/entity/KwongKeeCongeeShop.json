@@ -1,0 +1,50 @@
+{
+  "id": "KwongKeeCongeeShop",
+  "name": {
+    "en": "Kwong Kee Congee Shop",
+    "zh": "廣記粥店"
+  },
+  "webpages": [],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "粉嶺聯和墟聯安街市政大廈2樓熟食中心13號舖"
+      },
+      "googleMapsPlaceId": "ChIJzQ6u6acJBDQRhv4GTSi1Aow",
+      "coordinates": {
+        "lat": 22.4996088,
+        "lng": 114.1443259
+      },
+      "area": {
+        "zh": "北區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大埔安慈路1號海寶花園地下13號"
+      },
+      "googleMapsPlaceId": "ChIJhZJvajgIBDQRNg1HO0ST4JY",
+      "coordinates": {
+        "lat": 22.453352,
+        "lng": 114.166365
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 324
+    },
+    {
+      "type": "eat",
+      "id": 325
+    }
+  ]
+}
