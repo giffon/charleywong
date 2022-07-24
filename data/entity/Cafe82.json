@@ -1,0 +1,32 @@
+{
+  "id": "Cafe82",
+  "name": {
+    "en": "Cafe 82"
+  },
+  "webpages": [],
+  "posts": [],
+  "tags": [
+    "cafe"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "美孚蘭秀道2號美孚新邨地下A號舖"
+      },
+      "googleMapsPlaceId": "ChIJPYffpav4AzQRNgKYwLU5zWc",
+      "coordinates": {
+        "lat": 22.33881389999999,
+        "lng": 114.1394993
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 518
+    }
+  ]
+}
