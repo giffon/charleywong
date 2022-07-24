@@ -1,0 +1,33 @@
+{
+  "id": "CheeseNoddles",
+  "name": {
+    "en": "Cheese Noddles",
+    "zh": "芝士面"
+  },
+  "webpages": [],
+  "posts": [],
+  "tags": [
+    "noodle"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "天水圍天湖路1號嘉湖新北江商場1樓C46C號舖"
+      },
+      "googleMapsPlaceId": "ChIJEaIp_X3wAzQR08K7pV3Aij0",
+      "coordinates": {
+        "lat": 22.4530153,
+        "lng": 114.000414
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 531
+    }
+  ]
+}

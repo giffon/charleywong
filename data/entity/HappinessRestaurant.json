@@ -1,0 +1,32 @@
+{
+  "id": "HappinessRestaurant",
+  "name": {
+    "zh": "食得喜小廚"
+  },
+  "webpages": [],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣西樓角街荃昌中心地下14-17舖"
+      },
+      "googleMapsPlaceId": "ChIJ83xFSu34AzQRjYd7fPxR4HA",
+      "coordinates": {
+        "lat": 22.3713249,
+        "lng": 114.1201656
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 790
+    }
+  ]
+}

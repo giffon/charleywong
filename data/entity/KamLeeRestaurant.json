@@ -1,0 +1,33 @@
+{
+  "id": "KamLeeRestaurant",
+  "name": {
+    "zh": "金利茶餐廳",
+    "en": "Kam Lee Restaurant"
+  },
+  "webpages": [],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新蒲崗康強街9號地下"
+      },
+      "googleMapsPlaceId": "ChIJq9CPLNEGBDQRtm48upZpaEY",
+      "coordinates": {
+        "lat": 22.33473309999999,
+        "lng": 114.1976503
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 569
+    }
+  ]
+}

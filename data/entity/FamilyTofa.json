@@ -1,0 +1,32 @@
+{
+  "id": "FamilyTofa",
+  "name": {
+    "zh": "媽子豆花"
+  },
+  "webpages": [],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "葵涌石蔭路2號地舖"
+      },
+      "googleMapsPlaceId": "ChIJd6Cpk5z4AzQRRTTjqI0Opwc",
+      "coordinates": {
+        "lat": 22.3670521,
+        "lng": 114.1389655
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 751
+    }
+  ]
+}
