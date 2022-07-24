@@ -27,8 +27,9 @@
     {
       "url": "https://www.instagram.com/jiufenteahouse/",
       "meta": {
+        "website": "https://www.jiufenthouse.com/",
         "name": "九份茶舍",
-        "about": "旺角弼街84號A\n葵涌廣場2樓2015舖\n沙田石門京瑞廣場二期101A21舖\n西九龍中心8樓58\n慈雲山毓華街74-80A號2A\n元朗教育路68號兆豐樓地下1B\n天水圍新北江商場1/FD151號"
+        "about": "葵涌廣場2樓2015舖"
       }
     },
     {
@@ -37,13 +38,16 @@
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/jiufenteahouse/posts/2397962430513885"
+      "url": "https://www.instagram.com/p/B2_Gg4ul4qB/"
     },
     {
-      "url": "https://www.facebook.com/jiufenteahouse/photos/a.2091789221131209/2400201123623349"
+      "url": "https://www.instagram.com/p/B4s7Eg6lilh/"
     },
     {
-      "url": "https://www.facebook.com/jiufenteahouse/photos/a.2090088134634651/2405649739745154"
+      "url": "https://www.instagram.com/p/B4-QOsAlgk1/"
+    },
+    {
+      "url": "https://www.instagram.com/p/CD45kswl_sS/"
     }
   ],
   "tags": [
@@ -96,71 +100,5 @@
       "id": 5720
     }
   ],
-  "places": [
-    {
-      "address": {
-        "zh": "旺角弼街84A舖百寶大廈地下"
-      },
-      "googleMapsPlaceId": "ChIJdbnh79YBBDQR-f6rOmYZEv0",
-      "coordinates": {
-        "lat": 22.32224769999999,
-        "lng": 114.1709206
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
-        "zh": "葵芳葵富路7號葵涌廣場2樓2015號舖"
-      },
-      "googleMapsPlaceId": "ChIJd45KQFb5AzQR0R0Tw-Qjido",
-      "coordinates": {
-        "lat": 22.35814899999999,
-        "lng": 114.127809
-      },
-      "area": {
-        "zh": "葵青區"
-      }
-    },
-    {
-      "address": {
-        "zh": "深水埗欽州街37號西九龍中心8樓58號舖"
-      },
-      "googleMapsPlaceId": "ChIJw4LLE7MABDQR4MMha8oMpPc",
-      "coordinates": {
-        "lat": 22.3310879,
-        "lng": 114.1597868
-      },
-      "area": {
-        "zh": "深水埗區"
-      }
-    },
-    {
-      "address": {
-        "zh": "元朗教育路68號兆豐樓地下1B"
-      },
-      "googleMapsPlaceId": "ChIJ5zZbKLz7AzQRQhTj1sV6-AE",
-      "coordinates": {
-        "lat": 22.443179,
-        "lng": 114.0261755
-      },
-      "area": {
-        "zh": "元朗區"
-      }
-    },
-    {
-      "address": {
-        "zh": "天水圍新北江商場1/FD151號"
-      },
-      "googleMapsPlaceId": "ChIJ8dup4n3wAzQRMyriYxUf_qo",
-      "coordinates": {
-        "lat": 22.4515147,
-        "lng": 114.0012292
-      },
-      "area": {
-        "zh": "元朗區"
-      }
-    }
-  ]
+  "places": []
 }
