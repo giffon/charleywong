@@ -1,0 +1,33 @@
+{
+  "id": "FishballNoodleShop",
+  "name": {
+    "en": "Fishball Noodle Shop",
+    "zh": "牛一香港仔魚蛋粉專門店"
+  },
+  "webpages": [],
+  "posts": [],
+  "tags": [
+    "noodle"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大埔運頭街75-87號永和樓地下"
+      },
+      "googleMapsPlaceId": "ChIJVTXbnEAIBDQRmi5IJcCxPfI",
+      "coordinates": {
+        "lat": 22.4467275,
+        "lng": 114.1679481
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1140
+    }
+  ]
+}

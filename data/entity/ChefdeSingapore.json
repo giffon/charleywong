@@ -1,0 +1,33 @@
+{
+  "id": "ChefdeSingapore",
+  "name": {
+    "en": "Chef de Singapore",
+    "zh": "星洲總廚"
+  },
+  "webpages": [],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "大角咀大全街57號地下"
+      },
+      "googleMapsPlaceId": "ChIJp_ZEobAABDQR-fegkEzhSFc",
+      "coordinates": {
+        "lat": 22.3218784,
+        "lng": 114.1605911
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1204
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "MightySailorCompanyLtd",
+  "name": {
+    "zh": "水手快餐店",
+    "en": "Mighty Sailor Company Ltd."
+  },
+  "webpages": [],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "石硤尾窩仔街1-13號仁寶大廈地下"
+      },
+      "googleMapsPlaceId": "ChIJYWDYLDUHBDQRyOdc7X9TM8Y",
+      "coordinates": {
+        "lat": 22.3314172,
+        "lng": 114.1701652
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1025
+    }
+  ]
+}

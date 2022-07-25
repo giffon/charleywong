@@ -1,0 +1,32 @@
+{
+  "id": "WingWah",
+  "name": {
+    "zh": "榮華茶餐廳"
+  },
+  "webpages": [],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗福榮街58號"
+      },
+      "googleMapsPlaceId": "ChIJzfhXxLQABDQR9nPbSSyCFtY",
+      "coordinates": {
+        "lat": 22.3313014,
+        "lng": 114.1637733
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 1299
+    }
+  ]
+}
