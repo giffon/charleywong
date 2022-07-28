@@ -176,25 +176,27 @@ class Content {
 
         final june = Date.fromString("2019-06-01");
 
-        if (document.querySelector("div[role='main'] div[role='article'] > div[role='progressbar']") == null) {
+        final main = [
+            for (feed in document.querySelectorAll("div[role='main']"))
+            (cast feed:DivElement)
+        ].find(div -> div.offsetHeight > 0);
+
+        if (main.querySelector("div[role='article'] > div[role='progressbar']") == null) {
             window.scrollTo(window.scrollX, document.body.scrollHeight);
             Timer.delay(function() alert("到達 timeline 底部"), 100);
             return;
         }
 
-        var feed:DivElement = cast [
+        final feed:DivElement = switch [
             for (feed in document.querySelectorAll("div[role='feed']"))
-            feed
-        ].pop();
-
-        // when there is no pinned post, there is no role='feed'
-        if (feed == null || feed.offsetParent == null)
-            feed = cast [
-                for (feed in document.querySelectorAll("div[role='main']"))
-                feed
-            ].pop();
-
-        // console.debug(feed);
+            (cast feed:DivElement)
+        ].pop() {
+            // when there is no pinned post, there is no role='feed'
+            case feed if (feed != null && feed.offsetParent != null):
+                feed;
+            case _:
+                main;
+        }
 
         final posts = [
             for (node in feed.querySelectorAll("div[role='article']"))
