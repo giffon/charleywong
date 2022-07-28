@@ -32,7 +32,7 @@
       "meta": {
         "website": "http://www.lungocoffeeroaster.com/",
         "name": "Lungo",
-        "about": "☕️九龍灣店\nMonday - Friday 0800 - 1800\nSaturday & Holidays 0900 - 1800\nSunday Closed\n☕️荔枝角店\nMonday - Sunday 830 - 1900\n咖啡豆傳送門⬇️"
+        "about": "☕️九龍灣店\nMonday - Saturday 0800 - 1800\nSunday Closed\n☕️荔枝角店\nMonday - Sunday 830 - 1900\n☕️天后店\nMonday- Sunday 800 - 1700\n咖啡豆傳送門⬇️"
       }
     }
   ],
@@ -73,6 +73,19 @@
       },
       "area": {
         "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "北角蜆殼街6-16號寶榮大廈地下H舖"
+      },
+      "googleMapsPlaceId": "ChIJb4nwXC4BBDQRY49YqIwb7UI",
+      "coordinates": {
+        "lat": 22.2869818,
+        "lng": 114.1921918
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ],
