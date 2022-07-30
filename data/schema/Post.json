@@ -58,6 +58,14 @@
                     "pattern": "^(?!https://www\\.facebook\\.com/login/).*"
                 }
             }
+        },
+        {
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "pattern": "^(?!https://www\\.wenweipo\\.com/).*"
+                }
+            }
         }
     ]
 }
