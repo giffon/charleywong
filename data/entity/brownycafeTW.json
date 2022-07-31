@@ -27,8 +27,9 @@
     {
       "url": "https://www.instagram.com/brownycafe/",
       "meta": {
+        "website": "http://www.facebook.com/brownycafeTW",
         "name": "Browny Cafe",
-        "about": "Browny cafe: 荃灣西樓角路荃昌中心昌寧商場地下66a舖\nBrowny Roastery: 葵涌大連排道144-150號金豐工業大廈2期14U\n訂豆、咖啡旅行包、蛋糕、咖啡工作坊、到會"
+        "about": "Browny cafe: 荃灣西樓角路荃昌中心昌寧商場地下66a舖\nBrowny Roastery: 葵涌大連排道144-150號金豐工業大廈2期14U\n訂豆、咖啡旅行包、蛋糕、咖啡工作坊、到會\nWholecake order :\nhttp://cake.brownycafe.com"
       }
     }
   ],
@@ -58,7 +59,7 @@
   "places": [
     {
       "address": {
-        "en": "Shop 66a, G/F, Cheong Ning Arcade,Tsuen Cheong Centre, 202-216 Sai Lau Kok Road, Tsuen Wan"
+        "zh": "荃灣西樓角路荃昌中心昌寧商場地下66a舖 Browny cafe"
       },
       "googleMapsPlaceId": "ChIJg5SHzJL4AzQRryyRKMCJT_k",
       "coordinates": {
@@ -67,6 +68,19 @@
       },
       "area": {
         "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵涌大連排道144-150號金豐工業大廈2期14U Browny Roastery"
+      },
+      "googleMapsPlaceId": "ChIJi_P1S734AzQRdKcA2_hpqGc",
+      "coordinates": {
+        "lat": 22.358557,
+        "lng": 114.1319982
+      },
+      "area": {
+        "zh": "葵青區"
       }
     }
   ]
