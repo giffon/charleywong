@@ -10,7 +10,7 @@
         "id": "107716100950361",
         "username": "chillsweethk",
         "name": "Chill Sweet",
-        "about": "ɷ專營爆漿蛋糕，自選尺寸\nɷ泰式奶茶味•芝士奶蓋味•伯爵茶\nɷ各款甜品糖水\nɷ全新鮮製作\nɷ慢工細貨，蛋糕請提早3日前預訂\nɷ歡迎WhatsApp61674595查詢",
+        "about": "ɷ 滋潤養顏糖水\nɷ 低糖精緻甜品\nɷ 全人手新鮮製作\nɷ 飲品、蛋糕、Cupcake訂",
         "category_list": [
           {
             "id": "187153754656815",
@@ -28,7 +28,7 @@
       "meta": {
         "website": "https://api.whatsapp.com/send?phone=85265865624",
         "name": "chilllsweet",
-        "about": "ℂhɪʟʟ Ѕωєєт Dєѕѕєят Shσρ\nɷ 滋潤養顏糖水\nɷ 低糖精緻甜品\nɷ 全人手新鮮製作\nɷ 飲品、蛋糕、Cupcake訂購\nɷ 荃灣沙咀道匯力工業大廈15樓29室\nɷ 葵涌廣場潮流廊2樓2017號鋪"
+        "about": "ℂhɪʟʟ Ѕωєєт Dєѕѕєят Shσρ\nɷ 滋潤養顏糖水\nɷ 低糖精緻甜品\nɷ 全人手新鮮製作\nɷ 飲品、蛋糕、Cupcake訂購\nɷ 散水飲品"
       }
     }
   ],
@@ -82,12 +82,29 @@
       "area": {
         "zh": "葵青區"
       }
+    },
+    {
+      "address": {
+        "zh": "藍田匯景道8號匯景商場5樓27號舖"
+      },
+      "googleMapsPlaceId": "ChIJkRLrLXsBBDQRo_3JAjSxYlc",
+      "coordinates": {
+        "lat": 22.307545,
+        "lng": 114.233867
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 2441
+    },
+    {
+      "type": "eat",
+      "id": 6806
     }
   ]
 }
