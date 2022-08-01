@@ -28,12 +28,6 @@
   "posts": [
     {
       "url": "https://www.facebook.com/chickenrice888/posts/1358897490968223"
-    },
-    {
-      "url": "https://www.facebook.com/shingfattofu/posts/129357985459969",
-      "meta": {
-        "sharedWith": "Public"
-      }
     }
   ],
   "tags": [
@@ -75,6 +69,19 @@
       "coordinates": {
         "lat": 22.3884811,
         "lng": 113.9744989
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "良景市集 新榮利"
+      },
+      "googleMapsPlaceId": "ChIJx3V5Uij7AzQR5PeFMHjlnpU",
+      "coordinates": {
+        "lat": 22.4063434,
+        "lng": 113.9627991
       },
       "area": {
         "zh": "屯門區"
