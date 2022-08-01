@@ -1,7 +1,8 @@
 {
   "id": "LeBonWhisky",
   "name": {
-    "en": "Le Bon Whisky"
+    "en": "Le Bon Whisky",
+    "zh": "禮邦洋酒"
   },
   "webpages": [
     {
@@ -57,6 +58,21 @@
     {
       "type": "shop",
       "id": 1728
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍灣宏冠道8號金漢工業大廈4樓411室"
+      },
+      "googleMapsPlaceId": "ChIJE1DpaDMBBDQR37Jt_4nG81U",
+      "coordinates": {
+        "lat": 22.3235107,
+        "lng": 114.2084941
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ]
 }
