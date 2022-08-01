@@ -1,6 +1,9 @@
 data "cloudflare_zone" "giffonio" {
   name = "giffon.io"
 }
+data "cloudflare_zone" "charleywong-info" {
+  name = "charleywong.info"
+}
 
 resource "cloudflare_record" "_acme-challenge-charleywong" {
   zone_id = data.cloudflare_zone.giffonio.id
@@ -53,4 +56,82 @@ resource "cloudflare_record" "charleywong-dev-AAAA" {
   type    = "AAAA"
   ttl     = 1
   proxied = true
+}
+
+
+resource "cloudflare_record" "charleywong-info-mx10" {
+  zone_id         = data.cloudflare_zone.charleywong-info.id
+  name            = "charleywong.info"
+  value           = "spool.mail.gandi.net"
+  type            = "MX"
+  priority        = 10
+  ttl             = 1
+  allow_overwrite = false
+  proxied         = false
+}
+
+resource "cloudflare_record" "charleywong-info-mx50" {
+  zone_id         = data.cloudflare_zone.charleywong-info.id
+  name            = "charleywong.info"
+  value           = "fb.mail.gandi.net"
+  type            = "MX"
+  priority        = 50
+  ttl             = 1
+  allow_overwrite = false
+  proxied         = false
+}
+
+resource "cloudflare_record" "charleywong-info-spf" {
+  zone_id         = data.cloudflare_zone.charleywong-info.id
+  name            = "charleywong.info"
+  value           = "v=spf1 include:_mailcust.gandi.net ?all"
+  type            = "TXT"
+  ttl             = 1
+  allow_overwrite = false
+  proxied         = false
+}
+
+resource "cloudflare_record" "charleywong-info-imap" {
+  zone_id         = data.cloudflare_zone.charleywong-info.id
+  name            = "_imap._tcp"
+  value           = "0\t0\t."
+  type            = "SRV"
+  ttl             = 1
+  proxied         = false
+}
+
+resource "cloudflare_record" "charleywong-info-imaps" {
+  zone_id         = data.cloudflare_zone.charleywong-info.id
+  name            = "_imaps._tcp"
+  value           = "1\t993\tmail.gandi.net"
+  type            = "SRV"
+  ttl             = 1
+  proxied         = false
+}
+
+resource "cloudflare_record" "charleywong-info-pop3" {
+  zone_id         = data.cloudflare_zone.charleywong-info.id
+  name            = "_pop3._tcp"
+  value           = "0\t0\t."
+  type            = "SRV"
+  ttl             = 1
+  proxied         = false
+}
+
+resource "cloudflare_record" "charleywong-info-pop3s" {
+  zone_id         = data.cloudflare_zone.charleywong-info.id
+  name            = "_pop3s._tcp"
+  value           = "1\t995\tmail.gandi.net"
+  type            = "SRV"
+  ttl             = 1
+  proxied         = false
+}
+
+resource "cloudflare_record" "charleywong-info-submission" {
+  zone_id         = data.cloudflare_zone.charleywong-info.id
+  name            = "_submission._tcp"
+  value           = "1\t465\tmail.gandi.net"
+  type            = "SRV"
+  ttl             = 1
+  proxied         = false
 }
