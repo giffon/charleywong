@@ -24,8 +24,9 @@
     {
       "url": "https://www.instagram.com/uniquesushi1/",
       "meta": {
+        "website": "https://api.whatsapp.com/send?phone=85295439874",
         "name": "山下無雙日式料理",
-        "about": "歡迎wtsapp 預訂 ,按此即可查詢及落單"
+        "about": "逢星期一定休\n葵芳店\n訂座電話：95436548\n葵芳仁芳街美豐大廈地下9號鋪\n(葵芳職業訓練局青年學院及蘇浙公學附近)\n石籬店\n訂座電話：95439874\n葵涌石籬大隴街103號昌榮樓地下1號鋪\n(石籬商場對面，交通銀行公園旁)\n11:30am~3:30pm\n5:30pm~10:00pm"
       }
     }
   ],
@@ -49,10 +50,23 @@
       "address": {
         "zh": "葵涌石籬大隴街103號昌榮樓地下1號鋪"
       },
-      "googleMapsPlaceId": "ChIJCwMSdJz4AzQRRZxcYqGFyAg",
+      "googleMapsPlaceId": "ChIJC3FM-IX5AzQRTLQRXZTH8yM",
       "coordinates": {
         "lat": 22.365824,
         "lng": 114.138313
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵芳仁芳街美豐大廈地下9號鋪"
+      },
+      "googleMapsPlaceId": "ChIJVcs-HJb4AzQRxBdp4jT2Z_Y",
+      "coordinates": {
+        "lat": 22.3605393,
+        "lng": 114.1271675
       },
       "area": {
         "zh": "葵青區"
