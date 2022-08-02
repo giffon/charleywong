@@ -28,11 +28,6 @@ terraform {
 provider "aws" {}
 data "aws_region" "current" {}
 
-provider "aws" {
-  alias  = "us-east-1"
-  region = "us-east-1"
-}
-
 provider "cloudflare" {
   api_token = data.aws_ssm_parameter.cloudflare_api_token.value
 }
