@@ -51,7 +51,7 @@ class TestAllEntities extends utest.Test {
     function testIdFormat():Void {
         var regexp = ~/^[A-Za-z0-9\.\-_]+$/;
         var reserved = [
-            "flexsearch",  // https://charleywong.giffon.io/flexsearch.json
+            "flexsearch",  // https://charleywong.info/flexsearch.json
         ];
         for (id => e in index.entitiesOfId) {
             Assert.isTrue(regexp.match(id), '$id is not valid.');

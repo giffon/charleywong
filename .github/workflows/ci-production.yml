@@ -72,7 +72,7 @@ jobs:
         env:
           EARTHLY_SECRET_FILES: .envrc=.envrc
       - name: Post-deployment test
-        run: earthly +test --TEST="post-deployment charleywong-master.giffon.io"
+        run: earthly +test --TEST="post-deployment charleywong.info"
       - name: Export spreadsheet
         run: earthly +exportSpreadsheet --HAXE_ARGS="-D CI"
         env:

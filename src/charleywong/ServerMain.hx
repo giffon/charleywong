@@ -27,7 +27,7 @@ typedef Reply = FastifyReply<Dynamic,Dynamic,Dynamic,Dynamic,Dynamic>;
 
 class ServerMain {
     static public final isMain = js.Syntax.code("require.main") == module;
-    static public final domain = "https://charleywong.giffon.io";
+    static public final domain = "https://charleywong.info";
     static public final dataDirectory = "data/entity";
     static public final entityIndex:EntityIndex = EntityIndex.loadFromDirectory(dataDirectory);
     static public var app:FastifyInstance<Dynamic, Dynamic, Dynamic, Dynamic>;

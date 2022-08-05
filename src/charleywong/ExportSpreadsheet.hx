@@ -44,7 +44,7 @@ class ExportSpreadsheet {
                         id: e.id,
                         name_en: e.name[en],
                         name_zh: e.name[zh],
-                        url_charleywong: 'https://charleywong.giffon.io/${e.id}',
+                        url_charleywong: 'https://charleywong.info/${e.id}',
                         tags: Tag.expend(e.tags).join(" "),
                         ybm_ids: switch (e.yellowBlueMapIds) {
                             case null: "";
@@ -65,7 +65,7 @@ class ExportSpreadsheet {
                 return sheet.addRows([
                     for (e in entityIndex.entities)
                     {
-                        charleywong: 'https://charleywong.giffon.io/${e.id}',
+                        charleywong: 'https://charleywong.info/${e.id}',
                         name_en: e.name[en],
                         name_zh: e.name[zh],
                         webpages: e.webpages.map(p -> p.url).join("\n"),

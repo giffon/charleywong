@@ -4,7 +4,7 @@
 
 A Yellow Economic Circle business/brand database released with [open source / open data licenses](LICENSE). Currently only pro-democracy entities are recorded.
 
-[charleywong.giffon.io](https://charleywong.giffon.io/) is a simple read-only web interface of the database. It also serves as an API endpoint (CORS enabled, no authentication needed). Check the "JSON" links in the entity pages, search result pages, and the [list all](https://charleywong.giffon.io/list/all) page.
+[charleywong.info](https://charleywong.info/) is a simple read-only web interface of the database. It also serves as an API endpoint (CORS enabled, no authentication needed). Check the "JSON" links in the entity pages, search result pages, and the [list all](https://charleywong.info/list/all) page.
 
 ## Technical overview
 

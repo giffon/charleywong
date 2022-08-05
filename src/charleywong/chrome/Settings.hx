@@ -5,7 +5,7 @@ import global.chrome.*;
 
 class Settings {
     static public final defaultSettings:SettingsData = {
-        serverEndpoint: "https://charleywong.giffon.io",
+        serverEndpoint: "https://charleywong.info",
         dataEntryMode: false,
         serializedEntities: null,
     };

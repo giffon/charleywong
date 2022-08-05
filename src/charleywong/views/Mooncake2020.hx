@@ -12,7 +12,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/609276339572736/posts/921397991693901"
             ],
-            "charleywong": "https://charleywong.giffon.io/yummycornerhk"
+            "charleywong": "https://charleywong.info/yummycornerhk"
         },
         {
             "name": "八店聯乘",
@@ -24,7 +24,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/permalink.php?story_fbid=288252049225697&id=116149449769292"
             ],
-            "charleywong": "https://charleywong.giffon.io/list/%E5%85%AB%E5%BA%97%E8%81%AF%E4%B9%98%E9%9B%99%E9%BB%83%E7%99%BD%E8%93%AE%E8%93%89%E6%9C%88%E9%A4%85/mu15np650+Kwong-Wing-Catering+fromtheyuan+backstreetsteakhouse+megatealtdd+106889436054739+737261133131865+66HotPot"
+            "charleywong": "https://charleywong.info/list/%E5%85%AB%E5%BA%97%E8%81%AF%E4%B9%98%E9%9B%99%E9%BB%83%E7%99%BD%E8%93%AE%E8%93%89%E6%9C%88%E9%A4%85/mu15np650+Kwong-Wing-Catering+fromtheyuan+backstreetsteakhouse+megatealtdd+106889436054739+737261133131865+66HotPot"
         },
         {
             "name": "香港人月餅",
@@ -36,7 +36,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/taipingkitchen/photos/a.837767806281915/3214601468598525"
             ],
-            "charleywong": "https://charleywong.giffon.io/list/%E9%A6%99%E6%B8%AF%E4%BA%BA%E6%9C%88%E9%A4%85/taipingkitchen+100494681540665+wingslaksa+meilokstore+Onescafehk+542591305867067+109036083805696+sweetbonbonhk+112088350546423+SichuanCoolMix"
+            "charleywong": "https://charleywong.info/list/%E9%A6%99%E6%B8%AF%E4%BA%BA%E6%9C%88%E9%A4%85/taipingkitchen+100494681540665+wingslaksa+meilokstore+Onescafehk+542591305867067+109036083805696+sweetbonbonhk+112088350546423+SichuanCoolMix"
         },
         {
             "name": "四喜 x 想甜嚐甜 x Jrink 聯合中秋禮盒",
@@ -48,7 +48,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/sddessert/photos/a.218384731868404/1177003309339870"
             ],
-            "charleywong": "https://charleywong.giffon.io/list/%E5%9B%9B%E5%96%9C%20x%20%E6%83%B3%E7%94%9C%E5%9A%90%E7%94%9C%20x%20Jrink/sayheybakery+sddessert+jrinkinhk"
+            "charleywong": "https://charleywong.info/list/%E5%9B%9B%E5%96%9C%20x%20%E6%83%B3%E7%94%9C%E5%9A%90%E7%94%9C%20x%20Jrink/sayheybakery+sddessert+jrinkinhk"
         },
         {
             "name": "望月",
@@ -67,7 +67,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/lalune.hongkong/posts/3151304474907830"
             ],
-            "charleywong": "https://charleywong.giffon.io/wangyuehk"
+            "charleywong": "https://charleywong.info/wangyuehk"
         },
         {
             "name": "四喜麵包西餅",
@@ -83,7 +83,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/sayheybakery/posts/4218892001484379"
             ],
-            "charleywong": "https://charleywong.giffon.io/sayheybakery"
+            "charleywong": "https://charleywong.info/sayheybakery"
         },
         {
             "name": "膳心小館",
@@ -97,7 +97,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/Agapegardenhk/posts/2631363433790165"
             ],
-            "charleywong": "https://charleywong.giffon.io/Agapegardenhk"
+            "charleywong": "https://charleywong.info/Agapegardenhk"
         },
         {
             "name": "Valérie",
@@ -114,7 +114,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/ValeriePastry/posts/3287787151301708"
             ],
-            "charleywong": "https://charleywong.giffon.io/ValeriePastry"
+            "charleywong": "https://charleywong.info/ValeriePastry"
         },
         {
             "name": "龍門冰室",
@@ -136,7 +136,7 @@ class Mooncake2020 extends View {
                 "https://www.facebook.com/LungMunCafe/posts/3296335333764594",
                 "https://www.facebook.com/LungMunCafe/posts/3443927062338753"
             ],
-            "charleywong": "https://charleywong.giffon.io/LungMunCafe"
+            "charleywong": "https://charleywong.info/LungMunCafe"
         },
         {
             "name": "華爾登餅店",
@@ -151,7 +151,7 @@ class Mooncake2020 extends View {
                 "https://www.facebook.com/wahyeetangcakeshop/posts/3139814302803154",
                 "https://www.facebook.com/wahyeetangcakeshop/posts/3141872769263974"
             ],
-            "charleywong": "https://charleywong.giffon.io/wahyeetangcakeshop"
+            "charleywong": "https://charleywong.info/wahyeetangcakeshop"
         },
         {
             "name": "王孖記果子",
@@ -163,7 +163,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/w.boysfruitstore/posts/3728144633865562"
             ],
-            "charleywong": "https://charleywong.giffon.io/w.boysfruitstore"
+            "charleywong": "https://charleywong.info/w.boysfruitstore"
         },
         {
             "name": "吃貨之家",
@@ -177,7 +177,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.instagram.com/p/CBfukXkBm2d/"
             ],
-            "charleywong": "https://charleywong.giffon.io/weloveeating"
+            "charleywong": "https://charleywong.info/weloveeating"
         },
         {
             "name": "Bliss Moment",
@@ -190,7 +190,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/permalink.php?story_fbid=713408219234091&id=124533194788266"
             ],
-            "charleywong": "https://charleywong.giffon.io/blissmoment_party"
+            "charleywong": "https://charleywong.info/blissmoment_party"
         },
         {
             "name": "Circle Bakery",
@@ -203,7 +203,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/circlebakeryhk/posts/3979072885467998"
             ],
-            "charleywong": "https://charleywong.giffon.io/circlebakeryhk"
+            "charleywong": "https://charleywong.info/circlebakeryhk"
         },
         {
             "name": "拾壹月餅",
@@ -215,7 +215,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/permalink.php?story_fbid=121413429617707&id=113787637046953"
             ],
-            "charleywong": "https://charleywong.giffon.io/113787637046953"
+            "charleywong": "https://charleywong.info/113787637046953"
         },
         {
             "name": "我地真係好L鍾意食流心月餅",
@@ -227,7 +227,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/ireallyLovehk/posts/101442518306351"
             ],
-            "charleywong": "https://charleywong.giffon.io/ireallyLovehk"
+            "charleywong": "https://charleywong.info/ireallyLovehk"
         },
         {
             "name": "Knowcakehk 老餅",
@@ -240,7 +240,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/permalink.php?story_fbid=157546149221929&id=101526934823851"
             ],
-            "charleywong": "https://charleywong.giffon.io/knowcakehk"
+            "charleywong": "https://charleywong.info/knowcakehk"
         },
         {
             "name": "走肉月餅",
@@ -253,7 +253,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/1835535343424298/posts/2511596659151493/"
             ],
-            "charleywong": "https://charleywong.giffon.io/my_meat_run_buddy"
+            "charleywong": "https://charleywong.info/my_meat_run_buddy"
         },
         {
             "name": "逸東軒",
@@ -266,7 +266,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/yattungheen/posts/3057114527704557"
             ],
-            "charleywong": "https://charleywong.giffon.io/eatonhkhotel"
+            "charleywong": "https://charleywong.info/eatonhkhotel"
         },
         {
             "name": "生隆餅家",
@@ -289,7 +289,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/sanglungbakery/photos/a.123176215791813/278071303635636/"
             ],
-            "charleywong": "https://charleywong.giffon.io/sang_lung_bakery"
+            "charleywong": "https://charleywong.info/sang_lung_bakery"
         },
         {
             "name": "YEARS HK 素年",
@@ -302,7 +302,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/yearshk/photos/a.1001795379832707/3719182654760619"
             ],
-            "charleywong": "https://charleywong.giffon.io/yearshk"
+            "charleywong": "https://charleywong.info/yearshk"
         },
         {
             "name": "土作坊",
@@ -321,7 +321,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/Groundworks.Wanchai/posts/10159017385989095"
             ],
-            "charleywong": "https://charleywong.giffon.io/Groundworks.Wanchai"
+            "charleywong": "https://charleywong.info/Groundworks.Wanchai"
         },
         {
             "name": "花果山",
@@ -333,7 +333,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/mount.fruity/posts/2024376031027727"
             ],
-            "charleywong": "https://charleywong.giffon.io/mount.fruity"
+            "charleywong": "https://charleywong.info/mount.fruity"
         },
         {
             "name": "叁拾士多",
@@ -346,7 +346,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.instagram.com/p/CCU9orbj1eX/"
             ],
-            "charleywong": "https://charleywong.giffon.io/30store.hk"
+            "charleywong": "https://charleywong.info/30store.hk"
         },
         {
             "name": "享樂烘焙 LY Bakery",
@@ -358,7 +358,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/lybakeryltd/posts/3720574131296227"
             ],
-            "charleywong": "https://charleywong.giffon.io/lybakeryltd"
+            "charleywong": "https://charleywong.info/lybakeryltd"
         },
         {
             "name": "黃到金奶黃月餅",
@@ -371,7 +371,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/101295394620152/photos/a.117850019631356/282530903163266"
             ],
-            "charleywong": "https://charleywong.giffon.io/list/%E9%BB%84%E5%88%B0%E9%87%91%E5%A5%B6%E9%BB%84%E6%9C%88%E9%A4%85/one_1p.m+Feederhk+s2_homemade_dessert"
+            "charleywong": "https://charleywong.info/list/%E9%BB%84%E5%88%B0%E9%87%91%E5%A5%B6%E9%BB%84%E6%9C%88%E9%A4%85/one_1p.m+Feederhk+s2_homemade_dessert"
         },
         {
             "name": "香城月餅",
@@ -383,7 +383,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.instagram.com/p/CDBjiVdJTHa/"
             ],
-            "charleywong": "https://charleywong.giffon.io/list/%E9%A6%99%E5%9F%8E%E6%9C%88%E9%A4%85/heungshingstore+Deedeeveryhk+sayheybakery"
+            "charleywong": "https://charleywong.info/list/%E9%A6%99%E5%9F%8E%E6%9C%88%E9%A4%85/heungshingstore+Deedeeveryhk+sayheybakery"
         },
         {
             "name": "《望月 X 牧羊少年 + Beans + HOW + 賞茶》",
@@ -395,7 +395,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/lalune.hongkong/posts/3179256238779320"
             ],
-            "charleywong": "https://charleywong.giffon.io/list/%E6%9C%9B%E6%9C%88%20X%20%E7%89%A7%E7%BE%8A%E5%B0%91%E5%B9%B4%20+%20Beans%20+%20HOW%20+%20%E8%B3%9E%E8%8C%B6/wangyuehk+thealchemistcafehk+bean234+howdept+anicegift"
+            "charleywong": "https://charleywong.info/list/%E6%9C%9B%E6%9C%88%20X%20%E7%89%A7%E7%BE%8A%E5%B0%91%E5%B9%B4%20+%20Beans%20+%20HOW%20+%20%E8%B3%9E%E8%8C%B6/wangyuehk+thealchemistcafehk+bean234+howdept+anicegift"
         },
         {
             "name": "大班麵包西餅",
@@ -407,7 +407,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/taipan.com.hk/posts/3236555656407416"
             ],
-            "charleywong": "https://charleywong.giffon.io/taipan.com.hk"
+            "charleywong": "https://charleywong.info/taipan.com.hk"
         },
         {
             "name": "GoodDay Cafe",
@@ -419,7 +419,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/gooddaycafehk/photos/a.1685998661717007/2626985984284932"
             ],
-            "charleywong": "https://charleywong.giffon.io/gooddaycafehk"
+            "charleywong": "https://charleywong.info/gooddaycafehk"
         },
         {
             "name": "香菜月餅",
@@ -431,7 +431,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.instagram.com/p/CCphMZMANP_/"
             ],
-            "charleywong": "https://charleywong.giffon.io/list/%E9%A6%99%E8%8F%9C%E6%9C%88%E9%A4%85/mr.coriander.hk+an_autumn_night+diontheeater"
+            "charleywong": "https://charleywong.info/list/%E9%A6%99%E8%8F%9C%E6%9C%88%E9%A4%85/mr.coriander.hk+an_autumn_night+diontheeater"
         },
         {
             "name": "Mic Mic Cooking",
@@ -443,7 +443,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.instagram.com/p/CCiSR1gA5yx/"
             ],
-            "charleywong": "https://charleywong.giffon.io/micmiccooking"
+            "charleywong": "https://charleywong.info/micmiccooking"
         },
         {
             "name": "FairTaste 細味公平",
@@ -458,7 +458,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/FAIRTASTE/posts/10158608733415168"
             ],
-            "charleywong": "https://charleywong.giffon.io/FAIRTASTE"
+            "charleywong": "https://charleywong.info/FAIRTASTE"
         },
         {
             "name": "B.K Bakery",
@@ -472,7 +472,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/permalink.php?story_fbid=174625954037436&id=101671684666197"
             ],
-            "charleywong": "https://charleywong.giffon.io/b.k_bakery"
+            "charleywong": "https://charleywong.info/b.k_bakery"
         },
         {
             "name": "Kidultland",
@@ -484,7 +484,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/permalink.php?story_fbid=1719920428157463&id=1233932176756293"
             ],
-            "charleywong": "https://charleywong.giffon.io/kidultland_cake_hk"
+            "charleywong": "https://charleywong.info/kidultland_cake_hk"
         },
         {
             "name": "Bake For You 焙住你",
@@ -498,7 +498,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/BakeForYou.HK/photos/a.173279866675290/589072901762649"
             ],
-            "charleywong": "https://charleywong.giffon.io/BakeForYou.HK"
+            "charleywong": "https://charleywong.info/BakeForYou.HK"
         },
         {
             "name": "初見",
@@ -514,7 +514,7 @@ class Mooncake2020 extends View {
                 "https://www.facebook.com/hk.firstsight/posts/182631969988857",
                 "https://www.facebook.com/hk.firstsight/posts/191540385764682"
             ],
-            "charleywong": "https://charleywong.giffon.io/hk.firstsight"
+            "charleywong": "https://charleywong.info/hk.firstsight"
         },
         {
             "name": "良糧 ExcellenTaste",
@@ -527,7 +527,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/excellentastehk/posts/331148061604296"
             ],
-            "charleywong": "https://charleywong.giffon.io/excellentastehk"
+            "charleywong": "https://charleywong.info/excellentastehk"
         },
         {
             "name": "煋悅「素月餅」",
@@ -543,7 +543,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/104471644632495/photos/a.115048203574839/147759693637023/"
             ],
-            "charleywong": "https://charleywong.giffon.io/list/%E7%85%8B%E6%82%85%E3%80%8C%E7%B4%A0%E6%9C%88%E9%A4%85%E3%80%8D/h.f._project+siuchumadeintsuenwan+prawnnoodleshop+thesteamhut+dingdong_don+aromadessertcafe"
+            "charleywong": "https://charleywong.info/list/%E7%85%8B%E6%82%85%E3%80%8C%E7%B4%A0%E6%9C%88%E9%A4%85%E3%80%8D/h.f._project+siuchumadeintsuenwan+prawnnoodleshop+thesteamhut+dingdong_don+aromadessertcafe"
         },
         {
             "name": "Dawn Kitchen",
@@ -555,7 +555,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/permalink.php?story_fbid=124596215992173&id=100892618362533"
             ],
-            "charleywong": "https://charleywong.giffon.io/dawnkitchenhk"
+            "charleywong": "https://charleywong.info/dawnkitchenhk"
         },
         {
             "name": "HANA Soft Cream",
@@ -567,7 +567,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/hanasoftcream/photos/a.1294250863987537/3253205314758739"
             ],
-            "charleywong": "https://charleywong.giffon.io/hanasoftcream"
+            "charleywong": "https://charleywong.info/hanasoftcream"
         },
         {
             "name": "Sogno Gelato",
@@ -579,7 +579,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/Sogno.Gelato.HK/posts/619422245382911"
             ],
-            "charleywong": "https://charleywong.giffon.io/Sogno.Gelato.HK"
+            "charleywong": "https://charleywong.info/Sogno.Gelato.HK"
         },
         {
             "name": "黃色助人圈",
@@ -591,7 +591,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/102267268188468/photos/a.106540667761128/149785976769930"
             ],
-            "charleywong": "https://charleywong.giffon.io/yellowsupports"
+            "charleywong": "https://charleywong.info/yellowsupports"
         },
         {
             "name": "無名士 momingsi",
@@ -603,7 +603,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/momingsihk/posts/130798778722374"
             ],
-            "charleywong": "https://charleywong.giffon.io/momingsihk"
+            "charleywong": "https://charleywong.info/momingsihk"
         },
         {
             "name": "百。般滋味。夫妻拍住煮",
@@ -617,7 +617,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/honanayummy/posts/657795951505363"
             ],
-            "charleywong": "https://charleywong.giffon.io/honanayummy"
+            "charleywong": "https://charleywong.info/honanayummy"
         },
         {
             "name": "神經餵飼",
@@ -633,7 +633,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/feedyournerves/posts/1577914042383550"
             ],
-            "charleywong": "https://charleywong.giffon.io/feedyournerves"
+            "charleywong": "https://charleywong.info/feedyournerves"
         },
         {
             "name": "香港愛護動物協會",
@@ -645,7 +645,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/spcahk/posts/10157336084222385"
             ],
-            "charleywong": "https://charleywong.giffon.io/spcahk"
+            "charleywong": "https://charleywong.info/spcahk"
         },
         {
             "name": "茶犬舍",
@@ -657,7 +657,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/teadoghouse/posts/726524791230893"
             ],
-            "charleywong": "https://charleywong.giffon.io/teadoghouse"
+            "charleywong": "https://charleywong.info/teadoghouse"
         },
         {
             "name": "Cheese n Dash",
@@ -669,7 +669,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/cheesendash/posts/1630781523773951"
             ],
-            "charleywong": "https://charleywong.giffon.io/cheesendash"
+            "charleywong": "https://charleywong.info/cheesendash"
         },
         {
             "name": "Sweety Pet Sitter",
@@ -681,7 +681,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/sweetypetsitter/posts/1606956816144314"
             ],
-            "charleywong": "https://charleywong.giffon.io/sweetypetsitter"
+            "charleywong": "https://charleywong.info/sweetypetsitter"
         },
         {
             "name": "Dogttitude",
@@ -693,7 +693,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/permalink.php?story_fbid=171761117743307&id=102625551323531"
             ],
-            "charleywong": "https://charleywong.giffon.io/_dogttitude_"
+            "charleywong": "https://charleywong.info/_dogttitude_"
         },
         {
             "name": "Hakuchi Natural Pet Food Shop",
@@ -705,7 +705,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/hakuchi.npfs/posts/960042371134623"
             ],
-            "charleywong": "https://charleywong.giffon.io/hakuchi.npfs"
+            "charleywong": "https://charleywong.info/hakuchi.npfs"
         },
         {
             "name": "七和市集",
@@ -717,7 +717,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/sevensummarket/posts/920656135095943"
             ],
-            "charleywong": "https://charleywong.giffon.io/sevensummarket"
+            "charleywong": "https://charleywong.info/sevensummarket"
         },
         {
             "name": "水媽sweet工藝坊",
@@ -730,7 +730,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/shuima.pineapplecake/posts/2376953302519871"
             ],
-            "charleywong": "https://charleywong.giffon.io/shuima.pineapplecake"
+            "charleywong": "https://charleywong.info/shuima.pineapplecake"
         },
         {
             "name": "Panda Zoe",
@@ -742,7 +742,7 @@ class Mooncake2020 extends View {
                 "https://www.facebook.com/PandaZoeBakery/photos/a.891971987557764/3278004502287822",
                 "https://www.facebook.com/PandaZoeBakery/photos/a.891971987557764/3295876457167293"
             ],
-            "charleywong": "https://charleywong.giffon.io/PandaZoeBakery"
+            "charleywong": "https://charleywong.info/PandaZoeBakery"
         },
         {
             "name": "Bake Your Own BYO 自助烘焙",
@@ -753,7 +753,7 @@ class Mooncake2020 extends View {
                 "https://www.facebook.com/bakeyourownhk/photos/a.155340485049470/722906404959539",
                 "https://www.facebook.com/bakeyourownhk/photos/a.155340485049470/723755681541278"
             ],
-            "charleywong": "https://charleywong.giffon.io/bakeyourownhk"
+            "charleywong": "https://charleywong.info/bakeyourownhk"
         },
         {
             "name": "小食堂",
@@ -763,7 +763,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/TLK.com.hk/posts/2622932058022872"
             ],
-            "charleywong": "https://charleywong.giffon.io/TLK.com.hk"
+            "charleywong": "https://charleywong.info/TLK.com.hk"
         },
         {
             "name": "Mama A Bakery Workshop",
@@ -773,7 +773,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/mama.a.bakery/posts/2066345150165151"
             ],
-            "charleywong": "https://charleywong.giffon.io/mama.a.bakery"
+            "charleywong": "https://charleywong.info/mama.a.bakery"
         },
         {
             "name": "Cake Base",
@@ -783,7 +783,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/cakebaseshekmun/posts/717114165534078"
             ],
-            "charleywong": "https://charleywong.giffon.io/cakebaseshekmun"
+            "charleywong": "https://charleywong.info/cakebaseshekmun"
         },
         {
             "name": "二德惠烘焙DIY專門店",
@@ -793,7 +793,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/Twins.Baking.Supplies/posts/2571994649778136"
             ],
-            "charleywong": "https://charleywong.giffon.io/Twins.Bakery.Supplies"
+            "charleywong": "https://charleywong.info/Twins.Bakery.Supplies"
         },
         {
             "name": "烘焙便利店",
@@ -803,7 +803,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/baking11/posts/3385653661455639"
             ],
-            "charleywong": "https://charleywong.giffon.io/baking11"
+            "charleywong": "https://charleywong.info/baking11"
         },
         {
             "name": "糖屋烘焙",
@@ -814,7 +814,7 @@ class Mooncake2020 extends View {
                 "https://www.facebook.com/sugarhouse.com.hk/posts/2983521031874839",
                 "https://www.facebook.com/sugarhouse.com.hk/posts/2988206251406317"
             ],
-            "charleywong": "https://charleywong.giffon.io/sugarhouse.com.hk"
+            "charleywong": "https://charleywong.info/sugarhouse.com.hk"
         },
         {
             "name": "甜心烘焙",
@@ -825,7 +825,7 @@ class Mooncake2020 extends View {
                 "https://www.facebook.com/sweetybaking/posts/10158638038411092",
                 "https://www.facebook.com/sweetybaking/posts/10158741156896092"
             ],
-            "charleywong": "https://charleywong.giffon.io/sweetybaking"
+            "charleywong": "https://charleywong.info/sweetybaking"
         },
         {
             "name": "Housemaking Fun 家政坊",
@@ -835,7 +835,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.facebook.com/hmakingfun/posts/2465120693527179"
             ],
-            "charleywong": "https://charleywong.giffon.io/hmakingfun"
+            "charleywong": "https://charleywong.info/hmakingfun"
         },
         {
             "name": "Orange Baking Store 橘子烘焙專門店",
@@ -846,7 +846,7 @@ class Mooncake2020 extends View {
                 "https://www.facebook.com/OrangeBakingStore/posts/1795154347234688",
                 "https://www.facebook.com/OrangeBakingStore/photos/a.840537572696375/1795150880568368/"
             ],
-            "charleywong": "https://charleywong.giffon.io/OrangeBakingStore"
+            "charleywong": "https://charleywong.info/OrangeBakingStore"
         },
         {
             "name": "konighonig",
@@ -856,7 +856,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.instagram.com/p/CDT0FKwjhZh/"
             ],
-            "charleywong": "https://charleywong.giffon.io/konighonig"
+            "charleywong": "https://charleywong.info/konighonig"
         },
         {
             "name": "🎗Yellowbucks黃豆咖啡館",
@@ -868,7 +868,7 @@ class Mooncake2020 extends View {
             "info": [
                 "https://www.instagram.com/p/CDb8MzppVCm/"
             ],
-            "charleywong": "https://charleywong.giffon.io/yellowbuckshk"
+            "charleywong": "https://charleywong.info/yellowbuckshk"
         },
     ];
 

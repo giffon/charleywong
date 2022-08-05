@@ -91,4 +91,4 @@ jobs:
           EARTHLY_SECRET_FILES: .envrc=.envrc
       - name: Post-deployment test
         if: success() && env.PUSH == 'true' && github.event_name == 'push'
-        run: earthly +test --TEST="post-deployment charleywong-master.giffon.io"
+        run: earthly +test --TEST="post-deployment master.charleywong.info"

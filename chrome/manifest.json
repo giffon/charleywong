@@ -3,9 +3,16 @@
   "version": "0.1",
   "description": "Display a button next to links that Charley Wong knows about.",
   "manifest_version": 2,
-  "permissions": ["storage", "contextMenus", "notifications", "unlimitedStorage"],
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "notifications",
+    "unlimitedStorage"
+  ],
   "background": {
-    "scripts": ["Background.js"],
+    "scripts": [
+      "Background.js"
+    ],
     "persistent": false
   },
   "browser_action": {
@@ -21,9 +28,15 @@
         "https://*/*",
         "http://*/*"
       ],
-      "exclude_matches": ["https://charleywong.giffon.io/*"],
-      "js": ["Content.js"],
-      "css": ["style.css"]
+      "exclude_matches": [
+        "https://charleywong.info/*"
+      ],
+      "js": [
+        "Content.js"
+      ],
+      "css": [
+        "style.css"
+      ]
     }
   ],
   "options_ui": {
