@@ -13,6 +13,7 @@ import fastify.*;
 import sys.io.File;
 import js.html.URL;
 import haxe.*;
+import haxe.io.Path;
 import charleywong.views.*;
 import js.Node.*;
 import charleywong.UrlExtractors.*;
@@ -371,10 +372,22 @@ class ServerMain {
     }
 
     static function noTrailingSlash(req:Request, reply:Reply):Promise<Any> {
-        var url = new node.url.URL(req.raw.url, "http://example.com");
+        final url = new node.url.URL(req.raw.url, "http://example.com");
         if (url.pathname.endsWith('/') && url.pathname.length > 1) {
-            var redirectTo = url.pathname.substr(0, url.pathname.length-1) + url.search;
+            final redirectTo = url.pathname.substr(0, url.pathname.length-1) + url.search;
             reply.redirect(301, redirectTo);
+        }
+        return Promise.resolve();
+    }
+
+    static function noOldDomain(req:Request, reply:Reply):Promise<Any> {
+        switch (req.hostname) {
+            case "charleywong.giffon.io":
+                final redirectTo = Path.join([domain, req.url]);
+                trace('redirect to $redirectTo');
+                reply.redirect(301, redirectTo);
+            case _:
+                // pass
         }
         return Promise.resolve();
     }
@@ -886,6 +899,7 @@ class ServerMain {
         });
 
         app.addHook("onRequest", noTrailingSlash);
+        app.addHook("onRequest", noOldDomain);
 
         app.get("/", index);
         app.get("/favicon.ico", favicon);
@@ -908,7 +922,9 @@ class ServerMain {
             initServer();
             app.listen(80, "0.0.0.0");
         } else if (Sys.getEnv("AWS_LAMBDA_FUNCTION_NAME") != null) {
-            app = Fastify.fastify();
+            app = Fastify.fastify({
+                trustProxy: true,
+            });
             initServer();
             js.Node.exports.handler = require('aws-lambda-fastify')(app, {
                 binaryMimeTypes: [
