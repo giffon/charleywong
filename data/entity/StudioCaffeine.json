@@ -33,8 +33,9 @@
     {
       "url": "https://www.instagram.com/studiocaffeine/",
       "meta": {
+        "website": "https://linktr.ee/studiocaffeine",
         "name": "Studio Caffeine",
-        "about": "- Official Instagram of Studio Caffeine\n- HKBrC 2017 Champion\n📍284 Temple Street, Jordan\n📍23 School Street, Tai Hang\n📍24 Au Pui Wan Street, Fo Tan"
+        "about": "- HKBrC 2017 Champion\n📍284 Temple Street, Jordan\n📍23 School Street, Tai Hang\n📍24 Au Pui Wan Street, Fo Tan\n📍126 Wharf Road, North Point"
       }
     }
   ],
@@ -64,10 +65,10 @@
       "address": {
         "en": "23 School Street, Tai Hang"
       },
-      "googleMapsPlaceId": "ChIJYxfwsVQABDQRWvVM92s0ePw",
+      "googleMapsPlaceId": "ChIJSS8PYEMBBDQRr4BnuiutgZE",
       "coordinates": {
-        "lat": 22.278443,
-        "lng": 114.1910801
+        "lat": 22.2784479,
+        "lng": 114.1910734
       },
       "area": {
         "zh": "灣仔區"
@@ -77,13 +78,26 @@
       "address": {
         "en": "24 Au Pui Wan Street, Fo Tan"
       },
-      "googleMapsPlaceId": "ChIJzazkWzQGBDQRZgZ3M8e0tkU",
+      "googleMapsPlaceId": "ChIJIcwlZKoHBDQRPoHIfHTKgq0",
       "coordinates": {
-        "lat": 22.3980697,
-        "lng": 114.1948642
+        "lat": 22.3980595,
+        "lng": 114.194807
       },
       "area": {
         "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "en": "126 Wharf Road, North Point"
+      },
+      "googleMapsPlaceId": "ChIJGR9vcAABBDQRceYtWVZLx6c",
+      "coordinates": {
+        "lat": 22.2921856,
+        "lng": 114.1980327
+      },
+      "area": {
+        "zh": "東區"
       }
     }
   ],
