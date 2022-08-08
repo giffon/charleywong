@@ -18,7 +18,7 @@
             "name": "Restaurant"
           }
         ],
-        "single_line_address": "山林道6號B舖, 852 香港，尖沙咀",
+        "single_line_address": "山林道6號B舖, 852 尖沙咀",
         "website": "http://www.openrice.com/restaurant/sr2.htm?shopid=147917"
       }
     },
@@ -51,6 +51,21 @@
     {
       "type": "eat",
       "id": 442
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀山林道6號B舖"
+      },
+      "googleMapsPlaceId": "ChIJVXXyDOwABDQRY652pPOnby8",
+      "coordinates": {
+        "lat": 22.3026306,
+        "lng": 114.172505
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
