@@ -209,7 +209,7 @@ class Content {
             return;
         }
         final times = posts
-            .map(node -> (cast node.querySelectorAll("span[dir='auto'] a[role='link'][href^='?']")[0]:AnchorElement))
+            .map(node -> [for (e in node.querySelectorAll("span[dir='auto'] a[role='link']")) (cast e:AnchorElement)][1])
             .filter(timeA -> timeA != null && timeA.offsetParent != null) // ignore invisible nodes
             .map(timeA -> {
                 node: timeA,
