@@ -72,6 +72,7 @@
     {
       "url": "https://www.instagram.com/favillacafe/",
       "meta": {
+        "website": "http://www.favilla.com.hk/",
         "name": "favilla cafe | favilla florist",
         "about": "favilla is a latin means sparkling. We provide a nice place with specialty coffee|florist|cuisine in Scandinavian and Japanese style. @favillaflorist"
       }
@@ -150,19 +151,6 @@
   "places": [
     {
       "address": {
-        "zh": "鰂魚涌海光街7-9號龍景大廈地下5A舖 favilla X Bless Cafe"
-      },
-      "googleMapsPlaceId": "ChIJAQCwSwwBBDQRNusIebAtifs",
-      "coordinates": {
-        "lat": 22.2883187,
-        "lng": 114.2109315
-      },
-      "area": {
-        "zh": "東區"
-      }
-    },
-    {
-      "address": {
         "zh": "觀塘開源道55號開聯工業中心B座6樓602A室 the Artlab by favilla"
       },
       "googleMapsPlaceId": "ChIJWVq3W9cBBDQRNQOGpubrEF0",
@@ -176,7 +164,20 @@
     },
     {
       "address": {
-        "zh": "新界荃灣青山公路荃灣段398號愉景新城2樓2013號舖 hōmu by favilla"
+        "zh": "鰂魚涌海光街7-9號龍景大廈地下5A舖 favilla cafe ~ the original"
+      },
+      "googleMapsPlaceId": "ChIJAQCwSwwBBDQRNusIebAtifs",
+      "coordinates": {
+        "lat": 22.2883187,
+        "lng": 114.2109315
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "新界荃灣青山公路荃灣段398號愉景新城2樓2013號舖 Hōmu by favilla"
       },
       "googleMapsPlaceId": "ChIJd6GNxcj5AzQRYOhEUI4_deI",
       "coordinates": {
@@ -198,6 +199,32 @@
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "紅磡香港理工大學Z座2樓 學．食 Cafeteria @ PolyU"
+      },
+      "googleMapsPlaceId": "ChIJgzg7COgABDQRjvMs1pyV0-g",
+      "coordinates": {
+        "lat": 22.3065227,
+        "lng": 114.1795945
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港薄扶林香港大學學生會大樓G01 學．食 Cafeteria @ HKU"
+      },
+      "googleMapsPlaceId": "ChIJBT_bsYX_AzQREmTjp7kuwuY",
+      "coordinates": {
+        "lat": 22.283144,
+        "lng": 114.135802
+      },
+      "area": {
+        "zh": "中西區"
       }
     }
   ]
