@@ -5,10 +5,14 @@
   },
   "webpages": [
     {
+      "url": "https://alcoholpleasehk.com"
+    },
+    {
       "url": "https://www.instagram.com/alcoholpleasehk/",
       "meta": {
-        "name": "Alcohol Please",
-        "about": "網上Whisky小店, 無舖租壓力下經營, 希望以更貼地價錢出售Whisky\nFB: Alcohol Please\n『根據香港法律，不得在業務過程中，向未成年人售賣或供應令人醺醉的酒類。』"
+        "website": "https://www.alcoholpleasehk.com/",
+        "name": "Alcohol Please | 香港威士忌",
+        "about": "Whisky, Wine & Rum小店, 希望以更貼地價錢出售各款靚酒🥃🍷"
       }
     },
     {
@@ -54,6 +58,21 @@
     {
       "type": "shop",
       "id": 1665
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍灣宏開道15號九龍灣工業中心 10樓19室"
+      },
+      "googleMapsPlaceId": "ChIJX00uqMEBBDQR1_j4fFhcgOQ",
+      "coordinates": {
+        "lat": 22.3230134,
+        "lng": 114.2105362
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ]
 }
