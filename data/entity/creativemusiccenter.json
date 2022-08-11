@@ -6,7 +6,11 @@
   },
   "webpages": [
     {
-      "url": "https://www.edmond-music.com"
+      "url": "https://www.cmusict.com"
+    },
+    {
+      "url": "https://www.edmond-music.com",
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/creativemusiccenter/",
@@ -33,7 +37,7 @@
       "meta": {
         "website": "http://www.cmusict.com/",
         "name": "教授 結他 木結他 電結他 琴行 Ukulele 鼓 木箱鼓",
-        "about": "葵芳:葵涌葵豐街2號鍾意恆勝中心12F 02A室\n旺角:塘尾道55號新興鋼具商業大廈13F A室\n☎: 5139-4324 (葵興) 9606-2043(旺角)\n📆開業十年 售出樂器50萬支\n📸曾受多間媒體訪問 信心保證\n#木結他 #電結他 #樂器課程 #結他班 #數碼鋼琴"
+        "about": "葵芳維修工廠:\n只限工作人員進入:葵涌葵豐街2號鍾意恆勝中心12F 02A室\n旺角:塘尾道55號新興鋼具商業大廈13F A室\n☎: （葵興）5139-4324\n（旺角）9606-2043\n📆開業十年 售出樂器50萬支\n#木結他 #電結他 #樂器課程 #結他班 #數碼鋼琴"
       }
     },
     {
@@ -84,20 +88,7 @@
   "places": [
     {
       "address": {
-        "zh": "葵涌葵豐街2號鍾意恆勝中心12樓02A室"
-      },
-      "googleMapsPlaceId": "ChIJscN5Hpr4AzQRC2vUBXTSNmk",
-      "coordinates": {
-        "lat": 22.3551559,
-        "lng": 114.1250773
-      },
-      "area": {
-        "zh": "葵青區"
-      }
-    },
-    {
-      "address": {
-        "zh": "大角咀塘尾道55號新興鋼具商業大廈13F A室"
+        "zh": "塘尾道55號新興鋼具商業大廈13F A室"
       },
       "googleMapsPlaceId": "ChIJw_CQzscABDQRtJADQsHQmNw",
       "coordinates": {
@@ -106,6 +97,19 @@
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵涌葵豐街2號鍾意恆勝中心12樓02A室 (維修工廠)"
+      },
+      "googleMapsPlaceId": "ChIJscN5Hpr4AzQRC2vUBXTSNmk",
+      "coordinates": {
+        "lat": 22.3551559,
+        "lng": 114.1250773
+      },
+      "area": {
+        "zh": "葵青區"
       }
     }
   ],
