@@ -1,7 +1,8 @@
 {
   "id": "JIEJIEHK",
   "name": {
-    "en": "JieJie & UncleCat"
+    "en": "JieJie & UncleCat",
+    "zh": "爵爵&貓叔"
   },
   "webpages": [
     {
@@ -27,7 +28,28 @@
       "url": "https://www.facebook.com/JIEJIE.UNCLECAT/"
     },
     {
+      "url": "https://www.facebook.com/jiejie.unclecat.cafe/",
       "meta": {
+        "id": "1090238057761710",
+        "username": "jiejie.unclecat.cafe",
+        "name": "爵爵&貓叔商行",
+        "about": "為了生計，\n賣賣咖啡，\n賣賣輕食，\n賣賣周邊商品，\n也順便當一下神棍哈哈~~\n",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          },
+          {
+            "id": "1738077623073078",
+            "name": "Theme Restaurant"
+          }
+        ],
+        "single_line_address": "802 台灣高雄市苓雅區興中一路243巷41號"
+      }
+    },
+    {
+      "meta": {
+        "website": "https://www.facebook.com/JIEJIE.UNCLECAT",
         "name": "爵爵＆貓叔",
         "about": "叫我爵爵，身在香港的台灣人，貓叔，曾住過台灣的香港人，維維，是可人兒，阿寶是哥哥，多士是妹妹。#爵爵貓叔 @jiejie_unclecat #爵爵貓叔商行"
       },
@@ -40,6 +62,23 @@
     }
   ],
   "tags": [
-    "artist"
+    "artist",
+    "cafe",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "台灣高雄市苓雅區興中一路243巷41號"
+      },
+      "googleMapsPlaceId": "ChIJx72n_JwEbjQRD_VsACArEJI",
+      "coordinates": {
+        "lat": 22.6169289,
+        "lng": 120.3111718
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    }
   ]
 }
