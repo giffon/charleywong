@@ -1,0 +1,71 @@
+{
+  "id": "tsitpha",
+  "name": {
+    "zh": "一盞咖啡"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/602161876522363/",
+      "meta": {
+        "id": "602161876522363",
+        "username": "tsitpha",
+        "name": "一盞咖啡",
+        "about": "老咖啡、老茶、老雷。",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          },
+          {
+            "id": "203462172997785",
+            "name": "Tea Room"
+          },
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          }
+        ],
+        "single_line_address": "802 台灣高雄市復興二路49巷9號"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/tsitpha/",
+      "meta": {
+        "name": "一盞咖啡",
+        "about": "老雷、老茶、老咖啡"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/tsitpha/posts/3004484239623436/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/tsitpha/posts/3075480192523840/",
+      "meta": {
+        "sharedWith": "Public"
+      }
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "台灣高雄市復興二路49巷9號"
+      },
+      "googleMapsPlaceId": "ChIJSfaqOo0FbjQRqpZMEur5uhc",
+      "coordinates": {
+        "lat": 22.620373,
+        "lng": 120.309862
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    }
+  ]
+}

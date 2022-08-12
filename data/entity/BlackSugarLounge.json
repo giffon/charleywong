@@ -1,0 +1,57 @@
+{
+  "id": "BlackSugarLounge",
+  "name": {
+    "en": "Black Sugar"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/104722205200700/",
+      "meta": {
+        "id": "104722205200700",
+        "username": "BlackSugarLounge",
+        "name": "Black Sugar",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "110290705711626",
+            "name": "Bar"
+          }
+        ],
+        "emails": [
+          "blacksugarlounge@gmail.com"
+        ],
+        "single_line_address": "台灣 New Taipei City 新北市林口區八德路350號1樓"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/blacksugarlounge/",
+      "meta": {
+        "name": "Black Sugar",
+        "about": "Restaurant"
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "bar",
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "台灣新北市林口區八德路350號1樓"
+      },
+      "googleMapsPlaceId": "ChIJT7hFKD2nQjQRcpmnTkpBV7s",
+      "coordinates": {
+        "lat": 25.0661041,
+        "lng": 121.3598991
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    }
+  ]
+}
