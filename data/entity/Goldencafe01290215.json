@@ -77,6 +77,20 @@
           }
         ]
       }
+    },
+    {
+      "url": "https://www.facebook.com/253023189906718/",
+      "hidden": true,
+      "meta": {
+        "id": "253023189906718",
+        "name": "黃金冰室 成業店",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ]
+      }
     }
   ],
   "posts": [
@@ -121,10 +135,10 @@
       "address": {
         "zh": "葵涌石蔭路85-97號光輝樓地下C-E號舖"
       },
-      "googleMapsPlaceId": "ChIJT5I1tZz4AzQR_S6hrNQdFuo",
+      "googleMapsPlaceId": "ChIJsSQqR7v5AzQRPUWWtRE-TMs",
       "coordinates": {
-        "lat": 22.369544,
-        "lng": 114.13938
+        "lat": 22.3698271,
+        "lng": 114.1392005
       },
       "area": {
         "zh": "葵青區"
@@ -134,10 +148,10 @@
       "address": {
         "zh": "北角電氣道254-280號地下I號鋪"
       },
-      "googleMapsPlaceId": "EicyNTQgRWxlY3RyaWMgUmQsIE5vcnRoIFBvaW50LCBIb25nIEtvbmciMRIvChQKEgnny_E6AgEENBFBGwhhWA9FNBD-ASoUChIJj8MzvwEBBDQR8AN2oiww8yU",
+      "googleMapsPlaceId": "ChIJ7402WCoBBDQR0lOZVrgheLE",
       "coordinates": {
-        "lat": 22.2891651,
-        "lng": 114.1937252
+        "lat": 22.2893799,
+        "lng": 114.1938199
       },
       "area": {
         "zh": "東區"
@@ -147,10 +161,10 @@
       "address": {
         "zh": "觀塘成業街11號華成工商中心地下2號舖"
       },
-      "googleMapsPlaceId": "ChIJjaD2UEUBBDQR4xbghFTCtnk",
+      "googleMapsPlaceId": "ChIJnXFcWxUBBDQRVP4Ie-OhabM",
       "coordinates": {
-        "lat": 22.310652,
-        "lng": 114.226535
+        "lat": 22.3105685,
+        "lng": 114.226441
       },
       "area": {
         "zh": "觀塘區"
@@ -177,6 +191,10 @@
     {
       "type": "eat",
       "id": 1452
+    },
+    {
+      "type": "eat",
+      "id": 6808
     }
   ]
 }
