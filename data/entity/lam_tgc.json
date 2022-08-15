@@ -1,7 +1,7 @@
 {
-  "id": "195441687227881",
+  "id": "lam_tgc",
   "name": {
-    "zh": "泰金國"
+    "zh": "泰金國 (北角店)"
   },
   "webpages": [
     {
@@ -16,6 +16,13 @@
           }
         ],
         "single_line_address": "九龍城衙前圍道36A, 香港，九龍"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/lam_tgc/",
+      "meta": {
+        "name": "泰金國-北角店",
+        "about": "北角泰金國係九龍城衙前圍道36A細鋪泰金國嘅老細搬遷回歸香港區，地址：北角城市花園道9號（顯理中學對面）"
       }
     }
   ],
@@ -34,15 +41,15 @@
   "places": [
     {
       "address": {
-        "zh": "九龍城 衙前圍道 36A"
+        "zh": "北角城市花園道9號"
       },
-      "googleMapsPlaceId": "ChIJEd5JWdUGBDQRZexjQEVAMRU",
+      "googleMapsPlaceId": "ChIJ-TJbC9MBBDQRx17SaixNLjU",
       "coordinates": {
-        "lat": 22.3289577,
-        "lng": 114.1917152
+        "lat": 22.2913151,
+        "lng": 114.1951136
       },
       "area": {
-        "zh": "九龍城區"
+        "zh": "東區"
       }
     }
   ],
@@ -50,6 +57,13 @@
     {
       "type": "eat",
       "id": 642
+    },
+    {
+      "type": "eat",
+      "id": 6818
     }
+  ],
+  "alias": [
+    "195441687227881"
   ]
 }
