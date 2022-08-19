@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 0
       - uses: earthly/actions-setup@v1
         with:
-          version: "v0.6.21"
+          version: "v0.6.19"
       - name: Create .envrc
         run: |
           cat > .envrc <<EOT
