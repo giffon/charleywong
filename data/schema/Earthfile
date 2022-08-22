@@ -1,0 +1,8 @@
+VERSION 0.6
+
+iso3166Area.json:
+    FROM alpine:3.16
+    RUN apk add jq
+    COPY ../iso3166/+iso3166-1.json/* .
+    RUN cat iso3166-1.json | jq 'to_entries | map(select(.value.zh_hk)) | map({zh: .value.zh_hk}) as $v | { "$id": "Iso3166Area.json", enum: $v}' > Iso3166Area.json
+    SAVE ARTIFACT Iso3166Area.json AS LOCAL .

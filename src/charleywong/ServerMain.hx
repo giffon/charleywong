@@ -811,21 +811,13 @@ class ServerMain {
                                             { zh: dc.district };
                                     }
                                 case { short_name: "TW" }: { zh: "臺灣" };
-                                case { short_name: "US" }: { zh: "美國" };
-                                case { short_name: "JP" }: { zh: "日本" };
-                                case { short_name: "CN" }: { zh: "中國" };
-                                case { short_name: "NZ" }: { zh: "紐西蘭" };
-                                case { short_name: "SG" }: { zh: "新加坡" };
-                                case { short_name: "MO" }: { zh: "澳門" };
-                                case { short_name: "GB" }: { zh: "英國" };
-                                case { short_name: "DE" }: { zh: "德國" };
-                                case { short_name: "CA" }: { zh: "加拿大" };
-                                case { short_name: "AU" }: { zh: "澳洲" };
-                                case { short_name: "MY" }: { zh: "馬來西亞" };
-                                case { short_name: "CZ" }: { zh: "捷克" };
                                 case { short_name: code, long_name: name }:
-                                    trace('Missing Chinese name of ${code}. Check https://zh.wikipedia.org/wiki/ISO_3166-1.');
-                                    { en: name };
+                                    final iso:DynamicAccess<{
+                                        zh_hant:String,
+                                        en:String,
+                                    }> = haxe.Json.parse(sys.io.File.getContent("data/iso3166/iso3166-1.json"));
+                                    final info = iso[code];
+                                    { zh: info.zh_hant };
                             }
                     }
                 })
