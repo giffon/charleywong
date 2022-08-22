@@ -29,9 +29,9 @@ PREFIX bds: <http://www.bigdata.com/rdf/search#>
 PREFIX gas: <http://www.bigdata.com/rdf/gas#>
 PREFIX hint: <http://www.bigdata.com/queryHints#>
 
-SELECT DISTINCT ?code ?zh_hant ?en WHERE {
+SELECT DISTINCT ?code ?zh_hk ?en WHERE {
   ?item wdt:P297 ?code .
   OPTIONAL {?item rdfs:label ?en FILTER (LANG(?en) = "en")}.
-  OPTIONAL {?item rdfs:label ?zh_hant FILTER (LANG(?zh_hant) = "zh-hant")}.
+  OPTIONAL {?item rdfs:label ?zh_hk FILTER (LANG(?zh_hk) = "zh-hk")}.
 }
 ORDER BY (?code)

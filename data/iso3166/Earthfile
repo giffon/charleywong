@@ -23,5 +23,5 @@ iso3166-1.json:
     FROM alpine:3.16
     RUN apk add jq
     COPY +rsparql-iso3166-1.json/rsparql-iso3166-1.json .
-    RUN cat rsparql-iso3166-1.json | jq '.results.bindings | map({(.code.value): { zh_hant: .zh_hant.value, en: .en.value }}) | add' > iso3166-1.json
+    RUN cat rsparql-iso3166-1.json | jq '.results.bindings | map({(.code.value): { zh_hk: .zh_hk.value, en: .en.value }}) | add' > iso3166-1.json
     SAVE ARTIFACT iso3166-1.json AS LOCAL .
