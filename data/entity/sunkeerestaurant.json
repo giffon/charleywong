@@ -1,7 +1,8 @@
 {
   "id": "sunkeerestaurant",
   "name": {
-    "zh": "新記芝士麵・新記冰室"
+    "zh": "新記芝士麵・新記冰室",
+    "en": "Sun Kee Cafe"
   },
   "webpages": [
     {
@@ -37,37 +38,13 @@
       }
     },
     {
-      "url": "https://www.facebook.com/sunkeerestaurant/posts/3123371197692450",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
       "url": "https://www.facebook.com/sunkeerestaurant/posts/3229185903777645",
       "meta": {
         "sharedWith": "Public"
       }
     },
     {
-      "url": "https://www.facebook.com/sunkeerestaurant/posts/3255831231113112",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
       "url": "https://www.facebook.com/sunkeerestaurant/posts/3384961351533432",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/sunkeerestaurant/posts/3450360928326807",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/sunkeerestaurant/posts/3666461920050039",
       "meta": {
         "sharedWith": "Public"
       }
@@ -98,19 +75,6 @@
   "places": [
     {
       "address": {
-        "zh": "九龍旺角砵蘭街185號地下"
-      },
-      "googleMapsPlaceId": "ChIJDcuTcscABDQRDskrBFGfQRk",
-      "coordinates": {
-        "lat": 22.31681,
-        "lng": 114.1690729
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
         "zh": "荃灣海壩街89-93號荃好景大廈地下D舖"
       },
       "googleMapsPlaceId": "ChIJIytRrrr5AzQRM5W9qARC3bQ",
@@ -120,6 +84,19 @@
       },
       "area": {
         "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "福岡縣福岡市南區横手南町2番15號"
+      },
+      "googleMapsPlaceId": "ChIJ0UKu0-iQQTURW4HyK7wuVmg",
+      "coordinates": {
+        "lat": 33.5471647,
+        "lng": 130.443557
+      },
+      "area": {
+        "zh": "日本"
       }
     }
   ]
