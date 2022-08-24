@@ -34,7 +34,9 @@
     {
       "url": "https://www.instagram.com/2degreestudio/",
       "meta": {
-        "name": "異度空間工作室"
+        "website": "https://www.2degreestudio.com/",
+        "name": "異度空間工作室",
+        "about": "銅鑼灣門市 (11am - 9:30pm)\n銅鑼灣羅素街59號麗園大廈地下B6號舖\n旺角門市 (11am - 9:30pm)\n旺角星際城市地下8號舖 (門口位於西洋菜南街)\nMOKO門市 (11:30am - 9pm)\n旺角MOKO 新世紀廣場3樓357號舖 (Foodcourt前面)"
       }
     },
     {
@@ -71,6 +73,18 @@
     {
       "type": "shop",
       "id": 4760
+    },
+    {
+      "type": "shop",
+      "id": 7202
+    },
+    {
+      "type": "shop",
+      "id": 7221
+    },
+    {
+      "type": "shop",
+      "id": 7222
     }
   ],
   "places": [
@@ -82,6 +96,32 @@
       "coordinates": {
         "lat": 22.3178944,
         "lng": 114.1701908
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣羅素街59號麗園大廈地下B6號舖"
+      },
+      "googleMapsPlaceId": "ChIJR5ymYXEBBDQRBDSWvP_hHzI",
+      "coordinates": {
+        "lat": 22.279031,
+        "lng": 114.1832623
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍旺角MOKO 新世紀廣場3樓357號舖"
+      },
+      "googleMapsPlaceId": "ChIJvXUn2MYBBDQRXM9N6s-Zejs",
+      "coordinates": {
+        "lat": 22.3232629,
+        "lng": 114.1723265
       },
       "area": {
         "zh": "油尖旺區"
