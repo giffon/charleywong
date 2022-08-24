@@ -813,11 +813,13 @@ class ServerMain {
                                 case { short_name: "TW" }: { zh: "臺灣" };
                                 case { short_name: code, long_name: name }:
                                     final iso:DynamicAccess<{
-                                        zh_hant:String,
+                                        zh_hk:String,
                                         en:String,
                                     }> = haxe.Json.parse(sys.io.File.getContent("data/iso3166/iso3166-1.json"));
                                     final info = iso[code];
-                                    { zh: info.zh_hant };
+                                    if (info == null)
+                                        throw 'No info about $code';
+                                    { zh: info.zh_hk };
                             }
                     }
                 })
