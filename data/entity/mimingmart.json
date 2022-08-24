@@ -35,8 +35,9 @@
     {
       "url": "https://www.instagram.com/mimingmart/",
       "meta": {
+        "website": "https://bit.ly/mimingmartlinks",
         "name": "MI MING MART",
-        "about": "MI MING MART讓每位女生都可以找到適合自己的有效健康的Clean Beauty産品，嚴選世界各地天然無害產品，向無害生活出發❤️🐑 #mimingmart @mimingmart"
+        "about": "MI MING MART讓每位女生都可以找到適合自己的有效健康的Clean Beauty產品，嚴選世界各地天然無害產品，向無害生活出發❤️🐑"
       }
     },
     {
@@ -107,6 +108,10 @@
     {
       "type": "shop",
       "id": 890
+    },
+    {
+      "type": "shop",
+      "id": 7212
     }
   ],
   "places": [
@@ -138,12 +143,12 @@
     },
     {
       "address": {
-        "zh": "尖沙咀加連威老道 39-41號 地下A舖"
+        "zh": "尖沙咀河內道18號K11 購物藝術館B2層B229A號舖"
       },
       "googleMapsPlaceId": "ChIJ__8rj-4ABDQRJD7vMoCqAsU",
       "coordinates": {
-        "lat": 22.300201,
-        "lng": 114.1745665
+        "lat": 22.2972778,
+        "lng": 114.1733357
       },
       "area": {
         "zh": "油尖旺區"
@@ -151,7 +156,7 @@
     },
     {
       "address": {
-        "zh": "旺角雅蘭中心地下LA10"
+        "zh": "旺角彌敦道625及639號雅蘭中心地下G06 & 07號舖"
       },
       "googleMapsPlaceId": "ChIJYUGMoscABDQRovRD65VUX7g",
       "coordinates": {
@@ -190,12 +195,12 @@
     },
     {
       "address": {
-        "zh": "沙田中心 3 樓 25G-H號舖"
+        "zh": "沙田新城市廣場三期三樓A305號舖"
       },
       "googleMapsPlaceId": "ChIJD8KFQK0HBDQRf9YfDWH7xt8",
       "coordinates": {
-        "lat": 22.3822282,
-        "lng": 114.1905663
+        "lat": 22.379537,
+        "lng": 114.187559
       },
       "area": {
         "zh": "沙田區"
@@ -229,15 +234,15 @@
     },
     {
       "address": {
-        "zh": "荃灣千色匯I期2樓2050舖"
+        "zh": "葵芳興芳路223號新都會廣場3樓323號舖"
       },
-      "googleMapsPlaceId": "ChIJ8ZcpB-34AzQRV9uaxcpCt3o",
+      "googleMapsPlaceId": "ChIJB0EHhyj5AzQRybkxGpu0klo",
       "coordinates": {
-        "lat": 22.370616,
-        "lng": 114.117358
+        "lat": 22.35743639999999,
+        "lng": 114.1266565
       },
       "area": {
-        "zh": "荃灣區"
+        "zh": "葵青區"
       }
     }
   ]
