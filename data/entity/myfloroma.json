@@ -31,8 +31,8 @@
       "url": "https://www.instagram.com/myfloroma/",
       "meta": {
         "website": "https://floroma.net/",
-        "name": "Floroma 花之滴 - 香港最受歡迎手工香水品牌",
-        "about": "專門店：\n📍旺角新世紀廣場1樓109舖\n📍元朗形點一期1樓1128A舖Clarins旁\n📍荃灣綠楊坊地下Pop-up zone Kiosk C 荃灣C出口直行\n📍THE LOHAS 康城3樓Pop-up Zone Kiosk B09\n𝐀𝐑𝐎𝐌𝐀 𝐅𝐑𝐎𝐌 𝐅𝐋𝐎𝐖𝐄𝐑𝐒\n🇫🇷法國原料 🇭🇰香港製造"
+        "name": "Floroma 花之滴 | 𝐁𝐋𝐎𝐒𝐒𝐎𝐌 𝐋𝐈𝐊𝐄 𝐅𝐋𝐎𝐖𝐄𝐑𝐒",
+        "about": "專門店：\n📍旺角新世紀廣場1樓109舖\n📍葵芳新都會廣場327號鋪Loccitane旁\n📍元朗形點一期1樓1128A舖Clarins旁\n📍荃灣綠楊坊地下Pop-up zone Kiosk C (C出口直行)\n📍THE LOHAS 康城3樓Pop-up B09\n🇫🇷法國原料 🇭🇰香港製造"
       }
     }
   ],
@@ -51,6 +51,19 @@
     "shop"
   ],
   "places": [
+    {
+      "address": {
+        "zh": "葵芳新都會廣場3樓327號舖"
+      },
+      "googleMapsPlaceId": "ChIJD97Th__5AzQRmmWrAHO-eVw",
+      "coordinates": {
+        "lat": 22.3578559,
+        "lng": 114.1270807
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    },
     {
       "address": {
         "zh": "旺角新世紀廣場1樓109號舖"
@@ -75,6 +88,32 @@
       },
       "area": {
         "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣綠楊坊G/F Pop-up zone Kiosk C"
+      },
+      "googleMapsPlaceId": "ChIJff5rVu34AzQRzsllL1ij6Oo",
+      "coordinates": {
+        "lat": 22.3729004,
+        "lng": 114.1191563
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "THE LOHAS 康城3樓Pop-up Zone B Kiosk B09"
+      },
+      "googleMapsPlaceId": "ChIJbaeM7dMDBDQRXuPZHy4fLJM",
+      "coordinates": {
+        "lat": 22.2949071,
+        "lng": 114.2697138
+      },
+      "area": {
+        "zh": "西貢區"
       }
     }
   ]
