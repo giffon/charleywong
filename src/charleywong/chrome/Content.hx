@@ -215,7 +215,7 @@ class Content {
                 node: timeA,
                 time: {
                     final baselined = [
-                        for (e in timeA.querySelectorAll("div"))
+                        for (e in timeA.querySelectorAll("span"))
                         if (switch (window.getComputedStyle(cast e).top) {
                             case null | "" | "0px": true;
                             case top if (Std.parseFloat(top) < 1): true;
