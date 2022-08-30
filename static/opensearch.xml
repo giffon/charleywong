@@ -5,9 +5,9 @@
 >
   <ShortName>Charley Wong 和你查</ShortName>
   <Description>一個開放源碼同開放數據嘅黃色經濟圈資料庫。</Description>
-  <Url type="text/html" template="https://charleywong.giffon.io/search/{searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://charleywong.giffon.io/opensearch.xml" />
+  <Url type="text/html" template="https://charleywong.info/search/{searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://charleywong.info/opensearch.xml" />
   <Query role="example" searchTerms="外賣" />
-  <Image height="72" width="72" type="image/png">https://charleywong.giffon.io/images/fav/apple-icon-72x72.png</Image>
+  <Image height="72" width="72" type="image/png">https://charleywong.info/images/fav/apple-icon-72x72.png</Image>
   <Attribution>Copyright (C) 2020-2022 Giffon Limited</Attribution>
 </OpenSearchDescription>
