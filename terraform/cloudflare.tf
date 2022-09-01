@@ -154,3 +154,13 @@ resource "cloudflare_record" "master-charleywong-info" {
   ttl     = 1
   proxied = true
 }
+
+resource "cloudflare_record" "charleywong-info-google-site-verification" {
+  zone_id         = data.cloudflare_zone.charleywong-info.id
+  name            = "charleywong.info"
+  value           = "google-site-verification=TFGkVTRD6zOXMvG2noli7AlHKZXiMIi9JmvSk1dD6S8"
+  type            = "TXT"
+  ttl             = 1
+  allow_overwrite = false
+  proxied         = false
+}
