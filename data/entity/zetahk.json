@@ -71,5 +71,20 @@
       "type": "shop",
       "id": 141
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角西洋菜南街2J-2Q號新江大樓地舖1＆2號舖"
+      },
+      "googleMapsPlaceId": "ChIJ2Rr_4MYABDQR2AAdpDle_ug",
+      "coordinates": {
+        "lat": 22.3158824,
+        "lng": 114.1709206
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
