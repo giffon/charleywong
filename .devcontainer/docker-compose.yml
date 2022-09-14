@@ -15,7 +15,7 @@ services:
     entrypoint: /usr/local/share/docker-init.sh
     command: sleep infinity
   cloudflared:
-    image: cloudflare/cloudflared:2022.4.1
+    image: cloudflare/cloudflared:1213-4b75943
     environment:
       - TUNNEL_METRICS=cloudflared:44871
       - TUNNEL_TRANSPORT_PROTOCOL=http2
