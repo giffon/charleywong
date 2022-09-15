@@ -21,9 +21,7 @@
 				"onAutoForward": "ignore"
 			}
 		},
-		"terraform.languageServer": {
-			"pathToBinary": "/usr/local/bin/terraform-ls"
-		},
+		"terraform.languageServer.pathToBinary": "/usr/local/bin/terraform-ls",
 	},
 	"extensions": [
 		"ms-azuretools.vscode-docker",
