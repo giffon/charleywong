@@ -27,8 +27,9 @@
     {
       "url": "https://www.instagram.com/gluckist/",
       "meta": {
-        "name": "GLÜCK",
-        "about": "A Minimal & Vintage store.\nShop MK : Shop 123, Trendy Zone\nShop CWB : Shop 229, Laforet\nShop TST : Rm 901, Taurus Building, (opposite side of The One)"
+        "website": "http://www.facebook.com/gluckhk",
+        "name": "GLÜCK",
+        "about": "A Minimal & Vintage store.\nShop CWB : Shop 229, Laforet\nShop LCK : Rm 2306, Kimberland Center"
       }
     }
   ],
@@ -70,6 +71,34 @@
     {
       "type": "shop",
       "id": 675
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 229, Laforet, Excelsior Plaza, Causeway Bay"
+      },
+      "googleMapsPlaceId": "ChIJZ8C8mlYABDQRT6mPaiaTZhg",
+      "coordinates": {
+        "lat": 22.2811021,
+        "lng": 114.1848153
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "en": "Rm 2306, Kimberland Center, 55 Win"
+      },
+      "googleMapsPlaceId": "ChIJF_qxMUIHBDQR1DTFnZb2jVI",
+      "coordinates": {
+        "lat": 22.339149,
+        "lng": 114.1477905
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ]
 }
