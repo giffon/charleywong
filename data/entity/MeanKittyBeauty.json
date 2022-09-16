@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.sinishop.com"
+    },
+    {
       "url": "https://www.facebook.com/MeanKittyBeauty/",
       "meta": {
         "id": "1577264909259188",
@@ -34,6 +37,7 @@
     {
       "url": "https://www.instagram.com/meankittybeauty/",
       "meta": {
+        "website": "https://www.sinishop.com/",
         "name": "MeanKittyBeauty",
         "about": "Feel Young Stay Young Secret Soap!\n對自己好D, 養潤肌膚好D, Secret Soap!\n我們要打造全世界最好的手工皂, 用料最好, 獨家研製配方, 給予肌膚回復生命力的手工皂。\nSo mean!\nSo lovely!\nMean Kitty!"
       }
@@ -62,20 +66,5 @@
   "tags": [
     "accessories",
     "shop"
-  ],
-  "places": [
-    {
-      "address": {
-        "zh": "Flat 03, 20 Floor, United Success Commercial Centre,, Nil 香港"
-      },
-      "googleMapsPlaceId": "ChIJlaWK71YABDQRVR4KY6ntAzQ",
-      "coordinates": {
-        "lat": 22.2809219,
-        "lng": 114.183323
-      },
-      "area": {
-        "zh": "灣仔區"
-      }
-    }
   ]
 }
