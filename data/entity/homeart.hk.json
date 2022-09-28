@@ -6,7 +6,7 @@
   },
   "webpages": [
     {
-      "url": "https://homeart.hk"
+      "url": "https://hkhomeart.com"
     },
     {
       "url": "https://www.facebook.com/homeart.hk/",
@@ -31,8 +31,9 @@
     {
       "url": "https://www.instagram.com/homeart.hk/",
       "meta": {
+        "website": "https://homeart.hk/",
         "name": "家・藝 HomeArt",
-        "about": "日本家品藝術店\n在家居中，除了傢俬外，家品亦是家中一個很重要的角色，家品擔當著裝飾及處理日常生活的重任。每一樣都是缺一不可的生活需品，亦顯出你的生活品味。\n#homeart #日韓家品 #生活品味 #日本餐具 #hkshop #hkshopping #家藝"
+        "about": "日本家品藝術店\n在家居中，除了傢俬外，家具亦是家中一個很重要的角色，家品擔當著裝飾及處理日常生活的重任。每一樣都是缺一不可的生活需品，亦顯出你的生活品味。\n#homeart #日韓家品 #生活品味 #日本餐具 #hkshop #hkshopping #家藝"
       }
     }
   ],
@@ -43,20 +44,5 @@
   ],
   "tags": [
     "shop"
-  ],
-  "places": [
-    {
-      "address": {
-        "en": "Rm 202B, 2/F, Lai Cheong Factory Building, 479-479A Castle Peak Road"
-      },
-      "googleMapsPlaceId": "ChIJl4i4AEEHBDQRQLnZmwTlKEs",
-      "coordinates": {
-        "lat": 22.3391667,
-        "lng": 114.151274
-      },
-      "area": {
-        "zh": "深水埗區"
-      }
-    }
   ]
 }
