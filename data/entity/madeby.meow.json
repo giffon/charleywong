@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://madebymeow.shoplineapp.com"
+    },
+    {
       "meta": {
         "id": "1563393733704175",
         "username": "madeby.meow",
@@ -22,6 +25,13 @@
         "single_line_address": "巧明街116-118號萬年工業大廈7樓B20室, +999077 Hong Kong, Hong Kong"
       },
       "url": "https://www.facebook.com/madeby.meow/"
+    },
+    {
+      "url": "https://www.instagram.com/madeby_meow/",
+      "meta": {
+        "name": "Madeby_Meow",
+        "about": "「全人手縫製·獨一無二的口金包」\n📩訂購單次滿HKD800包本地順豐站\n門市地址：觀塘巧明街116-118號萬年工業大廈7樓B20室\n•\n香港製造🇭🇰\nTel/WhatsApp :54036408\nhttps://madebymeow.shoplineapp.com"
+      }
     }
   ],
   "posts": [
@@ -30,6 +40,22 @@
     }
   ],
   "tags": [
-    "accessories"
+    "accessories",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "巧明街116-118號萬年工業大廈7樓B20室"
+      },
+      "googleMapsPlaceId": "ChIJUeTGeEUBBDQRj3h-ww8a2EU",
+      "coordinates": {
+        "lat": 22.3110257,
+        "lng": 114.2243496
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
