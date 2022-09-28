@@ -1073,7 +1073,14 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@^7.18.9", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.3", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
+"@babel/runtime@^7.19.0":
+  version "7.19.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.19.0.tgz#22b11c037b094d27a8a2504ea4dcff00f50e2259"
+  integrity sha512-eR8Lo9hnDS7tqkO7NsV+mKvCmv5boaXFSZ70DnfhcgiEne8hv9oCEd36Klw74EtizEqLsy4YnW8UWwpBVolHZA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.3", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
   version "7.18.9"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.9.tgz#b4fcfce55db3d2e5e080d2490f608a3b9f407f4a"
   integrity sha512-lkqXDcvlFT5rvEjiu6+QYO+1GXrEHRo2LOtS7E4GtX5ESIZOgepqsZBVIj6Pv+a6zqsya9VCgiK1KAK4BvJDAw==
@@ -4039,11 +4046,6 @@ camelcase@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/camelcase/-/camelcase-3.0.0.tgz"
   integrity sha1-MvxLn82vhF/N9+c7uXysImHwqwo=
-
-can-use-dom@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/can-use-dom/-/can-use-dom-0.1.0.tgz"
-  integrity sha1-IsxKNKCrxDlQ9CxkEQJKP2NmtFo=
 
 caniuse-lite@^1.0.30001332:
   version "1.0.30001334"
@@ -8559,13 +8561,12 @@ react-dom@16.14.0:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-facebook@9.0.7:
-  version "9.0.7"
-  resolved "https://registry.yarnpkg.com/react-facebook/-/react-facebook-9.0.7.tgz#32bd42cd1bc8549d6827678b99a6cf7814e7f8d9"
-  integrity sha512-pDIaVthHIbpQ9Ecyo8PJWQlruWFrl1ATjw4wJ8atfIUNDJLbfP38KsdNZR9iUOkm3Xvm0BBLP/LKl1O0EEohLA==
+react-facebook@9.0.8:
+  version "9.0.8"
+  resolved "https://registry.yarnpkg.com/react-facebook/-/react-facebook-9.0.8.tgz#867766b12a2c4f0c3862d7eab2ec056e8b5bc681"
+  integrity sha512-NpJdEwmo4LlDRE7UJWX/rB/V7C5x6Ig1mAkZurDOGHinx6TbnJLKlBR5tkZjxtW8z2Xb/HYhKThuiFiIOuqOCg==
   dependencies:
-    "@babel/runtime" "^7.18.9"
-    can-use-dom "^0.1.0"
+    "@babel/runtime" "^7.19.0"
 
 react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
