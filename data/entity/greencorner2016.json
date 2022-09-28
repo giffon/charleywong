@@ -1,7 +1,8 @@
 {
   "id": "greencorner2016",
   "name": {
-    "en": "Green Corner"
+    "en": "Green Corner",
+    "zh": "綠式"
   },
   "webpages": [
     {
@@ -46,6 +47,21 @@
     {
       "type": "shop",
       "id": 4251
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣希慎道8號裕景商業中心1123室"
+      },
+      "googleMapsPlaceId": "ChIJVVVFRVEABDQRaq29yPAYtlo",
+      "coordinates": {
+        "lat": 22.2779519,
+        "lng": 114.1847609
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ]
 }
