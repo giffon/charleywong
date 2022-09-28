@@ -29,15 +29,43 @@
       "url": "https://www.facebook.com/154490107948303/"
     },
     {
-      "url": "https://www.instagram.com/sweet_canteen_hk/",
+      "url": "https://www.facebook.com/OVOCAFE.green/",
       "meta": {
-        "name": "大飯糖甜品小食屋"
+        "id": "601891463218354",
+        "username": "OVOCAFE.green",
+        "name": "OVOCafe x Sweet Canteen",
+        "about": "With the passion to share a green life in taste, from selection of coffee beans & ingredients to the lusty garden interior, we are dedicated to bring urbanities a connection to nature with tasty fresh vegetarian meals, specialty coffee & fusion desserts.",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          },
+          {
+            "id": "200742186618963",
+            "name": "Vegetarian/Vegan Restaurant"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
+        ],
+        "emails": [
+          "tastegreen@ovocafe.com.hk"
+        ]
       }
     },
     {
       "url": "https://www.instagram.com/sweet_canteen/",
       "meta": {
         "name": "大飯糖"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/ovocafehk/",
+      "meta": {
+        "website": "https://linktr.ee/ovogroup",
+        "name": "OVOCAFE",
+        "about": "the original taste of green"
       }
     }
   ],
@@ -89,13 +117,26 @@
       "address": {
         "zh": "錦田高埔村97號"
       },
-      "googleMapsPlaceId": "ChIJCZtE8Fb3AzQRDF3nccf8WMg",
+      "googleMapsPlaceId": "ChIJHbkOR3b3AzQRNRVElNjicw4",
       "coordinates": {
-        "lat": 22.44176,
-        "lng": 114.056859
+        "lat": 22.4426824,
+        "lng": 114.0555669
       },
       "area": {
         "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "灣仔道一號地下 OvoCafeX大飯糖"
+      },
+      "googleMapsPlaceId": "ChIJpfV5rUQABDQRjpIe00s_BIQ",
+      "coordinates": {
+        "lat": 22.2745467,
+        "lng": 114.1741836
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ],
