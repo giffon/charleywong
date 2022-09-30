@@ -136,8 +136,8 @@ class Content {
                     try {
                         Importer.importUrl(new URL(linkUrl))
                             .catchError(alert);
-                    } catch (e:Dynamic) {
-                        alert(e);
+                    } catch (e:Exception) {
+                        alert(e.message + "\n" + e.stack);
                     }
                 });     
             case MsgScrollToJune:
