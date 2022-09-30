@@ -169,67 +169,11 @@ class Importer {
                 Promise.resolve(Path.join([url.origin, url.pathname]));
             }
 
-            if (document.querySelector('.userContentWrapper') != null) { //old layout
-                var postNode = document.querySelector('.userContentWrapper a[href*="${href}"]').closest(".userContentWrapper");
-                var postTime = postNode.querySelector("abbr[data-utime]").dataset.utime;
-                var sharedWithNode = postNode.querySelector("*[data-tooltip-content^='Shared with: '], a.fbPrivacyAudienceIndicator");
-                var sharedWith = if (sharedWithNode.dataset.tooltipContent.startsWith("Shared with: "))
-                    sharedWithNode.dataset.tooltipContent.substr("Shared with: ".length);
-                else
-                    sharedWithNode.dataset.tooltipContent;
-                return url.then(url -> postToServer({
+            return url.then(url -> postToServer(
+                {
                     url: url,
-                    utime: postTime,
-                    sharedWith: sharedWith,
-                }));
-            } else {
-                var postNode = document.querySelector('div[role="article"] a[href*="${href}"]').closest("div[role='article']");
-                var sharedWith = [
-                    for (img in postNode.querySelectorAll("img[width='12'][alt]"))
-                        (cast img:ImageElement)
-                ]
-                    .map(img -> switch (img.alt) {
-                        case "Public" | "Shared with Public": "Public";
-                        case "Custom" | "Shared with Custom": "Custom";
-                        case _: null;
-                    })
-                    .find(v -> v != null);
-                if (sharedWith == null) {
-                    sharedWith = [
-                        for (i in postNode.querySelectorAll("i[role='img'][aria-label]"))
-                            (cast i:Element)
-                    ]
-                        .map(i -> switch (i.getAttribute("aria-label")) {
-                            case "Public" | "Shared with Public": "Public";
-                            case "Custom" | "Shared with Custom": "Custom";
-                            case _: null;
-                        })
-                        .find(v -> v != null);
                 }
-                if (sharedWith == null) {
-                    trace(postNode.querySelectorAll("svg[title^='Shared with']"));
-                    sharedWith = [
-                        for (i in postNode.querySelectorAll("svg[title^='Shared with']"))
-                            (cast i:Element)
-                    ]
-                        .map(i -> switch(i.getAttribute("title")) {
-                            case "Shared with Public": "Public";
-                            case "Shared with Custom": "Custom";
-                            case title:
-                                trace(title);    
-                                null;
-                        })
-                        .find(v -> v != null);
-                }
-                return url.then(url -> postToServer(
-                    if (sharedWith != null) {
-                        url: url,
-                        sharedWith: sharedWith,
-                    } else {
-                        url: url,
-                    }
-                ));
-            }
+            ));
         }
 
         switch (extractFbHomePage(url)) {

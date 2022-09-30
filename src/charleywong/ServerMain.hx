@@ -466,16 +466,9 @@ class ServerMain {
                                     case null:
                                         e.posts.push({
                                             url: postUrl,
-                                            meta: {
-                                                "utime": req.body.utime,
-                                                "sharedWith": req.body.sharedWith
-                                            }
                                         });
                                     case post:
-                                        post.meta = {
-                                            "utime": req.body.utime,
-                                            "sharedWith": req.body.sharedWith
-                                        };
+                                        //pass
                                 }
                                 saveEntity(e, true, true);
                                 reply.status(200).send("done");
