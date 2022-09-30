@@ -176,73 +176,36 @@ class Content {
 
         final june = Date.fromString("2019-06-01");
 
-        final main = [
-            for (feed in document.querySelectorAll("div[role='main']"))
-            (cast feed:DivElement)
-        ].find(div -> div.offsetHeight > 0);
+        final links =
+            [for (e in document.querySelectorAll('a[role=link] [aria-labelledby]')) (cast e:Element).closest('a[role=link]')];
 
-        if (main.querySelector("div[role='article'] > div[role='progressbar']") == null) {
-            window.scrollTo(window.scrollX, document.body.scrollHeight);
-            Timer.delay(function() alert("到達 timeline 底部"), 100);
-            return;
-        }
+        // trace(links);
 
-        final feed:DivElement = switch [
-            for (feed in document.querySelectorAll("div[role='feed']"))
-            (cast feed:DivElement)
-        ].pop() {
-            // when there is no pinned post, there is no role='feed'
-            case feed if (feed != null && feed.offsetParent != null):
-                feed;
-            case _:
-                main;
-        }
-
-        final posts = [
-            for (node in feed.querySelectorAll("div[role='article']"))
-            (cast node:DivElement)
-        ];
-        console.debug('Found ${posts.length} posts');
-        
-        if (posts.length == 0) {
-            Timer.delay(function() alert("找不到 div[role='article']"), 100);
-            return;
-        }
-        final times = posts
-            .map(node -> [for (e in node.querySelectorAll("span[dir='auto'] a[role='link']")) (cast e:AnchorElement)][1])
-            .filter(timeA -> timeA != null && timeA.offsetParent != null) // ignore invisible nodes
-            .map(timeA -> {
-                node: timeA,
-                time: {
-                    final baselined = [
-                        for (e in timeA.querySelectorAll("span"))
-                        if (switch (window.getComputedStyle(cast e).top) {
-                            case null | "" | "0px": true;
-                            case top if (Std.parseFloat(top) < 1): true;
-                            case _: false;
-                        })
-                        (cast e:SpanElement)
-                    ];
-                    baselined.sort((a,b) -> Std.parseInt(window.getComputedStyle(a).order) - Std.parseInt(window.getComputedStyle(b).order));
-                    final sorted = baselined.map(span -> span.innerText.charAt(0)).join("");
-                    final spaceNormal = ~/\s/g.replace(sorted, " ");
-                    final time = switch (spaceNormal.split(" ")[0].substr(1)) {
-                        case "January" | "February" | "March" | "April" | "May" | "June" | "July" | "August" | "September" | "October" | "November" | "December":
-                            spaceNormal.substr(1);
-                        case _:
-                            spaceNormal;
-                    }
-                    timestampFromString(time);
-                }
-            });
+        final times = [for (link in links) {
+            final label =
+                [for (labelled in link.querySelectorAll('[aria-labelledby]')) (cast labelled:Element)]
+                    .map(labelled -> document.getElementById(labelled.getAttribute("aria-labelledby")).innerText)
+                    .find(label -> switch (label) {
+                        case "Learn More": false;
+                        case label: true;
+                    });
+            if (label == null)
+                continue;
+            final time = timestampFromString(label);
+            // trace(time);
+            {
+                node: link,
+                time: time,
+            };
+        }];
 
         if (times.length == 0) {
             // Timer.delay(function() alert("讀不到時間資訊"), 100);
             trace("no time info is found");
-            posts[0].scrollIntoView();
             Timer.delay(scrollToJune, 100);
             return;
         }
+        trace(Date.fromTime(times[times.length - 1].time));
         final beforeJuneNode = times.find(t -> t.time < june.getTime());
         if (beforeJuneNode != null) {
             beforeJuneNode.node.scrollIntoView({
