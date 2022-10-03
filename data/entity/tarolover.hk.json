@@ -25,7 +25,7 @@
       "url": "https://www.instagram.com/tarolover.hk/",
       "meta": {
         "name": "芋圓控 TAROLOVER.HK",
-        "about": "ONE DREAM FOR US👧🏻👦🏻\n-\n🔛營業時間：1-8PM\n(逢星期日及不定期休息)\n📍觀塘駿業里6號富利工業大廈11樓B室\n-\n💰只收現金💰CASH ONLY💰\n-\n歡迎合作 18區團購/partyroom/公司farewell🤝"
+        "about": "ONE DREAM FOR US👧🏻👦🏻\n-\n✨觀塘店\n🔛營業時間：12-8PM (逢星期日休息)\n📍富利工業大廈11樓B室\n-\n✨葵芳店\n🔛營業時間：1-9PM\n📞64751628(只限WS落單)\n📍葵涌廣場1樓B60B (大家樂對面)"
       }
     }
   ],
@@ -55,6 +55,10 @@
     {
       "type": "shop",
       "id": 1302
+    },
+    {
+      "type": "eat",
+      "id": 6839
     }
   ],
   "places": [
@@ -69,6 +73,19 @@
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵涌廣場1樓B60B"
+      },
+      "googleMapsPlaceId": "ChIJPehqtr34AzQR1OpdrdG_QCc",
+      "coordinates": {
+        "lat": 22.3582607,
+        "lng": 114.1271935
+      },
+      "area": {
+        "zh": "葵青區"
       }
     }
   ]
