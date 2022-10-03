@@ -1,14 +1,21 @@
 {
   "id": "wowchickenleg",
   "name": {
-    "zh": "和順記-荃灣雞脾王"
+    "zh": "和順記 (荃灣/天后)"
   },
   "webpages": [
     {
       "url": "https://www.instagram.com/chickenleg_master/",
       "meta": {
+        "website": "https://linktr.ee/chickenlegmaster",
         "name": "和順記 荃灣雞脾王",
         "about": "和順記荃灣店\n荃灣路德圍6號地下\nCLS神級炸雞髀\n可能係全香港最大隻雞髀\n避風塘炒豬扒\n巨型吉列豬扒\n豬扒西多士\n濃厚蕃茄湯烏冬"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/chickenleg_master_tinhau/",
+      "meta": {
+        "name": "天后和順記 雞髀王"
       }
     },
     {
@@ -26,6 +33,21 @@
         ],
         "single_line_address": "Lo tak court 6, Tsuen Wan, Hong Kong",
         "website": "https://instagram.com/chickenleg_master"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/106809142202867/",
+      "meta": {
+        "id": "106809142202867",
+        "name": "天后和順記",
+        "about": "神級雞髀皇",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "天后電氣道"
       }
     }
   ],
@@ -47,6 +69,9 @@
       "meta": {
         "sharedWith": "Public"
       }
+    },
+    {
+      "url": "https://www.facebook.com/AndThenHK/posts/465607525599945/"
     }
   ],
   "tags": [
@@ -55,7 +80,7 @@
   "places": [
     {
       "address": {
-        "en": "Lo tak court 6, Tsuen Wan"
+        "zh": "荃灣路德圍6號地下"
       },
       "googleMapsPlaceId": "ChIJyfaqRCT5AzQRBUnGi6qGqPw",
       "coordinates": {
@@ -65,12 +90,29 @@
       "area": {
         "zh": "荃灣區"
       }
+    },
+    {
+      "address": {
+        "zh": "天后電氣道39號"
+      },
+      "googleMapsPlaceId": "ChIJZ8Ia3TEBBDQRVm6RYRpdo9U",
+      "coordinates": {
+        "lat": 22.2836221,
+        "lng": 114.1916313
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 6624
+    },
+    {
+      "type": "eat",
+      "id": 6881
     }
   ]
 }
