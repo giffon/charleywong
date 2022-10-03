@@ -29,7 +29,7 @@
       "meta": {
         "website": "https://www.facebook.com/HONG-KONG-Burger-100189782142700/",
         "name": "HONG KONG BURGER",
-        "about": "九龍吉利徑6-8號百老匯街74號地下74A舖\n(近美孚地鐵站A出口)\n葵芳葵富路7-11號葵涌廣場2樓潮流廊2018號鋪\n九龍灣宏泰道12號榮發工業大廈地下4A3號舖\n新界石門安群街1號京瑞廣場2期 OK Mall 1樓 102A01-06號舖\n各款自家製🍔漢堡包🍕Pizza🌭熱狗🍝意粉"
+        "about": "🍔九龍吉利徑6-8號百老匯街74號地下74A舖\n(近美孚地鐵站A出口)\n🍔葵芳葵富路7-11號葵涌廣場2樓潮流廊2018號鋪\n🍔九龍灣宏泰道12號榮發工業大廈地下4A3號舖\n🍔新界石門安群街1號京瑞廣場2期 OK Mall 1樓 102A01-06號舖\n🍔新界元朗裕榮徑11號好旺洋樓地下13號舖"
       }
     }
   ],
@@ -81,13 +81,26 @@
       "address": {
         "zh": "石門安群街1號京瑞廣場2期 OK Mall 1樓 102A01-06號舖"
       },
-      "googleMapsPlaceId": "ChIJc61D8FIHBDQR7XsakoHifO8",
+      "googleMapsPlaceId": "ChIJmweakxgHBDQR6G2TFw0p5To",
       "coordinates": {
-        "lat": 22.3887879,
-        "lng": 114.2085025
+        "lat": 22.3889038,
+        "lng": 114.2091093
       },
       "area": {
         "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "新界元朗裕榮徑11號好旺洋樓地下13號舖"
+      },
+      "googleMapsPlaceId": "ChIJtw_huAr6AzQR4tf3Q1G6b-E",
+      "coordinates": {
+        "lat": 22.4420047,
+        "lng": 114.0260129
+      },
+      "area": {
+        "zh": "元朗區"
       }
     }
   ],
@@ -103,6 +116,14 @@
     {
       "type": "eat",
       "id": 6468
+    },
+    {
+      "type": "eat",
+      "id": 6850
+    },
+    {
+      "type": "eat",
+      "id": 6851
     }
   ]
 }
