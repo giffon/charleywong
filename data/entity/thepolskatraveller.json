@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://thepolskatraveller.com"
+    },
+    {
       "meta": {
         "id": "291416887590235",
         "username": "thepolskatraveller",
@@ -34,8 +37,9 @@
     },
     {
       "meta": {
+        "website": "http://www.thepolskatraveller.com/",
         "name": "The Polska Traveller",
-        "about": "【 Inspiration from Polska | Crafted in Hong Kong 】\n📍🇭🇰【 Hong Kong Shop 】\n12pm - 7:30pm｜Monday - Sunday\n📍🇸🇬 Ship to Singapore before 31/10, DM us now!"
+        "about": "【 Inspiration from Polska | Artisan Made in HK 】\n📍Causeway Bay 📍Sai Ying Pun\n12pm - 8pm｜Mon - Sun\n🌏 We ship worldwide\n#thepolskatraveller #polskahand"
       },
       "url": "https://www.instagram.com/thepolskatraveller/"
     }
@@ -52,6 +56,10 @@
     {
       "type": "shop",
       "id": 464
+    },
+    {
+      "type": "shop",
+      "id": 7256
     }
   ],
   "places": [
@@ -66,6 +74,19 @@
       },
       "area": {
         "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop 11F, G/F, 118 Connaught Road West, Sai Ying Pun"
+      },
+      "googleMapsPlaceId": "ChIJI3xlT7YBBDQR83hVWnToWac",
+      "coordinates": {
+        "lat": 22.2883967,
+        "lng": 114.1445346
+      },
+      "area": {
+        "zh": "中西區"
       }
     }
   ]
