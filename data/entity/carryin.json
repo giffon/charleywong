@@ -29,36 +29,20 @@
     {
       "url": "https://www.instagram.com/carryin_official/",
       "meta": {
-        "name": "CARRYin選物店 日本正規取扱店",
-        "about": "Urban Outdoor Lifestyle 所有品牌為日本官方授權\n▼荃灣The Mills 114一店 12:00-18:00\n▼尖沙咀K11 Art Mall G05A二店 - 山小屋 12:00-21:00"
+        "website": "http://www.carryin.store/",
+        "name": "CARRYin 日本正規取扱店",
+        "about": "▼尖沙咀K11 Art Mall G05A店 山小屋Mon-Sun 12:00-21:00\n▼銅鑼灣Fashion Walk百德新街58號B店 戸外部屋\nSun-Thur 12:00-20:00 Fri-Sat 13:00-21:00"
       }
     }
   ],
-  "posts": [
-    {
-      "url": "https://www.instagram.com/p/CAp-rzuAeMR/"
-    }
-  ],
+  "posts": [],
   "tags": [
     "shop"
   ],
   "places": [
     {
       "address": {
-        "zh": "白田壩街45號 The Mills 南豐紗廠114號鋪"
-      },
-      "googleMapsPlaceId": "ChIJJ70Kt2v5AzQRE2T3xaa7_Rw",
-      "coordinates": {
-        "lat": 22.374766,
-        "lng": 114.1099151
-      },
-      "area": {
-        "zh": "荃灣區"
-      }
-    },
-    {
-      "address": {
-        "zh": "尖沙咀K11 Art Mall G05A"
+        "zh": "尖沙咀K11 Art Mall G05A店 山小屋"
       },
       "googleMapsPlaceId": "ChIJdeQZ1w8BBDQREUxMPhAR9m8",
       "coordinates": {
@@ -67,6 +51,19 @@
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣Fashion Walk百德新街58號B店 戸外部屋"
+      },
+      "googleMapsPlaceId": "ChIJ7ZlHdz4BBDQRmwjYvMASY04",
+      "coordinates": {
+        "lat": 22.2820941,
+        "lng": 114.1851074
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ],
@@ -78,6 +75,14 @@
     {
       "type": "shop",
       "id": 2741
+    },
+    {
+      "type": "shop",
+      "id": 7260
+    },
+    {
+      "type": "shop",
+      "id": 7261
     }
   ]
 }
