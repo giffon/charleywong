@@ -36,7 +36,7 @@
       "meta": {
         "website": "http://littleideacafe.com/",
         "name": "小念頭",
-        "about": "littleideacafe.com (原個生日蛋糕網站）牌照號碼: 3162804642 💡Every BIG thing begins with LITTLE IDEA❤️ 營業時間：星期二至日 💌2-10pm"
+        "about": "❣️荔枝角億利工業中心903室❣️D2 place 2 期對面❣️littleideacafe.com (原個生日蛋糕網站）牌照號碼: 3162804642 💡"
       }
     }
   ],
@@ -63,6 +63,10 @@
     {
       "type": "eat",
       "id": 5131
+    },
+    {
+      "type": "eat",
+      "id": 6877
     }
   ],
   "places": [
@@ -77,6 +81,19 @@
       },
       "area": {
         "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荔枝角億利工業中心903室"
+      },
+      "googleMapsPlaceId": "ChIJPdNay8cABDQR4SDUzDraqZI",
+      "coordinates": {
+        "lat": 22.3367581,
+        "lng": 114.1477441
+      },
+      "area": {
+        "zh": "深水埗區"
       }
     }
   ]
