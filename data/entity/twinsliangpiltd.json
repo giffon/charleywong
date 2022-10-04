@@ -8,7 +8,7 @@
       "url": "https://www.instagram.com/twinsliangpiltd/",
       "meta": {
         "name": "☻兩 姊 妹 涼 皮 有 限 公 司☻",
-        "about": "★太子 柏樹街15號。太子站D出口★\n⭕️✨水晶涼皮✨清透爽滑✨非凡口感⭕️\n星期二至六(14:30-20:00)\n星期日(14:30-18:00)"
+        "about": "★太子 柏樹街15號。太子站D出口★\n⭕️✨水晶涼皮✨清透爽滑✨非凡口感⭕️\n星期二至六(12:00-20:00)\n星期日(12:00-18:00)"
       }
     },
     {
@@ -54,6 +54,10 @@
     {
       "type": "eat",
       "id": 6480
+    },
+    {
+      "type": "eat",
+      "id": 6882
     }
   ],
   "places": [
@@ -87,13 +91,26 @@
       "address": {
         "zh": "荔枝角青山道473號A舖"
       },
-      "googleMapsPlaceId": "ChIJ7y7ffVEHBDQRhD1rGwH5kUY",
+      "googleMapsPlaceId": "ChIJ30resW8HBDQRRNebQhe3Ug0",
       "coordinates": {
         "lat": 22.3397049,
         "lng": 114.1524933
       },
       "area": {
         "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門仁愛堂街14號蘭苑地下5號舖"
+      },
+      "googleMapsPlaceId": "ChIJDVSyIcD7AzQRtUND48WQLtg",
+      "coordinates": {
+        "lat": 22.3961984,
+        "lng": 113.9769829
+      },
+      "area": {
+        "zh": "屯門區"
       }
     }
   ]
