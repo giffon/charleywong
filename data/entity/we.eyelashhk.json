@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.weeyelash.com"
+    },
+    {
       "url": "https://www.facebook.com/we.eyelashhk/",
       "meta": {
         "id": "233640377315092",
@@ -31,8 +34,17 @@
     {
       "url": "https://www.instagram.com/we.eyelash/",
       "meta": {
+        "website": "http://www.weeyelash.com/",
         "name": "We Eyelash & Beauty Academy",
-        "about": "專業美業課程及材料 @webeauty.academy\n學院資格：\n日本VCJ認定學校\n韓國IBDR認定學校\n美國IAPC核准中心\n英國TQUK核准中心\n導師 @we.eyelash.elaine\n服務 @we.venus.lash\n服務範圍：美睫｜半永久｜日本翹睫｜美甲\n查詢課程及服務⬇️"
+        "about": "英國TQUK核准中心\n日本Venus核准中心\n韓國國際美容核准培訓機構\n美國IAPC專業人才培訓中心\n導師資料 @we.eyelash.elaine\n美睫及美甲服務 @webeauty.hk\n專業美睫課程｜證書考核中心｜培訓｜公司培訓\n#尖沙咀美睫 #香港美睫課程"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/webeauty.hk/",
+      "meta": {
+        "website": "http://www.weeyelash.com/",
+        "name": "We Beauty Lash & Nail",
+        "about": "日式美甲服務｜日式美睫服務\n美甲課程｜美睫課程 @we.eyelash\nஐ本店採用日本·韓國·美國品牌產品\nஐ預約時間MON-SUN 12-10\n✭美甲師及美睫師均考獲日本證書\n✭美睫師更獲得全港唯一日本Venus美睫大獎\n價格清晰｜絕無硬銷｜環境舒適\n提供優質服務ꨄ以客為本\n預約服務📱⬇️"
       }
     }
   ],
@@ -58,6 +70,7 @@
   ],
   "tags": [
     "makeup",
+    "nail",
     "shop"
   ],
   "places": [
@@ -73,12 +86,29 @@
       "area": {
         "zh": "油尖旺區"
       }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀 利時商場 3樓 315號"
+      },
+      "googleMapsPlaceId": "ChIJWZ7f9O4ABDQRKEsHhAmXgwg",
+      "coordinates": {
+        "lat": 22.2999054,
+        "lng": 114.1752371
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 470
+    },
+    {
+      "type": "shop",
+      "id": 7265
     }
   ]
 }
