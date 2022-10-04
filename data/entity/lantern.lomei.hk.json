@@ -23,7 +23,7 @@
       "url": "https://www.instagram.com/lantern.lomei.hk/",
       "meta": {
         "name": "燈籠滷味 香港",
-        "about": "🏮🏮燈籠滷味🏮🏮\n銅鑼灣店：銅鑼灣登龍街39號地下\n旺角店：旺角朗豪坊4樓10號舖\n🏮🏮燈籠滷味T.P.E.🏮🏮\n中環店：中環威靈頓街2-8號威靈頓廣場（M88 ）地下\n——\n<燈籠滷味>外賣包推出中！！傳媒熱烈報道、客人不斷好評🎉🎉 團購或預購 WhatsApp 52179337🥰🥰"
+        "about": "🏮🏮燈籠滷味🏮🏮\n銅鑼灣店：銅鑼灣登龍街39號地下\n旺角店：旺角朗豪坊4樓10號店\n葵芳店：葵芳新都會廣場181號店\n🏮🏮燈籠滷味T.P.E.🏮🏮\n中環店：中環威靈頓街2-8號威靈頓廣場（M88 ）地下"
       }
     }
   ],
@@ -61,6 +61,19 @@
     },
     {
       "address": {
+        "zh": "葵芳新都會廣場181號店"
+      },
+      "googleMapsPlaceId": "ChIJsa5h8Pr5AzQRKLn93GUY4H8",
+      "coordinates": {
+        "lat": 22.3572953,
+        "lng": 114.1268581
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
         "zh": "中環威靈頓街2-8號威靈頓廣場（M88 ）地下"
       },
       "googleMapsPlaceId": "ChIJF5KrkgcBBDQRDx0YklcHmGA",
@@ -85,6 +98,10 @@
     {
       "type": "eat",
       "id": 6582
+    },
+    {
+      "type": "eat",
+      "id": 6838
     }
   ]
 }
