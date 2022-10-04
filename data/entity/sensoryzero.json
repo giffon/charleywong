@@ -71,7 +71,7 @@
       "meta": {
         "website": "http://www.sensoryzero.com/",
         "name": "sensory ZERO",
-        "about": "Specialty Coffee Roasters\n☕ One Island South\n☕ Taikoo Cityplaza\n☕ Lane Crawford TST\n☕ ShuiOn Centre\n☕️ Sasa Supreme\n☕️ New Town Plaza\n☕️ Science Park"
+        "about": "Specialty Coffee Roasters\n📍One Island South\n📍Taikoo Cityplaza\n📍Lane Crawford TST\n📍New Town Plaza\n📍Science Park\n📍Olympian City 3\n📍Jockey Club Turfland"
       }
     },
     {
@@ -133,6 +133,10 @@
     {
       "type": "eat",
       "id": 6786
+    },
+    {
+      "type": "eat",
+      "id": 6845
     }
   ],
   "places": [
@@ -177,19 +181,6 @@
     },
     {
       "address": {
-        "zh": "銅鑼灣禮頓道77號禮頓中心2樓L1號舖"
-      },
-      "googleMapsPlaceId": "ChIJNXhSmu0BBDQRlmIhxyuD9IQ",
-      "coordinates": {
-        "lat": 22.2776353,
-        "lng": 114.1829035
-      },
-      "area": {
-        "zh": "灣仔區"
-      }
-    },
-    {
-      "address": {
         "zh": "沙田沙田正街18號新城市廣場一期7樓706號舖"
       },
       "googleMapsPlaceId": "ChIJcTyvICEHBDQRM_tMu-WmwTs",
@@ -199,19 +190,6 @@
       },
       "area": {
         "zh": "沙田區"
-      }
-    },
-    {
-      "address": {
-        "zh": "灣仔港灣道6-8號瑞安中心1樓103號舖"
-      },
-      "googleMapsPlaceId": "ChIJGzcbwEoBBDQRLobOczVbzFg",
-      "coordinates": {
-        "lat": 22.2801675,
-        "lng": 114.1715244
-      },
-      "area": {
-        "zh": "灣仔區"
       }
     },
     {
@@ -264,6 +242,19 @@
       },
       "area": {
         "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘開源道 68 號觀塘廣場1樓 116號鋪"
+      },
+      "googleMapsPlaceId": "ChIJIVcspTUBBDQR050YCbcoEdI",
+      "coordinates": {
+        "lat": 22.31119869999999,
+        "lng": 114.2260006
+      },
+      "area": {
+        "zh": "觀塘區"
       }
     }
   ]
