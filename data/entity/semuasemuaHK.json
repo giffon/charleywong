@@ -25,12 +25,37 @@
       "url": "https://www.facebook.com/semuasemuaHK/"
     },
     {
+      "url": "https://www.facebook.com/105129975568587/",
+      "meta": {
+        "id": "105129975568587",
+        "name": "TOSS",
+        "category_list": [
+          {
+            "id": "198383150193535",
+            "name": "Malaysian Restaurant"
+          }
+        ],
+        "emails": [
+          "toss@semuasemua.com.hk"
+        ],
+        "single_line_address": "新界沙田新城市廣場第1期第1層107號鋪"
+      }
+    },
+    {
       "meta": {
         "website": "https://m.facebook.com/semuasemuaHK/",
         "name": "Semua Semua HK 蘇媽.蘇媽",
         "about": "蘇媽.蘇媽致力推廣馬來西亞美食給香港的普羅大眾，大部份食材皆由馬來西亞直接入口，保證口味獨特，風味絕佳，令大家一試難忘, 回味無窮~\n蘇媽.蘇媽馬來西亞茶餐室\n深水埗基隆街251號"
       },
       "url": "https://www.instagram.com/semuasemuahkg/"
+    },
+    {
+      "url": "https://www.instagram.com/toss_hk/",
+      "meta": {
+        "website": "https://www.facebook.com/profile.php?id=100081987352044",
+        "name": "TOSS",
+        "about": "馬來西亞餐廳\n新界沙田新城市廣場第1期第1層107號鋪\nShop No. 107, Level 1, New Town Plaza Phase 1,Sha Tin, New Territories\nTel: 2882 8371"
+      }
     }
   ],
   "posts": [
@@ -60,6 +85,14 @@
     {
       "type": "eat",
       "id": 5319
+    },
+    {
+      "type": "eat",
+      "id": 6862
+    },
+    {
+      "type": "eat",
+      "id": 6863
     }
   ],
   "places": [
@@ -78,7 +111,7 @@
     },
     {
       "address": {
-        "zh": "荃灣大壩街71號地下"
+        "zh": "荃灣大壩街63-65,71號地下"
       },
       "googleMapsPlaceId": "ChIJwa7RpGz5AzQRECIZoCTT9mc",
       "coordinates": {
@@ -126,6 +159,19 @@
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "沙田正街18號新城市廣場1期1樓107號舖"
+      },
+      "googleMapsPlaceId": "ChIJkc03l1QHBDQRyfeBhVOA5bU",
+      "coordinates": {
+        "lat": 22.3822963,
+        "lng": 114.1890804
+      },
+      "area": {
+        "zh": "沙田區"
       }
     }
   ]
