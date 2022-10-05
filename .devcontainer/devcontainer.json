@@ -7,21 +7,12 @@
 		"LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
 	},
 	"settings": { 
-		"terminal.integrated.profiles.linux": {
-			"bash": {
-				"path": "/bin/bash",
-				"args": [
-					"-l"
-				]
-			},
-		},
 		"remote.portsAttributes": {
 			"6000": {
 				"label": "vshaxe server",
 				"onAutoForward": "ignore"
 			}
 		},
-		"terraform.languageServer.pathToBinary": "/usr/local/bin/terraform-ls",
 	},
 	"extensions": [
 		"ms-azuretools.vscode-docker",
