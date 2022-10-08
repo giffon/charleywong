@@ -6,7 +6,7 @@ terraform {
     }
     cloudflare = {
       source  = "cloudflare/cloudflare"
-      version = "~> 3.16"
+      version = "~> 3.24.0"
     }
     # fly = {
     #   source  = "fly-apps/fly"
