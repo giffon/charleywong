@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.sosofarm.com"
+    },
+    {
       "url": "https://www.facebook.com/SoSofarmHK/",
       "meta": {
         "id": "1716897228640287",
@@ -30,8 +33,9 @@
     {
       "url": "https://www.instagram.com/sosofarmhk/",
       "meta": {
-        "name": "SoSofarm Hong Kong",
-        "about": "| 森山植 · 樸手製 || 擷取花草精純 · 傳送大地能量 |\n有機草本個人護理及生活應用提案\n香港種植及蒸餾純露、手工冷製皂、濕疹護理、有機香藥草浸泡油(香港種植)、植物精華油等\nParaben Free ◇ Fragrance Free ◇ Toxic Free ◇ Cruelty Free"
+        "website": "https://bio.site/SoSofarm",
+        "name": "SoSofarm",
+        "about": "Homegrown · Handcrafted\n☘Skincare with natural essences in season\nAromatherapy◇Bespoke skincare◇Artisan soaps◇Natural perfume\n有機草本芳療護膚☘\nORDER👇"
       }
     }
   ],
@@ -39,13 +43,15 @@
     {
       "url": "https://www.facebook.com/SoSofarmHK/posts/2218111861852152",
       "meta": {
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     },
     {
       "url": "https://www.facebook.com/SoSofarmHK/posts/2244297035900301",
       "meta": {
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     }
   ],
