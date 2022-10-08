@@ -1,10 +1,12 @@
 {
   "id": "ChubbysBaking",
   "name": {
-    "en": "Chubby",
-    "zh": "烘培用品專賣店"
+    "en": "Chubby's Baking"
   },
   "webpages": [
+    {
+      "url": "https://chubbysbaking.com"
+    },
     {
       "url": "https://www.facebook.com/ChubbysBaking/",
       "meta": {
@@ -25,8 +27,9 @@
     {
       "url": "https://www.instagram.com/chubbys.baking/",
       "meta": {
+        "website": "https://chubbysbaking.com/",
         "name": "Chubby烘焙用品專賣店",
-        "about": "💕Everything we bake, we bake with Love.💕\n#ChubbysBaking #九龍灣烘焙店"
+        "about": "⏰Opening Hours\nMon: Day off\nTue to Fri: 11:30-19:00\nSat: 11:30-17:30\nSun: 12:00-16:00"
       }
     }
   ],
@@ -44,7 +47,7 @@
       "address": {
         "zh": "九龍灣臨興街19號同力工業中心B座10樓07室"
       },
-      "googleMapsPlaceId": "ChIJ4w8tszQBBDQRsMQ38lYX68o",
+      "googleMapsPlaceId": "ChIJqeDdmiIBBDQRBYPgcaxzGSw",
       "coordinates": {
         "lat": 22.3248373,
         "lng": 114.210304
