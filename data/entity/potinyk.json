@@ -30,6 +30,7 @@
     {
       "url": "https://www.instagram.com/potinyk/",
       "meta": {
+        "website": "https://www.facebook.com/potinyk/",
         "name": "寶天醫館"
       }
     }
@@ -44,6 +45,22 @@
     }
   ],
   "tags": [
-    "medical"
+    "medical",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍新蒲崗大有街3號9樓E室"
+      },
+      "googleMapsPlaceId": "ChIJryQ8qVoBBDQRvnF8T2m8iEM",
+      "coordinates": {
+        "lat": 22.3383572,
+        "lng": 114.1990798
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    }
   ]
 }
