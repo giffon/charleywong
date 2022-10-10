@@ -94,46 +94,87 @@ resource "cloudflare_record" "charleywong-info-spf" {
 resource "cloudflare_record" "charleywong-info-imap" {
   zone_id = data.cloudflare_zone.charleywong-info.id
   name    = "_imap._tcp"
-  value   = "0\t0\t."
   type    = "SRV"
   ttl     = 1
   proxied = false
+
+  data {
+    name     = "charleywong.info"
+    service  = "_imap"
+    proto    = "_tcp"
+    target   = "."
+    priority = 0
+  }
 }
 
 resource "cloudflare_record" "charleywong-info-imaps" {
   zone_id = data.cloudflare_zone.charleywong-info.id
   name    = "_imaps._tcp"
-  value   = "1\t993\tmail.gandi.net"
   type    = "SRV"
   ttl     = 1
   proxied = false
+
+  data {
+    name     = "charleywong.info"
+    service  = "_imaps"
+    proto    = "_tcp"
+    target   = "mail.gandi.net"
+    port     = 993
+    priority = 0
+    weight   = 1
+  }
 }
 
 resource "cloudflare_record" "charleywong-info-pop3" {
   zone_id = data.cloudflare_zone.charleywong-info.id
   name    = "_pop3._tcp"
-  value   = "0\t0\t."
   type    = "SRV"
   ttl     = 1
   proxied = false
+
+  data {
+    name     = "charleywong.info"
+    service  = "_pop3"
+    proto    = "_tcp"
+    target   = "."
+    priority = 0
+  }
 }
 
 resource "cloudflare_record" "charleywong-info-pop3s" {
   zone_id = data.cloudflare_zone.charleywong-info.id
   name    = "_pop3s._tcp"
-  value   = "1\t995\tmail.gandi.net"
   type    = "SRV"
   ttl     = 1
   proxied = false
+
+  data {
+    name     = "charleywong.info"
+    service  = "_pop3s"
+    proto    = "_tcp"
+    target   = "mail.gandi.net"
+    port     = 995
+    priority = 10
+    weight   = 1
+  }
 }
 
 resource "cloudflare_record" "charleywong-info-submission" {
   zone_id = data.cloudflare_zone.charleywong-info.id
   name    = "_submission._tcp"
-  value   = "1\t465\tmail.gandi.net"
   type    = "SRV"
   ttl     = 1
   proxied = false
+
+  data {
+    name     = "charleywong.info"
+    service  = "_submission"
+    proto    = "_tcp"
+    target   = "mail.gandi.net"
+    port     = 465
+    priority = 0
+    weight   = 1
+  }
 }
 
 
