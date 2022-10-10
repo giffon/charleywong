@@ -144,7 +144,7 @@ flyctl:
 earthly:
     FROM +devcontainer-base
     ARG TARGETARCH
-    RUN curl -fsSL https://github.com/earthly/earthly/releases/download/v0.6.19/earthly-linux-${TARGETARCH} -o /usr/local/bin/earthly \
+    RUN curl -fsSL https://github.com/earthly/earthly/releases/download/v0.6.25/earthly-linux-${TARGETARCH} -o /usr/local/bin/earthly \
         && chmod +x /usr/local/bin/earthly
     SAVE ARTIFACT /usr/local/bin/earthly
 
