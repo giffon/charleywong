@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.sparktake.com"
+      "url": "https://sparktake.com"
     },
     {
       "meta": {
@@ -33,17 +33,37 @@
         "website": "http://www.sparktake.com"
       },
       "url": "https://www.facebook.com/sparktake/"
+    },
+    {
+      "url": "https://twitter.com/sparktake_app"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCxHBQRHr6YQhL9_rHmMZ_vQ",
+      "meta": {
+        "id": "UCxHBQRHr6YQhL9_rHmMZ_vQ",
+        "name": "Sparktake App",
+        "about": "All the news/updates from Sparktake will be published in here regularly"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/sparktake/photos/a.447901385553068/1092362927773574"
+      "url": "https://www.facebook.com/sparktake/photos/a.447901385553068/1092362927773574",
+      "meta": {
+        "embeddable": false
+      }
     },
     {
-      "url": "https://www.facebook.com/sparktake/posts/1162581754085024"
+      "url": "https://www.facebook.com/sparktake/posts/1162581754085024",
+      "meta": {
+        "embeddable": false
+      }
     },
     {
-      "url": "https://www.facebook.com/sparktake/posts/1148877218788811"
+      "url": "https://www.facebook.com/sparktake/posts/1148877218788811",
+      "meta": {
+        "embeddable": false
+      }
     }
   ],
   "tags": [
