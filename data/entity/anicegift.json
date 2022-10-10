@@ -30,7 +30,7 @@
       "url": "https://www.instagram.com/anicegift/",
       "meta": {
         "name": "賞茶 A Nice Gift",
-        "about": "一口道地的台灣好茶，甘醇天然。\n茶香伴隨著呼吸，使您的心重新歸零。\nhttp://www.anicegift.net/\nwww.facebook.com/anicegift"
+        "about": "一口道地的台灣好茶，甘醇天然。\n茶香伴隨著呼吸，使您的心重新歸零。"
       }
     },
     {
@@ -132,15 +132,15 @@
   "places": [
     {
       "address": {
-        "zh": "佐敦柯士甸道63號幸運大廈地下05號舖"
+        "zh": "太古康怡太古康怡廣場北座地下G13號舖"
       },
-      "googleMapsPlaceId": "ChIJs948fusABDQRaKsqGJyR1sc",
+      "googleMapsPlaceId": "ChIJ6X10pnQBBDQRnn5Yz29fiv8",
       "coordinates": {
-        "lat": 22.3033228,
-        "lng": 114.1704238
+        "lat": 22.284596,
+        "lng": 114.2161207
       },
       "area": {
-        "zh": "油尖旺區"
+        "zh": "東區"
       }
     },
     {
@@ -223,19 +223,6 @@
     },
     {
       "address": {
-        "zh": "太子始創太子始創中心地下 Kiosk B"
-      },
-      "googleMapsPlaceId": "ChIJe3JtN8gABDQRAECOPU4lcIw",
-      "coordinates": {
-        "lat": 22.32255109999999,
-        "lng": 114.1691147
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
         "zh": "九龍塘港鐵站太九龍塘港鐵站KOT1114號舖"
       },
       "googleMapsPlaceId": "ChIJdbIPamAHBDQR6exIYJ8L5EY",
@@ -275,19 +262,6 @@
     },
     {
       "address": {
-        "zh": "沙田瀝源沙田瀝源廣場217號舖"
-      },
-      "googleMapsPlaceId": "ChIJ7duES00GBDQRXt-Tlw5u-wI",
-      "coordinates": {
-        "lat": 22.384702,
-        "lng": 114.191714
-      },
-      "area": {
-        "zh": "沙田區"
-      }
-    },
-    {
-      "address": {
         "zh": "青衣港鐵站青衣港鐵站 TSY 304號舖"
       },
       "googleMapsPlaceId": "ChIJ1-uhodz4AzQRfuLv89M4zMs",
@@ -297,19 +271,6 @@
       },
       "area": {
         "zh": "葵青區"
-      }
-    },
-    {
-      "address": {
-        "zh": "馬鞍山馬鞍山新港城中心3樓千色Citistoe"
-      },
-      "googleMapsPlaceId": "ChIJjZiRnLEIBDQRU56eU1r5SHg",
-      "coordinates": {
-        "lat": 22.4244622,
-        "lng": 114.2320183
-      },
-      "area": {
-        "zh": "沙田區"
       }
     },
     {
@@ -353,15 +314,28 @@
     },
     {
       "address": {
-        "zh": "太古康怡太古康怡廣場北座地下G13號舖"
+        "zh": "馬鞍山馬鞍山新港城中心3樓千色Citistoe"
       },
-      "googleMapsPlaceId": "ChIJ6X10pnQBBDQRnn5Yz29fiv8",
+      "googleMapsPlaceId": "ChIJjZiRnLEIBDQRU56eU1r5SHg",
       "coordinates": {
-        "lat": 22.284596,
-        "lng": 114.2161207
+        "lat": 22.4244622,
+        "lng": 114.2320183
       },
       "area": {
-        "zh": "東區"
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳新都城中心二期UG036號舖 Shop 18"
+      },
+      "googleMapsPlaceId": "ChIJh4TOhgsEBDQR6nVF5uHaalE",
+      "coordinates": {
+        "lat": 22.3233143,
+        "lng": 114.2581878
+      },
+      "area": {
+        "zh": "西貢區"
       }
     }
   ]
