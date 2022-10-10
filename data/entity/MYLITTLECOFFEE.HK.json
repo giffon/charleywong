@@ -67,8 +67,29 @@
       }
     },
     {
+      "url": "https://www.facebook.com/Mylittlecoffeeroastery/",
+      "meta": {
+        "id": "1426382307437824",
+        "username": "Mylittlecoffeeroastery",
+        "name": "My Little Coffee Roastery 太子大南街店 & 咖啡豆自動販賣機 Coffee Vending Machines",
+        "about": "My Little Coffee Roastery 大南街店",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "emails": [
+          "mylittlecoffee.hk@gmail.com"
+        ],
+        "single_line_address": "太子大南街120號地下, Hong Kong, Hong Kong"
+      },
+      "hidden": true
+    },
+    {
       "url": "https://www.instagram.com/mylittlecoffee/",
       "meta": {
+        "website": "http://www.facebook.com/MYLITTLECOFEE.HK",
         "name": "MY LITTLE COFFEE 咖啡豆專賣店- 好景店",
         "about": "#mylittlecoffee\n扎根於香港最地道的地方-旺角好景\n「咖啡雜貨鋪」\n致力推廣咖啡文化、將咖啡真正帶入屋\n。自家烘焙咖啡豆零售批發 、咖啡膠囊、掛耳包\n。專業咖啡機、器材賣買保養維修\n。度身訂造咖啡課程：學校、公司、機構\n家庭式小社企，人手有限\n支持聾人就業、部份咖啡產品由聾人製造"
       }
@@ -78,6 +99,14 @@
       "meta": {
         "name": "Casa Blu @ My Little Coffee TM",
         "about": "#mylittlecoffee\n「My Little Coffee屯門分店- Casa Blu 藍屋」\n。自家製100%純牛肉手打漢堡\n。秘制印度咖哩\n。多國美食\n。自家烘焙咖啡豆零\n。自家制咖啡膠囊\n。專業咖啡機、器材賣買保養維修\n。度身訂造咖啡課程"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/mylittlecoffeeroastery/",
+      "meta": {
+        "name": "My Little Coffee Roastery 太子大南街店 & 咖啡豆自動販賣機",
+        "about": "My Little Coffee Roastery\n♨️太子大南街店\n外賣咖啡☕️\n每日新鮮烘焙咖啡豆零售/批發\n自家製咖啡掛耳包\n咖啡沖煮工具\n咖啡機維修改裝/ 咖啡興趣班\n🚦咖啡豆自動販賣機家族：\n荃灣阿機\n沙田阿機\n九龍塘阿機\n將軍澳阿機"
       },
       "hidden": true
     }
@@ -115,10 +144,10 @@
       "address": {
         "zh": "觀塘駿業里8號世貿大樓13樓1303室"
       },
-      "googleMapsPlaceId": "ChIJZRK1d08BBDQRY8uWDy65bNU",
+      "googleMapsPlaceId": "ChIJD640WUQBBDQRod2DKJXQ-YU",
       "coordinates": {
-        "lat": 22.312408,
-        "lng": 114.22409
+        "lat": 22.3125977,
+        "lng": 114.2241199
       },
       "area": {
         "zh": "觀塘區"
@@ -126,28 +155,15 @@
     },
     {
       "address": {
-        "zh": "紅磡馬頭圍道37號紅磡廣場地庫BC19"
+        "zh": "紅磡馬頭圍道紅磡廣場地庫BC19、06&06A"
       },
-      "googleMapsPlaceId": "ChIJF_bA594ABDQRjYUqyfZ2NMU",
+      "googleMapsPlaceId": "ChIJKbZhhEUBBDQRa6lTPXVMKJE",
       "coordinates": {
-        "lat": 22.31025439999999,
-        "lng": 114.1877826
+        "lat": 22.310346,
+        "lng": 114.1880584
       },
       "area": {
         "zh": "九龍城區"
-      }
-    },
-    {
-      "address": {
-        "zh": "屯門湖翠路138號啟豐商場1樓16c7號鋪"
-      },
-      "googleMapsPlaceId": "ChIJNdhya1D7AzQRowQL_0D-t8U",
-      "coordinates": {
-        "lat": 22.3728091,
-        "lng": 113.9646099
-      },
-      "area": {
-        "zh": "屯門區"
       }
     },
     {
@@ -167,10 +183,10 @@
       "address": {
         "zh": "北角城中心1樓104號舖"
       },
-      "googleMapsPlaceId": "ChIJRyZCLAIBBDQRBFcU4VJg9_o",
+      "googleMapsPlaceId": "ChIJR6U7BQYBBDQRpC74esjgJWc",
       "coordinates": {
-        "lat": 22.2885726,
-        "lng": 114.194499
+        "lat": 22.2885994,
+        "lng": 114.1943746
       },
       "area": {
         "zh": "東區"
@@ -180,10 +196,10 @@
       "address": {
         "zh": "大埔安慈路4號昌運中心"
       },
-      "googleMapsPlaceId": "ChIJXUMuhkcIBDQRBEwJ-MsLRv4",
+      "googleMapsPlaceId": "ChIJ42FWw1gJBDQRgtTYpTEGFx0",
       "coordinates": {
-        "lat": 22.4524409,
-        "lng": 114.1680317
+        "lat": 22.4524431,
+        "lng": 114.1680291
       },
       "area": {
         "zh": "大埔區"
@@ -193,10 +209,23 @@
       "address": {
         "zh": "尖沙咀彌敦道100號GA04"
       },
-      "googleMapsPlaceId": "ChIJO8Rrye0ABDQRIzRnrwsXcu0",
+      "googleMapsPlaceId": "ChIJI7shnDIBBDQR-ewzFZ9Fxyo",
       "coordinates": {
-        "lat": 22.2998755,
-        "lng": 114.1727008
+        "lat": 22.2998652,
+        "lng": 114.1725625
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍太子大南街120號地下"
+      },
+      "googleMapsPlaceId": "ChIJBWv4wDwBBDQRvr105SpRlw0",
+      "coordinates": {
+        "lat": 22.3257965,
+        "lng": 114.1651998
       },
       "area": {
         "zh": "油尖旺區"
