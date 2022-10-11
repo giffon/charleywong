@@ -8,7 +8,7 @@
       "url": "https://www.instagram.com/popstreethk/",
       "meta": {
         "name": "Pop Street HK",
-        "about": "@saiyingpun\nFood inspired by worldwide street food, craft beer\nIF YOU TRAVEL\nMon. Closed\nTue - Fri. 1130 - 1500, 1800 - 2200\nSat - Sun 0900 - 2200"
+        "about": "@saiyingpun\nFood inspired by worldwide street food, craft beer\nMon - Tue Off\nWed - Fri | 1130 - 1500, 1800 - 22:00\nSat - Sun | 0900 - 22:00"
       }
     },
     {
@@ -82,6 +82,21 @@
     {
       "type": "eat",
       "id": 583
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "70 Third Street"
+      },
+      "googleMapsPlaceId": "ChIJXXhEsEj_AzQRKCi7Z5iqyTM",
+      "coordinates": {
+        "lat": 22.2855794,
+        "lng": 114.1418284
+      },
+      "area": {
+        "zh": "中西區"
+      }
     }
   ]
 }
