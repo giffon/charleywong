@@ -32,7 +32,7 @@
       "url": "https://www.instagram.com/simple_legend_shop/",
       "meta": {
         "name": "取社商店• Simple legend shop",
-        "about": "Good On Japan - HK General Agent\nA Hope Hemp - HK Offical Retailer\n·\nMonday - Saturday\n(13:30-20:00)\nSunday\n(14:00-18:00)\n<Off on Every Tuesday>"
+        "about": "香港(本店) - 炮台山長康街20號地鋪\n九龍(分店) - 界限街8號地鋪\n營業時間\n·星期三至六1330-2000\n·星期日1330-1830\n·星期一及二兩店例休\n《Good On General Agent》\n《Japan Blue Official Retailer》"
       }
     }
   ],
@@ -45,7 +45,8 @@
     }
   ],
   "tags": [
-    "clothing"
+    "clothing",
+    "shop"
   ],
   "places": [
     {
@@ -60,12 +61,29 @@
       "area": {
         "zh": "東區"
       }
+    },
+    {
+      "address": {
+        "zh": "界限街8號地鋪"
+      },
+      "googleMapsPlaceId": "ChIJNbfpgjABBDQR2it5ibwApPs",
+      "coordinates": {
+        "lat": 22.3260647,
+        "lng": 114.1633036
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 2232
+    },
+    {
+      "type": "shop",
+      "id": 7326
     }
   ]
 }
