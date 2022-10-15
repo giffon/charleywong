@@ -9,19 +9,24 @@
       "url": "https://anicesip.com"
     },
     {
-      "url": "https://anicesip.square.site"
+      "url": "https://anicesip.square.site",
+      "hidden": true
+    },
+    {
+      "url": "https://anicesip-arndale.square.site",
+      "hidden": true
     },
     {
       "url": "https://www.instagram.com/a_nice_sip/",
       "meta": {
         "website": "https://anicesip.square.site/",
         "name": "A Nice Sip 賞茶 (Salford)",
-        "about": "OPENING HOURS:\nMon, Tue, Thu & Fri 12:00-2:00pm\nMon, Tue, Thu, Fri & Sat 4:30-9:00pm\nWed & Sun : Closed"
-      }
+        "about": "OPENING HOURS: Salford shop is closed now"
+      },
+      "hidden": true
     },
     {
       "url": "https://www.instagram.com/anicesip_arndale/",
-      "hidden": true,
       "meta": {
         "website": "https://anicesip-arndale.square.site/",
         "name": "A Nice Sip 賞茶 @ Arndale Market",
@@ -30,10 +35,9 @@
     },
     {
       "url": "https://www.instagram.com/anicesip_belfast/",
-      "hidden": true,
       "meta": {
         "name": "A Nice Sip",
-        "about": "OPEN 7 DAYS A WEEK 11AM - 8:30PM\n🧋x 🧇\nOriginal #bubbletea #bubblewaffle at"
+        "about": "OPEN 7 DAYS A WEEK 11AM - 7:30PM\n🧋x 🧇\nOriginal #bubbletea #bubblewaffle at"
       }
     },
     {
@@ -62,11 +66,11 @@
         ],
         "single_line_address": "8 Salisbury House, St Stephen Street, Salford, M3 6AX Manchester, UK",
         "website": "https://anicesip.square.site/"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/anicesip.arndale/",
-      "hidden": true,
       "meta": {
         "id": "626484821311217",
         "username": "anicesip.arndale",
@@ -83,7 +87,6 @@
     },
     {
       "url": "https://www.facebook.com/ANiceSipBelfast/",
-      "hidden": true,
       "meta": {
         "id": "113322093382393",
         "username": "ANiceSipBelfast",
@@ -106,10 +109,8 @@
       }
     },
     {
-      "url": "https://twitter.com/nice_sip"
-    },
-    {
-      "url": "https://anicesip-arndale.square.site"
+      "url": "https://twitter.com/nice_sip",
+      "hidden": true
     }
   ],
   "posts": [
