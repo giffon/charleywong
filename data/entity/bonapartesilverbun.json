@@ -61,7 +61,7 @@
   "places": [
     {
       "address": {
-        "en": "No. 833 Cheung Sha Wan Road, Cheung Sha Wan Plaza, Cheung Sha Wan"
+        "zh": "長沙灣廣場一樓 114C"
       },
       "googleMapsPlaceId": "ChIJBWkVMUkHBDQRO0y2X_j8d2A",
       "coordinates": {
@@ -70,6 +70,19 @@
       },
       "area": {
         "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣路德圍53號 昌華大廈A座地下舖"
+      },
+      "googleMapsPlaceId": "ChIJ_0LACvL4AzQRxlWa32aL8Ek",
+      "coordinates": {
+        "lat": 22.3734315,
+        "lng": 114.1156479
+      },
+      "area": {
+        "zh": "荃灣區"
       }
     }
   ],
