@@ -34,7 +34,7 @@ jobs:
         uses: aws-actions/amazon-ecr-login@v1
       - name: Login to GitHub Container Registry
         if: success() && env.PUSH == 'true'
-        uses: docker/login-action@v1
+        uses: docker/login-action@v2
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
