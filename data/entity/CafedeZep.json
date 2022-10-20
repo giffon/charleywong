@@ -27,6 +27,29 @@
         "single_line_address": "青菱徑3號東威閣地下G03號舖, 852 香港，香港",
         "website": "https://www.zeppelinhotdog.com/"
       }
+    },
+    {
+      "url": "https://www.facebook.com/SPKChaiKee/",
+      "meta": {
+        "id": "101617839084243",
+        "username": "SPKChaiKee",
+        "name": "齊記美食 新蒲崗店 Cafe de Zep",
+        "about": "每日為街坊用心烹調十多款香港地道菜式😄\n營業時間： \n星期一至六 早上11：00至晚上 8：30\n",
+        "category_list": [
+          {
+            "id": "144362285623268",
+            "name": "Food Stand"
+          }
+        ],
+        "single_line_address": "九龍新蒲崗寧遠街3-23號越秀廣場G18"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/cafedezep_sanpokong/",
+      "meta": {
+        "name": "齊記美食新蒲崗店",
+        "about": "每日為街坊用心烹調十多款香港地道菜式😄\n營業時間：\n星期一至六 早上11：00至晚上 8：30"
+      }
     }
   ],
   "posts": [
@@ -64,6 +87,45 @@
       },
       "area": {
         "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "新界屯門愛勇街12號 友愛街12號舖"
+      },
+      "googleMapsPlaceId": "ChIJNdlLU0X7AzQRRJY-jt-kPWA",
+      "coordinates": {
+        "lat": 22.3882561,
+        "lng": 113.9743302
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍新蒲崗寧遠街3-23號越秀廣場G18"
+      },
+      "googleMapsPlaceId": "ChIJFyReL6oHBDQR4OgVerNYzCU",
+      "coordinates": {
+        "lat": 22.3337049,
+        "lng": 114.1954623
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    },
+    {
+      "address": {
+        "zh": "元朗屏昌徑14-48號 聯發樓地下14E舖"
+      },
+      "googleMapsPlaceId": "ChIJkWxeuRjxAzQR28Lz7dHmv0U",
+      "coordinates": {
+        "lat": 22.4466878,
+        "lng": 114.0230159
+      },
+      "area": {
+        "zh": "元朗區"
       }
     }
   ],
