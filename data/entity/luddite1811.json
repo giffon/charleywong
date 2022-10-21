@@ -22,6 +22,17 @@
         "single_line_address": "香港銅鑼灣希雲街15A地舖 G/F, 15A HAVEN STREET, CAUSEWAY BAY, HONG KONG (在7-Eleven旁邊\"禮信大廈\"商場直入), Causeway Bay, Hong Kong"
       },
       "url": "https://www.facebook.com/luddite1811/"
+    },
+    {
+      "url": "https://www.instagram.com/luddite1811/",
+      "meta": {
+        "website": "http://bunkayaonlineshop.com/",
+        "name": "luddite1811",
+        "about": "HK Design Brand, Vintage Style, Worker Style, Vintage Clothing, Tailor-Made"
+      }
+    },
+    {
+      "url": "https://bunkayaonlineshop.com"
     }
   ],
   "posts": [
@@ -37,12 +48,28 @@
   ],
   "tags": [
     "clothing",
-    "accessories"
+    "accessories",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 591
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港銅鑼灣希雲街15A地舖"
+      },
+      "googleMapsPlaceId": "EiExNSBIYXZlbiBTdCwgU28gS29uIFBvLCBIb25nIEtvbmciMBIuChQKEgmPOuvyUwAENBHFxUD8Mi7B2hAPKhQKEgkFLlXyUwAENBGDmQHEHQHR0Q",
+      "coordinates": {
+        "lat": 22.2776715,
+        "lng": 114.1868056
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ]
 }
