@@ -10,9 +10,28 @@
     {
       "url": "https://www.instagram.com/ohkoreabeauty/",
       "meta": {
+        "website": "http://www.okbhk.com/",
         "name": "OH ! KOREABEAUTY OFFICIAL",
-        "about": "韓國服裝潮流品牌 Ship Worldwide🌐\nEveryday new 官網逢週四12am新款上架\n📍奧海城二期UG08E🕛12-8\n🏢旺角好景1201 (週一、三、五1-6自取點）\n🏢🇰🇷 서울시 상수동\n-\n📨 admin@okbhk.com\n+821068608381(whatsapp)"
+        "about": "Ship Worldwide🌐\n🇰🇷 서울시 상수동\n🪀GUESS WHATS NEXT?🕹\n-\n📱 65425861 WhatsApp\n📨 cs.ohkoreabeauty@gmail.com"
       }
+    },
+    {
+      "url": "https://www.instagram.com/ohkoreabeauty_cwb/",
+      "meta": {
+        "website": "http://www.okbhk.com/",
+        "name": "Causeway Bay OKB",
+        "about": "韓國服裝潮流品牌 Ship Worldwide🌐"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/ohkoreabeauty_home/",
+      "meta": {
+        "website": "http://www.okbhk.com/",
+        "name": "Ohkoreabeauty / 生活用品",
+        "about": "🧸韓國潮流生活用品 @ohkoreabeauty_home\n（ 暫時產品只限郵寄 ）\n🏢🇰🇷 서울시 상수동\n-\n📨 admin@okbhk.com\n+821068608381(whatsapp)"
+      },
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/Ohkoreabeauty/",
@@ -38,19 +57,12 @@
       }
     },
     {
-      "url": "https://www.instagram.com/ohkoreabeauty_oyantsui/",
-      "meta": {
-        "name": "Oyan Tsui",
-        "about": "📍 seoul & busan 🇰🇷\nWelcome to my fashion diary\n📥oyantsui@gmail.com\n-\n-Youtuber | IG filters creator\n국제부부 @goldentv777\n공동대표 @ohkoreabeauty"
-      }
-    },
-    {
       "url": "https://www.youtube.com/channel/UCtU7qkVllPosr-1dFr62ebQ",
       "meta": {
         "id": "UCtU7qkVllPosr-1dFr62ebQ",
         "location": "South Korea",
-        "name": "OyanSays 工作好玩嗎",
-        "about": "現在居住在韓國，是位韓國女裝網店的創辦人，視工作為樂趣的創業女生！\n「工作也可很好玩啊」分享有趣味的工作日常  下班後是一位韓國媳婦\n/ \nhttps://instagram.com/ohkoreabeauty_oyantsui/\n聯絡信箱：oyantsui@gmail.com"
+        "name": "OyanSAYS",
+        "about": "https://instagram.com/oyantsui/\n聯絡信箱：oyancollab@gmail.com"
       }
     }
   ],
@@ -70,19 +82,6 @@
     "shop"
   ],
   "places": [
-    {
-      "address": {
-        "zh": "奧海城2期 UG08E"
-      },
-      "googleMapsPlaceId": "ChIJLdOHYLkABDQRDR5nj4ociXI",
-      "coordinates": {
-        "lat": 22.3172044,
-        "lng": 114.1619682
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
     {
       "address": {
         "zh": "旺角好景1201"
