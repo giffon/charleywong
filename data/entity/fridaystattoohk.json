@@ -30,8 +30,9 @@
     {
       "url": "https://www.instagram.com/fridaystattoohk/",
       "meta": {
+        "website": "http://www.fridaystattoohk.com/",
         "name": "Fridays Tattoo HK",
-        "about": "HK | Shop: 1A, 36 Cameron Rd, TST|\n+852 5595 0130 / info@fridaystattoohk.com\n@wangstattoo\n@jamie_kam1\n@mr_felixkan\n@jenna_tattoo\n@blacken_tattoo"
+        "about": "+ Causeway Bay Shop\n9A G/F Haven st, Causeway bay, HK\n+ Kwun Tong Shop\nRm 13, 14/F, Shing Yip Industrial Building, 19-21\nShing Yip St, Kwun Tong"
       }
     }
   ],
@@ -56,7 +57,7 @@
   "places": [
     {
       "address": {
-        "en": "G/F LEI HA COURT, 9A HAVEN ST"
+        "en": "9A G/F Haven st, Causeway bay"
       },
       "googleMapsPlaceId": "ChIJBbckJLcABDQR_fdtzNhBcmA",
       "coordinates": {
@@ -65,6 +66,19 @@
       },
       "area": {
         "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "en": "Rm 13, 14/F, Shing Yip Industrial Building, 19-21 Shing Yip St, Kwun Tong"
+      },
+      "googleMapsPlaceId": "ChIJ1emvTEUBBDQRbBSxjcNJc38",
+      "coordinates": {
+        "lat": 22.3101147,
+        "lng": 114.2270687
+      },
+      "area": {
+        "zh": "觀塘區"
       }
     }
   ],
