@@ -1,7 +1,8 @@
 {
   "id": "eighttreasures",
   "name": {
-    "zh": "八寶清湯腩"
+    "zh": "八寶清湯腩",
+    "en": "Eight Treasures"
   },
   "webpages": [
     {
@@ -57,6 +58,19 @@
       "coordinates": {
         "lat": 22.2854658,
         "lng": 114.1916923
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "灣仔軒尼詩道397號東區商業地庫 (外賣店)"
+      },
+      "googleMapsPlaceId": "ChIJXXP_sYUBBDQRf-EvRwl-z50",
+      "coordinates": {
+        "lat": 22.2792834,
+        "lng": 114.1803607
       },
       "area": {
         "zh": "灣仔區"
