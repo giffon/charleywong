@@ -15,23 +15,6 @@ class View extends ReactComponent {
 
     function canonical():String throw "should be overridden";
 
-    function gtag() {
-        var content = {
-            __html: "
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'UA-156524141-1');
-            "
-        };
-        return jsx('
-            <Fragment>
-                <script async=${true} src="https://www.googletagmanager.com/gtag/js?id=UA-156524141-1"></script>
-                <script dangerouslySetInnerHTML=${content}></script>
-            </Fragment>
-        ');
-    }
-
     function depCss() return jsx('
         <Fragment></Fragment>
     ');
@@ -126,7 +109,6 @@ class View extends ReactComponent {
 
     function head() return jsx('
         <head profile="http://a9.com/-/spec/opensearch/1.1/">
-            ${gtag()}
             <meta charSet="UTF-8" />
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
