@@ -860,25 +860,21 @@ class ServerMain {
             root: sys.FileSystem.absolutePath(StaticResource.resourcesDir),
             wildcard: false,
         });
-        app.addHook("onSend", function(req:Request, reply:Reply, payload){
+        app.addHook("onSend", function(req:Request, reply:Reply, payload):Promise<Dynamic>{
             if (payload != null) switch (untyped payload.filename:String) {
                 case null:
                     // pass
                 case filename:
-                    var md5:Null<String> = req.query.md5;
-                    if (md5 == null) {
-                        return Promise.resolve(payload);
-                    }
-    
-                    var actual = StaticResource.hash(filename);
-                    if (md5 == actual) {
+                    final hash:Null<String> = req.query.md5;    
+                    final actual = StaticResource.hash(filename);
+                    if (hash == actual) {
                         reply.header("Cache-Control", "public, max-age=31536000, immutable"); // 1 year
                         return Promise.resolve(payload);
                     } else {
-                        reply.header("Cache-Control", "no-cache");
+                        reply.header("Cache-Control", "public, max-age=60, stale-while-revalidate=604800"); // max-age: 1 min, stale-while-revalidate: 7 days
                         var redirectUrl = new URL(req.url, "http://example.com");
-                        redirectUrl.searchParams.set("md5", actual);
-                        reply.redirect(redirectUrl.pathname + redirectUrl.search);
+                        redirectUrl.searchParams.delete("md5");
+                        reply.redirect(StaticResource.fingerprint(redirectUrl.pathname, actual) + redirectUrl.search);
                         return Promise.resolve(null);
                     }
             }
@@ -904,14 +900,17 @@ class ServerMain {
     }
 
     static function main():Void {
+        final opts:Dynamic = {};
+        opts.rewriteUrl = function(req:Request):String {
+            return StaticResource.rewriteUrl(req.url);
+        }
         if (Sys.getEnv("FLY_APP_NAME") != null) {
-            app = Fastify.fastify();
+            app = Fastify.fastify(opts);
             initServer();
             app.listen(80, "0.0.0.0");
         } else if (Sys.getEnv("AWS_LAMBDA_FUNCTION_NAME") != null) {
-            app = Fastify.fastify({
-                trustProxy: true,
-            });
+            opts.trustProxy = true;
+            app = Fastify.fastify(opts);
             initServer();
             js.Node.exports.handler = require('aws-lambda-fastify')(app, {
                 binaryMimeTypes: [
@@ -955,7 +954,7 @@ class ServerMain {
                 entityIndex.invalidate();
             });
 
-            app = Fastify.fastify();
+            app = Fastify.fastify(opts);
             initServer();
             app.post("/", post);
             app.listen(80, "0.0.0.0");

@@ -25,19 +25,18 @@ class ServiceWorkerMain {
 			]:Array<Dynamic>),
 		}));
 		WorkboxRouting.registerRoute((options:RouteMatchCallbackOptions) -> {
-			var p = new URLSearchParams(options.url.search);
-			p.has("md5");
-        }, new CacheFirst({
-			cacheName: "static",
-			plugins: ([
-				new CacheableResponsePlugin({
-					statuses: [0, 200],
-				}),
-				new ExpirationPlugin({
-					maxEntries: 60,
-				}),
-			]:Array<Dynamic>),
-		}));
+            StaticResource.parseUrl(options.url.pathname).hash != null;
+        }, cast new CacheFirst({
+            cacheName: "static",
+            plugins: ([
+                new CacheableResponsePlugin({
+                    statuses: [0, 200],
+                }),
+                new ExpirationPlugin({
+                    maxEntries: 60,
+                }),
+            ]:Array<Dynamic>),
+        }));
 		WorkboxRouting.registerRoute(function(options:RouteMatchCallbackOptions) {
 			if (switch options.request.destination {
 				case FONT | IMAGE | SCRIPT | STYLE:
