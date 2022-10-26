@@ -39,7 +39,7 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - uses: earthly/actions-setup@v1
+      - uses: earthly/actions-setup@79c1a7ec26c371d868724182ec98d7434b18521f
         with:
           version: "v0.6.25"
       - name: Build devcontainer image
