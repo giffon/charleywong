@@ -1,0 +1,78 @@
+{
+  "id": "dimsumclub",
+  "name": {
+    "zh": "點心堂",
+    "en": "dimsumclub"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/dim.sum.club/",
+      "meta": {
+        "name": "Dimsumclub",
+        "about": "點心堂\n營業時間：\n星期一至六（早上08:00-晚上10:00）\n星期日 或公眾假期（早上8:00-晚上10:00）\n☎️28809000"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/117946350125823/",
+      "meta": {
+        "id": "117946350125823",
+        "name": "點心堂 dimsumclub",
+        "category_list": [
+          {
+            "id": "1562965077339698",
+            "name": "Food & Beverage"
+          }
+        ],
+        "website": "https://instagram.com/dim.sum.club?igshid=y0d7q5q9g9sa"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/111660448239853/",
+      "meta": {
+        "id": "111660448239853",
+        "name": "天水圍點心堂",
+        "about": "點心•小菜•燒味",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "Wetland seasons park shop 2A"
+      },
+      "hidden": true
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "火炭坳背灣街49-51號協力工業大廈地下3號舖"
+      },
+      "googleMapsPlaceId": "ChIJA41WbWEHBDQRq-_XS2MCflQ",
+      "coordinates": {
+        "lat": 22.3983957,
+        "lng": 114.1936315
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "天水圍濕地公園路9號Wetland Seasons Park地下2A號舖"
+      },
+      "googleMapsPlaceId": "ChIJM3FwBkrxAzQReZrJ9jbnOCA",
+      "coordinates": {
+        "lat": 22.467298,
+        "lng": 114.0041284
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
+  ]
+}
