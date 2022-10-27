@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://katsmagicmirror.wix.com/kats"
+      "url": "https://katsmagicmirror.wixsite.com/kats"
     },
     {
       "meta": {
@@ -45,5 +45,20 @@
     "makeup",
     "artist",
     "wedding"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍灣宏開道13號景發工業大廈6樓602室"
+      },
+      "googleMapsPlaceId": "ChIJu-yDizQBBDQRFCDZg5TmOq0",
+      "coordinates": {
+        "lat": 22.3223523,
+        "lng": 114.2105826
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
