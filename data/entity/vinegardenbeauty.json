@@ -45,5 +45,20 @@
       "type": "shop",
       "id": 2241
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "旺角茘枝角道1號嘉業大廈"
+      },
+      "googleMapsPlaceId": "ChIJH6dKO8gABDQRjo5uqCKjG04",
+      "coordinates": {
+        "lat": 22.3221308,
+        "lng": 114.1684822
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
