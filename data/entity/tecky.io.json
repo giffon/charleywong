@@ -38,8 +38,9 @@
     {
       "url": "https://www.instagram.com/tecky.io/",
       "meta": {
+        "website": "https://linktr.ee/tecky.io",
         "name": "Tecky Academy",
-        "about": "Our mission is to provide affordable and career-centric technology education to who are interested in pursuing a career in the technology field."
+        "about": "🇬🇧 @tecky.uk | 🇨🇦 @tecky.ca\nWhere Tech Happens.\nBased in Hong Kong, teaching worldwide."
       }
     }
   ],
@@ -81,12 +82,12 @@
   "places": [
     {
       "address": {
-        "en": "Room 2715-16 & 515-516, One Midtown, Tsuen Wan"
+        "en": "Room 20B, 20/F, TML Tower, 3 Hoi Shing Road, Tsuen Wan, Hong Kong"
       },
       "googleMapsPlaceId": "ChIJvXfR3ir5AzQRVPa_LFaNeRw",
       "coordinates": {
-        "lat": 22.3724739,
-        "lng": 114.1077178
+        "lat": 22.3736668,
+        "lng": 114.1061254
       },
       "area": {
         "zh": "荃灣區"
@@ -103,6 +104,45 @@
       },
       "area": {
         "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "en": "Room 1103, Exchange Tower, 33 Wang Chiu Road, Kowloon Bay"
+      },
+      "googleMapsPlaceId": "ChIJNWKJhm4BBDQROBhqrzPuYoQ",
+      "coordinates": {
+        "lat": 22.3211051,
+        "lng": 114.2094231
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "en": "Citibase London Holborn, Fox Court, 14 Grays Inn Rd, London WC1X 8HN"
+      },
+      "googleMapsPlaceId": "ChIJs4AUCNgbdkgRA-5y4K9xhwU",
+      "coordinates": {
+        "lat": 51.51927060000001,
+        "lng": -0.1109205
+      },
+      "area": {
+        "zh": "英國"
+      }
+    },
+    {
+      "address": {
+        "en": "5700 Yonge Street, Suite 200, 2/F, North America Centre, North York, Ontario M2M 4K2"
+      },
+      "googleMapsPlaceId": "ChIJT9Zx9WQtK4gR-ebj6hvKgEI",
+      "coordinates": {
+        "lat": 43.7812403,
+        "lng": -79.4161987
+      },
+      "area": {
+        "zh": "加拿大"
       }
     }
   ]
