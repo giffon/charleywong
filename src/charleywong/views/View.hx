@@ -202,7 +202,7 @@ class View extends ReactComponent {
                     
                     <div className="md:m-4 mb-3 p-6 md:p-6 lg:p-12 bg-stripe-y rounded-10 text-center relative flex-grow max-w-full flex-1 px-4">
                         <h5 className="text-center text-xl mb-2"><i className="fas fa-baby"></i> 邊個整 Charley</h5>
-                        <p>Charley 嘅父母係 <a title="giffon.io" href="https://giffon.io">Giffon</a>, 一個幫大家眾籌禮物的平台。</p>
+                        <p>我哋只係兩個仲未放棄，雖然已經唔喺香港，但依然自認係香港人嘅普通人。</p>
                         <p className="mt-2">另外，我哋<a title="終極黃藍地圖" href="https://www.facebook.com/charleywong2020/posts/151433913066302">同終極黃藍地圖合作</a>，持續互相完善雙方嘅資料。</p>
                     </div>
                 </div>
