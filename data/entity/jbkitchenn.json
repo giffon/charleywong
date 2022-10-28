@@ -1,7 +1,7 @@
 {
   "id": "jbkitchenn",
   "name": {
-    "en": "JB CAFE"
+    "en": "JB Kitchen"
   },
   "webpages": [
     {
@@ -26,6 +26,7 @@
     {
       "url": "https://www.instagram.com/jb_kitchenn/",
       "meta": {
+        "website": "https://linktr.ee/jb_kichenn",
         "name": "JB KITCHEN💛",
         "about": "Lunch 11:30-4:00\nDinner 6:00-10:00\n訂座電話/WhatsApp 5113 5574"
       }
@@ -58,17 +59,18 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "closed"
   ],
   "places": [
     {
       "address": {
         "zh": "大角咀埃華街105號C2鋪"
       },
-      "googleMapsPlaceId": "ChIJccPjC7oABDQRq-1NxK-YgKo",
+      "googleMapsPlaceId": "ChIJCTf31xcBBDQRFgPal3kg074",
       "coordinates": {
-        "lat": 22.321271,
-        "lng": 114.16064
+        "lat": 22.3212181,
+        "lng": 114.1604637
       },
       "area": {
         "zh": "油尖旺區"
