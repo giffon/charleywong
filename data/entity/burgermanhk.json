@@ -1,0 +1,67 @@
+{
+  "id": "burgermanhk",
+  "name": {
+    "en": "Burgerman"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/598327206876496/",
+      "meta": {
+        "id": "598327206876496",
+        "username": "burgermanhk",
+        "name": "Burgerman",
+        "about": "��Top 10 Burger in Hong Kong and have won Number 1 restaurant in Openrice.com. Try us now and you will not regret. ��",
+        "category_list": [
+          {
+            "id": "149803325077018",
+            "name": "American Restaurant"
+          },
+          {
+            "id": "187425207958280",
+            "name": "Burger Restaurant"
+          }
+        ],
+        "single_line_address": "Shop C, G/F., 95-97 Ivy St, 1 Hong Kong, Hong Kong"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/burgermanhk/",
+      "meta": {
+        "name": "Burgerman",
+        "about": "我哋嘅🍔漢堡包🍔夢開始於2014年，深水埗一個唔夠300尺嘅小店🏠。小弟嘅💣秘密武器🔫就係 \"👋🏼堅持人手打牛，即叫即做\". 🙏🏽好感恩係半年後已經可以開第二間分店🏡，仲要係大角咀有🍴食街之稱嘅埃華街."
+      }
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "burger"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗欽州街65-71號地下"
+      },
+      "googleMapsPlaceId": "ChIJiRgLVksHBDQRaiPCba-Hpks",
+      "coordinates": {
+        "lat": 22.3329423,
+        "lng": 114.1617877
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大角咀埃華街95-97號地下C號舖"
+      },
+      "googleMapsPlaceId": "ChIJt3tMCroABDQRNLYuIOfR6BU",
+      "coordinates": {
+        "lat": 22.3213055,
+        "lng": 114.1606897
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ]
+}
