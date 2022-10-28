@@ -1,5 +1,5 @@
 {
-  "id": "114923483256323",
+  "id": "Amawashi",
   "name": {
     "zh": "天鷲拉麵"
   },
@@ -81,7 +81,8 @@
   "tags": [
     "food",
     "japanese",
-    "noodle"
+    "noodle",
+    "closed"
   ],
   "places": [
     {
@@ -103,5 +104,8 @@
       "type": "eat",
       "id": 1136
     }
+  ],
+  "alias": [
+    "114923483256323"
   ]
 }
