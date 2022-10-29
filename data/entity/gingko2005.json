@@ -65,8 +65,9 @@
     {
       "url": "https://www.instagram.com/gingko2005/",
       "meta": {
+        "website": "https://www.eldershop.com.hk/",
         "name": "銀杏館Gingkohouse 銀杏士多",
-        "about": "全港首間推動長者就業的社會企業，藉餐飲業為有需要的長者，提供合適的工作環境及就業機會，讓他們善用晚年、活得更精彩💪\n❣️黃埔店-銀杏士多(設有網店)\n❣️上環店-耆素\n❣️太古店-銀杏時光\n❣️油麻地店-越老\n❣️美孚店-銀杏士多\n❣️油塘店-婆婆廚房\n❣️西環店-銀杏士多\n❣️筲箕灣店-銀杏士多"
+        "about": "全港首間推動長者就業的社會企業，藉餐飲業為有需要的長者，提供合適的工作環境及就業機會，讓他們善用晚年、活得更精彩💪\n❣️黃埔店-銀杏士多(設有網店)\n❣️上環店-耆素\n❣️太古店-銀杏時光\n❣️油麻地店-越老\n❣️美孚店-銀杏士多\n❣️油塘店-婆婆廚房\n❣️上環店-銀杏士多\n❣️筲箕灣店-銀杏士多"
       }
     }
   ],
@@ -84,15 +85,80 @@
   "places": [
     {
       "address": {
-        "zh": "油麻地彌敦道385號平安大樓1樓20號舖 銀杏館-越老"
+        "zh": "上環皇后大道西20號地下 銀杏士多"
       },
-      "googleMapsPlaceId": "ChIJswhHf-oABDQR8hL9HXcNtf8",
+      "googleMapsPlaceId": "ChIJiVbu7X4ABDQRkjRHfelvtgw",
       "coordinates": {
-        "lat": 22.308684,
-        "lng": 114.1710005
+        "lat": 22.2865236,
+        "lng": 114.1480935
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港筲箕灣道212號地 銀杏士多"
+      },
+      "googleMapsPlaceId": "ChIJb7HtOsoBBDQREgMAEYd1Ztw",
+      "coordinates": {
+        "lat": 22.2803552,
+        "lng": 114.2240054
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "美孚新邨2期吉利徑15號地下49-C1舖 銀杏士多"
+      },
+      "googleMapsPlaceId": "ChIJY2sgNs75AzQRT3o0up_RXN0",
+      "coordinates": {
+        "lat": 22.3365633,
+        "lng": 114.139794
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大角咀博學里12號富多來商場二期地下34號鋪 銀杏士多"
+      },
+      "googleMapsPlaceId": "ChIJSaherhkBBDQRBTCtbTxO5rU",
+      "coordinates": {
+        "lat": 22.3195599,
+        "lng": 114.1631825
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "紅磡德民街34A地下4E舖 銀杏士多"
+      },
+      "googleMapsPlaceId": "ChIJX8hDv-4BBDQRsZUATuSXwco",
+      "coordinates": {
+        "lat": 22.3058387,
+        "lng": 114.1877896
+      },
+      "area": {
+        "zh": "九龍城區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳新都城中心三期,1/F,178舖 銀杏士多"
+      },
+      "googleMapsPlaceId": "ChIJy02aXPAFBDQRBp29GVa02JQ",
+      "coordinates": {
+        "lat": 22.3220232,
+        "lng": 114.257159
+      },
+      "area": {
+        "zh": "西貢區"
       }
     },
     {
@@ -110,6 +176,32 @@
     },
     {
       "address": {
+        "zh": "中環德輔道中80號 中環街市1/F P03B舖 銀杏士多"
+      },
+      "googleMapsPlaceId": "ChIJdanfz8ABBDQRqUyENbxvL1g",
+      "coordinates": {
+        "lat": 22.2839325,
+        "lng": 114.1553613
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "油麻地彌敦道385號平安大樓1樓20號舖 銀杏館-越老"
+      },
+      "googleMapsPlaceId": "ChIJswhHf-oABDQR8hL9HXcNtf8",
+      "coordinates": {
+        "lat": 22.308684,
+        "lng": 114.1710005
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
         "zh": "油塘高超道38號大本型空中花園R01號舖 銀杏館 婆婆廚房"
       },
       "googleMapsPlaceId": "ChIJByN1gaMBBDQRt4kLME24s4U",
@@ -123,28 +215,15 @@
     },
     {
       "address": {
-        "zh": "上環干諾道西3號億利商業大廈地下A及B舖 耆素銀杏館"
+        "zh": "火炭坳背灣街38-40號華衛工貿中心 1101室 總部"
       },
-      "googleMapsPlaceId": "ChIJifnnMUcBBDQReRF5QOQ88Os",
+      "googleMapsPlaceId": "ChIJ_znCoDQGBDQRoIriLzwYfMo",
       "coordinates": {
-        "lat": 22.2873719,
-        "lng": 114.1501053
+        "lat": 22.400112,
+        "lng": 114.1927027
       },
       "area": {
-        "zh": "中西區"
-      }
-    },
-    {
-      "address": {
-        "zh": "九龍紅磡德民街34A地下4E鋪 銀杏士多"
-      },
-      "googleMapsPlaceId": "ChIJX8hDv-4BBDQRsZUATuSXwco",
-      "coordinates": {
-        "lat": 22.3057916,
-        "lng": 114.1877864
-      },
-      "area": {
-        "zh": "九龍城區"
+        "zh": "沙田區"
       }
     }
   ]
