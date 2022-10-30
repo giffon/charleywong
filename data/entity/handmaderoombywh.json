@@ -33,7 +33,12 @@
       "url": "https://www.facebook.com/handmaderoombywh/"
     },
     {
-      "url": "https://www.instagram.com/handmaderoombywonderlandh/"
+      "url": "https://www.instagram.com/handmaderoombywonderlandh/",
+      "meta": {
+        "website": "https://forms.gle/nGrUq51KQKs3HpQc8",
+        "name": "Handmade Room By WH",
+        "about": "精選台灣,香港手作及原創品牌.\n荔枝角D2 Place ONE Shop 223\n12:30-20:00\n美麗華廣場一期Shop 109\n12:00-20:00\nWhatsapp +852 5633 1386\nhttps://www.handmaderoombywh.com/\n［寄賣查詢］"
+      }
     }
   ],
   "posts": [
@@ -45,12 +50,41 @@
     }
   ],
   "tags": [
-    "accessories"
+    "accessories",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 2777
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荔枝角D2 Place ONE Shop 223"
+      },
+      "googleMapsPlaceId": "ChIJOWJn51QHBDQRKoaTDohgYDE",
+      "coordinates": {
+        "lat": 22.336104,
+        "lng": 114.148986
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "美麗華廣場一期Shop 109"
+      },
+      "googleMapsPlaceId": "ChIJhYJeMOwABDQRRBe3mO0pNWU",
+      "coordinates": {
+        "lat": 22.3007132,
+        "lng": 114.172755
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
