@@ -1,0 +1,99 @@
+{
+  "id": "kindanaturals",
+  "name": {
+    "en": "Kindanaturals"
+  },
+  "webpages": [
+    {
+      "url": "https://kindanaturals.shoplineapp.com"
+    },
+    {
+      "url": "https://www.kindanaturals.com",
+      "hidden": true
+    },
+    {
+      "url": "https://www.facebook.com/970159639763437/",
+      "meta": {
+        "id": "970159639763437",
+        "username": "kindanaturals",
+        "name": "Kindanaturals",
+        "about": "《購買方式》門市﹑網店﹑Whatsapp及Facebook/IG Inbox\n九龍店: 荔枝角D2 Place 二期1/F 114號舖 (12-8PM)\n港島店: 銅鑼灣皇室堡 2/F 220號舖 (12-9PM)",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Local Business"
+          }
+        ],
+        "emails": [
+          "kindanaturals@gmail.com"
+        ],
+        "single_line_address": "Shop 114, D2 Place Two, Lai Chi Kok | Shop 220, Windsor House, Causeway Bay, 荔枝角",
+        "website": "http://www.kindanaturals.com"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/kindanaturals/",
+      "meta": {
+        "website": "http://www.kindanaturals.com/",
+        "name": "kindanaturals",
+        "about": "🛍LCK荔枝角．CWB 銅鑼灣\nEco Beauty & Lifestyle 天然護膚及香薰\nAffordable Luxurious 優質而實惠\nZero-Waste Refill Station 環保裸買站\nUnique Brands 獨家品牌"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/kindanaturals/posts/2188315051281217/"
+    },
+    {
+      "url": "https://www.facebook.com/kindanaturals/photos/a.1003256536453747/2197327147046674/?type=3"
+    },
+    {
+      "url": "https://www.facebook.com/kindanaturals/photos/a.1003256536453747/2280997278679660/?type=3"
+    },
+    {
+      "url": "https://www.facebook.com/kindanaturals/photos/a.1003256536453747/2466807350098651/?type=3"
+    }
+  ],
+  "tags": [
+    "skincare",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Shop 114, D2 Place Two, Lai Chi Kok"
+      },
+      "googleMapsPlaceId": "ChIJ4_bHSHAHBDQRlOAMTIelmkk",
+      "coordinates": {
+        "lat": 22.3360897,
+        "lng": 114.1475583
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop 220, Windsor House, Causeway Bay"
+      },
+      "googleMapsPlaceId": "ChIJwRclChEBBDQR9Ai1Cj8LVpQ",
+      "coordinates": {
+        "lat": 22.280413,
+        "lng": 114.1865722
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 7277
+    },
+    {
+      "type": "shop",
+      "id": 7278
+    }
+  ]
+}
