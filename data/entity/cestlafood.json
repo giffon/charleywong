@@ -6,31 +6,7 @@
   },
   "webpages": [
     {
-      "url": "https://www.wcboycestlafood.store"
-    },
-    {
-      "url": "https://wcboyfood.boutir.com",
-      "hidden": true
-    },
-    {
-      "url": "https://www.facebook.com/WCboycestlafood/",
-      "meta": {
-        "id": "106501647800062",
-        "username": "WCboycestlafood",
-        "name": "世昌食材店 GD FOOD HK",
-        "about": "實體店地址\n屯門店：屯門盈豐商場1樓",
-        "category_list": [
-          {
-            "id": "200600219953504",
-            "name": "Shopping & Retail"
-          }
-        ],
-        "emails": [
-          "gdfoodhk@gmail.com"
-        ],
-        "single_line_address": "屯門盈豐商場1樓B25C舖 (寶田天橋側), 0000 Hong Kong, Hong Kong",
-        "website": "https://www.gdfoodhk.store/"
-      }
+      "url": "https://cestlafood2020.boutir.com"
     },
     {
       "url": "https://www.facebook.com/cestlafood/",
@@ -54,14 +30,14 @@
         ],
         "single_line_address": "沙田石門京瑞廣場一期1樓183號舖, 00 Hong Kong, Hong Kong",
         "website": "https://cestlafood2020.boutir.com/"
-      },
-      "hidden": true
+      }
     },
     {
       "url": "https://www.instagram.com/cest_la_food/",
       "meta": {
+        "website": "https://cestlafood2020.boutir.com/",
         "name": "和昌食材店by Cest la food",
-        "about": "小店主要售買急凍肉類，海產及醬料等食物\n同時亦有送貨服務🚚🚚\n\n門市地址:\n1️⃣沙田石門京瑞廣場一期1樓183號舖\n2️⃣屯門盈豐商場一樓B25C舖\n📲https://api.whatsapp.com/send?phone=85261478441&text=我想訂食材"
+        "about": "🏠門市地點：\n👉沙田石門京瑞廣場一期183號舖\n👉觀塘成業街16號怡生工業中心地下H舖\n🪞鏡粉集中地🪞集合國際優質食材〰️\n包括肉類🐂🐖🐐🐓火鍋料理等等，應有盡有💁🏻‍♀️"
       }
     },
     {
@@ -70,16 +46,10 @@
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/WCboycestlafood/posts/295501725566719",
-      "meta": {
-        "sharedWith": "Public"
-      }
+      "url": "https://www.instagram.com/p/COeop0Vhzol/"
     },
     {
-      "url": "https://www.facebook.com/WCboycestlafood/posts/325678835882341",
-      "meta": {
-        "sharedWith": "Public"
-      }
+      "url": "https://www.instagram.com/p/CQPrRtwhiOt/"
     }
   ],
   "tags": [
@@ -87,19 +57,6 @@
     "shop"
   ],
   "places": [
-    {
-      "address": {
-        "zh": "屯門盈豐商場1樓B25C舖"
-      },
-      "googleMapsPlaceId": "ChIJW-qZkcT7AzQRbqhfE_krMr8",
-      "coordinates": {
-        "lat": 22.4093578,
-        "lng": 113.9674799
-      },
-      "area": {
-        "zh": "屯門區"
-      }
-    },
     {
       "address": {
         "zh": "沙田石門京瑞廣場一期1樓183號舖"
@@ -111,6 +68,19 @@
       },
       "area": {
         "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘成業街怡生工業大厦地下H舖"
+      },
+      "googleMapsPlaceId": "ChIJX2brN0UBBDQRjnrGd4Wusn0",
+      "coordinates": {
+        "lat": 22.3097052,
+        "lng": 114.2264882
+      },
+      "area": {
+        "zh": "觀塘區"
       }
     }
   ],
