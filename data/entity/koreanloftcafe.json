@@ -28,8 +28,9 @@
     {
       "url": "https://www.instagram.com/korean_loft_cafe/",
       "meta": {
+        "website": "http://www.koreanloftcafe.com.hk/",
         "name": "韓閣 韓國炸雞 湯品 料理",
-        "about": "地址 : 荃灣青山公路275号富裕樓地下G4~6鋪\n電話 : 39568101"
+        "about": "荃灣店: 荃灣青山公路275號富裕樓地下G4~6鋪\n電話 : 39568101\n將軍澳店: 新都城2期1015號鋪\n電話: 28386762\n黃大仙旗艦店: 黃大仙中心北館地下G06E-G鋪\n電話: 23501116"
       }
     }
   ],
@@ -81,13 +82,26 @@
       "address": {
         "zh": "將軍澳新都城 2期 1015號鋪"
       },
-      "googleMapsPlaceId": "ChIJTyMjCQwEBDQRUVXfKhXaR28",
+      "googleMapsPlaceId": "ChIJDe7X6L4FBDQR-Ngh-bw311U",
       "coordinates": {
-        "lat": 22.3231863,
-        "lng": 114.2577924
+        "lat": 22.3241364,
+        "lng": 114.2571874
       },
       "area": {
         "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "黃大仙中心北館地下G06E-G鋪"
+      },
+      "googleMapsPlaceId": "ChIJe6N3axUHBDQRfM97z40ahMk",
+      "coordinates": {
+        "lat": 22.3414698,
+        "lng": 114.194421
+      },
+      "area": {
+        "zh": "黃大仙區"
       }
     }
   ],
@@ -99,6 +113,10 @@
     {
       "type": "eat",
       "id": 2319
+    },
+    {
+      "type": "eat",
+      "id": 6890
     }
   ]
 }
