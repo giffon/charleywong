@@ -533,10 +533,10 @@ class ServerMain {
         return Promise.resolve(reply.status(500).send('Cannot handle ${req.body}.'));
     }
 
-    static public function saveEntity(entity:Entity, openAfterSave:Bool, log:Bool) {
-        var fileContent = haxe.Json.stringify(entity, null, "  ");
-        var file = haxe.io.Path.join([dataDirectory, entity.id + ".json"]);
-        var rewrite = sys.FileSystem.exists(file);
+    static public function saveEntity(entity:Entity, openAfterSave:Bool, log:Bool):Void {
+        final fileContent = haxe.Json.stringify(entity, null, "  ");
+        final file = haxe.io.Path.join([dataDirectory, entity.id + ".json"]);
+        final rewrite = sys.FileSystem.exists(file);
         sys.io.File.saveContent(file, fileContent);
         if (log)
             Sys.println((rewrite ? "✍️  Rewritten " : "🌟  Created ") + file);
@@ -773,17 +773,15 @@ class ServerMain {
     }
 
     static function geocode(entity:Entity):Void {
-        var gmapsClient = new js.npm.googlemaps.Client();
-        var file = "GEOCODING_KEY";
-        if (entity.places != null && FileSystem.exists(file)) {
-            var GEOCODING_KEY = File.getContent("GEOCODING_KEY").trim();
-            var geocodings = [
+        final gmapsClient = GoogleMaps.client;
+        if (entity.places != null && GoogleMaps.GEOCODING_KEY != null) {
+            final geocodings = [
                 for (p in entity.places)
                 if (p.googleMapsPlaceId != null && p.googleMapsPlaceId != "" && (p.coordinates == null || p.area == null))
                 gmapsClient.placeDetails({
                     params: {
                         place_id: p.googleMapsPlaceId,
-                        key: GEOCODING_KEY,
+                        key: GoogleMaps.GEOCODING_KEY,
                     }
                 }).then(response -> {
                     switch (response.data.result) {
