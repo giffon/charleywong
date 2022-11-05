@@ -1,9 +1,25 @@
 {
   "id": "Kokonoe.Izakaya",
   "name": {
-    "zh": "九重町"
+    "zh": "小豆町日本料理"
   },
   "webpages": [
+    {
+      "url": "https://www.facebook.com/342976927106480/",
+      "meta": {
+        "id": "342976927106480",
+        "name": "小豆町日本料理",
+        "about": "3款優惠產品，(函蓋本店出品，進口食品，蔬果及甜品)更新不斷，敬請留意",
+        "category_list": [
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
+        ],
+        "single_line_address": "屯門藍地福亨村路8號豫豐花園地下N舖, Hong Kong, Hong Kong",
+        "website": "https://s.openrice.com/QrbS0pI4900~dDfFRqwcy"
+      }
+    },
     {
       "url": "https://www.facebook.com/Kokonoe.Izakaya/",
       "meta": {
@@ -21,7 +37,8 @@
           "kokonoeizakaya@gmail.com"
         ],
         "single_line_address": "藍地豫豐花園N鋪, Hong Kong, Hong Kong"
-      }
+      },
+      "hidden": true
     }
   ],
   "posts": [
@@ -47,10 +64,10 @@
       "address": {
         "zh": "藍地豫豐花園N鋪"
       },
-      "googleMapsPlaceId": "ChIJr2taju76AzQR9C3rD0jUm8M",
+      "googleMapsPlaceId": "ChIJu5amrO_6AzQRhM_PD9vtgDE",
       "coordinates": {
-        "lat": 22.4192658,
-        "lng": 113.985439
+        "lat": 22.4184744,
+        "lng": 113.9866044
       },
       "area": {
         "zh": "屯門區"
