@@ -8,6 +8,9 @@
       "url": "https://www.how-dept.com"
     },
     {
+      "url": "https://www.how-furniture.com"
+    },
+    {
       "meta": {
         "id": "601936756651310",
         "username": "howdept",
@@ -40,7 +43,7 @@
       "meta": {
         "website": "http://linktr.ee/how_dept/",
         "name": "HOW",
-        "about": "網上訂座: www.how-dept.com\n·\n尖沙咀河內道K11 Art Mall 二樓201舖\n銅鑼灣希慎廣場四樓414-417 舖\n·\n日本優質傢具生活百貨 @how_furniture\n室內設計 @how_interior\n品牌形象及宣傳 @ink_designco\n·"
+        "about": ".\n尖沙咀河內道K11 Art Mall二樓201舖\n銅鑼灣希慎廣場四樓414-417舖\n荃灣荃灣廣場三樓343-345號舖\n·\n日本優質傢具生活百貨 @how_furniture\n室內設計 @how_interior\n·\n網上訂座:"
       }
     },
     {
@@ -111,6 +114,14 @@
     {
       "type": "eat",
       "id": 6515
+    },
+    {
+      "type": "eat",
+      "id": 6889
+    },
+    {
+      "type": "shop",
+      "id": 7336
     }
   ],
   "places": [
@@ -131,13 +142,26 @@
       "address": {
         "zh": "銅鑼灣 希慎廣場 四樓414-417 舖"
       },
-      "googleMapsPlaceId": "ChIJuwh9w1YABDQRaRbZ1DgateI",
+      "googleMapsPlaceId": "ChIJcT3QRT8BBDQRP_TkVk-knps",
       "coordinates": {
-        "lat": 22.2797035,
-        "lng": 114.1838445
+        "lat": 22.2798226,
+        "lng": 114.1837972
       },
       "area": {
         "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣荃灣廣場三樓343-345號舖"
+      },
+      "googleMapsPlaceId": "ChIJ6bRjlST5AzQRpqQKtcHErxk",
+      "coordinates": {
+        "lat": 22.3712957,
+        "lng": 114.1110725
+      },
+      "area": {
+        "zh": "荃灣區"
       }
     }
   ]
