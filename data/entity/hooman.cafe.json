@@ -8,7 +8,7 @@
       "url": "https://www.instagram.com/hooman.cafe/",
       "meta": {
         "name": "HOOMAN By The Sea",
-        "about": "WEST KOWLOON\nMon - Fri | 11:00 - 20:00\nSat - Sun | 09:00 - 20:00\n☎️: 6749-0777\n.\nTHE PULSE\nMon | Closed\nTue - Sun | 11:00 - 20:00\n☎️: 2881-1878"
+        "about": "WEST KOWLOON\nMon - Fri | 11:00 - 20:00\nSat - Sun | 09:00 - 20:00\n☎️: 6749-0777\n⠀\nTHE PULSE\nMon | Closed\nTue - Sun | 10:00 - 19:00\n☎️: 2881-1878"
       }
     },
     {
@@ -56,7 +56,7 @@
   "places": [
     {
       "address": {
-        "en": "Shop GF-07, G/F, Art Park, West Kowloon Cultural District, Tsim Sha Tsui"
+        "zh": "尖沙咀西九文化區藝術公園地下GF-07號舖"
       },
       "googleMapsPlaceId": "ChIJHclnL1MBBDQRcV-0MOuaakw",
       "coordinates": {
@@ -66,12 +66,29 @@
       "area": {
         "zh": "油尖旺區"
       }
+    },
+    {
+      "address": {
+        "zh": "淺水灣海灘道28號The Pulse2樓211號舖"
+      },
+      "googleMapsPlaceId": "ChIJiYRjppSrBjQRCuQwFZLceDE",
+      "coordinates": {
+        "lat": 22.2353891,
+        "lng": 114.1982467
+      },
+      "area": {
+        "zh": "南區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 1295
+    },
+    {
+      "type": "eat",
+      "id": 6892
     }
   ]
 }
