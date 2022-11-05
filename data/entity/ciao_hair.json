@@ -1,0 +1,39 @@
+{
+  "id": "ciao_hair",
+  "name": {
+    "en": "Ciao Hair"
+  },
+  "webpages": [
+    {
+      "url": "https://www.instagram.com/ciao_hair/",
+      "meta": {
+        "name": "Tim Cheng",
+        "about": "💈Nottingham Hong Kong hairdresser 香港髮型師\n💈Tel:+44(0)7708500301\n💈Appointment only\n108 Derby Rd, Nottingham NG1 5FB"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/NottsStandsWithHK/posts/865557471522276/"
+    }
+  ],
+  "tags": [
+    "salon",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "108 Derby Rd, Nottingham NG1 5FB"
+      },
+      "googleMapsPlaceId": "ChIJ2zhxvYfBeUgRpvReAdxEt3o",
+      "coordinates": {
+        "lat": 52.9556237,
+        "lng": -1.1598597
+      },
+      "area": {
+        "zh": "英國"
+      }
+    }
+  ]
+}
