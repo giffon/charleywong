@@ -1,5 +1,5 @@
 {
-  "id": "761795477196002",
+  "id": "heikeistore",
   "name": {
     "zh": "囍記- 港泰海味蔘茸藥行"
   },
@@ -35,14 +35,15 @@
     }
   ],
   "tags": [
-    "foodStore"
+    "foodStore",
+    "shop"
   ],
   "places": [
     {
       "address": {
         "zh": "青衣長亨村街市"
       },
-      "googleMapsPlaceId": "ChIJ-97kF9j4AzQRgACihXHDWlI",
+      "googleMapsPlaceId": "ChIJ8ZqmF9j4AzQRaBYuPt5zGSo",
       "coordinates": {
         "lat": 22.354523,
         "lng": 114.097823
@@ -57,5 +58,8 @@
       "type": "shop",
       "id": 371
     }
+  ],
+  "alias": [
+    "761795477196002"
   ]
 }
