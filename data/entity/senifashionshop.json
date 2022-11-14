@@ -26,6 +26,13 @@
         "single_line_address": "元朗形點II YOHOIIA179店\n沙田連城廣場citylink 58店 \n將軍澳日出康城the Lohas 324A店\n銅鑼灣東角Laforet120店\n葵涌廣場3樓top世界3151店\n葵涌廣場3樓時尚坊61店"
       },
       "url": "https://www.facebook.com/senifashionshop/"
+    },
+    {
+      "url": "https://www.instagram.com/seni.fashion/",
+      "meta": {
+        "name": "SENI official",
+        "about": "Shop List:\n元朗形點II YOHOIIA179店\n沙田連城廣場citylink 58店\n將軍澳日出康城the Lohas 324A店\n銅鑼灣東角Laforet120店\n葵涌廣場3樓top世界3151店\n葵涌廣場3樓時尚坊61店\nOnline Outlet: @senioutlet"
+      }
     }
   ],
   "posts": [
@@ -34,7 +41,8 @@
     }
   ],
   "tags": [
-    "clothing"
+    "clothing",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
@@ -44,6 +52,86 @@
     {
       "type": "shop",
       "id": 399
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "元朗形點II YOHOIIA179店"
+      },
+      "googleMapsPlaceId": "ChIJTfgkPKbwAzQRXYrhIonBM38",
+      "coordinates": {
+        "lat": 22.4457587,
+        "lng": 114.0352248
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "沙田連城廣場Citylink 58店"
+      },
+      "googleMapsPlaceId": "ChIJKzvpu60HBDQR5kzLcEbEH_U",
+      "coordinates": {
+        "lat": 22.3825691,
+        "lng": 114.1875111
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳日出康城The Lohas 324A店"
+      },
+      "googleMapsPlaceId": "ChIJbaeM7dMDBDQRXuPZHy4fLJM",
+      "coordinates": {
+        "lat": 22.2968981,
+        "lng": 114.2699173
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣東角1樓120店"
+      },
+      "googleMapsPlaceId": "ChIJZ8C8mlYABDQR3_MkTj2rB-A",
+      "coordinates": {
+        "lat": 22.2802873,
+        "lng": 114.1841238
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵涌廣場3樓時尚坊61店"
+      },
+      "googleMapsPlaceId": "ChIJPehqtr34AzQR1OpdrdG_QCc",
+      "coordinates": {
+        "lat": 22.3582607,
+        "lng": 114.1271935
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵涌廣場3樓top世界3151店"
+      },
+      "googleMapsPlaceId": "ChIJPehqtr34AzQR1OpdrdG_QCc",
+      "coordinates": {
+        "lat": 22.3582607,
+        "lng": 114.1271935
+      },
+      "area": {
+        "zh": "葵青區"
+      }
     }
   ]
 }
