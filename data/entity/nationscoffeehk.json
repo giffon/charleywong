@@ -30,9 +30,9 @@
     {
       "url": "https://www.instagram.com/nationscoffeehk/",
       "meta": {
-        "website": "https://shop.nations.coffee/",
+        "website": "https://nations.coffee/",
         "name": "NATIONS COFFEE HK",
-        "about": "Specialty Coffee House\nNations 2.0 is COMING SOON\nRSVN: 2702 1909\nWhatsApp: 5742 7153"
+        "about": "Specialty Coffee House\nNations 2.0\nMon-Sat 10:00-19:00\nRSVN: 2702 1909/ 2702 1905\nWhatsApp: 5742 7153\nRegister as our Member to enjoy all benefits!"
       }
     }
   ],
@@ -77,7 +77,21 @@
   "tags": [
     "food"
   ],
-  "places": [],
+  "places": [
+    {
+      "address": {
+        "en": "Unit B, 2/F, Hundred City Centre, Nos. 7-17 Amoy Street, Wan Chai"
+      },
+      "googleMapsPlaceId": "ChIJK3WSJ20BBDQRANK3l9lVk4M",
+      "coordinates": {
+        "lat": 22.2755622,
+        "lng": 114.1717682
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
+  ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
