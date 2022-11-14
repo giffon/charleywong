@@ -32,7 +32,7 @@
       "meta": {
         "website": "https://floroma.net/",
         "name": "Floroma 花之滴 | 𝐁𝐋𝐎𝐒𝐒𝐎𝐌 𝐋𝐈𝐊𝐄 𝐅𝐋𝐎𝐖𝐄𝐑𝐒",
-        "about": "專門店：\n📍旺角新世紀廣場1樓109舖\n📍葵芳新都會廣場327號鋪Loccitane旁\n📍元朗形點一期1樓1128A舖Clarins旁\n📍荃灣綠楊坊地下Pop-up zone Kiosk C (C出口直行)\n📍THE LOHAS 康城3樓Pop-up B09\n🇫🇷法國原料 🇭🇰香港製造"
+        "about": "專門店：\n📍銅鑼灣皇室堡1樓111號舖\n📍旺角新世紀廣場1樓109舖\n📍葵芳新都會廣場327號鋪Loccitane旁\n📍元朗形點一期1樓1128A舖Clarins旁\n📍荃灣綠楊坊地下Pop-up zone Kiosk C (C出口直行)\n🇫🇷法國原料 🇭🇰香港製造"
       }
     }
   ],
@@ -53,6 +53,19 @@
   "places": [
     {
       "address": {
+        "zh": "銅鑼灣皇室堡1樓111號舖"
+      },
+      "googleMapsPlaceId": "ChIJseRVyekBBDQRn1wIpVknwts",
+      "coordinates": {
+        "lat": 22.280413,
+        "lng": 114.1865722
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
         "zh": "葵芳新都會廣場3樓327號舖"
       },
       "googleMapsPlaceId": "ChIJD97Th__5AzQRmmWrAHO-eVw",
@@ -68,10 +81,10 @@
       "address": {
         "zh": "旺角新世紀廣場1樓109號舖"
       },
-      "googleMapsPlaceId": "ChIJC_lPIskABDQRxerRNtoOV9o",
+      "googleMapsPlaceId": "ChIJER5AID0BBDQRUYOt6ZRscZI",
       "coordinates": {
-        "lat": 22.3231937,
-        "lng": 114.1723194
+        "lat": 22.32358049999999,
+        "lng": 114.1721602
       },
       "area": {
         "zh": "油尖旺區"
@@ -101,19 +114,6 @@
       },
       "area": {
         "zh": "荃灣區"
-      }
-    },
-    {
-      "address": {
-        "zh": "THE LOHAS 康城3樓Pop-up Zone B Kiosk B09"
-      },
-      "googleMapsPlaceId": "ChIJbaeM7dMDBDQRXuPZHy4fLJM",
-      "coordinates": {
-        "lat": 22.2949071,
-        "lng": 114.2697138
-      },
-      "area": {
-        "zh": "西貢區"
       }
     }
   ]
