@@ -29,8 +29,9 @@
     {
       "url": "https://www.instagram.com/zenoxstore/",
       "meta": {
+        "website": "http://www.zenoxstore.com/",
         "name": "Zenox Gaming Chair +852",
-        "about": "🇭🇰Zenox Racing and Gaming Chairs and Desks. Hong Kong brand. Established by a group of passionate 90s.\n門市地址 : 九龍彌敦道750號太子始創中心2樓236舖"
+        "about": "🇭🇰Zenox Racing and Gaming Chairs and Desks.Hong Kong brand.\nReferral link: https://zlrahk.com/3d1Px2F"
       }
     },
     {
@@ -67,6 +68,60 @@
     {
       "type": "shop",
       "id": 2158
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "灣仔莊士敦道181號大有廣場2樓215號"
+      },
+      "googleMapsPlaceId": "ChIJj47zkpYBBDQRn53sdXXRx00",
+      "coordinates": {
+        "lat": 22.2769455,
+        "lng": 114.1745433
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍彌敦道750號太子始創中心2樓204-205"
+      },
+      "googleMapsPlaceId": "ChIJ9YH6N8gABDQRYy76ZodcN3k",
+      "coordinates": {
+        "lat": 22.3222754,
+        "lng": 114.1690951
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門市廣場一期二樓2197H"
+      },
+      "googleMapsPlaceId": "ChIJEVKKaLb7AzQRVtvvTYOsFKk",
+      "coordinates": {
+        "lat": 22.3927756,
+        "lng": 113.977251
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣 美環街 1號 時貿中心 104 - 105 室"
+      },
+      "googleMapsPlaceId": "ChIJ5barr1P5AzQRur87Rqq1d5k",
+      "coordinates": {
+        "lat": 22.3751918,
+        "lng": 114.1144402
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
     }
   ]
 }
