@@ -419,7 +419,7 @@ tailwind:
 dclookup:
     FROM +devcontainer
     COPY lib/HKAddressParser lib/HKAddressParser
-    COPY babel.config.json package.json .
+    COPY esbuild.js package.json .
     RUN yarn dclookup
     SAVE ARTIFACT dclookup.js
     SAVE IMAGE --cache-hint
@@ -431,17 +431,15 @@ service-worker:
     COPY lib/HKAddressParser lib/HKAddressParser
     COPY lib/workbox lib/workbox
     COPY src src
-    COPY .haxerc babel.config.json serviceWorker.hxml .
+    COPY .haxerc esbuild.js serviceWorker.hxml .
     RUN mkdir -p static
     RUN haxe serviceWorker.hxml
-    RUN npx browserify serviceWorker.js --transform [ babelify --global ] -g [ envify --NODE_ENV production ] -g uglifyify | npx terser --compress --mangle > static/serviceWorker.bundled.js
     SAVE ARTIFACT static/serviceWorker.bundled.js
 
 browser-script:
     FROM +service-worker
     COPY browser.hxml .
     RUN haxe browser.hxml
-    RUN npx browserify browser.js -g [ envify --NODE_ENV production ] -g uglifyify | npx terser --compress --mangle > static/browser.bundled.js
     SAVE ARTIFACT static/browser.bundled.js
 
 server-script:
@@ -460,7 +458,7 @@ chrome-extension:
     COPY lib/HKAddressParser lib/HKAddressParser
     COPY lib/workbox lib/workbox
     COPY src src
-    COPY .haxerc babel.config.json chrome-extension.hxml .
+    COPY .haxerc esbuild.js chrome-extension.hxml .
     RUN mkdir -p chrome
     RUN haxe chrome-extension.hxml
     SAVE ARTIFACT --keep-ts chrome/*.js AS LOCAL ./chrome/

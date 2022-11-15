@@ -10,4 +10,4 @@
 --class-path lib/workbox
 --dce full
 -D browser
---cmd npx browserify --transform [ babelify --global ] serviceWorker.js > static/serviceWorker.bundled.js
+--cmd node esbuild.js serviceWorker.js static/serviceWorker.bundled.js
