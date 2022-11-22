@@ -6792,6 +6792,10 @@ pend@~1.2.0:
   resolved "https://registry.npmjs.org/pend/-/pend-1.2.0.tgz"
   integrity sha1-elfrVQpng/kRUzH89GY9XI4AelA=
 
+"perf-hooks-browserify@https://github.com/browserify/perf-hooks-browserify":
+  version "0.0.0"
+  resolved "https://github.com/browserify/perf-hooks-browserify#01290383484ea2d74ba58b7efc3036e8dd0230ca"
+
 phin@^2.9.1:
   version "2.9.3"
   resolved "https://registry.npmjs.org/phin/-/phin-2.9.3.tgz"
