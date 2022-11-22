@@ -4,7 +4,13 @@ import fastify.FastifyReply;
 import react.*;
 
 class ReplyTools {
-    static public function sendView(reply:FastifyReply<Dynamic,Dynamic,Dynamic,Dynamic,Dynamic>, view, ?props:Dynamic) {
+    static public function sendView
+    <RawServer, RawRequest, RawReply, RouteGeneric, ContextConfig, SchemaCompiler, TypeProvider, ReplyType>
+    (
+        reply:FastifyReply<RawServer, RawRequest, RawReply, RouteGeneric, ContextConfig, SchemaCompiler, TypeProvider, ReplyType>,
+        view,
+        ?props:Dynamic
+    ) {
         if (props == null)
             props = {};
 

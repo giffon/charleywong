@@ -48,10 +48,10 @@ class StaticResource {
 
     #if (!browser && !macro)
     static public function hook
-    <RouteGeneric, RawServer, RawRequest, RawReply, SchemaCompiler, TypeProvider, ContextConfig>
+    <RouteGeneric, RawServer, RawRequest, RawReply, SchemaCompiler, TypeProvider, ContextConfig, Logger, RequestType, ReplyType>
     (
-        req:FastifyRequest<RouteGeneric, RawServer, RawRequest, SchemaCompiler, TypeProvider>,
-        reply:FastifyReply<RawServer, RawRequest, RawReply, RouteGeneric, ContextConfig>
+        req:FastifyRequest<RouteGeneric, RawServer, RawRequest, SchemaCompiler, TypeProvider, ContextConfig, Logger, RequestType>,
+        reply:FastifyReply<RawServer, RawRequest, RawReply, RouteGeneric, ContextConfig, SchemaCompiler, TypeProvider, ReplyType>
     ):Promise<Any> {
         final url = new js.html.URL(req.url, "http://example.com");
 

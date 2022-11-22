@@ -23,15 +23,15 @@ using charleywong.ReplyTools;
 using StringTools;
 using Lambda;
 
-typedef Request = FastifyRequest<Dynamic,Dynamic,Dynamic,Dynamic,Dynamic>;
-typedef Reply = FastifyReply<Dynamic,Dynamic,Dynamic,Dynamic,Dynamic>;
+typedef Request = FastifyRequest<Dynamic,Dynamic,Dynamic,Dynamic,Dynamic,Dynamic,Dynamic,Dynamic>;
+typedef Reply = FastifyReply<Dynamic,Dynamic,Dynamic,Dynamic,Dynamic,Dynamic,Dynamic,Dynamic>;
 
 class ServerMain {
     static public final isMain = js.Syntax.code("require.main") == module;
     static public final domain = "https://charleywong.info";
     static public final dataDirectory = "data/entity";
     static public final entityIndex:EntityIndex = EntityIndex.loadFromDirectory(dataDirectory);
-    static public var app:FastifyInstance<Dynamic,Dynamic,Dynamic,Dynamic>;
+    static public var app:FastifyInstance<Dynamic,Dynamic,Dynamic,Dynamic,Dynamic>;
 
     static function noQuery(req:Request, ?allowed:Iterable<String>):URL {
         var url = new URL(req.url, domain);
@@ -883,7 +883,10 @@ class ServerMain {
         if (Sys.getEnv("FLY_APP_NAME") != null) {
             app = Fastify.fastify(opts);
             initServer();
-            app.listen(80, "0.0.0.0");
+            app.listen({
+                port: 80,
+                host: "0.0.0.0"
+            });
         } else if (Sys.getEnv("AWS_LAMBDA_FUNCTION_NAME") != null) {
             opts.trustProxy = true;
             app = Fastify.fastify(opts);
@@ -933,7 +936,10 @@ class ServerMain {
             app = Fastify.fastify(opts);
             initServer();
             app.post("/", post);
-            app.listen(80, "0.0.0.0");
+            app.listen({
+                port: 80,
+                host: "0.0.0.0"
+            });
 
             Cloudflared.getHostname("http://cloudflared:44871/metrics")
                 .then(hostname -> {
