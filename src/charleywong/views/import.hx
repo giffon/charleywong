@@ -5,7 +5,7 @@ import react.Fragment;
 import react.ReactMacro.jsx;
 import haxe.*;
 import haxe.io.*;
-import charleywong.StaticResource.R;
+import charleywong.StaticResourceMacros.R;
 using Lambda;
 using StringTools;
 

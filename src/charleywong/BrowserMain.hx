@@ -6,7 +6,7 @@ import react.ReactMacro.jsx;
 import js.html.*;
 import js.Browser.*;
 import charleywong.browser.*;
-import charleywong.StaticResource.R;
+import charleywong.StaticResourceMacros.R;
 using StringTools;
 
 class BrowserMain {

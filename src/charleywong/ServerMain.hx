@@ -31,7 +31,7 @@ class ServerMain {
     static public final domain = "https://charleywong.info";
     static public final dataDirectory = "data/entity";
     static public final entityIndex:EntityIndex = EntityIndex.loadFromDirectory(dataDirectory);
-    static public var app:FastifyInstance<Dynamic, Dynamic, Dynamic, Dynamic>;
+    static public var app:FastifyInstance<Dynamic,Dynamic,Dynamic,Dynamic>;
 
     static function noQuery(req:Request, ?allowed:Iterable<String>):URL {
         var url = new URL(req.url, domain);
@@ -858,29 +858,10 @@ class ServerMain {
             root: sys.FileSystem.absolutePath(StaticResource.resourcesDir),
             wildcard: false,
         });
-        app.addHook("onSend", function(req:Request, reply:Reply, payload):Promise<Dynamic>{
-            if (payload != null) switch (untyped payload.filename:String) {
-                case null:
-                    // pass
-                case filename:
-                    final hash:Null<String> = req.query.md5;    
-                    final actual = StaticResource.hash(filename);
-                    if (hash == actual) {
-                        reply.header("Cache-Control", "public, max-age=31536000, immutable"); // 1 year
-                        return Promise.resolve(payload);
-                    } else {
-                        reply.header("Cache-Control", "public, max-age=60, stale-while-revalidate=604800"); // max-age: 1 min, stale-while-revalidate: 7 days
-                        var redirectUrl = new URL(req.url, "http://example.com");
-                        redirectUrl.searchParams.delete("md5");
-                        reply.redirect(StaticResource.fingerprint(redirectUrl.pathname, actual) + redirectUrl.search);
-                        return Promise.resolve(null);
-                    }
-            }
-            return Promise.resolve(payload);
-        });
 
         app.addHook("onRequest", noTrailingSlash);
         app.addHook("onRequest", noOldDomain);
+        app.addHook("onRequest", StaticResource.hook);
 
         app.get("/", index);
         app.get("/favicon.ico", favicon);
@@ -899,9 +880,6 @@ class ServerMain {
 
     static function main():Void {
         final opts:Dynamic = {};
-        opts.rewriteUrl = function(req:Request):String {
-            return StaticResource.rewriteUrl(req.url);
-        }
         if (Sys.getEnv("FLY_APP_NAME") != null) {
             app = Fastify.fastify(opts);
             initServer();

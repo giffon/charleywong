@@ -7,6 +7,12 @@ import haxe.macro.*;
 #if nodejs
 import sys.io.File;
 import js.node.Buffer;
+import js.node.http.IncomingMessage;
+import js.html.URLSearchParams;
+#end
+#if (!browser && !macro)
+import js.lib.Promise;
+import fastify.*;
 #end
 using StringTools;
 using Lambda;
@@ -17,10 +23,13 @@ class StaticResource {
     #if (macro || !browser)
     static final hashes = new Map<String,String>();
     static public function hash(path:String):String {
+        if (!path.startsWith("/")) {
+            throw '$path should relative to root (starts with /)';
+        }
         return switch (hashes[path]) {
             case null:
                 hashes[path] = try {
-                    haxe.crypto.Md5.make(sys.io.File.getBytes(path)).toHex();
+                    haxe.crypto.Md5.make(sys.io.File.getBytes(haxe.io.Path.join([charleywong.StaticResource.resourcesDir, path]))).toHex();
                 } catch (e) {
                     null;
                 }
@@ -28,43 +37,77 @@ class StaticResource {
                 h;
         }
     }
+    static public function exists(path:String):Bool {
+        if (!path.startsWith("/")) {
+            throw '$path should relative to root (starts with /)';
+        }
+        final staticPath = Path.join([resourcesDir, path]);
+        return hashes.exists(path) || (FileSystem.exists(staticPath) && !FileSystem.isDirectory(staticPath));
+    }
     #end
 
-    macro static public function R(path:String, ?warnIfNotFound:Bool = true) {
-        if (!path.startsWith("/")) {
-            Context.error('$path should relative to root (starts with /)', Context.currentPos());
+    #if (!browser && !macro)
+    static public function hook
+    <RouteGeneric, RawServer, RawRequest, RawReply, SchemaCompiler, TypeProvider, ContextConfig>
+    (
+        req:FastifyRequest<RouteGeneric, RawServer, RawRequest, SchemaCompiler, TypeProvider>,
+        reply:FastifyReply<RawServer, RawRequest, RawReply, RouteGeneric, ContextConfig>
+    ):Promise<Any> {
+        final url = new js.html.URL(req.url, "http://example.com");
+
+        // if the file exists (no fingerprint)
+        if (StaticResource.exists(url.pathname)) {
+            // trace('file requested without fingerprint');
+            final actual = StaticResource.hash(url.pathname);
+            final fpUrl = StaticResource.fingerprint(url.pathname, actual);
+            reply
+                .header("Cache-Control", "public, max-age=60, stale-while-revalidate=604800") // max-age: 1 min, stale-while-revalidate: 7 days
+                .redirect(fpUrl);
+            return Promise.resolve(null);
         }
 
-        var staticPath = Path.join([resourcesDir, path]);
-        if (!FileSystem.exists(staticPath)) {
-            if (warnIfNotFound) {
-                Context.warning('$path does not exist', Context.currentPos());
-            }
-            return macro @:privateAccess $v{path};
-        } else {
-            var h = hash(staticPath);
-            return macro @:privateAccess charleywong.StaticResource.fingerprint($v{path}, $v{h});
+        switch (StaticResource.parseUrl(url.pathname)) {
+            case null:
+                // no fingerprint in url
+                // pass to the other handlers
+                return Promise.resolve();
+            case {
+                file: file,
+                hash: hash,
+            }:
+                // trace(file);
+                final actual = StaticResource.hash(file);
+                if (hash == actual) {
+                    // trace('hash matched');
+                    return Promise.resolve(untyped reply
+                        .header("Cache-Control", "public, max-age=31536000, immutable") // 1 year
+                        .sendFile(file)
+                    );
+                } else {
+                    // trace('hash mismatch');
+                    final fpUrl = StaticResource.fingerprint(file, actual);
+                    reply
+                        .header("Cache-Control", "public, max-age=60, stale-while-revalidate=604800") // max-age: 1 min, stale-while-revalidate: 7 days
+                        .redirect(fpUrl);
+                    return Promise.resolve(null);
+                }
         }
-    };
+    }
+    #end
 
     static public function fingerprint(path:String, hash:String):String {
-        var p = new Path(path);
+        final p = new Path(path);
         return Path.join([p.dir != null && p.dir != "" ? p.dir : "/", p.file + "." + hash + "." + p.ext]);
     }
 
     static public function parseUrl(url:String) {
-        var p = new Path(url);
-        var r = ~/^(.+)\.([0-9a-f]{32})$/;
+        final p = new Path(url);
+        final r = ~/^(.+)\.([0-9a-f]{32})$/;
         return if (!r.match(p.file)) {
-            url: url,
-            hash: null,
+            null;
         } else {
-            url: Path.join([p.dir, r.matched(1) + "." + p.ext]) + "?md5=" + r.matched(2),
+            file: Path.join(["/", p.dir, r.matched(1) + "." + p.ext]),
             hash: r.matched(2),
         }
-    }
-
-    static public function rewriteUrl(url:String):String {
-        return parseUrl(url).url;
     }
 }

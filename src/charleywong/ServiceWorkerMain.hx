@@ -25,7 +25,7 @@ class ServiceWorkerMain {
 			]:Array<Dynamic>),
 		}));
 		WorkboxRouting.registerRoute((options:RouteMatchCallbackOptions) -> {
-            StaticResource.parseUrl(options.url.pathname).hash != null;
+            StaticResource.parseUrl(options.url.pathname) != null;
         }, cast new CacheFirst({
             cacheName: "static",
             plugins: ([
