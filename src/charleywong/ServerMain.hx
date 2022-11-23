@@ -856,7 +856,7 @@ class ServerMain {
 
         app.register(require('@fastify/static'), {
             root: sys.FileSystem.absolutePath(StaticResource.resourcesDir),
-            wildcard: false,
+            serve: false,
         });
 
         app.addHook("onRequest", noTrailingSlash);

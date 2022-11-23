@@ -54,19 +54,19 @@ class StaticResource {
         reply:FastifyReply<RawServer, RawRequest, RawReply, RouteGeneric, ContextConfig, SchemaCompiler, TypeProvider, ReplyType>
     ):Promise<Any> {
         final url = new js.html.URL(req.url, "http://example.com");
-
+        final path = url.pathname.urlDecode();
         // if the file exists (no fingerprint)
-        if (StaticResource.exists(url.pathname)) {
+        if (StaticResource.exists(path)) {
             // trace('file requested without fingerprint');
-            final actual = StaticResource.hash(url.pathname);
-            final fpUrl = StaticResource.fingerprint(url.pathname, actual);
+            final actual = StaticResource.hash(path);
+            final fpUrl = StaticResource.fingerprint(path, actual);
             reply
                 .header("Cache-Control", "public, max-age=60, stale-while-revalidate=604800") // max-age: 1 min, stale-while-revalidate: 7 days
                 .redirect(fpUrl);
             return Promise.resolve(null);
         }
 
-        switch (StaticResource.parseUrl(url.pathname)) {
+        switch (StaticResource.parseUrl(path)) {
             case null:
                 // no fingerprint in url
                 // pass to the other handlers
@@ -97,7 +97,7 @@ class StaticResource {
 
     static public function fingerprint(path:String, hash:String):String {
         final p = new Path(path);
-        return Path.join([p.dir != null && p.dir != "" ? p.dir : "/", p.file + "." + hash + "." + p.ext]);
+        return Path.join([p.dir != null && p.dir != "" ? p.dir : "/", p.file.urlEncode() + "." + hash + "." + p.ext]);
     }
 
     static public function parseUrl(url:String) {
@@ -106,7 +106,7 @@ class StaticResource {
         return if (!r.match(p.file)) {
             null;
         } else {
-            file: Path.join(["/", p.dir, r.matched(1) + "." + p.ext]),
+            file: Path.join(["/", p.dir, r.matched(1) + "." + p.ext]).urlDecode(),
             hash: r.matched(2),
         }
     }
