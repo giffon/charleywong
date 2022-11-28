@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.homotomo.com"
+    },
+    {
       "meta": {
         "id": "341632299692738",
         "username": "whmtm",
@@ -26,20 +29,16 @@
     },
     {
       "meta": {
-        "about": "我們希望以物料再生進行改造，以建築或藝術創作方式，把作品帶到社區。\nWe pursue together our dreams in architecture through making woodwork furnitures, installations and sculpture."
+        "website": "http://www.homotomo.com/",
+        "name": "好木多磨 Homotomo",
+        "about": "Slow Artist & Dreamer\n我們長於香港，希望創作具有人性，具有人的溫度的作品.\nWe pursue our dream in humane woodwork, installation and sculpture."
       },
       "url": "https://www.instagram.com/homotomo_woodwork/"
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/whmtm/posts/742095776313053"
-    },
-    {
       "url": "https://www.facebook.com/whmtm/posts/695268974329067"
-    },
-    {
-      "url": "https://www.facebook.com/whmtm/posts/682549652267666"
     }
   ],
   "tags": [
@@ -51,6 +50,21 @@
     {
       "type": "shop",
       "id": 2185
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "Studio Homotomo, Room 328 11/F, Sun Fung Industrial Building, Ma Kok Street, Tsuen Wan, New Territories"
+      },
+      "googleMapsPlaceId": "ChIJUYvhIOv4AzQRHvc_rkLf3VY",
+      "coordinates": {
+        "lat": 22.3644189,
+        "lng": 114.118892
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
     }
   ]
 }
