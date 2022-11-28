@@ -35,8 +35,9 @@
     {
       "url": "https://www.instagram.com/dinmade_hk/",
       "meta": {
+        "website": "https://www.facebook.com/dinmade/",
         "name": "dinmade",
-        "about": "想睇齊我哋嘅新貨🇰🇷可以去我哋嘅\nFacebook page: @dinmade\n單次滿$700以上可成為VIP\n購物滿$350以上包SF\n門市:旺角新之城303鋪\nMon~Fri 3:00-9:00\nSat:不定時(可pm詢問)\nSun:off\n#hongkonger🇭🇰"
+        "about": "Facebook page: @dinmade\n門市🏢旺角新之城3樓303鋪\nMon~Fri🕒3:00-🕘9:00\nSat:不定時(可pm查詢)\nSun📴\n單次滿$700以上可成為VIP\n購物滿$350以上包SF\n#hongkonger🇭🇰💛❤️"
       }
     }
   ],
@@ -64,12 +65,28 @@
     }
   ],
   "tags": [
-    "clothing"
+    "clothing",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 429
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "亞皆老街65號新之城303"
+      },
+      "googleMapsPlaceId": "ChIJ66Lq-CwBBDQReOUQGEq8l6A",
+      "coordinates": {
+        "lat": 22.3198008,
+        "lng": 114.1697946
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
