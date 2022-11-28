@@ -2352,7 +2352,7 @@ aws-lambda-ric@2.0.0:
     node-addon-api "3.2.1"
     node-gyp "8.1.0"
 
-aws-sdk@^2.1258.0:
+aws-sdk@2.1259.0:
   version "2.1259.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1259.0.tgz#4b75c7853dc10320eeaa13dc5f0624fd4e05d80a"
   integrity sha512-ku0sXQ0HOpvhMfu9yszqek4T+xvR9pXemxn3ruG3raIv9Hag0bpZoSqxm6rFtlZV9C26bB47ef5A5+HbkPk8PQ==
@@ -2809,10 +2809,10 @@ chownr@^2.0.0:
   resolved "https://registry.npmjs.org/chownr/-/chownr-2.0.0.tgz"
   integrity sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==
 
-ci-info@^3.5.0, ci-info@^3.6.1:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.6.1.tgz#7594f1c95cb7fdfddee7af95a13af7dbc67afdcf"
-  integrity sha512-up5ggbaDqOqJ4UqLKZ2naVkyqSJQgJi5lwD6b6mM748ysrghDBX0bx/qJTUHzw7zu6Mq4gycviSF5hJnwceD8w==
+ci-info@^3.5.0, ci-info@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.7.0.tgz#6d01b3696c59915b6ce057e4aa4adfc2fa25f5ef"
+  integrity sha512-2CpRNYmImPx+RXKLq6jko/L07phmS9I02TyqkcNU20GCF/GgaWvc58hPtjxDX8lPpkdwc9sNh72V9k00S7ezog==
 
 cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
   version "1.0.4"
@@ -7661,10 +7661,10 @@ serverless-prune-plugin@2.0.1:
   dependencies:
     bluebird "^3.7.2"
 
-serverless@3.25.0:
-  version "3.25.0"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.25.0.tgz#ca9c9d944b521a260f08d6a1dfec9bc58ebc1754"
-  integrity sha512-bOUaUDWmn9mcHaKe9ggF80nGsP/z9ZAKe33n+rRsZbXZpcCXyjQwcoAYwBDS9CQO1hdguN3JleFf637YVRdfvw==
+serverless@3.25.1:
+  version "3.25.1"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.25.1.tgz#c07fad2cb0cda8d003992f0503cd439b66e3c9a2"
+  integrity sha512-FFyC3+1iYPfbVKRHMcPqkGRNzXRgIg8/wsG+dI49oAGqT8Y7LXDRNCd7wuGyXRlRf2IXSMXzGTEmEFCFJPti3w==
   dependencies:
     "@serverless/dashboard-plugin" "^6.2.2"
     "@serverless/platform-client" "^4.3.2"
@@ -7672,12 +7672,12 @@ serverless@3.25.0:
     ajv "^8.11.2"
     ajv-formats "^2.1.1"
     archiver "^5.3.1"
-    aws-sdk "^2.1258.0"
+    aws-sdk "2.1259.0"
     bluebird "^3.7.2"
     cachedir "^2.3.0"
     chalk "^4.1.2"
     child-process-ext "^2.1.1"
-    ci-info "^3.6.1"
+    ci-info "^3.7.0"
     cli-progress-footer "^2.3.2"
     d "^1.0.1"
     dayjs "^1.11.6"
