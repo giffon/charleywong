@@ -61,7 +61,7 @@ class StaticResource {
             final actual = StaticResource.hash(path);
             final fpUrl = StaticResource.fingerprint(path, actual);
             reply
-                .header("Cache-Control", "public, max-age=60, stale-while-revalidate=604800") // max-age: 1 min, stale-while-revalidate: 7 days
+                .header("Cache-Control", "public, max-age=0, stale-while-revalidate=604800") // stale-while-revalidate: 7 days
                 .redirect(fpUrl);
             return Promise.resolve(null);
         }
@@ -87,7 +87,7 @@ class StaticResource {
                     // trace('hash mismatch');
                     final fpUrl = StaticResource.fingerprint(file, actual);
                     reply
-                        .header("Cache-Control", "public, max-age=60, stale-while-revalidate=604800") // max-age: 1 min, stale-while-revalidate: 7 days
+                        .header("Cache-Control", "public, max-age=0, stale-while-revalidate=604800") // stale-while-revalidate: 7 days
                         .redirect(fpUrl);
                     return Promise.resolve(null);
                 }
