@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "dclookup": "node esbuild.js lib/HKAddressParser/web/src/utils/dclookup.js dclookup.js",
+    "dclookup": "node esbuild.js lib/HKAddressParser/web/src/utils/dclookup.js dclookup.js cjs",
     "dts2hx-workbox": "dts2hx workbox-core workbox-routing workbox-recipes workbox-cacheable-response workbox-expiration workbox-navigation-preload --noLibWrap --output lib/workbox",
     "tailwind": "tailwindcss -o static/css/tailwind.css --minify",
     "start": "nodemon -L index.js",

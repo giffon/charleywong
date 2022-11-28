@@ -14,16 +14,16 @@
 --js chrome.Background.js
 --main charleywong.chrome.Background
 --dce full
---cmd node esbuild.js chrome.Background.js chrome/Background.js es2020
+--cmd node esbuild.js chrome.Background.js chrome/Background.js iife es2020
 
 --next
 
 --js chrome.Content.js
 --main charleywong.chrome.Content
---cmd node esbuild.js chrome.Content.js chrome/Content.js es2020
+--cmd node esbuild.js chrome.Content.js chrome/Content.js iife es2020
 
 --next
 
 --js chrome.Options.js
 --main charleywong.chrome.Options
---cmd node esbuild.js chrome.Options.js chrome/Options.js es2020
+--cmd node esbuild.js chrome.Options.js chrome/Options.js iife es2020

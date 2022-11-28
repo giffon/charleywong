@@ -1,4 +1,4 @@
-const [node, script, input, output, target] = process.argv
+const [node, script, input, output, format, target] = process.argv
 
 require('esbuild').build({
     entryPoints: [input],
@@ -13,6 +13,7 @@ require('esbuild').build({
     minify: true,
     treeShaking: true,
     bundle: true,
+    format: format || "iife",
     target: target || "es2016",
     outfile: output,
 }).catch(() => process.exit(1))
