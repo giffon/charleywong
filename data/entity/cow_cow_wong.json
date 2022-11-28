@@ -9,7 +9,7 @@
       "meta": {
         "id": "123219507703699",
         "name": "攪攪滑滑",
-        "about": "售賣：台式飲品、小食  地點：石硤尾白田購物中心地下13舖 (石硤尾地鐵C出",
+        "about": "已結業的台式飲品小食店🧋",
         "category_list": [
           {
             "id": "188334264523313",
@@ -32,12 +32,6 @@
     }
   ],
   "posts": [
-    {
-      "url": "https://www.facebook.com/permalink.php?story_fbid=3344878265537791&id=123219507703699",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
     {
       "url": "https://www.facebook.com/permalink.php?story_fbid=3352636828095268&id=123219507703699",
       "meta": {
@@ -77,7 +71,8 @@
   ],
   "tags": [
     "food",
-    "taiwanese"
+    "taiwanese",
+    "closed"
   ],
   "yellowBlueMapIds": [
     {
@@ -87,5 +82,20 @@
   ],
   "alias": [
     "123219507703699"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "石硤尾偉智里1-3號白田購物中心G13號"
+      },
+      "googleMapsPlaceId": "ChIJt1jVekoHBDQRoGNirX6UbTE",
+      "coordinates": {
+        "lat": 22.3349737,
+        "lng": 114.1669073
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
