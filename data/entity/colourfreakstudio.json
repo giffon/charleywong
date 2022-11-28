@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "https://www.colourfreakstudio.net"
+      "url": "https://colourfreakstudio.com"
     },
     {
       "meta": {
@@ -30,8 +30,9 @@
     {
       "url": "https://www.instagram.com/colourfreakstudio/",
       "meta": {
+        "website": "https://colourfreakstudio.com/",
         "name": "Colour Feak Studio",
-        "about": "Colouristic + Vintage floral design || based in HK\nFor creative project collabration/wedding/gift,\ncontact us 💕@\nWhatsapp: +852 92090192\nFB/ IG"
+        "about": "聖誕課程 || 花藝課程 || 招生中 || 鮮花花藝師創業課 || 乾花永生花創業課 || 花墟遊學花束班 || 公司合作 || VIP Gift\nColouristic floral design"
       }
     }
   ],
@@ -47,27 +48,13 @@
     }
   ],
   "tags": [
-    "florist"
+    "florist",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 1970
-    }
-  ],
-  "places": [
-    {
-      "address": {
-        "zh": "九龍荔枝角青山道489號香港工業中心6樓602室 (敬請預約)"
-      },
-      "googleMapsPlaceId": "ChIJaYPhhS0HBDQRGAB3BpW9w84",
-      "coordinates": {
-        "lat": 22.3378403,
-        "lng": 114.1478509
-      },
-      "area": {
-        "zh": "深水埗區"
-      }
     }
   ]
 }
