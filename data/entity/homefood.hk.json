@@ -6,7 +6,7 @@
   },
   "webpages": [
     {
-      "url": "https://www.homefoodhk.com"
+      "url": "https://www.homefood.com.hk"
     },
     {
       "url": "https://www.facebook.com/105086351012966/",
@@ -28,8 +28,9 @@
     {
       "url": "https://www.instagram.com/homefood.hk/",
       "meta": {
+        "website": "https://www.homefood.com.hk/",
         "name": "住家飯HomeFood",
-        "about": "❤️窩心味道 健康滋味🍴\n📞熱線及 Whatsapp: 6900-5607\n⬇️點擊以下連結,\n可直接聯絡我們或了解更多詳情🥳\n#住家飯HomeFood"
+        "about": "❤️窩心味道 健康滋味🍴\n📞熱線及 Whatsapp: 6900-5607(住家飯)/ 4647-1073(住家飯堂)\n📄食物製造廠牌照：2993804735\n🏠店舖地址: 屯門利寶商場地下90號舖\n⬇️點擊以下連結,\n可直接聯絡我們或了解更多詳情🥳\n#住家飯HomeFood"
       }
     }
   ],
@@ -59,6 +60,21 @@
     {
       "type": "eat",
       "id": 5507
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門屯景大廈地下C號舖"
+      },
+      "googleMapsPlaceId": "ChIJX5DTTFr7AzQRvj8ZekK0ux0",
+      "coordinates": {
+        "lat": 22.3887585,
+        "lng": 113.9787757
+      },
+      "area": {
+        "zh": "屯門區"
+      }
     }
   ]
 }
