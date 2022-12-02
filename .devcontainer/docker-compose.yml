@@ -23,7 +23,7 @@ services:
     expose:
       - "44871"
   earthly:
-    image: earthly/buildkitd:v0.6.29
+    image: earthly/buildkitd:v0.6.30
     privileged: true
     environment:
       - BUILDKIT_TCP_TRANSPORT_ENABLED=true
