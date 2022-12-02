@@ -8,8 +8,9 @@
     {
       "url": "https://www.instagram.com/boulangerie_alice/",
       "meta": {
+        "website": "https://forms.gle/f8XgGeJhrv9SdwbP8",
         "name": "烘焙•愛麗斯 Boulangerie Alice",
-        "about": "法國藍帶學院烘焙文憑 🥐\n日本鳥越製粉麵包証書 🍞"
+        "about": "法國藍帶學院烘焙文憑 🥐\n日本鳥越製粉麵包証書 🍞\nDisciples Escoffier Diploma in French Pastry🍰"
       }
     },
     {
@@ -55,6 +56,21 @@
     {
       "type": "eat",
       "id": 5420
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "堅尼地城士美菲路83號時美閣地下2-3號舖"
+      },
+      "googleMapsPlaceId": "ChIJ1xHtQED_AzQR-xQbZDMLgcc",
+      "coordinates": {
+        "lat": 22.2796473,
+        "lng": 114.1294175
+      },
+      "area": {
+        "zh": "中西區"
+      }
     }
   ]
 }
