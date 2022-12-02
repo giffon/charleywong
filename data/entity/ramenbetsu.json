@@ -137,6 +137,10 @@
     {
       "type": "eat",
       "id": 6777
+    },
+    {
+      "type": "eat",
+      "id": 6894
     }
   ],
   "places": [
@@ -190,6 +194,19 @@
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳貿業路8號新都城中心2期地下G09號舖"
+      },
+      "googleMapsPlaceId": "ChIJh4TOhgsEBDQR6nVF5uHaalE",
+      "coordinates": {
+        "lat": 22.3233143,
+        "lng": 114.2581878
+      },
+      "area": {
+        "zh": "西貢區"
       }
     },
     {
