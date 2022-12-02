@@ -1,8 +1,7 @@
 {
-  "id": "HiandSeek.uk",
+  "id": "Kowloonshire",
   "name": {
-    "en": "Hi and Seek",
-    "zh": "捉迷藏"
+    "en": "Kowloonshire"
   },
   "webpages": [
     {
@@ -10,7 +9,7 @@
       "meta": {
         "id": "109851334993416",
         "username": "HiandSeek.uk",
-        "name": "Hi and Seek 捉迷藏",
+        "name": "Kowloonshire",
         "about": "Hi and Seek 希望在尋找那份熟悉味道的同時，能讓更多居英港人認識香港人創?",
         "category_list": [
           {
@@ -24,11 +23,10 @@
       }
     },
     {
-      "url": "https://www.instagram.com/hiandseek.uk/",
+      "url": "https://www.instagram.com/kowloonshire/",
       "meta": {
-        "website": "http://www.patreon.com/hinseek/",
-        "name": "Hi and Seek 捉迷藏｜英國港人商戶指南",
-        "about": "讓英國人認識香港文化、飲食和品牌 👇 資助印刷"
+        "website": "https://issuu.com/hinseek/docs/kowloonshire_vol2_issue",
+        "name": "Kowloonshire｜🇬🇧英國港人商戶指南"
       }
     },
     {
@@ -37,13 +35,13 @@
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/HiandSeek.uk/posts/118761440769072/",
+      "url": "https://www.facebook.com/109851334993416/posts/118761440769072/",
       "meta": {
         "sharedWith": "Public"
       }
     },
     {
-      "url": "https://www.facebook.com/HiandSeek.uk/posts/133169485994934/",
+      "url": "https://www.facebook.com/109851334993416/posts/133169485994934/",
       "meta": {
         "sharedWith": "Public"
       }
@@ -58,5 +56,8 @@
         "zh": "英國"
       }
     }
+  ],
+  "alias": [
+    "HiandSeek.uk"
   ]
 }
