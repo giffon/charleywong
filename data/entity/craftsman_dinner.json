@@ -22,7 +22,7 @@
       "url": "https://www.instagram.com/craftsman_dinner/",
       "meta": {
         "name": "職人食事",
-        "about": "環境越顯絕望，越要心懷希望，我們終將在沒有黑暗的地方再見。\n營業時間：中午12:00~凌晨3:00\n(全年無休，根據香港變成點而定)"
+        "about": "觀塘駱駝漆大廈三座6樓G\n營業時間：中午18:00~凌晨04:00\n電話:62953231\n荃灣花園 商場上層 13A,\n營業時間:中午12:00~凌晨03:00\n電話:91829355\n灣仔石水渠街82號地下\n灣仔店營業時間中午12點至凌晨3:00\n電話:61689355"
       }
     }
   ],
@@ -82,12 +82,46 @@
       "area": {
         "zh": "觀塘區"
       }
+    },
+    {
+      "address": {
+        "zh": "荃灣花園 商場上層 13A"
+      },
+      "googleMapsPlaceId": "ChIJ76jmOED5AzQRE50rVOUmE6M",
+      "coordinates": {
+        "lat": 22.3697298,
+        "lng": 114.1222816
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "灣仔石水渠街82號地下"
+      },
+      "googleMapsPlaceId": "ChIJ8TlJYXYBBDQRNpyBjDaDghQ",
+      "coordinates": {
+        "lat": 22.2736444,
+        "lng": 114.1739937
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 669
+    },
+    {
+      "type": "eat",
+      "id": 6895
+    },
+    {
+      "type": "eat",
+      "id": 6896
     }
   ]
 }
