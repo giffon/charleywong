@@ -7195,10 +7195,10 @@ react-dom@16.14.0:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-facebook@9.0.11:
-  version "9.0.11"
-  resolved "https://registry.yarnpkg.com/react-facebook/-/react-facebook-9.0.11.tgz#de888ab66fbee9d04c18067079e3aa053645e06a"
-  integrity sha512-pCJGagggJx3eCl3+pCc7R0tpYx9lPLLQXudRi87PkTYSmXsF7xvo2m492JNUFXaOPyCg0pjpheFHXpQY21CDTA==
+react-facebook@9.0.12:
+  version "9.0.12"
+  resolved "https://registry.yarnpkg.com/react-facebook/-/react-facebook-9.0.12.tgz#a8ce7ce29c1980a8cdf45a3f34967b6f8b31728b"
+  integrity sha512-u7L9wWEG8/UR1kj3JRvHR5SR/cBvZkC4ZCnIt4ZmXMpg4LGVJkihcYIb2/L3FOHUsNt6p9k6jpA+7Cz3zD34iA==
   dependencies:
     "@babel/runtime" "^7.20.6"
 
