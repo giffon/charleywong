@@ -74,5 +74,20 @@
       "type": "shop",
       "id": 7097
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣荃運工業大廈一期10樓J2室"
+      },
+      "googleMapsPlaceId": "ChIJSWTw3e_4AzQRImLuBXyLUd8",
+      "coordinates": {
+        "lat": 22.3737793,
+        "lng": 114.1098416
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
   ]
 }
