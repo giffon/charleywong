@@ -16,7 +16,7 @@ using StringTools;
 using charleywong.ElementUtils;
 
 class Importer {
-    static public function importUrl(url:URL):Promise<Void> {
+    static public function importUrl(url:URL):Promise<{}> {
         return switch (url) {
             case {
                 host: "www.facebook.com" | "facebook.com",
@@ -35,7 +35,7 @@ class Importer {
         }
     }
 
-    static function importYt(url:URL):Promise<Void> {
+    static function importYt(url:URL):Promise<{}> {
         return switch (extractYouTubeProfile(url)) {
             case null:
                 Promise.reject('Not a YouTube profile url.');
@@ -44,7 +44,7 @@ class Importer {
         }
     }
 
-    static function importYtProfile():Promise<Void> {
+    static function importYtProfile():Promise<{}> {
         return getYtProfile().then(postToServer);
     }
 
@@ -127,7 +127,7 @@ class Importer {
         ].filter(url -> url != null);
     }
 
-    static function importFb(url:URL):Promise<Void> {
+    static function importFb(url:URL):Promise<{}> {
         if (
             extractFbPost(url) != null ||
             switch (url) {
@@ -197,7 +197,7 @@ class Importer {
         }
     }
 
-    static function importIg(url:URL):Promise<Void> {
+    static function importIg(url:URL):Promise<{}> {
         switch (extractIgPost(url)) {
             case null:
                 //pass
@@ -239,31 +239,25 @@ class Importer {
         };
     }
 
-    static function postToServer(data:Dynamic):Promise<Void> {
-        return window.fetch(Path.join([Content.serverEndpoint]), {
-            method: "POST",
-            mode: CORS,
-            cache: NO_CACHE,
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: Json.stringify(data),
-        })
-            .then(function(r) {
-                if (r.status == 200) {
-                    Runtime.sendMessage(Serializer.run(Message.MsgUpdateEntityIndex(false)), function(_) {});
+    static function postToServer(data:Dynamic):Promise<{}> {
+        return new Promise((resolve, reject) -> {
+            Runtime.sendMessage(Serializer.run(Message.MsgPostToServer("/", data)), function(err) {
+                if (err != null) {
+                    alert(err);
+                    reject(err);
                 } else {
-                    r.text().then(alert);
+                    resolve(null);
                 }
             });
+        });
     }
 
-    static function importFbProfile(handle:String):Promise<Void> {
+    static function importFbProfile(handle:String):Promise<{}> {
         return getFbProfile(handle)
             .then(postToServer);
     }
 
-    static function importIgProfile(handle:String):Promise<Void> {
+    static function importIgProfile(handle:String):Promise<{}> {
         var profile = getIgProfile(handle);
         return postToServer(profile);
     }
@@ -303,7 +297,7 @@ class Importer {
         ];
         return Promise.all(images.map(function(img) {
             img.crossOrigin = "Anonymous";
-            return (untyped img.decode():Promise<Void>).then(_ -> {
+            return (untyped img.decode():Promise<{}>).then(_ -> {
                 switch(img.naturalWidth) {
                     case 20 | 40:
                         //pass

@@ -1,5 +1,6 @@
 package charleywong.chrome;
 
+import js.Browser.console;
 import js.html.AbortController;
 import js.html.URL;
 import CrossFetch.fetch;
@@ -121,6 +122,33 @@ class Background {
         });
     });
 
+    static function postToServer(path:String, jsonContent:Dynamic):Promise<{}> {
+        return Settings.getSettings()
+            .then(settings ->
+                fetch(Path.join([settings.serverEndpoint, path]), {
+                    method: "POST",
+                    mode: CORS,
+                    cache: NO_CACHE,
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: Json.stringify(jsonContent),
+                })
+            )
+            .then(function(r) {
+                return if (r.ok) {
+                    new Promise((resolve, reject) -> {
+                        Runtime.sendMessage(Serializer.run(Message.MsgUpdateEntityIndex(false)), () -> resolve(null));
+                    });
+                } else {
+                    r.text().then(txt -> {
+                        console.error('Failed to post to server: ${r.status}\n${txt}');
+                        throw txt;
+                    });
+                }
+            });
+    }
+
     static function onMessage(?request:Serialized<Message>, sender, sendResponse:Dynamic->Void) {
         var msg = request.unserialize();
         switch (msg) {
@@ -182,6 +210,11 @@ class Background {
                 updateEntityIndex(showNotification);
                 sendResponse(null);
                 return false;
+            case MsgPostToServer(path, jsonContent):
+                postToServer(path, jsonContent)
+                    .then(_ -> sendResponse(null))
+                    .catchError(err -> sendResponse(err));
+                return true;
             case _:
                 throw 'Unknown request: $request';
         }
