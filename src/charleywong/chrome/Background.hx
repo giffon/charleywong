@@ -14,11 +14,12 @@ using Lambda;
 using StringTools;
 
 enum abstract MenuId(String) to String {
-    var MenuOpenWebsite;
-    var MenuUpdateEntityIndex;
-    var MenuImportPage;
-    var MenuImportLink;
-    var MenuScrollToJune;
+    final MenuOpenWebsite;
+    final MenuUpdateEntityIndex;
+    final MenuImportPage;
+    final MenuImportLink;
+    final MenuScrollToJune;
+    final MenuViewDataInCharleyWong;
 }
 
 class Background {
@@ -149,62 +150,56 @@ class Background {
             });
     }
 
+    static function getEntityFromUrl(url:String):Promise<Null<Entity>> {
+        return entityIndex.then(function(index) {
+            var url = new URL(url);
+            switch (url) {
+                case {
+                    origin: "https://www.google.com",
+                    pathname: "/url",
+                }:
+                    url = new URL(url.searchParams.get("q"));
+                case _:
+                    // pass
+            }
+            switch (url) {
+                case extractFbPost(_) => fb if (fb != null):
+                    switch (index.entitiesOfFbPage[fb]) {
+                        case null:
+                            return null;
+                        case e:
+                            // check whether it's actually a post url or just a link to the photo/video page
+                            if (["/photos/", "/videos/"].exists(surfix -> url.pathname.endsWith(surfix))) {
+                                return null;
+                            } else {
+                                return e;
+                            }
+                    }
+                case extractFbHomePage(_) => fb if (fb != null):
+                    switch (index.entitiesOfFbPage[fb]) {
+                        case null:
+                            return null;
+                        case e:
+                            return e;
+                    }
+                case _:
+                    switch (index.entitiesOfUrl[cleanUrl(Std.string(url))]) {
+                        case null:
+                            return null;
+                        case e:
+                            return e;
+                    }
+            }
+        });
+    }
+
     static function onMessage(?request:Serialized<Message>, sender, sendResponse:Dynamic->Void) {
-        var msg = request.unserialize();
+        final msg = request.unserialize();
         switch (msg) {
             case MsgGetEntityFromUrl(url):
-                entityIndex.then(function(index) {
-                    var url = try {
-                        new URL(url);
-                    } catch (err:Dynamic) {
-                        sendResponse(false);
-                        return;
-                    }
-                    switch (url) {
-                        case {
-                            origin: "https://www.google.com",
-                            pathname: "/url",
-
-                        }:
-                            url = try {
-                                new URL(url.searchParams.get("q"));
-                            } catch (err) {
-                                sendResponse(false);
-                                return;
-                            }
-                        case _:
-                            // pass
-                    }
-                    switch (url) {
-                        case extractFbPost(_) => fb if (fb != null):
-                            switch (index.entitiesOfFbPage[fb]) {
-                                case null:
-                                    sendResponse(false);
-                                case e:
-                                    // check whether it's actually a post url or just a link to the photo/video page
-                                    if (["/photos/", "/videos/"].exists(surfix -> url.pathname.endsWith(surfix))) {
-                                        sendResponse(false);
-                                    } else {
-                                        sendResponse(e);
-                                    }
-                            }
-                        case extractFbHomePage(_) => fb if (fb != null):
-                            switch (index.entitiesOfFbPage[fb]) {
-                                case null:
-                                    sendResponse(false);
-                                case e:
-                                    sendResponse(e);
-                            }
-                        case _:
-                            switch (index.entitiesOfUrl[cleanUrl(Std.string(url))]) {
-                                case null:
-                                    sendResponse(false);
-                                case e:
-                                    sendResponse(e);
-                            }
-                            null;
-                    }
-                });
+                getEntityFromUrl(url)
+                    .then(e -> sendResponse(e))
+                    .catchError(err -> sendResponse(false));
                 return true;
             case MsgUpdateEntityIndex(showNotification):
                 updateEntityIndex(showNotification);
@@ -254,6 +249,21 @@ class Background {
                         url: settings.serverEndpoint,
                     });
                 });
+            case MenuViewDataInCharleyWong:
+                if (info.linkUrl == null) {
+                    throw 'No link URL';
+                }
+                Settings.getSettings().then(settings -> {
+                    getEntityFromUrl(info.linkUrl)
+                        .then(e -> {
+                            if (e == null) {
+                                throw 'No entity found for url: ' + info.linkUrl;
+                            }
+                            Tabs.create({
+                                url: Path.join([settings.serverEndpoint, e.id]),
+                            });
+                        });
+                });
             case MenuUpdateEntityIndex:
                 updateEntityIndex(true);
             case MenuImportPage | MenuImportLink:
@@ -262,7 +272,7 @@ class Background {
                     return;
                 }
 
-                var url = switch (extractFbAboutPage(new URL(tab.url))) {
+                final url = switch (extractFbAboutPage(new URL(tab.url))) {
                     case null:
                         tab.url;
                     case handle:
@@ -288,15 +298,21 @@ class Background {
             contexts: ["browser_action"]
         });
 
+        ContextMenus.create({
+            id: MenuViewDataInCharleyWong,
+            title: "查看資料",
+            contexts: ["link"],
+        });
+
         if (dataEntryMode) {
             ContextMenus.create({
                 id: MenuImportPage,
-                title: "輸入此網頁到 Charley Wong 和你查",
+                title: "滙入此網頁",
                 contexts: ["page", "page_action"]
             });
             ContextMenus.create({
                 id: MenuImportLink,
-                title: "輸入此連結到 Charley Wong 和你查",
+                title: "滙入此連結",
                 contexts: ["link"]
             });
         }

@@ -59,13 +59,7 @@ class Content {
                 if (entity != null) {
                     link.classList.add("charleywong-found");
                     link.dataset.charleywongEntityId = entity.id;
-                    var href = Path.join([serverEndpoint, entity.id]);
-                    var title = 'Charly Wong 和你查 "${entity.name.printAll()}"';
-                    var textNode = getInnerSingleChild(link);
-                    textNode.innerHTML = textNode.innerHTML.trim() + '
-                        <span href="${href}" target="_blank" rel="noopener" class="charleywong-button" title="${title.htmlEscape(true)}"></span>
-                    '.trim();
-                    link.addEventListener("pointerenter", onPointerEntered, true);
+                    // TODO
                 }
             });
         }
@@ -83,23 +77,6 @@ class Content {
         }
     }
 
-    static function onPointerEntered(evt:js.html.MouseEvent) {
-        var targetElement:Element = cast evt.target;
-        if (
-            targetElement.classList.contains("charleywong-button")
-        ) {
-            targetElement.classList.add("hover");
-            var rect = targetElement.getBoundingClientRect();
-            overlay.classList.add("hover");
-            overlay.href = targetElement.getAttribute("href");
-            overlay.title = targetElement.title;
-            overlay.style.left = rect.x + "px";
-            overlay.style.top = rect.y + "px";
-            overlay.style.width = rect.width + "px";
-            overlay.style.height = rect.height + "px";
-        }
-    }
-
     static final observer = new MutationSummary({
         queries: [{
             element: "a",
@@ -113,33 +90,15 @@ class Content {
         }
     });
 
-    static public var serverEndpoint:String;
-
     static function onMessage(?request:Dynamic, sender, sendResponse:Dynamic->Void) {
         switch (Unserializer.run(request):Message) {
             case MsgImportToCharley(linkUrl):
-                (switch (new URL(linkUrl)) {
-                    // case extractFbPost(_) => fb if (fb != null):
-                    //     Utils.getCanonical(linkUrl.replace("https://www.facebook.com/", "https://m.facebook.com/"))
-                    //         .then(url -> {
-                    //             trace(url);
-                    //             url;
-                    //         })
-                    //         .then(Utils.followRedirect)
-                    //         .catchError(err -> {
-                    //             trace(err);
-                    //             linkUrl;
-                    //         });
-                    case _:
-                        Promise.resolve(linkUrl);
-                }).then(linkUrl -> {
-                    try {
-                        Importer.importUrl(new URL(linkUrl))
-                            .catchError(alert);
-                    } catch (e:Exception) {
-                        alert(e.message + "\n" + e.stack);
-                    }
-                });     
+                try {
+                    Importer.importUrl(new URL(linkUrl))
+                        .catchError(alert);
+                } catch (e:Exception) {
+                    alert(e.message + "\n" + e.stack);
+                }
             case MsgScrollToJune:
                 scroll = true;
                 document.addEventListener("keyup", stopScrollingListener);
@@ -219,27 +178,10 @@ class Content {
         }
     }
 
-    static var overlay:AnchorElement;
-
     static function main() {
         Runtime.onMessage.addListener(onMessage);
-        Settings.getSettings().then(function(settings) {
-            serverEndpoint = settings.serverEndpoint;
-            for (a in document.querySelectorAll("a[href]")) {
-                processLink(cast a);
-            }
-        });
-
-        overlay = document.createAnchorElement();
-        overlay.className = "charleywong-overlay";
-        overlay.target = "_blank";
-        overlay.addEventListener("pointerout", function(evt){
-            overlay.classList.remove("hover");
-            for (btn in document.querySelectorAll(".charleywong-button.hover")) {
-                var btn:Element = cast btn;
-                btn.classList.remove("hover");
-            }
-        });
-        document.body.appendChild(overlay);
+        for (a in document.querySelectorAll("a[href]")) {
+            processLink(cast a);
+        }
     }
 }
