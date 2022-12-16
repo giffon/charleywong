@@ -258,7 +258,7 @@ class Importer {
     }
 
     static function importIgProfile(handle:String):Promise<{}> {
-        var profile = getIgProfile(handle);
+        final profile = getIgProfile(handle);
         return postToServer(profile);
     }
 
@@ -530,17 +530,10 @@ class Importer {
     }
 
     static function igName() {
-        final h1s = document.getElementsByXPath("//main//header//h1");
-        if (h1s[1] != null)
-            return h1s[1].innerText;
-        if (h1s[0] != null)
-            return h1s[0].innerText;
-
-        final spans = document.querySelectorAll("header section > div > span");
-        if (spans[0] != null)
-            return (cast spans[0]:Element).innerText;
-
-        throw 'Cannot get user name. <header> content: ' + document.getElementsByXPath("//main//header")[0].innerText;
+        final node = document.getElementsByXPath("//main//header//ul/following-sibling::div/span[1]")[0];
+        if (node == null)
+            return null;
+        return node.innerText;
     }
 
     static function igWebsite() {
@@ -562,9 +555,9 @@ class Importer {
     }
 
     static function igAbout() {
-        final div:Element = cast document.querySelectorAll("header section > div:last-of-type > div:last-of-type")[0];
-        if (div != null)
-            return div.innerText;
-        return null;
+        final div = document.getElementsByXPath("//main//header//ul/following-sibling::div/h1")[0];
+        if (div == null)
+            return null;
+        return div.innerText;
     }
 }
