@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "https://fairygardencs716.shoplineapp.com"
+    },
+    {
       "meta": {
         "id": "1734059673406637",
         "username": "FairyGardenBGS",
@@ -28,9 +31,9 @@
     {
       "url": "https://www.instagram.com/fairygardenbgs/",
       "meta": {
-        "website": "https://www.facebook.com/FairyGardenBGS/",
-        "name": "Fairy Garden",
-        "about": "無論你係一支公上黎、一家大細上黎、又或者成玩朋友上黎，我地已經準備好唔同既桌遊比你地，務求令你地可以點都享受到玩桌遊既樂趣！重唔快d上嚟玩下！"
+        "website": "https://fairygardencs716.shoplineapp.com/",
+        "name": "無論你係一支公上黎、一家大細上黎、又或者成班朋友上黎，我地已經準備好唔同既桌遊比你地，務求令你地可以點都享受到玩桌遊既樂趣！重唔快d上嚟玩下！",
+        "about": "Board game"
       }
     }
   ],
@@ -47,6 +50,21 @@
     {
       "type": "shop",
       "id": 409
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘巧明街115號柏秀中心19樓D&E室"
+      },
+      "googleMapsPlaceId": "ChIJI0Wk3GcBBDQRdcrKMy70SuU",
+      "coordinates": {
+        "lat": 22.3115805,
+        "lng": 114.2244497
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ]
 }
