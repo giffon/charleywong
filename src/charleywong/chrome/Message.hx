@@ -5,5 +5,6 @@ enum Message {
     MsgImportToCharley(linkUrl:String);
     MsgPostToServer(path:String, jsonContent:Dynamic);
     MsgScrollToJune;
+    MsgScrollEndless;
     MsgUpdateEntityIndex(showNotification:Bool);
 }

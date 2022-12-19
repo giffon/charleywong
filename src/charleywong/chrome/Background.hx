@@ -19,6 +19,7 @@ enum abstract MenuId(String) to String {
     final MenuImportPage;
     final MenuImportLink;
     final MenuScrollToJune;
+    final MenuScrollEndless;
     final MenuViewDataInCharleyWong;
 }
 
@@ -281,6 +282,8 @@ class Background {
                 Tabs.sendMessage(tab.id, Serializer.run(Message.MsgImportToCharley(url)));
             case MenuScrollToJune:
                 Tabs.sendMessage(tab.id, Serializer.run(Message.MsgScrollToJune));
+            case MenuScrollEndless:
+                Tabs.sendMessage(tab.id, Serializer.run(Message.MsgScrollEndless));
             case _:
                 throw 'Cannot handle $info';
         }
@@ -323,6 +326,11 @@ class Background {
             documentUrlPatterns: [
                 "https://www.facebook.com/*"
             ],
+            contexts: ["page"]
+        });
+        ContextMenus.create({
+            id: MenuScrollEndless,
+            title: "無限回溯",
             contexts: ["page"]
         });
     }

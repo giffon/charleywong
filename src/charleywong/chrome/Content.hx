@@ -103,6 +103,10 @@ class Content {
                 scroll = true;
                 document.addEventListener("keyup", stopScrollingListener);
                 scrollToJune();
+            case MsgScrollEndless:
+                scroll = true;
+                document.addEventListener("keyup", stopScrollingListener);
+                scrollEndless();
             case _:
                 throw 'Unknown request: $request';
         }
@@ -176,6 +180,15 @@ class Content {
             window.scrollTo(window.scrollX, document.body.scrollHeight);
             Timer.delay(scrollToJune, 100);
         }
+    }
+
+    static function scrollEndless() {
+        if (!scroll) {
+            return;
+        }
+
+        window.scrollTo(window.scrollX, document.body.scrollHeight);
+        Timer.delay(scrollEndless, 100);
     }
 
     static function main() {
