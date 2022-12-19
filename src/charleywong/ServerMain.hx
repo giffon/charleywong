@@ -736,7 +736,7 @@ class ServerMain {
             }
 
             if (entity == null) {
-                var name = MultiLangString.parseName(info.name);
+                final name = MultiLangString.parseName(info.name);
                 entity = {
                     id: info.username != null ? info.username : switch (name[en]) {
                         case name if (name != null && ~/[A-Za-z0-9\.\-_]/.match(name)):
@@ -753,12 +753,12 @@ class ServerMain {
 
             function addPlacesIfNone() {
                 if (entity.places == null && info.single_line_address != null) {
-                    var noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
+                    final noChi = ~/^[^\u4e00-\u9fff]+$/; // no chinese characters
                     switch(info.single_line_address) {
                         case null:
                             //pass
                         case address:
-                            var place:Place = {};
+                            final place:Place = {};
                             place.address = if (noChi.match(address)) {
                                 en: address
                             } else {
