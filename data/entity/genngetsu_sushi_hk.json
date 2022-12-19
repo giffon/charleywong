@@ -1,0 +1,63 @@
+{
+  "id": "genngetsu_sushi_hk",
+  "name": {
+    "zh": "幻月寿司"
+  },
+  "webpages": [
+    {
+      "url": "https://www.facebook.com/109513198394187/",
+      "meta": {
+        "id": "109513198394187",
+        "name": "幻月寿司",
+        "about": "幻月寿司，位於馬鞍山富寶花園商場地下。",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "富寶花園商場G54號鋪, 852 Hong Kong, Hong Kong",
+        "link": "https://www.facebook.com/109513198394187"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/genngetsu_sushi_hk/",
+      "meta": {
+        "name": "幻月壽司"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/100083064196287/posts/114231351355671/"
+    },
+    {
+      "url": "https://www.facebook.com/100083064196287/posts/148908647887941/"
+    }
+  ],
+  "tags": [
+    "japanese",
+    "sushi"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "富寶花園商場G54號鋪"
+      },
+      "googleMapsPlaceId": "ChIJCQjx5rQJBDQRHcAmoLtsJHw",
+      "coordinates": {
+        "lat": 22.424556,
+        "lng": 114.2372809
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "eat",
+      "id": 6872
+    }
+  ]
+}
