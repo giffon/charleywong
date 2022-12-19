@@ -54,11 +54,61 @@
       }
     },
     {
+      "url": "https://www.facebook.com/102257792730823/",
+      "hidden": true,
+      "meta": {
+        "id": "102257792730823",
+        "name": "Lockeroom Cafe",
+        "about": "Cafe ",
+        "category_list": [
+          {
+            "id": "1738077623073078",
+            "name": "Theme Restaurant"
+          },
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "single_line_address": "Shop 16, LG/F Prudential Centre, 228 Nathan Road, Jordan, Kowloon, Hong Kong 九龍佐敦彌敦道228號恆豐中心低層地下16號鋪, HKG Hong Kong, Hong Kong",
+        "link": "https://www.facebook.com/102257792730823"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/105050744813774/",
+      "hidden": true,
+      "meta": {
+        "id": "105050744813774",
+        "name": "Lockeroom Express",
+        "about": "西餐輕食",
+        "category_list": [
+          {
+            "id": "192803624072087",
+            "name": "Fast food restaurant"
+          },
+          {
+            "id": "187153754656815",
+            "name": "Dessert Shop"
+          }
+        ],
+        "single_line_address": "香港九龍彌敦道恒豐中心23A鋪",
+        "link": "https://www.facebook.com/105050744813774"
+      }
+    },
+    {
       "url": "https://www.instagram.com/lockeroomdining/",
       "meta": {
         "website": "https://www.facebook.com/Lockeroom-Dining-2283579918591559/",
         "name": "LockeroomDining",
         "about": "Steak Pasta Dessert"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/lockeroomexpress/",
+      "hidden": true,
+      "meta": {
+        "website": "https://www.facebook.com/Lockeroom-Express-105050744813774/",
+        "name": "LockeroomExpress"
       }
     }
   ],
@@ -89,7 +139,33 @@
     },
     {
       "address": {
-        "zh": "佐敦彌敦道228號恆豐中心低層16號舖"
+        "zh": "油塘高超道38號大本型3樓308-312號舖大食代美食廣場10號舖"
+      },
+      "googleMapsPlaceId": "ChIJEz2rg98DBDQRypx2ZVYSx5E",
+      "coordinates": {
+        "lat": 22.2966559,
+        "lng": 114.2385472
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "山頂道118號山頂廣場2樓"
+      },
+      "googleMapsPlaceId": "ChIJsdWPsv8BBDQRFWQDCVEwC7E",
+      "coordinates": {
+        "lat": 22.2712975,
+        "lng": 114.1497899
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍彌敦道恒豐中心23A鋪"
       },
       "googleMapsPlaceId": "ChIJAwZ0tZ8BBDQRBdSmQI9etqI",
       "coordinates": {
@@ -98,19 +174,6 @@
       },
       "area": {
         "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
-        "zh": "山頂道118號山頂廣場2樓"
-      },
-      "googleMapsPlaceId": "ChIJIaPxgHQABDQR0vhdPzyMYUI",
-      "coordinates": {
-        "lat": 22.2701512,
-        "lng": 114.1496575
-      },
-      "area": {
-        "zh": "中西區"
       }
     }
   ],
@@ -130,6 +193,10 @@
     {
       "type": "eat",
       "id": 6832
+    },
+    {
+      "type": "eat",
+      "id": 6833
     }
   ]
 }
