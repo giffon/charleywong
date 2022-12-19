@@ -28,10 +28,36 @@
       "url": "https://www.facebook.com/hollybrowncoffee/"
     },
     {
+      "url": "https://www.facebook.com/102484145909509/",
+      "meta": {
+        "id": "102484145909509",
+        "username": "CabinCrewCoffeebyHollyBrown",
+        "name": "Cabin Crew Coffee",
+        "about": "The Cabin Crew Brand that pays tribute to the service spirit of the cabin crew on an aircraft. ",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "Shop 228, 2/F, Mira Place 1, 132 Nathan Road, Tsim Sha Tsui, 00000 Hong Kong, Hong Kong",
+        "link": "https://www.facebook.com/102484145909509"
+      }
+    },
+    {
       "url": "https://www.instagram.com/hollybrowncoffee/",
       "meta": {
-        "name": "Holly Brown",
-        "about": "Holly Brown X Cabin Crew Coffee🎗\n📍 22 Stanley Street Central ☎️ 2869-9008\n📍 D2 Place Lai Chi Kok ☎️ 2371-2826\nHolly Brown Gelato🍨\n📍Central Market"
+        "website": "https://inline.app/booking/hollybrown?language=zh-hk",
+        "name": "Holly Brown💛",
+        "about": "分店：\n📍 22 Stanley Street Central ☎️2869-9008\n📍 D2 Place Lai Chi Kok ☎️2371-2826\n📍Cabin Crew Coffee ☎️ 2618-6191\nBook Now👇🏻"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/cabincrewcoffee/",
+      "meta": {
+        "website": "https://inline.app/booking/-N5iI7jdfhr4-9tZmN4t:inline-live-2/-N5iI9SzJhNWoOq9uXvg",
+        "name": "Cabin Crew Coffee by Holly Brown✈️",
+        "about": "Enjoying inflight experience on the ground🛫️🍽\n.\n☎️ 2618-6191\n📍 Shop 228, 2/F, MIRA PLACE 1, 132 Nathan Road, Tsim Sha Tsui\n.\n𝑩𝒐𝒐𝒌 𝑵𝒐𝒘👇🏻"
       }
     },
     {
@@ -80,6 +106,10 @@
     {
       "type": "eat",
       "id": 6369
+    },
+    {
+      "type": "eat",
+      "id": 6819
     }
   ],
   "places": [
@@ -111,15 +141,15 @@
     },
     {
       "address": {
-        "zh": "中環皇后大道中93號中環街市1樓110號舖"
+        "zh": "尖沙咀彌敦道132號美麗華廣場一期2樓228號舖"
       },
-      "googleMapsPlaceId": "ChIJFbbJS3sABDQRZGKaWzhehxM",
+      "googleMapsPlaceId": "ChIJw5NCKfD5AzQRLBV4QJXDYtg",
       "coordinates": {
-        "lat": 22.2821105,
-        "lng": 114.1555615
+        "lat": 22.3006559,
+        "lng": 114.1721209
       },
       "area": {
-        "zh": "中西區"
+        "zh": "油尖旺區"
       }
     }
   ]
