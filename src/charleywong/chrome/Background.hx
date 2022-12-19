@@ -163,8 +163,8 @@ class Background {
                     // pass
             }
             switch (url) {
-                case extractFbPost(_) => fb if (fb != null):
-                    switch (index.entitiesOfFbPage[fb]) {
+                case extractFbPost(_) => { handle: handle } if (handle != null):
+                    switch (index.entitiesOfFbPage[handle]) {
                         case null:
                             return null;
                         case e:

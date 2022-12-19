@@ -140,28 +140,24 @@ class Importer {
                     false;
             }
         ) {
-            var href = if (url.pathname == "/permalink.php" || url.pathname == "/photo/") {
-                url.pathname + url.search;
-            } else {
-                url.pathname;
-            }
-            var url:Promise<String> = if (url.pathname == "/permalink.php") {
-                var params = parseSearch(url.search);
+            final url:Promise<String> = if (url.pathname == "/permalink.php") {
+                final params = parseSearch(url.search);
                 Promise.resolve(Path.join([url.origin, url.pathname]) + '?story_fbid=' + params["story_fbid"].urlEncode() + "&id=" + params["id"].urlEncode());
             } else if (url.pathname == "/photo/") {
-                var fbid = url.searchParams.get("fbid");
-                var set = url.searchParams.get("set");
+                final fbid = url.searchParams.get("fbid");
+                final set = url.searchParams.get("set");
                 window.fetch(Std.string(url), {
                     cache: NO_CACHE,
                 })
                     .then(r -> r.text())
                     .then(text -> {
-                        var r = new EReg('"https:\\\\/\\\\/www.facebook.com\\\\/([A-Za-z0-9_\\\\.\\\\-]+)\\\\/photos\\\\/${set}\\\\/${fbid}\\\\/', "");
+                        final r = new EReg('"https:\\\\/\\\\/www.facebook.com\\\\/([A-Za-z0-9_\\\\.\\\\-]+)\\\\/photos\\\\/${set}\\\\/${fbid}\\\\/', "");
                         return if (r.match(text)) {
-                            var owner = r.matched(1);
+                            final owner = r.matched(1);
                             'https://www.facebook.com/${owner}/photos/${set}/${fbid}/';
                         } else {
-                            trace(text);
+                            console.error('Cannot figure out the owner of this photo');
+                            console.error(text);
                             throw 'Cannot figure out the owner of this photo';
                         }
                     });
@@ -278,7 +274,8 @@ class Importer {
                     return pageIDRegexp.matched(1);
                 }
 
-                trace(content);
+                console.error("Cannot find Facebook page ID");
+                console.error(content);
                 throw "Cannot find Facebook page ID";
             });
     }

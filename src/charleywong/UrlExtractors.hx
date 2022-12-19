@@ -23,11 +23,11 @@ enum Ident {
 
 class UrlExtractors {
     static public function cleanUrl(url:String) {
-        var pUrl = new URL(url);
+        final pUrl = new URL(url);
         return switch (pUrl) {
-            case extractFbPost(_) => fb if (fb != null):
+            case extractFbPost(_) => v if (v != null):
                 if (pUrl.pathname == "/permalink.php") {
-                    var params = parseSearch(pUrl.search);
+                    final params = parseSearch(pUrl.search);
                     'https://www.facebook.com/permalink.php?story_fbid=${params["story_fbid"]}&id=${params["id"]}';
                 } else {
                     Path.removeTrailingSlashes('https://www.facebook.com' + pUrl.pathname);
@@ -269,19 +269,24 @@ class UrlExtractors {
         return map;
     }
 
-    static public function extractFbPost(url:ParsedUrl) {
-        var regex = ~/^https?:\/\/(?:www\.|m\.)?facebook\.com$/i;
+    static public function extractFbPost(url:ParsedUrl):Null<{
+        ?handle:String,
+    }> {
+        final regex = ~/^https?:\/\/(?:www\.|m\.)?facebook\.com$/i;
         if (regex.match(url.origin)) {
             switch(url.pathname.split("/").slice(0, 3)) {
                 case ["", handle, "posts" | "photos" | "videos" | "notes"]:
-                    return handle;
+                    return {
+                        handle: handle,
+                    };
                 case _:
                     //pass
             }
 
             if (url.pathname == "/permalink.php") {
-                var params = parseSearch(url.search);
-                return params["id"];
+                final params = parseSearch(url.search);
+                final id = params["id"];
+                return {};
             }
         }
 

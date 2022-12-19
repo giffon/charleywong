@@ -438,42 +438,58 @@ class ServerMain {
     }
 
     static function post(req:Request, reply:Reply):Promise<Dynamic> {
-        var url = new URL(cleanUrl(req.body.url));
+        final url = new URL(cleanUrl(req.body.url));
+        // trace(url);
         switch (extractFbPost(url)) {
             case null:
-                //pass
-            case handle:
-                // trace(Std.string(url));
-                return switch (entityIndex.entitiesOfFbPage[handle]) {
-                    case null:
-                        Promise.resolve(reply.status(500).send('${handle} has not been imported yet.'));
-                    case e:
-                        Utils.getCanonical(Std.string(url).replace("https://www.facebook.com/", "https://m.facebook.com/"))
-                            .then(url -> {
-                                final r = ~/^https:\/\/www\.facebook\.com\/([^\/]+)\/posts\/([^\/]+)\/([^\/]+)\/$/;
-                                if (r.match(url)) {
-                                    'https://www.facebook.com/${r.matched(1)}/posts/${r.matched(3)}/';
-                                } else {
-                                    url;
-                                }
-                            })
-                            .catchError(err -> {
-                                trace(err);
-                                url;
-                            })
-                            .then(postUrl -> {
-                                switch (e.posts.find(p -> p.url == postUrl)) {
-                                    case null:
-                                        e.posts.push({
-                                            url: postUrl,
-                                        });
-                                    case post:
-                                        //pass
-                                }
-                                saveEntity(e, true, true);
-                                reply.status(200).send("done");
-                            });
+                // pass
+            case { handle: handle }:
+                // trace(handle);
+                final handle = if (handle != null) {
+                    Promise.resolve(handle);
+                } else if (url.pathname == "/permalink.php") {
+                    final params = parseSearch(url.search);
+                    final id = params["id"];
+                    Facebook.getPageInfo('https://www.facebook.com/${id}/')
+                        .then(info -> {
+                            trace(info);
+                            info.id;
+                        });
+                } else {
+                    throw "Cannot find FB handle from post";
                 }
+                return handle.then(handle -> {
+                    switch (entityIndex.entitiesOfFbPage[handle]) {
+                        case null:
+                            Promise.resolve(reply.status(500).send('${handle} has not been imported yet.'));
+                        case e:
+                            Utils.getCanonical(Std.string(url).replace("https://www.facebook.com/", "https://m.facebook.com/"))
+                                .then(url -> {
+                                    final r = ~/^https:\/\/www\.facebook\.com\/([^\/]+)\/posts\/([^\/]+)\/([^\/]+)\/$/;
+                                    if (r.match(url)) {
+                                        'https://www.facebook.com/${r.matched(1)}/posts/${r.matched(3)}/';
+                                    } else {
+                                        url;
+                                    }
+                                })
+                                .catchError(err -> {
+                                    trace(err);
+                                    url;
+                                })
+                                .then(postUrl -> {
+                                    switch (e.posts.find(p -> p.url == postUrl)) {
+                                        case null:
+                                            e.posts.push({
+                                                url: postUrl,
+                                            });
+                                        case post:
+                                            //pass
+                                    }
+                                    saveEntity(e, true, true);
+                                    reply.status(200).send("done");
+                                });
+                    }
+                });
         }
 
         switch (extractFbHomePage(url)) {

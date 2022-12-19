@@ -26,6 +26,7 @@ typedef FacebookPageInfo = {
     ?website:String,
     ?emails:Array<String>,
     ?single_line_address:String,
+    link:String,
 }
 
 class Facebook {
@@ -60,6 +61,7 @@ class Facebook {
 
     #if nodejs
     static public function getPageInfo(page:String):Promise<FacebookPageInfo> {
+        // trace('getPageInfo $page');
         return fetch(Path.join([apiEndpoint, apiVersion, page + "?" + Querystring.encode({
             access_token: accessToken,
             fields: "id,username,name,about,category_list,emails,single_line_address,website,link"
@@ -67,7 +69,10 @@ class Facebook {
             .then(r -> {
                 readAppUsage(cast r);
                 if (!r.ok) {
-                    r.text().then(text -> throw text);
+                    r.text().then(text -> {
+                        trace(text);
+                        throw text;
+                    });
                 } else {
                     r.json();
                 }
