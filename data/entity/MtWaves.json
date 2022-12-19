@@ -6,8 +6,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.mtwaves.com",
-      "hidden": true
+      "url": "https://www.mtwaves.com"
     },
     {
       "url": "https://www.facebook.com/MtWaves/",
@@ -36,8 +35,9 @@
     {
       "url": "https://www.instagram.com/mtwaves/",
       "meta": {
+        "website": "http://www.mtwaves.com/",
         "name": "山浪 Mt Waves",
-        "about": "真·香港人奶茶·得獎手藝·香港製造。逢星期四晚截單。訂購請按下面Link"
+        "about": "得獎手藝·每週香港新鮮製造·無添加防腐劑\n2019得奬奶茶師監製\nAward-winning craft brought to you in weekly brew freshness\n#傳統創意 #浪遊進化\n#EverImproving #EverEvolving"
       }
     }
   ],
@@ -55,12 +55,6 @@
       }
     },
     {
-      "url": "https://www.facebook.com/MtWaves/posts/694249814395703",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
       "url": "https://www.facebook.com/MtWaves/photos/a.622446488242703/705795063241178",
       "meta": {
         "sharedWith": "Public"
@@ -70,20 +64,5 @@
   "tags": [
     "food",
     "shop"
-  ],
-  "places": [
-    {
-      "address": {
-        "en": "11 Ma Wan Main Street Village East"
-      },
-      "googleMapsPlaceId": "EiQxMSBNYSBXYW4gTWFpbiBTdCwgTWEgV2FuLCBIb25nIEtvbmciMBIuChQKEgmZXgfPrP4DNBExWNc2BEe2jxALKhQKEgmZXgfPrP4DNBECe7e-gcK4nQ",
-      "coordinates": {
-        "lat": 22.3485083,
-        "lng": 114.0559511
-      },
-      "area": {
-        "zh": "荃灣區"
-      }
-    }
   ]
 }
