@@ -19,7 +19,8 @@
         "emails": [
           "taifookfoodlimited@hotmail.com"
         ],
-        "single_line_address": "414 Portland Street, Prince Edward, Mong Kok, Hong Kong, Hong Kong"
+        "single_line_address": "414 Portland Street, Prince Edward, Mong Kok, Hong Kong, Hong Kong",
+        "link": "https://www.facebook.com/104634481116542"
       }
     }
   ],
@@ -89,6 +90,10 @@
     {
       "type": "eat",
       "id": 2395
+    },
+    {
+      "type": "eat",
+      "id": 6840
     }
   ]
 }
