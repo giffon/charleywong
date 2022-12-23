@@ -1,7 +1,7 @@
 {
   "id": "PangJaiHK",
   "name": {
-    "zh": "反對關閉棚仔布市場"
+    "zh": "新棚仔布藝市場"
   },
   "webpages": [
     {
@@ -45,5 +45,20 @@
   ],
   "tags": [
     "organization"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "深水埗 荔枝角道373號"
+      },
+      "googleMapsPlaceId": "ChIJV5qhU7IABDQR5BdAZ0G93K0",
+      "coordinates": {
+        "lat": 22.3296508,
+        "lng": 114.1586997
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    }
   ]
 }
