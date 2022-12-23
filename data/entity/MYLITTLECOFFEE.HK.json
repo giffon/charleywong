@@ -78,14 +78,6 @@
       }
     },
     {
-      "url": "https://www.instagram.com/mylittlecoffee_tm/",
-      "meta": {
-        "name": "Casa Blu @ My Little Coffee TM",
-        "about": "#mylittlecoffee\n「My Little Coffee屯門分店- Casa Blu 藍屋」\n。自家製100%純牛肉手打漢堡\n。秘制印度咖哩\n。多國美食\n。自家烘焙咖啡豆零\n。自家制咖啡膠囊\n。專業咖啡機、器材賣買保養維修\n。度身訂造咖啡課程"
-      },
-      "hidden": true
-    },
-    {
       "url": "https://www.instagram.com/mylittlecoffeeroastery/",
       "meta": {
         "name": "My Little Coffee Roastery 太子大南街店 & 咖啡豆自動販賣機",
@@ -110,6 +102,19 @@
     "cafe"
   ],
   "places": [
+    {
+      "address": {
+        "zh": "九龍太子大南街120號地下"
+      },
+      "googleMapsPlaceId": "ChIJBWv4wDwBBDQRvr105SpRlw0",
+      "coordinates": {
+        "lat": 22.3257965,
+        "lng": 114.1651998
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
     {
       "address": {
         "zh": "旺角花園街2-16號好景商業中心1樓22室"
@@ -186,32 +191,6 @@
       },
       "area": {
         "zh": "大埔區"
-      }
-    },
-    {
-      "address": {
-        "zh": "尖沙咀彌敦道100號GA04"
-      },
-      "googleMapsPlaceId": "ChIJI7shnDIBBDQR-ewzFZ9Fxyo",
-      "coordinates": {
-        "lat": 22.2998652,
-        "lng": 114.1725625
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
-        "zh": "九龍太子大南街120號地下"
-      },
-      "googleMapsPlaceId": "ChIJBWv4wDwBBDQRvr105SpRlw0",
-      "coordinates": {
-        "lat": 22.3257965,
-        "lng": 114.1651998
-      },
-      "area": {
-        "zh": "油尖旺區"
       }
     }
   ],
