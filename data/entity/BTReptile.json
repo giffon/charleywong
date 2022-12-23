@@ -1,7 +1,8 @@
 {
   "id": "BTReptile",
   "name": {
-    "zh": "BT爬蟲"
+    "zh": "BT爬蟲",
+    "en": "BT Reptile"
   },
   "webpages": [
     {
@@ -38,8 +39,9 @@
     {
       "url": "https://www.instagram.com/btreptile_shop/",
       "meta": {
-        "name": "BT爬蟲",
-        "about": "營業時間：星期一至日2-7\nfacebook：BT爬蟲\n電話：60178911\n歡迎黎鋪頭參觀🙆🏻‍♀️"
+        "website": "https://www.facebook.com/BT爬蟲-1001762659865418/",
+        "name": "BT爬蟲🐢龜龜🐍球蟒🦎蜥蜴",
+        "about": "營業時間：星期一至日2-7\nfacebook：BT爬蟲\n電話：60178911\nYoutube : BT reptile\n歡迎黎鋪頭參觀🙆🏻‍♀️"
       }
     },
     {
@@ -84,28 +86,15 @@
   "places": [
     {
       "address": {
-        "zh": "觀塘開源道55號開聯工業中心A座7樓706室"
+        "zh": "九龍觀塘開源道47號凱源工業大廈8樓E室"
       },
       "googleMapsPlaceId": "ChIJjTHBPvQBBDQRiSNIPxNIZTY",
       "coordinates": {
-        "lat": 22.3106862,
-        "lng": 114.2240038
+        "lat": 22.3102003,
+        "lng": 114.2234929
       },
       "area": {
         "zh": "觀塘區"
-      }
-    },
-    {
-      "address": {
-        "zh": "石硤尾偉智里2號金玉商場208地鋪"
-      },
-      "googleMapsPlaceId": "ChIJs1ipYkoHBDQRc-RFR-kwTko",
-      "coordinates": {
-        "lat": 22.3345326,
-        "lng": 114.1669493
-      },
-      "area": {
-        "zh": "深水埗區"
       }
     }
   ]
