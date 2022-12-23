@@ -6,10 +6,6 @@
   },
   "webpages": [
     {
-      "url": "http://www.citizensradio.org",
-      "hidden": true
-    },
-    {
       "url": "https://www.facebook.com/citizensradio1028/",
       "meta": {
         "id": "74453790287",
@@ -25,17 +21,20 @@
         "single_line_address": "柴灣康民街2號康民工業中心23樓2314室, Cheung Chau, Hong Kong",
         "link": "https://www.facebook.com/74453790287"
       }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCoucRxx6Qr7EbkFz2Eofrgw",
+      "meta": {
+        "id": "UCoucRxx6Qr7EbkFz2Eofrgw",
+        "location": "Hong Kong",
+        "name": "Citizensradio",
+        "about": "民間電台，網上大氣電波"
+      }
     }
   ],
   "posts": [
     {
       "url": "https://www.facebook.com/citizensradio1028/photos/a.10150470755945288/10157525989930288",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/citizensradio1028/posts/10157570276410288",
       "meta": {
         "sharedWith": "Public"
       }
