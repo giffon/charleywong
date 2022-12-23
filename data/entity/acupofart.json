@@ -1,7 +1,8 @@
 {
   "id": "acupofart",
   "name": {
-    "en": "A cup of Art"
+    "en": "A cup of Art",
+    "zh": "藝術．家"
   },
   "webpages": [
     {
@@ -41,17 +42,18 @@
     }
   ],
   "tags": [
+    "artist",
     "shop"
   ],
   "places": [
     {
       "address": {
-        "en": "G/F, King Shing Court, No.28 On Hing Street, Yuen Long, N.T."
+        "en": "Shop 3076, 3/F, No.8 Tin Sau Road, Tin Shui Wai, Yuen Long"
       },
-      "googleMapsPlaceId": "ChIJJyKkTXX6AzQRRPIKq0A1yog",
+      "googleMapsPlaceId": "ChIJXYw_MIrwAzQR0JKt6qi_d14",
       "coordinates": {
-        "lat": 22.4426253,
-        "lng": 114.0248035
+        "lat": 22.4643097,
+        "lng": 114.0035608
       },
       "area": {
         "zh": "元朗區"
