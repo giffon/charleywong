@@ -1,7 +1,7 @@
 {
   "id": "jphaircutkf",
   "name": {
-    "en": "JP Haircut"
+    "en": "Mr.XCut"
   },
   "webpages": [
     {
@@ -26,10 +26,11 @@
       }
     },
     {
-      "url": "https://www.instagram.com/jp_haircut/",
+      "url": "https://www.instagram.com/mr.xcut/",
       "meta": {
-        "name": "JP hair",
-        "about": "#速剪 #日式 #黃店\n葵涌廣場1樓b76鋪💛\n提供性價比高剪髮服務🌟\n中環髮型師 日本單剪集團冠軍\n11:00Am-8:30pm"
+        "website": "https://mrcut.resurva.com/",
+        "name": "MR.X",
+        "about": "#剪髮#造型店#髮型#旺角#葵廣#專業 #設計#髮型 #男士 #女士\n#旺角信和中心1樓145號鋪💛\n12:00pm-9:00pm\n#葵涌廣場1樓76號鋪💛\n11:00am-8:30pm\nbooking✂️"
       }
     }
   ],
@@ -66,11 +67,24 @@
   "places": [
     {
       "address": {
-        "zh": "新界葵涌 葵富路7-11號 葵涌廣場1/f b 76號舖"
+        "zh": "旺角信和中心1樓145號鋪"
       },
-      "googleMapsPlaceId": "ChIJOUTkt734AzQR2DIuCxrfkck",
+      "googleMapsPlaceId": "ChIJh0R7TGABBDQRmOKCFbRAzW8",
       "coordinates": {
-        "lat": 22.3584385,
+        "lat": 22.3160575,
+        "lng": 114.1703633
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵芳葵涌廣場1樓 B76號鋪"
+      },
+      "googleMapsPlaceId": "ChIJYdVh7-z5AzQRs2Vv82aFgW0",
+      "coordinates": {
+        "lat": 22.35843849999999,
         "lng": 114.1274926
       },
       "area": {
