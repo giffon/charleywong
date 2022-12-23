@@ -62,5 +62,20 @@
     "clothing",
     "wedding",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "12/F, Kai Fat Building, No.204-210 Wing lok St"
+      },
+      "googleMapsPlaceId": "ChIJCWkTJP0BBDQR-jQRAUJAlR0",
+      "coordinates": {
+        "lat": 22.2879393,
+        "lng": 114.1483246
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }
