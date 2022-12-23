@@ -44,38 +44,12 @@
   "places": [
     {
       "address": {
-        "zh": "香港新界粉嶺安樂村樂業路8號豐樂工貿中心3樓8室"
+        "zh": "銅鑼灣波斯富街67號地下"
       },
-      "googleMapsPlaceId": "ChIJ-btkOh72AzQRo9JrUCttMeI",
+      "googleMapsPlaceId": "ChIJoVPz1FYABDQRBMTrG2ayWYc",
       "coordinates": {
-        "lat": 22.4953317,
-        "lng": 114.1428671
-      },
-      "area": {
-        "zh": "北區"
-      }
-    },
-    {
-      "address": {
-        "zh": "新界元朗壽富街29號興隆中心地下20號舖"
-      },
-      "googleMapsPlaceId": "ChIJEySjWaDwAzQRi8zu9uY1-3s",
-      "coordinates": {
-        "lat": 22.444939,
-        "lng": 114.027722
-      },
-      "area": {
-        "zh": "元朗區"
-      }
-    },
-    {
-      "address": {
-        "zh": "銅鑼灣羅素街60號地下B舖"
-      },
-      "googleMapsPlaceId": "ChIJ6YXqMlEABDQRFvGdYlBb2To",
-      "coordinates": {
-        "lat": 22.278814,
-        "lng": 114.183424
+        "lat": 22.2791166,
+        "lng": 114.1828936
       },
       "area": {
         "zh": "灣仔區"
@@ -92,6 +66,19 @@
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港新界粉嶺安樂村樂業路8號豐樂工貿中心3樓8室"
+      },
+      "googleMapsPlaceId": "ChIJ-btkOh72AzQRo9JrUCttMeI",
+      "coordinates": {
+        "lat": 22.4953317,
+        "lng": 114.1428671
+      },
+      "area": {
+        "zh": "北區"
       }
     }
   ]
