@@ -14,21 +14,26 @@
         "id": "602610939783597",
         "username": "lillionwine",
         "name": "Lillionwine 億升酒業有限公司",
-        "about": "億升酒業有限公司\n\n門市：\n觀塘巧明街114號, 迅達工業大廈8樓D室\n電話查詢：28659112\n\n灣仔分店: 香港灣仔天樂里12號地舖\n旺角分店: 旺角弼街60號地下C1舖\n元朗分店: Yoho Mall 形點二期A243鋪",
+        "about": "億升酒業有限公司\n\n門市：\n觀塘巧明街114號, 迅達工業大廈8樓D室\n電話查詢：28659112\n\n旺角分店: 旺角弼街60號地下C1舖\n元朗分店: Yoho Mall 形點二期A243鋪",
         "category_list": [
           {
             "id": "200600219953504",
             "name": "Shopping & Retail"
           },
           {
-            "id": "199833073363963",
-            "name": "Wine, Beer & Spirits Store"
+            "id": "1756049968005436",
+            "name": "E-commerce website"
+          },
+          {
+            "id": "2224",
+            "name": "Wine/spirits"
           }
         ],
         "emails": [
           "sales@lillionwine.com"
         ],
-        "website": "http://www.lillionwine.com"
+        "website": "https://lillion.wine",
+        "link": "https://www.facebook.com/602610939783597"
       }
     },
     {
@@ -42,13 +47,22 @@
           {
             "id": "2239",
             "name": "Retail Company"
+          },
+          {
+            "id": "2224",
+            "name": "Wine/spirits"
+          },
+          {
+            "id": "1756049968005436",
+            "name": "E-commerce website"
           }
         ],
         "emails": [
           "sales@lillionwine.com"
         ],
-        "single_line_address": "flat D, 8/F Speedy Ind. bldg., 114 how ming street, nil 香港，觀塘",
-        "website": "http://www.lillionwine.com"
+        "single_line_address": "flat D, 8/F Speedy Ind. bldg., 114 how ming street, nil Kwun Tong, Hong Kong",
+        "website": "https://lillion.wine",
+        "link": "https://www.facebook.com/409668382830847"
       },
       "hidden": true
     },
@@ -72,8 +86,9 @@
         "emails": [
           "sales@lillionwine.com"
         ],
-        "single_line_address": "G/F, 9 Hillwood Road, nil 香港，尖沙咀",
-        "website": "http://www.lillionwine.com"
+        "single_line_address": "G/F, 9 Hillwood Road, nil Tsim Sha Tsui, Hong Kong",
+        "website": "http://www.lillionwine.com",
+        "link": "https://www.facebook.com/224673008285011"
       },
       "hidden": true
     },
@@ -90,8 +105,9 @@
             "name": "Retail Company"
           }
         ],
-        "single_line_address": "G/F, 12 Tin Lok Lane, Wanchai, Hong Kong, Hong Kong，Hong Kong",
-        "website": "http://www.lillionwine.com"
+        "single_line_address": "G/F, 12 Tin Lok Lane, Wanchai, Hong Kong, Hong Kong, Hong Kong",
+        "website": "http://www.lillionwine.com",
+        "link": "https://www.facebook.com/223780221715311"
       },
       "hidden": true
     },
@@ -106,7 +122,8 @@
             "name": "Retail Company"
           }
         ],
-        "single_line_address": "bute street 60 G/F C1, Hong Kong，Mong Kok"
+        "single_line_address": "bute street 60 G/F C1, Mong Kok, Hong Kong",
+        "link": "https://www.facebook.com/2297178180500540"
       },
       "hidden": true
     },
