@@ -37,7 +37,7 @@
       "meta": {
         "website": "https://www.purestartfromnatural.com.hk/categories/promotions",
         "name": "Pure(sfn)",
-        "about": "純天然護膚品·無香料·無防腐劑\nMade in HK • 香港製造\n🌎 ✈️Worldwide Shipping📦Website💳 #PUREstartfromnatural"
+        "about": "純天然護膚品·無香料·無防腐劑\nMade in HK • 香港製造\n🌎 ✈️Worldwide Shipping📦Website💳 #purestartfromnatural"
       }
     }
   ],
@@ -86,9 +86,22 @@
   "places": [
     {
       "address": {
+        "zh": "觀塘觀塘道418號 apm 1樓L1-15號舖"
+      },
+      "googleMapsPlaceId": "ChIJLZdrbUUBBDQRJE87oMLEKhY",
+      "coordinates": {
+        "lat": 22.3118841,
+        "lng": 114.2244217
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
         "zh": "尖沙咀金馬倫道22-24號東麗中心13樓B室"
       },
-      "googleMapsPlaceId": "ChIJuXeUce4ABDQR3n1L7WyU9Vc",
+      "googleMapsPlaceId": "ChIJVVWl0e0ABDQRuhznXpA4v80",
       "coordinates": {
         "lat": 22.2989155,
         "lng": 114.1742238
@@ -114,26 +127,13 @@
       "address": {
         "zh": "元朗西菁街23號富達廣場(K Plus)地下112舖"
       },
-      "googleMapsPlaceId": "ChIJMcjKQgr6AzQRIXyedWegonY",
+      "googleMapsPlaceId": "ChIJldLp92b7AzQRaby0HrqUfNI",
       "coordinates": {
-        "lat": 22.4413009,
-        "lng": 114.0287779
+        "lat": 22.44118199999999,
+        "lng": 114.028955
       },
       "area": {
         "zh": "元朗區"
-      }
-    },
-    {
-      "address": {
-        "en": "Lot No. 1/F - 63, First Floor, Paradigm Mall Johor Bahru, Jalan Skudai, 81200 Johor Bahru, Johor, Malaysia"
-      },
-      "googleMapsPlaceId": "ChIJIf-ff_9y2jERb19MfG9Nuw0",
-      "coordinates": {
-        "lat": 1.5168375,
-        "lng": 103.685325
-      },
-      "area": {
-        "zh": "馬來西亞"
       }
     }
   ],
