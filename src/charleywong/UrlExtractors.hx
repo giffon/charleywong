@@ -98,16 +98,21 @@ class UrlExtractors {
             return null;
     }
 
-    static public function extractPatreonProfile(url:ParsedUrl):Null<String> {
-        var regex = ~/^https?:\/\/(?:www\.)?patreon\.com$/i;
-        return if (regex.match(url.origin))
-            switch(url.pathname.split("/")) {
-                case ["", handle]: handle;
-                case ["", handle, ""]: handle;
-                case _: return null;
-            }
-        else
-            return null;
+    static public function extractPatreonProfile(url:ParsedUrl):Null<{
+        ?handle:String,
+    }> {
+        final regex = ~/^https?:\/\/(?:www\.)?patreon\.com$/i;
+        return if (regex.match(url.origin)) switch (url) {
+            case { pathname: "/user" }:
+                { handle: null };
+            case { pathname: pathname }:
+                switch(pathname.split("/")) {
+                    case ["", handle] | ["", handle, ""]:
+                        { handle: handle };
+                    case _:
+                        null;
+                }
+        } else null;
     }
 
     static public function extractMediumProfile(url:ParsedUrl):Null<String> {

@@ -104,12 +104,19 @@ class EntityView extends View {
                         <a href=${p.url}><i className="fab fa-telegram"></i> ${t}</a>
                     </Fragment>
                 ');
-            case extractPatreonProfile(_) => u if (u != null):
-                jsx('
-                    <Fragment>
-                        <a href=${p.url}><i className="fab fa-patreon"></i> ${u}</a>
-                    </Fragment>
-                ');
+            case extractPatreonProfile(_) => { handle: handle }:
+                if (handle != null)
+                    jsx('
+                        <Fragment>
+                            <a href=${p.url}><i className="fab fa-patreon"></i> ${handle}</a>
+                        </Fragment>
+                    ');
+                else
+                    jsx('
+                        <Fragment>
+                            <a href=${p.url}><i className="fab fa-patreon"></i> Patreon</a>
+                        </Fragment>
+                    ');
             case extractMediumProfile(_) => u if (u != null):
                 jsx('
                     <Fragment>
