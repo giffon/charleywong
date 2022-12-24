@@ -5,10 +5,14 @@
   },
   "webpages": [
     {
+      "url": "https://thepolishinglounge.myshopify.com"
+    },
+    {
       "url": "https://www.instagram.com/the_polishing_lounge/",
       "meta": {
+        "website": "https://thepolishinglounge.myshopify.com/",
         "name": "The Polishing Lounge",
-        "about": "鞋類清潔護理及維修服務 Shoe polishing and sneaker laundry.\n營業時間：Shoe Caring Center 12:00pm - 8:00pm\nLounge Service 5:00pm-3:00am\n(星期一 - 星期六)\n𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽: 97221350"
+        "about": "鞋類清潔護理及維修服務\n營業時間：12:00pm - 8:00pm\n(星期一 - 星期六)星期日, 公眾假期休息\n𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽: 97221350"
       }
     },
     {
@@ -59,21 +63,6 @@
   "tags": [
     "footwear",
     "shop"
-  ],
-  "places": [
-    {
-      "address": {
-        "en": "Unit 502, 5/F Yip Fung Building, 2-18 D'Aguilar Street, Central"
-      },
-      "googleMapsPlaceId": "ChIJGaJY3u4BBDQRw8D6K6CNZUI",
-      "coordinates": {
-        "lat": 22.2813797,
-        "lng": 114.1562057
-      },
-      "area": {
-        "zh": "中西區"
-      }
-    }
   ],
   "yellowBlueMapIds": [
     {
