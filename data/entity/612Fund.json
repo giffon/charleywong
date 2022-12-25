@@ -6,7 +6,7 @@
   },
   "webpages": [
     {
-      "url": "http://612fund.hk"
+      "url": "https://612fund.hk"
     },
     {
       "meta": {
@@ -31,6 +31,7 @@
     {
       "url": "https://www.instagram.com/612fund/",
       "meta": {
+        "website": "http://612fund.hk/",
         "name": "612人道支援基金",
         "about": "申請/捐款/查詢：9845 6641（Whatsapp / Telegram）\n612人道支援基金是為所有參與反送中運動中受傷、被捕人士，提供醫療費用、心理/精神輔導費用，法律費用及其他有關的人道支援。\n基金信託人：陳日君樞機、吳靄儀、許寶強、何秀蘭及何韻詩"
       }
@@ -54,6 +55,7 @@
     }
   ],
   "tags": [
-    "organization"
+    "organization",
+    "closed"
   ]
 }
