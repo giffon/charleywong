@@ -1,18 +1,16 @@
 {
   "id": "veggie.revolution.hk",
   "name": {
-    "zh": "蔬菜革命"
+    "zh": "蔬革",
+    "en": "vegvuloun"
   },
   "webpages": [
-    {
-      "url": "https://www.instagram.com/veggie.revolution.hk/"
-    },
     {
       "meta": {
         "id": "114582289952054",
         "username": "veggie.revolution.hk",
-        "name": "蔬菜革命",
-        "about": "2022 最後堅持迎接壬寅年 \n",
+        "name": "蔬革vegvuloun Hong Kong",
+        "about": "2023 蔬革團隊 再次岀發\n",
         "category_list": [
           {
             "id": "187070794658134",
@@ -30,10 +28,18 @@
         "emails": [
           "veggie.revolution.hk@gmail.com"
         ],
-        "website": "https://www.instagram.com/veggie.revolution.hk/",
+        "website": "https://www.instagram.com/vegvolution.hk/",
         "link": "https://www.facebook.com/114582289952054"
       },
       "url": "https://www.facebook.com/veggie.revolution.hk/"
+    },
+    {
+      "url": "https://www.instagram.com/vegvolution.hk/",
+      "meta": {
+        "website": "https://wa.me/message/KKKTX7IZIXW4J1",
+        "name": "蔬革",
+        "about": "2023 蔬革團隊 再次岀發"
+      }
     }
   ],
   "posts": [
@@ -48,12 +54,28 @@
     }
   ],
   "tags": [
-    "food"
+    "food",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 2250
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "將軍澳富康花園商場41號地舖"
+      },
+      "googleMapsPlaceId": "ChIJwwpVVvMDBDQRKarhBaTqn9E",
+      "coordinates": {
+        "lat": 22.30958820000001,
+        "lng": 114.2619175
+      },
+      "area": {
+        "zh": "西貢區"
+      }
     }
   ]
 }
