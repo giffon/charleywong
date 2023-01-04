@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://www.nothk.com"
+    },
+    {
       "meta": {
         "id": "720312224662364",
         "name": "NOT Specialty Coffee",
@@ -37,7 +40,40 @@
         ],
         "single_line_address": "Shop 212, Lee Garden One, 33 Hysan Avenue, Causeway Bay, HK Hong Kong, Hong Kong",
         "link": "https://www.facebook.com/381035152351651"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.facebook.com/102106132270275/",
+      "meta": {
+        "id": "102106132270275",
+        "name": "Not Specialty Coffee Nexxus Building",
+        "about": "Trying to be a Specialty Coffee Shop",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "single_line_address": "Shop 207- 210, 2/F., Nexxus Building, 41 Connaught Road, Central, Hong Kong Hong Kong, Hong Kong",
+        "website": "http://www.nothk.com/",
+        "link": "https://www.facebook.com/102106132270275"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/esufa/",
+      "meta": {
+        "name": "n.O.T. Specialty Coffee"
       }
+    },
+    {
+      "url": "https://www.instagram.com/not_nexxus/",
+      "meta": {
+        "website": "http://bit.ly/3GqnirN",
+        "name": "n.o.t. Specialty Coffee Nexxus"
+      },
+      "hidden": true
     }
   ],
   "posts": [
@@ -75,6 +111,19 @@
       "area": {
         "zh": "灣仔區"
       }
+    },
+    {
+      "address": {
+        "zh": "中環干諾道中41號盈置大廈2樓207-210號舖"
+      },
+      "googleMapsPlaceId": "ChIJqXAP4jwBBDQRf7ZFSRysMyc",
+      "coordinates": {
+        "lat": 22.2842294,
+        "lng": 114.1565225
+      },
+      "area": {
+        "zh": "中西區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -85,6 +134,10 @@
     {
       "type": "eat",
       "id": 718
+    },
+    {
+      "type": "eat",
+      "id": 6911
     }
   ],
   "alias": [
