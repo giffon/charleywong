@@ -22,10 +22,37 @@
       }
     },
     {
+      "url": "https://www.facebook.com/CafeLittleBreakhk/",
+      "meta": {
+        "id": "102401802573574",
+        "username": "CafeLittleBreakhk",
+        "name": "Cafe Little Break",
+        "about": "全港首家親子Cafe正式登陸尖沙咀K11 Musea!\n從美式咖啡到焦糖爆谷Croffle與你共",
+        "category_list": [
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
+        ],
+        "emails": [
+          "cafelittlebreak@gmail.com"
+        ],
+        "single_line_address": "Shop B247, B2/F, K11 Musea, Victoria Dockside,  Tsim Sha Tsui, 000000 Hong Kong, Hong Kong",
+        "link": "https://www.facebook.com/102401802573574"
+      }
+    },
+    {
       "url": "https://www.instagram.com/littlebreakcoffee/",
       "meta": {
         "name": "Little Break Coffee & Kitchen",
-        "about": "🍜@thaigerhk\n🍻@onelittlecorner\n🍖@sankalahk\n🍲@fongwaaparlour\n🍸@morokok_hk\n🌬 @morokok_shisha\n🎂 @littlebake.hk\n🍳T: +852 2742 2782"
+        "about": "🥞Little Break全港首家副線親子餐廳\n— Cafe Little Break現已登陸K11 Musea!\n🍩@cafelittlebreak_hk\n🍜@thaigerhk\n🥩@hachikasen_hk\n🍖@sankalahk\n🍸@morokok_hk\n🎂@littlebake.hk"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/cafelittlebreak_hk/",
+      "meta": {
+        "name": "Cafe Little Break",
+        "about": "🥞Little Break全港首家副線親子餐廳\n— Cafe Little Break現已登陸K11 Musea!\n🧇@littlebreakcoffee\n🍜@thaigerhk\n🥩@hachikasen_hk\n🍖@sankalahk\n🍸@morokok_hk\n🎂@littlebake.hk"
       }
     }
   ],
@@ -52,6 +79,10 @@
     {
       "type": "eat",
       "id": 281
+    },
+    {
+      "type": "eat",
+      "id": 6910
     }
   ],
   "places": [
@@ -66,6 +97,19 @@
       },
       "area": {
         "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop B247, B2/F, K11 Musea, Victoria Dockside, Tsim Sha Tsui"
+      },
+      "googleMapsPlaceId": "ChIJ_yMf_u0ABDQR0pnC2lhwvmI",
+      "coordinates": {
+        "lat": 22.297457,
+        "lng": 114.173642
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     }
   ]
