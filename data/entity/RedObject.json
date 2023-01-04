@@ -58,13 +58,26 @@
       "address": {
         "zh": "九龍灣常悅道21號Eastmark 1樓 7號"
       },
-      "googleMapsPlaceId": "ChIJ1WWa9jQBBDQRxsAv3SjCy0Q",
+      "googleMapsPlaceId": "ChIJMWAe9DQBBDQRYNl2rag-qEM",
       "coordinates": {
-        "lat": 22.3222915,
-        "lng": 114.2112344
+        "lat": 22.322232,
+        "lng": 114.211175
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "新蒲崗太子道東638號MikikiLG層7A號舖"
+      },
+      "googleMapsPlaceId": "ChIJKyWNsNYGBDQR5dhVW6GzRbA",
+      "coordinates": {
+        "lat": 22.3336857,
+        "lng": 114.1971604
+      },
+      "area": {
+        "zh": "黃大仙區"
       }
     }
   ],
@@ -76,6 +89,10 @@
     {
       "type": "eat",
       "id": 6069
+    },
+    {
+      "type": "eat",
+      "id": 6908
     }
   ]
 }
