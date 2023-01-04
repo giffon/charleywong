@@ -29,8 +29,9 @@
     {
       "url": "https://www.instagram.com/artistaperfettohk/",
       "meta": {
+        "website": "http://artistaperfetto.com/",
         "name": "Artista Perfetto",
-        "about": "Specialty coffee • Lifestyle\n-\nSHOP: 3 Sharp St West, Causeway Bay\nKIOSK: Lv 3, The LOHAS, Tseung Kwan O\n-"
+        "about": "Specialty coffee • Lifestyle\n-\nCauseway Bay\nKowloon Bay (Megabox 附近）\n-"
       }
     }
   ],
@@ -54,6 +55,10 @@
     {
       "type": "eat",
       "id": 5878
+    },
+    {
+      "type": "eat",
+      "id": 6909
     }
   ],
   "places": [
@@ -72,15 +77,15 @@
     },
     {
       "address": {
-        "en": "Kiosk B01, Shop Unit 331, Level 3, The LOHAS, Tseung Kwan O"
+        "en": "Unit 2, G/F, Enterprise Square Three, 39 Wang Chiu Road, Kowloon Bay"
       },
-      "googleMapsPlaceId": "ChIJNcWDH0oDBDQRtVFole-lbx4",
+      "googleMapsPlaceId": "ChIJd2F_owkBBDQRjCQFAsqB-7w",
       "coordinates": {
-        "lat": 22.2963405,
-        "lng": 114.2687451
+        "lat": 22.3200528,
+        "lng": 114.2097057
       },
       "area": {
-        "zh": "西貢區"
+        "zh": "觀塘區"
       }
     }
   ]
