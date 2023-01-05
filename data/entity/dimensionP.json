@@ -34,12 +34,10 @@
     {
       "url": "https://www.instagram.com/dimension_plus/",
       "meta": {
+        "website": "https://linktr.ee/dimension_plus",
         "name": "Dimension Plus",
-        "about": "Art, Design, Curate\nFocus on New Media\nHong Kong | Taiwan"
+        "about": "Arts & Curate\nArts & Technology\nTaiwan & Hong Kong\n|"
       }
-    },
-    {
-      "url": "http://dimensionplus.co"
     }
   ],
   "posts": [
@@ -53,15 +51,28 @@
   "places": [
     {
       "address": {
-        "en": "G/F, 186 Tai Nan Street, Shum Shui Po, Kowloon, Hong Kong"
+        "zh": "九龍深水埗大南街186號地下"
       },
-      "googleMapsPlaceId": "ChIJH2qMI7QABDQRsl7wNhjjSis",
+      "googleMapsPlaceId": "ChIJfwrk6b8BBDQRb15G9YpEr3s",
       "coordinates": {
         "lat": 22.327123,
         "lng": 114.1636
       },
       "area": {
         "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "台灣台北市龍江路286巷12號"
+      },
+      "googleMapsPlaceId": "ChIJp8l1q-OrQjQR4IA-HjGH4I8",
+      "coordinates": {
+        "lat": 25.061,
+        "lng": 121.5400404
+      },
+      "area": {
+        "zh": "臺灣"
       }
     }
   ]
