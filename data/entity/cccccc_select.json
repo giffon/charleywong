@@ -1,0 +1,105 @@
+{
+  "id": "cccccc_select",
+  "name": {
+    "en": "CccccC Select"
+  },
+  "webpages": [
+    {
+      "url": "https://www.ccccccselect.com"
+    },
+    {
+      "url": "https://www.facebook.com/107329044803841/",
+      "meta": {
+        "id": "107329044803841",
+        "name": "CccccC Select",
+        "category_list": [
+          {
+            "id": "2201",
+            "name": "Product/service"
+          },
+          {
+            "id": "2903",
+            "name": "Art"
+          }
+        ],
+        "emails": [
+          "ccccccselect@gmail.com"
+        ],
+        "single_line_address": "尖沙咀彌敦道100號The one L601, Kowloon, Hong Kong",
+        "website": "https://www.ccccccselect.com/",
+        "link": "https://www.facebook.com/107329044803841"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/cccccc_select/",
+      "meta": {
+        "website": "https://www.ccccccselect.com/",
+        "name": "#CCCCCc Se/ect Local lifestyle 本地生活選物店",
+        "about": "📍旗艦店 ：旺角朗豪坊502號舖\n總店：尖沙咀彌敦道100號The One L601\n分店：尖沙咀河內道18號 K11 Art mall 1/F Select Zone B\n分店：銅鑼灣（準備中🔜）\n聯乘店 : 荃灣綠楊坊G41"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/107329044803841/posts/142446701292075/"
+    }
+  ],
+  "tags": [
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀彌敦道100號The One L601"
+      },
+      "googleMapsPlaceId": "ChIJMSVeOLcBBDQRaf7oZsIbBHA",
+      "coordinates": {
+        "lat": 22.2998217,
+        "lng": 114.1726855
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角朗豪坊502號舖"
+      },
+      "googleMapsPlaceId": "ChIJSUsQeMcABDQRUladiJq44qw",
+      "coordinates": {
+        "lat": 22.3182116,
+        "lng": 114.1686743
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀河內道18號 K11 Art mall 1/F Select Zone B"
+      },
+      "googleMapsPlaceId": "ChIJ_yMf_u0ABDQRFUSKts8Cq0U",
+      "coordinates": {
+        "lat": 22.297525,
+        "lng": 114.1736355
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
+  ],
+  "yellowBlueMapIds": [
+    {
+      "type": "shop",
+      "id": 7384
+    },
+    {
+      "type": "shop",
+      "id": 7385
+    },
+    {
+      "type": "shop",
+      "id": 7390
+    }
+  ]
+}
