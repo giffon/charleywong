@@ -36,9 +36,17 @@
     {
       "url": "https://www.instagram.com/photogstory/",
       "meta": {
-        "website": "https://linktr.ee/photogstoryhk",
+        "website": "http://photogstory.com/",
         "name": "PhotogStory 顯影",
-        "about": "Photography platform based in HK\n📧 photogstory@gmail.com\nOnline Bookshop @photogshop\nFind Out More👇👇👇"
+        "about": "Photography platform based in HK\n📧 photogstory@gmail.com\nBookshop @photogshop\nInbox for James Chung, Yau Leung & Mak Fung’s old Hong Kong prints🇭🇰"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/photogshop/",
+      "meta": {
+        "website": "https://payme.hsbc/photogstory",
+        "name": "PhotogShop 顯影·書櫃",
+        "about": "@photogstory Bookshop\nPayMe/轉數快支付· 順豐寄書\n兩本9.5折/ 三本或以上正價九折\n臨時書店：黃竹坑道56-60號怡華工業大廈8樓（開放時間：星期五至日2-7PM）"
       }
     }
   ],
@@ -63,6 +71,23 @@
     }
   ],
   "tags": [
-    "photography"
+    "photography",
+    "book",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "黃竹坑道56-60號怡華工業大廈8樓"
+      },
+      "googleMapsPlaceId": "ChIJowS-bSIABDQRShMVNJKWQI0",
+      "coordinates": {
+        "lat": 22.2493824,
+        "lng": 114.1685055
+      },
+      "area": {
+        "zh": "南區"
+      }
+    }
   ]
 }
