@@ -1,5 +1,5 @@
 {
-  "id": "Burger-Home-139217689617319",
+  "id": "BurgerHome",
   "name": {
     "en": "Burger Home"
   },
@@ -35,7 +35,8 @@
   ],
   "tags": [
     "food",
-    "burger"
+    "burger",
+    "closed"
   ],
   "places": [
     {
@@ -57,5 +58,8 @@
       "type": "eat",
       "id": 346
     }
+  ],
+  "alias": [
+    "Burger-Home-139217689617319"
   ]
 }
