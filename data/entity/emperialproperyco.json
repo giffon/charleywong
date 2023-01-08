@@ -6,7 +6,8 @@
   },
   "webpages": [
     {
-      "url": "http://www.eipproperty.com"
+      "url": "http://www.eipproperty.com",
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/emperialproperyco/",
@@ -63,12 +64,12 @@
   "places": [
     {
       "address": {
-        "zh": "旺角上海街436號F鋪"
+        "en": "Room 1805 , Witty Commercial Building , 1A-1L Tung Choi Street , Mongkok"
       },
-      "googleMapsPlaceId": "ChIJPVqddQsBBDQRkQ4NWWFqhE8",
+      "googleMapsPlaceId": "ChIJ77N548YABDQRHorxi0od3Zk",
       "coordinates": {
-        "lat": 22.3150089,
-        "lng": 114.1691168
+        "lat": 22.3163037,
+        "lng": 114.1710135
       },
       "area": {
         "zh": "油尖旺區"
