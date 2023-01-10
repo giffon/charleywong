@@ -24,7 +24,7 @@ resource "cloudflare_record" "_acme-challenge-charleywong-dev" {
 resource "cloudflare_record" "charleywong" {
   zone_id = data.cloudflare_zone.giffonio.id
   name    = "charleywong"
-  value   = "d-ym2czixfq5.execute-api.us-east-1.amazonaws.com"
+  value   = aws_api_gateway_domain_name.charleywong-giffon-io.regional_domain_name
   type    = "CNAME"
   ttl     = 1
   proxied = true
@@ -33,7 +33,7 @@ resource "cloudflare_record" "charleywong" {
 resource "cloudflare_record" "charleywong-master" {
   zone_id = data.cloudflare_zone.giffonio.id
   name    = "charleywong-master"
-  value   = "d-uifndvj038.execute-api.us-east-1.amazonaws.com"
+  value   = aws_api_gateway_domain_name.master-charleywong-giffon-io.regional_domain_name
   type    = "CNAME"
   ttl     = 1
   proxied = true
