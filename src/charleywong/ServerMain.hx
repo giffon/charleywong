@@ -907,7 +907,7 @@ class ServerMain {
             opts.trustProxy = true;
             app = Fastify.fastify(opts);
             initServer();
-            js.Node.exports.handler = require('aws-lambda-fastify')(app, {
+            js.Node.exports.handler = require('@fastify/aws-lambda')(app, {
                 binaryMimeTypes: [
                     "image/png",
                     "image/jpeg",

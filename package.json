@@ -26,10 +26,10 @@
   "homepage": "https://github.com/giffon/CharleyWong#readme",
   "private": true,
   "dependencies": {
+    "@fastify/aws-lambda": "3.1.3",
     "@fastify/cors": "8.2.0",
     "@fastify/static": "6.6.0",
     "@googlemaps/google-maps-services-js": "3.3.26",
-    "aws-lambda-fastify": "2.2.0",
     "chokidar": "3.5.3",
     "cross-fetch": "3.1.5",
     "fastify": "4.11.0",
