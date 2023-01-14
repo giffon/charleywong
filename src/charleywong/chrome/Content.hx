@@ -24,6 +24,15 @@ class Content {
         });
     });
 
+    static function clearTextDeco(e:Element):Void {
+        e.style.textDecoration = null;
+        e.style.textDecorationColor = null;
+        e.style.textDecorationLine = null;
+        e.style.textDecorationSkip = null;
+        e.style.textDecorationSkipInk = null;
+        e.style.textDecorationStyle = null;
+    }
+
     static function processLink(link:AnchorElement):Void {
         if (link.dataset.charleywong != null) {
             return;
@@ -59,7 +68,10 @@ class Content {
                 if (entity != null) {
                     link.classList.add("charleywong-found");
                     link.dataset.charleywongEntityId = entity.id;
-                    // TODO
+                    clearTextDeco(link);
+                    for (e in link.querySelectorAll("*[style*='text-decoration']")) {
+                        clearTextDeco(cast e);
+                    }
                 }
             });
         }
