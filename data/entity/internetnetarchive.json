@@ -1,0 +1,69 @@
+{
+  "id": "internetnetarchive",
+  "name": {
+    "en": "Internet Archive"
+  },
+  "webpages": [
+    {
+      "url": "https://archive.org"
+    },
+    {
+      "url": "https://www.facebook.com/263056950749/",
+      "meta": {
+        "id": "263056950749",
+        "username": "internetnetarchive",
+        "name": "Internet Archive",
+        "about": "Internet Archive is a non-profit library offering access to millions of free books, movies, and audi",
+        "category_list": [
+          {
+            "id": "2603",
+            "name": "Nonprofit Organization"
+          }
+        ],
+        "emails": [
+          "info@archive.org"
+        ],
+        "single_line_address": "300 Funston Ave, San Francisco, CA, US 94118",
+        "website": "http://www.archive.org/",
+        "link": "https://www.facebook.com/263056950749"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/internetarchive/",
+      "meta": {
+        "website": "https://linkin.bio/internetarchive",
+        "name": "Internet Archive",
+        "about": "The Internet’s library offering free access to millions of books, movies, audio, games & 588 billion archived web pages via the Wayback Machine."
+      }
+    },
+    {
+      "url": "https://twitter.com/internetarchive"
+    },
+    {
+      "url": "https://mastodon.archive.org/@internetarchive"
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://blog.archive.org/2022/05/18/preserving-pro-democracy-books-from-shuttered-hong-kong-bookstore/"
+    }
+  ],
+  "tags": [
+    "organization"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "300 Funston Ave, San Francisco, CA, US 94118"
+      },
+      "googleMapsPlaceId": "ChIJOVZy4cqHhYARfuNo1-Pi5KU",
+      "coordinates": {
+        "lat": 37.7823236,
+        "lng": -122.4717795
+      },
+      "area": {
+        "zh": "美國"
+      }
+    }
+  ]
+}
