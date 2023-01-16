@@ -1,6 +1,7 @@
 package charleywong;
 
 import haxe.DynamicAccess;
+using hxLINQ.LINQ;
 
 @:forward(exists, keys, iterator, keyValueIterator)
 abstract MultiLangString(DynamicAccess<String>) from DynamicAccess<String> from Dynamic<String> {
@@ -19,11 +20,33 @@ abstract MultiLangString(DynamicAccess<String>) from DynamicAccess<String> from 
 
     public function printAll():String {
         return [
-            for (lang in [en, zh])
+            for (lang in ([en, zh]:Array<String>).concat([for (lang in this.keys()) lang]).linq().distinct().toArray())
             this[lang]
         ]
             .filter(v -> v != null)
             .join(" ");
+    }
+
+    public function mapAll<T>(fn:(lang:Lang, value:String)->T):Array<T> {
+        return [
+            for (lang in ([en, zh]:Array<String>).concat([for (lang in this.keys()) lang]).linq().distinct().toArray())
+            if (this[lang] != null)
+            fn((cast lang:Lang), this[lang])
+        ];
+    }
+
+    public function print(preference:Array<Lang>, allowOthers:Bool = true):String {
+        for (lang in preference)
+            switch (this[lang]) {
+                case null: continue;
+                case v: return v;
+            }
+
+        if (allowOthers)
+            for (lang => v in this)
+                return v;
+
+        return null;
     }
 
     static public function parseName(name:String):MultiLangString {

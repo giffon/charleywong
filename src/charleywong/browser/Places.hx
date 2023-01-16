@@ -46,22 +46,22 @@ class Places extends ReactComponent {
                 ');
         }
         if (places.length == 1) {
-            var place = places[0];
+            final place = places[0];
             if (place.address != null)
                 return jsx('
                     <Fragment>
-                        <div className="my-1"><i className="fas fa-map-marker-alt mr-1"></i>${place.address.printAll()}</div>
+                        <div className="my-1"><i className="fas fa-map-marker-alt mr-1"></i>${place.address.print([zh, en])}</div>
                         ${gmap}
                     </Fragment>
                 ');
             else
                 return gmap;
         } else {
-            var items = [
+            final items = [
                 for (i in 0...places.length)
                 if (places[i].address != null)
                 jsx('
-                    <MenuItem key=${i} value=${i}><i className="fas fa-map-marker-alt mr-1"></i>${places[i].address.printAll()}</MenuItem>
+                    <MenuItem key=${i} value=${i}><i className="fas fa-map-marker-alt mr-1"></i>${places[i].address.print([zh, en])}</MenuItem>
                 ')
             ];
             return jsx('

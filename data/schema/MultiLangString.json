@@ -15,7 +15,5 @@
             "pattern": "^[^\u4e00-\u9fff]+$"
         }
     },
-    "additionalProperties": {
-        "type": "string"
-    }
+    "additionalProperties": false
 }

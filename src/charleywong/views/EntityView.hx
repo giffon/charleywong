@@ -211,13 +211,11 @@ class EntityView extends View {
     function picUrl() return '/${entity.id}/profile.png';
 
     function renderName() {
-        return [
-            for (lang in [en, zh])
-            if (entity.name[lang] != null)
+        return entity.name.mapAll((lang, val) -> {
             jsx('
-                <span key=${lang} lang=${lang} className="mx-1">${entity.name[lang]}</span>
-            ')
-        ];
+                <span key=${lang} lang=${lang} className="mx-1">${val}</span>
+            ');
+        });
     }
 
     override function bodyContent() {

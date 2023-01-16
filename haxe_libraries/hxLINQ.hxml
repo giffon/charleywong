@@ -1,0 +1,3 @@
+# @install: lix --silent download "haxelib:/hxLINQ#1.2.1" into hxLINQ/1.2.1/haxelib
+-cp ${HAXE_LIBCACHE}/hxLINQ/1.2.1/haxelib/
+-D hxLINQ=1.2.1

@@ -1,6 +1,7 @@
 package charleywong;
 
 enum abstract Lang(String) to String {
-    var zh;
-    var en;
+    final zh;
+    final en;
+    final fr;
 }

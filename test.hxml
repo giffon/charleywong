@@ -3,6 +3,7 @@
 --library utest
 --library compiletime
 --library tink_core
+--library hxLINQ
 --macro include('charleywong.entities')
 -D UTEST_PRINT_TESTS
 --run Test
