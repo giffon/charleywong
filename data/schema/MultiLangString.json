@@ -9,7 +9,13 @@
         "zh": {
             "type": "string",
             "pattern": "[\u4e00-\u9fff]"
+        },
+        "fr": {
+            "type": "string",
+            "pattern": "^[^\u4e00-\u9fff]+$"
         }
     },
-    "additionalProperties": false
+    "additionalProperties": {
+        "type": "string"
+    }
 }
