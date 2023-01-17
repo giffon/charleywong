@@ -629,5 +629,5 @@ git.js:
     COPY haxe_libraries haxe_libraries
     COPY src src
     COPY .haxerc .
-    RUN haxe --class-path src --library hxnodejs --main charleywong.Git --dce full --js git.js
+    RUN haxe --class-path src --library hxnodejs --library hxLINQ --main charleywong.Git --dce full --js git.js
     SAVE ARTIFACT git.js AS LOCAL git.js
