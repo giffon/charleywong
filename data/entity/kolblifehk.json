@@ -18,9 +18,8 @@
     {
       "url": "https://www.instagram.com/jlocookingstudio/",
       "meta": {
-        "website": "https://www.facebook.com/jlocooking",
         "name": "jLo Cooking Studio",
-        "about": "A place to arouse your cooking talent! 激發您的烹飪潜能！Classes, catering, shows, any cooperations are welcome!\nLatest video 🎥\nhttps://youtu.be/vnnOIpgD3X0"
+        "about": "A place to arouse your cooking talent! 激發您的烹飪潜能！Classes, catering, shows, any cooperations are welcome!\nLatest video 🎥\nhttps://youtu.be/0NzFSmsLmNU"
       }
     },
     {
@@ -173,5 +172,20 @@
   "tags": [
     "food",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣西港鐵站A出口16號舖"
+      },
+      "googleMapsPlaceId": "ChIJ_aL2g6X5AzQRMiIJFAO1Slc",
+      "coordinates": {
+        "lat": 22.369029,
+        "lng": 114.1093616
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
   ]
 }
