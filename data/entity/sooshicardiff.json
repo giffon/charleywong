@@ -1,0 +1,65 @@
+{
+  "id": "sooshicardiff",
+  "name": {
+    "en": "Sooshi"
+  },
+  "webpages": [
+    {
+      "url": "https://www.sooshi.co.uk"
+    },
+    {
+      "url": "https://www.facebook.com/188324671196147/",
+      "meta": {
+        "id": "188324671196147",
+        "username": "sooshicardiff",
+        "name": "Sooshi",
+        "about": "Superfresh Sushi in Cardiff",
+        "category_list": [
+          {
+            "id": "134501539950711",
+            "name": "Sushi Restaurant"
+          },
+          {
+            "id": "1802051720039034",
+            "name": "Food delivery service"
+          }
+        ],
+        "emails": [
+          "eat@sushiday.co.uk"
+        ],
+        "single_line_address": "CF10 5BZ Cardiff",
+        "website": "http://www.sooshi.co.uk/",
+        "link": "https://www.facebook.com/188324671196147"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/sooshicardiff/",
+      "meta": {
+        "website": "http://www.sooshi.co.uk/",
+        "name": "sooshi cardiff",
+        "about": "Freshest and Tastiest sushi in Cardiff.\nDelivery and collection are available."
+      },
+      "hidden": true
+    }
+  ],
+  "posts": [],
+  "tags": [
+    "japanese",
+    "sushi"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "CF10 5BZ Cardiff"
+      },
+      "googleMapsPlaceId": "ChIJg65f6jcDbkgRLf7_Tr2EJE4",
+      "coordinates": {
+        "lat": 51.46306939999999,
+        "lng": -3.1658879
+      },
+      "area": {
+        "zh": "英國"
+      }
+    }
+  ]
+}
