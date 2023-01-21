@@ -7,7 +7,8 @@
     {
       "url": "https://www.instagram.com/takeateasy_x_firstea/",
       "meta": {
-        "name": "TakEateasy_X_Firstea"
+        "name": "TakEateasy_X_Firstea",
+        "about": "大埔美新里7號地舖"
       }
     },
     {
@@ -75,6 +76,14 @@
   ],
   "places": [
     {
+      "address": {
+        "zh": "大埔美新里7號地舖"
+      },
+      "googleMapsPlaceId": "ChIJW3CCWUcIBDQRsbzpA5MfFSc",
+      "coordinates": {
+        "lat": 22.4534033,
+        "lng": 114.1648675
+      },
       "area": {
         "zh": "大埔區"
       }
@@ -84,6 +93,10 @@
     {
       "type": "eat",
       "id": 169
+    },
+    {
+      "type": "eat",
+      "id": 6914
     }
   ]
 }
