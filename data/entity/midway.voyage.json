@@ -8,7 +8,7 @@
       "url": "https://www.midway.voyage"
     },
     {
-      "url": "http://www.midway-shop.com"
+      "url": "https://www.midway-shop.com"
     },
     {
       "url": "https://www.instagram.com/midway.voyage/",
@@ -23,7 +23,7 @@
       "meta": {
         "website": "https://www.midway-shop.com/",
         "name": "MIDWAY shop｜from trip to home｜",
-        "about": "𝘀𝗶𝗻𝗰𝗲 𝟮𝟬𝟭𝟳 𝗯𝘆 @midway.voyage & @pressthebuttoncoffee\n｜深水埗店：𝗘𝗩𝗘𝗥𝗬𝗗𝗔𝗬・𝟭─ 𝟳𝗣𝗠\n｜中環街市店：𝗘𝗩𝗘𝗥𝗬𝗗𝗔𝗬・𝟭𝟮─𝟳𝗣𝗠\n｜紙上 @shijogallery：𝗪𝗘𝗗-𝗦𝗨𝗡・ 𝟭:𝟯𝟬 ─𝟳𝗣𝗠\n商品皆獲生產商品牌正式授權銷售"
+        "about": "𝘀𝗶𝗻𝗰𝗲 𝟮𝟬𝟭𝟳 𝗯𝘆 @midway.voyage w/ @pressthebuttoncoffee\n｜深水埗：𝗘𝗩𝗘𝗥𝗬𝗗𝗔𝗬・𝟭─ 𝟳𝗣𝗠\n｜中環街市：𝗘𝗩𝗘𝗥𝗬𝗗𝗔𝗬・𝟭𝟮─𝟳𝗣𝗠\n｜紙上 @shijogallery：𝗪𝗘𝗗-𝗦𝗔𝗧・𝟭:𝟯𝟬 ─𝟳𝗣𝗠"
       }
     },
     {
@@ -78,10 +78,11 @@
     {
       "url": "https://www.instagram.com/pressthebuttoncoffee/",
       "meta": {
-        "website": "https://bit.ly/PTBonline",
+        "website": "https://www.midway-shop.com/categories/drink-food",
         "name": "PRESS THE BUTTON",
-        "about": "𝗮 𝗰𝗼𝗳𝗳𝗲𝗲 𝘀𝘁𝗮𝗻𝗱 𝗯𝘆 @midway.voyage 𝘄/ @midway.shop\n｜𝗘𝗩𝗘𝗥𝗬𝗗𝗔𝗬 𝟭𝟮:𝟯𝟬─𝟳𝗽𝗺\n｜𝖫𝗂𝗇𝗄 𝗂𝗇 𝖻𝗂𝗈: 𝖡𝗎𝗒 𝖼𝗈𝖿𝖿𝖾𝖾 𝖻𝖾𝖺𝗇𝗌, 𝖽𝗋𝗂𝗉 𝖻𝖺𝗀...𝗈𝗇𝗅𝗂𝗇𝖾"
-      }
+        "about": "𝗯𝘆 @midway.voyage 𝘄/ @midway.shop\n｜𝖫𝗂𝗇𝗄 𝗂𝗇 𝖻𝗂𝗈: 𝖡𝗎𝗒 𝖼𝗈𝖿𝖿𝖾𝖾 𝖻𝖾𝖺𝗇𝗌, 𝖽𝗋𝗂𝗉 𝖻𝖺𝗀...𝗈𝗇𝗅𝗂𝗇𝖾"
+      },
+      "hidden": true
     },
     {
       "url": "https://www.facebook.com/pressthebuttoncoffee/",
@@ -98,6 +99,42 @@
         ],
         "single_line_address": "Hong Kong, Hong Kong",
         "link": "https://www.facebook.com/100552614955364"
+      },
+      "hidden": true
+    },
+    {
+      "url": "https://www.instagram.com/shijogallery/",
+      "meta": {
+        "name": "紙上・SHIJO GALLERY",
+        "about": "Seek beauty of living beyond paper\n－\n｜WED - SAT・1:30 - 7PM\n* 開放時間可能因應展期而有變動／暫停開放，敬請留意最新消息"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/shijogallery/",
+      "meta": {
+        "id": "102674965563264",
+        "username": "shijogallery",
+        "name": "紙上",
+        "about": "Seek beauty of living beyond paper\n－\n｜WED - SAT・1:30 - 7PM\n* 開放時間可能因應展期而有變動／暫停開放，敬請留意最新消息",
+        "category_list": [
+          {
+            "id": "153635828025130",
+            "name": "Arts & Crafts Store"
+          },
+          {
+            "id": "180816211956170",
+            "name": "Cultural Gifts Store"
+          },
+          {
+            "id": "197384240287028",
+            "name": "Art Gallery"
+          }
+        ],
+        "emails": [
+          "shijogallery@midway-studio.com"
+        ],
+        "single_line_address": "Shop 11, 1/F, Fu Lee Loy Shopping Centre, Fotress Hill, Hong Kong Island, Hong Kong, Hong Kong",
+        "link": "https://www.facebook.com/102674965563264"
       }
     }
   ],
@@ -149,15 +186,28 @@
     },
     {
       "address": {
-        "en": "PRESS THE BUTTON G/F, 132A Ki Lung Street"
+        "zh": "中環皇后大道中93號中環街市229舖"
       },
-      "googleMapsPlaceId": "ChIJiT7w0RYBBDQRX7nwl8CoUA0",
+      "googleMapsPlaceId": "ChIJqcG2IC4BBDQRJiWaMHgb1e8",
       "coordinates": {
-        "lat": 22.3272501,
-        "lng": 114.1642889
+        "lat": 22.283944,
+        "lng": 114.1555478
       },
       "area": {
-        "zh": "深水埗區"
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "炮台山富利來商場1樓11號舖"
+      },
+      "googleMapsPlaceId": "ChIJUw-hBMwBBDQRBlqiZQjKcpc",
+      "coordinates": {
+        "lat": 22.2886368,
+        "lng": 114.1919944
+      },
+      "area": {
+        "zh": "東區"
       }
     }
   ],
