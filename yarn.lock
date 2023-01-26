@@ -208,10 +208,10 @@
     range-parser "~1.2.1"
     statuses "2.0.1"
 
-"@fastify/static@6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@fastify/static/-/static-6.6.1.tgz#62cfd24aa3d5d69591fe0ba2327a5356fa05bd72"
-  integrity sha512-sylhlmhclqwkyZy/SD5wzd4yjmMuqW8cRmfnuPXPhftZuEwJ8G2apm0kECQRnHJnk+W3Ksx2fpIHHcthzxNRTA==
+"@fastify/static@6.7.0":
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/@fastify/static/-/static-6.7.0.tgz#9468383c78aa2fb550e48c3afd0952f288097126"
+  integrity sha512-GYFDTSK83OL3mlzEDhgZXwFqPpGPiOsOr+dx63y2hcDF+NF4j1Ps2Swvmq/tMc5CFGoEDhkVN+P9fWG+/4a30Q==
   dependencies:
     "@fastify/accept-negotiator" "^1.0.0"
     "@fastify/send" "^1.0.0"
