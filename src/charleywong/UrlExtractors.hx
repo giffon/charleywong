@@ -2,7 +2,6 @@ package charleywong;
 
 #if nodejs
 import CrossFetch.fetch;
-import abort_controller.AbortController;
 #end
 import js.lib.Promise;
 import haxe.io.Path;

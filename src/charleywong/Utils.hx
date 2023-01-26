@@ -85,7 +85,11 @@ class Utils {
         og:Array<{property:String, content:String}>,
         ld:Dynamic,
     }> {
-        return fetch(url)
+        final abortController = new AbortController();
+        Timer.delay(() -> abortController.abort(), 15 * 1000); // 15 seconds
+        return fetch(url, {
+            signal: cast abortController.signal,
+        })
             .then(r ->
                 if (!r.ok)
                     r.text().then(text ->

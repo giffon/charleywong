@@ -93,8 +93,8 @@ class Background {
             text: "⏳",
         });
         Settings.getSettings().then(function(settings) {
-            var jsonUrl = Path.join([settings.serverEndpoint, "list", "all.json"]);
-            var abort = new AbortController();
+            final jsonUrl = Path.join([settings.serverEndpoint, "list", "all.json"]);
+            final abort = new AbortController();
             Timer.delay(() -> abort.abort(), 5000);
             fetch(jsonUrl, cast {
                 mode: "cors",
