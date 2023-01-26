@@ -50,8 +50,8 @@ jobs:
           EARTHLY_REMOTE_CACHE: "ghcr.io/giffon/charleywong_cache:master_devcontainer_workspace"
       - name: Run test
         run: earthly +test --TEST="$GITHUB_EVENT_NAME"
-      - name: Build Chrome extension
-        run: earthly +chrome-extension
+      - name: Test build
+        run: earthly +test-build
       - name: Create .envrc
         if: success() && env.PUSH == 'true' && github.event_name == 'push'
         run: |

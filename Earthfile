@@ -331,7 +331,7 @@ ybm-download:
 
 ybm:
     FROM +ybm-download --CACHE_KEY="$(date +%Y%m%d)"
-    SAVE ARTIFACT ybm AS LOCAL ./ybm
+    SAVE ARTIFACT --keep-ts ybm AS LOCAL ./ybm
 
 exportSpreadsheet.js:
     FROM +devcontainer
@@ -395,6 +395,15 @@ exportSpreadsheet:
         AWS_SECRET_ACCESS_KEY="$YBM_AWS_SECRET_ACCESS_KEY" \
         node exportSpreadsheet.js
     SAVE ARTIFACT --keep-ts data/entity AS LOCAL data/entity
+
+test-build:
+    BUILD +service-worker
+    BUILD +browser-script
+    BUILD +server-script
+    BUILD +chrome-extension
+    BUILD +syncFacebook.js
+    BUILD +git.js
+    # BUILD +exportSpreadsheet.js
 
 test:
     FROM +devcontainer
@@ -622,7 +631,7 @@ syncFacebook:
         --mount=type=secret,id=+secrets/.envrc,target=.envrc \
         . ./.envrc \
         && node syncFacebook.js updateMeta
-    SAVE ARTIFACT data/entity/*.json AS LOCAL ./data/entity/
+    SAVE ARTIFACT --keep-ts data/entity/*.json AS LOCAL ./data/entity/
 
 git.js:
     FROM +devcontainer
@@ -630,4 +639,4 @@ git.js:
     COPY src src
     COPY .haxerc .
     RUN haxe --class-path src --library hxnodejs --library hxLINQ --main charleywong.Git --dce full --js git.js
-    SAVE ARTIFACT git.js AS LOCAL git.js
+    SAVE ARTIFACT --keep-ts git.js AS LOCAL git.js
