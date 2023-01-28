@@ -231,7 +231,7 @@ class ServerMain {
             });
     }
 
-    static function getPic(profileUrls:Array<String>, width:Int) {
+    static function getPic(profileUrls:Array<String>, width:Int):Promise<Buffer> {
         for (i => url in profileUrls) {
             switch (new URL(url)) {
                 case extractFbHomePage(_) => fb if (fb != null):
@@ -279,21 +279,21 @@ class ServerMain {
     static public final entityProfilePicHeight = 630;
 
     static function entityProfilePic(req:Request, reply:Reply):Promise<Dynamic> {
-        var entityId:String = req.params.entityId;
-        var entity = entityIndex.entitiesOfId[entityId];
+        final entityId:String = req.params.entityId;
+        final entity = entityIndex.entitiesOfId[entityId];
         if (entity == null) {
             return Promise.resolve(reply.status(404).send('Entity of id $entityId not found.'));
         }
 
-        var border = 46;
-        var w = entityProfilePicHeight - border - border;
+        final border = 46;
+        final w = entityProfilePicHeight - border - border;
         return getEntityPic(entity, w)
             .then(function(pic) {
-                var frame = "static/images/charley-wong-profile-cover.png";
+                final frame = "static/images/charley-wong-profile-cover.png";
                 return Promise.all([Jimp.read(pic), Jimp.read(frame)])
                     .then(function(args) {
-                        var pic:Jimp = args[0];
-                        var frame:Jimp = args[1];
+                        final pic:Jimp = args[0];
+                        final frame:Jimp = args[1];
                         return Jimp.create(entityProfilePicWidth, entityProfilePicHeight, "#f4a948")
                             .then(img -> img
                                 .composite(pic.resize(w, w), (entityProfilePicWidth - entityProfilePicHeight) * 0.5 + border, border)

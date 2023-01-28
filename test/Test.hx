@@ -3,8 +3,8 @@ import haxe.io.*;
 
 class Test {
     static function main():Void {
-        var index = EntityIndex.loadFromDirectory("data/entity");
-        var tests:Array<utest.Test> = [
+        final index = EntityIndex.loadFromDirectory("data/entity");
+        final tests:Array<utest.Test> = [
             new TestAllEntities(index),
             new TestSchema(),
             new TestTags(),
