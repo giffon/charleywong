@@ -86,8 +86,11 @@ class Utils {
         ld:Dynamic,
     }> {
         final abortController = new AbortController();
-        Timer.delay(() -> abortController.abort(), 15 * 1000); // 15 seconds
+        Timer.delay(() -> abortController.abort(), 20 * 1000); // 20 seconds
         return fetch(url, {
+            headers: {
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+            },
             signal: cast abortController.signal,
         })
             .then(r ->
@@ -99,18 +102,20 @@ class Utils {
                     r.text()
             )
             .then(text -> {
-                var doc = new JSDOM(text, {
+                final doc = new JSDOM(text, {
                     virtualConsole: new VirtualConsole(),
                 }).window.document;
-                var og:Array<{property:String, content:String}> = [];
+
+                final og:Array<{property:String, content:String}> = [];
                 for (meta in doc.querySelectorAll("meta[property^='og:'],meta[property^='article:']")) {
-                    var meta:MetaElement = cast meta;
+                    final meta:MetaElement = cast meta;
                     og.push({
                         property: meta.getAttribute("property"),
                         content: meta.content,
                     });
                 }
-                var ld = try {
+
+                final ld = try {
                     Json.parse(doc.querySelector("script[type='application/ld+json']").textContent);
                 } catch (e) {
                     null;

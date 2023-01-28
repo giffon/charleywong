@@ -34,7 +34,7 @@ class ServerMain {
     static public var app:FastifyInstance<Dynamic,Dynamic,Dynamic,Dynamic,Dynamic>;
 
     static function noQuery(req:Request, ?allowed:Iterable<String>):URL {
-        var url = new URL(req.url, domain);
+        final url = new URL(req.url, domain);
         new URLSearchParams(req.query)
             .forEach((value, name, searchParams) -> {
                 if (allowed == null || !allowed.has(name)) {
@@ -45,7 +45,7 @@ class ServerMain {
     }
 
     static function index(req:Request, reply:Reply):Promise<Dynamic> {
-        var search:Null<String> = req.query.search;
+        final search:Null<String> = req.query.search;
         if (search != null) {
             return switch (search.trim()) {
                 case "":
@@ -72,7 +72,7 @@ class ServerMain {
     }
 
     static function pageHkbaseDirectory(req:Request, reply:Reply):Promise<Dynamic> {
-        var entities = HkbaseDirectory.localCache // use the order of HKBASE directory
+        final entities = HkbaseDirectory.localCache // use the order of HKBASE directory
             .map(d -> switch (HkbaseDirectory.getEntity(d, entityIndex.entitiesOfHkbase)) {
                 case null:
                     trace('No matching entity of ${d.name_en} ${d.name_zh}');
@@ -105,7 +105,7 @@ class ServerMain {
             path: "list/all",
             listName: "全部 Charley Wong 和你查 商業/品牌",
             entities: {
-                var entities = [
+                final entities = [
                     for (e in entityIndex.entities)
                     if (e.searchable())
                     e
@@ -125,11 +125,11 @@ class ServerMain {
     }
 
     static function listEntities(req:Request, reply:Reply):Promise<Dynamic> {
-        var name:String = req.params.name;
-        var ids:String = req.params.entityIds;
+        final name:String = req.params.name;
+        final ids:String = req.params.entityIds;
         if (ids.endsWith(".json")) {
-            var ids = ids.substr(0, -".json".length);
-            var entities = [
+            final ids = ids.substr(0, -".json".length);
+            final entities = [
                 for (id in ids.split("+"))
                 switch (entityIndex.entitiesOfId[id]) {
                     case null: throw 'Entity of id "$id" not found';
@@ -138,7 +138,7 @@ class ServerMain {
             ];
             return Promise.resolve(entities);
         }
-        var entities = [
+        final entities = [
             for (id in ids.split("+"))
             switch (entityIndex.entitiesOfId[id]) {
                 case null: throw 'Entity of id "$id" not found';
@@ -162,11 +162,11 @@ class ServerMain {
         }
 
         var entityId:String = req.params.entityId;
-        var returnJson = entityId.endsWith(".json");
+        final returnJson = entityId.endsWith(".json");
         if (returnJson)
             entityId = entityId.substr(0, -".json".length);
 
-        var entity = entityIndex.entitiesOfId[entityId];
+        final entity = entityIndex.entitiesOfId[entityId];
         if (entity == null) {
             return Promise.resolve(reply.status(404).send('Entity of id $entityId not found.'));
         }
@@ -200,10 +200,10 @@ class ServerMain {
             return Jimp.create(1, 1, "#FFFFFF").then(img -> img.getBufferAsync(Jimp.MIME_PNG));
         }
         return font.then(function(font) {
-            var tw = Jimp.measureText(font, text);
-            var th = Jimp.measureTextHeight(font, text);
-            var padding = 20;
-            var size = Std.int(Math.max(tw, th) + padding + padding);
+            final tw = Jimp.measureText(font, text);
+            final th = Jimp.measureTextHeight(font, text);
+            final padding = 20;
+            final size = Std.int(Math.max(tw, th) + padding + padding);
             return Jimp.create(size, size, "#FFFFFF")
                 .then(function(img) {
                     return img
@@ -264,7 +264,7 @@ class ServerMain {
     }
 
     static function getEntityPic(e:Entity, width:Int):Promise<Buffer> {
-        var webpages = e.webpages.map(p -> p.url);
+        final webpages = e.webpages.map(p -> p.url);
         // prefer facebook profile pic
         webpages.sort((a,b) -> switch [a.startsWith("https://www.facebook.com/"), b.startsWith("https://www.facebook.com/")] {
             case [true, false]: -1;
@@ -317,9 +317,9 @@ class ServerMain {
     }
 
     static function groonga(query:String, tags:Array<String>):Array<Entity> {
-        var cut = Nodejieba.cutHMM(query);
+        final cut = Nodejieba.cutHMM(query);
         // trace(cut);
-        var r:SelectResultBody = entityIndex.groonga.commandSync("select", {
+        final r:SelectResultBody = entityIndex.groonga.commandSync("select", {
             table: "Entity",
             match_columns: "name * 3 || tags * 2 || meta",
             query: cut.join(" "),
@@ -343,9 +343,9 @@ class ServerMain {
                 return Promise.resolve(reply.redirect(url.pathname + url.search));
         }
 
-        var query:String = req.params.query;
+        final query:String = req.params.query;
         if (query.endsWith(".json")) {
-            var query = query.substr(0, -".json".length);
+            final query = query.substr(0, -".json".length);
             return Promise.resolve(search(query, []).map(e -> e.fullInfo()));
         }
         switch (query.trim().toLowerCase()) {
@@ -356,8 +356,8 @@ class ServerMain {
             case _:
                 //pass
         }
-        var entities = search(query, []);
-        var slug = query.urlEncode();
+        final entities = search(query, []);
+        final slug = query.urlEncode();
         return Promise.resolve(
             reply
                 .header("Cache-Control", "public, max-age=3600, stale-while-revalidate=604800") // max-age: 1 hour, stale-while-revalidate: 7 days
@@ -402,7 +402,7 @@ class ServerMain {
     }
 
     static function proxyPostImage(req:Request, reply:Reply):Promise<Dynamic> {
-        var post:Null<String> = req.query.post;
+        final post:Null<String> = req.query.post;
         switch (getPost(post)) {
             case null:
                 return Promise.resolve(reply.status(403).send('$post doesn\'t exist in the database.'));
@@ -507,12 +507,12 @@ class ServerMain {
             case null:
                 //pass
             case post:
-                var handle = req.body.igHandle;
+                final handle = req.body.igHandle;
                 switch (entityIndex.entitiesOfUrl['https://www.instagram.com/$handle/']) {
                     case null:
                         return Promise.resolve(reply.status(500).send('${handle} has not been imported yet.'));
                     case e:
-                        var postUrl = Std.string(url);
+                        final postUrl = Std.string(url);
                         if (e.posts.exists(p -> p.url == postUrl)) {
                             return Promise.resolve(reply.status(500).send('${postUrl} already exists.'));
                         }
@@ -610,7 +610,7 @@ class ServerMain {
 
     static function getEntityOfUrls(urls:Array<String>):Null<Entity> {
         for (url in urls) {
-            var url = try {
+            final url = try {
                 cleanUrl(url);
             } catch (e:Dynamic) {
                 continue;
@@ -788,54 +788,94 @@ class ServerMain {
         });
     }
 
-    static function geocode(entity:Entity):Void {
-        final gmapsClient = GoogleMaps.client;
-        if (entity.places != null && GoogleMaps.GEOCODING_KEY != null) {
-            final geocodings = [
-                for (p in entity.places)
-                if (p.googleMapsPlaceId != null && p.googleMapsPlaceId != "" && (p.coordinates == null || p.area == null))
-                gmapsClient.placeDetails({
-                    params: {
-                        place_id: p.googleMapsPlaceId,
-                        key: GoogleMaps.GEOCODING_KEY,
-                    }
-                }).then(response -> {
-                    switch (response.data.result) {
-                        case null:
-                            trace('Cannot geocode ${p.googleMapsPlaceId}: ${response.data.status}');
-                        case result:
-                            p.coordinates = result.geometry.location;
-                            p.area = switch (result.address_components.find(c -> c.types.has("country"))) {
-                                case null:
-                                    trace('No country info for ${p.googleMapsPlaceId}.');
-                                    null;
-                                case { short_name: "HK" }:
-                                    switch (Dclookup.dcNameFromCoordinates(p.coordinates.lat, p.coordinates.lng)["2015"]) {
-                                        case null:
-                                            trace('Unknown district for ${p.googleMapsPlaceId}.');
-                                            null;
-                                        case dc:
-                                            { zh: dc.district };
-                                    }
-                                case { short_name: "TW" }: { zh: "臺灣" };
-                                case { short_name: code, long_name: name }:
-                                    final iso:DynamicAccess<{
-                                        zh_hk:String,
-                                        en:String,
-                                    }> = haxe.Json.parse(sys.io.File.getContent("data/iso3166/iso3166-1.json"));
-                                    final info = iso[code];
-                                    if (info == null)
-                                        throw 'No info about $code';
-                                    { zh: info.zh_hk };
-                            }
-                    }
-                })
-            ];
-            if (geocodings.length > 0) {
-                Promise.all(geocodings)
-                    .then(_ -> saveEntity(entity, false, false));
-            }
+    static function getFullMeta(entity:Entity):Promise<{}> {
+        final archiveUrl = "https://web.archive.org/";
+        function needGetFullMeta(p:Post):Bool {
+            return
+                p.url.startsWith(archiveUrl)
+                &&
+                (
+                    p.meta == null
+                    ||
+                    (!p.meta.exists("og"))
+                    ||
+                    (!p.meta.exists("ld"))
+                )
+            ;
         }
+
+        if (!entity.posts.exists(needGetFullMeta)) {
+            return Promise.resolve(null);
+        }
+
+        // trace('getFullMeta: ' + entity.id);
+
+        return Promise.all(entity.posts.map(post ->
+            if (needGetFullMeta(post)) {
+                EntityTools.fullMeta(post);
+            } else {
+                Promise.resolve(post);
+            }
+        )).then(posts -> {
+            entity.posts = cast posts;
+            saveEntity(entity, false, true);
+            null;
+        });
+    }
+
+    static function geocode(entity:Entity):Promise<{}> {
+        function needGeocode(p:Place):Bool {
+            return p.googleMapsPlaceId != null && p.googleMapsPlaceId != "" && (p.coordinates == null || p.area == null);
+        }
+
+        if (entity.places == null || GoogleMaps.GEOCODING_KEY == null || !entity.places.exists(needGeocode)) {
+            return Promise.resolve(null);
+        }
+
+        final gmapsClient = GoogleMaps.client;
+        final geocodings = [
+            for (p in entity.places)
+            if (needGeocode(p))
+            gmapsClient.placeDetails({
+                params: {
+                    place_id: p.googleMapsPlaceId,
+                    key: GoogleMaps.GEOCODING_KEY,
+                }
+            }).then(response -> {
+                switch (response.data.result) {
+                    case null:
+                        trace('Cannot geocode ${p.googleMapsPlaceId}: ${response.data.status}');
+                    case result:
+                        p.coordinates = result.geometry.location;
+                        p.area = switch (result.address_components.find(c -> c.types.has("country"))) {
+                            case null:
+                                trace('No country info for ${p.googleMapsPlaceId}.');
+                                null;
+                            case { short_name: "HK" }:
+                                switch (Dclookup.dcNameFromCoordinates(p.coordinates.lat, p.coordinates.lng)["2015"]) {
+                                    case null:
+                                        trace('Unknown district for ${p.googleMapsPlaceId}.');
+                                        null;
+                                    case dc:
+                                        { zh: dc.district };
+                                }
+                            case { short_name: "TW" }: { zh: "臺灣" };
+                            case { short_name: code, long_name: name }:
+                                final iso:DynamicAccess<{
+                                    zh_hk:String,
+                                    en:String,
+                                }> = haxe.Json.parse(sys.io.File.getContent("data/iso3166/iso3166-1.json"));
+                                final info = iso[code];
+                                if (info == null)
+                                    throw 'No info about $code';
+                                { zh: info.zh_hk };
+                        }
+                }
+            })
+        ];
+        return Promise.all(geocodings)
+            .then(_ -> saveEntity(entity, false, false))
+            .then(_ -> null);
     }
 
     static function favicon(req:Request, reply:Reply):Promise<Dynamic> {
@@ -847,7 +887,7 @@ class ServerMain {
     }
 
     static function sitemap(req:Request, reply:Reply):Promise<Dynamic> {
-        var links = [
+        final links = [
             { url: '/' },
             { url: '/list/all' },
             { url: Mooncake2020.path },
@@ -858,7 +898,7 @@ class ServerMain {
                 links.push({
                     url: haxe.io.Path.join([domain, e.id])
                 });
-        var stream = new sitemap.SitemapStream( { hostname: domain } );
+        final stream = new sitemap.SitemapStream( { hostname: domain } );
         return Sitemap.streamToPromise(node.stream.Readable.from(links).pipe(stream))
             .then(data -> data.toString())
             .then(xmlStr -> reply.type("application/xml").send(xmlStr));
@@ -934,14 +974,15 @@ class ServerMain {
             });
             watcher.on("change", function(path:String) {
                 Sys.println('detected change: $path');
-                var entity = entityIndex.entities[path] = try {
+                final entity = entityIndex.entities[path] = try {
                     Json.parse(File.getContent(path));
                 } catch (e:Dynamic) {
                     trace(e);
                     return;
                 }
-                geocode(entity);
-                entityIndex.invalidate();
+                geocode(entity)
+                    .then(_ -> getFullMeta(entity))
+                    .then(_ -> entityIndex.invalidate());
             });
             watcher.on("unlink", function(path:String) {
                 Sys.println('detected unlink: $path');
@@ -966,9 +1007,10 @@ class ServerMain {
                     Sys.println('http://localhost');
                 })
                 .then(_ -> {
-                    for (e in entityIndex.entities) {
-                        geocode(e);
-                    }
+                    Promise.all([
+                        for (e in entityIndex.entities)
+                        geocode(e)
+                    ]);
                 });
         }
     }

@@ -47,7 +47,7 @@ class EntityTools {
             #if (nodejs && !chrome)
             Instagram.getOEmbed(p.url)
                 .then(oEmbed -> {
-                    var p = Reflect.copy(p);
+                    final p = Reflect.copy(p);
                     if (p.meta == null)
                         p.meta = {};
                     p.meta["oEmbed"] = oEmbed;
@@ -60,10 +60,10 @@ class EntityTools {
             #else
             Promise.resolve(p);
             #end
-        } else {
+        } else if (p.meta == null || (!p.meta.exists("og")) && (!p.meta.exists("ld"))) {
             Utils.getMeta(p.url)
                 .then(meta -> {
-                    var p = Reflect.copy(p);
+                    final p = Reflect.copy(p);
                     if (p.meta == null)
                         p.meta = {};
                     p.meta["og"] = meta.og;
@@ -74,6 +74,8 @@ class EntityTools {
                     trace(e);
                     p;
                 });
+        } else {
+            Promise.resolve(p);
         }
     }
 
