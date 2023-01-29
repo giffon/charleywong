@@ -52,10 +52,6 @@ class EntityTools {
                         p.meta = {};
                     p.meta["oEmbed"] = oEmbed;
                     p;
-                })
-                .catchError(e -> {
-                    trace(e);
-                    p;
                 });
             #else
             Promise.resolve(p);
@@ -69,10 +65,6 @@ class EntityTools {
                     p.meta["og"] = meta.og;
                     p.meta["ld"] = meta.ld;
                     p;
-                })
-                .catchError(e -> {
-                    trace(e);
-                    p;
                 });
         } else {
             Promise.resolve(p);
@@ -80,8 +72,11 @@ class EntityTools {
     }
 
     static public function fullPostMeta(e:Entity):Promise<Entity> {
-        return Promise.all(e.posts.map(fullMeta)).then(posts -> {
-            var full = Reflect.copy(e);
+        return Promise.all(e.posts.map(p -> fullMeta(p).catchError(err -> {
+            trace(err);
+            p;
+        }))).then(posts -> {
+            final full = Reflect.copy(e);
             full.posts = cast posts;
             full;
         });

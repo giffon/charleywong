@@ -20,6 +20,7 @@ import charleywong.UrlExtractors.*;
 import charleywong.groonga.CommandResult;
 using charleywong.EntityTools;
 using charleywong.ReplyTools;
+using charleywong.PromiseTools;
 using StringTools;
 using Lambda;
 
@@ -810,17 +811,22 @@ class ServerMain {
 
         // trace('getFullMeta: ' + entity.id);
 
-        return Promise.all(entity.posts.map(post ->
+        return entity.posts.map(post ->
             if (needGetFullMeta(post)) {
-                EntityTools.fullMeta(post);
+                () -> {
+                    trace('${entity.id} ${post.url}');
+                    (() -> EntityTools.fullMeta(post)).retry(1000);
+                }
             } else {
-                Promise.resolve(post);
+                () -> Promise.resolve(post);
             }
-        )).then(posts -> {
-            entity.posts = cast posts;
-            saveEntity(entity, false, true);
-            null;
-        });
+        )
+            .inSequence()
+            .then(posts -> {
+                entity.posts = cast posts;
+                saveEntity(entity, false, true);
+                null;
+            });
     }
 
     static function geocode(entity:Entity):Promise<{}> {
@@ -1007,10 +1013,16 @@ class ServerMain {
                     Sys.println('http://localhost');
                 })
                 .then(_ -> {
-                    Promise.all([
+                    [
                         for (e in entityIndex.entities)
-                        geocode(e)
-                    ]);
+                        () -> geocode(e)
+                    ].inSequence();
+                })
+                .then(_ -> {
+                    [
+                        for (e in entityIndex.entities)
+                        () -> getFullMeta(e)
+                    ].inSequence();
                 });
         }
     }
