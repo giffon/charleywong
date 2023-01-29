@@ -6,7 +6,89 @@
   "webpages": [],
   "posts": [
     {
-      "url": "https://web.archive.org/web/20200101005018/https://hk.news.appledaily.com/local/daily/article/20190702/20718415"
+      "url": "https://web.archive.org/web/20200101005018/https://hk.news.appledaily.com/local/daily/article/20190702/20718415",
+      "meta": {
+        "og": [
+          {
+            "property": "og:title",
+            "content": "小店放風扇為群眾打氣"
+          },
+          {
+            "property": "og:type",
+            "content": "website"
+          },
+          {
+            "property": "og:description",
+            "content": "【本報訊】曾於4月反送中遊行期間，在店內貼出「反對修訂引渡條例」標語的灣仔日本拉麵店「麵匠風龍」，昨日未有再貼出標語，但店員將大風扇搬到店門，面向店外行人路，為參與遊行人士打氣降溫。..."
+          },
+          {
+            "property": "og:url",
+            "content": "https://web.archive.org/web/20200101005018/https://hk.news.appledaily.com/local/daily/article/20190702/20718415"
+          },
+          {
+            "property": "og:image",
+            "content": "https://web.archive.org/web/20200101005018im_/https://static.appledaily.hk/images/apple-photos/apple/20190702/720pix/a1103a.gif"
+          },
+          {
+            "property": "og:site_name",
+            "content": "Apple Daily 蘋果日報"
+          }
+        ],
+        "ld": {
+          "@context": "https://web.archive.org/web/20200101005018/http://schema.org",
+          "@type": "NewsArticle",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://web.archive.org/web/20200101005018/https://hk.news.appledaily.com/local/daily/article/20190702/20718415"
+          },
+          "headline": "小店放風扇為群眾打氣",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://web.archive.org/web/20200101005018/https://static.appledaily.hk/images/apple-photos/apple/20190702/720pix/a1103a.gif"
+          },
+          "datePublished": "2019-07-01T18:20:00+08:00",
+          "dateModified": "2019-07-01T18:20:00+08:00",
+          "author": {
+            "@type": "Organization",
+            "name": "香港蘋果日報"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "香港蘋果日報",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://web.archive.org/web/20200101005018/https://staticlayout.appledaily.hk/web_images/header/hk_applelogo_2017.png",
+              "width": 180,
+              "height": 60
+            }
+          },
+          "description": "【本報訊】曾於4月反送中遊行期間，在店內貼出「反對修訂引渡條例」標語的灣仔日本拉麵店「麵匠風龍」，昨日未有再貼出標語，但店員將大風扇搬到店門，面向店外行人路，為參與遊行人士打氣降溫。...",
+          "url": "https://web.archive.org/web/20200101005018/https://hk.news.appledaily.com/local/daily/article/20190702/20718415",
+          "thumbnailUrl": "https://web.archive.org/web/20200101005018/https://static.appledaily.hk/images/apple-photos/apple/20190702/720pix/a1103a.gif",
+          "dateCreated": "2019-07-01T18:20:00+08:00",
+          "articleSection": "",
+          "creator": "香港蘋果日報",
+          "keywords": [
+            "打氣",
+            "風扇",
+            "麵匠",
+            "風龍"
+          ],
+          "isAccessibleForFree": "False",
+          "hasPart": [
+            {
+              "@type": "WebPageElement",
+              "isAccessibleForFree": "False",
+              "cssSelector": ".ArticleContent_Outer"
+            },
+            {
+              "@type": "WebPageElement",
+              "isAccessibleForFree": "False",
+              "cssSelector": ".photo_center"
+            }
+          ]
+        }
+      }
     }
   ],
   "tags": [

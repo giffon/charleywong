@@ -6,7 +6,291 @@
   "webpages": [],
   "posts": [
     {
-      "url": "https://web.archive.org/web/20210621163429/https://hk.appledaily.com/local/20200820/DGLYMELULNF2PCHUXN7VKHB2EA/"
+      "url": "https://web.archive.org/web/20210621163429/https://hk.appledaily.com/local/20200820/DGLYMELULNF2PCHUXN7VKHB2EA/",
+      "meta": {
+        "og": [
+          {
+            "property": "article:publisher",
+            "content": "https://www.facebook.com/hk.nextmedia/"
+          },
+          {
+            "property": "article:author",
+            "content": "https://www.facebook.com/hk.nextmedia/"
+          },
+          {
+            "property": "og:title",
+            "content": "【李八方online】荃灣報販風雨不改連續10日贈閱50份《蘋果》 ｜ 蘋果日報"
+          },
+          {
+            "property": "og:type",
+            "content": "article"
+          },
+          {
+            "property": "og:image",
+            "content": "https://web.archive.org/web/20210621163429im_/https://hk.appledaily.com/resizer/JzuTsdUwaSHKg-1WLjw7g_70ARk=/720x405/filters:quality(100)/cloudfront-ap-northeast-1.images.arcpublishing.com/appledaily/O2SALRO77BE3JJDGL5MHI4LMPM.jpg"
+          },
+          {
+            "property": "og:url",
+            "content": "https://web.archive.org/web/20210621163429/https://hk.appledaily.com/local/20200820/DGLYMELULNF2PCHUXN7VKHB2EA/"
+          },
+          {
+            "property": "og:description",
+            "content": "壹傳媒創辦人黎智英早前遭警以「港版國安法」拘捕，逾200警直闖《蘋果》大樓搜證，但搜查後仍無阻報紙出版。有荃灣報檔連續10日送贈50份《蘋果日報》畀街坊，希望出一分綿力表達對壹傳媒嘅支持，捍衛香港言論同新聞自由。 報檔式微生意難做，但喺荃灣經營咗報檔30年嘅何先生自從8月10..."
+          },
+          {
+            "property": "og:locale",
+            "content": "zh_HK"
+          },
+          {
+            "property": "og:site_name",
+            "content": "Apple Daily 蘋果日報"
+          },
+          {
+            "property": "og:image:type",
+            "content": "image/jpg"
+          },
+          {
+            "property": "og:image:width",
+            "content": "720"
+          },
+          {
+            "property": "og:image:height",
+            "content": "405"
+          }
+        ],
+        "ld": {
+          "@context": "https://web.archive.org/web/20210621163429/http://schema.org",
+          "@type": "NewsArticle",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://web.archive.org/web/20210621163429/https://hk.appledaily.com/local/20200820/DGLYMELULNF2PCHUXN7VKHB2EA/"
+          },
+          "headline": "【李八方online】荃灣報販風雨不改連續10日贈閱50份《蘋果》",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://web.archive.org/web/20210621163429/https://hk.appledaily.com/resizer/JzuTsdUwaSHKg-1WLjw7g_70ARk=/720x405/filters:quality(100)/cloudfront-ap-northeast-1.images.arcpublishing.com/appledaily/O2SALRO77BE3JJDGL5MHI4LMPM.jpg",
+            "siteProperties": {
+              "siteName": "hk-appledaily",
+              "siteDomainURL": "https://web.archive.org/web/20210621163429/https://hk.appledaily.com",
+              "sites": [
+                "hk-appledaily",
+                "tw-appledaily"
+              ],
+              "siteBasePaths": {
+                "hk-appledaily": {
+                  "basePath": "https://web.archive.org/web/20210621163429/https://hk.appledaily.com",
+                  "displayName": "香港",
+                  "countryCode": "hk"
+                },
+                "tw-appledaily": {
+                  "basePath": "https://web.archive.org/web/20210621163429/https://tw.appledaily.com",
+                  "displayName": "台灣",
+                  "countryCode": "tw"
+                },
+                "north-america": {
+                  "basePath": "/realtime/us/",
+                  "displayName": "北美",
+                  "countryCode": "na"
+                },
+                "dev": "https://web.archive.org/web/20210621163429/https://hk.appledaily.com",
+                "sandbox": "https://web.archive.org/web/20210621163429/https://appledaily-hk-appledaily-sandbox.cdn.arcpublishing.com",
+                "prod": "https://web.archive.org/web/20210621163429/https://hk.appledaily.com"
+              },
+              "gtmId": {
+                "sandbox": "GTM-NRKL4WM",
+                "prod": "GTM-WTTNQBK",
+                "parenting": {
+                  "sandbox": "GTM-WJS8XXQ",
+                  "prod": "GTM-MZN6WRM"
+                }
+              },
+              "dfp_id": "7350",
+              "openGraphMetadata": {
+                "type": "article",
+                "siteName": "Apple Daily 蘋果日報",
+                "locale": "zh_HK",
+                "image": "https://web.archive.org/web/20210621163429/https://arc-static.appledaily.com/hk/share/shareimg_hkad_arc.png",
+                "ogImage": {
+                  "width": "600",
+                  "height": "315"
+                }
+              },
+              "metaData": {
+                "homepage": {
+                  "title": " 蘋果日報 | 首頁 "
+                }
+              },
+              "appLink": {
+                "iosAppUrl": "appledailyhk://article?a={arcId}&m=10001&push=Y",
+                "iosAppStoreId": "403212687",
+                "iosAppName": "蘋果動新聞 Apple Daily",
+                "androidAppUrl": "com.nextmedia.apple.hk.push://appledailyhk/article?a={arcId}&m=10001",
+                "androidAppName": "蘋果動新聞 Apple Daily",
+                "androidPackage": "com.nextmedia"
+              },
+              "social": {
+                "twitter": {
+                  "twitterSite": "@appledaily_hk",
+                  "twitterCard": "summary_large_image",
+                  "utm": [
+                    {
+                      "utmKey": "utm_source",
+                      "utmValue": "twitter"
+                    },
+                    {
+                      "utmKey": "utm_medium",
+                      "utmValue": "social"
+                    },
+                    {
+                      "utmKey": "utm_campaign",
+                      "utmValue": "hkad_article_share"
+                    },
+                    {
+                      "utmKey": "utm_content",
+                      "utmValue": "share_link"
+                    }
+                  ]
+                },
+                "facebook": {
+                  "fbAppId": "313017045538537",
+                  "facebookURL": "https://web.archive.org/web/20210621163429/https://www.facebook.com/hk.nextmedia",
+                  "utm": [
+                    {
+                      "utmKey": "utm_source",
+                      "utmValue": "facebook"
+                    },
+                    {
+                      "utmKey": "utm_medium",
+                      "utmValue": "social"
+                    },
+                    {
+                      "utmKey": "utm_campaign",
+                      "utmValue": "hkad_article_share"
+                    },
+                    {
+                      "utmKey": "utm_content",
+                      "utmValue": "share_link"
+                    }
+                  ]
+                },
+                "whatsapp": {
+                  "utm": [
+                    {
+                      "utmKey": "utm_source",
+                      "utmValue": "whatsapp"
+                    },
+                    {
+                      "utmKey": "utm_medium",
+                      "utmValue": "messenger"
+                    },
+                    {
+                      "utmKey": "utm_campaign",
+                      "utmValue": "hkad_article_share"
+                    },
+                    {
+                      "utmKey": "utm_content",
+                      "utmValue": "share_link"
+                    }
+                  ]
+                }
+              },
+              "article": {
+                "publisher": "https://web.archive.org/web/20210621163429/https://www.facebook.com/hk.nextmedia/",
+                "author": "https://web.archive.org/web/20210621163429/https://www.facebook.com/hk.nextmedia/"
+              },
+              "memberContent": {
+                "label": "我要訂閱",
+                "link": "https://web.archive.org/web/20210621163429/https://hk.adai.ly/e/GCC74ElzJY"
+              },
+              "engMemberContent": {
+                "label": "Subscribe",
+                "link": "https://web.archive.org/web/20210621163429/https://hk.adai.ly/e/a8KgPX0UE9"
+              },
+              "searchBar": {
+                "redirectTo": "/search/{_searchTerm}/"
+              },
+              "outbrain": {
+                "template": "NextDigital"
+              },
+              "paywall": {
+                "anonymousUser": {
+                  "header": "每日$1.68* 成為",
+                  "subtitle": "「升級壹會員」無阻盡覽",
+                  "region": "*訂閱受條款約束",
+                  "learnMore": "按此了解更多",
+                  "url": "https://web.archive.org/web/20210621163429/https://hk.appledaily.com/campaign/hkad_subscription.html",
+                  "cta": "會員註冊／登入"
+                },
+                "omoMember": {
+                  "header": "每日$1.68* 成為",
+                  "subtitle": "「升級壹會員」無阻盡覽",
+                  "region": "*訂閱受條款約束",
+                  "learnMore": "按此了解更多",
+                  "url": "https://web.archive.org/web/20210621163429/https://hk.appledaily.com/campaign/hkad_subscription.html",
+                  "cta": "會員升級"
+                },
+                "omoNonAsiaMarketMember": {
+                  "header": "月費US$5.99*成為",
+                  "subtitle": "「升級壹會員」",
+                  "region": "*此優惠僅適用於香港、澳門及台灣地區以外之用戶",
+                  "learnMore": "按此了解更多",
+                  "url": "https://web.archive.org/web/20210621163429/https://hk.appledaily.com/campaign/usad_subscription.html",
+                  "cta": "會員升級"
+                },
+                "nonAsiaReader": {
+                  "header": "月費US$5.99*成為",
+                  "subtitle": "「升級壹會員」",
+                  "region": "*此優惠僅適用於香港、澳門及台灣地區以外之用戶",
+                  "learnMore": "按此了解更多",
+                  "url": "https://web.archive.org/web/20210621163429/https://hk.appledaily.com/campaign/usad_subscription.html",
+                  "cta": "會員註冊／登入"
+                }
+              }
+            }
+          },
+          "datePublished": "2020-08-20T05:13:05.307Z",
+          "dateModified": "2020-08-20T07:08:07.543Z",
+          "author": {
+            "@type": "Organization",
+            "name": "香港蘋果日報"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "香港蘋果日報",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://web.archive.org/web/20210621163429/https://staticlayout.appledaily.hk/web_images/header/hk_applelogo_2017.png",
+              "width": 180,
+              "height": 60
+            }
+          },
+          "description": "壹傳媒創辦人黎智英早前遭警以「港版國安法」拘捕，逾200警直闖《蘋果》大樓搜證，但搜查後仍無阻報紙出版。有荃灣報檔連續10日送贈50份《蘋果日報》畀街坊，希望出一分綿力表達對壹傳媒嘅支持，捍衛香港言論同新聞自由。 報檔式微生意難做，但喺荃灣經營咗報檔30年嘅何先生自從8月10...",
+          "url": "https://web.archive.org/web/20210621163429/https://hk.appledaily.com/local/20200820/DGLYMELULNF2PCHUXN7VKHB2EA/",
+          "thumbnailUrl": "https://web.archive.org/web/20210621163429/https://hk.appledaily.com/resizer/JzuTsdUwaSHKg-1WLjw7g_70ARk=/720x405/filters:quality(100)/cloudfront-ap-northeast-1.images.arcpublishing.com/appledaily/O2SALRO77BE3JJDGL5MHI4LMPM.jpg",
+          "dateCreated": "2020-08-20T05:08:55.676Z",
+          "articleSection": "要聞",
+          "creator": "香港蘋果日報",
+          "keywords": [
+            "《蘋果日報》",
+            "廖社青",
+            "theme_hknslaw",
+            "港版國安法"
+          ],
+          "isAccessibleForFree": "FALSE",
+          "hasPart": [
+            {
+              "@type": "WebPageElement",
+              "isAccessibleForFree": "FALSE",
+              "cssSelector": ".article_body"
+            },
+            {
+              "@type": "WebPageElement",
+              "isAccessibleForFree": "FALSE",
+              "cssSelector": ".promoItem"
+            }
+          ]
+        }
+      }
     },
     {
       "url": "https://www.inmediahk.net/node/1076924"

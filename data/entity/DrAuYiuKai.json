@@ -50,7 +50,297 @@
       }
     },
     {
-      "url": "https://web.archive.org/web/20210623081902/https://hk.appledaily.com/local/20191118/QF5KVLNOLNULXDHFBJK32YT2JY/"
+      "url": "https://web.archive.org/web/20210623081902/https://hk.appledaily.com/local/20191118/QF5KVLNOLNULXDHFBJK32YT2JY/",
+      "meta": {
+        "og": [
+          {
+            "property": "article:publisher",
+            "content": "https://www.facebook.com/hk.nextmedia/"
+          },
+          {
+            "property": "article:author",
+            "content": "https://www.facebook.com/hk.nextmedia/"
+          },
+          {
+            "property": "og:title",
+            "content": "【抗暴之戰】最少5名醫生被捕 醫護界轟瘋警反綁義務醫生急救員為「戰爭罪行 不能原諒」 ｜ 蘋果日報"
+          },
+          {
+            "property": "og:type",
+            "content": "article"
+          },
+          {
+            "property": "og:image",
+            "content": "https://web.archive.org/web/20210623081902im_/https://hk.appledaily.com/resizer/JGb3-2nFKWyjeUF1qhtSxfrf8_I=/1440x810/filters:quality(100)/cloudfront-ap-northeast-1.images.arcpublishing.com/appledaily/5DPAXRL7XO3ZOWWPASTC77JZ5A.png"
+          },
+          {
+            "property": "og:url",
+            "content": "https://web.archive.org/web/20210623081902/https://hk.appledaily.com/local/20191118/QF5KVLNOLNULXDHFBJK32YT2JY/"
+          },
+          {
+            "property": "og:description",
+            "content": "警方昨晚聲稱要求理工大學內所有人經Y區離開，但義務醫生、護士及急救員離開時被警方拘捕，外界瘋傳醫護人員被控暴動。公共醫療醫生協會會長馬仲儀確認，昨晚有義務醫生、護士及急救員被捕，當中最少有5至6名醫生被捕，被捕者包括公立醫院醫生及護士。她強調暫時未有人被檢控。 馬仲儀表示，被..."
+          },
+          {
+            "property": "og:locale",
+            "content": "zh_HK"
+          },
+          {
+            "property": "og:site_name",
+            "content": "Apple Daily 蘋果日報"
+          },
+          {
+            "property": "og:image:type",
+            "content": "image/png"
+          },
+          {
+            "property": "og:image:width",
+            "content": "1440"
+          },
+          {
+            "property": "og:image:height",
+            "content": "810"
+          }
+        ],
+        "ld": {
+          "@context": "https://web.archive.org/web/20210623081902/http://schema.org",
+          "@type": "NewsArticle",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://web.archive.org/web/20210623081902/https://hk.appledaily.com/local/20191118/QF5KVLNOLNULXDHFBJK32YT2JY/"
+          },
+          "headline": "【抗暴之戰】最少5名醫生被捕 醫護界轟瘋警反綁義務醫生急救員為「戰爭罪行 不能原諒」",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://web.archive.org/web/20210623081902/https://hk.appledaily.com/resizer/JGb3-2nFKWyjeUF1qhtSxfrf8_I=/1440x810/filters:quality(100)/cloudfront-ap-northeast-1.images.arcpublishing.com/appledaily/5DPAXRL7XO3ZOWWPASTC77JZ5A.png",
+            "siteProperties": {
+              "siteName": "hk-appledaily",
+              "siteDomainURL": "https://web.archive.org/web/20210623081902/https://hk.appledaily.com",
+              "sites": [
+                "hk-appledaily",
+                "tw-appledaily"
+              ],
+              "siteBasePaths": {
+                "hk-appledaily": {
+                  "basePath": "https://web.archive.org/web/20210623081902/https://hk.appledaily.com",
+                  "displayName": "香港",
+                  "countryCode": "hk"
+                },
+                "tw-appledaily": {
+                  "basePath": "https://web.archive.org/web/20210623081902/https://tw.appledaily.com",
+                  "displayName": "台灣",
+                  "countryCode": "tw"
+                },
+                "north-america": {
+                  "basePath": "/realtime/us/",
+                  "displayName": "北美",
+                  "countryCode": "na"
+                },
+                "dev": "https://web.archive.org/web/20210623081902/https://hk.appledaily.com",
+                "sandbox": "https://web.archive.org/web/20210623081902/https://appledaily-hk-appledaily-sandbox.cdn.arcpublishing.com",
+                "prod": "https://web.archive.org/web/20210623081902/https://hk.appledaily.com"
+              },
+              "gtmId": {
+                "sandbox": "GTM-NRKL4WM",
+                "prod": "GTM-WTTNQBK",
+                "parenting": {
+                  "sandbox": "GTM-WJS8XXQ",
+                  "prod": "GTM-MZN6WRM"
+                }
+              },
+              "dfp_id": "7350",
+              "openGraphMetadata": {
+                "type": "article",
+                "siteName": "Apple Daily 蘋果日報",
+                "locale": "zh_HK",
+                "image": "https://web.archive.org/web/20210623081902/https://arc-static.appledaily.com/hk/share/shareimg_hkad_arc.png",
+                "ogImage": {
+                  "width": "600",
+                  "height": "315"
+                }
+              },
+              "metaData": {
+                "homepage": {
+                  "title": " 蘋果日報 | 首頁 "
+                }
+              },
+              "appLink": {
+                "iosAppUrl": "appledailyhk://article?a={arcId}&m=10001&push=Y",
+                "iosAppStoreId": "403212687",
+                "iosAppName": "蘋果動新聞 Apple Daily",
+                "androidAppUrl": "com.nextmedia.apple.hk.push://appledailyhk/article?a={arcId}&m=10001",
+                "androidAppName": "蘋果動新聞 Apple Daily",
+                "androidPackage": "com.nextmedia"
+              },
+              "social": {
+                "twitter": {
+                  "twitterSite": "@appledaily_hk",
+                  "twitterCard": "summary_large_image",
+                  "utm": [
+                    {
+                      "utmKey": "utm_source",
+                      "utmValue": "twitter"
+                    },
+                    {
+                      "utmKey": "utm_medium",
+                      "utmValue": "social"
+                    },
+                    {
+                      "utmKey": "utm_campaign",
+                      "utmValue": "hkad_article_share"
+                    },
+                    {
+                      "utmKey": "utm_content",
+                      "utmValue": "share_link"
+                    }
+                  ]
+                },
+                "facebook": {
+                  "fbAppId": "313017045538537",
+                  "facebookURL": "https://web.archive.org/web/20210623081902/https://www.facebook.com/hk.nextmedia",
+                  "utm": [
+                    {
+                      "utmKey": "utm_source",
+                      "utmValue": "facebook"
+                    },
+                    {
+                      "utmKey": "utm_medium",
+                      "utmValue": "social"
+                    },
+                    {
+                      "utmKey": "utm_campaign",
+                      "utmValue": "hkad_article_share"
+                    },
+                    {
+                      "utmKey": "utm_content",
+                      "utmValue": "share_link"
+                    }
+                  ]
+                },
+                "whatsapp": {
+                  "utm": [
+                    {
+                      "utmKey": "utm_source",
+                      "utmValue": "whatsapp"
+                    },
+                    {
+                      "utmKey": "utm_medium",
+                      "utmValue": "messenger"
+                    },
+                    {
+                      "utmKey": "utm_campaign",
+                      "utmValue": "hkad_article_share"
+                    },
+                    {
+                      "utmKey": "utm_content",
+                      "utmValue": "share_link"
+                    }
+                  ]
+                }
+              },
+              "article": {
+                "publisher": "https://web.archive.org/web/20210623081902/https://www.facebook.com/hk.nextmedia/",
+                "author": "https://web.archive.org/web/20210623081902/https://www.facebook.com/hk.nextmedia/"
+              },
+              "memberContent": {
+                "label": "我要訂閱",
+                "link": "https://web.archive.org/web/20210623081902/https://hk.adai.ly/e/GCC74ElzJY"
+              },
+              "engMemberContent": {
+                "label": "Subscribe",
+                "link": "https://web.archive.org/web/20210623081902/https://hk.adai.ly/e/a8KgPX0UE9"
+              },
+              "searchBar": {
+                "redirectTo": "/search/{_searchTerm}/"
+              },
+              "outbrain": {
+                "template": "NextDigital"
+              },
+              "paywall": {
+                "anonymousUser": {
+                  "header": "每日$1.68* 成為",
+                  "subtitle": "「升級壹會員」無阻盡覽",
+                  "region": "*訂閱受條款約束",
+                  "learnMore": "按此了解更多",
+                  "url": "https://web.archive.org/web/20210623081902/https://hk.appledaily.com/campaign/hkad_subscription.html",
+                  "cta": "會員註冊／登入"
+                },
+                "omoMember": {
+                  "header": "每日$1.68* 成為",
+                  "subtitle": "「升級壹會員」無阻盡覽",
+                  "region": "*訂閱受條款約束",
+                  "learnMore": "按此了解更多",
+                  "url": "https://web.archive.org/web/20210623081902/https://hk.appledaily.com/campaign/hkad_subscription.html",
+                  "cta": "會員升級"
+                },
+                "omoNonAsiaMarketMember": {
+                  "header": "月費US$5.99*成為",
+                  "subtitle": "「升級壹會員」",
+                  "region": "*此優惠僅適用於香港、澳門及台灣地區以外之用戶",
+                  "learnMore": "按此了解更多",
+                  "url": "https://web.archive.org/web/20210623081902/https://hk.appledaily.com/campaign/usad_subscription.html",
+                  "cta": "會員升級"
+                },
+                "nonAsiaReader": {
+                  "header": "月費US$5.99*成為",
+                  "subtitle": "「升級壹會員」",
+                  "region": "*此優惠僅適用於香港、澳門及台灣地區以外之用戶",
+                  "learnMore": "按此了解更多",
+                  "url": "https://web.archive.org/web/20210623081902/https://hk.appledaily.com/campaign/usad_subscription.html",
+                  "cta": "會員註冊／登入"
+                }
+              }
+            }
+          },
+          "datePublished": "2019-11-18T06:14:45Z",
+          "dateModified": "2020-07-09T05:02:32.021Z",
+          "author": {
+            "@type": "Organization",
+            "name": "香港蘋果日報"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "香港蘋果日報",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://web.archive.org/web/20210623081902/https://staticlayout.appledaily.hk/web_images/header/hk_applelogo_2017.png",
+              "width": 180,
+              "height": 60
+            }
+          },
+          "description": "警方昨晚聲稱要求理工大學內所有人經Y區離開，但義務醫生、護士及急救員離開時被警方拘捕，外界瘋傳醫護人員被控暴動。公共醫療醫生協會會長馬仲儀確認，昨晚有義務醫生、護士及急救員被捕，當中最少有5至6名醫生被捕，被捕者包括公立醫院醫生及護士。她強調暫時未有人被檢控。 馬仲儀表示，被...",
+          "url": "https://web.archive.org/web/20210623081902/https://hk.appledaily.com/local/20191118/QF5KVLNOLNULXDHFBJK32YT2JY/",
+          "thumbnailUrl": "https://web.archive.org/web/20210623081902/https://hk.appledaily.com/resizer/JGb3-2nFKWyjeUF1qhtSxfrf8_I=/1440x810/filters:quality(100)/cloudfront-ap-northeast-1.images.arcpublishing.com/appledaily/5DPAXRL7XO3ZOWWPASTC77JZ5A.png",
+          "dateCreated": "2019-11-18T06:16:04.274Z",
+          "articleSection": "要聞",
+          "creator": "香港蘋果日報",
+          "keywords": [
+            "理大",
+            "理工大學",
+            "歐耀佳",
+            "黃任匡",
+            "馬仲儀",
+            "逆權運動",
+            "mt_政治",
+            "mt_Theme_hksfo",
+            "theme__hksfo",
+            "theme_hksfo"
+          ],
+          "isAccessibleForFree": "FALSE",
+          "hasPart": [
+            {
+              "@type": "WebPageElement",
+              "isAccessibleForFree": "FALSE",
+              "cssSelector": ".article_body"
+            },
+            {
+              "@type": "WebPageElement",
+              "isAccessibleForFree": "FALSE",
+              "cssSelector": ".promoItem"
+            }
+          ]
+        }
+      }
     }
   ],
   "tags": [
