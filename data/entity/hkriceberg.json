@@ -42,7 +42,283 @@
   ],
   "posts": [
     {
-      "url": "https://web.archive.org/web/20210623090137/https://hk.appledaily.com/ETW/20200628/SVLW3BNFOBZGXLC5MDXC3FURA4/"
+      "url": "https://web.archive.org/web/20210623090137/https://hk.appledaily.com/ETW/20200628/SVLW3BNFOBZGXLC5MDXC3FURA4/",
+      "meta": {
+        "og": [
+          {
+            "property": "article:publisher",
+            "content": "https://www.facebook.com/hk.nextmedia/"
+          },
+          {
+            "property": "article:author",
+            "content": "https://www.facebook.com/hk.nextmedia/"
+          },
+          {
+            "property": "og:title",
+            "content": "【黃色米業出擊】90後大學生 搵泰國米賣$158光城香米 「多個選擇畀香港人」 ｜ 蘋果日報"
+          },
+          {
+            "property": "og:type",
+            "content": "article"
+          },
+          {
+            "property": "og:image",
+            "content": "https://web.archive.org/web/20210623090137im_/https://hk.appledaily.com/resizer/1Eh-1PlOwpxYXQNLjZ6Jj6MC5ws=/filters:quality(100)/d87urpdhi5rdo.cloudfront.net/06-26-2020/t_f5ac193ebdcc42078d7bc2cc90847c47_name_1593172021_0caa.jpg"
+          },
+          {
+            "property": "og:url",
+            "content": "https://web.archive.org/web/20210623090137/https://hk.appledaily.com/ETW/20200628/SVLW3BNFOBZGXLC5MDXC3FURA4/"
+          },
+          {
+            "property": "og:locale",
+            "content": "zh_HK"
+          },
+          {
+            "property": "og:site_name",
+            "content": "Apple Daily 蘋果日報"
+          },
+          {
+            "property": "og:image:type",
+            "content": "image/jpg"
+          }
+        ],
+        "ld": {
+          "@context": "https://web.archive.org/web/20210623090137/http://schema.org",
+          "@type": "NewsArticle",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://web.archive.org/web/20210623090137/https://hk.appledaily.com/ETW/20200628/SVLW3BNFOBZGXLC5MDXC3FURA4/"
+          },
+          "headline": "【黃色米業出擊】90後大學生 搵泰國米賣$158光城香米 「多個選擇畀香港人」",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://web.archive.org/web/20210623090137/https://hk.appledaily.com/resizer/1Eh-1PlOwpxYXQNLjZ6Jj6MC5ws=/filters:quality(100)/d87urpdhi5rdo.cloudfront.net/06-26-2020/t_f5ac193ebdcc42078d7bc2cc90847c47_name_1593172021_0caa.jpg",
+            "siteProperties": {
+              "siteName": "hk-appledaily",
+              "siteDomainURL": "https://web.archive.org/web/20210623090137/https://hk.appledaily.com",
+              "sites": [
+                "hk-appledaily",
+                "tw-appledaily"
+              ],
+              "siteBasePaths": {
+                "hk-appledaily": {
+                  "basePath": "https://web.archive.org/web/20210623090137/https://hk.appledaily.com",
+                  "displayName": "香港",
+                  "countryCode": "hk"
+                },
+                "tw-appledaily": {
+                  "basePath": "https://web.archive.org/web/20210623090137/https://tw.appledaily.com",
+                  "displayName": "台灣",
+                  "countryCode": "tw"
+                },
+                "north-america": {
+                  "basePath": "/realtime/us/",
+                  "displayName": "北美",
+                  "countryCode": "na"
+                },
+                "dev": "https://web.archive.org/web/20210623090137/https://hk.appledaily.com",
+                "sandbox": "https://web.archive.org/web/20210623090137/https://appledaily-hk-appledaily-sandbox.cdn.arcpublishing.com",
+                "prod": "https://web.archive.org/web/20210623090137/https://hk.appledaily.com"
+              },
+              "gtmId": {
+                "sandbox": "GTM-NRKL4WM",
+                "prod": "GTM-WTTNQBK",
+                "parenting": {
+                  "sandbox": "GTM-WJS8XXQ",
+                  "prod": "GTM-MZN6WRM"
+                }
+              },
+              "dfp_id": "7350",
+              "openGraphMetadata": {
+                "type": "article",
+                "siteName": "Apple Daily 蘋果日報",
+                "locale": "zh_HK",
+                "image": "https://web.archive.org/web/20210623090137/https://arc-static.appledaily.com/hk/share/shareimg_hkad_arc.png",
+                "ogImage": {
+                  "width": "600",
+                  "height": "315"
+                }
+              },
+              "metaData": {
+                "homepage": {
+                  "title": " 蘋果日報 | 首頁 "
+                }
+              },
+              "appLink": {
+                "iosAppUrl": "appledailyhk://article?a={arcId}&m=10001&push=Y",
+                "iosAppStoreId": "403212687",
+                "iosAppName": "蘋果動新聞 Apple Daily",
+                "androidAppUrl": "com.nextmedia.apple.hk.push://appledailyhk/article?a={arcId}&m=10001",
+                "androidAppName": "蘋果動新聞 Apple Daily",
+                "androidPackage": "com.nextmedia"
+              },
+              "social": {
+                "twitter": {
+                  "twitterSite": "@appledaily_hk",
+                  "twitterCard": "summary_large_image",
+                  "utm": [
+                    {
+                      "utmKey": "utm_source",
+                      "utmValue": "twitter"
+                    },
+                    {
+                      "utmKey": "utm_medium",
+                      "utmValue": "social"
+                    },
+                    {
+                      "utmKey": "utm_campaign",
+                      "utmValue": "hkad_article_share"
+                    },
+                    {
+                      "utmKey": "utm_content",
+                      "utmValue": "share_link"
+                    }
+                  ]
+                },
+                "facebook": {
+                  "fbAppId": "313017045538537",
+                  "facebookURL": "https://web.archive.org/web/20210623090137/https://www.facebook.com/hk.nextmedia",
+                  "utm": [
+                    {
+                      "utmKey": "utm_source",
+                      "utmValue": "facebook"
+                    },
+                    {
+                      "utmKey": "utm_medium",
+                      "utmValue": "social"
+                    },
+                    {
+                      "utmKey": "utm_campaign",
+                      "utmValue": "hkad_article_share"
+                    },
+                    {
+                      "utmKey": "utm_content",
+                      "utmValue": "share_link"
+                    }
+                  ]
+                },
+                "whatsapp": {
+                  "utm": [
+                    {
+                      "utmKey": "utm_source",
+                      "utmValue": "whatsapp"
+                    },
+                    {
+                      "utmKey": "utm_medium",
+                      "utmValue": "messenger"
+                    },
+                    {
+                      "utmKey": "utm_campaign",
+                      "utmValue": "hkad_article_share"
+                    },
+                    {
+                      "utmKey": "utm_content",
+                      "utmValue": "share_link"
+                    }
+                  ]
+                }
+              },
+              "article": {
+                "publisher": "https://web.archive.org/web/20210623090137/https://www.facebook.com/hk.nextmedia/",
+                "author": "https://web.archive.org/web/20210623090137/https://www.facebook.com/hk.nextmedia/"
+              },
+              "memberContent": {
+                "label": "我要訂閱",
+                "link": "https://web.archive.org/web/20210623090137/https://hk.adai.ly/e/GCC74ElzJY"
+              },
+              "engMemberContent": {
+                "label": "Subscribe",
+                "link": "https://web.archive.org/web/20210623090137/https://hk.adai.ly/e/a8KgPX0UE9"
+              },
+              "searchBar": {
+                "redirectTo": "/search/{_searchTerm}/"
+              },
+              "outbrain": {
+                "template": "NextDigital"
+              },
+              "paywall": {
+                "anonymousUser": {
+                  "header": "每日$1.68* 成為",
+                  "subtitle": "「升級壹會員」無阻盡覽",
+                  "region": "*訂閱受條款約束",
+                  "learnMore": "按此了解更多",
+                  "url": "https://web.archive.org/web/20210623090137/https://hk.appledaily.com/campaign/hkad_subscription.html",
+                  "cta": "會員註冊／登入"
+                },
+                "omoMember": {
+                  "header": "每日$1.68* 成為",
+                  "subtitle": "「升級壹會員」無阻盡覽",
+                  "region": "*訂閱受條款約束",
+                  "learnMore": "按此了解更多",
+                  "url": "https://web.archive.org/web/20210623090137/https://hk.appledaily.com/campaign/hkad_subscription.html",
+                  "cta": "會員升級"
+                },
+                "omoNonAsiaMarketMember": {
+                  "header": "月費US$5.99*成為",
+                  "subtitle": "「升級壹會員」",
+                  "region": "*此優惠僅適用於香港、澳門及台灣地區以外之用戶",
+                  "learnMore": "按此了解更多",
+                  "url": "https://web.archive.org/web/20210623090137/https://hk.appledaily.com/campaign/usad_subscription.html",
+                  "cta": "會員升級"
+                },
+                "nonAsiaReader": {
+                  "header": "月費US$5.99*成為",
+                  "subtitle": "「升級壹會員」",
+                  "region": "*此優惠僅適用於香港、澳門及台灣地區以外之用戶",
+                  "learnMore": "按此了解更多",
+                  "url": "https://web.archive.org/web/20210623090137/https://hk.appledaily.com/campaign/usad_subscription.html",
+                  "cta": "會員註冊／登入"
+                }
+              }
+            }
+          },
+          "datePublished": "2020-06-28T09:00:52.082Z",
+          "dateModified": "2020-12-10T11:04:56.416Z",
+          "author": {
+            "@type": "Organization",
+            "name": "香港蘋果日報"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "香港蘋果日報",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://web.archive.org/web/20210623090137/https://staticlayout.appledaily.hk/web_images/header/hk_applelogo_2017.png",
+              "width": 180,
+              "height": 60
+            }
+          },
+          "description": "",
+          "url": "https://web.archive.org/web/20210623090137/https://hk.appledaily.com/ETW/20200628/SVLW3BNFOBZGXLC5MDXC3FURA4/",
+          "thumbnailUrl": "https://web.archive.org/web/20210623090137/https://hk.appledaily.com/resizer/1Eh-1PlOwpxYXQNLjZ6Jj6MC5ws=/filters:quality(100)/d87urpdhi5rdo.cloudfront.net/06-26-2020/t_f5ac193ebdcc42078d7bc2cc90847c47_name_1593172021_0caa.jpg",
+          "dateCreated": "2020-06-26T11:47:57.122Z",
+          "articleSection": "飲食男女",
+          "creator": "香港蘋果日報",
+          "keywords": [
+            "泰國米",
+            "熱話",
+            "黃色經濟圈",
+            "光城香米",
+            "mt_飲食",
+            "mt_Theme_videowall",
+            "theme_videowall",
+            "cat_飲食男女"
+          ],
+          "isAccessibleForFree": "TRUE",
+          "hasPart": [
+            {
+              "@type": "WebPageElement",
+              "isAccessibleForFree": "TRUE",
+              "cssSelector": ".article_body"
+            },
+            {
+              "@type": "WebPageElement",
+              "isAccessibleForFree": "TRUE",
+              "cssSelector": ".promoItem"
+            }
+          ]
+        }
+      }
     },
     {
       "url": "https://www.facebook.com/hkriceberg/photos/a.120385636354225/157089416017180",

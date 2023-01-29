@@ -28,7 +28,88 @@
   ],
   "posts": [
     {
-      "url": "https://web.archive.org/web/20191028112202/https://hk.news.appledaily.com/local/daily/article/20191014/20786686"
+      "url": "https://web.archive.org/web/20191028112202/https://hk.news.appledaily.com/local/daily/article/20191014/20786686",
+      "meta": {
+        "og": [
+          {
+            "property": "og:title",
+            "content": "米芝蓮食肆休市擺水撐市民"
+          },
+          {
+            "property": "og:type",
+            "content": "website"
+          },
+          {
+            "property": "og:description",
+            "content": "【本報訊】自今年6月以來，本港逆權運動遍地開花，不少良心小店都撐示威者，獲網民激讚，其中獲米芝蓮推介的灣仔強記美食，昨日在門外貼上寫有「香港人10月13日休息！反抗！」的標語，又在門外放上兩箱樽裝水供巿民免費索取，更附上「香港人撐住！自己攞」的告示。..."
+          },
+          {
+            "property": "og:url",
+            "content": "https://web.archive.org/web/20191028112202/https://hk.news.appledaily.com/local/daily/article/20191014/20786686"
+          },
+          {
+            "property": "og:image",
+            "content": "https://web.archive.org/web/20191028112202im_/https://static.appledaily.hk/images/apple-photos/apple/20191014/720pix/1570985034_512c.jpg"
+          },
+          {
+            "property": "og:site_name",
+            "content": "Apple Daily 蘋果日報"
+          }
+        ],
+        "ld": {
+          "@context": "https://web.archive.org/web/20191028112202/http://schema.org",
+          "@type": "NewsArticle",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://web.archive.org/web/20191028112202/https://hk.news.appledaily.com/local/daily/article/20191014/20786686"
+          },
+          "headline": "米芝蓮食肆休市擺水撐市民",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://web.archive.org/web/20191028112202/https://static.appledaily.hk/images/apple-photos/apple/20191014/720pix/1570985034_512c.jpg"
+          },
+          "datePublished": "2019-10-13T18:20:00+08:00",
+          "dateModified": "2019-10-13T18:20:00+08:00",
+          "author": {
+            "@type": "Organization",
+            "name": "香港蘋果日報"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "香港蘋果日報",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://web.archive.org/web/20191028112202/https://staticlayout.appledaily.hk/web_images/header/hk_applelogo_2017.png",
+              "width": 180,
+              "height": 60
+            }
+          },
+          "description": "【本報訊】自今年6月以來，本港逆權運動遍地開花，不少良心小店都撐示威者，獲網民激讚，其中獲米芝蓮推介的灣仔強記美食，昨日在門外貼上寫有「香港人10月13日休息！反抗！」的標語，又在門外放上兩箱樽裝水供巿民免費索取，更附上「香港人撐住！自己攞」的告示。...",
+          "url": "https://web.archive.org/web/20191028112202/https://hk.news.appledaily.com/local/daily/article/20191014/20786686",
+          "thumbnailUrl": "https://web.archive.org/web/20191028112202/https://static.appledaily.hk/images/apple-photos/apple/20191014/720pix/1570985034_512c.jpg",
+          "dateCreated": "2019-10-13T18:20:00+08:00",
+          "articleSection": "",
+          "creator": "香港蘋果日報",
+          "keywords": [
+            "米芝蓮",
+            "吉野家",
+            "強記美食"
+          ],
+          "isAccessibleForFree": "False",
+          "hasPart": [
+            {
+              "@type": "WebPageElement",
+              "isAccessibleForFree": "False",
+              "cssSelector": ".ArticleContent_Outer"
+            },
+            {
+              "@type": "WebPageElement",
+              "isAccessibleForFree": "False",
+              "cssSelector": ".photo_center"
+            }
+          ]
+        }
+      }
     }
   ],
   "tags": [

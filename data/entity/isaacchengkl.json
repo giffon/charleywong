@@ -35,10 +35,381 @@
   ],
   "posts": [
     {
-      "url": "https://web.archive.org/web/20210621163905/https://hk.appledaily.com/international/20190922/HG6WF6HNOQKPMZ3YSAUFETU77U/"
+      "url": "https://web.archive.org/web/20210621163905/https://hk.appledaily.com/international/20190922/HG6WF6HNOQKPMZ3YSAUFETU77U/",
+      "meta": {
+        "og": [
+          {
+            "property": "article:publisher",
+            "content": "https://www.facebook.com/hk.nextmedia/"
+          },
+          {
+            "property": "article:author",
+            "content": "https://www.facebook.com/hk.nextmedia/"
+          },
+          {
+            "property": "og:title",
+            "content": "【逆權運動】抗爭者及記者被起底 眾志鄭家朗︰雖害怕但大家仍會出來 ｜ 蘋果日報"
+          },
+          {
+            "property": "og:type",
+            "content": "article"
+          },
+          {
+            "property": "og:image",
+            "content": "https://web.archive.org/web/20210621163905im_/https://hk.appledaily.com/resizer/KK907OofG2xI9-0-IL73IanTvQ8=/720x405/filters:quality(100)/cloudfront-ap-northeast-1.images.arcpublishing.com/appledaily/J423USIQO4NV3KVKEXZPEK6RQU.jpg"
+          },
+          {
+            "property": "og:url",
+            "content": "https://web.archive.org/web/20210621163905/https://hk.appledaily.com/international/20190922/HG6WF6HNOQKPMZ3YSAUFETU77U/"
+          },
+          {
+            "property": "og:description",
+            "content": "香港反送中抗爭持續逾百日，近日一個「起底」網站披露大量民主派人士、抗爭者、立法會議員和記者的個人資料，有關網站更獲中共喉舌轉載及讚揚。美國傳媒分析指，由於今次的逆權運動「無大台」，北京無法針對一兩位領袖，故藉起底打壓示威者及影響輿論。 香港眾志副主席鄭家朗向美國傳媒《Buzz..."
+          },
+          {
+            "property": "og:locale",
+            "content": "zh_HK"
+          },
+          {
+            "property": "og:site_name",
+            "content": "Apple Daily 蘋果日報"
+          },
+          {
+            "property": "og:image:type",
+            "content": "image/jpg"
+          },
+          {
+            "property": "og:image:width",
+            "content": "720"
+          },
+          {
+            "property": "og:image:height",
+            "content": "405"
+          }
+        ],
+        "ld": {
+          "@context": "https://web.archive.org/web/20210621163905/http://schema.org",
+          "@type": "NewsArticle",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://web.archive.org/web/20210621163905/https://hk.appledaily.com/international/20190922/HG6WF6HNOQKPMZ3YSAUFETU77U/"
+          },
+          "headline": "【逆權運動】抗爭者及記者被起底 眾志鄭家朗︰雖害怕但大家仍會出來",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://web.archive.org/web/20210621163905/https://hk.appledaily.com/resizer/KK907OofG2xI9-0-IL73IanTvQ8=/720x405/filters:quality(100)/cloudfront-ap-northeast-1.images.arcpublishing.com/appledaily/J423USIQO4NV3KVKEXZPEK6RQU.jpg",
+            "siteProperties": {
+              "siteName": "hk-appledaily",
+              "siteDomainURL": "https://web.archive.org/web/20210621163905/https://hk.appledaily.com",
+              "sites": [
+                "hk-appledaily",
+                "tw-appledaily"
+              ],
+              "siteBasePaths": {
+                "hk-appledaily": {
+                  "basePath": "https://web.archive.org/web/20210621163905/https://hk.appledaily.com",
+                  "displayName": "香港",
+                  "countryCode": "hk"
+                },
+                "tw-appledaily": {
+                  "basePath": "https://web.archive.org/web/20210621163905/https://tw.appledaily.com",
+                  "displayName": "台灣",
+                  "countryCode": "tw"
+                },
+                "north-america": {
+                  "basePath": "/realtime/us/",
+                  "displayName": "北美",
+                  "countryCode": "na"
+                },
+                "dev": "https://web.archive.org/web/20210621163905/https://hk.appledaily.com",
+                "sandbox": "https://web.archive.org/web/20210621163905/https://appledaily-hk-appledaily-sandbox.cdn.arcpublishing.com",
+                "prod": "https://web.archive.org/web/20210621163905/https://hk.appledaily.com"
+              },
+              "gtmId": {
+                "sandbox": "GTM-NRKL4WM",
+                "prod": "GTM-WTTNQBK",
+                "parenting": {
+                  "sandbox": "GTM-WJS8XXQ",
+                  "prod": "GTM-MZN6WRM"
+                }
+              },
+              "dfp_id": "7350",
+              "openGraphMetadata": {
+                "type": "article",
+                "siteName": "Apple Daily 蘋果日報",
+                "locale": "zh_HK",
+                "image": "https://web.archive.org/web/20210621163905/https://arc-static.appledaily.com/hk/share/shareimg_hkad_arc.png",
+                "ogImage": {
+                  "width": "600",
+                  "height": "315"
+                }
+              },
+              "metaData": {
+                "homepage": {
+                  "title": " 蘋果日報 | 首頁 "
+                }
+              },
+              "appLink": {
+                "iosAppUrl": "appledailyhk://article?a={arcId}&m=10001&push=Y",
+                "iosAppStoreId": "403212687",
+                "iosAppName": "蘋果動新聞 Apple Daily",
+                "androidAppUrl": "com.nextmedia.apple.hk.push://appledailyhk/article?a={arcId}&m=10001",
+                "androidAppName": "蘋果動新聞 Apple Daily",
+                "androidPackage": "com.nextmedia"
+              },
+              "social": {
+                "twitter": {
+                  "twitterSite": "@appledaily_hk",
+                  "twitterCard": "summary_large_image",
+                  "utm": [
+                    {
+                      "utmKey": "utm_source",
+                      "utmValue": "twitter"
+                    },
+                    {
+                      "utmKey": "utm_medium",
+                      "utmValue": "social"
+                    },
+                    {
+                      "utmKey": "utm_campaign",
+                      "utmValue": "hkad_article_share"
+                    },
+                    {
+                      "utmKey": "utm_content",
+                      "utmValue": "share_link"
+                    }
+                  ]
+                },
+                "facebook": {
+                  "fbAppId": "313017045538537",
+                  "facebookURL": "https://web.archive.org/web/20210621163905/https://www.facebook.com/hk.nextmedia",
+                  "utm": [
+                    {
+                      "utmKey": "utm_source",
+                      "utmValue": "facebook"
+                    },
+                    {
+                      "utmKey": "utm_medium",
+                      "utmValue": "social"
+                    },
+                    {
+                      "utmKey": "utm_campaign",
+                      "utmValue": "hkad_article_share"
+                    },
+                    {
+                      "utmKey": "utm_content",
+                      "utmValue": "share_link"
+                    }
+                  ]
+                },
+                "whatsapp": {
+                  "utm": [
+                    {
+                      "utmKey": "utm_source",
+                      "utmValue": "whatsapp"
+                    },
+                    {
+                      "utmKey": "utm_medium",
+                      "utmValue": "messenger"
+                    },
+                    {
+                      "utmKey": "utm_campaign",
+                      "utmValue": "hkad_article_share"
+                    },
+                    {
+                      "utmKey": "utm_content",
+                      "utmValue": "share_link"
+                    }
+                  ]
+                }
+              },
+              "article": {
+                "publisher": "https://web.archive.org/web/20210621163905/https://www.facebook.com/hk.nextmedia/",
+                "author": "https://web.archive.org/web/20210621163905/https://www.facebook.com/hk.nextmedia/"
+              },
+              "memberContent": {
+                "label": "我要訂閱",
+                "link": "https://web.archive.org/web/20210621163905/https://hk.adai.ly/e/GCC74ElzJY"
+              },
+              "engMemberContent": {
+                "label": "Subscribe",
+                "link": "https://web.archive.org/web/20210621163905/https://hk.adai.ly/e/a8KgPX0UE9"
+              },
+              "searchBar": {
+                "redirectTo": "/search/{_searchTerm}/"
+              },
+              "outbrain": {
+                "template": "NextDigital"
+              },
+              "paywall": {
+                "anonymousUser": {
+                  "header": "每日$1.68* 成為",
+                  "subtitle": "「升級壹會員」無阻盡覽",
+                  "region": "*訂閱受條款約束",
+                  "learnMore": "按此了解更多",
+                  "url": "https://web.archive.org/web/20210621163905/https://hk.appledaily.com/campaign/hkad_subscription.html",
+                  "cta": "會員註冊／登入"
+                },
+                "omoMember": {
+                  "header": "每日$1.68* 成為",
+                  "subtitle": "「升級壹會員」無阻盡覽",
+                  "region": "*訂閱受條款約束",
+                  "learnMore": "按此了解更多",
+                  "url": "https://web.archive.org/web/20210621163905/https://hk.appledaily.com/campaign/hkad_subscription.html",
+                  "cta": "會員升級"
+                },
+                "omoNonAsiaMarketMember": {
+                  "header": "月費US$5.99*成為",
+                  "subtitle": "「升級壹會員」",
+                  "region": "*此優惠僅適用於香港、澳門及台灣地區以外之用戶",
+                  "learnMore": "按此了解更多",
+                  "url": "https://web.archive.org/web/20210621163905/https://hk.appledaily.com/campaign/usad_subscription.html",
+                  "cta": "會員升級"
+                },
+                "nonAsiaReader": {
+                  "header": "月費US$5.99*成為",
+                  "subtitle": "「升級壹會員」",
+                  "region": "*此優惠僅適用於香港、澳門及台灣地區以外之用戶",
+                  "learnMore": "按此了解更多",
+                  "url": "https://web.archive.org/web/20210621163905/https://hk.appledaily.com/campaign/usad_subscription.html",
+                  "cta": "會員註冊／登入"
+                }
+              }
+            }
+          },
+          "datePublished": "2019-09-21T21:33:33Z",
+          "dateModified": "2020-07-09T16:42:34.851Z",
+          "author": {
+            "@type": "Organization",
+            "name": "香港蘋果日報"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "香港蘋果日報",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://web.archive.org/web/20210621163905/https://staticlayout.appledaily.hk/web_images/header/hk_applelogo_2017.png",
+              "width": 180,
+              "height": 60
+            }
+          },
+          "description": "香港反送中抗爭持續逾百日，近日一個「起底」網站披露大量民主派人士、抗爭者、立法會議員和記者的個人資料，有關網站更獲中共喉舌轉載及讚揚。美國傳媒分析指，由於今次的逆權運動「無大台」，北京無法針對一兩位領袖，故藉起底打壓示威者及影響輿論。 香港眾志副主席鄭家朗向美國傳媒《Buzz...",
+          "url": "https://web.archive.org/web/20210621163905/https://hk.appledaily.com/international/20190922/HG6WF6HNOQKPMZ3YSAUFETU77U/",
+          "thumbnailUrl": "https://web.archive.org/web/20210621163905/https://hk.appledaily.com/resizer/KK907OofG2xI9-0-IL73IanTvQ8=/720x405/filters:quality(100)/cloudfront-ap-northeast-1.images.arcpublishing.com/appledaily/J423USIQO4NV3KVKEXZPEK6RQU.jpg",
+          "dateCreated": "2019-09-21T08:16:51.551Z",
+          "articleSection": "國際",
+          "creator": "香港蘋果日報",
+          "keywords": [
+            "反送中",
+            "逆權運動",
+            "mt_Theme_us",
+            "mt_Theme_sf",
+            "mt_Theme_ny",
+            "mt_Theme_la",
+            "mt_Theme_videowall",
+            "mt_Theme_ca",
+            "mt_Theme_hksfo",
+            "theme__hksfo",
+            "theme_us",
+            "theme_sf",
+            "theme_ny",
+            "theme_la",
+            "theme_videowall",
+            "theme_ca",
+            "theme_hksfo",
+            "_us",
+            "_na",
+            "_sf",
+            "_ny",
+            "_la",
+            "_ca"
+          ],
+          "isAccessibleForFree": "FALSE",
+          "hasPart": [
+            {
+              "@type": "WebPageElement",
+              "isAccessibleForFree": "FALSE",
+              "cssSelector": ".article_body"
+            },
+            {
+              "@type": "WebPageElement",
+              "isAccessibleForFree": "FALSE",
+              "cssSelector": ".promoItem"
+            }
+          ]
+        }
+      }
     },
     {
-      "url": "https://web.archive.org/web/20200614111226/https://www.thestandnews.com/politics/%E8%A2%AB%E5%9C%8B%E5%8B%99%E9%99%A2%E6%B8%AF%E6%BE%B3%E8%BE%A6%E9%BB%9E%E5%90%8D%E7%9A%84%E7%AC%AC%E4%BA%94%E4%BA%BA-%E9%84%AD%E5%AE%B6%E6%9C%97/"
+      "url": "https://web.archive.org/web/20200614111226/https://www.thestandnews.com/politics/%E8%A2%AB%E5%9C%8B%E5%8B%99%E9%99%A2%E6%B8%AF%E6%BE%B3%E8%BE%A6%E9%BB%9E%E5%90%8D%E7%9A%84%E7%AC%AC%E4%BA%94%E4%BA%BA-%E9%84%AD%E5%AE%B6%E6%9C%97/",
+      "meta": {
+        "og": [
+          {
+            "property": "og:title",
+            "content": "被國務院港澳辦點名的第五人 — 鄭家朗 | 黃之鋒 | 立場新聞"
+          },
+          {
+            "property": "og:type",
+            "content": "article"
+          },
+          {
+            "property": "og:url",
+            "content": "https://web.archive.org/web/20200614111226/https://thestandnews.com/politics/%E8%A2%AB%E5%9C%8B%E5%8B%99%E9%99%A2%E6%B8%AF%E6%BE%B3%E8%BE%A6%E9%BB%9E%E5%90%8D%E7%9A%84%E7%AC%AC%E4%BA%94%E4%BA%BA-%E9%84%AD%E5%AE%B6%E6%9C%97/"
+          },
+          {
+            "property": "og:image",
+            "content": "https://web.archive.org/web/20200614111226im_/https://cdn.thestandnews.com/media/photos/cache/086553da-bca8-4a3e-91e2-eb6695e5f2b4_4cKaF_1200x630cropcenter.png"
+          },
+          {
+            "property": "og:image",
+            "content": "https://web.archive.org/web/20200614111226im_/https://thestandnews.com/static/v3/images/standhk-og-600x315.png"
+          },
+          {
+            "property": "og:site_name",
+            "content": "立場新聞 Stand News"
+          },
+          {
+            "property": "og:description",
+            "content": "前日，一共有五人被國務院港澳辦發文點名批評，當中包括Alan Leong Kah-Kit 梁家..."
+          },
+          {
+            "property": "article:publisher",
+            "content": "https://www.facebook.com/standnewshk"
+          }
+        ],
+        "ld": {
+          "@context": "https://web.archive.org/web/20200614111226/http://schema.org",
+          "@type": "NewsArticle",
+          "headline": "被國務院港澳辦點名的第五人 — 鄭家朗 | 黃之鋒 | 立場新聞",
+          "author": {
+            "@type": "Person",
+            "name": "黃之鋒"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://web.archive.org/web/20200614111226/https://cdn.thestandnews.com/media/photos/cache/086553da-bca8-4a3e-91e2-eb6695e5f2b4_4cKaF_1200x630cropcenter.png"
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://web.archive.org/web/20200614111226/https://thestandnews.com/politics/%E8%A2%AB%E5%9C%8B%E5%8B%99%E9%99%A2%E6%B8%AF%E6%BE%B3%E8%BE%A6%E9%BB%9E%E5%90%8D%E7%9A%84%E7%AC%AC%E4%BA%94%E4%BA%BA-%E9%84%AD%E5%AE%B6%E6%9C%97/"
+          },
+          "url": "https://web.archive.org/web/20200614111226/https://thestandnews.com/politics/%E8%A2%AB%E5%9C%8B%E5%8B%99%E9%99%A2%E6%B8%AF%E6%BE%B3%E8%BE%A6%E9%BB%9E%E5%90%8D%E7%9A%84%E7%AC%AC%E4%BA%94%E4%BA%BA-%E9%84%AD%E5%AE%B6%E6%9C%97/",
+          "datePublished": "2020-06-14T12:43:55+08:00",
+          "dateModified": "2020-06-14T12:45:14+08:00",
+          "publisher": {
+            "@type": "Organization",
+            "name": "立場新聞 Stand News",
+            "url": "https://web.archive.org/web/20200614111226/https://thestandnews.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://web.archive.org/web/20200614111226/https://thestandnews.com/static/v3/images/standhk-og-600x315.png",
+              "width": 600,
+              "height": 315
+            }
+          },
+          "description": "前日，一共有五人被國務院港澳辦發文點名批評，當中包括Alan Leong Kah-Kit 梁家..."
+        }
+      }
     }
   ],
   "tags": [
