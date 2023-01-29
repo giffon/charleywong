@@ -29,8 +29,91 @@
   "posts": [
     {
       "url": "https://web.archive.org/web/20190627072638/https://hk.news.appledaily.com/local/realtime/article/20190617/59724088",
-      "summary": {
-        "zh": "【引渡惡法】阻人搵食未必罪大惡極 良心小店為年青人「蝕住做」 | 即時新聞 | 要聞 | 20190617"
+      "meta": {
+        "og": [
+          {
+            "property": "og:title",
+            "content": "【引渡惡法】阻人搵食未必罪大惡極 良心小店為年青人「蝕住做」"
+          },
+          {
+            "property": "og:type",
+            "content": "website"
+          },
+          {
+            "property": "og:description",
+            "content": "接近200萬人走上街頭，令半個港島幾近癱瘓，汗水和淚水就只是換來林鄭透過冷冰冰新聞稿的一句「致歉」。付出的不止烈日下走上街頭的市民，還有遊行路線的店舖，有人為了年輕人不惜「蝕住做」，亦有商戶為遊行人士送水打氣。..."
+          },
+          {
+            "property": "og:url",
+            "content": "https://web.archive.org/web/20190627072638/https://hk.news.appledaily.com/local/realtime/article/20190617/59724088"
+          },
+          {
+            "property": "og:image",
+            "content": "https://web.archive.org/web/20190627072638im_/https://static.appledaily.hk/images/e-paper/vdo/20190617/720pix/1560702365_87d5.jpg"
+          },
+          {
+            "property": "og:site_name",
+            "content": "Apple Daily 蘋果日報"
+          }
+        ],
+        "ld": {
+          "@context": "https://web.archive.org/web/20190627072638/http://schema.org",
+          "@type": "NewsArticle",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://web.archive.org/web/20190627072638/https://hk.news.appledaily.com/local/realtime/article/20190617/59724088"
+          },
+          "headline": "【引渡惡法】阻人搵食未必罪大惡極 良心小店為年青人「蝕住做」",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://web.archive.org/web/20190627072638/https://static.appledaily.hk/images/e-paper/vdo/20190617/720pix/1560702365_87d5.jpg"
+          },
+          "datePublished": "2019-06-16T16:24:24+08:00",
+          "dateModified": "2019-06-16T16:24:24+08:00",
+          "author": {
+            "@type": "Organization",
+            "name": "香港蘋果日報"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "香港蘋果日報",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://web.archive.org/web/20190627072638/https://staticlayout.appledaily.hk/web_images/header/hk_applelogo_2017.png",
+              "width": 180,
+              "height": 60
+            }
+          },
+          "description": "接近200萬人走上街頭，令半個港島幾近癱瘓，汗水和淚水就只是換來林鄭透過冷冰冰新聞稿的一句「致歉」。付出的不止烈日下走上街頭的市民，還有遊行路線的店舖，有人為了年輕人不惜「蝕住做」，亦有商戶為遊行人士送水打氣。...",
+          "url": "https://web.archive.org/web/20190627072638/https://hk.news.appledaily.com/local/realtime/article/20190617/59724088",
+          "thumbnailUrl": "https://web.archive.org/web/20190627072638/https://static.appledaily.hk/images/e-paper/vdo/20190617/720pix/1560702365_87d5.jpg",
+          "dateCreated": "2019-06-16T16:24:24+08:00",
+          "articleSection": "即時要聞",
+          "creator": "香港蘋果日報",
+          "keywords": [
+            "保安局",
+            "逃犯條例",
+            "波氏冰室",
+            "龍門快餐",
+            "其星椰子專門店",
+            "港人港審",
+            "域外司法管轄權",
+            "Tomato Story"
+          ],
+          "isAccessibleForFree": "False",
+          "hasPart": [
+            {
+              "@type": "WebPageElement",
+              "isAccessibleForFree": "False",
+              "cssSelector": ".ArticleContent_Outer"
+            },
+            {
+              "@type": "WebPageElement",
+              "isAccessibleForFree": "False",
+              "cssSelector": ".photo_center"
+            }
+          ]
+        }
       }
     }
   ],
