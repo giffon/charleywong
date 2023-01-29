@@ -39,7 +39,7 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - uses: earthly/actions-setup@79c1a7ec26c371d868724182ec98d7434b18521f
+      - uses: earthly/actions-setup@v1
         with:
           version: "v0.6.30"
           github-token: ${{ secrets.GITHUB_TOKEN }}
