@@ -6,9 +6,6 @@
   },
   "webpages": [
     {
-      "url": "http://www.cafepumpernickel.com"
-    },
-    {
       "url": "https://www.facebook.com/cafepumpernickel/",
       "meta": {
         "id": "21554075880",
@@ -52,6 +49,7 @@
     {
       "url": "https://www.instagram.com/cafepumpernickel/",
       "meta": {
+        "website": "http://www.cafepumpernickel.com/",
         "name": "Cafe Pumpernickel",
         "about": "Pumpernickel | passion & tradition\nArtisan bakery cafe in Hong Kong since 2000"
       }
@@ -80,7 +78,8 @@
   ],
   "tags": [
     "food",
-    "cafe"
+    "cafe",
+    "closed"
   ],
   "yellowBlueMapIds": [
     {
