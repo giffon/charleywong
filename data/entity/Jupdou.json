@@ -32,6 +32,7 @@
     {
       "url": "https://www.instagram.com/jupdoueshop/",
       "meta": {
+        "website": "http://www.jupdou.com/",
         "name": "jupdou",
         "about": "Jupdou 執到\n專門搜購或代購各地貨品\n預購及現貨發售\n保證全部正貨\n聯盟行銷 – dyson.hkrepair，車房仔，有品雜貨"
       },
@@ -41,5 +42,20 @@
   "posts": [],
   "tags": [
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "B193, 1/F, WELL ON GADREN, 9 YUK NGA LANE"
+      },
+      "googleMapsPlaceId": "ChIJS7tLKA8EBDQRYOVpCM-8OV0",
+      "coordinates": {
+        "lat": 22.3241653,
+        "lng": 114.2541271
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    }
   ]
 }
