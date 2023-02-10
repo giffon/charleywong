@@ -39,8 +39,17 @@
     {
       "url": "https://www.instagram.com/vlabhk/",
       "meta": {
+        "website": "https://vlabbarbershop.resurva.com/",
         "name": "💈Men's Grooming & Barbershop",
-        "about": "📍旺角 T.O.P.商場地下G12號舖 @vlab_barbershop\n📍銅鑼灣 地帶商場1樓103號舖\n🛰️ WWW.VLAB.COM.HK\n☎ Appointment: 95770888\n⬇️⬇️Appointment 網上預約⬇️⬇️"
+        "about": "📍旺角 T.O.P.商場地下G12號舖 @vlab_barbershop\n📍銅鑼灣 地帶商場1樓103號舖\n🛰️ WWW.VLAB.COM.HK | 滿$200 順豐包郵 | 新登記即享優惠\n☎ Appointment: 95770888\n⬇️⬇️Appointment 網上預約⬇️⬇️"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/vlab_barbershop/",
+      "meta": {
+        "website": "http://vlabbarbershop.resurva.com/",
+        "name": "𝐕𝐋𝐀𝐁💈𝐁𝐚𝐫𝐛𝐞𝐫𝐬𝐡𝐨𝐩",
+        "about": "🇭🇰Barbershop & Men's Hair Products\n💈旺角彌敦道700號 T.O.P 商場G12號鋪\n營業時間：星期一至日，12-10pm\n🏠零售：銅鑼灣地帶商場 1/F, 103號鋪 @vlabhk\n☎️98690235(Chris)\n⬇️Appointment預約"
       }
     }
   ],
@@ -54,7 +63,8 @@
     }
   ],
   "tags": [
-    "salon"
+    "salon",
+    "shop"
   ],
   "places": [
     {
@@ -68,6 +78,19 @@
       },
       "area": {
         "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角 T.O.P.商場地下G12號舖"
+      },
+      "googleMapsPlaceId": "ChIJ13Pk6XEBBDQRCKMHJR9ZyVg",
+      "coordinates": {
+        "lat": 22.3206,
+        "lng": 114.1694808
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     }
   ]
