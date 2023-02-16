@@ -25,53 +25,46 @@
         "website": "http://goo.gl/8BmxxK",
         "link": "https://www.facebook.com/901158736647005"
       }
+    },
+    {
+      "url": "https://www.instagram.com/triplekingcafe/"
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/triplekingcafe/photos/a.901319913297554/2419153084847555",
-      "meta": {
-        "utime": "1560245383",
-        "sharedWith": "Custom"
-      }
+      "url": "https://www.instagram.com/p/B4zEFxXAedM/"
     },
     {
-      "url": "https://www.facebook.com/triplekingcafe/photos/a.901319913297554/2521141511315378",
-      "meta": {
-        "utime": "1564969130",
-        "sharedWith": "Custom"
-      }
+      "url": "https://www.instagram.com/p/CArGBGpB94k/"
     },
     {
-      "url": "https://www.facebook.com/triplekingcafe/posts/2710181152411412",
-      "meta": {
-        "utime": "1573275822",
-        "sharedWith": "Custom"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/triplekingcafe/photos/a.901319913297554/2715357058560488",
-      "meta": {
-        "utime": "1573484858",
-        "sharedWith": "Custom"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/triplekingcafe/photos/a.901319913297554/2733863333376527",
-      "meta": {
-        "utime": "1574215411",
-        "sharedWith": "Custom"
-      }
+      "url": "https://www.instagram.com/p/CGnMLSPB9wP/"
     }
   ],
   "tags": [
     "food",
-    "cafe"
+    "cafe",
+    "closed"
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 868
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "上環永樂街1-3號世瑛大廈2樓203室"
+      },
+      "googleMapsPlaceId": "ChIJvSle73wABDQRBueOJ45Wqb0",
+      "coordinates": {
+        "lat": 22.2856361,
+        "lng": 114.1538756
+      },
+      "area": {
+        "zh": "中西區"
+      }
     }
   ]
 }
