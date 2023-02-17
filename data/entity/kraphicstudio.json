@@ -38,15 +38,17 @@
     },
     {
       "meta": {
-        "name": "Kraphic Studio",
-        "about": "A branding and graphic design consultancy based in Hong Kong.\n-\nInspiring the world with design."
+        "website": "https://zaap.bio/kraphicstudio",
+        "name": "Kraphic Studio | 啟目社",
+        "about": "Inspiring People with Design.\nA branding and design consultancy in Hong Kong\n-\nBRANDING | PACKAGING | GRAPHIC DESIGN\n品牌策劃｜包裝設計｜平面設計"
       },
       "url": "https://www.instagram.com/kraphicstudio/"
     },
     {
       "meta": {
-        "name": "kev@kraphic",
-        "about": "Art & Design\n-\nInspiring the world with design. Welcome to follow our company IG @kraphicstudio "
+        "website": "https://zaap.bio/kevwong",
+        "name": "Kev Wong 品牌策劃及設計師",
+        "about": "Business Owner | Brand Designer | Art, Design & Cat Lover\n品牌推廣技巧分享 #品牌101\n設計工作室 @kraphicstudio"
       },
       "url": "https://www.instagram.com/kev_kraphic/"
     }
@@ -62,5 +64,20 @@
   "tags": [
     "artist",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "1501, Corporation Square, 8 Lam Lok Street, Kowloon Bay"
+      },
+      "googleMapsPlaceId": "ChIJHyl963wABDQR7c94Cx9hq_c",
+      "coordinates": {
+        "lat": 22.3222756,
+        "lng": 114.2070008
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
