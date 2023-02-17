@@ -35,8 +35,15 @@
     {
       "url": "https://www.instagram.com/hushush_hk/",
       "meta": {
-        "name": "hushush ic . c / HUSHUSH CD",
-        "about": "🇭🇰 CAFEC / Roastery\n☕️🍨 hushush ice cream . coffee: ✖️Mon/Tue\nNo.33 Ko Fu Building, Sai Kung\n☕️🍽 Hushush Coffee Division: ✖️Wed"
+        "name": "hushush coffee",
+        "about": "🇭🇰 @cafec_hk @bar_memento\n☕️🍨 hushush ice cream . coffee\n10:30am-6:30pm (不定休)"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/bar_memento/",
+      "meta": {
+        "name": "Memento",
+        "about": "Mon-Tue: 10:00-19:00 / Wed-Sun: 10:00-22:00"
       }
     }
   ],
@@ -97,15 +104,28 @@
   "places": [
     {
       "address": {
-        "en": "58/72 Fu Man Rd, 33 Ko Fu Building, Sai Kung"
+        "zh": "西貢海旁廣場金寶閣2號地下"
       },
       "googleMapsPlaceId": "ChIJG5tqtwQFBDQRa5ZP_EUK9cI",
       "coordinates": {
-        "lat": 22.3820777,
-        "lng": 114.273038
+        "lat": 22.3810784,
+        "lng": 114.2731923
       },
       "area": {
         "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍太子運動場道9號地下"
+      },
+      "googleMapsPlaceId": "ChIJjeOYnK4BBDQRuqqBcD0K2Go",
+      "coordinates": {
+        "lat": 22.3254138,
+        "lng": 114.1690948
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     }
   ],
