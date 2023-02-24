@@ -41,7 +41,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - uses: earthly/actions-setup@v1
         with:
-          version: "v0.6.30"
+          version: "v0.7.0"
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Build devcontainer image
         run: earthly +devcontainer-ci --GIT_REF_NAME="${{ github.ref_name }}" --GIT_SHA="${{ github.sha }}"
