@@ -1,17 +1,17 @@
-VERSION 0.6
-ARG UBUNTU_RELEASE=jammy
+VERSION 0.7
+ARG --global UBUNTU_RELEASE=jammy
 FROM mcr.microsoft.com/vscode/devcontainers/base:0-$UBUNTU_RELEASE
-ARG DEVCONTAINER_IMAGE_NAME_DEFAULT=ghcr.io/giffon/charleywong_devcontainer_workspace
-ARG LAMBDA_IMAGE_REGISTRY=932878902707.dkr.ecr.us-east-1.amazonaws.com
-ARG LAMBDA_IMAGE_NAME_MASTER=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-master
-ARG LAMBDA_IMAGE_NAME_PRODUCTION=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-production
-ARG FLY_IMAGE_REGISTRY=registry.fly.io
-ARG FLY_IMAGE_NAME=$FLY_IMAGE_REGISTRY/charleywong
-ARG NODE_VERSION=14
+ARG --global DEVCONTAINER_IMAGE_NAME_DEFAULT=ghcr.io/giffon/charleywong_devcontainer_workspace
+ARG --global LAMBDA_IMAGE_REGISTRY=932878902707.dkr.ecr.us-east-1.amazonaws.com
+ARG --global LAMBDA_IMAGE_NAME_MASTER=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-master
+ARG --global LAMBDA_IMAGE_NAME_PRODUCTION=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-production
+ARG --global FLY_IMAGE_REGISTRY=registry.fly.io
+ARG --global FLY_IMAGE_NAME=$FLY_IMAGE_REGISTRY/charleywong
+ARG --global NODE_VERSION=14
 
-ARG USERNAME=vscode
-ARG USER_UID=1000
-ARG USER_GID=$USER_UID
+ARG --global USERNAME=vscode
+ARG --global USER_UID=1000
+ARG --global USER_GID=$USER_UID
 
 devcontainer-library-scripts:
     RUN curl -fsSLO https://raw.githubusercontent.com/microsoft/vscode-dev-containers/main/script-library/common-debian.sh
@@ -61,8 +61,8 @@ devcontainer-base:
         && echo 'eval "$(direnv hook bash)"' >> /etc/bash.bashrc \
         && add-apt-repository -y universe \
         && apt-get install -y groonga libgroonga-dev groonga-bin groonga-tokenizer-mecab groonga-token-filter-stem groonga-normalizer-mysql \
-        && curl -sL https://deb.nodesource.com/setup_$NODE_VERSION.x | bash - \
-        && apt-get install -y nodejs=$NODE_VERSION.* \
+        && curl -sL "https://deb.nodesource.com/setup_$NODE_VERSION.x" | bash - \
+        && apt-get install -y nodejs="$NODE_VERSION.*" \
         && add-apt-repository -y ppa:git-core/ppa \
         && apt-get install -y git \
         && curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add - \

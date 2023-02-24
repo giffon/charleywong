@@ -1,11 +1,11 @@
-VERSION 0.6
+VERSION 0.7
 
 jena:
     FROM eclipse-temurin:11-jre-jammy
     ARG JENAROOT=/jena
     ENV JENAROOT=$JENAROOT
     WORKDIR $JENAROOT
-    RUN curl -fssL "https://dlcdn.apache.org/jena/binaries/apache-jena-4.5.0.tar.gz" | tar xz --strip-components=1
+    RUN curl -fssL "https://archive.apache.org/dist/jena/binaries/apache-jena-4.5.0.tar.gz" | tar xz --strip-components=1
     ENV PATH=$JENAROOT/bin:$PATH
     SAVE ARTIFACT $JENAROOT
 
