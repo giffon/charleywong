@@ -1,5 +1,5 @@
 {
-  "id": "287051735082272",
+  "id": "choichishop",
   "name": {
     "zh": "采姿美容"
   },
@@ -50,7 +50,7 @@
   "places": [
     {
       "address": {
-        "zh": "葵涌葵昌路美和工業大廈318室 "
+        "zh": "葵涌葵昌路美和工業中心3樓30室"
       },
       "googleMapsPlaceId": "ChIJkcw0iJf4AzQRgt_kCGhXtmw",
       "coordinates": {
@@ -67,5 +67,8 @@
       "type": "shop",
       "id": 504
     }
+  ],
+  "alias": [
+    "287051735082272"
   ]
 }
