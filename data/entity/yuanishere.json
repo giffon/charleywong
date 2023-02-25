@@ -25,27 +25,6 @@
       }
     },
     {
-      "url": "https://www.facebook.com/yuanisherekwuntong/",
-      "hidden": true,
-      "meta": {
-        "id": "431321257222108",
-        "username": "yuanisherekwuntong",
-        "name": "阿元來了-觀塘",
-        "about": "阿元來了將會帶人去到另一個空間，令你的觀感、味覺、視覺都會置身於台?",
-        "category_list": [
-          {
-            "id": "199146280116687",
-            "name": "Taiwanese Restaurant"
-          }
-        ],
-        "emails": [
-          "yuanishere@yahoo.com.tw"
-        ],
-        "single_line_address": "鴻圖道28號地下, Hong Kong, Hong Kong",
-        "link": "https://www.facebook.com/431321257222108"
-      }
-    },
-    {
       "url": "https://www.instagram.com/yuanishere/",
       "meta": {
         "website": "http://www.facebook.com/yuanishere",
@@ -84,6 +63,19 @@
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港國際機場28號登機口"
+      },
+      "googleMapsPlaceId": "ChIJncZGzPPiAzQRnjaSGIKQ9fk",
+      "coordinates": {
+        "lat": 22.308047,
+        "lng": 113.9184808
+      },
+      "area": {
+        "zh": "離島區"
       }
     }
   ],
