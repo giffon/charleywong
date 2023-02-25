@@ -271,6 +271,8 @@ dts2hx:
     FROM +node-modules-dev
     RUN npx dts2hx @types/node cross-fetch @types/chrome abort-controller fastify sitemap nroonga --noLibWrap --useSystemHaxe --output lib/dts2hx
     RUN find lib/dts2hx -name "*.hx" -exec sed -i s/ajv.lib.ajv.[A-Za-z0-9]*/Dynamic/g {} \;
+    # Remove the FastifyServerOptions with incorrect numbers of type params.
+    RUN perl -i -pe 's/FastifyServerOptions(?!<[^,>]+,[^,>]+>)(<.+?>)?/Dynamic/g' lib/dts2hx/fastify/FastifyServerOptions.hx
     SAVE ARTIFACT lib/dts2hx
     SAVE IMAGE --cache-hint
 

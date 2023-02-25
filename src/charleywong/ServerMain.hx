@@ -10,6 +10,9 @@ import js.npm.jimp.Jimp;
 import js.node.Buffer;
 import Fastify;
 import fastify.*;
+import fastify.types.instance.FastifyInstance;
+import fastify.types.reply.FastifyReply;
+import fastify.types.request.FastifyRequest;
 import sys.io.File;
 import js.html.URL;
 import haxe.*;
@@ -943,7 +946,7 @@ class ServerMain {
     static function main():Void {
         final opts:Dynamic = {};
         if (Sys.getEnv("FLY_APP_NAME") != null) {
-            app = Fastify.fastify(opts);
+            app = Fastify.call(opts);
             initServer();
             app.listen({
                 port: 80,
@@ -951,7 +954,7 @@ class ServerMain {
             });
         } else if (Sys.getEnv("AWS_LAMBDA_FUNCTION_NAME") != null) {
             opts.trustProxy = true;
-            app = Fastify.fastify(opts);
+            app = Fastify.call(opts);
             initServer();
             js.Node.exports.handler = require('@fastify/aws-lambda')(app, {
                 binaryMimeTypes: [
@@ -996,7 +999,7 @@ class ServerMain {
                 entityIndex.invalidate();
             });
 
-            app = Fastify.fastify(opts);
+            app = Fastify.call(opts);
             initServer();
             app.post("/", post);
             app.listen({

@@ -1,6 +1,6 @@
 package charleywong;
 
-import fastify.FastifyReply;
+import fastify.types.reply.FastifyReply;
 import react.*;
 
 class ReplyTools {

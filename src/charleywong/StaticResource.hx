@@ -13,6 +13,9 @@ import js.html.URLSearchParams;
 #if (!browser && !macro)
 import js.lib.Promise;
 import fastify.*;
+import fastify.types.instance.FastifyInstance;
+import fastify.types.reply.FastifyReply;
+import fastify.types.request.FastifyRequest;
 #end
 using StringTools;
 using Lambda;
