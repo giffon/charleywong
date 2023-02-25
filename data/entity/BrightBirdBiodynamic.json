@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://brightbirdbio.com"
+    },
+    {
       "url": "https://www.facebook.com/BrightBirdBiodynamic/",
       "meta": {
         "id": "1729235140474582",
@@ -24,6 +27,24 @@
         "website": "https://brightbirdbio.com/",
         "link": "https://www.facebook.com/1729235140474582"
       }
+    },
+    {
+      "url": "https://www.instagram.com/brightbirdbd/",
+      "meta": {
+        "website": "https://brightbirdbio.com/",
+        "about": "Bright Bird Biodynamic (A biodynamic farm in Hong Kong)"
+      }
+    },
+    {
+      "url": "https://twitter.com/brightbirdbio"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCOUNfTywIdf7O0v9WWmH72A",
+      "meta": {
+        "id": "UCOUNfTywIdf7O0v9WWmH72A",
+        "name": "Bright Bird Biodynamic",
+        "about": "我們從2018年開始在香港實踐 Biodynamic (BD農法) \n希望以純粹的人智學 (Anthroposophy) 概念在農耕上應用，使農場成為一套可持續再生的生命體，生產提升人類靈性的食物\n\n網頁: https://brightbirdbio.com"
+      }
     }
   ],
   "posts": [
@@ -41,6 +62,22 @@
     }
   ],
   "tags": [
+    "farm",
     "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "八鄉河背村"
+      },
+      "googleMapsPlaceId": "ChIJBQLTHXj5AzQRiwbB_uKjE94",
+      "coordinates": {
+        "lat": 22.4120121,
+        "lng": 114.0672788
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    }
   ]
 }
