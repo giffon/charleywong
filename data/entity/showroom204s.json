@@ -24,6 +24,7 @@
     {
       "url": "https://www.instagram.com/showroom_204/",
       "meta": {
+        "website": "https://m.facebook.com/Showroom204s/",
         "name": "Showroom 204",
         "about": "Retail shop • Pls follow our facebook"
       }
@@ -60,12 +61,28 @@
     }
   ],
   "tags": [
-    "clothing"
+    "clothing",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 312
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "尖沙咀嘉蘭圍道5-11號利時商場"
+      },
+      "googleMapsPlaceId": "ChIJx-av0ewBBDQREAfR6ecg0EY",
+      "coordinates": {
+        "lat": 22.2999194,
+        "lng": 114.175239
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ]
 }
