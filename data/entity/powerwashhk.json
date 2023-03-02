@@ -26,12 +26,10 @@
     {
       "url": "https://www.instagram.com/powerwash.hk/",
       "meta": {
+        "website": "https://youtu.be/qiMcaC33Py8",
         "name": "Power Wash",
-        "about": "1.157 Shop C Kowloon City Rd., To Kwa Wan 🇭🇰\n   157 Shop C 九龍城道, 土瓜灣\n2. 7 Sui Man Lane\n    7 萃文里, 柴灣\nWhatsApp ☎️+852-6848-1629\n#carwash #洗車 🚗🚿"
+        "about": "1.157 Shop C Kowloon City Rd., To Kwa Wan\n   157 Shop C 九龍城道, 土瓜灣\n2. 7 Sui Man Lane\n    7 萃文里, 柴灣\n3. 1A Holland St. , Kennedy Town (Only 🏍️)"
       }
-    },
-    {
-      "url": "https://www.hk01.com/article/447472"
     }
   ],
   "posts": [
@@ -99,6 +97,19 @@
       },
       "area": {
         "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "en": "1A Holland St. , Kennedy Town"
+      },
+      "googleMapsPlaceId": "ChIJRwi7HOz_AzQRqQoE229sGjY",
+      "coordinates": {
+        "lat": 22.284311,
+        "lng": 114.130699
+      },
+      "area": {
+        "zh": "中西區"
       }
     }
   ]
