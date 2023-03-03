@@ -29,8 +29,9 @@
     {
       "url": "https://www.instagram.com/fishandchick/",
       "meta": {
+        "website": "https://fishandchick.oddle.me/en_HK/",
         "name": "Fish & Chick",
-        "about": "Fish&Chips//Roast Chick\n1️⃣25 New Praya,Kennedy Town//29740088\n2️⃣27 High St,Sai Ying Pun//29736500"
+        "about": "Shops:\n1️⃣Kennedy Town, Tel: 2974 0088\n2️⃣Sai Ying Pun, Tel: 2973 6500\n3️⃣Tseung Kwan O, Tel: 2974 1818\n🛵Order Delivery & Pick Up ⬇️"
       }
     }
   ],
@@ -65,6 +66,60 @@
     {
       "type": "eat",
       "id": 1808
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "西環堅尼地城新海旁街25號地下6號舖"
+      },
+      "googleMapsPlaceId": "ChIJnalgP5r_AzQR2ue86v1UbXI",
+      "coordinates": {
+        "lat": 22.283693,
+        "lng": 114.1275729
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "西環西營盤高街27號地舖"
+      },
+      "googleMapsPlaceId": "ChIJOwBx9X7_AzQRyxklUT_woZY",
+      "coordinates": {
+        "lat": 22.2852014,
+        "lng": 114.1428518
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳唐俊街23號澳南海岸地下G23B號舖"
+      },
+      "googleMapsPlaceId": "ChIJe22abmYDBDQRogUXZ4wkzOA",
+      "coordinates": {
+        "lat": 22.3028808,
+        "lng": 114.2630948
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "鰂魚涌太古坊德宏大廈1/F Pop-up Store"
+      },
+      "googleMapsPlaceId": "ChIJb6uLRnMBBDQRZ_MlxsJJaNU",
+      "coordinates": {
+        "lat": 22.2874081,
+        "lng": 114.2127514
+      },
+      "area": {
+        "zh": "東區"
+      }
     }
   ]
 }
