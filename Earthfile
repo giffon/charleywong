@@ -383,7 +383,8 @@ exportSpreadsheet:
     COPY +exportSpreadsheet.js/exportSpreadsheet.js .
     COPY static static
     COPY --keep-ts data/entity data/entity
-    RUN --mount=type=secret,id=+secrets/.envrc,target=.envrc \
+    RUN --push \
+        --mount=type=secret,id=+secrets/.envrc,target=.envrc \
         . ./.envrc \
         && \
         AWS_DEFAULT_REGION="$YBM_AWS_DEFAULT_REGION" \
@@ -412,7 +413,7 @@ test:
     COPY data data
     COPY .haxerc test.hxml .
     ARG TEST
-    RUN haxe test.hxml $TEST
+    RUN --no-cache haxe test.hxml $TEST
 
 tailwind:
     FROM +devcontainer
@@ -545,7 +546,7 @@ deploy:
     ARG --required LAMBDA_IMAGE_TAG
     ENV LAMBDA_IMAGE="$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG"
     ARG --required DEPLOY_STAGE
-    RUN \
+    RUN --push \
         --mount=type=secret,id=+secrets/.envrc,target=.envrc \
         . ./.envrc \
         && npx serverless deploy --stage "${DEPLOY_STAGE}"
@@ -605,7 +606,7 @@ syncFacebook:
     COPY data data
     COPY +syncFacebook.js/* .
     COPY +dclookup/* .
-    RUN \
+    RUN --push \
         --mount=type=secret,id=+secrets/.envrc,target=.envrc \
         . ./.envrc \
         && node syncFacebook.js updateMeta

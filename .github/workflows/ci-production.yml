@@ -71,9 +71,11 @@ jobs:
         run: earthly +deploy --LAMBDA_IMAGE_NAME="$LAMBDA_IMAGE_NAME_PRODUCTION" --LAMBDA_IMAGE_TAG="${{ github.sha }}" --DEPLOY_STAGE="production"
         env:
           EARTHLY_SECRET_FILES: .envrc=.envrc
+          EARTHLY_PUSH: true
       - name: Post-deployment test
         run: earthly +test --TEST="post-deployment charleywong.info"
       - name: Export spreadsheet
         run: earthly +exportSpreadsheet --HAXE_ARGS="-D CI"
         env:
           EARTHLY_SECRET_FILES: .envrc=.envrc
+          EARTHLY_PUSH: true
