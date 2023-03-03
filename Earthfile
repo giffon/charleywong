@@ -184,9 +184,14 @@ devcontainer:
     ARG GIT_SHA
     ENV GIT_SHA="$GIT_SHA"
     ARG IMAGE_NAME="$DEVCONTAINER_IMAGE_NAME_DEFAULT"
-    ARG IMAGE_TAG="master"
-    ARG IMAGE_CACHE="$IMAGE_NAME:$IMAGE_TAG"
-    SAVE IMAGE --cache-from="$IMAGE_CACHE" --push "$IMAGE_NAME:$IMAGE_TAG"
+    ARG IMAGE_TAG_1="master"
+    ARG IMAGE_TAG_2="master"
+    ARG IMAGE_CACHE="$IMAGE_NAME:$IMAGE_TAG_1"
+    IF [ "$IMAGE_TAG_1" = "$IMAGE_TAG_2" ]
+        SAVE IMAGE --cache-from="$IMAGE_CACHE" --push "$IMAGE_NAME:$IMAGE_TAG_1"
+    ELSE
+        SAVE IMAGE --cache-from="$IMAGE_CACHE" --push "$IMAGE_NAME:$IMAGE_TAG_1" "$IMAGE_NAME:$IMAGE_TAG_2"
+    END
 
 devcontainer-ci:
     ARG --required GIT_REF_NAME
@@ -195,8 +200,8 @@ devcontainer-ci:
     RUN echo "$DEVCONTAINER_IMAGE_NAME_DEFAULT:$(cat image_tag)" | tee image_cache
     BUILD +devcontainer \ 
         --IMAGE_CACHE="$(cat image_cache)" \
-        --IMAGE_TAG="$(cat image_tag)" \
-        --IMAGE_TAG="$GIT_SHA" \
+        --IMAGE_TAG_1="$(cat image_tag)" \
+        --IMAGE_TAG_2="$GIT_SHA" \
         --GIT_SHA="$GIT_SHA"
 
 devcontainer-rebuild:
