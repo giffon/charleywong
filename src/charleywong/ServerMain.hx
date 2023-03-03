@@ -945,14 +945,7 @@ class ServerMain {
 
     static function main():Void {
         final opts:Dynamic = {};
-        if (Sys.getEnv("FLY_APP_NAME") != null) {
-            app = Fastify.call(opts);
-            initServer();
-            app.listen({
-                port: 80,
-                host: "0.0.0.0"
-            });
-        } else if (Sys.getEnv("AWS_LAMBDA_FUNCTION_NAME") != null) {
+        if (Sys.getEnv("AWS_LAMBDA_FUNCTION_NAME") != null) {
             opts.trustProxy = true;
             app = Fastify.call(opts);
             initServer();

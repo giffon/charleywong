@@ -8,10 +8,6 @@ terraform {
       source  = "cloudflare/cloudflare"
       version = "~> 3.25"
     }
-    # fly = {
-    #   source  = "fly-apps/fly"
-    #   version = "~> 0.0.6"
-    # }
     random = {
       source  = "hashicorp/random"
       version = "~> 3.3"
@@ -31,7 +27,3 @@ data "aws_region" "current" {}
 provider "cloudflare" {
   api_token = data.aws_ssm_parameter.cloudflare_api_token.value
 }
-
-# provider "fly" {
-#   # FLY_API_TOKEN
-# }

@@ -5,8 +5,6 @@ ARG --global DEVCONTAINER_IMAGE_NAME_DEFAULT=ghcr.io/giffon/charleywong_devconta
 ARG --global LAMBDA_IMAGE_REGISTRY=932878902707.dkr.ecr.us-east-1.amazonaws.com
 ARG --global LAMBDA_IMAGE_NAME_MASTER=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-master
 ARG --global LAMBDA_IMAGE_NAME_PRODUCTION=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-production
-ARG --global FLY_IMAGE_REGISTRY=registry.fly.io
-ARG --global FLY_IMAGE_NAME=$FLY_IMAGE_REGISTRY/charleywong
 ARG --global NODE_VERSION=14
 
 ARG --global USERNAME=vscode
@@ -134,11 +132,6 @@ terraform:
     RUN tfenv install "$TERRAFORM_VERSION"
     RUN tfenv use "$TERRAFORM_VERSION"
 
-flyctl:
-    ARG FLY_VERSION=0.0.333
-    RUN curl -fsSL https://fly.io/install.sh | bash -s -- "$FLY_VERSION"
-    SAVE ARTIFACT /root/.fly
-
 # COPY +earthly/earthly /usr/local/bin/
 # RUN earthly bootstrap --no-buildkit --with-autocomplete
 earthly:
@@ -168,10 +161,6 @@ devcontainer:
     RUN earthly bootstrap --no-buildkit --with-autocomplete
 
     USER $USERNAME
-
-    ENV FLYCTL_INSTALL="/home/$USERNAME/.fly"
-    ENV PATH="$FLYCTL_INSTALL/bin:$PATH"
-    COPY --chown=$USER_UID:$USER_GID +flyctl/.fly "$FLYCTL_INSTALL"
 
     # Do not show git branch in bash prompt because it's slow
     # https://github.com/microsoft/vscode-dev-containers/issues/1196#issuecomment-988388658
@@ -488,24 +477,6 @@ runtime:
         && rm -rf /var/lib/apt/lists/*
     WORKDIR /workspace
     SAVE IMAGE --cache-hint
-
-fly-image:
-    FROM +runtime
-    COPY +node-modules-prod/node_modules node_modules
-    COPY static static
-    COPY data data
-    COPY +entity-index/groonga data/groonga
-    COPY +ybm/* ybm
-    COPY +hkbase-directory/* .
-    COPY +dclookup/* .
-    COPY +browser-script/* static
-    COPY +service-worker/* static
-    COPY +tailwind/* static/css
-    COPY +server-script/* .
-    CMD ["node", "index.js"]
-    ARG FLY_IMAGE_NAME=$FLY_IMAGE_NAME
-    ARG FLY_IMAGE_TAG=development
-    SAVE IMAGE --push "$FLY_IMAGE_NAME:$FLY_IMAGE_TAG"
 
 lambda-container:
     FROM +runtime

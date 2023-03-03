@@ -5,22 +5,6 @@ data "cloudflare_zone" "charleywong-info" {
   name = "charleywong.info"
 }
 
-resource "cloudflare_record" "_acme-challenge-charleywong" {
-  zone_id = data.cloudflare_zone.giffonio.id
-  name    = "_acme-challenge.charleywong"
-  value   = "charleywong.giffon.io.m6z0n.flydns.net"
-  type    = "CNAME"
-  ttl     = 1
-}
-
-resource "cloudflare_record" "_acme-challenge-charleywong-dev" {
-  zone_id = data.cloudflare_zone.giffonio.id
-  name    = "_acme-challenge.charleywong-dev"
-  value   = "charleywong-dev.giffon.io.m6z0n.flydns.net"
-  type    = "CNAME"
-  ttl     = 1
-}
-
 resource "cloudflare_record" "charleywong" {
   zone_id = data.cloudflare_zone.giffonio.id
   name    = "charleywong"
