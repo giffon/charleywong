@@ -137,7 +137,7 @@ terraform:
 earthly:
     FROM +devcontainer-base
     ARG TARGETARCH
-    RUN curl -fsSL https://github.com/earthly/earthly/releases/download/v0.7.0/earthly-linux-${TARGETARCH} -o /usr/local/bin/earthly \
+    RUN curl -fsSL https://github.com/earthly/earthly/releases/download/v0.7.1/earthly-linux-${TARGETARCH} -o /usr/local/bin/earthly \
         && chmod +x /usr/local/bin/earthly
     SAVE ARTIFACT /usr/local/bin/earthly
 
