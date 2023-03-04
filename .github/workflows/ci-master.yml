@@ -90,7 +90,6 @@ jobs:
         run: earthly +deploy --LAMBDA_IMAGE_TAG="${{ github.sha }}" --DEPLOY_STAGE="master"
         env:
           EARTHLY_SECRET_FILES: .envrc=.envrc
-          EARTHLY_PUSH: ${{ env.PUSH }}
       - name: Post-deployment test
         if: success() && env.PUSH == 'true' && github.event_name == 'push'
         run: earthly +test --TEST="post-deployment master.charleywong.info"

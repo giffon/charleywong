@@ -380,7 +380,7 @@ exportSpreadsheet:
     COPY +exportSpreadsheet.js/exportSpreadsheet.js .
     COPY static static
     COPY --keep-ts data/entity data/entity
-    RUN --push \
+    RUN --no-cache \
         --mount=type=secret,id=+secrets/.envrc,target=.envrc \
         . ./.envrc \
         && \
@@ -543,7 +543,7 @@ deploy:
     ARG --required LAMBDA_IMAGE_TAG
     ENV LAMBDA_IMAGE="$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG"
     ARG --required DEPLOY_STAGE
-    RUN --push \
+    RUN --no-cache \
         --mount=type=secret,id=+secrets/.envrc,target=.envrc \
         . ./.envrc \
         && npx serverless deploy --stage "${DEPLOY_STAGE}"
