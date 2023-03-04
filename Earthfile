@@ -1,17 +1,17 @@
 # Do not use VERSION 0.7
 # https://github.com/earthly/earthly/issues/2752
-VERSION --explicit-global 0.6
-ARG --global UBUNTU_RELEASE=jammy
+VERSION 0.6
+ARG UBUNTU_RELEASE=jammy
 FROM mcr.microsoft.com/vscode/devcontainers/base:0-$UBUNTU_RELEASE
-ARG --global DEVCONTAINER_IMAGE_NAME_DEFAULT=ghcr.io/giffon/charleywong_devcontainer_workspace
-ARG --global LAMBDA_IMAGE_REGISTRY=932878902707.dkr.ecr.us-east-1.amazonaws.com
-ARG --global LAMBDA_IMAGE_NAME_MASTER=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-master
-ARG --global LAMBDA_IMAGE_NAME_PRODUCTION=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-production
-ARG --global NODE_VERSION=14
+ARG DEVCONTAINER_IMAGE_NAME_DEFAULT=ghcr.io/giffon/charleywong_devcontainer_workspace
+ARG LAMBDA_IMAGE_REGISTRY=932878902707.dkr.ecr.us-east-1.amazonaws.com
+ARG LAMBDA_IMAGE_NAME_MASTER=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-master
+ARG LAMBDA_IMAGE_NAME_PRODUCTION=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-production
+ARG NODE_VERSION=14
 
-ARG --global USERNAME=vscode
-ARG --global USER_UID=1000
-ARG --global USER_GID=$USER_UID
+ARG USERNAME=vscode
+ARG USER_UID=1000
+ARG USER_GID=$USER_UID
 
 devcontainer-library-scripts:
     RUN curl -fsSLO https://raw.githubusercontent.com/microsoft/vscode-dev-containers/main/script-library/common-debian.sh
