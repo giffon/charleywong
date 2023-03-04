@@ -1,4 +1,6 @@
-VERSION 0.7
+# Do not use VERSION 0.7
+# https://github.com/earthly/earthly/issues/2752
+VERSION --explicit-global 0.6
 ARG --global UBUNTU_RELEASE=jammy
 FROM mcr.microsoft.com/vscode/devcontainers/base:0-$UBUNTU_RELEASE
 ARG --global DEVCONTAINER_IMAGE_NAME_DEFAULT=ghcr.io/giffon/charleywong_devcontainer_workspace
