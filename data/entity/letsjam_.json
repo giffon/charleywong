@@ -66,19 +66,6 @@
   "places": [
     {
       "address": {
-        "zh": "西貢市場街53號地下"
-      },
-      "googleMapsPlaceId": "ChIJgR_8rL0FBDQRBz6mZoe9hEk",
-      "coordinates": {
-        "lat": 22.3795946,
-        "lng": 114.2711985
-      },
-      "area": {
-        "zh": "西貢區"
-      }
-    },
-    {
-      "address": {
         "zh": "尖沙咀松山道15-17號地下d鋪"
       },
       "googleMapsPlaceId": "ChIJRx2n_usABDQRmhbzoL-exdY",
@@ -88,6 +75,19 @@
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "西貢市場街53號地下"
+      },
+      "googleMapsPlaceId": "EiU1MyBTZWUgQ2hldW5nIFN0LCBTYWkgS3VuZywgSG9uZyBLb25nIjASLgoUChIJZYIuqr0FBDQRKEUp44dTn60QNSoUChIJebcuqr0FBDQRhqM12KOTmFY",
+      "coordinates": {
+        "lat": 22.3799631,
+        "lng": 114.2720659
+      },
+      "area": {
+        "zh": "西貢區"
       }
     }
   ]
