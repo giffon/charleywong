@@ -29,6 +29,7 @@ FACEBOOK_TOKEN
 !esbuild.js
 
 .tmp-earthly-out*
+/tmp
 
 # Logs
 logs
