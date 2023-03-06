@@ -12,5 +12,13 @@
     "[json]": {
         "editor.tabSize": 2,
         "editor.formatOnSave": true
+    },
+    "files.exclude": {
+        // too many files makes vscode slow
+        "data/entity/*.json": true
+    },
+    "search.exclude": {
+        // keep them searchable
+        "data/entity/*.json": false
     }
 }
