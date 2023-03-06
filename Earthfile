@@ -605,7 +605,7 @@ syncFacebook:
     COPY data data
     COPY +syncFacebook.js/* .
     COPY +dclookup/* .
-    RUN --push \
+    RUN --no-cache \
         --mount=type=secret,id=+secrets/.envrc,target=.envrc \
         . ./.envrc \
         && node syncFacebook.js updateMeta
