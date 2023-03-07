@@ -167,30 +167,32 @@
     {
       "url": "https://www.instagram.com/barlemna/",
       "meta": {
-        "website": "https://www.facebook.com/barlemna/",
+        "website": "https://linktr.ee/barlemna",
         "name": "Lemna of the alchemist",
-        "about": "Lemna is the cultural line of The Alchemist Cafe (牧羊少年) in Hong Kong, offering a wide range of cultural and arts happenings."
+        "about": "Lemna by @thealchemistcafehk\nA space of culture, art happenings and cuisine.\n- HK Cultural Centre, TST\n- event/workshop registration:"
       }
     }
   ],
   "posts": [
-    {
-      "url": "https://www.facebook.com/thealchemistcafehk/photos/a.471935936158392/2913087108709917",
-      "meta": {
-        "utime": "1575810839",
-        "sharedWith": "Public"
-      }
-    },
     {
       "url": "https://www.facebook.com/thealchemistcafehk/photos/a.471935936158392/2851144418237520",
       "meta": {
         "utime": "1573570260",
         "sharedWith": "Public"
       }
+    },
+    {
+      "url": "https://www.facebook.com/thealchemistcafehk/photos/a.471935936158392/2913087108709917",
+      "meta": {
+        "utime": "1575810839",
+        "sharedWith": "Public"
+      }
     }
   ],
   "tags": [
-    "food"
+    "cafe",
+    "food",
+    "bar"
   ],
   "yellowBlueMapIds": [
     {
@@ -233,6 +235,19 @@
   "places": [
     {
       "address": {
+        "zh": "尖沙咀梳士巴利道10號香港文化中心餐廳大樓地下"
+      },
+      "googleMapsPlaceId": "ChIJnbup_u0ABDQR0-FEWoOd6-I",
+      "coordinates": {
+        "lat": 22.2972778,
+        "lng": 114.1733357
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
         "zh": "深水埗白楊街27-29號嘉安大廈地下1號舖"
       },
       "googleMapsPlaceId": "ChIJgdWwibUABDQRl2wdTTccP7Y",
@@ -242,6 +257,19 @@
       },
       "area": {
         "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "葵芳興寧路12號葵青劇院地下2號舖"
+      },
+      "googleMapsPlaceId": "ChIJZ7ShJ7z4AzQReQuMzI5NIcQ",
+      "coordinates": {
+        "lat": 22.356899,
+        "lng": 114.126192
+      },
+      "area": {
+        "zh": "葵青區"
       }
     },
     {
@@ -287,10 +315,10 @@
       "address": {
         "zh": "屯門屯順街1號屯門市廣場2樓2151號舖"
       },
-      "googleMapsPlaceId": "ChIJASQPcT37AzQRBlhSGahsxls",
+      "googleMapsPlaceId": "ChIJU4MdCT77AzQRs9N-ZB3nZp4",
       "coordinates": {
-        "lat": 22.3927866,
-        "lng": 113.9768676
+        "lat": 22.3928095,
+        "lng": 113.9780604
       },
       "area": {
         "zh": "屯門區"
@@ -300,10 +328,10 @@
       "address": {
         "zh": "銅鑼灣記利佐治街 Fashion Walk G17號舖"
       },
-      "googleMapsPlaceId": "ChIJ6TgnnFYABDQRk11zTZIABvY",
+      "googleMapsPlaceId": "ChIJN7_a7G4BBDQRuNbypwKG05U",
       "coordinates": {
-        "lat": 22.280815,
-        "lng": 114.1852378
+        "lat": 22.2808614,
+        "lng": 114.1852536
       },
       "area": {
         "zh": "灣仔區"
@@ -311,12 +339,25 @@
     },
     {
       "address": {
+        "zh": "旺角彌敦道625 及639 雅蘭商場1樓103號舖"
+      },
+      "googleMapsPlaceId": "ChIJV6QANpUBBDQRFnTG0VsBwTc",
+      "coordinates": {
+        "lat": 22.3179638,
+        "lng": 114.1694325
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
         "zh": "尖沙咀文化中心餐廳大樓 G/F Lemna"
       },
-      "googleMapsPlaceId": "ChIJp4NnsfMABDQRyQLUySCwRNo",
+      "googleMapsPlaceId": "ChIJ88hnPKsBBDQRV-M9lH1G_-Q",
       "coordinates": {
-        "lat": 22.29384959999999,
-        "lng": 114.1703232
+        "lat": 22.2941513,
+        "lng": 114.1705591
       },
       "area": {
         "zh": "油尖旺區"
