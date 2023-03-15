@@ -24,6 +24,23 @@
         "single_line_address": "觀塘敬業街65-67號敬運工業大廈1樓A室, Hong Kong, Hong Kong",
         "link": "https://www.facebook.com/389864474994725"
       }
+    },
+    {
+      "url": "https://www.facebook.com/112477441684627/",
+      "meta": {
+        "id": "112477441684627",
+        "name": "餃子堂",
+        "about": "豪隍點心工房旗下新品牌，餃子堂",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          }
+        ],
+        "single_line_address": "敬業街55號, Hong Kong, Hong Kong",
+        "website": "https://shop.ichefpos.com/store/uXalSjcL/ordering",
+        "link": "https://www.facebook.com/112477441684627"
+      }
     }
   ],
   "posts": [
@@ -85,6 +102,19 @@
       "area": {
         "zh": "觀塘區"
       }
+    },
+    {
+      "address": {
+        "zh": "敬業街55號"
+      },
+      "googleMapsPlaceId": "ChIJy2qBuRgBBDQRRhEqrlTkX-Q",
+      "coordinates": {
+        "lat": 22.3086265,
+        "lng": 114.2255668
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
     }
   ],
   "yellowBlueMapIds": [
@@ -95,6 +125,10 @@
     {
       "type": "eat",
       "id": 6728
+    },
+    {
+      "type": "eat",
+      "id": 6915
     }
   ],
   "alias": [
