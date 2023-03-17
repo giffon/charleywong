@@ -328,6 +328,13 @@ ybm:
     FROM +ybm-download --CACHE_KEY="$(date +%Y%m%d)"
     SAVE ARTIFACT --keep-ts ybm AS LOCAL ./ybm
 
+ybm-pretty:
+    FROM alpine:3.17
+    RUN apk update; apk add moreutils jq
+    COPY --keep-ts +ybm/ybm ybm
+    RUN find ybm -name '*.json' -exec sh -c 'jq . {} | sponge {}' \;
+    SAVE ARTIFACT --keep-ts ybm AS LOCAL ./ybm
+
 exportSpreadsheet.js:
     FROM +devcontainer
     COPY +dclookup/* .
