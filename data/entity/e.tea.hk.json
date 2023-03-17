@@ -197,6 +197,14 @@
     {
       "type": "eat",
       "id": 6672
+    },
+    {
+      "type": "eat",
+      "id": 6993
+    },
+    {
+      "type": "eat",
+      "id": 6996
     }
   ],
   "places": [
@@ -640,6 +648,19 @@
       },
       "area": {
         "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "北角書局街12號樂嘉中心地下1A舖"
+      },
+      "googleMapsPlaceId": "ChIJm7LRVJcBBDQRODUZWAA181o",
+      "coordinates": {
+        "lat": 22.2906718,
+        "lng": 114.2006414
+      },
+      "area": {
+        "zh": "東區"
       }
     }
   ]
