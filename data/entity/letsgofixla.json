@@ -31,6 +31,7 @@
     {
       "url": "https://www.instagram.com/letsgofix/",
       "meta": {
+        "website": "https://letsgofixhk.com/",
         "name": "Let's Go Fix"
       },
       "hidden": true
@@ -63,6 +64,45 @@
   "places": [
     {
       "address": {
+        "zh": "上環德輔道中248號東協商業大廈6樓601室"
+      },
+      "googleMapsPlaceId": "ChIJt7O-yd8BBDQR_NjEChefaNE",
+      "coordinates": {
+        "lat": 22.2862957,
+        "lng": 114.1521922
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘開源道56號大眾工業大廈1樓105室"
+      },
+      "googleMapsPlaceId": "ChIJmeI42fIBBDQRT6OBTOaQBrQ",
+      "coordinates": {
+        "lat": 22.3098067,
+        "lng": 114.2243288
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀加拿芬道41-43號Solo Building 14樓1418號鋪"
+      },
+      "googleMapsPlaceId": "ChIJV7mrGeABBDQRNwhRn7v3kc8",
+      "coordinates": {
+        "lat": 22.2991483,
+        "lng": 114.1737769
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
         "zh": "銅鑼灣軒尼詩道505號電業城Solo 20樓2012室"
       },
       "googleMapsPlaceId": "ChIJ95ku52sBBDQR6mGu8kK8RFY",
@@ -83,6 +123,14 @@
     {
       "type": "shop",
       "id": 754
+    },
+    {
+      "type": "shop",
+      "id": 7420
+    },
+    {
+      "type": "shop",
+      "id": 7421
     }
   ]
 }
