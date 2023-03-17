@@ -30,8 +30,18 @@
     {
       "url": "https://www.instagram.com/catiscatcomhk/",
       "meta": {
+        "website": "http://www.catiscat.com.hk/",
         "name": "天下貓貓一樣貓",
         "about": "貓是貓"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC3go8pjkb6jVLDfFa1VB8Jw",
+      "meta": {
+        "id": "UC3go8pjkb6jVLDfFa1VB8Jw",
+        "location": "Hong Kong",
+        "name": "catiscat.com.hk天下貓貓一樣貓",
+        "about": "天下貓貓一樣貓\nwww.catiscat.com.hk"
       }
     }
   ],
@@ -72,12 +82,29 @@
       "area": {
         "zh": "元朗區"
       }
+    },
+    {
+      "address": {
+        "zh": "太子基隆街34號"
+      },
+      "googleMapsPlaceId": "ChIJryJIjKIBBDQRP7_CukSCJOk",
+      "coordinates": {
+        "lat": 22.3252253,
+        "lng": 114.16688
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 369
+    },
+    {
+      "type": "shop",
+      "id": 7456
     }
   ]
 }
