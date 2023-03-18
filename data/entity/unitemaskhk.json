@@ -25,26 +25,19 @@
         "single_line_address": "Hong Kong, Hong Kong",
         "link": "https://www.facebook.com/100688131576851"
       }
+    },
+    {
+      "url": "https://www.instagram.com/unite_mask_hk/",
+      "meta": {
+        "website": "https://bit.ly/3An0R6X",
+        "name": "同舟Unite Mask HK",
+        "about": "香港人口罩品牌\n以#同舟共濟 寄寓香港人團結互助\n風雨同行定能走出困局，實踐#港人自救\nSHOP HERE👇🏻"
+      }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/unitemaskhk/posts/101873068125024",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/unitemaskhk/posts/173558754289788",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/unitemaskhk/posts/333044381674557",
-      "meta": {
-        "sharedWith": "Public"
-      }
+      "url": "https://www.facebook.com/yellowbluemap/posts/222191546032284/"
     }
   ],
   "tags": [
@@ -130,86 +123,18 @@
     {
       "type": "shop",
       "id": 7220
-    }
-  ],
-  "places": [
-    {
-      "address": {
-        "zh": "火炭坳背灣街57號利達工業中心地下7A鋪 小魔怪"
-      },
-      "googleMapsPlaceId": "ChIJ07YsvDQGBDQRfHx2wCfD_KM",
-      "coordinates": {
-        "lat": 22.3992402,
-        "lng": 114.1927027
-      },
-      "area": {
-        "zh": "沙田區"
-      }
     },
     {
-      "address": {
-        "zh": "觀塘成業街16號怡生工業中心地下F號鋪 小魔怪"
-      },
-      "googleMapsPlaceId": "ChIJLQWLO0UBBDQRZfrmv1bDFqM",
-      "coordinates": {
-        "lat": 22.30972359999999,
-        "lng": 114.2260493
-      },
-      "area": {
-        "zh": "觀塘區"
-      }
+      "type": "shop",
+      "id": 7429
     },
     {
-      "address": {
-        "zh": "尖沙咀金馬倫道17號地下A號舖 小魔怪"
-      },
-      "googleMapsPlaceId": "ChIJpXwTd-4ABDQRW06htcDsG1U",
-      "coordinates": {
-        "lat": 22.29914,
-        "lng": 114.173915
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
+      "type": "shop",
+      "id": 7430
     },
     {
-      "address": {
-        "zh": "九龍灣宏開道8號其士商業中心地下6號舖 小魔怪"
-      },
-      "googleMapsPlaceId": "ChIJa2gNWzQBBDQRkC-gT_IihNs",
-      "coordinates": {
-        "lat": 22.3213269,
-        "lng": 114.2112792
-      },
-      "area": {
-        "zh": "觀塘區"
-      }
-    },
-    {
-      "address": {
-        "zh": "德輔道中59號中南行地下 文具佬"
-      },
-      "googleMapsPlaceId": "ChIJJaHJW2MABDQRiqHmwqGhGms",
-      "coordinates": {
-        "lat": 22.28355,
-        "lng": 114.1568416
-      },
-      "area": {
-        "zh": "中西區"
-      }
-    },
-    {
-      "address": {
-        "zh": "新蒲崗大有街1號勤達中心地下C鋪"
-      },
-      "googleMapsPlaceId": "ChIJrX0vb9oGBDQRhhJKK99Z3Yo",
-      "coordinates": {
-        "lat": 22.3387447,
-        "lng": 114.1995296
-      },
-      "area": {
-        "zh": "黃大仙區"
-      }
+      "type": "shop",
+      "id": 7431
     }
   ]
 }
