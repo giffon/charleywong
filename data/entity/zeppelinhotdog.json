@@ -168,17 +168,17 @@
     {
       "url": "https://www.instagram.com/zeppelinhotdog/",
       "meta": {
-        "website": "https://youtu.be/uIBX1Kanrxc",
+        "website": "http://linktr.ee/zeppelinkitchen",
         "name": "Zeppelin Hot Dog",
-        "about": "🌭火炙芝士辣肉醬熱狗🌶\nHK local brand\n@zeppelinkitchen\nFind us at : hong kong everywhere!\nwww.zeppelinhotdog.com\nwww.zeppelinmall.com\n正片👇🏼👇🏼👇🏼"
+        "about": "🌭火炙芝士辣肉醬熱狗🌶\nHK local brand\n@zeppelinkitchen\nFind us at : hong kong everywhere!\nwww.zeppelinhotdog.com\nwww.zeppelinmall.com\nZEPPELIN最新動向："
       }
     },
     {
       "url": "https://www.instagram.com/zeppelinkitchen/",
       "meta": {
-        "website": "https://docs.google.com/forms/d/e/1FAIpQLSdsyqdJot2yIPedIYCTdy_hgKLwuBoqxxFa3G-rlMUD_ohKVg/viewform?usp=sf_link",
+        "website": "https://linktr.ee/zeppelinkitchen",
         "name": "zeppelinkitchen",
-        "about": "Zeppelin kitchen 、Zeppelin Mall、《齊茶》\n提供火鍋燒肉、食材送餐服務、到會服務。\nZeppelin Mall:👉🏻www.zeppelinmall.com"
+        "about": "Zeppelin kitchen 、Zeppelin Mall、《齊茶》\n提供火鍋燒肉、食材送餐服務。\n立即享受優惠："
       }
     },
     {
@@ -237,6 +237,19 @@
   "places": [
     {
       "address": {
+        "zh": "中文大學梁雄姬樓地下低層新亞書院學生飯堂"
+      },
+      "googleMapsPlaceId": "ChIJ1T2h4psIBDQR_UKn870Sk5c",
+      "coordinates": {
+        "lat": 22.4210186,
+        "lng": 114.2092077
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
         "zh": "上環荷里活道186 荷里活大樓地下B1鋪"
       },
       "googleMapsPlaceId": "ChIJR_kJuH4ABDQRPJkSUHVEdAs",
@@ -252,10 +265,10 @@
       "address": {
         "zh": "新界葵涌景荔徑8號盈暉薈1樓104號鋪"
       },
-      "googleMapsPlaceId": "ChIJEV6VA6z4AzQRegnKNvss3_0",
+      "googleMapsPlaceId": "ChIJOSoCEsT5AzQRnFIf4pnhEXQ",
       "coordinates": {
-        "lat": 22.341682,
-        "lng": 114.13752
+        "lat": 22.3413563,
+        "lng": 114.1365501
       },
       "area": {
         "zh": "深水埗區"
@@ -692,12 +705,12 @@
     },
     {
       "address": {
-        "zh": "堅尼地城士美菲路71-77號"
+        "zh": "堅尼地城卑路乍街7-11號海都樓地下15E號舖"
       },
       "googleMapsPlaceId": "ChIJ44o6dTH_AzQR96Zj9AoRzmY",
       "coordinates": {
-        "lat": 22.2806246,
-        "lng": 114.1287516
+        "lat": 22.2845019,
+        "lng": 114.1315165
       },
       "area": {
         "zh": "中西區"
@@ -933,6 +946,38 @@
     {
       "type": "eat",
       "id": 6887
+    },
+    {
+      "type": "eat",
+      "id": 6979
+    },
+    {
+      "type": "eat",
+      "id": 6981
+    },
+    {
+      "type": "eat",
+      "id": 6982
+    },
+    {
+      "type": "eat",
+      "id": 6983
+    },
+    {
+      "type": "eat",
+      "id": 6984
+    },
+    {
+      "type": "eat",
+      "id": 6985
+    },
+    {
+      "type": "eat",
+      "id": 6986
+    },
+    {
+      "type": "eat",
+      "id": 6987
     },
     {
       "type": "shop",
