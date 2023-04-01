@@ -9,6 +9,9 @@
       "url": "https://www.many.hk"
     },
     {
+      "url": "https://www.many.com.tw"
+    },
+    {
       "meta": {
         "id": "284019865315406",
         "username": "manystationery",
@@ -28,6 +31,41 @@
         "link": "https://www.facebook.com/284019865315406"
       },
       "url": "https://www.facebook.com/manystationery/"
+    },
+    {
+      "url": "https://www.facebook.com/100172659568790/",
+      "meta": {
+        "id": "100172659568790",
+        "name": "文林文具",
+        "category_list": [
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          },
+          {
+            "id": "178680352174443",
+            "name": "Toy Store"
+          },
+          {
+            "id": "209535879087405",
+            "name": "Big Box Retailer"
+          }
+        ],
+        "emails": [
+          "manyhktw@gmail.com"
+        ],
+        "single_line_address": "Taipei, Taiwan",
+        "link": "https://www.facebook.com/100172659568790"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/many.stationery/",
+      "hidden": true,
+      "meta": {
+        "website": "http://www.many.com.tw/",
+        "name": "文林文具",
+        "about": "｜文具批發｜辦公室用品｜禮品印刷｜TOMICA批發｜"
+      }
     }
   ],
   "posts": [
@@ -56,7 +94,7 @@
   "places": [
     {
       "address": {
-        "en": "65 G/F., Un Chau Street, Shamshuipo"
+        "zh": "香港九龍深水埗元州街65A號地下"
       },
       "googleMapsPlaceId": "ChIJWzZwtbQABDQRy1mRwqhKeQs",
       "coordinates": {
@@ -65,6 +103,19 @@
       },
       "area": {
         "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "台北市中山區南京東路三段219號9樓"
+      },
+      "googleMapsPlaceId": "ChIJT3kS-92rQjQR_kD8olEJxHE",
+      "coordinates": {
+        "lat": 25.052128,
+        "lng": 121.5432529
+      },
+      "area": {
+        "zh": "臺灣"
       }
     }
   ],
