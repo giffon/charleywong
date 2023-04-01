@@ -74,19 +74,6 @@
   "places": [
     {
       "address": {
-        "zh": "深井深井村54-55號地下 (光榮冰室)"
-      },
-      "googleMapsPlaceId": "ChIJU0816lz5AzQRi_eUym_4HBU",
-      "coordinates": {
-        "lat": 22.3671558,
-        "lng": 114.0590113
-      },
-      "area": {
-        "zh": "荃灣區"
-      }
-    },
-    {
-      "address": {
         "zh": "荃灣兆和街18號地下 (光榮冰室)"
       },
       "googleMapsPlaceId": "ChIJ05H_qAn5AzQR0LllSB-1TfI",
@@ -96,19 +83,6 @@
       },
       "area": {
         "zh": "荃灣區"
-      }
-    },
-    {
-      "address": {
-        "zh": "尖沙咀厚福街5-6號地下6號 (光榮冰室)"
-      },
-      "googleMapsPlaceId": "ChIJkw_ScfoBBDQRsMtcP0S0-o4",
-      "coordinates": {
-        "lat": 22.2994675,
-        "lng": 114.1742414
-      },
-      "area": {
-        "zh": "油尖旺區"
       }
     },
     {
@@ -126,15 +100,15 @@
     },
     {
       "address": {
-        "zh": "九龍灣常悅道23號地下 (光榮美食)"
+        "zh": "元朗教育路44,46及50號兆明樓地下B舖"
       },
-      "googleMapsPlaceId": "ChIJR08PLlsBBDQRJIO15kcl6x8",
+      "googleMapsPlaceId": "ChIJgUmKleTxAzQRj-qDgsTuQ74",
       "coordinates": {
-        "lat": 22.3219848,
-        "lng": 114.2106995
+        "lat": 22.4431348,
+        "lng": 114.0269819
       },
       "area": {
-        "zh": "觀塘區"
+        "zh": "元朗區"
       }
     },
     {
@@ -152,15 +126,28 @@
     },
     {
       "address": {
-        "zh": "元朗教育路44,46及50號兆明樓地下B舖"
+        "zh": "九龍灣常悅道23號地下 (光榮美食)"
       },
-      "googleMapsPlaceId": "ChIJgUmKleTxAzQRj-qDgsTuQ74",
+      "googleMapsPlaceId": "ChIJR08PLlsBBDQRJIO15kcl6x8",
       "coordinates": {
-        "lat": 22.4431348,
-        "lng": 114.0269819
+        "lat": 22.3219848,
+        "lng": 114.2106995
       },
       "area": {
-        "zh": "元朗區"
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀厚福街5-6號地下6號 (光榮冰室)"
+      },
+      "googleMapsPlaceId": "ChIJkw_ScfoBBDQRsMtcP0S0-o4",
+      "coordinates": {
+        "lat": 22.2994675,
+        "lng": 114.1742414
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     },
     {
@@ -174,6 +161,19 @@
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "深井深井村54號地下 (全記燒臘米線)"
+      },
+      "googleMapsPlaceId": "ChIJU0816lz5AzQRi_eUym_4HBU",
+      "coordinates": {
+        "lat": 22.3671558,
+        "lng": 114.0590113
+      },
+      "area": {
+        "zh": "荃灣區"
       }
     }
   ],
