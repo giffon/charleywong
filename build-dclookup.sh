@@ -1,1 +1,0 @@
-npx browserify lib/HKAddressParser/web/src/utils/dclookup.js --standalone dclookup -t [ babelify --plugins [ @babel/plugin-transform-modules-commonjs ] ] > dclookup.js
