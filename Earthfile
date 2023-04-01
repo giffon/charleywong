@@ -172,6 +172,8 @@ devcontainer:
     COPY --chown=$USER_UID:$USER_GID .devcontainer/direnv.toml /home/$USERNAME/.config/direnv/config.toml
 
     WORKDIR /workspace
+    COPY +hkgs-dataset-district-boundary/DCD.json data/hkgs/DCD.json
+    VOLUME /workspace/data/hkgs
     COPY +node-modules-dev/node_modules node_modules
     VOLUME /workspace/node_modules
     COPY +dts2hx/dts2hx lib/dts2hx
@@ -262,7 +264,7 @@ node-modules-dev:
 
 dts2hx:
     FROM +node-modules-dev
-    RUN npx dts2hx @types/node cross-fetch @types/chrome abort-controller fastify sitemap nroonga --noLibWrap --useSystemHaxe --output lib/dts2hx
+    RUN npx dts2hx @types/node cross-fetch @types/chrome @types/which-polygon abort-controller fastify sitemap nroonga --noLibWrap --useSystemHaxe --output lib/dts2hx
     RUN find lib/dts2hx -name "*.hx" -exec sed -i s/ajv.lib.ajv.[A-Za-z0-9]*/Dynamic/g {} \;
     # Remove the FastifyServerOptions with incorrect numbers of type params.
     RUN perl -i -pe 's/FastifyServerOptions(?!<[^,>]+,[^,>]+>)(<.+?>)?/Dynamic/g' lib/dts2hx/fastify/FastifyServerOptions.hx
@@ -282,7 +284,6 @@ entity-index-exporter:
 entity-index:
     FROM +devcontainer
     COPY static static
-    COPY +dclookup/* .
     COPY +hkbase-directory/* .
     COPY +entity-index-exporter/exportEntityIndex.js .
     COPY data/entity data/entity
@@ -306,7 +307,6 @@ hkbase-directory:
 
 ybm-download:
     FROM +devcontainer
-    COPY +dclookup/* .
     COPY lib/hxnodelibs lib/hxnodelibs
     COPY haxe_libraries haxe_libraries
     COPY src src
@@ -335,9 +335,17 @@ ybm-pretty:
     RUN find ybm -name '*.json' -exec sh -c 'jq . {} | sponge {}' \;
     SAVE ARTIFACT --keep-ts ybm AS LOCAL ./ybm
 
+hkgs-dataset-district-boundary:
+    WORKDIR /tmp
+    # Administrative Area -> District Boundary
+    # https://portal.csdi.gov.hk/
+    RUN curl -fsSL "https://static.csdi.gov.hk/csdi-webpage/download/common/71ee5df3d082174bd2331e19157c3f670427ba501bf1ff5f6b9439e036ce293e" -o boundary.zip
+    RUN unzip boundary.zip
+    SAVE ARTIFACT --keep-ts DCD.json AS LOCAL ./data/hkgs/DCD.json
+    SAVE IMAGE --cache-hint
+
 exportSpreadsheet.js:
     FROM +devcontainer
-    COPY +dclookup/* .
     COPY lib/hxnodelibs lib/hxnodelibs
     COPY haxe_libraries haxe_libraries
     COPY src src
@@ -383,7 +391,6 @@ exportSpreadsheet:
     RUN yarn
     COPY +awscli/aws /aws
     RUN /aws/install
-    COPY +dclookup/* .
     # COPY +node-modules-dev/node_modules node_modules
     COPY +entity-index/groonga data/groonga
     COPY +exportSpreadsheet.js/exportSpreadsheet.js .
@@ -410,7 +417,6 @@ test-build:
 
 test:
     FROM +devcontainer
-    COPY +dclookup/* .
     COPY lib/hxnodelibs lib/hxnodelibs
     COPY haxe_libraries haxe_libraries
     COPY src src
@@ -428,19 +434,10 @@ tailwind:
     RUN NODE_ENV=production yarn tailwind
     SAVE ARTIFACT static/css/tailwind.css
 
-dclookup:
-    FROM +devcontainer
-    COPY lib/HKAddressParser lib/HKAddressParser
-    COPY esbuild.js package.json .
-    RUN yarn dclookup
-    SAVE ARTIFACT dclookup.js
-    SAVE IMAGE --cache-hint
-
 service-worker:
     FROM +devcontainer
     COPY haxe_libraries haxe_libraries
     COPY lib/hxnodelibs lib/hxnodelibs
-    COPY lib/HKAddressParser lib/HKAddressParser
     COPY lib/workbox lib/workbox
     COPY src src
     COPY .haxerc esbuild.js serviceWorker.hxml .
@@ -458,7 +455,6 @@ server-script:
     FROM +browser-script
     COPY static static
     COPY +tailwind/tailwind.css static/css/tailwind.css
-    COPY +dclookup/* .
     COPY server.hxml .
     RUN haxe server.hxml
     SAVE ARTIFACT index.js
@@ -467,7 +463,6 @@ chrome-extension:
     FROM +devcontainer
     COPY haxe_libraries haxe_libraries
     COPY lib/hxnodelibs lib/hxnodelibs
-    COPY lib/HKAddressParser lib/HKAddressParser
     COPY lib/workbox lib/workbox
     COPY src src
     COPY .haxerc esbuild.js chrome-extension.hxml .
@@ -498,7 +493,6 @@ lambda-container:
     COPY +entity-index/groonga data/groonga
     COPY +ybm/* ybm
     COPY +hkbase-directory/* .
-    COPY +dclookup/* .
     COPY +browser-script/* static
     COPY +service-worker/* static
     COPY +tailwind/* static/css
@@ -600,7 +594,6 @@ syncFacebook.js:
     COPY haxe_libraries haxe_libraries
     COPY src src
     COPY static static
-    COPY +dclookup/* .
     COPY .haxerc syncFacebook.hxml package.json yarn.lock .
     RUN haxe syncFacebook.hxml
     SAVE ARTIFACT syncFacebook.js
@@ -611,7 +604,6 @@ syncFacebook:
     RUN git checkout -- . && rm -r data
     COPY data data
     COPY +syncFacebook.js/* .
-    COPY +dclookup/* .
     RUN --no-cache \
         --mount=type=secret,id=+secrets/.envrc,target=.envrc \
         . ./.envrc \

@@ -8,7 +8,6 @@
     "test": "test"
   },
   "scripts": {
-    "dclookup": "node esbuild.js lib/HKAddressParser/web/src/utils/dclookup.js dclookup.js cjs",
     "dts2hx-workbox": "dts2hx workbox-core workbox-routing workbox-recipes workbox-cacheable-response workbox-expiration workbox-navigation-preload --noLibWrap --output lib/workbox",
     "tailwind": "tailwindcss -o static/css/tailwind.css --minify",
     "start": "nodemon -L index.js",
@@ -38,9 +37,11 @@
     "jsdom": "21.1.1",
     "nodejieba": "2.6.0",
     "nroonga": "0.4.3",
+    "proj4": "2.9.0",
     "react": "16.14.0",
     "react-dom": "16.14.0",
-    "sitemap": "7.1.1"
+    "sitemap": "7.1.1",
+    "which-polygon": "2.2.1"
   },
   "devDependencies": {
     "@esbuild-plugins/node-globals-polyfill": "0.1.1",
@@ -48,6 +49,7 @@
     "@material-ui/core": "4.12.4",
     "@types/chrome": "0.0.227",
     "@types/node": "16.11.41",
+    "@types/which-polygon": "2.2.0",
     "abort-controller": "3.0.0",
     "ajv-cli": "5.0.0",
     "copy-to-clipboard": "3.3.3",

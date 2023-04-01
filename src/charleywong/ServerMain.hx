@@ -3,7 +3,6 @@ package charleywong;
 import sys.FileSystem;
 import CrossFetch.fetch;
 import node.url.URLSearchParams;
-import js.npm.hk_address_parser_lib.Dclookup;
 import js.npm.nodejieba.Nodejieba;
 import js.lib.Promise;
 import js.npm.jimp.Jimp;
@@ -861,12 +860,12 @@ class ServerMain {
                                 trace('No country info for ${p.googleMapsPlaceId}.');
                                 null;
                             case { short_name: "HK" }:
-                                switch (Dclookup.dcNameFromCoordinates(p.coordinates.lat, p.coordinates.lng)["2015"]) {
+                                switch (HKDistricts.fromCoordinates(p.coordinates.lat, p.coordinates.lng)) {
                                     case null:
                                         trace('Unknown district for ${p.googleMapsPlaceId}.');
                                         null;
                                     case dc:
-                                        { zh: dc.district };
+                                        { zh: dc.NAME_TC };
                                 }
                             case { short_name: "TW" }: { zh: "臺灣" };
                             case { short_name: code, long_name: name }:

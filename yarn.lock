@@ -1969,6 +1969,11 @@
   resolved "https://registry.npmjs.org/@types/filewriter/-/filewriter-0.0.29.tgz"
   integrity sha512-BsPXH/irW0ht0Ji6iw/jJaK8Lj3FJemon2gvEqHKpCdDCeemHa+rI3WBGq5z7cDMZgoLjY40oninGxqk+8NzNQ==
 
+"@types/geojson@*":
+  version "7946.0.10"
+  resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-7946.0.10.tgz#6dfbf5ea17142f7f9a043809f1cd4c448cb68249"
+  integrity sha512-Nmh0K3iWQJzniTuPRcJn5hxXkfB1T1pgB89SBig5PlJQU5yocazeu4jATJlaA0GYFKWMqDdvYemoSnF2pXgLVA==
+
 "@types/har-format@*":
   version "1.2.6"
   resolved "https://registry.npmjs.org/@types/har-format/-/har-format-1.2.6.tgz"
@@ -2006,6 +2011,11 @@
   resolved "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.3.tgz"
   integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
 
+"@types/rbush@*":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@types/rbush/-/rbush-3.0.0.tgz#b6887d99b159e87ae23cd14eceff34f139842aa6"
+  integrity sha512-W3ue/GYWXBOpkRm0VSoifrP3HV0Ni47aVJWvXyWMcbtpBy/l/K/smBRiJ+fI8f7shXRjZBiux+iJzYbh7VmcZg==
+
 "@types/react-transition-group@^4.2.0":
   version "4.4.0"
   resolved "https://registry.npmjs.org/@types/react-transition-group/-/react-transition-group-4.4.0.tgz"
@@ -2042,6 +2052,14 @@
   integrity sha512-dqYdvN7Sbw8QT/0Ci5rhjE4/iCMJEM0Y9rHpCu+gGXD9Lwbz28t6HI2yegsB6BoV1sShRMU6lAmAcgRjmFy7LA==
   dependencies:
     "@types/node" "*"
+
+"@types/which-polygon@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@types/which-polygon/-/which-polygon-2.2.0.tgz#27a3993a4c4dc8283a2813d02af2be86f5fdd221"
+  integrity sha512-AzbxModnltxXMXAmXaId7L1NZOBsRqG0M6JcAPi4GyMFNvHuC2Yo422HyXursFkD+h1mlhHqNxexQ6vWlQ7fIA==
+  dependencies:
+    "@types/geojson" "*"
+    "@types/rbush" "*"
 
 abab@^2.0.6:
   version "2.0.6"
@@ -6997,6 +7015,14 @@ process@~0.5.1:
   resolved "https://registry.npmjs.org/process/-/process-0.5.2.tgz"
   integrity sha1-FjjYqONML0QKkduVq5rrZ3/Bhc8=
 
+proj4@2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/proj4/-/proj4-2.9.0.tgz#1b61db8c998313f80e2514609b339fb2d28cbb82"
+  integrity sha512-BoDXEzCVnRJVZoOKA0QHTFtYoE8lUxtX1jST38DJ8U+v1ixY70Kpwi0Llu6YqSWEH2xqu4XMEBNGcgeRIEywoA==
+  dependencies:
+    mgrs "1.0.0"
+    wkt-parser "^1.3.1"
+
 proj4@^2.5.0:
   version "2.6.2"
   resolved "https://registry.npmjs.org/proj4/-/proj4-2.6.2.tgz"
@@ -8840,6 +8866,14 @@ which-module@^1.0.0:
   resolved "https://registry.npmjs.org/which-module/-/which-module-1.0.0.tgz"
   integrity sha1-u6Y8qGGUiZT/MHc2CJ47lgJsKk8=
 
+which-polygon@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/which-polygon/-/which-polygon-2.2.1.tgz#093d76c9628ee12bfae39448609accbdcc268c31"
+  integrity sha512-RlpWbqz12OMT0r2lEHk7IUPXz0hb1L/ZZsGushB2P2qxuBu1aq1+bcTfsLtfoRBYHsED6ruBMiwFaidvXZfQVw==
+  dependencies:
+    lineclip "^1.1.5"
+    rbush "^2.0.1"
+
 which-typed-array@^1.1.2:
   version "1.1.2"
   resolved "https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.2.tgz"
@@ -8882,6 +8916,11 @@ wkt-parser@^1.2.4:
   version "1.2.4"
   resolved "https://registry.npmjs.org/wkt-parser/-/wkt-parser-1.2.4.tgz"
   integrity sha512-ZzKnc7ml/91fOPh5bANBL4vUlWPIYYv11waCtWTkl2TRN+LEmBg60Q1MA8gqV4hEp4MGfSj9JiHz91zw/gTDXg==
+
+wkt-parser@^1.3.1:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/wkt-parser/-/wkt-parser-1.3.2.tgz#deeff04a21edc5b170a60da418e9ed1d1ab0e219"
+  integrity sha512-A26BOOo7sHAagyxG7iuRhnKMO7Q3mEOiOT4oGUmohtN/Li5wameeU4S6f8vWw6NADTVKljBs8bzA8JPQgSEMVQ==
 
 word-wrap@~1.2.3:
   version "1.2.3"

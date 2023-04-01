@@ -7,6 +7,3 @@
 [submodule "lib/chrome.extension"]
 	path = lib/chrome.extension
 	url = https://github.com/andyli/chrome.extension.git
-[submodule "lib/HKAddressParser"]
-	path = lib/HKAddressParser
-	url = https://github.com/g0vhk-io/HKAddressParser.git
