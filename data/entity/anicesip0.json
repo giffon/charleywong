@@ -37,7 +37,15 @@
       "url": "https://www.instagram.com/anicesip_belfast/",
       "meta": {
         "name": "A Nice Sip",
-        "about": "OPEN 7 DAYS A WEEK 11AM - 7:30PM\n🧋x 🧇\nOriginal #bubbletea #bubblewaffle at"
+        "about": "OPEN 7 DAYS A WEEK 11AM - 6:30PM\n🧋x 🧇\nOriginal #bubbletea #bubblewaffle at"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/anicesip_loughborough/",
+      "meta": {
+        "website": "https://maps.app.goo.gl/dadpNwHrpBK2odr47?g_st=iw",
+        "name": "A Nice Sip Loughborough 賞茶",
+        "about": "Bubble Tea brand from Hong Kong\n🧋x🍣x🧇x🍨\n#bubbletea #tea #fruittea #sushi #bubblewaffle #loughborough #賞茶 #英國 #珍珠 #珍珠奶茶"
       }
     },
     {
@@ -112,6 +120,25 @@
       }
     },
     {
+      "url": "https://www.facebook.com/103921439241409/",
+      "meta": {
+        "id": "103921439241409",
+        "name": "A Nice Sip 賞茶 - Loughborough",
+        "category_list": [
+          {
+            "id": "1083443491742919",
+            "name": "Bubble Tea Shop"
+          },
+          {
+            "id": "199035016778342",
+            "name": "Japanese Restaurant"
+          }
+        ],
+        "single_line_address": "44 Market Street, LE11 3ER Loughborough",
+        "link": "https://www.facebook.com/103921439241409"
+      }
+    },
+    {
       "url": "https://twitter.com/nice_sip",
       "hidden": true
     }
@@ -150,6 +177,19 @@
       "coordinates": {
         "lat": 54.5826764,
         "lng": -5.9365928
+      },
+      "area": {
+        "zh": "英國"
+      }
+    },
+    {
+      "address": {
+        "en": "44 Market Street, Loughborough LE11 3ER"
+      },
+      "googleMapsPlaceId": "ChIJ6xXfZ3PheUgRl7GmWemBubc",
+      "coordinates": {
+        "lat": 52.77162490000001,
+        "lng": -1.2084785
       },
       "area": {
         "zh": "英國"
