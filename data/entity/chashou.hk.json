@@ -36,9 +36,8 @@
     {
       "url": "https://www.instagram.com/chashou.hk/",
       "meta": {
-        "website": "https://bit.ly/3OVjsug",
         "name": "茶匠Chashou🍵🍃",
-        "about": "我地係一間土炮港式手搖飲品店🍵🧋\n📍藍田店📍荔枝角店\n📍將軍澳店 📍尖沙咀店\n📍西灣河店 📍新蒲崗店\n📍元朗店 📍荃灣店 📍東涌店\n🔥外賣落單自取請致電各分店電話聯絡\n.\n📨 合作事宜/加入我們：65985699 周先生\n接受詢問/應援及各類活動"
+        "about": "我地係一間土炮港式手搖飲品店🍵🧋\n📍藍田店📍荔枝角店\n📍黃大仙店 📍西灣河店\n📍石門店 📍東涌店\n🔥外賣落單自取請致電各分店電話聯絡\n.\n📨 合作事宜/加入我們：Whatsapp 65985699 周先生\n接受詢問/應援及各類活動"
       }
     }
   ],
@@ -111,19 +110,6 @@
     },
     {
       "address": {
-        "zh": "尖沙咀廣東道80號Cantonyama 1/F, 117-119號鋪"
-      },
-      "googleMapsPlaceId": "ChIJ4STcTlQBBDQRcZQrxgq8xyM",
-      "coordinates": {
-        "lat": 22.298388,
-        "lng": 114.16896
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
         "zh": "西灣河太安樓24A號鋪"
       },
       "googleMapsPlaceId": "ChIJETLWvHYBBDQRRmmiGbZU-Nc",
@@ -150,32 +136,6 @@
     },
     {
       "address": {
-        "zh": "元朗教育路31號地下5B鋪"
-      },
-      "googleMapsPlaceId": "EiMzMSBLYXUgWXVrIFJkLCBZdWVuIExvbmcsIEhvbmcgS29uZyIwEi4KFAoSCZ16N6EK-gM0EbbmogFzg5puEB8qFAoSCV2aSakK-gM0EawcA6vPNsHJ",
-      "coordinates": {
-        "lat": 22.4428667,
-        "lng": 114.0262104
-      },
-      "area": {
-        "zh": "元朗區"
-      }
-    },
-    {
-      "address": {
-        "zh": "荃灣大河道12號地鋪"
-      },
-      "googleMapsPlaceId": "ChIJVRHiVXD5AzQRVhZrUG0nD0s",
-      "coordinates": {
-        "lat": 22.372657,
-        "lng": 114.1164834
-      },
-      "area": {
-        "zh": "荃灣區"
-      }
-    },
-    {
-      "address": {
         "zh": "東涌逸東邨逸東街市地下4鋪"
       },
       "googleMapsPlaceId": "ChIJtYPNzabiAzQRzl6u7B8UrcY",
@@ -191,13 +151,26 @@
       "address": {
         "zh": "黃大仙竹園街市地下83號鋪"
       },
-      "googleMapsPlaceId": "ChIJzzNsSN8GBDQR2CkXegWhKKM",
+      "googleMapsPlaceId": "ChIJ8e4AJrYHBDQRCAlUDdVXHQM",
       "coordinates": {
-        "lat": 22.3449502,
-        "lng": 114.1935096
+        "lat": 22.3450315,
+        "lng": 114.1935073
       },
       "area": {
         "zh": "黃大仙區"
+      }
+    },
+    {
+      "address": {
+        "zh": "石門安群街1號京瑞廣場二期地下G16B鋪"
+      },
+      "googleMapsPlaceId": "ChIJm54U0UYGBDQRKtmFPJqHzTk",
+      "coordinates": {
+        "lat": 22.3887091,
+        "lng": 114.208881
+      },
+      "area": {
+        "zh": "沙田區"
       }
     }
   ],
