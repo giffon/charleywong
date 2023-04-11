@@ -35,6 +35,7 @@
     {
       "url": "https://www.instagram.com/wanahonguk/",
       "meta": {
+        "website": "http://www.wanahong.co.uk/",
         "name": "WaNaHong Oriental Supermarket",
         "about": "🇬🇧 英國亞洲食品超市 全英送貨\n🍜 Asian Food Supermarket\n🚛 £50 Free Delivery in UK"
       }
@@ -428,6 +429,14 @@
   ],
   "places": [
     {
+      "address": {
+        "en": "15-19 Penny Brookes St, East Village, London E20 1BN"
+      },
+      "googleMapsPlaceId": "ChIJKb4G88MddkgRBG1w9gNx960",
+      "coordinates": {
+        "lat": 51.54629329999999,
+        "lng": -0.0044267
+      },
       "area": {
         "zh": "英國"
       }
