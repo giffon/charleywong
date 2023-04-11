@@ -128,6 +128,7 @@ class Importer {
     }
 
     static function importFb(url:URL):Promise<{}> {
+        trace("import fb: " + url);
         if (
             extractFbPost(url) != null ||
             switch (url) {
@@ -140,6 +141,7 @@ class Importer {
                     false;
             }
         ) {
+            trace("importing fb post");
             final url:Promise<String> = if (url.pathname == "/permalink.php") {
                 final params = parseSearch(url.search);
                 Promise.resolve(Path.join([url.origin, url.pathname]) + '?story_fbid=' + params["story_fbid"].urlEncode() + "&id=" + params["id"].urlEncode());
@@ -167,7 +169,7 @@ class Importer {
 
             return url.then(url -> postToServer(
                 {
-                    url: url,
+                        url: url,
                 }
             ));
         }

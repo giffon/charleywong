@@ -15,6 +15,11 @@ import abort_controller.AbortController;
 #end
 
 class Utils {
+    static final fetchHeaders = {
+        "User-Agent": "Mozilla/5.0 (Linux; {Android Version}; {Build Tag etc.}) AppleWebKit/{WebKit Rev} (KHTML, like Gecko) Chrome/{Chrome Rev} Mobile Safari/{WebKit Rev}",
+        // "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+    };
+
     static public function prettyUrl(url:String):String {
         var r = ~/^https?:\/\/(?:www\.)?/;
         var shortUrl = if (r.match(url)) {
@@ -56,7 +61,9 @@ class Utils {
     }
 
     static public function getCanonical(url:String):Promise<Null<String>> {
-        return fetch(url)
+        return fetch(url, {
+            headers: fetchHeaders,
+        })
             .then(r ->
                 if (!r.ok)
                     r.text().then(text ->
@@ -66,18 +73,31 @@ class Utils {
                     r.text()
             )
             .then(text -> {
-                final doc = new JSDOM(text, {
-                    virtualConsole: new VirtualConsole(),
-                }).window.document;
-                final meta:MetaElement = cast doc.querySelector("link[rel='canonical']");
-                if (meta == null) {
-                    trace("No link[rel='canonical']");
-                    trace(text);
-                    url;
-                } else {
-                    final href = meta.getAttribute("href");
-                    href;
-                }
+                #if chrome
+                    final doc = new js.html.DOMParser().parseFromString(text, TEXT_HTML);
+                    final meta:MetaElement = cast doc.querySelector("link[rel='canonical']");
+                    if (meta == null) {
+                        trace("No link[rel='canonical']");
+                        trace(text);
+                        url;
+                    } else {
+                        final href = meta.getAttribute("href");
+                        href;
+                    }
+                #else
+                    final doc = new JSDOM(text, {
+                        virtualConsole: new VirtualConsole(),
+                    }).window.document;
+                    final meta:MetaElement = cast doc.querySelector("link[rel='canonical']");
+                    if (meta == null) {
+                        trace("No link[rel='canonical']");
+                        trace(text);
+                        url;
+                    } else {
+                        final href = meta.getAttribute("href");
+                        href;
+                    }
+                #end
             });
     }
 
@@ -88,9 +108,7 @@ class Utils {
         final abortController = new AbortController();
         Timer.delay(() -> abortController.abort(), 20 * 1000); // 20 seconds
         return fetch(url, {
-            headers: {
-                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
-            },
+            headers: fetchHeaders,
             signal: cast abortController.signal,
         })
             .then(r ->

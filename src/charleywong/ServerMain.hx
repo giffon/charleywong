@@ -466,6 +466,7 @@ class ServerMain {
                         case null:
                             Promise.resolve(reply.status(500).send('${handle} has not been imported yet.'));
                         case e:
+                            // may use https://mbasic.facebook.com/ in the future?
                             Utils.getCanonical(Std.string(url).replace("https://www.facebook.com/", "https://m.facebook.com/"))
                                 .then(url -> {
                                     final r = ~/^https:\/\/www\.facebook\.com\/([^\/]+)\/posts\/([^\/]+)\/([^\/]+)\/$/;
