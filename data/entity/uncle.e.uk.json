@@ -1,0 +1,66 @@
+{
+  "id": "uncle.e.uk",
+  "name": {
+    "en": "Uncle E",
+    "zh": "阿茂"
+  },
+  "webpages": [
+    {
+      "url": "https://www.uncle-e.co.uk"
+    },
+    {
+      "url": "https://www.facebook.com/100816916163519/",
+      "meta": {
+        "id": "100816916163519",
+        "username": "uncle.e.uk",
+        "name": "Uncle E 阿茂",
+        "about": "Uncle E is a group of hardworking bakers. ",
+        "category_list": [
+          {
+            "id": "314853004119510",
+            "name": "Food & Drink"
+          }
+        ],
+        "emails": [
+          "cs@uncle-e.co.uk"
+        ],
+        "single_line_address": "EC2A 2EA London",
+        "website": "https://www.uncle-e.co.uk/",
+        "link": "https://www.facebook.com/100816916163519"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/unclee852/",
+      "meta": {
+        "name": "Uncle E 阿茂",
+        "about": "https://uncle-e.co.uk\nWe are trying to remake of our taste freshly with the ingredients available in the UK.\n我哋係香港嘅烘焙人，想用喺英國買得到嘅材料，新鮮造返我哋熟識嘅風味出嚟。"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://www.facebook.com/uncle.e.uk/posts/117893154451905/"
+    },
+    {
+      "url": "https://www.facebook.com/uncle.e.uk/posts/152990417608845/"
+    }
+  ],
+  "tags": [
+    "food"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "EC2A 2EA London"
+      },
+      "googleMapsPlaceId": "ChIJ3WiPRK4cdkgR0ugBwnnWV_Q",
+      "coordinates": {
+        "lat": 51.5219726,
+        "lng": -0.08415589999999999
+      },
+      "area": {
+        "zh": "英國"
+      }
+    }
+  ]
+}
