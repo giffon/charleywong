@@ -43,6 +43,24 @@
                 "properties": {
                     "url": {
                         "type": "string",
+                        "pattern": "^https?:\/\/(?:www\\.)?twitter\\.com\/"
+                    }
+                }
+            },
+            "then": {
+                "properties": {
+                    "url": {
+                        "type": "string",
+                        "pattern": "^https:\/\/twitter\\.com\/[A-Za-z0-9\\._]+$"
+                    }
+                }
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "url": {
+                        "type": "string",
                         "pattern": "^https?:\/\/[^/]+\/?$"
                     }
                 }
