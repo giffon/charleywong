@@ -200,10 +200,10 @@
     http-errors "2.0.0"
     mime "^3.0.0"
 
-"@fastify/static@6.10.0":
-  version "6.10.0"
-  resolved "https://registry.yarnpkg.com/@fastify/static/-/static-6.10.0.tgz#cdb6a5ddcc3ea8691c79aad0c846bc986a4bc721"
-  integrity sha512-TGruNm6ZabkQz2oRNoarPnY2BvS9i9DNf8Nn1aDcZp+WjOQRPCq0Wy2ko78yGB5JHytdCWoHpprc128QtLl8hw==
+"@fastify/static@6.10.1":
+  version "6.10.1"
+  resolved "https://registry.yarnpkg.com/@fastify/static/-/static-6.10.1.tgz#605e6758b7536089581bb59dbb096d80997327b6"
+  integrity sha512-DNnG+5QenQcTQw37qk0/191STThnN6SbU+2XMpWtpYR3gQUfUvMax14jTT/jqNINNbCkQJaKMnPtpFPKo4/68g==
   dependencies:
     "@fastify/accept-negotiator" "^1.0.0"
     "@fastify/send" "^2.0.0"
