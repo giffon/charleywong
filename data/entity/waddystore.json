@@ -8,49 +8,50 @@
       "url": "https://www.waddystore.com"
     },
     {
-      "url": "https://www.facebook.com/waddystore/",
+      "url": "https://www.facebook.com/waddystorehk/",
       "meta": {
-        "id": "596783367416194",
-        "username": "waddystore",
+        "id": "111618901161320",
+        "username": "waddystorehk",
         "name": "Waddy Store",
-        "about": "💞Pleasure lifestyle.Sex Edu.Sex Positive🌈\nFounded by @waddyandmoomoo\n🇭🇰尖沙咀門市 🕐12pm-11pm\n⛑️保密包裝🚚即日速遞🌍全球送貨\n📲Signal/TG/WtsApp 54047473\n📦852Express/傘兵自取點",
+        "about": "💞Pleasure lifestyle.Sex Edu.Sex Positive🌈\n⛑️保密包裝🚚即日速遞🌍全球送貨",
         "category_list": [
           {
             "id": "200600219953504",
             "name": "Shopping & Retail"
-          },
-          {
-            "id": "139225689474222",
-            "name": "Beauty, Cosmetic & Personal Care"
           }
         ],
         "emails": [
-          "waddystore@gmail.com"
+          "cs@waddystore.com"
         ],
-        "single_line_address": "尖沙咀加拿芬道41-43號 SOLO 1/F 117-118&122室, 香港，香港",
-        "website": "www.waddystore.com"
+        "single_line_address": "加拿分道41-43號 SOLO 1/F 122室, Hong Kong, Hong Kong",
+        "website": "http://linktr.ee/waddystore",
+        "link": "https://www.facebook.com/111618901161320"
       }
     },
     {
-      "url": "https://www.instagram.com/waddystore/",
+      "url": "https://www.instagram.com/waddystore.hk/",
       "meta": {
+        "website": "https://www.waddystore.com/?utm_source=instagram&sl-ref=ighome&utm_medium=social&utm_campaign=ighome",
+        "name": "Waddy Store | 性知識 | 情趣用品 | 成人用品",
+        "about": "香港NO.1情趣生活百貨 👩‍🏫您的性知識懶人包\nFounder @waddyandmoomoo2\n🚚最快即日送達 $299起免運費\n24/7 網店落單 👇\n📦保密包裝\n📱57438289\n門市地址\n🏬尖沙咀店 加拿分道SOLO 1樓122室\n🏬深水埗店 西九龍中心 9樓9056號舖"
+      }
+    },
+    {
+      "url": "https://twitter.com/waddystore"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC4pSAdat44fqNoznjvA7phA",
+      "meta": {
+        "id": "UC4pSAdat44fqNoznjvA7phA",
+        "location": "Hong Kong",
         "name": "Waddy Store 情趣生活百貨",
-        "about": "💞優質情趣體驗 #SexEdu #SexPositive 🌈\n後備帳戶 @waddystore.hk\n親密護理 @waddystore.care\n尖沙咀門市 24/7網店下單\n⛑️保密包裝🚚即日速遞🌍全球送貨\n📲Signal/TG/WTS 54047473\n📦852Express/傘兵自取點"
+        "about": "💞優質情趣生活百貨\nSexEdu and SexPositive 🌈\n\n網店: www.waddystore.com\n\n"
       }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/waddystore/posts/889742404786954",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/waddystore/posts/894215267673001",
-      "meta": {
-        "sharedWith": "Public"
-      }
+      "url": "https://www.instagram.com/p/Cc-yqcOJAZf/"
     }
   ],
   "tags": [
@@ -66,7 +67,7 @@
   "places": [
     {
       "address": {
-        "zh": "尖沙咀加拿芬道41-43號 SOLO 1/F 117-118&122室"
+        "zh": "尖沙咀 加拿分道SOLO 1樓122室"
       },
       "googleMapsPlaceId": "ChIJ1RtpZYMBBDQRLsW7gqdfN5g",
       "coordinates": {
@@ -75,6 +76,19 @@
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "深水埗 西九龍中心 9樓9056號舖"
+      },
+      "googleMapsPlaceId": "ChIJI7kc3oABBDQRR4hM2K6j4TU",
+      "coordinates": {
+        "lat": 22.3310175,
+        "lng": 114.1598202
+      },
+      "area": {
+        "zh": "深水埗區"
       }
     }
   ]
