@@ -6,6 +6,9 @@
   },
   "webpages": [
     {
+      "url": "http://www.wisdomregen.org.hk"
+    },
+    {
       "url": "https://www.facebook.com/WisdomRegeneration/",
       "meta": {
         "id": "1209912099085633",
@@ -33,32 +36,27 @@
         "website": "http://www.wisdomregen.org.hk/",
         "link": "https://www.facebook.com/1209912099085633"
       }
-    }
-  ],
-  "posts": [
+    },
     {
-      "url": "https://www.facebook.com/WisdomRegeneration/posts/2345151918894973",
+      "url": "https://www.instagram.com/wisdom_regeneration/",
       "meta": {
-        "sharedWith": "Public"
+        "website": "http://www.wisdomregen.org.hk/",
+        "name": "智在環保",
+        "about": "wisdom_regeneration🌳\n宗旨:\n1. 關心環境保育達致社區可持續發展\n2. 透過宣傳教育家居廢物從源頭做起"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCFscJQBUBgrPxhTxFPcuDtg",
+      "meta": {
+        "id": "UCFscJQBUBgrPxhTxFPcuDtg",
+        "location": "Hong Kong",
+        "name": "WISDOM REGENERATION",
+        "about": ""
       }
     }
   ],
+  "posts": [],
   "tags": [
     "organization"
-  ],
-  "places": [
-    {
-      "address": {
-        "zh": "西營盤東邊街36號地庫"
-      },
-      "googleMapsPlaceId": "Eh5FYXN0ZXJuIFN0LCBTYWkgV2FuLCBIb25nIEtvbmciLiosChQKEgl78bihgP8DNBF1MOmLIaVrjBIUChIJA1Sz1IT_AzQRamZs71Dwo_s",
-      "coordinates": {
-        "lat": 22.2866217,
-        "lng": 114.1437101
-      },
-      "area": {
-        "zh": "中西區"
-      }
-    }
   ]
 }
