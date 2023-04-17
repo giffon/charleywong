@@ -30,8 +30,9 @@
     {
       "url": "https://www.instagram.com/thekorner_hk/",
       "meta": {
-        "name": "成立六年 過萬舒適好評💕 | 香港品牌 🇭🇰",
-        "about": "#給你雙足每天的舒適應援\n🚛: 全網免港澳運費🇭🇰🇲🇴另支援全球運送🌎\n♻️: 三十天換貨承諾（單品未穿着過狀態）\n🌱: 部份單品選用純素皮革\n📍: 門市設於銅鑼灣 / 尖沙咀 / 荔枝角 / 奧運 / 荃灣 / 觀塘"
+        "website": "http://linktr.ee/the.korner/",
+        "name": "Korner, Walk with us. Since 2015",
+        "about": "𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝘆𝗼𝘂𝗿 𝗱𝗮𝗶𝗹𝘆 𝗰𝗼𝗺𝗳𝗼𝗿𝘁.\nJoin Our Community - #TheKornerGirls 😎\n☘️ — 部分單品選用植物皮革\n📍— 門市於銅鑼灣/尖沙咀/葵芳/旺角/荔枝角/ 觀塘/沙田/元朗/將軍澳/九龍灣/荃灣\n♻️—三十天換貨服務"
       }
     },
     {
@@ -72,6 +73,19 @@
   "places": [
     {
       "address": {
+        "en": "Shop B203, B2/F, K11 Art Mall, Tsim Sha Tsui"
+      },
+      "googleMapsPlaceId": "ChIJPZ-7nLIBBDQRpXN-N2A0RiI",
+      "coordinates": {
+        "lat": 22.29754669999999,
+        "lng": 114.1738661
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
         "en": "Shop 103, 1/F, Lee Theatre, Causeway Bay"
       },
       "googleMapsPlaceId": "ChIJZfvnvOUBBDQR5cHbDJ7J_co",
@@ -85,12 +99,25 @@
     },
     {
       "address": {
-        "en": "Shop 120, 1/F, K11 Art Mall, Tsim Sha Tsui"
+        "en": "UG46, CityWalk 1, Tsuen Wan, N.T."
       },
-      "googleMapsPlaceId": "ChIJPZ-7nLIBBDQRpXN-N2A0RiI",
+      "googleMapsPlaceId": "ChIJGffhM1v5AzQRzgDx7WSoCp8",
       "coordinates": {
-        "lat": 22.2979425,
-        "lng": 114.1735923
+        "lat": 22.3696031,
+        "lng": 114.1136505
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop 211-212, L2, MOKO, Mongkok"
+      },
+      "googleMapsPlaceId": "ChIJH4YgaD4BBDQRPQIPJq1mjhM",
+      "coordinates": {
+        "lat": 22.3232132,
+        "lng": 114.1723265
       },
       "area": {
         "zh": "油尖旺區"
@@ -98,28 +125,54 @@
     },
     {
       "address": {
-        "en": "Shop 214A, 2/F, D2 Place One, Lai Chi Kok"
+        "en": "Shop 127, L1, East Point City, Tseung Kwan O"
       },
-      "googleMapsPlaceId": "ChIJU7i1SDYHBDQRRS_1aU6YQuU",
+      "googleMapsPlaceId": "ChIJix3wVIIFBDQRnSjHcXkfOEA",
       "coordinates": {
-        "lat": 22.3361036,
-        "lng": 114.1489859
+        "lat": 22.3165014,
+        "lng": 114.2653963
       },
       "area": {
-        "zh": "深水埗區"
+        "zh": "西貢區"
       }
     },
     {
       "address": {
-        "en": "UG35, UG, Olympian City II, Olympic"
+        "en": "Shop 9A, Floor G, Telford Plaza Phase 1, Kowloon Bay"
       },
-      "googleMapsPlaceId": "ChIJiSenLPwBBDQRlcRfcjncCSU",
+      "googleMapsPlaceId": "ChIJseEaCEIHBDQRmKUd_QuoPok",
       "coordinates": {
-        "lat": 22.315912,
-        "lng": 114.1634398
+        "lat": 22.3266646,
+        "lng": 114.2078426
       },
       "area": {
-        "zh": "油尖旺區"
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "en": "YOHO MALL II 1/F A126, Yuen Long"
+      },
+      "googleMapsPlaceId": "ChIJuQv4qCrxAzQRw1RK9JDtWlM",
+      "coordinates": {
+        "lat": 22.4456383,
+        "lng": 114.0351895
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop 342, 3/F, Metroplaza, Kwai Fong"
+      },
+      "googleMapsPlaceId": "ChIJw4nb7xH5AzQR01_kk65lQT8",
+      "coordinates": {
+        "lat": 22.3573761,
+        "lng": 114.1262894
+      },
+      "area": {
+        "zh": "葵青區"
       }
     },
     {
@@ -137,15 +190,41 @@
     },
     {
       "address": {
-        "en": "Citi Store 2/F, Tsuen Wan II, TWTL 301, Tsuen Wan, N.T."
+        "en": "Shop 214A, 2/F, D2 Place One, Lai Chi Kok"
       },
-      "googleMapsPlaceId": "ChIJoWWLP-34AzQR7wlS0vBcvNo",
+      "googleMapsPlaceId": "ChIJU7i1SDYHBDQRRS_1aU6YQuU",
       "coordinates": {
-        "lat": 22.371293,
-        "lng": 114.11905
+        "lat": 22.3361036,
+        "lng": 114.1489859
       },
       "area": {
-        "zh": "荃灣區"
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop G18, T.O.P, 700 Nathan Road, Mongkok"
+      },
+      "googleMapsPlaceId": "ChIJveMrheUBBDQR1mEKQmlqglg",
+      "coordinates": {
+        "lat": 22.3206,
+        "lng": 114.1694808
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "en": "Shop 26, City Link Plaza, Shatin"
+      },
+      "googleMapsPlaceId": "ChIJ6e2GUw0HBDQRR-4IyQwsh2U",
+      "coordinates": {
+        "lat": 22.3824497,
+        "lng": 114.1879721
+      },
+      "area": {
+        "zh": "沙田區"
       }
     }
   ]
