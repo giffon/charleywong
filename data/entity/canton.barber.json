@@ -7,8 +7,9 @@
     {
       "url": "https://www.instagram.com/canton.barber/",
       "meta": {
+        "website": "https://www.fresha.com/providers/canton-barber-mpcr8fyt",
         "name": "CantonBarber",
-        "about": "Quarry Bay :+852 5396-2567\nCauseway Bay :+852 5292-8812\nOr\n👇🏽Online booking"
+        "about": "Quarry Bay :+852 5396-2567\nCauseway Bay :+852 5292-8812\nWan Chai: +852 5640-0468\nOr\n👇🏽Online booking"
       }
     },
     {
@@ -80,12 +81,25 @@
     },
     {
       "address": {
-        "zh": "香港銅鑼灣禮頓道34號地下"
+        "zh": "銅鑼灣禮頓道34號地下"
       },
       "googleMapsPlaceId": "ChIJV2nkWBMBBDQRfjxv1besoMo",
       "coordinates": {
         "lat": 22.2775015,
         "lng": 114.1833619
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "灣仔告士打道171-172號地舖"
+      },
+      "googleMapsPlaceId": "ChIJgebppDMBBDQR3EC5N6zhsgI",
+      "coordinates": {
+        "lat": 22.2797863,
+        "lng": 114.1782356
       },
       "area": {
         "zh": "灣仔區"
