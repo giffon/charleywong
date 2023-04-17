@@ -28,6 +28,14 @@
         "link": "https://www.facebook.com/147231595302164"
       },
       "url": "https://www.facebook.com/go2dplus/"
+    },
+    {
+      "url": "https://www.instagram.com/dplus/",
+      "meta": {
+        "website": "http://www.dplus.com.hk/",
+        "name": "幸福宣言 Dplus",
+        "about": "@dplus | Hong Kong Wedding Photographer\nCapturing love, life and joy of your wedding. Timeless & Ethereal.\nTravel Overseas | Based in Hong Kong"
+      }
     }
   ],
   "posts": [
@@ -38,5 +46,20 @@
   "tags": [
     "photographer",
     "wedding"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "太子 廣東道1155號 日昇廣場 1302室"
+      },
+      "googleMapsPlaceId": "ChIJu1Bj6rcABDQRm58Y-ARV5_4",
+      "coordinates": {
+        "lat": 22.3220992,
+        "lng": 114.1662596
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
