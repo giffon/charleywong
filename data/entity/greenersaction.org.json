@@ -44,45 +44,43 @@
     {
       "url": "https://www.instagram.com/greeners_action/",
       "meta": {
-        "website": "https://www.surveymonkey.com/r/3KKP899",
+        "website": "https://linktr.ee/greenersactionhk",
         "name": "綠領行動 Greeners Action",
-        "about": "使命﹕透過持續的教育、倡議及監察行動，從政府、商界及市民層面研究及提供可行方案，改善環境問題，推動綠色生活。\n膠袋稅網上意見調查 👉🏻"
+        "about": "使命﹕透過持續的教育、倡議及監察行動，從政府、商界及市民層面研究及提供可行方案，改善環境問題，推動綠色生活。"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/100357659585391/",
+      "meta": {
+        "id": "100357659585391",
+        "name": "綠領駅Greeners Fusion",
+        "about": "🌏 環保團體 #綠領行動 #裸買店\n🚰 #裸買_本地_綠領\n🥕沙田食物分享及裸買計劃\n📍：沙田瀝源邨福海樓3樓S9號",
+        "category_list": [
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          }
+        ],
+        "emails": [
+          "greenersfusion@greeners-action.org"
+        ],
+        "single_line_address": "瀝源邨福海樓3樓S9號, 沙田",
+        "website": "https://www.instagram.com/greenersfusion/",
+        "link": "https://www.facebook.com/100357659585391"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/greenersfusion/",
+      "meta": {
+        "website": "https://linktr.ee/greenersfusion",
+        "name": "綠領駅 Greeners Fusion",
+        "about": "🌏 環保團體 #綠領行動 #裸買店\n🚰 #裸買_本地_綠領\n🥕沙田食物分享及裸買計劃\n📍：沙田瀝源邨福海樓3樓S9號\n📞：3618 9958\n🚪：\n🔺星期一、二及四 10:00-18:00\n🔺星期五、六及日 10:00-19:00\n🔺逢星期三、法定假期休息\n💡工作坊報名💡產品目錄💡"
       }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/greenersaction.org/posts/2059500344173435",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/greenersaction.org/posts/2060867497370053:0",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/greenersaction.org/posts/2066538593469610",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
       "url": "https://www.facebook.com/greenersaction.org/posts/2093421104114692",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/greenersaction.org/posts/2147528962037239:0",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/greenersaction.org/posts/2150354645088004:0",
       "meta": {
         "sharedWith": "Public"
       }
@@ -91,5 +89,20 @@
   "tags": [
     "organization",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "沙田瀝源邨福海樓3樓S9號"
+      },
+      "googleMapsPlaceId": "ChIJv0n7SGkHBDQRwAaiLzU3q74",
+      "coordinates": {
+        "lat": 22.385314,
+        "lng": 114.1917274
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    }
   ]
 }
