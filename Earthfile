@@ -27,7 +27,7 @@ devcontainer-base:
     ARG INSTALL_ZSH="false"
     ARG UPGRADE_PACKAGES="true"
     ARG ENABLE_NONROOT_DOCKER="true"
-    ARG USE_MOBY="true"
+    ARG USE_MOBY="false"
     COPY .devcontainer/library-scripts/*.sh /tmp/library-scripts/
     RUN apt-get update \
         && /bin/bash /tmp/library-scripts/common-debian.sh "${INSTALL_ZSH}" "${USERNAME}" "${USER_UID}" "${USER_GID}" "${UPGRADE_PACKAGES}" "true" "true" \
