@@ -103,7 +103,6 @@ devcontainer-base:
 
 # RUN /aws/install
 awscli:
-    FROM +devcontainer-base
     RUN cd / \
         && curl -fsSL "https://awscli.amazonaws.com/awscli-exe-linux-$(uname -m).zip" -o "awscliv2.zip" \
         && unzip -qq awscliv2.zip \
@@ -113,14 +112,13 @@ awscli:
 # COPY +tfenv/tfenv /tfenv
 # RUN ln -s /tfenv/bin/* /usr/local/bin
 tfenv:
-    FROM +devcontainer-base
     RUN git clone --depth 1 https://github.com/tfutils/tfenv.git /tfenv
     SAVE ARTIFACT /tfenv
 
 # COPY +terraform-ls/terraform-ls /usr/local/bin/
 terraform-ls:
     ARG TARGETARCH
-    ARG VERSION=0.30.3
+    ARG VERSION=0.31.0 # https://github.com/hashicorp/terraform-ls/releases
     RUN curl -fsSL -o terraform-ls.zip "https://releases.hashicorp.com/terraform-ls/${VERSION}/terraform-ls_${VERSION}_linux_${TARGETARCH}.zip" \
         && unzip -qq terraform-ls.zip \
         && mv ./terraform-ls /usr/local/bin/ \
@@ -137,9 +135,9 @@ terraform:
 # COPY +earthly/earthly /usr/local/bin/
 # RUN earthly bootstrap --no-buildkit --with-autocomplete
 earthly:
-    FROM +devcontainer-base
     ARG TARGETARCH
-    RUN curl -fsSL https://github.com/earthly/earthly/releases/download/v0.7.1/earthly-linux-${TARGETARCH} -o /usr/local/bin/earthly \
+    ARG VERSION=0.7.4 # https://github.com/earthly/earthly/releases
+    RUN curl -fsSL "https://github.com/earthly/earthly/releases/download/v${VERSION}/earthly-linux-${TARGETARCH}" -o /usr/local/bin/earthly \
         && chmod +x /usr/local/bin/earthly
     SAVE ARTIFACT /usr/local/bin/earthly
 
