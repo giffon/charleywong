@@ -529,7 +529,7 @@ class Importer {
     }
 
     static function igName() {
-        final node = document.getElementsByXPath("//main//header//ul/following-sibling::div/span[1]")[0];
+        final node = document.getElementsByXPath("//main//header//ul/following-sibling::div/*[1]")[0];
         if (node == null)
             return null;
         return node.innerText;
