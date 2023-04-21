@@ -1,8 +1,7 @@
 {
   "id": "magicbox666",
   "name": {
-    "en": "MagicBox",
-    "zh": "魔法盒子"
+    "zh": "晴天妹子精品雜貨店"
   },
   "webpages": [
     {
@@ -20,13 +19,15 @@
         ],
         "single_line_address": "葵涌葵富路7-11號葵涌廣場1樓B63A(3)鋪, Hong Kong, Hong Kong",
         "link": "https://www.facebook.com/317480965374592"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.instagram.com/magicboxminishop/",
       "meta": {
-        "name": "魔法盒子MagicBox",
-        "about": "葵涌廣場格仔舖-魔法盒子有限公司\n▪ 格仔舖🔮招租中, 提供不同優惠， 歡迎查詢！\n▪️有專業格仔舖POS系統管理💻\n▪️免費宣傳 📣\n▪️🕛營業時間： Mon-Sun 13:00-21:00\n▪ Whatsapp📲98803545\n💡本店提供郵寄服務（平郵/順豐）及交收服務"
+        "website": "https://api.whatsapp.com/send?phone=85260150640",
+        "name": "晴天妹子精品雜貨店",
+        "about": "<I-LIGHT 急瘦粉代理>\n專營出售：護膚品、日用品、文具精品，價錢大眾化，每日新貨上架\n▪ 部分貨品接受5件起小量批量， 歡迎查詢！\n取貨地點：葵涌廣場2樓C135號鋪，“啤一Bear格仔屋”I4格\n▪ Whatsapp📲 60150640\n💡本店提供郵寄服務（平郵/順豐）及交收服務"
       }
     }
   ],
@@ -46,19 +47,5 @@
     "accessories",
     "shop"
   ],
-  "places": [
-    {
-      "address": {
-        "zh": "葵涌葵富路7-11號葵涌廣場1樓B63A(3)鋪"
-      },
-      "googleMapsPlaceId": "ChIJOUTkt734AzQR2DIuCxrfkck",
-      "coordinates": {
-        "lat": 22.35843849999999,
-        "lng": 114.1274926
-      },
-      "area": {
-        "zh": "葵青區"
-      }
-    }
-  ]
+  "places": []
 }
