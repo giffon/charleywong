@@ -7,8 +7,9 @@
     {
       "url": "https://www.instagram.com/mingshiangyuan/",
       "meta": {
+        "website": "https://www.facebook.com/mingshiangyuan/",
         "name": "茗香園冰室",
-        "about": "港式點心/茶餐廳/粥粉麵飯/\n中山店。大安店。公館店。板橋店"
+        "about": "中山店。大安店。公館店。板橋店。林口店"
       }
     },
     {
@@ -85,14 +86,29 @@
         "link": "https://www.facebook.com/1980811675338967"
       },
       "hidden": true
+    },
+    {
+      "url": "https://www.facebook.com/111271695003437/",
+      "meta": {
+        "id": "111271695003437",
+        "name": "茗香園冰室 - 林口店",
+        "about": "專門供應茶飲、廣式點心和其他家常港式料理的簡樸餐廳。",
+        "category_list": [
+          {
+            "id": "194588013912896",
+            "name": "Dim Sum Restaurant"
+          }
+        ],
+        "single_line_address": "林口區文化二路一段76號1樓, Xinbei, New Taipei City, Taiwan 244008",
+        "website": "https://instagram.com/mingshiangyuan?igshid=YmMyMTA2M2Y%3D",
+        "link": "https://www.facebook.com/111271695003437"
+      },
+      "hidden": true
     }
   ],
   "posts": [
     {
       "url": "https://www.instagram.com/p/B14A2q-n1nA/"
-    },
-    {
-      "url": "https://www.instagram.com/p/CNAJ_jbnoFz/"
     }
   ],
   "tags": [
@@ -146,6 +162,19 @@
       "coordinates": {
         "lat": 25.0129855,
         "lng": 121.535862
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    },
+    {
+      "address": {
+        "zh": "林口區文化二路一段76號1樓"
+      },
+      "googleMapsPlaceId": "ChIJJWMBjyinQjQRFqnanNqVQbk",
+      "coordinates": {
+        "lat": 25.069162,
+        "lng": 121.3660814
       },
       "area": {
         "zh": "臺灣"
