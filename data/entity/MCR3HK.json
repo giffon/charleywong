@@ -31,6 +31,7 @@
     {
       "url": "https://www.instagram.com/mcr3hk/",
       "meta": {
+        "website": "https://mcr3hk.boutir.com/",
         "name": "MCR3HK",
         "about": "專營代訂各國優質產品及其他潮流物品。"
       }
@@ -42,12 +43,24 @@
       "meta": {
         "sharedWith": "Public"
       }
-    },
-    {
-      "url": "https://www.instagram.com/p/CPsBUDUBDf4/"
     }
   ],
   "tags": [
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "九龍觀塘成業街16號怡生工業中心C座8字C15室"
+      },
+      "googleMapsPlaceId": "ChIJLQWLO0UBBDQRZfrmv1bDFqM",
+      "coordinates": {
+        "lat": 22.30972359999999,
+        "lng": 114.2260493
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
