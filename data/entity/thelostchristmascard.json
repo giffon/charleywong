@@ -1,7 +1,7 @@
 {
   "id": "thelostchristmascard",
   "name": {
-    "zh": "時。格"
+    "zh": "現時格"
   },
   "webpages": [
     {
@@ -25,9 +25,10 @@
       }
     },
     {
-      "url": "https://www.instagram.com/thelostchristmascard/",
+      "url": "https://www.instagram.com/inspoint_110/",
       "meta": {
-        "name": "消失了的聖誕卡"
+        "name": "現時格",
+        "about": "現時點110舖格仔舖\n現有商戶：\n@lanes.hk @chichi_toysland @2tt3ttt @g.g.box852 @hk_aniwhere @penguinyorozuya"
       }
     }
   ],
@@ -43,15 +44,26 @@
       "meta": {
         "sharedWith": "Public"
       }
-    },
-    {
-      "url": "https://www.facebook.com/permalink.php?story_fbid=160068985716073&id=113588067030832",
-      "meta": {
-        "sharedWith": "Public"
-      }
     }
   ],
   "tags": [
-    "media"
+    "toy",
+    "accessories",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "現時點110舖格仔舖"
+      },
+      "googleMapsPlaceId": "ChIJC_IxJ8EABDQRL248DMl1jXA",
+      "coordinates": {
+        "lat": 22.3133363,
+        "lng": 114.1707503
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
