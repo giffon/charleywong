@@ -7,7 +7,7 @@ ARG DEVCONTAINER_IMAGE_NAME_DEFAULT=ghcr.io/giffon/charleywong_devcontainer_work
 ARG LAMBDA_IMAGE_REGISTRY=932878902707.dkr.ecr.us-east-1.amazonaws.com
 ARG LAMBDA_IMAGE_NAME_MASTER=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-master
 ARG LAMBDA_IMAGE_NAME_PRODUCTION=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-production
-ARG NODE_VERSION=14
+ARG NODE_VERSION=18
 
 ARG USERNAME=vscode
 ARG USER_UID=1000
@@ -470,6 +470,11 @@ chrome-extension:
 
 runtime:
     FROM ubuntu:$UBUNTU_RELEASE
+
+    # Required for Node runtimes which use npm@8.6.0+ because
+    # by default npm writes logs under /home/.npm and Lambda fs is read-only
+    ENV NPM_CONFIG_CACHE=/tmp/.npm
+
     ENV DEBIAN_FRONTEND=noninteractive
     RUN apt-get update \
         && apt-get install -yq --no-install-recommends ca-certificates curl groonga groonga-token-filter-stem \
