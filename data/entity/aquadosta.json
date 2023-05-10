@@ -1,13 +1,9 @@
 {
   "id": "aquadosta",
   "name": {
-    "zh": "水漩道游泳治療教室",
-    "en": "Aquado Swimming Therapy Academy"
+    "en": "Aquado Watsu Clinic"
   },
   "webpages": [
-    {
-      "url": "https://www.aquadosta.com"
-    },
     {
       "url": "https://www.facebook.com/aquadosta/",
       "meta": {
@@ -39,8 +35,9 @@
     {
       "url": "https://www.instagram.com/aquadosta/",
       "meta": {
-        "name": "水漩道游泳治療教室 Aquado STA",
-        "about": "香港首位認證國際 watsu practitioner （水療師）\n國際Halliwick 游泳治療導師\n高級游泳教練\n註冊社工/物理治療助理\n水中健體復康導師\n姿勢評估及矯健技巧指導員\n特殊需要人士水中運動導師\n前游泳運動員\n十七年以上游泳教授經驗\nWhatsapp 95789985"
+        "website": "https://bit.ly/watsubooking",
+        "name": "Aquado Watsu clinic",
+        "about": "We are located in Worthing, England.\nProviding Watsu, Aquatic exercise services\nWhatsapp 07562 489783\n#watsu"
       }
     }
   ],
@@ -58,12 +55,6 @@
       }
     },
     {
-      "url": "https://www.facebook.com/aquadosta/posts/418206925532126:0",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
       "url": "https://www.facebook.com/aquadosta/posts/418244268861725",
       "meta": {
         "sharedWith": "Public"
@@ -71,12 +62,6 @@
     },
     {
       "url": "https://www.facebook.com/aquadosta/posts/423470405005778",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/aquadosta/posts/425443301475155",
       "meta": {
         "sharedWith": "Public"
       }
@@ -90,6 +75,13 @@
     {
       "type": "shop",
       "id": 1242
+    }
+  ],
+  "places": [
+    {
+      "area": {
+        "zh": "英國"
+      }
     }
   ]
 }
