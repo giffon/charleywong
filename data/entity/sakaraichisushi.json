@@ -44,6 +44,7 @@
     }
   ],
   "tags": [
+    "japanese",
     "sushi"
   ],
   "yellowBlueMapIds": [
@@ -68,6 +69,19 @@
       },
       "area": {
         "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣駱克道491-499號京都廣場地庫"
+      },
+      "googleMapsPlaceId": "ChIJAT5xQhQBBDQRgX2Vx7S1AYE",
+      "coordinates": {
+        "lat": 22.2807016,
+        "lng": 114.1829557
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ]
