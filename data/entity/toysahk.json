@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "https://shop.price.com.hk/toysa"
+      "url": "https://www.toysacompany.com"
     },
     {
       "meta": {
@@ -31,6 +31,14 @@
         "link": "https://www.facebook.com/213460289161663"
       },
       "url": "https://www.facebook.com/toysahk/"
+    },
+    {
+      "url": "https://www.instagram.com/toysa.company.playmobil.hk/",
+      "meta": {
+        "website": "https://www.toysacompany.com/",
+        "name": "Toysa Company",
+        "about": "#playmobilhk #playmobil #日本玩具 #玩具預訂 #pvcfigure #scalefigure"
+      }
     }
   ],
   "posts": [
@@ -46,6 +54,21 @@
     {
       "type": "shop",
       "id": 2271
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "英皇道14號天后蘋果商場1/F 83 & 85號鋪"
+      },
+      "googleMapsPlaceId": "ChIJPZ8dpasBBDQRb9ugUXM8Y7c",
+      "coordinates": {
+        "lat": 22.28276,
+        "lng": 114.1927027
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ]
 }
