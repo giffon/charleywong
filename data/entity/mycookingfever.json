@@ -5,10 +5,14 @@
   },
   "webpages": [
     {
+      "url": "https://cookingfever.com.hk"
+    },
+    {
       "url": "https://www.instagram.com/cookingfeverhk/",
       "meta": {
+        "website": "http://www.cookingfever.com.hk/",
         "name": "Cooking Fever",
-        "about": "We❤️ #cooking. We are passionate on cooking, create and share what we love 💛we do #foodstyling and is a #receipecreator\nFounder @celia723\n📲9669 9961"
+        "about": "🇭🇰Cooking Studio offers #cookingclass #teambuilding #foodstyling #recipevideo, #receipecreation\nFounder @celia723\n📲9669 9961"
       }
     },
     {
@@ -45,18 +49,6 @@
       }
     },
     {
-      "url": "https://www.facebook.com/mycookingfever/posts/1481736298634363",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/mycookingfever/posts/1557096127765046",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
       "url": "https://www.facebook.com/mycookingfever/posts/1564314223709903",
       "meta": {
         "sharedWith": "Public"
@@ -66,5 +58,20 @@
   "tags": [
     "food",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘巧明街114號迅達工業大廈10樓B室"
+      },
+      "googleMapsPlaceId": "ChIJf3jjgUUBBDQRuyqcnARUwSM",
+      "coordinates": {
+        "lat": 22.311238,
+        "lng": 114.224169
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
