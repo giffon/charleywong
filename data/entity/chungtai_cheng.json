@@ -6,9 +6,6 @@
   },
   "webpages": [
     {
-      "url": "http://www.taihoktong.com"
-    },
-    {
       "url": "https://www.facebook.com/chengchungtai/",
       "meta": {
         "id": "396949433812753",
@@ -29,7 +26,8 @@
     {
       "url": "https://www.instagram.com/chungtai_cheng/",
       "meta": {
-        "name": "鄭松泰"
+        "name": "鄭松泰",
+        "about": "Entrepreneur with passion @ready2movehk"
       }
     }
   ],
@@ -74,20 +72,5 @@
   "tags": [
     "publicfigure",
     "shop"
-  ],
-  "places": [
-    {
-      "address": {
-        "zh": "香港新界葵涌大連排道83號205室 泰學堂"
-      },
-      "googleMapsPlaceId": "ChIJhzeSsTL5AzQRk4qLWq8Lcm0",
-      "coordinates": {
-        "lat": 22.3615111,
-        "lng": 114.1333395
-      },
-      "area": {
-        "zh": "葵青區"
-      }
-    }
   ]
 }
