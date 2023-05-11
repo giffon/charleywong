@@ -6,7 +6,6 @@ on:
 
 env:
   TZ: Asia/Hong_Kong
-  EARTHLY_BUILDKIT_HOST: tcp://earthly:8372
   EARTHLY_REMOTE_CACHE: "ghcr.io/giffon/charleywong_cache:master_devcontainer_workspace"
   LAMBDA_IMAGE_NAME_MASTER: 932878902707.dkr.ecr.us-east-1.amazonaws.com/serverless-charleywong-master
   LAMBDA_IMAGE_NAME_PRODUCTION: 932878902707.dkr.ecr.us-east-1.amazonaws.com/serverless-charleywong-production
@@ -17,16 +16,6 @@ jobs:
     concurrency: ${{ github.ref }}
     runs-on: ubuntu-latest
     container: ghcr.io/giffon/charleywong_devcontainer_workspace:${{ github.sha }}
-    services:
-      earthly:
-        image: earthly/buildkitd:v0.7.5
-        options: --privileged
-        env:
-          BUILDKIT_TCP_TRANSPORT_ENABLED: "true"
-        ports:
-          - 8372
-        volumes:
-          - /tmp/earthly
     steps:
       - uses: actions/checkout@v3
         with:
