@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 0
       - uses: earthly/actions-setup@v1
         with:
-          version: "0.7.4"
+          version: "0.7.5"
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Create .envrc
         run: |
