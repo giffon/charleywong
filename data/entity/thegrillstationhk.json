@@ -17,24 +17,27 @@
         "about": "有燒房焗 屋企都變成居酒屋\n",
         "category_list": [
           {
+            "id": "2202",
+            "name": "Website"
+          },
+          {
             "id": "192831537402299",
             "name": "Family Style Restaurant"
-          },
-          {
-            "id": "498244033702006",
-            "name": "Personal Chef"
-          },
-          {
-            "id": "1727285527537943",
-            "name": "Food Wholesaler"
           }
         ],
         "emails": [
           "sales@thegrillstationhk.com"
         ],
-        "single_line_address": "北角, 0000 Hong Kong, Hong Kong",
+        "single_line_address": "謝斐道313號, 0000 Hong Kong, Hong Kong",
         "website": "www.thegrillstationhk.com",
         "link": "https://www.facebook.com/343279075693716"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/the_grill_station/",
+      "meta": {
+        "website": "http://www.thegrillstationhk.com/",
+        "name": "燒房焗"
       }
     },
     {
@@ -42,8 +45,7 @@
       "meta": {
         "name": "Bowie Chu",
         "about": "好為食"
-      },
-      "hidden": true
+      }
     },
     {
       "url": "https://mewe.com/i/thegrillstationhk"
@@ -77,6 +79,21 @@
     {
       "type": "eat",
       "id": 1876
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "謝斐道313號"
+      },
+      "googleMapsPlaceId": "ChIJj45Bz40BBDQRlZzVRbY73u0",
+      "coordinates": {
+        "lat": 22.2796989,
+        "lng": 114.1785143
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ]
 }
