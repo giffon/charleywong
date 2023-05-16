@@ -12,9 +12,8 @@ esbuild.build({
         NodeModulesPolyfillPlugin(),
         esbuildPluginResolve({
             "perf_hooks": "perf-hooks-browserify"
-        })
+        }),
     ],
-    external: ["perf_hooks"],
     minify: true,
     treeShaking: true,
     bundle: true,
