@@ -440,7 +440,7 @@ service-worker:
     COPY lib/hxnodelibs lib/hxnodelibs
     COPY lib/workbox lib/workbox
     COPY src src
-    COPY .haxerc esbuild.js serviceWorker.hxml .
+    COPY .haxerc esbuild.mjs serviceWorker.hxml .
     RUN mkdir -p static
     RUN haxe serviceWorker.hxml
     SAVE ARTIFACT static/serviceWorker.bundled.js
@@ -465,7 +465,7 @@ chrome-extension:
     COPY lib/hxnodelibs lib/hxnodelibs
     COPY lib/workbox lib/workbox
     COPY src src
-    COPY .haxerc esbuild.js chrome-extension.hxml .
+    COPY .haxerc esbuild.mjs chrome-extension.hxml .
     RUN mkdir -p chrome
     RUN haxe chrome-extension.hxml
     SAVE ARTIFACT --keep-ts chrome/*.js AS LOCAL ./chrome/

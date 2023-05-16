@@ -11,4 +11,4 @@
 --class-path lib/workbox
 --dce full
 -D browser
---cmd node esbuild.js serviceWorker.js static/serviceWorker.bundled.js
+--cmd node esbuild.mjs serviceWorker.js static/serviceWorker.bundled.js

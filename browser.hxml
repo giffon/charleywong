@@ -10,4 +10,4 @@
 --class-path lib/dts2hx
 --dce full
 -D browser
---cmd node esbuild.js browser.js static/browser.bundled.js
+--cmd node esbuild.mjs browser.js static/browser.bundled.js
