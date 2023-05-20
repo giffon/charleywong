@@ -5,6 +5,9 @@
   },
   "webpages": [
     {
+      "url": "https://untilwemeetagainhk.myshopify.com"
+    },
+    {
       "url": "https://www.facebook.com/111342664648014/",
       "meta": {
         "id": "111342664648014",
@@ -42,5 +45,20 @@
   ],
   "tags": [
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "上環皇后大道西2-12號聯發商業中心1樓C1舖"
+      },
+      "googleMapsPlaceId": "ChIJe4iDK34BBDQRL8A31lnLKvA",
+      "coordinates": {
+        "lat": 22.2863187,
+        "lng": 114.1483711
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }
