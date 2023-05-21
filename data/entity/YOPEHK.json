@@ -1,7 +1,7 @@
 {
   "id": "YOPEHK",
   "name": {
-    "en": "Xavi Soap"
+    "en": "Xavi Soap - YOPE HK"
   },
   "webpages": [
     {
@@ -12,7 +12,7 @@
       "meta": {
         "website": "http://www.xavisoap.com/",
         "name": "Xavi Soap - Yope Hong Kong",
-        "about": "🇵🇱•🌿•🐰•🥑•♻️\n📍DB Plaza , Discovery Bay\n📍OP Mall, Tsuen Wan\n📍Harbour North, North Point\n📍East Point, TKO\n📍Cityplaza Pop Up\n📍Causeway Bay Pop Up"
+        "about": "🇵🇱•🌿•🐰•🥑•♻️\n📍OP Mall, Tsuen Wan\n📍Harbour North, North Point\n📍East Point City, TKO\n📍Innaissance- Pop Up, Causeway Bay\n📍Eslite- PoLandMe, Causeway Bay"
       }
     },
     {
@@ -21,7 +21,7 @@
         "id": "276814289639935",
         "username": "YOPEHK",
         "name": "Xavi Soap- YOPE HK",
-        "about": "來自波蘭的 YOPE 以「家庭」為品牌核心價值，採用精選植物成份，以天然、全素、零殘忍及低敏為主，並經由專業皮膚科醫生嚴密把關，多元化產品包括護手霜、沐浴露、頭髮護理及家居清潔等等。",
+        "about": "來自波蘭的 YOPE 以「家庭」為品牌核心價值，採用精選植物成份，以天然、?",
         "category_list": [
           {
             "id": "2214",
@@ -60,6 +60,47 @@
     {
       "type": "shop",
       "id": 1411
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "北角渣華道123北角匯二期地下G13舖"
+      },
+      "googleMapsPlaceId": "ChIJXw-JpBYBBDQRGh5jZh3GC6M",
+      "coordinates": {
+        "lat": 22.2926716,
+        "lng": 114.2008874
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣大河道100號海之戀地下G10舖"
+      },
+      "googleMapsPlaceId": "ChIJUSU-5x_5AzQRaxtcrK05IBQ",
+      "coordinates": {
+        "lat": 22.3680845,
+        "lng": 114.1106576
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳東港城商場一樓 商場中庭 Pop Up Space No. 7 Hello Life"
+      },
+      "googleMapsPlaceId": "ChIJz4LqfXUEBDQRMR05fSGTeUo",
+      "coordinates": {
+        "lat": 22.3163803,
+        "lng": 114.2653434
+      },
+      "area": {
+        "zh": "西貢區"
+      }
     }
   ]
 }
