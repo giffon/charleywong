@@ -169,10 +169,10 @@
   resolved "https://registry.yarnpkg.com/@fastify/aws-lambda/-/aws-lambda-3.2.0.tgz#186abf7668256d8c4baeb10e01529f313bfbcff6"
   integrity sha512-C6qfrV5/XF3Lh3tMfV4W8f3yH7SUoNAvrBXs9Vp/Si7r/2Dpn3RDGgvwXrtFxWP+t+AF+wxbKCZbOmrU+m64Dg==
 
-"@fastify/cors@8.2.1":
-  version "8.2.1"
-  resolved "https://registry.yarnpkg.com/@fastify/cors/-/cors-8.2.1.tgz#dd348162bcbfb87dff4b492e2bef32d41244006a"
-  integrity sha512-2H2MrDD3ea7g707g1CNNLWb9/tYbmw7HS+MK2SDcgjxwzbOFR93JortelTIO8DBFsZqFtEpKNxiZfSyrGgYcbw==
+"@fastify/cors@8.3.0":
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/@fastify/cors/-/cors-8.3.0.tgz#f03d745731b770793a1a15344da7220ca0d19619"
+  integrity sha512-oj9xkka2Tg0MrwuKhsSUumcAkfp2YCnKxmFEusi01pjk1YrdDsuSYTHXEelWNW+ilSy/ApZq0c2SvhKrLX0H1g==
   dependencies:
     fastify-plugin "^4.0.0"
     mnemonist "0.39.5"
