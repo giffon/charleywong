@@ -27,7 +27,7 @@
   "dependencies": {
     "@fastify/aws-lambda": "3.2.0",
     "@fastify/cors": "8.2.1",
-    "@fastify/static": "6.10.1",
+    "@fastify/static": "6.10.2",
     "@googlemaps/google-maps-services-js": "3.3.31",
     "chokidar": "3.5.3",
     "cross-fetch": "3.1.6",
