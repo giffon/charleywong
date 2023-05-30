@@ -23,7 +23,7 @@ jobs:
           submodules: true
       - name: Configure AWS credentials
         if: success() && env.PUSH == 'true'
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@v2
         with:
           aws-access-key-id: ${{ secrets.awsAccessKeyId }}
           aws-secret-access-key: ${{ secrets.awsSecretAccessKey }}
