@@ -4,7 +4,6 @@ import haxe.Json;
 #if js
 import js.lib.Promise;
 import js.html.*;
-import js.npm.jsdom.*;
 import charleywong.UrlExtractors.*;
 #end
 using Lambda;

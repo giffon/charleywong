@@ -9,9 +9,11 @@ import haxe.xml.Fast;
 #if nodejs
 import js.lib.Promise;
 import js.html.MetaElement;
-import js.npm.jsdom.*;
 import CrossFetch.fetch;
 import abort_controller.AbortController;
+#if !chrome
+import js.npm.jsdom.*;
+#end
 #end
 
 class Utils {
@@ -120,9 +122,13 @@ class Utils {
                     r.text()
             )
             .then(text -> {
+                #if chrome
+                final doc = new js.html.DOMParser().parseFromString(text, TEXT_HTML);
+                #else
                 final doc = new JSDOM(text, {
                     virtualConsole: new VirtualConsole(),
                 }).window.document;
+                #end
 
                 final og:Array<{property:String, content:String}> = [];
                 for (meta in doc.querySelectorAll("meta[property^='og:'],meta[property^='article:']")) {
