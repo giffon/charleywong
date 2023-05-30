@@ -35,8 +35,9 @@
     {
       "url": "https://www.instagram.com/motto.leather/",
       "meta": {
+        "website": "http://www.mottocd.com/",
         "name": "motto leather workshop",
-        "about": "Handmade leather goods & workshop\nHandmade in Hong Kong\nEmail: info@mottocd.com\n+852 68715989\n#leather#personalized#customize"
+        "about": "motto 提供各類皮革工作坊，皮革材料包，皮具訂製，燙金壓名，禮品訂製（批量）\n選用優質進口意大利牛皮\n12年香港皮具品牌\n3間門市分別設於尖沙咀，沙田，新蒲崗"
       }
     },
     {
@@ -83,7 +84,7 @@
   "places": [
     {
       "address": {
-        "en": "Flat 1C, 1 Floor, Ka Wing Factory Building, 19~21 Ng Fong Street, San Po Kong"
+        "zh": "新蒲崗五芳街19號嘉榮工廠大廈1樓C室"
       },
       "googleMapsPlaceId": "ChIJAQDwf9AGBDQR_KP8E2Xj6ZI",
       "coordinates": {
@@ -92,6 +93,32 @@
       },
       "area": {
         "zh": "黃大仙區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀美麗華廣場1期1樓140號舖"
+      },
+      "googleMapsPlaceId": "ChIJ2yTzZhgBBDQRFjhN8Bk29uI",
+      "coordinates": {
+        "lat": 22.3006559,
+        "lng": 114.1721209
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "沙田新城市廣場一期Play Park LB層04號舖 小手美作"
+      },
+      "googleMapsPlaceId": "ChIJFTcnqK0HBDQRdC7jGqw4Cd4",
+      "coordinates": {
+        "lat": 22.3817578,
+        "lng": 114.1886372
+      },
+      "area": {
+        "zh": "沙田區"
       }
     }
   ]
