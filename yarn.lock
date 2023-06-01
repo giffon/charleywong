@@ -1311,10 +1311,10 @@ aws-lambda-ric@2.1.0:
     node-addon-api "6.0.0"
     node-gyp "9.3.1"
 
-aws-sdk@^2.1387.0:
-  version "2.1388.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1388.0.tgz#eb930be78cbd1ce2abd588c869aea15ca01a7557"
-  integrity sha512-T/zLsBj3ckKUTXDWoE+xZOWFZmoFLHAc2fs/uOJjMQCLEonxkmVI9Jtpq3dxkSu817UOizZ5rjULDfrNBTsreA==
+aws-sdk@^2.1388.0:
+  version "2.1389.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1389.0.tgz#dffc00454ed56974929db201632f826632693219"
+  integrity sha512-H+Q1oZ4bWi5xOp2EabZpbHcQjz55luvn6cUCHtgmMFJPQQGEWlJ9siWTi+6C+/0VyrGambup7aXILhF6prU+Zg==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -2412,7 +2412,7 @@ dotenv-expand@^10.0.0:
   resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-10.0.0.tgz#12605d00fb0af6d0a592e6558585784032e4ef37"
   integrity sha512-GopVGCpVS1UKH75VKHGuQFqS1Gusej0z4FyQkPdwjil2gNIv+LNsqBlboOzpJFZKVT95GkCyWJbBSdFEFUWI2A==
 
-dotenv@^16.1.2:
+dotenv@^16.1.3:
   version "16.1.3"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.1.3.tgz#0c67e90d0ddb48d08c570888f709b41844928210"
   integrity sha512-FYssxsmCTtKL72fGBSvb1K9dRz0/VZeWqFme/vSb7r7323x4CRaHu4LvQ5JG3+s6yt2YPbBrkpiEODktfyjI9A==
@@ -6404,10 +6404,10 @@ serverless-prune-plugin@2.0.2:
   dependencies:
     bluebird "^3.7.2"
 
-serverless@3.32.0:
-  version "3.32.0"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.32.0.tgz#8338185d758cb7b2300fe5b3d170d111271e00bb"
-  integrity sha512-7Bnyud2RM2PSyEwOXtPhH4WdY9VqLw70/uYHoUtttcKooQZdnTATXe4AZ7FBSUfqH+x9Qb/QSt6m0XC0psKvrQ==
+serverless@3.32.1:
+  version "3.32.1"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.32.1.tgz#e048ec73fe38d86579a7dceafe1a1f76ec605b65"
+  integrity sha512-Yi0jNI/3nzBRabHf4e/W3PrS/9tA5NUQS6eOnbD/ZrGkbckfA3D9An4zKqKJ+1qw0g01U6Qz2SnZmMrcSwUsmw==
   dependencies:
     "@serverless/dashboard-plugin" "^6.2.3"
     "@serverless/platform-client" "^4.3.2"
@@ -6415,7 +6415,7 @@ serverless@3.32.0:
     ajv "^8.12.0"
     ajv-formats "^2.1.1"
     archiver "^5.3.1"
-    aws-sdk "^2.1387.0"
+    aws-sdk "^2.1388.0"
     bluebird "^3.7.2"
     cachedir "^2.3.0"
     chalk "^4.1.2"
@@ -6425,7 +6425,7 @@ serverless@3.32.0:
     d "^1.0.1"
     dayjs "^1.11.7"
     decompress "^4.2.1"
-    dotenv "^16.1.2"
+    dotenv "^16.1.3"
     dotenv-expand "^10.0.0"
     essentials "^1.2.0"
     ext "^1.7.0"
