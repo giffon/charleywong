@@ -27,8 +27,9 @@
     {
       "url": "https://www.instagram.com/dessertpalace61/",
       "meta": {
+        "website": "https://www.facebook.com/dessertpalace61",
         "name": "糖宮甜品專門店",
-        "about": "地址: 大圍積信街61號\n營業時間:3:00pm - 2:00am\nOpenrice: http://s.openrice.com/QrbS0KKe700\n外賣自取電話 : 51333776\nInstagram : dessertpalace61\nFacebook : 糖宮甜品專門店"
+        "about": "地址:\n主店: 大圍積信街61號\n分店: 尖沙咀金巴利道88號地鋪連1/F全層\n營業時間:2:00pm - 1:30am\n外賣自取電話(大圍) : 51333776\n外賣自取電話(尖沙咀) : 65133130"
       }
     }
   ],
@@ -58,6 +59,19 @@
       },
       "area": {
         "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀金巴利道88號地鋪連1樓全層"
+      },
+      "googleMapsPlaceId": "ChIJW8kEU2EBBDQRr4ACdkWGKcI",
+      "coordinates": {
+        "lat": 22.3023891,
+        "lng": 114.1757415
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     }
   ]
