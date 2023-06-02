@@ -8,8 +8,9 @@
     {
       "url": "https://www.instagram.com/milkshahk/",
       "meta": {
+        "website": "https://www.milkshoptea.com/",
         "name": "Milksha「全天然硬頸製作，100%手煮真味」",
-        "about": "𝐎𝐮𝐫 𝐒𝐭𝐨𝐫𝐲\n故事由2004年於台南佳里的綠光牧場說起，源於對大自然和土地的熱愛，我們率先使用鮮奶及每日熬煮天然食材，當時的茶飲店都普遍使用奶精色素等添加劑，我們已堅持用高成本的天然食材，直至大家開始更注重健康，我們品牌開始獲得認同，一切全憑我們堅守的信念「堅持好的東西，總有一天會被看見」"
+        "about": "𝐎𝐮𝐫 𝐒𝐭𝐨𝐫𝐲\n故事由2004年於台南佳里的綠光牧場說起，源於對大自然和土地的熱愛，我們率先使用鮮奶及每日熬煮天然食材，當時的茶飲店都普遍使用奶精色素等添加劑，我們已堅持用高成本的天然食材，直至大家開始更注重健康，我們品牌開始獲得認同，一切全憑我們堅守的信念\n「堅持好的東西，總有一天會被看見」"
       }
     },
     {
@@ -73,6 +74,97 @@
   "places": [
     {
       "address": {
+        "zh": "上環德輔道中188號 金龍中心 地下4號鋪"
+      },
+      "googleMapsPlaceId": "ChIJRSJ0sEUBBDQRiJgGU9odm_o",
+      "coordinates": {
+        "lat": 22.285964,
+        "lng": 114.1533929
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港觀塘觀塘道418號創紀之城五期(APM) L1 11鋪"
+      },
+      "googleMapsPlaceId": "ChIJabvZNaoBBDQR3c8159dhZB8",
+      "coordinates": {
+        "lat": 22.312401,
+        "lng": 114.225222
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港新墟屯門鄉事會路83號 屯門V CITY L1 16B"
+      },
+      "googleMapsPlaceId": "ChIJK-C2-lr7AzQRsLBpOTnrdpQ",
+      "coordinates": {
+        "lat": 22.3953878,
+        "lng": 113.9739331
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港馬鞍山新港城中心4期2樓2004號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ6e9sSkYJBDQRLntC_9kotE4",
+      "coordinates": {
+        "lat": 22.4239694,
+        "lng": 114.232066
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港將軍澳坑口培成路15號 連理街商場103-104號鋪"
+      },
+      "googleMapsPlaceId": "ChIJIxFqMJ4DBDQRbmypkqhdJBg",
+      "coordinates": {
+        "lat": 22.3161826,
+        "lng": 114.2645572
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀加拿芬道18號恆生大廈地下 18"
+      },
+      "googleMapsPlaceId": "ChIJ3zUPI64BBDQRJdGigA28SGk",
+      "coordinates": {
+        "lat": 22.2990739,
+        "lng": 114.1733102
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港九龍塘達之路80號又一城MTR層Taste MTR05號鋪"
+      },
+      "googleMapsPlaceId": "ChIJL2PxB-YHBDQRK69DB3yhAi0",
+      "coordinates": {
+        "lat": 22.33688,
+        "lng": 114.1753096
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
         "zh": "銅鑼灣利園山道17號"
       },
       "googleMapsPlaceId": "ChIJG753hkYBBDQRp_y3Jua5a3I",
@@ -101,10 +193,10 @@
       "address": {
         "zh": "荃灣如心廣場2期111號鋪"
       },
-      "googleMapsPlaceId": "ChIJNVcPS6_5AzQRCE2XMvMd2h0",
+      "googleMapsPlaceId": "ChIJXyIK3cn5AzQRhbgiOYXn31w",
       "coordinates": {
-        "lat": 22.368806,
-        "lng": 114.1114541
+        "lat": 22.3692494,
+        "lng": 114.1111886
       },
       "area": {
         "zh": "荃灣區"
@@ -114,26 +206,13 @@
       "address": {
         "zh": "將軍澳康城路1號康城廣場303號鋪"
       },
-      "googleMapsPlaceId": "ChIJ59EFtpcDBDQRnMYtDrHjr-g",
+      "googleMapsPlaceId": "ChIJyXqxmZQDBDQRsWtYkYDiZew",
       "coordinates": {
-        "lat": 22.296859,
-        "lng": 114.2699109
+        "lat": 22.2944817,
+        "lng": 114.2702546
       },
       "area": {
         "zh": "西貢區"
-      }
-    },
-    {
-      "address": {
-        "zh": "九龍塘又一城MTR層Taste內"
-      },
-      "googleMapsPlaceId": "ChIJ15wcRDEHBDQR00a8ss9myQU",
-      "coordinates": {
-        "lat": 22.3371045,
-        "lng": 114.1747205
-      },
-      "area": {
-        "zh": "深水埗區"
       }
     }
   ]
