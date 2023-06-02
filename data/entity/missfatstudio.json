@@ -6,7 +6,7 @@
   },
   "webpages": [
     {
-      "url": "http://iloveukiwi2.wix.com/missfatstudio"
+      "url": "https://iloveukiwi2.wixsite.com/missfatstudio"
     },
     {
       "meta": {
@@ -28,6 +28,22 @@
         "link": "https://www.facebook.com/388310494551140"
       },
       "url": "https://www.facebook.com/missfatstudio/"
+    },
+    {
+      "url": "https://www.instagram.com/miss_fat_studio/",
+      "meta": {
+        "website": "http://iloveukiwi2.wixsite.com/missfatstudio",
+        "name": "Liu Ka Yee",
+        "about": "👩🏻‍🎨香港藝術家廖家宜\n賽馬會創意藝術中心駐場藝術家\nMiss FAT studio「肥娃藝術工作室」創辦人\n@missfatpetpetart\n於澳洲皇家墨爾本理工大學純藝術系畢業。\n擁有多年的藝術教育、創作及行政經驗。\n由2008年開始與各區大中小學、社區中心及商場合辦藝術課程及展覽。"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/missfatpetpetart/",
+      "meta": {
+        "website": "https://www.facebook.com/missfatstudio/",
+        "name": "Miss FAT studio",
+        "about": "👩🏻‍🎨香港藝術家廖家宜\n賽馬會創意藝術中心駐場藝術家\nMiss FAT studio「肥娃藝術工作室」\n@miss_fat_studio\n由2008年開始與各區學院、社區中心及商場合辦藝術課程及展覽。\n於澳洲皇家墨爾本理工大學純藝術系畢業。\n多年的藝術教育創作經驗。\n💁🏻‍♀️客製化寵物繪圖"
+      }
     }
   ],
   "posts": [
@@ -37,12 +53,28 @@
   ],
   "tags": [
     "artist",
-    "accessories"
+    "accessories",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 1262
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "石硤尾偉智里白田購物中心1樓129-130號"
+      },
+      "googleMapsPlaceId": "ChIJm-0HWEoHBDQRAGDsdIItLBU",
+      "coordinates": {
+        "lat": 22.334742,
+        "lng": 114.165528
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
     }
   ]
 }
