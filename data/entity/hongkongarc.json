@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://hongkongarc.org"
+      "url": "https://hongkongarc.org"
     },
     {
       "url": "https://www.facebook.com/hongkongarc/",
@@ -29,6 +29,14 @@
       }
     },
     {
+      "url": "https://www.instagram.com/hongkongarc/",
+      "meta": {
+        "website": "http://www.bonhamtreeaid.org/",
+        "name": "HKARC",
+        "about": "HKARC is a charity providing advice, referrals and practical assistance to Hongkongers in need in the UK. Let’s integrate together.\n請支持細葉榕基金👇🏻"
+      }
+    },
+    {
       "url": "https://twitter.com/hongkongarc"
     }
   ],
@@ -48,5 +56,12 @@
   ],
   "tags": [
     "organization"
+  ],
+  "places": [
+    {
+      "area": {
+        "zh": "英國"
+      }
+    }
   ]
 }
