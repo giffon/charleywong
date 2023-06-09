@@ -34,7 +34,15 @@
       "meta": {
         "website": "https://www.facebook.com/thehkukulelemusiccentre",
         "name": "Hong Kong Ukulele Music Centre",
-        "about": "Ukulele 小吉他教學及代購售賣\n歡迎查詢或留言\n<<Whatsapp>> 64199089 Celia Lee\n上課地址：\n香港九龍觀塘成業街18號新怡生工業大廈6樓6B17室【觀塘站B1出口】行五分鐘就到😂"
+        "about": "Ukulele 小吉他教學及代購售賣\n歡迎查詢或留言\n<<Whatsapp>> 64199086Celia Lee\n上課地址：\n沙田石門耀安街5號WLuxe 10樓S3室（石門站C出口）五分鐘到😂"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC6Sq_ticm5pp35uDXEPndIg",
+      "meta": {
+        "id": "UC6Sq_ticm5pp35uDXEPndIg",
+        "name": "The HongKong Ukulele Music Center HongKong",
+        "about": ""
       }
     }
   ],
@@ -66,6 +74,21 @@
     {
       "type": "shop",
       "id": 1565
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "石門安耀街5號 W Luxe"
+      },
+      "googleMapsPlaceId": "ChIJX5ecA2EHBDQRyAqaLu9SYhQ",
+      "coordinates": {
+        "lat": 22.38971739999999,
+        "lng": 114.209502
+      },
+      "area": {
+        "zh": "沙田區"
+      }
     }
   ]
 }
