@@ -223,10 +223,10 @@
   resolved "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.3.tgz#555193ab2e3bb3b6adc3d551c9c030d9e860daf6"
   integrity sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==
 
-"@googlemaps/google-maps-services-js@3.3.31":
-  version "3.3.31"
-  resolved "https://registry.yarnpkg.com/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.3.31.tgz#8083a8e5a25748991465aa44e46f4ab286859b20"
-  integrity sha512-IeWXv/K/0ejlorkjhE53Ckxk7EURZ4F/SWERm74K46FpvsvvXfJTjfmru3PjQRDeue9gkVNQtMETF9nJfJu/FQ==
+"@googlemaps/google-maps-services-js@3.3.32":
+  version "3.3.32"
+  resolved "https://registry.yarnpkg.com/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.3.32.tgz#f73f2d04ace6dd17aa48e7e7bb772971c9de817b"
+  integrity sha512-ywI1XFdNy9Iq0BaRgA/SKgdDNc6f+mvfVQtrfQjCtO4wuDH6bfCBeiW5DnxpO0NxwNqNCl/2dr5oFaO4fYrdWA==
   dependencies:
     "@googlemaps/url-signature" "^1.0.4"
     agentkeepalive "^4.1.0"
