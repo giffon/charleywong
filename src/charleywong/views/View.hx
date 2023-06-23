@@ -212,14 +212,17 @@ class View extends ReactComponent {
                 <p>
                     Copyright (C) 2020-2023 <a href="https://charleywong.info">Charley Wong 和你查</a>
                 </p>
+                <p><a href="/privacy">Privacy Policy</a></p>
             </footer>
             ${footJs()}
         </body>
     ');
 
+    function lang():String return "zh";
+
     override function render() {
         return jsx('
-            <html lang="zh">
+            <html lang=${lang()}>
                 ${head()}
                 ${body()}
             </html>

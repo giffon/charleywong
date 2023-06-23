@@ -47,6 +47,12 @@ class ServerMain {
         return url;
     }
 
+    static function privacy(req:Request, reply:Reply):Promise<Dynamic> {
+        return Promise.resolve(
+            reply.sendView(PrivacyView)
+        );
+    }
+
     static function index(req:Request, reply:Reply):Promise<Dynamic> {
         final search:Null<String> = req.query.search;
         if (search != null) {
@@ -929,6 +935,7 @@ class ServerMain {
         app.addHook("onRequest", StaticResource.hook);
 
         app.get("/", index);
+        app.get("/privacy", privacy);
         app.get("/favicon.ico", favicon);
         app.get("/robots.txt", robots);
         app.get("/sitemap.xml", sitemap);
