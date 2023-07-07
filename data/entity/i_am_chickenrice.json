@@ -94,19 +94,6 @@
   "places": [
     {
       "address": {
-        "zh": "天水圍天瑞街市41號鋪"
-      },
-      "googleMapsPlaceId": "ChIJVdksAn3wAzQR_Gf4KFwlQ4I",
-      "coordinates": {
-        "lat": 22.4566313,
-        "lng": 113.9984911
-      },
-      "area": {
-        "zh": "元朗區"
-      }
-    },
-    {
-      "address": {
         "zh": "西灣河太安樓地下A38號鋪"
       },
       "googleMapsPlaceId": "ChIJETLWvHYBBDQRRmmiGbZU-Nc",
@@ -122,10 +109,10 @@
       "address": {
         "zh": "將軍澳坑口Gateway Foodlane EF07號鋪"
       },
-      "googleMapsPlaceId": "ChIJw9dxonUEBDQRhUBSXtMcLbo",
+      "googleMapsPlaceId": "ChIJNWDvmHUEBDQRuSYbKckKYHc",
       "coordinates": {
-        "lat": 22.3174624,
-        "lng": 114.2662936
+        "lat": 22.317361,
+        "lng": 114.266936
       },
       "area": {
         "zh": "西貢區"
@@ -142,6 +129,19 @@
       },
       "area": {
         "zh": "沙田區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣楊屋道138號樂悠居樂悠商場一樓5號舖"
+      },
+      "googleMapsPlaceId": "ChIJUcQfKpD5AzQRkq4UZnYVV2M",
+      "coordinates": {
+        "lat": 22.3662606,
+        "lng": 114.1181727
+      },
+      "area": {
+        "zh": "荃灣區"
       }
     }
   ],
