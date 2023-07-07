@@ -27,10 +27,38 @@
       }
     },
     {
+      "url": "https://www.facebook.com/bytheostudio/",
+      "meta": {
+        "id": "102999849019016",
+        "username": "bytheostudio",
+        "name": "By the O",
+        "about": "Bad Days Build Better Days! ",
+        "category_list": [
+          {
+            "id": "128673187201735",
+            "name": "Coffee shop"
+          }
+        ],
+        "emails": [
+          "bytheostudio@gmail.com"
+        ],
+        "single_line_address": "Yuen Long, Hong Kong",
+        "link": "https://www.facebook.com/102999849019016"
+      }
+    },
+    {
       "url": "https://www.instagram.com/bythetray/",
       "meta": {
-        "name": "by the tray 盤子工房",
-        "about": "A good way to start a good day☁️\n·\n1️⃣號店\n🕰8AM to 9PM\nMonday off 🌑\n[電話只可WhatsApp 65831388 📲🥸]\n·\n2️⃣號店\n🕰9AM to 6PM\n[電話只可WhatsApp 55478764 📲🥸]"
+        "website": "https://www.facebook.com/bythetray/",
+        "name": "by the tray",
+        "about": "A good way to start a good day☁️\n·\n1️⃣號店- goodbye\n2️⃣號店- 屯門碼頭\n3️⃣號店- 元朗\n4️⃣號店- 大圍 ;)\n　\n🕰9AM to 6PM\n[open everyday]\n·\nBETTER COFFEE BETTER LIFE\n🖇"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/bytheostudio/",
+      "meta": {
+        "name": "BY THE O",
+        "about": "BAD DAYS BUILD BETTER DAYS!\n⏺\n🕰9am to 6pm\n[Open everyday]\n.\nwhat a O day!!\n🪩"
       }
     }
   ],
@@ -43,12 +71,6 @@
     },
     {
       "url": "https://www.facebook.com/bythetray/posts/1813227802154635:0",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/bythetray/posts/1814134332063982:0",
       "meta": {
         "sharedWith": "Public"
       }
@@ -100,12 +122,12 @@
   "places": [
     {
       "address": {
-        "zh": "屯門建生邨建生商場地下114號舖"
+        "zh": "屯門碼頭海趣坊1樓S22-23號舖 "
       },
-      "googleMapsPlaceId": "ChIJ85bd4KT7AzQRG9P4yMppVF8",
+      "googleMapsPlaceId": "ChIJmYGsvCP7AzQRiMm4jx3Ep1U",
       "coordinates": {
-        "lat": 22.406909,
-        "lng": 113.9697572
+        "lat": 22.3726332,
+        "lng": 113.9671331
       },
       "area": {
         "zh": "屯門區"
@@ -113,15 +135,15 @@
     },
     {
       "address": {
-        "zh": "屯門碼頭海趣坊1樓S22-23號舖 "
+        "zh": "元朗鳳攸南街3號好順景大廈地下2號舖"
       },
-      "googleMapsPlaceId": "ChIJDVP3mVr7AzQRQ9TGaAjrCqE",
+      "googleMapsPlaceId": "ChIJVa16iUzxAzQRPnvroXHPGPc",
       "coordinates": {
-        "lat": 22.3724946,
-        "lng": 113.96677
+        "lat": 22.4421655,
+        "lng": 114.0335114
       },
       "area": {
-        "zh": "屯門區"
+        "zh": "元朗區"
       }
     }
   ]
