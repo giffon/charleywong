@@ -136,7 +136,7 @@ terraform:
 # RUN earthly bootstrap --no-buildkit --with-autocomplete
 earthly:
     ARG TARGETARCH
-    ARG VERSION=0.7.5 # https://github.com/earthly/earthly/releases
+    ARG VERSION=0.7.11 # https://github.com/earthly/earthly/releases
     RUN curl -fsSL "https://github.com/earthly/earthly/releases/download/v${VERSION}/earthly-linux-${TARGETARCH}" -o /usr/local/bin/earthly \
         && chmod +x /usr/local/bin/earthly
     SAVE ARTIFACT /usr/local/bin/earthly
