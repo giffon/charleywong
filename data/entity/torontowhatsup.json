@@ -37,6 +37,7 @@
     {
       "url": "https://www.instagram.com/torontowhatsup/",
       "meta": {
+        "website": "http://www.torontowhatsup.ca/",
         "name": "TorontoWhatsup!",
         "about": "多倫多人話多倫多事・多倫多人知多倫多事 /\nChinese Lifestyle Blog connects everyone to our city! @torontowhatsup #torontochinese\nwww.facebook.com/torontowhatsup"
       }
@@ -64,5 +65,12 @@
   ],
   "tags": [
     "media"
+  ],
+  "places": [
+    {
+      "area": {
+        "zh": "加拿大"
+      }
+    }
   ]
 }
