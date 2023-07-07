@@ -65,12 +65,25 @@
   "places": [
     {
       "address": {
-        "zh": "尖沙咀亞士厘道20號A地下（堂食餐廳）"
+        "zh": "尖沙咀亞士厘道20號A地下"
       },
       "googleMapsPlaceId": "ChIJddkCHW4BBDQROY4wCZQI1p4",
       "coordinates": {
         "lat": 22.2972613,
         "lng": 114.1705941
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大角咀櫸樹街88號 奧柏·御峯地下G11 & G12"
+      },
+      "googleMapsPlaceId": "ChIJeVxn1isBBDQRWu6NZBt_Sgg",
+      "coordinates": {
+        "lat": 22.3210796,
+        "lng": 114.1633965
       },
       "area": {
         "zh": "油尖旺區"
