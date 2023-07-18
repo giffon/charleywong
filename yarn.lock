@@ -218,10 +218,10 @@
     p-limit "^3.1.0"
     readable-stream "^4.0.0"
 
-"@googlemaps/google-maps-services-js@3.3.33":
-  version "3.3.33"
-  resolved "https://registry.yarnpkg.com/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.3.33.tgz#e01321a69e670d80d92c1143fe609355837fca7e"
-  integrity sha512-+2RLUbJVTUicx+Ky0Qr/fi02t6KvdhLgjnFtEc1mGefoKNnhEYGYZWcfne/aqozGkH0Ybe2IcxvUR0w+l5OgDw==
+"@googlemaps/google-maps-services-js@3.3.34":
+  version "3.3.34"
+  resolved "https://registry.yarnpkg.com/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.3.34.tgz#932544a5379399fd7ef02362433fc2dea0770bf9"
+  integrity sha512-tx9pVpYmgleU5+oos6UGV9pshDkhZH0veCSZmjJpUhULIxTu5LbyTjNsIwbeLQmJW1/Pzph4lKsohsmx0Xu9pQ==
   dependencies:
     "@googlemaps/url-signature" "^1.0.4"
     agentkeepalive "^4.1.0"
