@@ -31,6 +31,13 @@
         "link": "https://www.facebook.com/465573823652482"
       },
       "url": "https://www.facebook.com/rabbitlandcafe/"
+    },
+    {
+      "url": "https://www.instagram.com/rabbitlandcafe/",
+      "meta": {
+        "name": "香港首間兔cafe 🐰Rabbit Cafe in HK🇭🇰",
+        "about": "🐰\n3/F, 530 Jaffe Road, Causewaybay, Hong Kong\n銅鑼灣謝斐道530號3樓 ||\n🐰Tel/ whatsapp：52810280 ||\nPlease make reservation 🐰\n小童必須年滿四歲才可進場\n每位4-8歲小朋友均需一位成人陪同"
+      }
     }
   ],
   "posts": [
@@ -45,6 +52,21 @@
     {
       "type": "eat",
       "id": 92
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣謝斐道530號3樓"
+      },
+      "googleMapsPlaceId": "ChIJi1RZjVYABDQRxcLeH55GWCg",
+      "coordinates": {
+        "lat": 22.2810481,
+        "lng": 114.1841144
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ]
 }
