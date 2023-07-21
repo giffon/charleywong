@@ -6,7 +6,7 @@
   },
   "webpages": [
     {
-      "url": "http://hkmamishop.com"
+      "url": "https://www.hkmami.shop"
     },
     {
       "meta": {
@@ -36,14 +36,19 @@
         "link": "https://www.facebook.com/1769920059903530"
       },
       "url": "https://www.facebook.com/hkmamishop/"
+    },
+    {
+      "url": "https://www.instagram.com/hkmamishop/",
+      "meta": {
+        "website": "http://hkmamishop.com/",
+        "name": "hkmamishop 香港媽咪一站式購物網",
+        "about": "屯門澤豐花園門市地址：\n屯門澤豐花園商場LG 30號舖\n✨營業時間星期一至五1pm-7pm 星期六1PM-6PM 星期日及公眾假期休息✨"
+      }
     }
   ],
   "posts": [
     {
       "url": "https://www.facebook.com/hkmamishop/posts/2551706445058217"
-    },
-    {
-      "url": "https://www.facebook.com/hkmamishop/posts/2611943085701219"
     }
   ],
   "tags": [
@@ -53,6 +58,21 @@
     {
       "type": "shop",
       "id": 614
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門澤豐花園商場地庫LG30號舖"
+      },
+      "googleMapsPlaceId": "ChIJARO3hfX7AzQRDgiNHz70VL8",
+      "coordinates": {
+        "lat": 22.4036802,
+        "lng": 113.9750547
+      },
+      "area": {
+        "zh": "屯門區"
+      }
     }
   ]
 }
