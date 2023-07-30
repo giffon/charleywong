@@ -1,8 +1,8 @@
 {
   "id": "InnovaKidsEduCentre",
   "name": {
-    "zh": "創思學坊",
-    "en": "Innova Kids Education Centre"
+    "zh": "創思琴行",
+    "en": "Imagine Music"
   },
   "webpages": [
     {
@@ -50,12 +50,28 @@
     }
   ],
   "tags": [
+    "music",
     "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 1636
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣麗城花園二期商埸2樓212室"
+      },
+      "googleMapsPlaceId": "ChIJWZ7az-P4AzQRh8up6rJH4aw",
+      "coordinates": {
+        "lat": 22.37092600000001,
+        "lng": 114.099948
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
     }
   ]
 }
