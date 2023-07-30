@@ -27,25 +27,40 @@
     {
       "url": "https://www.instagram.com/medicinepower1/",
       "meta": {
-        "name": "飛藥堂參茸海味"
+        "website": "https://www.facebook.com/medicinepowerhk/",
+        "name": "飛藥堂參茸海味✈️ 🌍全球運送📦",
+        "about": "📲WhatsApp:92641668\n💳門市接受消費券•PayMe•FPS•八達通•信用卡•Apple Pay\n📍海味過大禮門市地址:銅鑼灣記利佐治街2-10號銅鑼灣地帶119號舖\n📍 「新店」門市地址:銅鑼灣記利佐治街2-10號銅鑼灣地帶180-181號舖\n👇🏼Facebook page👇🏼"
       }
     }
   ],
   "posts": [
     {
-      "url": "https://www.facebook.com/medicinepowerhk/videos/1772410402890760"
-    },
-    {
       "url": "https://www.facebook.com/medicinepowerhk/photos/a.430075377173506/1335553413292360"
     }
   ],
   "tags": [
-    "foodStore"
+    "foodStore",
+    "shop"
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 99
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "銅鑼灣記利佐治街2-10號銅鑼灣地帶119號舖"
+      },
+      "googleMapsPlaceId": "ChIJXelMnlYABDQRUeN23oLk6UM",
+      "coordinates": {
+        "lat": 22.280164,
+        "lng": 114.185427
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ]
 }
