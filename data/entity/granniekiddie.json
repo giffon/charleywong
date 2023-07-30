@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://granniekiddie.com"
+      "url": "https://www.granniekiddie.com"
     },
     {
       "meta": {
@@ -27,6 +27,14 @@
         "link": "https://www.facebook.com/207244346318230"
       },
       "url": "https://www.facebook.com/granniekiddie/"
+    },
+    {
+      "url": "https://www.instagram.com/granniekiddie/",
+      "meta": {
+        "website": "http://www.granniekiddie.com/",
+        "name": "Vintage select shop 古著選物店👵🏻👧🏻",
+        "about": "𝐄𝐒𝐓 𝟐𝟎𝟏𝟔 💚#用古著抗衡速食時裝\n迷戀50～90年代嘅年輕嬤嬤 💈設有試身室\n開店時間:：請看 Story highlight\n複合店 🏬 環保婚禮物資租用店 @misstomrsgreen 💚"
+      }
     }
   ],
   "posts": [
@@ -45,6 +53,21 @@
     {
       "type": "shop",
       "id": 726
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港新界荃灣白田壩街36號信義工業大廈4樓B07室"
+      },
+      "googleMapsPlaceId": "ChIJT2iaRO4ABDQRTrY9hXGS-As",
+      "coordinates": {
+        "lat": 22.3742371,
+        "lng": 114.1099809
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
     }
   ]
 }
