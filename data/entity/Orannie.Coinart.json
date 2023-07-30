@@ -32,10 +32,19 @@
       "url": "https://www.facebook.com/Orannie.Coinart/"
     },
     {
+      "url": "https://www.instagram.com/orannie.coinart/",
+      "meta": {
+        "website": "https://www.facebook.com/Orannie.Coinart",
+        "name": "Orannie Cat n Coinart est.2014",
+        "about": "係呀我係林橙呀\n開返個coin art ig\nFollow返我吖\nCoin art class // product is available now #oranniecatncoinart #orannie #coinart"
+      }
+    },
+    {
       "url": "https://www.instagram.com/lanaranja/",
       "meta": {
+        "website": "https://linktr.ee/orangepolis",
         "name": "林橙",
-        "about": "我係林橙\n香港人\nCoin Artisan\n想睇多0的有關我同我隻貓既野\n請上Facebook page-Orannie Coinart\nhttps://www.facebook.com/Orannie.Coinart"
+        "about": "我係林橙\n香港人\nCoin Artisan 硬幣匠"
       }
     }
   ],
@@ -53,5 +62,20 @@
   "tags": [
     "artist",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "4 Leven Walk, M45 8EZ"
+      },
+      "googleMapsPlaceId": "ChIJRWXq-_Sle0gRMNBDp82zEtE",
+      "coordinates": {
+        "lat": 53.54675160000001,
+        "lng": -2.2724305
+      },
+      "area": {
+        "zh": "英國"
+      }
+    }
   ]
 }
