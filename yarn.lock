@@ -6469,14 +6469,15 @@ serverless-prune-plugin@2.0.2:
   dependencies:
     bluebird "^3.7.2"
 
-serverless@3.33.0:
-  version "3.33.0"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.33.0.tgz#7d4aacfacb5f122a24e8c6a8d2972cce99746c0c"
-  integrity sha512-qmG0RMelsWmnS5Smxoy0CbjpecgnJlM89wzSIgJqfkGlmOo2nJdd8y0/E6KlaTsaozlPKkjUBDzis2nF8VNO2g==
+serverless@3.34.0:
+  version "3.34.0"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.34.0.tgz#d60d7c6fc4c6e8634106f22d1e7d52f2a4d4d46c"
+  integrity sha512-xtWAg78NGgboolP/GArdorx+UHyESJgriGSE6Qpgg9trTYsKMyd8YKaMIM3sidy89e45XZopRSpvnPYoQCJOBA==
   dependencies:
     "@serverless/dashboard-plugin" "^6.2.3"
     "@serverless/platform-client" "^4.3.2"
     "@serverless/utils" "^6.11.1"
+    abort-controller "^3.0.0"
     ajv "^8.12.0"
     ajv-formats "^2.1.1"
     archiver "^5.3.1"
@@ -6499,7 +6500,6 @@ serverless@3.33.0:
     fs-extra "^10.1.0"
     get-stdin "^8.0.0"
     globby "^11.1.0"
-    got "^11.8.6"
     graceful-fs "^4.2.11"
     https-proxy-agent "^5.0.1"
     is-docker "^2.2.1"
