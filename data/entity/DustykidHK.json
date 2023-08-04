@@ -5,13 +5,11 @@
   },
   "webpages": [
     {
-      "url": "https://dustykid.org"
-    },
-    {
       "url": "https://www.instagram.com/dustykid_hk/",
       "meta": {
-        "name": "Dustykid 塵漫畫和故事",
-        "about": "每天聆聽一個塵故事。你或許會在某個心情下雨的日子，透過塵的話語得到一些安慰。FB：@DustykidHK\n和塵合作，可找塵經理人：info@dustykid.org\n支持塵創作💡請訂閱「塵電子書閱讀計劃」、塵書和精品👇🏻"
+        "website": "http://store.dustykid.net/",
+        "name": "Dustykid 塵",
+        "about": "塵，堆積在家某個角落，每天陪伴你體會生命中的歡笑哀愁。\n💪合作聯絡 info@dustykid.net\n🌎海外塵 @DustykidWorld"
       }
     },
     {
@@ -34,9 +32,6 @@
         "website": "https://store.dustykid.net/",
         "link": "https://www.facebook.com/151485988307937"
       }
-    },
-    {
-      "url": "https://mewe.com/p/dustykid"
     }
   ],
   "posts": [
@@ -87,12 +82,6 @@
       "meta": {
         "sharedWith": "Public"
       }
-    },
-    {
-      "url": "https://www.facebook.com/DustykidHK/posts/2389607777829069",
-      "meta": {
-        "sharedWith": "Public"
-      }
     }
   ],
   "tags": [
@@ -103,6 +92,21 @@
     {
       "type": "eat",
       "id": 6751
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣大涌道18號國際企業中心3期6樓3室"
+      },
+      "googleMapsPlaceId": "ChIJGUL9hvv5AzQRAQeJlVfeLB8",
+      "coordinates": {
+        "lat": 22.3740517,
+        "lng": 114.1109572
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
     }
   ]
 }
