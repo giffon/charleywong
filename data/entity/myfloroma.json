@@ -33,7 +33,7 @@
       "meta": {
         "website": "https://linktr.ee/myfloroma",
         "name": "Floroma 花之滴 | 𝐁𝐋𝐎𝐒𝐒𝐎𝐌 𝐋𝐈𝐊𝐄 𝐅𝐋𝐎𝐖𝐄𝐑𝐒",
-        "about": "📍5間門市於銅鑼灣皇室堡/旺角MOKO/葵芳新都會/元朗YOHO/荃灣綠楊坊\n🇫🇷法國原料 🇭🇰香港製造"
+        "about": "📍8間門市於: 沙田新城市/銅鑼灣皇室堡/旺角MOKO/屯門V City/ 葵芳新都會/元朗YOHO/荃灣綠楊坊/青衣城\n🇫🇷法國原料 🇭🇰香港製造"
       }
     }
   ],
@@ -52,6 +52,19 @@
     "shop"
   ],
   "places": [
+    {
+      "address": {
+        "zh": "沙田新城市廣場第三期3樓A342號舖"
+      },
+      "googleMapsPlaceId": "ChIJkU3r1NYHBDQRuZ213_ZkMvQ",
+      "coordinates": {
+        "lat": 22.3791786,
+        "lng": 114.1875986
+      },
+      "area": {
+        "zh": "沙田區"
+      }
+    },
     {
       "address": {
         "zh": "銅鑼灣皇室堡1樓111號舖"
@@ -93,6 +106,19 @@
     },
     {
       "address": {
+        "zh": "屯門V city MTR層M-V18 & V19號舖"
+      },
+      "googleMapsPlaceId": "ChIJVSu8Zf37AzQRfsnqyX4obuo",
+      "coordinates": {
+        "lat": 22.3953946,
+        "lng": 113.9739056
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
         "zh": "元朗YOHO Mall1期1樓1128A號舖"
       },
       "googleMapsPlaceId": "ChIJpYQGYIjxAzQROoNgsmw8Z0o",
@@ -102,6 +128,19 @@
       },
       "area": {
         "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "青衣城1期1樓Kiosk 150A"
+      },
+      "googleMapsPlaceId": "ChIJpd4vzcT4AzQRvCdRHDks_Go",
+      "coordinates": {
+        "lat": 22.3584265,
+        "lng": 114.1081419
+      },
+      "area": {
+        "zh": "葵青區"
       }
     },
     {
