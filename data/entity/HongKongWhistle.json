@@ -30,10 +30,42 @@
       }
     },
     {
+      "url": "https://www.facebook.com/hongkongwhistleshop/",
+      "meta": {
+        "id": "113040623863214",
+        "username": "hongkongwhistleshop",
+        "name": "Hong Kong Whistle Shop 吹啤啤葵廣店",
+        "category_list": [
+          {
+            "id": "203743122984241",
+            "name": "Beer Garden"
+          },
+          {
+            "id": "199833073363963",
+            "name": "Wine, Beer & Spirits Store"
+          }
+        ],
+        "emails": [
+          "shop@hongkongwhistle.com"
+        ],
+        "single_line_address": "2/f, Kwai Chung Plaza, Kwai Chung, Hong Kong",
+        "link": "https://www.facebook.com/113040623863214"
+      }
+    },
+    {
       "url": "https://www.instagram.com/hongkongwhistle/",
       "meta": {
+        "website": "https://linktr.ee/hongkongwhistle",
         "name": "吹啤啤",
-        "about": "We are a boutique brewery founded in 2016. Our production has a fascinating connection with the contemporary culture and collective memory of 🇭🇰"
+        "about": "We are a boutique brewery founded in 2016. Our production has a fascinating connection with the contemporary culture and collective memory of HK.🇭🇰"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/hongkongwhistleshop/",
+      "meta": {
+        "website": "https://linktr.ee/hongkongwhistle",
+        "name": "吹啤啤葵廣店",
+        "about": "吹啤啤零售店\nShops of @hongkongwhistle\n.\n📍葵涌廣場:\n2樓，近新都會天橋入口\n⏰ 1-10pm\n📍西灣河太安樓:\n第2街，近地鐵站入口\n⏰ 2-11pm"
       }
     }
   ],
@@ -46,12 +78,6 @@
     },
     {
       "url": "https://www.facebook.com/HongKongWhistle/photos/a.977673759018107/2286302561488547",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/HongKongWhistle/photos/a.977673759018107/2360586874060115",
       "meta": {
         "sharedWith": "Public"
       }
@@ -74,12 +100,32 @@
       "area": {
         "zh": "荃灣區"
       }
+    },
+    {
+      "address": {
+        "en": "Shop C119B, 2/f, Kwai Chung Plaza, Kwai Chung"
+      },
+      "googleMapsPlaceId": "ChIJPehqtr34AzQR1OpdrdG_QCc",
+      "coordinates": {
+        "lat": 22.358021,
+        "lng": 114.1279037
+      },
+      "area": {
+        "zh": "葵青區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "shop",
       "id": 1067
+    },
+    {
+      "type": "shop",
+      "id": 4498
     }
+  ],
+  "alias": [
+    "hongkongwhistleshop"
   ]
 }
