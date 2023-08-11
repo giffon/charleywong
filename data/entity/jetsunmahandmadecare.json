@@ -24,6 +24,13 @@
         "single_line_address": "4/F,No.514 Lockhart Road, 852 Hong Kong, Hong Kong",
         "link": "https://www.facebook.com/307668572755381"
       }
+    },
+    {
+      "url": "https://www.instagram.com/jetsunmahandmadecare/",
+      "meta": {
+        "name": "Jetsunma Handmade Care 傑尊瑪創作坊",
+        "about": "#Natural #Handmade #Soap#SkincareProducts#天然手工皂#手製護膚用品#環保家居產品"
+      }
     }
   ],
   "posts": [
@@ -68,5 +75,20 @@
     "shop",
     "skincare",
     "handcraft"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "4/F, No.514 Lockhart Road"
+      },
+      "googleMapsPlaceId": "Eig1MTQgTG9ja2hhcnQgUmQsIENhdXNld2F5IEJheSwgSG9uZyBLb25nIjESLwoUChIJ-cEy71YABDQR57K0rnfMPN0QggQqFAoSCXN_Oi1aAAQ0ETTiNyxcN4RR",
+      "coordinates": {
+        "lat": 22.2805346,
+        "lng": 114.1834968
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
