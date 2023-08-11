@@ -5,9 +5,6 @@
   },
   "webpages": [
     {
-      "url": "https://www.letsbuytoys.shop"
-    },
-    {
       "meta": {
         "id": "775565992557606",
         "username": "letsbuytoys",
@@ -26,6 +23,13 @@
         "link": "https://www.facebook.com/775565992557606"
       },
       "url": "https://www.facebook.com/letsbuytoys/"
+    },
+    {
+      "url": "https://www.instagram.com/letsbuytoysco/",
+      "meta": {
+        "name": "Lets buy toys co.",
+        "about": "🈺Opening hours:\nMon - Sat: 2️⃣:3️⃣0️⃣pm- 8️⃣:3️⃣0️⃣pm"
+      }
     }
   ],
   "posts": [
@@ -36,5 +40,20 @@
   "tags": [
     "toy",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港九龍旺角亞皆老街109-111號1樓101鋪"
+      },
+      "googleMapsPlaceId": "ChIJr-NencgABDQRgYV1hD20_zY",
+      "coordinates": {
+        "lat": 22.319876,
+        "lng": 114.1714266
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    }
   ]
 }
