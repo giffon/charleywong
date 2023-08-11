@@ -26,7 +26,7 @@
     {
       "url": "https://www.instagram.com/makc_hk/",
       "meta": {
-        "name": "造物鄺志"
+        "name": "M.A.K.C 造物鄺志"
       }
     }
   ],
@@ -44,5 +44,20 @@
     "phone",
     "furniture",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "15 Blueworm Court, Northwich, UK"
+      },
+      "googleMapsPlaceId": "ChIJVVvFxYZVekgRoiCmlI_CsnM",
+      "coordinates": {
+        "lat": 53.25868029999999,
+        "lng": -2.5181321
+      },
+      "area": {
+        "zh": "英國"
+      }
+    }
   ]
 }
