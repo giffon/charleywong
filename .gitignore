@@ -30,8 +30,6 @@ FACEBOOK_TOKEN
 
 !esbuild.js
 
-!test-url.js
-
 .tmp-earthly-out*
 /tmp
 
