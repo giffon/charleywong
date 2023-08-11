@@ -36,6 +36,10 @@ functions:
     image: ${env:LAMBDA_IMAGE}
     events:
       - httpApi: '*'
+  test-url:
+    handler: test-url.handler
+    events:
+      - httpApi: '/test-url/*'
 
 plugins:
   - serverless-prune-plugin
