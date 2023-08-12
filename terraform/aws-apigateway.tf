@@ -1,11 +1,18 @@
+data "aws_cloudformation_stack" "charleywong-production" {
+  name = "charleywong-production"
+}
+data "aws_cloudformation_stack" "charleywong-master" {
+  name = "charleywong-master"
+}
+data "aws_cloudformation_stack" "charleywong-dev" {
+  name = "charleywong-dev"
+}
+
 data "aws_apigatewayv2_api" "production-charleywong" {
-  api_id = "uvsvdas0l0"
+  api_id = data.aws_cloudformation_stack.charleywong-production.outputs.HttpApiId
 }
 data "aws_apigatewayv2_api" "master-charleywong" {
-  api_id = "1tz21peo53"
-}
-data "aws_api_gateway_rest_api" "dev-charleywong" {
-  name = "dev-charleywong"
+  api_id = data.aws_cloudformation_stack.charleywong-master.outputs.HttpApiId
 }
 
 resource "aws_api_gateway_domain_name" "charleywong-giffon-io" {
@@ -55,14 +62,14 @@ resource "aws_apigatewayv2_domain_name" "dev-charleywong-info" {
   }
 }
 
-resource "aws_api_gateway_base_path_mapping" "charleywong-giffon-io" {
+resource "aws_apigatewayv2_api_mapping" "charleywong-giffon-io" {
   api_id      = data.aws_apigatewayv2_api.production-charleywong.id
-  stage_name  = "$default"
+  stage       = "$default"
   domain_name = aws_api_gateway_domain_name.charleywong-giffon-io.domain_name
 }
-resource "aws_api_gateway_base_path_mapping" "master-charleywong-giffon-io" {
+resource "aws_apigatewayv2_api_mapping" "master-charleywong-giffon-io" {
   api_id      = data.aws_apigatewayv2_api.master-charleywong.id
-  stage_name  = "$default"
+  stage       = "$default"
   domain_name = aws_api_gateway_domain_name.master-charleywong-giffon-io.domain_name
 }
 resource "aws_apigatewayv2_api_mapping" "charleywong-info" {
