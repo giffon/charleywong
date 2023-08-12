@@ -35,7 +35,16 @@ functions:
   web:
     image: ${env:LAMBDA_IMAGE}
     events:
-      - httpApi: '*'
+      # can't use the v2 httpApi here because of this issue:
+      # https://github.com/fastify/aws-lambda-fastify/issues/169
+      - http:
+          method: ANY
+          path: '/'
+          cors: true
+      - http:
+          method: ANY
+          path: '{proxy+}'
+          cors: true
 
 plugins:
   - serverless-prune-plugin
