@@ -352,7 +352,7 @@ class ServerMain {
                 return Promise.resolve(reply.redirect(url.pathname + url.search));
         }
 
-        final query:String = req.params.query;
+        final query:String = req.url.substr("/search/".length).urlDecode();
         if (query.endsWith(".json")) {
             final query = query.substr(0, -".json".length);
             return Promise.resolve(search(query, []).map(e -> e.fullInfo()));
@@ -947,7 +947,7 @@ class ServerMain {
         app.get("/proxy/image", proxyPostImage);
         app.get("/:entityId/profile.png", entityProfilePic);
         app.get("/:entityId", entity);
-        app.get("/search/:query", searchHandler);
+        app.get("/search/*", searchHandler);
     }
 
     static function main():Void {
