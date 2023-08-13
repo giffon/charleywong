@@ -27,6 +27,12 @@
         "single_line_address": "台東市更生路504號, Taitung City 950",
         "link": "https://www.facebook.com/256421834401843"
       }
+    },
+    {
+      "url": "https://www.instagram.com/oddocoffee/",
+      "meta": {
+        "name": "ODDO COFFEE"
+      }
     }
   ],
   "posts": [
@@ -46,6 +52,19 @@
       "coordinates": {
         "lat": 22.7636485,
         "lng": 121.1408611
+      },
+      "area": {
+        "zh": "臺灣"
+      }
+    },
+    {
+      "address": {
+        "zh": "台東杉原29-1號"
+      },
+      "googleMapsPlaceId": "ChIJbcp5Vui9bzQRl1G8Ah6oBcY",
+      "coordinates": {
+        "lat": 22.8374471,
+        "lng": 121.186377
       },
       "area": {
         "zh": "臺灣"
