@@ -48,12 +48,29 @@
       "area": {
         "zh": "中西區"
       }
+    },
+    {
+      "address": {
+        "zh": "灣仔軒尼詩道156-162號利榮大厦地下B舖"
+      },
+      "googleMapsPlaceId": "ChIJlSsvG0ABBDQRVbGAsda_760",
+      "coordinates": {
+        "lat": 22.277534,
+        "lng": 114.173519
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
     }
   ],
   "yellowBlueMapIds": [
     {
       "type": "eat",
       "id": 2029
+    },
+    {
+      "type": "eat",
+      "id": 7029
     }
   ]
 }
