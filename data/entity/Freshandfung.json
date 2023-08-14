@@ -56,15 +56,28 @@
   "places": [
     {
       "address": {
-        "zh": "葵涌廣場地下A90a鋪"
+        "zh": "荃灣海壩街荃立方商場C樓C18鋪"
       },
-      "googleMapsPlaceId": "ChIJPehqtr34AzQR1OpdrdG_QCc",
+      "googleMapsPlaceId": "ChIJqXsrpu34AzQROTbWUG2Jqoc",
       "coordinates": {
-        "lat": 22.3582607,
-        "lng": 114.1271935
+        "lat": 22.3712257,
+        "lng": 114.1167545
       },
       "area": {
-        "zh": "葵青區"
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣街市地下81號鋪 豐記鮮果"
+      },
+      "googleMapsPlaceId": "ChIJ4cipoO34AzQRsKxkbjBXO4s",
+      "coordinates": {
+        "lat": 22.3713873,
+        "lng": 114.1172737
+      },
+      "area": {
+        "zh": "荃灣區"
       }
     }
   ],
@@ -72,6 +85,10 @@
     {
       "type": "shop",
       "id": 1252
+    },
+    {
+      "type": "shop",
+      "id": 7573
     }
   ]
 }
