@@ -10,8 +10,9 @@
     {
       "url": "https://www.instagram.com/dr.koala_hk/",
       "meta": {
-        "name": "Dr. Koala HK",
-        "about": "🐨Dr.Koala | Authorised Retailer\n🌿clean •safe• effective\n🏠Shop G08B, Park Central ,TKO\n📞+852 23319080\n📱Whatsapp+852 98551118\n⌨️ info@drkoalahk.com"
+        "website": "https://linktr.ee/Dr.koala_hk",
+        "name": "𝗗𝗿.𝗞𝗼𝗮𝗹𝗮",
+        "about": "| 𝗔𝘂𝘁𝗵𝗼𝗿𝗶𝘀𝗲𝗱 𝗥𝗲𝘁𝗮𝗶𝗹𝗲𝗿\n🌿 𝚌𝚕𝚎𝚊𝚗 • 𝚜𝚊𝚏𝚎 • 𝚎𝚏𝚏𝚎𝚌𝚝𝚒𝚟𝚎\n“𝙸𝚗𝚐𝚛𝚎𝚍𝚒𝚎𝚗𝚝𝚜 𝚝𝚎𝚕𝚕 𝚝𝚑𝚎 𝚝𝚛𝚞𝚝𝚑”\n.\n🐨天然及環保小眾品牌授權代理，只出售行貨\n.\n⤹ 樹熊每月優惠🐨\n1️⃣銅鑼灣皇室堡124號鋪 2️⃣將軍澳中心G08B鋪"
       }
     },
     {
@@ -34,6 +35,15 @@
         "link": "https://www.facebook.com/160852454253838"
       },
       "url": "https://www.facebook.com/Dr.KoalaHK/"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCFUoRPzKa-1AfCPjiQKnugQ",
+      "meta": {
+        "id": "UCFUoRPzKa-1AfCPjiQKnugQ",
+        "location": "Hong Kong",
+        "name": "Dr. Koala",
+        "about": ""
+      }
     }
   ],
   "posts": [
@@ -74,12 +84,6 @@
       }
     },
     {
-      "url": "https://www.facebook.com/Dr.KoalaHK/posts/980387568966985",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
       "url": "https://www.facebook.com/Dr.KoalaHK/posts/980782068927535",
       "meta": {
         "sharedWith": "Public"
@@ -106,15 +110,15 @@
     },
     {
       "address": {
-        "zh": "太古城中心誠品生活G009"
+        "zh": "銅鑼灣皇室堡124號舖"
       },
-      "googleMapsPlaceId": "ChIJmXhT6cYBBDQRtHzVhqkDO5U",
+      "googleMapsPlaceId": "ChIJ4erPd8YBBDQRUM9DRZcyLwE",
       "coordinates": {
-        "lat": 22.2857802,
-        "lng": 114.2179275
+        "lat": 22.2804505,
+        "lng": 114.1865602
       },
       "area": {
-        "zh": "東區"
+        "zh": "灣仔區"
       }
     }
   ],
@@ -126,6 +130,10 @@
     {
       "type": "shop",
       "id": 653
+    },
+    {
+      "type": "shop",
+      "id": 7478
     }
   ]
 }
