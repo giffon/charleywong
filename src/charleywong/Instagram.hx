@@ -1,5 +1,6 @@
 package charleywong;
 
+import haxe.io.Path;
 import js.lib.Promise;
 import CrossFetch.fetch;
 
@@ -18,12 +19,12 @@ typedef InstagramOEmbedResponse = {
 class Instagram {
     #if (nodejs && !chrome)
     static public function getOEmbed(igPost:String):Promise<InstagramOEmbedResponse> {
-        var query = js.node.Querystring.encode({
+        final query = js.node.Querystring.encode({
             url: igPost,
             access_token: Facebook.accessToken,
             omitscript: true,
         });
-        return fetch('https://graph.facebook.com/v8.0/instagram_oembed?${query}')
+        return fetch(Path.join([Facebook.apiEndpoint, Facebook.apiVersion, "instagram_oembed"]) + '?${query}')
             .then(r -> {
                 if (r.ok)
                     r.json();

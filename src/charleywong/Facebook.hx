@@ -31,7 +31,7 @@ typedef FacebookPageInfo = {
 
 class Facebook {
     static public final appId = "628806881259482";
-    static public final apiVersion = "v10.0";
+    static public final apiVersion = "v17.0";
 
     #if (nodejs && !chrome)
     // https://developers.facebook.com/docs/facebook-login/access-tokens/#apptokens
