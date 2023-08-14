@@ -36,12 +36,47 @@
       "url": "https://www.facebook.com/288260855138541/"
     },
     {
+      "url": "https://www.facebook.com/littlefreshhkcwb/",
+      "meta": {
+        "id": "111458511834601",
+        "username": "littlefreshhkcwb",
+        "name": "Littlefreshcwb",
+        "about": "銅鑼灣耀華街3號百樂中心18樓01室（訂位可以按下面link)",
+        "category_list": [
+          {
+            "id": "273819889375819",
+            "name": "Restaurant"
+          },
+          {
+            "id": "197871390225897",
+            "name": "Cafe"
+          }
+        ],
+        "emails": [
+          "littlefreshcwb@gmail.com"
+        ],
+        "single_line_address": "Shop 1801, 18/F, Bartlock Centre, 3 Yiu Wa Street, Causeway Bay, Hong Kong, Hong Kong",
+        "website": "https://wa.me/85260844831",
+        "link": "https://www.facebook.com/111458511834601"
+      },
+      "hidden": true
+    },
+    {
       "url": "https://www.instagram.com/littlefreshhk/",
       "meta": {
-        "website": "https://littlefresh.oddle.me/en_HK",
+        "website": "https://api.whatsapp.com/send/?phone=85260844831&app_absent=0",
         "name": "Littlefresh",
-        "about": "Coffee shop"
+        "about": "旺角登打士街36號恆威商業中心18樓\nhttps://littlefresh.oddle.me/en_HK\n(訂座可以按下面條link)"
       }
+    },
+    {
+      "url": "https://www.instagram.com/littlefreshhkcwb/",
+      "meta": {
+        "website": "https://wa.me/85260844831",
+        "name": "littlefreshhkcwb",
+        "about": "地址：FLAT1801,18/F,Bartlock Centre,Yiu Wa Street,CWB 銅鑼灣耀華街3號百樂中心18樓01室 （訂座可以按下面條link)"
+      },
+      "hidden": true
     }
   ],
   "posts": [
@@ -79,12 +114,16 @@
     {
       "type": "eat",
       "id": 855
+    },
+    {
+      "type": "eat",
+      "id": 7032
     }
   ],
   "places": [
     {
       "address": {
-        "en": "18/F, Hanwai Commercial Centre, 36 Dundas Street, Mongkok"
+        "zh": "旺角登打士街36號恆威商業中心18樓"
       },
       "googleMapsPlaceId": "ChIJeQge1e4BBDQR3sh8D_bpMok",
       "coordinates": {
@@ -93,6 +132,19 @@
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣耀華街3號百樂中心18樓01室"
+      },
+      "googleMapsPlaceId": "ChIJY5Wh6t0BBDQRAIAnedktdds",
+      "coordinates": {
+        "lat": 22.2777039,
+        "lng": 114.1821166
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ]
