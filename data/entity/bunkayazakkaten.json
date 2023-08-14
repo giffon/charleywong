@@ -40,8 +40,9 @@
     {
       "url": "https://www.instagram.com/bunkaya_zakkaten/",
       "meta": {
+        "website": "https://bunkayaonlineshop.com/",
         "name": "文化屋雑貨店 Bunkaya Zakkaten",
-        "about": "旺角文化屋\n地址：上海街618號104舖\n營業時間：12:00 - 21:00\n電話：27212088\n深水埗文化屋\n地址：大南街171號\n營業時間：12:00-20:00\n電話：31703272"
+        "about": "旺角文化屋\n地址：上海街618號104舖\n營業時間：12:00-20:00\n電話：27212088\n深水埗文化屋\n地址：大南街171號\n營業時間：12:00-20:00\n電話：31703272\n荃灣文化屋\n地址：南豐紗廠地下G04舖\n營業時間：12:00-20:00\n電話：69243161"
       }
     }
   ],
@@ -97,13 +98,26 @@
       "address": {
         "zh": "大南街171號地下"
       },
-      "googleMapsPlaceId": "EiIxNzEgVGFpIE5hbiBTdCwgVG9uZyBNaSwgSG9uZyBLb25nIjESLwoUChIJMcB9IbQABDQRhPyVSulbUVsQqwEqFAoSCRumcSG0AAQ0EQBq25uwSD4h",
+      "googleMapsPlaceId": "ChIJ6dxdhO4ABDQRcmv2-AYYJ7c",
       "coordinates": {
-        "lat": 22.3268928,
-        "lng": 114.1634352
+        "lat": 22.32687,
+        "lng": 114.163415
       },
       "area": {
         "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "南豐紗廠地下G04舖"
+      },
+      "googleMapsPlaceId": "ChIJq37KGl75AzQR-B9Sdd0nMMU",
+      "coordinates": {
+        "lat": 22.3750707,
+        "lng": 114.1101695
+      },
+      "area": {
+        "zh": "荃灣區"
       }
     }
   ],
@@ -115,6 +129,10 @@
     {
       "type": "shop",
       "id": 1179
+    },
+    {
+      "type": "shop",
+      "id": 7470
     }
   ]
 }
