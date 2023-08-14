@@ -1,5 +1,5 @@
 {
-  "id": "106290020755372",
+  "id": "yatyeedimsumsoup",
   "name": {
     "zh": "一意點心燉湯專門店"
   },
@@ -18,6 +18,13 @@
         ],
         "single_line_address": "葵涌光輝圍德昌大廈地下24號鋪, Hong Kong, Hong Kong",
         "link": "https://www.facebook.com/106290020755372"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/yatyeedimsumsoup/",
+      "meta": {
+        "name": "一意點心燉湯專門店",
+        "about": "🎈燉湯\n🎈點心\n🎈砂鍋蒸飯\n🎈 冰飲\n預訂外賣😋😋\n☎️/Whatspp:24881888\n地址：葵涌道1001號德昌大廈地下24號舖\n營"
       }
     }
   ],
@@ -41,19 +48,6 @@
   "places": [
     {
       "address": {
-        "zh": "葵涌葵秀路8-10號瑞森工業大廈20樓C室"
-      },
-      "googleMapsPlaceId": "ChIJJSP_NZr4AzQRAFJCC-08c7w",
-      "coordinates": {
-        "lat": 22.3662886,
-        "lng": 114.1349782
-      },
-      "area": {
-        "zh": "葵青區"
-      }
-    },
-    {
-      "address": {
         "zh": "葵涌葵涌道1001號德昌大廈商場地下24號舖"
       },
       "googleMapsPlaceId": "ChIJdVaQZpr4AzQRcgk1HIW3Pic",
@@ -63,6 +57,19 @@
       },
       "area": {
         "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣青山公路300-350號荃錦中心商場地下C號舖"
+      },
+      "googleMapsPlaceId": "ChIJaUe7EfL4AzQRRBPnuKA4zYg",
+      "coordinates": {
+        "lat": 22.3741515,
+        "lng": 114.1152298
+      },
+      "area": {
+        "zh": "荃灣區"
       }
     }
   ],
@@ -78,6 +85,13 @@
     {
       "type": "eat",
       "id": 6575
+    },
+    {
+      "type": "eat",
+      "id": 7040
     }
+  ],
+  "alias": [
+    "106290020755372"
   ]
 }
