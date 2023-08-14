@@ -31,15 +31,17 @@
     {
       "url": "https://www.instagram.com/fengming_original/",
       "meta": {
+        "website": "http://www.fengminghk.com/",
         "name": "鳳鳴石磨腸粉",
-        "about": "全港首創手工石磨「黑米」、「紅米」腸粉，上至米漿、腸粉，豆漿，下至配料及飲品，全部都係手工自家制，非加工，新鮮有營養。\n觀塘廣場/尖東/鰂魚涌/沙田/荔枝角/炮台山皆有門店"
+        "about": "全港首創手工石磨「黑米」、「紅米」腸粉，上至米漿、腸粉，豆漿，下至配料及飲品，全部都係手工自家制，非加工，新鮮有營養。\n觀塘廣場/荔枝角/沙田/大埔皆有門店\n鳳鳴加盟熱線：9532 5025"
       }
     },
     {
       "url": "https://www.instagram.com/fengming_lck/",
       "meta": {
+        "website": "https://wa.me/message/VTBER5YY7WVDC1",
         "name": "鳳鳴石磨腸粉-荔枝角店",
-        "about": "🥇全港首創手工石磨「黑米」、「紅米」腸粉\n🖐🏼上至米漿、腸粉，豆漿，下至配料及飲品，全部都係手工自家制，非加工，新鮮有營養\n落單自取: 59807698\n北團團購form👇🏼👇🏼"
+        "about": "🥇全港首創手工石磨「黑米」、「紅米」腸粉\n🖐🏼上至米漿、腸粉，豆漿，下至配料及飲品，全部都係手工自家制，非加工，新鮮有營養\n落單自取: 59807698\n營業時間: 星期一至六 7:30-16:30"
       },
       "hidden": true
     },
@@ -122,6 +124,10 @@
     {
       "type": "eat",
       "id": 6364
+    },
+    {
+      "type": "eat",
+      "id": 7011
     }
   ],
   "places": [
@@ -155,10 +161,10 @@
       "address": {
         "zh": "沙田河畔花園20-30號地下10B舖"
       },
-      "googleMapsPlaceId": "ChIJebnPRFIGBDQRK_b-8AVAKs0",
+      "googleMapsPlaceId": "ChIJ9R-IweYHBDQRBRNalWqIQ4A",
       "coordinates": {
-        "lat": 22.381189,
-        "lng": 114.1952491
+        "lat": 22.3815442,
+        "lng": 114.1960047
       },
       "area": {
         "zh": "沙田區"
@@ -166,41 +172,15 @@
     },
     {
       "address": {
-        "zh": "鰂魚涌英皇道696-702號北角大廈696A鋪地下"
+        "zh": "新界大埔寶湖商場2樓227號舖"
       },
-      "googleMapsPlaceId": "ChIJxzcCn0gBBDQRWH9D49VMgNw",
+      "googleMapsPlaceId": "ChIJAdhwT0cIBDQR49edkx2J0qE",
       "coordinates": {
-        "lat": 22.291671,
-        "lng": 114.2068432
+        "lat": 22.449341,
+        "lng": 114.1684203
       },
       "area": {
-        "zh": "東區"
-      }
-    },
-    {
-      "address": {
-        "zh": "炮台山電氣道180號百家利中心地下1B號舖"
-      },
-      "googleMapsPlaceId": "ChIJcfJJ7gEBBDQRR2aFpbaDAHE",
-      "coordinates": {
-        "lat": 22.2879364,
-        "lng": 114.1925339
-      },
-      "area": {
-        "zh": "東區"
-      }
-    },
-    {
-      "address": {
-        "zh": "尖沙咀科學館道14號新文華中心地下72A號舖"
-      },
-      "googleMapsPlaceId": "ChIJh0XtbO8ABDQR4A8c9KzkFjU",
-      "coordinates": {
-        "lat": 22.300215,
-        "lng": 114.1782124
-      },
-      "area": {
-        "zh": "油尖旺區"
+        "zh": "大埔區"
       }
     }
   ]
