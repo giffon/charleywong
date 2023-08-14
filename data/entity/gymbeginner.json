@@ -37,8 +37,17 @@
       "url": "https://www.instagram.com/gymbeginner.hk/",
       "meta": {
         "website": "https://linktr.ee/gymbeginner.hk",
-        "name": "GymBeginner 健身入門 | 減肥 | 增肌",
-        "about": "🏆教授健身及飲食知識\n🏆設計訓練及飲食計劃\n🏆學生已超過1000人\n👇🏻免費教學文章，及訓練詳情，請點擊："
+        "name": "GymBeginner 健身入門 | 減肥 | 增肌｜長者訓練｜復康訓練",
+        "about": "尖沙咀店：\n柯士甸道130號嘉碧大廈4樓全層及5A室\n灣仔店：\n駱克道114號嘉洛商業大廈1樓全層"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC7xWbvIni8T4z_PVHW8rWWw",
+      "meta": {
+        "id": "UC7xWbvIni8T4z_PVHW8rWWw",
+        "location": "Hong Kong",
+        "name": "健身入門",
+        "about": "GymBeginner Studio提供私人訓練及小組班！\n詳情可WhatsApp +852 9728 9926\nhttps://wa.me/85297289926\n\n地址：香港 尖沙咀 柯士甸道130號 嘉碧大廈 4樓及5樓\n\nwww.gymbeginner.hk\nwww.instagram.com/gymbeginner.hk\nwww.facebook.com/gymbeginner\n\n"
       }
     }
   ],
@@ -93,15 +102,28 @@
   "places": [
     {
       "address": {
-        "en": "Flat 4A, Capri Building, Austin Road, Hong Kong"
+        "zh": "柯士甸道130號嘉碧大廈4樓全層及5A室"
       },
       "googleMapsPlaceId": "ChIJ___z_esABDQRplME1oe8XKs",
       "coordinates": {
-        "lat": 22.30318129999999,
-        "lng": 114.1736384
+        "lat": 22.3031799,
+        "lng": 114.1736409
       },
       "area": {
         "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "駱克道114號嘉洛商業大廈1樓全層"
+      },
+      "googleMapsPlaceId": "ChIJUW0sqrwBBDQR5nfq2o6cdbc",
+      "coordinates": {
+        "lat": 22.2779393,
+        "lng": 114.1725229
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ],
@@ -109,6 +131,10 @@
     {
       "type": "shop",
       "id": 698
+    },
+    {
+      "type": "shop",
+      "id": 7541
     }
   ]
 }
