@@ -32,7 +32,7 @@
       "meta": {
         "website": "http://www.adlibfashion.com/",
         "name": "ad-lib",
-        "about": "LIFE IS NOW！\n- 門店支援八達通、AlipayHK、Tap & Go（二維碼支付除外）、WeChat Pay HK支付\n- 網店支援AlipayHK、WeChat Pay HK支付"
+        "about": "香港本地品牌\nLIFE IS NOW！\n服裝｜飾物｜旅遊袋款｜柴犬P仔精品\n- 門店支援八達通、AlipayHK、Tap & Go（二維碼支付除外）、WeChat Pay HK支付\n- 網店支援AlipayHK、WeChat Pay HK支付"
       }
     },
     {
@@ -78,12 +78,12 @@
   "places": [
     {
       "address": {
-        "zh": "銅鑼灣皇室堡商場1樓103-104號鋪"
+        "zh": "銅鑼灣世貿中心L4 5B號鋪"
       },
-      "googleMapsPlaceId": "ChIJZ8C8mlYABDQRaDDberuh7So",
+      "googleMapsPlaceId": "ChIJlR1BwA4BBDQRDrBa4jaaV_8",
       "coordinates": {
-        "lat": 22.280448,
-        "lng": 114.1863383
+        "lat": 22.2815279,
+        "lng": 114.1842189
       },
       "area": {
         "zh": "灣仔區"
@@ -126,6 +126,19 @@
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "鑽石山荷里活廣場111號鋪"
+      },
+      "googleMapsPlaceId": "ChIJz4ODmZkHBDQRvsHqLlVmTfs",
+      "coordinates": {
+        "lat": 22.3405073,
+        "lng": 114.2019985
+      },
+      "area": {
+        "zh": "黃大仙區"
       }
     },
     {
@@ -178,6 +191,45 @@
       },
       "area": {
         "zh": "北區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳PopCorn二期一樓F83號鋪"
+      },
+      "googleMapsPlaceId": "ChIJWTXDXOEDBDQRZFpqU5I5z2o",
+      "coordinates": {
+        "lat": 22.3078355,
+        "lng": 114.2596675
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門巿廣場一期二樓2190B號鋪"
+      },
+      "googleMapsPlaceId": "ChIJASQPcT37AzQRBlhSGahsxls",
+      "coordinates": {
+        "lat": 22.3930073,
+        "lng": 113.9765973
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角奶路臣街17號THE FOREST 1樓109號鋪 PJai & Friends專門店"
+      },
+      "googleMapsPlaceId": "ChIJVT35uCcBBDQRN2LPCckIqk8",
+      "coordinates": {
+        "lat": 22.3189107,
+        "lng": 114.1714163
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     },
     {
