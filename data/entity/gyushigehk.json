@@ -32,7 +32,7 @@
       "meta": {
         "website": "https://inline.app/booking/gyushigehk",
         "name": "東京人氣燒肉店 牛繁GYUSHIGE",
-        "about": "🔥鐵板燒外賣熱賣中🔥安坐家中送到府上🚚\n📍尖沙咀店 - ￼金巴利道40A MW Plaza地鋪\n📍荃灣西店 - 海之戀商場2樓2025號鋪\n📍旺角「一人燒肉實施店」- 朗晴坊2/F全層 （朗豪坊戲院G/F入口旁）❗️試業中❗️\n歡迎於以下連結訂座🍻"
+        "about": "🔥鐵板燒外賣熱賣中🔛全港直送\n📍荃灣西 「日式燒肉專門店」- 海之戀商場2/F 2025號鋪\n📍旺角「一人燒肉実施店」- 朗晴坊2/F全層\n📍屯門「一人燒肉実施店」- COMING SOON\n⬇️海之戀店訂座連結⬇️"
       }
     }
   ],
@@ -54,19 +54,6 @@
     "food"
   ],
   "places": [
-    {
-      "address": {
-        "zh": "尖沙咀金巴利道40A MW Plaza地鋪"
-      },
-      "googleMapsPlaceId": "ChIJq7iE8bQBBDQRVU6HPmH1io0",
-      "coordinates": {
-        "lat": 22.3005606,
-        "lng": 114.1740654
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
     {
       "address": {
         "zh": "荃灣西海之戀商場2樓2025號鋪"
@@ -102,6 +89,10 @@
     {
       "type": "eat",
       "id": 5333
+    },
+    {
+      "type": "eat",
+      "id": 7028
     }
   ]
 }
