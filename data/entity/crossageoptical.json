@@ -10,9 +10,8 @@
     {
       "url": "https://www.instagram.com/crossageoptical/",
       "meta": {
-        "website": "https://crossageoptical.myshopify.com/",
         "name": "二代目眼鏡專門店",
-        "about": "🇭🇰Est. 2018 in Hong Kong\n☎️ 查詢電話 WhatsApp/Signal 9258 5038\n👁‍🗨扎根香港的第二代掌舵人 ⛹🏼‍♂️與大家一樣為了夢想，努力與這個城市一起前行…"
+        "about": "🇭🇰Est.2018 in Hong Kong\n👁‍🗨扎根香港的第二代掌舵人⛹🏼‍♂️與大家一樣為了夢想，努力與這個城市一起前行…\n1.觀塘駱駝漆大廈三座2樓C1\n📱9258 5038 WhatsApp以下連結👇\n2.沙田石門站京瑞廣場1期地下G39\n📱5188 2118 WhatsApp以下連結👇"
       }
     },
     {
@@ -69,12 +68,16 @@
     {
       "type": "shop",
       "id": 2195
+    },
+    {
+      "type": "shop",
+      "id": 7545
     }
   ],
   "places": [
     {
       "address": {
-        "zh": "C1室,2樓, 駱駝漆大廈第3座, 60號開源道"
+        "zh": "觀塘駱駝漆大廈三座2樓C1"
       },
       "googleMapsPlaceId": "ChIJZ5Syvt8BBDQRkUPOmevC7no",
       "coordinates": {
@@ -83,6 +86,19 @@
       },
       "area": {
         "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "沙田石門站京瑞廣場1期地下G39"
+      },
+      "googleMapsPlaceId": "ChIJA1CpDfIHBDQRLZr3gx4WeD4",
+      "coordinates": {
+        "lat": 22.3883571,
+        "lng": 114.2081221
+      },
+      "area": {
+        "zh": "沙田區"
       }
     }
   ]
