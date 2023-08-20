@@ -30,12 +30,12 @@ class Places extends ReactComponent {
     }
 
     override function render() {
-        var gmap = switch (places[selected].googleMapsPlaceId) {
+        final gmap = switch (places[selected].googleMapsPlaceId) {
             case null:
                 null;
             case pid:
-                var key = "AIzaSyCq-mjjqgWRRLQAILJFm-gpkH3Cq26GwSk";
-                var src = 'https://www.google.com/maps/embed/v1/place?key=${key}&q=place_id:${pid}';
+                final key = "AIzaSyCq-mjjqgWRRLQAILJFm-gpkH3Cq26GwSk";
+                final src = 'https://www.google.com/maps/embed/v1/place?key=${key}&q=place_id:${pid}';
                 jsx('
                     <iframe
                         className="place"
@@ -45,7 +45,10 @@ class Places extends ReactComponent {
                     </iframe>
                 ');
         }
-        if (places.length == 1) {
+        final places = places.filter(p -> p.address != null);
+        if (places.length == 0) {
+            return null;
+        } else if (places.length == 1) {
             final place = places[0];
             if (place.address != null)
                 return jsx('
