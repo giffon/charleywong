@@ -27,7 +27,7 @@
       "url": "https://www.instagram.com/cheung_wo_ho/",
       "meta": {
         "name": "⚓️暢和號⚓️ - 大埔",
-        "about": "📍： 大埔廣場地面59A店舖\n（以前樓梯底嗰間生菜魚肉鋪位）\n☎️ : 6308 0087\n📷Instagram : cheung_ho_wo\n🟦Facebook: 暢和號-大埔\n🕛營業時間🕗：\n1200-1500hrs，1630-2000hrs\n（逢星期一休息）"
+        "about": "大廣外賣店\n📍： 大埔廣場地面59A店舖\n☎️ : 6308 0087\n營業時間：12-3pm,430pm-8pm\n(星期一休息）\n翠怡堂食店\n📍：太和翠怡花園B座地下15號鋪\n☎️：6056 3806\n🕛營業時間：\n二至四：12-9pm， 五至日收930pm\n(星期一休息）\nFB: 暢和號-大埔"
       }
     }
   ],
@@ -42,12 +42,25 @@
   "places": [
     {
       "address": {
-        "en": "Shop 59A, G/F, Tai Po Plaza, Tai Po"
+        "zh": "大埔廣場地面59A店舖"
       },
       "googleMapsPlaceId": "ChIJS4h4zY0JBDQREKMVpAWgQCE",
       "coordinates": {
         "lat": 22.45385959999999,
         "lng": 114.1703524
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "太和翠怡花園B座地下15號鋪"
+      },
+      "googleMapsPlaceId": "ChIJYS37efcJBDQR6uDjw-3gHJw",
+      "coordinates": {
+        "lat": 22.4525247,
+        "lng": 114.1632814
       },
       "area": {
         "zh": "大埔區"
