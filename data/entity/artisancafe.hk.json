@@ -1,15 +1,17 @@
 {
-  "id": "artisancafecentral",
+  "id": "artisancafe.hk",
   "name": {
     "en": "Artisan Cafe"
   },
   "webpages": [
     {
-      "url": "https://www.instagram.com/artisancafecentral/",
+      "url": "https://artisancafe.hk"
+    },
+    {
+      "url": "https://www.instagram.com/artisancafetinhau/",
       "meta": {
-        "website": "http://www.artisancafecentral.com/",
-        "name": "Artisan Cafe",
-        "about": "𝙾𝚙𝚎𝚛𝚊𝚝𝚒𝚘𝚗 𝚑𝚘𝚞𝚛𝚜:\n𝙼𝚘𝚗 - 𝙵𝚛𝚒 𝟾𝚊𝚖 𝚝𝚘 𝟼𝚙𝚖\n𝚂𝚊𝚝 𝟿𝚊𝚖 𝚝𝚘 𝟼𝚙𝚖\n𝙿𝚑 𝟿𝚊𝚖 𝚝𝚘 𝟻𝚙𝚖\n𝚂𝚞𝚗 𝚌𝚕𝚘𝚜𝚎𝚍"
+        "website": "http://www.artisancafe.hk/",
+        "name": "Artisan Cafe"
       }
     },
     {
@@ -41,15 +43,15 @@
   "places": [
     {
       "address": {
-        "en": "Shop 3, Wyndham Mansion, 30-32 Wyndham Street, Central"
+        "en": "Shop A5 G/F Lau Sin Street, Tin Hau"
       },
-      "googleMapsPlaceId": "ChIJZ8TACVwBBDQRZcnv-4nZSY8",
+      "googleMapsPlaceId": "EiNMYXUgU2luIFN0LCBDYXVzZXdheSBCYXksIEhvbmcgS29uZyIuKiwKFAoSCcHfO6iqAQQ0EaIt3j_zKZ3iEhQKEgl_rG2zVQAENBFqDBLnsag_Ag",
       "coordinates": {
-        "lat": 22.2799138,
-        "lng": 114.1552905
+        "lat": 22.283102,
+        "lng": 114.1927837
       },
       "area": {
-        "zh": "中西區"
+        "zh": "東區"
       }
     }
   ],
@@ -58,5 +60,8 @@
       "type": "eat",
       "id": 1891
     }
+  ],
+  "alias": [
+    "artisancafecentral"
   ]
 }
