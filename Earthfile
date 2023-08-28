@@ -496,7 +496,7 @@ lambda-container:
     COPY static static
     COPY data data
     COPY +entity-index/groonga data/groonga
-    COPY +ybm/* ybm
+    # COPY +ybm/* ybm
     COPY +hkbase-directory/* .
     COPY +browser-script/* static
     COPY +service-worker/* static
