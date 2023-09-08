@@ -51,7 +51,7 @@
       "url": "https://www.instagram.com/mrtuu_hk/",
       "meta": {
         "name": "阿土伯鹽水雞",
-        "about": "阿土伯鹽水雞官方帳戶\n⭐觀塘 東廣場 總店\n⭐荔枝角 D2 Place 旗艦店\n⭐九龍灣 企業廣場分店\n⭐九龍灣 淘大分店\n⭐鰂魚涌 海灣街分店\n⭐屯門 雅都商場分店\n⭐ 粉嶺 花都分店\n⭐荃灣 昌寧分店"
+        "about": "阿土伯鹽水雞官方帳戶\n⭐觀塘 東廣場 總店\n⭐荔枝角 長沙灣廣場分店\n⭐九龍灣 企業廣場分店\n⭐九龍灣 淘大分店\n⭐屯門 雅都商場分店\n⭐ 粉嶺 花都分店"
       }
     }
   ],
@@ -74,6 +74,86 @@
   "tags": [
     "food",
     "taiwanese"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘成業街7號東廣場地下23號舖"
+      },
+      "googleMapsPlaceId": "ChIJO8F8WUUBBDQRkyhHAr0HX-c",
+      "coordinates": {
+        "lat": 22.3108771,
+        "lng": 114.2261728
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荔枝角長沙灣廣場3樓302號舖"
+      },
+      "googleMapsPlaceId": "ChIJP5dq3VQHBDQRXBv0FVmTaQk",
+      "coordinates": {
+        "lat": 22.3372137,
+        "lng": 114.1491436
+      },
+      "area": {
+        "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍灣常悅道9號企業廣場一期1樓7A號舖"
+      },
+      "googleMapsPlaceId": "ChIJqc7FxzUBBDQRuVI8N0u-Z8c",
+      "coordinates": {
+        "lat": 22.3220294,
+        "lng": 114.2079355
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "新界西貢將軍澳新都城中心二期UG層UG036號鋪TKO-19單位"
+      },
+      "googleMapsPlaceId": "ChIJF6YgAsoFBDQRruRfM8ldyik",
+      "coordinates": {
+        "lat": 22.3233143,
+        "lng": 114.2581878
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門鄉事會路112-140號雅都商埸1樓S65號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ4bZOWSL7AzQRKd5gIj20Gyg",
+      "coordinates": {
+        "lat": 22.3983905,
+        "lng": 113.9755503
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "粉嶺花都廣埸地下45&46號鋪"
+      },
+      "googleMapsPlaceId": "ChIJBUBJx8z3AzQRG6cYJV9nrW8",
+      "coordinates": {
+        "lat": 22.4850997,
+        "lng": 114.1418032
+      },
+      "area": {
+        "zh": "北區"
+      }
+    }
   ],
   "yellowBlueMapIds": [
     {
