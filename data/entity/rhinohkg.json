@@ -7,8 +7,8 @@
     {
       "url": "https://www.instagram.com/rhinohkg/",
       "meta": {
-        "name": "犀牛犀牛台式茶飲捲餅吐司專賣店（香港）",
-        "about": "Restaurant"
+        "website": "https://bit.ly/RhinoTakeaway",
+        "name": "犀牛犀牛台式茶飲捲餅吐司專賣店（香港）"
       }
     },
     {
@@ -46,9 +46,6 @@
     },
     {
       "url": "https://www.instagram.com/p/CYEVxufvSfD/"
-    },
-    {
-      "url": "https://www.instagram.com/p/Cc-hga3P-jD/"
     },
     {
       "url": "https://www.instagram.com/p/Ce2hKcfPxto/"
@@ -112,19 +109,6 @@
     },
     {
       "address": {
-        "zh": "九龍大角咀道33號富貴大廈東座地下7號"
-      },
-      "googleMapsPlaceId": "ChIJNzAzLIkBBDQRmTiXryLP9TY",
-      "coordinates": {
-        "lat": 22.3192932,
-        "lng": 114.1618922
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
         "zh": "沙田廣場3樓31E鋪"
       },
       "googleMapsPlaceId": "ChIJQcuf8I0HBDQRWXlKNdZ4utE",
@@ -153,10 +137,10 @@
       "address": {
         "zh": "西環堅尼地城士美菲路45-51號Smithfield Walk地下5B號舖"
       },
-      "googleMapsPlaceId": "ChIJRVoEEJf_AzQR4amazJ_w254",
+      "googleMapsPlaceId": "ChIJVWZCwIz_AzQRh_jrN2qMKaI",
       "coordinates": {
-        "lat": 22.28184259999999,
-        "lng": 114.1282564
+        "lat": 22.2821226,
+        "lng": 114.1279048
       },
       "area": {
         "zh": "中西區"
@@ -166,13 +150,143 @@
       "address": {
         "zh": "葵涌廣場3樓87B號鋪"
       },
-      "googleMapsPlaceId": "ChIJPehqtr34AzQR1OpdrdG_QCc",
+      "googleMapsPlaceId": "ChIJVT8hHQz5AzQRIeiYqniFygI",
       "coordinates": {
-        "lat": 22.3582607,
-        "lng": 114.1271935
+        "lat": 22.35843849999999,
+        "lng": 114.1274926
       },
       "area": {
         "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍尖沙咀彌敦道36-44 號慶方S27 號舖"
+      },
+      "googleMapsPlaceId": "ChIJkyELt6MBBDQRIq2wkQcCXXk",
+      "coordinates": {
+        "lat": 22.2965889,
+        "lng": 114.1725653
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "元朗教育路1號千色匯G27號鋪"
+      },
+      "googleMapsPlaceId": "ChIJNdZsUpn7AzQRYsYUHliXKsE",
+      "coordinates": {
+        "lat": 22.4426126,
+        "lng": 114.0282976
+      },
+      "area": {
+        "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角彌敦道700號TOP Mall 3樓312&313號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ5ayxTZ0BBDQRC-AxexN7SAk",
+      "coordinates": {
+        "lat": 22.3205738,
+        "lng": 114.1694759
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳至善街3號SAVANNAH Place 地下G08A號舖"
+      },
+      "googleMapsPlaceId": "ChIJW15NfgwDBDQRqL0bggNtbpk",
+      "coordinates": {
+        "lat": 22.3057346,
+        "lng": 114.263873
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "北角匯1期地下G13號鋪"
+      },
+      "googleMapsPlaceId": "ChIJp0W6O-QBBDQRWTzEu4HUUaM",
+      "coordinates": {
+        "lat": 22.2928063,
+        "lng": 114.1995174
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "慈雲山中心1樓106A號鋪"
+      },
+      "googleMapsPlaceId": "ChIJv5oDWkwHBDQRlnYawqSXbos",
+      "coordinates": {
+        "lat": 22.3481083,
+        "lng": 114.2007674
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳新都城3期地下G05鋪"
+      },
+      "googleMapsPlaceId": "ChIJD_gp40gFBDQROAY2A9SZ2As",
+      "coordinates": {
+        "lat": 22.3228946,
+        "lng": 114.2569917
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘巧明街99號巧明工廠大廈地下1號舖"
+      },
+      "googleMapsPlaceId": "ChIJEXRuCBMBBDQRb-RJYtBpe_U",
+      "coordinates": {
+        "lat": 22.3127429,
+        "lng": 114.2234
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門時代廣場北翼3樓39號舖"
+      },
+      "googleMapsPlaceId": "ChIJBReUDT37AzQRzRfN3jzGxAM",
+      "coordinates": {
+        "lat": 22.3931244,
+        "lng": 113.975691
+      },
+      "area": {
+        "zh": "屯門區"
+      }
+    },
+    {
+      "address": {
+        "zh": "銅鑼灣禮頓道106-126號禮信大廈地下04號舖"
+      },
+      "googleMapsPlaceId": "ChIJWbI1-GwBBDQRINbF8B1tMFg",
+      "coordinates": {
+        "lat": 22.2780154,
+        "lng": 114.1863707
+      },
+      "area": {
+        "zh": "灣仔區"
       }
     }
   ],
