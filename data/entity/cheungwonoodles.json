@@ -43,11 +43,13 @@
         ],
         "single_line_address": "山道35號, 西環, Hong Kong, Hong Kong",
         "link": "https://www.facebook.com/434603720222667"
-      }
+      },
+      "hidden": true
     },
     {
       "url": "https://www.instagram.com/cheung_wo_noodles/",
       "meta": {
+        "website": "https://www.facebook.com/kinder925/",
         "name": "暢和麵家-大埔",
         "about": "廣東雲吞，招牌豬雜，馳名醉雞"
       }
@@ -56,7 +58,8 @@
       "url": "https://www.instagram.com/cheungwonoodles/",
       "meta": {
         "name": "暢和麵家_西環"
-      }
+      },
+      "hidden": true
     }
   ],
   "posts": [
@@ -112,19 +115,6 @@
       },
       "area": {
         "zh": "大埔區"
-      }
-    },
-    {
-      "address": {
-        "zh": "山道35號"
-      },
-      "googleMapsPlaceId": "ChIJfXSDZYT_AzQRFfE_iXbk8zQ",
-      "coordinates": {
-        "lat": 22.2855234,
-        "lng": 114.1357206
-      },
-      "area": {
-        "zh": "中西區"
       }
     }
   ],
