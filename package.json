@@ -30,7 +30,7 @@
     "@fastify/static": "6.11.0",
     "@googlemaps/google-maps-services-js": "3.3.37",
     "chokidar": "3.5.3",
-    "cross-fetch": "4.0.0",
+    "cross-fetch": "^3",
     "fastify": "4.23.0",
     "google-spreadsheet": "3.3.0",
     "jimp": "0.22.10",
