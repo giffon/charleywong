@@ -35,5 +35,20 @@
   "tags": [
     "toy",
     "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "荃灣南豐中心15樓16B室"
+      },
+      "googleMapsPlaceId": "ChIJISIVcPL4AzQR-kkmUwQaNZM",
+      "coordinates": {
+        "lat": 22.3738014,
+        "lng": 114.1163447
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    }
   ]
 }
