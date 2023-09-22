@@ -36,8 +36,9 @@
     {
       "url": "https://www.instagram.com/thenewblackoptical/",
       "meta": {
+        "website": "http://thenewblackoptical.com/",
         "name": "The New Black Optical",
-        "about": "歡迎inbox查詢：）\n1PM -8:30PM\n旺角店：35654130\n旺角彌敦道583號1樓全層（信和中心斜對面）\n銅鑼灣店：26170888\n銅鑼灣駱克道496-498號合亞廣場2樓全層（銅鑼灣C出口）"
+        "about": "1PM - 8:30PM\n-尖沙咀：63338321\n海港城海運大廈3樓330號鋪（近誠品門口）\n-荃灣西店：31532218\n如心廣場二期2樓212舖\n-旺角店：35654130\n彌敦道583號1樓（信和中心斜對面）\n-銅鑼灣店：26170888\n駱克道496-498號合亞廣場2樓（銅鑼灣C出口）"
       }
     }
   ],
@@ -46,7 +47,8 @@
       "url": "https://www.facebook.com/NewBlackOptical/photos/a.486076564786828/2264670450260755",
       "meta": {
         "utime": "1560304585",
-        "sharedWith": "Custom"
+        "sharedWith": "Custom",
+        "embeddable": true
       }
     },
     {
@@ -63,9 +65,35 @@
   "places": [
     {
       "address": {
+        "zh": "銅鑼灣駱克道496-498號合亞廣場2樓全層"
+      },
+      "googleMapsPlaceId": "ChIJtWB3blUHBDQRzk5SNin0CRk",
+      "coordinates": {
+        "lat": 22.2804352,
+        "lng": 114.1829728
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "海港城海運大廈3樓330號鋪"
+      },
+      "googleMapsPlaceId": "ChIJsUNyG8cABDQRtlKx0canrUc",
+      "coordinates": {
+        "lat": 22.2953381,
+        "lng": 114.1688303
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
         "zh": "旺角彌敦道583號1樓全層"
       },
-      "googleMapsPlaceId": "ChIJ6XdZO8cABDQR8qrT4oBV9vk",
+      "googleMapsPlaceId": "ChIJn1Krs-ABBDQRP04btUvN1tk",
       "coordinates": {
         "lat": 22.3155548,
         "lng": 114.1698872
@@ -76,15 +104,15 @@
     },
     {
       "address": {
-        "zh": "銅鑼灣駱克道496-498號合亞廣場2樓全層"
+        "zh": "荃灣大河道98號如心廣場2期212號鋪"
       },
-      "googleMapsPlaceId": "ChIJO3rc5lYABDQRkTeAAiUGR14",
+      "googleMapsPlaceId": "ChIJz9ZTM1cABDQRmb-CxnMMiT4",
       "coordinates": {
-        "lat": 22.280567,
-        "lng": 114.183021
+        "lat": 22.3691959,
+        "lng": 114.1112557
       },
       "area": {
-        "zh": "灣仔區"
+        "zh": "荃灣區"
       }
     }
   ],
