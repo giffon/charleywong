@@ -40,17 +40,11 @@
       "meta": {
         "website": "https://moshiron.store/",
         "name": "ᗰOᔕᕼI ᖇOᑎ",
-        "about": "1) Tσρ 104\n2) Nҽɯ Tσɯɳ Pʅαȥα A204\n3) Oʅყɱριƈ Cιƚყ 2 UG 30\n4) Mαɾιƚιɱҽʂϙυαɾҽ ooSԋσρ 162A\n5) TSUEN WAN Pʅαȥα 392\n6) LCX K17\n7）Windsor Cwb Shop 120"
+        "about": "1) Tσρ 104\n2) Nҽɯ Tσɯɳ Pʅαȥα A204\n3) Oʅყɱριƈ Cιƚყ 2 UG 30\n4) TSUEN WAN Pʅαȥα 392\n5) METRO PLAZA 237-239\n6) MOKO 257\n7) K11 Musea LA303"
       }
     }
   ],
   "posts": [
-    {
-      "url": "https://www.facebook.com/fashionhomeLP/posts/2400003770221156:0",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
     {
       "url": "https://www.facebook.com/fashionhomeLP/posts/2438252566396276",
       "meta": {
@@ -91,9 +85,22 @@
   "places": [
     {
       "address": {
-        "zh": "旺角彌敦道700號T0P 商場3樓316號舖"
+        "zh": "荃灣廣場3樓392號"
       },
-      "googleMapsPlaceId": "ChIJJ_ObxIABBDQRTXE19uWjs0M",
+      "googleMapsPlaceId": "ChIJS0C2Z3sHBDQRtqBI2Aeyqj8",
+      "coordinates": {
+        "lat": 22.3708566,
+        "lng": 114.1112745
+      },
+      "area": {
+        "zh": "荃灣區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角彌敦道700號T0P 商場 104-107"
+      },
+      "googleMapsPlaceId": "ChIJty2xYKgBBDQRm4B2rXZ5HTQ",
       "coordinates": {
         "lat": 22.3206,
         "lng": 114.1694808
@@ -104,25 +111,12 @@
     },
     {
       "address": {
-        "zh": "海港城Lcx"
-      },
-      "googleMapsPlaceId": "ChIJaw6Ow_IABDQRkjApcoDUd1c",
-      "coordinates": {
-        "lat": 22.294735,
-        "lng": 114.1656411
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
         "zh": "奧海城2期UG 30"
       },
-      "googleMapsPlaceId": "ChIJLdOHYLkABDQRDR5nj4ociXI",
+      "googleMapsPlaceId": "ChIJLWLg4bsABDQRv2_LNl4mBrY",
       "coordinates": {
-        "lat": 22.3172044,
-        "lng": 114.1619682
+        "lat": 22.31693,
+        "lng": 114.16176
       },
       "area": {
         "zh": "油尖旺區"
@@ -132,10 +126,10 @@
       "address": {
         "zh": "沙田新城市廣場三期A204"
       },
-      "googleMapsPlaceId": "ChIJ3RDicKwHBDQRMjnQHUUfDZU",
+      "googleMapsPlaceId": "ChIJq8XRrUQBBDQRSOj6yE7gzs8",
       "coordinates": {
-        "lat": 22.379537,
-        "lng": 114.187559
+        "lat": 22.3792959,
+        "lng": 114.1879088
       },
       "area": {
         "zh": "沙田區"
@@ -143,25 +137,25 @@
     },
     {
       "address": {
-        "zh": "荃灣廣場3樓392號"
+        "zh": "尖沙咀K11 Musea La 303"
       },
-      "googleMapsPlaceId": "ChIJl8B1_u74AzQRlJT-tYUUzSU",
+      "googleMapsPlaceId": "ChIJJaeB3_MBBDQRMuGmb2yQxGE",
       "coordinates": {
-        "lat": 22.370821,
-        "lng": 114.1112277
+        "lat": 22.2941573,
+        "lng": 114.1739272
       },
       "area": {
-        "zh": "荃灣區"
+        "zh": "油尖旺區"
       }
     },
     {
       "address": {
-        "zh": "青衣城商場一期 Shop 162A"
+        "zh": "葵芳新都會237"
       },
-      "googleMapsPlaceId": "ChIJpd4vzcT4AzQRvCdRHDks_Go",
+      "googleMapsPlaceId": "ChIJ2ZOC3pH5AzQR9iumuw2YHgE",
       "coordinates": {
-        "lat": 22.3584265,
-        "lng": 114.1081419
+        "lat": 22.3572923,
+        "lng": 114.1271356
       },
       "area": {
         "zh": "葵青區"
@@ -169,15 +163,15 @@
     },
     {
       "address": {
-        "zh": "銅鑼灣皇室堡1/F 120"
+        "zh": "旺角Moko 257"
       },
-      "googleMapsPlaceId": "ChIJOwZKJVQABDQRwnEA_tdTviU",
+      "googleMapsPlaceId": "ChIJC_lPIskABDQRxerRNtoOV9o",
       "coordinates": {
-        "lat": 22.2804505,
-        "lng": 114.1865602
+        "lat": 22.3231937,
+        "lng": 114.1723194
       },
       "area": {
-        "zh": "灣仔區"
+        "zh": "油尖旺區"
       }
     }
   ],
