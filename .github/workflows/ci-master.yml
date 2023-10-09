@@ -18,6 +18,9 @@ jobs:
     concurrency: ${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
+      # https://github.com/orgs/community/discussions/25678
+      - name: Free disk space
+        run: rm -rf /opt/hostedtoolcache
       - uses: actions/checkout@v3
         with:
           submodules: true

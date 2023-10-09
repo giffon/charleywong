@@ -17,6 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     container: ghcr.io/giffon/charleywong_devcontainer_workspace:${{ github.sha }}
     steps:
+      # https://github.com/orgs/community/discussions/25678
+      - name: Free disk space
+        run: rm -rf /opt/hostedtoolcache
       - uses: actions/checkout@v3
         with:
           submodules: true
