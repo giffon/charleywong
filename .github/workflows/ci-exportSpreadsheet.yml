@@ -29,8 +29,6 @@ jobs:
           export YBM_AWS_DEFAULT_REGION="$YBM_AWS_DEFAULT_REGION"
           export YBM_AWS_ACCESS_KEY_ID="$YBM_AWS_ACCESS_KEY_ID"
           export YBM_AWS_SECRET_ACCESS_KEY="$YBM_AWS_SECRET_ACCESS_KEY"
-          export FACEBOOK_TOKEN="$FACEBOOK_TOKEN"
-          export SERVERLESS_ACCESS_KEY="$SERVERLESS_ACCESS_KEY"
           EOT
         env:
           GOOGLE_CLIENT_EMAIL: ${{ secrets.googleClientEmail }}
