@@ -644,10 +644,10 @@
     glob "^8.0.1"
     p-limit "^3.1.0"
 
-"@googlemaps/google-maps-services-js@3.3.40":
-  version "3.3.40"
-  resolved "https://registry.yarnpkg.com/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.3.40.tgz#aa15afea5c657b8b6498bf770fda5c2bbcfc66b5"
-  integrity sha512-hLDt3zp3WD1Vc4ZcZF64FxiYnGo9BakGst7891PBJd+9Hifv8IWOlbwIhBedzj8hPk0LEe+DOR2CEP+WwK4Gjg==
+"@googlemaps/google-maps-services-js@3.3.41":
+  version "3.3.41"
+  resolved "https://registry.yarnpkg.com/@googlemaps/google-maps-services-js/-/google-maps-services-js-3.3.41.tgz#1e8e15059b3ba887b20a8d91c2174c0e48225525"
+  integrity sha512-oxfjzhXxB/nngLZY1ij6u4UCXkGjZIcDuqeJxGY2T7LXPSVAM3h1eBUu9AacYeO+tjuXwvoIV3ascb5DRt7yOg==
   dependencies:
     "@googlemaps/url-signature" "^1.0.4"
     agentkeepalive "^4.1.0"
