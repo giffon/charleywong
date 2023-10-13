@@ -174,7 +174,7 @@ devcontainer:
     VOLUME /workspace/data/hkgs
     COPY +node-modules-dev/node_modules node_modules
     VOLUME /workspace/node_modules
-    COPY +dts2hx/* lib/dts2hx/
+    COPY +dts2hx/dts2hx lib/dts2hx
     VOLUME /workspace/lib/dts2hx
     COPY +lix-download/haxe "$HAXESHIM_ROOT"
 
@@ -268,7 +268,7 @@ dts2hx:
     RUN perl -i -pe 's/FastifyServerOptions(?!<[^,>]+,[^,>]+>)(<.+?>)?/Dynamic/g' lib/dts2hx/fastify/FastifyServerOptions.hx
     RUN perl -i -pe 's/FastifyHttpsOptions(?!<[^,>]+,[^,>]+>)(<.+?>)?/Dynamic/g' lib/dts2hx/fastify/FastifyHttpsOptions.hx
     RUN perl -i -pe 's/FastifyHttpOptions(?!<[^,>]+,[^,>]+>)(<.+?>)?/Dynamic/g' lib/dts2hx/fastify/FastifyHttpOptions.hx
-    SAVE ARTIFACT lib/dts2hx/* AS LOCAL ./lib/dts2hx/
+    SAVE ARTIFACT lib/dts2hx
     SAVE IMAGE --cache-hint
 
 entity-index-exporter:
