@@ -42,4 +42,4 @@ jobs:
       - name: Export spreadsheet
         run: earthly +exportSpreadsheet --HAXE_ARGS="-D CI"
         env:
-          EARTHLY_SECRET_FILES: .envrc=.envrc
+          EARTHLY_SECRET_FILES: envrc=.envrc

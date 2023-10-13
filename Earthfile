@@ -174,7 +174,7 @@ devcontainer:
     VOLUME /workspace/data/hkgs
     COPY +node-modules-dev/node_modules node_modules
     VOLUME /workspace/node_modules
-    COPY +dts2hx/dts2hx lib/dts2hx
+    COPY +dts2hx/* lib/dts2hx/
     VOLUME /workspace/lib/dts2hx
     COPY +lix-download/haxe "$HAXESHIM_ROOT"
 
@@ -268,7 +268,7 @@ dts2hx:
     RUN perl -i -pe 's/FastifyServerOptions(?!<[^,>]+,[^,>]+>)(<.+?>)?/Dynamic/g' lib/dts2hx/fastify/FastifyServerOptions.hx
     RUN perl -i -pe 's/FastifyHttpsOptions(?!<[^,>]+,[^,>]+>)(<.+?>)?/Dynamic/g' lib/dts2hx/fastify/FastifyHttpsOptions.hx
     RUN perl -i -pe 's/FastifyHttpOptions(?!<[^,>]+,[^,>]+>)(<.+?>)?/Dynamic/g' lib/dts2hx/fastify/FastifyHttpOptions.hx
-    SAVE ARTIFACT lib/dts2hx
+    SAVE ARTIFACT lib/dts2hx/* AS LOCAL ./lib/dts2hx/
     SAVE IMAGE --cache-hint
 
 entity-index-exporter:
@@ -300,7 +300,7 @@ hkbase-directory:
     COPY .haxerc dumpHkbaseDirectory.hxml .
     RUN haxe dumpHkbaseDirectory.hxml
     RUN \
-        --mount=type=secret,id=+secrets/.envrc,target=.envrc \
+        --mount=type=secret,id=+secrets/envrc,target=.envrc \
         . ./.envrc \
         && OPENSSL_CONF=/dev/null node dumpHkbaseDirectory.js dump
     SAVE ARTIFACT HkbaseDirectory.json
@@ -315,7 +315,7 @@ ybm-download:
     RUN haxe syncYellowBlueMap.hxml
     COPY data data
     ARG CACHE_KEY
-    RUN --mount=type=secret,id=+secrets/.envrc,target=.envrc \
+    RUN --mount=type=secret,id=+secrets/envrc,target=.envrc \
         . ./.envrc \
         && \
         AWS_DEFAULT_REGION="$YBM_AWS_DEFAULT_REGION" \
@@ -354,7 +354,7 @@ exportSpreadsheet.js:
     COPY +entity-index/groonga data/groonga
     COPY --keep-ts data/entity data/entity
     ARG HAXE_ARGS
-    RUN --mount=type=secret,id=+secrets/.envrc,target=.envrc \
+    RUN --mount=type=secret,id=+secrets/envrc,target=.envrc \
         . ./.envrc \
         && \
         AWS_DEFAULT_REGION="$YBM_AWS_DEFAULT_REGION" \
@@ -397,7 +397,7 @@ exportSpreadsheet:
     COPY static static
     COPY --keep-ts data/entity data/entity
     RUN --no-cache \
-        --mount=type=secret,id=+secrets/.envrc,target=.envrc \
+        --mount=type=secret,id=+secrets/envrc,target=.envrc \
         . ./.envrc \
         && \
         AWS_DEFAULT_REGION="$YBM_AWS_DEFAULT_REGION" \
@@ -552,7 +552,7 @@ deploy:
     ENV LAMBDA_IMAGE="$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG"
     ARG --required DEPLOY_STAGE
     RUN --no-cache \
-        --mount=type=secret,id=+secrets/.envrc,target=.envrc \
+        --mount=type=secret,id=+secrets/envrc,target=.envrc \
         . ./.envrc \
         && npx serverless deploy --stage "${DEPLOY_STAGE}"
 
@@ -572,7 +572,7 @@ tail-logs:
     ENV LAMBDA_IMAGE="$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG"
     ARG DEPLOY_STAGE
     RUN --no-cache \
-        --mount=type=secret,id=+secrets/.envrc,target=.envrc \
+        --mount=type=secret,id=+secrets/envrc,target=.envrc \
         . ./.envrc \
         && npx serverless logs -t -f web --stage "${DEPLOY_STAGE}"
 
@@ -610,7 +610,7 @@ syncFacebook:
     COPY data data
     COPY +syncFacebook.js/* .
     RUN --no-cache \
-        --mount=type=secret,id=+secrets/.envrc,target=.envrc \
+        --mount=type=secret,id=+secrets/envrc,target=.envrc \
         . ./.envrc \
         && node syncFacebook.js updateMeta
     SAVE ARTIFACT --keep-ts data/entity/*.json AS LOCAL ./data/entity/

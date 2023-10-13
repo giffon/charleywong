@@ -31,7 +31,7 @@ jobs:
           FACEBOOK_TOKEN: ${{ secrets.FACEBOOK_TOKEN }}
       - run: earthly +syncFacebook
         env:
-          EARTHLY_SECRET_FILES: .envrc=.envrc
+          EARTHLY_SECRET_FILES: envrc=.envrc
       - run: earthly +git.js
       - name: Import gpg key
         run: |

@@ -59,6 +59,6 @@ jobs:
       - name: Deploy
         run: earthly +deploy --LAMBDA_IMAGE_NAME="$LAMBDA_IMAGE_NAME_PRODUCTION" --LAMBDA_IMAGE_TAG="${{ github.sha }}" --DEPLOY_STAGE="production"
         env:
-          EARTHLY_SECRET_FILES: .envrc=.envrc
+          EARTHLY_SECRET_FILES: envrc=.envrc
       - name: Post-deployment test
         run: earthly +test --TEST="post-deployment charleywong.info"

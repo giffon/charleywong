@@ -8,8 +8,7 @@ services:
       - ..:/workspace:cached
     environment:
       - TZ=Asia/Hong_Kong
-      - EARTHLY_BUILDKIT_HOST=tcp://earthly:8372
-      - EARTHLY_SECRET_FILES=.envrc=/workspace/.envrc
+      - EARTHLY_SECRET_FILES=envrc=/workspace/.envrc
       - EARTHLY_REMOTE_CACHE=ghcr.io/giffon/charleywong_cache:master_devcontainer_workspace
     user: vscode
     entrypoint: /usr/local/share/docker-init.sh
@@ -22,16 +21,3 @@ services:
     command: tunnel --no-autoupdate --url http://workspace:80
     expose:
       - "44871"
-  earthly:
-    image: earthly/buildkitd:v0.7.11
-    privileged: true
-    environment:
-      - BUILDKIT_TCP_TRANSPORT_ENABLED=true
-    expose:
-      - 8372
-    volumes:
-      # https://docs.earthly.dev/docs/guides/using-the-earthly-docker-images/buildkit-standalone#earthly_tmp_dir
-      - earthly-tmp:/tmp/earthly:rw
-
-volumes:
-  earthly-tmp:
