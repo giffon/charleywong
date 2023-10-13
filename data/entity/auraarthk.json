@@ -40,16 +40,9 @@
     {
       "url": "https://www.instagram.com/auraarthk/",
       "meta": {
+        "website": "http://www.auraart.hk/",
         "name": "AURA ART",
-        "about": "Art Event Services\nCorporate Event | Team Building |\nWorkshop | Party | Art Course |\nArt Jam | Art Store\nTel: 2886 2359\nWhatsApp: 9738 1525"
-      }
-    },
-    {
-      "url": "https://www.youtube.com/channel/UC6XKuEqkWpHxY8HlAh8It2g",
-      "meta": {
-        "id": "UC6XKuEqkWpHxY8HlAh8It2g",
-        "name": "AURA ART",
-        "about": ""
+        "about": "📍Tai Kwun📍Central Market\nArt Event Services\nCorporate Event | Team Building\nWorkshop | Party | Course | Art Store\nTel: 2886 2359\nWhatsApp: 9738 1525"
       }
     }
   ],
@@ -80,15 +73,28 @@
   "places": [
     {
       "address": {
-        "en": "Flat 2E, 83 Percival Street, Causeway Bay"
+        "zh": "香港中環荷里活道10號大館3座101號"
       },
       "googleMapsPlaceId": "ChIJHcnyIFEABDQRZtBLspFlIB0",
       "coordinates": {
-        "lat": 22.2787203,
-        "lng": 114.1830657
+        "lat": 22.2811382,
+        "lng": 114.1541329
       },
       "area": {
-        "zh": "灣仔區"
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "香港中環德輔道中80號中環街市101號"
+      },
+      "googleMapsPlaceId": "ChIJHxHFAWMBBDQRUvdTuBioYmA",
+      "coordinates": {
+        "lat": 22.283944,
+        "lng": 114.1555478
+      },
+      "area": {
+        "zh": "中西區"
       }
     }
   ],
