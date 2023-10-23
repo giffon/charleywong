@@ -1097,16 +1097,16 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@serverless/dashboard-plugin@^7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@serverless/dashboard-plugin/-/dashboard-plugin-7.0.2.tgz#48881a0aad6459aa135bcdbc634dd2772010bcf4"
-  integrity sha512-VdS+VJO68whLggpe6SCExolOE8oGgrCtbSzot9USq7vpc0AQFn3AekLvcnuSsRLCzQqFfwJ/c6GA7dY/5bxSpQ==
+"@serverless/dashboard-plugin@^7.1.0":
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/@serverless/dashboard-plugin/-/dashboard-plugin-7.1.0.tgz#575a2f87277c08325f27206fb5dbc78a06fccfb6"
+  integrity sha512-mAiTU2ERsDHdCrXJa/tihh/r+8ZwSuYYBqln3SkwuBD/49ct9QrK7S00cpiqFoY/geMFlHpOkriGzCPz6UP/rw==
   dependencies:
     "@aws-sdk/client-cloudformation" "^3.410.0"
     "@aws-sdk/client-sts" "^3.410.0"
     "@serverless/event-mocks" "^1.1.1"
     "@serverless/platform-client" "^4.4.0"
-    "@serverless/utils" "^6.8.2"
+    "@serverless/utils" "^6.14.0"
     child-process-ext "^3.0.1"
     chokidar "^3.5.3"
     flat "^5.0.2"
@@ -1155,10 +1155,10 @@
     traverse "^0.6.6"
     ws "^7.5.3"
 
-"@serverless/utils@^6.13.1", "@serverless/utils@^6.8.2":
-  version "6.13.1"
-  resolved "https://registry.yarnpkg.com/@serverless/utils/-/utils-6.13.1.tgz#bff40cbe82b4337185ab52b6f57bfe647b037700"
-  integrity sha512-yokWzlsIaAd3TWzNgIDz6l8HZmtYZs9caaLuheZ0IiZ/bDWSCLBWn84HKkdWZOmFnYxejyPNJEOwE59mtSR3Ow==
+"@serverless/utils@^6.13.1", "@serverless/utils@^6.14.0":
+  version "6.15.0"
+  resolved "https://registry.yarnpkg.com/@serverless/utils/-/utils-6.15.0.tgz#499255c517581b1edd8c2bfedbcf61cc7aaa7539"
+  integrity sha512-7eDbqKv/OBd11jjdZjUwFGN8sHWkeUqLeHXHQxQ1azja2IM7WIH+z/aLgzR6LhB3/MINNwtjesDpjGqTMj2JKQ==
   dependencies:
     archive-type "^4.0.0"
     chalk "^4.1.2"
@@ -7292,12 +7292,12 @@ serverless-prune-plugin@2.0.2:
   dependencies:
     bluebird "^3.7.2"
 
-serverless@3.35.2:
-  version "3.35.2"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.35.2.tgz#8f0e24ba0814ffb9a3a5937fbd3dbea9802f44be"
-  integrity sha512-1RZ4eHl2OaGG2Rzw0l0ZD3byCk2JMCL9/+btzGQGQruuQWu9HwRZGJI7l4A2ghW3Mu6DVwLYLfceNpmEWBZoag==
+serverless@3.36.0:
+  version "3.36.0"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.36.0.tgz#bd7b030299b6ce7f75cb405793c6e2f1c1354a83"
+  integrity sha512-VY7UzP4u1/yuTNpF2Wssrru16qhhReLCjgL2oeHCvhujxPyTFv9TQGSlLhaT0ZUCXhRBphwVwITTRopo6NSUgA==
   dependencies:
-    "@serverless/dashboard-plugin" "^7.0.2"
+    "@serverless/dashboard-plugin" "^7.1.0"
     "@serverless/platform-client" "^4.4.0"
     "@serverless/utils" "^6.13.1"
     abort-controller "^3.0.0"
