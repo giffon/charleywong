@@ -32,8 +32,9 @@
     {
       "url": "https://www.instagram.com/music_rider_hk/",
       "meta": {
+        "website": "http://www.facebook.com/musicriderhk",
         "name": "Music Rider HK 香港樂器小店🎼",
-        "about": "集合音樂及休閒用品的概念店。\nConcept store - collection of Music and Leisure. 🥁🎼🎸🎤"
+        "about": "MusicRider香港樂器小店\nConcept store - collection of Music. 🥁🎼🎸🎤\nCAJON木箱鼓 GUITAR結他 UKULELE烏克麗麗"
       }
     }
   ],
@@ -52,12 +53,6 @@
     },
     {
       "url": "https://www.facebook.com/musicriderhk/posts/2457368234309813",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/musicriderhk/posts/2477718522274784:0",
       "meta": {
         "sharedWith": "Public"
       }
@@ -83,6 +78,21 @@
     {
       "type": "shop",
       "id": 2535
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新蒲崗彩虹道202號華懋工業大廈9樓a2室"
+      },
+      "googleMapsPlaceId": "ChIJmTySZdoGBDQRlBf8O6LLZhA",
+      "coordinates": {
+        "lat": 22.3386282,
+        "lng": 114.1997154
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
     }
   ]
 }
