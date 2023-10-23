@@ -53,15 +53,17 @@
     {
       "url": "https://www.instagram.com/nuttea_hongkong/",
       "meta": {
+        "website": "http://www.nuttea.net/",
         "name": "NUTTEA 堅果奶茶 香港",
-        "about": "NUTTEA堅果奶茶以堅果萃取濃香的堅果奶，搭配台灣紅玉紅茶，創造出一杯健康好喝的堅果奶茶，一起享受NUTTEA堅果奶茶的魅力吧💚\n📍新蒲崗店📍太古坊店📍觀塘店📍旺角店\n📍九龍灣店📍中環店📍銅鑼灣店(city’super)\n📍葵芳店📍大埔店 📍石門店"
+        "about": "NUTTEA堅果奶茶以堅果萃取濃香的堅果奶，搭配台灣好茶，創造出一杯健康好喝的堅果奶茶，一起享受NUTTEA堅果奶茶的魅力吧💚\n📍新蒲崗店📍旺角店📍九龍灣店📍中環店📍銅鑼灣店📍葵芳店📍尖沙咀店📍金鐘店"
       }
     },
     {
       "url": "https://www.instagram.com/nuttea_hk/",
       "meta": {
+        "website": "https://wa.me/85260158851",
         "name": "NUTTEA 堅果奶茶 新蒲崗萬迪店",
-        "about": "NUTTEA堅果奶茶以堅果萃取濃香的堅果奶\n搭配台灣紅玉紅茶\n創造出一杯健康好喝的堅果奶茶\n一起享受NUTTEA堅果奶茶的魅力吧🤩\n-\n📍新蒲崗萬迪店 @nuttea_hk Tel:60158851\n📞全球代理加盟專線+886983730810"
+        "about": "📍新蒲崗萬迪廣場店 @nuttea_hk Tel:60158851\nNUTTEA堅果奶茶以堅果萃取濃香的堅果奶 搭配台灣紅玉紅茶\n創造出一杯健康好喝的堅果奶茶 一起享受NUTTEA堅果奶茶的魅力吧🤎\n📞全球代理加盟專線+886983730810"
       }
     }
   ],
@@ -95,38 +97,12 @@
     },
     {
       "address": {
-        "zh": "鰂魚涌海光街36號地下2號舖"
-      },
-      "googleMapsPlaceId": "ChIJyeOijTwBBDQRYJtBFSiCh5A",
-      "coordinates": {
-        "lat": 22.287613,
-        "lng": 114.210698
-      },
-      "area": {
-        "zh": "東區"
-      }
-    },
-    {
-      "address": {
-        "zh": "觀塘偉業街223-231號宏利金融中心1樓9號鋪"
-      },
-      "googleMapsPlaceId": "ChIJ__9gQ0QBBDQR5vGTsB93JwU",
-      "coordinates": {
-        "lat": 22.307816,
-        "lng": 114.223342
-      },
-      "area": {
-        "zh": "觀塘區"
-      }
-    },
-    {
-      "address": {
         "zh": "旺角彌敦道688號旺角中心一樓F52號舖"
       },
-      "googleMapsPlaceId": "ChIJuZ9Z3scABDQRr4YoMVple_w",
+      "googleMapsPlaceId": "ChIJi98TblABBDQRmpDoyv1_KQw",
       "coordinates": {
-        "lat": 22.319953,
-        "lng": 114.16937
+        "lat": 22.3198395,
+        "lng": 114.1697195
       },
       "area": {
         "zh": "油尖旺區"
@@ -136,10 +112,10 @@
       "address": {
         "zh": "九龍灣宏冠道鴻力工業中心B座地下B1B1鋪"
       },
-      "googleMapsPlaceId": "ChIJYYxUdzMBBDQRnAHVOu4L5qU",
+      "googleMapsPlaceId": "ChIJQYwHpD0BBDQRClA0wwIB788",
       "coordinates": {
-        "lat": 22.3226388,
-        "lng": 114.2084928
+        "lat": 22.3227157,
+        "lng": 114.2087691
       },
       "area": {
         "zh": "觀塘區"
@@ -149,10 +125,10 @@
       "address": {
         "zh": "皇后大道中151-155號兆英商業大廈地下C2 鋪"
       },
-      "googleMapsPlaceId": "ChIJCTvVk3wABDQRSlN8saWqIBk",
+      "googleMapsPlaceId": "ChIJmRDgwRoBBDQRvqgh0lFdsvo",
       "coordinates": {
-        "lat": 22.28468089999999,
-        "lng": 114.1537539
+        "lat": 22.2847221,
+        "lng": 114.1537172
       },
       "area": {
         "zh": "中西區"
@@ -175,13 +151,39 @@
       "address": {
         "zh": "葵芳葵涌廣場一樓潮流廊B舖"
       },
-      "googleMapsPlaceId": "ChIJOUTkt734AzQR2DIuCxrfkck",
+      "googleMapsPlaceId": "ChIJOyse-Ln5AzQRvMm58l4WD5E",
       "coordinates": {
-        "lat": 22.3584385,
+        "lat": 22.35843849999999,
         "lng": 114.1274926
       },
       "area": {
         "zh": "葵青區"
+      }
+    },
+    {
+      "address": {
+        "zh": "尖沙咀彌敦道132號美麗華廣場1期1樓108A號舖"
+      },
+      "googleMapsPlaceId": "ChIJv8L2lLIBBDQRfwXdYSm0zrI",
+      "coordinates": {
+        "lat": 22.3006559,
+        "lng": 114.1721209
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "金鐘金鐘道93號Lab Concept 金鐘廊1樓D02B號舖"
+      },
+      "googleMapsPlaceId": "ChIJk8vyA0sBBDQRWReOTrBuN4s",
+      "coordinates": {
+        "lat": 22.2791662,
+        "lng": 114.1646954
+      },
+      "area": {
+        "zh": "中西區"
       }
     }
   ],
