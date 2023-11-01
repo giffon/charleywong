@@ -18,6 +18,10 @@ devcontainer-library-scripts:
     RUN curl -fsSLO https://raw.githubusercontent.com/microsoft/vscode-dev-containers/main/script-library/docker-debian.sh
     SAVE ARTIFACT --keep-ts *.sh AS LOCAL .devcontainer/library-scripts/
 
+nodesource.gpg:
+    RUN curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o nodesource.gpg
+    SAVE ARTIFACT --keep-ts nodesource.gpg
+
 devcontainer-base:
     ARG TARGETARCH
 
@@ -37,7 +41,7 @@ devcontainer-base:
         && apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/library-scripts/
 
     # https://github.com/nodesource/distributions#installation-instructions
-    RUN mkdir -p /etc/apt/keyrings && curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+    COPY +nodesource.gpg/nodesource.gpg /etc/apt/keyrings/nodesource.gpg
     RUN echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
 
     # Configure apt and install packages
@@ -482,8 +486,7 @@ runtime:
 
     ENV DEBIAN_FRONTEND=noninteractive
 
-    # https://github.com/nodesource/distributions#installation-instructions
-    RUN mkdir -p /etc/apt/keyrings && curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+    COPY +nodesource.gpg/nodesource.gpg /etc/apt/keyrings/nodesource.gpg
     RUN echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
 
     RUN apt-get update \
