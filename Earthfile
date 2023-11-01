@@ -487,7 +487,7 @@ runtime:
     ENV DEBIAN_FRONTEND=noninteractive
 
     COPY +nodesource.gpg/nodesource.gpg /etc/apt/keyrings/nodesource.gpg
-    RUN echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
+    RUN echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] http://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
 
     RUN apt-get update \
         && apt-get install -yq --no-install-recommends \
