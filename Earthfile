@@ -7,7 +7,7 @@ ARG DEVCONTAINER_IMAGE_NAME_DEFAULT=ghcr.io/giffon/charleywong_devcontainer_work
 ARG LAMBDA_IMAGE_REGISTRY=932878902707.dkr.ecr.us-east-1.amazonaws.com
 ARG LAMBDA_IMAGE_NAME_MASTER=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-master
 ARG LAMBDA_IMAGE_NAME_PRODUCTION=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-production
-ARG NODE_VERSION=18
+ARG NODE_MAJOR=18
 
 ARG USERNAME=vscode
 ARG USER_UID=1000
@@ -36,6 +36,10 @@ devcontainer-base:
         # Clean up
         && apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/library-scripts/
 
+    # https://github.com/nodesource/distributions#installation-instructions
+    RUN mkdir -p /etc/apt/keyrings && curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+    RUN echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
+
     # Configure apt and install packages
     RUN apt-get update \
         && apt-get install -y --no-install-recommends apt-utils dialog 2>&1 \
@@ -58,11 +62,10 @@ devcontainer-base:
             software-properties-common \
             libnss3-tools \
             direnv \
+            nodejs=$NODE_MAJOR.* \
         && echo 'eval "$(direnv hook bash)"' >> /etc/bash.bashrc \
         && add-apt-repository -y universe \
         && apt-get install -y groonga libgroonga-dev groonga-bin groonga-tokenizer-mecab groonga-token-filter-stem groonga-normalizer-mysql \
-        && curl -sL "https://deb.nodesource.com/setup_$NODE_VERSION.x" | bash - \
-        && apt-get install -y nodejs="$NODE_VERSION.*" \
         && add-apt-repository -y ppa:git-core/ppa \
         && apt-get install -y git \
         && curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add - \
@@ -366,7 +369,7 @@ exportSpreadsheet.js:
 exportSpreadsheet:
     # Somehow +devcontainer doesn't work:
     # Error: error:25066067:DSO support routines:dlfcn_load:could not load the shared library
-    FROM node:$NODE_VERSION-bullseye
+    FROM node:$NODE_MAJOR-bullseye
     RUN apt-get update && apt-get install -yq \
             bash-completion \
             build-essential \
@@ -478,10 +481,18 @@ runtime:
     ENV NPM_CONFIG_CACHE=/tmp/.npm
 
     ENV DEBIAN_FRONTEND=noninteractive
+
+    # https://github.com/nodesource/distributions#installation-instructions
+    RUN mkdir -p /etc/apt/keyrings && curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+    RUN echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
+
     RUN apt-get update \
-        && apt-get install -yq --no-install-recommends ca-certificates curl groonga groonga-token-filter-stem \
-        && curl -sL https://deb.nodesource.com/setup_$NODE_VERSION.x | bash - \
-        && apt-get install -yq --no-install-recommends nodejs=$NODE_VERSION.* \
+        && apt-get install -yq --no-install-recommends \
+            ca-certificates \
+            curl \
+            groonga \
+            groonga-token-filter-stem \
+            nodejs=$NODE_MAJOR.* \
         #
         # Clean up
         && apt-get autoremove -y \
