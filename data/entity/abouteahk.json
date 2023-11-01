@@ -35,9 +35,8 @@
     {
       "url": "https://www.instagram.com/abouteahk/",
       "meta": {
-        "website": "http://www.abouteahk.com/",
         "name": "花斑茶社",
-        "about": "花斑茶社是一個香港的茶飲品牌🧋\n傳承地道台灣茶製作工藝\n以好水好茶好奶為原材料製作每一杯都飽含了製作者的匠心🌱\n#花斑茶社 #黑糖珍珠\n🐆分店：尖沙咀/新蒲崗/北角/荃灣/屯門城點/屯門珀御/元朗/灣仔/上環/銅鑼灣/將軍澳/筲箕灣/火炭/大埔/黃埔/觀塘/沙田/土瓜灣/西環/太子/旺角/康怡/淘大"
+        "about": "花斑茶社是一個香港茶飲品牌💛🧋\n傳承地道台灣茶製作工藝\n以好水好茶好奶為原材料製作每一杯都飽含了製作者的匠心🌱\n#花斑茶社 #黑糖珍珠\n🐆分店：尖沙咀/新蒲崗/荃灣/屯門城點/屯門珀御/元朗/灣仔/上環/銅鑼灣/將軍澳/筲箕灣/火炭/大埔/黃埔/觀塘/沙田/土瓜灣/西環/太子/旺角/康怡/淘大/粉嶺"
       }
     }
   ],
@@ -104,12 +103,25 @@
     },
     {
       "address": {
-        "zh": "荃灣海之戀G24號鋪"
+        "zh": "太子彌敦道760號聯合廣場地下G25號舖"
       },
-      "googleMapsPlaceId": "ChIJZTortn35AzQRdXU9H73Es2g",
+      "googleMapsPlaceId": "ChIJy6m5Kv8BBDQRHgW9a2b9yRw",
       "coordinates": {
-        "lat": 22.3680338,
-        "lng": 114.1102967
+        "lat": 22.3234077,
+        "lng": 114.1690143
+      },
+      "area": {
+        "zh": "油尖旺區"
+      }
+    },
+    {
+      "address": {
+        "zh": "荃灣海之戀G33號鋪"
+      },
+      "googleMapsPlaceId": "ChIJB4IWzOj4AzQRR4u9GPgg5oE",
+      "coordinates": {
+        "lat": 22.368293,
+        "lng": 114.1102
       },
       "area": {
         "zh": "荃灣區"
@@ -119,7 +131,7 @@
       "address": {
         "zh": "皇后大道東200號利東街B1/F B14舖"
       },
-      "googleMapsPlaceId": "ChIJCYmot1wABDQRCrBnS3KbUho",
+      "googleMapsPlaceId": "ChIJhc-Md0UBBDQRKG87nM9B9NE",
       "coordinates": {
         "lat": 22.275003,
         "lng": 114.1720515
@@ -130,15 +142,28 @@
     },
     {
       "address": {
-        "zh": "觀塘開源道63號福昌大廈地下A1舖"
+        "zh": "九龍紅磡黃埔新天地第5及6期地庫B10舖"
       },
-      "googleMapsPlaceId": "ChIJ5cxoekUBBDQRTNP63FJ-mZo",
+      "googleMapsPlaceId": "ChIJffY8BpUBBDQRcuQogjo6gSA",
       "coordinates": {
-        "lat": 22.310794,
-        "lng": 114.2247003
+        "lat": 22.3039267,
+        "lng": 114.1898771
       },
       "area": {
-        "zh": "觀塘區"
+        "zh": "九龍城區"
+      }
+    },
+    {
+      "address": {
+        "zh": "旺角登打士街41-43號地下"
+      },
+      "googleMapsPlaceId": "ChIJTV9qcZgBBDQRuPAOeBXRT5w",
+      "coordinates": {
+        "lat": 22.3155027,
+        "lng": 114.1706099
+      },
+      "area": {
+        "zh": "油尖旺區"
       }
     },
     {
@@ -156,15 +181,15 @@
     },
     {
       "address": {
-        "zh": "北角和富道和富G15C舖"
+        "zh": "堅尼地城士美菲路43號美菲閣商場地下01B舖"
       },
-      "googleMapsPlaceId": "ChIJrfCA97oBBDQRgXNu281Icgc",
+      "googleMapsPlaceId": "ChIJ11Q7UsX_AzQRyBA_TAi_W_8",
       "coordinates": {
-        "lat": 22.2921837,
-        "lng": 114.1952802
+        "lat": 22.2821226,
+        "lng": 114.1279048
       },
       "area": {
-        "zh": "東區"
+        "zh": "中西區"
       }
     },
     {
@@ -178,6 +203,19 @@
       },
       "area": {
         "zh": "黃大仙區"
+      }
+    },
+    {
+      "address": {
+        "zh": "屯門啟發徑8號城·點地下G2號舖"
+      },
+      "googleMapsPlaceId": "ChIJ5UZyh8D7AzQRst4jOCkIfbg",
+      "coordinates": {
+        "lat": 22.3950068,
+        "lng": 113.9759476
+      },
+      "area": {
+        "zh": "屯門區"
       }
     },
     {
@@ -197,10 +235,10 @@
       "address": {
         "zh": "上環德輔道中272-284號興業商業中心地下"
       },
-      "googleMapsPlaceId": "ChIJA-jtSnwABDQRPhoJPq0tjRo",
+      "googleMapsPlaceId": "ChIJLysoOosBBDQR8PPUKPG46hY",
       "coordinates": {
-        "lat": 22.2865048,
-        "lng": 114.1513914
+        "lat": 22.2865214,
+        "lng": 114.1514814
       },
       "area": {
         "zh": "中西區"
@@ -208,15 +246,28 @@
     },
     {
       "address": {
-        "zh": "將軍澳唐俊街28號海天晉滙地下G16-G17號鋪"
+        "zh": "觀塘開源道63號福昌大廈地下A1舖"
       },
-      "googleMapsPlaceId": "ChIJsZdIPhkDBDQRfveZ17XX3qs",
+      "googleMapsPlaceId": "ChIJZ4Lp124BBDQR_KwYsj5KlZk",
       "coordinates": {
-        "lat": 22.3034604,
-        "lng": 114.2605074
+        "lat": 22.3108175,
+        "lng": 114.2246924
       },
       "area": {
-        "zh": "西貢區"
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍灣牛頭角道77號淘大商場一期地下G140號舖"
+      },
+      "googleMapsPlaceId": "ChIJOWixa-YHBDQRcuY4bMVs9_E",
+      "coordinates": {
+        "lat": 22.3241301,
+        "lng": 114.2164347
+      },
+      "area": {
+        "zh": "觀塘區"
       }
     },
     {
@@ -236,10 +287,10 @@
       "address": {
         "zh": "筲箕灣道393號形薈G09號"
       },
-      "googleMapsPlaceId": "ChIJc6hyooIBBDQR9c9HDIr4r-M",
+      "googleMapsPlaceId": "ChIJc4pkrtsBBDQREMo9hFiOd18",
       "coordinates": {
-        "lat": 22.2769674,
-        "lng": 114.2286113
+        "lat": 22.2769747,
+        "lng": 114.2285489
       },
       "area": {
         "zh": "東區"
@@ -247,12 +298,12 @@
     },
     {
       "address": {
-        "zh": "九龍紅磡黃埔新天地第5及6期地庫B10舖"
+        "zh": "土瓜灣九龍城道62-82號瑧尚U-Place商場G04舖"
       },
-      "googleMapsPlaceId": "ChIJWYHH3d8ABDQRuSGDNJY4Eng",
+      "googleMapsPlaceId": "ChIJl8_IFRsBBDQRvRCPt4Yg1X8",
       "coordinates": {
-        "lat": 22.3056178,
-        "lng": 114.1898614
+        "lat": 22.3179864,
+        "lng": 114.1890699
       },
       "area": {
         "zh": "九龍城區"
@@ -260,28 +311,67 @@
     },
     {
       "address": {
-        "zh": "土瓜灣九龍城道62-82號瑧尚U-Place商場G04舖"
+        "zh": "粉嶺粉嶺車站路18號粉嶺名都商場2樓28E號舖"
       },
-      "googleMapsPlaceId": "ChIJIyRVKwUBBDQRb4ndY13Wz60",
+      "googleMapsPlaceId": "ChIJjX4NA033AzQReKi13zW7nCg",
       "coordinates": {
-        "lat": 22.317955,
-        "lng": 114.1889574
+        "lat": 22.49260450000001,
+        "lng": 114.1389893
       },
       "area": {
-        "zh": "九龍城區"
+        "zh": "北區"
       }
     },
     {
       "address": {
         "zh": "大埔鄉事會街41-49號福安樓地下15B舖"
       },
-      "googleMapsPlaceId": "ChIJhx_5fD8IBDQRYKhYycXaJaI",
+      "googleMapsPlaceId": "ChIJUdGPhLoJBDQRvqbZ03ClsaQ",
       "coordinates": {
-        "lat": 22.4465526,
-        "lng": 114.1672979
+        "lat": 22.4465248,
+        "lng": 114.1678102
       },
       "area": {
         "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
+        "zh": "太古康山道1-2號康怡廣場南座AEON STYLE G11A號舖"
+      },
+      "googleMapsPlaceId": "ChIJ6Xqpr3QBBDQRp_gD8Ri5zVI",
+      "coordinates": {
+        "lat": 22.28425979999999,
+        "lng": 114.2160163
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
+        "zh": "將軍澳唐俊街28號海天晉滙地下G16-G17號鋪"
+      },
+      "googleMapsPlaceId": "ChIJsZdIPhkDBDQRfveZ17XX3qs",
+      "coordinates": {
+        "lat": 22.3034604,
+        "lng": 114.2605074
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
+        "zh": "沙田橫壆街2-18號沙田中心商場3樓25G&H舖"
+      },
+      "googleMapsPlaceId": "ChIJ-QeQF7YHBDQRJKK11YJrKFE",
+      "coordinates": {
+        "lat": 22.3822282,
+        "lng": 114.1905663
+      },
+      "area": {
+        "zh": "沙田區"
       }
     }
   ],
