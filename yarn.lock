@@ -1700,10 +1700,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/which-polygon@2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@types/which-polygon/-/which-polygon-2.2.2.tgz#d7130f55c2d26356cce6302b60272af14f8d65d2"
-  integrity sha512-E8l/xEaUdnZ0NkGUGUSbIPAK0QAtu3GNWktMN88JjN66TlJNuiGc55DCADDTqEMqRXZC64gt5jpQoiVCkVwqEQ==
+"@types/which-polygon@2.2.3":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@types/which-polygon/-/which-polygon-2.2.3.tgz#17d2091efda421127785eb84137dd3bf60d001d4"
+  integrity sha512-f4WAenlm6ITyK+/Eacl5dlBDeReErypaLpjo2IUZUYjBdC2QlxbvevV8sKz9KDI5f2xBQXKusDclCtHj+XzCzA==
   dependencies:
     "@types/geojson" "*"
     "@types/rbush" "*"
