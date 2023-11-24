@@ -31,16 +31,18 @@
     {
       "url": "https://www.instagram.com/house_fifi/",
       "meta": {
+        "website": "https://www.facebook.com/fifi90289040/",
         "name": "fifi house",
-        "about": "歡迎男女賓,單次收費或優惠療程均可\n⭕門市⭕\n元朗宏業南街22號虹方the rainbow9樓909室(朗屏站F出囗)☎️ 52289995⭕屯門新合里3號匯賢一號19樓01室（屯門站A出口步行3分鐘）☎️55390002⭕尖沙咀彌敦道90-94C華敦大廈A座4樓A4室☎️ 56493894"
+        "about": "歡迎男女賓,單次收費或優惠療程均可\n⭕門市⭕\n元朗鳳攸東街好順意大廈地下62號舖(元朗站F出囗)☎️ 52289995⭕屯門新合里3號匯賢一號19樓01室（屯門站A出口步行3分鐘）☎️55390002\n#一叮溶脂 #鋼筋索 #爆珠水泥 #volnewmer黃金樁"
       }
     },
     {
       "url": "https://www.instagram.com/fifihousetst/",
       "meta": {
         "name": "Fi Fi House TST",
-        "about": "💛由經驗豐富的美容師提供專業Facial\n💛各類美容機齊備，總有一樣岩你\n💛擁有超過15年按摩經驗泰籍按摩師提供各項全身按摩"
-      }
+        "about": "💛 尖沙咀分店已結業\n💛 如需惠顧Facial/按摩，請到屯門/元朗分店\n查詢電話：5539 0002 @house_fifi\n💛 尖沙咀分店與舊址目前店鋪並無任何關係，如有任何與該店的爭議，本店一概不負責\n💛 謝謝大家一直以來的支持，有緣江湖再見\n💛 HK 人，要努力笑著活下去"
+      },
+      "hidden": true
     }
   ],
   "posts": [
@@ -68,12 +70,12 @@
   "places": [
     {
       "address": {
-        "zh": "元朗宏業南街22號虹方the rainbow9樓909室"
+        "zh": "元朗鳳攸東街好順意大廈地下62號舖"
       },
       "googleMapsPlaceId": "ChIJIxUElPTxAzQRkEqIi1wzVWU",
       "coordinates": {
-        "lat": 22.4486612,
-        "lng": 114.0273834
+        "lat": 22.4430472,
+        "lng": 114.0349407
       },
       "area": {
         "zh": "元朗區"
@@ -83,26 +85,13 @@
       "address": {
         "zh": "屯門新合里3號匯賢一號19樓01室"
       },
-      "googleMapsPlaceId": "ChIJmT5Vp2D7AzQRP_5GooMuWoI",
+      "googleMapsPlaceId": "ChIJN1va-Uf7AzQRrOpeYTU3fFY",
       "coordinates": {
-        "lat": 22.3934671,
-        "lng": 113.971443
+        "lat": 22.3934808,
+        "lng": 113.9716793
       },
       "area": {
         "zh": "屯門區"
-      }
-    },
-    {
-      "address": {
-        "zh": "尖沙咀彌敦道90-94C華敦大廈A座4樓A4室"
-      },
-      "googleMapsPlaceId": "ChIJsa29d-sBBDQRbWD3vwhiQWs",
-      "coordinates": {
-        "lat": 22.2991818,
-        "lng": 114.1722152
-      },
-      "area": {
-        "zh": "油尖旺區"
       }
     }
   ]
