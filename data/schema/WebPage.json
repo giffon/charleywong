@@ -61,6 +61,32 @@
                 "properties": {
                     "url": {
                         "type": "string",
+                        "pattern": "^https?:\/\/(?:www\\.|m\\.)??youtube\\.com\/"
+                    }
+                }
+            },
+            "then": {
+                "properties": {
+                    "url": {
+                        "oneOf": [
+                            {
+                                "type": "string",
+                                "pattern": "^https:\/\/www\\.youtube\\.com\/channel\/UC[A-Za-z0-9\\-_]+$"
+                            },
+                            {
+                                "type": "string",
+                                "pattern": "^https:\/\/www\\.youtube\\.com\/@[A-Za-z0-9]+$"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "url": {
+                        "type": "string",
                         "pattern": "^https?:\/\/[^/]+\/?$"
                     }
                 }
@@ -135,6 +161,14 @@
                 "url": {
                     "type": "string",
                     "pattern": "^(?!https?:\/\/goo\\.gl\/)"
+                }
+            }
+        },
+        {
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "pattern": "^(?!https?:\/\/youtu\\.be\/)"
                 }
             }
         }

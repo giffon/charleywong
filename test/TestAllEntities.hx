@@ -116,16 +116,6 @@ class TestAllEntities extends utest.Test {
         }
     }
 
-    function testYoutubeUrlFormat() {
-        var regexp = ~/^https?:\/\/(?:www\.|m\.)?(?:youtube\.com|youtu\.be)/;
-        var valid = ~/^https:\/\/www\.youtube\.com\/channel\/UC[A-z0-9\-_]+$/;
-        for (entity in index.entities) {
-            for (page in entity.webpages)
-            if (regexp.match(page.url))
-            Assert.isTrue(valid.match(page.url), '${page.url} is of invalid format');
-        }
-    }
-
     function testTwitterUrlFormat() {
         var regexp = ~/^https?:\/\/(?:www\.|m\.|mobile\.)?(?:twitter\.com)/;
         var valid = ~/^https:\/\/twitter\.com\/[A-z0-9_]+$/;
