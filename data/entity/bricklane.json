@@ -1,7 +1,7 @@
 {
   "id": "bricklane",
   "name": {
-    "en": "BRICK LANE Gallery"
+    "en": "BRICK LANE"
   },
   "webpages": [
     {
@@ -114,9 +114,9 @@
     {
       "url": "https://www.instagram.com/bricklane_hk/",
       "meta": {
-        "website": "https://www.bricklane.com.hk/",
+        "website": "https://bricklane.com.hk/",
         "name": "BRICK LANE",
-        "about": "Serves unparalleled English fare in a chic setting modelled off East London Brick Lane that would bring any Londoner home.\nwww.mindenconcepts.com.hk"
+        "about": "Serves unparalleled English fare in a chic setting modelled off East London Brick Lane that would bring any Londoner home."
       }
     }
   ],
@@ -162,6 +162,19 @@
       },
       "area": {
         "zh": "中西區"
+      }
+    },
+    {
+      "address": {
+        "zh": "大圍 The Wai Shop 332 圍方332店"
+      },
+      "googleMapsPlaceId": "ChIJuQFokgkHBDQR-ownWGuzD_I",
+      "coordinates": {
+        "lat": 22.3728362,
+        "lng": 114.178758
+      },
+      "area": {
+        "zh": "沙田區"
       }
     }
   ],
