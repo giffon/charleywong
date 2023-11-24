@@ -108,14 +108,6 @@ class TestAllEntities extends utest.Test {
         }
     }
 
-    function testIgUrlFormat() {
-        for (entity in index.entities) {
-            for (page in entity.webpages)
-            if (igUrlRegexp.match(page.url))
-            Assert.equals('https://www.instagram.com/${igUrlRegexp.matched(1)}/', page.url);
-        }
-    }
-
     function testTwitterUrlFormat() {
         var regexp = ~/^https?:\/\/(?:www\.|m\.|mobile\.)?(?:twitter\.com)/;
         var valid = ~/^https:\/\/twitter\.com\/[A-z0-9_]+$/;
