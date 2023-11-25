@@ -14,6 +14,14 @@
       }
     },
     {
+      "url": "https://www.instagram.com/bookpunch.qb/",
+      "meta": {
+        "website": "https://forms.gle/rV5C7QUR5biyt8Ux8",
+        "name": "二拳書館 Book Punch Quarry Bay",
+        "about": "試業開放時間\n二/13:00-19:30\n三/13:00-19:30\n四/13:00-19:30\n五/13:00-19:30\n周末及紅日/13:00-19:00\n一/ 休息"
+      }
+    },
+    {
       "url": "https://www.facebook.com/bookpunch/",
       "meta": {
         "id": "114689527031860",
@@ -36,6 +44,24 @@
         "single_line_address": "深水埗大南街169至171號\n大南商業大廈 3/F全層, Hong Kong, Hong Kong",
         "website": "https://linktr.ee/bookpunchhk",
         "link": "https://www.facebook.com/114689527031860"
+      }
+    },
+    {
+      "url": "https://www.facebook.com/BookPunch.QB/",
+      "meta": {
+        "id": "107935169079481",
+        "username": "BookPunch.QB",
+        "name": "Book Punch Quarry Bay",
+        "about": "二拳書館",
+        "category_list": [
+          {
+            "id": "197048876974331",
+            "name": "Bookstore"
+          }
+        ],
+        "single_line_address": "鰂魚涌鰂魚涌街123號太隆樓地下N舖, Hong Kong, Hong Kong",
+        "website": "http://linktr.ee/bookpunchhk",
+        "link": "https://www.facebook.com/107935169079481"
       }
     }
   ],
@@ -66,7 +92,7 @@
   "places": [
     {
       "address": {
-        "zh": "深水埗大南街169至171號大南商業大廈3/F"
+        "zh": "深水埗大南街169至171號大南商業大廈3/F 一拳書館"
       },
       "googleMapsPlaceId": "ChIJ0bO_f9ABBDQR0f8E628_Plk",
       "coordinates": {
@@ -75,6 +101,19 @@
       },
       "area": {
         "zh": "深水埗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "鰂魚涌鰂魚涌街123號太隆樓地下N舖 二拳書館"
+      },
+      "googleMapsPlaceId": "ChIJ4RZXzC4BBDQRgiOBBwpUK_Y",
+      "coordinates": {
+        "lat": 22.2824326,
+        "lng": 114.2129021
+      },
+      "area": {
+        "zh": "東區"
       }
     }
   ],
