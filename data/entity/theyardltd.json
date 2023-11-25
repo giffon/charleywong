@@ -35,6 +35,13 @@
         "link": "https://www.facebook.com/1479801235571839"
       },
       "url": "https://www.facebook.com/theyardltd/"
+    },
+    {
+      "url": "https://www.instagram.com/theyardhk/",
+      "meta": {
+        "name": "THE YARD CREATIVE HOUSE",
+        "about": "8200平方呎甲級多用途場地租用@新蒲崗\nStudio for hire, aim \"Moving Creativity Forward\" ▶▶\n*另提供舞蹈編排、表演及舞台制作\nFB: theyardltd | Hashtag: #theyardhk"
+      }
     }
   ],
   "posts": [
@@ -49,6 +56,21 @@
     {
       "type": "shop",
       "id": 1187
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "新蒲崗六合街Artisan Lab 21號7樓"
+      },
+      "googleMapsPlaceId": "ChIJuz1dhNoGBDQRcrGOUJ3hQx8",
+      "coordinates": {
+        "lat": 22.3371302,
+        "lng": 114.1999445
+      },
+      "area": {
+        "zh": "黃大仙區"
+      }
     }
   ]
 }
