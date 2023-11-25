@@ -28,7 +28,7 @@
       "url": "https://www.instagram.com/onthehill_coffeebar/",
       "meta": {
         "name": "On the hill coffee bar",
-        "about": "WE BREW WHAT WE BREW\n咖啡 |輕食 |甜品 |自家製\n☎️98414827(TKW)\n98483050(NP)\n96670949(NTK)\n📧onthehilltkw@gmail.com"
+        "about": "WE BREW WHAT WE BREW\n咖啡 |輕食 |甜品 |自家製\n☎️98414827(TAI KWUN)\n98483050(NP)\n96670949(NTK)\n98413315(KT)\n📧onthehilltkw@gmail.com"
       }
     }
   ],
@@ -46,6 +46,19 @@
   "places": [
     {
       "address": {
+        "zh": "中環荷李活道10號大館E倉"
+      },
+      "googleMapsPlaceId": "ChIJ7_ZLxfIBBDQRvbpvkFLnpuw",
+      "coordinates": {
+        "lat": 22.28136020000001,
+        "lng": 114.1539782
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    },
+    {
+      "address": {
         "zh": "北角北角邨里1號北角匯二期地下G16號鋪"
       },
       "googleMapsPlaceId": "ChIJOQPpyQQBBDQRKvCNbXTvEps",
@@ -59,25 +72,25 @@
     },
     {
       "address": {
-        "zh": "土瓜灣漆咸道北435-439號寶暉大廈地下2號舖"
-      },
-      "googleMapsPlaceId": "ChIJZVO5IhYBBDQRHfFogNTEkKM",
-      "coordinates": {
-        "lat": 22.3127727,
-        "lng": 114.1863649
-      },
-      "area": {
-        "zh": "九龍城區"
-      }
-    },
-    {
-      "address": {
-        "zh": "九龍灣偉業街133號地舖"
+        "zh": "牛頭角偉業街133號大堂"
       },
       "googleMapsPlaceId": "ChIJ-7TFQvABBDQRFQt6siW7NME",
       "coordinates": {
         "lat": 22.3138996,
         "lng": 114.2177344
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘鴻圖道51號Two Sky Parc Lobby"
+      },
+      "googleMapsPlaceId": "ChIJxwhdrygBBDQRyoT2BiwWdcU",
+      "coordinates": {
+        "lat": 22.3114386,
+        "lng": 114.2219406
       },
       "area": {
         "zh": "觀塘區"
