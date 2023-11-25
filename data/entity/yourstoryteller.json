@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.story-teller-studio.com"
+      "url": "https://www.story-teller-studio.com"
     },
     {
       "meta": {
@@ -24,6 +24,14 @@
         "link": "https://www.facebook.com/632902003420222"
       },
       "url": "https://www.facebook.com/yourstoryteller/"
+    },
+    {
+      "url": "https://www.instagram.com/storyteller_studio/",
+      "meta": {
+        "website": "http://www.story-teller-studio.com/",
+        "name": "Storyteller Studio",
+        "about": "Photographer who is a clean visual freak\n患有視覺潔癖的攝影師📐\nTaking booking from Jan to Apr · Oct to Dec\n🔍 #storytellerbigday\n🔍 #storytellerengagement"
+      }
     }
   ],
   "posts": [
@@ -34,5 +42,20 @@
   "tags": [
     "photographer",
     "wedding"
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "ROOM 03, 9/F, Kwai Fong Industrial Building, 9-15 Kwai Cheong Rd, Kwai Chung, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJV1Jt72oBBDQRj_9ZTnP03Q0",
+      "coordinates": {
+        "lat": 22.3647507,
+        "lng": 114.1337252
+      },
+      "area": {
+        "zh": "葵青區"
+      }
+    }
   ]
 }
