@@ -546,7 +546,7 @@ class Importer {
                 if (regexp.match(href)) {
                     return regexp.matched(1).urlDecode();
                 } else {
-                    throw 'Cannot parse $href';
+                    return href;
                 }
             case _:
                 throw 'There are more then 1 matched links.';
