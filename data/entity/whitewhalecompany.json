@@ -89,5 +89,20 @@
       "type": "shop",
       "id": 53
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "en": "1/F, 9B Sharp Street East, Causeway Bay, Hong Kong"
+      },
+      "googleMapsPlaceId": "ChIJp380CT0BBDQROU3-ASu9dYo",
+      "coordinates": {
+        "lat": 22.278017,
+        "lng": 114.1833799
+      },
+      "area": {
+        "zh": "灣仔區"
+      }
+    }
   ]
 }
