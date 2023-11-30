@@ -4159,10 +4159,10 @@ gcp-metadata@^4.2.0:
     gaxios "^3.0.0"
     json-bigint "^1.0.0"
 
-gcp-metadata@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/gcp-metadata/-/gcp-metadata-6.0.0.tgz#2ae12008bef8caa8726cba31fd0a641ebad5fb56"
-  integrity sha512-Ozxyi23/1Ar51wjUT2RDklK+3HxqDr8TLBNK8rBBFQ7T85iIGnXnVusauj06QyqCXRFZig8LZC+TUddWbndlpQ==
+gcp-metadata@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/gcp-metadata/-/gcp-metadata-6.1.0.tgz#9b0dd2b2445258e7597f2024332d20611cbd6b8c"
+  integrity sha512-Jh/AIwwgaxan+7ZUUmRLCjtchyDiqh4KjBJ5tW3plBZb5iL/BPcso8A5DlzeD9qlw0duCamnNdpFjxwaT0KyKg==
   dependencies:
     gaxios "^6.0.0"
     json-bigint "^1.0.0"
@@ -4307,15 +4307,15 @@ globby@^11.1.0:
     merge2 "^1.4.1"
     slash "^3.0.0"
 
-google-auth-library@9.3.0:
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-9.3.0.tgz#2e083d302feeacb2bb38d24f826f62863567ec4f"
-  integrity sha512-W0F5CB7rAi9l+7/IVeKu26+KdzY6tCwXKAlLsZrleU/Q61XM16uonrDCQNld3Douv/5CH+YoULqNEVVkdmi5Qw==
+google-auth-library@9.4.0:
+  version "9.4.0"
+  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-9.4.0.tgz#5849ae284105d41ee885374c80b67fbb6c24ee1c"
+  integrity sha512-Sn7w6p59lP3sHWPjLBc5OY6Y44CwbRrst5vAVpVhtSeMzTzZAGheyovaHDkcRRl6QeGl+H3a1GNiHLcLsCJTCw==
   dependencies:
     base64-js "^1.3.0"
     ecdsa-sig-formatter "^1.0.11"
     gaxios "^6.0.0"
-    gcp-metadata "^6.0.0"
+    gcp-metadata "^6.1.0"
     gtoken "^7.0.0"
     jws "^4.0.0"
 
