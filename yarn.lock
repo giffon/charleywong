@@ -3029,7 +3029,7 @@ dayjs@^1.11.8:
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.8.tgz#4282f139c8c19dd6d0c7bd571e30c2d0ba7698ea"
   integrity sha512-LcgxzFoWMEPO7ggRv1Y2N31hUf2R0Vj7fuy/m+Bg1K8rr+KAs1AEy4y9jd5DXe8pbHgX+srkHNS7TH6Q6ZhYeQ==
 
-debug@4, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.3.3, debug@^4.3.4:
+debug@4, debug@^4, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.3.3, debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -3043,7 +3043,7 @@ debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
-debug@^3.1.0, debug@^3.2.7:
+debug@^3.1.0:
   version "3.2.7"
   resolved "https://registry.npmjs.org/debug/-/debug-3.2.7.tgz"
   integrity sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==
@@ -6061,13 +6061,13 @@ nodejieba@2.6.0:
     "@mapbox/node-pre-gyp" "^1.0.4"
     node-addon-api "^3.0.2"
 
-nodemon@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-3.0.1.tgz#affe822a2c5f21354466b2fc8ae83277d27dadc7"
-  integrity sha512-g9AZ7HmkhQkqXkRc20w+ZfQ73cHLbE8hnPbtaFbFtCumZsjyMhKk9LajQ07U5Ux28lvFjZ5X7HvWR1xzU8jHVw==
+nodemon@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-3.0.2.tgz#222dd0de79fc7b7b3eedba422d2b9e5fc678621e"
+  integrity sha512-9qIN2LNTrEzpOPBaWHTm4Asy1LxXLSickZStAQ4IZe7zsoIpD/A7LWxhZV3t4Zu352uBcqVnRsDXSMR2Sc3lTA==
   dependencies:
     chokidar "^3.5.2"
-    debug "^3.2.7"
+    debug "^4"
     ignore-by-default "^1.0.1"
     minimatch "^3.1.2"
     pstree.remy "^1.1.8"
