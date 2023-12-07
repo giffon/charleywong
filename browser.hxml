@@ -10,4 +10,5 @@
 --class-path lib/dts2hx
 --dce full
 -D browser
+-D no-deprecation-warnings
 --cmd node esbuild.mjs browser.js static/browser.bundled.js

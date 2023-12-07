@@ -9,6 +9,7 @@
 --class-path lib/dts2hx
 -D react_skip_extend_component_restriction
 -D chrome
+-D no-deprecation-warnings
 
 --each
 
