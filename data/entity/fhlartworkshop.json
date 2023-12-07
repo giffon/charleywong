@@ -55,5 +55,20 @@
       "type": "shop",
       "id": 4990
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "觀塘駱駝漆大廈1座7樓D6室"
+      },
+      "googleMapsPlaceId": "ChIJ5TPlbkUBBDQRnl7hErv4wV4",
+      "coordinates": {
+        "lat": 22.3104591,
+        "lng": 114.2251647
+      },
+      "area": {
+        "zh": "觀塘區"
+      }
+    }
   ]
 }
