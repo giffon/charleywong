@@ -30,7 +30,7 @@
       "meta": {
         "website": "http://www.facebook.com/legendbakeology",
         "name": "Legend Bakeology",
-        "about": "傳奇烘焙，本地自家品牌餅店，專注為大家製作有水準的烘焙產品\n店舖地址：\n大埔廣福里正發樓23號地下A1舖\n上水彩園路彩園邨彩園商場3樓R1B舖\n大埔太和路12號太和廣場2樓205D號舖\n牛頭角牛頭角道321號地舖"
+        "about": "傳奇烘焙，本地自家品牌餅店，專注為大家製作有水準的烘焙產品\n店舖地址：\n大埔廣福里正發樓23號地下A1舖\n上水彩園路彩園邨彩園商場3樓R1B舖\n大埔太和路12號太和廣場2樓205D號舖\n牛頭角牛頭角道321號地舖\n粉嶺皇后山邨皇后山商場18號舖\n北角英皇道480號地舖"
       }
     }
   ],
@@ -69,7 +69,7 @@
       "address": {
         "zh": "大埔廣褔里正發樓23號地下A1舖"
       },
-      "googleMapsPlaceId": "ChIJEehDWz8IBDQR9D-e3XstumA",
+      "googleMapsPlaceId": "ChIJu0ggqFUJBDQRzV1VVETOyKo",
       "coordinates": {
         "lat": 22.4479047,
         "lng": 114.1670192
@@ -95,10 +95,10 @@
       "address": {
         "zh": "大埔太和路12號太和廣場2樓205D號舖"
       },
-      "googleMapsPlaceId": "ChIJLZ0E7jsIBDQRj_GYThYisUE",
+      "googleMapsPlaceId": "ChIJIbj48jsIBDQR5HUOLir8kHs",
       "coordinates": {
-        "lat": 22.4506851,
-        "lng": 114.1607491
+        "lat": 22.4505006,
+        "lng": 114.1604584
       },
       "area": {
         "zh": "大埔區"
@@ -119,15 +119,28 @@
     },
     {
       "address": {
-        "zh": "皇后山邨皇后山商場地下18號舖"
+        "zh": "粉嶺皇后山邨皇后山商場18號舖"
       },
       "googleMapsPlaceId": "ChIJyZxEmdcJBDQRz7giGPlmURA",
       "coordinates": {
-        "lat": 22.5037285,
-        "lng": 114.1574704
+        "lat": 22.5035246,
+        "lng": 114.1566978
       },
       "area": {
         "zh": "北區"
+      }
+    },
+    {
+      "address": {
+        "zh": "北角英皇道480號地舖"
+      },
+      "googleMapsPlaceId": "ChIJbXxQLAwBBDQRcaGntNNP9so",
+      "coordinates": {
+        "lat": 22.2911583,
+        "lng": 114.2012365
+      },
+      "area": {
+        "zh": "東區"
       }
     }
   ],
