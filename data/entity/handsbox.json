@@ -5,7 +5,7 @@
   },
   "webpages": [
     {
-      "url": "http://www.handsbox.com"
+      "url": "https://www.handsbox.com"
     },
     {
       "url": "https://www.facebook.com/handsbox/",
@@ -35,8 +35,9 @@
     {
       "url": "https://www.instagram.com/handsbox/",
       "meta": {
+        "website": "http://www.handsbox.com/",
         "name": "Hands Box 皮革學堂",
-        "about": "電話: 60374474\n總店: 葵興 永祥工業大廈 二樓 A28室\n工作室: 茘枝角 永盛工業大廈 地下 23鋪\n網頁: www.handsbox.com"
+        "about": "電話: 60374474\n工作室: 茘枝角 永盛工業大廈 地下 23鋪\n網頁: www.handsbox.com"
       }
     }
   ],
@@ -74,25 +75,12 @@
   "places": [
     {
       "address": {
-        "zh": "葵興 永祥工業大廈 二樓 A28室 (總店)"
-      },
-      "googleMapsPlaceId": "ChIJzdbwZAb5AzQR18PhYuekJeY",
-      "coordinates": {
-        "lat": 22.362771,
-        "lng": 114.1325253
-      },
-      "area": {
-        "zh": "葵青區"
-      }
-    },
-    {
-      "address": {
-        "zh": "茘枝角 永盛工業大廈 地下 23鋪 (工作室)"
+        "zh": "茘枝角 永盛工業大廈 地下 23鋪"
       },
       "googleMapsPlaceId": "ChIJVVVFa1QHBDQR4uU07w-TWcE",
       "coordinates": {
-        "lat": 22.339023,
-        "lng": 114.149358
+        "lat": 22.338973,
+        "lng": 114.149463
       },
       "area": {
         "zh": "深水埗區"
