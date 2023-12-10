@@ -8,7 +8,7 @@
       "url": "https://www.instagram.com/youknowhere/",
       "meta": {
         "name": "𝗸𝗻𝗼𝘄𝗵𝗲𝗿𝗲",
-        "about": "v𝗶𝗻𝘁𝗮𝗴𝗲 ｜ 𝘁𝗿𝗮v𝗲𝗹 ｜ 𝗮𝗿𝘁 ｜𝗰𝘂𝗹𝘁𝘂𝗿𝗲\n◼️中環PMQ B座H205\n◼️Tuesday to Sunday\n◼️1-7pm"
+        "about": "v𝗶𝗻𝘁𝗮𝗴𝗲 ｜ 𝘁𝗿𝗮v𝗲𝗹 ｜ 𝗮𝗿𝘁 ｜𝗰𝘂𝗹𝘁𝘂𝗿𝗲\n◼️中環PMQ B座H205\n◼️Tuesday to Sunday\n◼️1-6pm\n📩youknowhereshop@gmail.com"
       }
     },
     {
@@ -37,33 +37,25 @@
       "meta": {
         "sharedWith": "Public"
       }
-    },
-    {
-      "url": "https://www.facebook.com/youknowhere/posts/2971166272913995",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/youknowhere/posts/2977292485634707",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/youknowhere/posts/3042906185740003",
-      "meta": {
-        "sharedWith": "Public"
-      }
-    },
-    {
-      "url": "https://www.facebook.com/youknowhere/posts/3095996910430930",
-      "meta": {
-        "sharedWith": "Public"
-      }
     }
   ],
   "tags": [
-    "media"
+    "media",
+    "shop"
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "中環鴨巴甸街35號PMQ元創方B座H205"
+      },
+      "googleMapsPlaceId": "ChIJq6q6jXsABDQRstiV2TVhFpE",
+      "coordinates": {
+        "lat": 22.28344969999999,
+        "lng": 114.1517343
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }
