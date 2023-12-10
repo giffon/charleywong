@@ -168,17 +168,15 @@
     {
       "url": "https://www.instagram.com/zeppelinhotdog/",
       "meta": {
-        "website": "http://linktr.ee/zeppelinkitchen",
         "name": "Zeppelin Hot Dog",
-        "about": "🌭火炙芝士辣肉醬熱狗🌶\nHK local brand\n@zeppelinkitchen\nFind us at : hong kong everywhere!\nwww.zeppelinhotdog.com\nwww.zeppelinmall.com\nZEPPELIN最新動向："
+        "about": "🌭火炙芝士辣肉醬熱狗🌶\nHK local brand\n@zeppelinkitchen\nFind us at : hong kong everywhere!\nwww.zeppelinhotdog.com\n立即睇下邊間7-Eleven有P&D包包賣："
       }
     },
     {
       "url": "https://www.instagram.com/zeppelinkitchen/",
       "meta": {
-        "website": "https://linktr.ee/zeppelinkitchen",
         "name": "zeppelinkitchen",
-        "about": "Zeppelin kitchen 、Zeppelin Mall、《齊茶》\n提供火鍋燒肉、食材送餐服務。\n立即享受優惠："
+        "about": "Zeppelin kitchen 、Zeppelin Mall、《齊茶》\n提供火鍋燒肉、食材送餐服務。\n立即了解最新優惠"
       }
     },
     {
@@ -237,6 +235,19 @@
   "places": [
     {
       "address": {
+        "zh": "將軍澳唐俊街18號The Parkside Mall一樓木馬工房Shop10A9舖"
+      },
+      "googleMapsPlaceId": "ChIJq6qqZe0DBDQRq4cL9Xo3la8",
+      "coordinates": {
+        "lat": 22.3052188,
+        "lng": 114.260782
+      },
+      "area": {
+        "zh": "西貢區"
+      }
+    },
+    {
+      "address": {
         "zh": "中文大學梁雄姬樓地下低層新亞書院學生飯堂"
       },
       "googleMapsPlaceId": "ChIJ1T2h4psIBDQR_UKn870Sk5c",
@@ -246,19 +257,6 @@
       },
       "area": {
         "zh": "沙田區"
-      }
-    },
-    {
-      "address": {
-        "zh": "上環荷里活道186 荷里活大樓地下B1鋪"
-      },
-      "googleMapsPlaceId": "ChIJR_kJuH4ABDQRPJkSUHVEdAs",
-      "coordinates": {
-        "lat": 22.2852468,
-        "lng": 114.1483617
-      },
-      "area": {
-        "zh": "中西區"
       }
     },
     {
@@ -289,19 +287,6 @@
     },
     {
       "address": {
-        "zh": "尖沙咀柯士甸路15C號良友大廈A2號鋪"
-      },
-      "googleMapsPlaceId": "ChIJmX00te4ABDQRVGnFzvwd5bc",
-      "coordinates": {
-        "lat": 22.3025257,
-        "lng": 114.1750309
-      },
-      "area": {
-        "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
         "zh": "火炭坳背灣街27-31號協興工業中心地下1A鋪"
       },
       "googleMapsPlaceId": "ChIJj3CGtDUGBDQRf3LtnJxXa6A",
@@ -324,45 +309,6 @@
       },
       "area": {
         "zh": "葵青區"
-      }
-    },
-    {
-      "address": {
-        "zh": "九龍城衙前圍道122號地下C鋪"
-      },
-      "googleMapsPlaceId": "ChIJsa8oJisHBDQRCl3ijI6AzCw",
-      "coordinates": {
-        "lat": 22.3290752,
-        "lng": 114.1883313
-      },
-      "area": {
-        "zh": "九龍城區"
-      }
-    },
-    {
-      "address": {
-        "zh": "炮台山宏安道2-12號宏暉大厦地下5號舖"
-      },
-      "googleMapsPlaceId": "ChIJXzoY-AEBBDQR-GiFTK_nmco",
-      "coordinates": {
-        "lat": 22.2886129,
-        "lng": 114.192215
-      },
-      "area": {
-        "zh": "東區"
-      }
-    },
-    {
-      "address": {
-        "zh": "沙田中心3樓51A號舖"
-      },
-      "googleMapsPlaceId": "ChIJ14XvE1IHBDQR8-46Hc13cVo",
-      "coordinates": {
-        "lat": 22.3822282,
-        "lng": 114.1905663
-      },
-      "area": {
-        "zh": "沙田區"
       }
     },
     {
@@ -419,58 +365,6 @@
     },
     {
       "address": {
-        "zh": "石門京瑞廣場一期 二樓 235A鋪"
-      },
-      "googleMapsPlaceId": "ChIJqYiIwEYGBDQR6Pi1E-TTAnc",
-      "coordinates": {
-        "lat": 22.3883571,
-        "lng": 114.2081221
-      },
-      "area": {
-        "zh": "沙田區"
-      }
-    },
-    {
-      "address": {
-        "zh": "馬蹄徑5號地下7號鋪"
-      },
-      "googleMapsPlaceId": "Eig1IEhvcnNlIFNob2UgTG4sIE5nYXUgVGF1IEtvaywgSG9uZyBLb25nIjASLgoUChIJa3RO304BBDQRAvZewogbCxcQBSoUChIJ1-yBJ08BBDQRg8rhcU9wcnA",
-      "coordinates": {
-        "lat": 22.3146109,
-        "lng": 114.2221842
-      },
-      "area": {
-        "zh": "觀塘區"
-      }
-    },
-    {
-      "address": {
-        "zh": "河畔花園地下5號鋪"
-      },
-      "googleMapsPlaceId": "ChIJv0JZQFIGBDQRjQj61Y9PJoQ",
-      "coordinates": {
-        "lat": 22.381414,
-        "lng": 114.195832
-      },
-      "area": {
-        "zh": "沙田區"
-      }
-    },
-    {
-      "address": {
-        "zh": "鴨脷洲橋道322號鴨脷洲商業大樓地下街市11號鋪"
-      },
-      "googleMapsPlaceId": "ChIJgab1A6qqBjQR3mXCEwjl8G8",
-      "coordinates": {
-        "lat": 22.2444931,
-        "lng": 114.149458
-      },
-      "area": {
-        "zh": "南區"
-      }
-    },
-    {
-      "address": {
         "zh": "天水圍天秀路8號天一商場2樓2010號舖"
       },
       "googleMapsPlaceId": "ChIJ1y64PorwAzQRSO0LWqzLOZ8",
@@ -493,32 +387,6 @@
       },
       "area": {
         "zh": "深水埗區"
-      }
-    },
-    {
-      "address": {
-        "zh": "大埔超級城B區地下134號鋪"
-      },
-      "googleMapsPlaceId": "ChIJGVybU0YIBDQROUNhlYXOWPg",
-      "coordinates": {
-        "lat": 22.45148,
-        "lng": 114.170899
-      },
-      "area": {
-        "zh": "大埔區"
-      }
-    },
-    {
-      "address": {
-        "zh": "九龍九龍灣常悅道 21 號 EASTMARK 1 樓 8 號鋪"
-      },
-      "googleMapsPlaceId": "ChIJ1WWa9jQBBDQRxsAv3SjCy0Q",
-      "coordinates": {
-        "lat": 22.3222915,
-        "lng": 114.2112344
-      },
-      "area": {
-        "zh": "觀塘區"
       }
     },
     {
@@ -549,45 +417,6 @@
     },
     {
       "address": {
-        "zh": "上水中心2樓2230鋪"
-      },
-      "googleMapsPlaceId": "ChIJ-753whD2AzQRV1IzqswHkZ8",
-      "coordinates": {
-        "lat": 22.5008858,
-        "lng": 114.1299577
-      },
-      "area": {
-        "zh": "北區"
-      }
-    },
-    {
-      "address": {
-        "zh": "葵涌廣場3樓3069號T16-T17鋪"
-      },
-      "googleMapsPlaceId": "ChIJOUTkt734AzQR2DIuCxrfkck",
-      "coordinates": {
-        "lat": 22.3584385,
-        "lng": 114.1274926
-      },
-      "area": {
-        "zh": "葵青區"
-      }
-    },
-    {
-      "address": {
-        "zh": "太安樓第二街A55A鋪"
-      },
-      "googleMapsPlaceId": "ChIJyS4jjx4BBDQRp5J-BbTWcNk",
-      "coordinates": {
-        "lat": 22.2828742,
-        "lng": 114.2220997
-      },
-      "area": {
-        "zh": "東區"
-      }
-    },
-    {
-      "address": {
         "zh": "大角咀道171號一盛大廈地下2號舖"
       },
       "googleMapsPlaceId": "ChIJu7DZzLAABDQRim_ULbrim4w",
@@ -597,19 +426,6 @@
       },
       "area": {
         "zh": "油尖旺區"
-      }
-    },
-    {
-      "address": {
-        "zh": "荃灣鱟地坊80-84號士林食街B7鋪"
-      },
-      "googleMapsPlaceId": "ChIJY6eOzu34AzQRS2vh8z52b0M",
-      "coordinates": {
-        "lat": 22.3709479,
-        "lng": 114.1151257
-      },
-      "area": {
-        "zh": "荃灣區"
       }
     },
     {
@@ -757,19 +573,6 @@
     },
     {
       "address": {
-        "zh": "紅磡德民街29號德民大廈地下B1鋪"
-      },
-      "googleMapsPlaceId": "ChIJ1f9Ak2EBBDQRPCd3uTWVlNU",
-      "coordinates": {
-        "lat": 22.30622959999999,
-        "lng": 114.1883138
-      },
-      "area": {
-        "zh": "九龍城區"
-      }
-    },
-    {
-      "address": {
         "zh": "慈雲山毓華街80號嘉華大廈地下B3號舖"
       },
       "googleMapsPlaceId": "ChIJU5U2SN0GBDQROO4bFKGUTvA",
@@ -779,6 +582,19 @@
       },
       "area": {
         "zh": "黃大仙區"
+      }
+    },
+    {
+      "address": {
+        "zh": "九龍觀塘道404號時運工業大廈3樓A室"
+      },
+      "googleMapsPlaceId": "ChIJuSIpE08BBDQR2vrydqa_fh4",
+      "coordinates": {
+        "lat": 22.313121,
+        "lng": 114.2232143
+      },
+      "area": {
+        "zh": "觀塘區"
       }
     }
   ],
