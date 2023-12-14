@@ -42,5 +42,20 @@
       "type": "shop",
       "id": 2355
     }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "香港中環皇后大道中176A-F 錦安大廈4樓402室"
+      },
+      "googleMapsPlaceId": "ChIJe0lzjHwABDQRfJ0JjYAthlU",
+      "coordinates": {
+        "lat": 22.284789,
+        "lng": 114.153253
+      },
+      "area": {
+        "zh": "中西區"
+      }
+    }
   ]
 }
