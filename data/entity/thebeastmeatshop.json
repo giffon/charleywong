@@ -2,9 +2,34 @@
   "id": "thebeastmeatshop",
   "name": {
     "en": "The Beast Feast",
-    "zh": "胾商 肉類及海產食材專門店"
+    "zh": "胾商"
   },
   "webpages": [
+    {
+      "url": "https://www.facebook.com/hkgmeatmerchant/",
+      "meta": {
+        "id": "108571812220624",
+        "username": "hkgmeatmerchant",
+        "name": "胾商 Meat Merchant",
+        "about": "Butcher, INTJ, scorpio \n用陰勁切肉而遠近馳名\n連我啲 ex 都會搵我買肉\n牌照號碼:\n食物製造廠 - 2993808001\n新鮮糧食店 - 3693802878",
+        "category_list": [
+          {
+            "id": "181564868547915",
+            "name": "Butcher Shop"
+          },
+          {
+            "id": "150108431712141",
+            "name": "Grocery Store"
+          },
+          {
+            "id": "1802051720039034",
+            "name": "Food delivery service"
+          }
+        ],
+        "single_line_address": "屯門德政圍56-76號桃苑地下6號鋪",
+        "link": "https://www.facebook.com/108571812220624"
+      }
+    },
     {
       "url": "https://www.facebook.com/meatmerchanthkg/",
       "meta": {
@@ -67,6 +92,21 @@
     {
       "type": "shop",
       "id": 370
+    }
+  ],
+  "places": [
+    {
+      "address": {
+        "zh": "屯門德政圍56-76號桃苑地下6號鋪"
+      },
+      "googleMapsPlaceId": "ChIJgbZdMT37AzQRqG89c98gACg",
+      "coordinates": {
+        "lat": 22.3949098,
+        "lng": 113.975481
+      },
+      "area": {
+        "zh": "屯門區"
+      }
     }
   ]
 }
