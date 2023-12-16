@@ -84,6 +84,7 @@
     }
   ],
   "tags": [
+    "food",
     "shop",
     "foodStore"
   ],
@@ -176,6 +177,19 @@
       },
       "area": {
         "zh": "元朗區"
+      }
+    },
+    {
+      "address": {
+        "zh": "觀塘開源道68號觀塘廣場地下8號舖 30Fx"
+      },
+      "googleMapsPlaceId": "ChIJ53CkUB8BBDQRVSCEkpsWSfo",
+      "coordinates": {
+        "lat": 22.3113595,
+        "lng": 114.2260095
+      },
+      "area": {
+        "zh": "觀塘區"
       }
     }
   ]
