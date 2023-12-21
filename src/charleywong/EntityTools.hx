@@ -26,11 +26,19 @@ class EntityTools {
     }
 
     static public function searchable(e:Entity):Bool {
-        return
-            e.posts.length > 0  // some entities may have posts become inaccessbile thus removed
-            ||
-            e.tags.exists(t -> t.id == "hkbaseDirectory") // HKBASE directory is always searchable
-        ;
+        // not searchable if it's explicitly removed
+        if (e.tags.exists(t -> t.id == "removed"))
+            return false;
+
+        // make HKBASE directory searchable
+        if (e.tags.exists(t -> t.id == "hkbaseDirectory"))
+            return true;
+
+        // some entities may have posts become inaccessbile thus removed
+        if (e.posts.length <= 0)
+            return false;
+
+        return true;
     }
 
     #if js
