@@ -5,9 +5,6 @@
   },
   "webpages": [
     {
-      "url": "https://bubbleteawork.co"
-    },
-    {
       "meta": {
         "id": "317704111927027",
         "username": "bubbleteawork",
@@ -118,7 +115,8 @@
     {
       "url": "https://www.instagram.com/bubbleteawork/",
       "meta": {
-        "name": "丸茶手作",
+        "website": "https://bubbleteawork.com/",
+        "name": "丸茶手作 總公司",
         "about": "品牌媒體報導：\n香港新假期週刊\n香港東方日報\nU Food雜誌\n香港東網/東方日報\n飲食男女\n關鍵評論網\n蘋果日報\n香港TVB 東張西望\n台灣中視新聞/中天新聞\n香港新城財經電台\n彭博商業週刊"
       }
     },
@@ -168,12 +166,6 @@
       "meta": {
         "sharedWith": "Public"
       }
-    },
-    {
-      "url": "https://www.facebook.com/bubbleteaworkshekmun/posts/120157712952895",
-      "meta": {
-        "sharedWith": "Public"
-      }
     }
   ],
   "tags": [
@@ -217,32 +209,6 @@
   "places": [
     {
       "address": {
-        "zh": "九龍何文田勝利道12號地舖1B"
-      },
-      "googleMapsPlaceId": "ChIJDXCL88UABDQRtSjsGineWsM",
-      "coordinates": {
-        "lat": 22.3189086,
-        "lng": 114.17483
-      },
-      "area": {
-        "zh": "九龍城區"
-      }
-    },
-    {
-      "address": {
-        "zh": "葵芳葵富路7-11號葵涌廣場2樓潮流廊二期2009號舖"
-      },
-      "googleMapsPlaceId": "ChIJVVSmT4f5AzQRhwHQtSm1Hdk",
-      "coordinates": {
-        "lat": 22.3579221,
-        "lng": 114.1279426
-      },
-      "area": {
-        "zh": "葵青區"
-      }
-    },
-    {
-      "address": {
         "zh": "紅磡明安街4號寶石戲院大廈地下I3號舖"
       },
       "googleMapsPlaceId": "ChIJnZp1fZUBBDQRi-Pm1D9sv_o",
@@ -269,32 +235,6 @@
     },
     {
       "address": {
-        "zh": "沙田石門京瑞廣場2期101b3"
-      },
-      "googleMapsPlaceId": "ChIJm54U0UYGBDQRKtmFPJqHzTk",
-      "coordinates": {
-        "lat": 22.3888914,
-        "lng": 114.20842
-      },
-      "area": {
-        "zh": "沙田區"
-      }
-    },
-    {
-      "address": {
-        "zh": "荃灣大河道91-97號鱟地坊76-78號天保大廈地下B舖"
-      },
-      "googleMapsPlaceId": "ChIJYZOe4t75AzQRSsPNkeoPRaw",
-      "coordinates": {
-        "lat": 22.37109169999999,
-        "lng": 114.1149976
-      },
-      "area": {
-        "zh": "荃灣區"
-      }
-    },
-    {
-      "address": {
         "zh": "西環吉席街78-86號娛安樓地下G號舖"
       },
       "googleMapsPlaceId": "ChIJLz2l1-v_AzQRpAX7F1jI7RM",
@@ -304,19 +244,6 @@
       },
       "area": {
         "zh": "中西區"
-      }
-    },
-    {
-      "address": {
-        "zh": "灣仔道150號明豐大廈地下D舖"
-      },
-      "googleMapsPlaceId": "ChIJgUuZBlsABDQRYM_PhEPZAXY",
-      "coordinates": {
-        "lat": 22.2769624,
-        "lng": 114.1760751
-      },
-      "area": {
-        "zh": "灣仔區"
       }
     },
     {
