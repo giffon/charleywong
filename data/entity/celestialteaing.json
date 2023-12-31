@@ -36,7 +36,7 @@
       "url": "https://www.instagram.com/celestial_teaing/",
       "meta": {
         "name": "茶色生香",
-        "about": "天水圍天一商城1105號|荃灣荃新天地2期UG樓86號|尖沙咀金巴利道58號|太古英皇道1090號2B鋪|石門京瑞廣場2期1樓101A 21號|石塘咀新安大樓A 鋪|大角咀道61號鋪|柴灣樂軒台115號鋪|屯門山景商場125號鋪︳筲箕灣東大街東強大廈地下14號鋪"
+        "about": "天水圍天一商城1105號|太古英皇道1090號2B鋪|石門京瑞廣場2期1樓101A 21號|石塘咀新安大樓A 鋪|大角咀道61號鋪|柴灣樂軒台115號鋪|屯門山景商場125號鋪|筲箕灣東大街東強大廈地下14號鋪|大埔富亨街市28號鋪|石籬商場2期B238鋪"
       }
     }
   ],
@@ -111,6 +111,19 @@
     },
     {
       "address": {
+        "zh": "筲箕灣東大街東強大廈地下14號鋪"
+      },
+      "googleMapsPlaceId": "ChIJLfyGVngBBDQRLABNXK3AK10",
+      "coordinates": {
+        "lat": 22.2795686,
+        "lng": 114.2299247
+      },
+      "area": {
+        "zh": "東區"
+      }
+    },
+    {
+      "address": {
         "zh": "荃灣楊屋道18號荃新天地2期UG樓86號舖"
       },
       "googleMapsPlaceId": "ChIJzRDKAOz4AzQRCODeKnEjx0o",
@@ -124,12 +137,12 @@
     },
     {
       "address": {
-        "zh": "大角咀大角咀道61號牡丹大廈地舖"
+        "zh": "大角咀大角咀道61號牡丹大廈59號舖"
       },
-      "googleMapsPlaceId": "ChIJOQGR9bkABDQRs_TgRKwzwnU",
+      "googleMapsPlaceId": "ChIJa6SZu9MBBDQRyF5gyN7pVh4",
       "coordinates": {
-        "lat": 22.3202029,
-        "lng": 114.1617451
+        "lat": 22.3201098,
+        "lng": 114.1618283
       },
       "area": {
         "zh": "油尖旺區"
@@ -176,6 +189,19 @@
     },
     {
       "address": {
+        "zh": "大埔富亨街市28號鋪"
+      },
+      "googleMapsPlaceId": "ChIJ5_HvbUkIBDQRZ20XQc_qPFY",
+      "coordinates": {
+        "lat": 22.458269,
+        "lng": 114.171482
+      },
+      "area": {
+        "zh": "大埔區"
+      }
+    },
+    {
+      "address": {
         "zh": "天水圍天一商城1105號鋪"
       },
       "googleMapsPlaceId": "ChIJ1y64PorwAzQRSO0LWqzLOZ8",
@@ -185,19 +211,6 @@
       },
       "area": {
         "zh": "元朗區"
-      }
-    },
-    {
-      "address": {
-        "zh": "筲箕灣東大街東強大廈地下14號鋪"
-      },
-      "googleMapsPlaceId": "ChIJLfyGVngBBDQRLABNXK3AK10",
-      "coordinates": {
-        "lat": 22.2795686,
-        "lng": 114.2299247
-      },
-      "area": {
-        "zh": "東區"
       }
     }
   ],
