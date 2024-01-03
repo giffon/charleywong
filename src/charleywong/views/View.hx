@@ -210,7 +210,7 @@ class View extends ReactComponent {
 
             <footer className="color_black_o60 py-3">
                 <p>
-                    Copyright (C) 2020-2023 <a href="https://charleywong.info">Charley Wong 和你查</a>
+                    Copyright (C) 2020-2024 <a href="https://charleywong.info">Charley Wong 和你查</a>
                 </p>
                 <p><a href="/privacy">Privacy Policy</a></p>
             </footer>
