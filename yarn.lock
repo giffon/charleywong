@@ -4299,10 +4299,10 @@ globby@^11.1.0:
     merge2 "^1.4.1"
     slash "^3.0.0"
 
-google-auth-library@9.6.0:
-  version "9.6.0"
-  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-9.6.0.tgz#47a20aad0a358e9798c2adc489a89f1938e9c3ff"
-  integrity sha512-bM/buCwCeYZjmnzGstwREu3BsnbmnuI064ZGur0NmHyXUxubWMJTCO9kxsyy4T6jdzacHJY3XQWHxX4D4Mc+EA==
+google-auth-library@9.6.1:
+  version "9.6.1"
+  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-9.6.1.tgz#f22c575383a7900c63de189e1a66b61e50ebda19"
+  integrity sha512-rPL44wV0yJnA11+ggxA348ylUY1o7mkcHLwlZNlLZsKROPLl7q3LgMU5nM65h1QpxhJu/shk2FLml7173XIthA==
   dependencies:
     base64-js "^1.3.0"
     ecdsa-sig-formatter "^1.0.11"
