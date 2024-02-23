@@ -6,20 +6,24 @@
 	"remoteEnv": {
 		"LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
 	},
-	"settings": { 
-		"remote.portsAttributes": {
-			"6000": {
-				"label": "vshaxe server",
-				"onAutoForward": "ignore"
-			}
-		},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"remote.portsAttributes": {
+					"6000": {
+						"label": "vshaxe server",
+						"onAutoForward": "ignore"
+					}
+				}
+			},
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"nadako.vshaxe",
+				"lix.lix",
+				"hashicorp.terraform",
+				"earthly.earthfile-syntax-highlighting"
+			]
+		}
 	},
-	"extensions": [
-		"ms-azuretools.vscode-docker",
-		"nadako.vshaxe",
-		"lix.lix",
-		"hashicorp.terraform",
-		"earthly.earthfile-syntax-highlighting",
-	],
 	"remoteUser": "vscode"
 }
