@@ -637,10 +637,10 @@
     http-errors "2.0.0"
     mime "^3.0.0"
 
-"@fastify/static@7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@fastify/static/-/static-7.0.2.tgz#debf3ffc42df364e73b73b1c6faaa53655f6a70f"
-  integrity sha512-5opbHpZj29EGVBNgELW6gDkueiFWxjLsLVQQCgKencJctq0aqk3vBlkO97z5It4zaSAb3FXOeAxm7KP2tL/hQA==
+"@fastify/static@7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@fastify/static/-/static-7.0.3.tgz#e99bbb775c86aa9f9d42c35074ed7b584b06cb71"
+  integrity sha512-2tmTdF+uFCykasutaO6k4/wOt7eXyi7m3dGuCPo5micXzv0qt6ttb/nWnDYL/BlXjYGfp1JI4a1gyluTIylvQA==
   dependencies:
     "@fastify/accept-negotiator" "^1.0.0"
     "@fastify/send" "^2.0.0"
