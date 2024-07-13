@@ -21,13 +21,6 @@ class BrowserMain {
             '), div);
         }
 
-        for (div in document.querySelectorAll("div.fb-like-button")) {
-            var div:DivElement = cast div;
-            ReactDOM.render(jsx('
-                <FBLikeButton url=${div.dataset.url} />
-            '), div);
-        }
-
         for (div in document.querySelectorAll(".container-entity div.places")) {
             var div:DivElement = cast div;
             ReactDOM.render(jsx('

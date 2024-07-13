@@ -64,10 +64,6 @@ class EntityView extends View {
                 jsx('
                     <Fragment>
                         <a href=${p.url}><i className="fab fa-facebook"></i> ${linktext}</a>
-                        <div
-                            className="fb-like-button flex-shrink-0 ml-1"
-                            data-url=${p.url}
-                        />
                     </Fragment>
                 ');
             case extractIgProfilePage(_) => ig if (ig != null):
