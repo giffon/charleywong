@@ -18,12 +18,23 @@ devcontainer-library-scripts:
     RUN curl -fsSLO https://raw.githubusercontent.com/microsoft/vscode-dev-containers/main/script-library/docker-debian.sh
     SAVE ARTIFACT --keep-ts *.sh AS LOCAL .devcontainer/library-scripts/
 
+docker-compose:
+    ARG TARGETARCH
+    ARG VERSION=2.28.1 # https://github.com/docker/compose/releases/
+    RUN curl -fsSL https://github.com/docker/compose/releases/download/v${VERSION}/docker-compose-linux-$(uname -m) -o /usr/local/bin/docker-compose \
+        && chmod +x /usr/local/bin/docker-compose
+    SAVE ARTIFACT /usr/local/bin/docker-compose
+
 nodesource.gpg:
     RUN curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o nodesource.gpg
     SAVE ARTIFACT --keep-ts nodesource.gpg
 
 devcontainer-base:
     ARG TARGETARCH
+
+    # Maunally install docker-compose to avoid the following error:
+    # pip seemed to fail to build package: PyYAML<6,>=3.10
+    COPY +docker-compose/docker-compose /usr/local/bin/
 
     # Avoid warnings by switching to noninteractive
     ENV DEBIAN_FRONTEND=noninteractive
