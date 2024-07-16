@@ -30,6 +30,7 @@ class PrivacyView extends View {
                 <h2 className="text-lg">1. Information collection</h2>
                 <p>When using ${name}, we ask certain information from you:</p>
                 <p>“Personal Information” We don\'t collect any personal data, except that we use 3rd party statistic SDK for analytic purpose. Users who contact us via email, the email addresses and information you submitted voluntarily will also be collected.</p>
+                <p>For any enquiry about your data, including request to be deleted, email to admin@charleywong.info</p>
 
                 <h2 className="text-lg">2. Information usage</h2>
                 <p>Your information will not be shared with others and is only used internally for the purposes described below:</p>
