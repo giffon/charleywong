@@ -3383,10 +3383,10 @@ avvio@^8.2.1:
     debug "^4.0.0"
     fastq "^1.6.1"
 
-aws-lambda-ric@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/aws-lambda-ric/-/aws-lambda-ric-3.1.0.tgz#6cff5692b277976967a4f7f4e58015e860780e4c"
-  integrity sha512-Uum4yHPzcgla/PFE8H2bojFhsMeJDciS0h0HkSnkg6eB5n64W8+GY2yxU26PVfWiNEpb5Pq0MtS17lTpvVcGBQ==
+aws-lambda-ric@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/aws-lambda-ric/-/aws-lambda-ric-3.2.0.tgz#38cf2c9e1e178ccb843cb5ba5a08854d36e2cdd4"
+  integrity sha512-Ihtv1w5e2/uDnlmpa7PeWyWJQkWUNo++n/VjIREC9TS/xOQw6/kXzOS4o/XG/iXXKALcOV5qqlXe3mAu6klOfQ==
   dependencies:
     node-addon-api "6.1.0"
     node-gyp "9.4.0"
