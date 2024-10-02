@@ -2846,10 +2846,10 @@
     "@types/node" "*"
     "@types/responselike" "*"
 
-"@types/chrome@0.0.268":
-  version "0.0.268"
-  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.268.tgz#d5855546f30c83e181cadd77127a162c25b480d2"
-  integrity sha512-7N1QH9buudSJ7sI8Pe4mBHJr5oZ48s0hcanI9w3wgijAlv1OZNUZve9JR4x42dn5lJ5Sm87V1JNfnoh10EnQlA==
+"@types/chrome@0.0.275":
+  version "0.0.275"
+  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.275.tgz#76b8b3d4a4e545081c3ba8b051b28c70f71232d8"
+  integrity sha512-A4CR6QEK4CwntU5KjNY4zqTlYzoBKH0+DYY8Bcn3SuV3vTy4Fb3ol4+o9E8sotp1WNXCCvQnHfW9oXUX6b6wlw==
   dependencies:
     "@types/filesystem" "*"
     "@types/har-format" "*"
