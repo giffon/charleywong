@@ -10,13 +10,18 @@
     },
     {
       "meta": {
-        "name": "魚市場 HKWFM",
         "id": "464572503604849",
+        "username": "HKWholesaleFishMarket",
+        "name": "魚市場 HKWFM",
         "about": "本網為數位熱愛巴士的交通行業從業員所建立的專頁，現專門提供路線時間表查詢、報站聲下載及OMSI補檔，另外亦盡量為大家提供各個範疇的交通資訊。",
-        "categories": [
-          "Community"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          }
         ],
-        "email": "hongkongwfm@gmail.com"
+        "website": "http://hkwfm.net/",
+        "link": "https://www.facebook.com/464572503604849"
       },
       "url": "https://www.facebook.com/HKWholesaleFishMarket/"
     },

@@ -11,15 +11,29 @@
     {
       "url": "https://www.facebook.com/decodinghkhistory/",
       "meta": {
-        "name": "香港前途研究計劃 Decoding Hong Kong's History",
         "id": "806141496206482",
+        "username": "decodinghkhistory",
+        "name": "香港前途研究計劃 Decoding Hong Kong's History",
         "about": "「香港前途研究計劃」透過重點檔案的分析研究，重新認識香港史，以及為當下香港各種問題論述提供扎實的基礎。",
-        "categories": [
-          "Community",
-          "Non-Governmental Organization (NGO)",
-          "Youth Organization"
+        "category_list": [
+          {
+            "id": "2612",
+            "name": "Community"
+          },
+          {
+            "id": "2235",
+            "name": "Non-Governmental Organization (NGO)"
+          },
+          {
+            "id": "181053558607965",
+            "name": "Youth Organization"
+          }
         ],
-        "email": "decodinghkshistory@gmail.com"
+        "emails": [
+          "decodinghkshistory@gmail.com"
+        ],
+        "website": "https://medium.com/decoding-hong-kongs-history",
+        "link": "https://www.facebook.com/806141496206482"
       }
     }
   ],
