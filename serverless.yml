@@ -39,8 +39,16 @@ functions:
 
 plugins:
   - serverless-prune-plugin
+  - serverless-apigateway-log-retention
 
 custom:
   prune:
     automatic: true
     number: 5
+  apigatewayLogRetention:
+    executionLogging:
+      enabled: true
+      days: 7
+    accessLogging:
+      enabled: true
+      days: 7
