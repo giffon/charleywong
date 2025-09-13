@@ -83,9 +83,6 @@ resource "cloudflare_record" "charleywong-info-imap" {
   proxied = false
 
   data {
-    name     = "charleywong.info"
-    service  = "_imap"
-    proto    = "_tcp"
     target   = "."
     priority = 0
   }
@@ -99,9 +96,6 @@ resource "cloudflare_record" "charleywong-info-imaps" {
   proxied = false
 
   data {
-    name     = "charleywong.info"
-    service  = "_imaps"
-    proto    = "_tcp"
     target   = "mail.gandi.net"
     port     = 993
     priority = 0
@@ -117,9 +111,6 @@ resource "cloudflare_record" "charleywong-info-pop3" {
   proxied = false
 
   data {
-    name     = "charleywong.info"
-    service  = "_pop3"
-    proto    = "_tcp"
     target   = "."
     priority = 0
   }
@@ -133,9 +124,6 @@ resource "cloudflare_record" "charleywong-info-pop3s" {
   proxied = false
 
   data {
-    name     = "charleywong.info"
-    service  = "_pop3s"
-    proto    = "_tcp"
     target   = "mail.gandi.net"
     port     = 995
     priority = 10
@@ -151,9 +139,6 @@ resource "cloudflare_record" "charleywong-info-submission" {
   proxied = false
 
   data {
-    name     = "charleywong.info"
-    service  = "_submission"
-    proto    = "_tcp"
     target   = "mail.gandi.net"
     port     = 465
     priority = 0
