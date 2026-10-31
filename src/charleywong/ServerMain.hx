@@ -956,7 +956,7 @@ class ServerMain {
             opts.trustProxy = true;
             app = Fastify.call(opts);
             initServer();
-            js.Node.exports.handler = require('@fastify/aws-lambda')(app, {
+            final proxy:(event:Dynamic, context:Dynamic)->js.lib.Promise<Dynamic> = require('@fastify/aws-lambda')(app, {
                 binaryMimeTypes: [
                     "image/png",
                     "image/jpeg",
@@ -966,6 +966,9 @@ class ServerMain {
                     "image/x-icon",
                 ],
             });
+            // Node.js 24 Lambda runtime rejects callback-based handlers (3 params),
+            // so expose a 2-param handler that returns the proxy's promise.
+            js.Node.exports.handler = (event:Dynamic, context:Dynamic) -> proxy(event, context);
         } else {
             final watcher = js.npm.chokidar.Chokidar.watch(dataDirectory,{
                 persistent: true,

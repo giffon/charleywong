@@ -7,7 +7,7 @@ ARG DEVCONTAINER_IMAGE_NAME_DEFAULT=ghcr.io/giffon/charleywong_devcontainer_work
 ARG LAMBDA_IMAGE_REGISTRY=932878902707.dkr.ecr.us-east-1.amazonaws.com
 ARG LAMBDA_IMAGE_NAME_MASTER=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-master
 ARG LAMBDA_IMAGE_NAME_PRODUCTION=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-production
-ARG NODE_MAJOR=18
+ARG NODE_MAJOR=24
 
 ARG USERNAME=vscode
 ARG USER_UID=1000
@@ -268,6 +268,8 @@ node-modules-prod:
     WORKDIR /workspace
     COPY .haxerc package.json yarn.lock .
     COPY +lix-download/haxe "$HAXESHIM_ROOT"
+    # nodejieba's prebuilt binaries require a newer glibc than $UBUNTU_RELEASE has
+    ENV npm_config_build_from_source=nodejieba
     RUN yarn --production
     SAVE ARTIFACT node_modules
     SAVE IMAGE --cache-hint
@@ -355,10 +357,9 @@ ybm-pretty:
 
 hkgs-dataset-district-boundary:
     WORKDIR /tmp
-    # Administrative Area -> District Boundary
-    # https://portal.csdi.gov.hk/
-    RUN curl -fsSL "https://static.csdi.gov.hk/csdi-webpage/download/common/71ee5df3d082174bd2331e19157c3f670427ba501bf1ff5f6b9439e036ce293e" -o boundary.zip
-    RUN unzip boundary.zip
+    # District Boundary (Home Affairs Department), in EPSG:2326
+    # https://portal.csdi.gov.hk/geoportal/?datasetId=had_rcd_1634523272907_75218
+    RUN curl -fsSL "https://portal.csdi.gov.hk/server/services/common/had_rcd_1634523272907_75218/MapServer/WFSServer?service=wfs&request=GetFeature&typenames=DCD&outputFormat=geojson&srsName=EPSG:2326" -o DCD.json
     SAVE ARTIFACT --keep-ts DCD.json AS LOCAL ./data/hkgs/DCD.json
     SAVE IMAGE --cache-hint
 
@@ -497,12 +498,16 @@ runtime:
 
     ENV DEBIAN_FRONTEND=noninteractive
 
+    # deb.nodesource.com redirects to https, so install ca-certificates before adding the repo
+    RUN apt-get update \
+        && apt-get install -yq --no-install-recommends ca-certificates \
+        && rm -rf /var/lib/apt/lists/*
+
     COPY +nodesource.gpg/nodesource.gpg /etc/apt/keyrings/nodesource.gpg
-    RUN echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] http://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
+    RUN echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
 
     RUN apt-get update \
         && apt-get install -yq --no-install-recommends \
-            ca-certificates \
             curl \
             groonga \
             groonga-token-filter-stem \
@@ -528,6 +533,8 @@ lambda-container:
     COPY +tailwind/* static/css
     COPY +server-script/* .
 
+    # aws-lambda-ric 4+ loads the handler from LAMBDA_TASK_ROOT, which only the AWS base images set
+    ENV LAMBDA_TASK_ROOT=/workspace
     ENTRYPOINT ["npx", "aws-lambda-ric"]
     CMD ["index.handler"]
     ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_NAME_MASTER
@@ -545,6 +552,8 @@ lambda-container-rie:
     FROM +lambda-container --LAMBDA_IMAGE_TAG="$LAMBDA_IMAGE_TAG"
     COPY +aws-lambda-rie/aws-lambda-rie /usr/local/bin/aws-lambda-rie
     ENTRYPOINT ["aws-lambda-rie", "npx", "aws-lambda-ric"]
+    # setting ENTRYPOINT resets the CMD inherited from +lambda-container
+    CMD ["index.handler"]
     ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_NAME_MASTER
     SAVE IMAGE "${LAMBDA_IMAGE_NAME}:${LAMBDA_IMAGE_TAG}-rie"
 

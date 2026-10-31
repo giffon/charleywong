@@ -5,18 +5,15 @@ import sys.io.File;
 import js.Lib.*;
 
 typedef HKDistrict = {
+    GmlID:String,
     OBJECTID:Int,
-    CSDI_ADMIN_AREA_ID:String,
-    AREA_TYPE:String,
     AREA_ID:String,
     AREA_CODE:String,
     NAME_TC:String,
     NAME_EN:String,
-    DATA_OWNER:String,
-    BEGIN_LIFESPAN:String,
-    END_LIFESPAN:String,
-    SHAPE_Length:Float,
-    SHAPE_Area:Float
+    REGION:String,
+    Shape_Length:Float,
+    Shape_Area:Float
 }
 
 class HKDistricts {
