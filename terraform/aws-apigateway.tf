@@ -4,9 +4,6 @@ data "aws_cloudformation_stack" "charleywong-production" {
 data "aws_cloudformation_stack" "charleywong-master" {
   name = "charleywong-master"
 }
-data "aws_cloudformation_stack" "charleywong-dev" {
-  name = "charleywong-dev"
-}
 
 data "aws_apigatewayv2_api" "production-charleywong" {
   api_id = data.aws_cloudformation_stack.charleywong-production.outputs.HttpApiId
