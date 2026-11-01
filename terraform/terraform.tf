@@ -15,9 +15,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "charleywong-terraform"
-    key            = "charleywong-terraform.tfstate"
-    dynamodb_table = "charleywong-terraform"
+    bucket       = "charleywong-terraform"
+    key          = "charleywong-terraform.tfstate"
+    use_lockfile = true
   }
 }
 

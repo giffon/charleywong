@@ -9,18 +9,3 @@ module "s3_bucket_terraform" {
     enabled = true
   }
 }
-
-module "dynamodb_table_terraform" {
-  source  = "terraform-aws-modules/dynamodb-table/aws"
-  version = "5.5.2"
-
-  name     = "charleywong-terraform"
-  hash_key = "LockID"
-
-  attributes = [
-    {
-      name = "LockID"
-      type = "S"
-    }
-  ]
-}
