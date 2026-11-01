@@ -1,0 +1,23 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      lix:
+        specifier: 17.0.3
+        version: 17.0.3
+
+packages:
+
+  lix@17.0.3:
+    resolution: {integrity: sha512-3/SEs2nkGrvQTilTSs1TC0mVmdiBBaLFY9l/lVL7OFyl82o51/fwcCYZerLw9500ZYoQIRIDovzcTq1RhA8tFA==}
+    hasBin: true
+
+snapshots:
+
+  lix@17.0.3: {}

@@ -87,6 +87,11 @@ devcontainer-base:
         && npm config --global set update-notifier false \
         && npm install -g yarn \
         && yarn global add lix --prefix /usr/local \
+        # Install haxe
+        && add-apt-repository ppa:haxe/haxe4.3 -y \
+        && apt-get update \
+        && apt-get install -qqy --no-install-recommends \
+            haxe=1:4.3.* \
         #
         # Clean up
         && apt-get autoremove -y \
@@ -258,6 +263,10 @@ lix-download:
     WORKDIR /workspace
     COPY haxe_libraries haxe_libraries
     COPY .haxerc .
+    RUN mkdir -p "$HAXESHIM_ROOT/versions/$(jq -r .version .haxerc)"
+    RUN ln -s /usr/bin/haxe "$HAXESHIM_ROOT/versions/$(jq -r .version .haxerc)/haxe"
+    RUN ln -s /usr/bin/haxelib "$HAXESHIM_ROOT/versions/$(jq -r .version .haxerc)/haxelib"
+    RUN ln -s /usr/share/haxe/std "$HAXESHIM_ROOT/versions/$(jq -r .version .haxerc)/std"
     RUN lix download
     SAVE ARTIFACT "$HAXESHIM_ROOT"
     SAVE IMAGE --cache-hint
@@ -288,7 +297,7 @@ dts2hx:
     RUN perl -i -pe 's/FastifyServerOptions(?!<[^,>]+,[^,>]+>)(<.+?>)?/Dynamic/g' lib/dts2hx/fastify/FastifyServerOptions.hx
     RUN perl -i -pe 's/FastifyHttpsOptions(?!<[^,>]+,[^,>]+>)(<.+?>)?/Dynamic/g' lib/dts2hx/fastify/FastifyHttpsOptions.hx
     RUN perl -i -pe 's/FastifyHttpOptions(?!<[^,>]+,[^,>]+>)(<.+?>)?/Dynamic/g' lib/dts2hx/fastify/FastifyHttpOptions.hx
-    SAVE ARTIFACT lib/dts2hx
+    SAVE ARTIFACT lib/dts2hx AS LOCAL lib/dts2hx
     SAVE IMAGE --cache-hint
 
 entity-index-exporter:
