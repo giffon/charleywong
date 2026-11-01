@@ -30,7 +30,7 @@ class View extends ReactComponent {
     ');
 
     function css() {
-        final tailwind = if (charleywong.ServerMain.isMain) {
+        final tailwind = if (Site.useTailwindCdn) {
             null;
         } else {
             jsx('
@@ -48,7 +48,7 @@ class View extends ReactComponent {
     }
 
     function script() {
-        final tailwind = if (charleywong.ServerMain.isMain) {
+        final tailwind = if (Site.useTailwindCdn) {
             jsx('
                 <script src="https://cdn.tailwindcss.com"></script>
             ');
@@ -185,7 +185,7 @@ class View extends ReactComponent {
                     
                 </div>
 
-                <h5 className="px-3 py-5">Charley 現時收錄咗 ${ServerMain.entityIndex.entities.filter(e -> e.posts.length > 0).count()} 項資料，並持續增加中<br/><a href="/list/all">睇晒完整目錄</a></h5>
+                <h5 className="px-3 py-5">Charley 現時收錄咗 ${Site.countEntities()} 項資料，並持續增加中<br/><a href="/list/all">睇晒完整目錄</a></h5>
             </div>
             <div className="mt-5 container max-w-screen-lg mx-auto px-4">
                 <div className="md:flex color_black_o60">

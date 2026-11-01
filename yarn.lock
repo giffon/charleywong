@@ -8740,6 +8740,11 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
+snowball-stemmers@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/snowball-stemmers/-/snowball-stemmers-0.6.0.tgz#179bb70b92ced350279c2d5f91affa7c08391e37"
+  integrity sha512-47VTJvsZzEme3VxhbUFc9wR0CX8fYKNMgL7AiBdJcHUrwbmN7htFroeX+8ESIAaoNgwEgwI2wnv1HIcqQqAdcA==
+
 socks-proxy-agent@^8.0.3:
   version "8.0.5"
   resolved "https://registry.yarnpkg.com/socks-proxy-agent/-/socks-proxy-agent-8.0.5.tgz#b9cdb4e7e998509d7659d689ce7697ac21645bee"

@@ -5,7 +5,7 @@ import charleywong.EntityIndex;
 
 class Index extends View {
     override public function description() return "一個開放源碼同開放數據嘅黃色經濟圈資料庫.";
-    override function canonical() return ServerMain.domain;
+    override function canonical() return Site.domain;
     override public function render() {
         return super.render();
     }
@@ -15,9 +15,19 @@ class Index extends View {
             <meta name="twitter:card" content="summary_large_image" />
             ${super.ogMeta()}
             <meta property="og:type" content="website" />
-            <meta property="og:image" content=${Path.join([ServerMain.domain, R("/images/charley-meta.jpg")])} />
+            <meta property="og:image" content=${Path.join([Site.domain, R("/images/charley-meta.jpg")])} />
             <meta property="og:image:width" content="1200" />
             <meta property="og:image:height" content="630" />
+        </Fragment>
+    ');
+
+    // Redirect the legacy "/?search=..." urls, which can't be done by a static site.
+    static final legacySearchRedirect = '(function(){var q=new URLSearchParams(location.search).get("search");if(q!==null){q=q.trim();location.replace(q===""?"/list/all":"/search/"+encodeURIComponent(q));}})();';
+
+    override function depJs() return jsx('
+        <Fragment>
+            ${super.depJs()}
+            <script dangerouslySetInnerHTML=${{__html: legacySearchRedirect}} />
         </Fragment>
     ');
 

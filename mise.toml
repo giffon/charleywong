@@ -1,5 +1,6 @@
 [tools]
 earthly = "0.8.16"
+just = "1"
 node = "24"
 "npm:yarn" = "1.22.22"
 aws-cli = { version = "2", symlink_bins = "true" }

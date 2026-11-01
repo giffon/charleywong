@@ -65,7 +65,7 @@ class SearchBar extends ReactComponentOf<SearchBarProps, SearchBarState> {
         return jsx('
             <form
                 className="flex"
-                action="/"
+                action="/search"
                 autoComplete=${defaultQuery == null || defaultQuery == "" ? "on" : "off"}
                 onSubmit=${handleSubmit}
             >
