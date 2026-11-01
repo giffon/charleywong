@@ -1,101 +1,106 @@
 data "cloudflare_zone" "giffonio" {
-  name = "giffon.io"
+  filter = {
+    name = "giffon.io"
+  }
 }
 data "cloudflare_zone" "charleywong-info" {
-  name = "charleywong.info"
+  filter = {
+    name = "charleywong.info"
+  }
 }
 
-resource "cloudflare_record" "charleywong" {
+resource "cloudflare_dns_record" "charleywong" {
   zone_id = data.cloudflare_zone.giffonio.id
   name    = "charleywong"
-  value   = aws_api_gateway_domain_name.charleywong-giffon-io.regional_domain_name
+  content = aws_api_gateway_domain_name.charleywong-giffon-io.regional_domain_name
   type    = "CNAME"
   ttl     = 1
   proxied = true
 }
 
-resource "cloudflare_record" "charleywong-master" {
+resource "cloudflare_dns_record" "charleywong-master" {
   zone_id = data.cloudflare_zone.giffonio.id
   name    = "charleywong-master"
-  value   = aws_api_gateway_domain_name.master-charleywong-giffon-io.regional_domain_name
+  content = aws_api_gateway_domain_name.master-charleywong-giffon-io.regional_domain_name
   type    = "CNAME"
   ttl     = 1
   proxied = true
 }
 
 
-resource "cloudflare_record" "charleywong-dev-A" {
+resource "cloudflare_dns_record" "charleywong-dev-A" {
   zone_id = data.cloudflare_zone.giffonio.id
   name    = "charleywong-dev"
-  value   = "37.16.16.171"
+  content = "37.16.16.171"
   type    = "A"
   ttl     = 1
   proxied = true
 }
 
-resource "cloudflare_record" "charleywong-dev-AAAA" {
+resource "cloudflare_dns_record" "charleywong-dev-AAAA" {
   zone_id = data.cloudflare_zone.giffonio.id
   name    = "charleywong-dev"
-  value   = "2a09:8280:1::44f4"
+  content = "2a09:8280:1::44f4"
   type    = "AAAA"
   ttl     = 1
   proxied = true
 }
 
 
-resource "cloudflare_record" "charleywong-info-mx10" {
-  zone_id         = data.cloudflare_zone.charleywong-info.id
-  name            = "charleywong.info"
-  value           = "spool.mail.gandi.net"
-  type            = "MX"
-  priority        = 10
-  ttl             = 1
-  allow_overwrite = false
-  proxied         = false
+resource "cloudflare_dns_record" "charleywong-info-mx10" {
+  zone_id  = data.cloudflare_zone.charleywong-info.id
+  name     = "charleywong.info"
+  content  = "spool.mail.gandi.net"
+  type     = "MX"
+  priority = 10
+  ttl      = 1
+  proxied  = false
 }
 
-resource "cloudflare_record" "charleywong-info-mx50" {
-  zone_id         = data.cloudflare_zone.charleywong-info.id
-  name            = "charleywong.info"
-  value           = "fb.mail.gandi.net"
-  type            = "MX"
-  priority        = 50
-  ttl             = 1
-  allow_overwrite = false
-  proxied         = false
+resource "cloudflare_dns_record" "charleywong-info-mx50" {
+  zone_id  = data.cloudflare_zone.charleywong-info.id
+  name     = "charleywong.info"
+  content  = "fb.mail.gandi.net"
+  type     = "MX"
+  priority = 50
+  ttl      = 1
+  proxied  = false
 }
 
-resource "cloudflare_record" "charleywong-info-spf" {
-  zone_id         = data.cloudflare_zone.charleywong-info.id
-  name            = "charleywong.info"
-  value           = "v=spf1 include:_mailcust.gandi.net ?all"
-  type            = "TXT"
-  ttl             = 1
-  allow_overwrite = false
-  proxied         = false
-}
-
-resource "cloudflare_record" "charleywong-info-imap" {
+resource "cloudflare_dns_record" "charleywong-info-spf" {
   zone_id = data.cloudflare_zone.charleywong-info.id
-  name    = "_imap._tcp"
-  type    = "SRV"
+  name    = "charleywong.info"
+  content = "v=spf1 include:_mailcust.gandi.net ?all"
+  type    = "TXT"
   ttl     = 1
   proxied = false
+}
 
-  data {
+resource "cloudflare_dns_record" "charleywong-info-imap" {
+  zone_id  = data.cloudflare_zone.charleywong-info.id
+  name     = "_imap._tcp"
+  type     = "SRV"
+  ttl      = 1
+  proxied  = false
+  priority = 0
+
+  data = {
     target   = "."
+    port     = 0
     priority = 0
+    weight   = 0
   }
 }
 
-resource "cloudflare_record" "charleywong-info-imaps" {
-  zone_id = data.cloudflare_zone.charleywong-info.id
-  name    = "_imaps._tcp"
-  type    = "SRV"
-  ttl     = 1
-  proxied = false
+resource "cloudflare_dns_record" "charleywong-info-imaps" {
+  zone_id  = data.cloudflare_zone.charleywong-info.id
+  name     = "_imaps._tcp"
+  type     = "SRV"
+  ttl      = 1
+  proxied  = false
+  priority = 0
 
-  data {
+  data = {
     target   = "mail.gandi.net"
     port     = 993
     priority = 0
@@ -103,27 +108,31 @@ resource "cloudflare_record" "charleywong-info-imaps" {
   }
 }
 
-resource "cloudflare_record" "charleywong-info-pop3" {
-  zone_id = data.cloudflare_zone.charleywong-info.id
-  name    = "_pop3._tcp"
-  type    = "SRV"
-  ttl     = 1
-  proxied = false
+resource "cloudflare_dns_record" "charleywong-info-pop3" {
+  zone_id  = data.cloudflare_zone.charleywong-info.id
+  name     = "_pop3._tcp"
+  type     = "SRV"
+  ttl      = 1
+  proxied  = false
+  priority = 0
 
-  data {
+  data = {
     target   = "."
+    port     = 0
     priority = 0
+    weight   = 0
   }
 }
 
-resource "cloudflare_record" "charleywong-info-pop3s" {
-  zone_id = data.cloudflare_zone.charleywong-info.id
-  name    = "_pop3s._tcp"
-  type    = "SRV"
-  ttl     = 1
-  proxied = false
+resource "cloudflare_dns_record" "charleywong-info-pop3s" {
+  zone_id  = data.cloudflare_zone.charleywong-info.id
+  name     = "_pop3s._tcp"
+  type     = "SRV"
+  ttl      = 1
+  proxied  = false
+  priority = 10
 
-  data {
+  data = {
     target   = "mail.gandi.net"
     port     = 995
     priority = 10
@@ -131,14 +140,15 @@ resource "cloudflare_record" "charleywong-info-pop3s" {
   }
 }
 
-resource "cloudflare_record" "charleywong-info-submission" {
-  zone_id = data.cloudflare_zone.charleywong-info.id
-  name    = "_submission._tcp"
-  type    = "SRV"
-  ttl     = 1
-  proxied = false
+resource "cloudflare_dns_record" "charleywong-info-submission" {
+  zone_id  = data.cloudflare_zone.charleywong-info.id
+  name     = "_submission._tcp"
+  type     = "SRV"
+  ttl      = 1
+  proxied  = false
+  priority = 0
 
-  data {
+  data = {
     target   = "mail.gandi.net"
     port     = 465
     priority = 0
@@ -147,30 +157,106 @@ resource "cloudflare_record" "charleywong-info-submission" {
 }
 
 
-resource "cloudflare_record" "charleywong-info" {
+resource "cloudflare_dns_record" "charleywong-info" {
   zone_id = data.cloudflare_zone.charleywong-info.id
   name    = "@"
-  value   = aws_apigatewayv2_domain_name.charleywong-info.domain_name_configuration[0].target_domain_name
+  content = aws_apigatewayv2_domain_name.charleywong-info.domain_name_configuration[0].target_domain_name
   type    = "CNAME"
   ttl     = 1
   proxied = true
 }
 
-resource "cloudflare_record" "master-charleywong-info" {
+resource "cloudflare_dns_record" "master-charleywong-info" {
   zone_id = data.cloudflare_zone.charleywong-info.id
   name    = "master"
-  value   = aws_apigatewayv2_domain_name.master-charleywong-info.domain_name_configuration[0].target_domain_name
+  content = aws_apigatewayv2_domain_name.master-charleywong-info.domain_name_configuration[0].target_domain_name
   type    = "CNAME"
   ttl     = 1
   proxied = true
 }
 
-resource "cloudflare_record" "charleywong-info-google-site-verification" {
-  zone_id         = data.cloudflare_zone.charleywong-info.id
-  name            = "charleywong.info"
-  value           = "google-site-verification=TFGkVTRD6zOXMvG2noli7AlHKZXiMIi9JmvSk1dD6S8"
-  type            = "TXT"
-  ttl             = 1
-  allow_overwrite = false
-  proxied         = false
+resource "cloudflare_dns_record" "charleywong-info-google-site-verification" {
+  zone_id = data.cloudflare_zone.charleywong-info.id
+  name    = "charleywong.info"
+  content = "google-site-verification=TFGkVTRD6zOXMvG2noli7AlHKZXiMIi9JmvSk1dD6S8"
+  type    = "TXT"
+  ttl     = 1
+  proxied = false
+}
+
+# cloudflare provider v5 renamed cloudflare_record to cloudflare_dns_record.
+# These moved blocks can be removed once applied.
+moved {
+  from = cloudflare_record.charleywong
+  to   = cloudflare_dns_record.charleywong
+}
+
+moved {
+  from = cloudflare_record.charleywong-master
+  to   = cloudflare_dns_record.charleywong-master
+}
+
+moved {
+  from = cloudflare_record.charleywong-dev-A
+  to   = cloudflare_dns_record.charleywong-dev-A
+}
+
+moved {
+  from = cloudflare_record.charleywong-dev-AAAA
+  to   = cloudflare_dns_record.charleywong-dev-AAAA
+}
+
+moved {
+  from = cloudflare_record.charleywong-info-mx10
+  to   = cloudflare_dns_record.charleywong-info-mx10
+}
+
+moved {
+  from = cloudflare_record.charleywong-info-mx50
+  to   = cloudflare_dns_record.charleywong-info-mx50
+}
+
+moved {
+  from = cloudflare_record.charleywong-info-spf
+  to   = cloudflare_dns_record.charleywong-info-spf
+}
+
+moved {
+  from = cloudflare_record.charleywong-info-imap
+  to   = cloudflare_dns_record.charleywong-info-imap
+}
+
+moved {
+  from = cloudflare_record.charleywong-info-imaps
+  to   = cloudflare_dns_record.charleywong-info-imaps
+}
+
+moved {
+  from = cloudflare_record.charleywong-info-pop3
+  to   = cloudflare_dns_record.charleywong-info-pop3
+}
+
+moved {
+  from = cloudflare_record.charleywong-info-pop3s
+  to   = cloudflare_dns_record.charleywong-info-pop3s
+}
+
+moved {
+  from = cloudflare_record.charleywong-info-submission
+  to   = cloudflare_dns_record.charleywong-info-submission
+}
+
+moved {
+  from = cloudflare_record.charleywong-info
+  to   = cloudflare_dns_record.charleywong-info
+}
+
+moved {
+  from = cloudflare_record.master-charleywong-info
+  to   = cloudflare_dns_record.master-charleywong-info
+}
+
+moved {
+  from = cloudflare_record.charleywong-info-google-site-verification
+  to   = cloudflare_dns_record.charleywong-info-google-site-verification
 }

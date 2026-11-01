@@ -22,24 +22,30 @@ resource "aws_acm_certificate" "charleywong-info" {
   }
 }
 
-resource "cloudflare_record" "charleywong-info-aws-acm" {
+resource "cloudflare_dns_record" "charleywong-info-aws-acm" {
   for_each = {
     for dvo in aws_acm_certificate.charleywong-info.domain_validation_options : dvo.domain_name => {
-      name   = dvo.resource_record_name
-      record = dvo.resource_record_value
+      name   = trimsuffix(dvo.resource_record_name, ".")
+      record = trimsuffix(dvo.resource_record_value, ".")
       type   = dvo.resource_record_type
     }
   }
 
-  allow_overwrite = true
-  zone_id         = data.cloudflare_zone.charleywong-info.id
-  name            = each.value.name
-  value           = each.value.record
-  type            = each.value.type
-  ttl             = 1
+  zone_id = data.cloudflare_zone.charleywong-info.id
+  name    = each.value.name
+  content = each.value.record
+  type    = each.value.type
+  ttl     = 1
 }
 
 resource "aws_acm_certificate_validation" "charleywong-info" {
   certificate_arn         = aws_acm_certificate.charleywong-info.arn
-  validation_record_fqdns = [for record in cloudflare_record.charleywong-info-aws-acm : record.hostname]
+  validation_record_fqdns = [for record in cloudflare_dns_record.charleywong-info-aws-acm : record.name]
+}
+
+# cloudflare provider v5 renamed cloudflare_record to cloudflare_dns_record.
+# These moved blocks can be removed once applied.
+moved {
+  from = cloudflare_record.charleywong-info-aws-acm
+  to   = cloudflare_dns_record.charleywong-info-aws-acm
 }
