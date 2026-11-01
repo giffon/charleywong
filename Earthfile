@@ -272,7 +272,10 @@ node-modules-dev:
 
 dts2hx:
     FROM +node-modules-dev
-    RUN npx dts2hx @types/node cross-fetch @types/chrome @types/which-polygon abort-controller fastify sitemap nroonga --noLibWrap --useSystemHaxe --output lib/dts2hx
+    # DEBUG: capture dts2hx output to a file to diagnose CI-only exit 137
+    RUN free -m; ulimit -a; \
+        npx dts2hx @types/node cross-fetch @types/chrome @types/which-polygon abort-controller fastify sitemap nroonga --noLibWrap --useSystemHaxe --output lib/dts2hx > /tmp/dts2hx.log 2>&1; \
+        code=$?; echo "dts2hx exit=$code"; grep -v "Error: \[TypeScript" /tmp/dts2hx.log | tail -n 50; grep -c "Error: \[TypeScript" /tmp/dts2hx.log; free -m; exit $code
     RUN find lib/dts2hx -name "*.hx" -exec sed -i s/ajv.lib.ajv.[A-Za-z0-9]*/Dynamic/g {} \;
     # Remove the incorrect numbers of type params errors
     RUN perl -i -pe 's/FastifyServerOptions(?!<[^,>]+,[^,>]+>)(<.+?>)?/Dynamic/g' lib/dts2hx/fastify/FastifyServerOptions.hx
