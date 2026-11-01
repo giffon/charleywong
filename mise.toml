@@ -4,6 +4,7 @@ node = "24"
 "npm:yarn" = "1.22.22"
 aws-cli = { version = "2", symlink_bins = "true" }
 wrangler = { version = "4", allow_builds = ["esbuild", "sharp", "workerd"] }
+cloudflare-cf = "latest"
 opentofu = "1.13.2"
 
 # The project uses lix to manage the Haxe compiler and libraries.

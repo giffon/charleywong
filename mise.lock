@@ -31,6 +31,12 @@ url = "https://awscli.amazonaws.com/AWSCLIV2-2.38.6.pkg"
 checksum = "sha256:0c67ccc431fac778898283fda62a9b0d6fa7fa4184a0e990cb6a7b7ec2cde333"
 url = "https://awscli.amazonaws.com/AWSCLIV2-2.38.6.pkg"
 
+[[tools.cloudflare-cf]]
+version = "0.15.0"
+aube = { path = ".mise/locks/cloudflare-cf/0.15.0", digest = "sha256:00381c26a143a920621c31c0e5eb8475298f0b2babed03129b7319f94be481d4" }
+backend = "npm:cf"
+specifiers = ["latest"]
+
 [[tools.earthly]]
 version = "0.8.16"
 backend = "aqua:earthly/earthly"
