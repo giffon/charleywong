@@ -3,7 +3,6 @@ package charleywong;
 import sys.FileSystem;
 import CrossFetch.fetch;
 import node.url.URLSearchParams;
-import js.npm.nodejieba.Nodejieba;
 import js.lib.Promise;
 import js.npm.jimp.Jimp;
 import js.node.Buffer;
@@ -19,7 +18,6 @@ import haxe.io.Path;
 import charleywong.views.*;
 import js.Node.*;
 import charleywong.UrlExtractors.*;
-import charleywong.groonga.CommandResult;
 using charleywong.EntityTools;
 using charleywong.ReplyTools;
 using charleywong.PromiseTools;
@@ -219,27 +217,8 @@ class ServerMain {
             );
     }
 
-    static function search(query:String, tags:Array<String>):Array<Entity> {
-        return groonga(query, tags);
-    }
-
-    static function groonga(query:String, tags:Array<String>):Array<Entity> {
-        final cut = Nodejieba.cutHMM(query);
-        // trace(cut);
-        final r:SelectResultBody = entityIndex.groonga.commandSync("select", {
-            table: "Entity",
-            match_columns: "name * 3 || tags * 2 || meta",
-            query: cut.join(" "),
-            output_columns: "_key",
-            limit: 10000,
-            sort_keys: "-_score",
-        });
-        return [
-            for (record in r.searchResult.records)
-            entityIndex.entitiesOfId[record[0]]
-        ]
-            .filter(e -> e.searchable())
-            .filter(e -> tags.foreach(t -> e.tags.exists(tid -> tid.id.toLowerCase() == t)));
+    static function search(query:String):Array<Entity> {
+        return entityIndex.searchIndex.search(query);
     }
 
     static function searchHandler(req:Request, reply:Reply):Promise<Dynamic> {
@@ -253,7 +232,7 @@ class ServerMain {
         final query:String = req.url.substr("/search/".length).urlDecode();
         if (query.endsWith(".json")) {
             final query = query.substr(0, -".json".length);
-            return Promise.resolve(search(query, []).map(e -> e.fullInfo()));
+            return Promise.resolve(search(query).map(e -> e.fullInfo()));
         }
         switch (query.trim().toLowerCase()) {
             case "月餅" | "mooncake":
@@ -263,7 +242,7 @@ class ServerMain {
             case _:
                 //pass
         }
-        final entities = search(query, []);
+        final entities = search(query);
         final slug = query.urlEncode();
         return Promise.resolve(
             reply
@@ -853,84 +832,65 @@ class ServerMain {
         Site.useTailwindCdn = isMain;
         Site.countEntities = () -> entityIndex.entities.filter(e -> e.posts.length > 0).count();
         final opts:Dynamic = {};
-        if (Sys.getEnv("AWS_LAMBDA_FUNCTION_NAME") != null) {
-            opts.trustProxy = true;
-            app = Fastify.call(opts);
-            initServer();
-            final proxy:(event:Dynamic, context:Dynamic)->js.lib.Promise<Dynamic> = require('@fastify/aws-lambda')(app, {
-                binaryMimeTypes: [
-                    "image/png",
-                    "image/jpeg",
-                    "image/gif",
-                    "image/bmp",
-                    "image/webp",
-                    "image/x-icon",
-                ],
-            });
-            // Node.js 24 Lambda runtime rejects callback-based handlers (3 params),
-            // so expose a 2-param handler that returns the proxy's promise.
-            js.Node.exports.handler = (event:Dynamic, context:Dynamic) -> proxy(event, context);
-        } else {
-            final watcher = js.npm.chokidar.Chokidar.watch(dataDirectory,{
-                persistent: true,
-                ignoreInitial: true,
-            });
-            watcher.on("add", function(path:String) {
-                Sys.println('detected add: $path');
-                entityIndex.entities[path] = try {
-                    Json.parse(File.getContent(path));
-                } catch (e:Dynamic) {
-                    trace(e);
-                    return;
-                }
-                entityIndex.invalidate();
-            });
-            watcher.on("change", function(path:String) {
-                Sys.println('detected change: $path');
-                final entity = entityIndex.entities[path] = try {
-                    Json.parse(File.getContent(path));
-                } catch (e:Dynamic) {
-                    trace(e);
-                    return;
-                }
-                geocode(entity)
-                    .then(_ -> getFullMeta(entity))
-                    .then(_ -> entityIndex.invalidate());
-            });
-            watcher.on("unlink", function(path:String) {
-                Sys.println('detected unlink: $path');
-                entityIndex.entities.remove(path);
-                entityIndex.invalidate();
-            });
+        final watcher = js.npm.chokidar.Chokidar.watch(dataDirectory,{
+            persistent: true,
+            ignoreInitial: true,
+        });
+        watcher.on("add", function(path:String) {
+            Sys.println('detected add: $path');
+            entityIndex.entities[path] = try {
+                Json.parse(File.getContent(path));
+            } catch (e:Dynamic) {
+                trace(e);
+                return;
+            }
+            entityIndex.invalidate();
+        });
+        watcher.on("change", function(path:String) {
+            Sys.println('detected change: $path');
+            final entity = entityIndex.entities[path] = try {
+                Json.parse(File.getContent(path));
+            } catch (e:Dynamic) {
+                trace(e);
+                return;
+            }
+            geocode(entity)
+                .then(_ -> getFullMeta(entity))
+                .then(_ -> entityIndex.invalidate());
+        });
+        watcher.on("unlink", function(path:String) {
+            Sys.println('detected unlink: $path');
+            entityIndex.entities.remove(path);
+            entityIndex.invalidate();
+        });
 
-            app = Fastify.call(opts);
-            initServer();
-            app.post("/", post);
-            app.listen({
-                port: 80,
-                host: "0.0.0.0"
-            });
+        app = Fastify.call(opts);
+        initServer();
+        app.post("/", post);
+        app.listen({
+            port: 80,
+            host: "0.0.0.0"
+        });
 
-            Cloudflared.getHostname("http://cloudflared:44871/metrics")
-                .then(hostname -> {
-                    Sys.println(hostname);
-                })
-                .catchError(err -> {
-                    trace(err);
-                    Sys.println('http://localhost');
-                })
-                .then(_ -> {
-                    [
-                        for (e in entityIndex.entities)
-                        () -> geocode(e)
-                    ].inSequence();
-                })
-                .then(_ -> {
-                    [
-                        for (e in entityIndex.entities)
-                        () -> getFullMeta(e)
-                    ].inSequence();
-                });
-        }
+        Cloudflared.getHostname("http://cloudflared:44871/metrics")
+            .then(hostname -> {
+                Sys.println(hostname);
+            })
+            .catchError(err -> {
+                trace(err);
+                Sys.println('http://localhost');
+            })
+            .then(_ -> {
+                [
+                    for (e in entityIndex.entities)
+                    () -> geocode(e)
+                ].inSequence();
+            })
+            .then(_ -> {
+                [
+                    for (e in entityIndex.entities)
+                    () -> getFullMeta(e)
+                ].inSequence();
+            });
     }
 }

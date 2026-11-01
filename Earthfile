@@ -77,7 +77,6 @@ devcontainer-base:
             nodejs=$NODE_MAJOR.* \
         && echo 'eval "$(direnv hook bash)"' >> /etc/bash.bashrc \
         && add-apt-repository -y universe \
-        && apt-get install -y groonga libgroonga-dev groonga-bin groonga-tokenizer-mecab groonga-token-filter-stem groonga-normalizer-mysql \
         && add-apt-repository -y ppa:git-core/ppa \
         && apt-get install -y git \
         && npm config --global set update-notifier false \
@@ -255,8 +254,6 @@ node-modules-prod:
     WORKDIR /workspace
     COPY .haxerc package.json yarn.lock .
     COPY +lix-download/haxe "$HAXESHIM_ROOT"
-    # nodejieba's prebuilt binaries require a newer glibc than $UBUNTU_RELEASE has
-    ENV npm_config_build_from_source=nodejieba
     RUN yarn --production
     SAVE ARTIFACT node_modules
     SAVE IMAGE --cache-hint
@@ -270,7 +267,7 @@ node-modules-dev:
 dts2hx:
     FROM +node-modules-dev
     # dts2hx prints thousands of TypeScript parse errors that seem to get the step killed in CI; only show the log on failure
-    RUN npx dts2hx @types/node cross-fetch @types/chrome @types/which-polygon abort-controller fastify sitemap nroonga --noLibWrap --useSystemHaxe --output lib/dts2hx > /tmp/dts2hx.log 2>&1 || (cat /tmp/dts2hx.log; exit 1)
+    RUN npx dts2hx @types/node cross-fetch @types/chrome @types/which-polygon abort-controller fastify sitemap --noLibWrap --useSystemHaxe --output lib/dts2hx > /tmp/dts2hx.log 2>&1 || (cat /tmp/dts2hx.log; exit 1)
     RUN find lib/dts2hx -name "*.hx" -exec sed -i s/ajv.lib.ajv.[A-Za-z0-9]*/Dynamic/g {} \;
     # Remove the incorrect numbers of type params errors
     RUN perl -i -pe 's/FastifyServerOptions(?!<[^,>]+,[^,>]+>)(<.+?>)?/Dynamic/g' lib/dts2hx/fastify/FastifyServerOptions.hx
@@ -278,27 +275,6 @@ dts2hx:
     RUN perl -i -pe 's/FastifyHttpOptions(?!<[^,>]+,[^,>]+>)(<.+?>)?/Dynamic/g' lib/dts2hx/fastify/FastifyHttpOptions.hx
     SAVE ARTIFACT lib/dts2hx AS LOCAL lib/dts2hx
     SAVE IMAGE --cache-hint
-
-entity-index-exporter:
-    FROM +devcontainer
-    COPY static static
-    COPY lib/hxnodelibs lib/hxnodelibs
-    COPY haxe_libraries haxe_libraries
-    COPY src src
-    COPY .haxerc exportEntityIndex.hxml .
-    RUN haxe exportEntityIndex.hxml
-    SAVE ARTIFACT exportEntityIndex.js
-
-entity-index:
-    FROM +devcontainer
-    COPY static static
-    COPY +hkbase-directory/* .
-    COPY +entity-index-exporter/exportEntityIndex.js .
-    COPY data/entity data/entity
-    RUN mkdir -p data/groonga
-    RUN node exportEntityIndex.js
-    RUN chmod a+r data/groonga/*
-    SAVE ARTIFACT data/groonga groonga
 
 hkbase-directory:
     FROM +devcontainer
@@ -358,7 +334,6 @@ exportSpreadsheet.js:
     COPY src src
     COPY static static
     COPY .haxerc exportSpreadsheet.hxml .
-    COPY +entity-index/groonga data/groonga
     COPY --keep-ts data/entity data/entity
     ARG HAXE_ARGS
     RUN --mount=type=secret,id=+secrets/envrc,target=.envrc \
@@ -381,12 +356,6 @@ exportSpreadsheet:
             cmake \
             autoconf \
             libtool \
-            groonga \
-            libgroonga-dev \
-            groonga-bin \
-            groonga-tokenizer-mecab \
-            groonga-token-filter-stem \
-            groonga-normalizer-mysql \
         #
         # Clean up
         && apt-get autoremove -y \
@@ -399,7 +368,6 @@ exportSpreadsheet:
     COPY +awscli/aws /aws
     RUN /aws/install
     # COPY +node-modules-dev/node_modules node_modules
-    COPY +entity-index/groonga data/groonga
     COPY +exportSpreadsheet.js/exportSpreadsheet.js .
     COPY static static
     COPY --keep-ts data/entity data/entity
