@@ -2,6 +2,35 @@
 
 lockfile_version = 3
 
+[[tools.aws-cli]]
+version = "2.38.6"
+backend = "aqua:aws/aws-cli"
+specifiers = ["2"]
+
+[tools.aws-cli."platforms.linux-arm64"]
+checksum = "sha256:a9f355189a5a25834c015fc07d65e1834f0dbbee1d9bd1c418176f43a463067f"
+url = "https://awscli.amazonaws.com/awscli-exe-linux-aarch64-2.38.6.zip"
+
+[tools.aws-cli."platforms.linux-arm64-musl"]
+checksum = "sha256:a9f355189a5a25834c015fc07d65e1834f0dbbee1d9bd1c418176f43a463067f"
+url = "https://awscli.amazonaws.com/awscli-exe-linux-aarch64-2.38.6.zip"
+
+[tools.aws-cli."platforms.linux-x64"]
+checksum = "sha256:66974301c11f8116a6cb96bf72acae57453734b61fa8dd3f56422de9eaab0e42"
+url = "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.38.6.zip"
+
+[tools.aws-cli."platforms.linux-x64-musl"]
+checksum = "sha256:66974301c11f8116a6cb96bf72acae57453734b61fa8dd3f56422de9eaab0e42"
+url = "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.38.6.zip"
+
+[tools.aws-cli."platforms.macos-arm64"]
+checksum = "sha256:0c67ccc431fac778898283fda62a9b0d6fa7fa4184a0e990cb6a7b7ec2cde333"
+url = "https://awscli.amazonaws.com/AWSCLIV2-2.38.6.pkg"
+
+[tools.aws-cli."platforms.macos-x64"]
+checksum = "sha256:0c67ccc431fac778898283fda62a9b0d6fa7fa4184a0e990cb6a7b7ec2cde333"
+url = "https://awscli.amazonaws.com/AWSCLIV2-2.38.6.pkg"
+
 [[tools.earthly]]
 version = "0.8.16"
 backend = "aqua:earthly/earthly"
@@ -126,3 +155,12 @@ url = "https://releases.hashicorp.com/terraform/1.4.5/terraform_1.4.5_darwin_amd
 [tools.terraform."platforms.windows-x64"]
 checksum = "sha256:4d6c831225e3ca058b4665cd7ea144851963427413f61f00acc35eb635f51055"
 url = "https://releases.hashicorp.com/terraform/1.4.5/terraform_1.4.5_windows_amd64.zip"
+
+[[tools.wrangler]]
+version = "4.156.0"
+aube = { path = ".mise/locks/wrangler/4.156.0~d1f80b8e", digest = "sha256:710fd8fc68b4eea0c322297f25c3af570b7907e9b060132b0df0e0262d578127" }
+backend = "npm:wrangler"
+specifiers = ["4"]
+
+[tools.wrangler.options]
+allow_builds = '["esbuild", "sharp", "workerd"]'

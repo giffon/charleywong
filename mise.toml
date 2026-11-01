@@ -1,11 +1,13 @@
 [tools]
 earthly = "0.8.16"
 node = "24"
+"npm:yarn" = "1.22.22"
+aws-cli = { version = "2", symlink_bins = "true" }
+wrangler = { version = "4", allow_builds = ["esbuild", "sharp", "workerd"] }
 
 # The project uses lix to manage the Haxe compiler and libraries.
 # The lix tool itself is installed via npm.
 "npm:lix" = "latest"
-"npm:yarn" = "1.22.22"
 
 [settings]
 idiomatic_version_file_enable_tools = ["terraform"]
