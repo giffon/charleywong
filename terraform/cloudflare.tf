@@ -9,11 +9,12 @@ data "cloudflare_zone" "charleywong-info" {
   }
 }
 
+# The legacy hostnames, redirected by cloudflare_ruleset.giffon-io-redirect. The addresses are placeholders.
 resource "cloudflare_dns_record" "charleywong" {
   zone_id = data.cloudflare_zone.giffonio.id
   name    = "charleywong"
-  content = aws_api_gateway_domain_name.charleywong-giffon-io.regional_domain_name
-  type    = "CNAME"
+  content = "100::"
+  type    = "AAAA"
   ttl     = 1
   proxied = true
 }
@@ -21,8 +22,8 @@ resource "cloudflare_dns_record" "charleywong" {
 resource "cloudflare_dns_record" "charleywong-master" {
   zone_id = data.cloudflare_zone.giffonio.id
   name    = "charleywong-master"
-  content = aws_api_gateway_domain_name.master-charleywong-giffon-io.regional_domain_name
-  type    = "CNAME"
+  content = "100::"
+  type    = "AAAA"
   ttl     = 1
   proxied = true
 }
@@ -157,11 +158,12 @@ resource "cloudflare_dns_record" "charleywong-info-submission" {
 }
 
 
+# Served by the Worker routes of wrangler.jsonc. The addresses are placeholders.
 resource "cloudflare_dns_record" "charleywong-info" {
   zone_id = data.cloudflare_zone.charleywong-info.id
   name    = "@"
-  content = aws_apigatewayv2_domain_name.charleywong-info.domain_name_configuration[0].target_domain_name
-  type    = "CNAME"
+  content = "100::"
+  type    = "AAAA"
   ttl     = 1
   proxied = true
 }
@@ -169,8 +171,18 @@ resource "cloudflare_dns_record" "charleywong-info" {
 resource "cloudflare_dns_record" "master-charleywong-info" {
   zone_id = data.cloudflare_zone.charleywong-info.id
   name    = "master"
-  content = aws_apigatewayv2_domain_name.master-charleywong-info.domain_name_configuration[0].target_domain_name
-  type    = "CNAME"
+  content = "100::"
+  type    = "AAAA"
+  ttl     = 1
+  proxied = true
+}
+
+# Served by the Worker route of img/wrangler.jsonc. The address is a placeholder.
+resource "cloudflare_dns_record" "img-charleywong-info" {
+  zone_id = data.cloudflare_zone.charleywong-info.id
+  name    = "img"
+  content = "100::"
+  type    = "AAAA"
   ttl     = 1
   proxied = true
 }
@@ -184,29 +196,41 @@ resource "cloudflare_dns_record" "charleywong-info-google-site-verification" {
   proxied = false
 }
 
-# Cloudflare doesn't cache HTML/JSON by default (cf-cache-status: DYNAMIC),
-# so every page view hits API Gateway + Lambda even though the origin sends Cache-Control.
-# Make everything cacheable and let the origin's Cache-Control decide the TTLs.
-resource "cloudflare_ruleset" "charleywong-info-cache" {
-  zone_id = data.cloudflare_zone.charleywong-info.id
+resource "cloudflare_ruleset" "giffon-io-redirect" {
+  zone_id = data.cloudflare_zone.giffonio.id
   name    = "default"
   kind    = "zone"
-  phase   = "http_request_cache_settings"
+  phase   = "http_request_dynamic_redirect"
   rules = [
     {
-      ref         = "cache_everything"
-      description = "Cache all responses, respecting origin Cache-Control"
-      expression  = "(http.host in {\"charleywong.info\" \"master.charleywong.info\"})"
-      action      = "set_cache_settings"
+      ref         = "charleywong"
+      description = "charleywong.giffon.io has moved to charleywong.info"
+      expression  = "(http.host eq \"charleywong.giffon.io\")"
+      action      = "redirect"
       action_parameters = {
-        cache = true
-        edge_ttl = {
-          mode = "respect_origin"
-        }
-        browser_ttl = {
-          mode = "respect_origin"
+        from_value = {
+          status_code = 301
+          target_url = {
+            expression = "concat(\"https://charleywong.info\", http.request.uri.path)"
+          }
+          preserve_query_string = true
         }
       }
-    }
+    },
+    {
+      ref         = "charleywong-master"
+      description = "charleywong-master.giffon.io has moved to master.charleywong.info"
+      expression  = "(http.host eq \"charleywong-master.giffon.io\")"
+      action      = "redirect"
+      action_parameters = {
+        from_value = {
+          status_code = 301
+          target_url = {
+            expression = "concat(\"https://master.charleywong.info\", http.request.uri.path)"
+          }
+          preserve_query_string = true
+        }
+      }
+    },
   ]
 }

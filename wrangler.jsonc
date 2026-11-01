@@ -2,9 +2,12 @@
 // Static assets (dist/site) are served directly, which is free and unlimited.
 // The Worker (worker/index.js) only runs for requests that don't match an asset,
 // e.g. /search/*, /list/:name/:ids, /proxy/image, aliases and 404.
+// Deploy with `wrangler deploy --env master` (charleywong-master) or `--env production` (charleywong-production).
+// The routes need proxied DNS records of the hostnames, which are managed in terraform/cloudflare.tf.
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "charleywong-master",
+  "name": "charleywong",
+  "account_id": "f184c98e4ba41baaf6a081d9d6e599e6",
   "main": "worker/index.js",
   "compatibility_date": "2026-10-01",
   "assets": {
@@ -16,13 +19,21 @@
   "rules": [
     { "type": "Text", "globs": ["**/*.txt"], "fallthrough": true }
   ],
-  "workers_dev": true,
+  "workers_dev": false,
+  "preview_urls": false,
   "observability": {
     "enabled": true
   },
   "env": {
+    "master": {
+      "routes": [
+        { "pattern": "master.charleywong.info/*", "zone_name": "charleywong.info" }
+      ]
+    },
     "production": {
-      "name": "charleywong-production"
+      "routes": [
+        { "pattern": "charleywong.info/*", "zone_name": "charleywong.info" }
+      ]
     }
   }
 }

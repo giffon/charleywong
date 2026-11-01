@@ -4,9 +4,6 @@ VERSION 0.6
 ARG UBUNTU_RELEASE=jammy
 FROM mcr.microsoft.com/vscode/devcontainers/base:0-$UBUNTU_RELEASE
 ARG DEVCONTAINER_IMAGE_NAME_DEFAULT=ghcr.io/giffon/charleywong_devcontainer_workspace
-ARG LAMBDA_IMAGE_REGISTRY=932878902707.dkr.ecr.us-east-1.amazonaws.com
-ARG LAMBDA_IMAGE_NAME_MASTER=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-master
-ARG LAMBDA_IMAGE_NAME_PRODUCTION=$LAMBDA_IMAGE_REGISTRY/serverless-charleywong-production
 ARG NODE_MAJOR=24
 
 ARG USERNAME=vscode
@@ -510,14 +507,29 @@ worker.js:
     RUN mkdir -p worker && haxe worker.hxml
     SAVE ARTIFACT worker/charleywong.js
 
+wrangler:
+    FROM +devcontainer
+    ARG VERSION=4.156.0 # https://github.com/cloudflare/workers-sdk/releases
+    RUN npm install -g "wrangler@$VERSION"
+
 # The Worker with its static assets and data, ready for `wrangler deploy`
 worker:
-    FROM +devcontainer
+    FROM +wrangler
     COPY wrangler.jsonc .
     COPY worker/index.js worker/
     COPY +worker.js/charleywong.js worker/
     COPY +static-site/site dist/site
     COPY +static-site/worker dist/worker
+
+# Deploy the site to Cloudflare, e.g. `earthly --secret-file envrc=.envrc +deploy --DEPLOY_STAGE=master`
+# .envrc needs CLOUDFLARE_API_TOKEN, and the GOOGLE_* variables for +hkbase-directory.
+deploy:
+    FROM +worker
+    ARG --required DEPLOY_STAGE
+    RUN --no-cache \
+        --mount=type=secret,id=+secrets/envrc,target=.envrc \
+        . ./.envrc \
+        && wrangler deploy --env "$DEPLOY_STAGE"
 
 profilePic.js:
     FROM +devcontainer
@@ -533,7 +545,7 @@ profilePic.js:
 # The existing pics are downloaded from PROFILE_PIC_ORIGIN, and only the missing ones are rendered.
 # Use --FORCE=true to re-render all of them, e.g. to pick up profile pic changes.
 profile-pics:
-    FROM +devcontainer
+    FROM +wrangler
     COPY static static
     COPY data/entity data/entity
     COPY +profilePic.js/profilePic.js .
@@ -548,6 +560,14 @@ profile-pics:
         fi
     SAVE ARTIFACT dist/img img
 
+# Deploy the profile pics to Cloudflare. They rarely change, so this isn't part of the CI.
+deploy-profile-pics:
+    FROM +profile-pics
+    RUN --no-cache \
+        --mount=type=secret,id=+secrets/envrc,target=.envrc \
+        . ./.envrc \
+        && cd img && wrangler deploy
+
 chrome-extension:
     FROM +devcontainer
     COPY haxe_libraries haxe_libraries
@@ -559,129 +579,9 @@ chrome-extension:
     RUN haxe chrome-extension.hxml
     SAVE ARTIFACT --keep-ts chrome/*.js AS LOCAL ./chrome/
 
-runtime:
-    FROM ubuntu:$UBUNTU_RELEASE
-
-    # Required for Node runtimes which use npm@8.6.0+ because
-    # by default npm writes logs under /home/.npm and Lambda fs is read-only
-    ENV NPM_CONFIG_CACHE=/tmp/.npm
-
-    ENV DEBIAN_FRONTEND=noninteractive
-
-    # deb.nodesource.com redirects to https, so install ca-certificates before adding the repo
-    RUN apt-get update \
-        && apt-get install -yq --no-install-recommends ca-certificates \
-        && rm -rf /var/lib/apt/lists/*
-
-    COPY +nodesource.gpg/nodesource.gpg /etc/apt/keyrings/nodesource.gpg
-    RUN echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
-
-    RUN apt-get update \
-        && apt-get install -yq --no-install-recommends \
-            curl \
-            groonga \
-            groonga-token-filter-stem \
-            nodejs=$NODE_MAJOR.* \
-        #
-        # Clean up
-        && apt-get autoremove -y \
-        && apt-get clean -y \
-        && rm -rf /var/lib/apt/lists/*
-    WORKDIR /workspace
-    SAVE IMAGE --cache-hint
-
-lambda-container:
-    FROM +runtime
-    # aws-lambda-ric 4+ loads the handler from LAMBDA_TASK_ROOT.
-    # Lambda sets it to /var/task (overriding any image ENV), so the code has to live there.
-    # The ENV is only for running the image outside Lambda (e.g. aws-lambda-rie).
-    ENV LAMBDA_TASK_ROOT=/var/task
-    WORKDIR $LAMBDA_TASK_ROOT
-    COPY +node-modules-prod/node_modules node_modules
-    COPY static static
-    COPY data data
-    COPY +entity-index/groonga data/groonga
-    # COPY +ybm/* ybm
-    COPY +hkbase-directory/* .
-    COPY +browser-script/* static
-    COPY +service-worker/* static
-    COPY +tailwind/* static/css
-    COPY +server-script/* .
-
-    ENTRYPOINT ["npx", "aws-lambda-ric"]
-    CMD ["index.handler"]
-    ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_NAME_MASTER
-    ARG LAMBDA_IMAGE_TAG=latest
-    SAVE IMAGE --push "$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG"
-
-aws-lambda-rie:
-    FROM +devcontainer
-    RUN curl -fsSL https://github.com/aws/aws-lambda-runtime-interface-emulator/releases/latest/download/aws-lambda-rie -o aws-lambda-rie \
-        && chmod +x aws-lambda-rie
-    SAVE ARTIFACT aws-lambda-rie
-
-lambda-container-rie:
-    ARG LAMBDA_IMAGE_TAG=latest
-    FROM +lambda-container --LAMBDA_IMAGE_TAG="$LAMBDA_IMAGE_TAG"
-    COPY +aws-lambda-rie/aws-lambda-rie /usr/local/bin/aws-lambda-rie
-    ENTRYPOINT ["aws-lambda-rie", "npx", "aws-lambda-ric"]
-    # setting ENTRYPOINT resets the CMD inherited from +lambda-container
-    CMD ["index.handler"]
-    ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_NAME_MASTER
-    SAVE IMAGE "${LAMBDA_IMAGE_NAME}:${LAMBDA_IMAGE_TAG}-rie"
-
-lambda-container-rebuild:
-    RUN --no-cache date +%Y%m%d%H%M%S | tee buildtime
-    BUILD \
-        --platform=linux/amd64 \
-        +lambda-container \
-        --LAMBDA_IMAGE_TAG="$(cat buildtime)"
-
-lambda-container-run:
-    LOCALLY
-    ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_NAME_MASTER
-    ARG LAMBDA_IMAGE_TAG=latest
-    WITH DOCKER --load=+lambda-container-rie
-        RUN docker run \
-            --rm \
-            -p 9000:8080 \
-            -e GOOGLE_CLIENT_EMAIL="$GOOGLE_CLIENT_EMAIL" \
-            -e GOOGLE_PRIVATE_KEY="$GOOGLE_PRIVATE_KEY" \
-            -e FACEBOOK_TOKEN="$FACEBOOK_TOKEN" \
-            "${LAMBDA_IMAGE_NAME}:${LAMBDA_IMAGE_TAG}-rie"
-    END
-
-deploy:
-    FROM +devcontainer
-    COPY serverless.yml .
-    ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_NAME_MASTER
-    ARG --required LAMBDA_IMAGE_TAG
-    ENV LAMBDA_IMAGE="$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG"
-    ARG --required DEPLOY_STAGE
-    RUN --no-cache \
-        --mount=type=secret,id=+secrets/envrc,target=.envrc \
-        . ./.envrc \
-        && npx serverless deploy --stage "${DEPLOY_STAGE}"
-
 ghcr-login:
     LOCALLY
     RUN echo "$GITHUB_CR_PAT" | docker login ghcr.io -u "$GITHUB_USERNAME" --password-stdin
-
-ecr-login:
-    LOCALLY
-    RUN aws ecr get-login-password | docker login --username AWS --password-stdin "$LAMBDA_IMAGE_REGISTRY"
-
-tail-logs:
-    FROM +devcontainer
-    COPY serverless.yml .
-    ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_NAME_MASTER
-    ARG LAMBDA_IMAGE_TAG=latest
-    ENV LAMBDA_IMAGE="$LAMBDA_IMAGE_NAME:$LAMBDA_IMAGE_TAG"
-    ARG DEPLOY_STAGE
-    RUN --no-cache \
-        --mount=type=secret,id=+secrets/envrc,target=.envrc \
-        . ./.envrc \
-        && npx serverless logs -t -f web --stage "${DEPLOY_STAGE}"
 
 waybackpy:
     FROM python:3.9
@@ -691,14 +591,6 @@ wayback-save:
     FROM +waybackpy
     ARG --required URL
     RUN waybackpy --save --url "$URL" --user_agent "charleywong"
-
-copy-image:
-    LOCALLY
-    ARG --required SRC
-    ARG --required DEST
-    RUN docker pull "$SRC"
-    RUN docker tag "$SRC" "$DEST"
-    RUN docker push "$DEST"
 
 syncFacebook.js:
     FROM +devcontainer

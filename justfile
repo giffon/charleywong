@@ -1,4 +1,4 @@
-# Where the static site links the entity profile pics to.
+# Where the static site links the entity profile pics to. Override with e.g. `just profile_pic_origin=https://... static-site`.
 profile_pic_origin := "https://img.charleywong.info"
 
 # List the recipes
@@ -32,19 +32,19 @@ search-dict: _static-site-js
     node staticSite.js dict
 
 # Render the static site into dist/site and the data of the Worker into dist/worker
-static-site origin=profile_pic_origin: _static-site-js
+static-site: _static-site-js
     [ -f HkbaseDirectory.json ] || {{just_executable()}} hkbase-directory
     [ -f data/search/jieba-dict.txt ] || node staticSite.js dict
-    node staticSite.js build --profile-pic-origin {{origin}}
+    node staticSite.js build --profile-pic-origin {{profile_pic_origin}}
 
 # Compile the Worker into worker/charleywong.js
 worker:
     haxe worker.hxml
 
-# Preview the static site and the Worker locally, using the profile pics of the live site
+# Preview the static site and the Worker locally
 # `wrangler dev` watches each asset with its own file descriptor. With ~20k assets, the fd numbers exceed
 # macOS's OPEN_MAX (10240), which makes every spawn fail with EBADF. Polling doesn't hold any fd.
-preview: (static-site "https://charleywong.info") worker
+preview: static-site worker
     CHOKIDAR_USEPOLLING=1 CHOKIDAR_INTERVAL=5000 wrangler dev
 
 # Render the missing entity profile pics into dist/img, e.g. `just profile-pics --force` or `just profile-pics <id>...`
