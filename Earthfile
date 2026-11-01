@@ -522,6 +522,11 @@ runtime:
 
 lambda-container:
     FROM +runtime
+    # aws-lambda-ric 4+ loads the handler from LAMBDA_TASK_ROOT.
+    # Lambda sets it to /var/task (overriding any image ENV), so the code has to live there.
+    # The ENV is only for running the image outside Lambda (e.g. aws-lambda-rie).
+    ENV LAMBDA_TASK_ROOT=/var/task
+    WORKDIR $LAMBDA_TASK_ROOT
     COPY +node-modules-prod/node_modules node_modules
     COPY static static
     COPY data data
@@ -533,8 +538,6 @@ lambda-container:
     COPY +tailwind/* static/css
     COPY +server-script/* .
 
-    # aws-lambda-ric 4+ loads the handler from LAMBDA_TASK_ROOT, which only the AWS base images set
-    ENV LAMBDA_TASK_ROOT=/workspace
     ENTRYPOINT ["npx", "aws-lambda-ric"]
     CMD ["index.handler"]
     ARG LAMBDA_IMAGE_NAME=$LAMBDA_IMAGE_NAME_MASTER
