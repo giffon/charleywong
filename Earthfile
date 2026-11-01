@@ -423,6 +423,9 @@ test-build:
     BUILD +chrome-extension
     BUILD +syncFacebook.js
     BUILD +git.js
+    BUILD +static-site.js
+    BUILD +worker.js
+    BUILD +profilePic.js
     # BUILD +exportSpreadsheet.js
 
 test:
@@ -468,6 +471,82 @@ server-script:
     COPY server.hxml .
     RUN haxe server.hxml
     SAVE ARTIFACT index.js
+
+static-site.js:
+    FROM +browser-script
+    COPY static static
+    # static resources are fingerprinted at compile time, so put the final ones in place before compiling
+    COPY +browser-script/browser.bundled.js static/
+    COPY +service-worker/serviceWorker.bundled.js static/
+    COPY +tailwind/tailwind.css static/css/tailwind.css
+    COPY staticSite.hxml .
+    RUN haxe staticSite.hxml
+    SAVE ARTIFACT staticSite.js
+
+# The words of jieba's dictionary that occur in the entity data, used by the search of the static site
+search-dict:
+    FROM +static-site.js
+    COPY +hkbase-directory/HkbaseDirectory.json .
+    COPY data/entity data/entity
+    RUN node staticSite.js dict
+    SAVE ARTIFACT data/search/jieba-dict.txt AS LOCAL data/search/jieba-dict.txt
+
+# The static site (site) and the data of the Worker (worker)
+static-site:
+    FROM +static-site.js
+    COPY +hkbase-directory/HkbaseDirectory.json .
+    COPY data/entity data/entity
+    COPY +search-dict/jieba-dict.txt data/search/jieba-dict.txt
+    ARG PROFILE_PIC_ORIGIN=https://img.charleywong.info
+    RUN node staticSite.js build --profile-pic-origin "$PROFILE_PIC_ORIGIN"
+    SAVE ARTIFACT dist/site site
+    SAVE ARTIFACT dist/worker worker
+
+worker.js:
+    FROM +devcontainer
+    COPY haxe_libraries haxe_libraries
+    COPY src src
+    COPY .haxerc worker.hxml .
+    RUN mkdir -p worker && haxe worker.hxml
+    SAVE ARTIFACT worker/charleywong.js
+
+# The Worker with its static assets and data, ready for `wrangler deploy`
+worker:
+    FROM +devcontainer
+    COPY wrangler.jsonc .
+    COPY worker/index.js worker/
+    COPY +worker.js/charleywong.js worker/
+    COPY +static-site/site dist/site
+    COPY +static-site/worker dist/worker
+
+profilePic.js:
+    FROM +devcontainer
+    COPY lib/hxnodelibs lib/hxnodelibs
+    COPY haxe_libraries haxe_libraries
+    COPY src src
+    COPY static static
+    COPY .haxerc profilePic.hxml .
+    RUN haxe profilePic.hxml
+    SAVE ARTIFACT profilePic.js
+
+# The entity profile pics (img), served by the assets-only Worker of img/wrangler.jsonc.
+# The existing pics are downloaded from PROFILE_PIC_ORIGIN, and only the missing ones are rendered.
+# Use --FORCE=true to re-render all of them, e.g. to pick up profile pic changes.
+profile-pics:
+    FROM +devcontainer
+    COPY static static
+    COPY data/entity data/entity
+    COPY +profilePic.js/profilePic.js .
+    COPY img/wrangler.jsonc img/
+    ARG PROFILE_PIC_ORIGIN=https://img.charleywong.info
+    ARG FORCE=false
+    RUN --no-cache \
+        if [ "$FORCE" = "true" ]; then \
+            node profilePic.js --force; \
+        else \
+            node profilePic.js --from "$PROFILE_PIC_ORIGIN"; \
+        fi
+    SAVE ARTIFACT dist/img img
 
 chrome-extension:
     FROM +devcontainer

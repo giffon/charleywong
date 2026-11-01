@@ -5,7 +5,7 @@ using charleywong.EntityTools;
 class EntityListView extends View {
     override public function title() return '${listName}名單';
     override public function description() return 'Charley Wong 和你查 ${listName}名單.';
-    override function canonical() return Path.join([ServerMain.domain, path]);
+    override function canonical() return Path.join([Site.domain, path]);
     override public function render() {
         return super.render();
     }
@@ -34,11 +34,11 @@ class EntityListView extends View {
     public var searchQuery(get, never):Null<String>;
     function get_searchQuery() return props.searchQuery;
 
-    function renderAreasLabel(area:String) return jsx('
+    static function renderAreasLabel(area:String) return jsx('
         <span key=${area} className="area">${area}</span>
     ');
 
-    function renderEntity(e:Entity) return jsx('
+    static public function renderEntity(e:Entity) return jsx('
         <li key=${e.id} className=${Tag.expend(e.tags).map(t -> "tag-" + t.id).join(" ")} >
             <a href=${'/${e.id}'}>${e.name.printAll()}</a>
             <span>${e.areas().map(renderAreasLabel)}</span>
@@ -53,7 +53,7 @@ class EntityListView extends View {
         for (e in entities)
         [
             '/${e.id}',
-            '/${e.id}/profile.png',
+            Site.profilePicUrl(e.id),
         ]
     ].fold((item, res:Array<String>)-> res.concat(item), super.prefetch());
 

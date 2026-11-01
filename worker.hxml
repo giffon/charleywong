@@ -1,0 +1,8 @@
+--js worker/charleywong.js
+charleywong.WorkerMain
+--library tink_core
+--library hxLINQ
+--class-path src
+--dce full
+-D worker
+-D no-deprecation-warnings

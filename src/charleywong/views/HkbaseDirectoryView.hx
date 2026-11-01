@@ -5,7 +5,7 @@ using charleywong.EntityTools;
 class HkbaseDirectoryView extends View {
     override public function title() return 'HKBASE企業名冊名單';
     override public function description() return 'Charley Wong 和你查 HKBASE企業名冊名單.';
-    override function canonical() return Path.join([ServerMain.domain, path]);
+    override function canonical() return Path.join([Site.domain, path]);
     override public function render() {
         return super.render();
     }
@@ -42,7 +42,7 @@ class HkbaseDirectoryView extends View {
         for (e in entities)
         [
             '/${e.id}',
-            '/${e.id}/profile.png',
+            Site.profilePicUrl(e.id),
         ]
     ].fold((item, res:Array<String>)-> res.concat(item), super.prefetch());
 

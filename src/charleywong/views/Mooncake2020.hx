@@ -875,7 +875,7 @@ class Mooncake2020 extends View {
     override public function title() return "黃金月餅攻略";
 
     override public function description() return "Charley Wong 和你查 整合出多間黃店月餅資訊. 傳統/冰皮/奶黃/純素, 仲有好多其他款. 持續更新中.";
-    override function canonical() return Path.join([ServerMain.domain, path]);
+    override function canonical() return Path.join([Site.domain, path]);
 
     static public final path = "page/mooncake2020";
 
@@ -884,7 +884,7 @@ class Mooncake2020 extends View {
             <meta name="twitter:card" content="summary_large_image" />
             ${super.ogMeta()}
             <meta property="og:type" content="website" />
-            <meta property="og:image" content=${Path.join([ServerMain.domain, R("/images/mooncake-meta.jpg")])} />
+            <meta property="og:image" content=${Path.join([Site.domain, R("/images/mooncake-meta.jpg")])} />
             <meta property="og:image:width" content="1200" />
             <meta property="og:image:height" content="630" />
         </Fragment>

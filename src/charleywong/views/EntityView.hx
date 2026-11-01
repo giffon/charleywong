@@ -8,7 +8,7 @@ import charleywong.UrlExtractors.*;
 class EntityView extends View {
     override public function title() return '${entity.name.printAll()}';
     override public function description() return 'Charley Wong 和你查 ${entity.name.printAll()}.';
-    override function canonical() return Path.join([ServerMain.domain, entity.id]);
+    override function canonical() return Path.join([Site.domain, entity.id]);
     override public function render() {
         return super.render();
     }
@@ -18,9 +18,9 @@ class EntityView extends View {
             <meta name="twitter:card" content="summary_large_image" />
             ${super.ogMeta()}
             <meta property="og:type" content="website" />
-            <meta property="og:image" content=${Path.join([ServerMain.domain, picUrl()])} />
-            <meta property="og:image:width" content=${ServerMain.entityProfilePicWidth} />
-            <meta property="og:image:height" content=${ServerMain.entityProfilePicHeight} />
+            <meta property="og:image" content=${Site.absoluteProfilePicUrl(entity.id)} />
+            <meta property="og:image:width" content=${Site.entityProfilePicWidth} />
+            <meta property="og:image:height" content=${Site.entityProfilePicHeight} />
         </Fragment>
     ');
 
@@ -204,7 +204,7 @@ class EntityView extends View {
         ');
     }
 
-    function picUrl() return '/${entity.id}/profile.png';
+    function picUrl() return Site.profilePicUrl(entity.id);
 
     function renderName() {
         return entity.name.mapAll((lang, val) -> {
@@ -216,9 +216,8 @@ class EntityView extends View {
 
     override function bodyContent() {
         var jsonHref = '${entity.id}.json';
-        var picUrl = '/${entity.id}/profile.png';
         var profilePicStyle = {
-            backgroundImage: 'url("${picUrl}")',
+            backgroundImage: 'url("${picUrl()}")',
         };
         var logoHeaderStyle = {
             backgroundImage: 'url("${R("/images/charley-600-w.png")}")',

@@ -1,0 +1,28 @@
+// Cloudflare Worker serving charleywong.info.
+// Static assets (dist/site) are served directly, which is free and unlimited.
+// The Worker (worker/index.js) only runs for requests that don't match an asset,
+// e.g. /search/*, /list/:name/:ids, /proxy/image, aliases and 404.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "charleywong-master",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "dist/site",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none"
+  },
+  "rules": [
+    { "type": "Text", "globs": ["**/*.txt"], "fallthrough": true }
+  ],
+  "workers_dev": true,
+  "observability": {
+    "enabled": true
+  },
+  "env": {
+    "production": {
+      "name": "charleywong-production"
+    }
+  }
+}

@@ -1,6 +1,7 @@
 .haxelib
 *.js
 !static/trackExceptions.js
+!/worker/index.js
 *.py
 *.js.map
 flexsearch.json
@@ -8,6 +9,7 @@ flexsearch.json
 YellowBlueMap.json
 YellowBlueMap_not-in-Charley.json
 HkbaseDirectory.json
+/data/search/jieba-dict.txt
 dump
 /lib/dts2hx
 .envrc
@@ -137,3 +139,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Wrangler local state
+.wrangler

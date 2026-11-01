@@ -5,7 +5,7 @@ using charleywong.EntityTools;
 class PrivacyView extends View {
     override public function title() return 'Privacy Policy';
     override public function description() return 'Charley Wong 和你查 Privacy Policy';
-    override function canonical() return Path.join([ServerMain.domain, "privacy"]);
+    override function canonical() return Path.join([Site.domain, "privacy"]);
     override public function render() {
         return super.render();
     }
