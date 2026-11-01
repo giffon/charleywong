@@ -83,7 +83,6 @@ devcontainer-base:
         && apt-get install -y groonga libgroonga-dev groonga-bin groonga-tokenizer-mecab groonga-token-filter-stem groonga-normalizer-mysql \
         && add-apt-repository -y ppa:git-core/ppa \
         && apt-get install -y git \
-        && curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add - \
         && npm config --global set update-notifier false \
         && npm install -g yarn \
         && yarn global add lix --prefix /usr/local \
@@ -132,28 +131,15 @@ awscli:
         && rm awscliv2.zip
     SAVE ARTIFACT aws
 
-# COPY +tfenv/tfenv /tfenv
-# RUN ln -s /tfenv/bin/* /usr/local/bin
-tfenv:
-    RUN git clone --depth 1 https://github.com/tfutils/tfenv.git /tfenv
-    SAVE ARTIFACT /tfenv
-
-# COPY +terraform-ls/terraform-ls /usr/local/bin/
-terraform-ls:
+# COPY +tofu/tofu /usr/local/bin/
+tofu:
     ARG TARGETARCH
-    ARG VERSION=0.31.0 # https://github.com/hashicorp/terraform-ls/releases
-    RUN curl -fsSL -o terraform-ls.zip "https://releases.hashicorp.com/terraform-ls/${VERSION}/terraform-ls_${VERSION}_linux_${TARGETARCH}.zip" \
-        && unzip -qq terraform-ls.zip \
-        && mv ./terraform-ls /usr/local/bin/ \
-        && rm terraform-ls.zip
-    SAVE ARTIFACT /usr/local/bin/terraform-ls
-
-terraform:
-    FROM +tfenv
-    RUN ln -s /tfenv/bin/* /usr/local/bin
-    ARG --required TERRAFORM_VERSION
-    RUN tfenv install "$TERRAFORM_VERSION"
-    RUN tfenv use "$TERRAFORM_VERSION"
+    ARG VERSION=1.13.2 # https://github.com/opentofu/opentofu/releases
+    RUN curl -fsSL -o tofu.zip "https://github.com/opentofu/opentofu/releases/download/v${VERSION}/tofu_${VERSION}_linux_${TARGETARCH}.zip" \
+        && unzip -qq tofu.zip tofu \
+        && mv ./tofu /usr/local/bin/ \
+        && rm tofu.zip
+    SAVE ARTIFACT /usr/local/bin/tofu
 
 # COPY +earthly/earthly /usr/local/bin/
 # RUN earthly bootstrap --no-buildkit --with-autocomplete
@@ -171,13 +157,8 @@ devcontainer:
     COPY +awscli/aws /aws
     RUN /aws/install
 
-    # tfenv
-    COPY +tfenv/tfenv /tfenv
-    RUN ln -s /tfenv/bin/* /usr/local/bin/
-    COPY --chown=$USER_UID:$USER_GID .terraform-version /home/$USERNAME/
-    RUN tfenv install "$(cat /home/$USERNAME/.terraform-version)"
-    RUN tfenv use "$(cat /home/$USERNAME/.terraform-version)"
-    COPY +terraform-ls/terraform-ls /usr/local/bin/
+    # OpenTofu
+    COPY +tofu/tofu /usr/local/bin/
 
     # Install earthly
     COPY +earthly/earthly /usr/local/bin/
@@ -202,7 +183,7 @@ devcontainer:
     COPY +lix-download/haxe "$HAXESHIM_ROOT"
 
     # Config bash completion
-    RUN echo 'complete -C terraform terraform' >> ~/.bashrc
+    RUN echo 'complete -C tofu tofu' >> ~/.bashrc
     RUN echo "complete -C '/usr/local/bin/aws_completer' aws" >> ~/.bashrc
 
     USER root
