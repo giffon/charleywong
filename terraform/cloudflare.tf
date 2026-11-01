@@ -183,3 +183,30 @@ resource "cloudflare_dns_record" "charleywong-info-google-site-verification" {
   ttl     = 1
   proxied = false
 }
+
+# Cloudflare doesn't cache HTML/JSON by default (cf-cache-status: DYNAMIC),
+# so every page view hits API Gateway + Lambda even though the origin sends Cache-Control.
+# Make everything cacheable and let the origin's Cache-Control decide the TTLs.
+resource "cloudflare_ruleset" "charleywong-info-cache" {
+  zone_id = data.cloudflare_zone.charleywong-info.id
+  name    = "default"
+  kind    = "zone"
+  phase   = "http_request_cache_settings"
+  rules = [
+    {
+      ref         = "cache_everything"
+      description = "Cache all responses, respecting origin Cache-Control"
+      expression  = "(http.host in {\"charleywong.info\" \"master.charleywong.info\"})"
+      action      = "set_cache_settings"
+      action_parameters = {
+        cache = true
+        edge_ttl = {
+          mode = "respect_origin"
+        }
+        browser_ttl = {
+          mode = "respect_origin"
+        }
+      }
+    }
+  ]
+}
