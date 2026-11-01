@@ -42,10 +42,3 @@ resource "aws_acm_certificate_validation" "charleywong-info" {
   certificate_arn         = aws_acm_certificate.charleywong-info.arn
   validation_record_fqdns = [for record in cloudflare_dns_record.charleywong-info-aws-acm : record.name]
 }
-
-# cloudflare provider v5 renamed cloudflare_record to cloudflare_dns_record.
-# These moved blocks can be removed once applied.
-moved {
-  from = cloudflare_record.charleywong-info-aws-acm
-  to   = cloudflare_dns_record.charleywong-info-aws-acm
-}
