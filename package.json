@@ -11,10 +11,6 @@
     "dts2hx-workbox": "dts2hx workbox-core workbox-routing workbox-recipes workbox-cacheable-response workbox-expiration workbox-navigation-preload --noLibWrap --output lib/workbox",
     "tailwind": "tailwindcss -o static/css/tailwind.css --minify",
     "start": "nodemon -L index.js",
-    "search-dict": "haxe staticSite.hxml && node staticSite.js dict",
-    "static-site":"haxe staticSite.hxml && node staticSite.js build --profile-pic-origin https://img.charleywong.info",
-    "worker": "haxe worker.hxml",
-    "profile-pics": "haxe profilePic.hxml && node profilePic.js --from https://img.charleywong.info",
     "test": "haxe test.hxml"
   },
   "repository": {
