@@ -149,14 +149,6 @@ class View extends ReactComponent {
             <div className="content">
                 ${bodyContent()}
             </div>
-            <div className="mt-3 md:mt-12 text-center container max-w-screen-lg mx-auto px-4 md:px-8">
-                <div className="w-full">
-                    <a href="https://www.facebook.com/hkssprangers/posts/474379454365622/">
-                        <img className="w-full hidden sm:inline" src=${R("/images/banner-recruit-970x90.jpg")} alt="埗兵招人 誠徵佛系兼職外賣員"/>
-                        <img className="w-full inline sm:hidden" src=${R("/images/banner-recruit-570x90.jpg")} alt="埗兵招人 誠徵佛系兼職外賣員"/>
-                    </a>
-                </div>
-            </div>
             <div className="mt-3 md:mt-12 container-intro text-center color_black_o60">
                 <h3 className="pt-5 text-2xl">Charley 其實係咩?</h3>
                 
