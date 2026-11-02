@@ -12,10 +12,7 @@ import js.html.URLSearchParams;
 #end
 #if (!browser && !macro)
 import js.lib.Promise;
-import fastify.*;
-import fastify.types.instance.FastifyInstance;
-import fastify.types.reply.FastifyReply;
-import fastify.types.request.FastifyRequest;
+import js.npm.fastify.Fastify;
 #end
 using StringTools;
 using Lambda;
@@ -50,12 +47,7 @@ class StaticResource {
     #end
 
     #if (!browser && !macro)
-    static public function hook
-    <RouteGeneric, RawServer, RawRequest, RawReply, SchemaCompiler, TypeProvider, ContextConfig, Logger, RequestType, ReplyType>
-    (
-        req:FastifyRequest<RouteGeneric, RawServer, RawRequest, SchemaCompiler, TypeProvider, ContextConfig, Logger, RequestType>,
-        reply:FastifyReply<RawServer, RawRequest, RawReply, RouteGeneric, ContextConfig, SchemaCompiler, TypeProvider, ReplyType>
-    ):Promise<Any> {
+    static public function hook(req:FastifyRequest, reply:FastifyReply):Promise<Any> {
         final url = new js.html.URL(req.url, "http://example.com");
         final path = url.pathname.urlDecode();
         // if the file exists (no fingerprint)

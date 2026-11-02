@@ -6,8 +6,34 @@ import CrossFetch.fetch;
 using StringTools;
 using Lambda;
 
+typedef LatLngLiteral = {
+    lat:Float,
+    lng:Float,
+}
+
+typedef AddressComponent = {
+    long_name:String,
+    short_name:String,
+    types:Array<String>,
+}
+
+typedef PlaceDetailsResult = {
+    ?address_components:Array<AddressComponent>,
+    ?formatted_address:String,
+    ?geometry:{
+        location:LatLngLiteral,
+    },
+    ?name:String,
+    ?place_id:String,
+}
+
+typedef PlaceDetailsResponse = {
+    status:String,
+    ?error_message:String,
+    ?result:PlaceDetailsResult,
+}
+
 class GoogleMaps {
-    static public final client = new js.npm.googlemaps.Client();
     static public var GEOCODING_KEY(get, null):Null<String>;
     static function get_GEOCODING_KEY() return GEOCODING_KEY != null ? GEOCODING_KEY : GEOCODING_KEY = try {
         File.getContent("GEOCODING_KEY").trim();
@@ -15,17 +41,32 @@ class GoogleMaps {
         null;
     }
 
+    /**
+        https://developers.google.com/maps/documentation/places/web-service/legacy/details
+        Rejects with the response when its status is neither OK nor ZERO_RESULTS.
+    **/
+    static public function placeDetails(placeId:String, ?fields:Array<String>):Promise<PlaceDetailsResponse> {
+        final params = new js.html.URLSearchParams();
+        params.set("key", GEOCODING_KEY);
+        params.set("place_id", placeId);
+        if (fields != null)
+            params.set("fields", fields.join(","));
+        return fetch("https://maps.googleapis.com/maps/api/place/details/json?" + Std.string(params))
+            .then(r -> r.json())
+            .then((data:PlaceDetailsResponse) -> switch (data.status) {
+                case "OK" | "ZERO_RESULTS":
+                    Promise.resolve(data);
+                case _:
+                    // not `throw`, which would wrap it in a haxe.ValueException
+                    Promise.reject(data);
+            });
+    }
+
     static public function refreshPlaceId(placeId:String):Promise<String> {
-        return client.placeDetails({
-            params: {
-                key: GEOCODING_KEY,
-                place_id: placeId,
-                fields: ["place_id"],
-            }
-        }).then(r -> {
-            switch (r.data.result) {
+        return placeDetails(placeId, ["place_id"]).then(data -> {
+            switch (data.result) {
                 case null:
-                    throw 'Cannot refresh ${placeId}: ${r.data.status}';
+                    throw 'Cannot refresh ${placeId}: ${data.status}';
                 case result:
                     result.place_id;
             }
@@ -51,10 +92,10 @@ class GoogleMaps {
                             }
                         })
                         .catchError(err -> {
-                            if (err.code == "ERR_BAD_REQUEST" && err.response.data.status == "NOT_FOUND") {
+                            if (err.status == "NOT_FOUND") {
                                 trace('Not found: ${p.googleMapsPlaceId} (${e.id})');
-                            } else if (err.code == "ERR_BAD_REQUEST") {
-                                trace(err.response.data.error_message);
+                            } else if (err.error_message != null) {
+                                trace(err.error_message);
                             } else {
                                 trace(err);
                             }

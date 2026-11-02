@@ -3,7 +3,7 @@ package charleywong;
 import haxe.macro.Compiler;
 import js.npm.google_spreadsheet.*;
 import charleywong.ServerMain.*;
-import charleywong.GoogleServiceAccount.googleServiceAccount;
+import charleywong.GoogleServiceAccount.googleSheetsAuth;
 using Lambda;
 using StringTools;
 
@@ -101,11 +101,11 @@ class ExportSpreadsheet {
         return sheet.getRows()
             .then(function(rows){
                 for (row in rows) {
-                    switch (entityIndex.entitiesOfId[row.id]) {
+                    switch (entityIndex.entitiesOfId[row.get("id")]) {
                         case null:
-                            trace('There is no entity of id ${row.id}');
+                            trace('There is no entity of id ${row.get("id")}');
                         case e:
-                            var tags = ~/ +/g.split(row.tags);
+                            var tags = ~/ +/g.split(row.get("tags"));
                             var existing = Tag.expend(e.tags);
                             var newTags = [
                                 for (t in tags)
@@ -165,19 +165,17 @@ class ExportSpreadsheet {
 
         switch(Compiler.getDefine("CI")) {
             case null:
-                var doc = new GoogleSpreadsheet("1OXVTI1DsZK9tSulJmfXAD5-pUyRneIuM6zzwmIL_SJQ");
-                // var doc = new GoogleSpreadsheet("1HBYmXJIZE-4SDhGSv1SrKaf26Ex6FPi-4qPX_HVnUrA");
-                doc.useServiceAccountAuth(googleServiceAccount)
-                    .then(_ -> doc.loadInfo())
+                var doc = new GoogleSpreadsheet("1OXVTI1DsZK9tSulJmfXAD5-pUyRneIuM6zzwmIL_SJQ", googleSheetsAuth());
+                // var doc = new GoogleSpreadsheet("1HBYmXJIZE-4SDhGSv1SrKaf26Ex6FPi-4qPX_HVnUrA", googleSheetsAuth());
+                doc.loadInfo()
                     // .then(_ -> importTags());
                     // .then(_ -> importGoogleMapsPlaceIds());
                     .then(_ -> populateYBM(doc))
                     .then(_ -> populateIndex(doc))
                     .then(_ -> updateLastUpdateDate(doc));
             case "1":
-                var doc = new GoogleSpreadsheet("1HBYmXJIZE-4SDhGSv1SrKaf26Ex6FPi-4qPX_HVnUrA");
-                doc.useServiceAccountAuth(googleServiceAccount)
-                    .then(_ -> doc.loadInfo())
+                var doc = new GoogleSpreadsheet("1HBYmXJIZE-4SDhGSv1SrKaf26Ex6FPi-4qPX_HVnUrA", googleSheetsAuth());
+                doc.loadInfo()
                     .then(_ -> populateData(doc))
                     .then(_ -> updateLastUpdateDate(doc));
         }

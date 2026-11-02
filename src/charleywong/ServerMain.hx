@@ -6,11 +6,7 @@ import node.url.URLSearchParams;
 import js.lib.Promise;
 import js.npm.jimp.Jimp;
 import js.node.Buffer;
-import Fastify;
-import fastify.*;
-import fastify.types.instance.FastifyInstance;
-import fastify.types.reply.FastifyReply;
-import fastify.types.request.FastifyRequest;
+import js.npm.fastify.Fastify;
 import sys.io.File;
 import js.html.URL;
 import haxe.*;
@@ -24,15 +20,15 @@ using charleywong.PromiseTools;
 using StringTools;
 using Lambda;
 
-typedef Request = FastifyRequest<Dynamic,Dynamic,Dynamic,Dynamic,Dynamic,Dynamic,Dynamic,Dynamic>;
-typedef Reply = FastifyReply<Dynamic,Dynamic,Dynamic,Dynamic,Dynamic,Dynamic,Dynamic,Dynamic>;
+typedef Request = FastifyRequest;
+typedef Reply = FastifyReply;
 
 class ServerMain {
     static public final isMain = js.Syntax.code("require.main") == module;
     static public final domain = Site.domain;
     static public final dataDirectory = "data/entity";
     static public final entityIndex:EntityIndex = EntityIndex.loadFromDirectory(dataDirectory);
-    static public var app:FastifyInstance<Dynamic,Dynamic,Dynamic,Dynamic,Dynamic>;
+    static public var app:FastifyInstance;
 
     static function noQuery(req:Request, ?allowed:Iterable<String>):URL {
         final url = new URL(req.url, domain);
@@ -208,7 +204,7 @@ class ServerMain {
 
         return ProfilePic.render(entity)
             .then(buf -> reply
-                .header("Content-Type", Jimp.MIME_PNG)
+                .header("Content-Type", JimpMime.png)
                 .header("Cache-Control", "public, max-age=86400, stale-while-revalidate=604800") // max-age: 1 day, stale-while-revalidate: 7 days
                 .send(buf)
             )
@@ -261,7 +257,7 @@ class ServerMain {
         final url = new node.url.URL(req.raw.url, "http://example.com");
         if (url.pathname.endsWith('/') && url.pathname.length > 1) {
             final redirectTo = url.pathname.substr(0, url.pathname.length-1) + url.search;
-            reply.redirect(301, redirectTo);
+            reply.redirect(redirectTo, 301);
         }
         return Promise.resolve();
     }
@@ -271,7 +267,7 @@ class ServerMain {
             case "charleywong.giffon.io":
                 final redirectTo = Path.join([domain, req.url]);
                 trace('redirect to $redirectTo');
-                reply.redirect(301, redirectTo);
+                reply.redirect(redirectTo, 301);
             case _:
                 // pass
         }
@@ -724,19 +720,13 @@ class ServerMain {
             return Promise.resolve(null);
         }
 
-        final gmapsClient = GoogleMaps.client;
         final geocodings = [
             for (p in entity.places)
             if (needGeocode(p))
-            gmapsClient.placeDetails({
-                params: {
-                    place_id: p.googleMapsPlaceId,
-                    key: GoogleMaps.GEOCODING_KEY,
-                }
-            }).then(response -> {
-                switch (response.data.result) {
+            GoogleMaps.placeDetails(p.googleMapsPlaceId).then(data -> {
+                switch (data.result) {
                     case null:
-                        trace('Cannot geocode ${p.googleMapsPlaceId}: ${response.data.status}');
+                        trace('Cannot geocode ${p.googleMapsPlaceId}: ${data.status}');
                     case result:
                         p.coordinates = result.geometry.location;
                         p.area = switch (result.address_components.find(c -> c.types.has("country"))) {

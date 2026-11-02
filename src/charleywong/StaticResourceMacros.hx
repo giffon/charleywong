@@ -10,9 +10,6 @@ import js.node.Buffer;
 import js.node.http.IncomingMessage;
 import js.html.URLSearchParams;
 #end
-#if server
-import fastify.*;
-#end
 using StringTools;
 using Lambda;
 

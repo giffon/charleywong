@@ -6,14 +6,14 @@ extern class GoogleSpreadsheetWorksheet {
     public function loadCells(?opts:Dynamic):Promise<Void>;
     public function getCell(rowIndex:Int, columnIndex:Int):GoogleSpreadsheetCell;
     public function getCellByA1(address:String):GoogleSpreadsheetCell;
-    public function loadHeaderRow(headerValues:Array<String>):Promise<Void>;
+    public function loadHeaderRow(?headerRowIndex:Int):Promise<Void>;
     public function setHeaderRow(headerValues:Array<String>):Promise<Void>;
     public function addRow(rowValues:Dynamic, ?opts:Dynamic):Promise<GoogleSpreadsheetRow>;
     public function addRows<T>(arrayOfRowValues:Array<T>, ?opts:Dynamic):Promise<Array<GoogleSpreadsheetRow>>;
     public function getRows(?opts:Dynamic):Promise<Array<GoogleSpreadsheetRow>>;
     public function saveUpdatedCells():Promise<Void>;
     public function saveCells(cells:Array<GoogleSpreadsheetCell>):Promise<Void>;
-    public function clear():Promise<Void>;
+    public function clear(?a1Range:String):Promise<Void>;
     public function delete():Promise<Void>;
     public function copyToSpreadsheet(destinationSpreadsheetId:String):Promise<Void>;
     public function updateProperties(props:Dynamic):Promise<Void>;

@@ -5,9 +5,10 @@ import js.lib.Promise;
 
 @:jsRequire("google-spreadsheet", "GoogleSpreadsheet")
 extern class GoogleSpreadsheet {
-    public function new(sheetId:String):Void;
-    public function useServiceAccountAuth(opts:Dynamic):Promise<Void>;
-    public function useApiKey(apiKey:String):Void;
+    /**
+        `auth` is e.g. a `js.npm.google_auth_library.JWT`, or `{apiKey: "..."}`.
+    **/
+    public function new(sheetId:String, auth:Dynamic):Void;
     public function loadInfo():Promise<Void>;
     public function updateProperties(opts:Dynamic):Promise<Void>;
     public function addSheet(opts:Dynamic):Promise<GoogleSpreadsheetWorksheet>;

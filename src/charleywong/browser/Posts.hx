@@ -7,7 +7,6 @@ import react.*;
 import react.ReactComponent;
 import react.ReactMacro.jsx;
 import js.npm.react_facebook.ReactFacebook;
-import js.npm.react_telegram_embed.TelegramEmbed;
 import js.Browser.*;
 import charleywong.Instagram;
 import charleywong.Entity;

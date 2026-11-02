@@ -22,4 +22,16 @@ class GoogleServiceAccount {
                 private_key: private_key,
             };
     }
+
+    #if js
+    static public function googleSheetsAuth():js.npm.google_auth_library.JWT {
+        if (googleServiceAccount == null)
+            throw 'Set GOOGLE_CLIENT_EMAIL and GOOGLE_PRIVATE_KEY, or put the service account key in $serviceAccountFile';
+        return new js.npm.google_auth_library.JWT({
+            email: googleServiceAccount.client_email,
+            key: googleServiceAccount.private_key,
+            scopes: ["https://www.googleapis.com/auth/spreadsheets"],
+        });
+    }
+    #end
 }

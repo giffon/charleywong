@@ -2,8 +2,8 @@ package charleywong;
 
 #if js
 import js.html.URL;
-import js.npm.google_spreadsheet.GoogleSpreadsheet;
-import charleywong.GoogleServiceAccount.googleServiceAccount;
+import js.npm.google_spreadsheet.*;
+import charleywong.GoogleServiceAccount.googleSheetsAuth;
 import charleywong.UrlExtractors.*;
 #end
 
@@ -28,7 +28,6 @@ typedef HkbaseDump = Array<HkbaseData>;
 class HkbaseDirectory {
     #if js
     static final sheetId = "1tZ-ODQRQFI1bzvekxkR0g4eULcPk9D3BZTOYbvYWdt8";
-    static final doc = new GoogleSpreadsheet(sheetId);
     #end
     static final localCacheFile = "HkbaseDirectory.json";
 
@@ -87,8 +86,8 @@ class HkbaseDirectory {
     }
 
     #if js
-    static function strCol(row:Dynamic, colName:String):Null<String> {
-        return switch (row.field(colName)) {
+    static function strCol(row:GoogleSpreadsheetRow, colName:String):Null<String> {
+        return switch (row.get(colName)) {
             case null:
                 throw '$colName not found in $row';
             case v:
@@ -101,7 +100,7 @@ class HkbaseDirectory {
         }
     }
 
-    static function urlCol(row:Dynamic, colName:String):Null<String> {
+    static function urlCol(row:GoogleSpreadsheetRow, colName:String):Null<String> {
         var str = strCol(row, colName);
         if (str == null)
             return str;
@@ -112,7 +111,7 @@ class HkbaseDirectory {
         return UrlExtractors.cleanUrl(str);
     }
 
-    static function telCol(row:Dynamic, colName:String):Null<String> {
+    static function telCol(row:GoogleSpreadsheetRow, colName:String):Null<String> {
         var str = strCol(row, colName);
         if (str == null)
             return str;
@@ -124,8 +123,8 @@ class HkbaseDirectory {
         return str;
     }
 
-    static function floatCol(row:Dynamic, colName:String):Null<Float> {
-        return switch (row.field(colName)) {
+    static function floatCol(row:GoogleSpreadsheetRow, colName:String):Null<Float> {
+        return switch (row.get(colName)) {
             case null:
                 throw '$colName not found in $row';
             case "":
@@ -135,7 +134,7 @@ class HkbaseDirectory {
         }
     }
 
-    static function dumpToFile() {
+    static function dumpToFile(doc:GoogleSpreadsheet) {
         var sheet = doc.sheetsByIndex[0];
         sheet.loadCells()
             .then(_ -> sheet.getRows())
@@ -160,9 +159,9 @@ class HkbaseDirectory {
     }
 
     static public function dump() {
-        return doc.useServiceAccountAuth(googleServiceAccount)
-            .then(_ -> doc.loadInfo())
-            .then(_ -> dumpToFile());
+        final doc = new GoogleSpreadsheet(sheetId, googleSheetsAuth());
+        return doc.loadInfo()
+            .then(_ -> dumpToFile(doc));
     }
 
     static function main():Void {

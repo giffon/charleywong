@@ -1,16 +1,10 @@
 package charleywong;
 
-import fastify.types.reply.FastifyReply;
+import js.npm.fastify.Fastify;
 import react.*;
 
 class ReplyTools {
-    static public function sendView
-    <RawServer, RawRequest, RawReply, RouteGeneric, ContextConfig, SchemaCompiler, TypeProvider, ReplyType>
-    (
-        reply:FastifyReply<RawServer, RawRequest, RawReply, RouteGeneric, ContextConfig, SchemaCompiler, TypeProvider, ReplyType>,
-        view,
-        ?props:Dynamic
-    ) {
+    static public function sendView(reply:FastifyReply, view, ?props:Dynamic) {
         if (props == null)
             props = {};
 

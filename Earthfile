@@ -267,12 +267,8 @@ node-modules-dev:
 dts2hx:
     FROM +node-modules-dev
     # dts2hx prints thousands of TypeScript parse errors that seem to get the step killed in CI; only show the log on failure
-    RUN npx dts2hx @types/node cross-fetch @types/chrome @types/which-polygon abort-controller fastify sitemap --noLibWrap --useSystemHaxe --output lib/dts2hx > /tmp/dts2hx.log 2>&1 || (cat /tmp/dts2hx.log; exit 1)
-    RUN find lib/dts2hx -name "*.hx" -exec sed -i s/ajv.lib.ajv.[A-Za-z0-9]*/Dynamic/g {} \;
-    # Remove the incorrect numbers of type params errors
-    RUN perl -i -pe 's/FastifyServerOptions(?!<[^,>]+,[^,>]+>)(<.+?>)?/Dynamic/g' lib/dts2hx/fastify/FastifyServerOptions.hx
-    RUN perl -i -pe 's/FastifyHttpsOptions(?!<[^,>]+,[^,>]+>)(<.+?>)?/Dynamic/g' lib/dts2hx/fastify/FastifyHttpsOptions.hx
-    RUN perl -i -pe 's/FastifyHttpOptions(?!<[^,>]+,[^,>]+>)(<.+?>)?/Dynamic/g' lib/dts2hx/fastify/FastifyHttpOptions.hx
+    # fastify is not included because dts2hx (TypeScript 3.7) cannot parse its types; see src/js/npm/fastify instead
+    RUN npx dts2hx @types/node cross-fetch @types/chrome @types/which-polygon abort-controller sitemap --noLibWrap --useSystemHaxe --output lib/dts2hx > /tmp/dts2hx.log 2>&1 || (cat /tmp/dts2hx.log; exit 1)
     SAVE ARTIFACT lib/dts2hx AS LOCAL lib/dts2hx
     SAVE IMAGE --cache-hint
 

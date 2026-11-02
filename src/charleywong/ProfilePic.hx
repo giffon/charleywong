@@ -15,23 +15,20 @@ using Lambda;
     which is used as the og:image and the profile pic on the entity page.
 **/
 class ProfilePic {
-    static final font = Jimp.loadFont(Jimp.FONT_SANS_64_BLACK);
+    static final font = JimpText.loadFont(JimpFonts.SANS_64_BLACK);
 
     static function getPicOfText(text:String):Promise<Buffer> {
         if (text == null || text.trim() == "") {
-            return Jimp.create(1, 1, "#FFFFFF").then(img -> img.getBufferAsync(Jimp.MIME_PNG));
+            return new Jimp({width: 1, height: 1, color: "#FFFFFF"}).getBuffer(JimpMime.png);
         }
         return font.then(function(font) {
-            final tw = Jimp.measureText(font, text);
-            final th = Jimp.measureTextHeight(font, text);
+            final tw = JimpText.measureText(font, text);
+            final th = JimpText.measureTextHeight(font, text);
             final padding = 20;
             final size = Std.int(Math.max(tw, th) + padding + padding);
-            return Jimp.create(size, size, "#FFFFFF")
-                .then(function(img) {
-                    return img
-                        .print(font, padding, size * 0.5 - th * 0.5, text)
-                        .getBufferAsync(Jimp.MIME_PNG);
-                });
+            return new Jimp({width: size, height: size, color: "#FFFFFF"})
+                .print({font: font, x: padding, y: size * 0.5 - th * 0.5, text: text})
+                .getBuffer(JimpMime.png);
         });
     }
 
@@ -109,12 +106,10 @@ class ProfilePic {
                     .then(function(args) {
                         final pic:Jimp = args[0];
                         final frame:Jimp = args[1];
-                        return Jimp.create(width, height, "#f4a948")
-                            .then(img -> img
-                                .composite(pic.resize(w, w), (width - height) * 0.5 + border, border)
-                                .composite(frame, 0, 0)
-                                .getBufferAsync(Jimp.MIME_PNG)
-                            );
+                        return new Jimp({width: width, height: height, color: "#f4a948"})
+                            .composite(pic.resize({w: w, h: w}), (width - height) * 0.5 + border, border)
+                            .composite(frame, 0, 0)
+                            .getBuffer(JimpMime.png);
                     });
             });
     }
