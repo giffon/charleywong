@@ -1,5 +1,11 @@
 locals {
-  cloudflare_account_id = data.cloudflare_zone.charleywong-info.account.id
+  cloudflare_account_id = "f184c98e4ba41baaf6a081d9d6e599e6"
+}
+
+resource "cloudflare_r2_bucket" "terraform" {
+  account_id = local.cloudflare_account_id
+  name       = "charleywong-terraform"
+  location   = "APAC"
 }
 
 data "cloudflare_account_api_token_permission_groups_list" "r2-write" {
