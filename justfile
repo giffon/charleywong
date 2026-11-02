@@ -41,9 +41,9 @@ static-site: _static-site-js
 worker:
     haxe worker.hxml
 
-# Preview the static site and the Worker locally
 # `wrangler dev` watches each asset with its own file descriptor. With ~20k assets, the fd numbers exceed
 # macOS's OPEN_MAX (10240), which makes every spawn fail with EBADF. Polling doesn't hold any fd.
+[doc("Preview the static site and the Worker locally")]
 preview: static-site worker
     CHOKIDAR_USEPOLLING=1 CHOKIDAR_INTERVAL=5000 wrangler dev
 
