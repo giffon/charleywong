@@ -1,4 +1,4 @@
 # AWS config used only by the OpenTofu S3 backend (terraform.tf) to reach R2.
 # Fetches the R2 keys from SSM with the ambient AWS credentials. No secrets here.
 [profile charleywong-r2]
-credential_process = sh -c 'printf "{\"Version\":1,\"AccessKeyId\":\"%s\",\"SecretAccessKey\":\"%s\"}" "$(aws ssm get-parameter --name r2-access-key-id --with-decryption --query Parameter.Value --output text)" "$(aws ssm get-parameter --name r2-secret-access-key --with-decryption --query Parameter.Value --output text)"'
+credential_process = sh -c 'printf "{\"Version\":1,\"AccessKeyId\":\"%s\",\"SecretAccessKey\":\"%s\"}" "$(aws ssm get-parameter --name charleywong-r2-access-key-id --with-decryption --query Parameter.Value --output text)" "$(aws ssm get-parameter --name charleywong-r2-secret-access-key --with-decryption --query Parameter.Value --output text)"'
