@@ -28,26 +28,6 @@ resource "cloudflare_dns_record" "charleywong-master" {
   proxied = true
 }
 
-
-resource "cloudflare_dns_record" "charleywong-dev-A" {
-  zone_id = data.cloudflare_zone.giffonio.id
-  name    = "charleywong-dev"
-  content = "37.16.16.171"
-  type    = "A"
-  ttl     = 1
-  proxied = true
-}
-
-resource "cloudflare_dns_record" "charleywong-dev-AAAA" {
-  zone_id = data.cloudflare_zone.giffonio.id
-  name    = "charleywong-dev"
-  content = "2a09:8280:1::44f4"
-  type    = "AAAA"
-  ttl     = 1
-  proxied = true
-}
-
-
 resource "cloudflare_dns_record" "charleywong-info-mx10" {
   zone_id  = data.cloudflare_zone.charleywong-info.id
   name     = "charleywong.info"
