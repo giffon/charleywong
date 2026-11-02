@@ -47,6 +47,11 @@ worker:
 preview: static-site worker
     CHOKIDAR_USEPOLLING=1 CHOKIDAR_INTERVAL=5000 wrangler dev
 
+# Write the R2 keys (from SSM, created in terraform/r2.tf) for rclone into the gitignored mise.local.toml
+rclone-r2-keys:
+    aws ssm get-parameter --name r2-access-key-id --with-decryption --query Parameter.Value --output text | tr -d '\n' | mise set --file mise.local.toml --stdin RCLONE_CONFIG_R2_ACCESS_KEY_ID
+    aws ssm get-parameter --name r2-secret-access-key --with-decryption --query Parameter.Value --output text | tr -d '\n' | mise set --file mise.local.toml --stdin RCLONE_CONFIG_R2_SECRET_ACCESS_KEY
+
 # Render the missing entity profile pics into dist/img, e.g. `just profile-pics --force` or `just profile-pics <id>...`
 profile-pics *args:
     haxe profilePic.hxml

@@ -16,6 +16,6 @@ rclone = "1"
 [env]
 # Project-local rclone config
 RCLONE_CONFIG = "{{config_root}}/rclone.conf"
-# R2 keys should go in the gitignored mise.local.toml
+# R2 keys should go in the gitignored mise.local.toml (`just rclone-r2-keys`)
 # RCLONE_CONFIG_R2_ACCESS_KEY_ID = "FIXME"
 # RCLONE_CONFIG_R2_SECRET_ACCESS_KEY = "FIXME"
