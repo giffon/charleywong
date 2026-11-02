@@ -7,7 +7,15 @@ aws-cli = { version = "2", symlink_bins = "true" }
 wrangler = { version = "4", allow_builds = ["esbuild", "sharp", "workerd"] }
 cloudflare-cf = "latest"
 opentofu = "1.13.2"
+rclone = "1"
 
 # The project uses lix to manage the Haxe compiler and libraries.
 # The lix tool itself is installed via npm.
 "npm:lix" = "latest"
+
+[env]
+# Project-local rclone config
+RCLONE_CONFIG = "{{config_root}}/rclone.conf"
+# R2 keys should go in the gitignored mise.local.toml
+# RCLONE_CONFIG_R2_ACCESS_KEY_ID = "FIXME"
+# RCLONE_CONFIG_R2_SECRET_ACCESS_KEY = "FIXME"

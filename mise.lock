@@ -222,6 +222,53 @@ checksum_source = "mise-versions"
 url = "https://github.com/opentofu/opentofu/releases/download/v1.13.2/tofu_1.13.2_windows_amd64.tar.gz"
 url_api = "https://api.github.com/repos/opentofu/opentofu/releases/assets/662742635"
 
+[[tools.rclone]]
+version = "1.75.2"
+backend = "aqua:rclone/rclone"
+specifiers = ["1"]
+
+[tools.rclone."platforms.linux-arm64"]
+checksum = "sha256:7e1e8d69654941b7b7df84ee74c5f7fb09cce7d5496947fb7bf16b55ff427d10"
+checksum_source = "mise-versions"
+url = "https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-arm64.zip"
+url_api = "https://api.github.com/repos/rclone/rclone/releases/assets/624698085"
+
+[tools.rclone."platforms.linux-arm64-musl"]
+checksum = "sha256:7e1e8d69654941b7b7df84ee74c5f7fb09cce7d5496947fb7bf16b55ff427d10"
+checksum_source = "mise-versions"
+url = "https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-arm64.zip"
+url_api = "https://api.github.com/repos/rclone/rclone/releases/assets/624698085"
+
+[tools.rclone."platforms.linux-x64"]
+checksum = "sha256:349ac8fba6ff65d6247043f1750cdcb518ec5d500ef91463a10d37c0ccdf3702"
+checksum_source = "mise-versions"
+url = "https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-amd64.zip"
+url_api = "https://api.github.com/repos/rclone/rclone/releases/assets/624695998"
+
+[tools.rclone."platforms.linux-x64-musl"]
+checksum = "sha256:349ac8fba6ff65d6247043f1750cdcb518ec5d500ef91463a10d37c0ccdf3702"
+checksum_source = "mise-versions"
+url = "https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-amd64.zip"
+url_api = "https://api.github.com/repos/rclone/rclone/releases/assets/624695998"
+
+[tools.rclone."platforms.macos-arm64"]
+checksum = "sha256:610ab7d48615135dfc60b763858b11a426a0d3d1160c1bb76fb0ae6011b02edd"
+checksum_source = "mise-versions"
+url = "https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-osx-arm64.zip"
+url_api = "https://api.github.com/repos/rclone/rclone/releases/assets/624713742"
+
+[tools.rclone."platforms.macos-x64"]
+checksum = "sha256:574e1f31cf1c464e5fb0325cb66fcbdeaf1efa1802bd9b17f13c256fd74b6561"
+checksum_source = "mise-versions"
+url = "https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-osx-amd64.zip"
+url_api = "https://api.github.com/repos/rclone/rclone/releases/assets/624713102"
+
+[tools.rclone."platforms.windows-x64"]
+checksum = "sha256:8a9db2bad1dc79a65b3348fd857069598e2aab7cf4d118b77b1df23055aff818"
+checksum_source = "mise-versions"
+url = "https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-windows-amd64.zip"
+url_api = "https://api.github.com/repos/rclone/rclone/releases/assets/624717601"
+
 [[tools.wrangler]]
 version = "4.156.0"
 aube = { path = ".mise/locks/wrangler/4.156.0~d1f80b8e", digest = "sha256:710fd8fc68b4eea0c322297f25c3af570b7907e9b060132b0df0e0262d578127" }

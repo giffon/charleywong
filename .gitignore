@@ -142,3 +142,17 @@ dist
 
 # Wrangler local state
 .wrangler
+
+# https://mise.jdx.dev/configuration.html
+# https://mise.jdx.dev/configuration/environments.html
+.mise.*.local.toml
+.mise.local.toml
+mise.*.local.toml
+mise.local.toml
+.mise/*.local.toml
+mise/*.local.toml
+
+# https://mise.jdx.dev/dev-tools/mise-lock.html#local-lockfiles
+# https://mise.jdx.dev/dev-tools/mise-lock.html#environment-specific-lockfiles
+mise.local.lock
+mise.*.local.lock
